@@ -1,59 +1,63 @@
 ---
-title: "Use field security to control access to field values (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Use field security to control access to field values (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Provides field-level security to restrict access to high business impact (custom and OOB) fields to specific users and teams."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "field-level security in CRM, when aggregating on secured attributes"
-  - "field-level security in CRM, explained"
-  - "field-level security in CRM, when ordering on secured attributes"
-  - "controlling access to field values by using field-level security"
-  - "field-level security in CRM, behavior of secured fields when sharing records"
-  - "secured fields"
-  - "field-level security in CRM, behavior of secured fields for Create or Update"
-  - "field-level security in CRM, when grouping on secured attributes"
-  - "field-level security in CRM, behavior of secured fields for filtered views or offline synchronization"
-  - "using field-level security to control access to field values in CRM"
-  - "security roles that allow access to secured fields"
-  - "field-level security in CRM, secured attributes in column sets"
-  - "field-level security in CRM, secured attributes in the filter condition"
+  - field-level security in CRM, when aggregating on secured attributes
+  - field-level security in CRM, explained
+  - field-level security in CRM, when ordering on secured attributes
+  - controlling access to field values by using field-level security
+  - field-level security in CRM, behavior of secured fields when sharing records
+  - secured fields
+  - field-level security in CRM, behavior of secured fields for Create or Update
+  - field-level security in CRM, when grouping on secured attributes
+  - field-level security in CRM, behavior of secured fields for filtered views or offline synchronization
+  - using field-level security to control access to field values in CRM
+  - security roles that allow access to secured fields
+  - field-level security in CRM, secured attributes in column sets
+  - field-level security in CRM, secured attributes in the filter condition
 ms.assetid: bd42f612-f01c-47dd-9859-69f6024af263
 caps.latest.revision: 42
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Use field security to control access to field values
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you use field-level security to restrict access to high business impact fields to specific users and teams. For example, you use this to enable only certain users to read or update the credit score for a customer. For this release, field-level security can be applied to both custom fields and many out-of-box (OOB) fields.  
+In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps, you use field-level security to restrict access to high business impact fields to specific users and teams. For example, you use this to enable only certain users to read or update the credit score for a customer. For this release, field-level security can be applied to both custom fields and many out-of-box (OOB) fields.  
   
  The following steps describe how to restrict access to a field:  
   
-1.  Enable field-level security for an attribute  
+1. Enable field-level security for an attribute  
   
-2.  Create a field-level security profile  
+2. Create a field-level security profile  
   
-3.  Associate users or teams with the profile  
+3. Associate users or teams with the profile  
   
-4.  Add specific field permissions, such as Create, Update or Read for a specific attribute to the profile  
+4. Add specific field permissions, such as Create, Update or Read for a specific attribute to the profile  
   
- The following diagram shows the interaction between role-based security, record-based security, and field-level security.  
+   The following diagram shows the interaction between role-based security, record-based security, and field-level security.  
   
- ![Role&#45;based compared to field&#45;level security](../media/crm-v5s-sm-fieldlevelsecurity.png "Role-based compared to field-level security")  
+   ![Role&#45;based compared to field&#45;level security](../media/crm-v5s-sm-fieldlevelsecurity.png "Role-based compared to field-level security")  
   
- Role-based security lets you see a specific entity type, record-based security lets you see individual records, and field-level security lets you see specific fields.  
+   Role-based security lets you see a specific entity type, record-based security lets you see individual records, and field-level security lets you see specific fields.  
   
- [Video: Field Level Security in Microsoft Dynamics CRM 2015](http://youtu.be/Czc9sKvWd9k)  
+   [Video: Field Level Security in Microsoft Dynamics CRM 2015](http://youtu.be/Czc9sKvWd9k)  
   
 ## Frequently asked questions  
   
@@ -75,19 +79,19 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
 ## Which attributes can be secured?  
  To see which attributes can be secured, you can query the entity metadata for the following properties:  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForCreate>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForCreate>  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForRead>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForRead>  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForUpdate>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForUpdate>  
   
- There are thousands of attributes that can be secured, so there are two easier ways to look for this information. [!INCLUDE[metadata_browser](../../includes/metadata-browser.md)]  
+  There are thousands of attributes that can be secured, so there are two easier ways to look for this information. [!INCLUDE[metadata_browser](../../includes/metadata-browser.md)]  
   
- There are a few additional rules that apply to certain attribute data types:  
+  There are a few additional rules that apply to certain attribute data types:  
   
--   Boolean attributes can be secured for create and update operations but not for read.  
+- Boolean attributes can be secured for create and update operations but not for read.  
   
--   Option set attributes can be secured for create, update, and read when a default value is unspecified.  
+- Option set attributes can be secured for create, update, and read when a default value is unspecified.  
   
 <a name="BKMK_SecurityRoles"></a>   
 ## Which security roles allow you to see secured fields?  
@@ -125,7 +129,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
 ### When grouping on secured attributes  
  If the caller (or impersonated user) does not have access to the attribute used for grouping, the value is treated as **null** and the results are grouped together with all **null** values.  
   
- In the following example, the caller has access to some attributes. **Bold** indicates no access to attributes, also indicated with *. *Italics* indicate a record for which the caller does not have read access, also indicated with **.  
+ In the following example, the caller has access to some attributes. **Bold** indicates no access to attributes, also indicated with <em>. *Italics</em> indicate a record for which the caller does not have read access, also indicated with **.  
   
 |Name|Description|Number of orders|State|  
 |----------|-----------------|----------------------|-----------|  
@@ -148,7 +152,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
 ### When ordering on secured attributes  
  If the caller (or impersonated user) does not have access to secured fields that are included in an order by condition, the values will be treated as if they are **null**.  
   
- In the following example, the caller has access to attributes that are in plain text. **Bold** indicates no access to attributes, also indicated with an asterisk (*). *Italics* indicate a record for which the caller does not have read access, also indicated with **.  
+ In the following example, the caller has access to attributes that are in plain text. **Bold** indicates no access to attributes, also indicated with an asterisk (<em>). *Italics</em> indicate a record for which the caller does not have read access, also indicated with **.  
   
 |Name|Description|CanbeContacted|  
 |----------|-----------------|--------------------|  
@@ -184,6 +188,6 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
   
 ### See also  
  [Video: Field Level Security in Microsoft Dynamics CRM 2015](http://youtu.be/Czc9sKvWd9k)   
- [The Security Model of Microsoft Dynamics 365](security-model.md)   
- [How role-based security can be used to control access to entities in Microsoft Dynamics 365](how-role-based-security-control-access-entities.md)   
+ [The Security Model of Microsoft Dynamics 365 for Customer Engagement](security-model.md)   
+ [How role-based security can be used to control access to entities in Microsoft Dynamics 365 for Customer Engagement](how-role-based-security-control-access-entities.md)   
  [Use record-based security to control access to records](use-record-based-security-control-access-records.md)

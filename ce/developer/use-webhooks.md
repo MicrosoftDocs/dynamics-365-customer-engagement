@@ -1,19 +1,23 @@
 ---
-title: "Use webhooks to create external handlers for server events(Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Use webhooks to create external handlers for server events(Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "You can send data about events that occur on the server to a web application using webhooks. Webhooks is a lightweight HTTP pattern for connecting Web APIs and services with a publish/subscribe model. webhook senders notify receivers about events by making requests to receiver endpoints with some information about the events."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/18/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8994bbac-951f-478a-972c-debe1afedaf9
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use webhooks to create external handlers for server events
 
@@ -25,7 +29,7 @@ Webhooks enable developers and ISV’s to integrate Customer Engagement data wit
 
 When deciding between the webhook model and the [!INCLUDE [Azure Service Bus](../includes/pn-azure-service-bus.md)] integration, here are some items to keep in mind:
 
-- [!INCLUDE [Azure Service Bus](../includes/pn-azure-service-bus.md)] works for high scale processing, and provides a full queueing mechanism if [!INCLUDE [Dynamics 365](../includes/pn-dyn-365.md)] is pushing many events.
+- [!INCLUDE [Azure Service Bus](../includes/pn-azure-service-bus.md)] works for high scale processing, and provides a full queueing mechanism if [!INCLUDE [Dynamics 365 for Customer Engagement](../includes/pn-dyn-365.md)] is pushing many events.
 - Webhooks can only scale to the point at which your hosted web service can handle the messages.
 - Webhooks enables synchronous and asynchronous steps. [!INCLUDE [Azure Service Bus](../includes/pn-azure-service-bus.md)] only allows for asynchronous steps.
 - Webhooks send POST requests with JSON payload and can be consumed by any programming language or web application hosted anywhere.
@@ -37,7 +41,7 @@ When deciding between the webhook model and the [!INCLUDE [Azure Service Bus](..
 There are three parts to using web hooks:
 
 - Creating or configuring a service to consume webhook requests.
-- Registering webhook step on the [!INCLUDE [Dynamics 365](../includes/pn-dyn-365.md)] service, or
+- Registering webhook step on the [!INCLUDE [Dynamics 365 for Customer Engagement](../includes/pn-dyn-365.md)] service, or
 - Invoking a webhook from a plug-in or custom workflow activity. 
 
 This topic will start by explaining how to register a webhook and how to test the registration using a request logging site. This information will help inform you about the requirements in creating and configuring a service designed to consume webhook requests which is explained in [Create or Configure a service to consume webhook requests](#create-or-configure).
@@ -61,7 +65,7 @@ When you register a webhook you must provide three items of information:
 
 ### Authentication options
 
-The correct webhook registration authentication option and values to use depend on what the endpoint expects.  The owner of the endpoint must tell you what to use. To use webhooks with [!INCLUDE [Dynamics 365](../includes/pn-dyn-365.md)], the endpoint must allow one of the three authentication options described below:
+The correct webhook registration authentication option and values to use depend on what the endpoint expects.  The owner of the endpoint must tell you what to use. To use webhooks with [!INCLUDE [Dynamics 365 for Customer Engagement](../includes/pn-dyn-365.md)], the endpoint must allow one of the three authentication options described below:
 
 
 |Type  |Description  |
@@ -194,7 +198,6 @@ You can use this FetchXML to get the same information in one query where *&lt;se
     </link-entity>
   </entity>
 </fetch>
-
 ```
 
 <a name="query-failed-asynchronous-jobs-for-a-given-step"></a>
@@ -212,7 +215,7 @@ When you know the **sdkmessageprocessingstepid** of a given step, you can query 
 <fetch>
   <entity name="asyncoperation" >
     <attribute name="name" />
-    	<attribute name="friendlymessage" />
+        <attribute name="friendlymessage" />
     <attribute name="errorcode" />
     <attribute name="message" />
     <attribute name="completedon" />     
@@ -229,17 +232,17 @@ When you know the **sdkmessageprocessingstepid** of a given step, you can query 
 Before you move on to create or configure a service to consume web hooks, you should test what kind of data the service will receive so that you can know what kind of data you will need to process. For this purpose, you can use one of several request logging sites. For the purpose of this example, we will use [RequestBin](https://requestb.in/) to configure a target for the webhook requests. Use the following steps:
 
 1. Go to [https://requestb.in/](https://requestb.in/) and click **Create a RequestBin**.
-1. The next page will provide a Bin URL like : `https://requestb.in/<random string>`. Copy this URL.
-1. Refresh the page and the page URL will change to `https://requestb.in/<random string>?inspect` and will show that no requests have been made to the URL.
-1. Use the plugin registration tool to register a new webhook as described under [Register a webhook](#register-a-webhook). Use the URL you copied in step 2 as the **Endpoint URL**. Set a name and any authentication properties you want. Request Bin will not evaluate these values in the way that an actual site that will process the data should, but you can see how they will be passed through.
-1. Use the plugin registration tool to register a step using the webhook you created in step 4 as described in [Register a step for a webhook](#register-a-step-for-a-webhook). Make sure to use an event that you can easily perform by editing data in the [!INCLUDE [Dynamics 365](../includes/pn-dyn-365.md)] application, such as updating a contact entity.
-1. Use the [!INCLUDE [Dynamics 365](../includes/pn-dyn-365.md)] app to perform the operation to trigger the event.
-1. After you trigger the event, return to the `https://requestb.in/<random string>?inspect` page from step 3 and refresh the page. You should discover a page similar to the following:
+2. The next page will provide a Bin URL like : `https://requestb.in/<random string>`. Copy this URL.
+3. Refresh the page and the page URL will change to `https://requestb.in/<random string>?inspect` and will show that no requests have been made to the URL.
+4. Use the plugin registration tool to register a new webhook as described under [Register a webhook](#register-a-webhook). Use the URL you copied in step 2 as the **Endpoint URL**. Set a name and any authentication properties you want. Request Bin will not evaluate these values in the way that an actual site that will process the data should, but you can see how they will be passed through.
+5. Use the plugin registration tool to register a step using the webhook you created in step 4 as described in [Register a step for a webhook](#register-a-step-for-a-webhook). Make sure to use an event that you can easily perform by editing data in the [!INCLUDE [Dynamics 365 for Customer Engagement](../includes/pn-dyn-365.md)] application, such as updating a contact entity.
+6. Use the [!INCLUDE [Dynamics 365 for Customer Engagement](../includes/pn-dyn-365.md)] app to perform the operation to trigger the event.
+7. After you trigger the event, return to the `https://requestb.in/<random string>?inspect` page from step 3 and refresh the page. You should discover a page similar to the following:
 
     ![An example of the request logged on the request bin web site](media/request-bin-example.png)
 
 > [!NOTE]
-> The results viewed on this site do not necessarily represent the capitalization of the values sent. Http headers are case-insensitive and the RequestBin site appears to apply some formatting rules to make the values easier to read. However, values sent by [!INCLUDE [Dynamics 365](../includes/pn-dyn-365.md)] are all lower-case regardless of what is displayed here. More information: [Header Data](#header-data)
+> The results viewed on this site do not necessarily represent the capitalization of the values sent. Http headers are case-insensitive and the RequestBin site appears to apply some formatting rules to make the values easier to read. However, values sent by [!INCLUDE [Dynamics 365 for Customer Engagement](../includes/pn-dyn-365.md)] are all lower-case regardless of what is displayed here. More information: [Header Data](#header-data)
 
 This example shows the data that is passed in the webhook request for the update of a contact where the webhook is registered to pass **HttpHeader** authentication key value pairs:
 
@@ -517,7 +520,6 @@ In this example, the contact's first name was changed from 'Jim' to 'James'.
     "Stage": 40,
     "UserId": "75c2dd85-e89e-e711-8122-000d3aa2331c"
 }
-
 ```
 > [!IMPORTANT]
 > When the size of the entire HTTP payload exceeds 256KB, the `x-ms-dynamics-msg-size-exceeded` header will be included and the following <xref:Microsoft.Xrm.Sdk.RemoteExecutionContext> properties will be removed:
@@ -537,9 +539,9 @@ Because a webhook is a kind of service endpoint you can also invoke it without r
 ### See also
 [Extend Customer Engagement on the server](extend-dynamics-365-server.md)<br />
 [Write plug-ins to extend business processes](write-plugin-extend-business-processes.md)<br />
-[Automate your business processes in Customer Engagement](automate-business-processes-customer-engagement.md)<br />
-[Asynchronous service in Dynamics 365 Customer Engagement](asynchronous-service.md)<br />
-[Azure extensions for Dynamics 365 Customer Engagement](azure-extensions.md)<br />
+[Automate your business processes in Customer Engagement apps](automate-business-processes-customer-engagement.md)<br />
+[Asynchronous service in Dynamics 365 for Customer Engagement apps](asynchronous-service.md)<br />
+[Azure extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)<br />
 [Sample: Azure aware custom plug-in](sample-azure-aware-custom-plugin.md)<br />
 [Sample: Azure aware custom workflow activity](sample-azure-aware-custom-workflow-activity.md)<br />
 [Azure Functions](https://azure.microsoft.com/services/functions/)<br />

@@ -1,12 +1,12 @@
 ---
 title: "eBooks and videos | Microsoft Docs"
-description: "Find the latest videos and eBooks for Dynamics 365."
-keywords: "videos, redirect"
+description: "Find the latest videos and eBooks for Dynamics 365 for Customer Engagement."
+keywords: videos, redirect
 ms.date: 01/15/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to:
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 47af356d-6a65-44a2-a0d8-1f2020fc9e03
 author: m-hartmann
 ms.author: mhart

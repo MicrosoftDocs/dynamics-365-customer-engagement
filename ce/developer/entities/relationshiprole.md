@@ -1,15 +1,19 @@
 ---
-title: "RelationshipRole Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "RelationshipRole Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the RelationshipRole entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # RelationshipRole Entity Reference
 
@@ -462,6 +466,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_relationship_role_customer_opportunity_roles"></a> relationship_role_customer_opportunity_roles
 
 Same as customeropportunityrole entity [relationship_role_customer_opportunity_roles](customeropportunityrole.md#BKMK_relationship_role_customer_opportunity_roles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customeropportunityrole|
@@ -476,6 +481,7 @@ Same as customeropportunityrole entity [relationship_role_customer_opportunity_r
 ### <a name="BKMK_relationship_role_relationship_role_map"></a> relationship_role_relationship_role_map
 
 Same as relationshiprolemap entity [relationship_role_relationship_role_map](relationshiprolemap.md#BKMK_relationship_role_relationship_role_map) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|relationshiprolemap|
@@ -490,6 +496,7 @@ Same as relationshiprolemap entity [relationship_role_relationship_role_map](rel
 ### <a name="BKMK_relationship_role_customer_role"></a> relationship_role_customer_role
 
 Same as customerrelationship entity [relationship_role_customer_role](customerrelationship.md#BKMK_relationship_role_customer_role) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customerrelationship|
@@ -504,6 +511,7 @@ Same as customerrelationship entity [relationship_role_customer_role](customerre
 ### <a name="BKMK_relationship_role_partner_role"></a> relationship_role_partner_role
 
 Same as customerrelationship entity [relationship_role_partner_role](customerrelationship.md#BKMK_relationship_role_partner_role) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customerrelationship|
@@ -518,6 +526,7 @@ Same as customerrelationship entity [relationship_role_partner_role](customerrel
 ### <a name="BKMK_userentityinstancedata_relationshiprole"></a> userentityinstancedata_relationshiprole
 
 Same as userentityinstancedata entity [userentityinstancedata_relationshiprole](userentityinstancedata.md#BKMK_userentityinstancedata_relationshiprole) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -532,6 +541,7 @@ Same as userentityinstancedata entity [userentityinstancedata_relationshiprole](
 ### <a name="BKMK_RelationshipRole_ProcessSessions"></a> RelationshipRole_ProcessSessions
 
 Same as processsession entity [RelationshipRole_ProcessSessions](processsession.md#BKMK_RelationshipRole_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -546,6 +556,7 @@ Same as processsession entity [RelationshipRole_ProcessSessions](processsession.
 ### <a name="BKMK_RelationshipRole_BulkDeleteFailures"></a> RelationshipRole_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [RelationshipRole_BulkDeleteFailures](bulkdeletefailure.md#BKMK_RelationshipRole_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -560,6 +571,7 @@ Same as bulkdeletefailure entity [RelationshipRole_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_RelationshipRole_AsyncOperations"></a> RelationshipRole_AsyncOperations
 
 Same as asyncoperation entity [RelationshipRole_AsyncOperations](asyncoperation.md#BKMK_RelationshipRole_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -606,6 +618,6 @@ See organization Entity [organization_relationship_roles](organization.md#BKMK_o
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.relationshiprole?text=relationshiprole EntityType" />

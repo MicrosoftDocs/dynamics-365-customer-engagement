@@ -1,16 +1,16 @@
 ---
-title: "Specify properties for Unified Interface apps in PowerApps | MicrosoftDocs"
+title: "Specify properties for Unified Interface apps | MicrosoftDocs"
 description: "Learn how to configure the grid control for your app"
-keywords: ""
-ms.date: 04/24/2018
+keywords: 
+ms.date: 01/09/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 3ecea4a7-0d18-4ccd-9609-3a62179e9e1b
 ms.author: matp
 manager: kvivek
@@ -19,12 +19,16 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 0
 topic-status: Drafting
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 
 # Specify properties for Unified Interface apps
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 The Unified Interface framework uses responsive design principles to provide an optimal viewing and interaction experience for any screen size or orientation. With model-driven apps that use the Unified Interface framework, the grid (view) control is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the grid is transformed into a list. 
 
@@ -46,9 +50,9 @@ Adding the Read Only Grid control to your controls list allows you to  configure
 3. Select **Read Only Grid** from the list of controls, and then choose **Add**.
 
     The control is added to the list of available controls.
-   
+
     ![Select a control](media/UnifiedInterface_ReadOnlyGrid_SelectControl.png "Select a Control")
-    
+
 4. Select the devices (**Web**, **Phone**, or **Tablet**) for which you want to make the grid read-only.
 
     ![Select the device type](media/UnifiedInterface_ReadOnlyGrid_SelectDevice.png "Select devices")
@@ -61,30 +65,31 @@ Adding the Read Only Grid control to your controls list allows you to  configure
 
     ![Edit card form](media/UnifiedInterface_ReadOnlyGrid_CardForm.png "Edit card form")
 
-    b.	Select the **Entity** and **Card Form** types.
+    b.  Select the **Entity** and **Card Form** types.
 
     ![Card form properties](media/UnifiedInterface_ReadOnlyGrid_CardFormProperties.png "Card form properties")
 
     c. Choose **OK**.
 6. Configure the **Reflow behavior** property. 
-    
+
     a. Choose the pencil icon next to **Reflow behavior**.
 
     ![Edit Reflow behaviour](media/UnifiedInterface_ReadOnlyGrid_EditReflow.png "Edit Reflow behaviour")
 
     b. Select the grid flow type from **Bind to static options** drop down.
+
     |Flow Type|Description|
     |--------------|--------------------|
     |**Reflow**|Allows the grid to render into list mode depending when there is no enough display space.|
     |**Grid Only**|Restricts the grid to reflow into list even when there is no enough display space.|
     |**List Only**|Displays only as a list even when there is enough space to display as grid.|
-    
+
      ![Reflow behaviour properties](media/UnifiedInterface_ReadOnlyGrid_ReflowProperties.png "Reflow behaviour properties")
 
     c. Choose **OK**.
 
 
-7.	Save and publish the changes. 
+7. Save and publish the changes. 
 
 
 ## Conditional image

@@ -1,16 +1,23 @@
 ---
 title: "Permissions and user roles in Social Engagement | Microsoft Docs"
 description: "Learn how to work with user roles and their permissions."
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
 ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to: Social Engagement
 ms.assetid: 05b070fd-7b33-440d-bf6d-e527639ede8c
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 # Assign permissions and user roles
 Manage user permissions by assigning user roles for newly licensed users and editing user roles for existing users. Learn how to contact licensed users by email in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
@@ -44,12 +51,12 @@ Manage user permissions by assigning user roles for newly licensed users and edi
   
 > [!TIP]
 >  You can use the **Search for users** input field to find licensed users of your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. Additionally, you can filter for users with a specific role by choosing a role in the **Configuration role** or **Interaction role** drop-down list.  
-  
+> 
 > [!NOTE]
 >  The specified user will receive an email with the updated user roles and permissions.  
->   
+> 
 >  Bulk editing user roles is limited to newly invited users.  
->   
+> 
 >  Users that are listed as Delegated Administrator always have Administrator and Manager user roles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. A lock icon ![Lock button](media/lock-icon.png "Lock button") next to the user’s name indicates that you can’t change the permissions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a partner as a delegated admin](delegated-admin.md), [Understand user roles](user-roles.md)  
   
 <a name="EmailUsers"></a>   

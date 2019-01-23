@@ -1,18 +1,17 @@
 ---
-title: "Work with accounts and contacts (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+title: "Work with accounts and contacts (Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+ms.date: 08/11/2018
+ms.service: crm-online
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf
-caps.latest.revision: 22
-ms.author: "shujoshi"
+ms.author: shujoshi
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Work with accounts and contacts in Customer Engagement apps
 
@@ -32,7 +31,7 @@ If you work mostly with other companies, you’ll probably want to use accounts 
   
 1. [!INCLUDE[proc_sales_accounts](../includes/proc-sales-accounts.md)]  
   
-2.  Choose **New**.  
+2. Choose **New**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -42,7 +41,7 @@ If you work mostly with other companies, you’ll probably want to use accounts 
   
 1. [!INCLUDE[proc_sales_accounts](../includes/proc-sales-accounts.md)]  
   
-2.  Open the account and change the information that you want.  
+2. Open the account and change the information that you want.  
   
 3. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
@@ -53,18 +52,18 @@ Use contacts to keep track of the people you do business with. Learn how to impo
   
 1. [!INCLUDE[proc_contacts](../includes/proc-contacts.md)]  
   
-2.  You’ll see a list of your active contacts. [!INCLUDE[proc_need_to_scroll](../includes/proc-need-to-scroll.md)]  
+2. You’ll see a list of your active contacts. [!INCLUDE[proc_need_to_scroll](../includes/proc-need-to-scroll.md)]  
   
-    > [!TIP]
-    > [!INCLUDE[proc_most_recently_used_lead_in](../includes/proc-most-recently-used-lead-in.md)] On the nav bar, next to **Contacts**, choose ![User profile security option More Options button](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button"). [!INCLUDE[proc_most_recently_used_conc](../includes/proc-most-recently-used-conc.md)]  
+   > [!TIP]
+   > [!INCLUDE[proc_most_recently_used_lead_in](../includes/proc-most-recently-used-lead-in.md)] On the nav bar, next to **Contacts**, choose ![User profile security option More Options button](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button"). [!INCLUDE[proc_most_recently_used_conc](../includes/proc-most-recently-used-conc.md)]  
   
-3.  Click or tap a person’s name to see the details for the contact.  
+3. Click or tap a person’s name to see the details for the contact.  
   
 ## Create a contact  
   
 1. [!INCLUDE[proc_contacts](../includes/proc-contacts.md)]  
   
-2.  Choose **New**.  
+2. Choose **New**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -74,12 +73,12 @@ Use contacts to keep track of the people you do business with. Learn how to impo
   
 1. [!INCLUDE[proc_contacts](../includes/proc-contacts.md)]  
   
-2.  Open the contact and change the information that you want.  
+2. Open the contact and change the information that you want.  
   
 3. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
 ### See also  
- [Find your way around Dynamics 365](../basics/navigation-customer-engagement-enterprise.md)
+ [Find your way around Dynamics 365 for Customer Engagement apps](../basics/navigation-customer-engagement-enterprise.md)  
  [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)   
  [Import contacts](../basics/import-contacts.md)    
  [Deactivate or activate an account or contact](../basics/deactivate-activate-account-contact.md)   
@@ -87,4 +86,5 @@ Use contacts to keep track of the people you do business with. Learn how to impo
  [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)   
  [Stay up-to-date with customer news with the activity feed](../basics/stay-up-date-with-customer-news-with-activity-feed.md)   
  [Assign a record to a user or team](../basics/assign-record-user-team.md)   
- [Run a report](../basics/run-report.md)   
+ [Run a report](../basics/run-report.md)  
+ [Organize contacts in live org charts](../sales-enterprise/live-org-chart.md) 

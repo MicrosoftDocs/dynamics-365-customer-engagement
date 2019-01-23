@@ -1,15 +1,19 @@
 ---
-title: "msdyn_delegation Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_delegation Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_delegation entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_delegation Entity Reference
 
@@ -700,6 +704,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_delegation_SyncErrors"></a> msdyn_delegation_SyncErrors
 
 Same as syncerror entity [msdyn_delegation_SyncErrors](syncerror.md#BKMK_msdyn_delegation_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -714,6 +719,7 @@ Same as syncerror entity [msdyn_delegation_SyncErrors](syncerror.md#BKMK_msdyn_d
 ### <a name="BKMK_msdyn_delegation_DuplicateMatchingRecord"></a> msdyn_delegation_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_delegation_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_delegation_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -728,6 +734,7 @@ Same as duplicaterecord entity [msdyn_delegation_DuplicateMatchingRecord](duplic
 ### <a name="BKMK_msdyn_delegation_DuplicateBaseRecord"></a> msdyn_delegation_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_delegation_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_delegation_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -742,6 +749,7 @@ Same as duplicaterecord entity [msdyn_delegation_DuplicateBaseRecord](duplicater
 ### <a name="BKMK_msdyn_delegation_AsyncOperations"></a> msdyn_delegation_AsyncOperations
 
 Same as asyncoperation entity [msdyn_delegation_AsyncOperations](asyncoperation.md#BKMK_msdyn_delegation_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -756,6 +764,7 @@ Same as asyncoperation entity [msdyn_delegation_AsyncOperations](asyncoperation.
 ### <a name="BKMK_msdyn_delegation_MailboxTrackingFolders"></a> msdyn_delegation_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_delegation_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_delegation_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -770,6 +779,7 @@ Same as mailboxtrackingfolder entity [msdyn_delegation_MailboxTrackingFolders](m
 ### <a name="BKMK_msdyn_delegation_UserEntityInstanceDatas"></a> msdyn_delegation_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_delegation_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_delegation_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -784,6 +794,7 @@ Same as userentityinstancedata entity [msdyn_delegation_UserEntityInstanceDatas]
 ### <a name="BKMK_msdyn_delegation_ProcessSession"></a> msdyn_delegation_ProcessSession
 
 Same as processsession entity [msdyn_delegation_ProcessSession](processsession.md#BKMK_msdyn_delegation_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -798,6 +809,7 @@ Same as processsession entity [msdyn_delegation_ProcessSession](processsession.m
 ### <a name="BKMK_msdyn_delegation_BulkDeleteFailures"></a> msdyn_delegation_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_delegation_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_delegation_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -812,6 +824,7 @@ Same as bulkdeletefailure entity [msdyn_delegation_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_msdyn_delegation_PrincipalObjectAttributeAccesses"></a> msdyn_delegation_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_delegation_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_delegation_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -826,6 +839,7 @@ Same as principalobjectattributeaccess entity [msdyn_delegation_PrincipalObjectA
 ### <a name="BKMK_msdyn_delegation_Annotations"></a> msdyn_delegation_Annotations
 
 Same as annotation entity [msdyn_delegation_Annotations](annotation.md#BKMK_msdyn_delegation_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -892,6 +906,6 @@ See bookableresource Entity [msdyn_bookableresource_msdyn_delegation_delegationt
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_delegation?text=msdyn_delegation EntityType" />

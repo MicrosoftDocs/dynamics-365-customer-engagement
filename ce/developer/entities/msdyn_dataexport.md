@@ -1,15 +1,19 @@
 ---
-title: "msdyn_dataexport Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_dataexport Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_dataexport entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_dataexport Entity Reference
 
@@ -691,6 +695,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_dataexport_SyncErrors"></a> msdyn_dataexport_SyncErrors
 
 Same as syncerror entity [msdyn_dataexport_SyncErrors](syncerror.md#BKMK_msdyn_dataexport_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -705,6 +710,7 @@ Same as syncerror entity [msdyn_dataexport_SyncErrors](syncerror.md#BKMK_msdyn_d
 ### <a name="BKMK_msdyn_dataexport_DuplicateMatchingRecord"></a> msdyn_dataexport_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_dataexport_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_dataexport_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -719,6 +725,7 @@ Same as duplicaterecord entity [msdyn_dataexport_DuplicateMatchingRecord](duplic
 ### <a name="BKMK_msdyn_dataexport_DuplicateBaseRecord"></a> msdyn_dataexport_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_dataexport_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_dataexport_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -733,6 +740,7 @@ Same as duplicaterecord entity [msdyn_dataexport_DuplicateBaseRecord](duplicater
 ### <a name="BKMK_msdyn_dataexport_AsyncOperations"></a> msdyn_dataexport_AsyncOperations
 
 Same as asyncoperation entity [msdyn_dataexport_AsyncOperations](asyncoperation.md#BKMK_msdyn_dataexport_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -747,6 +755,7 @@ Same as asyncoperation entity [msdyn_dataexport_AsyncOperations](asyncoperation.
 ### <a name="BKMK_msdyn_dataexport_MailboxTrackingFolders"></a> msdyn_dataexport_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_dataexport_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_dataexport_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -761,6 +770,7 @@ Same as mailboxtrackingfolder entity [msdyn_dataexport_MailboxTrackingFolders](m
 ### <a name="BKMK_msdyn_dataexport_UserEntityInstanceDatas"></a> msdyn_dataexport_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_dataexport_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_dataexport_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -775,6 +785,7 @@ Same as userentityinstancedata entity [msdyn_dataexport_UserEntityInstanceDatas]
 ### <a name="BKMK_msdyn_dataexport_ProcessSession"></a> msdyn_dataexport_ProcessSession
 
 Same as processsession entity [msdyn_dataexport_ProcessSession](processsession.md#BKMK_msdyn_dataexport_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -789,6 +800,7 @@ Same as processsession entity [msdyn_dataexport_ProcessSession](processsession.m
 ### <a name="BKMK_msdyn_dataexport_BulkDeleteFailures"></a> msdyn_dataexport_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_dataexport_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_dataexport_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -803,6 +815,7 @@ Same as bulkdeletefailure entity [msdyn_dataexport_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_msdyn_dataexport_PrincipalObjectAttributeAccesses"></a> msdyn_dataexport_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_dataexport_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_dataexport_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -817,6 +830,7 @@ Same as principalobjectattributeaccess entity [msdyn_dataexport_PrincipalObjectA
 ### <a name="BKMK_msdyn_dataexport_Annotations"></a> msdyn_dataexport_Annotations
 
 Same as annotation entity [msdyn_dataexport_Annotations](annotation.md#BKMK_msdyn_dataexport_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -873,6 +887,6 @@ See businessunit Entity [business_unit_msdyn_dataexport](businessunit.md#BKMK_bu
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_dataexport?text=msdyn_dataexport EntityType" />

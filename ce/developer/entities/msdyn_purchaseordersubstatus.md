@@ -1,15 +1,19 @@
 ---
-title: "msdyn_purchaseordersubstatus Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_purchaseordersubstatus Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_purchaseordersubstatus entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_purchaseordersubstatus Entity Reference
 
@@ -359,7 +363,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -466,7 +470,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -646,6 +650,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_purchaseordersubstatus_ActivityPointers"></a> msdyn_purchaseordersubstatus_ActivityPointers
 
 Same as activitypointer entity [msdyn_purchaseordersubstatus_ActivityPointers](activitypointer.md#BKMK_msdyn_purchaseordersubstatus_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -660,6 +665,7 @@ Same as activitypointer entity [msdyn_purchaseordersubstatus_ActivityPointers](a
 ### <a name="BKMK_msdyn_purchaseordersubstatus_msdyn_approvals"></a> msdyn_purchaseordersubstatus_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_purchaseordersubstatus_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_purchaseordersubstatus_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -674,6 +680,7 @@ Same as msdyn_approval entity [msdyn_purchaseordersubstatus_msdyn_approvals](msd
 ### <a name="BKMK_msdyn_purchaseordersubstatus_msdyn_bookingalerts"></a> msdyn_purchaseordersubstatus_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_purchaseordersubstatus_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_purchaseordersubstatus_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -688,6 +695,7 @@ Same as msdyn_bookingalert entity [msdyn_purchaseordersubstatus_msdyn_bookingale
 ### <a name="BKMK_msdyn_purchaseordersubstatus_SyncErrors"></a> msdyn_purchaseordersubstatus_SyncErrors
 
 Same as syncerror entity [msdyn_purchaseordersubstatus_SyncErrors](syncerror.md#BKMK_msdyn_purchaseordersubstatus_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -702,6 +710,7 @@ Same as syncerror entity [msdyn_purchaseordersubstatus_SyncErrors](syncerror.md#
 ### <a name="BKMK_msdyn_purchaseordersubstatus_DuplicateMatchingRecord"></a> msdyn_purchaseordersubstatus_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_purchaseordersubstatus_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_purchaseordersubstatus_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -716,6 +725,7 @@ Same as duplicaterecord entity [msdyn_purchaseordersubstatus_DuplicateMatchingRe
 ### <a name="BKMK_msdyn_purchaseordersubstatus_DuplicateBaseRecord"></a> msdyn_purchaseordersubstatus_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_purchaseordersubstatus_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_purchaseordersubstatus_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -730,6 +740,7 @@ Same as duplicaterecord entity [msdyn_purchaseordersubstatus_DuplicateBaseRecord
 ### <a name="BKMK_msdyn_purchaseordersubstatus_AsyncOperations"></a> msdyn_purchaseordersubstatus_AsyncOperations
 
 Same as asyncoperation entity [msdyn_purchaseordersubstatus_AsyncOperations](asyncoperation.md#BKMK_msdyn_purchaseordersubstatus_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -744,6 +755,7 @@ Same as asyncoperation entity [msdyn_purchaseordersubstatus_AsyncOperations](asy
 ### <a name="BKMK_msdyn_purchaseordersubstatus_MailboxTrackingFolders"></a> msdyn_purchaseordersubstatus_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_purchaseordersubstatus_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_purchaseordersubstatus_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -758,6 +770,7 @@ Same as mailboxtrackingfolder entity [msdyn_purchaseordersubstatus_MailboxTracki
 ### <a name="BKMK_msdyn_purchaseordersubstatus_UserEntityInstanceDatas"></a> msdyn_purchaseordersubstatus_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_purchaseordersubstatus_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_purchaseordersubstatus_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -772,6 +785,7 @@ Same as userentityinstancedata entity [msdyn_purchaseordersubstatus_UserEntityIn
 ### <a name="BKMK_msdyn_purchaseordersubstatus_ProcessSession"></a> msdyn_purchaseordersubstatus_ProcessSession
 
 Same as processsession entity [msdyn_purchaseordersubstatus_ProcessSession](processsession.md#BKMK_msdyn_purchaseordersubstatus_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -786,6 +800,7 @@ Same as processsession entity [msdyn_purchaseordersubstatus_ProcessSession](proc
 ### <a name="BKMK_msdyn_purchaseordersubstatus_BulkDeleteFailures"></a> msdyn_purchaseordersubstatus_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_purchaseordersubstatus_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_purchaseordersubstatus_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -800,6 +815,7 @@ Same as bulkdeletefailure entity [msdyn_purchaseordersubstatus_BulkDeleteFailure
 ### <a name="BKMK_msdyn_purchaseordersubstatus_PrincipalObjectAttributeAccesses"></a> msdyn_purchaseordersubstatus_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_purchaseordersubstatus_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_purchaseordersubstatus_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -814,6 +830,7 @@ Same as principalobjectattributeaccess entity [msdyn_purchaseordersubstatus_Prin
 ### <a name="BKMK_msdyn_purchaseordersubstatus_Appointments"></a> msdyn_purchaseordersubstatus_Appointments
 
 Same as appointment entity [msdyn_purchaseordersubstatus_Appointments](appointment.md#BKMK_msdyn_purchaseordersubstatus_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -828,6 +845,7 @@ Same as appointment entity [msdyn_purchaseordersubstatus_Appointments](appointme
 ### <a name="BKMK_msdyn_purchaseordersubstatus_Emails"></a> msdyn_purchaseordersubstatus_Emails
 
 Same as email entity [msdyn_purchaseordersubstatus_Emails](email.md#BKMK_msdyn_purchaseordersubstatus_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -842,6 +860,7 @@ Same as email entity [msdyn_purchaseordersubstatus_Emails](email.md#BKMK_msdyn_p
 ### <a name="BKMK_msdyn_purchaseordersubstatus_Faxes"></a> msdyn_purchaseordersubstatus_Faxes
 
 Same as fax entity [msdyn_purchaseordersubstatus_Faxes](fax.md#BKMK_msdyn_purchaseordersubstatus_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -856,6 +875,7 @@ Same as fax entity [msdyn_purchaseordersubstatus_Faxes](fax.md#BKMK_msdyn_purcha
 ### <a name="BKMK_msdyn_purchaseordersubstatus_Letters"></a> msdyn_purchaseordersubstatus_Letters
 
 Same as letter entity [msdyn_purchaseordersubstatus_Letters](letter.md#BKMK_msdyn_purchaseordersubstatus_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -870,6 +890,7 @@ Same as letter entity [msdyn_purchaseordersubstatus_Letters](letter.md#BKMK_msdy
 ### <a name="BKMK_msdyn_purchaseordersubstatus_PhoneCalls"></a> msdyn_purchaseordersubstatus_PhoneCalls
 
 Same as phonecall entity [msdyn_purchaseordersubstatus_PhoneCalls](phonecall.md#BKMK_msdyn_purchaseordersubstatus_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -884,6 +905,7 @@ Same as phonecall entity [msdyn_purchaseordersubstatus_PhoneCalls](phonecall.md#
 ### <a name="BKMK_msdyn_purchaseordersubstatus_Tasks"></a> msdyn_purchaseordersubstatus_Tasks
 
 Same as task entity [msdyn_purchaseordersubstatus_Tasks](task.md#BKMK_msdyn_purchaseordersubstatus_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -898,6 +920,7 @@ Same as task entity [msdyn_purchaseordersubstatus_Tasks](task.md#BKMK_msdyn_purc
 ### <a name="BKMK_msdyn_purchaseordersubstatus_RecurringAppointmentMasters"></a> msdyn_purchaseordersubstatus_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_purchaseordersubstatus_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_purchaseordersubstatus_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -912,6 +935,7 @@ Same as recurringappointmentmaster entity [msdyn_purchaseordersubstatus_Recurrin
 ### <a name="BKMK_msdyn_purchaseordersubstatus_SocialActivities"></a> msdyn_purchaseordersubstatus_SocialActivities
 
 Same as socialactivity entity [msdyn_purchaseordersubstatus_SocialActivities](socialactivity.md#BKMK_msdyn_purchaseordersubstatus_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -926,6 +950,7 @@ Same as socialactivity entity [msdyn_purchaseordersubstatus_SocialActivities](so
 ### <a name="BKMK_msdyn_purchaseordersubstatus_connections1"></a> msdyn_purchaseordersubstatus_connections1
 
 Same as connection entity [msdyn_purchaseordersubstatus_connections1](connection.md#BKMK_msdyn_purchaseordersubstatus_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -940,6 +965,7 @@ Same as connection entity [msdyn_purchaseordersubstatus_connections1](connection
 ### <a name="BKMK_msdyn_purchaseordersubstatus_connections2"></a> msdyn_purchaseordersubstatus_connections2
 
 Same as connection entity [msdyn_purchaseordersubstatus_connections2](connection.md#BKMK_msdyn_purchaseordersubstatus_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -954,6 +980,7 @@ Same as connection entity [msdyn_purchaseordersubstatus_connections2](connection
 ### <a name="BKMK_msdyn_purchaseordersubstatus_Annotations"></a> msdyn_purchaseordersubstatus_Annotations
 
 Same as annotation entity [msdyn_purchaseordersubstatus_Annotations](annotation.md#BKMK_msdyn_purchaseordersubstatus_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -968,6 +995,7 @@ Same as annotation entity [msdyn_purchaseordersubstatus_Annotations](annotation.
 ### <a name="BKMK_msdyn_purchaseordersubstatus_ServiceAppointments"></a> msdyn_purchaseordersubstatus_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_purchaseordersubstatus_ServiceAppointments](serviceappointment.md#BKMK_msdyn_purchaseordersubstatus_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -982,6 +1010,7 @@ Same as serviceappointment entity [msdyn_purchaseordersubstatus_ServiceAppointme
 ### <a name="BKMK_msdyn_msdyn_purchaseordersubstatus_msdyn_purchaseorder_SubStatus"></a> msdyn_msdyn_purchaseordersubstatus_msdyn_purchaseorder_SubStatus
 
 Same as msdyn_purchaseorder entity [msdyn_msdyn_purchaseordersubstatus_msdyn_purchaseorder_SubStatus](msdyn_purchaseorder.md#BKMK_msdyn_msdyn_purchaseordersubstatus_msdyn_purchaseorder_SubStatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorder|
@@ -1038,6 +1067,6 @@ See businessunit Entity [business_unit_msdyn_purchaseordersubstatus](businessuni
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_purchaseordersubstatus?text=msdyn_purchaseordersubstatus EntityType" />

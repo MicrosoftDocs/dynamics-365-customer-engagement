@@ -1,19 +1,23 @@
 ---
-title: "AppConfigMaster Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "AppConfigMaster Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the AppConfigMaster entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # AppConfigMaster Entity Reference
 
-Contains the master list of all properties that can be customized for apps in Dynamics 365. For internal use only.
+Contains the master list of all properties that can be customized for apps in Dynamics 365 for Customer Engagement apps. For internal use only.
 
 
 ## Messages
@@ -168,7 +172,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Shows who created the record on behalfÂ of another user.|
+|Description|Shows who created the record on behalfÂ of another user.|
 |DisplayName|Created By (Delegate)|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -450,6 +454,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_appconfigmaster_appconfiginstance"></a> appconfigmaster_appconfiginstance
 
 Same as appconfiginstance entity [appconfigmaster_appconfiginstance](appconfiginstance.md#BKMK_appconfigmaster_appconfiginstance) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appconfiginstance|
@@ -496,6 +501,6 @@ See organization Entity [organization_appconfigmaster](organization.md#BKMK_orga
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.appconfigmaster?text=appconfigmaster EntityType" />

@@ -1,15 +1,19 @@
 ---
-title: "Opportunity Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Opportunity Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Opportunity entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Opportunity Entity Reference
 
@@ -791,6 +795,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_AccountManagerId"></a> msdyn_AccountManagerId
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The account manager responsible for the opportunity.|
@@ -806,6 +811,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ContractOrganizationalUnitId"></a> msdyn_ContractOrganizationalUnitId
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The organizational unit in charge of the opportunity.|
@@ -821,6 +827,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_OrderType"></a> msdyn_OrderType
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Internal use only.|
@@ -844,6 +851,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_WorkOrderType"></a> msdyn_WorkOrderType
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for Work Order Type associated with Opportunity.|
@@ -2796,6 +2804,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Opportunity_ActivityPointers"></a> Opportunity_ActivityPointers
 
 Same as activitypointer entity [Opportunity_ActivityPointers](activitypointer.md#BKMK_Opportunity_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -2810,6 +2819,7 @@ Same as activitypointer entity [Opportunity_ActivityPointers](activitypointer.md
 ### <a name="BKMK_Opportunity_SyncErrors"></a> Opportunity_SyncErrors
 
 Same as syncerror entity [Opportunity_SyncErrors](syncerror.md#BKMK_Opportunity_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2824,6 +2834,7 @@ Same as syncerror entity [Opportunity_SyncErrors](syncerror.md#BKMK_Opportunity_
 ### <a name="BKMK_opportunity_activity_parties"></a> opportunity_activity_parties
 
 Same as activityparty entity [opportunity_activity_parties](activityparty.md#BKMK_opportunity_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -2838,6 +2849,7 @@ Same as activityparty entity [opportunity_activity_parties](activityparty.md#BKM
 ### <a name="BKMK_Opportunity_DuplicateMatchingRecord"></a> Opportunity_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Opportunity_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Opportunity_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2852,6 +2864,7 @@ Same as duplicaterecord entity [Opportunity_DuplicateMatchingRecord](duplicatere
 ### <a name="BKMK_Opportunity_DuplicateBaseRecord"></a> Opportunity_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Opportunity_DuplicateBaseRecord](duplicaterecord.md#BKMK_Opportunity_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2866,6 +2879,7 @@ Same as duplicaterecord entity [Opportunity_DuplicateBaseRecord](duplicaterecord
 ### <a name="BKMK_Opportunity_SharepointDocumentLocation"></a> Opportunity_SharepointDocumentLocation
 
 Same as sharepointdocumentlocation entity [Opportunity_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_Opportunity_SharepointDocumentLocation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -2880,6 +2894,7 @@ Same as sharepointdocumentlocation entity [Opportunity_SharepointDocumentLocatio
 ### <a name="BKMK_Opportunity_SharepointDocument"></a> Opportunity_SharepointDocument
 
 Same as sharepointdocument entity [Opportunity_SharepointDocument](sharepointdocument.md#BKMK_Opportunity_SharepointDocument) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -2894,6 +2909,7 @@ Same as sharepointdocument entity [Opportunity_SharepointDocument](sharepointdoc
 ### <a name="BKMK_opportunity_Teams"></a> opportunity_Teams
 
 Same as team entity [opportunity_Teams](team.md#BKMK_opportunity_Teams) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|team|
@@ -2908,6 +2924,7 @@ Same as team entity [opportunity_Teams](team.md#BKMK_opportunity_Teams) Many-To-
 ### <a name="BKMK_Opportunity_AsyncOperations"></a> Opportunity_AsyncOperations
 
 Same as asyncoperation entity [Opportunity_AsyncOperations](asyncoperation.md#BKMK_Opportunity_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2922,6 +2939,7 @@ Same as asyncoperation entity [Opportunity_AsyncOperations](asyncoperation.md#BK
 ### <a name="BKMK_Opportunity_MailboxTrackingFolder"></a> Opportunity_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [Opportunity_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Opportunity_MailboxTrackingFolder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -2936,6 +2954,7 @@ Same as mailboxtrackingfolder entity [Opportunity_MailboxTrackingFolder](mailbox
 ### <a name="BKMK_userentityinstancedata_opportunity"></a> userentityinstancedata_opportunity
 
 Same as userentityinstancedata entity [userentityinstancedata_opportunity](userentityinstancedata.md#BKMK_userentityinstancedata_opportunity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2950,6 +2969,7 @@ Same as userentityinstancedata entity [userentityinstancedata_opportunity](usere
 ### <a name="BKMK_Opportunity_ProcessSessions"></a> Opportunity_ProcessSessions
 
 Same as processsession entity [Opportunity_ProcessSessions](processsession.md#BKMK_Opportunity_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2964,6 +2984,7 @@ Same as processsession entity [Opportunity_ProcessSessions](processsession.md#BK
 ### <a name="BKMK_Opportunity_BulkDeleteFailures"></a> Opportunity_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Opportunity_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Opportunity_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2978,6 +2999,7 @@ Same as bulkdeletefailure entity [Opportunity_BulkDeleteFailures](bulkdeletefail
 ### <a name="BKMK_opportunity_principalobjectattributeaccess"></a> opportunity_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [opportunity_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_opportunity_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -2992,6 +3014,7 @@ Same as principalobjectattributeaccess entity [opportunity_principalobjectattrib
 ### <a name="BKMK_Opportunity_Appointments"></a> Opportunity_Appointments
 
 Same as appointment entity [Opportunity_Appointments](appointment.md#BKMK_Opportunity_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -3006,6 +3029,7 @@ Same as appointment entity [Opportunity_Appointments](appointment.md#BKMK_Opport
 ### <a name="BKMK_Opportunity_Emails"></a> Opportunity_Emails
 
 Same as email entity [Opportunity_Emails](email.md#BKMK_Opportunity_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -3020,6 +3044,7 @@ Same as email entity [Opportunity_Emails](email.md#BKMK_Opportunity_Emails) Many
 ### <a name="BKMK_Opportunity_Faxes"></a> Opportunity_Faxes
 
 Same as fax entity [Opportunity_Faxes](fax.md#BKMK_Opportunity_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -3034,6 +3059,7 @@ Same as fax entity [Opportunity_Faxes](fax.md#BKMK_Opportunity_Faxes) Many-To-On
 ### <a name="BKMK_Opportunity_Letters"></a> Opportunity_Letters
 
 Same as letter entity [Opportunity_Letters](letter.md#BKMK_Opportunity_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -3048,6 +3074,7 @@ Same as letter entity [Opportunity_Letters](letter.md#BKMK_Opportunity_Letters) 
 ### <a name="BKMK_Opportunity_Phonecalls"></a> Opportunity_Phonecalls
 
 Same as phonecall entity [Opportunity_Phonecalls](phonecall.md#BKMK_Opportunity_Phonecalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -3062,6 +3089,7 @@ Same as phonecall entity [Opportunity_Phonecalls](phonecall.md#BKMK_Opportunity_
 ### <a name="BKMK_Opportunity_Tasks"></a> Opportunity_Tasks
 
 Same as task entity [Opportunity_Tasks](task.md#BKMK_Opportunity_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -3076,6 +3104,7 @@ Same as task entity [Opportunity_Tasks](task.md#BKMK_Opportunity_Tasks) Many-To-
 ### <a name="BKMK_Opportunity_RecurringAppointmentMasters"></a> Opportunity_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [Opportunity_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_Opportunity_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -3090,6 +3119,7 @@ Same as recurringappointmentmaster entity [Opportunity_RecurringAppointmentMaste
 ### <a name="BKMK_Opportunity_SocialActivities"></a> Opportunity_SocialActivities
 
 Same as socialactivity entity [Opportunity_SocialActivities](socialactivity.md#BKMK_Opportunity_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -3104,6 +3134,7 @@ Same as socialactivity entity [Opportunity_SocialActivities](socialactivity.md#B
 ### <a name="BKMK_opportunity_connections1"></a> opportunity_connections1
 
 Same as connection entity [opportunity_connections1](connection.md#BKMK_opportunity_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -3118,6 +3149,7 @@ Same as connection entity [opportunity_connections1](connection.md#BKMK_opportun
 ### <a name="BKMK_opportunity_connections2"></a> opportunity_connections2
 
 Same as connection entity [opportunity_connections2](connection.md#BKMK_opportunity_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -3132,6 +3164,7 @@ Same as connection entity [opportunity_connections2](connection.md#BKMK_opportun
 ### <a name="BKMK_Opportunity_Annotation"></a> Opportunity_Annotation
 
 Same as annotation entity [Opportunity_Annotation](annotation.md#BKMK_Opportunity_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -3146,6 +3179,7 @@ Same as annotation entity [Opportunity_Annotation](annotation.md#BKMK_Opportunit
 ### <a name="BKMK_Opportunity_ServiceAppointments"></a> Opportunity_ServiceAppointments
 
 Same as serviceappointment entity [Opportunity_ServiceAppointments](serviceappointment.md#BKMK_Opportunity_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -3160,6 +3194,7 @@ Same as serviceappointment entity [Opportunity_ServiceAppointments](serviceappoi
 ### <a name="BKMK_opportunity_OpportunityCloses"></a> opportunity_OpportunityCloses
 
 Same as opportunityclose entity [opportunity_OpportunityCloses](opportunityclose.md#BKMK_opportunity_OpportunityCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -3174,6 +3209,7 @@ Same as opportunityclose entity [opportunity_OpportunityCloses](opportunityclose
 ### <a name="BKMK_opportunity_OrderCloses"></a> opportunity_OrderCloses
 
 Same as orderclose entity [opportunity_OrderCloses](orderclose.md#BKMK_opportunity_OrderCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -3188,6 +3224,7 @@ Same as orderclose entity [opportunity_OrderCloses](orderclose.md#BKMK_opportuni
 ### <a name="BKMK_opportunity_QuoteCloses"></a> opportunity_QuoteCloses
 
 Same as quoteclose entity [opportunity_QuoteCloses](quoteclose.md#BKMK_opportunity_QuoteCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -3202,6 +3239,7 @@ Same as quoteclose entity [opportunity_QuoteCloses](quoteclose.md#BKMK_opportuni
 ### <a name="BKMK_opportunity_actioncard"></a> opportunity_actioncard
 
 Same as actioncard entity [opportunity_actioncard](actioncard.md#BKMK_opportunity_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -3216,6 +3254,7 @@ Same as actioncard entity [opportunity_actioncard](actioncard.md#BKMK_opportunit
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_opportunityid"></a> lk_leadtoopportunitysalesprocess_opportunityid
 
 Same as leadtoopportunitysalesprocess entity [lk_leadtoopportunitysalesprocess_opportunityid](leadtoopportunitysalesprocess.md#BKMK_lk_leadtoopportunitysalesprocess_opportunityid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|leadtoopportunitysalesprocess|
@@ -3230,6 +3269,7 @@ Same as leadtoopportunitysalesprocess entity [lk_leadtoopportunitysalesprocess_o
 ### <a name="BKMK_opportunity_customer_opportunity_roles"></a> opportunity_customer_opportunity_roles
 
 Same as customeropportunityrole entity [opportunity_customer_opportunity_roles](customeropportunityrole.md#BKMK_opportunity_customer_opportunity_roles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customeropportunityrole|
@@ -3244,6 +3284,7 @@ Same as customeropportunityrole entity [opportunity_customer_opportunity_roles](
 ### <a name="BKMK_opportunity_PostFollows"></a> opportunity_PostFollows
 
 Same as postfollow entity [opportunity_PostFollows](postfollow.md#BKMK_opportunity_PostFollows) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postfollow|
@@ -3258,6 +3299,7 @@ Same as postfollow entity [opportunity_PostFollows](postfollow.md#BKMK_opportuni
 ### <a name="BKMK_opportunity_invoices"></a> opportunity_invoices
 
 Same as invoice entity [opportunity_invoices](invoice.md#BKMK_opportunity_invoices) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoice|
@@ -3272,6 +3314,7 @@ Same as invoice entity [opportunity_invoices](invoice.md#BKMK_opportunity_invoic
 ### <a name="BKMK_Opportunity_OpportunityClose"></a> Opportunity_OpportunityClose
 
 Same as opportunityclose entity [Opportunity_OpportunityClose](opportunityclose.md#BKMK_Opportunity_OpportunityClose) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -3286,6 +3329,7 @@ Same as opportunityclose entity [Opportunity_OpportunityClose](opportunityclose.
 ### <a name="BKMK_opportunity_quotes"></a> opportunity_quotes
 
 Same as quote entity [opportunity_quotes](quote.md#BKMK_opportunity_quotes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quote|
@@ -3300,6 +3344,7 @@ Same as quote entity [opportunity_quotes](quote.md#BKMK_opportunity_quotes) Many
 ### <a name="BKMK_opportunity_sales_orders"></a> opportunity_sales_orders
 
 Same as salesorder entity [opportunity_sales_orders](salesorder.md#BKMK_opportunity_sales_orders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorder|
@@ -3314,6 +3359,7 @@ Same as salesorder entity [opportunity_sales_orders](salesorder.md#BKMK_opportun
 ### <a name="BKMK_product_opportunities"></a> product_opportunities
 
 Same as opportunityproduct entity [product_opportunities](opportunityproduct.md#BKMK_product_opportunities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityproduct|
@@ -3328,6 +3374,7 @@ Same as opportunityproduct entity [product_opportunities](opportunityproduct.md#
 ### <a name="BKMK_slakpiinstance_opportunity"></a> slakpiinstance_opportunity
 
 Same as slakpiinstance entity [slakpiinstance_opportunity](slakpiinstance.md#BKMK_slakpiinstance_opportunity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -3342,6 +3389,7 @@ Same as slakpiinstance entity [slakpiinstance_opportunity](slakpiinstance.md#BKM
 ### <a name="BKMK_lead_qualifying_opportunity"></a> lead_qualifying_opportunity
 
 Same as lead entity [lead_qualifying_opportunity](lead.md#BKMK_lead_qualifying_opportunity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|lead|
@@ -3356,6 +3404,7 @@ Same as lead entity [lead_qualifying_opportunity](lead.md#BKMK_lead_qualifying_o
 ### <a name="BKMK_lk_opportunitysalesprocess_opportunityid"></a> lk_opportunitysalesprocess_opportunityid
 
 Same as opportunitysalesprocess entity [lk_opportunitysalesprocess_opportunityid](opportunitysalesprocess.md#BKMK_lk_opportunitysalesprocess_opportunityid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunitysalesprocess|
@@ -3370,6 +3419,7 @@ Same as opportunitysalesprocess entity [lk_opportunitysalesprocess_opportunityid
 ### <a name="BKMK_CreatedOpportunity_BulkOperationLogs"></a> CreatedOpportunity_BulkOperationLogs
 
 Same as bulkoperationlog entity [CreatedOpportunity_BulkOperationLogs](bulkoperationlog.md#BKMK_CreatedOpportunity_BulkOperationLogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperationlog|
@@ -3384,6 +3434,7 @@ Same as bulkoperationlog entity [CreatedOpportunity_BulkOperationLogs](bulkopera
 ### <a name="BKMK_opportunity_msdyn_bookingalerts"></a> opportunity_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [opportunity_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_opportunity_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -3398,6 +3449,7 @@ Same as msdyn_bookingalert entity [opportunity_msdyn_bookingalerts](msdyn_bookin
 ### <a name="BKMK_opportunity_msdyn_approvals"></a> opportunity_msdyn_approvals
 
 Same as msdyn_approval entity [opportunity_msdyn_approvals](msdyn_approval.md#BKMK_opportunity_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -3412,6 +3464,7 @@ Same as msdyn_approval entity [opportunity_msdyn_approvals](msdyn_approval.md#BK
 ### <a name="BKMK_msdyn_opportunity_msdyn_opportunitypricelist_Opportunity"></a> msdyn_opportunity_msdyn_opportunitypricelist_Opportunity
 
 Same as msdyn_opportunitypricelist entity [msdyn_opportunity_msdyn_opportunitypricelist_Opportunity](msdyn_opportunitypricelist.md#BKMK_msdyn_opportunity_msdyn_opportunitypricelist_Opportunity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitypricelist|
@@ -3426,6 +3479,7 @@ Same as msdyn_opportunitypricelist entity [msdyn_opportunity_msdyn_opportunitypr
 ### <a name="BKMK_msdyn_opportunity_msdyn_workorder"></a> msdyn_opportunity_msdyn_workorder
 
 Same as msdyn_workorder entity [msdyn_opportunity_msdyn_workorder](msdyn_workorder.md#BKMK_msdyn_opportunity_msdyn_workorder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorder|
@@ -3581,6 +3635,6 @@ IntersectEntityName: opportunitycompetitors<br />
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.opportunity?text=opportunity EntityType" />

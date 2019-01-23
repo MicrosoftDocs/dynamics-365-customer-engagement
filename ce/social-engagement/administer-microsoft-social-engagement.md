@@ -2,22 +2,29 @@
 title: "Administer Social Engagement | Microsoft Docs"
 description: "Learn about the main areas to administer Social Engagement"
 Description: 
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
 ms.date: 09/12/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-marketing
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: "Social Engagement"
+applies_to: Social Engagement
 ms.assetid: 48e49a2f-d4f8-4fc7-b88d-890c15bfb561
 caps.latest.revision: 33
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
-# Administer Microsoft Social Engagement
+# Administer [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]
 Setting up the solution for your users is crucial for the effective usage of [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. To learn more about the main tasks for administering your solution, review the topics listed here.  
   
 > [!NOTE]
@@ -35,7 +42,7 @@ Defining good search topics is one of the most important concepts when using [!I
   
 Optionally, you can extend the coverage of the data sources by adding RSS feeds as custom sources. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or delete custom sources](custom-sources.md)  
   
-## Integrate Social Engagement with other applications  
+## Integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with other applications  
 **Outcome:** Build workflows between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and export data to other third-party applications using [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)].  
   
 When establishing the first connection, make sure to add the target application's URL to the Allowed Domains settings page in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](connect-other-domains.md)  
@@ -65,6 +72,6 @@ There are two types of user roles in [!INCLUDE[pn_netbreeze_short](../includes/p
   
 ### See Also  
 [Integrate Social Engagement with Office 365](manage-licenses.md)   
-[Integrate Social Engagement with Dynamics 365](integrate-social-engagement-dynamics-365.md)   
+[Integrate Social Engagement with Dynamics 365 for Customer Engagement](integrate-social-engagement-dynamics-365.md)   
 [Get connected to the social conversation using Microsoft Social Engagement](get-connected-social-conversation.md)
  

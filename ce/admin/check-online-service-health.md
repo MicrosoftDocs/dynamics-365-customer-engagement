@@ -1,26 +1,31 @@
 ---
-title: "How do I check my online service health for Dynamics 365 (online)? | MicrosoftDocs"
-ms.custom: ""
+title: "How do I check my online service health for Dynamics 365 for Customer Engagement apps (online)? | MicrosoftDocs"
+ms.custom: 
 ms.date: 06/13/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: c16f1162-f8f4-4ce2-9749-3d0293540d3f
 caps.latest.revision: 4
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # How do I check my online service health?
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can quickly get a real-time status of your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services. The dashboard on the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] provides a comprehensive view of the service health of your online services. If users are having trouble signing in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], check this page to see if there is a service outage.  
+You can quickly get a real-time status of your Customer Engagement apps and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services. The dashboard on the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] provides a comprehensive view of the service health of your online services. If users are having trouble signing in to Customer Engagement apps, check this page to see if there is a service outage.  
   
 <a name="BKMK_Snapshot"></a>   
 
@@ -31,8 +36,8 @@ You can quickly get a real-time status of your [!INCLUDE[pn_crm_online_shortest]
   
 <a name="BKMK_TenantHealth"></a>   
 
-## View Dynamics 365 (online) service health  
-Select an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service, such as [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)],  to get detailed information on its service health status.  
+## View Dynamics 365 for Customer Engagement apps (online) service health  
+Select an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service, such as Customer Engagement apps,  to get detailed information on its service health status.  
   
 ![Office 365 Admin Center service issue](../admin/media/office-365-admin-center-service-issue.png "Office 365 Admin Center service issue")  
   
@@ -55,7 +60,7 @@ Select the **Message center** on your home dashboard (from the menu: **Health** 
   
 ## View instance service health  
 
-If your company has multiple instances of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can see the health status for individual [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
+If your company has multiple instances of Customer Engagement apps, you can see the health status for individual Customer Engagement instances in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   

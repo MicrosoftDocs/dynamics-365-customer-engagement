@@ -1,13 +1,17 @@
 ---
-title: "GridRowData (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "GridRowData (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/10/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8139c622-e4d9-478f-9510-414d140e5556
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # GridRowData (Client API reference)
 
@@ -32,8 +36,7 @@ var gridRowData = myRow.getData();
 
 ## Methods
 
-|Name|Description|Available for|
-|--|--|--|
-|[getEntity](gridrowdata/getEntity.md)|[!INCLUDE[gridrowdata/includes/getEntity-description.md](gridrowdata/includes/getEntity-description.md)]|Read-only and editable grids|
-
+|                 Name                  |                                               Description                                                |        Available for         |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------|------------------------------|
+| [getEntity](gridrowdata/getEntity.md) | [!INCLUDE[gridrowdata/includes/getEntity-description.md](gridrowdata/includes/getEntity-description.md)] | Read-only and editable grids |
 

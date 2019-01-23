@@ -1,15 +1,19 @@
 ---
-title: "OpportunityClose Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "OpportunityClose Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the OpportunityClose entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # OpportunityClose Entity Reference
 
@@ -1786,6 +1790,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_opportunityclose_activity_parties"></a> opportunityclose_activity_parties
 
 Same as activityparty entity [opportunityclose_activity_parties](activityparty.md#BKMK_opportunityclose_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1800,6 +1805,7 @@ Same as activityparty entity [opportunityclose_activity_parties](activityparty.m
 ### <a name="BKMK_CampaignResponse_OpportunityCloses"></a> CampaignResponse_OpportunityCloses
 
 Same as campaignresponse entity [CampaignResponse_OpportunityCloses](campaignresponse.md#BKMK_CampaignResponse_OpportunityCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1814,6 +1820,7 @@ Same as campaignresponse entity [CampaignResponse_OpportunityCloses](campaignres
 ### <a name="BKMK_OpportunityClose_SyncErrors"></a> OpportunityClose_SyncErrors
 
 Same as syncerror entity [OpportunityClose_SyncErrors](syncerror.md#BKMK_OpportunityClose_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1828,6 +1835,7 @@ Same as syncerror entity [OpportunityClose_SyncErrors](syncerror.md#BKMK_Opportu
 ### <a name="BKMK_OpportunityClose_AsyncOperations"></a> OpportunityClose_AsyncOperations
 
 Same as asyncoperation entity [OpportunityClose_AsyncOperations](asyncoperation.md#BKMK_OpportunityClose_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1842,6 +1850,7 @@ Same as asyncoperation entity [OpportunityClose_AsyncOperations](asyncoperation.
 ### <a name="BKMK_opportunityclose_MailboxTrackingFolders"></a> opportunityclose_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [opportunityclose_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_opportunityclose_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1856,6 +1865,7 @@ Same as mailboxtrackingfolder entity [opportunityclose_MailboxTrackingFolders](m
 ### <a name="BKMK_userentityinstancedata_opportunityclose"></a> userentityinstancedata_opportunityclose
 
 Same as userentityinstancedata entity [userentityinstancedata_opportunityclose](userentityinstancedata.md#BKMK_userentityinstancedata_opportunityclose) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1870,6 +1880,7 @@ Same as userentityinstancedata entity [userentityinstancedata_opportunityclose](
 ### <a name="BKMK_OpportunityClose_BulkDeleteFailures"></a> OpportunityClose_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [OpportunityClose_BulkDeleteFailures](bulkdeletefailure.md#BKMK_OpportunityClose_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1884,6 +1895,7 @@ Same as bulkdeletefailure entity [OpportunityClose_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_opportunityclose_PrincipalObjectAttributeAccesses"></a> opportunityclose_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [opportunityclose_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_opportunityclose_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1898,6 +1910,7 @@ Same as principalobjectattributeaccess entity [opportunityclose_PrincipalObjectA
 ### <a name="BKMK_OpportunityClose_Annotation"></a> OpportunityClose_Annotation
 
 Same as annotation entity [OpportunityClose_Annotation](annotation.md#BKMK_OpportunityClose_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -2079,6 +2092,6 @@ See externalparty Entity [lk_externalparty_opportunityclose_modifiedby](external
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.opportunityclose?text=opportunityclose EntityType" />

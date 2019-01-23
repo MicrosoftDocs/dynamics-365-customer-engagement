@@ -1,15 +1,19 @@
 ---
-title: "Contract Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Contract Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Contract entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Contract Entity Reference
 
@@ -1564,6 +1568,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Contract_ActivityPointers"></a> Contract_ActivityPointers
 
 Same as activitypointer entity [Contract_ActivityPointers](activitypointer.md#BKMK_Contract_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -1578,6 +1583,7 @@ Same as activitypointer entity [Contract_ActivityPointers](activitypointer.md#BK
 ### <a name="BKMK_Contract_SyncErrors"></a> Contract_SyncErrors
 
 Same as syncerror entity [Contract_SyncErrors](syncerror.md#BKMK_Contract_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1592,6 +1598,7 @@ Same as syncerror entity [Contract_SyncErrors](syncerror.md#BKMK_Contract_SyncEr
 ### <a name="BKMK_contract_activity_parties"></a> contract_activity_parties
 
 Same as activityparty entity [contract_activity_parties](activityparty.md#BKMK_contract_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1606,6 +1613,7 @@ Same as activityparty entity [contract_activity_parties](activityparty.md#BKMK_c
 ### <a name="BKMK_Contract_DuplicateMatchingRecord"></a> Contract_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Contract_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Contract_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1620,6 +1628,7 @@ Same as duplicaterecord entity [Contract_DuplicateMatchingRecord](duplicaterecor
 ### <a name="BKMK_Contract_DuplicateBaseRecord"></a> Contract_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Contract_DuplicateBaseRecord](duplicaterecord.md#BKMK_Contract_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1634,6 +1643,7 @@ Same as duplicaterecord entity [Contract_DuplicateBaseRecord](duplicaterecord.md
 ### <a name="BKMK_Contract_AsyncOperations"></a> Contract_AsyncOperations
 
 Same as asyncoperation entity [Contract_AsyncOperations](asyncoperation.md#BKMK_Contract_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1648,6 +1658,7 @@ Same as asyncoperation entity [Contract_AsyncOperations](asyncoperation.md#BKMK_
 ### <a name="BKMK_Contract_MailboxTrackingFolder"></a> Contract_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [Contract_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Contract_MailboxTrackingFolder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1662,6 +1673,7 @@ Same as mailboxtrackingfolder entity [Contract_MailboxTrackingFolder](mailboxtra
 ### <a name="BKMK_userentityinstancedata_contract"></a> userentityinstancedata_contract
 
 Same as userentityinstancedata entity [userentityinstancedata_contract](userentityinstancedata.md#BKMK_userentityinstancedata_contract) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1676,6 +1688,7 @@ Same as userentityinstancedata entity [userentityinstancedata_contract](userenti
 ### <a name="BKMK_Contract_ProcessSessions"></a> Contract_ProcessSessions
 
 Same as processsession entity [Contract_ProcessSessions](processsession.md#BKMK_Contract_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1690,6 +1703,7 @@ Same as processsession entity [Contract_ProcessSessions](processsession.md#BKMK_
 ### <a name="BKMK_Contract_BulkDeleteFailures"></a> Contract_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Contract_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Contract_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1704,6 +1718,7 @@ Same as bulkdeletefailure entity [Contract_BulkDeleteFailures](bulkdeletefailure
 ### <a name="BKMK_contract_principalobjectattributeaccess"></a> contract_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [contract_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_contract_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1718,6 +1733,7 @@ Same as principalobjectattributeaccess entity [contract_principalobjectattribute
 ### <a name="BKMK_Contract_Appointments"></a> Contract_Appointments
 
 Same as appointment entity [Contract_Appointments](appointment.md#BKMK_Contract_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1732,6 +1748,7 @@ Same as appointment entity [Contract_Appointments](appointment.md#BKMK_Contract_
 ### <a name="BKMK_Contract_Emails"></a> Contract_Emails
 
 Same as email entity [Contract_Emails](email.md#BKMK_Contract_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1746,6 +1763,7 @@ Same as email entity [Contract_Emails](email.md#BKMK_Contract_Emails) Many-To-On
 ### <a name="BKMK_Contract_Faxes"></a> Contract_Faxes
 
 Same as fax entity [Contract_Faxes](fax.md#BKMK_Contract_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1760,6 +1778,7 @@ Same as fax entity [Contract_Faxes](fax.md#BKMK_Contract_Faxes) Many-To-One rela
 ### <a name="BKMK_Contract_Letters"></a> Contract_Letters
 
 Same as letter entity [Contract_Letters](letter.md#BKMK_Contract_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1774,6 +1793,7 @@ Same as letter entity [Contract_Letters](letter.md#BKMK_Contract_Letters) Many-T
 ### <a name="BKMK_Contract_Phonecalls"></a> Contract_Phonecalls
 
 Same as phonecall entity [Contract_Phonecalls](phonecall.md#BKMK_Contract_Phonecalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1788,6 +1808,7 @@ Same as phonecall entity [Contract_Phonecalls](phonecall.md#BKMK_Contract_Phonec
 ### <a name="BKMK_Contract_Tasks"></a> Contract_Tasks
 
 Same as task entity [Contract_Tasks](task.md#BKMK_Contract_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1802,6 +1823,7 @@ Same as task entity [Contract_Tasks](task.md#BKMK_Contract_Tasks) Many-To-One re
 ### <a name="BKMK_Contract_RecurringAppointmentMasters"></a> Contract_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [Contract_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_Contract_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1816,6 +1838,7 @@ Same as recurringappointmentmaster entity [Contract_RecurringAppointmentMasters]
 ### <a name="BKMK_Contract_SocialActivities"></a> Contract_SocialActivities
 
 Same as socialactivity entity [Contract_SocialActivities](socialactivity.md#BKMK_Contract_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1830,6 +1853,7 @@ Same as socialactivity entity [Contract_SocialActivities](socialactivity.md#BKMK
 ### <a name="BKMK_contract_connections1"></a> contract_connections1
 
 Same as connection entity [contract_connections1](connection.md#BKMK_contract_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1844,6 +1868,7 @@ Same as connection entity [contract_connections1](connection.md#BKMK_contract_co
 ### <a name="BKMK_contract_connections2"></a> contract_connections2
 
 Same as connection entity [contract_connections2](connection.md#BKMK_contract_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1858,6 +1883,7 @@ Same as connection entity [contract_connections2](connection.md#BKMK_contract_co
 ### <a name="BKMK_Contract_Annotation"></a> Contract_Annotation
 
 Same as annotation entity [Contract_Annotation](annotation.md#BKMK_Contract_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1872,6 +1898,7 @@ Same as annotation entity [Contract_Annotation](annotation.md#BKMK_Contract_Anno
 ### <a name="BKMK_Contract_ServiceAppointments"></a> Contract_ServiceAppointments
 
 Same as serviceappointment entity [Contract_ServiceAppointments](serviceappointment.md#BKMK_Contract_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1886,6 +1913,7 @@ Same as serviceappointment entity [Contract_ServiceAppointments](serviceappointm
 ### <a name="BKMK_contract_cases"></a> contract_cases
 
 Same as incident entity [contract_cases](incident.md#BKMK_contract_cases) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -1900,6 +1928,7 @@ Same as incident entity [contract_cases](incident.md#BKMK_contract_cases) Many-T
 ### <a name="BKMK_contract_line_items"></a> contract_line_items
 
 Same as contractdetail entity [contract_line_items](contractdetail.md#BKMK_contract_line_items) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contractdetail|
@@ -1914,6 +1943,7 @@ Same as contractdetail entity [contract_line_items](contractdetail.md#BKMK_contr
 ### <a name="BKMK_contract_originating_contract"></a> contract_originating_contract
 
 Same as contract entity [contract_originating_contract](contract.md#BKMK_contract_originating_contract) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contract|
@@ -1928,6 +1958,7 @@ Same as contract entity [contract_originating_contract](contract.md#BKMK_contrac
 ### <a name="BKMK_contract_msdyn_bookingalerts"></a> contract_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [contract_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_contract_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1942,6 +1973,7 @@ Same as msdyn_bookingalert entity [contract_msdyn_bookingalerts](msdyn_bookingal
 ### <a name="BKMK_contract_msdyn_approvals"></a> contract_msdyn_approvals
 
 Same as msdyn_approval entity [contract_msdyn_approvals](msdyn_approval.md#BKMK_contract_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -2053,6 +2085,6 @@ See contact Entity [servicecontractcontacts_association](contact.md#BKMK_service
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.contract?text=contract EntityType" />

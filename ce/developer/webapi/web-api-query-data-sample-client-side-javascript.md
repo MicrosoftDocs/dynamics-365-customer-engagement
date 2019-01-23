@@ -1,19 +1,23 @@
 ---
 title: "Web API Query Data Sample (Client-side JavaScript) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6df7cccb-071d-4853-8acb-01bceef973ca
 caps.latest.revision: 22
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Web API Query Data Sample (Client-side JavaScript)
 
@@ -30,9 +34,9 @@ This sample demonstrates how to perform basic query requests using the [!INCLUDE
 
  To run this sample, the following is required:  
   
--   Access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] online or on-premises version 8.0 or higher.  
+- Access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] online or on-premises version 8.0 or higher.  
   
--   A user account with privileges to import solutions and perform CRUD operations, typically a system administrator or system customizer security role.  
+- A user account with privileges to import solutions and perform CRUD operations, typically a system administrator or system customizer security role.  
   
 <a name="bkmk_runsample"></a>
 
@@ -754,7 +758,7 @@ distinct=\"false\" page=\"3\" count=\"4\"> \
   
 ### See also
 
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Query Data using the Web API](query-data-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Query Data Sample](web-api-query-data-sample.md)   

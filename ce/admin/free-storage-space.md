@@ -1,33 +1,43 @@
 ---
-title: "Free storage space in Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Free storage space in Dynamics 365 for Customer Engagement apps |  MicrosoftDocs"
+ms.custom: 
+ms.date: 11/09/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 46c0d35c-5edd-4087-980d-035ec76ab211
 caps.latest.revision: 32
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: kvivek
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Free storage space
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-These are ways to reduce the amount of storage space used by removing or deleting different types of information from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Use one or more of these methods to control your total data storage usage with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can delete certain categories of data as the need arises, or you can set up bulk deletion jobs to reoccur at set intervals.  
+These are ways to reduce the amount of storage space used by removing or deleting different types of information from [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Use one or more of these methods to control your total data storage usage with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. You can delete certain categories of data as the need arises, or you can set up bulk deletion jobs to reoccur at set intervals.  
   
 > [!WARNING]
 >  The suggestions in this topic include deleting notes, attachments, import history, and other data. Before you delete data, be sure that the data is no longer needed because you cannot retrieve deleted data. There is no “undo” to restore your data once it has been deleted. This means it may make more sense for you to increase the amount of storage space you have with your [!INCLUDE[pn_Online_Subscription](../includes/pn-online-subscription.md)] instead of reducing the amount of storage space used.  
+> 
+> [!NOTE]
+>  Except for methods 3 and 5, all these methods require that you have an administrator [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps scurity role, such as System Administrator. This gives you permission to delete records in bulk and to delete system jobs.  
+>
+>  After performing actions to free up storage, the system can take up to 24 hours to update storage information. We recommend waiting up to 24 hours and monitoring your storage.  
   
 > [!NOTE]
->  Except for methods 3 and 5, all these methods require that you have an administrator [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security role, such as System Administrator. This gives you permission to delete records in bulk and to delete system jobs.  
-  
+> Some platform operations require you to wait 24-36 hours to confirm data size changes. Such operations include but are not limited to upgrades to new versions and introduction of new workflows. Such operations require system adjustments that might result in a momentary size increase report.
+
 <a name="BKMK_Method1"></a>   
 ## Method 1: Delete bulk email and workflow instances using a bulk deletion job  
   
@@ -36,31 +46,31 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-2.  Choose **Bulk Record Deletion**. In the menu bar, choose **New**. This opens the Bulk Deletion Wizard.  
+2. Choose **Bulk Record Deletion**. In the menu bar, choose **New**. This opens the Bulk Deletion Wizard.  
   
-3.  Choose **Next**.  
+3. Choose **Next**.  
   
-4.  In the **Look for** list, select **System Jobs**.  
+4. In the **Look for** list, select **System Jobs**.  
   
-5.  In the search criteria area, add criteria similar to the following:  
+5. In the search criteria area, add criteria similar to the following:  
   
- **System Job Type** – **Equals** – **Bulk E-mail**; **Workflow**;  
+   **System Job Type** – **Equals** – **Bulk E-mail**; **Workflow**;  
   
- **Status Reason** – **Equals** – **Succeeded**  
+   **Status Reason** – **Equals** – **Succeeded**  
   
- **Completed On** – **Older Than X Months** – 1  
+   **Completed On** – **Older Than X Months** – 1  
   
-6.  Group the three criteria rows:  
+6. Group the three criteria rows:  
   
-    1.  Choose the arrow next to each criteria row, and then choose **Select Row**.  
+   1.  Choose the arrow next to each criteria row, and then choose **Select Row**.  
   
-    2.  With all three rows selected, choose **Group AND**.  
+   2.  With all three rows selected, choose **Group AND**.  
   
-7.  Choose **Next**.  
+7. Choose **Next**.  
   
-8.  In the **Name** text box, type a name for the bulk deletion job.  
+8. In the **Name** text box, type a name for the bulk deletion job.  
   
-9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 10. Select the **Run this job after every** check box, and then in the **days** list, select the frequency you want the job to run.  
   
@@ -75,81 +85,81 @@ These are ways to reduce the amount of storage space used by removing or deletin
 > [!WARNING]
 >  Some workflows will be in a suspended state because they are waiting for a condition that has not yet been met, which is expected. For example, a workflow may be waiting for a task to be completed.  
   
-1.  Choose **Advanced Find**.  
+1. Choose **Advanced Find**.  
   
-2.  In the **Look for** list, select **System Jobs**.  
+2. In the **Look for** list, select **System Jobs**.  
   
-3.  In the search criteria area, add criteria similar to the following:  
+3. In the search criteria area, add criteria similar to the following:  
   
- **System Job Type** – **Equals** – **Workflow**  
+   **System Job Type** – **Equals** – **Workflow**  
   
- **Status Reason** – **Equals** – **Waiting**  
+   **Status Reason** – **Equals** – **Waiting**  
   
-4.  Group the two criteria rows:  
+4. Group the two criteria rows:  
   
-    1.  Choose the arrow next to each criteria row, and then choose **Select Row**.  
+   1.  Choose the arrow next to each criteria row, and then choose **Select Row**.  
   
-    2.  With all three rows selected, choose **Group AND**.  
+   2.  With all three rows selected, choose **Group AND**.  
   
-5.  Choose **Find**.  
+5. Choose **Find**.  
   
-6.  In the results window, you can open each item to determine whether the workflow can be deleted.  
+6. In the results window, you can open each item to determine whether the workflow can be deleted.  
   
 <a name="BKMK_Method3"></a>   
 ## Method 3: Remove email attachments using Advanced Find  
   
 > [!WARNING]
->  If you delete this data, the attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. However, if you have them saved in [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)], they will still be there.  
+>  If you delete this data, the attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. However, if you have them saved in [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)], they will still be there.  
   
-1.  Choose **Advanced Find**.  
+1. Choose **Advanced Find**.  
   
-2.  In the **Look for** list, select **Email Messages**.  
+2. In the **Look for** list, select **Email Messages**.  
   
-3.  In the search criteria area, add criteria similar to the following:  
+3. In the search criteria area, add criteria similar to the following:  
   
- **Email Attachments (Item)**  
+   **Email Attachments (Item)**  
   
- **File Size (Bytes)** – **Is Greater Than** - In the text box, type a byte value, such as 25000.  
+   **File Size (Bytes)** – **Is Greater Than** - In the text box, type a byte value, such as 25000.  
   
-4.  Choose **Results**.  
+4. Choose **Results**.  
   
-5.  Under **Activities**, you will now have a list of email messages that have attachments that are larger than ‘X’ bytes. Review the emails and delete the attachments as needed.  
+5. Under **Activities**, you will now have a list of email messages that have attachments that are larger than ‘X’ bytes. Review the emails and delete the attachments as needed.  
   
 <a name="BKMK_Method4"></a>   
 ## Method 4: Remove email messages with attachments using a bulk deletion job  
   
 > [!WARNING]
->  If you delete this data, the email messages and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. However, if you have them saved in [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)], they will still be there.  
+>  If you delete this data, the email messages and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. However, if you have them saved in [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)], they will still be there.  
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-2.  Choose **Bulk Record Deletion**, and then in the menu bar, choose **New**. This opens the Bulk Deletion Wizard.  
+2. Choose **Bulk Record Deletion**, and then in the menu bar, choose **New**. This opens the Bulk Deletion Wizard.  
   
-3.  Choose **Next**.  
+3. Choose **Next**.  
   
-4.  In the **Look for** list, select **Email Messages**.  
+4. In the **Look for** list, select **Email Messages**.  
   
-5.  In the search criteria area, add criteria similar to the following:  
+5. In the search criteria area, add criteria similar to the following:  
   
- **Status Reason** – **Equals** – **Completed**  
+   **Status Reason** – **Equals** – **Completed**  
   
- **Actual End** – **Older Than X Months** – 1  
+   **Actual End** – **Older Than X Months** – 1  
   
- **Email Attachments (Item)**  
+   **Email Attachments (Item)**  
   
- **File Size (Bytes)** – **Is Greater Than** – In the text box, type a byte value, such as 25000.  
+   **File Size (Bytes)** – **Is Greater Than** – In the text box, type a byte value, such as 25000.  
   
-6.  Group the first two criteria rows:  
+6. Group the first two criteria rows:  
   
-    1.  Choose the arrow next to each criteria row, and then choose **Select Row**.  
+   1.  Choose the arrow next to each criteria row, and then choose **Select Row**.  
   
-    2.  With both rows selected, choose **Group AND**.  
+   2.  With both rows selected, choose **Group AND**.  
   
-7.  Choose **Next**.  
+7. Choose **Next**.  
   
-8.  In the **Name** text box, type a name for the bulk deletion job.  
+8. In the **Name** text box, type a name for the bulk deletion job.  
   
-9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 10. Select the **Run this job after every** check box, and then in the **days** list, select the frequency you want the job to run.  
   
@@ -161,53 +171,53 @@ These are ways to reduce the amount of storage space used by removing or deletin
 ## Method 5: Remove notes with attachments using Advanced Find  
   
 > [!WARNING]
->  If you delete this data, notes and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+>  If you delete this data, notes and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
-1.  Choose **Advanced Find**.  
+1. Choose **Advanced Find**.  
   
-2.  In the **Look for** list, select **Notes**.  
+2. In the **Look for** list, select **Notes**.  
   
-3.  In the search criteria area, add criteria similar to the following:  
+3. In the search criteria area, add criteria similar to the following:  
   
- **File Size (Bytes)** – **Is Greater Than** – In the text box, type a byte value, such as 1048576.  
+   **File Size (Bytes)** – **Is Greater Than** – In the text box, type a byte value, such as 1048576.  
   
-4.  Choose **Results**.  
+4. Choose **Results**.  
   
-5.  You will now have a list of attachments that are larger than the size you specified.  
+5. You will now have a list of attachments that are larger than the size you specified.  
   
-6.  Select individual or a multiple attachments, and then choose **Delete** (X).  
+6. Select individual or a multiple attachments, and then choose **Delete** (X).  
   
 <a name="BKMK_Method6"></a>   
 ## Method 6: Remove notes with attachments using a bulk deletion job  
   
 > [!WARNING]
->  If you delete this data, notes and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+>  If you delete this data, notes and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-2.  Choose **Bulk Record Deletion**, and then in the menu bar, choose **New**. This opens the Bulk Deletion Wizard.  
+2. Choose **Bulk Record Deletion**, and then in the menu bar, choose **New**. This opens the Bulk Deletion Wizard.  
   
-3.  Choose **Next**.  
+3. Choose **Next**.  
   
-4.  In the **Look for** list, select **Notes**.  
+4. In the **Look for** list, select **Notes**.  
   
-5.  In the search criteria area, add criteria similar to the following:  
+5. In the search criteria area, add criteria similar to the following:  
   
- **File Size (Bytes)** – **Is Greater Than** – In the text box, type a byte value, such as 1048576.  
+   **File Size (Bytes)** – **Is Greater Than** – In the text box, type a byte value, such as 1048576.  
   
- **Created On** – **Older Than X Months** – 1  
+   **Created On** – **Older Than X Months** – 1  
   
-6.  Group the two criteria rows:  
+6. Group the two criteria rows:  
   
-    1.  Choose the arrow next to each criteria row, and then choose **Select Row**.  
+   1.  Choose the arrow next to each criteria row, and then choose **Select Row**.  
   
-    2.  With all three rows selected, choose **Group AND**.  
+   2.  With all three rows selected, choose **Group AND**.  
   
-7.  Choose **Next**.  
+7. Choose **Next**.  
   
-8.  In the **Name** text box, type a name for the bulk deletion job.  
+8. In the **Name** text box, type a name for the bulk deletion job.  
   
-9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 10. Select the **Run this job after every** check box, and then in the **days** list, select the frequency you want the job to run.  
   
@@ -221,11 +231,11 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-2.  Choose **Duplicate Detection Jobs**.  
+2. Choose **Duplicate Detection Jobs**.  
   
-3.  Select the duplicate detection job instances you want to delete and then choose **Delete** (X).  
+3. Select the duplicate detection job instances you want to delete and then choose **Delete** (X).  
   
- To avoid wasting storage space, make sure duplicates are resolved promptly so that they are not reported in multiple duplicate detection jobs.  
+   To avoid wasting storage space, make sure duplicates are resolved promptly so that they are not reported in multiple duplicate detection jobs.  
   
 <a name="BKMK_Method8"></a>   
 ## Method 8: Delete bulk import instances using a bulk deletion job  
@@ -236,31 +246,31 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-2.  Choose **Bulk Record Deletion**, and then in the menu bar, choose **New**. This opens the Bulk Deletion Wizard.  
+2. Choose **Bulk Record Deletion**, and then in the menu bar, choose **New**. This opens the Bulk Deletion Wizard.  
   
-3.  Choose **Next**.  
+3. Choose **Next**.  
   
-4.  In the **Look for** list, select **System Jobs**.  
+4. In the **Look for** list, select **System Jobs**.  
   
-5.  In the search criteria area, add criteria similar to the following:  
+5. In the search criteria area, add criteria similar to the following:  
   
- **System Job Type** – **Equals** – **Import**  
+   **System Job Type** – **Equals** – **Import**  
   
- **Status Reason** – **Equals** – **Succeeded**  
+   **Status Reason** – **Equals** – **Succeeded**  
   
- **Completed On** – **Older Than X Months** – 1  
+   **Completed On** – **Older Than X Months** – 1  
   
-6.  Group the three criteria rows:  
+6. Group the three criteria rows:  
   
-    1.  Choose the arrow next to each criteria row, and then choose **Select Row**.  
+   1.  Choose the arrow next to each criteria row, and then choose **Select Row**.  
   
-    2.  With all three rows selected, choose **Group AND**.  
+   2.  With all three rows selected, choose **Group AND**.  
   
-7.  Choose **Next**.  
+7. Choose **Next**.  
   
-8.  In the **Name** text box, type a name for the bulk deletion job.  
+8. In the **Name** text box, type a name for the bulk deletion job.  
   
-9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 10. Select the **Run this job after every** check box, and then in the **days** list, select the frequency you want the job to run.  
   
@@ -277,34 +287,34 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-2.  Choose **Bulk Record Deletion**, and then in the menu bar, choose **New**. This opens the Bulk Deletion Wizard.  
+2. Choose **Bulk Record Deletion**, and then in the menu bar, choose **New**. This opens the Bulk Deletion Wizard.  
   
-3.  Choose **Next**.  
+3. Choose **Next**.  
   
-4.  In the **Look for** list, select **System Jobs**.  
+4. In the **Look for** list, select **System Jobs**.  
   
-5.  In the search criteria area, add criteria similar to the following:  
+5. In the search criteria area, add criteria similar to the following:  
   
- **System Job Type** – **Equals** – **Bulk Delete**  
+   **System Job Type** – **Equals** – **Bulk Delete**  
   
- **Status Reason** – **Equals** – **Succeeded**  
+   **Status Reason** – **Equals** – **Succeeded**  
   
- **Completed On** – **Older Than X Months** – 1  
+   **Completed On** – **Older Than X Months** – 1  
   
-    > [!NOTE]
-    >  You could also delete jobs that have failed or been canceled.  
+   > [!NOTE]
+   >  You could also delete jobs that have failed or been canceled.  
   
-6.  Group the three criteria rows:  
+6. Group the three criteria rows:  
   
-    1.  Choose the arrow next to each criteria row, and then choose **Select Row**.  
+   1.  Choose the arrow next to each criteria row, and then choose **Select Row**.  
   
-    2.  With all three rows selected, choose **Group AND**.  
+   2.  With all three rows selected, choose **Group AND**.  
   
-7.  Choose **Next**.  
+7. Choose **Next**.  
   
-8.  In the **Name** text box, type a name for the bulk deletion job.  
+8. In the **Name** text box, type a name for the bulk deletion job.  
   
-9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+9. Select a date and time for the job start time; preferably a time when users are not in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 10. Select the **Run this job after every** check box, and then in the **days** list, select the frequency you want the job to run.  
   
@@ -314,18 +324,18 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 <a name="BKMK_Method10"></a>   
 ## Method 10: Delete audit logs  
- When you enable auditing, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] creates audit logs to store the audit history of the records. You can delete these audit logs to free space when they are no longer needed.  
+ When you enable auditing, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps creates audit logs to store the audit history of the records. You can delete these audit logs to free space when they are no longer needed.  
   
 > [!WARNING]
 >  When you delete an audit log, you can no longer view the audit history for the period covered by that audit log.  
   
 1. [!INCLUDE[proc_settings_auditing](../includes/proc-settings-auditing.md)]  
   
-2.  In the **Audit** area choose **Audit Log Management**.  
+2. In the **Audit** area choose **Audit Log Management**.  
   
-3.  Select the oldest audit log, then choose **Delete Logs**.  
+3. Select the oldest audit log, then choose **Delete Logs**.  
   
-4.  In the confirmation message choose **OK**.  
+4. In the confirmation message choose **OK**.  
   
 > [!NOTE]
 >  You can only delete the oldest audit log in the system. To delete more than one audit log repeat deleting the oldest available audit log until you have deleted enough logs.  
@@ -333,4 +343,4 @@ These are ways to reduce the amount of storage space used by removing or deletin
 ### See also  
  [Manage your data](../admin/manage-your-data.md)   
  [Data Encryption](../admin/data-encryption.md)   
- [Manage Microsoft Dynamics 365 (online) instances](manage-online-instances.md)
+ [Manage Microsoft Dynamics 365 for Customer Engagement apps online) instances](manage-online-instances.md)

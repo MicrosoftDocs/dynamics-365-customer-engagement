@@ -1,15 +1,19 @@
 ---
-title: "msdyn_workhourtemplate Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_workhourtemplate Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_workhourtemplate entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_workhourtemplate Entity Reference
 
@@ -652,6 +656,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_workhourtemplate_SyncErrors"></a> msdyn_workhourtemplate_SyncErrors
 
 Same as syncerror entity [msdyn_workhourtemplate_SyncErrors](syncerror.md#BKMK_msdyn_workhourtemplate_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -666,6 +671,7 @@ Same as syncerror entity [msdyn_workhourtemplate_SyncErrors](syncerror.md#BKMK_m
 ### <a name="BKMK_msdyn_workhourtemplate_DuplicateMatchingRecord"></a> msdyn_workhourtemplate_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_workhourtemplate_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_workhourtemplate_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -680,6 +686,7 @@ Same as duplicaterecord entity [msdyn_workhourtemplate_DuplicateMatchingRecord](
 ### <a name="BKMK_msdyn_workhourtemplate_DuplicateBaseRecord"></a> msdyn_workhourtemplate_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_workhourtemplate_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_workhourtemplate_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -694,6 +701,7 @@ Same as duplicaterecord entity [msdyn_workhourtemplate_DuplicateBaseRecord](dupl
 ### <a name="BKMK_msdyn_workhourtemplate_AsyncOperations"></a> msdyn_workhourtemplate_AsyncOperations
 
 Same as asyncoperation entity [msdyn_workhourtemplate_AsyncOperations](asyncoperation.md#BKMK_msdyn_workhourtemplate_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -708,6 +716,7 @@ Same as asyncoperation entity [msdyn_workhourtemplate_AsyncOperations](asyncoper
 ### <a name="BKMK_msdyn_workhourtemplate_MailboxTrackingFolders"></a> msdyn_workhourtemplate_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_workhourtemplate_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_workhourtemplate_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -722,6 +731,7 @@ Same as mailboxtrackingfolder entity [msdyn_workhourtemplate_MailboxTrackingFold
 ### <a name="BKMK_msdyn_workhourtemplate_UserEntityInstanceDatas"></a> msdyn_workhourtemplate_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_workhourtemplate_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_workhourtemplate_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -736,6 +746,7 @@ Same as userentityinstancedata entity [msdyn_workhourtemplate_UserEntityInstance
 ### <a name="BKMK_msdyn_workhourtemplate_ProcessSession"></a> msdyn_workhourtemplate_ProcessSession
 
 Same as processsession entity [msdyn_workhourtemplate_ProcessSession](processsession.md#BKMK_msdyn_workhourtemplate_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -750,6 +761,7 @@ Same as processsession entity [msdyn_workhourtemplate_ProcessSession](processses
 ### <a name="BKMK_msdyn_workhourtemplate_BulkDeleteFailures"></a> msdyn_workhourtemplate_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_workhourtemplate_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_workhourtemplate_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -764,6 +776,7 @@ Same as bulkdeletefailure entity [msdyn_workhourtemplate_BulkDeleteFailures](bul
 ### <a name="BKMK_msdyn_workhourtemplate_PrincipalObjectAttributeAccesses"></a> msdyn_workhourtemplate_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_workhourtemplate_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_workhourtemplate_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -778,6 +791,7 @@ Same as principalobjectattributeaccess entity [msdyn_workhourtemplate_PrincipalO
 ### <a name="BKMK_msdyn_workhourtemplate_msdyn_resourcerequirement_workhourtemplate"></a> msdyn_workhourtemplate_msdyn_resourcerequirement_workhourtemplate
 
 Same as msdyn_resourcerequirement entity [msdyn_workhourtemplate_msdyn_resourcerequirement_workhourtemplate](msdyn_resourcerequirement.md#BKMK_msdyn_workhourtemplate_msdyn_resourcerequirement_workhourtemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcerequirement|
@@ -792,6 +806,7 @@ Same as msdyn_resourcerequirement entity [msdyn_workhourtemplate_msdyn_resourcer
 ### <a name="BKMK_msdyn_workhourtemplate_Annotations"></a> msdyn_workhourtemplate_Annotations
 
 Same as annotation entity [msdyn_workhourtemplate_Annotations](annotation.md#BKMK_msdyn_workhourtemplate_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -806,6 +821,7 @@ Same as annotation entity [msdyn_workhourtemplate_Annotations](annotation.md#BKM
 ### <a name="BKMK_msdyn_msdyn_workhourtemplate_msdyn_project_workhourtemplate"></a> msdyn_msdyn_workhourtemplate_msdyn_project_workhourtemplate
 
 Same as msdyn_project entity [msdyn_msdyn_workhourtemplate_msdyn_project_workhourtemplate](msdyn_project.md#BKMK_msdyn_msdyn_workhourtemplate_msdyn_project_workhourtemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_project|
@@ -820,6 +836,7 @@ Same as msdyn_project entity [msdyn_msdyn_workhourtemplate_msdyn_project_workhou
 ### <a name="BKMK_msdyn_msdyn_workhourtemplate_msdyn_projectparameter_defaultWorkTemplate"></a> msdyn_msdyn_workhourtemplate_msdyn_projectparameter_defaultWorkTemplate
 
 Same as msdyn_projectparameter entity [msdyn_msdyn_workhourtemplate_msdyn_projectparameter_defaultWorkTemplate](msdyn_projectparameter.md#BKMK_msdyn_msdyn_workhourtemplate_msdyn_projectparameter_defaultWorkTemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectparameter|
@@ -834,6 +851,7 @@ Same as msdyn_projectparameter entity [msdyn_msdyn_workhourtemplate_msdyn_projec
 ### <a name="BKMK_msdyn_msdyn_workhourtemplate_msdyn_projectteam_worktemplate"></a> msdyn_msdyn_workhourtemplate_msdyn_projectteam_worktemplate
 
 Same as msdyn_projectteam entity [msdyn_msdyn_workhourtemplate_msdyn_projectteam_worktemplate](msdyn_projectteam.md#BKMK_msdyn_msdyn_workhourtemplate_msdyn_projectteam_worktemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectteam|
@@ -895,6 +913,6 @@ See bookableresource Entity [msdyn_bookableresource_msdyn_workhourtemplate_booka
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_workhourtemplate?text=msdyn_workhourtemplate EntityType" />

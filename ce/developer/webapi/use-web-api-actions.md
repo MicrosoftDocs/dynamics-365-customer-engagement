@@ -1,20 +1,24 @@
 ---
-title: "Use Web API actions (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-descriptions: "Actions are reusable operations that can be performed using the Web API. These are used with a POST request to modify data on Dynamics 365"
-ms.custom: ""
+title: "Use Web API actions (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+descriptions: Actions are reusable operations that can be performed using the Web API. These are used with a POST request to modify data on Dynamics 365 for Customer Engagement
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 53eafd67-385a-485b-9022-5127df08ea2f
 caps.latest.revision: 14
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use Web API actions
 
@@ -59,7 +63,6 @@ OData-Version: 4.0
   "opportunityid@odata.bind": "[Organization URI]/api/data/v9.0/opportunities(b3828ac8-917a-e511-80d2-00155d2a68d2)"
  }
 }
-
 ```
 
  **Response**
@@ -171,7 +174,6 @@ OData-Version: 4.0
   <Parameter Name="NoteText" Type="Edm.String" Nullable="false" Unicode="false" />
   <ReturnType Type="mscrm.annotation" Nullable="false" />
 </Action>
-
 ```
 
  The following HTTP request and response shows how to call the custom action and the response it returns if successful.  

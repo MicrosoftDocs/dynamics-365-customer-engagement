@@ -1,25 +1,31 @@
 ---
-title: "Create solutions that support multiple languages (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
+title: "Create solutions that support multiple languages (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+description: ""
+keywords: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.service: 
+  - crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2f601c9e-b1d1-47be-a8ea-afca16780751
-caps.latest.revision: 38
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
+
 # Create solutions that support multiple languages
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement supports multiple languages. If you want your solution to be installed for organizations that include different base languages or that have multiple languages provisioned, take this into account when planning your solution. The following table lists tactics to use along with solution components to include in a solution that supports multiple languages.  
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps support multiple languages. If you want your solution to be installed for organizations that include different base languages or that have multiple languages provisioned, take this into account when planning your solution. The following table lists tactics to use along with solution components to include in a solution that supports multiple languages.  
   
 |Tactic|Solution component type|  
 |------------|-----------------------------|  
@@ -35,7 +41,7 @@ manager: "amyla"
 
  <a name="BKMK_Localizable_Web_Resources"></a>
  ## String (RESX) web resources
- With string (RESX) web resources added with [!INCLUDE[pn-crm-9-0-0-online](.../includes/pn-crm-9-0-0-online.md)] developers have a more robust option to create web resources that support multiple languages. More information [String (RESX) web resources](resx-web-resources.md).
+ With string (RESX) web resources added with [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] developers have a more robust option to create web resources that support multiple languages. More information [String (RESX) web resources](resx-web-resources.md).
 
  For earlier versions, see [Developer option](https://msdn.microsoft.com/library/hh670609(v=crm.8).aspx#BKMK_DeveloperOption)
   
@@ -70,21 +76,21 @@ manager: "amyla"
 ### Translating labels and display strings  
  You can only perform customizations in the application by using the base language. Therefore, when you want to provide localized labels and display strings for these customizations, you must export the text of the labels so that they can be localized for any other languages enabled for the organization. Use the following steps:  
   
-1.  Ensure that the organization that you’re working on has all the MUI packs installed and languages provisioned for languages you want to provide translations for.  
+1. Ensure that the organization that you’re working on has all the MUI packs installed and languages provisioned for languages you want to provide translations for.  
   
-2.  Create your solution and modify the components.  
+2. Create your solution and modify the components.  
   
-3.  After you have finished developing your solution use the “Export Translations” functionality. This generates a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] spreadsheet (CrmTranslations.xml) that contains all the labels that need translation.  
+3. After you have finished developing your solution use the “Export Translations” functionality. This generates a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] spreadsheet (CrmTranslations.xml) that contains all the labels that need translation.  
   
-4.  In the spreadsheet, provide the corresponding translations.  
+4. In the spreadsheet, provide the corresponding translations.  
   
-5.  Import translations back into the same [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization using the “Import Translations” functionality and publish your changes.  
+5. Import translations back into the same [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization using the “Import Translations” functionality and publish your changes.  
   
-6.  The next time the solution is exported it carries all the translations that you provided.  
+6. The next time the solution is exported it carries all the translations that you provided.  
   
- When a solution is imported, labels for languages that aren’t available in the target system are discarded and a warning is logged.  
+   When a solution is imported, labels for languages that aren’t available in the target system are discarded and a warning is logged.  
   
- If labels for the base language of the target system are not provided in the solution package, the labels of the base language of the source are used instead. For example, if you import a solution that contains labels for English and French with English as the base language, but the target system has Japanese and French with Japanese as the base language, English labels are used instead of Japanese labels. The base languages labels cannot be **null** or empty.  
+   If labels for the base language of the target system are not provided in the solution package, the labels of the base language of the source are used instead. For example, if you import a solution that contains labels for English and French with English as the base language, but the target system has Japanese and French with Japanese as the base language, English labels are used instead of Japanese labels. The base languages labels cannot be **null** or empty.  
   
 #### Exporting translations  
  Before you export translations you must first install the language packs and provision all the languages you want to have localized. You can export the translations in the web application or by using the <xref:Microsoft.Crm.Sdk.Messages.ExportTranslationRequest> message. For more information, see [Export Customized Entity and Field Text for Translation](../customize/export-customized-entity-field-text-translation.md).  
@@ -117,9 +123,9 @@ manager: "amyla"
  After you import the completed translations, customized text appears for users who work in the languages that you had the text translated into.  
   
 > [!NOTE]
-> [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] cannot import translated text that is over 500 characters long. If any of the items in your translation file are longer than 500 characters, the import process fails. If the import process fails, review the line in the file that caused the failure, reduce the number of characters, and try to import again.  
+> [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps cannot import translated text that is over 500 characters long. If any of the items in your translation file are longer than 500 characters, the import process fails. If the import process fails, review the line in the file that caused the failure, reduce the number of characters, and try to import again.  
   
- Because customization is supported only in the base language, you may be working in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] with the base language set as your language preference. To verify that the translated text appears, you must change your language preference for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] user interface. To perform additional customization work, you must change back to the base language.  
+ Because customization is supported only in the base language, you may be working in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps with the base language set as your language preference. To verify that the translated text appears, you must change your language preference for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps user interface. To perform additional customization work, you must change back to the base language.  
   
 <a name="BKMK_LocalizationInBaseLanguageStrings"></a>   
 ## Localization in base language strings  
@@ -145,37 +151,37 @@ manager: "amyla"
 ## Separate component for each language  
  The following solution components each may contain a considerable amount of text to be localized:  
   
--   Article Templates  
+- Article Templates  
   
--   Email Templates  
+- Email Templates  
   
--   Mail Merge Templates  
+- Mail Merge Templates  
   
--   Reports  
+- Reports  
   
--   Dialogs  
+- Dialogs  
   
- For these types of solution components, the recommended tactic is to create separate components for each language. This means that you typically create a base managed solution that contains your core solution components and then a separate managed solution that contains these solution components for each language. After customers install the base solution, they can install the managed solutions for the languages they have provisioned for the organization.  
+  For these types of solution components, the recommended tactic is to create separate components for each language. This means that you typically create a base managed solution that contains your core solution components and then a separate managed solution that contains these solution components for each language. After customers install the base solution, they can install the managed solutions for the languages they have provisioned for the organization.  
   
- Unlike **Processes (Workflows)**, you can create **Dialogs** that will reflect the user’s current language preference settings and display the dialogs only to users of that language.  
+  Unlike **Processes (Workflows)**, you can create **Dialogs** that will reflect the user’s current language preference settings and display the dialogs only to users of that language.  
   
 #### Create a localized dialog box  
   
-1.  Install the appropriate language pack and provision the language.  
+1. Install the appropriate language pack and provision the language.  
   
-     For more information, see [Language Pack Installation Instructions](https://technet.microsoft.com/library/hh699674.aspx).  
+    For more information, see [Language Pack Installation Instructions](https://technet.microsoft.com/library/hh699674.aspx).  
   
-2.  Change your personal options to specify the **User Interface Language** for the language you want for the dialog.  
+2. Change your personal options to specify the **User Interface Language** for the language you want for the dialog.  
   
-3.  Navigate to **Settings** and, in the **Process Center** group, select **Processes**.  
+3. Navigate to **Settings** and, in the **Process Center** group, select **Processes**.  
   
-4.  Click **New** and create the dialog in the language that you specified.  
+4. Click **New** and create the dialog in the language that you specified.  
   
-5.  After you have created the dialog, change your personal options to specify the organization base language.  
+5. After you have created the dialog, change your personal options to specify the organization base language.  
   
-6.  While using the organization base language you can navigate to the **Solutions** area in **Settings** and add the localized dialog as part of a solution.  
+6. While using the organization base language you can navigate to the **Solutions** area in **Settings** and add the localized dialog as part of a solution.  
   
- The dialog created in the other language will only be displayed to users who view [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] using that language.  
+   The dialog created in the other language will only be displayed to users who view [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps using that language.  
   
 <a name="BKMK_UseXMLWebResourcesAsLanguageResources"></a>   
 ## Use XML web resources as language resources  
@@ -328,7 +334,7 @@ protected void ExecutePreValidateAccountDelete(LocalPluginContext localContext)
 ```  
   
 ### See also  
- [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solution](package-distribute-extensions-use-solutions.md)   
  [Introduction to Solutions](introduction-solutions.md)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)   

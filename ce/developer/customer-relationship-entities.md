@@ -1,25 +1,29 @@
 ---
-title: "Customer relationship entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Customer relationship entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "customer relationship entities, available if used in Microsoft Dynamics CRM 4.0"
-  - "customer relationship entities, replaced by the connection entities in Microsoft Dynamics CRM"
-  - "customer relationship entities, introduction"
-  - "customer relationship entities, deprecated in"
-  - "deprecated in, customer relationship entities"
+  - customer relationship entities, available if used in Microsoft Dynamics CRM 4.0
+  - customer relationship entities, replaced by the connection entities in Microsoft Dynamics CRM
+  - customer relationship entities, introduction
+  - customer relationship entities, deprecated in
+  - deprecated in, customer relationship entities
 ms.assetid: 7ef2ede5-41b2-4b08-807b-4607df7a58de
 caps.latest.revision: 25
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Customer relationship entities
 

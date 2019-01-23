@@ -1,44 +1,47 @@
 ---
-title: "Create real-time workflows (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create real-time workflows (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about real-time workflows that can be used to model and automate real world business processes. Real-time workflows are for business users, for example business analysts, to implement similar functionality to synchronous plug-ins without requiring .NET Framework programming experience."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-    - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a026a102-7854-42de-ab77-e5bbb556bb2c
-caps.latest.revision: 24
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create real-time workflows
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Similar to asynchronous workflows, real-time workflows can be used to model and automate real world business processes. They can optionally require user input, can start automatically based on specified event conditions, or can be started manually by a user. Real-time workflows are for business users, for example business analysts, to implement similar functionality to synchronous plug-ins without requiring [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] programming experience. You can create asynchronous or real-time workflows in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement web application or in code.  
+Similar to asynchronous workflows, real-time workflows can be used to model and automate real world business processes. They can optionally require user input, can start automatically based on specified event conditions, or can be started manually by a user. Real-time workflows are for business users, for example business analysts, to implement similar functionality to synchronous plug-ins without requiring [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] programming experience. You can create asynchronous or real-time workflows in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web application or in code.  
   
  Some key points about a real-time workflow include the following items:  
   
--   Defined by using a `Workflow` entity record, similar to an asynchronous workflow.  
+- Defined by using a `Workflow` entity record, similar to an asynchronous workflow.  
   
--   Executes in a stage of the event execution pipeline, similar to synchronous plug-ins. The real-time workflow can execute before (pre-operation), after (post-operation), or during the core operation. A real-time workflow that is executed during the core operation is the implementation of a custom action. Real-time workflows can be ranked within a stage just like you can do with plug-ins. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pipeline Stages](event-execution-pipeline.md#bkmk_PipelineStages)  
+- Executes in a stage of the event execution pipeline, similar to synchronous plug-ins. The real-time workflow can execute before (pre-operation), after (post-operation), or during the core operation. A real-time workflow that is executed during the core operation is the implementation of a custom action. Real-time workflows can be ranked within a stage just like you can do with plug-ins. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pipeline Stages](event-execution-pipeline.md#bkmk_PipelineStages)  
   
--   Whether configured to run on-demand or in response to an event, a real-time workflow runs immediately rather than being queued to run at a later time.  
+- Whether configured to run on-demand or in response to an event, a real-time workflow runs immediately rather than being queued to run at a later time.  
   
--   Can run in the security context of the logged on user or owner of the workflow. However, workflows set to run on-demand always run under the security context of the logged on user.  
+- Can run in the security context of the logged on user or owner of the workflow. However, workflows set to run on-demand always run under the security context of the logged on user.  
   
--   Can’t contain any delay or wait activities.  
+- Can’t contain any delay or wait activities.  
   
--   Only logs errors, and only when logging is enabled.  
+- Only logs errors, and only when logging is enabled.  
   
--   Executes in the current transaction. All activities in the workflow and any child workflows, except asynchronous workflows, are part of a single transaction. Asynchronous child workflows are queued and execute in a separate transaction.  
+- Executes in the current transaction. All activities in the workflow and any child workflows, except asynchronous workflows, are part of a single transaction. Asynchronous child workflows are queued and execute in a separate transaction.  
   
--   Can be converted to asynchronous workflow and back to real-time.  
+- Can be converted to asynchronous workflow and back to real-time.  
   
 <a name="bkmk_security"></a>   
 ## Required security privileges  
@@ -48,7 +51,7 @@ Similar to asynchronous workflows, real-time workflows can be used to model and 
 ## Create a real-time workflow in code  
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]  
  
- While [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] does support real-time workflows, they must be created interactively in the web application. XAML based workflows, discussed in this section, are only supported by an on-premises or IFD server.  
+ While [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps does support real-time workflows, they must be created interactively in the web application. XAML based workflows, discussed in this section, are only supported by an on-premises or IFD server.  
   
  You can create a real-time workflow in code by creating a `Workflow` entity record. Review the `Workflow` entity’s attribute metadata by using the Metadata Browser tool. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
   

@@ -1,9 +1,9 @@
 ---
-title: "Create and manage website bindings in Dynamics 365 Portal | MicrosoftDocs"
-description: "Learn how to create and manage website bindings in Dynamics 365 Portal."
-ms.custom:
+title: "Create and manage website bindings in Dynamics 365 for Customer Engagement Portal | MicrosoftDocs"
+description: "Learn how to create and manage website bindings in Dynamics 365 for Customer Engagement Portal."
+ms.custom: 
   - dyn365-portal
-ms.date: 06/20/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: 77C8B23E-372B-490A-8AD4-F65585F7B80E
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Create and manage website bindings
@@ -63,8 +70,8 @@ For Azure websites and cloud services, the site name and virtual path values are
 <ServiceDefinition>
   <WebRole>
     <Sites>
-      <Site name="Dynamics Portals">
-        <VirtualApplication name="customer-portal"/>
+      <Site name=Dynamics Portals>
+        <VirtualApplication name=customer-portal/>
 ```
 
 ### See also

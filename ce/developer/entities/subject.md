@@ -1,15 +1,19 @@
 ---
-title: "Subject Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Subject Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Subject entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Subject Entity Reference
 
@@ -583,6 +587,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_subject_products"></a> subject_products
 
 Same as product entity [subject_products](product.md#BKMK_subject_products) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|product|
@@ -597,6 +602,7 @@ Same as product entity [subject_products](product.md#BKMK_subject_products) Many
 ### <a name="BKMK_subject_incidents"></a> subject_incidents
 
 Same as incident entity [subject_incidents](incident.md#BKMK_subject_incidents) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -611,6 +617,7 @@ Same as incident entity [subject_incidents](incident.md#BKMK_subject_incidents) 
 ### <a name="BKMK_subject_sales_literature"></a> subject_sales_literature
 
 Same as salesliterature entity [subject_sales_literature](salesliterature.md#BKMK_subject_sales_literature) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesliterature|
@@ -625,6 +632,7 @@ Same as salesliterature entity [subject_sales_literature](salesliterature.md#BKM
 ### <a name="BKMK_userentityinstancedata_subject"></a> userentityinstancedata_subject
 
 Same as userentityinstancedata entity [userentityinstancedata_subject](userentityinstancedata.md#BKMK_userentityinstancedata_subject) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -639,6 +647,7 @@ Same as userentityinstancedata entity [userentityinstancedata_subject](userentit
 ### <a name="BKMK_Subject_AsyncOperations"></a> Subject_AsyncOperations
 
 Same as asyncoperation entity [Subject_AsyncOperations](asyncoperation.md#BKMK_Subject_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -653,6 +662,7 @@ Same as asyncoperation entity [Subject_AsyncOperations](asyncoperation.md#BKMK_S
 ### <a name="BKMK_subject_knowledgearticles"></a> subject_knowledgearticles
 
 Same as knowledgearticle entity [subject_knowledgearticles](knowledgearticle.md#BKMK_subject_knowledgearticles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgearticle|
@@ -667,6 +677,7 @@ Same as knowledgearticle entity [subject_knowledgearticles](knowledgearticle.md#
 ### <a name="BKMK_Subject_BulkDeleteFailures"></a> Subject_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Subject_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Subject_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -681,6 +692,7 @@ Same as bulkdeletefailure entity [Subject_BulkDeleteFailures](bulkdeletefailure.
 ### <a name="BKMK_Subject_ProcessSessions"></a> Subject_ProcessSessions
 
 Same as processsession entity [Subject_ProcessSessions](processsession.md#BKMK_Subject_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -695,6 +707,7 @@ Same as processsession entity [Subject_ProcessSessions](processsession.md#BKMK_S
 ### <a name="BKMK_Subject_SyncErrors"></a> Subject_SyncErrors
 
 Same as syncerror entity [Subject_SyncErrors](syncerror.md#BKMK_Subject_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -709,6 +722,7 @@ Same as syncerror entity [Subject_SyncErrors](syncerror.md#BKMK_Subject_SyncErro
 ### <a name="BKMK_subject_parent_subject"></a> subject_parent_subject
 
 Same as subject entity [subject_parent_subject](subject.md#BKMK_subject_parent_subject) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|subject|
@@ -723,6 +737,7 @@ Same as subject entity [subject_parent_subject](subject.md#BKMK_subject_parent_s
 ### <a name="BKMK_subject_kb_articles"></a> subject_kb_articles
 
 Same as kbarticle entity [subject_kb_articles](kbarticle.md#BKMK_subject_kb_articles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|kbarticle|
@@ -784,6 +799,6 @@ See systemuser Entity [lk_subject_modifiedonbehalfby](systemuser.md#BKMK_lk_subj
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.subject?text=subject EntityType" />

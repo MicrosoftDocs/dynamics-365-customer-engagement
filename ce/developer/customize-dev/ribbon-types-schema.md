@@ -1,20 +1,24 @@
 ---
-title: "Ribbon types schema (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Ribbon types schema (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The following is the schema definition for the ribbon types portion of an import/export customization file. It is included from the Ribbon Core Schema."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: dc56c384-367b-4f14-83ed-bb527f3c1964
 caps.latest.revision: 19
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Ribbon types schema
 
@@ -24,7 +28,7 @@ The following is the schema definition for the ribbon types portion of an import
 
 Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
 
-For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 Solutions](../package-distribute-extensions-use-solutions.md).
+For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 for Customer Engagement Solutions](../package-distribute-extensions-use-solutions.md).
   
 ## Schema  
   
@@ -863,5 +867,5 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
  [Ribbon Core Schema](ribbon-core-schema.md)   
  [Ribbon WSS Schema](ribbon-wss-schema.md)   
- [Schemas Used in Microsoft Dynamics 365](../schemas-used-dynamics-365.md)   
+ [Schemas Used in Microsoft Dynamics 365 for Customer Engagement](../schemas-used-dynamics-365.md)   
  [Customization XML Reference](../customization-xml-reference.md)

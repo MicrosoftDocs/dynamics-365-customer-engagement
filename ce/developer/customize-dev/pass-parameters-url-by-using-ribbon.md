@@ -1,22 +1,26 @@
 ---
-title: "Pass parameters to a URL by using the ribbon (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Pass parameters to a URL by using the ribbon (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about passing parameters to a URL by using the ribbon"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "ribbon"
+  - ribbon
 ms.assetid: 27ae5df1-fbd3-404b-bf52-40bbd2773cf6
 caps.latest.revision: 24
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Pass parameters to a URL by using the ribbon
 
@@ -48,13 +52,13 @@ Ribbon actions are defined in the `<Actions>` element of a `<CommandDefinition>`
 >  We recommend that you use the entity name instead of the entity type code because the entity type code may be different between [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] installations.  
   
 ### Example  
- The following sample shows shows the URL without parameters:  
+ The following sample shows the URL without parameters:  
   
 ```  
 http://myserver/mypage.aspx  
 ```  
   
- The following sample shows shows the parameters included when the ribbon control is presented for the account entity, for an organization called ‘AdventureWorksCycle’, when the user’s language and the organization base language is English, and the GUID for the account record is DBD5DBFB-0666-DC11-A5D9-0003FF9CE217:  
+ The following sample shows the parameters included when the ribbon control is presented for the account entity, for an organization called ‘AdventureWorksCycle’, when the user’s language and the organization base language is English, and the GUID for the account record is DBD5DBFB-0666-DC11-A5D9-0003FF9CE217:  
   
 ```  
 http://myserver/mypage.aspx?orgname=AdventureWorksCycle&userlcid=1033&orglcid=1033&type=1&typename=account&id=%7BDBD5DBFB-0666-DC11-A5D9-0003FF9CE217%7D  

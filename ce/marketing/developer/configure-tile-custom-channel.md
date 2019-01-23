@@ -1,18 +1,23 @@
 ---
 title: "Step 3: Configure the tile for custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Learn about how to configure a Tile for a custom channel in Dynamics 365 for Marketing."
-ms.custom: ""
+ms.custom: 
 ms.date: 04/01/2018
-ms.service: "crm-online"
+ms.service: crm-online
 ms.technology: 
-  - "marketing"
-ms.topic: "conceptual"
+  - marketing
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 # Step 3: Configure the tile for custom channel
 
@@ -23,7 +28,7 @@ Custom channel is exposed as a “tile” in the customer journey designer. You 
 
 ## Define the Tile XML file
 
-Define tile properties of the custom Tile in in an XML file. The XML file name should be in the following format: **\<SolutionPublisherPrefix>_\<FileNamePrefix>CustomerJourneyDesignerTileConfig.xml**.
+Define tile properties of the custom Tile in an XML file. The XML file name should be in the following format: **\<SolutionPublisherPrefix>_\<FileNamePrefix>CustomerJourneyDesignerTileConfig.xml**.
 
 For example if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](../../customize/change-solution-publisher-prefix.md) in your Customer Engagement instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml** 
 
@@ -146,13 +151,13 @@ The XML file has the following elements:
     </tr>
     <tr>
     <td>ComplianceField</td>
-    <td>Contains a boolean attribute of the [Contact](../../developer/entities/contact.md) entity whose value determines whether an instance of the Custom Channel Activity (<b>msdyncrm_customerjourneycustomchannelactivity</b>) entity is created when the Contact record goes through a customer journey.<br/><br/>
+    <td>Contains a boolean attribute of the <a href="../../developer/entities/contact.md" data-raw-source="[Contact](../../developer/entities/contact.md)">Contact</a> entity whose value determines whether an instance of the Custom Channel Activity (<b>msdyncrm_customerjourneycustomchannelactivity</b>) entity is created when the Contact record goes through a customer journey.<br/><br/>
     
-    For example, if you set the value of this element to [donotphone](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone):<br/><br/>
+    For example, if you set the value of this element to <a href="https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone)">donotphone</a>:<br/><br/>
 
-    `<ComplianceField>donotphone</ComplianceField>`
+    <code>&lt;ComplianceField&gt;donotphone&lt;/ComplianceField&gt;</code>
  
-    <br/><br/>The value of this attribute will be checked for a Contact record while going through a customer journey and an instance of the Custom Channel Activity entity will be created only if the value of the [donotphone](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone) attribute for the contact record is <b>false</b>.
+    <br/><br/>The value of this attribute will be checked for a Contact record while going through a customer journey and an instance of the Custom Channel Activity entity will be created only if the value of the <a href="https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone)">donotphone</a> attribute for the contact record is <b>false</b>.
     </td>
     </tr>
     <tr>
@@ -169,7 +174,7 @@ The XML file has the following elements:
     </tr>
     </table>
 
-- **ResponseTypes**: Add information about the expected reponse types. The **id** property defines the name or the Id of a response type. The **Labels** element lets you specify localized labels for the response type. Use the **locId** property in the **Label** element to specify localized lable names. For example:
+- **ResponseTypes**: Add information about the expected reponse types. The **id** property defines the name or the Id of a response type. The **Labels** element lets you specify localized labels for the response type. Use the **locId** property in the **Label** element to specify localized label names. For example:
 
     ```xml
     <ResponseTypes>

@@ -1,15 +1,19 @@
 ---
-title: "UoMSchedule Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "UoMSchedule Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the UoMSchedule entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # UoMSchedule Entity Reference
 
@@ -643,6 +647,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_UoMSchedule_SyncErrors"></a> UoMSchedule_SyncErrors
 
 Same as syncerror entity [UoMSchedule_SyncErrors](syncerror.md#BKMK_UoMSchedule_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -657,6 +662,7 @@ Same as syncerror entity [UoMSchedule_SyncErrors](syncerror.md#BKMK_UoMSchedule_
 ### <a name="BKMK_UoMSchedule_AsyncOperations"></a> UoMSchedule_AsyncOperations
 
 Same as asyncoperation entity [UoMSchedule_AsyncOperations](asyncoperation.md#BKMK_UoMSchedule_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -671,6 +677,7 @@ Same as asyncoperation entity [UoMSchedule_AsyncOperations](asyncoperation.md#BK
 ### <a name="BKMK_uomschedule_MailboxTrackingFolders"></a> uomschedule_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [uomschedule_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_uomschedule_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -685,6 +692,7 @@ Same as mailboxtrackingfolder entity [uomschedule_MailboxTrackingFolders](mailbo
 ### <a name="BKMK_userentityinstancedata_uomschedule"></a> userentityinstancedata_uomschedule
 
 Same as userentityinstancedata entity [userentityinstancedata_uomschedule](userentityinstancedata.md#BKMK_userentityinstancedata_uomschedule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -699,6 +707,7 @@ Same as userentityinstancedata entity [userentityinstancedata_uomschedule](usere
 ### <a name="BKMK_UoMSchedule_BulkDeleteFailures"></a> UoMSchedule_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [UoMSchedule_BulkDeleteFailures](bulkdeletefailure.md#BKMK_UoMSchedule_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -713,6 +722,7 @@ Same as bulkdeletefailure entity [UoMSchedule_BulkDeleteFailures](bulkdeletefail
 ### <a name="BKMK_uomschedule_PrincipalObjectAttributeAccesses"></a> uomschedule_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [uomschedule_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_uomschedule_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -727,6 +737,7 @@ Same as principalobjectattributeaccess entity [uomschedule_PrincipalObjectAttrib
 ### <a name="BKMK_unit_of_measurement_schedule_products"></a> unit_of_measurement_schedule_products
 
 Same as product entity [unit_of_measurement_schedule_products](product.md#BKMK_unit_of_measurement_schedule_products) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|product|
@@ -741,6 +752,7 @@ Same as product entity [unit_of_measurement_schedule_products](product.md#BKMK_u
 ### <a name="BKMK_unit_of_measure_schedule_conversions"></a> unit_of_measure_schedule_conversions
 
 Same as uom entity [unit_of_measure_schedule_conversions](uom.md#BKMK_unit_of_measure_schedule_conversions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|uom|
@@ -755,6 +767,7 @@ Same as uom entity [unit_of_measure_schedule_conversions](uom.md#BKMK_unit_of_me
 ### <a name="BKMK_unit_of_measure_schedule_product_price_level"></a> unit_of_measure_schedule_product_price_level
 
 Same as productpricelevel entity [unit_of_measure_schedule_product_price_level](productpricelevel.md#BKMK_unit_of_measure_schedule_product_price_level) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|productpricelevel|
@@ -769,6 +782,7 @@ Same as productpricelevel entity [unit_of_measure_schedule_product_price_level](
 ### <a name="BKMK_contract_detail_unit_of_measure_schedule"></a> contract_detail_unit_of_measure_schedule
 
 Same as contractdetail entity [contract_detail_unit_of_measure_schedule](contractdetail.md#BKMK_contract_detail_unit_of_measure_schedule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contractdetail|
@@ -783,6 +797,7 @@ Same as contractdetail entity [contract_detail_unit_of_measure_schedule](contrac
 ### <a name="BKMK_msdyn_uomschedule_msdyn_actual_UnitSchedule"></a> msdyn_uomschedule_msdyn_actual_UnitSchedule
 
 Same as msdyn_actual entity [msdyn_uomschedule_msdyn_actual_UnitSchedule](msdyn_actual.md#BKMK_msdyn_uomschedule_msdyn_actual_UnitSchedule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -797,6 +812,7 @@ Same as msdyn_actual entity [msdyn_uomschedule_msdyn_actual_UnitSchedule](msdyn_
 ### <a name="BKMK_msdyn_uomschedule_msdyn_estimateline_UnitSchedule"></a> msdyn_uomschedule_msdyn_estimateline_UnitSchedule
 
 Same as msdyn_estimateline entity [msdyn_uomschedule_msdyn_estimateline_UnitSchedule](msdyn_estimateline.md#BKMK_msdyn_uomschedule_msdyn_estimateline_UnitSchedule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimateline|
@@ -811,6 +827,7 @@ Same as msdyn_estimateline entity [msdyn_uomschedule_msdyn_estimateline_UnitSche
 ### <a name="BKMK_msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule"></a> msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule
 
 Same as msdyn_invoicelinetransaction entity [msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule](msdyn_invoicelinetransaction.md#BKMK_msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -825,6 +842,7 @@ Same as msdyn_invoicelinetransaction entity [msdyn_uomschedule_msdyn_invoiceline
 ### <a name="BKMK_msdyn_uomschedule_msdyn_journalline_UnitSchedule"></a> msdyn_uomschedule_msdyn_journalline_UnitSchedule
 
 Same as msdyn_journalline entity [msdyn_uomschedule_msdyn_journalline_UnitSchedule](msdyn_journalline.md#BKMK_msdyn_uomschedule_msdyn_journalline_UnitSchedule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journalline|
@@ -839,6 +857,7 @@ Same as msdyn_journalline entity [msdyn_uomschedule_msdyn_journalline_UnitSchedu
 ### <a name="BKMK_msdyn_uomschedule_msdyn_opportunitylinetransaction_UnitSchedule"></a> msdyn_uomschedule_msdyn_opportunitylinetransaction_UnitSchedule
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_uomschedule_msdyn_opportunitylinetransaction_UnitSchedule](msdyn_opportunitylinetransaction.md#BKMK_msdyn_uomschedule_msdyn_opportunitylinetransaction_UnitSchedule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransaction|
@@ -853,6 +872,7 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_uomschedule_msdyn_opportu
 ### <a name="BKMK_msdyn_uomschedule_msdyn_orderlinetransaction_UnitSchedule"></a> msdyn_uomschedule_msdyn_orderlinetransaction_UnitSchedule
 
 Same as msdyn_orderlinetransaction entity [msdyn_uomschedule_msdyn_orderlinetransaction_UnitSchedule](msdyn_orderlinetransaction.md#BKMK_msdyn_uomschedule_msdyn_orderlinetransaction_UnitSchedule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransaction|
@@ -867,6 +887,7 @@ Same as msdyn_orderlinetransaction entity [msdyn_uomschedule_msdyn_orderlinetran
 ### <a name="BKMK_msdyn_uomschedule_msdyn_quotelinetransaction_UnitSchedule"></a> msdyn_uomschedule_msdyn_quotelinetransaction_UnitSchedule
 
 Same as msdyn_quotelinetransaction entity [msdyn_uomschedule_msdyn_quotelinetransaction_UnitSchedule](msdyn_quotelinetransaction.md#BKMK_msdyn_uomschedule_msdyn_quotelinetransaction_UnitSchedule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransaction|
@@ -881,6 +902,7 @@ Same as msdyn_quotelinetransaction entity [msdyn_uomschedule_msdyn_quotelinetran
 ### <a name="BKMK_msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule"></a> msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule
 
 Same as msdyn_resourcecategorypricelevel entity [msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule](msdyn_resourcecategorypricelevel.md#BKMK_msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcecategorypricelevel|
@@ -895,6 +917,7 @@ Same as msdyn_resourcecategorypricelevel entity [msdyn_uomschedule_msdyn_resourc
 ### <a name="BKMK_msdyn_uomschedule_msdyn_transactioncategory_UnitGroup"></a> msdyn_uomschedule_msdyn_transactioncategory_UnitGroup
 
 Same as msdyn_transactioncategory entity [msdyn_uomschedule_msdyn_transactioncategory_UnitGroup](msdyn_transactioncategory.md#BKMK_msdyn_uomschedule_msdyn_transactioncategory_UnitGroup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_transactioncategory|
@@ -909,6 +932,7 @@ Same as msdyn_transactioncategory entity [msdyn_uomschedule_msdyn_transactioncat
 ### <a name="BKMK_msdyn_uomschedule_msdyn_transactioncategorypricelevel_UnitSchedule"></a> msdyn_uomschedule_msdyn_transactioncategorypricelevel_UnitSchedule
 
 Same as msdyn_transactioncategorypricelevel entity [msdyn_uomschedule_msdyn_transactioncategorypricelevel_UnitSchedule](msdyn_transactioncategorypricelevel.md#BKMK_msdyn_uomschedule_msdyn_transactioncategorypricelevel_UnitSchedule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_transactioncategorypricelevel|
@@ -923,6 +947,7 @@ Same as msdyn_transactioncategorypricelevel entity [msdyn_uomschedule_msdyn_tran
 ### <a name="BKMK_msdyn_uomschedule_msdyn_transactiontype_UnitGroup"></a> msdyn_uomschedule_msdyn_transactiontype_UnitGroup
 
 Same as msdyn_transactiontype entity [msdyn_uomschedule_msdyn_transactiontype_UnitGroup](msdyn_transactiontype.md#BKMK_msdyn_uomschedule_msdyn_transactiontype_UnitGroup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_transactiontype|
@@ -979,6 +1004,6 @@ See externalparty Entity [lk_externalparty_uomschedule_modifiedby](externalparty
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.uomschedule?text=uomschedule EntityType" />

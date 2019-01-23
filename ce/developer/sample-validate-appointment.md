@@ -1,24 +1,28 @@
 ---
-title: "Sample: Validate an appointment (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Validate an appointment (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to validate an appointment using the ValidateRequest message."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "schedule and appointment entities"
-  - "sample for validating appointments"
-  - "validating appointments sample, schedule and appointment entities samples"
+  - schedule and appointment entities
+  - sample for validating appointments
+  - validating appointments sample, schedule and appointment entities samples
 ms.assetid: f88ba768-78f1-4fe8-9c72-59e72249f090
 caps.latest.revision: 19
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Validate an appointment
 

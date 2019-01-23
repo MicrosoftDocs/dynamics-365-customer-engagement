@@ -1,20 +1,24 @@
 ---
-title: "Use JavaScript with Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "This topic helps you explore various opportunities that Dynamics 365 Customer Engagement provides to use JavaScript. You can use JavaScript to perform actions in form scripts, command bar (ribbon) commands, and web resources."
-ms.custom: ""
+title: "Use JavaScript with Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "This topic helps you explore various opportunities that Dynamics 365 for Customer Engagement provides to use JavaScript. You can use JavaScript to perform actions in form scripts, command bar (ribbon) commands, and web resources."
+ms.custom: 
 ms.date: 01/10/2018
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b7840a25-f25e-409b-8b6a-0ef04c7ed9c4
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
-# Use JavaScript with Customer Engagement
+# Use JavaScript with Customer Engagement apps
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -22,7 +26,7 @@ manager: "amyla"
   
 <a name="BKMK_AreasToUseJavaScript"></a>   
 
-## Areas where you can use JavaScript in Dynamics 365 
+## Areas where you can use JavaScript in Dynamics 365 for Customer Engagement apps
  
  You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] to perform actions in form scripts, command bar (ribbon) commands, and web resources.  
   
@@ -42,7 +46,7 @@ manager: "amyla"
 
 ### Web resources  
 
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides an organization-owned entity that stores a binary representation of a file that can be accessed by using a URL. This file is called a web resource. There are several types of web resources. A web resource that represents a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library is called a [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] web resource. You can use a webpage (HTML) web resource to provide a user interface with [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries included just as you would for files on a web server. Because these files are part of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], users who access them are already authenticated. Therefore, you can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services without having to write code to authenticate the user. For more information, see [Web Resources for Dynamics 365](web-resources.md) and [Work with Dynamics 365 data using web resources](work-data-using-web-resources.md).  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides an organization-owned entity that stores a binary representation of a file that can be accessed by using a URL. This file is called a web resource. There are several types of web resources. A web resource that represents a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library is called a [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] web resource. You can use a webpage (HTML) web resource to provide a user interface with [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries included just as you would for files on a web server. Because these files are part of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], users who access them are already authenticated. Therefore, you can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services without having to write code to authenticate the user. For more information, see [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md) and [Work with Dynamics 365 for Customer Engagement data using web resources](work-data-using-web-resources.md).  
   
 <a name="BKMK_UsingjQuery"></a>   
 
@@ -94,11 +98,11 @@ manager: "amyla"
 
  Content delivery network (CDN) [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries provide many advantages for public websites. Because these libraries are hosted on the Internet, you do not need to create web resources that contain the content of the libraries. For [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you should consider the following issues before you use a CDN [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library.  
   
--   Users of the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] client have the capability to work with no Internet connection while working offline. If you are depending on an Internet connection for your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries, your code will fail.  
+- Users of the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] client have the capability to work with no Internet connection while working offline. If you are depending on an Internet connection for your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries, your code will fail.  
   
--   Some organizations will restrict Internet access for employees. Unless they configure the network to allow access to the CDN library sites, your code may fail for those organizations.  
+- Some organizations will restrict Internet access for employees. Unless they configure the network to allow access to the CDN library sites, your code may fail for those organizations.  
   
- The alternative to using CDN libraries is to create a script ([!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]) web resource with the contents of the library. Because web resources are organization-owned entities they will be synchronized when a [!INCLUDE[pn-oc-online-short](../includes/pn-oc-online-short.md)] with Offline Access user goes offline. Because these web resources now become part of the application they will not be blocked if an organization restricts access to the Internet.  
+  The alternative to using CDN libraries is to create a script ([!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]) web resource with the contents of the library. Because web resources are organization-owned entities they will be synchronized when a [!INCLUDE[pn-oc-online-short](../includes/pn-oc-online-short.md)] with Offline Access user goes offline. Because these web resources now become part of the application they will not be blocked if an organization restricts access to the Internet.  
   
 <a name="bkmk_useFeatureDetection"></a>
 
@@ -137,9 +141,9 @@ manager: "amyla"
 
  [Write Client Application Extensions](extend-client.md)<br />
  [Work with Customer Engagement data using web resources](work-data-using-web-resources.md)<br />
- [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md)<br />
- [Customize the Ribbon for Dynamics 365](customize-dev/customize-commands-ribbon.md)<br />
- [Web Resources for Dynamics 365](web-resources.md)<br />
+ [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)<br />
+ [Customize the Ribbon for Dynamics 365 for Customer Engagement apps](customize-dev/customize-commands-ribbon.md)<br />
+ [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)<br />
  [Use the Web API with web resources](webapi/get-started-web-api-client-side-javascript.md)<br />
  [Understand the Client API Object Model](clientapi/understand-clientapi-object-model.md)<br />
  [Blog: Debugging JavaScript code in CRM using browser developer tools](http://go.microsoft.com/fwlink/p/?LinkId=715699)<br />

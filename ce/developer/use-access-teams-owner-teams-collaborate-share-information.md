@@ -1,25 +1,29 @@
 ---
-title: "Use access teams and owner teams to collaborate and share information (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Use access teams and owner teams to collaborate and share information (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about using access teams and owner teams to colloborate and share information."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "owner team"
-  - "team template"
-  - "team"
-  - "access team"
+  - owner team
+  - team template
+  - team
+  - access team
 ms.assetid: 16f99b97-6ce5-4f65-abdd-f836dc54f9d3
 caps.latest.revision: 75
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use access teams and owner teams to collaborate and share information
 
@@ -42,21 +46,21 @@ With *owner* teams or *access* teams, you can easily share business objects and 
   
 ### When to use owner teams  
   
--   Owning records by entities other than users is required by your company’s business policies.  
+- Owning records by entities other than users is required by your company’s business policies.  
   
--   The number of teams is known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system.  
+- The number of teams is known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system.  
   
--   Daily reporting on progress by owning teams is required.  
+- Daily reporting on progress by owning teams is required.  
   
 ### When to use access teams  
   
--   The teams are dynamically formed and dissolved. This typically happens if the clear criteria for defining the teams, such as established territory, product, or volume aren’t provided.  
+- The teams are dynamically formed and dissolved. This typically happens if the clear criteria for defining the teams, such as established territory, product, or volume aren’t provided.  
   
--   The number of teams isn’t known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system.  
+- The number of teams isn’t known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system.  
   
--   The team members require different access rights on the records. You can share a record with several access teams, each team providing different access rights on the record. For example, one team is granted the Read access right on the account and another team, the Read, Write and Share access rights on the same account.  
+- The team members require different access rights on the records. You can share a record with several access teams, each team providing different access rights on the record. For example, one team is granted the Read access right on the account and another team, the Read, Write and Share access rights on the same account.  
   
--   A unique set of users requires access to a single record without having an ownership of the record.  
+- A unique set of users requires access to a single record without having an ownership of the record.  
   
 > [!NOTE]
 >  Another kind of “access team” is addressed by the access team templates that are used by the web application. This is the type of team that changes often, such as a specific account record’s sales team. When a user is added to a sales team in an account, the web application, behind the scenes, creates a team specific to this record and adds the user to it.  
@@ -115,7 +119,7 @@ With *owner* teams or *access* teams, you can easily share business objects and 
   
 > [!NOTE]
 >  Owner teams and access teams provide access rights to the record and related records, such as to an account and all opportunities related to this account. In case of parental relationship between the records, cascading rules are applied. For the owner teams, you can access entities based on the roles assigned to the user plus the roles assigned to the team that a user is a member of. This allows a user to have privileges outside their business unit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Entity Relationship Behavior](entity-relationship-behavior.md)  
-  
+> 
 > [!NOTE]
 >  A user must have sufficient privileges to join an access team. For example, if the access team has the Delete access right on an account, the user must have the Delete privilege on the Account entity to join the team. If you’re trying to add a user with insufficient privileges, you’ll see this error message: “You can’t add the user to the access team because the user doesn’t have sufficient privileges on the entity.”  
   
@@ -129,5 +133,5 @@ With *owner* teams or *access* teams, you can easily share business objects and 
  [TeamTemplate Entity](entities/teamtemplate.md)   
  [Administer the deployment using Windows PowerShell](https://technet.microsoft.com/library/dn531202.aspx)   
  [Use record-based security to control access to records](security-dev/use-record-based-security-control-access-records.md)   
- [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365](security-dev/how-role-based-security-control-access-entities.md)   
+ [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 for Customer Engagement apps](security-dev/how-role-based-security-control-access-entities.md)   
  [Cascading Behavior](entity-relationship-behavior.md#BKMK_CascadingBehavior)

@@ -1,60 +1,65 @@
 ---
-title: "xRM messages in the Organization service (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "xRM messages in the Organization service (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the data messages available in the xRM namespace"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "Microsoft.Xrm.Sdk.Messages namespace, list of data and metadata messages in"
-  - "Xrm namespace, list of data and metadata messages in"
-  - "Xrm messages in the organization service"
-  - "IOrganizationService web service, Xrm messages in"
-  - "Xrm messages in the IOrganizationService"
-  - "organization service web service, Xrm messages in"
+  - Microsoft.Xrm.Sdk.Messages namespace, list of data and metadata messages in
+  - Xrm namespace, list of data and metadata messages in
+  - Xrm messages in the organization service
+  - IOrganizationService web service, Xrm messages in
+  - Xrm messages in the IOrganizationService
+  - organization service web service, Xrm messages in
 ms.assetid: f392ebae-4012-4861-a335-42e1d9243409
 caps.latest.revision: 39
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # xRM messages in the Organization service
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 The <xref:Microsoft.Xrm.Sdk.Messages> namespace supports the core messages used to work with the data stored in any entity. This namespace also contains the messages you can use to retrieve and customize the metadata for entities, attributes, and relationships.  
-  
+
  Messages are used with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method. All messages available in the <xref:Microsoft.Xrm.Sdk.Messages> namespace apply to all three deployment types.  
-  
+
  The request page indicates whether the message works while online (connected to the server) or offline (disconnected from the server).  
-  
+
 ## Data messages  
  The following table lists the data messages available in the xRM namespace.  
-  
-|Message|Description|  
-|-------------|-----------------|  
-|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest>|Creates a link between records that participate in a relationship.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest>|[!INCLUDE[internal](../../includes/internal.md)]|  
-|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest>|Creates a record of any type that supports the **Create** message, including custom entities.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest>|Deletes an existing record.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest>|Removes the link between records.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.ExecuteAsyncRequest>|Executes a message asynchronously. Currently this only supports the <xref:Microsoft.Crm.Sdk.Messages.ImportSolutionRequest> message.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.ExecuteTransactionRequest>|Executes multiple message requests in a single database transaction.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.ReactivateEntityKeyRequest>|Submits a new asynchronous system job to create the index for the key.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveEntityChangesRequest>|Retrieves the changes in an entity since the last sync.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest>|Retrieves a record.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest>|Retrieves a collection of records. The query can be specified using a query expression or a FetchXML query.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest>|Updates an existing record.|  
-|<xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest>|Updates or inserts a record.|  
-  
+
+
+|                               Message                               |                                                             Description                                                              |
+|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+|         <xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest>          |                                  Creates a link between records that participate in a relationship.                                  |
+| <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest> |                                           [!INCLUDE[internal](../../includes/internal.md)]                                           |
+|           <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest>           |                    Creates a record of any type that supports the **Create** message, including custom entities.                     |
+|           <xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest>           |                                                     Deletes an existing record.                                                      |
+|        <xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest>        |                                                  Removes the link between records.                                                   |
+|        <xref:Microsoft.Xrm.Sdk.Messages.ExecuteAsyncRequest>        | Executes a message asynchronously. Currently this only supports the <xref:Microsoft.Crm.Sdk.Messages.ImportSolutionRequest> message. |
+|     <xref:Microsoft.Xrm.Sdk.Messages.ExecuteTransactionRequest>     |                                 Executes multiple message requests in a single database transaction.                                 |
+|    <xref:Microsoft.Xrm.Sdk.Messages.ReactivateEntityKeyRequest>     |                                Submits a new asynchronous system job to create the index for the key.                                |
+|   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveEntityChangesRequest>    |                                       Retrieves the changes in an entity since the last sync.                                        |
+|          <xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest>          |                                                         Retrieves a record.                                                          |
+|      <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest>      |             Retrieves a collection of records. The query can be specified using a query expression or a FetchXML query.              |
+|           <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest>           |                                                     Updates an existing record.                                                      |
+|           <xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest>           |                                                     Updates or inserts a record.                                                     |
+
 ## Metadata messages  
  The following table lists the metadata messages available in the XRM namespace.  
-  
+
 |Message|Description|  
 |-------------|-----------------|  
 |<xref:Microsoft.Xrm.Sdk.Messages.CanBeReferencedRequest>|Checks to see if the specified entity can be the primary entity (one) in a one-to-many relationship.|  
@@ -99,9 +104,9 @@ The <xref:Microsoft.Xrm.Sdk.Messages> namespace supports the core messages used 
 |<xref:Microsoft.Xrm.Sdk.Messages.UpdateOptionValueRequest>|Updates the metadata for an option value.|  
 |<xref:Microsoft.Xrm.Sdk.Messages.UpdateRelationshipRequest>|Updates the metadata for a relationship.|  
 |<xref:Microsoft.Xrm.Sdk.Messages.UpdateStateValueRequest>|Updates the metadata for a state value.|  
-  
+
 ### See also  
  [Web Services: IOrganizationService](use-organization-service-read-write-data-metadata.md)   
- [Dynamics 365 Messages in the Organization Service](organization-service-messages.md)   
+ [Dynamics 365 for Customer Engagement apps Messages in the Organization Service](organization-service-messages.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Xrm.Sdk.Messages>

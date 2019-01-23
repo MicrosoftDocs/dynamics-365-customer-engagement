@@ -1,33 +1,37 @@
 ---
-title: "Sample: Retrieve records from an intersect table (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Retrieve records from an intersect table (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to retrieve records from an intersect table"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "intersect entities sample, retrieving records for many-to-many relationships by using intersect entities"
+  - intersect entities sample, retrieving records for many-to-many relationships by using intersect entities
   - "sample for retrieving records in many-to-many (N:N) relationships by using intersect entities"
-  - "sample for retrieving records from intersect tables"
+  - sample for retrieving records from intersect tables
   - "retrieving records for many-to-many (N:N) relationships by using intersect entities sample"
-  - "retrieving records from intersect tables sample"
+  - retrieving records from intersect tables sample
   - "retrieving records for many-to-many (N:N) relationships by using intersect entities, sample"
 ms.assetid: a46636f6-a77d-4afc-93fa-10621f0f839f
 caps.latest.revision: 20
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Retrieve records from an intersect table
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the complete sample from [Sample: Work with Queries](https://code.msdn.microsoft.com/Sample-Work-with-Queries-8265a78e).   
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. Download the complete sample from [Sample: Work with Queries](https://code.msdn.microsoft.com/Sample-Work-with-Queries-8265a78e).   
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

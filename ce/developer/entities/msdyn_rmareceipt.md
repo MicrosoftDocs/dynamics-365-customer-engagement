@@ -1,15 +1,19 @@
 ---
-title: "msdyn_rmareceipt Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_rmareceipt Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_rmareceipt entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_rmareceipt Entity Reference
 
@@ -392,7 +396,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -499,7 +503,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -745,6 +749,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_rmareceipt_ActivityPointers"></a> msdyn_rmareceipt_ActivityPointers
 
 Same as activitypointer entity [msdyn_rmareceipt_ActivityPointers](activitypointer.md#BKMK_msdyn_rmareceipt_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -759,6 +764,7 @@ Same as activitypointer entity [msdyn_rmareceipt_ActivityPointers](activitypoint
 ### <a name="BKMK_msdyn_rmareceipt_msdyn_approvals"></a> msdyn_rmareceipt_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_rmareceipt_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_rmareceipt_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -773,6 +779,7 @@ Same as msdyn_approval entity [msdyn_rmareceipt_msdyn_approvals](msdyn_approval.
 ### <a name="BKMK_msdyn_rmareceipt_msdyn_bookingalerts"></a> msdyn_rmareceipt_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_rmareceipt_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_rmareceipt_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -787,6 +794,7 @@ Same as msdyn_bookingalert entity [msdyn_rmareceipt_msdyn_bookingalerts](msdyn_b
 ### <a name="BKMK_msdyn_rmareceipt_SyncErrors"></a> msdyn_rmareceipt_SyncErrors
 
 Same as syncerror entity [msdyn_rmareceipt_SyncErrors](syncerror.md#BKMK_msdyn_rmareceipt_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -801,6 +809,7 @@ Same as syncerror entity [msdyn_rmareceipt_SyncErrors](syncerror.md#BKMK_msdyn_r
 ### <a name="BKMK_msdyn_rmareceipt_DuplicateMatchingRecord"></a> msdyn_rmareceipt_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_rmareceipt_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_rmareceipt_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -815,6 +824,7 @@ Same as duplicaterecord entity [msdyn_rmareceipt_DuplicateMatchingRecord](duplic
 ### <a name="BKMK_msdyn_rmareceipt_DuplicateBaseRecord"></a> msdyn_rmareceipt_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_rmareceipt_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_rmareceipt_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -829,6 +839,7 @@ Same as duplicaterecord entity [msdyn_rmareceipt_DuplicateBaseRecord](duplicater
 ### <a name="BKMK_msdyn_rmareceipt_SharePointDocumentLocations"></a> msdyn_rmareceipt_SharePointDocumentLocations
 
 Same as sharepointdocumentlocation entity [msdyn_rmareceipt_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_rmareceipt_SharePointDocumentLocations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -843,6 +854,7 @@ Same as sharepointdocumentlocation entity [msdyn_rmareceipt_SharePointDocumentLo
 ### <a name="BKMK_msdyn_rmareceipt_SharePointDocuments"></a> msdyn_rmareceipt_SharePointDocuments
 
 Same as sharepointdocument entity [msdyn_rmareceipt_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_rmareceipt_SharePointDocuments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -857,6 +869,7 @@ Same as sharepointdocument entity [msdyn_rmareceipt_SharePointDocuments](sharepo
 ### <a name="BKMK_msdyn_rmareceipt_AsyncOperations"></a> msdyn_rmareceipt_AsyncOperations
 
 Same as asyncoperation entity [msdyn_rmareceipt_AsyncOperations](asyncoperation.md#BKMK_msdyn_rmareceipt_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -871,6 +884,7 @@ Same as asyncoperation entity [msdyn_rmareceipt_AsyncOperations](asyncoperation.
 ### <a name="BKMK_msdyn_rmareceipt_MailboxTrackingFolders"></a> msdyn_rmareceipt_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_rmareceipt_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_rmareceipt_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -885,6 +899,7 @@ Same as mailboxtrackingfolder entity [msdyn_rmareceipt_MailboxTrackingFolders](m
 ### <a name="BKMK_msdyn_rmareceipt_UserEntityInstanceDatas"></a> msdyn_rmareceipt_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_rmareceipt_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_rmareceipt_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -899,6 +914,7 @@ Same as userentityinstancedata entity [msdyn_rmareceipt_UserEntityInstanceDatas]
 ### <a name="BKMK_msdyn_rmareceipt_ProcessSession"></a> msdyn_rmareceipt_ProcessSession
 
 Same as processsession entity [msdyn_rmareceipt_ProcessSession](processsession.md#BKMK_msdyn_rmareceipt_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -913,6 +929,7 @@ Same as processsession entity [msdyn_rmareceipt_ProcessSession](processsession.m
 ### <a name="BKMK_msdyn_rmareceipt_BulkDeleteFailures"></a> msdyn_rmareceipt_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_rmareceipt_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_rmareceipt_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -927,6 +944,7 @@ Same as bulkdeletefailure entity [msdyn_rmareceipt_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_msdyn_rmareceipt_PrincipalObjectAttributeAccesses"></a> msdyn_rmareceipt_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_rmareceipt_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_rmareceipt_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -941,6 +959,7 @@ Same as principalobjectattributeaccess entity [msdyn_rmareceipt_PrincipalObjectA
 ### <a name="BKMK_msdyn_rmareceipt_Appointments"></a> msdyn_rmareceipt_Appointments
 
 Same as appointment entity [msdyn_rmareceipt_Appointments](appointment.md#BKMK_msdyn_rmareceipt_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -955,6 +974,7 @@ Same as appointment entity [msdyn_rmareceipt_Appointments](appointment.md#BKMK_m
 ### <a name="BKMK_msdyn_rmareceipt_Emails"></a> msdyn_rmareceipt_Emails
 
 Same as email entity [msdyn_rmareceipt_Emails](email.md#BKMK_msdyn_rmareceipt_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -969,6 +989,7 @@ Same as email entity [msdyn_rmareceipt_Emails](email.md#BKMK_msdyn_rmareceipt_Em
 ### <a name="BKMK_msdyn_rmareceipt_Faxes"></a> msdyn_rmareceipt_Faxes
 
 Same as fax entity [msdyn_rmareceipt_Faxes](fax.md#BKMK_msdyn_rmareceipt_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -983,6 +1004,7 @@ Same as fax entity [msdyn_rmareceipt_Faxes](fax.md#BKMK_msdyn_rmareceipt_Faxes) 
 ### <a name="BKMK_msdyn_rmareceipt_Letters"></a> msdyn_rmareceipt_Letters
 
 Same as letter entity [msdyn_rmareceipt_Letters](letter.md#BKMK_msdyn_rmareceipt_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -997,6 +1019,7 @@ Same as letter entity [msdyn_rmareceipt_Letters](letter.md#BKMK_msdyn_rmareceipt
 ### <a name="BKMK_msdyn_rmareceipt_PhoneCalls"></a> msdyn_rmareceipt_PhoneCalls
 
 Same as phonecall entity [msdyn_rmareceipt_PhoneCalls](phonecall.md#BKMK_msdyn_rmareceipt_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1011,6 +1034,7 @@ Same as phonecall entity [msdyn_rmareceipt_PhoneCalls](phonecall.md#BKMK_msdyn_r
 ### <a name="BKMK_msdyn_rmareceipt_Tasks"></a> msdyn_rmareceipt_Tasks
 
 Same as task entity [msdyn_rmareceipt_Tasks](task.md#BKMK_msdyn_rmareceipt_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1025,6 +1049,7 @@ Same as task entity [msdyn_rmareceipt_Tasks](task.md#BKMK_msdyn_rmareceipt_Tasks
 ### <a name="BKMK_msdyn_rmareceipt_RecurringAppointmentMasters"></a> msdyn_rmareceipt_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_rmareceipt_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_rmareceipt_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1039,6 +1064,7 @@ Same as recurringappointmentmaster entity [msdyn_rmareceipt_RecurringAppointment
 ### <a name="BKMK_msdyn_rmareceipt_SocialActivities"></a> msdyn_rmareceipt_SocialActivities
 
 Same as socialactivity entity [msdyn_rmareceipt_SocialActivities](socialactivity.md#BKMK_msdyn_rmareceipt_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1053,6 +1079,7 @@ Same as socialactivity entity [msdyn_rmareceipt_SocialActivities](socialactivity
 ### <a name="BKMK_msdyn_rmareceipt_connections1"></a> msdyn_rmareceipt_connections1
 
 Same as connection entity [msdyn_rmareceipt_connections1](connection.md#BKMK_msdyn_rmareceipt_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1067,6 +1094,7 @@ Same as connection entity [msdyn_rmareceipt_connections1](connection.md#BKMK_msd
 ### <a name="BKMK_msdyn_rmareceipt_connections2"></a> msdyn_rmareceipt_connections2
 
 Same as connection entity [msdyn_rmareceipt_connections2](connection.md#BKMK_msdyn_rmareceipt_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1081,6 +1109,7 @@ Same as connection entity [msdyn_rmareceipt_connections2](connection.md#BKMK_msd
 ### <a name="BKMK_msdyn_rmareceipt_Annotations"></a> msdyn_rmareceipt_Annotations
 
 Same as annotation entity [msdyn_rmareceipt_Annotations](annotation.md#BKMK_msdyn_rmareceipt_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1095,6 +1124,7 @@ Same as annotation entity [msdyn_rmareceipt_Annotations](annotation.md#BKMK_msdy
 ### <a name="BKMK_msdyn_rmareceipt_ServiceAppointments"></a> msdyn_rmareceipt_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_rmareceipt_ServiceAppointments](serviceappointment.md#BKMK_msdyn_rmareceipt_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1109,6 +1139,7 @@ Same as serviceappointment entity [msdyn_rmareceipt_ServiceAppointments](service
 ### <a name="BKMK_msdyn_msdyn_rmareceipt_msdyn_rmareceiptproduct_RMAReceipt"></a> msdyn_msdyn_rmareceipt_msdyn_rmareceiptproduct_RMAReceipt
 
 Same as msdyn_rmareceiptproduct entity [msdyn_msdyn_rmareceipt_msdyn_rmareceiptproduct_RMAReceipt](msdyn_rmareceiptproduct.md#BKMK_msdyn_msdyn_rmareceipt_msdyn_rmareceiptproduct_RMAReceipt) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rmareceiptproduct|
@@ -1180,6 +1211,6 @@ See systemuser Entity [msdyn_systemuser_msdyn_rmareceipt_ReceivedBy](systemuser.
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_rmareceipt?text=msdyn_rmareceipt EntityType" />

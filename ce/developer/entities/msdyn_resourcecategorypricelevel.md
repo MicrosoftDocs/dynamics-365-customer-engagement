@@ -1,15 +1,19 @@
 ---
-title: "msdyn_resourcecategorypricelevel Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_resourcecategorypricelevel Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_resourcecategorypricelevel entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_resourcecategorypricelevel Entity Reference
 
@@ -853,6 +857,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_SyncErrors"></a> msdyn_resourcecategorypricelevel_SyncErrors
 
 Same as syncerror entity [msdyn_resourcecategorypricelevel_SyncErrors](syncerror.md#BKMK_msdyn_resourcecategorypricelevel_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -867,6 +872,7 @@ Same as syncerror entity [msdyn_resourcecategorypricelevel_SyncErrors](syncerror
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_DuplicateMatchingRecord"></a> msdyn_resourcecategorypricelevel_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_resourcecategorypricelevel_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_resourcecategorypricelevel_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -881,6 +887,7 @@ Same as duplicaterecord entity [msdyn_resourcecategorypricelevel_DuplicateMatchi
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_DuplicateBaseRecord"></a> msdyn_resourcecategorypricelevel_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_resourcecategorypricelevel_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_resourcecategorypricelevel_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -895,6 +902,7 @@ Same as duplicaterecord entity [msdyn_resourcecategorypricelevel_DuplicateBaseRe
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_AsyncOperations"></a> msdyn_resourcecategorypricelevel_AsyncOperations
 
 Same as asyncoperation entity [msdyn_resourcecategorypricelevel_AsyncOperations](asyncoperation.md#BKMK_msdyn_resourcecategorypricelevel_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -909,6 +917,7 @@ Same as asyncoperation entity [msdyn_resourcecategorypricelevel_AsyncOperations]
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_MailboxTrackingFolders"></a> msdyn_resourcecategorypricelevel_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_resourcecategorypricelevel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_resourcecategorypricelevel_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -923,6 +932,7 @@ Same as mailboxtrackingfolder entity [msdyn_resourcecategorypricelevel_MailboxTr
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_UserEntityInstanceDatas"></a> msdyn_resourcecategorypricelevel_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_resourcecategorypricelevel_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_resourcecategorypricelevel_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -937,6 +947,7 @@ Same as userentityinstancedata entity [msdyn_resourcecategorypricelevel_UserEnti
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_ProcessSession"></a> msdyn_resourcecategorypricelevel_ProcessSession
 
 Same as processsession entity [msdyn_resourcecategorypricelevel_ProcessSession](processsession.md#BKMK_msdyn_resourcecategorypricelevel_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -951,6 +962,7 @@ Same as processsession entity [msdyn_resourcecategorypricelevel_ProcessSession](
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_BulkDeleteFailures"></a> msdyn_resourcecategorypricelevel_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_resourcecategorypricelevel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_resourcecategorypricelevel_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -965,6 +977,7 @@ Same as bulkdeletefailure entity [msdyn_resourcecategorypricelevel_BulkDeleteFai
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_PrincipalObjectAttributeAccesses"></a> msdyn_resourcecategorypricelevel_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_resourcecategorypricelevel_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_resourcecategorypricelevel_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -979,6 +992,7 @@ Same as principalobjectattributeaccess entity [msdyn_resourcecategorypricelevel_
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_Annotations"></a> msdyn_resourcecategorypricelevel_Annotations
 
 Same as annotation entity [msdyn_resourcecategorypricelevel_Annotations](annotation.md#BKMK_msdyn_resourcecategorypricelevel_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1060,6 +1074,6 @@ See uomschedule Entity [msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitS
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_resourcecategorypricelevel?text=msdyn_resourcecategorypricelevel EntityType" />

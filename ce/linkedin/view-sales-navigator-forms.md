@@ -1,17 +1,24 @@
 ---
 title: "Sign in to LinkedIn Sales Navigator | Microsoft Docs"
-description: "Sign in to LinkedIn Sales Navigator in Dynamics 365 to see lead information on forms."
-keywords: "sign in, authenticate, sales navigator, customized form"
+description: "Sign in to LinkedIn Sales Navigator in Dynamics 365 for Customer Engagement to see lead information on forms."
+keywords: sign in, authenticate, sales navigator, customized form
 ms.date: 07/12/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
-  - "Dynamics 365 Version 9.x"
-  - "Dynamics 365 (online)"
+applies_to: 
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: efbe4fd6-a486-d97d-3b2c-8c4020e9d57b
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365LinkedIn
 ---
 
 # View Sales Navigator controls on forms

@@ -1,15 +1,19 @@
 ---
-title: "msdyn_integrationjob Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_integrationjob Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_integrationjob entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_integrationjob Entity Reference
 
@@ -696,6 +700,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_integrationjob_SyncErrors"></a> msdyn_integrationjob_SyncErrors
 
 Same as syncerror entity [msdyn_integrationjob_SyncErrors](syncerror.md#BKMK_msdyn_integrationjob_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -710,6 +715,7 @@ Same as syncerror entity [msdyn_integrationjob_SyncErrors](syncerror.md#BKMK_msd
 ### <a name="BKMK_msdyn_integrationjob_AsyncOperations"></a> msdyn_integrationjob_AsyncOperations
 
 Same as asyncoperation entity [msdyn_integrationjob_AsyncOperations](asyncoperation.md#BKMK_msdyn_integrationjob_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -724,6 +730,7 @@ Same as asyncoperation entity [msdyn_integrationjob_AsyncOperations](asyncoperat
 ### <a name="BKMK_msdyn_integrationjob_MailboxTrackingFolders"></a> msdyn_integrationjob_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_integrationjob_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_integrationjob_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -738,6 +745,7 @@ Same as mailboxtrackingfolder entity [msdyn_integrationjob_MailboxTrackingFolder
 ### <a name="BKMK_msdyn_integrationjob_UserEntityInstanceDatas"></a> msdyn_integrationjob_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_integrationjob_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_integrationjob_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -752,6 +760,7 @@ Same as userentityinstancedata entity [msdyn_integrationjob_UserEntityInstanceDa
 ### <a name="BKMK_msdyn_integrationjob_ProcessSession"></a> msdyn_integrationjob_ProcessSession
 
 Same as processsession entity [msdyn_integrationjob_ProcessSession](processsession.md#BKMK_msdyn_integrationjob_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -766,6 +775,7 @@ Same as processsession entity [msdyn_integrationjob_ProcessSession](processsessi
 ### <a name="BKMK_msdyn_integrationjob_BulkDeleteFailures"></a> msdyn_integrationjob_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_integrationjob_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_integrationjob_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -780,6 +790,7 @@ Same as bulkdeletefailure entity [msdyn_integrationjob_BulkDeleteFailures](bulkd
 ### <a name="BKMK_msdyn_integrationjob_PrincipalObjectAttributeAccesses"></a> msdyn_integrationjob_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_integrationjob_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_integrationjob_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -794,6 +805,7 @@ Same as principalobjectattributeaccess entity [msdyn_integrationjob_PrincipalObj
 ### <a name="BKMK_msdyn_msdyn_integrationjob_msdyn_integrationjob"></a> msdyn_msdyn_integrationjob_msdyn_integrationjob
 
 Same as msdyn_integrationjobdetail entity [msdyn_msdyn_integrationjob_msdyn_integrationjob](msdyn_integrationjobdetail.md#BKMK_msdyn_msdyn_integrationjob_msdyn_integrationjob) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_integrationjobdetail|
@@ -850,6 +862,6 @@ See businessunit Entity [business_unit_msdyn_integrationjob](businessunit.md#BKM
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_integrationjob?text=msdyn_integrationjob EntityType" />

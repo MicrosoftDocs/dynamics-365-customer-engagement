@@ -1,22 +1,26 @@
 ---
-title: "Script(JScript) web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Script(JScript) web resources (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about using JavaScript web resources to create a library of JavaScript functions that can be accessed from anywhere. "
-ms.custom: ""
+ms.custom: 
 ms.date: 03/02/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "web resource, Jscript"
+  - web resource, Jscript
 ms.assetid: 882565b5-aa86-475e-971a-b5123bbadcf9
 caps.latest.revision: 25
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Script(JScript) web resources
 
@@ -24,7 +28,7 @@ manager: "amyla"
 
 Use Script(JScript) web resources to create a library of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that can be accessed from anywhere.  
   
-<a name="BKMK_capabilties"></a>   
+<a name="BKMK_capabilities"></a>   
 ## Capabilities of script web resources  
  With [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources, you can more efficiently manage code used in form scripts, webpage (HTML) web resources, or ribbon commands by linking them to shared library of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions.  
   
@@ -50,9 +54,9 @@ Use Script(JScript) web resources to create a library of [!INCLUDE[pn_JavaScript
  To reference a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] from a different publisher, the path must include the customization prefix for that publisher. For example, for the `new_/content/contentpage.htm` page to reference the `MyIsv_/scripts/customscripts.js` page, the `src` attribute value should be `../../MyIsv_/scripts/customscripts.js`.  
   
 ### See also  
- [Use JavaScript with Customer Engagement](use-javascript.md)   
- [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md)   
- [Web Resources for Dynamics 365](web-resources.md)   
+ [Use JavaScript with Customer Engagement apps](use-javascript.md)   
+ [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)   
+ [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)   
  [Using Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Using Style Sheet (CSS) Web Resources](css-web-resources.md)   
  [Using Data (XML) Web Resources](data-xml-web-resources.md)   

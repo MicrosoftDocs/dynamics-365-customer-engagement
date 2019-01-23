@@ -1,27 +1,31 @@
 ---
-title: "Sample: Work with global option sets (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
+title: "Sample: Work with global option sets (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
 ms.assetid: 348e0bc9-ddde-4bbe-a0aa-968d0d6b0ac2
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Work with global option sets
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with global option sets](https://code.msdn.microsoft.com/Samples-of-option-set-37c4b418). 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. Download the sample: [Work with global option sets](https://code.msdn.microsoft.com/Samples-of-option-set-37c4b418). 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
@@ -46,7 +50,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[optionsets#WorkwithGlobalOptionSets](../../snippets/csharp/CRMV8/optionsets/cs/workwithglobaloptionsets.cs#workwithglobaloptionsets)]  
   
 ### See also  
- [Extend the Metadata Model for Dynamics 365](use-organization-service-metadata.md)   
- [Customize Global Option Sets in Dynamics 365](customize-global-option-sets.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](use-organization-service-metadata.md)   
+ [Customize Global Option Sets in Dynamics 365 for Customer Engagement apps](customize-global-option-sets.md)   
  [Sample: Dump global option set information to a file](sample-dump-global-option-set-information-file.md)   
  [Global Option Set Messages](customize-global-option-sets.md#messages)

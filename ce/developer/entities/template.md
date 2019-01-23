@@ -1,15 +1,19 @@
 ---
-title: "Template Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Template Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Template entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Template Entity Reference
 
@@ -540,7 +544,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates if a template is recommended by Dynamics 365.|
+|Description|Indicates if a template is recommended by Dynamics 365 for Customer Engagement apps.|
 |DisplayName|Recommended|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -908,6 +912,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_template"></a> userentityinstancedata_template
 
 Same as userentityinstancedata entity [userentityinstancedata_template](userentityinstancedata.md#BKMK_userentityinstancedata_template) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -922,6 +927,7 @@ Same as userentityinstancedata entity [userentityinstancedata_template](userenti
 ### <a name="BKMK_template_activity_mime_attachments"></a> template_activity_mime_attachments
 
 Same as activitymimeattachment entity [template_activity_mime_attachments](activitymimeattachment.md#BKMK_template_activity_mime_attachments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitymimeattachment|
@@ -936,6 +942,7 @@ Same as activitymimeattachment entity [template_activity_mime_attachments](activ
 ### <a name="BKMK_Template_SyncErrors"></a> Template_SyncErrors
 
 Same as syncerror entity [Template_SyncErrors](syncerror.md#BKMK_Template_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -950,6 +957,7 @@ Same as syncerror entity [Template_SyncErrors](syncerror.md#BKMK_Template_SyncEr
 ### <a name="BKMK_Template_AsyncOperations"></a> Template_AsyncOperations
 
 Same as asyncoperation entity [Template_AsyncOperations](asyncoperation.md#BKMK_Template_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -964,6 +972,7 @@ Same as asyncoperation entity [Template_AsyncOperations](asyncoperation.md#BKMK_
 ### <a name="BKMK_Email_EmailTemplate"></a> Email_EmailTemplate
 
 Same as email entity [Email_EmailTemplate](email.md#BKMK_Email_EmailTemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -978,6 +987,7 @@ Same as email entity [Email_EmailTemplate](email.md#BKMK_Email_EmailTemplate) Ma
 ### <a name="BKMK_Template_Organization"></a> Template_Organization
 
 Same as organization entity [Template_Organization](organization.md#BKMK_Template_Organization) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|organization|
@@ -992,6 +1002,7 @@ Same as organization entity [Template_Organization](organization.md#BKMK_Templat
 ### <a name="BKMK_Template_ProcessSessions"></a> Template_ProcessSessions
 
 Same as processsession entity [Template_ProcessSessions](processsession.md#BKMK_Template_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1006,6 +1017,7 @@ Same as processsession entity [Template_ProcessSessions](processsession.md#BKMK_
 ### <a name="BKMK_emailtemplate_convertrule"></a> emailtemplate_convertrule
 
 Same as convertrule entity [emailtemplate_convertrule](convertrule.md#BKMK_emailtemplate_convertrule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|convertrule|
@@ -1020,6 +1032,7 @@ Same as convertrule entity [emailtemplate_convertrule](convertrule.md#BKMK_email
 ### <a name="BKMK_Template_BulkDeleteFailures"></a> Template_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Template_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Template_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1076,6 +1089,6 @@ See systemuser Entity [lk_templatebase_createdonbehalfby](systemuser.md#BKMK_lk_
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.template?text=template EntityType" />

@@ -1,15 +1,19 @@
 ---
-title: "msdyn_fact Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_fact Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_fact entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_fact Entity Reference
 
@@ -2247,6 +2251,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_fact_SyncErrors"></a> msdyn_fact_SyncErrors
 
 Same as syncerror entity [msdyn_fact_SyncErrors](syncerror.md#BKMK_msdyn_fact_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2261,6 +2266,7 @@ Same as syncerror entity [msdyn_fact_SyncErrors](syncerror.md#BKMK_msdyn_fact_Sy
 ### <a name="BKMK_msdyn_fact_DuplicateMatchingRecord"></a> msdyn_fact_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_fact_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_fact_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2275,6 +2281,7 @@ Same as duplicaterecord entity [msdyn_fact_DuplicateMatchingRecord](duplicaterec
 ### <a name="BKMK_msdyn_fact_DuplicateBaseRecord"></a> msdyn_fact_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_fact_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_fact_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2289,6 +2296,7 @@ Same as duplicaterecord entity [msdyn_fact_DuplicateBaseRecord](duplicaterecord.
 ### <a name="BKMK_msdyn_fact_AsyncOperations"></a> msdyn_fact_AsyncOperations
 
 Same as asyncoperation entity [msdyn_fact_AsyncOperations](asyncoperation.md#BKMK_msdyn_fact_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2303,6 +2311,7 @@ Same as asyncoperation entity [msdyn_fact_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_msdyn_fact_MailboxTrackingFolders"></a> msdyn_fact_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_fact_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_fact_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -2317,6 +2326,7 @@ Same as mailboxtrackingfolder entity [msdyn_fact_MailboxTrackingFolders](mailbox
 ### <a name="BKMK_msdyn_fact_UserEntityInstanceDatas"></a> msdyn_fact_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_fact_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_fact_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2331,6 +2341,7 @@ Same as userentityinstancedata entity [msdyn_fact_UserEntityInstanceDatas](usere
 ### <a name="BKMK_msdyn_fact_ProcessSession"></a> msdyn_fact_ProcessSession
 
 Same as processsession entity [msdyn_fact_ProcessSession](processsession.md#BKMK_msdyn_fact_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2345,6 +2356,7 @@ Same as processsession entity [msdyn_fact_ProcessSession](processsession.md#BKMK
 ### <a name="BKMK_msdyn_fact_BulkDeleteFailures"></a> msdyn_fact_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_fact_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_fact_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2359,6 +2371,7 @@ Same as bulkdeletefailure entity [msdyn_fact_BulkDeleteFailures](bulkdeletefailu
 ### <a name="BKMK_msdyn_fact_PrincipalObjectAttributeAccesses"></a> msdyn_fact_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_fact_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_fact_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -2373,6 +2386,7 @@ Same as principalobjectattributeaccess entity [msdyn_fact_PrincipalObjectAttribu
 ### <a name="BKMK_msdyn_fact_Annotations"></a> msdyn_fact_Annotations
 
 Same as annotation entity [msdyn_fact_Annotations](annotation.md#BKMK_msdyn_fact_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -2499,6 +2513,6 @@ See salesorder Entity [msdyn_salesorder_msdyn_fact_SalesContract](salesorder.md#
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_fact?text=msdyn_fact EntityType" />

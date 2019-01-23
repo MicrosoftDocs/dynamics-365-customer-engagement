@@ -1,42 +1,46 @@
 ---
-title: "Introduction to solutions (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Developers and authors create, package and maintain units that extend Dynamics 365 (Online) Customer Engagement" 
-ms.custom: ""
+title: "Introduction to solutions (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+description: "Developers and authors create, package and maintain units that extend Dynamics 365 for Customer Engagement apps"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: e41e1785-7dcd-46b9-a2eb-e4e848c3154c
 caps.latest.revision: 59
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Introduction to solutions
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-*Solutions* are how customizers and developers author, package, and maintain units of software that extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Customizers and developers distribute solutions so that organizations can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to install and uninstall the business functionality defined by the solution.  
+*Solutions* are how customizers and developers author, package, and maintain units of software that extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps. Customizers and developers distribute solutions so that organizations can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to install and uninstall the business functionality defined by the solution.  
   
 <a name="BKMK_ExtensibilityChoices"></a>   
 ## Extensibility choices  
- Use solutions to extend the capability of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For software that operates outside the application, use traditional methods to package and install your application, such as an installer program.  
+ Use solutions to extend the capability of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. For software that operates outside the application, use traditional methods to package and install your application, such as an installer program.  
   
- If your application consists only of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solution components, it can be imported directly into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You won’t have to create an installer program.  
+ If your application consists only of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps solution components, it can be imported directly into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. You won’t have to create an installer program.  
   
  ![An application with external components](media/external-components.png "An application with external components")  
   
- However, if your extensions include a combination of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solution components and external components, which are not [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solution components, you’ll need an installer.  
+ However, if your extensions include a combination of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps solution components and external components, which are not [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps solution components, you’ll need an installer.  
   
- For example, you can create a [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] application that manages data stored in custom [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] entities using the web service APIs. People who install your application may install a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solution to create the custom entities and then install your application separately by using an installer. Or, you could include the installation of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solution into the installer you create for your application.  
+ For example, you can create a [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] application that manages data stored in custom [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps entities using the web service APIs. People who install your application may install a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps solution to create the custom entities and then install your application separately by using an installer. Or, you could include the installation of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps solution into the installer you create for your application.  
   
 <a name="BKMK_VersionCompat"></a>   
 ## Version compatibility  
- Solutions exported from an earlier version of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] can be imported into later versions as shown in the following chart.  
+ Solutions exported from an earlier version of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps can be imported into later versions as shown in the following chart.  
   
  ![Solution version compatiblity](media/crm_v9.0_solution_compatibility_chart.png) 
   
@@ -49,30 +53,30 @@ manager: "amyla"
 
 ## Solution components
 
- Solution components are created by using the customization tools or APIs included in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and are fully hosted in the application. The following diagram shows the types of solution components.  
+ Solution components are created by using the customization tools or APIs included in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps and are fully hosted in the application. The following diagram shows the types of solution components.  
   
  ![Solution Components](media/solution-components.png "Solution Components")  
   
- When you define a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution you create a group of solution components that can be managed together.  
+ When you define a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps solution you create a group of solution components that can be managed together.  
   
 > [!NOTE]
 >  Solutions can only add new solution components or overwrite existing solution components. Solutions can’t be used to delete solution components.  
   
 <a name="BKMK_UnmanagedandManagedSolutions"></a>   
 ## Unmanaged and managed solutions  
- There are two types of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solutions: *managed* and *unmanaged*. A managed solution is a completed solution that is intended to be distributed and installed. An unmanaged solution is one that is still under development or isn’t intended to be distributed. When the unmanaged solution is complete and you want to distribute it, export it and package it as a managed solution.  
+ There are two types of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps solutions: *managed* and *unmanaged*. A managed solution is a completed solution that is intended to be distributed and installed. An unmanaged solution is one that is still under development or isn’t intended to be distributed. When the unmanaged solution is complete and you want to distribute it, export it and package it as a managed solution.  
   
  The following diagram introduces how managed and unmanaged solutions interact with the system solution to control application behavior.  
   
  ![Solution layering](media/solution-layering.png "Solution layering")  
   
  **System solution**  
- The system solution represents the solution components defined within [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Without any managed solutions or customizations, the system solution defines the default application behavior.  
+ The system solution represents the solution components defined within [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Without any managed solutions or customizations, the system solution defines the default application behavior.  
   
  Many of the components in the system solution are customizable and can be used in managed solutions or unmanaged customizations.  
   
  **Managed solutions**  
- Managed solutions are installed on top of the system solution and can modify any customizable solution components or add more solution components.  
+ Managed solutions are installed on top of the system solution and can modify any customizable solution components or add more solution components. 
   
  Managed solutions can also be layered on top of other managed solutions. As long as a managed solution enables customization of its solution components, other managed solutions can be installed on top of it and modify any customizable solution components that it provides.  
   
@@ -85,22 +89,22 @@ manager: "amyla"
  You create a managed solution by exporting an unmanaged solution and selecting to package it as a managed solution.  
   
  **Application behavior**  
- The ultimate behavior of an instance of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for a specific organization is the culmination of the system solution, any managed solutions, and any unmanaged customizations.  
+ The ultimate behavior of an instance of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps for a specific organization is the culmination of the system solution, any managed solutions, and any unmanaged customizations.  
   
 ### Unmanaged solutions  
  When a solution is unmanaged, you can perform the following actions:  
   
--   Add components.  
+- Add components.  
   
--   Remove components.  
+- Remove components.  
   
--   Delete components that allow for deletion.  
+- Delete components that allow for deletion.  
   
--   Export and import the unmanaged solution.  
+- Export and import the unmanaged solution.  
   
--   Export the solution as a managed solution.  
+- Export the solution as a managed solution.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, Export, or Import an Unmanaged Solution](create-export-import-unmanaged-solution.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, Export, or Import an Unmanaged Solution](create-export-import-unmanaged-solution.md)  
   
 #### Importing unmanaged solutions  
  When you import an unmanaged solution, you can edit its components in the new organization.  
@@ -109,10 +113,10 @@ manager: "amyla"
 >  When you import an unmanaged solution, the definitions of any solution components that already are in the organization will be overwritten. You can’t undo this action.  
   
 #### Unmanaged customizations  
- Each [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization contains customizable solution components. Together, all of these solution components are called the *default solution*. This is the solution you edit when you select **Customize the System** in the application. You can export this solution and the customizations in it in just like an unmanaged solution. However, you can’t export the default solution as a managed solution.  
+ Each [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization contains customizable solution components. Together, all of these solution components are called the *default solution*. This is the solution you edit when you select **Customize the System** in the application. You can export this solution and the customizations in it in just like an unmanaged solution. However, you can’t export the default solution as a managed solution.  
   
 #### Create an unmanaged solution  
- If you don’t intend to generate a managed solution, you don’t have to create an unmanaged solution. You can customize the system directly. Organizations that just want to be able to edit, back up, and transport their customizations don’t have to use the more advanced capabilities of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solutions framework.  
+ If you don’t intend to generate a managed solution, you don’t have to create an unmanaged solution. You can customize the system directly. Organizations that just want to be able to edit, back up, and transport their customizations don’t have to use the more advanced capabilities of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps solution framework.  
   
  When you create an unmanaged solution, you create a way to group a subset of the available customizable solution components. The solution components in an unmanaged solution are references to customizable solution components in the organization.  
   
@@ -144,21 +148,21 @@ manager: "amyla"
  If you intend to distribute your solution as a managed solution, export your unmanaged solution and select the **Managed** option in the **Package Type** dialog box.  
   
 > [!NOTE]
->  After you generate a managed solution, you can’t install it in the same [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization that contains the unmanaged solution used to create it. It must be installed in a different organization.  
+>  After you generate a managed solution, you can’t install it in the same [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization that contains the unmanaged solution used to create it. It must be installed in a different organization.  
   
  After you install a managed solution, the following applies:  
   
--   You can’t add or remove solution components in a managed solution.  
+- You can’t add or remove solution components in a managed solution.  
   
--   You can’t export a managed solution.  
+- You can’t export a managed solution.  
   
--   Deleting a managed solution uninstalls all the solution components in it.  
+- Deleting a managed solution uninstalls all the solution components in it.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)  
   
- After you install a managed solution you may be able to customize the solution components if the creator of the managed solution has configured the managed solution to enable it. You must access the customizable solution components using **Customize the System** instead of through the managed solution itself.  
+  After you install a managed solution you may be able to customize the solution components if the creator of the managed solution has configured the managed solution to enable it. You must access the customizable solution components using **Customize the System** instead of through the managed solution itself.  
   
- Use [Managed Properties](introduction-solutions.md#BKMK_ManagedProperties) to control whether a solution component is customizable and what specific customization actions are enabled.  
+  Use [Managed Properties](introduction-solutions.md#BKMK_ManagedProperties) to control whether a solution component is customizable and what specific customization actions are enabled.  
   
 <a name="BKMK_SoluitonPublisherManagedSolutions"></a>   
 #### Solution publisher for managed solutions  
@@ -183,7 +187,7 @@ manager: "amyla"
   
 <a name="BKMK_ConflictResolution"></a>   
 ## Conflict resolution  
- When two or more solutions define solution components differently, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] resolves the conflict using two strategies, **Merge** and **Top Wins**. The following diagram illustrates the differences.  
+ When two or more solutions define solution components differently, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps resolve the conflict using two strategies, **Merge** and **Top Wins**. The following diagram illustrates the differences.  
   
  ![Two Solution conflict resolution strategies](media/solution-merge.png "Two Solution conflict resolution strategies")  
   
@@ -198,11 +202,11 @@ manager: "amyla"
   
  When you release an update to a managed solution, the organization installing the update can select:  
   
--   To preserve any customizations it has applied on top of your managed solution.  
+- To preserve any customizations it has applied on top of your managed solution.  
   
--   To overwrite any customizations it has applied on top of your managed solution.  
+- To overwrite any customizations it has applied on top of your managed solution.  
   
- Organizations installing an update to a managed solution should work with the managed solution creator to evaluate which option is best.  
+  Organizations installing an update to a managed solution should work with the managed solution creator to evaluate which option is best.  
   
 > [!IMPORTANT]
 >  Changes to entity forms and the sitemap won’t be overwritten even when the overwrite option is selected. Refer to [Merge Form Customizations](understand-managed-solutions-merged.md#BKMK_MergingFormCustomizations) and  [Merge Navigation (SiteMap) Customizations](understand-managed-solutions-merged.md#BKMK_MergingNavigationCustomizations) for guidance about managing changes. Some manual customization may be required to merge unmanaged customizations into changes included in an update to a managed solution.  
@@ -213,27 +217,27 @@ manager: "amyla"
   
  As a result of dependency tracking, the following behaviors are enforced:  
   
--   Deleting a component is prevented if another component in the system depends on it.  
+- Deleting a component is prevented if another component in the system depends on it.  
   
--   Exporting a solution warns the user if there are any missing components that could potentially cause failure when importing that solution in another system.  
+- Exporting a solution warns the user if there are any missing components that could potentially cause failure when importing that solution in another system.  
   
-     Warnings during export can be ignored if the solution developer intends that the solution is only to be installed in an organization where dependent components are expected to exist. For example, when you’re creating a solution that’s designed to be installed over a pre-installed “base” solution.  
+   Warnings during export can be ignored if the solution developer intends that the solution is only to be installed in an organization where dependent components are expected to exist. For example, when you’re creating a solution that’s designed to be installed over a pre-installed “base” solution.  
   
--   Importing a solution fails if all required components aren’t included in the solution and also don’t exist in the target system.  
+- Importing a solution fails if all required components aren’t included in the solution and also don’t exist in the target system.  
   
-    -   Additionally, when you import a managed solution, all required components must match the package type of the solution. A component in a managed solution can only depend on another managed component.  
+  -   Additionally, when you import a managed solution, all required components must match the package type of the solution. A component in a managed solution can only depend on another managed component.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)  
   
 <a name="BKMK_SupportforMultipleLanguages"></a>   
 ## Support for multiple languages  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] natively supports multiple languages. Whenever a language pack (sometimes referred to as a ”MUI pack”) is installed, user interface elements can be displayed in a different language.  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps natively supports multiple languages. Whenever a language pack (sometimes referred to as a ”MUI pack”) is installed, user interface elements can be displayed in a different language.  
   
  There are a number of different tactics you should apply based on the type of solution components included in your solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Solutions that Support Multiple Languages](create-solutions-support-multiple-languages.md)  
   
 ### See also  
- [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)   
- [Microsoft Dynamics CRM Online patterns & principles for solution builders](http://go.microsoft.com/fwlink/p/?LinkID=533946)   
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solutions](package-distribute-extensions-use-solutions.md)   
+ [Microsoft Dynamics 365 for Customer Engagement patterns & principles for solution builders](http://go.microsoft.com/fwlink/p/?LinkID=533946)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)   
  [Create, Export, or Import an Unmanaged Solution](create-export-import-unmanaged-solution.md)   

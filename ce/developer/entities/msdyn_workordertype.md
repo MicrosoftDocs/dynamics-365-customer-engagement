@@ -1,15 +1,19 @@
 ---
-title: "msdyn_workordertype Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_workordertype Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_workordertype entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_workordertype Entity Reference
 
@@ -374,7 +378,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -481,7 +485,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -667,6 +671,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_workordertype_SyncErrors"></a> msdyn_workordertype_SyncErrors
 
 Same as syncerror entity [msdyn_workordertype_SyncErrors](syncerror.md#BKMK_msdyn_workordertype_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -681,6 +686,7 @@ Same as syncerror entity [msdyn_workordertype_SyncErrors](syncerror.md#BKMK_msdy
 ### <a name="BKMK_msdyn_workordertype_DuplicateMatchingRecord"></a> msdyn_workordertype_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_workordertype_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_workordertype_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -695,6 +701,7 @@ Same as duplicaterecord entity [msdyn_workordertype_DuplicateMatchingRecord](dup
 ### <a name="BKMK_msdyn_workordertype_DuplicateBaseRecord"></a> msdyn_workordertype_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_workordertype_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_workordertype_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -709,6 +716,7 @@ Same as duplicaterecord entity [msdyn_workordertype_DuplicateBaseRecord](duplica
 ### <a name="BKMK_msdyn_workordertype_AsyncOperations"></a> msdyn_workordertype_AsyncOperations
 
 Same as asyncoperation entity [msdyn_workordertype_AsyncOperations](asyncoperation.md#BKMK_msdyn_workordertype_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -723,6 +731,7 @@ Same as asyncoperation entity [msdyn_workordertype_AsyncOperations](asyncoperati
 ### <a name="BKMK_msdyn_workordertype_MailboxTrackingFolders"></a> msdyn_workordertype_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_workordertype_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_workordertype_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -737,6 +746,7 @@ Same as mailboxtrackingfolder entity [msdyn_workordertype_MailboxTrackingFolders
 ### <a name="BKMK_msdyn_workordertype_UserEntityInstanceDatas"></a> msdyn_workordertype_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_workordertype_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_workordertype_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -751,6 +761,7 @@ Same as userentityinstancedata entity [msdyn_workordertype_UserEntityInstanceDat
 ### <a name="BKMK_msdyn_workordertype_ProcessSession"></a> msdyn_workordertype_ProcessSession
 
 Same as processsession entity [msdyn_workordertype_ProcessSession](processsession.md#BKMK_msdyn_workordertype_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -765,6 +776,7 @@ Same as processsession entity [msdyn_workordertype_ProcessSession](processsessio
 ### <a name="BKMK_msdyn_workordertype_BulkDeleteFailures"></a> msdyn_workordertype_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_workordertype_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_workordertype_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -779,6 +791,7 @@ Same as bulkdeletefailure entity [msdyn_workordertype_BulkDeleteFailures](bulkde
 ### <a name="BKMK_msdyn_workordertype_PrincipalObjectAttributeAccesses"></a> msdyn_workordertype_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_workordertype_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_workordertype_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -793,6 +806,7 @@ Same as principalobjectattributeaccess entity [msdyn_workordertype_PrincipalObje
 ### <a name="BKMK_msdyn_msdyn_workordertype_msdyn_actual_WorkOrderType"></a> msdyn_msdyn_workordertype_msdyn_actual_WorkOrderType
 
 Same as msdyn_actual entity [msdyn_msdyn_workordertype_msdyn_actual_WorkOrderType](msdyn_actual.md#BKMK_msdyn_msdyn_workordertype_msdyn_actual_WorkOrderType) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -807,6 +821,7 @@ Same as msdyn_actual entity [msdyn_msdyn_workordertype_msdyn_actual_WorkOrderTyp
 ### <a name="BKMK_msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType"></a> msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType
 
 Same as msdyn_agreementbookingsetup entity [msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType](msdyn_agreementbookingsetup.md#BKMK_msdyn_msdyn_workordertype_msdyn_agreementbookingsetup_WorkOrderType) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingsetup|
@@ -821,6 +836,7 @@ Same as msdyn_agreementbookingsetup entity [msdyn_msdyn_workordertype_msdyn_agre
 ### <a name="BKMK_msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType"></a> msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType
 
 Same as msdyn_incidenttype entity [msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType](msdyn_incidenttype.md#BKMK_msdyn_msdyn_workordertype_msdyn_incidenttype_DefaultWorkOrderType) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_incidenttype|
@@ -835,6 +851,7 @@ Same as msdyn_incidenttype entity [msdyn_msdyn_workordertype_msdyn_incidenttype_
 ### <a name="BKMK_msdyn_msdyn_workordertype_msdyn_quotebookingsetup_WorkOrderType"></a> msdyn_msdyn_workordertype_msdyn_quotebookingsetup_WorkOrderType
 
 Same as msdyn_quotebookingsetup entity [msdyn_msdyn_workordertype_msdyn_quotebookingsetup_WorkOrderType](msdyn_quotebookingsetup.md#BKMK_msdyn_msdyn_workordertype_msdyn_quotebookingsetup_WorkOrderType) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingsetup|
@@ -849,6 +866,7 @@ Same as msdyn_quotebookingsetup entity [msdyn_msdyn_workordertype_msdyn_quoteboo
 ### <a name="BKMK_msdyn_msdyn_workordertype_msdyn_workorder_WorkOrderType"></a> msdyn_msdyn_workordertype_msdyn_workorder_WorkOrderType
 
 Same as msdyn_workorder entity [msdyn_msdyn_workordertype_msdyn_workorder_WorkOrderType](msdyn_workorder.md#BKMK_msdyn_msdyn_workordertype_msdyn_workorder_WorkOrderType) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorder|
@@ -863,6 +881,7 @@ Same as msdyn_workorder entity [msdyn_msdyn_workordertype_msdyn_workorder_WorkOr
 ### <a name="BKMK_msdyn_msdyn_workordertype_opportunity_WorkOrderType"></a> msdyn_msdyn_workordertype_opportunity_WorkOrderType
 
 Same as opportunity entity [msdyn_msdyn_workordertype_opportunity_WorkOrderType](opportunity.md#BKMK_msdyn_msdyn_workordertype_opportunity_WorkOrderType) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunity|
@@ -924,6 +943,6 @@ See pricelevel Entity [msdyn_pricelevel_msdyn_workordertype_PriceList](priceleve
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_workordertype?text=msdyn_workordertype EntityType" />

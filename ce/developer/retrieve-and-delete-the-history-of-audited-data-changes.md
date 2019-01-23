@@ -1,29 +1,33 @@
 ---
-title: "Retrieve and delete the history of audited data changes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Retrieve and delete the history of audited data changes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Programmatically retrieve the audit change history or delete audit records."
-ms.custom: ""
+ms.custom: 
 ms.date: 03/20/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "retrieving and deleting changed-data history (audit history), new partitions created quarterly"
-  - "partitions created quarterly for auditing, used by Microsoft Dynamics CRM and SQL Server with auditing"
-  - "retrieving and deleting changed-data history (audit history), obtaining a list of partitions"
-  - "obtaining changed-data history"
-  - "audit records and history, retrieving and deleting data for"
-  - "deleting audit records, using Microsoft Dynamics CRM and SQL Server with auditing"
-  - "changed-data history, obtaining"
-  - "deleting change history (audit records), how to"
+  - retrieving and deleting changed-data history (audit history), new partitions created quarterly
+  - partitions created quarterly for auditing, used by Microsoft Dynamics 365 and SQL Server with auditing
+  - retrieving and deleting changed-data history (audit history), obtaining a list of partitions
+  - obtaining changed-data history
+  - audit records and history, retrieving and deleting data for
+  - deleting audit records, using Microsoft Dynamics 365 and SQL Server with auditing
+  - changed-data history, obtaining
+  - deleting change history (audit records), how to
 ms.assetid: 53b9a1ac-f9c0-490f-a42f-2efc231b67ff
 caps.latest.revision: 20
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Retrieve and delete the history of audited data changes
 
@@ -53,9 +57,9 @@ Refer to the sample link at the end of this topic for sample code that demonstra
 
 ### See also
 
- [Data Management in Dynamics 365](manage-data.md)<br />
+ [Data Management in Dynamics 365 for Customer Engagement apps](manage-data.md)<br />
  [Audit entity data changes](audit-entity-data-changes.md)<br />
  [Audit user access](audit-user-access.md) <br />
  [Sample: Audit Entity Data Changes](sample-audit-entity-data-changes.md)<br />
 <!-- Bug 696490 should make the Audit entity public again: [Audit Entity](entities/audit.md)<br /> -->
- [Auditing Entity Data Changes in Dynamics 365](audit-entity-data-changes.md)<br />
+ [Auditing Entity Data Changes in Dynamics 365 for Customer Engagement apps](audit-entity-data-changes.md)<br />

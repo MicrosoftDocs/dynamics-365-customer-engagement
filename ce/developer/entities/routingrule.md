@@ -1,15 +1,19 @@
 ---
-title: "RoutingRule Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "RoutingRule Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the RoutingRule entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # RoutingRule Entity Reference
 
@@ -777,6 +781,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_routingrule_AsyncOperations"></a> routingrule_AsyncOperations
 
 Same as asyncoperation entity [routingrule_AsyncOperations](asyncoperation.md#BKMK_routingrule_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -791,6 +796,7 @@ Same as asyncoperation entity [routingrule_AsyncOperations](asyncoperation.md#BK
 ### <a name="BKMK_routingrule_Annotation"></a> routingrule_Annotation
 
 Same as annotation entity [routingrule_Annotation](annotation.md#BKMK_routingrule_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -805,6 +811,7 @@ Same as annotation entity [routingrule_Annotation](annotation.md#BKMK_routingrul
 ### <a name="BKMK_routingrule_userentityinstancedatas"></a> routingrule_userentityinstancedatas
 
 Same as userentityinstancedata entity [routingrule_userentityinstancedatas](userentityinstancedata.md#BKMK_routingrule_userentityinstancedatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -819,6 +826,7 @@ Same as userentityinstancedata entity [routingrule_userentityinstancedatas](user
 ### <a name="BKMK_routingrule_entries"></a> routingrule_entries
 
 Same as routingruleitem entity [routingrule_entries](routingruleitem.md#BKMK_routingrule_entries) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|routingruleitem|
@@ -833,6 +841,7 @@ Same as routingruleitem entity [routingrule_entries](routingruleitem.md#BKMK_rou
 ### <a name="BKMK_routingrule_ProcessSessions"></a> routingrule_ProcessSessions
 
 Same as processsession entity [routingrule_ProcessSessions](processsession.md#BKMK_routingrule_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -847,6 +856,7 @@ Same as processsession entity [routingrule_ProcessSessions](processsession.md#BK
 ### <a name="BKMK_routingrule_BulkDeleteFailures"></a> routingrule_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [routingrule_BulkDeleteFailures](bulkdeletefailure.md#BKMK_routingrule_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -918,6 +928,6 @@ See businessunit Entity [business_unit_routingrule](businessunit.md#BKMK_busines
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.routingrule?text=routingrule EntityType" />

@@ -1,19 +1,26 @@
 ---
-title: "Use iteration tags for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Use iteration tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about iteration tags available in portal"
 keywords: "iteration tags; liquid tags"
-ms.date: 05/04/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: BFACD45E-F943-4CED-8A67-11C2C8F6374B
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Iteration tags
@@ -31,7 +38,7 @@ Within the for tag block, the [forloop object](liquid-objects.md#forloop) is ava
 ```
 {% for child_page in page.children %}
 
-<a href="{{ child_page.url }}">{{ child_page.title }}</a>
+<a href={{ child_page.url }}>{{ child_page.title }}</a>
 
 {% endfor %}
 ```
@@ -39,11 +46,11 @@ Within the for tag block, the [forloop object](liquid-objects.md#forloop) is ava
 **Output**
 
 ```
-<a href="/parent/child1/">Child 1</a>
+<a href=/parent/child1/>Child 1</a>
 
-<a href="/parent/child2/">Child 2</a>
+<a href=/parent/child2/>Child 2</a>
 
-<a href="/parent/child3/">Child 3</a>
+<a href=/parent/child3/>Child 3</a>
 ```
 
 ### Parameters
@@ -59,7 +66,7 @@ Exits the loop after a given number of items.
 ```
 {% for child_page in page.children limit:2 %}
 
-<a href="{{ child_page.url }}">{{ child_page.title }}</a>
+<a href={{ child_page.url }}>{{ child_page.title }}</a>
 
 {% endfor %}
 ```
@@ -67,9 +74,9 @@ Exits the loop after a given number of items.
 **Output**
 
 ```
-<a href="/parent/child1/">Child 1</a>
+<a href=/parent/child1/>Child 1</a>
 
-<a href="/parent/child2/">Child 2</a>
+<a href=/parent/child2/>Child 2</a>
 ```
 
 **offset**
@@ -81,7 +88,7 @@ Starts the loop at given index.
 ```
 {% for child_page in page.children offset:1 %}
 
-<a href="{{ child_page.url }}">{{ child_page.title }}</a>
+<a href={{ child_page.url }}>{{ child_page.title }}</a>
 
 {% endfor %}
 ```
@@ -89,9 +96,9 @@ Starts the loop at given index.
 **Output**
 
 ```
-<a href="/parent/child2/">Child 2</a>
+<a href=/parent/child2/>Child 2</a>
 
-<a href="/parent/child3/">Child 3</a>
+<a href=/parent/child3/>Child 3</a>
 ```
 
 **range**
@@ -133,7 +140,7 @@ Iterates through the loop in reverse order, starting from the last item.
 ```
 {% for child_page in page.children reversed %}
 
-<a href="{{ child_page.url }}">{{ child_page.title }}</a>
+<a href={{ child_page.url }}>{{ child_page.title }}</a>
 
 {% endfor %}
 ```
@@ -141,11 +148,11 @@ Iterates through the loop in reverse order, starting from the last item.
 **Output**
 
 ```
-<a href="/parent/child3/">Child 3</a>
+<a href=/parent/child3/>Child 3</a>
 
-<a href="/parent/child2/">Child 2</a>
+<a href=/parent/child2/>Child 2</a>
 
-<a href="/parent/child1/">Child 1</a>
+<a href=/parent/child1/>Child 1</a>
 ```
 
 ## cycle
@@ -157,7 +164,7 @@ Loops through a group of strings and outputs them in the order that they were pa
 ```
 {% for item in items %}
 
-<div class="{% cycle 'red', 'green', 'blue' %}"> {{ item }} </div>
+<div class={% cycle 'red', 'green', 'blue' %}> {{ item }} </div>
 
 {% end %}
 ```
@@ -165,15 +172,15 @@ Loops through a group of strings and outputs them in the order that they were pa
 **Output**
 
 ```
-<div class="red"> Item one </div>
+<div class=red> Item one </div>
 
-<div class="green"> Item two </div>
+<div class=green> Item two </div>
 
-<div class="blue"> Item three </div>
+<div class=blue> Item three </div>
 
-<div class="red"> Item four </div>
+<div class=red> Item four </div>
 
-<div class="green"> Item five</div>
+<div class=green> Item five</div>
 ```
 
 ## tablerow
@@ -201,27 +208,27 @@ Within the tablerow tag block, the [*tablerowloop*](#tablerowloop) is available.
 ```
 <table>
 
-<tr class="row1">
+<tr class=row1>
 
-<td class="col1">
+<td class=col1>
 
 Child Page 1
 
 </td>
 
-<td class="col2">
+<td class=col2>
 
 Child Page 2
 
 </td>
 
-<td class="col3">
+<td class=col3>
 
 Child Page 3
 
 </td>
 
-<td class="col4">
+<td class=col4>
 
 Child Page 4
 
@@ -241,15 +248,15 @@ These parameters of tablerowcan be used alone, or in combination.
 ```
 <table>
 
-<tr class="row1">
+<tr class=row1>
 
-<td class="col1">
+<td class=col1>
 
 Child Page 1
 
 </td>
 
-<td class="col2">
+<td class=col2>
 
 Child Page 2
 
@@ -257,15 +264,15 @@ Child Page 2
 
 </tr>
 
-<tr class="row2">
+<tr class=row2>
 
-<td class="col3">
+<td class=col3>
 
 Child Page 3
 
 </td>
 
-<td class="col4">
+<td class=col4>
 
 Child Page 4
 
@@ -317,15 +324,15 @@ Exits the loop after a given number of items.
 ```
 <table>
 
-<tr class="row1">
+<tr class=row1>
 
-<td class="col1">
+<td class=col1>
 
 Child Page 1
 
 </td>
 
-<td class="col2">
+<td class=col2>
 
 Child Page 2
 
@@ -359,15 +366,15 @@ Starts the loop at given index.
 ```
 <table>
 
-<tr class="row1">
+<tr class=row1>
 
-<td class="col1">
+<td class=col1>
 
 Child Page 3
 
 </td>
 
-<td class="col2">
+<td class=col2>
 
 Child Page 4
 
@@ -401,4 +408,4 @@ Defines a range of numbers to loop through.
 [Control flow tags](control-flow-tags.md)
 [Variable tags](variable-tags.md)
 [Template tags](template-tags.md)
-[Dynamics 365 entity tags](dynamics-entity-tags.md)
+[Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md)

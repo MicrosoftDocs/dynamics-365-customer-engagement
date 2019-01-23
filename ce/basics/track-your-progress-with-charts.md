@@ -1,20 +1,24 @@
 ---
 title: "Track your progress with charts | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 09/19/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"  
-author: "mduelae"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: mduelae
 ms.assetid: 5828238b-1745-4710-a292-0014acd03198
 caps.latest.revision: 1
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: mkaur
+manager: brycho
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Track your progress with charts
 

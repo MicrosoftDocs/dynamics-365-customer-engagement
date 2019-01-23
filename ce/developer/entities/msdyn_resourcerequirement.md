@@ -1,15 +1,19 @@
 ---
-title: "msdyn_resourcerequirement Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_resourcerequirement Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_resourcerequirement entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_resourcerequirement Entity Reference
 
@@ -184,6 +188,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_city"></a> msdyn_city
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Type the city where the resource is required.|
@@ -201,6 +206,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_costprice"></a> msdyn_costprice
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the cost price of the resource required.|
@@ -219,6 +225,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_country"></a> msdyn_country
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Type the country/region where the resource is required.|
@@ -283,6 +290,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_fulfilledhours"></a> msdyn_fulfilledhours
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the hours fulfilled against requirement when the requirement status is fulfilled.|
@@ -300,6 +308,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_hours"></a> msdyn_hours
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the number of hours for which a requirement is required.|
@@ -333,6 +342,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_IsPrimary"></a> msdyn_IsPrimary
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -357,6 +367,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Latitude"></a> msdyn_Latitude
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The latitude to use for the location of a requirement.|
@@ -374,6 +385,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Longitude"></a> msdyn_Longitude
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The longitude to use for the location of a requirement.|
@@ -423,6 +435,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Priority"></a> msdyn_Priority
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Priority of the requirement. To be taken into consideration while scheduling resources|
@@ -438,6 +451,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_projectid"></a> msdyn_projectid
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the project for which the resource is required.|
@@ -453,6 +467,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_quantity"></a> msdyn_quantity
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the number of resources required.|
@@ -486,6 +501,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_requeststatus"></a> msdyn_requeststatus
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Type the status of the resource request associated with this requirement.|
@@ -503,6 +519,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_resourcerequirementId"></a> msdyn_resourcerequirementId
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
@@ -518,6 +535,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_roleid"></a> msdyn_roleid
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the required role.|
@@ -533,6 +551,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_stateorprovince"></a> msdyn_stateorprovince
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Type the state/province where the resource is required.|
@@ -564,6 +583,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Territory"></a> msdyn_Territory
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -579,6 +599,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_TimeFromPromised"></a> msdyn_TimeFromPromised
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -595,6 +616,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_TimeGroup"></a> msdyn_TimeGroup
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -610,6 +632,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_TimeToPromised"></a> msdyn_TimeToPromised
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -626,6 +649,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_TimeWindowEnd"></a> msdyn_TimeWindowEnd
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -642,6 +666,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_TimeWindowStart"></a> msdyn_TimeWindowStart
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -673,6 +698,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_type"></a> msdyn_type
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the type of resource requirement.|
@@ -709,6 +735,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_WorkLocation"></a> msdyn_WorkLocation
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -732,6 +759,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_WorkOrder"></a> msdyn_WorkOrder
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for Work Order associated with Resource Requirement.|
@@ -849,6 +877,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the currency associated with the entity.|
@@ -1163,6 +1192,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_costprice_Base"></a> msdyn_costprice_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Cost Price in base currency.|
@@ -1442,6 +1472,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_resourcerequirement_SyncErrors"></a> msdyn_resourcerequirement_SyncErrors
 
 Same as syncerror entity [msdyn_resourcerequirement_SyncErrors](syncerror.md#BKMK_msdyn_resourcerequirement_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1456,6 +1487,7 @@ Same as syncerror entity [msdyn_resourcerequirement_SyncErrors](syncerror.md#BKM
 ### <a name="BKMK_msdyn_resourcerequirement_DuplicateMatchingRecord"></a> msdyn_resourcerequirement_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_resourcerequirement_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_resourcerequirement_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1470,6 +1502,7 @@ Same as duplicaterecord entity [msdyn_resourcerequirement_DuplicateMatchingRecor
 ### <a name="BKMK_msdyn_resourcerequirement_DuplicateBaseRecord"></a> msdyn_resourcerequirement_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_resourcerequirement_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_resourcerequirement_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1484,6 +1517,7 @@ Same as duplicaterecord entity [msdyn_resourcerequirement_DuplicateBaseRecord](d
 ### <a name="BKMK_msdyn_resourcerequirement_AsyncOperations"></a> msdyn_resourcerequirement_AsyncOperations
 
 Same as asyncoperation entity [msdyn_resourcerequirement_AsyncOperations](asyncoperation.md#BKMK_msdyn_resourcerequirement_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1498,6 +1532,7 @@ Same as asyncoperation entity [msdyn_resourcerequirement_AsyncOperations](asynco
 ### <a name="BKMK_msdyn_resourcerequirement_MailboxTrackingFolders"></a> msdyn_resourcerequirement_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_resourcerequirement_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_resourcerequirement_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1512,6 +1547,7 @@ Same as mailboxtrackingfolder entity [msdyn_resourcerequirement_MailboxTrackingF
 ### <a name="BKMK_msdyn_resourcerequirement_UserEntityInstanceDatas"></a> msdyn_resourcerequirement_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_resourcerequirement_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_resourcerequirement_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1526,6 +1562,7 @@ Same as userentityinstancedata entity [msdyn_resourcerequirement_UserEntityInsta
 ### <a name="BKMK_msdyn_resourcerequirement_ProcessSession"></a> msdyn_resourcerequirement_ProcessSession
 
 Same as processsession entity [msdyn_resourcerequirement_ProcessSession](processsession.md#BKMK_msdyn_resourcerequirement_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1540,6 +1577,7 @@ Same as processsession entity [msdyn_resourcerequirement_ProcessSession](process
 ### <a name="BKMK_msdyn_resourcerequirement_BulkDeleteFailures"></a> msdyn_resourcerequirement_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_resourcerequirement_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_resourcerequirement_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1554,6 +1592,7 @@ Same as bulkdeletefailure entity [msdyn_resourcerequirement_BulkDeleteFailures](
 ### <a name="BKMK_msdyn_resourcerequirement_PrincipalObjectAttributeAccesses"></a> msdyn_resourcerequirement_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_resourcerequirement_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_resourcerequirement_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1568,6 +1607,7 @@ Same as principalobjectattributeaccess entity [msdyn_resourcerequirement_Princip
 ### <a name="BKMK_msdyn_resourcerequirement_Annotations"></a> msdyn_resourcerequirement_Annotations
 
 Same as annotation entity [msdyn_resourcerequirement_Annotations](annotation.md#BKMK_msdyn_resourcerequirement_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1582,6 +1622,7 @@ Same as annotation entity [msdyn_resourcerequirement_Annotations](annotation.md#
 ### <a name="BKMK_msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement"></a> msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement
 
 Same as bookableresourcebooking entity [msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement](bookableresourcebooking.md#BKMK_msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebooking|
@@ -1596,6 +1637,7 @@ Same as bookableresourcebooking entity [msdyn_resourcerequirement_bookableresour
 ### <a name="BKMK_msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement"></a> msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement
 
 Same as bookableresourcebookingheader entity [msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement](bookableresourcebookingheader.md#BKMK_msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebookingheader|
@@ -1610,6 +1652,7 @@ Same as bookableresourcebookingheader entity [msdyn_resourcerequirement_bookable
 ### <a name="BKMK_msdyn_resourcerequirement_details"></a> msdyn_resourcerequirement_details
 
 Same as msdyn_resourcerequirementdetail entity [msdyn_resourcerequirement_details](msdyn_resourcerequirementdetail.md#BKMK_msdyn_resourcerequirement_details) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcerequirementdetail|
@@ -1624,6 +1667,7 @@ Same as msdyn_resourcerequirementdetail entity [msdyn_resourcerequirement_detail
 ### <a name="BKMK_msdyn_resourcerequirement_requirementcharacteristic_resourcerequirement"></a> msdyn_resourcerequirement_requirementcharacteristic_resourcerequirement
 
 Same as msdyn_requirementcharacteristic entity [msdyn_resourcerequirement_requirementcharacteristic_resourcerequirement](msdyn_requirementcharacteristic.md#BKMK_msdyn_resourcerequirement_requirementcharacteristic_resourcerequirement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_requirementcharacteristic|
@@ -1638,6 +1682,7 @@ Same as msdyn_requirementcharacteristic entity [msdyn_resourcerequirement_requir
 ### <a name="BKMK_msdyn_resourcerequirement_requirementorganizationunit_ResourceRequirement"></a> msdyn_resourcerequirement_requirementorganizationunit_ResourceRequirement
 
 Same as msdyn_requirementorganizationunit entity [msdyn_resourcerequirement_requirementorganizationunit_ResourceRequirement](msdyn_requirementorganizationunit.md#BKMK_msdyn_resourcerequirement_requirementorganizationunit_ResourceRequirement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_requirementorganizationunit|
@@ -1652,6 +1697,7 @@ Same as msdyn_requirementorganizationunit entity [msdyn_resourcerequirement_requ
 ### <a name="BKMK_msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement"></a> msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement
 
 Same as msdyn_requirementresourcecategory entity [msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement](msdyn_requirementresourcecategory.md#BKMK_msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_requirementresourcecategory|
@@ -1666,6 +1712,7 @@ Same as msdyn_requirementresourcecategory entity [msdyn_resourcerequirement_requ
 ### <a name="BKMK_msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement"></a> msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement
 
 Same as msdyn_requirementresourcepreference entity [msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement](msdyn_requirementresourcepreference.md#BKMK_msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_requirementresourcepreference|
@@ -1680,6 +1727,7 @@ Same as msdyn_requirementresourcepreference entity [msdyn_resourcerequirement_re
 ### <a name="BKMK_msdyn_resourcerequirement_characteristicreq"></a> msdyn_resourcerequirement_characteristicreq
 
 Same as msdyn_characteristicreqforteammember entity [msdyn_resourcerequirement_characteristicreq](msdyn_characteristicreqforteammember.md#BKMK_msdyn_resourcerequirement_characteristicreq) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_characteristicreqforteammember|
@@ -1694,6 +1742,7 @@ Same as msdyn_characteristicreqforteammember entity [msdyn_resourcerequirement_c
 ### <a name="BKMK_msdyn_resourcerequirement_projectteam"></a> msdyn_resourcerequirement_projectteam
 
 Same as msdyn_projectteam entity [msdyn_resourcerequirement_projectteam](msdyn_projectteam.md#BKMK_msdyn_resourcerequirement_projectteam) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectteam|
@@ -1708,6 +1757,7 @@ Same as msdyn_projectteam entity [msdyn_resourcerequirement_projectteam](msdyn_p
 ### <a name="BKMK_msdyn_resourcerequirement_request"></a> msdyn_resourcerequirement_request
 
 Same as msdyn_resourcerequest entity [msdyn_resourcerequirement_request](msdyn_resourcerequest.md#BKMK_msdyn_resourcerequirement_request) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcerequest|
@@ -1722,6 +1772,7 @@ Same as msdyn_resourcerequest entity [msdyn_resourcerequirement_request](msdyn_r
 ### <a name="BKMK_msdyn_msdyn_resourcerequirement_msdyn_workorderincident_ResourceRequirement"></a> msdyn_msdyn_resourcerequirement_msdyn_workorderincident_ResourceRequirement
 
 Same as msdyn_workorderincident entity [msdyn_msdyn_resourcerequirement_msdyn_workorderincident_ResourceRequirement](msdyn_workorderincident.md#BKMK_msdyn_msdyn_resourcerequirement_msdyn_workorderincident_ResourceRequirement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorderincident|
@@ -1907,6 +1958,6 @@ IntersectEntityName: msdyn_resourcerequirement_systemuser<br />
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_resourcerequirement?text=msdyn_resourcerequirement EntityType" />

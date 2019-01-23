@@ -1,20 +1,24 @@
 ---
-title: "Understand dialogs (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Understand dialogs (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Dialogs contain pages, and each page can contain multiple sets of prompts and responses. You can also specify a dialog as a child dialog, and then invoke that dialog from within a parent dialog"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0bdfc509-dcea-4ed2-bbac-b4836b777cbe
 caps.latest.revision: 38
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Understand dialogs
 
@@ -54,11 +58,11 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
   
 - **Lookup**: Lets you specify an entity record.  
   
- The user response for each `Prompt and Response` step is stored as the step variable, and can be used later in the dialog flow.  
+  The user response for each `Prompt and Response` step is stored as the step variable, and can be used later in the dialog flow.  
   
- You can add a static hyperlink or dynamic hyperlink to the prompt text. While specifying a text as static hyperlink, you must specify the full URL including the communication protocol (such as http, https, and ftp). For example, if you want to create a hyperlink text called *Bing*, you must specify the URL as “http://www.bing.com”, and not just “www.bing.com”. Dynamic hyperlinks can be inserted into any text field. The hyperlink refers to an entity record in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+  You can add a static hyperlink or dynamic hyperlink to the prompt text. While specifying a text as static hyperlink, you must specify the full URL including the communication protocol (such as http, https, and ftp). For example, if you want to create a hyperlink text called *Bing*, you must specify the URL as “<http://www.bing.com”>, and not just “www.bing.com”. Dynamic hyperlinks can be inserted into any text field. The hyperlink refers to an entity record in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
- By default, each response is logged, and is available in the respective process session record. However, you can turn off response logging for a prompt and response step that contains sensitive customer information, such as credit card details, to prevent possible misuse of the data.  
+  By default, each response is logged, and is available in the respective process session record. However, you can turn off response logging for a prompt and response step that contains sensitive customer information, such as credit card details, to prevent possible misuse of the data.  
   
 <a name="Tips"></a>   
 ### Tip  

@@ -1,9 +1,9 @@
 ---
-title: "Use Liquid objects for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Use Liquid objects for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about the available liquid objects in a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: e550b7a3-6d32-491a-a036-ce24b36f4037
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Available Liquid objects
 
@@ -26,29 +33,30 @@ To access an object attribute by name, use a dot . To render an object's attribu
 Attributes of an object can also be accessed by using a string name and \[\]. This is useful in cases where the desired attribute is determined dynamically, or the attribute name contains characters , spaces, special characters, and so on that would be invalid when using the . syntax.
 
 ```
-{{ page["title"] }}
+{{ page[title] }}
 
-{% assign attribute_name = "Name with spaces" %}
+{% assign attribute_name = Name with spaces %}
 
 {{ object[attribute_name] }}
 ```
 
 The following objects can be used and accessed anywhere, in any template.
 
-|Object   |Description   |
-|---|---|
-| entities    | Allows you to load any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by ID. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [entities](#entities)                                                                                                                                                      |  
-| now         | A date/time object that refers to the current UTC time at the time the template is rendered.<br>**Note**: This value is cached by the portal web app and is not refreshed every time. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Date filters](liquid-filters.md#date-filters)                                                                                              |  
-| page        | Refers to the current portal request page. The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [page](#page)  |  
-| params      | A convenient shortcut for request.params. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [request](#request)                                                                                                                                                                |  
-| request     | Contains information about the current HTTP request. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [request](#request)                                                                                                                                                     |  
-| settings    | Allows you to load any [Site Setting](configure-site-settings.md) by name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [settings](#settings)                                                                          |  
-| sitemap     | Allows access to the portal site map. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [sitemap](#sitemap)                                                                                                                                                                    |  
-| sitemarkers | Allows you to load any Site Markers by name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [sitemarkers](#sitemarkers)                                                                                                                                                     |  
-| snippets    | Allows you to load any [Content Snippet](customize-content-snippets.md) by name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [snippets](#snippets)                                                                                  |  
-| user        | Refers to the current portal user, allowing access to all attributes of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] contact record. If no user is signed in, this variable will be [null](liquid-types.md#null). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [user](#user)                       |  
-| weblinks    | Allows you to load any Web Link Set by name or ID. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [weblinks](#weblinks)                                                                                                                                                     |  
-| website     | Refers to the portal Website record, allowing access to all attributes of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Website (adx\_website) record for the portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [website](#website)                                                               |  
+
+|   Object    |                                                                                                                                                                                          Description                                                                                                                                                                                           |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  entities   |                                                                                                 Allows you to load any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by ID. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [entities](#entities)                                                                                                 |
+|     now     |                                          A date/time object that refers to the current UTC time at the time the template is rendered.<br>**Note**: This value is cached by the portal web app and is not refreshed every time. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Date filters](liquid-filters.md#date-filters)                                          |
+|    page     | Refers to the current portal request page. The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [page](#page) |
+|   params    |                                                                                                                             A convenient shortcut for request.params. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [request](#request)                                                                                                                              |
+|   request   |                                                                                                                        Contains information about the current HTTP request. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [request](#request)                                                                                                                        |
+|  settings   |                                                                                                            Allows you to load any [Site Setting](configure-site-settings.md) by name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [settings](#settings)                                                                                                            |
+|   sitemap   |                                                                                                                               Allows access to the portal site map. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [sitemap](#sitemap)                                                                                                                                |
+| sitemarkers |                                                                                                                        Allows you to load any Site Markers by name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [sitemarkers](#sitemarkers)                                                                                                                        |
+|  snippets   |                                                                                                         Allows you to load any [Content Snippet](customize-content-snippets.md) by name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [snippets](#snippets)                                                                                                         |
+|    user     |                             Refers to the current portal user, allowing access to all attributes of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] contact record. If no user is signed in, this variable will be [null](liquid-types.md#null). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [user](#user)                              |
+|  weblinks   |                                                                                                                        Allows you to load any Web Link Set by name or ID. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [weblinks](#weblinks)                                                                                                                        |
+|   website   |                                                      Refers to the portal Website record, allowing access to all attributes of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Website (adx\_website) record for the portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [website](#website)                                                       |
 
 ## ads
 
@@ -60,13 +68,13 @@ The ads object allows you to select a specific ad or ad placement:
 ```
 <div>
 
-{% assign ad = ads["Ad Name"] %}
+{% assign ad = ads[Ad Name] %}
 
 <h4>{{ ad.title }}</h4>
 
-<a href="{{ ad.redirect_url }}">
+<a href={{ ad.redirect_url }}>
 
-<img src="{{ ad.image.url }}" alt="{{ ad.image.alternate_text }}" />
+<img src={{ ad.image.url }} alt={{ ad.image.alternate_text }} />
 
 </a>
 
@@ -78,14 +86,14 @@ The ads object allows you to select a specific ad or ad placement:
 |Attribute   |Description   |
 |---|---|
 | placements        | Returns the adplacements object.    |
-| \[ad name or id\] | You can access any ad by its Name or Id properties. <br> `{% assign ad = ads["Ad Name"] %}`<br>`{% assign ad = ads["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}`  |
+| \[ad name or id\] | You can access any ad by its Name or Id properties. <br> `{% assign ad = ads[Ad Name] %}`<br>`{% assign ad = ads["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}`  |
 
 
 ### Ad Placements attributes
 
 |Attribute   |Description   |
 |---|---|
-| \[ad placement name or id\] | You can access any adplacement by its Name or Id properties.<br>`{% assign placement = ads.placements["Placement Name or Id"] %}`<br>`{% assign placement = ads.placements["2423d713-abb3-44c3-8a7d-c445e16fccad"] %}`  |
+| \[ad placement name or id\] | You can access any adplacement by its Name or Id properties.<br>`{% assign placement = ads.placements[Placement Name or Id] %}`<br>`{% assign placement = ads.placements[2423d713-abb3-44c3-8a7d-c445e16fccad] %}`  |
 
 ### Ad Placement attributes
 
@@ -131,19 +139,19 @@ The blogs object allows you to select a specific blog or blog posts.
 ```
 {% assign posts = blogs.posts | paginate: 0,4 %}
 
-<div class="content-panel panel panel-default">
+<div class=content-panel panel panel-default>
 
-<div class="panel-heading">
+<div class=panel-heading>
 
-{% assign sitemarker = sitemarkers["Blog Home"] %}
+{% assign sitemarker = sitemarkers[Blog Home] %}
 
-{% assign snippet = snippets["Home Blog Activity Heading"] %}
+{% assign snippet = snippets[Home Blog Activity Heading] %}
 
-<a class="pull-right" href="{{sitemarker.url}}"> All Blogs </a>
+<a class=pull-right href={{sitemarker.url}}> All Blogs </a>
 
 <h4>
 
-<a class="feed-icon fa fa-rss-square" href="{{ blogs.feedpath }}" />
+<a class=feed-icon fa fa-rss-square href={{ blogs.feedpath }} />
 
 {{ snippet.adx_value }}
 
@@ -151,37 +159,37 @@ The blogs object allows you to select a specific blog or blog posts.
 
 </div>
 
-<ul class="list-group">
+<ul class=list-group>
 
 {% for post in posts.all %}
 
-<li class="list-group-item" >
+<li class=list-group-item >
 
-<a class="user-avatar" href="{{ post.author_url }}">
+<a class=user-avatar href={{ post.author_url }}>
 
-<img src="{{ post.user_image_url }}" />
+<img src={{ post.user_image_url }} />
 
 </a>
 
-<h4 class="list-group-item-heading">
+<h4 class=list-group-item-heading>
 
-<a href="{{ post.app_relative_path }}">{{ post.title }}</a>
+<a href={{ post.app_relative_path }}>{{ post.title }}</a>
 
 </h4>
 
-<div class="content-metadata">
+<div class=content-metadata>
 
-<abbr class="timeago">{{ post.publish_date }}</abbr>
-
-&ndash;
-
-<a href="{{ post.author_url }}"> {{ post.author_name }} </a>
+<abbr class=timeago>{{ post.publish_date }}</abbr>
 
 &ndash;
 
-<a href="{{ post.application_path }}#comments">
+<a href={{ post.author_url }}> {{ post.author_name }} </a>
 
-<span class="fa fa-comment" aria-hidden="true"></span> {{ post.comment_count }}
+&ndash;
+
+<a href={{ post.application_path }}#comments>
+
+<span class=fa fa-comment aria-hidden=true></span> {{ post.comment_count }}
 
 </a>
 
@@ -208,9 +216,9 @@ The following table explains the attributes associated with the blogs object.
 | \[blog name or id\] | You can access any blog by its Name or Id properties.                   
 
 ```
-{% assign blog = blogs["Blog Name"] %}                             
-                                                                           
-{% assign blog = blogs["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}  |
+{% assign blog = blogs[Blog Name] %}                             
+
+{% assign blog = blogs[da8b8a92-2ee6-476f-8a21-782b047ff460] %}  |
 ```
 
 ### blog Object
@@ -284,33 +292,36 @@ Allows you to load any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md
 
 An entity object provides access to the attributes of a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity record.
 
-|Attribute   |Description   |
-|---|---|
-| Id                                 | The GUID ID of the entity, as a string. For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                                                                                                                                                                                                  |
-| logical\_name                      | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] logical name of the entity.                                 |
-| Notes                              | Loads any notes (annotation) associated with the entity, ordered from oldest to newest (createdon). Notes are returned as note objects.                                                                                                                                   |
-| permissions                        | Loads Entity Permission assertion results for the entity. Results are returned as a permissions object.                                                                                                                                                                   |
-| url                                | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals content management system URL path for the entity. If the entity has no valid URL in the current website, returns null. Generally, this will only return a value for certain entity types that have been integrated into the portal CMS , unless you have customized the URL Provider in your application.                                                                                         |
-| \[attribute or relationship name\] | You can access any attribute of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by logical name. `{{ entity.createdon }}{% assign attribute_name = 'name' %}{{ entity[attribute_name] }}` <br>The values of most entity attributes map directly to [Liquid types](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But some attribute types are returned as objects:<ul><li>Lookup (Entity Reference) fields are returned as entity reference objects.</li><li>Option Set/Picklist fields are returned as option set value objects.</li><li>You can also load any related entities by relationship schema name.</li>`{{ page.adx_webpage_entitylist.adx_name }}`In the case that a relationship is reflexive (that is, self-referential), a reflexive relationship object will be returned. (Otherwise, the result would be ambiguous.)`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**Note**: Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop. Where possible, use [Dynamics 365 entity tags](dynamics-entity-tags.md) to load collections of entities.|  
+
+|             Attribute              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                 Id                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    The GUID ID of the entity, as a string. For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|           logical\_name            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] logical name of the entity.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|               Notes                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Loads any notes (annotation) associated with the entity, ordered from oldest to newest (createdon). Notes are returned as note objects.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|            permissions             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Loads Entity Permission assertion results for the entity. Results are returned as a permissions object.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                url                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals content management system URL path for the entity. If the entity has no valid URL in the current website, returns null. Generally, this will only return a value for certain entity types that have been integrated into the portal CMS , unless you have customized the URL Provider in your application.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| \[attribute or relationship name\] | You can access any attribute of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by logical name. `{{ entity.createdon }}{% assign attribute_name = 'name' %}{{ entity[attribute_name] }}` <br>The values of most entity attributes map directly to [Liquid types](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But some attribute types are returned as objects:<ul><li>Lookup (Entity Reference) fields are returned as entity reference objects.</li><li>Option Set/Picklist fields are returned as option set value objects.</li><li>You can also load any related entities by relationship schema name.</li>`{{ page.adx_webpage_entitylist.adx_name }}`In the case that a relationship is reflexive (that is, self-referential), a reflexive relationship object will be returned. (Otherwise, the result would be ambiguous.)`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**Note**: Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop. Where possible, use [Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md) to load collections of entities. |
 
 ### Entity Reference
 
 Lookup attribute values are returned as entity reference objects, with the following attributes.
 
-| Attribute     | Description                                             |
-|---------------|---------------------------------------------------------|
-| Id            | The GUID ID of the referenced entity, as a string. <br> For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                |
-| logical\_name | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] logical name of the referenced entity. |
-| Name          | The primary name attribute of the referenced entity.    |
+
+|   Attribute   |                                                Description                                                |
+|---------------|-----------------------------------------------------------------------------------------------------------|
+|      Id       | The GUID ID of the referenced entity, as a string. <br> For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8 |
+| logical\_name |  The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] logical name of the referenced entity.   |
+|     Name      |                           The primary name attribute of the referenced entity.                            |
 
 ### Note
 
 A note is an entity object that provides access to the attributes and relationships of an annotation record. In addition to all the attributes of an entity object, a note has the following additional attributes.
 
-|Attribute   |Description   |
-|---|---|
-| documentbody | Loads the documentbody attribute of the note annotation record, as a Base64-encoded string. Because the content of this attribute may be large, it is not loaded with the rest of the note attributes, it is only loaded on demand. <br> **Note**: Use of the documentbody attribute could have a negative impact on template rendering performance, and should be done with caution.<br>Use the url attribute to provide a link to the note attachment instead, if possible.                                                |                                                                                        |
-| url          | Returns the URL path for the built-in portal annotation attachment handler. If the user has permission, and the note has an attached file, a request to this URL will download the note file attachment.                     |
+
+|  Attribute   |                                                                                                                                                                                                                                  Description                                                                                                                                                                                                                                  |
+|--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| documentbody | Loads the documentbody attribute of the note annotation record, as a Base64-encoded string. Because the content of this attribute may be large, it is not loaded with the rest of the note attributes, it is only loaded on demand. <br> **Note**: Use of the documentbody attribute could have a negative impact on template rendering performance, and should be done with caution.<br>Use the url attribute to provide a link to the note attachment instead, if possible. |
+|     url      |                                                                                                                                   Returns the URL path for the built-in portal annotation attachment handler. If the user has permission, and the note has an attached file, a request to this URL will download the note file attachment.                                                                                                                                    |
 
 >[!Note]
 > [Additional filters](#additional-filters)                     
@@ -350,7 +361,7 @@ Attempts to load reflexive (that is, self-referential) relationships on entities
 
 ## entitylist
 
-The entitylist object is used within the [Dynamics 365 entity tags](dynamics-entity-tags.md). It provides access to all the attributes of a given entity list.  
+The entitylist object is used within the [Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md). It provides access to all the attributes of a given entity list.  
 
 > [!Note]                                                       
 > [Render the entity list associated with the current page](render-entity-list-current-page.md)
@@ -360,56 +371,56 @@ The entitylist object is used within the [Dynamics 365 entity tags](dynamics-ent
 > [!Note]
 > [entities](#entities)
 
-|Attribute   |Description   |
-|---|---|
-| create\_enabled                       | Returns true if creation of new records is configured for the entity list. Returns false otherwise.                                     | create\_label                         | Returns the configured localized label for a creation link/button for the entity list. |
-| create\_url                           | Returns the configured URL path for a creation link/button for the entity list.                                                                                                                         |
-| detail\_enabled                       | Returns true if a detail view for individual records is configured for the entity list. Returns false otherwise.                                                                                        |
-| detail\_id\_parameter                 | Returns the query string parameter name to use for the record ID when constructing a record detail view URL. See [URL filters](liquid-filters.md#url-filters) for details on using Liquid filters to construct URLs. For example, id                                                                                                                                                                                                  |
-| detail\_label                         | Returns the configured localized label for detail view links/buttons for the entity list.                                                                                                               |
-| detail\_url                           | Returns the configured URL path for a detail view links/buttons for the entity list.                                                                                                                    |
-| empty\_list\_text                     | Returns the configured localized text to be displayed when the entity list view returns no results.                                                                                                     |
-| enable\_entity\_permissions           | Returns true if Entity Permission filtering is enabled for this entity list. Returns false otherwise.                                                                                                   |
-| entity\_logical\_name                 | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name for records to be displayed by this entity list. For example, contact                                                                                                                                                                                             |
-| filter\_account\_attribute\_name      | Returns the attribute logical name for the lookup to account that will be used to filter result records by the current portal user's parent account. For example, accountid                                                                                                                                                                                           |
-| filter\_apply\_label                  | Returns the configured localized label to be used for the link/button that applies an advanced attribute filter to the entity list results.                                                             |
-| filter\_definition                    | Returns the JSON attribute filter definition for the entity list. See [Entity List filters](liquid-filters.md#entity-list-filters) for details on how to use the metafilters Liquid filter to process this definition. |  
-| filter\_enabled                       | Returns true if advanced attribute filtering is enabled for the entity list. Returns false otherwise.                                                                                                   |
-| filter\_portal\_user\_attribute\_name | Returns the attribute logical name for the lookup to contact that will be used to filter result records by current portal user's contact. For example, contactid                                                                                                                                                                                           |
-| filter\_website\_attribute\_name      | Returns the attribute logical name for the lookup to adx\_website that will be used to filter result records by the current portal website. For example, adx\_websiteid                                                                                                                                                                                      |
-| language\_code                        | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code that will be used to select all localized labels for this entity list.                                                                                   |
-| page\_size                            | Returns the configured result page size for the entity list.                                                                                                                                            |
-| primary\_key\_name                    | Returns the primary key attribute logical name for records to be displayed by this entity list.                                                                                                         |
-| search\_enabled                       | Returns true if search is enabled for this entity list. Returns false otherwise.                                                                                                                        |
-| search\_placeholder                   | Returns the configured localized text for the entity list search field placeholder.                                                                                                                     |
-| search\_tooltip                       | Returns the configured localized text for the entity list search tooltip.                                                                                                                               |
-| views                                 | Returns the available views for the entity list, as entity list view objects.                                                                                                                           |
-| \[attribute logical name\]            | You can access any attribute of the entity list (adx\_entitylist) [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name, in the same manner as an [entity](liquid-objects.md#entity) object. For example, {{ entitylist.adx\_name }}                                                                                                                                                                          |
+|               Attribute               |                                                                                                                            Description                                                                                                                            |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            create\_enabled            |                                                                                Returns true if creation of new records is configured for the entity list. Returns false otherwise.                                                                                |
+|              create\_url              |                                                                                          Returns the configured URL path for a creation link/button for the entity list.                                                                                          |
+|            detail\_enabled            |                                                                         Returns true if a detail view for individual records is configured for the entity list. Returns false otherwise.                                                                          |
+|         detail\_id\_parameter         |               Returns the query string parameter name to use for the record ID when constructing a record detail view URL. See [URL filters](liquid-filters.md#url-filters) for details on using Liquid filters to construct URLs. For example, id                |
+|             detail\_label             |                                                                                     Returns the configured localized label for detail view links/buttons for the entity list.                                                                                     |
+|              detail\_url              |                                                                                       Returns the configured URL path for a detail view links/buttons for the entity list.                                                                                        |
+|           empty\_list\_text           |                                                                                Returns the configured localized text to be displayed when the entity list view returns no results.                                                                                |
+|      enable\_entity\_permissions      |                                                                               Returns true if Entity Permission filtering is enabled for this entity list. Returns false otherwise.                                                                               |
+|         entity\_logical\_name         |                                                 Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name for records to be displayed by this entity list. For example, contact                                                 |
+|   filter\_account\_attribute\_name    |                                            Returns the attribute logical name for the lookup to account that will be used to filter result records by the current portal user's parent account. For example, accountid                                            |
+|         filter\_apply\_label          |                                                            Returns the configured localized label to be used for the link/button that applies an advanced attribute filter to the entity list results.                                                            |
+|          filter\_definition           |                      Returns the JSON attribute filter definition for the entity list. See [Entity List filters](liquid-filters.md#entity-list-filters) for details on how to use the metafilters Liquid filter to process this definition.                       |
+|            filter\_enabled            |                                                                               Returns true if advanced attribute filtering is enabled for the entity list. Returns false otherwise.                                                                               |
+| filter\_portal\_user\_attribute\_name |                                                 Returns the attribute logical name for the lookup to contact that will be used to filter result records by current portal user's contact. For example, contactid                                                  |
+|   filter\_website\_attribute\_name    |                                              Returns the attribute logical name for the lookup to adx\_website that will be used to filter result records by the current portal website. For example, adx\_websiteid                                              |
+|            language\_code             |                                               Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code that will be used to select all localized labels for this entity list.                                                |
+|              page\_size               |                                                                                                   Returns the configured result page size for the entity list.                                                                                                    |
+|          primary\_key\_name           |                                                                                  Returns the primary key attribute logical name for records to be displayed by this entity list.                                                                                  |
+|            search\_enabled            |                                                                                         Returns true if search is enabled for this entity list. Returns false otherwise.                                                                                          |
+|          search\_placeholder          |                                                                                        Returns the configured localized text for the entity list search field placeholder.                                                                                        |
+|            search\_tooltip            |                                                                                             Returns the configured localized text for the entity list search tooltip.                                                                                             |
+|                 views                 |                                                                                           Returns the available views for the entity list, as entity list view objects.                                                                                           |
+|      \[attribute logical name\]       | You can access any attribute of the entity list (adx\_entitylist) [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name, in the same manner as an [entity](liquid-objects.md#entity) object. For example, {{ entitylist.adx\_name }} |
 
 ### Entity List View Attributes
 
-|Attribute   |Description   |
-|---|---|
-| columns                     | Returns the columns of the view as entity list view column objects.                                                                 |
-| entity\_logical\_name       | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name for the records included in the view. For example, contact                                                                                                                          |
-| Id                          | Returns the GUID ID of the view.                                                                                                     |
-| language\_code              | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code that will be used to select all localized labels (column headers, etc.) for the view. |
-| Name                        | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] display name of the view.                                                                                   |
-| primary\_key\_logical\_name | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity primary key logical name for the records included in the view. For example, contactid                                                                                                                        |
-| sort\_expression            | Returns the default sort expression for the view. For example, name ASC, createdon DESC                                                                                                         |
+|          Attribute          |                                                                                     Description                                                                                     |
+|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           columns           |                                                         Returns the columns of the view as entity list view column objects.                                                         |
+|    entity\_logical\_name    |               Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name for the records included in the view. For example, contact                |
+|             Id              |                                                                          Returns the GUID ID of the view.                                                                           |
+|       language\_code        | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code that will be used to select all localized labels (column headers, etc.) for the view. |
+|            Name             |                                          Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] display name of the view.                                          |
+| primary\_key\_logical\_name |        Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity primary key logical name for the records included in the view. For example, contactid         |
+|      sort\_expression       |                                               Returns the default sort expression for the view. For example, name ASC, createdon DESC                                               |
 
 ### Entity List View Column Attributes
 
-|Attribute   |Description   |
-|---|---|
-| attribute\_type  | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] attribute type name for the column, as a string. For example, Lookup, Picklist, String, Boolean, DateTime                              |
-| logical\_name    | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] attribute logical name for the column. For example, createdon                                                                |
-| Name             | Returns the localized [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] display name for the column. For example, Created On                                                               |
-| sort\_ascending  | Returns a sort expression string for sorting the column in ascending order. For example, createdon ASC                                                            |
-| sort\_descending | Returns a sort expression string for sorting the column in descending order. For example, createdon DESC                                                           |
-| sort\_disabled   | Returns true if sorting is disabled for the column. Returns false otherwise. |
-| sort\_enabled    | Returns true if sorting is enabled for the column. Returns false otherwise.  |
-| width            | Returns the configured width for the column, in pixels.                      |
+|    Attribute     |                                                                                    Description                                                                                    |
+|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| attribute\_type  | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] attribute type name for the column, as a string. For example, Lookup, Picklist, String, Boolean, DateTime |
+|  logical\_name   |                       Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] attribute logical name for the column. For example, createdon                       |
+|       Name       |                      Returns the localized [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] display name for the column. For example, Created On                       |
+| sort\_ascending  |                                      Returns a sort expression string for sorting the column in ascending order. For example, createdon ASC                                       |
+| sort\_descending |                                     Returns a sort expression string for sorting the column in descending order. For example, createdon DESC                                      |
+|  sort\_disabled  |                                                   Returns true if sorting is disabled for the column. Returns false otherwise.                                                    |
+|  sort\_enabled   |                                                    Returns true if sorting is enabled for the column. Returns false otherwise.                                                    |
+|      width       |                                                              Returns the configured width for the column, in pixels.                                                              |
 
 ## entityview
 
@@ -417,26 +428,26 @@ The entityview object is used within the entityview tag, and provides access to 
 
 ### Attributes
 
-|Attribute   |Description   |
-|---|---|
-| columns                     | Returns the columns in the view, as [entity view column objects](liquid-objects.md#entity-list-view-column-attributes).  |  
+|          Attribute          |                                                                               Description                                                                                |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           columns           |                         Returns the columns in the view, as [entity view column objects](liquid-objects.md#entity-list-view-column-attributes).                          |
 | entity\_permission\_denied  | Returns true if access to view results was denied due to insufficient Entity Permissions for the current user. Returns false if read access to view results was granted. |
-| entity\_logical\_name       | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the view result records. For example, contact                                                                                    |
-| first\_page                 | The page number of the first page of view results. This will be 1 unless there were no results returned, in which case it will be null.                                  |
-| Id                          | The GUID ID of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view that defines this entityview.                                                                                                       |
-| language\_code              | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code being used to load localized labels for the current view.                                                                         |
-| last\_page                  | The page number of the last page of view results. If there were no results returned, this will be null.                                                                  |
-| name                        | The name of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view that defines this entityview., for example, Active Contacts.                                                                           |
-| next\_page                  | The page number of the next page of view results. If there is no next page of results, this will be null.                                                                |
-| Page                        | The page number of the current page of view results.                                                                                                                     |
-| pages                       | Returns an array of page numbers containing all pages of results for the current view.                                                                                   |
-| page\_size                  | The number of results returned per page for the current view.                                                                                                            |
-| previous\_page              | The page number of the next page of view results. If there is no previous page of results, this will be null.                                                            |
-| primary\_key\_logical\_name | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] logical name of the primary key attribute of the result entity for this view. For example, contactid.                                                   |
-| records                     | The current page of result records for the view, as entity objects.                                                                                                      |
-| sort\_expression            | The default sort expression for the view. For example, nameASC, createdon DESC.                                                                                          |
-| total\_pages                | The total number of result pages for the view.                                                                                                                           |
-| total\_records              | The total number of results for the view (across all pages).                                                                                                             |
+|    entity\_logical\_name    |                   The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the view result records. For example, contact                   |
+|         first\_page         |                 The page number of the first page of view results. This will be 1 unless there were no results returned, in which case it will be null.                  |
+|             Id              |                            The GUID ID of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view that defines this entityview.                             |
+|       language\_code        |             The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] integer language code being used to load localized labels for the current view.              |
+|         last\_page          |                                 The page number of the last page of view results. If there were no results returned, this will be null.                                  |
+|            name             |              The name of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view that defines this entityview., for example, Active Contacts.               |
+|         next\_page          |                                The page number of the next page of view results. If there is no next page of results, this will be null.                                 |
+|            Page             |                                                           The page number of the current page of view results.                                                           |
+|            pages            |                                          Returns an array of page numbers containing all pages of results for the current view.                                          |
+|         page\_size          |                                                      The number of results returned per page for the current view.                                                       |
+|       previous\_page        |                              The page number of the next page of view results. If there is no previous page of results, this will be null.                               |
+| primary\_key\_logical\_name |  The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] logical name of the primary key attribute of the result entity for this view. For example, contactid.   |
+|           records           |                                                   The current page of result records for the view, as entity objects.                                                    |
+|      sort\_expression       |                                             The default sort expression for the view. For example, nameASC, createdon DESC.                                              |
+|        total\_pages         |                                                              The total number of result pages for the view.                                                              |
+|       total\_records        |                                                       The total number of results for the view (across all pages).                                                       |
 
 ## events
 
@@ -554,15 +565,15 @@ Provides the ability to access and render Forums and Forum Threads. Note that th
 The forums object allows you to select a Forum or Forum Threads :
 
 ```
-<div class="content-panel panel panel-default">
+<div class=content-panel panel panel-default>
 
-<div class="panel-heading">
+<div class=panel-heading>
 
 <h4>
 
-<span class="fa fa-comments" aria-hidden="true"></span>
+<span class=fa fa-comments aria-hidden=true></span>
 
-{{ snippets["Home Forum Activity Heading"] | default: "Forum Activity" | h }}
+{{ snippets[Home Forum Activity Heading] | default: Forum Activity | h }}
 
 </h4>
 
@@ -570,23 +581,23 @@ The forums object allows you to select a Forum or Forum Threads :
 
 {% for forum in website.forums %}
 
-<ul class="list-group">
+<ul class=list-group>
 
-<li class="list-group-item">
+<li class=list-group-item>
 
-<div class="row">
+<div class=row>
 
-<div class="col-sm-6">
+<div class=col-sm-6>
 
-<h4 class="list-group-item-heading"><a href="{{ forum.url | h }}"> {{ forum.name | h }}</a></h4>
+<h4 class=list-group-item-heading><a href="{{ forum.url | h }}"> {{ forum.name | h }}</a></h4>
 
-<div class="list-group-item-text content-metadata">{{ forum.adx_description | h }}</div>
+<div class=list-group-item-text content-metadata>{{ forum.adx_description | h }}</div>
 
 </div>
 
-<div class="col-sm-3 content-metadata">{{ forum.thread_count }} threads</div>
+<div class=col-sm-3 content-metadata>{{ forum.thread_count }} threads</div>
 
-<div class="col-sm-3 content-metadata">{{ forum.post_count }} posts</div>
+<div class=col-sm-3 content-metadata>{{ forum.post_count }} posts</div>
 
 </div>
 
@@ -608,7 +619,7 @@ The forum object allows you to work with a single forum, allowing you to access 
 The forumthreads object allows you to access a collection of forumthread objects. You can order the forum threads and achieve pagination as well by using liquid filters.
 
 ```
-{% assign threads = forum.threads | order_by "adx_name", "desc" | paginate: 0,4 | all %}
+{% assign threads = forum.threads | order_by adx_name, desc | paginate: 0,4 | all %}
 ```
 
 A Single Forum Thread
@@ -623,7 +634,7 @@ The forumposts object allows you to access a collection of forumpost objects.
 | All                  | Returns all forum objects in the portal. Note that website.forums Is also an equivalent.    |
 | thread\_count        | Returns the integer value of the count of how many threads there are in the entire website. |
 | post\_count          | Returns the integer value of the total number of posts in the portal.                       |
-| \[forum name or id\] | You can access any forum by its Name or Id properties. <br>`{% assign forum = forums["Forum Name"] %}<br>{% assign forum = forums["da8b8a92-2ee6-476f-8a21-782b047ff460"] %} 
+| \[forum name or id\] | You can access any forum by its Name or Id properties. <br>`{% assign forum = forums[Forum Name] %}<br>{% assign forum = forums[da8b8a92-2ee6-476f-8a21-782b047ff460] %} 
 
 ### forum Object
 
@@ -707,11 +718,11 @@ The articles object allows you to access a collection of article objects. You ca
 {% assign languagecode = website.selected_language.code %}
 {% assign popular_articles = knowledge.articles | popular: count,languagecode  %}
 {% if popular_articles %}
-    <div class="list-group">
+    <div class=list-group>
     {% for article in popular_articles %}
-      <div class="list-group-item clearfix">
-        <a class="title" href="{{ article.url | escape }}">{{ article.title | escape }}</a>
-        <p class="description">{{ article.description | escape }}</p>
+      <div class=list-group-item clearfix>
+        <a class=title href={{ article.url | escape }}>{{ article.title | escape }}</a>
+        <p class=description>{{ article.description | escape }}</p>
       </div>
     {% endfor %}
     </div>
@@ -753,9 +764,9 @@ The categories object allows you to access a collection of category objects. You
   {% assign count = count | default: 0 %}  
   {% assign categories = knowledge.categories | top_level: count %}
   {% if categories %}
-    <div class="list-group unstyled">
+    <div class=list-group unstyled>
     {% for category in categories %}
-      <a href="{{ category_url | add_query: 'id', category.categorynumber }}" class="list-group-item">
+      <a href={{ category_url | add_query: 'id', category.categorynumber }} class=list-group-item>
         {{ category.title }}
       </a>
     {% endfor %}
@@ -796,8 +807,8 @@ article is an [entity](#entity) object, with all of the same attributes, in addi
 
 |Attribute|Description|
 |---|---|
-|article_public_number|	The Article Public Number of the article.|
-|comment_count|	The integer value of the count of how many comments there are for a given article.|
+|article_public_number| The Article Public Number of the article.|
+|comment_count| The integer value of the count of how many comments there are for a given article.|
 |content|The content of the article.|
 |current_user_can_comment|Returns a Boolean value indicating whether the current user can add comments on the article.|
 |is_rating_enabled|Returns a boolean value indicating whether rating on an article is enabled.|
@@ -830,35 +841,35 @@ Refers to the current portal request page. This object combines the attributes o
 The page object provides access to things like the breadcrumbs for the current page, the title or URL of the current page, and any other attributes or related entities of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record.
 
 ```
-<ul class="breadcrumb">
+<ul class=breadcrumb>
 
 {% for crumb in page.breadcrumbs %}
 
-<li><a href="{{ crumb.url | escape }}">{{ crumb.title | escape }}</a></li>
+<li><a href={{ crumb.url | escape }}>{{ crumb.title | escape }}</a></li>
 
 {% endfor %}
 
-<li class="active">{{ page.title | escape }}</li>
+<li class=active>{{ page.title | escape }}</li>
 
 </ul>
 
-<div class="page-header">
+<div class=page-header>
 
 <h1>{{ page.title | escape }}</h1>
 
 </div>
 
-<div class="page-copy">
+<div class=page-copy>
 
 {{ page.adx_copy }}
 
 </div>
 
-<div class="list-group">
+<div class=list-group>
 
 {% for child in page.children %}
 
-<a class="list-group-item" href="{{ child.url | escape }}">
+<a class=list-group-item href={{ child.url | escape }}>
 
 {{ child.title | escape }}
 
@@ -876,15 +887,14 @@ The page object provides access to things like the breadcrumbs for the current p
 > [!Note]  
 > [entities](#entities)
 
-|Attribute   |Description   |
-|---|---|
-| breadcrumbs                        | Returns the breadcrumb site map node objects for the page, starting from the site map root node and ending at parent. |
-| children                           | Returns the child site map node objects of the page.|
-| parent                             | Returns the parent site map node of the page. If the page is the Home page, parent will be null.                                                                                                                                                                                                                         |
-| title                              | The title of the page.                                                                                                                                                                                                                                                    |
-| url                                | The URL of the page.                                                                                                                                                                                                                                                      |
-| \[attribute or relationship name\] | You can access any attribute of the page's underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name.<br>`{{ page.createdon }}`<br>`{% assign attribute_name = 'name' %}`<br>`{{ page[attribute_name] }}`<br>The values of most entity attributes map directly to [Liquid types](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But some attribute types are returned as objects:<ul><li>Lookup (Entity Reference) fields are returned as [entity reference objects](#entity-reference).</li><li>Option Set/Picklist fields are returned as [option set value objects](#option-set-value).</li> You can also load any related entities by relationship schema name. <br> `{{ page.adx_webpage_entitylist.adx_name }}`<br>In the case that a relationship is reflexive (that is, self-referential), a [entities](#entities) object will be returned. (Otherwise, the result would be ambiguous.)`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**Note**: Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop. Where possible, prefer use of the [Dynamics 365 entity tags](dynamics-entity-tags.md) to load collections of entities.|  
- 
+|             Attribute              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            breadcrumbs             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Returns the breadcrumb site map node objects for the page, starting from the site map root node and ending at parent.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|              children              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Returns the child site map node objects of the page.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|               parent               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Returns the parent site map node of the page. If the page is the Home page, parent will be null.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|               title                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                The title of the page.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                url                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 The URL of the page.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| \[attribute or relationship name\] | You can access any attribute of the page's underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name.<br>`{{ page.createdon }}`<br>`{% assign attribute_name = 'name' %}`<br>`{{ page[attribute_name] }}`<br>The values of most entity attributes map directly to [Liquid types](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But some attribute types are returned as objects:<ul><li>Lookup (Entity Reference) fields are returned as [entity reference objects](#entity-reference).</li><li>Option Set/Picklist fields are returned as [option set value objects](#option-set-value).</li> You can also load any related entities by relationship schema name. <br> `{{ page.adx_webpage_entitylist.adx_name }}`<br>In the case that a relationship is reflexive (that is, self-referential), a [entities](#entities) object will be returned. (Otherwise, the result would be ambiguous.)`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**Note**: Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop. Where possible, prefer use of the [Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md) to load collections of entities. |
 
 ## polls
 
@@ -895,7 +905,7 @@ The polls object allows you to select a specific poll or poll placement:
 ```
 <div>
 
-{% assign poll = polls["Poll Name"] %}
+{% assign poll = polls[Poll Name] %}
 
 <h4>{{ poll.question }}</h4>
 
@@ -903,15 +913,15 @@ The polls object allows you to select a specific poll or poll placement:
 
 <div>
 
-<input type="radio" name="{{ poll.name }}" id="{{ option.id }}" />
+<input type=radio name={{ poll.name }} id={{ option.id }} />
 
-<label for="{{ option.id }}">{{ option.answer }}</label>
+<label for={{ option.id }}>{{ option.answer }}</label>
 
 </div>
 
 {% endfor %}
 
-<button type="button">{{ poll.submit_button_label }}</button>
+<button type=button>{{ poll.submit_button_label }}</button>
 
 </div>
 ```
@@ -921,13 +931,13 @@ The polls object allows you to select a specific poll or poll placement:
 |Attribute   |Description   |
 |---|---|
 | placements          | Returns the pollplacements object.                                      |
-| \[poll name or id\] | You can access any poll by its Name or Id properties. `{% assign poll = polls["Poll Name"] %}`<br>`{% assign poll = polls["41827a5c-33de-49b8-a0c7-439e6a02eb98"] %}`  |
+| \[poll name or id\] | You can access any poll by its Name or Id properties. `{% assign poll = polls[Poll Name] %}`<br>`{% assign poll = polls["41827a5c-33de-49b8-a0c7-439e6a02eb98"] %}`  |
 
 ### Poll Placements Attributes
 
 |Attribute   |Description   |
 |---|---|
-| \[poll placement name or id\] | You can access any poll placement by its Name or Id properties.`{% assign placement = polls.placements["Placement Name or Id"] %}`<br>`{% assign placement = polls.placements["7677c5d4-406e-4b6c-907c-916ac17dba0f"] %} `|
+| \[poll placement name or id\] | You can access any poll placement by its Name or Id properties.`{% assign placement = polls.placements[Placement Name or Id] %}`<br>`{% assign placement = polls.placements[7677c5d4-406e-4b6c-907c-916ac17dba0f] %} `|
 
 ### Poll Placement Attributes
 
@@ -978,7 +988,7 @@ Contains information about the current HTTP request.
 ```
 {% assign id = request.params['id'] %}
 
-<a href="{{ request.url | add_query: 'foo', 1 }}">Link</a>
+<a href={{ request.url | add_query: 'foo', 1 }}>Link</a>
 ```
 
 > [!Note]
@@ -997,7 +1007,7 @@ Contains information about the current HTTP request.
 
 ## searchindex
 
-The searchindex object is used within the [Dynamics 365 entity tags](dynamics-entity-tags.md), and provides access to the results of a query.  
+The searchindex object is used within the [Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md), and provides access to the results of a query.  
 
 ```
 {% searchindex query: 'support', page: params.page, page_size: 10 %}
@@ -1012,7 +1022,7 @@ The searchindex object is used within the [Dynamics 365 entity tags](dynamics-en
 
 <li>
 
-<h3><a href="{{ result.url | escape }}">{{ result.title | escape }}</a></h3>
+<h3><a href={{ result.url | escape }}>{{ result.title | escape }}</a></h3>
 
 <p>{{ result.fragment }}</p>
 
@@ -1042,17 +1052,16 @@ The searchindex object is used within the [Dynamics 365 entity tags](dynamics-en
 
 ### Search Index Results
 
-|Attribute   |Description   |
-|---|---|
-| entity        | The underlying [entities](#entities) for the result.                                         |  
-| fragment      | A relevant short text fragment for the result, with terms matching the specified query highlighted using the &lt;em&gt; HTML tag. Note that certain types of queries do not support highlighted fragments, such as fuzzy queries (~) and wildcard queries (\*). This property will be null in those cases.  |
-| Id            | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity ID of the underlying record for the result, as a string. For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8 |
-| logical\_name | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the underlying record for the result. For example, adx\_webpage                                                                                                                                                         |
-| number        | The number of the result, across all result pages, starting from 1. For example, for the first result of the second page of results, with a page size of 10, this value will be 11.                                                           |
-| score         | The Lucene score of the result, as a floating-point value. Results will be returned ordered by this value.                                                               |
-| title         | The title of the result.                                                                                                                                                 |
-| url           | The URL for the result. This will usually&mdash;but not necessarily&mdash;be an absolute path for the current application, rather than a full URL. For example: /articles/article1/                                                                                                                                          |
-
+|   Attribute   |                                                                                                                                                Description                                                                                                                                                 |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    entity     |                                                                                                                            The underlying [entities](#entities) for the result.                                                                                                                            |
+|   fragment    | A relevant short text fragment for the result, with terms matching the specified query highlighted using the &lt;em&gt; HTML tag. Note that certain types of queries do not support highlighted fragments, such as fuzzy queries (~) and wildcard queries (\*). This property will be null in those cases. |
+|      Id       |                                                             The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity ID of the underlying record for the result, as a string. For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                              |
+| logical\_name |                                                                           The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the underlying record for the result. For example, adx\_webpage                                                                           |
+|    number     |                                                            The number of the result, across all result pages, starting from 1. For example, for the first result of the second page of results, with a page size of 10, this value will be 11.                                                             |
+|     score     |                                                                                                 The Lucene score of the result, as a floating-point value. Results will be returned ordered by this value.                                                                                                 |
+|     title     |                                                                                                                                          The title of the result.                                                                                                                                          |
+|      url      |                                                            The URL for the result. This will usually&mdash;but not necessarily&mdash;be an absolute path for the current application, rather than a full URL. For example: /articles/article1/                                                             |
 
 ## settings
 
@@ -1062,9 +1071,9 @@ Allows you to load any [site setting](configure-site-settings.md) by name. If a 
 > Settings are returned as [strings](liquid-types.md#string), but you can use [Type filters](liquid-filters.md#type-filters) to convert them to other types.
 
 ```
-{{ settings["My Setting"] }}
+{{ settings[My Setting] }}
 
-{% assign search_enabled = settings["Search/Enabled"] | boolean %}
+{% assign search_enabled = settings[Search/Enabled] | boolean %}
 
 {% if search_enabled %}
 
@@ -1092,33 +1101,33 @@ Allows access to the portal site map.
 ```
 <h1>{{ sitemap.root.title }}</h1>
 
-<ul class="breadcrumb">
+<ul class=breadcrumb>
 
 {% for crumb in sitemap.current.breadcrumbs %}
 
-<li><a href="{{ crumb.title }}">{{ crumb.title }}</a></li>
+<li><a href={{ crumb.title }}>{{ crumb.title }}</a></li>
 
 {% endfor %}
 
-<li class="active">{{ sitemap.current.title }}</li>
+<li class=active>{{ sitemap.current.title }}</li>
 
 </ul>
 
 {% for child in sitemap.current.children %}
 
-<a href="{{ child.url }}">{{ child.title }}</a>
+<a href={{ child.url }}>{{ child.title }}</a>
 
 {% endfor %}
 
 It's also possible to load a site map node by URL path:
 
-{% assign node = sitemap["/content/page1/"] %}
+{% assign node = sitemap[/content/page1/] %}
 
 {% if node %}
 
 {% for child in node.children %}
 
-<a href="{{ child.url }}">{{ child.title }}</a>
+<a href={{ child.url }}>{{ child.title }}</a>
 
 {% endfor %}
 
@@ -1145,24 +1154,24 @@ It's also possible to load a site map node by URL path:
 | Parent                | Returns the parent site map node of the node. If the node is the root node, parent will be null.                                                                     |
 | Title                 | The title of the node.                                                                                                |
 | url                   | The URL of the node.                                                                                                  |
- 
+
 
 ## sitemarkers
 
 Allows you to load any site marker by name. If the sitemarker exists, a sitemarker object will be returned. If a sitemarker with the given name is not found, [null](liquid-types.md#null) will be returned.  
 
 ```
-{{ sitemarkers["Login"].url }}
+{{ sitemarkers[Login].url }}
 
-{% assign my_sitemarker = sitemarkers["My Site Marker"] %}
+{% assign my_sitemarker = sitemarkers[My Site Marker] %}
 
 {% if my_sitemarker %}
 
-<a href="{{ my_sitemarker.url }}">{{ my_sitemarker.adx_name }}</a>
+<a href={{ my_sitemarker.url }}>{{ my_sitemarker.adx_name }}</a>
 
 {% else %}
 
-Site marker "My Site Marker" does not exist.
+Site marker My Site Marker does not exist.
 
 {% endif %}
 ```
@@ -1172,20 +1181,19 @@ Site marker "My Site Marker" does not exist.
 
 ### Sitemarker Attributes
 
-|Attribute   |Description   |
-|---|---|
-| url                        | The URL of the sitemarker target.|
-| \[attribute logical name\] | You can access any attribute of the sitemarker target [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. For example, {{ sitemarker.adx\_name }}                                                             |
-
+|         Attribute          |                                                                                    Description                                                                                    |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            url             |                                                                         The URL of the sitemarker target.                                                                         |
+| \[attribute logical name\] | You can access any attribute of the sitemarker target [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. For example, {{ sitemarker.adx\_name }} |
 
 ## snippets
 
 Allows you to load any content snippets by name. If a snippet with the given name is not found, [null](liquid-types.md#null) will be returned.  
 
 ```
-{{ snippets["Header"] }}
+{{ snippets[Header] }}
 
-{% assign footer = snippets["Footer"] %}
+{% assign footer = snippets[Footer] %}
 
 {% if footer %}
 
@@ -1246,12 +1254,12 @@ Hello, anonymous user!
 
 In addition to having all of the attributes of an [entity](#entity) object, user has the following attributes.
 
-|Attribute|Description|
-|---------|-----------|
-|roles|Returns the roles to which the user belongs, as an [array](liquid-types.md#array).<br>`{% if user.roles contains 'Administrators' %} User is an administrator. {% endif %}`<br>**Note**: You can also use the `has_role` filter to test for individual role memberships.|
-|basic_badges_url|Returns the service url to retrieve a user's badges.<br>To render badges for a user you must include a tag with the attributes "data-badge" and "data-uri". To render the current user's badges:<br>`<div data-badge data-uri='{{user.basic_badges_url }}'></div>`<br>To render out a user's badges by id (variable userid):<br>`<div data-badge data-uri='{{user.basic_badges_url | replace_first: user.id, userid}}'><div>`|
-|||
 
+|    Attribute     |                                                                                                                                                                                     Description                                                                                                                                                                                     |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      roles       |                                                      Returns the roles to which the user belongs, as an [array](liquid-types.md#array).<br>`{% if user.roles contains 'Administrators' %} User is an administrator. {% endif %}`<br>**Note**: You can also use the `has_role` filter to test for individual role memberships.                                                       |
+| basic_badges_url | Returns the service url to retrieve a user's badges.<br>To render badges for a user you must include a tag with the attributes "data-badge" and "data-uri". To render the current user's badges:<br>`<div data-badge data-uri='{{user.basic_badges_url }}'></div>`<br>To render out a user's badges by id (variable userid):<br>\`<div data-badge data-uri='{{user.basic_badges_url |
+|                  |                                                                                                                                                                                                                                                                                                                                                                                     |
 
 ## weblinks
 
@@ -1267,7 +1275,7 @@ If the web link set exists, a [web link set object](#web-link-set-attributes) wi
 
 <!-- Load web link set by name -->
 
-{% assign nav = weblinks["Primary Navigation"] %}
+{% assign nav = weblinks[Primary Navigation] %}
 
 {% if nav %}
 
@@ -1279,11 +1287,11 @@ If the web link set exists, a [web link set object](#web-link-set-attributes) wi
 
 <li>
 
-<a href="{{ link.url | escape }}" title="{{ link.tooltip | escape }}">
+<a href={{ link.url | escape }} title={{ link.tooltip | escape }}>
 
 {% if link.image %}
 
-<img src="{{ link.image.url | escape }}" alt="{{ link.image.alternate_text | escape }}" />
+<img src={{ link.image.url | escape }} alt={{ link.image.alternate_text | escape }} />
 
 {% endif %}
 
@@ -1308,35 +1316,35 @@ If the web link set exists, a [web link set object](#web-link-set-attributes) wi
 > [!Note]
 > A web link set is an [entity](#entity) object, with all of the same attributes, in addition to those listed below.                                         
 
-|Attribute   |Description   |
-|---|---|
-| Copy                       | The HTML copy of the web link set.                                                    |
-| Name                       | The name of the web link set.                                                         |
-| Title                      | The title of the web link set.                                                        |
-| Weblinks                   | The array of web link objects associated with the web link set.                       |
-| \[attribute logical name\] | You can access any attribute of the web link set [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. For example, {{ weblinkset.createdon }}                                                        |
+|         Attribute          |                                                                                 Description                                                                                  |
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            Copy            |                                                                      The HTML copy of the web link set.                                                                      |
+|            Name            |                                                                        The name of the web link set.                                                                         |
+|           Title            |                                                                        The title of the web link set.                                                                        |
+|          Weblinks          |                                                       The array of web link objects associated with the web link set.                                                        |
+| \[attribute logical name\] | You can access any attribute of the web link set [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. For example, {{ weblinkset.createdon }} |
 
 ### Web Link Attributes
 
 > [!Note]
 > A web link is an [entity](#entity) object, with all of the same attributes, in addition to those listed below.
 
-|Attribute   |Description   |
-|---|---|
-| Description                 | The HTML description of the web link.|
-| display\_image\_only        | Boolean attribute indicating whether the web link should be displayed as an image only, with no link text.                                     |
-| display\_page\_child\_links | Boolean attribute indicating whether the web link should show links to the [*sitemap*](#sitemap) child pages of the linked page, as sub-links. |  
-| Image                       | The web link image object for this link. This attribute will be null if no image is present.                                                   |
-| is\_external                | Boolean attribute indicating whether the target URL of the web link is to an external site (rather than to an internal portal page).           |
-| is\_sitemap\_ancestor       | Returns true if the weblink's URL references an ancestor of the current sitemap node, otherwise false.                                                                                                                                  |
-| is\_sitemap\_current        | Returns true if the weblink's URL references the current sitemap node, otherwise false. |
-| Name                        | The name/title of the web link.                                                                                                                |
-| Nofollow                    | Boolean attribute indicating whether the web link should be marked as rel="nofollow".                                                          |
-| open\_in\_new\_window       | Boolean attribute indicating whether the web link should be opened in a new browser window/tab when selected.                                   |
-| Tooltip                     | Tooltip text for the web link.                                                                                                                 |
-| url                         | The URL of the web link.                                                                                                                       |
-| Weblinks                    | The array of child web link objects associated with the web link.                                                                              |
-| \[attribute logical name\]  | You can access any attribute of the web link [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. For example, {{ weblink.createdon }}                                                                                                                    |
+|          Attribute          |                                                                              Description                                                                              |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|         Description         |                                                                 The HTML description of the web link.                                                                 |
+|    display\_image\_only     |                              Boolean attribute indicating whether the web link should be displayed as an image only, with no link text.                               |
+| display\_page\_child\_links |            Boolean attribute indicating whether the web link should show links to the [*sitemap*](#sitemap) child pages of the linked page, as sub-links.             |
+|            Image            |                                     The web link image object for this link. This attribute will be null if no image is present.                                      |
+|        is\_external         |                 Boolean attribute indicating whether the target URL of the web link is to an external site (rather than to an internal portal page).                  |
+|    is\_sitemap\_ancestor    |                                Returns true if the weblink's URL references an ancestor of the current sitemap node, otherwise false.                                 |
+|    is\_sitemap\_current     |                                        Returns true if the weblink's URL references the current sitemap node, otherwise false.                                        |
+|            Name             |                                                                    The name/title of the web link.                                                                    |
+|          Nofollow           |                                         Boolean attribute indicating whether the web link should be marked as rel=nofollow.                                         |
+|    open\_in\_new\_window    |                             Boolean attribute indicating whether the web link should be opened in a new browser window/tab when selected.                             |
+|           Tooltip           |                                                                    Tooltip text for the web link.                                                                     |
+|             url             |                                                                       The URL of the web link.                                                                        |
+|          Weblinks           |                                                   The array of child web link objects associated with the web link.                                                   |
+| \[attribute logical name\]  | You can access any attribute of the web link [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name. For example, {{ weblink.createdon }} |
 
 ### Web Link Image Attributes
 

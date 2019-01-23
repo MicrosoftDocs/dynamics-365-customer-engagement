@@ -1,15 +1,19 @@
 ---
-title: "msdyn_workorderservicetask Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_workorderservicetask Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_workorderservicetask entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_workorderservicetask Entity Reference
 
@@ -508,7 +512,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -615,7 +619,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -893,6 +897,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_workorderservicetask_ActivityPointers"></a> msdyn_workorderservicetask_ActivityPointers
 
 Same as activitypointer entity [msdyn_workorderservicetask_ActivityPointers](activitypointer.md#BKMK_msdyn_workorderservicetask_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -907,6 +912,7 @@ Same as activitypointer entity [msdyn_workorderservicetask_ActivityPointers](act
 ### <a name="BKMK_msdyn_workorderservicetask_msdyn_approvals"></a> msdyn_workorderservicetask_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_workorderservicetask_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_workorderservicetask_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -921,6 +927,7 @@ Same as msdyn_approval entity [msdyn_workorderservicetask_msdyn_approvals](msdyn
 ### <a name="BKMK_msdyn_workorderservicetask_msdyn_bookingalerts"></a> msdyn_workorderservicetask_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_workorderservicetask_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_workorderservicetask_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -935,6 +942,7 @@ Same as msdyn_bookingalert entity [msdyn_workorderservicetask_msdyn_bookingalert
 ### <a name="BKMK_msdyn_workorderservicetask_SyncErrors"></a> msdyn_workorderservicetask_SyncErrors
 
 Same as syncerror entity [msdyn_workorderservicetask_SyncErrors](syncerror.md#BKMK_msdyn_workorderservicetask_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -949,6 +957,7 @@ Same as syncerror entity [msdyn_workorderservicetask_SyncErrors](syncerror.md#BK
 ### <a name="BKMK_msdyn_workorderservicetask_DuplicateMatchingRecord"></a> msdyn_workorderservicetask_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_workorderservicetask_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_workorderservicetask_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -963,6 +972,7 @@ Same as duplicaterecord entity [msdyn_workorderservicetask_DuplicateMatchingReco
 ### <a name="BKMK_msdyn_workorderservicetask_DuplicateBaseRecord"></a> msdyn_workorderservicetask_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_workorderservicetask_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_workorderservicetask_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -977,6 +987,7 @@ Same as duplicaterecord entity [msdyn_workorderservicetask_DuplicateBaseRecord](
 ### <a name="BKMK_msdyn_workorderservicetask_SharePointDocumentLocations"></a> msdyn_workorderservicetask_SharePointDocumentLocations
 
 Same as sharepointdocumentlocation entity [msdyn_workorderservicetask_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_workorderservicetask_SharePointDocumentLocations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -991,6 +1002,7 @@ Same as sharepointdocumentlocation entity [msdyn_workorderservicetask_SharePoint
 ### <a name="BKMK_msdyn_workorderservicetask_SharePointDocuments"></a> msdyn_workorderservicetask_SharePointDocuments
 
 Same as sharepointdocument entity [msdyn_workorderservicetask_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_workorderservicetask_SharePointDocuments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -1005,6 +1017,7 @@ Same as sharepointdocument entity [msdyn_workorderservicetask_SharePointDocument
 ### <a name="BKMK_msdyn_workorderservicetask_AsyncOperations"></a> msdyn_workorderservicetask_AsyncOperations
 
 Same as asyncoperation entity [msdyn_workorderservicetask_AsyncOperations](asyncoperation.md#BKMK_msdyn_workorderservicetask_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1019,6 +1032,7 @@ Same as asyncoperation entity [msdyn_workorderservicetask_AsyncOperations](async
 ### <a name="BKMK_msdyn_workorderservicetask_MailboxTrackingFolders"></a> msdyn_workorderservicetask_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_workorderservicetask_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_workorderservicetask_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1033,6 +1047,7 @@ Same as mailboxtrackingfolder entity [msdyn_workorderservicetask_MailboxTracking
 ### <a name="BKMK_msdyn_workorderservicetask_UserEntityInstanceDatas"></a> msdyn_workorderservicetask_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_workorderservicetask_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_workorderservicetask_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1047,6 +1062,7 @@ Same as userentityinstancedata entity [msdyn_workorderservicetask_UserEntityInst
 ### <a name="BKMK_msdyn_workorderservicetask_ProcessSession"></a> msdyn_workorderservicetask_ProcessSession
 
 Same as processsession entity [msdyn_workorderservicetask_ProcessSession](processsession.md#BKMK_msdyn_workorderservicetask_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1061,6 +1077,7 @@ Same as processsession entity [msdyn_workorderservicetask_ProcessSession](proces
 ### <a name="BKMK_msdyn_workorderservicetask_BulkDeleteFailures"></a> msdyn_workorderservicetask_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_workorderservicetask_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_workorderservicetask_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1075,6 +1092,7 @@ Same as bulkdeletefailure entity [msdyn_workorderservicetask_BulkDeleteFailures]
 ### <a name="BKMK_msdyn_workorderservicetask_PrincipalObjectAttributeAccesses"></a> msdyn_workorderservicetask_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_workorderservicetask_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_workorderservicetask_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1089,6 +1107,7 @@ Same as principalobjectattributeaccess entity [msdyn_workorderservicetask_Princi
 ### <a name="BKMK_msdyn_workorderservicetask_Appointments"></a> msdyn_workorderservicetask_Appointments
 
 Same as appointment entity [msdyn_workorderservicetask_Appointments](appointment.md#BKMK_msdyn_workorderservicetask_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1103,6 +1122,7 @@ Same as appointment entity [msdyn_workorderservicetask_Appointments](appointment
 ### <a name="BKMK_msdyn_workorderservicetask_Emails"></a> msdyn_workorderservicetask_Emails
 
 Same as email entity [msdyn_workorderservicetask_Emails](email.md#BKMK_msdyn_workorderservicetask_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1117,6 +1137,7 @@ Same as email entity [msdyn_workorderservicetask_Emails](email.md#BKMK_msdyn_wor
 ### <a name="BKMK_msdyn_workorderservicetask_Faxes"></a> msdyn_workorderservicetask_Faxes
 
 Same as fax entity [msdyn_workorderservicetask_Faxes](fax.md#BKMK_msdyn_workorderservicetask_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1131,6 +1152,7 @@ Same as fax entity [msdyn_workorderservicetask_Faxes](fax.md#BKMK_msdyn_workorde
 ### <a name="BKMK_msdyn_workorderservicetask_Letters"></a> msdyn_workorderservicetask_Letters
 
 Same as letter entity [msdyn_workorderservicetask_Letters](letter.md#BKMK_msdyn_workorderservicetask_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1145,6 +1167,7 @@ Same as letter entity [msdyn_workorderservicetask_Letters](letter.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_workorderservicetask_PhoneCalls"></a> msdyn_workorderservicetask_PhoneCalls
 
 Same as phonecall entity [msdyn_workorderservicetask_PhoneCalls](phonecall.md#BKMK_msdyn_workorderservicetask_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1159,6 +1182,7 @@ Same as phonecall entity [msdyn_workorderservicetask_PhoneCalls](phonecall.md#BK
 ### <a name="BKMK_msdyn_workorderservicetask_Tasks"></a> msdyn_workorderservicetask_Tasks
 
 Same as task entity [msdyn_workorderservicetask_Tasks](task.md#BKMK_msdyn_workorderservicetask_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1173,6 +1197,7 @@ Same as task entity [msdyn_workorderservicetask_Tasks](task.md#BKMK_msdyn_workor
 ### <a name="BKMK_msdyn_workorderservicetask_RecurringAppointmentMasters"></a> msdyn_workorderservicetask_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_workorderservicetask_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_workorderservicetask_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1187,6 +1212,7 @@ Same as recurringappointmentmaster entity [msdyn_workorderservicetask_RecurringA
 ### <a name="BKMK_msdyn_workorderservicetask_SocialActivities"></a> msdyn_workorderservicetask_SocialActivities
 
 Same as socialactivity entity [msdyn_workorderservicetask_SocialActivities](socialactivity.md#BKMK_msdyn_workorderservicetask_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1201,6 +1227,7 @@ Same as socialactivity entity [msdyn_workorderservicetask_SocialActivities](soci
 ### <a name="BKMK_msdyn_workorderservicetask_connections1"></a> msdyn_workorderservicetask_connections1
 
 Same as connection entity [msdyn_workorderservicetask_connections1](connection.md#BKMK_msdyn_workorderservicetask_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1215,6 +1242,7 @@ Same as connection entity [msdyn_workorderservicetask_connections1](connection.m
 ### <a name="BKMK_msdyn_workorderservicetask_connections2"></a> msdyn_workorderservicetask_connections2
 
 Same as connection entity [msdyn_workorderservicetask_connections2](connection.md#BKMK_msdyn_workorderservicetask_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1229,6 +1257,7 @@ Same as connection entity [msdyn_workorderservicetask_connections2](connection.m
 ### <a name="BKMK_msdyn_workorderservicetask_QueueItems"></a> msdyn_workorderservicetask_QueueItems
 
 Same as queueitem entity [msdyn_workorderservicetask_QueueItems](queueitem.md#BKMK_msdyn_workorderservicetask_QueueItems) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1243,6 +1272,7 @@ Same as queueitem entity [msdyn_workorderservicetask_QueueItems](queueitem.md#BK
 ### <a name="BKMK_msdyn_workorderservicetask_Annotations"></a> msdyn_workorderservicetask_Annotations
 
 Same as annotation entity [msdyn_workorderservicetask_Annotations](annotation.md#BKMK_msdyn_workorderservicetask_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1257,6 +1287,7 @@ Same as annotation entity [msdyn_workorderservicetask_Annotations](annotation.md
 ### <a name="BKMK_msdyn_workorderservicetask_ServiceAppointments"></a> msdyn_workorderservicetask_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_workorderservicetask_ServiceAppointments](serviceappointment.md#BKMK_msdyn_workorderservicetask_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1343,6 +1374,6 @@ See msdyn_workorderincident Entity [msdyn_msdyn_workorderincident_msdyn_workorde
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_workorderservicetask?text=msdyn_workorderservicetask EntityType" />

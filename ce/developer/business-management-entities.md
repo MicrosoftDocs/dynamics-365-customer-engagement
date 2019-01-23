@@ -1,29 +1,33 @@
 ---
-title: "Business management entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Business management entities help you manage the Dynamics 365 application and includes creating the relationships between entity records, setting up queues, and defining the fiscal periods for the organization."
-ms.custom: ""
+title: "Business management entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Business management entities help you manage the Dynamics 365 for Customer Engagement application and includes creating the relationships between entity records, setting up queues, and defining the fiscal periods for the organization."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "site"
-  - "fiscal calendar"
-  - "time zone"
-  - "connection"
-  - "customer relationship"
-  - "territory"
-  - "transaction currency"
-  - "queue"
+  - site
+  - fiscal calendar
+  - time zone
+  - connection
+  - customer relationship
+  - territory
+  - transaction currency
+  - queue
 ms.assetid: d5327d3b-b043-40f1-b296-fddee85e395b
 caps.latest.revision: 16
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Business management entities
 

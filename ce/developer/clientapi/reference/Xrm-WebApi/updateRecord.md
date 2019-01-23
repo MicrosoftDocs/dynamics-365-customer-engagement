@@ -1,14 +1,23 @@
 ---
-title: "updateRecord (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "updateRecord (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+description: ""
+keywords: 
 ms.date: 12/18/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: 
+  - crm-online
+ms.topic: reference
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f5d4c8a9-4188-472a-83bf-b986dd135754
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
+
 # updateRecord (Client API reference)
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
@@ -32,7 +41,7 @@ manager: "amyla"
 <td>entityLogicalName</td>
 <td>String</td>
 <td>Yes</td>
-<td>The entity logical name of the record you want to update. For example: "account".</td>
+<td>The entity logical name of the record you want to update. For example: &quot;account&quot;.</td>
 </tr>
 <tr>
 <td>id</td>
@@ -44,7 +53,7 @@ manager: "amyla"
 <td>data</td>
 <td>Object</td>
 <td>Yes</td>
-<td><p>A JSON object containing <code>key: value</code> pairs, where `key` is the property of the entity and <code>value</code> is the value of the property you want to update.</p>
+<td><p>A JSON object containing <code>key: value</code> pairs, where <code>key</code> is the property of the entity and <code>value</code> is the value of the property you want to update.</p>
 <p>See examples later in this topic to see how you can define the <code>data</code> object for various update scenarios.</td>
 </tr>
 <tr>
@@ -132,7 +141,7 @@ Xrm.WebApi.updateRecord("account", "5531d753-95af-e711-a94e-000d3a11e605", data)
 );
 ```
 
-**For mobile offine scenario**
+**For mobile offline scenario**
 
 Here is the updated sample code to update an account record to associate another contact record as the primary contact for the account from mobile clients when working in the offline mode:
 

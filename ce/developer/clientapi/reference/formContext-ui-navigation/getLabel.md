@@ -1,13 +1,17 @@
 ---
-title: "getLabel (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getLabel (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: c1fa5f12-f66a-40bc-98e4-434b907d6485
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getLabel (Client API reference)
 

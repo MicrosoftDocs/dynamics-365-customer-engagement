@@ -1,33 +1,37 @@
 ---
-title: "Get started with the Dynamics 365 Customer Engagement Web API (client-side JavaScript) | MicrosoftDocs"
-description: "JavaScript can be used in HTML web resources, form scripts or ribbon commands to perform operations on Dynamics 365 Customer Engagement data using Web API"
-ms.custom: ""
+title: "Get started with the Dynamics 365 for Customer Engagement Web API (client-side JavaScript) | MicrosoftDocs"
+description: "JavaScript can be used in HTML web resources, form scripts or ribbon commands to perform operations on Dynamics 365 for Customer Engagement data using Web API"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: get-started-dynamics-365-web-api-client-side-JavaScript
 caps.latest.revision: 51
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
-# Get started with the Dynamics 365 Customer Engagement Web API (client-side JavaScript)
+# Get started with the Dynamics 365 for Customer Engagement Web API (client-side JavaScript)
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!NOTE]
 > ![This page is under construction. Check back soon!](../../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../../includes/cc-under-construction.md)]
 
-In HTML web resources, form scripts, or ribbon commands you can use [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] to perform operations on [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement data using the Web API introduced with [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].
+In HTML web resources, form scripts, or ribbon commands you can use [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] to perform operations on [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps data using the Web API introduced with [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps.
 
-If you are using the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-online.md)], use the new [Xrm.WebApi](../clientapi/reference/xrm-webapi.md) client API methods to use Web API with [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] and web resources. 
+If you are using the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-online.md)] apps, use the new [Xrm.WebApi](../clientapi/reference/xrm-webapi.md) client API methods to use Web API with [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] and web resources. 
 
-If you are using an earlier version of Dynamics 365 Customer Engagement, follow instruction available at [Get started with the Microsoft Dynamics 365 Web API (client-side JavaScript)](https://msdn.microsoft.com/library/gg334279.aspx)  
+If you are using an earlier version of Dynamics 365 for Customer Engagement apps, follow instruction available at [Get started with the Microsoft Dynamics 365 for Customer Engagement Web API (client-side JavaScript)](https://msdn.microsoft.com/library/gg334279.aspx)  
   
 <!--
 
@@ -40,12 +44,12 @@ The Web API is especially easy to use with [!INCLUDE[pn_JavaScript](../../includ
  [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] web resources  
  [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] code included in a [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] web resource running in the context of an HTML web resource, form scripts or ribbon commands.  
   
- When you use [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] web resources in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] you do not need to authenticate because the web resources are part of the application the user is already authenticated. The rest of this topic will focus on this scenario. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Web resources for Dynamics 365](../web-resources.md),[Script (JScript) web resources](../script-jscript-web-resources.md), [Use JavaScript with Dynamics 365](../use-javascript.md), & [Client scripting in Customer Engagement using JavaScript](../clientapi/client-scripting.md).  
+ When you use [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] web resources in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] you do not need to authenticate because the web resources are part of the application the user is already authenticated. The rest of this topic will focus on this scenario. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Web resources for Dynamics 365 for Customer Engagement](../web-resources.md),[Script (JScript) web resources](../script-jscript-web-resources.md), [Use JavaScript with Dynamics 365 for Customer Engagement](../use-javascript.md), & [Client scripting in Customer Engagement using JavaScript](../clientapi/client-scripting.md).  
   
  Single Page Applications  
  [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] code in a [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] library from another application running in a browser and authenticating to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] using Cross-Origin Resource Sharing (CORS). This pattern is typically used for single page applications.  
   
- When you use [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] in a single page application (SPA) you can use the adal.js library to allow the user to authenticate and access [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] data in a page hosted on a different domain. Most of the information in this topic applies to this scenario but you must also integrate an authorization header into any request which contains a authentication token. For more information see [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365](../oauth-cross-origin-resource-sharing-connect-single-page-application.md)  
+ When you use [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] in a single page application (SPA) you can use the adal.js library to allow the user to authenticate and access [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] data in a page hosted on a different domain. Most of the information in this topic applies to this scenario but you must also integrate an authorization header into any request which contains a authentication token. For more information see [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement](../oauth-cross-origin-resource-sharing-connect-single-page-application.md)  
   
 <a name="bkmk_understandingXHR"></a>   
 ## Understanding XMLHttpRequest  
@@ -120,7 +124,7 @@ req.send(JSON.stringify({ name: "Sample account" }));
  In the preceding example, the account entity is created using just a single property set. To determine which properties are available for an entity you need to look at the [CSDL metadata document](web-api-types-operations.md#bkmk_csdl), documentation generated from that document, or code generated using that document. For system  business entities included in all [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] organizations you can refer to the <xref:Microsoft.Dynamics.CRM.EntityTypeIndex>. Property names are lower case and accept simple data types that correspond to the following [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] types: `Boolean`, `Number`, `String`, `Array`, `Object`, and `Date`.  
   
 > [!NOTE]
->  The only exception to using simple data types is the <xref href="Microsoft.Dynamics.CRM.BooleanManagedProperty?text=BooleanManagedProperty ComplexType" /> which is used for entities which store solution-aware data such as web resources, templates, reports, roles, savedqueries, and in metadata entities. This property is never used for entities that store business data. Metadata entities use  many complex types and follow different rules. For more information see [Use the Web API with Dynamics 365 metadata](use-web-api-metadata.md).  
+>  The only exception to using simple data types is the <xref href="Microsoft.Dynamics.CRM.BooleanManagedProperty?text=BooleanManagedProperty ComplexType" /> which is used for entities which store solution-aware data such as web resources, templates, reports, roles, savedqueries, and in metadata entities. This property is never used for entities that store business data. Metadata entities use  many complex types and follow different rules. For more information see [Use the Web API with Dynamics 365 for Customer Engagement metadata](use-web-api-metadata.md).  
   
  Composing data to send in a request is usually a simple matter of creating an ordinary [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] object and setting appropriate properties. The following code shows two valid methods for defining a [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] object with properties and values. This example uses selected properties from the contact entity defined in <xref href="Microsoft.Dynamics.CRM.contact?text=contact EntityType" />.  
   
@@ -513,7 +517,7 @@ MyNameSpace.WebAPI = MyNameSpace.WebAPI || {};
 -->  
   
 ### See also  
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
- [Work with Dynamics 365 data using web resources](../work-data-using-web-resources.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Work with Dynamics 365 for Customer Engagement apps data using web resources](../work-data-using-web-resources.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)    
- [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365](../oauth-cross-origin-resource-sharing-connect-single-page-application.md)
+ [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement apps](../oauth-cross-origin-resource-sharing-connect-single-page-application.md)

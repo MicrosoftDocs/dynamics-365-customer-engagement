@@ -1,27 +1,30 @@
 ---
-title: "Create N:N (many-to-many) relationships in PowerApps | MicrosoftDocs"
+title: "Create N:N (many-to-many) relationships in Dynamics 365 for Customer Engagement for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to create many-to-may relationships"
-ms.custom: ""
-ms.date: 04/03/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/09/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 248cecfd-c9e8-430b-b4b0-860669866084
 caps.latest.revision: 33
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 tags: 
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create N:N (many-to-many) relationships
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_CreateEditNNRelationships"></a>   
 
@@ -37,54 +40,54 @@ tags:
   
 1. Open solution explorer.
   
-2.  Under **Components**, expand **Entities**, and then expand the entity you want to work with.  
+2. Under **Components**, expand **Entities**, and then expand the entity you want to work with.  
   
-3.  Select **N:N Relationships**.  
+3. Select **N:N Relationships**.  
   
-4.  To edit or view the details for an existing relationship, select the relationship, on the Actions toolbar, click **Actions**, and then click **Edit**.  
+4. To edit or view the details for an existing relationship, select the relationship, on the Actions toolbar, click **Actions**, and then click **Edit**.  
   
-     \- OR -  
+    \- OR -  
   
-     To add a new relationship, click **New Many-to-Many Relationship**.  
+    To add a new relationship, click **New Many-to-Many Relationship**.  
   
-    > [!IMPORTANT]
-    >  If **New Many-to-Many Relationship** does not appear on the Actions toolbar, you cannot create a N:N relationship for that entity.  
+   > [!IMPORTANT]
+   >  If **New Many-to-Many Relationship** does not appear on the Actions toolbar, you cannot create a N:N relationship for that entity.  
   
-5.  For a new relationship, in the **Current Entity** section, in the **Display Option** list, choose one of the following options:  
+5. For a new relationship, in the **Current Entity** section, in the **Display Option** list, choose one of the following options:  
   
-    - **Do Not Display**: The other entity will not display an associated view for the current entity.  
+   - **Do Not Display**: The other entity will not display an associated view for the current entity.  
   
-    - **Use Custom Label**: This label will be used for the associated view created for the other entity. Be sure to enter a corresponding value in the **Custom Label** field.  
+   - **Use Custom Label**: This label will be used for the associated view created for the other entity. Be sure to enter a corresponding value in the **Custom Label** field.  
   
-    - **Use Plural Name**: This will use the plural name of the current entity for the associated view.  
+   - **Use Plural Name**: This will use the plural name of the current entity for the associated view.  
   
-    > [!NOTE]
-    >  When the **Use Plural Name** or **Use Custom Label** options are selected, you can choose from the **Display Area** option list to specify the display area (for example Marketing or Sales) on the form where the relationship label will be displayed. You can also specify the **Display Order** to control where the label will be included within the selected display area.  
+   > [!NOTE]
+   >  When the **Use Plural Name** or **Use Custom Label** options are selected, you can choose from the **Display Area** option list to specify the display area (for example Marketing or Sales) on the form where the relationship label will be displayed. You can also specify the **Display Order** to control where the label will be included within the selected display area.  
   
-    > [!IMPORTANT]
-    >  The navigation paradigm for the forms associated with updated entities is significantly different than that for entities that have not been updated. While the mechanics for defining the Display Area and Display Order are common, be sure you understand the various navigation paradigms as you establish entity relationships.  
+   > [!IMPORTANT]
+   >  The navigation paradigm for the forms associated with updated entities is significantly different than that for entities that have not been updated. While the mechanics for defining the Display Area and Display Order are common, be sure you understand the various navigation paradigms as you establish entity relationships.  
   
-6.  In the **Other Entity** section, select the other entity from the **Entity Name** list.  
+6. In the **Other Entity** section, select the other entity from the **Entity Name** list.  
   
-    > [!NOTE]
-    >  When you specify the entity name, default values are set for the **Name** and **Relationship Entity Name** fields in the **Relationship Definition** section. If you change the **Entity Name** value before you save, these names will not change, so be sure these names are meaningful before saving.  
+   > [!NOTE]
+   >  When you specify the entity name, default values are set for the **Name** and **Relationship Entity Name** fields in the **Relationship Definition** section. If you change the **Entity Name** value before you save, these names will not change, so be sure these names are meaningful before saving.  
   
-7.  In the **Relationship Definition** section, confirm the **Name** and the **Relationship Entity Name**.  
+7. In the **Relationship Definition** section, confirm the **Name** and the **Relationship Entity Name**.  
   
-     These values must be unique among N:N relationships.  
+    These values must be unique among N:N relationships.  
   
 8. Click **Save and Close** to close the N:N Relationship form.  
   
 9. When your customizations are complete, publish them:  
   
-    -   To publish customizations for only the component that you’re currently editing, on the **Home** tab, in the **Save** group, click **Publish**.  
+   - To publish customizations for only the component that you’re currently editing, on the **Home** tab, in the **Save** group, click **Publish**.  
   
-    -   To publish customizations for all unpublished components at one time, click **Publish All Customizations**.  
+   - To publish customizations for all unpublished components at one time, click **Publish All Customizations**.  
   
-    > [!NOTE]
-    >  Any time you change user-interface elements or implement form scripts for an entity, you must publish changes to apply them. Any customizations that change the data schema of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] such as custom entities, relationships, or fields, are applied immediately.  
-    >   
-    > [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]  
+     > [!NOTE]
+     >  Any time you change user-interface elements or implement form scripts for an entity, you must publish changes to apply them. Any customizations that change the data schema of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps such as custom entities, relationships, or fields, are applied immediately.  
+     > 
+     > [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]  
 
 ### See also
 

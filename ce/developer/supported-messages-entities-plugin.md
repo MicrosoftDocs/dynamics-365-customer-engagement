@@ -1,26 +1,30 @@
 ---
-title: "Supported messages and entities for plug-ins (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The topic contains a table that lists the message and entity combinations that support execution of plug-ins for Dynamics 365 (online) Customer Engagement."
-ms.custom: ""
+title: "Supported messages and entities for plug-ins (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "The topic contains a table that lists the message and entity combinations that support execution of plug-ins for Dynamics 365 for Customer Engagement (online) Customer Engagement."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b3902754-0cbc-49d5-ac37-3f6f89a89e90
 caps.latest.revision: 47
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Supported messages and entities for plug-ins
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic contains a table that lists the message and entity combinations that support execution of plug-ins for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement.
+This topic contains a table that lists the message and entity combinations that support execution of plug-ins for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].
   
  The **Message Availability** column of the table indicates whether a message is available online, offline, or both. The **Entity Deployment** column indicates if the entity can be deployed on the server, on the client, or both. A value of **null** in the **Primary Entity** column means that there is no primary entity associated with the message. The same applies to the **Secondary Entity** column.  
   
@@ -30,9 +34,9 @@ This topic contains a table that lists the message and entity combinations that 
   
 > [!NOTE]
 >  The `SDK\Message-entity support for plug-ins.xlsx` file in the download is more up-to-date than the tables provided below. Refer to that file for the latest changes.  
->   
+> 
 >  The term *offline* applies to the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)]. The term *client* can apply to either [!INCLUDE[pn_crm_outlook_online](../includes/pn-crm-outlook-online.md)] or [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)].  
->   
+> 
 >  Whether a message is available online or offline can be determined programmatically by inspecting the `SdkMessage.Availability` attribute. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
   
 <a name="orgowned"></a>   
@@ -1377,6 +1381,6 @@ This topic contains a table that lists the message and entity combinations that 
 |Win|Quote||Both|Both|  
   
 ### See also  
- [Write Plug-Ins for Dynamics 365 Customer Engagement](write-plugin-extend-business-processes.md)   
+ [Write Plug-Ins for Dynamics 365 for Customer Engagement apps](write-plugin-extend-business-processes.md)   
  [Plug-in Development](plugin-development.md)   
  [Event Framework Overview](introduction-event-framework.md)

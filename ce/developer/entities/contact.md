@@ -1,15 +1,19 @@
 ---
-title: "Contact Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Contact Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Contact entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Contact Entity Reference
 
@@ -1718,7 +1722,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether the contact allows direct email sent from Microsoft Dynamics 365. If Do Not Allow is selected, Microsoft Dynamics 365 will not send the email.|
+|Description|Select whether the contact allows direct email sent from Microsoft Dynamics 365 for Customer Engagement apps. If Do Not Allow is selected, Microsoft Dynamics 365 for Customer Engagement apps will not send the email.|
 |DisplayName|Do not allow Emails|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -2358,7 +2362,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the lead that the contact was created if the contact was created by converting a lead in Microsoft Dynamics 365. This is used to relate the contact to the data on the originating lead for use in reporting and analytics.|
+|Description|Shows the lead that the contact was created if the contact was created by converting a lead in Microsoft Dynamics 365 for Customer Engagement apps. This is used to relate the contact to the data on the originating lead for use in reporting and analytics.|
 |DisplayName|Originating Lead|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -3359,7 +3363,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -3736,7 +3740,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -4258,6 +4262,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_lead_customer_contacts"></a> lead_customer_contacts
 
 Same as lead entity [lead_customer_contacts](lead.md#BKMK_lead_customer_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|lead|
@@ -4272,6 +4277,7 @@ Same as lead entity [lead_customer_contacts](lead.md#BKMK_lead_customer_contacts
 ### <a name="BKMK_lead_parent_contact"></a> lead_parent_contact
 
 Same as lead entity [lead_parent_contact](lead.md#BKMK_lead_parent_contact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|lead|
@@ -4286,6 +4292,7 @@ Same as lead entity [lead_parent_contact](lead.md#BKMK_lead_parent_contact) Many
 ### <a name="BKMK_contact_bookableresource_ContactId"></a> contact_bookableresource_ContactId
 
 Same as bookableresource entity [contact_bookableresource_ContactId](bookableresource.md#BKMK_contact_bookableresource_ContactId) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresource|
@@ -4300,6 +4307,7 @@ Same as bookableresource entity [contact_bookableresource_ContactId](bookableres
 ### <a name="BKMK_contact_BulkOperations"></a> contact_BulkOperations
 
 Same as bulkoperation entity [contact_BulkOperations](bulkoperation.md#BKMK_contact_BulkOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperation|
@@ -4314,6 +4322,7 @@ Same as bulkoperation entity [contact_BulkOperations](bulkoperation.md#BKMK_cont
 ### <a name="BKMK_contact_CampaignResponses"></a> contact_CampaignResponses
 
 Same as campaignresponse entity [contact_CampaignResponses](campaignresponse.md#BKMK_contact_CampaignResponses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -4328,6 +4337,7 @@ Same as campaignresponse entity [contact_CampaignResponses](campaignresponse.md#
 ### <a name="BKMK_CreatedContact_BulkOperationLogs"></a> CreatedContact_BulkOperationLogs
 
 Same as bulkoperationlog entity [CreatedContact_BulkOperationLogs](bulkoperationlog.md#BKMK_CreatedContact_BulkOperationLogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperationlog|
@@ -4342,6 +4352,7 @@ Same as bulkoperationlog entity [CreatedContact_BulkOperationLogs](bulkoperation
 ### <a name="BKMK_SourceContact_BulkOperationLogs"></a> SourceContact_BulkOperationLogs
 
 Same as bulkoperationlog entity [SourceContact_BulkOperationLogs](bulkoperationlog.md#BKMK_SourceContact_BulkOperationLogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperationlog|
@@ -4356,6 +4367,7 @@ Same as bulkoperationlog entity [SourceContact_BulkOperationLogs](bulkoperationl
 ### <a name="BKMK_Contact_ServiceAppointments"></a> Contact_ServiceAppointments
 
 Same as serviceappointment entity [Contact_ServiceAppointments](serviceappointment.md#BKMK_Contact_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -4370,6 +4382,7 @@ Same as serviceappointment entity [Contact_ServiceAppointments](serviceappointme
 ### <a name="BKMK_contact_as_responsible_contact"></a> contact_as_responsible_contact
 
 Same as incident entity [contact_as_responsible_contact](incident.md#BKMK_contact_as_responsible_contact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -4384,6 +4397,7 @@ Same as incident entity [contact_as_responsible_contact](incident.md#BKMK_contac
 ### <a name="BKMK_contractlineitem_customer_contacts"></a> contractlineitem_customer_contacts
 
 Same as contractdetail entity [contractlineitem_customer_contacts](contractdetail.md#BKMK_contractlineitem_customer_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contractdetail|
@@ -4398,6 +4412,7 @@ Same as contractdetail entity [contractlineitem_customer_contacts](contractdetai
 ### <a name="BKMK_contract_billingcustomer_contacts"></a> contract_billingcustomer_contacts
 
 Same as contract entity [contract_billingcustomer_contacts](contract.md#BKMK_contract_billingcustomer_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contract|
@@ -4412,6 +4427,7 @@ Same as contract entity [contract_billingcustomer_contacts](contract.md#BKMK_con
 ### <a name="BKMK_contract_customer_contacts"></a> contract_customer_contacts
 
 Same as contract entity [contract_customer_contacts](contract.md#BKMK_contract_customer_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contract|
@@ -4426,6 +4442,7 @@ Same as contract entity [contract_customer_contacts](contract.md#BKMK_contract_c
 ### <a name="BKMK_incident_customer_contacts"></a> incident_customer_contacts
 
 Same as incident entity [incident_customer_contacts](incident.md#BKMK_incident_customer_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -4440,6 +4457,7 @@ Same as incident entity [incident_customer_contacts](incident.md#BKMK_incident_c
 ### <a name="BKMK_contact_as_primary_contact"></a> contact_as_primary_contact
 
 Same as incident entity [contact_as_primary_contact](incident.md#BKMK_contact_as_primary_contact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -4454,6 +4472,7 @@ Same as incident entity [contact_as_primary_contact](incident.md#BKMK_contact_as
 ### <a name="BKMK_contact_entitlement_ContactId"></a> contact_entitlement_ContactId
 
 Same as entitlement entity [contact_entitlement_ContactId](entitlement.md#BKMK_contact_entitlement_ContactId) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|entitlement|
@@ -4468,6 +4487,7 @@ Same as entitlement entity [contact_entitlement_ContactId](entitlement.md#BKMK_c
 ### <a name="BKMK_contact_entitlement_Customer"></a> contact_entitlement_Customer
 
 Same as entitlement entity [contact_entitlement_Customer](entitlement.md#BKMK_contact_entitlement_Customer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|entitlement|
@@ -4482,6 +4502,7 @@ Same as entitlement entity [contact_entitlement_Customer](entitlement.md#BKMK_co
 ### <a name="BKMK_contact_customer_opportunity_roles"></a> contact_customer_opportunity_roles
 
 Same as customeropportunityrole entity [contact_customer_opportunity_roles](customeropportunityrole.md#BKMK_contact_customer_opportunity_roles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customeropportunityrole|
@@ -4496,6 +4517,7 @@ Same as customeropportunityrole entity [contact_customer_opportunity_roles](cust
 ### <a name="BKMK_invoice_customer_contacts"></a> invoice_customer_contacts
 
 Same as invoice entity [invoice_customer_contacts](invoice.md#BKMK_invoice_customer_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoice|
@@ -4510,6 +4532,7 @@ Same as invoice entity [invoice_customer_contacts](invoice.md#BKMK_invoice_custo
 ### <a name="BKMK_opportunity_customer_contacts"></a> opportunity_customer_contacts
 
 Same as opportunity entity [opportunity_customer_contacts](opportunity.md#BKMK_opportunity_customer_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunity|
@@ -4524,6 +4547,7 @@ Same as opportunity entity [opportunity_customer_contacts](opportunity.md#BKMK_o
 ### <a name="BKMK_order_customer_contacts"></a> order_customer_contacts
 
 Same as salesorder entity [order_customer_contacts](salesorder.md#BKMK_order_customer_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorder|
@@ -4538,6 +4562,7 @@ Same as salesorder entity [order_customer_contacts](salesorder.md#BKMK_order_cus
 ### <a name="BKMK_quote_customer_contacts"></a> quote_customer_contacts
 
 Same as quote entity [quote_customer_contacts](quote.md#BKMK_quote_customer_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quote|
@@ -4552,6 +4577,7 @@ Same as quote entity [quote_customer_contacts](quote.md#BKMK_quote_customer_cont
 ### <a name="BKMK_opportunity_parent_contact"></a> opportunity_parent_contact
 
 Same as opportunity entity [opportunity_parent_contact](opportunity.md#BKMK_opportunity_parent_contact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunity|
@@ -4566,6 +4592,7 @@ Same as opportunity entity [opportunity_parent_contact](opportunity.md#BKMK_oppo
 ### <a name="BKMK_contact_msdyn_bookingalerts"></a> contact_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [contact_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_contact_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -4580,6 +4607,7 @@ Same as msdyn_bookingalert entity [contact_msdyn_bookingalerts](msdyn_bookingale
 ### <a name="BKMK_msdyn_contact_msdyn_actual_ContactCustomer"></a> msdyn_contact_msdyn_actual_ContactCustomer
 
 Same as msdyn_actual entity [msdyn_contact_msdyn_actual_ContactCustomer](msdyn_actual.md#BKMK_msdyn_contact_msdyn_actual_ContactCustomer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -4594,6 +4622,7 @@ Same as msdyn_actual entity [msdyn_contact_msdyn_actual_ContactCustomer](msdyn_a
 ### <a name="BKMK_msdyn_contact_msdyn_actual_ContactVendor"></a> msdyn_contact_msdyn_actual_ContactVendor
 
 Same as msdyn_actual entity [msdyn_contact_msdyn_actual_ContactVendor](msdyn_actual.md#BKMK_msdyn_contact_msdyn_actual_ContactVendor) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -4608,6 +4637,7 @@ Same as msdyn_actual entity [msdyn_contact_msdyn_actual_ContactVendor](msdyn_act
 ### <a name="BKMK_contact_msdyn_approvals"></a> contact_msdyn_approvals
 
 Same as msdyn_approval entity [contact_msdyn_approvals](msdyn_approval.md#BKMK_contact_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -4622,6 +4652,7 @@ Same as msdyn_approval entity [contact_msdyn_approvals](msdyn_approval.md#BKMK_c
 ### <a name="BKMK_msdyn_contact_msdyn_contactpricelist_Contact"></a> msdyn_contact_msdyn_contactpricelist_Contact
 
 Same as msdyn_contactpricelist entity [msdyn_contact_msdyn_contactpricelist_Contact](msdyn_contactpricelist.md#BKMK_msdyn_contact_msdyn_contactpricelist_Contact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_contactpricelist|
@@ -4636,6 +4667,7 @@ Same as msdyn_contactpricelist entity [msdyn_contact_msdyn_contactpricelist_Cont
 ### <a name="BKMK_msdyn_contact_msdyn_estimateline_ContactCustomer"></a> msdyn_contact_msdyn_estimateline_ContactCustomer
 
 Same as msdyn_estimateline entity [msdyn_contact_msdyn_estimateline_ContactCustomer](msdyn_estimateline.md#BKMK_msdyn_contact_msdyn_estimateline_ContactCustomer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimateline|
@@ -4650,6 +4682,7 @@ Same as msdyn_estimateline entity [msdyn_contact_msdyn_estimateline_ContactCusto
 ### <a name="BKMK_msdyn_contact_msdyn_estimateline_ContactVendor"></a> msdyn_contact_msdyn_estimateline_ContactVendor
 
 Same as msdyn_estimateline entity [msdyn_contact_msdyn_estimateline_ContactVendor](msdyn_estimateline.md#BKMK_msdyn_contact_msdyn_estimateline_ContactVendor) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimateline|
@@ -4664,6 +4697,7 @@ Same as msdyn_estimateline entity [msdyn_contact_msdyn_estimateline_ContactVendo
 ### <a name="BKMK_msdyn_contact_msdyn_fact_ContactCustomer"></a> msdyn_contact_msdyn_fact_ContactCustomer
 
 Same as msdyn_fact entity [msdyn_contact_msdyn_fact_ContactCustomer](msdyn_fact.md#BKMK_msdyn_contact_msdyn_fact_ContactCustomer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fact|
@@ -4678,6 +4712,7 @@ Same as msdyn_fact entity [msdyn_contact_msdyn_fact_ContactCustomer](msdyn_fact.
 ### <a name="BKMK_msdyn_contact_msdyn_fact_ContactVendor"></a> msdyn_contact_msdyn_fact_ContactVendor
 
 Same as msdyn_fact entity [msdyn_contact_msdyn_fact_ContactVendor](msdyn_fact.md#BKMK_msdyn_contact_msdyn_fact_ContactVendor) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fact|
@@ -4692,6 +4727,7 @@ Same as msdyn_fact entity [msdyn_contact_msdyn_fact_ContactVendor](msdyn_fact.md
 ### <a name="BKMK_msdyn_contact_msdyn_invoicelinetransaction_ContactCustomer"></a> msdyn_contact_msdyn_invoicelinetransaction_ContactCustomer
 
 Same as msdyn_invoicelinetransaction entity [msdyn_contact_msdyn_invoicelinetransaction_ContactCustomer](msdyn_invoicelinetransaction.md#BKMK_msdyn_contact_msdyn_invoicelinetransaction_ContactCustomer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -4706,6 +4742,7 @@ Same as msdyn_invoicelinetransaction entity [msdyn_contact_msdyn_invoicelinetran
 ### <a name="BKMK_msdyn_contact_msdyn_invoicelinetransaction_ContactVendor"></a> msdyn_contact_msdyn_invoicelinetransaction_ContactVendor
 
 Same as msdyn_invoicelinetransaction entity [msdyn_contact_msdyn_invoicelinetransaction_ContactVendor](msdyn_invoicelinetransaction.md#BKMK_msdyn_contact_msdyn_invoicelinetransaction_ContactVendor) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -4720,6 +4757,7 @@ Same as msdyn_invoicelinetransaction entity [msdyn_contact_msdyn_invoicelinetran
 ### <a name="BKMK_msdyn_contact_msdyn_journalline_ContactCustomer"></a> msdyn_contact_msdyn_journalline_ContactCustomer
 
 Same as msdyn_journalline entity [msdyn_contact_msdyn_journalline_ContactCustomer](msdyn_journalline.md#BKMK_msdyn_contact_msdyn_journalline_ContactCustomer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journalline|
@@ -4734,6 +4772,7 @@ Same as msdyn_journalline entity [msdyn_contact_msdyn_journalline_ContactCustome
 ### <a name="BKMK_msdyn_contact_msdyn_journalline_ContactVendor"></a> msdyn_contact_msdyn_journalline_ContactVendor
 
 Same as msdyn_journalline entity [msdyn_contact_msdyn_journalline_ContactVendor](msdyn_journalline.md#BKMK_msdyn_contact_msdyn_journalline_ContactVendor) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journalline|
@@ -4748,6 +4787,7 @@ Same as msdyn_journalline entity [msdyn_contact_msdyn_journalline_ContactVendor]
 ### <a name="BKMK_msdyn_contact_msdyn_opportunitylinetransaction_ContactCustomer"></a> msdyn_contact_msdyn_opportunitylinetransaction_ContactCustomer
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_contact_msdyn_opportunitylinetransaction_ContactCustomer](msdyn_opportunitylinetransaction.md#BKMK_msdyn_contact_msdyn_opportunitylinetransaction_ContactCustomer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransaction|
@@ -4762,6 +4802,7 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_contact_msdyn_opportunity
 ### <a name="BKMK_msdyn_contact_msdyn_opportunitylinetransaction_ContactVendor"></a> msdyn_contact_msdyn_opportunitylinetransaction_ContactVendor
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_contact_msdyn_opportunitylinetransaction_ContactVendor](msdyn_opportunitylinetransaction.md#BKMK_msdyn_contact_msdyn_opportunitylinetransaction_ContactVendor) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransaction|
@@ -4776,6 +4817,7 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_contact_msdyn_opportunity
 ### <a name="BKMK_msdyn_contact_msdyn_orderlinetransaction_ContactCustomer"></a> msdyn_contact_msdyn_orderlinetransaction_ContactCustomer
 
 Same as msdyn_orderlinetransaction entity [msdyn_contact_msdyn_orderlinetransaction_ContactCustomer](msdyn_orderlinetransaction.md#BKMK_msdyn_contact_msdyn_orderlinetransaction_ContactCustomer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransaction|
@@ -4790,6 +4832,7 @@ Same as msdyn_orderlinetransaction entity [msdyn_contact_msdyn_orderlinetransact
 ### <a name="BKMK_msdyn_contact_msdyn_orderlinetransaction_ContactVendor"></a> msdyn_contact_msdyn_orderlinetransaction_ContactVendor
 
 Same as msdyn_orderlinetransaction entity [msdyn_contact_msdyn_orderlinetransaction_ContactVendor](msdyn_orderlinetransaction.md#BKMK_msdyn_contact_msdyn_orderlinetransaction_ContactVendor) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransaction|
@@ -4804,6 +4847,7 @@ Same as msdyn_orderlinetransaction entity [msdyn_contact_msdyn_orderlinetransact
 ### <a name="BKMK_msdyn_contact_msdyn_quotelinetransaction_ContactCustomer"></a> msdyn_contact_msdyn_quotelinetransaction_ContactCustomer
 
 Same as msdyn_quotelinetransaction entity [msdyn_contact_msdyn_quotelinetransaction_ContactCustomer](msdyn_quotelinetransaction.md#BKMK_msdyn_contact_msdyn_quotelinetransaction_ContactCustomer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransaction|
@@ -4818,6 +4862,7 @@ Same as msdyn_quotelinetransaction entity [msdyn_contact_msdyn_quotelinetransact
 ### <a name="BKMK_msdyn_contact_msdyn_quotelinetransaction_ContactVendor"></a> msdyn_contact_msdyn_quotelinetransaction_ContactVendor
 
 Same as msdyn_quotelinetransaction entity [msdyn_contact_msdyn_quotelinetransaction_ContactVendor](msdyn_quotelinetransaction.md#BKMK_msdyn_contact_msdyn_quotelinetransaction_ContactVendor) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransaction|
@@ -4832,6 +4877,7 @@ Same as msdyn_quotelinetransaction entity [msdyn_contact_msdyn_quotelinetransact
 ### <a name="BKMK_msdyn_contact_msdyn_rma_RequestedByContact"></a> msdyn_contact_msdyn_rma_RequestedByContact
 
 Same as msdyn_rma entity [msdyn_contact_msdyn_rma_RequestedByContact](msdyn_rma.md#BKMK_msdyn_contact_msdyn_rma_RequestedByContact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rma|
@@ -4846,6 +4892,7 @@ Same as msdyn_rma entity [msdyn_contact_msdyn_rma_RequestedByContact](msdyn_rma.
 ### <a name="BKMK_msdyn_contact_msdyn_rtv_VendorContact"></a> msdyn_contact_msdyn_rtv_VendorContact
 
 Same as msdyn_rtv entity [msdyn_contact_msdyn_rtv_VendorContact](msdyn_rtv.md#BKMK_msdyn_contact_msdyn_rtv_VendorContact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rtv|
@@ -4860,6 +4907,7 @@ Same as msdyn_rtv entity [msdyn_contact_msdyn_rtv_VendorContact](msdyn_rtv.md#BK
 ### <a name="BKMK_msdyn_contact_msdyn_workorder_ReportedByContact"></a> msdyn_contact_msdyn_workorder_ReportedByContact
 
 Same as msdyn_workorder entity [msdyn_contact_msdyn_workorder_ReportedByContact](msdyn_workorder.md#BKMK_msdyn_contact_msdyn_workorder_ReportedByContact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorder|
@@ -4874,6 +4922,7 @@ Same as msdyn_workorder entity [msdyn_contact_msdyn_workorder_ReportedByContact]
 ### <a name="BKMK_contact_principalobjectattributeaccess"></a> contact_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [contact_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_contact_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -4888,6 +4937,7 @@ Same as principalobjectattributeaccess entity [contact_principalobjectattributea
 ### <a name="BKMK_slakpiinstance_contact"></a> slakpiinstance_contact
 
 Same as slakpiinstance entity [slakpiinstance_contact](slakpiinstance.md#BKMK_slakpiinstance_contact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -4902,6 +4952,7 @@ Same as slakpiinstance entity [slakpiinstance_contact](slakpiinstance.md#BKMK_sl
 ### <a name="BKMK_socialactivity_postauthoraccount_contacts"></a> socialactivity_postauthoraccount_contacts
 
 Same as socialactivity entity [socialactivity_postauthoraccount_contacts](socialactivity.md#BKMK_socialactivity_postauthoraccount_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -4916,6 +4967,7 @@ Same as socialactivity entity [socialactivity_postauthoraccount_contacts](social
 ### <a name="BKMK_Contact_Email_EmailSender"></a> Contact_Email_EmailSender
 
 Same as email entity [Contact_Email_EmailSender](email.md#BKMK_Contact_Email_EmailSender) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -4930,6 +4982,7 @@ Same as email entity [Contact_Email_EmailSender](email.md#BKMK_Contact_Email_Ema
 ### <a name="BKMK_Contact_Tasks"></a> Contact_Tasks
 
 Same as task entity [Contact_Tasks](task.md#BKMK_Contact_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -4944,6 +4997,7 @@ Same as task entity [Contact_Tasks](task.md#BKMK_Contact_Tasks) Many-To-One rela
 ### <a name="BKMK_contact_PostFollows"></a> contact_PostFollows
 
 Same as postfollow entity [contact_PostFollows](postfollow.md#BKMK_contact_PostFollows) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postfollow|
@@ -4958,6 +5012,7 @@ Same as postfollow entity [contact_PostFollows](postfollow.md#BKMK_contact_PostF
 ### <a name="BKMK_Contact_RecurringAppointmentMasters"></a> Contact_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [Contact_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_Contact_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -4972,6 +5027,7 @@ Same as recurringappointmentmaster entity [Contact_RecurringAppointmentMasters](
 ### <a name="BKMK_contact_master_contact"></a> contact_master_contact
 
 Same as contact entity [contact_master_contact](contact.md#BKMK_contact_master_contact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contact|
@@ -4986,6 +5042,7 @@ Same as contact entity [contact_master_contact](contact.md#BKMK_contact_master_c
 ### <a name="BKMK_contact_customer_relationship_partner"></a> contact_customer_relationship_partner
 
 Same as customerrelationship entity [contact_customer_relationship_partner](customerrelationship.md#BKMK_contact_customer_relationship_partner) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customerrelationship|
@@ -5000,6 +5057,7 @@ Same as customerrelationship entity [contact_customer_relationship_partner](cust
 ### <a name="BKMK_lk_contact_feedback_createdby"></a> lk_contact_feedback_createdby
 
 Same as feedback entity [lk_contact_feedback_createdby](feedback.md#BKMK_lk_contact_feedback_createdby) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|feedback|
@@ -5014,6 +5072,7 @@ Same as feedback entity [lk_contact_feedback_createdby](feedback.md#BKMK_lk_cont
 ### <a name="BKMK_contact_actioncard"></a> contact_actioncard
 
 Same as actioncard entity [contact_actioncard](actioncard.md#BKMK_contact_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -5028,6 +5087,7 @@ Same as actioncard entity [contact_actioncard](actioncard.md#BKMK_contact_action
 ### <a name="BKMK_contact_connections2"></a> contact_connections2
 
 Same as connection entity [contact_connections2](connection.md#BKMK_contact_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -5042,6 +5102,7 @@ Same as connection entity [contact_connections2](connection.md#BKMK_contact_conn
 ### <a name="BKMK_Contact_BulkDeleteFailures"></a> Contact_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Contact_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Contact_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -5056,6 +5117,7 @@ Same as bulkdeletefailure entity [Contact_BulkDeleteFailures](bulkdeletefailure.
 ### <a name="BKMK_contact_activity_parties"></a> contact_activity_parties
 
 Same as activityparty entity [contact_activity_parties](activityparty.md#BKMK_contact_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -5070,6 +5132,7 @@ Same as activityparty entity [contact_activity_parties](activityparty.md#BKMK_co
 ### <a name="BKMK_Contact_DuplicateBaseRecord"></a> Contact_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Contact_DuplicateBaseRecord](duplicaterecord.md#BKMK_Contact_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -5084,6 +5147,7 @@ Same as duplicaterecord entity [Contact_DuplicateBaseRecord](duplicaterecord.md#
 ### <a name="BKMK_Contact_Annotation"></a> Contact_Annotation
 
 Same as annotation entity [Contact_Annotation](annotation.md#BKMK_Contact_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -5098,6 +5162,7 @@ Same as annotation entity [Contact_Annotation](annotation.md#BKMK_Contact_Annota
 ### <a name="BKMK_Contact_SocialActivities"></a> Contact_SocialActivities
 
 Same as socialactivity entity [Contact_SocialActivities](socialactivity.md#BKMK_Contact_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -5112,6 +5177,7 @@ Same as socialactivity entity [Contact_SocialActivities](socialactivity.md#BKMK_
 ### <a name="BKMK_Contact_ActivityPointers"></a> Contact_ActivityPointers
 
 Same as activitypointer entity [Contact_ActivityPointers](activitypointer.md#BKMK_Contact_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -5126,6 +5192,7 @@ Same as activitypointer entity [Contact_ActivityPointers](activitypointer.md#BKM
 ### <a name="BKMK_Contact_MailboxTrackingFolder"></a> Contact_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [Contact_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Contact_MailboxTrackingFolder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -5140,6 +5207,7 @@ Same as mailboxtrackingfolder entity [Contact_MailboxTrackingFolder](mailboxtrac
 ### <a name="BKMK_account_primary_contact"></a> account_primary_contact
 
 Same as account entity [account_primary_contact](account.md#BKMK_account_primary_contact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -5154,6 +5222,7 @@ Same as account entity [account_primary_contact](account.md#BKMK_account_primary
 ### <a name="BKMK_Socialprofile_customer_contacts"></a> Socialprofile_customer_contacts
 
 Same as socialprofile entity [Socialprofile_customer_contacts](socialprofile.md#BKMK_Socialprofile_customer_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialprofile|
@@ -5168,6 +5237,7 @@ Same as socialprofile entity [Socialprofile_customer_contacts](socialprofile.md#
 ### <a name="BKMK_Contact_ExternalPartyItems"></a> Contact_ExternalPartyItems
 
 Same as externalpartyitem entity [Contact_ExternalPartyItems](externalpartyitem.md#BKMK_Contact_ExternalPartyItems) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|externalpartyitem|
@@ -5182,6 +5252,7 @@ Same as externalpartyitem entity [Contact_ExternalPartyItems](externalpartyitem.
 ### <a name="BKMK_socialactivity_postauthor_contacts"></a> socialactivity_postauthor_contacts
 
 Same as socialactivity entity [socialactivity_postauthor_contacts](socialactivity.md#BKMK_socialactivity_postauthor_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -5196,6 +5267,7 @@ Same as socialactivity entity [socialactivity_postauthor_contacts](socialactivit
 ### <a name="BKMK_lk_contact_feedback_createdonbehalfby"></a> lk_contact_feedback_createdonbehalfby
 
 Same as feedback entity [lk_contact_feedback_createdonbehalfby](feedback.md#BKMK_lk_contact_feedback_createdonbehalfby) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|feedback|
@@ -5210,6 +5282,7 @@ Same as feedback entity [lk_contact_feedback_createdonbehalfby](feedback.md#BKMK
 ### <a name="BKMK_Contact_Emails"></a> Contact_Emails
 
 Same as email entity [Contact_Emails](email.md#BKMK_Contact_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -5224,6 +5297,7 @@ Same as email entity [Contact_Emails](email.md#BKMK_Contact_Emails) Many-To-One 
 ### <a name="BKMK_Contact_Appointments"></a> Contact_Appointments
 
 Same as appointment entity [Contact_Appointments](appointment.md#BKMK_Contact_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -5238,6 +5312,7 @@ Same as appointment entity [Contact_Appointments](appointment.md#BKMK_Contact_Ap
 ### <a name="BKMK_Contact_Feedback"></a> Contact_Feedback
 
 Same as feedback entity [Contact_Feedback](feedback.md#BKMK_Contact_Feedback) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|feedback|
@@ -5252,6 +5327,7 @@ Same as feedback entity [Contact_Feedback](feedback.md#BKMK_Contact_Feedback) Ma
 ### <a name="BKMK_Contact_ProcessSessions"></a> Contact_ProcessSessions
 
 Same as processsession entity [Contact_ProcessSessions](processsession.md#BKMK_Contact_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -5266,6 +5342,7 @@ Same as processsession entity [Contact_ProcessSessions](processsession.md#BKMK_C
 ### <a name="BKMK_Contact_AsyncOperations"></a> Contact_AsyncOperations
 
 Same as asyncoperation entity [Contact_AsyncOperations](asyncoperation.md#BKMK_Contact_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -5280,6 +5357,7 @@ Same as asyncoperation entity [Contact_AsyncOperations](asyncoperation.md#BKMK_C
 ### <a name="BKMK_contact_connections1"></a> contact_connections1
 
 Same as connection entity [contact_connections1](connection.md#BKMK_contact_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -5294,6 +5372,7 @@ Same as connection entity [contact_connections1](connection.md#BKMK_contact_conn
 ### <a name="BKMK_Contact_CustomerAddress"></a> Contact_CustomerAddress
 
 Same as customeraddress entity [Contact_CustomerAddress](customeraddress.md#BKMK_Contact_CustomerAddress) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customeraddress|
@@ -5308,6 +5387,7 @@ Same as customeraddress entity [Contact_CustomerAddress](customeraddress.md#BKMK
 ### <a name="BKMK_Contact_Phonecalls"></a> Contact_Phonecalls
 
 Same as phonecall entity [Contact_Phonecalls](phonecall.md#BKMK_Contact_Phonecalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -5322,6 +5402,7 @@ Same as phonecall entity [Contact_Phonecalls](phonecall.md#BKMK_Contact_Phonecal
 ### <a name="BKMK_contact_customer_contacts"></a> contact_customer_contacts
 
 Same as contact entity [contact_customer_contacts](contact.md#BKMK_contact_customer_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contact|
@@ -5336,6 +5417,7 @@ Same as contact entity [contact_customer_contacts](contact.md#BKMK_contact_custo
 ### <a name="BKMK_userentityinstancedata_contact"></a> userentityinstancedata_contact
 
 Same as userentityinstancedata entity [userentityinstancedata_contact](userentityinstancedata.md#BKMK_userentityinstancedata_contact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -5350,6 +5432,7 @@ Same as userentityinstancedata entity [userentityinstancedata_contact](userentit
 ### <a name="BKMK_Contact_SyncErrors"></a> Contact_SyncErrors
 
 Same as syncerror entity [Contact_SyncErrors](syncerror.md#BKMK_Contact_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -5364,6 +5447,7 @@ Same as syncerror entity [Contact_SyncErrors](syncerror.md#BKMK_Contact_SyncErro
 ### <a name="BKMK_Contact_DuplicateMatchingRecord"></a> Contact_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Contact_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Contact_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -5378,6 +5462,7 @@ Same as duplicaterecord entity [Contact_DuplicateMatchingRecord](duplicaterecord
 ### <a name="BKMK_contact_customer_relationship_customer"></a> contact_customer_relationship_customer
 
 Same as customerrelationship entity [contact_customer_relationship_customer](customerrelationship.md#BKMK_contact_customer_relationship_customer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customerrelationship|
@@ -5392,6 +5477,7 @@ Same as customerrelationship entity [contact_customer_relationship_customer](cus
 ### <a name="BKMK_Contact_Faxes"></a> Contact_Faxes
 
 Same as fax entity [Contact_Faxes](fax.md#BKMK_Contact_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -5406,6 +5492,7 @@ Same as fax entity [Contact_Faxes](fax.md#BKMK_Contact_Faxes) Many-To-One relati
 ### <a name="BKMK_Contact_Letters"></a> Contact_Letters
 
 Same as letter entity [Contact_Letters](letter.md#BKMK_Contact_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -5631,6 +5718,6 @@ See quote Entity [contactquotes_association](quote.md#BKMK_contactquotes_associa
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.contact?text=contact EntityType" />

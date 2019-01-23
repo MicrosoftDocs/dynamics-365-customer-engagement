@@ -1,15 +1,19 @@
 ---
-title: "ColumnMapping Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ColumnMapping Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ColumnMapping entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ColumnMapping Entity Reference
 
@@ -181,7 +185,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the Microsoft Dynamics 365 attribute.|
+|Description|Name of the Microsoft Dynamics 365 for Customer Engagement apps attribute.|
 |DisplayName|Target Attribute|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -197,7 +201,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the Microsoft Dynamics 365 entity.|
+|Description|Name of the Microsoft Dynamics 365 for Customer Engagement apps entity.|
 |DisplayName|Target Entity|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -599,6 +603,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_columnmapping"></a> userentityinstancedata_columnmapping
 
 Same as userentityinstancedata entity [userentityinstancedata_columnmapping](userentityinstancedata.md#BKMK_userentityinstancedata_columnmapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -613,6 +618,7 @@ Same as userentityinstancedata entity [userentityinstancedata_columnmapping](use
 ### <a name="BKMK_PickListMapping_ColumnMapping"></a> PickListMapping_ColumnMapping
 
 Same as picklistmapping entity [PickListMapping_ColumnMapping](picklistmapping.md#BKMK_PickListMapping_ColumnMapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|picklistmapping|
@@ -627,6 +633,7 @@ Same as picklistmapping entity [PickListMapping_ColumnMapping](picklistmapping.m
 ### <a name="BKMK_LookUpMapping_ColumnMapping"></a> LookUpMapping_ColumnMapping
 
 Same as lookupmapping entity [LookUpMapping_ColumnMapping](lookupmapping.md#BKMK_LookUpMapping_ColumnMapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|lookupmapping|
@@ -673,6 +680,6 @@ See systemuser Entity [lk_columnmapping_modifiedby](systemuser.md#BKMK_lk_column
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.columnmapping?text=columnmapping EntityType" />

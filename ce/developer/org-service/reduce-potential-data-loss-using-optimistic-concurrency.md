@@ -1,26 +1,30 @@
 ---
-title: "Reduce potential data loss using optimistic concurrency (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Reduce potential data loss using optimistic concurrency (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to reduce potential data loss when two or more update or delete operations on the same piece of data happen at the same time using optimistic concurrency"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0eb0167c-e312-4c6f-8a3c-760a2e73c0ff
 caps.latest.revision: 17
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Reduce potential data loss using optimistic concurrency
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-On a multi-threaded and multi-user system like [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, operations and data changes often happen in parallel. A problem arises when two or more update or delete operations on the same piece of data happen at the same time. This situation could potentially result in data loss. Provided in this SDK release is the ability for your applications to detect whether an entity record has changed on the server in the time between when your application retrieved the record and when it tries to update or delete that record.  
+On a multi-threaded and multi-user system like [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, operations and data changes often happen in parallel. A problem arises when two or more update or delete operations on the same piece of data happen at the same time. This situation could potentially result in data loss. Provided in this SDK release is the ability for your applications to detect whether an entity record has changed on the server in the time between when your application retrieved the record and when it tries to update or delete that record.  
   
  Optimistic concurrency is supported on all out-of-box entities enabled for offline sync and all custom entities. You can determine if an entity supports optimistic concurrency by retrieving the entity’s metadata through an SDK call, or by viewing the metadata using the Metadata Browser, and check if the attribute **IsOptimisticConcurrencyEnabled** is set to `true`. For custom entities, this property is set to `true` by default. [!INCLUDE[metadata_browser](../../includes/metadata-browser.md)]  
   
@@ -56,8 +60,8 @@ On a multi-threaded and multi-user system like [!INCLUDE[pn_dynamics_crm](../../
   
      When the **IfVersionMatches** behavior is indicated on an update to an entity, and where optimistic concurrency isn’t enabled, a fault is returned.  
   
- You can check the [Code](https://msdn.microsoft.com/library/system.servicemodel.faultexception.code\(v=vs.110\).aspx) property of the returned fault to determine if the fault is related to optimistic concurrency. The codes for the error conditions that were shown previously were obtained from the ErrorCodes.cs helper code.  
+  You can check the [Code](https://msdn.microsoft.com/library/system.servicemodel.faultexception.code\(v=vs.110\).aspx) property of the returned fault to determine if the fault is related to optimistic concurrency. The codes for the error conditions that were shown previously were obtained from the ErrorCodes.cs helper code.  
   
 ### See also  
- [Extend Dynamics 365 Customer Engagement on the server](../extend-dynamics-365-server.md)   
+ [Extend Dynamics 365 for Customer Engagement apps on the server](../extend-dynamics-365-server.md)   
  [Sample: Use optimistic concurrency with update and delete operations](sample-use-optimistic-concurrency-update-delete-operations.md)

@@ -1,13 +1,17 @@
 ---
-title: "GridEntity (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "GridEntity (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/10/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: cc2b7eca-61f4-4949-8398-52c9fc36721c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # GridEntity (Client API reference)
 
@@ -25,12 +29,12 @@ GridEntity also supports the **attributes** collection that provides methods of 
 
 ## Methods
 
-|Name|Description|Available for|
-|--|--|--|
-|[getEntityName](gridentity/getEntityName.md)|[!INCLUDE[gridentity/includes/getEntityName-description.md](gridentity/includes/getEntityName-description.md)]|Read-only and editable grids|
-|[getEntityReference](gridentity/getEntityReference.md)|[!INCLUDE[gridentity/includes/getEntityReference-description.md](gridentity/includes/getEntityReference-description.md)]|Read-only and editable grids|
-|[getId](gridentity/getId.md)|[!INCLUDE[gridentity/includes/getId-description.md](gridentity/includes/getId-description.md)]|Read-only and editable grids|
-|[getPrimaryAttributeValue](gridentity/getPrimaryAttributeValue.md)|[!INCLUDE[gridentity/includes/getPrimaryAttributeValue-description.md](gridentity/includes/getPrimaryAttributeValue-description.md)]|Read-only grid|
+|                                Name                                |                                                             Description                                                              |        Available for         |
+|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
+|            [getEntityName](gridentity/getEntityName.md)            |            [!INCLUDE[gridentity/includes/getEntityName-description.md](gridentity/includes/getEntityName-description.md)]            | Read-only and editable grids |
+|       [getEntityReference](gridentity/getEntityReference.md)       |       [!INCLUDE[gridentity/includes/getEntityReference-description.md](gridentity/includes/getEntityReference-description.md)]       | Read-only and editable grids |
+|                    [getId](gridentity/getId.md)                    |                    [!INCLUDE[gridentity/includes/getId-description.md](gridentity/includes/getId-description.md)]                    | Read-only and editable grids |
+| [getPrimaryAttributeValue](gridentity/getPrimaryAttributeValue.md) | [!INCLUDE[gridentity/includes/getPrimaryAttributeValue-description.md](gridentity/includes/getPrimaryAttributeValue-description.md)] |        Read-only grid        |
 
 ### Related topics
 

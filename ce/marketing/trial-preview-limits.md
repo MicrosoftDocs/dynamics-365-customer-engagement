@@ -1,25 +1,33 @@
 ---
 title: "Limits for trials and previews (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Limitations and conditions that apply to trials and previews of Dynamics 365 for Marketing"
-keywords: "trial;preview;limits"
+keywords: trial;preview;limits
 ms.date: 04/01/2018
-ms.service:
-  - "dynamics-365-marketing"
-ms.custom:
-  - "dyn365-marketing"
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 6f3e939b-5914-4536-b277-06e5ba88229d
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+manager: shellyha
+ms.reviewer:
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] limits for trials and previews
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Trials and previews of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] are subject to the following limits and restrictions:
 

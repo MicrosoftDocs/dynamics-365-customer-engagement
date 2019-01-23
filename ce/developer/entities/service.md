@@ -1,15 +1,19 @@
 ---
-title: "Service Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Service Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Service entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Service Entity Reference
 
@@ -702,6 +706,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Service_SyncErrors"></a> Service_SyncErrors
 
 Same as syncerror entity [Service_SyncErrors](syncerror.md#BKMK_Service_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -716,6 +721,7 @@ Same as syncerror entity [Service_SyncErrors](syncerror.md#BKMK_Service_SyncErro
 ### <a name="BKMK_Service_AsyncOperations"></a> Service_AsyncOperations
 
 Same as asyncoperation entity [Service_AsyncOperations](asyncoperation.md#BKMK_Service_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -730,6 +736,7 @@ Same as asyncoperation entity [Service_AsyncOperations](asyncoperation.md#BKMK_S
 ### <a name="BKMK_service_MailboxTrackingFolders"></a> service_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [service_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_service_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -744,6 +751,7 @@ Same as mailboxtrackingfolder entity [service_MailboxTrackingFolders](mailboxtra
 ### <a name="BKMK_userentityinstancedata_service"></a> userentityinstancedata_service
 
 Same as userentityinstancedata entity [userentityinstancedata_service](userentityinstancedata.md#BKMK_userentityinstancedata_service) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -758,6 +766,7 @@ Same as userentityinstancedata entity [userentityinstancedata_service](userentit
 ### <a name="BKMK_Service_ProcessSessions"></a> Service_ProcessSessions
 
 Same as processsession entity [Service_ProcessSessions](processsession.md#BKMK_Service_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -772,6 +781,7 @@ Same as processsession entity [Service_ProcessSessions](processsession.md#BKMK_S
 ### <a name="BKMK_Service_BulkDeleteFailures"></a> Service_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Service_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Service_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -786,6 +796,7 @@ Same as bulkdeletefailure entity [Service_BulkDeleteFailures](bulkdeletefailure.
 ### <a name="BKMK_service_PrincipalObjectAttributeAccesses"></a> service_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [service_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_service_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -800,6 +811,7 @@ Same as principalobjectattributeaccess entity [service_PrincipalObjectAttributeA
 ### <a name="BKMK_Service_Annotation"></a> Service_Annotation
 
 Same as annotation entity [Service_Annotation](annotation.md#BKMK_Service_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -814,6 +826,7 @@ Same as annotation entity [Service_Annotation](annotation.md#BKMK_Service_Annota
 ### <a name="BKMK_service_accounts"></a> service_accounts
 
 Same as account entity [service_accounts](account.md#BKMK_service_accounts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -828,6 +841,7 @@ Same as account entity [service_accounts](account.md#BKMK_service_accounts) Many
 ### <a name="BKMK_service_activity_pointers"></a> service_activity_pointers
 
 Same as activitypointer entity [service_activity_pointers](activitypointer.md#BKMK_service_activity_pointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -842,6 +856,7 @@ Same as activitypointer entity [service_activity_pointers](activitypointer.md#BK
 ### <a name="BKMK_service_contacts"></a> service_contacts
 
 Same as contact entity [service_contacts](contact.md#BKMK_service_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contact|
@@ -856,6 +871,7 @@ Same as contact entity [service_contacts](contact.md#BKMK_service_contacts) Many
 ### <a name="BKMK_service_emails"></a> service_emails
 
 Same as email entity [service_emails](email.md#BKMK_service_emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -870,6 +886,7 @@ Same as email entity [service_emails](email.md#BKMK_service_emails) Many-To-One 
 ### <a name="BKMK_service_socialactivities"></a> service_socialactivities
 
 Same as socialactivity entity [service_socialactivities](socialactivity.md#BKMK_service_socialactivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -884,6 +901,7 @@ Same as socialactivity entity [service_socialactivities](socialactivity.md#BKMK_
 ### <a name="BKMK_service_appointments"></a> service_appointments
 
 Same as appointment entity [service_appointments](appointment.md#BKMK_service_appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -898,6 +916,7 @@ Same as appointment entity [service_appointments](appointment.md#BKMK_service_ap
 ### <a name="BKMK_service_service_appointments"></a> service_service_appointments
 
 Same as serviceappointment entity [service_service_appointments](serviceappointment.md#BKMK_service_service_appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -912,6 +931,7 @@ Same as serviceappointment entity [service_service_appointments](serviceappointm
 ### <a name="BKMK_service_faxes"></a> service_faxes
 
 Same as fax entity [service_faxes](fax.md#BKMK_service_faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -926,6 +946,7 @@ Same as fax entity [service_faxes](fax.md#BKMK_service_faxes) Many-To-One relati
 ### <a name="BKMK_service_incidentresolutions"></a> service_incidentresolutions
 
 Same as incidentresolution entity [service_incidentresolutions](incidentresolution.md#BKMK_service_incidentresolutions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -940,6 +961,7 @@ Same as incidentresolution entity [service_incidentresolutions](incidentresoluti
 ### <a name="BKMK_service_letters"></a> service_letters
 
 Same as letter entity [service_letters](letter.md#BKMK_service_letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -954,6 +976,7 @@ Same as letter entity [service_letters](letter.md#BKMK_service_letters) Many-To-
 ### <a name="BKMK_service_phonecalls"></a> service_phonecalls
 
 Same as phonecall entity [service_phonecalls](phonecall.md#BKMK_service_phonecalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -968,6 +991,7 @@ Same as phonecall entity [service_phonecalls](phonecall.md#BKMK_service_phonecal
 ### <a name="BKMK_service_recurringappointmentmasters"></a> service_recurringappointmentmasters
 
 Same as recurringappointmentmaster entity [service_recurringappointmentmasters](recurringappointmentmaster.md#BKMK_service_recurringappointmentmasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -982,6 +1006,7 @@ Same as recurringappointmentmaster entity [service_recurringappointmentmasters](
 ### <a name="BKMK_service_tasks"></a> service_tasks
 
 Same as task entity [service_tasks](task.md#BKMK_service_tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -996,6 +1021,7 @@ Same as task entity [service_tasks](task.md#BKMK_service_tasks) Many-To-One rela
 ### <a name="BKMK_Service_DuplicateBaseRecord"></a> Service_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Service_DuplicateBaseRecord](duplicaterecord.md#BKMK_Service_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1010,6 +1036,7 @@ Same as duplicaterecord entity [Service_DuplicateBaseRecord](duplicaterecord.md#
 ### <a name="BKMK_Service_DuplicateMatchingRecord"></a> Service_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Service_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Service_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1024,6 +1051,7 @@ Same as duplicaterecord entity [Service_DuplicateMatchingRecord](duplicaterecord
 ### <a name="BKMK_service_opportunityclose"></a> service_opportunityclose
 
 Same as opportunityclose entity [service_opportunityclose](opportunityclose.md#BKMK_service_opportunityclose) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -1038,6 +1066,7 @@ Same as opportunityclose entity [service_opportunityclose](opportunityclose.md#B
 ### <a name="BKMK_service_orderclose"></a> service_orderclose
 
 Same as orderclose entity [service_orderclose](orderclose.md#BKMK_service_orderclose) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -1052,6 +1081,7 @@ Same as orderclose entity [service_orderclose](orderclose.md#BKMK_service_orderc
 ### <a name="BKMK_service_quoteclose"></a> service_quoteclose
 
 Same as quoteclose entity [service_quoteclose](quoteclose.md#BKMK_service_quoteclose) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -1066,6 +1096,7 @@ Same as quoteclose entity [service_quoteclose](quoteclose.md#BKMK_service_quotec
 ### <a name="BKMK_msdyn_bookingalert_service_serviceid"></a> msdyn_bookingalert_service_serviceid
 
 Same as msdyn_bookingalert entity [msdyn_bookingalert_service_serviceid](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_service_serviceid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1080,6 +1111,7 @@ Same as msdyn_bookingalert entity [msdyn_bookingalert_service_serviceid](msdyn_b
 ### <a name="BKMK_msdyn_approval_service_serviceid"></a> msdyn_approval_service_serviceid
 
 Same as msdyn_approval entity [msdyn_approval_service_serviceid](msdyn_approval.md#BKMK_msdyn_approval_service_serviceid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -1141,6 +1173,6 @@ See resourcespec Entity [resource_spec_services](resourcespec.md#BKMK_resource_s
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.service?text=service EntityType" />

@@ -1,16 +1,16 @@
 ---
 title: "Validate and publish a model-driven app using the app designer | MicrosoftDocs"
 description: "Learn how to validate and publish a model-driven app"
-keywords: ""
-ms.date: 04/16/2018
+keywords: 
+ms.date: 01/11/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 5a9ec120-9ddc-4d92-b48c-0fee8c57d3c3
 ms.author: matp
 manager: kvivek
@@ -19,11 +19,15 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 10
 topic-status: Drafting
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Validate and publish an app by using the app designer
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Validate an app to check for asset dependencies that are required for the app to work, but haven't yet been added to the app.  
   

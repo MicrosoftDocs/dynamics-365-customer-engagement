@@ -1,15 +1,19 @@
 ---
-title: "WebResource Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "WebResource Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the WebResource entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # WebResource Entity Reference
 
@@ -679,6 +683,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_webresource_savedqueryvisualizations"></a> webresource_savedqueryvisualizations
 
 Same as savedqueryvisualization entity [webresource_savedqueryvisualizations](savedqueryvisualization.md#BKMK_webresource_savedqueryvisualizations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|savedqueryvisualization|
@@ -693,6 +698,7 @@ Same as savedqueryvisualization entity [webresource_savedqueryvisualizations](sa
 ### <a name="BKMK_userentityinstancedata_webresource"></a> userentityinstancedata_webresource
 
 Same as userentityinstancedata entity [userentityinstancedata_webresource](userentityinstancedata.md#BKMK_userentityinstancedata_webresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -707,6 +713,7 @@ Same as userentityinstancedata entity [userentityinstancedata_webresource](usere
 ### <a name="BKMK_solution_configuration_webresource"></a> solution_configuration_webresource
 
 Same as solution entity [solution_configuration_webresource](solution.md#BKMK_solution_configuration_webresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|solution|
@@ -721,6 +728,7 @@ Same as solution entity [solution_configuration_webresource](solution.md#BKMK_so
 ### <a name="BKMK_webresource_userqueryvisualizations"></a> webresource_userqueryvisualizations
 
 Same as userqueryvisualization entity [webresource_userqueryvisualizations](userqueryvisualization.md#BKMK_webresource_userqueryvisualizations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userqueryvisualization|
@@ -735,6 +743,7 @@ Same as userqueryvisualization entity [webresource_userqueryvisualizations](user
 ### <a name="BKMK_lk_theme_logoid"></a> lk_theme_logoid
 
 Same as theme entity [lk_theme_logoid](theme.md#BKMK_lk_theme_logoid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|theme|
@@ -781,6 +790,6 @@ See organization Entity [webresource_organization](organization.md#BKMK_webresou
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.webresource?text=webresource EntityType" />

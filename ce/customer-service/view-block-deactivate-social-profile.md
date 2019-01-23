@@ -1,21 +1,28 @@
 ---
 title: View, block, or deactivate a social profile in social care sample application (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: See how to view, block, or deactivate a social profile in social care sample application in Dynamics 365 for Customer Service
-keywords: View, block, or deactivate a social profile; Dynamics 365; Customer Service
+keywords: View, block, or deactivate a social profile; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
-manager: shellyha
-ms.date: 09/15/2017
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 62e46aaf-aa48-4074-a771-bcb345734d4d
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
-# View, block, or deactivate a social profile in social care sample application (Customer Service)
+# View, block, or deactivate a social profile in social care sample application
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -34,9 +41,9 @@ Track the high influencers and the customers for your business, and save them as
   
      The list of social profiles that are created in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] appears.  
   
-2.  Double-click any social profile to see the complete details.  
+2. Double-click any social profile to see the complete details.  
   
-     The social profile form shows the name, profile link of the contact, and the cases associated with this social profile. You can also view the influencer score if it is included as part of the social feed.  
+    The social profile form shows the name, profile link of the contact, and the cases associated with this social profile. You can also view the influencer score if it is included as part of the social feed.  
   
 ## Block a social profile  
  To make sure you receive only actionable social posts and avoid case creation for any unnecessary information, based on the social posts, you can block certain social profiles in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
@@ -53,4 +60,4 @@ Track the high influencers and the customers for your business, and save them as
  You can reactivate the profile by selecting it and clicking **Activate** on the command bar.
  
  ### See also
- [Sample application using Dynamics 365 Social Care Framework](https://msdn.microsoft.com/en-us/library/dn744885(v=crm.6).aspx)
+ [Sample application using Dynamics 365 for Customer Engagement Social Care Framework](https://msdn.microsoft.com/en-us/library/dn744885(v=crm.6).aspx)

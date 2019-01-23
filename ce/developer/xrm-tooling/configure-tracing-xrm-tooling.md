@@ -1,20 +1,24 @@
 ---
-title: "Configure tracing for XRM tooling (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Configure tracing for XRM tooling (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how you can configure tracing for components such as operation calls, warnings, exceptions, and other significant events in XRM Tooling"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d7586a5a-40da-427e-bbeb-4f8a371a8dcf
 caps.latest.revision: 8
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Configure tracing for XRM tooling
 
@@ -22,16 +26,16 @@ manager: "amyla"
 
 You can enable tracing to record data related to process milestones across all components of XRM tooling, such as operation calls, warnings, exceptions, and other significant events. This information can be used for troubleshooting operational and performance issues in your Windows client applications. Tracing in XRM tooling is built on top of [System.Tracing](https://msdn.microsoft.com/library/vstudio/system.diagnostics\(v=vs.100\).aspx). To enable tracing for an assembly or component, for example Microsoft.Xrm.Tooling.Connector, you must define the following three things for each component in your code or in the application configuration file (*\<AppName>*.exe.config):  
   
--   A trace source  
+- A trace source  
   
--   A trace listener  
+- A trace listener  
   
--   A trace level other than **Off**. These are the other values that you can specify: **Error**, **Warning**, **Info**, and **Verbose**.  
+- A trace level other than **Off**. These are the other values that you can specify: **Error**, **Warning**, **Info**, and **Verbose**.  
   
- Here is the configuration for enabling tracing for a component in XRM tooling. For example, the following configuration only enables tracing for the Microsoft.Xrm.Tooling.CrmConnectControl component:  
+  Here is the configuration for enabling tracing for a component in XRM tooling. For example, the following configuration only enables tracing for the Microsoft.Xrm.Tooling.CrmConnectControl component:  
   
 ```xml  
-</configuration>  
+<configuration>  
   <system.diagnostics>  
     <trace autoflush="true" />  
     <sources>  

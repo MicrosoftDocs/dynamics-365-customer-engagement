@@ -1,15 +1,19 @@
 ---
-title: "Equipment Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Equipment Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Equipment entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Equipment Entity Reference
 
@@ -706,6 +710,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Equipment_SyncErrors"></a> Equipment_SyncErrors
 
 Same as syncerror entity [Equipment_SyncErrors](syncerror.md#BKMK_Equipment_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -720,6 +725,7 @@ Same as syncerror entity [Equipment_SyncErrors](syncerror.md#BKMK_Equipment_Sync
 ### <a name="BKMK_equipment_activity_parties"></a> equipment_activity_parties
 
 Same as activityparty entity [equipment_activity_parties](activityparty.md#BKMK_equipment_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -734,6 +740,7 @@ Same as activityparty entity [equipment_activity_parties](activityparty.md#BKMK_
 ### <a name="BKMK_Equipment_DuplicateMatchingRecord"></a> Equipment_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Equipment_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Equipment_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -748,6 +755,7 @@ Same as duplicaterecord entity [Equipment_DuplicateMatchingRecord](duplicatereco
 ### <a name="BKMK_Equipment_DuplicateBaseRecord"></a> Equipment_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Equipment_DuplicateBaseRecord](duplicaterecord.md#BKMK_Equipment_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -762,6 +770,7 @@ Same as duplicaterecord entity [Equipment_DuplicateBaseRecord](duplicaterecord.m
 ### <a name="BKMK_Equipment_AsyncOperations"></a> Equipment_AsyncOperations
 
 Same as asyncoperation entity [Equipment_AsyncOperations](asyncoperation.md#BKMK_Equipment_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -776,6 +785,7 @@ Same as asyncoperation entity [Equipment_AsyncOperations](asyncoperation.md#BKMK
 ### <a name="BKMK_equipment_MailboxTrackingFolders"></a> equipment_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [equipment_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_equipment_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -790,6 +800,7 @@ Same as mailboxtrackingfolder entity [equipment_MailboxTrackingFolders](mailboxt
 ### <a name="BKMK_userentityinstancedata_equipment"></a> userentityinstancedata_equipment
 
 Same as userentityinstancedata entity [userentityinstancedata_equipment](userentityinstancedata.md#BKMK_userentityinstancedata_equipment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -804,6 +815,7 @@ Same as userentityinstancedata entity [userentityinstancedata_equipment](userent
 ### <a name="BKMK_Equipment_ProcessSessions"></a> Equipment_ProcessSessions
 
 Same as processsession entity [Equipment_ProcessSessions](processsession.md#BKMK_Equipment_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -818,6 +830,7 @@ Same as processsession entity [Equipment_ProcessSessions](processsession.md#BKMK
 ### <a name="BKMK_Equipment_BulkDeleteFailures"></a> Equipment_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Equipment_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Equipment_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -832,6 +845,7 @@ Same as bulkdeletefailure entity [Equipment_BulkDeleteFailures](bulkdeletefailur
 ### <a name="BKMK_equipment_principalobjectattributeaccess"></a> equipment_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [equipment_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_equipment_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -846,6 +860,7 @@ Same as principalobjectattributeaccess entity [equipment_principalobjectattribut
 ### <a name="BKMK_equipment_connections1"></a> equipment_connections1
 
 Same as connection entity [equipment_connections1](connection.md#BKMK_equipment_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -860,6 +875,7 @@ Same as connection entity [equipment_connections1](connection.md#BKMK_equipment_
 ### <a name="BKMK_equipment_connections2"></a> equipment_connections2
 
 Same as connection entity [equipment_connections2](connection.md#BKMK_equipment_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -874,6 +890,7 @@ Same as connection entity [equipment_connections2](connection.md#BKMK_equipment_
 ### <a name="BKMK_Equipment_Annotation"></a> Equipment_Annotation
 
 Same as annotation entity [Equipment_Annotation](annotation.md#BKMK_Equipment_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -888,6 +905,7 @@ Same as annotation entity [Equipment_Annotation](annotation.md#BKMK_Equipment_An
 ### <a name="BKMK_Equipment_Email_EmailSender"></a> Equipment_Email_EmailSender
 
 Same as email entity [Equipment_Email_EmailSender](email.md#BKMK_Equipment_Email_EmailSender) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -902,6 +920,7 @@ Same as email entity [Equipment_Email_EmailSender](email.md#BKMK_Equipment_Email
 ### <a name="BKMK_equipment_accounts"></a> equipment_accounts
 
 Same as account entity [equipment_accounts](account.md#BKMK_equipment_accounts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -916,6 +935,7 @@ Same as account entity [equipment_accounts](account.md#BKMK_equipment_accounts) 
 ### <a name="BKMK_equipment_contacts"></a> equipment_contacts
 
 Same as contact entity [equipment_contacts](contact.md#BKMK_equipment_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contact|
@@ -930,6 +950,7 @@ Same as contact entity [equipment_contacts](contact.md#BKMK_equipment_contacts) 
 ### <a name="BKMK_equipment_resources"></a> equipment_resources
 
 Same as resource entity [equipment_resources](resource.md#BKMK_equipment_resources) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|resource|
@@ -1001,6 +1022,6 @@ See site Entity [site_equipment](site.md#BKMK_site_equipment) One-To-Many relati
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.equipment?text=equipment EntityType" />

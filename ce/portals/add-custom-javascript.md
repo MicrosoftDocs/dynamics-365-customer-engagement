@@ -1,9 +1,9 @@
 ---
-title: "Use custom JavaScript for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Use custom JavaScript for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to add custom JavaScript to a form in a portal"
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: e0edf082-34bd-46aa-a8fc-e4c45a055657
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Add custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]
 
@@ -29,13 +36,13 @@ $(document).ready
 (
 function() 
 {
-$("#address1_stateorprovince").val("Saskatchewan");
+$(#address1_stateorprovince).val(Saskatchewan);
 }
 ); 
 ```
 
 ## Additional client-side field validation
-Sometimes you might need to customize the validation of fields on the form. The following example demonstrates adding a custom validator. This example forces the user to specify an email only if the other field for "preferred method of contact" is set to Email.
+Sometimes you might need to customize the validation of fields on the form. The following example demonstrates adding a custom validator. This example forces the user to specify an email only if the other field for preferred method of contact is set to Email.
 
 ```
 if (window.jQuery) 
@@ -51,20 +58,20 @@ if (typeof (Page_Validators) == 'undefined') return;
 
 var newValidator = document.createElement('span');
 
-newValidator.style.display = "none";
-newValidator.id = "emailaddress1Validator";
-newValidator.controltovalidate = "emailaddress1";
-newValidator.errormessage = "<a href='#emailaddress1_label'>Email is a required field.</a>";
-newValidator.validationGroup = ""; // Set this if you have set ValidationGroup on the form
-newValidator.initialvalue = "";
+newValidator.style.display = none;
+newValidator.id = emailaddress1Validator;
+newValidator.controltovalidate = emailaddress1;
+newValidator.errormessage = <a href='#emailaddress1_label'>Email is a required field.</a>;
+newValidator.validationGroup = ; // Set this if you have set ValidationGroup on the form
+newValidator.initialvalue = ;
 newValidator.evaluationfunction = function () 
 {
-var contactMethod = $("#preferredcontactmethodcode").val();
+var contactMethod = $(#preferredcontactmethodcode).val();
 if (contactMethod != 2) return true; // check if contact method is not 'Email'.
 
 // only require email address if preferred contact method is email.
-var value = $("#emailaddress1").val();
-if (value == null || value == "") 
+var value = $(#emailaddress1).val();
+if (value == null || value == ) 
 {
 return false;
 
@@ -81,7 +88,7 @@ return true;
 Page_Validators.push(newValidator);
 
 // Wire up the click event handler of the validation summary link
-$("a[href='#emailaddress1_label']").on("click", function () { scrollToAndFocus('emailaddress1_label','emailaddress1');});
+$(a[href='#emailaddress1_label']).on(click, function () { scrollToAndFocus('emailaddress1_label','emailaddress1');});
 });
 }(window.jQuery));
 }
@@ -97,7 +104,7 @@ if (window.jQuery) {
 (function ($) {
 if (typeof (webFormClientValidate) != 'undefined') {
 var originalValidationFunction = webFormClientValidate;
-if (originalValidationFunction && typeof (originalValidationFunction) == "function") 
+if (originalValidationFunction && typeof (originalValidationFunction) == function) 
 {
 
 webFormClientValidate = function() {
@@ -116,8 +123,8 @@ return true;
 ```
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Redirect step type](add-redirect-step.md)  

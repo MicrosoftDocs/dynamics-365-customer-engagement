@@ -1,20 +1,24 @@
 ---
-title: "Create or edit a chart (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Create or edit a chart (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "mduelae"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: mduelae
 ms.assetid: c4d027ca-ba55-4e61-8167-165181dae634
 caps.latest.revision: 31
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: mkaur
+manager: brycho
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Create or edit a chart
 
@@ -29,25 +33,25 @@ Present large quantities of data in your organization in a more insightful and g
   
 1. [!INCLUDE[proc_work_area](../includes/proc-work-area.md)]  
   
-2.  Open the chart designer:  
+2. Open the chart designer:  
   
-     #### If using the Dynamics 365 web application   
+    #### If using the Dynamics 365 for Customer Engagement apps   
 
-    1.  On the right side, choose the **Charts** pane.  
+   1.  On the right side, choose the **Charts** pane.  
   
-    2.  In the **Charts** area, choose **New Chart** **+**.  
+   2.  In the **Charts** area, choose **New Chart** **+**.  
   
- <!-- **If using Dynamics 365 for Outlook:**  
+   <!-- **If using Dynamics 365 for Outlook:**  
   
-    -   On the **Charts** tab, in the **Charts** group, choose **New Chart**.  
-  -->
-3.  Define the properties of the chart.  
+   -   On the **Charts** tab, in the **Charts** group, choose **New Chart**.  
+   -->
+3. Define the properties of the chart.  
   
-4.  To specify a different name for the chart, choose the chart name to edit it.  
+4. To specify a different name for the chart, choose the chart name to edit it.  
   
-5.  To save the chart, in the chart designer, choose **Save**.  
+5. To save the chart, in the chart designer, choose **Save**.  
   
- The chart obtains the data from the view that is selected for a record type. A chart is automatically updated every time that you change the view in the list of records. However, if the chart has been idle for some time, we recommend that you choose **Refresh Chart** on the **Charts** tab, so that the chart and the list of records show the synchronized data.  
+   The chart obtains the data from the view that is selected for a record type. A chart is automatically updated every time that you change the view in the list of records. However, if the chart has been idle for some time, we recommend that you choose **Refresh Chart** on the **Charts** tab, so that the chart and the list of records show the synchronized data.  
   
 ## Specify what you want to display on the chart  
 
@@ -94,21 +98,21 @@ Present large quantities of data in your organization in a more insightful and g
   
 1. [!INCLUDE[proc_work_area](../includes/proc-work-area.md)]  
   
-2.  Open the chart designer:  
+2. Open the chart designer:  
   
- **If using the Dynamics 365 web application:**  
+   **If using the Dynamics 365 for Customer Engagement apps:**  
   
-1.  On the right side, choose the **Charts** pane.  
+3. On the right side, choose the **Charts** pane.  
 
-2.  In the chart area, choose the chart list, choose the chart you want to edit, and then choose the **Edit Chart** button.  
+4. In the chart area, choose the chart list, choose the chart you want to edit, and then choose the **Edit Chart** button.  
   
- <!--**If using Dynamics 365 for Outlook:**  
+   <!--**If using Dynamics 365 for Outlook:**  
   
-    1.  On the **Charts** tab, in the **Layout** group, choose **Chart Pane** > **Right** or **Top**.  
+   1.  On the **Charts** tab, in the **Layout** group, choose **Chart Pane** > **Right** or **Top**.  
   
-    2.  In the chart area, choose the chart list, choose the chart you want to edit, and then in the **Charts** group, choose **Edit Chart**.  
--->  
-3.  Modify the properties of the chart. For details, see Step 3 in the **Create a chart** section.  
+   2.  In the chart area, choose the chart list, choose the chart you want to edit, and then in the **Charts** group, choose **Edit Chart**.  
+   -->  
+5. Modify the properties of the chart. For details, see Step 3 in the **Create a chart** section.  
   
 ### See also  
  [Create or customize dashboards](../customize/create-edit-dashboards.md)   

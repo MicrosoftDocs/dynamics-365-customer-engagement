@@ -1,24 +1,28 @@
 ---
-title: "Sample: Reschedule and  cancel a recurring appointment (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Reschedule and  cancel a recurring appointment (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to reschedule and cancel appointment instances in a recurring appointment series using the RescheduleRequest message."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "rescheduling or canceling recurring appointments sample, schedule and appointment entities samples"
-  - "sample for rescheduling or canceling recurring appointments"
-  - "schedule and appointment entities"
+  - rescheduling or canceling recurring appointments sample, schedule and appointment entities samples
+  - sample for rescheduling or canceling recurring appointments
+  - schedule and appointment entities
 ms.assetid: cc070cb3-f1c0-4390-8d23-ba2b60101d59
 caps.latest.revision: 25
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Reschedule and  cancel a recurring appointment
 

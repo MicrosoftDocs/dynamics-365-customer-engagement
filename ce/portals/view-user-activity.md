@@ -1,9 +1,9 @@
 ---
-title: "View user activity on a portal for Dynamics 365 | MicrosoftDocs"
+title: "View user activity on a portal for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to view activity of a user on a portal."
 ms.custom:
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,7 +13,7 @@ ms.reviewer: ""
 redirect_url: /dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # View activity of a user on a portal
@@ -28,17 +28,18 @@ Jay is the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] administr
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals needs the latest shared access key to send the interactions to DCI. Jay navigates to the Portal Admin Center and he can see the currently configured DCI instance. Jay can change the DCI instance or update the shared access key for the currently configured DCI instance.
 
 To view activity of a user on a portal:
-1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
-2.	Select the name of the portal you want to view user’s activity, and then select **Manage**.
-3.	Select **Portal Analytics**. The Tracking Portal Interaction page is displayed.
-4.	Select **Configure Portal Interaction Tracking**. The Configure Portal Interaction Tracking window is displayed.
-5.	Enter the following values as per your Dynamics 365 Customer Insights instance:
-    - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] for the Customer Insights hub URI 
-    - Policy name with Manage, Read, and Write permissions 
-    - Shared Key
-6.	Read the preview agreement and select the **I have read and understood the terms and conditions** check box.
-7.	Select **Configure**. A progress window is displayed.
-8.	Select **Close** in the confirmation window.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
+2. Select the name of the portal you want to view user’s activity, and then select **Manage**.
+3. Select **Portal Analytics**. The Tracking Portal Interaction page is displayed.
+4. Select **Configure Portal Interaction Tracking**. The Configure Portal Interaction Tracking window is displayed.
+5. Enter the following values as per your Dynamics 365 for Customer Engagement Customer Insights instance:
+   - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] for the Customer Insights hub URI 
+   - Policy name with Manage, Read, and Write permissions 
+   - Shared Key
+
+6. Read the preview agreement and select the **I have read and understood the terms and conditions** check box.
+7. Select **Configure**. A progress window is displayed.
+8. Select **Close** in the confirmation window.
 
 After DCI is configured on a portal, the following actions become available:
 - **Update D365 Customer Insights configuration**: Allows you to update the shared key related to your policy. The hub URI is read-only.

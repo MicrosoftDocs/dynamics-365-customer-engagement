@@ -1,19 +1,23 @@
 ---
-title: "SharePointDocumentLocation Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "SharePointDocumentLocation Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SharePointDocumentLocation entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # SharePointDocumentLocation Entity Reference
 
-Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365.
+Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365 for Customer Engagement apps.
 
 
 ## Messages
@@ -862,6 +866,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_sharepointdocumentlocation_parent_sharepointdocumentlocation"></a> sharepointdocumentlocation_parent_sharepointdocumentlocation
 
 Same as sharepointdocumentlocation entity [sharepointdocumentlocation_parent_sharepointdocumentlocation](sharepointdocumentlocation.md#BKMK_sharepointdocumentlocation_parent_sharepointdocumentlocation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -876,6 +881,7 @@ Same as sharepointdocumentlocation entity [sharepointdocumentlocation_parent_sha
 ### <a name="BKMK_SharePointDocumentLocation_AsyncOperations"></a> SharePointDocumentLocation_AsyncOperations
 
 Same as asyncoperation entity [SharePointDocumentLocation_AsyncOperations](asyncoperation.md#BKMK_SharePointDocumentLocation_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -890,6 +896,7 @@ Same as asyncoperation entity [SharePointDocumentLocation_AsyncOperations](async
 ### <a name="BKMK_userentityinstancedata_sharepointdocumentlocation"></a> userentityinstancedata_sharepointdocumentlocation
 
 Same as userentityinstancedata entity [userentityinstancedata_sharepointdocumentlocation](userentityinstancedata.md#BKMK_userentityinstancedata_sharepointdocumentlocation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -904,6 +911,7 @@ Same as userentityinstancedata entity [userentityinstancedata_sharepointdocument
 ### <a name="BKMK_sharepointdocumentlocation_principalobjectattributeaccess"></a> sharepointdocumentlocation_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [sharepointdocumentlocation_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_sharepointdocumentlocation_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -918,6 +926,7 @@ Same as principalobjectattributeaccess entity [sharepointdocumentlocation_princi
 ### <a name="BKMK_SharePointDocumentLocation_DuplicateBaseRecord"></a> SharePointDocumentLocation_DuplicateBaseRecord
 
 Same as duplicaterecord entity [SharePointDocumentLocation_DuplicateBaseRecord](duplicaterecord.md#BKMK_SharePointDocumentLocation_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -932,6 +941,7 @@ Same as duplicaterecord entity [SharePointDocumentLocation_DuplicateBaseRecord](
 ### <a name="BKMK_sharepointdata_sharepointdocumentlocation"></a> sharepointdata_sharepointdocumentlocation
 
 Same as sharepointdata entity [sharepointdata_sharepointdocumentlocation](sharepointdata.md#BKMK_sharepointdata_sharepointdocumentlocation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdata|
@@ -946,6 +956,7 @@ Same as sharepointdata entity [sharepointdata_sharepointdocumentlocation](sharep
 ### <a name="BKMK_SharePointDocumentLocation_ProcessSessions"></a> SharePointDocumentLocation_ProcessSessions
 
 Same as processsession entity [SharePointDocumentLocation_ProcessSessions](processsession.md#BKMK_SharePointDocumentLocation_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -960,6 +971,7 @@ Same as processsession entity [SharePointDocumentLocation_ProcessSessions](proce
 ### <a name="BKMK_SharePointDocumentLocation_SyncErrors"></a> SharePointDocumentLocation_SyncErrors
 
 Same as syncerror entity [SharePointDocumentLocation_SyncErrors](syncerror.md#BKMK_SharePointDocumentLocation_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -974,6 +986,7 @@ Same as syncerror entity [SharePointDocumentLocation_SyncErrors](syncerror.md#BK
 ### <a name="BKMK_SharePointDocumentLocation_DuplicateMatchingRecord"></a> SharePointDocumentLocation_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [SharePointDocumentLocation_DuplicateMatchingRecord](duplicaterecord.md#BKMK_SharePointDocumentLocation_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1220,6 +1233,6 @@ See sharepointsite Entity [sharepointdocumentlocation_parent_sharepointsite](sha
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.sharepointdocumentlocation?text=sharepointdocumentlocation EntityType" />

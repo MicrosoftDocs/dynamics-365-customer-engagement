@@ -1,34 +1,42 @@
 ---
-title: "Schedule anything with Universal Resource Scheduling (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom:
+title: "Schedule anything with Universal Resource Scheduling (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
 ms.date: 09/30/2017
-searchScope:
+searchScope: 
   - Customer Service
   - Field Service
   - Project Service
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "common-scheduler"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+  - common-scheduler
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: c92c0cba-cc1d-41ef-983f-869a7a8c1988
 caps.latest.revision: 14
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - D365FS
 ---
 # Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can enable scheduling for any entity including custom entities.   
+Schedule anything in Dynamics 365 for Customer Engagement using Universal Resource Scheduling. You can enable scheduling for any entity including custom entities.   
   
  For example, you can enable scheduling for the opportunity form and schedule marketing visits for your opportunities. You can also do this for the case form and schedule time to work on cases.  
   
@@ -39,13 +47,13 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
 - [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you’ll have a new improved scheduling experience. More information: [Dynamics 365 for Project Service Automation Help](../project-service/overview.md) 
   
 ## Prerequisites  
- Before you can start using  Universal Resource Scheduling, make sure you have the following:  
+ Before you can use Universal Resource Scheduling, make sure you have:  
   
--   You will need to have either [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] or [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)].  
+- Dynamics 365 for Field Service, Project Service, *or* Customer Service.
   
--   A license for Universal Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 (online)](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md)  
+- A license for Universal Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 for Customer Engagement (online)](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md)  
   
--   To manage the solution once it has been deployed you will need user credentials with Universal Resource Scheduling security role.  
+- User credentials with the Universal Resource Scheduling security role, in order to manage the solution once it has been deployed.
   
 ## Enable scheduling for an entity  
  When scheduling is enabled for an entity, the system creates a resource requirement record for the entity. This way, when you create a resource requirement, the system automatically checks which entity the resource requirement is for.  
@@ -66,14 +74,14 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
 6.  Click **Publish Customization**.  
   
 <!-- is the following really in all-caps?-->
-7.  On the **BOOKING SETUP METADATA: INFORMATION** form, use the tooltips to edit the default opens.  
+7. On the **BOOKING SETUP METADATA: INFORMATION** form, use the tooltips to edit the default opens.  
   
-    > [!NOTE]
-    >  To update the Booking Status Field Logical Name, you will first need to customize the system to add additional statuses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize your Dynamics 365 system - define status reasons](../customize/define-status-reason-transitions.md)  
-    >   
-    >  In attribute settings sections field, can be mapped from entity that was enabled for scheduling to fields on booking requirement. For example, from Date, to Date, Territory, Duration and others.  
+   > [!NOTE]
+   >  To update the Booking Status Field Logical Name, you will first need to customize the system to add additional statuses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize your Dynamics 365 for Customer Engagement system - define status reasons](../customize/define-status-reason-transitions.md)  
+   > 
+   >  In attribute settings sections field, can be mapped from entity that was enabled for scheduling to fields on booking requirement. For example, from Date, to Date, Territory, Duration and others.  
   
-8.  When you’re done, click **Save** on the lower right corner.  
+8. When you’re done, click **Save** on the lower right corner.  
   
 ## Edit or turn off scheduling for an entity  
   
@@ -90,27 +98,27 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
 ## Schedule something  
  **Step 1:** Create a resource requirement  
   
-1.  From the main menu, click **Sales**, **Service**, or **Marketing**.  
+1. From the main menu, click **Sales**, **Service**, or **Marketing**.  
   
-2.  Choose and entity that has scheduling turned on. For example, let’s say it’s turned on for the **Leads** entity. In this case, from the main menu you would choose **Marketing** > **Leads**.  
+2. Choose an entity that has scheduling turned on. For example, let’s say it’s turned on for the **Leads** entity. In this case, from the main menu you would choose **Marketing** > **Leads**.  
   
-3.  From the list of leads choose an existing lead.  
+3. From the list of leads choose an existing lead.  
   
-4.  When the form opens, go to  the sub-grid menu, and click **Resource Requirement**.  
+4. When the form opens, go to  the sub-grid menu, and click **Resource Requirement**.  
   
-5.  Under the **Resource Requirement Associated View**, click **New**.  
+5. Under the **Resource Requirement Associated View**, click **New**.  
   
-6.  On the **Resource Requirement** form, use the tooltips to fill in the inform required information.  
+6. On the **Resource Requirement** form, use the tooltips to fill in the inform required information.  
   
-7.  When you’re done, click **Save**.  
+7. When you’re done, click **Save**.  
   
-     A plugin runs and checks the relationships and automatically sets the booking set-up metadata relationship appropriately.  
+    A plugin runs and checks the relationships and automatically sets the booking set-up metadata relationship appropriately.  
   
- **Step 2:** Schedule the booking requirement  
+   **Step 2:** Schedule the booking requirement  
   
- To learn more about the schedule board, [Configure the schedule board](../field-service/configure-schedule-board.md).  
+   To learn more about the schedule board, [Configure the schedule board](../field-service/configure-schedule-board.md).  
   
- There a few different ways to schedule a booking requirement:  
+   There a few different ways to schedule a booking requirement:  
   
 - **Option 1**: Right click on an unscheduled booking and find available resources.  
   

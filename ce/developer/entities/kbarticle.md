@@ -1,15 +1,19 @@
 ---
-title: "KbArticle Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "KbArticle Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the KbArticle entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # KbArticle Entity Reference
 
@@ -200,7 +204,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select which language the article must be available in. This list is based on the list of language packs that are installed in your Microsoft Dynamics 365 environment.|
+|Description|Select which language the article must be available in. This list is based on the list of language packs that are installed in your Microsoft Dynamics 365 for Customer Engagement apps environment.|
 |DisplayName|Language|
 |Format|Language|
 |IsValidForForm|True|
@@ -771,6 +775,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_kbarticle_incidents"></a> kbarticle_incidents
 
 Same as incident entity [kbarticle_incidents](incident.md#BKMK_kbarticle_incidents) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -785,6 +790,7 @@ Same as incident entity [kbarticle_incidents](incident.md#BKMK_kbarticle_inciden
 ### <a name="BKMK_KbArticle_SharepointDocumentLocation"></a> KbArticle_SharepointDocumentLocation
 
 Same as sharepointdocumentlocation entity [KbArticle_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_KbArticle_SharepointDocumentLocation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -799,6 +805,7 @@ Same as sharepointdocumentlocation entity [KbArticle_SharepointDocumentLocation]
 ### <a name="BKMK_kbarticle_principalobjectattributeaccess"></a> kbarticle_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [kbarticle_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_kbarticle_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -813,6 +820,7 @@ Same as principalobjectattributeaccess entity [kbarticle_principalobjectattribut
 ### <a name="BKMK_KbArticle_DuplicateBaseRecord"></a> KbArticle_DuplicateBaseRecord
 
 Same as duplicaterecord entity [KbArticle_DuplicateBaseRecord](duplicaterecord.md#BKMK_KbArticle_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -827,6 +835,7 @@ Same as duplicaterecord entity [KbArticle_DuplicateBaseRecord](duplicaterecord.m
 ### <a name="BKMK_KbArticle_DuplicateMatchingRecord"></a> KbArticle_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [KbArticle_DuplicateMatchingRecord](duplicaterecord.md#BKMK_KbArticle_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -841,6 +850,7 @@ Same as duplicaterecord entity [KbArticle_DuplicateMatchingRecord](duplicatereco
 ### <a name="BKMK_userentityinstancedata_kbarticle"></a> userentityinstancedata_kbarticle
 
 Same as userentityinstancedata entity [userentityinstancedata_kbarticle](userentityinstancedata.md#BKMK_userentityinstancedata_kbarticle) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -855,6 +865,7 @@ Same as userentityinstancedata entity [userentityinstancedata_kbarticle](userent
 ### <a name="BKMK_KbArticle_Annotation"></a> KbArticle_Annotation
 
 Same as annotation entity [KbArticle_Annotation](annotation.md#BKMK_KbArticle_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -869,6 +880,7 @@ Same as annotation entity [KbArticle_Annotation](annotation.md#BKMK_KbArticle_An
 ### <a name="BKMK_kbarticle_comments"></a> kbarticle_comments
 
 Same as kbarticlecomment entity [kbarticle_comments](kbarticlecomment.md#BKMK_kbarticle_comments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|kbarticlecomment|
@@ -883,6 +895,7 @@ Same as kbarticlecomment entity [kbarticle_comments](kbarticlecomment.md#BKMK_kb
 ### <a name="BKMK_KbArticle_SyncErrors"></a> KbArticle_SyncErrors
 
 Same as syncerror entity [KbArticle_SyncErrors](syncerror.md#BKMK_KbArticle_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -897,6 +910,7 @@ Same as syncerror entity [KbArticle_SyncErrors](syncerror.md#BKMK_KbArticle_Sync
 ### <a name="BKMK_KbArticle_AsyncOperations"></a> KbArticle_AsyncOperations
 
 Same as asyncoperation entity [KbArticle_AsyncOperations](asyncoperation.md#BKMK_KbArticle_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -911,6 +925,7 @@ Same as asyncoperation entity [KbArticle_AsyncOperations](asyncoperation.md#BKMK
 ### <a name="BKMK_KbArticle_ProcessSessions"></a> KbArticle_ProcessSessions
 
 Same as processsession entity [KbArticle_ProcessSessions](processsession.md#BKMK_KbArticle_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -925,6 +940,7 @@ Same as processsession entity [KbArticle_ProcessSessions](processsession.md#BKMK
 ### <a name="BKMK_KbArticle_BulkDeleteFailures"></a> KbArticle_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [KbArticle_BulkDeleteFailures](bulkdeletefailure.md#BKMK_KbArticle_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -939,6 +955,7 @@ Same as bulkdeletefailure entity [KbArticle_BulkDeleteFailures](bulkdeletefailur
 ### <a name="BKMK_KbArticle_SharepointDocument"></a> KbArticle_SharepointDocument
 
 Same as sharepointdocument entity [KbArticle_SharepointDocument](sharepointdocument.md#BKMK_KbArticle_SharepointDocument) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -1000,6 +1017,6 @@ See systemuser Entity [lk_kbarticlebase_createdby](systemuser.md#BKMK_lk_kbartic
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.kbarticle?text=kbarticle EntityType" />

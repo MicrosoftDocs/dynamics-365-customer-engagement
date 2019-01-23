@@ -1,38 +1,41 @@
 ---
 title: "Create and edit entity relationships | MicrosoftDocs"
-ms.custom: ""
-ms.date: 03/21/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/09/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "PowerApps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: c765b6d9-4d87-4c2d-aae2-5b1c3b664a71
 caps.latest.revision: 28
-ms.author: "matp"
-manager: "brycho"
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create and edit relationships between entities 
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] 
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
 
 Entity relationships define how records can be related to each other in the database. At the simplest level, adding a lookup field to an entity creates a new 1:N (one-to-many) relationship between the two entities and lets you put that lookup field in a form. With the lookup field, users can associate multiple “child” records of that entity to a single “parent” entity record.  
   
  Beyond simply defining how records can be related to other records, 1:N entity relationships also provide data to address the following questions:  
   
--   When I delete a record should any records related to that record also be deleted?  
+- When I delete a record should any records related to that record also be deleted?  
   
--   When I assign a record, do I also need to assign all records related to that record to the new owner?  
+- When I assign a record, do I also need to assign all records related to that record to the new owner?  
   
--   How can I streamline the data entry process when I create a new related record in the context of an existing record?  
+- How can I streamline the data entry process when I create a new related record in the context of an existing record?  
   
--   How should people viewing a record be able to view the associated records?  
+- How should people viewing a record be able to view the associated records?  
   
- Entities can also participate in a N:N (many-to-many) relationship where any number of records for two entities can be associated with each other.  
+  Entities can also participate in a N:N (many-to-many) relationship where any number of records for two entities can be associated with each other.  
   
 <a name="BKMK_Connections"></a>   
 ## Decide whether to use entity relationships or connections  
@@ -52,8 +55,8 @@ Entity relationships define how records can be related to each other in the data
  The **N:1 (many-to-one)** relationship type exists in the solution explorer user interface because the solution explorer shows you a view grouped by entities. 1:N relationships actually exist between entities and refer to each entity as either a **Primary Entity** or **Related Entity**. The related entity, sometimes called the child entity, has a lookup field that allows storing a reference to a record from the primary entity, sometimes called the parent entity. A N:1 relationship is just a 1:N relationship viewed from the related entity.  
  
 ### See also  
- [Entities and metadata overview](../customize/create-edit-metadata.md)   
- [Create and edit entities](../customize/create-edit-entities.md)   
- [Create and edit fields](../customize/create-edit-fields.md)   
+ [Entities and metadata overview](../customize/create-edit-metadata.md)  <br/> 
+ [Create and edit entities](../customize/create-edit-entities.md)   <br/>
+ [Create and edit fields](../customize/create-edit-fields.md)   <br/>
  [Create and edit global option sets](../customize/create-edit-global-option-sets.md)   
 

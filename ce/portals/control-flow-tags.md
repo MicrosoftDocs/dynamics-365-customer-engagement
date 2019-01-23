@@ -1,19 +1,26 @@
 ---
-title: "Use control flow tags for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Use control flow tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about control flow tags available in portal"
 keywords: "control flow tags; liquid tags"
-ms.date: 05/04/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: F9749B46-C4B5-4568-9B76-8E02112FB5F5
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Control flow tags
@@ -91,4 +98,4 @@ Hello, stranger.
 [Iteration tags](iteration-tags.md)<br>
 [Variable tags](variable-tags.md)<br>
 [Template tags](template-tags.md)<br>
-[Dynamics 365 entity tags](dynamics-entity-tags.md)
+[Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md)

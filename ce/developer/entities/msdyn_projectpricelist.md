@@ -1,15 +1,19 @@
 ---
-title: "msdyn_projectpricelist Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_projectpricelist Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_projectpricelist entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_projectpricelist Entity Reference
 
@@ -646,6 +650,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_projectpricelist_SyncErrors"></a> msdyn_projectpricelist_SyncErrors
 
 Same as syncerror entity [msdyn_projectpricelist_SyncErrors](syncerror.md#BKMK_msdyn_projectpricelist_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -660,6 +665,7 @@ Same as syncerror entity [msdyn_projectpricelist_SyncErrors](syncerror.md#BKMK_m
 ### <a name="BKMK_msdyn_projectpricelist_DuplicateMatchingRecord"></a> msdyn_projectpricelist_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_projectpricelist_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_projectpricelist_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -674,6 +680,7 @@ Same as duplicaterecord entity [msdyn_projectpricelist_DuplicateMatchingRecord](
 ### <a name="BKMK_msdyn_projectpricelist_DuplicateBaseRecord"></a> msdyn_projectpricelist_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_projectpricelist_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_projectpricelist_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -688,6 +695,7 @@ Same as duplicaterecord entity [msdyn_projectpricelist_DuplicateBaseRecord](dupl
 ### <a name="BKMK_msdyn_projectpricelist_AsyncOperations"></a> msdyn_projectpricelist_AsyncOperations
 
 Same as asyncoperation entity [msdyn_projectpricelist_AsyncOperations](asyncoperation.md#BKMK_msdyn_projectpricelist_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -702,6 +710,7 @@ Same as asyncoperation entity [msdyn_projectpricelist_AsyncOperations](asyncoper
 ### <a name="BKMK_msdyn_projectpricelist_MailboxTrackingFolders"></a> msdyn_projectpricelist_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_projectpricelist_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_projectpricelist_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -716,6 +725,7 @@ Same as mailboxtrackingfolder entity [msdyn_projectpricelist_MailboxTrackingFold
 ### <a name="BKMK_msdyn_projectpricelist_UserEntityInstanceDatas"></a> msdyn_projectpricelist_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_projectpricelist_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_projectpricelist_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -730,6 +740,7 @@ Same as userentityinstancedata entity [msdyn_projectpricelist_UserEntityInstance
 ### <a name="BKMK_msdyn_projectpricelist_ProcessSession"></a> msdyn_projectpricelist_ProcessSession
 
 Same as processsession entity [msdyn_projectpricelist_ProcessSession](processsession.md#BKMK_msdyn_projectpricelist_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -744,6 +755,7 @@ Same as processsession entity [msdyn_projectpricelist_ProcessSession](processses
 ### <a name="BKMK_msdyn_projectpricelist_BulkDeleteFailures"></a> msdyn_projectpricelist_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_projectpricelist_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_projectpricelist_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -758,6 +770,7 @@ Same as bulkdeletefailure entity [msdyn_projectpricelist_BulkDeleteFailures](bul
 ### <a name="BKMK_msdyn_projectpricelist_PrincipalObjectAttributeAccesses"></a> msdyn_projectpricelist_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_projectpricelist_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_projectpricelist_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -772,6 +785,7 @@ Same as principalobjectattributeaccess entity [msdyn_projectpricelist_PrincipalO
 ### <a name="BKMK_msdyn_projectpricelist_Annotations"></a> msdyn_projectpricelist_Annotations
 
 Same as annotation entity [msdyn_projectpricelist_Annotations](annotation.md#BKMK_msdyn_projectpricelist_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -838,6 +852,6 @@ See pricelevel Entity [msdyn_pricelevel_msdyn_projectpricelist_PriceList](pricel
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_projectpricelist?text=msdyn_projectpricelist EntityType" />

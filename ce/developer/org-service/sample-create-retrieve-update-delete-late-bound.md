@@ -1,25 +1,29 @@
 ---
-title: "Sample: Create, retrieve, update, and delete (late bound) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Create, retrieve, update, and delete (late bound) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample demonstrates the create, retrieve, update, and delete operations on an account using the late bound Entity class"
-ms.custom: ""
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "sample for late-bound Entity classes, creating; retrieving; updating; and deleting (late-bound Entity classes) sample"
-  - "creating; retrieving; updating; and deleting (late-bound Entity classes) sample"
-  - "sample for creating; retrieving; updating; and deleting (late-bound Entity classes)"
-  - "late-bound Entity classes, samples"
+  - sample for late-bound Entity classes, creating; retrieving; updating; and deleting (late-bound Entity classes) sample
+  - creating; retrieving; updating; and deleting (late-bound Entity classes) sample
+  - sample for creating; retrieving; updating; and deleting (late-bound Entity classes)
+  - late-bound Entity classes, samples
 ms.assetid: 9f4f05c6-0d19-4a32-8ef3-776757c0ea86
 caps.latest.revision: 27
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Create, retrieve, update, and delete (late bound)
 

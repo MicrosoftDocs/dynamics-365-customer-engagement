@@ -1,30 +1,38 @@
 ---
 title: "Customize themes in Unified Service Desk | MicrosoftDocs"
 description: "Themes in Unified Service Desk define the look and feel of the agent application. A theme in Unified Service Desk consists of a XAML resource library, and can be placed on any web server and referenced via URL or can be compile into .NET assemblies (dll), and distributed with the agent applications."
-ms.custom:
+keywords: 
+ms.date: 08/17/2018
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 27b60bcc-787e-451d-b795-be9b0efbc57d
-caps.latest.revision: 15
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
+
 # Customize themes in Unified Service Desk
 Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] define the look and feel of the agent application. A theme in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] consists of a XAML resource library, and can be placed on any web server and referenced via URL or can be compile into .NET assemblies (dll), and distributed with the agent applications.  
   
- With [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] 2.2 , the predefined [Air Theme](../unified-service-desk/customize-themes-in-unified-service-desk.md#AirTheme) supports the high-contrast mode. The high-contrast mode in [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] helps you read the text on screen clearly by increasing the color contrast. When you turn on high-contrast mode on your computer and are using the  `Air Theme`, the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client will automatically switch to the high-contrast mode. Similarly, disabling the high-contrast mode on your computer will cause the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to automatically switch to the normal display mode.  
+  The predefined [Air Theme](../unified-service-desk/customize-themes-in-unified-service-desk.md#AirTheme) supports the high-contrast mode. The high-contrast mode in [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] helps you read the text on screen clearly by increasing the color contrast. When you turn on high-contrast mode on your computer and are using the  `Air Theme`, the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client will automatically switch to the high-contrast mode. Similarly, disabling the high-contrast mode on your computer will cause the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to automatically switch to the normal display mode.  
   
 > [!NOTE]
 >  The automatic switching between normal and high-contrast modes in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client is supported only for the  predefined [Air Theme](../unified-service-desk/customize-themes-in-unified-service-desk.md#AirTheme). If you are using custom themes or custom hosted controls that supports high-contrast mode, the switching happens only after you restart the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client after switching to normal or high-contrast mode on your computer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [High-contrast mode support  for custom themes](#HighContrast)  
@@ -32,7 +40,18 @@ Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
 <a name="PredefinedThemes"></a>   
 ## Predefined Themes available in Unified Service Desk  
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] comes with three predefined themes.  
-  
+
+::: moniker range=">=dynamics-usd-4"
+
+<a name="UnifiedBlueTheme"></a>   
+### Unified Blue Theme
+
+This is Unified Blue theme, which is the predefined theme for Unified Service Desk when you are using Unified Interface App.
+
+![Unified Blue in Unified Service Desk](media/unified-blue-theme.png "Unified Blue in Unified Service Desk") 
+
+::: moniker-end
+
 <a name="AirTheme"></a>   
 ### Air Theme  
  This is the Air theme. This theme supports high-contrast mode.  
@@ -82,58 +101,58 @@ Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
   
  Let us create an action call to change the text in the title and the skin color of the agent application to Yellow. Make sure you have the DefaultStyle.xaml file handy as we will need it.  
   
-1.  Sign in to Microsoft Dynamics 365.  
+1. Sign in to Microsoft Dynamics 365 for Customer Engagement apps.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
-3.  Click **Action Calls**.  
+3. Click **Action Calls**.  
   
-4.  Click **NEW** to create an action call.  
+4. Click **NEW** to create an action call.  
   
-5.  On the **New Action Call** page, set the general properties:  
+5. On the **New Action Call** page, set the general properties:  
   
-    1.  In the **Name** field, type **Action Call for Custom Display**.  
+   1.  In the **Name** field, type **Action Call for Custom Display**.  
   
-    2.  In the **Hosted Control** field, select **Dynamics 365 Global Manager**. If you have a different name for your Global Manager hosted control type, specify that name instead.  
+   2.  In the **Hosted Control** field, select **Dynamics 365 for Customer Engagement apps Global Manager**. If you have a different name for your Global Manager hosted control type, specify that name instead.  
   
-    3.  In the **Action** field, select **SetTheme**.  
+   3.  In the **Action** field, select **SetTheme**.  
   
-6.  Now, we will set the parameter for customizing the display. In the **Data** field, copy the following ResourceDictionary reference:  
+6. Now, we will set the parameter for customizing the display. In the **Data** field, copy the following ResourceDictionary reference:  
   
-    ```  
+   ```  
   
-    <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
-         xmlns:Microsoft_Windows_Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Classic"  
-         xmlns:themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Luna"  
-         xmlns:ribbon="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"  
-         xmlns:classic="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Classic"  
-         xmlns:shell="clr-namespace:Microsoft.Windows.Shell;assembly=Microsoft.Windows.Shell"  
-         xmlns:system="clr-namespace:System;assembly=mscorlib">  
-    ```  
+   <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+        xmlns:Microsoft_Windows_Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Classic"  
+        xmlns:themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Luna"  
+        xmlns:ribbon="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"  
+        xmlns:classic="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Classic"  
+        xmlns:shell="clr-namespace:Microsoft.Windows.Shell;assembly=Microsoft.Windows.Shell"  
+        xmlns:system="clr-namespace:System;assembly=mscorlib">  
+   ```  
   
-    > [!IMPORTANT]
-    >  This `ResourceDictionary` reference must be included in every action call that you use to customize the default style.  
+   > [!IMPORTANT]
+   >  This `ResourceDictionary` reference must be included in every action call that you use to customize the default style.  
   
-7.  Copy the following command in the **Data** field after the ResourceDictionary reference that you copied earlier.  
+7. Copy the following command in the **Data** field after the ResourceDictionary reference that you copied earlier.  
   
-    ```  
-    <SolidColorBrush x:Key="WindowBackgroundStyle" Color="Yellow"/>  
-    ```  
+   ```  
+   <SolidColorBrush x:Key="WindowBackgroundStyle" Color="Yellow"/>  
+   ```  
   
-     This will change the skin of the agent application to Yellow. You will find this command to set the background color in the `<!-- Region General -->` section in the `DefaultStyle.xaml` file.  
+    This will change the skin of the agent application to Yellow. You will find this command to set the background color in the `<!-- Region General -->` section in the `DefaultStyle.xaml` file.  
   
-8.  Copy the following command after the command that you copied in the previous step:  
+8. Copy the following command after the command that you copied in the previous step:  
   
-    ```  
-    <Style x:Key="MainWindow" TargetType="{x:Type Window}" BasedOn="{StaticResource {x:Type Window}}">  
-        <Setter Property="Title" Value="CUSTOM TITLE: Agent Application for CONTOSO INC."/>  
-        <Setter Property="Icon" Value="/UnifiedServiceDesk;component/imageResources/dynamics16-32-48-256.ico"/>  
-        <Setter Property="FontFamily" Value="Segoe UI" />  
-    </Style>  
-    ```  
+   ```  
+   <Style x:Key="MainWindow" TargetType="{x:Type Window}" BasedOn="{StaticResource {x:Type Window}}">  
+       <Setter Property="Title" Value="CUSTOM TITLE: Agent Application for CONTOSO INC."/>  
+       <Setter Property="Icon" Value="/UnifiedServiceDesk;component/imageResources/dynamics16-32-48-256.ico"/>  
+       <Setter Property="FontFamily" Value="Segoe UI" />  
+   </Style>  
+   ```  
   
-     This will change the text in the title bar to “CUSTOM TITLE: Agent Application for CONTOSO INC.”. You will find this command to set the Window title in the `<!-- Region Window --> section in the DefaultStyle.xaml file.`  
+    This will change the text in the title bar to “CUSTOM TITLE: Agent Application for CONTOSO INC.”. You will find this command to set the Window title in the `<!-- Region Window --> section in the DefaultStyle.xaml file.`  
   
 9. Close the ResourceDictionary tag by adding the following at the end of the **Data** field:  
   
@@ -143,29 +162,29 @@ Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
   
      This is how your action call definition looks like:  
   
- ![Define action call for customizing display](../unified-service-desk/media/crm-itpro-usd-customizedisplay01.png "Define action call for customizing display")  
+   ![Define action call for customizing display](../unified-service-desk/media/crm-itpro-usd-customizedisplay01.png "Define action call for customizing display")  
   
 10. Click **Save**.  
   
- You are done, and now ready to test the action call in the agent application.  
+    You are done, and now ready to test the action call in the agent application.  
   
 <a name="Test"></a>   
 ## Test the action call for customizing your display  
  You can call this action call by creating a toolbar button, and then attaching the action call to it. For the sake of brevity, we will use the Debugger hosted application to test the action call.  
   
-1.  Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to your Dynamics 365 server.  
+1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to your Dynamics 365 for Customer Engagement server.  
   
-2.  In the client application, start Debugger by clicking down arrow next to the settings menu in the top-right corner, and clicking **Debug**.  
+2. In the client application, start Debugger by clicking down arrow next to the settings menu in the top-right corner, and clicking **Debug**.  
   
-3.  In Debugger, click the down arrow above the **Action Calls** tab to display the area where you can test action calls and UII actions.  
+3. In Debugger, click the down arrow above the **Action Calls** tab to display the area where you can test action calls and UII actions.  
   
- ![Test action calls & UII actions in debugger](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
+   ![Test action calls & UII actions in debugger](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
   
-4.  From the **Action Calls** drop-down list, select **Action Call for Custom Theme**, and click the **Run Action Call** icon (![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). The text in the title bar and skin color of the agent application change.  
+4. From the **Action Calls** drop-down list, select **Action Call for Custom Theme**, and click the **Run Action Call** icon (![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). The text in the title bar and skin color of the agent application change.  
   
- ![Customized display of the client application](../unified-service-desk/media/crm-itpro-usd-customizedisplay03.PNG "Customized display of the client application")  
+   ![Customized display of the client application](../unified-service-desk/media/crm-itpro-usd-customizedisplay03.PNG "Customized display of the client application")  
   
- To undo the changes, select one of the predefined themes in the client application.  
+   To undo the changes, select one of the predefined themes in the client application.  
   
 <a name="HighContrast"></a>   
 ## High-contrast mode support  for custom themes  

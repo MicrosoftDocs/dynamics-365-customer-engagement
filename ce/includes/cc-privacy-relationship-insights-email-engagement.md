@@ -1,4 +1,4 @@
-﻿By enabling Email Engagement, a Embedded intelligence feature, when an email marked with the **Follow** setting is sent from [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)], information about interactions with the email by recipients will be collected and stored in [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] for the purposes of computing recipient activity KPIs and interactions on “followed” emails.  
+By enabling Email Engagement, a Embedded intelligence feature, when an email marked with the **Follow** setting is sent from [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)], information about interactions with the email by recipients will be collected and stored in [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] for the purposes of computing recipient activity KPIs and interactions on “followed” emails.  
   
  A system administrator enables Email Engagement by provisioning the feature from the **Email Engagement** tab within Embedded intelligence. Administrators can subsequently disable Email Engagement in the organization from the **Intelligence Configuration** node, under **Settings**.  
   

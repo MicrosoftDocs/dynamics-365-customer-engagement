@@ -1,29 +1,33 @@
 ---
-title: "Web API Functions and Actions Sample (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This group of samples demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 Customer Engagement Web API. These are implemented using Client-side JavaScript and C#"
-ms.custom: ""
+title: "Web API Functions and Actions Sample (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This group of samples demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 for Customer Engagement Web API. These are implemented using Client-side JavaScript and C#"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 953c3137-6171-4e6e-b249-6a96221c6e96
 caps.latest.revision: 16
-author: "JimDaly"
-ms.author: "jdaly"
+author: JimDaly
+ms.author: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Web API Functions and Actions Sample
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This group of samples demonstrate how to perform bound and unbound functions and actions, including custom actions, using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API. This sample is implemented as a separate project for the following languages:  
+This group of samples demonstrate how to perform bound and unbound functions and actions, including custom actions, using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API. This sample is implemented as a separate project for the following languages:  
   
--   [Functions and Actions Sample (C#)](web-api-functions-actions-sample-csharp.md)  
+- [Functions and Actions Sample (C#)](web-api-functions-actions-sample-csharp.md)  
   
- This topic explains the structure and content of the sample at a higher, language-neutral level. Review the linked sample topics above for language-specific implementation details about how to perform the operations described in this topic.  
+  This topic explains the structure and content of the sample at a higher, language-neutral level. Review the linked sample topics above for language-specific implementation details about how to perform the operations described in this topic.  
   
 <a name="bkmk_demonstrates"></a>  
  
@@ -321,13 +325,13 @@ Bound Action: AddToQueue
   
  This sample comes with two custom actions. They both require parameters but one is bound and the other is unbound.  
   
--   `sample_AddNoteToContact`: A bound custom action that takes two parameters. One is a `NoteTitle` and the other is a `NoteText`. This custom action adds a note to a <xref href="Microsoft.Dynamics.CRM.contact?text=contact EntityType" />. Below is a screen shot of the **Information** page for this custom action.  
+- `sample_AddNoteToContact`: A bound custom action that takes two parameters. One is a `NoteTitle` and the other is a `NoteText`. This custom action adds a note to a <xref href="Microsoft.Dynamics.CRM.contact?text=contact EntityType" />. Below is a screen shot of the **Information** page for this custom action.  
   
- ![Custom Action &#45; AddNoteToContact information](../media/custom-action-add-note-contact.PNG "Custom Action - AddNoteToContact information")  
+  ![Custom Action &#45; AddNoteToContact information](../media/custom-action-add-note-contact.PNG "Custom Action - AddNoteToContact information")  
   
--   `sample_CreateCustomer`: An unbound custom action that require different parameters depending on what type of customer is being created. For example, when the `AccountType` is "account" then it only requires `AccountName` parameter. When the `AccountType` is "contact", a `ContactFirstName` and `ContactLastName` parameters are required. Below is a screen shot of the **Information** page for this custom action.  
+- `sample_CreateCustomer`: An unbound custom action that require different parameters depending on what type of customer is being created. For example, when the `AccountType` is "account" then it only requires `AccountName` parameter. When the `AccountType` is "contact", a `ContactFirstName` and `ContactLastName` parameters are required. Below is a screen shot of the **Information** page for this custom action.  
   
- ![Custom Action &#45; CreateCustomer information](../media/custom-action-create-customer.PNG "Custom Action - CreateCustomer information")  
+  ![Custom Action &#45; CreateCustomer information](../media/custom-action-create-customer.PNG "Custom Action - CreateCustomer information")  
   
 <a name="bkmk_boundCustomActionWithParams"></a>
    
@@ -484,7 +488,7 @@ Expected custom error: ContactFirstName and ContactLastName are required when Cu
   
 ### See also  
 
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Use Web API functions](use-web-api-functions.md)   
  [Use Web API actions](use-web-api-actions.md)   
  [Web API Functions and Actions Sample (C#)](web-api-functions-actions-sample-csharp.md)   

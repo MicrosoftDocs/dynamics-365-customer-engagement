@@ -1,13 +1,13 @@
 ---
-title: "Sample: Share a record using an access team (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Share a record using an access team (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample shows how to allow access to a record using an access team. All members of the team receive the same access to the record as is granted to the team."
-keywords: ""
+keywords: 
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
-  - "Dynamics 365 (online)"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9b841889-c396-4f6e-8588-e702e94c7073
 author: KumarVivek
 ms.author: kvivek
@@ -17,6 +17,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 9
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Share a record using an access team
@@ -39,6 +43,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
 ### See also  
  [User and Team Entities](user-team-entities.md)   
- [Introduction to Entities in Dynamics 365](introduction-entities.md#Share)   
+ [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md#Share)   
  <xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>   
  [Sample: Share Records Using GrantAccess, ModifyAccess and RevokeAccess Messages](sample-share-records-using-grantaccess-modifyaccess-revokeaccess-messages.md)

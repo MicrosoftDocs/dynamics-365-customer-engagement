@@ -1,15 +1,19 @@
 ---
-title: "ActivityMimeAttachment Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ActivityMimeAttachment Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ActivityMimeAttachment entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ActivityMimeAttachment Entity Reference
 
@@ -519,6 +523,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_ActivityMimeAttachment_AsyncOperations"></a> ActivityMimeAttachment_AsyncOperations
 
 Same as asyncoperation entity [ActivityMimeAttachment_AsyncOperations](asyncoperation.md#BKMK_ActivityMimeAttachment_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -533,6 +538,7 @@ Same as asyncoperation entity [ActivityMimeAttachment_AsyncOperations](asyncoper
 ### <a name="BKMK_ActivityMimeAttachment_BulkDeleteFailures"></a> ActivityMimeAttachment_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ActivityMimeAttachment_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ActivityMimeAttachment_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -547,6 +553,7 @@ Same as bulkdeletefailure entity [ActivityMimeAttachment_BulkDeleteFailures](bul
 ### <a name="BKMK_userentityinstancedata_activitymimeattachment"></a> userentityinstancedata_activitymimeattachment
 
 Same as userentityinstancedata entity [userentityinstancedata_activitymimeattachment](userentityinstancedata.md#BKMK_userentityinstancedata_activitymimeattachment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -561,6 +568,7 @@ Same as userentityinstancedata entity [userentityinstancedata_activitymimeattach
 ### <a name="BKMK_ActivityMimeAttachment_SyncErrors"></a> ActivityMimeAttachment_SyncErrors
 
 Same as syncerror entity [ActivityMimeAttachment_SyncErrors](syncerror.md#BKMK_ActivityMimeAttachment_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -602,6 +610,6 @@ See activitypointer Entity [activity_pointer_activity_mime_attachment](activityp
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.activitymimeattachment?text=activitymimeattachment EntityType" />

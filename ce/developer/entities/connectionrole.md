@@ -1,15 +1,19 @@
 ---
-title: "ConnectionRole Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ConnectionRole Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ConnectionRole entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ConnectionRole Entity Reference
 
@@ -627,6 +631,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_connection_role_connections1"></a> connection_role_connections1
 
 Same as connection entity [connection_role_connections1](connection.md#BKMK_connection_role_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -641,6 +646,7 @@ Same as connection entity [connection_role_connections1](connection.md#BKMK_conn
 ### <a name="BKMK_ConnectionRole_SyncErrors"></a> ConnectionRole_SyncErrors
 
 Same as syncerror entity [ConnectionRole_SyncErrors](syncerror.md#BKMK_ConnectionRole_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -655,6 +661,7 @@ Same as syncerror entity [ConnectionRole_SyncErrors](syncerror.md#BKMK_Connectio
 ### <a name="BKMK_userentityinstancedata_connectionrole"></a> userentityinstancedata_connectionrole
 
 Same as userentityinstancedata entity [userentityinstancedata_connectionrole](userentityinstancedata.md#BKMK_userentityinstancedata_connectionrole) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -669,6 +676,7 @@ Same as userentityinstancedata entity [userentityinstancedata_connectionrole](us
 ### <a name="BKMK_ConnectionRole_ProcessSessions"></a> ConnectionRole_ProcessSessions
 
 Same as processsession entity [ConnectionRole_ProcessSessions](processsession.md#BKMK_ConnectionRole_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -683,6 +691,7 @@ Same as processsession entity [ConnectionRole_ProcessSessions](processsession.md
 ### <a name="BKMK_connection_role_connection_role_object_type_codes"></a> connection_role_connection_role_object_type_codes
 
 Same as connectionroleobjecttypecode entity [connection_role_connection_role_object_type_codes](connectionroleobjecttypecode.md#BKMK_connection_role_connection_role_object_type_codes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connectionroleobjecttypecode|
@@ -697,6 +706,7 @@ Same as connectionroleobjecttypecode entity [connection_role_connection_role_obj
 ### <a name="BKMK_Connection_Role_AsyncOperations"></a> Connection_Role_AsyncOperations
 
 Same as asyncoperation entity [Connection_Role_AsyncOperations](asyncoperation.md#BKMK_Connection_Role_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -711,6 +721,7 @@ Same as asyncoperation entity [Connection_Role_AsyncOperations](asyncoperation.m
 ### <a name="BKMK_connection_role_connections2"></a> connection_role_connections2
 
 Same as connection entity [connection_role_connections2](connection.md#BKMK_connection_role_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -786,6 +797,6 @@ IntersectEntityName: connectionroleassociation<br />
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.connectionrole?text=connectionrole EntityType" />

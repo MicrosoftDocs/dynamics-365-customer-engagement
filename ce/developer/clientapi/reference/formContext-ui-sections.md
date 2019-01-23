@@ -1,14 +1,18 @@
 ---
-title: "formContext.ui.sections (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "formContext.ui.sections (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "Learn about working with processes in Customer Engagement using client API."
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: e362dfb2-cb64-49f5-b3d4-d77e813325ca
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # formContext.ui.sections (Client API reference)
 
@@ -30,14 +34,14 @@ var sectionObj = tabObj.sections.get(arg);
 
 ## Methods
 
-|Name | Description |
-|--|--|
-|[getLabel](formcontext-ui-sections/getLabel.md)|[!INCLUDE[formcontext-ui-sections/includes/getLabel-description.md](formcontext-ui-sections/includes/getLabel-description.md)]|
-|[getName](formcontext-ui-sections/getName.md)|[!INCLUDE[formcontext-ui-sections/includes/getName-description.md](formcontext-ui-sections/includes/getName-description.md)]|
-|[getParent](formcontext-ui-sections/getParent.md)|[!INCLUDE[formcontext-ui-sections/includes/getParent-description.md](formcontext-ui-sections/includes/getParent-description.md)]|
-|[getVisible](formcontext-ui-sections/getVisible.md)|[!INCLUDE[formcontext-ui-sections/includes/getVisible-description.md](formcontext-ui-sections/includes/getVisible-description.md)]|
-|[setLabel](formcontext-ui-sections/setLabel.md)|[!INCLUDE[formcontext-ui-sections/includes/setLabel-description.md](formcontext-ui-sections/includes/setLabel-description.md)]|
-|[setVisible](formcontext-ui-sections/setVisible.md)|[!INCLUDE[formcontext-ui-sections/includes/setVisible-description.md](formcontext-ui-sections/includes/setVisible-description.md)]|
+|                        Name                         |                                                            Description                                                             |
+|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+|   [getLabel](formcontext-ui-sections/getLabel.md)   |   [!INCLUDE[formcontext-ui-sections/includes/getLabel-description.md](formcontext-ui-sections/includes/getLabel-description.md)]   |
+|    [getName](formcontext-ui-sections/getName.md)    |    [!INCLUDE[formcontext-ui-sections/includes/getName-description.md](formcontext-ui-sections/includes/getName-description.md)]    |
+|  [getParent](formcontext-ui-sections/getParent.md)  |  [!INCLUDE[formcontext-ui-sections/includes/getParent-description.md](formcontext-ui-sections/includes/getParent-description.md)]  |
+| [getVisible](formcontext-ui-sections/getVisible.md) | [!INCLUDE[formcontext-ui-sections/includes/getVisible-description.md](formcontext-ui-sections/includes/getVisible-description.md)] |
+|   [setLabel](formcontext-ui-sections/setLabel.md)   |   [!INCLUDE[formcontext-ui-sections/includes/setLabel-description.md](formcontext-ui-sections/includes/setLabel-description.md)]   |
+| [setVisible](formcontext-ui-sections/setVisible.md) | [!INCLUDE[formcontext-ui-sections/includes/setVisible-description.md](formcontext-ui-sections/includes/setVisible-description.md)] |
 
 ### Related topics
 

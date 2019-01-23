@@ -1,26 +1,34 @@
 ---
 title: Universal FetchXML | Microsoft Docs
 description: Advanced query langugage to extend Universal Resource Scheduling
-keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Project Service, Field Service, Project Service, Project Service Automation
+keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Customer Engagement for Project Service, Field Service, Project Service, Project Service Automation
 author: yonalow
 ms.author: yolow
 manager: shellyha
 ms.date: 06/14/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.technology: 
-  - "field-service"
-  - "project-service"
+  - field-service
+  - project-service
 ms.assetid: d9c56128-497d-4789-9631-4cb34f04638e
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - D365FS
 ---
 
 ## Universal FetchXML
@@ -36,7 +44,7 @@ UFX consists of two components UFX Bag and UFX Query.
 
 A UFX Bag contains static typed data. In memory, it's represented as a dictionary with keys and values. It can be serialized to JSON and XML. Having the data typed allows a **UFX Query** to query data from it, and client UI to bind to it.
 
-> For practical and performance reasons the in-memory bag is implemented on top of the Dynamics 365 SDK `Entity` object.
+> For practical and performance reasons the in-memory bag is implemented on top of the Dynamics 365 for Customer Engagement apps SDK `Entity` object.
 
  Sample bag containing two values.
 
@@ -64,13 +72,13 @@ In XML:
 </bag>
 ```
 
-#### UFX Supported Types
+#### UFX supported types
 
 A UFX Bag can contain values of many types. They are categorized in 3 type classes:
 
 Category | Value
 ---  | ---
-Simple types  | `bool (Boolean)`, `int (Int32)`, `long (Int64)`, `double (Double)`, `decimal (Decimal)`, `datetime (DateTime)`, `guid (Guid)`, `string (String)`<br />Dynamics 365 specific simple types: `money (Money)`, `option (OptionSet)`, `lookup (EntityReference)`
+Simple types  | `bool (Boolean)`, `int (Int32)`, `long (Int64)`, `double (Double)`, `decimal (Decimal)`, `datetime (DateTime)`, `guid (Guid)`, `string (String)`<br />Dynamics 365 for Customer Engagement specific simple types: `money (Money)`, `option (OptionSet)`, `lookup (EntityReference)`
 Other Bags | `bag (Entity)`
 List of Bags | `list (EntityCollection)`
 
@@ -123,7 +131,7 @@ The same bag in XML:
 
 UFX Queries are written as XML-based **UFX Bags**. Properties in the bag can contain **UFX directives** to query data dynamically. A UFX Query executes on in-memory objects, not XML. Only the directives are written in XML. It's output can be serialized to JSON or XML.
 
-The following UFX Query defines the `accounts` property in the bag with the `source` UFX directive. This results in the inline FetchXML to be executed by Dynamics 365 and the `accounts` property to become a list of bags, or an `EntityCollection`, with each bag being an instance of an account record from Dynamics 365.
+The following UFX Query defines the `accounts` property in the bag with the `source` UFX directive. This results in the inline FetchXML to be executed by Dynamics 365 for Customer Engagement and the `accounts` property to become a list of bags, or an `EntityCollection`, with each bag being an instance of an account record from Dynamics 365 for Customer Engagement.
 ```xml
 <bag xmlns:ufx="http://schemas.microsoft.com/dynamics/2017/universalfetchxml">
     <accounts ufx:source="fetch">
@@ -202,14 +210,14 @@ In the sample below, we search for accounts by a value supplied by the user and 
     </accounts>
 </bag>
 ```
-If the `NameFilter` property in the input bag contained `%city%` the produced FetchXML condition executed by Dynamics 365 would look like this.
+If the `NameFilter` property in the input bag contained `%city%` the produced FetchXML condition executed by Dynamics 365 for Customer Engagement would look like this.
 ```xml
 <condition attribute="name" operator="like" value="%city%" />
 ```
-#### Keys, Values, and Metadata
+#### Keys, values, and metadata
 A UFX Bag contains keys and values, with some values having additional metadata further describing them.
 
-An example might be a value of type `lookup (EntityReference)`. When queried from Dynamics 365 through FetchXML, it will return the logical name of the entity as well as the formatted display name of the record. The UFX Bag perserves these additional information as metadata attached to the primary value.
+An example might be a value of type `lookup (EntityReference)`. When queried from Dynamics 365 for Customer Engagement through FetchXML, it will return the logical name of the entity as well as the formatted display name of the record. The UFX Bag perserves these additional information as metadata attached to the primary value.
 
 Serialized to JSON, a `lookup` with metadata looks like this:
 ```json
@@ -225,13 +233,13 @@ In XML:
 <primarycontactid ufx-type="lookup" ufx-formatvalue="Susanna Stubberod (sample)" ufx-logicalname="contact">7e6e39dd-34a1-e611-8111-00155d652f01</primarycontactid>
 ```
 
-#### XPath over Dynamics 365 Data
+#### XPath over Dynamics 365 for Customer Engagement data
 Having the data in a UFX Bag typed, allows a UFX Query to see it in a structured format and use XPath to traverse over the data and select values from it.
 
 An XPath expression specified in a UFX directive sees the data in the bag very similar to the structure of the bag in XML-serialized form. However, the data is stored in in-memory .NET objects (in instances of `Entity` and `EntityCollection` types) and not in XML documents.
 
 
-#### Appendix A: UFX Type Reference
+#### Appendix A: UFX type reference
 
 **Note:** All UFX Types support the `ufx-type` and `ufx-formatvalue` metadata. Additional metadata are described next to each type in the table below.
 
@@ -252,7 +260,7 @@ bag | N/A | Entity | `ufx-id`<br />`ufx-logicalname`
 list | N/A | EntityCollection |
 N/A | N/A | AliasedValue | `ufx-aliasentity`<br />`ufx-aliasattribute`
 
-#### Appendix B: UFX Query Directives
+#### Appendix B: UFX Query directives
 UFX directives can be used on bag properties and on XML elements of a FetchXML query.
 
 UFX Bag directives
@@ -273,7 +281,7 @@ All elements | `ufx:if` | XPath | Tests the XPath expression and only emits the 
 `ufx:value` | `attribute` | attribute name | Assigns the XPath expression result to the specified attribute name on the current XML element
 
 
-#### Appendix C: UFX XPath Functions
+#### Appendix C: UFX XPath functions
 
 UFX adds a number of new functions in addition to the ones available natively in XPath.
 
@@ -303,7 +311,7 @@ UFX adds a number of new functions in addition to the ones available natively in
 - iif(any, any, any): If argument 1 is true, returns argument 2, otherwise returns argument 3
 
 
-#### Appendix D: UFX XPath Variables
+#### Appendix D: UFX XPath variables
 
 Name | Description
 --- | ---
@@ -311,8 +319,8 @@ $input | A `bag` available to the UFX Query with input values
 $null | A null constant. Selecting `$null` on a property removes the property from the bag
 $current | Reference to the current bag being processed by the UFX Query
 
-### See Also
+### See also
 
-[Understanding and Customizing Resource Matching in Universal Resource Scheduling (URS)](understanding-and-customizing-resource-matching-in-urs.md)
+[Understanding and customizing resource matching in Universal Resource Scheduling (URS)](understanding-and-customizing-resource-matching-in-urs.md)
 
-[URS Extensibility Release Notes](extensibility-release-notes.md)
+[URS extensibility release notes](extensibility-release-notes.md)

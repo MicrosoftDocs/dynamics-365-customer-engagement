@@ -1,19 +1,26 @@
 ---
-title: "Manage Stream TVs in Dynamics 365 – Gamification | Microsoft Docs"
+title: "Manage Stream TVs in Dynamics 365 for Customer Engagement – Gamification | Microsoft Docs"
 description: "Learn how to keep your employees engaged by showing a slide show for daily, weekly, and monthly KPIs on TVs and screens around the office."
-keywords: ""
+keywords: 
 ms.date: 03/27/2018
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 (online)"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 31346f85-42c9-4675-a8dd-062da7b94d4f
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Manage Stream TV games in Gamification
@@ -30,7 +37,7 @@ To create a Stream TV from multiple active games, see [Stream results from activ
 
 ### Create a Stream TV slide show
 
-1.  In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Games** > **Game Setup**.
+1. In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Games** > **Game Setup**.
 
 2. Provide a **Name** for the game and select **Stream TV** from the **Game Model** menu.
 
@@ -64,17 +71,17 @@ Stream leaderboards from multiple active games to screens around your office to 
 
 ### Create custom streams from multiple active games
 
-1.  In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Stream TV**.
+1. In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Stream TV**.
 
-2.  Click the ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button (Custom Streams).
+2. Click the ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button (Custom Streams).
 
-3.  Provide a **TV Name** and set the values for how to transition in the slide show.
+3. Provide a **TV Name** and set the values for how to transition in the slide show.
 
-4.  Configure the first slide and select the **Game** for this slide, set the **Leaderboard** to display, the underlaying **KPI**, and the **Number of Players on Leaderboard**. You can also edit the **Leaderboard Title** and choose from the available **Themes** for the slide.
+4. Configure the first slide and select the **Game** for this slide, set the **Leaderboard** to display, the underlaying **KPI**, and the **Number of Players on Leaderboard**. You can also edit the **Leaderboard Title** and choose from the available **Themes** for the slide.
 
-    To add another game's leaderboard to your slide show, click **Add Slide**.
+   To add another game's leaderboard to your slide show, click **Add Slide**.
 
-5.  To complete the Stream TV setup, click **Save & Close**.
+5. To complete the Stream TV setup, click **Save & Close**.
 
 ## Edit or delete Stream TVs
 
@@ -82,19 +89,19 @@ Stream leaderboards from multiple active games to screens around your office to 
 
 ### Edit a Stream TV
 
-1.  In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Stream TV**.
+1. In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Stream TV**.
 
-2.  Click **Edit** ![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") for the slide show you want to edit.
+2. Click **Edit** ![Edit button in Gamification](media/edit-symbol-gamification.png "Edit button in Gamification") for the slide show you want to edit.
 
-3.  Finalize your edits, and then click **Save**.
+3. Finalize your edits, and then click **Save**.
 
 #### Delete a Stream TV
 
-1.  In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Stream TV**.
+1. In [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], go to **Stream TV**.
 
-2.  Click **Delete** ![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification") for the slide show you want to delete.
+2. Click **Delete** ![Delete button in Gamification](media/delete-symbol-gamification.png "Delete button in Gamification") for the slide show you want to delete.
 
-3.  Confirm your deletion.
+3. Confirm your deletion.
 
 ## Privacy notice
 

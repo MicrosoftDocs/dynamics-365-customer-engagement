@@ -1,18 +1,18 @@
 ---
 title: "Dynamics 365 for Sales and GDPR | MicrosoftDocs"
 description: "Know how Dynamics 365 for Sales complies with GDPR regulations."
-keywords: "Sales, GDPR"
+keywords: Sales, GDPR
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service:
+  - crm-online
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 722fa6d7-0d73-4fd0-a726-8148a8d55657
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -34,27 +34,27 @@ The following table shows the states in which the [!INCLUDE[pn-dyn-365-sales](..
 
 In case of orders and invoices, a system administrator can export read-only records, update them, and import back to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. In case of quotes, both, a system administrator and a user, can export read-only records and import the updated records back into the system. 
 
-It is also possible to update the read-only records programmatically with the SDK for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Customer Engagement.
+It is also possible to update the read-only records programmatically with the SDK for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps.
 
 ## Update read-only records through export/import
 
-1.  In your sales app, go to the list of records. For example, go to **Sales** > **Quotes**.
+1. In your sales app, go to the list of records. For example, go to **Sales** > **Quotes**.
 
-2.  Open the view that shows all the records regardless of their state. For example, open the **All Quotes** view.
+2. Open the view that shows all the records regardless of their state. For example, open the **All Quotes** view.
 
-3.  Select the records that you want to export, and on the command bar, select **Export to Excel** > **Static Worksheet**. More information: [Export data to Excel](../basics/export-data-excel.md)
+3. Select the records that you want to export, and on the command bar, select **Export to Excel** > **Static Worksheet**. More information: [Export data to Excel](../basics/export-data-excel.md)
 
-4.  In the file that you exported, make the necessary changes.
+4. In the file that you exported, make the necessary changes.
 
-5.  To import the updated records back into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], in your sales app, in the list of records, select **Import Data**. More information: [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)
+5. To import the updated records back into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], in your sales app, in the list of records, select **Import Data**. More information: [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)
 
 
 ## Important points
 
--  As a system administrator, you can edit any read-only field but changes will not reflect for the locked fields. 
+- As a system administrator, you can edit any read-only field but changes will not reflect for the locked fields. 
 
--  If configured, Plugins, Business processes and workflows will run on fields getting updated or becoming editable. 
+- If configured, Plugins, Business processes and workflows will run on fields getting updated or becoming editable. 
 
--  In case of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Customer Engagement integration with any third-party system, there is a chance of GDPR requested changes to be overwritten if correct sequence of updates is not followed. It is the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Customer Engagement system administrator's responsibility to follow the correct order. 
+- In case of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps integration with any third-party system, there is a chance of GDPR requested changes to be overwritten if correct sequence of updates is not followed. It is the responsibility of the system administrator of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps to follow the correct order. 
 
-To know more about GDPR compliance, see [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index).
+To know more about GDPR compliance, see [Microsoft Dynamics 365 for Customer Engagement and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index).

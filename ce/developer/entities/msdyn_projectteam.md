@@ -1,15 +1,19 @@
 ---
-title: "msdyn_projectteam Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_projectteam Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_projectteam entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_projectteam Entity Reference
 
@@ -1171,6 +1175,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_projectteam_ActivityPointers"></a> msdyn_projectteam_ActivityPointers
 
 Same as activitypointer entity [msdyn_projectteam_ActivityPointers](activitypointer.md#BKMK_msdyn_projectteam_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -1185,6 +1190,7 @@ Same as activitypointer entity [msdyn_projectteam_ActivityPointers](activitypoin
 ### <a name="BKMK_msdyn_projectteam_msdyn_approvals"></a> msdyn_projectteam_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_projectteam_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_projectteam_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -1199,6 +1205,7 @@ Same as msdyn_approval entity [msdyn_projectteam_msdyn_approvals](msdyn_approval
 ### <a name="BKMK_msdyn_projectteam_msdyn_bookingalerts"></a> msdyn_projectteam_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_projectteam_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_projectteam_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1213,6 +1220,7 @@ Same as msdyn_bookingalert entity [msdyn_projectteam_msdyn_bookingalerts](msdyn_
 ### <a name="BKMK_msdyn_projectteam_SyncErrors"></a> msdyn_projectteam_SyncErrors
 
 Same as syncerror entity [msdyn_projectteam_SyncErrors](syncerror.md#BKMK_msdyn_projectteam_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1227,6 +1235,7 @@ Same as syncerror entity [msdyn_projectteam_SyncErrors](syncerror.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_projectteam_DuplicateMatchingRecord"></a> msdyn_projectteam_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_projectteam_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_projectteam_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1241,6 +1250,7 @@ Same as duplicaterecord entity [msdyn_projectteam_DuplicateMatchingRecord](dupli
 ### <a name="BKMK_msdyn_projectteam_DuplicateBaseRecord"></a> msdyn_projectteam_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_projectteam_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_projectteam_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1255,6 +1265,7 @@ Same as duplicaterecord entity [msdyn_projectteam_DuplicateBaseRecord](duplicate
 ### <a name="BKMK_msdyn_projectteam_AsyncOperations"></a> msdyn_projectteam_AsyncOperations
 
 Same as asyncoperation entity [msdyn_projectteam_AsyncOperations](asyncoperation.md#BKMK_msdyn_projectteam_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1269,6 +1280,7 @@ Same as asyncoperation entity [msdyn_projectteam_AsyncOperations](asyncoperation
 ### <a name="BKMK_msdyn_projectteam_MailboxTrackingFolders"></a> msdyn_projectteam_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_projectteam_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_projectteam_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1283,6 +1295,7 @@ Same as mailboxtrackingfolder entity [msdyn_projectteam_MailboxTrackingFolders](
 ### <a name="BKMK_msdyn_projectteam_UserEntityInstanceDatas"></a> msdyn_projectteam_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_projectteam_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_projectteam_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1297,6 +1310,7 @@ Same as userentityinstancedata entity [msdyn_projectteam_UserEntityInstanceDatas
 ### <a name="BKMK_msdyn_projectteam_ProcessSession"></a> msdyn_projectteam_ProcessSession
 
 Same as processsession entity [msdyn_projectteam_ProcessSession](processsession.md#BKMK_msdyn_projectteam_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1311,6 +1325,7 @@ Same as processsession entity [msdyn_projectteam_ProcessSession](processsession.
 ### <a name="BKMK_msdyn_projectteam_BulkDeleteFailures"></a> msdyn_projectteam_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_projectteam_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_projectteam_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1325,6 +1340,7 @@ Same as bulkdeletefailure entity [msdyn_projectteam_BulkDeleteFailures](bulkdele
 ### <a name="BKMK_msdyn_projectteam_PrincipalObjectAttributeAccesses"></a> msdyn_projectteam_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_projectteam_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_projectteam_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1339,6 +1355,7 @@ Same as principalobjectattributeaccess entity [msdyn_projectteam_PrincipalObject
 ### <a name="BKMK_msdyn_projectteam_Appointments"></a> msdyn_projectteam_Appointments
 
 Same as appointment entity [msdyn_projectteam_Appointments](appointment.md#BKMK_msdyn_projectteam_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1353,6 +1370,7 @@ Same as appointment entity [msdyn_projectteam_Appointments](appointment.md#BKMK_
 ### <a name="BKMK_msdyn_projectteam_Emails"></a> msdyn_projectteam_Emails
 
 Same as email entity [msdyn_projectteam_Emails](email.md#BKMK_msdyn_projectteam_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1367,6 +1385,7 @@ Same as email entity [msdyn_projectteam_Emails](email.md#BKMK_msdyn_projectteam_
 ### <a name="BKMK_msdyn_projectteam_Faxes"></a> msdyn_projectteam_Faxes
 
 Same as fax entity [msdyn_projectteam_Faxes](fax.md#BKMK_msdyn_projectteam_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1381,6 +1400,7 @@ Same as fax entity [msdyn_projectteam_Faxes](fax.md#BKMK_msdyn_projectteam_Faxes
 ### <a name="BKMK_msdyn_projectteam_Letters"></a> msdyn_projectteam_Letters
 
 Same as letter entity [msdyn_projectteam_Letters](letter.md#BKMK_msdyn_projectteam_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1395,6 +1415,7 @@ Same as letter entity [msdyn_projectteam_Letters](letter.md#BKMK_msdyn_projectte
 ### <a name="BKMK_msdyn_projectteam_PhoneCalls"></a> msdyn_projectteam_PhoneCalls
 
 Same as phonecall entity [msdyn_projectteam_PhoneCalls](phonecall.md#BKMK_msdyn_projectteam_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1409,6 +1430,7 @@ Same as phonecall entity [msdyn_projectteam_PhoneCalls](phonecall.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_projectteam_Tasks"></a> msdyn_projectteam_Tasks
 
 Same as task entity [msdyn_projectteam_Tasks](task.md#BKMK_msdyn_projectteam_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1423,6 +1445,7 @@ Same as task entity [msdyn_projectteam_Tasks](task.md#BKMK_msdyn_projectteam_Tas
 ### <a name="BKMK_msdyn_projectteam_RecurringAppointmentMasters"></a> msdyn_projectteam_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_projectteam_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_projectteam_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1437,6 +1460,7 @@ Same as recurringappointmentmaster entity [msdyn_projectteam_RecurringAppointmen
 ### <a name="BKMK_msdyn_projectteam_SocialActivities"></a> msdyn_projectteam_SocialActivities
 
 Same as socialactivity entity [msdyn_projectteam_SocialActivities](socialactivity.md#BKMK_msdyn_projectteam_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1451,6 +1475,7 @@ Same as socialactivity entity [msdyn_projectteam_SocialActivities](socialactivit
 ### <a name="BKMK_msdyn_projectteam_connections1"></a> msdyn_projectteam_connections1
 
 Same as connection entity [msdyn_projectteam_connections1](connection.md#BKMK_msdyn_projectteam_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1465,6 +1490,7 @@ Same as connection entity [msdyn_projectteam_connections1](connection.md#BKMK_ms
 ### <a name="BKMK_msdyn_projectteam_connections2"></a> msdyn_projectteam_connections2
 
 Same as connection entity [msdyn_projectteam_connections2](connection.md#BKMK_msdyn_projectteam_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1479,6 +1505,7 @@ Same as connection entity [msdyn_projectteam_connections2](connection.md#BKMK_ms
 ### <a name="BKMK_msdyn_projectteam_Annotations"></a> msdyn_projectteam_Annotations
 
 Same as annotation entity [msdyn_projectteam_Annotations](annotation.md#BKMK_msdyn_projectteam_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1493,6 +1520,7 @@ Same as annotation entity [msdyn_projectteam_Annotations](annotation.md#BKMK_msd
 ### <a name="BKMK_msdyn_projectteam_ServiceAppointments"></a> msdyn_projectteam_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_projectteam_ServiceAppointments](serviceappointment.md#BKMK_msdyn_projectteam_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1507,6 +1535,7 @@ Same as serviceappointment entity [msdyn_projectteam_ServiceAppointments](servic
 ### <a name="BKMK_msdyn_msdyn_projectteam_bookableresourcebooking_projectteamid"></a> msdyn_msdyn_projectteam_bookableresourcebooking_projectteamid
 
 Same as bookableresourcebooking entity [msdyn_msdyn_projectteam_bookableresourcebooking_projectteamid](bookableresourcebooking.md#BKMK_msdyn_msdyn_projectteam_bookableresourcebooking_projectteamid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebooking|
@@ -1521,6 +1550,7 @@ Same as bookableresourcebooking entity [msdyn_msdyn_projectteam_bookableresource
 ### <a name="BKMK_msdyn_msdyn_projectteam_bookableresourcebookingheader_projectteamid"></a> msdyn_msdyn_projectteam_bookableresourcebookingheader_projectteamid
 
 Same as bookableresourcebookingheader entity [msdyn_msdyn_projectteam_bookableresourcebookingheader_projectteamid](bookableresourcebookingheader.md#BKMK_msdyn_msdyn_projectteam_bookableresourcebookingheader_projectteamid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebookingheader|
@@ -1535,6 +1565,7 @@ Same as bookableresourcebookingheader entity [msdyn_msdyn_projectteam_bookablere
 ### <a name="BKMK_msdyn_msdyn_projectteam_msdyn_findworkevent_Work"></a> msdyn_msdyn_projectteam_msdyn_findworkevent_Work
 
 Same as msdyn_findworkevent entity [msdyn_msdyn_projectteam_msdyn_findworkevent_Work](msdyn_findworkevent.md#BKMK_msdyn_msdyn_projectteam_msdyn_findworkevent_Work) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_findworkevent|
@@ -1549,6 +1580,7 @@ Same as msdyn_findworkevent entity [msdyn_msdyn_projectteam_msdyn_findworkevent_
 ### <a name="BKMK_msdyn_msdyn_projectteam_msdyn_projecttask_AssignedTeamMembers"></a> msdyn_msdyn_projectteam_msdyn_projecttask_AssignedTeamMembers
 
 Same as msdyn_projecttask entity [msdyn_msdyn_projectteam_msdyn_projecttask_AssignedTeamMembers](msdyn_projecttask.md#BKMK_msdyn_msdyn_projectteam_msdyn_projecttask_AssignedTeamMembers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttask|
@@ -1563,6 +1595,7 @@ Same as msdyn_projecttask entity [msdyn_msdyn_projectteam_msdyn_projecttask_Assi
 ### <a name="BKMK_msdyn_msdyn_projectteam_msdyn_projectteammembersignup_TeamMembership"></a> msdyn_msdyn_projectteam_msdyn_projectteammembersignup_TeamMembership
 
 Same as msdyn_projectteammembersignup entity [msdyn_msdyn_projectteam_msdyn_projectteammembersignup_TeamMembership](msdyn_projectteammembersignup.md#BKMK_msdyn_msdyn_projectteam_msdyn_projectteammembersignup_TeamMembership) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectteammembersignup|
@@ -1577,6 +1610,7 @@ Same as msdyn_projectteammembersignup entity [msdyn_msdyn_projectteam_msdyn_proj
 ### <a name="BKMK_msdyn_msdyn_projectteam_msdyn_resourceassignment_projectteamid"></a> msdyn_msdyn_projectteam_msdyn_resourceassignment_projectteamid
 
 Same as msdyn_resourceassignment entity [msdyn_msdyn_projectteam_msdyn_resourceassignment_projectteamid](msdyn_resourceassignment.md#BKMK_msdyn_msdyn_projectteam_msdyn_resourceassignment_projectteamid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourceassignment|
@@ -1658,6 +1692,6 @@ See msdyn_resourcerequirement Entity [msdyn_resourcerequirement_projectteam](msd
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_projectteam?text=msdyn_projectteam EntityType" />

@@ -1,23 +1,27 @@
 ---
 title: "API Limits | MicrosoftDocs"
 description: "Understand the limits for API requests."
-ms.custom: ""
+ms.custom: 
 ms.date: 03/08/2018
-ms.reviewer: "sriknair"
-ms.service: "crm-online"
-ms.topic: "article"
+ms.reviewer: sriknair
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6cba6191-4e10-4b21-823a-b0cf71ef21d5
-author: "MicroSri"
-ms.author: "jdaly"
-manager: "faisalmo"
+author: MicroSri
+ms.author: jdaly
+manager: faisalmo
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # API Limits
 
 - [!INCLUDE [cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 - [!INCLUDE [cc_applies_to_update_8_2_0](../includes/cc_applies_to_update_8_2_0.md)]
- 
+
 Beginning March 19, 2018 we will limit the number of API requests made by each user, per organization instance, within a five minute interval. When this limit is exceeded, an exception will be thrown by the platform.
 
 The limit will help ensure that users running applications that make extraordinarily large demands on servers will not affect other users. The limit will not affect normal users of the platform. Only applications that perform a very large number of API requests will be affected. Based on telemetry data analysis, this limit is well within the bounds of most applications that perform a large number of API requests. The limit will help provide a level of protection from random and unexpected surges in request volumes that threaten the availability and performance characteristics of the [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] platform.
@@ -121,7 +125,7 @@ public class Retry
                     // else use exponential backoff delay
                     delay = TimeSpan.FromSeconds(Math.Pow(2, retryCount));
                 }
-                
+
                 Thread.Sleep(delay);
             }
         }
@@ -138,15 +142,14 @@ public class Retry
         return false;
     }
 }
-
 ```
 
 
 
 ### See also
 
-[Use the Dynamics 365 Organization service](use-microsoft-dynamics-365-organization-service.md)<br />
-[Use the Dynamics 365 Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)<br />
+[Use the Dynamics 365 for Customer Engagement Organization apps service](use-microsoft-dynamics-365-organization-service.md)<br />
+[Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)<br />
 [Execute batch operations using the Web API](webapi/execute-batch-operations-using-web-api.md)<br />
 [Use ExecuteMultiple to improve performance for bulk data load](org-service/use-executemultiple-improve-performance-bulk-data-load.md)
 

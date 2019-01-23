@@ -1,19 +1,23 @@
 ---
-title: "Start a managed code project in Visual Studio (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This topic shows you how to create a new project in Visual Studio that’s properly configured to build a console application that uses the Dynamics 365 Customer Engagement web services (SDK)."
-ms.custom: ""
+title: "Start a managed code project in Visual Studio (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This topic shows you how to create a new project in Visual Studio that’s properly configured to build a console application that uses the Dynamics 365 for Customer Engagement web services (SDK)."
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7fefaeb8-5d8a-4b88-9032-a31e78970175
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Start a managed code project in Visual Studio
 
@@ -36,21 +40,21 @@ This topic shows you how to create a new project in [!INCLUDE[pn_Visual_Studio](
   
 #### New project  
   
-1.  In [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)], select **New Project**.  
+1. In [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)], select **New Project**.  
   
-1.  In the left navigation pane under **Templates**, select **Visual C#** or **Visual Basic**.  
+2. In the left navigation pane under **Templates**, select **Visual C#** or **Visual Basic**.  
   
-1.  Above the list of available templates, select [!INCLUDE [pn-net-framework-462-short](../../includes/pn-net-framework-462-short.md)].  
+3. Above the list of available templates, select [!INCLUDE [pn-net-framework-462-short](../../includes/pn-net-framework-462-short.md)].  
   
-1.  In the list of templates, select **Console Application**.  
+4. In the list of templates, select **Console Application**.  
   
-  ![A new console app project dialog in Dynamics 365](../media/new-project.PNG "A new console app project dialog in Dynamics 365")  
+   ![A new console app project dialog in Dynamics 365 for Customer Engagement](../media/new-project.PNG "A new console app project dialog in Dynamics 365 for Customer Engagement")  
   
-1.  In the fields near the bottom of the form give the project a name and location, and then select **OK**.  
+5. In the fields near the bottom of the form give the project a name and location, and then select **OK**.  
   
-1.  Under the **Project** menu, open the project’s properties form and verify the target framework is set to [!INCLUDE [pn-net-framework-462-short](../../includes/pn-net-framework-462-short.md)].
+6. Under the **Project** menu, open the project’s properties form and verify the target framework is set to [!INCLUDE [pn-net-framework-462-short](../../includes/pn-net-framework-462-short.md)].
   
-  ![Choose the target framework for the Dynamics 365 project](../media/new-project-framework.PNG "Choose the target framework for the Dynamics 365 project")  
+   ![Choose the target framework for the Dynamics 365 for Customer Engagement project](../media/new-project-framework.PNG "Choose the target framework for the Dynamics 365 for Customer Engagement project")  
   
 ## Add NuGet package(s) 
  The minimum set of assemblies you need are in the [Microsoft.CrmSdk.CoreAssemblies](http://www.nuget.org/packages/Microsoft.CrmSdk.CoreAssemblies/) NuGet package. Installing this package will add the required references to your project. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Subscribe to SDK assembly updates using NuGet](subscribe-sdk-assembly-updates-using-nuget.md)

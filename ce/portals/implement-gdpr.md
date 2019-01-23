@@ -1,24 +1,31 @@
 ---
-title: "Implement General Data Protection Regulations in Dynamics 365 portals  | MicrosoftDocs"
-description: "Learn how to implement General Data Protection Regulations in Microsoft Dynamics 365 portals."
+title: "Implement General Data Protection Regulations in Dynamics 365 for Customer Engagement portals  | MicrosoftDocs"
+description: "Learn how to implement General Data Protection Regulations in Microsoft Dynamics 365 for Customer Engagement portals."
 keywords: "portal GDPR, implement GDPR in portal"
-ms.date: 06/08/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 61DDD947-32BC-4DA3-BDC1-6D1417412A6B
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-portal
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
-# Implementing General Data Protection Regulations in your Dynamics 365 portals
+# Implementing General Data Protection Regulations in your Dynamics 365 for Customer Engagement portals
 
 The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, people can control the use of their personal data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 

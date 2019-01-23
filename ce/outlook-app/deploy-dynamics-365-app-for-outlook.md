@@ -1,22 +1,29 @@
 ---
-title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 07/03/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+ms.custom: 
+ms.date: 12/13/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement apps 
+  - Dynamics 365 for Customer Engagement apps Version 9.x
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 tags: 
   - MigrationHO
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Deploy Dynamics 365 App for Outlook  
 
@@ -26,117 +33,77 @@ tags:
 > The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)], works with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later only. 
 > 
 > [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to track emails. 
+>
+> Multi-factor authentication with [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is not a supported scenario.
 
 People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] while using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or tablet. For example, view information about email or appointment recipients, or link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email or appointment  to a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record such as an opportunity, account, or case. To learn more about what [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] offers, see the [Dynamics 365 App for Outlook User Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
 
-## Known issues
+## Known issues and FAQs
 
-For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 Customer Engagement Readme](../admin/readme-9.md).
+For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 for Customer Engagement apps Readme](../admin/readme-9.md).
 
-There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.md)]: using a Windows Installer (MSI) version or a Click-to-Run (C2R) version of [!INCLUDE [pn-office-shortest](../includes/pn-office-shortest.md)]. You might have issues accessing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the Add-ins area of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] if you don't have the necessary updates for your installation version. For more information, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586/error-message-0x8006ffff-occurs-when-you-access-dynamics-365-within-th).
+There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.md)]: using a Windows Installer (MSI) version or a Click-to-Run (C2R) version of [!INCLUDE [pn-office-shortest](../includes/pn-office-shortest.md)]. You might have issues accessing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the Add-ins area of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] if you don't have the necessary updates for your installation version. For more information, see [Issue when trying to access Dynamics 365 for Customer Engagement apps within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586/error-message-0x8006ffff-occurs-when-you-access-dynamics-365-within-th).
 
-If your organization is using a custom EWS URL on your Exchange Online configuration (in place of the default https://outlook.office365.com), Dynamics 365 App for Outlook is not supported.
-You will receive the message **Sorry, something went wrong. Please try again, or restart the application. Error code: Error_Message_0x80070000** when you use Dynamics 365 App for Outlook in Outlook Desktop and Outlook Web Access.
+The Outlook App is not enabled on [Common Data Service for Apps](/powerapps/maker/common-data-service/data-platform-intro).
 
+For more information on FAQ's, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
 
 ## Requirements  
  The following are required to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]:  
+ 
+ 
+ |  |  |
+|---------|---------|
+|**Email Server**     |  <ul><li>Exchange Server 2013 CU 14 or greater</li><br/>  <li>Exchange Server 2016</li><br/> <li>Exchange Online</li></ul>       |
+|**Email Client**    | <ul><li>Outlook 2016 (MSI) version 16.0.4266.1001 or higher (on Windows 7 or higher client OS with IE 11 installed) </li><br/>  <li>Outlook 2016 (C2R) version 16.0.93330.2073 or higher (on Windows 7 or higher client OS with IE 11 installed)</li><br/> <li>Outlook 2016 (MSI) version 15.0.5023.1000 or higher (on Windows 7 or higher client OS with IE 11 installed)</li><br/>  <li>Outlook for MAC</li><br/> <li>Outlook for iOS (Apple iPhone 6S or higher, running iOS version 8 or higher)</li><br/>  <li>Outlook for Android (with Exchange Online, on Android phones running Android 4.4,5.0,6.0,or 7.0)</li></ul>  **Note** Support for 2013 versions of Office 365 ProPlus ended February 28, 2017    |
+|**Browser (Outlook Web Access)**     | <li>Micosoft Edge (with Exchange on premise 2016 or higher and Exchange Online)</li><br/> <li>Internet Explorer 11 (with Exchange on premise 2016 or higher and Exchange Online)</li><br/> <li>Google Chrome</li><br/>   <li>Mozilla Firefox</li><br/>      |
+
+  > [!NOTE]
+>  Support for 2013 versions of Office 365 ProPlus ends February 28, 2017. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See here.](https://support.microsoft.com/en-us/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28-2)    
 
 - [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later
-
 
 
 - Synchronization of incoming email through server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
 
 - [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is an [!INCLUDE [pn-outlook](../includes/pn-outlook.md)] add-in that uses [!INCLUDE [pn-exchange-web-services-ews](../includes/pn-exchange-web-services-ews.md)] to interact with [!INCLUDE [pn-microsoft-exchange](../includes/pn-microsoft-exchange.md)]. This requires OAuth be enabled on [!INCLUDE [pn-microsoft-exchange](../includes/pn-microsoft-exchange.md)]. For more information regarding this dependency, see [Authentication and permission considerations for the makeEwsRequestAsync method](https://docs.microsoft.com/outlook/add-ins/web-services#authentication-and-permission-considerations-for-the-makeewsrequestasync-method).
 
-- Minimum version of Outlook to run App for Outlook:
-
-  -   16.0.4266.1001 for Outlook 2016 MSI version
-  -   16.0.93330.2073 for Outlook 2016 C2R version
-  -   15.0.5023.1000 for Outlook 2013 MSI version
+- On Windows clients, Internet Explorer 11 should be installed and enabled but not necessarily the default browser. For more information about this dependency, see [Requirements for running Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/requirements-for-running-office-add-ins#client-requirements-windows-desktop-and-tablet).
 
 - Required privileges as described below  
 
 > [!NOTE]
 >  Supported configurations and requirements for [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] features are listed throughout our documentation. Specific configurations not documented should be  considered unsupported.  
 
-### Supported browsers  
- You can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] with [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)] on the following browsers:  
-
-  
--   [!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)], or [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]  
-  
-     The following configuration is supported:  
-  
-    -   Protected Mode is enabled for **Internet** security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Internet**.  
-  
-    -   Protected Mode is enabled for **Local intranet**  security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local Internet**.  
-  
-    -   Your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] URL is in the **Local intranet** security zone list of trusted websites. In IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
- 
-  
-
 ### Required privileges 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides access to [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] through the **Use Dynamics 365 App for Outlook** privilege. If a user doesn’t have this privilege, they’ll receive the following error:  
 
 “You haven't been authorized to use this app. Check with your system administrator to update your settings.”  
 
-In addition:
-
-1. Users must have **read/write** privileges for the following entities.  
-
-   Business Management tab:  
-
-   - **Mailbox**  
-
-   Customization tab:
-
-   - **User Application Metadata**
-
-2. Users must have **read** privileges for the following entities.  
-
-   Customization tab:  
-
-   - **App**
-
-   - **Entity**  
-
-   - **Field**  
-
-   - **Relationship**  
-
-   - **System Application Metadata**  
-
-   - **System Form**  
-
-   - **View**  
-
-#### Set the privileges for a security role  
-
-For example, to set privileges for the Mailbox entity:
+#### Set the right privileges for the security role assigned to the user accessing Dynamics 365 App for Outlook
 
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
 
 2. Click **Security Roles**.  
 
-3. Choose a security role, and then click the **Business Management** tab.  
+3. Choose a security role.  
 
-4. In the **Entity** section, review the **Mailbox** privileges settings. The security role should have User or higher settings.  
+4. In the **Business Management** tab, verify that **Mailbox** has **read/write** privileges. In the **Privacy Related Privileges** section, verify that **Use Dynamics 365 App for Outlook** is set to **Organization**. If not, click **Use Dynamics 365 App for Outlook**.
 
-5. In the **Privacy Related Privileges** section, verify that **Use Dynamics 365 App for Outlook** is set to **Organization**. If not, click **Use Dynamics 365 App for Outlook**.  
+5. In the **Customization** tab, verify that **User Application Metadata** has **read/write** privileges. Also verify that **Entity**, **Field**, **Model-driven App**, **Relationship**, **System Application Metadata**, **System Form** and **View** have **read** privilege.
 
 ### Provide security role access 
-If you have custom security roles defined in Dynamics 365, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
+If you have custom security roles defined in Dynamics 365 for Customer Engagement apps, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
 
-1.  From the main menu navigate to **Settings** > **My Apps**.
-![Dynamics 365 My Apps page](media/MyAppPage.png "Dynamics 365 My Apps page") 
+1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to **My Apps** page by going to **"<your_organization_URL>/apps"**) 
+
+![Dynamics 365 for Customer Engagement apps My Apps page](media/MyAppPage.png "Dynamics 365 for Customer Engagement apps My Apps page") 
 
 2.  On the **Dynamics 365 App for Outlook** tile click the ellipsis and then click **Manage Roles**.
-![Dynamics 365 Manage Roles page](media/ManageRolesPage.png "Dynamics 365 Manage Roles page") 
+![Dynamics 365 for Customer Engagement apps Manage Roles page](media/ManageRolesPage.png "Dynamics 365 for Customer Engagement apps Manage Roles page") 
 
 3.  In the flyout that appears on the right, select the security roles to have access to App for Outlook and choose **Save**.
-![Dynamics 365 select a Role](media/ManageRolesPage2.png "Dynamics 365 select a role")
+![Dynamics 365 for Customer Engagement apps select a Role](media/ManageRolesPage2.png "Dynamics 365 for Customer Engagement apps select a role")
 
 ### Supported configurations with Microsoft Exchange  
  As of the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] you can use the app with any combination of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] or [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises), including hybrid configurations. This means you can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] in any of the following configurations:  
@@ -154,35 +121,6 @@ If you have custom security roles defined in Dynamics 365, users who have that s
 >  If you use [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)], you'll need to authenticate with IFD authentication as described below.  
 -->
 
-### Support summary
-
-#### Windows desktop
-- Outlook 2013 (desktop client)*
-- Outlook 2016 (desktop client)
-- Outlook on the web on Internet Explorer 11, Microsoft Edge, and Chrome
-
-*[Support for 2013 versions of Office 365 ProPlus ended February 28, 2017.](https://support.microsoft.com/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28)
-
-> [!NOTE]
->  Windows Server is not supported. 
-
-#### Macintosh
-- Outlook 2016 for Mac
-
-#### iPhone
-- Apple iPhone 6S or higher, running iOS version 8 or higher.
-
-#### Android phones
-- Outlook for Android, on Android phones running Android 4.4 (KitKat), 5.0 (Lollipop), 6.0 (Marshmallow), or 7.0 (Nougat).
-
-#### Android tablets
-- Not supported
-
-#### Windows phones and tablets
-- Not supported
-
-Check back later for updates on supported platforms.
-
 ### Feature support per client
 
 |                                                                                                  |                                                  |                                                                                                                                  |                                                              |                                            |
@@ -191,13 +129,13 @@ Check back later for updates on supported platforms.
 |          [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] (desktop client)           |                     O and M                      |                                                       O and M<sup>1</sup>                                                        |                     O and M<sup>1</sup>                      |      O<sup>3</sup>  and M<sup>2</sup>      |
 | [!INCLUDE [pn-ms-outlook-2013-short](../includes/pn-ms-outlook-2013-short.md)]  (desktop client) |                     O and M                      |                                                       O and M<sup>1</sup>                                                        |                     O and M<sup>1</sup>                      |                                            |
 |                                 Outlook for Mac (desktop client)                                 |                     O and M                      |                                                                                                                                  |                                                              |                                            |
-|             [!INCLUDE [pn-outlook-web-app](../includes/pn-outlook-web-app.md)] (OWA)             |                     O and M                      |                                                       O and M<sup>1</sup>                                                        |                     O and M<sup>1</sup>                      |                                            |
-|                                  Mobile Outlook app<sup>4</sup>                                  |                        O                         |                                                                                                                                  |                                                              |                                            |
+|             [!INCLUDE [pn-outlook-web-app](../includes/pn-outlook-web-app.md)] (OWA)<sup>4</sup>             |                     O and M                      |                                                       O and M<sup>1</sup>                                                        |                     O and M<sup>1</sup>                      |                                            |
+|                                  Mobile Outlook app<sup>5</sup>                                  |                        O                         |                                                                                                                                  |                                                              |                                            |
 
 (O)nline: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)] <br />
 (M)ixed: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], Exchange Server 2013/2016
 
-Note: Dynamics 365, version 9 is not available on-premises.
+Note: Dynamics 365 for Customer Engagement apps, version 9 is not available on-premises.
 
 (1) Tracking email in compose mode and tracking appointments requires Exchange Server 2013 CU14 or [!INCLUDE [pn-exchange-server-2016-short](../includes/pn-exchange-server-2016-short.md)]. <br />
 
@@ -210,9 +148,28 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 
 (3) Supported only on Outlook 2016 16.0.7426.1049 or later.<br />
 
-(4) Supported on iPhones 6S or higher, with iOS 8 or higher.
+(4) Not supported on mobile Outlook Web Access.<br/>
 
+(5) Supported on iPhones 6S or higher, with iOS 8 or higher.
 
+### Supported browsers for Outlook on the web  
+ You can use Dynamics 365 App for Outlook with Outlook on the web on the following browsers: 
+
+-   Internet Explorer 11, or Microsoft Edge 
+  
+     The following configuration is supported:  
+  
+    -   Protected Mode is enabled for **Internet** security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Internet**.  
+  
+    -   Protected Mode is enabled for **Local intranet**  security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet**.  
+  
+    -   Your Dynamics 365 for Customer Engagement apps URL is in the **Local intranet** security zone list of trusted websites. In IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
+  
+-   Google Chrome (latest version) on Windows 
+  
+-   Firefox (latest version) on Window 
+  
+-   Apple Safari (version 9 or version 10) on Mac or on OSX
 
 ### Supported servers  
  The [server requirements for using Office Add-ins](https://dev.office.com/docs/add-ins/overview/requirements-for-running-office-add-ins) are [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)], [!INCLUDE[pn_exchange_server_2016_short](../includes/pn-exchange-server-2016-short.md)], or [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)].  
@@ -236,33 +193,15 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 |German - 1031|Norwegian - 1044|Ukrainian - 1058|  
 |Greek - 1032|Polish - 1045|Vietnamese - 1066|  
 
-<a name="BKMK_Deploy"></a>   
+<a name=BKMK_Deploy></a>   
 
 ## Deploy Dynamics 365 App for Outlook  
  After setting up [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)] and setting the required privileges, you can push [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to some or all users, or you can have users install it themselves as needed.  
 
 <!--
 > [!NOTE]
->  If you're on [!INCLUDE[pn_dyn_365_op](../includes/pn-dyn-365-op.md)], see the section below:  [To deploy to Dynamics 365 on-premises users](#BKMK_DeployOnprem)  
+>  If you're on [!INCLUDE[pn_dyn_365_op](../includes/pn-dyn-365-op.md)], see the section below:  [To deploy to Dynamics 365 for Customer Engagement apps (on-premises) users](#BKMK_DeployOnprem)  
 --> 
-
-### Enable
-
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
-
-    Check your security role  
-
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-
-2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
-
-3. Choose **System Settings** > **Previews** tab.  
-
-4. For **I have read and agree to the license terms**, select **Yes**.
-
-5. For **Enable Dynamics 365 App for Outlook**, select **Yes**.
 
 #### To push the app to users  
 
@@ -283,53 +222,33 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 
 #### To have users install the app themselves  
 
-1. Users click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365**.  
+1. Users click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365 for Customer Engagement apps**.  
 
-2. In the **Apps for Dynamics 365** screen, under **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**, users click **Add app to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]**.  
+2. In the **Apps for Dynamics 365 for Customer Engagement apps** screen, under **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**, users click **Add app to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]**.  
 
 > [!NOTE]
 >  Users can also disable or remove the add-in themselves, if needed. For more information, see the [Dynamics 365 App for Outlook User’s Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
 
 <!--    
-<a name="BKMK_DeployOnprem"></a>   
+<a name=BKMK_DeployOnprem></a>   
 
-## To deploy to Dynamics 365 on-premises users  
- Follow these steps if you're using Dynamics 365 on-premises.  
+## To deploy to Dynamics 365 for Customer Engagement apps (on-premises) users  
+ Follow these steps if you're using Dynamics 365 for Customer Engagement apps (on-premises).  
 
--   Configure your Dynamics 365 server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365](https://technet.microsoft.com/library/dn609803.aspx).  
+-   Configure your Dynamics 365 for Customer Engagement apps server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/dn609803.aspx).  
 
 
--   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 applications that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
--->
+-   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 for Customer Engagement apps that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
+--> 
 
-<a name="BKMK_Troubleshoot"></a>   
-
+<a name=BKMK_Troubleshoot></a> 
 ## Troubleshooting installation problems  
 
 1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the feature. See [Enable](#enable).
 
 2. If you or your users have trouble installing [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], it may be because their [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox is currently linked to another [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization. An [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize appointments, contacts, and tasks with one [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox.  You can overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] if you want to change the primary synchronizing organization. For more information, see [this KB article.](https://support.microsoft.com/en-gb/help/3211627/incomingemailrejected-error-when-attempting-to-install-dynamics-365-app-for-outlook)
 
-## Limitations  
-
-#### Dashboard customization in Dynamics 365 App for Outlook 
-
-The following dashboard customizations are not supported currently.
-
--  In Dynamics 365 App for Outlook, you will not be able to switch dashboards by navigating to the main menu and then **Home**.
-   Choosing the Dashboards option will redirect back to the default App for Outlook dashboard.
-
-   ![Dynamics 365 App for Outlook Dashboard](media/CustomDashboard.PNG "Dynamics 365 App for Outlook Dashboard")
-
-
-- Switching the default dashboard for App for Outlook in App designer
-
-  System customizers have access to the App Designer for Dynamics 365 App for Outlook as it is one of the App Modules in version 9.0.
-We recommend that you do not change the default App for Outlook dashboard as that is not a supported.
-
-  ![App for Outlook App Designer Dashboard](media/AppDesignerDashboard.PNG "App for Outlook App Designer Dashboard")
-
-<a name="BKMK_Explore"></a>   
+<a name=BKMK_Explore></a>   
 
 ## Explore the User’s Guide and train your users  
  To learn how to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 App for Outlook User’s Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
@@ -340,7 +259,7 @@ We recommend that you do not change the default App for Outlook dashboard as tha
  [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
 
 
-<!-- 2. If you see the message "Your account's email settings aren't configured to use this app", you need to [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).
+<!-- 2. If you see the message Your account's email settings aren't configured to use this app, you need to [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).
 
    ![App for Outlook settings not configured](media/app-outlook-settings-not-configured.png)
 -->

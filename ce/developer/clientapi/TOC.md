@@ -97,7 +97,7 @@
 #### [getControlType](reference/controls/getControlType.md)
 #### [getData](reference/controls/getData.md)
 #### [getDefaultView](reference/controls/getDefaultView.md)
-#### [getDisabled](reference/controls/getDefaultView.md)
+#### [getDisabled](reference/controls/getDisabled.md)
 #### [getEntityTypes](reference/controls/getEntityTypes.md)
 #### [getInitialUrl](reference/controls/getInitialUrl.md)
 #### [getLabel](reference/controls/getLabel.md)
@@ -373,6 +373,6 @@
 #### [retrieveMultipleRecords](reference/xrm-webapi/retrieveMultipleRecords.md)
 #### [updateRecord](reference/xrm-webapi/updateRecord.md)
 #### [isAvailableOffline](reference/xrm-webapi/isAvailableOffline.md)
-#### [execute](reference/xrm-webapi/execute.md)
-#### [executeMultiple](reference/xrm-webapi/executeMultiple.md)
+#### [execute](reference/xrm-webapi/online/execute.md)
+#### [executeMultiple](reference/xrm-webapi/online/executeMultiple.md)
 

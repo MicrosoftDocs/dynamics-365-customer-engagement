@@ -1,14 +1,18 @@
 ---
-title: "GetGlobalContext function and ClientGlobalContext.js.aspx in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "GetGlobalContext function and ClientGlobalContext.js.aspx in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 06/05/2018
-ms.service: "crm-online"
-ms.topic: "conceptual"
+ms.service: crm-online
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b58e6173-e3cd-4a3b-b39a-334c295503ec
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # GetGlobalContext function and ClientGlobalContext.js.aspx (Client API reference)
 

@@ -1,15 +1,19 @@
 ---
-title: "ListMember Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ListMember Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ListMember entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ListMember Entity Reference
 
@@ -529,6 +533,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_listmember_AsyncOperations"></a> listmember_AsyncOperations
 
 Same as asyncoperation entity [listmember_AsyncOperations](asyncoperation.md#BKMK_listmember_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -543,6 +548,7 @@ Same as asyncoperation entity [listmember_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_listmember_MailboxTrackingFolders"></a> listmember_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [listmember_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_listmember_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -557,6 +563,7 @@ Same as mailboxtrackingfolder entity [listmember_MailboxTrackingFolders](mailbox
 ### <a name="BKMK_userentityinstancedata_listmember"></a> userentityinstancedata_listmember
 
 Same as userentityinstancedata entity [userentityinstancedata_listmember](userentityinstancedata.md#BKMK_userentityinstancedata_listmember) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -571,6 +578,7 @@ Same as userentityinstancedata entity [userentityinstancedata_listmember](useren
 ### <a name="BKMK_listmember_BulkDeleteFailures"></a> listmember_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [listmember_BulkDeleteFailures](bulkdeletefailure.md#BKMK_listmember_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -585,6 +593,7 @@ Same as bulkdeletefailure entity [listmember_BulkDeleteFailures](bulkdeletefailu
 ### <a name="BKMK_listmember_PrincipalObjectAttributeAccesses"></a> listmember_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [listmember_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_listmember_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -648,6 +657,6 @@ See list Entity [listcontact_association](list.md#BKMK_listcontact_association) 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.listmember?text=listmember EntityType" />

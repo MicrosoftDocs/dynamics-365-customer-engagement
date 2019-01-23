@@ -1,27 +1,30 @@
 ---
-title: "Create or edit quick view forms in PowerApps | MicrosoftDocs"
+title: "Create or edit quick view forms in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create or edit a quick view form"
-ms.custom: ""
-ms.date: 04/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/09/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 9b101734-cc11-4d05-bd45-eb611eae9931
 caps.latest.revision: 14
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Create or edit a quick view form to view information about a related entity
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 A quick view form can be added to another form as a quick view control. It provides a template to view information about a related entity record within a form for another entity record. This means your app users do not need to navigate to a different record to see the information needed to do their work.  
   
@@ -63,13 +66,13 @@ A quick view form can be added to another form as a quick view control. It provi
 ## Add a quick view control to a main form  
  Quick view forms can only be added to a main form where a lookup field exists that targets the entity of the quick view form.  
   
-1.  In an entity main form, choose **Quick View Form** in the **Control** group of the **Insert** tab.  
+1. In an entity main form, choose **Quick View Form** in the **Control** group of the **Insert** tab.  
   
-2.  In the **Quick View Control Properties** dialog box, set the properties described in [Quick view control properties](quick-view-control-properties-legacy.md).  
+2. In the **Quick View Control Properties** dialog box, set the properties described in [Quick view control properties](quick-view-control-properties-legacy.md).  
   
-3.  Choose **OK** to close the **Quick View Control Properties** dialog box.  
+3. Choose **OK** to close the **Quick View Control Properties** dialog box.  
   
- You must save and publish the main form before the quick view control changes will be visible.  
+   You must save and publish the main form before the quick view control changes will be visible.  
   
 ### See also   
  [Create and design forms](../customize/create-design-forms.md)   

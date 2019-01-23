@@ -1,65 +1,68 @@
 ---
-title: "Create a business process flow in PowerApps | MicrosoftDocs"
+title: "Create a business process flow in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to create a business process flow"
-ms.custom: ""
-ms.date: 06/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.custom: 
+ms.date: 11/09/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: efe86ab3-430f-485a-b924-6ed82cfbb449
 caps.latest.revision: 39
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create a business process flow to standardize processes
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-This topic shows how to create a business process flow with [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)]. To learn more about why you use business process flows, see [Business process flows overview](../customize/business-process-flows-overview.md). For information on creating a mobile task flow, see [Create a mobile task flow](../customize/create-mobile-task-flow.md).  
+This topic shows how to create a business process flow with Dynamics 365 for Customer Engagement apps. To learn more about why you use business process flows, see [Business process flows overview](../customize/business-process-flows-overview.md). For information on creating a mobile task flow, see [Create a mobile task flow](../customize/create-mobile-task-flow.md).  
   
  When a user starts a business process flow, the stages and steps of the process are displayed in the process bar at the top of a form:  
   
  ![Business process with stages](../customize/media/business-process-stages.png "Business process with stages")  
   
- [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] comes with several ready-to-use business process flows for common business scenarios. Add them to your system and use as is, or modify them to fit your business needs. To find out how to add ready-to-use business process flows, see [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md).  
+ Dynamics 365 for Customer Engagement apps comes with several ready-to-use business process flows for common business scenarios. Add them to your system and use as is, or modify them to fit your business needs. To find out how to add ready-to-use business process flows, see [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md).  
   
 <a name="BKMK_Createbusinessprocessflows"></a>   
 ## Create a business process flow  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]       
   
-1. Open solution explorer.
+2. Open solution explorer.
   
-1. On the left navigation pane, select **Processes**. 
+3. On the left navigation pane, select **Processes**. 
   
-1.  On the **Actions** toolbar, select **New**.  
+4. On the **Actions** toolbar, select **New**.  
   
-1.  In the **Create Process**  dialog box, complete the required fields:  
+5. In the **Create Process**  dialog box, complete the required fields:  
   
-    -   Enter a process name. The name of the process doesn’t need to be unique, but it should be meaningful for people who need to choose a process. You can change this later.  
+   -   Enter a process name. The name of the process doesn’t need to be unique, but it should be meaningful for people who need to choose a process. You can change this later.  
   
-    -   In the **Category** list, select **Business Process Flow**.  
+   -   In the **Category** list, select **Business Process Flow**.  
   
-         You cannot change the category after you create the process.  
+        You cannot change the category after you create the process.  
   
-    -   In the **Entity** list, select the entity you want to base the process on.  
+   -   In the **Entity** list, select the entity you want to base the process on.  
   
-         The entity you select affects the fields available for steps that can be added to the first stage of the process flow. If you don’t find the entity you want, make sure the entity has the Business process flows (fields will be created) option set in the entity definition. You cannot change this after you save the process.  
+        The entity you select affects the fields available for steps that can be added to the first stage of the process flow. If you don’t find the entity you want, make sure the entity has the Business process flows (fields will be created) option set in the entity definition. You cannot change this after you save the process.  
   
-1. [!INCLUDE[proc_click_or_tap_ok](../includes/proc-click-or-tap-ok.md)]  
+6. [!INCLUDE[proc_click_or_tap_ok](../includes/proc-click-or-tap-ok.md)]  
   
      The new process is created, and the business process flow designer opens with a single stage already created for you.  
   
- ![Business process flow window showing main elements](../customize/media/business-process-flow-window-showing-main-elements.png "Business process flow window showing main elements")  
+   ![Business process flow window showing main elements](../customize/media/business-process-flow-window-showing-main-elements.png "Business process flow window showing main elements")  
   
-1. **Add stages.** If your users will progress from one business stage to another in the  process:  
+7. **Add stages.** If your users will progress from one business stage to another in the  process:  
   
     1.  Drag a **Stage** component from the **Components** tab and drop it on a + sign in the designer.  
   
@@ -75,7 +78,7 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
         -   When you're done changing properties, select the **Apply** button.  
   
-1. **Add steps to a stage.** To see the steps in a stage, select **Details** in the lower-right corner of the stage. To add more steps:  
+8. **Add steps to a stage.** To see the steps in a stage, select **Details** in the lower-right corner of the stage. To add more steps:  
   
     1.  Drag the **Step** component to the stage from the **Components** tab.  
   
@@ -91,7 +94,7 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
         4.  Select **Apply** when you're done.  
   
-1. **Add a branch (condition) to the process.** To add a branching condition:  
+9. **Add a branch (condition) to the process.** To add a branching condition:  
   
     1.  Drag the **Condition** component from the **Components** tab to a + sign between two stages.  
   
@@ -99,15 +102,15 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
     2.  Select the condition, and then set properties in the **Properties** tab. For more information on branching properties, see [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md). When you're finished setting properties for the condition, select **Apply**.  
   
-1. **Add a workflow.** To invoke a workflow:  
+10. **Add a workflow.** To invoke a workflow:  
   
-    1.  Drag a **Workflow** component from the **Components** tab to a stage or to the **Global Workflow** item in the designer.   Which one you add it to depends on the following:  
+    1. Drag a **Workflow** component from the **Components** tab to a stage or to the **Global Workflow** item in the designer.   Which one you add it to depends on the following:  
   
        - **Drag it to a stage** when you want to trigger the workflow on entry or exit of the stage. The workflow component must be based on the same primary entity as the stage.  
   
        - **Drag it to the Global Workflow item** when you want to trigger the workflow when the process is activated or when the process is archived (when the status changes to **Completed** or **Abandoned**). The workflow component must be based on the same primary entity as the process.  
   
-    2.  Select the workflow, and then set properties in the **Properties** tab:  
+    2. Select the workflow, and then set properties in the **Properties** tab:  
   
        1.  Enter a display name.  
   
@@ -119,27 +122,27 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
        For more information on workflows, see [Workflow processes](../customize/workflow-processes.md).  
   
-1. To validate the business process flow, select **Validate** on the action bar.  
+11. To validate the business process flow, select **Validate** on the action bar.  
   
-1. To save the process as a draft while you continue to work on it, select **Save** in the action bar.  
+12. To save the process as a draft while you continue to work on it, select **Save** in the action bar.  
   
-    > [!IMPORTANT]
-    >  As long as a process is a draft, people won’t be able to use it.  
+     > [!IMPORTANT]
+     >  As long as a process is a draft, people won’t be able to use it.  
   
-1. To activate the process and make it available to your team, select **Activate** on the action bar.
+13. To activate the process and make it available to your team, select **Activate** on the action bar.
 
-1. To provide control over who can create, read, update, or delete the business process flow instance, select **Edit Security Roles** on the command bar of the designer. For example, for service-related processes, you could provide full access for customer service reps to change the business process flow instance, but provide read-only access to the instance for sales reps so they can monitor post-sales activities for their customers.
+14. To provide control over who can create, read, update, or delete the business process flow instance, select **Edit Security Roles** on the command bar of the designer. For example, for service-related processes, you could provide full access for customer service reps to change the business process flow instance, but provide read-only access to the instance for sales reps so they can monitor post-sales activities for their customers.
 
-    In the **Security Roles** screen, select the name of a role to open the security role information page. Select the **Business Process Flows** tab, and then assign appropriate privileges on the business process flow for a security role.
+     In the **Security Roles** screen, select the name of a role to open the security role information page. Select the **Business Process Flows** tab, and then assign appropriate privileges on the business process flow for a security role.
 
-    > [!NOTE]
-    > The **System Administrator** and **System Customizer** security roles have access to new business process flows by default.
+     > [!NOTE]
+     > The **System Administrator** and **System Customizer** security roles have access to new business process flows by default.
 
-    ![Assign privileges for your business process flow](media/bpf-assign-privileges.png)
+     ![Assign privileges for your business process flow](media/bpf-assign-privileges.png)
 
-    Specify privileges by selecting the appropriate radio buttons, and click **Save**. For more information about privileges, see [Business process flow privileges](business-process-flows-overview.md#business-process-flow-privileges).
+     Specify privileges by selecting the appropriate radio buttons, and click **Save**. For more information about privileges, see [Business process flow privileges](business-process-flows-overview.md#business-process-flow-privileges).
 
-    Next, don't forget to assign the security role to appropriate users in your organization.
+     Next, don't forget to assign the security role to appropriate users in your organization.
   
 > [!TIP] 
 >  Here are a few tips to keep in mind as you work on your task flow in the designer window:  
@@ -196,22 +199,8 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
 To specify privileges on a business process flow, open the business process flow definition for editing, and then select **Edit Security Roles** in the command bar of the business process flow designer. See Step 14 earlier in the topic for more details.  
 
-## Preview feature: Add an on-demand action to a business process flow
-The [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update introduces a new business process flow feature: business process flow automation with Action Steps. You can add a button to a business process flow that will trigger an action or workflow.
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
-> [!INCLUDE [cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
-### Enable Action Step support for business process flows 
-
-1.	Go to **Settings** > **Administration** > **System Settings**.
-2.	Select the **Preview** tab.
-3.	Review, and if you agree, accept the license terms.
-4.	Select **Enable Action Step Support for Business Process Flows Preview**, and then select **OK**.
-
-    ![Enable business process flow preview feature](media/enable-bpf-actionstep.png)
+## Add an on-demand action to a business process flow
+The [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update introduces a business process flow feature: business process flow automation with Action Steps. You can add a button to a business process flow that will trigger an action or workflow.
 
 ### Add on-demand workflows or actions using an Action Step
 Suppose that, as part of the opportunity qualification process, the Contoso organization requires all opportunities to be reviewed by a designated reviewer. Subsequently, the Contoso organization created an action that: 
@@ -234,9 +223,8 @@ Now, members of Contoso’s salesforce can kick-off the action from the **Opport
 > - To be able to execute an action or workflow on demand, the business process flow must include an Action Step. If the Action Step runs a workflow, the workflow must be configured to run on demand.
 > - The entity associated with the action or workflow must be the same as the entity associated with the business process flow.
 
-### Limitations of using Action Steps in a business process flow
+### Limitation of using Action Steps in a business process flow
 
-- Any user customization that uses Action Steps is not supported when importing or exporting solutions.
 - Actions are not available as Action Steps if the input or output parameters are Entity, EntityCollection, or OptionSet (Picklist) types. Actions with more than one EntityReference output parameter or any number of EntityReference input parameters are not available as Action Steps. Actions not associated with a primary entity (global action) are not available as Action Steps.
 
   

@@ -1,9 +1,9 @@
 ---
-title: "Integrate Dynamics 365 for Field Service with a portal in Dynamics 365 | MicrosoftDocs"
+title: "Integrate Dynamics 365 for Field Service with a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to integrate Field Service with a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 12/05/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: 5ef08d6b-37c8-41ea-815b-e4a633786f7d
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Integrate Field Service
 
@@ -24,7 +31,7 @@ Customers can view active and expired agreements that are connected to their acc
 
 ### To create or edit an agreement to be visible on the portal
 
-1.  In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Field Service** &gt; **Service Delivery** &gt; **Agreements**. 
+1. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Field Service** &gt; **Service Delivery** &gt; **Agreements**. 
 2. Select an agreement, or select **+ New** at the top of the page to create a new one. 
 3. In the **Service Account** field on the **General** tab, enter the account the customer is connected to. 
 4. Select the **Expose to Customer** check box. 

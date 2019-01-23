@@ -1,31 +1,35 @@
 ---
-title: "Roll up goal totals (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Roll up goal totals (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "RecalculateRequest message can be used to roll up data in a goal hierarchy. It recalculates the goal rollup field values, such as Goal.ActualMoney or Goal.ActualInteger, for all goals in the hierarchy"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "goal management entities, rolling up goal totals"
-  - "overriding values for rollup goal totals"
-  - "goal management entities, recalculating goal rollup values"
-  - "goal management entities, expiration time for goal rollup fields"
-  - "goal management entities, rolling up data in goal hierarchies"
-  - "rolling up goal totals"
-  - "expiration time for goal rollup fields"
-  - "goal management entities, overriding values for rollup goal totals"
-  - "rolling up data in goal hierarchies"
-  - "recalculating goal rollup values"
+  - goal management entities, rolling up goal totals
+  - overriding values for rollup goal totals
+  - goal management entities, recalculating goal rollup values
+  - goal management entities, expiration time for goal rollup fields
+  - goal management entities, rolling up data in goal hierarchies
+  - rolling up goal totals
+  - expiration time for goal rollup fields
+  - goal management entities, overriding values for rollup goal totals
+  - rolling up data in goal hierarchies
+  - recalculating goal rollup values
 ms.assetid: e7e706f7-0f65-480a-87bc-e11857ad084f
 caps.latest.revision: 25
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Roll up goal totals
 

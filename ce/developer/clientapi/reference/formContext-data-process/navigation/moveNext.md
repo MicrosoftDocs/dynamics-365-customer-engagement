@@ -1,13 +1,17 @@
 ---
-title: "moveNext (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "moveNext (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 97640c6a-816b-4d18-9b0b-e79411787c1a
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # moveNext (Client API reference)
 

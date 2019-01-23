@@ -1,15 +1,19 @@
 ---
-title: "BookingStatus Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "BookingStatus Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the BookingStatus entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # BookingStatus Entity Reference
 
@@ -93,6 +97,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_Description"></a> Description
 
 **Added by**: Unified Resource Scheduling Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Type a detailed description for the booking status.|
@@ -127,6 +132,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_committype"></a> msdyn_committype
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Commit Type|
@@ -152,6 +158,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_FieldServiceStatus"></a> msdyn_FieldServiceStatus
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -178,6 +185,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ImageUrl"></a> msdyn_ImageUrl
 
 **Added by**: Unified Resource Scheduling Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The URL for a web resource image.|
@@ -195,6 +203,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_InternalFlags"></a> msdyn_InternalFlags
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
@@ -212,6 +221,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_StatusColor"></a> msdyn_StatusColor
 
 **Added by**: Unified Resource Scheduling Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -784,6 +794,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_BookingStatus_SyncErrors"></a> BookingStatus_SyncErrors
 
 Same as syncerror entity [BookingStatus_SyncErrors](syncerror.md#BKMK_BookingStatus_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -798,6 +809,7 @@ Same as syncerror entity [BookingStatus_SyncErrors](syncerror.md#BKMK_BookingSta
 ### <a name="BKMK_bookingstatus_DuplicateMatchingRecord"></a> bookingstatus_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [bookingstatus_DuplicateMatchingRecord](duplicaterecord.md#BKMK_bookingstatus_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -812,6 +824,7 @@ Same as duplicaterecord entity [bookingstatus_DuplicateMatchingRecord](duplicate
 ### <a name="BKMK_bookingstatus_DuplicateBaseRecord"></a> bookingstatus_DuplicateBaseRecord
 
 Same as duplicaterecord entity [bookingstatus_DuplicateBaseRecord](duplicaterecord.md#BKMK_bookingstatus_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -826,6 +839,7 @@ Same as duplicaterecord entity [bookingstatus_DuplicateBaseRecord](duplicatereco
 ### <a name="BKMK_bookingstatus_AsyncOperations"></a> bookingstatus_AsyncOperations
 
 Same as asyncoperation entity [bookingstatus_AsyncOperations](asyncoperation.md#BKMK_bookingstatus_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -840,6 +854,7 @@ Same as asyncoperation entity [bookingstatus_AsyncOperations](asyncoperation.md#
 ### <a name="BKMK_bookingstatus_MailboxTrackingFolders"></a> bookingstatus_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [bookingstatus_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bookingstatus_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -854,6 +869,7 @@ Same as mailboxtrackingfolder entity [bookingstatus_MailboxTrackingFolders](mail
 ### <a name="BKMK_bookingstatus_UserEntityInstanceDatas"></a> bookingstatus_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [bookingstatus_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_bookingstatus_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -868,6 +884,7 @@ Same as userentityinstancedata entity [bookingstatus_UserEntityInstanceDatas](us
 ### <a name="BKMK_bookingstatus_ProcessSession"></a> bookingstatus_ProcessSession
 
 Same as processsession entity [bookingstatus_ProcessSession](processsession.md#BKMK_bookingstatus_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -882,6 +899,7 @@ Same as processsession entity [bookingstatus_ProcessSession](processsession.md#B
 ### <a name="BKMK_bookingstatus_BulkDeleteFailures"></a> bookingstatus_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [bookingstatus_BulkDeleteFailures](bulkdeletefailure.md#BKMK_bookingstatus_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -896,6 +914,7 @@ Same as bulkdeletefailure entity [bookingstatus_BulkDeleteFailures](bulkdeletefa
 ### <a name="BKMK_bookingstatus_PrincipalObjectAttributeAccess"></a> bookingstatus_PrincipalObjectAttributeAccess
 
 Same as principalobjectattributeaccess entity [bookingstatus_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_bookingstatus_PrincipalObjectAttributeAccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -910,6 +929,7 @@ Same as principalobjectattributeaccess entity [bookingstatus_PrincipalObjectAttr
 ### <a name="BKMK_bookingstatus_bookableresourcebooking_BookingStatus"></a> bookingstatus_bookableresourcebooking_BookingStatus
 
 Same as bookableresourcebooking entity [bookingstatus_bookableresourcebooking_BookingStatus](bookableresourcebooking.md#BKMK_bookingstatus_bookableresourcebooking_BookingStatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebooking|
@@ -924,6 +944,7 @@ Same as bookableresourcebooking entity [bookingstatus_bookableresourcebooking_Bo
 ### <a name="BKMK_msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid"></a> msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid
 
 Same as bookableresourcebookingheader entity [msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid](bookableresourcebookingheader.md#BKMK_msdyn_bookingstatus_bookableresourcebookingheader_bookingstatusid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebookingheader|
@@ -938,6 +959,7 @@ Same as bookableresourcebookingheader entity [msdyn_bookingstatus_bookableresour
 ### <a name="BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus"></a> msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus
 
 Same as msdyn_bookingsetupmetadata entity [msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus](msdyn_bookingsetupmetadata.md#BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingsetupmetadata|
@@ -952,6 +974,7 @@ Same as msdyn_bookingsetupmetadata entity [msdyn_bookingstatus_msdyn_bookingsetu
 ### <a name="BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus"></a> msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus
 
 Same as msdyn_bookingsetupmetadata entity [msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus](msdyn_bookingsetupmetadata.md#BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingsetupmetadata|
@@ -966,6 +989,7 @@ Same as msdyn_bookingsetupmetadata entity [msdyn_bookingstatus_msdyn_bookingsetu
 ### <a name="BKMK_msdyn_bookingstatus_msdyn_resourceassignment_bookingstatusid"></a> msdyn_bookingstatus_msdyn_resourceassignment_bookingstatusid
 
 Same as msdyn_resourceassignment entity [msdyn_bookingstatus_msdyn_resourceassignment_bookingstatusid](msdyn_resourceassignment.md#BKMK_msdyn_bookingstatus_msdyn_resourceassignment_bookingstatusid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourceassignment|
@@ -980,6 +1004,7 @@ Same as msdyn_resourceassignment entity [msdyn_bookingstatus_msdyn_resourceassig
 ### <a name="BKMK_msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultCanceledBookingStatus"></a> msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultCanceledBookingStatus
 
 Same as msdyn_fieldservicesetting entity [msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultCanceledBookingStatus](msdyn_fieldservicesetting.md#BKMK_msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultCanceledBookingStatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fieldservicesetting|
@@ -994,6 +1019,7 @@ Same as msdyn_fieldservicesetting entity [msdyn_bookingstatus_msdyn_fieldservice
 ### <a name="BKMK_msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultScheduledBookingStatus"></a> msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultScheduledBookingStatus
 
 Same as msdyn_fieldservicesetting entity [msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultScheduledBookingStatus](msdyn_fieldservicesetting.md#BKMK_msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultScheduledBookingStatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fieldservicesetting|
@@ -1055,6 +1081,6 @@ See transactioncurrency Entity [TransactionCurrency_bookingstatus](transactioncu
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.bookingstatus?text=bookingstatus EntityType" />

@@ -1,20 +1,24 @@
 ---
-title: "Retrieve an entity using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Read how to form a GET request using the Dynamics 365 Customer Engagement Web API to retrieve data for an entity specified as the resource with a unique identifier"
-ms.custom: ""
+title: "Retrieve an entity using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Read how to form a GET request using the Dynamics 365 for Customer Engagement Web API to retrieve data for an entity specified as the resource with a unique identifier"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: abae4614-9e03-45e7-94fa-9e6e7225ece5
 caps.latest.revision: 21
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Retrieve an entity using the Web API
@@ -39,10 +43,10 @@ GET [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-0000000000
 To retrieve more than one entity at a time, see [Basic query example](query-data-web-api.md#bkmk_basicQuery) in the [Query Data using the Web API](query-data-web-api.md) topic.
 
 > [!CAUTION]
->  The above example will return all the properties for account record, which is against the performance best practices for retrieving data. This example was just to illustrate how you can do a basic retrieve of an entity instance in Dynamics 365. Because all the properties were returned, we haven't included the response information for the request in this example.
+>  The above example will return all the properties for account record, which is against the performance best practices for retrieving data. This example was just to illustrate how you can do a basic retrieve of an entity instance in Dynamics 365 for Customer Engagement apps. Because all the properties were returned, we haven't included the response information for the request in this example.
 >
 >  As a performance best practice, you must always use the `$select` system query option to limit the properties returned while retrieving data. See the following section, **Retrieve specific properties**, for information about this.
-  
+
 <a name="bkmk_requestProperties"></a>
 
 ## Retrieve specific properties
@@ -74,7 +78,6 @@ OData-Version: 4.0
 "accountid": "00000000-0000-0000-0000-000000000001",  
 "_transactioncurrencyid_value":"b2a6b689-9a39-e611-80d2-00155db44581"  
 }  
-
 ```
 
 When you request certain types of properties you can expect additional read-only properties to be returned automatically.
@@ -149,7 +152,6 @@ OData-Version: 4.0
 "fullname": "Rene Valdes (sample)",  
 "contactid": "ff390c24-9c72-e511-80d4-00155d2a68d1"  
 }
-
 ```
 
 For collection-valued navigation properties you have the option to request to return only references to the related entities or just a count of the related entities.
@@ -169,7 +171,7 @@ OData-Version: 4.0
 HTTP/1.1 200 OK
 Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
-  
+
 {  
 "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Collection($ref)",  
 "value": [  
@@ -181,7 +183,6 @@ OData-Version: 4.0
 }  
 ]  
 }  
-  
 ```
 The following example returns the number of tasks related to a specific account using the Account_Tasks collection-valued navigation property with `/$count` appended.  
 
@@ -191,7 +192,6 @@ GET [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-0000000000
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
-  
 ```
 **Response**
 ```http
@@ -241,7 +241,6 @@ If you simply include the name of the navigation property, you’ll receive all 
     "fullname":"Nancy Anderson (sample)"  
     }  
     }  
-  
   ```
   Instead of returning the related entities for entity instances, you can also return references (links) to the related entities by expanding the single-valued navigation property with the `$ref` option. The following example returns links to the contact record for the account entity.  
 
@@ -258,7 +257,7 @@ If you simply include the name of the navigation property, you’ll receive all 
     HTTP/1.1 200 OK  
     Content-Type: application/json; odata.metadata=minimal  
     OData-Version: 4.0  
-  
+
     {  
     "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name,primarycontactid)/$entity",  
     "@odata.etag":"W/\"550616\"",  
@@ -306,16 +305,16 @@ If you simply include the name of the navigation property, you’ll receive all 
   ]  
   }
   ```
-  
- > [!NOTE]
- > If you expand on collection-valued navigation parameters to retrieve related entities for *entity sets*, a @odata.nextLink property will be returned instead for the related entities. You should use the value of the @odata.nextLink property with a new GET request to return the required data. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Retrieve related entities by expanding navigation properties](query-data-web-api.md#bkmk_expandRelated)
+
+  > [!NOTE]
+  > If you expand on collection-valued navigation parameters to retrieve related entities for *entity sets*, a @odata.nextLink property will be returned instead for the related entities. You should use the value of the @odata.nextLink property with a new GET request to return the required data. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Retrieve related entities by expanding navigation properties](query-data-web-api.md#bkmk_expandRelated)
 
 - **Retrieve related entities for an entity instance by expanding both single-valued and collection-valued navigation properties**: The following example demonstrates how you can expand related entities for an entity instance using both single- and collection-values navigation properties.  
 
   **Request**
 
   ```http 
-    GET [Organization URI]/api/data/v9.0/accounts(99390c24-9c72-e511-80d4-00155d2a68d1)?$select=accountid&$expand=parentaccountid($select%20=%20createdon,%20name),Account_Tasks($select%20=%20subject,%20scheduledstart) HTTP/1.1  
+    GET [Organization URI]/api/data/v9.0/accounts(99390c24-9c72-e511-80d4-00155d2a68d1)?$select=accountid&$expand=parentaccountid($select=createdon,name),Account_Tasks($select=subject,scheduledstart) HTTP/1.1  
     Accept: application/json  
     Content-Type: application/json; charset=utf-8  
     OData-MaxVersion: 4.0  

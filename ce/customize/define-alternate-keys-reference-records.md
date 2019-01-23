@@ -1,26 +1,30 @@
 ---
-title: "Define alternate keys to reference records with PowerApps | MicrosoftDocs"
+title: "Define alternate keys to reference records | MicrosoftDocs"
 description: "Learn how to define alternate keys that can be used to reference records"
-ms.custom: ""
-ms.date: 04/06/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/28/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 29e53691-0b18-4fde-a1d0-7490aa227898
 caps.latest.revision: 10
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Define alternate keys to reference records
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 With *alternate keys*, you can assure an efficient and accurate way of integrating data from external systems. It’s especially important in cases when an external system doesn’t store the record IDs (GUIDs) that uniquely identify records. The alternate keys are not GUIDs and you can use them to uniquely identify records. You must give an alternate key a unique name. You can use one or more entity fields to define the key. For example, to identify an account record with an alternate key, you can use the account name and the account number. You can define alternate keys without writing code, or you can define them programmatically. Note that while you can define alternate keys in the user interface (UI), they can only be used programmatically, in code.  
   

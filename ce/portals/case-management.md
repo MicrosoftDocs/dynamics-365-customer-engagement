@@ -1,18 +1,25 @@
 ---
-title: "Manage cases in Dynamics 365 portals | MicrosoftDocs"
+title: "Manage cases in Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to manage cases in a portal."
-ms.date: 05/29/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 546B2F5F-3DEA-466D-99B8-4D504D38E487
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Manage cases in portals
@@ -64,4 +71,4 @@ This list includes (can be configured): blog posts, web content (web pages), for
 
 ### Turn off case deflection
 
-To turn off case deflection, you must [create a site setting](configure-site-settings.md) named HelpDesk/CaseDeflection/Enabled and set its value to "false".
+To turn off case deflection, you must [create a site setting](configure-site-settings.md) named HelpDesk/CaseDeflection/Enabled and set its value to false.

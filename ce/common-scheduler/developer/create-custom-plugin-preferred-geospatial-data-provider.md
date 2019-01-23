@@ -1,27 +1,35 @@
 ---
 title: "Create custom plug-in to use your preferred geospatial data provider | MicrosoftDocs"
 description: "Provides information on how to create a custom plug-in to use geospatial data provider other than the default Bing Maps in Dynamics 365 for Field Service and Dynamics 365 for Project Service Automation."
-ms.custom:
+ms.custom: 
   - dyn365-developer
   - dyn365-customerservice
 ms.date: 01/29/2018
-searchScope:  
+searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-  - "project-service"
-ms.tgt_pltfrm: ""
-ms.topic: "conceptual"
+  - field-service
+  - project-service
+ms.tgt_pltfrm: 
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2be7f42d-745c-4454-b132-f2a3d47194ae
 author: KumarVivek
 ms.author: kvivek
 manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - D365FS
 ---
 # Create custom plug-in to use your preferred geospatial data provider
 
@@ -38,7 +46,7 @@ There are two ways in which you can view the input and output parameters for the
 - **Web API action reference content**: View reference information about the geospatial actions in Universal Resource Scheduling.
     - <xref:Microsoft.Dynamics.CRM.msdyn_GeocodeAddress>
     - <xref:Microsoft.Dynamics.CRM.msdyn_RetrieveDistanceMatrix>
-- **Action definition**: You can view the action definition in Dynamics 365 for information about the input/output prameters, including information whether a parametr is required or optional.
+- **Action definition**: You can view the action definition in Dynamics 365 for Customer Engagement for information about the input/output prameters, including information whether a parametr is required or optional.
  
     To view an action definition, select **Settings** > **Processes**. Next, search for the action name: **Resource Scheduling - Geocode Address** or **Resource Scheduling - Retrieve Distance Matrix**, and then select the action in the grid to display its definition. For example, here is the definition of the **Resource Scheduling - Geocode Address** (**msdyn_GeocodeAddress**) action where the highlighted area provides information about the input and output parameters:
 

@@ -1,15 +1,19 @@
 ---
-title: "msdyn_scheduleboardsetting Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_scheduleboardsetting Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_scheduleboardsetting entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_scheduleboardsetting Entity Reference
 
@@ -550,6 +554,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_SchedulerBusinessUnitDetailsView"></a> msdyn_SchedulerBusinessUnitDetailsView
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -567,6 +572,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_SchedulerBusinessUnitTooltipView"></a> msdyn_SchedulerBusinessUnitTooltipView
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -584,6 +590,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_SchedulerCoreDetailsView"></a> msdyn_SchedulerCoreDetailsView
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -601,6 +608,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_SchedulerCoreSlotTextTemplate"></a> msdyn_SchedulerCoreSlotTextTemplate
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -618,6 +626,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_SchedulerCoreTooltipView"></a> msdyn_SchedulerCoreTooltipView
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -635,6 +644,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_SchedulerFieldServiceDetailsView"></a> msdyn_SchedulerFieldServiceDetailsView
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -652,6 +662,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_SchedulerFieldServiceSlotTextTemplate"></a> msdyn_SchedulerFieldServiceSlotTextTemplate
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -669,6 +680,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_SchedulerFieldServiceTooltipView"></a> msdyn_SchedulerFieldServiceTooltipView
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -789,6 +801,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_UnscheduledViewId"></a> msdyn_UnscheduledViewId
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -822,6 +835,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_UnscheduledWOTooltipsViewId"></a> msdyn_UnscheduledWOTooltipsViewId
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1049,7 +1063,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1156,7 +1170,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1369,6 +1383,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_scheduleboardsetting_SyncErrors"></a> msdyn_scheduleboardsetting_SyncErrors
 
 Same as syncerror entity [msdyn_scheduleboardsetting_SyncErrors](syncerror.md#BKMK_msdyn_scheduleboardsetting_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1383,6 +1398,7 @@ Same as syncerror entity [msdyn_scheduleboardsetting_SyncErrors](syncerror.md#BK
 ### <a name="BKMK_msdyn_scheduleboardsetting_DuplicateMatchingRecord"></a> msdyn_scheduleboardsetting_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_scheduleboardsetting_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_scheduleboardsetting_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1397,6 +1413,7 @@ Same as duplicaterecord entity [msdyn_scheduleboardsetting_DuplicateMatchingReco
 ### <a name="BKMK_msdyn_scheduleboardsetting_DuplicateBaseRecord"></a> msdyn_scheduleboardsetting_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_scheduleboardsetting_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_scheduleboardsetting_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1411,6 +1428,7 @@ Same as duplicaterecord entity [msdyn_scheduleboardsetting_DuplicateBaseRecord](
 ### <a name="BKMK_msdyn_scheduleboardsetting_AsyncOperations"></a> msdyn_scheduleboardsetting_AsyncOperations
 
 Same as asyncoperation entity [msdyn_scheduleboardsetting_AsyncOperations](asyncoperation.md#BKMK_msdyn_scheduleboardsetting_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1425,6 +1443,7 @@ Same as asyncoperation entity [msdyn_scheduleboardsetting_AsyncOperations](async
 ### <a name="BKMK_msdyn_scheduleboardsetting_MailboxTrackingFolders"></a> msdyn_scheduleboardsetting_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_scheduleboardsetting_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_scheduleboardsetting_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1439,6 +1458,7 @@ Same as mailboxtrackingfolder entity [msdyn_scheduleboardsetting_MailboxTracking
 ### <a name="BKMK_msdyn_scheduleboardsetting_UserEntityInstanceDatas"></a> msdyn_scheduleboardsetting_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_scheduleboardsetting_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_scheduleboardsetting_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1453,6 +1473,7 @@ Same as userentityinstancedata entity [msdyn_scheduleboardsetting_UserEntityInst
 ### <a name="BKMK_msdyn_scheduleboardsetting_ProcessSession"></a> msdyn_scheduleboardsetting_ProcessSession
 
 Same as processsession entity [msdyn_scheduleboardsetting_ProcessSession](processsession.md#BKMK_msdyn_scheduleboardsetting_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1467,6 +1488,7 @@ Same as processsession entity [msdyn_scheduleboardsetting_ProcessSession](proces
 ### <a name="BKMK_msdyn_scheduleboardsetting_BulkDeleteFailures"></a> msdyn_scheduleboardsetting_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_scheduleboardsetting_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_scheduleboardsetting_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1481,6 +1503,7 @@ Same as bulkdeletefailure entity [msdyn_scheduleboardsetting_BulkDeleteFailures]
 ### <a name="BKMK_msdyn_scheduleboardsetting_PrincipalObjectAttributeAccesses"></a> msdyn_scheduleboardsetting_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_scheduleboardsetting_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_scheduleboardsetting_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1495,6 +1518,7 @@ Same as principalobjectattributeaccess entity [msdyn_scheduleboardsetting_Princi
 ### <a name="BKMK_msdyn_msdyn_scheduleboardsetting_msdyn_clientextension_scheduleboardsettingid"></a> msdyn_msdyn_scheduleboardsetting_msdyn_clientextension_scheduleboardsettingid
 
 Same as msdyn_clientextension entity [msdyn_msdyn_scheduleboardsetting_msdyn_clientextension_scheduleboardsettingid](msdyn_clientextension.md#BKMK_msdyn_msdyn_scheduleboardsetting_msdyn_clientextension_scheduleboardsettingid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_clientextension|
@@ -1566,6 +1590,6 @@ See msdyn_configuration Entity [msdyn_msdyn_configuration_msdyn_scheduleboardset
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_scheduleboardsetting?text=msdyn_scheduleboardsetting EntityType" />

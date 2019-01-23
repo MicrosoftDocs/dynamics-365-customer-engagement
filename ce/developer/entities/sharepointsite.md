@@ -1,19 +1,23 @@
 ---
-title: "SharePointSite Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "SharePointSite Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SharePointSite entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # SharePointSite Entity Reference
 
-SharePoint site from where documents can be managed in Microsoft Dynamics 365.
+SharePoint site from where documents can be managed in Microsoft Dynamics 365 for Customer Engagement apps.
 
 
 ## Messages
@@ -118,7 +122,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Entity on which the folder structure for Microsoft Dynamics 365 records will be created in SharePoint.|
+|Description|Entity on which the folder structure for Microsoft Dynamics 365 for Customer Engagement apps records will be created in SharePoint.|
 |DisplayName|Entity for SharePoint Folder Structure|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -356,7 +360,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the SharePoint site in Dynamics 365|
+|Description|Unique identifier of the SharePoint site in Dynamics 365 for Customer Engagement apps|
 |DisplayName|SharePoint Site ID|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -497,7 +501,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |1|This record's URL has not been validated.|
 |2|This record's URL is valid.|
 |3|This record's URL is not valid.|
-|4|The URL schemes of Microsoft Dynamics 365 and SharePoint are different.|
+|4|The URL schemes of Microsoft Dynamics 365 for Customer Engagement apps and SharePoint are different.|
 |5|The URL could not be accessed because of Internet Explorer security settings.|
 |6|Authentication failure.|
 |7|Invalid certificates.|
@@ -931,6 +935,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_sharepointdocumentlocation_parent_sharepointsite"></a> sharepointdocumentlocation_parent_sharepointsite
 
 Same as sharepointdocumentlocation entity [sharepointdocumentlocation_parent_sharepointsite](sharepointdocumentlocation.md#BKMK_sharepointdocumentlocation_parent_sharepointsite) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -945,6 +950,7 @@ Same as sharepointdocumentlocation entity [sharepointdocumentlocation_parent_sha
 ### <a name="BKMK_userentityinstancedata_sharepointsite"></a> userentityinstancedata_sharepointsite
 
 Same as userentityinstancedata entity [userentityinstancedata_sharepointsite](userentityinstancedata.md#BKMK_userentityinstancedata_sharepointsite) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -959,6 +965,7 @@ Same as userentityinstancedata entity [userentityinstancedata_sharepointsite](us
 ### <a name="BKMK_sharepointsite_principalobjectattributeaccess"></a> sharepointsite_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [sharepointsite_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_sharepointsite_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -973,6 +980,7 @@ Same as principalobjectattributeaccess entity [sharepointsite_principalobjectatt
 ### <a name="BKMK_SharePointSite_SyncErrors"></a> SharePointSite_SyncErrors
 
 Same as syncerror entity [SharePointSite_SyncErrors](syncerror.md#BKMK_SharePointSite_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -987,6 +995,7 @@ Same as syncerror entity [SharePointSite_SyncErrors](syncerror.md#BKMK_SharePoin
 ### <a name="BKMK_sharepointsite_parentsite_sharepointsite"></a> sharepointsite_parentsite_sharepointsite
 
 Same as sharepointsite entity [sharepointsite_parentsite_sharepointsite](sharepointsite.md#BKMK_sharepointsite_parentsite_sharepointsite) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointsite|
@@ -1001,6 +1010,7 @@ Same as sharepointsite entity [sharepointsite_parentsite_sharepointsite](sharepo
 ### <a name="BKMK_SharePointSite_DuplicateBaseRecord"></a> SharePointSite_DuplicateBaseRecord
 
 Same as duplicaterecord entity [SharePointSite_DuplicateBaseRecord](duplicaterecord.md#BKMK_SharePointSite_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1015,6 +1025,7 @@ Same as duplicaterecord entity [SharePointSite_DuplicateBaseRecord](duplicaterec
 ### <a name="BKMK_SharePointSite_AsyncOperations"></a> SharePointSite_AsyncOperations
 
 Same as asyncoperation entity [SharePointSite_AsyncOperations](asyncoperation.md#BKMK_SharePointSite_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1029,6 +1040,7 @@ Same as asyncoperation entity [SharePointSite_AsyncOperations](asyncoperation.md
 ### <a name="BKMK_SharePointSite_DuplicateMatchingRecord"></a> SharePointSite_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [SharePointSite_DuplicateMatchingRecord](duplicaterecord.md#BKMK_SharePointSite_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1043,6 +1055,7 @@ Same as duplicaterecord entity [SharePointSite_DuplicateMatchingRecord](duplicat
 ### <a name="BKMK_SharePointSite_ProcessSessions"></a> SharePointSite_ProcessSessions
 
 Same as processsession entity [SharePointSite_ProcessSessions](processsession.md#BKMK_SharePointSite_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1109,6 +1122,6 @@ See systemuser Entity [lk_sharepointsitebase_modifiedby](systemuser.md#BKMK_lk_s
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.sharepointsite?text=sharepointsite EntityType" />

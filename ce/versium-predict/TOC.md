@@ -1,1 +1,1 @@
-﻿# [Versium Predict](versium-predict.md)
+# [Versium Predict](versium-predict.md)

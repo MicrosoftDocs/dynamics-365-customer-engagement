@@ -1,37 +1,46 @@
 ---
-title: "Help and additional resources for Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.custom: ""
+title: "Help and additional resources for Dynamics 365 for Customer Engagement| MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 4cdcdd7b-ced2-40bc-adc4-dd7ea2445e44
 caps.latest.revision: 4
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Help and additional resources
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-There are several resources available to you covering planning, operating, and using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+There are several resources available to you covering planning, operating, and using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
+
+> [!NOTE]
+> To contact technical support, see:
+> - [Enter a support request through the new support center](https://docs.microsoft.com/power-platform/admin/get-help-support)
   
 <a name="help_for_admins"></a>  
  
-## Help for administrators  
+## Help for administrators
 
- The following are useful resources for administering [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]:    
+ The following are useful resources for administering [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps:    
   
--   [Administer Dynamics 365 Customer Engagement](admin-guide.md)  
+-   [Administer Dynamics 365 for Customer Engagement](admin-guide.md)  
   
--   [What's new in Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
-  
+-   [What's new in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
+
 <a name="More_help"></a>   
 
 ## More self-service help resources  
@@ -46,13 +55,13 @@ There are several resources available to you covering planning, operating, and u
 
 ## Security and service continuity  
 
- When a business allows an external service provider to store and manage its data, key considerations must include security, data protection, privacy, and data ownership. [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] takes these concerns seriously and has applied its years of cloud and on-premises experience with security and privacy to delivery of the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] service. This focus is highlighted by the 99.9% uptime provision of the service-level agreement (SLA).  
+ When a business allows an external service provider to store and manage its data, key considerations must include security, data protection, privacy, and data ownership. [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] takes these concerns seriously and has applied its years of cloud and on-premises experience with security and privacy to delivery of the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps service. This focus is highlighted by the 99.9% uptime provision of the service-level agreement (SLA).  
   
 <a name="crmtrustcenter"></a>   
 
-## Microsoft Dynamics 365 (online) Trust Center 
+## Microsoft Dynamics 365 for Customer Engagement apps (online) Trust Center 
  
- [The Microsoft Dynamics 365 (online) Trust Center](https://www.microsoft.com/en-us/TrustCenter/CloudServices/Dynamics365) describes the trust principles concerning security, privacy, service transparency, and compliance in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+ [The Microsoft Dynamics 365 for Customer Engagement apps (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365) describes the trust principles concerning security, privacy, service transparency, and compliance in Customer Engagement apps.  
    
 <a name="support_and_service"></a>   
 
@@ -68,3 +77,4 @@ There are several resources available to you covering planning, operating, and u
    
   
 ### See also  
+ [Contact Technical Support](contact-technical-support.md)

@@ -1,24 +1,32 @@
 ---
 title: "Set and use waitlists for events (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how event waitlists work, how to set them up, and how to invite waiting people when capacity becomes available in  Dynamics 365 for Marketing"
-keywords: "events; waitlist"
-ms.date: 07/06/2018
-ms.service:
-  - "dynamics-365-marketing"
-ms.custom:
-  - "dyn365-marketing"
+keywords: events; waitlist
+ms.date: 12/17/2018
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4aa6d5c3-1b29-46b1-bbf3-9bf260853b20
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+manager: shellyha
+ms.reviewer:
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Set up and manage an event waitlist
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can assign a maximum capacity to each event when needed. When the number of registrations reaches that capacity, the system won't accept any more active registrations, but you can still allow new registrants to add themselves to a waitlist.
 
@@ -35,15 +43,15 @@ When new space becomes available, the waitlist reacts as follows:
 1. The identified waitlist record changes its **Invited** field from **No** to **Yes** to indicate that space is now available for that contact. In addition, one of the following occurs, depending on whether the contact is using automatic registration:
 
     - If the waitlist record has **Automatically register** set to **Yes**, then an event registration record is generated for the contact and the associated waitlist record is hidden. You should create a segment that finds these contacts (where (Automatically-register = Yes) and (Invited = Yes)) and then use a customer journey to send them a notification email that they are now registered.
-    - If the waitlist record has **Automatically register** set to **No**, then nothing happens right away. You should create a segment that finds these contacts (where (Automatically-register = No) and (Invited = Yes)) and then use a customer journey to send them an email that invites them to visit the event portal to accept the slot.
+    - If the waitlist record has **Automatically register** set to **No**, then nothing happens right away. You should create a segment that finds these contacts (where (Automatically-register = No) and (Invited = Yes)) and then use a customer journey to send them an email that invites them to visit the event website to accept the slot.
 
 ## Enable a waitlist for an event
 
 To enable or disable the waitlist for any event:
 
-1. Go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
+1. [Open the Events work area](open-events.md), go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
 
-1. Open the **General** tab and find the **Venue constraints** area.  
+1. Open the **General** tab and find the **Venue constraints** area.
 
     ![Enable the waitlist for an event](media/event-waitlist-enable.png "Enable the waitlist for an event")
 
@@ -53,13 +61,13 @@ To enable or disable the waitlist for any event:
     - **Waitlist this event**: Set to **Yes** to enable the waitlist feature and reveal the **Waitlist** section, which contains the other settings described here.
     - **Number of invitations per slot**: When an extra space becomes available, the system will invite this many contacts from the waitlist, in the same order they joined. Often you will set this to one, but if you are using manual waitlist registration, then you might choose a higher number to increase the chance that at least one contact will follow through with the registration. When a slot opens, the system changes this many waitlist records' **Invited** field from **No** to **Yes**.
     - **Automatically register waitlisted contacts**: Set to **Yes** to automatically register the next contact in line when space becomes available. When this is set to **Yes**, all waitlist records for this event will therefore have their **Automatically register** fields set to **Yes**. When this is set to **No**, then you can choose whether or not to allow contacts to choose this option for themselves while joining the waitlist.
-    - **Contact can choose to be registered automatically**: This option is only shown when  you aren't using automatic registration. Choose **Yes** to provide a check box on the registration form where contacts can choose  to be registered automatically. Choose **No** to use manual registration for all contacts. The **Automatically register** field for each waitlist record will be assigned to match either this option or the choice made by contacts when they join the waitlist.
+    - **Contact can choose to be registered automatically**: This option is only shown when  you aren't using automatic registration. Choose **Yes** to provide a check box on the registration form where contacts can choose  to be registered automatically. Choose **No** to use manual registration for all contacts. The **Automatically register** field for each waitlist record will be assigned to match either this option or the choice made by contacts when they join the waitlist. -->
 
 ## View the waitlist
 
 To see who is currently on the waitlist for any event:
 
-1. Go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
+1. [Open the Events work area](open-events.md), go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
 
 1. Open the **Registration and attendance** tab and scroll down to the **Waitlist** section. (Note that the **Waitlist** section is only shown for events where the waitlist is enabled.)  
 
@@ -87,7 +95,7 @@ Talk to your system administrator to make sure the waitlisted entity is being sy
 
 To create a segment that finds contacts who _are not_ using automatic registration, but who should now be invited to register, do the following:
 
-1. Go to the events list ( **Events** > **Event** > **Events** ), and then open your event.
+1. [Open the Events work area](open-events.md), go to the events list ( **Events** > **Event** > **Events** ), and then open your event.
 
 1. Check the address bar in your browser, which should show a URL such as:  
 
@@ -146,7 +154,7 @@ To create a segment that finds contacts who _have already_ been registered autom
 
 To deliver messages to your waitlist members, set up a customer journey that uses an appropriate segment (such as those described in the previous sections) followed by an email tile that sends a message that matches that segment. Set the journey to run for the entire registration period of your event. That way, each time a waitlist record gets moved to invited = true, the related contact will be added to the segment and will get processed by the journey.
 
-Each email message should inform the recipient about what has happened (auto registered, or invited to register), and include an event block to link to the relevant event portal. The event link is especially important for invites where auto-register is not enabled, but even auto-registered attendees may still need to purchase a ticket on the portal.
+Each email message should inform the recipient about what has happened (auto registered, or invited to register), and include an event element to link to the relevant event website. The event link is especially important for invites where auto-register is not enabled, but even auto-registered attendees may still need to purchase a ticket on the event website.
 
 For a journey sending invites to waitlist contacts who aren't auto-registered, consider adding an event tile as a child of the email-message tile so you can add a trigger that reacts to registration and follows up as needed.
 
@@ -158,5 +166,5 @@ The following example shows a journey that has two parallel paths, one for auto-
 
 ### See also
 
-[Event planning and management in Dynamics 365](event-management.md)  
+[Event planning and management](event-management.md)  
 [Set up an event](set-up-event.md)

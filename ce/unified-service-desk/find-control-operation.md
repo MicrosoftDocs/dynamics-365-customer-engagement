@@ -1,25 +1,31 @@
 ---
-title: "FindControl Operation in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "FindControl Operation in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "The topic describes the two approaches that can be used to identify a user interface (UI) control."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 58f889c3-86d3-4f0d-b39b-9955200b582a
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # FindControl Operation in Unified Service Desk
 This topic describes the two approaches that can be used to identify a user interface (UI) control.  

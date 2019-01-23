@@ -1,20 +1,24 @@
 ---
-title: "Execute batch operations using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Execute batch operations using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Batch operation lets you group multiple operations in a single HTTP request. Read how to execute batch operations using the Web API"
-ms.custom: ""
-ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 05/23/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 799b2346-bda1-4a26-a330-79d0927a7743
 caps.latest.revision: 11
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Execute batch operations using the Web API
 
@@ -205,7 +209,7 @@ Prefer: odata.include-annotations="*"
   
 --batch_AAA123-- 
 ```
-For more information on preference headers, see [Header Prefer](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752234).
+[!INCLUDE[sdk_for_more_info_about](../../includes/sdk-for-more-info-about.md)] preference headers, see [Header Prefer](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752234).
 
 ### See also
 

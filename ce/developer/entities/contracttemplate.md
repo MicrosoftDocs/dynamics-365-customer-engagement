@@ -1,15 +1,19 @@
 ---
-title: "ContractTemplate Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ContractTemplate Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ContractTemplate entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ContractTemplate Entity Reference
 
@@ -735,6 +739,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_ContractTemplate_SyncErrors"></a> ContractTemplate_SyncErrors
 
 Same as syncerror entity [ContractTemplate_SyncErrors](syncerror.md#BKMK_ContractTemplate_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -749,6 +754,7 @@ Same as syncerror entity [ContractTemplate_SyncErrors](syncerror.md#BKMK_Contrac
 ### <a name="BKMK_ContractTemplate_AsyncOperations"></a> ContractTemplate_AsyncOperations
 
 Same as asyncoperation entity [ContractTemplate_AsyncOperations](asyncoperation.md#BKMK_ContractTemplate_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -763,6 +769,7 @@ Same as asyncoperation entity [ContractTemplate_AsyncOperations](asyncoperation.
 ### <a name="BKMK_contracttemplate_MailboxTrackingFolders"></a> contracttemplate_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [contracttemplate_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_contracttemplate_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -777,6 +784,7 @@ Same as mailboxtrackingfolder entity [contracttemplate_MailboxTrackingFolders](m
 ### <a name="BKMK_userentityinstancedata_contracttemplate"></a> userentityinstancedata_contracttemplate
 
 Same as userentityinstancedata entity [userentityinstancedata_contracttemplate](userentityinstancedata.md#BKMK_userentityinstancedata_contracttemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -791,6 +799,7 @@ Same as userentityinstancedata entity [userentityinstancedata_contracttemplate](
 ### <a name="BKMK_ContractTemplate_ProcessSessions"></a> ContractTemplate_ProcessSessions
 
 Same as processsession entity [ContractTemplate_ProcessSessions](processsession.md#BKMK_ContractTemplate_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -805,6 +814,7 @@ Same as processsession entity [ContractTemplate_ProcessSessions](processsession.
 ### <a name="BKMK_ContractTemplate_BulkDeleteFailures"></a> ContractTemplate_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ContractTemplate_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ContractTemplate_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -819,6 +829,7 @@ Same as bulkdeletefailure entity [ContractTemplate_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_contracttemplate_PrincipalObjectAttributeAccesses"></a> contracttemplate_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [contracttemplate_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_contracttemplate_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -833,6 +844,7 @@ Same as principalobjectattributeaccess entity [contracttemplate_PrincipalObjectA
 ### <a name="BKMK_contract_template_contracts"></a> contract_template_contracts
 
 Same as contract entity [contract_template_contracts](contract.md#BKMK_contract_template_contracts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contract|
@@ -879,6 +891,6 @@ See organization Entity [organization_contract_templates](organization.md#BKMK_o
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.contracttemplate?text=contracttemplate EntityType" />

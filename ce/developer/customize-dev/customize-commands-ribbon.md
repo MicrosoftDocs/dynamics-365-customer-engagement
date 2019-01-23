@@ -1,23 +1,27 @@
 ---
-title: "Customize commands and the ribbon (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Dynamics 365 Customer Engagement displays commands in different ways depending on the entity and the client. In most places in the web application you will see a command bar instead of a ribbon. Dynamics 365 for tablets also uses data defined as ribbons to control what commands are available using a command bar that is optimized for touch. "
-ms.custom: ""
-ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Customize commands and the ribbon (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Dynamics 365 for Customer Engagement displays commands in different ways depending on the entity and the client. In most places in the web application you will see a command bar instead of a ribbon. Dynamics 365 for tablets also uses data defined as ribbons to control what commands are available using a command bar that is optimized for touch. "
+ms.custom: 
+ms.date: 09/25/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "ribbon"
-  - "customize, ribbon"
+  - ribbon
+  - customize, ribbon
 ms.assetid: c688a24a-ef2d-4c0b-951b-e6db22382686
 caps.latest.revision: 38
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Customize commands and the ribbon
 
@@ -34,15 +38,9 @@ manager: "amyla"
 > [!NOTE]
 >  Because the underlying XML schema was designed to display commands as ribbons, the term *ribbon* will continue to be used in the documentation.  
   
- The SDK describes the process of editing the ribbon by editing the customization.xml file directly. Several people have created ribbon editors that provide a user interface to make editing the ribbon easier. Currently the following projects are available on [!INCLUDE[pn_codeplex](../../includes/pn-codeplex.md)] and other locations:  
-  
--   [Ribbon Workbench](http://www.develop1.net/public/rwb/ribbonworkbench.aspx)  
-  
--   [MS CRM 2011 : Pragma Toolkit : Ribbon, Site Map Editor](http://pragmatoolkit.codeplex.com/)  
-  
--   [CRM 2011 Visual Ribbon Editor](http://crmvisualribbonedit.codeplex.com/)  
-  
- To obtain support or help to use these programs, contact the program publisher.  
+ The SDK describes the process of editing the ribbon by editing the customization.xml file directly. The most frequently used tool created by the community is the [Ribbon Workbench](http://www.develop1.net/public/rwb/ribbonworkbench.aspx) 
+ 
+To obtain support or help to use this program, contact the program publisher.  
   
   
 ## See also  

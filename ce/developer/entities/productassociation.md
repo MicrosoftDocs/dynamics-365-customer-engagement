@@ -1,15 +1,19 @@
 ---
-title: "ProductAssociation Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ProductAssociation Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ProductAssociation entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ProductAssociation Entity Reference
 
@@ -712,6 +716,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_ProductAssociation_SyncErrors"></a> ProductAssociation_SyncErrors
 
 Same as syncerror entity [ProductAssociation_SyncErrors](syncerror.md#BKMK_ProductAssociation_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -726,6 +731,7 @@ Same as syncerror entity [ProductAssociation_SyncErrors](syncerror.md#BKMK_Produ
 ### <a name="BKMK_ProductAssociation_AsyncOperations"></a> ProductAssociation_AsyncOperations
 
 Same as asyncoperation entity [ProductAssociation_AsyncOperations](asyncoperation.md#BKMK_ProductAssociation_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -740,6 +746,7 @@ Same as asyncoperation entity [ProductAssociation_AsyncOperations](asyncoperatio
 ### <a name="BKMK_productassociation_MailboxTrackingFolders"></a> productassociation_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [productassociation_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_productassociation_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -754,6 +761,7 @@ Same as mailboxtrackingfolder entity [productassociation_MailboxTrackingFolders]
 ### <a name="BKMK_userentityinstancedata_productassociation"></a> userentityinstancedata_productassociation
 
 Same as userentityinstancedata entity [userentityinstancedata_productassociation](userentityinstancedata.md#BKMK_userentityinstancedata_productassociation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -768,6 +776,7 @@ Same as userentityinstancedata entity [userentityinstancedata_productassociation
 ### <a name="BKMK_ProductAssociation_ProcessSessions"></a> ProductAssociation_ProcessSessions
 
 Same as processsession entity [ProductAssociation_ProcessSessions](processsession.md#BKMK_ProductAssociation_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -782,6 +791,7 @@ Same as processsession entity [ProductAssociation_ProcessSessions](processsessio
 ### <a name="BKMK_productassociation_BulkDeleteFailures"></a> productassociation_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [productassociation_BulkDeleteFailures](bulkdeletefailure.md#BKMK_productassociation_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -796,6 +806,7 @@ Same as bulkdeletefailure entity [productassociation_BulkDeleteFailures](bulkdel
 ### <a name="BKMK_ProductAssociation_PrincipalObjectAttributeAccess"></a> ProductAssociation_PrincipalObjectAttributeAccess
 
 Same as principalobjectattributeaccess entity [ProductAssociation_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_ProductAssociation_PrincipalObjectAttributeAccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -810,6 +821,7 @@ Same as principalobjectattributeaccess entity [ProductAssociation_PrincipalObjec
 ### <a name="BKMK_ProductAssociation_DynamicPropertyAssociation"></a> ProductAssociation_DynamicPropertyAssociation
 
 Same as dynamicpropertyassociation entity [ProductAssociation_DynamicPropertyAssociation](dynamicpropertyassociation.md#BKMK_ProductAssociation_DynamicPropertyAssociation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|dynamicpropertyassociation|
@@ -824,6 +836,7 @@ Same as dynamicpropertyassociation entity [ProductAssociation_DynamicPropertyAss
 ### <a name="BKMK_ProductAssociation_DynamicProperty"></a> ProductAssociation_DynamicProperty
 
 Same as dynamicproperty entity [ProductAssociation_DynamicProperty](dynamicproperty.md#BKMK_ProductAssociation_DynamicProperty) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|dynamicproperty|
@@ -838,6 +851,7 @@ Same as dynamicproperty entity [ProductAssociation_DynamicProperty](dynamicprope
 ### <a name="BKMK_productAssociation_quote_details"></a> productAssociation_quote_details
 
 Same as quotedetail entity [productAssociation_quote_details](quotedetail.md#BKMK_productAssociation_quote_details) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quotedetail|
@@ -852,6 +866,7 @@ Same as quotedetail entity [productAssociation_quote_details](quotedetail.md#BKM
 ### <a name="BKMK_productAssociation_opportunity_product"></a> productAssociation_opportunity_product
 
 Same as opportunityproduct entity [productAssociation_opportunity_product](opportunityproduct.md#BKMK_productAssociation_opportunity_product) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityproduct|
@@ -866,6 +881,7 @@ Same as opportunityproduct entity [productAssociation_opportunity_product](oppor
 ### <a name="BKMK_productAssociation_invoice_details"></a> productAssociation_invoice_details
 
 Same as invoicedetail entity [productAssociation_invoice_details](invoicedetail.md#BKMK_productAssociation_invoice_details) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoicedetail|
@@ -880,6 +896,7 @@ Same as invoicedetail entity [productAssociation_invoice_details](invoicedetail.
 ### <a name="BKMK_productAssociation_salesorder_details"></a> productAssociation_salesorder_details
 
 Same as salesorderdetail entity [productAssociation_salesorder_details](salesorderdetail.md#BKMK_productAssociation_salesorder_details) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorderdetail|
@@ -946,6 +963,6 @@ See uom Entity [unit_of_measurement_productassociation](uom.md#BKMK_unit_of_meas
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.productassociation?text=productassociation EntityType" />

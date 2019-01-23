@@ -1,19 +1,23 @@
 ---
-title: "ChannelAccessProfile Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ChannelAccessProfile Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ChannelAccessProfile entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ChannelAccessProfile Entity Reference
 
-Information about permissions needed to access Dynamics 365 through external channels.For internal use only
+Information about permissions needed to access Dynamics 365 for Customer Engagement apps through external channels.For internal use only
 
 
 ## Messages
@@ -327,7 +331,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select the the channel access profiles status.|
+|Description|Select the channel access profiles status.|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -543,7 +547,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the Channel Access Profile used when synchronizing customizations for the Microsoft Dynamics 365 client for Outlook|
+|Description|Unique identifier of the Channel Access Profile used when synchronizing customizations for the Microsoft Dynamics 365 for Customer Engagement client for Outlook|
 |DisplayName|Channel Access Profile Unique Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -1018,6 +1022,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_channelaccessprofile_DuplicateMatchingRecord"></a> channelaccessprofile_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [channelaccessprofile_DuplicateMatchingRecord](duplicaterecord.md#BKMK_channelaccessprofile_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1032,6 +1037,7 @@ Same as duplicaterecord entity [channelaccessprofile_DuplicateMatchingRecord](du
 ### <a name="BKMK_channelaccessprofile_DuplicateBaseRecord"></a> channelaccessprofile_DuplicateBaseRecord
 
 Same as duplicaterecord entity [channelaccessprofile_DuplicateBaseRecord](duplicaterecord.md#BKMK_channelaccessprofile_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1046,6 +1052,7 @@ Same as duplicaterecord entity [channelaccessprofile_DuplicateBaseRecord](duplic
 ### <a name="BKMK_channelaccessprofile_Annotations"></a> channelaccessprofile_Annotations
 
 Same as annotation entity [channelaccessprofile_Annotations](annotation.md#BKMK_channelaccessprofile_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1060,6 +1067,7 @@ Same as annotation entity [channelaccessprofile_Annotations](annotation.md#BKMK_
 ### <a name="BKMK_channelaccessprofile_AsyncOperations"></a> channelaccessprofile_AsyncOperations
 
 Same as asyncoperation entity [channelaccessprofile_AsyncOperations](asyncoperation.md#BKMK_channelaccessprofile_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1074,6 +1082,7 @@ Same as asyncoperation entity [channelaccessprofile_AsyncOperations](asyncoperat
 ### <a name="BKMK_channelaccessprofile_UserEntityInstanceDatas"></a> channelaccessprofile_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [channelaccessprofile_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_channelaccessprofile_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1088,6 +1097,7 @@ Same as userentityinstancedata entity [channelaccessprofile_UserEntityInstanceDa
 ### <a name="BKMK_channelaccessprofile_ProcessSession"></a> channelaccessprofile_ProcessSession
 
 Same as processsession entity [channelaccessprofile_ProcessSession](processsession.md#BKMK_channelaccessprofile_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1102,6 +1112,7 @@ Same as processsession entity [channelaccessprofile_ProcessSession](processsessi
 ### <a name="BKMK_channelaccessprofile_BulkDeleteFailures"></a> channelaccessprofile_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [channelaccessprofile_BulkDeleteFailures](bulkdeletefailure.md#BKMK_channelaccessprofile_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1116,6 +1127,7 @@ Same as bulkdeletefailure entity [channelaccessprofile_BulkDeleteFailures](bulkd
 ### <a name="BKMK_channelaccessprofile_PrincipalObjectAttributeAccess"></a> channelaccessprofile_PrincipalObjectAttributeAccess
 
 Same as principalobjectattributeaccess entity [channelaccessprofile_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_channelaccessprofile_PrincipalObjectAttributeAccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1130,6 +1142,7 @@ Same as principalobjectattributeaccess entity [channelaccessprofile_PrincipalObj
 ### <a name="BKMK_profileruleitem_associated_channelaccessprofile"></a> profileruleitem_associated_channelaccessprofile
 
 Same as channelaccessprofileruleitem entity [profileruleitem_associated_channelaccessprofile](channelaccessprofileruleitem.md#BKMK_profileruleitem_associated_channelaccessprofile) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|channelaccessprofileruleitem|
@@ -1144,6 +1157,7 @@ Same as channelaccessprofileruleitem entity [profileruleitem_associated_channela
 ### <a name="BKMK_ChannelAccessProfile_SyncErrors"></a> ChannelAccessProfile_SyncErrors
 
 Same as syncerror entity [ChannelAccessProfile_SyncErrors](syncerror.md#BKMK_ChannelAccessProfile_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1158,6 +1172,7 @@ Same as syncerror entity [ChannelAccessProfile_SyncErrors](syncerror.md#BKMK_Cha
 ### <a name="BKMK_lk_externalpartyitem_channelaccessprofileid"></a> lk_externalpartyitem_channelaccessprofileid
 
 Same as externalpartyitem entity [lk_externalpartyitem_channelaccessprofileid](externalpartyitem.md#BKMK_lk_externalpartyitem_channelaccessprofileid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|externalpartyitem|
@@ -1229,6 +1244,6 @@ See privilege Entity [ChannelAccessProfile_Privilege](privilege.md#BKMK_ChannelA
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.channelaccessprofile?text=channelaccessprofile EntityType" />

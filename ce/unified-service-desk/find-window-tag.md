@@ -1,25 +1,31 @@
 ---
-title: "FindWindow Tag in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "FindWindow Tag in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "The <FindWindow> tag consists of a list of child elements that represent a sequence of match operations, all of which need to succeed for the target window to be considered found."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 1e3efa2f-e888-4a92-a32a-1990735fd936
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # FindWindow Tag in Unified Service Desk
 The `<FindWindow>` tag consists of a list of child elements that represent a sequence of match operations, all of which need to succeed for the target window to be considered found.  
@@ -96,17 +102,17 @@ element ControlId { attribute match { xsd:integer }?, text }*
   
  In the preceding `XML` example, the elements have the following definitions:  
   
--   `<Application/>` – Sets the context window to the top-level window of the application. By default, the context is initialized to the top-level window before the first child node in \<FindWindow/>.  
+- `<Application/>` – Sets the context window to the top-level window of the application. By default, the context is initialized to the top-level window before the first child node in \<FindWindow/>.  
   
--   `<Desktop/>` – Sets the context window to the root-level desktop window.  
+- `<Desktop/>` – Sets the context window to the root-level desktop window.  
   
--   \<Caption match="1">Font\</Caption> – Searches the window hierarchy, starting at the current context window and working down the hierarchy, for the first window with caption text that matches the text provided. If `match="2"`, it searches for the second window with caption text that matches the provided text. If no `match` attribute is provided,  `match="1"` is the default. The text comparison is a substring match against the caption text. If the provided text can be found as a substring in the subject window's caption, it is considered a match. The successful matching window becomes the new context window. If no match is found, the search fails. By default, only windows that belong to the same `ProcessId` and `ThreadId` are considered a match.  
+- \<Caption match="1">Font\</Caption> – Searches the window hierarchy, starting at the current context window and working down the hierarchy, for the first window with caption text that matches the text provided. If `match="2"`, it searches for the second window with caption text that matches the provided text. If no `match` attribute is provided,  `match="1"` is the default. The text comparison is a substring match against the caption text. If the provided text can be found as a substring in the subject window's caption, it is considered a match. The successful matching window becomes the new context window. If no match is found, the search fails. By default, only windows that belong to the same `ProcessId` and `ThreadId` are considered a match.  
   
--   `<Class>#32770</Class>` – Searches the window hierarchy, for the first window with class text that matches the provided text. All other behavioral details are identical to `<Caption/>.`  
+- `<Class>#32770</Class>` – Searches the window hierarchy, for the first window with class text that matches the provided text. All other behavioral details are identical to `<Caption/>.`  
   
--   `<ControlId>7d</ControlId>` – Searches the window hierarchy, for the first window with a control ID that matches the provided value. This must be an exact match. All other behavioral details are identical to `<Caption/>`.  
+- `<ControlId>7d</ControlId>` – Searches the window hierarchy, for the first window with a control ID that matches the provided value. This must be an exact match. All other behavioral details are identical to `<Caption/>`.  
   
- The following XML searches for the window with the caption **OK** in the first window with the caption **Font** and the class ID 32770, starting at the desktop.  
+  The following XML searches for the window with the caption **OK** in the first window with the caption **Font** and the class ID 32770, starting at the desktop.  
   
 ```xml  
 <FindWindow>  

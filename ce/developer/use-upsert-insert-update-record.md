@@ -1,20 +1,24 @@
 ---
-title: "Use Upsert to insert or update a record (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "UpsertRequest(Update or Insert) message helps you simplify various data integration scenarios where you do not know if a record already exists in Dynamics 365. In such cases you won’t know if you should call an UpdateRequest or a CreateRequest operation. This results in your querying for the record first to determine if it exists before performing the appropriate operation. UpsertRequest message helps you solve that issue"
-ms.custom: ""
+title: "Use Upsert to insert or update a record (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+description: "UpsertRequest(Update or Insert) message helps you simplify various data integration scenarios where you do not know if a record already exists in Dynamics 365 for Customer Engagement apps. In such cases you won’t know if you should call an UpdateRequest or a CreateRequest operation. This results in your querying for the record first to determine if it exists before performing the appropriate operation. UpsertRequest message helps you solve that issue"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: bfa82c05-13d3-488b-a094-4097d2aafa2f
 caps.latest.revision: 19
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use Upsert to insert or update a record
 
@@ -36,37 +40,37 @@ You can reduce the complexity involved with data integration scenarios by using 
 ## Understanding the Upsert process  
  The following steps describe the processing logic when an <xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest> is received:  
   
-1.  Send <xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest> with enough data for a create or insert operation.  
+1. Send <xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest> with enough data for a create or insert operation.  
   
 2. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will look up the record targeted by the target entity.  
   
-3.  If the record exists:  
+3. If the record exists:  
   
-    1.  Set the ID property of the target entity with the ID of the found record.  
+   1.  Set the ID property of the target entity with the ID of the found record.  
   
-    2.  Call Update.  
+   2.  Call Update.  
   
-    3.  Set the <xref:Microsoft.Xrm.Sdk.Messages.UpsertResponse.RecordCreated> to `false`.  
+   3.  Set the <xref:Microsoft.Xrm.Sdk.Messages.UpsertResponse.RecordCreated> to `false`.  
   
-    4.  Create an <xref:Microsoft.Xrm.Sdk.EntityReference> from the target entity of the update as the value for <xref:Microsoft.Xrm.Sdk.Messages.UpsertResponse.Target>.  
+   4.  Create an <xref:Microsoft.Xrm.Sdk.EntityReference> from the target entity of the update as the value for <xref:Microsoft.Xrm.Sdk.Messages.UpsertResponse.Target>.  
   
-    5.  Return the <xref:Microsoft.Xrm.Sdk.Messages.UpsertResponse>.  
+   5.  Return the <xref:Microsoft.Xrm.Sdk.Messages.UpsertResponse>.  
   
-4.  If the record doesn’t exist:  
+4. If the record doesn’t exist:  
   
-    1.  Copy any alternate key values into the target entity attributes.  
+   1.  Copy any alternate key values into the target entity attributes.  
   
-    2.  Call `Create`.  
+   2.  Call `Create`.  
   
-    3.  Set the <xref:Microsoft.Xrm.Sdk.Messages.UpsertResponse.RecordCreated> to `true`.  
+   3.  Set the <xref:Microsoft.Xrm.Sdk.Messages.UpsertResponse.RecordCreated> to `true`.  
   
-    4.  Create an <xref:Microsoft.Xrm.Sdk.EntityReference> from the target entity type and the ID result of the `Create` request as the value for <xref:Microsoft.Xrm.Sdk.Messages.UpsertResponse.Target>.  
+   4.  Create an <xref:Microsoft.Xrm.Sdk.EntityReference> from the target entity type and the ID result of the `Create` request as the value for <xref:Microsoft.Xrm.Sdk.Messages.UpsertResponse.Target>.  
   
-    5.  Return the <xref:Microsoft.Xrm.Sdk.Messages.UpsertResponse>.  
+   5.  Return the <xref:Microsoft.Xrm.Sdk.Messages.UpsertResponse>.  
   
- The following illustration shows the process that unfolds when an <xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest> is received.  
+   The following illustration shows the process that unfolds when an <xref:Microsoft.Xrm.Sdk.Messages.UpsertRequest> is received.  
   
- ![upsert process flow](media/upsert-flowchart-dynamics-crm-2015.png "upsert process flow")  
+   ![upsert process flow](media/upsert-flowchart-dynamics-crm-2015.png "upsert process flow")  
   
 <a name="BKMK_SampleCode"></a>   
 ## Sample code  

@@ -1,23 +1,28 @@
 ---
-title: "About Unified Interface Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "About Unified Interface Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Introducing the new Unified Interface."
-ms.custom: ""
-ms.date: 07/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/15/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 64987a8b-21e4-4c2a-9366-39dabef90bb1
 caps.latest.revision: 21
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
-# About Unified Interface
+# About Unified Interface 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -31,7 +36,7 @@ The new Unified Interface brings all the rich experiences to any client that you
 > - We now support right-to-left (RTL) languages.
 > - All experiences on Unified Interface have accessibility improvements. 
 
-## Capabilities available in Unified Interface with Dynamics 365, version 9.0 
+## Capabilities available in Unified Interface with Dynamics 365 for Customer Engagement, version 9.0 
 
 Most of the core functionalities of sales and customer service have moved to the Unified Interface client. 
 
@@ -51,7 +56,7 @@ They will have familiar capabilities on Unified Interface and will also discover
 
 **Business process enhancement** - The business process flow has been improved by the docking mechanism. You can dock the business process stage on your screen to help you stay focused on the task at hand in your business process flow. This is especially useful when the stage of the process has complex steps to complete. 
 
-**Reference panel** - Use the reference panel for apps built on Unified Interface like Dynamics 365 for Customer Service. The reference panel is a great way to get work done without clicking away from the screen you are on. You can look up other things like knowledge base articles within the context of the record you are viewing. 
+**Reference panel** - Use the reference panel for apps built on Unified Interface like Dynamics 365 for Customer Engagement apps for Customer Service. The reference panel is a great way to get work done without clicking away from the screen you are on. You can look up other things like knowledge base articles within the context of the record you are viewing. 
 
 **Navigation** - The new menu options let you swiftly navigate the different apps in the system. It provides quick access to recently viewed records and pinned favorites. 
 
@@ -66,25 +71,28 @@ Unified interface experiences are based on [model-driven apps](https://docs.micr
 Unified interface is a metadata driven experience. All controls experiences are built on the control framework that is extensible and provides a uniform experience across clients. The app display reflows to the viewport size the user is working in. 
 
 ## Getting started with Unified Interface experience
-When you are provisioning a new Dynamics 365 org, depending on whether you are provisioning for Sales, Customer service, Field service, Project service automation, all the options, or an org with no customization, you will see the following Unified Interface apps:
+When you are provisioning a new Dynamics 365 for Customer Engagement apps org, depending on whether you are provisioning for Sales, Customer service, Field service, Project service automation, all the options, or an org with no customization, you will see the following Unified Interface apps:
 
-|Choice while provisioning  |Unified Interface apps  |
+|Choice while provisioning  |Unified Interface apps |
 |---------|---------|
 |Sales     |Sales Hub         |
 |Customer service     |Customer Service Hub         |
 |Field service     |Field Resource Hub         |
 |Project service automation     |Project Resource Hub          |
-|None     |Dynamics 365 Hub         |
-|All      |All the above except Dynamics 365 Hub         |
+|None     |Dynamics 365 for Customer Engagement apps Hub         |
+|All      |All the above except Dynamics 365 for Customer Engagement apps Hub         |
 
 ![Unified Interface apps](media/uci-apps.png "Unified Interface apps")
+
+> [!NOTE]
+> [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] always uses the Unified Interface and is  [provisioned separately](../marketing/trial-signup.md).
 
 ### Accessing Unified Interface apps on browsers
 Once provisioned, you can access the installed Unified Interface and web apps from multiple interfaces. On browsers you can see all the apps both Unified Interface and web: 
 
 1. In [https://home.dynamics.com/](https://home.dynamics.com/)
 
-   ![Dynamics 365 Home page](media/uci-home-dynamics.png "Dynamics 365 Home page")
+   ![Dynamics 365 for Customer Engagement apps Home page](media/uci-home-dynamics.png "Dynamics 365 for Customer Engagement apps Home page")
 
 2. In app navigation
 
@@ -95,7 +103,7 @@ Once provisioned, you can access the installed Unified Interface and web apps fr
    ![Unified Interface apps on My Apps page](media/uci-my-apps-page.png "Unified Interface apps on My Apps page")
 
 ### Accessing Unified Interface apps on phone and tablets
-Unified interface apps are the only apps supported on phones and tablets for Dynamics 365, version 9.0. When a user logs into the above org, they will only see the Unified Interface apps on their apps landing page. 
+Unified interface apps are the only apps supported on phones and tablets for Dynamics 365 for Customer Engagement, version 9.0. When a user logs into the above org, they will only see the Unified Interface apps on their apps landing page. 
 
 |  | |  |
 |---------|---------|---------|
@@ -110,42 +118,32 @@ In case you have requirements to create your own experience on Unified Interface
 
 ## Capabilities not yet on Unified Interface
 
-There are certain experiences that are currently not available on Unified Interface. We are working to provide these in future releases. We've added an option to switch to classic mode (select ![Settings gear](../basics/media/settings-gear-icon.png "Settings gear")), which enables easy access to missing experiences in the browser.
+We released some capabilities of the legacy web client in the Unified Interface that are available in the hybrid experience. You can [enable the hybrid experience](enable-hybrid-experience.md) to get them in the browser client.
 
-The following are not currently available with Unified Interface:
+There are certain capabilities that continue to be unavailable in the Unified Interface and we are working to provide these in future releases:
 
-- Advanced Find 
-- Bulk edit 
-- Merge records
-- Record sharing
-- All options under **Set Personal Options** (![Settings gear](../basics/media/settings-gear-icon.png "Settings gear"))
-- Chart drill down 
-- Learning Path
-- Creating personal dashboards and charts
-- Creating personal views
-- Charts as visualization for sub-grids on forms 
-- Activities roll-up view
-- Creating email template with slugs 
-- Creating duplicate detection jobs
-- Composite address control 
-- Run workflow
-- Filtering on read-only grids 
-- Run report (SSRS)
-- Letter, Fax, Recurring Appointments 
-- Campaign management – campaigns, campaign activities and quick campaign
-- Goal management
-- Marketing list 
-- Position entity 
-- Global notifications
-- Admin experiences 
-- Editable grids on phones 
+- Audit Trail
+-	Creating personal charts
+-	Custom styling of advanced chart properties (excluding colors and basic formatting)
+-	Reports entity (experiences to create and manage SSRS reports; excludes Run Report)
+-	Third-party search provider (Coveo search)
+-	Composite address control
+-	Letter, Fax, Recurring Appointments
+-	Global notifications
+-	Admin experiences
+-	Editable grids on phones
+-	Learning Path
 
 ## Read-only entities on Unified Interface
 
 There are certain entities that are currently read-only on Unified Interface. Users will not be able to make changes to these entity records within an Unified Interface app. We are working to make them editable in future releases.
 
+> [!NOTE]
+> Some entities are being deprecated. Check out [Important changes (deprecations) coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#contracts-contract-line-items-and-contract-templates-entities-are-deprecated).
+
 The following are entities that are currently read-only in Unified Interface:
 
+- Connection Role
 - EmailSignature
 - Entitlement
 - KnowledgeArticleViews

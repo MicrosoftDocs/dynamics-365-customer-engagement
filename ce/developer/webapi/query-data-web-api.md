@@ -1,20 +1,24 @@
 ---
-title: "Query Data using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Read about the various ways to query Dynamics 365 data using the Dynamics 365 Customer Engagement Web API and various system query options that can be applied in these queries"
-ms.custom: ""
-ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Query Data using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Read about the various ways to query Dynamics 365 for Customer Engagement data using the Dynamics 365 for Customer Engagement Web API and various system query options that can be applied in these queries"
+ms.custom: 
+ms.date: 01/18/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: fc3ade34-9c4e-4c33-88a4-aa3842c5eee1
 caps.latest.revision: 78
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Query Data using the Web API
 
@@ -197,20 +201,22 @@ GET [Organization URI]/api/data/v9.0/accounts?$select=name,revenue
 <a name="bkmk_buildInQueryFunctions"></a>
 
 ### Standard query functions  
- The web API supports these standard OData string query functions.  
-  
+ 
+ OData string query functions:
+ 
 |Function|Example|  
 |--------------|-------------|  
 |`contains`|`$filter=contains(name,'(sample)')`|  
 |`endswith`|`$filter=endswith(name,'Inc.')`|  
-|`startswith`|`$filter=startswith(name,'a')`|  
+|`startswith`|`$filter=startswith(name,'a')`|
+
   
 > [!NOTE]
 >  This is a sub-set of the [11.2.5.1.2 Built-in Query Functions](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html). `Date`, `Math`, `Type`, `Geo` and other string functions aren’t supported in the web API.  
   
 ### [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web API query functions
  
- [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement provides a number of special functions that accept parameters, return Boolean values, and can be used as filter criteria in a query. See <xref:Microsoft.Dynamics.CRM.QueryFunctionIndex> for a list of these functions. The following is an example of the <xref href="Microsoft.Dynamics.CRM.Between?text=Between Function" /> searching for accounts with a number of employees between 5 and 2000.  
+ [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps provides a number of special functions that accept parameters, return Boolean values, and can be used as filter criteria in a query. See <xref:Microsoft.Dynamics.CRM.QueryFunctionIndex> for a list of these functions. The following is an example of the <xref href="Microsoft.Dynamics.CRM.Between?text=Between Function" /> searching for accounts with a number of employees between 5 and 2000.  
   
 ```http 
 GET [Organization URI]/api/data/v9.0/accounts?$select=name,numberofemployees&$filter=Microsoft.Dynamics.CRM.Between(PropertyName='numberofemployees',PropertyValues=["5","2000"])  
@@ -229,6 +235,24 @@ GET [Organization URI]/api/data/v9.0/accounts?$select=name,revenue,&$orderby=rev
 ```  
   
 <a name="bkmk_useParameterAliases"></a>
+
+## Aggregate and Grouping results
+
+By using `$apply` you can aggregate and group your data dynamically.  Possible use cases with `$apply`:
+
+|Use Case|Example|
+|--------------|-------------| 
+|List of unique statuses in the query|`$apply=groupby((statuscode))`|
+|Aggregate sum of the estimated value|`$apply=aggregate(estimatedvalue with sum as total)`|
+|Average size of the deal based on estimated value and status|`$apply=groupby((statuscode),aggregate(estimatedvalue with average as averagevalue)`|
+|Sum of estimated value based on status|`$apply=groupby((statuscode),aggregate(estimatedvalue with sum as total))`|
+|Total opportunity revenue by Account name|`$apply=groupby((parentaccountid/name),aggregate(estimatedvalue with sum as total))`|
+|Last created record date and time|`$apply=aggregate(createdon with max as lastCreate)`|
+|First created record date and time|`$apply=aggregate(createdon with min as firstCreate)`|
+
+The aggregate functions are limited to a collection of 50,000 records.  Further information around using aggregate functionality with Dynamics 365 for Customer Engagement apps can be found here: [Use FetchXML to construct a query](../org-service/use-fetchxml-construct-query.md)
+
+Additional details on OData data aggregation can be found here: [http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs01/odata-data-aggregation-ext-v4.0-cs01.html](http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs01/odata-data-aggregation-ext-v4.0-cs01.html).  Note that Dynamics 365 for Customer Engagement apps only supports a sub-set of these aggregate methods.
 
 ## Use parameter aliases with system query options
 
@@ -398,7 +422,7 @@ Preference-Applied: odata.include-annotations="OData.Community.Display.V1.Format
  **Request**  
 
 ```http 
-GET [Organization URI]/api/data/v9.0/incidents(39dd0b31-ed8b-e511-80d2-00155d2a68d4)?$select=title,customerid_value&$expand=customerid_contact($select=fullname) HTTP/1.1  
+GET [Organization URI]/api/data/v9.0/incidents(39dd0b31-ed8b-e511-80d2-00155d2a68d4)?$select=title,_customerid_value&$expand=customerid_contact($select=fullname) HTTP/1.1  
 Accept: application/json  
 Content-Type: application/json; charset=utf-8  
 OData-MaxVersion: 4.0  
@@ -517,15 +541,15 @@ Preference-Applied: odata.include-annotations="*"
 
  Use the `$expand` system query option in the navigation properties to control what data from related entities is returned. There are two types of navigation properties:  
   
--   *Single-valued* navigation properties correspond to Lookup attributes that support many-to-one relationships and allow setting a reference to another entity.  
+- *Single-valued* navigation properties correspond to Lookup attributes that support many-to-one relationships and allow setting a reference to another entity.  
   
--   *Collection-valued* navigation properties correspond to one-to-many or many-to-many relationships.  
+- *Collection-valued* navigation properties correspond to one-to-many or many-to-many relationships.  
   
- If you include only the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the `$select` system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.  
+  If you include only the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the `$select` system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.  
   
 > [!NOTE]
 >  The capability to retrieve  related entities for entity sets was introduced in [!INCLUDE[pn_crm_8_1_0_online](../../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_1_0_op](../../includes/pn-crm-8-1-0-op.md)].  
->   
+> 
 >  To retrieve related entities for an entity instance, see [Retrieve related entities for an entity by expanding navigation properties](retrieve-entity-using-web-api.md#bkmk_expandRelated).  
   
 - **Retrieve related entities by expanding single-valued navigation properties**: The following example demonstrates how to retrieve the contact for all the account records. For the related contact records, we are only retrieving the contactid and fullname.  
@@ -767,7 +791,7 @@ Instead of returning the related entities for entity sets, you can also return r
 
 You cannot use OData $filter to set criteria that applies to values in collection valued navigation properties in a single operation.
 You have two options:
-*	Construct a query using FetchXML.  More information: Use custom FetchXML
+*	Construct a query using FetchXML.  More information: [Build queries with FetchXML](../org-service/build-queries-fetchxml.md).
 *	Iterate over results filtering individual entities based on values in the collection using multiple operations.
 
 Generally, using FetchXML should provide better performance because the filtering can be applied server-side in a single operation. The example shown below illustrates how to apply filter on values of collection properties for a link-entity.

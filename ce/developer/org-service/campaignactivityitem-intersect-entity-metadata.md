@@ -1,20 +1,24 @@
 ---
-title: "CampaignActivityItem intersect entity metadata (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "CampaignActivityItem intersect entity metadata (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The CampaignActivityItem intersect entity is the intersect table for the following many-to-many relationships for the CampaignActivity entity"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d2d7d3ee-c6e1-4c86-844f-68f9b5c843b8
 caps.latest.revision: 19
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # CampaignActivityItem intersect entity metadata
 

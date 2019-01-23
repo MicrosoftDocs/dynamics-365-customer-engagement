@@ -1,13 +1,17 @@
 ---
-title: "addOnStageChange (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "addOnStageChange (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/20/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: d18136d2-a3cf-4440-8e6b-1703594acd79
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # addOnStageChange (Client API reference)
 

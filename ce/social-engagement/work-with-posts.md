@@ -1,19 +1,26 @@
 ---
 title: "Work with posts in Social Engagement | Microsoft Docs"
 description: "Learn how to interact with posts and how to perform internal actions."
-keywords: "publish, sentiment, tag, assign"
+keywords: publish, sentiment, tag, assign
 ms.date: 10/17/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
-  - "Social Engagement"
+applies_to: 
+  - Social Engagement
 ms.assetid: bf6392aa-e9e1-44b6-8f80-f17c21caa793
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Work with posts
@@ -85,12 +92,12 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engageme
   
 > [!TIP]
 >  To see the posts assigned to a user or a group, apply an **Assignee** filter. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get to know your filters](understand-filters.md)  
->   
+> 
 >  For more information about groups, see [Work with Office 365 Groups in Social Engagement](office-365-groups-social-engagement.md).  
   
 <a name="Add_a_custom_tag"></a>   
 ## Add or remove tags  
- Social engagement allows intention tags and custom tags to be added to posts. Intention tags are predefined tags that are automatically added once a post is acquired. Custom tags are different from intention tags because they are not predefined and need to be manually added. Custom tags can't be automatically added to posts unless they are promoted to auto tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tag posts with intention tags and custom tags](tags.md)  
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] allows intention tags and custom tags to be added to posts. Intention tags are predefined tags that are automatically added once a post is acquired. Custom tags are different from intention tags because they are not predefined and need to be manually added. Custom tags can't be automatically added to posts unless they are promoted to auto tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tag posts with intention tags and custom tags](tags.md)  
   
 1.  Click **Posts** on the right side of any Analytics page to see the posts list.  
   
@@ -107,9 +114,9 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engageme
  You may find posts in your data set that match one of your search topics but are irrelevant in your context. It’s easy to remove those posts. Reduce unwanted noise by deleting posts from your solution’s database. Once a post is deleted, it can’t be restored and it will no longer count against your solution’s monthly post quota.  
   
 > [!NOTE]
->  -   You can’t undo this action, and Support can’t restore deleted posts.  
-> -   Deleting a post also deletes associated data like notes, sentiment edits, user assignments, labels, or information about linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records assigned to a post.  
-> -   Please be aware that tweets which are deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] will also be deleted in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to meet the expectation and intent of users. The information if a tweet was deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] will not be disclosed.  
+> - You can’t undo this action, and Support can’t restore deleted posts.  
+>   - Deleting a post also deletes associated data like notes, sentiment edits, user assignments, labels, or information about linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records assigned to a post.  
+>   - Please be aware that tweets which are deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] will also be deleted in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to meet the expectation and intent of users. The information if a tweet was deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] will not be disclosed.  
   
  You must have at least a Power Analyst Analytics role to perform this task.  
   
@@ -132,8 +139,8 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engageme
 4.  Click **Remove** and then confirm your selection.  
   
 <a name="link_post"></a>   
-## Link a post from Social Engagement to Dynamics 365  
- [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] allows users to create a link from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to an entity in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance. When you link a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, it creates a social activity. Your administrator can define rules to process this social activity in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
+## Link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to Dynamics 365 for Customer Engagement  
+ [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] allows users to create a link from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to an entity in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance. When you link a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, it creates a social activity. Your administrator can define rules to process this social activity in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 for Customer Engagement record from a social post](create-dynamics-365-record-from-social-post.md)  
   
 <a name="privacy"></a>   
 ### Privacy notice  

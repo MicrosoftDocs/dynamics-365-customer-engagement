@@ -1,15 +1,19 @@
 ---
-title: "Appointment Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Appointment Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Appointment entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Appointment Entity Reference
 
@@ -198,7 +202,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Value|Label|
 |-----|-----|
 |0|None|
-|1|The appointment was saved as a Microsoft Dynamics 365 appointment record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.|
+|1|The appointment was saved as a Microsoft Dynamics 365 for Customer Engagement apps appointment record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.|
 
 
 
@@ -238,7 +242,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the ID of the appointment in Microsoft Office Outlook. The ID is used to synchronize the appointment between Microsoft Dynamics 365 and the correct Exchange account.|
+|Description|Shows the ID of the appointment in Microsoft Office Outlook. The ID is used to synchronize the appointment between Microsoft Dynamics 365 for Customer Engagement apps and the correct Exchange account.|
 |DisplayName|Outlook Appointment|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -682,6 +686,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
 **Added by**: Activities Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the appointment's status.|
@@ -934,7 +939,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1120,7 +1125,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1447,6 +1452,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_appointment_campaignresponse"></a> appointment_campaignresponse
 
 Same as campaignresponse entity [appointment_campaignresponse](campaignresponse.md#BKMK_appointment_campaignresponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1461,6 +1467,7 @@ Same as campaignresponse entity [appointment_campaignresponse](campaignresponse.
 ### <a name="BKMK_appointment_PostFollows"></a> appointment_PostFollows
 
 Same as postfollow entity [appointment_PostFollows](postfollow.md#BKMK_appointment_PostFollows) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postfollow|
@@ -1475,6 +1482,7 @@ Same as postfollow entity [appointment_PostFollows](postfollow.md#BKMK_appointme
 ### <a name="BKMK_Appointment_DuplicateMatchingRecord"></a> Appointment_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Appointment_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Appointment_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1489,6 +1497,7 @@ Same as duplicaterecord entity [Appointment_DuplicateMatchingRecord](duplicatere
 ### <a name="BKMK_Appointment_ProcessSessions"></a> Appointment_ProcessSessions
 
 Same as processsession entity [Appointment_ProcessSessions](processsession.md#BKMK_Appointment_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1503,6 +1512,7 @@ Same as processsession entity [Appointment_ProcessSessions](processsession.md#BK
 ### <a name="BKMK_appointment_connections1"></a> appointment_connections1
 
 Same as connection entity [appointment_connections1](connection.md#BKMK_appointment_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1517,6 +1527,7 @@ Same as connection entity [appointment_connections1](connection.md#BKMK_appointm
 ### <a name="BKMK_appointment_activity_parties"></a> appointment_activity_parties
 
 Same as activityparty entity [appointment_activity_parties](activityparty.md#BKMK_appointment_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1531,6 +1542,7 @@ Same as activityparty entity [appointment_activity_parties](activityparty.md#BKM
 ### <a name="BKMK_userentityinstancedata_appointment"></a> userentityinstancedata_appointment
 
 Same as userentityinstancedata entity [userentityinstancedata_appointment](userentityinstancedata.md#BKMK_userentityinstancedata_appointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1545,6 +1557,7 @@ Same as userentityinstancedata entity [userentityinstancedata_appointment](usere
 ### <a name="BKMK_Appointment_Annotation"></a> Appointment_Annotation
 
 Same as annotation entity [Appointment_Annotation](annotation.md#BKMK_Appointment_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1559,6 +1572,7 @@ Same as annotation entity [Appointment_Annotation](annotation.md#BKMK_Appointmen
 ### <a name="BKMK_appointment_connections2"></a> appointment_connections2
 
 Same as connection entity [appointment_connections2](connection.md#BKMK_appointment_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1573,6 +1587,7 @@ Same as connection entity [appointment_connections2](connection.md#BKMK_appointm
 ### <a name="BKMK_Appointment_DuplicateBaseRecord"></a> Appointment_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Appointment_DuplicateBaseRecord](duplicaterecord.md#BKMK_Appointment_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1587,6 +1602,7 @@ Same as duplicaterecord entity [Appointment_DuplicateBaseRecord](duplicaterecord
 ### <a name="BKMK_slakpiinstance_appointment"></a> slakpiinstance_appointment
 
 Same as slakpiinstance entity [slakpiinstance_appointment](slakpiinstance.md#BKMK_slakpiinstance_appointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -1601,6 +1617,7 @@ Same as slakpiinstance entity [slakpiinstance_appointment](slakpiinstance.md#BKM
 ### <a name="BKMK_Appointment_SyncErrors"></a> Appointment_SyncErrors
 
 Same as syncerror entity [Appointment_SyncErrors](syncerror.md#BKMK_Appointment_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1615,6 +1632,7 @@ Same as syncerror entity [Appointment_SyncErrors](syncerror.md#BKMK_Appointment_
 ### <a name="BKMK_Appointment_AsyncOperations"></a> Appointment_AsyncOperations
 
 Same as asyncoperation entity [Appointment_AsyncOperations](asyncoperation.md#BKMK_Appointment_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1629,6 +1647,7 @@ Same as asyncoperation entity [Appointment_AsyncOperations](asyncoperation.md#BK
 ### <a name="BKMK_appointment_actioncard"></a> appointment_actioncard
 
 Same as actioncard entity [appointment_actioncard](actioncard.md#BKMK_appointment_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -1643,6 +1662,7 @@ Same as actioncard entity [appointment_actioncard](actioncard.md#BKMK_appointmen
 ### <a name="BKMK_appointment_principalobjectattributeaccess"></a> appointment_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [appointment_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_appointment_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1657,6 +1677,7 @@ Same as principalobjectattributeaccess entity [appointment_principalobjectattrib
 ### <a name="BKMK_appointment_activity_mime_attachment"></a> appointment_activity_mime_attachment
 
 Same as activitymimeattachment entity [appointment_activity_mime_attachment](activitymimeattachment.md#BKMK_appointment_activity_mime_attachment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitymimeattachment|
@@ -1671,6 +1692,7 @@ Same as activitymimeattachment entity [appointment_activity_mime_attachment](act
 ### <a name="BKMK_Appointment_QueueItem"></a> Appointment_QueueItem
 
 Same as queueitem entity [Appointment_QueueItem](queueitem.md#BKMK_Appointment_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1685,6 +1707,7 @@ Same as queueitem entity [Appointment_QueueItem](queueitem.md#BKMK_Appointment_Q
 ### <a name="BKMK_Appointment_BulkDeleteFailures"></a> Appointment_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Appointment_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Appointment_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2186,6 +2209,6 @@ See activitypointer Entity [activity_pointer_appointment](activitypointer.md#BKM
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.appointment?text=appointment EntityType" />

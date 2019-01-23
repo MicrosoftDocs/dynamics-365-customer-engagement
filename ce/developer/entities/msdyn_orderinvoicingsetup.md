@@ -1,15 +1,19 @@
 ---
-title: "msdyn_orderinvoicingsetup Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_orderinvoicingsetup Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_orderinvoicingsetup entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_orderinvoicingsetup Entity Reference
 
@@ -699,6 +703,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_orderinvoicingsetup_SyncErrors"></a> msdyn_orderinvoicingsetup_SyncErrors
 
 Same as syncerror entity [msdyn_orderinvoicingsetup_SyncErrors](syncerror.md#BKMK_msdyn_orderinvoicingsetup_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -713,6 +718,7 @@ Same as syncerror entity [msdyn_orderinvoicingsetup_SyncErrors](syncerror.md#BKM
 ### <a name="BKMK_msdyn_orderinvoicingsetup_DuplicateMatchingRecord"></a> msdyn_orderinvoicingsetup_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_orderinvoicingsetup_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_orderinvoicingsetup_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -727,6 +733,7 @@ Same as duplicaterecord entity [msdyn_orderinvoicingsetup_DuplicateMatchingRecor
 ### <a name="BKMK_msdyn_orderinvoicingsetup_DuplicateBaseRecord"></a> msdyn_orderinvoicingsetup_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_orderinvoicingsetup_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_orderinvoicingsetup_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -741,6 +748,7 @@ Same as duplicaterecord entity [msdyn_orderinvoicingsetup_DuplicateBaseRecord](d
 ### <a name="BKMK_msdyn_orderinvoicingsetup_AsyncOperations"></a> msdyn_orderinvoicingsetup_AsyncOperations
 
 Same as asyncoperation entity [msdyn_orderinvoicingsetup_AsyncOperations](asyncoperation.md#BKMK_msdyn_orderinvoicingsetup_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -755,6 +763,7 @@ Same as asyncoperation entity [msdyn_orderinvoicingsetup_AsyncOperations](asynco
 ### <a name="BKMK_msdyn_orderinvoicingsetup_MailboxTrackingFolders"></a> msdyn_orderinvoicingsetup_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_orderinvoicingsetup_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_orderinvoicingsetup_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -769,6 +778,7 @@ Same as mailboxtrackingfolder entity [msdyn_orderinvoicingsetup_MailboxTrackingF
 ### <a name="BKMK_msdyn_orderinvoicingsetup_UserEntityInstanceDatas"></a> msdyn_orderinvoicingsetup_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_orderinvoicingsetup_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_orderinvoicingsetup_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -783,6 +793,7 @@ Same as userentityinstancedata entity [msdyn_orderinvoicingsetup_UserEntityInsta
 ### <a name="BKMK_msdyn_orderinvoicingsetup_ProcessSession"></a> msdyn_orderinvoicingsetup_ProcessSession
 
 Same as processsession entity [msdyn_orderinvoicingsetup_ProcessSession](processsession.md#BKMK_msdyn_orderinvoicingsetup_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -797,6 +808,7 @@ Same as processsession entity [msdyn_orderinvoicingsetup_ProcessSession](process
 ### <a name="BKMK_msdyn_orderinvoicingsetup_BulkDeleteFailures"></a> msdyn_orderinvoicingsetup_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_orderinvoicingsetup_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_orderinvoicingsetup_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -811,6 +823,7 @@ Same as bulkdeletefailure entity [msdyn_orderinvoicingsetup_BulkDeleteFailures](
 ### <a name="BKMK_msdyn_orderinvoicingsetup_PrincipalObjectAttributeAccesses"></a> msdyn_orderinvoicingsetup_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_orderinvoicingsetup_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_orderinvoicingsetup_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -825,6 +838,7 @@ Same as principalobjectattributeaccess entity [msdyn_orderinvoicingsetup_Princip
 ### <a name="BKMK_msdyn_msdyn_orderinvoicingsetup_msdyn_orderinvoicingproduct_OrderInvoicingSetup"></a> msdyn_msdyn_orderinvoicingsetup_msdyn_orderinvoicingproduct_OrderInvoicingSetup
 
 Same as msdyn_orderinvoicingproduct entity [msdyn_msdyn_orderinvoicingsetup_msdyn_orderinvoicingproduct_OrderInvoicingSetup](msdyn_orderinvoicingproduct.md#BKMK_msdyn_msdyn_orderinvoicingsetup_msdyn_orderinvoicingproduct_OrderInvoicingSetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderinvoicingproduct|
@@ -839,6 +853,7 @@ Same as msdyn_orderinvoicingproduct entity [msdyn_msdyn_orderinvoicingsetup_msdy
 ### <a name="BKMK_msdyn_msdyn_orderinvoicingsetup_msdyn_orderinvoicingsetupdate_InvoiceSetup"></a> msdyn_msdyn_orderinvoicingsetup_msdyn_orderinvoicingsetupdate_InvoiceSetup
 
 Same as msdyn_orderinvoicingsetupdate entity [msdyn_msdyn_orderinvoicingsetup_msdyn_orderinvoicingsetupdate_InvoiceSetup](msdyn_orderinvoicingsetupdate.md#BKMK_msdyn_msdyn_orderinvoicingsetup_msdyn_orderinvoicingsetupdate_InvoiceSetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderinvoicingsetupdate|
@@ -900,6 +915,6 @@ See salesorder Entity [msdyn_salesorder_msdyn_orderinvoicingsetup_Order](salesor
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_orderinvoicingsetup?text=msdyn_orderinvoicingsetup EntityType" />

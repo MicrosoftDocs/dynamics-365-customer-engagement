@@ -1,15 +1,19 @@
 ---
-title: "DynamicPropertyOptionSetItem Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "DynamicPropertyOptionSetItem Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the DynamicPropertyOptionSetItem entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # DynamicPropertyOptionSetItem Entity Reference
 
@@ -601,6 +605,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_dynamicpropertyoptionsetitem_SyncErrors"></a> dynamicpropertyoptionsetitem_SyncErrors
 
 Same as syncerror entity [dynamicpropertyoptionsetitem_SyncErrors](syncerror.md#BKMK_dynamicpropertyoptionsetitem_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -615,6 +620,7 @@ Same as syncerror entity [dynamicpropertyoptionsetitem_SyncErrors](syncerror.md#
 ### <a name="BKMK_dynamicpropertyoptionsetitem_AsyncOperations"></a> dynamicpropertyoptionsetitem_AsyncOperations
 
 Same as asyncoperation entity [dynamicpropertyoptionsetitem_AsyncOperations](asyncoperation.md#BKMK_dynamicpropertyoptionsetitem_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -629,6 +635,7 @@ Same as asyncoperation entity [dynamicpropertyoptionsetitem_AsyncOperations](asy
 ### <a name="BKMK_dynamicpropertyoptionsetitem_MailboxTrackingFolders"></a> dynamicpropertyoptionsetitem_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [dynamicpropertyoptionsetitem_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_dynamicpropertyoptionsetitem_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -643,6 +650,7 @@ Same as mailboxtrackingfolder entity [dynamicpropertyoptionsetitem_MailboxTracki
 ### <a name="BKMK_dynamicpropertyoptionsetitem_UserEntityInstanceDatas"></a> dynamicpropertyoptionsetitem_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [dynamicpropertyoptionsetitem_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_dynamicpropertyoptionsetitem_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -657,6 +665,7 @@ Same as userentityinstancedata entity [dynamicpropertyoptionsetitem_UserEntityIn
 ### <a name="BKMK_dynamicpropertyoptionsetitem_BulkDeleteFailures"></a> dynamicpropertyoptionsetitem_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [dynamicpropertyoptionsetitem_BulkDeleteFailures](bulkdeletefailure.md#BKMK_dynamicpropertyoptionsetitem_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -671,6 +680,7 @@ Same as bulkdeletefailure entity [dynamicpropertyoptionsetitem_BulkDeleteFailure
 ### <a name="BKMK_dynamicpropertyoptionsetitem_PrincipalObjectAttributeAccesses"></a> dynamicpropertyoptionsetitem_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [dynamicpropertyoptionsetitem_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_dynamicpropertyoptionsetitem_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -685,6 +695,7 @@ Same as principalobjectattributeaccess entity [dynamicpropertyoptionsetitem_Prin
 ### <a name="BKMK_DefaultValueOptionSet_DynamicProperty"></a> DefaultValueOptionSet_DynamicProperty
 
 Same as dynamicproperty entity [DefaultValueOptionSet_DynamicProperty](dynamicproperty.md#BKMK_DefaultValueOptionSet_DynamicProperty) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|dynamicproperty|
@@ -741,6 +752,6 @@ See transactioncurrency Entity [DynamicPropertyOptionSetItem_TransactionCurrency
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.dynamicpropertyoptionsetitem?text=dynamicpropertyoptionsetitem EntityType" />

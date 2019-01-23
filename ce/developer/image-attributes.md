@@ -1,20 +1,24 @@
 ---
-title: "Image attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Image attributes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about image attributes that include image data witht in the application, and supporting attributes, Retrieving image data, and Uploading image data."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: accdb615-e378-403f-8fb9-abb882f72d81
 caps.latest.revision: 8
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Image attributes
 
@@ -47,18 +51,18 @@ Entity records that include image data provide a unique experience within the ap
 {0}/image/download.aspx?entity={1}&attribute={2}&id={3}&timestamp={4}
 ```  
   
--   0 : The organization URL  
+- 0 : The organization URL  
   
--   1 : The entity logical name  
+- 1 : The entity logical name  
   
--   2 : The attribute logical name  
+- 2 : The attribute logical name  
   
--   3 : The EntityImageId value.  
+- 3 : The EntityImageId value.  
   
--   4 : The EntityImage_Timestamp value  
+- 4 : The EntityImage_Timestamp value  
   
- For example:   
-`https://myorg.crm.dynamics.com/image/download.aspx?attribute=entityimage&entity=contact&id={ECB6D3DF-4A04-E311-AFE0-00155D9C3020}&timestamp=635120312218444444`  
+  For example:   
+  `https://myorg.crm.dynamics.com/image/download.aspx?attribute=entityimage&entity=contact&id={ECB6D3DF-4A04-E311-AFE0-00155D9C3020}&timestamp=635120312218444444`  
   
 ### EntityImageId  
  Attribute Type Name: `UniqueIdentifierType`  
@@ -77,11 +81,11 @@ Entity records that include image data provide a unique experience within the ap
 ## Uploading image data  
  To update images set the value of the `EntityImage` to a `byte[]` that contains the content of the file. All images are displayed in a 144x144 pixel square. Images will be cropped and resized to reduce the size of the data before being saved.  
   
--   Images with at least one side larger than 144 pixels are cropped on center to 144x144.  
+- Images with at least one side larger than 144 pixels are cropped on center to 144x144.  
   
--   Images with both sides smaller than 144 are cropped square to their smallest side.  
+- Images with both sides smaller than 144 are cropped square to their smallest side.  
   
- The following table shows two examples.  
+  The following table shows two examples.  
   
 |Before|After|  
 |------------|-----------|  
@@ -91,6 +95,6 @@ Entity records that include image data provide a unique experience within the ap
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sample: Set and retrieve entity images](sample-set-retrieve-entity-images.md).  
   
 ### See also  
- [Introduction to Entities in Dynamics 365](introduction-entities.md)   
- [Introduction to entity attributes in Dynamics 365](introduction-entity-attributes.md)   
+ [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)   
+ [Introduction to entity attributes in Dynamics 365 for Customer Engagement apps](introduction-entity-attributes.md)   
  [Sample: Set and retrieve entity images](sample-set-retrieve-entity-images.md)

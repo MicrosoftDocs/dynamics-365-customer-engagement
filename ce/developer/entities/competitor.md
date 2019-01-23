@@ -1,15 +1,19 @@
 ---
-title: "Competitor Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Competitor Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Competitor entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Competitor Entity Reference
 
@@ -1649,6 +1653,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Competitor_SyncErrors"></a> Competitor_SyncErrors
 
 Same as syncerror entity [Competitor_SyncErrors](syncerror.md#BKMK_Competitor_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1663,6 +1668,7 @@ Same as syncerror entity [Competitor_SyncErrors](syncerror.md#BKMK_Competitor_Sy
 ### <a name="BKMK_Competitor_DuplicateMatchingRecord"></a> Competitor_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Competitor_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Competitor_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1677,6 +1683,7 @@ Same as duplicaterecord entity [Competitor_DuplicateMatchingRecord](duplicaterec
 ### <a name="BKMK_Competitor_DuplicateBaseRecord"></a> Competitor_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Competitor_DuplicateBaseRecord](duplicaterecord.md#BKMK_Competitor_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1691,6 +1698,7 @@ Same as duplicaterecord entity [Competitor_DuplicateBaseRecord](duplicaterecord.
 ### <a name="BKMK_Competitor_AsyncOperations"></a> Competitor_AsyncOperations
 
 Same as asyncoperation entity [Competitor_AsyncOperations](asyncoperation.md#BKMK_Competitor_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1705,6 +1713,7 @@ Same as asyncoperation entity [Competitor_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_competitor_MailboxTrackingFolders"></a> competitor_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [competitor_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_competitor_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1719,6 +1728,7 @@ Same as mailboxtrackingfolder entity [competitor_MailboxTrackingFolders](mailbox
 ### <a name="BKMK_userentityinstancedata_competitor"></a> userentityinstancedata_competitor
 
 Same as userentityinstancedata entity [userentityinstancedata_competitor](userentityinstancedata.md#BKMK_userentityinstancedata_competitor) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1733,6 +1743,7 @@ Same as userentityinstancedata entity [userentityinstancedata_competitor](useren
 ### <a name="BKMK_Competitor_ProcessSessions"></a> Competitor_ProcessSessions
 
 Same as processsession entity [Competitor_ProcessSessions](processsession.md#BKMK_Competitor_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1747,6 +1758,7 @@ Same as processsession entity [Competitor_ProcessSessions](processsession.md#BKM
 ### <a name="BKMK_Competitor_BulkDeleteFailures"></a> Competitor_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Competitor_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Competitor_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1761,6 +1773,7 @@ Same as bulkdeletefailure entity [Competitor_BulkDeleteFailures](bulkdeletefailu
 ### <a name="BKMK_competitor_principalobjectattributeaccess"></a> competitor_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [competitor_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_competitor_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1775,6 +1788,7 @@ Same as principalobjectattributeaccess entity [competitor_principalobjectattribu
 ### <a name="BKMK_competitor_connections1"></a> competitor_connections1
 
 Same as connection entity [competitor_connections1](connection.md#BKMK_competitor_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1789,6 +1803,7 @@ Same as connection entity [competitor_connections1](connection.md#BKMK_competito
 ### <a name="BKMK_competitor_connections2"></a> competitor_connections2
 
 Same as connection entity [competitor_connections2](connection.md#BKMK_competitor_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1803,6 +1818,7 @@ Same as connection entity [competitor_connections2](connection.md#BKMK_competito
 ### <a name="BKMK_Competitor_Annotation"></a> Competitor_Annotation
 
 Same as annotation entity [Competitor_Annotation](annotation.md#BKMK_Competitor_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1817,6 +1833,7 @@ Same as annotation entity [Competitor_Annotation](annotation.md#BKMK_Competitor_
 ### <a name="BKMK_competitor_opportunity_activities"></a> competitor_opportunity_activities
 
 Same as opportunityclose entity [competitor_opportunity_activities](opportunityclose.md#BKMK_competitor_opportunity_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -1831,6 +1848,7 @@ Same as opportunityclose entity [competitor_opportunity_activities](opportunityc
 ### <a name="BKMK_competitor_PostFollows"></a> competitor_PostFollows
 
 Same as postfollow entity [competitor_PostFollows](postfollow.md#BKMK_competitor_PostFollows) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postfollow|
@@ -1933,6 +1951,6 @@ IntersectEntityName: competitorproduct<br />
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.competitor?text=competitor EntityType" />

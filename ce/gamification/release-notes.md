@@ -1,22 +1,29 @@
 ---
-title: "Learn about what's new in Microsoft Dynamics 365 - Gamification and the issues addressed by the team. | Microsoft Docs"
-description: "Learn about new features, improved capabilities, fixed issues in Dynamics 365 - Gamification."
-keywords: "what's new, release notes, fixed issues, dynamics 365 gamification"
+title: "Learn about what's new in Microsoft Dynamics 365 for Customer Engagement - Gamification and the issues addressed by the team. | Microsoft Docs"
+description: "Learn about new features, improved capabilities, fixed issues in Dynamics 365 for Customer Engagement - Gamification."
+keywords: what's new, release notes, fixed issues, dynamics 365 gamification
 ms.date: 04/25/2018
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d94c2bbe-b73d-4369-9100-e5d1a096409a
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
-# What's new in Dynamics 365 - Gamification
+# What's new in Dynamics 365 for Customer Engagement - Gamification
 
 Welcome to [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. Here's a list of features we've added or updated, and a list of issues we've resolved.  
 
@@ -55,7 +62,7 @@ The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-ga
 
 #### Solution
 
-- Newly assigned Game Manager roles in Dynamics 365 now [sync automatically](understand-security-roles.md#available-security-roles) with the Gamification web portal. Administrators don't need to manually trigger an update of the user data after updating the solution to at least version 2018.2.11.
+- Newly assigned Game Manager roles in Dynamics 365 for Customer Engagement now [sync automatically](understand-security-roles.md#available-security-roles) with the Gamification web portal. Administrators don't need to manually trigger an update of the user data after updating the solution to at least version 2018.2.11.
 
 ## Update 2018.2.9
 
@@ -77,17 +84,17 @@ The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-ga
 
 #### Solution
 
-- This update introduces significant changes to user management for [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Instead of the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] web portal, security roles for users are now managed the same way they're managed in Dynamics 365 Customer Engagement.  
-The Dynamics 365 (online) security role **KPI manager** is now called **Game manager**. If a user has the Game Manager security role assigned in Dynamics 365, they get promoted to game manager in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] and can continue to create and edit KPIs in Dynamics 365.
-To promote a user to a Commissioner role in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a global admin of Dynamics 365 is required to assign the user the **Global Admin** or **Dynamics 365 Service Admin** role in the [Dynamics 365 Admin Center](https://portal.office.com). 
-[!include[](../includes/proc-more-information.md)] [Available security roles](understand-security-roles.md)
+- This update introduces significant changes to user management for [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Instead of the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] web portal, security roles for users are now managed the same way they're managed in Dynamics 365 for Customer Engagement.  
+  The Dynamics 365 for Customer Engagement (online) security role **KPI manager** is now called **Game manager**. If a user has the Game Manager security role assigned in Dynamics 365 for Customer Engagement, they get promoted to game manager in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] and can continue to create and edit KPIs in Dynamics 365 for Customer Engagement.
+  To promote a user to a Commissioner role in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a global admin of Dynamics 365 for Customer Engagement is required to assign the user the **Global Admin** or **Dynamics 365 for Customer Engagement Service Admin** role in the [Dynamics 365 for Customer Engagement Admin Center](https://portal.office.com). 
+  [!include[](../includes/proc-more-information.md)] [Available security roles](understand-security-roles.md)
 
-- Administrators can now connect multiple Dynamics 365 (online) organizations from the same Office 365 tenant to the same [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] web portal. This maintains a shared experience across organizations. [!include[](../includes/proc-more-information.md)] [Set up a connection to a Dynamics 365 (online) organization](manage-gamification-in-dynamics-365-online.md)
+- Administrators can now connect multiple Dynamics 365 for Customer Engagement (online) organizations from the same Office 365 tenant to the same [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] web portal. This maintains a shared experience across organizations. [!include[](../includes/proc-more-information.md)] [Set up a connection to a Dynamics 365 for Customer Engagement (online) organization](manage-gamification-in-dynamics-365-online.md)
 
 
 #### Web portal
 
-- [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] now supports multiple Dynamics 365 (online) organizations in the same Office 365 tenant. Game managers and players can select the organization when they select the game they want to work with. Badges and awards are based on the player's profile and shared across all connected organizations.
+- [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] now supports multiple Dynamics 365 for Customer Engagement (online) organizations in the same Office 365 tenant. Game managers and players can select the organization when they select the game they want to work with. Badges and awards are based on the player's profile and shared across all connected organizations.
 
 
 ### Resolved issues
@@ -101,14 +108,14 @@ To promote a user to a Commissioner role in [!INCLUDE[pn_gamification_shortest](
 #### Solution
 
 - Simplified the steps to activate the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] web portal and connect it with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)]
-[Activate Gamification in Dynamics 365](manage-gamification-in-dynamics-365-online.md)
+  [Activate Gamification in Dynamics 365 for Customer Engagement](manage-gamification-in-dynamics-365-online.md)
 
 - Introduced a KPI type, **User activity tracking**, to award points based on a user's activity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)].
 
 - Introduced **Delta settings**, a scoring condition for KPIs that is based on the difference (the delta) between two attributes.
 
 - Introduced **Scoring behavior**, a setting for configuring the time at which points are assigned for a given KPI. By default, points are always assigned based on the current state of the record. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)]
-[Configure and edit KPIs in Dynamics 365](configure-kpis.md)
+  [Configure and edit KPIs in Dynamics 365 for Customer Engagement](configure-kpis.md)
 
 #### Web portal
 

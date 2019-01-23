@@ -1,19 +1,20 @@
 ---
 title: "Close an opportunity as won or lost (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost."
-keywords: "Close, Won, Lost, opportunity, proposal"
+keywords: Close, Won, Lost, opportunity, proposal
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
+ms.service:
+  - dynamics-365-sales
 ms.custom:
   - dyn365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: be3ff5e6-019b-4c07-aebb-e5792af19b4d
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -33,13 +34,13 @@ If your customer has accepted your proposal, congratulations! However, whether y
 
    If you're using the Sales Hub app, select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
   
-2.  Select the opportunity you want to edit.  
+2. Select the opportunity you want to edit.  
   
-3.  At the top of the **Opportunity** form, do one of the following:  
+3. At the top of the **Opportunity** form, do one of the following:  
 
-    - To close your opportunity as won, select **Close as Won**.  
+   - To close your opportunity as won, select **Close as Won**.  
  
-    - To close your opportunity as lost, select **Close as Lost**.
+   - To close your opportunity as lost, select **Close as Lost**.
   
 ### See also  
  [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   

@@ -1,23 +1,27 @@
 ---
-title: "Sample: Web resource utility (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The sample demonstrates creating and updating Web Resources. The Web Resource Utility code demonstrates several applications of the Dynamics 365 (online) APIs: Managing connectionsa and Retrieving data about solutions. "
-ms.custom: ""
+title: "Sample: Web resource utility (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "The sample demonstrates creating and updating Web Resources. The Web Resource Utility code demonstrates several applications of the Dynamics 365 for Customer Engagement (online) APIs: Managing connectionsa and Retrieving data about solutions. "
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "web resource"
-  - "web resource, import"
+  - web resource
+  - web resource, import
 ms.assetid: 27b065e3-1157-4a93-b1e6-b46f25afb595
 caps.latest.revision: 21
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Web resource utility
 
@@ -57,5 +61,5 @@ Manually creating Web resources one at a time using the customization tools can 
 ### See also  
  [Sample: Importing Files as Web Resources](sample-import-files-web-resources.md)   
  [Web Resource Messages and Methods](webresource-entity-messages-methods.md)   
- [Web Resources for Dynamics 365](web-resources.md)   
+ [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)   
  [Streamline web resource development using Fiddler AutoResponder](streamline-javascript-development-fiddler-autoresponder.md)

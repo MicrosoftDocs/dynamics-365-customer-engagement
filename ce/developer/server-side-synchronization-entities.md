@@ -1,20 +1,24 @@
 ---
-title: "Server-side synchronization entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "In Dynamics 365 (online), server-side synchronization provides an interface between Dynamics 365 and one or more Exchange servers or POP3 servers for incoming email, and one or more SMTP or Exchange servers for outgoing email"
-ms.custom: ""
+title: "Server-side synchronization entities (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+description: "In Dynamics 365 for Customer Engagement (online), server-side synchronization provides an interface between Dynamics 365 for Customer Engagement and one or more Exchange servers or POP3 servers for incoming email, and one or more SMTP or Exchange servers for outgoing email"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8595e377-7496-456d-ba2f-8671d066098a
 caps.latest.revision: 27
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Server-side synchronization entities
 
@@ -28,19 +32,19 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], se
   
  Server-side synchronization offers the following capabilities:  
   
--   Process emails of a user and a queue using the email address, email delivery method, and credentials from the related mailbox record.  
+- Process emails of a user and a queue using the email address, email delivery method, and credentials from the related mailbox record.  
   
--   Process appointments, contacts, and tasks.  
+- Process appointments, contacts, and tasks.  
   
--   Use mailbox records to process emails for users and queues having the incoming delivery method set as Forward Mailbox.  
+- Use mailbox records to process emails for users and queues having the incoming delivery method set as Forward Mailbox.  
   
--   Use information from a related email profile record to process emails for all mailboxes.  
+- Use information from a related email profile record to process emails for all mailboxes.  
   
--   Prevent email processing for inactive mailboxes or for mailboxes that don’t have an associated email profile.  
+- Prevent email processing for inactive mailboxes or for mailboxes that don’t have an associated email profile.  
   
--   Automatically relate an associated mailbox to the default email profile when a user or a queue is created with the email delivery method set as server-side synchronization.  
+- Automatically relate an associated mailbox to the default email profile when a user or a queue is created with the email delivery method set as server-side synchronization.  
   
--   Automatically track [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] emails in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for a user based on the folder-level tracking rules.  
+- Automatically track [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] emails in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for a user based on the folder-level tracking rules.  
   
 ## In This Section  
  [Configure folder level tracking rules](configure-exchange-folder-level-tracking-rules.md)  
@@ -55,7 +59,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], se
   
 ## Related Sections
 
- [Model Your Business Data With Dynamics 365](model-business-data.md)  
+ [Model Your Business Data With Dynamics 365 for Customer Engagement apps](model-business-data.md)  
   
  [Goal Management Entities](goal-management-entities.md)  
   

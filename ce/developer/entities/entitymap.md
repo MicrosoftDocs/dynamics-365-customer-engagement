@@ -1,15 +1,19 @@
 ---
-title: "EntityMap Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "EntityMap Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the EntityMap entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # EntityMap Entity Reference
 
@@ -85,7 +89,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the Microsoft Dynamics 365 entity.|
+|Description|Name of the Microsoft Dynamics 365 for Customer Engagement apps entity.|
 |DisplayName|Target Entity|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -414,6 +418,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_entitymap"></a> userentityinstancedata_entitymap
 
 Same as userentityinstancedata entity [userentityinstancedata_entitymap](userentityinstancedata.md#BKMK_userentityinstancedata_entitymap) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -428,6 +433,7 @@ Same as userentityinstancedata entity [userentityinstancedata_entitymap](userent
 ### <a name="BKMK_EntityMap_BulkDeleteFailures"></a> EntityMap_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [EntityMap_BulkDeleteFailures](bulkdeletefailure.md#BKMK_EntityMap_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -442,6 +448,7 @@ Same as bulkdeletefailure entity [EntityMap_BulkDeleteFailures](bulkdeletefailur
 ### <a name="BKMK_EntityMap_AsyncOperations"></a> EntityMap_AsyncOperations
 
 Same as asyncoperation entity [EntityMap_AsyncOperations](asyncoperation.md#BKMK_EntityMap_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -456,6 +463,7 @@ Same as asyncoperation entity [EntityMap_AsyncOperations](asyncoperation.md#BKMK
 ### <a name="BKMK_entity_map_attribute_maps"></a> entity_map_attribute_maps
 
 Same as attributemap entity [entity_map_attribute_maps](attributemap.md#BKMK_entity_map_attribute_maps) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|attributemap|
@@ -502,6 +510,6 @@ See systemuser Entity [createdby_entitymap](systemuser.md#BKMK_createdby_entitym
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.entitymap?text=entitymap EntityType" />

@@ -1,27 +1,34 @@
 ---
 title: "Optimize browser settings for Social Engagement | Microsoft Docs"
 description: "Configure your browser to allow pop-up windows and JavaScript."
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
 ms.date: 09/12/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-marketing
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.suite: 
+ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to: Social Engagement
 ms.assetid: b7134fb0-2a84-4881-9ded-05fab9edcfc8
 caps.latest.revision: 11
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
-# Optimize browser settings for Social Engagement
+# Optimize browser settings for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 In our everyday lives, we use our favorite browsers to work with web applications and surf the Internet.  Some browser settings can impact the user experience for a few features in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. This topic discusses recommended browser settings for a smooth experience.  
   
 <a name="managePopUpBlockers"></a>   
 ## Manage pop-up blockers  
- To link posts to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], add social profiles, engage on social posts, and create certain types of search rules, your browser needs to open new windows automatically. This may trigger your browser’s pop-up blocker.  
+ For some actions, like adding social profiles, engaging on social posts, and creating certain types of search rules, your browser needs to open new windows automatically. This may trigger your browser’s pop-up blocker.  
   
 > [!TIP]
 >  We recommend that you add the URL of your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to the list of trusted sites and allow pop-ups.  
@@ -58,7 +65,7 @@ In our everyday lives, we use our favorite browsers to work with web application
 - [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)]: [Safari 9 \(El Capitan\): Use Private Browsing windows](https://support.apple.com/kb/PH21413)  
   
 ### See Also  
- [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md)   
+ [Link posts from Social Engagement to Customer Engagement](link-posts-to-dynamics-365.md)   
  [Manage social profiles](manage-social-profiles.md)   
  [Drive business objectives using posts](publish-react-posts.md)   
  [Add rules to a search topic](add-rules-search-topic.md)

@@ -1,23 +1,27 @@
 ---
-title: "Sample: Query connections by reciprocal roles (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Query connections by reciprocal roles (early bound) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to create matching roles and find a atching for a particular role."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "sample for querying connections by reciprocal roles"
-  - "querying connections by reciprocal roles, sample"
+  - sample for querying connections by reciprocal roles
+  - querying connections by reciprocal roles, sample
 ms.assetid: 166e852a-b6d6-4b80-b4b3-6b5934829a4b
 caps.latest.revision: 17
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Query connections by reciprocal roles (early bound)
 

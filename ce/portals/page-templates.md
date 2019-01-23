@@ -1,9 +1,9 @@
 ---
-title: "Create and manage page templates in Dynamics 365 Portal | MicrosoftDocs"
-description: "Learn how to create and manage page templates in Dynamics 365 Portal."
-ms.custom:
+title: "Create and manage page templates in Dynamics 365 for Customer Engagement Portal | MicrosoftDocs"
+description: "Learn how to create and manage page templates in Dynamics 365 for Customer Engagement Portal."
+ms.custom: 
   - dyn365-portal
-ms.date: 06/20/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: 44478E82-D6F2-40DA-9BA9-4C95E89A81AE
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Create and manage page templates

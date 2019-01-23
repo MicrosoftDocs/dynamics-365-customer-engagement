@@ -1,20 +1,24 @@
 ---
-title: "Multi-Select Picklist attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Multi-Select Picklist attributes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about multi-select picklist attributes that allow storing multiple option choices in a single attribute."
-ms.custom: ""
-ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 09/05/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2a71402b-dbd1-449c-b43b-d9531c858a18
-caps.latest.revision: 8
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Multi-Select Picklist attributes
 
@@ -22,6 +26,8 @@ manager: "amyla"
 
 > [!NOTE]
 > Multi-select picklist attributes were added with the [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)].
+>
+> Clients that do not use the current .NET assemblies need to include <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.SdkClientVersion> with a value of `9.0.0.0` or higher in order to work with <xref:Microsoft.Xrm.Sdk.Metadata.MultiSelectPicklistAttributeMetadata> attributes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.SdkClientVersion>.
 
 Customizers can define an attribute that allows selection of multiple options. The <xref:Microsoft.Xrm.Sdk.Metadata.MultiSelectPicklistAttributeMetadata> class defines an attribute type that inherits from the <xref:Microsoft.Xrm.Sdk.Metadata.EnumAttributeMetadata> class. Just like the <xref:Microsoft.Xrm.Sdk.Metadata.PicklistAttributeMetadata> class, this attribute includes an <xref:Microsoft.Xrm.Sdk.Metadata.OptionSetMetadata> <xref:Microsoft.Xrm.Sdk.Metadata.OptionSetMetadata.Options> property that contains the valid options for the attribute. The difference is that the values you get or set are an <xref:Microsoft.Xrm.Sdk.OptionSetValueCollection> type that contains an array of integers representing the selected options. Formatted values for this attribute are a semi-colon separated string containing the labels of the selected options.
 
@@ -235,7 +241,7 @@ likesHikingQuery.ColumnSet.AddColumns("fullname", "sample_outdooractivities");
 likesHikingQuery.Criteria.AddFilter(filter);
 
 EntityCollection hikers = _serviceProxy.RetrieveMultiple(likesHikingQuery);
-                        
+
 Console.WriteLine("\nContacts who like Hiking");
 Console.WriteLine("=========================");
 foreach (Contact contact in hikers.Entities)
@@ -269,7 +275,7 @@ string fetchXml = @"<fetch distinct='false' no-lock='false' mapping='logical'>
 FetchExpression doesNotLikeHiking = new FetchExpression(fetchXml);
 
 EntityCollection nonHikers = _serviceProxy.RetrieveMultiple(doesNotLikeHiking);
-                        
+
 Console.WriteLine("\nContacts who do not like Hiking");
 Console.WriteLine("===============================");
 foreach (Contact contact in nonHikers.Entities)
@@ -286,7 +292,6 @@ foreach (Contact contact in nonHikers.Entities)
     Barbara Weber Swimming; Fishing; Boating
     Georgette Sullivan Fishing; Hunting; Camping 
     */
-
 ```
 
 

@@ -1,13 +1,17 @@
 ---
-title: "getEntityMetadata (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getEntityMetadata (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 05/02/2018
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 89123cde-7c66-4c7d-94e4-e287285019f8
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getEntityMetadata
 
@@ -43,7 +47,7 @@ manager: "amyla"
 <tr>
 <td>ActivityTypeMask</td>
 <td>Number</td>
-<td>Whether a custom activity should appear in the activity menus in the Web application. 0 indicates that the custom activity doesn't appear; 1 indicates that it does appear.</td>
+<td>Whether a custom activity should appear in the activity menus in the Web application. 0 indicates that the custom activity doesn&#39;t appear; 1 indicates that it does appear.</td>
 </tr>
 <tr>
 <td>AutoRouteToOwnerQueue</td>
@@ -234,7 +238,7 @@ manager: "amyla"
 <tr>
 <td>OwnershipType</td>
 <td>String</td>
-<td>The ownership type for the entity: "UserOwned" or "OrganizationOwned".</td>
+<td>The ownership type for the entity: &quot;UserOwned&quot; or &quot;OrganizationOwned&quot;.</td>
 </tr>
 <tr>
 <td>PrimaryIdAttribute</td>
@@ -254,7 +258,7 @@ manager: "amyla"
 <tr>
 <td>Privileges</td>
 <td>Array of objects</td>
-<td>The privilege metadata for the entity where *each* object contains the following attributes to define the security privilege for access to an entity:
+<td>The privilege metadata for the entity where <em>each</em> object contains the following attributes to define the security privilege for access to an entity:
 <ul>
 <li><b>CanBeBasic</b>: Boolean. Whether the privilege can be basic access level.</li>
 <li><b>CanBeDeep</b>: Boolean. Whether the privilege can be deep access level.</li>

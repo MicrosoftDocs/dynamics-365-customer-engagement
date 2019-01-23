@@ -1,9 +1,9 @@
 ---
-title: "Use Liquid filters for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Use Liquid filters for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about the available liquid filters in a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: 1915b631-a46a-455b-8343-a34a5d273436
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Available Liquid filters
 
@@ -138,13 +145,13 @@ first can also be used with a special dot notation, in cases where it needs to b
 **Code**
 
 ```
-{% assign words = "This is a run of text" | split: " " %}
+{% assign words = This is a run of text | split:   %}
 
 {{ words | first }}
 
-{% if words.first == "This" %}
+{% if words.first == This %}
 
-The first word is "This".
+The first word is This.
 
 {% endif %}
 ```
@@ -154,7 +161,7 @@ The first word is "This".
 ```
 This
 
-The first word is "This".
+The first word is This.
 ```
 
 ### group_by
@@ -202,9 +209,9 @@ Joins the elements of an array with the character passed as the parameter. The r
 **Code**
 
 ```
-{% assign words = "This is a run of text" | split: " " %}
+{% assign words = This is a run of text | split:   %}
 
-{{ words | join: ", " }}
+{{ words | join: ,  }}
 ```
 
 **Output**
@@ -222,13 +229,13 @@ last can also be used with a special dot notation, in cases where it needs to be
 **Code**
 
 ```
-{% assign words = "This is a run of text" | split: " " -%}
+{% assign words = This is a run of text | split:   -%}
 
 {{ words | last }}
 
-{% if words.last == "text" -%}
+{% if words.last == text -%}
 
-The last word is "text".
+The last word is text.
 
 {% endif -%}
 ```
@@ -238,7 +245,7 @@ The last word is "text".
 ```
 text
 
-The last word is "text".
+The last word is text.
 ```
 
 ### order\_by
@@ -328,7 +335,7 @@ size can also be used with a special dot notation, in cases where it needs to be
 **Code**
 
 ```
-{% assign words = "This is a run of text" | split: " " -%}
+{% assign words = This is a run of text | split:   -%}
 
 {{ words | size }}
 
@@ -354,7 +361,7 @@ Skips a given number of items in an array, and returns the rest.
 **Code**
 
 ```
-{% assign words = "This is a run of text" | split: " " %}
+{% assign words = This is a run of text | split:   %}
 
 {{ words | skip: 3 | join: ', ' }}
 ```
@@ -372,7 +379,7 @@ Takes a given number of items from the array, returning the taken items.
 **Code**
 
 ```
-{% assign words = "This is a run of text" | split: " " %}
+{% assign words = This is a run of text | split:   %}
 
 {{ words | take: 3 | join: ', ' }}
 ```
@@ -669,41 +676,41 @@ metafilters can be optionally provided with a current attribute filter query and
 ```
 {% assign filters = entitylist | metafilters: params.mf, entityview %}
 {% if filters.size > 0 %}
-  <ul id="entitylist-filters">
+  <ul id=entitylist-filters>
     {% for filter in filters %}
-      <li class="entitylist-filter-option-group">
+      <li class=entitylist-filter-option-group>
         {% if filter.selection_mode == 'Single' %}
           {% assign type = 'radio' %}
         {% else %}
           {% assign type = 'checkbox' %}
         {% endif %}
-        <h4 class="entitylist-filter-option-group-label"
-          data-filter-id="{{ filter.id | h }}">
+        <h4 class=entitylist-filter-option-group-label
+          data-filter-id={{ filter.id | h }}>
           {{ filter.label | h }}
         </h4>
         <ul>
           {% for option in filter.options %}
-            <li class="entitylist-filter-option">
+            <li class=entitylist-filter-option>
               {% if option.type == 'text' %}
-                <div class="input-group entitylist-filter-option-text">
-                  <span class="input-group-addon">
-                    <span class="fa fa-filter" aria-hidden="true"></span>
+                <div class=input-group entitylist-filter-option-text>
+                  <span class=input-group-addon>
+                    <span class=fa fa-filter aria-hidden=true></span>
                   </span>
-                  <input class="form-control"
-                    type="text"
-                    name="{{ filter.id | h }}"
-                    value="{{ option.text | h }}" />
+                  <input class=form-control
+                    type=text
+                    name={{ filter.id | h }}
+                    value={{ option.text | h }} />
                 </div>
               {% else %}
-                <div class="{{ type | h }}">
+                <div class={{ type | h }}>
                   <label>
                     <input
-                      type="{{ type | h }}"
-                      name="{{ filter.id | h }}"
-                      value="{{ option.id | h }}"
+                      type={{ type | h }}
+                      name={{ filter.id | h }}
+                      value={{ option.id | h }}
                       {% if option.checked %}
-                        checked="checked"
-                        data-checked="true"{% endif %}
+                        checked=checked
+                        data-checked=true{% endif %}
                       />
                     {{ option.label | h }}
                   </label>
@@ -715,7 +722,7 @@ metafilters can be optionally provided with a current attribute filter query and
       </li>
     {% endfor %}
   </ul>
-  <button class="btn btn-default" data-serialized-query="mf" data-target="#entitylist-filters">Apply Filters</button>
+  <button class=btn btn-default data-serialized-query=mf data-target=#entitylist-filters>Apply Filters</button>
 {% endif %}
 ```
 
@@ -1126,7 +1133,7 @@ The split filter takes on a substring as a parameter. The substring is used as a
 **Code**
 
 ```
-{% assign words = "This is a demo of the split filter" | split: ' ' %}
+{% assign words = This is a demo of the split filter | split: ' ' %}
 
 First word: {{ words.first }}
 
@@ -1302,7 +1309,7 @@ Type filters allow you to convert values of one type into other types.
 
 Attempts to convert a string value into a Boolean. If the value is already a Boolean, it will be returned unchanged. If the value cannot be converted into a Boolean, null will be returned.
 
-This filter will also accept "on", "enabled", or "yes" as true, and "off", "disabled", and "no" as false.
+This filter will also accept on, enabled, or yes as true, and off, disabled, and no as false.
 
 **Code**
 
@@ -1561,13 +1568,13 @@ Returns a default value for any variable with no assigned value (i.e. null).
 **Code**
 
 ```
-{{ snippets["Header"] | default: 'My Website' }}
+{{ snippets[Header] | default: 'My Website' }}
 ```
 
 **Output**
 
 ```
-<!-- If a snippet with the name "Header" returns null -->
+<!-- If a snippet with the name Header returns null -->
 
 My Website
 ```

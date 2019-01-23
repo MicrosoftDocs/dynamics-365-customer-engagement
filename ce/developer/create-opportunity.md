@@ -1,37 +1,41 @@
 ---
-title: "Create an opportunity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create an opportunity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about creating a new opportunity or an opportunity from a qualified lead. An opportunity contains sales information like quotes, sales orders, and invoices."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "tax; freight; and totals, opportunity entities"
-  - "closing opportunities, opportunity entities"
-  - "opportunity entities, associating opportunities with accounts and contacts"
-  - "associating opportunities with accounts and contacts, opportunity entities"
-  - "opportunity entities, qualifying leads for opportunities"
-  - "overriding and discounting prices, opportunity entities"
-  - "prices, overriding and discounting"
-  - "adding products to opportunities, opportunity entities"
-  - "qualifying leads for opportunities, opportunity entities"
-  - "opportunity entities, overriding and discounting prices"
-  - "calculating tax; freight; and totals, opportunity entities"
-  - "opportunity entities, sales information contained in"
-  - "opportunity entities, adding products to opportunities"
-  - "opportunity entities, calculating tax; freight; and totals"
-  - "creating opportunities, introduction"
-  - "opportunity entities, creating and closing opportunities"
+  - tax; freight; and totals, opportunity entities
+  - closing opportunities, opportunity entities
+  - opportunity entities, associating opportunities with accounts and contacts
+  - associating opportunities with accounts and contacts, opportunity entities
+  - opportunity entities, qualifying leads for opportunities
+  - overriding and discounting prices, opportunity entities
+  - prices, overriding and discounting
+  - adding products to opportunities, opportunity entities
+  - qualifying leads for opportunities, opportunity entities
+  - opportunity entities, overriding and discounting prices
+  - calculating tax; freight; and totals, opportunity entities
+  - opportunity entities, sales information contained in
+  - opportunity entities, adding products to opportunities
+  - opportunity entities, calculating tax; freight; and totals
+  - creating opportunities, introduction
+  - opportunity entities, creating and closing opportunities
 ms.assetid: c607f3e9-58e2-4f5a-9ea3-30ba4f12f060
 caps.latest.revision: 32
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create an opportunity
 
@@ -55,13 +59,13 @@ You can create an opportunity from a qualified lead or you can create a new oppo
 ## Prepare Data for an Opportunity  
  Before you create an opportunity, ensure that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] contains necessary data:  
   
--   Create accounts, contacts, and leads before you create an opportunity. You can create an opportunity for an existing account or contact, or convert a qualified lead into an opportunity.  
+- Create accounts, contacts, and leads before you create an opportunity. You can create an opportunity for an existing account or contact, or convert a qualified lead into an opportunity.  
   
--   Each opportunity must be associated with one account or a contact.  
+- Each opportunity must be associated with one account or a contact.  
   
--   Qualify a lead for an opportunity by using your company’s lead qualification criteria. The possible states for a lead are Open, Qualified, and Disqualified.  
+- Qualify a lead for an opportunity by using your company’s lead qualification criteria. The possible states for a lead are Open, Qualified, and Disqualified.  
   
- If you add products to an opportunity, the system must contain a product catalog, products, price lists, and units of measure.  
+  If you add products to an opportunity, the system must contain a product catalog, products, price lists, and units of measure.  
   
 <a name="bkmk_AddExistingProducts"></a>   
 ## Add Existing Products and Write-in Products  
@@ -91,25 +95,25 @@ You can create an opportunity from a qualified lead or you can create a new oppo
   
  The breakdown of the opportunity total costs is a follows:  
   
--   Total amount  
+- Total amount  
   
--   Total amount less freight  
+- Total amount less freight  
   
--   Total discount amount  
+- Total discount amount  
   
--   Total line item amount  
+- Total line item amount  
   
--   Total line item discount amount  
+- Total line item discount amount  
   
--   Total discount  
+- Total discount  
   
--   Total tax  
+- Total tax  
   
- Having information about individual costs helps you analyze your overall cost. You can make necessary adjustments to pricing, discounts, and freight cost to help with closing a deal.  
+  Having information about individual costs helps you analyze your overall cost. You can make necessary adjustments to pricing, discounts, and freight cost to help with closing a deal.  
   
 <a name="bkmk_CloseAnOpportunity"></a>   
 ## Close an Opportunity  
- If a customer decides to purchase products or services from your company, you can close an opportunity as a won opportunity. The opportunity states are specified in the `Opportunity.StateCode` attribute. If you are using early bound types, you can use the `OpportunityState` enumeration. For a list of the state values, see see the picklist values for this entity. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
+ If a customer decides to purchase products or services from your company, you can close an opportunity as a won opportunity. The opportunity states are specified in the `Opportunity.StateCode` attribute. If you are using early bound types, you can use the `OpportunityState` enumeration. For a list of the state values, see the picklist values for this entity. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
   
  When you close an opportunity, an activity is created automatically by creating a record of the entity type opportunity close. The states of the opportunity close activity are specified in the `OpportunityClose.StateCode` attribute. If you are using early bound types, you can use the `OpportunityCloseState` enumeration. For a list of the state values, see the picklist values for this entity.  
   

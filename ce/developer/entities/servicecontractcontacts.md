@@ -1,15 +1,19 @@
 ---
-title: "ServiceContractContacts Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ServiceContractContacts Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ServiceContractContacts entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ServiceContractContacts Entity Reference
 
@@ -229,6 +233,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_servicecontractcontacts_AsyncOperations"></a> servicecontractcontacts_AsyncOperations
 
 Same as asyncoperation entity [servicecontractcontacts_AsyncOperations](asyncoperation.md#BKMK_servicecontractcontacts_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -243,6 +248,7 @@ Same as asyncoperation entity [servicecontractcontacts_AsyncOperations](asyncope
 ### <a name="BKMK_servicecontractcontacts_MailboxTrackingFolders"></a> servicecontractcontacts_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [servicecontractcontacts_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_servicecontractcontacts_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -257,6 +263,7 @@ Same as mailboxtrackingfolder entity [servicecontractcontacts_MailboxTrackingFol
 ### <a name="BKMK_servicecontractcontacts_UserEntityInstanceDatas"></a> servicecontractcontacts_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [servicecontractcontacts_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_servicecontractcontacts_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -271,6 +278,7 @@ Same as userentityinstancedata entity [servicecontractcontacts_UserEntityInstanc
 ### <a name="BKMK_servicecontractcontacts_BulkDeleteFailures"></a> servicecontractcontacts_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [servicecontractcontacts_BulkDeleteFailures](bulkdeletefailure.md#BKMK_servicecontractcontacts_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -285,6 +293,7 @@ Same as bulkdeletefailure entity [servicecontractcontacts_BulkDeleteFailures](bu
 ### <a name="BKMK_servicecontractcontacts_PrincipalObjectAttributeAccesses"></a> servicecontractcontacts_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [servicecontractcontacts_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_servicecontractcontacts_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -309,6 +318,6 @@ See contact Entity [servicecontractcontacts_association](contact.md#BKMK_service
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.servicecontractcontacts?text=servicecontractcontacts EntityType" />

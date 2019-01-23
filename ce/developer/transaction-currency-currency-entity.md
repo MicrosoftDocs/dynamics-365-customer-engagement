@@ -1,34 +1,38 @@
 ---
-title: "Transaction Currency (currency) entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Transaction Currency (currency) entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about transaction curreny, which is a multicurrency feature enabling users to perform financial transactions in multiple currencies. Multiple records in different transaction currencies can be aggregated, compared, or analyzed with regard to a single currency using the base currency."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "transaction currency (currency) entity, associating currency to specific records"
-  - "transaction currency properties, actions you can perform"
-  - "transaction currency, definition"
-  - "transaction currency (currency) entity, transaction currency"
-  - "transaction currency (currency) entity, multicurrency system"
-  - "transaction currency (currency) entity, supported entities"
-  - "multicurrency system, definition"
-  - "exchange rate, definition"
-  - "transaction currency (currency) entity, decimal precision"
-  - "multicurrency system, transaction currency (currency) entity"
-  - "transaction currency (currency) entity, introduction"
-  - "associating currency to specific records, transaction currency (currency) entity"
-  - "base currency, definition"
+  - transaction currency (currency) entity, associating currency to specific records
+  - transaction currency properties, actions you can perform
+  - transaction currency, definition
+  - transaction currency (currency) entity, transaction currency
+  - transaction currency (currency) entity, multicurrency system
+  - transaction currency (currency) entity, supported entities
+  - multicurrency system, definition
+  - exchange rate, definition
+  - transaction currency (currency) entity, decimal precision
+  - multicurrency system, transaction currency (currency) entity
+  - transaction currency (currency) entity, introduction
+  - associating currency to specific records, transaction currency (currency) entity
+  - base currency, definition
 ms.assetid: 9439baba-166c-4779-be3c-2c52833e01b0
 caps.latest.revision: 16
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Transaction Currency (currency) entity
 
@@ -40,29 +44,29 @@ manager: "amyla"
   
  By using the transaction currency properties you can do the following:  
   
--   Select the currency in which you want to define and transact opportunities, quotes, orders, and invoices.  
+- Select the currency in which you want to define and transact opportunities, quotes, orders, and invoices.  
   
--   Define currency exchange rates relative to the base currency.  
+- Define currency exchange rates relative to the base currency.  
   
--   Define transaction currencies and define an exchange rate to associate the base currency with the transaction currency.  
+- Define transaction currencies and define an exchange rate to associate the base currency with the transaction currency.  
   
--   Capture the value of the transaction in the base currency and the transaction currency in all financial transactions.  
+- Capture the value of the transaction in the base currency and the transaction currency in all financial transactions.  
   
--   Define product pricelists for each currency.  
+- Define product pricelists for each currency.  
   
- To use multiple currencies, the base currency must be defined for an organization during server installation and organization setup. After the base currency is set for an organization, it cannot be changed. This value is stored in the `Organization.BaseCurrencyID` attribute.  
+  To use multiple currencies, the base currency must be defined for an organization during server installation and organization setup. After the base currency is set for an organization, it cannot be changed. This value is stored in the `Organization.BaseCurrencyID` attribute.  
   
- Transaction currencies are defined as a part of the system settings. An unlimited number of transaction currencies can be defined. Transaction currencies are related to the base currency with the definition of a currency exchange rate.  
+  Transaction currencies are defined as a part of the system settings. An unlimited number of transaction currencies can be defined. Transaction currencies are related to the base currency with the definition of a currency exchange rate.  
   
- After the definition of base and transaction currencies, pricelists must be defined. An organization can have multiple pricelists, which are also typically defined for a target geographical market in the local currency.  
+  After the definition of base and transaction currencies, pricelists must be defined. An organization can have multiple pricelists, which are also typically defined for a target geographical market in the local currency.  
   
- All entities that are involved in financial transactions support transaction currency. The currency is typically inherited from the account, opportunity, and so on, but can be changed as needed.  
+  All entities that are involved in financial transactions support transaction currency. The currency is typically inherited from the account, opportunity, and so on, but can be changed as needed.  
   
- You can specify the decimal precision for the transaction currency by using the `TransactionCurrency.CurrencyPrecision` attribute. To specify the source of the precision for the attributes of type Money, use the <xref:Microsoft.Xrm.Sdk.Metadata.MoneyAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.MoneyAttributeMetadata.PrecisionSource> attribute.  
+  You can specify the decimal precision for the transaction currency by using the `TransactionCurrency.CurrencyPrecision` attribute. To specify the source of the precision for the attributes of type Money, use the <xref:Microsoft.Xrm.Sdk.Metadata.MoneyAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.MoneyAttributeMetadata.PrecisionSource> attribute.  
   
- All money properties in a record share the same transaction currency, for example, see the `Account.CreditLimit` attribute. For each money attribute in an entity, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] automatically creates a corresponding read-only, system calculated, money attribute that is called the "base". This is a money attribute that stores the value of the corresponding attribute in a base currency equivalent, for example, see the `Account.CreditLimit_Base` attribute.  
+  All money properties in a record share the same transaction currency, for example, see the `Account.CreditLimit` attribute. For each money attribute in an entity, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] automatically creates a corresponding read-only, system calculated, money attribute that is called the "base". This is a money attribute that stores the value of the corresponding attribute in a base currency equivalent, for example, see the `Account.CreditLimit_Base` attribute.  
   
- The following formula is used to calculate the base value:  
+  The following formula is used to calculate the base value:  
   
 ```csharp  
 creditlimit_base = creditlimit / exchangerate  

@@ -1,15 +1,19 @@
 ---
-title: "Queue Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Queue Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Queue entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Queue Entity Reference
 
@@ -244,9 +248,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Value|Label|
 |-----|-----|
 |0|All email messages|
-|1|Email messages in response to Dynamics 365 email|
-|2|Email messages from Dynamics 365 Leads, Contacts and Accounts|
-|3|Email messages from Dynamics 365 records that are email enabled|
+|1|Email messages in response to Dynamics 365 for Customer Engagement email|
+|2|Email messages from Dynamics 365 for Customer Engagement Leads, Contacts and Accounts|
+|3|Email messages from Dynamics 365 for Customer Engagement records that are email enabled|
 
 
 
@@ -1149,6 +1153,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_queue_system_user"></a> queue_system_user
 
 Same as systemuser entity [queue_system_user](systemuser.md#BKMK_queue_system_user) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|systemuser|
@@ -1163,6 +1168,7 @@ Same as systemuser entity [queue_system_user](systemuser.md#BKMK_queue_system_us
 ### <a name="BKMK_userentityinstancedata_queue"></a> userentityinstancedata_queue
 
 Same as userentityinstancedata entity [userentityinstancedata_queue](userentityinstancedata.md#BKMK_userentityinstancedata_queue) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1177,6 +1183,7 @@ Same as userentityinstancedata entity [userentityinstancedata_queue](userentityi
 ### <a name="BKMK_Queue_AsyncOperations"></a> Queue_AsyncOperations
 
 Same as asyncoperation entity [Queue_AsyncOperations](asyncoperation.md#BKMK_Queue_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1191,6 +1198,7 @@ Same as asyncoperation entity [Queue_AsyncOperations](asyncoperation.md#BKMK_Que
 ### <a name="BKMK_queue_principalobjectattributeaccess"></a> queue_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [queue_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_queue_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1205,6 +1213,7 @@ Same as principalobjectattributeaccess entity [queue_principalobjectattributeacc
 ### <a name="BKMK_Queue_DuplicateMatchingRecord"></a> Queue_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Queue_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Queue_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1219,6 +1228,7 @@ Same as duplicaterecord entity [Queue_DuplicateMatchingRecord](duplicaterecord.m
 ### <a name="BKMK_Queue_SyncErrors"></a> Queue_SyncErrors
 
 Same as syncerror entity [Queue_SyncErrors](syncerror.md#BKMK_Queue_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1233,6 +1243,7 @@ Same as syncerror entity [Queue_SyncErrors](syncerror.md#BKMK_Queue_SyncErrors) 
 ### <a name="BKMK_Queue_Email_EmailSender"></a> Queue_Email_EmailSender
 
 Same as email entity [Queue_Email_EmailSender](email.md#BKMK_Queue_Email_EmailSender) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1247,6 +1258,7 @@ Same as email entity [Queue_Email_EmailSender](email.md#BKMK_Queue_Email_EmailSe
 ### <a name="BKMK_Queue_DuplicateBaseRecord"></a> Queue_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Queue_DuplicateBaseRecord](duplicaterecord.md#BKMK_Queue_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1261,6 +1273,7 @@ Same as duplicaterecord entity [Queue_DuplicateBaseRecord](duplicaterecord.md#BK
 ### <a name="BKMK_queue_activity_parties"></a> queue_activity_parties
 
 Same as activityparty entity [queue_activity_parties](activityparty.md#BKMK_queue_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1275,6 +1288,7 @@ Same as activityparty entity [queue_activity_parties](activityparty.md#BKMK_queu
 ### <a name="BKMK_queue_team"></a> queue_team
 
 Same as team entity [queue_team](team.md#BKMK_queue_team) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|team|
@@ -1289,6 +1303,7 @@ Same as team entity [queue_team](team.md#BKMK_queue_team) Many-To-One relationsh
 ### <a name="BKMK_queue_entries"></a> queue_entries
 
 Same as queueitem entity [queue_entries](queueitem.md#BKMK_queue_entries) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1303,6 +1318,7 @@ Same as queueitem entity [queue_entries](queueitem.md#BKMK_queue_entries) Many-T
 ### <a name="BKMK_queue_routingruleitem"></a> queue_routingruleitem
 
 Same as routingruleitem entity [queue_routingruleitem](routingruleitem.md#BKMK_queue_routingruleitem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|routingruleitem|
@@ -1317,6 +1333,7 @@ Same as routingruleitem entity [queue_routingruleitem](routingruleitem.md#BKMK_q
 ### <a name="BKMK_queue_convertruleitem"></a> queue_convertruleitem
 
 Same as convertruleitem entity [queue_convertruleitem](convertruleitem.md#BKMK_queue_convertruleitem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|convertruleitem|
@@ -1331,6 +1348,7 @@ Same as convertruleitem entity [queue_convertruleitem](convertruleitem.md#BKMK_q
 ### <a name="BKMK_Queue_ProcessSessions"></a> Queue_ProcessSessions
 
 Same as processsession entity [Queue_ProcessSessions](processsession.md#BKMK_Queue_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1345,6 +1363,7 @@ Same as processsession entity [Queue_ProcessSessions](processsession.md#BKMK_Que
 ### <a name="BKMK_queue_PostFollows"></a> queue_PostFollows
 
 Same as postfollow entity [queue_PostFollows](postfollow.md#BKMK_queue_PostFollows) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postfollow|
@@ -1359,6 +1378,7 @@ Same as postfollow entity [queue_PostFollows](postfollow.md#BKMK_queue_PostFollo
 ### <a name="BKMK_convertrule_queue"></a> convertrule_queue
 
 Same as convertrule entity [convertrule_queue](convertrule.md#BKMK_convertrule_queue) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|convertrule|
@@ -1373,6 +1393,7 @@ Same as convertrule entity [convertrule_queue](convertrule.md#BKMK_convertrule_q
 ### <a name="BKMK_mailbox_regarding_queue"></a> mailbox_regarding_queue
 
 Same as mailbox entity [mailbox_regarding_queue](mailbox.md#BKMK_mailbox_regarding_queue) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailbox|
@@ -1387,6 +1408,7 @@ Same as mailbox entity [mailbox_regarding_queue](mailbox.md#BKMK_mailbox_regardi
 ### <a name="BKMK_Queue_BulkDeleteFailures"></a> Queue_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Queue_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Queue_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1487,6 +1509,6 @@ IntersectEntityName: queuemembership<br />
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.queue?text=queue EntityType" />

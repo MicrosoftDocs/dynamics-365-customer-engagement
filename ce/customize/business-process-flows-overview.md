@@ -1,24 +1,27 @@
 ---
 title: "Business process flows overview | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 06/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "PowerApps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4469877e-bb95-481a-bc52-c9746f937ce5
 caps.latest.revision: 16
-ms.author: "matp"
-manager: brycho
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Business process flows overview
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can help ensure that people enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that people get approval for an invoice before submitting an order. Business process flows use the same underlying technology as other processes, but the capabilities that they provide are very different from other features that use processes. To learn how to create or edit a business process flow, see [Create a business process flow](../customize/create-business-process-flow.md).  
   
@@ -106,49 +109,49 @@ You can assign the following privileges on a business process flow:
  You can define business process flows only for those entities that support them. You also need to be aware of the limits for the number of processes, stages, and steps that can be added.  
   
 ### Business process flows that call a workflow  
- You can now call on-demand workflows from inside a business process flow. You can configure this from the new business process flow designer by dragging a workflow component to a process stage or to the Global Workflows section. For more information about using workflows in business process flows, see [Blog: Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/).  
+ You can now call on-demand workflows from inside a business process flow. You can configure this from the new business process flow designer by dragging a workflow component to a process stage or to the Global Workflows section. For more information about using workflows in business process flows, see [Blog: Business process flow automation in Dynamics 365 for Customer Engagement](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/).  
   
  When you include a workflow that you want to trigger on Stage Exit of a stage in your business process flow, and that stage is  the last stage in the flow, the designer gives the impression that the workflow will be triggered when that stage is completed. However, the workflow will not be triggered because a stage transition does not take place. You will not receive a warning or error preventing you from including the workflow on the stage. When a user interacts with the business process flow, finishing or abandoning the process does not result in a stage transition, and therefore the workflow is not triggered. Consider the following examples:  
   
--   You create a business process flow with two stages, S1 connects to  S2, with a workflow on stage S2 and set the trigger to **Stage Exit**.  
+- You create a business process flow with two stages, S1 connects to  S2, with a workflow on stage S2 and set the trigger to **Stage Exit**.  
   
--   You create a business process flow with three stages, S1 connect to S2, then S2 branches to S3. You include a workflow on S2 and set the trigger to **Stage Exit**.  
+- You create a business process flow with three stages, S1 connect to S2, then S2 branches to S3. You include a workflow on S2 and set the trigger to **Stage Exit**.  
   
- The workflow will not trigger in either case. To work around this issue, you can add a Global Workflow and add the workflow you want to trigger to it so that the workflow is triggered for the business process rather than a stage of the process. You can set the trigger for a Global workflow to Process Abandoned or Process Completed to cause the workflow to trigger when a user abandons or completes the business process.  
+  The workflow will not trigger in either case. To work around this issue, you can add a Global Workflow and add the workflow you want to trigger to it so that the workflow is triggered for the business process rather than a stage of the process. You can set the trigger for a Global workflow to Process Abandoned or Process Completed to cause the workflow to trigger when a user abandons or completes the business process.  
   
 <a name="BKMK_Entities"></a>   
 ### Entities that can use business process flows  
  Only entities that use the updated forms can use business process flows. This includes custom entities and the following system entities:  
   
--   Account  
--   Appointment  
--   Campaign  
--   Campaign Activity  
--   Campaign Response  
--   Competitor  
--   Contact  
--   Email  
--   Entitlement  
--   Fax  
--   Case  
--   Invoice  
--   Lead  
--   Letter  
--   Marketing List  
--   Opportunity  
--   Phone Call  
--   Product  
--   Price List Item  
--   Quote  
--   Recurring Appointment  
--   Sales Literature  
--   Social Activity  
--   Order  
--   User  
--   Task  
--   Team  
+- Account  
+- Appointment  
+- Campaign  
+- Campaign Activity  
+- Campaign Response  
+- Competitor  
+- Contact  
+- Email  
+- Entitlement  
+- Fax  
+- Case  
+- Invoice  
+- Lead  
+- Letter  
+- Marketing List  
+- Opportunity  
+- Phone Call  
+- Product  
+- Price List Item  
+- Quote  
+- Recurring Appointment  
+- Sales Literature  
+- Social Activity  
+- Order  
+- User  
+- Task  
+- Team  
   
- To enable a custom entity for business process flows, select the **Business process flows (fields will be created)** check box in the entity definition. Note that you can’t undo this action.  
+  To enable a custom entity for business process flows, select the **Business process flows (fields will be created)** check box in the entity definition. Note that you can’t undo this action.  
   
 > [!NOTE]
 >  If you navigate to the business process flow stage that contains the `Social Activity` entity and choose the **Next Stage** button, you’ll see the **Create** option. When you choose **Create**, the **Social Activity** form loads. However, because `Social Activity` isn’t valid for `Create` from the app user interface, you won’t be able to save the form and you’ll see the error message: “Unexpected error.”  
@@ -190,7 +193,7 @@ Currently, you can’t create custom forms for entities based on a business proc
  [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)   
  [Create a business process flow](../customize/create-business-process-flow.md)   
  [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md) <br/>
- [Whitepaper: Process Enablement with Dynamics 365](http://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>
+ [Whitepaper: Process Enablement with Dynamics 365 for Customer Engagement](http://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>
  [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)</br>
  [Workflow Processes](../customize/workflow-processes.md)   
  [Actions - Overview](../customize/actions.md)

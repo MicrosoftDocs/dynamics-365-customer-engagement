@@ -1,20 +1,24 @@
 ---
-title: "String (RESX) web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about using string web resources to make localized strings available for use in Dynamics 365. "
-ms.custom: ""
+title: "String (RESX) web resources (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Learn about using string web resources to make localized strings available for use in Dynamics 365 for Customer Engagement. "
+ms.custom: 
 ms.date: 12/28/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2abb6e22-c64c-4f87-8b55-9f4405103cec
 caps.latest.revision: 19
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # String (RESX) web resources
 
@@ -43,9 +47,9 @@ For example `Xrm.Utility.getResourceString("new_/strings/MyAppResources","hello"
 The appropriate string value will be determined by the individual user’s language preference and the languages available in the organization. If a localized string is not found that matches the user’s language preference, the localized string will automatically fallback to the base language for the organization. If no matching localized string is found for the organizations base language, a null value will be returned.
 
 ### See also
-[Web resources for Dynamics 365 Customer Engagement](web-resources.md)<br />
+[Web resources for Dynamics 365 for Customer Engagement apps](web-resources.md)<br />
 [Create accessible web resources](create-accessible-web-resources.md)<br />
-[Create web resources and IFrame content for use with the Dynamics 365 for mobile clients](create-web-resources-iframe-mobile.md)<br />
+[Create web resources and IFrame content for use with the Dynamics 365 for Customer Engagement apps for mobile clients](create-web-resources-iframe-mobile.md)<br />
 [Web resource dependencies](web-resource-dependencies.md)<br />
 [Webpage (HTML) web resources](webpage-html-web-resources.md)<br />
 [Silverlight (XAP) web resources](silverlight-xap-web-resources.md)<br />

@@ -1,26 +1,29 @@
 ---
 title: "Additional controls for Dynamics 365 for phones and tablets | MicrosoftDocs"
 description: "A list of controls available for use with Dynamics 365 for phones and tablets"
-ms.custom: ""
-ms.date: 04/02/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/08/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 7920ef78-2540-48ad-ba25-9ce9cb995ed1
 caps.latest.revision: 63
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Additional controls for Dynamics 365 for phones and tablets 
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  You can use a rich set of additional controls to create a more touch-friendly experience on Dynamics 365 for phones and tablets. These include sliders, switches, multimedia player, input masks, calendar, and other controls.  
 
@@ -30,24 +33,24 @@ manager: "kvivek"
   
  To use these controls in the form editor:  
   
-1.  Double-click the field or list you want to add the control to.  
+1. Double-click the field or list you want to add the control to.  
   
-2.  Click the **Controls** tab.  
+2. Click the **Controls** tab.  
   
-3.  Click **Add control**.  
+3. Click **Add control**.  
   
-4.  Select the control you want and then click **Add**.  
+4. Select the control you want and then click **Add**.  
   
-    > [!NOTE]
-    >  Different controls are available depending on the field or list type. For example, slider controls might only be available for numerical or money fields, and the calendar control is only available for lists.  
+   > [!NOTE]
+   >  Different controls are available depending on the field or list type. For example, slider controls might only be available for numerical or money fields, and the calendar control is only available for lists.  
   
-5.  Select the devices you want the control to appear on (phone, tablet, or both). Controls aren’t available for phone header fields.  
+5. Select the devices you want the control to appear on (phone, tablet, or both). Controls aren’t available for phone header fields.  
   
-6.  Configure the values for each property.  
+6. Configure the values for each property.  
   
-7.  Click **OK** when you’re done configuring the control.  
+7. Click **OK** when you’re done configuring the control.  
   
- Following are descriptions for each control you can use on forms for Dynamics 365 for phones and tablets.  
+   Following are descriptions for each control you can use on forms for Dynamics 365 for phones and tablets.  
   
 ## Calendar control  
  Use this control to configure forms so they show up as a calendar view in Dynamics 365 for phones and tablets. You can also use this control to replace dashboards, lists, or entity grids for phones and tablets.  
@@ -147,7 +150,7 @@ manager: "kvivek"
   
 > [!IMPORTANT]
 >  By enabling this control, you consent to allow your users to share certain identifiable device information with an external system. Data imported from external systems into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] are subject to our privacy statement at [Microsoft Privacy and Cookies](http://go.microsoft.com/fwlink/p/?LinkId=521839).  
->   
+> 
 >  [Privacy notices](../customize/use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
   
 |Property|Description|  
@@ -199,15 +202,15 @@ manager: "kvivek"
   
  Supported media types include:  
   
--   Streaming MP4 files  
+- Streaming MP4 files  
   
--   YouTube videos  
+- YouTube videos  
   
--   Azure media  
+- Azure media  
   
--   Audio streams  
+- Audio streams  
   
- [Privacy notice](../customize/use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
+  [Privacy notice](../customize/use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
   
 |Property|Description|  
 |--------------|-----------------|  

@@ -1,13 +1,13 @@
 ---
-title: "Sample: Calculate Price plug-in (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Calculate Price plug-in (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to write a plug-in that calculates the pricing of the opportunities, quotes, orders, and invoices based on your custom code."
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
-  - "Dynamics 365 (online)"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 683204f7-570a-43ab-bf7e-a12d26cec214
 author: KumarVivek
 ms.author: kvivek
@@ -17,6 +17,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 12
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Calculate Price plug-in
@@ -42,7 +46,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
 - **Tax**: Tax is applied on the amount that is effective after the discount is applied (total amount minus discount). If the effective amount is less than 5000, tax is 10%; otherwise, tax is 8%.  
   
- For more information, see [Use custom pricing for products](use-custom-pricing-products.md).  
+  For more information, see [Use custom pricing for products](use-custom-pricing-products.md).  
   
 ## Example  
  [!code-csharp[Plug-Ins#CalculatePricePlugin](../snippets/csharp/CRMV8/plug-ins/cs/calculatepriceplugin.cs#calculatepriceplugin)]  

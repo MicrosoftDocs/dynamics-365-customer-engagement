@@ -1,15 +1,19 @@
 ---
-title: "msdyn_quotelineinvoiceschedule Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_quotelineinvoiceschedule Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_quotelineinvoiceschedule entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_quotelineinvoiceschedule Entity Reference
 
@@ -580,6 +584,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_SyncErrors"></a> msdyn_quotelineinvoiceschedule_SyncErrors
 
 Same as syncerror entity [msdyn_quotelineinvoiceschedule_SyncErrors](syncerror.md#BKMK_msdyn_quotelineinvoiceschedule_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -594,6 +599,7 @@ Same as syncerror entity [msdyn_quotelineinvoiceschedule_SyncErrors](syncerror.m
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_DuplicateMatchingRecord"></a> msdyn_quotelineinvoiceschedule_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_quotelineinvoiceschedule_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_quotelineinvoiceschedule_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -608,6 +614,7 @@ Same as duplicaterecord entity [msdyn_quotelineinvoiceschedule_DuplicateMatching
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_DuplicateBaseRecord"></a> msdyn_quotelineinvoiceschedule_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_quotelineinvoiceschedule_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_quotelineinvoiceschedule_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -622,6 +629,7 @@ Same as duplicaterecord entity [msdyn_quotelineinvoiceschedule_DuplicateBaseReco
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_AsyncOperations"></a> msdyn_quotelineinvoiceschedule_AsyncOperations
 
 Same as asyncoperation entity [msdyn_quotelineinvoiceschedule_AsyncOperations](asyncoperation.md#BKMK_msdyn_quotelineinvoiceschedule_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -636,6 +644,7 @@ Same as asyncoperation entity [msdyn_quotelineinvoiceschedule_AsyncOperations](a
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_MailboxTrackingFolders"></a> msdyn_quotelineinvoiceschedule_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_quotelineinvoiceschedule_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_quotelineinvoiceschedule_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -650,6 +659,7 @@ Same as mailboxtrackingfolder entity [msdyn_quotelineinvoiceschedule_MailboxTrac
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_UserEntityInstanceDatas"></a> msdyn_quotelineinvoiceschedule_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_quotelineinvoiceschedule_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_quotelineinvoiceschedule_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -664,6 +674,7 @@ Same as userentityinstancedata entity [msdyn_quotelineinvoiceschedule_UserEntity
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_ProcessSession"></a> msdyn_quotelineinvoiceschedule_ProcessSession
 
 Same as processsession entity [msdyn_quotelineinvoiceschedule_ProcessSession](processsession.md#BKMK_msdyn_quotelineinvoiceschedule_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -678,6 +689,7 @@ Same as processsession entity [msdyn_quotelineinvoiceschedule_ProcessSession](pr
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_BulkDeleteFailures"></a> msdyn_quotelineinvoiceschedule_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_quotelineinvoiceschedule_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_quotelineinvoiceschedule_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -692,6 +704,7 @@ Same as bulkdeletefailure entity [msdyn_quotelineinvoiceschedule_BulkDeleteFailu
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_PrincipalObjectAttributeAccesses"></a> msdyn_quotelineinvoiceschedule_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_quotelineinvoiceschedule_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_quotelineinvoiceschedule_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -743,6 +756,6 @@ See msdyn_quotelinescheduleofvalue Entity [msdyn_msdyn_quotelinescheduleofvalue_
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_quotelineinvoiceschedule?text=msdyn_quotelineinvoiceschedule EntityType" />

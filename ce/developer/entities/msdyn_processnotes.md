@@ -1,15 +1,19 @@
 ---
-title: "msdyn_processnotes Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_processnotes Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_processnotes entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_processnotes Entity Reference
 
@@ -599,6 +603,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_processnotes_ActivityPointers"></a> msdyn_processnotes_ActivityPointers
 
 Same as activitypointer entity [msdyn_processnotes_ActivityPointers](activitypointer.md#BKMK_msdyn_processnotes_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -613,6 +618,7 @@ Same as activitypointer entity [msdyn_processnotes_ActivityPointers](activitypoi
 ### <a name="BKMK_msdyn_processnotes_msdyn_approvals"></a> msdyn_processnotes_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_processnotes_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_processnotes_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -627,6 +633,7 @@ Same as msdyn_approval entity [msdyn_processnotes_msdyn_approvals](msdyn_approva
 ### <a name="BKMK_msdyn_processnotes_msdyn_bookingalerts"></a> msdyn_processnotes_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_processnotes_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_processnotes_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -641,6 +648,7 @@ Same as msdyn_bookingalert entity [msdyn_processnotes_msdyn_bookingalerts](msdyn
 ### <a name="BKMK_msdyn_processnotes_SyncErrors"></a> msdyn_processnotes_SyncErrors
 
 Same as syncerror entity [msdyn_processnotes_SyncErrors](syncerror.md#BKMK_msdyn_processnotes_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -655,6 +663,7 @@ Same as syncerror entity [msdyn_processnotes_SyncErrors](syncerror.md#BKMK_msdyn
 ### <a name="BKMK_msdyn_processnotes_DuplicateMatchingRecord"></a> msdyn_processnotes_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_processnotes_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_processnotes_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -669,6 +678,7 @@ Same as duplicaterecord entity [msdyn_processnotes_DuplicateMatchingRecord](dupl
 ### <a name="BKMK_msdyn_processnotes_DuplicateBaseRecord"></a> msdyn_processnotes_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_processnotes_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_processnotes_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -683,6 +693,7 @@ Same as duplicaterecord entity [msdyn_processnotes_DuplicateBaseRecord](duplicat
 ### <a name="BKMK_msdyn_processnotes_AsyncOperations"></a> msdyn_processnotes_AsyncOperations
 
 Same as asyncoperation entity [msdyn_processnotes_AsyncOperations](asyncoperation.md#BKMK_msdyn_processnotes_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -697,6 +708,7 @@ Same as asyncoperation entity [msdyn_processnotes_AsyncOperations](asyncoperatio
 ### <a name="BKMK_msdyn_processnotes_MailboxTrackingFolders"></a> msdyn_processnotes_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_processnotes_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_processnotes_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -711,6 +723,7 @@ Same as mailboxtrackingfolder entity [msdyn_processnotes_MailboxTrackingFolders]
 ### <a name="BKMK_msdyn_processnotes_UserEntityInstanceDatas"></a> msdyn_processnotes_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_processnotes_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_processnotes_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -725,6 +738,7 @@ Same as userentityinstancedata entity [msdyn_processnotes_UserEntityInstanceData
 ### <a name="BKMK_msdyn_processnotes_ProcessSession"></a> msdyn_processnotes_ProcessSession
 
 Same as processsession entity [msdyn_processnotes_ProcessSession](processsession.md#BKMK_msdyn_processnotes_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -739,6 +753,7 @@ Same as processsession entity [msdyn_processnotes_ProcessSession](processsession
 ### <a name="BKMK_msdyn_processnotes_BulkDeleteFailures"></a> msdyn_processnotes_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_processnotes_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_processnotes_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -753,6 +768,7 @@ Same as bulkdeletefailure entity [msdyn_processnotes_BulkDeleteFailures](bulkdel
 ### <a name="BKMK_msdyn_processnotes_PrincipalObjectAttributeAccesses"></a> msdyn_processnotes_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_processnotes_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_processnotes_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -767,6 +783,7 @@ Same as principalobjectattributeaccess entity [msdyn_processnotes_PrincipalObjec
 ### <a name="BKMK_msdyn_processnotes_Appointments"></a> msdyn_processnotes_Appointments
 
 Same as appointment entity [msdyn_processnotes_Appointments](appointment.md#BKMK_msdyn_processnotes_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -781,6 +798,7 @@ Same as appointment entity [msdyn_processnotes_Appointments](appointment.md#BKMK
 ### <a name="BKMK_msdyn_processnotes_Emails"></a> msdyn_processnotes_Emails
 
 Same as email entity [msdyn_processnotes_Emails](email.md#BKMK_msdyn_processnotes_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -795,6 +813,7 @@ Same as email entity [msdyn_processnotes_Emails](email.md#BKMK_msdyn_processnote
 ### <a name="BKMK_msdyn_processnotes_Faxes"></a> msdyn_processnotes_Faxes
 
 Same as fax entity [msdyn_processnotes_Faxes](fax.md#BKMK_msdyn_processnotes_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -809,6 +828,7 @@ Same as fax entity [msdyn_processnotes_Faxes](fax.md#BKMK_msdyn_processnotes_Fax
 ### <a name="BKMK_msdyn_processnotes_Letters"></a> msdyn_processnotes_Letters
 
 Same as letter entity [msdyn_processnotes_Letters](letter.md#BKMK_msdyn_processnotes_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -823,6 +843,7 @@ Same as letter entity [msdyn_processnotes_Letters](letter.md#BKMK_msdyn_processn
 ### <a name="BKMK_msdyn_processnotes_PhoneCalls"></a> msdyn_processnotes_PhoneCalls
 
 Same as phonecall entity [msdyn_processnotes_PhoneCalls](phonecall.md#BKMK_msdyn_processnotes_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -837,6 +858,7 @@ Same as phonecall entity [msdyn_processnotes_PhoneCalls](phonecall.md#BKMK_msdyn
 ### <a name="BKMK_msdyn_processnotes_Tasks"></a> msdyn_processnotes_Tasks
 
 Same as task entity [msdyn_processnotes_Tasks](task.md#BKMK_msdyn_processnotes_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -851,6 +873,7 @@ Same as task entity [msdyn_processnotes_Tasks](task.md#BKMK_msdyn_processnotes_T
 ### <a name="BKMK_msdyn_processnotes_RecurringAppointmentMasters"></a> msdyn_processnotes_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_processnotes_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_processnotes_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -865,6 +888,7 @@ Same as recurringappointmentmaster entity [msdyn_processnotes_RecurringAppointme
 ### <a name="BKMK_msdyn_processnotes_SocialActivities"></a> msdyn_processnotes_SocialActivities
 
 Same as socialactivity entity [msdyn_processnotes_SocialActivities](socialactivity.md#BKMK_msdyn_processnotes_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -879,6 +903,7 @@ Same as socialactivity entity [msdyn_processnotes_SocialActivities](socialactivi
 ### <a name="BKMK_msdyn_processnotes_connections1"></a> msdyn_processnotes_connections1
 
 Same as connection entity [msdyn_processnotes_connections1](connection.md#BKMK_msdyn_processnotes_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -893,6 +918,7 @@ Same as connection entity [msdyn_processnotes_connections1](connection.md#BKMK_m
 ### <a name="BKMK_msdyn_processnotes_connections2"></a> msdyn_processnotes_connections2
 
 Same as connection entity [msdyn_processnotes_connections2](connection.md#BKMK_msdyn_processnotes_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -907,6 +933,7 @@ Same as connection entity [msdyn_processnotes_connections2](connection.md#BKMK_m
 ### <a name="BKMK_msdyn_processnotes_Annotations"></a> msdyn_processnotes_Annotations
 
 Same as annotation entity [msdyn_processnotes_Annotations](annotation.md#BKMK_msdyn_processnotes_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -921,6 +948,7 @@ Same as annotation entity [msdyn_processnotes_Annotations](annotation.md#BKMK_ms
 ### <a name="BKMK_msdyn_processnotes_ServiceAppointments"></a> msdyn_processnotes_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_processnotes_ServiceAppointments](serviceappointment.md#BKMK_msdyn_processnotes_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -967,6 +995,6 @@ See organization Entity [organization_msdyn_processnotes](organization.md#BKMK_o
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_processnotes?text=msdyn_processnotes EntityType" />

@@ -1,14 +1,18 @@
 ---
-title: "Composite attributes in Dynamics 365 Customer Engagement in Dynamics 365 Customer Engagement| MicrosoftDocs"
-description: "Learn about the attribute addOnchange method to set a function to be called when the attribute value is changed." 
+title: "Composite attributes in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "Learn about the attribute addOnchange method to set a function to be called when the attribute value is changed."
 ms.date: 11/10/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9f3b2fed-fde5-46e4-8c59-43aa51aa82df
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Composite attributes 
 
@@ -188,8 +192,7 @@ The following table lists the composite attributes available in Customer Engagem
                     address2_composite
                 </p>
             </td>
-        </tr>        
-        <tr>
+        </tr><br/>        <tr>
             <td rowspan="2">
                 <p>
                     Quote
@@ -296,12 +299,12 @@ To access just the **address_line1** control in the **address1_composite** contr
 `formContext.getControl("address1_composite_compositionLinkControl_address1_line1")`
 
 ## Composite attributes in mobile clients
-The mobile client for Dynamics 365 Customer Engagement use the same form definitions used for the entities that have composite attributes but it interprets them differently. If a composite attribute is found in the form definition, it will show all the attributes that are part of the composite attribute in that section of the form. There is no need for a flyout because all the fields are visible. You can write scripts for the form accessing each of the individual attributes just as if they had been individually added to the form.
-However, the actual composite control will not be present in the Dynamics 365 mobile clients page.
+The mobile client for Dynamics 365 for Customer Engagement apps use the same form definitions used for the entities that have composite attributes but it interprets them differently. If a composite attribute is found in the form definition, it will show all the attributes that are part of the composite attribute in that section of the form. There is no need for a flyout because all the fields are visible. You can write scripts for the form accessing each of the individual attributes just as if they had been individually added to the form.
+However, the actual composite control will not be present in the Dynamics 365 for Customer Engagement apps mobile clients page.
 
 ## Mitigate the differences
 
-If you want to access the fullname field for the Contact, Lead, or User entities, using the **formContext.data.entity**.[getPrimaryAttributeValue](formContext-data-entity/getPrimaryAttributeValue.md) method is an easy way to get the value for this attribute without referencing it directly. This method works for both the web application and Dynamics 365 mobile clients.
+If you want to access the fullname field for the Contact, Lead, or User entities, using the **formContext.data.entity**.[getPrimaryAttributeValue](formContext-data-entity/getPrimaryAttributeValue.md) method is an easy way to get the value for this attribute without referencing it directly. This method works for both the web application and Dynamics 365 for Customer Engagement apps mobile clients.
 
 If you have code that needs to read the value of one of the address composite attributes, to work with both clients, you need to separate the code using the [getClient](Xrm-Utility/getGlobalContext/client.md#getclient) method as shown in the following function that will display the formatted address using the **Xrm.Navigation**.[openAlertDialog](Xrm-Navigation/openAlertDialog.md) method in either the main web application or the mobile apps version of the same form.
 
@@ -358,8 +361,3 @@ function showAddressDialog(executionContext) {
 
 ### Related topics
 [Attributes](attributes.md)
-
-
-
-
-

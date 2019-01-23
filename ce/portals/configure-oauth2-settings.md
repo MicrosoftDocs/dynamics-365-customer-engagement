@@ -1,9 +1,9 @@
 ---
-title: "Configure OAuth2 provider settings for a portal in Dynamics 365  | MicrosoftDocs"
+title: "Configure OAuth2 provider settings for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
 description: "Instructions to add and configure OAuth2 provider settings for a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: f5d8f8bf-4911-4311-b3a0-a5c0171e5810
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Configure OAuth2 provider settings for portals
@@ -30,7 +37,7 @@ The supported providers are:
 
 ## Create OAuth applications
 
-In general, if an OAuth provider uses app settings that require a redirect URI value, specify http://portal.contoso.com/or http://portal.contoso.com/signin-\[provider\] depending on how the provider performs redirect URI validation (some providers require the full URL path to be specified along with the domain name). Substitute the name of the provider in place of \[provider\] in the redirect URI.
+In general, if an OAuth provider uses app settings that require a redirect URI value, specify <http://portal.contoso.com/or> http://portal.contoso.com/signin-\[provider\] depending on how the provider performs redirect URI validation (some providers require the full URL path to be specified along with the domain name). Substitute the name of the provider in place of \[provider\] in the redirect URI.
 
 ### Google
 
@@ -39,15 +46,15 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
 1. Open [Google Developers Console](https://console.developers.google.com/)  
 2. Create an API project or open an existing project
 3. Go to**APIs & auth** &gt;**APIs**, and under **Social APIs**, select**Google+ API**, and then select**Enable API**
-5. Go to**APIs & auth** &gt;**Consent screen**.
+4. Go to**APIs & auth** &gt;**Consent screen**.
     - Specify an**Email address**.
     - Specify a custom**Product name**.
     - Select**Save**.
-9. Go to**APIs & auth** &gt;**Credentials** and create a new client ID.
-    - Application Type:**Web application**
-    - Authorized [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] Origins: http://portal.contoso.com
-    - Authorized Redirect URIs: http://portal.contoso.com/signin-google 
-    - Select **Create Client ID**.
+5. Go to**APIs & auth** &gt;**Credentials** and create a new client ID.
+   - Application Type:**Web application**
+   - Authorized [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] Origins: http://portal.contoso.com
+   - Authorized Redirect URIs: http://portal.contoso.com/signin-google 
+   - Select **Create Client ID**.
 
 ### Facebook app settings
 
@@ -67,7 +74,7 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
 
 6. Select **Save Changes**.
 7. Go to **Status & Review** &gt; **Status** tab.
-8. Select **Yes** when prompted to make the app and all its features available to the general public. You must have filled in the valid data in Step 5 above to to enable this setting.
+8. Select **Yes** when prompted to make the app and all its features available to the general public. You must have filled in the valid data in Step 5 above to enable this setting.
 
 ### [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] application settings
 
@@ -124,8 +131,8 @@ Substitute the `[provider]` tag in the site setting name with a specific identit
 |**Site Setting Name**                                           |**Description**                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Authentication/Registration/ExternalLoginEnabled                | Enables or disables external account sign-in and registration. Default: true                                                                                                                                                                                                                                                                         |
-| Authentication/OpenAuth/\[provider\]/ClientId                   | Required. The client ID value from the provider application. It may also be referred to as an "App ID" or "Consumer Key".  The following setting names are allowed for backwards compatibility:  Authentication/OpenAuth/Twitter/ConsumerKey <ul><li>Authentication/OpenAuth/Facebook/AppId</li><li>Authentication/OpenAuth/LinkedIn/ConsumerKey</li> |
-| Authentication/OpenAuth/\[provider\]/ClientSecret               | Required. The client secret value from the provider application. It may also be referred to as an "App Secret" or "Consumer Secret".  The following setting names are allowed for backwards compatibility:  Authentication/OpenAuth/Twitter/ConsumerSecret <ul><li>Authentication/OpenAuth/Facebook/AppSecret</li><li>Authentication/OpenAuth/LinkedIn/ConsumerSecret</li> |
+| Authentication/OpenAuth/\[provider\]/ClientId                   | Required. The client ID value from the provider application. It may also be referred to as an App ID or Consumer Key.  The following setting names are allowed for backwards compatibility:  Authentication/OpenAuth/Twitter/ConsumerKey <ul><li>Authentication/OpenAuth/Facebook/AppId</li><li>Authentication/OpenAuth/LinkedIn/ConsumerKey</li> |
+| Authentication/OpenAuth/\[provider\]/ClientSecret               | Required. The client secret value from the provider application. It may also be referred to as an App Secret or Consumer Secret.  The following setting names are allowed for backwards compatibility:  Authentication/OpenAuth/Twitter/ConsumerSecret <ul><li>Authentication/OpenAuth/Facebook/AppSecret</li><li>Authentication/OpenAuth/LinkedIn/ConsumerSecret</li> |
 | Authentication/OpenAuth/\[provider\]/AuthenticationType         | The OWIN authentication middleware type. Example: yahoo. [authenticationoptions.authenticationtype](https://msdn.microsoft.com//library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx).                                                                                                                                |  
 | Authentication/OpenAuth/\[provider\]/Scope                      | A comma separated list of permissions to request. [microsoftaccountauthenticationoptions.scope](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.scope.aspx).                                                                                                                |  
 | Authentication/OpenAuth/\[provider\]/Caption                    | The text that the user can display on a sign in user interface. [microsoftaccountauthenticationoptions.caption](https://msdn.microsoft.com//library/microsoft.owin.security.microsoftaccount.microsoftaccountauthenticationoptions.caption.aspx).                                                                                              |  
@@ -136,7 +143,7 @@ Substitute the `[provider]` tag in the site setting name with a specific identit
 
 ### See also
 
-[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)   
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  

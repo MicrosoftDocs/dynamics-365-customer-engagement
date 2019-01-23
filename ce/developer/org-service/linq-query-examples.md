@@ -1,23 +1,27 @@
 ---
-title: "LINQ query examples (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "LINQ query examples (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic contains many samples of LINQ queries. These samples demonstrate use of Simple Where clause, Join and simple where clause, Distinct operator, simple inner join, Self join and Double and multiple joins"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "LINQ query examples and samples, 34 examples of using LINQ in queries"
-  - "LINQ queries, 34 examples of using LINQ in queries"
+  - LINQ query examples and samples, 34 examples of using LINQ in queries
+  - LINQ queries, 34 examples of using LINQ in queries
 ms.assetid: 082042aa-88b5-46e1-a38d-f0a8e59db0a7
 caps.latest.revision: 25
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # LINQ query examples
 

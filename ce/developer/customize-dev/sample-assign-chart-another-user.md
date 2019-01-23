@@ -1,13 +1,13 @@
 ---
 title: "Sample: Assign a chart to another user | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
-  - "Dynamics 365 (online)"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0225d979-0e34-44b5-814c-a5dcb14d6fd9
 author: JimDaly
 ms.author: jdaly
@@ -17,6 +17,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 24
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Assign a chart to another user

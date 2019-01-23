@@ -1,19 +1,23 @@
 ---
-title: "Download tools from NuGet (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Download tools from NuGet (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Download the Plugin Registration, Package Deployment, and other core tools from Nuget."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/6/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: feb3e634-7c60-46fd-8b92-3f5682b1570b
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Download tools from NuGet 
 
@@ -79,6 +83,14 @@ You can download tools used in development from NuGet using the  powershell scri
     $pdFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf.'}
     move .\Tools\$pdFolder\tools\*.* .\Tools\PackageDeployment
     Remove-Item .\Tools\$pdFolder -Force -Recurse
+
+    ##
+    ##Download Package Deployer PowerShell module
+    ##
+    ./nuget install Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell -O .\Tools
+    $pdPoshFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell.'}
+    move .\Tools\$pdPoshFolder\tools\*.* .\Tools\PackageDeployment.PowerShell
+    Remove-Item .\Tools\$pdPoshFolder -Force -Recurse
 
     ##
     ##Remove NuGet.exe

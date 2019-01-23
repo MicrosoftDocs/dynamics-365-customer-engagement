@@ -1,13 +1,17 @@
 ---
-title: "GridRow (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "GridRow (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/10/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 02fef0b4-b895-4277-b604-3f525c29dca3
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # GridRow (Client API reference)
 
@@ -29,9 +33,9 @@ var gridRow = myRows.get(arg);
 
 ## Methods
 
-|Name|Description|Available for|
-|--|--|--|
-|[getData](gridrow/getData.md)|[!INCLUDE[gridrow/includes/getData-description.md](gridrow/includes/getData-description.md)]|Read-only and editable grids|
+|             Name              |                                         Description                                          |        Available for         |
+|-------------------------------|----------------------------------------------------------------------------------------------|------------------------------|
+| [getData](gridrow/getData.md) | [!INCLUDE[gridrow/includes/getData-description.md](gridrow/includes/getData-description.md)] | Read-only and editable grids |
 
 ### Related topics
 

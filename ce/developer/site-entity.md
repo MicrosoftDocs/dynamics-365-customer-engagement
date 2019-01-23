@@ -1,30 +1,34 @@
 ---
-title: "Site entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-decription: "The site entity serves the purpose of sites providing for the grouping of resources, such as users and facility/equipment, services, and appointments, according to a location with an associated time zone and locale."
-ms.custom: ""
+title: "Site entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+decription: The site entity serves the purpose of sites providing for the grouping of resources, such as users and facility/equipment, services, and appointments, according to a location with an associated time zone and locale.
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "sites"
-  - "site entity, scheduling appointments"
-  - "site entity, grouping resources"
-  - "locations, site entity"
-  - "site entity, limiting resources"
-  - "site entity, locations and offices"
-  - "site entity, offices"
-  - "site entity, definition"
-  - "offices, site entity"
+  - sites
+  - site entity, scheduling appointments
+  - site entity, grouping resources
+  - locations, site entity
+  - site entity, limiting resources
+  - site entity, locations and offices
+  - site entity, offices
+  - site entity, definition
+  - offices, site entity
 ms.assetid: a7915e27-dc79-4480-9ff1-f87e8d761ecb
 caps.latest.revision: 14
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Site entity

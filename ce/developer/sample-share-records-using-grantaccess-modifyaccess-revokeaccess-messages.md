@@ -1,13 +1,13 @@
 ---
-title: "Sample: Share records using GrantAccess, ModifyAccess and RevokeAccess messages (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Share records using GrantAccess, ModifyAccess and RevokeAccess messages (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample shows how to share a record using the following messages:GrantAccessRequest, ModifyAccessRequest, and RevokeAccessRequest."
-keywords: ""
+keywords: 
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
-  - "Dynamics 365 (online)"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 791aa59d-b217-4e8d-93d3-edd4ecfc8403
 author: KumarVivek
 ms.author: kvivek
@@ -16,8 +16,12 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
-  - "sharing records sample"
+  - sharing records sample
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Share records using GrantAccess, ModifyAccess and RevokeAccess messages
@@ -46,7 +50,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
 ### See also  
  [User and Team Entities](user-team-entities.md)   
- [Introduction to Entities in Dynamics 365](introduction-entities.md#Share)   
+ [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md#Share)   
  <xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>   
  [Sample: Create an On-Premises User](sample-create-on-premises-user.md)   
- [Introduction to Entities in Dynamics 365](introduction-entities.md)
+ [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)

@@ -1,20 +1,24 @@
 ---
-title: "Retrieve and detect changes to metadata (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Retrieve and detect changes to metadata (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The classes in the Query namespace and the RetrieveMetadataChangesRequest and RetrieveMetadataChangesResponse classes let you build efficient metadata queries and capture changes to metadata as they occur over time."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 11c1d485-e5e9-40ac-8ac1-76504ba8bef5
 caps.latest.revision: 29
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Retrieve and detect changes to metadata
 
@@ -32,23 +36,23 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
 
  Metadata lets you create applications that adapt as the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement data model changes. Metadata is important for the following types of application:  
   
--   UI for client applications  
+- UI for client applications  
   
--   Integration tools that have to map Dynamics 365 data to external systems  
+- Integration tools that have to map Dynamics 365 for Customer Engagement apps data to external systems  
   
--   Development tools  
+- Development tools  
   
- Using the classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace you can implement designs that will exist somewhere between a lightweight query and a persistent metadata cache.  
+  Using the classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace you can implement designs that will exist somewhere between a lightweight query and a persistent metadata cache.  
   
 ### Lightweight query
   
- An example of a lightweight query is when you have a custom web resource UI that provides a select control to display the current options in a Dynamics 365 Option Set (Picklist) attribute. You do not want to hard-code these options because you would have to update that code if the available options are ever changed. Instead you can construct a query to just retrieve those options values and labels from the metadata.  
+ An example of a lightweight query is when you have a custom web resource UI that provides a select control to display the current options in a Dynamics 365 for Customer Engagement Option Set (Picklist) attribute. You do not want to hard-code these options because you would have to update that code if the available options are ever changed. Instead you can construct a query to just retrieve those options values and labels from the metadata.  
   
- You do not have to cache this data because you can use the <xref:Microsoft.Xrm.Sdk.Metadata.Query> classes to retrieve this data directly from the Dynamics 365 application cache.  
+ You do not have to cache this data because you can use the <xref:Microsoft.Xrm.Sdk.Metadata.Query> classes to retrieve this data directly from the Dynamics 365 for Customer Engagement application cache.  
   
 ### Persistent metadata cache
   
- When you have an application that must be able to work while disconnected from the Dynamics 365 Server, or that is sensitive to limited network bandwidth between the client and the server, such as a mobile application, you will want to implement a persistent metadata cache.  
+ When you have an application that must be able to work while disconnected from the Dynamics 365 for Customer Engagement server, or that is sensitive to limited network bandwidth between the client and the server, such as a mobile application, you will want to implement a persistent metadata cache.  
   
  With a persistent metadata cache your application will have to query all the necessary metadata the first time it connects. Then you will save that data in the application. The next time the application connects to the server you can retrieve just the difference since your last query, which should be much less data to transmit, and then merge the changes into your metadata cache when your application is loading.  
   
@@ -68,23 +72,23 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
 
  The <xref:Microsoft.Xrm.Sdk.Metadata.Query.EntityQueryExpression>.<xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataQueryExpression.Criteria> property accepts a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression> that contains a collection of <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionExpression> objects that allow for defining conditions for filtering entity properties based on their value. These conditions use a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator> that allows for the following operators:  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.Equals  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.Equals  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.NotEquals  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.NotEquals  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.In  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.In  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.NotIn  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.NotIn  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.GreaterThan  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.GreaterThan  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.LessThan  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.LessThan  
   
- The <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression> also includes a <xref:Microsoft.Xrm.Sdk.Query.LogicalOperator> to represent whether to apply `And` or `Or` logic when you evaluate the conditions.  
+  The <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression> also includes a <xref:Microsoft.Xrm.Sdk.Query.LogicalOperator> to represent whether to apply `And` or `Or` logic when you evaluate the conditions.  
   
- Not all properties can be used as filter criteria. Only properties that represent simple data types, enumerations, <xref:Microsoft.Xrm.Sdk.BooleanManagedProperty> or <xref:Microsoft.Xrm.Sdk.Metadata.AttributeRequiredLevelManagedProperty> types can be used in a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression>. When a <xref:Microsoft.Xrm.Sdk.BooleanManagedProperty> or <xref:Microsoft.Xrm.Sdk.Metadata.AttributeRequiredLevelManagedProperty> is specified, only the `Value` property is evaluated.  
+  Not all properties can be used as filter criteria. Only properties that represent simple data types, enumerations, <xref:Microsoft.Xrm.Sdk.BooleanManagedProperty> or <xref:Microsoft.Xrm.Sdk.Metadata.AttributeRequiredLevelManagedProperty> types can be used in a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression>. When a <xref:Microsoft.Xrm.Sdk.BooleanManagedProperty> or <xref:Microsoft.Xrm.Sdk.Metadata.AttributeRequiredLevelManagedProperty> is specified, only the `Value` property is evaluated.  
   
- The following table lists <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> properties that cannot be used in a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression>:  
+  The following table lists <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> properties that cannot be used in a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression>:  
   
 |||||  
 |-|-|-|-|  
@@ -249,19 +253,19 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
  Use the <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters> enumeration with the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest>.<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest.DeletedMetadataFilters> to limit the information to only those types of metadata you are interested in. The <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters> enumeration provides the following options:  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Entity (Default)  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Entity (Default)  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Attribute  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Attribute  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Relationship  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Relationship  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Label  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Label  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.OptionSet  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.OptionSet  
   
- You will also use <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters> enumeration as a key to the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse>.<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse.DeletedMetadata> to filter the `GUID` values found in the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse>.<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse.DeletedMetadata> property.  
+  You will also use <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters> enumeration as a key to the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse>.<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse.DeletedMetadata> to filter the `GUID` values found in the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse>.<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse.DeletedMetadata> property.  
   
- When you design a metadata cache you will want to use the <xref:Microsoft.Xrm.Sdk.Metadata.MetadataBase.MetadataId> for each item so that you can identify deleted metadata items and remove them.  
+  When you design a metadata cache you will want to use the <xref:Microsoft.Xrm.Sdk.Metadata.MetadataBase.MetadataId> for each item so that you can identify deleted metadata items and remove them.  
   
 <a name="BKMK_DeletedMetadataExpiration"></a>
    
@@ -278,13 +282,13 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
    
 ### Performance when retrieving deleted metadata 
  
- When a metadata item is deleted it is saved in the database and not in the Dynamics 365 metadata cache. Although the deleted metadata is limited to just the <xref:Microsoft.Xrm.Sdk.Metadata.MetadataBase.MetadataId> and the type of metadata item, accessing the database is an operation that will require more server resources than just querying for changes.  
+ When a metadata item is deleted it is saved in the database and not in the Dynamics 365 for Customer Engagement metadata cache. Although the deleted metadata is limited to just the <xref:Microsoft.Xrm.Sdk.Metadata.MetadataBase.MetadataId> and the type of metadata item, accessing the database is an operation that will require more server resources than just querying for changes.  
   
 ### See also  
  [Write Applications and Server Extensions](extend-dynamics-365-server.md)   
- [Offline Use of the Dynamics 365 Services](org-service/offline-use-services.md)   
+ [Offline Use of the Dynamics 365 for Customer Engagement Services](org-service/offline-use-services.md)   
  [Sample: Query Metadata and Detect Changes](org-service/sample-query-metadata-detect-changes.md)   
- [Extend the Metadata Model for Dynamics 365](org-service/use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement](org-service/use-organization-service-metadata.md)   
  [Customize Entity Metadata](customize-entity-metadata.md)   
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)   
  [Customize Entity Relationship Metadata](customize-entity-relationship-metadata.md)   

@@ -1,20 +1,24 @@
 ---
-title: "Use Web API functions (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Functions are reusable operations that are used with a GET request to retrieve data from Dynamics 365"
-ms.custom: ""
+title: "Use Web API functions (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Functions are reusable operations that are used with a GET request to retrieve data from Dynamics 365 for Customer Engagement"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c6de9c12-e8e3-4ed5-a6ed-18ade572065f
 caps.latest.revision: 45
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use Web API functions
 

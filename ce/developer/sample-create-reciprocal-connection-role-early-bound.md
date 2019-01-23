@@ -1,23 +1,27 @@
 ---
-title: "Sample: Create a reciprocal connection role (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create a reciprocal connection role (early bound) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample code demonstrates how to create the reciprocal connection roles."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "creating reciprocal connection roles, sample"
-  - "sample for creating reciprocal connection roles"
+  - creating reciprocal connection roles, sample
+  - sample for creating reciprocal connection roles
 ms.assetid: 768e2422-e725-4de4-85c9-17dff24ee69c
 caps.latest.revision: 18
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Create a reciprocal connection role (early bound)
 

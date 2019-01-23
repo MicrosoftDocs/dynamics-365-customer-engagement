@@ -1,26 +1,30 @@
 ---
-title: "ActivityPointer (activity) entity (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ActivityPointer (activity) entity (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The activity pointer (activity) entity represents any activity or task that is performed, or to be performed by a user. An activity is any action for which an entry can be made on a calendar"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "creating activity records and their pointer records, activitypointer (activity) entity"
-  - "activitypointer (activity) entity, about"
-  - "activity entities, activitypointer (activity) entity"
-  - "activity types, activitypointer (activity) entity"
-  - "activitypointer (activity) entity, definition"
+  - creating activity records and their pointer records, activitypointer (activity) entity
+  - activitypointer (activity) entity, about
+  - activity entities, activitypointer (activity) entity
+  - activity types, activitypointer (activity) entity
+  - activitypointer (activity) entity, definition
 ms.assetid: 00266be0-ee35-4504-b3d6-8ad528b82314
 caps.latest.revision: 26
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # ActivityPointer (activity) entity
 

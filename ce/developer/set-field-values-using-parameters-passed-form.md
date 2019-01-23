@@ -1,20 +1,24 @@
 ---
-title: "Set field values using parameters passed to a form (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The content in this topic can be used for Dynamics 365 (online). You can set default values for new records created by users by specifying attribute values in the URL that is used to open the form."
-ms.custom: ""
+title: "Set field values using parameters passed to a form (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The content in this topic can be used for Dynamics 365 for Customer Engagement (online). You can set default values for new records created by users by specifying attribute values in the URL that is used to open the form."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-    - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 62984977-83a2-464a-b8d9-f7f3fa4b7d33
 caps.latest.revision: 43
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Set field values using parameters passed to a form
 
@@ -30,19 +34,19 @@ The content in this topic can be used for [!INCLUDE[pn_dynamics_crm_online](../i
   
  When you open a new form by using the URL address, you can include arguments in the `extraqs` parameter to set field values. The following requirements must be met:  
   
--   You must encode the parameters passed in the `extraqs` parameter. To encode the parameters, use [encodeURIComponent](https://msdn.microsoft.com/library/aeh9cef7\(VS.85\).aspx).  
+- You must encode the parameters passed in the `extraqs` parameter. To encode the parameters, use [encodeURIComponent](https://msdn.microsoft.com/library/aeh9cef7\(VS.85\).aspx).  
   
--   The names of the query string arguments must match or include the names of attributes for the entity.  
+- The names of the query string arguments must match or include the names of attributes for the entity.  
   
--   The values passed must be valid.  
+- The values passed must be valid.  
   
--   The value can’t be a script.  
+- The value can’t be a script.  
   
- Any attempt to pass an invalid parameter or value will result in an error.  
+  Any attempt to pass an invalid parameter or value will result in an error.  
   
--   For Boolean fields, use either an integer value of `0` or `1`, or a text value of `true` or `false` to set the value.  
+- For Boolean fields, use either an integer value of `0` or `1`, or a text value of `true` or `false` to set the value.  
   
--   For DateTime fields, use the text value of the date.  
+- For DateTime fields, use the text value of the date.  
   
 <a name="BKMK_ExampleSetValueStringFields"></a>   
 ## Example: Set the value for string fields  

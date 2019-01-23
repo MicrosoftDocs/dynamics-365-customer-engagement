@@ -1,24 +1,28 @@
 ---
-title: "Sample: Impersonate using the ActOnBehalfOf privilege (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Impersonate using the ActOnBehalfOf privilege (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to impersonate another user by setting the CallerId property of the organization web service proxy"
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
-  - "Dynamics 365 (online)"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c484a6b6-e3ca-4eae-a734-68e8d38db501
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Impersonate using the ActOnBehalfOf privilege
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement.
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps.
 Download the sample: [Work with authentication (Impersonating a user)](https://code.msdn.microsoft.com/Sample-of-impersonating-e51b6cbd).
 
 ## Prerequisites
@@ -43,8 +47,8 @@ Download the sample: [Work with authentication (Impersonating a user)](https://c
  [!code-csharp[Authentication#ImpersonateWithOnBehalfOfPrivilege](../../snippets/csharp/CRMV8/authentication/cs/impersonatewithonbehalfofprivilege.cs#impersonatewithonbehalfofprivilege)]  
   
 ### See also  
- [Authenticate users in Dynamics 365 Customer Engagement](../authenticate-users.md)   
- [Sample: Authenticate users with Dynamics 365 web services](../sample-authenticate-users-web-services.md)   
+ [Authenticate users in Dynamics 365 for Customer Engagement apps](../authenticate-users.md)   
+ [Sample: Authenticate users with Dynamics 365 for Customer Engagement web services](../sample-authenticate-users-web-services.md)   
  [Impersonate Another User](impersonate-another-user.md)   
  [How role-based security can be used to control access to entities](../security-dev/how-role-based-security-control-access-entities.md)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.CallerId>

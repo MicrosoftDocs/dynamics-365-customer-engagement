@@ -1,25 +1,33 @@
 ---
 title: "Work with data protection and GDPR (Dynamics 365 for Marketing) | Microsoft Docs  "
 description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 for Marketing"
-keywords: "GDPR; data protection; privacy"
+keywords: GDPR; data protection; privacy
 ms.date: 04/01/2018
-ms.service:
-  - "dynamics-365-marketing"
-ms.custom:
-  - "dyn365-marketing"
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: dbc6f586-d4ba-4cdb-aa93-c1f92d61b262
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+manager: shellyha
+ms.reviewer:
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Data protection and the GDPR
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The [General Data Protection Regulation (GDPR)](http://ec.europa.eu/justice/data-protection/reform/index_en.htm) is a European Union (EU) directive that imposes new rules on companies, government agencies, non-profits, and other organizations that offer goods and services to people in the EU, or that collect and analyze data tied to EU residents. The GDPR applies no matter where you are located.
 
@@ -38,8 +46,9 @@ Here are some resources where you can learn more about how to bring your [!INCLU
 
 Most [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] installations are customized to meet the specific needs of each organization that uses it. Some organizations have in-house developers, and some organizations work with external partners or consultants to implement their customizations. Either way, you must customize your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] system to enable its built-in GDPR compliance tools to function correctly.
 
-Among other things, you must be able to identify all data structures (including tables, entities, and fields) that contain personal information. You should establish mechanics that allow you to easily discover, deliver, update, and/or delete this data when requested by your customer. 
-- For more information on how Dynamics 365 helps you with essential data tasks like discovering, managing, protecting, and reporting for your GDPR compliance see the guide [Microsoft Dynamics 365 helps enable data privacy for GDPR compliance](https://www.microsoft.com/en-us/TrustCenter/CloudServices/dynamics365/GDPR) in the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
+Among other things, you must be able to identify all data structures (including tables, entities, and fields) that contain personal information. You should establish mechanics that allow you to easily discover, deliver, update, and/or delete this data when requested by your customer.
+
+- For more information on how [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] helps you with essential data tasks like discovering, managing, protecting, and reporting for your GDPR compliance see the guide [Microsoft Dynamics 365 helps enable data privacy for GDPR compliance](https://www.microsoft.com/en-us/TrustCenter/CloudServices/dynamics365/GDPR) in the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
 - For details about how to use the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] API to implement custom GDPR-related functionality for your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] system, see the [Developer Guide (Marketing)](developer/marketing-developer-guide.md).
 - If you're looking for a partner to help you come into compliance, try searching in our [Microsoft Solution Providers database](https://www.microsoft.com/solution-providers/search).
 
@@ -56,7 +65,7 @@ To help you with consent management and other GDPR related workloads, [!INCLUDE[
 - A default collection of hierarchical consent levels is provided out of the box, where higher levels of consent include lower levels.
 - Contact records include a field that stores the level of consent each contact has granted your organization.
 - You can configure each customer journey to only process contacts that have given a minimum-required level of consent.
--  You can configure each lead-scoring model to only compute scores for leads associated with contacts that have given a minimum-required level of consent.
+- You can configure each lead-scoring model to only compute scores for leads associated with contacts that have given a minimum-required level of consent.
 - You can create marketing pages with marketing forms that encourage contacts to grant a level of consent while being unambiguously informed. The consent is stored in each contact's record.
 - You’ll be able to use various mechanics in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to extract all information related to a specific contact and share relevant information with that contact when requested.
 - You'll be able to use mechanics to have [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] "forget" (delete) all information about a specific contact when requested.
@@ -64,7 +73,6 @@ To help you with consent management and other GDPR related workloads, [!INCLUDE[
 - You'll be able to provide means for your contacts to ask to view, retrieve, update, and delete their consent and data, and to use [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to model the fulfillment on your side.
 
 The consent levels provided out of the box are just recommendations. It is up to you to decide the relevance of each level, and how you would like to use it in your marketing activities. The following table summarizes each supplied consent level and how it is typically used. Consent levels are hierarchical, so higher levels include all lower levels.
-
 
 | Level | Consent level name | Description |
 |-------|--------------------|-------------|
@@ -76,6 +84,9 @@ The consent levels provided out of the box are just recommendations. It is up to
 | 5 | Profiling | The individual allows the organization to use demographic and behavior information (such as website visits, email opens, and email clicks) for automated decision making. It is the organization's responsibility to classify which of their processing activities fall under the category of automated decision making. Examples include automatic calculation of credit limits or loan promises based on available data, and calculation mechanics using rule-based or predictive calculations. Children shall never be subject to such profiling and automated decision making. |
 
 In addition, special privacy protection is required for minors (children), requiring additional consent by a parent or guardian.
+
+> [!IMPORTANT]
+> The accounts entity does not store any GDPR consent information&mdash;only contact entities include it. Lead-scoring models that operate on the account level aren't able to respect the consent of the contacts that belong to that account, but they can still score account leads based on interactions generated by all of those contacts. That means that you must be careful not to use automatic lead scoring for automated decision making (profiling) related to account-based leads if those decisions affect individuals. You can still use the feature to score account leads, but you must not use it for indirect contact scoring if the score is used for automated decision making. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
 
 ## Enable GDPR features in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
@@ -140,11 +151,11 @@ A subscription center is probably the best place to enable contacts to confirm a
 
 You can now create a marketing email message that includes a link to your subscription-center page. Make sure your page explains why granting consent is important and how it offers value to the individual.
 
-<!-- ## Set up double opt-in to confirm changes in consent level and subscriptions
+## Set up double opt-in to confirm changes in consent level and subscriptions
 
 To fully comply with the GDPR (and other common regulations), you must set up the double opt-in system. Double opt-in uses email messaging to ensure that all requests to change a contact's consent level or add a subscription were made on purpose by a person who can read that contact's email.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md) -->
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md) 
 
 ## An example of how to support data requests from your marketing audience
 
@@ -156,7 +167,7 @@ One way to make it easy for individuals to submit GDPR requests to your organiza
 
 - Further information about the specific type of request and what the customer can expect upon submitting the form.
 - All the input fields required to uniquely identify the contact in your database. This is typically their email address and last name, but the actual requirements will depend on your de-duplication settings.
-- Any additional fields that might help your privacy officer fulfil the request (such as a field for general notes and comments or checkboxes with special options).
+- Any additional fields that might help your privacy officer fulfil the request (such as a field for general notes and comments or check boxes with special options).
 
 Then prepare a single customer journey with three parallel pipelines, one for each request type. You could set up each pipeline as follows:
 

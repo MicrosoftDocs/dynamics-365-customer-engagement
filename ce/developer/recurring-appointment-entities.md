@@ -1,25 +1,29 @@
 ---
-title: "Recurring appointment entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Recurring appointment entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Overview of appointments that occur more than once, and follow an occurrence pattern."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "recurring appointment entities, introduction"
-  - "recurring appointments, definition"
-  - "recurring appointment entities, schedule and appointment entities"
-  - "schedule and appointment entities, recurring appointment entities"
+  - recurring appointment entities, introduction
+  - recurring appointments, definition
+  - recurring appointment entities, schedule and appointment entities
+  - schedule and appointment entities, recurring appointment entities
 ms.assetid: 98645c12-28ca-4205-a05c-e687b3af6f32
 caps.latest.revision: 13
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Recurring appointment entities
 

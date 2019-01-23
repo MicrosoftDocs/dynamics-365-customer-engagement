@@ -1,15 +1,19 @@
 ---
-title: "msdyn_requirementresourcepreference Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_requirementresourcepreference Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_requirementresourcepreference entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_requirementresourcepreference Entity Reference
 
@@ -96,6 +100,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Account"></a> msdyn_Account
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -125,6 +130,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Cascade"></a> msdyn_Cascade
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -229,6 +235,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_WorkOrder"></a> msdyn_WorkOrder
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for Work Order associated with Requirement Resource Preference.|
@@ -792,6 +799,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_requirementresourcepreference_SyncErrors"></a> msdyn_requirementresourcepreference_SyncErrors
 
 Same as syncerror entity [msdyn_requirementresourcepreference_SyncErrors](syncerror.md#BKMK_msdyn_requirementresourcepreference_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -806,6 +814,7 @@ Same as syncerror entity [msdyn_requirementresourcepreference_SyncErrors](syncer
 ### <a name="BKMK_msdyn_requirementresourcepreference_DuplicateMatchingRecord"></a> msdyn_requirementresourcepreference_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_requirementresourcepreference_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_requirementresourcepreference_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -820,6 +829,7 @@ Same as duplicaterecord entity [msdyn_requirementresourcepreference_DuplicateMat
 ### <a name="BKMK_msdyn_requirementresourcepreference_DuplicateBaseRecord"></a> msdyn_requirementresourcepreference_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_requirementresourcepreference_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_requirementresourcepreference_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -834,6 +844,7 @@ Same as duplicaterecord entity [msdyn_requirementresourcepreference_DuplicateBas
 ### <a name="BKMK_msdyn_requirementresourcepreference_AsyncOperations"></a> msdyn_requirementresourcepreference_AsyncOperations
 
 Same as asyncoperation entity [msdyn_requirementresourcepreference_AsyncOperations](asyncoperation.md#BKMK_msdyn_requirementresourcepreference_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -848,6 +859,7 @@ Same as asyncoperation entity [msdyn_requirementresourcepreference_AsyncOperatio
 ### <a name="BKMK_msdyn_requirementresourcepreference_MailboxTrackingFolders"></a> msdyn_requirementresourcepreference_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_requirementresourcepreference_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_requirementresourcepreference_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -862,6 +874,7 @@ Same as mailboxtrackingfolder entity [msdyn_requirementresourcepreference_Mailbo
 ### <a name="BKMK_msdyn_requirementresourcepreference_UserEntityInstanceDatas"></a> msdyn_requirementresourcepreference_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_requirementresourcepreference_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_requirementresourcepreference_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -876,6 +889,7 @@ Same as userentityinstancedata entity [msdyn_requirementresourcepreference_UserE
 ### <a name="BKMK_msdyn_requirementresourcepreference_ProcessSession"></a> msdyn_requirementresourcepreference_ProcessSession
 
 Same as processsession entity [msdyn_requirementresourcepreference_ProcessSession](processsession.md#BKMK_msdyn_requirementresourcepreference_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -890,6 +904,7 @@ Same as processsession entity [msdyn_requirementresourcepreference_ProcessSessio
 ### <a name="BKMK_msdyn_requirementresourcepreference_BulkDeleteFailures"></a> msdyn_requirementresourcepreference_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_requirementresourcepreference_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_requirementresourcepreference_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -904,6 +919,7 @@ Same as bulkdeletefailure entity [msdyn_requirementresourcepreference_BulkDelete
 ### <a name="BKMK_msdyn_requirementresourcepreference_PrincipalObjectAttributeAccesses"></a> msdyn_requirementresourcepreference_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_requirementresourcepreference_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_requirementresourcepreference_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -918,6 +934,7 @@ Same as principalobjectattributeaccess entity [msdyn_requirementresourcepreferen
 ### <a name="BKMK_msdyn_requirementresourcepreference_Annotations"></a> msdyn_requirementresourcepreference_Annotations
 
 Same as annotation entity [msdyn_requirementresourcepreference_Annotations](annotation.md#BKMK_msdyn_requirementresourcepreference_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -994,6 +1011,6 @@ See msdyn_workorder Entity [msdyn_msdyn_workorder_msdyn_requirementresourceprefe
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_requirementresourcepreference?text=msdyn_requirementresourcepreference EntityType" />

@@ -1,15 +1,19 @@
 ---
-title: "SLA Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "SLA Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SLA entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # SLA Entity Reference
 
@@ -542,7 +546,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -688,7 +692,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1543,6 +1547,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_manualsla_lead"></a> manualsla_lead
 
 Same as lead entity [manualsla_lead](lead.md#BKMK_manualsla_lead) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|lead|
@@ -1557,6 +1562,7 @@ Same as lead entity [manualsla_lead](lead.md#BKMK_manualsla_lead) Many-To-One re
 ### <a name="BKMK_sla_lead"></a> sla_lead
 
 Same as lead entity [sla_lead](lead.md#BKMK_sla_lead) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|lead|
@@ -1571,6 +1577,7 @@ Same as lead entity [sla_lead](lead.md#BKMK_sla_lead) Many-To-One relationship.
 ### <a name="BKMK_bulkoperation_sla_slaid"></a> bulkoperation_sla_slaid
 
 Same as bulkoperation entity [bulkoperation_sla_slaid](bulkoperation.md#BKMK_bulkoperation_sla_slaid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperation|
@@ -1585,6 +1592,7 @@ Same as bulkoperation entity [bulkoperation_sla_slaid](bulkoperation.md#BKMK_bul
 ### <a name="BKMK_bulkoperation_sla_slainvokedid"></a> bulkoperation_sla_slainvokedid
 
 Same as bulkoperation entity [bulkoperation_sla_slainvokedid](bulkoperation.md#BKMK_bulkoperation_sla_slainvokedid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperation|
@@ -1599,6 +1607,7 @@ Same as bulkoperation entity [bulkoperation_sla_slainvokedid](bulkoperation.md#B
 ### <a name="BKMK_campaignactivity_sla_slaid"></a> campaignactivity_sla_slaid
 
 Same as campaignactivity entity [campaignactivity_sla_slaid](campaignactivity.md#BKMK_campaignactivity_sla_slaid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignactivity|
@@ -1613,6 +1622,7 @@ Same as campaignactivity entity [campaignactivity_sla_slaid](campaignactivity.md
 ### <a name="BKMK_campaignactivity_sla_slainvokedid"></a> campaignactivity_sla_slainvokedid
 
 Same as campaignactivity entity [campaignactivity_sla_slainvokedid](campaignactivity.md#BKMK_campaignactivity_sla_slainvokedid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignactivity|
@@ -1627,6 +1637,7 @@ Same as campaignactivity entity [campaignactivity_sla_slainvokedid](campaignacti
 ### <a name="BKMK_campaignresponse_sla_slaid"></a> campaignresponse_sla_slaid
 
 Same as campaignresponse entity [campaignresponse_sla_slaid](campaignresponse.md#BKMK_campaignresponse_sla_slaid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1641,6 +1652,7 @@ Same as campaignresponse entity [campaignresponse_sla_slaid](campaignresponse.md
 ### <a name="BKMK_campaignresponse_sla_slainvokedid"></a> campaignresponse_sla_slainvokedid
 
 Same as campaignresponse entity [campaignresponse_sla_slainvokedid](campaignresponse.md#BKMK_campaignresponse_sla_slainvokedid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1655,6 +1667,7 @@ Same as campaignresponse entity [campaignresponse_sla_slainvokedid](campaignresp
 ### <a name="BKMK_manualsla_cases"></a> manualsla_cases
 
 Same as incident entity [manualsla_cases](incident.md#BKMK_manualsla_cases) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -1669,6 +1682,7 @@ Same as incident entity [manualsla_cases](incident.md#BKMK_manualsla_cases) Many
 ### <a name="BKMK_sla_cases"></a> sla_cases
 
 Same as incident entity [sla_cases](incident.md#BKMK_sla_cases) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -1683,6 +1697,7 @@ Same as incident entity [sla_cases](incident.md#BKMK_sla_cases) Many-To-One rela
 ### <a name="BKMK_incidentresolution_sla_slaid"></a> incidentresolution_sla_slaid
 
 Same as incidentresolution entity [incidentresolution_sla_slaid](incidentresolution.md#BKMK_incidentresolution_sla_slaid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -1697,6 +1712,7 @@ Same as incidentresolution entity [incidentresolution_sla_slaid](incidentresolut
 ### <a name="BKMK_incidentresolution_sla_slainvokedid"></a> incidentresolution_sla_slainvokedid
 
 Same as incidentresolution entity [incidentresolution_sla_slainvokedid](incidentresolution.md#BKMK_incidentresolution_sla_slainvokedid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -1711,6 +1727,7 @@ Same as incidentresolution entity [incidentresolution_sla_slainvokedid](incident
 ### <a name="BKMK_manualsla_serviceappointment"></a> manualsla_serviceappointment
 
 Same as serviceappointment entity [manualsla_serviceappointment](serviceappointment.md#BKMK_manualsla_serviceappointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1725,6 +1742,7 @@ Same as serviceappointment entity [manualsla_serviceappointment](serviceappointm
 ### <a name="BKMK_sla_serviceappointment"></a> sla_serviceappointment
 
 Same as serviceappointment entity [sla_serviceappointment](serviceappointment.md#BKMK_sla_serviceappointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1739,6 +1757,7 @@ Same as serviceappointment entity [sla_serviceappointment](serviceappointment.md
 ### <a name="BKMK_sla_entitlement"></a> sla_entitlement
 
 Same as entitlement entity [sla_entitlement](entitlement.md#BKMK_sla_entitlement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|entitlement|
@@ -1753,6 +1772,7 @@ Same as entitlement entity [sla_entitlement](entitlement.md#BKMK_sla_entitlement
 ### <a name="BKMK_sla_entitlementtemplate"></a> sla_entitlementtemplate
 
 Same as entitlementtemplate entity [sla_entitlementtemplate](entitlementtemplate.md#BKMK_sla_entitlementtemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|entitlementtemplate|
@@ -1767,6 +1787,7 @@ Same as entitlementtemplate entity [sla_entitlementtemplate](entitlementtemplate
 ### <a name="BKMK_opportunityclose_sla_slaid"></a> opportunityclose_sla_slaid
 
 Same as opportunityclose entity [opportunityclose_sla_slaid](opportunityclose.md#BKMK_opportunityclose_sla_slaid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -1781,6 +1802,7 @@ Same as opportunityclose entity [opportunityclose_sla_slaid](opportunityclose.md
 ### <a name="BKMK_opportunityclose_sla_slainvokedid"></a> opportunityclose_sla_slainvokedid
 
 Same as opportunityclose entity [opportunityclose_sla_slainvokedid](opportunityclose.md#BKMK_opportunityclose_sla_slainvokedid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -1795,6 +1817,7 @@ Same as opportunityclose entity [opportunityclose_sla_slainvokedid](opportunityc
 ### <a name="BKMK_orderclose_sla_slaid"></a> orderclose_sla_slaid
 
 Same as orderclose entity [orderclose_sla_slaid](orderclose.md#BKMK_orderclose_sla_slaid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -1809,6 +1832,7 @@ Same as orderclose entity [orderclose_sla_slaid](orderclose.md#BKMK_orderclose_s
 ### <a name="BKMK_orderclose_sla_slainvokedid"></a> orderclose_sla_slainvokedid
 
 Same as orderclose entity [orderclose_sla_slainvokedid](orderclose.md#BKMK_orderclose_sla_slainvokedid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -1823,6 +1847,7 @@ Same as orderclose entity [orderclose_sla_slainvokedid](orderclose.md#BKMK_order
 ### <a name="BKMK_quoteclose_sla_slaid"></a> quoteclose_sla_slaid
 
 Same as quoteclose entity [quoteclose_sla_slaid](quoteclose.md#BKMK_quoteclose_sla_slaid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -1837,6 +1862,7 @@ Same as quoteclose entity [quoteclose_sla_slaid](quoteclose.md#BKMK_quoteclose_s
 ### <a name="BKMK_quoteclose_sla_slainvokedid"></a> quoteclose_sla_slainvokedid
 
 Same as quoteclose entity [quoteclose_sla_slainvokedid](quoteclose.md#BKMK_quoteclose_sla_slainvokedid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -1851,6 +1877,7 @@ Same as quoteclose entity [quoteclose_sla_slainvokedid](quoteclose.md#BKMK_quote
 ### <a name="BKMK_sla_invoice"></a> sla_invoice
 
 Same as invoice entity [sla_invoice](invoice.md#BKMK_sla_invoice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoice|
@@ -1865,6 +1892,7 @@ Same as invoice entity [sla_invoice](invoice.md#BKMK_sla_invoice) Many-To-One re
 ### <a name="BKMK_manualsla_salesorder"></a> manualsla_salesorder
 
 Same as salesorder entity [manualsla_salesorder](salesorder.md#BKMK_manualsla_salesorder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorder|
@@ -1879,6 +1907,7 @@ Same as salesorder entity [manualsla_salesorder](salesorder.md#BKMK_manualsla_sa
 ### <a name="BKMK_sla_salesorder"></a> sla_salesorder
 
 Same as salesorder entity [sla_salesorder](salesorder.md#BKMK_sla_salesorder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorder|
@@ -1893,6 +1922,7 @@ Same as salesorder entity [sla_salesorder](salesorder.md#BKMK_sla_salesorder) Ma
 ### <a name="BKMK_manualsla_quote"></a> manualsla_quote
 
 Same as quote entity [manualsla_quote](quote.md#BKMK_manualsla_quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quote|
@@ -1907,6 +1937,7 @@ Same as quote entity [manualsla_quote](quote.md#BKMK_manualsla_quote) Many-To-On
 ### <a name="BKMK_sla_quote"></a> sla_quote
 
 Same as quote entity [sla_quote](quote.md#BKMK_sla_quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quote|
@@ -1921,6 +1952,7 @@ Same as quote entity [sla_quote](quote.md#BKMK_sla_quote) Many-To-One relationsh
 ### <a name="BKMK_manualsla_opportunity"></a> manualsla_opportunity
 
 Same as opportunity entity [manualsla_opportunity](opportunity.md#BKMK_manualsla_opportunity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunity|
@@ -1935,6 +1967,7 @@ Same as opportunity entity [manualsla_opportunity](opportunity.md#BKMK_manualsla
 ### <a name="BKMK_sla_opportunity"></a> sla_opportunity
 
 Same as opportunity entity [sla_opportunity](opportunity.md#BKMK_sla_opportunity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunity|
@@ -1949,6 +1982,7 @@ Same as opportunity entity [sla_opportunity](opportunity.md#BKMK_sla_opportunity
 ### <a name="BKMK_manualsla_invoice"></a> manualsla_invoice
 
 Same as invoice entity [manualsla_invoice](invoice.md#BKMK_manualsla_invoice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoice|
@@ -1963,6 +1997,7 @@ Same as invoice entity [manualsla_invoice](invoice.md#BKMK_manualsla_invoice) Ma
 ### <a name="BKMK_msdyn_bookingalert_sla_slaid"></a> msdyn_bookingalert_sla_slaid
 
 Same as msdyn_bookingalert entity [msdyn_bookingalert_sla_slaid](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_sla_slaid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1977,6 +2012,7 @@ Same as msdyn_bookingalert entity [msdyn_bookingalert_sla_slaid](msdyn_bookingal
 ### <a name="BKMK_msdyn_bookingalert_sla_slainvokedid"></a> msdyn_bookingalert_sla_slainvokedid
 
 Same as msdyn_bookingalert entity [msdyn_bookingalert_sla_slainvokedid](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_sla_slainvokedid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1991,6 +2027,7 @@ Same as msdyn_bookingalert entity [msdyn_bookingalert_sla_slainvokedid](msdyn_bo
 ### <a name="BKMK_msdyn_approval_sla_slaid"></a> msdyn_approval_sla_slaid
 
 Same as msdyn_approval entity [msdyn_approval_sla_slaid](msdyn_approval.md#BKMK_msdyn_approval_sla_slaid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -2005,6 +2042,7 @@ Same as msdyn_approval entity [msdyn_approval_sla_slaid](msdyn_approval.md#BKMK_
 ### <a name="BKMK_msdyn_approval_sla_slainvokedid"></a> msdyn_approval_sla_slainvokedid
 
 Same as msdyn_approval entity [msdyn_approval_sla_slainvokedid](msdyn_approval.md#BKMK_msdyn_approval_sla_slainvokedid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -2019,6 +2057,7 @@ Same as msdyn_approval entity [msdyn_approval_sla_slainvokedid](msdyn_approval.m
 ### <a name="BKMK_sla_socialactivity"></a> sla_socialactivity
 
 Same as socialactivity entity [sla_socialactivity](socialactivity.md#BKMK_sla_socialactivity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -2033,6 +2072,7 @@ Same as socialactivity entity [sla_socialactivity](socialactivity.md#BKMK_sla_so
 ### <a name="BKMK_manualsla_contact"></a> manualsla_contact
 
 Same as contact entity [manualsla_contact](contact.md#BKMK_manualsla_contact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contact|
@@ -2047,6 +2087,7 @@ Same as contact entity [manualsla_contact](contact.md#BKMK_manualsla_contact) Ma
 ### <a name="BKMK_slabase_BulkDeleteFailures"></a> slabase_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [slabase_BulkDeleteFailures](bulkdeletefailure.md#BKMK_slabase_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2061,6 +2102,7 @@ Same as bulkdeletefailure entity [slabase_BulkDeleteFailures](bulkdeletefailure.
 ### <a name="BKMK_manualsla_fax"></a> manualsla_fax
 
 Same as fax entity [manualsla_fax](fax.md#BKMK_manualsla_fax) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -2075,6 +2117,7 @@ Same as fax entity [manualsla_fax](fax.md#BKMK_manualsla_fax) Many-To-One relati
 ### <a name="BKMK_manualsla_activitypointer"></a> manualsla_activitypointer
 
 Same as activitypointer entity [manualsla_activitypointer](activitypointer.md#BKMK_manualsla_activitypointer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -2089,6 +2132,7 @@ Same as activitypointer entity [manualsla_activitypointer](activitypointer.md#BK
 ### <a name="BKMK_slabase_AsyncOperations"></a> slabase_AsyncOperations
 
 Same as asyncoperation entity [slabase_AsyncOperations](asyncoperation.md#BKMK_slabase_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2103,6 +2147,7 @@ Same as asyncoperation entity [slabase_AsyncOperations](asyncoperation.md#BKMK_s
 ### <a name="BKMK_sla_Annotation"></a> sla_Annotation
 
 Same as annotation entity [sla_Annotation](annotation.md#BKMK_sla_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -2117,6 +2162,7 @@ Same as annotation entity [sla_Annotation](annotation.md#BKMK_sla_Annotation) Ma
 ### <a name="BKMK_sla_task"></a> sla_task
 
 Same as task entity [sla_task](task.md#BKMK_sla_task) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -2131,6 +2177,7 @@ Same as task entity [sla_task](task.md#BKMK_sla_task) Many-To-One relationship.
 ### <a name="BKMK_sla_activitypointer"></a> sla_activitypointer
 
 Same as activitypointer entity [sla_activitypointer](activitypointer.md#BKMK_sla_activitypointer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -2145,6 +2192,7 @@ Same as activitypointer entity [sla_activitypointer](activitypointer.md#BKMK_sla
 ### <a name="BKMK_manualsla_task"></a> manualsla_task
 
 Same as task entity [manualsla_task](task.md#BKMK_manualsla_task) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -2159,6 +2207,7 @@ Same as task entity [manualsla_task](task.md#BKMK_manualsla_task) Many-To-One re
 ### <a name="BKMK_manualsla_account"></a> manualsla_account
 
 Same as account entity [manualsla_account](account.md#BKMK_manualsla_account) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -2173,6 +2222,7 @@ Same as account entity [manualsla_account](account.md#BKMK_manualsla_account) Ma
 ### <a name="BKMK_sla_letter"></a> sla_letter
 
 Same as letter entity [sla_letter](letter.md#BKMK_sla_letter) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -2187,6 +2237,7 @@ Same as letter entity [sla_letter](letter.md#BKMK_sla_letter) Many-To-One relati
 ### <a name="BKMK_manualsla_phonecall"></a> manualsla_phonecall
 
 Same as phonecall entity [manualsla_phonecall](phonecall.md#BKMK_manualsla_phonecall) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -2201,6 +2252,7 @@ Same as phonecall entity [manualsla_phonecall](phonecall.md#BKMK_manualsla_phone
 ### <a name="BKMK_sla_email"></a> sla_email
 
 Same as email entity [sla_email](email.md#BKMK_sla_email) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -2215,6 +2267,7 @@ Same as email entity [sla_email](email.md#BKMK_sla_email) Many-To-One relationsh
 ### <a name="BKMK_sla_appointment"></a> sla_appointment
 
 Same as appointment entity [sla_appointment](appointment.md#BKMK_sla_appointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -2229,6 +2282,7 @@ Same as appointment entity [sla_appointment](appointment.md#BKMK_sla_appointment
 ### <a name="BKMK_sla_slaitem_slaId"></a> sla_slaitem_slaId
 
 Same as slaitem entity [sla_slaitem_slaId](slaitem.md#BKMK_sla_slaitem_slaId) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slaitem|
@@ -2243,6 +2297,7 @@ Same as slaitem entity [sla_slaitem_slaId](slaitem.md#BKMK_sla_slaitem_slaId) Ma
 ### <a name="BKMK_sla_account"></a> sla_account
 
 Same as account entity [sla_account](account.md#BKMK_sla_account) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -2257,6 +2312,7 @@ Same as account entity [sla_account](account.md#BKMK_sla_account) Many-To-One re
 ### <a name="BKMK_SLA_SyncErrors"></a> SLA_SyncErrors
 
 Same as syncerror entity [SLA_SyncErrors](syncerror.md#BKMK_SLA_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2271,6 +2327,7 @@ Same as syncerror entity [SLA_SyncErrors](syncerror.md#BKMK_SLA_SyncErrors) Many
 ### <a name="BKMK_manualsla_letter"></a> manualsla_letter
 
 Same as letter entity [manualsla_letter](letter.md#BKMK_manualsla_letter) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -2285,6 +2342,7 @@ Same as letter entity [manualsla_letter](letter.md#BKMK_manualsla_letter) Many-T
 ### <a name="BKMK_manualsla_appointment"></a> manualsla_appointment
 
 Same as appointment entity [manualsla_appointment](appointment.md#BKMK_manualsla_appointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -2299,6 +2357,7 @@ Same as appointment entity [manualsla_appointment](appointment.md#BKMK_manualsla
 ### <a name="BKMK_manualsla_socialactivity"></a> manualsla_socialactivity
 
 Same as socialactivity entity [manualsla_socialactivity](socialactivity.md#BKMK_manualsla_socialactivity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -2313,6 +2372,7 @@ Same as socialactivity entity [manualsla_socialactivity](socialactivity.md#BKMK_
 ### <a name="BKMK_slabase_userentityinstancedatas"></a> slabase_userentityinstancedatas
 
 Same as userentityinstancedata entity [slabase_userentityinstancedatas](userentityinstancedata.md#BKMK_slabase_userentityinstancedatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2327,6 +2387,7 @@ Same as userentityinstancedata entity [slabase_userentityinstancedatas](userenti
 ### <a name="BKMK_sla_fax"></a> sla_fax
 
 Same as fax entity [sla_fax](fax.md#BKMK_sla_fax) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -2341,6 +2402,7 @@ Same as fax entity [sla_fax](fax.md#BKMK_sla_fax) Many-To-One relationship.
 ### <a name="BKMK_sla_contact"></a> sla_contact
 
 Same as contact entity [sla_contact](contact.md#BKMK_sla_contact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contact|
@@ -2355,6 +2417,7 @@ Same as contact entity [sla_contact](contact.md#BKMK_sla_contact) Many-To-One re
 ### <a name="BKMK_slabase_ProcessSessions"></a> slabase_ProcessSessions
 
 Same as processsession entity [slabase_ProcessSessions](processsession.md#BKMK_slabase_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2369,6 +2432,7 @@ Same as processsession entity [slabase_ProcessSessions](processsession.md#BKMK_s
 ### <a name="BKMK_sla_phonecall"></a> sla_phonecall
 
 Same as phonecall entity [sla_phonecall](phonecall.md#BKMK_sla_phonecall) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -2383,6 +2447,7 @@ Same as phonecall entity [sla_phonecall](phonecall.md#BKMK_sla_phonecall) Many-T
 ### <a name="BKMK_manualsla_email"></a> manualsla_email
 
 Same as email entity [manualsla_email](email.md#BKMK_manualsla_email) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -2454,6 +2519,6 @@ See calendar Entity [slabase_businesshoursid](calendar.md#BKMK_slabase_businessh
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.sla?text=sla EntityType" />

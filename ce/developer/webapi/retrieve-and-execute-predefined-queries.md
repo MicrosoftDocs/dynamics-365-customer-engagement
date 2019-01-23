@@ -1,38 +1,43 @@
 ---
-title: "Retrieve and execute predefined queries (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Dynamics 365 Customer Engagement provides a way for administrators to create system views that are available to all users. Read how you can compose a predefined query and use FetchXML to create a query string to retrieve data"
-ms.custom: ""
+title: "Retrieve and execute predefined queries (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Dynamics 365 for Customer Engagement provides a way for administrators to create system views that are available to all users. Read how you can compose a predefined query and use FetchXML to create a query string to retrieve data"
+ms.custom: 
 ms.date: 06/14/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3d771a18-3dc5-4372-a7c7-40b3b1f986d8
 caps.latest.revision: 16
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Retrieve and execute predefined queries
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement provides a way for administrators to create system views that are available to all users. Individual users can save the advanced find queries for re-use in the application. Both of these represent predefined queries you can retrieve and execute using the Web API. You can also compose a query using FetchXml and use that to retrieve data.
+[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps provides a way for administrators to create system views that are available to all users. Individual users can save the advanced find queries for re-use in the application. Both of these represent predefined queries you can retrieve and execute using the Web API. You can also compose a query using FetchXml and use that to retrieve data.
 
 <a name="bkmk_predefinedQueries"></a>
 
 ## Predefined queries
 
-[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] allows you to define, save, and execute two types of queries as listed here.
+[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps allows you to define, save, and execute two types of queries as listed here.
 
-|Query type|Description|
-|----------------|-----------------|
-|**Saved Query**|System-defined views for an entity. These views are stored in the <xref href="Microsoft.Dynamics.CRM.savedquery?text=savedquery EntityType" />. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Customize Entity Views](../customize-dev/customize-entity-views.md)|
-|**User Query**|Advanced Find searches saved by users for an entity. These views are stored in the <xref href="Microsoft.Dynamics.CRM.userquery?text=userquery EntityType" />. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [UserQuery (Saved View) Entity](../userquery-saved-view-entity.md)|
+
+|   Query type    |                                                                                                                                                 Description                                                                                                                                                  |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Saved Query** |       System-defined views for an entity. These views are stored in the <xref href="Microsoft.Dynamics.CRM.savedquery?text=savedquery EntityType" />. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Customize Entity Views](../customize-dev/customize-entity-views.md)        |
+| **User Query**  | Advanced Find searches saved by users for an entity. These views are stored in the <xref href="Microsoft.Dynamics.CRM.userquery?text=userquery EntityType" />. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [UserQuery (Saved View) Entity](../userquery-saved-view-entity.md) |
 
 Records for both of these types of entities contain the FetchXML definition for the data to return. You can query the respective entity type to retrieve the primary key value. With the primary key value, you can execute the query by passing the primary key value. For example, to execute the **Active Accounts** saved query, you must first get the primary key using a query like this.
 

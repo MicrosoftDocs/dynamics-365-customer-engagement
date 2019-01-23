@@ -1,20 +1,24 @@
 ---
-title: "Determine who can use a report (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Determine who can use a report (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 1dea8024-64b7-4a4e-a20d-4af5cf7338ad
 caps.latest.revision: 35
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: Mattp123
+ms.author: matp
+manager: brycho
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Determine who can use a report
 
@@ -26,23 +30,23 @@ By default, a report is a personal report and can be used only by the author unl
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)].  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)].  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3.  Click **Customize the System**.  
+3. Click **Customize the System**.  
   
-4.  Click **Components** > **reports**, and then click or tap the report that you want to share.  
+4. Click **Components** > **reports**, and then click or tap the report that you want to share.  
   
-5.  Click **Actions**.  
+5. Click **Actions**.  
   
-    -   To change the owner, select **Assign**, and then select the user or team.  
+   -   To change the owner, select **Assign**, and then select the user or team.  
   
-    -   To share the report, select **Sharing**, add the user or team you want to share the report with, and then give them specific permissions. Click or tap **Share**.  
+   -   To share the report, select **Sharing**, add the user or team you want to share the report with, and then give them specific permissions. Click or tap **Share**.  
   
-6.  Click **Save** or **Save and Close**.  
+6. Click **Save** or **Save and Close**.  
   
 ### See also  
  [Get a list of available reports](../basics/get-list-available-reports.md)   

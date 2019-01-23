@@ -1,13 +1,17 @@
 ---
-title: "Collections (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Collections (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 29ec134e-8fa5-4f88-a353-a3c15398eb37
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Collections (Client API reference)
 
@@ -18,11 +22,12 @@ but without the ability to modify the data in the array. More information: [Coll
 
 These methods are available to all the collections in the **formContext** object model.
 
-|Method  |Description  |
-|------|------|
-|[forEach](collections/forEach.md)|[!INCLUDE[collections/includes/forEach-description.md](collections/includes/forEach-description.md)]|
-|[get](collections/get.md)|[!INCLUDE[collections/includes/get-description.md](collections/includes/get-description.md)]|
-|[getLength](collections/getLength.md)|[!INCLUDE[collections/includes/getLength-description.md](collections/includes/getLength-description.md)]|
+
+|                Method                 |                                               Description                                                |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------|
+|   [forEach](collections/forEach.md)   |   [!INCLUDE[collections/includes/forEach-description.md](collections/includes/forEach-description.md)]   |
+|       [get](collections/get.md)       |       [!INCLUDE[collections/includes/get-description.md](collections/includes/get-description.md)]       |
+| [getLength](collections/getLength.md) | [!INCLUDE[collections/includes/getLength-description.md](collections/includes/getLength-description.md)] |
 
 ### Related topics
 

@@ -1,19 +1,23 @@
 ---
-title: "Events (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+title: "Events (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
+ms.date: 03/01/2018
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 89123cde-7c66-4c7d-94e4-e287285019f8
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Events (Client API reference)
 
 [!INCLUDE[](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-Events occur in Custom Engagement forms and grids whenever a form or grid loads, data is changed, or saved. You execute your JavaScript code by associating it an events so thay it is executed when the event occurs. More information: [Events in forms and grids](../events-forms-grids.md)
+Events occur in Custom Engagement forms and grids whenever a form or grid loads, data is changed, or saved. You execute your JavaScript code by associating it an events so that it is executed when the event occurs. More information: [Events in forms and grids](../events-forms-grids.md)
 
 ## Attribute event
 - [OnChange](events/attribute-onchange.md)

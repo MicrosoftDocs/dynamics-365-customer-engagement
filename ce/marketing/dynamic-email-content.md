@@ -1,22 +1,29 @@
 ---
 title: "Add dynamic content to marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 for Marketing"
-keywords: "email; marketing email; dynamic content; content settings"
-ms.date: 07/06/2018
+keywords: email; marketing email; dynamic content; content settings
+ms.date: 12/17/2018
 ms.service:
-  - "dynamics-365-marketing"
-ms.custom:
-  - "dyn365-marketing"
+  - dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 5134e656-31ae-4984-8045-fcd76b98719a
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Add dynamic content to email messages
@@ -55,7 +62,7 @@ To view, edit, or create a content-settings set:
     - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, and  **YouTube URL**: For each of these social-media services, enter the URL for the landing page for your organization.  
     - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. Select the  **&lt;/&gt;**  button to choose from a list of available pages. All marketing email messages must include a valid subscription-center link taken from a content-settings set.
     - **Forward to a friend**: Specify an existing marketing page that is set up as a forward-to-a-friend page. Select the  **&lt;/&gt;**  button to choose from a list of available pages.
-    
+
 1. Select **Save** in the bottom-right corner of the window to save your settings.
 
 1. If you are editing a content-settings record that was already live, then the record is republished automatically when you save it. If you are creating a new record, then select **Go live** on the command bar to publish it to the marketing services so you can start using it.
@@ -64,13 +71,13 @@ To view, edit, or create a content-settings set:
 
 ## Use assist-edit to place dynamic field values
 
-The **Assist Edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text block in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
+The **Assist Edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text element in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
 
 Start by positioning your cursor in the field where you want to insert the dynamic text, and then select the  **Assist Edit**  button  **&lt;/&gt;**  to open a drop-down list showing a selection of data sources appropriate for your current context, which can include some or all of the following:
 
 - **Contact[context]**: Places a field value, such as a first name, from each recipient's contact record.
 - **Content settings[context]**: Places a field value from the content settings—a subscription center URL, forwarding URL, and the sender postal address are included here.
-- **Message[context]**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL<!-- and the various dynamic values used in [double opt-in emails](double-opt-in.md)-->.
+- **Message[context]**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
 - **Account**: Places a value from a specific account record.
 - **Contact**: Places a value from a specific contact record (not the recipient's record).
 - **Event**: Places a link to a specific event sign-up page, or a field value from the page.
@@ -121,16 +128,19 @@ Though these settings provide assist-edit buttons, you must only place static va
 > [!TIP]
 > You can include conditional statements in the **Advanced Header** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
 
+<a name="advanced-dynamic-content"></a>
+
 ## Advanced dynamic content
 
 > [!NOTE]
-> The advanced dynamic-content features described in this section are scheduled to be rolled out to customer organizations gradually between July and September 2018. To see if they are available to your organization, create a message and paste in the following conditional example:
+
+> The advanced dynamic-content features described in this section are being rolled out gradually, and may not yet be available to your organization. To see if they are available to your organization, create a message and paste in the following conditional example:
 > 
 > `{{#if (eq contact.contact_account_parentcustomerid.name 'abc')}} Hello. {{else if (eq '123' '123')}} Advanced dynamic content is enabled. {{/if}}`
 > 
 > Then open the **Preview** tab. If the preview shows "Advanced dynamic content is enabled," then you have the feature. If instead you see the entire line of code, plus error messages like "We couldn't resolve the message template" or "HTML property not found", then you don't have it yet.  If you don't have the feature available, and require it urgently, then please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance.
 
-You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. You can enter the code while working on either the **Designer** or **HTML** tab of the content designer.
+You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. For best results, enter the code while working on the **HTML** tab of the content designer.
 
 As you've seen in previous examples, dynamic content is surrounded by double braces ( `{{` and `}}` ). This includes both standard field values that you add using the assist-edit feature, and the more advanced programming constructs described in this section.
 
@@ -163,6 +173,9 @@ This expression finds the name of the managing partner for the account for the c
 
 > [!IMPORTANT]
 > You can use, at most, two hops (periods) in your field expressions.
+
+> [!IMPORTANT]
+> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
 
 ### Conditional statements and comparisons
 
@@ -276,14 +289,18 @@ For example, your database could include a list of products that a contact has o
 
 In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the customer-insights database (as usual).
 
-### Mix your code with content in the editor
+<a name="enter-code"></a>
 
-Often, programmers use multiple lines and indents to format their code during development. This makes the code easier to read and understand. The examples in this help topic likewise use techniques such as these to illustrate the structure of the code. However, when you enter your code into the designer, it's important that you compact the code and maintain your page layout—and that means removing all the extra lines and spaces. Here are some tips for how to enter your code in the designer:
+## How to enter advanced dynamic content in the designer
 
-- You can work on either the **HTML** or **Designer** tab.
-- If are working on the **Designer** tab, avoid all extra spaces and carriage returns because these will create `&nbsp;`and `<p>` tags in your code, which will result in unwanted empty space in your rendered design. If you go to the **HTML** tab, you'll see all of these extra tags in your code.
-- If you are working on the **HTML** tab, then all the code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs, as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs).
-- If you are working on the **HTML** tab, then you can add extra spaces and carriage returns to your code, but these will probably be collapsed automatically into a single line if you or anyone else opens the message using the **Designer** tab.
+You must be careful when entering advanced dynamic code in the designer because there are many, sometimes unexpected, ways to get it wrong, which will break your code. Here are some tips for how to enter and test your code:
+
+- We recommend that you always develop your advanced dynamic code while working on the **HTML** tab. However, assist-edit is only available on the **Designer** tab, so you might need to go there from time to time if you want to use that feature to help find database table, field, and relation names.
+- If you do enter code on the **Designer** tab, extra spaces and carriage returns will create `&nbsp;`and `<p>` tags in your code, which can break your code. Always go to the **HTML** tab afterwards, where you'll see all of these extra tags in your code, and be sure to remove them.
+- All of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs, as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs).
+- Do not place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).
+- The relationship name that you use when creating loops or placing lookup values must match the one used in the customer-insights services. This relationship name is not necessarily the same as the one used to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. To find the correct relationship name, use the assist-edit feature on the **Designer** tab, and then clean-up and modify the resulting code as needed on the **HTML** tab.
+- Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
 
 For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer:
 

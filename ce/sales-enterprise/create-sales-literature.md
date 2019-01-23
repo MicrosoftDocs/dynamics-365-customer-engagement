@@ -1,18 +1,18 @@
 ---
 title: "Manage sales literature (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Stores sales-related information by using sales literature in Dynamics 365 for Sales."
-keywords: "sales literature"
+keywords: sales literature
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service:
+  - dynamics-365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: cff981b0-2800-4119-ac55-4cf43a4408e6
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -48,9 +48,9 @@ You can associate a sales literature to a competitor or a product.
 
 There are two ways to send the sales literature to other users:
 
--  Select the **Send as Email** option in the **Sales Literature** form.
+- Select the **Send as Email** option in the **Sales Literature** form.
 
--  Select the **Add Sales Literature** option in [!INCLUDE[pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add sales literature or a knowledge base article when you create an email message](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#add-sales-literature-or-a-knowledge-base-article-when-you-create-an-email-message)
+- Select the **Add Sales Literature** option in [!INCLUDE[pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add sales literature or a knowledge base article when you create an email message](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#add-sales-literature-or-a-knowledge-base-article-when-you-create-an-email-message)
 
 ### See also  
 [Create or edit a competitor record](create-edit-competitor-record-sales.md)  

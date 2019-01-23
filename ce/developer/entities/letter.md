@@ -1,15 +1,19 @@
 ---
-title: "Letter Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Letter Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Letter entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Letter Entity Reference
 
@@ -807,7 +811,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -953,7 +957,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1266,6 +1270,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_letter_campaignresponse"></a> letter_campaignresponse
 
 Same as campaignresponse entity [letter_campaignresponse](campaignresponse.md#BKMK_letter_campaignresponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1280,6 +1285,7 @@ Same as campaignresponse entity [letter_campaignresponse](campaignresponse.md#BK
 ### <a name="BKMK_Letter_DuplicateBaseRecord"></a> Letter_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Letter_DuplicateBaseRecord](duplicaterecord.md#BKMK_Letter_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1294,6 +1300,7 @@ Same as duplicaterecord entity [Letter_DuplicateBaseRecord](duplicaterecord.md#B
 ### <a name="BKMK_Letter_BulkDeleteFailures"></a> Letter_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Letter_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Letter_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1308,6 +1315,7 @@ Same as bulkdeletefailure entity [Letter_BulkDeleteFailures](bulkdeletefailure.m
 ### <a name="BKMK_letter_connections1"></a> letter_connections1
 
 Same as connection entity [letter_connections1](connection.md#BKMK_letter_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1322,6 +1330,7 @@ Same as connection entity [letter_connections1](connection.md#BKMK_letter_connec
 ### <a name="BKMK_slakpiinstance_letter"></a> slakpiinstance_letter
 
 Same as slakpiinstance entity [slakpiinstance_letter](slakpiinstance.md#BKMK_slakpiinstance_letter) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -1336,6 +1345,7 @@ Same as slakpiinstance entity [slakpiinstance_letter](slakpiinstance.md#BKMK_sla
 ### <a name="BKMK_Letter_AsyncOperations"></a> Letter_AsyncOperations
 
 Same as asyncoperation entity [Letter_AsyncOperations](asyncoperation.md#BKMK_Letter_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1350,6 +1360,7 @@ Same as asyncoperation entity [Letter_AsyncOperations](asyncoperation.md#BKMK_Le
 ### <a name="BKMK_Letter_Annotation"></a> Letter_Annotation
 
 Same as annotation entity [Letter_Annotation](annotation.md#BKMK_Letter_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1364,6 +1375,7 @@ Same as annotation entity [Letter_Annotation](annotation.md#BKMK_Letter_Annotati
 ### <a name="BKMK_letter_actioncard"></a> letter_actioncard
 
 Same as actioncard entity [letter_actioncard](actioncard.md#BKMK_letter_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -1378,6 +1390,7 @@ Same as actioncard entity [letter_actioncard](actioncard.md#BKMK_letter_actionca
 ### <a name="BKMK_letter_principalobjectattributeaccess"></a> letter_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [letter_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_letter_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1392,6 +1405,7 @@ Same as principalobjectattributeaccess entity [letter_principalobjectattributeac
 ### <a name="BKMK_Letter_ProcessSessions"></a> Letter_ProcessSessions
 
 Same as processsession entity [Letter_ProcessSessions](processsession.md#BKMK_Letter_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1406,6 +1420,7 @@ Same as processsession entity [Letter_ProcessSessions](processsession.md#BKMK_Le
 ### <a name="BKMK_Letter_DuplicateMatchingRecord"></a> Letter_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Letter_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Letter_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1420,6 +1435,7 @@ Same as duplicaterecord entity [Letter_DuplicateMatchingRecord](duplicaterecord.
 ### <a name="BKMK_Letter_SyncErrors"></a> Letter_SyncErrors
 
 Same as syncerror entity [Letter_SyncErrors](syncerror.md#BKMK_Letter_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1434,6 +1450,7 @@ Same as syncerror entity [Letter_SyncErrors](syncerror.md#BKMK_Letter_SyncErrors
 ### <a name="BKMK_letter_activity_parties"></a> letter_activity_parties
 
 Same as activityparty entity [letter_activity_parties](activityparty.md#BKMK_letter_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1448,6 +1465,7 @@ Same as activityparty entity [letter_activity_parties](activityparty.md#BKMK_let
 ### <a name="BKMK_userentityinstancedata_letter"></a> userentityinstancedata_letter
 
 Same as userentityinstancedata entity [userentityinstancedata_letter](userentityinstancedata.md#BKMK_userentityinstancedata_letter) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1462,6 +1480,7 @@ Same as userentityinstancedata entity [userentityinstancedata_letter](userentity
 ### <a name="BKMK_Letter_QueueItem"></a> Letter_QueueItem
 
 Same as queueitem entity [Letter_QueueItem](queueitem.md#BKMK_Letter_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1476,6 +1495,7 @@ Same as queueitem entity [Letter_QueueItem](queueitem.md#BKMK_Letter_QueueItem) 
 ### <a name="BKMK_letter_connections2"></a> letter_connections2
 
 Same as connection entity [letter_connections2](connection.md#BKMK_letter_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1972,6 +1992,6 @@ See systemuser Entity [lk_letter_modifiedonbehalfby](systemuser.md#BKMK_lk_lette
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.letter?text=letter EntityType" />

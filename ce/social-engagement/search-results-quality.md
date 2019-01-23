@@ -1,19 +1,26 @@
 ---
 title: "Manage the quality of your search results in Social Engagement | Microsoft Docs"
 description: "Learn how to increase the quality of your search results."
-keywords: "block content, block authors"
+keywords: block content, block authors
 ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
-  - "Social Engagement"
+applies_to: 
+  - Social Engagement
 ms.assetid: 302a0005-c7b0-4247-8d2d-663685716b75
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Manage the quality of your search results
@@ -47,7 +54,7 @@ You can perform quality management over the entire application by blocking irrel
   
 > [!NOTE]
 > [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
-  
+> 
 > [!IMPORTANT]
 >  When you add a domain to the list of blocked domains, posts from this domain will be hidden in Analytics for four hours and be irreversibly deleted afterward.  
   
@@ -95,7 +102,7 @@ You can perform quality management over the entire application by blocking irrel
   
 > [!NOTE]
 > [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
-  
+> 
 > [!IMPORTANT]
 >  When you add a keyword to the list of blocked keywords, posts matching this keyword will be hidden in Analytics for four hours and be irreversibly deleted  afterward.  
   
@@ -119,13 +126,13 @@ You can perform quality management over the entire application by blocking irrel
   
 ## Manage the data acquisition volume  
   
--   Optimize your search topics regularly. Review the rules to make sure that only relevant data is selected. Validate your rules before saving the search topic to get an idea of how many posts you’re expecting for the configuration you provided.  
+- Optimize your search topics regularly. Review the rules to make sure that only relevant data is selected. Validate your rules before saving the search topic to get an idea of how many posts you’re expecting for the configuration you provided.  
   
--   Maintain a list of blocked sources to delete matching posts and avoid any posts appearing in your results from the listed domains. When you add a source to the list of blocked sources, posts from this source will be hidden in Analytics for four hours and be irreversibly deleted afterward.  
+- Maintain a list of blocked sources to delete matching posts and avoid any posts appearing in your results from the listed domains. When you add a source to the list of blocked sources, posts from this source will be hidden in Analytics for four hours and be irreversibly deleted afterward.  
   
--   Maintain a list of blocked terms to delete matching posts and avoid any posts appearing in your results that match the listed terms. When you add a term to the list of blocked terms, posts matching this term will be hidden in Analytics for four hours and be irreversibly deleted afterward.  
+- Maintain a list of blocked terms to delete matching posts and avoid any posts appearing in your results that match the listed terms. When you add a term to the list of blocked terms, posts matching this term will be hidden in Analytics for four hours and be irreversibly deleted afterward.  
   
--   Exclude authors who publish irrelevant posts that match one of your search topics.  
+- Exclude authors who publish irrelevant posts that match one of your search topics.  
   
 -   [Get additional post quota](manage-post-quota.md). Ask your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin to add more posts to your solution’s quota in the [Office 365 admin center](https://portal.office.com/).  
   

@@ -1,35 +1,39 @@
 ---
-title: "Dependency tracking for solution components (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Dependency tracking for solution components (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Solution component dependencies help make sure you have a reliable experience working with solutions. They can be viewed in the application by clicking Show Dependencies"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "solution components"
-  - "solution component dependencies, dependency tracking for solution components"
-  - "solution component dependencies, checking for"
-  - "checking for solution component dependencies"
-  - "dependency tracking for solution components, list of available solution components and their location"
-  - "solution component dependencies, types of"
-  - "dependency tracking for solution components, checking for solution component dependencies"
-  - "dependency tracking for solution components, types of solution component dependencies"
+  - solution components
+  - solution component dependencies, dependency tracking for solution components
+  - solution component dependencies, checking for
+  - checking for solution component dependencies
+  - dependency tracking for solution components, list of available solution components and their location
+  - solution component dependencies, types of
+  - dependency tracking for solution components, checking for solution component dependencies
+  - dependency tracking for solution components, types of solution component dependencies
 ms.assetid: d14563f7-1fae-4a54-82af-afacf5c8fd56
 caps.latest.revision: 38
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Dependency tracking for solution components
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Solutions are made of solution components. You’ll use the **Solutions** area in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement to create or add solution components. You can perform these actions programmatically by using the <xref:Microsoft.Crm.Sdk.Messages.AddSolutionComponentRequest> message or any messages that create or update solution components that include a `SolutionUniqueName` parameter.  
+Solutions are made of solution components. You’ll use the **Solutions** area in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to create or add solution components. You can perform these actions programmatically by using the <xref:Microsoft.Crm.Sdk.Messages.AddSolutionComponentRequest> message or any messages that create or update solution components that include a `SolutionUniqueName` parameter.  
   
  Solution components often depend on other solution components. You can’t delete any solution component that has dependencies on another solution component. For example, a customized ribbon typically requires image or script web resources to display icons and perform actions using scripts. As long as the customized ribbon is in the solution, the specific web resources it uses are required. Before you can delete the web resources you must remove references to them in the customized ribbon. These solution component dependencies can be viewed in the application by clicking **Show Dependencies**.  
   
@@ -47,32 +51,32 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
  As a result of dependency tracking the following behaviors are enforced:  
   
--   Deletion of a component is prevented if another component in the system depends on it.  
+- Deletion of a component is prevented if another component in the system depends on it.  
   
--   Export of a solution warns the user if there are any missing components that could cause failure when importing that solution in another system.  
+- Export of a solution warns the user if there are any missing components that could cause failure when importing that solution in another system.  
   
-     Warnings during export can be ignored if the solution developer intends that the solution is only to be installed in an organization where dependent components are expected to exist. For example, when you create a solution that is designed to be installed over a pre-installed ”base” solution.  
+   Warnings during export can be ignored if the solution developer intends that the solution is only to be installed in an organization where dependent components are expected to exist. For example, when you create a solution that is designed to be installed over a pre-installed ”base” solution.  
   
--   Import of a solution fails if all required components aren’t included in the solution and also don’t exist in the target system.  
+- Import of a solution fails if all required components aren’t included in the solution and also don’t exist in the target system.  
   
-    -   Additionally, when you import a managed solution all required components must match the package type of the solution. A component in a managed solution can only depend on another managed component.  
+  -   Additionally, when you import a managed solution all required components must match the package type of the solution. A component in a managed solution can only depend on another managed component.  
   
- There are three types of solution component dependencies:  
+  There are three types of solution component dependencies:  
   
- **Solution Internal**  
- Internal dependencies are managed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. They exist when a particular solution component can’t exist without another solution component.  
+  **Solution Internal**  
+  Internal dependencies are managed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. They exist when a particular solution component can’t exist without another solution component.  
   
- **Published**  
- Published dependencies are created when two solution components are related to each other and then published. To remove this type of dependency, the association must be removed and the entities published again.  
+  **Published**  
+  Published dependencies are created when two solution components are related to each other and then published. To remove this type of dependency, the association must be removed and the entities published again.  
   
- **Unpublished**  
- Unpublished dependencies apply to the unpublished version of a publishable solution component that is being updated. After the solution component is published, it becomes a published dependency.  
+  **Unpublished**  
+  Unpublished dependencies apply to the unpublished version of a publishable solution component that is being updated. After the solution component is published, it becomes a published dependency.  
   
- Solution internal dependencies are dependencies where actions with a solution component require an action for another solution component. For example, if you delete an entity, you should expect that all the entity attributes will be deleted with it. Any entity relationships with other entities will also be deleted.  
+  Solution internal dependencies are dependencies where actions with a solution component require an action for another solution component. For example, if you delete an entity, you should expect that all the entity attributes will be deleted with it. Any entity relationships with other entities will also be deleted.  
   
- However, an internal dependency may lead to a published dependency and still require manual intervention. For example, if you include a lookup field on an entity form and then delete the primary entity in the relationship, you can’t complete that deletion until you remove the lookup field from the related entity form and then publish the form.  
+  However, an internal dependency may lead to a published dependency and still require manual intervention. For example, if you include a lookup field on an entity form and then delete the primary entity in the relationship, you can’t complete that deletion until you remove the lookup field from the related entity form and then publish the form.  
   
- When you perform actions programmatically with solutions, you can use messages related to the `Dependency` entity. See [Dependency Entity](entities/dependency.md) for messages you can use to identify dependencies that may exist before you delete a component or uninstall a solution.  
+  When you perform actions programmatically with solutions, you can use messages related to the `Dependency` entity. See [Dependency Entity](entities/dependency.md) for messages you can use to identify dependencies that may exist before you delete a component or uninstall a solution.  
   
 <a name="BKMK_CheckForSolutionComponentDependencies"></a>   
 ## Check for solution component dependencies  
@@ -128,7 +132,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
 <a name="BKMK_Entity"></a>   
 ### Entity (Entity)  
- The primary structure used to model and manage data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Charts, forms, entity relationships, views, and attributes associated with an entity are deleted automatically when the entity is deleted because of the internal dependencies between them. Entities frequently have published dependencies with processes, dashboards, and email templates.  
+ The primary structure used to model and manage data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Charts, forms, entity relationships, views, and attributes associated with an entity are deleted automatically when the entity is deleted because of the internal dependencies between them. Entities frequently have published dependencies with processes, dashboards, and email templates.  
   
 <a name="BKMK_FieldSecurityProfile"></a>   
 ### Field security profile (FieldSecurityProfile)  
@@ -160,7 +164,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
 <a name="BKMK_Role"></a>   
 ### Security role (Role)  
- Grouping of security privileges. Users are assigned roles that authorize their access to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system. Entity forms can be associated with specific security roles to control who can view the form. This creates a published dependency between the security role and the form.  
+ Grouping of security privileges. Users are assigned roles that authorize their access to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps system. Entity forms can be associated with specific security roles to control who can view the form. This creates a published dependency between the security role and the form.  
   
 > [!NOTE]
 >  Only security roles from the organization business unit can be added to a solution. Only a user with read access to those security roles can add them to a solution.  
@@ -181,7 +185,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
 >  Web resources may depend on other web resources based on relative links. For example, an HTML web resource may use a CSS or script web resource. A [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource displayed outside of an entity form or chart must have an HTML web resource to host it. These dependencies aren’t tracked as solution dependencies.  
   
 ### See also  
- [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solution](package-distribute-extensions-use-solutions.md)   
  [Introduction to Solutions](introduction-solutions.md)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Create, Export, or Import an Unmanaged Solution](create-export-import-unmanaged-solution.md)   

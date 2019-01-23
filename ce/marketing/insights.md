@@ -1,25 +1,33 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 for Marketing"
-keywords: "insights;results;KPIs;analytics"
+keywords: insights;results;KPIs;analytics
 ms.date: 04/25/2018
-ms.service:
-  - "crm-online"
-ms.custom:
-  - "dyn365-marketing"
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 2f5016aa-540a-4366-94a3-205d985c8da9
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
-ms.reviewer: renwe
+manager: shellyha
+ms.reviewer:
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Analyze results to gain insights from your marketing activities
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] keeps track of the way your contacts react to your various marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. For example, each of the following entities provides statistics, analytics, and key performance indicators (KPIs) based on your marketing results:
 
@@ -54,7 +62,7 @@ At the top of most insights tabs, you'll find settings that let you filter the i
 
 ![Filter insights by date range and usage](media/insights-filters.png "Filter insights by date range and usage")
 
-<a name="contact-insights"></a>   
+<a name="contact-insights"></a>
 
 ## Contact insights
 
@@ -66,7 +74,13 @@ Contacts provide the following insights tabs.
 
 - **Insights**: View a timeline of all interactions the contact has made and a chart of interactions broken down by type.
 - **Email interactions**: View complete details of email results for the selected contact, including a list of all messages sent to them, plus counts of all sends, opens, clicks, bounces, and more.
-- **Web interactions**: See which pages and links from your websites the contact has opened. Only pages that include a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] tracking script are counted here (see also [Register contacts' engagement](register-engagement.md)).
+- **Web interactions**: See which pages and links from your websites and marketing pages the contact has opened, and which links they selected.
+    > [!NOTE]
+    >- Only pages that include a [Dynamics 365 for Marketing tracking script](register-engagement.md#monitor-visitors) are counted here.
+    > - The **Websites visited** list shows all tracked pages that were visited by this known contact.
+    > - The **Websites clicked** list shows all of the links this user clicked on when viewing a tracked page. Each visited link is show as a full URL, and repeat visits are listed just once, with a counter.
+    > - If you [embed a marketing form](embed-forms.md) into an external webpage, then a tracking tag is included and visits to that page are therefore shown here.
+    > - Results from anonymous visits that occurred prior to becoming a known contact are not shown here.
 - **Event interactions**: See event registration and check-in records for the current contact.
 - **Survey interactions**: See how the contact responded to your surveys.
 - **Marketing form interactions**: See which marketing forms the contact has submitted and the content of each submission.
@@ -78,6 +92,7 @@ To view lead insights, go to **Marketing** > **Customers** > **Leads**, select a
 Most of the insights displayed for a lead are the same as those shown for contacts and are taken from the contact record associated with the current lead, as previously described in [Contact insights](#contact-insights). One exception to this is the **Insights** tab, which tracks lead-specific information such as the lead's age (how long the record has been active) and its progress over time.
 
 ## Segment insights
+
 To view segment insights, go to **Marketing** > **Customers** > **Segments** and then select a segment record. Unlike most entities, segments provide insights as part of the main form view. Go to the **Insights** tab to see them.
 
 ## Customer journey insights
@@ -112,7 +127,7 @@ In addition to the **Volume** section, some tiles also show additional sections 
 
 - **KPIs**: For tile types that collect key performance indicators (KPIs), such as email tiles, you can read detailed results here. For a complete list of KPIs available for email messages, see [Email insights](#email-insights) (the **Data** panel shows many, but not all, of these).
 - **Paths**: Trigger and splitter tiles include this section, which tells you how many contacts went down each available path.
-- **View details**: This link is provided at the bottom of the **Details** panel for tile types that have even more information available. Select this link to open the associated record, where you can explore its full insights panels. For example, email and event tiles provide this link, which opens the insights panels for the specific message or event associated with the tile.  
+- **View details**: This link is provided at the bottom of the **Details** panel for tile types that have even more information available. Select this link to open the associated record, where you can explore its full insights panels. For example, email and event tiles provide this link, which opens the insights panels for the specific message or event associated with the tile.
     > [!NOTE]
     > On selecting **View details**, the details you see may include results from several different customer jouneys&mdash;for example, if you open an email message that has been reused. To view detailed results for just one journey, use the [filter settings](#filter) to choose a journey name after the related record opens.
 
@@ -136,17 +151,17 @@ Marketing email messages provide the following insights tabs:
 Many different lists, statistics, and KPIs are provided to help you evaluate and improve the performance of your email messages. Consult the following glossary for a description of each of them.
 
 <dl>
-<dt>Blocked</dt><dd>Messages that were blocked (not sent) due to a contact's preferences or a problem with their email address. This can happen if the segment included contacts marked as <b>Do not bulk email</b>, or because the contact's email address was missing, invalid, or blacklisted. Examples of blacklisted address include known anonymous email servers and generic addresses such as do-not-repy@constoso.com or office@contoso.com.</dd>
-<dt>Bounced (hard)</dt><dd>Messages that resulted in a hard bounce, which indicates that the address is invalid. A hard bounce might occur because the domain name doesn't exist or because the recipient is unknown. Multiple hard bounces can lower your server's send reputation, which will reduce your delivery rate, so you should remove hard-bouncing addresses from your contact records. When an address returns a hard bounce, Dynamics 365 will automatically stop sending new messages to that address for six months, but your email results will still show each attempt as a hard bounce.</dd>
+<dt>Blocked</dt><dd>Messages that were blocked (not sent) due to a contact&#39;s preferences or a problem with their email address. This can happen if the segment included contacts marked as <b>Do not bulk email</b>, or because the contact&#39;s email address was missing, invalid, or blacklisted. Examples of blacklisted address include known anonymous email servers and generic addresses such as do-not-repy@constoso.com or office@contoso.com.</dd>
+<dt>Bounced (hard)</dt><dd>Messages that resulted in a hard bounce, which indicates that the address is invalid. A hard bounce might occur because the domain name doesn&#39;t exist or because the recipient is unknown. Multiple hard bounces can lower your server&#39;s send reputation, which will reduce your delivery rate, so you should remove hard-bouncing addresses from your contact records. When an address returns a hard bounce, Dynamics 365 will automatically stop sending new messages to that address for six months, but your email results will still show each attempt as a hard bounce.</dd>
 <dt>Bounced (other)</dt><dd>Messages that bounced for some reason other than a hard or soft bounce. This result is rare, and might indicated a <em>remote bounce</em>, which occurs when a server initially accepting a message, but then returns a bounce message sometime later. These are otherwise treated as soft bounces.</dd>
-<dt>Bounced (soft)</dt><dd>Messages that resulted in a soft bounce. A soft bounce occurs when an email is sent to a valid server, which recognizes the user, but still rejects the message for some reason, such as because the recipient's mailbox is full, the mail server is temporarily unavailable, or the recipient no longer has an email account at that address. If five messages in a row sent to a given address result in a soft bounce, then that address is treated as a hard-bounce address.</dd>
+<dt>Bounced (soft)</dt><dd>Messages that resulted in a soft bounce. A soft bounce occurs when an email is sent to a valid server, which recognizes the user, but still rejects the message for some reason, such as because the recipient&#39;s mailbox is full, the mail server is temporarily unavailable, or the recipient no longer has an email account at that address. If five messages in a row sent to a given address result in a soft bounce, then that address is treated as a hard-bounce address.</dd>
 <dt>Clicked (total)</dt><dd>The total count of all the links clicked in all sent messages. Multiple clicks of the same link in a single message are counted multiple times, so the proportion of total clicks per total sent can sometimes be more than 100%.</dd>
 <dt>Clicked (unique)</dt><dd>The number of sent messages where the recipient clicked at least one link at least once. Clicks on multiple links and multiple clicks on a single link are not counted after the first click, so the maximum unique clicks per message is one.
 <dt>Click-through rate</dt><dd>This value is shown for each link included in a message. They are listed on the <strong>Marketing email: Insights &gt; Links</strong> tab, and can also be viewed on the heat map there. It is a ratio that shows the number of unique clicks on a given link divided by the number of unique clicks overall for the message. 
 <dt>Delivered</dt><dd>Messages that were sent, not including hard- or soft-bounced messages.<br>
 <em>(Delivered = Sent – TotalBounced)</em></dd>
 <dt>Did not open</dt><dd>Messages for which no open was recorded. (Note that Marketing can only count opens when the email recipient allows images to load for the message, so some messages could be read and even clicked without an open being registered for them.)</dd>
-<dt>Feedback loops</dt><dd>Message for which Dynamics 365 received a feedback message. When a recipient uses their email client to mark a message as spam, the client typically sets up a filtering rule and then returns feedback to the sender that the message has been marked as spam. If you continue to send messages to an address that has returned this feedback, you risk lowering your server's send reputation, which will reduce your delivery rate. When feedback is received, Dynamics 365 will automatically stop sending new messages to that address, but your email results will still show each attempt as a feedback loop.</dd>
+<dt>Feedback loops</dt><dd>Message for which Dynamics 365 received a feedback message. When a recipient uses their email client to mark a message as spam, the client typically sets up a filtering rule and then returns feedback to the sender that the message has been marked as spam. If you continue to send messages to an address that has returned this feedback, you risk lowering your server&#39;s send reputation, which will reduce your delivery rate. When feedback is received, Dynamics 365 will automatically stop sending new messages to that address, but your email results will still show each attempt as a feedback loop.</dd>
 <dt>Forwarded</dt><dd>Forwards made by recipients using the forward-to-a-friend link included in the message. The submitted forwarding addresses were not necessarily unique. (This value does not record forwards made using the mail-client forward feature.)</dd>
 <dt>Opened (total)</dt><dd>The total number of times a message was opened, including multiple opens of a single message by a single recipient. (Note that Marketing can only count opens when the email recipient allows images to load for the message, so some messages could be read and even clicked without an open being registered for them.)</dd>
 <dt>Opened (unique)</dt><dd>The total number of messages that were opened by a contact at least once. This value does not count multiple opens of the same message by the same contact. (Note that Marketing can only count opens when the email recipient allows images to load for the message, so some messages could be read and even clicked without an open being registered for them.)</dd>
@@ -154,7 +169,7 @@ Many different lists, statistics, and KPIs are provided to help you evaluate and
 <dt>Sent</dt><dd>Sent messages, including bounced messages, but not including blocked messages.<br>
 <em>(Sent = TotalTargetedContacts – TotalBlockedQuantity)</em></dd>
 <dt>Subscription submitted</dt><dd>These are messages where a contact clicked on the subscription center link and then submitted the subscription center at least once, regardless of whether the contact changed their subscriptions or contact details. 
-<dt>Total generated leads</dt><dd>The number of leads generated as a result of an email message. A new lead is counted when a recipient clicks a landing-page link in the message and then submits the landing page, which generates a new lead for that contact as a result. Landing page submissions that don't generate a new lead aren't counted (for example, because a matching lead already exists or because the landing page isn't set up to generate leads).
+<dt>Total generated leads</dt><dd>The number of leads generated as a result of an email message. A new lead is counted when a recipient clicks a landing-page link in the message and then submits the landing page, which generates a new lead for that contact as a result. Landing page submissions that don&#39;t generate a new lead aren&#39;t counted (for example, because a matching lead already exists or because the landing page isn&#39;t set up to generate leads).
 <dt>Unsubscribed</dt><dd>Messages where a recipient clicked on the subscription center link and then unsubscribed from one or more mailing lists. This value counts, at most, one unsubscribe per message per recipient.
 </dl>
 

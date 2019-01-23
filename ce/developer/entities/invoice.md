@@ -1,15 +1,19 @@
 ---
-title: "Invoice Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Invoice Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Invoice entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Invoice Entity Reference
 
@@ -559,6 +563,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_AmountDue"></a> msdyn_AmountDue
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the amount due on this invoice.|
@@ -577,6 +582,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_HasCorrections"></a> msdyn_HasCorrections
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Indicates if this invoice contains corrections to previous invoices.|
@@ -601,6 +607,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_InvoiceDate"></a> msdyn_InvoiceDate
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|TimeZoneIndependent|
@@ -617,6 +624,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_OrderType"></a> msdyn_OrderType
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Whether the Invoice is for an Item-based or a service maintainence-based sale|
@@ -640,6 +648,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_projectinvoicestatus"></a> msdyn_projectinvoicestatus
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Project specific status|
@@ -864,6 +873,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_SalesOrderId"></a> SalesOrderId
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Choose the order related to the invoice to make sure the order is fulfilled and invoiced correctly.|
@@ -1863,6 +1873,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_amountdue_Base"></a> msdyn_amountdue_Base
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Amount Due in base currency.|
@@ -2254,6 +2265,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Invoice_ActivityPointers"></a> Invoice_ActivityPointers
 
 Same as activitypointer entity [Invoice_ActivityPointers](activitypointer.md#BKMK_Invoice_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -2268,6 +2280,7 @@ Same as activitypointer entity [Invoice_ActivityPointers](activitypointer.md#BKM
 ### <a name="BKMK_Invoice_SyncErrors"></a> Invoice_SyncErrors
 
 Same as syncerror entity [Invoice_SyncErrors](syncerror.md#BKMK_Invoice_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2282,6 +2295,7 @@ Same as syncerror entity [Invoice_SyncErrors](syncerror.md#BKMK_Invoice_SyncErro
 ### <a name="BKMK_invoice_activity_parties"></a> invoice_activity_parties
 
 Same as activityparty entity [invoice_activity_parties](activityparty.md#BKMK_invoice_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -2296,6 +2310,7 @@ Same as activityparty entity [invoice_activity_parties](activityparty.md#BKMK_in
 ### <a name="BKMK_Invoice_AsyncOperations"></a> Invoice_AsyncOperations
 
 Same as asyncoperation entity [Invoice_AsyncOperations](asyncoperation.md#BKMK_Invoice_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2310,6 +2325,7 @@ Same as asyncoperation entity [Invoice_AsyncOperations](asyncoperation.md#BKMK_I
 ### <a name="BKMK_Invoice_MailboxTrackingFolder"></a> Invoice_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [Invoice_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Invoice_MailboxTrackingFolder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -2324,6 +2340,7 @@ Same as mailboxtrackingfolder entity [Invoice_MailboxTrackingFolder](mailboxtrac
 ### <a name="BKMK_userentityinstancedata_invoice"></a> userentityinstancedata_invoice
 
 Same as userentityinstancedata entity [userentityinstancedata_invoice](userentityinstancedata.md#BKMK_userentityinstancedata_invoice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2338,6 +2355,7 @@ Same as userentityinstancedata entity [userentityinstancedata_invoice](userentit
 ### <a name="BKMK_Invoice_ProcessSessions"></a> Invoice_ProcessSessions
 
 Same as processsession entity [Invoice_ProcessSessions](processsession.md#BKMK_Invoice_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2352,6 +2370,7 @@ Same as processsession entity [Invoice_ProcessSessions](processsession.md#BKMK_I
 ### <a name="BKMK_Invoice_BulkDeleteFailures"></a> Invoice_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Invoice_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Invoice_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2366,6 +2385,7 @@ Same as bulkdeletefailure entity [Invoice_BulkDeleteFailures](bulkdeletefailure.
 ### <a name="BKMK_invoice_principalobjectattributeaccess"></a> invoice_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [invoice_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_invoice_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -2380,6 +2400,7 @@ Same as principalobjectattributeaccess entity [invoice_principalobjectattributea
 ### <a name="BKMK_Invoice_Appointments"></a> Invoice_Appointments
 
 Same as appointment entity [Invoice_Appointments](appointment.md#BKMK_Invoice_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -2394,6 +2415,7 @@ Same as appointment entity [Invoice_Appointments](appointment.md#BKMK_Invoice_Ap
 ### <a name="BKMK_Invoice_Emails"></a> Invoice_Emails
 
 Same as email entity [Invoice_Emails](email.md#BKMK_Invoice_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -2408,6 +2430,7 @@ Same as email entity [Invoice_Emails](email.md#BKMK_Invoice_Emails) Many-To-One 
 ### <a name="BKMK_Invoice_Faxes"></a> Invoice_Faxes
 
 Same as fax entity [Invoice_Faxes](fax.md#BKMK_Invoice_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -2422,6 +2445,7 @@ Same as fax entity [Invoice_Faxes](fax.md#BKMK_Invoice_Faxes) Many-To-One relati
 ### <a name="BKMK_Invoice_Letters"></a> Invoice_Letters
 
 Same as letter entity [Invoice_Letters](letter.md#BKMK_Invoice_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -2436,6 +2460,7 @@ Same as letter entity [Invoice_Letters](letter.md#BKMK_Invoice_Letters) Many-To-
 ### <a name="BKMK_Invoice_Phonecalls"></a> Invoice_Phonecalls
 
 Same as phonecall entity [Invoice_Phonecalls](phonecall.md#BKMK_Invoice_Phonecalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -2450,6 +2475,7 @@ Same as phonecall entity [Invoice_Phonecalls](phonecall.md#BKMK_Invoice_Phonecal
 ### <a name="BKMK_Invoice_Tasks"></a> Invoice_Tasks
 
 Same as task entity [Invoice_Tasks](task.md#BKMK_Invoice_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -2464,6 +2490,7 @@ Same as task entity [Invoice_Tasks](task.md#BKMK_Invoice_Tasks) Many-To-One rela
 ### <a name="BKMK_Invoice_RecurringAppointmentMasters"></a> Invoice_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [Invoice_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_Invoice_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -2478,6 +2505,7 @@ Same as recurringappointmentmaster entity [Invoice_RecurringAppointmentMasters](
 ### <a name="BKMK_Invoice_SocialActivities"></a> Invoice_SocialActivities
 
 Same as socialactivity entity [Invoice_SocialActivities](socialactivity.md#BKMK_Invoice_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -2492,6 +2520,7 @@ Same as socialactivity entity [Invoice_SocialActivities](socialactivity.md#BKMK_
 ### <a name="BKMK_invoice_connections1"></a> invoice_connections1
 
 Same as connection entity [invoice_connections1](connection.md#BKMK_invoice_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -2506,6 +2535,7 @@ Same as connection entity [invoice_connections1](connection.md#BKMK_invoice_conn
 ### <a name="BKMK_invoice_connections2"></a> invoice_connections2
 
 Same as connection entity [invoice_connections2](connection.md#BKMK_invoice_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -2520,6 +2550,7 @@ Same as connection entity [invoice_connections2](connection.md#BKMK_invoice_conn
 ### <a name="BKMK_Invoice_Annotation"></a> Invoice_Annotation
 
 Same as annotation entity [Invoice_Annotation](annotation.md#BKMK_Invoice_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -2534,6 +2565,7 @@ Same as annotation entity [Invoice_Annotation](annotation.md#BKMK_Invoice_Annota
 ### <a name="BKMK_Invoice_ServiceAppointments"></a> Invoice_ServiceAppointments
 
 Same as serviceappointment entity [Invoice_ServiceAppointments](serviceappointment.md#BKMK_Invoice_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -2548,6 +2580,7 @@ Same as serviceappointment entity [Invoice_ServiceAppointments](serviceappointme
 ### <a name="BKMK_invoice_details"></a> invoice_details
 
 Same as invoicedetail entity [invoice_details](invoicedetail.md#BKMK_invoice_details) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoicedetail|
@@ -2562,6 +2595,7 @@ Same as invoicedetail entity [invoice_details](invoicedetail.md#BKMK_invoice_det
 ### <a name="BKMK_slakpiinstance_invoice"></a> slakpiinstance_invoice
 
 Same as slakpiinstance entity [slakpiinstance_invoice](slakpiinstance.md#BKMK_slakpiinstance_invoice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -2576,6 +2610,7 @@ Same as slakpiinstance entity [slakpiinstance_invoice](slakpiinstance.md#BKMK_sl
 ### <a name="BKMK_invoice_msdyn_bookingalerts"></a> invoice_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [invoice_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_invoice_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -2590,6 +2625,7 @@ Same as msdyn_bookingalert entity [invoice_msdyn_bookingalerts](msdyn_bookingale
 ### <a name="BKMK_msdyn_invoice_msdyn_actual_Invoice"></a> msdyn_invoice_msdyn_actual_Invoice
 
 Same as msdyn_actual entity [msdyn_invoice_msdyn_actual_Invoice](msdyn_actual.md#BKMK_msdyn_invoice_msdyn_actual_Invoice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -2604,6 +2640,7 @@ Same as msdyn_actual entity [msdyn_invoice_msdyn_actual_Invoice](msdyn_actual.md
 ### <a name="BKMK_invoice_msdyn_approvals"></a> invoice_msdyn_approvals
 
 Same as msdyn_approval entity [invoice_msdyn_approvals](msdyn_approval.md#BKMK_invoice_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -2618,6 +2655,7 @@ Same as msdyn_approval entity [invoice_msdyn_approvals](msdyn_approval.md#BKMK_i
 ### <a name="BKMK_bpf_invoice_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d"></a> bpf_invoice_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d
 
 Same as msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d entity [bpf_invoice_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d](msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d.md#BKMK_bpf_invoice_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d|
@@ -2632,6 +2670,7 @@ Same as msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d entity [bpf_invoice_msdyn_bpf
 ### <a name="BKMK_msdyn_invoice_msdyn_contractlineinvoiceschedule_Invoice"></a> msdyn_invoice_msdyn_contractlineinvoiceschedule_Invoice
 
 Same as msdyn_contractlineinvoiceschedule entity [msdyn_invoice_msdyn_contractlineinvoiceschedule_Invoice](msdyn_contractlineinvoiceschedule.md#BKMK_msdyn_invoice_msdyn_contractlineinvoiceschedule_Invoice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_contractlineinvoiceschedule|
@@ -2646,6 +2685,7 @@ Same as msdyn_contractlineinvoiceschedule entity [msdyn_invoice_msdyn_contractli
 ### <a name="BKMK_msdyn_invoice_msdyn_invoicelinetransaction_Invoice"></a> msdyn_invoice_msdyn_invoicelinetransaction_Invoice
 
 Same as msdyn_invoicelinetransaction entity [msdyn_invoice_msdyn_invoicelinetransaction_Invoice](msdyn_invoicelinetransaction.md#BKMK_msdyn_invoice_msdyn_invoicelinetransaction_Invoice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -2660,6 +2700,7 @@ Same as msdyn_invoicelinetransaction entity [msdyn_invoice_msdyn_invoicelinetran
 ### <a name="BKMK_msdyn_invoice_msdyn_agreementinvoicedate_Invoice"></a> msdyn_invoice_msdyn_agreementinvoicedate_Invoice
 
 Same as msdyn_agreementinvoicedate entity [msdyn_invoice_msdyn_agreementinvoicedate_Invoice](msdyn_agreementinvoicedate.md#BKMK_msdyn_invoice_msdyn_agreementinvoicedate_Invoice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementinvoicedate|
@@ -2674,6 +2715,7 @@ Same as msdyn_agreementinvoicedate entity [msdyn_invoice_msdyn_agreementinvoiced
 ### <a name="BKMK_msdyn_invoice_msdyn_orderinvoicingdate_Invoice"></a> msdyn_invoice_msdyn_orderinvoicingdate_Invoice
 
 Same as msdyn_orderinvoicingdate entity [msdyn_invoice_msdyn_orderinvoicingdate_Invoice](msdyn_orderinvoicingdate.md#BKMK_msdyn_invoice_msdyn_orderinvoicingdate_Invoice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderinvoicingdate|
@@ -2688,6 +2730,7 @@ Same as msdyn_orderinvoicingdate entity [msdyn_invoice_msdyn_orderinvoicingdate_
 ### <a name="BKMK_msdyn_invoice_msdyn_orderinvoicingsetupdate_Invoice"></a> msdyn_invoice_msdyn_orderinvoicingsetupdate_Invoice
 
 Same as msdyn_orderinvoicingsetupdate entity [msdyn_invoice_msdyn_orderinvoicingsetupdate_Invoice](msdyn_orderinvoicingsetupdate.md#BKMK_msdyn_invoice_msdyn_orderinvoicingsetupdate_Invoice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderinvoicingsetupdate|
@@ -2702,6 +2745,7 @@ Same as msdyn_orderinvoicingsetupdate entity [msdyn_invoice_msdyn_orderinvoicing
 ### <a name="BKMK_msdyn_invoice_msdyn_paymentdetail_Invoice"></a> msdyn_invoice_msdyn_paymentdetail_Invoice
 
 Same as msdyn_paymentdetail entity [msdyn_invoice_msdyn_paymentdetail_Invoice](msdyn_paymentdetail.md#BKMK_msdyn_invoice_msdyn_paymentdetail_Invoice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_paymentdetail|
@@ -2832,6 +2876,6 @@ IntersectEntityName: contactinvoices<br />
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.invoice?text=invoice EntityType" />

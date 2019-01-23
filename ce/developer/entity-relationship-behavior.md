@@ -1,35 +1,39 @@
 ---
-title: "Entity relationship behavior (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-descriptions: "Cascading of behaviors may arise in case of one-to-many entity relationships and they can be configured to preserve data integrity and automate business processes"
-ms.custom: ""
+title: "Entity relationship behavior (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+descriptions: Cascading of behaviors may arise in case of one-to-many entity relationships and they can be configured to preserve data integrity and automate business processes
+ms.custom: 
 ms.date: 11/03/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "entity relationship behaviors, automating business processes"
-  - "entity relationship behaviors, preserving data integrity"
-  - "reparent actions"
-  - "automating business processes"
-  - "entity relationship behaviors, overview"
-  - "parental relationships between entities"
-  - "entity relationship behaviors, parental relationships between entities"
-  - "cascading behaviors from one-to-many entity relationships"
-  - "entity relationship behaviors, reparent actions"
-  - "configuring entity relationship behaviors, associated classes and properties to use"
-  - "entity relationship behaviors, configuring entity relationship behaviors"
-  - "entity relationship behaviors, cascading behaviors from one-to-many entity relationships"
-  - "preserving data integrity"
-  - "entity relationship behaviors, cascading behaviors of related entities in the entity hierarchy"
+  - entity relationship behaviors, automating business processes
+  - entity relationship behaviors, preserving data integrity
+  - reparent actions
+  - automating business processes
+  - entity relationship behaviors, overview
+  - parental relationships between entities
+  - entity relationship behaviors, parental relationships between entities
+  - cascading behaviors from one-to-many entity relationships
+  - entity relationship behaviors, reparent actions
+  - configuring entity relationship behaviors, associated classes and properties to use
+  - entity relationship behaviors, configuring entity relationship behaviors
+  - entity relationship behaviors, cascading behaviors from one-to-many entity relationships
+  - preserving data integrity
+  - entity relationship behaviors, cascading behaviors of related entities in the entity hierarchy
 ms.assetid: 841dbfc8-05e1-4992-83ac-b9d47eab1e7b
 caps.latest.revision: 27
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Entity relationship behavior
 
@@ -47,17 +51,17 @@ When a one-to-many entity relationship exists there are cascading behaviors that
   
 <a name="BKMK_DataIntegrity"></a>   
 ## Preserve data integrity  
- Each entity can have rules that define a valid record. For example, a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement opportunity record must include a reference to a potential customer. Users can’t create a new opportunity record without either adding an existing customer or creating a new customer record.  
+ Each entity can have rules that define a valid record. For example, a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps opportunity record must include a reference to a potential customer. Users can’t create a new opportunity record without either adding an existing customer or creating a new customer record.  
   
  But what if the account or contact that represents the customer is deleted? In a case like this, possible alternatives are to either:  
   
--   Restrict any attempt to delete a customer record with an associated opportunity.  
+- Restrict any attempt to delete a customer record with an associated opportunity.  
   
--   Cascade the delete action when a corresponding customer record is deleted so that any related opportunity records are automatically deleted.  
+- Cascade the delete action when a corresponding customer record is deleted so that any related opportunity records are automatically deleted.  
   
- In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for the one-to-many relationships that relate opportunities with customers, such as `Opportunity.opportunity_customer_accounts` and `Contact.opportunity_customer_contacts`, the behavior is to cascade the delete action.  
+  In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps for the one-to-many relationships that relate opportunities with customers, such as `Opportunity.opportunity_customer_accounts` and `Contact.opportunity_customer_contacts`, the behavior is to cascade the delete action.  
   
- When you model your data to use in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you will have similar decisions for how you want to preserve data integrity.  
+  When you model your data to use in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps you will have similar decisions for how you want to preserve data integrity.  
   
 <a name="BKMK_BusinessProcesses"></a>   
 ## Automate business processes  
@@ -71,15 +75,15 @@ When a one-to-many entity relationship exists there are cascading behaviors that
   
 - **Only assign the opportunities owned by the previous account owner to the new salesperson**. This allows the new salesperson to replace the previous owner.  
   
- These options are common ones you can configure using entity relationship behavior in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. If you require different behaviors consider purchasing a solution containing the behavior you need or developing a plugin to provide additional options.  
+  These options are common ones you can configure using entity relationship behavior in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. If you require different behaviors consider purchasing a solution containing the behavior you need or developing a plugin to provide additional options.  
   
 <a name="BKMK_CascadingBehavior"></a>   
 ## Cascading behavior  
- These configuration options are called cascading behaviors because they cascade down the hierarchy of related entities. For example, if deleting an account causes related opportunities to be deleted, what about the activities associated with the opportunities? In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] the behavior defined in each of the entity relationships for activity type entities is that they are deleted as well.  
+ These configuration options are called cascading behaviors because they cascade down the hierarchy of related entities. For example, if deleting an account causes related opportunities to be deleted, what about the activities associated with the opportunities? In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps the behavior defined in each of the entity relationships for activity type entities is that they are deleted as well.  
   
  However, not all entities are treated this way. For example, orders and invoices contain important business data that shouldn’t be inadvertently deleted. They have entity relationship behavior configured to restrict deleting customer or opportunity records that they are associated with. Before you can delete the customer or opportunity that has a related order or invoice record, you must delete the order or invoice first.  
   
- As you model your business data by creating custom entities or when using existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system entities, consider the behavior you require and the implications for the entire hierarchy of related entities.  
+ As you model your business data by creating custom entities or when using existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps system entities, consider the behavior you require and the implications for the entire hierarchy of related entities.  
   
 <a name="BKMK_ParentalEntityRelationships"></a>   
 ## Parental entity relationships  
@@ -153,7 +157,7 @@ The `CascadeConfiguration` (<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguratio
 ### See also  
  [One-To-Many Relationships](customize-entity-relationship-metadata.md#BKMK_OneToManyRelationships)  
  [Create and update entity relationships using Web API](webapi/create-update-entity-relationships-using-web-api.md)  
- [Extend the Metadata Model for Dynamics 365](org-service/use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)   
  [Customize Entity Metadata](customize-entity-metadata.md)   
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)   
  [Entity Relationship Metadata](customize-entity-relationship-metadata.md)   

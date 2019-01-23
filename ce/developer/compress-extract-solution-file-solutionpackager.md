@@ -1,26 +1,30 @@
 ---
-title: "Use the SolutionPackager tool to compress and extract a solution file (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer Engagement compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system"
-ms.custom: ""
+title: "Use the SolutionPackager tool to compress and extract a solution file (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "SolutionPackager is a tool that can reversibly decompose a Dynamics 365 for Customer Engagement apps compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: dd682a4b-d04b-40c2-b680-9dec34b986f0
 caps.latest.revision: 33
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use the SolutionPackager tool to compress and extract a solution file
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system. The following sections show you how to run the tool and how to use the tool with managed and unmanaged solutions.  
+SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system. The following sections show you how to run the tool and how to use the tool with managed and unmanaged solutions.  
   
 <a name="bkm_where"></a>   
 ## Where to find the SolutionPackager tool  
@@ -54,19 +58,19 @@ SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics
   
  Files that are built in an automated build system, such as .xap[!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] files and plug-in assemblies, are typically not checked into source control. Web resources may already be present in source control in locations that are not directly compatible with the SolutionPackager tool. By including the /map parameter, the SolutionPackager tool can be directed to read and package such files from alternate locations and not from inside the Extract folder as it would typically be done. The /map parameter must specify the name and path to an XML file containing mapping directives that instruct the SolutionPackager to match files by their name and path, and indicate the alternate location to find the matched file. The following information applies to all directives equally.  
   
--   Multiple directives may be listed including those that will match identical files. Directives listed early in the file take precedence over those listed later.  
+- Multiple directives may be listed including those that will match identical files. Directives listed early in the file take precedence over those listed later.  
   
--   If a file is matched to any directive, it must be found in at least one alternative location. If no matching alternatives are found, the SolutionPackager will issue an error.  
+- If a file is matched to any directive, it must be found in at least one alternative location. If no matching alternatives are found, the SolutionPackager will issue an error.  
   
--   Folder and file paths may be absolute or relative. Relative paths are always evaluated from the folder specified by the /folder parameter.  
+- Folder and file paths may be absolute or relative. Relative paths are always evaluated from the folder specified by the /folder parameter.  
   
--   Environment variables may be specified by using a %variable% syntax.  
+- Environment variables may be specified by using a %variable% syntax.  
   
--   A folder wildcard “**” may be used to mean “in any sub-folder”. It can only be used as the final part of a path, for example: “c:\folderA\\\*\*”.  
+- A folder wildcard “**” may be used to mean “in any sub-folder”. It can only be used as the final part of a path, for example: “c:\folderA\\\*\*”.  
   
--   File name wildcards may be used only in the forms “*.ext” or “\*.\*”. No other pattern is supported.  
+- File name wildcards may be used only in the forms “*.ext” or “\*.\*”. No other pattern is supported.  
   
- The three types of directives mappings are described here, along with an example that shows you how to use them.  
+  The three types of directives mappings are described here, along with an example that shows you how to use them.  
   
 <a name="Folder_mapping"></a>   
 ### Folder mapping  
@@ -78,18 +82,18 @@ SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics
  Description  
  File paths that match “folderA” will be switched to “folderB”.  
   
--   The hierarchy of subfolders under each must exactly match.  
+- The hierarchy of subfolders under each must exactly match.  
   
--   Folder wildcards are not supported.  
+- Folder wildcards are not supported.  
   
--   No file names may be specified.  
+- No file names may be specified.  
   
- Examples  
- ```xml  
-<Folder map="folderA" to="folderB" />  
-<Folder map="folderA\folderB" to="..\..\folderC\" />  
-<Folder map="WebResources\subFolder" to="%base%\WebResources" />  
-```  
+  Examples  
+  ```xml  
+  <Folder map="folderA" to="folderB" />  
+  <Folder map="folderA\folderB" to="..\..\folderC\" />  
+  <Folder map="WebResources\subFolder" to="%base%\WebResources" />  
+  ```  
   
 <a name="file_mapping"></a>   
 ### File To file mapping  
@@ -103,28 +107,28 @@ SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics
   
  For the `map` parameter:  
   
--   A file name must be specified. The path is optional. If no path is specified, files from any folder may be matched.  
+- A file name must be specified. The path is optional. If no path is specified, files from any folder may be matched.  
   
--   File name wildcards are not supported.  
+- File name wildcards are not supported.  
   
--   The folder wildcard is supported.  
+- The folder wildcard is supported.  
   
- For the `to` parameter:  
+  For the `to` parameter:  
   
--   A file name and path must be specified.  
+- A file name and path must be specified.  
   
--   The file name may differ from the name in the `map` parameter.  
+- The file name may differ from the name in the `map` parameter.  
   
--   File name wildcards are not supported.  
+- File name wildcards are not supported.  
   
--   The folder wildcard is supported.  
+- The folder wildcard is supported.  
   
- Examples  
- ```xml  
-<FileToFile map="assembly.dll" to="c:\path\folder\assembly.dll" />  
-<FileToFile map="PluginAssemblies\**\this.dll" to="..\..\Plugins\**\that.dll" />  
-<FileToFile map="Webresrouces\ardvark.jpg" to="%SRCBASE%\CrmPackage\WebResources\JPG format\aardvark.jpg" />  
-```  
+  Examples  
+  ```xml  
+  <FileToFile map="assembly.dll" to="c:\path\folder\assembly.dll" />  
+  <FileToFile map="PluginAssemblies\**\this.dll" to="..\..\Plugins\**\that.dll" />  
+  <FileToFile map="Webresrouces\ardvark.jpg" to="%SRCBASE%\CrmPackage\WebResources\JPG format\aardvark.jpg" />  
+  ```  
   
 <a name="file_path_mapping"></a>   
 ### File to path mapping  
@@ -138,27 +142,27 @@ SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics
   
  For the `map` parameter:  
   
--   A file name must be specified. The path is optional. If no path is specified, files from any folder may be matched.  
+- A file name must be specified. The path is optional. If no path is specified, files from any folder may be matched.  
   
--   File name wildcards are supported.  
+- File name wildcards are supported.  
   
--   The folder wildcard is supported.  
+- The folder wildcard is supported.  
   
- For the `to` parameter:  
+  For the `to` parameter:  
   
--   A path must be specified.  
+- A path must be specified.  
   
--   The folder wildcard is supported.  
+- The folder wildcard is supported.  
   
--   A file name must not be specified.  
+- A file name must not be specified.  
   
- Examples  
- ```xml  
-<FileToPath map="assembly.dll" to="c:\path\folder" />  
-<FileToPath map="PluginAssemblies\**\this.dll" to="..\..\Plugins\bin\**" />  
-<FileToPath map="*.jpg" to="%SRCBASE%\CrmPackage\WebResources\JPG format\" />  
-<FileToPath map="*.*" to="..\..\%ARCH%\%TYPE%\drop" />  
-```  
+  Examples  
+  ```xml  
+  <FileToPath map="assembly.dll" to="c:\path\folder" />  
+  <FileToPath map="PluginAssemblies\**\this.dll" to="..\..\Plugins\bin\**" />  
+  <FileToPath map="*.jpg" to="%SRCBASE%\CrmPackage\WebResources\JPG format\" />  
+  <FileToPath map="*.*" to="..\..\%ARCH%\%TYPE%\drop" />  
+  ```  
   
 <a name="Example_mapping"></a>   
 ### Example mapping  
@@ -178,7 +182,7 @@ SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics
   
 <a name="managed"></a>   
 ## Managed and unmanaged solutions  
- A [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] compressed solution (.zip) file can be exported in one of two types as shown here.  
+ A [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps compressed solution (.zip) file can be exported in one of two types as shown here.  
   
  Managed solution  
  A completed solution ready to be imported into an organization. Once imported, components can’t be added or removed, although they can optionally allow further customization. This is recommended when development of the solution is complete.  
@@ -186,7 +190,7 @@ SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics
  Unmanaged solution  
  An open solution with no restrictions on what can be added, removed, or modified. This is recommended during development of a solution.  
   
- The format of a compressed solution file will be different based on its type, either managed or unmanaged. The SolutionPackager can process compressed solution files of either type. However, the tool can’t convert one type to another. The only way to convert solution files to a different type, for example from unmanaged to managed, is by importing the unmanaged solution .zip file into a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and then exporting the solution as a managed solution.  
+ The format of a compressed solution file will be different based on its type, either managed or unmanaged. The SolutionPackager can process compressed solution files of either type. However, the tool can’t convert one type to another. The only way to convert solution files to a different type, for example from unmanaged to managed, is by importing the unmanaged solution .zip file into a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server and then exporting the solution as a managed solution.  
   
  The SolutionPackager can process unmanaged and managed solution .zip files as a combined set via the /PackageType:Both parameter. To perform this operation, it is necessary to export your solution twice as each type, naming the .zip files as follows.  
   
@@ -203,37 +207,37 @@ SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics
   
 #### Workaround  
   
-1.  Open the resource file in your favorite text editor and locate and update the following tags:  
+1. Open the resource file in your favorite text editor and locate and update the following tags:  
   
-    ```xml  
-    <data name="Source LCID" xml:space="preserve">  
-    <data name="Source file" xml:space="preserve">  
-    <data name="Source package type" xml:space="preserve">  
-    <data name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">  
+   ```xml  
+   <data name="Source LCID" xml:space="preserve">  
+   <data name="Source file" xml:space="preserve">  
+   <data name="Source package type" xml:space="preserve">  
+   <data name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">  
   
-    ```  
+   ```  
   
-2.  Change the node name from `<data>` to `<metadata>`.  
+2. Change the node name from `<data>` to `<metadata>`.  
   
-     For example, this string:  
+    For example, this string:  
   
-    ```xml  
-    <data name="Source LCID" xml:space="preserve">  
-      <value>1033</value>  
-    </data>  
+   ```xml  
+   <data name="Source LCID" xml:space="preserve">  
+     <value>1033</value>  
+   </data>  
   
-    ```  
+   ```  
   
-     Changes to:  
+    Changes to:  
   
-    ```xml  
-    <metadata name="Source LCID" xml:space="preserve">  
-      <value>1033</value>  
-    </metadata>  
+   ```xml  
+   <metadata name="Source LCID" xml:space="preserve">  
+     <value>1033</value>  
+   </metadata>  
   
-    ```  
+   ```  
   
- This allows the solution packager to read and import the resource file. This problem has only been observed when using the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] Resource editor.  
+   This allows the solution packager to read and import the resource file. This problem has only been observed when using the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] Resource editor.  
   
 ### See also  
  [Solution Tools for Team Development](solution-tools-team-development.md)   

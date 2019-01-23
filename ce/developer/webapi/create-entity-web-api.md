@@ -1,20 +1,24 @@
 ---
-title: "Create an entity using the Web API (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Read how to create a POST request to send data to create an entity on Dynamics 365 using the Web API"
-ms.custom: ""
+title: "Create an entity using the Web API (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Read how to create a POST request to send data to create an entity on Dynamics 365 for Customer Engagement using the Web API"
+ms.custom: 
 ms.date: 11/16/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 244259ca-2fbc-4fd4-9a74-6166e6683355
 caps.latest.revision: 51
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Create an entity using the Web API
@@ -59,7 +63,6 @@ Accept: application/json
 HTTP/1.1 204 No Content
 OData-Version: 4.0
 OData-EntityId: [Organization URI]/api/data/v9.0/accounts(7eb682f1-ca75-e511-80d4-00155d2a68d1)
-
 ```
 
  To create a new entity you must identify the valid property names and types. For all system entities and attributes, you can find this information in the topic for that entity in the [Web API EntityType Reference](../about-entity-reference.md). For custom entities or attributes, refer to the definition of that entity in the [CSDL metadata document](web-api-types-operations.md#bkmk_csdl). [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Entity types](web-api-types-operations.md#bkmk_entityTypes)
@@ -107,7 +110,6 @@ Accept: application/json
   }
  ]
 }
-
 ```
 
 **Response**
@@ -117,7 +119,6 @@ Accept: application/json
 HTTP/1.1 204 No Content
 OData-Version: 4.0
 OData-EntityId: [Organization URI]/api/data/v9.0/accounts(3c6e4b5f-86f6-e411-80dd-00155d2a68cb)
-
 ```
 
 <a name="bkmk_associateOnCreate"></a>
@@ -142,7 +143,6 @@ Accept: application/json
 "name":"Sample Account",
 "primarycontactid@odata.bind":"/contacts(00000000-0000-0000-0000-000000000001)"
 }
-
 ```
 
 **Response**
@@ -152,7 +152,6 @@ Accept: application/json
 HTTP/1.1 204 No Content
 OData-Version: 4.0
 OData-EntityId: [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-000000000002)
-
 ```
 
 > [!NOTE]
@@ -236,7 +235,7 @@ Accept: application/json
 > [!NOTE]
 > This capability was added with [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)].
 
- You can compose your POST request so that data from the created record will be returned with a status of 201 (Created).  To get his result, you must use the `return=representation` preference in the request headers.
+ You can compose your POST request so that data from the created record will be returned with a status of 201 (Created).  To get this result, you must use the `return=representation` preference in the request headers.
 
  To control which properties are returned, append the `$select` query option to the URL to the entity set.  The `$expand` query option will be ignored if used.
 
@@ -263,7 +262,6 @@ Prefer: return=representation
     "revenue": 5000000,
     "accountcategorycode": 1
 }
-
 ```
 
 **Response**
@@ -288,7 +286,6 @@ OData-Version: 4.0
     "revenue": 5000000.0000,
     "_transactioncurrencyid_value": "048dddaa-6f7f-e611-80d3-00155db5e0b6"
 }
-
 ```
 
 ### See also
