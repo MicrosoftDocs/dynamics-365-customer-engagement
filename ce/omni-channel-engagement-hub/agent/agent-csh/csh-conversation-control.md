@@ -128,10 +128,7 @@ In the above-mentioned scenarios, you can transfer the request. However, you can
 
 Use the keyboard shortcut to launch the agent and queue tab to transfer the conversation.
 
- > [!div class=mx-imgBorder]
- > ![Transfer agent list](../../media/csh-cc-transfer-agent-list.png "transfer agent list") 
- > [!div class=mx-imgBorder]
- > ![Transfer queue list](../../media/csh-cc-transfer-queue-list.png "Transfer queue list")
+ ![Transfer agent list](../../media/csh-cc-transfer-agent-list.png "transfer agent list") ![Transfer queue list](../../media/csh-cc-transfer-queue-list.png "Transfer queue list")
 
 **/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation to. The **/t** shortcut keeps the focus on the agent tab whereas the **/tq** shortcut keeps the focus on the queue tab.
 
