@@ -13,11 +13,12 @@ ms.assetid: C77F80B6-3908-4E49-B55A-85B5C03CBFAE
 ms.custom: 
 ---
 
-# Know the Omni-channel Engagement Hub sitemap in Customer Service Hub app
+# Know Omni-channel Engagement Hub sitemap in Customer Service Hub app
 
 The sitemap is a place for you to access the customer service record types. By default, the sitemap is in expanded mode. To collapse the sitemap, select the Sitemap icon ![Sitemap icon](../../media/sitemap-icon.PNG "Sitemap icon").  
 
-![Sitemap of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-sitemap-oc.png "Sitemap of Omni-channel Engagement Hub in Customer Service Hub")  
+ > [!dic class=mx-imgBorder]
+ > ![Sitemap of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-sitemap-oc.png "Sitemap of Omni-channel Engagement Hub in Customer Service Hub")  
 
 The Sitemap displays the following record types:
 
