@@ -46,7 +46,7 @@ Search the Omni-channel records using the search option. When you select the Sea
 
 3. Select **Search** and the search list appears.
 
- ![Search account record using Omni-channel search](../../media/csh-oc-search-record-account.png "Search account record using Omni-channel search")
+ ![Search account record using Omni-channel search](../../media/csh-oc-search-record-account.png "Search account record using Omni-channel search") 
 
 ### Search for a record using inline search option
 
