@@ -123,7 +123,7 @@ Use the keyboard shortcut to launch the agent and queue tab to transfer the conv
 
 **/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation to. The **/t** shortcut keeps the focus on the agent tab whereas the **/tq** shortcut keeps the focus on the queue tab.
 
-### Presence
+### Set your presence
 
 Presence is the indication of your (agent) availability or status. A presence status is composed of the base presence elements that indicate the category of availability. The five standard base presence elements are Available, Away, Busy, Do Not Disturb, and Offline.
 
