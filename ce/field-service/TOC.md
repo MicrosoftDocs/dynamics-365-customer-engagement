@@ -39,8 +39,8 @@
 
 # Scheduling
 ## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)
-## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
 ## [Types of scheduling](scheduling-capabilities.md)
+## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
 ## [Scheduling roles and personas](scheduling-roles-personas.md)
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
