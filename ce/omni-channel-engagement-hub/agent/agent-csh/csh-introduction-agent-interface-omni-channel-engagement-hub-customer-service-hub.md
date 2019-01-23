@@ -25,10 +25,17 @@ When you sign in to Customer Service Hub, the Omni-channel Engagement Hub interf
 
 4.  My Dashboard
 
-5.  Conversation control
+5.  Conversation control (Collapsed mode)
 
+ 
  > [!div class=mx-imgBorder]
  > ![Agent interface of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-agent-interface.png "Agent interface of Omni-channel Engagement Hub in Customer Service Hub")  
+
+
+Conversation control in expanded mode
+
+ > [!div class=mx-imgBorder]
+ > ![Conversation control in expanded mode](../../media/csh-agent-interface-expanded-mode.png "Conversation control in expanded mode")
 
 > [!div class="nextstepaction"]
 > [Next topic: Navigate using the navigation bar](csh-navigation-bar.md)
