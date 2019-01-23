@@ -61,5 +61,4 @@ When you choose to search for a record, the application launches the **Omni-chan
 - [Conversation control](csh-conversation-control.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
-- [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [Search and link record to the conversation](csh-search-link-record.md)

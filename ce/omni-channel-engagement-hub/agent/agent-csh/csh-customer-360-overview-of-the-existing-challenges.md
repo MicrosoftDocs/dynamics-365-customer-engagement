@@ -70,7 +70,7 @@ You can search for a KB article using the **KB Search** tab, and then view the a
 When you interact with a customer in the conversation control, you can use the **Knowledge articles** option to launch the **KB Search** tab. Then you can search and share the KB articles.
 
 > [!div class="nextstepaction"]
-> [Next topic: View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
+> [Next topic: Create a record](csh-create-record.md)
 
 ## See also
 
@@ -83,5 +83,5 @@ When you interact with a customer in the conversation control, you can use the *
 - [Conversation control](csh-conversation-control.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
-- [Create a record](csh-create-record.md)
+- [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [Search and link record to the conversation](csh-search-link-record.md)

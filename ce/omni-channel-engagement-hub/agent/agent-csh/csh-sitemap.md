@@ -17,7 +17,7 @@ ms.custom:
 
 The sitemap is a place for you to access the customer service record types. By default, the sitemap is in expanded mode. To collapse the sitemap, select the Sitemap icon ![Sitemap icon](../../media/sitemap-icon.PNG "Sitemap icon").  
 
- > [!dic class=mx-imgBorder]
+ > [!div class=mx-imgBorder]
  > ![Sitemap of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-sitemap-oc.png "Sitemap of Omni-channel Engagement Hub in Customer Service Hub")  
 
 The Sitemap displays the following record types:

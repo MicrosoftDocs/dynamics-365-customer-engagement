@@ -38,7 +38,7 @@ Conversation control in expanded mode
  > ![Conversation control in expanded mode](../../media/csh-agent-interface-expanded-mode.png "Conversation control in expanded mode")
 
 > [!div class="nextstepaction"]
-> [Next topic: Navigate using the navigation bar](csh-navigation-bar.md)
+> [Next topic: Know the sitemap navigation](csh-sitemap.md)
 
 ## See also
 
