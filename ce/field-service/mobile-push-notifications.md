@@ -96,7 +96,7 @@ For **Entity** select the entity that should be opened when the push notificatio
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-custom-workflow1.png)
 
-To add push notifications into your workflow, select **Add Step > Field Service Mobile > Entity Push Notification**.
+To add push notifications into your workflow, click **Add Step > Field Service Mobile > Entity Push Notification**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-custom-workflow2.png)
@@ -105,19 +105,29 @@ Then select **Set Properties**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-custom-workflow3.png)
 
-Using the out of the box worklfow process as seen in the image below, enter the details of the push notification.
+Here you will enter the details of the push notification message.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-push-notification-workflow-template.png)
+> ![Screenshot of ](./media/mobile-push-notification-custom-workflow4.png)
+
 
 **Message:** enter the message displayed in the push notification. 
 
 **Category:** **ViewRecord**
 
-**User:** (User(Resource)(Bookable Resource)) 
+**User:** enter the user the push notification will be sent to. As an example, enter the following for push notifications related to  (User(Resource)(Bookable Resource))
+
+**Team:** enter the team the push notification will be sent to.
+
+**Pro Tip:** You can use the out of the box workflow process as a reference, seen in the image below, .
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-push-notification-custom-workflow4.png)
+> ![Screenshot of ](./media/mobile-push-notification-workflow-template.png)
+
+
+
+
+
 
 ## Configuration considerations
 
