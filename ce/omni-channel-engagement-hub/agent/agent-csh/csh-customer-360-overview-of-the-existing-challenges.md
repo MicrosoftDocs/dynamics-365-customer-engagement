@@ -76,7 +76,7 @@ When you interact with a customer in the conversation control, you can use the *
 
 - [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
-- [Know the sitemap navigation(csh-sitemap.md)
+- [Know the sitemap navigation](csh-sitemap.md)
 - [Navigate using the navigation bar](csh-navigation-bar.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
 - [View agent dashboard and agent work items](csh-my-dashboard.md)

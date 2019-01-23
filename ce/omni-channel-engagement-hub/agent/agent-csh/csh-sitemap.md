@@ -23,11 +23,11 @@ The Sitemap displays the following record types:
 
 - **Dashboards**
 
- When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working on. There are several dashboards tailored for your role. To see the other dashboards, select the drop-down list next to **My dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **My Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application. The dashboard displays the following forms:
+  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working on. There are several dashboards tailored for your role. To see the other dashboards, select the drop-down list next to **My dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **My Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application. The dashboard displays the following forms:
 
- - My work items
- - Open work items
- - Closed work items
+   - My work items
+   - Open work items
+   - Closed work items
 
 - **Activities**
 
