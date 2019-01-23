@@ -26,12 +26,14 @@ search.app:
 
 # How to opted out of data collection
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
  
 At Microsoft, we work hard to protect your privacy while delivering products that bring you the performance, power, and convenience you want. Microsoft collects certain information about your usage of Dynamics 365 for phones to help diagnose problems and improve the product. For more details about Microsoft’s privacy practices, please review the Microsoft Privacy Statement. It applies to the data we collect from your use of Dynamics 365 for phones. 
+
+On-premises users can sign in using their Customer Engagement app web adress and then opt out of data collection.
  
-1. To opt out of data collection, sign out of the app and then sign-in back in.
+1. Sign out of the app.
+
+2. On the sign-in screen, select **Sign in with a web address instead**.
 
 2. In the **Usage data collection** dialog box uncheck **Help improve Dynamics 365 by sharing usage data**.
 
