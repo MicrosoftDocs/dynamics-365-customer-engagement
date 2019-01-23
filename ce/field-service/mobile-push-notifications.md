@@ -33,7 +33,7 @@ search.app:
 
 ## Prerequisites
 
-Field Service v7.5.5 and v8.3+  
+Field Service v7.5.5 or v8.3+  
 
 Field Service Mobile v11.1+ for Windows, iOS, or Android devices. You can verify your mobile app version in the **About** section
 
@@ -41,17 +41,24 @@ You have consented to notifications in your device's settings for the **Field Se
 
 ## Verify push notifications are activated
 
-Navigate to **Settings > Solutions** and verify the **Field Service Mobile Push Notifications** solution is installed. If it is not installed you will need to upgrade to the Field Service v8.3+ solution.
+Navigate to **Settings > Solutions** and verify the **Field Service Mobile Push Notifications** solution is installed. If it is not installed you will need to upgrade to the Field Service v8.3+ solution that it is included in.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-solution.png)
 
-Part of this solution is a workflow titled **Notify user about booking** that must be Activated. If it is not activated navigate to the default solution or an unmanaged solution via **Settings > Customizations > Customize the system > Processes** and activate it.
+Part of this solution is a workflow titled **Notify user about booking** that must be **Activated**. If it is not activated navigate to the default solution or an unmanaged solution via **Settings > Customizations > Customize the system > Processes** and activate it.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-solution-details.png)
 
 ## Schedule a work order and view push notifications
+
+Create a bookable resource to schedule work orders to and that you would like to receive push notifications.
+
+This bookable resource must have a **Resource Type** of **User**.
+
+Verify you can log into the Field Service Mobile app with the user credentials related to the bookable resource.
+
 
 Schedule a work order to one of your bookable resources. This resource must have a resource type of User.
 
