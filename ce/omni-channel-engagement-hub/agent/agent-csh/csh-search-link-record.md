@@ -21,6 +21,18 @@ The topic explains how to search a record in Omni-channel Engagement Hub and lin
 
 You can search for the records in two ways.
 
+### Search for a record using inline search option
+
+You accept an incoming conversation request and there is no customer record identified in the Omni-channel Engagement Hub. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
+
+> [!div class=mx-imgBorder]
+> ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
+
+After the search results, selecting a record links the conversation to the selected record and loads the **Customer summary** form with the details.
+
+> [!div class=mx-imgBorder]
+> ![Cusomter summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
+
 ### Search for a record using the search option
 
 Search the Omni-channel records using the search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select **Search**. You will see the details in the form of a list.
@@ -47,18 +59,6 @@ Search the Omni-channel records using the search option. When you select the Sea
 3. Select **Search** and the search list appears.
 
  ![Search account record using Omni-channel search](../../media/csh-oc-search-record-account.png "Search account record using Omni-channel search") 
-
-### Search for a record using inline search option
-
-You accept an incoming conversation request and there is no customer record identified in the Omni-channel Engagement Hub. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
-
-> [!div class=mx-imgBorder]
-> ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
-
-After the search results, selecting a record links the conversation to the selected record and loads the **Customer summary** form with the details.
-
-> [!div class=mx-imgBorder]
-> ![Cusomter summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
 
 ## Link a record
 
