@@ -38,16 +38,16 @@
 ## [Tutorial: Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Scheduling
-## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md) 
+## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)
+## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
+## [Types of scheduling](scheduling-capabilities.md)
+## [Scheduling roles and personas](scheduling-roles-personas.md)
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
-## Implementation
-### [Scheduling roles and personas](scheduling-roles-personas.md)
-### [Using the scheduling capabilities set](implementing-scheduling-capabilities.md)
-### [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
+
 
 # Mobile app for field technicians
 ## [Setup Mobile Field Service](field-service-mobile-app-user-guide.md)
