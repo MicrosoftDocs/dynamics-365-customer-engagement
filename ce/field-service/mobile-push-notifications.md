@@ -28,8 +28,8 @@ search.app:
 
 # Push Notifications
 
-> [!Note]
->
+
+common examples:
 
 ## Prerequisites
 
@@ -53,48 +53,68 @@ Part of this solution is a workflow titled **Notify user about booking** that mu
 
 ## Schedule a work order and view push notifications
 
-Create a bookable resource to schedule work orders to and that you would like to receive push notifications.
+Create a bookable resource to schedule work orders to and that you would like to receive push notifications. This is done in **Field Service > Resources**
 
 This bookable resource must have a **Resource Type** of **User**.
 
-Verify you can log into the Field Service Mobile app with the user credentials related to the bookable resource.
+Verify you can log into the Field Service Mobile app with the user record and credentials related to the bookable resource.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-login.png)
 
-Schedule a work order to one of your bookable resources. This resource must have a resource type of User.
+Schedule a work order to your bookable resource.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-schedule-board.png)
 
+Shortly thereafter a push notification will display on your device. In the image below a banner notification is displayed on our Windows device.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-banner.png)
 
+The push notification is also displayed in the Windows Notification Center. This is true for iOS and Android devices as well.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-notification-center.png)
 
-
+Selecting or tapping the notification will open the booking record.
 
 
 ## Create a custom push notification
 
-**Settings > Customizations > Customize the system > Processes > +New**
+An organization may want to create a custom push notification that displays a different message or relates to a different entity than Bookable Resource Booking.
+
+> [!Note]
+> Do not edit the out of the box **Notify user about booking** process. Instead deactivate it and create a new one using it as a template.
+
+Navigate to **Settings > Customizations > Customize the system > Processes > +New**
+
+Set **Category** to **Workflow** 
+
+For **Entity** select the entity that should be opened when the push notification is selected.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-custom-workflow1.png)
 
+To add push notifications into your workflow, select **Add Step > Field Service Mobile > Entity Push Notification**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-custom-workflow2.png)
 
-
+Then select **Set Properties**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-custom-workflow3.png)
 
+Using the out of the box worklfow process as seen in the image below, enter the details of the push notification.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-workflow-template.png)
 
+**Message:** enter the message displayed in the push notification. 
+
+**Category:** **ViewRecord**
+
+**User:** (User(Resource)(Bookable Resource)) 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-custom-workflow4.png)
