@@ -33,7 +33,7 @@ A key prerequisite to successful scheduling adoption is having the right people,
 
 ## Dispatcher or scheduler
 
-The dispatcher or scheduler is responsible for ensuring that work orders (or requirements) are matched with the right resources in order to create bookings in a given timeslot. This role can be performed by people in a variety of positions, such as: 
+The dispatcher or scheduler is responsible for ensuring that work orders (or requirements) are matched with the right resources in order to create bookings in a given time slot. This role can be performed by people in a variety of positions, such as: 
 
 - service managers
 - customer service representatives
@@ -47,7 +47,7 @@ Scheduler responsibilities can range between manually assigning all requirements
 
 In practice, there are typically people performing or overseeing the scheduling role, if even just to help manage exceptions. This is consistent across the industry and is supported by guidance from [industry analysts](https://1drv.ms/b/s!AhAjbOq5aB_lqUSVN-G0tXLUXzQn). Even with a high level of automation, schedulers are involved to help ensure optimization is meeting business objectives.
 
-## Scheduling Analyst
+## Scheduling analyst
 
 The scheduling analyst is an emerging role as organizations adopt advanced scheduling functions like optimization, automated scheduling, and analytics. The ideal scheduling analyst has a healthy mix of scheduling, analytics, and optimization knowledge.
 
