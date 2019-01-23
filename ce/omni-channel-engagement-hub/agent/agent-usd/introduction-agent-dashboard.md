@@ -27,7 +27,7 @@ The **My Dashboard** page consists of the following views:
  - Closed work items
 
 > [!div class=mx-imgBorder]
-> ![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")   
+> ![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")
 
 ## My work items
 
