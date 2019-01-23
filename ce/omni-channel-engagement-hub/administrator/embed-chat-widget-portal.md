@@ -36,3 +36,6 @@ After creating a chat widget, you can configure your portal to embed the chat wi
     > [!div class=mx-imgBorder]
     > ![Paste code snippet of a chat widget](../media/paste-snippet.png "Paste code snippet of a chat widget")
 11.	Save the changes. The chat widget is now embedded into the portal.
+
+> [!NOTE]
+> For advanced configuration like embedding chat widget on specific web pages, use portal customization.

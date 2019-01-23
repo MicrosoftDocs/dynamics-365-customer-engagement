@@ -20,7 +20,7 @@ You can add questions to the question library in a work stream. You can then use
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** &gt; **Work Streams**.
 3. Select the work stream to create a question library in.
-4. On the **Survey questions library** tab, select **Add question**.
+4. On the **Survey questions library** tab, select **Add**.
 
     > [!div class=mx-imgBorder]
     > ![Add a question to the question library](../media/oc-add-question.png "Add a question to the question library")
@@ -40,7 +40,7 @@ You can add questions to the question library in a work stream. You can then use
     - **Question text**: Enter the text of the question.
     - **Help text**: Enter help text that will be shown to the user as a watermark.
 
-    > [!div class=mx-imgBorder]
-    > ![Add Help text to a question](../media/oc-question-help-text.png "Add Help text to a question")
+        > [!div class=mx-imgBorder]
+        > ![Add Help text to a question](../media/oc-question-help-text.png "Add Help text to a question")
 
 6. Select **Save**.
