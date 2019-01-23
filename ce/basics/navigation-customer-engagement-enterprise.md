@@ -201,13 +201,13 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
  **6**.  Get in-context help (guided tasks, videos, eBooks, and topics).  
   
 ## Get more info on each app  
- [Dynamics 365 for Customer Engagement for Sales - User Guide](../sales-enterprise/user-guide.md)  
+ [Dynamics 365 for Sales - User Guide](../sales-enterprise/user-guide.md)  
   
- [Dynamics 365 for Customer Engagement for Customer Service – User Guide](../customer-service/user-guide-customer-service.md)  
+ [Dynamics 365 for Customer Service – User Guide](../customer-service/user-guide-customer-service.md)  
   
- [Dynamics 365 for Customer Engagement for Field Service - User Guide](../field-service/user-guide.md)  
+ [Dynamics 365 for Field Service - User Guide](../field-service/user-guide.md)  
   
- [Dynamics 365 for Customer Engagement for Project Service Automation](../project-service/overview.md)  
+ [Dynamics 365 for Project Service Automation](../project-service/overview.md)  
   
  [Administrator's Guide to Dynamics 365 for Customer Engagement](../admin/admin-guide.md)  
   

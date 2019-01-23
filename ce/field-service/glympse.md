@@ -1,5 +1,5 @@
 ---
-title: "Use the Glmpse solution to track the location of a technician (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Use the Glmpse solution to track the location of a technician (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/09/2017

@@ -181,7 +181,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 [Keyboard shortcuts for the Customer Service Hub](../customer-service/keyboard-navigation-support-customer-service-hub.md)
 
-[Dynamics 365 for Customer Engagement for Marketing: Keyboard shortcuts and accessibility features for content designers](../marketing/designer-shortcuts.md)
+[Dynamics 365 for Marketing: Keyboard shortcuts and accessibility features for content designers](../marketing/designer-shortcuts.md)
 
 [Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365)
 

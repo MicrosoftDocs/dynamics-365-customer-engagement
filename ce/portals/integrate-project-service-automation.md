@@ -1,5 +1,5 @@
 ---
-title: "Integrate Dynamics 365 for Customer Engagement for Project Service Automation with a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Integrate Dynamics 365 for Project Service Automation with a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to integrate Project Service Automation with a portal."
 ms.custom: 
   - dyn365-portal
