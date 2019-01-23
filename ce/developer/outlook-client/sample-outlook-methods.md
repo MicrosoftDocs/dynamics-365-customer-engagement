@@ -1,5 +1,5 @@
 ---
-title: "Sample: Use Dynamics 365 for Customer Engagement for Outlook methods (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Sample: Use Dynamics 365 for Outlook methods (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -19,11 +19,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Sample: Use Dynamics 365 for Customer Engagement for Outlook methods
+# Sample: Use Dynamics 365 for Outlook methods
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. To download the sample, refer [Sample: Use Dynamics 365 for Customer Engagement for Outlook methods](https://msdn.microsoft.com/en-us/library/gg309513.aspx).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. To download the sample, refer [Sample: Use Dynamics 365 for Outlook methods](https://msdn.microsoft.com/en-us/library/gg309513.aspx).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
@@ -38,7 +38,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[Outlook#UseOutlookSdk1](../../snippets/csharp/CRMV8/outlook/cs/useoutlooksdk1.cs#useoutlooksdk1)]  
   
 ### See also  
- [Extend Dynamics 365 for Customer Engagement for Outlook](../extend-customer-engagement-outlook.md)   
+ [Extend Dynamics 365 for Outlook](../extend-customer-engagement-outlook.md)   
  <xref:Microsoft.Crm.Outlook.Sdk.CrmOutlookService>   
  <xref:Microsoft.Crm.Outlook.Sdk.CrmOutlookService.GoOnline>   
  <xref:Microsoft.Crm.Outlook.Sdk.CrmOutlookService.GoOffline>

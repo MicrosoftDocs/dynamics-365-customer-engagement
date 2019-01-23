@@ -68,8 +68,8 @@ To monitor and manage processes, you must locate the process, evaluate the statu
 |Completed|Succeeded<br /><br /> Failed<br /><br /> Canceled|  
   
 ### See also   
- [Workflow processes overview](../customize/workflow-processes.md)   
- [Configure workflow processes](../customize/configure-workflow-steps.md)   
- [Best practices for workflow processes](../customize/best-practices-workflow-processes.md) <br />
- [Create custom business logic with processes] <br />(guide-staff-through-common-tasks-processes.md) 
+ [Workflow processes overview](../customize/workflow-processes.md)<br/>   
+ [Configure workflow processes](../customize/configure-workflow-steps.md)<br/>   
+ [Best practices for workflow processes](../customize/best-practices-workflow-processes.md)<br/>
+ [Create custom business logic with processes](guide-staff-through-common-tasks-processes.md)<br/>
  [Asynchronous service in Dynamics 365 for Customer Engagement apps](../developer/asynchronous-service.md)

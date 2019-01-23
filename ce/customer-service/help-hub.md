@@ -30,7 +30,7 @@ search.app:
 <tr>
 <td><h2>Get started</h2>
   <ul>
-<li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 for Customer Engagement for Customer Service](whats-new-customer-service.md)">What's new in Dynamics 365 for Customer Engagement for Customer Service</a></li>
+<li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 for Customer Service](whats-new-customer-service.md)">What's new in Dynamics 365 for Customer Service</a></li>
   <li><a href="overview.md" data-raw-source="[Explore Customer Service Hub and Customer Service](overview.md)">Explore Customer Service Hub and Customer Service</a></li>
 <li> <a href="upgrade-ish-csh.md" data-raw-source="[[Upgrade to the Customer Service Hub app](upgrade-ish-csh.md)]">Upgrade to the Customer Service Hub app</a>
   </ul>
@@ -38,7 +38,7 @@ search.app:
 
   <td><h2>Setup</h2>
   <ul>
-  <li><a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets" data-raw-source="[Dynamics 365 for Customer Engagement for phones and tablets]https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets">Dynamics 365 for Customer Engagement for phones and tablets</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets" data-raw-source="[Dynamics 365 for phones and tablets]https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets">Dynamics 365 for phones and tablets</a></li>
 <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Customer Service Hub app on mobile devices</a></li>
 <li><a href="basics-service-service-scheduling.md#set-up-the-new-scheduling-experience" data-raw-source="[New scheduling experience based on URS](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)">New scheduling experience based on URS</a></li>
   </li> 

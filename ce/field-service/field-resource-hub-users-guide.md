@@ -1,5 +1,5 @@
 ---
-title: "Field Resource Hub User Guide (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Field Resource Hub User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

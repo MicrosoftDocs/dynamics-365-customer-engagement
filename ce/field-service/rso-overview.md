@@ -26,7 +26,7 @@ Resource Scheduling Optimization (RSO) is an add-on capability for the Dynamics
 work orders for the most appropriate resources, by optimizing bookings for the
 shortest travel time, available work hours, and many other constraints.
 
-RSO is one of three ways to schedule with Dynamics 365 for Customer Engagement for Field Service:
+RSO is one of three ways to schedule with Dynamics 365 for Field Service:
 
 1.  **Manual scheduling**: Drag and drop work order requirements from the bottom
     panel to the resource’s calendar above.

@@ -1,5 +1,5 @@
 ---
-title: "Perform initial configurations (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Perform initial configurations (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 10/31/2018
 ms.reviewer: 
@@ -27,7 +27,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-After installing Dynamics 365 for Customer Engagement for Field Service, there are a few important initial configurations, whether you're using the application for learning, development, testing, demonstrations, or live usage.
+After installing Dynamics 365 for Field Service, there are a few important initial configurations, whether you're using the application for learning, development, testing, demonstrations, or live usage.
 
 Estimated Duration: 10 minutes
 

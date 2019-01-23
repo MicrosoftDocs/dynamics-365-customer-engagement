@@ -1,5 +1,5 @@
 ---
-title: "Set up territories (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Set up territories (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -64,7 +64,7 @@ Territories are used to divide large service areas. If a service territory is as
 3.  In the **Look Up Records** dialog box, select a user, and then click **Add**.  
   
 ### See also    
- [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
  [Set up postal codes](../field-service/set-up-postal-codes.md)   
  [Set up booking rules](../field-service/set-up-booking-rules.md)   
  [Set up booking statuses](../field-service/set-up-booking-statuses.md)<br>

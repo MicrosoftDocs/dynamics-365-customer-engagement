@@ -35,7 +35,7 @@
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)
 ## [Resource pay types](set-up-resource-pay-types.md)
-## [Tutorial: Submit and approve time-off requests](submit-approve-time-off-requests.md)
+## [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Scheduling
 ## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md) 

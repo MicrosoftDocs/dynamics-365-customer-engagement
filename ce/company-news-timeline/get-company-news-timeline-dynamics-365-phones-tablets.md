@@ -1,5 +1,5 @@
 ---
-title: "Get the Company News Timeline (Dynamics 365 for Customer Engagement for phones and tablets) | MicrosoftDocs"
+title: "Get the Company News Timeline (Dynamics 365 for phones and tablets) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
