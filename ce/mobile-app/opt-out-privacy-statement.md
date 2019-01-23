@@ -24,7 +24,7 @@ search.app:
   - D365Sales
 ---
 
-# How to opted out of data collection
+# How to opt out of data collection for On-premises users
 
  
 At Microsoft, we work hard to protect your privacy while delivering products that bring you the performance, power, and convenience you want. Microsoft collects certain information about your usage of Dynamics 365 for phones to help diagnose problems and improve the product. For more details about Microsoft’s privacy practices, please review the Microsoft Privacy Statement. It applies to the data we collect from your use of Dynamics 365 for phones. 
