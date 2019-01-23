@@ -27,7 +27,7 @@ After you create an authentication settings record, you must add it in the **Bas
     A list of existing authentication settings is shown.
 
 3. Select **New** to add an authentication settings record.
-4. On the **New Authentication Settings** page, provide the following information:
+4. On the **New Chat Authentication Settings** page, provide the following information:
 
     - **Name**: Enter a name for the authentication setting.
     - **Public key URL**: Specify the public key URL of the domain. This URL is used to validate the information that comes in from the JavaScript Object Notation (JSON) Web Token (JWT) of the domain that a customer has signed in to.
