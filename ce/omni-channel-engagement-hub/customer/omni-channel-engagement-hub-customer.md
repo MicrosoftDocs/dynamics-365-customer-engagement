@@ -36,3 +36,6 @@ After the chat widget is configured, it has the following capabilities:
 - **Pre-chat survey**: If a survey has been configured by an admin, it's shown to the user before the conversation is started. This survey also helps the user connect to an appropriate agent.
 - **Chat notifications**: Chat notifications are shown when the chat widget is in minimized mode, and when it's opened on a different browser tab. When the chat widget is in minimized mode, it shows a message count. If you move away from the browser tab where you're chatting, the message count is shown on the tab.
 - **End chat**: A customer can end the chat by selecting the **Close chat** button. A confirmation message is displayed before ending the chat.
+
+    > [!div class=mx-imgBorder]
+    > ![End the chat conversation](../media/close-chat.png "End the chat conversation")
