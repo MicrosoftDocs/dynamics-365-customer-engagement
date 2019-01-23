@@ -14,6 +14,8 @@ ms.custom:
 ---
 # Omni-channel Engagement Hub for system customizers
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Every organization has a unique way of working. Some organizations have well-defined business processes, and some don’t. As a system customizer, you can customize the forms for your agents and supervisors to cater to your business process and workflow requirements.
 
 ## In this section

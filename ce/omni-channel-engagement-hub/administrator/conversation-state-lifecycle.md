@@ -15,6 +15,8 @@ ms.custom:
 
 # Understand the conversation state lifecycle
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 When a conversation is allocated to an agent, that agent works on the conversation and drives it to logical closure. After the conversation is completed and closed, the agent's capacity becomes available. The agent can then start to accept the next set of conversations that are waiting for attention. Therefore, the distribution of incoming conversations among agents works like clockwork, and efficiencies are utilized.
 
 Conversation state plays an important role in this process by updating the state of a conversation at various stages.

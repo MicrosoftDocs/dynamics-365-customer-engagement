@@ -15,6 +15,8 @@ ms.custom:
 
 # Search and link a record in Omni-channel Engagement Hub
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 The topic explains how to search a record in Omni-channel Engagement Hub and link the record to the conversation.
 
 ## Search for a record

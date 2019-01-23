@@ -15,6 +15,8 @@ ms.custom:
 
 # Sign in to Dynamics 365 Customer Service hub
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 The Omni-channel Engagement Hub on web browser is a solution on Dynamics 365 Customer Service Hub. You must sign in to Customer Service Hub to experience the Omni-channel Engagement Hub.
 
 1.  Sign in to Dynamics 365 Customer Engagement apps

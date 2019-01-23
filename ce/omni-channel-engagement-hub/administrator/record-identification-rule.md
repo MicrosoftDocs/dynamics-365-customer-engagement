@@ -15,6 +15,8 @@ ms.custom:
 
 # Configure record identification rule
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Record identification rules help agents identify and assist customers better by showing their details on the **Customer summary** page. When an incoming conversation request is received, a notification appears that includes contextual information for the request. When an agent accepts the incoming notification, the **Customer summary** page opens, and shows the details of the customer and case. 
 
 For more information, see [View Customer summary for an incoming engagement request](../agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md).

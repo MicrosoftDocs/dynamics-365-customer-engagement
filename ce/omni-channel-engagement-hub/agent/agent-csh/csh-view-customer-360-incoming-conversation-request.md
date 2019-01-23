@@ -15,6 +15,8 @@ ms.custom:
 
 # View customer summary for an incoming conversation request
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 ## Scenario 1: An incoming engagement request for an existing customer record with a case already in the Omni-channel Engagement Hub 
 
 When you get an incoming conversation request, you see a notification (screen pop) with contextual information for an incoming request. When you accept or select the incoming notification, the application displays the Customer summary page with details about the customer.

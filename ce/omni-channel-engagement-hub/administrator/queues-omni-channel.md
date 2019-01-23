@@ -15,6 +15,8 @@ ms.custom:
 
 # Work with queues in Omni-channel Engagement Hub
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Omni-channel queues are used to collect conversations or customer queries, and distribute them to different groups of agents or teams. You can achieve optimum distribution in the many ways. Here are some examples:
 
 - Create multiple queues for the same issue type. For example, for investment issues, you can create separate queues for experienced agents and new agents. Specific customer queries can then be directed to experienced agents, and generic or simpler queries can be directed to new agents.

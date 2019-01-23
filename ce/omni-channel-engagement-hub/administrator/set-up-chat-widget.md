@@ -15,6 +15,8 @@ ms.custom:
 
 # Create a chat widget
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 As an admin, you can set up a chat widget for your website to engage with your customers.
 
 ## Add a chat widget

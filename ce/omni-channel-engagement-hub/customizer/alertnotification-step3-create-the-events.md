@@ -14,6 +14,8 @@ ms.custom:
 ---
 # Step 3: Create events
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Create the following events:
 
  - CreateCustomerSession

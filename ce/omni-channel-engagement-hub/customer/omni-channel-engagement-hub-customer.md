@@ -14,6 +14,8 @@ ms.custom:
 ---
 # Omni-channel Engagement Hub for customers
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 These days, customers expect a great customer experience regardless of the channel that they use to contact an organization. In this situation, messaging is as a key support channel that lets customers instantly interact with an organization.
 
 The chat widget lets your customers connect with you in a way that is convenient for them (for example, from their mobile devices or a computer). Available agents can then connect with the customers to respond to their queries.

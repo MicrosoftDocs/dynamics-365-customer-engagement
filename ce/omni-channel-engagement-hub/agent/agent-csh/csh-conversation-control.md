@@ -15,6 +15,8 @@ ms.custom:
 
 # View Conversation control
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 Conversation control is a communication panel where you interact with the customer. When you sign in to the application, conversation control displays the welcome screen.
 
 ![Omni-channel Engagement Hub conversation control landing page](../../media/csh-conversation-control-landing-page.png "Omni-channel Engagement Hub conversation control landing page")  

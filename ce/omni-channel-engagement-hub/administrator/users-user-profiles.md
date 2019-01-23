@@ -15,6 +15,8 @@ ms.custom:
 
 # Create and manage users
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 All Microsoft Dynamics 365 users who are assigned the omni-channel supervisor or omni-channel agent security role automatically become omni-channel users. Omni-channel users are then assigned roles in the system to distinguish them according to their responsibilities.
 
 When you sign in to omni-channel, you can view the list of omni-channel users in the **Omni-channel Users** view.

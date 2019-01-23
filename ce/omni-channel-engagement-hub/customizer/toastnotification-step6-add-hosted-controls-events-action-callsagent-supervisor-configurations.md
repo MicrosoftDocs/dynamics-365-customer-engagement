@@ -15,6 +15,8 @@ ms.custom:
 
 # Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations 
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 1.  Sign in to Dynamics 365. 
 
 2.  Go to **Settings** > **Unified Service Desk** > **Configuration**. 

@@ -15,6 +15,8 @@ ms.custom:
 
 # Create a record
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 When no records are linked to the conversation in the Omni-channel Engagement Hub, you can create a record using the quick create (**+**) option. After you create the record, it is automatically linked to the conversation.
 
 1.  Select the **+** icon to create a new record.

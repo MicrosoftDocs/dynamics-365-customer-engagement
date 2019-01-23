@@ -15,6 +15,8 @@ ms.custom:
 
 # Omni-channel Engagement Hub sitemap in Customer Service Hub application
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 The sitemap is a place for you to access the customer service record types. By default, the sitemap is in collapsed mode. To expand the sitemap, select the Sitemap icon ![Sitemap icon](../../media/sitemap-icon.PNG "Sitemap icon").  
 
 ![Sitemap of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-sitemap-oc.png "Sitemap of Omni-channel Engagement Hub in Customer Service Hub")  

@@ -15,6 +15,8 @@ ms.custom:
 
 # Configure a live chat widget and embed it in portal
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Quickly configure and add a live chat to your portal to talk to your customers and prospects in real-time. This helps you to initiate conversations with first-time website visitors and solve issues of your existing customers instantly. To configure a live chat widget and embed it in portal, you must:
 
 1. [Create a live chat work stream](#step-1-create-a-live-chat-work-stream)

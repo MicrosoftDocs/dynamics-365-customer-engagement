@@ -14,6 +14,8 @@ ms.custom:
 ---
 # Configure toast notifications in Unified Service Desk.
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 The process of configuring toast notification (floating notification) settings in Unified Service Desk involves multiple steps:
 
 1.  Create forms with notifications definition (XAML).

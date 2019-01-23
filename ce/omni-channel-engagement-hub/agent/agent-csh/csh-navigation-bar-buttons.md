@@ -15,6 +15,8 @@ ms.custom:
 
 # Navigate using the navigation bar of Omni-channel Engagement Hub
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 The navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub contains the following:
 
 ![Navigation bar buttons of Omni-channel Engagement Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")

@@ -15,6 +15,8 @@ ms.custom:
 
 # Embed chat widget in Dynamics 365 for Customer Engagement Portal
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 After creating a chat widget, you can configure your portal to embed the chat widget on a web page in it. Once your portal is configured, your customers can interact with your organization by using the chat widget.
 
 1.	Sign in to Omni-channel Engagement Hub.

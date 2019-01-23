@@ -14,6 +14,8 @@ ms.custom:
 ---
 # Introduction to Omni-channel Engagement Hub
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 These days, customers don't think about channels of communication. They think only about getting solutions to their issues. They are tech-savvy, and they expect a seamless interaction experience as they work to resolve issues.
 
 As a result of digital transformation and technological advancement, customers have access to various media, and they expect to reach out to contact centers through the channel of their choice. However, the success of a customer service organization depends not just on offering a great customer experience but on providing effective solutions to customer issues.

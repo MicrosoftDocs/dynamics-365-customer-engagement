@@ -15,6 +15,8 @@ ms.custom:
 
 # View agent dashboard and agent work items
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 The My Dashboard is a default view when you sign in to the application. The dashboard displays the following forms:
 
 -   My work items

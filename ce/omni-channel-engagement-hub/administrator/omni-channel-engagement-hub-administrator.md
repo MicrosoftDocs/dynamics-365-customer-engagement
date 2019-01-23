@@ -14,6 +14,8 @@ ms.custom:
 ---
 # Omni-channel Engagement Hub for administrators
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Omni-channel Engagement Hub is a customizable application, that you can effectively configure to meet the requirements of your business. Use Omni-channel Engagement Hub to create and manage users (agents and supervisors), work streams, conversations, and queues, and effectively route important conversations to agents quickly. You can manage the capacity of the agents so that they handle conversations effectively and assist the customers better. You can manage the types of conversations that agents receive using the work streams and queues configurations.
 
 ## In this section

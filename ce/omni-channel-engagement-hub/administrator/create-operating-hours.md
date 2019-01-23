@@ -15,6 +15,8 @@ ms.custom:
 
 # Create and manage operating hours
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Operating hours define the hours when your organization's customer support team is active and available to serve customers. By setting up operating hours, you help your customers and your organization work together to resolve issues. After you create an operating hour record, you must add it to the **Design** tab of the appropriate chat widget to make it work.
 
 > [!NOTE]

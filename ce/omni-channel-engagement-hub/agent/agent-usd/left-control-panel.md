@@ -14,6 +14,8 @@ ms.custom:
 ---
 # View conversation control
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 The left control panel is a communication or conversation control that hosts conversations. From here, you can engage with your customers.
 
 When you're using the chat conversation channel, you can send quick replies. You can also search for knowledge articles and share them with the customer that you're interacting with. You can even transfer the work item to another agent or queue.

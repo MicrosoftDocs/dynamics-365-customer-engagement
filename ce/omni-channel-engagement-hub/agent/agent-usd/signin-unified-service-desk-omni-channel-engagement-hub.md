@@ -14,6 +14,8 @@ ms.custom:
 ---
 # Sign in to Unified Service Desk – Omni-channel Engagement Hub
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+
 1.  Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 
 2.  In the Unified Service Desk sign-in dialog box, provide authentication details to connect to your Dynamics 365 server, and then select **Login**.
