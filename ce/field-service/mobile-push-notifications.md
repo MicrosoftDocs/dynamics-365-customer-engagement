@@ -53,6 +53,8 @@ Part of this solution is a workflow titled **Notify user about booking** that mu
 
 ## Schedule a work order and view push notifications
 
+Schedule a work order to one of your bookable resources. This resource must have a resource type of User.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-schedule-board.png)
 
@@ -89,7 +91,9 @@ Part of this solution is a workflow titled **Notify user about booking** that mu
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-custom-workflow4.png)
+
 ## Configuration considerations
+
 ## Additional Notes
 
 > [!div class="mx-imgBorder"]
