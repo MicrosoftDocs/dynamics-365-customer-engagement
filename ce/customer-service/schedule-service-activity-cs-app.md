@@ -1,6 +1,6 @@
 ---
-title: Schedule a service activity (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
-description: Know how to schedule a service activity in Dynamics 365 for Customer Engagement for Customer Service
+title: Schedule a service activity (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to schedule a service activity in Dynamics 365 for Customer Service
 keywords: Schedule a service activity; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 

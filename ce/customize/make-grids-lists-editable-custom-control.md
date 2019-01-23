@@ -171,5 +171,5 @@ For web client, this is a limitation and we have not enabled the functionality. 
   [Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md)<br/>
  [Create and edit views](../customize/create-edit-views.md)<br/>
  [Create a business rule or business recommendation](../customize/create-business-rules-recommendations-apply-logic-form.md)<br/> 
- [Customize Dynamics 365 for Customer Engagement for phones and tablets](../customize/customize-phones-tablets.md)<br/>
+ [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)<br/>
 
