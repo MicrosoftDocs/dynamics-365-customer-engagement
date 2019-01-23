@@ -13,7 +13,7 @@
 #### [Understand how routing and work distribution works](administrator/routing-work-distribution-scenario.md)
 ### [Create and manage users](administrator/users-user-profiles.md)
 ### [Create and manage work streams](administrator/work-streams.md)
-### [Configure record identification rule](administrator/record-identification-rule.md)
+### [Set up record identification rule](administrator/record-identification-rule.md)
 ### [Create and manage routing rules](administrator/routing-rules.md)
 ### [Work with queues](administrator/queues-omni-channel.md)
 ### [Configure and manage presence status](administrator/presence-custom-presence.md)

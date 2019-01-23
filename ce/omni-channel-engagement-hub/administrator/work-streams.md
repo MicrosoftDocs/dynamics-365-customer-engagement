@@ -49,7 +49,10 @@ A work stream comprises of the following properties:
 
 - **Record Identification Rules**: Record identification rules help agents identify and assist customers better by showing their details on the **Customer summary** page. 
 
-    For more information, see [Configure record identification rule](record-identification-rule.md).
+    For more information, see [Set up record identification rule](record-identification-rule.md).
+
+    > [!NOTE]
+    > In this preview, the record identification rules are pre-configured in the work streams out-of-the-box.
 
 - **Routing rules**: Routing rules are configured for each work stream, so that conversations can be routed to the correct queues. For more information, see [Create and manage routing rules in omni-channel](routing-rules.md).
 
@@ -71,7 +74,6 @@ Follow these steps to create a new live chat work stream.
          > [!NOTE]
          > If you select **CDS Entity**, see the [CDS entity work stream](#cds-entity-work-stream) section later in this topic.
       4. **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. For more information, see [Understand the conversation state lifecycle](conversation-state-lifecycle.md).
-      5. **Record Identification Rule**: Follow the steps given in the topic [Configure record identification rule](record-identification-rule.md). 
       6. Select **Save** to save the work stream.
 
     - In the **Work distribution** section, follow these steps: 
