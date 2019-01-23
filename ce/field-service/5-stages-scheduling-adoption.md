@@ -31,31 +31,31 @@ search.app:
 
 Given existing customer implementations, we've discovered that there are typically 5 stages of scheduling adoption with Dynamics 365 for Field Service. In this topic, we'll explore these 5 typical stages. They apply mostly to early Field Service adoption (for instance, with limited-scope projects), but the stages also apply as implementations are rolled out to cover additional scope or locations. 
 
-Throughout these stages, we recommended using Field Service tracking analytics to measure the extent to which scheduling is meeting your defined business objectives. For example, Field Service provides data on travel time, time on the job, jobs per day, etc. for use as needed.
+We recommended using Field Service tracking analytics through these stages to measure how scheduling is meeting your defined business objectives. For example, Field Service provides data on travel time, time on the job, jobs per day, etc. for use as needed.
 
 ## Choosing the right resources
 
-Before exploring the 5 typical stages to scheduling adoption, it's important to mention that having schedulers and schedule analysts **with the right skills** is a key prerequisite for this process. These resources should be identified, trained, and empowered early in the pilot or rollout process. Keep in mind these are your resources who will be involved in scheduling on a daily basis.
+It's important to note that having schedulers and schedule analysts **with the right skills** is a key prerequisite for this process. Identify, train, and empower these resources early in the pilot or roll-out process. Keep in mind these are your resources who will be involved daily in scheduling.
 
 ## Stage 1: Manual scheduling
 
-For any defined scope and locations, the scheduler and schedule assistant begin by manually scheduling all actual work. This will help all actively involved resources understand the scheduling tools and processes. The scheduled work should be actual work orders assigned and completed by actual technicians. This will also help technicians adjust to process changes.
+For defined scope and locations, the scheduler and schedule assistant begin by manually scheduling all actual work. This helps all actively involved resources understand the scheduling tools and processes. The scheduled work should be actual work orders assigned and completed by actual technicians. This also helps technicians adjust to process changes.
 
 Recommended time for this stage: 1-2 weeks
 
 ## Stage 2: Assisted scheduling
 
-The next stage sees the introduction of the schedule assistant for scheduling work, in addition to manual scheduling. This work should be done by the scheduler and schedule analyst. Like with manual scheduling, schedulers will learn how to work with the schedule assistant, along with the deeper capabilities of the schedule board. Work scheduled with the schedule assistant should be actual work orders assigned to and completed by actual technicians.
+The next stage sees the introduction of the schedule assistant for scheduling work. This work should be done by the scheduler and schedule analyst. Like with manual scheduling, schedulers will learn how to work with the schedule assistant, along with the deeper capabilities of the schedule board. Work scheduled with the schedule assistant should be actual work orders assigned to and completed by actual technicians.
 
 Recommended time for this stage: 1-2 weeks
 
 ## Stage 3: Overnight scheduling
 
-After introducing the schedule assistant, we often see the introduction of overnight schedule creation or iteration using the Resource Scheduling Optimization (RSO) simulated mode. The RSO analytics allow schedule analysts to compare the simulation results and decide on the best RSO schedule for overnight processing. Like with the other adoption stages, all scheduled work should be actual work orders assigned to and completed by actual technicians.
+Next we often see the introduction of overnight schedule creation using the Resource Scheduling Optimization (RSO) simulated mode. RSO analytics allow schedule analysts to compare the simulation results and decide on the best RSO schedule for overnight processing. Like with the other adoption stages, all scheduled work should be actual work orders assigned to and completed by actual technicians.
 
 During this period, shedulers and schedule analysts can experiment and iterate on RSO schedules, allowing for adjustments to scope, goals, and timing of runs.
 
-During the day, exceptions should be handled by the scheduler using manual and assisted scheduling. This means creating or changing bookings for new requirements, and adjusting the remaining schedule through manual or assisted scheduling.
+During the day, exceptions are handled by the scheduler using manual and assisted scheduling. This means creating or changing bookings for new requirements, and adjusting the remaining schedule.
 
 Recommended time for this stage: 1-2 weeks
 
@@ -67,11 +67,11 @@ Recommended time for this stage: 1-2 weeks
 
 ## Stage 5: Automated exception handling
 
-In this late stage of adoption, RSO schedules run throughout the day to re-optimize subsets of the overall schedule. Based on learnings, the system should be configured to select the correct scope for re-optimization (for instance, optimizations based on requirements, resources, or bookings).
+In this late stage of adoption, RSO schedules run throughout the day to re-optimize subsets of the overall schedule. Based on what you've learned, the system should be configured to select the correct scope for re-optimization (for instance, optimizations based on requirements, resources, or bookings).
 
 Alternatively, schedulers may manually trigger re-optimization runs as needed.
 
-This effort is typically led by the schedule analyst with assistance from the scheduler. The scheduler will continue to use manual/assisted scheduling on a limited basis as needed.
+The schedule analyst typically leads this effort, with assistance from the scheduler. The scheduler will continue to use manual and assisted scheduling on a limited basis as needed.
 
 Recommended time for this stage: 1-2 weeks
 
