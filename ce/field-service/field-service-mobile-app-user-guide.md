@@ -1,5 +1,5 @@
 ---
-title: "Field Service Mobile Setup (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Field Service Mobile Setup (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/29/2018
@@ -374,6 +374,6 @@ If work still needs to be done, you can create a follow-up booking.
  
 ### See also  
 
-- [Dynamics 365 for Customer Engagement for Field Service - User's Guide](../field-service/user-guide.md) 
+- [Dynamics 365 for Field Service - User's Guide](../field-service/user-guide.md) 
   
-- [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)
+- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)

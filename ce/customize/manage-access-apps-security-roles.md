@@ -51,6 +51,8 @@ You can choose what users see and access from the **My Apps** page or the [!INCL
 4. Refresh the **My Apps** page.  
   
 5. Go to the **Apps Being Edited** view, and publish the app again.  
+
+For more information about security roles, see [Security roles and privileges](../admin/security-roles-privileges.md).
   
 ### See also  
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)

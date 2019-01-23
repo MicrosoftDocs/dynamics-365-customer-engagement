@@ -38,7 +38,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[Outlook#RetrieveDataFilters1](../../snippets/csharp/CRMV8/outlook/cs/retrievedatafilters1.cs#retrievedatafilters1)]  
   
 ### See also  
- [Extend Dynamics 365 for Customer Engagement for Outlook](../extend-customer-engagement-outlook.md)   
+ [Extend Dynamics 365 for Outlook](../extend-customer-engagement-outlook.md)   
  [Sample: Use Outlook Methods](sample-outlook-methods.md)   
  [Offline and Outlook Filters and Templates](offline-outlook-filters-templates.md)   
  [SavedQuery Entity](../entities/savedquery.md)   
