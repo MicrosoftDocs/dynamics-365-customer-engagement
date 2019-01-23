@@ -56,6 +56,9 @@ For more information, see [A user does not appear in the All Eligible Users list
 ## When I open Dynamics 365 App for Outlook on Outlook desktop, I see a blank page instead of the App. Why is this happening?
 For more information, see [Blank page appears within Dynamics App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2007128).
 
+> [!Note]
+> If the link above does not work in Internet Explorer (IE), please try using another browser.
+
 ## Some of my appointments in Outlook and Dynamics 365 are cancelled or deleted unexpectedly. Why is this happening?
 For more information, see [An appointment is cancelled or deleted unexpectedly when using Server-Side Synchronization](https://go.microsoft.com/fwlink/p/?linkid=2007027).
 
