@@ -35,14 +35,23 @@ search.app:
 
 Field Service v7.5.5 and v8.3+  
 
-Field Service Mobile v11.1+
+Field Service Mobile v11.1+ for Windows, iOS, or Android devices. You can verify your mobile app version in the **About** section
+
+You have consented to notifications in your device's settings for the **Field Service Mobile** app
+
+## Verify push notifications are activated
+
+Navigate to **Settings > Solutions** and verify the **Field Service Mobile Push Notifications** solution is installed. If it is not installed you will need to upgrade to the Field Service v8.3+ solution.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-solution.png)
 
+Part of this solution is a workflow titled **Notify user about booking** that must be Activated. If it is not activated navigate to the default solution or an unmanaged solution via **Settings > Customizations > Customize the system > Processes** and activate it.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-solution-details.png)
+
+## Schedule a work order and view push notifications
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-schedule-board.png)
@@ -58,7 +67,9 @@ Field Service Mobile v11.1+
 
 
 
-## Configuration considerations
+## Create a custom push notification
+
+**Settings > Customizations > Customize the system > Processes > +New**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-custom-workflow1.png)
@@ -78,7 +89,7 @@ Field Service Mobile v11.1+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-custom-workflow4.png)
-
+## Configuration considerations
 ## Additional Notes
 
 > [!div class="mx-imgBorder"]
