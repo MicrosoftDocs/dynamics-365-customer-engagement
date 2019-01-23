@@ -1,9 +1,9 @@
 ---
-title: "Get Help for Field Service Mobile | MicrosoftDocs"
+title: "Get help for Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2018
-ms.reviewer: ""
+ms.date: 01/23/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,11 +13,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
-manager: shellyha
+ms.author: daclar
 search.audienceType: 
   - admin
   - customizer
@@ -26,15 +25,11 @@ search.app:
   - D365FS
 ---
 
-# Get Help for Field Service Mobile
+# Get help for Field Service Mobile
 
-## Support
+For help with **errors, unexpected behavior, crashes, and bugs**, [create a Dynamics 365 support ticket](https://dynamics.microsoft.com/en-us/contact-us/).   
 
-For help with errors, unexpected behavior, crashes, and bugs [create a Dynamics 365 support ticket](https://dynamics.microsoft.com/en-us/contact-us/).   
-
-## General inquires 
-
-For general inquiries, how to questions, best practice advice, and feature requests [send us an email](mailto:7db59e0f.microsoft.com@amer.teams.ms).
+For **general inquiries, how to questions, best practices, and feature requests**, [send us an email](mailto:7db59e0f.microsoft.com@amer.teams.ms).
 
 
 
