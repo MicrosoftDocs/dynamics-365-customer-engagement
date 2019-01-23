@@ -34,7 +34,7 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ### Discontinuation of Microsoft Social Engagement and transition to Dynamics 365 Market Insights
 
-Dynamics 365 will focus on enabling businesses with AI-powered social and web insights rather than just with social listening capabilities. Hence, Microsoft Social Engagement will be discontinued. Combined capabilities and insights through social and web interactions powered by sources such as Bing search will be offered through [Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/en-us/ai/market-insights/). The social and web insights can help marketing, social media, and product teams understand what their customers and competitors are saying, seeking, and feeling. 
+Dynamics 365 will focus on enabling businesses with artificial-intelligence-powered social and web insights rather than just social listening capabilities. Because of this, Microsoft Social Engagement will be discontinued. Combined capabilities and insights through social and web interactions powered by sources such as Bing search will be offered through [Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/en-us/ai/market-insights/). These social and web insights can help marketing, social media, and product teams understand what their customers and competitors are saying, seeking, and feeling. 
 
 More information: 
 - FAQ article - [Frequently asked questions about Microsoft Social Engagement service discontinuation](/eol/discontinuation-faq.md)
