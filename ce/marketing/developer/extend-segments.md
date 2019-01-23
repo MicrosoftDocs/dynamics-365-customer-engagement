@@ -26,6 +26,7 @@ The segmentation API leverages the standard Dynamics 365 API for manipulating en
 When you create a segment, the properties of the segment are stored in `msdyncrm_segment` entity. You can browse the entity metadata for available properties and optionset value mapping. You can get the metadata information by using `@odata.context`in `GET` response. 
 
 This topic demonstrates how to perform basic operation on the `msdyncrm_segment` entity. 
+To test the operations you can use Postman tool. More information [Use Postman with Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-web-api)
  
 ## CRUD Operations
 
@@ -34,14 +35,14 @@ This example shows how to create, update, retrieve and delete a static segment w
 
 **Create Request**
 
-In create request, we will create a new draft static segment with 2 contacts.
+In create request, we will create a new draft static segment with 2 existing contacts.
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
 	"msdyncrm_segmentname": "StaticSegmentApi1",
 	"msdyncrm_segmenttype": 192350001,
-	"msdyncrm_segmentmemberids": "[\"crm1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"crm0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
+	"msdyncrm_segmentmemberids": "[\"1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
 	"statuscode": 192350000
 }
 ```
@@ -112,9 +113,9 @@ In delete request, we will delete the dynamics segment that is created.
 DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments(7649566b-79e2-e811-a989-000d3a135be0)
 ```
 
-
 ### Validate segment definition
 
+```
 {
     "msdyncrm_segmentname": "MySegment2",
     "msdyncrm_segmentquery": "PROFILE(contact)",
