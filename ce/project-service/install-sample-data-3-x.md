@@ -9,9 +9,9 @@ ms.technology:
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
-author: krbjoran
-ms.author: ankashya
-ms.reviewer: shellyha
+author: JohnPBurrows
+ms.author: jburrows
+ms.reviewer: kfend
 search.audienceType: 
   - admin
   - customizer
