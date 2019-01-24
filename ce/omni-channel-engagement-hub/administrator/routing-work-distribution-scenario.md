@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: c0a1d153-e907-4bd7-bab6-09e270ed8833
 ms.custom: 
 ---
-# Understand how unified routing and work distribution works
+# See how unified routing and work distribution works
 
 The following scenario should help you understand how the routing and work distribution mechanism works.
 

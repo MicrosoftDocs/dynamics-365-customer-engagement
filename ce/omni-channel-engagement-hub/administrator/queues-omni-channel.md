@@ -69,6 +69,6 @@ You can also inactivate a queue if you don't want conversations to be routed to 
 
 ### See also
 
-[Create and manage work streams](work-streams.md)
+[Create and manage work streams](create-work-streams.md)
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)
