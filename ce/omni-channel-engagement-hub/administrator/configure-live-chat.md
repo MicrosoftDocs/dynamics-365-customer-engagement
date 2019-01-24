@@ -13,15 +13,14 @@ ms.assetid: 55DFF759-DD1C-4B71-A232-2015C085E748
 ms.custom: 
 ---
 
-# Configure a live chat widget and embed it in portal
+# Quickly configure a live chat widget
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Quickly configure and add a live chat widget to your portal to talk to your customers and prospects in real-time. This helps you to initiate conversations with first-time website visitors and solve issues of your existing customers instantly. To configure a live chat widget and embed it in portal, you must:
-
+Quickly configure and add a live chat widget to your portal to chat with your customers and prospects. To configure a live chat widget and embed it in portal, you must:
 
 1. [Create a live chat work stream](#step-1-create-a-live-chat-work-stream)
-2. [Create a chat widget](#step-2-create-a-chat-widget)
+2. [Configure a chat widget](#step-2-configure-a-chat-widget)
 3. [Embed chat widget in portal](#step-3-embed-chat-widget-in-portal)
 
 ## Step 1: Create a live chat work stream
@@ -54,44 +53,32 @@ Quickly configure and add a live chat widget to your portal to talk to your cust
 
        ![New workstream](../media/omni-channel-new-work-stream.png)
 
-## Step 2: Create a chat widget
+## Step 2: Configure a chat widget
 
-1. Go to the work stream created in [Step 1](#step-1-create-a-live-chat-work-stream).
-2. On the **Chat settings** tab, in the **Chat widgets** section, select **Add**.
-3. On the **New Chat Widget** page, provide the appropriate information on each tab.
+1. On the **Chat settings** tab, in the **Chat widgets** section, select **Add**. The **New Chat Widget** page opens.
+2. On the **Basic details** tab, in the **General information** section, enter a name for the chat widget, and save the record.
 
-    - **Basic details**:
-
-        1. In the **General information** section, enter a name for the chat widget. You can optionally specify authentication settings. Save the record to enter more details.
-        2. In the **Widget location** section, select **Add** to specify the portal domain where the chat widget must be shown. If you don't specify a domain, the chat widget is shown in all configured domains. The domain format should not include the protocol (for example, **http** or **https**).
-
-            > [!div class=mx-imgBorder]
-            > ![Configure the basic details of a chat widget](../media/chat-widget-snippet.png "Configure the basic details of a chat widget")
-
-    - **Design**: Use this tab to specify the theme color, logo, title, subtitle, and operating hours of the chat widget.
-
-    - **Survey**: Use this tab to set up a pre-chat survey. This survey is shown to users before a conversation is initiated.
+    > [!div class=mx-imgBorder]
+    > ![Configure the basic details of a chat widget](../media/chat-widget-snippet.png "Configure the basic details of a chat widget")
 
 ## Step 3: Embed chat widget in portal
 
-1. Open the chat widget created in [Step 2](#step-2-create-a-chat-widget).
-2.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
+1.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
     > [!div class=mx-imgBorder]
     > ![Copy code snippet of a chat widget](../media/chat-widget-snippet.png "Copy code snippet of a chat widget")
-3.	Open the Dynamics 365 for Customer Engagement Portal app.
-4.	Go to **Portal** > **Content Snippets**.
+2.	Open the Dynamics 365 for Customer Engagement Portal app.
+3.	Go to **Portal** > **Content Snippets**.
+4.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
-    > ![Select Content Snippets from Portal sitemap](../media/portal-content-snippet.png "Select Content Snippets from Portal sitemap")
-5.	Find the **Chat Widget Code** content snippet and open it.
-    > [!div class=mx-imgBorder]
-    > ![Content snippets](../media/content-snippets.png "Content snippets")
-6.	On the **General** tab, scroll-down to the **Value (HTML)** section.
-7.	Paste the chat widget snippet code in the **HTML** tab.
+    > ![Go to Chat Widget Code content snippet in portal](../media/portal-content-snippet.png "Go to Chat Widget Code content snippet in portal")
+5.	On the **General** tab, scroll-down to the **Value (HTML)** section.
+6.	Paste the chat widget snippet code in the **HTML** tab.
     > [!div class=mx-imgBorder]
     > ![Paste code snippet of a chat widget](../media/paste-snippet.png "Paste code snippet of a chat widget")
-8.	Save the changes. The chat widget is now embedded into the portal.
+7.	Save the changes. The chat widget is now embedded into the portal.
 
 ### See also
 
 [Create and manage work streams](create-work-streams.md) </br>
-[Set up a chat widget](set-up-chat-widget.md)
+[Create and manage routing rules in Omni-channel](routing-rules.md) </br>
+[Configure a chat widget](set-up-chat-widget.md)
