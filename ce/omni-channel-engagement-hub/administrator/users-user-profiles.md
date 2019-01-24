@@ -13,7 +13,7 @@ ms.assetid: 3a61efc9-84b5-4499-8cce-578aae138d1e
 ms.custom: 
 ---
 
-# Create and manage users
+# Manage users in Omni-channel Engagement Hub
 
 All Microsoft Dynamics 365 users who are assigned the omni-channel supervisor or omni-channel agent security role automatically become omni-channel users. Omni-channel users are then assigned roles in the system to distinguish them according to their responsibilities.
 

@@ -59,4 +59,4 @@ To learn about unified routing and work distribution in more detail, see the fol
 
 ## See also
 
-[Provision Omni-channel Engagement Hub](omni-channel-provision-license.md)
+[See how unified routing and work distribution works](administrator/routing-work-distribution-scenario.md)

@@ -14,47 +14,7 @@ ms.custom:
 ---
 # Create and manage work streams
 
-A work stream is a collection of routing & work distribution settings. A work stream can belong to multiple conversation sources of same type, for example live chat. In that case, all those conversations inherit routing and work distribution settings of the work stream they belong to. 
-
-For example, multiple live chat widgets can be associated with a single work stream. Hence, all the chat conversations from these widgets are routed and distributed based on the defined work stream settings.
-
-Omni-channel Engagement Hub has some predefined work streams. However, as an admin, you can define new work streams to introduce a new source.
-
-> [!div class=mx-imgBorder] 
-> ![Omni-channel work streams](../media/oc-workstream-view.png)
-
-In omni-channel, you can create two types of work streams:
-
-- Live chat work stream
-- CDS Entity work stream
-
-A work stream comprises of the following properties:
-
-- **Channels**: In Omni-channel Engagement Hub, a channel is defined as a medium via which a customer reaches out for support. For example, a customer can chat with an agent through the chat channel. 
-   
-- **Allowable Presence**: Allowable presence helps in distributing conversations to agents based on their presence status. For example, if you want to allocate a chat conversation from a high priority customer, ensure that you look for only those agents that have their presence status as 'Available'. So, while defining properties for a work stream, select Allowable presence as Available.
-
-    For more information, see [Configure and manage presence status](presence-custom-presence.md).
-
-- **Capacity**: When a conversation from a work stream is assigned to an agent, it consumes some capacity. The units of capacity blocked are defined as capacity in the work stream. For example, a conversation in the live chat work stream has a capacity of 20 units. When this conversation is assigned to an agent, it blocks 20 units of agent's capacity.
-
-- **Work distribution mode**:  Work distribution mode defines the experience of how agents can take up a conversation - via **Push** or **Pick** mode. In **Push** mode, a conversation is dispatched to agents automatically via a screen-pop. In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in agent dashboard.
-
-    For more information, see [View agent dashboard and agent work items](../agent/agent-usd/introduction-agent-dashboard.md).
- 
-
-- **Context attributes**: Context attributes enrich conversations with pre-chat data, channel data, and custom (3rd party/LOB) data. For example, for a chat conversation, context attributes include browser information, IP address, answers to pre-chat questions, customer ID (for authenticated chat), time spent on a page and more. These variables can then be used to define routing rules to channelize conversations into different queues. 
-   > [!NOTE]
-   > For this preview, context variables are applicable only for live chat.
-
-- **Record Identification Rules**: Record identification rules help agents identify and assist customers better by showing their details on the **Customer summary** page. 
-
-    For more information, see [Set up record identification rule](record-identification-rule.md).
-
-    > [!NOTE]
-    > In this preview, the record identification rules are pre-configured in the work streams out-of-the-box.
-
-- **Routing rules**: Routing rules are configured for each work stream, so that conversations can be routed to the correct queues. For more information, see [Create and manage routing rules in omni-channel](routing-rules.md).
+Use this topic to know how you can create a live chat work stream and a CDS entity work stream in the Omni-channel Engagement Hub.
 
 ## Create a new live chat work stream
 
@@ -109,14 +69,12 @@ You can view all active work streams in the **Active Work Streams** view. Before
 
 You can inactivate a work stream if you don't want it to receive conversations. Select the work stream record in the **Active Work Streams** view, and then select **Deactivate** on the command bar. You can view all inactivated work streams in the **Inactive Work Streams** view. You can also reactivate work streams that have been inactivated.
 
-## CDS Entity work streams
+## Create a new CDS Entity work stream
 
 CDS entity work streams help collect conversations from the Common Data Service for Apps system and route them to the omni-channel ecosystem. In this way, omni-channel agents can take on issues that come from Common Data Service for Apps. For example, cases from Common Data Service for Apps can be routed to omni-channel. In that way, agents can help customers who have opened high-priority cases and need help quickly.
 
 > [!NOTE]
 > For this preview, CDS Entity work streams can collect and route cases only from the Common Data Service for Apps system. 
-
-## Create a new CDS Entity work stream
 
 To communicate with Common Data Service for Apps, the omni-channel system uses Microsoft Flow. The omni-channel system can accept cases from Common Data Service for Apps only if you complete the following procedures in Omni-channel Engagement Hub and Microsoft Flow.
 
@@ -218,5 +176,7 @@ After a successful run, you should see the following page.
 The setup has now been successfully created. You can now route Common Data Service for Apps entities to the omni-channel system by using Microsoft Flow.
 
 ### See also 
+
+[Understand work streams in the Omni-channel Engagement Hub](work-streams-introduction.md)
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)
