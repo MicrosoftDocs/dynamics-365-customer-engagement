@@ -789,7 +789,7 @@ Instead of returning the related entities for entity sets, you can also return r
 
 ## Filter results based on values of collection-valued navigation properties
 
-You cannot use OData $filter to set criteria that applies to values in collection valued navigation properties in a single operation.
+You cannot use OData `$filter` to set criteria that applies to values in collection valued navigation properties in a single operation.
 You have two options:
 *	Construct a query using FetchXML.  More information: [Build queries with FetchXML](../org-service/build-queries-fetchxml.md).
 *	Iterate over results filtering individual entities based on values in the collection using multiple operations.
