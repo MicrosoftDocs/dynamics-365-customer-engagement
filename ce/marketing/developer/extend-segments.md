@@ -36,7 +36,7 @@ This topic demonstrates how to perform basic operation on the `msdyncrm_segment`
 To test the operations you can use Postman tool. More information [Use Postman with Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-web-api)
 
 > [!NOTE]
-> Before you perform operations, you should install Dynamics 365 for MArketing App. 
+> Before you perform operations, you should install Dynamics 365 for Marketing app. 
  
 ## CRUD Operations
 
@@ -215,7 +215,7 @@ Once a member has been included this action can be inverted by excluding it, the
 
 Following are some of the important aspects that needs to be considered while including/excluding dynamic segment members:
 
-- Dynamic segments must be in `live` or `stopped` state (not draft).
+- Dynamic segments must be in `Live` or `Stopped` state (not draft).
 - Only instances of entity type `Contact` can be included/excluded.
 - All included/excluded records must exist, otherwise the whole request gets reject.
 - Feature is supported only by New Segmentation (not by DCI Segmentation).
@@ -230,16 +230,16 @@ For static segments, the include/exclude operations have a more straight-forward
 
 Following are some of the important aspects that needs to be considered while including/excluding static segment members:
 
-- Only instances of entity type "Contact" can be included/excluded.
-- `msdyncrm_segmentid`input parameter checks.
+- Only instances of entity type `Contact` can be included/excluded.
+- `msdyncrm_segmentid` input parameter checks.
   - valid GUID.
   - valid ID of an existing segment.
-- `msdyncrm_memberids`input parameter checks.
-  - format: single member GUID ID as string.
+- `msdyncrm_memberids` input parameter checks.
+  - format: single member GUID as string.
   - valid ID of an existing contact, ID may optionally be prefixed by "crm" (prefix is stripped during processing).
-- `msdyncrm_memberid`input parameter checks.
+- `msdyncrm_memberid` input parameter checks.
   - format: serialized JSON array of member GUID IDs.
-  - valid IDs of existing contacts. My be prefixed by “crm”.
+  - valid IDs of existing contacts. May be prefixed by “crm”.
 - Feature is supported only by New Segmentation only.
-- `sdyncrm_memberid(s)`parameter value is limited to 10000 characters.
+- `msdyncrm_memberid(s)` parameter value is limited to 10000 characters.
 
