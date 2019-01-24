@@ -30,7 +30,7 @@ Omni-channel Engagement Hub is a customizable application, that you can effectiv
 - [Create a new live chat work stream](create-work-streams.md#create-a-new-live-chat-work-stream)<br>
 - [Create a new CDS Entity work stream](create-work-streams.md#create-a-new-cds-entity-work-stream)<br>
 - [Set up record identification rule](record-identification-rule.md)<br>
-- [Create a new presence record](presence-custom-presence.md#create-a-new-presence-record)<br>
+- [Create custom presence status](presence-custom-presence.md#create-custom-presence-status)<br>
 - [Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)<br>
 - [Create a routing rule](routing-rules.md#create-a-routing-rule)<br>
 - [Add a chat widget](set-up-chat-widget.md#add-a-chat-widget)<br>
