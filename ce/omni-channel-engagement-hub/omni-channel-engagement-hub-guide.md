@@ -1,19 +1,21 @@
 ---
-title: "Create a record in Omni-channel Engagement Hub"
+title: "Create a record in Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn about Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 213B2D86-403C-418F-AD64-44AD1DD3382A
 ms.custom: 
 ---
 
 # Omni-channel Engagement Hub Guide
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 <table>
 <tr>

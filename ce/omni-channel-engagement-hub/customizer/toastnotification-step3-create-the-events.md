@@ -1,18 +1,20 @@
 ---
-title: "Create events"
+title: "Create events | MicrosoftDocs"
 description: "Learn how to create events that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/21/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 174f9625-744f-438c-b2ef-aa301905aee5
 ms.custom: 
 ---
 # Step 3: Create events 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Create the following events: 
 

@@ -1,19 +1,21 @@
 ---
-title: "How to modify the section properties of the form (section)"
+title: "How to modify the section properties of the form (section) | MicrosoftDocs"
 description: "Learn how to modify the section properties of the form (section)"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: b6bdcd99-a9c0-4ff5-984c-605cd3323e89
 ms.custom: 
 ---
 
 # Modify the section properties of a form
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 1.  Sign in to Dynamics 365.
 

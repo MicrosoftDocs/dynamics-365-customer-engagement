@@ -1,13 +1,13 @@
 ---
-title: "Configure a live chat widget and embed it in portal"
+title: "Configure a live chat widget and embed it in portal | MicrosoftDocs"
 description: "Instructions to configure a live widget in Omni-channel Engagement Hub and embed it in Dynamics 365 Portal."
 keywords: live chat work stream, live chat widget, omni-channel engagement hub
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 55DFF759-DD1C-4B71-A232-2015C085E748
 ms.custom: 
@@ -15,7 +15,10 @@ ms.custom:
 
 # Configure a live chat widget and embed it in portal
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Quickly configure and add a live chat widget to your portal to talk to your customers and prospects in real-time. This helps you to initiate conversations with first-time website visitors and solve issues of your existing customers instantly. To configure a live chat widget and embed it in portal, you must:
+
 
 1. [Create a live chat work stream](#step-1-create-a-live-chat-work-stream)
 2. [Create a chat widget](#step-2-create-a-chat-widget)

@@ -1,18 +1,20 @@
 ---
-title: "Configure toast notifications in Unified Service Desk "
+title: "Configure toast notifications in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to configure toast notification for agents in Omni-channel Engagement Hub using Unified Service Desk settings."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 476eb2cf-05e7-42ef-a268-4cb6342fb9b2
 ms.custom: 
 ---
 # Configure toast notifications in Unified Service Desk.
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 The process of configuring toast notification (floating notification) settings in Unified Service Desk involves multiple steps:
 

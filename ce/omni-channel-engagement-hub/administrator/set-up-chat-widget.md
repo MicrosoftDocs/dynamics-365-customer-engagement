@@ -1,19 +1,21 @@
 ---
-title: "Create a chat widget"
+title: "Create a chat widget | MicrosoftDocs"
 description: "Instructions to configure a chat widget in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 983e691f-0ee2-4e30-ba70-7e534c762611
 ms.custom: 
 ---
 
 # Create a chat widget
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 As an admin, you can set up a chat widget for your website to engage with your customers.
 
