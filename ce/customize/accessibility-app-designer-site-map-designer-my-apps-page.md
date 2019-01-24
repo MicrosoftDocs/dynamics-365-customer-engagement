@@ -106,4 +106,4 @@ Microsoft is committed to making its products and services easier for everyone. 
 
 ## See also
 
-[Use keyboard shortcuts in Dynamics 365 for Customer Engagement apps applications](../basics/keyboard-shortcuts.md)
+[Use keyboard shortcuts in Dynamics 365 for Customer Engagement apps](../basics/keyboard-shortcuts.md)
