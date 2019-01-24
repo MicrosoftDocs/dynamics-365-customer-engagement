@@ -2,7 +2,7 @@
 title: "Analyze survey data by using Voice of the Customer | MicrosoftDocs"
 description: "After receiving survey responses, learn how to analyze them and prepare reports."
 keywords: analyze survey responses; survey dashboard
-ms.date: 12/18/2018
+ms.date: 01/23/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -125,6 +125,9 @@ You can run the following reports for a survey:
 - **Survey Export**: Displays survey responses in a tabular format.
 
 - **Survey Summary**: Displays a summary of survey responses.
+
+> [!NOTE]
+> The reports are available in English locale only.
 
 To run and export a report:
 
