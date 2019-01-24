@@ -186,8 +186,6 @@
       - name: Plug-in development
         href: plugin-development.md
         items:
-        - name: Handle exceptions in plug-ins
-          href: handle-exceptions-plugins.md
         - name: Impersonation in plug-ins
           href: impersonation-plugins.md
         - name: Support offline execution
