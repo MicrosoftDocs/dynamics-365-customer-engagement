@@ -25,6 +25,21 @@ You can search for the records in two ways.
 
 You accept an incoming conversation request and there is no customer record identified in the Omni-channel Engagement Hub. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
 
+The inline search is based on the Lookup view. You can search the fields (attributes) that is based on the lookup view.
+
+| Entity | Searchable fields (attributes) | Status |
+|--------|--------------------------------|--------|
+| Accounts | Email |  |
+|  | Phone |  |
+|  | Name |  |
+|  | Address |  |
+|  | City |  |
+|  | Pin code |  |
+|  | View | Active |
+| Incident | Case number |  |
+|  | Title |  |
+|  | View | Active |
+
 > [!div class=mx-imgBorder]
 > ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
 
