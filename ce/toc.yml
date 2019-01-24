@@ -42,7 +42,7 @@
   - name: Insights, powered by InsideView
     href: insights-insideview/index.md
   - name: Universal Resource Scheduling
-    href: field-service/universal-resource-scheduling-for-field-service
+    href: common-scheduler/schedule-anything-with-universal-resource-scheduling.md
 - name: "Services"
   expanded: true
   items:    

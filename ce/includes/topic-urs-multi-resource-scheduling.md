@@ -116,7 +116,7 @@ Refer to the first section of this topic for instructions.
 
 - Fill out required work order details and add the incident type **before saving**.
 
-This is done by choosing an incident type for the **Primary Incident Type** field or navigating to *** > **Work Order Incident Types**.
+This is done by choosing an incident type for the **Primary Incident Type** field or navigating to **Work Order Incident Types**.
 
 > [!Note]
 > When an incident type with a requirement group template is added to a work order, the number of work order incidents is limited to 1.
