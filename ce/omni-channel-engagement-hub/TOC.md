@@ -19,7 +19,7 @@
 ### [Configure and manage presence status](administrator/presence-custom-presence.md)
 ### [Create a chat widget](administrator/set-up-chat-widget.md)
 #### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
-#### [Create a question library](administrator/create-question-library.md)
+#### [Create a survey questions library](administrator/create-question-library.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)

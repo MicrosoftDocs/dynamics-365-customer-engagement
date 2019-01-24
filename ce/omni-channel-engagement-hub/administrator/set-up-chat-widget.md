@@ -22,10 +22,9 @@ As an admin, you can set up a chat widget for your website to engage with your c
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** &gt; **Work Streams**.
 3. Select **New** to create a work stream.
-4. On the **Summary** tab, in the **Stream Source** field, select **Live Chat**.
-5. Specify values under **Agents**, **Agent Profiles**, and **Context Variable**. For more information, see [Create and manage work streams](work-streams.md).
-6. On the **Chat settings** tab, in the **Chat widgets** section, select **Add**.
-7. On the **New Chat Widget** page, provide the appropriate information on each tab:
+4. On the **Summary** tab, in the **Stream Source** field, select **Live Chat**. Save the work stream. For more information, see [Create and manage work streams](work-streams.md).
+5. On the **Chat settings** tab, in the **Chat widgets** section, select **Add**.
+6. On the **New Chat Widget** page, provide the appropriate information on each tab:
 
     - **Basic details**:
 
@@ -36,7 +35,7 @@ As an admin, you can set up a chat widget for your website to engage with your c
         > [!div class=mx-imgBorder]
         > ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
 
-    - **Design**: Use this tab to specify the theme color, logo, title, subtitle, position, and operating hours of the chat widget. For more information about how to set up operating hours, see [Create and manage operating hours](create-operating-hours.md).
+    - **Design**: Use this tab to specify the theme color, logo, title, subtitle, and operating hours of the chat widget. For more information about how to set up operating hours, see [Create and manage operating hours](create-operating-hours.md).
 
         > [!div class=mx-imgBorder]
         > ![Configure the design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure the design of a chat widget")

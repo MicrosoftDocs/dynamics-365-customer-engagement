@@ -15,7 +15,7 @@ ms.custom:
 
 # Configure a live chat widget and embed it in portal
 
-Quickly configure and add a live chat to your portal to talk to your customers and prospects in real-time. This helps you to initiate conversations with first-time website visitors and solve issues of your existing customers instantly. To configure a live chat widget and embed it in portal, you must:
+Quickly configure and add a live chat widget to your portal to talk to your customers and prospects in real-time. This helps you to initiate conversations with first-time website visitors and solve issues of your existing customers instantly. To configure a live chat widget and embed it in portal, you must:
 
 1. [Create a live chat work stream](#step-1-create-a-live-chat-work-stream)
 2. [Create a chat widget](#step-2-create-a-chat-widget)
@@ -65,25 +65,28 @@ Quickly configure and add a live chat to your portal to talk to your customers a
             > [!div class=mx-imgBorder]
             > ![Configure the basic details of a chat widget](../media/chat-widget-snippet.png "Configure the basic details of a chat widget")
 
-    - **Design**: Use this tab to specify the theme color, logo, title, subtitle, position, and operating hours of the chat widget.
+    - **Design**: Use this tab to specify the theme color, logo, title, subtitle, and operating hours of the chat widget.
 
     - **Survey**: Use this tab to set up a pre-chat survey. This survey is shown to users before a conversation is initiated.
 
 ## Step 3: Embed chat widget in portal
 
 1. Open the chat widget created in [Step 2](#step-2-create-a-chat-widget).
-2. On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
+2.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
     > [!div class=mx-imgBorder]
     > ![Copy code snippet of a chat widget](../media/chat-widget-snippet.png "Copy code snippet of a chat widget")
-3. Open the Dynamics 365 for Customer Engagement Portal app.
-4. Go to **Portal** > **Web Pages**.
-5. Change the view to **Localized Content**.
-6. Open the web page on which the chat widget needs to be embedded.
-7. On the **General** tab, scroll-down to the **Content** section.
-8. Paste the chat widget snippet code in the **HTML** tab.
+3.	Open the Dynamics 365 for Customer Engagement Portal app.
+4.	Go to **Portal** > **Content Snippets**.
+    > [!div class=mx-imgBorder]
+    > ![Select Content Snippets from Portal sitemap](../media/portal-content-snippet.png "Select Content Snippets from Portal sitemap")
+5.	Find the **Chat Widget Code** content snippet and open it.
+    > [!div class=mx-imgBorder]
+    > ![Content snippets](../media/content-snippets.png "Content snippets")
+6.	On the **General** tab, scroll-down to the **Value (HTML)** section.
+7.	Paste the chat widget snippet code in the **HTML** tab.
     > [!div class=mx-imgBorder]
     > ![Paste code snippet of a chat widget](../media/paste-snippet.png "Paste code snippet of a chat widget")
-9. Save the changes. The chat widget is now embedded into the web page.
+8.	Save the changes. The chat widget is now embedded into the portal.
 
 ### See also
 

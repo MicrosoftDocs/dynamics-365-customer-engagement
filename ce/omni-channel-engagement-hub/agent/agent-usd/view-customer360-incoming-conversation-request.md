@@ -38,7 +38,7 @@ However, there are no records present in Omni-channel Engagement Hub based on th
 > [!div class=mx-imgBorder]
 > ![omni-channel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omni-channel create record search page")  
 
-## Scenario 3: Incoming conversation request where you find no customer records in Omni-channel Engagement Hub
+## Scenario 3: Incoming conversation request where you find no customer records in Omni-channel Engagement Hub 
 
 When you get an incoming conversation request, you see a notification (screen pop) with contextual information for an incoming request. However, if there are no records present in Omni-channel Engagement Hub based on the incoming conversation request, you see a message stating - **No records found. Search for an existing customer record or create a new one to link to this conversation**.
 
