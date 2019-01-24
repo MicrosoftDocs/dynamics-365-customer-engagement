@@ -113,15 +113,17 @@ To communicate with Common Data Service for Apps, the omni-channel system uses M
     > [!NOTE]
     > Go to the Download Center, and save the file to your local computer. Select this location from your local machine while importing  the API file and select **Continue**.
 
-5. Update the host name in the **General** section in the following format: </br>
+5. Update the host name in the **Genera Information** section in the following format: </br>
     *https://**orguniquename**-public.omnichannelengagementhub.com*
 
     Where **orguniquename** is the unique name of your org.
 
+    Select **Test** to test the connector.
+
     > [!div class=mx-imgBorder] 
     > ![update host name](../media/update-host-name.png)
 
-6. Select **Test**. When you receive a message that states that you must create a custom connector before you can test the connection, select **Create connector**.
+1. When you receive a message that states that you must create a custom connector before you can test the connection, select **Create connector**.
 
     ![Test connector](../media/test-connector.png)
 

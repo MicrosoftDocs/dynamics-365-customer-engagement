@@ -23,6 +23,7 @@ A presence status consists of two elements:
 - **Base status**: The base presence status which routing and work-distribution understands. There are five base presence statuses – **Available**, **Busy**, **BusyDND**, **Away**, and **Offline**.
 - **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents and other users during run time. 
 
+## Out of the box presence statuses
 Out of the box, omni-channel provides the following presence statuses:
 
 - Available
@@ -34,7 +35,10 @@ Out of the box, omni-channel provides the following presence statuses:
 > [!div class=mx-imgBorder]
 > ![Presence view](../media/oc-presence-view.png)
 
-## Create a new presence record
+> [!NOTE]
+> You cannot edit or delete these out of the box presence statuses.
+
+## Create custom presence status 
 
 In addition to the out-of-box presence statuses, admins can configure custom presence statuses for agents. For example, if the agents on your team want to attend a training, you can create a custom **Away – In Training** presence status. 
 
@@ -57,16 +61,17 @@ Follow these steps to create a new presence record.
 > [!div class=mx-imgBorder]
 > ![custom presence](../media/oc-custom-presence-example.png)
 
-
 ## Default presence
 
 The default presence status is the status that is set for agents when they first sign in to the omni-channel system after their last sign-out.
 
-Admins can set the default presence status for an agent in the **Agent Details** section on the **Omni-channel** tab of the **User** entity.
+Admins can set the default presence status for an agent in the **Agent Details** section in the **Omni-channel** tab of the **User Management > Users** entity.
 
 > [!div class=mx-imgBorder]
 > ![Default presnce](../media/oc-presence-default.png)
 
 ### See also
+
+[Create and manage work streams](create-work-streams.md)
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)
