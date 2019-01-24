@@ -24,7 +24,7 @@ As an admin, you can set up a chat widget for your website to engage with your c
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** &gt; **Work Streams**.
 3. Select **New** to create a work stream.
-4. On the **Summary** tab, in the **Stream Source** field, select **Live Chat**. Save the work stream. For more information, see [Create and manage work streams](work-streams.md).
+4. On the **Summary** tab, in the **Stream Source** field, select **Live Chat**. Save the work stream. For more information, see [Create and manage work streams](create-work-streams.md).
 5. On the **Chat settings** tab, in the **Chat widgets** section, select **Add**.
 6. On the **New Chat Widget** page, provide the appropriate information on each tab:
 

@@ -181,4 +181,3 @@ The setup has now been successfully created. You can now route Common Data Servi
 
 [Understand work streams in the Omni-channel Engagement Hub](work-streams-introduction.md)
 
-[Understand unified routing and work distribution](unified-routing-work-distribution.md)

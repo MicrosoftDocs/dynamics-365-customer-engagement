@@ -93,5 +93,5 @@ Quickly configure and add a live chat widget to your portal to talk to your cust
 
 ### See also
 
-[Create and manage work streams](work-streams.md) </br>
+[Create and manage work streams](create-work-streams.md) </br>
 [Set up a chat widget](set-up-chat-widget.md)

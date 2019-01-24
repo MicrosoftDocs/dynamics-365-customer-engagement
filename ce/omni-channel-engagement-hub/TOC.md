@@ -12,7 +12,7 @@
 
 ## [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Manage users](administrator/users-user-profiles.md)
-### [Create and manage work streams](administrator/work-streams.md)
+### [Create and manage work streams](administrator/create-work-streams.md)
 ### [Set up record identification rule](administrator/record-identification-rule.md)
 ### [Create and manage routing rules](administrator/routing-rules.md)
 ### [Work with queues](administrator/queues-omni-channel.md)

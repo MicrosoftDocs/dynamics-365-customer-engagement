@@ -53,4 +53,4 @@ For information about how to create questions and use them in a pre-chat survey,
 
 ### See also
 
-[Create and manage work streams](work-streams.md)
+[Create and manage work streams](create-work-streams.md)

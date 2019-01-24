@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: c0a1d153-e907-4bd7-bab6-09e270ed8833
 ms.custom: 
 ---
-# Understand how unified routing and work distribution works
+# See how unified routing and work distribution works
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 

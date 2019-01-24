@@ -59,6 +59,6 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
 
 ### See also
 
-[Create and manage work streams](work-streams.md)
+[Create and manage work streams](create-work-streams.md)
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)
