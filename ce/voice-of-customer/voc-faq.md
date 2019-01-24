@@ -67,9 +67,9 @@ The VOC Push Service user runs only with minimum required privileges to communic
 - Run the custom plugin in System User Context.
 - Create a custom role with privileges required by custom plugin operations and assign the security role to Voice of the Customer application user.
 
-## What should I do if the survey responses are not submitted successfully in Dynamics 365 for Customer Engagement?
+## What should I do if the survey responses are not submitted successfully in Dynamics 365 for Customer Engagement apps?
 
-There might be times when a customer has submitted a survey response, but it is not submitted successfully in Dynamics 365 for Customer Engagement. To view the responses that are not submitted successfully: 
+There might be times when a customer has submitted a survey response, but it is not submitted successfully in Dynamics 365 for Customer Engagement apps. To view the responses that are not submitted successfully: 
 
 1. Open Voice of the Customer app. 
 
@@ -79,6 +79,6 @@ There might be times when a customer has submitted a survey response, but it is 
 
     For example: 
 
-    - If a survey response is not stored in Dynamics 365 for Customer Engagement after trying multiple times, error code 103 is displayed along with the appropriate error message. 
+    - If a survey response is not stored in Dynamics 365 for Customer Engagement apps after trying multiple times, error code 103 is displayed along with the appropriate error message. 
     - If a survey does not exist, error code 201 is displayed along with the appropriate error message. 
     - If a survey invite does not exist, error code 202 is displayed along with the appropriate error message.
