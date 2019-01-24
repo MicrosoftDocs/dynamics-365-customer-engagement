@@ -6,7 +6,7 @@
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
-### [Add users and assign roles to users](administrator/users-user-profiles.md#manage-a-new-user)
+### [Add users and assign roles to users](administrator/add-users-assign-roles.md)
 ### [Understand work streams](administrator/work-streams-introduction.md)
 ### [Configure a live chat widget](administrator/configure-live-chat.md)
 

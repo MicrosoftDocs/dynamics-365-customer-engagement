@@ -17,7 +17,9 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-All Microsoft Dynamics 365 users who are assigned the omni-channel supervisor or omni-channel agent security role automatically become omni-channel users. Omni-channel users are then assigned roles in the system to distinguish them according to their responsibilities.
+All Microsoft Dynamics 365 users who are assigned the omni-channel supervisor or omni-channel agent security role automatically become omni-channel users. 
+
+For more information see, [Add users and assign roles to users](add-users-assign-roles.md).
 
 When you sign in to omni-channel, you can view the list of omni-channel users in the **Omni-channel Users** view.
 
@@ -25,12 +27,6 @@ When you sign in to omni-channel, you can view the list of omni-channel users in
 > ![Omni-channel users](../media/omni-channel-users.png)
 
 ## Manage a new user
-
-Use the **Microsoft Office 365 Admin center** to create user accounts for every user who requires access to Omni-channel Engagement Hub. All users who are assigned the omni-channel supervisor or omni-channel agent security role become omni-channel users.
-
-For more information, see [Create users in Dynamics 365 (online) and assign security roles](../../admin/create-users-assign-online-security-roles.md).
-
-When you sign in to omni-channel, you can view the list of omni-channel users in the **Omni-channel Users** view.
 
 Follow these steps to update the details of a user in Omni-channel Engagement Hub.
 
@@ -70,4 +66,4 @@ You can also enable or disable a user in omni-channel. Select the user record in
 
 ### See also
 
-[Understand unified routing and work distribution](unified-routing-work-distribution.md)
+[Add users and assign roles to users](add-users-assign-roles.md)

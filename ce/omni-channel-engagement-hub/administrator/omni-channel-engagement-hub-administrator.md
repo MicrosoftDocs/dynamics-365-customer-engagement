@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Omni-channel Engagement Hub is a customizable application, that you can effectively configure to meet the requirements of your business. Use Omni-channel Engagement Hub to create and manage users (agents and supervisors), work streams, conversations, and queues, and effectively route important conversations to agents quickly. You can manage the capacity of the agents so that they handle conversations effectively and assist the customers better. You can manage the types of conversations that agents receive using the work streams and queues configurations.
+Omni-channel Engagement Hub is a customizable application, that you can effectively configure to meet the requirements of your business. Use Omni-channel Engagement Hub to manage users (agents and supervisors), work streams, conversations, and queues, and effectively route important conversations to agents quickly. You can manage the capacity of the agents so that they handle conversations effectively and assist the customers better. You can manage the types of conversations that agents receive using the work streams and queues configurations.
 
 ## In this section
 
@@ -25,6 +25,7 @@ Omni-channel Engagement Hub is a customizable application, that you can effectiv
 - [Create a chat widget](set-up-chat-widget.md)
 
 ## How-to topics
+- [Add users and assign roles to users](add-users-assign-roles.md)
 - [Manage a new user](users-user-profiles.md#manage-a-new-user)<br>
 - [Create a new live chat work stream](create-work-streams.md#create-a-new-live-chat-work-stream)<br>
 - [Create a new CDS Entity work stream](create-work-streams.md#create-a-new-cds-entity-work-stream)<br>

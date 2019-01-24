@@ -121,6 +121,8 @@ Once the installation is completed successfully, select **Close** to close the w
 
 ### See also
 
-[Create and manage users](users-user-profiles.md)
+[Add users and assign roles to users](add-users-assign-roles.md)
+
+[Manage users](users-user-profiles.md)
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)
