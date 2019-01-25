@@ -1,8 +1,8 @@
 ---
 title: "Register and Deploy Plug-Ins (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Learn about programmatically register plug-ins and custom workflow activities with Dynamics 365 for Customer Engagement apps by writing registration code using certain SDK classes."
+description: "Learn about register plug-ins and custom workflow activities with Dynamics 365 for Customer Engagement apps using the Plug-in Registration Tool."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 1/24/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,24 +27,14 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Plug-ins and custom workflow activities are custom code that you develop to extend the existing functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Before a plug-in or custom workflow activity can be used, it must be registered with the server. You can programmatically register plug-ins and custom workflow activities with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps by writing registration code using certain SDK classes. However, to ease the learning curve and to speed up development and deployment of custom code, a plug-in and custom workflow activity registration tool is available for download.
-
-The plug-in and custom workflow activity registration tool is distributed as part of the [Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool) NuGet package. For information about downloading the tool, see [Download tools from NuGet](download-tools-NuGet.md).
+Plug-ins and custom workflow activities are custom code that you develop to extend the existing functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Before a plug-in or custom workflow activity can be used, it must be registered with the server. A plug-in and custom workflow activity registration tool is available for download.
 
  While this topic focuses primarily on plug-ins, most of the information is also applicable to custom workflow activities. One difference between the two is that for custom workflow activity assemblies, you register just the assembly. For plug-ins, you register the plug-in assembly and one or more steps per plug-in. For more information about custom workflow activities, see [Custom Workflow Activities (Workflow Assemblies)](custom-workflow-activities-workflow-assemblies.md).
 
 > [!IMPORTANT]
 > Do not register any plug-in or custom workflow activity unless it is obtained from a reliable and trusted source.
 
- For more information about how to package your plug-ins as solution components, see [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solutions](package-distribute-extensions-use-solutions.md). 
-
-<a name="bkmk_pluginregistration"></a>
-
-## Plug-in Registration Tool
-
- The Plug-in Registration tool provides a graphical user interface and supports registering plug-ins and custom workflow activities with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. However, plug-ins and custom workflow activities can only be registered in the sandbox (isolation mode) of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
-
- For more information about how to register and deploy a plug-in by using the tool, see [Walkthrough: Register a Plug-in using the Plug-in Registration Tool](walkthrough-register-plugin-using-plugin-registration-tool.md). The tool can be added to the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] **Tools** menu as an external tool to speed up the development process.
+ For more information about registering plug-ins, see the CDS for Apps topic [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in.md).
 
 <a name="bkmk_pluginstor"></a>
 
@@ -74,20 +64,6 @@ Depending on your plug-in’s design, your plug-ins may require other referenced
 4. After you have added any other desired components to the solution, export the solution.
 5. Import the solution on to the staging or production server.
 
-<a name="bkmk_versioning"></a>
-
-## Assembly Versioning and Solutions
-
-Plug-in assemblies can be versioned using a number format of *major.minor.build.revision* defined in the Assembly.info file of the [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project. Depending on what part of the assembly version number is changed in a newer solution, the following behavior applies when an existing solution is updated through import.
-
-- **The build or revision assembly version number is changed.**<br />
-  This is considered an in-place upgrade. The older version of the assembly is removed when the solution containing the updated assembly is imported. Any pre-existing steps from the older solution are automatically changed to refer to the newer version of the assembly.  
-
-- **The major or minor assembly version number, except for the build or revision numbers, is changed.**<br />
-  When an updated solution containing the revised assembly is imported, the assembly is considered a completely different assembly than the previous version of that assembly in the existing solution. Plug-in registration steps in the existing solution will continue to refer to the previous version of the assembly. If you want existing plug-in registration steps for the previous assembly to point to the revised assembly, you will need to use the Plug-in Registration tool to manually change the step configuration to refer to the revised assembly type. This should be done before exporting the updated assembly into a solution for later import.  
-
-  For more information about solutions, refer to [Introduction to Solutions](introduction-solutions.md).
-
 <a name="bkmk_securityrestrictions"></a>
 
 ## Security Restrictions
@@ -112,7 +88,7 @@ Plug-in assemblies can be versioned using a number format of *major.minor.build.
 
 ## Register Plug-ins Programmatically
 
- The key entity types used to register plug-ins and images are:    `PluginAssembly`,    `PluginType`,  `SdkMessageProcessingStep`, and `SdkMessageProcessingStepImage`. The key entity types used to register custom workflow activities are `PluginAssembly` and `PluginType`. Use these entities with the create, update, retrieve, and delete operations.
+ You can programmatically register plug-ins and custom workflow activities with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps by writing registration code using certain entity classes. The key entity types used to register plug-ins and images are:    `PluginAssembly`,    `PluginType`,  `SdkMessageProcessingStep`, and `SdkMessageProcessingStepImage`. The key entity types used to register custom workflow activities are `PluginAssembly` and `PluginType`. Use these entities with the create, update, retrieve, and delete operations.
 
  For more information on images, see [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md).  
 
