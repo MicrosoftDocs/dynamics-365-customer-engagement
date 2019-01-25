@@ -50,7 +50,7 @@ To understand how routing and work distribution works with the help of a scenari
 
 To learn about unified routing and work distribution in more detail, see the following topics:
 
-- [Enable users for Omni-channel](add-users-assign-roles.md)
+- [Enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
 - [Manage users](users-user-profiles.md)
 - [Work with queues](queues-omni-channel.md)
 - [Create and manage work streams](create-work-streams.md)

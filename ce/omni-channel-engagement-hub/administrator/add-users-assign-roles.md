@@ -13,7 +13,7 @@ ms.assetid: be3d6733-4d16-48d0-b231-6a6a2dd5d939
 ms.custom: 
 ---
 
-# Enable users for Omni-channel
+# Enable users for Omni-channel Engagement Hub
 
 All users who are assigned the **Omni-channel supervisor** or **Omni-channel agent** security role are enabled for omni-channel and become omni-channel users.
 
