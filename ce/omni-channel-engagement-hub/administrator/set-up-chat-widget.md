@@ -17,7 +17,9 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-As an admin, you can configure a chat widget for your website to engage with your customers.
+These days, customers expect a great customer experience regardless of the channel that they use to contact an organization. In this situation, messaging is as a key support channel that lets customers instantly interact with an organization.
+
+The chat widget lets your customers connect with you in a way that is convenient for them (for example, from their mobile devices or a computer). Available agents can then connect with the customers to respond to their queries.
 
 ## Add a chat widget
 
