@@ -113,6 +113,8 @@ Apart from the standard configuration required for entity form or web form, you 
 
 - Set the **Mode** to **Edit** to allow document uploads.
 
+In the instructions above we say to set the mode to edit.  There should be a note that this will not work if the mode is insert as the record is not created until the from is submitted.  Since there is no record you will not be able to upload a document to the library.  
+
 ## Step 5: Create appropriate entity permission and assign it to the appropriate web role
 
 Two entity permission records are required to establish the necessary access to view and upload documents.
