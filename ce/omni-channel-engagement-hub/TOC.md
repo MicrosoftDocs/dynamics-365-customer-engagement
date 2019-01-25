@@ -8,7 +8,7 @@
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 ### [Add users and assign roles to users](administrator/add-users-assign-roles.md)
 ### [Understand work streams](administrator/work-streams-introduction.md)
-### [Configure a live chat widget](administrator/configure-live-chat.md)
+### [Quickly configure a chat widget](administrator/configure-live-chat.md)
 
 ## [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Manage users](administrator/users-user-profiles.md)
