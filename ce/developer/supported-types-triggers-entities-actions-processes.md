@@ -2,7 +2,7 @@
 title: "Supported types, triggers, entities, and actions for processes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The topic provides information about the supported types and entities for processes in Dynamics 365 for Customer Engagement, supported triggers for workflows, entities that are supported for the CreateEntity activity, and supported actions for workflows. "
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -80,7 +80,7 @@ This topic provides information about the supported types and entities for proce
 ## Supported types for processes  
  This topic provides the supported types that you can use in your code for processes in[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
 
-### Microsoft .NET Framework 4.5.2  
+### Microsoft .NET Framework 4.6.2  
 
 |Namespace|Type name|  
 |---------------|---------------|  

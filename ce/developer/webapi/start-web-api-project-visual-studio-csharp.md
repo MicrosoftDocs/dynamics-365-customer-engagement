@@ -2,7 +2,7 @@
 title: "Start a Dynamics 365 for Customer Engagement Web API project in Visual Studio (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Create a new project in Visual Studio to build a console application that uses Dynamics 365 for Customer Engagement Web API"
 ms.custom: 
-ms.date: 12/11/2018
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -47,7 +47,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 2. In the left navigation pane under **Templates**, select **Visual C#**.  
   
-3. Above the list of available templates, select **.NET Framework 4.5.2**.  
+3. Above the list of available templates, select **.NET Framework 4.6.2**.  
   
 4. In the list of templates, select **Console Application**. (Alternately choose the project type suited to your solution.)  All of the Web API C# samples are console applications.  
   
@@ -55,7 +55,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 5. In the text boxes near the bottom of the form, supply the project name and location, and then select OK. (For this topic, the solution name “StartWebAPI-CS” was used.) The initial solution files will be generated and the solution loaded into [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)].  
   
-6. Under the **Project** menu, open the project’s properties form and verify the target framework is set to **.NET Framework 4.5.2**.  
+6. Under the **Project** menu, open the project’s properties form and verify the target framework is set to **.NET Framework 4.6.2**.  
   
 <a name="bkmk_addAllRequiredResources"></a>   
 ### Add all required resources to your project  
