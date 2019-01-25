@@ -113,6 +113,9 @@ Apart from the standard configuration required for entity form or web form, you 
 
 - Set the **Mode** to **Edit** to allow document uploads.
 
+> [!NOTE]
+> Document uploading requires the parent entity record to exist. If you set the Mode to Insert, the document upload will not work because the parent entity record is not created until the form is submitted.
+
 ## Step 5: Create appropriate entity permission and assign it to the appropriate web role
 
 Two entity permission records are required to establish the necessary access to view and upload documents.
