@@ -25,8 +25,8 @@ Omni-channel Engagement Hub is a customizable application, that you can effectiv
 - [Create a chat widget](set-up-chat-widget.md)
 
 ## How-to topics
-- [Add users and assign roles to users](add-users-assign-roles.md)
-- [Manage a new user](users-user-profiles.md#manage-a-new-user)<br>
+- [Enable users for Omni-channel](add-users-assign-roles.md)
+- [Manage a user in omni-channel](users-user-profiles.md#manage-a-user-in-omni-channel)<br>
 - [Create a new live chat work stream](create-work-streams.md#create-a-new-live-chat-work-stream)<br>
 - [Create a new CDS Entity work stream](create-work-streams.md#create-a-new-cds-entity-work-stream)<br>
 - [Set up record identification rule](record-identification-rule.md)<br>

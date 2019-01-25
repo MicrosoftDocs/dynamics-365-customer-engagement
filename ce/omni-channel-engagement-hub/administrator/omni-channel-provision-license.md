@@ -99,7 +99,7 @@ On successful set up, your org and your omni-channel app are displayed in the **
 
 ### See also
 
-[Add users and assign roles to users](add-users-assign-roles.md)
+[Enable users for Omni-channel](add-users-assign-roles.md)
 
 [Manage users](users-user-profiles.md)
 

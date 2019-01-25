@@ -19,7 +19,7 @@ ms.custom:
 
 All Microsoft Dynamics 365 users who are assigned the **Omni-channel supervisor** or **Omni-channel agent** security role automatically become omni-channel users. 
 
-For more information see, [Add users and assign roles to users](add-users-assign-roles.md).
+For more information see, [Enable users for Omni-channel](add-users-assign-roles.md).
 
 Navigate to **Omni-channel Administration > User Management > Users** to view the list of omni-channel users in the **Omni-channel Users** view.
 
@@ -54,4 +54,4 @@ Navigate to **Omni-channel Administration > User Management > Users** to view th
 
 [Configure and manage presence status](presence-custom-presence.md)
 
-[Add users and assign roles to users](add-users-assign-roles.md)
+[Enable users for Omni-channel](add-users-assign-roles.md)
