@@ -17,7 +17,7 @@
 ### [Create and manage routing rules](administrator/routing-rules.md)
 ### [Work with queues](administrator/queues-omni-channel.md)
 ### [Configure and manage presence status](administrator/presence-custom-presence.md)
-### [Create a chat widget](administrator/set-up-chat-widget.md)
+### [Configure a chat widget](administrator/set-up-chat-widget.md)
 #### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 #### [Create a survey questions library](administrator/create-question-library.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
