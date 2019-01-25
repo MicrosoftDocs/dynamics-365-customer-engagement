@@ -15,8 +15,6 @@ ms.custom:
 
 # Enable users for Omni-channel
 
-Security roles control a user’s access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role sets limits on the user’s view of data and on the user’s interactions with that data.
-
 All users who are assigned the **Omni-channel supervisor** or **Omni-channel agent** security role are enabled for omni-channel and become omni-channel users.
 
 > [!NOTE]

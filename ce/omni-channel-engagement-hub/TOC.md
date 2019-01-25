@@ -17,8 +17,8 @@
 #### [Create and manage routing rules](administrator/routing-rules.md)
 #### [Work with queues](administrator/queues-omni-channel.md)
 #### [Create a chat widget](administrator/set-up-chat-widget.md)
-##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Create a survey questions library](administrator/create-question-library.md)
+##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Create and manage operating hours](administrator/create-operating-hours.md)
 ##### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 
