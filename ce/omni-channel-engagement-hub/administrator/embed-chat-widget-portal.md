@@ -39,8 +39,6 @@ To embed a chat widget in Dynamics 365 for Customer Engagement Portal:
 
 ## Customer experience of chat widget
 
-After configuring a chat widget, you can configure your portal to embed the chat widget in it. Once your portal is configured, your customers can interact with your organization by using the chat widget.
-
 After the chat widget is configured, it has the following capabilities:
 
 - **Minimized mode**: By default, the chat widget is shown in minimized mode. If any messages are received while the widget is in this mode, a count of the messages is shown.
