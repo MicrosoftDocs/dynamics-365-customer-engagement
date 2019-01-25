@@ -2,7 +2,7 @@
 title: "Choose your development style for Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about the various options available to developers to make use of Dynamics 365 for Customer Engagement web services (SDK) or to extend the application."
 ms.custom: 
-ms.date: 01/18/2019
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -48,10 +48,10 @@ The SDK offers a variety of methods and technologies to use when you write code 
 
 ## .NET Development: Use SDK assemblies  
 
- The SDK assemblies provides you with classes that you can use to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services to identify your organization and perform common business  operations like create, retrieve. update and delete data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. The SDK assemblies are available as NuGet packages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Subscribe to SDK assembly updates using NuGet](org-service/subscribe-sdk-assembly-updates-using-nuget.md) and [Assemblies included in the Dynamics 365 for Customer Engagement apps SDK](org-service/assemblies-included-sdk.md).  
+The SDK assemblies provides you with classes that you can use to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services to identify your organization and perform common business  operations like create, retrieve. update and delete data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. The SDK assemblies are available as NuGet packages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Subscribe to SDK assembly updates using NuGet](org-service/subscribe-sdk-assembly-updates-using-nuget.md) and [Assemblies included in the Dynamics 365 for Customer Engagement apps SDK](org-service/assemblies-included-sdk.md).  
 
 > [!IMPORTANT]
->  If you are using .NET Framework 4.5.2 or later to write your code, you should use the latest version of the SDK assemblies to create your plug-ins, custom workflow activities, or XAML workflows.  
+>  You should use the latest version of the SDK assemblies to create your plug-ins, custom workflow activities, or XAML workflows. Starting with version 9.0, you should use .NET Framework version 4.6.2.
 > 
 >  However, if you are using .NET Framework 4 and using the  [CrmConnection](https://msdn.microsoft.com/library/microsoft.xrm.client.crmconnection\(v=crm.6\).aspx) class of SDK extensions ([deprecated](https://msdn.microsoft.com/library/dn281891.aspx#SDKExtensions)) to connect to [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (on-premises) and [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (version 8.1.0) or later, you will need to use version 6.1.2 of the assemblies. Otherwise, you won't be able to connect. For more information about backward compatibility, see [Blog: Dynamics 365 for Customer Engagement apps SDK Backwards Compatibility](https://go.microsoft.com/fwlink/?linkid=842744)  
 
