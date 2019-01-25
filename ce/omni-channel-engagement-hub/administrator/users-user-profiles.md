@@ -53,5 +53,3 @@ Navigate to **Omni-channel Administration > User Management > Users** to view th
 [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md)
 
 [Configure and manage presence status](presence-custom-presence.md)
-
-[Enable users for Omni-channel](add-users-assign-roles.md)
