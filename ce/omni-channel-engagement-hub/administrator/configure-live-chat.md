@@ -13,7 +13,7 @@ ms.assetid: 55DFF759-DD1C-4B71-A232-2015C085E748
 ms.custom: 
 ---
 
-# Quickly configure a live chat widget
+# Quickly configure a chat widget
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -57,25 +57,23 @@ Quickly configure and add a live chat widget to your portal to chat with your cu
 
 1. On the **Chat settings** tab, in the **Chat widgets** section, select **Add**. The **New Chat Widget** page opens.
 2. On the **Basic details** tab, in the **General information** section, enter a name for the chat widget, and save the record.
+3. Copy the widget snippet code from the Code snippet section. This snippet code will be used in [Step 3](#step-3-embed-chat-widget-in-portal).
 
     > [!div class=mx-imgBorder]
-    > ![Configure the basic details of a chat widget](../media/chat-widget-snippet.png "Configure the basic details of a chat widget")
+    > ![Configure the basic details of a chat widget and copy code snippet of a chat widget](../media/chat-widget-snippet.png "Configure the basic details of a chat widget and copy code snippet of a chat widget")
 
 ## Step 3: Embed chat widget in portal
 
-1.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
-    > [!div class=mx-imgBorder]
-    > ![Copy code snippet of a chat widget](../media/chat-widget-snippet.png "Copy code snippet of a chat widget")
-2.	Open the Dynamics 365 for Customer Engagement Portal app.
-3.	Go to **Portal** > **Content Snippets**.
-4.	Find the **Chat Widget Code** content snippet and open it.
+1.	Open the Dynamics 365 for Customer Engagement Portal app.
+2.	Go to **Portal** > **Content Snippets**.
+3.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
     > ![Go to Chat Widget Code content snippet in portal](../media/portal-content-snippet.png "Go to Chat Widget Code content snippet in portal")
-5.	On the **General** tab, scroll-down to the **Value (HTML)** section.
-6.	Paste the chat widget snippet code in the **HTML** tab.
+4.	On the **General** tab, scroll-down to the **Value (HTML)** section.
+5.	Paste the chat widget snippet code in the **HTML** tab.
     > [!div class=mx-imgBorder]
     > ![Paste code snippet of a chat widget](../media/paste-snippet.png "Paste code snippet of a chat widget")
-7.	Save the changes. The chat widget is now embedded into the portal.
+6.	Save the changes. The chat widget is now embedded into the portal.
 
 ### See also
 
