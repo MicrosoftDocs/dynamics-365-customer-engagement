@@ -67,7 +67,7 @@ Follow these steps to set up Omni-channel Engagement Hub.
    3. Select the organization in the **Organization Selector** drop-down list in the **First run experience** wizard. 
 
         > [!IMPORTANT]
-        > You must select the check-boxes to accept the **Microsoft Privacy Statement** and **Terms & Conditions** to proceed with the set up.
+        > You must select the check-boxes for **Microsoft Privacy Statement** and **Terms and Conditions** to accept the terms and proceed with the set up. You can read the privacy and preview conditions by selecting them. 
 
         > [!div class=mx-imgBorder]
         > ![select org](../media/select-org.png)
