@@ -111,6 +111,9 @@ Each of these types of elements creates a colorful button in a new row (outside 
 
 Use the **Properties** tab to establish the appearance of your new or selected button, and to choose the page, event, or survey it links to.
 
+> [!NOTE]
+> Surveys are optional. If your system admin decided not to include Voice of the Customer as part of your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installation, then the survey element will be shown as unavailable (greyed out) in your **Toolbox**. Contact your system admin if you want to enable it.
+
 <a name="custom-code"></a>
 
 ### Custom-code elements
