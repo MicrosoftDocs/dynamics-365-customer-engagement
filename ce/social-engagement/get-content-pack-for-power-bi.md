@@ -2,13 +2,12 @@
 title: "Get the Social Engagement content pack | Microsoft Docs"
 description: "Download the use the Social Engagement content pack for Power BI."
 keywords: Power BI, content pack, engagement details
-ms.date: 07/11/2018
+ms.date: 01/24/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: c82b4063-c86c-4922-99dd-1f5ddd18cb00
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
 topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
