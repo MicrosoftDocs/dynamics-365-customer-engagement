@@ -2,7 +2,7 @@
 title: "Sample: Simplified connection quick start (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "This sample shows you how to connect to the Dynamics 365 for Customer Engagement (online) Customer Engagement web services using the CrmServiceClient and perform basic create, update, retrieve, and delete operations on an entity. "
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -68,7 +68,7 @@ The following shows a sample app.config file. To use this, remove the comment ch
          connectionString="Url=https://contoso.litware.com/contoso; Username=someone@litware.com; Password=password; authtype=IFD"/>-->  
   </connectionStrings>  
   <startup>  
-    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />  
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.2" />  
   </startup>  
 <system.diagnostics>  
     <trace autoflush="true"/>  
