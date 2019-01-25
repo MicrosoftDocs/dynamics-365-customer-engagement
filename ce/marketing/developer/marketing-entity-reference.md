@@ -27,10 +27,8 @@ All the entities that are installed as part of the Dynamics 365 for Marketing so
 
 > [!IMPORTANT]
 > While all the entities in Dynamics 365 for Marketing support the standard extensibility/programming model, you should be careful while programmatically creating, updating, or deleting these entity records. This is because some entities have dependency on each other and the web application to provide the requisite user experiences and functionalities in the Marketing app. Manipulating these entities programmatically will prevent you to use the functionalities in the intended and supported way. Some examples of the complex functionality that cannot be achieved by programmatically working with the entities are:
-> - Changes of Status and Status Reason fields, especially if the status schema is more complex than binary Active/Inactive case (mostly entities with “Go Live” button on ribbon).
-> - Manipulation of fields, which contain complex pieces of information, usually encoded as JSON. For example, customer journey design/workflow.
-
-> Therefore, you should use the user interface in our app to reliably perform your operations unless it’s explicitly called out in this documentation that programmatic access to an entity or feature is supported.
+>- Changes of Status and Status Reason fields, especially if the status schema is more complex than binary Active/Inactive case (mostly entities with “Go Live” button on ribbon).
+>- Manipulation of fields, which contain complex pieces of information, usually encoded as JSON. For example, customer journey design/workflow.<br/><br/>Therefore, you should use the user interface in our app to reliably perform your operations unless it’s explicitly called out in this documentation that programmatic access to an entity or feature is supported.
 
 To view information about all the entities and their properties, attributes, and relationships in your Dynamics 365 for Marketing instance, use the **Entity Metadata Browser** app. It is available as a managed solution that you need to install in your Dynamics 365 for Marketing instance to view the entity reference.
 
