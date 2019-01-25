@@ -132,15 +132,8 @@ Though these settings provide assist-edit buttons, you must only place static va
 
 ## Advanced dynamic content
 
-> [!NOTE]
 
-> The advanced dynamic-content features described in this section are being rolled out gradually, and may not yet be available to your organization. To see if they are available to your organization, create a message and paste in the following conditional example:
-> 
-> `{{#if (eq contact.contact_account_parentcustomerid.name 'abc')}} Hello. {{else if (eq '123' '123')}} Advanced dynamic content is enabled. {{/if}}`
-> 
-> Then open the **Preview** tab. If the preview shows "Advanced dynamic content is enabled," then you have the feature. If instead you see the entire line of code, plus error messages like "We couldn't resolve the message template" or "HTML property not found", then you don't have it yet.  If you don't have the feature available, and require it urgently, then please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance.
-
-You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. For best results, enter the code while working on the **HTML** tab of the content designer.
+You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. 
 
 As you've seen in previous examples, dynamic content is surrounded by double braces ( `{{` and `}}` ). This includes both standard field values that you add using the assist-edit feature, and the more advanced programming constructs described in this section.
 
@@ -179,7 +172,9 @@ This expression finds the name of the managing partner for the account for the c
 
 ### Conditional statements and comparisons
 
-Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. They take the following form:
+Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create these statements by placing it within a text element, or by placing custom-code elements in between the other design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [How to enter advanced dynamic content in the designer](#enter-code)
+
+Conditional statements take the following form:
 
  ```Handlebars
 {{#if (<operator> <value1> <value>)}}
@@ -190,7 +185,7 @@ Conditional (if-then-else) statements display content depending on whether one o
 .
 .
 {{else}}
-      Content displayed when all expressions are false
+      <p>Content displayed when all expressions are false</p>
 {{/if}}
 ```
 
@@ -254,7 +249,7 @@ For example, this conditional statement could be used to establish the language 
 
 ### For-each loops
 
-For-each loops let you step through a collection of records that are related to a specific current record—for example, to provide a list of all the recent transactions associated with a given contact.
+For-each loops let you step through a collection of records that are related to a specific current record—for example, to provide a list of all the recent transactions associated with a given contact. You can add the code required to create these statements by placing it within a text element, or by placing custom-code elements in between the other design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [How to enter advanced dynamic content in the designer](#enter-code)
 
 For-each loops take the following form:
 
@@ -295,20 +290,22 @@ In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]
 
 You must be careful when entering advanced dynamic code in the designer because there are many, sometimes unexpected, ways to get it wrong, which will break your code. Here are some tips for how to enter and test your code:
 
-- We recommend that you always develop your advanced dynamic code while working on the **HTML** tab. However, assist-edit is only available on the **Designer** tab, so you might need to go there from time to time if you want to use that feature to help find database table, field, and relation names.
-- If you do enter code on the **Designer** tab, extra spaces and carriage returns will create `&nbsp;`and `<p>` tags in your code, which can break your code. Always go to the **HTML** tab afterwards, where you'll see all of these extra tags in your code, and be sure to remove them.
-- All of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs, as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs).
+- Use custom-code elements place code snippets between design elements on the **Designer** tab. This is much more visible and reliable than placing the code directly into the HTML using the **HTML** tab.
+    ![The custom-code element](media/custom-code-element.png "The custom-code element")
+- When you enter code into a text element on the **Designer** tab, any extra spaces and carriage returns that you add will create `&nbsp;`and `<p>` tags in your code, which can break it. Always go to the **HTML** tab afterwards, where you'll see all of these extra tags, and be sure to remove them.
+- When you enter code into a text element, all of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs (or custom-code elements), as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs). You must work on the **HTML** tab inspect and correct the HTML within your text elements.
 - Do not place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).
-- The relationship name that you use when creating loops or placing lookup values must match the one used in the customer-insights services. This relationship name is not necessarily the same as the one used to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. To find the correct relationship name, use the assist-edit feature on the **Designer** tab, and then clean-up and modify the resulting code as needed on the **HTML** tab.
+- The [assist-edit](#assist-edit) feature is often helpful for constructing expressions that fetch values from your database because it helps you find database table, field, and relation names. This tool is available when working within a text element on the **Designer** tab, and when entering values is certain fields that support it (like the email subject). Assist-edit isn't available when working on the **HTML** tab or within a custom code element, so you can instead start by using assist-edit in any text element, and then cut/paste the resulting expression into your custom-code element or HTML.
+- The relationship name that you use when creating loops or placing lookup values must match the one used in the customer-insights services. This relationship name is not necessarily the same as the one used to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. To find the correct relationship name, use the [assist-edit](#assist-edit) feature.
 - Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
 
-For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer:
+For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer (either inside or outside of a text element):
 
 ```Handlebars
 <p>{{#if (eq contact.address1_country 'Denmark')}}Hej{{else if (eq contact.address1_country 'US')}}Hi{{/if}}{{contact.firstname}}!</p>
 ```
 
-This example (also shown previously) shows how to use comments to enclose code that exists entirely outside of displayed content (also on the **HTML** tab):
+The following example (also shown previously) shows how to use comments to enclose code that exists entirely outside of displayed content (also on the **HTML** tab):
 
 ```Handlebars
 <p>You have purchased:</p>

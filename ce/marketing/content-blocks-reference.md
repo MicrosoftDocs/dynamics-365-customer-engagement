@@ -111,6 +111,14 @@ Each of these types of elements creates a colorful button in a new row (outside 
 
 Use the **Properties** tab to establish the appearance of your new or selected button, and to choose the page, event, or survey it links to.
 
+<a name="custom-code"></a>
+
+### Custom-code elements
+
+Use custom-code elements to place code snippets in between the various other design elements on the page. You can place any type of code that you like using these elements, but usually you'll use them to hold advanced dynamic content like if-then statements and for-each loops. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
+
+Use the **Properties** tab to view, enter, and edit the code to be placed by a custom-code element.
+
 ## The form element for marketing pages
 
 This section describes the form element, which is only available when you are designing a marketing page. This is currently the only element that is unique for marketing pages.
