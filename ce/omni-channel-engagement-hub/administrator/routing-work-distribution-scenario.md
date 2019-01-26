@@ -51,7 +51,7 @@ The following scenario should help you understand how the routing and work distr
 
         - Both Gilda and Bert are members of the **Billing Queue** omni-channel queue.
         - Bert's presence status is **Available**, whereas Gilda's presence status is **Busy**.
-        - Bert has the required capacity.
+        - Both have the required capacity.
 
         In this case, the conversation is assigned to Bert.
 

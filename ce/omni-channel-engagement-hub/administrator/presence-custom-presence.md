@@ -61,14 +61,6 @@ Follow these steps to create a new presence record.
 > [!div class=mx-imgBorder]
 > ![custom presence](../media/oc-custom-presence-example.png)
 
-## Default presence
-
-The default presence status is the status that is set for agents when they first sign in to the omni-channel system after their last sign-out.
-
-Admins can set the default presence status for an agent in the **Agent Details** section in the **Omni-channel** tab of the **User Management > Users** entity.
-
-> [!div class=mx-imgBorder]
-> ![Default presnce](../media/oc-presence-default.png)
 
 ### See also
 

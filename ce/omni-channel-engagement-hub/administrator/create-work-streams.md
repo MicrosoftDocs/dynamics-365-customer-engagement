@@ -26,6 +26,9 @@ Follow these steps to create a new live chat work stream.
 
     The **Active Work Streams** view is shown. 
 
+    > [!div class=mx-imgBorder] 
+    > ![Omni-channel work streams](../media/oc-workstream-view.png)
+
 2. On the command bar, select **New** to create a work stream.
 3. In the **Summary** tab of the new work stream page, follow these steps:
 
@@ -65,11 +68,11 @@ Follow these steps to create a new live chat work stream.
 
 7. Select **Save** to save the live chat work stream.
 
+> [!IMPORTANT]
+> In this preview, the record identification rules are pre-configured in the work streams out-of-the-box. The rules are further mapped to a limited set of pre-chat survey questions. As a customer completes a pre-chat survey for an incoming conversation, the information can be used to identify the customer. For more information, see [Set up record identification rule](record-identification-rule.md).
+
 After you've finished defining all the settings, the work stream is ready to receive conversations so that agents can start to work on them.
 
-You can view all active work streams in the **Active Work Streams** view. Before you can use a work stream, you must activate it. To activate a work stream so that it can receive conversations, select the work stream record in the **Active Work Streams** view, and then select **Activate** on the command bar.
-
-You can inactivate a work stream if you don't want it to receive conversations. Select the work stream record in the **Active Work Streams** view, and then select **Deactivate** on the command bar. You can view all inactivated work streams in the **Inactive Work Streams** view. You can also reactivate work streams that have been inactivated.
 
 ## Create a new CDS Entity work stream
 
