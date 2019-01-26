@@ -18,10 +18,24 @@ ms.custom:
 
 Omni-channel Engagement Hub is a customizable application, that you can effectively configure to meet the requirements of your business. Use Omni-channel Engagement Hub to manage users (agents and supervisors), work streams, conversations, and queues, and effectively route important conversations to agents quickly. You can manage the capacity of the agents so that they handle conversations effectively and assist the customers better. You can manage the types of conversations that agents receive using the work streams and queues configurations.
 
+## Access Omni-channel Engagement Hub for administrators
+
+1. Provision the Omni-channel Engagement Hub app. Follow the steps given in [Provision Omni-channel Engagement Hub](omni-channel-provision-license.md) to set up and enable the Omni-channel Engagement Hub app in your Dynamics 365 instance.
+
+2. Once the app is enabled, go to the Dynamics 365 for Customer Engagement site map, navigate to the app switcher and then select **Omni-channel Administration**.
+
+    > [!div class=mx-imgBorder] 
+    > ![App switcher](../media/app-switcher-oc.png)
+
+You can view the entities in the **Omni-channel Administration** site map.
+
+  > [!div class=mx-imgBorder] 
+  > ![Omni-channel sitemap](../media/omni-channel-sitemap.png)
+
 ## In this section
 
-- [Provision Omni-channel Engagement Hub](omni-channel-provision-license.md)
-- [Know unified routing and work distribution](unified-routing-work-distribution.md)
+- [Understand unified routing and work distribution](unified-routing-work-distribution.md)
+- [See how unified routing and work distribution works](routing-work-distribution-scenario.md)
 - [Create a chat widget](set-up-chat-widget.md)
 
 ## How-to topics

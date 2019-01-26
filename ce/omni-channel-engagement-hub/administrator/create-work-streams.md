@@ -26,6 +26,9 @@ Follow these steps to create a new live chat work stream.
 
     The **Active Work Streams** view is shown. 
 
+    > [!div class=mx-imgBorder] 
+    > ![Omni-channel work streams](../media/oc-workstream-view.png)
+
 2. On the command bar, select **New** to create a work stream.
 3. In the **Summary** tab of the new work stream page, follow these steps:
 
