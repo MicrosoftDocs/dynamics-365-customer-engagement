@@ -66,12 +66,15 @@ Follow these steps to set up Omni-channel Engagement Hub.
      
    3. Select the organization in the **Organization Selector** drop-down list in the **First run experience** wizard. 
 
-        > [!IMPORTANT]
-        > You must select the check-boxes for **Microsoft Privacy Statement** and **Terms and Conditions** to accept the terms and proceed with the set up. You can read the privacy and preview conditions by selecting them. 
-
         > [!div class=mx-imgBorder]
         > ![select org](../media/select-org.png)
 
+       
+      You must select the check-boxes for **Microsoft Privacy Statement** and **Terms and Conditions** to accept the terms and proceed with the set up. You can read the privacy and preview conditions by selecting them in the **Terms & Conditions** section. 
+
+        > [!div class=mx-imgBorder]
+        > ![Preview terms](../media/preview-terms.png)
+        
       Select **Continue** to proceed.
 
    4. Ensure that the check box to enable **Chat** channel on your org is selected by default. Select **Continue** to proceed.
