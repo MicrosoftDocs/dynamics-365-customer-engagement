@@ -1,6 +1,6 @@
 ---
 title: "openFile (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
-ms.date: 01/25/2018
+ms.date: 01/25/2019
 ms.service: crm-online
 ms.topic: reference
 applies_to: Dynamics 365 for Customer Engagement
