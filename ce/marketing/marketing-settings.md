@@ -44,7 +44,7 @@ Domain authentication is important when you send marketing email messages becaus
 
 The primary purpose of these authentications is to detect forged messages and domains, and thereby prevent spam, phishing, and other fraudulent activity. A method called _DomainKeys Identified Mail_ (DKIM) helps make these authentications possible. Domain authentication is implemented through the internet DNS system, and is based on public/private key encryption and signatures.
 
-When you error check or go live with a marketing email message, the verification system makes sure the message uses a from-address that specifies an authenticated domain set up and confirmed in Dynamics 365 for Marketing. You'll get a warning if you try to send a message that uses an unauthenticated from-address.
+When you error check or go live with a marketing email message, the verification system makes sure the message uses a from-address that specifies an authenticated domain registered and confirmed for your organization. You'll get a warning if you try to send a message that has a from-address that has an unregistered domain; you'll get an error if you try to send a message that uses a from-address that uses a domain that is registered as belonging to another organization. You can ignore the warning (but will probably have low deliverability), but you can't go live with the error.
 
 To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md).
 
