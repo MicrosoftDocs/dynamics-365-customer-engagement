@@ -28,9 +28,7 @@ Quickly configure and add a live chat widget to your portal to chat with your cu
 1. In the omni-channel site map, go to **Work Streams** and select **New** from the command bar.
 2. On the **Summary** tab of the new work stream page, provide the name of the work stream.
 3. In the **Stream source** drop-down list, select **Live chat** as the channel.
-4. In the **Work distribution** section, select **Available** or **Busy** from the default **Allowed Presences**. 
-5. Configure the routing rules in the **Routing Rule Item** tab. To know more, see [Create and manage routing rules in Omni-channel](routing-rules.md).
-6. Select **Save** to save the live chat work stream.
+4. Select **Save** to save the live chat work stream.
 
    > [!div class=mx-imgBorder]
    > ![New workstream](../media/omni-channel-new-work-stream.png)
