@@ -34,7 +34,7 @@ Here are some of the main characteristics of omni-channel queues:
 - There is a default omni-channel queue for each organization. Admin users can't delete the default queue. By default, all omni-channel users are members of this queue. Therefore, the membership of this queue can't be changed. The default queue has the highest priority.
 
     > [!NOTE]
-    > When no queues or routing rules are defined, all conversations are collected in the default queue.
+    > When no queues or routing rules are defined, all conversations are collected in the **Default** queue.
 
 ## Create a new omni-channel queue
 
