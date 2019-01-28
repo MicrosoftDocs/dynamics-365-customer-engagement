@@ -2,7 +2,7 @@
 title: "Scheduling personas | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 1/23/2019
+ms.date: 1/28/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -45,7 +45,7 @@ Scheduler responsibilities can range between manually assigning all requirements
 - **A semi-automated approach** would be to use the Schedule Assistant tool that recommends available and most appropriate resources.
 - **A fully automated approach** would be to adopt Resource Scheduling Optimization (RSO) that automatically schedules requirements to the best resources based on predefined rules. Using more automated scheduling can lead to a reduction in  scheduler-to-resource ratio.
 
-In practice, there are typically people performing or overseeing the scheduling role, if even just to help manage exceptions. This is consistent across the industry and is supported by guidance from [industry analysts](https://1drv.ms/b/s!AhAjbOq5aB_lqUSVN-G0tXLUXzQn). Even with a high level of automation, schedulers are involved to help ensure optimization is meeting business objectives.
+In practice, there are typically people performing or overseeing the scheduling role, if even just to help manage exceptions. Even with a high level of automation, schedulers are involved to help ensure optimization is meeting business objectives.
 
 ## Scheduling analyst
 
