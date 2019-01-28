@@ -17,23 +17,24 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Omni-channel queues are used to collect conversations or customer queries, and distribute them to different groups of agents or teams. You can achieve optimum distribution in the many ways. Here are some examples:
+Omni-channel queues are used to collect conversations or customer queries, and distribute them to different groups of agents or teams. There are many ways in which you can achieve optimum distribution, like by creating different queues for different issue types. 
 
-- Create multiple queues for the same issue type. For example, for investment issues, you can create separate queues for experienced agents and new agents. Specific customer queries can then be directed to experienced agents, and generic or simpler queries can be directed to new agents.
-- Create queues for different issue types. For example, you can create separate queues for billing issues, investment issues, and so on.
+For example, you can create separate queues for billing issues, investment issues, and so on. So, when a customer query comes for a these issue types, they are routed to their designated queues.
     
-    > [!div class=mx-imgBorder]
-    > ![Omni-channel queues](../media/oc-queues.png)
+> [!div class=mx-imgBorder]
+> ![Omni-channel queues](../media/oc-queues.png)
 
 Here are some of the main characteristics of omni-channel queues:
 
-- You can assign priority to queues. All conversations in the same queue then have the same priority and will be serviced accordingly.
+- You can assign priority to queues. All conversations in a queue take the priority of the queue and are serviced accordingly.
 - All omni-channel queues are private. Only the members of a queue can view and work on the conversations in that queue.
 - Agents can have different work streams assigned to them in a queue.
-- There is a default omni-channel queue for each organization. Admin users can't delete the default queue. By default, all omni-channel users are members of this queue. Therefore, the membership of this queue can't be changed. The default queue has the highest priority.
 
-    > [!NOTE]
-    > When no queues or routing rules are defined, all conversations are collected in the default queue.
+## Default queue
+There is a default omni-channel queue for each organization. Admins can't delete the default queue. By default, all omni-channel users are members of the default queue. Therefore, the membership of this queue can't be changed.
+
+  > [!NOTE]
+  > When no queues or routing rules are defined, all conversations are collected in the **Default** queue.
 
 ## Create a new omni-channel queue
 
