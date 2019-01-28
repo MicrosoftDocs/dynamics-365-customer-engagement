@@ -49,5 +49,12 @@ You can configure your chat widget to show users a survey that they should respo
     > [!div class=mx-imgBorder]
     > ![Change the order of a question in a pre-chat survey](../media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
 
+
 ### See also
-[Create a survey questions library](create-question-library.md)
+
+[Add a chat widget](add-chat-widget.md) <br>
+[Create a survey questions library](create-question-library.md) <br>
+[Create quick replies](create-quick-replies.md) <br>
+[Create and manage operating hours](create-operating-hours.md) <br>
+[Create chat authentication settings](create-chat-auth-settings.md) <br>
+[Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)

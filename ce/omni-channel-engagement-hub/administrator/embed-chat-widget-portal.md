@@ -49,6 +49,10 @@ After the chat widget is configured, it has the following capabilities:
 - **Maximized mode**: A user can maximize the chat widget to start a conversation with an agent.
 
 - **System events**: System-generated messages are shown for events, such as when an agent joins a chat or a chat is transferred to another agent.
+
+    > [!div class=mx-imgBorder]
+    > ![System events in the chat widget](../media/chat-widget-system-events.png "System events in the chat widget")
+
 - **Pre-chat survey**: If a survey has been configured by an admin, it's shown to the user before the conversation is started. This survey also helps the user connect to an appropriate agent.
 
     > [!div class=mx-imgBorder]
@@ -59,3 +63,12 @@ After the chat widget is configured, it has the following capabilities:
 
 > [!NOTE]
 > For advanced configuration like embedding chat widget on specific web pages, see [Manage portal content](../../portals/manage-portal-content.md)
+
+### See also
+
+[Add a chat widget](add-chat-widget.md) <br>
+[Create a survey questions library](create-question-library.md) <br>
+[Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Create quick replies](create-quick-replies.md) <br>
+[Create and manage operating hours](create-operating-hours.md) <br>
+[Create chat authentication settings](create-chat-auth-settings.md) <br>
