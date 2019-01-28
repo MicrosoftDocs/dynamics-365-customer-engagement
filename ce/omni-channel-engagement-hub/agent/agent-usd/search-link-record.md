@@ -39,7 +39,7 @@ The inline search is based on the Lookup view. You can search the fields (attrib
 | Incident | Case number |  |
 |  | Title |  |
 
-Only active lookup views are displayed for the search results. Also, you can customize a the lookup views to change the searchable fields as per your business requirements.
+Only active lookup views are displayed for the search results. Also, you can customize the lookup views to change the searchable fields as per your business requirements.
 
 > [!div class=mx-imgBorder]
 > ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
