@@ -36,6 +36,44 @@ To find these settings, open **Settings** > **Advanced settings** and choose one
 
 See the remaining sections of this topic for information about how to work with each page in the **Marketing settings** section.
 
+<a href="authenticate"></a>
+
+## Authenticate your domains
+
+Domain authentication is important when you send marketing email messages because it enables recipient email servers to confirm that the from-address shown on each of your messages actually belongs to your organization, and that your organization has approved Dynamics 365 for Marketing to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
+
+The primary purpose of these authentications is to detect forged messages and domains, and thereby prevent spam, phishing, and other fraudulent activity. A method called _DomainKeys Identified Mail_ (DKIM) helps make these authentications possible. Domain authentication is implemented through the internet DNS system, and is based on public/private key encryption and signatures.
+
+When you error check or go live with a marketing email message, the verification system makes sure the message uses a from-address that specifies an authenticated domain set up and confirmed in Dynamics 365 for Marketing. You'll get a warning if you try to send a message that uses an unauthenticated from-address.
+
+To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md).
+
+To set up Dynamics 365 for Marketing and the DNS to authenticate marketing email messages from a given domain:
+
+1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Authenticated domains**. A list of existing authenticated domains opens.
+1. Select **New** on the command bar to add a new domain.
+1. A new authenticated domain record opens. In the **Domain name** field, enter the name of the domain you want to authenticate. This must be a domain that your organization owns, and which you can access through your DNS provider.
+1. Select **Save** from the command bar. Dynamics 365 for Marketing saves the new record and generates a set of authentication keys for your specified domain. The page reloads to show the new keys. The following are provided:
+    - **Ownership authentication key**: Proves that your organization owns the domain.
+    - **Email authentication keys for DKIM**: Prove that Dynamics 365 for Marketing is authorized to send messages that show your organization's domain name in the from-address.
+1. Contact your DNS provider and tell them you are setting up domain authentication and DKIM so that you can do email marketing with Dynamics 365 for Marketing. They will provide you with an online form where you can submit the values now being provided for you by Dynamics 365 for Marketing. Follow the instructions provided by your DNS provider to register all these values. (If your DNS registration is already configured a key that match one of the new ones you are registering now, then keep the existing key and append the new value(s) to form a comma-separated list for it.)
+1. When you are done registering the values with your DNS provider, return to your authenticated-domain record in Dynamics 365 for Marketing and select **Confirm DNS registration** on the command bar. Dynamics 365 checks to make sure the values are correctly set up and active in the DNS system. If you get a success message, then everything is working and you're done. DNS registration may require up to 24 hours to take effect, so try again later if your registration isn't confirmed right away.
+
+Set up as many authenticated domains as you need to cover all the from-addresses you use in your marketing emails.
+
+As you are setting up an authenticated domain, you can track the progress of both its **Ownership status** and **Email status** , each of which is reported as one of the following:
+
+| **Status** | **Description** |
+| --- | --- |
+| Waiting to confirm | The system has generated the keys you requested and is waiting for you to register them with your DNS provider and then return here to confirm them (by selecting **Confirm DNS registration** on the command bar). |
+| Confirmed | The authentication keys have been registered with DNS and confirmed in Dynamics 365 for Marketing. This domain is ready to use. |
+| Cancelled | The registration was cancelled. |
+| Not requested | You didn't request this type of authentication. |
+| Confirming DNS registration | Dynamics 365 for Marketing is working to confirm the registration with DNS. |
+| Keys not found on DNS | Dynamics 365 for Marketing successfully checked for the keys in the DNS system, but they weren't there. This may be because your key registrations are still being implemented by the DNS (allow up to 24 hours). It could also mean that you haven't registered the keys or that something went wrong while you were entering them. You can check again by selecting   **Confirm DNS registration** on the command bar. If problems persist after 24 hours, please contact Microsoft Support and/or your DNS provider for assistance. |
+| Internal error (record not found) | An internal error occurred while confirming the DNS registration. Please contact Microsoft Support for assistance. |
+| Internal error (query failed) | An internal error occurred while confirming the DNS registration. Please contact Microsoft Support for assistance. |
+
 ## CDS-A connector settings
 
 Use these settings to connect your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance to [!include[](../includes/pn-azure-blob-storage.md)]. This will enable you to share interaction data with external systems such as [!include[](../includes/pn-power-bi.md)]. For more information about how to use these settings, see [Create custom analytics with Power BI](custom-analytics.md).
