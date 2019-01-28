@@ -95,6 +95,7 @@
 ## [Schedule optimization](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)
 ### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
+## [Best practices](rso-best-practices.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
 # [Connected Field Service (IoT) add-in](connected-field-service.md)
