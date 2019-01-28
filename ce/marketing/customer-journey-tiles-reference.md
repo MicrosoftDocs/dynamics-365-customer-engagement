@@ -246,7 +246,7 @@ Scheduler tiles provide the following settings in the **Properties** pane while 
 - **Restriction Window**: This setting is available for both **Duration** and **Date & Time** schedulers when they are set to **Advanced**. It establishes rules about which day or the week and/or time of day contacts will be released by the scheduler. To open it, click on the **Advanced** link in the **Duration** or **Date & Time** section. Use these settings to restrict the set of week days and/or times when contacts will first be released by the scheduler. This might result in a slightly longer delay. For example, you might set the scheduler to hold contacts for at least 7 days, but then release them on the first Monday, Wednesday, or Friday afternoon after that.
 - **Description**: Add a description or other notes here (optional).
 
-<a name="trigger">
+<a name="trigger"></a>
 
 ### Trigger
 
