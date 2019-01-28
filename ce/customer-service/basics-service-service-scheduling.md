@@ -1,11 +1,11 @@
 ---
 title: Overview of Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know the basics of service and service scheduling in Dynamics 365 for Customer Service
-keywords: Service scheduling; Dynamics 365; Customer Service; Universal Resource Scheduling (URS)
+keywords: Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018
@@ -22,7 +22,7 @@ search.app:
   - D365CS
 ---
 
-# Service Scheduling overview
+# Service Scheduling Guide
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -170,14 +170,14 @@ Make sure that you have the required security role or equivalent permissions.
 
     a. Access the [Dynamics Insider Portal](http://experience.dynamics.com/insider). </br>
     b. Log in with your Insider credentials. </br>
-    c. On the Insider home page, search for **Dynamics 365 Service Scheduling**. </br>
+    c. On the Insider home page, search for **Dynamics 365 for Customer Engagement Service Scheduling**. </br>
     d. Select the program link in the search results and select **Join Now**. 
     This will add you as a participant to the program. </br>
     e. On the program page, sign-up to enable Service Scheduling on URS. The link will open a simple questionnaire and one of the questions is the instance URL; provide the URL of the instance. </br>
     
-    As we receive your details, we will enable the Service Scheduling package on your Dynamics 365 instance and you will recieve a confirmation email from Microsoft.
+    As we receive your details, we will enable the Service Scheduling package on your Dynamics 365 for Customer Engagement instance and you will recieve a confirmation email from Microsoft.
 
-    Once you receive the email, you can access your Dynamics 365 Admin portal to install Dynamics 365 Service Scheduling on the enabled instance. 
+    Once you receive the email, you can access your Dynamics 365 for Customer Engagement Admin portal to install Dynamics 365 for Customer Engagement Service Scheduling on the enabled instance. 
 
 
   
@@ -198,7 +198,7 @@ Make sure that you have the correct security role or equivalent permissions. Kno
 > If you have been using the legacy scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity.
 
 ### Migrate Service Activity
-To know how to migrate your service activity entity records from legacy to new experience by running SDK code samples, see [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
+To know how to migrate your service activity entity records from legacy to new experience by running SDK code samples, see [Migrate Service Activity entity](migrate-service-activity-entity.md).
 
 ## Access scheduling in the Customer Service Hub
 With the Customer Engagement apps version 9.1 release, Scheduling is powered by Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
@@ -238,10 +238,15 @@ Scheduling entities are grouped under the following logical groups:
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)
 
+- **Fulfillment Preferences** </br>
+    Choose and customize how to display schedule assistant results, like with neat hourly appointments or morning and afternoon time windows.
+
+    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
+
 **Tools**
 
 - **Schedule Board** </br>
-   The Dynamics 365 schedule board provides an overview of resource availability and bookings you can make. 
+   The Dynamics 365 for Customer Engagement schedule board provides an overview of resource availability and bookings you can make. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)
 

@@ -1,26 +1,26 @@
 ---
-title: "Link custom attributes of the recurring appointment master and appointment entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Link custom attributes of the recurring appointment master and appointment entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Link the custom attributes of the RecurringAppointmentMaster entity with custom attributes of the Appointment entity to automatically copy data."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
   - "custom attributes, 1:1 mapping between"
-  - "schedule and appointment entities, linking custom attributes of a recurring appointment master (series)"
-  - "linking custom attributes of a recurring appointment master (series)"
-  - "schedule and appointment entities, custom attributes of a recurring appointment master"
-  - "custom attributes, affect of field-level security on"
+  - schedule and appointment entities, linking custom attributes of a recurring appointment master (series)
+  - linking custom attributes of a recurring appointment master (series)
+  - schedule and appointment entities, custom attributes of a recurring appointment master
+  - custom attributes, affect of field-level security on
 ms.assetid: 0480c355-6954-472c-8c9e-2129a3684364
 caps.latest.revision: 18
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

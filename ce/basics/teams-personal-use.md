@@ -9,12 +9,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement apps"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
-author: "jimholtz"
-ms.author: "jimholtz"
+author: "mduelae"
+ms.author: "mkaur"
 manager: "kvivek"
 search.audienceType: 
   - enduser
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Use the personal dashboard
+# Use the personal dashboard 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -36,10 +36,10 @@ Select the **Conversation** tab to access the bot as described above.
 
 ## My Dashboard tab
 
-Select the **My Dashboard** tab to view your Dynamics 365 dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
+Select the **My Dashboard** tab to view your Dynamics 365 for Customer Engagement apps dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
 
 > [!div class="mx-imgBorder"]
-![Dynamics 365 dashboard](media/teams-bot-dashboard.png "Dynamics 365 dashboard")
+![Dynamics 365 for Customer Engagement apps dashboard](media/teams-bot-dashboard.png "Dynamics 365 for Customer Engagement apps dashboard")
 
 ## Settings tab
 
@@ -49,7 +49,7 @@ If you have more than one organization or Unified Interface app, you can use the
 ![Dashboard settings](media/teams-settings-page.png "Dashboard settings")
 
 > [!NOTE]
-> - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+> - Only Dynamics 365 for Customer Engagement version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
 > - Only Unified Interface apps are listed.
 > - Only app modules licensed for the selected organization are listed. 
 

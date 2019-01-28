@@ -1,22 +1,22 @@
 ---
-title: "Main form presentations in PowerApps | MicrosoftDocs"
+title: "Main form presentations | MicrosoftDocs"
 description: "Learn how main forms appear when displayed on different devices"
-ms.custom: ""
-ms.date: 04/10/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 12/04/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: da3ac59a-5413-46cb-b355-1987e42e3853
 caps.latest.revision: 35
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-The main form is used by all model-driven app clients. This form provides a consistent user experience whether someone is using a web browser,  [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
+The main form is used by all app clients. This form provides a consistent user experience whether someone is using a web browser,  [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
 
 <a name="BKMK_MainFormPresentations"></a>   
 ## Main forms  
@@ -44,7 +44,7 @@ The main form is used by all model-driven app clients. This form provides a cons
 ## Updated forms  
  This diagram represents common components found in updated entity forms.  
 
- ![Diagram shows Updated entity form structure in Dynamics 365](../customize/media/updated-form-diagram.png "Diagram shows Updated entity form structure in Dynamics 365")  
+ ![Diagram shows Updated entity form structure in Dynamics 365 for Customer Engagement](../customize/media/updated-form-diagram.png "Diagram shows Updated entity form structure in Dynamics 365 for Customer Engagement")  
 
  For updated entities, the layout of the form works with a wide range of displays and window sizes. As the width of window decreases, tab columns move down so that you can scroll down to work with them instead of being compressed or requiring you to scroll to the right.  
 
@@ -84,15 +84,15 @@ The main form is used by all model-driven app clients. This form provides a cons
 
  **Web app**  
 
- ![Dynamics 365 form reflow from web app](../customize/media/custon-reflow-web-app.png "Dynamics 365 form reflow from web app")  
+ ![Dynamics 365 for Customer Engagement form reflow from web app](../customize/media/custon-reflow-web-app.png "Dynamics 365 for Customer Engagement form reflow from web app")  
 
  **Tablet app**  
 
- ![Dynamics 365 form reflow to tablet app](../customize/media/reflow-tablet-app.png "Dynamics 365 form reflow to tablet app")  
+ ![Dynamics 365 for Customer Engagement form reflow to tablet app](../customize/media/reflow-tablet-app.png "Dynamics 365 for Customer Engagement form reflow to tablet app")  
 
  **Phone app**  
 
- ![Dynamics 365 form reflow to phone app](../customize/media/custon-reflow-phone-app.png "Dynamics 365 form reflow to phone app")  
+ ![Dynamics 365 for Customer Engagement form reflow to phone app](../customize/media/custon-reflow-phone-app.png "Dynamics 365 for Customer Engagement form reflow to phone app")  
 
  The form elements are transformed to a wide panorama layout in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], where users swipe the screen to change elements visible within a view port. In [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], users swipe the screen to see a different column, or pane of elements, and the process control appears over every column.  
 

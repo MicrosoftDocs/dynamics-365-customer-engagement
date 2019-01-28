@@ -1,9 +1,9 @@
 ---
-title: "Web Form subgrid configuration for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Web Form subgrid configuration for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to add and configure web form subgrids for a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -29,7 +29,7 @@ Adding subgrids to your managed forms on the portal is easy—just add the subgr
 
 ## Add subgrid metadata to your form
 
-To add subgrid metadata to an entity form, go to **Entity Form Metadata** by using either the top drop-down list or the subgrid on the main form of the record that you are working with. [!include[](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md).
+To add subgrid metadata to an entity form, go to **Entity Form Metadata** by using either the top drop-down list or the subgrid on the main form of the record that you are working with. [!include[](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md).
 
 To add a new record, select **Add New Entity Form Metadata**.
 
@@ -47,7 +47,7 @@ Selecting the subgrid in the form editor will display a properties window. This 
 
 Specifying a valid subgrid name will display the subgrid configuration settings. By default, only **Basic Settings** are shown. Select **Advanced Settings** to show additional settings.
 
-By default, most settings are shown collapsed to save space. Select **""** to expand a section and see additional options. Select **""** to collapse the section.
+By default, most settings are shown collapsed to save space. Select **** to expand a section and see additional options. Select **** to collapse the section.
 
 ## Attributes
 
@@ -134,14 +134,14 @@ Enabling an **Associate action** displays a button above the subgrid that, when 
 | Name                     | Description                                                                                                                                 |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | Title                    | Overrides the HTML that appears in the title bar of the dialog box.                                                                             |
-| Primary Button Text      | Overrides the HTML that appears in the Primary ("Add") button on the dialog box.                                                                |
-| Close Button Text        | Overrides the HTML that appears in the Close ("Cancel") button on the dialog box.                                                               |
+| Primary Button Text      | Overrides the HTML that appears in the Primary (Add) button on the dialog box.                                                                |
+| Close Button Text        | Overrides the HTML that appears in the Close (Cancel) button on the dialog box.                                                               |
 | Dismiss Button Sr Text   | Overrides the screen reader text associated with the dialog box's Dismiss button.                                                               |
 | Size                     | Specifies the size of the Associate dialog box. The Options are Default, Large, and Small. The default size is Large. |
 | CSS Class                | Specify a CSS class or classes that will be applied to the resulting dialog box.                                                                |
 | Title CSS Class          | Specify a CSS class or classes that will be applied to the resulting dialog box's title bar.                                                    |
-| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary ("Add") button.                                                 |
-| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close ("Cancel") button.                                                |
+| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary (Add) button.                                                 |
+| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close (Cancel) button.                                                |
 | Select Records Title     | Overrides the HTML that appears in the title of the Record Selection area.                                                                  |
 | Default Error Message    | Overrides the message that appears when an error occurs while associating the selected entity or entities.                                  |
 | Grid Options             | Specify settings for the appearance of the entity grid. See below for options.                                                              |
@@ -236,14 +236,14 @@ Enabling a **Delete action** allows a user to permanently delete the entity repr
 | Name                     | Description                                                                                                                             |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Title                    | Overrides the HTML that appears in the title bar of the dialog box.                                                                         |
-| Primary Button Text      | Overrides the HTML that appears in the Primary ("Delete") button on the dialog box.                                                         |
-| Close Button Text        | Overrides the HTML that appears in the Close ("Cancel") button on the dialog box.                                                           |
+| Primary Button Text      | Overrides the HTML that appears in the Primary (Delete) button on the dialog box.                                                         |
+| Close Button Text        | Overrides the HTML that appears in the Close (Cancel) button on the dialog box.                                                           |
 | Dismiss Button Sr Text   | Overrides the screen reader text associated with the dialog box's Dismiss button.                                                           |
 | Size                     | Specifies the size of the Delete dialog box. The Options are Default, Large, and Small. The default size is Default. |
 | CSS Class                | Specify a CSS class or classes that will be applied to the resulting dialog.                                                            |
 | Title CSS Class          | Specify a CSS class or classes that will be applied to the resulting dialog box's title bar.                                                |
-| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary ("Delete") button.                                          |
-| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close ("Cancel") button.                                            |
+| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary (Delete) button.                                          |
+| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close (Cancel) button.                                            |
 ||
 
 ## Workflow action
@@ -278,8 +278,8 @@ Enabling a **Disassociate action** allows a user to remove the link between the 
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

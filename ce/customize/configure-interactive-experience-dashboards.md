@@ -1,20 +1,20 @@
 ---
-title: "Configure interactive experience dashboards in Dynamics 365 for Customer Engagement | Microsoft Docs"
-description: "Know how to configure interactive experience dashboards in Dynamics 365 for Customer Engagement"
-keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Interactive service hub
+title: "Configure interactive experience dashboards in Dynamics 365 for Customer Engagement for Customer Engagement | Microsoft Docs"
+description: "Know how to configure interactive experience dashboards in Dynamics 365 for Customer Engagement for Customer Engagement"
+keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Interactive service hub
 author: Mattp123
 ms.author: matp
 manager: kvivek
-ms.custom: ""
+ms.custom: 
 ms.date: 11/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 search.audienceType: 
   - customizer
@@ -154,7 +154,7 @@ The following procedure provides the steps to enable the security roles for the 
   
 ### Configure a multi-stream interactive dashboard using the 4-column layout  
  
-1. Sign in to Dynamics 365 for Customer Engagement.
+1. Sign in to Dynamics 365 for Customer Engagement for Customer Engagement.
 
 2. Go to **Settings** > **Customizations** > **Customize the System**.  
   

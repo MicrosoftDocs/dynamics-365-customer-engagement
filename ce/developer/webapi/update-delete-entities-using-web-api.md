@@ -1,20 +1,20 @@
 ---
-title: "Update and delete entities using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Update and delete entities using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how to perform update and delete operations on entities using the Web API"
-ms.custom: ""
+ms.custom: 
 ms.date: 05/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 694889fd-2b85-43a0-97bc-1e760695db31
 caps.latest.revision: 17
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -75,7 +75,7 @@ OData-Version: 4.0
 > [!NOTE]
 >  This capability was added with [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)].  
 
- To retrieve data from an entity you are updating you can compose your PATCH request so that data from the created record will be returned with a status of 200 (OK).  To get his result, you must use the `return=representation` preference in the request headers.  
+ To retrieve data from an entity you are updating, you can compose your PATCH request so that data from the created record will be returned with a status of 200 (OK). To get this result, you must use the `return=representation` preference in the request headers.  
 
  To control which properties are returned, append the `$select` query option to the URL to the entity set.  The `$expand` query option will be ignored if used.  
 

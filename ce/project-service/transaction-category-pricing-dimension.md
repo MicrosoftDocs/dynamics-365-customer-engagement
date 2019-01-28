@@ -2,7 +2,7 @@
 title: Use transaction category as a pricing dimension
 description: This topic provides information about using a transaction category as a pricing dimension.
 author: Rumant
-manager: eichimur
+manager: kfend
 ms.custom:
   - dyn365-projectservice
 ms.date: 11/19/2018
@@ -31,7 +31,7 @@ The following table is a comprehensive list of the out-of-the box forms and view
 |  Role Price|• Information |• Active Resource Category Prices<br> • Resource Category Price Associated View|
 |  Role Price Markup|• Information|• Active Role Price Markup<br>• Role Price Markup Associated View|
 |  Quote line detail|• Project Information<br>• Project Quick Create|• Active Quote Line Detail<br>• Combined Quote Line Details<br>• Quote Line Detail associated view|
-|  Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Invoice line Details<br>• Active Invoice Line Details<br>• Invoice Line Detail associated view|
+|  Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Contract line Details<br>• Active Contract Line Details<br>• Contract Line Detail associated view|
 |  Project Team Member|• Information<br>• New Form|• Active Project Team Members<br>• Project Team Members<br>• Project Team members associated View|
 |  Time Entry|• Information<br>• Create Time Entry|• My Time Entries By Date<br>• My time Entries for this week<br>• Time entries for approval|
 |  Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|

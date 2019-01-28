@@ -2,13 +2,13 @@
 title: "Controls collection (Client API reference)| MicrosoftDocs"
 description: "Learn about how to access controls associated with attributes."
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: d5f3c0c5-b267-42a8-82e8-8c4a1cda3752
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

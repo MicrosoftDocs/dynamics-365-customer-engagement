@@ -2,7 +2,7 @@
 title: Update plug-in attributes to include new pricing dimensions
 description: This topic provides information about updating plug-in attributes for pricing dimensions. 
 author: Rumant
-manager: eichimur
+manager: kfend
 ms.custom:
   - dyn365-projectservice
 ms.date: 11/19/2018
@@ -24,6 +24,8 @@ search.app:
 
 > [!NOTE]
 > If you are not using the Project Service Automation (PSA) Quoting and Contracting features, you can skip this topic.
+
+This topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities.md), [Add custom fields to price setup and transactional entities](field-references.md), and [Set up custom fields as pricing dimensions](set-up-pricing-dimensions.md). If you haven't completed those procedures, go back and complete them and then return to this topic.
 
 When a quote line detail is created on the **Quote Line** page for a project quote line, the system creates two estimate lines in the background -- one line for the cost side of the estimate and one for sales side. This is the same  for project contract lines.
 

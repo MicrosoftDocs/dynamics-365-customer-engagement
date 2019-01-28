@@ -1,20 +1,20 @@
 ---
-title: "Volume licensing FAQ for Dynamics 365 (online) | MicrosoftDocs"
-ms.custom: ""
+title: "Volume licensing FAQ for Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: bb11b898-55d2-4afa-a09b-0b7965145e88
 caps.latest.revision: 19
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -39,7 +39,7 @@ As of the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], D
 1. Place an order through a Microsoft Licensing Solutions Partner for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] licenses.  
   
    > [!IMPORTANT]
-   >  It is important to order (at minimum) the same number of licenses and add-ons that you currently have to ensure that you do not lose data. For example, if you have 50 Professional licenses, 3 additional production instances, and 5 GB of storage, be sure to order the same number of licenses and add-ons (or more).  
+   >  It is important to order (at minimum) the same number of licenses and add-ons that you currently have to ensure that you do not lose data. For example, if you have 50 Professional licenses, 3 additional Production instances, and 5 GB of storage, be sure to order the same number of licenses and add-ons (or more).  
   
 2. Once the order has been invoiced, the Online Service Manager (OSM) identified on the enterprise agreement will receive an activation email, which allows the OSM to sign in to the existing [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] account and associate the new licenses to it. The new order will pool with your existing licenses, but does not cancel the direct purchase subscription.  
   

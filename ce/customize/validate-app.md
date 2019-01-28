@@ -1,16 +1,16 @@
 ---
 title: "Validate and publish a model-driven app using the app designer | MicrosoftDocs"
 description: "Learn how to validate and publish a model-driven app"
-keywords: ""
-ms.date: 04/16/2018
+keywords: 
+ms.date: 01/11/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 5a9ec120-9ddc-4d92-b48c-0fee8c57d3c3
 ms.author: matp
 manager: kvivek

@@ -1,11 +1,11 @@
 ---
-title: Common field properties in Dynamics 365 for Customer Engagement | MicrosoftDocs
-description: Understand the Common field properties for Main form in Dynamics 365 for Customer Engagement
-Keywords: Main form; Common field properties; Dynamics 365
+title: Common field properties in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs
+description: Understand the Common field properties for Main form in Dynamics 365 for Customer Engagement for Customer Engagement
+Keywords: Main form; Common field properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: matp
 manager: kvivek
 ms.date: 04/02/2018
@@ -19,7 +19,7 @@ search.app:
 ---
 # Common field properties
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  Fields in a form display controls people use to view or edit data in an entity record. Fields can be formatted to occupy up to four columns within a section.  
 

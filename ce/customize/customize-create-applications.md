@@ -1,27 +1,31 @@
 ---
-title: "Change navigation within a form (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Change navigation within a form (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
+ms.date: 11/28/2017
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4c379202-9f0e-4003-a49c-efff53e7f79f
 caps.latest.revision: 63
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: matp
+manager: kvivek
+author: Mattp123
 search.audienceType: 
   - customizer
 search.app: 
   - D365CE
 ---
 
-> [!NOTE]
-> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon")  [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
+# Customize or create apps
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+This section describes how to create apps and the components that you include in an app such as forms, views, charts, and dashboards.
+
+### See also
+[Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)

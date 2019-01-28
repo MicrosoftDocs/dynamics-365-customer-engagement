@@ -2,7 +2,7 @@
 title: Use bookable resource as a pricing dimension
 description: This topic provides information about using a bookable resource as a pricing dimension.
 author: Rumant
-manager: eichimur
+manager: kfend
 ms.custom:
   - dyn365-projectservice
 ms.date: 11/06/2018
@@ -33,7 +33,7 @@ Open Solution Explorer for the pricing dimension solution and then click **Publi
 |  Role Price|• Information |• Active Resource Category Prices<br> • Resource Category Price Associated View|
 |  Role Price Markup|• Information|• Active Role Price Markup<br>• Role Price Markup Associated View|
 |  Quote line detail|• Project Information<br>• Project Quick Create|• Active Quote Line Detail<br>• Combined Quote Line Details<br>• Quote Line Detail associated view|
-|  Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Invoice line Details<br>• Active Invoice Line Details<br>• Invoice Line Detail associated view|
+|  Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Contract line Details<br>• Active Contract Line Details<br>• Contract Line Detail associated view|
 |  Project Team Member|• Information<br>• New Form|• Active Project Team Members<br>• Project Team Members<br>• Project Team members associated View|
 |  Time Entry|• Information<br>• Create Time Entry|• My Time Entries By Date<br>• My time Entries for this week<br>• Time entries for approval|
 |  Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|
@@ -43,7 +43,7 @@ Open Solution Explorer for the pricing dimension solution and then click **Publi
 ## Set up bookable resource as a pricing dimension
 
 1. In the web interface, go to **Project Service** > **Settings** > **Parameters**. On the **Parameter** page, on the **Amount-Based Pricing Dimensions** tab, notice that the grid on the tab shows the records in the pricing dimensions entity. 
-2. Add **Bookable Resource** to this list of pricing dimensions as **msydyn_bookableresource**. 
+2. Add **Bookable Resource** to this list of pricing dimensions as **msdyn_bookableresource**. 
 3. Indicate the context in which the bookable resource works as a pricing dimension and set the **Applicable to cost** and **Applicable to sales** values.
 4. In the **Dimension Type** field, select **Amount-based**. 
 5. Select the cost and sales priority for the bookable resource. Typically, when included as a pricing dimension, a bookable resource has the highest priority so setting this to **1** (or **0** depending on how you count the priority) would ensure that behavior.

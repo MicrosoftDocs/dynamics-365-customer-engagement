@@ -1,11 +1,11 @@
 ---
 title: Create or change a service in Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to create or change a service in service scheduling in Dynamics 365 for Customer Service
-keywords: Service management; Dynamics 365; Customer Service; Service scheduling
+keywords: Service management; Dynamics 365 for Customer Engagement; Customer Service; Service scheduling
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamiccs 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamiccs 365 Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018
@@ -66,6 +66,7 @@ Make sure that you have the required security role or equivalent permissions.
       ![Resource requirement](media/resource-requirement-csh.png)
 
       - Select **All** or **Any**. All selects resources for all the underlying requirements and Any selects resources for any one of underlying requirement.
+
       - Select **Duration**, and enter the duration in minutes to define the duration for which resources are allocated for the service. 
 
         > [!NOTE]

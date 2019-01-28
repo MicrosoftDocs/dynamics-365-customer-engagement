@@ -1,27 +1,27 @@
 ---
-title: "Microsoft Dynamics 365 language support | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/01/2018"
-ms.prod: "crm-2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Microsoft Dynamics 365 for Customer Engagement language support | Microsoft Docs"
+ms.custom: 
+ms.date: 10/01/2018
+ms.prod: crm-2016
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: 4d5a67ea-55ab-4bdc-b905-3ba75d3889d3
 caps.latest.revision: 20
 author: Mattp123
 ms.author: matp
 ---
-# Microsoft Dynamics 365 language support
+# Microsoft Dynamics 365 for Customer Engagement language support
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 This section describes the supported configurations for different language versions of a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system. It doesn’t include information about [!INCLUDE[pn_Microsoft_Dynamics_CRM_Language_Pack](../includes/pn-microsoft-dynamics-crm-language-pack.md)] support, but instead explains the supported configurations for the base-language versions. For more information about [!INCLUDE[pn_Microsoft_Dynamics_CRM_Language_Pack](../includes/pn-microsoft-dynamics-crm-language-pack.md)], see [Install and deploy a Language Pack](install-and-enable-a-language-pack.md).  
   
 <a name="BKMK_SrvrLangReq"></a>   
-## Microsoft Dynamics 365 Server language requirements  
+## Microsoft Dynamics 365 for Customer Engagement Server language requirements  
  The following requirements must be met when you run  [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] with applications such as [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. Note that all available [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] languages are supported.  
   
 |[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] product|Requirement|  
@@ -57,6 +57,6 @@ This section describes the supported configurations for different language versi
 -   [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)]  
   
 ## See also     
- [Microsoft Dynamics 365 system requirements and required technologies](system-requirements-required-technologies.md)   </br>
+ [Microsoft Dynamics 365 for Customer Engagement system requirements and required technologies](system-requirements-required-technologies.md)   </br>
  [User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
 

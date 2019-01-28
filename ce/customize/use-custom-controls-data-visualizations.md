@@ -1,22 +1,22 @@
 ---
-title: "Use custom controls for data visualizations in PowerApps | MicrosoftDocs"
+title: "Use custom controls for data visualizations | MicrosoftDocs"
 description: "Learn how to use custom controls for fields"
-ms.custom: ""
-ms.date: 04/24/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/10/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.assetid: 0d6064cd-4d38-4fc2-a564-735cb453a4b2
 caps.latest.revision: 8
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Custom controls let you transform fields that traditionally contain text into visualizations. Similarly, you can use custom controls to transform datasets, such as a view, to display in a more visual rendering rather than a list of records. Custom controls can appear as visualizations on forms, dashboards, views, and homepage grids. You can set one type of custom control to appear in the web browser client while having a different custom control appear in your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] phone or  tablet mobile apps. For example, you could use a number input custom control for a field in web browser clients and a slider custom control for the phone app. After the customization is published, users can fully interact with the control to change the value, such as by sliding the control when using the linear slider custom control. Changes are automatically saved when the form is closed just as they are when the user changes a traditional  field on a form.  
+Custom controls let you transform fields that traditionally contain text into visualizations. Similarly, you can use custom controls to transform datasets, such as a view, to display in a more visual rendering rather than a list of records. Custom controls can appear as visualizations on forms, dashboards, views, and homepage grids. You can set one type of custom control to appear in the web browser client while having a different custom control appear in your [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] phone or  tablet mobile apps. For example, you could use a number input custom control for a field in web browser clients and a slider custom control for the phone app. After the customization is published, users can fully interact with the control to change the value, such as by sliding the control when using the linear slider custom control. Changes are automatically saved when the form is closed just as they are when the user changes a traditional  field on a form.  
   
  ![Custom slider control](../customize/media/slider-control.PNG "Custom slider control")  
   
@@ -69,7 +69,7 @@ Custom controls let you transform fields that traditionally contain text into vi
   
    - **Step**. This represents the unit to increment or decrement when adding to or subtracting from  the current value. For example, for budget amount you can select 100 dollar increments\decrements.  
   
-   - **Hide Default Control**. Selecting this option hides the control so neither the control or the data is displayed in any of the clients that don't support the custom control. Notice that  the classic [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] web client doesn't support most custom controls. By default, this option is not selected and the classic [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] web client displays the default, typically text based, control.  
+   - **Hide Default Control**. Selecting this option hides the control so neither the control or the data is displayed in any of the clients that don't support the custom control. Notice that  the classic [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] web client doesn't support most custom controls. By default, this option is not selected and the classic [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] web client displays the default, typically text based, control.  
   
        > [!NOTE]
        >  The default control is identified with **(default)** following the control name.  
@@ -92,4 +92,4 @@ Custom controls let you transform fields that traditionally contain text into vi
 ### See also  
  [Create and edit views](../customize/create-edit-views.md)</br>
  [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)</br>
- [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)
+ [Make grids (lists) editable in Dynamics 365 for Customer Engagement apps using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)

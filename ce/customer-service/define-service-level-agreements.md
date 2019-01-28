@@ -1,11 +1,11 @@
 ---
 title: Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to define service level agreements in Dynamics 365 for Customer Service
-keywords: Service leve agreements; Dynamics 365; Customer Service; Create a standard SLA ; Create an enhanced SLA ; How is the SLA applied  ; Apply SLA on demand
+keywords: Service leve agreements; Dynamics 365 for Customer Engagement; Customer Service; Create a standard SLA ; Create an enhanced SLA ; How is the SLA applied  ; Apply SLA on demand
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -140,7 +140,7 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
 
       For example, the conditions could be as shown here.  
 
-      ![When a KPI will be applied in Dynamics 365](../customer-service/media/crm-ua-sla-details-applicable-when.png "When a KPI will be applied in Dynamics 365")  
+      ![When a KPI will be applied in Dynamics 365 for Customer Engagement](../customer-service/media/crm-ua-sla-details-applicable-when.png "When a KPI will be applied in Dynamics 365 for Customer Engagement")  
 
      > [!NOTE]
      >  If there are multiple clauses, and you don’t use AND or OR grouping, by default the clauses will use the AND grouping.  
@@ -231,7 +231,7 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
 
       For example, the conditions could be as follows.  
 
-     ![When a KPI will be applied in Dynamics 365](../customer-service/media/crm-ua-sla-details-applicable-when.png "When a KPI will be applied in Dynamics 365")  
+     ![When a KPI will be applied in Dynamics 365 for Customer Engagement](../customer-service/media/crm-ua-sla-details-applicable-when.png "When a KPI will be applied in Dynamics 365 for Customer Engagement")  
 
    - In the **Success Criteria** section, specify the conditions to define when the KPI will be considered as met. For example, the conditions could be as follows.  
 

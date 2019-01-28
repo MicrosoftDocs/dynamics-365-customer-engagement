@@ -1,22 +1,22 @@
 ---
-title: "Virtual entity walkthrough using the OData Data Provider in PowerApps | MicrosoftDocs"
+title: "Virtual entity walkthrough using the OData Data Provider | MicrosoftDocs"
 description: "Learn how to use the OData v4 data provider with a virtual entity"
-ms.custom: ""
-ms.date: 04/26/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/14/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.assetid: 
 caps.latest.revision: 11
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -29,7 +29,7 @@ search.app:
 
 ## About this virtual entity walkthrough
 
-Imagine that you want to access ticket information from an external data source within your model-driven app or the Service area of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for Customer Engagement. In this simple walkthrough, you'll model a virtual entity with fields mapped to the external schema that retrieves ticket data at runtime from an OData web service.
+Imagine that you want to access ticket information from an external data source within your model-driven app or the Service area of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. In this simple walkthrough, you'll model a virtual entity with fields mapped to the external schema that retrieves ticket data at runtime from an OData web service.
 
 ## Data source details
 
@@ -164,7 +164,7 @@ On the Solution Explorer window select **Publish All Customizations**.
 
 After all customizations are published, close the Solution Explorer window.
 
-## View the virtual entity in action with Dynamics 365 customer engagement
+## View the virtual entity in action with Dynamics 365 for Customer Engagement apps
 
 Go to **Service** > **Extensions** > **Tickets**.
 

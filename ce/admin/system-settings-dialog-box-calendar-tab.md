@@ -1,20 +1,20 @@
 ---
-title: "System Settings dialog box - Calendar tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "System Settings dialog box - Calendar tab for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: e7e20147-aef3-41d8-b290-1e6108611b1b
 caps.latest.revision: 15
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Use the settings on this page to configure calendar settings for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+Use the settings on this page to configure calendar settings for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
 ## Open the Calendar System Settings dialog box (if it isn’t already open)  
   
@@ -44,7 +44,7 @@ Use the settings on this page to configure calendar settings for [!INCLUDE[pn_mi
 |                  Settings                  |                                                                                                                                                                          Description                                                                                                                                                                           |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |         **Set scheduling options**         |                                                                                                                                                                                                                                                                                                                                                                |
-| Maximum duration of an appointment in days | [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users can create appointments to meet or talk to customers. Users create these appointments on the Service Calendar or in the Activities area.<br /><br /> You can use this setting to control the maximum number of days that your users can schedule an appointment for. The default is 10 days. |
+| Maximum duration of an appointment in days | [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps users can create appointments to meet or talk to customers. Users create these appointments on the Service Calendar or in the Activities area.<br /><br /> You can use this setting to control the maximum number of days that your users can schedule an appointment for. The default is 10 days. |
   
 ### See also  
  [Create or edit an appointment](../basics/create-edit-appointment.md)

@@ -1,20 +1,20 @@
 ---
-title: "Field level security for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
-ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Field level security for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
+ms.date: 01/25/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 7b3e2bc3-6197-4afe-953a-62f6694899ed
 caps.latest.revision: 20
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -60,17 +60,17 @@ A security profile determines the following:
 A combination of these three permissions can be configured to determine the user privileges for a specific data field.  
   
 > [!IMPORTANT]
->  Unless one or more security profiles are assigned to a security enabled field, only Dynamics 365 users with the system administrator security role will have access to the field.  
+>  Unless one or more security profiles are assigned to a security enabled field, only Dynamics 365 for Customer Engagement apps users with the system administrator security role will have access to the field.  
   
 <a name="BKMK_FLSexample"></a>   
 ## Example for restricting the mobile phone field for the Contact entity  
- Imagine you company’s policy is that sales members should have different levels of access to contact mobile phone numbers as described here.  
+ Imagine your company’s policy is that sales members should have different levels of access to contact mobile phone numbers as described here.  
   
 |User or Team|Access|  
 |------------------|------------|  
 |Vice presidents|Full. Can create, update, and view mobile phone numbers for contacts.|  
 |Sales Managers|Read-only. Can only view mobile phone numbers for contacts.|  
-|Salespersons and all other Dynamics 365 users|None. Cannot create, update or view mobile phone numbers for contacts.|  
+|Salespersons and all other Dynamics 365 for Customer Engagement apps users|None. Cannot create, update or view mobile phone numbers for contacts.|  
   
  To restrict this field, you would perform the following tasks.  
   
@@ -115,13 +115,13 @@ Configure the security profiles.
   
 3. Click **Save and Close**.  
   
-Any Dynamics 365 users not defined in the previously created field security profiles will not have access to the mobile phone field on contact forms or views. The field value displays ![Lock icon for Dynamics 365](../admin/media/admin-field-level-security-lock.png "Lock icon for Dynamics 365") ********, indicating that the field is secured.  
+Any Dynamics 365 for Customer Engagement apps users not defined in the previously created field security profiles will not have access to the mobile phone field on contact forms or views. The field value displays ![Lock icon for Dynamics 365 for Customer Engagement](../admin/media/admin-field-level-security-lock.png "Lock icon for Dynamics 365 for Customer Engagement") ********, indicating that the field is secured.  
   
 <a name="BKMK_FLS_fields"></a>   
 ## Which fields can be secured?  
  Every field in the system contains a setting for whether field security is allowed. You can view this in the Customizations area of the web application. 
  
-There are thousands of attributes that can be secured, so there are two easier ways to look for this information. To view the entity metadata for your organization, install the Metadata Browser solution described in [Browse the Metadata for Your Organization](../developer/browse-your-metadata.md). You can also view the metadata for an uncustomized organization in the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] file called EntityMetadata.xlsx included in the top-level folder of the SDK. [Download the Microsoft Dynamics 365 SDK](http://go.microsoft.com/fwlink/p/?LinkId=691153)  
+There are thousands of attributes that can be secured, so there are two easier ways to look for this information. To view the entity metadata for your organization, install the Metadata Browser solution described in [Browse the Metadata for Your Organization](../developer/browse-your-metadata.md). You can also view the metadata for an uncustomized organization in the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] file called EntityMetadata.xlsx included in the top-level folder of the SDK. [Download the Microsoft Dynamics 365 for Customer Engagement apps SDK](http://go.microsoft.com/fwlink/p/?LinkId=691153)  
    
 <a name="BKMK_FLSbestprac"></a>   
 ## Best practices when you use field security  

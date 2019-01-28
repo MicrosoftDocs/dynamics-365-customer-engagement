@@ -2,7 +2,7 @@
 title: Add custom fields to price setup and transactional entities 
 description: This topic provides information about adding custom fields to price setup and transactional entities. 
 author: Rumant
-manager: eichimur
+manager: kfend
 ms.custom:
   - dyn365-projectservice
 ms.date: 11/26/2018
@@ -20,7 +20,9 @@ search.app:
 ---
 
 # Add custom fields to price setup and transactional entities 
-This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities.md). If you haven't completed those procedures, go back and complete them and then return to this topic. In this topic, the procedures will show you how to add the required custom field references to entities and to the user interface (UI) elements such as forms and views.
+This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities.md). If you haven't completed those procedures, go back and complete them and then return to this topic. 
+
+In this topic, the procedures will show you how to add the required custom field references to entities and to the user interface (UI) elements such as forms and views.
 
 ## Add custom pricing dimension fields 
 After custom fields and entities have been created, the next step is to make price setup and transactional entities aware of any custom entities or option sets by creating reference fields. Depending on whether your pricing dimensions list includes option set dimensions or entity dimensions or both, follow only the steps in **Option set-based custom pricing dimensions** or **Entity-based custom pricing dimensions**, or both, respectively.
@@ -130,7 +132,7 @@ The following table provides a comprehensive list of out-of-the-box forms and vi
 |  Role Price|• Information |• Active Resource Category Prices<br> • Resource Category Price Associated View|
 |  Role Price Markup|• Information|• Active Role Price Markup<br>• Role Price Markup Associated View|
 |  Quote line detail|• Project Information<br>• Project Quick Create|• Active Quote Line Detail<br>• Combined Quote Line Details<br>• Quote Line Detail associated view|
-|  Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Invoice line Details<br>• Active Invoice Line Details<br>• Invoice Line Detail associated view|
+|  Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Contract Line Details<br>• Active Contract Line Details<br>• Contract Line Details Associated View|
 |  Project Team Member|• Information<br>• New Form|• Active Project Team Members<br>• Project Team Members<br>• Project Team members associated View|
 |  Time Entry|• Information<br>• Create Time Entry|• My Time Entries By Date<br>• My time Entries for this week<br>• Time entries for approval|
 |  Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|

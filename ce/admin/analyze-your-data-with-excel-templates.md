@@ -1,26 +1,29 @@
 ---
-title: "Analyze your data with Excel templates for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Analyze your data with Excel templates for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
+ms.date: 01/07/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 82563697-955b-44a6-9467-5cbbdb790b92
-caps.latest.revision: 20
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - Powerplatform
 ---
+
 # Analyze and share your data with Excel templates 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
@@ -55,7 +58,7 @@ search.app:
   
 <a name="BKMK_CreateStep1"></a>   
 ### Step 1: Create a new template from existing data  
- There are two places in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] where you can create an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template:  
+ There are two places in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps where you can create an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template:  
   
 - **From the Settings page**. Go to **Settings** > **Templates** > **Document Templates** > **New** (![New or Add button](../admin/media/nb-ua-r1-plus.png "New or Add button")). You must have sufficient permissions to access to the Settings page, such as System Administrator or System Customizer.  
   
@@ -63,15 +66,15 @@ search.app:
   
   ![Create Excel Template menu option](../admin/media/excel-template-create-menu.png "Create Excel Template menu option")  
   
-  The **Create template from Dynamics 365 data** page appears.  
+  The **Create template from Dynamics 365 for Customer Engagement apps data** page appears.  
   
-  ![Create Excel Template from Dynamics 365 Data page](../admin/media/excel-template-create-from-data-page.png "Create Excel Template from Dynamics 365 Data page")  
+  ![Create Excel Template from Dynamics 365 for Customer Engagement apps Data page](../admin/media/excel-template-create-from-data-page.png "Create Excel Template from Dynamics 365 for Customer Engagement apps Data page")  
   
 #### Select the data to include in the template  
   
 1. Click **Excel Template**.  
   
-2. Select an entity (record type) to include that entity’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. The views you can select in the next field depend on the entity you select.  
+2. Select an entity (record type) to include that entity’s [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data. The views you can select in the next field depend on the entity you select.  
   
 3. Select a view.  
   
@@ -81,6 +84,9 @@ search.app:
   
 > [!WARNING]
 >  You can also download a template containing no data except for the columns associated with the record type (entity) using **Settings** > **Data Management** > **Templates for Data Import**. For more information, see: [Download a template for data import](../admin/download-template-data-import.md).  
+
+> [!IMPORTANT]
+> Document template downloaded from one instance can only be used within that instance. Instance to instance migration for Word or Excel templates isn't currently supported.
   
 <a name="BKMK_CreateCustomize"></a>   
 ### Step 2: Customize the data in Excel  
@@ -88,7 +94,7 @@ search.app:
   
  ![New Excel Template](../admin/media/excel-template-new.png "New Excel Template")  
   
- Let’s walk through a simple example of customizing an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] sample data.  
+ Let’s walk through a simple example of customizing an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template using [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps sample data.  
   
 #### Example customization of Opportunities data  
   
@@ -104,23 +110,23 @@ search.app:
   
 4. Create a pivot table and chart. These and other demo steps will be explained in a future update to this topic.  
   
-    Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] later and you create a new [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template. For more information, see: [Best practices and considerations for using Excel templates](../admin/analyze-your-data-with-excel-templates.md#BKMK_BestPractices).  
+    Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps later and you create a new [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template. For more information, see: [Best practices and considerations for using Excel templates](../admin/analyze-your-data-with-excel-templates.md#BKMK_BestPractices).  
   
    ![Excel template with Pivot Chart](../admin/media/excel-template-pivot-chart.png "Excel template with Pivot Chart")  
   
 5. Save the spreadsheet.  
   
-   You’re now ready to upload the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+   You’re now ready to upload the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
 <a name="BKMK_CreateUpload"></a>   
 ### Step 3: Upload the template and share with others  
- When you have your [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template customized the way you want, you can upload it into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Where you upload the template determines its availability.  
+ When you have your [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template customized the way you want, you can upload it into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. Where you upload the template determines its availability.  
   
- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators can use the Settings page to upload the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. A template uploaded in Settings is available to all users in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization.  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators can use the Settings page to upload the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. A template uploaded in Settings is available to all users in your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization.  
   
-#### For admins: Upload the Excel template into Dynamics 365  
+#### For admins: Upload the Excel template into Dynamics 365 for Customer Engagement apps 
   
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Templates** > **Document Templates**.  
+1. In [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, go to **Settings** > **Templates** > **Document Templates**.  
   
 2. Click **Upload Template**.  
   
@@ -132,15 +138,15 @@ search.app:
   
    Non-admin users can upload a template for their own use from a list of records.  
   
-#### For non-admins or admins wanting to create a personal template: Upload the Excel template into Dynamics 365  
+#### For non-admins or admins wanting to create a personal template: Upload the Excel template into Dynamics 365 for Customer Engagement apps 
   
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], open a page with a list of records, for example, the list of Sales Opportunities. Go to **Sales** > **Opportunities** > **My Open Opportunities**.  
+1. In [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, open a page with a list of records, for example, the list of Sales Opportunities. Go to **Sales** > **Opportunities** > **My Open Opportunities**.  
   
 2. On the menu bar, click **Excel Templates** > **Create Excel Template**.  
   
 3. Click **Excel Template** > **Upload**.  
   
-   ![Click Upload to add the Excel template to Dynamics 365](../admin/media/excel-template-upload.png "Click Upload to add the Excel template to Dynamics 365")  
+   ![Click Upload to add the Excel template to Dynamics 365 for Customer Engagement](../admin/media/excel-template-upload.png "Click Upload to add the Excel template to Dynamics 365 for Customer Engagement")  
   
 4. Drag the file into the dialog box or browse to find and upload the file.  
   
@@ -156,7 +162,7 @@ search.app:
   
  ![Excel template uploaded from Settings page](../admin/media/excel-template-uploaded-from-settings-page.png "Excel template uploaded from Settings page")  
   
- Templates uploaded from the Settings page are available to all users in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization. You don’t need to take any further action.  
+ Templates uploaded from the Settings page are available to all users in your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization. You don’t need to take any further action.  
   
  **If you uploaded the template from a list of records**  
   
@@ -180,25 +186,25 @@ search.app:
   
 <a name="BKMK_UseSelectEntity"></a>   
 ### Step 1: Select an entity to analyze  
- In Dynamics 365, select an entity (record type) to analyze with the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template you created. For example, go to **Sales** > **Opportunities** > **My Open Opportunities**. Two new opportunities were added since the template was created.  
+ In Dynamics 365 for Customer Engagement, select an entity (record type) to analyze with the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template you created. For example, go to **Sales** > **Opportunities** > **My Open Opportunities**. Two new opportunities were added since the template was created.  
   
  ![List of Open Opportunities](../admin/media/excel-template-list-open-opportunities.png "List of Open Opportunities")  
   
 <a name="BKMK_UseExport"></a>   
-### Step 2: Export Dynamics 365 data using your new Excel template  
+### Step 2: Export Dynamics 365 for Customer Engagement apps data using your new Excel template  
  Choose the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template you created.  
   
  ![Choose the template you created](../admin/media/excel-template-choose-template.png "Choose the template you created")  
   
  This template was created from the Settings page so it will appear on the menu under **Excel Templates**. If it had been created from a records list, it would appear under **Personal Excel Templates**.  
   
- If you have [!INCLUDE[pn_microsoft_excel_online](../includes/pn-microsoft-excel-online.md)], you can see the data in place in an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] window in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If not, or if you’d rather create the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file, click **Download \<template name>**.  
+ If you have [!INCLUDE[pn_microsoft_excel_online](../includes/pn-microsoft-excel-online.md)], you can see the data in place in an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] window in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. If not, or if you’d rather create the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file, click **Download \<template name>**.  
   
 <a name="BKMK_UseAnalyze"></a>   
-### Step 3: Analyze your Dynamics 365 data in Excel  
+### Step 3: Analyze your Dynamics 365 for Customer Engagement apps data in Excel  
  What you see in the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] spreadsheet is based on two things:  
   
-- **Dynamics 365 records**. The view you choose to export from determines what [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records you see in the exported [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file. For example, if you selected Closed Opportunities, you’ll see those records even if you used the template created with My Open Opportunities.  
+- **Dynamics 365 for Customer Engagement apps records**. The view you choose to export from determines what [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps records you see in the exported [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file. For example, if you selected Closed Opportunities, you’ll see those records even if you used the template created with My Open Opportunities.  
   
 - **Columns**. The template you used determines what columns appear in the table in the exported [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file. For example, the Closed Opportunities view has these columns: Potential Customer, Status, Actual Revenue, and Actual Close Date. But if the template you used was based on My Open Opportunities, you’d see columns associated with that view and any column filtering done when you created the template.  
   
@@ -210,7 +216,7 @@ search.app:
 ## Try out the sample Excel templates  
  There are four [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates included with [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)].  
   
- ![Try out the Excel templates included with Dynamics 365](../admin/media/excel-template-included.png "Try out the Excel templates included with Dynamics 365")  
+ ![Try out the Excel templates included with Dynamics 365 for Customer Engagement](../admin/media/excel-template-included.png "Try out the Excel templates included with Dynamics 365 for Customer Engagement")  
   
  The sample [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates were created with a specific record type (entity). You’ll only be able to apply the template to records of the same record type.  
   
@@ -234,7 +240,7 @@ search.app:
   
 <a name="BKMK_BestPractices"></a>   
 ## Best practices and considerations for using Excel templates  
- Here are some things you need to be aware of to create and make best use of [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+ Here are some things you need to be aware of to create and make best use of [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
 ### Test your Excel templates  
  [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] has lots of features. It’s a good idea to test your customizations to see that all [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] features work as expected in your templates.  
@@ -244,11 +250,11 @@ search.app:
   
  **Consider the following scenario:**  
   
-- A [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator creates a template with sensitive data in pivot charts and uploads the template into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- A [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator creates a template with sensitive data in pivot charts and uploads the template into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
 - A salesperson who should not have access to the sensitive data in the pivot charts uses the template to create an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file to do some data analysis.  
   
-  **The outcome.** The salesperson might be able to see the pivot chart data as uploaded by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator including access to views the salesperson does not have permissions for.  
+  **The outcome.** The salesperson might be able to see the pivot chart data as uploaded by the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator including access to views the salesperson does not have permissions for.  
   
   **In addition.** iOS does not support updating pivot data and pivot charts when using the [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] app on iOS devices.  
   
@@ -265,7 +271,7 @@ search.app:
  If you want to add content to the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template, place your data above or to the right of the existing data. A second option is to place your new content on a second sheet.  
   
 ### Excel templates with images may cause an error  
- If you try to analyze [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data with an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template that has an image saved in it, you may see the following error: “An error occurred while attempting to save your workbook. As a result, the workbook was not saved.” Try removing the image from the template and reloading it into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+ If you try to analyze [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data with an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template that has an image saved in it, you may see the following error: “An error occurred while attempting to save your workbook. As a result, the workbook was not saved.” Try removing the image from the template and reloading it into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
   
 ### Excel templates and Office Mobile app in Windows 8.1  
  [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates will not open in [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)] devices with Office Mobile app. You’ll get the following error message: “We’ve recovered as much of your document as we could, but you can’t edit it. Try to open and repair the document on your PC to fix the problem.”  
@@ -277,9 +283,9 @@ search.app:
   
 <a name="BKMK_SecurityRole"></a>   
 ## Use security roles to control access to templates  
- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators can control access to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates with some granularity. For example, you can give salespeople Read but not Write access to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template.  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators can control access to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates with some granularity. For example, you can give salespeople Read but not Write access to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template.  
   
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], click **Settings** > **Security** > **Security Roles**.  
+1. In [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, click **Settings** > **Security** > **Security Roles**.  
   
 2. Select a role, and then click the Business Management tab.  
   
@@ -301,11 +307,11 @@ search.app:
 4.  Select the personal document template to delete, and then click Delete (![Delete button](../admin/media/nb-ua-r1-trashbin.png "Delete button")).  
   
 ### Excel template does not upload in Microsoft Edge  
- If your [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] template does upload in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] when using [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] as your browser, update [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] and try again.  
+ If your [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] template does not upload in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps when using [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] as your browser, update [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] and try again.  
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_export_to_excel](../includes/cc-privacy-export-to-excel.md)]
   
 ### See also  
  [Download a template for data import](../admin/download-template-data-import.md)   
- [Using Word templates in Dynamics 365](../admin/using-word-templates-dynamics-365.md)
+ [Using Word templates in Dynamics 365 for Customer Engagement](../admin/using-word-templates-dynamics-365.md)

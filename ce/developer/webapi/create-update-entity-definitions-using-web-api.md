@@ -1,20 +1,20 @@
 ---
-title: "Create and update entity definitions using the Web API (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create and update entity definitions using the Web API (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about creating and updating entity definitions using the Web API."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1f430d2d-e829-4ffa-922e-dfcfb7c9e86e
 caps.latest.revision: 24
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -799,9 +799,9 @@ OData-Version: 4.0
   
 ### See also
 
- [Use the Web API with Dynamics 365 metadata](use-web-api-metadata.md)   
+ [Use the Web API with Dynamics 365 for Customer Engagement apps metadata](use-web-api-metadata.md)   
  [Query Metadata using the Web API](query-metadata-web-api.md)   
  [Retrieve metadata by name or MetadataId](retrieve-metadata-name-metadataid.md)   
  [Model entity relationships using the Web API](create-update-entity-relationships-using-web-api.md)   
- [Use the Organization service with Dynamics 365 metadata](../org-service/use-organization-service-metadata.md)   
+ [Use the Organization service with Dynamics 365 for Customer Engagement apps metadata](../org-service/use-organization-service-metadata.md)   
  [Customize Entity Attribute Metadata](../customize-entity-attribute-metadata.md)

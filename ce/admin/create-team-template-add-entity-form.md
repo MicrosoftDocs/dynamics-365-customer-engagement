@@ -1,24 +1,24 @@
 ---
-title: "Create a team template and add to an entity form (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Create a team template and add to an entity form (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 helpviewer_keywords: 
-  - "template"
-  - "team template"
-  - "team"
+  - template
+  - team template
+  - team
 ms.assetid: f02c1132-5d34-4956-83f6-220394d26d58
 caps.latest.revision: 35
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 

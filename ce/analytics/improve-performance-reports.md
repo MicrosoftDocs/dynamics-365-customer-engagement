@@ -1,22 +1,22 @@
 ---
-title: "Improve performance of reports (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
+title: "Improve performance of reports (Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: dece910e-0712-4801-824f-d2aa1bed88d2
 caps.latest.revision: 9
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: Mattp123
+ms.author: matp
+manager: amyla
 tags: 
-  - "MigrationHO"
+  - MigrationHO
 search.audienceType: 
   - customizer
 search.app: 
@@ -31,7 +31,7 @@ Here are some guidelines that can help you improve the performance of the report
 ## General  
  These guidelines are applicable for both Fetch-based reports.  
   
-- Limit a report to display information from a specified time period, instead of displaying all records in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database.  
+- Limit a report to display information from a specified time period, instead of displaying all records in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps database.  
   
 - Pre-filter a report so that the dataset is limited.  
   

@@ -1,9 +1,9 @@
 ---
-title: Learn the basics of the Customer Service Hub in Dynamics 365 | Microsoft Docs
-description: Learn the basics of the Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Basics of the Customer Service Hub; Customer Service; Microsoft Dynamics 365; Customer Service Hub Application requirements; Understand the sitemap navigation; Quickly create new records; Business processes; Related section; Queues
+title: Learn the basics of the Customer Service Hub in Dynamics 365 for Customer Engagement | Microsoft Docs
+description: Learn the basics of the Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
+keywords: Basics of the Customer Service Hub; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Customer Service Hub Application requirements; Understand the sitemap navigation; Quickly create new records; Business processes; Related section; Queues
 author: anjgupta
-applies_to: Dynamics 365 (online)
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -53,7 +53,7 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
    ![open-csh](media/open-csh.png "Open the Customer Service Hub")
  
   
-- In the Dynamics 365 sitemap, navigate to the app switcher and then select **Customer Service Hub**.
+- In the Dynamics 365 for Customer Engagement sitemap, navigate to the app switcher and then select **Customer Service Hub**.
 
   ![open-csh-sitemap](media/open-csh-sitemap.png "Customer Service Hub sitemap")
   
@@ -61,9 +61,9 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 To access the Customer Service Hub app on a mobile device:
 
-- Install the Dynamics 365 mobile app. 
+- Install the Dynamics 365 for Customer Engagement mobile app. 
   
-  To install the Dynamics 365 mobile app, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
+  To install the Dynamics 365 for Customer Engagement mobile app, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
 - From the MyApps page, select **Customer Service Hub**.
 
    ![choose-on-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
@@ -231,7 +231,7 @@ The Timeline is available on the **Summary** tab for account, contact, case reco
 -   Sort the entries by latest or oldest entry.
 
 ### **Related section**  
-In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience.
+In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/en-us/powerapps/user/navigation#reference-panel).
 
 For example:
 
@@ -252,7 +252,7 @@ The third tab in the Related section of a case record displays **Similar Cases**
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d8224c3f-6e20-4b8e-9d0d-b0f5602c7708" frameborder="0" allowfullscreen=""></iframe></div>
 
 > [!NOTE]
-> You can configure rules that help you view similar cases based on automatic suggestions. These rules can be created using either the Cognitive Services Text Analytics or a built-in similarities matching engine in Dynamics 365. For more information, see [Create similar record suggestion rules](../admin/public-preview-microsoft-cognitive-services-integration.md#create-similar-record-suggestion-rules).
+> You can configure rules that help you view similar cases based on automatic suggestions. These rules can be created using either the Cognitive Services Text Analytics or a built-in similarities matching engine in Dynamics 365 for Customer Engagement. For more information, see [Create similar record suggestion rules](../admin/public-preview-microsoft-cognitive-services-integration.md#create-similar-record-suggestion-rules).
 
 Similarly,
 
@@ -262,6 +262,7 @@ Similarly,
 
 > [!NOTE]
 > Your system administrator or customizer can choose if Related section should be included in a form. They can also decide on what related data should be displayed in the section for each form.
+
 
 #### Reference Panel reflow
 The Customer Service Hub is available to use on a desktop browser, and on a mobile device. Depending on the zoom level and the resolution of the system on which you are accessing the hub interface, the Reference panel adjusts the tabs and records for an optimum experience.
@@ -280,7 +281,7 @@ Activities are the tasks that you or your team perform while interacting with cu
 
 For example, you can make a record to track a phone call with a customer, or list an appointment scheduled with a customer to discuss a certain issue. You can create activities for yourself, or assign them to other service reps.
 
-In Dynamics 365, the following activities are supported:
+In Dynamics 365 for Customer Engagement, the following activities are supported:
 - Email
 - Task
 - Appointment

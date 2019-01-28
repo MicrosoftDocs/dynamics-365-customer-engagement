@@ -4,11 +4,11 @@ description: "Learn about configuring diagnostic logging to record operational e
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: db1034db-8354-40c8-a8a8-44289d93edf3
 caps.latest.revision: 10
 author: kabala123

@@ -1,14 +1,14 @@
 ---
 title: "Dynamics 365 for Customer Engagement Readme (Known Issues) | MicrosoftDocs"
 description: ""
-keywords: ""
-ms.date: 11/19/2018
+keywords: 
+ms.date: 12/03/2018
 ms.service:
-  - "crm-online"
+  - crm-online
 ms.topic: article
 applies_to:
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-  - "Dynamics 365 for Customer Engagement apps version 9.x (on-premises)"
+  - Dynamics 365 for Customer Engagement apps version 9.x
+  - Dynamics 365 for Customer Engagement apps version 9.x (on-premises)
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
 author: ReneeW-CPub
 ms.author: renwe
@@ -28,15 +28,15 @@ This document provides important information about these product versions:
 
 You'll also find information about known issues and possible workarounds.
 
-Channel Integration Framework
+Dynamics 365 Channel Integration Framework
 -----------------------------
-- Channel Integration Framework does not support Internet Explorer.
-
-- The `onsendkbarticle` event will not raise because the control is not available in Unified Interface.
-
-- The `msdyn_ciprovider` entity is accessible only for the administrator roles. As a result, the panel will not load for non-administrator roles. To load the panel for non-administrator roles, create a new role and provide read access to the `msdyn_ciprovider` entity. Then add the role to the users who will access the Channel Integration Framework.
+- Channel Integration Framework (CIF) does not support Internet Explorer and Firefox browsers. Channel Integration Framework currently supports Microsoft Edge and Google Chrome web browsers.
 
 - By default, microphone and speaker access is blocked by the browser policy for the voice and video channel. You need to change the settings to enable microphone and speaker access.
+
+- It is not possible for users to work with quick create, task flows and Channel Integration Framework(CIF) panel in parallel. This is because quick create and task flows when expanded will overlay on the CIF panel.
+
+- When you specify the **EntityLogicalName** to pre-populate the search string in the **renderSearchPage** API, the list provides records from all the entities that matches the search criteria rather displaying the records from particular entity type.
 
 Transport Layer Security (TLS) Requirements
 -------------------------------------------
@@ -58,7 +58,7 @@ required to take the following actions to maintain the connectivity to Dynamics
     Framework 4.5.2 to use the .NET Framework 4.6.2 or later.
 
 3.  Download and update Dynamics 365 for Outlook to [version
-    8.2.2.137](https://www.microsoft.com/download/details.aspx?id=56327).
+    8.2.3](https://www.microsoft.com/download/details.aspx?id=57523).
 
 4.  Download the [latest version of developer
     tools](https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-tools-nuget)
@@ -155,7 +155,7 @@ in the browser or on mobile devices for each scenario. 
 
 | **Service**                                       | **Unified Interface app in a browser** | **Unified Interface app on mobile** | **Web client in a browser** |
 |---------------------------------------------------|----------------------------------------|-------------------------------------|-----------------------------|
-| Sales                                             | –                                      | Sales Hub                           | Sales                       |
+| Sales                                             | Sales Hub                                      | Sales Hub                           | –                       |
 | Customer Service – Knowledge management scenarios | Customer Service Hub                   | Customer Service Hub                | –                           |
 | Customer Service – Case management scenarios      | Customer Service Hub                   | Customer Service Hub                | –                           |
 
@@ -459,10 +459,10 @@ Dynamics 365 App for Outlook
 Dynamics 365 for Outlook
 ------------------------
 
--   Microsoft has released Dynamics 365 for Outlook version 8.2.2.137 update.
+-   Microsoft has released Dynamics 365 for Outlook version 8.2.3 update.
     This update includes support for Transport Layer Security (TLS) 1.2, which
-    is required for connecting Dynamics 365 for Outlook with Dynamics 365 for Customer Engagement apps version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for
-    Outlook](https://www.microsoft.com/download/details.aspx?id=56327).
+    is required for connecting Dynamics 365 for Outlook with Dynamics 365 for Customer Engagement apps version 9.0. See [Version 8.2.3 Update for Dynamics 365 for
+    Outlook](https://www.microsoft.com/download/details.aspx?id=57523).
 
 -   In offline mode, adding an attachment to a Note in Dynamics 365 for Outlook
     might show the message “Microsoft Dynamics 365 has encountered an error.” A

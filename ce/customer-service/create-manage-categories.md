@@ -1,11 +1,11 @@
 ---
 title: Create and manage categories (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to create and manage categories for Customer Service for Dynamics 365
-keywords: Create and manage categories; Dynamics 365; Customer Service Hub; Service manager
+description: Know how to create and manage categories for Customer Service for Dynamics 365 for Customer Engagement
+keywords: Create and manage categories; Dynamics 365 for Customer Engagement; Customer Service Hub; Service manager
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -24,7 +24,7 @@ search.app:
 
 # Create and manage categories
 
-Using the **Categories** entity, you can create hierarchical categorical data to help group records. Categorizing entity records in Dynamics 365 helps you tag the records so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365, and then associate entity records to one or more categories.
+Using the **Categories** entity, you can create hierarchical categorical data to help group records. Categorizing entity records in Dynamics 365 for Customer Engagement helps you tag the records so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365 for Customer Engagement, and then associate entity records to one or more categories.
 
 Categories are useful for reporting, sorting, segmenting, and categorization of records. 
 
@@ -80,4 +80,4 @@ Follow the procedure given below to create a category:
 
 ### See also
 
-[Use the Category entity to categorize Dynamics 365 records](../developer/use-category-entity-categorize-dynamics-365-records.md)
+[Use the Category entity to categorize Dynamics 365 for Customer Engagement records](../developer/use-category-entity-categorize-dynamics-365-records.md)

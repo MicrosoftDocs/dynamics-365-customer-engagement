@@ -1,12 +1,12 @@
 ---
 title: "Manage the quality of your search results in Social Engagement | Microsoft Docs"
 description: "Learn how to increase the quality of your search results."
-keywords: "block content, block authors"
+keywords: block content, block authors
 ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 302a0005-c7b0-4247-8d2d-663685716b75
 author: m-hartmann
 ms.author: mhart

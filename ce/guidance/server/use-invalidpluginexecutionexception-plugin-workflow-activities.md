@@ -1,15 +1,15 @@
 ---
 title: "Use InvalidPluginExecutionException in plug-ins and workflow activities | MicrosoftDocs"
-description: "Use InvalidPluginExecutionException when raising errors within the context of a Dynamics 365 Customer Engagement plug-in and workflow activity."
-ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+description: "Use InvalidPluginExecutionException when raising errors within the context of a Dynamics 365 for Customer Engagement plug-in and workflow activity."
+ms.date: 01/25/2019
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7d73262e-9a81-4062-a2f8-c1ddf2773c54
-author: "mhuguet"
-ms.author: "michu"
-manager: "austinj"
+author: mhuguet
+ms.author: michu
+manager: austinj
 ---
 # Use InvalidPluginExecutionException in plug-ins and workflow activities
 
@@ -21,7 +21,7 @@ manager: "austinj"
 
 ## Symptoms
 
-If a synchronous plug-in returns an exception other than <xref:Microsoft.Xrm.Sdk.InvalidPluginExecutionException> back to the platform, the error dialog box is displayed to the user with the message of the exception ([System.Exception.Message](/dotnet/api/system.exception.message?view=netframework-4.5.2#System_Exception_Message)) and the stack trace. This provides an unfriendly user experience in what is likely already a frustrating situation.
+If a synchronous plug-in returns an exception other than <xref:Microsoft.Xrm.Sdk.InvalidPluginExecutionException> back to the platform, the error dialog box is displayed to the user with the message of the exception <xref:System.Exception.Message> and the stack trace. This provides an unfriendly user experience in what is likely already a frustrating situation.
 
 <a name='guidance'></a>
 

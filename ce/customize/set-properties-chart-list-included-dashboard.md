@@ -1,30 +1,26 @@
 ---
-title: "Set properties for a chart or list included in a dashboard in PowerApps | MicrosoftDocs"
+title: "Set properties for a chart or list included in a dashboard | MicrosoftDocs"
 description: "Learn how to set properties for  chart or list included in a dashboard"
-ms.custom: ""
-ms.date: 04/24/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/08/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 50fb2ab0-5c1a-4a5e-8ebc-5603fecc4da0
 caps.latest.revision: 26
 ms.author: "matp"
 manager: "kvivek"
-search.audienceType: 
-  - customizer
-search.app: 
-  - D365CE
 ---
 # Set properties for a chart or list included in a dashboard
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 To edit a chart or list component from the dashboard layout screen, double-click the chart or list. This opens the **Set Properties** dialog box.  
   

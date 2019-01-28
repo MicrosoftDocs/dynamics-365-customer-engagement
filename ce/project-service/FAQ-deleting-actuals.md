@@ -1,8 +1,8 @@
 ---
-title: Why can’t I delete records from the actuals entity? (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Why can’t I delete records from the actuals entity? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: This topic provides information about why you can't delete records from the actuals entity.
-author: Jburrows
-manager: ShellyHa
+author: JPBurrows
+manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice

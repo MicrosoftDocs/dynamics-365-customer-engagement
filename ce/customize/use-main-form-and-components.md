@@ -1,17 +1,17 @@
 ---
-title: Use the main form and its components in PowerApps | Microsoft Docs
-description: Know how to use the main form and its components in the unified interface based apps
-keywords: Main forms; Customer service; Customer Service Hub; Dynamics 365
+title: Use the main form and its components | Microsoft Docs
+description: Know how to use the main form and its components in the unified Interface based apps
+keywords: Main forms; Customer service; Customer Service Hub; Dynamics 365 for Customer Engagement apps
 author: Mattp123
 ms.author: matp
 manager: kvivek
-ms.date: 04/24/2018
+ms.date: 01/11/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.assetid: 43bfface-4dc2-411d-99a1-83e934646989
 search.audienceType: 
   - customizer
@@ -22,13 +22,13 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
  
-Forms in the Unified interface based apps provide improved user experience for optimum agent productivity and help maintain context while working on related records. You can see the forms enlisted in the solution explorer. The form type of the new forms is **Main**.
+Forms in the Unified Interface based apps provide improved user experience for optimum agent productivity and help maintain context while working on related records. You can see the forms enlisted in the solution explorer. The form type of the new forms is **Main**.
 
 This topic explains how to edit a main form, and add or change various elements of the form.
 
 ## Open the form editor
 
-To edit a form or to add or change elements, use the form editor. The form editor lets you edit forms for all the Unified interface based apps.
+To edit a form or to add or change elements, use the form editor. The form editor lets you edit forms for all the Unified Interface based apps.
 
 Follow the procedures given below to access the form editor: 
 
@@ -36,7 +36,7 @@ Follow the procedures given below to access the form editor:
 > If you create any new solution components in the process of editing the form, the names of the components will use the solution publisher customization prefix for the default solution and these components will only be included in the default solution. If you want any new solution components to be included in a specific unmanaged solution, open the form editor through that unmanaged solution.
 
 
-### Access the form editor through App designer in Dynamics 365 customer engagement
+### Access the form editor through App designer in Dynamics 365 for Customer Engagement apps
 
 1. Go to **Settings > My Apps**.
 2. Select **...** on an app and select **Open in App designer**.
