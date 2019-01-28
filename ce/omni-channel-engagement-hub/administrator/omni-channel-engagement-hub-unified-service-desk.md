@@ -61,14 +61,14 @@ Configure the Internet Explorer Settings on the every client desktops for the fo
 
  4.	In the **Address of website to allow** field, specify one URL and select **Add**. <br>
     Add the following URLs:<br>
-  - *.core.windows.net
-  - *.microsoftonline.com
-  - *.office.com
-  - *.powerbi.com
-  - *.dynamics.com
-  - *.crmdynint.com
-  - *.azureedge.net
-  - *.azurewebsites.net
+   - *.core.windows.net
+   - *.microsoftonline.com
+   - *.office.com
+   - *.powerbi.com
+   - *.dynamics.com
+   - *.crmdynint.com
+   - *.azureedge.net
+   - *.azurewebsites.net
 
   5. Select **Close**, and then select **OK**.
 
