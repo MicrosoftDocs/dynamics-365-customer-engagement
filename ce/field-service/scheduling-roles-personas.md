@@ -1,5 +1,5 @@
 ---
-title: "Scheduling Roles and Personas | MicrosoftDocs"
+title: "Scheduling personas | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 1/23/2019
@@ -27,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Scheduling roles and personas
+# Scheduling personas
 
 A key prerequisite to successful scheduling adoption is having the right people, with the right skills, in the right roles. This topic explores the most critical scheduling roles for any field service organization.
 
