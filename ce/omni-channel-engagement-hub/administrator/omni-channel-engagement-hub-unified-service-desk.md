@@ -13,7 +13,7 @@ ms.assetid: C6488858-82BF-450A-90F4-83FB2C41718C
 ms.custom: 
 ---
 
-# Omni-channel Engagement Hub – Unified Service Desk
+# Omni-channel Engagement Hub on Unified Service Desk
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 

@@ -8,6 +8,7 @@
 ### [Configure a live chat in 2 minutes](administrator/configure-live-chat.md)
 
 ## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
+### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 ### [Manage users](administrator/users-user-profiles.md)
 
 ### Work distribution settings
