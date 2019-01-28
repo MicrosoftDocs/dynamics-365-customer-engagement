@@ -34,15 +34,15 @@ To download the Unified Service Desk client application, you must join the Omni-
 
 ## Install Unified Service Desk client
 
-To learn how to install Unified Serivce Desk, see [Install Unified Service Desk](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md).
+To learn how to install Unified Serivce Desk, see [Install Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/install-upgrade-unified-service-desk-client).
 
-Make sure you computer meets all requirements before you install the Unified Service Desk client application. More information: [Unified Service Desk system requirements](../../unified-service-desk/admin/unified-service-desk-system-requirements.md)
+Make sure you computer meets all requirements before you install the Unified Service Desk client application. More information: [Unified Service Desk system requirements](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
 
 ## Configure Unified Service Desk recommended settings for Internet Explorer
 
 The Internet Explorer process is used to host web applications in Unified Service Desk. When you use Omni-channel Engagement Hub on Unified Service Desk client application, certain settings are recommended for Internt Explorer for optimal performance.
 
-To know more information about manually configuring the settings of Internet Explorer, see [Internet Explorer setting guidelines](../../unified-service-desk/admin/internet-explorer-settings-bpa.md).
+To know more information about manually configuring the settings of Internet Explorer, see [Internet Explorer setting guidelines](/dynamics365/customer-engagement/unified-service-desk/admin/internet-explorer-settings-bpa).
 
 Download the **AddRecommendedIESettings** batch file from **Dynamics Insider Program** by joining the **Omni-channel Engagement Hub – Preview** program.
 
@@ -147,4 +147,4 @@ You can also manually add the websites to enable pops for trusted sources by fol
     Add the above mentioned websites.
 5. Select **Close**, and then select **OK**.
 
-To add the other settings manually, see [Internet Explorer setting guidelines](../../unified-service-desk/admin/internet-explorer-settings-bpa.md).
+To add the other settings manually, see [Internet Explorer setting guidelines](/dynamics365/customer-engagement/unified-service-desk/admin/internet-explorer-settings-bpa).
