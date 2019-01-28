@@ -1,7 +1,7 @@
 ---
 title: "Field level security for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/30/2017
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: 7b3e2bc3-6197-4afe-953a-62f6694899ed
 caps.latest.revision: 20
 author: Mattp123
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -64,7 +64,7 @@ A combination of these three permissions can be configured to determine the user
   
 <a name="BKMK_FLSexample"></a>   
 ## Example for restricting the mobile phone field for the Contact entity  
- Imagine you company’s policy is that sales members should have different levels of access to contact mobile phone numbers as described here.  
+ Imagine your company’s policy is that sales members should have different levels of access to contact mobile phone numbers as described here.  
   
 |User or Team|Access|  
 |------------------|------------|  
