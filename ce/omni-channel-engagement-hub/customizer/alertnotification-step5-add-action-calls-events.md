@@ -1,18 +1,20 @@
 ---
-title: "Add the action calls to the events"
+title: "Add the action calls to the events | MicrosoftDocs"
 description: "Learn how to add action calls to the events"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 90690d1d-906e-48a0-b6c8-1ba8d491f2b0
 ms.custom: 
 ---
 # Step 5: Add the action calls to the events
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 1. Sign in to Microsoft Dynamics 365.
 

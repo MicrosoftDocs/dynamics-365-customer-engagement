@@ -1,19 +1,21 @@
 ---
-title: "Configure a pre-chat survey"
+title: "Configure a pre-chat survey | MicrosoftDocs"
 description: "Instructions to configure a pre-chat survey in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6E6093DB-3A00-47DC-95C0-635519601EEE
 ms.custom: 
 ---
 
 # Configure a pre-chat survey
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 You can configure your chat widget to show users a survey that they should respond to before they start the conversation.
 

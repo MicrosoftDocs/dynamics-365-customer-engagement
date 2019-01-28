@@ -1,19 +1,21 @@
 ---
-title: "Pre-requisites and system requirements of Omni-channel Engagement Hub"
+title: "Pre-requisites and system requirements of Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn about the system requirements of Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 94FFAD86-B4BF-48C1-90A5-81FDE7A8D13E
 ms.custom: 
 ---
 
 # Pre-requisites and system requirements of Omni-channel Engagement Hub - Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 This topic provides information about the pre-requisites and system requirements for deploying the Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement apps instance.
 
@@ -69,6 +71,10 @@ The Omni-channel Engagement Hub - Preview is available in the following regions:
 > - Omni-channel Engagement Hub - Preview is supported only on Desktops, and not on mobiles and tablets.
 >
 > - Omni-channel Engagement Hub - Preview for other regions will be available in the future. 
+
+## Provision Omni-channel in Dynamics 365
+
+See [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md) to know how to enable the Omni-channel Engagement Hub app in your Dynamics 365 org.
 
 ## See also
 

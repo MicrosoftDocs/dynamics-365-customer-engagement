@@ -1,18 +1,20 @@
 ---
-title: "View customer summary"
+title: "View customer summary | MicrosoftDocs"
 description: "Customer summary is a form where you can know complete information about the customer with whom you are going to interact."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: d53f1b1f-0361-4334-827c-d299137a9075
 ms.custom: 
 ---
 # View customer summary and know everything about customers
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
 ## Overview of the existing challenges
 

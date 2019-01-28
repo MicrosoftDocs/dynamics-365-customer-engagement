@@ -1,19 +1,21 @@
 ---
-title: "Introduction to the agent interface of Omni-channel Engagement Hub in Customer Service Hub"
+title: "Introduction to the agent interface of Omni-channel Engagement Hub in Customer Service Hub | MicrosoftDocs"
 description: "Learn about agent interface of Omni-channel Engagement Hub in Customer Service Hub"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 891E5572-F1D6-413C-8F2E-299AF3CC34F9
 ms.custom: 
 ---
 
 # Introduction to the agent interface of Omni-channel Engagement Hub in Customer Service Hub
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
 When you sign in to Customer Service Hub, the Omni-channel Engagement Hub interface has the following components:
 

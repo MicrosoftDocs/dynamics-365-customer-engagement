@@ -1,19 +1,21 @@
 ---
-title: "Create and manage operating hours"
+title: "Create and manage operating hours | MicrosoftDocs"
 description: "Instructions to create and manage operating hours in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 0D736266-7B7B-47DA-9FEC-F13C6733A98C
 ms.custom: 
 ---
 
 # Create and manage operating hours
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Operating hours define the hours when your organization's customer support team is active and available to serve customers. By setting up operating hours, you help your customers and your organization work together to resolve issues. After you create an operating hour record, you must add it to the **Design** tab of the appropriate chat widget to make it work.
 

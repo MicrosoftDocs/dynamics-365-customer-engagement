@@ -1,19 +1,21 @@
 ---
-title: Work with queues in Omni-channel Engagement Hub
+title: Work with queues in Omni-channel Engagement Hub | MicrosoftDocs
 description: See how you can create and manage queues in Omni-channel Engagement Hub
 keywords: Queues; Omni-channel Engagement Hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 8c1b6127-a00c-4783-8740-52bd63e52eb1
 ms.custom: 
 ---
 
 # Work with queues in Omni-channel Engagement Hub
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Omni-channel queues are used to collect conversations or customer queries, and distribute them to different groups of agents or teams. You can achieve optimum distribution in the many ways. Here are some examples:
 
@@ -28,7 +30,6 @@ Here are some of the main characteristics of omni-channel queues:
 - You can assign priority to queues. All conversations in the same queue then have the same priority and will be serviced accordingly.
 - All omni-channel queues are private. Only the members of a queue can view and work on the conversations in that queue.
 - Agents can have different work streams assigned to them in a queue.
-<!-- - Supervisors can view the work assignments and track work progress on the **Queues** dashboard. For more information, see [Configure the supervisor dashboard](../supervisor/configure-supervisor-dashboard.md).-->
 - There is a default omni-channel queue for each organization. Admin users can't delete the default queue. By default, all omni-channel users are members of this queue. Therefore, the membership of this queue can't be changed. The default queue has the highest priority.
 
     > [!NOTE]

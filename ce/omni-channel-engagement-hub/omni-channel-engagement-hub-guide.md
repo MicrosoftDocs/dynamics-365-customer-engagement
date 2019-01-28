@@ -1,19 +1,21 @@
 ---
-title: "Create a record in Omni-channel Engagement Hub"
+title: "Create a record in Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn about Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 213B2D86-403C-418F-AD64-44AD1DD3382A
 ms.custom: 
 ---
 
 # Omni-channel Engagement Hub Guide
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 <table>
 <tr>
@@ -23,8 +25,8 @@ ms.custom:
 <li><a href="introduction-omni-channel.md" data-raw-source="[Omni-channel Engagement introduction](introduction-omni-channel.md)">Omni-channel Engagement introduction</a></li>
 <li><a href="system-requirements-omni-channel-engagement-hub.md" data-raw-source="[Pre-requisities and system requirements](system-requirements-omni-channel-engagement-hub.md)">Pre-requisities and system requirements</a></li>
 <li><a href="administrator/omni-channel-provision-license.md" data-raw-source="[Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)">Provision Omni-channel Engagement Hub</a></li>
-<li><a href="administrator/users-user-profiles.md" data-raw-source="[Add users and assign roles to users](administrator/users-user-profiles.md)">Add users and assign roles to users</a></li>
-<li><a href="administrator/configure-live-chat.md" data-raw-source="[Configure a live chat widget and embed it in portal](administrator/configure-live-chat.md)">Configure a live chat widget and embed it in portal</a></li>
+<li><a href="administrator/add-users-assign-roles.md" data-raw-source="[Enable users for Omni-channel Engagement Hub](administrator/add-users-assign-roles.md)">Enable users for Omni-channel Engagement Hub</a></li>
+<li><a href="administrator/configure-live-chat.md" data-raw-source="[Configure a live chat widget in 2 minutes](administrator/configure-live-chat.md)">Configure a live chat in 2 minutes</a></li>
 </td>
 <td>
 

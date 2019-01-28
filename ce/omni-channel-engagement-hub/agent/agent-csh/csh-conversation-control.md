@@ -1,19 +1,21 @@
 ---
-title: "Omni-channel Engagement Hub Conversation Control"
+title: "Omni-channel Engagement Hub Conversation Control | MicrosoftDocs"
 description: "Conversation control is a communication panel in Omni-channel Engagement Hub where you interact with the customer."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6172303E-4BB8-4E54-BC23-71AC2514A248
 ms.custom: 
 ---
 
 # View Conversation control
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
 Conversation control is a communication panel where you interact with the customer. When you sign in to the application, conversation control displays the welcome screen.
 

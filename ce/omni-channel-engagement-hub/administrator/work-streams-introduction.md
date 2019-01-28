@@ -15,19 +15,17 @@ ms.custom:
 
 # Understand work streams in the Omni-channel Engagement Hub
 
-A work stream is a collection of routing & work distribution settings. A work stream can belong to multiple conversation sources of same type, for example live chat. In that case, all those conversations inherit routing and work distribution settings of the work stream they belong to. 
-
-For example, multiple live chat widgets can be associated with a single work stream. Hence, all the chat conversations from these widgets are routed and distributed based on the defined work stream settings.
+A work stream is a collection of routing & work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. 
 
 Omni-channel Engagement Hub has some predefined work streams. However, as an admin, you can define new work streams to introduce a new source.
-
-> [!div class=mx-imgBorder] 
-> ![Omni-channel work streams](../media/oc-workstream-view.png)
 
 In omni-channel, you can create two types of work streams:
 
 - [Live chat work stream](create-work-streams.md#create-a-new-live-chat-work-stream)
 - [CDS Entity work stream](create-work-streams.md#create-a-new-cds-entity-work-stream)
+
+> [!NOTE]
+> A work stream can belong to multiple sources of same type, for example multiple live chat widgets. In this case, all the conversations from these widgets inherit routing and work distribution settings of the work stream they belong to.
 
 A work stream comprises of the following properties:
 

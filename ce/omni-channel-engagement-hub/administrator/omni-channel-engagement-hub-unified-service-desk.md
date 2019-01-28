@@ -1,19 +1,21 @@
 ---
-title: "Omni-channel Engagement Hub on Unified Service Desk"
+title: "Omni-channel Engagement Hub on Unified Service Desk | MicrosoftDocs"
 description: "Omni-channel Engagement Hub solution is an application that you need to install on Unified Service Desk client application."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: C6488858-82BF-450A-90F4-83FB2C41718C
 ms.custom: 
 ---
 
 # Omni-channel Engagement Hub – Unified Service Desk
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Unified Service Desk for Dynamics 365 Customer Engagement apps is a client application. You need to install the Unified Service Desk client application on every agent desktop to use Omni-channel Engagement Hub. 
  

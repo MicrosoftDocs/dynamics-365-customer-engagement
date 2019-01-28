@@ -1,19 +1,21 @@
 ---
-title: "Create quick replies"
+title: "Create quick replies | MicrosoftDocs"
 description: "Instructions to set up quick replies in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: F263FBCC-2406-4487-8461-E7FC3A99BF53
 ms.custom: 
 ---
 
 # Create quick replies
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Quick replies are pre-defined messages that can be created for agents to quickly reply to common questions by customers. For information on agent experience of quick response, see [Send quick replies in the chat](../agent/agent-usd/left-control-panel.md#send-quick-replies-in-the-chat).  
 

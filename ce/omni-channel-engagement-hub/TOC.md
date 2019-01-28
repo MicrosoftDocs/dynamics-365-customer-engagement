@@ -3,30 +3,31 @@
 ## Get started
 ### [Introduction](introduction-omni-channel.md)
 ### [Pre-requisites and system requirements](system-requirements-omni-channel-engagement-hub.md)
-### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
-### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
+### [Enable users for Omni-channel Engagement Hub](administrator/add-users-assign-roles.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
-### [Add users and assign roles to users](administrator/users-user-profiles.md#manage-a-new-user)
-### [Understand work streams](administrator/work-streams-introduction.md)
-### [Configure a live chat widget](administrator/configure-live-chat.md)
+### [Configure a live chat in 2 minutes](administrator/configure-live-chat.md)
 
-## [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
+## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Manage users](administrator/users-user-profiles.md)
-### [Create and manage work streams](administrator/create-work-streams.md)
-### [Set up record identification rule](administrator/record-identification-rule.md)
-### [Create and manage routing rules](administrator/routing-rules.md)
-### [Work with queues](administrator/queues-omni-channel.md)
-### [Configure and manage presence status](administrator/presence-custom-presence.md)
-### [Create a chat widget](administrator/set-up-chat-widget.md)
-#### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
-#### [Create a survey questions library](administrator/create-question-library.md)
+
+### Work distribution settings
+#### [Understand work streams](administrator/work-streams-introduction.md)
+#### [Create and manage work streams](administrator/create-work-streams.md)
+##### [Set up record identification rule](administrator/record-identification-rule.md)
+#### [Create and manage routing rules](administrator/routing-rules.md)
+#### [Work with queues](administrator/queues-omni-channel.md)
+#### [Create a chat widget](administrator/set-up-chat-widget.md)
+##### [Create a survey questions library](administrator/create-question-library.md)
+##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
+##### [Create and manage operating hours](administrator/create-operating-hours.md)
+##### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
+
+### Agent experience settings
 #### [Create quick replies](administrator/create-quick-replies.md)
-#### [Create and manage operating hours](administrator/create-operating-hours.md)
-#### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
-#### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
+#### [Configure and manage presence status](administrator/presence-custom-presence.md)
+### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
 
-## Agents
-
+## Agent guide
 ### [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 #### [Sign in to Omni-channel Engagement Hub](agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md)
 #### [Introduction to the agent interface](agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md)
@@ -55,7 +56,7 @@
 #### [Create a record](agent/agent-csh/csh-create-record.md)
 #### [Search and link record to the conversation](agent/agent-csh/csh-search-link-record.md)
 
-## [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
+## [System customizer guide](customizer/omni-channel-engagement-hub-customizer.md)
 ### [Customize the Customer summary form](customizer/customize-customer-360-page.md)
 #### [Modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
 #### [Modify the section properties of a form](customizer/how-modify-section-properties-form-section.md)

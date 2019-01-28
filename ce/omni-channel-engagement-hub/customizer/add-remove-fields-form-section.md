@@ -1,18 +1,20 @@
 ---
-title: "Add or remove the fields in a form (section)"
+title: "Add or remove the fields in a form (section) | MicrosoftDocs"
 description: "Learn how to add or remove the fields in the form (section)"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: ab116bdb-a31f-48d3-a8e6-9f4790276a63
 ms.custom: 
 ---
 # Add or remove the fields in a form (section)
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 You add or remove the fields from the form (section) by navigating to the respective entities and quick view forms.
 

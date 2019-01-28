@@ -1,18 +1,20 @@
 ---
-title: "Create hosted controls"
+title: "Create hosted controls | MicrosoftDocs"
 description: "Learn how to create hosted controls that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: f957c744-eede-4ada-89b2-2c68f5eb92c0
 ms.custom: 
 ---
 # Step 2: Create hosted controls
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 1.  Sign in to Dynamics 365.
 
