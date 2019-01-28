@@ -89,8 +89,6 @@
 ## [Schedule optimization](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
-## Implementation
-### [RSO Best Practices](rso-best-practices.md)
 
 # [Connected Field Service (IoT) add-in](connected-field-service.md)
 ## [Connected Field Service for Azure IoT Central](cfs-iot-overview.md)
