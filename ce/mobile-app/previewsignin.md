@@ -33,7 +33,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 > [!IMPORTANT]
 > - This feature currently has limited availability.
 > - This feature is available for iOS users only.
-> - The email-address sign-in option is available for online users only.
+> - The email-address sign-in option is available for online users only. Both online and on-premises users can still sign in using the    web address option.
 
 
 ## Sign in with your email address
