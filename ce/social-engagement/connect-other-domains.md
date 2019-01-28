@@ -67,5 +67,4 @@ Copy the solution URL and paste it into the configuration page of the applicatio
 
 [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   
 [Get started with Social Engagement](get-started.md)   
-[Get connected to the social conversation](get-connected-social-conversation.md)
  
