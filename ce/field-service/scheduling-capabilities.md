@@ -2,7 +2,7 @@
 title: "Types of Field Service scheduling capabilities | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 1/23/2019
+ms.date: 1/28/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
