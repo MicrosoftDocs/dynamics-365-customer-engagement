@@ -43,7 +43,7 @@ For more information, visit the [Field Service installation (web + mobile)](../f
 
 ## Install the mobile app on a phone or tablet    
 
-To get the mobile app, search and download **Field Service Mobile** from the Windows, Apple, or Google Play app stores, or visit the following links. **Field Service Mobile** requires Field Service versions **7.5.5** and **8.2+**.
+To get the mobile app, search and download **Field Service Mobile** from the Windows, Apple, or Google Play app stores, or visit the following links. **Field Service Mobile** requires Field Service versions **7.5.5** or **8.2+**.
 
 - [Download for Windows](http://aka.ms/fsmobile-windows)
 - [Download for iOS (Apple)](http://aka.ms/fsmobile-iOS)

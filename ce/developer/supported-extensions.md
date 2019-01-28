@@ -2,7 +2,7 @@
 title: "Supported extensions (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "You can customize  Dynamics 365 for Customer Engagement apps by using tools that are available in the Customer Engagement web application or that are described in the Dynamics 365 for Customer Engagement apps SDK. These customizations are supported and can be upgraded. Customizations made using methods other than those described here are unsupported and could cause problems during updates and upgrades to Dynamics 365 for Customer Engagement."
 ms.custom: 
-ms.date: 11/20/2017
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -115,9 +115,9 @@ The following supported tasks require this procedure:
 
 ## Support for .NET Framework Versions  
 
- The following describes the support considerations for custom code written the [!INCLUDE[pn_NET_Framework_452_long](../includes/pn-net-framework-452-long.md)].  
+ The following describes the support considerations for custom code written the Microsoft .NET Framework 4.6.2.  
   
-- Any web service client created by using the [!INCLUDE[pn_NET_Framework_452_long](../includes/pn-net-framework-452-long.md)] or higher that calls the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services is fully supported in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+- Any web service client created by using the Microsoft .NET Framework 4.6.2 or higher that calls the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services is fully supported in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
 
   > [!IMPORTANT]
   > You should build any custom client applications using [!INCLUDE [pn-net-framework-462-long](../includes/pn-net-framework-462-long.md)] or later.
@@ -126,7 +126,7 @@ The following supported tasks require this procedure:
   > Enforcement of this higher standard for security will only be applied to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] at this time. If your clients are designed to connect to any version or deployment type you can prepare by re-compling the application to use [!INCLUDE [pn-net-framework-462-short](../includes/pn-net-framework-462-short.md)].
   > More information: [Blog Post: Updates coming to Dynamics 365 for Customer Engagement apps connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
   
-- Any .NET assembly that is created with the [!INCLUDE[pn_NET_Framework_452_long](../includes/pn-net-framework-452-long.md)] for use in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] as a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] plug-in assembly or as a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] custom workflow activity is supported.  
+- Any .NET assembly that is created with the Microsoft .NET Framework 4.6.2 for use in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] as a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] plug-in assembly or as a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] custom workflow activity is supported.  
 - Any visualization (chart) that is created with [!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)] .  
   
 <a name="Unsupported"></a>

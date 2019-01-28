@@ -1,8 +1,8 @@
 ---
 title: User guide for the Project Resource Hub (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: An end-user's guide for the Project Resource Hub for Project Service
-author: krbjoran
-manager: ShellyHa
+author: JohnPBurrows
+manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
@@ -10,7 +10,7 @@ ms.date: 8/03/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
-ms.author: krbjoran
+ms.author: jburrows
 audience: Admin
 search.audienceType: 
   - admin

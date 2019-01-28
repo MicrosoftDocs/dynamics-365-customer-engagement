@@ -2,7 +2,7 @@
 title: Use an existing field in Project Service as a pricing dimension 
 description: This topic provides information about using existing Project Service fields as pricing dimensions.
 author: Rumant
-manager: eichimur
+manager: kfend
 ms.custom:
   - dyn365-projectservice
 ms.date: 11/19/2018
