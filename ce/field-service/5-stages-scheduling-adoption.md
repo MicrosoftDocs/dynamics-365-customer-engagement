@@ -2,7 +2,7 @@
 title: "The 5 stages of scheduling adoption | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/23/2019
+ms.date: 01/28/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
