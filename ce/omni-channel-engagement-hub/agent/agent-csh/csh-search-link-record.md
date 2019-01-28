@@ -29,16 +29,7 @@ You accept an incoming conversation request and there is no customer record iden
 
 The inline search is based on the Lookup view. You can search the fields (attributes) that is based on the lookup view.
 
-| Entity | Searchable fields (attributes) | Status |
-|--------|--------------------------------|--------|
-| Accounts | Email |  |
-|  | Phone |  |
-|  | Name |  |
-|  | Address |  |
-|  | City |  |
-|  | Pin code |  |
-| Incident | Case number |  |
-|  | Title |  |
+For **Customer profile**, you can search for Contact or Account entity using the Email, Phone, Name, Address, City, and Pin code fields. For the **Issue snapshot**, you can search for Case (Incident) entity using the case number and title of the case.
 
 Only active lookup views are displayed for the search results. Also, you can customize the lookup views to change the searchable fields as per your business requirements.
 
