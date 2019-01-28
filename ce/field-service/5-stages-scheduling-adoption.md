@@ -31,11 +31,11 @@ search.app:
 
 Given existing customer implementations, we've discovered that there are typically 5 stages of scheduling adoption with Dynamics 365 for Field Service. In this topic, we'll explore these 5 typical stages. They apply mostly to early Field Service adoption (for instance, with limited-scope projects), but the stages also apply as implementations are rolled out to cover additional scope or locations. 
 
-We recommended using Field Service tracking analytics through these stages to measure how scheduling is meeting your defined business objectives. For example, Field Service provides data on travel time, time on the job, and jobs per day for use as needed.
+We recommend using Field Service tracking analytics throughout these stages to measure how scheduling is meeting your defined business objectives. For example, Field Service provides data on travel time, time on the job, and jobs per day for use as needed.
 
 ## Choosing the right resources
 
-It's important to note that having schedulers and schedule analysts **with the right skills** is a key prerequisite for this process. Identify, train, and empower these resources early in the pilot or roll-out process. Keep in mind these are your resources who will be involved daily in scheduling.
+It's important to note that having schedulers and schedule analysts **with the right skills** is a key prerequisite for this process. Identify, train, and empower these resources early in the pilot or roll-out process. Keep in mind these are your resources who will be involved daily in scheduling. For more information on these types of resources, visit [our topic on scheduling personas](scheduling-roles-personas.md). 
 
 ## Stage 1: Manual scheduling
 
@@ -56,6 +56,8 @@ Next we often see the introduction of overnight schedule creation using the Reso
 During this period, shedulers and schedule analysts can experiment and iterate on RSO schedules, allowing for adjustments to scope, goals, and timing of runs.
 
 During the day, exceptions are handled by the scheduler using manual and assisted scheduling. This means creating or changing bookings for new requirements, and adjusting the remaining schedule.
+
+For more information on overnight scheduling, visit our topic on [types of scheduling](scheduling-capabilities.md).
 
 Recommended time for this stage: 1-2 weeks
 
@@ -78,4 +80,3 @@ Recommended time for this stage: 1-2 weeks
 ## See also
 
 - [RSO Overview](rso-overview.md)
-- [Resource Schedule Optimization Tutorials](https://1drv.ms/w/s!AhAjbOq5aB_lqUVCI3rt-4cq8oKr)
