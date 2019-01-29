@@ -24,7 +24,6 @@
 #### [Add a chat widget](administrator/add-chat-widget.md)
 #### [Create a survey questions library](administrator/create-question-library.md)
 #### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
-#### [Create quick replies](administrator/create-quick-replies.md)
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
