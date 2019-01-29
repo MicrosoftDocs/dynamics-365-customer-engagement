@@ -32,7 +32,7 @@ Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dyn
 
 Portal capabilities version 9.1.1 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps brings these new updates and features:
 
-- **Portal checker**: You can now use portal checker helps you to identify issues with your portal by looking at various configuration parameters and provide suggestions on how to fix them. More information: [Portal checker](self-service-diagnostic.md)
+- **Portal checker**: You can now use portal checker to identify issues with your portal by looking at various configuration parameters and provide suggestions on how to fix them. More information: [Portal checker](self-service-diagnostic.md)
 
 ## Portal capabilities version 9.0.10 for Dynamics 365 for Customer Engagement apps
 
