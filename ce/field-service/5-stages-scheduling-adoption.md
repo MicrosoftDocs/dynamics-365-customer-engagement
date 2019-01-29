@@ -43,17 +43,13 @@ For defined scope and locations, the scheduler and schedule assistant begin by m
 
 Recommended time for this stage: 1-2 weeks
 
-## Stage 2: Assisted scheduling
+## Stage 2: Schedule Assistant
 
 The next stage sees the introduction of the schedule assistant for scheduling work. This work should be done by the scheduler and schedule analyst. Like with manual scheduling, schedulers will learn how to work with the schedule assistant, along with the deeper capabilities of the schedule board. Work scheduled with the schedule assistant should be actual work orders assigned to and completed by actual technicians.
 
 Recommended time for this stage: 1-2 weeks
 
-## Stage 3: Introduce automated overnight scheduling + manual exception handling (RSO)
-
-Next we often see the introduction of overnight schedule creation using the Resource Scheduling Optimization (RSO) simulated mode. 
-
-### Best practices: Resource Scheduling Optimzation (RSO)
+## Stage 3: Automated overnight scheduling + manual exception handling (RSO)
 
 Resource Scheduling Optimization (RSO) automatically matches resources and demands by considering skills, locations, duration, promised time windows, priorities, and many other factors. For location-specific work, optimization results minimizes overall travel distances and give accurate turn-by-turn travel time estimates. All of this is to improve technician productivity and customer satisfaction.
 
@@ -92,13 +88,16 @@ Measure changes/executions after optimization
 
 3.  How many jobs canceled
 
+In the beginning, we often see the use of overnight schedule creation using the Resource Scheduling Optimization (RSO) simulated mode. 
+
 RSO analytics allow schedule analysts to compare the simulation results and decide on the best RSO schedule for overnight processing. Like with the other adoption stages, all scheduled work should be actual work orders assigned to and completed by actual technicians.
 
 During this period, schedulers and schedule analysts can experiment and iterate on RSO schedules, allowing for adjustments to scope, goals, and timing of runs.
 
-During the day, exceptions are handled by the scheduler using manual and assisted scheduling. This means creating or changing bookings for new requirements, and adjusting the remaining schedule.
 
-### Best practices: manually handle exceptions after RSO optimization 
+### Best practice: manually handle exceptions after RSO optimization 
+
+During the day, exceptions are handled by the scheduler using manual and assisted scheduling. This means creating or changing bookings for new requirements, and adjusting the remaining schedule.
 
 **What it can do:** Using manual scheduling or scheduling assistant to handle exceptions during the day. This includes creating/changing bookings for new requirements and adjusting the remaining schedule via manual/assisted scheduling.
 
@@ -124,8 +123,6 @@ Recommended time for this stage: 1-2 weeks
 
 As exceptions occur, using single resource optimization (SRO) from the schedule board allows schedulers to re-optimize the schedule for individual technicians. SRO should be done by the scheduler, with assistance from the schedule analyst if needed.
 
-### Best practices: Single Resource Optimization (SRO) 
-
 **What it can do:** Emergencies and exceptions may happen anytime, SRO is to ensure these emergencies are addressed in time so businesses can meet their SLAs while technicians continue to have an efficient day. Again, this is to practice defining smart optimization scopes to handle unique scheduling problems.
 
 **When to do it:** Run single resource optimization to re-optimize a single resource's schedules for a specific time window (typically the remaining day). Most applicable in the following scenarios:
@@ -150,7 +147,7 @@ Refer [here](single-resource-optimization.md) for details about how to use SRO.
 
 Recommended time for this stage: 1-2 weeks
 
-## Stage 5: Automated exception handling (RSO)
+## Stage 5: Fully automated (RSO)
 
 In this late stage of adoption, RSO schedules run throughout the day to re-optimize subsets of the overall schedule. Based on what you've learned, the system should be configured to select the correct scope for re-optimization (for instance, optimizations based on requirements, resources, or bookings).
 
@@ -158,7 +155,7 @@ Alternatively, schedulers may manually trigger re-optimization runs as needed.
 
 The schedule analyst typically leads this effort, with assistance from the scheduler. The scheduler will continue to use manual and assisted scheduling on a limited basis as needed.
 
-### Best practices: fully automatic scheduling for both overnight and exceptions 
+### Best practice: fully automatic scheduling for both overnight and exceptions 
 
 **What it can do:** Emergencies and exceptions might happen anytime, how can we ensure these emergencies get addressed in time while also ensuring SLAs are met and technician efficicency remains high? Again, this is to practice defining smart optimization scopes to handle unique scheduling problems.
 
