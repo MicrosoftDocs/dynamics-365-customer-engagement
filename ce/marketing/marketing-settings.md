@@ -36,7 +36,7 @@ To find these settings, open **Settings** > **Advanced settings** and choose one
 
 See the remaining sections of this topic for information about how to work with each page in the **Marketing settings** section.
 
-<a href="authenticate"></a>
+<a name="authenticate"></a>
 
 ## Authenticate your domains
 
