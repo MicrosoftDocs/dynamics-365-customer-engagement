@@ -1,7 +1,7 @@
 ---
-title: Enable knowledge articles in the Omni-channel Engagement Hub | MicrosoftDocs
-description: Understand how you can enable knowledge articles in the Omni-channel Engagement Hub
-keywords: Omni-channel Engagement Hub; Share knowledge articles
+title: Share knowledge articles in the Omni-channel Engagement Hub | MicrosoftDocs
+description: Understand how you can share knowledge articles in the Omni-channel Engagement Hub
+keywords: Omni-channel Engagement Hub; share knowledge articles
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
