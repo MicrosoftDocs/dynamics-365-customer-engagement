@@ -26,9 +26,13 @@ The enterprise-grade routing and work distribution engine allows customers to co
 
 ## See also
 
-- [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
+- [Pre-requisites and system requirements](system-requirements-omni-channel-engagement-hub.md)
+- [Enable users for Omni-channel Engagement Hub](administrator/add-users-assign-roles.md)
+- [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
+- [Configure a live chat in 2 minutes](administrator/configure-live-chat.md)
+- [Administrators guide](administrator/omni-channel-engagement-hub-administrator.md)
 - [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 - [Agents using Customer Service Hub](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
-- [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
+- [System customizers guide](customizer/omni-channel-engagement-hub-customizer.md)
 
 <!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->
