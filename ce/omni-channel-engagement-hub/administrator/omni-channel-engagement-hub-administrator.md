@@ -47,7 +47,7 @@ You can view the entities in the **Omni-channel Administration** site map.
 - [Create custom presence status](presence-custom-presence.md#create-custom-presence-status)<br>
 - [Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)<br>
 - [Create a routing rule](routing-rules.md#create-a-routing-rule)<br>
-- [Add a chat widget](set-up-chat-widget.md#add-a-chat-widget)<br>
+- [Add a chat widget](add-chat-widget.md)<br>
 - [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
 - [Create a question library](create-question-library.md)<br>
 - [Create quick replies](create-quick-replies.md)<br>
