@@ -136,6 +136,7 @@
 #### [Create and run online surveys](surveys.md)
 
 ### [Work with marketing calendars](marketing-calendar.md)
+### [Preview: Schedule and post messages on social media](social-posting.md)
 ### [Go live with publishable entities and track their status](go-live.md)
 ### [Get social-listening insights](social-listening.md)
 
