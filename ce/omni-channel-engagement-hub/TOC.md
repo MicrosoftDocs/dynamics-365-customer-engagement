@@ -31,7 +31,6 @@
 ### Agent experience settings
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage presence status](administrator/presence-custom-presence.md)
-### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
 
 ## Agent guide
 ### [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
