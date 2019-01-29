@@ -56,9 +56,9 @@ You can use a keyboard shortcut to see the list of quick replies. Press the Slas
 
 ## Search for and share knowledge articles
 
-From the conversation control, you can search for relevant knowledge articles, based on the context of the session, and then share the articles that you find with customers.
+From the conversation control, you launch can launch the knowledge base search control using the option. After launching the search control, you can search for relevant knowledge articles, based on the context of the session, and then share the articles that you find with customers.
 
-You can use a keyboard shortcut to open the knowledge article search control in the right panel. Press the Slash (/) key and the letters K and B (**/+K+B**). You can search for and share articles with customers through the conversation control. Select the **Send link** button to share the link to a knowledge article with the customer.
+You can use a keyboard shortcut to launch the knowledge article search control in the right panel. Press the Slash (/) key and the letters K and B (**/+K+B**). You can search for and share articles with customers through the conversation control. Select the **Send link** button to share the link to a knowledge article with the customer. More information: [Search for knowledge articles](right-control-panel.md#search-for-knowledge-articles)
 
 ## Consult with agent or supervisor
 

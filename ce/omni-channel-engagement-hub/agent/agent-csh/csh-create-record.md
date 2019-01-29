@@ -34,7 +34,7 @@ When no records are linked to the conversation in the Omni-channel Engagement Hu
 4. Select **Save and Close** to save the changes and close the form.
 
  > [!div class=mx-imgBorder]
- > ![Quick create contact](../../media/oc-csh-create-quick-create-contact.png "Quick create contact")
+ > ![Quick create contact](../../media/oc-csh-quick-create-contact.png "Quick create contact")
 
 After you save the changes, the record is linked to the conversation. You can see the linked conversation in the Customer summary page.
 

@@ -137,9 +137,24 @@ Use the keyboard shortcut to launch the agent and queue tab to transfer the conv
 
 ### Set your presence
 
-Presence is the indication of your (agent) availability or status. A presence status is composed of the base presence elements that indicate the category of availability. The five standard base presence elements are Available, Away, Busy, Do Not Disturb, and Offline.
+Presence is the indication of your (agent) availability or status. 
 
-To set the presence, select the status icon at the bottom-right corner and then select the status from the list.
+Presence status is updated in two ways: 
+- **Manually** - Change the status manually according your availability.
+- **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity.
+  a. When your capacity is completely utilized the presence is set to **BusyDND**.
+  b. When your capacity is partially utilized the presence is set to **Busy**. 
+  c. When your capacity is not utilized the presence is set to **Available**.
+
+To view and set the presence, select the status icon at the bottom-right corner and then select the status from the list to update your status manually. The list shows five standard presence statuses: 
+
+ - Available
+ - Away
+ - Busy
+ - Do Not Disturb
+ - Offline
+
+ Also, you may see any other additional presence statuses that your administrator configured for you.
 
  > [!div class=mx-imgBorder]
  > ![Agent presence status](../../media/csh-oc-presence.png "Agent presence status")

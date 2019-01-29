@@ -29,7 +29,7 @@ Routing rules are configured for each work stream. A single work stream can have
 Routing rules evaluate conversations based on the context channel, customer attributes, and agent attributes. For example, you can define a routing rule so that chats from high priority customers who have specific queries about investments can be routed to a specific queue.
 
 > [!IMPORTANT]
-> Routing rule items are run in a specific order, and the conversations are routed according to the destination. Collectively, the conditions form a criterion for a rule item. Therefore, for a conversation, if the criterion in a rule item is evaluated as true, the conversation is routed to the designated destination. Otherwise, the criterion in the next rule item is evaluated. </br> </br> If the criteria in all the rule items are evaluated as false, the conversation goes to a **Default** queue.
+> Routing rule items are run in a specific order, and the conversations are routed according to the destination. Collectively, the conditions form a criterion for a rule item. Therefore, for a conversation, if the criterion in a rule item is evaluated as true, the conversation is routed to the designated destination. Otherwise, the criterion in the next rule item is evaluated. </br> </br> If the criteria in all the rule items are evaluated as false, the conversation goes to a **Default** queue. For more information, see [Default queue](queues-omni-channel.md#default-queue).
 
 ## Create a routing rule
 To create a routing rule, select a work stream by navigating to **Work Distribution Management** > **Work Streams**, and define a new rule in the **Routing Rule Item** tab.

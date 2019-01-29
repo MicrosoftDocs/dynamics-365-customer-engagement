@@ -85,16 +85,25 @@ Best practices are the guidelines about system configurations, Unified Service D
 
 ### Presence
 
-The **Presence** area shows the agent's presence status. Presence status indicates an agent's availability or status.
+Presence is the indication of your (agent) availability or status.
 
-You can update the presence status using one of the following ways:
-- **Manually** - Change the status manually accoridng your availability.
-- **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated. When you are away, the status is updated as away
+Presence status is updated in two ways: 
+- **Manually** - Change the status manually according your availability.<br>Select on the presence text to view all the presence statuses and update your status manually. The list shows five standard presence statuses: 
 
-Select on the presence text to view all the presence statuses. There are five standard bases statuses: **Available**, **Away**, **Busy**, **Do Not Disturb**, and **Offline**. 
+  - Offline
+  - Appear away
+  - Busy
+  - Available
+  - Do Not Disturb
+ 
+ Also, you may see any other additional presence statuses that your administrator configured for you.
 
  > [!div class=mx-imgBorder]
  > ![Omni-channel presence status](../../media/oc-usd-presence.png "Omni-channel presence status")  
+- **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity.
+  a. When your capacity is completely utilized the presence is set to **BusyDND**.
+  b. When your capacity is partially utilized the presence is set to **Busy**. 
+  c. When your capacity is not utilized the presence is set to **Available**.
 
 ## Session management toolbar
 

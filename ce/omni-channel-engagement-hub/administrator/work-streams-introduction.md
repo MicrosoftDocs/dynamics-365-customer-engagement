@@ -15,23 +15,19 @@ ms.custom:
 
 # Understand work streams in the Omni-channel Engagement Hub
 
-A work stream is a collection of routing & work distribution settings. A work stream can belong to multiple conversation sources of same type, for example live chat. In that case, all those conversations inherit routing and work distribution settings of the work stream they belong to. 
-
-For example, multiple live chat widgets can be associated with a single work stream. Hence, all the chat conversations from these widgets are routed and distributed based on the defined work stream settings.
-
-Omni-channel Engagement Hub has some predefined work streams. However, as an admin, you can define new work streams to introduce a new source.
-
-> [!div class=mx-imgBorder] 
-> ![Omni-channel work streams](../media/oc-workstream-view.png)
+A work stream is a collection of routing & work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. 
 
 In omni-channel, you can create two types of work streams:
 
 - [Live chat work stream](create-work-streams.md#create-a-new-live-chat-work-stream)
 - [CDS Entity work stream](create-work-streams.md#create-a-new-cds-entity-work-stream)
 
+> [!NOTE]
+> A work stream can belong to multiple sources of same type, for example multiple live chat widgets. In this case, all the conversations from these widgets inherit routing and work distribution settings of the work stream they belong to.
+
 A work stream comprises of the following properties:
 
-- **Channels**: In Omni-channel Engagement Hub, a channel is defined as a medium via which a customer reaches out for support. For example, a customer can chat with an agent through the chat channel. 
+- **Channels**: A channel is defined as a medium via which a customer reaches out for support. For example, a customer can chat with an agent through the chat channel. 
    
 - **Allowable Presence**: Allowable presence helps in distributing conversations to agents based on their presence status. For example, if you want to allocate a chat conversation from a high priority customer, ensure that you look for only those agents that have their presence status as 'Available'. So, while defining properties for a work stream, select Allowable presence as Available.
 
@@ -44,7 +40,7 @@ A work stream comprises of the following properties:
     For more information, see [View agent dashboard and agent work items](../agent/agent-usd/introduction-agent-dashboard.md).
  
 
-- **Context attributes**: Context attributes enrich conversations with pre-chat data, channel data, and custom (3rd party/LOB) data. For example, for a chat conversation, context attributes include browser information, IP address, answers to pre-chat questions, customer ID (for authenticated chat), time spent on a page and more. These variables can then be used to define routing rules to channelize conversations into different queues. 
+- **Context attributes**: Context attributes enrich conversations with pre-chat data and channel data. For example, for a chat conversation, context attributes include browser information, IP address, answers to pre-chat questions, customer ID (for authenticated chat), time spent on a page and more. These variables can then be used to define routing rules to channelize conversations into different queues. 
    > [!NOTE]
    > For this preview, context variables are applicable only for live chat.
 
