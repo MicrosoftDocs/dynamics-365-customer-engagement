@@ -22,9 +22,9 @@ search.app:
   - D365Portals
 ---
 
-# Self-service diagnostics
+# Portal checker
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal provides a self-service environment for administrators to run the diagnostic tool to see if their portal has any issues. The diagnostic tool collects customer issues from the portal solution and portal website, collates the issues, and displays them on a single page. This helps administrators find and fix the issues.
+Portal checker for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal is a self-service diagnostic tool that can be used by portal administrators to identify common issues in their portal. Portal checker helps identify issues with your portal by looking at various configuration parameters and provides suggestions on how to fix them.
 
 When you run the diagnostic tool, the results are displayed in the **Diagnostic results** section in a grid format. The results grid has the following columns:
 
@@ -45,9 +45,7 @@ You can expand an issue to view detailed information and mitigation steps. If th
 If required, you can rerun the diagnostic checks, which will refresh the results with updated data.
 
 > [!NOTE]
-> While running the diagnostic tool, you must ensure the following or else you will see an error:
-> - Portal is turned on.
-> - IP address filtering is disabled.
+> If portal is turned off or IP address filtering is enabled, certain diagnostic checks will not be run on your portal.
 
 To run the diagnostic tool:
 
