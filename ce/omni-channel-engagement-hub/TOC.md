@@ -31,6 +31,7 @@
 ### Agent experience settings
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage presence status](administrator/presence-custom-presence.md)
+#### [Share knowledge articles](administrator/knowledge-management-oc.md)
 
 ## Agent guide
 ### [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)

@@ -60,8 +60,11 @@ After knowledge management is set up, users will be able to:
 3. In the **Support Portal Connection** section, enter the following:  
   
    - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.  
+
+        Select **Yes** to share the knowledge article as a link in the email sent to the customer. Select **No** to share the article content inserted in the email body. If you choose **Yes**, provide the **URL format**.
   
-   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format:  http://\<support portal URL>/kb/{kbnum}   
+   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: 
+        </br> </br> *http://\<support portal URL>/kb/{kbnum}* 
   
         The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
   
@@ -81,9 +84,11 @@ After knowledge management is set up, users will be able to:
   
 6. In the **Support Portal Connection** section, enter the following:  
   
-   - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.  
+   - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.
+
+        Select **Yes** to share the knowledge article as a link in the email sent to the customer. Select **No** to share the article content inserted in the email body.  If you choose **Yes**, provide the **URL format**.
   
-   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: http://\<support portal URL>/kb/{kbnum}  
+   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: </br> </br> *http://\<support portal URL>/kb/{kbnum}*  
   
         The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
   
