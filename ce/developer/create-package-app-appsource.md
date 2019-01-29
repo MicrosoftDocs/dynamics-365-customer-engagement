@@ -38,7 +38,7 @@ You must create an AppSource package (.zip file) to include your solution and de
 
 A package lets you bundle and deploy multiple files related to your app at once. 
 
-1. Create a Dynamics 365 for Customer Engagement apps package to include the solution and configuration data files that you created in [Step 2: Create a managed solution for your app](create-solution-app-appsource.md). A package can also contain custom code that can run before, while, or after the package is deployed to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. For more information about creating a package file, see [Create packages for the Dynamics 365 for Customer Engagement Package deployer](create-packages-package-deployer.md).
+1. Create a Dynamics 365 for Customer Engagement apps package to include the solution and configuration data files that you created in [Step 3: Create a managed solution for your app](create-solution-app-appsource.md). A package can also contain custom code that can run before, while, or after the package is deployed to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. For more information about creating a package file, see [Create packages for the Dynamics 365 for Customer Engagement Package deployer](create-packages-package-deployer.md).
 
     After you have created a package, your package will consist of the following things:
 
@@ -46,7 +46,7 @@ A package lets you bundle and deploy multiple files related to your app at once.
   
     - **\<PackageName>.dll**: The assembly contains the custom code for your package. For example: **SamplePackage.dll**.
 
-2. Next, create a **[Content_Types].xml** file that provides MIME type information of the file type extensions that are included in your package. This is separate from the one that will be included again in the AppSource package. Here is the sample contents of a Content_Types].xml file with file types listed:
+2. Next, create a **[Content_Types].xml** file that provides MIME type information of the file type extensions that are included in your package. This is separate from the one that will be included again in the AppSource package. Here is the sample contents of a [Content_Types].xml file with file types listed:
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
