@@ -5,7 +5,9 @@
 ### [Pre-requisites and system requirements](system-requirements-omni-channel-engagement-hub.md)
 ### [Enable users for Omni-channel Engagement Hub](administrator/add-users-assign-roles.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
-### [Configure a live chat in 2 minutes](administrator/configure-live-chat.md)
+### [Add users and assign roles to users](administrator/add-users-assign-roles.md)
+### [Understand work streams](administrator/work-streams-introduction.md)
+### [Quickly configure a chat widget in 2 minutes](administrator/configure-live-chat.md)
 
 ## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
@@ -17,16 +19,18 @@
 ##### [Set up record identification rule](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 #### [Work with queues](administrator/queues-omni-channel.md)
-#### [Create a chat widget](administrator/set-up-chat-widget.md)
-##### [Create a survey questions library](administrator/create-question-library.md)
-##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
-##### [Create and manage operating hours](administrator/create-operating-hours.md)
-##### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
+
+### [Configure a chat widget](administrator/set-up-chat-widget.md)
+#### [Add a chat widget](administrator/add-chat-widget.md)
+#### [Create a survey questions library](administrator/create-question-library.md)
+#### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
+#### [Create and manage operating hours](administrator/create-operating-hours.md)
+#### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
+#### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
 
 ### Agent experience settings
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage presence status](administrator/presence-custom-presence.md)
-### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
 
 ## Agent guide
 ### [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
@@ -80,5 +84,3 @@
 ##### [Step 5: Add the action calls to the events](customizer/toastnotification-step5-add-action-calls-events.md)
 ##### [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](customizer/toastnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
-
-## [Customers](customer/omni-channel-engagement-hub-customer.md)

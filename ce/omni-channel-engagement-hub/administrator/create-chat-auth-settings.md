@@ -145,3 +145,12 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
     encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
     return encoded_jwt
     ```
+
+### See also
+
+[Add a chat widget](add-chat-widget.md) <br>
+[Create a survey questions library](create-question-library.md) <br>
+[Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Create quick replies](create-quick-replies.md) <br>
+[Create and manage operating hours](create-operating-hours.md) <br>
+[Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)

@@ -18,7 +18,7 @@ ms.custom:
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!NOTE]
-> The provisioning capability in the Omni-channel Engagement Hub is available as a preview in this release. It will be generally available in a future release.
+> Omni-channel Engagement Hub is available in preview in this release. It will be generally available in a future release.
 
 Omni-channel Engagement Hub is a cloud-based application that helps you extend the power of Microsoft Dynamics 365 for Customer Service. It lets customer service agents instantly connect to and engage with their customers, so that they can quickly resolve the queries.
 
@@ -62,9 +62,10 @@ Follow these steps to set up Omni-channel Engagement Hub.
        > [!div class=mx-imgBorder]
        > ![manage instances](../media/manage-instances.png)
 
-       The **First run experience** wizard is displayed.
-     
-   3. Select the organization in the **Organization Selector** drop-down list in the **First run experience** wizard. 
+       > [!IMPORTANT]
+       > As an admin, you can configure omni-channel on multiple org instances. You can view the status of all org instances where the omni-channel app has been configured in the **Manage Instances** view.
+
+   3. Select the organization in the **Organization Selector** drop-down list. 
 
         > [!div class=mx-imgBorder]
         > ![select org](../media/select-org.png)
@@ -90,15 +91,13 @@ Follow these steps to set up Omni-channel Engagement Hub.
       > [!div class=mx-imgBorder]
       > ![summary of set up](../media/summary-fre.png)
 
-    5. Select **Close** to close the **First run experience** wizard.
 
 On successful set up, your org and your omni-channel app are displayed in the **Manage Instances** view.
 
 > [!div class=mx-imgBorder]
 > ![Set up complete](../media/install-complete.png)
 
-> [!IMPORTANT]
-> As an admin, you can configure omni-channel on multiple org instances. You can view the status of all org instances where the omni-channel app has been configured in the **Manage Instances** view.
+
 
 ### See also
 

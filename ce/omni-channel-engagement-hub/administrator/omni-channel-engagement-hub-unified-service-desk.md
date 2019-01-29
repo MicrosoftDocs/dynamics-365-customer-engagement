@@ -60,18 +60,26 @@ Configure the Internet Explorer Settings on the every client desktops for the fo
  3.	In the **Turn on pop-up Blocker** section, select **Settings**.
 
  4.	In the **Address of website to allow** field, specify one URL and select **Add**. <br>
-    Add the following URLs:<br><br>
-  - *.core.windows.net
-  - *.microsoftonline.com
-  - *.office.com
-  - *.powerbi.com
-  - *.dynamics.com
-  - *.crmdynint.com
-  - *.azureedge.net
-  - *.azurewebsites.net
+    Add the following URLs:<br>
+   - *.core.windows.net
+   - *.microsoftonline.com
+   - *.office.com
+   - *.powerbi.com
+   - *.dynamics.com
+   - *.crmdynint.com
+   - *.azureedge.net
+   - *.azurewebsites.net
 
   5. Select **Close**, and then select **OK**.
 
 Based on your organization requirements, you can add any other URLs in allowed sites along with the above-mentioned URLs.
 
 To configure the **Enable Protected Mode** option, **TabProcGrowth** (Tab Process Growth), **TabShutdownDelay** (Tab Shutdown Delay) registry key, and **Enable Automatic Crash Recovery** option, see [Internet Explorer setting guidelines](/dynamics365/customer-engagement/unified-service-desk/admin/internet-explorer-settings-bpa).
+
+
+## See also
+
+- [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
+- [Customize Customer summary form](customize-customer-360-page.md)
+- [Customize the conversation form](customize-conversation-form.md)
+- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)

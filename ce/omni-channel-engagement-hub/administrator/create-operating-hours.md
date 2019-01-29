@@ -54,3 +54,12 @@ Operating hours define the hours when your organization's customer support team 
 
     > [!div class=mx-imgBorder]
     > ![Add operating hours in a chat widget](../media/oc-chat-widget-design-tab.png "Add operating hours in a chat widget")
+
+### See also
+
+[Add a chat widget](add-chat-widget.md) <br>
+[Create a survey questions library](create-question-library.md) <br>
+[Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Create quick replies](create-quick-replies.md) <br>
+[Create chat authentication settings](create-chat-auth-settings.md) <br>
+[Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)
