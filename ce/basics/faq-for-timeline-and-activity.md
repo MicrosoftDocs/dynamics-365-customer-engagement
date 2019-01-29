@@ -24,4 +24,32 @@ search.app:
 
 ## Is a title required when adding a new note?
 
-When adding a note on any activity, the title of the note is not mandatory even if on the Note form the tile is a mandatory field. The title attribute will show as required in form designer but will not be required at runtime. This is a known issue in the legacy Web Client.
+No. When adding a note to an activity, the title field is marked as a mandatory field but is not required. This is a known issue in the legacy Web Client.
+
+## Draft does not show after saving an appointment as **Save as draft**.
+
+When saving an appointment in the legacy Web Client as a draft the title does not display **[DRAFT]** to indicate that the appointment has been saved as a draft.
+
+## Can I add activities to read only records?
+
+Yes. For entities or records are read only however, you can still add activities to those entities. This allows you to create notes, phone calls, tasks, and more. 
+
+## Are HTML tags supported in **Notes**?
+
+No. When creating a note activity for any record or entity, HTML tags are not supported.  For example, if you add <TAG> </TAG> to a notes field it will be displayed as <TAG_XXX="XX"> </TAG>.
+
+## How can I improve performance on timeline wall?
+
+Yes, Timeline Wall performance can be improved by optimizing how much data is returned by a specific entity record. 
+
+1.	Configure entity forms to only show activities that are in use.  This can be done at the form level to only show useful activities.  For example, if you don’t use tasks for cases you can configure the timeline wall on the case form to not show tasks.
+2.	Reduce the number of default records that are shown by the timeline wall.  By default, it is set to return 10, beyond 10 it can cause performance issues.  It is recommended to not exceed the default. 
+
+## Is the Activity Wall supported in Print Preview?
+
+When you select the **Print Preview** option in Dynamics 365 the Timeline Wall will not show in the available list. You will see **Notes** but it will not show **Tasks** or **Emails**.
+
+
+
+
+
