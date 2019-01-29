@@ -38,8 +38,6 @@ Dynamics 365 Channel Integration Framework
 
 - When you specify the **EntityLogicalName** to pre-populate the search string in the **renderSearchPage** API, the list provides records from all the entities that matches the search criteria rather displaying the records from particular entity type.
 
-- Widgets hosted on GCC and blackforest servers will not load in CIF environment.
-
 Transport Layer Security (TLS) Requirements
 -------------------------------------------
 
