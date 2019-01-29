@@ -13,7 +13,7 @@ ms.assetid: 03e2226e-a947-4b41-8b19-cad79bf59ce4
 ms.custom: 
 ---
 
-# Enable knowledge articles in the Omni-channel Engagement Hub
+# Share knowledge articles in the Omni-channel Engagement Hub
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
