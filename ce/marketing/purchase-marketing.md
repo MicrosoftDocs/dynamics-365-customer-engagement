@@ -57,6 +57,9 @@ For more information about licensing, see the [Administration and setup FAQ](set
 
 There are many ways to add one or more [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps to your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant. For example, you can purchase it from the [Dynamics 365 for Marketing overview page](https://dynamics.microsoft.com/en-us/marketing/overview/), or by going to **Billing** > **Purchase services** in your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Admin Center, or by contacting your Microsoft sales representative or channel partner. As mentioned previously, you might even qualify to have a free [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app added to your tenant.
 
+- On purchasing a license, an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app will be added automatically to your tenant.
+- If you are entitled to a free license as a result of your existing [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license agreement, then please [raise a ticket with Microsoft Support](setup-troubleshooting.md#contact-support) to have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app added to your tenant.
+
 You can have any number of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps available on your tenant. Initially, each of these apps will be unconfigured and unassigned to any [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance. Later, you'll run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard to assign the app to an instance and configure it.
 
 ## Set up an unconfigured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app

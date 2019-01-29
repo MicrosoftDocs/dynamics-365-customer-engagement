@@ -39,11 +39,18 @@ Read this topic to find answers to common questions and solutions to known issue
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is licensed per instance, with each instance priced according to the number of marketing contacts stored in your database. Here are answers to several of the most frequently asked questions about licensing:
 
 - **What is a marketing contact?**  
-    A *marketing contact* is any contact used as part of a marketing activity in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. *Marketing activities* include marketing emails, marketing pages, marketing forms, LinkedIn integrations, events, surveys, custom channels, and more. You will only be charged for contacts that are engaged in marketing activities using the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application, or capabilities delivered as part of the application. Each marketing activity is associated with a specific contact, but you can also target any lead or opportunity that is linked to a contact in the database. 
+    [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is priced in relation to how many *marketing contacts* you have in your database, where a marketing contact is any contact used as part of a marketing activity in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Contacts that you don’t market to using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] features don’t count towards your marketing-contacts quota. (Each marketing activity is associated with a specific contact, but you can also target any lead or opportunity that is linked to a contact in the database.) Technically speaking, a marketing contact is any contact that has one or more of the following types of interactions associated with it in the Dynamics 365 for Marketing customer-insights database:
+  - Contact used in customer journey
+  - Email sent
+  - Event check-in
+  - Event registration
+  - Form submitted
+  - LinkedIn form submitted
+
 - **Which marketing contacts count against my quota?**  
     All marketing contacts on your tenant are counted, regardless of instance type (including both production and non-production instances).
-- **Where can I see my contact quota?**  
-    To see how many contacts you've purchased, go to **Settings** > **Advanced settings** > **Other settings** > **Quota limits**. 
+- **Where can I see my quotas and quota usage?**  
+    To see how many of each quota you've purchased and used, go to **Settings** > **Advanced settings** > **Other settings** > **Quota limits**.
 - **What is my monthly email quota?**  
     Your monthly email quota is equal to ten times the number of marketing contacts you have purchased.
 - **If I use a contact only once in a month and don’t use it next month, does it count?**  

@@ -136,7 +136,6 @@
 #### [Create and run online surveys](surveys.md)
 
 ### [Work with marketing calendars](marketing-calendar.md)
-### [Preview: Schedule and post messages on social media](social-posting.md)
 ### [Go live with publishable entities and track their status](go-live.md)
 ### [Get social-listening insights](social-listening.md)
 
@@ -144,6 +143,8 @@
 #### [Analyze results to gain insights](insights.md)
 #### [Insights glossary](insights-glossary.md)
 #### [Preview: Create custom analytics with Power BI](custom-analytics.md)
+
+### [Activate and use preview features](marketing-preview-features.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
