@@ -19,7 +19,7 @@ ms.custom:
 
 Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQs), product briefs, and more.
 
-As a customer service agent, you can share knowledge articles with external customers in the Omni-channel Engagement Hub. To enable sharing of knowledge articles, the admin can configure the external portal in the **Support Portal Connection** section of the **Embedded Knowledge Search**. Admins can set up the external portal control in **Service Management** in the **Customer Service Hub** app.
+As a customer service agent, you can share knowledge articles with your customers in the Omni-channel Engagement Hub. To enable sharing of knowledge articles, the admin can configure the external portal in the **Support Portal Connection** section of the **Embedded Knowledge Search**. Admins can set up the external portal control in **Service Management** in the **Customer Service Hub** app.
 
 To know more about how to configure external portal in the **Customer Service Hub** app, see [Set up knowledge management (Customer Service Hub)](../../customer-service/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management-customer-service-hub).
 
@@ -45,3 +45,5 @@ Follow these steps to enable knowledge article sharing using an external portal.
 ### See also
 
 [Use embedded knowledge search to set up knowledge management](../../customer-service/set-up-knowledge-management-embedded-knowledge-search.md)
+
+[Search for and share knowledge articles](../agent/agent-usd/left-control-panel.md#search-for-and-share-knowledge-articles)
