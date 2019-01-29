@@ -68,11 +68,4 @@ ms.custom:
 <li><a href="supervisor/add-users-supervisor-configuration.md" data-raw-source="[Add users to the supervisor configuration](add-users-supervisor-configuration.md)">Add users to the supervisor configuration</a></li>
 </td> -->
 </tr>
-<tr>
-<td>
-<h2> I'm a customer</h2>
-
-<li><a href="customer/omni-channel-engagement-hub-customer.md" data-raw-source="[Omni-channel customer](customer/omni-channel-engagement-hub-customer.md)">Omni-channel customer</a></li>
-</td>
-</tr>
 </table>
