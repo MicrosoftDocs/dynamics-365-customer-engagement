@@ -40,7 +40,7 @@ You require the following to use Omni-channel Engagement Hub - Preview with Unif
 |----------|----------|
 | Desktop application | Unified Service Desk 4.1.0.1130 and higher version <br><br>More information: [Download Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md#download-unified-service-desk-client-application)<br><br>**Note:** Unified Service Desk 4.1.0.1130 is in preview.|
 | Dynamics 365 | Customer Service Hub app in Dynamics 365 for Customer Engagement apps version 9.1 and a higher version |
-| Web browsers | Supported browsers are: <li> Microsoft Edge </li> <li>Internet Explorer</li><br><br>**Note:** The Microsoft Edge support in Unified Service Desk is in preview. |
+| Web browsers | Supported browsers are: <li> Microsoft Edge </li> <li>Internet Explorer</li><br>**Note:** The Microsoft Edge support in Unified Service Desk is in preview. |
 | Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and a higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7</li>|
 | Memory (Hardware) | ^8-GB RAM or more |
 
