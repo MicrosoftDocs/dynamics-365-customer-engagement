@@ -2,7 +2,7 @@
 title: "Step 4: Create an AppSource package for your app (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about how to create an AppSource package (.zip file) to include your solution and demo data files along with other required files."
 ms.custom: 
-ms.date: 12/15/2017
+ms.date: 01/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
