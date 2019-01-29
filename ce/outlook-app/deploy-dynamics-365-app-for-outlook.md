@@ -92,6 +92,9 @@ For more information on FAQ's, see [Frequently Asked Questions about Dynamics 36
 
 5. In the **Customization** tab, verify that **User Application Metadata** has **read/write** privileges. Also verify that **Entity**, **Field**, **Model-driven App**, **Relationship**, **System Application Metadata**, **System Form** and **View** have **read** privilege.
 
+> [!NOTE]
+>  A user also need to have R read/write privilegeson to the **Contact** entity.
+
 ### Provide security role access 
 If you have custom security roles defined in Dynamics 365 for Customer Engagement apps, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
 
