@@ -36,37 +36,48 @@ From time to time, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] makes n
 
 ## Enable preview features
 
-Most preview features aren't installed or enabled by default. A system administrator must explicitly enable and install them before they will become available to any instance. To enable the current preview features:
+Most preview features aren't installed or enabled by default. A system administrator must explicitly enable and install them before they will become available to any instance. 
+
+> [!NOTE]
+> If you already have a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] environment, but don't yet have [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed on it, and you'd like to install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] with the preview features already enabled, then you can enable the preview and install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] at the same time by running the procedure provided here (you don't need to install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] first).
+
+To enable the preview features:
 
 1. Sign in to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] (or any app on your tenant) as an administrator.
 
-1. Go to your [Power platform admin center](https://admin.powerplatform.microsoft.com/).
+1. Go to your [Power platform admin center](https://admin.powerplatform.microsoft.com/) (this link will bring you there).
 
 1. Select **Environments** in the side navigator. A list of environments on your tenant opens. (Environments are also sometimes called *instances* or *organizations*.)
 
 1. Select the environment where you have [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed want to enable the preview.
+    > [!CAUTION]
+    > We highly recommend that you only enable preview features on a sandbox environment, not on a production environment. You can [copy a production instance](manage-marketing-instances.md) to a sandbox if you want to test on your exact configuration, and sandbox environments can be reset, backed up, and restored as you test features without impacting your production users.
+
+1. Find the **Updates** section of the page, and then select the **Manage** link at the top of this section.
+
+    ![Location of the Updates section](media/preview-enable-1.png "Location of the Updates section")
+
     > [!NOTE]
-    > We highly recommend that you only enable preview features on a [sandbox environment](manage-marketing-instances.md), not on a production environment. Sandbox environments can be reset, backed up, and restored as you test features without impacting your production users.
+    > If the **Manage** link isn't present, and it says **On** under **April 2019 update**, then you've already enabled the preview for this environment. But you might still need to install the features, so skip ahead to step 8 to make sure.
 
-1. Select **Settings** on the command bar.
+1. The **April 2001 update** flyout slides in from the side of the page. Select the **Activate now** button at the bottom of the flyout.
 
-1. On the **Settings** page, select **Product** > **Features**. The features settings for your selected environment are shown.
+1. The **Turn on April 2019 update?** dialog box opens. To confirm that you want to enable the preview features for your selected environment, enter the environment name in the field provided here and then select **Confirm**.
 
-1. Set the **April 2009 release** slider to **On**.
-
-1. Select **Save** to save your settings.
+    ![The enable-preview flyout and dialog](media/preview-enable-2.png "The enable-preview flyout and dialog")
 
 1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
 
-1. Go to the **Applications** tab of the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] admin center.
+1. Go to the **Applications** tab of the admin center to see a list of applications you have installed.  
+    ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
 
-1. Find a **Dynamics 365 Marketing Application** in the list on the **Applications** tab
+    The list shows a row marked **Dynamics 365 Marketing Application** for each entitlement (license) you have for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Free entitlements show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the environment where they are installed at the end of their application name.
 
-1. Select the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app where you want to enable the preview, and then choose **Manage** from the side panel.  
+1. From the list on the **Applications** tab, select the **Dynamics 365 Marketing Application** where you want to enable the preview, and then choose **Manage** from the side panel.
+    - If you're adding the preview to an existing [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installation, then choose the configured application that includes the name of the environment you just enabled for the preview.
+    - If you're installing [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for the first time, then choose an unconfigured entitlement. Later, when asked by the setup wizard, choose the environment you just enabled for the preview.
 
-1. The setup wizard launches, which should now show a message that an update is available. Follow the instructions on your screen to update your selected app.
-
-1. The preview features are now available on the application and environment you selected.
+1. The setup wizard launches. Follow the instructions on your screen to update or install your selected app. For more information about the setup wizard, see [Run the setup wizard](purchase-setup.md).
 
 See the remaining sections of this topic for details about how to find and use the preview features.
 
@@ -104,6 +115,10 @@ You can delete a social configuration at any time to prevent [!INCLUDE[pn-market
 Use the **Social posts** entity to author and schedule your posts. You can post from any social-media account that your admin has set up and authenticated in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md), as described in the previous section.
 
 In the current preview version, only Twitter is supported, but we expect to add more social media channels when this feature becomes generally available.
+
+To schedule and post a message to one of your social-media channels:
+
+1. 
 
 ## Preview: Detailed quota reporting
 
