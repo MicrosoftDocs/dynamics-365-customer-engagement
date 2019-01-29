@@ -27,11 +27,69 @@ You can search for the records in two ways.
 
 You accept an incoming conversation request and there is no customer record identified in the Omni-channel Engagement Hub. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
 
-The inline search is based on the Lookup view. You can search the fields (attributes) that is based on the lookup view.
+The inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that is based on the Lookup View and Quick View Field.
 
-For **Customer profile**, you can search for Contact or Account entity using the Email, Phone, Name, Address, City, and Pin code fields. For the **Issue snapshot**, you can search for Case (Incident) entity using the case number and title of the case.
+For **Customer profile**, you can search for Contact or Account entity. By default, you can search using the following fields.
 
-Only active lookup views are displayed for the search results. Also, you can customize the lookup views to change the searchable fields as per your business requirements.
+<table>
+    <tr>
+        <th>Entity</th>
+        <th>Fields</th>
+    </tr>
+    <tr>
+        <td rowspan="4">Account</td>
+        <td>Account Name</td>
+    </tr>
+    <tr>
+        <td>Account Number</td>
+    </tr>
+    <tr>
+        <td>Email</td>
+    </tr>
+    <tr>
+        <td>Main Phone</td>
+    </tr>
+    <tr>
+        <td rowspan="7">Contact</td>
+        <td>Company Name</td>
+    </tr>
+    <tr>
+        <td>Email</td>
+    </tr>
+    <tr>
+        <td>First Name</td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+    </tr>
+    <tr>
+        <td>Middle Name</td>
+    </tr>
+    <tr>
+        <td>Full Name</td>
+    </tr>
+    <tr>
+        <td>Mobile Phone</td>
+    </tr>  
+ </table>
+
+For the **Issue snapshot**, you can search for Case (Incident) entity. By default, you can search using the following fields.
+
+<table>
+<tr>
+        <th>Entity</th>
+        <th>Fields</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Case</td>
+        <td>Case Number</td>
+    </tr>
+    <tr>
+        <td>Case Title</td>
+    </tr> 
+ </table>
+
+Only active views are displayed for the search results. Also, you can customize the **Quick Find View** and **Lookup View** to change the searchable fields as per your business requirements. More information [Understand views](/dynamics365/customer-engagement/customize/create-edit-views) and [Unified Interface Lookup view leverages Quick Find View](https://blogs.msdn.microsoft.com/crm/2018/11/02/unified-interface-lookup-now-leverages-quick-find-view/)
 
 > [!div class=mx-imgBorder]
 > ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
