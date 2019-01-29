@@ -51,9 +51,48 @@ Recommended time for this stage: 1-2 weeks
 
 ## Stage 3: Overnight scheduling (RSO)
 
-Next we often see the introduction of overnight schedule creation using the Resource Scheduling Optimization (RSO) simulated mode. RSO analytics allow schedule analysts to compare the simulation results and decide on the best RSO schedule for overnight processing. Like with the other adoption stages, all scheduled work should be actual work orders assigned to and completed by actual technicians.
+Next we often see the introduction of overnight schedule creation using the Resource Scheduling Optimization (RSO) simulated mode. 
 
-During this period, shedulers and schedule analysts can experiment and iterate on RSO schedules, allowing for adjustments to scope, goals, and timing of runs.
+Resource Scheduling Optimization (RSO) automatically matches resources and demands by considering skills, locations, duration, promised time windows, priorities, and many other factors. For location-specific work, optimization results minimizes overall travel distances and give accurate turn-by-turn travel time estimates. All of this is to improve technician productivity and customer satisfaction.
+
+The RSO “engine” also responds to reschedules and cancellations. After automatically scheduling dispatchers still have the ability to manually override schedules as needed.
+
+**When to do it:** When businesses grow, it’s impossible to have human dispatchers manually scheduling or using the schedule assistant one by one for all demand requirements. Even if dispatchers had the time to handle each schedule requirement, there is no easy way to ensure technician working hours are maximized or travel distances are minimized along with SLA and priority considerations.
+
+**How to do it:** A lot of businesses schedule resource assignments one week ahead, but setting up smart schedules to help business optimize large amount of data in the most efficient way is difficult. The secret recipe is **optimization scopes**. By leveraging the power of extensible scopes to breakdown optimization schedules into smaller sets of resources and requirements allows RSO to optimize in parallel. 
+
+There are many settings and parameters that users might not know which settings are the best fit for their scheduling scenarios. A **What-if simulation** helps users better understand how these parameters work, how to achieve better optimization results by adjusting optimization scopes (include/exclude some resources), and re-ranking optimization objectives etc.
+
+
+**How to measure it:**
+
+Measure optimization results by leveraging out-of-box optimization statistics
+
+1.  How much travel time vs working time per schedule
+
+2.  How many high priority jobs got scheduled
+
+3.  How much travel time, work time per tech per day
+
+4.  How many jobs didn’t get scheduled and missed scheduling window
+
+> [!div class="mx-imgBorder"]
+![Screenshot of RSO results bar graph comparing working time to travel time of optimized requirements](media/scheduling-adoption-guide-rso-working-time-vs-travel-time.png)
+
+> [!div class="mx-imgBorder"]
+![Screenshot of RSO results stacked bar graph comparing priorities of optimized requirements](media/scheduling-adoption-guide-rso-bar-graph-priorities.png)
+
+Measure changes/executions after optimization
+
+1.  How many jobs were rescheduled manually after optimization and why
+
+2.  How many jobs completed per plan
+
+3.  How many jobs canceled
+
+RSO analytics allow schedule analysts to compare the simulation results and decide on the best RSO schedule for overnight processing. Like with the other adoption stages, all scheduled work should be actual work orders assigned to and completed by actual technicians.
+
+During this period, schedulers and schedule analysts can experiment and iterate on RSO schedules, allowing for adjustments to scope, goals, and timing of runs.
 
 During the day, exceptions are handled by the scheduler using manual and assisted scheduling. This means creating or changing bookings for new requirements, and adjusting the remaining schedule.
 
