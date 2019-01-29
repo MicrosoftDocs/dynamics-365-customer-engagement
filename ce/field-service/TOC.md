@@ -92,10 +92,11 @@
 # [Resource Scheduling Optimization (RSO) add-in](rso-overview.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
-## [Schedule optimization](rso-schedule-optimization.md)
+## Running RSO
+### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)
+### [Booking lock options](booking-lock-options.md)
 ### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
-## [Best practices](rso-best-practices.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
 # [Connected Field Service (IoT) add-in](connected-field-service.md)
