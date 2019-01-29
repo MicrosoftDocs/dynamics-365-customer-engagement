@@ -17,19 +17,19 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic provides information about the pre-requisites and system requirements for deploying the Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement apps instance.
+This topic provides information about the pre-requisites and system requirements for deploying Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement apps instance (Customer Service Hub).
 
 You can deploy Omni-channel Engagement Hub - Preview solution over a Customer Engagement application and experience it through the following ways:
 
 - Unified Service Desk client application
 
-- Web experience on Dynamics 365 Unified Interface application.
+- Web experience on Dynamics 365 Unified Interface application (Customer Service Hub app).
 
 ## Pre-requisites
 
 To deploy Omni-channel Engagement solution, your organization must have Customer Service Hub application.
 
-More information: [Customer Service Hub](../customer-service/user-guide-customer-service-hub.md)
+More information: [Customer Service Hub app](../customer-service/user-guide-customer-service-hub.md)
 
 ## System and hardware requirements of Omni-channel Engagement Hub - Preview with Unified Service Desk
 
@@ -39,9 +39,9 @@ You require the following to use Omni-channel Engagement Hub - Preview with Unif
 | Area | Requirements | 
 |----------|----------|
 | Desktop application | Unified Service Desk 4.1.0.1130 and higher version <br><br>More information: [Download Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md#download-unified-service-desk-client-application)|
-| Dynamics 365 | Dynamics 365 for Customer Engagement apps version 9.1 and higher version |
+| Dynamics 365 | Dynamics 365 for Customer Engagement apps version 9.1 and a higher version |
 | Web browsers | Supported browsers are: <li> Microsoft Edge </li> <li>Internet Explorer</li> |
-| Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7</li>|
+| Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and a higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7</li>|
 | Memory (Hardware) | ^8-GB RAM or more |
 
 ^ The memory requirement is for running basic scenarios. The actual memory required for Unified Service Desk client application increases with the complex Omni-channel Engagement Hub configurations.
@@ -81,7 +81,7 @@ See [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision
 - [Introduction](introduction-omni-channel.md)
 - [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
 - [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
-- [Agents using Customer Service Hub](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
+- [Agents using Customer Service Hub app](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
 - [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
 
 <!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->

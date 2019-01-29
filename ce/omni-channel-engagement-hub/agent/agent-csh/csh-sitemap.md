@@ -20,7 +20,7 @@ ms.custom:
 The sitemap is a place for you to access the customer service record types. By default, the sitemap is in expanded mode. To collapse the sitemap, select the Sitemap icon ![Sitemap icon](../../media/sitemap-icon.PNG "Sitemap icon").
 
  > [!div class=mx-imgBorder]
- > ![Sitemap of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-sitemap-oc.png "Sitemap of Omni-channel Engagement Hub in Customer Service Hub")  
+ > ![Sitemap of Omni-channel Engagement Hub in Customer Service Hub app](../../media/csh-sitemap-oc.png "Sitemap of Omni-channel Engagement Hub in Customer Service Hub app")  
 
 The Sitemap displays the following record types:
 
@@ -65,7 +65,7 @@ The Sitemap displays the following record types:
 
 ## See also
 
-- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
+- [Sign in to Dynamics 365 Customer Service Hub app](csh-sign-dynamics-365-customer-service-hub.md)
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
 - [View agent dashboard and agent work items](csh-my-dashboard.md)

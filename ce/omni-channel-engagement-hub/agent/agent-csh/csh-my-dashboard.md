@@ -25,7 +25,7 @@ The My Dashboard is a default view when you sign in to the application. The dash
 
 -   Closed work items
 
- ![Agent dashboard of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-oc-mydashboard.png "Agent dashboard of Omni-channel Engagement Hub in Customer Service Hub")
+ ![Agent dashboard of Omni-channel Engagement Hub in Customer Service Hub app](../../media/csh-oc-mydashboard.png "Agent dashboard of Omni-channel Engagement Hub in Customer Service Hub app")
 
 ### My work items
 
@@ -44,7 +44,7 @@ In this work stream, you see the work items that you completed during the past 2
 
 ## See also
 
-- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
+- [Sign in to Dynamics 365 Customer Service Hub app](csh-sign-dynamics-365-customer-service-hub.md)
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 - [Know the sitemap navigation](csh-sitemap.md)
 - [Navigate using the navigation bar](csh-navigation-bar.md)

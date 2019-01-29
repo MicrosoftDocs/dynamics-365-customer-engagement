@@ -42,8 +42,8 @@
 #### [Create a record](agent/agent-usd/create-record.md)
 #### [Search for and link record to the conversation](agent/agent-usd/search-link-record.md)
 
-### [Agents using Customer Service Hub](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
-#### [Sign in to Dynamics 365 Customer Service hub](agent/agent-csh/csh-sign-dynamics-365-customer-service-hub.md)
+### [Agents using Customer Service Hub app](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
+#### [Sign in to Dynamics 365 Customer Service hub app](agent/agent-csh/csh-sign-dynamics-365-customer-service-hub.md)
 #### [Introduction to the agent interface](agent/agent-csh/csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 #### [Know the sitemap navigation](agent/agent-csh/csh-sitemap.md)
 #### [Navigate using the navigation bar](agent/agent-csh/csh-navigation-bar.md)

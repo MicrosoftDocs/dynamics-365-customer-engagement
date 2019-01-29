@@ -1,6 +1,6 @@
 ---
 title: "Create a record in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn how to create a record when using Omni-channel Engagement Hub in Customer Service Hub."
+description: "Learn how to create a record when using Omni-channel Engagement Hub in Customer Service Hub app."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -43,7 +43,7 @@ After you save the changes, the record is linked to the conversation. You can se
 
 ## See also
 
-- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
+- [Sign in to Dynamics 365 Customer Service Hub app](csh-sign-dynamics-365-customer-service-hub.md)
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 - [Know the sitemap navigation](csh-sitemap.md)
 - [Navigate using the navigation bar](csh-navigation-bar.md)

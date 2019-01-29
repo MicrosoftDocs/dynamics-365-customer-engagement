@@ -1,6 +1,6 @@
 ---
-title: "Navigate using the navigation bar of Omni-channel Engagement Hub in Customer Service Hub | MicrosoftDocs"
-description: "Learn about the navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub"
+title: "Navigate using the navigation bar of Omni-channel Engagement Hub in Customer Service Hub app | MicrosoftDocs"
+description: "Learn about the navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-The navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub contains the following:
+The navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub app contains the following:
 
 ![Navigation bar buttons of Omni-channel Engagement Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")
 
@@ -84,7 +84,7 @@ Similarly, for the other records, the application displays the quick create form
 
 ## See also
 
-- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
+- [Sign in to Dynamics 365 Customer Service Hub app](csh-sign-dynamics-365-customer-service-hub.md)
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 - [Know the sitemap navigation](csh-sitemap.md)
 - [Navigate using the navigation bar](csh-navigation-bar.md)

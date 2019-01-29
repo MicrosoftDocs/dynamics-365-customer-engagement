@@ -1,6 +1,6 @@
 ---
-title: "Introduction to the agent interface of Omni-channel Engagement Hub in Customer Service Hub | MicrosoftDocs"
-description: "Learn about agent interface of Omni-channel Engagement Hub in Customer Service Hub"
+title: "Introduction to the agent interface of Omni-channel Engagement Hub in Customer Service Hub app | MicrosoftDocs"
+description: "Learn about agent interface of Omni-channel Engagement Hub in Customer Service Hub app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,11 +13,11 @@ ms.assetid: 891E5572-F1D6-413C-8F2E-299AF3CC34F9
 ms.custom: 
 ---
 
-# Introduction to the agent interface of Omni-channel Engagement Hub in Customer Service Hub
+# Introduction to the agent interface of Omni-channel Engagement Hub in Customer Service Hub app
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-When you sign in to Customer Service Hub, the Omni-channel Engagement Hub interface has the following components:
+When you sign in to Customer Service Hub app, the Omni-channel Engagement Hub interface has the following components:
 
 1.  Sitemap
 
@@ -31,7 +31,7 @@ When you sign in to Customer Service Hub, the Omni-channel Engagement Hub interf
 
  
  > [!div class=mx-imgBorder]
- > ![Agent interface of Omni-channel Engagement Hub in Customer Service Hub](../../media/csh-agent-interface.png "Agent interface of Omni-channel Engagement Hub in Customer Service Hub")  
+ > ![Agent interface of Omni-channel Engagement Hub in Customer Service Hub app](../../media/csh-agent-interface.png "Agent interface of Omni-channel Engagement Hub in Customer Service Hub app")  
 
 
 Conversation control in expanded mode
@@ -44,7 +44,7 @@ Conversation control in expanded mode
 
 ## See also
 
-- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
+- [Sign in to Dynamics 365 Customer Service Hub app](csh-sign-dynamics-365-customer-service-hub.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
 - [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [Conversation control](csh-conversation-control.md)
