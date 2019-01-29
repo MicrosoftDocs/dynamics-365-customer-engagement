@@ -49,9 +49,11 @@ The next stage sees the introduction of the schedule assistant for scheduling wo
 
 Recommended time for this stage: 1-2 weeks
 
-## Stage 3: Overnight scheduling (RSO)
+## Stage 3: Introduce automated overnight scheduling + manual exception handling (RSO)
 
 Next we often see the introduction of overnight schedule creation using the Resource Scheduling Optimization (RSO) simulated mode. 
+
+### Best practices: Resource Scheduling Optimzation (RSO)
 
 Resource Scheduling Optimization (RSO) automatically matches resources and demands by considering skills, locations, duration, promised time windows, priorities, and many other factors. For location-specific work, optimization results minimizes overall travel distances and give accurate turn-by-turn travel time estimates. All of this is to improve technician productivity and customer satisfaction.
 
