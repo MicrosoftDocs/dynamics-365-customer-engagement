@@ -46,4 +46,4 @@ Follow these steps to enable knowledge article sharing using an external portal.
 
 [Use embedded knowledge search to set up knowledge management](../../customer-service/set-up-knowledge-management-embedded-knowledge-search.md)
 
-[Search for and share knowledge articles](../agent/agent-usd/left-control-panel.md#search-for-and-share-knowledge-articles)
+[Search and share knowledge articles](../agent/agent-usd/left-control-panel.md#search-for-and-share-knowledge-articles)
