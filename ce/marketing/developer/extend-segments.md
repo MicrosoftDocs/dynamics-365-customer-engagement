@@ -21,7 +21,7 @@ search.app:
 A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll simply target all the contacts you have, but in most cases, you'll choose who you want to target based on demographic or firmographic data and other considerations. More information [Working with segments]().
 
 The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing App.
-The segmentation API leverages the standard Dynamics 365 API for manipulating entities / messages. More information [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)
+The segmentation API leverages the standard Dynamics 365 API for manipulating entities or messages. More information [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)
 
 When you create a segment, the properties of the segment are stored in `msdyncrm_segment` entity. You can browse the entity metadata for available properties and optionset value mapping. You can get the metadata information by using `@odata.context`in `GET` response. 
 
@@ -32,6 +32,9 @@ This topic demonstrates how to perform basic operation on the `msdyncrm_segment`
 |Name|msdyncrm_segmentname|
 |Segment Type|msdyncrm_segmenttype|
 |Status Reason|statuscode|
+
+> [!NOTE]
+> You need to also pass `Segment Query` when creating Dynamic and Compound segments.
 
 To test the operations you can use Postman tool. More information [Use Postman with Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-web-api)
 
@@ -62,10 +65,12 @@ In update request, we will change the `status` of the created draft segment to `
 ```HTTP
 PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 {
-  "msdyncrm_segmentmemberids": "[\"1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
+  "msdyncrm_segmentmemberids": "[\"crm1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"crm0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
   "statuscode": 192350001
 }
 ```
+> [!Important]
+> The purpose of the “crm” prefix is to unambiguously indicate the type of the record identifier. This is required when you are still using a legacy Segmentation solution (DCI Segmentation) which by default uses another type of identifier.
 
 **Retrieve Request**
 
@@ -131,6 +136,50 @@ In delete request, we will delete the dynamics segment that is created.
 DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments(7649566b-79e2-e811-a989-000d3a135be0)
 ```
 
+### CRUD operations on compound segments
+
+This example shows how to create, update, retrieve and delete dynamic segments.
+
+**Create Request**
+
+In create request, we will create a dynamic segment and go-live at same time.
+
+```HTTP
+POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
+{
+    "msdyncrm_segmentname": "my_compound_segment1",
+    "msdyncrm_segmenttype": 192350002,
+    "msdyncrm_segmentquery":"SEGMENT(segment1) UNION SEGMENT(segment2)",
+    "statuscode": 192350001
+}
+```
+**Update Request**
+
+In update request, we will change the status of the dynamics segment to `Stop`.
+
+```HTTP
+PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments(7649566b-79e2-e811-a989-000d3a135be0)
+{
+    "statuscode": 192350002
+}
+```
+**Retrieve Request**
+
+In retrieve request, we will get the dynamic segment that is created. 
+
+```HTTP
+GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments()
+```
+
+**Delete Request**
+
+In delete request, we will delete the dynamics segment that is created.
+
+```HTTP
+DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments()
+```
+
+
 ### Validate segment definition
 
 ```
@@ -168,7 +217,7 @@ POST /api/data/v9.0/msdyncrm_IncludeMembersInSegment
 POST /api/data/v9.0/msdyncrm_IncludeMembersInSegment
 {
 	msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
-	msdyncrm_memberids: "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3"
+	msdyncrm_segmentmemberids: "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3"
 }
 ```
 
@@ -178,7 +227,7 @@ POST /api/data/v9.0/msdyncrm_IncludeMembersInSegment
 POST /api/data/v9.0/msdyncrm_IncludeMembersInSegment
 { 
    msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
-   msdyncrm_memberids: "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]" 
+   msdyncrm_segmentmemberids: "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]" 
 }
 ```
 
@@ -188,7 +237,7 @@ POST /api/data/v9.0/msdyncrm_IncludeMembersInSegment
 POST /api/data/v9.0/msdyncrm_ExcludeMemberFromSegment 
 { 
     msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403", 
-    msdyncrm_memberid: "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3" 
+    msdyncrm_segmentmemberid: "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3" 
 }
 ```
 
@@ -199,7 +248,7 @@ Remove multiple segment members
 POST /api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
 { 
    msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
-   msdyncrm_memberids: "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]" 
+   msdyncrm_segmentmemberids: "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]" 
 }
 ```
 
