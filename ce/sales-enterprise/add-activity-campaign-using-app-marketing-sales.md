@@ -71,7 +71,7 @@ Make your marketing campaigns successful by creating, distributing, and assignin
     
     c.  Scheduled start and end date. Enter the expected date and time the activity is scheduled to start and end.   
 
-5. In the **Anti-Spam Settings**section, enter the frequency cap (in days) for marketing activities directed at any contact. Contacts that have been contacted more recently than this will be excluded from new campaign activity distributions. Enter "0" to disable the limit.
+5. In the **Anti-Spam Settings** section, enter the frequency cap (in days) for marketing activities directed at any contact. Contacts that have been contacted more recently than this will be excluded from new campaign activity distributions. Enter "0" to disable the limit.
 
 6. On the Campaign Activity form, select **Save**.
 
