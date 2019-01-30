@@ -38,7 +38,7 @@ These guides apply to every instance of [!INCLUDE [pn-dyn-365](includes/pn-dyn-3
 <td>
 <li><a href="basics/index.md" data-raw-source="[Basics Guide ](basics/index.md)">Basics Guide </a></li>
 <li><a href="outlook-app/index.md" data-raw-source="[App for Outlook](outlook-app/index.md)">App for Outlook</a></li>
-<li><a href="outlook-addin/index.md" data-raw-source="[Dynamics 365 for Customer Engagement for Outlook](outlook-addin/index.md)">Dynamics 365 for Customer Engagement for Outlook</a></li>
+<li><a href="outlook-addin/index.md" data-raw-source="[Dynamics 365 for Outlook](outlook-addin/index.md)">Dynamics 365 for Outlook</a></li>
 <li><a href="mobile-app/index.md" data-raw-source="[Mobile app](mobile-app/index.md)">Mobile app</a></li>
 </td>
 </tr>
@@ -69,6 +69,7 @@ These guides provide in-depth information about specific apps, solutions and rel
 <li><a href="social-engagement/index.md" data-raw-source="[Social Engagement](social-engagement/index.md)">Social Engagement</a></li>
 <li><a href="gamification/index.md" data-raw-source="[Gamification](gamification/index.md)">Gamification</a></li>
 <li><a href="/dynamics365/customer-engagement/unified-service-desk/index" data-raw-source="[Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/index)">Unified Service Desk</a></li>
+<li><a href="common-scheduler/schedule-anything-with-universal-resource-scheduling.md" data-raw-source="[Universal Resource Scheduling](common-scheduler/schedule-anything-with-universal-resource-scheduling.md)">Universal Resource Scheduling</a></li>
 </td>
 </tr>
 </table>

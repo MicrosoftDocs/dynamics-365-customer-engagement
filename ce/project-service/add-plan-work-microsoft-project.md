@@ -1,8 +1,8 @@
 ---
 title: Use the Project Service Add-in to plan your work in Microsoft Project | MicrosoftDocs
 description: How to add, configure, and use the Microsoft Project add-in for Project Service
-author: krbjoran
-manager: ShellyHa
+author: JohnPBurrows
+manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
@@ -10,7 +10,7 @@ ms.date: 7/30/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
-ms.author: krbjoran
+ms.author: jburrows
 audience: Admin
 search.audienceType: 
   - admin
@@ -20,7 +20,9 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Use the Project Service Automation Add-in to plan your work in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]
+# Use the Project Service Automation Add-in to plan your work in 
+
+[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

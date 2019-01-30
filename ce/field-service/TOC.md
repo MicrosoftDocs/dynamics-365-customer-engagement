@@ -35,10 +35,13 @@
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)
 ## [Resource pay types](set-up-resource-pay-types.md)
-## [Tutorial: Submit and approve time-off requests](submit-approve-time-off-requests.md)
+## [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Scheduling
-## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md) 
+## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)
+## [Types of scheduling](scheduling-capabilities.md)
+## [Scheduling personas](scheduling-roles-personas.md)
+## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
@@ -60,6 +63,7 @@
 ### [My mobile app will not sync to the server / crashes immediately](mobile-faq-sync-crash.md)
 ### [Why can't I see my bookings when logged into the app?](mobile-faq-bookings-not-showing.md)
 ### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
+## [Get help](mobile-get-help.md) 
 
 
 # Agreements and preventive maintenance

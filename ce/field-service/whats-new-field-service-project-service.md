@@ -195,5 +195,5 @@ These updates apply to Dynamics 365 for Customer Engagement (online), version 8.
 - Now you can credit or correct an invoice that was sent to a customer. Quantity of billable hours, bill rates, and other charges and can be corrected or entirely reversed.  
   
 ### See also  
- [Dynamics 365 for Customer Engagement for Field Service - User's Guide](../field-service/user-guide.md)   
- [Dynamics 365 for Customer Engagement for Project Service Automation - User's Guide](../project-service/admin-guide.md)
+ [Dynamics 365 for Field Service - User's Guide](../field-service/user-guide.md)   
+ [Dynamics 365 for Project Service Automation - User's Guide](../project-service/admin-guide.md)

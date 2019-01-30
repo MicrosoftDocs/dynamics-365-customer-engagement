@@ -3,7 +3,7 @@ title: "Walkthrough: Use the generic listener adapter for CTI event routing | Mi
 description: "Learn about using the CTI Desktop Manager and generic listener in to expose the CTI events as screen pops in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -38,7 +38,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
 <a name="Prereq"></a>   
 ## Prerequisites  
   
-- [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.5.2  
+- [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.6.2  
   
 - [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application; required for testing the hosted control.  
   

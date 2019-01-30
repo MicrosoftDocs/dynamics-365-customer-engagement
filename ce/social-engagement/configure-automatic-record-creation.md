@@ -101,4 +101,4 @@ In [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)], when users [link 
 
 [Set up the connection to link posts from Social Engagement to Dynamics 365 for Customer Engagement apps](link-posts-to-dynamics-365.md)    
 [Link posts from Social Engagement to Dynamics 365 for Customer Engagement apps](create-dynamics-365-record-from-social-post.md)    
-[Set up rules to automatically create or update records in Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/mt812474.aspx)
+[Set up rules to automatically create or update records in Dynamics 365 for Customer Engagement apps](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/set-up-rules-to-automatically-create-or-update-records)
