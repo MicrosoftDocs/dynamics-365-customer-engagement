@@ -36,6 +36,10 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
     
 ## Install the app from your device’s app store  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
+
+## Preview: Introducing new sign-in experience for iOS users
+
+For more information, see [Preview: New sign in experience](previewsignin.md).
       
 <a name="BKMK_Signin"></a> 
 ## Signing in and signing out
