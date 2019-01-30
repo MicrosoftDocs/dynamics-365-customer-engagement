@@ -74,7 +74,7 @@ When an agent has finished working on a conversation, the capacity should be add
 - The agent's utilized capacity decreases.
 - The agent's available capacity increases to the extent of free capacity.
 
-If any conversations that are waiting to be assigned, they are allocated as soon as the agent becomes available.
+If conversations are waiting to be assigned, they are allocated as soon as the agent becomes available.
 
 ## See also
 
