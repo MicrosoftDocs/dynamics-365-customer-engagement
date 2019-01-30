@@ -1,5 +1,5 @@
 ---
-title: Understand how unified routing and work distribution works | MicrosoftDocs
+title: See how unified routing and work distribution works | MicrosoftDocs
 description: See this scenario to understand how unified routing and work distribution works
 keywords: Unified routing and work distribution works
 author: anjgupta
@@ -56,24 +56,12 @@ In this case, **Bert** has the required capacity and presence so the chat is ass
 > [!div class=mx-imgBorder]
 > ![Routing and work distribution scenario](../../omni-channel-engagement-hub/media/oc-scenario.png)
 
-## Automated work distribution
-
-If a conversation remains in an omni-channel queue for longer, it becomes available for automated work distribution:
-
-- All conversations that belong to an omni-channel queue take the priority of the queue. So, conversations that are a part of Priority-1 queues are distributed before conversations that are a part of Priority-2 queues. 
-- Conversations are queued according to their age.
-- As soon as agents become available and have enough capacity to take on the workload, the conversations are allocated to them. </br>
-- Agents work on the conversations and take one of the following actions:
-    - Transfer the conversation to another queue or agent. This action often occurs because customers selected incorrect interactive voice response (IVR) options or answered questions on the pre-chat survey incorrectly.
-    - Move the conversation to **Waiting for Customer Input** or other internal tasks that the agent can't act on. When the customer responds, the conversation will be moved from the **Waiting** state to the **Open** state.
-    - Resolve the conversation and move it to the **Closed** state.
-
 ### Adjusting an agent's capacity based on conversation allocation
 
-When an agent accepts a conversation, his or her capacity is reduced. Here are the actions that occur:
+An agent's capacity is adjusted when a conversation is allocated. Here are the actions that occur:
 
 - The conversation is added to the agent's **My Items** list.
-- The agent's presence status might change to **Busy** or **Busy DND**, depending on the total capacity that is used.
+- The agent's presence status changes to **Busy** or **Busy DND**.
 - The agent's utilized capacity increases.
 - The agent's available capacity decreases.
 
@@ -82,10 +70,11 @@ When an agent accepts a conversation, his or her capacity is reduced. Here are t
 When an agent has finished working on a conversation, the capacity should be added back to the agent's availability. Here are the actions that occur:
 
 - The conversation is removed from the agent's **My Items** list.
-- The agent's presence status might change to **Busy** or **Available**, depending on the total capacity that is used.
+- The agent's presence status changes to **Available**.
 - The agent's utilized capacity decreases.
-- The agent's available capacity increases to the extent of his or her free capacity.
-- If any conversations that are waiting in the queue can be assigned to the agent, they are allocated as soon as the agent becomes available.
+- The agent's available capacity increases to the extent of free capacity.
+
+If any conversations that are waiting to be assigned, they are allocated as soon as the agent becomes available.
 
 ## See also
 
