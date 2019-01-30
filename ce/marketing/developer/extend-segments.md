@@ -1,3 +1,4 @@
+---
 title: "Extend Segments using API| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
 description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing App."" # 115-145 characters including spaces. This abstract displays in the search result.
 ms.custom: ""
