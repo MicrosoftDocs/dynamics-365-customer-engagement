@@ -1,4 +1,3 @@
----
 title: "Extend Segments using API| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
 description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing App."" # 115-145 characters including spaces. This abstract displays in the search result.
 ms.custom: ""
@@ -25,6 +24,9 @@ The segmentation API leverages the standard Dynamics 365 API for manipulating en
 
 When you create a segment, the properties of the segment are stored in `msdyncrm_segment` entity. You can browse the entity metadata for available properties and optionset value mapping. You can get the metadata information by using `@odata.context`in `GET` response. 
 
+> [!NOTE]
+> Before you perform operations, you should install Dynamics 365 for Marketing app. 
+
 This topic demonstrates how to perform basic operation on the `msdyncrm_segment` entity. You need to pass the following mandatory fields in order to create a segment.
 
 |Display Name|Schema Name|
@@ -38,9 +40,6 @@ This topic demonstrates how to perform basic operation on the `msdyncrm_segment`
 
 To test the operations you can use Postman tool. More information [Use Postman with Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-web-api)
 
-> [!NOTE]
-> Before you perform operations, you should install Dynamics 365 for Marketing app. 
- 
 ## CRUD Operations
 
 ### CRUD operations on static segments
@@ -48,7 +47,7 @@ This example shows how to create, update, retrieve and delete static segments.
 
 **Create Request**
 
-In create request, we will create a new static segment which is in draft state.
+In create request, you create a new static segment which is in draft state.
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
@@ -60,7 +59,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 ```
 **Update Request**
 
-In update request, we will change the `status` of the created draft segment to `Live` and add 2 members.
+In update request, you will change the `status` of the created draft static segment to `Live` and add 2 segment members.
 
 ```HTTP
 PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -74,7 +73,7 @@ PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 **Retrieve Request**
 
-In retrieve request, we will retrieve the draft segment that is created.
+In retrieve request, you will retrieve the draft static segment that is created.
 
 ```HTTP
 GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments(23fa0663-6fe2-e811-a989-000d3a135be0)
@@ -87,7 +86,7 @@ GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdync
 
 **Delete Request**
 
-In the delete request, we will delete the created draft static segment. 
+In the delete request, you will delete the created draft static segment. 
 
 ```HTTP
 DELETE {{orgUrl}}/api/data/v9.0/msdyncrm_segments(23fa0663-6fe2-e811-a989-000d3a135be0)
@@ -99,7 +98,7 @@ This example shows how to create, update, retrieve and delete dynamic segments.
 
 **Create Request**
 
-In create request, we will create a dynamic segment and go-live at same time.
+In create request, you create a dynamic segment and go-live at same time.
 
 ```HTTP
 POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
@@ -112,7 +111,7 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
 ```
 **Update Request**
 
-In update request, we will change the status of the dynamics segment to `Stop`.
+In update request, you will change the status of the dynamics segment to `Stop`.
 
 ```HTTP
 PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments(7649566b-79e2-e811-a989-000d3a135be0)
@@ -122,7 +121,7 @@ PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments(7649566b-79e2-e811-a989-000d3a1
 ```
 **Retrieve Request**
 
-In retrieve request, we will get the dynamic segment that is created. 
+In retrieve request, you will retrieve the dynamic segment that is created. 
 
 ```HTTP
 GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments(7649566b-79e2-e811-a989-000d3a135be0)
@@ -130,7 +129,7 @@ GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments(7649566b-79e2-e811-a989-000d3a135
 
 **Delete Request**
 
-In delete request, we will delete the dynamics segment that is created.
+In delete request, you will delete the dynamics segment that is created.
 
 ```HTTP
 DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments(7649566b-79e2-e811-a989-000d3a135be0)
@@ -138,11 +137,11 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments(7649566b-79e2-e811-a989-000d3a
 
 ### CRUD operations on compound segments
 
-This example shows how to create, update, retrieve and delete dynamic segments.
+This example shows how to create, update, retrieve and delete compound segments.
 
 **Create Request**
 
-In create request, we will create a dynamic segment and go-live at same time.
+In create request, you will create a compound segment and go-live at same time.
 
 ```HTTP
 POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
@@ -155,28 +154,28 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
 ```
 **Update Request**
 
-In update request, we will change the status of the dynamics segment to `Stop`.
+In update request, you will change the status of the compound segment to `Stop`.
 
 ```HTTP
-PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments(7649566b-79e2-e811-a989-000d3a135be0)
+PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments(fb42b289-c34f-4f5f-8e43-8e38315d49c8)
 {
     "statuscode": 192350002
 }
 ```
 **Retrieve Request**
 
-In retrieve request, we will get the dynamic segment that is created. 
+In retrieve request, you will retieve the compound segment that is created. 
 
 ```HTTP
-GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments()
+GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments(fb42b289-c34f-4f5f-8e43-8e38315d49c8)
 ```
 
 **Delete Request**
 
-In delete request, we will delete the dynamics segment that is created.
+In delete request, we will delete the compound segment that is created.
 
 ```HTTP
-DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments()
+DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments(fb42b289-c34f-4f5f-8e43-8e38315d49c8)
 ```
 
 
@@ -205,16 +204,16 @@ Include/exclude operations can be performed through the API by posting messages 
 
 ```HTTP
 
-POST /api/data/v9.0/msdyncrm_ExcludeMemberFromSegment
-POST /api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
-POST /api/data/v9.0/msdyncrm_IncludeMemberInSegment
-POST /api/data/v9.0/msdyncrm_IncludeMembersInSegment
+POST {{orgUlr}}/api/data/v9.0/msdyncrm_ExcludeMemberFromSegment
+POST {{orgUlr}}/api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
+POST {{orgUlr}}/api/data/v9.0/msdyncrm_IncludeMemberInSegment
+POST {{orgUlr}}/api/data/v9.0/msdyncrm_IncludeMembersInSegment
 ```
 
 **Add one segment member**
 
 ```HTTP
-POST /api/data/v9.0/msdyncrm_IncludeMembersInSegment
+POST {{orgUlr}}/api/data/v9.0/msdyncrm_IncludeMembersInSegment
 {
 	msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
 	msdyncrm_segmentmemberids: "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3"
@@ -224,7 +223,7 @@ POST /api/data/v9.0/msdyncrm_IncludeMembersInSegment
 **Add multiple segment members**
 
 ```HTTP
-POST /api/data/v9.0/msdyncrm_IncludeMembersInSegment
+POST {{orgUlr}}/api/data/v9.0/msdyncrm_IncludeMembersInSegment
 { 
    msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
    msdyncrm_segmentmemberids: "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]" 
@@ -234,7 +233,7 @@ POST /api/data/v9.0/msdyncrm_IncludeMembersInSegment
 **Remove one segment member**
 
 ```HTTP
-POST /api/data/v9.0/msdyncrm_ExcludeMemberFromSegment 
+POST {{orgUlr}}/api/data/v9.0/msdyncrm_ExcludeMemberFromSegment 
 { 
     msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403", 
     msdyncrm_segmentmemberid: "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3" 
@@ -245,7 +244,7 @@ POST /api/data/v9.0/msdyncrm_ExcludeMemberFromSegment
 
 ```HTTP
 Remove multiple segment members
-POST /api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
+POST {{orgUlr}}/api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
 { 
    msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
    msdyncrm_segmentmemberids: "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]" 
@@ -254,7 +253,7 @@ POST /api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
 
 ### Include/exclude dynamic segment members
 
-Dynamic segments are based on a query. Records matching this query becomes segment members. Additionally, the segment members can be manually fine-tuned using the `Include/Exclude` functionality.
+Dynamic and compound segments are based on a query. Records matching this query becomes segment members.
 
 Including a record makes it a member of a segment whether it satisfies the segmentation query or not. Including a record which is already a segment member will assure it is not removed when it stops matching the segmentation query. 
 
@@ -262,9 +261,9 @@ Excluding a record effectively removes it from segment members and prevents it f
 
 Once a member has been included this action can be inverted by excluding it, thereby removing it and preventing it from becoming a member in the future. Similarly, excluding a member can be inverted by including it, thereby making it a member unconditionally.
 
-Following are some of the important aspects that needs to be considered while including/excluding dynamic segment members:
+Following are some of the important aspects that needs to be considered while including/excluding segment members:
 
-- Dynamic segments must be in `Live` or `Stopped` state (not draft).
+- Dynamic and compound segments must be in `Live` or `Stopped` state (not draft).
 - Only instances of entity type `Contact` can be included/excluded.
 - All included/excluded records must exist, otherwise the whole request gets reject.
 - Feature is supported only by New Segmentation (not by DCI Segmentation).
