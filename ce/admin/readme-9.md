@@ -2,7 +2,7 @@
 title: "Dynamics 365 for Customer Engagement Readme (Known Issues) | MicrosoftDocs"
 description: ""
 keywords: 
-ms.date: 12/03/2018
+ms.date: 01/30/2019
 ms.service:
   - crm-online
 ms.topic: article
@@ -16,7 +16,7 @@ manager: annbe
 
 ---
 
-Dynamics 365 for Customer Engagement<br>Readme / Known Issues
+Dynamics 365 for Customer Engagement<br>Readme
 =========================================================
 
 This document provides important information about these product versions:
