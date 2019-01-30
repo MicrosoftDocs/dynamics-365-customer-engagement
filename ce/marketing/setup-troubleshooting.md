@@ -39,13 +39,15 @@ Read this topic to find answers to common questions and solutions to known issue
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is licensed per instance, with each instance priced according to the number of marketing contacts stored in your database. Here are answers to several of the most frequently asked questions about licensing:
 
 - **What is a marketing contact?**  
-    [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is priced in relation to how many *marketing contacts* you have in your database, where a marketing contact is any contact used as part of a marketing activity in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Contacts that you don’t market to using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] features don’t count towards your marketing-contacts quota. (Each marketing activity is associated with a specific contact, but you can also target any lead or opportunity that is linked to a contact in the database.) Technically speaking, a marketing contact is any contact that has one or more of the following types of interactions associated with it in the Dynamics 365 for Marketing customer-insights database:
+    [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is priced in relation to how many marketing contacts you have in your database, where a marketing contact is any contact used as part of a marketing activity in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Contacts that you don’t market to using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] features don’t count towards your marketing-contacts quota. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] keeps a detailed record of all the ways in which each contact interacts with your marketing initiatives, but monitors just a few key interaction types when it comes to identifying marketing contacts. Any contact that performs one or more of these key interactions will become flagged as a marketing contact, and therefore count against your quota. After that, it doesn’t matter how many interactions a marketing contact performs, that contact is still counted just once. The key interaction types are: 
   - Contact used in customer journey
-  - Email sent
+  - Marketing email sent
   - Event check-in
   - Event registration
-  - Form submitted
-  - LinkedIn form submitted
+  - Marketing form submitted
+  - LinkedIn form submission
+
+  Other types of interactions (such as email opens, survey responses, and website visits) usually represent follow-up activities that relate to one of these key interaction types and therefore aren’t used to identify marketing contacts.
 
 - **Which marketing contacts count against my quota?**  
     All marketing contacts on your tenant are counted, regardless of instance type (including both production and non-production instances).
