@@ -18,7 +18,7 @@ ms.custom:
 
 Refer the following scenario to understand how the routing and work distribution mechanism works.
 
-## Stage 1: Configure the basics
+## Step 1: Configure the basics
 
 Configure the following entities in the Omni-channel Engagement Hub. Once configured, the app is ready to route and distribute conversations to agents.
 
@@ -33,14 +33,14 @@ Configure the following entities in the Omni-channel Engagement Hub. Once config
 |  Omni-channel queues & members     |   Billing Queue = Gilda, Bert, Samuel </br> Product Queue = Jill, Shana, John |
 |    |         |
 
-## Stage 2: Process the chat conversation
+## Step 2: Process the chat conversation
 
 A chat conversation originates from the customer.
 
 - As all incoming conversations are marked with a unique work stream name, the associated work stream is identified as **Live chat**.
 - During run time evaluation, the properties of the work stream are imparted to the incoming chat. So, now the chat also carries a capacity of **50 units**. </br> This also implies that this chat, when assigned to an agent, will block 50 units of agent’s capacity.
 
-## Stage 3: Apply routing and work distribution rules
+## Step 3: Apply routing and work distribution rules
 
 At this point, routing and work distribution mechanism kicks in.
 
