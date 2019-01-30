@@ -1,8 +1,8 @@
 ---
-title: "Dynamics 365 for Customer Engagement apps Government | MicrosoftDocs"
-description: "Microsoft Dynamics 365 for Customer Engagement apps Government is available to qualified government entities in the United States."
+title: "Dynamics 365 Government | MicrosoftDocs"
+description: "Microsoft Dynamics 365 Government is available to qualified government entities in the United States."
 ms.custom: 
-ms.date: 10/02/2018
+ms.date: 01/30/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Dynamics 365 for Customer Engagement apps Government 
+# Dynamics 365 Government 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
