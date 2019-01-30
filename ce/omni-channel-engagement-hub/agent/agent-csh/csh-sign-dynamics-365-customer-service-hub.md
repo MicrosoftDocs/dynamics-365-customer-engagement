@@ -22,7 +22,7 @@ The Omni-channel Engagement Hub on web browser is a solution on Dynamics 365 Cus
 More information: [Open the Customer Service Hub app
 ](../../../customer-service/customer-service-hub-user-guide-basics.md##open-the-customer-service-hub)
 
-<!--1.  Sign in to Dynamics 365 Customer Engagement apps
+<!--1.  Sign in to Dynamics 365 for Customer Engagement apps
 
 2.  Select the Dynamics 365 drop-down menu on the upper left and select **Customer Service Hub app**.
  
@@ -46,7 +46,7 @@ More information: [Open the Customer Service Hub app
 - [Conversation control](csh-conversation-control.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
-- [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
+- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
 - [Search and link record to the conversation](csh-search-link-record.md)

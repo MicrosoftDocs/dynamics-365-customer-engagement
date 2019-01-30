@@ -72,7 +72,7 @@ The Sitemap displays the following record types:
 - [Conversation control](csh-conversation-control.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
-- [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
+- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
 - [Search and link record to the conversation](csh-search-link-record.md)
