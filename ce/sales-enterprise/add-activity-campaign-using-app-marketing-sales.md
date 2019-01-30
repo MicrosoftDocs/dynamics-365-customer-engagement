@@ -1,16 +1,16 @@
 ---
 title: "Add an activity to a campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Add planning and campaign activities to a campaign to make it successful."
-keywords: Campaign Activities, Campaign, Quick Campaign, Distribute
-ms.date: 05/01/2018
+keywords: "Campaign Activities, Campaign, Quick Campaign, Distribute"
+ms.date: 01/30/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 8b0e36fe-695d-44bb-9fe3-de3819bc894d
 author: shubhadaj
 ms.author: shujoshi
@@ -63,15 +63,25 @@ Make your marketing campaigns successful by creating, distributing, and assignin
   
 3. Click **Add New Campaign Activity**.  
   
-4. Type in all the information you can, and then click **Save**. This creates the campaign activity so you can do more things with it, like add marketing lists.  
+4. In the **Summary** section of the **Campaign Activity** form, enter the required information: 
+
+    a.  **Subject**. Type the objective of the campaign activity.
+    
+    b.  **Used in Campaign.** When you create the campaign activity from a campaign, the campaign is automatically added here. 
+    
+    c.  Scheduled start and end date. Enter the expected date and time the activity is scheduled to start and end.   
+
+5. In the **Anti-Spam Settings** section, enter the frequency cap (in days) for marketing activities directed at any contact. Contacts that have been contacted more recently than this will be excluded from new campaign activity distributions. Enter "0" to disable the limit.
+
+6. On the Campaign Activity form, select **Save**.
+
+7. To add a marketing list, click **+**. In the **Look Up Records** box, type in your search and click the **Search** button, select one or more marketing lists, and click **Add**.  
   
-5. To add a marketing list, click **+**. In the **Look Up Records** box, type in your search and click the **Search** button, select one or more marketing lists, and click **Add**.  
+8. To distribute the new campaign activity, on the command bar, click **Distribute Campaign Activity**.  
   
-6. To distribute the new campaign activity, on the command bar, click **Distribute Campaign Activity**.  
+9. In the activity form, type or modify information in the text boxes, and click **Distribute**.  
   
-7. In the activity form, type or modify information in the text boxes, and click **Distribute**.  
-  
-8. Choose who will own the activities, and click **Distribute**.  
+10. Choose who will own the activities, and click **Distribute**.  
   
    > [!NOTE]
    > 1.  You can only distribute campaign activities of type "mail merge" to marketing lists that contain the same type of record. For example, if one marketing list contains accounts and a second marketing list contains leads, the mail merge campaign activity will fail. Create a separate mail merge campaign activity for each group of marketing lists with the same record type. 
