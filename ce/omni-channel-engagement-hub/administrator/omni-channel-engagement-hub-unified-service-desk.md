@@ -17,6 +17,9 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
+> [!NOTE]
+> The topic applies when you want to use Omni-channel Engagement Hub with Unified Service Desk client application. 
+
 Unified Service Desk for Dynamics 365 Customer Engagement apps is a client application. You need to install the Unified Service Desk client application on every agent desktop to use Omni-channel Engagement Hub. 
  
 Omni-channel Engagement Hub is packaged as solution that you need to deploy on a Dynamics 365 for Customer Service Hub application instance. Use the Microsoft Dynamics 365 Package Deployer to deploy the Omni-channel Engagement Hub solution on the Customer Service Hub application instance.
@@ -38,9 +41,13 @@ To learn how to install Unified Serivce Desk, see [Install Unified Service Desk]
 
 Make sure you computer meets all requirements before you install the Unified Service Desk client application. More information: [Unified Service Desk system requirements](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
 
+## Configure Edge Process with Unified Service Desk
+
+The Edge Process is used to host web applications in Unified Service Desk. More information: [Edge Process (Preview)](/dynamics365/customer-engagement/unified-service-desk/edge-process)
+
 ## Configure Unified Service Desk recommended settings for Internet Explorer
 
-The Internet Explorer process is used to host web applications in Unified Service Desk. When you use Omni-channel Engagement Hub on Unified Service Desk client application, certain settings are recommended for Internt Explorer for optimal performance.
+The Internet Explorer process is used to host web applications in Unified Service Desk. When you use Omni-channel Engagement Hub on Unified Service Desk client application, certain settings are recommended for Internet Explorer for optimal performance.
 
 To know more information about manually configuring the settings of Internet Explorer, see [Internet Explorer setting guidelines](/dynamics365/customer-engagement/unified-service-desk/admin/internet-explorer-settings-bpa).
 

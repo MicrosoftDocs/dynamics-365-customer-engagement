@@ -17,18 +17,14 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Omni-channel queues are used to collect conversations or customer queries, and distribute them to different groups of agents or teams. There are many ways in which you can achieve optimum distribution, like by creating different queues for different issue types. 
+Omni-channel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS or entity records like Cases or Leads. Agents are added as queue members to the queues and the workload is distributed among these agents.
 
-For example, you can create separate queues for billing issues, investment issues, and so on. So, when a customer query comes for a these issue types, they are routed to their designated queues.
+Omni-channel queues are proxies for skills or domains. For example, you can create separate queues for billing issues, investment issues, and so on. When a customer query comes for these issue types, it is routed to its designated queue.
     
 > [!div class=mx-imgBorder]
 > ![Omni-channel queues](../media/oc-queues.png)
 
-Here are some of the main characteristics of omni-channel queues:
-
-- You can assign priority to queues. All conversations in a queue take the priority of the queue and are serviced accordingly.
-- All omni-channel queues are private. Only the members of a queue can view and work on the conversations in that queue.
-- Agents can have different work streams assigned to them in a queue.
+You can assign priority to queues. All conversations in a queue take the priority of the queue and higher priority conversations are allocated first.
 
 ## Default queue
 There is a default omni-channel queue for each organization. Admins can't delete the default queue. By default, all omni-channel users are members of the default queue. Therefore, the membership of this queue can't be changed.
