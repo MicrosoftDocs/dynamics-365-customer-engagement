@@ -37,7 +37,7 @@ In this work stream, you see the work items in a waiting state from all queues t
 
 ### Closed work items
 
-In this work stream, you see the work items that you completed during the past 24 hours. The work stream refreshes every business day to reflect the work items that you closed in the past 24 hours. To view a closed work item, select the ellipses and then select the **Open** option to view the details in a form.
+In the **Closed conversations** work stream, you see all the conversations that you've completed during the past 24 hours. The work stream refreshes to reflect the conversations that you closed in past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
 > [!div class="nextstepaction"]
 > [Next topic: Conversation control](csh-conversation-control.md)
