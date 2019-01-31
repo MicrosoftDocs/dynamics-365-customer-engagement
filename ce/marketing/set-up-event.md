@@ -51,6 +51,8 @@ After you enter values for all the required fields, you can save the record. You
 
 The main body of the page repeats all the important information requested by, and shown in, the workflow, plus much more. It's organized into tabs, which you can navigate by using the links provided near the top of the page body. You can enter your planning details in the main body of the page whenever you want to&mdash;you don't have to wait until you get to a specific part of the workflow. See the following subsections for a summary of how to use each available tab.
 
+Only [live events, sessions, and tracks](go-live.md#event-entities) are shown on the [event website](set-up-event-portal.md). When you're ready to go live with an event, session, or track, open the relevant record and set its **Publish status** to **live**. Contacts will then be able to visit your event website, read about the event, and register online.
+
 ### The General tab
 
 Here you can see and edit your basic event information, including
@@ -149,6 +151,7 @@ There are two types of tracks: _internal_ and _external_. Use internal tracks du
 Use the **Agenda** tab of an event record to view and set up sessions and sessions tracks for that event. 
 
 - Each session is associated with a specific event and speaker, and includes scheduling details.
+- Only [live sessions and tracks](go-live.md#event-entities) are shown on the [event website](set-up-event-portal.md). When you're ready to go live with a session or track, open the relevant record and set its **Publish status** to **live**.
 - For each track, you can assign an audience and a few other descriptive details and then add member sessions, one at a time. All sessions in a track must be from the same event.
 
 <a name="speakers"></a>

@@ -204,6 +204,8 @@ You can manually set the **Status** of a draft or stopped marketing form to _act
 
 All marketing-form settings are editable when the page has a status reason of Draft, Live-editable, or Stopped, but all are locked when Live. No settings become permanent as a result of the record going live once.
 
+<a name="event-entities"></a>
+
 ## Events, session, and tracks go-live operations and status
 
 The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] generates an event website for that event rather than going live with the event record itself. The generated website displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the website, and any changes you make to a published event, and its related published records, will immediately be reflected on the website too.
@@ -216,7 +218,7 @@ Event, session, and track entities all have a **Status** field, which works the 
 
 ![The Publish Status menu for events](media/golive-publish-event.png "The Publish Status menu for events")
 
-The default values for **Publish status** are _Draft_, _Ready to publish_, _In progress_, and _Published_. Other than _Published_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Published_, then the event, session, or track details will become available publicly on your portals server. Set the **Publish status** to any value other than _Published_ to hide the event, session, or track on your portal.
+The default values for **Publish status** are _Draft_, _Ready to go live_, _In progress_, _Live_, and _Cancelled_. Other than _Live_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Live_, then the event, session, or track details will become available publicly on your portals server. Set the **Publish status** to any value other than _Live_ to hide the event, session, or track on your portal.
 
 ### See also
 
