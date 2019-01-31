@@ -26,7 +26,7 @@ ms.custom:
 <li><a href="system-requirements-omni-channel-engagement-hub.md" data-raw-source="[Pre-requisities and system requirements](system-requirements-omni-channel-engagement-hub.md)">Pre-requisities and system requirements</a></li>
 <li><a href="administrator/omni-channel-provision-license.md" data-raw-source="[Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)">Provision Omni-channel Engagement Hub</a></li>
 <li><a href="administrator/add-users-assign-roles.md" data-raw-source="[Enable users for Omni-channel Engagement Hub](administrator/add-users-assign-roles.md)">Enable users for Omni-channel Engagement Hub</a></li>
-<li><a href="administrator/configure-live-chat.md" data-raw-source="[Configure a live chat widget in 2 minutes](administrator/configure-live-chat.md)">Configure a live chat in 2 minutes</a></li>
+<li><a href="administrator/configure-live-chat.md" data-raw-source="[Quickly configure a chat widget](administrator/configure-live-chat.md)">Quickly configure a chat widget</a></li>
 </td>
 <td>
 
