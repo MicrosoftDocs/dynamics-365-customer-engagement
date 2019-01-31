@@ -2,7 +2,7 @@
 title: "Troubleshooting and monitoring server-side synchronization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 12/06/2018
+ms.date: 01/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -30,8 +30,18 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
 > [!TIP]
 >  Check out the following: [Blog: Test and Enable Mailboxes in Dynamics CRM 2015](http://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx)  
-  
+ 
+## The Server-Side Snychronizations Failures dashboard
+
+Follow the steps in this [KB article](https://support.microsoft.com/help/4468755/troubleshoot-item-level-server-side-synchronization-issues-with-dynami) to enable and use a dashboard to get information on synchronization errors.
+
+
+> [!div class="mx-imgBorder"] 
+> ![](media/server-side-sync-failures-dashboard.png "Server-side sync failures dashboard")
+
+ 
 <a name="BKMK_PerformanceDashboard"></a>   
+
 ## The Server-Side Synchronization Performance dashboard  
  You can use the Server-Side Synchronization Performance dashboard to get a quick look at the health of mailboxes using server-side sync.  
   
