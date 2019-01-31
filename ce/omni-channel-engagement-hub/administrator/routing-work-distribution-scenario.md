@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Refer the following illustration and the scenario to understand how unified routing and work distribution works and how workload is assigned to the agents.
+Refer the following illustration and the scenario to understand how unified routing and work distribution works and how conversations are assigned to agents.
 
 > [!div class=mx-imgBorder]
 > ![Routing and work distribution scenario](../../omni-channel-engagement-hub/media/oc-scenario.png)
@@ -24,7 +24,6 @@ Refer the following illustration and the scenario to understand how unified rout
 ## Step 1: Configure the basics
 
 Configure the following entities in the Omni-channel Engagement Hub. Once configured, the app is ready to route and distribute conversations to agents.
-
 
 |Entity   |Value   |
 |---------|---------|
@@ -37,7 +36,6 @@ Configure the following entities in the Omni-channel Engagement Hub. Once config
 |    |         |
 
 ## Step 2: Process the chat conversation
-
 A chat conversation originates from the customer.
 
 - As all incoming conversations are marked with a unique work stream name, the associated work stream is identified as **Live chat**.
@@ -45,7 +43,7 @@ A chat conversation originates from the customer.
 
 ## Step 3: Apply routing and work distribution rules
 
-At this point, routing and work distribution mechanism kicks in.
+At this point, routing and work distribution mechanism comes in.
 
  - With the help of context variables (*category* in the above table), **routing rules** determine that the chat belongs to the **Billing** queue. </br> </br> The chat is routed it to the **Billing** queue. 
 
