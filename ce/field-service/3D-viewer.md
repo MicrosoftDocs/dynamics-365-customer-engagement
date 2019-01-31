@@ -42,39 +42,62 @@ Ensure 3D file types are not blocked for attachments
 
  If you already have a 3D file that you would like to use, you can use Paint 3D to open that file and save it as a GLB file. The following will walk through how to grab 3D samples in Paint 3D and save to GLB.
 
- 1. Open up Paint 3D on your Windows 10 device
- 2. Once open, click the **3D Library** tab at the top
- 3. Select a model from the library to have it appear on the canvas and edit as desired.
- 4. When done click on the **Menu** tab
- 5. Click **3D Model** under the **Save as Copy** section
+   1. Open up Paint 3D on your Windows 10 device
+   2. Once open, click the **3D Library** tab at the top
 
 > [!div class="mx-imgBorder"]
-> ![3DViewerDocumentationDoc image1](media/3DViewerDocumentationDoc-image1.png)  
+> ![3DViewerDocumentationDoc image1](media/3DViewerDocumentationDoc-image1.png) 
+
+
+   3.  Select a model from the library to have it appear on the canvas and edit as desired.
+   4.  When done click on the **Menu** tab
+   5.  Click **3D Model** under the **Save as Copy** section
 
 > [!div class="mx-imgBorder"]
 > ![3DViewerDocumentationDoc image2](media/3DViewerDocumentationDoc-image2.png)  
 
+   6. Enter a **File Name**. For Save as Type, select **3D-GLB(*.glb)**. Then click **Save**.
 > [!div class="mx-imgBorder"]
 > ![3DViewerDocumentationDoc image3](media/3DViewerDocumentationDoc-image3.png)  
 
  
 
 ## Associate Customer Assets with 3D Content
-**Associating 3D Content with a Customer Asset**
 
 Once you have your GLB, GLTF, or OBJ file, and you have configured your organization as per the previous steps, you are ready to associate your 3D content with a customer asset.
 
-> [!div class="mx-imgBorder"]
-> ![3DViewerDocumentationDoc image6](media/3DViewerDocumentationDoc-image6.png)  
+1. Open up the desired customer asset record and select the **Related** tab
+2. Select **3D Models** from the dropdown menu
+3. Click **Add Existing 3D Model**
 
 > [!div class="mx-imgBorder"]
-> ![3DViewerDocumentationDoc image7](media/3DViewerDocumentationDoc-image7.png)  
+> ![3DViewerDocumentationDoc image6](media/3DViewerDocumentationDoc-image6.png) 
+
+4. A quick create form for 3D Model will open. CLick on **+New**
+5. Enter a **Name** for the 3D Model and then select the **Storage Type** drop-down
+6. For this walkthrough select **Note Attachment**. Then click **Save** on the form.
+
+
+> [!div class="mx-imgBorder"]
+> ![3DViewerDocumentationDoc image7](media/3DViewerDocumentationDoc-image7.png)
+
+7. After saving the record, the **Timeline** section will appear. Click on the paperclip icon to add a note with n attachment.
+8. You will be prompted to select a file. Select the 3D file you saved as a GLB earlier and click **Open**.
+9. After selecting a file, you should see the file attached with a paperclip icon next to it. Give the Note a **Title** and then click **Add note**.
+
 
 > [!div class="mx-imgBorder"]
 > ![3DViewerDocumentationDoc image8](media/3DViewerDocumentationDoc-image8.png)  
 
+10. After saving th note, you should see it appear on the timeline with the attached 3D file.
+11. To view the 3D file, scroll past the timeline section on the form. You can interact with the 3D viewer by scrolling, left-clicking, and right-clicking and dragging. 
+
 > [!div class="mx-imgBorder"]
 > ![3DViewerDocumentationDoc image9](media/3DViewerDocumentationDoc-image9.png)  
+
+12. After saving and closing the form for the 3D model, you can then select it from the lookup on the 3D Model quick create form. 
+13. After selecting the 3D Model record, click **Add** to associate that 3D model with the Customer Asset.
+14. the 3D Model can then be accessed via the 3D Model Associated View on the Customer Asset record.
 
 > [!div class="mx-imgBorder"]
 > ![3DViewerDocumentationDoc image10](media/3DViewerDocumentationDoc-image10.png)
