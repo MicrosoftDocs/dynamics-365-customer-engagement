@@ -16,7 +16,10 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Refer the following scenario to understand how the routing and work distribution mechanism works.
+Refer the following illustration and the scenario to understand how unified routing and work distribution works and how workload is assigned to the agents.
+
+> [!div class=mx-imgBorder]
+> ![Routing and work distribution scenario](../../omni-channel-engagement-hub/media/oc-scenario.png)
 
 ## Step 1: Configure the basics
 
@@ -52,9 +55,6 @@ At this point, routing and work distribution mechanism kicks in.
     - Presence should be **Available**
 
 In this case, **Bert** has the required capacity and presence so the chat is assigned to **Bert**. As Bert starts working on the chat conversation,  his presence changes to **Busy** and his capacity is updated to **30 units**.
-
-> [!div class=mx-imgBorder]
-> ![Routing and work distribution scenario](../../omni-channel-engagement-hub/media/oc-scenario.png)
 
 ### Adjusting an agent's capacity based on conversation allocation
 
