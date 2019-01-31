@@ -60,7 +60,7 @@ To enable the preview features:
     > [!NOTE]
     > If the **Manage** link isn't present, and it says **On** under **April 2019 update**, then you've already enabled the preview for this environment. But you might still need to install the features, so skip ahead to step 8 to make sure.
 
-1. The **April 2001 update** flyout slides in from the side of the page. Select the **Activate now** button at the bottom of the flyout.
+1. The **April 2019 update** flyout slides in from the side of the page. Select the **Activate now** button at the bottom of the flyout.
 
 1. The **Turn on April 2019 update?** dialog box opens. To confirm that you want to enable the preview features for your selected environment, enter the environment name in the field provided here and then select **Confirm**.
 
