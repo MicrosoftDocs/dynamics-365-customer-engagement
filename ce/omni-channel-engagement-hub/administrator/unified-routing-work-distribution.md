@@ -33,8 +33,6 @@ Here are some of the benefits of unified routing and work distribution:
 - Conversations are allocated to agents based on priorities.
 - Agents’ productivity is tracked by tracking time spent on various conversations.
 
-To know how routing and work distribution works end-to-end, refer the section [See how routing and work distribution works](routing-work-distribution-scenario.md).
-
 To effectively route and distribute work to agents, admins can set up the following items in Omni-channel Engagement Hub:
 
 - [Enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
@@ -46,7 +44,15 @@ To effectively route and distribute work to agents, admins can set up the follow
 - [Create and manage routing rules](routing-rules.md)
 - [Configure and manage presence status](presence-custom-presence.md)
 
+## Walk-through of routing and work distribution 
 
-## See also
+To know how routing and work distribution works end-to-end, navigate to [See how unified routing and work distribution works](routing-work-distribution-scenario.md)
 
-[See how unified routing and work distribution works](routing-work-distribution-scenario.md)
+
+###  See also
+
+[Understand work streams in the Omni-channel Engagement Hub](work-streams-introduction.md)
+
+
+
+
