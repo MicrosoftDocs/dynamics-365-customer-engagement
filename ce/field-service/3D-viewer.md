@@ -19,6 +19,7 @@ Increased storage for large 3D file sizes. Two options include **(1)** increasin
 > 2. Select **Email** tab
 > 3. Set the **file size limit for attachments** to t0 **131,072** KB (maximum)
 
+> [!div class="mx-imgBorder"]
 > ![3DViewerDocumentationDoc image4](media/3DViewerDocumentationDoc-image4.png)
 
 > **(2)** using Azure BLOB storage
@@ -31,8 +32,8 @@ Ensure 3D file types are not blocked for attachments
 2. Scroll down to the **Set blocked file extensions for attachments** section
 3. Ensure **GLB**, **GLTF**, and **OBJ** and **not listed**
 
-
-![3DViewerDocumentationDoc image5](media/3DViewerDocumentationDoc-image5.png) 
+> [!div class="mx-imgBorder"]
+> ![3DViewerDocumentationDoc image5](media/3DViewerDocumentationDoc-image5.png) 
 
 > [!Note]
 > Supported file types for 3D viewer: **GLB**, **GLTF**, and **OBJ**
@@ -47,11 +48,14 @@ Ensure 3D file types are not blocked for attachments
  4. When done click on the **Menu** tab
  5. Click **3D Model** under the **Save as Copy** section
 
-![3DViewerDocumentationDoc image1](media/3DViewerDocumentationDoc-image1.png)  
+> [!div class="mx-imgBorder"]
+> ![3DViewerDocumentationDoc image1](media/3DViewerDocumentationDoc-image1.png)  
 
-![3DViewerDocumentationDoc image2](media/3DViewerDocumentationDoc-image2.png)  
+> [!div class="mx-imgBorder"]
+> ![3DViewerDocumentationDoc image2](media/3DViewerDocumentationDoc-image2.png)  
 
-![3DViewerDocumentationDoc image3](media/3DViewerDocumentationDoc-image3.png)  
+> [!div class="mx-imgBorder"]
+> ![3DViewerDocumentationDoc image3](media/3DViewerDocumentationDoc-image3.png)  
 
  
 
@@ -60,15 +64,20 @@ Ensure 3D file types are not blocked for attachments
 
 Once you have your GLB, GLTF, or OBJ file, and you have configured your organization as per the previous steps, you are ready to associate your 3D content with a customer asset.
 
-![3DViewerDocumentationDoc image6](media/3DViewerDocumentationDoc-image6.png)  
+> [!div class="mx-imgBorder"]
+> ![3DViewerDocumentationDoc image6](media/3DViewerDocumentationDoc-image6.png)  
 
-![3DViewerDocumentationDoc image7](media/3DViewerDocumentationDoc-image7.png)  
+> [!div class="mx-imgBorder"]
+> ![3DViewerDocumentationDoc image7](media/3DViewerDocumentationDoc-image7.png)  
 
-![3DViewerDocumentationDoc image8](media/3DViewerDocumentationDoc-image8.png)  
+> [!div class="mx-imgBorder"]
+> ![3DViewerDocumentationDoc image8](media/3DViewerDocumentationDoc-image8.png)  
 
-![3DViewerDocumentationDoc image9](media/3DViewerDocumentationDoc-image9.png)  
+> [!div class="mx-imgBorder"]
+> ![3DViewerDocumentationDoc image9](media/3DViewerDocumentationDoc-image9.png)  
 
-![3DViewerDocumentationDoc image10](media/3DViewerDocumentationDoc-image10.png)
+> [!div class="mx-imgBorder"]
+> ![3DViewerDocumentationDoc image10](media/3DViewerDocumentationDoc-image10.png)
 
 ## Additional notes
 - 3D files are viewable on Field Service Mobile on Windows, iOS, and Android devices
