@@ -123,6 +123,5 @@ The asynchronous service, as the host of the [!INCLUDE[pn_Windows_Workflow_Found
   
 ### See also  
 [Asynchronous Service](asynchronous-service.md)<br />
-[Event Execution Pipeline](event-execution-pipeline.md)<br />
-[Event Framework Overview](introduction-event-framework.md)<br />
+[Event Framework](/powerapps/developer/common-data-service/event-framework.md)<br />
 [Processes in Dynamics 365 for Customer Engagement apps](automate-business-processes-customer-engagement.md)<br />

@@ -31,7 +31,7 @@ Custom data providers require substantial development resources to create and ma
 
 * The external data source schema and associated data access techniques.  This domain knowledge is specific to the external data source type.
 * [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps metadata schema; for more information see [The metadata and data models in Microsoft Dynamics 365 for Customer Engagement apps](../metadata-data-models.md).
-* [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps event system; for more information see [Introduction to the event framework](../introduction-event-framework.md). 
+* [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps event system; for more information see [Event Framework](/powerapps/developer/common-data-service/event-framework.md). 
 * [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps plug-in architecture and development; for more information see [Plug-in development](../plugin-development.md).
 
 You will also need to manually download the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps Data SDK, or include the corresponding NuGet package in your projects. This SDK is compatible with Visual Studio 2015 or 2017.  <!-- TODO: When the final package is ready, put in proper name and link. -->
