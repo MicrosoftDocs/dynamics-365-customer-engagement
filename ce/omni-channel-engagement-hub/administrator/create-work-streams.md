@@ -109,14 +109,14 @@ To communicate with Common Data Service for Apps, the omni-channel system uses M
 
 3. Enter the name for the custom connector. The name of your environment is the custom connector name here.
 
-    ![Custom connestor name](../media/custom-connector-name.png)
+    ![Custom connector name](../media/custom-connector-name.png)
 
 4. On the **Create Custom Connector** menu, select **Import an API file**.
 
     > [!NOTE]
     > Go to the Download Center, and save the file to your local computer. Select this location from your local machine while importing  the API file and select **Continue**.
 
-5. Update the host name in the **Genera Information** section in the following format: </br>
+5. Update the host name in the **General Information** section in the following format: </br>
     *https://**orguniquename**-public.omnichannelengagementhub.com*
 
     Where **orguniquename** is the unique name of your org.
