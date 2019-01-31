@@ -30,22 +30,18 @@ The landing page explains some of the key features of Omni-channel Engagement Hu
  > ![Omni-channel Engagement Hub conversation control chat interface](../../media/csh-conversation-control-chat-interface.png "Omni-channel Engagement Hub conversation control chat interface")  
 
 In conversation control, you can see the following options:
-
- - Public and internal mode
-
- - Refresh session overview
-
- - Quick replies
-
- - Notes
-
- - Knowledge articles
-
- - Link to conversation
-
- - Consult
-
- - Transfer
+ 
+ | Option           | Description                                   |
+ |------------------|-----------------------------------------------|
+ | Public           | Send messages to public |
+ | Internal         | Send messages to internal users |
+ | Customer summary | View customer summary |
+ | Quick replies    | Send templatized messages  |
+ | Notes            | Take notes specific to conversation |
+ | Knowledge articles | Search for knowledge articles and share |
+ | Link to conversation | Link the record to this conversation |
+ | Consult          | View list to consult with other users | 
+ |  Transfer        | View list to transfer the request |
 
 ### Reply messages with Public and internal mode
 
