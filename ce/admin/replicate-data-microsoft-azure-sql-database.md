@@ -1,7 +1,7 @@
 ---
 title: "Replicate Dynamics 365 for Customer Engagement apps data to Azure SQL Database | MicrosoftDocs"
 ms.custom: 
-ms.date: 12/14/2018
+ms.date: 01/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -88,7 +88,9 @@ For information about the programmatic interface for managing configuration and 
   
 - A [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] or later version instance.  
   
-- The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] solution must be installed. Get it now  from [Microsoft AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.44f192ec-e387-436c-886c-879923d8a448).  
+- The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] solution must be installed.  
+    - In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, go to **Settings** > **Microsoft Appsource** > search or browse to **Microsoft Dynamics 365 - Data Export Service**, and then select **Get it now**. 
+    - Or, find it on [Microsoft AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.44f192ec-e387-436c-886c-879923d8a448).  
   
 - The entities that will be added to the Export Profile must be enabled with change tracking. To ensure a standard or custom entity can be synchronized go to **Customization** > **Customize the System**, and then click the entity. On the **General** tab make sure the **Change Tracking** option under the **Data Services** section is enabled.  
   
