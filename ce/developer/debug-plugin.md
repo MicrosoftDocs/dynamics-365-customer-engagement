@@ -98,5 +98,4 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
  [Plug-in Development](plugin-development.md)   
  [Analyze Plug-in Performance](analyze-plugin-performance.md)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   
- [Event Execution Pipeline](event-execution-pipeline.md)   
  [Write a Plug-in](write-plugin.md)
