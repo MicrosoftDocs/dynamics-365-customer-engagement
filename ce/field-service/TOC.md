@@ -73,7 +73,7 @@
 # Assets, inventory and purchasing
 ## Customer assets
 ### [Set up customer assets](configure-set-up-customer-assets.md)
-### [3D images](3D-viewer.md)
+### [3D models](3D-viewer.md)
 ## Inventory
 ### [Warehouse](create-warehouse.md)
 ###  [View product inventory](view-product-inventory.md)
