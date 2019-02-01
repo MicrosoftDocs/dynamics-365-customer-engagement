@@ -17,9 +17,6 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-> [!NOTE]
-> Omni-channel Engagement Hub is available in preview in this release. It will be generally available in a future release.
-
 Omni-channel Engagement Hub is a cloud-based application that helps you extend the power of Microsoft Dynamics 365 for Customer Service. It lets customer service agents instantly connect to and engage with their customers, so that they can quickly resolve the queries.
 
 Omni-channel Engagement Hub provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
@@ -36,6 +33,8 @@ Omni-channel Engagement Hub enables the following channels and capabilities for 
 - [Enhanced agent experience](../agent/agent-usd/omni-channel-engagement-hub-agent.md)
 
 ## Provision Omni-channel Engagement Hub application
+
+Ensure that you have the required security role or equivalent permissions. For more information, see [Enable users for Omni-channel Engagement Hub](add-users-assign-roles.md).
 
 Follow these steps to set up Omni-channel Engagement Hub.
 
@@ -84,15 +83,15 @@ Follow these steps to set up Omni-channel Engagement Hub.
        > ![enable chat](../media/enable-chat.png)
 
        > [!NOTE]
-       > In this preview, **Chat** check box is selected by default as this preview supports the set up of the **Chat** channel only. You cannot un-select the check box.
+       > In this preview, **Chat** check box is selected by default as this preview supports the set up of only the **Chat** channel. You cannot un-select the check box.
    
-       Once the set up is completed successfully, you can see the **Chat** enabled on the **Summary** page.
+       Once the set up is completed successfully, you can see the **Chat** channel enabled on the **Summary** page.
 
       > [!div class=mx-imgBorder]
       > ![summary of set up](../media/summary-fre.png)
 
 
-On successful set up, your org and your omni-channel app are displayed in the **Manage Instances** view.
+On successful set up, you can view the org and the enabled channel in the **Manage Instances** view.
 
 > [!div class=mx-imgBorder]
 > ![Set up complete](../media/install-complete.png)
