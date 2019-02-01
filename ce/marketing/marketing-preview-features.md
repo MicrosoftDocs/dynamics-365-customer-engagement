@@ -167,3 +167,10 @@ You can read the following information about each type of quota listed here:
 - **Percentage used by tenant**: Shows a percentage of how much of each quota you've already used for the current cycle.
 - **Days remaining in current cycle**: For quotas that apply over time, this value shows how many days are left until the quota gets reset.
 - **Status**: Indicates whether or not you've used up your quota for the current cycle.
+
+## Preview support and feedback
+
+If you wish to report an issue with a preview feature, please [open a support ticket](https://docs.microsoft.com/power-platform/admin/get-help-support) and include the following tags in the **Issue title** of your ticket:
+
+- For marketing-contacts monitoring, please include: [PREVIEW][MCM]
+- For social posting, please include: [PREVIEW][SOCIAL]
