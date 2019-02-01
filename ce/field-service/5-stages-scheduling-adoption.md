@@ -112,9 +112,9 @@ Recommended time for this stage: 1-2 weeks
 
 ## Stage 4: Single resource optimization (SRO)
 
-As exceptions occur, using single resource optimization (SRO) from the schedule board allows schedulers to re-optimize the schedule for individual technicians. SRO should be done by the scheduler, with assistance from the schedule analyst if needed.
+The next stage is to use the power of RSO for schedule changes and exceptions. This is accomplished using Single Resource Optimization (SRO) from the schedule board. Rather than re-optimize the entire workforce schedule, SRO allows you to target the specific field technician's schedule as exceptions occur. SRO should be done by the scheduler, with assistance from the schedule analyst if needed.
 
-In contrast to an overnight optimization scenario, the scope is different for an SRO optimization. With SRO, the scope of the optimization ends when the current day ends; the purpose of SRO is to correct and re-optimize for unexpected schedule changes. Additionally, the "schedule within working hours" constraint should be removed from the associated optimization goal, as it's okay to push bookings a bit further outside of working hours. Lastly, set the "High Priority Requirements" as the first objective in order to optimize emergency work first if applicable.
+In contrast to an overnight optimization scenario, the scope is different for a single resource optimization and typically ends when the current day ends. Additionally, the **schedule within working hours** constraint should be removed from the associated optimization goal, as it's okay to push bookings a bit further outside of working hours. Lastly, set the "High Priority Requirements" as the first objective in order to optimize emergency work first if applicable.
 
 During this adoption stage, analysts can see whether manual scheduling or SRO is working better (and then adjust accordingly) for a single resource’s schedule by:
 
