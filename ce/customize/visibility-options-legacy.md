@@ -2,7 +2,7 @@
 title: "Show or hide form elements | MicrosoftDocs"
 description: "Learn how to display or hide from elements, such as tabs, sections, or fields"
 ms.custom: 
-ms.date: 01/14/2019
+ms.date: 01/31/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -35,4 +35,7 @@ search.app:
 
 ### See also
 
-[Overview of the form editor interface](form-editor-user-interface-legacy.md)
+[Create business rules and recommendations to apply logic in a form](create-business-rules-recommendations-apply-logic-form.md) <br />
+[formContext.ui.tabs (Client API reference)](../developer/clientapi/reference/formContext-ui-tabs.md) <br />
+[formContext.ui.sections (Client API reference)](../developer/clientapi/reference/formContext-ui-sections.md) <br />
+[setVisible (Client API reference)](../developer/clientapi/reference/controls/setVisible.md)
