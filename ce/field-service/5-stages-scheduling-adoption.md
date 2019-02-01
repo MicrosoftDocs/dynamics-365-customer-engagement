@@ -110,7 +110,7 @@ For more information on overnight scheduling, visit our topic on [types of sched
 
 Recommended time for this stage: 1-2 weeks
 
-## Stage 4: Single resource optimization (RSO)
+## Stage 4: Single resource optimization (SRO)
 
 As exceptions occur, using single resource optimization (SRO) from the schedule board allows schedulers to re-optimize the schedule for individual technicians. SRO should be done by the scheduler, with assistance from the schedule analyst if needed.
 
