@@ -36,6 +36,8 @@ If you already have a paid [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcr
 > - [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only be used on instances running [!include[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or higher.
 > - You can only install the product if you are located in a country/region where it is supported. To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
+<a name="how-licensed"></a>
+
 ## How [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] is licensed
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is licensed per instance, with each instance priced according to the number of *marketing contacts* stored in your database. Marketing contacts only include those that you engage with marketing activities such as emails, landing pages, forms, LinkedIn integration, events, and surveys. Contacts that you never engage in marketing activities won't be counted as part of your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license. While you're planning your marketing activities, please be sure to purchase enough marketing contacts to remain within your quota.
@@ -54,6 +56,9 @@ For more information about licensing, see the [Administration and setup FAQ](set
 ## Add a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app to your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant
 
 There are many ways to add one or more [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps to your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant. For example, you can purchase it from the [Dynamics 365 for Marketing overview page](https://dynamics.microsoft.com/en-us/marketing/overview/), or by going to **Billing** > **Purchase services** in your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Admin Center, or by contacting your Microsoft sales representative or channel partner. As mentioned previously, you might even qualify to have a free [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app added to your tenant.
+
+- On purchasing a license, an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app will be added automatically to your tenant.
+- If you are entitled to a free license as a result of your existing [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license agreement, then please [raise a ticket with Microsoft Support](setup-troubleshooting.md#contact-support) to have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app added to your tenant.
 
 You can have any number of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps available on your tenant. Initially, each of these apps will be unconfigured and unassigned to any [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance. Later, you'll run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard to assign the app to an instance and configure it.
 

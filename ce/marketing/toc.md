@@ -27,7 +27,7 @@
 #### [Event management settings](events-settings.md)
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
-#### [Quota management](quota-management.md)
+#### [Quota limits](quota-management.md)
 #### [Control access to designer features](designer-feature-protection.md)
 
 ### Customize Marketing
@@ -141,7 +141,10 @@
 
 ### Analyze marketing results
 #### [Analyze results to gain insights](insights.md)
+#### [Insights glossary](insights-glossary.md)
 #### [Preview: Create custom analytics with Power BI](custom-analytics.md)
+
+### [Activate and use preview features](marketing-preview-features.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
