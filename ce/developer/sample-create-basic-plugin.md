@@ -45,7 +45,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
 ### See also  
  [Plug-in Development](plugin-development.md)   
- [Sample: Web Access from a Sandboxed Plug-in](sample-web-access-sandboxed-plugin.md)   
+ [Sample: Web access from a plug-in](/powerapps/developer/common-data-service/org-service/samples/web-access-plugin)   
  [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in.md)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   
  [Event Execution Pipeline](event-execution-pipeline.md)   

@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This walkthrough demonstrates how to register a plug-in by using the Plug-in Registration tool that is provided in the SDK. The plug-in to register is the FollowupPlugin from the [Sample: Basic Plug-in](sample-create-basic-plugin.md) topic.  
+This walkthrough demonstrates how to register a plug-in by using the Plug-in Registration tool that is provided in the SDK. The plug-in to register is the FollowupPlugin from the [Sample: Create a basic plug-in](/powerapps/developer/common-data-service/org-service/samples/basic-followup-plugin) topic.  
 
  The plug-in is to be registered on the `account` entity, <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> message, on a post-event, and in the sandbox. The plug-in can be registered on any [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement deployment where your user account has the System Customizer or System Administrator role.  
 

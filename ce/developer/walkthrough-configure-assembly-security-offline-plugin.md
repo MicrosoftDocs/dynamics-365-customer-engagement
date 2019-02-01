@@ -50,5 +50,5 @@ The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
   
 ### See also  
  [Plug-in Development](plugin-development.md)   
- [Sample: Basic Plug-in](sample-create-basic-plugin.md)   
+ [Sample: Create a basic plug-in](/powerapps/developer/common-data-service/org-service/samples/basic-followup-plugin)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)

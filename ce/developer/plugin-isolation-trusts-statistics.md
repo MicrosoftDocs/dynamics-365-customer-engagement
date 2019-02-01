@@ -76,4 +76,4 @@ By changing this registry key value, you can change the web access for sandboxed
 [Create a Custom Workflow Activity](workflow/create-custom-workflow-activity.md)<br />
 [Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)<br />
 [PluginTypeStatistic Entity](entities/plugintypestatistic.md)<br />
-[Sample: Web Access from a Sandboxed Plug-in](sample-web-access-sandboxed-plugin.md)<br />
+[Sample: Web access from a plug-in](/powerapps/developer/common-data-service/org-service/samples/web-access-plugin)
