@@ -46,7 +46,7 @@ A work stream comprises of the following properties:
 
 - **Record Identification Rules**: Record identification rules help agents identify and assist customers better by showing their details on the **Customer summary** page. 
 
-    For more information, see [Set up record identification rule](record-identification-rule.md).
+    For more information, see [Understand record identification rule](record-identification-rule.md).
 
     > [!NOTE]
     > In this preview, the record identification rules are pre-configured in the work streams out-of-the-box.

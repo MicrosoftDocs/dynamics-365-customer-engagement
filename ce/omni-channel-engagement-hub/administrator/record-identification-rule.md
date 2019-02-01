@@ -13,7 +13,7 @@ ms.assetid: 6da7ee5c-9e34-4f01-920c-6c381d2f4157
 ms.custom: 
 ---
 
-# Set up record identification rule
+# Understand record identification rules
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -44,12 +44,6 @@ For information about how to create questions and use them in a pre-chat survey,
 |Email      |    Single line      |  Email        |
 |Phone      |  Single line       |   Phone      |
 |    |         |         |
-
-            
-
-            
-> [!NOTE]
-> Make sure that each question name is unique, and that it's used "as is" in the preceding code snippet. Otherwise, the record identification rule won't work. You can provide question text that meets your requirements.
 
 ### See also
 

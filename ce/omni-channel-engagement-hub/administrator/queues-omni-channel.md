@@ -59,11 +59,6 @@ Follow these steps to create a new omni-channel queue.
 > [!div class=mx-imgBorder]
 > ![omni-channel queue](../media/oc-new-queue.PNG)
 
-You can view all active queues in the **Omni-channel Queues** view.
-
-To activate a queue so that conversations can be routed to it, select the queue record in the **Omni-channel Queues** view, and then select **Activate** on the command bar.
-
-You can also inactivate a queue if you don't want conversations to be routed to it.
 
 ### See also
 
