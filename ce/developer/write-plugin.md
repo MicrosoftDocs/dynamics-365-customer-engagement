@@ -100,7 +100,7 @@ public class MyPlugin: IPlugin
   
  The [System.IServiceProvider](https://docs.microsoft.com/dotnet/api/system.iserviceprovider) parameter of the <xref:Microsoft.Xrm.Sdk.IPlugin.Execute(System.IServiceProvider)> method is a container for several service useful objects that can be accessed within a plug-in. The service provider contains instance references to the execution context, <xref:Microsoft.Xrm.Sdk.IOrganizationServiceFactory>, <xref:Microsoft.Xrm.Sdk.ITracingService>, and more. The sample code demonstrates how to obtain references to the execution context,<xref:Microsoft.Xrm.Sdk.IOrganizationService>, and <xref:Microsoft.Xrm.Sdk.ITracingService> from the service provider parameter. For more information about the tracing service, refer to [Debug a Plug-in](debug-plugin.md).  
   
- The execution context contains a wealth of information about the event that caused the plug-in to execute and the data contained in the message that is currently being processed by the pipeline. For more information about the data context, see [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md).  
+ The execution context contains a wealth of information about the event that caused the plug-in to execute and the data contained in the message that is currently being processed by the pipeline. For more information about the data context, see [Understand the execution context](/powerapps/developer/common-data-service/understand-the-data-context.md).  
   
  The platform provides the correct Web service URLs and network credentials when you obtain the organization Web service reference from the service provider. Instantiating your own Web service proxy is not supported because it creates deadlock and authentication issues. After you have the organization service reference, you can use it to make method calls to the organization Web service. You can retrieve or change business data in a single [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization by issuing one or more message requests to the Web service. For more information about message requests, see [Use Messages (Request and Response Classes) with the Execute Method](org-service/use-messages-request-response-classes-execute-method.md).  
   
@@ -158,7 +158,7 @@ public SamplePlugin(string unsecure, string secure)
 Account acct = entity.ToEntity<Account>();  
 ```  
   
- In the previous line of code, the `acct` variable is an early-bound type. All <xref:Microsoft.Xrm.Sdk.Entity> values that are assigned to <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> must be late-bound types. If an early-bound type is assigned to the context, a [SerializationException](https://msdn.microsoft.com/library/system.runtime.serialization.serializationexception.aspx) will occur. For more information, see [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md). Make sure that you do not mix your types and use an early bound type where a late-bound type is called for as shown in the following code.  
+ In the previous line of code, the `acct` variable is an early-bound type. All <xref:Microsoft.Xrm.Sdk.Entity> values that are assigned to <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> must be late-bound types. If an early-bound type is assigned to the context, a [SerializationException](https://msdn.microsoft.com/library/system.runtime.serialization.serializationexception.aspx) will occur. For more information, see [Understand the execution context](/powerapps/developer/common-data-service/understand-the-data-context.md). Make sure that you do not mix your types and use an early bound type where a late-bound type is called for as shown in the following code.  
   
 ```csharp  
 context.InputParameters["Target"] = new Account() { Name = "MyAccount" }; // WRONG: Do not do this.  
@@ -189,7 +189,7 @@ context.InputParameters["Target"] = new Account() { Name = "MyAccount" }; // WRO
 ### See also
 
  [Plug-in Development](plugin-development.md)   
- [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md)   
+ [Understand the execution context](/powerapps/developer/common-data-service/understand-the-data-context.md)  
  [Write a Custom Azure-aware Plug-in](write-custom-azure-aware-plugin.md)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   
  [Handle Exceptions in Plug-ins](handle-exceptions-plugins.md)   

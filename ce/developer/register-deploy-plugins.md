@@ -90,7 +90,7 @@ Depending on your plug-in’s design, your plug-ins may require other referenced
 
  You can programmatically register plug-ins and custom workflow activities with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps by writing registration code using certain entity classes. The key entity types used to register plug-ins and images are:    `PluginAssembly`,    `PluginType`,  `SdkMessageProcessingStep`, and `SdkMessageProcessingStepImage`. The key entity types used to register custom workflow activities are `PluginAssembly` and `PluginType`. Use these entities with the create, update, retrieve, and delete operations.
 
- For more information on images, see [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md).  
+ For more information on images, see [Understand the execution context](/powerapps/developer/common-data-service/understand-the-data-context.md).  
 
 <a name="bkmk_enablecode"></a>
 

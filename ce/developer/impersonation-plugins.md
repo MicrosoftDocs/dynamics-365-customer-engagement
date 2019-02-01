@@ -36,6 +36,6 @@ Additional information about using impersonation with plug-ins can be found in t
 ### See also  
  [Plug-in Development](plugin-development.md)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   
- [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md)   
+ [Understand the execution context](/powerapps/developer/common-data-service/understand-the-data-context.md)  
  [Impersonate Another User](org-service/impersonate-another-user.md)  
  [Support offline execution](support-offline-execution.md)
