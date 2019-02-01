@@ -2,7 +2,7 @@
 title: "Glossary of common insights terms (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Provides definitions of terms commonly used to describe marketing results, insights, and KPIs in Dynamics 365 for Marketing"
 keywords: insights;results;KPIs;analytics;glossary
-ms.date: 01/17/2019
+ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -33,7 +33,7 @@ This topic provides definitions of terms commonly used to describe marketing res
 
 <dl>
 </dt><strong>Contact  stopped in journey</strong></dt>
-<dd>From time to time, a contact may get stopped in the middle of a customer journey for some reason, in which case they will wait at the tile where they were stopped until conditions change again (but typically they won't). There are three main reasons why a contact might get stopped at a tile during a journey: they unsubscribed from the mailing list targeted by the journey while it was running, they joined the journey's suppression segment while it was running, or the lowered their consent level to be below the minimum threshold set for the journey while it was running. For consent, the system notes whether the consent is being managed internally or externally. Unsubscribes are counted together with suppression list changes.</dd>
+<dd>From time to time, a contact may get stopped in the middle of a customer journey for some reason, in which case they will wait at the tile where they were stopped until conditions change again (but typically they won't). There are three main reasons why a contact might get stopped at a tile during a journey: they unsubscribed from the mailing list targeted by the journey while it was running, they joined the journey's suppression segment while it was running, or the lowered their consent level to be below the minimum threshold set for the journey while it was running. Unsubscribes are counted together with suppression list changes.</dd>
 
 </dt><strong>Email block bounce</strong></dt>
 <dd>A block bounce is registered for emails messages that bounce for some reason other than a hard or soft bounce. This result is rare, and might indicated a remote bounce, which occurs when a server initially accepts an email, but then returns a bounce message sometime later. This might happen when the receiving email server is running local filtering rules that identify issues such as lack of sender authentication, flagged content, or because the sending IP is on a blacklist. These are otherwise treated as soft bounces.</dd>
@@ -47,6 +47,8 @@ This topic provides definitions of terms commonly used to describe marketing res
 </dt><strong>Email click-through rate (CTR)</strong></dt>
 <dd>The click-through rate (CTR) tells you how often recipients clicked on a message after opening it. Note that in some rare cases, the CTR can be greater than 100% if recipients click links but don't load images when they open your messages. For more information about why images must be loaded to register an open, see <a href="#email-opened">Email opened</a> in this glossary.<br/>
 <code>CTR = (UniqueClicks/UniqueOpens) * 100%</code></dd>
+
+<!-- add CTOR here -->
 
 </dt><strong><a name="email-delivered"></a>Email delivered</strong></dt>
 <dd>A marketing email message is considered to have been delivered if it was sent (not blocked) by Dynamics 365 and no bounce was reported. Messages reported as delivered might still end up unopened or caught in a spam filter along the way.<br/>
@@ -93,6 +95,15 @@ This topic provides definitions of terms commonly used to describe marketing res
 
 </dt><strong>Redirect URL clicked</strong></dt>
 <dd>Redirect URLs create links that connect to your Dynamics 365 server, which records the click, and then redirect immediately to some content that the requester is looking for. You can use them to track clicks from banners, ads, social media posts, and more. If a redirect URL is clicked by a known contact using a browser where a Dynamics 365 cookie has been set (as a result of submitting a landing page), then the click is linked to the relevant contact; otherwise the click is recorded as anonymous.</dd>
+
+<dt>Subscription submitted</dt>
+<dd>A contact clicked on the subscription center link sent to them in email, and then submitted the subscription center at least once, regardless of whether the contact changed their subscriptions or contact details.
+
+<dt>Total generated leads</dt>
+<dd>The number of leads generated as a result of an email message. A new lead is counted when a recipient clicks a landing-page link in the message and then submits the landing page, which generates a new lead for that contact as a result. Landing page submissions that don't generate a new lead aren't counted (for example, because a matching lead already exists or because the landing page isn't set up to generate leads).
+
+<dt>Unsubscribed</dt>
+<dd>A recipient clicked on the subscription center link in an email and then unsubscribed from one or more mailing lists. This value counts, at most, one unsubscribe per message per recipient.</dd>
 
 </dt><strong>Web beacon</strong></dt>
 <dd>Web beacons are what makes it possible for Dynamics 365 for Marketing to detect when a marketing email messages has been opened by a recipient. The beacon is a transparent, 1x1 pixel, remote image that Dynamics 365 for Marketing embeds in each marketing email it sends. The image link is unique for each message, and includes not only the URL of the image to load, but also an ID that Dynamics 365 uses to identify the message and the contact it was sent to. The actual web-beacon image is stored on the Dynamics 365 server, so each time a contact opens a message and loads its images, Dynamics 365 logs which message was opened and by whom and then returns the image.</dd>
