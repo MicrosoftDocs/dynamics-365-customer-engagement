@@ -124,7 +124,7 @@ During this adoption stage, analysts can see whether manual scheduling or SRO is
 
 -   Comparing the number of high priority work scheduled by manual scheduling versus automatic SRO scheduling
 
-Refer to our [topic on RSO](single-resource-optimization.md) for details about its use.
+Refer to our [topic on SRO](single-resource-optimization.md) for details about its use.
 
 Recommended time for this stage: 1-2 weeks
 
