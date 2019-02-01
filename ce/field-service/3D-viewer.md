@@ -1,9 +1,38 @@
-# Field Service Technician Productivity
+---
+title: "3D images for Field Service | MicrosoftDocs"
+ms.custom: 
+  - dyn365-fieldservice
+ms.date: 09/30/2019
+ms.reviewer: ""
+ms.service: dynamics-365-customerservice
+ms.suite: ""
+ms.technology: 
+  - "field-service"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+author: krbjoran
+ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
+caps.latest.revision: 42
+ms.author: FieldServiceDave
+manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+search.app: 
+  - D365CE
+  - D365FS
+---
 
-Our latest version of Field Service will be introducing the 3D Model entity and, with it, an n:n relationship between 3D Models and Customer Assets. This will enable 3D content to be associated with Customer Assets. The value in this feature is that we have found that many of our customers have 3D content for their various assets that would be useful to provide to their technicians for use in the field when performing repairs. As opposed to having to record videos or write long manuals, companies can leverage pre-existing 3D content to generate what are effectively 3D knowledge articles.
+# 3D images for Field Service
 
+Dynamics 365 for Field Service allows organizations to upload 3D image content for field technicians to reference in the field. Typically a 3D image relates to a specific product or customer asset and helps field technicians with equipment repair and other tasks. As opposed to recording videos or writing long manuals, field service organizations can leverage pre-existing 3D content to generate what are effectively 3D knowledge articles.
 
-**Feature Details:** The following will walk through how to configure a customer asset to have an associated 3D model record.
+A typical way of configuring 3D functionality is to utilize an n:n relationship between the 3D Model and Customer Asset entities, which enables 3D content to be associated with Customer Assets.
+
+In this article we will walk through how to configure a customer asset to have an associated 3D model record.
 
 ## Prerequisites
 
