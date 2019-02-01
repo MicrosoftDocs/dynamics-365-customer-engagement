@@ -39,7 +39,7 @@ From time to time, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] makes n
 Most preview features aren't installed or enabled by default. A system administrator must explicitly enable and install them before they will become available to any instance. 
 
 > [!NOTE]
-> If you already have a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] environment, but don't yet have [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed on it, and you'd like to install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] with the preview features already enabled, then you can enable the preview and install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] at the same time by running the procedure provided here (you don't need to install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] first).
+> If you already have a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] environment (including a trial), but don't yet have [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed on it, and you'd like to install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] with the preview features already enabled, then you can enable the preview and install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] at the same time by running the procedure provided here (you don't need to install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] first).
 
 To enable the preview features:
 
