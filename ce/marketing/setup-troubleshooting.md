@@ -49,12 +49,19 @@ Read this topic to find answers to common questions and solutions to known issue
 
 - **Which marketing contacts count against my quota?**  
     All marketing contacts on your tenant are counted, regardless of instance type (including both production and non-production instances).
+
 - **Where can I see my quotas and quota usage?**  
     To see how many of each quota you've purchased and used, go to **Settings** > **Advanced settings** > **Other settings** > **Quota limits**.
+
 - **What is my monthly email quota?**  
     Your monthly email quota is equal to ten times the number of marketing contacts you have purchased.
+
 - **If I use a contact only once in a month and don’t use it next month, does it count?**  
-    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" on your number of marketing contacts at contract renewal.
+    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on contract renewal.
+
+- **My [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license agreement entitles me to a free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license. How can I get the free app added to my tenant?**  
+    If you are entitled to a free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license as a result of your existing [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license agreement, then please [raise a ticket with Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) to have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app added to your tenant.
+
 - **How can I learn more about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing?**
   - For an overview, see [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md) 
   - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
