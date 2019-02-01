@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic describes how to create a custom workflow activity and register it for use in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. For [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], custom workflow activities can only be registered to execute in the sandbox (partial trust). For more information about the sandbox and partial trust, see [Plug-in isolation, trusts, and statistics](../plugin-isolation-trusts-statistics.md).  
+This topic describes how to create a custom workflow activity and register it for use in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. For [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], custom workflow activities can only be registered to execute in the sandbox (partial trust).  
   
 <a name="Requirements"></a>
 

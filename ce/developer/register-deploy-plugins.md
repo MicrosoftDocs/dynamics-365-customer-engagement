@@ -154,5 +154,4 @@ Depending on your plug-in’s design, your plug-ins may require other referenced
 
  [Plug-in Development](plugin-development.md)<br />
  [Debug a Plug-in](debug-plugin.md)<br />
- [Plug-in Isolation, Trust, and the Disallowed List](plugin-isolation-trusts-statistics.md)<br />
  [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solutions](package-distribute-extensions-use-solutions.md)<br />
