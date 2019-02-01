@@ -2,7 +2,7 @@
 title: "The 5 stages of scheduling adoption | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/28/2019
+ms.date: 02/01/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -35,7 +35,7 @@ We recommend using Field Service tracking analytics throughout these stages to m
 
 ## Choosing the right resources
 
-It's important to note that having schedulers and schedule analysts **with the right skills** is a key prerequisite for this process. Identify, train, and empower these resources early in the pilot or roll-out process. Keep in mind these are your resources who will be involved daily in scheduling. For more information on these types of resources, visit [our topic on scheduling personas](scheduling-roles-personas.md). 
+First, it's important to note that having schedulers and schedule analysts **with the right skills** is a key prerequisite for this process. Identify, train, and empower these resources early in the pilot or roll-out process. Keep in mind these are your resources who will be involved daily in scheduling. For more information on these types of resources, visit [our topic on scheduling personas](scheduling-roles-personas.md). 
 
 ## Stage 1: Manual scheduling
 
@@ -43,7 +43,7 @@ For defined scope and locations, the scheduler and schedule assistant begin by m
 
 Recommended time for this stage: 1-2 weeks
 
-## Stage 2: Schedule Assistant
+## Stage 2: Schedule assistant
 
 The next stage sees the introduction of the schedule assistant for scheduling work. This work should be done by the scheduler and schedule analyst. Like with manual scheduling, schedulers will learn how to work with the schedule assistant, along with the deeper capabilities of the schedule board. Work scheduled with the schedule assistant should be actual work orders assigned to and completed by actual technicians.
 
@@ -51,28 +51,25 @@ Recommended time for this stage: 1-2 weeks
 
 ## Stage 3: Automated overnight scheduling + manual exception handling (RSO)
 
-Resource Scheduling Optimization (RSO) automatically matches resources and demands by considering skills, locations, duration, promised time windows, priorities, and many other factors. For location-specific work, optimization results minimizes overall travel distances and give accurate turn-by-turn travel time estimates. All of this is to improve technician productivity and customer satisfaction.
+A businesses grow, so do scheduling needs; it’s difficult to have human dispatchers manually scheduling all demand requirements. During this stage, schedulers and schedule analysts can experiment and iterate on automated schedules, allowing for adjustments to scope, goals, and timing of runs.
 
-The RSO “engine” also responds to reschedules and cancellations. After automatically scheduling dispatchers still have the ability to manually override schedules as needed.
+Resource Scheduling Optimization (RSO) is an add-in solution that automatically matches resources and demands by considering skills, locations, duration, promised time windows, priorities, and many other factors. For location-specific work, optimization results minimizes overall travel distances and give accurate turn-by-turn travel time estimates. All of this is to improve technician productivity and customer satisfaction.
 
-**When to do it:** When businesses grow, it’s impossible to have human dispatchers manually scheduling or using the schedule assistant one by one for all demand requirements. Even if dispatchers had the time to handle each schedule requirement, there is no easy way to ensure technician working hours are maximized or travel distances are minimized along with SLA and priority considerations.
+RSO also responds to reschedules and cancellations, and dispatchers can still manually override schedules as needed.
 
-**How to do it:** A lot of businesses schedule resource assignments one week ahead, but setting up smart schedules to help business optimize large amount of data in the most efficient way is difficult. The secret recipe is **optimization scopes**. By leveraging the power of extensible scopes to breakdown optimization schedules into smaller sets of resources and requirements allows RSO to optimize in parallel. 
+A lot of businesses schedule resource assignments one week in advance. The secret recipe is **optimization scopes**. By leveraging the power of extensible scopes to breakdown optimization schedules into smaller sets of resources and requirements allows RSO to optimize in parallel. 
 
-There are many settings and parameters that users might not know which settings are the best fit for their scheduling scenarios. A **What-if simulation** helps users better understand how these parameters work, how to achieve better optimization results by adjusting optimization scopes (include/exclude some resources), and re-ranking optimization objectives etc.
+### Measuring successful optimizations
 
+What organizations choose to measure and track depends on their business goals. With out-of-the-box optimization statistics, schedule analysts can measure: 
 
-**How to measure it:**
+1.  Travel time versus working time, per schedule
 
-Measure optimization results by leveraging out-of-box optimization statistics
+2.  How many high priority jobs were scheduled
 
-1.  How much travel time vs working time per schedule
+3.  Travel time and work time per technician, per day
 
-2.  How many high priority jobs got scheduled
-
-3.  How much travel time, work time per tech per day
-
-4.  How many jobs didn’t get scheduled and missed scheduling window
+4.  How many jobs weren't scheduled
 
 > [!div class="mx-imgBorder"]
 ![Screenshot of RSO results bar graph comparing working time to travel time of optimized requirements](media/scheduling-adoption-guide-rso-working-time-vs-travel-time.png)
@@ -80,7 +77,7 @@ Measure optimization results by leveraging out-of-box optimization statistics
 > [!div class="mx-imgBorder"]
 ![Screenshot of RSO results stacked bar graph comparing priorities of optimized requirements](media/scheduling-adoption-guide-rso-bar-graph-priorities.png)
 
-Measure changes/executions after optimization
+After optimization, analysts can then review:
 
 1.  How many jobs were rescheduled manually after optimization and why
 
@@ -88,32 +85,26 @@ Measure changes/executions after optimization
 
 3.  How many jobs canceled
 
-In the beginning, we often see the use of overnight schedule creation using the Resource Scheduling Optimization (RSO) simulated mode. 
-
 RSO analytics allow schedule analysts to compare the simulation results and decide on the best RSO schedule for overnight processing. Like with the other adoption stages, all scheduled work should be actual work orders assigned to and completed by actual technicians.
 
-During this period, schedulers and schedule analysts can experiment and iterate on RSO schedules, allowing for adjustments to scope, goals, and timing of runs.
 
+### Best practice: manually handling exceptions after optimization 
 
-### Best practice: manually handle exceptions after RSO optimization 
+Exceptions are handled by the scheduler using manual and assisted scheduling. This means creating or changing bookings for new requirements, and adjusting the remaining schedule.
 
-During the day, exceptions are handled by the scheduler using manual and assisted scheduling. This means creating or changing bookings for new requirements, and adjusting the remaining schedule.
+Exception handling is useful in the following scenarios:
 
-**What it can do:** Using manual scheduling or scheduling assistant to handle exceptions during the day. This includes creating/changing bookings for new requirements and adjusting the remaining schedule via manual/assisted scheduling.
+- A work order is canceled and the technician has availability in the middle of day
 
-**When to do it:** Using manual scheduling or scheduling assistant to handle exceptions for the following scenarios:
+- The technician is delayed from previous work and can’t make next job on time
 
--   A work order is canceled and the technician has idle time in the middle of day
+- The technician must perform emergency work assigned by the dispatcher that conflicts with other jobs
 
--   Technician is delayed from previous work and can’t make next job on time
+To manually handle exceptions in cases like these: 
 
--   Technician must perform emergency work assigned by the dispatcher that is overlapping/conflicting with other jobs
+1. Drag and drop emergency work to the best resource (matched either by skill or by proximity to job)
 
-**How to do it:**
-
--   Drag & drop emergency work to the right resource (with the right skill or most close by)
-
--   Use schedule assistant to query the best resource for emergency work
+2. Use the schedule assistant to query the best resource for emergency work
 
 For more information on overnight scheduling, visit our topic on [types of scheduling](scheduling-capabilities.md).
 
@@ -123,27 +114,17 @@ Recommended time for this stage: 1-2 weeks
 
 As exceptions occur, using single resource optimization (SRO) from the schedule board allows schedulers to re-optimize the schedule for individual technicians. SRO should be done by the scheduler, with assistance from the schedule analyst if needed.
 
-**What it can do:** Emergencies and exceptions may happen anytime, SRO is to ensure these emergencies are addressed in time so businesses can meet their SLAs while technicians continue to have an efficient day. Again, this is to practice defining smart optimization scopes to handle unique scheduling problems.
+In contrast to an overnight optimization scenario, the scope is different for an SRO optimization. With SRO, the scope of the optimization ends when the current day ends; the purpose of SRO is to correct and re-optimize for unexpected schedule changes. Additionally, the "schedule within working hours" constraint should be removed from the associated optimization goal, as it's okay to push bookings a bit further outside of working hours. Lastly, set the "High Priority Requirements" as the first objective in order to optimize emergency work first if applicable.
 
-**When to do it:** Run single resource optimization to re-optimize a single resource's schedules for a specific time window (typically the remaining day). Most applicable in the following scenarios:
+During this adoption stage, analysts can see whether manual scheduling or SRO is working better (and then adjust accordingly) for a single resource’s schedule by:
 
--   A work order is canceled and the technician has idle time in the middle of day
+-   Comparing resource utilization between manual scheduling versus automatic SRO scheduling
 
--   Technician is delayed from previous work and can’t make next job on time
+-   Comparing travel time between manual scheduling versus automatic SRO scheduling
 
--   Technician must perform emergency work assigned by the dispatcher that is overlapping/conflicting with other jobs
+-   Comparing the number of high priority work scheduled by manual scheduling versus automatic SRO scheduling
 
-**How to do it:** In contrast to an overnight optimization scenario, the scope and goal of an SRO optimization would be different. The scope would be to the end of the current day as the purpose of SRO is to correct and re-optimize for unexpected schedule changes. Additionally, the "schedule within working hours" constraint should be removed from the associated optimization goal as it's okay to push bookings a bit further outside of working hours. Lastly, set the "High Priority Requirements" as the first objective in order to optimize emergency work first if applicable.
-
-Refer [here](single-resource-optimization.md) for details about how to use SRO.
-
-**How to measure it:** Measure single resource’s schedule between manually scheduling vs automatic SRO scheduling
-
--   Compare Resource utilization/idle between manual scheduling vs automatic SRO scheduling
-
--   Compare travel time between manual scheduling vs automatic SRO scheduling
-
--   Compare number of high priority work scheduled by manual scheduling vs automatic SRO scheduling
+Refer to our [topic on RSO](single-resource-optimization.md) for details about its use.
 
 Recommended time for this stage: 1-2 weeks
 
@@ -157,25 +138,13 @@ The schedule analyst typically leads this effort, with assistance from the sched
 
 ### Best practice: fully automatic scheduling for both overnight and exceptions 
 
-**What it can do:** Emergencies and exceptions might happen anytime, how can we ensure these emergencies get addressed in time while also ensuring SLAs are met and technician efficicency remains high? Again, this is to practice defining smart optimization scopes to handle unique scheduling problems.
+Emergencies and exceptions might happen anytime; how can we ensure these emergencies are addressed in time while also ensuring SLAs are met and technician efficiency remains high? Practice defining smart optimization scopes to handle your unique scheduling problems:
 
-**When to do it:** When emergencies or exceptions happen during the day and need to be addressed at the same day.
-
-**How to do it:**
-
-1.  Define a small schedule with a few resources who normally handle emergencies, pre-define a resource view with a fixed number of resources, or pre-define a resource view that can be dynamically changed based on business logic (e.g. an emergency flag on the resource entity that is toggled to on/off with a workflow).
-
-2. Set "Emergency" schedule to run every hour to pick up new emergency requirements and re-shuffle existing booking
-
-    OR
-
-Leverage Dynamics workflow capability: when an emergency/exception happens, use a workflow to call the RSO **run now** action trigger optimization. This is only applicable if emergencies do not happen often each day for a given scope.
-
-**How to measure it:**
-
--   Verify if all of your new emergency requirements get scheduled as expected
-
--   Verify if resources have reasonable routes based on travel time and schedule board map
+1.  Define a small schedule with a few resources who normally handle emergencies.
+2. Pre-define a resource view with a fixed number of resources, or pre-define a resource view that can be dynamically changed based on business logic (for example, an emergency flag on the resource entity that is toggled to on/off with a workflow).
+3. Set "Emergency" schedule to run every hour to pick up new emergency requirements and re-shuffle existing booking. You can also use a workflow to call the RSO **run now** action trigger optimization when emergencies occur. Note that this will only work if emergencies aren't frequent a given scope.
+4. Verify that your new emergency requirements get scheduled as expected
+5. Verify that resources have reasonable routes based on travel time and schedule board map
 
 Recommended time for this stage: 1-2 weeks
 
