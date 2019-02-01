@@ -68,7 +68,7 @@ The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_cr
 > [!TIP]
 >  It is possible to debug a database deployed plug-in. The compiled plug-in assembly's symbol file (.pdb) must be copied to the server's \<*crm-root*>\Server\bin\assembly folder and [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] must then be restarted. After debugging has been completed, you must remove the symbol file and reset IIS to prevent the process that was executing the plug-in from consuming additional memory.  
   
- For more information about debugging a plug-in using the Plug-in Profiler tool, see [Analyze Plug-in Performance](analyze-plugin-performance.md).  
+ For more information about debugging a plug-in using the Plug-in Profiler tool, see [Debug a plug-in](/powerapps/developer/common-data-service/tutorial-debug-plug-in).  
   
 <a name="bkmk_sandboxplugin"></a>   
 ## Debug a sandboxed plug-in  
@@ -92,10 +92,10 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
   
 3. Follow the instructions in steps 2 through 4 presented at the beginning of this topic.  
   
-   For more information about debugging a plug-in using the Plug-in Profiler tool, see [Analyze Plug-in Performance](analyze-plugin-performance.md).  
+   For more information about debugging a plug-in using the Plug-in Profiler tool, see [Debug a plug-in](/powerapps/developer/common-data-service/tutorial-debug-plug-in).  
   
 ### See also  
  [Plug-in Development](plugin-development.md)   
- [Analyze Plug-in Performance](analyze-plugin-performance.md)   
+ [Debug a plug-in](/powerapps/developer/common-data-service/tutorial-debug-plug-in)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   
  [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in.md) 

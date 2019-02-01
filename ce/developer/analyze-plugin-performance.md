@@ -34,7 +34,7 @@ The tool can be used in either the debug or replay mode. Each of these modes is 
 ## Debug a plug-in using the plug-in profiler
 
 1. Run the Plug-in Registration tool. [!INCLUDE [proc-download-plugin-registration-tool](../includes/proc-download-plugin-registration-tool.md)]
-2. Click **CREATE NEW CONNECTION** to connect to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server and organization. For more information on connecting to a server and organization, refer to the SDK topic: [Walkthrough: Register a Plug-in using the Plug-in Registration Tool](walkthrough-register-plugin-using-plugin-registration-tool.md).
+2. Click **CREATE NEW CONNECTION** to connect to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server and organization. For more information on connecting to a server and organization, refer to the SDK topic: [Register plug-in](/powerapps/developer/common-data-service/tutorial-write-plug-in#register-plug-in).
 3. Register a plug-in and step on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server. Keep a copy of the debug compiled plug-in assembly on the computer where you are running the tool.
 4. In the toolbar for the target organization, select **Install Profiler**. You will now see a **Plug-in Profiler** node in the list.
 5. Select a plug-in step and click **Start Profiling** in the toolbar to begin profiling. You can choose how the profiler executes in the displayed **Profiler Settings** dialog.

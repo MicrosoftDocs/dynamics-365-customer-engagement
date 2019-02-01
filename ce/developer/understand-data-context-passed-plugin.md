@@ -120,7 +120,7 @@ There are some events where images aren’t available. For example, only synchro
   
 ### See also 
  [Plug-in Development](plugin-development.md)   
- [Handle Exceptions in Plug-ins](handle-exceptions-plugins.md)   
+ [Handle exceptions in plug-ins](/powerapps/developer/common-data-service/handle-exceptions)   
  [Event Execution Pipeline](event-execution-pipeline.md)   
  [Use Messages (Request and Response Classes) with the Execute Method](org-service/use-messages-request-response-classes-execute-method.md)   
  [Use IOrganizationService for Your Organization](org-service/use-organization-service-read-write-data-metadata.md)   

@@ -104,7 +104,7 @@ public class MyPlugin: IPlugin
   
  The platform provides the correct Web service URLs and network credentials when you obtain the organization Web service reference from the service provider. Instantiating your own Web service proxy is not supported because it creates deadlock and authentication issues. After you have the organization service reference, you can use it to make method calls to the organization Web service. You can retrieve or change business data in a single [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization by issuing one or more message requests to the Web service. For more information about message requests, see [Use Messages (Request and Response Classes) with the Execute Method](org-service/use-messages-request-response-classes-execute-method.md).  
   
- A typical plug-in should access the information in the context, perform the required business operations, and handle exceptions. For more information about handling exceptions in a plug-in, refer to [Handle Exceptions in Plug-ins](handle-exceptions-plugins.md). A more complete plug-in sample is available in the topic [Sample: Basic Plug-in](sample-create-basic-plugin.md).  
+ A typical plug-in should access the information in the context, perform the required business operations, and handle exceptions. For more information about handling exceptions in a plug-in, refer to [Handle exceptions in plug-ins](/powerapps/developer/common-data-service/handle-exceptions). A more complete plug-in sample is available in the topic [Sample: Basic Plug-in](sample-create-basic-plugin.md).  
   
 > [!IMPORTANT]
 >  For improved performance, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] caches plug-in instances. The plug-in's <xref:Microsoft.Xrm.Sdk.IPlugin.Execute(System.IServiceProvider)> method should be written to be stateless because the constructor is not called for every invocation of the plug-in. Also, multiple system threads could execute the plug-in at the same time. All per invocation state information is stored in the context, so you should not use global variables or attempt to store any data in member variables for use during the next plug-in invocation unless that data was obtained from the configuration parameter provided to the constructor. Changes to a plug-ins registration will cause the plug-in to be re-initialized.  
@@ -192,7 +192,7 @@ context.InputParameters["Target"] = new Account() { Name = "MyAccount" }; // WRO
  [Understand the execution context](/powerapps/developer/common-data-service/understand-the-data-context.md)  
  [Write a Custom Azure-aware Plug-in](write-custom-azure-aware-plugin.md)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   
- [Handle Exceptions in Plug-ins](handle-exceptions-plugins.md)   
+ [Handle exceptions in plug-ins](/powerapps/developer/common-data-service/handle-exceptions)   
  [Sample: Basic Plug-in](sample-create-basic-plugin.md)   
  [Sample: Web Access from a Sandboxed Plug-in](sample-web-access-sandboxed-plugin.md)   
  [Run the Code Generation Utility](org-service/create-early-bound-entity-classes-code-generation-tool.md#bkmk_RuntheCodeGenerationUtility)   

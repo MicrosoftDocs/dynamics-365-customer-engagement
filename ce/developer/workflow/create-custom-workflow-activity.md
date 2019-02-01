@@ -98,7 +98,7 @@ This topic describes how to create a custom workflow activity and register it fo
   
  To specify the name and group name for a custom workflow activity, use the `PluginType.Name` and `PluginType.WorkflowActivityGroupName` attributes when you register the custom workflow activity assembly. For more information about registering custom workflow activities, see [Registering the Workflow Assembly](register-use-custom-workflow-activity-assembly.md). If the `PluginType.Name` and `PluginType.WorkflowActivityGroupName` attributes are set to **null**, the custom activity is hidden from the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] workflow designer and is only accessible from XAML workflows.  
   
- If you are using the Plug-in Registration tool to register the custom workflow activity assembly, you can specify appropriate values in the **Name** and **WorkflowActivityGroupName** boxes, under the **Editable** region. For more information about using the Plug-in Registration tool, see [Walkthrough: Register a plug-in using the plug-in registration tool](../walkthrough-register-plugin-using-plugin-registration-tool.md).  
+ If you are using the Plug-in Registration tool to register the custom workflow activity assembly, you can specify appropriate values in the **Name** and **WorkflowActivityGroupName** boxes, under the **Editable** region. For more information about using the Plug-in Registration tool, see [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in).  
   
  ![Specify the Group Name and Name while registering](../media/process-name-workflow-activity.png "Specify the Group Name and Name while registering")  
   
