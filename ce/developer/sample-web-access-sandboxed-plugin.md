@@ -41,6 +41,6 @@ Download the sample: [Work with plug-ins](https://code.msdn.microsoft.com/Sample
   
 ### See also  
  [Plug-in Development](plugin-development.md)   
- [Write a Plug-in](write-plugin.md)   
+ [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in.md)   
  <xref:Microsoft.Xrm.Sdk.IPlugin>   
  <xref:Microsoft.Xrm.Sdk.ITracingService>

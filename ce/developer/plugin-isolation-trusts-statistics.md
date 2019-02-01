@@ -72,7 +72,7 @@ By changing this registry key value, you can change the web access for sandboxed
 ### See also
   
 [Introduction to the Event Framework](introduction-event-framework.md)<br />
-[Write a Plug-in](write-plugin.md)<br />
+[Write a plug-in](/powerapps/developer/common-data-service/write-plug-in.md)<br />
 [Create a Custom Workflow Activity](workflow/create-custom-workflow-activity.md)<br />
 [Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)<br />
 [PluginTypeStatistic Entity](entities/plugintypestatistic.md)<br />

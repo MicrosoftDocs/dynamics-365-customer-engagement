@@ -78,4 +78,4 @@ You can automatically set a default price level (price list) for an opportunity,
  [Territory Entity](entities/territory.md)   
  [Opportunity Entities](opportunity-entities.md)   
  [Quote, order, and invoice entities](quote-order-invoice-entities.md)   
- [Write a Plug-in](write-plugin.md)
+ [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in.md)
