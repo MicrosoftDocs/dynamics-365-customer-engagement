@@ -107,6 +107,8 @@ For leads associated with an account rather than a single contact, the insights 
 
 To view segment insights, go to **Marketing** > **Customers** > **Segments**, select a segment record, and then open its **Insights** tab. Here you can see how the membership of your selected segment has changed over time.
 
+<a name="journey-insights"></a>  
+
 ## Customer journey insights
 
 To view customer journey insights, go to **Marketing** > **Marketing execution** > **Customer journeys**, select a journey, and then open its **Insights** tab. Insights are only available for customer journeys that are (or have been) live.
