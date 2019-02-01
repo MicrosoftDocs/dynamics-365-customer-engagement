@@ -50,5 +50,5 @@ ms.custom:
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
-[Create chat authentication settings](create-chat-auth-settings.md) <br>
+[Create chat authentication settings](create-chat-auth-settings.md) <br> 
 [Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)
