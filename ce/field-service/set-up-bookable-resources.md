@@ -83,7 +83,9 @@ For example, the resource in the following screenshot is a field techncian at yo
 <a name="BKMK_AddWorkHours"></a>   
 ## Add work hours  
   
-1.  Once the resource has been created, at the top, click the arrow next to the resource name, and then click **Work Hours**.  
+1.  Once the resource has been created:
+    - In the classic interface, select the arrow next to the resource name, and choose **Work Hours**.
+    - In the unified client interface, select **Show Working Hours** at the top of the form. 
   
 2.  Click the **Set-Up** drop-down list and choose one of the following:  
   
