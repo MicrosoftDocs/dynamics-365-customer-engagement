@@ -30,7 +30,7 @@ search.app:
 The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] apps.
 
 > [!NOTE]
-> An alternate method to debug a plug-in that executes in the sandbox on any deployment type is to use the tracing service. For more information about tracing see [Logging and tracing](/powerapps/developer/common-data-service/logging-tracing.md). For more information about debugging, including a tutorial, see the CDS for Apps topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in.md).
+> An alternate method to debug a plug-in that executes in the sandbox on any deployment type is to use the tracing service. For more information about tracing see [Logging and tracing](/powerapps/developer/common-data-service/logging-tracing.md). For more information about debugging, including a tutorial, see the Common Data Service (CDS) for Apps topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in.md).
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 <a name="bkmk_debugaplugin"></a>   

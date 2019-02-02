@@ -28,7 +28,7 @@ Impersonation is used to execute business logic (custom code) on behalf of a [!I
   
  Plug-ins not executed by either the sandbox or asynchronous service execute under the security account that is specified on the **Identity** tab of the **CRMAppPool Properties** dialog box. The dialog box can be accessed by right-clicking the **CRMAppPool** application pool in [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] Manager and then clicking **Properties** in the shortcut menu. By default, CRMAppPool uses the Network Service account identity but this can be changed by a system administrator during installation. If the **CRMAppPool** identity is changed to a system account other than Network Service, the new identity account must be added to the **PrivUserGroup** group in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Change a Microsoft Dynamics 365 for Customer Engagement apps service account or AppPool identity](https://technet.microsoft.com/library/hh699751.aspx) for more detailed instructions.
 
-Additional information about using impersonation with plug-ins can be found in the CDS for Apps topic [Impersonate a user](/powerapps/developer/common-data-service/impersonate-a-user.md).
+Additional information about using impersonation with plug-ins can be found in the Common Data Service (CDS) for Apps topic [Impersonate a user](/powerapps/developer/common-data-service/impersonate-a-user.md).
   
 > [!IMPORTANT]
 > For plug-ins executing offline, any entities created by the plug-in are owned by the logged on user. Impersonation in plug-ins is not supported while in offline mode.  

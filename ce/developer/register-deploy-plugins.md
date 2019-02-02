@@ -34,7 +34,7 @@ Plug-ins and custom workflow activities are custom code that you develop to exte
 > [!IMPORTANT]
 > Do not register any plug-in or custom workflow activity unless it is obtained from a reliable and trusted source.
 
- For more information about registering plug-ins, see the CDS for Apps topic [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in.md).
+ For more information about registering plug-ins, see the Common Data Service (CDS) for Apps topic [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in.md).
 
 <a name="bkmk_pluginstor"></a>
 
