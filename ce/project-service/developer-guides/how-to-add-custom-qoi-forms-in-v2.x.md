@@ -1,6 +1,6 @@
 ---
-title: How to add new custom forms to Opportunity, Quote, Order or Invoice entity (Project Service 2.x)
-description: This topic describes how to add custom forms to Opportunity, Quote, Order or Invoice entity for Project Service 2.x
+title: How to add new custom forms for Opportunity, Quote, Order or Invoice entity (Project Service 2.x)
+description: This topic describes how to add custom forms for Opportunity, Quote, Order or Invoice entity in Project Service 2.x
 author: makk
 manager: rchawla
 ms.custom:
@@ -18,7 +18,7 @@ search.app:
     - D365PS
 ---
 
-# How to add new custom forms to Opportunity, Quote, Order or Invoice entity (Project Service 2.x)
+# How to add new custom forms for Opportunity, Quote, Order or Invoice entity (Project Service 2.x)
 
 ## Type field (msdyn_ordertype)
 

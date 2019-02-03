@@ -1,6 +1,6 @@
 ---
-title: Changes in the Pre-Sales area (Project Service 3.0)
-description: This topic describes solution changes for Project Service 3.0 in the Pre-Sales area
+title: Changes in the Pre-Sales area (Project Service 3.x)
+description: This topic describes solution changes for Project Service 3.x in the Pre-Sales area
 author: makk
 manager: rchawla
 ms.custom:
@@ -19,7 +19,7 @@ search.app:
 ---
 
 
-# Changes in the Pre-Sales area (Project Service 3.0)
+# Changes in the Pre-Sales area (Project Service 3.x)
 ## Parent-Child relationships for Sales Document, Sales Document Line, Sales Document Line Detail entities
 
 In the older versions of Project Service solution due to platform limitations existing at that time some of the relationships between sales documents, sales document lines and sales document line detail entities were implemented through string fields that would hold a string representation of GUID of the related entity. That also required plenty of custom code on the server and client sides of the solution to make those type of relationships work similar to regular CRM entity relationships and make string fields act like lookup fields.
@@ -55,7 +55,7 @@ Chargeability view has been removed, relevant artifacts have been deprecated.
 Custom grid controls for showing Quote Line Details on the 'Project Information' form for Quote Line have been removed, relevant artifacts have been deprecated.  
 Custom grid controls for showing Project Contract Line Details on the 'Project Information' form for Sales Order Line have been removed, relevant artifacts have been deprecated.  
 
-> For the full list of deprecated resources see the [List of Web Resources Deprecated in Project Service v3.0](../developer-guides/webresources-deprecated-in-v3.0.md)
+> For the full list of deprecated resources see the [List of Web Resources Deprecated in Project Service v3.x](../developer-guides/webresources-deprecated-in-v3.x.md)
 
 ## Introduction of the Unified Client Interface App Module
 With the introduction of UCI App Modules the Project Service site map entries have been removed from the system.  
@@ -66,6 +66,6 @@ The following web resources got deprecated:
 - msdyn_\SalesDocument\SalesDocumentFormLoader.js
 - msdyn_\SalesDocument\PSSalesDocumentCustomFormIds.js
 
-> For the full list of deprecated resources see the [List of Web Resources Deprecated in Project Service v3.0](../developer-guides/webresources-deprecated-in-v3.0.md)
+> For the full list of deprecated resources see the [List of Web Resources Deprecated in Project Service v3.x](../developer-guides/webresources-deprecated-in-v3.x.md)
 
 

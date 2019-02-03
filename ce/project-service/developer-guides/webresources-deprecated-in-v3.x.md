@@ -1,5 +1,5 @@
 ---
-title: List of web resources deprecated in Project Service 3.0
+title: List of web resources deprecated in Project Service 3.x
 description: This topic describes the web resources that are no longe in use starting Project Service 3.0
 author: makk
 manager: rchawla
@@ -18,7 +18,7 @@ search.app:
     - D365PS
 ---
 
-# List of web resources deprecated in Project Service 3.0 
+# List of web resources deprecated in Project Service 3.x 
 
 With the uptake of new client interface and other changes that happened to the Project Service solution some of the solution web resources became no longer in use and as a result they are deprecated going forward.
 

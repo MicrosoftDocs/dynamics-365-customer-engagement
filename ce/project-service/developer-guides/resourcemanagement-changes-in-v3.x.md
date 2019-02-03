@@ -1,6 +1,6 @@
 ---
-title: Changes in the Resource Management area (Project Service 3.0)
-description: This topic describes solution changes for Project Service 3.0 in the Resource Management area
+title: Changes in the Resource Management area (Project Service 3.x)
+description: This topic describes solution changes for Project Service 3.x in the Resource Management area
 author: makk
 manager: rchawla
 ms.custom:
@@ -18,7 +18,7 @@ search.app:
     - D365PS
 ---
 
-# Changes in the Resource Management area (Project Service 3.0)
+# Changes in the Resource Management area (Project Service 3.x)
 
 ## Project estimates
 Starting Project Service 3.0, estimates will be based on **msdyn_resourceassignment** (Resource Assignment), instead of being based on the **msdyn_projecttask** (Project Task). The Assignments have become the source of truth for the task schedule and pricing. 
