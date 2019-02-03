@@ -51,6 +51,8 @@ Looking for resources to help plan your implementation? Check out these download
  
  [Reporting guide](../project-service/implementation-guides/reporting-guide.md)
 
+ [Notes for developers](../project-service/developer-guides/overview-dev-notes-v3.x.md)
+
 ## Guidance for earlier versions (app version 2.x or 1.x)  
  [Administrator guide](../project-service/admin-guide.md)  
 
@@ -63,8 +65,10 @@ Looking for resources to help plan your implementation? Check out these download
  [Time, expense, and collaboration](../project-service/time-expense-collaboration-guide.md)  
 
  [White papers (app version 2.x or 1.x)](../project-service/white-papers.md)
+
+ [Notes for developers (app version 2.x)](../project-service/developer-guides/overview-dev-notes-v2.x.md)
  
  ## Watch a 2-minute overview video
- <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../project-service/media/project-service-intro-video.png "ProjectService_IntroVideo")](http://go.microsoft.com/fwlink/p/?LinkId=799457)  
+ <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../project-service/media/project-service-intro-video.png "ProjectService_IntroVideo")](http://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
