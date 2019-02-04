@@ -41,7 +41,7 @@ To create a project schedule, create a project calendar template that defines th
   - **Work Schedule for One Day**
   - **Time Off**
 
-> ![Screenshot of schedule options](media/project-13.PNG)
+> ![Screenshot of schedule options](media/project-13.png)
 
 4. Click **New Weekly Schedule** and set options for this resource schedule. You can set a recurring weekly schedule, daily hour parameters, business closures, and date range.
 5. Click **Save**, and then click **Close**. 
