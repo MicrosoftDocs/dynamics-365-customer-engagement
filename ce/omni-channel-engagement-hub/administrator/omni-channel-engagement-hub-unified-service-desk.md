@@ -41,17 +41,17 @@ To learn how to install Unified Serivce Desk, see [Install Unified Service Desk]
 
 Make sure you computer meets all requirements before you install the Unified Service Desk client application. More information: [Unified Service Desk system requirements](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
 
-## Configure Edge Process with Unified Service Desk
+## Set up Edge Process with Unified Service Desk
 
-The Edge Process is used to host web applications in Unified Service Desk. More information: [Edge Process (Preview)](/dynamics365/customer-engagement/unified-service-desk/edge-process)
+The Edge Process is used to host web applications in Unified Service Desk client application. More information: [Edge Process (Preview)](/dynamics365/customer-engagement/unified-service-desk/edge-process)
 
-## Configure Unified Service Desk recommended settings for Internet Explorer
+## Set up Unified Service Desk recommended settings for Internet Explorer
 
-The Internet Explorer process is used to host web applications in Unified Service Desk. When you use Omni-channel Engagement Hub on Unified Service Desk client application, certain settings are recommended for Internet Explorer for optimal performance.
+The Internet Explorer process is used to host web applications in Unified Service Desk client application. When you use Omni-channel Engagement Hub on Unified Service Desk client application, certain settings are recommended for Internet Explorer for optimal performance.
 
 To know more information about manually configuring the settings of Internet Explorer, see [Internet Explorer setting guidelines](/dynamics365/customer-engagement/unified-service-desk/admin/internet-explorer-settings-bpa).
 
-Configure the Internet Explorer Settings on the every client desktops for the following areas :
+Set up the Internet Explorer Settings on the every client desktops for the following areas :
 
  - Enable popups for trusted sources 
  - Enable Protected Mode option
