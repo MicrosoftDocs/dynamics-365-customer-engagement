@@ -2,7 +2,7 @@
 title: "Change the color scheme or add a logo  in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to change the color scheme or add a logo to match your organization’s brand"
 s.custom: 
-ms.date: 11/08/2018
+ms.date: 02/04/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -83,13 +83,15 @@ The following screenshot shows the default theme setup.
  We cloned the default theme and changed the colors. The following screenshots show the new colors for navigation and highlighting. You can also choose a new logo for product.  
   
  The following screenshot shows the new navigation color.  
-  
- ![Gentle green theme colors](../customize/media/theme-gentle-green.png "Gentle green theme colors")  
+ 
+> [!div class="mx-imgBorder"] 
+> ![](../customize/media/theme-gentle-green.png  "Gentle green theme colors") 
   
  The following screenshot shows the account entity grid with the new highlight color.  
-  
- ![Gentle green theme account grid](../customize/media/themes-gentle-green-account-grid.png "Gentle green theme account grid")  
-  
+ 
+> [!div class="mx-imgBorder"] 
+> ![](../customize/media/themes-gentle-green-account-grid.png  "Gentle green theme account grid")
+   
 <a name="Publish"></a>   
 ## Preview and publish a theme  
  To preview and publish a theme, do the following steps:  
@@ -102,9 +104,10 @@ The following screenshot shows the default theme setup.
   
   The following screenshot shows the buttons on the command bar for preview and publishing.  
   
-  ![Use preview buttons to enter&#47;exit the preview mode](../customize/media/themes-preview-buttons.PNG "Use preview buttons to enter/exit the preview mode")  
-  
-<a name="BestPracticies"></a>   
+  > [!div class="mx-imgBorder"] 
+  > ![](../customize/media/themes-preview-buttons.PNG  "Use preview buttons to enter/exit the preview mode")
+
+  <a name="BestPracticies"></a>   
 ## Best practices  
  Following are the recommendations for designing theme contrasts and choosing colors.  
   
