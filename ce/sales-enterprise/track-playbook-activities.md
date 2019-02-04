@@ -46,15 +46,15 @@ To see the activities created by the playbook when the **Track progress** field 
 
     ![playbook record with associated playbook activities](media/playbook-record-with-associated-activities.png "Playbook record with associated playbook activities")  
 
-    For example, it shows when the playbook was launched, how many total activities it has, how many of the activities are completed, and what’s the estimated close date. It also shows all the related playbook activities in the **Playbook activities** section. After you are done working on these activities, mark them as completed.
+    For example, it shows when the playbook was launched, how many total activities it has, how many of the activities are completed, and the estimated close date. It also shows all the related playbook activities in the **Playbook activities** section. After you are done working on these activities, mark them as completed.
 
-    To see the activities if the **Track progress** field of the playbook template is set to **No**, in the calling record, see the Timeline section.
+    To see the activities if the **Track progress** field of the playbook template is set to **No**, in the calling record, see the **Timeline** section.
 
     Alternately, in the calling record, select the **Related** tab, and then select **Activities**.
 
     ![activities tab on the opportunity record](media/activities-tab-opportunity-record.png "Activities tab on the Opportunity record")  
 
-    This view shows all the activities for the calling record along with the ones created when a playbook was launched. However, it doesn’t show how many are created in the context of a playbook.
+    This view shows all the activities for the calling record along with the activities created when a playbook was launched. However, it doesn’t show how many are created in the context of a playbook.
 
 
 ## Preview: View or download documents associated with an activity
@@ -66,21 +66,19 @@ To see the activities created by the playbook when the **Track progress** field 
 > - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)] 
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
-If a sales manager has added sales brochures or training docs to a playbook activity, as a sales rep you can refer to these docs while you are working the activity to ensure you have all the details at your hand.
+If a sales manager has added sales brochures or training docs to a playbook activity, as a sales rep you can refer to these docs while you are working on the activity to ensure you can quickly access any details you need .
 
 > [!NOTE]
 
 > Documents are available only for task and appointment activities associated with a playbook activity. 
 
-To view or download a document
+To view or download a document, in the activity form, select the **Related** tab, and then select **Documents**.
 
-1.	In the activity form, select the **Related** tab, and then select **Documents**.
+To download a document: 
+* In the **Documents** list, select a row and select **Download**.
 
-2.	To download a document, in the **Documents** list, select a row and select **Download**.
-
-  OR
-
-3.	To view a document, in the **Documents** list, select the document name.
+To view a document:
+* in the **Documents** list, select the document name.
 
 
 ### See also
