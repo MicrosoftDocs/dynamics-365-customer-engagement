@@ -326,6 +326,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 7. The Status column will indicate your update is approved.  
 
 <a name="BKMK_UpdateStatus"></a>   
+
 ## Update status  
  To better track and manage your Customer Engagement apps updates, we added more granular update status to the Updates page.  At the date and time of your update, the status for your instance will show **Updating instance**.  
 
@@ -343,7 +344,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 
 > [!NOTE]
 > **Storage Utilization Calculation**
-> When an instance enters the **Queued (Not Started)** state, that instance’s storage is temporarily omitted from the **Total Storage Used** calculation. Once the database update is complete, **Total Storage Used** calculation will be updated to re-include that instance's storage total. 
+> When an instance enters the **Queued (Not Started)** state, that instance’s storage is temporarily omitted from the **Total Storage Used** calculation. Once the database update is complete, **Total Storage Used** calculation will be refreshed to re-include that instance's storage total. 
 
 
 <a name="BKMK_SendEmailNotifications"></a>   
