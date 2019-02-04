@@ -28,6 +28,8 @@ Emojis are not supported for the customer chat widget.
 ## Context variable support for duplicate and delete dependency check
 Context variable does not support duplicity check and dependency on delete. 
 
+While creating a context variable, the system does not perform duplicate check in the workstream. Also, while deleting a context varibale, the system does not perform a check for the dependency.
+
 ## Support for multiple channel providers
 If your organization have deployed a third party channel provider using the Dynamics 365 Channel Integration Framework, and when you want to use Omni-channel Engagement Hub in the same organization, the Omni-channel solution overrides the Channel Integration Framework solution as there is no support for multiple channel providers.
  
