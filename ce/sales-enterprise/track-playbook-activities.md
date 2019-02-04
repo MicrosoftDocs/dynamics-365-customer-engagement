@@ -25,7 +25,7 @@ topic-status: Tech Reviewing
 
 When a playbook is launched, its related activities are created and associated with the record the playbook is launched from (also called the calling record). You must complete these activities to ensure every event is dealt with consistently.
 
-If the playbook template used for the playbook has its **Track progress** field set to **Yes**, the activities are created under the playbook record under the calling record. If the **Track progress** field is set to **No**, the activities are created directly under the calling record.
+If the playbook template used for the playbook has its **Track progress** field set to **Yes**, the activities are created under a playbook record that is under the calling record. If the **Track progress** field is set to **No**, the activities are created directly under the calling record.
 
 
 To see the activities created by the playbook when the **Track progress** field in the playbook template is set to **Yes**:
@@ -53,20 +53,22 @@ To see the activities created by the playbook when the **Track progress** field 
     Alternately, in the calling record, select the **Related** tab, and then select **Activities**.
 
     ![activities tab on the opportunity record](media/activities-tab-opportunity-record.png "Activities tab on the Opportunity record")  
-
-    This view shows all the activities for the calling record along with the activities created when a playbook was launched. However, it doesn’t show how many are created in the context of a playbook.
+ <!--Editing comment:  The info in paragraph below is unclear to me. Suggested changes: 1st sentence: Delete "when" and replace with "since"? "The Open Activity Associated View lists all the activities for the calling record along with the activities created since the playbook was launched."
+Change 2nd sentence, if this is accurate, to: "However, this view doesn't show the total number of activities that have been created in the context of a playbook.-->  
+ 
+   This view shows all the activities for the calling record along with the activities created when a playbook was launched. However, it doesn’t show how many are created in the context of a playbook.
 
 
 ## Preview: View or download documents associated with an activity
 
-[This section is a pre-release documentation and is subject to change.]
+[This section is a prerelease documentation and is subject to change.]
 
 > [!NOTE]
 
 > - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)] 
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
-If a sales manager has added sales brochures or training docs to a playbook activity, as a sales rep you can refer to these docs while you are working on the activity to ensure you can quickly access any details you need .
+If a sales manager has added sales brochures or training docs to a playbook activity, as a sales rep you can refer to these docs while you are working on the activity to ensure you can quickly access any details you need.
 
 > [!NOTE]
 
