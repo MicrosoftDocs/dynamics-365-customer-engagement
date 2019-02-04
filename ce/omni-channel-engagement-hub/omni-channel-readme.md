@@ -19,7 +19,7 @@ ms.custom:
 
 The topic explains the known issues and limitations of Omni-channel Engagement Hub.
 
-## Agents recieve delayed conversation information
+## Agents recieve delayed when the chat ends
 Customer ends the chat by selecting the Close **X** button on the chat widget. Closing the chat ends the chat without a confirmation message. After the customer closes the chat, agent receives the chat information with a delay.
 
 ## Support for emojis
