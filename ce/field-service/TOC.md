@@ -38,7 +38,10 @@
 ## [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Scheduling
-## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md) 
+## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)
+## [Types of scheduling](scheduling-capabilities.md)
+## [Scheduling personas](scheduling-roles-personas.md)
+## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
@@ -86,11 +89,14 @@
 ### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
 ### [Payment terms](set-up-payment-terms.md)
 
-# [Resource Scheduling Optimization (RSO) add-in](rso-overview.md)
+# Resource Scheduling Optimization (RSO) add-in
+## [Overview](rso-overview.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
-## [Schedule optimization](rso-schedule-optimization.md)
+## Running RSO
+### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)
+### [Booking lock options](booking-lock-options.md)
 ### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
 

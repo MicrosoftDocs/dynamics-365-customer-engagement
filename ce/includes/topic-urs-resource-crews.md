@@ -102,15 +102,15 @@ When using the schedule assistant, each crew member can appear in results as non
 
 If you select the crew resource itself and book the crew, the crew and its members will all be booked. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing Schedule Assistant results where the crew is an option as are other dynamically assembled teams](../common-scheduler/media/scheduling-crew-schedule-assistant.png)
-
 
 ### 6. Schedule the crew with the schedule assistant (requirement group)
 
 The primary use case for scheduling crews is when you have a set of requirements that need to be done together. Therefore, a crew, which consists of multiple resources, may be a perfect fit. 
 
 The schedule assistant can return a both a group of individual resources and a crew to complete a requirement group. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing Schedule Assistant results where the crew is an option as are other dynamically assembled teams](../common-scheduler/media/scheduling-crew-schedule-assistant.png)
 
 When the schedule assistant searches, it assembles a team of resources in which there is a relevant resource for every requirement in the requirement group. The crew resource itself is just a container and is not considered a resource when it comes to matching. Each individual resource needs to match with a requirement in the requirement group.
 

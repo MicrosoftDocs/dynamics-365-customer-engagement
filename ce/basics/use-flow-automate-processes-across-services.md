@@ -1,7 +1,7 @@
 ---
 title: "Use Microsoft Flow to automate processes across services (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 01/31/2019
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -48,11 +48,11 @@ Microsoft Flow lets you create automated processes between your favorite apps an
 ## Run an embedded flow from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]  
  You can run a flow from views, forms, and Advanced Find.  
   
-1. Select the records that you want to run the flow on, such as a selection of account records from the Active Accounts view.  
+1. Select the records that you want to run the flow on. Notice that you won’t see any flows run until you select one or more records or have a record open.  
   
 2. On the Actions toolbar, select **Flows**, and then under **Run** select the flow that you want to run.  
   
-    Flows that include actions for entities associated with your current location in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] app appear under Run on the Flow menu. For example, a flow that triggers whenever an account record is selected will appear in the Active Accounts view.  
+    Flows that include actions for entities associated with your current location in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] app appear under Run on the Flow menu. Only flows with the **When a record is selected** trigger for an account record will appear in the **Active Accounts** view.  
   
    > [!TIP]
    >  If you don’t see any flows under Run, click **Login to flow**.  

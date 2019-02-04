@@ -26,7 +26,7 @@ search.app:
 
 The team is excited to announce our newest updates! Ranging from the Unified Interface framework, data compliance, all the way to more powerful search queries for resource scheduling, and more. You asked, we listened.
 
-Take a look at the [Spring '18 Release Notes for Business Applications](https://docs.microsoft.com/en-us/business-applications-release-notes/April18/dynamics365-field-service/whats-new-field-service) to see our newest enhancements and additions.
+Take a look at the [October '18 Release Notes for Business Applications](https://docs.microsoft.com/business-applications-release-notes/October18/service/field-service/planned-features) to see our newest enhancements and additions.
 
 ## In development
-To see what we have planned in the near future, head over to the [October '18 Release Notes for Business Applications](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/field-service/planned-features).
+To see what we have planned in the near future, head over to the [April '19 Release Notes for Business Applications](https://docs.microsoft.com/business-applications-release-notes/April19/service/dynamics365-field-service/planned-features).
