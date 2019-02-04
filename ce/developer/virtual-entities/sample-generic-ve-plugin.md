@@ -96,7 +96,7 @@ public class DropboxRetrieveMultiplePlugin : IPlugin
 
     public async Task<EntityCollection> SearchFile(DropboxClient dbx, SearchArg arg)
     {
-        EntityCollection ec = new EntityCollection();
+        EntityCollection ec = new EntityCollection { EntityName = "new_dropbox" };
         var list = await dbx.Files.SearchAsync(arg);
         foreach (var item in list.Matches)
         {
