@@ -1,4 +1,4 @@
-# Lines starting with '#' are comments.
+@Nkrb @KumarVivek @phecke# Lines starting with '#' are comments.
 # Each line is a file pattern followed by one or more owners.
 
 /ce/admin/                                    @jimholtz
@@ -8,21 +8,21 @@
 /ce/customer-insights/	                      @jimholtz
 /ce/customer-service/                         @shubhadaj
 /ce/customize/	                              @Mattp123
-/ce/developer/	                              @JimDaly
+/ce/developer/	                              @JimDaly @Nkrb @KumarVivek @phecke
 /ce/field-service/	                          @shellyhaverkamp
 /ce/gamification/	                            @shellyhaverkamp
 /ce/guidance/	                                @JimDaly	
 /ce/linkedin/	                                @shellyhaverkamp
 /ce/live-assist/	                            @shellyhaverkamp
 /ce/marketing/	                              @shellyhaverkamp
-/ce/mobile-app/	                              @jimholtz
-/ce/outlook-app/	                            @jimholtz
+/ce/mobile-app/	                              @mduelae @KumarVivek
+/ce/outlook-app/	                            @mduelae @KumarVivek
 /ce/portals/	                                @shubhadaj
 /ce/project-service/	                        @shellyhaverkamp
 /ce/sales-enterprise/	                        @shubhadaj
-/ce/snippets/	                                @JimDaly
+/ce/snippets/	                                @Nkrb @KumarVivek @phecke
 /ce/social-engagement/	                      @shellyhaverkamp
 /ce/unified-service-desk/	                    @shubhadaj
 /ce/voice-of-customer/	                      @shubhadaj
-/ce/marketing/developer/                      @KumarVivek
+/ce/marketing/developer/                      @KumarVivek @Nkrb
 /ce/admin/readme-9.md                         @ReneeW-CPub @almostdunh
