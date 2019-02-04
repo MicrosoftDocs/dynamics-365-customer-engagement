@@ -221,7 +221,7 @@ Also, the PowerShell script updates the recommended Internet Explorer settings s
 
 To configure the **Enable Protected Mode** option, **TabProcGrowth** (Tab Process Growth), **TabShutdownDelay** (Tab Shutdown Delay) registry key, and **Enable Automatic Crash Recovery** option, see [Internet Explorer setting guidelines](/dynamics365/customer-engagement/unified-service-desk/admin/internet-explorer-settings-bpa).
 
-### Disable the recommended settings using PowerShell script
+## Disable the recommended settings using PowerShell script
 
 You can disable the recommended settings that you set up using the **CleanUpIESettings** PowerShell script.
 
@@ -230,7 +230,7 @@ Download the **CleanUpIESettings** PowerShell script file from **Dynamics Inside
 > [!Note]
 > Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
 
-#### Run the CleanUpIESettings PowerShell script file
+### Run the CleanUpIESettings PowerShell script file
 
 1. Download the **CleanUpIESettings** PowerShell script file from the **Dynamics Insider Portal**.
 
