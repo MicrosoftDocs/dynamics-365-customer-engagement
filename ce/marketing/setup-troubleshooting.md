@@ -39,15 +39,29 @@ Read this topic to find answers to common questions and solutions to known issue
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is licensed per instance, with each instance priced according to the number of marketing contacts stored in your database. Here are answers to several of the most frequently asked questions about licensing:
 
 - **What is a marketing contact?**  
-    A *marketing contact* is any contact used as part of a marketing activity in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. *Marketing activities* include marketing emails, marketing pages, marketing forms, LinkedIn integrations, events, surveys, custom channels, and more. You will only be charged for contacts that are engaged in marketing activities using the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application, or capabilities delivered as part of the application. Each marketing activity is associated with a specific contact, but you can also target any lead or opportunity that is linked to a contact in the database. 
+    [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is priced in relation to how many marketing contacts you have in your database, where a marketing contact is any contact used as part of a marketing activity in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Contacts that you don’t market to using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] features don’t count towards your marketing-contacts quota. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] keeps a detailed record of all the ways in which each contact interacts with your marketing initiatives, but monitors just a few key interaction types when it comes to identifying marketing contacts. Any contact that performs one or more of these key interactions will become flagged as a marketing contact, and therefore count against your quota. There are many other types of interactions (such as email opens, survey responses, and website visits) but these represent follow-up activities to the core set of key interactions. After a key interaction is logged for a contact, it doesn’t matter how many more of the same or follow-up interactions that contact performs, the contact is still counted just once. The key interaction types are:
+  - Contact used in customer journey
+  - Marketing email sent
+  - Event check-in
+  - Event registration
+  - Marketing form submitted
+  - LinkedIn form submission
+
 - **Which marketing contacts count against my quota?**  
     All marketing contacts on your tenant are counted, regardless of instance type (including both production and non-production instances).
-- **Where can I see my contact quota?**  
-    To see how many contacts you've purchased, go to **Settings** > **Advanced Settings** > **Others** > **Quota Limits**. In the current version of the product, you can  see the number of marketing contacts you have purchased for the current licensing period, but you can't see how many you're actually using or have remaining. The ability to monitor the number of marketing contacts will be included in an upcoming release; for now, compliance is contractual.
+
+- **Where can I see my quotas and quota usage?**  
+    To see how many of each quota you've purchased and used, go to **Settings** > **Advanced settings** > **Other settings** > **Quota limits**.
+
 - **What is my monthly email quota?**  
     Your monthly email quota is equal to ten times the number of marketing contacts you have purchased.
+
 - **If I use a contact only once in a month and don’t use it next month, does it count?**  
-    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota for the remainder of the license period, even if you permanently delete the contact record. You can "true down" on your number of marketing contacts at contract renewal.
+    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on contract renewal.
+
+- **My [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license agreement entitles me to a free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license. How can I get the free app added to my tenant?**  
+    If you are entitled to a free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license as a result of your existing [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license agreement, then please [raise a ticket with Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) to have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app added to your tenant.
+
 - **How can I learn more about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing?**
   - For an overview, see [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md) 
   - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).

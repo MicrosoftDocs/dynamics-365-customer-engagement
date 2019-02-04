@@ -1,7 +1,7 @@
 ---
 title: "Configure Bing maps in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/08/2018
+ms.date: 01/31/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -34,7 +34,7 @@ search.app:
 |  **General**   |                        **Label**                        |                                                                              **Required**: A label to display for the Bing Maps.                                                                               |
 |                |              **Display label on the form**              |                                                                                     Whether the label should be displayed.                                                                                     |
 |                | **Select an address to use with the Bing Maps control** |                                                                        Choose which address should be used to provide data for the map.                                                                        |
-|                |                 **Visible by default**                  | Showing the Bing maps is optional and can be controlled using scripts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visibility options](../customize/visibility-options-legacy.md) |
+|                |                 **Visible by default**                  | Showing the Bing maps is optional and can be controlled using business rules or scripts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visibility options](../customize/visibility-options-legacy.md) |
 | **Formatting** |  **Select the number of columns the control occupies**  |                              When the section containing the Bing Maps has more than one column you can set the field to occupy up to the number of columns that the section has.                              |
 |                |   **Select the number of rows the control occupies**    |                                                                  You can control the height of the Bing Maps by specifying a number of rows.                                                                   |
 |                |     **Automatically expand to use available space**     |                                                                        You can allow the Bing Maps height to expand to available space.                                                                        |

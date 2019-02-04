@@ -34,7 +34,9 @@ Read this topic to learn how to set up a waitlist and how to invite contacts on 
 
 ## How the waitlist works
 
-The waitlist holds a list of contacts who submitted a registration after an event was fully booked. The waitlist registers the time and day that each contact registered, so when space becomes available, contacts are either automatically registered or offered an invitation to register in the same order that they joined the waitlist. You can choose whether contacts will be automatically registered when space becomes available for them, or whether they should instead be sent an invitation to register manually.
+The waitlist holds a list of contacts who submitted a registration to the event website after an event was fully booked. The waitlist registers the time and day that each contact registered, so when space becomes available, contacts are either automatically registered or offered an invitation to register in the same order that they joined the waitlist. You can choose whether contacts will be automatically registered when space becomes available for them, or whether they should instead be sent an invitation to register manually.
+
+For events already at capacity, visitors to the event website can only join the waitlist, but [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] users from your organization can still add new registrations by opening the [event record](set-up-event.md) and going to the **Registration and attendance** tab. Registrants added to the **Event registration** list here will join the event immediately without getting placed on the waitlist. Users can also add registrants directly to the **Waitlist** from here.
 
 When new space becomes available, the waitlist reacts as follows:
 
