@@ -27,8 +27,6 @@ The **My Dashboard** page consists of the following views:
  - Open work items
 
  - Closed work items
- 
- - Testing the bullet points
 
 > [!div class=mx-imgBorder]
 > ![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")
@@ -37,11 +35,6 @@ The **My Dashboard** page consists of the following views:
 
 In the **My work items** view, you see all the work items that you're actively working on. Select the ellipsis button (**...**) for a work item, and then select **Open** to open the work item as a session on the **Session Management** tab.
 
-
-1. testing 1
-
-2. testing 2
-
 ## Open work items
 
 In the **Open work items** view, you see all the conversations that are in the **Waiting** state, from all the queues that are available for you to pick from. Work items are shown for all the queues where you're added as a member. Select the ellipsis button (**...**) for a work item, and then select **Pick** to assign the work item to you. When you select **Pick**, the system moves the work item from **Open work items** view to the **My work items** view, and you can see the following message: **Work item picked successfully. Work item: <Subject of the work item>**.
@@ -49,9 +42,6 @@ In the **Open work items** view, you see all the conversations that are in the *
 ## Closed work items
 
 In the **Closed conversations** work stream, you see all the conversations that you've completed during the past 24 hours. The work stream refreshes to reflect the conversations that you closed in past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
-
-> [!div class=mx-imgBorder]
-> ![I am testing this image](../../media/testing-image.png "I am testing this image")
 
 > [!div class="nextstepaction"]
 > [Next topic: View notifications and screen pops](notifications-screen-pop.md)
