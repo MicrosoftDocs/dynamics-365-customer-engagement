@@ -343,7 +343,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 | Database Upgrade   |  The Customer Engagement instance is being updated.   |
 
 > [!NOTE]
-> **Storage Utilization Calculation**
+> **Storage Utilization Calculation** <br/>
 >
 > When an instance enters the **Queued (Not Started)** state, that instance’s storage is temporarily omitted from the **Total Storage Used** calculation. Once the database update is complete, **Total Storage Used** calculation will be refreshed to re-include that instance's storage total. 
 
