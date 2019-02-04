@@ -69,6 +69,6 @@ Looking for resources to help plan your implementation? Check out these download
  [Notes for developers (app version 2.x)](../project-service/developer-guides/overview-dev-notes-v2.x.md)
  
  ## Watch a 2-minute overview video
- <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../project-service/media/project-service-intro-video.png "ProjectService_IntroVideo")](http://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../project-service/media/project-service-intro-video.png "ProjectService_IntroVideo")](http://go.microsoft.com/fwlink/p/?LinkId=799457)  
 
 
