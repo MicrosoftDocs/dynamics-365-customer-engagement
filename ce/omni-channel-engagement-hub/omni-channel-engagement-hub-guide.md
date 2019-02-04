@@ -48,7 +48,7 @@ ms.custom:
 ](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Agents using Unified Service Desk
 </a></li>
 <li><a href="agent/agent-usd/customer360-overview-existing-challenges.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer360-overview-existing-challenges.md)">View customer summary (Unified Service Desk)</a> and <a href="agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Customer Service Hub app)](agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Customer Service Hub app)</a> </li>
-<li><a href="agent/agent-usd/left-control-panel.md" data-raw-source="[View conversation control (Unified Service Desk)](agent/agent-usd/left-control-panel.md)">View conversation control (Unified Service Desk)</a> and <a href="agent/agent-csh/csh-conversation-control.md" data-raw-source="[View conversation control (Customer Service Hub app)](agent/agent-csh/csh-conversation-control.md)">View conversation control (Customer Service Hub app)</a></li>
+<li><a href="agent/agent-usd/left-control-panel.md" data-raw-source="[View communication panel (Unified Service Desk)](agent/agent-usd/left-control-panel.md)">View communication panel (Unified Service Desk)</a> and <a href="agent/agent-csh/csh-conversation-control.md" data-raw-source="[View communication panel (Customer Service Hub app)](agent/agent-csh/csh-conversation-control.md)">View communication panel (Customer Service Hub app)</a></li>
 </td>
 <td>
 

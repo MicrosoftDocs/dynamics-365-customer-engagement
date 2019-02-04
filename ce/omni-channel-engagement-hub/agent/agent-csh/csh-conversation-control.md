@@ -13,7 +13,7 @@ ms.assetid: 6172303E-4BB8-4E54-BC23-71AC2514A248
 ms.custom: 
 ---
 
-# View Conversation control
+# View communication panel
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
