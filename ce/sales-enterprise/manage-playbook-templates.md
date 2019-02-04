@@ -1,16 +1,16 @@
 ---
 title: "Manage playbook templates (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Create and manage playbook templates to help your team consistently perform recurrent business processes such as a sales process."
-keywords: playbook, consistent, activity, sales process, business process, best practice
-ms.date: 10/16/2018
+keywords: "playbook, consistent, activity, sales process, business process, best practice"
+ms.date: 02/21/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.1"
 ms.assetid: 66a9d402-bbf6-48ee-86b6-5f93fc864896
 author: shubhadaj
 ms.author: shujoshi
@@ -87,6 +87,7 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
 8.  In the lower-right corner, select **Save**.
 
+
 ## Publish a playbook template
 
 You must publish a playbook to make it available for your users.
@@ -106,5 +107,6 @@ Open the playbook template and on the command bar, select **Publish**.
 > After you publish a template, you can’t edit it. To make changes to a published playbook template, on the command bar, select **Revise**.
 
 ### See also
+[Associate documents with playbook activities](associate-documents-playbook-activities.md)  
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
 [Define playbook categories](define-playbook-categories.md)

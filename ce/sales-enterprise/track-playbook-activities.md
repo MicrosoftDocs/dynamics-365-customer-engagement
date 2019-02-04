@@ -1,16 +1,16 @@
 ---
 title: "Track playbook activities (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Carry out the playbook activities to ensure every event or scenario is dealt with consistently."
-keywords: playbook, activities, track, progress
-ms.date: 10/16/2018
+keywords: "playbook, activities, track, progress"
+ms.date: 02/21/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.1"
 ms.assetid: 7727c370-1c75-40e9-9319-250994f61bec
 author: shubhadaj
 ms.author: shujoshi
@@ -55,6 +55,32 @@ To see the activities created by the playbook when the **Track progress** field 
     ![activities tab on the opportunity record](media/activities-tab-opportunity-record.png "Activities tab on the Opportunity record")  
 
     This view shows all the activities for the calling record along with the ones created when a playbook was launched. However, it doesn’t show how many are created in the context of a playbook.
+
+
+## Preview: View or download documents associated with an activity
+
+[This section is a pre-release documentation and is subject to change.]
+
+> [!NOTE]
+
+> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)] 
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
+
+If a sales manager has added sales brochures or training docs to a playbook activity, as a sales rep you can refer to these docs while you are working the activity to ensure you have all the details at your hand.
+
+> [!NOTE]
+
+> Documents are available only for task and appointment activities associated with a playbook activity. 
+
+To view or download a document
+
+1.	In the activity form, select the **Related** tab, and then select **Documents**.
+
+2.	To download a document, in the **Documents** list, select a row and select **Download**.
+
+  OR
+
+3.	To view a document, in the **Documents** list, select the document name.
 
 
 ### See also

@@ -1,16 +1,16 @@
 ---
 title: "Enforce best practices with playbooks (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Guide your team members with predefined activities to ensure they follow a consistent approach on recurrent events or scenarios."
-keywords: playbook, consistent, best practice
-ms.date: 10/16/2018
+keywords: "playbook, consistent, best practice"
+ms.date: 02/21/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.1"
 ms.assetid: 5cf16e02-ed49-4a65-917d-e4768e3ed497
 author: shubhadaj
 ms.author: shujoshi
@@ -35,6 +35,7 @@ To start, anyone with a Playbook manager role or equivalent permissions creates 
 ### See also
 [Define playbook categories](define-playbook-categories.md)  <br>
 [Manage playbook templates](manage-playbook-templates.md) <br>
+[Associate documents with playbook activities](associate-documents-playbook-activities.md)  
 [Launch a playbook to carry out activities consistently](launch-playbook.md)  <br>
 [Mark playbook as completed](mark-playbook-completed.md)  <br>
 [Track playbook activities](track-playbook-activities.md)  <br>
