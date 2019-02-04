@@ -59,7 +59,7 @@ You can create a task hierarchy with the following options:
 
 ### Add task
 
-This option allows you to create a new task in the hierarchy. If you don’t choose a position, the task is inserted at the end. As with any modern grid experience, the last row is empty and available for new task details. A Schedule ID is assigned to the task and represents the depth and position in the hierarchy. The Schedule ID uses outline numbering. For tasks in the first level under the root of the project, a numbering scheme of 1, 2, 3, etc. is used. For tasks under the first level root, a numbering scheme of 1.1, 1.2, 1.3, etc. is used.
+This option allows you to create a new task in the hierarchy. If you don’t choose a position, the task is inserted at the end. A Schedule ID is assigned to the task and represents the depth and position in the hierarchy. The Schedule ID uses outline numbering. For tasks in the first level under the root of the project, a numbering scheme of 1, 2, 3, etc. is used. For tasks under the first level root, a numbering scheme of 1.1, 1.2, 1.3, etc. is used.
 
 ### Indent task
 
@@ -86,7 +86,7 @@ The Schedule grid is fully accessible and can be used with screen readers such a
 
 ## Task attributes
 
-A task’s name informs the description of work that needs to be completed. In PSA, the attributes associated to a task describe the schedule of the task and its staffing requirements.
+A task’s name describes the work that needs to be completed. In PSA, the attributes associated to a task describe the schedule of the task and its staffing requirements.
 
 > ![Creating a schedule](media/project-2.png)
  
@@ -94,13 +94,14 @@ A task’s name informs the description of work that needs to be completed. In P
 
 **Effort**, **Start date**, **End date**, and **Duration** are used to describe the schedule of the task. By assigning values to these attributes, you can determine the schedule for the task.
 
+Additional schedule attributes include:
 - **Effort hours**: An estimate of the hours required to complete the task.    
 - **Duration**: The number of work days it will take to complete the task.
 - **Schedule ID**: The auto-generated ID is used to order tasks in the hierarchy. Dependencies between the tasks manage the actual order in which the task are worked on.
  
 ### Staffing attributes
 
-Staffing attributes are accessed through the **Resources** field in the schedule.
+Staffing attributes are accessed through the **Resources** field in the schedule. You can either search for an existing resource, or click **Create** and in the **Quick Create** pane, add a project team member as a new resource.
 
 > ![Staffing attributes accessed through the Resources field](media/project-3.png)
 
@@ -120,7 +121,7 @@ The **Category** field holds the values that indicate a broader type of work tha
 
 ### Task dependencies 
 
-You can use the schedule in PSA to create predecessor relationships between one or more tasks. The **Predecessor** field under **Tasks** takes one or more values to indicate the tasks that it is dependent on. PSA supports a “Finish to Start” type of dependency. When a predecessor value is assigned to a task, the task can only start when all the predecessor tasks have been completed. This dependency means the planned start date of the task is reset to when the predecessor tasks are complete. Updates to predecessor/dependent task’s start/end dates is not impacted by the task mode.
+You can use the schedule in PSA to create predecessor relationships between one or more tasks. The **Predecessor** field under **Tasks** takes one or more values to indicate the tasks that it is dependent on. PSA supports a “Finish to Start” type of dependency. When a predecessor value is assigned to a task, the task can only start when all preceding tasks have been completed. This dependency means the planned start date of the task is reset when the preceding tasks are completed. Updates to the task’s start/end dates are not impacted by the task mode.
 
 ## Task mode 
 
