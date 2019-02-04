@@ -1,6 +1,6 @@
 ---
 title: "Enforce best practices with playbooks (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Guide your team members with predefined activities to ensure they follow a consistent approach on recurrent events or scenarios."
+description: "Guide your team members with predefined activities to ensure that they follow a consistent approach on recurrent events or scenarios."
 keywords: "playbook, consistent, best practice"
 ms.date: 02/21/2019
 ms.service:
@@ -24,12 +24,12 @@ topic-status: Tech Reviewing
 
 # Enforce best practices with playbooks
 
-Playbooks in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] provides guidance to team members on actions to take on events such as a decision maker leaving the organization while the team is working on a deal with the decision maker. It can also streamline and automate recurring tasks and responses to external events. For example, playbook can automate the steps for renewing contracts or it can define the activities a team member must carry out if a decision maker the team member is working with to close a deal leaves the organization.
+Playbooks in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] guide team members on how to respond to events such as a decision maker leaving the organization while the team is working on a deal with that decision maker. The playbook defines the activities a team member must carry out in such an event. Playbooks can also streamline and automate recurring tasks such as renewing contracts. 
 
-To start, anyone with a Playbook manager role or equivalent permissions creates playbook categories to classify the playbooks. Then, the playbook manager creates playbook templates that define a set of best practices based on the past experiences and their organization standards. Business users such as a sales person or a service rep with the Playbook user role then can launch one of these playbook templates while they work on their records to ensure that best practices are applied consistently at every step.
+To start, anyone with a Playbook manager role or equivalent permissions creates playbook categories to classify the playbooks. Then, the playbook manager creates playbook templates that define a set of best practices based on past experiences and their organization's standards. Business users such as a sales person or a service rep with the Playbook user role can then open one of these playbook templates while they work on their records to ensure that best practices are applied consistently at every step.
 
 > [!NOTE]
-> The playbook capability is currently available only in the Sales Hub app in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. It is being released with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] application version 9.0.1810.4006 or later and the server version 9.1.0.0263 or later, as part of weekly release of the product to individual geographies. 
+> The playbook capability is currently available only in the Sales Hub app in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. It is being released with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] application version 9.0.1810.4006 or later and the server version 9.1.0.0263 or later, as part of weekly releases of the product to individual geographies. 
 > To learn about updating an app solution, see [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md). 
 
 ### See also
