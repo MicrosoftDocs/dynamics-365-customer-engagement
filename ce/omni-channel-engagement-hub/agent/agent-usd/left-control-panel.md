@@ -37,7 +37,7 @@ In chat channel, you can see the following options:
 
 The communication panel allows you send messages in two ways - **Internal** and **Public**. 
 
-When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option.
+When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option. The internal messages are not shown to the customers.
 
 > [!div class=mx-imgBorder]
 > ![Send messages to Send messages to internal participants](../../media/oc-usd-cc-internal-message.png "Send messages to internal participants")
@@ -85,6 +85,10 @@ The communication panel allows you to transfer a conversation request. You can t
 >![omni-channel transfer](../../media/oc-usd-cc-transfer.png "Omni-channel transfer")
 
 You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and when you transfer the request, routing rules assigns the conversation (work item) to the appropriate agent in the queue.
+
+Use a keyboard shortcut to see the list of agents and/or the supervisor who are available for transfer. Press the Slash (/) key and the letters t (**/+t**).
+
+Use a keyboard shortcut to see the list of queues to transfer the conversation request. Press the Slash (/) key and the letters T and Q (**/+T+Q**).
 
 > [!div class="nextstepaction"]
 > [Next topic: View call scripts, take notes, and search knowledge articles](right-control-panel.md)

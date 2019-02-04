@@ -1,5 +1,5 @@
 ---
-title: "Omni-channel Engagement Hub Conversation Control | MicrosoftDocs"
+title: "Omni-channel Engagement Hub Communication panel (Conversation control) | MicrosoftDocs"
 description: "Conversation control is a communication panel in Omni-channel Engagement Hub where you interact with the customer."
 keywords: ""
 author: kabala123
@@ -17,19 +17,19 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-Conversation control is a communication panel where you interact with the customer. When you sign in to the application, conversation control displays the welcome screen.
+Communication panel is a conversation control where you interact with the customer. When you sign in to the application, conversation control displays the welcome screen.
 
  > [!div class=mx-imgBorder] 
  > ![Omni-channel Engagement Hub conversation control landing page](../../media/csh-conversation-control-landing-page.png "Omni-channel Engagement Hub conversation control landing page")  
 
-Using the chat conversation channel, you can send quick replies and search for and share knowledge articles with the customer with whom you are interacting. You can transfer the work item to another agent or queue. Use the consult option if you need help to resolve the work item. Also, you can switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
+Using the chat channel, you can send quick replies and search for and share knowledge articles with the customer with whom you are interacting. You can transfer the work item to another agent or queue. Use the consult option if you need help to resolve the work item. Also, you can switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
 
-The landing page explains some of the key features of Omni-channel Engagement Hub and conversation control. When you interact with a customer, you can see the following interface in conversation control.
+The landing page explains some of the key features of Omni-channel Engagement Hub and communication panel. When you interact with a customer, you can see the following interface in communication panel.
 
  > [!div class=mx-imgBorder]
- > ![Omni-channel Engagement Hub conversation control chat interface](../../media/csh-conversation-control-chat-interface.png "Omni-channel Engagement Hub conversation control chat interface")  
+ > ![Omni-channel Engagement Hub communication panel chat interface](../../media/csh-conversation-control-chat-interface.png "Omni-channel Engagement Hub communication panel chat interface")  
 
-In conversation control, you can see the following options:
+In communication panel, you can see the following options:
  
  | Option           | Description                                   |
  |------------------|-----------------------------------------------|
@@ -43,42 +43,40 @@ In conversation control, you can see the following options:
  | Consult          | View list to consult with other users | 
  |  Transfer        | View list to transfer the request |
 
-### Reply messages with Public and internal mode
+### Send messages using Public and Internal mode
 
-While you consult with an agent or supervisor, the customer is also present in the conversation, and you might want to share certain messages only with the consulting agent or supervisor and not with the customer. In this situation, you can choose to reply only to the agent or supervisor. The messages you send are visible only to the agent or supervisor and are classified as **Internal**. The customer who is on the conversation cannot see **Internal** messages.
+The communication panel allows you send messages in two ways - **Internal** and **Public**. 
+
+When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option. The internal messages are not shown to the customers.
 
  > [!div class=mx-imgBorder]
  > ![Reply messages by selecting internal or public mode](../../media/csh-cc-public-internal-modes.png "Reply messages by selecting internal or public mode")
 
-When you want to send a message to the customer and the agent or supervisor who are present in the conversation, you can send those messages using the **Public** button. These messages are classified as public messages.
+You can use keyboard shortcuts to send internal and public messages:
 
-You can use the keyboard shortcut to reply only to the agent or supervisor and to all the participants in the interaction.
+- **Slash+I** – Press the Slash (/) key and the letter I to send an internal message to other agents and/or a supervisor.
 
-**/i** (forward slash, letter i) is the keyboard shortcut to send the message as internal to the agents and/or supervisor.
-
-**/p** (forward slash, letter p) is the keyboard shortcut to send the message as public to all participants in the interaction.
+- **Slash+P** – Press the Slash (/) key and the letter P to send a public message to all the participants in the interaction.
 
 ### Customer summary
 
 The Customer summary page displays details about a customer with whom you interact. When you are conversing with more than one customer simultaneously, and when you switch from one chat conversation to another, you need to refresh the Customer summary page to get the details of the customer to whom you switched. Use the Refresh button to refresh the Customer summary page to get relevant details about the customer based on chat conversations with the customer.
 
  > [!div class=mx-imgBorder]
- > ![Session overview refresh button in the conversation control](../../media/csh-cc-options-refresh-session-overview-customer360.png "Session overview refresh button in the conversation control")
+ > ![Session overview refresh button in the communication panel](../../media/csh-cc-options-refresh-session-overview-customer360.png "Session overview refresh button in the communication panel")
 
-### Send quick replies in chat
+### Send templatized messages in the chat
 
-When you chat with a customer, your organization might have a process that requires you to interact with a set of standard questions and answers. You can use the **Quick replies** option to retrieve the standard set of questions and replies when you are interacting with customers.
+The communication panel allows you to send templatized messages to the customer with whom your're interacting with. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send it to the customers.
 
  > [!div class=mx-imgBorder] 
  > ![Use quick replies option to send faster replies to customers](../../media/csh-send-quick-replies-chat.png "Use quick replies option to send faster replies to customers")  
 
-These questions and answers are stored in templates. You can use keyboard shortcuts to see the list of quick replies.
-
-**/q** (forward slash, letter q) is the keyboard shortcut to see a list of quick replies.
+You can use a keyboard shortcut to see the list of quick replies. Press the Slash (/) key and the letter Q (**/+Q**).
 
 ### Take notes specific to conversation
 
-Interaction with customers will lead to information exchanges between the customer and you. Use the notes option to capture information specific to the conversation when you interact with the customers. Use the shortcut to launch the notes.
+Use the notes option to capture information specific to the conversation when you interact with the customers. Use the shortcut to launch the notes.
 
  > [!div class=mx-imgBorder]
  > ![Launch notes panel for taking notes](../../media/csh-cc-option-notes.png "Launch notes panel for taking notes")  
@@ -86,16 +84,16 @@ Interaction with customers will lead to information exchanges between the custom
  > [!div class=mx-imgBorder]
  > ![Notes panel to take the discussion points when interacting with customers](../../media/csh-cc-notes.png "Notes panel to take the discussion points when interacting with customers")  
 
-When you select the notes option from the conversation control, the application displays the notes panel next to the conversation control. You can capture the points and select **Add**. The notes will be linked to the conversation for you to access at a later point.
+When you select the notes option from the communication panel, the application displays the notes panel next to the communication panel. You can capture the points and select **Add**. The notes will be linked to the conversation for you to access at a later point.
 
 ### Search and knowledge articles
 
-From the conversation control, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the conversation control. Use the shortcut to launch knowledge articles search.
+From the communication panel, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the communication panel. Use the shortcut to launch knowledge articles search.
 
  > [!div class=mx-imgBorder]
- > ![Use the knowledge articles option in the conversation control to launch the knowledge search page](../../media/csh-cc-options-knowledge-articles.png "Use the knowledge articles option in the conversation control to launch the knowledge search page")  
+ > ![Use the knowledge articles option in the communication panel to launch the knowledge search page](../../media/csh-cc-options-knowledge-articles.png "Use the knowledge articles option in the communication panel to launch the knowledge search page")  
 
-**/kb** (forward slash, letter k, and letter b) is the keyboard shortcut to launch the knowledge articles search control. You can search and share the article with the customer through the conversation control. Use the **Send link** button to share the knowledge article link with the customer.
+**/kb** (forward slash, letter k, and letter b) is the keyboard shortcut to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
 
 ### Link to conversation
 
@@ -103,33 +101,30 @@ When you have a conversation with a customer, you can link the conversation to t
 
 ### Consult with agent or supervisor
 
-When you are interacting with a customer, you might want the expertise of another agent or supervisor. In such scenarios, you can invite the agent or supervisor using the consult option in the chat panel. To invite another agent or supervisor, select the ellipses next to knowledge articles and then select **consult**.
+The communication panel allows you to consult with other agents and/or supervisor using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel.
 
  > [!div class=mx-imgBorder]
  > ![Use the consult option to launch the consulting list](../../media/csh-cc-options-elippsis-consult.png "Use the consult option to launch the consulting list")  
 
-You can use the keyboard shortcut to see the list of available agents and/or supervisors with whom you can consult.
+You can use a keyboard shortcut to see the list of agents and/or the supervisor who are available for consultation. Press the Slash (/) key and the letters C and O (**/+C+O**).
 
-**/co** (forward slash, letter c, and letter o) is the keyboard shortcut to see a list of agents and/or supervisors who are available for consult.
 
 ### Transfer the conversation
 
-When you work on a conversation request, you might come across the following scenarios:
-
--   You have minimal knowledge and want to route the request to another agent in the same queue.
-
--   You identify the request as belonging to a different queue.
+The communication panel allows you to transfer a conversation request. You can transfer the conversation (work item) either to an agent or a queue.
 
  > [!div class=mx-imgBorder]
  > ![Use the transfer option to launch the transfer list](../../media/csh-cc-options-elippsis-tansfer.png "Use the transfer option to launch the transfer list")
 
-In the above-mentioned scenarios, you can transfer the request. However, you can transfer the request only to agents who are configured within the same work stream and queue. If the request belongs to another queue, you can transfer the request and the routing rules will automatically push to the respective queue accordingly.
+You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and when you transfer the request, routing rules assigns the conversation (work item) to the appropriate agent in the queue.
 
-Use the keyboard shortcut to launch the agent and queue tab to transfer the conversation.
+Use a keyboard shortcut to see the list of agents and/or the supervisor who are available for transfer. Press the Slash (/) key and the letters t (**/+t**).
+
+Use a keyboard shortcut to see the list of queues to transfer the conversation request. Press the Slash (/) key and the letters T and Q (**/+T+Q**).
 
  ![Transfer agent list](../../media/csh-cc-transfer-agent-list.png "transfer agent list") ![Transfer queue list](../../media/csh-cc-transfer-queue-list.png "Transfer queue list")
 
-**/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation to. The **/t** shortcut keeps the focus on the agent tab whereas the **/tq** shortcut keeps the focus on the queue tab.
+**/T** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation to. The **/T** shortcut keeps the focus on the agent tab whereas the **/TQ** shortcut keeps the focus on the queue tab.
 
 ### Set your presence
 
