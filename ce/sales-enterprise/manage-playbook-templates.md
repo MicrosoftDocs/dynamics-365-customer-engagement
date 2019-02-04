@@ -27,31 +27,31 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
 ## Create a playbook template
 
-1.  Make sure you have the Playbook administrator role or equivalent permissions.
+1.  Make sure you have Playbook administrator role or equivalent permissions.
 
-2.  Select the site map icon, select the **More options** ![more options icon](media/more-options-icon.png "More Options icon") icon, and then select **App Settings**.  
+2.  Select the site map icon, select **More options** ![more options icon](media/more-options-icon.png "More Options icon"), and then select **App Settings**.  
 
 3.  Select **Playbook Templates**.
 
-4.  In the **Playbook Template** form, enter the following details, and then select **Save**:
+4.  In the **Playbook Template** form, provide the following details, and then select **Save**:
 
-    1. **Category**. Select the category for which you want to create the playbook template. Think of category as an event or an issue that you want to address using this template.
+    * **Category**. Select the category for which you want to create the playbook template. Think of the category as an event or an issue that you want to address.
 
-    2. **Name**. Enter a descriptive name for the template.
+    * **Name**. Enter a descriptive name for the template.
 
-    3. **Track progress**. Select whether to track the progress of the playbook by creating the activities under a playbook, which is in turn linked to the record type the playbook applies to.
+    * **Track progress**. Select whether to track the progress of the playbook by creating the activities under a playbook; those activities are in turn linked to the record type the playbook applies to.
 
-        For example, if you have a template created for an opportunity, and you set Track Progress to **Yes**, all playbook activities are created under the playbook that is launched from the opportunity record in the following hierarchy: Opportunity record &gt; playbook record &gt; activities.
+        For example, if you have a template created for an opportunity, and you set **Track Progress** to **Yes**, all playbook activities are created under the playbook that is launched from the opportunity record in the following hierarchy: Opportunity record &gt; playbook record &gt; activities.
 
         If you set this to **No**, the playbook activities are created directly under the opportunity record in the following hierarchy: Opportunity record &gt; activities.
 
-    4. **Estimated duration (days)**. Enter the estimated duration in days to indicate the time it may take to complete the playbook template once launched.
+    * **Estimated duration (days)**. Enter the estimated duration in days to indicate the time it may take to complete the playbook template once launched.
 
         ![information section on playbook template form](media/playbook-template-information-section.png "Information section on Playbook template form")  
 
 5.  In the **Select record types that this playbook applies to** section, the **Available for box** lists all the entities that are enabled for using playbooks. Select and move the record types to which the current playbook template applies into the **Applies to** box.
 
-    The playbook capability is currently only enabled on Lead, Quote, Opportunity, Order, and Invoice record types. As a playbook manager, when you create a playbook template, you can select which entity that playbook applies to.
+    The playbook capability is currently enabled only on Lead, Quote, Opportunity, Order, and Invoice record types. As a playbook manager, when you create a playbook template, you can select which entity that playbook applies to.
 
     ![section to select record types the playbook applies to](media/playbook-applies-to.png "Section to select record types the playbook applies to")  
 
@@ -59,29 +59,29 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
     ![add playbook activity](media/add-activity.png "Add playbook activity")  
 
-    For example, if the playbook is defined for an event in which a decision maker leaves the organization while working with a sales person, you may create a phone call record to make a call to the new decision maker, and fix an appointment.
+    For example, if the playbook is defined for an event in which a decision maker leaves the organization while working with a sales person, you can create a phone call record to make a call to the new decision maker, and fix an appointment.
 
-7.  In the **Quick create** form of the activity, enter the following information, and then select **Save**:
+7.  In the **Quick create** form of the activity, provide the following information, and then select **Save**:
 
-    1.  **Subject**. Type a short description of the objective of the activity.
+    *  **Subject**. Type a short description of the activity's objective. 
 
-    2.  **Description**. Type additional information to describe the playbook activity.
+    *  **Description**. Type additional information to describe the playbook activity.
 
-    3.  **Relative due date (days)**. Enter the number of days in which the activity will be due. The number of days is counted from the launch date of the playbook. This field is available only for task and phone call activities.
+    *  **Relative due date (days)**. Enter the number of days in which the activity is due. The number of days is counted from the launch date of the playbook. This field is available only for task and phone call activities.
 
-    4.  **Relative due time (hours)**. Enter the time when the activity will be due.
+    *  **Relative due time (hours)**. Enter the time the activity is due.
 
-    5.  **Relative start date (days)**. Enter the number of days in which the activity must start. This date is relative to when the playbook is launched.
+    *  **Relative start date (days)**. Enter the number of days in which the activity must start. This date is relative to when the playbook is launched.
 
-    6.  **Relative start time**. Enter the time of day when the activity must start.
+    *  **Relative start time**. Enter the time of day the activity must start.
 
-    7.  **Relative end date (days)**. Enter the number of days by which the activity must end. This date is relative to when the playbook is launched.
+    *  **Relative end date (days)**. Enter the number of days by which the activity must end. This date is relative to when the playbook is launched.
 
-    8.  **Relative end time**. Enter the time of day when the activity must end.
+    *  **Relative end time**. Enter the time of day the activity must end.
 
-    9.  **Duration**. If you’re creating a task or a phone call, select the duration for the task or phone call activity.
+    *  **Duration**. If you’re creating a task or a phone call, select the duration for the task or phone call activity.
 
-    10. **Priority**. Select the priority of the activity.
+    * **Priority**. Select the priority of the activity.
 
         ![quick create form for phone call activity](media/quick-create-phone-call-form.png "Quick create form for phone call activity")  
 
@@ -92,11 +92,14 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
 You must publish a playbook to make it available for your users.
 
-To publish a playbook, in the list of playbook template records, select the playbook template and on the command bar, select **Publish**.
+To publish a playbook:
+
+1. In the list of playbook template records, select the playbook template you want to publish.
+2. On the command bar, select **Publish**.
 
 Or
 
-Open the playbook template and on the command bar, select **Publish**.
+* Open the playbook template, and on the command bar, select **Publish**.
 
 > [!NOTE]
 > The playbook template you’re trying to publish must have the following:
