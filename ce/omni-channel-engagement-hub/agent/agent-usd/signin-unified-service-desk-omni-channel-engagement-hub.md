@@ -37,14 +37,13 @@ ms.custom:
 
 4.  In the app selection dialog, select the **Omni-channel Engagement Hub** app from the list.
 
-<!-- I am testing the comments -->
 
 You signed in to Unified Service Desk - Omni-channel Engagement Hub application.
 
 > [!div class="nextstepaction"]
 > [Next topic: Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
 
-## See also testing the change
+## See also
 
 - [Omni channel engagement hub for agent](omni-channel-engagement-hub-agent.md)
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)
