@@ -581,8 +581,12 @@ EXEC SP_EXECUTESQL @sql;
 ## Find the Azure Active Directory tenant Id for your Dynamics 365 for Customer Engagement instances
 
 1. Sign in to the [Azure portal](https://portal.azure.com/).
-2. Go to **Azure Active Directory** > **App registrations** > **Endpoints**.
-3. The tenant id is displayed in the endpoint URLs listed with the Azure subscription.
+2. On the left navigation pane select **All services**. 
+3. In the **All services** list in the **Identity** section select **Azure Active Directory**. 
+4. On the left navigation pane select **Properties** and in the **Directory properties** is the **Directory ID**. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/azure-directory-id.png "Directory ID")
 
 <a name="SQLDB_IP_addresses"></a>   
 ## Azure SQL database static IP addresses used by the Data Export Service  
