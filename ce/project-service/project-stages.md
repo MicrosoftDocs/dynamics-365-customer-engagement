@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Project stages are updated to reflect the state of the project as it progresses. The default business process flow automatically updates the stages of project. The stages defined in the default business process flow are: 
+Project stages are updated to reflect the state of the project as it progresses. The default business process flow automatically updates some stages the stages of project while others are manually updated by the project manager. The stages defined in the default business process flow are: 
 
 - New
 - Quote
@@ -44,7 +44,7 @@ When you associate a project to a quote or when you create a project from a quot
 
 ## Plan
 
-When you win a quote associated with a project and the project progresses to the **Contract** stage, the project stage will be updated to the **Plan** stage. Similar to the quote details on the **Sales** tab, details about the contract will be displayed as well.
+When you win a quote associated with a project and the project progresses to the **Contract** phase, the project stage will be updated to the **Plan** stage. Similar to the quote details on the **Sales** tab, details about the contract will be displayed as well.
 
 ## Deliver
 
