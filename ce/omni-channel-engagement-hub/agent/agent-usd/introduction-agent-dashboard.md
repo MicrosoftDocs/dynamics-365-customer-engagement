@@ -43,6 +43,9 @@ In the **Open work items** view, you see all the conversations that are in the *
 
 In the **Closed conversations** work stream, you see all the conversations that you've completed during the past 24 hours. The work stream refreshes to reflect the conversations that you closed in past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
+> [!div class=mx-imgBorder]
+> ![I am testing this image](../../media/testing-image.png "I am testing this image")
+
 > [!div class="nextstepaction"]
 > [Next topic: View notifications and screen pops](notifications-screen-pop.md)
 
