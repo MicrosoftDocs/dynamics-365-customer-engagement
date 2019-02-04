@@ -27,6 +27,8 @@ The **My Dashboard** page consists of the following views:
  - Open work items
 
  - Closed work items
+ 
+ - Testing the bullet points
 
 > [!div class=mx-imgBorder]
 > ![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")
@@ -34,6 +36,11 @@ The **My Dashboard** page consists of the following views:
 ## My work items
 
 In the **My work items** view, you see all the work items that you're actively working on. Select the ellipsis button (**...**) for a work item, and then select **Open** to open the work item as a session on the **Session Management** tab.
+
+
+1. testing 1
+
+2. testing 2
 
 ## Open work items
 
