@@ -8,6 +8,7 @@
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
 
 ## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
+### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 ### [Manage users](administrator/users-user-profiles.md)
 
