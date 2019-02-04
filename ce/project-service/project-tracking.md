@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-The need to track progress against a schedule varies across different industries. Some industries track at a granular level, while others track at a higher level. This topics shows how to scheduling in Project Service Automation (PSA) to meet your organization's requirements.
+The need to track progress against a schedule varies across different industries. Some industries track at a granular level, while others track at a higher level. This topics shows how to schedule in Project Service Automation (PSA) to meet your organization's requirements.
 
 ## Effort tracking view
 
@@ -80,10 +80,10 @@ When effort is re-projected, the elements CTC, EAC, percent of cost consumed, an
 
 ## Project status summary
 
-Tracking data in the **Effort tracking** and **Cost tracking** views show the progress and cost consumption at the project root node, summary, and down to the leaf node tasks. The **Status** section on the **Project entity** page shows a summary of project-level status.
+Tracking data in the **Effort tracking** and **Cost tracking** views show the progress and cost consumption at the project root node, summary task level, and down to the leaf node tasks. The **Status** section on the **Project entity** page shows a summary of project-level status.
 
 ## Status summary fields
 
-The **Overall project status** field is a user-controlled field that shows the overall status of the project wtih color coding, such as green, yellow, and red to indicate increasing order of risk. The **Comments** field allows the project manager to enter specific comments about the status. The **Status updated on** field is a system-driven field that shows a timestamp of when the status was last updated.
+The **Overall project status** field is an editable field that shows the overall status of the project wtih color coding, such as green, yellow, and red to indicate increasing order of risk. The **Comments** field allows the project manager to enter specific comments about the status. The **Status updated on** field is a system-driven field that shows a timestamp of when the status was last updated.
 
-The default **Schedule performance** and **Cost performance** fields are set from the tracking date. You can set them to **Ahead** when the schedule and cost variance for the root node in **Effort tracking** view is positive, and you can set them to **Behind** when the variance at the root node is negative.
+The values in the fields, **Schedule performance** and **Cost performance** are set from the tracking date. You can set them to **Ahead** when the schedule and cost variance for the root node in **Effort tracking** view is positive, and you can set them to **Behind** when the variance at the root node is negative.
