@@ -40,6 +40,8 @@ To download the Unified Service Desk client application, you must join the Omni-
 You can manually deploy the **Omni-channel Engagement Hub - Unified Service Desk** sample package (applications) using the Package Deployer. To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](/dynamics365/customer-engagement/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer
 ).
 
+When you run the Package Deployer tool to deploy the sample package on the Dynamics 365 for Customer Engagement instance, the tool shows several sample packages, choose **Omni-channel Engagement Hub - Unified Service Desk** sample package.
+
 To download the **Omni-channel Engagement Hub - Unified Service Desk** sample package, you must join the Omni-channel Engagement Hub - Preview program.
 
 > [!Note]
