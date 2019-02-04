@@ -1,4 +1,4 @@
-@Nkrb @KumarVivek @phecke# Lines starting with '#' are comments.
+# Lines starting with '#' are comments.
 # Each line is a file pattern followed by one or more owners.
 
 /ce/admin/                                    @jimholtz
