@@ -85,7 +85,7 @@ Download the **AddRecommendedIESettings** PowerShell script file from **Dynamics
 
 2. Go to the location where you have saved the PowerShell script file.
 
-3. Double-click the **AddRecommendedIESettings** PowerShell script file to execute. You can see the command prompt showing the script execution.
+3. Right-click the **AddRecommendedIESettings** PowerShell script file to execute and select **Run with PowerShell** to the run the script.
 
 4. After the execution, press any key to exit the batch file execution.
 
@@ -221,6 +221,173 @@ Also, the PowerShell script updates the recommended Internet Explorer settings s
 
 To configure the **Enable Protected Mode** option, **TabProcGrowth** (Tab Process Growth), **TabShutdownDelay** (Tab Shutdown Delay) registry key, and **Enable Automatic Crash Recovery** option, see [Internet Explorer setting guidelines](/dynamics365/customer-engagement/unified-service-desk/admin/internet-explorer-settings-bpa).
 
+### Disable the recommended settings using PowerShell script
+
+You can disable the recommended settings that you set up using the **CleanUpIESettings** PowerShell script.
+
+Download the **CleanUpIESettings** PowerShell script file from **Dynamics Insider Program** by joining the **Omni-channel Engagement Hub – Preview** program.
+
+> [!Note]
+> Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
+
+#### Run the CleanUpIESettings PowerShell script file
+
+1. Download the **CleanUpIESettings** PowerShell script file from the **Dynamics Insider Portal**.
+
+2. Go to the location where you have saved the PowerShell script file.
+
+3. Right-click the **CleanUpIESettings** PowerShell script file and select **Run with PowerShell** to the run the script.
+
+4. After the execution, press any key to exit the batch file execution.
+
+The **CleanUpIESettings** PowerShell script file contains the following snippet:
+
+```PowerShell
+Write-Host "The powershell script deletes the registry settings that you added using the AddRecommendedIESettings.ps1 script."
+Write-Host
+
+Write-Host "-------------------"
+Write-Host "TRUSTED URL SOURCES"
+Write-Host "-------------------"
+
+$registryPath = "HKCU:\Software\Microsoft\Internet Explorer\New Windows\Allow"
+IF((Test-Path $registryPath))
+  {
+    $sampleOrgUrl = 'https://orgname.dynamics.com'
+    $samplePowerBIUrl = 'https://instancename.powerbi.com'
+    $orgUrlPromptMessage = 'Enter the Dynamics 365 for Customer Engagement organization URL (' + $sampleOrgUrl +') to exclude as a trusted source and allow Internet Explorer popups'
+    $powerBIUrlPromptMessage = 'Enter the Power BI URL (' + $samplePowerBIUrl + ') to exclude as a trusted source for Internet Explorer popups.'
+
+    $orgUrl = Read-Host -Prompt $orgUrlPromptMessage
+    $orgUrl = $orgUrl.Trim()
+    IF(![string]::IsNullOrEmpty($orgUrl) -And $orgUrl -ne $sampleOrgUrl)
+    {
+        IF ((Get-ItemProperty $registryPath).$orgUrl -ne $null)
+        {
+            Remove-ItemProperty -Path $registryPath -Name $orgUrl
+            Write-Host "The Dynamics 365 for Customer Engagement organization URL $orgUrl is excluded from trusted sources."
+        }
+        ELSE
+        {
+            Write-Host "Registry key $orgUrl is not found in path $registryPath"
+        }
+    }
+    ELSE
+    {
+        Write-Host "$orgUrl is not a valid Dynamics 365 for Customer Engagement organization URL."
+    }
+    Write-Host
+
+    $powerBIUrl = Read-Host -Prompt $powerBIUrlPromptMessage
+    $powerBIUrl = $powerBIUrl.Trim()
+    IF(![string]::IsNullOrEmpty($powerBIUrl) -And $powerBIUrl -ne $samplePowerBIUrl)
+    { 
+        IF ((Get-ItemProperty $registryPath).$powerBIUrl -ne $null)
+        {    
+            Remove-ItemProperty -Path $registryPath -Name $powerBIUrl
+            Write-Host "The Power BI URL $powerBIUrl is excluded from trusted sources."
+        }
+        ELSE
+        {
+            Write-Host "Registry key $powerBIUrl is not found in path $registryPath"
+        }
+    }
+    ELSE
+    {
+        Write-Host "$powerBIUrl is not a valid Power BI instance URL."
+    }
+    
+    Write-Host
+    
+    IF ((Get-ItemProperty $registryPath).'https://login.microsoftonline.com' -ne $null)
+    { 
+        Remove-ItemProperty -Path $registryPath -Name 'https://login.microsoftonline.com'
+    }
+    
+    IF ((Get-ItemProperty $registryPath).'https://www.office.com' -ne $null)
+    { 
+        Remove-ItemProperty -Path $registryPath -Name 'https://www.office.com'
+    }
+
+    IF ((Get-ItemProperty $registryPath).'https://oc-cdn-public.azureedge.net' -ne $null)
+    {
+        Remove-ItemProperty -Path $registryPath -Name 'https://oc-cdn-public.azureedge.net'
+    }
+
+    IF ((Get-ItemProperty $registryPath).'https://oc-auth.azurewebsites.net' -ne $null)
+    {
+        Remove-ItemProperty -Path $registryPath -Name 'https://oc-auth.azurewebsites.net'
+    }
+
+    Write-Host "The URLs are removed from the registry settings."
+ }
+ ELSE
+ {
+    Write-Host "Unable to find registry path $registryPath. The URLs are not excluded from trusted sources for Popups."
+ }
+
+Write-Host
+
+Write-Host "----------------------------"
+Write-Host "ENABLE PROTECTED MODE OPTION"
+Write-Host "----------------------------"
+
+Write-Host "Disable the Enable Protected Mode option. This option is a Unified Service Desk recommended registry setting and disables security settings in all Internet Zones. (Optional)"
+$inputProtectedMode= Read-Host -Prompt 'Press Y to remove these settings. Press any key to skip the step'
+IF($inputProtectedMode -eq "Y")
+{
+    IF ((Get-ItemProperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1').'2500' -ne $null)
+    {
+        Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1' -Name 2500
+    }
+
+    IF ((Get-ItemProperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2').'2500' -ne $null)
+    {
+        Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2' -Name 2500
+    }
+
+    IF ((Get-ItemProperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3').'2500' -ne $null)
+    {
+        Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3' -Name 2500
+    }
+
+    IF ((Get-ItemProperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4').'2500' -ne $null)
+    {
+        Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4' -Name 2500
+    }
+
+    Write-Host "The Enable Protected Mode registry settings are disabled successfully."
+}
+Write-Host
+
+Write-Host "--------------------------------------------"
+Write-Host "BEST PRACTICES ANALYZER RECOMMENDED SETTINGS"
+Write-Host "--------------------------------------------"
+
+Write-Host "Remove Unified Service Desk - Best Practices Analyzer recommended settings for better performance of Internet Explorer process."
+$inputIESettings= Read-Host -Prompt 'Press Y to remove these settings. Press any key to skip this step'
+IF($inputIESettings -eq "Y")
+{
+    IF ((Get-ItemProperty 'HKCU:\Software\Microsoft\Internet Explorer\Main').'TabProcGrowth' -ne $null)
+    {
+        Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Internet Explorer\Main' -Name TabProcGrowth
+    }
+
+    IF ((Get-ItemProperty 'HKCU:\Software\Microsoft\Internet Explorer\Main').'TabShutdownDelay' -ne $null)
+    {
+        Remove-ItemProperty -Path "HKCU:\Software\Microsoft\Internet Explorer\Main" -Name TabShutdownDelay
+    }
+
+    IF ((Get-ItemProperty 'HKCU:\Software\Microsoft\Internet Explorer\Recovery').'AutoRecover' -ne $null)
+    {
+        Remove-ItemProperty -Path "HKCU:\Software\Microsoft\Internet Explorer\Recovery" -Name AutoRecover
+    }
+
+    Write-Host "The settings are removed successfully."
+}
+Write-Host
+Read-Host -Prompt 'Press any key to exit...'
+```
 ## See also
 
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
