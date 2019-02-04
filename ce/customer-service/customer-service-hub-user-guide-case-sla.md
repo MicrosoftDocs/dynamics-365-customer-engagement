@@ -214,7 +214,7 @@ Here are the required view columns:
 - Modified On
 
 > [!NOTE]
-> **Content** field is configured by default as a required view column. In case you still see it in **Add View Columns** option due to customization, select to add it in the list.
+> **Content** field is configured by default as a required view column. In case you still see an option to add the field in **Add View Columns** dialog box due to customization, select to add it in the list.
 
 #### Knowledge Base Search control
 
