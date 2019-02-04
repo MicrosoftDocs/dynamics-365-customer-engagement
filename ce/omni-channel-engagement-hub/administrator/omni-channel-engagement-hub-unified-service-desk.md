@@ -59,8 +59,6 @@ The Edge Process is used to host web applications in Unified Service Desk client
 
 The Internet Explorer process is used to host web applications in Unified Service Desk client application. When you use Omni-channel Engagement Hub on Unified Service Desk client application, certain settings are recommended for Internet Explorer for optimal performance.
 
-To know more information about manually configuring the settings of Internet Explorer, see [Internet Explorer setting guidelines](/dynamics365/customer-engagement/unified-service-desk/admin/internet-explorer-settings-bpa).
-
 Set up the Internet Explorer Settings on the every client desktops for the following areas :
 
  - Enable popups for trusted sources 
@@ -69,7 +67,135 @@ Set up the Internet Explorer Settings on the every client desktops for the follo
  - Tab Shutdown Delay (TabShutdownDelay) registry key
  - Enable Automatic Crash Recovery option
 
-## Enable popups for trusted sources
+You can update the recommended settings in the following ways:
+
+- Using PowerShell script
+- Manually
+
+### Set up the recommended settings using PowerShell script
+
+Download the **AddRecommendedIESettings** PowerShell script file from **Dynamics Insider Program** by joining the **Omni-channel Engagement Hub – Preview** program.
+
+> [!Note]
+> Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
+
+## Run the AddRecommendedIESettings PowerShell script file
+
+1. Download the **AddRecommendedIESettings** PowerShell script file from the **Dynamics Insider Portal**.
+
+2. Go to the location where you have saved the PowerShell script file.
+
+3. Double-click the **AddRecommendedIESettings** PowerShell script file to execute. You can see the command prompt showing the script execution.
+
+4. After the execution, press any key to exit the batch file execution.
+
+The **AddRecommendedIESettings** PowerShell script file contains the following script:
+
+```PowerShell
+Write-Host "The powershell script adds necessary registry settings to allow Internet Explorer popups from trusted sources."
+Write-Host
+
+Write-Host "-------------------"
+Write-Host "TRUSTED URL SOURCES"
+Write-Host "-------------------"
+
+$registryPath = "HKCU:\Software\Microsoft\Internet Explorer\New Windows\Allow"
+IF((Test-Path $registryPath))
+  {
+    $sampleOrgUrl = 'https://orgname.dynamics.com'
+    $samplePowerBIUrl = 'https://instancename.powerbi.com'
+    $orgUrlPromptMessage = 'Enter the Dynamics 365 for Customer Engagement organization URL (' + $sampleOrgUrl + ') to include as a trusted source and allow Internet Explorer popups (Mandatory)'
+    $powerBIUrlPromptMessage = 'Enter the Power BI URL (' + $samplePowerBIUrl + ') to include as a trusted source and allow Internet Explorer popups (Mandatory)'
+
+    $orgUrl = Read-Host -Prompt $orgUrlPromptMessage
+    $orgUrl = $orgUrl.Trim()
+    IF(![string]::IsNullOrEmpty($orgUrl) -And $orgUrl -ne $sampleOrgUrl)
+    {
+        New-ItemProperty -Path $registryPath -Name $orgUrl -Value ([byte[]](0x00,0x00)) -PropertyType BINARY -Force | Out-Null
+        Write-Host "The Dynamics 365 for Customer Engagement organization URL $orgUrl is added as a trusted source."
+    }
+    ELSE
+    {
+        Write-Host "$orgUrl is not a valid Dynamics 365 for Customer Engagement organization URL."
+    }
+    
+    Write-Host
+
+    $powerBIUrl = Read-Host -Prompt $powerBIUrlPromptMessage
+    $powerBIUrl = $powerBIUrl.Trim()
+    IF(![string]::IsNullOrEmpty($powerBIUrl) -And $powerBIUrl -ne $samplePowerBIUrl)
+    {    
+        New-ItemProperty -Path $registryPath -Name $powerBIUrl -Value ([byte[]](0x00,0x00)) -PropertyType BINARY -Force | Out-Null
+        Write-Host "The Power BI URL $powerBIUrl is added as a trusted source."
+    }
+    ELSE
+    {
+        Write-Host "$powerBIUrl is not a valid Power BI instance URL."
+    }
+    Write-Host
+
+    New-ItemProperty -Path $registryPath -Name 'https://login.microsoftonline.com' -Value ([byte[]](0x00,0x00)) -PropertyType BINARY -Force | Out-Null
+    New-ItemProperty -Path $registryPath -Name 'https://www.office.com' -Value ([byte[]](0x00,0x00)) -PropertyType BINARY -Force | Out-Null
+    New-ItemProperty -Path $registryPath -Name 'https://oc-cdn-public.azureedge.net' -Value ([byte[]](0x00,0x00)) -PropertyType BINARY -Force | Out-Null
+    New-ItemProperty -Path $registryPath -Name 'https://oc-auth.azurewebsites.net' -Value ([byte[]](0x00,0x00)) -PropertyType BINARY -Force | Out-Null
+    Write-Host "The URLs are added in the registry settings."
+ }
+ ELSE
+ {
+    Write-Host "Unable to find registry path $registryPath. The registry settings are not updated."
+ }
+
+Write-Host
+
+Write-Host "----------------------------"
+Write-Host "ENABLE PROTECTED MODE OPTION"
+Write-Host "----------------------------"
+
+Write-Host "Enable the Enable Protected Mode option. The option is a Unified Service Desk recommended registry setting and enables security settings in all Internet Zones. (Optional)"
+$inputProtectedMode= Read-Host -Prompt 'Press Y to enable the enable protected mode setting. Press any key to skip the step'
+IF($inputProtectedMode -eq "Y")
+{
+    New-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1' -Name 2500 -Value 0 -PropertyType DWORD -Force | Out-Null
+    New-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2' -Name 2500 -Value 0 -PropertyType DWORD -Force | Out-Null
+    New-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3' -Name 2500 -Value 0 -PropertyType DWORD -Force | Out-Null
+    New-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4' -Name 2500 -Value 0 -PropertyType DWORD -Force | Out-Null
+    Write-Host "The Enable Protected Mode registry is enabled successfully."
+}
+Write-Host
+
+Write-Host "--------------------------------------------"
+Write-Host "BEST PRACTICES ANALYZER RECOMMENDED SETTINGS"
+Write-Host "--------------------------------------------"
+
+Write-Host "Add Unified Service Desk - Best Practices Analyzer recommended settings for better performance of Internet Explorer process. (Optional)"
+$inputIESettings= Read-Host -Prompt 'Press Y to add these settings. Press any key to skip this step'
+IF($inputIESettings -eq "Y")
+{
+    New-ItemProperty -Path "HKCU:\Software\Microsoft\Internet Explorer\Main" -Name TabProcGrowth -Value 00000010 -PropertyType DWORD -Force | Out-Null
+    New-ItemProperty -Path "HKCU:\Software\Microsoft\Internet Explorer\Main" -Name TabShutdownDelay -Value 00000000 -PropertyType DWORD -Force | Out-Null
+    New-ItemProperty -Path "HKCU:\Software\Microsoft\Internet Explorer\Recovery" -Name AutoRecover -Value 00000002 -PropertyType DWORD -Force | Out-Null
+    Write-Host "The settings are added successfully."
+}
+Write-Host
+Read-Host -Prompt 'Press any key to exit...' 
+```
+
+The PowerShell script file updates the following URLs to the **Allowed sites** section of the **Pop-up Blocker** settings. You can view and also add the the allowed sites manually by opening **Internet Explorer** > **Settings** > **Internet Options** > **Privacy**. Under the **Pop-up Blocker** section, select Settings and in the **Turn on Pop-up Blocker Settings** window, you can see the sites under the **Allowed sites** section.
+
+ - *.core.windows.net
+ - *.microsoftonline.com
+ - *.office.com
+ - *.powerbi.com
+ - *.dynamics.com
+ - *.crmdynint.com
+ - *.azureedge.net
+ - *.azurewebsites.net
+
+ Based on your organization requirements, you can add any other URLs in allowed sites along with the above-mentioned URLs.
+
+## Set up the recommended settings manually
+
+### Enable popups for trusted sources
  1. Open Internet Explorer.
 
  2.	Select **Tools** > **Internet Options** > **Privacy**.
@@ -89,10 +215,9 @@ Set up the Internet Explorer Settings on the every client desktops for the follo
 
   5. Select **Close**, and then select **OK**.
 
-Based on your organization requirements, you can add any other URLs in allowed sites along with the above-mentioned URLs.
+### Set up Internet Explorer settings
 
 To configure the **Enable Protected Mode** option, **TabProcGrowth** (Tab Process Growth), **TabShutdownDelay** (Tab Shutdown Delay) registry key, and **Enable Automatic Crash Recovery** option, see [Internet Explorer setting guidelines](/dynamics365/customer-engagement/unified-service-desk/admin/internet-explorer-settings-bpa).
-
 
 ## See also
 
