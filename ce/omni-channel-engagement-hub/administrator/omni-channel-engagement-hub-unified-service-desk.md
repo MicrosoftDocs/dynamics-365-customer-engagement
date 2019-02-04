@@ -89,7 +89,7 @@ Download the **AddRecommendedIESettings** PowerShell script file from **Dynamics
 
 4. After the execution, press any key to exit the batch file execution.
 
-The **AddRecommendedIESettings** PowerShell script file contains the following script:
+The **AddRecommendedIESettings** PowerShell script file contains the following snippet:
 
 ```PowerShell
 Write-Host "The powershell script adds necessary registry settings to allow Internet Explorer popups from trusted sources."
@@ -192,6 +192,8 @@ The PowerShell script file updates the following URLs to the **Allowed sites** s
  - *.azurewebsites.net
 
  Based on your organization requirements, you can add any other URLs in allowed sites along with the above-mentioned URLs.
+
+Also, the PowerShell script updates the recommended Internet Explorer settings such as **Enable Protected Mode** option, **TabProcGrowth** (Tab Process Growth), **TabShutdownDelay** (Tab Shutdown Delay) registry key, and **Enable Automatic Crash Recovery** option.
 
 ## Set up the recommended settings manually
 
