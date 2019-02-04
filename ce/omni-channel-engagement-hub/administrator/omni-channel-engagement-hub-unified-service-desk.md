@@ -79,7 +79,7 @@ Download the **AddRecommendedIESettings** PowerShell script file from **Dynamics
 > [!Note]
 > Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
 
-## Run the AddRecommendedIESettings PowerShell script file
+#### Run the AddRecommendedIESettings PowerShell script file
 
 1. Download the **AddRecommendedIESettings** PowerShell script file from the **Dynamics Insider Portal**.
 
