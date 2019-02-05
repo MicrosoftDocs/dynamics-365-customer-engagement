@@ -34,8 +34,6 @@ Omni-channel Engagement Hub enables the following channels and capabilities for 
 
 ## Provision Omni-channel Engagement Hub application
 
-Ensure that you have the required security role or equivalent permissions. For more information, see [Assign roles and enable users for Omni-channel Engagement Hub](add-users-assign-roles.md).
-
 Follow these steps to set up Omni-channel Engagement Hub.
 
 **Step 1**: Get the Omni-channel Engagement Hub app.

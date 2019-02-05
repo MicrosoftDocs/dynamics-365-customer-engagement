@@ -33,7 +33,7 @@ Use the resources in the following sections to learn how to use Omni-channel Eng
 
 ## How-tos
 
-- [View conversation control](left-control-panel.md)
+- [View communication panel](left-control-panel.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)

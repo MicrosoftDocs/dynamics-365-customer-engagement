@@ -8,6 +8,7 @@
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
 
 ## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
+### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 ### [Manage users](administrator/users-user-profiles.md)
 
@@ -40,7 +41,7 @@
 #### [View agent dashboard and agent work items](agent/agent-usd/introduction-agent-dashboard.md)
 #### [View notifications and screen pops](agent/agent-usd/notifications-screen-pop.md)
 #### [View customer summary](agent/agent-usd/customer360-overview-existing-challenges.md)
-#### [View conversation control](agent/agent-usd/left-control-panel.md)
+#### [View communication panel](agent/agent-usd/left-control-panel.md)
 #### [View call scripts, take notes, and search knowledge articles](agent/agent-usd/right-control-panel.md)
 #### [View Omni-channel conversation and Omni-channel session in Dynamics 365 apps](agent/agent-usd/view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer360-incoming-conversation-request.md)
@@ -54,9 +55,11 @@
 #### [Navigate using the navigation bar](agent/agent-csh/csh-navigation-bar.md)
 #### [Navigation bar buttons](agent/agent-csh/csh-navigation-bar-buttons.md)
 #### [View agent dashboard and agent work items](agent/agent-csh/csh-my-dashboard.md)
-#### [View conversation control](agent/agent-csh/csh-conversation-control.md)
+#### [View communication panel](agent/agent-csh/csh-conversation-control.md)
+#### [Set user presence](agent/agent-csh/csh-set-user-presence-status.md)
 #### [View notifications and screen pops](agent/agent-csh/csh-notifications-screen-pops.md)
 #### [View customer summary](agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md)
+#### [Search for and share knowledge articles](agent/agent-csh/csh-search-knowledge-articles.md)
 #### [View conversations and sessions in Dynamics 365 for Customer Engagement apps](agent/agent-csh/csh-view-conversations-sessions-dynamics-365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-csh/csh-create-record.md)
@@ -85,3 +88,4 @@
 ##### [Step 5: Add the action calls to the events](customizer/toastnotification-step5-add-action-calls-events.md)
 ##### [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](customizer/toastnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
+## [Readme](omni-channel-readme.md)
