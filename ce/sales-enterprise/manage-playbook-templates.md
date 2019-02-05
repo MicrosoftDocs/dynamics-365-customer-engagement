@@ -46,7 +46,7 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
     * **Track progress**. Select whether to track the progress of the playbook by creating the activities under a playbook; those activities are in turn linked to the record type that the playbook applies to.
 
-        For example, consider a situation where you have a template created for an opportunity. If you set **Track Progress** to **Yes**, all playbook activities are created under the playbook that is launched from the opportunity record (following the hierarchy Opportunity record &gt; playbook record &gt; activities).
+        For example, consider a situation where you have a template created for an opportunity. If you set **Track Progress** to **Yes**, all playbook activities are created under the playbook that is launched from the opportunity record (following the hierarchy "opportunity record &gt; playbook record &gt; activities").
 
         If you set **Track Progress** to **No**, the playbook activities are created directly under the opportunity record (following the hierarchy Opportunity record &gt; activities).
 
@@ -54,9 +54,9 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
         ![information section on playbook template form](media/playbook-template-information-section.png "Information section on Playbook template form")  
 
-5.  In the **Select record types that this playbook applies to** section, the **Available for box** lists all the entities that are enabled for using playbooks. Select and move the record types to which the current playbook template applies into the **Applies to** box.
+5.  In the **Select record types that this playbook applies to** section, the **Available for** box lists all the entities that are enabled for using playbooks. Select and move the record types to which the current playbook template applies into the **Applies to** box.
 
-    The playbook capability is currently enabled only on Lead, Quote, Opportunity, Order, and Invoice record types. As a playbook manager, when you create a playbook template, you can select which entity that playbook applies to.
+    The playbook capability is currently enabled only on **Lead**, **Quote**, **Opportunity**, **Order**, and **Invoice record types**. As a playbook manager, when you create a playbook template, you can select which entity that playbook applies to.
 
     ![section to select record types the playbook applies to](media/playbook-applies-to.png "Section to select record types the playbook applies to")  
 
