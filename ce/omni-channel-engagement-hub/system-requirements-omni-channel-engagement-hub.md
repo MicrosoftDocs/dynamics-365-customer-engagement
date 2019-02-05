@@ -27,6 +27,10 @@ You can deploy Omni-channel Engagement Hub - Preview solution over a Customer En
 
 ## Pre-requisites
 
+This section explains the pre-requisites for using Omni-channel Engagement Hub.
+
+### Dynamics 365 for Customer Service
+
 To deploy Omni-channel Engagement solution, your organization must have Customer Service Hub application.
 
 More information: [Customer Service Hub app](../customer-service/user-guide-customer-service-hub.md)
