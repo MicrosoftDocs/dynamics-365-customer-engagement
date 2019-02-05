@@ -1,6 +1,6 @@
 ---
-title: "Navigate using the navigation bar of Omni-channel Engagement Hub in Customer Service Hub | MicrosoftDocs"
-description: "Learn about the navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub"
+title: "Navigate using the navigation bar of Omni-channel Engagement Hub in Customer Service Hub app | MicrosoftDocs"
+description: "Learn about the navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -17,25 +17,25 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-The navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub contains the following:
+The navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub app contains the following:
 
 ![Navigation bar buttons of Omni-channel Engagement Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")
 
-1. **Search.** Do a simple search for a record.
+a. **Search.** Do a simple search for a record.
 
-2. **Task flow.** Create an automated task flow between your apps and services.
+b. **Task flow.** Create an automated task flow between your apps and services.
 
-3. **Relationship assistant.**
+c. **Relationship assistant.**
 
-4. **Quick create.** Add a new record.
+d. **Quick create.** Add a new record.
 
-5. **Advanced find.** Do an advanced search using filters, sorting, and criteria.
+e. **Advanced find.** Do an advanced search using filters, sorting, and criteria.
 
-6. **Settings.** Set personal options.
+f. **Settings.** Set personal options.
 
-7. **Help.** Get the help documentation.
+g. **Help.** Get the help documentation.
 
-8. **User.** See user information.
+h. **User.** See user information.
 
 ### Search
 
@@ -84,14 +84,16 @@ Similarly, for the other records, the application displays the quick create form
 
 ## See also
 
-- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
+- [Sign in to Dynamics 365 Customer Service Hub app](csh-sign-dynamics-365-customer-service-hub.md)
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
-- [Sitemap](csh-sitemap.md)
+- [Know the sitemap navigation](csh-sitemap.md)
 - [Navigate using the navigation bar](csh-navigation-bar.md)
-- [Conversation control](csh-conversation-control.md)
+- [View communication panel](csh-conversation-control.md)
+- [Set user presence](csh-set-user-presence-status.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
-- [View conversations and sessions in Dynamics 365 Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
+- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
+- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
 - [Search and link record to the conversation](csh-search-link-record.md)

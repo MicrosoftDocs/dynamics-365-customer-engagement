@@ -34,4 +34,3 @@ Use the resources in the following sections to learn how to use Omni-channel Eng
 - [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
-

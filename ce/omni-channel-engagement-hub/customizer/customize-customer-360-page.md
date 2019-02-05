@@ -24,7 +24,7 @@ The **Customer profile** form (card) provides details about the customer or acco
 
 ## Conversation summary
 
-The **Conversation summary** form (card) fetches details based on the context of the incoming conversation request. You can modify the fields in this form (card). However, you can change the position of the form (card) on the **Customer summary** page.
+The **Conversation summary** form (card) fetches details based on the context of the incoming conversation request. You can modify the fields in this form (card), and also, you can change the position of the form (card) on the **Customer summary** page.
 
 This form (card) includes two tabs: **Pre-chat** and **Visitor info**. The details on these tabs help you to understand contextual channel-specific information about the conversation with the customer. The **Pre-chat** tab shows the conversation details, escalation details, and transfer details.
 
