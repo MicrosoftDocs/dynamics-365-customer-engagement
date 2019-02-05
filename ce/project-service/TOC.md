@@ -123,5 +123,5 @@
 ### [Collaborate using Office 365 Groups](collaborate-project-team-members-office-365-groups.md)
 ### [Find projects with Project Finder mobile](find-next-project-finder-mobile-app.md)
 ### [Project Resource Hub guide](project-resource-hub-users-guide.md)
-## [Notes for developers (app version 2.x)](../project-service/developer-guides/overview-dev-notes-v2.x.md)
+## Notes for developers (app version 2.x)
 ### [How to add new custom forms for Opportunity, Quote, Order or Invoice entity](../project-service/developer-guides/how-to-add-custom-qoi-forms-in-v2.x.md)
