@@ -1,5 +1,5 @@
 ---
-title: Tracking project progress and cost consumption
+title: Project progress and cost consumption
 description: This topic provides information about tracking project progress and cost consumption.
 author: ruhercul
 manager: kfend
@@ -21,7 +21,7 @@ search.app:
   - D365PS
 ---
     
-# Tracking project progress and cost consumption
+# Project progress and cost consumption
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
