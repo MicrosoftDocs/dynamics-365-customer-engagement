@@ -27,11 +27,11 @@ topic-status: Tech Reviewing
 <!--note from editor: In sentence "The playbook defines activities a team member must carry out....." Revise to something like "The playbook defines an organization's best-practices response to such an event." This will avoid the use of "must", which the Microsoft Writing Style Guide discourages.--> 
  
 
-Playbooks in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] guide team members on how to respond to events such as a decision maker leaving the organization while the team is working on a deal with that decision maker. The playbook defines activities a team member must carry out in such an event. Playbooks can also streamline and automate recurring tasks such as renewing contracts. 
+Use playbooks in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to guide team members on how to respond to events--when a decision maker leaves an organization while the team is working on a deal with that decision maker, for example. The playbook defines activities a team member must carry out in such an event. Playbooks can also streamline and automate recurring tasks such as renewing contracts. 
 
-To start, anyone with playbook manager role or equivalent permissions creates playbook categories to classify the playbooks. Then, the playbook manager creates playbook templates that define a set of best practices based on past experiences and their organization's standards. Business users such as a sales person or a service rep with the playbook user role can then open one of these playbook templates while they work on their records to ensure that best practices are applied consistently at every step.
+To start, a team member with a **Playbook manager** role or equivalent permissions creates playbook categories to classify the playbooks. Then, the playbook manager creates playbook templates that define a set of best practices based on past experiences and their organization's standards. A business user such as a sales person or service rep who has been assigned a **Playbook user** role can then open one of these playbook templates while they work on their records. The playbook template helps ensure that best practices are applied consistently at every step.
 
-<!--note from editor: In last sentence in line 37, change "individual geographies" to "selected countries or regions" ?-->
+<!--note from editor: In last sentence in line 37, change "individual geographies" to "selected countries or regions" ?. Microsoft Writers Style Guide says not to use "geography" as a synonym for "country or region."-->
 
 > [!NOTE]
 > The playbook capability is currently available only in the Sales Hub app in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. It is being released with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] application version 9.0.1810.4006 or later and the server version 9.1.0.0263 or later, as part of weekly releases of the product to individual geographies. 
