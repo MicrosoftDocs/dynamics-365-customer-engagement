@@ -102,14 +102,14 @@ To publish a playbook:
 1. In the list of playbook template records, select the playbook template you want to publish.
 2. On the command bar, select **Publish**.
 
-  Or
+    Or
 
 * Open the playbook template, and on the command bar, select **Publish**.
 
 > [!NOTE]
 > The playbook template you’re trying to publish must have the following:
- -   At least one playbook activity added.
- -   At least one record type to which the playbook template applies.
+  -   At least one playbook activity added.
+  -   At least one record type to which the playbook template applies.
 
 > [!IMPORTANT]
 > After you publish a template, you can’t edit it. To make changes to a published playbook template, on the command bar, select **Revise**.
