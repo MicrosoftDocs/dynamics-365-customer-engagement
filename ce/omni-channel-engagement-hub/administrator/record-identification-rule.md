@@ -1,7 +1,7 @@
 ---
 title: Set up pre-chat questions to automatically load customer details for work streams | MicrosoftDocs
 description: See how you can Set up pre-chat questions to automatically load customer details for work streams in the Omni-channel Engagement Hub
-keywords: set up record identification rules for work streams; Omni-channel Engagement Hub
+keywords: set up pre-chat questions to automatically load customer details for work streams; Omni-channel Engagement Hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi

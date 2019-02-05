@@ -14,7 +14,9 @@
 ### Work distribution settings
 #### [Understand work streams](administrator/work-streams-introduction.md)
 #### [Create and manage work streams](administrator/create-work-streams.md)
-##### [Understand record identification rule](administrator/record-identification-rule.md)
+#### [Create a new live chat work stream](administrator/create-work-streams.md#create-a-new-live-chat-work-stream)
+#### [Create a new CDS Entity work stream](administrator/create-work-streams.md#create-a-new-cds-entity-work-stream)
+#### [Set up pre-chat questions to automatically load customer details](record-identification-rule.md)<br>
 #### [Create and manage routing rules](administrator/routing-rules.md)
 #### [Work with queues](administrator/queues-omni-channel.md)
 

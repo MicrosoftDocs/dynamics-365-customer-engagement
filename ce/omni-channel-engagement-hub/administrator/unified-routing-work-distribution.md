@@ -40,7 +40,7 @@ To effectively route and distribute work to agents, admins can set up the follow
 - [Understand work streams in the Omni-channel Engagement Hub](work-streams-introduction.md)
 - [Create and manage work streams](create-work-streams.md)
 - [Work with queues](queues-omni-channel.md)
-- [Set up record identification rule](record-identification-rule.md)
+- [Set up pre-chat questions to automatically load customer details](record-identification-rule.md)<br>
 - [Create and manage routing rules](routing-rules.md)
 - [Configure and manage presence status](presence-custom-presence.md)
 
