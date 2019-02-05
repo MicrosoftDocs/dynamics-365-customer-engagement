@@ -1,5 +1,5 @@
 ---
-title: Estimating project cost and revenue
+title: Project costs and revenue
 description: This topic provides information about estimating project costs and revenue in Project Service.
 author: ruhercul
 manager: kfend
@@ -21,7 +21,7 @@ search.app:
   - D365PS
 ---
 
-# Estimating project cost and revenue
+# Project costs and revenue
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
