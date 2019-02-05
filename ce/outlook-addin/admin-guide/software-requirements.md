@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Outlook software requirements | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/17/2018
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -88,7 +88,7 @@ search.app:
   > [!NOTE]
   >  Installed from [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)] only.  
   
-- [!INCLUDE[pn_NET_Framework_452_long](../../includes/pn-net-framework-452-long.md)].  
+- Microsoft .NET Framework 4.6.2.  
   
 - Microsoft Windows Installer 4.5.  
   

@@ -2,7 +2,7 @@
 title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps system requirements | MicrosoftDocs"
 description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk for Dynamics 365 for Customer Engagement apps. "
 keywords: 
-ms.date: 11/02/2018
+ms.date: 01/25/2019
 ms.service:
   - dynamics-365-customerservice
 ms.custom:
@@ -61,7 +61,7 @@ This topic provides information about the system requirements for installing the
 
 > [!NOTE]
 > - [!INCLUDE [pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] or higher version installs [!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)]. 
-> - [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] version installs [!INCLUDE[pn_NET_Framework_452_long](../../includes/pn-net-framework-452-long.md)].
+> - [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] version installs Microsoft .NET Framework 4.6.2.
 
 
 - [!INCLUDE[pn_Windows_Identity_Foundation](../../includes/pn-windows-identity-foundation.md)] 3.5 (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)  

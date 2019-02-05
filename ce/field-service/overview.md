@@ -21,11 +21,11 @@ search.app:
   - D365FS
 ---
 
-# Overview of Dynamics 365 for Customer Engagement for Field Service 
+# Overview of Dynamics 365 for Field Service 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The Dynamics 365 for Customer Engagement for Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set mobile workers up for success when they're onsite with customers fixing issues. 
+The Dynamics 365 for Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set mobile workers up for success when they're onsite with customers fixing issues. 
 
 The Field Service application enables you to:
 
@@ -85,7 +85,7 @@ Work orders describe the work that a technician needs to perform at a customer l
     The schedule board displays each resource--whether an employee, contractor, or equipment--and their scheduled work orders. Resources and their assigned jobs are also displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365 for Customer Engagement, including work orders, sales orders, projects, and custom entities. Additionally, Office 365 integration allows for emailing and skype calling to available resources.
 > ![Screenshot of schedule board](media/work-order-process-2.png) 
 
-3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history, and can use his/her device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet is not available. 
+3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history, and can use his or her device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet is not available. 
 
     After performing the work, the technician can mark the work order as complete or as requiring a follow up; the dispatcher can then see this change on the schedule board.
 > ![Screenshot of mobile app](media/work-order-process-3.png)
@@ -98,5 +98,5 @@ Work orders describe the work that a technician needs to perform at a customer l
 ## Watch an overview video
 In this video, see how the interactive schedule board and other tools help a service team resolve a customer's issue.
 
- <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 for Customer Engagement for Field Service](../field-service/media/field-service-manage-mobile-workforce.PNG "Manage your mobile workforce with Dynamics 365 for Customer Engagement for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
+ <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.PNG "Manage your mobile workforce with Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
 

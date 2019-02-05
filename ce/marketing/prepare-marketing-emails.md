@@ -223,7 +223,7 @@ The inbox preview is provided by a [!INCLUDE[cc-microsoft](../includes/cc-micros
 The **Inbox Preview** tab displays a grid of icons, each labeled with the name of a different destination platform or email client. Initially, each preview is dimmed and shows a key (locked) icon, which means that you haven't yet generated that preview by using your current design and settings. Select one of these icons to generate that preview and unlock its icon. Each time you unlock a preview, you'll use one preview from either your organization's or your personal quota. The unlocked preview remains available for viewing until you change the design or the **Properties** (dynamic text) settings, at which time all existing previews will no longer be valid and will be shown as locked again.
 
 > [!NOTE]
-> Litmus must be enabled for your site before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Default marketing settings](marketing-settings.md#marketing-configuration)
+> Litmus must be enabled for your instance before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Default marketing settings](marketing-settings.md#marketing-configuration)
 
 <a name="error-check"></a>
 
@@ -245,6 +245,7 @@ The following are also confirmed by the check:
 - All dynamic expressions and HTML code must compile and generate valid values.
 - All referenced images must exist in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 - The To field must be an expression (not static) that results in a valid email address; this is normally handled automatically by the customer journey that sends the mail, but some advanced scenarios allow for customization here.
+- The from-address should use a domain that is authenticated and registered using DKIM as belonging to your organization. You can go live with a from-address that uses an unauthenticated domain, but you'll get a warning because this isn't recommended. You can't go live with a domain that is authenticated as belonging to another organization (this generates an error). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Authenticate your domains](marketing-settings.md#authenticate)
 
 ## Go live and set up a customer journey to deliver your message
 

@@ -2,8 +2,8 @@
 
 title: How do I assign a bookable resource to a task in the web app (Project Service app v2.x)? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: An overview of the ways you can assign bookable resources in Dynamics 365 for Customer Engagement Project Service.
-author: NeilWOrint 
-manager: ShellyHa
+author: JohnPBurrows 
+manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice

@@ -1,7 +1,7 @@
 ---
 title: "Performance tuning and optimization | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 02/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: 4ef042d3-fd5f-42e8-8209-0e8797ae2114
 caps.latest.revision: 11
 author: Mattp123
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -26,3 +26,17 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Use this information to help you plan and optimize application performance with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+
+We recommend that you not run operations that require intensive database transactions concurrently. Similarly, don’t run operations that require intensive database transactions during normal business hours when users are most likely to access the system. 
+
+Operations that require intensive database transactions examples:
+- Enabling one or more language packs
+- Solution import, upgrade, delete, or export
+- Install or upgrade apps from [!INCLUDE [pn-microsoft-appsource](../includes/pn-microsoft-appsource.md)] or the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] 
+- Publishing customizations
+- Large bulk record operations, such as a business unit change when the business unit has a very large number of records associated
+
+### See also
+[Verify network capacity and throughput for clients](verify-network-capacity-throughput-clients.md) <br />
+[Key preparation and configuration tasks](key-preparation-and-configuration-tasks.md) <br />
+

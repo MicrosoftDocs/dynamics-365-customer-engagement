@@ -65,7 +65,7 @@ if (context.InputParameters.Contains("Target") &&
 
 ## Additional information
 
-Tracing is especially useful to troubleshoot Dynamics 365 for Customer Engagement (online) registered custom code as it is the only supported troubleshooting method for that scenario. Tracing is supported for `sandboxed` (partial trust) and full trust registered custom code and during synchronous or asynchronous execution. Tracing isn’t supported for custom code that executes in Microsoft Dynamics 365 for Customer Engagement for Outlook or other mobile client.
+Tracing is especially useful to troubleshoot Dynamics 365 for Customer Engagement (online) registered custom code as it is the only supported troubleshooting method for that scenario. Tracing is supported for `sandboxed` (partial trust) and full trust registered custom code and during synchronous or asynchronous execution. Tracing isn’t supported for custom code that executes in Microsoft Dynamics 365 for Outlook or other mobile client.
 
 <a name='seealso'></a>
 

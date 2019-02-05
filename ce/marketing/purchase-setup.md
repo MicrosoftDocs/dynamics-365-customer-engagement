@@ -47,6 +47,7 @@ After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-nam
 > 
 > - You must already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
 > - **You must be running [!include[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or higher** (supplied together with most trial and stand-alone [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setups).
+> - You must not already have a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app installed on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance. You can have at most one [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] per [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance, and each  [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app can only be used with one [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance.
 > - You must sign into your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant with a user account that has all the following:
 >   - A [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license assigned to you on your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
 >   - Admin privileges on the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance where you are installing [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
@@ -62,10 +63,10 @@ After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-nam
 > [!IMPORTANT]
 > Your system is constrained by certain limits and quotas that apply to the number of contacts you can market to, monthly email messages you can send, monthly Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product.
 > 
-> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
+> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 > - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
 > 
-> You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced Settings**  >  **Others**  >  **Quota Limits**  in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
+> You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
 > 
 > See also the  [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
