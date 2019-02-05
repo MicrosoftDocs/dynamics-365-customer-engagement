@@ -36,7 +36,7 @@ Use the below question names to create pre-chat questions for an **Unauthenticat
 |Phone      |  Single line       |   
 |    |         |         |
 
-For **Authenticated chat**, the details that a customer enters, are used to search and load customer information in the **Customer summary** page. However, you can create a pre-chat question for **Case Number** to allow identification of the relevant case for the current conversation.
+For **Authenticated chat**, the logged in user details will be used to search and load contact information in the **Customer summary** page. You can add pre-chat question for **Case Number** to allow identification of the relevant case for the current conversation.
 
 |Question name  |Answer type  |
 |---------|---------|---------|
