@@ -46,4 +46,4 @@ When an agent logs in to Unified Service Desk client application, the client app
 If agent is logged into Office 365 or Dynamics 365 through a different username in the browser (IE or Edge) than the one used for USD login, an authentication error is shown and user is not allowed to login. As a workaround, user should logout from all other accounts on the browser and try logging back in. 
 
 ## Transfer to queue does not show a message for the initiating agent 
-When an agent initiates a transfer, the initiating agent becomes a consulting agent without any user interface message. However, the session tab name shows the **Consult** tag.
+When an agent initiates a transfer, the initiating agent becomes a consulting agent without any user interface message. However, the session tab name shows the **Consult** tag as the initiating agent is added to the same conversation as a consulting agent to enable smooth transition.

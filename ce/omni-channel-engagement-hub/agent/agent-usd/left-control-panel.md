@@ -25,7 +25,6 @@ In chat channel, you can see the following options:
  | Public           | Send messages to public |
  | Internal         | Send messages to internal users |
  | Quick replies    | Send templatized messages  |
- | Notes            | Take notes specific to conversation |
  | Knowledge articles | Search for knowledge articles and share |
  | Consult          | View list to consult with other users | 
  | Transfer         | View list to transfer the request |
@@ -53,9 +52,9 @@ You can use keyboard shortcuts to send internal and public messages:
 
 - **Slash+P** – Press the Slash (/) key and the letter P to send a public message to all the participants in the interaction.
 
-## Send templatized messages in the chat
+## Send quick replies in the chat
 
-The communication panel allows you to send templatized messages to the customer with whom your're interacting with. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send it to the customers.
+The communication panel provides you the capability to send templatized messages to the customer with whom you're interacting. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send it to the customers.
 
 > [!div class=mx-imgBorder]
 >![omni-channel quick response](../../media/oc-usd-cc-quick-replies.png "Omni-channel quick response")
@@ -64,13 +63,13 @@ You can use a keyboard shortcut to see the list of quick replies. Press the Slas
 
 ## Search for and share knowledge articles
 
-From the communication panel control, you can launch the knowledge article search control using the knowledge article option. After launching the knowledge article search control, you can search for relevant knowledge articles, based on the context of the session, and then share the articles with the customers.
+From the communication panel, you can launch the knowledge article search control using the knowledge article option. After launching the knowledge article search control, you can search for relevant knowledge articles, based on the context of the session, and then share the articles with the customers.
 
 You can use a keyboard shortcut to launch the knowledge article search control in the right panel. Press the Slash (/) key and the letters K and B (**/+K+B**). You can search for and share articles with customers through the communication panel. Select the **Send link** button to share the link of a knowledge article with the customer. More information: [Search for knowledge articles](right-control-panel.md#search-for-knowledge-articles)
 
 ## Consult with agent or supervisor
 
-The communication panel allows you to consult with other agents and/or supervisor using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel.
+The communication panel lets you to consult with other agents and/or supervisor using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel.
 
 > [!div class=mx-imgBorder]
 >![omni-channel consult](../../media/oc-usd-cc-consult.png "Omni-channel consult")  
