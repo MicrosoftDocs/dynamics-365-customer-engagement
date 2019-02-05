@@ -392,7 +392,7 @@ Read-Host -Prompt 'Press any key to exit...'
 ```
 ## See also
 
-- [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
-- [Customize Customer summary form](customize-customer-360-page.md)
-- [Customize the conversation form](customize-conversation-form.md)
-- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+- [Configure agent and supervisor configurations in Unified Service Desk](../customizer/create-agent-supervisor-configurations-unified-service-desk.md)
+- [Customize Customer summary form](../customizer/customize-customer-360-page.md)
+- [Customize the conversation form](../customizer/customize-conversation-form.md)
+- [Configure notification (Screen pop) for agents](../customizer/configure-notification-screen-pop-agents.md)
