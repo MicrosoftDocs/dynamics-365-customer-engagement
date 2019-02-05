@@ -80,7 +80,7 @@ To download a document:
 * In the **Documents** list, select a row and select **Download**.
 
 To view a document:
-* in the **Documents** list, select the document name.
+* In the **Documents** list, select the document name.
 
 
 ### See also
