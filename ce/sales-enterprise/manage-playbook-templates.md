@@ -108,8 +108,8 @@ To publish a playbook:
 
 > [!NOTE]
 > The playbook template you’re trying to publish must have the following:
-  -   At least one playbook activity added.
-  -   At least one record type to which the playbook template applies.
+>   -   At least one playbook activity added.
+>   -   At least one record type to which the playbook template applies.
 
 > [!IMPORTANT]
 > After you publish a template, you can’t edit it. To make changes to a published playbook template, on the command bar, select **Revise**.
