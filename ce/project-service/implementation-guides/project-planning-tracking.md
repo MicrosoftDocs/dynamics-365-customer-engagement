@@ -1,5 +1,5 @@
 ---
-title: Project Planning and Tracking
+title: Project planning and tracking
 description: This topic provides a link to information about planning and tracking in Project Service Automation.
 author: kfend
 manager: kfend
@@ -26,7 +26,7 @@ search.app:
 
 The Project Service application helps service organizations identify opportunities, submit bids, reach contractual agreements, manage resources, track time and expenses, invoice customers, and deliver projects on time and within budget. 
 
-The pdf that was previously linked to has been removed and the content has been moved to the followign topics:
+The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:
 
 - [Creating a schedule](project-creating.md)
 - [Estimating project cost and revenue](project-estimating.md)
@@ -36,3 +36,5 @@ The pdf that was previously linked to has been removed and the content has been 
 - [Project stages](project-stages.md)
 - [Project settings](project-settings.md)
 
+> [!NOTE]
+> This topic will be removed in a future documentation update. 
