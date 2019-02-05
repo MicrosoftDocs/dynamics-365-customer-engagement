@@ -37,6 +37,7 @@ ms.custom:
 
 4.  In the app selection dialog, select the **Omni-channel Engagement Hub** app from the list.
 
+
 You signed in to Unified Service Desk - Omni-channel Engagement Hub application.
 
 > [!div class="nextstepaction"]

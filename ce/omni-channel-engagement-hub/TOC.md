@@ -3,7 +3,7 @@
 ## Get started
 ### [Introduction](introduction-omni-channel.md)
 ### [Pre-requisites and system requirements](system-requirements-omni-channel-engagement-hub.md)
-### [Enable users for Omni-channel Engagement Hub](administrator/add-users-assign-roles.md)
+### [Assign roles and enable users for Omni-channel Engagement Hub](administrator/add-users-assign-roles.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
 
@@ -15,7 +15,9 @@
 ### Work distribution settings
 #### [Understand work streams](administrator/work-streams-introduction.md)
 #### [Create and manage work streams](administrator/create-work-streams.md)
-##### [Understand record identification rule](administrator/record-identification-rule.md)
+#### [Create a new live chat work stream](administrator/create-work-streams.md#create-a-new-live-chat-work-stream)
+#### [Create a new CDS Entity work stream](administrator/create-work-streams.md#create-a-new-cds-entity-work-stream)
+#### [Set up pre-chat questions to automatically load customer details](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 #### [Work with queues](administrator/queues-omni-channel.md)
 

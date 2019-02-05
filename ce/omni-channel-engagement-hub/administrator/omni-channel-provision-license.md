@@ -98,7 +98,7 @@ On successful set up, you can view the org and the enabled channel in the **Mana
 
 ### See also
 
-[Enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
+[Assign roles and enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
 
 [Manage users](users-user-profiles.md)
 

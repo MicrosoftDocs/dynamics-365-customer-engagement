@@ -40,18 +40,14 @@ A work stream comprises of the following properties:
     For more information, see [View agent dashboard and agent work items](../agent/agent-usd/introduction-agent-dashboard.md).
  
 
-- **Context attributes**: Context attributes enrich conversations with pre-chat data and channel data. For example, for a chat conversation, context attributes include browser information, IP address, answers to pre-chat questions, customer ID (for authenticated chat), time spent on a page and more. These variables can then be used to define routing rules to route conversations into different queues. 
+- **Context attributes**: Context attributes enrich conversations with pre-chat data and channel data. These attributes can then be used to define routing rules to route conversations into different queues. 
    > [!NOTE]
    > For this preview, context variables are applicable only for live chat.
 
-- **Record Identification Rules**: Record identification rules help agents identify and assist customers better by showing their details on the **Customer summary** page. 
-
-    For more information, see [Understand record identification rule](record-identification-rule.md).
-
-    > [!NOTE]
-    > In this preview, the record identification rules are pre-configured in the work streams out-of-the-box.
-
 - **Routing rules**: Routing rules are configured for each work stream, so that conversations can be routed to the correct queues. For more information, see [Create and manage routing rules in omni-channel](routing-rules.md). 
+
+> [!IMPORTANT]
+> You can view customer details for an incoming conversation with the help of customer summary identification rules pre-configured in the work streams out-of-the-box. These rules are further mapped to a limited set of pre-chat survey questions. As a customer completes a pre-chat survey for an incoming conversation, the information can be used to identify the customer. </br> </br> To know more about how to configure pre-chat survey questions, see [Set up pre-chat questions to automatically load customer details](record-identification-rule.md)
 
 
 ### See also

@@ -13,14 +13,16 @@ ms.assetid: be3d6733-4d16-48d0-b231-6a6a2dd5d939
 ms.custom: 
 ---
 
-# Enable users for Omni-channel Engagement Hub
+# Assign roles and enable users for Omni-channel Engagement Hub
 
-All users who are assigned the **Omni-channel supervisor** or **Omni-channel agent** security role are enabled for omni-channel and become omni-channel users.
+All Dynamics 365 users who are assigned the **Omni-channel administrator**, **Omni-channel supervisor**, or **Omni-channel agent** role are enabled for omni-channel and become omni-channel users.
 
-> [!NOTE]
-> All customization tasks for the Omni-channel Engagement Hub must be done in the Microsoft Dynamics 365 for Customer Engagement web application.
+> [!IMPORTANT]
+> To enable users for Omni-channel, your org should have successfully on-boarded to the Omni-channel public preview. Refer [Provision Omni-channel Engagement Hub](omni-channel-provision-license.md) to provision Omni-channel in your Dynamics 365 org.
 
-Follow these steps to assign omni-channel roles to users:
+Use the Office 365 Admin Center to create user accounts for every user who needs access to Omni-channel Engagement Hub. For more information, see  [Create users in Dynamics 365 for Customer Engagement apps and assign security roles](../../admin/create-users-assign-online-security-roles.md).
+
+Follow these steps to assign omni-channel roles to users in the Dynamics 365 web application:
 
 1. Select **Settings** > **Security** > **Users**.
 
@@ -37,8 +39,21 @@ Follow these steps to assign omni-channel roles to users:
 
 To view and manage omni-channel users, see [Manage users in Omni-channel Engagement Hub](users-user-profiles.md).
 
+## Understand roles and their privileges 
+
+Each role in Omni-channel Engagement Hub can perform a set of actions based on the privileges. 
+
+|Role  |Privileges  |
+|---------|---------|
+|Omni-channel administrator     |        |
+|      |       |
+|     |        |
+|   |         |
+|Omni-channel supervisor  |      |
+|    |       |
+|  Omni-channel agent  |        |
+
+
 ### See also
 
-[Create users in Dynamics 365 (online)](../../admin/create-users-assign-online-security-roles.md)
-
-[Assign a security role to a user](../../admin/create-users-assign-online-security-roles.md#assign-a-security-role-to-a-user)
+[Manage users in Omni-channel Engagement Hub](users-user-profiles.md)
