@@ -129,7 +129,7 @@ Here's how to configure each of the options that's described as optional in the 
 
 ## Generate and match contacts and leads from event registrations
 
-When a new event registration is submitted to your site, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] looks to see if a matching contact record already exists. If a match is found, then a new event registration is created and linked to that contact. If no match is found, a new contact record is created and linked to the new registration record. 
+When a new event registration is received, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] looks to see if a matching contact record already exists. If a match is found, then a new event registration is created and linked to that contact. If no match is found, a new contact record is created and linked to the new registration record. 
 
 Your admin can choose to match incoming registrations by email alone; first name and last name; or email, first name, and last name. For details about how to choose your matching strategy, see [Event administration](events-settings.md#event-admin).
 
