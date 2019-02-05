@@ -28,13 +28,13 @@ The Project Service application helps service organizations identify opportuniti
 
 The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:
 
-- [Creating a schedule](project-creating.md)
-- [Estimating project cost and revenue](project-estimating.md)
-- [Leveraging the schedule and estimates](project-leveraging.md)
-- [Tracking project progress and cost consumption](project-tracking.md)
-- [Project templates](project-templates.md)
-- [Project stages](project-stages.md)
-- [Project settings](project-settings.md)
+- [Project schedules](../project-creating.md)
+- [Project costs and revenue](../project-estimating.md)
+- [Sales estimates and projects](../project-leveraging.md)
+- [Project progress and cost consumption](../project-tracking.md)
+- [Project templates](../project-templates.md)
+- [Project stages](../project-stages.md)
+- [Project settings](../project-settings.md)
 
 > [!NOTE]
 > This topic will be removed in a future documentation update. 
