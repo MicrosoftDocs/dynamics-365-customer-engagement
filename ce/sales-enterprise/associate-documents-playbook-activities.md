@@ -23,7 +23,7 @@ topic-status: Tech Reviewing
 
 ## Preview: Associate documents with playbook activities
 
-[!INCLUDE cc-beta-prerelease-disclaimer]
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!NOTE]
 >   - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)] 
@@ -35,7 +35,7 @@ For example, create a playbook template that sales reps can follow when the deci
 
 ### Prerequisites
 
-So that you can add documents, make sure that document management for the playbook activity entity is enabled. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](../admin/enable-sharepoint-document-management-specific-entities.md), [Set up SharePoint integration](../admin/set-up-sharepoint-integration.md)
+So that you can add documents, make sure that document management for the playbook activity entity is enabled. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](../admin/enable-sharepoint-document-management-specific-entities.md), [Set up SharePoint integration](../admin/set-up-sharepoint-integration.md).
 
 ### Add documents 
 
