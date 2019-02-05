@@ -40,7 +40,7 @@ In this work stream, you see the work items in a waiting state from all queues t
 In the **Closed conversations** work stream, you see all the conversations that you've completed during the past 24 hours. The work stream refreshes to reflect the conversations that you closed in past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
 > [!div class="nextstepaction"]
-> [Next topic: Conversation control](csh-conversation-control.md)
+> [Next topic: View communication panel](csh-conversation-control.md)
 
 ## See also
 
@@ -49,6 +49,7 @@ In the **Closed conversations** work stream, you see all the conversations that 
 - [Know the sitemap navigation](csh-sitemap.md)
 - [Navigate using the navigation bar](csh-navigation-bar.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
+- [Set user presence](csh-set-user-presence-status.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)

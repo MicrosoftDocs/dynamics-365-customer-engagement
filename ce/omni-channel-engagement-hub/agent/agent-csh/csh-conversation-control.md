@@ -126,31 +126,8 @@ Use a keyboard shortcut to see the list of queues to transfer the conversation r
 
 **/T** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation to. The **/T** shortcut keeps the focus on the agent tab whereas the **/TQ** shortcut keeps the focus on the queue tab.
 
-### Set your presence
-
-Presence is the indication of your (agent) availability or status. 
-
-Presence status is updated in two ways: 
-- **Manually** - Change the status manually according your availability.<br> To view and set the presence, select the status icon at the bottom-right corner and then select the status from the list to update your status manually. The list shows five standard presence statuses: 
-
-  - Available
-  - Away
-  - Busy
-  - Do Not Disturb
-  - Offline
-
-    Also, you may see any other additional presence statuses that your administrator configured for you.
-
-  > [!div class=mx-imgBorder]
-  > ![Agent presence status](../../media/csh-oc-presence.png "Agent presence status")
-
-- **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity.
-  a. When your capacity is completely utilized the presence is set to **BusyDND**.
-  b. When your capacity is partially utilized the presence is set to **Busy**. 
-  c. When your capacity is not utilized the presence is set to **Available**.
-
 > [!div class="nextstepaction"]
-> [Next topic: View notifications and screen pops](csh-notifications-screen-pops.md)
+> [Next topic: Set user presence](csh-set-user-presence-status.md)
 
 ## See also
 
@@ -159,6 +136,7 @@ Presence status is updated in two ways:
 - [Know the sitemap navigation](csh-sitemap.md)
 - [Navigate using the navigation bar](csh-navigation-bar.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
+- [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [View customer summary and know everything about customers about your cusotmers](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)

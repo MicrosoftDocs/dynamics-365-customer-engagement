@@ -54,6 +54,7 @@
 #### [Navigation bar buttons](agent/agent-csh/csh-navigation-bar-buttons.md)
 #### [View agent dashboard and agent work items](agent/agent-csh/csh-my-dashboard.md)
 #### [View communication panel](agent/agent-csh/csh-conversation-control.md)
+#### [Set user presence](agent/agent-csh/csh-set-user-presence-status.md)
 #### [View notifications and screen pops](agent/agent-csh/csh-notifications-screen-pops.md)
 #### [View customer summary](agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md)
 #### [View conversations and sessions in Dynamics 365 for Customer Engagement apps](agent/agent-csh/csh-view-conversations-sessions-dynamics-365-apps.md)
