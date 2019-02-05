@@ -39,11 +39,9 @@ In the **My work items** stream, you see all the conversations (work items) that
 
 In the **Open work items** stream, you see all the conversations that are in the **Open** state and are available for you to pick. Conversations (work items) are shown for all the queues where you're added as a member. Select the ellipsis button (**...**) for a conversation (work item), and then select **Pick** to assign the work item to yourself. When you select **Pick**, the system moves the conversation (work item) from **Open work items** stream to the **My work items** stream, and you can see the following message: **Work item picked successfully. Work item: < Subject of the work item >**.
 
-<!-- Need to check with Nikita on the message -->
-
 ## Closed work items
 
-In the **Closed work items** stream, the stream refreshes and shows you see all the conversations that you've closed in the past 24 hours. To view a closed conversation (work item), select the ellipsis button (**...**) for it, and then select **Open** to view the details.
+In the **Closed work items** stream, the stream refreshes and shows you all the conversations that you've closed in the past 24 hours. To view a closed conversation (work item), select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
 > [!div class="nextstepaction"]
 > [Next topic: View notifications and screen pops](notifications-screen-pop.md)
