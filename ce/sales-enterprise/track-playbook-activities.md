@@ -75,7 +75,7 @@ If a sales manager has added sales brochures or training docs to a playbook acti
 To view or download a document, in the activity form, select the **Related** tab, and then select **Documents**.
 
 To download a document: 
-* In the **Documents** list, select a row and select **Download**.
+* In the **Documents** list, select a row, and then select **Download**.
 
 To view a document:
 * In the **Documents** list, select the document name.
