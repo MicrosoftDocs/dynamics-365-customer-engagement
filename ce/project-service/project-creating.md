@@ -1,5 +1,5 @@
 ---
-title: Creating a schedule 
+title: Project schedules 
 description: This topic provides information about creating a schedule in Project Service (PSA).
 author: ruhercul
 manager: kfend
@@ -21,7 +21,7 @@ search.app:
   - D365PS
 ---
 
-# Creating a schedule 
+# Project schedules 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
