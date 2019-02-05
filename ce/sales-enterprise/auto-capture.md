@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Applies to Dynamics 365 for Customer Engagement (online), version 9.1.0<br>
 
-Auto capture enables [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] to access your email in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] to find and display messages that are related to your work in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md). This makes it easy to see your relevant email messages together with all of the other activities that are related to a given record in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md). Each message remains private and visible only to you unless you choose to convert it to a *tracked email*, which you can do with just one click to make that email visible to the rest of your team in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)].  
+Auto capture enables [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] to access your email in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] to find and display messages that are related to your work in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]. This makes it easy to see your relevant email messages together with all of the other activities that are related to a given record in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]. Each message remains private and visible only to you unless you choose to convert it to a *tracked email*, which you can do with just one click to make that email visible to the rest of your team in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)].  
   
 Auto capture is part of the *Embedded intelligence* suite of features. 
   
@@ -34,21 +34,21 @@ The administrator must enable auto capture before you can try it out. For comple
   
 ## View auto-captured messages and convert them into tracked messages  
 
- Messages found by auto capture are merged with other relevant [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md) activities and shown in the **Activities** column for the record they apply to. You can see them on Contact, Opportunity, Lead, Account, Case, and Custom entities. So, for example, if you are looking at an opportunity in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md), then the **Activities** column shows all of the activities you have logged for that opportunity, plus up to 50 recent email messages in your [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] account that were sent to or from the primary contact for that opportunity or  its stakeholders.  
+ Messages found by auto capture are merged with other relevant [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)] activities and shown in the **Activities** column for the record they apply to. You can see them on Contact, Opportunity, Lead, Account, Case, and Custom entities. So, for example, if you are looking at an opportunity in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)], then the **Activities** column shows all of the activities you have logged for that opportunity, plus up to 50 recent email messages in your [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] account that were sent to or from the primary contact for that opportunity or  its stakeholders.  
   
  ![Auto capture messages in the Activities column](media/auto-capture-messages-the-activities-column.png "Auto capture messages in the Activities column")  
   
  The figure shows both tracked and auto-captured (not tracked) messages in the **Activities** column, and highlights the following:  
   
-1. **Tracked message**: This message is already being tracked, so it is already imported into [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md) and is being shared with your team. It shows a black symbol and does not include any tracking controls or messages.  
+1. **Tracked message**: This message is already being tracked, so it is already imported into [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)] and is being shared with your team. It shows a black symbol and does not include any tracking controls or messages.  
   
 2. **Auto capture messages**: These messages were found by the auto capture feature. They have been identified as possibly being relevant to the current record, but they are still private so only you can see them. Compared to tracked messages, these messages show a gray symbol and a dotted border, and include a **Track** link and a private email label.  
   
-3. **Track link**: Select the link to convert a private message found by auto capture to a tracked message in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md).
+3. **Track link**: Select the link to convert a private message found by auto capture to a tracked message in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)].
   
-4. **Private email label**: Private messages found by auto capture but not yet tracked in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md) include this label to indicate their status.  
+4. **Private email label**: Private messages found by auto capture but not yet tracked in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)] include this label to indicate their status.  
   
-   Initially, the messages that auto capture finds are private for you, so other members of your sales team will not be able to see them in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md). Select the **Track** link to turn any auto capture message into a *tracked email message*, which copies the message into the [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md) database and makes it visible to other members of your team. Auto capture messages that don't include a **Track** link are already being tracked. It may take a few minutes for a message to go from untracked to tracked, during which time it will show a **Tracking pending** message.  
+   Initially, the messages that auto capture finds are private for you, so other members of your sales team will not be able to see them in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]. Select the **Track** link to turn any auto capture message into a *tracked email message*, which copies the message into the [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)] database and makes it visible to other members of your team. Auto capture messages that don't include a **Track** link are already being tracked. It may take a few minutes for a message to go from untracked to tracked, during which time it will show a **Tracking pending** message.  
   
    As with other types of email message tiles shown in the **Activities** list, click the tile to expand or collapse the message content.  
   
@@ -56,7 +56,7 @@ The administrator must enable auto capture before you can try it out. For comple
 >  Untracked messages do not indicate the send direction (in or out) or if they include an attachment. But once a message is tracked, both the direction and any attachments are indicated.  
   
 ## Which messages are captured?  
- Auto capture works by querying your [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] account each time you open the **Activities** column for a record  in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md). The query looks for messages that relate to the record you are looking at. The following table summarizes  how auto capture identifies a related message.  
+ Auto capture works by querying your [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] account each time you open the **Activities** column for a record  in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]. The query looks for messages that relate to the record you are looking at. The following table summarizes  how auto capture identifies a related message.  
   
 |Entity type|Matches these field values  to the To, CC, or From address of each email message|  
 |-----------------|--------------------------------------------------------------------------------------|  
@@ -94,7 +94,7 @@ The following describes the support for viewing, opening, and tracking untracked
 |None     |Yes      |Yes         |N/A, tracking requires server-side sync         |
 |Server-Side Sync with **Email Not Approved** or **Test Not Run**     |Yes         |Yes         |No         |
 |Server-Side Sync with **Email Approved** and **Test Enabled**     |Yes         |Yes         |Yes         |
-|Microsoft Dynamics 365 for Customer Engagement for Outlook   |Yes         |Yes         |N/A, tracking requires server-side sync         |
+|Microsoft Dynamics 365 for Outlook   |Yes         |Yes         |N/A, tracking requires server-side sync         |
 |Email Router     |Yes         |Yes         |N/A, tracking requires server-side sync         |
 |Forward Mailbox     |No         |No         |No         |
 

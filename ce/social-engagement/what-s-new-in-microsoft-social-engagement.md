@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: news, product updates, product improvements, service updates
-ms.date: 12/14/2018
+ms.date: 01/23/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -29,6 +29,17 @@ Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.
 If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], see [Get started with Social Engagement](get-started.md).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2019 Update 1.1
+
+### Discontinuation of Microsoft Social Engagement and transition to Dynamics 365 Market Insights
+
+Dynamics 365 will focus on enabling businesses with artificial-intelligence-powered social and web insights rather than just social listening capabilities. Because of this, Microsoft Social Engagement will be discontinued. Combined capabilities and insights through social and web interactions powered by sources such as Bing search will be offered through [Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/en-us/ai/market-insights/). These social and web insights can help marketing, social media, and product teams understand what their customers and competitors are saying, seeking, and feeling. 
+
+More information: 
+- FAQ article - [Frequently asked questions about Microsoft Social Engagement service discontinuation](eol/discontinuation-faq.md)
+- Comparison guide - [Microsoft Social Engagement vs. Dynamics 365 Market Insights](eol/comparison-mse-mi.md).
+- [Help documentation for Dynamics 365 Market Insights](https://docs.microsoft.com/dynamics365/ai/market-insights/help-hub)
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.12
 

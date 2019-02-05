@@ -111,6 +111,17 @@ Each of these types of elements creates a colorful button in a new row (outside 
 
 Use the **Properties** tab to establish the appearance of your new or selected button, and to choose the page, event, or survey it links to.
 
+> [!NOTE]
+> Surveys are optional. If your system admin decided not to include Voice of the Customer as part of your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installation, then the survey element will be shown as unavailable (greyed out) in your **Toolbox**. Contact your system admin if you want to enable it.
+
+<a name="custom-code"></a>
+
+### Custom-code elements
+
+Use custom-code elements to place code snippets in between the various other design elements on the page. You can place any type of code that you like using these elements, but usually you'll use them to hold advanced dynamic content like if-then statements and for-each loops. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
+
+Use the **Properties** tab to view, enter, and edit the code to be placed by a custom-code element.
+
 ## The form element for marketing pages
 
 This section describes the form element, which is only available when you are designing a marketing page. This is currently the only element that is unique for marketing pages.
@@ -142,13 +153,14 @@ Each field element creates a single form control (such as an input field, check 
 
 When you add or select a field in your form, you can read and set the following properties on the **Properties** tab:
 
-- **Name**: Shows the name of the field mapping this element represents (read-only).
-- **Label Position**: Describes the position of the field label relative to the field (No label, At top, On left, On right).
-- **Label**: Shows the field-label text to display for the field.
-- **Default Value**: Shows the default value for the field (optional).
-- **Placeholder**: Displays "ghost text" in the field until a value is entered, typically shown in a gray color. You can use this as an alternative to, or in addition to, the field label. This isn't a default value because if the user doesn't enter a value, the field is submitted as blank.
-- **Required**: Marks the field as mandatory. Mandatory fields display an asterisk in the form, and the form will be rejected if somebody tries to submit it without filling out all the required fields.
-- **Required Error Message**: Specifies the error message shown if somebody tries to submit the form without filling out all the required fields.
+- **Label**: Enter text that describes the value expected by the field (such as "first name"). This text will be displayed close to the field in the form.
+- *Field information*: Below the Label is a box with information about the field mapping. Most of this is read-only and comes from the [field setup](marketing-fields.md). You can choose a different field mapping here if you want, but usually you select that when dragging a field element to your form.
+- **Placeholder**: Enter "ghost text" to be displayed in the field until a value is entered. This text is typically shown in a gray color. You can use this as an alternative to, or in addition to, the field label. This isn't a default value because if the user doesn't enter a value, the field is submitted as blank.
+- **Default value**: Enter a default value for the field. Unlike the **Placeholder**, if a user submits the form without editing the default value, then the default value is saved with the submission.
+- **Required**: Select this check box to set the field as mandatory. Mandatory fields display an asterisk in the form. All fields marked as required must be filled in when the user submits the form, otherwise the submission will be rejected and the **Required error message** will be shown.
+- **Required error message**: Enter a message to show to users if they try to submit the form without including a value for this field (only available when **Required** is selected).
+- **Label Position**: Choose the position of the field label relative to the field (top, left, or right).
+- **Hide field**: Select this checkbox to hide the field from form users. Users won't be able to see the field, but its value will be saved with the submission. You'll usually set the value either by entering a **Default value** or by using JavaScript to supply a value at runtime.
 - **Prefill**: Select this box to enable prefilling for this field. When enabled, the form will try to display a prefilled value for this field when it recognizes the visitor (because the visitor previously submitted a form with the remember-me box checked). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable prefilling for forms](form-prefill.md)
 
 > [!IMPORTANT]

@@ -2,8 +2,8 @@ Requirement groups allow you to define groups of resources that would be appropr
 
 For example, you might use a requirement group to find resources for a work order requiring: 
    
-  - 1 field techician with skill A *and* skill B; or
-  - 2 field techinicians, one with skill A and the other with skill B
+  - 1 field technician with skill A *and* skill B; or
+  - 2 field technicians, one with skill A and the other with skill B
 
 You might also use a requirement group to find resources for a sales demonstration requiring:
   
@@ -65,7 +65,7 @@ The requirement group is noted on all related requirements.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule assistant for requirement group](../common-scheduler/media/scheduling-multi-resource-schedule-assistant.png)
 
-The schedule assitant will display different options to fulfill the requirement group, noting the particular requirement it is fulfilling in the Requirement column. 
+The schedule assistant will display different options to fulfill the requirement group, noting the particular requirement it is fulfilling in the Requirement column. 
 
 By default, it will recommend options with fewer resources first, in an attempt to minimize travel time and/or cost. You can also sort by **Earliest Time First** in the left pane.
 
@@ -116,7 +116,7 @@ Refer to the first section of this topic for instructions.
 
 - Fill out required work order details and add the incident type **before saving**.
 
-This is done by choosing an incident type for the **Primary Incident Type** field or navigating to *** > **Work Order Incident Types**.
+This is done by choosing an incident type for the **Primary Incident Type** field or navigating to **Work Order Incident Types**.
 
 > [!Note]
 > When an incident type with a requirement group template is added to a work order, the number of work order incidents is limited to 1.

@@ -14,7 +14,7 @@
 ### [Relevance search](../basics/relevance-search-results.md)
 ### [Save searches using Advanced Find](../basics/save-advanced-find-search.md)
 ## [Set personal options](../basics/set-personal-options.md)
-## [Assign or share records](../basics/assign-record-user-team.md)
+## [Assign records](../basics/assign-record-user-team.md)
 ## [Create connections between records](../basics/create-connections-view-relationships-between-records.md)
 ## [Hierarchical relationships](../basics/hierarchical-relationship.md)
 ## [Edit your profile](../basics/view-your-user-profile.md)

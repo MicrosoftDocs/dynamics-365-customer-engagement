@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Dynamics 365 for Customer Engagement for Outlook requires at least 2 gigabytes of memory | Microsoft Docs"
+title: "Microsoft Dynamics 365 for Outlook requires at least 2 gigabytes of memory | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Microsoft Dynamics 365 for Customer Engagement for Outlook requires at least 2 gigabytes of memory
+# Microsoft Dynamics 365 for Outlook requires at least 2 gigabytes of memory
 
 ## Cause
   

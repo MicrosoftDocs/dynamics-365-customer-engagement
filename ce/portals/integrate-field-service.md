@@ -1,5 +1,5 @@
 ---
-title: "Integrate Dynamics 365 for Customer Engagement for Field Service with a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Integrate Dynamics 365 for Field Service with a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to integrate Field Service with a portal."
 ms.custom: 
   - dyn365-portal

@@ -17,7 +17,7 @@ manager: shubhadaj
 ---
 
 # View activity of a user on a portal
-Dynamics 365 for Customer Engagement for Customer Insights (DCI) is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers.
+Dynamics 365 for Customer Insights (DCI) is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers.
 
 You can enable a portal to send data from a user’s activity to your DCI instance. This will be helpful in knowing the user’s journey on a portal before and after creating a case. This also helps you to understand the real issue, avoid asking the same information again from the user, and enable you to respond with the relevant information.
 

@@ -1,7 +1,7 @@
 ---
 title: "Install or upgrade Microsoft Dynamics 365 for Customer Engagement Server | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
+ms.date: 01/25/2019
 ms.prod: crm-2016
 ms.reviewer: 
 ms.suite: 
@@ -91,7 +91,7 @@ This section explains how to install [!INCLUDE[pn_microsoftcrm_server](../includ
   
 -   [!INCLUDE[pn_NET_Framework_4_long](../includes/pn-net-framework-4-long.md)], which includes the following components:  
   
-    -   Microsoft .NET Framework 4.5.2 (required by [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)])  
+    -   Microsoft .NET Framework 4.6.2 (required by [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)])  
   
     -   [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] (required by [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)])  
   

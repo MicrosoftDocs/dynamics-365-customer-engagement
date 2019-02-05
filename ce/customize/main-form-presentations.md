@@ -24,7 +24,7 @@ search.app:
 ---
 # How main forms appear on different devices
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 The main form is used by all app clients. This form provides a consistent user experience whether someone is using a web browser,  [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
 
@@ -36,8 +36,8 @@ The main form is used by all app clients. This form provides a consistent user e
 |         Presentation         |                                                                                                                                                                                                                       Description                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |         **Updated**          | For the [Updated entities and classic entities](create-design-forms.md#updated-versus-classic-entities) and any custom entities [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], the updated form provides a new user experience. These forms have the newer command bar design, and enable additional features such as the command bar, auto-save, and business process flows. |
-| **Dynamics 365 for Customer Engagement for tablets** |                                                                                                                                                             [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] presents the content of the main form in a manner optimized for a tablet.                                                                                                                                                             |
-| **Dynamics 365 for Customer Engagement for phones**  |                                                                                                                                                  [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] presents the content of the main form in a manner optimized for a phone.                                                                                                                                                   |
+| **Dynamics 365 for tablets** |                                                                                                                                                             [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] presents the content of the main form in a manner optimized for a tablet.                                                                                                                                                             |
+| **Dynamics 365 for phones**  |                                                                                                                                                  [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] presents the content of the main form in a manner optimized for a phone.                                                                                                                                                   |
 |         **Classic**          |                                                                                                                   These forms are for the entities that haven't been updated. They use the ribbon rather than the command bar and the navigation pane on the left side of the form.<br /><br /> These forms have a two-column layout.                                                                                                                   |
 
 <a name="BKMK_MainFormComponentsForUpdatedEntities"></a>   
@@ -72,12 +72,12 @@ The main form is used by all app clients. This form provides a consistent user e
 |   **Status Bar**    |                                                                                                                                                                                                       The status bar displays the status field for the record, a notification area, and a save button.                                                                                                                                                                                                        |
 
 <a name="BKMK_CRMforTabletsPresentation"></a>   
-## Dynamics 365 for Customer Engagement for phones and tablets forms  
+## Dynamics 365 for phones and tablets forms  
  Most system entities and custom entities are available for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets. The main form for these entities is transformed to a presentation optimized for phones or tablets.  
 
 <a name="BKMK_EntitiesEnabledForCRMForTablets"></a>   
-### Entities enabled for Dynamics 365 for Customer Engagement for phones and tablets  
- Only entities that are enabled for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets use this presentation of the main form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Entities displayed in Dynamics 365 for Customer Engagement for phones and tablets](../customize/customize-phones-tablets.md#BKMK_CustomEntity)  
+### Entities enabled for Dynamics 365 for phones and tablets  
+ Only entities that are enabled for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets use this presentation of the main form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Entities displayed in Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md#BKMK_CustomEntity)  
 
 ### Form design  
  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets takes many of the main form elements and presents them in a way optimized for phones or tablets. The following diagrams show the reflow from the web app to the tablet and phone apps.  
@@ -119,7 +119,7 @@ The main form is used by all app clients. This form provides a consistent user e
 
  In [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], the first panel displays contact information about relationships that exist for the record. In [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], the first panel also displays header fields from the form above the relationship tiles.  
 
- ![Dynamics 365 for Customer Engagement for tablets relationships panel](../customize/media/mobile-app-form-relationships.png "Dynamics 365 for Customer Engagement for tablets relationships panel")  
+ ![Dynamics 365 for tablets relationships panel](../customize/media/mobile-app-form-relationships.png "Dynamics 365 for tablets relationships panel")  
 
  For Contact and User forms, the top item displays a communication card for the record. The communication card provides buttons to initiate communication with the person. For other entities, a communication card is displayed if there is a Contact quick view form embedded in the main form.  
 

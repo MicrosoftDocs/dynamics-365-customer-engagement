@@ -2,7 +2,7 @@
 title: "Set up a Postman environment (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to set up and configure a Postman environment that connects with Dynamics 365 for Customer Engagement online and on-premises environments."
 ms.custom: 
-ms.date: 01/12/2019
+ms.date: 01/21/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -106,7 +106,7 @@ See [Test your connection](#test-your-connection) for steps to verify your conne
   | Variable Name | Value |
   |----|---|
   |`url`|`http://yourservername/yourorgname`|
-  |`version`|`8.2`|
+  |`version`|`9.0`|
   |`webapiurl`|`{{url}}/api/data/v{{version}}/`|
 
   ![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman   environment to connect with On-premise instance")
