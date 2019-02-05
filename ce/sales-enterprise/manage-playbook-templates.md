@@ -27,6 +27,11 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
 ## Create a playbook template
 
+<!--note from editor:Line 67--is "fix an appointment" correct?--> 
+ 
+
+
+
 1.  Make sure you have Playbook administrator role or equivalent permissions.
 
 2.  Select the site map icon, select **More options** ![more options icon](media/more-options-icon.png "More Options icon"), and then select **App Settings**.  
@@ -63,11 +68,11 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
 7.  In the **Quick create** form of the activity, provide the following information, and then select **Save**:
 
-    *  **Subject**. Type a short description of the activity's objective. 
+    *  **Subject**. Enter a short description of the activity's objective. 
 
-    *  **Description**. Type additional information to describe the playbook activity.
+    *  **Description**. Enter additional information to describe the playbook activity.
 
-    *  **Relative due date (days)**. Enter the number of days in which the activity is due. The number of days is counted from the launch date of the playbook. This field is available only for task and phone call activities.
+    *  **Relative due date (days)**. Enter the number of days in which the activity is due. The number of days is counted from the launch date of the playbook. This field is available only for task and phone-call activities.
 
     *  **Relative due time (hours)**. Enter the time the activity is due.
 
@@ -97,14 +102,14 @@ To publish a playbook:
 1. In the list of playbook template records, select the playbook template you want to publish.
 2. On the command bar, select **Publish**.
 
-Or
+  Or
 
 * Open the playbook template, and on the command bar, select **Publish**.
 
 > [!NOTE]
 > The playbook template you’re trying to publish must have the following:
-> -   At least one playbook activity added.
-> -   At least one record type to which the playbook template applies.
+ -   At least one playbook activity added.
+ -   At least one record type to which the playbook template applies.
 
 > [!IMPORTANT]
 > After you publish a template, you can’t edit it. To make changes to a published playbook template, on the command bar, select **Revise**.
