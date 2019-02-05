@@ -35,14 +35,14 @@ To deploy Omni-channel Engagement solution, your organization must have Customer
 
 More information: [Customer Service Hub app](../customer-service/user-guide-customer-service-hub.md)
 
-### Licensing requirement for Omni-channel Engagement Hub
+### Licensing requirement of Office 365
 
-Your organization need the following Office 365 license requirement:
+Your organization need the following Office 365 license:
 
 - Office 365 Enterprise E1 plan or a higher plan. To learn more, see [Office 365 Business Plans](https://products.office.com/en-US/business/compare-more-office-365-for-business-plans).
 
 > [!NOTE]
-> You must assign the Office 365 Enterprise E1 plan or a higer plan licenses to the users. Minimum of Microsoft Teams service must be assigned to the user as part of license assignment.
+> You must assign the Office 365 Enterprise E1 plan or a higher plan licenses to the users. You must assign the of Microsoft Teams service to the users as part of license assignment.
 
 ### Allow sideloading of external apps in Microsoft Teams
 
