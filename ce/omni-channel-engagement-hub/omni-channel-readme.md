@@ -19,7 +19,7 @@ ms.custom:
 
 The topic explains the known issues and limitations of Omni-channel Engagement Hub.
 
-## Agents recieve delayed notification when the chat ends
+## Agents receive delayed notification when the chat ends
 Customer ends the chat by selecting the Close **X** button on the chat widget. Closing the chat ends the chat without a confirmation message. After the customer closes the chat, agent receives the chat information with a delay.
 
 ## Support for emojis
@@ -28,7 +28,7 @@ Emojis are not supported for the customer chat widget.
 ## Context variable support for duplicate and delete dependency check
 Context variable does not support duplicity check and dependency on delete. 
 
-While creating a context variable, the system does not perform duplicate check in the workstream. Also, while deleting a context varibale, the system does not perform a check for the dependency.
+While creating a context variable, the system does not perform duplicate check in the workstream. Also, while deleting a context variable, the system does not perform a check for the dependency.
 
 ## Support for multiple channel providers
 If your organization have deployed a third party channel provider using the Dynamics 365 Channel Integration Framework, and when you want to use Omni-channel Engagement Hub in the same organization, the Omni-channel solution overrides the Channel Integration Framework solution as there is no support for multiple channel providers.
@@ -42,7 +42,7 @@ After agent creates a customer (contact/account) or case record using the quick 
 ## Dialog prompt in Unified Service Desk
 When an agent logs in to Unified Service Desk client application, the client application shows a dialog to close the window. Agent must select **Yes** to proceed working in Unified Service Desk.
 
-## Authentication error for differnt agent credentials
+## Authentication error for different agent credentials
 If agent is logged into Office 365 or Dynamics 365 through a different username in the browser (IE or Edge) than the one used for USD login, an authentication error is shown and user is not allowed to login. As a workaround, user should logout from all other accounts on the browser and try logging back in. 
 
 ## Transfer to queue does not show a message for the initiating agent 

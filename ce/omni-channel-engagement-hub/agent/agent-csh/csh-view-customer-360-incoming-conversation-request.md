@@ -50,7 +50,7 @@ When no records are linked to a conversation in the Omni-channel Engagement Hub,
 When you choose to search for a record, the application launches the **Omni-channel search** tab. Specify the details according to the field and then search. Once the search is complete, you can see the results in the form of a list. You can link the record to the conversation. Also, if you select a record, you can see it in the application management toolbar.
 
 > [!div class="nextstepaction"]
-> [Next topic: Create a record](csh-create-record.md)
+> [next topic: Create a record](csh-create-record.md)
 
 ## See also
 
@@ -60,7 +60,10 @@ When you choose to search for a record, the application launches the **Omni-chan
 - [Navigate using the navigation bar](csh-navigation-bar.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
 - [View agent dashboard and agent work items](csh-my-dashboard.md)
-- [Conversation control](csh-conversation-control.md)
+- [View communication panel](csh-conversation-control.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
+- [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
+- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
 - [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
 - [Search and link record to the conversation](csh-search-link-record.md)
+

@@ -84,6 +84,7 @@ The details you’ll see for a chat channel are:
 - [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [View communication panel](csh-conversation-control.md)
 - [Set user presence](csh-set-user-presence-status.md)
+- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)

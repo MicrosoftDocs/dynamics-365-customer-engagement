@@ -57,6 +57,7 @@
 #### [Set user presence](agent/agent-csh/csh-set-user-presence-status.md)
 #### [View notifications and screen pops](agent/agent-csh/csh-notifications-screen-pops.md)
 #### [View customer summary](agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md)
+#### [Search for and share knowledge articles](agent/agent-csh/csh-search-knowledge-articles.md)
 #### [View conversations and sessions in Dynamics 365 for Customer Engagement apps](agent/agent-csh/csh-view-conversations-sessions-dynamics-365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-csh/csh-create-record.md)

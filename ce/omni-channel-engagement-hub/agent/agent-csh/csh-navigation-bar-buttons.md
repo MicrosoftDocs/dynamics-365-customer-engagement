@@ -92,6 +92,7 @@ Similarly, for the other records, the application displays the quick create form
 - [Set user presence](csh-set-user-presence-status.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
+- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
