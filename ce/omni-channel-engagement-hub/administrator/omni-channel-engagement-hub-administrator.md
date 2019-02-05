@@ -39,7 +39,7 @@ You can view the entities in the **Omni-channel Administration** site map.
 - [Create a chat widget](set-up-chat-widget.md)
 
 ## How-to topics
-- [Enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
+- [Assign roles and enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
 - [Manage a user in omni-channel](users-user-profiles.md#manage-a-user-in-omni-channel)<br>
 - [Create a new live chat work stream](create-work-streams.md#create-a-new-live-chat-work-stream)<br>
 - [Create a new CDS Entity work stream](create-work-streams.md#create-a-new-cds-entity-work-stream)<br>

@@ -35,7 +35,7 @@ Here are some of the benefits of unified routing and work distribution:
 
 To effectively route and distribute work to agents, admins can set up the following items in Omni-channel Engagement Hub:
 
-- [Enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
+- [Assign roles and enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
 - [Manage users](users-user-profiles.md)
 - [Understand work streams in the Omni-channel Engagement Hub](work-streams-introduction.md)
 - [Create and manage work streams](create-work-streams.md)
