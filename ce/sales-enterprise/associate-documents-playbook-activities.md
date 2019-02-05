@@ -26,9 +26,8 @@ topic-status: Tech Reviewing
 [!INCLUDE cc-beta-prerelease-disclaimer]
 
 > [!NOTE]
-
-> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)] 
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
+>   - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)] 
+>   - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
 
 Ensure sales reps always have the latest sales and training materials to close a deal by associating documents with playbook activities that you add to a playbook template.
