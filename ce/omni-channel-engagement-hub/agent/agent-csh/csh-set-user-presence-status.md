@@ -36,6 +36,7 @@ Presence status is updated in two ways:
   > ![Agent presence status](../../media/csh-oc-presence.png "Agent presence status")
 
 - **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity.
+
   a. When your capacity is completely utilized the presence is set to **BusyDND**.
   b. When your capacity is partially utilized the presence is set to **Busy**. 
   c. When your capacity is not utilized the presence is set to **Available**.
