@@ -39,10 +39,9 @@ Follow these steps to assign omni-channel roles to users in the Dynamics 365 web
 
 To view and manage omni-channel users, see [Manage users in Omni-channel Engagement Hub](users-user-profiles.md).
 
+<!--
 ## Understand roles and their privileges 
-
 Each role in Omni-channel Engagement Hub can perform a set of actions based on the privileges. 
-
 |Role  |Privileges  |
 |---------|---------|
 |Omni-channel administrator     |        |
@@ -51,7 +50,7 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 |   |         |
 |Omni-channel supervisor  |      |
 |    |       |
-|  Omni-channel agent  |        |
+|  Omni-channel agent  |        |-->
 
 
 ### See also
