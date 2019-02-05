@@ -184,7 +184,7 @@ For leads, if an existing lead record is found to match an incoming form submiss
 
 You'll probably have just a few matching strategies of each type&nbsp;many organizations use just one of each. Therefore, you can define each strategy just once and then it'll be available for selection each time you create a new form, and when you define the default strategies for all new forms. There are three places where you can view and create matching strategies:
 
-- Go to **Settings** > **Advanced settings** > **Marketing settings** > **Matching strategy** to view, create and edit all strategies that are available on your site.
+- Go to **Settings** > **Advanced settings** > **Marketing settings** > **Matching strategy** to view, create and edit all strategies that are available on your instance.
 - You can select a default strategy of each type (lead and contact). These will be selected by default each time a user creates a new marketing form, but users can then customize the setting as needed for each individual form. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure landing pages](#config-mkt-pages)
 - When you are creating or editing a marketing form, you'll  be able to select from among the available strategies, or create new ones. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
 
@@ -215,7 +215,7 @@ Make the following settings here:
 
 - **Name**. The name of the default-settings set, as shown on the list page.
 - **Owner**. The user that owns the set.
-- **Default**. Set to **Yes** to activate the current default-settings set on your site.
+- **Default**. Set to **Yes** to activate the current default-settings set on your instance.
 
 ### The Marketing email tab
 

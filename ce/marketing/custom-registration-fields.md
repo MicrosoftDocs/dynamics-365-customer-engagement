@@ -65,7 +65,7 @@ Once you have set up the custom fields you require, you can assign them to event
 Make the following settings:  
      ![Set up the custom field for the current event](media/event-reg-field-add-to-event-2.png "Set up the custom field for the current event")
 
-    - **Custom registration field**: Select an existing custom field that is already set up for your site as described in the previous section.
+    - **Custom registration field**: Select an existing custom field that is already set up for your instance as described in the previous section.
     - **Event**: This is the event where you will add this custom field. The current event should already be shown here.
     - **Order**: Enter an integer to control the position of this field (relative to other custom fields). Lowest values are displayed first in the registration form.
 
