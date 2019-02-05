@@ -30,19 +30,21 @@ For information about how to create questions and use them in a pre-chat survey,
 
 **Authenticated chat**
 
-|Question name  |Answer type  |Question text |
+|Question name  |Answer type  |
 |---------|---------|---------|
-|CaseNumber    |     Multiple lines    |  Case Number         |
-|    |         |         |
+|CaseNumber    |     Single line    |  |    |         |         |
+
+> [!NOTE]
+> **Contact** and **AccountDetails** are auto-loaded for authenticated users.
 
 **Unauthenticated chat**
 
-|Question name   |Answer type |Question text  |
+|Question name   |Answer type |
 |---------|---------|---------|
-|CaseNumber     |    Multiple lines     |  Case Number        |
-|Name      | Single line         |   Name       |
-|Email      |    Single line      |  Email        |
-|Phone      |  Single line       |   Phone      |
+|CaseNumber     |    Multiple lines     |  
+|Name      | Single line         |   
+|Email      |    Single line      |  
+|Phone      |  Single line       |   
 |    |         |         |
 
 ### See also

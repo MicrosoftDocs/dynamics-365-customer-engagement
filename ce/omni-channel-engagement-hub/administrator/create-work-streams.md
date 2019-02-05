@@ -103,7 +103,7 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
 
     ![Custom connector name](../media/custom-connector-name.png)
 
-4. On the **Create Custom Connector** menu, select **Import an API file**. Use the file **CSS-Entity.swagger.json**. 
+4. On the **Create Custom Connector** menu, select **Import an API file** and import **CSS-Entity.swagger.json** file. 
 
     > [!NOTE]
     > You can get **CSS-Entity.swagger.json** file from Insider portal. 
