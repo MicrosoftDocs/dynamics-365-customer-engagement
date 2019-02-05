@@ -23,16 +23,16 @@ topic-status: Tech Reviewing
 
 # Manage playbook templates
 
-Playbooks provide users with guidance on recurring tasks in which consistent actions are expected. Playbooks can also contain best practices based on practices that have worked in similar situations before.
+Playbooks provide users with guidance on recurring tasks in which consistent actions are expected. Playbooks can also contain best practices based on scenarios that have worked in similar situations before.
 
 ## Create a playbook template
 
-<!--note from editor:Line 67--is "fix an appointment" correct?--> 
+<!--note from editor: Line 67--is "fix an appointment" correct?--> 
  
+<!--note from editor: Line 37: include graphic for site map icon?-->
 
 
-
-1.  Make sure you have Playbook administrator role or equivalent permissions.
+1.  Make sure you have **Playbook administrator** role or equivalent permissions.
 
 2.  Select the site map icon, select **More options** ![more options icon](media/more-options-icon.png "More Options icon"), and then select **App Settings**.  
 
@@ -44,13 +44,13 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
     * **Name**. Enter a descriptive name for the template.
 
-    * **Track progress**. Select whether to track the progress of the playbook by creating the activities under a playbook; those activities are in turn linked to the record type the playbook applies to.
+    * **Track progress**. Select whether to track the progress of the playbook by creating the activities under a playbook; those activities are in turn linked to the record type that the playbook applies to.
 
-        For example, if you have a template created for an opportunity, and you set **Track Progress** to **Yes**, all playbook activities are created under the playbook that is launched from the opportunity record in the following hierarchy: Opportunity record &gt; playbook record &gt; activities.
+        For example, consider a situation where you have a template created for an opportunity. If you set **Track Progress** to **Yes**, all playbook activities are created under the playbook that is launched from the opportunity record (following the hierarchy Opportunity record &gt; playbook record &gt; activities).
 
-        If you set this to **No**, the playbook activities are created directly under the opportunity record in the following hierarchy: Opportunity record &gt; activities.
+        If you set **Track Progress** to **No**, the playbook activities are created directly under the opportunity record (following the hierarchy Opportunity record &gt; activities).
 
-    * **Estimated duration (days)**. Enter the estimated duration in days to indicate the time it may take to complete the playbook template once launched.
+    * **Estimated duration (days)**. Enter the estimated duration in days to indicate the time it might take to complete the playbook template once launched.
 
         ![information section on playbook template form](media/playbook-template-information-section.png "Information section on Playbook template form")  
 
@@ -72,7 +72,7 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
     *  **Description**. Enter additional information to describe the playbook activity.
 
-    *  **Relative due date (days)**. Enter the number of days in which the activity is due. The number of days is counted from the launch date of the playbook. This field is available only for task and phone-call activities.
+    *  **Relative due date (days)**. Enter the number of days in which the activity is due. The starting point for the number of days is the launch date of the playbook. This field is available only for task and phone-call activities.
 
     *  **Relative due time (hours)**. Enter the time the activity is due.
 
@@ -110,6 +110,8 @@ To publish a playbook:
 > The playbook template you’re trying to publish must have the following:
 >   -   At least one playbook activity added.
 >   -   At least one record type to which the playbook template applies.
+
+<!--note from editor: Text in the Important note below: I found this a little confusing. First sentence says you can't edit a published template. Second sentence says you can make changes with "Revise". Is "revising" something different from "editing"?-->
 
 > [!IMPORTANT]
 > After you publish a template, you can’t edit it. To make changes to a published playbook template, on the command bar, select **Revise**.
