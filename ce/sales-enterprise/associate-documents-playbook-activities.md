@@ -1,6 +1,6 @@
 ---
 title: "Associate documents with playbook activities (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Associate documents in the context of playbook activities to help your team access accurate and current sales materials or training content to close a deal."
+description: "Associate documents with playbook activities to help your team access accurate and current sales materials or training content to close a deal."
 keywords: ""
 ms.date: 02/21/2019
 ms.service:
@@ -21,7 +21,7 @@ ms.tgt_pltfrm:
 topic-status: Tech Reviewing
 ---
 
-## Preview: Associate documents to playbook activities
+## Preview: Associate documents with playbook activities
 
 [!INCLUDE cc-beta-prerelease-disclaimer]
 
@@ -32,7 +32,7 @@ topic-status: Tech Reviewing
 
 
 Ensure sales reps always have the latest sales and training materials to close a deal by associating documents with playbook activities that you add to a playbook template.
-For example, create a playbook template sales reps can follow when the decision maker they are working with leaves the organization. While adding activities to this template, you can also attach documents that help the sales rep bring the new decision maker up to speed. 
+For example, create a playbook template that sales reps can follow when the decision maker they are working with leaves the organization. While adding activities to this template, you can also attach documents that help the sales rep bring the new decision maker up to speed. 
 
 ### Prerequisites
 
@@ -48,12 +48,9 @@ So that you can add documents, make sure that document management for the playbo
 
 
 > [!NOTE]
-
-> -	The document operations you can perform, such as creating a new document or uploading, checking out, editing, or deleting a document, depend on the permissions assigned to you.  
-
-> - If a system administrator disables document management on a playbook activity for which it was earlier enabled, and documents were associated, the documents won’t be available to the associated activities when a playbook is launched for an entity such as an opportunity or lead.
-
-> - By default, the playbook activity entity is enabled for customization because that’s a prerequisite for enabling SharePoint integration. However, we don't support any customizations to this entity.
+>   -	The document operations you can perform, such as creating a new document or uploading, checking out, editing, or deleting a document, depend on the permissions assigned to you.  
+>   - If a system administrator disables document management on a playbook activity for which it was earlier enabled, and documents were associated, the documents won’t be available to the associated activities when a playbook is launched for an entity such as an opportunity or lead.
+>   - By default, the playbook activity entity is enabled for customization because that’s a prerequisite for enabling SharePoint integration. However, we don't support any customizations to this entity.
 
 ### See also
 [Manage playbook templates](manage-playbook-templates.md)  
