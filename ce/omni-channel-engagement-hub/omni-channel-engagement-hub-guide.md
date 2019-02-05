@@ -34,7 +34,7 @@ ms.custom:
 
 <li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[Omni-channel administrator](administrator/omni-channel-engagement-hub-administrator.md#how-to-topics)">Omni-channel administrator</a></li>
 <li><a href="administrator/unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
-<li><a href="administrator/routing-work-distribution-scenario.md" data-raw-source="[Walk-through of routing and work distribution](administrator/routing-work-distribution-scenario.md)"> Walk-through of routing and work distribution </a></li>
+<li><a href="(administrator/unified-routing-work-distribution.md#scenario-walk-through-of-unified-routing-and-work-distribution)" data-raw-source="[Scenario walk-through of unified routing and work distribution](administrator/unified-routing-work-distribution.md#scenario-walk-through-of-unified-routing-and-work-distribution)"> Scenario walk-through of unified routing and work distribution </a></li>
 <li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Configure a chat widget](administrator/set-up-chat-widget.md)">Configure a chat widget</a></li>
 </td>
 </tr>

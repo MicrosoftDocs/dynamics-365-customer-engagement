@@ -35,11 +35,10 @@ Navigate to **Omni-channel Administration > User Management > Users** to view th
 2. In the **Omni-channel** tab, provide the following information:
 
     - In the **Agent Details** section: </br>
-        - Assign capacity to the user in the **Capacity** text box. </br>
 
-        - Assign a default presence status in **Default Presence**. The default presence status is the status displayed for agents when they log into the omni-channel system after their last log off.
+        - **Capacity** - Allocate capacity to agent.</br>
 
-          You can also add a new default presence status by selecting the search icon.
+        - **Default Presence** - Assign a default presence status for agent. This is the status that the agent is logged in with.
      
 3. Select **Save** to the save the user record.
 
