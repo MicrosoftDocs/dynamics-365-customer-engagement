@@ -19,7 +19,7 @@ ms.custom:
 
 The topic explains the known issues and limitations of Omni-channel Engagement Hub.
 
-## Agents recieve delayed when the chat ends
+## Agents recieve delayed notification when the chat ends
 Customer ends the chat by selecting the Close **X** button on the chat widget. Closing the chat ends the chat without a confirmation message. After the customer closes the chat, agent receives the chat information with a delay.
 
 ## Support for emojis
@@ -42,7 +42,7 @@ After agent creates a customer (contact/account) or case record using the quick 
 ## Dialog prompt in Unified Service Desk
 When an agent logs in to Unified Service Desk client application, the client application shows a dialog to close the window. Agent must select **Yes** to proceed working in Unified Service Desk.
 
-## Authentication error for differnt agent credentails
+## Authentication error for differnt agent credentials
 If agent is logged into Office 365 or Dynamics 365 through a different username in the browser (IE or Edge) than the one used for USD login, an authentication error is shown and user is not allowed to login. As a workaround, user should logout from all other accounts on the browser and try logging back in. 
 
 ## Transfer to queue does not show a message for the initiating agent 
