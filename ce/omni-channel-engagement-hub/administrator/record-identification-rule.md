@@ -1,7 +1,7 @@
 ---
-title: Set up pre-chat questions to automatically load customer details for work streams | MicrosoftDocs
-description: See how you can Set up pre-chat questions to automatically load customer details for work streams in the Omni-channel Engagement Hub
-keywords: set up pre-chat questions to automatically load customer details for work streams; Omni-channel Engagement Hub
+title: Automatically identify customers using pre-chat responses | MicrosoftDocs
+description: See how you can Automatically identify customers using pre-chat responses in the Omni-channel Engagement Hub
+keywords: Automatically identify customers using pre-chat responses; Omni-channel Engagement Hub; pre-chat questions
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi

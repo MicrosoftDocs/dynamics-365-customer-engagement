@@ -61,8 +61,6 @@ Follow these steps to create a new live chat work stream.
 
 7. Select **Save** to save the live chat work stream.
 
-> [!IMPORTANT]
-> You can view customer details for an incoming conversation with the help of customer summary identification rules pre-configured in the work streams out-of-the-box. These rules are further mapped to a limited set of pre-chat survey questions. As a customer completes a pre-chat survey for an incoming conversation, the information can be used to identify the customer. </br> </br> To know more about how to configure pre-chat survey questions, see [Set up pre-chat questions to automatically load customer details](record-identification-rule.md)
 
 After you've finished defining all the settings, the work stream is ready to receive conversations so that agents can start to work on them.
 
