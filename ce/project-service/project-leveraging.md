@@ -1,5 +1,5 @@
 ---
-title: Leveraging the schedule and estimates in the sales process
+title: Sales estimates and projects
 description: This topic provides information about leveraging the schedule and estimates in the sales process in Project Service (PSA).
 author: ruhercul
 manager: kfend
@@ -21,7 +21,7 @@ search.app:
   - D365PS
 ---
 
-# Leveraging the schedule and estimates in the sales process
+# Sales estimates and projects
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
