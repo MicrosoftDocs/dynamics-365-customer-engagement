@@ -24,9 +24,7 @@ Omni-channel queues are proxies for skills or domains. For example, you can crea
 > [!div class=mx-imgBorder]
 > ![Omni-channel queues](../media/oc-queues.png)
 
-You can assign priority to queues. All conversations in a queue take the priority of the queue and higher priority conversations are allocated first.
-
-For example, if you have two chat conversations from two queues with priority 1 and priority 2 respectively, chat conversation with priority 1 will be allocated to an agent first.
+You can assign priority to queues. All conversations in a queue take the priority of the queue and higher priority conversations are allocated first. For example, if there are two chat conversations coming from two queues with priorities assigned as Priority 1 and Priority 2 respectively, chat conversation with Priority 1 will be allocated to an agent first.
 
 ## Default queue
 There is a default omni-channel queue for each organization. Admins can't delete the default queue. By default, all omni-channel users are members of the default queue. Therefore, the membership of this queue can't be changed.
