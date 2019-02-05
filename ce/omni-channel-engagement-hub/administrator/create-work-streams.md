@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Use this topic to know how you can create a live chat work stream and a CDS entity work stream in the Omni-channel Engagement Hub.
+This topic explains how you can create a live chat work stream and a CDS entity work stream in the Omni-channel Engagement Hub.
 
 ## Create a new live chat work stream
 
