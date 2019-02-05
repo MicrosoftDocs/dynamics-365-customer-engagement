@@ -46,9 +46,9 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
     * **Track progress**. Select whether to track the progress of the playbook by creating the activities under a playbook; those activities are in turn linked to the record type that the playbook applies to.
 
-        For example, consider a situation where you have a template created for an opportunity. If you set **Track Progress** to **Yes**, all playbook activities are created under the playbook that is launched from the opportunity record (following the hierarchy "opportunity record &gt; playbook record &gt; activities").
+        For example, consider a situation where you have a template created for an opportunity. If you set **Track Progress** to **Yes**, all playbook activities are created under the playbook that is launched from the opportunity record (following the hierarchy Opportunity record &gt; Playbook record &gt; Activities).
 
-        If you set **Track Progress** to **No**, the playbook activities are created directly under the opportunity record (following the hierarchy Opportunity record &gt; activities).
+        If you set **Track Progress** to **No**, the playbook activities are created directly under the opportunity record (following the hierarchy Opportunity record &gt; Activities).
 
     * **Estimated duration (days)**. Enter the estimated duration in days to indicate the time it might take to complete the playbook template once launched.
 
