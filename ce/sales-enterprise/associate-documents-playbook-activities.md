@@ -1,6 +1,6 @@
 ---
 title: "Associate documents with playbook activities (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Associate documents in context of playbook activities to help your team with accurate and latest sales material or training content to close a deal."
+description: "Associate documents in the context of playbook activities to help your team access accurate and current sales materials or training content to close a deal."
 keywords: ""
 ms.date: 02/21/2019
 ms.service:
@@ -31,12 +31,12 @@ topic-status: Tech Reviewing
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
 
-To ensure the sales rep always have the accurate and latest sales material or training content to close a deal, you can associate and store documents in context of playbook activities that you add to a playbook template.
-For example, you’ve created a playbook template for an event when the decision maker your sales reps are working with leaves the organization. While adding the activities to this template, you can also attach documents that will help the sales rep to bring the new decision maker up to speed. 
+Ensure sales reps always have the latest sales and training materials to close a deal by associating documents with playbook activities that you add to a playbook template.
+For example, create a playbook template sales reps can follow when the decision maker they are working with leaves the organization. While adding activities to this template, you can also attach documents that help the sales rep bring the new decision maker up to speed. 
 
 ### Prerequisites
 
-To be able to add documents, Document Management must be enabled for the Playbook activity entity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](../admin/enable-sharepoint-document-management-specific-entities.md), [Set up SharePoint integration](../admin/set-up-sharepoint-integration.md)
+So that you can add documents, make sure that document management for the playbook activity entity is enabled. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](../admin/enable-sharepoint-document-management-specific-entities.md), [Set up SharePoint integration](../admin/set-up-sharepoint-integration.md)
 
 ### Add documents 
 
@@ -44,16 +44,16 @@ To be able to add documents, Document Management must be enabled for the Playboo
 
 2.	In the activity form, select the **Related** tab, and then select **Documents**.
 
-3.	Select **Upload** to add all the relevant documents that a sales rep may need while working on this playbook activity. The documents are stored on the configured SharePoint site. For more information about working with documents, see [Manage your SharePoint documents from Dynamics 365 for Customer Engagement apps](../basics/manage-sharepoint-documents-document-locations-in-dynamics-365-apps.md)
+3.	Select **Upload** to add documents that a sales rep might need while working on this playbook activity. The documents are stored on the configured SharePoint site. For more information about working with documents, see [Manage your SharePoint documents from Dynamics 365 for Customer Engagement apps](../basics/manage-sharepoint-documents-document-locations-in-dynamics-365-apps.md).
 
 
 > [!NOTE]
 
-> -	Based on the permissions assigned to you, you can perform all document operations such as New, Upload, check out, edit, delete and so on. 
+> -	The document operations you can perform, such as creating a new document or uploading, checking out, editing, or deleting a document, depend on the permissions assigned to you.  
 
-> - If a system administrator disables document management on a playbook activity on which it was earlier enabled and documents were associated, the documents won’t be available to the associated activities when a playbook is launched for an entity such as opportunity or lead.
+> - If a system administrator disables document management on a playbook activity for which it was earlier enabled, and documents were associated, the documents won’t be available to the associated activities when a playbook is launched for an entity such as an opportunity or lead.
 
-> - By default, the Playbook activity entity is enabled for customization because that’s a prerequisite to enable SharePoint integration. However, we don't support any customizations to this entity.
+> - By default, the playbook activity entity is enabled for customization because that’s a prerequisite for enabling SharePoint integration. However, we don't support any customizations to this entity.
 
 ### See also
 [Manage playbook templates](manage-playbook-templates.md)  
