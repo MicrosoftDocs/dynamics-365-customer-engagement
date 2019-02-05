@@ -1,11 +1,11 @@
 ---
-title: How to add new custom forms for Opportunity, Quote, Order or Invoice entity (Project Service 2.x)
-description: This topic describes how to add custom forms for Opportunity, Quote, Order or Invoice entity in Project Service 2.x
+title: Add new custom entity forms (Project Service 2.x)
+description: This topic provides information about how to add custom entity forms for Opportunities, Quotes, Orders, or Invoices in Project Service 2.x.
 author: makk
-manager: rchawla
+manager: kfend
 ms.custom:
   - dyn365-projectservice
-ms.date: 12/14/2018
+ms.date: 2/05/2019
 ms.topic: article
 ms.prod: Project Service
 ms.service: business-applications
@@ -18,40 +18,42 @@ search.app:
     - D365PS
 ---
 
-# How to add new custom forms for Opportunity, Quote, Order or Invoice entity (Project Service 2.x)
+# Add new custom entity forms (Project Service 2.x)
 
-## Type field (msdyn_ordertype)
+## Type field 
 
-Project Service solution relies on 'Type' (**msdyn_ordertype**) field of the Opportunity, Quote, Order and Invoice entities to distinguish between **Work-based** (which are handled by Project Service) and other versions of these entities (**Item-based**, **Service-based**). There is a lot of business logic on the client and server sides of the solution that depends on that field. It is important that the field is initialized with correct value when entity is created. Having this field initialized with the wrong value may result in wrong behaviors and some of business logic not being executed correctly (some thing may not work as expected).
+Microsoft Dynamics 365 for Project Service Automation (PSA) relies on the **Type** (**msdyn_ordertype**) field of the Opportunity, Quote, Order, and Invoice entities to distinguish between **Work-based** entities, which are handled by PSA, and other versions (**Item-based** adn **Service-based**) of these entities. There is a lot of business logic on the client and server sides of the solution that depends on the **Type** field and it is important that the field be initialized with correct value when the entity is created. If the field is initialized with the wrong value, it may result in incorrect behaviors and some business logic not being executed correctly.
 
 ## Automatic form switching
 
-> NOTE: Automatic form switching has been deprecated in Project Service 3.x 
+To avoid potential data corruption and unexpected behaviors due to the incorrect initialization and edit of the sales entity records, PSA has added automatic form switching logic to out-of-the-box forms. This will navigate users to the correct form for working with **Work-based** or any other type of Opportunity, Quote, Order, and Invoice entities. When the user opens the **Work-based** version of Opportunity, Quote, Order, or Invoice, the form will switch to **Project Information**. The automatic form switching logic relies on the mapping between **formId** and **msdyn_ordertype**. All out-of-the-box forms have been added to that mapping. Custom forms have to be manually added to indicate which version of the entity they are meant to handle. This is based on the **msdyn_ordertype**. If the form switching is missing from the mapping, logic will switch to the out-of-the-box form based on the value that is saved in the **msdyn_ordertype** field of the entity.
 
-In order to avoid potential data corruption and wrong behaviors due to incorrect initialization and edits of the sales entity records the Project Service solution has added automatic form switching logic to the out of the box forms in order to bring user to the proper form for working with **Work-based** or any other type of Opportunity, Quote, Order and Invoice entities. When user opens **Work-based** version of Opportunity, Quote, Order or Invoice the form will be switched to 'Project Information' if the entity record is opened in the form not ment for working with **Work-based** versions of those entities. The automatic form switching logic relies on the mapping between **formId** and **msdyn_ordertype** that the form is ment to handle. All the out of the box forms have been added to that mapping, new custom forms have to be added manually in order to indicate which version of the entity (basing on the **msdyn_ordertype** of the entity) they are ment to handle. If the mapping is missing the form switching logic will switch to the default registered out of the box form basing on what value is saved in the **msdyn_ordertype** field of the entity.
+## Add custom forms and enable the form switching logic
 
-## How to add custom form for Opportunity, Quote, Order or Invoice entity and enable it for the form switching logic.
+The following example shows how to add the custom form, **My Project Information**, for working with **Work-based** opportunities. The same process is used to add custom forms to Quote, Order, and Invoice.
 
-> NOTE: This procedure is no longer needed for Project Service 3.x
+Complete the following steps to create a custom version of the **Project Information** form.
 
-The example below shows how to add custom 'My Project Information' form for working with **Work-based** Opportunities. The process for adding custom forms to Quote, Order and Invoice is similar.
+1. In the Opportunity entity, open the **Project Information** form and save a copy with the name, **My Project Information**.
+2. Open the new form, and in the properties, make sure that the form initialization scripts from the **Project Information** form are there. 
 
-* Create a custom version of 'Project Information' form.
-  - Open 'Project Informaiton' form of the Opportunity entity and save it as 'My Project Information' form.
-  - In the form properties of 'My Project Information' form make sure that form contains form initialization scripts from 'Project Information' form. Do not remove those as this may cause certain data to be incorrectly initialized.
-  - Make sure that *'Type'* (**msdyn_ordertype**) field remains on the form, do not remove it, otherwise it will make initialization scripts fail.
+  [!IMPORTANT]
+  > Do not remove the scripts because doing so could cause certain data to be initialized incorrectly.
 
-* Obtain *formId* of the newly created from. This can be done in one of the following ways:
-  - Export 'My Project Information' form as part of unmanaged solution and lookup *formId* in the customization.xml of the exported solution.
-  - Open 'My Project Information' in the form editor window and search for GUID next to *fromId* parameter in the URL (see highlighted GUID):
-> [!div class="mx-imgBorder"] 
-> ![Screenshot about identifying formId of the new form](media/how-to-add-custom-forms-in-v2.0.png)
+3. Verify that the field, **Type** (**msdyn_ordertype**) is on the form. 
 
-* Create proper **msdyn_ordertype** mapping for the *formId*.
-  1. Edit the following Web Resource: ***msdyn_/SalesDocument/PSSalesDocumentCustomFormIds.js***
-  2. Remove the code in the web resource and replace it with the following code:   
- 
- 
+  [!IMPORTANT]
+  > Do not remove this field or the initialization scripts will fail.
+
+4. Find the **formId** of the new form. You can do this in one of two ways:
+
+  - Export the **My Project Information** form as part of an unmanaged solution and lookup **formId** in the customization.xml of the exported solution.
+  - Open the **My Project Information** form in the form editor window and search for the GUID next to the **fromId** parameter in the URL as shown in the following graphic.
+
+  > ![Screenshot about identifying formId of the new form](media/how-to-add-custom-forms-in-v2.0.png)
+
+5. Create **msdyn_ordertype** mapping for the **formId** by editing the Web resource: ***msdyn_/SalesDocument/PSSalesDocumentCustomFormIds.js***. Remove the code in the resource and replace it with the following code:
+
             define(["require", "exports"], function (require, exports) {
             "use strict";
             var SalesDocumentCustomFormIds = (function () {
@@ -89,4 +91,4 @@ The example below shows how to add custom 'My Project Information' form for work
             exports.default = SalesDocumentCustomFormIds;
             });
   
-  3. Save and publish customizations.
+  6. Save and then publish the customizations.
