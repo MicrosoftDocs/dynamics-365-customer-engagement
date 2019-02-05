@@ -31,6 +31,24 @@ To deploy Omni-channel Engagement solution, your organization must have Customer
 
 More information: [Customer Service Hub app](../customer-service/user-guide-customer-service-hub.md)
 
+### Licensing requirement for Omni-channel Engagement Hub
+
+Your organization need the following Office 365 license requirement:
+
+- Office 365 Enterprise E1 plan or a higher plan. To learn more, see [Office 365 Business Plans](https://products.office.com/en-US/business/compare-more-office-365-for-business-plans).
+
+> [!NOTE]
+> You must assign the Office 365 Enterprise E1 plan or a higer plan licenses to the users. Minimum of Microsoft Teams service must be assigned to the user as part of license assignment.
+
+### Allow sideloading of external apps in Microsoft Teams
+
+To allow sideloading of external apps in Microsoft Teams, follow the steps:
+
+1. Go to [Microsoft 365 admin center](https://portal.office.com/adminportal/home#/homepage).
+2. Select **Settings** > **Services & add-ins** > **Microsoft Teams**.
+3. Expand **Apps** in **Tenant-wide settings**.
+4. In the External Apps section, for the **Allow sideloading of external apps** option, switch the toogle to **On**.
+
 ## System and hardware requirements of Omni-channel Engagement Hub - Preview with web experience
 
 | Area | Requirements | 
