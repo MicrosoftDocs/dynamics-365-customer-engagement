@@ -61,17 +61,15 @@ Change 2nd sentence, if this is accurate, to: "However, this view doesn't show t
 
 ## Preview: View or download documents associated with an activity
 
-[This section is a prerelease documentation and is subject to change.]
+[This section is prerelease documentation and is subject to change.]
 
 > [!NOTE]
-
-> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)] 
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
+>   - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)] 
+>   - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
 If a sales manager has added sales brochures or training docs to a playbook activity, as a sales rep you can refer to these docs while you are working on the activity to ensure you can quickly access any details you need.
 
 > [!NOTE]
-
 > Documents are available only for task and appointment activities associated with a playbook activity. 
 
 To view or download a document, in the activity form, select the **Related** tab, and then select **Documents**.
