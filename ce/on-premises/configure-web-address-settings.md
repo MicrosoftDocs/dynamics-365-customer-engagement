@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 352c7bff-91c2-4b9e-a167-d746ffbeeda6
 caps.latest.revision: 17
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Configure web address settings
 

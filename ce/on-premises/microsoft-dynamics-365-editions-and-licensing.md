@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 3bd04575-1193-4fe4-92e1-dc0c91a1bebe
 caps.latest.revision: 30
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Microsoft Dynamics 365 for Customer Engagement editions and licensing
 

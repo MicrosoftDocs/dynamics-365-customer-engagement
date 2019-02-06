@@ -13,6 +13,7 @@ ms.assetid: a9325e0d-b020-4f0f-a339-9eaf2d6387d2
 caps.latest.revision: 38
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
 # Install Dynamics 365 for Customer Engagement Full Server role on a server without Dynamics 365 for Customer Engagement installed
 

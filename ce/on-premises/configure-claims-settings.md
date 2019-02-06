@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 85f74dae-06a4-48a3-96e1-3e0a8a78934e
 caps.latest.revision: 13
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Configure claims settings
 

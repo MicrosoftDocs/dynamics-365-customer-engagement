@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: e5b3d1be-951b-431f-bdea-55d75c61317a
 caps.latest.revision: 12
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Uninstall or repair Dynamics 365 Reporting Extensions
 

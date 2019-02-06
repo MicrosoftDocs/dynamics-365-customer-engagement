@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: e8728ff3-26df-48f7-a5a9-35b66aeedc50
 caps.latest.revision: 10
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Monitoring and troubleshooting Dynamics 365 for Customer Engagement (on-premises)
 

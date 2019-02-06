@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 89f41190-e266-450d-b3c9-95b09eef5f63
 caps.latest.revision: 38
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Before you upgrade: issues and considerations
 

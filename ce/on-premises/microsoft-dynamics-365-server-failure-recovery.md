@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: fd3400ef-18f5-430e-9a46-0bf38b21024f
 caps.latest.revision: 11
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Microsoft Dynamics 365 Server failure recovery
 

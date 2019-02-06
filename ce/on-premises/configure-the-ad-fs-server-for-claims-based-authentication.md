@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: f7d5c4db-4238-4f42-93a5-16904617311f
 caps.latest.revision: 39
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Configure the AD FS server for claims-based authentication
 

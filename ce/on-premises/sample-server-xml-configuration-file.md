@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 438b672c-2eea-4bcc-b07d-7ad031aba12d
 caps.latest.revision: 22
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Sample server XML configuration file
 

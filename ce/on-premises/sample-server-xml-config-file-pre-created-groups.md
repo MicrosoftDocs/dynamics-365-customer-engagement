@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 1d79f2c1-6e09-48d1-830e-f68e98de7efb
 caps.latest.revision: 13
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Sample server XML configuration file for installing with pre-created groups
 

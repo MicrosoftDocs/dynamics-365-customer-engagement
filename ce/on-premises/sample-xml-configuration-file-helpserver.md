@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 98f6d099-f0f6-4184-9c1a-0b8047683a36
 caps.latest.revision: 16
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Sample XML configuration file that installs only the HelpServer role
 

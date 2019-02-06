@@ -13,6 +13,7 @@ ms.assetid: 58b6c7b3-d032-4a76-bc31-a9503382e7e7
 caps.latest.revision: 13
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
 # Change the product key
 

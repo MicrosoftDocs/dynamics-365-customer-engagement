@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: eee528fb-ef2f-4a77-ad0f-3d29bcb42351
 caps.latest.revision: 10
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Configure IFD for Dynamics 365 for Customer Engagement (on-premises)
 

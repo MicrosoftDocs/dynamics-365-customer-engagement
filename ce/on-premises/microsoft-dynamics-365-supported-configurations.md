@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 61c14cce-71e0-4f18-b02b-7caaa932ab6f
 caps.latest.revision: 28
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Dynamics 365 for Customer Engagement (on-premises) supported configurations
 

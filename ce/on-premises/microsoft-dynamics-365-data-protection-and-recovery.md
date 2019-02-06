@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 1c23cef7-9ad8-41de-b8e5-f7c5cc74e431
 caps.latest.revision: 9
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Dynamics 365 for Customer Engagement (on-premises) data protection and recovery
 

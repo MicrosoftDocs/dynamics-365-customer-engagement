@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 09348882-9013-4a0c-a616-222a768bce5e
 caps.latest.revision: 10
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Dynamics 365 for Customer Engagement (on-premises) failure recovery
 

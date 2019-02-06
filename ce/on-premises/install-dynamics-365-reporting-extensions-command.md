@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 252a0933-68d9-45bd-9662-71cb819f9604
 caps.latest.revision: 19
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Install Microsoft Dynamics 365 Reporting Extensions using a command prompt
 

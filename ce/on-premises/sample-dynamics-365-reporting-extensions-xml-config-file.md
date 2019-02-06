@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 4793de36-fbeb-4ae1-af86-c860e9011982
 caps.latest.revision: 11
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Sample Dynamics 365 Reporting Extensions XML configuration file
 

@@ -11,6 +11,9 @@ applies_to:
   - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: 8b73f1ac-51ac-4e18-bb4c-19b427fcb141
 caps.latest.revision: 24
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Dynamics 365 for Customer Engagement (on-premises) deployment properties
 

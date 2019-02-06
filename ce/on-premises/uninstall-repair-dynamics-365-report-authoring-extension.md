@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 7d530116-28f8-4a6d-9223-5a5887c719df
 caps.latest.revision: 13
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Uninstall or repair Dynamics 365 Report Authoring Extension
 

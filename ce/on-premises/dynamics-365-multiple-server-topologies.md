@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 93b0f3ff-06e0-4422-8fd0-b4b33d77d4b8
 caps.latest.revision: 14
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Support for Dynamics 365 for Customer Engagement (on-premises) multiple-server topologies
 

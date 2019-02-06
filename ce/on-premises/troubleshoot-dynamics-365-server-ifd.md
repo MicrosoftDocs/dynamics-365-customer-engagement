@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: f37300dc-279a-49cf-8b7f-f3912b877aea
 caps.latest.revision: 31
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Troubleshoot Dynamics 365 Server IFD
 

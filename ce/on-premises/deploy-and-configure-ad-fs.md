@@ -12,6 +12,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: cb5c50eb-aca4-4e8e-91ea-3a5b4721b981
 caps.latest.revision: 30
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Deploy and configure AD FS
 

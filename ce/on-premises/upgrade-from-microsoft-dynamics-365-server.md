@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 5a236c3e-0ef5-4e30-84ed-e624485a5585
 caps.latest.revision: 39
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Upgrade Dynamics 365 Server
 

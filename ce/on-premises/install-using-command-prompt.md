@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 83f0f6ac-3b36-451f-ab22-16948961fe9c
 caps.latest.revision: 19
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Install Microsoft Dynamics 365 Server roles using the command prompt
 

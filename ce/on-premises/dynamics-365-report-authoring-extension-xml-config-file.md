@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 146bfbd7-18e6-498a-9b1a-93fbedc8c2af
 caps.latest.revision: 15
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Microsoft Dynamics 365 Report Authoring Extension XML configuration file
 

@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: cdd57c0a-9b98-474e-9987-651c7400ff59
 caps.latest.revision: 15
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Test external claims-based authentication
 

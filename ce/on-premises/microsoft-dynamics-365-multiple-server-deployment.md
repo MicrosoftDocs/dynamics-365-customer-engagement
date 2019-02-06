@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 61f3e0eb-24f3-4410-83c5-0b08776b5ce2
 caps.latest.revision: 17
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Dynamics 365 for Customer Engagement (on-premises) multiple-server deployment
 

@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 24a39c43-7eaf-4259-aef9-44a2106c330d
 caps.latest.revision: 15
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Configure IFD settings
 

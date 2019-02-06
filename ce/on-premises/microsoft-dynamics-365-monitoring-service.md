@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: ec8cb740-8ef2-46b8-9349-7bed1c418815
 caps.latest.revision: 12
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Microsoft Dynamics 365 Monitoring Service
 

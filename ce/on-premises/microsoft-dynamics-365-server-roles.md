@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 21b80748-851d-4dc6-aceb-b6b569531b09
 caps.latest.revision: 44
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Microsoft Dynamics 365 Server roles
 

@@ -11,6 +11,9 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 833034aa-73b6-475a-8fde-0060ebeb7726
 caps.latest.revision: 28
+ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Operating system and platform technology security considerations for Dynamics 365 for Customer Engagement (on-premises)
 
