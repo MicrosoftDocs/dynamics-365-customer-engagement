@@ -24,7 +24,7 @@ Communication panel is a conversation control where you interact with the custom
 
 Using the chat channel, you can send quick replies and search for and share knowledge articles with the customer with whom you are interacting. You can transfer the work item to another agent or queue. Use the consult option if you need help to resolve the work item. Also, you can switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
 
-The landing page explains some of the key features of Omni-channel Engagement Hub and communication panel. When you interact with a customer, you can see the following interface in communication panel.
+The landing page explains some of the key features of Omni-channel Engagement Hub and communication panel. When you interact with a customer, you can see the following interface in the communication panel.
 
  > [!div class=mx-imgBorder]
  > ![Omni-channel Engagement Hub communication panel chat interface](../../media/csh-conversation-control-chat-interface.png "Omni-channel Engagement Hub communication panel chat interface")  
@@ -45,7 +45,7 @@ In communication panel, you can see the following options:
 
 ### Send messages using Public and Internal mode
 
-The communication panel allows you send messages in two ways - **Internal** and **Public**. 
+The communication panel allows you to send messages in two ways - **Internal** and **Public**. 
 
 When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option. The internal messages are not shown to the customers.
 
@@ -67,7 +67,7 @@ The Customer summary page displays details about a customer with whom you intera
 
 ### Send templatized messages in the chat
 
-The communication panel allows you to send templatized messages to the customer with whom your're interacting with. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send it to the customers.
+The communication panel allows you to send templatized messages to the customer with whom you're interacting with. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send it to the customers.
 
  > [!div class=mx-imgBorder] 
  > ![Use quick replies option to send faster replies to customers](../../media/csh-send-quick-replies-chat.png "Use quick replies option to send faster replies to customers")  
@@ -92,9 +92,11 @@ From the communication panel, you can search for relevant knowledge articles bas
 
 **/kb** (forward slash, letter k, and letter b) is the keyboard shortcut to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
 
+To learn more, see [Search for and share knowledge articles](csh-search-knowledge-articles.md)
+
 ### Link to conversation
 
-When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
+When you have a conversation with a customer, you can link the conversation to the record (case or account/contact). To learn more, see [Search and link a record to the conversation](csh-search-link-record.md)
 
 ### Consult with agent or supervisor
 
@@ -113,15 +115,15 @@ The communication panel allows you to transfer a conversation request. You can t
  > [!div class=mx-imgBorder]
  > ![Use the transfer option to launch the transfer list](../../media/csh-cc-options-elippsis-tansfer.png "Use the transfer option to launch the transfer list")
 
-You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and when you transfer the request, routing rules assigns the conversation (work item) to the appropriate agent in the queue.
+You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and when you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
 
-Use a keyboard shortcut to see the list of agents and/or the supervisor who are available for transfer. Press the Slash (/) key and the letters t (**/+t**).
+Use a keyboard shortcut to see the list of agents and/or the supervisor who is available for transfer. Press the Slash (/) key and the letters t (**/+t**).
 
 Use a keyboard shortcut to see the list of queues to transfer the conversation request. Press the Slash (/) key and the letters T and Q (**/+T+Q**).
 
  ![Transfer agent list](../../media/csh-cc-transfer-agent-list.png "transfer agent list") ![Transfer queue list](../../media/csh-cc-transfer-queue-list.png "Transfer queue list")
 
-**/T** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation to. The **/T** shortcut keeps the focus on the agent tab whereas the **/TQ** shortcut keeps the focus on the queue tab.
+**/T** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/T** shortcut keeps the focus on the agent tab whereas the **/TQ** shortcut keeps the focus on the queue tab.
 
 > [!div class="nextstepaction"]
 > [Next topic: Set user presence](csh-set-user-presence-status.md)
