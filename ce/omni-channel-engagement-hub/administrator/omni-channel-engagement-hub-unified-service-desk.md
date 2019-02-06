@@ -32,7 +32,7 @@ To download the Unified Service Desk client application, you must join the Omni-
 > Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
 
 
-## Install Unified Service Desk client
+## Install Unified Service Desk client application
 
 To learn how to install Unified Serivce Desk, see [Install Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/install-upgrade-unified-service-desk-client).
 
