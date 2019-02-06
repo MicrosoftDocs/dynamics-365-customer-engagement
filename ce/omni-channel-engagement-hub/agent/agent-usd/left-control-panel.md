@@ -16,9 +16,9 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-The communication or conversation panel shows the exchange of messages between you and the customer. The communication panel can hosts differnt channels.
+The communication or conversation panel shows the exchange of messages between you and the customer. The communication panel can hosts different channels.
 
-In chat channel, you can see the following options:
+In the chat channel, you can see the following options:
  
  | Option           | Description                                   |
  |------------------|-----------------------------------------------|
@@ -34,7 +34,7 @@ In chat channel, you can see the following options:
 
 ## Internal and public messages
 
-The communication panel allows you send messages in two ways - **Internal** and **Public**. 
+The communication panel allows you to send messages in two ways - **Internal** and **Public**. 
 
 When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option. The internal messages are not shown to the customers.
 
@@ -54,7 +54,7 @@ You can use keyboard shortcuts to send internal and public messages:
 
 ## Send quick replies in the chat
 
-The communication panel provides you the capability to send templatized messages to the customer with whom you're interacting. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send it to the customers.
+The communication panel provides you with the capability to send templatized messages to the customer with whom you're interacting. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send it to the customers.
 
 > [!div class=mx-imgBorder]
 >![omni-channel quick response](../../media/oc-usd-cc-quick-replies.png "Omni-channel quick response")
@@ -74,7 +74,7 @@ The communication panel lets you to consult with other agents and/or supervisor 
 > [!div class=mx-imgBorder]
 >![omni-channel consult](../../media/oc-usd-cc-consult.png "Omni-channel consult")  
 
-You can use a keyboard shortcut to see the list of agents and/or the supervisor who are available for consultation. Press the Slash (/) key and the letters C and O (**/+C+O**).
+You can use a keyboard shortcut to see the list of agents and/or the supervisor who is available for consultation. Press the Slash (/) key and the letters C and O (**/+C+O**).
 
 ## Transfer the conversation
 
@@ -83,9 +83,9 @@ The communication panel allows you to transfer a conversation request. You can t
 > [!div class=mx-imgBorder]
 >![omni-channel transfer](../../media/oc-usd-cc-transfer.png "Omni-channel transfer")
 
-You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and when you transfer the request, routing rules assigns the conversation (work item) to the appropriate agent in the queue.
+You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and when you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
 
-Use a keyboard shortcut to see the list of agents and/or the supervisor who are available for transfer. Press the Slash (/) key and the letters t (**/+t**).
+Use a keyboard shortcut to see the list of agents and/or the supervisor who is available for transfer. Press the Slash (/) key and the letters t (**/+t**).
 
 Use a keyboard shortcut to see the list of queues to transfer the conversation request. Press the Slash (/) key and the letters T and Q (**/+T+Q**).
 
