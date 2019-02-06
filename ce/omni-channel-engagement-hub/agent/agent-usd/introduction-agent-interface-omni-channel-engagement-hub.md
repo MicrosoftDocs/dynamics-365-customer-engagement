@@ -45,7 +45,7 @@ The Omni-channel toolbar also called as default global toolbar as the components
 
 ### Search
 
-The **Search** button lets you to search for records and open them in a new active session. You can use the **Search** button to search for the following types of records:
+The **Search** button lets you search for records and open them in a new active session. You can use the **Search** button to search for the following types of records:
 
  - Case
 
@@ -55,7 +55,7 @@ The **Search** button lets you to search for records and open them in a new acti
 
  - Phone call
 
--   Task Email
+ - Task Email
  
  > [!div class=mx-imgBorder]
  > ![omni-channel search](../../media/oc-usd-search.png "Omni-channel search")  
