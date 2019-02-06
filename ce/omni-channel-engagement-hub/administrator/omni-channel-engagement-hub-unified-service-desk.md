@@ -224,8 +224,8 @@ Also, the PowerShell script updates the recommended Internet Explorer settings s
     Add the following URLs:<br>
     - https://login.microsoftonline.com
     - https://www.office.com
-    - <Instance name>.powerbi.com
-    - <Org name>.dynamics.com
+    - https://\<Instance name\>.powerbi.com
+    - https://\<Org name\>.dynamics.com
     - https://oc-cdn-public.azureedge.net
     - https://oc-auth.azurewebsites.net
 
