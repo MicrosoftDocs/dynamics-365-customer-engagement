@@ -31,6 +31,13 @@ To download the Unified Service Desk client application, you must join the Omni-
 > [!Note]
 > Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
 
+
+## Install Unified Service Desk client
+
+To learn how to install Unified Serivce Desk, see [Install Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/install-upgrade-unified-service-desk-client).
+
+Make sure you computer meets all requirements before you install the Unified Service Desk client application. More information: [Unified Service Desk system requirements](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
+
 ## Deploy Unified Service Desk - Omni-channel Engagement Hub package
 
 Microsoft Dynamics 365 Package Deployer enables you to deploy **Unified Service Desk - Omni-channel Engagement Hub - Preview** package on a Dynamics 365 for Customer Engagement instance.
@@ -41,9 +48,9 @@ To download the **Unified Service Desk - Omni-channel Engagement Hub - Preview**
 > Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
 
 > [!Important]
-> - As Omni-channel Engagement Hub is in preview, we recommend to deploy the Unified Service Desk - Omni-channel Engagement Hub - Preview package on a new org. We recommend not to use your existing org (test or production) for testing Omni-channel Engagement Hub - Preview.
+> As Omni-channel Engagement Hub is in preview, we recommend to deploy the Unified Service Desk - Omni-channel Engagement Hub - Preview package on a new org. We recommend not to use your existing org (test or production) for testing Omni-channel Engagement Hub - Preview.
 
-1. Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save on your computer. Extract the contents in to a folder.<br> The extracted contents contain the **PackageDeployer.exe**, **OmnichannelUSDPackage**, and assembly files.
+1. Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your computer. Extract the contents in to a folder.<br> The extracted contents contain the **PackageDeployer.exe**, **OmnichannelUSDPackage**, and assembly files.
 
 2. Run the **PackageDeployer.exe** file. 
 
@@ -51,7 +58,7 @@ To download the **Unified Service Desk - Omni-channel Engagement Hub - Preview**
 
 4. The next screen displays information about the package that will be installed on your Customer Engagement instance. Review the information, and choose **Next**.
 
-5. The **Ready to Install** screen displays the package name for deployment and name of the Customer Engagement organization where it will be deployed to. Review the information, and choose **Next**.
+5. The **Ready to Install** screen displays the package name for deployment and name of the Customer Engagement organization. Review the information, and choose **Next**.
 
 6. The next screen displays the validation status of the package. After the validation completes successfully, choose **Next**.
 
@@ -61,12 +68,6 @@ To download the **Unified Service Desk - Omni-channel Engagement Hub - Preview**
 
 To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](/dynamics365/customer-engagement/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer
 ).
-
-## Install Unified Service Desk client
-
-To learn how to install Unified Serivce Desk, see [Install Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/install-upgrade-unified-service-desk-client).
-
-Make sure you computer meets all requirements before you install the Unified Service Desk client application. More information: [Unified Service Desk system requirements](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
 
 ## Set up Edge Process with Unified Service Desk
 
