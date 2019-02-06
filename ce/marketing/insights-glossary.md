@@ -35,7 +35,7 @@ This topic provides definitions of terms commonly used to describe marketing res
 <dt><strong>Contact  stopped in journey</strong></dt>
 <dd>From time to time, a contact may get stopped in the middle of a customer journey for some reason, in which case they will wait at the tile where they were stopped until conditions change again (but typically they won't). There are three main reasons why a contact might get stopped at a tile during a journey: they unsubscribed from the mailing list targeted by the journey while it was running, they joined the journey's suppression segment while it was running, or the lowered their consent level to be below the minimum threshold set for the journey while it was running. Unsubscribes are counted together with suppression list changes.</dd>
 
-<dt><strong>Email block bounce</strong></dt>
+<dt><strong>Email block bounced</strong></dt>
 <dd>A block bounce is registered for emails messages that bounce for some reason other than a hard or soft bounce. This result is rare, and might indicated a remote bounce, which occurs when a server initially accepts an email, but then returns a bounce message sometime later. This might happen when the receiving email server is running local filtering rules that identify issues such as lack of sender authentication, flagged content, or because the sending IP is on a blacklist. These are otherwise treated as soft bounces.</dd>
 
 <dt><strong>Email blocked</strong></dt>
