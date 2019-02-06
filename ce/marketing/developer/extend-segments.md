@@ -41,9 +41,8 @@ This topic demonstrates how to perform basic operation on the `msdyncrm_segment`
 
 To test the operations you can use Postman tool. More information [Use Postman with Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-web-api)
 
-## CRUD Operations
+## CRUD operations on static segments
 
-### CRUD operations on static segments
 This example shows how to create, update, retrieve and delete static segments.
 
 **Create Request**
@@ -93,7 +92,7 @@ In the delete request, you will delete the created draft static segment.
 DELETE {{orgUrl}}/api/data/v9.0/msdyncrm_segments(23fa0663-6fe2-e811-a989-000d3a135be0)
 ```
 
-### CRUD operations on dynamic segments
+## CRUD operations on dynamic segments
 
 This example shows how to create, update, retrieve and delete dynamic segments.
 
@@ -190,7 +189,7 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments(fb42b289-c34f-4f5f-8e43-8e3831
     "statuscode": 192350001
 }
 ```
-### Add/remove segment members
+## Add/remove segment members
 
 Members can be added to or removed from segments, both static and dynamic. As these operations go beyond a simple add/remove for dynamic segment they are referred to as `Include/Exclude`.
 
@@ -252,7 +251,7 @@ POST {{orgUlr}}/api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
 }
 ```
 
-### Include/exclude dynamic segment members
+## Include/exclude dynamic segment members
 
 Dynamic and compound segments are based on a query. Records matching this query becomes segment members. For static segments, the include/exclude operations have a more straight-forward semantics of adding or removing segment members.
 
