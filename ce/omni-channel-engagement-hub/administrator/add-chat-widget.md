@@ -26,10 +26,11 @@ ms.custom:
 
         1. In the **General information** section, enter a name for the chat widget. You can optionally specify authentication settings. Save the record to enter more details. For more information about how to specify authentication settings, see [Create chat authentication settings](create-chat-auth-settings.md).
         2. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
-        3. Copy the value in the **Code snippet** section, and embed it in the HTML source of your website.
-
+        
         > [!NOTE]
-        > If no domains are whitelisted, the chat widget can be embedded on any website without restrictions.
+        > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
+        
+        3. Copy the value in the **Code snippet** section, and embed it in the HTML source of your website.
         
         > [!div class=mx-imgBorder]
         > ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")

@@ -76,17 +76,14 @@ You can use a keyboard shortcut to see the list of quick replies. Press the Slas
 
 ### Take notes specific to conversation
 
-Use the notes option to capture information specific to the conversation when you interact with the customers. Use the shortcut to launch the notes.
+Use the notes option to capture information specific to the conversation when you interact with the customers. Use the option in the communication panel to launch the notes.
 
  > [!div class=mx-imgBorder]
- > ![Launch notes panel for taking notes](../../media/csh-cc-option-notes.png "Launch notes panel for taking notes")  
+ > ![Launch notes panel for taking notes](../../media/csh-cc-option-notes.png "Launch notes panel for taking notes")
 
- > [!div class=mx-imgBorder]
- > ![Notes panel to take the discussion points when interacting with customers](../../media/csh-cc-notes.png "Notes panel to take the discussion points when interacting with customers")  
+More information [Take notes specific to conversation](csh-take-notes.md)
 
-When you select the notes option from the communication panel, the application displays the notes panel next to the communication panel. You can capture the points and select **Add**. The notes will be linked to the conversation for you to access at a later point.
-
-### Search and knowledge articles
+### Search for and share knowledge articles
 
 From the communication panel, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the communication panel. Use the shortcut to launch knowledge articles search.
 
@@ -140,6 +137,7 @@ Use a keyboard shortcut to see the list of queues to transfer the conversation r
 - [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
 - [Search for and share knowledge articles](csh-search-knowledge-articles.md)
+- [Take notes specific to conversation](csh-take-notes.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)

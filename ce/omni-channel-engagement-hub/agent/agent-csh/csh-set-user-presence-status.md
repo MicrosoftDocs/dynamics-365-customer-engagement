@@ -55,6 +55,7 @@ Presence status is updated in two ways:
 - [View communication panel](csh-conversation-control.md)
 - [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
 - [Search for and share knowledge articles](csh-search-knowledge-articles.md)
+- [Take notes specific to conversation](csh-take-notes.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
