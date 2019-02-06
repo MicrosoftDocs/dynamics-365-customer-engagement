@@ -3,7 +3,7 @@
 title: Pricing and costing dimensions home page
 description: This topic provides an overview of pricing dimensions.
 author: rumant
-manager: eichimur
+manager: kfend
 ms.custom:
   - dyn365-projectservice
 ms.date: 11/19/2018

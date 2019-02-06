@@ -73,5 +73,5 @@ There are two types of user roles in [!INCLUDE[pn_netbreeze_short](../includes/p
 ### See Also  
 [Integrate Social Engagement with Office 365](manage-licenses.md)   
 [Integrate Social Engagement with Dynamics 365 for Customer Engagement](integrate-social-engagement-dynamics-365.md)   
-[Get connected to the social conversation using Microsoft Social Engagement](get-connected-social-conversation.md)
+[Connect with customers. Empower your organization. Create real results.](overview.md)
  

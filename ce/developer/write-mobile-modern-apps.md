@@ -5,15 +5,12 @@ ms.custom:
 ms.date: 10/31/2017
 ms.reviewer: 
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
   - mobile, modern,app
 ms.assetid: 16d118f7-b8fa-4a23-8e56-6148669d3bc0
-caps.latest.revision: 24
 author: SushantSikka
 ms.author: susikka
 manager: sakudes
@@ -30,7 +27,7 @@ search.app:
 
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps provide separate clients for phones and tablets which adapt to the customizations and configurations you apply to the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for phones and Tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
 
-Organizations can use the mobile development tools and libraries to easily create and deploy mobile apps that offer additional functionality to what is available on Dynamics 365 for Customer Engagement for Phones and Tablets.
+Organizations can use the mobile development tools and libraries to easily create and deploy mobile apps that offer additional functionality to what is available on Dynamics 365 for phones and Tablets.
 
 Here are four scenarios where you can create mobile apps that leverage the Microsoft Dynamics CRM platform to provide additional value to the organization:
 

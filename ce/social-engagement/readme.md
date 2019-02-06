@@ -34,7 +34,7 @@ Do you have an idea how to further improve the service or app? Go to the [Ideas 
 
 ## Integration scenarios - known issues
 
-### Can’t open links when you use the Social Selling Assistant from the Dynamics 365 for Customer Engagement for tablets app
+### Can’t open links when you use the Social Selling Assistant from the Dynamics 365 for tablets app
 
 You can access the Social Selling Assistant app from both the Dynamics 365 for Customer Engagement web
 client and the tablets app. However, the following restrictions apply:

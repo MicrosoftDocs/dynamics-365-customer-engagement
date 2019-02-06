@@ -1127,7 +1127,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Value|Label|
 |-----|-----|
 |0|None|
-|1|Microsoft Dynamics 365 for Customer Engagement for Outlook|
+|1|Microsoft Dynamics 365 for Outlook|
 |2|Server-Side Synchronization or Email Router|
 |3|Forward Mailbox|
 
@@ -1411,7 +1411,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Value|Label|
 |-----|-----|
 |0|None|
-|1|Microsoft Dynamics 365 for Customer Engagement for Outlook|
+|1|Microsoft Dynamics 365 for Outlook|
 |2|Server-Side Synchronization or Email Router|
 
 

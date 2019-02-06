@@ -53,7 +53,7 @@ Both spam filters and sender-reputation systems analyze the content of the messa
 
 Several standards are in place to help ensure that sending IP addresses really do represent the organizations they claim to, and that messages coming from those IPs are authentic and untampered with. These include _Sender Policy Framework_ ([SPF](http://www.openspf.org/FAQ)), _DomainKeys Identified Mail_ ([DKIM](http://dkim.org/info/dkim-faq.html)), and _Domain-based Message Authentication, Reporting and Conformance_ ([DMARC](https://dmarc.org/wiki/FAQ)). In a standard setup, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] implements SPF for you and does what it can to maintain a good sender reputation for all [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] sender IPs. However, we also recommend the following:
 
-- Use DKIM to link your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] sending domain with your own email domain. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain to keep up with recent [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] changes](#dkim).
+- Use DKIM to link your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] sending domain with your own email domain. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain](#dkim).
 - If you are already using DMARC to authenticate messages sent from your domains, then contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] to get help setting it up to authenticate messages sent on your behalf by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. For complete details on why this is important and how to do it, see [Work with Microsoft Support if you use, or want to use, DMARC](#dmarc)
 
 ### Avoid sending to invalid and inactive email addresses
@@ -79,42 +79,16 @@ High-scoring sender reputations are associated with IP addresses that send a con
 
 <a name="dkim"></a>
 
-## Set up DKIM for your sending domain to keep up with recent [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] changes
+## Set up DKIM for your sending domain
 
-### Your legitimate marketing emails should never smell “phishy”
-
-One of the most common online scams, also known as phishing, occurs when a fraudulent message pretends to come from a well-known online service or financial institution. The goal is to trick recipients into responding to the message by providing private details such as passwords or credit card numbers. If your legitimate marketing emails get flagged as phishing attempts, they will never reach their recipients.
-
-### How DKIM helps prevent phishing
-
-A great way to prevent phishing from occurring is for email recipients to authenticate the sending address for each message to confirm it really was sent from a domain that belongs to the company or organization it claims to belong to. A technology called DKIM (DomainKeys Identified Mail) helps accomplish this by incorporating the following elements:
+One of the most common online scams, also known as *phishing*, occurs when a fraudulent message pretends to come from a well-known online service or financial institution. The goal is to trick recipients into responding to the message by providing private details such as passwords or credit card numbers. One way to prevent phishing is for email recipients to authenticate the from-address for each message to confirm it really was sent from a domain that belongs to the company or organization it claims to belong to. A technology called DKIM (DomainKeys Identified Mail) helps accomplish this by incorporating the following elements:
 
 - A public/private key signature that proves the message was sent from a server owned by a known organization.
 - A central register of authenticated signatures, which enables the DNS (Domain Name System) to confirm that each signature is legitimate and that the sending domain and claimed from-address both belong to the same organization.
 
-### Email providers are rolling out stronger DKIM checking
-
 When you send email from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], your messages come from a domain owned by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] (such as `contosomarketing.onmicrsoft.com`), but the from-address will probably belong to one of your own marketing, sales, or account managers using a more well-known domain that belongs to your organization (such as `you@contoso.com`). This discrepancy can be a red flag when an inbound email server does a DKIM check on incoming messages, which is why a full implementation of DKIM is so important for ensuring high deliverability, especially when you are using a third-party sending service like [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] already uses DKIM to sign all outgoing messages as coming from a legitimate [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] domain. Until now this was enough, but [Office 365 has recently upgraded their security](https://docs.microsoft.com/en-us/office365/securitycompliance/anti-spoofing-protection) to not only check that the DKIM signatures are legitimate, but also to confirm that the sending domain is authorized to send email on behalf of the same organization as the claimed email-from address. As stated in the Office documentation:
-
-<blockquote>Microsoft's anti-spoofing technology was initially deployed to its organizations that had an Office 365 Enterprise E5 subscription or had purchased the Office 365 Advanced Threat Protection (ATP) add-on for their subscription. As of October, 2018 we've extended the protection to organizations that have Exchange Online Protection (EOP) as well. Additionally, because of the way all of our filters learn from each other, Outlook.com users may also be affected.</blockquote>
-
-We expect other major email providers (especially business providers) to follow suit soon, which means that your deliverability rates could be about to plummet unless you link your from-address domain to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] domain in the DNS system. However, we can't register our domains as being legitimate senders for your organization—only you can do that, which is part of the reason why this system helps to increase security both for you and for your message recipients.
-
-### What you should do
-
-All you need to do to fix this is to register your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] sending domain with the DNS system as being a legitimate sender for your organization. Because [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] already includes its own DKIM signature in each message, receiving servers will then be able to confirm that both the sending address (your email address) and the sending server (your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] server) both belong to authenticated domains that are approved to send email on behalf of your organization.
-
-The process is easy and straightforward:
-
-1. [Contact Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) and tell them you want to set up DKIM to link your email-from domain with [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]'s [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] sending domain in DNS, and provide them with the name of the domain that you use in your email-from addresses.
-1. [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] will create and send you the materials and detailed instructions needed to do the required registration in DNS.
-1. Contact your internet service provider, domain-name provider, or internal IT department, and use the instructions we sent you to complete the registration in DNS.
-1. Contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] again to tell them when you have finished the registration.
-1. [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] finalizes the configuration on our side and lets you know when you're good to go.
-
-[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] is dedicated to helping all [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] customers achieve maximum deliverability, so if we can see that your instance is missing this DKIM configuration, [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] will soon contact your organization with an offer to help you set it up.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] helps you to generate, register, and confirm DKIM keys for each of your sending domains. See [Authenticate your domains](marketing-settings.md#authenticate) for instructions.
 
 <a name="dmarc"></a>
 

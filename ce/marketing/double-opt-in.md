@@ -34,11 +34,11 @@ The double opt-in process works as follows:
 
 Double opt-in is a good idea in all countries/regions, and in many countries/regions (especially in Europe), it's required by law.
 
-Read this topic to learn how to set up each element required for the double opt-in system and how to enable double opt-in for your site.
+Read this topic to learn how to set up each element required for the double opt-in system and how to enable double opt-in for your instance.
 
 ## Create a subscription confirmation-request message
 
-A subscription confirmation-request message is sent to contacts each time they register for a new newsletter subscription while double opt-in is enabled for your site. This applies both to known contacts using a subscription center, and for new contacts registering on your site for the first time.
+A subscription confirmation-request message is sent to contacts each time they register for a new newsletter subscription while double opt-in is enabled for your instance. This applies both to known contacts using a subscription center, and for new contacts registering for the first time.
 
 > [!NOTE]
 > [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] sends a separate confirmation-request message for each subscription list a contact chooses to join, even if they enable several lists at once.
@@ -141,7 +141,7 @@ You might have just one content-settings record set up for your system, which yo
 
 Review your content-settings records and decide which to use (or create a new one if needed).
 
-You will choose the content-settings record to use for all confirmation-request messages when you set up double opt-in for your site, as described later in this topic.
+You will choose the content-settings record to use for all confirmation-request messages when you set up double opt-in for your instance, as described later in this topic.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
 
@@ -151,7 +151,7 @@ When a contact clicks the confirmation link in a confirmation email, [!INCLUDE[p
 
 <a name="set-up-doi"></a>
 
-## Set up and enable double opt-in on your site
+## Set up and enable double opt-in on your instance
 
 The double opt-in feature is global for your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance. When it's enabled, all new-subscription and increase-consent requests will require double opt-in and the same settings will apply everywhere.
 

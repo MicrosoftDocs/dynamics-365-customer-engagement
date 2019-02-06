@@ -28,7 +28,8 @@ search.app:
 Enable languages in your organization to display the user interface and Help in a language that’s different from the base language. 
 
 > [!IMPORTANT]
-> If you’re running [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], you must download one or more [Language Packs](http://go.microsoft.com/fwlink/p/?LinkID=513276) before you can enable additional languages.  
+>  - If you’re running [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], you must download one or more [Language Packs](http://go.microsoft.com/fwlink/p/?LinkID=513276) before you can enable additional languages.   
+>  - Enabling language packs may affect application performance. More information: [Performance tuning and optimization](performance-tuning-and-optimization.md) 
 
  The following table shows tasks that are associated with changing regional and language options for your organization.  
 
@@ -71,6 +72,7 @@ Enable languages in your organization to display the user interface and Help in 
 
 > [!IMPORTANT]
 >  For [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], you must download and install the Language Packs before you can select them. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install and enable a Language Pack](Install%20and%20enable%20a%20Language%20Pack.md)  -->
+
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and open the **Set Personal Options** page, as follows:  
 

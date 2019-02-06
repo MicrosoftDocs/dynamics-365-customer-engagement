@@ -1,7 +1,7 @@
 ---
 title: Understanding and customizing resource matching in Universal Resource Scheduling (URS) | Microsoft Docs
 description: Understanding and customizing resource matching in Universal Resource Scheduling (URS)
-keywords: Universal Resource scheduling; Dynamics 365 for Customer Engagement for Field Service, Dynamics 365 for Customer Engagement for Project Service, Field Service, Project Service, Project Service Automation
+keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Customer Engagement for Project Service, Field Service, Project Service, Project Service Automation
 author: yonalow
 ms.author: yolow
 manager: shellyha

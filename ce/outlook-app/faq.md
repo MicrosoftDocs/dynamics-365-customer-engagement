@@ -50,6 +50,24 @@ Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data
 The scenarios where an Outlook item is immediately tracked to Dynamics 365 is documented in the [Synchronization and tracking
 ](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide#synchronization-and-tracking) section of the user guide.
 
+## As an administrator, when I go to the Dynamics 365 App for Outlook section in **Settings**, a user does not appear in the **All Eligible Users** list. 
+For more information, see [A user does not appear in the All Eligible Users list within the Dynamics 365 App for Outlook area](https://support.microsoft.com/help/4345543).
+
+## When I open Dynamics 365 App for Outlook on Outlook desktop, I see a blank page instead of the App. Why is this happening?
+For more information, see [Blank page appears within Dynamics App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2007128).
+
+> [!Note]
+> If the link above does not work in Internet Explorer (IE), please try using another browser.
+
+## Some of my appointments in Outlook and Dynamics 365 are cancelled or deleted unexpectedly. Why is this happening?
+For more information, see [An appointment is cancelled or deleted unexpectedly when using Server-Side Synchronization](https://go.microsoft.com/fwlink/p/?linkid=2007027).
+
+## I am unable to track contacts.
+For more information, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586).
+
+## I need help troubleshooting the App.
+For more information, see [Troubleshooting](https://go.microsoft.com/fwlink/p/?linkid=2007025).
+
 ## The warning and error messages in Dynamics 365 are not in the language selected in Dynamics 365. Why?
 When we display diagnostic information and some labels in contact tracking module in Dynamics 365 App for Outlook, we use the Office (Outlook) display language setting and not Dynamics 365 language setting in order to be consistent with the host application experience.
 
@@ -57,20 +75,5 @@ When we display diagnostic information and some labels in contact tracking modul
 In general, web resources on Forms will not be rendered in App for Outlook as they require cookie authentication, which is currently only supported in browsers. 
 
 However, when scripts which do not rely on cookie authentication are used, those will be rendered on a Form in Dynamics 365 App for Outlook.
-
-## As an administrator, when I go to the Dynamics 365 App for Outlook section in **Settings**, a user does not appear in the **All Eligible Users** list. 
-For more information, see [A user does not appear in the All Eligible Users list within the Dynamics 365 App for Outlook area](https://support.microsoft.com/help/4345543).
-
-## When I open Dynamics 365 App for Outlook on Outlook desktop, I see a blank page instead of the App. Why is this happening?
-For more information, see [Blank page appears within Dynamics App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2007128).
-
-## Some of my appointments in Outlook and Dynamics 365 are cancelled or deleted unexpectedly. Why is this happening?
-For more informatoin, see [An appointment is cancelled or deleted unexpectedly when using Server-Side Synchronization](https://go.microsoft.com/fwlink/p/?linkid=2007027).
-
-## I am unable to track contacts.
-For more informatoin, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586).
-
-## I need help troubleshooting the App.
-For more informatoin, see [Troubleshooting](https://go.microsoft.com/fwlink/p/?linkid=2007025).
 
 

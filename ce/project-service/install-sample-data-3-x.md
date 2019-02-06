@@ -9,9 +9,9 @@ ms.technology:
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
-author: krbjoran
-ms.author: ankashya
-ms.reviewer: shellyha
+author: JohnPBurrows
+ms.author: jburrows
+ms.reviewer: kfend
 search.audienceType: 
   - admin
   - customizer
@@ -23,7 +23,7 @@ search.app:
 
 # Sample data installation for the Project Service application
 
-To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of Dynamics 365 for Customer Engagement for Project Service and Dynamics 365 for Customer Engagement for Field Service. There are two types of sample data packages:
+To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of Dynamics 365 for Customer Engagement for Project Service and Dynamics 365 for Field Service. There are two types of sample data packages:
 - reference/setup data
 - demo data (reference/setup and transactional data such as work orders and projects)
 
@@ -230,7 +230,7 @@ There are a number of other configuration components in this pre-import configur
 
 - **\<RequiredSolutions\>** specifies prerequisite solution installations and their version numbers.
 
-- **\<InstallSampleData\>** controls whether out-of-the-box sample data for the Dynamics 365 for Customer Engagement for Sales and Service apps is installed.
+- **\<InstallSampleData\>** controls whether out-of-the-box sample data for the Dynamics 365 for Sales and Service apps is installed.
 
     - false - skips installation of this built-in data (which is removable)
 

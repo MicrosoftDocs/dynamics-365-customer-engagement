@@ -101,7 +101,8 @@ When a visitor to the website decides to register for your event, they proceed a
 1. Select the **Register** button.
 1. The registration page opens. If you've enabled anonymous registration, then the visitor can enter registration details right away, or they can choose to sign in (or to create an account first). If you've disabled anonymous registration, then they must sign in or create an account before they can register anyone.
     - The registration form allows several people to be registered at once.
-    - If your event includes more than one pass, then the form allows a different pass to be selected for each registrant as needed.
+    - If your event offers pass-level registration and includes more than one pass, then the form allows a different pass to be selected for each registrant as needed. (Session-level registration isn't available when you use this option.)
+    - If your event offers session-level registration, then the form allows the registrant to assemble their own schedule from all available sessions. (Passes and online payment aren't available if you use this option)
     - If you've chosen to enable a CAPTCHA, then the visitor must fill out the CAPTCHA field to continue after entering details about each registrant.
     - One advantage of creating a registration account is that those contacts can sign in again to view their event schedules and to cancel registrations if needed.
     - If you are hosting the event website on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal, then visitors who use the site to create a registration account must do so using an email address that doesn't belong to any contact already in your database.
@@ -121,14 +122,16 @@ Here's how to configure each of the options that's described as optional in the 
     - **Allow anonymous registrations**: If you are hosting the event website on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal, set this to **No** to require all visitors to create an event-website account before they can register themselves or others for an event; set to **Yes** to allow visitors to register without creating an event-website account. This setting has no effect if you are hosting your event website externally; see [Build and host a custom event website](developer/event-management-web-application.md) for details about how to enable registration accounts on externally hosted sites.
     - **Portal payment gateway**:  If you are hosting the event website on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal, set this to the name of the portal page that you set up to implement a payment gateway. A default or simulated payment page may be used if you leave this setting blank (to disable payment, either customize the site to remove the feature, or don't create any passes for your free events). This setting has no effect if you are hosting your event website externally.
     - **Enable CAPTCHA**: Set to **Yes** to include a CAPTCHA field on the registration page. Set to **No** to hide it. This setting works for both portal hosted and externally hosted event websites.
+1. Go to the **Agenda** tab and set the **Allow registrants to create their own agenda** option to **Yes** if you want to use session-level registration, or to **No** to use pass-level registration (with optional online payment).
 1. Save your settings.
-
 
 <a name="generate-leads"></a>
 
 ## Generate and match contacts and leads from event registrations
 
-When a new event registration is submitted to your site, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] looks to see if a matching contact already exists. A match is identified when the incoming email, first name, and last name all match an existing contact. If a match is found, then a new event registration is created and linked to that contact. If no match is found, a new contact is created and linked to the new registration.
+When a new event registration is received, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] looks to see if a matching contact record already exists. If a match is found, then a new event registration is created and linked to that contact. If no match is found, a new contact record is created and linked to the new registration record. 
+
+Your admin can choose to match incoming registrations by email alone; first name and last name; or email, first name, and last name. For details about how to choose your matching strategy, see [Event administration](events-settings.md#event-admin).
 
 If you choose to enable lead generation for events, then a new lead will also be generated for each registration and linked to the appropriate contact. The system won't attempt to match to an existing lead. To control whether or not to generate new leads for any event, open the event record and set the **Create leads for event registrations** option to **Yes** or **No**.
 

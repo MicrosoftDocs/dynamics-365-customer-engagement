@@ -1,8 +1,8 @@
 ---
-title: "Manage Dynamics 365 for Customer Engagement apps (online) updates | MicrosoftDocs"
+title: "Manage Dynamics 365 for Customer Engagement updates | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 01/04/2019
+ms.date: 02/04/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -326,6 +326,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 7. The Status column will indicate your update is approved.  
 
 <a name="BKMK_UpdateStatus"></a>   
+
 ## Update status  
  To better track and manage your Customer Engagement apps updates, we added more granular update status to the Updates page.  At the date and time of your update, the status for your instance will show **Updating instance**.  
 
@@ -334,12 +335,18 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
  There are **four** stages of an update:  
 
 
-|        Status        |                                                                                       Description                                                                                        |
-|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Queued (Not Started) |                                                                The update is queued and will start at the scheduled time.                                                                |
-|        Backup        | The Customer Engagement instance is being backed up.  A copy of the instance is backed up before the update for recovery purposes. |
-|       Restore        |                                        The Customer Engagement instance is being restored.                                         |
-|   Database Upgrade   |                                         The Customer Engagement instance is being updated.                                         |
+| Status        |     Description     |
+|---------|----------------|
+| Queued (Not Started) |   The update is queued and will start at the scheduled time.    |
+| Backup        | The Customer Engagement instance is being backed up.  A copy of the instance is backed up before the update for recovery purposes. |
+| Restore        | The Customer Engagement instance is being restored. |
+| Database Upgrade   |  The Customer Engagement instance is being updated.   |
+
+> [!NOTE]
+> **Storage Utilization Calculation** <br/>
+>
+> When an instance enters the **Queued (Not Started)** state, that instance’s storage is temporarily omitted from the **Total Storage Used** calculation. Once the database update is complete, **Total Storage Used** calculation will be refreshed to re-include that instance's storage size. 
+
 
 <a name="BKMK_SendEmailNotifications"></a>   
 ## Send email notifications to multiple recipients  

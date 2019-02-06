@@ -2,7 +2,7 @@
 title: "Dynamics 365 for Customer Engagement Readme (Known Issues) | MicrosoftDocs"
 description: ""
 keywords: 
-ms.date: 12/03/2018
+ms.date: 01/30/2019
 ms.service:
   - crm-online
 ms.topic: article
@@ -16,7 +16,7 @@ manager: annbe
 
 ---
 
-Dynamics 365 for Customer Engagement<br>Readme / Known Issues
+Dynamics 365 for Customer Engagement<br>Readme
 =========================================================
 
 This document provides important information about these product versions:
@@ -35,10 +35,6 @@ Dynamics 365 Channel Integration Framework
 - By default, microphone and speaker access is blocked by the browser policy for the voice and video channel. You need to change the settings to enable microphone and speaker access.
 
 - It is not possible for users to work with quick create, task flows and Channel Integration Framework(CIF) panel in parallel. This is because quick create and task flows when expanded will overlay on the CIF panel.
-
-- If you select all roles while creating a new channel provider record in the Channel Integration Framework (CIF) admin app, the save operation fails with a script error. Unselect **support user** role to mitigate this error.
-
-- When you specify the **EntityLogicalName** to search in the **searchAndOpenRecords** API, the search list provides records from all the entities that matches the search criteria rather displaying the records from particular entity type.
 
 - When you specify the **EntityLogicalName** to pre-populate the search string in the **renderSearchPage** API, the list provides records from all the entities that matches the search criteria rather displaying the records from particular entity type.
 

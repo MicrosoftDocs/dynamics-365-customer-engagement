@@ -86,7 +86,7 @@ To create a customer journey that executes a one-time email blast:
    - **Time Zone**: Select your local time zone (if needed). The other dates and times on the page will be displayed relative to this zone.
    - **Start Date Time**: Enter the time when the journey should begin processing contacts. When you select the field, a suggested default time is provided.
    - **End Date Time**: Enter the time at which the journey should stop processing contacts. All actions will stop at this time, even if some contacts are still in the middle of the journey. If you're just testing, allow a couple of weeks.
-   - **Content Settings**: This should already be set to your site's default Content Settings record. These settings affect the dynamic content of marketing emails sent by this journey (as mentioned in [Create a marketing email and go live](create-marketing-email.md)).
+   - **Content Settings**: This should already be set to the default content settings record set for your instance. These settings affect the dynamic content of marketing emails sent by this journey (as mentioned in [Create a marketing email and go live](create-marketing-email.md)).
 
      > [!TIP]
      > While your journey is running, it will continue to process new contacts that join its segment, even if they join after the start date. This means that new contacts can join in at any time until the end date arrives.

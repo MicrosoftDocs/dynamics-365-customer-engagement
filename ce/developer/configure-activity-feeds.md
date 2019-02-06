@@ -69,7 +69,7 @@ The following sections contain information about how to configure your system fo
   
 <a name="PluginsAndWorkflows"></a>   
 ## Plug-ins and workflows  
- The custom auto post rules in different user’s locales can’t be created programmatically. However, you can create auto posts (posts with the `Source` attribute set to “Auto Post”) by using plug-ins and workflows when events occur in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. With plug-ins and workflows you can create or delete posts, comments, and follows, or perform a specific action when posts, comments, or follows are created. For example, an email can be sent to the user when another user starts following him.  
+ The custom auto post rules in different user’s locales can’t be created programmatically. However, you can create auto posts (posts with the `Source` attribute set to “Auto Post”) by using plug-ins and workflows when events occur in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. With plug-ins and workflows you can create or delete posts, comments, and follows, or perform a specific action when posts, comments, or follows are created. For example, an email can be sent to the user when another user starts following them.  
   
  To mention a record in a post created by a workflow, use the dynamic values. For example, to mention a user who modified a post, use the following expression in the post entity `Text` field:   
 `{Post URL(Dynamic)(Modified By (User))}`  

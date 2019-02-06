@@ -28,7 +28,7 @@ search.app:
 
 # Manage access to apps by using security roles
 
- [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+ [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can choose what users see and access from the **My Apps** page or the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] home page by giving app access to specific security roles. Users will have access to apps based on the security roles they're assigned to.  
   
@@ -51,6 +51,8 @@ You can choose what users see and access from the **My Apps** page or the [!INCL
 4. Refresh the **My Apps** page.  
   
 5. Go to the **Apps Being Edited** view, and publish the app again.  
+
+For more information about security roles, see [Security roles and privileges](../admin/security-roles-privileges.md).
   
 ### See also  
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
