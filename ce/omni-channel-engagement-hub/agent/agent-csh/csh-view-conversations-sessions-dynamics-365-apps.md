@@ -78,7 +78,7 @@ The session form displays information about a conversation request.
 The Session Participants section lets you add the related session participant or a session participant that already exists to the record you are working with.
 
 > [!div class="nextstepaction"]
-> [Next topic: View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
+> [Next topic: View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 
 ## See also
 
@@ -92,6 +92,6 @@ The Session Participants section lets you add the related session participant or
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
 - [Search for and share knowledge articles](csh-search-knowledge-articles.md)
-- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+- [Take notes specific to conversation](csh-take-notes.md)
 - [Create a record](csh-create-record.md)
 - [Search and link record to the conversation](csh-search-link-record.md)

@@ -58,7 +58,7 @@ This section displays recent cases that relate to the customer.
 This section displays case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on the Customer activities, Case activities, and Conversation activities.
 
 > [!div class="nextstepaction"]
-> [Next topic: View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+> [Next topic: Search for and share knowledge articles](csh-search-knowledge-articles.md)
 
 ## See also
 
@@ -71,7 +71,7 @@ This section displays case- and customer-related activities in the form of a tim
 - [View communication panel](csh-conversation-control.md)
 - [Set user presence](csh-set-user-presence-status.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
-- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
+- [Take notes specific to conversation](csh-take-notes.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [Create a record](csh-create-record.md)
