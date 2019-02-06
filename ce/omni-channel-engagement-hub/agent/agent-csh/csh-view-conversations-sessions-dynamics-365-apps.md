@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-Your organization might have a classification where certain agents work in the contact center that uses Omni-channel Engagement Hub on the web and certain agents work in another contact center that uses Dynamics 365 for Customer Engagement apps. In this case, if you are an agent who works on Dynamics 365 for Customer Engagement apps and you need to analyze the conversation request from Omni-channel Engagement Hub on the web, you can find the information through **Activities** in Dynamics 365 for Customer Engagement apps.
+Your organization might have a classification where certain agents work in the contact center, which uses Omni-channel Engagement Hub on the web and certain agents work in another contact center, which uses Dynamics 365 for Customer Engagement apps. In this case, if you are an agent who works on Dynamics 365 for Customer Engagement apps and you need to analyze the conversation request from Omni-channel Engagement Hub on the web, you can find the information through **Activities** in Dynamics 365 for Customer Engagement apps.
 
 You can find the following activity types in Dynamics 365 for Customer Engagement apps:
 
@@ -75,7 +75,7 @@ The session form displays information about a conversation request.
 |         |                      | Left On            |
 |         |                      | Mode               |
 
-The Session Participants section lets you add the related session participant or a session participant that already exists to the record you are working with.
+The Session Participants section lets you add a participant related to the session or add a session participant that already exists for the record you are working with.
 
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
