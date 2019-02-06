@@ -34,7 +34,7 @@ To download the Unified Service Desk client application, you must join the Omni-
 
 ## Install Unified Service Desk client application
 
-To learn how to install Unified Serivce Desk, see [Install Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/install-upgrade-unified-service-desk-client).
+To learn how to install Unified Service Desk, see [Install Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/install-upgrade-unified-service-desk-client).
 
 Make sure you computer meets all requirements before you install the Unified Service Desk client application. More information: [Unified Service Desk system requirements](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
 
@@ -48,7 +48,7 @@ To download the **Unified Service Desk - Omni-channel Engagement Hub - Preview**
 > Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
 
 > [!Important]
-> As Omni-channel Engagement Hub is in preview, we recommend to deploy the Unified Service Desk - Omni-channel Engagement Hub - Preview package on a new org. We recommend not to use your existing org (test or production) for testing Omni-channel Engagement Hub - Preview.
+> As Omni-channel Engagement Hub is in the preview, we recommend deploying the **Unified Service Desk - Omni-channel Engagement Hub - Preview** package on a new organization. We recommend not to use your existing organization (test or production) for testing Omni-channel Engagement Hub - Preview.
 
 1. Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your computer. Extract the contents in to a folder.<br> The extracted contents contain the **PackageDeployer.exe**, **OmnichannelUSDPackage**, and assembly files.
 
