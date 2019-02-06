@@ -23,16 +23,17 @@ search.app:
   - D365CE
 ---
 
-# Debug a plug-In
+# Debug an on-premise registered plug-In
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] apps.
+General information about plug-in debugging can be found in the Common Data Service (CDS) for Apps topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in). The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] apps.
 
 > [!NOTE]
-> An alternate method to debug a plug-in that executes in the sandbox on any deployment type is to use the tracing service. For more information about tracing see [Logging and tracing](/powerapps/developer/common-data-service/logging-tracing.md). For more information about debugging, including a tutorial, see the Common Data Service (CDS) for Apps topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in.md).
+> An alternate method to debug a plug-in that executes in the sandbox on any deployment type is to use the tracing service. For more information about tracing see [Logging and tracing](/powerapps/developer/common-data-service/logging-tracing). For more information about debugging, including a tutorial, see the Common Data Service (CDS) for Apps topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in).
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
+
 <a name="bkmk_debugaplugin"></a>   
 ## Debug a plug-in  
   
@@ -74,7 +75,7 @@ The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_cr
 ## Debug a sandboxed plug-in  
  It is important to perform these steps before the first execution of a sandboxed plug-in. If the plug-in has already been executed, either change the code of the assembly, causing the hash of the assembly to change on the server, or restart the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps Sandbox Processing Service on the sandbox server.  
   
- **Configure the Server**  
+ **Configure the on-premise server**  
   
  The sandbox host process monitors the sandbox worker process which is executing the plug-in. The host process checks if the plug-in stops responding, if it is exceeding memory thresholds, and more. If the worker process doesn't respond for than 30 seconds, it will be shutdown. In order to debug a sandbox plug-in, you must disable this shutdown feature. To disable the shutdown feature, set the following registry key to 1 (`DWORD`):  
   

@@ -181,7 +181,7 @@
     - name: Write plug-ins to extend business processes
       href: write-plugin-extend-business-processes.md
       items:
-      - name: Plug-in development
+      - name: On-premises plug-in development
         href: plugin-development.md
         items:
         - name: Impersonation in plug-ins

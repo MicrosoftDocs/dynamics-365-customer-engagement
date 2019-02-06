@@ -29,7 +29,9 @@ search.app:
 
 ## Impersonation in offline plug-ins
 
-For plug-ins executing offline, any entities created by the plug-in are owned by the logged on user. Impersonation in plug-ins is not supported while in offline mode. For additional information on impersonation, see [Impersonation in plug-ins](impersonation-plugins.md) and [Impersonate a user](/powerapps/developer/common-data-service/impersonate-a-user).
+For plug-ins executing offline, any entities created by the plug-in are owned by the logged on user. Impersonation in plug-ins is not supported while in offline mode.
+
+For additional information on impersonation, see [Impersonation in plug-ins](impersonation-plugins.md) and [Impersonate a user](/powerapps/developer/common-data-service/impersonate-a-user).
 
 ## Register an offline plug-in
 
@@ -43,4 +45,5 @@ General information on debugging plug-ins can be found in [Debug a plug-In](debu
   
 ### See also  
 [Plug-in Development](plugin-development.md)   
+[Supported messages and entities for plug-ins](supported-messages-entities-plugin.md)
 [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in.md)

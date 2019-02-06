@@ -23,18 +23,18 @@ search.app:
   - D365CE
 ---
 
-# Register and Deploy Plug-Ins
+# Register a plug-in to be deployed on-premise
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Plug-ins and custom workflow activities are custom code that you develop to extend the existing functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Before a plug-in or custom workflow activity can be used, it must be registered with the server. A plug-in and custom workflow activity registration tool is available for download.
 
+General information about plug-in and custom workflow assembly registration can be found in the Common Data Service (CDS) for Apps topics [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in) and [Register your assembly](/powerapps/developer/common-data-service/workflow/workflow-extensions#register-your-assembly). The information that follows below is specific to on-premises plug-in development.
+
  While this topic focuses primarily on plug-ins, most of the information is also applicable to custom workflow activities. One difference between the two is that for custom workflow activity assemblies, you register just the assembly. For plug-ins, you register the plug-in assembly and one or more steps per plug-in. For more information about custom workflow activities, see [Custom Workflow Activities (Workflow Assemblies)](custom-workflow-activities-workflow-assemblies.md).
 
 > [!IMPORTANT]
 > Do not register any plug-in or custom workflow activity unless it is obtained from a reliable and trusted source.
-
- For more information about registering plug-ins, see the Common Data Service (CDS) for Apps topic [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in.md).
 
 <a name="bkmk_pluginstor"></a>
 
@@ -68,21 +68,12 @@ Depending on your plug-in’s design, your plug-ins may require other referenced
 
 ## Security Restrictions
 
- There is a security restriction that enables only privileged users to register plug-ins. For plug-ins that are not registered in isolation, the system user account under which the plug-in is being registered must exist in the **Deployment Administrators** group of Deployment Manager. Only the System Administrator user account or any user account included in the **Deployment Administrators** group can run Deployment Manager.  
+ There is a security restriction that enables only privileged users to register plug-ins. For plug-ins that are not registered in the sandbox (isolation), the system user account under which the plug-in is being registered must exist in the **Deployment Administrators** group of Deployment Manager. Only the System Administrator user account or any user account included in the **Deployment Administrators** group can run Deployment Manager.  
 
 > [!IMPORTANT]
 > For non-isolated plug-ins, failure to include the registering user account in the **Deployment Administrators** group results in an exception being thrown during plug-in registration. The exception description states "Not have enough privilege to complete Create operation for an SDK entity."  
 
- The system user account under which the plug-in is being registered must have the following organization-wide security privileges:
-- prvCreatePluginAssembly
-- prvCreatePluginType
-- prvCreateSdkMessageProcessingStep
-- prvCreateSdkMessageProcessingStepImage
-- prvCreateSdkMessageProcessingStepSecureConfig
-
-  For more information, see [The Security Model of Dynamics 365 for Customer Engagement apps](security-dev/Security-model.md).  
-
-  For plug-ins registered in the sandbox (isolation mode), the system user account under which the plug-in is being registered must have the System Administrator role. Membership in the **Deployment Administrators** group is not required.  
+ For plug-ins registered in the sandbox (isolation mode), the system user account under which the plug-in is being registered must have the System Administrator or System Customizer role. Membership in the **Deployment Administrators** group is not required.  
   
 <a name="bkmk_registerprog"></a>
 
