@@ -35,13 +35,11 @@ A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[
 
  [Impersonation in Plug-ins](impersonation-plugins.md)  
 
- [Support offline execution](support-offline-execution.md) 
-  
  [Register and Deploy Plug-ins](register-deploy-plugins.md)  
   
- [Debug a Plug-in](debug-plugin.md)  
-  
- [Walkthrough: Configure Assembly Security for an Offline Plug-in](walkthrough-configure-assembly-security-offline-plugin.md)  
+ [Debug a Plug-in](debug-plugin.md) 
+
+ [Support offline execution](support-offline-execution.md)  
   
 ## Related Sections  
  [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md)  

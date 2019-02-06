@@ -30,9 +30,6 @@ Impersonation is used to execute business logic (custom code) on behalf of a [!I
 
 Additional information about using impersonation with plug-ins can be found in the Common Data Service (CDS) for Apps topic [Impersonate a user](/powerapps/developer/common-data-service/impersonate-a-user.md).
   
-> [!IMPORTANT]
-> For plug-ins executing offline, any entities created by the plug-in are owned by the logged on user. Impersonation in plug-ins is not supported while in offline mode.  
-  
 ### See also  
  [Plug-in Development](plugin-development.md)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   

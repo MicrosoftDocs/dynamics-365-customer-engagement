@@ -2,7 +2,7 @@
 title: "Supported messages and entities for plug-ins (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The topic contains information about the message and entity combinations that support execution of plug-ins for Dynamics 365 for Customer Engagement (online) Customer Engagement."
 ms.custom: 
-ms.date: 1/18/2019
+ms.date: 2/5/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic identifies the message and entity combinations that support execution of plug-ins for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].
+This topic identifies the message and entity combinations that support offline execution of plug-ins for [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)]. For information on server registered plug-ins that do not require offline execution, see [Available events](/powerapps/developer/common-data-service/event-framework#available-events).
   
  The **Message Availability** column of the table shown below indicates whether a message is available online, offline, or both. The **Entity Deployment** column indicates if the entity can be deployed on the server, on the client, or both. A value of **null** in the **Primary Entity** column means that there is no primary entity associated with the message. The same applies to the **Secondary Entity** column.  
   
@@ -71,32 +71,6 @@ To verify if a message and entity combination supports execution of plug-ins usi
 5. Cancel (close) the step registration form and exit the tool.
 
 To verify if a message and entity combination supports execution of plug-ins using a database query, use Advanced Find or a community tool (e.g., [FetchXML Builder](http://fxb.xrmtoolbox.com)) to execute the following fetchXML query. When using Advanced Find, you must create the query interactively.
-
-For server registered plug-ins:
-```xml
-<fetch>
-  <entity name='sdkmessage' >
-    <attribute name='name' />
-    <link-entity name='sdkmessagefilter' alias='filter' to='sdkmessageid' from='sdkmessageid' link-type='inner' >
-      <filter type='and' >
-        <condition attribute='iscustomprocessingstepallowed' operator='eq' value='1' />
-        <condition attribute='isvisible' operator='eq' value='1' />
-      </filter>
-      <attribute name='primaryobjecttypecode' />
-    </link-entity>
-    <filter>
-      <condition attribute='isprivate' operator='eq' value='0' />
-      <condition attribute='name' operator='not-in' >
-        <value>SetStateDynamicEntity</value>
-        <value>RemoveRelated</value>
-        <value>SetRelated</value>
-	   <value>Execute</value>
-      </condition>
-    </filter>
-    <order attribute='name' />
-  </entity>
-</fetch>
-```
 
 For Outlook client offline plug-ins:
 ```xml

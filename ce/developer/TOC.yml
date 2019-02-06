@@ -181,21 +181,22 @@
     - name: Write plug-ins to extend business processes
       href: write-plugin-extend-business-processes.md
       items:
-      - name: Supported messages and entities for plug-ins
-        href: supported-messages-entities-plugin.md
       - name: Plug-in development
         href: plugin-development.md
         items:
         - name: Impersonation in plug-ins
           href: impersonation-plugins.md
-        - name: Support offline execution
-          href: support-offline-execution.md
         - name: Register and Deploy Plug-Ins
           href: register-deploy-plugins.md
         - name: Debug a plug-In
           href: debug-plugin.md
-        - name: 'Walkthrough: Configure assembly security for an offline plug-in'
-          href: walkthrough-configure-assembly-security-offline-plugin.md
+        - name: Offline plug-in execution
+          href: support-offline-execution.md
+          items:
+          - name: Messages and entities for offline plug-ins
+            href: supported-messages-entities-plugin.md
+          - name: 'Walkthrough: Configure assembly security for an offline plug-in'
+            href: walkthrough-configure-assembly-security-offline-plugin.md
     - name: Automate your business processes in Customer Engagement
       href: automate-business-processes-customer-engagement.md
       items:

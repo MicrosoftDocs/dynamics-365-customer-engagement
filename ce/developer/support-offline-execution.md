@@ -27,9 +27,20 @@ search.app:
   
  When you design a plug-in that will be registered for both online and offline execution, remember that the plug-in can execute twice. The first time is while [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] is offline. The plug-in executes again when [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] goes online and synchronization between [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server occurs. You can check the <xref:Microsoft.Xrm.Sdk.IExecutionContext.IsOfflinePlayback> property to determine if the plug-in is executing because of this synchronization.
 
-If your plug-in assembly contains code that supports execution while the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is offline, there is additional security that the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform imposes on assemblies. For more information, see [Walkthrough: Configure Assembly Security for an Offline Plug-in](walkthrough-configure-assembly-security-offline-plugin.md).
+## Impersonation in offline plug-ins
+
+For plug-ins executing offline, any entities created by the plug-in are owned by the logged on user. Impersonation in plug-ins is not supported while in offline mode. For additional information on impersonation, see [Impersonation in plug-ins](impersonation-plugins.md) and [Impersonate a user](/powerapps/developer/common-data-service/impersonate-a-user).
+
+## Register an offline plug-in
+
+If your plug-in assembly contains code that supports execution while the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is offline, there is additional security that the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform imposes on registered assemblies. For more information, see [Walkthrough: Configure Assembly Security for an Offline Plug-in](walkthrough-configure-assembly-security-offline-plugin.md).
+
+For general information about plug-in registration, see [Register and Deploy Plug-Ins](register-deploy-plugins.md).
+
+## Debug an offline plug-in
+
+General information on debugging plug-ins can be found in [Debug a plug-In](debug-plugin.md). When debugging a plug-in that executes while the client is offline, attach your debugger to the Microsoft.Crm.Application.Hoster.exe process on the computer where the client is executing.
   
 ### See also  
 [Plug-in Development](plugin-development.md)   
 [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in.md)
-[Walkthrough: Configure assembly security for an offline plug-in](walkthrough-configure-assembly-security-offline-plugin.md)
