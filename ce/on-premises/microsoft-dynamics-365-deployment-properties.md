@@ -1,20 +1,18 @@
 ---
-title: "Microsoft Dynamics 365 for Customer Engagement deployment properties | Microsoft Docs"
-ms.custom: 
-ms.date: 10/01/2018
-ms.prod: crm-2016
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
+title: "Dynamics 365 for Customer Engagement (on-premises) deployment properties | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/01/2018"
+ms.prod: "crm-2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
 applies_to: 
   - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: 8b73f1ac-51ac-4e18-bb4c-19b427fcb141
 caps.latest.revision: 24
-author: Mattp123
-ms.author: matp
 ---
-# Microsoft Dynamics 365 for Customer Engagement deployment properties
+# Dynamics 365 for Customer Engagement (on-premises) deployment properties
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -32,7 +30,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
   
 <a name="BKMKGeneral"></a>   
 #### General tab  
- The **General** tab shows information about the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment.  
+ The **General** tab shows information about the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment  
   
 <a name="BKMKWebAdd"></a>   
 #### Web Address tab  
@@ -43,13 +41,13 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
   
 ##### Enter Web Address information  
   
-1.  After opening the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** dialog box, select the **Web Address** tab.  
+1.  After opening the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]**Properties** dialog box, select the **Web Address** tab.  
   
 2.  Specify the **Binding Type**, either HTTP or HTTPS.  
   
     > [!NOTE]
-    > -   The **Binding Type** *must* be set to HTTPS to use claims-based authentication.  
-    > -   The [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] does not configure the Microsoft Dynamics 365 for Customer Engagement website to use HTTPS. The website must already be configured for HTTPS. For information about how to configure a website to use HTTPS, see the [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] Manager Help.  
+    >  -   The **Binding Type** *must* be set to HTTPS to use claims-based authentication.  
+    > -   The [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] does not configure the Microsoft Dynamics 365 website site to use HTTPS. The website must already be configured for HTTPS. For information about how to configure a website to use HTTPS, see the [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] Manager Help.  
   
 3.  In the boxes provided, enter the domain paths.  
   
@@ -77,21 +75,19 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
   
      Typically, in a Full Server or Front End Server role deployment, the path values are the same. However, if you deploy [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on multiple servers with separate server roles, that is, where the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)]**, **[!INCLUDE[pn_Organization_Web_Service](../includes/pn-organization-web-service.md)]**, or **[!INCLUDE[pn_Discovery_Web_Service](../includes/pn-discovery-web-service.md)]** server roles are located on different servers, these path values will be different:  
   
-    -   **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)]**. WebApplicationServerName.domain.tld:port  
+    -   **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)]** . WebApplicationServerName.domain.tld:port  
   
-    -   **[!INCLUDE[pn_Organization_Web_Service](../includes/pn-organization-web-service.md)]**. OrganizationWebServiceServerName.domain.tld:port  
+    -   **[!INCLUDE[pn_Organization_Web_Service](../includes/pn-organization-web-service.md)]** . OrganizationWebServiceServerName.domain.tld:port  
   
-    -   **[!INCLUDE[pn_Discovery_Web_Service](../includes/pn-discovery-web-service.md)]**.  DiscoveryWebServiceServerName.domain.tld:port  
+    -   **[!INCLUDE[pn_Discovery_Web_Service](../includes/pn-discovery-web-service.md)]** .  DiscoveryWebServiceServerName.domain.tld:port  
   
-    -   **[!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)]**.  DeploymentWebServiceServerName.domain.tld:port  
-  
-    <!-- For more information about web addresses, see [Install Microsoft Dynamics CRM Server on multiple computers](http://go.microsoft.com/fwlink/p/?LinkID=199532) in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)][!INCLUDE[pn_installing_guide](../includes/pn-installing-guide.md)].  -->
+    -   **[!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)]** .  DeploymentWebServiceServerName.domain.tld:port  
   
 ##### Specify NLB and SSL header information  
   
 1.  At the bottom of the **Web Address** tab, select **Advanced**.  
   
-2.  In the **NLB and SSL Header Information** dialog box, specify if you are using network load balancing (NLB) and the header for the [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)] offloading system.  
+2.  In the **NLB and SSL Header Information** dialog box, specify if you are using network load-balancing (NLB) and the header for the [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)] offloading system.  
   
      Selecting **The deployment uses an NLB** sets [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to configure Windows Identity Foundation (WIF) to use the encryption certificate to encrypt, decrypt, and sign the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] session authentication cookies. The encrypted cookies can then be processed by any server in the NLB cluster.  
   
@@ -106,14 +102,14 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
   
 5.  Select **OK**.  
   
-##### Configure domain names for IFD  
- To configure [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)], you must start [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] and run the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] to add or revise the domain values. Depending on how you deployed the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] role group or separate server role installation, and the configuration of each server in the NLB cluster, the **Web Application Server Domain**, **Organization Web Service Domain**, and **Discovery Web Service Domain** values use the NLB virtual cluster domain name. For example, if the Web Application Server is installed on an internet-facing NLB cluster that has the FQDN virtual name *crmcluster.contoso.com*, enter `contoso.com` as the **Web Application Server Domain** value.  
+#### Configure domain names for IFD  
+ To configure [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)], you must start [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] and run the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] to add or revise the domain values. Depending on how you deployed the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] role group or separate server role installation, and the configuration of each server in the NLB cluster, the **Web Application Server Domain**, **Organization Web Service Domain**, and **Discovery Web Service Domain** values use the NLB virtual cluster domain name. For example, if the Web Application Server is installed on an Internet-facing NLB cluster that has the FQDN virtual name *crmcluster.contoso.com*, enter `contoso.com` as the **Web Application Server Domain** value.  
   
  For more information about how to configure internal web address and external domain values, see [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](https://technet.microsoft.com/library/dn609803.aspx).  
   
 <a name="BKMKLicense"></a>   
 #### License tab  
- After opening the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** dialog box, select the **License** tab.  
+ After opening the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]**Properties** dialog box, select the **License** tab.  
   
  The **License** tab displays a summary of all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users that are configured in the deployment. <!-- For information about each of these client access license types, see [Dynamics 365 for Customer Engagement purchase plans](http://go.microsoft.com/fwlink/p/?LinkId=306766).  -->
   
@@ -142,7 +138,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
 #### Usage Reporting tab  
  On the Usage Reporting tab, indicate whether you want to allow organizations in the deployment to participate anonymously in the [!INCLUDE[pn_Customer_Experience_Program](../includes/pn-customer-experience-program.md)]. When selected, the application automatically sends basic, anonymous information to Microsoft about how you use Dynamics 365 for Customer Engagement and the types and number of errors you encounter. This information helps Microsoft solve problems and improve products and features. If you accept, each organization in the deployment can be configured to send data to Microsoft. If you decline for the entire deployment, no organization is able to send data, regardless of the organization's usage reporting setting.  
   
-##### Allow usage reporting  
+###### Allow usage reporting  
   
 1.  After you open the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** dialog box, select the **Usage Reporting** tab.  
   

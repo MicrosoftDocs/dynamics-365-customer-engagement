@@ -42,7 +42,7 @@ PS > Add-PSSnapin Microsoft.Crm.PowerShell
 Get-Help *Crm*  
 ```  
   
- For detailed help for a specific cmdlet, use Get-Help *CRMCmdlet* –full, such as the `Import-CRMOrganization` cmdlet.  
+ For detailed help for a specific a cmdlet, use Get-Help *CRMCmdlet* –full, such as the `Import-CRMOrganization` cmdlet.  
   
 ```  
 Get-Help Import-CRMOrganization  

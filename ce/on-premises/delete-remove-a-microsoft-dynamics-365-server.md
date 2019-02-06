@@ -1,5 +1,5 @@
 ---
-title: "Delete (remove) a Microsoft Dynamics 365 for Customer Engagement Server | Microsoft Docs"
+title: "Delete (remove) a Microsoft Dynamics 365 Server | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: crm-2016
@@ -14,7 +14,7 @@ caps.latest.revision: 13
 author: Mattp123
 ms.author: matp
 ---
-# Delete (remove) a Microsoft Dynamics 365 for Customer Engagement Server
+# Delete (remove) a Microsoft Dynamics 365 Server
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 

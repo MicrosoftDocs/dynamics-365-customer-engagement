@@ -30,5 +30,5 @@ You can do the following actions in the **Servers** area of [!INCLUDE[pn_deploym
   
 ## See also  
  [Disable or enable a server](disable-or-enable-a-server.md)   
- [Delete (remove) a Microsoft Dynamics 365 for Customer Engagement Server](delete-remove-a-microsoft-dynamics-365-server.md)
+ [Delete (remove) a Microsoft Dynamics 365 Server](delete-remove-a-microsoft-dynamics-365-server.md)
 

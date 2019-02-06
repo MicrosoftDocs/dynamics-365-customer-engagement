@@ -73,5 +73,5 @@ ms.author: matp
     > -   The base language of the organization is different from the language in which [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] are being installed.  
   
 ## See also  
- [Microsoft Dynamics 365 for Customer Engagement Server installation](microsoft-dynamics-365-server-installation.md)   
+ [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md)   
 
