@@ -17,45 +17,66 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic provides information about the pre-requisites and system requirements for deploying the Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement apps instance.
+This topic provides information about the pre-requisites and system requirements for deploying Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement apps instance (Customer Service Hub app).
 
 You can deploy Omni-channel Engagement Hub - Preview solution over a Customer Engagement application and experience it through the following ways:
 
 - Unified Service Desk client application
 
-- Web experience on Dynamics 365 Unified Interface application.
+- Web experience on Dynamics 365 Unified Interface application (Customer Service Hub app).
 
 ## Pre-requisites
 
+This section explains the pre-requisites for using Omni-channel Engagement Hub.
+
+### Dynamics 365 for Customer Service
+
 To deploy Omni-channel Engagement solution, your organization must have Customer Service Hub application.
 
-More information: [Customer Service Hub](../customer-service/user-guide-customer-service-hub.md)
+More information: [Customer Service Hub app](../customer-service/user-guide-customer-service-hub.md)
 
-## System and hardware requirements of Omni-channel Engagement Hub - Preview with Unified Service Desk
+### Licensing requirement of Office 365
 
-You require the following to use Omni-channel Engagement Hub - Preview with Unified Service Desk:
+Your organization need the following Office 365 license:
 
+- Office 365 Enterprise E1 plan or a higher plan. To learn more, see [Office 365 Business Plans](https://products.office.com/en-US/business/compare-more-office-365-for-business-plans).
 
-| Area | Requirements | 
-|----------|----------|
-| Desktop application | Unified Service Desk 4.1.0.1130 and higher version <br><br>More information: [Download Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md#download-unified-service-desk-client-application)|
-| Dynamics 365 | Dynamics 365 for Customer Engagement apps version 9.1 and higher version |
-| Web browsers | Supported browsers are: <li> Microsoft Edge </li> <li>Internet Explorer</li> |
-| Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7</li>|
-| Memory (Hardware) | ^8-GB RAM or more |
+> [!NOTE]
+> You must assign the Office 365 Enterprise E1 plan or a higher plan licenses to the users. You must assign the of Microsoft Teams service to the users as part of license assignment.
 
-^The memory requirement is for out-of-the-box solution. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omni-channel Engagement Hub - Preview solution or when using other line-of-business applications with Unified Service Desk.
+### Allow sideloading of external apps in Microsoft Teams
 
-For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/unified-service-desk/admin/unified-service-desk-system-requirements.md)
+To allow sideloading of external apps in Microsoft Teams, follow the steps:
+
+1. Go to [Microsoft 365 admin center](https://portal.office.com/adminportal/home#/homepage).
+2. Select **Settings** > **Services & add-ins** > **Microsoft Teams**.
+3. Expand **Apps** in **Tenant-wide settings**.
+4. In the External Apps section, for the **Allow sideloading of external apps** option, switch the toogle to **On**.
 
 ## System and hardware requirements of Omni-channel Engagement Hub - Preview with web experience
 
 | Area | Requirements | 
 |----------|----------|
-| Dynamics 365 | Dynamics 365 for Customer Engagement apps version 9.1 and higher version |
+| Dynamics 365 | Customer Service Hub in Dynamics 365 for Customer Engagement apps version 9.1 and a higher version |
 | Web browsers | Supported browsers are: <li>Microsoft Edge</li><li>Google Chrome</li> |
 
 For hardware and other requirements, see [Microsoft Dynamics 365 for Customer Engagement apps requirements](../admin/online-requirements.md)
+
+## System and hardware requirements of Omni-channel Engagement Hub - Preview with Unified Service Desk
+
+You require the following to use Omni-channel Engagement Hub - Preview with Unified Service Desk:
+
+| Area | Requirements | 
+|----------|----------|
+| Desktop application | Unified Service Desk 4.1.0.1130 and higher version <br><br>More information: [Download Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md#download-unified-service-desk-client-application)<br><br>**Note:** Unified Service Desk 4.1.0.1130 is in preview.|
+| Dynamics 365 | Customer Service Hub app in Dynamics 365 for Customer Engagement apps version 9.1 and a higher version |
+| Web browsers | Supported browsers are: <li> Microsoft Edge </li> <li>Internet Explorer</li><br>**Note:** The Microsoft Edge support in Unified Service Desk is in preview. |
+| Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and a higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7</li>|
+| Memory (Hardware) | ^8-GB RAM or more |
+
+^The memory requirement is for out-of-the-box solution. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omni-channel Engagement Hub - Preview solution or when using other line-of-business applications with Unified Service Desk.
+
+For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/unified-service-desk/admin/unified-service-desk-system-requirements.md)
 
 ## International availability
 
@@ -63,9 +84,11 @@ The Omni-channel Engagement Hub - Preview is available in the following regions:
 
 - North America Region (NAM)
 
+## Provision Omni-channel in Dynamics 365
+
+See [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md) to know how to enable the Omni-channel Engagement Hub app in your Dynamics 365 org.
+
 > [!NOTE]
-> - The above mentioned requirements of Omni-channel Engagement Hub - Preview is for running basic scenarios. The requirements and performance may vary based on usage and complex configurations.
-> 
 > - Omni-channel Engagement Hub - Preview is not supported on Dynamics 365 for Customer Engagement apps (on-premises).
 >
 > - Omni-channel Engagement Hub - Preview is supported only on Desktops, and not on mobiles and tablets.
@@ -77,6 +100,7 @@ The Omni-channel Engagement Hub - Preview is available in the following regions:
 - [Introduction](introduction-omni-channel.md)
 - [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
 - [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
-- [Agents using Customer Service Hub](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
-<!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->
+- [Agents using Customer Service Hub app](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
 - [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
+
+<!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->

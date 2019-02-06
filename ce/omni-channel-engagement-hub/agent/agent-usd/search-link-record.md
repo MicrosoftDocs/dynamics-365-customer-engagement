@@ -22,6 +22,83 @@ The topic explains how to search for a record in Omni-channel Engagement Hub and
 ## Search for a record
 You can search for the records in two ways.
 
+### Search for a record using inline search option
+
+You accept an incoming conversation request and there is no customer record identified in the Omni-channel Engagement Hub. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
+
+The inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that is based on the Lookup View and Quick View Field.
+
+For **Customer profile**, you can search for Contact or Account entity. By default, you can search using the following fields.
+
+<table>
+    <tr>
+        <th>Entity</th>
+        <th>Fields</th>
+    </tr>
+    <tr>
+        <td rowspan="4">Account</td>
+        <td>Account Name</td>
+    </tr>
+    <tr>
+        <td>Account Number</td>
+    </tr>
+    <tr>
+        <td>Email</td>
+    </tr>
+    <tr>
+        <td>Main Phone</td>
+    </tr>
+    <tr>
+        <td rowspan="7">Contact</td>
+        <td>Company Name</td>
+    </tr>
+    <tr>
+        <td>Email</td>
+    </tr>
+    <tr>
+        <td>First Name</td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+    </tr>
+    <tr>
+        <td>Middle Name</td>
+    </tr>
+    <tr>
+        <td>Full Name</td>
+    </tr>
+    <tr>
+        <td>Mobile Phone</td>
+    </tr>  
+ </table>
+
+For the **Issue snapshot**, you can search for Case (Incident) entity. By default, you can search using the following fields.
+
+<table>
+<tr>
+        <th>Entity</th>
+        <th>Fields</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Case</td>
+        <td>Case Number</td>
+    </tr>
+    <tr>
+        <td>Case Title</td>
+    </tr> 
+ </table>
+
+Only active views are displayed for the search results. Also, you can customize the **Quick Find View** and **Lookup View** to change the searchable fields as per your business requirements. More information [Understand views](/dynamics365/customer-engagement/customize/create-edit-views) and [Unified Interface Lookup view leverages Quick Find View](https://blogs.msdn.microsoft.com/crm/2018/11/02/unified-interface-lookup-now-leverages-quick-find-view/)
+
+> [!div class=mx-imgBorder]
+> ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
+
+After the search results, selecting a record links the conversation to the selected record and loads the **Customer summary** form with the details.
+
+> [!div class=mx-imgBorder]
+> ![Cusomter summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
+
+
 ### Search for a record using the search option
 
 You can search for omni-channel records by using the search functionality. When you select the **Search** button, the **Search** page appears on the application management toolbar. Specify the details, and then select **Search**. The results appear in the form of a list.
@@ -46,18 +123,6 @@ You can search for omni-channel records by using the search functionality. When 
  - Case Number
 
 3. Select **Search**. The list of search results appear.
-
-### Search for a record using inline search option
-
-You accept an incoming conversation request and there is no customer record identified in the Omni-channel Engagement Hub. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
-
-> [!div class=mx-imgBorder]
-> ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
-
-After the search results, selecting a record links the conversation to the selected record and loads the **Customer summary** form with the details.
-
-> [!div class=mx-imgBorder]
-> ![Cusomter summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
 
 ## Link a record
 
@@ -87,7 +152,7 @@ After you link the record to the conversation, the Customer summary form is refr
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)
 - [View notifications and screen pops](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
-- [View conversation control](left-control-panel.md)
+- [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)

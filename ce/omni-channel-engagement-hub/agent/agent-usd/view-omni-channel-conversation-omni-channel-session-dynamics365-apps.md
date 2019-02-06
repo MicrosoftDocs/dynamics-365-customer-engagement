@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-In your organization, some agents might work in a contact center that uses Omni-channel Engagement Hub, whereas other agents work in a different contact center that uses Microsoft Dynamics 365 apps, such as Customer Service Hub. In this case, if you're an agent who works in Dynamics 365 apps, and you must analyze a conversation request from Omni-channel Engagement Hub, you can find the information through **activities** in Dynamics 365..
+In your organization, some agents might work in a contact center that uses Omni-channel Engagement Hub, whereas other agents work in a different contact center that uses Microsoft Dynamics 365 apps, such as Customer Service Hub app. In this case, if you're an agent who works in Dynamics 365 apps, and you must analyze a conversation request from Omni-channel Engagement Hub, you can find the information through **activities** in Dynamics 365..
 
 You can find the following activity types in Dynamics 365 for Customer Engagement apps:
 
@@ -79,7 +79,7 @@ The omni-channel session displays information about a conversation request.
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)
 - [View notifications and screen pops](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
-- [View conversation control](left-control-panel.md)
+- [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)

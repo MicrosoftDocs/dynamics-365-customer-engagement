@@ -61,7 +61,7 @@ An alert notification appears as a dialog box that contains buttons. When you se
 When a chat conversation request comes in, you receive a notification. When you accept the chat request, a screen pop appears and shows the customer's details on the **Customer summary** page. Simultaneously, a session is started, and the chat window is expanded in the left panel of Unified Service Desk.
 
 > [!div class=mx-imgBorder]
-> ![omni-channel incoming chat alert notification](../../media/oc-usd-incoming-chat-request-notification.png "Omni-channel incoming chat alert notification")  
+> ![omni-channel incoming chat alert notification](../../media/oc-usd-alert-notification.png "Omni-channel incoming chat alert notification")  
 
 You see the following details for a chat channel:
 
@@ -86,7 +86,7 @@ You see the following details for a chat channel:
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)
-- [View conversation control](left-control-panel.md)
+- [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)

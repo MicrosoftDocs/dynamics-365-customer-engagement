@@ -16,11 +16,11 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-## overview of the existing challenges
+## Overview of the existing challenges
 
 One of the major challenges that customers face when contacting the customer support is providing repetitive information about the issue with the support agent. Also, if the customer wants to review the status of the request raised at a later stage, the customer shares the same information with another support agent to explain the context of the conversation. To avoid this situation, the support agent must access to the customer information with details about the product/service, issue, cases history, related cases, location, and so on.
 
-By having this information ready when customers contact them, support agents can help reduce the hold time that they spend retrieving customer information, reduce average handling time (AHT), and increase customer satisfaction through faster resolution of the issue.
+By having this information ready, when customers reach out to contact center, support agents can help reduce the hold time that they spend retrieving customer information, reduce average handling time (AHT), and increase customer satisfaction through faster resolution of the issue.
 
 ### What is Customer summary?
 
@@ -60,7 +60,7 @@ This section displays the recent cases that relate to the customer.
 This section displays the case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on the Customer activities, Case activities, and Conversation activities.
 
 > [!div class="nextstepaction"]
-> [Next topic: View conversation control](left-control-panel.md)
+> [Next topic: View communication panel](left-control-panel.md)
 
 ## See also
 

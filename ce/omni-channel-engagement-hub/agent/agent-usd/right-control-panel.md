@@ -18,7 +18,7 @@ ms.custom:
 
 The right panel consists of agent scripts, notes, and knowledge management search controls.
 
-### Call scripts control
+### Call script control
 
 The **Call script** section in the right panel provides guidance about what you should say during calls, or what you should type during chat conversations.
 
@@ -46,7 +46,7 @@ You can search for a KB article and open it as a tab on the Application tab mana
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)
 - [View notifications and screen pops](notifications-screen-pop.md) 
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
-- [View conversation control](left-control-panel.md)
+- [View communication panel](left-control-panel.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)

@@ -13,7 +13,7 @@ ms.assetid: BAC4B607-59A4-4FD2-B121-9799081D5EB1
 ms.custom: 
 ---
 
-# View Omni-channel conversations and Omni-channel sessions in Dynamics 365 apps
+# View conversation and session form in Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -76,3 +76,22 @@ The session form displays information about a conversation request.
 |         |                      | Mode               |
 
 The Session Participants section lets you add the related session participant or a session participant that already exists to the record you are working with.
+
+> [!div class="nextstepaction"]
+> [Next topic: View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
+
+## See also
+
+- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
+- [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
+- [Know the sitemap navigation](csh-sitemap.md)
+- [Navigate using the navigation bar](csh-navigation-bar.md)
+- [Navigation bar buttons](csh-navigation-bar-buttons.md)
+- [View agent dashboard and agent work items](csh-my-dashboard.md)
+- [View communication panel](csh-conversation-control.md)
+- [View notifications and screen pops](csh-notifications-screen-pops.md)
+- [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
+- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
+- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+- [Create a record](csh-create-record.md)
+- [Search and link record to the conversation](csh-search-link-record.md)

@@ -35,6 +35,9 @@ If no records are linked to a conversation in Omni-channel Engagement Hub, you c
 
 3. Specify the details on the page, and then save your changes.
 
+ > [!div class=mx-imgBorder]
+ > ![Create record](../../media/oc-usd-create-contact.png "Quick create record")
+
 > [!div class="nextstepaction"]
 > [Next topic: Search and link a record](search-link-record.md)
 
@@ -45,7 +48,7 @@ If no records are linked to a conversation in Omni-channel Engagement Hub, you c
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)
 - [View notifications and screen pops](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
-- [View conversation control](left-control-panel.md)
+- [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
