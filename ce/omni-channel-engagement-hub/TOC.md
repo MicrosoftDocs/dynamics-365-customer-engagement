@@ -4,8 +4,8 @@
 ### [Introduction](introduction-omni-channel.md)
 ### [Pre-requisites and system requirements](system-requirements-omni-channel-engagement-hub.md)
 ### [Assign roles and enable users for Omni-channel Engagement Hub](administrator/add-users-assign-roles.md)
-### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
+### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 
 ## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
