@@ -53,7 +53,7 @@ Quickly configure and add a chat widget to your portal to chat with your website
 5.	Paste the chat widget snippet code in the **HTML** tab.
     > [!div class=mx-imgBorder]
     > ![Paste code snippet of a chat widget](../media/paste-snippet.png "Paste code snippet of a chat widget")
-6.	Save the changes. The chat widget is now embedded into the portal. Bydefault, the chat widget is displayed in minimized mode as follows:
+6.	Save the changes. The chat widget is now embedded into the portal. By default, the chat widget is displayed in minimized mode as follows:
 
     > [!div class=mx-imgBorder]
     > ![Chat widget in minimized mode](../media/oc-chat-widget-minimized-mode.png "Chat widget in minimized mode")
