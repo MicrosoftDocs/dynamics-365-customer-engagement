@@ -34,8 +34,8 @@ Follow these steps to assign omni-channel roles to users in the Dynamics 365 web
 
 4. In the **Manage User Roles** dialog box, select the security role or roles you want for the user or users, and then select OK.
 
-> [!div class=mx-imgBorder]
-> ![user roles](../media/user-roles.png)
+    > [!div class=mx-imgBorder]
+    > ![user roles](../media/user-roles.png)
 
 To view and manage omni-channel users, see [Manage users in Omni-channel Engagement Hub](users-user-profiles.md).
 
