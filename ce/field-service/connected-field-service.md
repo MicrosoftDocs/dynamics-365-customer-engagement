@@ -3,16 +3,16 @@ title: "Connected Field Service - Overview | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 2142d996-008b-4ada-bf2e-e9dc316715c4
 caps.latest.revision: 14
@@ -70,6 +70,9 @@ Check out our [Connected Field Service for IoT Central tutorial](cfs-iot-tutoria
 Connected Field Service for Azure IoT Hub is an add-on solution that brings Azure IoT platform-as-a-service (PaaS) offering into Dynamics365 for Field Service. With this offering, you can run a deployment app to put all the Azure IoT services and Dynamics puzzles together.
 
 All Azure IoT services run in your own Azure cloud subscription. Additionally, we provide an enterprise-ready template that you can customize for each Azure IoT service.
+
+## Privacy details for Connected Field Service
+[!INCLUDE[cc-privacy-crm-connected-field-service](../includes/cc-privacy-crm-connected-field-service.md)]
 
 ### See also  
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    

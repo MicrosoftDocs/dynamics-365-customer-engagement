@@ -1,20 +1,20 @@
 ---
-title: "Validate and fix SharePoint site URLs for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Validate and fix SharePoint site URLs for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 65e2d673-43ee-4e0e-962c-6895cd1ddd6d
 caps.latest.revision: 19
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: Mattp123
+ms.author: matp
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,11 +23,11 @@ search.app:
 ---
 # Validate and fix SharePoint site URLs
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site and document location records contain links to site collections, site, document libraries, and folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. These site and document location records are associated with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records so that the documents for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records can be stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
+In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site and document location records contain links to site collections, site, document libraries, and folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. These site and document location records are associated with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps records so that the documents for [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps records can be stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
- When the links between [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] break, you must validate and fix the links so that the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records continue to point to the correct document libraries and folders for managing the documents.  
+ When the links between [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] break, you must validate and fix the links so that the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps records continue to point to the correct document libraries and folders for managing the documents.  
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
@@ -45,7 +45,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], [!INCLUDE[pn_Sha
   
    3. Select the site URLs that you want to validate, and then click or tap **Validate**.  
   
-3. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] validates all the selected site URLs and their immediate subordinate site and document library URLs. It then displays the results in **Validating Sites**.  
+3. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps validates all the selected site URLs and their immediate subordinate site and document library URLs. It then displays the results in **Validating Sites**.  
   
 4. To fix a URL, open the site record, and enter the correct URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit site records](edit-existing-sharepoint-site-records.md).  
   

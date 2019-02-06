@@ -2,7 +2,7 @@
 title: "retrieveRecord (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -10,8 +10,8 @@ ms.custom:
   - "dyn365-developer"
 ms.topic: reference
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: C6D0BE02-6EDB-43A8-99D6-38AE1AF8BE29
 author: kabala123
 ms.author: kabala
@@ -19,8 +19,6 @@ manager: shujoshi
 ---
 
 # retrieveRecord (CIF JavaScript API Reference)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
 
 [!INCLUDE[retrieveRecord](includes/retrieveRecord-description.md)] 
 
@@ -65,7 +63,7 @@ manager: shujoshi
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td><p>A function to call when a record is retrieved. A JSON object with the retrieved properties and values will be passed to the function.</p>
+<td><p>A function to call when a record is retrieved.</p>
 </td>
 </tr>
 <tr>
@@ -78,7 +76,7 @@ manager: shujoshi
 
 ## Return Value
 
-On success, returns a promise containing a JSON object with the retrieved attributes and their values.
+On success, returns a promise containing a string with the retrieved attributes and their values.
 
 ## Examples
 
@@ -86,9 +84,12 @@ This sample code retrieves the name and phone number of a contact record with ID
 
 ```JavaScript
 // retrieve contact record
-Microsoft.CIFramework.retrieveRecord("contact", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200", "?$select=fullname,phonenumber").then(
+var id = "b44d31ac-5fd1-e811-8158-000d3af97055";
+var entityLogicalName = "contact";
+Microsoft.CIFramework.retrieveRecord(entityLogicalName, id, "?$select=fullname,telephone1").then(
     function success(result) {
-        console.log(`Retrieved values: Full Name: ${result.fullname}, Phone Number: ${result.phonenumber}`);
+      res=JSON.parse(result);
+        console.log(`Retrieved values: Full Name: ${res.fullname}, Telephone Number: ${res.telephone1}`);
         // perform operations on record retrieval
     },
     function (error) {
@@ -96,4 +97,4 @@ Microsoft.CIFramework.retrieveRecord("contact", "a8a19cdd-88df-e311-b8e5-6c3be5a
         // handle error conditions
     }
 );
-```
+``` 

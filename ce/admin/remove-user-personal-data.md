@@ -1,20 +1,20 @@
 ---
-title: "Remove user personal data (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Remove user personal data (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 04/05/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: b7faefff-25e2-44a5-8dd9-49bf1a1677c6
 caps.latest.revision: 19
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Remove user personal data
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 After a user is deleted by the global admin from the Office 365 Admin center, the user's personal data can be removed from all tenant instances. A user is deleted from the Office 365 Admin center when:
 
@@ -33,7 +33,7 @@ After a user is deleted by the global admin from the Office 365 Admin center, th
 
 2. The user requests their personal data be deleted. The user record is deleted immediately.
 
-Once the user record is deleted from Active Directory, Dynamics 365 system admins can remove the user's personal data from all instances.
+Once the user record is deleted from Active Directory, Dynamics 365 for Customer Engagement apps system admins can remove the user's personal data from all instances.
 
 ## Remove user personal data via User form
 

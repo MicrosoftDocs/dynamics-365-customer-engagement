@@ -1,22 +1,21 @@
 ---
-title: "Control access to forms in PowerApps | MicrosoftDocs"
+title: "Control access to forms in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
 description: "Learn how to control acces to main forms"
-ms.custom: ""
-ms.date: 04/03/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/09/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 15d123e0-b604-45dd-ab34-0b37787a04bb
 caps.latest.revision: 33
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
@@ -25,7 +24,7 @@ search.app:
 ---
 # Control access to forms
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  There are two ways you can control access to main forms:  
   

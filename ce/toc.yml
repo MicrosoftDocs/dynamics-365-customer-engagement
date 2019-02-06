@@ -41,10 +41,12 @@
     href: versium-predict/index.md
   - name: Insights, powered by InsideView
     href: insights-insideview/index.md
+  - name: Universal Resource Scheduling
+    href: common-scheduler/schedule-anything-with-universal-resource-scheduling.md
 - name: "Services"
   expanded: true
   items:    
   - name: Gamification
     href: gamification/index.md
   - name: Unified Service Desk
-    href: unified-service-desk/index.md
+    href: /dynamics365/customer-engagement/unified-service-desk/index

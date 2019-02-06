@@ -2,7 +2,7 @@
 title: "getEnvironment (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -10,8 +10,8 @@ ms.custom:
   - "dyn365-developer"
 ms.topic: reference
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: E71DDFAD-BCCC-423E-B086-2EA71D4D2B73
 author: kabala123
 ms.author: kabala
@@ -19,8 +19,6 @@ manager: shujoshi
 ---
 
 # getEnvironment (CIF JavaScript API Reference)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
 
 [!INCLUDE[getEnvironment](includes/getEnvironment-description.md)]
 
@@ -37,6 +35,6 @@ manager: shujoshi
 
 ## Return value
 
-**Type:** JSON
+**Type:** String
 
-**Description:** Returns a JSON with the available details of the current Unified Interface page. The details include: * 'appid', 'pagetype', 'record-id' (if available), 'clientUrl', 'appUrl' 'orgLcid', 'orgUniqueName', 'userId', 'userLcid', and 'username'.
+**Description:** Returns a promise object containing string with the available details of the current Unified Interface page. The details include: * 'appid', 'pagetype', 'record-id' (if available), 'clientUrl', 'appUrl' 'orgLcid', 'orgUniqueName', 'userId', 'userLcid', and 'username'.

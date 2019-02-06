@@ -1,21 +1,20 @@
 ---
 title: "Create an interactive customer journey (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to create an interactive customer journey featuring signups and triggers in Dynamics 365 for Marketing"
-keywords: "tutorial; customer journey; trigger; landing page; signup; page"
+keywords: tutorial; customer journey; trigger; landing page; signup; page
 ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4c42b94d-7bd1-41fa-80de-819f00bede33
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -62,12 +61,12 @@ In [Create a simple customer journey with email messaging](create-simple-custome
      Remember to include all required elements and to go live with each of them.
 
 7. Go to **Marketing** &gt; **Marketing Execution** &gt; **Customer Journeys** and create a new customer journey like the one you made in [Create a simple customer journey with email messaging](create-simple-customer-journey.md). As before, add the following:
-   - Place a **Segment Group** tile in the first position, and configure its child **Segment** tile to reference the segment of test contacts you made in [Create a dynamic segment](create-segment.md).
+   - Place a **Segment Group** tile in the first position, and configure its nested **Segment** tile to reference the segment of test contacts you made in [Create a dynamic segment](create-segment.md).
    - Add an **Email** tile right after the **Segment Group**, and configure it to reference the first email message you made for this exercise (with the landing page button).
 
      ![A customer journey with a simple email campaign](media/journey-email-only.png "A customer journey with a simple email campaign")  
 
-8. Although your email message includes a link to a landing page, the journey is not aware of that link, nor even of the landing page itself. This journey should react to landing page submissions, so you need to reference the page and link it to the message by adding a marketing-page tile as a child to the email tile. Drag a **Marketing Page** tile from the **Toolbox**, and drop it directly onto the **Marketing Email Message** tile.  
+8. Although your email message includes a link to a landing page, the journey is not aware of that link, nor even of the landing page itself. This journey should react to landing page submissions, so you need to reference the page and link it to the message by nesting a marketing-page tile under the email tile. Drag a **Marketing Page** tile from the **Toolbox**, and drop it directly onto the **Marketing Email Message** tile.  
     ![Add a marketing page to an email tile](media/journey-add-page.png "Add a marketing page to an email tile")
 
 9. Expand the **Marketing Email Message** tile by choosing the expansion button in its lower-right corner. Now you can see the **Marketing Page** tile that you just added.  
@@ -108,7 +107,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
     - **Bottom tile**: This message is sent to contacts who haven't submitted the form within three days of receiving the initial offer. Configure it to send the follow-up reminder message that you created earlier in this procedure.
 
       > [!TIP]
-      > For the purposes of this exercise, you can stop here. But in a real campaign, you would probably repeat most of this pipeline along the bottom path, so that you have a marketing page as a child to the follow-up reminder and then a trigger that waits for page submissions. You can reuse the same landing page and download-link message.
+      > For the purposes of this exercise, you can stop here. But in a real campaign, you would probably repeat most of this pipeline along the bottom path, so that you have a follow-up reminder and then a trigger that waits for page submissions. You can reuse the same landing page and download-link message.
       > 
       > ![An example of how to complete the follow-up path](media/journey-trigger-example.png "An example of how to complete the follow-up path")
 

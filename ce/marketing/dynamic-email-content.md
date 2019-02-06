@@ -1,16 +1,16 @@
 ---
 title: "Add dynamic content to marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 for Marketing"
-keywords: "email; marketing email; dynamic content; content settings"
-ms.date: 08/23/2018
+keywords: email; marketing email; dynamic content; content settings
+ms.date: 12/17/2018
 ms.service:
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 5134e656-31ae-4984-8045-fcd76b98719a
 author: kamaybac
 ms.author: kamaybac
@@ -41,6 +41,9 @@ Content settings are sets of standard and required values that are available for
 The values for content settings are first evaluated at send time, which means that you can edit a content-settings set at any time, and all pending and future email messages will automatically use the latest values.
 
 Each content-settings record that you use must be available to the external marketing services, which manage email assembly and delivery. Therefore, you must publish your content-settings records by choosing **Go Live** whenever you create a new one.
+
+> [!NOTE]
+> If you have other types of values that you often use in email messages, and/or that you want to manage at the customer-journey level, then you can add them as custom fields to the content-settings entity just as you can for other types of entities in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. However, in the current release, all custom fields for the content-settings entity must be of type text (string). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customizing Marketing](customize.md)
 
 To view, edit, or create a content-settings set:
 
@@ -128,16 +131,12 @@ Though these settings provide assist-edit buttons, you must only place static va
 > [!TIP]
 > You can include conditional statements in the **Advanced Header** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
 
+<a name="advanced-dynamic-content"></a>
+
 ## Advanced dynamic content
 
-> [!NOTE]
-> The advanced dynamic-content features described in this section are scheduled to be rolled out to customer organizations gradually throughout the last half of 2018. To see if they are available to your organization, create a message and paste in the following conditional example:
-> 
-> `{{#if (eq contact.contact_account_parentcustomerid.name 'abc')}} Hello. {{else if (eq '123' '123')}} Advanced dynamic content is enabled. {{/if}}`
-> 
-> Then open the **Preview** tab. If the preview shows "Advanced dynamic content is enabled," then you have the feature. If instead you see the entire line of code, plus error messages like "We couldn't resolve the message template" or "HTML property not found", then you don't have it yet.  If you don't have the feature available, and require it urgently, then please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance.
 
-You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. You can enter the code while working on either the **Designer** or **HTML** tab of the content designer.
+You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. 
 
 As you've seen in previous examples, dynamic content is surrounded by double braces ( `{{` and `}}` ). This includes both standard field values that you add using the assist-edit feature, and the more advanced programming constructs described in this section.
 
@@ -171,9 +170,14 @@ This expression finds the name of the managing partner for the account for the c
 > [!IMPORTANT]
 > You can use, at most, two hops (periods) in your field expressions.
 
+> [!IMPORTANT]
+> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
+
 ### Conditional statements and comparisons
 
-Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. They take the following form:
+Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create these statements by placing it within a text element, or by placing custom-code elements in between the other design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [How to enter advanced dynamic content in the designer](#enter-code)
+
+Conditional statements take the following form:
 
  ```Handlebars
 {{#if (<operator> <value1> <value>)}}
@@ -184,7 +188,7 @@ Conditional (if-then-else) statements display content depending on whether one o
 .
 .
 {{else}}
-      Content displayed when all expressions are false
+      <p>Content displayed when all expressions are false</p>
 {{/if}}
 ```
 
@@ -246,9 +250,21 @@ For example, this conditional statement could be used to establish the language 
 > {{#if A}}<DisplayedContent>{{/if}} {{#if B}}<DisplayedContent>{{/if}}
 > ```
 
+> [!TIP]
+> When you are testing for values that are stored as an option set in the database, use the index values for the option set, not the display values. For example, you might have a field called `contact.customertypecode`, which holds an integer to identify the type of customer it is. Each customer type code also has a display name, such that 0 = "copper", 1 = "silver", and 2 = "gold". In this case, you must set up your expression to use the index (integer), not the matching display value. Therefore, if you're looking for gold customers, you should use:
+> ```Handlebars
+> {{#if (eq contact.customertypecode 2)}}
+> ```
+
+> [!TIP]
+> When you are testing large numerical values, such as "1,932,333", then leave out the thousands separator (,) in the comparison statement, even though you might often see these presented in the UI. To test for this value, your expression should therefore look something like:
+> ```Handlebars
+> {{#if (eq contact.customernumber 1932333)}}
+> ```
+
 ### For-each loops
 
-For-each loops let you step through a collection of records that are related to a specific current record—for example, to provide a list of all the recent transactions associated with a given contact.
+For-each loops let you step through a collection of records that are related to a specific current record—for example, to provide a list of all the recent transactions associated with a given contact. You can add the code required to create these statements by placing it within a text element, or by placing custom-code elements in between the other design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [How to enter advanced dynamic content in the designer](#enter-code)
 
 For-each loops take the following form:
 
@@ -283,22 +299,28 @@ For example, your database could include a list of products that a contact has o
 
 In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the customer-insights database (as usual).
 
-### Mix your code with content in the editor
+<a name="enter-code"></a>
 
-Often, programmers use multiple lines and indents to format their code during development. This makes the code easier to read and understand. The examples in this help topic likewise use techniques such as these to illustrate the structure of the code. However, when you enter your code into the designer, it's important that you compact the code and maintain your page layout—and that means removing all the extra lines and spaces. Here are some tips for how to enter your code in the designer:
+## How to enter advanced dynamic content in the designer
 
-- You can work on either the **HTML** or **Designer** tab.
-- If are working on the **Designer** tab, avoid all extra spaces and carriage returns because these will create `&nbsp;`and `<p>` tags in your code, which will result in unwanted empty space in your rendered design. If you go to the **HTML** tab, you'll see all of these extra tags in your code.
-- If you are working on the **HTML** tab, then all the code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs, as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs).
-- If you are working on the **HTML** tab, then you can add extra spaces and carriage returns to your code, but these will probably be collapsed automatically into a single line if you or anyone else opens the message using the **Designer** tab.
+You must be careful when entering advanced dynamic code in the designer because there are many, sometimes unexpected, ways to get it wrong, which will break your code. Here are some tips for how to enter and test your code:
 
-For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer:
+- Use custom-code elements place code snippets between design elements on the **Designer** tab. This is much more visible and reliable than placing the code directly into the HTML using the **HTML** tab. However, you might also use dynamic code *within* a text element, in which case you'll probably need to clean up that code on the **HTML** tab, as mentioned later in this list. (When working in the [full-page editor](custom-template-attributes.md#show-toolbox), double click on a custom-code element to edit its content.)
+    ![The custom-code element](media/custom-code-element.png "The custom-code element")
+- When you enter code into a text element on the **Designer** tab, any extra spaces and carriage returns that you add will create `&nbsp;`and `<p>` tags in your code, which can break it. Always go to the **HTML** tab afterwards, where you'll see all of these extra tags, and be sure to remove them.
+- When you enter code into a text element, all of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs (or custom-code elements), as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs). You must work on the **HTML** tab inspect and correct the HTML within your text elements.
+- Do not place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).
+- The [assist-edit](#assist-edit) feature is often helpful for constructing expressions that fetch values from your database because it helps you find database table, field, and relation names. This tool is available when working within a text element on the **Designer** tab, and when entering values is certain fields that support it (like the email subject). Assist-edit isn't available when working on the **HTML** tab or within a custom code element, so you can instead start by using assist-edit in any text element, and then cut/paste the resulting expression into your custom-code element or HTML.
+- The relationship name that you use when creating loops or placing lookup values must match the one used in the customer-insights services. This relationship name is not necessarily the same as the one used to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. To find the correct relationship name, use the [assist-edit](#assist-edit) feature.
+- Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
+
+For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer (either inside or outside of a text element):
 
 ```Handlebars
 <p>{{#if (eq contact.address1_country 'Denmark')}}Hej{{else if (eq contact.address1_country 'US')}}Hi{{/if}}{{contact.firstname}}!</p>
 ```
 
-This example (also shown previously) shows how to use comments to enclose code that exists entirely outside of displayed content (also on the **HTML** tab):
+The following example (also shown previously) shows how to use comments to enclose code that exists entirely outside of displayed content (also on the **HTML** tab):
 
 ```Handlebars
 <p>You have purchased:</p>

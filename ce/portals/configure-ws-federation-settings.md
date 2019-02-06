@@ -1,9 +1,9 @@
 ---
-title: "Configure WS-Federation provider settings for a portal in Dynamics 365  | MicrosoftDocs"
+title: "Configure WS-Federation provider settings for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
 description: "Instructions to add and configure WS-Federation provider settings for a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -57,7 +57,11 @@ Relying party WS-Federation Passive protocol URL: Enter https://portal.contoso.c
 
 Add the **Name ID** claim to the relying party trust:
 
-**Transform[!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] account name** to **Name ID** claim (Transform an Incoming Claim):
+**Transform [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] account name** to **Name ID** claim (Transform an Incoming Claim):
+- Incoming claim type: Windows account name 
+- Outgoing claim type: Name ID 
+- Outgoing name ID format: Unspecified 
+- Pass through all claim values 
 
 ### Create AD FS site settings
 
@@ -71,7 +75,12 @@ Apply portal site settings referencing the above AD FS Relying Party Trust.
 > - Authentication/WsFederation/ADFS/Wtrealm - https://portal.contoso.com/
 > - Authentication/WsFederation/ADFS/Wreply - https://portal.contoso.com/signin-federation   
 
-The **WS-Federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** by running the following script on the AD FS server: `Import-Module adfs Get-ADFSEndpoint -AddressPath /FederationMetadata/2007-06/FederationMetadata.xml`
+The **WS-Federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** by running the following script on the AD FS server:
+
+```
+Import-Module adfs
+Get-ADFSEndpoint -AddressPath /FederationMetadata/2007-06/FederationMetadata.xml
+```
 
 
 |                      Site Setting Name                      |                                                                                                                                                                                                                                                 Description                                                                                                                                                                                                                                                 |
@@ -95,13 +104,13 @@ The **WS-Federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-sho
 |       Authentication/WsFederation/ADFS/NameClaimType        |                                                                                                                                                                                                                     The claim type used by the ClaimsIdentity to store the name claim.                                                                                                                                                                                                                      |
 |       Authentication/WsFederation/ADFS/RoleClaimType        |                                                                                                                                                                                                                     The claim type used by the ClaimsIdentity to store the role claim.                                                                                                                                                                                                                      |
 |   Authentication/WsFederation/ADFS/RequireExpirationTime    |                                                                                                                                                                                                                     A value indicating whether tokens must have an 'expiration' value.                                                                                                                                                                                                                      |
-|    Authentication/WsFederation/ADFS/RequireSignedTokens     |                                                                                                                                                                       A value indicating whether a System.IdentityModel.Tokens.SecurityToken xmlns="<http://ddue.schemas.microsoft.com/authoring/2003/5>" can be valid if not signed.                                                                                                                                                                       |
+|    Authentication/WsFederation/ADFS/RequireSignedTokens     |                                                                                                                                                                       A value indicating whether a System.IdentityModel.Tokens.SecurityToken xmlns=<http://ddue.schemas.microsoft.com/authoring/2003/5> can be valid if not signed.                                                                                                                                                                       |
 |      Authentication/WsFederation/ADFS/SaveSigninToken       |                                                                                                                                                                                                               A Boolean to control if the original token is saved when a session is created.                                                                                                                                                                                                                |
 |       Authentication/WsFederation/ADFS/ValidateActor        |                                                                                                                                                                                                   A value indicating whether the System.IdentityModel.Tokens.JwtSecurityToken.Actor should be validated.                                                                                                                                                                                                    |
 |      Authentication/WsFederation/ADFS/ValidateAudience      |                                                                                                                                                                                                               A Boolean to control if the audience will be validated during token validation.                                                                                                                                                                                                               |
 |       Authentication/WsFederation/ADFS/ValidateIssuer       |                                                                                                                                                                                                                A Boolean to control if the issuer will be validated during token validation.                                                                                                                                                                                                                |
 |      Authentication/WsFederation/ADFS/ValidateLifetime      |                                                                                                                                                                                                               A Boolean to control if the lifetime will be validated during token validation.                                                                                                                                                                                                               |
-|  Authentication/WsFederation/ADFS/ValidateIssuerSigningKey  |                                                                                                                                                         A Boolean that controls if validation of the System.IdentityModel.Tokens.SecurityKey that signed the securityToken xmlns="<http://ddue.schemas.microsoft.com/authoring/2003/5>" is called.                                                                                                                                                          |
+|  Authentication/WsFederation/ADFS/ValidateIssuerSigningKey  |                                                                                                                                                         A Boolean that controls if validation of the System.IdentityModel.Tokens.SecurityKey that signed the securityToken xmlns=<http://ddue.schemas.microsoft.com/authoring/2003/5> is called.                                                                                                                                                          |
 |            Authentication/WsFederation/ADFS/Whr             |                                                                                                                                       Specifies a "whr" parameter in the identity provider redirect URL. For more information: [wsFederation](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/windows-identity-foundation/wsfederation).                                                                                                                                       |
 
 ## WS-Federation settings for [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)]
@@ -112,18 +121,16 @@ The previous section describing AD FS can also be applied to [!INCLUDE[pn-azure-
 2.  Choose **Add an application my organization is developing**.
 3.  Specify a custom **name** for the application, and then choose the type **web application and/or web API**.
 4.  For the **Sign-On URL** and the **App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/.
-    This corresponds to the **Wtrealm** site setting value.
+    - This corresponds to the **Wtrealm** site setting value.
 5.  At this point, a new application is created. Go to the **Configure** section in the menu.
-    In the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad.
-    -   This corresponds to the **Wreply** site setting value.
-6.  Select **Save** in the footer.
-7.  In the footer menu, select **View Endpoints** and note the **Federation Metadata Document** field.
+6.  In the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad.
+    - This corresponds to the **Wreply** site setting value.
+7.  Select **Save** in the footer.
+8.  In the footer menu, select **View Endpoints** and note the **Federation Metadata Document** field.
 
-This corresponds to the **MetadataAddress** site setting value.
-
--   Paste this URL in a browser window to view the federation metadata XML, and note the **entityID** attribute of the root element.
-
--   This corresponds to the **AuthenticationType** site setting value.
+    - This corresponds to the **MetadataAddress** site setting value.
+    - Paste this URL in a browser window to view the federation metadata XML, and note the **entityID** attribute of the root element.
+    - This corresponds to the **AuthenticationType** site setting value.
 
 > [!Note]
 > A standard [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD configuration only uses the following settings (with example values):
@@ -135,7 +142,7 @@ This corresponds to the **MetadataAddress** site setting value.
 
 ### See also
 
-[Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

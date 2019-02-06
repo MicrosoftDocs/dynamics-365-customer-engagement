@@ -1,25 +1,25 @@
 ---
-title: "Enable and disable duplicate detection (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Enable and disable duplicate detection (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This topic covers information on how to enable duplicate detection for all entities in an organization, for a specific entity and for specific operations and how to disable duplicate detection globally or for an entity type by unpublishing the duplicate detection rules or by deleting the published rules."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "duplicate detection, enabling"
+  - duplicate detection, enabling
   - "enabling duplicate detection, in three areas: globally; for entities; for specific operations"
   - "enabling duplicate detection, how to enable: messages; properties; and attributes to set"
-  - "enabling duplicate detection, rules must be published before running"
+  - enabling duplicate detection, rules must be published before running
 ms.assetid: B8CD2072-F254-4BA8-9087-79EC79DFE48C
 caps.latest.revision: 14
-author: "SushantSikka"
-ms.author: "susikka"
-manager: "amyla"
+author: SushantSikka
+ms.author: susikka
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -30,7 +30,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic covers information on how to enable and disable duplicate detection in Dynamics 365.
+This topic covers information on how to enable and disable duplicate detection in Dynamics 365 for Customer Engagement apps.
 
 <a name="bkmk_enable"></a>
 

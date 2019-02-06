@@ -1,22 +1,22 @@
 ---
-title: "Understand the data context passed to a plug-in (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "IPluginExecutionContext contains information that describes the run-time environment that the plug-in executes, information related to the execution pipeline, and entity business information. The context is contained in the System.IServiceProvider parameter that is passed at run time to a plug-in through its IServiceProvider) method. "
-ms.custom: ""
-ms.date: 09/17/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Understand the data context passed to a plug-in (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "IPluginExecutionContext contains information that describes the run-time environment that the plug-in executes, information related to the execution pipeline, and entity business information. The context is contained in the System.IServiceProvider parameter that is passed at run time to a plug-in through its IServiceProvider) method."
+ms.custom: 
+ms.date: 10/16/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "infinite loop"
+  - infinite loop
 ms.assetid: c59e7465-e955-40cc-a470-4a528138c36d
 caps.latest.revision: 42
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -46,12 +46,14 @@ The <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext.ParentContext> contains info
 
 > [!CAUTION]
 > You should avoid taking a dependency on values that you find in the `ParentContext` to apply your business logic. The specific order in which operations occur is not guaranteed and may change over time.
+>
+> If you do choose to take a dependency on values found in the `ParentContext`, you should take steps to ensure that your code is resilient to adapt to potential changes. You should test the logic regularly to verify that the conditions you depend on remain in effect over time.
   
 <a name="bkmk_access"></a>
 
 ## Access the Organization service 
  
-To access the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement organization service, it is required that plug-in code create an instance of the service through the [IServiceProvider.GetService(Type)](https://docs.microsoft.com/dotnet/api/system.iserviceprovider.getservice) method.  
+To access the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization service, it is required that plug-in code create an instance of the service through the [IServiceProvider.GetService(Type)](https://docs.microsoft.com/dotnet/api/system.iserviceprovider.getservice) method.  
 
 [!code-csharp[Plug-ins#FollowupPlugin4](../snippets/csharp/CRMV8/plug-ins/cs/followupplugin4.cs#followupplugin4)]  
 
@@ -61,7 +63,7 @@ The platform provides the correct web service URLs and network credentials for y
 
 ## Access the Notification service  
 
-Synchronous registered plug-ins can post the execution context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. The service provider object that is passed to the plug-in contains a reference to <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService>. It is through that notification service that synchronous plug-ins can send brokered messages to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. For more information about [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)], see [Introduction to Microsoft Azure Integration with Dynamics 365](azure-integration.md). For more information about writing a plug-in that can post to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)], see [Write a Custom Azure-aware Plug-in](write-custom-azure-aware-plugin.md).  
+Synchronous registered plug-ins can post the execution context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. The service provider object that is passed to the plug-in contains a reference to <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService>. It is through that notification service that synchronous plug-ins can send brokered messages to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. For more information about [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)], see [Introduction to Microsoft Azure Integration with Dynamics 365 for Customer Engagement apps](azure-integration.md). For more information about writing a plug-in that can post to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)], see [Write a Custom Azure-aware Plug-in](write-custom-azure-aware-plugin.md).  
   
 <a name="bkmk_inputandoutput"></a>
   

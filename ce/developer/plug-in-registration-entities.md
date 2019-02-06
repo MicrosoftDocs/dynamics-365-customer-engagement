@@ -1,20 +1,20 @@
 ---
-title: "Plug-in registration entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about plug-in registration entities that define a Dynamics 365 Customer Engagement web services (SDK) message, the entities that support a particular message, and the entities used during plug-in registration. These entities do not apply to custom workflow activities. "
-ms.custom: ""
+title: "Plug-in registration entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Learn about plug-in registration entities that define a Dynamics 365 for Customer Engagement web services (SDK) message, the entities that support a particular message, and the entities used during plug-in registration. These entities do not apply to custom workflow activities. "
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: bd82dfec-a852-4bb1-8f46-7d574ac50782
 caps.latest.revision: 19
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -26,7 +26,7 @@ search.app:
 
 The plug-in registration entities define a [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)] message, the entities that support a particular SDK message, and the entities used during plug-in registration. These entities do not apply to custom workflow activities.  
   
- An *SDK Message* defines a message to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement platform. The message represents the operation that the platform is to perform. You should not create or update a record of this entity.  
+ An *SDK Message* defines a message to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps platform. The message represents the operation that the platform is to perform. You should not create or update a record of this entity.  
   
  An *SDK Message Filter* defines what entity type, for example, account or contact, supports a particular SDK message. It also identifies whether a custom plug-in can be registered for the message and executed when the message is processed by the event execution pipeline.  
   

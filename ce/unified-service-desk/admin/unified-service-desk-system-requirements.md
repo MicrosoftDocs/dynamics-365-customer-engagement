@@ -1,19 +1,19 @@
 ---
-title: "Unified Service Desk for Dynamics 365 Customer Engagement system requirements | MicrosoftDocs"
-description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk for Dynamics 365 Customer Engagement. "
-keywords: ""
-ms.date: 02/06/2018
+title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps system requirements | MicrosoftDocs"
+description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk for Dynamics 365 for Customer Engagement apps. "
+keywords: 
+ms.date: 01/25/2019
 ms.service:
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom:
-  - "dyn365-USD, dyn365-admin"
+  - dyn365-USD, dyn365-admin
 ms.topic: get-started-article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 8a0e7dc4-5d32-412a-ae72-b6ce010c1c85
 author: kabala123
 ms.author: kabala
@@ -24,7 +24,7 @@ ms.tgt_pltfrm:
 ---
 
 # Requirements
-This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications on a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] instance.  
+This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications on a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps instance.  
 
 <a name="hardware"></a>   
 ## Hardware requirements for the Unified Service Desk client  
@@ -34,9 +34,11 @@ This topic provides information about the system requirements for installing the
 | Component |                                           Minimum                                           |                                                                                                                                                                            Recommended                                                                                                                                                                            |
 |-----------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Processor | x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor |                                                                                                                                    x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor                                                                                                                                    |
-|  Memory   |                                      2-GB RAM or more                                       |                                                                                                                                                                         4-GB RAM or more                                                                                                                                                                          |
+|  Memory   |                                      ^2-GB RAM or more                                       |                                                                                                                                                                         ^4-GB RAM or more                                                                                                                                                                          |
 | Hard disk |                            \*1.5 GB of available hard disk space                            | 12 GB of available hard disk space: 2 GB of available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application files and 10 GB additional available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client log files<br /><br /> 7200 RPM or more |
 
+ ^The minimum and recommended memory are for running basic scenarios. The actual memory required for Unified Service Desk increases with the complex configurations and custom development (UI experience).
+ 
  *Requires disabling [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client logging. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure client diagnostic logging in Unified Service Desk](../../unified-service-desk/admin/configure-client-diagnostic-logging-unified-service-desk.md)  
 
 <a name="client"></a>   
@@ -51,15 +53,15 @@ This topic provides information about the system requirements for installing the
   > We recommend that you use [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] and [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)].
   > 
   > [!IMPORTANT]
-  >  Although [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)] is currently not supported for use with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, you can use [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)] with [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)].  
+  > [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)] (Preview) is currently supported for use with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. More information: [Edge Process](../edge-process.md)
   > 
-  >  <sup>*</sup> [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] is supported for use only with [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)] organizations. Also, [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] may work for systems that are not [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+  >  <sup>*</sup> [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] is supported for use only with [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)] organizations. Also, [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] may work for systems that are not [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
 - [!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)  
 
 > [!NOTE]
 > - [!INCLUDE [pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] or higher version installs [!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)]. 
-> - [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] version installs [!INCLUDE[pn_NET_Framework_452_long](../../includes/pn-net-framework-452-long.md)].
+> - [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] version installs Microsoft .NET Framework 4.6.2.
 
 
 - [!INCLUDE[pn_Windows_Identity_Foundation](../../includes/pn-windows-identity-foundation.md)] 3.5 (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)  
@@ -70,13 +72,13 @@ This topic provides information about the system requirements for installing the
 
 <a name="SampleApps"></a>   
 ## Software requirements for deploying Unified Service Desk sample applications  
- To deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample application, an instance of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] (online or on-premises), [!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)], or [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)] is required.  
+ To deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample application, an instance of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps (online or on-premises), [!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)], or [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)] is required.  
 
 > [!IMPORTANT]
 >  Although you can deploy and use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications with [!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)] or [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)], we recommend that you upgrade to [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] so you can use the new features available.  
-> We recommend that you use Unified Service Desk 4.0 with [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 4.0 for Dynamics 365 now](https://go.microsoft.com/fwlink/p/?linkid=2007340).
+> We recommend that you use Unified Service Desk 4.0 with [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 4.0 for Dynamics 365 for Customer Engagement apps now](https://go.microsoft.com/fwlink/p/?linkid=2007340).
 
- For information about the sample applications available for this release, see [Deploy sample Unified Service Desk applications to Dynamics 365 server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
+ For information about the sample applications available for this release, see [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
 
 <a name="packdeploy"></a>   
 ## Software requirements for the Package Deployer tool  
@@ -84,7 +86,7 @@ This topic provides information about the system requirements for installing the
 
 - For running the tool, use one of these [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)] versions: [!INCLUDE[pn_windows_server_2012_r2](../../includes/pn-windows-server-2012-r2.md)], [!INCLUDE[pn_windowsserver2012](../../includes/pn-windowsserver2012.md)], [!INCLUDE[pn_Windows_Server_2008_R2](../../includes/pn-windows-server-2008-r2.md)].
 
-- An instance of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] (online or on-premises), [!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)], or [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)].  
+- An instance of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps (online or on-premises), [!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)], or [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)].  
 
 - Additionally, [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] 3.0 or later is required if you’ll be using [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets for [!INCLUDE[pn_package_deployer_short](../../includes/pn-package-deployer-short.md)] to deploy sample applications. To check your [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] version, open a [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] window, and then run the following command: `$Host`  
 
@@ -96,5 +98,5 @@ This topic provides information about the system requirements for installing the
 
 ## See also  
  [Install Unified Service Desk Client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)   
- [Deploy Unified Service Desk packages to Dynamics 365 Server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
+ [Deploy Unified Service Desk packages to Dynamics 365 for Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   

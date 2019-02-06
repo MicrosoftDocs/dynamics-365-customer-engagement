@@ -1,21 +1,20 @@
 ---
 title: "Cookies set and read (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Describes how cookies are set and used in Dynamics 365 for Marketing"
-keywords: "cookies; privacy"
-ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+keywords: cookies; privacy
+ms.date: 12/17/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: a7136797-5995-425f-a49e-f037e53b7fa7
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -46,7 +45,7 @@ Whenever a contact submits a marketing page, [!INCLUDE[pn-marketing-business-app
 - **Long-term behavioral-analysis cookie**: This cookie is set and/or read on any webpage where you have placed a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] website behavioral-analysis script. It enables [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to score leads based on their level of interaction with a given website. The cookie contains no personal information, but does uniquely identify a specific browser on a specific machine, and [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can use it to correlate this ID with an actual contact in the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] database. The cookie remains active for two years.
 - **Short-term, single-visit cookie**: This cookie is also set and/or read on any webpage where you have placed a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] website behavioral-analysis script. By default, it expires after just 30 minutes (although you can configure this). [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses it to group all page loads by a given visitor that are recorded by the same behavioral-analysis script and that occur within the configured timeframe; it will consider all of these as part of a single &quot;visit&quot; to the website.
 - **Marketing page registration cookie**: This cookie is set when a contact submits a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] marketing page where the **Remember my information** check box has been selected. It enables the marketing page to show a prefilled form the next time the same contact uses it. The information stored in the cookie is a cryptographic, unique identifier and doesn't contain the data submitted or any means for an external application to uncover the submitted information.
-- **Event portal**: The event portal uses a session cookie to enable contacts to sign in and register for events.
+- **Event website**: The event website uses a session cookie to enable contacts to sign in and register for events. Additionally, it uses cookies to store the user's language.
 
 > [!NOTE]
 > The [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application itself also sets cookies to enable sign-in sessions and other technical features. These only affect direct users of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] (such as your internal marketing personnel), not the general public. Microsoft&#39;s standard privacy policy applies for these users.

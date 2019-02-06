@@ -1,21 +1,20 @@
 ---
 title: "Guide your prospects through an interactive customer journey (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 for Marketing"
-keywords: "customer journey; campaign; email; segment; go live; pipeline"
+keywords: customer journey; campaign; email; segment; go live; pipeline
 ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: dd5579ea-7fea-41fa-81ab-a83d67943c7e
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -40,7 +39,7 @@ Use [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to visualize and
 
 The previous figure shows how a simple customer journey might look in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. A somewhat more complex example could work like this:
 
-1. A new contact from New York wants to subscribe to your newsletter, and fills out a marketing page on your site. This results in a new contact record in your database.
+1. A new contact from New York wants to subscribe to your newsletter, and fills out a marketing page. This results in a new contact record in your database.
 
 2. You have a dynamic segment that finds all newsletter subscribers from New York, so the new contact automatically joins that list.
 
@@ -87,10 +86,10 @@ Legend:
 1. **Tile type**: Shows what type of tile it is (segment, email, trigger, and so on). The icon and color also indicate this.
 1. **Tile name**: Shows the name assigned to this particular tile.
 1. **Tile status**: Shows key statistics about the tile, such as how many contacts are waiting here or how many messages it has sent so far. The information shown varies by tile type.
-1. **Expand button**: Some types of tiles can include child tiles, which are shown nested below their parent tile. Select the expand button to open or close the child-tile display. Tiles that don't accept child tiles don't show a button here.
-1. **Child tiles**: You can view, select, configure, or remove existing child tiles here when the parent tile is expanded. You can add new child tiles by dragging them here or to the parent tile (this also works when the parent is collapsed).
+1. **Expand button**: Some types of tiles can contain nested tiles. Select the expand button to open or close the nested-tile display. Tiles that don't accept nested tiles don't show a button here.
+1. **Nested tiles**: You can view, select, configure, or remove existing nested tiles here when the container tile is expanded. You can add new nested tiles by dragging them here or to the container tile (this also works when the container is collapsed).
 
-To configure a tile or child tile, select it in the pipeline and then go to the **Properties** tab to the right of the canvas, where you'll find all the settings that apply to the type of tile you've selected.
+To configure a tile or nested tile, select it in the pipeline and then go to the **Properties** tab to the right of the canvas, where you'll find all the settings that apply to the type of tile you've selected.
 
 ### Add tiles by using the command bar and arrow keys
 
@@ -158,27 +157,31 @@ Other settings for activity marketing templates vary by activity type and, like 
 
 Use the **General** tab to give your journey a name, assign ownership, set its execution schedule, choose content settings, view its timeline history, and more.
 
+### Target contacts or accounts
+
+You must set each customer journey to target _either_ contacts _or_ accounts. Use the **Target** setting on the **General** tab to configure this option for each journey.
+
+- When you target *contacts*, the journey will treat each contact as an individual, without considering the company (account) that the contact works for.
+- When you target *accounts*, the journey can group contacts by the company (account) that each contact works for, which can affect the way contacts are processed as they traverse the journey, for example:
+  - Trigger tiles can send all contacts from the same account down the same path.
+  - Activity tiles can generate just one activity (such as a task or phone call) for each account, even if several contacts from that account are included in the journey.
+  - Launch-workflow tiles can trigger their workflow just once for each account, even if several contacts from that account are included in the journey.
+  - Create-lead tiles can generate leads associated with accounts rather than contacts.
+  - Journey insights shown in the **Data** panel can be filtered by account.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
+
+### Set the minimum consent level
+
+If data protection is enabled for your instance (for example, because you need to comply with the GDPR), then use the **Minimum consent** setting to control the minimum level of consent that each contact must have provided to be included on this journey. The level you choose should depend on the types of operations your journey will execute.
+
+It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use customer journeys and all other features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Data protection and the GDPR](gdpr.md)
+
 ### Set the execution schedule
 
 All customer journeys are active for a limited time. During this time, the journey processes all contacts that are part of its target segments, stepping them through each tile according to its settings. The journey starts by processing all contacts that are already in its segments, and it will continue to process new contacts that are added to the segment during the time it is active. At the end of the schedule, it stops processing all contacts, regardless of where they are in the journey. Use the **Start date and time** and **End date and time** settings on the **General** tab to set up the start and end dates, and use the **Time zone** setting to establish the time zone to use when interpreting these values.
-
-### Set up a recurring journey
-
-Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period. 
-
-All segment membership criteria are re-evaluated at the start of each iteration, so contacts can be added or removed between cycles.
-
-To set up a recurring journey:
-
-1. Open your journey and go to the **General** tab.
-1. Set **Is recurring** to **Yes**. This opens two additional settings here.
-1. Set the **Recurrence interval** to the number of days each iteration should last.
-1. Set the **Recurrence count** to the maximum number of recurrences each contact can experience.
-
-
-> [!NOTE]
-> Your recurrence schedule must fit within your start and end dates, such that:  
-**interval * count &le; end date &ndash; start date**.
 
 ### Choose your content settings
 
@@ -189,6 +192,23 @@ To choose the content settings used by a journey, go to its **General** tab and 
 For more information about how to create and configure content-settings records, see [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
 
 If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create. For more information about how to establish the default content-settings record for new journeys, see [Default marketing settings](marketing-settings.md#default-marketing-settings).
+
+### Set up a recurring journey
+
+Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period. 
+
+All segment membership criteria are re-evaluated at the start of each recurrence, so contacts can be added or removed between cycles.
+
+To set up a recurring journey:
+
+1. Open your journey and go to the **General** tab.
+1. Set **Is recurring** to **Yes**. This opens two additional settings here.
+1. Set the **Recurrence interval** to the number of days each recurrence should last.
+1. Set the **Recurrence count** to the maximum number of recurrences each contact can experience.
+
+> [!NOTE]
+> Your recurrence schedule must fit within your start and end dates, such that:  
+**interval * count &le; end date &ndash; start date**.
 
 <a name="suppression-segment"></a>
 
@@ -203,7 +223,7 @@ You can use any existing segment as a suppression segment. To choose a suppressi
 
 ## Go live to start running the journey and processing contacts
 
-When you first create a new customer journey, and while you're working on it, the journey stays in Draft status. (The status is displayed above the journey canvas in the **Status Reason** field.) While it's still in draft status, the journey is inactive and it won't try to send any messages or do any other processing. When everything's in place and you're ready to start running the journey, you publish it. This updates the journey's **Status Reason** to Published, and as soon as the specified **Start Date** arrives, the journey will start processing all contacts in its target segment.
+When you first create a new customer journey, and while you're working on it, the journey stays in *draft* status. (The status is displayed above the journey canvas in the **Status Reason** field.) While it's still in draft status, the journey is inactive and it won't try to send any messages or do any other processing. When everything's in place and you're ready to start running the journey, you publish it. This updates the journey's **Status Reason** to **Published**, and as soon as the specified **Start Date** arrives, the journey will start processing all contacts in its target segment.
 
 When you've finished designing your customer journey, do the following to verify and publish it:
 
@@ -211,7 +231,7 @@ When you've finished designing your customer journey, do the following to verify
 
 2. Select **Check for Errors** in the command bar to verify your campaign setup and check it for errors. This step makes sure that all required marketing emails and pages are assigned and published, and also checks for other prerequisites and common errors. If problems are found, you'll see an error message with advice for how to fix it. Continue to check, fix reported errors, and check again until your journey passes the test.
 
-3. Now you're ready to publish: select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] runs the error check one last time. If your journey passes, it is published to the active area of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server, which also hosts your published marketing email messages and marketing pages.
+3. Now you're ready to publish, so select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] runs the error check one last time. If your journey passes, it is published to the marketing services, which also host your published marketing email messages and marketing pages.
 
 [!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
 

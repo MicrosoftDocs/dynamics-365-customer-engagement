@@ -2,7 +2,7 @@
 title: "msdyn_ciprovider Entity reference for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -19,8 +19,6 @@ manager: shujoshi
 ---
 
 # msdyn_ciprovider Entity Reference
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Base entity for Channel Integration Framework.
 

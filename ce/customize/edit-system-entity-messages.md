@@ -1,22 +1,22 @@
 ---
-title: "Edit system entity messages with PowerApps | MicrosoftDocs"
+title: "Edit system entity messages | MicrosoftDocs"
 description: "Learn how to edit system entity messages"
-ms.custom: ""
-ms.date: 04/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/03/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 3ccbd8de-8d6f-4058-87f7-15463667cfc6
 caps.latest.revision: 41
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -24,11 +24,11 @@ search.app:
 ---
 # Edit system entity messages
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_EditSystemEntityMessages"></a>   
 
- The default display name of some system entities is used in user interface text and error messages in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)]. If you change the display name, you should also update any messages that use the default display name. For example, if you change the display name from “Account” to “Company,” you could still see an error message using the old name.  
+ The default display name of some system entities is used in user interface text and error messages. If you change the display name, you should also update any messages that use the default display name. For example, if you change the display name from “Account” to “Company,” you could still see an error message using the old name.  
   
  In the solution explorer, below the entity, if you see a **Messages** node you can edit certain text that includes references to the original entity display name. Editing this text is straightforward. Open the message to see a form with three fields:  
   

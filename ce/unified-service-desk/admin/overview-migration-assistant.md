@@ -1,19 +1,19 @@
 ---
-title: "Migrate Dynamics 365 Web Client configurations to Dynamics 365 Unified Interface App | MicrosoftDocs"
-description: "Learn how to migrate your Unified Service Desk configurations from Dynamics 365 Web Client to Unified Interface App"
-keywords: ""
+title: "Migrate Dynamics 365 for Customer Engagement Web Client configurations to Dynamics 365 for Customer Engagement apps (Unified Interface apps) | MicrosoftDocs"
+description: "Learn how to migrate your Unified Service Desk configurations from Dynamics 365 for Customer Engagement Web Client to Unified Interface apps"
+keywords: 
 ms.date: 07/30/2018
 ms.service: 
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom: 
-  - "dyn365-USD, dyn365-admin"
+  - dyn365-USD, dyn365-admin
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 785880FF-00C7-489F-BC2D-2C45ECBFF3C9
 author: kabala123
 ms.author: kabala
@@ -25,7 +25,7 @@ search.app:
   - D365USD
 ---
 
-# Migration of Unified Service Desk configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App
+# Migration of Unified Service Desk configurations from Dynamics 365 for Customer Engagementa Web Client to Dynamics 365 for Customer Engagement Unified Interface apps
 
 ## Overview
   
@@ -54,8 +54,8 @@ The migration assistant helps with the migration of:
 
 [Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)
 
-[Migration steps of the configurations from Dynamics 365 Web Client to Unified Interface App](migration-steps-web-client-unified-interface-configuration.md)
+[Migration steps of the configurations from Dynamics 365 for Customer Engagement Web Client to Unified Interface apps](migration-steps-web-client-unified-interface-configuration.md)
 
-[Download the tools from NuGet](../../developer/download-tools-nuget.md)
+[Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
 
-[Import configuration data](../../admin/import-configuration-data.md)
+[Import configuration data](/dynamics365/customer-engagement/admin/import-configuration-data)

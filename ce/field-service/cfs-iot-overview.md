@@ -1,18 +1,19 @@
 ---
 title: "Connected Field Service for Azure IoT Central - Overview | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
-ms.date: 09/24/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.custom: dyn365-fieldservice
+ms.date: 11/08/2018
+ms.author: vihuang
+ms.reviewer: krbjoran
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
+  - field-service
+ms.tgt_pltfrm: 
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "shellyhaverkamp"
-ms.author: "krbjoran"
-ms.manager: "shellyhaverkamp"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: shellyhaverkamp
+ms.author: vihuang
+ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
   - customizer
@@ -55,3 +56,5 @@ Connect Azure IoT Central to Connected Field Service using Microsoft Flow in jus
 - [What is Azure IoT Central?](https://docs.microsoft.com/azure/iot-central/overview-iot-central)
 - [Tour of Azure IoT Central user interface](https://docs.microsoft.com/azure/iot-central/overview-iot-central-tour)
 - [Create a new application in Azure IoT Central - tutorial](https://docs.microsoft.com/azure/iot-central/quick-deploy-iot-central)
+
+

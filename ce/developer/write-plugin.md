@@ -1,20 +1,20 @@
 ---
-title: "Write a plug-in (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Write a plug-in (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about plug-in design, writing a basic plug-in, writing a plug-in constructor, and web access for isolated plug-ins."
-ms.custom: ""
-ms.date: 09/13/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/25/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3ebc5b7c-313a-44c2-b6e0-b6740a0a24de
 caps.latest.revision: 62
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,16 +24,13 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> interface. You can write a plug-in in any [!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)] CLR-compliant language such as [!INCLUDE[pn_MS_Visual_C#](../includes/pn-ms-visual-csharp.md)] and [!INCLUDE[pn_Visual_Basic](../includes/pn-visual-basic.md)]. To be able to compile plug-in code, you must add Microsoft.Xrm.Sdk.dll and  Microsoft.Crm.Sdk.Proxy.dll assembly references to your project. Download these assemblies from [NuGet](https://www.nuget.org/profiles/crmsdk).
-
-> [!IMPORTANT]
-> Do not use .NET Framework versions greater than 4.5.2 when developing plug-ins.
+Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> interface. You can write a plug-in in any .NET Framework 4.6.2 CLR-compliant language such as [!INCLUDE[pn_MS_Visual_C#](../includes/pn-ms-visual-csharp.md)] and [!INCLUDE[pn_Visual_Basic](../includes/pn-visual-basic.md)]. To be able to compile plug-in code, you must add Microsoft.Xrm.Sdk.dll and  Microsoft.Crm.Sdk.Proxy.dll assembly references to your project. Download these assemblies from [NuGet](https://www.nuget.org/profiles/crmsdk).
   
 <a name="bkmk_design"></a>
 
 ## Plug-in design
 
- Your plug-in design should take into account the web application *auto-save* feature introduced in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Auto-save is enabled by default but can be disabled at an organization level. When auto-save is enabled there is no **Save** button. The web application will save data in the form automatically 30 seconds after the last unsaved change. You can apply form scripts to disable the auto-save behaviors on a form level. Depending on how you registered your plug-in, auto-save may result in your plug-in being called more frequently for individual field changes instead of one plug-in invocation for all changes. You should assume that any user can save any record at any time, whether this is done using Ctrl+S, by pressing a save button, or automatically due to the auto-save feature.  
+ Your plug-in design should take into account the web application *auto-save* feature introduced in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps. Auto-save is enabled by default but can be disabled at an organization level. When auto-save is enabled there is no **Save** button. The web application will save data in the form automatically 30 seconds after the last unsaved change. You can apply form scripts to disable the auto-save behaviors on a form level. Depending on how you registered your plug-in, auto-save may result in your plug-in being called more frequently for individual field changes instead of one plug-in invocation for all changes. You should assume that any user can save any record at any time, whether this is done using Ctrl+S, by pressing a save button, or automatically due to the auto-save feature.  
   
  It is a best practice to register your plug-in or workflow on entities and specific fields that matter most. Avoid registering a plug-in or workflow for changes to all entity fields. If you have an existing plug-or workflow that was implemented before the availability of the auto save feature, you should re-test that code to verify its proper operation. For more information see [Manage auto-save](../customize/manage-auto-save.md).  
   
@@ -147,7 +144,7 @@ public SamplePlugin(string unsecure, string secure)
  [!code-csharp[Plug-ins#WebClientPlugin2](../snippets/csharp/CRMV8/plug-ins/cs/webclientplugin2.cs#webclientplugin2)]  
   
 > [!IMPORTANT]
->  For sandboxed plug-ins to be able to access external Web services, the server where the Sandbox Processing Service role is installed must be exposed to the Internet, and the account that the sandbox service runs under must have Internet access. Only outbound connections on ports 80 and 443 are required. Inbound connection access is not required. Use the Windows Firewall control panel to enable outbound connections for the Microsoft.Crm.Sandbox.WorkerProcess application located on the server in the %PROGRAMFILES%\Dynamics 365\Server\bin folder.  
+>  For sandboxed plug-ins to be able to access external Web services, the server where the Sandbox Processing Service role is installed must be exposed to the Internet, and the account that the sandbox service runs under must have Internet access. Only outbound connections on ports 80 and 443 are required. Inbound connection access is not required. Use the Windows Firewall control panel to enable outbound connections for the Microsoft.Crm.Sandbox.WorkerProcess application located on the server in the %PROGRAMFILES%\Dynamics 365 for Customer Engagement\Server\bin folder.  
   
 <a name="bkmk_useearlybound"></a>
 
@@ -161,7 +158,7 @@ public SamplePlugin(string unsecure, string secure)
 Account acct = entity.ToEntity<Account>();  
 ```  
   
- In the previous line of code, the acct variable is an early-bound type. All <xref:Microsoft.Xrm.Sdk.Entity> values that are assigned to <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> must be late-bound types. If an early-bound type is assigned to the context, a [SerializationException](https://msdn.microsoft.com/library/system.runtime.serialization.serializationexception.aspx) will occur. For more information, see [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md). Make sure that you do not mix your types and use an early bound type where a late-bound type is called for as shown in the following code.  
+ In the previous line of code, the `acct` variable is an early-bound type. All <xref:Microsoft.Xrm.Sdk.Entity> values that are assigned to <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> must be late-bound types. If an early-bound type is assigned to the context, a [SerializationException](https://msdn.microsoft.com/library/system.runtime.serialization.serializationexception.aspx) will occur. For more information, see [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md). Make sure that you do not mix your types and use an early bound type where a late-bound type is called for as shown in the following code.  
   
 ```csharp  
 context.InputParameters["Target"] = new Account() { Name = "MyAccount" }; // WRONG: Do not do this.  
@@ -176,17 +173,18 @@ context.InputParameters["Target"] = new Account() { Name = "MyAccount" }; // WRO
  There can be one or more plug-in types in an assembly. After the plug-in assembly is registered and deployed, plug-ins can perform their intended operation in response to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] run-time event.  
   
 > [!IMPORTANT]
-> - Plug-in assemblies must be built using .NET Framework version 4.5.2. Any assemblies built using higher versions cannot be imported as part of a solution.
-> - Plug-in assemblies should reference the minimum version of the `Microsoft.Xrm.Sdk.dll` assembly that corresponds to the Dynamics 365 Customer Engagement deployment version. If your solution targets version 8.2, you must not use the latest version of the assemblies, you need to use the v8.2 version of the assemblies. Older versions of the assemblies are available via NuGet at [Microsoft.CrmSdk.CoreAssemblies ](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreAssemblies/)
+> - Plug-in assemblies must be built using .NET Framework version 4.6.2. Any assemblies built using higher versions cannot be imported as part of a solution.
+> - Plug-in assemblies should reference the minimum version of the `Microsoft.Xrm.Sdk.dll` assembly that corresponds to the Dynamics 365 for Customer Engagement deployment version. If your solution targets version 8.2, you must not use the latest version of the assemblies, you need to use the v8.2 version of the assemblies. Older versions of the assemblies are available via NuGet at [Microsoft.CrmSdk.CoreAssemblies ](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreAssemblies/)
 > - Plug-in assemblies must be no larger than 16 MB.
-> - In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], plug-in assemblies must be readable by everyone to work correctly. Therefore, it is a security best practice to develop plug-in code that does not contain any system logon information, confidential information, or company trade secrets.  
+> - In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], plug-in assemblies must be readable by everyone to work correctly. Therefore, it is a security best practice to develop plug-in code that does not contain any system logon information, confidential information, or company trade secrets.
+> - Plug-in assemblies with more than 4096 classes (types) cannot be imported.
   
  Each plug-in assembly must be signed, either by using the **Signing** tab of the project's properties sheet in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] or the Strong Name tool, before being registered and deployed to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For more information about the Strong Name tool, run the sn.exe program, without any arguments, from a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] Command Prompt window.  
   
  If your assembly contains a plug-in that can execute while the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is offline, there is additional security that the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] platform imposes on assemblies. For more information, see [Walkthrough: Configure Assembly Security for an Offline Plug-in](walkthrough-configure-assembly-security-offline-plugin.md).
 
  > [!Note]
- > Plugin and Workflow Assemblies must contain all the necessary logic within the respective dll.  Plugins may reference some core .Net assemblies. However, we do not support dependencies on .Net assemblies that interact with low-level Windows APIs, such as the graphics design interface. Previously, Dynamics 365 allowed for assemblies to refer to these interfaces, but to adhere to our security standards, changes to this behavior are required.
+ > Plugin and Workflow Assemblies must contain all the necessary logic within the respective dll.  Plugins may reference some core .Net assemblies. However, we do not support dependencies on .Net assemblies that interact with low-level Windows APIs, such as the graphics design interface. Previously, Dynamics 365 for Customer Engagement allowed for assemblies to refer to these interfaces, but to adhere to our security standards, changes to this behavior are required.
   
 ### See also
 
