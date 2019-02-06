@@ -200,14 +200,12 @@ Read-Host -Prompt 'Press any key to exit...'
 
 The PowerShell script file updates the following URLs to the **Allowed sites** section of the **Pop-up Blocker** settings. You can view and also add the the allowed sites manually by opening **Internet Explorer** > **Settings** > **Internet Options** > **Privacy**. Under the **Pop-up Blocker** section, select Settings and in the **Turn on Pop-up Blocker Settings** window, you can see the sites under the **Allowed sites** section.
 
- - *.core.windows.net
- - *.microsoftonline.com
- - *.office.com
- - *.powerbi.com
- - *.dynamics.com
- - *.crmdynint.com
- - *.azureedge.net
- - *.azurewebsites.net
+ - https://login.microsoftonline.com
+ - https://www.office.com
+ - <instance name>.powerbi.com
+ - <org name>.dynamics.com
+ - https://oc-cdn-public.azureedge.net
+ - https://oc-auth.azurewebsites.net
 
  Based on your organization requirements, you can add any other URLs in allowed sites along with the above-mentioned URLs.
 
@@ -224,14 +222,12 @@ Also, the PowerShell script updates the recommended Internet Explorer settings s
 
  4.	In the **Address of website to allow** field, specify one URL and select **Add**. <br>
     Add the following URLs:<br>
-   - *.core.windows.net
-   - *.microsoftonline.com
-   - *.office.com
-   - *.powerbi.com
-   - *.dynamics.com
-   - *.crmdynint.com
-   - *.azureedge.net
-   - *.azurewebsites.net
+    - https://login.microsoftonline.com
+    - https://www.office.com
+    - <instance name>.powerbi.com
+    - <org name>.dynamics.com
+    - https://oc-cdn-public.azureedge.net
+    - https://oc-auth.azurewebsites.net
 
   5. Select **Close**, and then select **OK**.
 
