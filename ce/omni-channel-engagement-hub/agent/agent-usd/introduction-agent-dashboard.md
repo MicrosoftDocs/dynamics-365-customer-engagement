@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-When you first sign in to Unified Service Desk, you see the **My Dashboard** page of Omni-channel Engagement Hub. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues, and conversations that you've completed during the last 24 hours.
+When you first sign in to Unified Service Desk, you see the **My Dashboard** page of Omni-channel Engagement Hub. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues and conversations that you've completed during the last 24 hours.
 
 The **Home** button on the **Session** tab provides quick navigation to the **My Dashboard** page. When you select this button, the dashboard appears on the **Application Management** tab.
 
