@@ -34,7 +34,7 @@ When you select the notes option from the communication panel, the application l
 
 ## Take notes for multi-session
 
-When you are working on multiple sessions, and while capturing notes, you switch the session. In this scenario, even though you did not add the notes, the notes are saved, and **Recent activities** timeline is updated. Again, if you want to switch back the session where you were taking notes, you must launch the notes panel and take the notes. After you add the notes, this notes will be appended to the previously added notes in the timeline.
+When you are working on multiple sessions, and while capturing notes, you switch the session. In this scenario, even though you did not add the notes, the notes are saved, and **Recent activities** timeline is updated. Again, if you want to switch back the session where you were taking notes, you must launch the notes panel and take the notes. After you add the notes, these notes will be appended to the previously added notes in the timeline.
 
 > [!div class="nextstepaction"]
 > [Next topic: View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
