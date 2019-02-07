@@ -310,7 +310,7 @@ The same logic that is applied to the requirement resource type attribute applie
 When running the schedule assistant on the requirement, presuming availability, the pool resource itself will not be presented to book since it is missing the required characteristic (**Electric Vehicle Mechanic**), but the pool member will be presented since the resource has the necessary characteristic for this job. The reason for this is that the pool members should have all the attributes expressed on the pool, but they may have additional attributes as well if they have specialties. Since not all the pool members have these additional attributes, like the **Electric Vehicle Mechanic**, if this requirement gets booked to the pool and the one pool member who has this characteristic is not available as the appointment time nears, what happens? Who will be assigned to this booking currently booked to the pool? You may not have other resources to pickup the work. Therefore, the idea is to book the actual resource itself to ensure that this unique job has coverage.
 
  
-## Additional Notes
+## Additional notes
 
 - Requirement groups can't be dragged and dropped or substituted 
 - When changing the working hours of a resource, capacity is not recalculated
