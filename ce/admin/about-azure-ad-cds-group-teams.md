@@ -122,7 +122,76 @@ This becomes especially important to differentiate where providing owner privile
 
 In the following example, although the user is granted read and write privileges as part of their team membership, this only applies to records that the team itself can access through ownership by the team. This therefore applies to Record Y and means the user can read or write Record Y.  This doesn’t, however, also automatically grant privileges directly to the user to records they can access directly. The user can therefore access Record X through their own direct read privileges, but this doesn’t mean they can write to that record because they don’t have write privileges directly as the user and they don’t inherit write privileges to records they own themselves from team assigned privileges.   
 
+Business Unit 
 
+Owner 
+Business Unit 
+TeamTeam Member 
+Privilege: Read, Write 
+Scope: Basic ( Owner)Privilege : Read Scope: Basic (Owner) Owner 
+Record X 
+Record Y 
+
+We will examine some scenarios that highlight these concepts but also clarify some of the considerations needed when defining privilege models.  
+
+Minimum privileges for signing in Before the user can act on any broader data, as part of signing in a minimum set of permissions are required for the user to be simply able to access the system itself. These privileges are required to be granted directly to the user through a security role assigned to the user. They can’t be inherited from a team security role because it’s the user, and not the team, who is accessing the system. These minimum privileges for access are: 
+- When signing in to Microsoft Dynamics CRM: 
+  - To render the home page, assign the following privileges on the Customization tab: Read Web Resource, Read Customizations.  
+  - To render an entity grid (that is, to view lists of records and other data): Read privilege on the entity, Read User Settings on the Business Management tab, and Read View on the Customization tab. 
+  - To view single entities in detail: Read privilege on the entity, Read System Form on the Customization tab, Create and Read User Entity UI Settings on the Core Records tab.  
+- When signing in to Microsoft Dynamics CRM for Outlook: 
+  - To render navigation for Dynamics CRM and all Dynamics CRM buttons: Read Entity and Read View on the Customizations tab. 
+  - To render an entity grid: Read privilege on the entity, Read Customizations and Read Web Resource on the Customization tab, and Read Saved View on the Core Records tab. 
+  - To render entities: Read privilege on the entity, Read System Form on the Customization tab, and Create, Read, and Write User Entity UI Settings on the Core Records tab.
+
+These minimum privileges are documented in the TechNet article, Create or edit a security role.  
+
+Basic creation assigned to the creating user Creating a record assigned to the current user highlights the core creation privileges required for creation as shown in the following diagram.  
+
+To create a record a user needs, at least, the following privileges. 
+- Definitely required • Create, Read: Basic scope 
+- Need the ability to create and view the created record. 
+- Because the record will be owned by the creating user only, Basic (or Owner) scope is required for these privileges. If a user has a deeper scope of privilege, such as Local/Deep/Organization, this would also work. However, at least Basic level of scope is required. 
+- May be required • Append: Basic scope 
+- If this record is linked to other records, Append privilege is also needed.  
+
+  Privilege: Create, Read, Append, AppendTo (if any records linked to this one) 
+  Scope: Basic ( i.e. owner) 
+  AppendTo: on any related records, linked to this 
+
+- Append To: 
+- If other records are linked to this one, AppendTo is also required.
+- The scope would depend where the other records exist. If the other records are also owned by the same user, Basic scope would suffice. If the records are in another business unit, wider permissions are needed, such as Organization scope, or via a team.  
+
+Creation of a record assigned to another owner Creating a record assigned to a different user highlights the need to consider these privileges:  
+1. The rights to create a record.  
+2. The ownership privileges in cases where the record needs to be assigned to a different user.  The following diagram shows the privileges needed by both the creating user and the user set as the owner.   
+
+Creating a record for another user requires privileges for both:  
+- The creator: confirming what and where they can create data. 
+- The person who is set as the owner: confirming they are entitled to own this data.  
+
+If we look at those two cases separately, each user would need: 
+- Creator: To create a record a user needs the same privileges as when creating the record for themselves, but differently scoped.  
+
+Business Unit 
+Privilege: Create, Read, Append, AppendTo (if any records linked to this one) 
+Scope: Local ( i.e. business unit) 
+AppendTo: on any related records, linked to this 
+Creator 
+Privilege: Read 
+Scope: Basic (i.e. owner) 
+Owner 
+
+- Instead of only “Basic” scoped data, the user needs “Local” scoped data to reflect that the data will be created in the same business unit rather than for them as the owner. 
+- Definitely required 
+- Create, Read: Local scope. 
+- May be required 
+- Append: Local scope. 
+- Append To: Scope dependent on record location. 
+- Owner: 
+- To own data the privileges the owner requires are: 
+- Read: Basic scope (as they will be the owner).  
 
 
 
