@@ -1,5 +1,5 @@
 ---
-title: "Install or upgrade Microsoft Dynamics 365 for Customer Engagement Server | Microsoft Docs"
+title: "Install or upgrade Microsoft Dynamics 365 Server | Microsoft Docs"
 ms.custom: 
 ms.date: 01/25/2019
 ms.prod: crm-2016
@@ -13,8 +13,9 @@ ms.assetid: 06fae39f-6455-46af-adf7-23b6a1793e93
 caps.latest.revision: 39
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
-# Install or upgrade Microsoft Dynamics 365 for Customer Engagement Server
+# Install or upgrade Microsoft Dynamics 365 Server
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -23,10 +24,10 @@ This section explains how to install [!INCLUDE[pn_microsoftcrm_server](../includ
 > [!IMPORTANT]
 >  There is additional information in the [Microsoft Dynamics 365 for Customer Engagement on-premises Readme](https://go.microsoft.com/fwlink/?linkid=2024795).  
   
-## Components installed during Dynamics 365 for Customer Engagement Server Setup  
+## Components installed during Dynamics 365 Server Setup  
  This section describes what is installed during [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] [!INCLUDE[pn_Setup](../includes/pn-setup.md)].  
   
-### Microsoft Dynamics 365 for Customer Engagement Server installed configuration components  
+### Microsoft Dynamics 365 Server installed configuration components  
  When you install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], by default Setup creates a folder structure under *SystemDrive*:\Program Files\Microsoft Dynamics CRM\\. Additional components are described in the table below.  
   
  All of the following web components are added during a Full Server role installation. During an individual role installation, fewer or none of these components are installed on the server.  

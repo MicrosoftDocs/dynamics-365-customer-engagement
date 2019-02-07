@@ -13,6 +13,7 @@ ms.assetid: fb4cfdb3-c71f-454e-8ae8-966a47106aaa
 caps.latest.revision: 25
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
 # Install Microsoft Dynamics 365 for Customer Engagement Reporting Extensions
 
@@ -73,5 +74,5 @@ ms.author: matp
     > -   The base language of the organization is different from the language in which [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] are being installed.  
   
 ## See also  
- [Microsoft Dynamics 365 for Customer Engagement Server installation](microsoft-dynamics-365-server-installation.md)   
+ [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md)   
 

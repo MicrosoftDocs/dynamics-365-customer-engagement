@@ -13,6 +13,7 @@ ms.assetid: 025396f7-bc98-44ba-9df9-677f0524edf3
 caps.latest.revision: 54
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
 # Update Dynamics 365 for Customer Engagement (on-premises)
 
@@ -23,7 +24,7 @@ With Dynamics 365 for Customer Engagement, you have several options that help ma
  Dynamics 365 for Customer Engagement server and desktop applications use two kinds of update technology:  
   
 -   **Setup updates**, which can be applied as part of the Setup process.  
-
+  
 -   **Application updates**, which are provided as an update package that can be automatically installed by using [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)].  
   
   
@@ -31,11 +32,11 @@ With Dynamics 365 for Customer Engagement, you have several options that help ma
 ## Dynamics 365 for Customer Engagement Setup update  
  Dynamics 365 for Customer Engagement Setup update, also known as *self-healing* Setup, makes sure that you have the latest version of Setup. By using this feature, you can update the Setup program, before it installs anything on the computer, for the following Dynamics 365 for Customer Engagement applications:  
   
--   Dynamics 365 for Customer Engagement Server  
+-   Dynamics 365 Server  
   
--   Dynamics 365 for Customer Engagement Reporting Extensions 
+-   Dynamics 365 Reporting Extensions 
   
--   Dynamics 365 for Customer Engagement Report Authoring Extensions  
+-   Dynamics 365 Report Authoring Extensions  
   
  To use Setup update, select **Get updates for Microsoft Dynamics 365 for Customer Engagement** during Setup.  For  Dynamics 365 for Outlook, Setup update applies the latest published update package at the end of Setup.  
   
