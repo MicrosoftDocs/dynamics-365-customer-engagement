@@ -45,7 +45,6 @@
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Resource crew scheduling](resource-crews.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
-## [Resource pool scheduling](resource-pools.md)
 ## [Facility scheduling](facility-scheduling.md)
 ## [Fulfillment preferences](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
