@@ -27,20 +27,20 @@ Omni-channel queues are proxies for skills or domains. For example, you can crea
 You can assign priority to queues. All conversations in a queue take the priority of the queue and higher priority conversations are allocated first. For example, if there are two chat conversations coming from two queues with priorities assigned as Priority 1 and Priority 2 respectively, chat conversation with Priority 1 will be allocated to an agent first.
 
 ## Default queue
-There is a default omni-channel queue for each organization. Admins can't delete the default queue. By default, all omni-channel users are members of the default queue. Therefore, the membership of this queue can't be changed.
+There is a default Omni-channel queue for each organization. Admins can't delete the default queue. By default, all Omni-channel users are members of the default queue. Therefore, the membership of this queue can't be changed.
 
   > [!NOTE]
   > When no queues or routing rules are defined, all conversations are collected in the **Default** queue.
 
-## Create a new omni-channel queue
+## Create a new Omni-channel queue
 
-Follow these steps to create a new omni-channel queue.
+Follow these steps to create a new Omni-channel queue.
 
-1. In the omni-channel site map, select **Work Distribution \> Omni-channel Queues**.
+1. In the Omni-channel site map, select **Work Distribution \> Omni-channel Queues**.
 
     The **Active Omni-channel Queue** view is shown.
 
-2. On the command bar, select **New** to create an omni-channel queue.
+2. On the command bar, select **New** to create an Omni-channel queue.
 3. On the **Summary** tab, in the **General Information** section, provide the following information:
 
     1. **Name**: Enter a name for the queue.

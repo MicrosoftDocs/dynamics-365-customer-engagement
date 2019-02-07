@@ -25,7 +25,7 @@ Quickly configure and add a chat widget to your portal to chat with your website
 
 ## Step 1: Create a live chat work stream
 
-1. In the omni-channel site map, go to **Work Streams** and select **New** from the command bar.
+1. In the Omni-channel site map, go to **Work Streams** and select **New** from the command bar.
 2. On the **Summary** tab of the new work stream page, provide the name of the work stream.
 3. In the **Stream source** drop-down list, select **Live chat** as the channel.
 4. Select **Save** to save the live chat work stream.

@@ -19,7 +19,7 @@ ms.custom:
 
 Unified routing and work distribution ensures that conversations from all the channels are routed to agents efficiently. This is a two-step process:
 
-1. Routing dispatches conversations into the right omni-channel queues.
+1. Routing dispatches conversations into the right Omni-channel queues.
 2. Work distribution allocates the conversations in a queue to agents in real time, based on capacity and presence.
 
 For example, a customer initiates a chat regarding a query about **Billing**. In this case, unified routing and work distribution helps route the chat to the **Billing** queue and assign the chat to an agent who is a member of the queue and has the required presence and required capacity. This is shown in the following illustration.

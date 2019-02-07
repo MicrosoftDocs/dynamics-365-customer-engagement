@@ -21,7 +21,7 @@ Omni-channel Engagement Hub is a cloud-based application that helps you extend t
 
 Omni-channel Engagement Hub provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
 
-Omni-channel Engagement Hub enables the following channels and capabilities for omni-channel users:
+Omni-channel Engagement Hub enables the following channels and capabilities for Omni-channel users:
 
 **Channels**
 
@@ -60,7 +60,7 @@ Follow these steps to set up Omni-channel Engagement Hub.
        > ![manage instances](../media/manage-instances.png)
 
        > [!IMPORTANT]
-       > As an admin, you can configure omni-channel on multiple org instances. You can view the status of all org instances where the omni-channel app has been configured in the **Manage Instances** view.
+       > As an admin, you can configure Omni-channel on multiple org instances. You can view the status of all org instances where the Omni-channel app has been configured in the **Manage Instances** view.
 
    3. Select the organization in the **Organization Selector** drop-down list. 
 
