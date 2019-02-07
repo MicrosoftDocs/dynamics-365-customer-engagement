@@ -29,7 +29,7 @@ You add or remove the fields from the form (section) by navigating to the respec
 
 4.  Select **Customer summary**, which is of the form type **Quick View Form**.
 
-5.  In the form, click the section you want to add a field to, and then in the **Field Explorer** pane, double-click the field you want add to the form. For example, double-click the **Address 1: Address Type** field from the **Field Explorer** pane. The field is added to section.
+5.  In the form, select the section for which you want to add a field, and then in the **Field Explorer** pane, double-click the field you want to add to the form. For example, double-click the **Address 1: Address Type** field from the **Field Explorer** pane. The field is added to the section.
 
  > [!div class=mx-imgBorder]
  > ![add or revmoe fields from Customer summary form](../media/oc-crm-add-remove-fields-customer360.png "Add or revmoe fields from Customer summary form")  
@@ -39,7 +39,7 @@ You add or remove the fields from the form (section) by navigating to the respec
 > [!TIP]
 > To create a new quick view form, see [How to create a quick view form](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#create-a-quick-view-form)  
 
-You can also use the previous procedure to add or remove fields in other forms (cards). In step 3, select the entity that is shown in the following table, and then, in step 4, select the quick view form that is shown. Then follow steps 5 through 6
+You can also use the previous procedure to add or remove fields in other forms (cards). In step 3, select the entity that is shown in the following table, and then, in step 4, select the quick view form that is shown. Then follow steps 5 through 6.
 
 | **Card**         | **Entity**         | **Quick View Form** |
 |------------------|--------------------|----------------------|
