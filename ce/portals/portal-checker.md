@@ -47,6 +47,8 @@ If required, you can rerun the diagnostic checks, which will refresh the results
 > [!NOTE]
 > If portal is turned off or IP address filtering is enabled, certain diagnostic checks will not be run on your portal.
 
+For a list of common issues diagnosed by the portal checker tool, see [Common portal issues and best practices](portal-checker-faq.md).
+
 To run the diagnostic tool:
 
 1.	Go to the **Dynamics 365 Administration Center** page and select the **Applications** tab.
