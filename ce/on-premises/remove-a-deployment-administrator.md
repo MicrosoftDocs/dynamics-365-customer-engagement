@@ -13,6 +13,7 @@ ms.assetid: 3e2a84a5-53ca-46e3-8958-c5c20beedc57
 caps.latest.revision: 14
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
 # Remove a Deployment Administrator
 
