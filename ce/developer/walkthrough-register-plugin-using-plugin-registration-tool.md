@@ -85,13 +85,6 @@ This walkthrough demonstrates how to register a plug-in by using the Plug-in Reg
    ![A registered plug&#45;in shown in the tree view](media/crm-v6s-pr-registered-plugin.PNG "A registered plug-in shown in the tree view")  
    A registered plug-in shown in the tree view  
 
-   > [!TIP]
-   >  Do you see an error in the **Log** area and the log contains the following message?  
-   >   
-   >  `<Message>Action failed for assembly 'SamplePlugins, Version=0.0.0.0, Culture=neutral, PublicKeyToken=829f574d80e89132': Deployment/Scalegroup does not allow running external code.</Message>`  
-   >   
-   >  If so, you must enable custom code on the server and try again. For more information see [Enable or Disable Custom Code Execution](register-deploy-plugins.md#bkmk_enablecode).  
-
    The SamplePlugins.dll assembly and FollowupPlugin plug-in are now registered and deployed to the server. If you used the tool to register a custom workflow activity assembly, the next section on registering a step does not apply.  
 
 ### Register a plug-in step for an event  
