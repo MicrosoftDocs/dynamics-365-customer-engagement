@@ -43,23 +43,9 @@ After doing this the resulting paragraph should contain text `this is my new par
 
 The localization files containing labels are not bundeled up with the application themselves. They need to be hosted independently. 
 
-If you are using [Dynamics 365 Portal hosting](#Dynamics 365 Portal hosted), then the script `DeployToDynamics365Instance.ps1` will take care to put the localization file to the right place. In that case point the `localizationEndpoint` environment setting to the `localization/` path as shown in provided `environment.d365.ts` sample environment.
+If you are using [Dynamics 365 Portal hosting](portal-hosted.md), then the script `DeployToDynamics365Instance.ps1` will take care to put the localization file to the right place. In that case point the `localizationEndpoint` environment setting to the `localization/` path as shown in provided `environment.d365.ts` sample environment.
 
-If you are using [self-hosted](#Self hosted) approach, then you need to choose yourself where do you want to host the files (they can of course be on the same server as the application), and then you should modify `localizationEndpoint` environment setting to point to that location.
-
-### Backend customization
-
-Most of the customization possibilities for the Event Management application are found on the front-end, but there is also a use case when customizer adds a new field to the existing Event Management entity and would like to see that field in the website. For example if `custom_new_field` field is added to the `evtmgmt_pass` entity. The passes for the event can be retrieved using API enpoint `api/v1.0/events/{readableEventId}/passes`, but the result won't contain newly added field. To expose the new fields to be visible in API, you should do the following:
-
-1. Open your Dynamics 365 instance.
-1. Open Advanced Find view
-1. Select `Website Entity Configuration` entity and hit results button
-1. Create new record
-1. Enter a name that will be meaningful to you
-1. Select the entity that you want an extra field to be visible for (`Pass` in this example)
-1. Write a Json array that contains the extra custom fields that should be visible through the API. In this example: `["custom_new_field"]`. Be careful to form proper Json. 
-
-This should expose your new custom field throught the API and you should be able to utilize it in the front-end.
+If you are using [self-hosted](self-hosted.md) approach, then you need to choose yourself where do you want to host the files (they can of course be on the same server as the application), and then you should modify `localizationEndpoint` environment setting to point to that location.
 
 ## See also
 
