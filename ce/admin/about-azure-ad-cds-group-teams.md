@@ -49,12 +49,12 @@ Pre-requisites:
 
 Log into the instance that you need to create the team. 
 
-1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions. 
-   Check your security role 
+1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions. <br/> 
+   Check your security role: 
    - Follow the steps in [View your user profile](../basics/view-your-user-profile.md). 
    - Don’t have the correct permissions? Contact your system administrator. 
 
-2. Go to **Settings** > **Security**. 
+2. Go to **Settings** > **Security**. <br/>
    (In Microsoft Dynamics 365 for Outlook, go to **Settings** > **System** > **Security**.) 
 
 3. Click **Teams**.
@@ -75,6 +75,20 @@ Log into the instance that you need to create the team.
     If you don’t select the business unit to which the team will belong, by default, the root business unit is selected. The root business unit is the first business unit created for an organization. 
 
 ## Assign a security role to the AAD Group team 
+
+1. On the current Team form that you just saved, select **Manage Roles** on the ribbon.
+2. Select the security role that was created for the team.
+3. Select **OK**.
+
+## Team members are dynamically added/removed during runtime 
+
+When team members log into the instance, they are dynamically added/removed from the AAD Group team based on their membership in the AAD Group.  Team members of the AAD Group automatically inherit the privileges of the AAD Group’s security role when performing transactions. 
+
+Team members are also automatically created in the instance if they have not already been synced into the instance.  A default security role is assigned to the user during the user record creation.  The default security role is based on the user license and instance type, eg for CDS default environment, the CDS User security role is assigned. 
+
+## Security role’s inherited privileges 
+
+
 
 
 
