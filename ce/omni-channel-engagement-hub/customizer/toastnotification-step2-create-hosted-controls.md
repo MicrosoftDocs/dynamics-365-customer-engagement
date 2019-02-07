@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-1. Sign in to Microsoft Dynamics 365.
+1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
 
 2. Go to **Settings** > **Unified Service Desk**. 
 
@@ -32,6 +32,8 @@ ms.custom:
 
  > [!div class=mx-imgBorder] 
  > ![Omni-channel toast notification hosted control](../media/oc-usd-toastnotification-hostedcontrol.png "Omni-channel toast notification hosted control")
+
+5. Save the form.
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 3: Create events](toastnotification-step3-create-the-events.md)
