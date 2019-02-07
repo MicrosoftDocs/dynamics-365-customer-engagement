@@ -31,6 +31,6 @@ For synchronous plug-ins, whether registered in the sandbox or not, the [!INCLUD
   
 ### See also  
  [Plug-in Development](plugin-development.md)   
- [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in.md)   
+ [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)   
  [Debug a Plug-in](debug-plugin.md)   
  [Handle Exceptions in Your Code](org-service/handle-exceptions-code.md)

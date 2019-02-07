@@ -48,4 +48,4 @@ This is a sample custom plug-in that can post the pipeline execution context to 
  <xref:Microsoft.Xrm.Sdk.IPlugin>   
  <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext>   
  <xref:Microsoft.Xrm.Sdk.ITracingService>   
- [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in.md) 
+ [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in) 
