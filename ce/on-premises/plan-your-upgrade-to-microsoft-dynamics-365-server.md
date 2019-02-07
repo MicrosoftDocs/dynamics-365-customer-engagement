@@ -1,5 +1,5 @@
 ---
-title: "Plan your upgrade to Microsoft Dynamics 365 for Customer Engagement Server | Microsoft Docs"
+title: "Plan your upgrade to Microsoft Dynamics 365 Server | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: crm-2016
@@ -13,8 +13,9 @@ ms.assetid: 1755c489-1b3e-490e-acfb-d1ff68384ff4
 caps.latest.revision: 55
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
-# Plan your upgrade to Microsoft Dynamics 365 for Customer Engagement Server
+# Plan your upgrade to Microsoft Dynamics 365 Server
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -46,7 +47,7 @@ This section provides guidelines for preparing for an upgrade to [!INCLUDE [pn-d
   
 -   **Migrate by using the same instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)].** This option requires a different computer for [!INCLUDE [pn-dynamics-365-server-v-90](../includes/pn-dynamics-365-server-v-90.md)], but will upgrade in-place the configuration and default organization databases using the same instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. If issues occur during the upgrade, you must roll back to the previous  version to avoid significant downtime.  
   
--   **In-place upgrade.** Although this option doesn’t require a different computer for [!INCLUDE [pn-dynamics-365-server-v-90](../includes/pn-dynamics-365-server-v-90.md)] or a different instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], it poses the greatest risk if upgrade issues occur because a rollback and reinstall of the previous version of Dynamics 365 for Customer Engagement Server will be required to avoid potential downtime.  
+-   **In-place upgrade.** Although this option doesn’t require a different computer for [!INCLUDE [pn-dynamics-365-server-v-90](../includes/pn-dynamics-365-server-v-90.md)] or a different instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], it poses the greatest risk if upgrade issues occur because a rollback and reinstall of the previous version of Dynamics 365 Server will be required to avoid potential downtime.  
   
  For the latest product information, see the [Microsoft Dynamics 365 for Customer Engagement, version 9.0 Readme](https://go.microsoft.com/fwlink/?linkid=2020048).  
   
@@ -103,10 +104,11 @@ This section provides guidelines for preparing for an upgrade to [!INCLUDE [pn-d
 <!--  
 ## Next steps  
  Read more about upgrade in the following topics:  
+  
 -   [Before you upgrade: issues and considerations](before-you-upgrade-issues-and-considerations.md)  
--   [Upgrade the Microsoft Dynamics 365 for Customer Engagement Server](upgrade-the-microsoft-dynamics-deployment.md)  
+-   [Upgrade the Microsoft Dynamics 365 Server](upgrade-the-microsoft-dynamics-deployment.md)  
 -   [Upgrade Microsoft Dynamics CRM for Outlook](../outlook-addin/admin-guide/upgrade.md)  -->
   
-## See also  
+## See Also  
 [Import an organization](import-an-organization.md)
 

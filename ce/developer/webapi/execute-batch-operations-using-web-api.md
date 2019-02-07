@@ -61,9 +61,6 @@ Content-Transfer-Encoding:binary
 --batch_WKQS9Yui9r--  
 ```  
   
-> [!NOTE]
->  The odata.continue-on-error preference is not supported by the web API. Any error that occurs in the batch will stop the processing of the remainder of the batch.  
-  
 <a name="bkmk_ChangeSets"></a>
 
 ## Change sets

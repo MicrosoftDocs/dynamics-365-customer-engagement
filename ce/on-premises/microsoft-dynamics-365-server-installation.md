@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Dynamics 365 for Customer Engagement Server installation | Microsoft Docs"
+title: "Microsoft Dynamics 365 Server installation | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: crm-2016
@@ -13,14 +13,15 @@ ms.assetid: 8a64a413-857f-40bd-b12b-f2c3fd68c591
 caps.latest.revision: 20
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
-# Microsoft Dynamics 365 for Customer Engagement Server installation
+# Microsoft Dynamics 365 Server installation
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 This section covers procedures to install [!INCLUDE [pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)] on a computer that doesn’t already have [!INCLUDE [pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)] installed.  
   
-### Install Microsoft Dynamics 365 for Customer Engagement Server  
+### Install Microsoft Dynamics 365 Server  
   
 1.  Verify that you have completed the necessary planning and that you have the required hardware and software components installed and running. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Planning your deployment of Microsoft Dynamics 365 for Customer Engagement](planning-your-deployment-of-microsoft-dynamics-365.md)  
   
@@ -49,7 +50,7 @@ This section covers procedures to install [!INCLUDE [pn-microsoftcrm-server](../
  
   
 ## See also  
- [Install or upgrade Dynamics 365 for Customer Engagement Server](install-or-upgrade-microsoft-dynamics-365-server.md) </br>  
+ [Install or upgrade Dynamics 365 Server](install-or-upgrade-microsoft-dynamics-365-server.md) </br>  
  <!-- [Upgrading Microsoft Dynamics CRM Server](upgrading-microsoft-dynamics-crm-server.md) </br> -->
  [Install Dynamics 365 for Outlook](../outlook-addin/admin-guide/install.md) </br> 
 
