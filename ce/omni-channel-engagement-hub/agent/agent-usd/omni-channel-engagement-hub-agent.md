@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Omni-channel Engagement Hub for agents
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 Omni-channel Engagement Hub is a single interface for various communication channels. As an agent, you can use queues to manage the work items that are assigned to you via queues. Therefore, you can focus on the tasks at hand and ensure better customer service. The application empowers you to work on simultaneous conversations with multiple customers. You get a holistic view of a customer's data and can see the details of the customer's previous interactions. In this way, you can be sure that you have all the available information that you might need to resolve the customer's issue.
 

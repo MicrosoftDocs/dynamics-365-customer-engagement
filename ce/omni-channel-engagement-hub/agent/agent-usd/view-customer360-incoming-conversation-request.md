@@ -14,7 +14,7 @@ ms.custom:
 ---
 # View customer summary for an incoming conversation request
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 ## Scenario 1: Incoming conversation request for an existing customer record that already has a case in Omni-channel Engagement Hub  
 

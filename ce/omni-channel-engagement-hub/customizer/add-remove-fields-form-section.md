@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Add or remove the fields in a form (section)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 You add or remove the fields from the form (section) by navigating to the respective entities and quick view forms.
 

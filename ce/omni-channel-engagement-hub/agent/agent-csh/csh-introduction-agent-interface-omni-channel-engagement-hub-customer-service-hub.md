@@ -15,7 +15,7 @@ ms.custom:
 
 # Introduction to the agent interface of Omni-channel Engagement Hub in Customer Service Hub app
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 When you sign in to Customer Service Hub app, the Omni-channel Engagement Hub interface has the following components:
 

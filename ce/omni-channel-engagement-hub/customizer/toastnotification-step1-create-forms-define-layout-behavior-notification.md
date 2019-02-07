@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Step 1: Create forms to define the layout and behavior of the notification 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance. 
 

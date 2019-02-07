@@ -15,7 +15,7 @@ ms.custom:
 
 # View conversation and session form in Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 Your organization might have a classification where certain agents work in the contact center, which uses Omni-channel Engagement Hub on the web and certain agents work in another contact center, which uses Dynamics 365 for Customer Engagement apps. In this case, if you are an agent who works on Dynamics 365 for Customer Engagement apps and you need to analyze the conversation request from Omni-channel Engagement Hub on the web, you can find the information through **Activities** in Dynamics 365 for Customer Engagement apps.
 

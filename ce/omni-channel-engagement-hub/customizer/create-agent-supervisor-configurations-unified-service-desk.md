@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Create agent and supervisor configurations in Unified Service Desk
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 A configuration in Unified Service Desk helps you filter access to components that are shown to users in the Omni-channel Engagement Hub application. Follow these steps to create an agent configuration and a supervisor configuration.
 

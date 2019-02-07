@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Customize the conversation forms
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 As a system customizer, you might want to customize the conversation forms to suit your business requirements for the agents who use Omni-channel Engagement Hub and Common Data Service for Apps. You can customize the following forms:
 

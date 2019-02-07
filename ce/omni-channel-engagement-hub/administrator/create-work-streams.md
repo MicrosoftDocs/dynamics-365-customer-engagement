@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Create and manage work streams
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 This topic explains how you can create a live chat work stream and a CDS entity work stream in the Omni-channel Engagement Hub.
 

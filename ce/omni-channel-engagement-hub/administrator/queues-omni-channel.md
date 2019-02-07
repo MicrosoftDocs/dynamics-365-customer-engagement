@@ -15,7 +15,7 @@ ms.custom:
 
 # Work with queues in Omni-channel Engagement Hub
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 Omni-channel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS or entity records like Cases or Leads. Agents are added as queue members to the queues and the workload is distributed among these agents.
 

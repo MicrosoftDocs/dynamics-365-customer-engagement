@@ -15,7 +15,7 @@ ms.custom:
 
 # Navigation bar of Omni-channel Engagement Hub in Customer Service Hub app
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 > [!div class=mx-imgBorder]
 > ![Navigation bar of Omni-channel Engagement Hub in Customer Service Hub app](../../media/csh-navigation-bar.png "Navigation bar of Omni-channel Engagement Hub in Customer Service Hub app")  
