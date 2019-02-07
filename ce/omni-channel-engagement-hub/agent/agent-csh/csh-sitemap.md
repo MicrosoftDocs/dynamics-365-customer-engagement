@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-The sitemap is a place for you to access the customer service record types. By default, the sitemap is in expanded mode. To collapse the sitemap, select the Sitemap icon ![Sitemap icon](../../media/sitemap-icon.PNG "Sitemap icon").
+A sitemap is a place for you to access the customer service record types. By default, the sitemap is in expanded mode. To collapse the sitemap, select the Sitemap icon ![Sitemap icon](../../media/sitemap-icon.PNG "Sitemap icon").
 
  > [!div class=mx-imgBorder]
  > ![Sitemap of Omni-channel Engagement Hub in Customer Service Hub app](../../media/csh-sitemap-oc.png "Sitemap of Omni-channel Engagement Hub in Customer Service Hub app")  
@@ -26,7 +26,7 @@ The Sitemap displays the following record types:
 
 - **Dashboards**
 
-  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working on. There are several dashboards tailored for your role. To see the other dashboards, select the drop-down list next to **My dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **My Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application. The dashboard displays the following forms:
+  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working. There are several dashboards tailored for your role. To see the other dashboards, select the drop-down list next to **My dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **My Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application. The dashboard displays the following forms:
 
    - My work items
    - Open work items
@@ -34,7 +34,7 @@ The Sitemap displays the following record types:
 
 - **Activities**
 
-  Activities help you keep track of all your customer communications in the form of **Conversation** and **Session** record types. Activities are the details of interactions between the customer and you, such as history of the conversation, transcript of the conversation, session details, and more.
+  Activities help you keep track of all your customer communications in the form of **Conversation** and **Session** record types. Activities are the details of the interactions between the customer and you, such as the history of the conversation, a transcript of the conversation, session details, and more.
 
 - **Accounts**
 
@@ -42,11 +42,11 @@ The Sitemap displays the following record types:
 
 - **Contacts**
 
-  Contact records help you manage and store information about the customers you work with. Usually, multiple contacts work in the same organization, and as a result you can associate these contacts with the account (organization).
+  Contact records help you manage and store information about the customers you work with. Usually, multiple contacts work in the same organization, and as a result, you can associate these contacts with the account (organization).
 
 - **Social Profiles**
 
-  Social profiles are the profiles that a contact or account of the customer has on social media. You use the social profiles to interact with the customer on social media and track all the conversations in Common Data Service for apps.
+  Social profiles are the profiles that contact or account of the customer has on social media. You use the social profiles to interact with the customer on social media and track all the conversations in Common Data Service for apps.
 
 - **Cases**
 
@@ -54,7 +54,7 @@ The Sitemap displays the following record types:
 
 - **Queues**
 
-  Queues are the route where the cases are assigned to you. Your organization creates queues and agents based on the business requirement. This ensures that you get conversations (work items) from the queues to which you are added as an member (agent). You can view and work on the conversations only to the queues you are assigned as a member (agent).
+  Queues are the route where the cases are assigned to you. Your organization creates queues and agents based on the business requirement. This ensures that you get conversations (work items) from the queues to which you are added as a member (agent). You can view and work on the conversations only to the queues you are assigned as a member (agent).
 
 - **Knowledge articles**
 

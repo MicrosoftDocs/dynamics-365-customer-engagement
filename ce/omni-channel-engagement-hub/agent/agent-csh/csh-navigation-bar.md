@@ -20,7 +20,7 @@ ms.custom:
 > [!div class=mx-imgBorder]
 > ![Navigation bar of Omni-channel Engagement Hub in Customer Service Hub app](../../media/csh-navigation-bar.png "Navigation bar of Omni-channel Engagement Hub in Customer Service Hub app")  
 
-The navigation bar also called as main menu is a place where you can navigate between different apps. Also, it displays the navigation you perform to different sitemap records in the form of a bread crumb. The bread crumb displays the module (Service), record type and record.
+The navigation bar also called as the main menu is a place where you can navigate between different apps. Also, it displays the navigation you perform to different sitemap records in the form of a bread crumb. The bread crumb displays the module (Service), record type and record.
 
 Selecting the **>** icon on the record type shows you a list of the recent records of the same type you have worked on. 
 

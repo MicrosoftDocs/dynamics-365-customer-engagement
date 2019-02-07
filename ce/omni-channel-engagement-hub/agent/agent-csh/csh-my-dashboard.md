@@ -33,7 +33,7 @@ In this stream, you see the conversations (work items) that you are actively wor
 
 ### Open work items
 
-In this stream, you see the conversations (work items) in a waiting state from all queues that are available for you to pick from. You can see the conversations (work item) for the work streams where you are added as a member. Select the ellipses and select the **Pick** option to assign the work item to yourself. When you select **Pick**, the system moves the work item from the **Open work items** stream to the **My work items** stream and you can see the message **Work item picked successfully. Work item: < subject of work item >**. 
+In this stream, you see the conversations (work items) in a waiting state from all queues that are available for you to pick. You can see the conversations (work item) for the work streams where you are added as a member. Select the ellipses and select the **Pick** option to assign the work item to yourself. When you select **Pick**, the system moves the work item from the **Open work items** stream to the **My work items** stream, and you can see the message **Work item picked successfully. Work item: < subject of work item >**. 
 
 ### Closed work items
 

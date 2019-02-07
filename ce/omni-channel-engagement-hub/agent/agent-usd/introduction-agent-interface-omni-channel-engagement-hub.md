@@ -45,7 +45,7 @@ The Omni-channel toolbar also called as default global toolbar as the components
 
 ### Search
 
-The **Search** button lets you to search for records and open them in a new active session. You can use the **Search** button to search for the following types of records:
+The **Search** button lets you search for records and open them in a new active session. You can use the **Search** button to search for the following types of records:
 
  - Case
 
@@ -55,14 +55,14 @@ The **Search** button lets you to search for records and open them in a new acti
 
  - Phone call
 
--   Task Email
+ - Task Email
  
  > [!div class=mx-imgBorder]
  > ![omni-channel search](../../media/oc-usd-search.png "Omni-channel search")  
 
 ### Create
 
-The **Create** button provides a list of related options (entities), so that you can access existing entities and create new entities.
+The **Create** button provides a list of related options (entities) so that you can access existing entities and create new entities.
 
 ### Settings
 
@@ -88,7 +88,7 @@ Best practices are the guidelines about system configurations, Unified Service D
 Presence is the indication of your (agent) availability or status.
 
 Presence status is updated in two ways: 
-- **Manually** - You can change the status manually according your availability.<br>Select on the presence text to view all the presence statuses and update your status manually. 
+- **Manually** - You can change the status manually according to your availability.<br>Select on the presence text to view all the presence statuses and update your status manually. 
 
   > [!div class=mx-imgBorder]
   > ![Omni-channel presence status](../../media/oc-usd-presence.png "Omni-channel presence status")
@@ -105,9 +105,9 @@ Out-of-the-box you see the following presence statuses:
 
 - **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity.
 
-  a. When your capacity is completely utilized the presence is set to **BusyDND**.
-  b. When your capacity is partially utilized the presence is set to **Busy**. 
-  c. When your capacity is not utilized the presence is set to **Available**.
+  a. When your capacity is completely utilized the presence is set to **BusyDND**.<br>
+  b. When your capacity is partially utilized the presence is set to **Busy**. <br>
+  c. When your capacity is not utilized the presence is set to **Available**.<br>
 
 ## Session management toolbar
 
@@ -118,7 +118,7 @@ Each session in the Unified Service Desk client is shown on the session tab tool
 
 ## Application management toolbar
 
-The application management toolbar lets you see the all the related information for a session. For example, you can use this toolbar to open the **My Dashboard** page, search, use Customer summary, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
+The application management toolbar lets you see all the related information for a session. For example, you can use this toolbar to open the **My Dashboard** page, search, use Customer summary, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
 
 > [!div class=mx-imgBorder]
 > ![Omni-channel application management toolbar](../../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar") 

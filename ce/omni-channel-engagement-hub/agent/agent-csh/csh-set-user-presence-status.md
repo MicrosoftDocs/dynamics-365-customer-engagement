@@ -22,7 +22,7 @@ Presence is the indication of your (agent) availability or status.
 ## Update your presence status
 
 Presence status is updated in two ways: 
-- **Manually** - Change the status manually according your availability.<br> To view and set the presence, select the status icon at the bottom-right corner and then select the status from the list to update your status manually. The list shows five standard presence statuses: 
+- **Manually** - Change the status manually according to your availability.<br> To view and set the presence, select the status icon at the bottom-right corner and then select the status from the list to update your status manually. The list shows five standard presence statuses: 
 
   - Available
   - Away
@@ -37,9 +37,9 @@ Presence status is updated in two ways:
 
 - **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity.
 
-  a. When your capacity is completely utilized the presence is set to **BusyDND**.
-  b. When your capacity is partially utilized the presence is set to **Busy**. 
-  c. When your capacity is not utilized the presence is set to **Available**.
+  a. When your capacity is completely utilized the presence is set to **BusyDND**.<br>
+  b. When your capacity is partially utilized the presence is set to **Busy**. <br>
+  c. When your capacity is not utilized the presence is set to **Available**.<br>
 
 > [!div class="nextstepaction"]
 > [Next topic: View notifications and screen pops](csh-notifications-screen-pops.md) 
