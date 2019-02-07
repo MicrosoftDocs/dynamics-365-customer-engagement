@@ -88,6 +88,40 @@ Team members are also automatically created in the instance if they have not alr
 
 ## Security role’s inherited privileges 
 
+image
+
+### Privileges
+
+The concept of a privilege in Dynamics CRM is an important one as privileges are used to define the entitlement to perform an action as well as the range of records against which that privilege applies.   
+
+The privilege itself defines either: 
+- A type of record and the type of action that can be performed on that record, such as write permission to the Account entity. 
+- Or an action the user can perform in Dynamics CRM, such as actions in a CRM mobile app.  
+
+The level of a privilege defines the scope of that privilege. 
+- Basic: Applies to records owned by the user or team that the privilege is linked to. 
+- Local: Applies to records in the same business unit as the security principal that the privilege is linked to. 
+- Deep: Applies to records in the same business unit as the security principal that the privilege is linked to or any of the child business units. 
+- Organization: Applies to all records in the organization.  
+
+Security roles are used to manage collections of related privileges, which can then be assigned collectively to a security principal. The security principals are either a user or a team.   
+
+Security roles, therefore, are intended to assist with the process of administration and granting of privileges, not to grant rights to users directly. A scenario that often comes up in customization design is how to check whether a user is entitled to perform a particular action, perhaps a custom action. While it may be tempting to check a user for a security role, an approach that is better aligned with the way that the platform works is to check whether the user has a particular privilege granted by using a security role. As will be shown later, privileges granted to a user are cached. There are many standard mechanisms of the product that allow a privilege to be directly checked. Using privileges rather than roles to control a particular action is a more efficient way to manage a user’s activity in the application.   
+
+The privileges for a security role apply to the security principal they are linked to. 
+- If actions and the related privileges directly apply to or on behalf of a user, the user needs those privileges granted directly. For example: 
+  - When logging onto the system it is the user that is logging on and therefore the user that needs the initial privileges for access. 
+  - Providing owner privileges to a team security role doesn’t apply to the records the user owns even if the user is a member of that team.  
+  - If the security role is linked to a team, that privilege applies to the team, and is therefore applied in the context of that team.   
+
+This becomes especially important to differentiate where providing owner privileges to a team security role doesn’t give access to the records the user owns, even if the user is a member of that team. 
+- Where the privileges can equally apply to the user or the team, but having one does not infer the other: o Create privileges at a basic scope for a team means that records can be created with the team as the owner. 
+  - But for the user to also be able to create records they own, that user must have Create privileges at a basic scope through their own security roles. The Team basic scope creation privilege to create records owned by the team does not infer the User basic scope creation privilege to create records owned by the user. 
+- Where the privileges do not apply equally to a user or team. For example, only a user can sign in to the system or access views in the UI: 
+  - Privileges for these user actions need to be held in a security role linked to the user, not in a team security role, where the actions are not applicable to the team. 
+
+In the following example, although the user is granted read and write privileges as part of their team membership, this only applies to records that the team itself can access through ownership by the team. This therefore applies to Record Y and means the user can read or write Record Y.  This doesn’t, however, also automatically grant privileges directly to the user to records they can access directly. The user can therefore access Record X through their own direct read privileges, but this doesn’t mean they can write to that record because they don’t have write privileges directly as the user and they don’t inherit write privileges to records they own themselves from team assigned privileges.   
+
 
 
 
