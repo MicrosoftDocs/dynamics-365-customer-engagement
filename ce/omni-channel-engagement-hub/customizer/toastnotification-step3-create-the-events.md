@@ -26,7 +26,7 @@ Create the following events: 
 
 Follow these steps to create the events.
 
-1. Sign in to Dynamics 365. 
+1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance. 
 
 2. Go to **Settings** > **Unified Service Desk**. 
 

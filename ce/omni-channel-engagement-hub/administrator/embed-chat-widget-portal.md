@@ -48,7 +48,7 @@ After the chat widget is configured, it has the following capabilities:
 
 - **Maximized mode**: A user can maximize the chat widget to start a conversation with an agent.
 
-- **System events**: System-generated messages are shown for events, such as when an agent joins a chat or a chat is transferred to another agent.
+- **System events**: System-generated messages are shown for events, such as when an agent joins a chat, or a chat is transferred to another agent.
 
     > [!div class=mx-imgBorder]
     > ![System events in the chat widget](../media/chat-widget-system-events.png "System events in the chat widget")
@@ -62,7 +62,7 @@ After the chat widget is configured, it has the following capabilities:
 - **End chat**: A customer can end the chat by selecting the **Close chat** button. A confirmation message is displayed before ending the chat.
 
 > [!NOTE]
-> For advanced configuration like embedding chat widget on specific web pages, see [Manage portal content](../../portals/manage-portal-content.md)
+> For advanced configuration like embedding chat widget on specific web pages, see [Manage portal content](../../portals/manage-portal-content.md).
 
 ### See also
 

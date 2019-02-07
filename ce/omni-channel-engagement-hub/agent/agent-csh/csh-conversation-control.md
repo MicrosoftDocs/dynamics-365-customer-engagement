@@ -31,17 +31,17 @@ The landing page explains some of the key features of Omni-channel Engagement Hu
 
 In communication panel, you can see the following options:
  
- | Option           | Description                                   |
- |------------------|-----------------------------------------------|
- | Public           | Send messages to public |
- | Internal         | Send messages to internal users |
- | Customer summary | View customer summary |
- | Quick replies    | Send templatized messages  |
- | Notes            | Take notes specific to conversation |
- | Knowledge articles | Search for knowledge articles and share |
- | Link to conversation | Link the record to this conversation |
- | Consult          | View list to consult with other users | 
- |  Transfer        | View list to transfer the request |
+| Annotation | Option     | Description                                   |
+|------|------------------|-----------------------------------------------|
+|  1   | Public           | Send messages to public |
+|  2   | Internal         | Send messages to internal users |
+|  3   | Customer summary | View customer summary |
+|  4   | Quick replies    | Send templatized messages  |
+|  5   | Notes            | Take notes specific to conversation |
+|  6   | Knowledge articles | Search for knowledge articles and share |
+|  7   | Link to conversation | Link the record to this conversation |
+|  8   | Consult          | View list to consult with other users | 
+|  9   |  Transfer        | View list to transfer the request |
 
 ### Send messages using Public and Internal mode
 
@@ -96,7 +96,12 @@ To learn more, see [Search for and share knowledge articles](csh-search-knowledg
 
 ### Link to conversation
 
-When you have a conversation with a customer, you can link the conversation to the record (case or account/contact). To learn more, see [Search and link a record to the conversation](csh-search-link-record.md)
+When you have a conversation with a customer, you can link the conversation to the record (case or account/contact). 
+
+> [!div class=mx-imgBorder]
+ > ![Use the link to conversation option to launch the link the conversation to a record](../../media/csh-cc-options-elippsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
+
+To learn more, see [Search and link a record to the conversation](csh-search-link-record.md)
 
 ### Consult with agent or supervisor
 

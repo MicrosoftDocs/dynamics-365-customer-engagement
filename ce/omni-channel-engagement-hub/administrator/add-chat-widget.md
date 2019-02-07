@@ -30,7 +30,7 @@ ms.custom:
         > [!NOTE]
         > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
         
-        3. Copy the value in the **Code snippet** section, and embed it in the HTML source of your website.
+        3. Copy the value in the **Code snippet** section and embed it in the HTML source of your website.
         
         > [!div class=mx-imgBorder]
         > ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")

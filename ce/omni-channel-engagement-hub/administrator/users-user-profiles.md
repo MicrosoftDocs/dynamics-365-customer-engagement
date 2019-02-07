@@ -17,18 +17,18 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-All Dynamics 365 users who are assigned the **Omni-channel administrator**, **Omni-channel supervisor**, or **Omni-channel agent** security role are enabled for omni-channel and become omni-channel users.
+All Dynamics 365 users who are assigned the **Omni-channel administrator**, **Omni-channel supervisor**, or **Omni-channel agent** security role are enabled for Omni-channel and become Omni-channel users.
 
 For more information on how to create users and assign security roles, see [Assign roles and enable users for Omni-channel Engagement Hub](add-users-assign-roles.md).
 
-Navigate to **Omni-channel Administration > User Management > Users** to view the list of omni-channel users in the **Omni-channel Users** view.
+Navigate to **Omni-channel Administration > User Management > Users** to view the list of Omni-channel users in the **Omni-channel Users** view.
 
 > [!div class=mx-imgBorder] 
 > ![Omni-channel users](../media/omni-channel-users.png)
 
-## Manage a user in omni-channel
+## Manage a user in Omni-channel
 
-1. In the omni-channel site map, select **User Management \> Users**.
+1. In the Omni-channel site map, select **User Management \> Users**.
 
     The **Omni-channel Users** view is shown. 
 
