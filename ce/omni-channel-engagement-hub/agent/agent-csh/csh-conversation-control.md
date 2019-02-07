@@ -31,17 +31,17 @@ The landing page explains some of the key features of Omni-channel Engagement Hu
 
 In communication panel, you can see the following options:
  
- | Option           | Description                                   |
- |------------------|-----------------------------------------------|
- | Public           | Send messages to public |
- | Internal         | Send messages to internal users |
- | Customer summary | View customer summary |
- | Quick replies    | Send templatized messages  |
- | Notes            | Take notes specific to conversation |
- | Knowledge articles | Search for knowledge articles and share |
- | Link to conversation | Link the record to this conversation |
- | Consult          | View list to consult with other users | 
- |  Transfer        | View list to transfer the request |
+| Annotation | Option     | Description                                   |
+|------|------------------|-----------------------------------------------|
+|  2   | Public           | Send messages to public |
+|  3   | Internal         | Send messages to internal users |
+|  4   | Customer summary | View customer summary |
+|  5   | Quick replies    | Send templatized messages  |
+|  6   | Notes            | Take notes specific to conversation |
+|  7   | Knowledge articles | Search for knowledge articles and share |
+|  8   | Link to conversation | Link the record to this conversation |
+|  9   | Consult          | View list to consult with other users | 
+|  10  |  Transfer        | View list to transfer the request |
 
 ### Send messages using Public and Internal mode
 
