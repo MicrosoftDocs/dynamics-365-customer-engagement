@@ -15,6 +15,8 @@ ms.custom:
 
 # Add a chat widget
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** &gt; **Work Streams**.
 3. Select **New** to create a work stream.
