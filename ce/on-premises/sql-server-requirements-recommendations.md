@@ -1,19 +1,19 @@
 ---
-title: "SQL Server requirements and recommendations for Microsoft Dynamics 365 for Customer Engagement | Microsoft Docs"
-ms.custom: 
-ms.date: 10/01/2018
-ms.prod: crm-2016
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
+title: "SQL Server requirements and recommendations for Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/01/2018"
+ms.prod: "crm-2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
-  - Dynamics CRM 2016
+  - "Dynamics 365 (on-premises)"
 ms.assetid: be02a7d8-d0a6-44b2-8e45-7216bb7045e5
 caps.latest.revision: 26
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
 # SQL Server requirements and recommendations for Microsoft Dynamics 365 for Customer Engagement
 
@@ -46,7 +46,7 @@ The following requirements and recommendations apply to new and existing install
   
 -   We recommend that the computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] be located on the same local area network (LAN) as the computer that is running the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles. <!-- For a description of the server roles, see [Microsoft Dynamics 365 for Customer Engagement server roles](microsoft-dynamics-365-server-roles.md). --> 
   
--   The computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] must be configured to have sufficient disk space, memory, and processing power to support the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] environment. For more information, see [Microsoft Dynamics 365 for Customer Engagement Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md).  
+-   The computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] must be configured to have sufficient disk space, memory, and processing power to support the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] environment. For more information, see [Microsoft Dynamics 365 Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md).  
   
 -   Although it’s optional, consider accepting the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] default settings for Collation Designator, Sort Order, and SQL Collation. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports the following collation orders:  
   
@@ -110,5 +110,5 @@ The following requirements and recommendations apply to new and existing install
 -->
   
 ## See also  
-[Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 for Customer Engagement Server](sql-server-hardware-requirements-dynamics-365-server.md)
+[Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 Server](sql-server-hardware-requirements-dynamics-365-server.md)
 

@@ -13,6 +13,7 @@ ms.assetid: 54cc820e-ddb6-4c0f-803f-eed5093359c7
 caps.latest.revision: 14
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
 # Using Windows PowerShell to perform Deployment Manager tasks
 
@@ -42,7 +43,7 @@ PS > Add-PSSnapin Microsoft.Crm.PowerShell
 Get-Help *Crm*  
 ```  
   
- For detailed help for a specific cmdlet, use Get-Help *CRMCmdlet* –full, such as the `Import-CRMOrganization` cmdlet.  
+ For detailed help for a specific a cmdlet, use Get-Help *CRMCmdlet* –full, such as the `Import-CRMOrganization` cmdlet.  
   
 ```  
 Get-Help Import-CRMOrganization  
