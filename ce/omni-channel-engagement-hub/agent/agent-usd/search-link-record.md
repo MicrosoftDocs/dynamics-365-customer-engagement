@@ -122,7 +122,7 @@ You can search for omni-channel records by using the search functionality. When 
  - Address 1: ZIP/Post Code
  - Case Number
 
-3. Select **Search**. The list of search results appear.
+3. Select **Search**. The search results appear.
 
 ## Link a record
 

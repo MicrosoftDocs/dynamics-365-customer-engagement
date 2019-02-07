@@ -122,7 +122,7 @@ Search the Omni-channel records using the search option. When you select the Sea
  - Address 1: ZIP/Post Code
  - Case Number
 
-3. Select **Search** and the search list appears.
+3. Select **Search**. The search results appear.
 
  ![Search account record using Omni-channel search](../../media/csh-oc-search-record-account.png "Search account record using Omni-channel search") 
 

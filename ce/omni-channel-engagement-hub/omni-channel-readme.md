@@ -41,11 +41,11 @@ If your organization has deployed a third party channel provider using the Dynam
 ## Support for knowledge articles when using Edge Process in Unified Service Desk
 When you use Edge Process in Unified Service Desk, agents cannot open knowledge articles from knowledge Base search control.  
  
-## Support for automatic record linking to converstion 
+## Support for automatic record linking to conversation 
 After agent creates a customer (contact/account) or case record using the quick create (+) option when in a session, it is not auto-linked to the conversation. As a workaround, agent can search for the newly created record using omni-channel search and link it to the conversation manually. 
 
 ## Dialog prompt in Unified Service Desk
-When an agent logs in to Unified Service Desk client application, the client application shows a dialog to close the window. Agent must select **Yes** to proceed working in Unified Service Desk.
+When an agent logs on to Unified Service Desk client application, the client application shows a dialog to close the window. Agent must select **Yes** to proceed working in Unified Service Desk.
 
 ## Authentication error for different agent credentials
 If agent is logged into Office 365 or Dynamics 365 through a different username in the browser (IE or Edge) than the one used for USD login, an authentication error is shown and user is not allowed to login. As a workaround, user should logout from all other accounts on the browser and try logging back in. 
