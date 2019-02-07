@@ -68,7 +68,7 @@ Follow these steps to set up Omni-channel Engagement Hub.
         > ![select org](../media/select-org.png)
 
        
-      You must select the check-boxes for **Microsoft Privacy Statement** and **Terms and Conditions** to accept the terms and proceed with the set up. You can read the privacy and preview conditions by selecting them in the **Terms & Conditions** section. 
+      You must select the checkboxes for **Microsoft Privacy Statement** and **Terms and Conditions** to accept the terms and proceed with the set up. You can read the privacy and preview conditions by selecting them in the **Terms & Conditions** section. 
 
         > [!div class=mx-imgBorder]
         > ![Preview terms](../media/preview-terms.png)

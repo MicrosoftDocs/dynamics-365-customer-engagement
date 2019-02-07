@@ -140,7 +140,7 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
 
     ![create flow](../media/create-flow.png)
 
-12. Search for the **Dynamics 365 - When a record is created** trigger, and select it.
+12. Search for the **Dynamics 365 - When a record is created** trigger and select it.
 
     ![Record connector](../media/record-connector.png)
 

@@ -68,7 +68,7 @@ At this point, routing and work distribution mechanism comes in.
     - Has the required capacity of **50 units**
     - Presence should be **Available**
 
-In this case, **Bert** has the required capacity and presence so the chat is assigned to **Bert**. As Bert starts working on the chat conversation,  his presence changes to **Busy** and his capacity is updated to **30 units**.
+In this case, **Bert** has the required capacity and presence, so the chat is assigned to **Bert**. As Bert starts working on the chat conversation,  his presence changes to **Busy** and his capacity is updated to **30 units**.
 
 ### Adjusting an agent's capacity based on conversation allocation
 
