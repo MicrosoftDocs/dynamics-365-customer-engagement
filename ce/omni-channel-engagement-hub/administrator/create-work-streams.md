@@ -98,17 +98,17 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
 2. Go to **Settings \> Custom Connectors**, and then select **Create Custom Connector** to create a custom connector.
 
     ![custom connector](../media/custom-connector-settings.png)
+    
+3. On the **Create Custom Connector** menu, select **Import an API file**  
 
-3. Enter the name for the custom connector.
+4. Enter a name for the custom connector, import **CSS-Entity.swagger.json** file and continue.
 
     ![Custom connector name](../media/custom-connector-name.png)
-
-4. On the **Create Custom Connector** menu, select **Import an API file** and import **CSS-Entity.swagger.json** file. 
-
+    
     > [!NOTE]
     > You can get **CSS-Entity.swagger.json** file from Insider portal. 
 
-5. Update the host name in the **General Information** section in the following format: </br>
+5. Update the host name in the **General** tab in the following format: </br>
     *https://**orguniquename**-public.omnichannelengagementhub.com*
 
     You can get **orguniquename** from  [Organization unique name](../../developer/developer-resources-page.md#organization-unique-name).
@@ -116,7 +116,7 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
     > [!div class=mx-imgBorder] 
     > ![update host name](../media/update-host-name.png)
 
-6. Select **Test** to test the connector.
+6. Go to **Test** tab to test the connector.
 
 1. Select **Create connector** to create a new connector.
 
@@ -126,10 +126,10 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
 8. Provide the following information, and then select **Test Operation** to test the connection:
 
       1. **Organization ID**: Enter your organization ID.
-      2. **Work stream ID**: Enter the ID of your work stream. You can get the work stream ID. 
-      3. **Entity logical name**: Enter the logical name of the CDS entity  that must be routed.
-      4. **Entity set name**: Enter the entity name of the CDS entity that must be routed. (Typically, this is a plural form of the logical name.)
-      5. **Record ID**: Use the Dynamics content to select the ID field.
+      2. **Work stream ID**: Enter the ID of work stream configured in Dynamics 365. You can get this id from URL of the work stream record page.  
+      3. **Entity logical name**: Enter the logical name of the CDS entity that you choose to be routed.
+      4. **Entity set name**: Enter the set name of the CDS entity that you choose to be routed. (Typically, this is a plural form of the logical name.)
+      5. **Record ID**: Enter the ID of work stream entity configuration record, configured in Dynamics 365. You can get this id from URL of the work stream entity configuration record page.
       6. **Relationship name with work stream**: Enter the name of the entity relationship with the work stream. You can get this relationship name from **Settings** > **Customizations** > **Entities**.
 
          ![Connector details](../media/connector-details.png)
@@ -146,25 +146,23 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
 
     ![Record connector](../media/record-connector.png)
 
-13. Select **New Step \> Add an action**. Search for your custom connector, and then select the action.
-2. Provide the following information:
+13. Select **New Step \> Add an action**. Search for the custom connector you configured, and then select the action to send entity information.
+14. Provide the following information:
 
-      1. **Entity Logical Name**: Enter the name of the CDS entity that must be routed.
-      2. **Entity Set Name**: Enter the entity name of the CDS entity that must be routed. (Typically, this is a plural form of the logical name.)
-      3. **Record ID**: Use the Dynamics content to select the ID field.
-      4. **Name of Entity Relationship With**: Enter the name of the entity relationship with the work stream (for Incident **incident\_msdyn\_ocliveworkitems**).
-      5. **Record details**: Use the Dynamics content. Select **value-key-item-output**.
+      1. **Entity Logical Name**: Enter the logical name of the CDS entity that you choose to be routed.
+      2. **Entity Set Name**: Enter the set name of the CDS entity that you choose be routed. (Typically, this is a plural form of the logical name.)
+      3. **Record ID**: Use 'Add dynamic content' option to search for and select entity name. For example for case entity select **Case** from dyanmic content 
+      4. **Name of Entity Relationship With**: Enter the name of the entity relationship with the work stream. You can get this relationship name from **Settings** > **Customizations** > **Entities**. For example for case entity the relationship name would be  **incident\_msdyn\_ocliveworkitems**.
+      5. **Record details**: Use 'Add dynamic content' option and select **value-key-item-output**.
       6. **Organization ID**: Enter the ID of your organization.
-      7. **Work Stream ID**: Enter the ID of your work stream.
+      7. **Work Stream ID**: Enter the ID of work stream configured in Dynamics 365. You can get this id from URL of the work stream record page.
 
          ![connector action](../media/connector-action.png)
          
-16. After all the information is entered, select **Test** to test the flow. Then select **I'll perform the trigger action and save the flow**.
+16. After all the information is entered, save and select **Test** to test the flow. Then select **I'll perform the trigger action and save the flow**.
 
-    To test the flow with the entity, follow these steps:
-
-    1. Create a new record for the entity that you've selected to route.
-    2. Keep the record page filled in CDS entity. Immediately after you select **Save & test**, go to CDS entity, and save the record. (If you don't save the record immediately, the test operation might miss it.)
+    To test the flow with the entity, create a new record for the entity that you've selected to route.
+   
 
         After a successful run, you should see the following page.
 
@@ -172,7 +170,6 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
         ![Test saved connector](../media/save-connector.png)
 
 
-Flow has been configured to route CDS entity to Omni-channel. You can now route CDS entities to the Omni-channel Engagement Hub using Microsoft Flow.
 
 ### See also 
 
