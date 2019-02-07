@@ -37,10 +37,10 @@ To accomodate this scenario, we will create a pool to represent the pediatrician
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing where to find the Active Bookable Resources grid](../field-service/media/qs-1-img28.png)
 
-   2. Set **Resource Type** to **Pool**. A new field will appear called “Pool Type.”
+   2. Set **Resource Type** to **Pool**. A new field will appear called **Pool Type**
    3. Set **Pool Type** to **Account, Contact, User** because this pool will consist of people resources (pediatricians, in our example).
       1. Note that pool types can either be set to: Facility, Equipment, or any combination of Account/Contact/User.
-      2. We recommended creating homogenous pools. Since you may not be naming specific resources at all, set up pools in a way that the resources who are named later can actually fulfill the backlog of work scheduled to the pool. For example, if you schedule a “facility” requirement to a pool, the pool should consist of of facility resources who can later be assigned.
+      2. We recommended creating homogenous pools. Since you may not be naming specific resources at all, set up pools in a way that the resources who are named later can actually fulfill the backlog of work scheduled to the pool. For example, if you schedule a facility requirement to a pool, the pool should consist of of facility resources who can later be assigned.
    4. Enter a **Name**.
    5. Select a **Time Zone**.
 
