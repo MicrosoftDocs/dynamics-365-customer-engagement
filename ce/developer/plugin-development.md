@@ -39,6 +39,8 @@ A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[
   
  [Debug a Plug-in](debug-plugin.md) 
 
+ [Access external web resources](access-web-resources.md)  
+
  [Offline plug-in execution](support-offline-execution.md)  
   
 ## Related Sections  

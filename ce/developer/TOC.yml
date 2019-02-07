@@ -190,6 +190,8 @@
           href: register-deploy-plugins.md
         - name: Debug a plug-In
           href: debug-plugin.md
+        - name: Access external web resources
+          href: access-web-resources.md
         - name: Offline plug-in execution
           href: support-offline-execution.md
           items:

@@ -73,74 +73,8 @@ Depending on your plug-in’s design, your plug-ins may require other referenced
 > [!IMPORTANT]
 > For non-isolated plug-ins, failure to include the registering user account in the **Deployment Administrators** group results in an exception being thrown during plug-in registration. The exception description states "Not have enough privilege to complete Create operation for an SDK entity."  
 
- For plug-ins registered in the sandbox (isolation mode), the system user account under which the plug-in is being registered must have the System Administrator or System Customizer role. Membership in the **Deployment Administrators** group is not required.  
+ For plug-ins registered in the sandbox (isolation mode), the system user account under which the plug-in is being registered must have the System Administrator role. Membership in the **Deployment Administrators** group is not required.  
   
-<a name="bkmk_registerprog"></a>
-
-## Register Plug-ins Programmatically
-
- You can programmatically register plug-ins and custom workflow activities with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps by writing registration code using certain entity classes. The key entity types used to register plug-ins and images are:    `PluginAssembly`,    `PluginType`,  `SdkMessageProcessingStep`, and `SdkMessageProcessingStepImage`. The key entity types used to register custom workflow activities are `PluginAssembly` and `PluginType`. Use these entities with the create, update, retrieve, and delete operations.
-
- For more information on images, see [Understand the execution context](/powerapps/developer/common-data-service/understand-the-data-context.md).  
-
-<a name="bkmk_enablecode"></a>
-
-## Enable or Disable Custom Code Execution
-
- You can use [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] to enable or disable custom code, including plug-ins and custom workflow activities, on the server as described here. Alternatively, you can use the Deployment Web service. For more information, see [Deployment Entities and Deployment Configuration Settings](https://msdn.microsoft.com/library/gg328063.aspx) to set the `CustomCodeSettings`.<xref:Microsoft.Xrm.Sdk.Deployment.CustomCodeSettings.AllowExternalCode> property.
-
-### To enable custom code execution
-
-1. Open a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command window.
-
-2. Add the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps PowerShell snap-in:
-
-    ```powershell
-    Add-PSSnapin Microsoft.Crm.PowerShell
-    ```
-
-3. Retrieve the current setting:
-
-    ```powershell
-    $setting = get-crmsetting customcodesettings
-    ```
-
-4. Modify the current setting:
-
-    ```powershell
-    $setting.AllowExternalCode="True"
-    set-crmsetting $setting
-    ```
-
-5. Verify the setting:
-
-    ```powershell
-    get-crmsetting customcodesettings
-    ```
-
-### To disable custom code execution
-
-1. Open a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command window.
-2. Add the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps PowerShell snap-in:
-    ```powershell
-    Add-PSSnapin Microsoft.Crm.PowerShell
-    ```
-3. Retrieve the current setting:
-    ```powershell
-    $setting = get-crmsetting customcodesettings
-    ```
-
-4. Modify the current setting:
-    ```powershell
-    $setting.AllowExternalCode=0
-    set-crmsetting $setting
-    ```
-
-5. Verify the setting:
-    ```powershell
-    get-crmsetting customcodesettings
-    ```
-
 ### See also
 
  [Plug-in Development](plugin-development.md)<br />

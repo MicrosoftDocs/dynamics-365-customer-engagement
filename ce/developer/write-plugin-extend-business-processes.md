@@ -40,8 +40,6 @@ A plug-in is custom business logic that you can integrate with [!INCLUDE[pn_dyna
 > [!NOTE]
 > In this documentation release, the plug-in documentation that is common to all [!INCLUDE[pn_dynamics_365](../includes/pn-dynamics-365.md)] deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to developing plug-ins for an on-premises or Internet Facing Deployment (IFD). To learn about plug-in development, start by reading the plug-in [documentation](/powerapps/developer/common-data-service/apply-business-logic-with-code) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
   
- You can also extend the functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] by using processes. For more information, see the related link below.  
-  
 ## In This Section  
 [Plug-in Development](plugin-development.md)
   
