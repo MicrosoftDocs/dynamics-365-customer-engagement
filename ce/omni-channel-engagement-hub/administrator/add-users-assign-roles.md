@@ -1,7 +1,7 @@
 ---
-title: Assign roles and enable users for Omni-channel Engagement Hub | MicrosoftDocs
-description: Know how to assign roles and enable users for Omni-channel Engagement Hub
-keywords: enable users; Omni-channel Engagement Hub; assign roles
+title: Enable users for Omni-channel and assign roles | MicrosoftDocs
+description: Know how to enable users for Omni-channel and assign roles in the Omni-channel Engagement Hub
+keywords: users and user profiles; Omni-channel Engagement Hub; user roles
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -37,41 +37,52 @@ Follow these steps to assign Omni-channel roles to users in the Dynamics 365 web
     > [!div class=mx-imgBorder]
     > ![user roles](../media/user-roles.png)
 
-To view and manage Omni-channel users, see [Manage users in Omni-channel Engagement Hub](users-user-profiles.md).
+To view and manage omni-channel users, see [Manage users in Omni-channel Engagement Hub](users-user-profiles.md).
 
 ## Understand roles and their privileges 
 
 Each role in Omni-channel Engagement Hub can perform a set of actions based on the privileges. 
 
-
-
-||Area     |User Management |Custom Presence|Work Streams |Queues |    Quick Replies   | Operating Hours | Authentication Settings |
-|---------|---------|---------|---------|---------|--------|---------|---------| ---------|
-|**Role**        |         |         |         ||
-|**Omni-channel Administrator** |         | - Can view user list </br> - Can edit roles of a user </br> - Can edit default presence and default capacity of a user </br> - Can edit queue assignment of a user|  - Can view/add/edit/delete presence </br> - Can add/remove users from presence     |  - Can view/add/edit/delete work streams </br> - Can add/edit/delete channel settings </br> - Can add/edit/delete routing rules </br> - Can add/edit/delete presence associations|  - Can view/add/edit/delete queues </br> - Can add/remove agents from queues | - Can view/add/edit/delete quick replies| - Can view/add/edit/delete operating hours | - Can view/add/edit/delete auth settings|
-
-
-
-
-
-
-
-
-|**Omni-channel Supervisor** |         |         |         ||
-|**Omni-channel Agent** |         |         |         ||
-
-
-
-
-
-
-
-
-
-
-
-
-
+|                        Area         |  Operation |  Omni-channel administrator                 |    Omni-channel supervisor                       |    Omni-channel agent                      |
+|---------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------|---------------------------|----------------------------------|
+|    **User Management**           |    View user list|    Yes                    |     Yes  |     Yes |
+|            |    Edit roles of a user |    Yes                    |     No                |      No              |
+|            |    Edit default presence of a user|    Yes                    |     Yes                |      No              |
+|            |    Edit default capacity of a user|    Yes                    |     Yes                |      No              |
+|            |    Edit queue assignment of a user|    Yes                    |     Yes                |      No              |
+|    **Custom Presence**      |    View presence list|    Yes   |     Yes  |     Yes |
+|            |    Add presence |    Yes                    |     No                |      No              |
+|            |    Delete presence|    Yes                    |     No                |      No              |
+|            |    Edit presence|    Yes                    |     No                |      No              |
+|            |   Add users to presence|    Yes                    |     Yes                |      No              |
+|            |   Remove users from presence|    Yes                    |     Yes                |      No              |
+| **Work streams** |    View work stream list/details|    Yes   |     Yes  |     Yes |
+|        |    Add work stream |    Yes      |     No   |      No |
+|        |    Edit work stream details |    Yes      |     No   |      No |
+|        |    Delete work stream |    Yes      |     No   |      No |
+|        |    Add/edit/delete channel settings |    Yes      |     No   |      No |
+|        |    Add/edit/delete context settings |    Yes      |     No   |      No |
+|        |    Add/edit/delete routing rules |    Yes      |     No   |      No |
+|        |    Add/edit/delete presence associations |    Yes      |     No   |      No |
+|    **Queues**      |    View queue list/details|    Yes   |     Yes  |     Yes |
+|            |    Add queue |    Yes                    |     No                |      No              |
+|            |   Edit queue details|    Yes                    |     No                |      No              |
+|            |    Delete queues|    Yes                    |     No                |      No              |
+|            |  Add agents to queue|    Yes                    |     Yes                |      No              |
+|            |   Remove agents from queue|    Yes                    |     Yes                |      No              |
+|    **Quick Replies**      |    View quick replies|    Yes   |     Yes  |     Yes |
+|            |   Add quick replies |    Yes                    |     Yes                |      No              |
+|            |   Edit quick replies|    Yes                    |     Yes                |      No              |
+|            |   Delete quick replies|    Yes                    |     Yes                |      No              |
+|    **Operating Hours**      |    View operating hours|    Yes   |     Yes  |     No |
+|            |   Add operating hours |    Yes                    |     No                |      No              |
+|            |   Edit operating hours|    Yes                    |     No                |      No              |
+|            |   Delete operating hours|    Yes                    |     No                |      No              |
+|    **Authentication Settings**      |    View authentication settings|    Yes   |     No  |     No |
+|            |   Add authentication settings |    Yes                    |     No                |      No              |
+|            |   Edit authentication settings|    Yes                    |     No                |      No              |
+|            |   Delete authentication settings|    Yes                    |     No                |      No              |
+|||
 
 
 ### See also
