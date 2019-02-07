@@ -17,8 +17,6 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Omni-channel Engagement Hub is a cloud-based application that helps you extend the power of Microsoft Dynamics 365 for Customer Service. It lets customer service agents instantly connect to and engage with their customers, so that they can quickly resolve the queries.
-
 Omni-channel Engagement Hub provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
 
 Omni-channel Engagement Hub enables the following channels and capabilities for Omni-channel users:
@@ -31,6 +29,33 @@ Omni-channel Engagement Hub enables the following channels and capabilities for 
 
 - [Unified routing and work distribution](unified-routing-work-distribution.md)
 - [Enhanced agent experience](../agent/agent-usd/omni-channel-engagement-hub-agent.md)
+
+> [!IMPORTANT]
+> Ensure that you are the **Global Tenant Admin** of your Dynamics 365 org to be able to provision the Omni-channel Engagement Hub application. </br> </br>Before you can provison the app, as a **Global Tenant Admin**, you must [Allow sideloading of external apps in Microsoft Teams](#allow-sideloading-of-external-apps-in-microsoft-teams) and [Provide data access consent](#provide-data-access-consent). 
+
+## Allow sideloading of external apps in Microsoft Teams
+
+To allow sideloading of external apps in Microsoft Teams, follow the below steps:
+
+1. Go to [Microsoft 365 admin center](https://portal.office.com/adminportal/home#/homepage).
+2. Select **Settings** > **Services & add-ins** > **Microsoft Teams**.
+3. Expand **Apps** in **Tenant-wide settings**.
+4. In the **External Apps** section, for the **Allow sideloading of external apps** option, switch the toggle button position to **On**.
+
+For more information, see [Admin settings for apps in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/admin-settings).
+
+## Provide data access consent
+
+To allow Omni-channel Engagement Hub to read and write data on behalf of users, follow the below steps:
+
+1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/?linkid=2070932).
+2. Login using **Global Tenant Admin** credentials.
+3. Select the checkbox **Consent on behalf of your organization**.
+4. Select **Accept** to grant data access consent.
+
+    > [!div class=mx-imgBorder]
+    > ![Grant consent](../media/data-consent.png)
+
 
 ## Provision Omni-channel Engagement Hub application
 

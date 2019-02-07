@@ -46,20 +46,6 @@ Your organization needs the following Office 365 license:
 >
 > - To assign the licenses, you must have the **Global Tenant Admin** access. 
 
-### Allow sideloading of external apps in Microsoft Teams
-
-To allow sideloading of external apps in Microsoft Teams, follow the steps:
-
-1. Go to [Microsoft 365 admin center](https://portal.office.com/adminportal/home#/homepage).
-2. Select **Settings** > **Services & add-ins** > **Microsoft Teams**.
-3. Expand **Apps** in **Tenant-wide settings**.
-4. In the **External Apps** section, for the **Allow sideloading of external apps** option, switch the toggle button position to **On**.
-
-To learn more, see [Admin settings for apps in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/admin-settings)
-
-> [!NOTE]
-> To allow sideloading of external apps, you must have the **Global Tenant Admin** access.
-
 ## System and hardware requirements of Omni-channel Engagement Hub - Preview with web experience
 
 | Area | Requirements | 
