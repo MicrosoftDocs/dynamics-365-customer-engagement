@@ -96,7 +96,12 @@ To learn more, see [Search for and share knowledge articles](csh-search-knowledg
 
 ### Link to conversation
 
-When you have a conversation with a customer, you can link the conversation to the record (case or account/contact). To learn more, see [Search and link a record to the conversation](csh-search-link-record.md)
+When you have a conversation with a customer, you can link the conversation to the record (case or account/contact). 
+
+> [!div class=mx-imgBorder]
+ > ![Use the link to conversation option to launch the link the conversation to a record](../../media/csh-cc-options-elippsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
+
+To learn more, see [Search and link a record to the conversation](csh-search-link-record.md)
 
 ### Consult with agent or supervisor
 
