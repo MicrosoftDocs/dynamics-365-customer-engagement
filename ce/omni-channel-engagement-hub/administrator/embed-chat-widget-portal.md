@@ -48,7 +48,7 @@ After the chat widget is configured, it has the following capabilities:
 
 - **Maximized mode**: A user can maximize the chat widget to start a conversation with an agent.
 
-- **System events**: System-generated messages are shown for events, such as when an agent joins a chat or a chat is transferred to another agent.
+- **System events**: System-generated messages are shown for events, such as when an agent joins a chat, or a chat is transferred to another agent.
 
     > [!div class=mx-imgBorder]
     > ![System events in the chat widget](../media/chat-widget-system-events.png "System events in the chat widget")
