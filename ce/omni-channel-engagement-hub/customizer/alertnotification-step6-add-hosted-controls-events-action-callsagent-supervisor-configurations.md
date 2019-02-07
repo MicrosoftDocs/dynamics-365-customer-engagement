@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-1. Sign in to Microsoft Dynamics 365.
+1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
 
 2. Go to **Settings** > **Unified Service Desk** > **Configuration**.
 
@@ -24,9 +24,9 @@ ms.custom:
 
 4. On the navigation bar, select the down arrow next to **Configuration**, and then select **Action Calls**.
 
-5. On the next page, select **Add Existing Action Call**, type the name of the action in the search bar, and then press **Enter** or select the search icon.
+5. On the next page, select **Add Existing Action Call**, type the name of the action in the search bar and then press **Enter** or select the search icon.
 
-6. Add the Action calls that are shwon in the search results.
+6. Add the Action calls that are shown in the search results.
 
 7. Repeat steps 3 through 6 to add the hosted controls and the events by selecting the down arrow next to Configuration, and selecting Hosted Controls and Events, respectively.
 
