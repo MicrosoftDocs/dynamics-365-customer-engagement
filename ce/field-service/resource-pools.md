@@ -2,8 +2,8 @@
 title: "Resource Pool Scheduling | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 12/31/2018
-ms.reviewer: ""
+ms.date: 2/08/2018
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,10 +13,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -28,16 +28,16 @@ search.app:
 
 # Resource Pools
 
-Resource Pool Scheduling allows you to assemble groups of similar resources to manage capacity and give schedulers the option to assign specific resources at a later time. 
+Resource pool scheduling allows you to assemble groups of similar resources to manage capacity and give schedulers the option to assign specific resources at a later time. 
 
-The major reasons for implementing Resource Pool scheduling are:
+Resource pool scheduling is useful for several scenarios, including:
 
--	Avoid being forced to book specific resources up front and instead book the “resource pool” while ensuring you are not overcommitting
-> - **Example:** A hotel must search for generic room availability but travelers are not assigned a specific room until they arrive at the hotel.  
+-	To avoid being forced to book specific resources up front, and instead book the “resource pool” while ensuring no overcommitment
+    **Example:** A hotel must search for generic room availability but travelers are not assigned a specific room until they arrive at the hotel.  
 -	Enable central schedulers to be shielded from details and leave the details to a local resource manager
-> - **Example:** Customers make laptop repair appointments by calling a central dispatch service who books appointments at Microsoft Retail stores countrywide. Each morning the manager of the local store assigns specific specialists.
+    **Example:** Customers make laptop repair appointments by calling a central dispatch service who books appointments at Microsoft Retail stores countrywide. Each morning the manager of the local store assigns specific specialists.
 -	Specific resources may not be named yet but capacity of the pool is established, and resources will be named later. Schedulers can still schedule since capacity of the pool can be set as if all the resources were named. 
-> - **Example:** A tradeshow offers different booth options to sponsors. Capacity of booths is considered when booking, but specific booths can be confirmed later. Organizers can take reservations well in advance of having a defined floor layout. In fact, the layout may even be decided based on how many reservations there are! 
+    **Example:** A tradeshow offers different booth options to sponsors. Capacity of booths is considered when booking, but specific booths can be confirmed later. Organizers can take reservations well in advance of having a defined floor layout. In fact, the layout may even be decided based on how many reservations there are! 
 -	Deliberately enable overbooking for expected cancellations
 > - **Example:** A doctor's office has a fixed number of rooms to help patients but may inflate capacity and schedule more appointments than rooms to account for cancellations.
 
@@ -59,7 +59,7 @@ To configure this scenario, we will create a pool to represent the pediatrician 
 
 ### 1. Create a resource pool
    
-   1. From the Field Service or Universal Resource Scheduling solutions, navigate to **Resources** > **Active Bookable Resources** view > click **+New**.  
+   1. From either the Field Service or Universal Resource Scheduling solution, navigate to **Resources** > **Active Bookable Resources** view > click **+New**.  
 
 
 > [!div class="mx-imgBorder"]
@@ -359,8 +359,3 @@ Reassign the hotel pool bookings to specific rooms via the three methods describ
 
 ### Pools vs. Crews: when to use each?
 - One main difference between pools and crews is crews are expected to do work together and bookings cascade (at least by default). This means scheduling a crew will create bookings for crew members, whereas booking a pool does not create bookings for pool members. Additionally, crews can be a compilation of different types of resources such as a person and a piece of equipment. In contrast, pools are designed to be homogeneous meaning entirely people, equipment, or facilities.
-
-
-
-.
-
