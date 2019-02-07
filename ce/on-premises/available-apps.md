@@ -13,6 +13,7 @@ ms.assetid: e3e8a7d4-54ac-423b-a168-2c28678f9ef6
 caps.latest.revision: 24
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
 # Available apps for Dynamics 365 for Customer Engagement for Customer Engagement (on-premises) 
 
