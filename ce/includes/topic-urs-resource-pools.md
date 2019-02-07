@@ -2,7 +2,7 @@ Resource pool scheduling allows you to assemble groups of similar resources to m
 
 Resource pool scheduling is useful for several scenarios, including:
 
--	To avoid being forced to book specific resources up front, and instead book the “resource pool” while ensuring no overcommitment. For example, a hotel must search for generic room availability, but travelers are not assigned a specific room until they arrive at the hotel.  
+-	To avoid being forced to book specific resources up front, and instead book the “resource pool” while ensuring no over-commitment. For example, a hotel must search for generic room availability, but travelers are not assigned a specific room until they arrive at the hotel.  
 
 -	To shield central schedulers from details, and leave those details to a local resource manager. For example, customers make laptop repair appointments by calling a central dispatch service, who books appointments at Microsoft Retail stores countrywide. Each morning, the manager of the local store assigns specific specialists.
 
@@ -24,7 +24,7 @@ To use resource pool scheduling, you'll need Universal Resource Scheduling (URS)
 
 In our first scenario, the office staff at a health clinic wants to book patient appointments with pediatricians. Because there are five pediatricians working each day, the office staff must ensure that no more than five appointments are scheduled during any single time slot. However, though appointments are booked weeks or even months in advance, specific pediatricians are not assigned to an appointment until the day before because of variable schedules. 
 
-To accomodate this scenario, we will create a pool to represent the pediatricians, schedule appointments to the pediatrician pool, and then reassign appointments to specific doctors within the pool. 
+To accommodate this scenario, we will create a pool to represent the pediatricians, schedule appointments to the pediatrician pool, and then reassign appointments to specific doctors within the pool. 
 
 ### Step 1: Create a resource pool
    
@@ -40,7 +40,7 @@ To accomodate this scenario, we will create a pool to represent the pediatrician
    2. Set **Resource Type** to **Pool**. A new field will appear called **Pool Type**
    3. Set **Pool Type** to **Account, Contact, User** because this pool will consist of people resources (pediatricians, in our example).
       1. Note that pool types can either be set to: Facility, Equipment, or any combination of Account/Contact/User.
-      2. We recommended creating homogenous pools. Since you may not be naming specific resources at all, set up pools in a way that the resources who are named later can actually fulfill the backlog of work scheduled to the pool. For example, if you schedule a facility requirement to a pool, the pool should consist of of facility resources who can later be assigned.
+      2. We recommended creating homogeneous pools. Since you may not be naming specific resources at all, set up pools in a way that the resources who are named later can actually fulfill the backlog of work scheduled to the pool. For example, if you schedule a facility requirement to a pool, the pool should consist of of facility resources who can later be assigned.
    4. Enter a **Name**.
    5. Select a **Time Zone**.
 
@@ -73,7 +73,7 @@ Members can be added to a pool through the bookable resource group entity (booka
    4. Repeat these steps for each pool member.
 
 > [!Note]
-> Resources can be associated as children of the pool with date effectivity. For example, on Monday, Resources 1, 2, and 3 can make up the pool, while on Tuesday, resources 4, 5, and 6 can make up the pool. To do this: 
+> Resources can be associated as children of the pool with effective dates. For example, on Monday, Resources 1, 2, and 3 can make up the pool, while on Tuesday, resources 4, 5, and 6 can make up the pool. To do this: 
 > 1. Create a new bookable resource group record.
 > 2. Set the parent resource to the pool, and the child resource to the resource that is in that pool.
 > 3. Set the **From Date** to the date and time that the resource is part of the pool and set the **To Date** to the date and time when the resource is no longer associated to the pool. 
@@ -197,7 +197,7 @@ As an alternative to rebooking from the schedule board, go to the requirement re
 
 In our second scenario, hotel managers want to make reservations for travelers by first checking for specific date range availability, and then assigning the traveler a specific room when she arrives. Furthermore, hotel managers want to overbook the hotel to account for expected cancellations.
 
-To accomodate this scenario, we will create a pool of facilities with extra capacity to represent the hotel rooms, schedule reservations to the hotel pool, and finally reassign reservations to specific rooms within the hotel pool.
+To accommodate this scenario, we will create a pool of facilities with extra capacity to represent the hotel rooms, schedule reservations to the hotel pool, and finally reassign reservations to specific rooms within the hotel pool.
 
 
 ### Step 1. Create a pool resource
@@ -307,7 +307,7 @@ For example, consider a requirement that only has resource type **Account** sele
 
 The same logic that is applied to the requirement resource type attribute applies to all constraints. Consider the following example: a requirement has a required characteristic called **Electric Vehicle Mechanic**. There is a pool that has the characteristic **Mechanic**, but not **Electric Vehicle Mechanic**. The pool has a child member that has both the characteristics **Mechanic** and **Electric Vehicle Mechanic**. 
 
-When running the schedule assistant on the requirement, presuming availability, the pool resource itself will not be presented to book since it is missing the required characteristic (**Electric Vehicle Mechanic**), but the pool member will be presented since the resource has the necessary characteristic for this job. The reason for this is that the pool members should have all the attributes expressed on the pool, but they may have additional attributes as well if they have specialties. Since not all the pool members have these additional attributes, like the **Electric Vehicle Mechanic**, if this requirement gets booked to the pool and the one pool member who has this characteristic is not available as the appointment time nears, what happens? Who will be assigned to this booking currently booked to the pool? You may not have other resources to pickup the work. Therefore, the idea is to book the actual resource itself to ensure that this unique job has coverage.
+When running the schedule assistant on the requirement, pool resource itself will not be presented to book since it is missing the required characteristic (**Electric Vehicle Mechanic**), but the pool member will be presented since the resource has the necessary characteristic for this job. The reason for this is that the pool members should have all the attributes expressed on the pool, but they may have additional attributes as well if they have specialties. Since not all the pool members have these additional attributes, like the **Electric Vehicle Mechanic**, if this requirement gets booked to the pool and the one pool member who has this characteristic is not available as the appointment time nears, what happens? Who will be assigned to this booking currently booked to the pool? You may not have other resources to pickup the work. Therefore, the idea is to book the actual resource itself to ensure that this unique job has coverage.
 
  
 ## Additional notes
@@ -327,7 +327,7 @@ For example, let’s say you are searching for a 30-minute requirement. If the p
 
 #### Example 2: Pool resource and child resources 
 
-If the bookings for the pool and its members exceed the total capacity established on the pool, every resource in the pool and the pool itself is considered unavailable. But if there is overall aggregate availability, then each resource still has its own availability calculation. For example, consider if a pool resource has a capacity of 10, and there are 9 bookings between 10 AM and 10:30 AM on the pool resource, and the child resource has one booking from 10 to 10:30. In this case, since in aggregate the pool and its children have as many or more bookings (10) than the capacity on the Pool (10), the entire pool and its child resources are considered unavailable for that timeframe (10:00 AM to 10:30 AM). 
+If the bookings for the pool and its members exceed the total capacity established on the pool, every resource in the pool and the pool itself is considered unavailable. But if there is overall aggregate availability, then each resource still has its own availability calculation. For example, consider if a pool resource has a capacity of 10, and there are 9 bookings between 10 AM and 10:30 AM on the pool resource, and the child resource has one booking from 10 to 10:30. In this case, since in aggregate the pool and its children have as many or more bookings (10) than the capacity on the Pool (10), the entire pool and its child resources are considered unavailable for that time frame (10:00 AM to 10:30 AM). 
 
 However, if the pool resource has 8 bookings and the child resource has 1 booking, since this is a total of 9 bookings, the pool and its child resources will not be removed between 10 and 10:30. In this case, the pool itself will show as available, however the child resource will not return as available since there is already a booking at 10 AM for the child resource.
 
