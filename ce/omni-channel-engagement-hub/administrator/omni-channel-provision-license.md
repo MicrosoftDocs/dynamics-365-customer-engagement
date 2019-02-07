@@ -19,19 +19,10 @@ ms.custom:
 
 Omni-channel Engagement Hub provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
 
-Omni-channel Engagement Hub enables the following channels and capabilities for Omni-channel users:
-
-**Channels**
-
-- [Chat](set-up-chat-widget.md)
-
-**Capabilities**
-
-- [Unified routing and work distribution](unified-routing-work-distribution.md)
-- [Enhanced agent experience](../agent/agent-usd/omni-channel-engagement-hub-agent.md)
 
 > [!IMPORTANT]
-> Ensure that you are the **Global Tenant Admin** of your Dynamics 365 org to be able to provision the Omni-channel Engagement Hub application. </br> </br>Before you can provison the app, as a **Global Tenant Admin**, you must [Allow sideloading of external apps in Microsoft Teams](#allow-sideloading-of-external-apps-in-microsoft-teams) and [Provide data access consent](#provide-data-access-consent). 
+> Before you can provison Omni-channel Engagement Hub on your org, a **Global Tenant Admin**, you must [Allow sideloading of external apps in Microsoft Teams](#allow-sideloading-of-external-apps-in-microsoft-teams) and [Provide data access consent](#provide-data-access-consent). 
+
 
 ## Allow sideloading of external apps in Microsoft Teams
 
@@ -58,6 +49,9 @@ To allow Omni-channel Engagement Hub to read and write data on behalf of users, 
 
 
 ## Provision Omni-channel Engagement Hub application
+
+> [!IMPORTANT]
+> Ensure that you are either a **Global Tenant Admin** or **Dynamics 365 Service Admin** of your Dynamics 365 org to be able to provision the Omni-channel Engagement Hub application.
 
 Follow these steps to set up Omni-channel Engagement Hub.
 
