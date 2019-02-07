@@ -34,7 +34,7 @@ For an incoming conversation request, the system links an existing case to the c
 
 ## Recent cases
 
-This form section displays the recent cases that relates to the customer.
+This form section displays the recent cases that relate to the customer.
 
 ## All activities
 
