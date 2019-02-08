@@ -17,6 +17,8 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 > [!NOTE]
 > The topic applies when you want to use Omni-channel Engagement Hub with Unified Service Desk client application. 
 

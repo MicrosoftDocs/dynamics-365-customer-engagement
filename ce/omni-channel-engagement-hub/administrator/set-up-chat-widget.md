@@ -17,6 +17,8 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 The chat widget lets your customers connect with you in a way that is convenient for them (for example, from their mobile devices or a computer). The customer service agents can then connect with the customers to respond to their queries.
 
 In this section, you will learn how to:
