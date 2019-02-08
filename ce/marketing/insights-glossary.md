@@ -45,7 +45,7 @@ This topic provides definitions of terms commonly used to describe marketing res
 <dd>Each reported email click indicates that a contact clicked on a link sent to them in a marketing email (not including clicks on links to a subscription center or forward-to-a-friend page&mdash;these are counted separately). All links included in marketing emails are modified to redirect through Dynamics 365 and to include information about which message included the link and which contact it was sent to. So on each click, Dynamics 365 notes the click, the message that contains it, and the contact who clicked on it, and then forwards the contact on to the page originally specified by the message designer. Marketing can report both total clicks and unique clicks. Unique clicks count at most one click on each link by each recipient. Total clicks also count multiple clicks of the same link by any recipient, so total click values could sometimes be larger than the number of opens or deliveries for a given message.  The technique used to register clicks can sometimes produce misleading results when a message is forwarded&mdash;see <a href="#email-forwarded">Email forwarded</a> in this glossary for details.</dd>
 
 <dt><strong>Email click-through rate (CTR)</strong></dt>
-<dd>The click-through rate (CTR) tells you how often recipients clicked on a message after opening it. Note that in some rare cases, the CTR can be greater than 100% if recipients click links but don't load images when they open your messages. For more information about why images must be loaded to register an open, see <a href="#email-opened">Email opened</a> in this glossary.<br/>
+<dd>The email click-through rate (CTR) tells you how often recipients clicked any link in a message after opening it. Note that in some rare cases, the CTR can be greater than 100% if recipients click links but don't load images when they open your messages. For more information about why images must be loaded to register an open, see <a href="#email-opened">Email opened</a> in this glossary.<br/>
 <code>CTR = (UniqueClicks/UniqueOpens) * 100%</code></dd>
 
 <!-- add CTOR here -->
@@ -86,6 +86,10 @@ This topic provides definitions of terms commonly used to describe marketing res
 
 <dt><strong>Form visited</strong></dt>
 <dd>A form visit is recorded each time somebody opens a page that includes a Dynamics 365 marketing form. This includes both forms that are placed on a Dynamics 365 marketing page and forms that are embedded on page on an external site.</dd>
+
+<dt><strong>Link click-through rate (CTR)</strong></dt>
+<dd>The link click-through rate (CTR) tells you how often recipients clicked on a specific link after opening a message. Note that in some rare cases, the CTR can be greater than 100% if recipients click links but don't load images when they open your messages. For more information about why images must be loaded to register an open, see <a href="#email-opened">Email opened</a> in this glossary.<br/>
+<code>CTR = (UniqueClicks/UniqueOpens) * 100%</code></dd>
 
 <dt><strong>Page submitted</strong></dt>
 <dd>A page submission is recorded each time somebody submits a Dynamics 365 marketing page that includes a marketing form. This only includes Dynamics 365 marketing pages, not submissions of marketing forms that are embedded on a page on an external site.</dd>
