@@ -279,7 +279,7 @@ This behavior is transparent to end users and traditional logging as the executi
 
 ### See also
 
-[Web Access for Isolated (sandboxed) Plug-ins](../../developer/write-plugin.md#write-a-plug-in-constructor)
+[Access external web resources](/powerapps/developer/common-data-service/access-web-services)
 [Load Balancing (WCF)](https://msdn.microsoft.com/library/ms730128.aspx)<br />
 [HttpTransportBindingElement.KeepAliveEnabled Property](https://msdn.microsoft.com/library/system.servicemodel.channels.httptransportbindingelement.keepaliveenabled.aspx)<br />
 [HttpWebRequest.KeepAlive Property](https://msdn.microsoft.com/library/system.net.httpwebrequest.keepalive.aspx)<br />

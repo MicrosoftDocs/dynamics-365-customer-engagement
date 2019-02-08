@@ -189,5 +189,5 @@ Another reason IPlugins should be stateless is that multiple system threads coul
 
 ### See also
 
-[Writing A Basic Plug-in](../../developer/write-plugin.md#writing-a-basic-plug-in)<br />
+[Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)<br />
 [CRM Team Blog: Thread Safety in Plug-ins](http://blogs.msdn.com/b/crm/archive/2008/11/18/member-static-variable-and-thread-safety-in-plug-in-for-crm-4-0.aspx)<br />
