@@ -1,8 +1,8 @@
 ---
 title: "Register and Deploy Plug-Ins (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Learn about programmatically register plug-ins and custom workflow activities with Dynamics 365 for Customer Engagement apps by writing registration code using certain SDK classes."
+description: "Learn about register plug-ins and custom workflow activities with Dynamics 365 for Customer Engagement apps using the Plug-in Registration Tool."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 1/24/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,28 +23,18 @@ search.app:
   - D365CE
 ---
 
-# Register and Deploy Plug-Ins
+# Register a plug-in to be deployed on-premise
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Plug-ins and custom workflow activities are custom code that you develop to extend the existing functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Before a plug-in or custom workflow activity can be used, it must be registered with the server. You can programmatically register plug-ins and custom workflow activities with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps by writing registration code using certain SDK classes. However, to ease the learning curve and to speed up development and deployment of custom code, a plug-in and custom workflow activity registration tool is available for download.
+Plug-ins and custom workflow activities are custom code that you develop to extend the existing functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Before a plug-in or custom workflow activity can be used, it must be registered with the server. A plug-in and custom workflow activity registration tool is available for download.
 
-The plug-in and custom workflow activity registration tool is distributed as part of the [Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool) NuGet package. For information about downloading the tool, see [Download tools from NuGet](download-tools-NuGet.md).
+General information about plug-in and custom workflow assembly registration can be found in the Common Data Service (CDS) for Apps topics [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in) and [Register your assembly](/powerapps/developer/common-data-service/workflow/workflow-extensions#register-your-assembly). The information that follows below is specific to on-premises plug-in development.
 
  While this topic focuses primarily on plug-ins, most of the information is also applicable to custom workflow activities. One difference between the two is that for custom workflow activity assemblies, you register just the assembly. For plug-ins, you register the plug-in assembly and one or more steps per plug-in. For more information about custom workflow activities, see [Custom Workflow Activities (Workflow Assemblies)](custom-workflow-activities-workflow-assemblies.md).
 
 > [!IMPORTANT]
 > Do not register any plug-in or custom workflow activity unless it is obtained from a reliable and trusted source.
-
- For more information about how to package your plug-ins as solution components, see [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solutions](package-distribute-extensions-use-solutions.md). 
-
-<a name="bkmk_pluginregistration"></a>
-
-## Plug-in Registration Tool
-
- The Plug-in Registration tool provides a graphical user interface and supports registering plug-ins and custom workflow activities with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. However, plug-ins and custom workflow activities can only be registered in the sandbox (isolation mode) of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
-
- For more information about how to register and deploy a plug-in by using the tool, see [Walkthrough: Register a Plug-in using the Plug-in Registration Tool](walkthrough-register-plugin-using-plugin-registration-tool.md). The tool can be added to the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] **Tools** menu as an external tool to speed up the development process.
 
 <a name="bkmk_pluginstor"></a>
 
@@ -74,109 +64,19 @@ Depending on your plug-in’s design, your plug-ins may require other referenced
 4. After you have added any other desired components to the solution, export the solution.
 5. Import the solution on to the staging or production server.
 
-<a name="bkmk_versioning"></a>
-
-## Assembly Versioning and Solutions
-
-Plug-in assemblies can be versioned using a number format of *major.minor.build.revision* defined in the Assembly.info file of the [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project. Depending on what part of the assembly version number is changed in a newer solution, the following behavior applies when an existing solution is updated through import.
-
-- **The build or revision assembly version number is changed.**<br />
-  This is considered an in-place upgrade. The older version of the assembly is removed when the solution containing the updated assembly is imported. Any pre-existing steps from the older solution are automatically changed to refer to the newer version of the assembly.  
-
-- **The major or minor assembly version number, except for the build or revision numbers, is changed.**<br />
-  When an updated solution containing the revised assembly is imported, the assembly is considered a completely different assembly than the previous version of that assembly in the existing solution. Plug-in registration steps in the existing solution will continue to refer to the previous version of the assembly. If you want existing plug-in registration steps for the previous assembly to point to the revised assembly, you will need to use the Plug-in Registration tool to manually change the step configuration to refer to the revised assembly type. This should be done before exporting the updated assembly into a solution for later import.  
-
-  For more information about solutions, refer to [Introduction to Solutions](introduction-solutions.md).
-
 <a name="bkmk_securityrestrictions"></a>
 
 ## Security Restrictions
 
- There is a security restriction that enables only privileged users to register plug-ins. For plug-ins that are not registered in isolation, the system user account under which the plug-in is being registered must exist in the **Deployment Administrators** group of Deployment Manager. Only the System Administrator user account or any user account included in the **Deployment Administrators** group can run Deployment Manager.  
+ There is a security restriction that enables only privileged users to register plug-ins. For plug-ins that are not registered in the sandbox (isolation), the system user account under which the plug-in is being registered must exist in the **Deployment Administrators** group of Deployment Manager. Only the System Administrator user account or any user account included in the **Deployment Administrators** group can run Deployment Manager.  
 
 > [!IMPORTANT]
 > For non-isolated plug-ins, failure to include the registering user account in the **Deployment Administrators** group results in an exception being thrown during plug-in registration. The exception description states "Not have enough privilege to complete Create operation for an SDK entity."  
 
- The system user account under which the plug-in is being registered must have the following organization-wide security privileges:
-- prvCreatePluginAssembly
-- prvCreatePluginType
-- prvCreateSdkMessageProcessingStep
-- prvCreateSdkMessageProcessingStepImage
-- prvCreateSdkMessageProcessingStepSecureConfig
-
-  For more information, see [The Security Model of Dynamics 365 for Customer Engagement apps](security-dev/Security-model.md).  
-
-  For plug-ins registered in the sandbox (isolation mode), the system user account under which the plug-in is being registered must have the System Administrator role. Membership in the **Deployment Administrators** group is not required.  
+ For plug-ins registered in the sandbox (isolation mode), the system user account under which the plug-in is being registered must have the System Administrator role. Membership in the **Deployment Administrators** group is not required.  
   
-<a name="bkmk_registerprog"></a>
-
-## Register Plug-ins Programmatically
-
- The key entity types used to register plug-ins and images are:    `PluginAssembly`,    `PluginType`,  `SdkMessageProcessingStep`, and `SdkMessageProcessingStepImage`. The key entity types used to register custom workflow activities are `PluginAssembly` and `PluginType`. Use these entities with the create, update, retrieve, and delete operations.
-
- For more information on images, see [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md).  
-
-<a name="bkmk_enablecode"></a>
-
-## Enable or Disable Custom Code Execution
-
- You can use [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] to enable or disable custom code, including plug-ins and custom workflow activities, on the server as described here. Alternatively, you can use the Deployment Web service. For more information, see [Deployment Entities and Deployment Configuration Settings](https://msdn.microsoft.com/library/gg328063.aspx) to set the `CustomCodeSettings`.<xref:Microsoft.Xrm.Sdk.Deployment.CustomCodeSettings.AllowExternalCode> property.
-
-### To enable custom code execution
-
-1. Open a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command window.
-
-2. Add the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps PowerShell snap-in:
-
-    ```powershell
-    Add-PSSnapin Microsoft.Crm.PowerShell
-    ```
-
-3. Retrieve the current setting:
-
-    ```powershell
-    $setting = get-crmsetting customcodesettings
-    ```
-
-4. Modify the current setting:
-
-    ```powershell
-    $setting.AllowExternalCode="True"
-    set-crmsetting $setting
-    ```
-
-5. Verify the setting:
-
-    ```powershell
-    get-crmsetting customcodesettings
-    ```
-
-### To disable custom code execution
-
-1. Open a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command window.
-2. Add the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps PowerShell snap-in:
-    ```powershell
-    Add-PSSnapin Microsoft.Crm.PowerShell
-    ```
-3. Retrieve the current setting:
-    ```powershell
-    $setting = get-crmsetting customcodesettings
-    ```
-
-4. Modify the current setting:
-    ```powershell
-    $setting.AllowExternalCode=0
-    set-crmsetting $setting
-    ```
-
-5. Verify the setting:
-    ```powershell
-    get-crmsetting customcodesettings
-    ```
-
 ### See also
 
  [Plug-in Development](plugin-development.md)<br />
  [Debug a Plug-in](debug-plugin.md)<br />
- [Plug-in Isolation, Trust, and the Disallowed List](plugin-isolation-trusts-statistics.md)<br />
  [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solutions](package-distribute-extensions-use-solutions.md)<br />

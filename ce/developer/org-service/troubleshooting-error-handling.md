@@ -33,4 +33,4 @@ This section includes information about how to handle exceptions received from t
   
 ## Related Sections  
  [Extend Dynamics 365 for Customer Engagement apps on the server](../extend-dynamics-365-server.md)<br />
- [Handle exceptions in plug-ins](../handle-exceptions-plugins.md)
+ [Handle exceptions in plug-ins](/powerapps/developer/common-data-service/handle-exceptions)

@@ -56,6 +56,5 @@ search.app:
 ## Related Sections  
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)  
   
- [Write Plug-Ins for Dynamics 365 for Customer Engagement apps](write-plugin-extend-business-processes.md)  
-  
- [Plug-in Isolation, Trusts, and Statistics](plugin-isolation-trusts-statistics.md)
+ [Write Plug-Ins for Dynamics 365 for Customer Engagement apps](write-plugin-extend-business-processes.md)
+ 
