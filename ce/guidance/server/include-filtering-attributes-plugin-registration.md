@@ -45,5 +45,5 @@ Filtering attributes are a list of entity attributes that, when changed, cause t
 
 ### See also
 
-[Plug-in design](../../developer/write-plugin.md#plug-in-design)<br />
+[Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)<br />
 [Walkthrough: Register a plug-in using the plug-in registration tool](https://msdn.microsoft.com/library/gg309580.aspx)<br />
