@@ -16,7 +16,6 @@
 ## [Set up Power BI integration](set-up-power-bi-integration.md)
 ## [Restrict portal access by IP address](ip-address-restrict.md)
 ## [Portal checker](portal-checker.md)
-### [Portal checker FAQ](portal-checker-faq.md)
 
 # [Configure a portal](configure-portal.md)
 ## [Enable multiple-language support](enable-multiple-language-support.md)
@@ -129,6 +128,6 @@
 ## [Enable header and footer output caching on a portal](enable-header-footer-output-caching.md)
 ## [Add a Power BI report or dashboard to a webpage in portal](add-powerbi-report.md)
 
-# [Dynamics 365 for Customer Engagement Portal FAQ](portal-faq.md)
+# [Best practices and common portal configuration issues](portal-faq.md)
 
 # [Legacy Adxstudio Portals v7 FAQ](legacy-portal-faq.md)
