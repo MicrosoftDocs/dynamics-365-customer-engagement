@@ -17,6 +17,8 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 ## Scenario 1: An incoming engagement request for an existing customer record with a case already in the Omni-channel Engagement Hub 
 
 When you get an incoming conversation request, you see a notification (screen pop) with contextual information for an incoming request. When you accept or select the incoming notification, the application displays the Customer summary page with details about the customer.

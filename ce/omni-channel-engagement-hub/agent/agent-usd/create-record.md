@@ -17,6 +17,8 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 If no records are linked to a conversation in Omni-channel Engagement Hub, you can create a record by using the quick create option. To use this option, select the plus sign (**+**). After you create the record, the record is automatically linked to the conversation.
 
 ## Create a record

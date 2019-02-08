@@ -16,6 +16,8 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 The process of configuring alert notification settings in Unified Service Desk involves multiple steps:
 
 1.  Create forms with notifications definition (in Extensible Application Markup Language \[XAML\] format).

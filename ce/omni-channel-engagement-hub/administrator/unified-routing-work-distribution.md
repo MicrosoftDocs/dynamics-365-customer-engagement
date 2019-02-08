@@ -17,6 +17,8 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Unified routing and work distribution ensures that conversations from all the channels are routed to agents efficiently. This is a two-step process:
 
 1. Routing dispatches conversations into the right Omni-channel queues.
