@@ -4,7 +4,7 @@ description: "Provides information about how you can extend event management  we
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 2/06/2019
+ms.date: 2/08/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -49,7 +49,7 @@ To get started with customizing the provided demo event portal you need to follo
 
 ## Configuration
 
-All the configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted).
+All the configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md).
 
 ## Development
 
