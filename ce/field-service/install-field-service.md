@@ -26,7 +26,7 @@ search.app:
 This article describes how to install the Dynamics 365 for Field Service application for Dynamics 365 for Customer Engagement (online). It also includes steps to install the mobile solution, and describes how field technicians download and install the mobile app from their device's app store.
 
 > [!Note]
-> Installations and upgrades of the Field Service solution typically take 30 or more minutes.
+> Installations and upgrades of the Field Service application typically take 30 or more minutes.
 
 
 ## Prerequisites
