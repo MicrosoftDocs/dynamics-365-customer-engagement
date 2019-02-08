@@ -1,6 +1,6 @@
 ---
-title: "Omni channel engagement hub for agents | MicrosoftDocs"
-description: "The Omni-channel Engagement Hub for Dynamics 365 is a cloud-based service that extends the power of Dynamics 365 for Customer Service to enable customers to instantly connect and engage with their customers via newly introduced channels: live chat and SMS."
+title: "Omni channel engagement hub for agent using Unified Service Desk | MicrosoftDocs"
+description: "Learn about the Omni-channel Engagement Hub for agent using Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: fb84962a-1ba4-4c56-992f-533cf921540a
 ms.custom: 
 ---
-# Omni-channel Engagement Hub for agents
+# Omni-channel Engagement Hub for agent using Unified Service Desk
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
