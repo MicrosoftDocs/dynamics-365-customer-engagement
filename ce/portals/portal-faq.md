@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal is an extensible framework which allows customers to build highly customized and tailored experiences. While customizing, extending, or configuring your portal, you can run into a variety of issues.
 
-Within this article you will learn about the common queries and issues we have identified, their impact, and understand the guidance to resolve them. Some of these checks and best practices are also covered under portal checker as well.
+In this article you will learn about the common queries and issues we have identified, their impact, and understand the guidance to resolve them. Some of these checks and best practices are also covered under portal checker as well.
 
 This will help you to resolve common issues and create a usable and performance portal for your customers.
 
