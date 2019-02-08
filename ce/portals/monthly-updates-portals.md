@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365 for Customer Engagement."
 keywords: "portal new features, portal enhancements, portal user guide"
-ms.date: 01/31/2019
+ms.date: 02/08/2019
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -32,7 +32,7 @@ Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dyn
 
 Portal capabilities version 9.1.1 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps brings these new updates and features:
 
-- **Portal checker**: You can now use portal checker to identify issues with your portal by looking at various configuration parameters and provide suggestions on how to fix them. More information: [Portal checker](self-service-diagnostic.md)
+- **Portal checker**: You can now use portal checker to identify issues with your portal by looking at various configuration parameters and provide suggestions on how to fix them. More information: [Portal checker](portal-checker.md)
 
 ## Portal capabilities version 9.0.10 for Dynamics 365 for Customer Engagement apps
 
