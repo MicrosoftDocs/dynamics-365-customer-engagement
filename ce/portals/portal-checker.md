@@ -3,7 +3,7 @@ title: "Identify and fix customer issues with a portal in Dynamics 365 for Custo
 description: "Learn to identify and fix customer issues with a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 01/31/2019
+ms.date: 02/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -47,7 +47,7 @@ If required, you can rerun the diagnostic checks, which will refresh the results
 > [!NOTE]
 > If portal is turned off or IP address filtering is enabled, certain diagnostic checks will not be run on your portal.
 
-For a list of common issues diagnosed by the portal checker tool, see [Common portal issues and best practices](portal-checker-faq.md).
+For a list of common issues diagnosed by the portal checker tool, see [Common portal issues diagnosed by portal checker and their best practices](portal-faq.md#portal-checker).
 
 To run the diagnostic tool:
 

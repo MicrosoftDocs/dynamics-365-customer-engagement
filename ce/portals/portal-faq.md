@@ -3,7 +3,7 @@ title: "Dynamics 365 for Customer Engagement Portal FAQ | MicrosoftDocs"
 description: "Frequently asked questions in Dynamics 365 for Customer Engagement Portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 02/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,9 +22,13 @@ search.app:
   - D365Portals
 ---
 
-# Dynamics 365 for Customer Engagement Portal FAQ
+# Common portal issues and best practices
 
-This article lists some common queries and issues that you might encounter while using customizing, extending, or configuring your portal. Where applicable, workarounds are provided.
+[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal is an extensible framework which allows customers to build highly customized and tailored experiences. While customizing, extending, or configuring your portal, you can run into a variety of issues.
+
+Within this article you will learn about the common queries and issues we have identified, their impact, and understand the guidance to resolve them. Some of these checks and best practices are also covered under portal checker as well.
+
+This will help you to resolve common issues and create a usable and performance portal for your customers.
 
 ## Licensing and provisioning
 
@@ -130,14 +134,7 @@ Any portal release is done in two phases: early upgrade and general availability
 
 You can enable your portal to use a custom domain name in place of the standard `microsoftcrmportals.com` domain name. More information: [Link your Dynamics 365 for Customer Engagement portal to a custom domain](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/manage-portal#link-your-dynamics-365-portal-to-a-custom-domain)
 
-## Common portal issues and best practices
-
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal is an extensible framework which allows customers to build highly customized and tailored experiences. While customizing, extending, or configuring your portal, you can run into a variety of issues.
-
-Within this section you will learn about the issues we have identified, their impact, and understand the guidance to resolve them. Some of these checks and best practices are also covered under portal checker as well.
-
-This will help you in resolving common issues and create a usable and performance portal for your customers
-
+## Portal checker
 
 ### Portal does not load and displays a generic error page (Server Error in "/" application) 
 
