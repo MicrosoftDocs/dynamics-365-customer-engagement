@@ -1,0 +1,11 @@
+- name: Dynamics 365
+  tocHref: /dynamics365/
+  topicHref: /dynamics365/
+  items:
+  - name: "Customer Engagement"
+    tocHref: /dynamics365/customer-engagement/
+    topicHref: /dynamics365/customer-engagement/
+    items:
+      - name: Unified Service Desk
+        tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/
+        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/omni-channel-engagement-hub
