@@ -27,9 +27,9 @@ Omni-channel Engagement Hub is a single interface for various communication chan
 
 Omni-channel Engagement Hub is a solution on the following:
 
-- Customer Service Hub app
-
 - Unified Service Desk
+
+- Customer Service Hub app
 
 ## See also
 
