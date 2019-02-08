@@ -79,7 +79,7 @@ For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises and 
 ### See also
 
 [Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)<br />
-[Writing a Plug-in](write-plugin.md)<br />
+[Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)<br />
 [Using the Provided Azure Plug-in](work-data-azure-solution.md)<br />
 [Writing a Listener for a Azure Solution](write-listener-application-azure-solution.md)<br />
 [Azure Platform – Getting Started](http://www.microsoft.com/windowsazure/learn/get-started/)
