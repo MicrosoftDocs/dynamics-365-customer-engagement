@@ -18,6 +18,10 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
+> [!IMPORTANT]
+> - [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
+
 Every organization has a unique way of working. Some organizations have well-defined business processes, and some don’t. As a system customizer, you can customize the forms for your agents and supervisors to cater to your business process and workflow requirements.
 
 ## In this section
