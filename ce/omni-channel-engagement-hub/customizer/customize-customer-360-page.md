@@ -16,6 +16,8 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 You can customize some forms (cards) on the **Customer summary** page by adding or removing the fields. In addition, you can change the position or alignment of forms (cards) by dragging them to meet your requirements. By default, the **Customer summary** page shows the following forms (cards).
 
 ## Customer profile
