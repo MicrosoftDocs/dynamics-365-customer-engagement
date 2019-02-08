@@ -103,5 +103,4 @@ You can perform the following actions:
  [Customize Entity Metadata](customize-entity-metadata.md)<br />
  [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)<br />
  [Create Early Bound Entity Classes with the Code Generation Tool (CrmSvcUtil.exe)](org-service/create-early-bound-entity-classes-code-generation-tool.md)<br />
- [Analyze Plug-in Performance](analyze-plugin-performance.md)<br />
- [Solution Tools for Team Development](solution-tools-team-development.md)<br />
+ [Solution Tools for Team Development](solution-tools-team-development.md)

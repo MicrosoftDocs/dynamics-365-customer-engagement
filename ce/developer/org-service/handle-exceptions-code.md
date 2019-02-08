@@ -98,5 +98,5 @@ Sync workflow 'Name of Entity Scope Business Rule returning Error' terminated wi
  [Troubleshooting and error handling](troubleshooting-error-handling.md)   
  [Troubleshooting tips](troubleshooting-tips.md)   
  [Web service error codes](web-service-error-codes.md)   
- [Handle exceptions in plug-ins](../handle-exceptions-plugins.md)   
+ [Handle exceptions in plug-ins](/powerapps/developer/common-data-service/handle-exceptions)   
  [.NET Framework Developer Center](https://msdn.microsoft.com/netframework/aa663324.aspx)
