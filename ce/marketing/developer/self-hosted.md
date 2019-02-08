@@ -4,7 +4,7 @@ description: "Provides information about how you can extend event management web
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 2/06/2019
+ms.date: 2/08/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -71,4 +71,4 @@ The event portal is capable of integrating the Azure Active Directory B2C. To in
 
 > [!div class="nextstepaction"]
 > [Dynamics 365 Portal Hosted](portal-hosted.md)<br /><br />
-> [Custom Event Portal Localization](event-portl-localization.md)
+> [Custom Event Portal Localization](event-portal-localization.md)
