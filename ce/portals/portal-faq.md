@@ -28,7 +28,7 @@ search.app:
 
 In this article you will learn about the common queries and issues we have identified, their impact, and understand the guidance to resolve them. Some of these checks and best practices are also covered under portal checker as well.
 
-This will help you to resolve common issues and create a usable and performance portal for your customers.
+This will help you to resolve common issues and create a usable portal for your customers.
 
 ## Licensing and provisioning
 
