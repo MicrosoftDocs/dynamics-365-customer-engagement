@@ -20,7 +20,7 @@ ms.custom:
 > [!div class=mx-imgBorder]
 > ![Navigation bar of Omni-channel Engagement Hub in Customer Service Hub app](../../media/csh-navigation-bar.png "Navigation bar of Omni-channel Engagement Hub in Customer Service Hub app")  
 
-The navigation bar also called as main menu is a place where you can navigate between different apps. Also, it displays the navigation you perform to different sitemap records in the form of a bread crumb. The bread crumb displays the module (Service), record type and record.
+The navigation bar also called as the main menu is a place where you can navigate between different apps. Also, it displays the navigation you perform to different sitemap records in the form of a bread crumb. The bread crumb displays the module (Service), record type and record.
 
 Selecting the **>** icon on the record type shows you a list of the recent records of the same type you have worked on. 
 
@@ -40,6 +40,7 @@ Similarly, selecting the **>** icon on the record shows you a list of the relate
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
 - [Search for and share knowledge articles](csh-search-knowledge-articles.md)
+- [Take notes specific to conversation](csh-take-notes.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)

@@ -105,7 +105,7 @@ From here, the workflow will trigger based on the alert type. While you may have
 
 ## See the results
 
-Once you've saved your Flow, log in to Dynamics 365 for Customer Engagement for Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
+Once you've saved your Flow, log in to Dynamics 365 for Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alerts in Connected Field Service](media/iot-central-alerts-14.png)

@@ -24,10 +24,6 @@ Unified Service Desk for Dynamics 365 for Customer Engagement apps is a client a
  
 Omni-channel Engagement Hub is packaged as solution that you need to deploy on a Dynamics 365 for Customer Service Hub application instance. Use the Microsoft Dynamics 365 Package Deployer to deploy the Omni-channel Engagement Hub solution on the Customer Service Hub application instance.
 
-## Download the Package Deployer
-
-Download the [Microsoft Dynamics 365 Package Deployer](http://go.microsoft.com/fwlink/p/?LinkID=872261) and extract the contents in to a folder.
-
 ## Download Unified Service Desk client application
 
 To download the Unified Service Desk client application, you must join the Omni-channel Engagement Hub - Preview program.
@@ -35,23 +31,43 @@ To download the Unified Service Desk client application, you must join the Omni-
 > [!Note]
 > Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
 
-## Deploy Omni-channel Engagement Hub - Unified Service Desk sample package
 
-You can manually deploy the **Omni-channel Engagement Hub - Unified Service Desk** sample package (applications) using the Package Deployer. To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](/dynamics365/customer-engagement/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer
-).
+## Install Unified Service Desk client application
 
-When you run the Package Deployer tool to deploy the sample package on the Dynamics 365 for Customer Engagement instance, the tool shows several sample packages, choose **Omni-channel Engagement Hub - Unified Service Desk** sample package.
+To learn how to install Unified Service Desk, see [Install Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/install-upgrade-unified-service-desk-client).
 
-To download the **Omni-channel Engagement Hub - Unified Service Desk** sample package, you must join the Omni-channel Engagement Hub - Preview program.
+Make sure you computer meets all requirements before you install the Unified Service Desk client application. More information: [Unified Service Desk system requirements](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
+
+## Deploy Unified Service Desk - Omni-channel Engagement Hub package
+
+Microsoft Dynamics 365 Package Deployer enables you to deploy **Unified Service Desk - Omni-channel Engagement Hub - Preview** package on a Dynamics 365 for Customer Engagement instance.
+
+To download the **Unified Service Desk - Omni-channel Engagement Hub - Preview** package and Dynamics 365 Package Deployer, you must join the Omni-channel Engagement Hub - Preview program.
 
 > [!Note]
 > Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
 
-## Install Unified Service Desk client
+> [!Important]
+> As Omni-channel Engagement Hub is in the preview, we recommend deploying the **Unified Service Desk - Omni-channel Engagement Hub - Preview** package on a new organization. We recommend not to use your existing organization (test or production) for testing Omni-channel Engagement Hub - Preview.
 
-To learn how to install Unified Serivce Desk, see [Install Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/install-upgrade-unified-service-desk-client).
+1. Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your computer. Extract the contents in to a folder.<br> The extracted contents contain the **PackageDeployer.exe**, **OmnichannelUSDPackage**, and assembly files.
 
-Make sure you computer meets all requirements before you install the Unified Service Desk client application. More information: [Unified Service Desk system requirements](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
+2. Run the **PackageDeployer.exe** file. 
+
+3. In the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the Customer Engagement instance where you want to deploy the package.
+
+4. The next screen displays information about the package that will be installed on your Customer Engagement instance. Review the information, and choose **Next**.
+
+5. The **Ready to Install** screen displays the package name for deployment and name of the Customer Engagement organization. Review the information, and choose **Next**.
+
+6. The next screen displays the validation status of the package. After the validation completes successfully, choose **Next**.
+
+7. The next page displays the package deployment status. A confirmation message is displayed on successful deployment of the package. Select **Next**.
+
+8. The **Installation Complete** screen displays the name and information about the package that you deployed. Review the information, and choose **Finish** to exit the Package Deployer tool.
+
+To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](/dynamics365/customer-engagement/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer
+).
 
 ## Set up Edge Process with Unified Service Desk
 
@@ -184,14 +200,12 @@ Read-Host -Prompt 'Press any key to exit...'
 
 The PowerShell script file updates the following URLs to the **Allowed sites** section of the **Pop-up Blocker** settings. You can view and also add the the allowed sites manually by opening **Internet Explorer** > **Settings** > **Internet Options** > **Privacy**. Under the **Pop-up Blocker** section, select Settings and in the **Turn on Pop-up Blocker Settings** window, you can see the sites under the **Allowed sites** section.
 
- - *.core.windows.net
- - *.microsoftonline.com
- - *.office.com
- - *.powerbi.com
- - *.dynamics.com
- - *.crmdynint.com
- - *.azureedge.net
- - *.azurewebsites.net
+ - https://login.microsoftonline.com
+ - https://www.office.com
+ - <instance name>.powerbi.com
+ - <org name>.dynamics.com
+ - https://oc-cdn-public.azureedge.net
+ - https://oc-auth.azurewebsites.net
 
  Based on your organization requirements, you can add any other URLs in allowed sites along with the above-mentioned URLs.
 
@@ -208,14 +222,12 @@ Also, the PowerShell script updates the recommended Internet Explorer settings s
 
  4.	In the **Address of website to allow** field, specify one URL and select **Add**. <br>
     Add the following URLs:<br>
-   - *.core.windows.net
-   - *.microsoftonline.com
-   - *.office.com
-   - *.powerbi.com
-   - *.dynamics.com
-   - *.crmdynint.com
-   - *.azureedge.net
-   - *.azurewebsites.net
+    - https://login.microsoftonline.com
+    - https://www.office.com
+    - https://\<Instance name\>.powerbi.com
+    - https://\<Org name\>.dynamics.com
+    - https://oc-cdn-public.azureedge.net
+    - https://oc-auth.azurewebsites.net
 
   5. Select **Close**, and then select **OK**.
 
@@ -392,7 +404,7 @@ Read-Host -Prompt 'Press any key to exit...'
 ```
 ## See also
 
-- [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
-- [Customize Customer summary form](customize-customer-360-page.md)
-- [Customize the conversation form](customize-conversation-form.md)
-- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+- [Configure agent and supervisor configurations in Unified Service Desk](../customizer/create-agent-supervisor-configurations-unified-service-desk.md)
+- [Customize Customer summary form](../customizer/customize-customer-360-page.md)
+- [Customize the conversation form](../customizer/customize-conversation-form.md)
+- [Configure notification (Screen pop) for agents](../customizer/configure-notification-screen-pop-agents.md)

@@ -153,6 +153,7 @@ The **Status reason** indicates the segment's current go-live state and is read-
 | --- | --- | --- |
 | Active | Draft | The segment is new and has never been published. You can edit all settings.<br><br>To publish a draft segment, open it and then choose **Go Live** on the command bar. |
 | Active | Live | The segment is currently live and continuously updating its contacts list. It might be in use for targeting a customer journey.<br><br>The segment can't be edited locally while in this state, but you can stop it at any time by choosing **Stop** on the command bar, then edit and go live again if needed. |
+| Active | Live, editable | The segment is currently live, and can still be used, but you have chosen to edit it locally at the same time.<br><br>Make the required changes and then choose **Save** to update the live segment automatically (after an error check) and return to the active/live state. |
 | Active | Stopped | The segment was once live but is now stopped and can be edited if needed.<br><br>While stopped, you can edit and save the segment without going live. Select **Go live** to republish it. |
 | Inactive | (none) | Segments should never have an inactive status. |
 
@@ -190,11 +191,20 @@ All marketing-page settings are editable when the page has a status reason of Dr
 
 Marketing forms are reusable form elements that you can embed in your marketing pages. They get published to the marketing services, where they are made available to marketing pages running on the portal. The forms can also be embedded onto any web page, such as on your own website, rather than on a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] marketing page.
 
-The publish process for marketing forms is entirely automated, so you don't need to explicitly select buttons to **Go live** or **Edit** a form. As soon as you save a form, it gets published automatically, and each time you open a form, you can start editing it right away.
+You can manually set the **Status** of a draft or stopped marketing form to _active_ or _inactive_ by using the buttons on the command bar (as with most entities). The **Status reason** indicates the page's go-live state and is read-only.
 
-You can deactivate (or reactivate) a marketing form record using buttons on the command line, as with most entities. But be careful—when you deactivate a form, any existing marketing pages that use it will stop working.
+| Status | Status&nbsp;reason | Description |
+| --- | --- | --- |
+| Active | Draft | The form has never been live and can be edited and saved locally without restrictions.<br><br>To publish a draft form, open it and then choose **Go Live** on the command bar. |
+| Active | Live | The form is currently live and available publicly on the internet.<br><br>To stop a live form, open it and then choose **Stop** on the command bar.<br><br>To edit a form page without stopping it, open it and then choose **Edit** on the command bar. |
+| Active | Stopped | The form was once live, and may have already been used, but is now stopped and unavailable publicly on the internet.<br><br>While stopped, you can edit and save the form without going live. Select **Go live** to publish the form again. |
+| Active | Live, editable | The form is currently live, and can still be used, but you have chosen to edit it locally at the same time.<br><br>Make the required changes and then choose **Save** to update the live form automatically (after an error check) and return to the active/live state. |
+| Active | Error | An error occurred while the form was going live. This is usually a temporary issue, so you should wait a short time, then try to go live again. |
+| Inactive | Expired | A user has manually deactivated the form using the **Deactivate** button on the command bar.<br><br>If the form is live, then you must stop it (by choosing **Stop** on the command bar) before you can deactivate it. |
 
-The **Status reason** field for marketing forms doesn't track the publish state; it just mirrors the **Status** itself. All settings are editable at any time.
+All marketing-form settings are editable when the page has a status reason of Draft, Live-editable, or Stopped, but all are locked when Live. No settings become permanent as a result of the record going live once.
+
+<a name="event-entities"></a>
 
 ## Events, session, and tracks go-live operations and status
 
@@ -208,7 +218,7 @@ Event, session, and track entities all have a **Status** field, which works the 
 
 ![The Publish Status menu for events](media/golive-publish-event.png "The Publish Status menu for events")
 
-The default values for **Publish status** are _Draft_, _Ready to publish_, _In progress_, and _Published_. Other than _Published_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Published_, then the event, session, or track details will become available publicly on your portals server. Set the **Publish status** to any value other than _Published_ to hide the event, session, or track on your portal.
+The default values for **Publish status** are _Draft_, _Ready to go live_, _In progress_, _Live_, and _Cancelled_. Other than _Live_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Live_, then the event, session, or track details will become available publicly on your portals server. Set the **Publish status** to any value other than _Live_ to hide the event, session, or track on your portal.
 
 ### See also
 

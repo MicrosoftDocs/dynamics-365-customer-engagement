@@ -27,9 +27,24 @@ You can deploy Omni-channel Engagement Hub - Preview solution over a Customer En
 
 ## Pre-requisites
 
+This section explains the pre-requisites for using Omni-channel Engagement Hub.
+
+### Dynamics 365 for Customer Service
+
 To deploy Omni-channel Engagement solution, your organization must have Customer Service Hub application.
 
 More information: [Customer Service Hub app](../customer-service/user-guide-customer-service-hub.md)
+
+### Licensing requirement of Office 365
+
+Your organization needs the following Office 365 license:
+
+- Office 365 Enterprise E1 plan or a higher plan. To learn more, see [Office 365 Business Plans](https://products.office.com/en-US/business/compare-more-office-365-for-business-plans).
+
+> [!NOTE]
+> - You must assign the Office 365 Enterprise E1 plan or a higher plan licenses to the Omni-channel users.
+>
+> - To assign the licenses, you must have the **Global Tenant Admin** access. 
 
 ## System and hardware requirements of Omni-channel Engagement Hub - Preview with web experience
 
@@ -47,12 +62,12 @@ You require the following to use Omni-channel Engagement Hub - Preview with Unif
 | Area | Requirements | 
 |----------|----------|
 | Desktop application | Unified Service Desk 4.1.0.1130 and higher version <br><br>More information: [Download Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md#download-unified-service-desk-client-application)<br><br>**Note:** Unified Service Desk 4.1.0.1130 is in preview.|
-| Dynamics 365 | Customer Service Hub app in Dynamics 365 for Customer Engagement apps version 9.1 and a higher version |
+| Dynamics 365 | Customer Service Hub app in Dynamics 365 for Customer Engagement apps version 9.1 and a higher version<br><br> **Note:** We recommend you to use a new production Dynamics 365 for Customer Engagement instance to use Omni-channel Engagement Hub on Unified Service Desk. |
 | Web browsers | Supported browsers are: <li> Microsoft Edge </li> <li>Internet Explorer</li><br>**Note:** The Microsoft Edge support in Unified Service Desk is in preview. |
 | Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and a higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7</li>|
 | Memory (Hardware) | ^8-GB RAM or more |
 
-^ The memory requirement is for running basic scenarios. The actual memory required for Unified Service Desk client application increases with the complex Omni-channel Engagement Hub configurations.
+^The memory requirement is for out-of-the-box solution. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omni-channel Engagement Hub - Preview solution or when using other line-of-business applications with Unified Service Desk.
 
 For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/unified-service-desk/admin/unified-service-desk-system-requirements.md)
 

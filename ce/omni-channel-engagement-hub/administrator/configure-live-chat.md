@@ -25,7 +25,7 @@ Quickly configure and add a chat widget to your portal to chat with your website
 
 ## Step 1: Create a live chat work stream
 
-1. In the omni-channel site map, go to **Work Streams** and select **New** from the command bar.
+1. In the Omni-channel site map, go to **Work Streams** and select **New** from the command bar.
 2. On the **Summary** tab of the new work stream page, provide the name of the work stream.
 3. In the **Stream source** drop-down list, select **Live chat** as the channel.
 4. Select **Save** to save the live chat work stream.
@@ -53,8 +53,16 @@ Quickly configure and add a chat widget to your portal to chat with your website
 5.	Paste the chat widget snippet code in the **HTML** tab.
     > [!div class=mx-imgBorder]
     > ![Paste code snippet of a chat widget](../media/paste-snippet.png "Paste code snippet of a chat widget")
-6.	Save the changes. The chat widget is now embedded into the portal.
+6.	Save the changes. The chat widget is now embedded into the portal. By default, the chat widget is displayed in minimized mode as follows:
 
+    > [!div class=mx-imgBorder]
+    > ![Chat widget in minimized mode](../media/oc-chat-widget-minimized-mode.png "Chat widget in minimized mode")
+    
+You can maximize the chat widget by selecting it.
+
+> [!div class=mx-imgBorder]
+> ![Chat widget in maximized mode](../media/chat-widget-system-events.png "Chat widget in maximized mode")
+    
 ### See also
 
 [Create and manage work streams](create-work-streams.md) </br>

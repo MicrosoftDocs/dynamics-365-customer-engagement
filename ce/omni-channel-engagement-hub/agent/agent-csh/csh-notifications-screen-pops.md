@@ -31,7 +31,7 @@ Some of the scenarios for which you can see the screen pop or notifications are:
 
 -   Case escalation
 
-### Types of notifications
+## Types of notifications
 
 There are two types of notifications:
 
@@ -39,20 +39,20 @@ There are two types of notifications:
 
 -   Alert notifications
 
-#### Toast notifications or floating notifications
+### Toast notifications or floating notifications
 
 A toast notification or floating notification is a notification message type where you receive information in a screen-pop dialog, which disappears after a stipulated time. If you select the notification, the associated session or application opens.
 
 Toast notifications or floating notifications appear for SMS, email, chat, and voice scenarios. This kind of notification might have buttons that require action from you, depending on your business requirements.
 
-#### Alert notifications
+### Alert notifications
 
 An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with Customer summary details. You need to take an action within the stipulated time; the screen-pop dialog vanishes when the time is up. If your business requires an auto-accept request for an incoming request based on the routing rules, you will see the notification with no buttons.
 
  > [!div class=mx-imgBorder]
  > ![Alert notification for an incoming request](../../media/csh-alert-notification.png "Alert notification for an incoming request")  
 
-##### Incoming chat notification
+## Incoming chat notification
 
 You see a notification for an incoming chat request. When you accept the chat request, you’ll see a screen pop with details about the customer in the Customer summary page. A simultaneous session starts, and a chat window expands in the left panel of the Unified Service Desk.
 
@@ -85,6 +85,7 @@ The details you’ll see for a chat channel are:
 - [View communication panel](csh-conversation-control.md)
 - [Set user presence](csh-set-user-presence-status.md)
 - [Search for and share knowledge articles](csh-search-knowledge-articles.md)
+- [Take notes specific to conversation](csh-take-notes.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)

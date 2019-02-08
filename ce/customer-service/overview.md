@@ -1,5 +1,5 @@
 ---
-title: Customer Service Overview (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
+title: Customer Service Overview (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Overview of Customer Service in Microsoft Dynamics 365 for Customer Engagement
 keywords: Customer Service;  Microsoft Dynamics 365 for Customer Engagement
 ms.date: 06/01/2018
@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Welcome to Dynamics 365 for Customer Engagement for Customer Service.
+Welcome to Dynamics 365 for Customer Service.
 
 Build great customer relationships by focusing on optimum customer satisfaction with the Customer Service apps. Customer Service provides many features and tools that organizations can use to manage the services they provide to customers.   
 
@@ -55,7 +55,7 @@ There are two flavors of [!include[](../includes/pn-ms-dyn-365-for-customer-serv
 - The **Customer Service** app is available on a desktop browser for case management, but not for managing knowledge articles. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service](user-guide-customer-service.md)
 
 > [!NOTE]
-> For mobile devices, you'll also need to [Install Dynamics 365 for Customer Engagement for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
+> For mobile devices, you'll also need to [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
 
 If you're using a desktop browser, you'll see the **Customer Service Hub** app and the **Customer Service** app in the app switcher as shown here:
 
@@ -93,7 +93,7 @@ For more details about the app's accessibility and GDPR compliance, see [Accessi
 
 ### See also  
 
-[Dynamics 365 for Customer Engagement for Customer Service](https://www.microsoft.com/en-in/dynamics365/customer-service)
+[Dynamics 365 for Customer Service](https://www.microsoft.com/en-in/dynamics365/customer-service)
 
 
 

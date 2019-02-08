@@ -40,12 +40,12 @@ You can view the entities in the **Omni-channel Administration** site map.
 
 ## How-to topics
 - [Assign roles and enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
-- [Manage a user in omni-channel](users-user-profiles.md#manage-a-user-in-omni-channel)<br>
+- [Manage a user in Omni-channel](users-user-profiles.md#manage-a-user-in-omni-channel)<br>
 - [Create a new live chat work stream](create-work-streams.md#create-a-new-live-chat-work-stream)<br>
 - [Create a new CDS Entity work stream](create-work-streams.md#create-a-new-cds-entity-work-stream)<br>
-- [Set up pre-chat questions to automatically load customer details](record-identification-rule.md)<br>
+- [Automatically identify customers using pre-chat responses](record-identification-rule.md)<br>
 - [Create custom presence status](presence-custom-presence.md#create-custom-presence-status)<br>
-- [Create a new omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)<br>
+- [Create a new Omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)<br>
 - [Create a routing rule](routing-rules.md#create-a-routing-rule)<br>
 - [Enable knowledge articles in the Omni-channel Engagement Hub](knowledge-management-oc.md) </br>
 - [Add a chat widget](add-chat-widget.md)<br>

@@ -30,17 +30,17 @@ The process of configuring toast notification (floating notification) settings i
 
 6.  Add the Hosted Controls, Actions, and Events to the Agent and Supervisor Configurations.
 
-Consider a scenario where you recieve a case request. What is the interaction experience for this case request?
+Consider a scenario where you receive a case request. What is the interaction experience for this case request?
 
 You see a toast notification for the case request. Therefore, the following events must be created: 
 
- - Create an event to open a session when agent selects the toast notification.
+ - Create an event to open a session when the agent selects the toast notification.
 
  - Create an event and action when an agent does not act, and the notification hides after a brief wait time.
 
-## Create an event to open a session when agent selects the toast notification
+## Create an event to open a session when the agent selects the toast notification
 
-You must define an event and attach the action calls for an agent to select the case request notification. When agent selects the notification, the agent will experience the following actions: 
+You must define an event and attach the action calls for an agent to select the case request notification. When the agent selects the notification, the agent will experience the following actions: 
 
 -   The notification closes.
 

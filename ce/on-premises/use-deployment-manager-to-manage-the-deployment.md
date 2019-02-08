@@ -13,6 +13,7 @@ ms.assetid: 445ac6a6-f193-444b-ac2f-620ef114d405
 caps.latest.revision: 10
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
 # Use Deployment Manager to manage the deployment
 

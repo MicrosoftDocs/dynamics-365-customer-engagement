@@ -4,8 +4,8 @@
 ### [Introduction](introduction-omni-channel.md)
 ### [Pre-requisites and system requirements](system-requirements-omni-channel-engagement-hub.md)
 ### [Assign roles and enable users for Omni-channel Engagement Hub](administrator/add-users-assign-roles.md)
-### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
+### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 
 ## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
@@ -17,7 +17,7 @@
 #### [Create and manage work streams](administrator/create-work-streams.md)
 #### [Create a new live chat work stream](administrator/create-work-streams.md#create-a-new-live-chat-work-stream)
 #### [Create a new CDS Entity work stream](administrator/create-work-streams.md#create-a-new-cds-entity-work-stream)
-#### [Set up pre-chat questions to automatically load customer details](administrator/record-identification-rule.md)
+#### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 #### [Work with queues](administrator/queues-omni-channel.md)
 
@@ -60,6 +60,7 @@
 #### [View notifications and screen pops](agent/agent-csh/csh-notifications-screen-pops.md)
 #### [View customer summary](agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md)
 #### [Search for and share knowledge articles](agent/agent-csh/csh-search-knowledge-articles.md)
+#### [Take notes specific to conversation](agent/agent-csh/csh-take-notes.md)
 #### [View conversations and sessions in Dynamics 365 for Customer Engagement apps](agent/agent-csh/csh-view-conversations-sessions-dynamics-365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-csh/csh-create-record.md)

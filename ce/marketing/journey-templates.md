@@ -26,7 +26,7 @@ search.app:
 
 # Create and manage customer journey templates
 
-Each time you create a new customer journey, you're asked to select from a gallery of _customer journey templates_ that are available on your site.
+Each time you create a new customer journey, you're asked to select from a gallery of _customer journey templates_ that are available on your instance.
 
 ![The customer journey template gallery](media/cj-template-gallery.png "The customer journey template gallery")
 

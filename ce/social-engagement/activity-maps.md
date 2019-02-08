@@ -124,7 +124,7 @@ The Sentiment map additionally shows the colors and shapes for the corresponding
  Activity maps display up to 5,000 posts at a time. If your data set contains more fresh posts per hour (or for the selected time span), and the total posts cross the peak value of 5,000, older posts automatically disappear from the map’s display and you always see the latest ones. In this scenario, the header section of the activity map displays a clickable notification ![Exclamation mark](media/exclamation-mark-symbol.png "Exclamation mark") that provides the current visualization details.  
   
 ## View conversation insights on an activity map  
- Understand the top and trending phrases of the current conversations that you’re interested in. Watch these further or work on these as required for your business. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md), [Get connected to the social conversation using Microsoft Social Engagement](get-connected-social-conversation.md)  
+ Understand the top and trending phrases of the current conversations that you’re interested in. Watch these further or work on these as required for your business. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md) 
   
 > [!TIP]
 >  Phrases are refreshed when you update the data set or add a new filter.  

@@ -1,8 +1,8 @@
 ---
 title: White papers for Project Service (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: A collection of white papers for Project Service
-author: krbjoran
-manager: ShellyHa
+author: kfend
+manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
@@ -10,7 +10,7 @@ ms.date: 8/03/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
-ms.author: krbjoran
+ms.author: kfend
 audience: Admin
 search.audienceType: 
   - admin

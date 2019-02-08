@@ -17,7 +17,7 @@ ms.custom:
 
 A work stream is a collection of routing & work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. 
 
-In omni-channel, you can create two types of work streams:
+In Omni-channel, you can create two types of work streams:
 
 - [Live chat work stream](create-work-streams.md#create-a-new-live-chat-work-stream)
 - [CDS Entity work stream](create-work-streams.md#create-a-new-cds-entity-work-stream)
@@ -44,12 +44,10 @@ A work stream comprises of the following properties:
    > [!NOTE]
    > For this preview, context variables are applicable only for live chat.
 
-- **Routing rules**: Routing rules are configured for each work stream, so that conversations can be routed to the correct queues. For more information, see [Create and manage routing rules in omni-channel](routing-rules.md). 
-
-> [!IMPORTANT]
-> You can view customer details for an incoming conversation with the help of customer summary identification rules pre-configured in the work streams out-of-the-box. These rules are further mapped to a limited set of pre-chat survey questions. As a customer completes a pre-chat survey for an incoming conversation, the information can be used to identify the customer. </br> </br> To know more about how to configure pre-chat survey questions, see [Set up pre-chat questions to automatically load customer details](record-identification-rule.md)
+- **Routing rules**: Routing rules are configured for each work stream, so that conversations can be routed to the correct queues. For more information, see [Create and manage routing rules in Omni-channel](routing-rules.md). 
 
 
 ### See also
+[Automatically identify customers using pre-chat responses](record-identification-rule.md)
 
 [Create and manage work streams](create-work-streams.md)

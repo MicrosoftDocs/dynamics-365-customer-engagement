@@ -1,18 +1,19 @@
 ---
-title: "Microsoft Dynamics 365 for Customer Engagement reporting requirements | Microsoft Docs"
-ms.custom: 
-ms.date: 11/06/2018
-ms.prod: crm-2016
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
+title: "Dynamics 365 for Customer Engagement (on-premises) reporting requirements | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/01/2018"
+ms.prod: "crm-2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
 applies_to: 
   - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: 6d0d42e2-0ad0-4dfa-aa42-72ab4e92b001
 caps.latest.revision: 54
-author: Mattp123
 ms.author: matp
+author: Mattp123
+manager: kvivek
 ---
 # Microsoft Dynamics 365 for Customer Engagement reporting requirements
 
@@ -71,7 +72,7 @@ ms.author: matp
 - Windows 10
 
 ####  Additional software requirements  
--   [!INCLUDE[pn_microsoft_visual_studio_2015](../includes/pn-microsoft-visual-studio-2015.md)] or [!INCLUDE[pn_microsoft_visual_studio_2013](../includes/pn-microsoft-visual-studio-2013.md)].  
+-   [!INCLUDE[pn_microsoft_visual_studio_2015](../includes/pn-microsoft-visual-studio-2015.md)] Add 2017.
   
 -   [!INCLUDE[pn_sql_server_data_tools_SSDT](../includes/pn-sql-server-data-tools-ssdt.md)] installed with [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
   

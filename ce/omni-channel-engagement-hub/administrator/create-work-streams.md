@@ -22,7 +22,7 @@ This topic explains how you can create a live chat work stream and a CDS entity 
 
 Follow these steps to create a new live chat work stream.
 
-1. In the omni-channel site map, select **Work Distribution \> Work Streams**.
+1. In the Omni-channel site map, select **Work Distribution \> Work Streams**.
 
     The **Active Work Streams** view is shown. 
 
@@ -61,14 +61,12 @@ Follow these steps to create a new live chat work stream.
 
 7. Select **Save** to save the live chat work stream.
 
-> [!IMPORTANT]
-> You can view customer details for an incoming conversation with the help of customer summary identification rules pre-configured in the work streams out-of-the-box. These rules are further mapped to a limited set of pre-chat survey questions. As a customer completes a pre-chat survey for an incoming conversation, the information can be used to identify the customer. </br> </br> To know more about how to configure pre-chat survey questions, see [Set up pre-chat questions to automatically load customer details](record-identification-rule.md)
 
 After you've finished defining all the settings, the work stream is ready to receive conversations so that agents can start to work on them.
 
 ## Create a new CDS Entity work stream
 
-CDS entity work streams help route entities from Common Data Service (CDS) to the Omni-channel Engagement Hub. For example, you can enable high-priority cases to be routed to omni-channel so that they can be automatically distributed and assigned to agents.
+CDS entity work streams help route entities from Common Data Service (CDS) to the Omni-channel Engagement Hub. For example, you can enable high-priority cases to be routed to Omni-channel so that they can be automatically distributed and assigned to agents.
 
 > [!NOTE]
 > You can route any activity enabled entity.
@@ -78,7 +76,7 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
 
 ### In Omni-channel Engagement Hub
 
-1. In the omni-channel site map, select **Work Distribution \> Work Streams**.
+1. In the Omni-channel site map, select **Work Distribution \> Work Streams**.
 2. Fill in the **General information** section as given in [Create a new live chat work stream](#create-a-new-live-chat-work-stream).
     For CDS work stream, select **Stream Source** as **CDS Entity**.
 
@@ -142,7 +140,7 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
 
     ![create flow](../media/create-flow.png)
 
-12. Search for the **Dynamics 365 - When a record is created** trigger, and select it.
+12. Search for the **Dynamics 365 - When a record is created** trigger and select it.
 
     ![Record connector](../media/record-connector.png)
 

@@ -20,14 +20,20 @@ ms.custom:
 The topic explains the known issues and limitations of Omni-channel Engagement Hub.
 
 ## Agents receive delayed notification when the chat ends
-Customer ends the chat by selecting the Close **X** button on the chat widget. Closing the chat ends the chat without a confirmation message. After the customer closes the chat, agent receives the chat information with a delay.
+Customer ends the chat by selecting the Close (**X**) button on the chat widget. After the customer closes the chat, agent receives the notification of customer ending the conversation with a delay.
 
 ## Support for emojis
 Emojis are not supported for the customer chat widget.
 
 ## Context variable support for duplicate and delete dependency check
 
-While creating a context variable, the system does not perform duplicate detection in the work stream. Also, while deleting a context variable, the system does not perform a check for the dependency.
+While creating a context variable, the system does not perform duplicate detection in the work stream. Also, while deleting a context variable, the system does not perform a check for dependency.
+
+## Screen pop decline or time out 
+When an agent declines the screen pop or when the screen pop times out, work distribution mechanism puts a 2-minute pause on the agent’s clock and doesn’t allocate any new conversations to the agent for that time period.
+
+## Queue configuration 
+When you add a user to a queue, the sub grid doesn’t reflect the new member automatically. You are required to refresh the sub grid by selecting the **Refresh** button to see the new user in the list of queue members.
 
 ## Support for multiple channel providers
 If your organization has deployed a third party channel provider using the Dynamics 365 Channel Integration Framework, and when you want to use Omni-channel Engagement Hub in the same organization, the Omni-channel solution overrides the Channel Integration Framework solution as there is no support for multiple channel providers.
@@ -36,7 +42,7 @@ If your organization has deployed a third party channel provider using the Dynam
 When you use Edge Process in Unified Service Desk, agents cannot open knowledge articles from knowledge Base search control.  
  
 ## Support for automatic record linking to converstion 
-After agent creates a customer (contact/account) or case record using the quick create (+) option when in a session, it is not auto-linked to the conversation. As a workaround, agent can search for the newly created record using omni- channel search and link it to the conversation manually. 
+After agent creates a customer (contact/account) or case record using the quick create (+) option when in a session, it is not auto-linked to the conversation. As a workaround, agent can search for the newly created record using omni-channel search and link it to the conversation manually. 
 
 ## Dialog prompt in Unified Service Desk
 When an agent logs in to Unified Service Desk client application, the client application shows a dialog to close the window. Agent must select **Yes** to proceed working in Unified Service Desk.

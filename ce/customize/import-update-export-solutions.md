@@ -2,7 +2,7 @@
 title: "Import, update, and export solutions | MicrosoftDocs"
 description: "Learn how to import, update, and export a solution"
 ms.custom: 
-ms.date: 04/10/2018
+ms.date: 01/22/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,7 +24,7 @@ search.app:
 ---
 # Import, update, and export solutions 
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  You can import solutions manually using the steps below. Only import solutions that you've obtained from a trusted source. Customizations might include code that can send data to external sources. You can import the default solution only to the organization from which you exported it, but not into a different organization.  
 
@@ -159,9 +159,9 @@ search.app:
 |                         Min Synchronization Frequency                         |                           Minimum allowed time between scheduled [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronizations.                           |                                                                                                                                                                          |
 |                              Auto-Tag Max Cycles                              |                                 Maximum number of aggressive polling cycles executed for email auto-tagging when a new email is received.                                  |                                                                                                                                                                          |
 |                               Auto-Tag Interval                               |                           Normal polling frequency used for email auto-tagging in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].                           |                                                                                                                                                                          |
-|                                  ISV Config                                   |                                                                 Service Calendar Appearance Configuration                                                                  |                                                           You can define visual styles for service calendars.                                                            |
+|                                  ISV Config                                   |                                                                 Service Calendar Appearance Configuration                                                                  |                                                           You can define visual styles for service calendars. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Calendar Appearance Configuration](../developer/customize-dev/service-calendar-appearance-configuration.md)                                                           |
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Calendar Appearance Configuration](../developer/customize-dev/service-calendar-appearance-configuration.md)|
+
 
 
 ### See also

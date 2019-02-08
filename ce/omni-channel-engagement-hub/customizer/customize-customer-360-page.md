@@ -34,11 +34,11 @@ For an incoming conversation request, the system links an existing case to the c
 
 ## Recent cases
 
-This form section displays the recent cases that relates to the customer.
+This form section displays the recent cases that relate to the customer.
 
 ## All activities
 
-The **All activities** form (card) shows the case-related and customer-related activities in the form a timeline. You can create quick notes based on your discussion with the customer. You can also filter the timeline by customer activities, case activities, and conversation activities.
+The **All activities** form (card) shows the case-related and customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. You can also filter the timeline by customer activities, case activities, and conversation activities.
 
 > [!div class="nextstepaction"]
 > [Next topic: How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)

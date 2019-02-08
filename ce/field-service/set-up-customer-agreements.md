@@ -1,5 +1,5 @@
 ---
-title: "Set up customer agreements (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Set up customer agreements (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -125,7 +125,7 @@ An agreement in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 4.  In the **Invoice Product** section, click **+Add Agreement Invoice Product record**. The products will be added to your invoice at the time the invoice is generated.  
   
 ### See also   
- [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
  [Set up agreement sub-statuses](../field-service/set-up-agreement-sub-statuses.md)   
  [Set up tax codes](../field-service/set-up-tax-codes.md)   
  [Set up payment terms](../field-service/set-up-payment-terms.md)<br>

@@ -1,8 +1,8 @@
 ---
 title: Collaborate with your project team members with Office 365 Groups (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to collaborate with your Project Service team members through Office 365 Groups
-author: krbjoran
-manager: ShellyHa
+author: JohnPBurrows
+manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
@@ -10,7 +10,7 @@ ms.date: 8/03/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
-ms.author: krbjoran
+ms.author: jburrows
 audience: Admin
 search.audienceType: 
   - admin

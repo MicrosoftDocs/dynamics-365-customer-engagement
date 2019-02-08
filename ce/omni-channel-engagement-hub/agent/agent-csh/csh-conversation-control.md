@@ -24,28 +24,28 @@ Communication panel is a conversation control where you interact with the custom
 
 Using the chat channel, you can send quick replies and search for and share knowledge articles with the customer with whom you are interacting. You can transfer the work item to another agent or queue. Use the consult option if you need help to resolve the work item. Also, you can switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
 
-The landing page explains some of the key features of Omni-channel Engagement Hub and communication panel. When you interact with a customer, you can see the following interface in communication panel.
+The landing page explains some of the key features of Omni-channel Engagement Hub and communication panel. When you interact with a customer, you can see the following interface in the communication panel.
 
  > [!div class=mx-imgBorder]
  > ![Omni-channel Engagement Hub communication panel chat interface](../../media/csh-conversation-control-chat-interface.png "Omni-channel Engagement Hub communication panel chat interface")  
 
 In communication panel, you can see the following options:
  
- | Option           | Description                                   |
- |------------------|-----------------------------------------------|
- | Public           | Send messages to public |
- | Internal         | Send messages to internal users |
- | Customer summary | View customer summary |
- | Quick replies    | Send templatized messages  |
- | Notes            | Take notes specific to conversation |
- | Knowledge articles | Search for knowledge articles and share |
- | Link to conversation | Link the record to this conversation |
- | Consult          | View list to consult with other users | 
- |  Transfer        | View list to transfer the request |
+| Annotation | Option     | Description                                   |
+|------|------------------|-----------------------------------------------|
+|  1   | Public           | Send messages to public |
+|  2   | Internal         | Send messages to internal users |
+|  3   | Customer summary | View customer summary |
+|  4   | Quick replies    | Send templatized messages  |
+|  5   | Notes            | Take notes specific to conversation |
+|  6   | Knowledge articles | Search for knowledge articles and share |
+|  7   | Link to conversation | Link the record to this conversation |
+|  8   | Consult          | View list to consult with other users | 
+|  9   |  Transfer        | View list to transfer the request |
 
 ### Send messages using Public and Internal mode
 
-The communication panel allows you send messages in two ways - **Internal** and **Public**. 
+The communication panel allows you to send messages in two ways - **Internal** and **Public**. 
 
 When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option. The internal messages are not shown to the customers.
 
@@ -67,7 +67,7 @@ The Customer summary page displays details about a customer with whom you intera
 
 ### Send templatized messages in the chat
 
-The communication panel allows you to send templatized messages to the customer with whom your're interacting with. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send it to the customers.
+The communication panel allows you to send templatized messages to the customer with whom you're interacting with. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send it to the customers.
 
  > [!div class=mx-imgBorder] 
  > ![Use quick replies option to send faster replies to customers](../../media/csh-send-quick-replies-chat.png "Use quick replies option to send faster replies to customers")  
@@ -76,17 +76,14 @@ You can use a keyboard shortcut to see the list of quick replies. Press the Slas
 
 ### Take notes specific to conversation
 
-Use the notes option to capture information specific to the conversation when you interact with the customers. Use the shortcut to launch the notes.
+Use the notes option to capture information specific to the conversation when you interact with the customers. Use the option in the communication panel to launch the notes.
 
  > [!div class=mx-imgBorder]
- > ![Launch notes panel for taking notes](../../media/csh-cc-option-notes.png "Launch notes panel for taking notes")  
+ > ![Launch notes panel for taking notes](../../media/csh-cc-option-notes.png "Launch notes panel for taking notes")
 
- > [!div class=mx-imgBorder]
- > ![Notes panel to take the discussion points when interacting with customers](../../media/csh-cc-notes.png "Notes panel to take the discussion points when interacting with customers")  
+More information [Take notes specific to conversation](csh-take-notes.md)
 
-When you select the notes option from the communication panel, the application displays the notes panel next to the communication panel. You can capture the points and select **Add**. The notes will be linked to the conversation for you to access at a later point.
-
-### Search and knowledge articles
+### Search for and share knowledge articles
 
 From the communication panel, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the communication panel. Use the shortcut to launch knowledge articles search.
 
@@ -95,9 +92,16 @@ From the communication panel, you can search for relevant knowledge articles bas
 
 **/kb** (forward slash, letter k, and letter b) is the keyboard shortcut to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
 
+To learn more, see [Search for and share knowledge articles](csh-search-knowledge-articles.md)
+
 ### Link to conversation
 
-When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
+When you have a conversation with a customer, you can link the conversation to the record (case or account/contact). 
+
+> [!div class=mx-imgBorder]
+ > ![Use the link to conversation option to launch the link the conversation to a record](../../media/csh-cc-options-elippsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
+
+To learn more, see [Search and link a record to the conversation](csh-search-link-record.md)
 
 ### Consult with agent or supervisor
 
@@ -116,15 +120,15 @@ The communication panel allows you to transfer a conversation request. You can t
  > [!div class=mx-imgBorder]
  > ![Use the transfer option to launch the transfer list](../../media/csh-cc-options-elippsis-tansfer.png "Use the transfer option to launch the transfer list")
 
-You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and when you transfer the request, routing rules assigns the conversation (work item) to the appropriate agent in the queue.
+You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and when you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
 
-Use a keyboard shortcut to see the list of agents and/or the supervisor who are available for transfer. Press the Slash (/) key and the letters t (**/+t**).
+Use a keyboard shortcut to see the list of agents and/or the supervisor who is available for transfer. Press the Slash (/) key and the letters t (**/+t**).
 
 Use a keyboard shortcut to see the list of queues to transfer the conversation request. Press the Slash (/) key and the letters T and Q (**/+T+Q**).
 
  ![Transfer agent list](../../media/csh-cc-transfer-agent-list.png "transfer agent list") ![Transfer queue list](../../media/csh-cc-transfer-queue-list.png "Transfer queue list")
 
-**/T** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation to. The **/T** shortcut keeps the focus on the agent tab whereas the **/TQ** shortcut keeps the focus on the queue tab.
+**/T** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/T** shortcut keeps the focus on the agent tab whereas the **/TQ** shortcut keeps the focus on the queue tab.
 
 > [!div class="nextstepaction"]
 > [Next topic: Set user presence](csh-set-user-presence-status.md)
@@ -140,6 +144,7 @@ Use a keyboard shortcut to see the list of queues to transfer the conversation r
 - [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
 - [Search for and share knowledge articles](csh-search-knowledge-articles.md)
+- [Take notes specific to conversation](csh-take-notes.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
