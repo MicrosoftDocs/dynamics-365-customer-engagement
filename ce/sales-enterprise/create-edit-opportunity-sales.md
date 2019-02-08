@@ -2,7 +2,7 @@
 title: "Create or edit an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
 keywords: "opportunity, deal, develop, propose, nurture sales"
-ms.date: 09/24/2018
+ms.date: 02/08/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -221,6 +221,7 @@ Need a faster way to enter opportunities? Try one of these:
   
 ### See also 
 
+ [Dynamics 365 for Sales troubleshooting guide for sales people](troubleshooting.md)  
  [Run a report](../basics/run-report.md)   
  [Assign a record to a user or team](../basics/assign-record-user-team.md)      
  [Stay up-to-date with customer news with the activity feed](../basics/stay-up-date-with-customer-news-with-activity-feed.md)   
