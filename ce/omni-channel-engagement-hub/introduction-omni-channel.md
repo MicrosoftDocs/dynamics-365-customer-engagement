@@ -28,7 +28,7 @@ Omni-channel Engagement Hub also provides a modern, customizable, high-productiv
 
 Supervisors get real-time and historical visibility and insights into the operational efficiency of agents and the utilization across various channels.
 
-The enterprise-grade routing and work distribution engine allows customers to configure agent presence, availability, and routing rules, thus ensuring agents are working on the most relevant engagements
+The enterprise-grade routing and work distribution engine allows customers to configure agent presence, availability, and routing rules, thus ensuring agents are working on the most relevant engagements.
 
 ## See also
 

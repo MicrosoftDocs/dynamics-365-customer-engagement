@@ -24,7 +24,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <td>
 
 <h2> Get started </h2>
-<li><a href="introduction-omni-channel.md" data-raw-source="[Omni-channel Engagement introduction](introduction-omni-channel.md)">Omni-channel Engagement introduction</a></li>
+<li><a href="introduction-omni-channel.md" data-raw-source="[Omni-channel Engagement Hub introduction](introduction-omni-channel.md)">Omni-channel Engagement Hub introduction</a></li>
 <li><a href="system-requirements-omni-channel-engagement-hub.md" data-raw-source="[Pre-requisities and system requirements](system-requirements-omni-channel-engagement-hub.md)">Pre-requisities and system requirements</a></li>
 <li><a href="administrator/omni-channel-provision-license.md" data-raw-source="[Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)">Provision Omni-channel Engagement Hub</a></li>
 <li><a href="administrator/add-users-assign-roles.md" data-raw-source="[Assign roles and enable users](administrator/add-users-assign-roles.md)">Assign roles and enable users</a></li>
@@ -44,10 +44,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 <h2> I'm an agent </h2>
 
-<li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Omni-channel agent](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Omni-channel agent</a></li>
+<li><a href="agent/omni-channel-engagement-hub-agent-introduction.md" data-raw-source="[Omni-channel agent](agent/omni-channel-engagement-hub-agent-introduction.md)">Omni-channel agent</a></li>
+<li><a href="agent/agent-csh/csh-omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
+](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)">Use on Customer Service Hub</a></li>
 <li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
-](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Agents using Unified Service Desk
-</a></li>
+](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Use on Unified Service Desk</a></li>
 <li><a href="agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Customer Service Hub)](agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Customer Service Hub)</a> </li>
 <li><a href="agent/agent-usd/customer360-overview-existing-challenges.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer360-overview-existing-challenges.md)">View customer summary (Unified Service Desk)</a></li>
 <li><a href="agent/agent-csh/csh-conversation-control.md" data-raw-source="[View communication panel (Customer Service Hub)](agent/agent-csh/csh-conversation-control.md)">View communication panel (Customer Service Hub)</a></li>
