@@ -14,7 +14,13 @@ ms.custom:
 ---
 # Introduction to Omni-channel Engagement Hub
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0 
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
 The Omni-channel Engagement Hub for Dynamics 365 is a robust cloud-based service that extends the power of Dynamics 365 for Customer Service to enable organizations to instantly connect and engage with their customers via channels like Live Chat and SMS.
 

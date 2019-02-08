@@ -16,6 +16,8 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 1.  Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 
 2.  In the Unified Service Desk sign-in dialog box, provide authentication details to connect to your Dynamics 365 for Customer Engagement server, and then select **Login**.
