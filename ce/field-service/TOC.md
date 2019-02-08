@@ -35,7 +35,6 @@
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)
 ## [Resource pay types](set-up-resource-pay-types.md)
-## [Resource pools](resource-pools.md)
 ## [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Scheduling
@@ -43,8 +42,9 @@
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
-## [Resource crew scheduling](resource-crews.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
+## [Resource crew scheduling](resource-crews.md)
+## [Resource pools](resource-pools.md)
 ## [Facility scheduling](facility-scheduling.md)
 ## [Fulfillment preferences](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
