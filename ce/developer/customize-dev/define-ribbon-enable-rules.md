@@ -121,46 +121,6 @@ function EnableRule()
 }
 ```
 
-#### Web client
-```JavaScript
-let ruleEnabled;
-function EnableRule()
-{
-    if (ruleEnabled !== undefined)
-    {
-        return ruleEnabled;
-    }
-
-    const request = new XMLHttpRequest();
-    request.open('GET', '/bar/foo');
-
-    request.onload = function (e)
-    {
-        if (request.readyState === 4)
-        {
-            if (request.status === 200)
-            {
-                ruleEnabled = request.responseText === "true";
-
-                // Refresh ribbon to re-evaluate rule
-                Xrm.Page.ui.refreshRibbon();
-            }
-            else
-            {
-                ruleEnabled = false;
-            }
-        }
-    };
-    request.onerror = function (e)
-    {
-        ruleEnabled = false;
-    };
-
-    request.send(null);
-    return false;
-}
-```
-
 
 ### Entity Rule
  Uses the `<EntityRule>` element. Entity rules allow for evaluation of the current entity. This is useful when you define custom actions that apply to the Entity Template instead of for specific entities. For example, you may want to add a ribbon element to all entities except for several specific entities. It is easier to define the custom action for the Entity Template that applies to all entities and then use an Entity Rule to filter out those that should be excluded.  
