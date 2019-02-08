@@ -99,7 +99,7 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
     
 3. On the **Create Custom Connector** menu, select **Import an API file**  
 
-4. Enter a name for the custom connector, import **CSS-Entity.swagger.json** file and continue.
+4. Enter a name for the custom connector, import **CSS-Entity.swagger.json** file and select **Continue**.
 
     ![Custom connector name](../media/custom-connector-name.png)
     
@@ -124,10 +124,10 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
 8. Provide the following information, and then select **Test Operation** to test the connection:
 
       1. **Organization ID**: Enter your organization ID.
-      2. **Work stream ID**: Enter the ID of work stream configured in Dynamics 365. You can get this id from URL of the work stream record page.  
+      2. **Work stream ID**: Enter the ID of work stream configured in Dynamics 365. You can get this ID from URL of the work stream record page.  
       3. **Entity logical name**: Enter the logical name of the CDS entity that you choose to be routed.
       4. **Entity set name**: Enter the set name of the CDS entity that you choose to be routed. (Typically, this is a plural form of the logical name.)
-      5. **Record ID**: Enter the ID of work stream entity configuration record, configured in Dynamics 365. You can get this id from URL of the work stream entity configuration record page.
+      5. **Record ID**: Enter the ID of work stream entity configuration record, configured in Dynamics 365. You can get this ID from the URL of the work stream entity configuration record page.
       6. **Relationship name with work stream**: Enter the name of the entity relationship with the work stream. You can get this relationship name from **Settings** > **Customizations** > **Entities**.
 
          ![Connector details](../media/connector-details.png)
@@ -149,11 +149,11 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
 
       1. **Entity Logical Name**: Enter the logical name of the CDS entity that you choose to be routed.
       2. **Entity Set Name**: Enter the set name of the CDS entity that you choose be routed. (Typically, this is a plural form of the logical name.)
-      3. **Record ID**: Use 'Add dynamic content' option to search for and select entity name. For example for case entity select **Case** from dyanmic content 
+      3. **Record ID**: Use **Add dynamic content** option to search for and select entity name. For example for case entity select **Case** from dyanmic content 
       4. **Name of Entity Relationship With**: Enter the name of the entity relationship with the work stream. You can get this relationship name from **Settings** > **Customizations** > **Entities**. For example for case entity the relationship name would be  **incident\_msdyn\_ocliveworkitems**.
-      5. **Record details**: Use 'Add dynamic content' option and select **value-key-item-output**.
+      5. **Record details**: Use **Add dynamic content** option and select **value-key-item-output**.
       6. **Organization ID**: Enter the ID of your organization.
-      7. **Work Stream ID**: Enter the ID of work stream configured in Dynamics 365. You can get this id from URL of the work stream record page.
+      7. **Work Stream ID**: Enter the ID of work stream configured in Dynamics 365. You can get this ID from the URL of the work stream record page.
 
          ![connector action](../media/connector-action.png)
          
@@ -161,11 +161,9 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
 
     To test the flow with the entity, create a new record for the entity that you've selected to route.
    
+    After a successful run, you should see the following page.
 
-        After a successful run, you should see the following page.
-
-
-        ![Test saved connector](../media/save-connector.png)
+    ![Test saved connector](../media/save-connector.png)
 
 
 
