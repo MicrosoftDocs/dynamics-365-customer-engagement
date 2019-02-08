@@ -17,6 +17,8 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Enable knowledge article sharing in the Omni-channel Engagement Hub so that customer queries can be resolved quickly. You can configure an external portal in the **Customer Service Hub** app, so that your customer service agents can share knowledge article links with the customers from within the Omni-channel Engagement Hub app.
 
 Follow these steps to enable knowledge article sharing.
