@@ -85,7 +85,7 @@ function EnableRule()
 > [!NOTE]
 >  Custom rules that do not return a value quickly can affect the performance of the ribbon. If you have to perform logic that might take some time to complete (e.g. a network request), use the following strategy to make your custom rule asynchronous:
 
- Unified Interface rules support returning a Promise rather than boolean for asynchronous rule evaluation.
+ Unified Interface rules support returning a Promise rather than boolean for asynchronous rule evaluation. If the promise does not resolve within 10 seconds, the rule will resolve with a false value.
  > [!NOTE]
 >  Promises-based rules will only work on Unified Interface, so they cannot be used if classic Web Client is still being used.
  ```JavaScript
