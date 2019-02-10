@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps system architecture can be divided into three major components: the core system, which features the event execution pipeline, the database component, which hosts the asynchronous queue, and the asynchronous service. One benefit of the scalable architecture of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps is that the asynchronous service can be hosted on servers other than the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server, resulting in improved performance.  For more information, see the architecture diagram in [Event Execution Pipeline](event-execution-pipeline.md).  
+The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps system architecture can be divided into three major components: the core system, which features the event execution pipeline, the database component, which hosts the asynchronous queue, and the asynchronous service. One benefit of the scalable architecture of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps is that the asynchronous service can be hosted on servers other than the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server, resulting in improved performance. 
   
  Register plug-ins for asynchronous events when they have to perform lots of processing or for functions that are not time critical. Registering a plug-in that performs lots of processing for a synchronous event can adversely affect the performance of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
@@ -39,4 +39,5 @@ The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps system arch
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   
  [Walkthrough: Stop and Start the Asynchronous Service](stop-start-asynchronous-service.md)   
  [Asynchronous Service in Dynamics 365 for Customer Engagement apps](asynchronous-service.md)   
- [AsyncOperation (system job) entity](asyncoperation-system-job-entity.md)
+ [AsyncOperation (system job) entity](asyncoperation-system-job-entity.md)  
+ [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)
