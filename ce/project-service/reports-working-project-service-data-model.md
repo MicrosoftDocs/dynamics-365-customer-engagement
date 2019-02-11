@@ -57,7 +57,7 @@ The **Sales Order Line** entity has also been extended. Other added fields captu
 
 There are also new entities designed for project contracts. These include:
 
-- **Project Contract Line Detail**: This entity contains the line-level details that roll up to the contract line amount. They can be as detailed as line items generated from a project schedule at the task level.
+- **Project Contract Line Detail**: This entity contains the line-level details that roll up to the contract line amount. 
 - **Contract Line Invoice Schedule**: This entity contains the billing schedule generated from the invoice frequency assigned to the contract line.
 - **Contract Milestone**: This entity contains the billing milestones for contract lines with a fixed-price billing term.
 - **Project Contract Line Project Price List**, **Project Contract Line Resource Category**, and **Project Contract Line Transaction Category**: These are other entities added to contracts in the PSA solution.
@@ -68,7 +68,7 @@ There are also new entities designed for project contracts. These include:
 
 The **Projects** entity and its related entities are exclusive to PSA. **Project** is the top-level entity used to capture the work and cost side of operations.
 
-- **Project team member**: This entity contains details about the bookable resources assigned to the project. They can be generic or named bookable resources entered by the project manager or generated from the project schedule.
+- **Project team member**: This entity contains details about the bookable resources assigned to the project. Those resources can be generic bookable resources, or they can be named bookable resources that are either entered by the project manager or generated from the project schedule.
 - **Project Task**: This entity contains the tasks that make up the project plan or schedule.
 - **Resource Assignment**: This entity contains the task assignment for the bookable resource.
 - **Resource Requirement**: This entity contains the requirements for any generic resource team members.
@@ -84,19 +84,19 @@ Project resources use the **Bookable Resource** entities from Universal Resource
 - **Bookable Resource**: This entity represents the user, contact, generic resource, account, group, or equipment that is used on the project team.
 - **Bookable Resource Characteristics**: This entity includes the skills, certifications, or education of the resource. The characteristics can have rating values that are defined by the rating model.
 - **Bookable Resource Category**: This entity represents the role of the bookable resource.
-- **Bookable resource bookings**: This entity represents the time booked on projects for the resource. Each booking has both a header and line entities, and each line has a status that represents the status of the booking.
+- **Bookable resource bookings**: This entity represents the time booked on projects for the resource. Each booking has a header entity and line entities, and each line has a status that represents the status of the booking.
 
 > ![Diagram showing bookable resource characteristics relationships](media/PS-Reporting-image5.png "Diagram showing bookable resource characteristics relationships")
 
 ## Reporting on actual transactions
 
-When you approve a timesheet or expense, or invoice a contract in PSA, the business transaction is captured in the **Actual** entity. This entity can serve as the basis for almost all financially related reports in PSA. The **Actual** entity captures the cost and sales transactions for the business event and many relevant attributes.
+When you approve a timesheet or expense, or invoice a contract in PSA, the business transaction is captured in the **Actual** entity. This entity can serve as the basis for almost all financial-related reports in PSA. The **Actual** entity captures the cost and sales transactions for the business event. It also captures many relevant attributes.
 
 The key thing to understand when working with the **Actual** entity is what transaction or transactions are recorded in the entity and when they are recorded. When working with a time entry, the typical flow is as follows (expense entries are similar):
 
 1. When the time entry is saved, no records are created in the **Actual** entity.
 2. When the time entry is submitted, no records are created in the **Actual** entity.
-3. When the time entry is approved, one record and potentially a second record can be created in the **Actual** entity. The first record stores the cost of the time entry. The second record stores the unbilled sales amount of the time entry. This second record for sales is dependent on the project either having a customer set on it or a quote or contract line assigned to it. 
+3. When the time entry is approved, one record and potentially a second record is created in the **Actual** entity. The first record stores the cost of the time entry. The second record stores the unbilled sales amount of the time entry. The second record is dependent on the project either having a customer, a quote, or a contract line assigned to it. 
 
     | Document date | Transaction type | Transaction class | Customer         | Contract   | Resource     | Resource role | Billing type | Quantity | Unit price | Amount |
     |---------------|------------------|-------------------|------------------|------------|--------------|---------------|--------------|----------|------------|--------|
