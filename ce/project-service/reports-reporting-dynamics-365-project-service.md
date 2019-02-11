@@ -1,16 +1,16 @@
 ---
 title: Reporting home page 
 description: This topic provides information about reporting in Project Service (PSA).
-author: JohnPBurrows
+author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 12/27/2018
+ms.date: 2/11/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
-ms.author: jburrows
+ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
@@ -33,7 +33,7 @@ The Report Wizard gives non-developers the ability to create simple reports in D
 
 ## Custom SQL Server Reporting Services reports
 
-If there is a specific report that your business needs that can't be created with the Report Wizard, you can create a custom report. You will need to have Microsoft Visual Studio installed along with the appropriate SQL Server Data Tools and Report Authoring Extensions. For more information about tools and versions, see [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools). To create a custom report, see [Create a new report using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools).
+If there is a specific report that your business needs that can't be created with the Report Wizard, you can create a custom report. You will need to have Microsoft Visual Studio installed along with the appropriate SQL Server Data Tools and Report Authoring Extensions. For more information about tools and versions, see [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools.md). To create a custom report, see [Create a new report using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools.md).
 
 ## Power BI Insights apps
 
