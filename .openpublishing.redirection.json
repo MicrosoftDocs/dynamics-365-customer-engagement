@@ -1,67 +1,67 @@
 {
   "redirections": [
     {
-      "source_path": "ce/guidance/client/avoid-window-top",
+      "source_path": "ce/guidance/client/avoid-window-top.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/avoid-window-top",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/client/interact-http-https-resources-asynchronously",
+      "source_path": "ce/guidance/client/interact-http-https-resources-asynchronously.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/data/retrieve-published-metadata",
+      "source_path": "ce/guidance/data/retrieve-published-metadata.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/work-with-metadata/retrieve-published-metadata",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/data/retrieve-specific-columns-entity-via-query-apis",
+      "source_path": "ce/guidance/data/retrieve-specific-columns-entity-via-query-apis.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/work-with-metadata/retrieve-specific-columns-entity-via-query-apis",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/server/avoid-batch-requests-plugin",
+      "source_path": "ce/guidance/server/avoid-batch-requests-plugin.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/avoid-batch-requests-plugin",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/server/develop-iplugin-implementations-stateless",
+      "source_path": "ce/guidance/server/develop-iplugin-implementations-stateless.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/develop-iplugin-implementations-stateless",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/server/do-not-duplicate-plugin-step-registration",
+      "source_path": "ce/guidance/server/do-not-duplicate-plugin-step-registration.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/do-not-duplicate-plugin-step-registration",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/server/include-filtering-attributes-plugin-registration",
+      "source_path": "ce/guidance/server/include-filtering-attributes-plugin-registration.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/include-filtering-attributes-plugin-registration",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/server/limit-registration-plugins-retrieve-retrievemultiple",
+      "source_path": "ce/guidance/server/limit-registration-plugins-retrieve-retrievemultiple.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/limit-registration-plugins-retrieve-retrievemultiple",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/server/optimize-assembly-development",
+      "source_path": "ce/guidance/server/optimize-assembly-development.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/optimize-assembly-development",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/server/remove-deactivated-disabled-configurations",
+      "source_path": "ce/guidance/server/remove-deactivated-disabled-configurations.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/remove-deactivated-disabled-configurations",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/server/set-keepalive-false-interacting-external-hosts-plugin",
+      "source_path": "ce/guidance/server/set-keepalive-false-interacting-external-hosts-plugin.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/set-keepalive-false-interacting-external-hosts-plugin",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/guidance/server/use-invalidpluginexecutionexception-plugin-workflow-activities",
+      "source_path": "ce/guidance/server/use-invalidpluginexecutionexception-plugin-workflow-activities.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/use-invalidpluginexecutionexception-plugin-workflow-activities",
       "redirect_document_id": "false"
     },
