@@ -3,6 +3,7 @@
 # [Fulfillment preferences](fulfillment-preferences.md)
 # [Resource crew scheduling](resource-crews.md)
 # [Facility scheduling](facility-scheduling.md)
+# [Resource pools](resource-pools.md)
 # URS extensibility
 ## [Extensibility updates](developer/extensibility-release-notes.md)
 ## Preferred geospatial data provider
