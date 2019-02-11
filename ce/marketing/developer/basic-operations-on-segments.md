@@ -44,33 +44,35 @@ To test the operations you can use Postman tool. More information [Use Postman w
 
 This example shows how to create, update, retrieve and delete static segments.
 
-**Create Request**
+1. **Create Request**
 
-In create request, you will create a new static segment and set statuscode to draft. The response header contains the URL to this newly created record (entity instance), which parenthetically includes the unique ID (segmentID) for this record.
+In create request, you will create a new static segment and set `statuscode` to `draft` and contains two contacts. The response header contains the `URL` to this newly created record (entity instance), which parenthetically includes the `unique ID (segmentID)` for this record.
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
   "msdyncrm_segmentname": "StaticSegmentApi1",
   "msdyncrm_segmenttype": 192350001,
-  "statuscode": 192350000
-}
-```
-**Update Request**
-
-In update request, you will change the `statuscode` of the created draft static segment to `Live` and add 2 segment members.
-
-```HTTP
-PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
-{
   "msdyncrm_segmentmemberid": "[\"crm1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"crm0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
-  "statuscode": 192350001
+  "statuscode": 192350000
 }
 ```
 > [!Important]
 > The purpose of the “crm” prefix is to unambiguously indicate the type of the record identifier. This is required when you are using a legacy Segmentation solution (DCI Segmentation) which by default uses another type of identifier.
 
-**Retrieve Request**
+
+2. **Update Request**
+
+In update request, you will set the `statuscode` of the created static segment to `Going Live (192350006)`, when this finishes the status will be updated to `Live`. 
+
+```HTTP
+PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
+{
+  "statuscode": 192350006
+}
+```
+
+3. **Retrieve Request**
 
 In retrieve request, you will retrieve the static segment that is in `Live` state.
 
@@ -83,9 +85,9 @@ You can also retrieve the segments with specific properties.
 GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdyncrm_segmentname,msdyncrm_segmentquery,msdyncrm_description
 ```
 
-**Delete Request**
+4. **Delete Request**
 
-In the delete request, you will delete the created draft static segment. 
+In the delete request, you will delete the created static segment. 
 
 ```HTTP
 DELETE {{orgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -95,9 +97,9 @@ DELETE {{orgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 This example shows how to create, update, retrieve and delete dynamic segments.
 
-**Create Request**
+1. **Create Request**
 
-In create request, you will create a dynamic segment and go-live at same time.
+In create request, you will create a dynamic segment and set the `statuscode` to `Live`.
 
 ```HTTP
 POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
@@ -108,7 +110,7 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
     "statuscode": 192350001
 }
 ```
-**Update Request**
+2. **Update Request**
 
 In update request, you will change the status of the dynamics segment to `Stop`.
 
@@ -118,7 +120,7 @@ PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
     "statuscode": 192350002
 }
 ```
-**Retrieve Request**
+3. **Retrieve Request**
 
 In retrieve request, you will retrieve the dynamic segment that is created. 
 
@@ -126,9 +128,9 @@ In retrieve request, you will retrieve the dynamic segment that is created.
 GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 
-**Delete Request**
+4. **Delete Request**
 
-In delete request, you will delete the dynamics segment that is created.
+In delete request, you will delete the dynamic segment that is created.
 
 ```HTTP
 DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -138,9 +140,9 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 This example shows how to create, update, retrieve and delete compound segments.
 
-**Create Request**
+1. **Create Request**
 
-In create request, you will create a compound segment and go-live at same time.
+In create request, you will create a compound segment and set the `statuscode` to `Live`.
 
 ```HTTP
 POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
@@ -151,7 +153,7 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
     "statuscode": 192350001
 }
 ```
-**Update Request**
+2. **Update Request**
 
 In update request, you will change the status of the compound segment to `Stop`.
 
@@ -161,7 +163,7 @@ PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
     "statuscode": 192350002
 }
 ```
-**Retrieve Request**
+3. **Retrieve Request**
 
 In retrieve request, you will retieve the compound segment that is created. 
 
@@ -169,7 +171,7 @@ In retrieve request, you will retieve the compound segment that is created.
 GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 
-**Delete Request**
+4. **Delete Request**
 
 In delete request, we will delete the compound segment that is created.
 
@@ -179,7 +181,7 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ## Add/remove segment members
 
-Members can be added to or removed from segments, both static and dynamic. As these operations go beyond a simple add/remove for dynamic segment they are referred to as `Include/Exclude`.
+Members can be added to or removed from segments. As these operations go beyond a simple add/remove for segment they are referred to as `Include/Exclude`.
 
 Include/exclude operations can be performed through the API by posting messages of the following types:
 
@@ -258,5 +260,5 @@ Following are some of the important aspects that needs to be considered while in
 - Include/exclude member request is processed asynchronously independent of any recurring segment evaluations.
 - Any include/exclude operation resulting in an actual update to segment members is recorded in `Segment Insights`.
 - When including or excluding multiple records, preferably use the plural endpoints for faster processing.
--  You can upto 10000 contacts to `msdyncrm_segmentmemberid` field.
+-  You can have upto 10000 contacts to `msdyncrm_segmentmemberid` field.
 
