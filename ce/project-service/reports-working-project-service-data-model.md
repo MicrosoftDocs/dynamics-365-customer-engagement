@@ -41,11 +41,11 @@ The Sales **Quote Line** entity is extended by PSA. One field that PSA adds is *
 
 PSA adds other new quote-related entities to the Dynamics 365 data model. These include:
 
-- **Quote Line Detail**: Contains the project estimate details of the quote line. It contains two records for each quote line. One record stores the cost and cost details of the quote line, and the other record stores the sales amount and sales details of the quote line.
-- **Quote Line Invoice Schedule**: Contains the billing schedule for the quote line. This is generated based on the invoicing frequency assigned to the quote line.
-- **Quote Line Milestone**: Contains the billing milestones for fixed-price quote lines.
-- **Quote Line Analytics Breakdown**: Contains financial details of the quote line that can be useful in reporting quoted sales and estimated cost amounts by various dimensions.
-- **Quote Line Project Price List**, **Quote Line Resource Category**, and **Quote Line Transaction Category** are other entities added to quotes by PSA.
+- **Quote Line Detail** - Contains the project estimate details of the quote line. It contains two records for each quote line. One record stores the cost and cost details of the quote line, and the other record stores the sales amount and sales details of the quote line.
+- **Quote Line Invoice Schedule** - Contains the billing schedule for the quote line. This is generated based on the invoicing frequency assigned to the quote line.
+- **Quote Line Milestone** - Contains the billing milestones for fixed-price quote lines.
+- **Quote Line Analytics Breakdown** - Contains financial details of the quote line that can be useful in reporting quoted sales and estimated cost amounts by various dimensions.
+- **Quote Line Project Price List**, **Quote Line Resource Category**, and **Quote Line Transaction Category** - These are other entities added to quotes by PSA.
 
 > ![Diagram showing quote, quote line, and project relationships](media/PS-Reporting-image2.png "Diagram showing quote, quote line, and project relationships")
 
@@ -57,10 +57,10 @@ The **Sales Order Line** entity has also been extended. Other added fields captu
 
 There are also new entities designed for project contracts. These include:
 
-- **Project Contract Line Detail**: This entity contains the line-level details that roll up to the contract line amount. 
-- **Contract Line Invoice Schedule**: This entity contains the billing schedule generated from the invoice frequency assigned to the contract line.
-- **Contract Milestone**: This entity contains the billing milestones for contract lines with a fixed-price billing term.
-- **Project Contract Line Project Price List**, **Project Contract Line Resource Category**, and **Project Contract Line Transaction Category**: These are other entities added to contracts in the PSA solution.
+- **Project Contract Line Detail** - This entity contains the line-level details that roll up to the contract line amount. 
+- **Contract Line Invoice Schedule** - This entity contains the billing schedule generated from the invoice frequency assigned to the contract line.
+- **Contract Milestone** - This entity contains the billing milestones for contract lines with a fixed-price billing term.
+- **Project Contract Line Project Price List**, **Project Contract Line Resource Category**, and **Project Contract Line Transaction Category** - These are other entities added to contracts in the PSA solution.
 
 > ![Diagram showing order, order line, and project relationships](media/PS-Reporting-image3.png "Diagram showing order, order line, and project relationships")
 
@@ -68,11 +68,11 @@ There are also new entities designed for project contracts. These include:
 
 The **Projects** entity and its related entities are exclusive to PSA. **Project** is the top-level entity used to capture the work and cost side of operations.
 
-- **Project team member**: This entity contains details about the bookable resources assigned to the project. Those resources can be generic bookable resources, or they can be named bookable resources that are either entered by the project manager or generated from the project schedule.
-- **Project Task**: This entity contains the tasks that make up the project plan or schedule.
-- **Resource Assignment**: This entity contains the task assignment for the bookable resource.
-- **Resource Requirement**: This entity contains the requirements for any generic resource team members.
-- **Estimate** and **Estimate line**:  These enities with a header/line relationship, contain expense estimates for the project. Task estimates are stored on the **Resource Estimate** entity.
+- **Project team member** - This entity contains details about the bookable resources assigned to the project. Those resources can be generic bookable resources, or they can be named bookable resources that are either entered by the project manager or generated from the project schedule.
+- **Project Task** - This entity contains the tasks that make up the project plan or schedule.
+- **Resource Assignment** - This entity contains the task assignment for the bookable resource.
+- **Resource Requirement** - This entity contains the requirements for any generic resource team members.
+- **Estimate** and **Estimate line** - These enities with a header/line relationship, contain expense estimates for the project. Task estimates are stored on the **Resource Estimate** entity.
 
 > ![Diagram showing resource requirement and project relationships](media/PS-Reporting-image4.png "Diagram showing resource requirement and project relationships")
 
@@ -81,10 +81,10 @@ The **Projects** entity and its related entities are exclusive to PSA. **Project
 
 Project resources use the **Bookable Resource** entities from Universal Resource Scheduling (URS) that are shared with other apps, such as Dynamics 365 for Field Service. Entities you might need to use when reporting on project resources are:
 
-- **Bookable Resource**: This entity represents the user, contact, generic resource, account, group, or equipment that is used on the project team.
-- **Bookable Resource Characteristics**: This entity includes the skills, certifications, or education of the resource. The characteristics can have rating values that are defined by the rating model.
-- **Bookable Resource Category**: This entity represents the role of the bookable resource.
-- **Bookable resource bookings**: This entity represents the time booked on projects for the resource. Each booking has a header entity and line entities, and each line has a status that represents the status of the booking.
+- **Bookable Resource** - This entity represents the user, contact, generic resource, account, group, or equipment that is used on the project team.
+- **Bookable Resource Characteristics** - This entity includes the skills, certifications, or education of the resource. The characteristics can have rating values that are defined by the rating model.
+- **Bookable Resource Category** - This entity represents the role of the bookable resource.
+- **Bookable resource bookings** - This entity represents the time booked on projects for the resource. Each booking has a header entity and line entities, and each line has a status that represents the status of the booking.
 
 > ![Diagram showing bookable resource characteristics relationships](media/PS-Reporting-image5.png "Diagram showing bookable resource characteristics relationships")
 
