@@ -95,7 +95,7 @@ The following are Office 365 user contact fields.
 - Each user license requires a unique Microsoft account, and every user who logs on to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps needs a license. Most [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps subscriptions include a specific number of user licenses.  
 
 > [!NOTE]
-> There is a set of default security roles that are assigned to users based on the license and/or solution installed. These security roles only give users Read access to apps that are installed in the instance. For example, when a user is assigned with the Dynamics 365 Customer Engagement Plan license and is synced to an instance that has the Customer Service Hub app, the user is automatically assigned with the Customer Service app access security role. There is no data access permission granted to this role. The administrator is still required to assign the appropriate security role to the user in order for the user to view and interact with the data. 
+> There is a set of default security roles that are assigned to users based on the license and/or solution installed. These security roles only give users Read access to apps that are installed in the instance. For example, when a user is assigned the Dynamics 365 Customer Engagement Plan license and is synced to an instance that has the Customer Service Hub app, the user is automatically assigned with the Customer Service app access security role. There is no data access permission granted to this role. The administrator is still required to assign the appropriate security role to the user in order for the user to view and interact with the data. 
 
 <a name="BKMK_AssignSecurity"></a>   
 
