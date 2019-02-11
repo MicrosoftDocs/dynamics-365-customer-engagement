@@ -29,7 +29,7 @@ Project Service (PSA) includes two system dashboards: Practice Manager and Resou
 
 ## Practice Manager 
 
-The Practice Manager Dashboard provides the practice manager with a graphical dashboard experience to track costs, sales, and gross margin and utilization. The dashboard also provides the ability to slice the information by various dimensions such as customer, project, or resource role. For more information on creating and customizing dashboards, see [Create or edit dashboards](../customize/create-edit-dashboards.md).
+The Practice Manager Dashboard provides the practice manager with a graphical dashboard experience to track costs, sales, and gross margin and utilization. The dashboard also provides the ability to slice the information by various dimensions such as customer, project, or resource role. For more information about how to create and customize dashboards, see [Create or edit dashboards](../customize/create-edit-dashboards.md).
 
 ## Resource Manager 
 
