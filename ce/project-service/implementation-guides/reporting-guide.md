@@ -28,3 +28,6 @@ Project Service Automation (PSA) uses Dynamics 365 for Customer Engagement repor
 
 The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:
 
+- [Reporting home page](../reports-reporting-dynamics-365-project-service.md)
+- [Dashboards](../reports-dashboards.md)
+- [Working with the Project Service Automation data model](../reports-working-project-service-data-model.md)
