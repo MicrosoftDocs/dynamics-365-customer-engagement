@@ -1,5 +1,5 @@
 ---
-title: "Extend Segments using API| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
+title: "Basic Operations on Segments using API| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
 description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing App."" # 115-145 characters including spaces. This abstract displays in the search result.
 ms.custom: ""
 ms.date: 2/07/2019
@@ -30,14 +30,13 @@ When you create a segment, the properties of the segment are stored in `msdyncrm
 
 This topic demonstrates how to perform basic operation on the `msdyncrm_segment` entity. You need to pass the following mandatory fields in order to create a segment.
 
-|Display Name|Schema Name|Value|
-|----------|--------------|------|
-|Name|msdyncrm_segmentname|Name of the segment|
-|Segment Type|msdyncrm_segmenttype|Type of segment. There are 3 types of segments:<br /> - static `192350001`<br />- Dynamic `192350000`<br >- Compound `192350002`|
-|Status Reason|statuscode|Current status of the segment. Following are the available statu codes: <br /> - Draft `192350000`<br /> - Live `192350001`<br /> - Stopped `192350002`
+|Display Name|Schema Name|Value|Required|
+|----------|--------------|------|-------|
+|Name|msdyncrm_segmentname|Name of the segment|Yes|
+|Segment Type|msdyncrm_segmenttype|Type of segment. There are 3 types of segments:<br /> - static `192350001`<br />- Dynamic `192350000`<br >- Compound `192350002`|Yes|
+|Status Reason|statuscode|Current status of the segment. Following are the available statu codes: <br /> - Draft `192350000`<br /> - Live `192350001`<br /> - Stopped `192350002`|Yes|
+|Segment Query|msdyncrm_segmentquery|Query in segmentation query|Yes (only for dynamic and compounbd segements)|
 
-> [!NOTE]
-> You need to also pass `Segment Query` when creating Dynamic and Compound segments.
 
 To test the operations you can use Postman tool. More information [Use Postman with Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-web-api)
 
