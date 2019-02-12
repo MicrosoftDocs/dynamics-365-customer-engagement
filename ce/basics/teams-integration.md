@@ -25,7 +25,7 @@ search.app:
 # Integrate Dynamics 365 for Customer Engagement apps with Microsoft Teams 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-).
+
 
 If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]. With the Dynamics 365 for Teams integration, you add the Dynamics 365 for Customer Engagement apps features you rely on to the Teams app you collaborate with.
 
