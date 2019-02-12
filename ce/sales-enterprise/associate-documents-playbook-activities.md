@@ -23,6 +23,8 @@ topic-status: Tech Reviewing
 
 ## Preview: Associate documents with playbook activities
 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!NOTE]

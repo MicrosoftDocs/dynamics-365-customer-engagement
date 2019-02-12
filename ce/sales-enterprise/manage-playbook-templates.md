@@ -23,6 +23,8 @@ topic-status: Tech Reviewing
 
 # Manage playbook templates
 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
 Playbooks provide users with guidance on recurring tasks in which consistent actions are expected. Playbooks can also contain best practices based on scenarios that have worked in similar situations before.
 
 ## Create a playbook template
