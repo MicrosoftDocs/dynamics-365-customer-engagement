@@ -1,6 +1,6 @@
 ---
-title: Set work hours to define availability (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
-description: Understand how to set work hours to define availability in Dynamics 365 for Customer Engagement for Customer Service
+title: Set work hours to define availability (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Understand how to set work hours to define availability in Dynamics 365 for Customer Service
 keywords: Set work hours for a facility and equipment; Dynamics 365 for Customer Engagement; Customer Service; Service Scheduling
 author: anjgupta
 applies_to: 
@@ -24,7 +24,7 @@ search.app:
 
 # Set work hours to define availability (Customer Service app)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You can set up and define the hours a resource is available. By default, the resources are set up for a 7-days-a-week, 24-hour schedule. 
 

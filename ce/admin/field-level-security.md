@@ -1,7 +1,7 @@
 ---
 title: "Field level security for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/30/2017
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: 7b3e2bc3-6197-4afe-953a-62f6694899ed
 caps.latest.revision: 20
 author: Mattp123
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -64,7 +64,7 @@ A combination of these three permissions can be configured to determine the user
   
 <a name="BKMK_FLSexample"></a>   
 ## Example for restricting the mobile phone field for the Contact entity  
- Imagine you company’s policy is that sales members should have different levels of access to contact mobile phone numbers as described here.  
+ Imagine your company’s policy is that sales members should have different levels of access to contact mobile phone numbers as described here.  
   
 |User or Team|Access|  
 |------------------|------------|  
@@ -121,7 +121,7 @@ Any Dynamics 365 for Customer Engagement apps users not defined in the previousl
 ## Which fields can be secured?  
  Every field in the system contains a setting for whether field security is allowed. You can view this in the Customizations area of the web application. 
  
-There are thousands of attributes that can be secured, so there are two easier ways to look for this information. To view the entity metadata for your organization, install the Metadata Browser solution described in [Browse the Metadata for Your Organization](../developer/browse-your-metadata.md). You can also view the metadata for an uncustomized organization in the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] file called EntityMetadata.xlsx included in the top-level folder of the SDK. [Download the Microsoft Dynamics 365 for Customer Engagement apps apps SDK](http://go.microsoft.com/fwlink/p/?LinkId=691153)  
+There are thousands of attributes that can be secured, so there are two easier ways to look for this information. To view the entity metadata for your organization, install the Metadata Browser solution described in [Browse the Metadata for Your Organization](../developer/browse-your-metadata.md). You can also view the metadata for an uncustomized organization in the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] file called EntityMetadata.xlsx included in the top-level folder of the SDK. [Download the Microsoft Dynamics 365 for Customer Engagement apps SDK](http://go.microsoft.com/fwlink/p/?LinkId=691153)  
    
 <a name="BKMK_FLSbestprac"></a>   
 ## Best practices when you use field security  

@@ -1,8 +1,8 @@
 ---
-title: "Show or hide form elements with PowerApps | MicrosoftDocs"
+title: "Show or hide form elements | MicrosoftDocs"
 description: "Learn how to display or hide from elements, such as tabs, sections, or fields"
 ms.custom: 
-ms.date: 04/26/2018
+ms.date: 01/31/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,7 +24,7 @@ search.app:
 ---
 # Show or hide form elements
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  Several types of form elements have the option to be shown or hidden by default. Tabs, sections, fields, iFrames, and web resources all provide this option. Using form scripts or business rules the visibility of these elements can be controlled to create a dynamic form to provide a user interface that adapts to conditions in the form.  
   
@@ -35,4 +35,7 @@ search.app:
 
 ### See also
 
-[Overview of the form editor interface](form-editor-user-interface-legacy.md)
+[Create business rules and recommendations to apply logic in a form](create-business-rules-recommendations-apply-logic-form.md) <br />
+[formContext.ui.tabs (Client API reference)](../developer/clientapi/reference/formContext-ui-tabs.md) <br />
+[formContext.ui.sections (Client API reference)](../developer/clientapi/reference/formContext-ui-sections.md) <br />
+[setVisible (Client API reference)](../developer/clientapi/reference/controls/setVisible.md)

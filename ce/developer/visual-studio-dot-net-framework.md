@@ -2,7 +2,7 @@
 title: "Visual Studio and the .NET Framework (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about managed code development tools and requirements."
 keywords: 
-ms.date: 09/13/2018
+ms.date: 01/25/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -30,12 +30,9 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-The .NET SDK assemblies for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] are built on [!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)]. 
+The .NET SDK assemblies for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] are built on .NET Framework version 4.6.2. 
 
-> [!IMPORTANT]
-> Do not use .NET Framework versions greater than 4.5.2 when developing plug-ins.
-
-You can use [!INCLUDE[pn-visual-studio-short](../includes/pn-visual-studio-short.md)] to build your managed code applications using [!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)] or later. 
+You can use [!INCLUDE[pn-visual-studio-short](../includes/pn-visual-studio-short.md)] to build your managed code applications using .NET Framework version 4.6.2 or later. 
 
 > [!IMPORTANT]
 > You should build any custom client applications using [!INCLUDE [pn-net-framework-462-long](../includes/pn-net-framework-462-long.md)] or later.

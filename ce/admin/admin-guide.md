@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc-see-nonv-subscription-guide](../includes/cc-see-nonv-subscription-guide.md)]
 
-Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] will find the resources and topics provided in this guide to help you manage and configure [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] Customer Engagement applications and services.
+Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] will find the resources and topics provided in this guide to help you manage and configure Customer Engagement applications and services.
 
 <table>
 <tr>

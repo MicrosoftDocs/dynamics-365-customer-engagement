@@ -27,6 +27,6 @@ Entities define the types of records people can use in a Dynamics 365 for Custom
   
 ### See also    
  [Entities and metadata overview](../customize/create-edit-metadata.md)   <br/>
-  [Create and edit entity relationships](../customize/create-edit-entity-relationships.md)   <br/>  
- [Community blog: Custom Entity or Custom Activity](https://community.dynamics.com/crm/b/gonzaloruiz/archive/2012/08/13/custom-entity-or-custom-activity-in-crm-2011) </br/>
+  [Create and edit entity relationships](../customize/create-edit-entity-relationships.md)  
+ [Community blog: Custom Entity or Custom Activity](https://community.dynamics.com/crm/b/gonzaloruiz/archive/2012/08/13/custom-entity-or-custom-activity-in-crm-2011) <br/>
  [Create or edit virtual entities that contain data from an external data source](create-edit-virtual-entities.md)

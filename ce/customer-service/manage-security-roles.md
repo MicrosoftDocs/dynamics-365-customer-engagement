@@ -1,6 +1,6 @@
 ---
-title: Manage security roles in Service Scheduling (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
-description: Know how to manage security roles in service scheduling in Dynamics 365 for Customer Engagement for Customer Service
+title: Manage security roles in Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to manage security roles in service scheduling in Dynamics 365 for Customer Service
 keywords: Resources; Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
 applies_to: 
@@ -56,11 +56,11 @@ The following standard security roles are leveraged in service scheduling:
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security roles and privileges](../admin/security-roles-privileges.md)
 
-## Understand roles and their functionalities
+## Understand roles and their privileges
 
-Each role in the scheduling experience is expected to perform a set of functionalities. Refer the table below to know more about the privileges of the CSM and CSR role:
+Each role in the scheduling experience is expected to perform a set of actions. Refer the table below to know more about the privileges of the CSM and CSR role:
 
-|Role  |Functionality  |
+|Role  |Privileges  |
 |---------|---------|
 |Customer Service Manager (CSM)     |     Can create, access, and perform CRUD operations on Services    |
 |      |   Can create, access, and perform CRUD operations on Service Activities      |

@@ -82,4 +82,4 @@ Quite often, Dynamics 365 for Customer Engagement developers create a new Visual
 ### See also
 
 [Event execution pipeline](../../developer/event-execution-pipeline.md)<br />
-[Plug-in Assemblies](../../developer/write-plugin.md#plug-in-assemblies)<br />
+[Assembly constraints](/powerapps/developer/common-data-service/write-plug-in#assembly-constraints)<br />

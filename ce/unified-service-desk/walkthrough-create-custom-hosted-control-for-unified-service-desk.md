@@ -3,7 +3,7 @@ title: "Walkthrough: Create custom hosted control for Unified Service Desk | Mic
 description: "Learn about how to create a custom hosted control for Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -39,7 +39,7 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
 <a name="Prereq"></a>   
 ## Prerequisites  
   
-- [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.5.2  
+- [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.6.2  
   
 - [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application; the client application is required for testing the hosted control  
   
@@ -59,7 +59,7 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
   
    1. From the list of installed templates, expand **Visual C#**, and select **CRM SDK Templates** > **Unified Service Desk** > **USD Custom Hosted Control**.  
   
-   2. Ensure that **[!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] 4.5.2** is selected.  
+   2. Ensure that **[!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] 4.6.2** is selected.  
   
    3. Specify the name and location of the project, and click **OK** to create a new project.  
   

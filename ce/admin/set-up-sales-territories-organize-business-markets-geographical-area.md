@@ -36,7 +36,7 @@ Improve sales potential and revenues by creating territories for customer and ma
  
 3.	To create a new sales territory, on the command bar, select **New**.
 
-4.	In the sales territory form, hill in your information.
+4.	In the sales territory form, fill in your information.
 
       a.	**Name**. Enter the geographical name for the territory such as the name of a city, country/region, or a state.
 

@@ -2,7 +2,7 @@
 title: "Create a custom workflow activity (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The topic describes how to create a custom workflow activity and register it for use in Dynamics 365 for Customer Engagement (online) Customer Engagement."
 ms.custom: 
-ms.date: 09/12/2018
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,13 +24,13 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic describes how to create a custom workflow activity and register it for use in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. For [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], custom workflow activities can only be registered to execute in the sandbox (partial trust). For more information about the sandbox and partial trust, see [Plug-in isolation, trusts, and statistics](../plugin-isolation-trusts-statistics.md).  
+This topic describes how to create a custom workflow activity and register it for use in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. For [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], custom workflow activities can only be registered to execute in the sandbox (partial trust).  
   
 <a name="Requirements"></a>
 
 ## Required software and assemblies
 
- To develop [!INCLUDE[pn_Windows_Workflow_Foundation](../../includes/pn-windows-workflow-foundation.md)] 4 custom activities for Dynamics 365 for Customer Engagement, you must develop them on [!INCLUDE[pn_NET_Framework_452_long](../../includes/pn-net-framework-452-long.md)]. The assembilies are available as Nuget packages and you can download from the NuGet profile [crmsdk](https://www.nuget.org/profiles/crmsdk).
+ To develop [!INCLUDE[pn_Windows_Workflow_Foundation](../../includes/pn-windows-workflow-foundation.md)] 4 custom activities for Dynamics 365 for Customer Engagement, you must develop them on Microsoft .NET Framework 4.6.2. The assembilies are available as Nuget packages and you can download from the NuGet profile [crmsdk](https://www.nuget.org/profiles/crmsdk).
   
 <a name="UseCodeActivity"></a>
 
@@ -46,7 +46,7 @@ This topic describes how to create a custom workflow activity and register it fo
   
 4. Specify a name and location for the solution, and then click **OK**.  
   
-5. Navigate to the **Project** menu and select **Properties**. On the **Application** tab, specify **.NET Framework 4.5.2** as the target framework.  
+5. Navigate to the **Project** menu and select **Properties**. On the **Application** tab, specify **.NET Framework 4.6.2** as the target framework.  
   
 6. Add references to the `Microsoft.Xrm.Sdk.dll` and `Microsoft.Xrm.Workflow.dll` assemblies.  
   
@@ -98,7 +98,7 @@ This topic describes how to create a custom workflow activity and register it fo
   
  To specify the name and group name for a custom workflow activity, use the `PluginType.Name` and `PluginType.WorkflowActivityGroupName` attributes when you register the custom workflow activity assembly. For more information about registering custom workflow activities, see [Registering the Workflow Assembly](register-use-custom-workflow-activity-assembly.md). If the `PluginType.Name` and `PluginType.WorkflowActivityGroupName` attributes are set to **null**, the custom activity is hidden from the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] workflow designer and is only accessible from XAML workflows.  
   
- If you are using the Plug-in Registration tool to register the custom workflow activity assembly, you can specify appropriate values in the **Name** and **WorkflowActivityGroupName** boxes, under the **Editable** region. For more information about using the Plug-in Registration tool, see [Walkthrough: Register a plug-in using the plug-in registration tool](../walkthrough-register-plugin-using-plugin-registration-tool.md).  
+ If you are using the Plug-in Registration tool to register the custom workflow activity assembly, you can specify appropriate values in the **Name** and **WorkflowActivityGroupName** boxes, under the **Editable** region. For more information about using the Plug-in Registration tool, see [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in).  
   
  ![Specify the Group Name and Name while registering](../media/process-name-workflow-activity.png "Specify the Group Name and Name while registering")  
   

@@ -2,7 +2,7 @@
 title: "Web API Helper code: Configuration classes (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Configuration class hierarchy can be used to specify the required connection data for accessing Dynamics 365 for Customer Engagement web services from your application"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -143,7 +143,7 @@ if (cmdargs.Length > 0) { config = new FileConfiguration(cmdargs[0]); } else { c
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
    <startup>
-      <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+      <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.2" />
    </startup>
    <connectionStrings>
       <clear />

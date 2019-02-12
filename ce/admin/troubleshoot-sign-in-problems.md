@@ -54,7 +54,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.
   
  ![Office 365 welcome page](../admin/media/office-365-welcome-page.png "Office 365 welcome page")  
   
- Click the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps tile to go to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps Home page. See [For admins and end users: Select a Dynamics 365 for Customer Engagement apps app from the new app switcher](quickly-navigate-office-365-app-launcher.md).
+ Click the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps tile to go to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps Home page. See [For admins and end users: Select a Dynamics 365 for Customer Engagement apps from the new app switcher](quickly-navigate-office-365-app-launcher.md).
 
  If you're a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps system administrator, you'll see an **Admin** tile. Click this tile to get to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], where you can see your service health, manage users, manage licenses, and more for all the online services associated with your account.  
   

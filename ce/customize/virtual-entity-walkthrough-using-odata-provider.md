@@ -1,8 +1,8 @@
 ---
-title: "Virtual entity walkthrough using the OData Data Provider in PowerApps | MicrosoftDocs"
+title: "Virtual entity walkthrough using the OData Data Provider | MicrosoftDocs"
 description: "Learn how to use the OData v4 data provider with a virtual entity"
 ms.custom: 
-ms.date: 04/26/2018
+ms.date: 01/14/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -25,11 +25,11 @@ search.app:
 
 # Virtual entity walkthrough using the OData v4 Data Provider
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 ## About this virtual entity walkthrough
 
-Imagine that you want to access ticket information from an external data source within your model-driven app or the Service area of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for Customer Engagement. In this simple walkthrough, you'll model a virtual entity with fields mapped to the external schema that retrieves ticket data at runtime from an OData web service.
+Imagine that you want to access ticket information from an external data source within your model-driven app or the Service area of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. In this simple walkthrough, you'll model a virtual entity with fields mapped to the external schema that retrieves ticket data at runtime from an OData web service.
 
 ## Data source details
 

@@ -1,7 +1,7 @@
 ---
 title: "Create packages for the Dynamics 365 for Customer Engagement Package deployer (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -42,7 +42,7 @@ search.app:
 
 - Ensure that you have all the solutions and files ready that you want to include in the package.  
 
-- [!INCLUDE[pn_NET_Framework_452_long](../includes/pn-net-framework-452-long.md)]  
+- Microsoft .NET Framework 4.6.2  
 
 - [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]  
 
@@ -75,7 +75,7 @@ search.app:
 
    1. From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates**.  
 
-   2. Ensure that **[!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)]** is selected.  
+   2. Ensure that **.NET Framework 4.6.2** is selected.  
 
    3. Select **Dynamics 365 for Customer Engagement Package**.  
 

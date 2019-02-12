@@ -13,8 +13,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
-author: jimholtz
-ms.author: jimholtz
+author: mduelae
+ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
@@ -38,7 +38,7 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
 Check out the following video to get a quick overview of how Dynamics 365 for Customer Engagement apps and Teams can work together to make easy collaboration possible: [Dynamics 365 for Customer Engagement app for Microsoft Teams Demo Video](https://go.microsoft.com/fwlink/p/?linkid=2038623).
 <!-- Cindy will provide new video when it's published. -->
 
-The Dynamics 365 for Teams provides the following:
+The Dynamics 365 for Teams provides the following: 
 
 - **Collaboration hub**: Access records together with the Office applications you need to close deals.
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 for Customer Engagement apps user.

@@ -2,7 +2,7 @@
 title: "Dynamics 365 for Marketing entity reference (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Know about the installed solutions, entities, and custom actions in your marketing organization."
 ms.custom: 
-ms.date: 04/01/2018
+ms.date: 01/25/2019
 ms.service: crm-online
 ms.technology: 
   - marketing
@@ -12,7 +12,7 @@ applies_to:
 ms.assetid: 1550af17-6bb8-47dd-a096-1060213faf1c
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -24,6 +24,11 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 All the entities that are installed as part of the Dynamics 365 for Marketing solutions support the [standard extensibility/programming model](../../developer/programming-models.md) in Dynamics 365 for Customer Engagement to perform operations on entities using the **Web API** or **Organization Service**. For example, developers can programmatically create, retrieve, update, and delete (CRUD) entity records provided they have the required privileges to do so.
+
+> [!IMPORTANT]
+> While all the entities in Dynamics 365 for Marketing support the standard extensibility/programming model, you should be careful while programmatically creating, updating, or deleting these entity records. This is because some entities have dependency on each other and the web application to provide the requisite user experiences and functionalities in the Marketing app. Manipulating these entities programmatically will prevent you to use the functionalities in the intended and supported way. Some examples of the complex functionality that cannot be achieved by programmatically working with the entities are:
+>- Changes of Status and Status Reason fields, especially if the status schema is more complex than binary Active/Inactive case (mostly entities with “Go Live” button on ribbon).
+>- Manipulation of fields, which contain complex pieces of information, usually encoded as JSON. For example, customer journey design/workflow.<br/><br/>Therefore, you should use the user interface in our app to reliably perform your operations unless it’s explicitly called out in this documentation that programmatic access to an entity or feature is supported.
 
 To view information about all the entities and their properties, attributes, and relationships in your Dynamics 365 for Marketing instance, use the **Entity Metadata Browser** app. It is available as a managed solution that you need to install in your Dynamics 365 for Marketing instance to view the entity reference.
 

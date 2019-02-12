@@ -212,8 +212,6 @@ Here are the required view columns:
 - Rating
 - Status
 - Modified On
-- Content
-
 
 #### Knowledge Base Search control
 
