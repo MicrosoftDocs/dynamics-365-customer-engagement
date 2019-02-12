@@ -26,7 +26,7 @@ The Segmentation API enables programmatic interaction with certain segmentation 
 The segmentation API leverages the standard Dynamics 365 API for manipulating entities or messages. More information [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)
 
 > [!IMPORTANT]
-> - PowerApps Control Framework is a preview feature.
+> - Segmentation API is a preview feature.
 > - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)] 
 > - [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]
 
