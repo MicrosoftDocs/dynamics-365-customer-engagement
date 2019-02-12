@@ -42,10 +42,18 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
    > [!div class="mx-imgBorder"]
    > ![Add Dynamics 365 for Customer Engagement appsTeam channel](media/teams-add-channel.png "Add Dynamics 365 for Customer Engagement appsTeam channel")
 
-3. Search for an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+3. Search for an entity to connect. 
+
+ - **Entity Selection**: You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
+   
+ - **View Selection**: Select an entity to see a list of avilable views. You can select from personal views or system views. Once you select a view, it will be pinned as a tab.an 
+  
+   > [!div class="mx-imgBorder"] 
+   > ![View Selection](media/teams-add-channel-pin-record3.png "View Selection")
+  
 
    In the above page, if you have multiple organizations or app modules, you can change the org and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
  
@@ -92,9 +100,6 @@ You can chat with your team members side-by-side with the Dynamics 365 record pa
 > ![Start a conversation](media/teams-start-conversation.png "Start a conversation")
 
 ## Teams integration in Dynamics 365 for Customer Engagement apps
-
-> [!NOTE]
-> This feature is currently only available for organizations in the North American region.
 
 In Dynamics 365 for Customer Engagement apps, you can see the connected Microsoft Teams channel and files from the Microsoft Teams channel.
 
