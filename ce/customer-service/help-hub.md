@@ -61,7 +61,7 @@ search.app:
    <ul>
   <li><a href="user-guide-customer-service-hub.md" data-raw-source="[Customer Service Hub](user-guide-customer-service-hub.md)">Customer Service Hub</a></li>
    <li><a href="user-guide-customer-service.md" data-raw-source="[Customer Service](user-guide-customer-service.md)">Customer Service app</a></li>
- <li><a href="service-manager-guide.md" data-raw-source="[[Service Manager Guide](service-manager-guide.md)]">Service Management Guide</a></li>
+ <li><a href="service-manager-guide.md" data-raw-source="[[Service Manager Guide](service-manager-guide.md)]">Service Manager Guide</a></li>
 <li><a href="basics-service-service-scheduling.md" data-raw-source="[[Service Scheduling Guide](basics-service-service-scheduling.md)]">Service Scheduling Guide</a></li>
   <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Dynamics 365 for Customer Engagement for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Dynamics 365 for Customer Engagement for mobile devices</a></li>
   </ul><br/>  </td>

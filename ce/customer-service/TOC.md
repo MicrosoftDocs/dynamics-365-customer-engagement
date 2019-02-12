@@ -20,7 +20,7 @@
 #### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
 #### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 
-## [Service Management Guide](service-manager-guide.md)
+## [Service Manager Guide](service-manager-guide.md)
 ### [Create and manage queues](set-up-queues-manage-activities-cases.md)
 ### [Define parent and child case settings](define-settings-parent-child-cases.md)
 ### [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)
