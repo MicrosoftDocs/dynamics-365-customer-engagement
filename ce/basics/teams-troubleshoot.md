@@ -2,7 +2,7 @@
 title: "Troubleshoot Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Teams integration."
-ms.date: 11/29/2018
+ms.date: 2/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -25,8 +25,6 @@ search.app:
 # Troubleshoot Teams integration 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The following are error messages with possible resolutions.
 
