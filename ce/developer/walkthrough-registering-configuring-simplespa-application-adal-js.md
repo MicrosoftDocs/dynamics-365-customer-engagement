@@ -31,7 +31,7 @@ This walkthrough describes the process of registering and configuring the simple
   
 - You must have a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] system user account with administrator role for the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
   
-- A [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for application registration. A trial account will also work.  
+- An [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for application registration. A trial account will also work.  
   
 - [!INCLUDE[pn_microsoft_visual_studio_2015](../includes/pn-microsoft-visual-studio-2015.md)]  
   
