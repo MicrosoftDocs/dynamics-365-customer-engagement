@@ -89,9 +89,6 @@ For troubleshooting, see [Troubleshoot Teams integration](teams-troubleshoot.md)
 
 ## Set up the Dynamics 365 bot
 
-> [!NOTE]
-> The Dynamics 365 bot for Teams is currently only available for organizations in the North American region.
-
 Set up the bot feature to interact with Dynamics 365 for Customer Engagement apps.
 
 1. Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365 for Customer Engagement apps**.
@@ -145,15 +142,14 @@ See [Use the personal dashboard](teams-personal-use.md) for information on how y
 ## For Dynamics 365 for Customer Engagement admins: enable Microsoft Teams integration features
 You can control whether to display Teams integration in Dynamics 365 for Customer Engagement apps. For [Teams integration in Customer Engagement apps](teams-collaboration.md#teams-integration-in-dynamics-365-for-customer-engagement-apps), the Customer Engagement apps admin should enable the following setting.
 
-> [!NOTE]
-> This setting is currently only available for organizations in the North American region. 
 
 1. Sign in as a System administrator to Dynamics 365 for Customer Engagement apps.
-2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
+2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
 3. Enable **Microsoft Teams Integration**.
 
    > [!div class="mx-imgBorder"] 
    > ![Enable preview settings](media/teams-system-settings.png "Enable preview settings")
+   !-- @Cindy will provide updated screenshot. -->
 
 When Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.   
 
