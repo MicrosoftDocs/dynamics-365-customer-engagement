@@ -2,7 +2,7 @@
 title: "Delete Teams data | MicrosoftDocs"
 ms.custom: 
 description: "Delete Teams data."
-ms.date: 11/06/2018
+ms.date: 2/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,7 +26,6 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Delete user data
 Your privacy is important to us. You can remove Dynamics 365 for Customer Engagement appsapp personal data from Microsoft Teams.
