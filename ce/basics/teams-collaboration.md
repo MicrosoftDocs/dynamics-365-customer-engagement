@@ -49,7 +49,7 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
    > [!div class="mx-imgBorder"] 
    > ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
    
- - **View Selection**: Select an entity to see a list of avilable views. You can select from personal views or system views. Once you select a view, it will be pinned as a tab.an 
+ - **View Selection**: Select an entity to see a list of avilable views. You can select from personal views or system views. Once you select a view, it will be pinned as a tab.
   
    > [!div class="mx-imgBorder"] 
    > ![View Selection](media/teams-add-channel-pin-record3.png "View Selection")
