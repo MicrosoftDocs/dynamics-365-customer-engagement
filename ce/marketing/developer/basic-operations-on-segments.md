@@ -18,10 +18,17 @@ search.app:
 
 # Basic Operations on Segments using Segmentation API
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll simply target all the contacts you have, but in most cases, you'll choose who you want to target based on demographic or firmographic data and other considerations. More information [Working with segments]().
 
 The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing App.
 The segmentation API leverages the standard Dynamics 365 API for manipulating entities or messages. More information [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)
+
+> [!IMPORTANT]
+> - PowerApps Control Framework is a preview feature.
+> - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)] 
+> - [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]
 
 When you create a segment, the properties of the segment are stored in `msdyncrm_segment` entity. You can browse the entity metadata for available properties and optionset value mapping. You can get the metadata information by using `@odata.context`in `GET` response. 
 
