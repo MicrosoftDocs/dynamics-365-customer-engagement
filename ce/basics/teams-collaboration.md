@@ -2,7 +2,7 @@
 title: "Collaborate with Teams| MicrosoftDocs"
 ms.custom: 
 description: "Collaborate with team members using the Dynamics 365 app for Teams."
-ms.date: 11/06/2018
+ms.date: 2/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -25,8 +25,6 @@ search.app:
 # Collaborate with Teams 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Once installed, the Dynamics 365 app for Teams enables collaborating with others through Dynamics 365 for Customer Engagement apps record connections made in teams and channels in Microsoft Teams.
 
@@ -74,9 +72,6 @@ The successful connection state indicates that the connection was successfully s
 A failed connection means the connection was not successfully saved. When seeing this message, you should remove and connect the record again. See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
 
 ### View and associate files 
-
-> [!NOTE]
-> This feature is currently only available for organizations in the North American region.
 
 Select the  **Files** tab in the connected Teams channel to associate files with a Dynamics 365 for Customer Engagement apps record. Files added here will appear in Dynamics 365 for Customer Engagement apps under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 for Customer Engagement apps, that document will appear in Teams under the **Files** tab.
 
