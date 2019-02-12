@@ -27,14 +27,9 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
 ## Create a playbook template
 
-<!--note from editor: Line 67--is "fix an appointment" correct?--> 
- 
-<!--note from editor: Line 37: include graphic for site map icon?-->
-
-
 1.  Make sure you have **Playbook administrator** role or equivalent permissions.
 
-2.  Select the site map icon, select **More options** ![more options icon](media/more-options-icon.png "More Options icon"), and then select **App Settings**.  
+2.  Select the site map ![Site Map icon](media/site-map-icon.png "site map icon") icon, select **More options** ![more options icon](media/more-options-icon.png "More Options icon"), and then select **App Settings**.  
 
 3.  Select **Playbook Templates**.
 
@@ -64,7 +59,7 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
     ![add playbook activity](media/add-activity.png "Add playbook activity")  
 
-    For example, if the playbook is defined for an event in which a decision maker leaves the organization while working with a sales person, you can create a phone call record to make a call to the new decision maker, and fix an appointment.
+    For example, if the playbook is defined for an event in which a decision maker leaves the organization while working with a sales person, you can create a phone call record to make a call to the new decision maker, and schedule an appointment.
 
 7.  In the **Quick create** form of the activity, provide the following information, and then select **Save**:
 
@@ -92,6 +87,9 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
 8.  In the lower-right corner, select **Save**.
 
+    > [!NOTE]
+    > After the playbook activity is created, you can associate documents related to the activity so that your sales reps can refer to these documents while working on the playbook activity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Associate documents with playbook activity](associate-documents-playbook-activities.md)
+
 
 ## Publish a playbook template
 
@@ -111,10 +109,8 @@ To publish a playbook:
 >   -   At least one playbook activity added.
 >   -   At least one record type to which the playbook template applies.
 
-<!--note from editor: Text in the Important note below: I found this a little confusing. First sentence says you can't edit a published template. Second sentence says you can make changes with "Revise". Is "revising" something different from "editing"?-->
-
 > [!IMPORTANT]
-> After you publish a template, you can’t edit it. To make changes to a published playbook template, on the command bar, select **Revise**.
+> If you want to make changes to a published playbook template, on the command bar, select **Revise**.
 
 ### See also
 [Associate documents with playbook activities](associate-documents-playbook-activities.md)  

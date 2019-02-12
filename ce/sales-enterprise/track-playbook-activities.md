@@ -53,10 +53,8 @@ To see the activities created by the playbook when the **Track progress** field 
     Alternately, in the calling record, select the **Related** tab, and then select **Activities**.
 
     ![activities tab on the opportunity record](media/activities-tab-opportunity-record.png "Activities tab on the Opportunity record")  
- <!--Editing comment:  The info in paragraph below is unclear to me. Suggested changes: 1st sentence: Delete "when" and replace with "since"? "The Open Activity Associated View lists all the activities for the calling record along with the activities created since the playbook was launched."
-Change 2nd sentence, if this is accurate, to: "However, this view doesn't show the total number of activities that have been created in the context of a playbook.-->  
  
-   This view shows all the activities for the calling record along with the activities created when a playbook was launched. However, it doesn’t show how many are created in the context of a playbook.
+   The Open Activity Associated View lists all the activities for the calling record along with the playbook activities created since the playbook was launched. However, this view doesn't show the total number of activities that have been created in the context of a playbook. 
 
 
 ## Preview: View or download documents associated with an activity
@@ -73,6 +71,12 @@ If a sales manager has added sales brochures or training docs to a playbook acti
 > Documents are available only for task and appointment activities associated with a playbook activity. 
 
 To view or download a document, in the activity form, select the **Related** tab, and then select **Documents**.
+
+![Documents option on Related menu](media/documents-option-on-Related-tab-sales-rep.png "Documents option on Related menu")
+
+The **Documents** list appears.
+
+![Documents list showing documents associated with the activity](media/doc-available-for-playbook-activity-documents-grid.png "Documents list showing documents associated with the activity")
 
 To download a document: 
 * In the **Documents** list, select a row, and then select **Download**.
