@@ -5,6 +5,7 @@
 ### [Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
 #### [Work with cases and manage SLAs](customer-service-hub-user-guide-case-sla.md)
+#### [Search for knowledge articles](search-knowledge-articles-csh.md)
 #### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 #### [Work with interactive dashboards](customer-service-hub-user-guide-dashboard.md)
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
