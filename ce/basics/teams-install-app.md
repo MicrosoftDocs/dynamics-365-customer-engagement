@@ -149,7 +149,7 @@ You can control whether to display Teams integration in Dynamics 365 for Custome
 
    > [!div class="mx-imgBorder"] 
    > ![Enable preview settings](media/teams-system-settings.png "Enable preview settings")
-   !-- @Cindy will provide updated screenshot. -->
+
 
 When Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.   
 
