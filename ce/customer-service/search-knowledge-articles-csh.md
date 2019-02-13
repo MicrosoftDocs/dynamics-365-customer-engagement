@@ -76,7 +76,7 @@ In the Knowledge Base search box:
    - If Relevance search is not enabled, the keywords that you enter will trigger a search (using Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.  
    - If Relevance search is enabled, you can configure the fields that you want to be searched upon. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#configure-searchable-fields-for-relevance-search)
 
-- To see knowledge articles in specific states, use the filters. You can filter search results to see all draft, published, or approved articles.  You can also filter the articles based on language.
+- To see knowledge articles in specific states, use the **State** filter. You can filter search results to see all draft, published, or approved articles.  You can also filter the articles based on language.
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
 
@@ -101,10 +101,11 @@ In the Knowledge Base search box:
 > [!IMPORTANT]
 >  Knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
 
 
 ### See also
+
+[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
 
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
