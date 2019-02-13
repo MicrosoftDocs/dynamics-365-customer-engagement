@@ -42,7 +42,7 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
    > [!div class="mx-imgBorder"]
    > ![Add Dynamics 365 for Customer Engagement appsTeam channel](media/teams-add-channel.png "Add Dynamics 365 for Customer Engagement appsTeam channel")
 
-3. Search for an entity to connect. 
+3. Search for an entity to connect. You have two options, **Entity Selection** or **View Selection**.
 
  - **Entity Selection**: You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 
@@ -94,13 +94,13 @@ Select the  **Files** tab in the connected Teams channel to associate files with
 
 ### Open a record in Dynamics 365 for Customer Engagement apps
 
-It's easy to use Teams to open a record in Dynamics 365 for Customer Engagement apps. From a record pinned in a Teams channel, select the **Go to website** button to open the record in Dynamics 365 for Customer Engagement apps.
+It's easy to use Teams to open a record in Dynamics 365 for Customer Engagement apps. From a record or view pinned in a Teams channel, select the **Go to website** button to open the record in Dynamics 365 for Customer Engagement apps.
 
 > [!div class="mx-imgBorder"] 
 > ![Open a record in Dynamics 365 for Customer Engagement apps](media/teams-open-record-d365.png "Open a record in Dynamics 365 for Customer Engagement apps")
 
 ### Have a conversation
-You can chat with your team members side-by-side with the Dynamics 365 record page. From a record pinned in a Teams channel, select the **Show tab converation** button to open the conversation tab.
+You can chat with your team members side-by-side with the Dynamics 365 record page. From a record or view pinned in a Teams channel, select the **Show tab converation** button to open the conversation tab.
 
 > [!div class="mx-imgBorder"] 
 > ![Start a conversation](media/teams-start-conversation.png "Start a conversation")
@@ -110,6 +110,9 @@ You can chat with your team members side-by-side with the Dynamics 365 record pa
 In Dynamics 365 for Customer Engagement apps, you can see the connected Microsoft Teams channel and files from the Microsoft Teams channel.
 
 In Dynamics 365 for Customer Engagement apps records, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Teams.
+
+> [!NOTE]
+>  The option to **Collaborate** is only available for pinned records and is not available for pinned views.
 
 > [!div class="mx-imgBorder"] 
 > ![From Dynamics 365 for Customer Engagement apps, open a conversation in Teams](media/teams-select-collaborate.png "From Dynamics 365 for Customer Engagement apps, open a conversation in Teams")
