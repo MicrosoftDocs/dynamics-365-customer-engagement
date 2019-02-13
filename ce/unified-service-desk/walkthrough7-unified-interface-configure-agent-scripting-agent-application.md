@@ -267,7 +267,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |     Order      |                           1                           |
    | Hosted Control |         Contoso existing cases for an account         |
    |     Action     |                    AssociatedView                     |
-   |      Data      | navItemId=[[$Context.Id]] <br />type=[[$Context.etn]] |
+   |      Data      | etn=[[$Context.InitialEntity]]<br/>id=[[$Context.Id]] <br/>navitemid=navService |
 
 
 9. Click **Save**.  
