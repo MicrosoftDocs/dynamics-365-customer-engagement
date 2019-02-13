@@ -167,7 +167,6 @@ Currently, the following record types support using **Collaborate**. The **Colla
 -	RMA receipt
 -	RTV
 -	sales literature
--	sales order
 -	task
 -	team
 -	work order
