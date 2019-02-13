@@ -66,8 +66,14 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
 
 Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 for Customer Engagement apps record appears in the menu bar. You can interact with the record as if you were using the Dynamics 365 for Customer Engagement apps. Those with Write permissions can edit the record. Changes will be synchronized with the Dynamics 365 for Customer Engagement apps.
 
+Example of **Entity Selection**
 > [!div class="mx-imgBorder"] 
 > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
+
+
+Example of **View Selection**
+> [!div class="mx-imgBorder"] 
+> ![Pinned view](media/teams-pinned-view.png "Pinned view")
 
 The following section provides information about connections between Dynamics 365 for Customer Engagement apps and Microsoft Teams.
 
