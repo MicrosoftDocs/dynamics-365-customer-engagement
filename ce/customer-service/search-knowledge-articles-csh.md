@@ -47,7 +47,7 @@ For more information, see [Understand knowledge base search mechanisms](knowledg
 
 ### Before you begin using Relevance search
 
-Relevance search uses the scoring concepts as defined by Azure search. To be able to search the knowldege base using Relevance search, certain view columns should be mandatorily configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
+Relevance search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Relevance search, certain view columns should be mandatorily configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
 
 > [!NOTE]
 > An admin can configure the knowledge article quick find view columns list by navigating to **Settings > Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns**.
