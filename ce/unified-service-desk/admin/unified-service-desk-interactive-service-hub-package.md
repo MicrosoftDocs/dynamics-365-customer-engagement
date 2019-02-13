@@ -55,7 +55,7 @@ search.app:
 >  The sample applications are not supported for production use.  
     
   
- Here’s what you’ll see when you install the interactiveservice hub package:  
+ Here’s what you’ll see when you install the interactive service hub package:  
   
 - **Dashboard** tab: Opens the Dynamics 365 for Customer Engagement apps customer service dashboard.  
   
