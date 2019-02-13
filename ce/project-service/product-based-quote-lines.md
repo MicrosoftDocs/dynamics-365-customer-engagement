@@ -72,7 +72,7 @@ For example, Dynamics 365 might have the following properties:
 - Number of subscription months (a quantity factor) 
 - Product SKU 
 
-Number of users and Number of subscription months may be flagged as quantity factors. On the quote line, it works like this:
+Tne number of users and the number of subscription months may be flagged as quantity factors by editing the properties of the product line.
 
 > ![Flagging number of users and number of subscription months as quality factors](media/basic-guide-11.png)
  
