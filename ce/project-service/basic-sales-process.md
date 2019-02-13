@@ -6,7 +6,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 12/26/2018
+ms.date: 2/13/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -27,7 +27,7 @@ search.app:
 
 The sales processes that are used in a project-based organization differ from those that are used in a product-based organization. This is because the sales cycles for project organizations are longer and require customized estimation techniques to analyze and create quotes for each deal. Project Service Automation (PSA) uses some of the same functionality that is used in the sales process for Dynamics 365 for Sales. This functionality includes:
 
-- Tracking the sales process with a lead entity.
+- Tracking the sales process with a Lead entity.
 - Tracking qalifying leads as opportunities. The sales process can also start with opportunity.
 - Accessing all related artifacts for an opportunity, including the sales team, stakeholders, probability, rating, sales stages, and business processes.
 - Creating multiple quotes for an opportunity. 
@@ -43,9 +43,9 @@ The value of a sale can be estimated based on previously delivered projects and 
 
 You can create a high-level estimate of the quote which will eventually be replaced by a more detailed estimate that is based on a project plan that you create using the standardized project templates. These templates help you to build a schedule and determine monetary values on the quote and it's components (quote lines).
 
-You can create multiple quotes for a project that are grouped under a single opportunity entity type. Eventually, one of these quotes is marked **Closed as Won**, and a project contract or statement of work (SOW) is created. An SOW is usually created as a Microsoft Word document. A project contract holds the contracted value for each component (contract line) that is accepted by the customer for delivery. All invoices sent to the customer over the course of the project’s delivery reference the project contract, or SOW.
+You can create multiple quotes for a project that are grouped under a single **Opportunity** entity type. Eventually, one of these quotes is marked **Closed as Won**, and a project contract or statement of work (SOW) is created. An SOW is usually created as a Microsoft Word document. A project contract holds the contracted value for each component (contract line) that is accepted by the customer for delivery. All invoices sent to the customer over the course of the project’s delivery reference the project contract, or SOW.
 
-You can also create alternate quotes under one opportunity entity type or set up winning a quote to create a project contract. If you do this, you can attach a Word document that represents the SOW to the project contract record. 
+You can also create alternate quotes under one **Opportunity** entity type or set up winning a quote to create a project contract. If you do this, you can attach a Word document that represents the SOW to the project contract record. 
 
 > ![Closing a quote to create a project contract](media/basic-guide-2.png)
 
@@ -60,19 +60,17 @@ For example, your company might have the following six stages in the sales proce
 - Deliver
 - Close
 
-These six stages are represented by chevrons you click to expand in each opportunity entity type you create. 
+These six stages are represented by chevrons you click to expand in each **Opportunity** entity type you create. 
 
 ![Business process configuration in Dynamics 365](media/basic-guide-3.png)
  
 Your organization may use different entities to represent the same deal as it evolves. Early in the sales process, a deal is represented by the entity type, **Opportunity**. As time passes and more details emerge, you may use high-level estimates to create one or more quotes. If one of these quotes is reviewed by internal and customer stakeholders, the entity, **Quote** represents the deal. 
 After the customer accepts the quote, a **Project contract** or **SOW** represents the deal. To support this, business process flows are structured so that each stage in the process is linked to a different database table.
 
-The **Qualify** stage in the sales process can be backed by an **Opportunity** entity. The **Estimate** and **Internal Review** stages can be backed by a **Quote** entity, and the **Contract**, **Delivery**, and **Close** stages can be backed by a **Project Contract** entity. 
-
-As you advance through the stages, you are prompted to create the appropriate entity record to assist and guide you through the process. The stages can be conditional. For example, if you require an internal review of a quote only if the quote uses a custom price list, you can configure that into the appropriate stage of the business process. That stage is shown only for quotes that use a custom price list. For all other deals and quotes, the **Estimate** stage is shown as preceding the **Contract** stage.
+The **Qualify** stage in the sales process can be backed by an **Opportunity** entity. The **Estimate** and **Internal Review** stages can be backed by a **Quote** entity, and the **Contract**, **Delivery**, and **Close** stages can be backed by a **Project Contract** entity. As you advance through the stages, you are prompted to create the appropriate entity record to assist and guide you through the process. The stages can be conditional. For example, if you require an internal review of a quote only if the quote uses a custom price list, you can configure that into the appropriate stage of the business process. That stage is shown only for quotes that use a custom price list. For all other deals and quotes, the **Estimate** stage is shown as preceding the **Contract** stage.
 
 > [!NOTE]
-> PSA has specific pages for the **Opportunity**, **Quote**, **Order**, and **Invoice** entities. You must create project service opportunities, quotes, orders, and invoices using the project information pages for these entities. If you use another page to create a record, you won't be able to open the record from the **Project Information** page. If you want to open a record with the **Project Information** page, you must delete the record and recreate it using the **Project Information** page. Business logic on the **Project information** page for each of these entity types ensures that the **Type** field of the record is set correctly, and all of the mandatory concepts are properly initialized.
+> PSA has specific pages for the **Opportunity**, **Quote**, **Order**, and **Invoice** entities. You must create project service opportunities, quotes, orders, and invoices using the project information pages for these entities. If you use another page to create a record, you won't be able to open the record from the **Project Information** page. If you want to open a record with the **Project Information** page, you must delete the record and recreate it using the **Project Information** page.On the **Project information** page, business logic for each of these entity types ensures that the **Type** field of the record is set correctly, and all of the mandatory concepts are properly initialized.
 
 > ![Project information for a new order](media/basic-guide-4.png)
  
