@@ -69,7 +69,7 @@ and
 > [!div class="mx-imgBorder"] 
 > ![Org is not up to date](media/teams-error-org-not-latest.png "Org is not up to date")
 
-The Dynamics 365 for Customer Engagement apps org that you are trying to connect does not support Microsoft Teams integration. You can wait for the org to be updated or pick a different org that has been updated to support Teams integration.
+Your Dynamics 365 org is not the latest version or is not supported for this feature. Please select a different org. Also, note that Microsoft Teams integration is not supported with Model-driven apps or Canvas apps.
 
 ## Error messages in Dynamics 365 for Customer Engagement apps 
 
