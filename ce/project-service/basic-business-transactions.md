@@ -37,7 +37,7 @@ Of these, **Quote line details**, **Contract line details**, and **Estimate line
 
 PSA treats records in each of the five entities as a business transaction. The only distinction is that records in entities that map to the estimation phase are considered a financial forecast while the records in entities that map to execution phase represent financial fact that has already occurred.
 
-For more information, see [Estimations](estimations.md) and [Actuals](actuals.md).
+For more information, see [Estimates](estimates.md) and [Actuals](actuals.md).
 
 ## Concepts unique to business transactions
 The following concepts are unique to the idea of a business transaction:
