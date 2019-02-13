@@ -1,6 +1,6 @@
 ---
-title: Estimations
-description: This topic provides information about estimations for Project Service Automation (PSA). 
+title: Estimates
+description: This topic provides information about estimates for Project Service Automation (PSA). 
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -21,36 +21,35 @@ search.app:
   - D365PS
 ---
 
-# Estimations
+# Estimates
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-On a project-based quote, you can use the **Quote line detail** entity in PSA to estimate the work involved in delivering a project and then share that with the customer. Project-based quote lines can have none or many quote line details.
-Quote line details are used to estimate time, expenses or fees. These classifications are called transaction classes. 
-PSA doesn’t allow material estimation on quote line details. 
-Estimated tax amounts can also be entered on a transaction class. In addition to transaction classes, a quote line detail has a transaction type. In the context of quote line detail, PSA support two transaction types, cost and project contract.
+On a project-based quote, you can use the **Quote line detail** entity in PSA to estimate the work involved in delivering a project and then share that with the customer. Project-based quote lines can have none or many quote line details. Quote line details are used to estimate time, expenses or fees. These details are called transaction classes. Estimated tax amounts can also be entered on a transaction class. In addition to transaction classes, a quote line detail has a transaction type. In the context of quote line detail, PSA supports two transaction types, cost and project contract.
 
-**Top-down estimation**: The top-down estimating method is used when an estimator needs to quickly size a deal without a great level of detail. A top-down estimate is typically done by sales people, the delivery manager, or both when there isn’t enough time to build a detailed estimation. When estimating work using the quote line detail entity, PSA can default a bill rate and sales amount for each of the quote line details. The sales amounts on all quote line details for a quote line add up to the quote line value. All quote line values add up to the quote value.
+## Estimate using a contract
 
-**Bottom-up estimation**: If your organization has a project plan template for the type of work required, you can create a project from a quote line based on your template. This creates a project plan and project estimation based on that plan. You can then import these estimates to a quote line as quote line details. The bottom-up method is typically used when project-based companies are familiar with the work that they are quoting and have done it successfully many times in the past.
-Using project templates to create projects and generate project-based estimates to inform the quote is a good way to reuse information based on experience or best practices.
+If you used a PSA quote while creating a project-based contract, the estimate each quote line on the quote is copied to the project contract. The structure of a project contract is like the structure of project quote with lines, line details, and invoice schedules.
 
-## Estimation using a contract
+If your organization has a project plan template for the type of work required, you can create a project from a quote line based on your template. This creates a project plan and project estimate based on that plan. You can then import these estimates to a quote line as quote line details. This method, called the "bottom-up" method, is typically used when project-based companies are familiar with the work that they are quoting and have done it successfully many times in the past. Just like with a project quote, estimates can be done directly in a project contract using contract lines and contract line details. Contract line details can also be generated from a project plan that was created using the bottom-up estimate approach. 
 
-If you used a PSA quote while creating a project-based contract, the estimation you did for each quote line on the quote is copied to the project contract. The structure of a project contract is like the structure of project quote with lines, line details, and invoice schedules.
+Contract line details can be used to estimate time, expenses or fees. Estimated tax amounts can also be entered on a contract line detail. In addition to transaction classes, a contract line detail also has a transaction type. 
 
-Just like with a project quote, estimation can be done directly in a project contract using contract lines and contract line details. Contract line details can also be generated from a project plan that was created using the bottom-up estimation approach.
-Contract line details can be used to estimate time, expenses or fees. Estimated tax amounts can also be entered on a contract line detail. In addition to transaction classes, a contract line detail also has a transaction type. In the context of quote line details, transaction types supported by PSA are cost and project contract.
+> [!NOTE]
+> PSA doesn’t allow materials estimation on contract line details. 
 
-PSA doesn’t allow materials estimation on contract line details.
+When an estimator needs to quickly size a deal without a great level of detail, the top-down estimate method is used. A top-down estimate is typically done by sales people, the delivery manager, or both when there isn’t enough time to build a detailed estimate. When estimating work using the quote line detail entity, PSA can default a bill rate and sales amount for each of the quote line details. The sales amounts on all quote line details for a quote line add up to the quote line value. All quote line values add up to the quote value.
 
 The processes supported on a project contract are invoice creation and confirmation. Invoice creation creates a draft of a project-based invoice with all unbilled sales actuals until the current date.
 
-Confirmation makes the contract read-only and changes its status from **Draft** to **Confirmed**. After you take this action, you can’t undo it. Because this action is permanent, it’s a best practice to keep the contract in a **Draft** status. Other than status and the ability to edit, there’s no difference between a draft and a confirmed contract. Invoice creation and actuals tracked can be done on both draft and confirmed contracts. PSA does not support change orders on contracts or projects.
+Confirmation makes the contract read-only and changes its status from **Draft** to **Confirmed**. After you take this action, you can’t undo it. Because this action is permanent, it’s a best practice to keep the contract in a **Draft** status. Other than status and the ability to edit, there’s no difference between a draft and a confirmed contract. Invoice creation and tracking actuals can be done on both draft and confirmed contracts. PSA does not support change orders on contracts or projects.
+
 
 ## Estimating projects
 
-You can estimate time and expenses on projects. PSA doesn’t allow estimation of materials or fees on projects.
+Using project templates to create projects and generate project-based estimates to inform the quote is a good way to reuse information based on experience or best practices.
+
+You can estimate time and expenses on projects. PSA doesn’t allow estimates of materials or fees on projects.
 Time estimates are generated when you create a task and identify the attributes of a generic resource required to perform the task. Time estimates are generated from schedule tasks. Creating generic team members outside the context of the schedule doesn’t create time estimates.
 
 Expenses estimates are entered on the **Estimates** gridpage.
