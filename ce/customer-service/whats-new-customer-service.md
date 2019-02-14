@@ -50,7 +50,7 @@ Have some questions? See the [Service Scheduling FAQ](service-scheduling-faq.md)
 
 Knowledge base search control in Customer Service is now powered by Relevance search to deliver results with improved performance and accuracy. With this feature, agents can search and choose the most relevant articles quickly with the help of highlighted search term matches in the results list. 
 
-To learn more about how knowledge base search control works with Relevance search, see [Search for knowledge articles](customer-service-hub-user-guide-case-sla.md#search-for-knowledge-articles).
+To learn more about how knowledge base search control works with Relevance search, see [Search for knowledge articles](search-knowledge-articles-csh.md).
 
 To learn more about Relevance search, see [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md).
 
