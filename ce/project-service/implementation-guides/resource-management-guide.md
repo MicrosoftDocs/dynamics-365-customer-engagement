@@ -1,12 +1,12 @@
 ---
 title: Resource management guide
-description: An English-language guide to resource management in Project Service Automation for Dynamics 365 for Customer Engagement
+description: This topic provides links to information about resource management in Project Service Automation 
 author: kfend
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 7/30/2018
+ms.date: 2/14/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -26,7 +26,19 @@ search.app:
 
 The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals. 
 
-This English-language document explains the resource management capabilities of the Project Service app:
- 
-> [!div class="nextstepaction"]
-> [Download PDF of the resource management guide](https://go.microsoft.com/fwlink/?linkid=2006724)
+The ODF link that was previously in this topic has been removed and the content has been moved to the following topics:
+
+- [Quoting, pricing, and billing home page](../quote-bill-price.md)
+- [Sales processes](../basic-sales-processes.md)
+- [Quotes and quote lines](../basic-quote-lines.md)
+- [Product-based quote lines](../product-based-quote-lines.md)
+- [Pricing](../basic-pricing.md)
+- [Product catalog pricing](../product-catalog-pricing.md)
+- [Business transactions](../basic-business-transactions.md)
+- [Estimates](../estimates.md)
+- [Actuals](../actuals.md)
+- [Analyzing project quotes](../basic-analyzing-quotes.md)
+- [Organizational units](../advanced-oranizational.md)
+- [Unit groups and units](../advanced-units.md)
+- [Multi-currency scenarios](../advanced-currency.md)
+- [Recording actuals](../advanced-actuals.md)
