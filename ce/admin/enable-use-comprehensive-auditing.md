@@ -10,6 +10,7 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
+  This is not correct based on the requirments section 
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 817fb922-355a-4d5c-9d93-a320be31c276
 caps.latest.revision: 1
@@ -35,6 +36,7 @@ Protecting data, preserving privacy, and complying with regulations such as the 
 This topic covers how you can set [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] to audit a broad range of data processing activities and use the [Office 365 Security and Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US) to review the data in activity reports.
 
 ## Requirements
+This cant be a requirment if it can be enealbed on on-premise deployments 
 - An Office 365 Enterprise [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) or [E5](https://products.office.com/business/office-365-enterprise-e5-business-software) subscription is required to do Activity Logging.
 - For version 8.x, version 8.2.2.1310 or later is required.
 - Available for Production and not Sandbox instances.
