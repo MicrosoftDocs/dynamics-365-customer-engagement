@@ -136,40 +136,42 @@ When there is more than one Microsoft Teams channel connected to a Dynamics 365 
 
 Currently, the following record types support using **Collaborate**. The **Collaborate** button will only appear for record types listed below.
 
-- account
-- agreement
-- annotation
-- appointment
-- businessunit
-- campaign
-- case
-- category
-- competitor
-- contact
-- email
-- expense
-- fulfillment Preference
--	inventory Adjustment
+-	Account
+-	Agreement
+-	Note
+-	Appointment
+- Business Unit
+-	Campaign
+-	Case
+-	Category
+-	Competitor
+-	Contact
+-	Email
+-	Expense
+-	Fulfillment Preference
+-	Inventory Adjustment
 -	Inventory Transfer
--	invoice
--	KB article
--	lead
--	opportunity
--	opportunity product
--	order
--	product
--	project
--	purchase order
--	purchase order receipt
--	quote
--	resource request
+-	Invoice
+-	Article
+-	Knowledge Article
+-	Lead
+-	Opportunity
+-	Opportunity Line
+-	Order
+-	Product
+-	Project
+-	Purchase Order
+-	Purchase Order Receipt
+-	Quote
+-	Resource Request
 -	RMA
--	RMA receipt
+-	RMA Receipt
 -	RTV
--	sales literature
--	task
--	team
--	work order
+-	Sales Literature
+-	Task
+-	Team
+-	Work Order
+
 
 
 ### See also  
