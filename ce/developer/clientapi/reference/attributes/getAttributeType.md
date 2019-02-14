@@ -1,13 +1,13 @@
 ---
 title: "getAttribute (Client API reference)| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 02/13/2019
 ms.service: crm-online
 ms.topic: reference
 applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9ef1c886-a0b8-4ba9-bb9f-e6ecfa9d6dff
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -39,6 +39,6 @@ This method will return one of the following **string** values:
 - lookup
 - memo
 - money
-- multioptionset
+- multiselectoptionset
 - optionset
 - string

@@ -49,7 +49,15 @@ To get started with customizing the provided demo event portal you need to follo
 
 ## Configuration
 
-All the configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md).
+All the configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). Here are some of the settings that you need to know:
+
+- **production** - Used internally by **Angular** to differentiate between production and development environments.
+- **apiEndpoint** - Used by Event Management application. Points to the API endpoint that **Angular** services use.
+- **localizationEndpoint** - Points to the localization endpoint that Event Management localization system uses to fetch the localized labels.
+- **useRestStack** - Used by Event Management application to adjust to different types of APIs used when utilizing self-hosted approach against Dynamics 365 hosted approach. Self-hosted approach uses REST API.
+- **useAadB2C** - Used by Event Management application to enable **Azure Active Directory B2C identity management** when using self-hosted approach as a replacement for Dynamics 365 Portals identity management that is used when using Dynamics 365 hosted approach.
+- **useMockData** - Used by Event Management for development purposes. Overrides **Angular** application data services to return mock data.
+- **aadB2CConfig** - Configuration object used by Event Management application when **AAD B2C identity management** is enabled. 
 
 ## Development
 
