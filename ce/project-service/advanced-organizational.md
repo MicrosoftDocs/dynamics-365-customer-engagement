@@ -46,7 +46,7 @@ In addition to having a currency and cost price list, the organizational unit at
 
 The organizational unit plays two roles in PSA:
 
-- **Contracting unit**: The organizational unit represents the division or group of the company that is primarily responsible for winning the sale and managing the delivery of the work and services to the customer. The contracting unit is identified by the field **Contracting Unit** under the **Opportunity**, **Quote**, **Project Contract**, and **Project** headers. 
+- **Contracting unit**: The organizational unit represents the division or group of the company that is primarily responsible for winning the sale and managing the delivery of the work and services to the customer.
 - **Resourcing Unit**: The organizational unit that a resource belongs to or is assigned to. This organizational unit may provide its resources for certain roles on SOWs and projects owned by the contracting unit.
 
 > ![Estimates tab](media/advanced-1.png)
@@ -83,7 +83,7 @@ An optimal way to design for this using Dynamics 365 and PSA is to:
 
 ### Are organizational units related to sales territories in Dynamics 365?
 
-There is no association or relationship between sales territories and organizational units. A sales territory is typically a geographical area in which sales are affected. Each sales territory can have a sales price list associated to it. An organizational unit is an internal part or division within the company that tracks costs for a set of roles that it sells to other divisions or external customers.
+There is no association or relationship between sales territories and organizational units. A sales territory is typically a geographical area in which sales occur. Each sales territory can have a sales price list associated to it. An organizational unit is an internal part or division within the company that tracks costs for a set of roles that it sells to other divisions or external customers.
 
 #### Example of organizational units and sales territories
 
@@ -111,7 +111,7 @@ No. In the current release of PSA, organizational units are not hierarchical. Th
 
 ### We are a big multinational firm with a complex, multilevel hierarchy of cost centers, divisions, and billing offices. How can we make the best use of the organizational unit concept in this version of the Project Service app?
 
-When you have a complex hierarchy of organizational units, set up the leaf nodes of that list as distinct organizational units.
+When you have a complex hierarchy of cost centers, divisions, billing offices, etc., set up the leaf nodes of that list as distinct organizational units.
 The following example shows a common hierarchy:
 
 Contoso India
