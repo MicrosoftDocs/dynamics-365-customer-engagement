@@ -2,7 +2,7 @@
 title: "FAQs for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: "Frequently asked questions about the Channel Integration Framework (CIF) and its APIs for Dynamics 365."
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 02/14/2019
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
