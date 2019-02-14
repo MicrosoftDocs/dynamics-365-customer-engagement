@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Quoting, pricing and billing are features that are use by small and large organizations. Understanding how they work in Project Service Automation (PSA) makes it easier to customize configurations.
+Quoting, pricing, and billing are features that are use by small and large organizations. Understanding how they work in Project Service Automation (PSA) makes it easier to customize configurations.
 
 The following topics provide more information about the quoting, pricing, and billing functionality in PSA.
 
