@@ -29,7 +29,7 @@ The ability to find the right resources at the right time, book those resources 
 The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:
 
 - [Quoting, pricing, and billing](../quote-bill-price.md)
-- [Sales processes](../basic-sales-processes.md)
+- [Sales processes](../basic-sales-process.md)
 - [Quotes and quote lines](../basic-quote-lines.md)
 - [Product-based quote lines](../product-based-quote-lines.md)
 - [Pricing](../basic-pricing.md)
@@ -38,7 +38,7 @@ The PDF link that was previously in this topic has been removed and the content 
 - [Estimates](../estimates.md)
 - [Actuals](../actuals.md)
 - [Analyzing project quotes](../basic-analyzing-quotes.md)
-- [Organizational units](../advanced-oranizational.md)
+- [Organizational units](../advanced-organizational.md)
 - [Unit groups and units](../advanced-units.md)
 - [Multi-currency scenarios](../advanced-currency.md)
 - [Recording actuals](../advanced-actuals.md)
