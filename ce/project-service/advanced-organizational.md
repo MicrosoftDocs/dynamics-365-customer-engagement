@@ -1,5 +1,5 @@
 ---
-title: Organizational units in Project Service 
+title: Organizational units 
 description: This topic provides information about organizational units in Project Service Automation (PSA).
 author: rumant
 manager: kfend
@@ -21,7 +21,7 @@ search.app:
   - D365PS
 ---
 
-# Organizational units in Project Service
+# Organizational units 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
