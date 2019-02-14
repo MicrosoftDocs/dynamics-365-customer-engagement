@@ -64,6 +64,10 @@ No, the Channel Integration Framework (CIF) solution should not be bundled with 
 
 Also, you can add Configuration Experience to the acquire flow that will allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution do any additional setup or license acquisition remotely before installing.
 
+## What happens when you add a role under Select roles for the Channel ?
+
+When you add a role in the **Select roles for the Channel** list, it does not filter out users with just the System Administrator role. The System Administrator and Customizer roles will always have access to the channel provider.
+
 ## See also
 
 [Dynamics 365 Channel Integration Framework Guide](index.md)<br />
