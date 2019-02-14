@@ -22,15 +22,14 @@ search.app:
 
 A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll simply target all the contacts you have, but in most cases, you'll choose who you want to target based on demographic or firmographic data and other considerations. More information [Working with segments]().
 
-The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing App.
-The segmentation API leverages the standard Dynamics 365 API for manipulating entities or messages. More information [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)
+The Segmentation API enables programmatic interaction with segment records. The segmentation API leverages the standard Dynamics 365 API for manipulating entities or messages. More information [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)
 
 > [!IMPORTANT]
 > - Segmentation API is a preview feature.
 > - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)] 
 > - [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]
 
-When you create a segment, the properties of the segment are stored in `msdyncrm_segment` entity. You can browse the entity metadata for available properties and optionset value mapping. You can get the metadata information by using `@odata.context`in `GET` response. 
+When you create a segment, the properties of the segment are stored in `msdyncrm_segment` entity. You can browse the entity metadata information by using `@odata.context`in `GET` response. 
 
 > [!NOTE]
 > Before you perform operations, you should install Dynamics 365 for Marketing app. 
@@ -51,9 +50,9 @@ To test the operations you can use Postman tool. More information [Use Postman w
 
 This example shows how to create, update, retrieve and delete static segments.
 
-1. **Create Request**
+1. **Create request**
 
-In create request, you will create a new static segment and set `statuscode` to `draft` and contains two contacts. The response header contains the `URL` to this newly created record (entity instance), which parenthetically includes the `unique ID (segmentID)` for this record.
+In the create request, you will create a new static segment with two contacts and `statuscode` set to `draft`. The response header contains the `URL` to this newly created record (entity instance), which parenthetically includes the `unique ID (segmentID)` for this record.
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
@@ -68,9 +67,9 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 > The purpose of the “crm” prefix is to unambiguously indicate the type of the record identifier. This is required when you are using a legacy Segmentation solution (DCI Segmentation) which by default uses another type of identifier.
 
 
-2. **Update Request**
+2. **Update request**
 
-In update request, you will set the `statuscode` of the created static segment to `Going Live (192350006)`, when this finishes the status will be updated to `Live`. 
+In the update request, you will set the `statuscode` of the created static segment to `Going Live (192350006)`, when the request is executed it updates the `statuscode`to `Live`.
 
 ```HTTP
 PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -79,9 +78,9 @@ PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 }
 ```
 
-3. **Retrieve Request**
+3. **Retrieve request**
 
-In retrieve request, you will retrieve the static segment that is in `Live` state.
+In the retrieve request, you will retrieve the static segment that is in `Live` state.
 
 ```HTTP
 GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -92,7 +91,7 @@ You can also retrieve the segments with specific properties.
 GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdyncrm_segmentname,msdyncrm_segmentquery,msdyncrm_description
 ```
 
-4. **Delete Request**
+4. **Delete request**
 
 In the delete request, you will delete the created static segment. 
 
@@ -104,9 +103,9 @@ DELETE {{orgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 This example shows how to create, update, retrieve and delete dynamic segments.
 
-1. **Create Request**
+1. **Create request**
 
-In create request, you will create a dynamic segment and set the `statuscode` to `Live`.
+In the create request, you will create a dynamic segment and set the `statuscode` to `Live`.
 
 ```HTTP
 POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
@@ -117,9 +116,9 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
     "statuscode": 192350001
 }
 ```
-2. **Update Request**
+2. **Update uequest**
 
-In update request, you will change the status of the dynamics segment to `Stop`.
+In the update request, you will change the status of the dynamic segment to `Stop`.
 
 ```HTTP
 PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -129,15 +128,15 @@ PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 3. **Retrieve Request**
 
-In retrieve request, you will retrieve the dynamic segment that is created. 
+In the retrieve request, you will retrieve the dynamic segment that is created. 
 
 ```HTTP
 GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 
-4. **Delete Request**
+4. **Delete request**
 
-In delete request, you will delete the dynamic segment that is created.
+In the delete request, you will delete the dynamic segment that is created.
 
 ```HTTP
 DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -147,9 +146,9 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 This example shows how to create, update, retrieve and delete compound segments.
 
-1. **Create Request**
+1. **Create request**
 
-In create request, you will create a compound segment and set the `statuscode` to `Live`.
+In the create request, you will create a compound segment and set the `statuscode` to `Live`.
 
 ```HTTP
 POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
@@ -160,9 +159,9 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
     "statuscode": 192350001
 }
 ```
-2. **Update Request**
+2. **Update request**
 
-In update request, you will change the status of the compound segment to `Stop`.
+In the update request, you will change the status of the compound segment to `Stop`.
 
 ```HTTP
 PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -170,17 +169,17 @@ PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
     "statuscode": 192350002
 }
 ```
-3. **Retrieve Request**
+3. **Retrieve request**
 
-In retrieve request, you will retieve the compound segment that is created. 
+In the retrieve request, you will retieve the compound segment that is created. 
 
 ```HTTP
 GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 
-4. **Delete Request**
+4. **Delete request**
 
-In delete request, we will delete the compound segment that is created.
+In the delete request, you will delete the compound segment that is created.
 
 ```HTTP
 DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -250,22 +249,22 @@ POST {{orgUlr}}/api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
 
 ## Include/exclude dynamic segment members
 
-Dynamic and compound segments are based on a query. Records matching this query become segment members. For static segments, the include/exclude operations have a more straight-forward semantics of adding or removing segment members.
+Dynamic and compound segments are based on  segemnt query. Records matching the query become segment members. For static segments, the include/exclude operations have a more straight-forward semantics of adding or removing segment members.
 
-Including a record makes it a member of a segment whether it satisfies the segmentation query or not. Including a record which is already a segment member will assure it is not removed when it stops matching the segmentation query. 
+Including a record makes it a member of the segment whether it satisfies the segmentation query or not. Including a record which is already a segment member will assure that it is not removed when it doesn't match the segmentation query. 
 
-Excluding a record effectively removes it from segment members and prevents it from being added again even if the record matches the segmentation query. A record can be excluded from a segment without previously being a member of this segment to prevent it from becoming one.
+Excluding a record effectively removes it from the segment members and prevents it from being added again, even if the record matches the segmentation query. A record can be excluded from a segment without previously being a member of the segment to prevent it from becoming a member.
 
-Once a member has been included this action can be inverted by excluding it, thereby removing it and preventing it from becoming a member in the future. Similarly, excluding a member can be inverted by including it, thereby making it a member unconditionally.
+Once a member is included, action can be reveresed by excluding it, thereby removing and preventing it from becoming a member in future. Similarly, excluding a member can be reversed by including it, thereby making it a member unconditionally.
 
 Following are some of the important aspects that needs to be considered while including/excluding segment members:
 
 - Dynamic and compound segments must be in `Live` or `Stopped` state (not draft).
-- Only instances of entity type `Contact` can be included/excluded.
-- All included/excluded records must exist, otherwise the whole request gets reject.
-- Feature is supported only by New Segmentation (not by DCI Segmentation).
+- Only instances of entity type `Contact` can be included/excluded as memebers.
+- All included/excluded records should exist, otherwise the request gets rejected.
+- Include/exclude feature is supported only by new Segmentation (not by DCI Segmentation).
 - Include/exclude member request is processed asynchronously independent of any recurring segment evaluations.
 - Any include/exclude operation resulting in an actual update to segment members is recorded in `Segment Insights`.
-- When including or excluding multiple records, preferably use the plural endpoints for faster processing.
--  You can have upto 10000 contacts to `msdyncrm_segmentmemberid` field.
+- When including or excluding multiple records, use the plural endpoints for faster processing.
+- You can add upto 10000 contacts to `msdyncrm_segmentmemberid` field.
 
