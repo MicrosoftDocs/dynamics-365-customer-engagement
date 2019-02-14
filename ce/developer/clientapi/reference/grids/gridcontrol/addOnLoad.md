@@ -1,6 +1,6 @@
 ---
 title: "addOnLoad (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
-ms.date: 11/10/2017
+ms.date: 02/14/2019
 ms.service: crm-online
 ms.topic: reference
 applies_to: Dynamics 365 for Customer Engagement (online)
@@ -21,7 +21,7 @@ search.app:
 
 ## Grid types supported
 
-Read-only grids
+Read-only and editable grids
 
 ## Syntax
 
