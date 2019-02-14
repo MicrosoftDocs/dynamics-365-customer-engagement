@@ -64,12 +64,12 @@ No, the Channel Integration Framework (CIF) solution should not be bundled with 
 
 Also, you can add Configuration Experience to the acquire flow that will allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution do any additional setup or license acquisition remotely before installing.
 
-## What happens when you add a role under Select roles for the Channel ?
+## What happens when you select a role from under Select roles for the Channel ?
 
-When you select a particular security role for the channel provider from under the **Select roles for the Channel** dropdown, the security role provides certain access rights to the channel provider. In case no role is assigned, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.
+When you select a particular security role for the channel provider from under the **Select roles for the Channel** dropdown, the security role provides certain access rights to the channel provider. In case no role is selected, the channel provider can only be accessed by System Administrators and Customizers.
 
 > [!IMPORTANT]
-> When you select a role in the **Select roles for the Channel** list, it does not filter out users with just the System Administrator role. The System Administrator and Customizer roles will always have access to the channel provider. When you assign a System Administrator role to a user, the other users who have been assigned System Administrator role earlier will not lose access.
+> When you select a role in the **Select roles for the Channel** list, it does not filter out users with just the System Administrator role. The System Administrator and Customizer roles will always have access to the channel provider. When you assign a System Administrator role to a user, the other users who have been assigned System Administrator role earlier will not lose access unless you explicitly revoke System administrator rights from a user.
 
 ## See also
 
