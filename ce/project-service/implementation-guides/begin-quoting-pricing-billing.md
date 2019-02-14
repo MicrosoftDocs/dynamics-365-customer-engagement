@@ -24,7 +24,21 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-This English-language document explains the basic quoting, pricing and billing capabilities of Dynamics 365 for Customer Engagement for Project Service (version 3.x). The guide covers features that most small or large organizations use.
- 
-> [!div class="nextstepaction"]
-> [Download PDF of the basic guide to quoting, pricing, and billing](https://go.microsoft.com/fwlink/?linkid=2006770)
+The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals. 
+
+The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:
+
+- [Quoting, pricing, and billing](../quote-bill-price.md)
+- [Sales processes](../basic-sales-process.md)
+- [Quotes and quote lines](../basic-quote-lines.md)
+- [Product-based quote lines](../product-based-quote-lines.md)
+- [Pricing](../basic-pricing.md)
+- [Product catalog pricing](../product-catalog-pricing.md)
+- [Business transactions](../basic-business-transactions.md)
+- [Estimates](../estimates.md)
+- [Actuals](../actuals.md)
+- [Analyzing project quotes](../basic-analyzing-quotes.md)
+- [Organizational units](../advanced-organizational.md)
+- [Unit groups and units](../advanced-units.md)
+- [Multi-currency scenarios](../advanced-currency.md)
+- [Recording actuals](../advanced-actuals.md)
