@@ -26,9 +26,9 @@ search.app:
 
 The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals. 
 
-The ODF link that was previously in this topic has been removed and the content has been moved to the following topics:
+The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:
 
-- [Quoting, pricing, and billing home page](../quote-bill-price.md)
+- [Quoting, pricing, and billing](../quote-bill-price.md)
 - [Sales processes](../basic-sales-processes.md)
 - [Quotes and quote lines](../basic-quote-lines.md)
 - [Product-based quote lines](../product-based-quote-lines.md)
