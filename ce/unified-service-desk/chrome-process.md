@@ -34,6 +34,8 @@ The Chrome Process browser control hosts your controls in individual Chrome proc
 
 The advantages of using the Chrome process hosting method are as follows:
 
+![Advantages of Chrome Process](media/chrome-process-value-props.PNG "Advantages of Chrome Process")
+
 - Chrome Process is available on different Windows OS server versions (Client and Server).
 - Chrome, like Microsoft Edge, is a modern browser; modern web apps are highly functional and reliable on these browsers.
 - Easy configurations to host the applications in Unified Service Desk.
@@ -42,7 +44,7 @@ The advantages of using the Chrome process hosting method are as follows:
 
 ## Chrome Process settings
 
-You can set the **Chrome Process** on the hosted controls (exisitng hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Chrome Process** based on your requirements. More information: [Create a hosted control with hosting type as Chrome](chrome-process.md#create-a-hosted-control-with-hosting-type-as-chrome)
+You can set the **Chrome Process** on the hosted controls (existing hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Chrome Process** based on your requirements. More information: [Create a hosted control with hosting type as Chrome](chrome-process.md#create-a-hosted-control-with-hosting-type-as-chrome)
 
 If you want to set the **Chrome Process** to host the applications for an entire organization, then use the **GlobalBrowserMode** Global UII option and specify the value as **Chrome**. More information: [Enable Chrome for Unified Service Desk on client desktop](chrome-process.md#enable-chrome-for-unified-service-desk-on-client-desktop)
 
@@ -60,7 +62,7 @@ Setting the **GlobalBrowser** mode key to **Chrome** in the **UnifiedServiceDesk
 
 Enable the **Chrome Process** by doing one of the following ways:
 
-- Create a individual hosted control with hosting type as Chrome
+- Create a individual hosted control with hosting type as Chrome Process
 - Enable for individual client desktops
 - Enable for entire an organization 
 
@@ -94,7 +96,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 3. Save the file.
 
   > [!div class="mx-imageBorder"]
-  > ![Chrome Process configuration setting key](media/chrome-process-app-config-file-setting.GIF "Chrome Process configuration setting key")
+  > ![Chrome Process configuration setting key](media/chrome-process-app-config-file-setting.GIF "Chrome Process configuration setting")
 
 ### Enable Chrome for an entire organization
 
