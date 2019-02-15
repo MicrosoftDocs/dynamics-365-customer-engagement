@@ -30,7 +30,7 @@ When you define an action in a ribbon, you frequently have to pass data from the
 
 ## Form and grid context in ribbon actions
 
-To pass in the execution context (*form context* or *grid context*) information to JavaScript function for your ribbon actions, specify **PrimaryControl** as the `<CrmParameter>` value in your ribbon definition. The passed in PrimaryControl value is used as an argument in your JavaScript function that provides the *form context* or *grid context* depending on where the ribbon command is executed. 
+To pass in the execution context (*form context* or *grid context*) information to JavaScript function for your ribbon actions, specify **PrimaryControl** for the form context, or **SelectedControl** for the grid context as the `<CrmParameter>` value in your ribbon definition. **SelectedControl** will pass in the grid context, for both subgrids and homepage grids.  The passed in PrimaryControl value is used as an argument in your JavaScript function that provides the *form context* or *grid context*. 
 
 For example, here is a sample ribbon definition where we pass in the **PrimaryControl** parameter to the JavaScript function:
 
@@ -46,7 +46,7 @@ For example, here is a sample ribbon definition where we pass in the **PrimaryCo
 </CommandDefinition>
 ```
 
-Next, in the **new_mySampleScript.js** web resource file referenced in the example above, define your JavaScript function with the **primaryControl** variable as an argument. This argument provides the *form* or *grid* context depending on where the ribbon command is executed:
+Next, in the **new_mySampleScript.js** web resource file referenced in the example above, define your JavaScript function with the **primaryControl** variable as an argument. This argument provides the *form* context where the ribbon command is executed:
 
 ```JavaScript
 function mySampleFunction(primaryControl) {
