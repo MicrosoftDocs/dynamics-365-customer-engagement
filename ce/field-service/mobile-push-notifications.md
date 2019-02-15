@@ -120,7 +120,7 @@ The Field Service Mobile push notification feature also lets you create custom p
 
   - **Message:** enter the message displayed in the push notification. 
   - **Category:** set to **ViewRecord**.
-  - **User:** enter the user the push notification will be sent to. As an example, enter the following for push notifications related to bookable resource bookings: **(User(Resource)(Bookable Resource))**.
+  - **User:** enter the user the push notification will be sent to. For example, enter the following for push notifications related to bookable resource bookings: **(User(Resource)(Bookable Resource))**.
   - **Team:** enter the team the push notification will be sent to.
 
   > [!div class="mx-imgBorder"]
