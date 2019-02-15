@@ -66,7 +66,7 @@ search.app:
 
  - If an upgrade is not available [opt-in to upgrade Project and Field Service - Unified Interface](https://experience.dynamics.com/insider/campaign/?id=75505220-c2e6-e811-a96d-000d3a1bef07)
 
-
+- Installing Field Service Mobile from the Windows Store can allow for automatic downloads of new versions
 
 
 
