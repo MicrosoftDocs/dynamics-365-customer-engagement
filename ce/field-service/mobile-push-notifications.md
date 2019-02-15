@@ -27,16 +27,17 @@ search.app:
 
 # Push notifications in Field Service Mobile
 
-In Field Service Mobile, push notifications allow you to send communications to field technicians through their mobile phones or tablets. Push notifications utilize the Dynamics 365 workflow engine and can be triggered by many scenarios. 
+In Field Service Mobile, push notifications allow you to send updates to field technicians through their mobile phones or tablets. Push notifications utilize the Dynamics 365 workflow engine and can be triggered by many scenarios. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-push-notification-notification-center.png)
 
-In this topic, we'll look at how push notifications are useful for field service organizations by walking through the following scenarios:
+Push notifications can be used to:
 
 - notify field technicians they have been assigned a booking
 - remind field technicians to enter important business data
 
+In this topic, we'll show you how to create and customize push notifications to notify technicians when they're out in the field. 
 
 ## Prerequisites
 
@@ -88,8 +89,6 @@ The push notification will also show up in Windows, iOS, and Android notificatio
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the push notification appearing in a Windows notification center](./media/mobile-push-notification-notification-center.png)
-
-
 
 ## Create a custom push notification
 
