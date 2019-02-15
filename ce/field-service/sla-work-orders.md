@@ -98,7 +98,7 @@ Now we are going to create a new SLA.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of assigning a Business Hours calendar](./media/work-order-sla-add-sla-details-5.png)
 
-4. Now we will create SLA details:
+4. Now we will add details to our SLA:
 
 - **Name:** enter a title for your SLA detail.
 - **SLA KPI:** select the SLA KPI this relates to. You can choose the arrival time KPI that is automatically available with Field Service v8.3+, or select one you have created.
@@ -112,7 +112,7 @@ Now we are going to create a new SLA.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related](./media/work-order-sla-add-actions-6.png)
 
-The following screenshot shows the Field Service Mobile app that field technicians use to view and record on site work. When a work order is scheduled to a field technician, a booking record is created. He or she can edit the booking status, which will update the related work order system status, which then updates the related SLA success status. 
+The following screenshot shows the Field Service Mobile app that field technicians use to view and record on-site work. When a work order is scheduled to a field technician, a booking record is created. He or she can edit the booking status, which will update the related work order system status, which then updates the related SLA success status. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related](./media/work-order-sla-mobile-app-booking-status.png)
 
