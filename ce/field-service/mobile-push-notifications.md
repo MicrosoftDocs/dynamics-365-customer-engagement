@@ -37,7 +37,7 @@ Push notifications can be used to:
 - notify field technicians they have been assigned a booking
 - remind field technicians to enter important business data
 
-In this topic, we'll show you how to create and customize push notifications to notify technicians when they're out in the field. 
+In this topic, we'll show you how to create and customize push notifications to notify technicians on their mobile devices. 
 
 ## Prerequisites
 
