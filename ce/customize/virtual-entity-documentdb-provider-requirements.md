@@ -2,7 +2,7 @@
 title: "Preview Feature: Use the Azure Cosmos DB for SQL API Data Provider | MicrosoftDocs"
 description: "Learn how to configure the Azure Cosmos DB for SQL API Data Provider to use with virtual entities."
 keywords: SQL API
-ms.date: 01/14/2019
+ms.date: 02/15/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -93,7 +93,7 @@ SQL query filtering supports the following operators.
    ![Select the Azure Cosmos DB for SQL API Data Provider.](media/createdatasource.png)
 4. Enter the following information, and then select **SAVE & CLOSE**.
    - **Name**. Type a name that describes the data source.
-   - **Collection Name**. The id of the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] database collection containing the data you want to surface in a virtual entity.  
+   - **Collection Name**. The name of the Azure Cosmos DB *database* containing the collection you want to surface in a virtual entity.  
    - **Authorization Key**. The primary or secondary key for the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] account. You can find the key from the Azure admin portal under the **Keys** setting under your [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] account.
    - **Uri**. The URI of the resource group where the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] collection is located. The URI is formed similar to https://contoso/documents.azure.com:443. You can find the URI from the Azure admin portal under the **Keys** setting for the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] account. 
    - **Timeout in seconds**. Enter the number of seconds to wait for a response from the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] service before a data request time-out. For example, enter 30 to wait a maximum of thirty seconds before a time-out occurs. The default timeout is 120 seconds.
