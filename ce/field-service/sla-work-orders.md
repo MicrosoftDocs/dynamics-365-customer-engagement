@@ -87,8 +87,8 @@ Now we are going to create a new SLA.
 
 
 2. Enter the following information:
-  1. **Name:** give the SLA a title
-  2. **Entity:** Select **Work Order** from the list
+  - **Name:** give the SLA a title
+  - **Entity:** Select **Work Order** from the list
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating a new SLA for Work Order entity](./media/work-order-sla-create-sla-add-work-order-4.png)
