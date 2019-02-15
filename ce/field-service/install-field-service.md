@@ -1,14 +1,14 @@
 ---
 title: "Install Dynamics 365 for Field Service (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 12/15/2018
-ms.reviewer: 
+ms.date: 2/15/2019
+ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
-author: shellyhaverkamp
-ms.author: FieldServiceDave
+author: FieldServiceDave
+ms.author: daclar
 ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
@@ -161,7 +161,7 @@ The mobile project template contains all customizations for the Field Service Mo
 8. Double-click the mobile project template parent, and then select **Publish All**. 
 
 > [!Note]
-> For Field Service Mobile v11.1, publish to 9.2 - 10.1.
+> For Field Service Mobile v11.2, publish to 11.2.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of publishing mobile project](media/mobile-install-project-publish-all.png)  

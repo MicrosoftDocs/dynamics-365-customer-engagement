@@ -28,7 +28,7 @@ To accommodate this scenario, we will create a pool to represent the pediatricia
 
 ### Step 1: Create a resource pool
    
-   1. From either the Field Service or Universal Resource Scheduling solution, navigate to **Resources** > **Active Bookable Resources** view > select **+New**.  
+   1. From either the Field Service or Universal Resource Scheduling solution, go to **Resources** > **Active Bookable Resources** view > select **+New**.  
 
 
 > [!div class="mx-imgBorder"]
@@ -61,7 +61,7 @@ To accommodate this scenario, we will create a pool to represent the pediatricia
 
 Members can be added to a pool through the bookable resource group entity (bookableresourcegroup).
 
-1. From the pool you just created, go to to **Related > Resource Children**.
+1. From the pool you just created, go to **Related > Resource Children**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of pool children view](./../field-service/media/scheduling-facility-pediatrician-pool-children.png)
@@ -244,7 +244,7 @@ First we will create a pool resource to represent the hotel.
 
 Now we will create a requirement to represent a reservation for a traveler.
 
-1. Go to to **Universal Resource Scheduling > Resource Requirements > +New**.
+1. Go to **Universal Resource Scheduling > Resource Requirements > +New**.
 2. Fill out **Name**, **Date Range**, **Duration**, and any other constraints.
 3. Set **Resource Type** to **Pool**.
 4. Set **Pool Type** to **Facility**.

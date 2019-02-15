@@ -1,12 +1,12 @@
 ---
 title: Resource management guide
-description: An English-language guide to resource management in Project Service Automation for Dynamics 365 for Customer Engagement
+description: This topic provides links to information about resource management in Project Service Automation 
 author: kfend
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 7/30/2018
+ms.date: 02/14/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -26,7 +26,6 @@ search.app:
 
 The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals. 
 
-This English-language document explains the resource management capabilities of the Project Service app:
- 
-> [!div class="nextstepaction"]
+This English-language document explains the resource management capabilities of the Project Service app: 
+
 > [Download PDF of the resource management guide](https://go.microsoft.com/fwlink/?linkid=2006724)
