@@ -135,7 +135,7 @@ The following screenshot shows the Field Service Mobile app that field technicia
 
 ## Step 4. Schedule a work order to meet SLA  
 
-Once a work order is assoaciated with an SLA, the **Time From Promised** and **Time To Promised** fields will be populated on the work order according to the SLA, appropriate SLA Item, and business hours of the SLA. Note that these fields will populate along with other system jobs, which may typically take up to 5 minutes.
+Once a work order is associated with an SLA, the **Time From Promised** and **Time To Promised** fields will be populated on the work order according to the SLA, appropriate SLA Item, and business hours of the SLA. Note that these fields will populate along with other system jobs, which may typically take up to 5 minutes.
 
 
 > [!div class="mx-imgBorder"]
