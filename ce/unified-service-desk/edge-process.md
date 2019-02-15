@@ -282,7 +282,7 @@ To sign out from sessions when using the Edge process, you must configure the si
 
 ## Limitations
 
-To learn about the limitations of the Edge process, see [Edge process limitations](release-notes.md)
+To learn about the limitations of the Edge process, see [Edge Process limitations](release-notes.md)
 
 ## See also  
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  

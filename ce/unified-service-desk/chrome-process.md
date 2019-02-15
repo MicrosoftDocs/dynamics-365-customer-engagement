@@ -292,6 +292,10 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 7. Select save.
 
+## Limitations
+
+To learn about the limitations of the Edge process, see [Chrome Process limitations](release-notes.md)
+
 ## See also
 
 [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
