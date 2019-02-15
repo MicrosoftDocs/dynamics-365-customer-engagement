@@ -85,7 +85,7 @@ Soon, a push notification will display on your device. In the following screensh
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a small banner push notification on a Windows device](./media/mobile-push-notification-banner.png)
 
-The push notification will also show up in Windows, iOS, and Android notification centers.
+The push notification will also show up in Windows, iOS, and Android notification centers, as seen in the following Windows device screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the push notification appearing in a Windows notification center](./media/mobile-push-notification-notification-center.png)
