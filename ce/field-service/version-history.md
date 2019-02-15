@@ -33,32 +33,17 @@ search.app:
 | Field Service  |  Field Service Mobile  | Mobile Configuration Tool (Woodford)  | Mobile Project Template |
 |---|---|---|---|
 | 8.3.1  |  11.2 |  11.3 | 1.0.1322 |
-| [https://trials.microsoft.com](https://trials.microsoft.com) See note 1 below |	[Windows](https://aka.ms/fsmobile-windows), 	[iOS](https://aka.ms/fsmobile-ios), 	[Android](https://aka.ms/fsmobile-android) |  [https://aka.ms/fsmobile-configurator](https://aka.ms/fsmobile-configurator) See note 2 below | [https://aka.ms/fsmobile-project](https://aka.ms/fsmobile-project) |
+| [https://trials.microsoft.com](https://trials.microsoft.com) See note below |	[Windows](https://aka.ms/fsmobile-windows), 	[iOS](https://aka.ms/fsmobile-ios), 	[Android](https://aka.ms/fsmobile-android) |  [https://aka.ms/fsmobile-configurator](https://aka.ms/fsmobile-configurator) See note 2 below | [https://aka.ms/fsmobile-project](https://aka.ms/fsmobile-project) |
 
 > [!Note]
-> **Note 1:** 
 > - New trials via [https://trials.microsoft.com](https://trials.microsoft.com) will install the latest generally available Field Service solution  
 > - Upgrade your solution in Admin Center > Dynamics 365 
 > - If an upgrade is not available [opt-in to upgrade Project and Field Service - Unified Interface](https://experience.dynamics.com/insider/campaign/?id=75505220-c2e6-e811-a96d-000d3a1bef07)
-  
-> [!Note]
-> **Note 2:** 
 
 
+## Field Service version history
 
-  
-
-
-
-
-
-
-
-
-
-## Field Service 
-
-| Version Number  |  Release Date  |  Notes | 
+| Version Number  |  Release date  |  Notes | More details |
 |---|---|---|---|---|
 | 8.3  |  December 2018 |  Latest release for general availability (GA) |
 | 8.0  |  July 2018 |  Multi-resource scheduling (requirement groups) |  
@@ -68,18 +53,13 @@ search.app:
 | 5.1  | May 2016  |  FieldOneSky Preferred Vendor Solution (PVS). f1_ schema prefix | 
 
 
-| Field Service  |  Field Service Mobile  |  Mobile Project Template | Mobile Configuration Tool (Woodford) |
-|---|---|---|---|
-| 8.3  |  December 2018 |  Latest release for general availability (GA) |
+## Field Service Mobile version history
 
-## Field Service Mobile app
-
-Mobile project template
+| Mobile project template version  | Mobile project template name | Release date | Relates to Field Service Mobile name/version |  Publish to Woodford Version | Notes | More details |
+|---|---|---|---|---|---|---|
+| 1.0.1322  |  FSDyn365_1.0.1322.woodford |  Latest release for general availability (GA) |
 
 
+### See also
 
-
-
-## Field Service Mobile (2017)
-
-## Field Service Mobile (2016)
+- [New and upcoming features](new-upcoming.md)
