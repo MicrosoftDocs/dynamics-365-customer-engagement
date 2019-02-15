@@ -25,7 +25,7 @@ search.app:
   - D365FS
 ---
 
-# Push Notifications
+# Push notifications in Field Service Mobile
 
 In Field Service Mobile, push notifications allow you to send communications to field technicians through their mobile phones or tablets. Push notifications utilize the Dynamics 365 workflow engine and can be triggered by many scenarios. 
 
