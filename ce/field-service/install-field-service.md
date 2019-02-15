@@ -161,7 +161,7 @@ The mobile project template contains all customizations for the Field Service Mo
 8. Double-click the mobile project template parent, and then select **Publish All**. 
 
 > [!Note]
-> For Field Service Mobile v11.1, publish to 9.2 - 10.1.
+> For Field Service Mobile v11.2, publish to 11.2.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of publishing mobile project](media/mobile-install-project-publish-all.png)  
