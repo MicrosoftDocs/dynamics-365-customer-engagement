@@ -119,7 +119,7 @@ Add a new Global UII option for your organization named **GlobalBrowserMode**. S
 ## RunScript action is asynchronous in Chrome Process
 
 The Google Chrome browser supports only the asynchronous operations, and the RunScript action will be asynchronous.
-If your custom code execution is dependent on the return value provided by RunScript action that injects JavaScript into the main frame of the application, then your custom code execution may fail.
+If your custom code execution is dependent on the return value provided by RunScript action that injects JavaScript into the main frame of the application, then your custom code execution might fail.
 
 For example, Your custom code has a RunScript actions that injects the JavaScript into the main frame of the application followed by an operation or another RunScript action. The RunScript action is invoked and returns a value after the JavaScript injection. If the subsequent operation or another RunScript action executes based on the return value provided by the executed RunScript action, then subsequent operations of your custom code will fail.
 
@@ -135,7 +135,7 @@ Next, you must create a sub action call to show the number of days a case is in 
 
 You must create another sub action call to open the phone call page and perform the next operation. After seeing the message, you select the **OK** button on the dialog, and this causes the phone call page to open.
 
-Let us see what configurations you need to do create for the above-mentioned scenario.
+Let us see what configurations you need to create for the above-mentioned scenario.
 
 ### Step 1: Create a hosted control
 
@@ -145,13 +145,13 @@ Let us see what configurations you need to do create for the above-mentioned sce
 
 3. Add the following details and save the hosted control.
 
-| Field | Value |
-|--------|---------|
-| Name | Incident |
-| Display Name | `[[incident.title]]` |
-| Unified Service Desk Component Type | Unified Interface Page |
-| Hosting Type | Chrome Process |
-| Display Group | MainPanel |
+ | Field | Value |
+ |--------|---------|
+ | Name | Incident |
+ | Display Name | `[[incident.title]]` |
+ | Unified Service Desk Component Type | Unified Interface Page |
+ | Hosting Type | Chrome Process |
+ | Display Group | MainPanel |
 
 ### Step 2: Create two action calls
 
@@ -161,13 +161,13 @@ Let us see what configurations you need to do create for the above-mentioned sce
 
 3. Add the following details and save the action call.
 
-| Field | Value |
-|--------|---------|
-| Name | FindNoOfDaysCaseBeingOpened |
-| Order | 1 |
-| Hosted Control | Incident |
-| Action | RunScript |
-| Data | function findAge(dateString)</br>{</br>if("[[incident.statuscode]]".indexOf("1") > -1){</br>var date1 =new Date(dateString);</br>var date2 =new Date();</br>var timeDiff = Math.abs(date2.getTime() - date1.getTime());</br>var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));</br>return diffDays.toString();</br>}</br>return 0;</br>}</br>findAge("[[incident.createdon]]"); |
+ | Field | Value |
+ |--------|---------|
+ | Name | FindNoOfDaysCaseBeingOpened |
+ | Order | 1 |
+ | Hosted Control | Incident |
+ | Action | RunScript |
+ | Data | function findAge(dateString)</br>{</br>if("[[incident.statuscode]]".indexOf("1") > -1){</br>var date1 =new Date(dateString);</br>var date2 =new Date();</br>var timeDiff = Math.abs(date2.getTime() - date1.getTime());</br>var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));</br>return diffDays.toString();</br>}</br>return 0;</br>}</br>findAge("[[incident.createdon]]"); |
 
 4. Repeat steps 2 and 3 to create another action call.
 
@@ -206,7 +206,7 @@ Let us see what configurations you need to do create for the above-mentioned sce
 
 5. From the list of action calls, select the **DaysValue** action call.
 
-6. In the navigation bar, next to the **DaysValue** action call, select the *>* icon, and select **Sub Action Call**.
+6. In the navigation bar, next to the **DaysValue** action call, select the **>** icon, and select **Sub Action Call**.
 
 7. Select the **ADD EXISTING ACTION CALL** option. In the search field, type the action **DisplayMessageForCaseOpen**, and select the search icon.
 
@@ -222,7 +222,7 @@ Let us see what configurations you need to do create for the above-mentioned sce
 
 2. Select the **PageReady** event for the **Incident** hosted control from the list of events.
 
-3. On the event page, under the **Active Actions** area, click **+** to add action calls.
+3. On the event page, under the **Active Actions** area, select **+** to add action calls.
 
 4. A search box appears, type **FindNoOfDaysCaseBeingOpened** and select the search icon and select the action call. The action call appears under the **Active Actions** area.
 
