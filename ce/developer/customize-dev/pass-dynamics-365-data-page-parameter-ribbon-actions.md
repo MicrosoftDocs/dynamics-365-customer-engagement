@@ -3,7 +3,7 @@ title: "Pass Customer Engagement data from a page as a parameter to Ribbon actio
 description: "The topic describes options for using the <CrmParameter> element to retrieve these values. "
 ms.custom: 
 ms.date: 02/15/2019
-ms.reviewer: 
+ms.reviewer: kvivek 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -14,9 +14,9 @@ helpviewer_keywords:
   - ribbon, pass data to
 ms.assetid: 15245f11-a7e6-445a-8f18-06765268f1ad
 caps.latest.revision: 23
-author: JimDaly
-ms.author: jdaly
-manager: amyla
+author: hazhouMSFT
+ms.author: hazhou
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
