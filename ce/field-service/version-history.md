@@ -58,15 +58,14 @@ search.app:
 
 ## Additional Notes
 
- - New trials via [https://trials.microsoft.com](https://trials.microsoft.com) will install the latest generally available Field Service solution  
- - Upgrade your solution in Admin Center > Dynamics 365 
-
+ - New Dynamics 365 trials created via [https://trials.microsoft.com](https://trials.microsoft.com) will install the latest generally available Field Service solution  
+ - You can upgrade your solution in Admin Center > Dynamics 365 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/admin-upgrade-to-latest-admin-center.png)
 
- - If an upgrade is not available [opt-in to upgrade Project and Field Service - Unified Interface](https://experience.dynamics.com/insider/campaign/?id=75505220-c2e6-e811-a96d-000d3a1bef07)
+ - If a new version of Field Service is available as a private preview, you can  [opt-in to upgrade Project and Field Service - Unified Interface](https://experience.dynamics.com/insider/campaign/?id=75505220-c2e6-e811-a96d-000d3a1bef07) and an upgrade will become available in admin center.
 
-- Installing Field Service Mobile from the Windows Store can allow for automatic downloads of new versions
+- Installing Field Service Mobile from the Windows Store can allow for automatic upgrades of new versions
 
 
 
