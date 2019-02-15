@@ -116,7 +116,7 @@ The following screenshot shows the Field Service Mobile app that field technicia
 > [!div class="mx-imgBorder"]
 > ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related](./media/work-order-sla-mobile-app-booking-status.png)
 
-5. Select **Activate** the SLA. The following screenshot shows an activated SLA. 
+5. Select **Activate** on the SLA. The following screenshot shows an activated SLA. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of activating the SLA](./media/work-order-sla-add-more-details-7.png)
 
