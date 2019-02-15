@@ -1,22 +1,26 @@
 ---
-title: "Sign in to Omni-channel Engagement Hub"
+title: "Sign in to Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn how to sign in to Omni-channel Engagement Hub through Unified Service Desk client application."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: cad08a5b-fc27-4fce-90d3-4fef98211d3b
 ms.custom: 
 ---
 # Sign in to Unified Service Desk – Omni-channel Engagement Hub
 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 1.  Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 
-2.  In the Unified Service Desk sign-in dialog box, provide authentication details to connect to your Dynamics 365 server, and then select **Login**.
+2.  In the Unified Service Desk sign-in dialog box, provide authentication details to connect to your Dynamics 365 for Customer Engagement server, and then select **Login**.
 
  **For online deployments**
 
@@ -35,6 +39,7 @@ ms.custom:
 
 4.  In the app selection dialog, select the **Omni-channel Engagement Hub** app from the list.
 
+
 You signed in to Unified Service Desk - Omni-channel Engagement Hub application.
 
 > [!div class="nextstepaction"]
@@ -46,7 +51,7 @@ You signed in to Unified Service Desk - Omni-channel Engagement Hub application.
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)
 - [View notifications and screen pops](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
-- [View conversation control](left-control-panel.md)
+- [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)

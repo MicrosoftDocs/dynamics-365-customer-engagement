@@ -1,20 +1,24 @@
 ---
-title: "Create hosted controls"
+title: "Create hosted controls | MicrosoftDocs"
 description: "Learn how to create hosted controls that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: f957c744-eede-4ada-89b2-2c68f5eb92c0
 ms.custom: 
 ---
 # Step 2: Create hosted controls
 
-1.  Sign in to Dynamics 365.
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+1.  Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
 
 2.  Go to **Settings** > **Unified Service Desk**.
 

@@ -1,13 +1,13 @@
 ---
-title: "Add the hosted controls, events, and action calls to the agent and supervisor configurations"
+title: "Add the hosted controls, events, and action calls to the agent and supervisor configurations | MicrosoftDocs"
 description: "Learn how to add the hosted controls, events, action calls to the agent and supervisor configurations in Omni-channel Engagement Hub - Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/21/2018
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 39fa4483-8b31-4a42-99b3-1f46b62767d8
 ms.custom: 
@@ -15,19 +15,23 @@ ms.custom:
 
 # Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations 
 
-1.  Sign in to Dynamics 365. 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+1.  Sign in to Microsoft Dynamics 365 for Customer Engagement instance. 
 
 2.  Go to **Settings** > **Unified Service Desk** > **Configuration**. 
 
 3.  Select the configuration from the list. 
 
-4.  On the nav bar, select the down arrow next to Configuration, and select Action Calls. 
+4.  On the nav bar, select the down arrow next to Configuration, and select **Action Calls**. 
 
-5.  On the next page, select Add Existing Action Call, type the name of the action in the search bar, and then press ENTER or click the search icon. 
+5.  On the next page, select **Add Existing Action Call**, type the name of the action in the search bar, and then press ENTER or select the search icon.
 
 6.  Add the Action calls that are displayed in the search results. 
 
-7.  Similarly, add the hosted controls and the events by clicking the down arrow next to Configuration, and clicking Hosted Controls and Events, respectively. 
+7.  Similarly, add the hosted controls and the events by selecting the down arrow next to Configuration, and selecting Hosted Controls and Events, respectively. 
 
 8.  Select **Save**.
 

@@ -1,20 +1,24 @@
 ---
-title: "View conversation and session form in Dynamics 365 for Customer Engagement apps"
+title: "View conversation and session form in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about the omni-channel conversations and session forms that users (agents and supervisors) who are not part of can Omni-channel Engagement Hub can under the Acitivities in Dynamics 365 for Customer Engagement apps."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6fa913f3-f0f4-4917-91d1-f895d5648368
 ms.custom: 
 ---
 # View omni-channel conversations and omni-channel session in Dynamics 365 apps
 
-In your organization, some agents might work in a contact center that uses Omni-channel Engagement Hub, whereas other agents work in a different contact center that uses Microsoft Dynamics 365 apps, such as Customer Service Hub. In this case, if you're an agent who works in Dynamics 365 apps, and you must analyze a conversation request from Omni-channel Engagement Hub, you can find the information through **activities** in Dynamics 365..
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
+In your organization, some agents might work in a contact center that uses Omni-channel Engagement Hub, whereas other agents work in a different contact center that uses Microsoft Dynamics 365 apps, such as Customer Service Hub app. In this case, if you're an agent who works in Dynamics 365 apps, and you must analyze a conversation request from Omni-channel Engagement Hub, you can find the information through **activities** in Dynamics 365.
 
 You can find the following activity types in Dynamics 365 for Customer Engagement apps:
 
@@ -77,7 +81,7 @@ The omni-channel session displays information about a conversation request.
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)
 - [View notifications and screen pops](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
-- [View conversation control](left-control-panel.md)
+- [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)

@@ -42,7 +42,9 @@
   - name: Versium Predict
     href: versium-predict/index.md
   - name: Insights, powered by InsideView
-    href: insights-insideview/index.md 
+    href: insights-insideview/index.md
+  - name: Universal Resource Scheduling
+    href: common-scheduler/schedule-anything-with-universal-resource-scheduling.md
 - name: "Services"
   expanded: true
   items:    

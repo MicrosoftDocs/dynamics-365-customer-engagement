@@ -74,7 +74,10 @@ This helps to ensure that when you finish the copy or restore the data (especial
 
 ## Restoring a backup onto a different instance
 
-Each time you set up a new [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance, including when restoring a backup to a new instance and when copying a production instance to a sandbox instance, you must rerun the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] [setup wizard](purchase-setup.md) on the new instance. This is because the new instance needs to be set up with a new collection of external services.
+When you restore a backup that includes [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] onto a different instance, you must do the following:
+
+- If your target instance (the instance you are restoring *onto*) already has [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed on it, then you must delete [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] from that instance before you restore the backup. You don't need to remove all of the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] solutions, but you do need to run the uninstall wizard on the target instance before your restore. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Uninstall Marketing](uninstall-marketing.md).
+- After restoring a backup to a new instance (or copying a production instance to a sandbox instance) you must rerun the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] [setup wizard](purchase-setup.md) on the new instance. This is because the new instance needs to be set up with a new collection of external services.
 
 > [!NOTE]
 > Because a new set of customer-insights services is created for your new instance, all interaction data stored in the database used by the previous customer-insights services isn't available to the new instance.

@@ -1,5 +1,5 @@
 ---
-title: "Create a work order (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Create a work order (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -111,7 +111,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
 ### See also  
     
- [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
  [Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
  [Schedule a work order](../field-service/schedule-work-order.md)   
  [Configure the schedule board](../field-service/configure-schedule-board.md)<br>

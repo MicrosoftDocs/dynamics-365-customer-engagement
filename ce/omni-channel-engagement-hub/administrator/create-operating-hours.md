@@ -1,19 +1,23 @@
 ---
-title: "Create and manage operating hours"
+title: "Create and manage operating hours | MicrosoftDocs"
 description: "Instructions to create and manage operating hours in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 0D736266-7B7B-47DA-9FEC-F13C6733A98C
 ms.custom: 
 ---
 
 # Create and manage operating hours
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Operating hours define the hours when your organization's customer support team is active and available to serve customers. By setting up operating hours, you help your customers and your organization work together to resolve issues. After you create an operating hour record, you must add it to the **Design** tab of the appropriate chat widget to make it work.
 
@@ -52,3 +56,12 @@ Operating hours define the hours when your organization's customer support team 
 
     > [!div class=mx-imgBorder]
     > ![Add operating hours in a chat widget](../media/oc-chat-widget-design-tab.png "Add operating hours in a chat widget")
+
+### See also
+
+[Add a chat widget](add-chat-widget.md) <br>
+[Create a survey questions library](create-question-library.md) <br>
+[Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Create quick replies](create-quick-replies.md) <br>
+[Create chat authentication settings](create-chat-auth-settings.md) <br>
+[Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)

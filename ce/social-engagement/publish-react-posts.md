@@ -2,7 +2,7 @@
 title: "Publish and react to posts in Social Engagement | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Social Engagement."
 keywords: publish, post, like, favorite, share, private message, Social Engagement
-ms.date: 05/08/2018
+ms.date: 01/30/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -204,7 +204,7 @@ Share a link to a public post along with your own comments as a new post directl
 
 3. Select the message type for this post.  
 
-4. Select the check box for the  social profile that you want to send this post with.  
+4. Select the check box for the social profile that you want to send this post with.  
 
 5. In the text entry field, type the text for the post.  
 
@@ -213,6 +213,21 @@ Share a link to a public post along with your own comments as a new post directl
     Photos need to be in .png, .jpg, or .gif format. Maximum file sizes apply, depending on which social network you want to post to. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add media to posts](publish-react-posts.md#addMedia)  
 
 7. To publish the post on the corresponding social network, select **Send**.  
+
+<a name="addMedia"></a>   
+### Add media to posts  
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you add a single photo to posts while replying ot commenting from within the application. You can't add media to direct messages.  
+
+ Supported file types: .png, .jpg, .gif  
+
+ Depending on the social network that media is posted to, different limitations in file sizes apply.  
+
+ Read more about the [maximum file size on Twitter](https://dev.twitter.com/rest/public/uploading-media).  
+
+ Read more about the [maximum file size on Facebook](https://www.facebook.com/help/167931376599294).  
+
+> [!NOTE]
+>  When you use a large file, it can take a long time to upload. Also, timeouts can happen when the upload takes too long due to limited bandwidth.  If this happens, try resizing the image to reduce the file size, or try again with more bandwidth.
 
 <a name="DMs"></a>   
 ### Engage in private conversations  
@@ -259,21 +274,6 @@ Share a link to a public post along with your own comments as a new post directl
 4. Type your message in the text entry field. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] limits direct  messages to 10,000 characters. When you get close to the character limit, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will show a counter so you can optimize the length of your content.  
 
 5. Select **Send Private Message** to post on behalf of the selected social profile.  
-
-<a name="addMedia"></a>   
-### Add media to posts  
- [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you add a single photo to posts while publishing from within the application.  
-
- Supported file types: .png, .jpg, .gif  
-
- Depending on the social network that media is posted to, different limitations in file sizes apply.  
-
- Read more about the [maximum file size on Twitter](https://dev.twitter.com/rest/public/uploading-media).  
-
- Read more about the [maximum file size on Facebook](https://www.facebook.com/help/167931376599294).  
-
-> [!NOTE]
->  When you use a large file, it can take a long time to upload. Also, timeouts can happen when the upload takes too long due to limited bandwidth.  If this happens, try resizing the image to reduce the file size, or try again with more bandwidth.  
 
 ### See Also  
  [Engage on social networks](engage-on-social-networks.md)   

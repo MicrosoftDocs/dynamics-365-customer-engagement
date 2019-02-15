@@ -1,19 +1,23 @@
 ---
-title: "Introduction to the agent interface in Omni-channel Engagement Hub"
+title: "Introduction to the agent interface in Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn about the Omni-channel Engagement Hub agent interface in Unified Service Desk. The agent interface contains Omni-channel toolbar, session tab management toolbar, and application tab management toolbar."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 7369f1e2-e536-4585-a69a-eee434a87af1
 ms.custom: 
 ---
 
 # Introduction to the agent interface in Omni-channel Engagement Hub
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 When you sign in to Omni-channel Engagement Hub through Unified Service Desk, the Omni-channel Engagement Hub interface has the following components:
 
@@ -43,7 +47,7 @@ The Omni-channel toolbar also called as default global toolbar as the components
 
 ### Search
 
-The **Search** button lets you to search for records and open them in a new active session. You can use the **Search** button to search for the following types of records:
+The **Search** button lets you search for records and open them in a new active session. You can use the **Search** button to search for the following types of records:
 
  - Case
 
@@ -53,14 +57,14 @@ The **Search** button lets you to search for records and open them in a new acti
 
  - Phone call
 
--   Task Email
+ - Task Email
  
  > [!div class=mx-imgBorder]
  > ![omni-channel search](../../media/oc-usd-search.png "Omni-channel search")  
 
 ### Create
 
-The **Create** button provides a list of related options (entities), so that you can access existing entities and create new entities.
+The **Create** button provides a list of related options (entities) so that you can access existing entities and create new entities.
 
 ### Settings
 
@@ -83,16 +87,29 @@ Best practices are the guidelines about system configurations, Unified Service D
 
 ### Presence
 
-The **Presence** area shows the agent's presence status. Presence status indicates an agent's availability or status.
+Presence is the indication of your (agent) availability or status.
 
-You can update the presence status using one of the following ways:
-- **Manually** - Change the status manually accoridng your availability.
-- **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated. When you are away, the status is updated as away
+Presence status is updated in two ways: 
+- **Manually** - You can change the status manually according to your availability.<br>Select on the presence text to view all the presence statuses and update your status manually. 
 
-Select on the presence text to view all the presence statuses. There are five standard bases statuses: **Available**, **Away**, **Busy**, **Do Not Disturb**, and **Offline**. 
+  > [!div class=mx-imgBorder]
+  > ![Omni-channel presence status](../../media/oc-usd-presence.png "Omni-channel presence status")
 
- > [!div class=mx-imgBorder]
- > ![Omni-channel presence status](../../media/oc-usd-presence.png "Omni-channel presence status")  
+Out-of-the-box you see the following presence statuses:
+
+  - Offline
+  - Appear away
+  - Busy
+  - Available
+  - Do Not Disturb
+ 
+  Also, you may see any other additional presence statuses that your administrator configured for you.
+
+- **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity.
+
+  a. When your capacity is completely utilized the presence is set to **BusyDND**.<br>
+  b. When your capacity is partially utilized the presence is set to **Busy**. <br>
+  c. When your capacity is not utilized the presence is set to **Available**.<br>
 
 ## Session management toolbar
 
@@ -103,7 +120,7 @@ Each session in the Unified Service Desk client is shown on the session tab tool
 
 ## Application management toolbar
 
-The application management toolbar lets you see the all the related information for a session. For example, you can use this toolbar to open the **My Dashboard** page, search, use Customer summary, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
+The application management toolbar lets you see all the related information for a session. For example, you can use this toolbar to open the **My Dashboard** page, search, use Customer summary, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
 
 > [!div class=mx-imgBorder]
 > ![Omni-channel application management toolbar](../../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar") 
@@ -116,7 +133,7 @@ The application management toolbar lets you see the all the related information 
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [View notifications and screen pops](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
-- [View conversation control](left-control-panel.md)
+- [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)

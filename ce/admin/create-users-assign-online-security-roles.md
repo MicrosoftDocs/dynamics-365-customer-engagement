@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 for Customer Engagement apps and assign security roles | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/09/2019
+ms.date: 02/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -70,7 +70,7 @@ The following table shows the fields that are managed in the **Users** section o
 
 The following are Office 365 user contact fields.
 
-![Office 365 user contact info](media/office-365-contact-info.png "Office 365 user contact info")</br>
+![Office 365 user contact info](media/office-365-contact-info.png "Office 365 user contact info")
 
 <a name="BKMK_addlicense"></a>   
 
@@ -93,8 +93,12 @@ The following are Office 365 user contact fields.
 - If you have more user licenses than you are using, contact support to reduce the number of licenses. You cannot reduce the number of licenses to less than you are currently using or less than your offer allows. Any changes are reflected in your next billing cycle.  
   
 - Each user license requires a unique Microsoft account, and every user who logs on to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps needs a license. Most [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps subscriptions include a specific number of user licenses.  
-  
+
+> [!NOTE]
+> There is a set of default security roles that are assigned to users based on the license and/or solution installed. These security roles only give users Read access to apps that are installed in the instance. For example, when a user is assigned the Dynamics 365 Customer Engagement Plan license and is synced to an instance that has the Customer Service Hub app, the user is automatically assigned the Customer Service app access security role. There is no data access permission granted to this role. The administrator is still required to assign the appropriate security role to the user in order for the user to view and interact with the data. 
+
 <a name="BKMK_AssignSecurity"></a>   
+
 ## Assign a security role to a user  
  Security roles control a user’s access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role sets limits on the user’s view of data and on the user’s interactions with that data.  
   

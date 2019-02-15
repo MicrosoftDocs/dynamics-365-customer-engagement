@@ -1,19 +1,23 @@
 ---
-title: "Set up a chat widget"
+title: "Set up a chat widget | MicrosoftDocs"
 description: "Instructions to configure a chat widget in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 5BD770F0-14FD-4CE5-B5A8-AD548B8929E6
 ms.custom: 
 ---
 
 # Create chat authentication settings
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 You can create authentication settings to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables. For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as shopping cart value or a privileged status.
 
@@ -22,16 +26,19 @@ After you create an authentication settings record, you must add it in the **Bas
 ## Create a chat authentication setting record
 
 1. Sign in to Omni-channel Engagement Hub.
-2. Go to **Administration** \> **Chat Authentication**.
+2. Go to **Administration** \> **Authentication Settings**.
 
     A list of existing authentication settings is shown.
 
 3. Select **New** to add an authentication settings record.
-4. On the **New Authentication Settings** page, provide the following information:
+4. On the **New Chat Authentication Settings** page, provide the following information:
 
     - **Name**: Enter a name for the authentication setting.
     - **Public key URL**: Specify the public key URL of the domain. This URL is used to validate the information that comes in from the JavaScript Object Notation (JSON) Web Token (JWT) of the domain that a customer has signed in to.
     - **JavaScript client function**: Specify the JavaScript client function to use for authentication. This function extracts a token from the token endpoint.
+
+        > [!div class=mx-imgBorder]
+        > ![Create chat authentication setting record](../media/chat-auth-settings.png "Create chat authentication setting record")
 
     For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Microsoft Dynamics 365 portal](#setup-for-a-dynamics-365-portal) section or the [Setup for portals that don't use Dynamics 365 (custom portal)](#setup-for-portals-that-dont-use-dynamics-365-custom-portal) section later in this topic.
 
@@ -140,3 +147,12 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
     encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
     return encoded_jwt
     ```
+
+### See also
+
+[Add a chat widget](add-chat-widget.md) <br>
+[Create a survey questions library](create-question-library.md) <br>
+[Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Create quick replies](create-quick-replies.md) <br>
+[Create and manage operating hours](create-operating-hours.md) <br>
+[Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)

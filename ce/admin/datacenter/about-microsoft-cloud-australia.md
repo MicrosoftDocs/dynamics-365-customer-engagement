@@ -134,7 +134,7 @@ You may request migration to the Australia datacenter upon datacenter availabili
 ## Migration  
   
 ### I have applications and data in an existing Microsoft Dynamics 365 for Customer Engagement apps (online) datacenter. Will I be able to move those resources to the Australia datacenters?  
- For Web direct customers, if the account country/region is Australia, New Zealand, or Fiji, the customer will be eligible to have his instances moved to the Australia East and Southeast region datacenters.  
+ For Web direct customers, if the account country/region is Australia, New Zealand, or Fiji, the customer will be eligible to have their instances moved to the Australia East and Southeast region datacenters.  
   
 - The account country/region can be found in the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)].  
   

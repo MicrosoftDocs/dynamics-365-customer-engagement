@@ -2,7 +2,7 @@
 title: "Set up a Postman environment (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to set up and configure a Postman environment that connects with Dynamics 365 for Customer Engagement online and on-premises environments."
 ms.custom: 
-ms.date: 01/12/2019
+ms.date: 02/09/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -42,7 +42,11 @@ Select the connection option that works for your environment:
 ## Connect with an online environment
 
 > [!NOTE]
-> This environment uses a client ID for an application that is registered for all Dynamics 365 for Customer Engagement apps online environments. You must register your application using the steps described in [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).
+> This environment uses a client ID for an application that is registered for all Dynamics 365 for Customer Engagement apps online environments. 
+> 
+> You can use the `clientid` and `callback` values supplied in these instructions.  However, when building your own application, you should register your own AAD application.
+> 
+> To register your own AAD application, see the steps described in [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).
 
 Use these steps to create a Postman environment that you can use to connect with your Dynamics 365 for Customer Engagement apps (online) instance:
 
@@ -106,7 +110,7 @@ See [Test your connection](#test-your-connection) for steps to verify your conne
   | Variable Name | Value |
   |----|---|
   |`url`|`http://yourservername/yourorgname`|
-  |`version`|`8.2`|
+  |`version`|`9.0`|
   |`webapiurl`|`{{url}}/api/data/v{{version}}/`|
 
   ![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman   environment to connect with On-premise instance")

@@ -2,8 +2,8 @@
 
 title: How do I see chargeable utilization for resources? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: This article describes the resource utilization view in Project Service.
-author: NeilWOrint 
-manager: ShellyHa
+author: JohnPBurrows 
+manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice

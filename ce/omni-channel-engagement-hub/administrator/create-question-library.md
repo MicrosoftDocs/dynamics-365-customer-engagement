@@ -1,26 +1,30 @@
 ---
-title: "Create a question library"
+title: "Create a question library | MicrosoftDocs"
 description: "Instructions to create a question library in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2019
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 75DC82E3-BD66-4D27-89F0-3B0C6C70D95C
 ms.custom: 
 ---
 
-# Create a question library
+# Create a survey questions library
 
-You can add questions to the question library in a work stream. You can then use those questions to create pre-chat surveys for chat widgets that are created in that work stream.
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+You can add questions to the survey questions library in a work stream. You can then use those questions to create pre-chat surveys for chat widgets that are created in that work stream.
 
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** &gt; **Work Streams**.
 3. Select the work stream to create a question library in.
-4. On the **Survey questions library** tab, select **Add question**.
+4. On the **Survey questions library** tab, select **Add**.
 
     > [!div class=mx-imgBorder]
     > ![Add a question to the question library](../media/oc-add-question.png "Add a question to the question library")
@@ -40,7 +44,16 @@ You can add questions to the question library in a work stream. You can then use
     - **Question text**: Enter the text of the question.
     - **Help text**: Enter help text that will be shown to the user as a watermark.
 
-    > [!div class=mx-imgBorder]
-    > ![Add Help text to a question](../media/oc-question-help-text.png "Add Help text to a question")
+        > [!div class=mx-imgBorder]
+        > ![Add Help text to a question](../media/oc-question-help-text.png "Add Help text to a question")
 
 6. Select **Save**.
+
+### See also
+
+[Add a chat widget](add-chat-widget.md) <br>
+[Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Create quick replies](create-quick-replies.md) <br>
+[Create and manage operating hours](create-operating-hours.md) <br>
+[Create chat authentication settings](create-chat-auth-settings.md) <br>
+[Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)

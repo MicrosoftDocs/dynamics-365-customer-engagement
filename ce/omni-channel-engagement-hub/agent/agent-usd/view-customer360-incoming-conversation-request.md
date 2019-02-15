@@ -1,18 +1,22 @@
 ---
-title: "View Customer summary form for an incoming conversation request"
+title: "View Customer summary form for an incoming conversation request | MicrosoftDocs"
 description: "Learn about the Customer summary and its behavior when the agent gets and incoming conversation request."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: f12fd958-15d2-480b-b9d4-fb1314784f74
 ms.custom: 
 ---
 # View customer summary for an incoming conversation request
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Scenario 1: Incoming conversation request for an existing customer record that already has a case in Omni-channel Engagement Hub  
 
@@ -38,7 +42,7 @@ However, there are no records present in Omni-channel Engagement Hub based on th
 > [!div class=mx-imgBorder]
 > ![omni-channel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omni-channel create record search page")  
 
-## Scenario 3: Incoming conversation request where you find no customer records in Omni-channel Engagement Hub
+## Scenario 3: Incoming conversation request where you find no customer records in Omni-channel Engagement Hub 
 
 When you get an incoming conversation request, you see a notification (screen pop) with contextual information for an incoming request. However, if there are no records present in Omni-channel Engagement Hub based on the incoming conversation request, you see a message stating - **No records found. Search for an existing customer record or create a new one to link to this conversation**.
 
@@ -67,7 +71,7 @@ When you choose to search for a record, the application opens the **Search** on 
 After the search is completed, the results are shown in the form of a list.
 
 > [!div class=mx-imgBorder]
-> ![omni-channel create record](../../media/oc-usd-crm-create-record.png "Omni-channel create record")  
+> ![omni-channel search record](../../media/oc-usd-crm-search-record.png "Omni-channel search record")  
 
 If you select a case, the contact or account opens the **Customer summary** page by prepopulating the details.
 
@@ -92,7 +96,7 @@ When no record is found in Omni-channel Engagement Hub, you can create a contact
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)
 - [View notifications and screen pops](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
-- [View conversation control](left-control-panel.md)
+- [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 - [Search and link a record](search-link-record.md)

@@ -1,18 +1,22 @@
 ---
-title: "Customize the Customer summary form"
+title: "Customize the Customer summary form | MicrosoftDocs"
 description: "Learn on how to customize the Customer summary form in Omni-channel Engagement Hub as a system customizer."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: b8ce1f5a-54b5-46f3-99a4-d4829fe42e67
 ms.custom: 
 ---
 # Customize the Customer summary form
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 You can customize some forms (cards) on the **Customer summary** page by adding or removing the fields. In addition, you can change the position or alignment of forms (cards) by dragging them to meet your requirements. By default, the **Customer summary** page shows the following forms (cards).
 
@@ -22,7 +26,7 @@ The **Customer profile** form (card) provides details about the customer or acco
 
 ## Conversation summary
 
-The **Conversation summary** form (card) fetches details based on the context of the incoming conversation request. You can modify the fields in this form (card). However, you can change the position of the form (card) on the **Customer summary** page.
+The **Conversation summary** form (card) fetches details based on the context of the incoming conversation request. You can modify the fields in this form (card), and also, you can change the position of the form (card) on the **Customer summary** page.
 
 This form (card) includes two tabs: **Pre-chat** and **Visitor info**. The details on these tabs help you to understand contextual channel-specific information about the conversation with the customer. The **Pre-chat** tab shows the conversation details, escalation details, and transfer details.
 
@@ -32,11 +36,11 @@ For an incoming conversation request, the system links an existing case to the c
 
 ## Recent cases
 
-This form section displays the recent cases that relates to the customer.
+This form section displays the recent cases that relate to the customer.
 
 ## All activities
 
-The **All activities** form (card) shows the case-related and customer-related activities in the form a timeline. You can create quick notes based on your discussion with the customer. You can also filter the timeline by customer activities, case activities, and conversation activities.
+The **All activities** form (card) shows the case-related and customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. You can also filter the timeline by customer activities, case activities, and conversation activities.
 
 > [!div class="nextstepaction"]
 > [Next topic: How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)

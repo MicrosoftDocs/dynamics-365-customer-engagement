@@ -14,6 +14,7 @@ ms.assetid: 9f201f30-245a-458e-b15f-961a9d049ea7
 caps.latest.revision: 28
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
 # Installing Dynamics 365 for Customer Engagement for Customer Engagement (on-premises)
 
@@ -21,15 +22,15 @@ ms.author: matp
 
 IT professionals and Dynamics 365 for Customer Engagement administrators can use the resources and topics in this guide to help them install and configure on-premises deployments of Dynamics 365 for Customer Engagement for Customer Engagement.  
 
-A Dynamics 365 for Customer Engagement for Customer Engagement on-premises deployment includes the following applications:
-- At least one instance of Dynamics 365 for Customer Engagement Server
-- At least one instance of Dynamics 365 for Customer Engagement Reporting Extensions
+A Dynamics 365 for Customer Engagement on-premises deployment includes the following applications:
+- At least one instance of Dynamics 365 Server
+- At least one instance of Dynamics 365 Reporting Extensions
 - Dynamics 365 for Customer Engagement Language Packs (required for multiple language support)
-- Dynamics 365 for Customer Engagement Report Authoring Extension (required for authoring Fetch-based reports)
+- Dynamics 365 Report Authoring Extension (required for authoring Fetch-based reports)
 
 
 ## See also
-[Install or upgrade Microsoft Dynamics 365 for Customer Engagement Server](install-or-upgrade-microsoft-dynamics-365-server.md) </br>
+[Install or upgrade Microsoft Dynamics 365 Server](install-or-upgrade-microsoft-dynamics-365-server.md) </br>
 [Install and enable a Language Pack](install-and-enable-a-language-pack.md)
   
 

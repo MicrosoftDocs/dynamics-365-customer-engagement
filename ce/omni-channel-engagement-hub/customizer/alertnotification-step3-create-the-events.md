@@ -1,18 +1,22 @@
 ---
-title: "Create events"
+title: "Create events | MicrosoftDocs"
 description: "Learn how to create events that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 09f35941-3c5b-4076-99a2-66032b0c6d4f
 ms.custom: 
 ---
 # Step 3: Create events
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Create the following events:
 
@@ -26,7 +30,7 @@ Create the following events:
 
 Follow these steps to create the events.
 
-1. Sign in to Dynamics 365.
+1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
 
 2. Go to **Settings** > **Unified Service Desk**.
 

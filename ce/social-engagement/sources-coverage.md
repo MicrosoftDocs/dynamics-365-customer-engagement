@@ -1,8 +1,8 @@
 ---
-title: "Sources coverage in Social Engagement | Microsoft Docs"
+title: "Sources coverage in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
 keywords: sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news
-ms.date: 12/05/2018
+ms.date: 01/23/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -84,6 +84,38 @@ To add a private messages rule, see [Add a private messages rule](add-rules-sear
 Video posts and comments published on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] that mention a configured search term and match the configured search languages are available for [keyword searches](add-rules-search-topic.md#addKeywordsRule).
 
 Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](add-rules-search-topic.md). Please keep in mind that videos often get a lot of comments, which can cause you to exceed your monthly post quota.
+
+## Limitations for data acquisition
+
+Some of the supported sources have restrictions on posts that we can acquire. These limitations are as follows.
+
+**Facebook pages**
+- Comments on Facebook posts aren't acquired if the parent post was published more than 7 days ago.
+- Comments or replies to comments aren't acquired. Only comments to original posts get acquired.  
+- We can't acquire posts and comments for events, groups, or other similar entities on Facebook.
+- We can't search for keywords on Facebook.
+- Dark posts and sponsored posts aren't supported and don't get acquired.
+
+**Twitter**
+- If an author quotes another tweet, this retweet will not be displayed as a quoted tweet in our user interface. However, the quoted tweets are acquired.
+
+**YouTube**
+- Comments on videos aren't acquired if the video was published more than 30 days ago.
+- Comments on videos are acquired with some delay if the video was published more than a day ago.
+- Searching very uncommon words or phrases might yield zero results because the search is based on a dictionary of words.
+
+**LinkedIn** 
+- Posts and comments on LinkedIn pages with low volume are acquired with a delay due to rate limits. The system prioritizes LinkedIn pages with a high volume for data acquisition.
+
+**Custom sources**
+- RSS feeds exist in various flavors, and there's no strict standard. The system might ignore posts that contain unknown fields or lack required fields such as the author of a post.
+
+**Disqus**
+- We receive some posts without a URL. These posts will be discarded by the system.
+
+**General limitations**
+- Chronological ordering of posts and comments in the post list isn't guaranteed.
+- Language detection differs across sources. Posts in languages that we don't support aren't acquired.
 
 ## Privacy notice
 

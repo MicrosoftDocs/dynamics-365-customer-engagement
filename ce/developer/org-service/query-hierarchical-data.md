@@ -39,8 +39,8 @@ search.app:
 |`under`|`Under`|Returns all child records below the referenced record in the hierarchy|  
 |`eq-or-under`|`UnderOrEqual`|Returns the referenced record and all child records below it in the hierarchy|  
 |`not-under`|`NotUnder`|Returns all records not below the referenced record in the hierarchy|  
-|`eq-owneduseroruserhierarchy`|`OwnedByMeOrMyReports`|When hierarchical security models are used, Equals current user or his reporting hierarchy|  
-|`eq-useroruserhierarchyandteams`|`OwnedByMeOrMyReportsAndTeams`|When hierarchical security models are used, Equals current user and his teams or his reporting hierarchy and their teams|  
+|`eq-owneduseroruserhierarchy`|`OwnedByMeOrMyReports`|When hierarchical security models are used, Equals current user or their reporting hierarchy|  
+|`eq-useroruserhierarchyandteams`|`OwnedByMeOrMyReportsAndTeams`|When hierarchical security models are used, Equals current user and their teams or current user's reporting hierarchy and their teams|  
   
 ### Recursion limits when querying hierarchical data  
  Because querying hierarchical data can be resource intensive, there is a default limit of 100 recursions allowed conditions for hierarchical queries using the `Above`, `AboveOrEqual`, `Under`, `UnderOrEqual`, and `NotUnder` condition operators.  

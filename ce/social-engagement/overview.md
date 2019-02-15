@@ -54,7 +54,7 @@ Note that [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md
 
 ## Getting started
 
-Setting up [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] doesn't take long. You can also [request a trial](https://experience.dynamics.com/trials/) to try out your use cases. The following topics will help you get started quickly.
+Setting up [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] doesn't take long. The following topics will help you get started quickly.
 
 - [Get started with Social Engagement](get-started.md): Find important information to help you get around in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
@@ -86,10 +86,6 @@ We frequently release updates to introduce new capabilities, improve existing fe
 
 - Read the latest [Social Engagement readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612) for any late-breaking changes to this release.
 
-## Request a trial
-
-Customers and partners can request a trial and depending on the business case and capacity, we will email you the trial key. [Request a trial](https://experience.dynamics.com/trials/).
-
 ## Community contributions
 
 Have a look at these additional assets that are waiting for you.
@@ -102,4 +98,3 @@ Have a look at these additional assets that are waiting for you.
 
 [What's new in Social Engagement](what-s-new-in-microsoft-social-engagement.md)
 [Social Engagement FAQ](faq.md)   
-[Request a trial](https://experience.dynamics.com/trials/)

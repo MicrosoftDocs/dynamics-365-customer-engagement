@@ -1,20 +1,24 @@
 ---
-title: "Omni channel engagement hub for agents"
-description: "The Omni-channel Engagement Hub for Dynamics 365 is a cloud-based service that extends the power of Dynamics 365 for Customer Service to enable customers to instantly connect and engage with their customers via newly introduced channels: live chat and SMS."
+title: "Omni channel engagement hub for agent using Unified Service Desk | MicrosoftDocs"
+description: "Learn about the Omni-channel Engagement Hub for agent using Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: fb84962a-1ba4-4c56-992f-533cf921540a
 ms.custom: 
 ---
-# Omni-channel Engagement Hub for agents
+# Omni-channel Engagement Hub for agent using Unified Service Desk
 
-Omni-channel Engagement Hub is a single interface for various communication channels. As an agent, you can use queues to manage the work items that are assigned to you via queues. Therefore, you can focus on the tasks at hand and help guarantee better customer service. The application empowers you to work on simultaneous interactions with multiple customers. You get a holistic view of a customer's data and can see the details of the customer's previous interactions. In this way, you can be sure that you have all the available information that you might need to resolve the customer's issue.
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
+Omni-channel Engagement Hub is a single interface for various communication channels. As an agent, you can use Omni-channel Engagement Hub on Unified Service Desk to manage the work items that are assigned to you via queues. Therefore, you can focus on the tasks at hand and ensure better customer service. The application empowers you to work on simultaneous conversations with multiple customers. You get a holistic view of a customer's data and can see the details of the customer's previous interactions. In this way, you can be sure that you have all the available information that you might need to resolve the customer's issue.
 
 ## In this section
 
@@ -31,7 +35,7 @@ Use the resources in the following sections to learn how to use Omni-channel Eng
 
 ## How-tos
 
-- [View conversation control](left-control-panel.md)
+- [View communication panel](left-control-panel.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search and link a record](search-link-record.md)

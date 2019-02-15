@@ -1,5 +1,5 @@
 ---
-title: "Installation & setup for Connected Field Service for IoT Hub (Dynamics 365 for Customer Engagement for Field service) | MicrosoftDocs"
+title: "Installation & setup for Connected Field Service for IoT Hub (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -35,7 +35,7 @@ This guide provides all the steps required for getting up and running with Conne
 ## Prerequisites  
  Before you install [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)], make sure you have the following:  
   
-- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for Customer Engagement for Field Service](../field-service/install-field-service.md)  
+- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)  
   
 - O365 Global Administrator or Dynamics 365 for Customer Engagement System Administrator credentials.  
   
@@ -365,8 +365,8 @@ This guide provides all the steps required for getting up and running with Conne
  [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
   
 ### See also  
- [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)    
- [Install Dynamics 365 for Customer Engagement for Field Service](../field-service/install-field-service.md)   
+ [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    
+ [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
  [Field Service User Guide](../field-service/user-guide.md)

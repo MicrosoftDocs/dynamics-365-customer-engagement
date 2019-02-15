@@ -1,20 +1,24 @@
 ---
-title: "Modify the position or alignment of the form (card) in the Customer summary form"
+title: "Modify the position or alignment of the form (card) in the Customer summary form | MicrosoftDocs"
 description: "Learn how to modify the position or alignment of the form (card) in the Customer summary form"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 9b0d8dfb-3c40-4e15-9fe1-17d02f07d38d
 ms.custom: 
 ---
 # Modify the position or alignment of a form (card) in the Customer summary
 
-1. Sign in to Dynamics 365.
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+1. Sign in to Dynamics 365 for Customer Engagement instance.
 
 2. Go to **Settings** > **Customization** > **Customize the system**.
 

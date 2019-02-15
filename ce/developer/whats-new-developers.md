@@ -12,9 +12,9 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c0f1a55e-9262-404c-bfb0-78b250e577aa
 caps.latest.revision: 357
-author: JimDaly
-ms.author: jdaly
-manager: amyla
+author: "JimDaly"
+ms.author: "jdaly"
+manager: "ryjones"
 tags: 
   - aug2017
   - MigrationHO
@@ -28,7 +28,7 @@ search.app:
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Information about the new features and capabilities for [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] Customer Engagement is available here: [What's new for developers in Dynamics 365 for Customer Engagement apps](https://go.microsoft.com/fwlink/?linkid=853945)
-<!--TODO: FIx the above.-->
+
  More information about developer content availability across MSDN and docs.ms.com in the current release: 
  [Dynamics 365 for Customer Engagement apps SDK Release history](release-history.md).
 

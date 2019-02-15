@@ -1,13 +1,13 @@
 ---
-title: "How to modify the section properties of the form (section)"
+title: "How to modify the section properties of the form (section) | MicrosoftDocs"
 description: "Learn how to modify the section properties of the form (section)"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 2/8/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: b6bdcd99-a9c0-4ff5-984c-605cd3323e89
 ms.custom: 
@@ -15,7 +15,11 @@ ms.custom:
 
 # Modify the section properties of a form
 
-1.  Sign in to Dynamics 365.
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+1.  Sign in to Dynamics 365 for Customer Engagement instance.
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 

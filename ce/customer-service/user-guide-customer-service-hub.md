@@ -1,5 +1,5 @@
 ---
-title: User Guide (Dynamics 365 for Customer Engagement for Customer Service) | Microsoft Docs
+title: User Guide (Dynamics 365 for Customer Service) | Microsoft Docs
 description: Guide to know and understand the Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
 keywords: Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement; User guide
 author: anjgupta
