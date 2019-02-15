@@ -30,41 +30,55 @@ search.app:
 
 ## Public Preview: Unified Service Desk 4.1 known issues and limitations
 
-### Preview: Edge process
+### Preview: Chrome Process
 
-#### Support for CloseAndPrompt action in Edge process
+#### Support for CloseAndPrompt action in Edge Process
 
-The Edge process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+The Chrome Process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
-#### Support for alert dialog with WebView control
+#### Support for multiple page navigation in Edge Process
 
-The Edge process doesn't support the native JavaScript alert dialog in the WebView control. When you use the Microsoft Edge WebView control, the alert dialog (WPF message) shows the information. However, the alert does not stop the JavaScript execution. That is, even though you do not perform an action on the alert dialog, the JavaScript execution continues.
-
-#### Support for confirm dialog
-
-The Edge process doesn't support the confirm dialog in the WebView control. If your custom code uses the confirm dialog, the Edge process in the WebView control does not support the execution, and your code may fail.
-
-#### Support for multiple page navigation in Edge process
-
-The Edge process WebView control doesn't support multiple-page navigation for the hosted control. During the hosted control creation, setting the option **Allow Multiple Pages** to **True** with more than one URL does not perform the navigation in the Unified Service Desk client application at run-time. That is, the navigation to first URL will happen and the page renders. However, the navigation to the second URL will not be executed and the webpage will not render the second URL.
+The Chrome Process control doesn't support multiple-page navigation for the hosted control. During the hosted control creation, setting the option **Allow Multiple Pages** to **True** with more than one URL does not perform the navigation in the Unified Service Desk client application at run-time. That is, the navigation to first URL will happen and the page renders. However, the navigation to the second URL will not be executed and the webpage will not render the second URL.
 
 #### Use window.top.notifyUSD to open event in a new browser
 
-The Edge process WebView control supports using `window.top.notifyUSD` to open the event in a new browser instead of `window.open`.
+The Chrome Process WebView control supports using `window.top.notifyUSD` to raise the events instead of `window.open`.
 
-#### Using a long-running script with Edge process freezes Unified Service Desk
+### Preview: Edge Process
 
-When you execute a long-running script with edge process, the Unified Service Desk client application freezes, and you must restart the client application. We recommend that you review the script that caused the freeze, and then restart the Unified Service Desk client application.
+#### Support for CloseAndPrompt action in Edge Process
 
-#### Support for downloading files with Edge process
+The Edge Process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
-When you host your web pages in a Unified Service Desk client application using Edge process, downloading files from the web application is not supported with Edge process.
+#### Support for alert dialog with WebView control
+
+The Edge Process doesn't support the native JavaScript alert dialog in the WebView control. When you use the Microsoft Edge WebView control, the alert dialog (WPF message) shows the information. However, the alert does not stop the JavaScript execution. That is, even though you do not perform an action on the alert dialog, the JavaScript execution continues.
+
+#### Support for confirm dialog
+
+The Edge Process doesn't support the confirm dialog in the WebView control. If your custom code uses the confirm dialog, the Edge Process in the WebView control does not support the execution, and your code may fail.
+
+#### Support for multiple page navigation in Edge Process
+
+The Edge Process WebView control doesn't support multiple-page navigation for the hosted control. During the hosted control creation, setting the option **Allow Multiple Pages** to **True** with more than one URL does not perform the navigation in the Unified Service Desk client application at run-time. That is, the navigation to first URL will happen and the page renders. However, the navigation to the second URL will not be executed and the webpage will not render the second URL.
+
+#### Use window.top.notifyUSD to open event in a new browser
+
+The Edge Process WebView control supports using `window.top.notifyUSD` to raise the events instead of `window.open`.
+
+#### Using a long-running script with Edge Process freezes Unified Service Desk
+
+When you execute a long-running script with Edge Process, the Unified Service Desk client application freezes, and you must restart the client application. We recommend that you review the script that caused the freeze, and then restart the Unified Service Desk client application.
+
+#### Support for downloading files with Edge Process
+
+When you host your web pages in a Unified Service Desk client application using Edge Process, downloading files from the web application is not supported with Edge Process.
 
 A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and download the file.
 
 #### Support for launching application for a URI with Edge WebView control
 
-When you host your web application in Unified Service Desk client application using Edge process, launching application for a URI is not supported with Edge process.
+When you host your web application in Unified Service Desk client application using Edge Process, launching application for a URI is not supported with Edge Process.
 
 Some of the URI schemes and applications are as follows:
 
@@ -77,7 +91,7 @@ Some of the URI schemes and applications are as follows:
 
 A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and select the URI scheme to launch the application.
 
-#### KB article support with Edge process
+#### KB article support with Edge Process
 
 In Dynamics 365 Customer Engagement apps web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
 
