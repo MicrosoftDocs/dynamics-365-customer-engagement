@@ -2,7 +2,7 @@
 title: "Programming models (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Dynamics 365 for Customer Engagement apps offers several programming models designed to give you the flexibility to decide what works best for your needs."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 02/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -13,7 +13,7 @@ applies_to:
 ms.assetid: 14127ed4-0506-4071-a408-6052048ba299
 author: JimDaly
 ms.author: jdaly
-manager: amyla
+manager: annbe
 tags: 
   - aug2017
   - MigrationHO
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement apps offers several programming models designed to give you the flexibility to decide what works best for your needs.
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps offers several programming models designed to give you the flexibility to decide what works best for your needs.
 
 The following diagram illustrates the key programmability scenarios for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Use the appropriate [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps programming models for the type of solutions you create.
 
