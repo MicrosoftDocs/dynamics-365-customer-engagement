@@ -6,6 +6,4 @@ This file tracks files marked for deletion. Localization requirements mean that 
 
 These files have been redirected, but the actual .md topic files can't been removed yet.
 
-ce/field-service/glympse.md
-
 These files have been deleted, but the list hasn't been communicated to loc yet.

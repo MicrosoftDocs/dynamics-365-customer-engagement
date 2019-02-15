@@ -59,6 +59,7 @@ Collection of system users that routinely collaborate. Teams can be used to simp
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [AdministratorId](#BKMK_AdministratorId)
+- [AzureActiveDirectoryObjectId](#BKMK_AzureActiveDirectoryObjectId)
 - [BusinessUnitId](#BKMK_BusinessUnitId)
 - [Description](#BKMK_Description)
 - [EMailAddress](#BKMK_EMailAddress)
@@ -91,6 +92,17 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Targets|systemuser|
 |Type|Lookup|
 
+### <a name="BKMK_AzureActiveDirectoryObjectId"></a> AzureActiveDirectoryObjectId
+
+|Property|Value|
+|--------|-----|
+|Description|The Azure active directory object Id for a group.|
+|DisplayName|Azure AD Object Id for a group|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|azureactivedirectoryobjectid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 ### <a name="BKMK_BusinessUnitId"></a> BusinessUnitId
 
@@ -304,7 +316,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |-----|-----|
 |0|Owner|
 |1|Access|
-
+|2|AAD Security Group|
+|3|AAD Office Group|
 
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
