@@ -127,7 +127,7 @@ The request body is a JSON object containing a number of data elements with valu
 |FieldValueSuppressionSegmentId|msdyncrm_suppressionsegmentid|
 |FieldValueCustomerJourneyTimeZone|msdyncrm_customerjourneytimezone|
 
-## Validare Schema
+## Validate Schema
 
 **Request**
 
