@@ -96,7 +96,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 3. Save the file.
 
   > [!div class="mx-imageBorder"]
-  > ![Chrome Process configuration setting key](media/chrome-process-app-config-file-setting.GIF "Chrome Process configuration setting")
+  > ![Add Global Browser Mode key with value as chrome](media/chrome-process-app-config-file-setting.GIF "Chrome Process configuration setting")
 
 ### Enable Chrome for an entire organization
 
