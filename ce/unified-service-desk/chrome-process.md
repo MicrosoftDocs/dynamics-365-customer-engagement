@@ -234,6 +234,64 @@ Let us see what configurations you need to create for the above-mentioned scenar
 
 To sign out from sessions when using the Chrome process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL of Dynamics 365 for Customer Engagement apps is `url=/main.aspx?signout=1`.
 
+## Support for webcam and microphone access with Chrome Process
+
+Agents in your organization require webcam and microphone access according to your business workflow. By default, certain websites may not have access to webcam and microphone. To enable the webcam and microphone support for the Chrome Process, use the **ChromeEnableMediaStream** UII option. Set the UII option to **true** to enable the webcam and microphone support. If you don’t provide any value or set false, the option is disabled.
+
+### Add the ChromeEnableMediaStream UII option
+
+ 1. Sign in to Dynamics 365 for Customer Engagement apps.
+
+ 2. Go to **Settings** > **Unified Service Desk** > *Options*.
+
+ 3. On the Active UII Options page, select **+ New**. 
+ 
+ 4. Choose **Others** for the **Global Option** field.
+
+ 5. Type **ChromeEnableMediaStream** for the **Name** field.
+
+ 6. Type **True** for the **Value** field.
+
+ 7. Select save.
+
+## Support debugging of Chrome Process
+
+You can debug the Chrome Process in two ways:
+
+- Remotely
+
+- Locally
+
+### Debug the Chrome Process remotely
+
+When you want to access and debug all the Chrome Process running in a desktop remotely, you need to have remote debugging access along with the port number to connect and debug.
+
+To provide access to the remote desktop to connect and debug, use the **ChromeRemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `<IP address>:<\port number>` of the remote desktop. You can see all the Chrome Process running in that desktop and then you can debug.
+
+### Debug the Chrome Process locally
+
+When you want to access and debug all the Chrome Process running in a desktop locally, you need to have access along with port number to connect and debug.
+
+To provide access to the desktop to connect and debug locally, use the **ChromeRemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `localhost:<\port number>` of the local desktop. You can see all the Chrome Process running in that desktop and then you can debug.
+
+Also, within Unified Service Desk client application, you can debug a Chrome Process by using the keyboard shortcut **F12** to launch the Google Chrome **Developer Tools**.
+
+### Add the ChromeRemoteDebuggingPort UII option
+
+1. Sign in to Dynamics 365 for Customer Engagement apps.
+
+2. Go to **Settings** > **Unified Service Desk** > *Options*.
+
+3. On the Active UII Options page, select **+ New**. 
+
+4. Choose **Others** for the **Global Option** field.
+
+5. Type **ChromeRemoteDebuggingPort** for the **Name** field.
+
+6. Type the port number value for the **Value** field. For example: `1030`.
+
+7. Select save.
+
 ## See also
 
 [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  

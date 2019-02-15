@@ -246,7 +246,7 @@ Let us see what configurations you need to create for the above-mentioned scenar
 
 6. Save the changes.
 
-## Create EdgeSingleProcess global UII option
+## EdgeSingleProcess UII option
 
 With the Edge WebView control, each domain will have its own process. If your organization requires common authentication modes across different domains, the Edge process might not support the same authentication.
 
