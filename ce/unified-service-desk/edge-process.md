@@ -1,5 +1,5 @@
 ---
-title: "Edge Process hosting method for your controls in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Use Edge Process hosting method for your controls in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about the Edge Process hosting methods for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -26,7 +26,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4'
 ---
 
-# Preview: Edge Process
+# Preview: Use Edge Process to host web applications
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -41,8 +41,8 @@ The advantages of using the Edge process hosting method are as follows:
 - Webpages, including Dynamics 365 pages, render faster in Microsoft Edge.
 - Microsoft Edge is a modern browser with better process and memory management.
 - Microsoft Edge is the default browser for the Windows 10 operating system.
-- it provides easy configurations to host the applications in Unified Service Desk.
-- It provides improved reliability and supportability for browser-specific issues
+- It provides easy configurations to host the applications in Unified Service Desk.
+- It provides improved reliability and supportability for browser-specific issues.
 
 > [!NOTE]
 > To use **Edge Process**, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).

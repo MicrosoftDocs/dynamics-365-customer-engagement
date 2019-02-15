@@ -1,5 +1,5 @@
 ---
-title: "Chrome Process hosting method for your controls in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Use Chrome Process hosting method for your controls in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about the Chrome Process hosting method for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -26,19 +26,19 @@ search.app:
 monikerRange: '>= dynamics-usd-4'
 ---
 
-# Preview: Chrome Process
+# Preview: Use Chrome Process to host web application
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Chrome Process browser control hosts your controls in individual Chrome process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Google Chrome, it will work in Unified Service Desk. You can select **Chrome Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
+The Chrome Process browser control hosts your controls in individual Chrome process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Google Chrome, it works in Unified Service Desk. You can select **Chrome Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
 
 The advantages of using the Chrome process hosting method are as follows:
 
-- Webpages, including Dynamics 365 pages, render faster in Google Chrome.
-- Google Chrome is a modern browser with better process and memory management.
+- Chrome Process is available on different Windows OS server versions (Client and Server).
+- Chrome, like Microsoft Edge, is a modern browser; modern web apps are highly functional and reliable on these browsers.
+- Easy configurations to host the applications in Unified Service Desk.
 - Google Chrome browser is simple and secure.
-- it provides easy configurations to host the applications in Unified Service Desk.
-- It provides improved reliability and supportability for browser-specific issues
+- Switch easily from one browser to another for your entire organization.
 
 ## Chrome Process settings
 

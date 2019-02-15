@@ -207,15 +207,15 @@
       - name: 'Select a hosting method for your controls '
         href: select-hosting-method-controls.md
         items:
-        - name: Edge process (Preview)
+        - name: Use Edge Process to host web applications (Preview)
           href: edge-process.md
-        - name: Chrome process (Preview)
+        - name: Use Chrome Process to host web applicaitons (Preview)
           href: chrome-process.md       
-        - name: IE process
+        - name: Use IE Process to host web applications
           href: ie-process.md
-        - name: Internal WPF
+        - name: Use Internal WPF to host web applications
           href: internal-wpf.md
-        - name: Web hosted application
+        - name: Use Web Hosted Application to host web applications
           href: web-hosted-application.md
       - name: Create or edit a hosted control
         href: create-edit-hosted-control.md
