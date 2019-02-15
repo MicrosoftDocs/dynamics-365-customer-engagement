@@ -44,6 +44,28 @@ The Chrome Process control doesn't support multiple-page navigation for the host
 
 The Chrome Process WebView control supports using `window.top.notifyUSD` to raise the events instead of `window.open`.
 
+#### KB article support with Chrome Process
+
+In Dynamics 365 Customer Engagement apps web client, when you host the KB article in Unified Service Desk client application using Chrome Process, the KB articles does not render. 
+
+A workaround is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
+
+Change the **Unified Service Desk Component Type** of the **KB Search** hosted control from **KM Control** to **Unified Interface KM Control**.
+
+After changing the component type, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
+
+![Action call with the postdata and header parameter](media/manual-update-unified-interface-km-control-action-call-data.PNG "Action call with the postdata and header parameter")
+
+Remove the following values from the data field:
+
+`postdata=[[postdata]]`
+
+`header=[[header]+]` 
+
+To open an KB article, only the article url is sufficient. For example: `url=[[KB Search.articleurl]g]`
+
+Now, save the configuration. Login to Unified Service Desk and open any article to see the article contents.
+
 ### Preview: Edge Process
 
 #### Support for CloseAndPrompt action in Edge Process
@@ -96,6 +118,8 @@ A workaround is to open the Microsoft Edge browser separately, navigate to the w
 In Dynamics 365 Customer Engagement apps web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
 
 A workaround is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
+
+Change the **Unified Service Desk Component Type** of the **KB Search** hosted control from **KM Control** to **Unified Interface KM Control**.
 
 After changing the component type, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
 
