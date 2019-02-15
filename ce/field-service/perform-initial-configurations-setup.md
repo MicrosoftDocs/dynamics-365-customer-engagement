@@ -90,6 +90,11 @@ The API key will populate automatically and use the Bing Maps API.
 
 Save and close.
 
+Go to the topic on [Managing Bing Maps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-bing-maps-organization) to enable maps for the Work Order form.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of work order map](media/work-order-map.png) 
+
 Later in this topic, we'll test geocoding and location services to make sure they're working properly.
 
 ### Enable resource scheduling for entities
