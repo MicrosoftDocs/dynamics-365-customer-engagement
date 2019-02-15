@@ -4,6 +4,7 @@
 
 # Installation
 ## [Field Service installation (web + mobile)](install-field-service.md)
+## [Version history (web + mobile)](version-history.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # Administration
@@ -12,7 +13,7 @@
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Field Service settings](configure-default-settings.md)
-## [Version history](version-history.md)
+
 
 # Quickstarts
 ## [Schedule a work order](quickstart-schedule-work-order.md)
