@@ -106,7 +106,7 @@ In delete request, you will delete the Customer Journey that you have created ea
 ```HTTP
 DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys(b6faa2b7-b92b-e911-8185-000d3af9d16a)
 ```
-### Check for Errors
+## Check for Errors
 
 **Request**
 The request body is a JSON object containing a number of data elements with values corresponding to the msdyncrm_customerjourney entity properties. The reference fields (like Content Settings ID) do not use the @odata.bind with recordset reference, but GUID ID of referenced record instead. The table below explains the mapping.
@@ -126,3 +126,34 @@ The request body is a JSON object containing a number of data elements with valu
 |FieldValueEntityTarget|msdyncrm_entitytarget|
 |FieldValueSuppressionSegmentId|msdyncrm_suppressionsegmentid|
 |FieldValueCustomerJourneyTimeZone|msdyncrm_customerjourneytimezone|
+
+## Validare Schema
+
+**Request**
+
+```HTTP
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_CustomerJourneyValidate
+
+{
+    "FieldValueCustomerJourneyId": "{6628BBF7-C52A-E911-A9B7-000D3A1E6ADC}",
+    "FieldValueStatusCode": 192350000,
+    "FieldValueName": "Sample Customer Journey",
+    "FieldValueStartDateTime": "2019-02-08T11:48:00.000Z",
+    "FieldValueEndDateTime": "2019-03-08T11:48:00.000Z",
+    "FieldValueWorkflowDefinition": "[{\"ActivityTypeId\":\"bpf_root\",\"ParentBranchId\":0,\"ParentRelationshipType\":\"Default\",\"ActivityId\":\"01\",\"Properties\":{\"Items\":[{\"ItemId\":null,\"ActivityTypeId\":\"bpf_root\",\"Title\":\"Undefined\",\"IsNameSystemDefined\":true,\"Name\":\"New ActivityTypeName_bpf_root_TitleText\",\"ActivityItemId\":0}]}},{\"ActivityTypeId\":\"Segment\",\"ParentActivityId\":\"01\",\"ParentBranchId\":0,\"ParentRelationshipType\":\"Default\",\"ActivityId\":\"01_0\",\"Properties\":{\"Items\":[{\"ItemId\":null,\"ActivityTypeId\":\"Segment\",\"Title\":\"Undefined\",\"IsNameSystemDefined\":true,\"Name\":\"New Segment group\",\"ActivityItemId\":52,\"SegmentMergeMethod\":\"Union\"},{\"ItemId\":\"056bbe66-f025-e911-a9ba-000d3a1e689f\",\"ActivityTypeId\":\"SegmentItem\",\"Title\":\"Undefined\",\"IsNameSystemDefined\":true,\"Name\":\"TC407937_DynamicSegment_bmkX5u\",\"ActivityItemId\":53,\"ContainmentMethod\":\"Inclusion\",\"SegmentSourceType\":\"Segment\",\"DciSegmentName\":\"TC407937_DynamicSegment_bmkX5u\",\"SegmentDisplayName\":\"TC407937_DynamicSegment_bmkX5u\",\"Description\":\"\"}]},\"EntityTarget\":\"contact\"},{\"ActivityTypeId\":\"Email\",\"ParentActivityId\":\"01_0\",\"ParentBranchId\":0,\"ParentRelationshipType\":\"Default\",\"ActivityId\":\"01_0_3\",\"Properties\":{\"Items\":[{\"ItemId\":\"15bd0ab8-c12a-e911-a9b6-000d3a1e6c14\",\"ActivityTypeId\":\"Email\",\"Title\":\"Undefined\",\"IsNameSystemDefined\":true,\"Name\":\"Relationship test\",\"ActivityItemId\":61}]},\"EntityTarget\":\"contact\"}]",
+    "FieldValueIsRecurring": true,
+    "FieldValueRecurrenceIntervalDays": 30,
+    "FieldValueRecurrenceCount": 3,
+    "FieldValueRequiredConsent": 587030001,
+    "FieldValueContentSettingsId": "{1922B1D8-0523-E911-A9BA-000D3A1E689F}",
+    "FieldValueEntityTarget": 0,
+    "FieldValueSuppressionSegmentId": "{544A3E20-9B23-E911-A9B6-000D3A1E6C14}",
+    "FieldValueCustomerJourneyTimeZone": 92
+}
+FieldValueRecurrenceCount": 3,
+    "FieldValueRequiredConsent": 587030001,
+    "FieldValueContentSettingsId": "{1922B1D8-0523-E911-A9BA-000D3A1E689F}",
+    "FieldValueEntityTarget": 0,
+    "FieldValueSuppressionSegmentId": "{A02C08DD-A92A-E911-A9B9-000D3A1E6B71}",
+    "FieldValueCustomerJourneyTimeZone": 92
+```
