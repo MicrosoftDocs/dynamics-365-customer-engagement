@@ -58,9 +58,13 @@ In this topic, we'll walk through how to associate SLAs to Field Service work or
 
 4. Go to **Field Service > Settings > Field Service Settings** and enter the active Field Service Settings record.
 
-5. Next, go to the **Field Service SLA Configurations** tab. Here you will define the SLA KPI instances that you would like to use for Field Service. These instances will also affect the **Time from Promised** and **Time to Promised** work order fields for scheduling, which we will discuss further on in this topic.
+5. Next, go to the **Field Service SLA Configurations** tab. Here you will define the **SLA KPI Instances** that you would like to use for Field Service. By default, you should see an SLA related to work order arrival times, which is available out-of-the-box with Field Service v8.3+. 
 
-You will also see an SLA related to work order arrival times, which is available out-of-the-box with Field Service v8.3+.
+  SLA KPI instances help track how often your organization meets SLAs by establishing a relationship between the SLA and work order entities. The SLA KPI instances entered in our example tell the system to update the **Time from Promised** and **Time to Promised** work order fields for scheduling, which we will discuss further on in this topic.
+
+> [!Note]
+>  One SLA can have many SLA KPI instances.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-field-service-setting-2.png)
@@ -69,11 +73,6 @@ You can create new SLA KPI instances by going to **Settings > Customizations > C
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-kpi-instance.png)
-
-> [!Note]
-> A couple of additional notes about SLA KPI instances:
-> - SLA KPI instances help track how often your organization meets SLAs
-> - One SLA can have many SLA KPI instances
 
 
 ## Step 2. Create a new SLA
@@ -151,8 +150,7 @@ Additionally, scheduling tools like the schedule assistant and Resource Schedule
 
 - The SLA timer and populated values for **Time From Promised** and **Time To Promised** will respect the business hours of the SLA. For example, let's say the SLA has a success parameter of 3 hours, business hours are set to Monday through Friday from 9AM to 5PM, and a work order is created at 4pm on Friday. The SLA timer and **Time From Promised** and **Time To Promised** will be set to a start of Friday at 4pm and an end of Monday at 11AM to compensate for business closure on the weekend up until 9AM the following Monday. 
 
-## Additional Notes
+## Additional notes
 - Multiple SLAs and multiple business hours or calendars can be created and utilized for different customers; however, a work order can only have one SLA assigned to it.
 - SLAs on work orders will overwrite existing values for **Time From Promised** and **Time To Promised**.
 - Pausing an SLA timer on the work order will update **Time From Promised** and **Time To Promised** fields when resumed.
-
