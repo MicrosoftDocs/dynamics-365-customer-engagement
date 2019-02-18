@@ -1,7 +1,7 @@
 ---
 title: "Move Dynamics 365 for Customer Engagement apps configuration data across instances and organizations | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 02/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -48,6 +48,8 @@ The Configuration Migration tool enables you to move configuration data across [
   
 > [!IMPORTANT]
 > The Configuration Migration tool does not support filtering of records in an entity. By default, all the records in the selected entity will be exported.  
+> 
+> For information on downloading the Configuration Migration tool, see [Download tools from NuGet](../developer/download-tools-nuget.md).
 
 <a name="HowItWorks"></a>   
 
@@ -85,6 +87,7 @@ The Configuration Migration tool enables you to move configuration data across [
 -   Back up your production environment before importing the data.  
   
 ### See also  
+ [Download tools from NuGet](../developer/download-tools-nuget.md)
  [Create a schema to export configuration data](create-schema-export-configuration-data.md)   
  [Modify a configuration data schema](modify-configuration-data-schema.md)   
  [Import configuration data](import-configuration-data.md)    
