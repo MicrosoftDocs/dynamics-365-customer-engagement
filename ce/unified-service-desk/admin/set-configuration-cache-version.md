@@ -13,7 +13,7 @@ applies_to:
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
-ms.assetid: 4aab0a03-2d52-4ced-b6cf-9694d1edbdb7
+ms.assetid: A988412D-5A59-42BC-B608-0FB4E7CA7E17
 author: kabala123
 ms.author: kabala
 manager: shujoshi
