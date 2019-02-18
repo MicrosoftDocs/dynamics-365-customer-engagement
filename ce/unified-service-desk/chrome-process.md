@@ -73,9 +73,6 @@ Enable the **Chrome Process** by doing one of the following ways:
 
 When you are creating a new hosted control, you can select **Chrome Process** as the **Hosting Type**.
 
-  > [!div class="mx-imageBorder"]
-  > ![Select Hosting Type as Chrome Process](media/hosted-control-chrome-process.GIF "Create hosted control with Hosting Type as Chrome Process")
-
 1. Sign in to Dynamics 365.
 
 2. Go to **Settings** > **Unified Service Desk**.
@@ -87,6 +84,9 @@ When you are creating a new hosted control, you can select **Chrome Process** as
 5. On the **New Hosted Control** page, specify the details and select **Chrome Process** from the **Hosting Type** drop-down.
 
 6. Select **Save** to create the hosted control.
+
+  > [!div class="mx-imageBorder"]
+  > ![Select Hosting Type as Chrome Process](media/hosted-control-chrome-process.GIF "Create hosted control with Hosting Type as Chrome Process")
 
 ### Enable Chrome for Unified Service Desk on client desktop
 
@@ -118,6 +118,9 @@ Add a new Global UII option for your organization named **GlobalBrowserMode**. S
 6. Type **Chrome** for the **Value** field.
 
 7. Select **Save**.
+
+  > [!div class="mx-imageBorder"]
+  > ![For the Global Option field enter Global Browser Mode with value as chrome](media/chrome-process-uii-option.GIF "For the Global Option field enter Global Browser Mode with value as chrome")
 
 ## RunScript action is asynchronous in Chrome Process
 
@@ -293,7 +296,7 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 6. Type the port number value for the **Value** field. For example: `1030`.
 
-7. Select save.
+7. Select **Save**.
 
 ## Limitations
 
