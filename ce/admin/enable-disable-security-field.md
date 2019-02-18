@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable security for a field for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 02/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
