@@ -1,7 +1,7 @@
 ---
 title: "Control field synchronization between Dynamics 365 for Customer Engagement apps and Outlook | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/31/2017
+ms.date: 02/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,27 +27,29 @@ search.app:
 
 With field synchronization, admins can set the sync direction between [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] fields. You can control synchronization when using either [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization or server-side synchronization ([!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]).  
   
- For example, a salesperson may want to take personal notes about a contact and not want the notes to synchronize with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data available to all users. You can set the Personal Notes field for contacts in Outlook to not [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps so the salesperson’s notes will remain private.  
+ For example, a salesperson may want to take personal notes about a contact and not want the notes to synchronize with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data available to all users. An admin can set the Personal Notes field for contacts in Outlook to not [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps so the salesperson’s notes will remain private.  
   
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Configurability in Synchronizing Data with Outlook or Exchange in Microsoft Dynamics CRM 2015](http://youtu.be/BMZsVUuaklo?list=PLC3591A8FE4ADBE07)  
   
 ## Set field synchronization between Dynamics 365 for Customer Engagement apps and Outlook  
   
-1. In the web app, in the upper-right corner of the screen, click the **Settings** button ![User profile Settings button](../outlook-app/media/priv-user.gif "User profile Settings button") > **Options**.  
+1. Sign in as a Customer Engagement admin. 
+
+2. In the web app, in the upper-right corner of the screen, click the **Settings** button ![User profile Settings button](../outlook-app/media/priv-user.gif "User profile Settings button") > **Options**.  
   
-2. In the **Set Personal Options** dialog box, choose the **Synchronization** tab.    
+3. In the **Set Personal Options** dialog box, choose the **Synchronization** tab.    
   
-3. Choose **synchronized fields**.  
+4. Choose **synchronized fields**.  
   
-4. For the fields you want to change synchronization, choose the arrows in the Sync Direction column. Each choice will change the direction.  
+5. For the fields you want to change synchronization, choose the arrows in the Sync Direction column. Each choice will change the direction.  
   
    ![Appointment fields for synchronization](../admin/media/appointment-field-sync.png "Appointment fields for synchronization")  
   
    > [!TIP]
    >  Hover over a field name to see the fields mapped to it.  
   
-5. Choose **OK** > **OK** to close the open dialog boxes.  
+6. Choose **OK** > **OK** to close the open dialog boxes.  
   
    Let your users know they can view (not change) the synchronization settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What fields can be synchronized between Dynamics 365 for Customer Engagement apps and Outlook?](what-fields-synchronized-outlook.md)  
   
