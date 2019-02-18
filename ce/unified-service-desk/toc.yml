@@ -89,6 +89,8 @@
     items:
     - name: Configure client caching in Unified Service Desk
       href: admin/configure-client-caching-unified-service-desk.md
+    - name: Set Configuration Cache version in configuration
+      href: admin/set-configuration-cache-version.md     
     - name: Help improve Unified Service Desk
       href: admin/help-improve-unified-service-desk.md
       items:
