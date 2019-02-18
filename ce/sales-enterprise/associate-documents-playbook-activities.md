@@ -30,6 +30,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 > [!NOTE]
 >   - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)] 
 >   - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
+>   - This feature is being rolled out in a phased manner and will be available across all geographies by March 4.
 
 
 Ensure sales reps always have the latest sales and training materials to close a deal by associating documents with playbook activities that you add to a playbook template.
@@ -37,7 +38,7 @@ For example, create a playbook template that sales reps can follow when the deci
 
 ### Prerequisites
 
-So that you can add documents, make sure that document management for the playbook activity entity is enabled. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](../admin/enable-sharepoint-document-management-specific-entities.md), [Set up SharePoint integration](../admin/set-up-sharepoint-integration.md).
+So that you can add documents, make sure that document management for the playbook activity entity is enabled. Document Management must also be enabled for playbook activity and all the entities to which documents must be copied, that is, task and appointment.[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](../admin/enable-sharepoint-document-management-specific-entities.md), [Set up SharePoint integration](../admin/set-up-sharepoint-integration.md).
 
 ### Add documents 
 
