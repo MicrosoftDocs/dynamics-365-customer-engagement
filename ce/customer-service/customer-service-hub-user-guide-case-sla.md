@@ -143,7 +143,7 @@ Similarly, the status of the SLA KPI instance is updated when the first response
 
 > [!NOTE]
 > - The SLA timer continues to run once it is triggered or un-paused. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time.  
-> - If the status of the success or failure criteria is updated, the SLA timer must be refreshed to show the updated SLA. Select **...** and select **Refresh** in the command bar to refresh the SLA timer.
+> - The timer control auto-refreshes for **Pause** and **Resume** states to show the updated SLA. For all other states, you must refresh the page to view the refreshed SLA. Select **...** and select **Refresh** in the command bar to refresh the SLA timer control.
 
 You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Apply SLA on demand](define-service-level-agreements.md#apply-sla-on-demand)
 
