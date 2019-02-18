@@ -73,6 +73,9 @@ Enable the **Chrome Process** by doing one of the following ways:
 
 When you are creating a new hosted control, you can select **Chrome Process** as the **Hosting Type**.
 
+  > [!div class="mx-imageBorder"]
+  > ![Select Hosting Type as Chrome Process](media/hosted-control-chrome-process.GIF "Create hosted control with Hosting Type as Chrome Process")
+
 1. Sign in to Dynamics 365.
 
 2. Go to **Settings** > **Unified Service Desk**.
@@ -81,7 +84,7 @@ When you are creating a new hosted control, you can select **Chrome Process** as
 
 4. To create a new hosted control, select **New**.
 
-5. On the **New Hosted Control** page, specify the details and select **Chrome process** from the **Hosting Type** drop-down.
+5. On the **New Hosted Control** page, specify the details and select **Chrome Process** from the **Hosting Type** drop-down.
 
 6. Select **Save** to create the hosted control.
 
