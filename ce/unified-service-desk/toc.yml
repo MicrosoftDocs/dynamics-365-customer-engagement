@@ -78,9 +78,9 @@
 - name: Administer and manage Unified Service Desk
   href: admin/administer-manage-unified-service-desk.md
   items:
-  - name: Preview feature - Support for Unified Interface Apps
+  - name: Support for Unified Interface Apps (Preview)
     href: admin/Support-unified-interfaces-apps-usd.md
-  - name: Preview feature - Unified Service Desk Administrator app
+  - name: Unified Service Desk Administrator app (Preview)
     href: admin/unified-service-desk-administrator-app.md
   - name: Unified Interface Settings
     href: admin/unified-interface-settings.md
@@ -89,7 +89,7 @@
     items:
     - name: Configure client caching in Unified Service Desk
       href: admin/configure-client-caching-unified-service-desk.md
-    - name: Set Configuration Cache version in configuration
+    - name: Set Configuration Cache version in configuration (Preview)
       href: admin/set-configuration-cache-version.md     
     - name: Help improve Unified Service Desk
       href: admin/help-improve-unified-service-desk.md
@@ -133,7 +133,7 @@
     href: admin/recover-internet-explorer-process-instance.md
   - name: Configure close confirmation window
     href: admin/configure-close-confirmation-window.md
-- name: Public Preview - Analyze performance of Unified Service Desk
+- name: Analyze performance of Unified Service Desk (Preview)
   items:
   - name: Overview of Unified Service Desk Performance Analyzer
     href: admin/overview-performance-analyzer.md

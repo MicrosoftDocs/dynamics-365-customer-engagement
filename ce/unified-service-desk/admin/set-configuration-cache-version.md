@@ -24,7 +24,7 @@ search.app:
   - D365USD
 ---
 
-# Set Configuration Cache Version
+# Preview: Set Configuration Cache Version
 
 The **Configuration Cache Version** option causes the client caching feature to retrieve the configuration that has undergone change from the Dynamics 365 for Customer Engagement server to the agent’s desktop. This helps to improve the startup performance of Unified Service Desk.
 
@@ -46,6 +46,8 @@ The following scenario example explains how Configuration Cache Version works.
 Your organization uses **X**, **Y**, and **Z** configurations for chat, message, and voice support, respectively. You make a change to configuration X and update the **Configuration Cache Version** value in the Dynamics 365 for Customer Engagement server. When an agent assigned to configuration **X** (chat) signs in to the Unified Service Desk client application, the client caching feature checks for the local cache store and determines the cache version key. Because you updated the cache version key for the **Configuration Cache Version** option, the client caching feature retrieves the updated configuration **X** from the server to the agent’s desktop, and it doesn’t retrieve the unchanged configurations which saves the startup time.
 
 ## Enable the Configuration Cache Version option
+
+![In the new option page, add EnableConfigurationCaching for name and enter value as true](../media/configuration-cache-version.GIF "EnableConfigurationCaching UII option with value as true")
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
