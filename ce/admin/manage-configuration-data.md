@@ -88,7 +88,7 @@ The Configuration Migration tool enables you to move configuration data across [
   
 ### See also  
  [Download tools from NuGet](../developer/download-tools-nuget.md)<br />
- [Create a schema to export configuration data](create-schema-export-configuration-data.md)<br />   
- [Modify a configuration data schema](modify-configuration-data-schema.md) <br />
- [Import configuration data](import-configuration-data.md) <br />  
+ [Create a schema to export configuration data](create-schema-export-configuration-data.md)
+ [Modify a configuration data schema](modify-configuration-data-schema.md) 
+ [Import configuration data](import-configuration-data.md) 
  [Manage product catalog configuration](../admin/manage-product-catalog-configuration.md)
