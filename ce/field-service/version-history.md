@@ -32,7 +32,7 @@ search.app:
 
 | Solution                             | Latest version | Download links                                                                                                                     |
 |--------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Field Service                        | 8.4+           | [https://trials.microsoft.com](https://trials.microsoft.com).   See additional notes at the end of this document.                  |
+| Field Service                        | 8.4.0.338           | [https://trials.microsoft.com](https://trials.microsoft.com).   See additional notes at the end of this document.                  |
 | Field Service Mobile                 | 11.2+          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
 | Mobile Configuration Tool (Woodford) | 11.3+          | [https://aka.ms/fsmobile-configurator](https://aka.ms/fsmobile-configurator)                                                       |
 | Mobile Project Template              | 1.0.1322       | [https://aka.ms/fsmobile-project](https://aka.ms/fsmobile-project)                                                                 |
@@ -41,10 +41,10 @@ search.app:
 
 | Version Number  |  Release date  |  Notes | More details |
 |---|---|---|---|---|
-| 8.4.0.338  |  February 2019 |  Latest release for general availability (GA) | [Release Notes for 8.4.0.338](https://blogs.msdn.microsoft.com/crm/2019/02/11/release-notes-for-field-service-version-8-4-0-338/) |
+| 8.4  |  February 2019 |  Latest release for general availability (GA) | [Release Notes for 8.4.0.338](https://blogs.msdn.microsoft.com/crm/2019/02/11/release-notes-for-field-service-version-8-4-0-338/) |
 | 8.3  |  December 2018 | SLA functionality for Work Orders, Connected Field Service   | [Release Notes for 8.3.0.255](https://blogs.msdn.microsoft.com/crm/2018/12/21/release-notes-for-field-service-version-8-update-release-3/) |
 | 8.0  |  July 2018 |  Multi-resource scheduling (requirement groups) |
-|  7.5.6.97 |  September 2017 |  |    [Release Notes for 7.5.6.97](https://blogs.msdn.microsoft.com/crm/2019/02/04/release-notes-for-field-service-version-7-5-6-97/) |
+|  7.5 |  September 2017 |  |    [Release Notes for 7.5.6.97](https://blogs.msdn.microsoft.com/crm/2019/02/04/release-notes-for-field-service-version-7-5-6-97/) |
 |  7.0 |  September 2017 |  Schedule board extensibility for custom resource matching |  
 | 6.1  |  November 2016 | Release of Universal Resource Scheduling (URS) creating a framework to schedule any entitiy  |   
 | 6.0  | June 2016  | Release of Field Service on shared data model. Added booking entities as core entities. f1_ schema prefix became msdyn_   |  
