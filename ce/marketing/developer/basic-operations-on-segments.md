@@ -44,15 +44,15 @@ This topic demonstrates how to perform basic operation on the `msdyncrm_segment`
 |Segment Query|msdyncrm_segmentquery|Query in segmentation query|Yes (only for dynamic and compounbd segements)|
 
 
-To test the operations you can use Postman tool. More information [Use Postman with Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-web-api)
+To test the operations you can use Postman tool. More information [Use Postman with Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-perform-operations)
 
 ## CRUD operations on static segments
 
-This example shows how to create, update, retrieve and delete static segments.
+This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on static segments.
 
 1. **Create request**
 
-In the create request, you will create a new static segment with two contacts and `statuscode` set to `draft`. The response header contains the `URL` to this newly created record (entity instance), which parenthetically includes the `unique ID (segmentID)` for this record.
+This request creates a new static segment with two contacts and `statuscode` set to `draft`. The response header contains the `URL` to this newly created record (entity instance), which parenthetically includes the `unique ID (segmentID)` for this record.
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
@@ -69,7 +69,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 
 2. **Update request**
 
-In the update request, you will set the `statuscode` of the created static segment to `Going Live (192350006)`, when the request is executed it updates the `statuscode`to `Live`.
+In the update request, you will update the `statuscode` of the static segment to `Going Live (192350006)`, when the request is executed it updates the `statuscode`to `Live`.
 
 ```HTTP
 PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -80,10 +80,10 @@ PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 3. **Retrieve request**
 
-In the retrieve request, you will retrieve the static segment that is in `Live` state.
+In the retrieve request, you will retrieve all the static segments that are in `Live` state.
 
 ```HTTP
-GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
+GET {{orgUrl}}/api/data/v9.0/msdyncrm_segment?$filter=statuscode eq 192350001
 ```
 You can also retrieve the segments with specific properties.
 
@@ -101,11 +101,11 @@ DELETE {{orgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ## CRUD operations on dynamic segments
 
-This example shows how to create, update, retrieve and delete dynamic segments.
+This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on dynamic segments.
 
 1. **Create request**
 
-In the create request, you will create a dynamic segment and set the `statuscode` to `Live`.
+This request creates a dynamic segment and set the `statuscode` to `Live`.
 
 ```HTTP
 POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
@@ -118,7 +118,7 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
 ```
 2. **Update uequest**
 
-In the update request, you will change the status of the dynamic segment to `Stop`.
+In the update request, you will update the status of the dynamic segment to `Stop`.
 
 ```HTTP
 PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -128,10 +128,10 @@ PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 3. **Retrieve Request**
 
-In the retrieve request, you will retrieve the dynamic segment that is created. 
+In the retrieve request, you will retrieve all the dynamic segments that are in `Stop` state. 
 
 ```HTTP
-GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
+GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350002
 ```
 
 4. **Delete request**
@@ -144,11 +144,11 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ### CRUD operations on compound segments
 
-This example shows how to create, update, retrieve and delete compound segments.
+This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on compound segments.
 
 1. **Create request**
 
-In the create request, you will create a compound segment and set the `statuscode` to `Live`.
+This request creates a compound segment and set the `statuscode` to `Live`.
 
 ```HTTP
 POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
@@ -161,7 +161,7 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
 ```
 2. **Update request**
 
-In the update request, you will change the status of the compound segment to `Stop`.
+In the update request, you will update the status of the compound segment to `Stop`.
 
 ```HTTP
 PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
@@ -171,10 +171,10 @@ PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 3. **Retrieve request**
 
-In the retrieve request, you will retieve the compound segment that is created. 
+In the retrieve request, you will retieve all the compound segments that are in `Stop` state.
 
 ```HTTP
-GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
+GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350002
 ```
 
 4. **Delete request**
@@ -195,16 +195,6 @@ Include/exclude operations can be performed through the API by posting messages 
 - `msdyncrm_IncludeMembersInSegment`
 - `msdyncrm_ExcludeMemberFromSegment`
 - `msdyncrm_ExcludeMembersFromSegment`
-
-**Include/Exclude endpoints**
-
-```HTTP
-
-POST {{orgUlr}}/api/data/v9.0/msdyncrm_ExcludeMemberFromSegment
-POST {{orgUlr}}/api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
-POST {{orgUlr}}/api/data/v9.0/msdyncrm_IncludeMemberInSegment
-POST {{orgUlr}}/api/data/v9.0/msdyncrm_IncludeMembersInSegment
-```
 
 **Add one segment member**
 
