@@ -41,7 +41,7 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
 
 3. Choose **Options**.  
 
-4. On the **Active UII Options** page, click **New**.
+4. On the **Active UII Options** page, select **New**.
 
 5. On the **New Option** page, type the option name and corresponding value. Some options are available in the **Global Options** list. Additional global options for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] that aren't displayed in the list and must be entered by the administrator are described in this table.  
 
@@ -101,12 +101,15 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
    |     `TotalRecordCountLimit`      | This value is for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to determine the batch size while fetching entity records from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance. The default value of the `TotalRecordCountLimit` in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and in MSCRM\_CONFIG database is 5000. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure Unified Service Desk entities](../understand-unified-service-desk-concepts.md)</br>**Note:** <br> **1.** `TotalRecordCountLimit` value must be equal to the value in MSCRM\_CONFIG database.<br>**2.** You must not change the default value unless the MSCRM\_CONFIG database administrator changes the value. |
    |     `HideConfirmationDialog`      | The close confirmation window prevents the accidental closure of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. By default the option is enabled, and to disable the option, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator must configure the `HideConfirmationDialog` option in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and set the value to **true**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure close confirmation window](../admin/configure-close-confirmation-window.md).|
    |     `ShowNPSDialog`      | This option shows the feedback window to provide score and comments, and send it Microsoft. By default the option is enabled, and to disable the option, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator must configure the `ShowNPSDialog` option in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and set the value to **false**. |
-   | `EdgeSingleProcess` | This option combines all the processes with different domains in a single process at the run-time. Set **True** to enable this option. </br>**Note:** <br> If you set the value as **False** or leave the field blank, the option will be disabled. <br><br> More information: [Edge process](../edge-process.md)|
+   | `EdgeSingleProcess` | This option combines all the processes with different domains in a single process at the run-time. Set **True** to enable this option. </br>**Note:** <br> If you set the value as **False** or leave the field blank, the option will be disabled. More information: [Use Eddge process to host web applications](../edge-process.md)|
+   | `GlobalBrowserMode` | This option is for Unified Service Desk to determine which Hosting Type to use for hosting web applications for the entire organization. You can use this option only when you want either Chrome or Edge to host web applications in Unified Service Desk. Enter `GlobalBrowserMode` for the **Global Option** field and set Chrome or Edge as the value. More information: [Use Edge Process to host web applications](../edge-process.md) and [Use Chome Process to host web applications](../chrome-process.md).| 
+   | `ChromeEnableMediaStream ` | This option enables webcam and microphone support for the Chrome Process while hosting web applications in Unified Service Desk. Set **True** to enable the access. More information: [Use Chome Process to host web applications](../chrome-process.md#support-for-webcam-and-microphone-access-with-chrome-process)|
+   | `ChromeRemoteDebuggingPort ` | This option enables to access and debug all the Chrome Process running in a desktop locally and remotely. Set the value field with the port number. More information: [Use Chome Process to host web applications](../chrome-process.md#support-debugging-of-chrome-process)|
    |            **Others**            | This option allows you to type one of the global options listed in this table that does not appear in the **Global Options** list. |
 
 ::: moniker-end
 
-6. Click **Save**.
+6. Select **Save**.
 
 > [!NOTE]
 >  Apart from these, the **Options** setting is also used to configure auditing and client caching in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md) and [Configure client caching in Unified Service Desk](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
