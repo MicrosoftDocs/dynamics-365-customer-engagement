@@ -26,14 +26,16 @@ search.app:
   - D365FS
 ---
 
-# Field Service Version History
+# Field Service version history
 
-## Get the latest
+## Latest versions
 
-| Field Service  |  Field Service Mobile  | Mobile Configuration Tool (Woodford)  | Mobile Project Template |
-|---|---|---|---|
-| 8.4+  |  11.2+ |  11.3+ | 1.0.1322 |
-| [https://trials.microsoft.com](https://trials.microsoft.com) See additional notes below |	[Windows](https://aka.ms/fsmobile-windows), 	[iOS](https://aka.ms/fsmobile-ios), 	[Android](https://aka.ms/fsmobile-android) |  [https://aka.ms/fsmobile-configurator](https://aka.ms/fsmobile-configurator) | [https://aka.ms/fsmobile-project](https://aka.ms/fsmobile-project) |
+| Solution                             | Latest version | Download links                                                                                                                     |
+|--------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------|
+| Field Service                        | 8.4+           | [https://trials.microsoft.com](https://trials.microsoft.com).   See additional notes at the end of this document.                  |
+| Field Service Mobile                 | 11.2+          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
+| Mobile Configuration Tool (Woodford) | 11.3+          | [https://aka.ms/fsmobile-configurator](https://aka.ms/fsmobile-configurator)                                                       |
+| Mobile Project Template              | 1.0.1322       | [https://aka.ms/fsmobile-project](https://aka.ms/fsmobile-project)                                                                 |
 
 ## Field Service version history
 
@@ -56,18 +58,16 @@ search.app:
 |---|---|---|---|---|---|---|
 | [1.0.1322](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.1322.woodford |  11.2.202 | 11.2 | 11.2 | |
 
-## Additional Notes
+## Additional notes
 
- - New Dynamics 365 trials created via [https://trials.microsoft.com](https://trials.microsoft.com) will install the latest generally available Field Service solution  
- - You can upgrade your solution in Admin Center > Dynamics 365 
+ - New Dynamics 365 trials created through [https://trials.microsoft.com](https://trials.microsoft.com) will install the latest generally available Field Service solution. 
+ - You can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot. 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/admin-upgrade-to-latest-admin-center.png)
+> ![Screenshot of the admin center upgrade path for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
 
- - If a new version of Field Service is available as a private preview, you can  [opt-in to upgrade Project and Field Service - Unified Interface](https://experience.dynamics.com/insider/campaign/?id=75505220-c2e6-e811-a96d-000d3a1bef07) and an upgrade will become available in admin center.
+ - If a new version of Field Service is available as a private preview, you can  [opt-in to upgrade Project and Field Service - Unified Interface](https://experience.dynamics.com/insider/campaign/?id=75505220-c2e6-e811-a96d-000d3a1bef07) and an upgrade will become available in the admin center.
 
-- Installing Field Service Mobile from the Windows Store can allow for automatic upgrades of new versions
-
-
+- Installing Field Service Mobile from the Windows Store can allow for automatic upgrades of new versions.
 
 ### See also
 
