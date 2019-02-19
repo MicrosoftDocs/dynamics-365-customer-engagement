@@ -41,10 +41,10 @@ search.app:
 
 | Version Number  |  Release date  |  Notes | More details |
 |---|---|---|---|---|
-| 8.4.0.338  |  February 2019 |   | [Release Notes for Field Service Version 8.4.0.338](https://blogs.msdn.microsoft.com/crm/2019/02/11/release-notes-for-field-service-version-8-4-0-338/) |
-| 8.3  |  December 2018 |  Latest release for general availability (GA) |
+| 8.4.0.338  |  February 2019 |  Latest release for general availability (GA) | [Release Notes for 8.4.0.338](https://blogs.msdn.microsoft.com/crm/2019/02/11/release-notes-for-field-service-version-8-4-0-338/) |
+| 8.3  |  December 2018 | SLA functionality for Work Orders, Connected Field Service   | [Release Notes for 8.3.0.255](https://blogs.msdn.microsoft.com/crm/2018/12/21/release-notes-for-field-service-version-8-update-release-3/) |
 | 8.0  |  July 2018 |  Multi-resource scheduling (requirement groups) |
-|  7.5.6.97 |  September 2017 |  |    [Release Notes for Field Service Version 7.5.6.97](https://blogs.msdn.microsoft.com/crm/2019/02/04/release-notes-for-field-service-version-7-5-6-97/) |
+|  7.5.6.97 |  September 2017 |  |    [Release Notes for 7.5.6.97](https://blogs.msdn.microsoft.com/crm/2019/02/04/release-notes-for-field-service-version-7-5-6-97/) |
 |  7.0 |  September 2017 |  Schedule board extensibility for custom resource matching |  
 | 6.1  |  November 2016 | Release of Universal Resource Scheduling (URS) creating a framework to schedule any entitiy  |   
 | 6.0  | June 2016  | Release of Field Service on shared data model. Added booking entities as core entities. f1_ schema prefix became msdyn_   |  
@@ -52,11 +52,15 @@ search.app:
 
 
 
-## Field Service Mobile version history
+## Mobile project file library
+
+Mobile projects hold configurations and customizations of the Field Service Mobile app such as view and form layout, mobile workflows called form rules, and offline HTML/JavaScript. These mobile projects are imported in the Field Service Mobile Configuration Tool (Woodford). The Field Service engineering team periodically releases new mobile project templates to reflect new product updates and improve usability and performance. 
+
+To utilize the mobile project, see the the topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
 | Mobile project template version  | Mobile project template name | Release date | Relates to Field Service Mobile |  Publish to Woodford Version | Notes | More details |
 |---|---|---|---|---|---|---|
-| [1.0.1322](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.1322.woodford |  11.2.202 | 11.2 | 11.2 | |
+| [1.0.1322](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.1322.woodford |   | 11.2 | 11.2 | |
 
 ## Additional notes
 
