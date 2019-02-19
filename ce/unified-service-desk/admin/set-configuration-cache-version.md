@@ -39,11 +39,11 @@ The next time the agent signs in to the Unified Service Desk client application,
 
 To avoid retrieving all configurations from the Customer Engagement server when it’s not needed for every configuration, use the **Configuration Cache Version** option.
 
-## What is Configuration Cache Version?
+## What is Configuration Cache Version
 
 **Configuration Cache Version** is an option on the **Configuration** page in the Unified Service Desk Customer Engagement server settings. Every configuration in the Unified Service Desk in the Customer Engagement server has the **Configuration Cache Version** option and takes an alphanumeric value as the cache key.
 
-## How does Configuration Cache Version work?
+## How does Configuration Cache Version work
 The following scenario example explains how Configuration Cache Version works.
 
 Your organization uses **X**, **Y**, and **Z** configurations for chat, message, and voice support, respectively. You make a change to configuration X and update the **Configuration Cache Version** value in the Dynamics 365 for Customer Engagement server. When an agent assigned to configuration **X** (chat) signs in to the Unified Service Desk client application, the client caching feature checks for the local cache store and determines the cache version key. Because you updated the cache version key for the **Configuration Cache Version** option, the client caching feature retrieves the updated configuration **X** from the server to the agent’s desktop, and it doesn’t retrieve the unchanged configurations which saves the startup time.
