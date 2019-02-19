@@ -23,14 +23,14 @@ topic-status: Tech Reviewing
 
 ## Preview: Associate documents with playbook activities
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.2.0
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!NOTE]
 >   - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)] 
 >   - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
->   - This feature is being rolled out in a phased manner and will be available across all geographies by March 4.
+>   - This feature is being rolled out in a phased manner and will be available across all geographies by March 4, 2019.
 
 
 Ensure sales reps always have the latest sales and training materials to close a deal by associating documents with playbook activities that you add to a playbook template.
