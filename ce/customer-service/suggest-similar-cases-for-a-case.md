@@ -20,19 +20,19 @@ search.app:
   - D365CE
   - D365CS
 ---
-# Use advanced similarity rules to view similar cases suggestions
+# Use advanced similarity rules to view similar case suggestions
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Quickly support your customers by viewing similar cases suggestions in the Customer Service Hub. As an administrator, you can now configure a criteria using advanced similarity rules, so that agents can view cases similar to their current case and resolve customer issues in first contact and within minimal time frame. This helps to reduce operational cost and in turn increase customer satisfaction.
+Quickly support your customers by viewing similar cases suggestions in the Customer Service Hub. As an administrator, you can now configure criteria using advanced similarity rules, so that agents can view cases similar to their current case and resolve customer issues in first contact and within minimal time frame. This helps to reduce operational cost and in turn increase customer satisfaction.
 
 If an agent is working on a support case, they can view similar cases in the **Related** section of the current case, and resolve their case quickly. With the help of Relevance search, they can use keywords or key phrases in a service case to quickly find related cases and use them to resolve customer issues. 
   
-This can be further understood with the help of the following scenario:
+## Similar case suggestion scenario
 
-Gilda is resolving an issue where a customer is not able to book a travel package on the portal. To assist the customer quickly, Gilda seeks guidance by looking for similar cases in the **Similar cases** tab of the **Related** section of the current case.
+Gilda is resolving an issue where a customer is not able to book a travel package on the portal. To assist the customer quickly, she seeks guidance by looking for similar cases in the **Similar cases** tab in the **Related** section of the current case.
 
-Based on configured data input, the Relevance search mechanism filters the cases using key phrases and suggests a list of cases that Gilda can refer. Gilda selects a relevant case and glances through the details. Gilda is able to resolve the customer issue with this suggested case. She can also link the case to the current case for future reference. 
+Based on configured data input, the Relevance search mechanism filters the cases using key phrases and suggests a list of cases that Gilda can refer. She selects a relevant case and glances through the details. She is able to resolve the customer issue with this suggested case. She can also link the case to the current case for future reference. 
 
 ## Create a new similar case suggestion rule
  Set up automatic suggestion of similar cases by creating advanced similarity rules. The rules you create use the Relevance search mechanism.
@@ -83,7 +83,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
        |   Item   |                                                                                                                                                                                                                                                                                                                                                                            Description                                                                                                                                                                                                                                                                                                                                                                             |
        |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-       | Criteria |                                                                                                                                      **Exact match**: Only fields from the source entity are matched. **Note:**  By default, not all fields are enabled for exact matching. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a field for exact matching of similar records](#EnableFieldExactMatch) <br /><br /> **Text match**:   Text in these fields is used for finding key phrases to match. For example, if you select **Case Title** or **Description**, text in these fields will be matched.                                                                                                                                       |
+       | Criteria |                                                                                                                                      **Exact match**: Only fields from the source entity are matched. **Note:**  By default, not all fields are enabled for exact matching. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a field for exact matching of similar records](#enable-a-field-for-exact-matching-of-similar-cases) <br /><br /> **Text match**:   Text in these fields is used for finding key phrases to match. For example, if you select **Case Title** or **Description**, text in these fields will be matched.                                                                                                                                       |
        |  Entity (required)  |                                                                                                                                               Choose an entity from the drop-down list to be used to create a text search rule to find matching records in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.                                                                                                                                              |
        | Field (required) | Choose the  field to be used to create a text search rule to find matching target records. <br /><br /> Two types of fields are used for similarity analysis:<br /><br /> **Structured fields**:  Used for exact match on a field to field basis. All fields except Multiple Lines of Text are available for exact match. Each field can be used only once.<br /><br /> **Text fields**: Only fields of type Text or Option Set are available. For Option Set, the  corresponding label in the language of the user is used. Text fields are used for fuzzy match in similarity analysis with keywords/key phrase extraction. Each field can be used only once. |
        |||
@@ -109,7 +109,7 @@ Similarly, add more mappings to view a comprehensive search of related records.
 
 5.  Select **OK**, and then select **Save and Close** on the **Quick Find Active Accounts** page.  
 
-As adding a field to a view  is customization, you must publish the customization to enable exact matching for the field. To do this, in the left navigation pane select the entity, Case entity in this scenario, and then select **Publish**. To publish all customizations, select **Publish All Customizations**.
+As adding a field to a view is a form of customization, you must publish this customization to enable exact matching for the field. To do this, in the left navigation pane select the entity, Case entity in this scenario, and then select **Publish**. To publish all customizations, select **Publish All Customizations**.
   
 ## See similar case suggestions in the Customer Service Hub
 
@@ -119,10 +119,12 @@ You can view the similar case suggestions in the Related section of the Customer
   
 1. In the Customer Service Hub, navigate to **Service** > **Cases** and open a case from the **My Active Cases** view.
   
-2. Select the **Similar Cases** button in the **Related** section to view cases similar to the current case.  
+2. Select the **Similar Cases** in the **Related** section to view cases similar to the current case.  
   
    ![View similar cases](media/view-similar-cases.png)
   
 ### See also  
+
+[Related section in the Customer Service Hub](customer-service-hub-user-guide-basics.md#related-section)
 
 [Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
