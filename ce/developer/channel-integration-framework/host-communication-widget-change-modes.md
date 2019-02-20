@@ -22,19 +22,25 @@ manager: shujoshi
 
 This tutorial illustrates how you can develop, host and customize modes of a communication widget on Channel Integration Framework (CIF).
 
+## Getting started with the softphone integration sample
+
 To get started, first [Download the sample](https://go.microsoft.com/fwlink/p/?linkid=2025867) to integrate a softphone with Dynamics 365 for Customer Engagement apps using Channel Integration Framework. This sample acts as an interface between your softphone and Dynamics 365 for Customer Engagement. Follow the below steps to configure the sample to integrate your own softphone with Dynamics 365 for Customer Engagement apps using Channel Integration Framework (CIF).
 
 > [!NOTE]
 > The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information: [WebRTC](https://webrtc.org/).
+
+Follow the steps given below to get started with the sample that you just downloaded:
 
 1. After you have downloaded the sample, extract it so that you can go through the files in it.
 2. Open the extracted folder. Select and open **TwilioSampleInteg.sln** solution file in Visual Studio.
 3. Expand **wwwroot** > **js** folder in the Solution Explorer panel.
 4. Select and open **site.js** file.
 
+### Understanding the softphone integration sample
+
 Let us try to understand how the sample works and what we need to do to customize it.
 
-We first intialize the various phone states and how they appear in the side panel.
+The sample first intializes the various phone states and how they appear in the side panel.
 
 ```JavaScript
 // Lines 9-16 in the sample
@@ -48,7 +54,7 @@ var PhoneState = Object.freeze({
     CallSummary: { renderWidget: ".callSummary", renderSidePanel: ".idlePhoneSidebar" }
 });
 ```
-Similarly, we now initialize other variables that define how the UI looks like.
+Similarly, it initializes other variables that define how the UI looks like.
 
 ```JavaScript
 // Lines 29-34 in the sample
@@ -61,7 +67,7 @@ var expandedWidgetWidth = "271fr";
 var _CurrentPanelMode = null;
 ```
 
-Then, we shall see the code that manages a single phone call session. We define a class `Phone` that has methods such as:
+Then, take a look at the code that manages a single phone call session. The sample defines a class `Phone` that has the following methods:
 
 - **renderCallerName()**: Display the current caller's name and initials. If the name is not available, display the phone number.
 - **updateCRMPage()**: For an ongoing call, search and open contact record for the calling phone number.
@@ -69,10 +75,10 @@ Then, we shall see the code that manages a single phone call session. We define 
 - **endCall()**: End the current phone call.
 - **createCallActivity()**: Create a new activity record for this phone call using CIF APIs.
 
-Now, see the code in method `initAll()`. This code sets up event handlers, initializes CIF and your softphone application. You can edit this code if using any other channel provider, by using the APIs of that channel provider.
+Now, see the code in method `initAll()`. This code sets up event handlers, initializes CIF and Twilio. You can edit this code if using any other channel provider, by using the APIs of that channel provider.
 
 ```JavaScript
-/* Global initialization function. Set up the event handlers, initialize CIF and Twilio */
+/* Global initialization function. Set up the event handlers, initialize CIF and your softphone */
 function initAll() {
     $("img#expand").click(function () {
         expandPanel();
@@ -151,6 +157,8 @@ function initAll() {
 
 Use the corresponding APIs of your channel provider to configure a different softphone using Channel Integration Framework.
 
+### Methods used in the sample
+
 The methods used in the sample are described below:
 
 |Method name|Description|
@@ -174,7 +182,8 @@ The methods used in the sample are described below:
 |**openCase**|This is an event handler that opens the case record created for a phone call|
 |**updateActivity**|Updates the activity record with additional details. This sample shows how to update the description field with the notes taken during the call |
 
-## Complete sample softphone integration application
+## Sample communication widget for CIF
+
 Given below is a simple *Hello World!* application.
 
 ```JavaScript
@@ -829,7 +838,12 @@ $(function () {
 </body>
 </html>
 ```
-To try out this sample, follow the steps mentioned in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure) and then, configure the widget in your Dynamics 365 instance by following the steps mentioned in [Configure sample app in Dynamics 365](sample-softphone-integration.md#bkmk_Configure).
+## Publish and configure the widget 
+
+1. To publish the above sample widget, follow the steps mentioned in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). 
+2. Then, to configure the widget in your Dynamics 365 instance follow the steps mentioned in [Configure sample app in Dynamics 365](sample-softphone-integration.md#bkmk_Configure).
+
+Once this is done, launch the Unified Interface app to see the communication widget on the right side.
 
 ## See Also
 

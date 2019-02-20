@@ -84,7 +84,7 @@ manager: shujoshi
 > [!NOTE]
 > The capability token value provided using the `twa` parameter in the channel URL is specific to Twilio. If using any other softphone, you may not require to provide this parameter in the channel URL. 
 
-3. Launch the Unified Interface App to see the communication widget on the right side.<br><br>
+3. Launch the Unified Interface app to see the communication widget on the right side.<br><br>
 **The communication widget in the minimized mode**<br><br>
 ![communication widget in the minimized mode](media/widget-minimized-mode.PNG "communication widget in the minimized mode")
 <br><br>
