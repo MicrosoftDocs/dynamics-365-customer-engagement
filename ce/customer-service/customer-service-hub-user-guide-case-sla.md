@@ -39,10 +39,10 @@ Watch this video to learn more about case management in the Customer Service Hub
 2. In the Customer Service Hub sitemap, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
 
    - The **My Active Cases** view is displayed. You can switch between case views using the drop-down.
-   - Select **Show Chart** in the command bar to see the chart view.
-   - Select **Open Dashboards** in the command bar to directly open the entity dashboard. To switch back to views, select **Open Views**.
+   - Select **Show Chart** on the command bar to see the chart view.
+   - Select **Open Dashboards** on the command bar to directly open the entity dashboard. To switch back to views, select **Open Views**.
 
-   If you select a case record from the case view, you see these additional options in the command bar:
+   If you select a case record from the case view, you see these additional options on the command bar:
 
    - Select **Apply Routing Rule** to apply a routing rule on a selected case.
    - Select **Assign** to assign a case to another owner.
@@ -102,7 +102,7 @@ Watch this video to learn more about case management in the Customer Service Hub
     - On the command bar: 
        - Select **Save and Route** to  route the case by applying routing rules
        - Select **Create Child Case** to create a child case
-       - Select **...** in the command bar to explore more options for the case.
+       - Select **...** on the command bar to explore more options for the case.
 
     ![completed-case](media/completed-case.png "Completed case form")
 
@@ -143,7 +143,7 @@ Similarly, the status of the SLA KPI instance is updated when the first response
 
 > [!NOTE]
 > - The SLA timer continues to run once it is triggered or un-paused. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time.  
-> - The timer control auto-refreshes for **Pause** and **Resume** states to show the updated SLA. For all other states, you must refresh the page to view the refreshed SLA. Select **...** and select **Refresh** in the command bar to refresh the SLA timer control.
+> - The timer control auto-refreshes for **Pause** and **Resume** states to show the updated SLA. For all other states, you must refresh the page to view the refreshed SLA. Select **...** and select **Refresh** on the command bar to refresh the SLA timer control.
 
 You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Apply SLA on demand](define-service-level-agreements.md#apply-sla-on-demand)
 
