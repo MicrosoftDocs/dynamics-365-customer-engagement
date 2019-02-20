@@ -40,10 +40,10 @@ Based on configured data input, the Relevance search mechanism filters the cases
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)
 
 > [!IMPORTANT]
-> It is recommended to enable Relevance search for the most accurate suggestions for similar cases. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Relevance Search to improve search results and performance](../admin/configure-relevance-search-organization.md)
+> It is recommended to enable Relevance search for your org to see the most accurate suggestions for similar cases. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Relevance Search to improve search results and performance](../admin/configure-relevance-search-organization.md)
 
 
-1.  Make sure you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
+1.  Make sure you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
   
     #### Check your security role  
   
@@ -56,7 +56,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
    The **Advanced Similarity Rules** page is displayed.
 
-2. Select **New** from the command bar to create a new advanced similarity rule.  
+2. Select **New** on the command bar to create a new advanced similarity rule.  
 
 3. In the **Details** tab:
    - Fill in the fields in the new advanced similarity rule dialog box:
@@ -97,17 +97,17 @@ Based on configured data input, the Relevance search mechanism filters the cases
 Similarly, add more mappings to view a comprehensive search of related records.
 
 ### Enable a field for exact matching of similar cases  
- To enable a field for exact match, add the field in the Quick find view of the corresponding entity.  
+ To enable a field for exact match, add the field in the **Quick find view** of the Case entity.  
 
 1.  Go to **Settings** > **Customizations** > **Customize the System**.  
 
 2.  Expand **Entities**, expand the entity that you want to enable exact matching, Case entity in this scenario, and then select **Views**.  
 
-3.  Select **Quick Find Active Accounts**, select **More Actions**, and then select **Edit**.  
+3.  Select **Quick Find Cases**, select **More Actions**, and then select **Edit**.  
 
 4.  Under **Common Tasks**, select **Add Find Columns**, and then select the field that you want to enable for exact matching.  
 
-5.  Select **OK**, and then select **Save and Close** on the **Quick Find Active Accounts** page.  
+5.  Select **OK**, and then select **Save and Close** on the **Quick Find Cases** page.  
 
 As adding a field to a view is a form of customization, you must publish this customization to enable exact matching for the field. To do this, in the left navigation pane select the entity, Case entity in this scenario, and then select **Publish**. To publish all customizations, select **Publish All Customizations**.
   
