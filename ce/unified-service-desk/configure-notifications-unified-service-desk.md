@@ -48,13 +48,13 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
 
 | UII option              | Default keyboard shortcuts | Description |
 |-------------------------|----------------------------|-------------|
-| PopupNavigationShortcut | Alt+1                      | Sets focus on a notification  |
-| PopupNavigationShortcut | Alt+1                      | Press the keyboard shortcut Alt+1 repeatedly to cycle through all the active notifications on your screen when multiple notifications are displayed |
-| PopupEscapeShortcut     | Shift+Esc                  | Sets focus on the Unified Service Desk client application from the notification |
-| PopupMoveUpShortcut     | Shift+Up Arrow key         | Move up from one notification to another when notifications are displayed as stack |
-| PopupMoveDownShortcut   | Shift+Down Arrow key       | Move down from one notification to another when notifications are displayed as stack |
-| PopupMoveLeftShortcut   | Shift+Left Arrow Key       | Move left from one notification to another when multiple notifications are displayed |
-| PopupMoveRightShortcut  | Shift+Right Arrow Key      | Move right from one notification to another when multiple notifications are displayed |
+| PopupNavigationShortcut | Alt+1                      | Sets focus on a notification.  |
+| PopupNavigationShortcut | Alt+1                      | Press the keyboard shortcut repeatedly to cycle through all the active notifications on your screen when multiple notifications are displayed. |
+| PopupEscapeShortcut     | Shift+Esc                  | Sets focus on the Unified Service Desk client application from the notification. |
+| PopupMoveUpShortcut     | Shift+Up Arrow key         | Move up from one notification to another when notifications are displayed as stack. |
+| PopupMoveDownShortcut   | Shift+Down Arrow key       | Move down from one notification to another when notifications are displayed as stack. |
+| PopupMoveLeftShortcut   | Shift+Left Arrow Key       | Move left from one notification to another when multiple notifications are displayed. |
+| PopupMoveRightShortcut  | Shift+Right Arrow Key      | Move right from one notification to another when multiple notifications are displayed. |
 
 ::: moniker-end
   
