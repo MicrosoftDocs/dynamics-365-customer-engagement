@@ -2,7 +2,7 @@
 title: "Field Service Version History | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 2/14/2019
+ms.date: 02/20/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -34,8 +34,8 @@ search.app:
 |--------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Field Service                        | 8.4.0.338           | [https://trials.microsoft.com](https://trials.microsoft.com).   See additional notes at the end of this document.                  |
 | Field Service Mobile                 | 11.2+          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
-| Mobile Configuration Tool (Woodford) | 11.3+          | [https://aka.ms/fsmobile-configurator](https://aka.ms/fsmobile-configurator)                                                       |
-| Mobile Project Template              | 1.0.1322       | [https://aka.ms/fsmobile-project](https://aka.ms/fsmobile-project)                                                                 |
+| Mobile Configuration Tool (Woodford) | 11.3+          | [Direct download link](https://aka.ms/fsmobile-configurator)                                                       |
+| Mobile Project Template              | 1.0.1322       | [Direct download link](https://aka.ms/fsmobile-project)                                                                 |
 
 ## Field Service version history
 
@@ -54,13 +54,13 @@ search.app:
 
 ## Mobile project file library
 
-Mobile projects hold configurations and customizations of the Field Service Mobile app such as view and form layout, mobile workflows called form rules, and offline HTML/JavaScript. These mobile projects are imported in the Field Service Mobile Configuration Tool (Woodford). The Field Service engineering team periodically releases new mobile project templates to reflect new product updates and improve usability and performance. 
+Mobile projects hold configurations and customizations of the Field Service Mobile app such as view and form layout, mobile workflows called form rules, and offline HTML/JavaScript. These mobile projects are imported through the Field Service Mobile Configuration Tool (Woodford). The Field Service engineering team periodically releases new mobile project templates to reflect new product updates and improve usability and performance. 
 
-To utilize the mobile project, see the the topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
+To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
-| Mobile project template version  | Mobile project template name | Release date | Relates to Field Service Mobile |  Publish to Woodford Version | Notes | More details |
-|---|---|---|---|---|---|---|
-| [1.0.1322](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.1322.woodford |   | 11.2 | 11.2 | |
+| Template version  | Template name | Release date | Relates to Field Service Mobile version |  Publish to Woodford Version |
+|---|---|---|---|---|
+| [1.0.1322](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.1322.woodford |  |  11.2 | 11.2 |
 
 ## Additional notes
 
