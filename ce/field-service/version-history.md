@@ -34,8 +34,8 @@ search.app:
 |--------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Field Service                        | 8.4.0.338           | [https://trials.microsoft.com](https://trials.microsoft.com).   See additional notes at the end of this document.                  |
 | Field Service Mobile                 | 11.2+          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
-| Mobile Configuration Tool (Woodford) | 11.3+          | [Direct download link](https://aka.ms/fsmobile-configurator)                                                       |
-| Mobile Project Template              | 1.0.1322       | [Direct download link](https://aka.ms/fsmobile-project)                                                                 |
+| Mobile Configuration Tool (Woodford) | 11.3+          | [Direct download link (English only)](https://aka.ms/fsmobile-configurator)                                                       |
+| Mobile Project Template              | 1.0.1322       | [Direct download link (English only)](https://aka.ms/fsmobile-project)                                                                 |
 
 ## Field Service version history
 
