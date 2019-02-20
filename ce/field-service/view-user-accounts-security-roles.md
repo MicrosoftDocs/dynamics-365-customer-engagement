@@ -164,4 +164,23 @@ If there isn't already an address for the user, navigate to the Office 365 admin
 > [!Note]
 > If you are having trouble populating an address or geocoding an address, manually enter a latitude and longitude into the fields.
 
+## Connected Field Service
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](media/cfs-security-role-resource.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](media/cfs-security-role-dispatcher.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](media/cfs-security-role-dispatcher-bpf.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](media/cfs-security-role-administrator.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](media/cfs-security-role-administrator-bpf.png)
+
 
