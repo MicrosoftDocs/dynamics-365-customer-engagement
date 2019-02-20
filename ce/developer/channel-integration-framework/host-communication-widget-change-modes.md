@@ -852,6 +852,9 @@ $(function () {
 
 Once this is done, launch the Unified Interface app to see the communication widget on the right side.
 
+> [!div class="nextstepaction"]
+> [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
+
 ## See Also
 
 [Sample code for softphone integration using Channel Integration Framework (CIF)](sample-softphone-integration.md)<br />
