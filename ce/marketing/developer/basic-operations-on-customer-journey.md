@@ -64,7 +64,7 @@ Use the Postman tool to test the operations. More information [Use Postman With 
 
 1. **Create request**
 
-This request creates a customer journey record and set the `statuscode` to `Draft`. The Customer Journey includes a segment (ID: 24db2671-1529-e911-a9b7-000d3a1e6adc; Unique Name: TC407937_DynamicSegment_2KZQ1p) and an email (ID: 15bd0ab8-c12a-e911-a9b6-000d3a1e6c14). The effective Content Settings has record ID: 1922b1d8-0523-e911-a9ba-000d3a1e689f. The response header [OData-EntityId](http://docs.oasis-open.org/odata/odata/v4.0/os/part1-protocol/odata-v4.0-os-part1-protocol.html#_Toc372793637) contains the URL to this newly created record (entity instance), which parenthetically includes the unique ID for this record.
+This request creates a customer journey record and set the `statuscode` to `Draft`. This customer journey includes a segment with `ID:24db2671-1529-e911-a9b7-000d3a1e6adc` and `Unique Name: TC407937_DynamicSegment_2KZQ1p`. an email  with `ID: 15bd0ab8-c12a-e911-a9b6-000d3a1e6c14`. The effective Content Settings has record `ID: 1922b1d8-0523-e911-a9ba-000d3a1e689f`. The response header [OData-EntityId](http://docs.oasis-open.org/odata/odata/v4.0/os/part1-protocol/odata-v4.0-os-part1-protocol.html#_Toc372793637) contains the URL to this newly created record (entity instance), which parenthetically includes the unique ID for this record.
 
 ```HTTP
 POST: {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys
@@ -73,7 +73,7 @@ POST: {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys
     "msdyncrm_customerjourneydesignerstate": "{\"NextActivityID\":8,\"NextActivityItemID\":42}",
     "msdyncrm_workflowdefinition": "[{\"ActivityTypeId\":\"bpf_root\",\"ParentBranchId\":0,\"ParentRelationshipType\":\"Default\",\"ActivityId\":\"01\",\"Properties\":{\"Items\":[{\"ItemId\":null,\"ActivityTypeId\":\"bpf_root\",\"Title\":\"Undefined\",\"IsNameSystemDefined\":true,\"Name\":\"New ActivityTypeName_bpf_root_TitleText\",\"ActivityItemId\":0}]}},{\"ActivityTypeId\":\"Segment\",\"ParentActivityId\":\"01\",\"ParentBranchId\":0,\"ParentRelationshipType\":\"Default\",\"ActivityId\":\"01_0\",\"Properties\":{\"Items\":[{\"ItemId\":null,\"ActivityTypeId\":\"Segment\",\"Title\":\"Undefined\",\"IsNameSystemDefined\":true,\"Name\":\"New Segment group\",\"ActivityItemId\":23,\"SegmentMergeMethod\":\"Union\"},{\"ItemId\":\"24db2671-1529-e911-a9b7-000d3a1e6adc\",\"ActivityTypeId\":\"SegmentItem\",\"Title\":\"Undefined\",\"IsNameSystemDefined\":true,\"Name\":\"TC407937_DynamicSegment_2KZQ1p\",\"ActivityItemId\":24,\"ContainmentMethod\":\"Inclusion\",\"SegmentSourceType\":\"Segment\",\"DciSegmentName\":\"TC407937_DynamicSegment_2KZQ1p\",\"SegmentDisplayName\":\"TC407937_DynamicSegment_2KZQ1p\",\"Description\":\"\"}]},\"EntityTarget\":\"contact\"},{\"ActivityTypeId\":\"Email\",\"ParentActivityId\":\"01_0\",\"ParentBranchId\":0,\"ParentRelationshipType\":\"Default\",\"ActivityId\":\"01_0_2\",\"Properties\":{\"Items\":[{\"ItemId\":\"15bd0ab8-c12a-e911-a9b6-000d3a1e6c14\",\"ActivityTypeId\":\"Email\",\"Title\":\"Undefined\",\"IsNameSystemDefined\":true,\"Name\":\"Relationship test\",\"ActivityItemId\":32}]},\"EntityTarget\":\"contact\"}]",
     "msdyncrm_customerjourneytimezone": 92,
-    "msdyncrm_contentsettingsId@odata.bind": "/msdyncrm_contentsettingss(1922b1d8-0523-e911-a9ba-000d3a1e689f)",
+    "msdyncrm_contentsettingsId@odata.bind": "/msdyncrm_contentsettings(1922b1d8-0523-e911-a9ba-000d3a1e689f)",
     "msdyncrm_enddatetime": "2019-03-09T11:29:00.000Z",
     "msdyncrm_startdatetime": "2019-02-09T11:29:00.000Z",
     "msdyncrm_name": "Simple Email Sample",
@@ -96,7 +96,7 @@ GET {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys?$filter=statuscode eq 192
 
 3. **Update request**
 
-In update request, you will set the `statuscode` to `Going Live` which effectively publishes it.
+In update request, you will update the `statuscode` to `Going Live` which effectively publishes it.
 
 ```HTTP
 PATCH api/data/v9.0/msdyncrm_customerjourneys(8aee9d91-8c2b-e911-a9b7-000d3a1e6adc)
@@ -117,7 +117,7 @@ DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys(b6faa2b7-b92b-e911-818
 
 **Request**
 
-The request body is a JSON object which contains a number of data elements with values corresponding to the `msdyncrm_customerjourney entity` properties. The reference fields (for example,Content Settings ID) doesn't use the `@odata.bind` with recordset reference, but uses the ID of referenced record. The table below explains the mapping.
+The request body is a `JSON` object which contains a number of data elements with values corresponding to the `msdyncrm_customerjourney entity` properties. The reference fields (for example, Content Settings ID) doesn't use the `@odata.bind` with recordset reference, but uses the ID of referenced record. The table below explains the mapping.
 
 |Key|Corresponding property msdyncrm_customerjournet entity (logical name)|
 |--------|--------------|

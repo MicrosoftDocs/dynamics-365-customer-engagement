@@ -162,7 +162,7 @@
 #### [Self-hosted](developer/self-hosted.md)
 #### [Dynamics 365 Portal hosted](developer/portal-hosted.md)
 #### [Localization](developer/event-portal-localization.md)
-### [Work wwith Segments using code](basic-operations-on-segments.md)
+### [Work with Segments using code](basic-operations-on-segments.md)
 ### [Work with Customer Journeys using code](basic-operations-on-customer-journey.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
