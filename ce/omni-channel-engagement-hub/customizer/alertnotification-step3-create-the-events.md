@@ -1,54 +1,71 @@
 ---
-title: "Create the events"
-description: 
+title: "Create events | MicrosoftDocs"
+description: "Learn how to create events that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 09f35941-3c5b-4076-99a2-66032b0c6d4f
 ms.custom: 
 ---
-# Step 3: Create the events
+# Step 3: Create events
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Create the following events:
 
--   CreateCustomerSession
+ - CreateCustomerSession
 
--   IncomingRequestRejected
+ - IncomingRequestRejected
 
--   TimedOut
+ - TimedOut
 
--   Omni-channel Context Fetch
+ - Omni-channel Context Fetch
 
-1.  Sign in to Dynamics 365.
+Follow these steps to create the events.
 
-2.  Go to **Settings** &gt; **Unified Service Desk**.
+1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
 
-3.  Select **Events** and select **+ New**.
+2. Go to **Settings** > **Unified Service Desk**.
 
-4.  In the new event page, specify the following details.
+3. Select **Events** and select **+ New**.
 
-| **Field**          | **Value**                       |
-|--------------------|---------------------------------|
-| Name               | CreateCustomerSession           |
-| Hosted Application | Omni-channel Popup Notification |
+4. In the new event page, specify the following details.
 
-![create customer session event](../media/oc-usd-crm-create-customer-session-event.png "Create customer session action call")
+ | **Field**          | **Value**                       |
+ |--------------------|---------------------------------|
+ | Name               | CreateCustomerSession           |
+ | Hosted Application | Omni-channel Popup Notification |
 
-1.  Save the event.
+ > [!div class=mx-imgBorder]
+ > ![create customer session event](../media/oc-usd-crm-create-customer-session-event.png "Create customer session action call")
 
-    Repeat the steps from 3 - 5 to create **IncomingRequestRejected**, **TimedOut**, and **Omni-channel Context Fetch** events.
+5. Save the event.
 
-    For the Omni-channel Context Fetch event, specify the following details.
+ Repeat the steps from 3 - 5 through create **IncomingRequestRejected**, **TimedOut**, and **Omni-channel Context Fetch** events.
 
-| **Field**          | **Value**                  |
-|--------------------|----------------------------|
-| Name               | Omni-channel Context Fetch |
-| Hosted Application | OmniChannelHostedControl   |
+ For the **Omni-channel Context Fetch** event, specify the following details.
 
-![omni-channel context fetch event](../media/oc-usd-crm-context-fetch-event.png "Omni-channel context fetch action call")  
+ | **Field**          | **Value**                  |
+ |--------------------|----------------------------|
+ | Name               | Omni-channel Context Fetch |
+ | Hosted Application | OmniChannelHostedControl   |
 
+ > [!div class=mx-imgBorder]
+ > ![omni-channel context fetch event](../media/oc-usd-crm-context-fetch-event.png "Omni-channel context fetch action call")  
+
+> [!div class="nextstepaction"]
+> [Next topic: Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md)
+
+## See also
+
+- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+- [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
+- [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
+- [Step 5: Add the action calls to the events](alertnotification-step5-add-action-calls-events.md)
+- [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+- [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

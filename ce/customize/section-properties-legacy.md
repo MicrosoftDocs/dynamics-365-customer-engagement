@@ -1,5 +1,5 @@
 ---
-title: Section properties for Main forms in PowerApps | MicrosoftDocs
+title: Section properties for Main forms | MicrosoftDocs
 description: Understand the section properties for a main form
 Keywords: Main form; Section properties; Dynamics 365 for Customer Engagement
 author: Mattp123
@@ -9,7 +9,7 @@ applies_to:
   - powerapps
 ms.author: matp
 manager: kvivek
-ms.date: 04/17/2018
+ms.date: 01/08/2019
 ms.service: crm-online
 ms.topic: article
 ms.assetid: 2d3af6e9-e8a4-4129-b708-383b2740c015
@@ -20,7 +20,7 @@ search.app:
 ---
 # Section properties
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  A section in a form occupies the space available in a tab column. Sections have a label that can be displayed and a line may be shown below the label.  
   
@@ -28,7 +28,7 @@ search.app:
   
  Headers and footers are similar to sections but cannot be removed. If they don’t contain anything they will not be shown. 
 
-You can access **Section properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click inside one of the sections to see Section properties. 
+You can access **Section properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click inside one of the sections to see the **Section Properties** page. 
 
 ![section-properties](media/section-properties.png)
   
@@ -47,12 +47,12 @@ You can access **Section properties** in solution explorer. Under **Components**
 |                                                                                  |           **Field Label Alignment**            |                                                                                                                      Labels for fields within the section can be aligned left, right, or center.                                                                                                                       |
 |                                                                                  |            **Field Label Position**            |                                                                                                               Labels for fields within the section can be positions on the side or on top of the fields.                                                                                                               |
 
-A new type of section called **Reference panel** can also be added. A Reference panel is a single column section. You can insert sub grids, Quick view control, or a Knowledge Base Search control inside a Reference panel section. Each control that you added in the Reference panel appears as a vertical tab within the panel at the runtime. You can drag and drop the various controls within the Reference panel section. The default tab at the runtime is the first control added in the reference panel. The other tabs appear in the order in which they are added in the form editor. To delete a tab, use the Delete key on your keyboard.  
+A new type of section called **Reference Panel** can also be added. A reference panel is a single column section. You can insert sub-grids, quick view control, or a knowledge base search control inside a reference panel section. Each control that you added in the reference panel appears as a vertical tab within the panel at runtime. You can drag and drop the various controls within the reference panel section. The default tab at the runtime is the first control added in the reference panel. The other tabs appear in the order in which they are added in the form editor. To delete a tab, use the delete key on your keyboard.  
   
 When you insert a reference panel, by default it’s added as a last section in the tab. You can add only one reference panel per form.  
   
 > [!IMPORTANT]
->  By default, the Reference panel section is locked in the out-of-the-box forms: Cases, Accounts, and Contacts. To remove it or change it, you must unlock it. 
+>  By default, the reference panel section is locked in the out-of-the-box forms: Cases, Accounts, and Contacts. To remove it or change it, you must unlock it. 
 
 ## See also
 

@@ -63,7 +63,7 @@ To access the Customer Service Hub app on a mobile device:
 
 - Install the Dynamics 365 for Customer Engagement mobile app. 
   
-  To install the Dynamics 365 for Customer Engagement mobile app, see [Install Dynamics 365 for Customer Engagement for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
+  To install the Dynamics 365 for Customer Engagement mobile app, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
 - From the MyApps page, select **Customer Service Hub**.
 
    ![choose-on-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
@@ -312,7 +312,7 @@ In the Customer Service Hub sitemap, select **Service** > **Activities**. The **
 
 ## Work with Queues
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 for Customer Engagement for Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 for Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 **Open Queues view**
 

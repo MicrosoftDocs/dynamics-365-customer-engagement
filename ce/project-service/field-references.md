@@ -2,7 +2,7 @@
 title: Add custom fields to price setup and transactional entities 
 description: This topic provides information about adding custom fields to price setup and transactional entities. 
 author: Rumant
-manager: eichimur
+manager: kfend
 ms.custom:
   - dyn365-projectservice
 ms.date: 11/26/2018

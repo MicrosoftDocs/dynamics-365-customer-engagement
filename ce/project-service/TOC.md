@@ -14,6 +14,14 @@
 ## [Upgrade considerations - Project Service Automation version 2.x or 1.x to version 3](upgrade-v3.md)
 
 # Project Service (app version 3.x)
+## [Project planning](project-planning.md)
+### [Project schedules](project-creating.md)
+### [Project costs and revenue](project-estimating.md)
+### [Sales estimates and projects](project-leveraging.md)
+### [Project progress and cost consumption](project-tracking.md)
+### [Project templates](project-templates.md)
+### [Project stages](project-stages.md)
+### [Project settings](project-settings.md)
 ## [Pricing and costing dimensions](pricing-costing-dimensions.md)
 ### [Create custom fields and entities](create-custom-fields-entities.md)
 ### [Add custom fields to price setup and transactional entities ](field-references.md)
@@ -23,6 +31,12 @@
 #### [Use bookable resource as a pricing dimension](bookable-resource-pricing-dimension.md)
 #### [Use transaction category as a pricing dimension](transaction-category-pricing-dimension.md)
 ### [Turn off a pricing dimension](turn-off-pricing-dimension.md)
+## [Resourcing projects](resource-management.md)
+### [Assign generic bookable resources to a task and generate resource requirements](assign-generic-bookable-resource.md) 
+### [Book named bookable resources to a project team and assign task](assign-named-bookable-resource.md)
+### [Book named resources from resource requirements](book-named-resource.md)
+### [Submit a resource request](submit-resource-request.md)
+### [Accept or reject a proposed resource](accept-reject-proposed-resource.md)
 
 
 # How-to guides (app version 3.x)

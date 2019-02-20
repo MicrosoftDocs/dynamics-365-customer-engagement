@@ -41,7 +41,7 @@ Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../include
    - Case for interactive experience main form – In the **Related** section 
   
   > [!NOTE]
-  >  The Knowledge Base Search control can be used on Microsoft Dynamics 365 for Customer Engagement for tablets and phones. However, some actions like Pop Out, Email Link, and Email Content aren't supported.  
+  >  The Knowledge Base Search control can be used on Microsoft Dynamics 365 for tablets and phones. However, some actions like Pop Out, Email Link, and Email Content aren't supported.  
 
 Microsoft Dynamics 365 for Customer Engagement supports the native Dynamics 365 for Customer Engagement knowledge management. This option is available for Dynamics 365 for Customer Engagement online users.
   

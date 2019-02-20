@@ -23,7 +23,7 @@ search.app:
 ---
 # Create and design forms 
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 With Dynamics 365 for Customer Engagement apps, forms provide the user interface that people use to interact with the data they need to do their work. It's important that the forms people use are designed to allow them to find or enter the information they need efficiently. 
 
@@ -38,7 +38,7 @@ There are several types of forms:
 
 |    Form type     |                                                                                                                                                                                                                              Description                                                                                                                                                                                                                              |                                     More information                                     |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-|     **Main**     |                                      Used in [!INCLUDE Dynamics 365 for Customer Engagement apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> These forms provide the main user interface for interacting with entity data.                                      | [Design considerations for main forms](../customize/design-considerations-main-forms.md) |
+|     **Main**     |                                      Used in these Dynamics 365 for Customer Engagement apps: the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> These forms provide the main user interface for interacting with entity data.                                      | [Design considerations for main forms](../customize/design-considerations-main-forms.md) |
 |    **Mobile**    |                                                                                                                                                          Used for the [!INCLUDE[pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] pages. This simplified form is designed to be used for mobile devices.                                                                                                                                                          |           [Customize the mobile app](../customize/customize-phones-tablets.md)           |
 | **Quick Create** |                               Used in Dynamics 365 for Customer Engagement apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> For updated entities, these forms provide a basic form optimized for creating new records.                                |    [Create and edit quick create forms](../customize/create-edit-quick-view-forms.md)    |
 |  **Quick View**  | Used in Dynamics 365 for Customer Engagement apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> For updated entities, these forms appear within the main form to display additional data for a record that is referenced by a lookup field in the form. |     [Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)     |
@@ -59,6 +59,7 @@ There are still a number of entities, referred to here as classic entities, that
 |Price List|Queue Item|Quote Product|Rollup Field|Rollup Query|  
 |Saved View|Service|Service Activity|SharePoint Site|Site|  
 |Territory|Unit|Unit Group|||  
+
 
 ### See also  
 

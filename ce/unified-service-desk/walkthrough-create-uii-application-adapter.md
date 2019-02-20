@@ -3,7 +3,7 @@ title: "Walkthrough: Create a UII Application Adapter in Unified Service Desk fo
 description: "Demonstrates how to host and interact with an external application in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 01/25/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -50,7 +50,7 @@ You can create an application adapter if you want to integrate an external appli
 <a name="Prereq"></a>   
 ## Prerequisites  
   
-- [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.5.2  
+- [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.6.2  
   
 - [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application; required for testing the hosted control.  
   

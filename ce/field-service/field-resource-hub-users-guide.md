@@ -1,5 +1,5 @@
 ---
-title: "Field Resource Hub User Guide (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Field Resource Hub User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -119,4 +119,4 @@ Resource bookings provides an overview of resource schedule and bookings for a d
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
 
 ### See Also  
- [Dynamics 365 for Customer Engagement for Field Servic user's guide](../field-service/user-guide.md)
+ [Dynamics 365 for Field Service user's guide](../field-service/user-guide.md)

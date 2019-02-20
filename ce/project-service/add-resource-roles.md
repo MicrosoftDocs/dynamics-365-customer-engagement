@@ -1,8 +1,8 @@
 ---
 title: Add resource roles (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How to assign a role to Project Service resources
-author: krbjoran
-manager: ShellyHa
+author: rumant
+manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
@@ -10,7 +10,7 @@ ms.date: 7/31/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
-ms.author: krbjoran
+ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin

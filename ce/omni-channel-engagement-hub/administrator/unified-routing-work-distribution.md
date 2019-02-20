@@ -1,56 +1,110 @@
 ---
-title: "Understand routing and work distribution"
-description: 
-keywords: ""
+title: Understand unified routing and work distribution | MicrosoftDocs
+description: Understand about unified routing and work distribution in Omni-channel Engagement Hub
+keywords: Omni-channel Engagement Hub; Unified routing and work distribution
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: dcb07f11-106d-4368-87e9-015da0999f06
 ms.custom: 
 ---
 
-# Understand unified routing and work distribution 
+# Understand unified routing and work distribution
 
-Unified Routing and Work Distribution in the Omni-channel Engagement Hub ensures effective allocation of work. This benefit both agents and supervisors as agents can prioritize their most urgent tasks and supervisors can help load balance using real-time monitoring.
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-For example, efficient routing of workload across channels can ensure that:
-- Work is directed and allocated to the right set of agents
-- Agent attention is always utilized for the most urgent tasks
-- The time spent by agents on conversations is properly tracked and the agent workforce is utilized in the most efficient manner
-- Unify the conversations and requests across real-time channels and asynchronous conversations like SMS, Asynchronous messages, Cases, Leads, Scheduled Tasks, and more
+Unified routing and work distribution ensures that conversations from all the channels are routed to agents efficiently. This is a two-step process:
 
-Unified Routing and Work Distribution identify availability of agents and allocates work to them based on the following criteria:
+1. Routing dispatches conversations into the right Omni-channel queues.
+2. Work distribution allocates the conversations in a queue to agents in real time, based on capacity and presence.
 
-- Association of agents with queues and channels
-- Real-time capacity and presence of the agent
-- Maximum concurrency on a channel
+For example, a customer initiates a chat regarding a query about **Billing**. In this case, unified routing and work distribution helps route the chat to the **Billing** queue and assign the chat to an agent who is a member of the queue and has the required presence and required capacity. This is shown in the following illustration.
 
-For example, with the help of routing and work distribution, you can route a chat from a customer about a specific query like international life insurance to an agent who is equipped to support it, as shown in the below infographic:
+> [!div class=mx-imgBorder]
+> ![Routing and work distribution scenario](../../omni-channel-engagement-hub/media/oc-scenario.png)
 
-![Routing flowchart](../../customer-service/media/example-routing-work.png)
+Here are some of the benefits of unified routing and work distribution:
 
-Routing and work distribution is a 2-step process. Routing ensures that a conversation is in the right omni-channel queue with the help of routing rules. Once a conversation is in its designated omni-channel queue, work distribution comes in and it allocates conversations to the available agents in real-time, based on configured rules.
+- Conversations are evenly allocated to the agents.
+- Conversations are allocated to agents based on priorities.
+- Agents’ productivity is tracked by tracking time spent on various conversations.
 
-To effectively route and distribute the work among agents, you can set up the following in the Omni-channel Engagement Hub as an administrator:
+## Scenario walk-through of unified routing and work distribution 
 
-- Work streams
-- Omni-channel queues
-- Routing rules
-- Users and user profiles
-- Presence and Custom Presence
+Refer the following scenario to understand how unified routing and work distribution works and how conversations are assigned to agents.
 
-Refer to the following sections to understand routing and work distribution in detail:
+## Step 1: Configure the basics
 
-- [Create and manage work streams](work-streams.md)
-- [Configure Presence and Custom Presence](presence-custom-presence.md)
-- [Create and manage users and user profiles](users-user-profiles.md)
-- [Create and manage routing rules in Omni-channel](routing-rules.md)
-- [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md)
-- [Understand conversation state lifecycle](conversation-state-lifecycle.md)
-- [Understand how routing & work distribution works](routing-work-distribution-scenario.md)
+Configure the following entities in the Omni-channel Engagement Hub. Once configured, the app is ready to route and distribute conversations to agents.
+
+|Entity   |Value   |
+|---------|---------|
+|Omni-channel users </br> *Name - Presence : Capacity*     |  Gilda – Busy : 70 units </br> Bert – Available : 80 units </br> Samuel – Available : 20 units</br> Jill – DND : 30 units</br> Shana – Busy : 20 units </br> John – DND : 80 units |
+|Work stream      |  Product & Billing live chat        |
+|Capacity     |   50 units        |
+|Work distribution mode     | Push       |
+|Omni-channel routing rules      |  If *category* = **Billing**, assign to **Billing** queue </br>  If *category* = **Product**, assign to **Product** queue |
+|  Omni-channel queues & members     |   Billing Queue = Gilda, Bert, Samuel </br> Product Queue = Jill, Shana, John |
+|    |         |
+
+## Step 2: Process the chat conversation
+A chat conversation originates from the customer.
+
+- For every incoming conversation, the associated work stream is identified, and the routing and work distribution properties are applied 
+- In this case, properties of the work stream **Product & Billing live chat** are imparted to the incoming chat. So, the conversation  carries a capacity of **50 units**. </br> This implies that this chat, when assigned to an agent, will block 50 units of agent’s capacity.
+
+## Step 3: Apply routing and work distribution rules
+
+At this point, routing and work distribution mechanism comes in.
+
+ - With the help of context variables (*category* in the above table), **routing rules** determine that the chat belongs to the **Billing** queue. </br> </br> The chat is routed it to the **Billing** queue. 
+
+- As the chat reaches the Billing queue, the conversation is allocated to one of the agents of the Billing queue, who satisfy the following criteria:
+
+    - Has the required capacity of **50 units**
+    - Presence should be **Available**
+
+In this case, **Bert** has the required capacity and presence, so the chat is assigned to **Bert**. As Bert starts working on the chat conversation,  his presence changes to **Busy** and his capacity is updated to **30 units**.
+
+### Adjusting an agent's capacity based on conversation allocation
+
+An agent's capacity is adjusted when a conversation is allocated. Here are the actions that occur:
+
+- The conversation is added to the agent's **My Items** list.
+- The agent's presence status changes to **Busy** or **Busy DND**.
+- The agent's utilized capacity increases.
+- The agent's available capacity decreases.
+
+### Adjusting an agent's capacity based on closure of allocated conversation
+
+When an agent has finished working on a conversation, the capacity should be added back to the agent's availability. Here are the actions that occur:
+
+- The conversation is removed from the agent's **My Items** list.
+- The agent's presence status changes to **Available**.
+- The agent's utilized capacity decreases.
+- The agent's available capacity increases to the extent of free capacity.
+
+If conversations are waiting to be assigned, they are allocated as soon as the agent becomes available.
+
+To effectively route and distribute work to agents, admins can set up the following items in Omni-channel Engagement Hub:
+
+- [Enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
+- [Manage users](users-user-profiles.md)
+- [Understand work streams in the Omni-channel Engagement Hub](work-streams-introduction.md)
+- [Create and manage work streams](create-work-streams.md)
+- [Work with queues](queues-omni-channel.md)
+- [Set up record identification rule](record-identification-rule.md)
+- [Create and manage routing rules](routing-rules.md)
+- [Configure and manage presence status](presence-custom-presence.md)
+
+###  See also
+
+[Understand work streams in the Omni-channel Engagement Hub](work-streams-introduction.md)
+
+
 
 

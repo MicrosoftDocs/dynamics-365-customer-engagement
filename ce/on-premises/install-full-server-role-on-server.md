@@ -13,12 +13,13 @@ ms.assetid: a9325e0d-b020-4f0f-a339-9eaf2d6387d2
 caps.latest.revision: 38
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
 # Install Dynamics 365 for Customer Engagement Full Server role on a server without Dynamics 365 for Customer Engagement installed
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-## Install the Dynamics 365 for Customer Engagement Server software  
+## Install the Dynamics 365 Server software  
   
 1.  Meet all requirements specified in [Microsoft Dynamics 365 for Customer Engagement System Requirements and Required Components](system-requirements-required-technologies.md).  
   
@@ -28,7 +29,7 @@ ms.author: matp
   
 4.  In the folder where the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] files are located, move to the Server\amd64 folder, and then double-click **SetupServer.exe**.  
   
-5.  On the **Welcome to Microsoft Dynamics 365 for Customer Engagement Server Setup** page, we recommend that you select **Get updates for Microsoft Dynamics 365 for Customer Engagement**, to make sure that Setup has the most recent installation files. Select **Next**.  
+5.  On the **Welcome to Microsoft Dynamics 365 Server Setup** page, we recommend that you select **Get updates for Microsoft Dynamics 365 for Customer Engagement**, to make sure that Setup has the most recent installation files. Select **Next**.  
   
 6.  On the **Product Key Information** page, type your product key in the **Product key** boxes, and then select **Next**.  
   
@@ -134,7 +135,7 @@ ms.author: matp
   
 23. Review the **Ready to Install Microsoft Dynamics 365 for Customer Engagement** page, and then select **Back** to correct any warnings. When you are ready to continue, select **Install**.  
   
-     When Setup completes successfully, the **Microsoft Dynamics 365 for Customer Engagement Server setup completed** page appears. If the Reporting Server instance that you specified during this Setup points to the local computer where [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] is installed, Setup provides an option to invoke [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] Setup.  
+     When Setup completes successfully, the **Microsoft Dynamics 365 Server setup completed** page appears. If the Reporting Server instance that you specified during this Setup points to the local computer where [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] is installed, Setup provides an option to invoke [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] Setup.  
   
 24. To install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] on the computer now, select the **Launch Microsoft Dynamics 365 for Customer Engagement Reporting Extensions Setup** check box. Select **Finish**.  
   
@@ -144,6 +145,6 @@ ms.author: matp
     > -   For an [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] deployment, after [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] completes, you must configure claims-based authentication and the relying parties on the STS server. Then, run the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] to complete the configuration. <!-- For more information about this configuration see [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](configure-ifd-for-dynamics-365.md). --> 
   
 ## See also  
- [Microsoft Dynamics 365 for Customer Engagement Server installation](microsoft-dynamics-365-server-installation.md)   
+ [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md)   
  [Install Microsoft Dynamics 365 for Customer Engagement Reporting Extensions](install-microsoft-dynamics-365-reporting-extensions.md)
 

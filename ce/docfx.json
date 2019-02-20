@@ -74,7 +74,8 @@
       ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
-      "feedback_product_url": "https://experience.dynamics.com/ideas/"
+      "feedback_product_url": "https://experience.dynamics.com/ideas/",
+      "search.appverid": "met150"
     },
     "fileMetadata": {
       "breadcrumb_path": {
@@ -102,7 +103,8 @@
         "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml",
         "versium-predict/**.*": "bc/toc.yml",
         "voice-of-customer/**.*": "bc/toc.yml",
-        "channel-integration-framework/**.*": "bc/toc.yml"
+        "channel-integration-framework/**.*": "bc/toc.yml",
+        "omni-channel-engagement-hub/**.*": "bc/toc.yml"
       },
       "searchScope": {
         "**.*": [
@@ -203,13 +205,18 @@
         "channel-integration-framework/**.*": [
           "Dynamics 365",
           "Customer Engagement"
-        ]
+        ],
+        "omni-channel-engagement-hub/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ]        
       }
     },
     "template": [],
     "dest": "customer-engagement",
     "groups": {            
       "usd-all": {
+        "dest": "usd-all",
         "moniker_range": ">= dynamics-usd-3"
       }
     },

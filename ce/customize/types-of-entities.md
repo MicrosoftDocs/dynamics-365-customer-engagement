@@ -1,8 +1,8 @@
 ---
-title: "Types of entities in PowerApps | MicrosoftDocs"
+title: "Types of entities | MicrosoftDocs"
 description: "Understand the different types of entities"
 ms.custom: 
-ms.date: 04/25/2018
+ms.date: 01/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,11 +24,11 @@ search.app:
 ---
 # Types of entities
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_TypesOfEntities"></a>   
 
- Before creating or editing entities in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], you should understand that there are different types of entities. Once a custom entity is created, these types cannot be changed. The two major divisions are based on entity ownership and whether the entities are activity entities.  
+ Before creating or editing entities, you should understand that there are different types of entities. Once a custom entity is created, these types cannot be changed. The two major divisions are based on entity ownership and whether the entities are activity entities.  
   
 <a name="BKMK_EntityOwnership"></a>   
 ## Entity ownership  

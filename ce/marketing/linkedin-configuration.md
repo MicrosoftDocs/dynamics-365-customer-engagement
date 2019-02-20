@@ -29,26 +29,24 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Administrators can use the settings pages under the **Settings** > **Advanced settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** heading to configure the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] feature. A few [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] security roles are also provided to let administrators control access to these features.
+Use the settings pages under the **Settings** > **Advanced settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** heading to configure the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] feature. A few [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] security roles are also provided to let administrators control access to these features.
 
 [!INCLUDE [cc-linkedin-disclaimer](../includes/cc-linkedin-disclaimer.md)]
 
 ## Enable users to work with the connector and assign security roles to users
 
-LinkedIn Lead Gen provides dedicated security roles, which you assign to users so they can work with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] ads that generate leads in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]:
+The LinkedIn Lead Gen connector provides dedicated security roles, which you assign to users so they can work with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] ads that generate leads in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]:
 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Administrator.** Users with this role can configure lead matching strategies, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] field mapping, and solution settings for [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)].
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Salesperson.** These users can authorize [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to sync data to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and view details about the synced submissions.
 
 A third role, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen S2S Inbound, is an internal security role used to sync data.
 
-Assign these security roles to users who you want to provide access to the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** menu item. To learn how to assign a security role to users, see [Create users and assign Dynamics 365 for Customer Engagement (online) security roles](https://technet.microsoft.com/library/jj191623.aspx#BKMK_AssignSecurity).
+Assign these security roles to users who you want to provide access to the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** menu item. To learn how to assign a security role to users, see [Create users in Dynamics 365 for Customer Engagement apps (online) and assign security roles](../admin/create-users-assign-online-security-roles.md).
 
 ## Configure a matching strategy to update leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen ads
 
-When a new lead is synced from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] can either update an existing lead record if the person is already known, or create a new lead if it's the first contact with this person. New [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] leads appear as **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Form Submissions** in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. The information in [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] form submissions consists of the answers given by [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members when they submitted the forms.
-
-To match existing leads in [!INCLUDE[pn-crm-online-shortest](../includes/pn-crm-online-shortest.md)] with new [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] form submission answers, users who have at least the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator** security role can define a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] lead matching strategy in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. A matching strategy maps the fields of a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] form submission to the record fields for a lead in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. By default, a matching strategy based on a lead's email address is activated.
+A matching strategy maps the fields of a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] form submission to the fields for a lead record in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. By default, the system matches by email address alone.
 
 A matching strategy applies to all [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] leads in the same [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization. If a matching strategy contains more than one field mapping, all mappings must match before an existing lead record is updated. We recommend maintaining simple matching strategies (for example, strategies based only on phone number or email address). If only a subset of the fields match, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] creates a new lead from the form submission by default.
 
@@ -93,7 +91,7 @@ A matching strategy applies to all [!INCLUDE[pn-linkedin](../includes/pn-linkedi
 
 ## Configure [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Field Mapping
 
-The [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen integration provides a set of field mappings out of the box. Field mappings define the name and the related field on the lead entity it maps to. As a system administrator or customizer, you can change the field mapping or create new mappings to support fields from custom questions on LinkedIn Lead Gen forms.
+Field mappings define a name and the related field on the lead entity it maps to.
 
 ### Create a new field mapping
 

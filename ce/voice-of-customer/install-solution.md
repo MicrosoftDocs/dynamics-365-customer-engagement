@@ -2,7 +2,7 @@
 title: "Install the Voice of the Customer solution | MicrosoftDocs"
 description: "Instructions to install the Voice of the Customer solution."
 keywords: install voice of the customer
-ms.date: 11/30/2018
+ms.date: 01/23/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -18,14 +18,14 @@ ms.custom:
   - dyn365-VoC
 ---
 
-# Install the Voice of the Customer solution
+# Install or upgrade the Voice of the Customer solution
 
 This section provides you the steps to install the Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] solutions. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
 
 > [!NOTE] 
 > Surveys aren't supported on legacy forms.
 
-## Install the Voice of the Customer solution, version 9.0 and later
+## Install or upgrade the Voice of the Customer solution, version 9.0 and later
 
  The Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] solution can be installed from [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)]. It is compatible with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] version 8.2 and later.
 

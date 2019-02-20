@@ -1,13 +1,13 @@
 ---
-title: "Work with queues in Omni-channel Engagement Hub"
-description: 
-keywords: ""
+title: Work with queues in Omni-channel Engagement Hub | MicrosoftDocs
+description: See how you can create and manage queues in Omni-channel Engagement Hub
+keywords: Queues; Omni-channel Engagement Hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 11/13/2018
-ms.service: 
+ms.date: 1/29/2019
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 8c1b6127-a00c-4783-8740-52bd63e52eb1
 ms.custom: 
@@ -15,59 +15,53 @@ ms.custom:
 
 # Work with queues in Omni-channel Engagement Hub
 
-Omni-channel queues are used to collect conversations or customer queries and distribute them to different groups of agents or teams. You can achieve optimum distribution in the many ways, like:
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-- Creating multiple queues for same issue type. For example, for investment issue, you can create queues for experienced agents and new agents, so that specific customer queries are directed to experienced agents and generic or simpler queries are directed to new agents.
+Omni-channel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS or entity records like Cases or Leads. Agents are added as queue members to the queues and the workload is distributed among these agents.
 
-- Queues created for different issue types. For example, you can create separate queues for different issue types like billing, investments etc.
+Omni-channel queues are proxies for skills or domains. For example, you can create separate queues for billing issues, investment issues, and so on. When a customer query comes for these issue types, it is routed to its designated queue.
+    
+> [!div class=mx-imgBorder]
+> ![Omni-channel queues](../media/oc-queues.png)
 
-    ![omni-channel queues](../media/oc-queues.png) 
+You can assign priority to queues. All conversations in a queue take the priority of the queue and higher priority conversations are allocated first. For example, if there are two chat conversations coming from two queues with priorities assigned as Priority 1 and Priority 2 respectively, chat conversation with Priority 1 will be allocated to an agent first.
 
-Given below are some key characteristics of omni-channel queues:
+## Default queue
+There is a default Omni-channel queue for each organization. Admins can't delete the default queue. By default, all Omni-channel users are members of the default queue. Therefore, the membership of this queue can't be changed.
 
--   You can assign priority to queues. In that case, all conversations in that queue will carry the same priority and will be serviced accordingly.
+  > [!NOTE]
+  > When no queues or routing rules are defined, all conversations are collected in the **Default** queue.
 
--   All omni-channel queues are private. Only the members of the queues can view and work on the respective conversations.
+## Create a new Omni-channel queue
 
--   A queue can have agents having different work streams assigned to them.
+Follow these steps to create a new Omni-channel queue.
 
--   Supervisors can view the work assignment and track work progress in the Queues Dashboard.
+1. In the Omni-channel site map, select **Work Distribution \> Omni-channel Queues**.
 
--   For each org, there is a default omni-channel queue. An admin user cannot delete the default queue. All omni-channel users are by default members of this queue. Hence, the membership of this queue cannot be altered. Default queue carries the highest priority.
+    The **Active Omni-channel Queue** view is shown.
 
-     **Note**: When no queues or routing rules are defined, all the conversations are collected in the Default queue. All omni-channel users are the members of the Default queue.
+2. On the command bar, select **New** to create an Omni-channel queue.
+3. On the **Summary** tab, in the **General Information** section, provide the following information:
 
-Omni-channel queues provide flexibility for the organizations to define queues as per their business priorities. Both single channel as well as blended agent queues are supported. Hence, omni-channel queues can be used for:
+    1. **Name**: Enter a name for the queue.
+    2. **Priority**: Assign a priority to define how quickly a conversation should be picked from the queue.
 
--   Collecting conversations for a product or an issue type originating from multiple channels
+4. Select **Save** to save the new queue.
 
--   Distributing conversation originating from a single channel into different issue types based on customer inputs like pre-chat answers or IVR responses. Also, organizations can model Customer Type as context variables and chose to route the conversations to different queues.
+    The **Users (Agents)** section is shown for the queue.
 
-## Create a new omni-channel queue
-Follow these steps to create a new omni-channel queue:
+5. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
+6. On the **Lookup Records** flyout menu, select the agents to add, and then select **Add**.
 
-1. In the Omni-channel site map, select **Work Distribution Management > Omni-channel Queues**. </br>
-The **Active Omni-channel Queue** view is displayed. 
+    > [!TIP]
+    > To select users from other views, you can change the view by selecting **Change View**.
 
-2.	Select **New** in the command bar to create a new omni-channel queue.
-
-3.	In the **General Information** section of the **Summary** tab, provide the following information:
-    - **Name**. Name of the queue.
-    - **Priority**. Assign a priority to determine how quickly a conversation is picked from the queue.
-
-4.	Select **Save** to save the queue. </br>
-The **Users (Agents)** section is displayed for the new queue.
-
-5.	In the **Users (Agents)** section, add an existing agent to the queue by selecting **Add Existing User**.  </br>
-
-    Select the agents you want to add from the **Lookup Records** flyout menu and select **Add**. 
-    You can change the view and select users from other views by selecting **Change View**.
-
-All active queues can be seen in the **Omni-channel Queues** view. 
-
-To activate a queue so that the conversations can be routed to it, select a queue record from the **Omni-channel Queues** view and select **Activate** from the command bar.
-
-You can also deactivate a queue if you do not want conversations to be routed to it. 
+> [!div class=mx-imgBorder]
+> ![omni-channel queue](../media/oc-new-queue.PNG)
 
 
+### See also
 
+[Create and manage work streams](create-work-streams.md)
+
+[Understand unified routing and work distribution](unified-routing-work-distribution.md)

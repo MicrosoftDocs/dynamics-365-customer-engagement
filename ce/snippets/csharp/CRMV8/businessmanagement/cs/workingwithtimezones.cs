@@ -192,7 +192,7 @@ namespace Microsoft.Crm.Sdk.Samples
         }
 
         /// <summary>
-        /// Retrive the local time from the UTC time.
+        /// Retrieve the local time from the UTC time.
         /// </summary>
         /// <param name="utcTime"></param>
         private void RetrieveLocalTimeFromUTCTime(DateTime utcTime)

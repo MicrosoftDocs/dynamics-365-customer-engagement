@@ -1,8 +1,8 @@
 ---
-title: "Specify a default view in PowerApps | MicrosoftDocs"
+title: "Specify a default view | MicrosoftDocs"
 description: "Learn how to specificy a default view"
 ms.custom: 
-ms.date: 04/24/2018
+ms.date: 01/09/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,9 +24,8 @@ search.app:
 ---
 # Specify a default view
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-  
 <a name="BKMK_SetDefaultView"></a>   
 
 Unless someone has ‘pinned’ a different view in your app as their personal default, they will see the default view that you specify as the app maker. You can set any of the public views as the default view for an entity.  

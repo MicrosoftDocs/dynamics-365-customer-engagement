@@ -34,7 +34,7 @@ You can create and design dashboards to show the information that you want exact
   
     -   In the web app: Click **Dashboards**.  
   
-    -   In Dynamics 365 for Customer Engagement for Outlook: Click **My Work** > **Dashboards**.  
+    -   In Dynamics 365 for Outlook: Click **My Work** > **Dashboards**.  
   
 3.  Click **New**.  
   
