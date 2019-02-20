@@ -23,7 +23,7 @@ manager: shujoshi
 [Download](https://go.microsoft.com/fwlink/p/?linkid=2025867) the sample to integrate a softphone with Dynamics 365 for Customer Engagement apps using Channel Integration Framework.
 
 > [!NOTE]
-> The sample code does not support Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/)
+> The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/)
 
 > [!Important]
 > - This sample code currently has limited availability.
@@ -77,6 +77,9 @@ manager: shujoshi
   |Trusted Domains|The domain (URL) that can access the Channel Integration Framework APIs.|
   |Select the Unified Interface Apps for the Channel| The list of Unified Interface Apps where the channel is displayed for the agents. |
   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
+
+> [!NOTE]
+> The capability token value provided using the `twa` parameter in the channel URL is specific to Twilio. If using any other softphone, you may not require to provide this parameter in the channel URL. 
 
 3. Launch the Unified Interface App to see the communication widget on the right side.<br><br>
 **The communication widget in the minimized mode**<br><br>

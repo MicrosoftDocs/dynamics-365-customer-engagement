@@ -1,8 +1,8 @@
 ---
 title: "Host a communication widget and change its modes | MicrosoftDocs"
-description: "Read how to host a communication widget in Channel Integration Framework (CIF) and change its modes."
+description: "Read how to develop and host a communication widget in Channel Integration Framework (CIF) and change its modes."
 keywords: ""
-ms.date: 02/18/2019
+ms.date: 02/20/2019
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -20,14 +20,19 @@ manager: shujoshi
 
 # Host a communication widget and change its modes
 
-This tutorial illustrates how to host a communication widget on Channel Integration Framework (CIF) and change its modes.
+This tutorial illustrates how you can develop, host and customize modes of a communication widget on Channel Integration Framework (CIF).
 
-[Download](https://go.microsoft.com/fwlink/p/?linkid=2025867) the sample to integrate a softphone with Dynamics 365 for Customer Engagement apps using Channel Integration Framework. This sample acts as an interface between your softphone and Dynamics 365 for Customer Engagement. Follow the below steps to configure the sample to integrate your own softphone with Dynamics 365 for Customer Engagement apps using Channel Integration Framework (CIF).
+To get started, first [Download the sample](https://go.microsoft.com/fwlink/p/?linkid=2025867) to integrate a softphone with Dynamics 365 for Customer Engagement apps using Channel Integration Framework. This sample acts as an interface between your softphone and Dynamics 365 for Customer Engagement. Follow the below steps to configure the sample to integrate your own softphone with Dynamics 365 for Customer Engagement apps using Channel Integration Framework (CIF).
+
+> [!NOTE]
+> The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information: [WebRTC](https://webrtc.org/).
 
 1. After you have downloaded the sample, extract it so that you can go through the files in it.
 2. Open the extracted folder. Select and open **TwilioSampleInteg.sln** solution file in Visual Studio.
 3. Expand **wwwroot** > **js** folder in the Solution Explorer panel.
 4. Select and open **site.js** file.
+
+Let us try to understand how the sample works and what we need to do to customize it.
 
 We first intialize the various phone states and how they appear in the side panel.
 
@@ -111,6 +116,7 @@ function initAll() {
 
             // Setup Twilio.Device
             // If not using Twilio, use the APIs of your softphone that perform the corresponding functions
+
             Twilio.Device.setup(data.token, {debug: true});
 
             Twilio.Device.ready(function (device) {
@@ -145,7 +151,32 @@ function initAll() {
 
 Use the corresponding APIs of your channel provider to configure a different softphone using Channel Integration Framework.
 
-Now, let us attempt to create a simple *Hello World!* application
+The methods used in the sample are described below:
+
+|Method name|Description|
+|-------|-------|
+|**setPanelMode**| Programatically sets the panel mode using CIF |
+|**clickToActHandler**| Places a phone call and changes the phone state accordingly |
+|**sendKBArticleHandler**| Opens up the requested KB article |
+|**modeChangeHandler**| Our handler invoked by CIF when the user changes panel mode |
+|**pageNavigateHandler**| Our handler invoked by CIF whenever any navigation happens on main UCI page. This method simply records the contact or case record ID that is to be used for our case or activity record creation |
+|**incomingCall**| Our handler to be invoked by Twilio for an incoming call. If the call is acceptable, set the phone state appropriately to trigger our sample workflow |
+|**expandPanel**| Display the toast area along with the sidebar area |
+|**collapsePanel**|Hides the toast area and only displays the sidebar area |
+|**answerCall**|Event handler for when user clicks on "Accept Call" button. Update our state to **Accepted** |
+|**declineCall**|Event handler for when the user clicks on "Decline call" button |
+|**ongoingCall**|Our callback to be invoked by the softphone when a call is successfully connected |
+|**hangupCall**|Event handler for when the user clicks on the "hang up" button |
+|**placeCall**|Event handler to be invoked when the user wishes to place a call using either "clickToAct" or using a rudimentary dialer |
+|**resetPhone**|Event handler for the dialpad button on the sidebar |
+|**createCase**|Invoke CIF APIs to create a new case record. This will open the case create form with certain fields like contactId and description pre-populated |
+|**openActivity**|This is an event handler method that opens the activity record created for a phone call |
+|**openCase**|This is an event handler that opens the case record created for a phone call|
+|**updateActivity**|Updates the activity record with additional details. This sample shows how to update the description field with the notes taken during the call |
+
+## Complete sample softphone integration application
+
+Given below is a simple *Hello World!* application.
 
 ```JavaScript
 <html>
@@ -799,6 +830,7 @@ $(function () {
 </body>
 </html>
 ```
+To try out this sample, follow the steps mentioned in doc [Sample softphone integration using CIF](sample-softphone-integration.md).
 
 ## See Also
 
