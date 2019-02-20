@@ -26,7 +26,7 @@ As you engage potential customers, they start by discovering your product, evalu
 > - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)] 
 > - [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]
 
-The Customer Journey API enables programmatic interaction with customer journey records.
+The Customer Journey API enables programmatic interaction with customer journey records including publishing and validation.
 The API leverages the standard Dynamics 365 API for manipulating entities or messages. More information [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)
 
 When you create a customer journey, the properties are stored in `msdyncrm_customerjourney` entity. You can browse the entity metadata information using `@odata.context`in `GET` response.
@@ -36,8 +36,8 @@ When you create a customer journey, the properties are stored in `msdyncrm_custo
 
 This topic demonstrates how to perform operation on the `msdyncrm_customerjourney` entity. `msdyncrm_name` field is the only required field to create a simple customer journey. Following are the list of fields that are used in this topic to create a customer journey.
 
-|Display Name|Schema Name|Value|
-|----------|--------------|------|-------|
+|Display Name|Schema Name|Description/Value|
+|----------|--------------|------|
 |Name|msdyncrm_name|Name of the Customer Journey|
 |Status Reason|statuscode|Current status of the customer journey. Following are the available statuscode: <br />- Draft `192350000`<br />- Live `192350001`<br />- Stopped `192350002`<br />- Live, Editable `192350003`<br />- Error `192350005`<br />- Going Live `192350006`<br />- Stopping `192350007`<br />
 |Suppression Segment|msdyncrm_SuppressionSegmentId|The ID of the associated [Suppression Segment](https://docs.microsoft.com/en-au/dynamics365/customer-engagement/marketing/suppression-segments). Use it to set reference to a record from `msdyncrm_segments` record set.|
@@ -51,8 +51,8 @@ This topic demonstrates how to perform operation on the `msdyncrm_customerjourne
 |End Date and Time|msdyncrm_enddatetime|Date time value in `ISO 8601 UTC` format.|
 |Start Date and Time|msdyncrm_startdatetime|Date time value in ISO 8601 UTC format.|
 |Is Recurring|msdyncrm_isrecurring|A boolean value.|
-|Entity Target|msdyncrm_entitytarget|- Contact 0<br />- Account 1|
-|Type|msdyncrm_type|- Automated 192350000<br />- LinkedIn 192350001|
+|Entity Target|msdyncrm_entitytarget|- Contact `0`<br />- Account `1`|
+|Type|msdyncrm_type|- Automated `192350000`<br />- LinkedIn `192350001`|
 |Status|statecode|Status of the customer journey|
 
 > [!NOTE]
@@ -66,8 +66,11 @@ Use the Postman tool to test the operations. More information [Use Postman With 
 
 This request creates a customer journey record and set the `statuscode` to `Draft`. This customer journey includes a segment with `ID:24db2671-1529-e911-a9b7-000d3a1e6adc` and `Unique Name: TC407937_DynamicSegment_2KZQ1p`. an email  with `ID: 15bd0ab8-c12a-e911-a9b6-000d3a1e6c14`. The effective Content Settings has record `ID: 1922b1d8-0523-e911-a9ba-000d3a1e689f`. The response header [OData-EntityId](http://docs.oasis-open.org/odata/odata/v4.0/os/part1-protocol/odata-v4.0-os-part1-protocol.html#_Toc372793637) contains the URL to this newly created record (entity instance), which parenthetically includes the unique ID for this record.
 
+> [!IMPORTANT]
+> You need to replace the `OrgUrl` with `https://<add your environment name, like ‘myorg.crm’>.dynamics.com`. You can also get the environment name from **Settings** -> **Customizations** -> **Developer Resources**.
+
 ```HTTP
-POST: {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys
 {
     "msgdpr_requiredconsent": 587030001,
     "msdyncrm_customerjourneydesignerstate": "{\"NextActivityID\":8,\"NextActivityItemID\":42}",
@@ -90,7 +93,7 @@ POST: {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys
 
 The retrieve request retrieves the list of `Live` customer journeys.
 
-```Http
+```HTTP
 GET {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys?$filter=statuscode eq 192350001
 ```
 
@@ -99,7 +102,7 @@ GET {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys?$filter=statuscode eq 192
 In update request, you will update the `statuscode` to `Going Live` which effectively publishes it.
 
 ```HTTP
-PATCH api/data/v9.0/msdyncrm_customerjourneys(8aee9d91-8c2b-e911-a9b7-000d3a1e6adc)
+PATCH {{OrgUrl}}api/data/v9.0/msdyncrm_customerjourneys(8aee9d91-8c2b-e911-a9b7-000d3a1e6adc)
 {
     "statuscode": 192350006
 }
@@ -115,11 +118,11 @@ DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys(b6faa2b7-b92b-e911-818
 
 ## Check for Errors
 
-**Request**
+The **Check for Errors** feature checks the current record for missing content and technical errors and then display the validation results, including error messages that should help user solve any issue that wwere found.
 
-The request body is a `JSON` object which contains a number of data elements with values corresponding to the `msdyncrm_customerjourney entity` properties. The reference fields (for example, Content Settings ID) doesn't use the `@odata.bind` with recordset reference, but uses the ID of referenced record. The table below explains the mapping.
+The request body is a `JSON` object which contains a number of data elements with values corresponding to the `msdyncrm_customerjourney entity` properties. The reference fields (for example, Content Settings ID) doesn't use the `@odata.bind` with record set reference, but uses the ID of referenced record. The table below explains the mapping.
 
-|Key|Corresponding property msdyncrm_customerjournet entity (logical name)|
+|Key|Corresponding property msdyncrm_customerjourney entity (logical name)|
 |--------|--------------|
 |FieldValueCustomerJourneyId|msdyncrm_customerjourneyid|
 |FieldValueStatusCode|statuscode|
@@ -135,7 +138,7 @@ The request body is a `JSON` object which contains a number of data elements wit
 |FieldValueSuppressionSegmentId|msdyncrm_suppressionsegmentid|
 |FieldValueCustomerJourneyTimeZone|msdyncrm_customerjourneytimezone|
 
-## Validate Schema
+## Validate Customer Journey
 
 **Request**
 
@@ -157,12 +160,6 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_CustomerJourneyValidate
     "FieldValueSuppressionSegmentId": "{544A3E20-9B23-E911-A9B6-000D3A1E6C14}",
     "FieldValueCustomerJourneyTimeZone": 92
 }
-FieldValueRecurrenceCount": 3,
-    "FieldValueRequiredConsent": 587030001,
-    "FieldValueContentSettingsId": "{1922B1D8-0523-E911-A9BA-000D3A1E689F}",
-    "FieldValueEntityTarget": 0,
-    "FieldValueSuppressionSegmentId": "{A02C08DD-A92A-E911-A9B9-000D3A1E6B71}",
-    "FieldValueCustomerJourneyTimeZone": 92
 ```
 
 **Response**
