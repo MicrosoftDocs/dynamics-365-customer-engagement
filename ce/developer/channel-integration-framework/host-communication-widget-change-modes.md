@@ -40,6 +40,8 @@ Follow the steps given below to get started with the sample that you just downlo
 
 Let us try to understand how the sample works and what we need to do to customize it.
 
+#### Initializing various softphone states
+
 The sample first intializes the various phone states and how they appear in the side panel.
 
 ```JavaScript
@@ -66,16 +68,21 @@ var expandedWidgetWidth = "271fr";
 /* Whether Minimized or Docked */
 var _CurrentPanelMode = null;
 ```
+#### Managing a single phone call session
 
-Then, take a look at the code that manages a single phone call session. The sample defines a class `Phone` that has the following methods:
+Then, take a look at the methods that are used to manage a single phone call session. The sample defines a class `Phone` that has the following methods:
 
-- **renderCallerName()**: Display the current caller's name and initials. If the name is not available, display the phone number.
-- **updateCRMPage()**: For an ongoing call, search and open contact record for the calling phone number.
-- **updateCallerDetailsFromCRM()**: Search and open the record using [Microsoft.CIFramework.searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md).
-- **endCall()**: End the current phone call.
-- **createCallActivity()**: Create a new activity record for this phone call using CIF APIs.
+|Method name|Description|
+|------|------|
+|**renderCallerName()**| Display the current caller's name and initials. If the name is not available, display the phone number |
+|**updateCRMPage()**| For an ongoing call, search and open contact record for the calling phone number |
+|**updateCallerDetailsFromCRM()**| Search and open the record using [Microsoft.CIFramework.searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) |
+|**endCall()**| End the current phone call |
+|**createCallActivity()**| Create a new activity record for this phone call using CIF APIs |
 
-Now, see the code in method `initAll()`. This code sets up event handlers, initializes CIF and Twilio. You can edit this code if using any other channel provider, by using the APIs of that channel provider.
+#### Initializing Channel Integration Framework and softphone variables
+
+Now, see the method `initAll()`. This method sets up event handlers, initializes CIF and Twilio. You can edit this code if using any other channel provider, by using the APIs of that channel provider.
 
 ```JavaScript
 /* Global initialization function. Set up the event handlers, initialize CIF and your softphone */
@@ -157,7 +164,7 @@ function initAll() {
 
 Use the corresponding APIs of your channel provider to configure a different softphone using Channel Integration Framework.
 
-### Methods used in the sample
+#### Other methods used in the sample
 
 The methods used in the sample are described below:
 
