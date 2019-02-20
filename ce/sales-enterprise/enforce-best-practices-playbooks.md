@@ -2,7 +2,7 @@
 title: "Enforce best practices with playbooks (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Guide your team members with predefined activities to ensure that they follow a consistent approach on recurrent events or scenarios."
 keywords: "playbook, consistent, best practice"
-ms.date: 02/21/2019
+ms.date: 02/20/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -33,7 +33,7 @@ To start, a team member with a **Playbook manager** role or equivalent permissio
 <!--note from editor: In last sentence in line 37, change "individual geographies" to "selected countries or regions" ?. Microsoft Writers Style Guide says not to use "geography" as a synonym for "country or region."-->
 
 > [!NOTE]
-> The playbook capability is currently available only in the Sales Hub app in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. It is being released with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] application version 9.0.1810.4006 or later and the server version 9.1.0.0263 or later, as part of weekly releases of the product to individual geographies. 
+> The playbook capability is currently available only in the Sales Hub app in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. It is being released with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] application version 9.0.1810.4006 or later and the server version 9.1.0.0263 or later, as part of weekly releases of the product to selected countries or regions. 
 > To learn about updating an app solution, see [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md). 
 
 ### See also

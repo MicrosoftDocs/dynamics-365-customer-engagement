@@ -2,7 +2,7 @@
 title: "Track playbook activities (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Carry out the playbook activities to ensure every event or scenario is dealt with consistently."
 keywords: "playbook, activities, track, progress"
-ms.date: 02/21/2019
+ms.date: 02/20/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
