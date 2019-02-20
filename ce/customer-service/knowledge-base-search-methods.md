@@ -57,7 +57,7 @@ You can search the knowledge base from the following areas in the Customer Servi
   
   ![Knowledge base search control](media/kb-search-control.png)
 
-   To explore more options in the knowledge base search given in the Related section, see [Search for knowledge articles](customer-service-hub-user-guide-case-sla.md#search-for-knowledge-articles).
+   To explore more options in the knowledge base search given in the Related section, see [Search for knowledge articles](search-knowledge-articles-csh.md).
 
    > [!NOTE]
    > Knowledge base search control is available out of the box in a case entity. The previous procedure describes how the control can be accessed in the Customer Service Hub app.

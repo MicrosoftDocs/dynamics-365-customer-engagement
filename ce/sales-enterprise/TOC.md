@@ -49,6 +49,7 @@
 ### Playbook manager guide
 #### [Define playbook categories](define-playbook-categories.md)  
 #### [Manage playbook templates](manage-playbook-templates.md) 
+#### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
 ### Playbook user guide
 #### [Launch a playbook to carry out activities consistently](launch-playbook.md)  
 #### [Mark playbook as completed](mark-playbook-completed.md)  
