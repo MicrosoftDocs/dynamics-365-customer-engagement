@@ -36,6 +36,7 @@ manager: shujoshi
 > [!Note]
 > If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/).
 
+<a name="bkmk_PublishToAzure"></a>
 
 ## Publish sample app to Azure
 
@@ -57,6 +58,8 @@ manager: shujoshi
 
 > [!Note] 
 > Save the URL for the **capability-token** function you obtain from the above sample code. For example, URL is `https://sampleinteg.sample/capability-token`.
+
+<a name="bkmk_Configure"></a>
 
 ## Configure sample app in Dynamics 365
 

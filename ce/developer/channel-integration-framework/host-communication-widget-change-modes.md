@@ -175,7 +175,6 @@ The methods used in the sample are described below:
 |**updateActivity**|Updates the activity record with additional details. This sample shows how to update the description field with the notes taken during the call |
 
 ## Complete sample softphone integration application
-
 Given below is a simple *Hello World!* application.
 
 ```JavaScript
@@ -830,7 +829,7 @@ $(function () {
 </body>
 </html>
 ```
-To try out this sample, follow the steps mentioned in doc [Sample softphone integration using CIF](sample-softphone-integration.md).
+To try out this sample, follow the steps mentioned in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure) and then, configure the widget in your Dynamics 365 instance by following the steps mentioned in [Configure sample app in Dynamics 365](sample-softphone-integration.md#bkmk_Configure).
 
 ## See Also
 
