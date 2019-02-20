@@ -1,8 +1,8 @@
 ---
-title: "Display custom icons instead of values in list views | MicrosoftDocs"
+title: "Display custom icons alongside values in list views | MicrosoftDocs"
 description: "Learn how to display custom icon graphics in a view"
 ms.custom: 
-ms.date: 11/03/2018
+ms.date: 02/14/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,13 +22,17 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Display custom icons instead of values in list views
+# Display custom icons in list views
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="GridIcons"></a>   
 
- Administrators and customizers can add graphics to a view and establish the logic used to select the graphic based on a column values using JavaScript. The capability to display list views that show icons rather than text or numerical values in some columns was introduced in Relationship Insights. 
+ Administrators and customizers can add graphics to a view and establish the logic used to select a graphic based on the column value using JavaScript. The capability lets you customize list views that display icons alongside text or numerical values, such as in this **Rating** column in the **All Opportunities** view. 
+
+> [!div class="mx-imgBorder"] 
+> ![](media/icon-in-opportunity-view.png "All Opportunities view with Rating column displaying icons and text value")
+
   
 > [!NOTE]
 >  Grid icons are only shown in the web interface. They are not shown in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or the mobile app.  
@@ -149,9 +153,9 @@ function displayIconTooltip(rowData, userLCID) {
 }  
 ```  
   
- This results in displaying icons with tooltips in the **Rating** column that depend on the value in each row. The result could look like this:  
+ <!-- This results in displaying icons with tooltips in the **Rating** column that depend on the value in each row. The result could look like this:  
   
- ![Custom column graphics example](../customize/media/custom-column-graphics-example.png "Custom column graphics example")  
+ ![Custom column graphics example](../customize/media/custom-column-graphics-example.png "Custom column graphics example")  -->
  
  ### See also
  [Create or edit views](create-edit-views.md)

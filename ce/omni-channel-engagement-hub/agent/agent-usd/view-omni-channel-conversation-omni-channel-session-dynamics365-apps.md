@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6fa913f3-f0f4-4917-91d1-f895d5648368
@@ -14,7 +14,9 @@ ms.custom:
 ---
 # View omni-channel conversations and omni-channel session in Dynamics 365 apps
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 In your organization, some agents might work in a contact center that uses Omni-channel Engagement Hub, whereas other agents work in a different contact center that uses Microsoft Dynamics 365 apps, such as Customer Service Hub app. In this case, if you're an agent who works in Dynamics 365 apps, and you must analyze a conversation request from Omni-channel Engagement Hub, you can find the information through **activities** in Dynamics 365.
 

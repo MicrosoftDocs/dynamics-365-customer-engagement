@@ -5,6 +5,7 @@
 ### [Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
 #### [Work with cases and manage SLAs](customer-service-hub-user-guide-case-sla.md)
+#### [Search for knowledge articles](search-knowledge-articles-csh.md)
 #### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 #### [Work with interactive dashboards](customer-service-hub-user-guide-dashboard.md)
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
@@ -19,7 +20,7 @@
 #### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
 #### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 
-## [Service Management Guide](service-manager-guide.md)
+## [Service Manager Guide](service-manager-guide.md)
 ### [Create and manage queues](set-up-queues-manage-activities-cases.md)
 ### [Define parent and child case settings](define-settings-parent-child-cases.md)
 ### [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)

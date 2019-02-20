@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 94FFAD86-B4BF-48C1-90A5-81FDE7A8D13E
@@ -15,7 +15,9 @@ ms.custom:
 
 # Pre-requisites and system requirements of Omni-channel Engagement Hub - Preview
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 This topic provides information about the pre-requisites and system requirements for deploying Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement apps instance (Customer Service Hub app).
 

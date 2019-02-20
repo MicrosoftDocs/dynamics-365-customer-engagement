@@ -73,7 +73,6 @@ For a plug-in registered to execute asynchronously, the <xref:Microsoft.Xrm.Sdk.
 
 [Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)<br />
 [Send Dynamics 365 for Customer Engagement apps Data over the Microsoft Azure Service Bus](work-data-azure-solution.md)<br />
-[Write a Plug-In](write-plugin.md)<br />
-[Plug-in Isolation, Trust, and the Disallowed List](plugin-isolation-trusts-statistics.md)<br />
-[Event Execution Pipeline](event-execution-pipeline.md)<br />
+[Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)<br />
+[Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)<br />
 [Register and Deploy Plug-Ins](register-deploy-plugins.md)

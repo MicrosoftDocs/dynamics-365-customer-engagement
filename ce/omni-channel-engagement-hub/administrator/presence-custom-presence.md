@@ -6,7 +6,7 @@ author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 5a28a973-6c1d-41b9-8f42-74aa233f5aba
@@ -14,7 +14,9 @@ ms.custom:
 ---
 # Configure and manage presence status
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Presence status indicates an agent's availability or status. Presence status stores, updates, and maintains the real-time status of all agents, with respect to their availability and capacity utilization. When presence status is effectively configured, you can connect customers with agents in real time, for all synchronous conversations (such as live chats) and for all asynchronous conversations (such as cases and leads).
 

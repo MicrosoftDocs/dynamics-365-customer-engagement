@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 9b0d8dfb-3c40-4e15-9fe1-17d02f07d38d
@@ -14,7 +14,9 @@ ms.custom:
 ---
 # Modify the position or alignment of a form (card) in the Customer summary
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 1. Sign in to Dynamics 365 for Customer Engagement instance.
 

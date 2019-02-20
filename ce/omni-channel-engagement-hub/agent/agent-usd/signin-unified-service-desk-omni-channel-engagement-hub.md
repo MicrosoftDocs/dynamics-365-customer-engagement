@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: cad08a5b-fc27-4fce-90d3-4fef98211d3b
@@ -14,7 +14,9 @@ ms.custom:
 ---
 # Sign in to Unified Service Desk – Omni-channel Engagement Hub
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 1.  Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 

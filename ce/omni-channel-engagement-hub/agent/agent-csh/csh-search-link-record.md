@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 3F919FE4-BFCA-42E1-A2B0-169AEDDF445E
@@ -15,7 +15,9 @@ ms.custom:
 
 # Search and link a record in Omni-channel Engagement Hub
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 The topic explains how to search a record in Omni-channel Engagement Hub and link the record to the conversation.
 
@@ -122,7 +124,7 @@ Search the Omni-channel records using the search option. When you select the Sea
  - Address 1: ZIP/Post Code
  - Case Number
 
-3. Select **Search** and the search list appears.
+3. Select **Search**. The search results appear.
 
  ![Search account record using Omni-channel search](../../media/csh-oc-search-record-account.png "Search account record using Omni-channel search") 
 

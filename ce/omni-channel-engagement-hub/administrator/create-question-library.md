@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 75DC82E3-BD66-4D27-89F0-3B0C6C70D95C
@@ -15,7 +15,9 @@ ms.custom:
 
 # Create a survey questions library
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 You can add questions to the survey questions library in a work stream. You can then use those questions to create pre-chat surveys for chat widgets that are created in that work stream.
 

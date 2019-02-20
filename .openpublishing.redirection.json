@@ -1,6 +1,412 @@
 {
   "redirections": [
     {
+      "source_path": "ce/guidance/client/avoid-window-top.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/avoid-window-top",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/client/interact-http-https-resources-asynchronously.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/data/retrieve-published-metadata.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/work-with-metadata/retrieve-published-metadata",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/data/retrieve-specific-columns-entity-via-query-apis.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/work-with-metadata/retrieve-specific-columns-entity-via-query-apis",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/server/avoid-batch-requests-plugin.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/avoid-batch-requests-plugin",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/server/develop-iplugin-implementations-stateless.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/develop-iplugin-implementations-stateless",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/server/do-not-duplicate-plugin-step-registration.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/do-not-duplicate-plugin-step-registration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/server/include-filtering-attributes-plugin-registration.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/include-filtering-attributes-plugin-registration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/server/limit-registration-plugins-retrieve-retrievemultiple.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/limit-registration-plugins-retrieve-retrievemultiple",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/server/optimize-assembly-development.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/optimize-assembly-development",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/server/remove-deactivated-disabled-configurations.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/remove-deactivated-disabled-configurations",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/server/set-keepalive-false-interacting-external-hosts-plugin.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/set-keepalive-false-interacting-external-hosts-plugin",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/server/use-invalidpluginexecutionexception-plugin-workflow-activities.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/use-invalidpluginexecutionexception-plugin-workflow-activities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/introduction-event-framework.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/event-framework",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/event-execution-pipeline.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/event-framework#event-execution-pipeline",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/plugin-isolation-trusts-statistics.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/write-plug-in#performance-considerations",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/write-plugin.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/write-plug-in",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/understand-data-context-passed-plugin.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/understand-the-data-context",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/handle-exceptions-plugins.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/handle-exceptions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/pass-data-between-plug-ins.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/understand-the-data-context#shared-variables",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/analyze-plugin-performance.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-debug-plug-in",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/walkthrough-register-plugin-using-plugin-registration-tool.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#register-plug-in",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/sample-create-basic-plugin.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/basic-followup-plugin",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/sample-web-access-sandboxed-plugin.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/web-access-plugin",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/plug-in-entities.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/pluginassembly",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/plug-in-registration-entities.md",
+      "redirect_url": " https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/sdkmessageprocessingstep",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/contact-technical-support.md",
+      "redirect_url": "https//docs.microsoft.com/power-platform/admin/get-help-support",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/create-edit-business-unit-control-access-records.md",
+      "redirect_url": "/dynamics365/customer-engagement/admin/create-edit-business-units",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/admin/admin-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/analytics/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/analytics/reporting-analytics-with-dynamics-365",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/basics/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/basics/basics-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/customer-service/help-hub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customize/add-visual-controls-mobile-app.md",
+      "redirect_url": "/dynamics365/customer-engagement/customize/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customize/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/customize/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customize/types-of-views.md",
+      "redirect_url": "/dynamics365/customer-engagement/customize/create-edit-views",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/connected-field-service-developer-guide.md",
+      "redirect_url": "/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/download-endpoints-developer-resources-page.md",
+      "redirect_url": "/dynamics365/customer-engagement/developer/developer-resources-page",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/developer/developer-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/channel-integration-framework/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/index.md",
+      "redirect_url": "../use-microsoft-dynamics-365-organization-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/virtual-entities/index.md",
+      "redirect_url": "get-started-ve",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/index.md",
+      "redirect_url": "../use-microsoft-dynamics-365-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/field-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/gamification/help-hub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/insights-insideview/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/insights-insideview/insights-powered-by-insideview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/linkedin/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/linkedin/sync-linkedin-leads",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/live-assist/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/marketing/help-hub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/readme-preview.md",
+      "redirect_url": "/dynamics365/customer-engagement/marketing/readme",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/mobile-app/dynamics-365-phones-tablets-users-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/use-cortana-windows-phone.md",
+      "redirect_url": "/dynamics365/customer-engagement/mobile-app/dynamics-365-phones-tablets-users-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/on-premises/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/on-premises/deploy-and-operate-dynamics-365-on-premises",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/outlook-addin/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/outlook-addin/user-guide/dynamics-365-outlook-user-s-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/outlook-app/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/portals/authenticate-facebook-app.md",
+      "redirect_url": "/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/portals/cors-protocol-support.md",
+      "redirect_url": "/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/portals/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/portals/tags.md",
+      "redirect_url": "/dynamics365/customer-engagement/portals/liquid-tags",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/portals/view-user-activity.md",
+      "redirect_url": "/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/project-service/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/project-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/sales-enterprise/help-hub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/ebooks-and-videos.md",
+      "redirect_url": "https//docs.microsoft.com/dynamics365/customer-engagement/social-engagement/help-hub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/get-connected-social-conversation.md",
+      "redirect_url": "/dynamics365/customer-engagement/social-engagement/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/social-engagement/help-hub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/videos-ebooks.md",
+      "redirect_url": "https//docs.microsoft.com/dynamics365/customer-engagement/social-engagement/help-hub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/visual-filtering-widgets.md",
+      "redirect_url": "https//docs.microsoft.com/dynamics365/customer-engagement/social-engagement/use-filters",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/unified-service-desk/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/unified-service-desk/unified-service-desk",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/versium-predict/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/versium-predict/versium-predict",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/create-response-routing-rule-voice-of-customer-survey.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/design-advanced-survey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/create-voice-of-customer-survey.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/get-feedback-surveys",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/customize-voice-of-customer.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/get-feedback-surveys",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/design-voice-of-customer-survey-theme.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/design-basic-survey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/design-voice-of-customer-survey.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/design-basic-survey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/distribute-voice-of-customer-survey.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/distribute-survey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/help-hub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/install-voice-of-customer-preferred-solution.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/install-solution",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/personalize-voice-of-customer-surveys-piped-data.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/design-basic-survey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/plan-voice-of-customer-survey.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/plan-survey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/translate-localize-voice-of-customer-survey.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/design-basic-survey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/upload-voice-of-customer-survey-images.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/design-basic-survey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/voice-of-customer/view-voice-of-customer-survey-dashboards-reports.md",
+      "redirect_url": "/dynamics365/customer-engagement/voice-of-customer/analyze-survey-data",
+      "redirect_document_id": "false"
+    },
+
+    {
       "source_path": "ce/developer/xrm-tooling/use-xrm-tooling-classes-generated-code-generation-tool.md",
       "redirect_url": "../build-windows-client-applications-xrm-tools",
       "redirect_document_id": "true"

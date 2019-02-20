@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 0AC8EAED-73CE-4377-A2FB-C8C22DBF3E27
@@ -15,7 +15,9 @@ ms.custom:
 
 # Navigation bar of Omni-channel Engagement Hub in Customer Service Hub app
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!div class=mx-imgBorder]
 > ![Navigation bar of Omni-channel Engagement Hub in Customer Service Hub app](../../media/csh-navigation-bar.png "Navigation bar of Omni-channel Engagement Hub in Customer Service Hub app")  

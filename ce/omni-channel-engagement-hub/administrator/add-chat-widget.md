@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: DEDC2F99-3AB4-414D-B3DB-B27F871E804A
@@ -14,6 +14,10 @@ ms.custom:
 ---
 
 # Add a chat widget
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** &gt; **Work Streams**.

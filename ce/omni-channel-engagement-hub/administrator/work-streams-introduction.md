@@ -15,6 +15,10 @@ ms.custom:
 
 # Understand work streams in the Omni-channel Engagement Hub
 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 A work stream is a collection of routing & work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. 
 
 In Omni-channel, you can create two types of work streams:

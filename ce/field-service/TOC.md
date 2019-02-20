@@ -29,6 +29,7 @@
 ## [Territories](set-up-territories.md)
 ## [Postal codes](set-up-postal-codes.md)
 ## [Tax codes](set-up-tax-codes.md)
+## [Service level agreements](sla-work-orders.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
@@ -45,8 +46,9 @@
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
-## [Resource crew scheduling](resource-crews.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
+## [Resource crew scheduling](resource-crews.md)
+## [Resource pools](resource-pools.md)
 ## [Facility scheduling](facility-scheduling.md)
 ## [Fulfillment preferences](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
@@ -55,6 +57,7 @@
 # Field Service Mobile
 ## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
+## [Push notifications](mobile-push-notifications.md)
 ## [Extend mobile configuration tool trial](activate-fs-mobile-app-license.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
 ## FAQs + troubleshooting

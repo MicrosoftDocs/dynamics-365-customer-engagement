@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 2E22E0FD-F220-404E-B1F8-4F1BF3C487B0
@@ -15,7 +15,9 @@ ms.custom:
 
 # View customer summary for an incoming conversation request
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Scenario 1: An incoming engagement request for an existing customer record with a case already in the Omni-channel Engagement Hub 
 
