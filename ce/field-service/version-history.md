@@ -60,7 +60,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 
 | Template version  | Template name | Release date | Relates to Field Service Mobile version |  Publish to Woodford Version |
 |---|---|---|---|---|
-| [1.0.1322](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.1322.woodford |  |  11.2 | 11.2 |
+| [1.0.1322](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.1322.woodford | December 2018  |  11.2 | 11.2 |
 
 ## Additional notes
 
