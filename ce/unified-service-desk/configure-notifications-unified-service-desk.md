@@ -36,7 +36,27 @@ Configure notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-uni
   
  Notifications can be global or session-based. Global notifications are displayed outside of a session and will hide only if it times out or is explicitly closed by the user. Session-based notifications appear only within a session, and switching to another session will hide the notification. Switching back to the session with notification displays the notification again until it times out or is explicitly closed by the user.
 
-You can use the Alt+1 keys (default) to set your focus on a notification. If there are multiple notifications displayed, you can press Alt+1 repeatedly to cycle through all the active notifications on your screen. To change the default keyboard shortcut keys for notifications, use the new **PopupNavigationShortcut** UII option to specify the shortcut keys of your choice. More information: [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)  
+::: moniker range="dynamics-usd-3"
+
+You can use the Alt+1 keys (default) to set your focus on a notification. If there are multiple notifications displayed, you can press Alt+1 repeatedly to cycle through all the active notifications on your screen. To change the default keyboard shortcut keys for notifications, use the new **PopupNavigationShortcut** UII option to specify the shortcut keys of your choice. More information: [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)
+
+::: moniker-end
+
+::: moniker range="dynamics-usd-4"
+
+You can use default keyboard shortcuts to navigate to, shift focus to and from the notifications. To change the default keyboard shortcuts, create the UII option and set the keyboard value of your choice. To learn more, see [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md).
+
+| UII option              | Default keyboard shortcuts | Description |
+|-------------------------|----------------------------|-------------|
+| PopupNavigationShortcut | Alt+1                      | Sets focus on a notification  |
+| PopupNavigationShortcut | Alt+1                      | Press the keyboard shortcut Alt+1 repeatedly to cycle through all the active notifications on your screen when multiple notifications are displayed |
+| PopupEscapeShortcut     | Shift+Esc                  | Sets focus on the Unified Service Desk client application from the notification |
+| PopupMoveUpShortcut     | Shift+Up Arrow key         | Move up from one notification to another when notifications are displayed as stack |
+| PopupMoveDownShortcut   | Shift+Down Arrow key       | Move down from one notification to another when notifications are displayed as stack |
+| PopupMoveLeftShortcut   | Shift+Left Arrow Key       | Move left from one notification to another when multiple notifications are displayed |
+| PopupMoveRightShortcut  | Shift+Right Arrow Key      | Move right from one notification to another when multiple notifications are displayed |
+
+::: moniker-end
   
 <a name="Define"></a>   
 ## Define layout and behavior of notification using forms  
