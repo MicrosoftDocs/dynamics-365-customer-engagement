@@ -253,6 +253,36 @@ However, when you enable Internet Explorer pooling and change the configurations
 
 To execute the configuration, disable the Internet Explorer pooling.
 
+### Unified Service Desk crashes during sign in
+
+when you launch Unified Service Desk, the application displays the login screen and suddenly the Unified Service Desk crashes with no error message.
+
+If you have enabled performance data logging, the crash error is logged in the log files. The log files will be present in the following location of your computer.
+
+`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
+
+Open the recent log file in the notepad. Search for the following message - 
+
+`multiple_matching_tokens_detected: The cache contains multiple tokens satisfying the requirements. Call AcquireToken again providing more requirements (e.g. UserId)`
+
+One of the reason for the application crash is due to caching of multiple tokens. 
+
+#### Workaround
+
+To resolve the Unified Service Desk application crash issue, follow the steps.
+
+1. Go to the location following in your computer. <br>
+	`C:\Users\<computer name>\AppData\Roaming\Microsoft\USD`
+	
+2. In the location, you will see the following file.<br>
+**Default_USD.tokens.dat** file. 
+
+3. Delete the file.
+	
+4. Restart the Unified Service Desk client application.
+
+You can sign in to Unified Service Desk client application now.
+
 ## See Also
 
 [Unified Interface KM Control (hosted control)](unified-interface-km-control-hosted-control.md)
@@ -402,6 +432,36 @@ In this step you will create a navigation rule and set the order before other de
 The configuration of action call and window navigation rule is completed. If you now open a webpage, the webpage opens as a popup in a new window.
 
 For more information related to this limitation, refer the [Unified Service Desk Blogs](https://blogs.msdn.microsoft.com/usd/2017/09/27/unified-service-desk-best-practices-part-5-open-pdf-files-in-an-ie-process-hosted-control/)
+
+### Unified Service Desk crashes during sign in
+
+when you launch Unified Service Desk, the application displays the login screen and suddenly the Unified Service Desk crashes with no error message.
+
+If you have enabled performance data logging, the crash error is logged in the log files. The log files will be present in the following location of your computer.
+
+`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
+
+Open the recent log file in the notepad. Search for the following message - 
+
+`multiple_matching_tokens_detected: The cache contains multiple tokens satisfying the requirements. Call AcquireToken again providing more requirements (e.g. UserId)`
+
+One of the reason for the application crash is due to caching of multiple tokens. 
+
+#### Workaround
+
+To resolve the Unified Service Desk application crash issue, follow the steps.
+
+1. Go to the location following in your computer. <br>
+	`C:\Users\<computer name>\AppData\Roaming\Microsoft\USD`
+	
+2. In the location, you will see the following file.<br>
+**Default_USD.tokens.dat** file. 
+
+3. Delete the file.
+	
+4. Restart the Unified Service Desk client application.
+
+You can sign in to Unified Service Desk client application now.
 
 ## See also
 
