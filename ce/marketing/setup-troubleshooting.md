@@ -347,5 +347,5 @@ If you’ve already tried to set up the application several times and are still 
 
 For more information about how to contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] directly, and how to find forums, FAQs, and other resources, see the following:
 
-- [Contact technical support](../admin/contact-technical-support.md)
+- [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support)
 - [Help and additional resources](../admin/help-additional-resources.md)
