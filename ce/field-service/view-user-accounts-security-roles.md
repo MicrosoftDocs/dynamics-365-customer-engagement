@@ -49,6 +49,10 @@ By setting security roles for users, you control the types of data and entities 
 
 **Field Service—Inventory Purchase** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory related entities within his or her business unit. An example is processing a product return for one or many lines of business.
 
+**IoT - Administrator** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory related entities within his or her business unit. An example is processing a product return for one or many lines of business.
+
+**IoT - Endpoint User** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory related entities within his or her business unit. An example is processing a product return for one or many lines of business.
+
 ## Set up a user for field service 
   
 - Go to **Dynamics 365 for Customer Engagement** > **Settings** > **Security** > **Users**, and then set the fields used in the Field Service application. Refer to the table to learn how the fields are used in the Field service application.  
@@ -70,6 +74,11 @@ After assigning a user a security role, you must assign the user the correspondi
 
 Follow these steps to set up a dispatcher who schedules work orders for field technicians.
 
+> [!Note]
+> It is highly recommended to make copies of security roles and assign the copies to users. This prevents updates from disrupting business processes. Navigate to **Settings > Security > Security Roles** then select the **Field Service - Dispatcher** role and choose **Copy Role** under **Actions**. 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of copying a security role](media/admin-security-role-copy.png) 
+
 1. Navigate to **Settings** > **Security** > **Users**.
 
 2. Select a user, and then choose **Manage Roles**.
@@ -77,9 +86,9 @@ Follow these steps to set up a dispatcher who schedules work orders for field te
 > [!div class="mx-imgBorder"]
 > ![Screenshot of adding a security role to a User](media/users-3.png) 
 
-3. Assign the **Field Service – Administrator** role to allow schedule, dispatch, and configuration capabilities. Or, if the user is solely a dispatcher, then assign the **Field Service—Dispatcher** role.
+1. Assign the copied **Field Service—Dispatcher** role to allow schedule, dispatch, and work order editing capabilities to the user. Or, if the user is responsible for more than schedule and dispatch, make a copy of the **Field Service – Administrator** role and assign it to the user.
 
-4. Open the dispatcher's user record, and then select **Field Security Profiles**.
+2. Open the dispatcher's user record, and then select **Field Security Profiles**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of field security profiles in Dynamics 365 for Customer Engagement dropdown](media/users-4.png) 
