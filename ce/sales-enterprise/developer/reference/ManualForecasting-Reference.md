@@ -32,4 +32,5 @@ Provides custom actions for Manual Forecasting.
 
 ## See Also
 
-[User guide for Dynamics 365 for Sales](../../user-guide.md)
+[User guide for Dynamics 365 for Sales](../../user-guide.md)<br />
+[Administrator and Sales Manager guide](../../admin-guide.md)
