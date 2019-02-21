@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6977E402-7EF8-4B0B-9837-E8A003422796
@@ -15,7 +15,9 @@ ms.custom:
 
 # Sign in to Dynamics 365 Customer Service Hub app
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Omni-channel Engagement Hub on the web browser is a solution on Dynamics 365 Customer Service Hub app. You must sign in to Customer Service Hub app to experience the Omni-channel Engagement Hub.
 

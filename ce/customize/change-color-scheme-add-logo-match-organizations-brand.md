@@ -2,7 +2,7 @@
 title: "Change the color scheme or add a logo  in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to change the color scheme or add a logo to match your organization’s brand"
 s.custom: 
-ms.date: 02/04/2019
+ms.date: 02/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -55,7 +55,7 @@ You can create a custom look and feel (a theme), for your app by making changes 
   
 -   Hover link effect  
   
--   Process control color  
+-   Legacy accent color (primary background for process controls) 
   
 -   Default entity color  
   
@@ -78,8 +78,9 @@ You can create a custom look and feel (a theme), for your app by making changes 
 
 The following screenshot shows the default theme setup.  
   
- ![Default theme colors](../customize/media/cust1-themes-default-theme.png "Default theme colors")  
-  
+ > [!div class="mx-imgBorder"] 
+ > ![](media/cust1-themes-default-theme.png  "Default theme colors")
+   
  We cloned the default theme and changed the colors. The following screenshots show the new colors for navigation and highlighting. You can also choose a new logo for product.  
   
  The following screenshot shows the new navigation color.  

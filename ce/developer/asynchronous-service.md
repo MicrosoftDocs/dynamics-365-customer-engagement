@@ -49,7 +49,7 @@ server other that the server running [!INCLUDE[pn_dynamics_crm](../includes/pn-d
 ## Related Sections  
  [AsyncOperation EntityType](entities/asyncoperation.md) 
 
- [Event Execution Pipeline](event-execution-pipeline.md)  
+ [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)
   
  [Processes in Dynamics 365 for Customer Engagement apps (formerly Workflows)](automate-business-processes-customer-engagement.md)  
   

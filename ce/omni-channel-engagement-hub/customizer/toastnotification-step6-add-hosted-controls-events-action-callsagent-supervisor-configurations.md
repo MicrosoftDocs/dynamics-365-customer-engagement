@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 39fa4483-8b31-4a42-99b3-1f46b62767d8
@@ -15,7 +15,9 @@ ms.custom:
 
 # Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 1.  Sign in to Microsoft Dynamics 365 for Customer Engagement instance. 
 

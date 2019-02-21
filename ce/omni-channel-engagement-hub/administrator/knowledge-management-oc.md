@@ -6,7 +6,7 @@ author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 1/29/2019
+ms.date: 2/8/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 03e2226e-a947-4b41-8b19-cad79bf59ce4
@@ -15,7 +15,9 @@ ms.custom:
 
 # Share knowledge articles in the Omni-channel Engagement Hub
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Enable knowledge article sharing in the Omni-channel Engagement Hub so that customer queries can be resolved quickly. You can configure an external portal in the **Customer Service Hub** app, so that your customer service agents can share knowledge article links with the customers from within the Omni-channel Engagement Hub app.
 
