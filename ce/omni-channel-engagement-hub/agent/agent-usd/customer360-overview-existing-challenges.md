@@ -66,12 +66,9 @@ This section displays the case- and customer-related activities in the form of a
 
 ## See also
 
-- [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
-- [View agent dashboard and agent work items](introduction-agent-dashboard.md)
-- [View notifications and screen pops](notifications-screen-pop.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search for records](search-record.md)
+- [Link and unlink a record](link-unlink-record.md)

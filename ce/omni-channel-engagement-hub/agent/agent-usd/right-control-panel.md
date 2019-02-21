@@ -43,12 +43,10 @@ You can search for a KB article and open it as a tab on the Application tab mana
 
 ## See also
 
-- [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
-- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
-- [View agent dashboard and agent work items](introduction-agent-dashboard.md)
-- [View notifications and screen pops](notifications-screen-pop.md) 
+- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md) 
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View communication panel](left-control-panel.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search for records](search-record.md)
+- [Link and unlink a record](link-unlink-record.md)
