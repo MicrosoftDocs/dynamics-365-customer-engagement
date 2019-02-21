@@ -1,5 +1,5 @@
 ---
-title: "msdyn_ForecastRecalculateAsync Action Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_ForecastGenerateHierarchy Action Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Recalculates the hierarchy represented by the input forecast asynchronously."
 ms.date: 02/21/2019
 ms.service: "dynamics-365-sales"
@@ -17,11 +17,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# msdyn_ForecastGeneralHierarchy Action
+# msdyn_ForecastGenerateHierarchy Action
 
 For Internal Use only.
 
-[!INCLUDE[msdyn_ForecastGeneralHierarchy-description](includes/msdyn_ForecastGeneralHierarchy-description.md)]
+[!INCLUDE[msdyn_ForecastGenerateHierarchy-description](includes/msdyn_ForecastGenerateHierarchy-description.md)]
 
 ## Parameters
 
