@@ -80,7 +80,7 @@
 ### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
 
 ## Developer Guide
-### [Manual Forecasting reference](../sales-enterprise/developer/ManualForecasting-Reference.md)
+### [Manual Forecasting reference](../sales-enterprise/developer/reference/ManualForecasting-Reference.md)
 #### [msdyn_ForecastRecalculate](../sales-enterprise/developer/reference/msdyn_ForecastRecalculate.md)
 #### [msdyn_ForecastRecalculateAsync](../sales-enterprise/developer/reference/msdyn_ForecastRecalculateAsync.md)
 #### [msdyn_ForecastRecalculateAll](../sales-enterprise/developer/reference/msdyn_ForecastRecalculateAll.md)
