@@ -4,7 +4,7 @@ description: "Provides information about how you can extend event management web
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 2/06/2019
+ms.date: 02/06/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"

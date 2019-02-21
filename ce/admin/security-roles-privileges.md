@@ -1,7 +1,7 @@
 ---
 title: "Security roles and privileges | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/13/2018
+ms.date: 02/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -65,8 +65,8 @@ To control data access, you must set up an organizational structure that both pr
 |**Read**|Required to open a record to view the contents. The records that can be read depends on the access level of the permission defined in your security role.|  
 |**Write**|Required to make changes to a record. The records that can be changed depends on the access level of the permission defined in your security role.|  
 |**Delete**|Required to permanently remove a record. The records that can be deleted depends on the access level of the permission defined in your security role.|  
-|**Append**|Required to associate a record with the current record. For example, if a user has Append rights on an opportunity, the user can add a note to an opportunity. The records that can be appended depends on the access level of the permission defined in your security role.|  
-|**Append To**|Required to associate the current record with another record. For example, a note can be attached to an opportunity if the user has Append To rights on the note. The records that can be appended to depends on the access level of the permission defined in your security role.|  
+|**Append**|Required to associate a record with the current record. For example, a note can be attached to an opportunity if the user has Append rights on the note. The records that can be appended depends on the access level of the permission defined in your security role. <br /> With many-to-many relationships, you must have the Append privilege for both entities being associated or disassociated.  |  
+|**Append To**|Required to associate the current record with another record. For example, if a user has Append To rights on an opportunity, the user can add a note to the opportunity. The records that can be appended to depends on the access level of the permission defined in your security role.|  
 |**Assign**|Required to give ownership of a record to another user. The records that can be assigned depends on the access level of the permission defined in your security role.|  
 |**Share**|Required to give access to a record to another user while keeping your own access. The records that can be shared depends on the access level of the permission defined in your security role.|  
   
