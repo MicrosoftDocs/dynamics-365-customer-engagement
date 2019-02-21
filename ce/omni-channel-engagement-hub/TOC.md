@@ -46,7 +46,7 @@
 #### [View Omni-channel conversation and Omni-channel session in Dynamics 365 apps](agent/agent-usd/view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-usd/create-record.md)
-#### [Search for and link record to the conversation](agent/agent-usd/search-record.md)
+#### [Search for records](agent/agent-usd/search-record.md)
 #### [Link and unlink a record](agent/agent-usd/link-unlink-record.md)
 
 ### [Agents using Customer Service Hub app](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
