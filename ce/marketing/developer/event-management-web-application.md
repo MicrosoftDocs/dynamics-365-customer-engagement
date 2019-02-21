@@ -4,7 +4,7 @@ description: "Provides information about how you can extend event management  we
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 02/08/2019
+ms.date: 02/21/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -55,7 +55,7 @@ All the configuration for your custom event portal can be made by creating an `e
 - **apiEndpoint** - Used by Event Management application. Points to the API endpoint that **Angular** services use.
 - **localizationEndpoint** - Points to the localization endpoint that Event Management localization system uses to fetch the localized labels.
 - **useRestStack** - Used by Event Management application to adjust to different types of APIs used when utilizing self-hosted approach against Dynamics 365 hosted approach. Self-hosted approach uses REST API.
-- **useAadB2C** - Used by Event Management application to enable **Azure Active Directory B2C identity management** ( for self-hosted) and **Dynamics 365 Portals identity management** ( for Dynamics 365 Portal hosted).
+- **useAadB2C** - Used by Event Management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).
 - **useMockData** - Used by Event Management for development purposes. Overrides **Angular** application data services to return mock data.
 - **aadB2CConfig** - Configuration object used by Event Management application when **AAD B2C identity management** is enabled. 
 
