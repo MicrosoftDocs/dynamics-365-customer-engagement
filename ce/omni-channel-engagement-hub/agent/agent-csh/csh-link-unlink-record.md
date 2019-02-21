@@ -1,6 +1,6 @@
 ---
 title: "Link and unlink a record in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn on how to search a record in Omni-channel Engagement Hub and link the record to a conversation."
+description: "Learn on how to Search for records in Omni-channel Engagement Hub and link the record to a conversation."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -48,7 +48,9 @@ You can unlink a record only when you are interacting with customer using the co
 
 ![Select X button next the textbox to unlink](../../media/csh-oc-unlink-customer.PNG "Unlink a record using")
 
+To unlink a record, select the **X** button next to the customer name in the **Customer profile** form. After the record is removed, the **Customer profile** form is blank. 
 
+![Blank customer profile form after unlinking the record](../../media/csh-oc-unlinked-form.PNG "Blank customer profile form after unlinking the record")
 
 ## See also
 

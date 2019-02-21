@@ -23,7 +23,7 @@ The navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hu
 
 ![Navigation bar buttons of Omni-channel Engagement Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")
 
-a. **Search.** Do a simple search for a record.
+a. **Search.** Do a simple search for records.
 
 b. **Task flow.** Create an automated task flow between your apps and services.
 
@@ -91,4 +91,4 @@ Similarly, for the other records, the application displays the quick create form
 - [Know the sitemap navigation](csh-sitemap.md)
 - [Navigate using the navigation bar](csh-navigation-bar.md)
 - [Create a record](csh-create-record.md)
-- [Search a record](csh-search-record.md)
+- [Search for records](csh-search-record.md)

@@ -33,7 +33,7 @@ If you select a record, the Customer summary page displays details by pre-popula
 
 If you select a case, contact, or account, the Customer summary page refreshes and updates the **Issue** **Snapshot** section with the current case details.
 
-If you choose a case that is different than the one you are assigned, you will see a warning message that needs your action to link the conversation to the record. More information: [Search a record](#search-for-a-record)  
+If you choose a case that is different than the one you are assigned, you will see a warning message that needs your action to link the conversation to the record. More information: [Search for records](#search-for-a-record)  
 
 ### Create a record
 
@@ -47,9 +47,9 @@ When you get an incoming conversation request, you will see a notification (scre
 
 When no records are linked to a conversation in the Omni-channel Engagement Hub, you can create one using the quick create (**+**) option. After you create the record, it is automatically linked to the conversation. More information: [Create a record](#create-a-record)
 
-### Search for a record
+### Search for records
 
-When you choose to search for a record, the application launches the **Omni-channel search** tab. Specify the details according to the field and then search. Once the search is complete, you can see the results in the form of a list. You can link the record to the conversation. Also, if you select a record, you can see it in the application management toolbar.
+When you choose to Search for records, the application launches the **Omni-channel search** tab. Specify the details according to the field and then search. Once the search is complete, you can see the results in the form of a list. You can link the record to the conversation. Also, if you select a record, you can see it in the application management toolbar.
 
 > [!div class="nextstepaction"]
 > [Next topic: Create a record](csh-create-record.md)
@@ -58,5 +58,5 @@ When you choose to search for a record, the application launches the **Omni-chan
 
 - [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)]
-- [Search a record](csh-search-record.md)
+- [Search for records](csh-search-record.md)
 - [Link and unlink a record](csh-link-unlink-record.md)

@@ -46,9 +46,9 @@ However, there are no records present in Omni-channel Engagement Hub based on th
 
 When you get an incoming conversation request, you see a notification (screen pop) with contextual information for an incoming request. However, if there are no records present in Omni-channel Engagement Hub based on the incoming conversation request, you see a message stating - **No records found. Search for an existing customer record or create a new one to link to this conversation**.
 
-### Search for a record
+### Search for records
 
-When you choose to search for a record, the application opens the **Search** on the toolbar. You can search by using the following fields:
+When you choose to Search for records, the application opens the **Search** on the toolbar. You can search by using the following fields:
 
 -   First name
 
@@ -99,4 +99,4 @@ When no record is found in Omni-channel Engagement Hub, you can create a contact
 - [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
-- [Search and link a record](search-link-record.md)
+- [Search for records](search-record.md)

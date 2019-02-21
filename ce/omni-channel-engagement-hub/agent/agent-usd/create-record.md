@@ -41,7 +41,7 @@ If no records are linked to a conversation in Omni-channel Engagement Hub, you c
  > ![Create record](../../media/oc-usd-create-contact.png "Quick create record")
 
 > [!div class="nextstepaction"]
-> [Next topic: Search and link a record](search-link-record.md)
+> [Next topic: Search for records](search-record.md)
 
 ## See also
 

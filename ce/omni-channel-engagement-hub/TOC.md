@@ -46,7 +46,8 @@
 #### [View Omni-channel conversation and Omni-channel session in Dynamics 365 apps](agent/agent-usd/view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-usd/create-record.md)
-#### [Search for and link record to the conversation](agent/agent-usd/search-link-record.md)
+#### [Search for and link record to the conversation](agent/agent-usd/search-record.md)
+#### [Link and unlink a record](agent/agent-csh/link-unlink-record.md)
 
 ### [Agents using Customer Service Hub app](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
 #### [Sign in to Dynamics 365 Customer Service hub app](agent/agent-csh/csh-sign-dynamics-365-customer-service-hub.md)
@@ -64,7 +65,7 @@
 #### [View conversations and sessions in Dynamics 365 for Customer Engagement apps](agent/agent-csh/csh-view-conversations-sessions-dynamics-365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-csh/csh-create-record.md)
-#### [Search a record](agent/agent-csh/csh-search-record.md)
+#### [Search for records](agent/agent-csh/csh-search-record.md)
 #### [Link and unlink a record](agent/agent-csh/csh-link-unlink-record.md)
 
 ## [System customizer guide](customizer/omni-channel-engagement-hub-customizer.md)

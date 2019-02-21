@@ -86,5 +86,5 @@ The Session Participants section lets you add a participant related to the sessi
 
 - [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
 - [Create a record](csh-create-record.md)
-- [Search a record](csh-search-record.md)
+- [Search for records](csh-search-record.md)
 - [Link and unlink a record](csh-link-unlink-record.md)

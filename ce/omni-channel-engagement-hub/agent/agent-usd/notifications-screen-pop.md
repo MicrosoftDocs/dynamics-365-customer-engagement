@@ -93,4 +93,4 @@ You see the following details for a chat channel:
 - [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
-- [Search and link a record](search-link-record.md)
+- [Search for records](search-record.md)

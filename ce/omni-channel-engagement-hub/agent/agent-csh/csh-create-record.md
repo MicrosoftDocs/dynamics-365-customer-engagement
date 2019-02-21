@@ -41,7 +41,7 @@ When no records are linked to the conversation in the Omni-channel Engagement Hu
 After you save the changes, the record is linked to the conversation. You can see the linked conversation in the Customer summary page.
 
 > [!div class="nextstepaction"]
-> [Next topic: Search a record](csh-search-record.md)
+> [Next topic: Search for records](csh-search-record.md)
 
 ## See also
 

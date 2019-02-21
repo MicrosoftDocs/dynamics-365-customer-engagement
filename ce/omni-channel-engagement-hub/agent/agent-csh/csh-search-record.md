@@ -1,6 +1,6 @@
 ---
-title: "Search and link a record in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn on how to search a record in Omni-channel Engagement Hub and link the record to a conversation."
+title: "Search for records in Omni-channel Engagement Hub | MicrosoftDocs"
+description: "Learn on how to Search for records in Omni-channel Engagement Hub and link the record to a conversation."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,19 +13,19 @@ ms.assetid: 3F919FE4-BFCA-42E1-A2B0-169AEDDF445E
 ms.custom: 
 ---
 
-# Search and link a record in Omni-channel Engagement Hub
+# Search for records in Omni-channel Engagement Hub
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The topic explains how to search a record in Omni-channel Engagement Hub.
+The topic explains how to Search for records in Omni-channel Engagement Hub.
 
-## Search for a record
+## Search for records
 
 You can search for the records in two ways.
 
-### Search for a record using inline search option
+### Search for records using inline search option
 
 You accept an incoming conversation request, and there is no customer record identified in Omni-channel Engagement Hub. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
 
@@ -101,11 +101,11 @@ After the search results, selecting a record links the conversation to the selec
 > [!div class=mx-imgBorder]
 > ![Cusomter summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
 
-### Search for a record using the search option
+### Search for records using the search option
 
 Search the Omni-channel records using the search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select **Search**. You will see the details in the form of a list.
 
-![Search a record using the Omni-channel search](../../media/csh-oc-search-record.png "Search a record using the Omni-channel search")  
+![Search for records using the Omni-channel search](../../media/csh-oc-search-record.png "Search for records using the Omni-channel search")  
 
 1.  Select the search icon ![Omni-channel search icon](../../media/csh-oc-search-icon.png "Omni-channel search icon"). The application launches the Omni-channel search tab.  
 

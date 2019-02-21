@@ -84,4 +84,4 @@ The omni-channel session displays information about a conversation request.
 - [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [Create a record](create-record.md)
-- [Search and link a record](search-link-record.md)
+- [Search for records](search-record.md)

@@ -51,4 +51,4 @@ You can search for a KB article and open it as a tab on the Application tab mana
 - [View communication panel](left-control-panel.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)
-- [Search and link a record](search-link-record.md)
+- [Search for records](search-record.md)

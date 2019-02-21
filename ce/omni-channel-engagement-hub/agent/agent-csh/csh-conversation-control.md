@@ -103,7 +103,7 @@ When you have a conversation with a customer, you can link the conversation to t
 > [!div class=mx-imgBorder]
  > ![Use the link to conversation option to launch the link the conversation to a record](../../media/csh-cc-options-elippsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
 
-To learn more, see [Search and link a record to the conversation](csh-search-record.md)
+To learn more, see [Search for records to the conversation](csh-search-record.md)
 
 ### Consult with agent or supervisor
 
@@ -143,4 +143,4 @@ Use a keyboard shortcut to see the list of queues to transfer the conversation r
 - [Take notes specific to conversation](csh-take-notes.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
-- [Search a record](csh-search-record.md)
+- [Search for records](csh-search-record.md)
