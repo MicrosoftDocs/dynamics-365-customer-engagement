@@ -17,7 +17,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# msdyn_ForecastRecalculate Action Reference
+# msdyn_ForecastRecalculate Action
 
 For Internal Use only.
 

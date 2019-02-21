@@ -28,8 +28,8 @@ Provides custom actions for Manual Forecasting.
 |msdyn_ForecastRecalculate|[!INCLUDE[msdyn_ForecastRecalculate-description](includes/msdyn_ForecastRecalculate-description.md)]|
 |msdyn_ForecastRecalculateAsync|[!INCLUDE[msdyn_ForecastRecalculateAsync-description](includes/msdyn_ForecastRecalculateAsync-description.md)]|
 |msdyn_ForecastRecalculateAll|[!INCLUDE[msdyn_ForecastRecalculateAll-description](includes/msdyn_ForecastRecalculateAll-description.md)]|
-|msdyn_ForecastGenerateHierarchy|[!INCLUDE[msdyn_ForecastGenerateHierarchy-description](includes/msdyn_ForecastGenerateHierarcy-description.md)]|
+|msdyn_ForecastGenerateHierarchy|[!INCLUDE[msdyn_ForecastGenerateHierarchy-description](includes/msdyn_ForecastGenerateHierarchy-description.md)]|
 
 ## See Also
 
-[User guide for Dynamics 365 for Sales](../user-guide.md)
+[User guide for Dynamics 365 for Sales](../../user-guide.md)
