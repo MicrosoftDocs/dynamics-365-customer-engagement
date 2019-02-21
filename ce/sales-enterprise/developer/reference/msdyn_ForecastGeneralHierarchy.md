@@ -2,7 +2,9 @@
 title: "msdyn_ForecastRecalculateAsync Action Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Recalculates the hierarchy represented by the input forecast asynchronously."
 ms.date: 02/21/2019
-ms.service: crm-online
+ms.service: "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: reference
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -15,12 +17,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-
-# msdyn_ForecastGeneralHierarchy Action Reference
+# msdyn_ForecastGeneralHierarchy Action
 
 For Internal Use only.
 
-Generates forecast hierarchies for the given forecast definition. If `IsRefresh` is `true`, updates the forecast hierarchy according to current user hierarchy for the given forecast definition and recurrence index.
+[!INCLUDE[msdyn_ForecastGeneralHierarchy-description](includes/msdyn_ForecastGeneralHierarchy-description.md)]
 
 ## Parameters
 

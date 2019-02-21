@@ -2,7 +2,9 @@
 title: "msdyn_ForecastRecalculate Action Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Recalculates the hierarchy represented by the input forecast."
 ms.date: 02/21/2019
-ms.service: crm-online
+ms.service: "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: reference
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -19,7 +21,7 @@ search.app:
 
 For Internal Use only.
 
-Recalculates the hierarchy represented by the input forecast. If `IsRefreshHierarchy` parameter is `true`, updates the forecast hierarchy according to current user hierarchy before starting recalculation.
+[!INCLUDE[msdyn_ForecastRecalculate-description](includes/msdyn_ForecastRecalculate-description.md)]
 
 ## Parameters
 

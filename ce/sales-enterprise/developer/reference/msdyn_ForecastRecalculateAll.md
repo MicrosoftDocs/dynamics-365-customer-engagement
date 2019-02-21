@@ -1,8 +1,10 @@
 ---
-title: "msdyn_ForecastRecalculateAll Action Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_ForecastRecalculateAll Action (Developer Guide for Dynamics 365 for Sales)| MicrosoftDocs"
 description: "Recalculates the hierarchy represented by the input forecast asynchronously."
 ms.date: 02/21/2019
-ms.service: crm-online
+ms.service: "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: reference
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -15,11 +17,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# msdyn_ForecastRecalculateAll Action Reference
+# msdyn_ForecastRecalculateAll Action
 
 For Internal Use only.
 
-Recalculates and refreshes all active forecast hierarchies (across forecast definitions).
+[!INCLUDE[msdyn_ForecastRecalculateAll-description](includes/msdyn_ForecastRecalculateAll-description.md)]
 
 ## Parameters
 
