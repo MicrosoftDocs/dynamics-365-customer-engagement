@@ -42,7 +42,11 @@ Based on the search results, you can choose to link a record from the list. You 
 After you link the record to the conversation, the Customer summary page refreshes and reflects the details. Similarly, you can link other record types.
 
 
-## Unlink a record to the conversation
+## Unlink a record from the conversation
+
+You can unlink a record only when you are interacting with customer using the communication panel. That is, after you accept an incoming conversation request and view the **Customer summary** page, you can unlink the record from the conversation. 
+
+![Select X button next the textbox to unlink](../../media/csh-oc-unlink-customer.PNG "Unlink a record using")
 
 
 
