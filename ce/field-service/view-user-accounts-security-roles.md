@@ -49,9 +49,7 @@ By setting security roles for users, you control the types of data and entities 
 
 **Field Service—Inventory Purchase** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory related entities within his or her business unit. An example is processing a product return for one or many lines of business.
 
-**IoT - Administrator** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory related entities within his or her business unit. An example is processing a product return for one or many lines of business.
-
-**IoT - Endpoint User** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory related entities within his or her business unit. An example is processing a product return for one or many lines of business.
+**IoT - Administrator** and **IoT - Endpoint User** are designed for users who are responsible for device registration and device data pulls which are IoTHub operations related to Connected Field Service. These roles are characterized by full CRUD abilities for IoT  related entities. An example is access to all IoT Alerts and devices.
 
 ## Set up a user for field service 
   
@@ -172,24 +170,5 @@ If there isn't already an address for the user, navigate to the Office 365 admin
 
 > [!Note]
 > If you are having trouble populating an address or geocoding an address, manually enter a latitude and longitude into the fields.
-
-## Connected Field Service
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/cfs-security-role-resource.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/cfs-security-role-dispatcher.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/cfs-security-role-dispatcher-bpf.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/cfs-security-role-administrator.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/cfs-security-role-administrator-bpf.png)
 
 

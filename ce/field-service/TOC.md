@@ -104,6 +104,7 @@
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
 # [Connected Field Service (IoT) add-in](connected-field-service.md)
+## [Security roles for Connected Field Service](cfs-security-roles.md)
 ## [Connected Field Service for Azure IoT Central](cfs-iot-overview.md)
 ### [Tutorials - Integration scenarios](cfs-iot-tutorial-overview.md)
 #### [Prerequisites](cfs-iot-central-setup.md)
