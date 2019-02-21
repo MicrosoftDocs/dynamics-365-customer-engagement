@@ -65,6 +65,7 @@
 #### [View customer summary for an incoming conversation request](agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-csh/csh-create-record.md)
 #### [Search a record](agent/agent-csh/csh-search-record.md)
+#### [Search a record](agent/agent-csh/csh-search-record.md)
 
 ## [System customizer guide](customizer/omni-channel-engagement-hub-customizer.md)
 ### [Customize the Customer summary form](customizer/customize-customer-360-page.md)
