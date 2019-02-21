@@ -47,7 +47,7 @@
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-usd/create-record.md)
 #### [Search for and link record to the conversation](agent/agent-usd/search-record.md)
-#### [Link and unlink a record](agent/agent-csh/link-unlink-record.md)
+#### [Link and unlink a record](agent/agent-usd/link-unlink-record.md)
 
 ### [Agents using Customer Service Hub app](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
 #### [Sign in to Dynamics 365 Customer Service hub app](agent/agent-csh/csh-sign-dynamics-365-customer-service-hub.md)
