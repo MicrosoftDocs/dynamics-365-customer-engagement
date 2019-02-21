@@ -2,7 +2,7 @@
 title: "Copy an instance of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 09/30/2017
+ms.date: 02/21/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -32,9 +32,6 @@ You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video on copying an instance to a Sandbox instance: [Microsoft Dynamics CRM 2013 Spring '14 Online New Features -Copy](http://youtu.be/y6duFi8nZaE).  
 > 
 >  This video also applies to [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)].  
-> 
-> [!NOTE]
->  To copy instances larger than 100 GB, please contact [technical support](contact-technical-support.md).  
   
 ## Full copy instance  
  A full copy includes all application data, users, and customizations from the source instance and is suitable for:  
