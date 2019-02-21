@@ -60,8 +60,6 @@ This document provides important, late-breaking information about known issues a
 
 ### Known issues
 
-- Segment names can't have spaces&mdash;use underscores instead.<!-- 695837 -->
-- You can't include lookup fields among your segmentation criteria.<!-- 852372 -->  
 - Metadata used for building conditions and drop-downs shown on the designer isn't localized for non-English organizations. <!-- 992449 -->
 - The **Save** button isn't visible on the command bar after the initial save of the segment. Use the **Save** button in the lower-right corner of the page instead. <!-- 862491 -->
 - When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design profile-based dynamic segments](segments-profile.md). <!-- 1226384 -->
@@ -71,8 +69,11 @@ This document provides important, late-breaking information about known issues a
 
 ### Fixed issues
 
+- Segment names can now include spaces.<br><del>*Segment names can't have spaces&mdash;use underscores instead.*</del> <!-- 695837 -->
+- Segments can now include lookup field values among their selection criteria.<br><del>*You can't include lookup fields among your segmentation criteria.*</del><!-- 852372 -->  
 - Subscription lists now remove unsubscribed contacts from running journeys.<br><del>*Dynamic segments based on subscription marketing lists don't remove unsubscribed contacts from running journeys. The unsubscribe request will be honored in future journeys.*</del>.
 - When you go live with a new segment, the **Members** tab now displays correct status messages as the segment is being provisioned.<br><del>*If you go live with a new segment and then open the **Members** tab right away, you'll see a message telling you that the segment doesn't exist (even though it does). Reload the page, or open another tab and come back, to view the correct message (that the segment is being provisioned). Later, once the segment is finished provisioning, you'll see the list of contacts it contains here.*</del> <!-- 1251946 -->
+
 
 ## Email marketing
 
