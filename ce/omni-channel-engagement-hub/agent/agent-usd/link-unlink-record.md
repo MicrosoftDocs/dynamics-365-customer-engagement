@@ -46,7 +46,7 @@ After you link the record to the conversation, the Customer summary form is refr
 
 You can unlink a record only when you are interacting with customer using the communication panel. That is, after you accept an incoming conversation request and view the **Customer summary** page, you can unlink the record from the conversation. 
 
-![Select X button next the textbox to unlink](../../media/csh-oc-unlink-customer.PNG "Unlink a record using")
+![Select X button next the textbox to unlink](../../media/csh-oc-unlink-customer.PNG "Unlink a record")
 
 To unlink a record, select the **X** button next to the customer name in the **Customer profile** form. After the record is removed, the **Customer profile** form is blank. 
 

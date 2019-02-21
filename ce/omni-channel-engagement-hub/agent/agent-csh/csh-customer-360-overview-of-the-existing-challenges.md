@@ -23,7 +23,7 @@ One of the major challenges that customers face when contacting customer support
 
 Having this information ready when a customer contacts the support agent can reduce the hold time that the agent sends to retrieve the customer information, reduce the average handling time (AHT), and increase customer satisfaction with faster resolution of the issue.
 
-### What is Customer summary?
+## What is Customer summary?
 
 Customer summary is a page where you can get complete information about a customer when you accept an incoming request from any channel. The default Customer summary view provides the following sections:
 
@@ -39,23 +39,23 @@ Customer summary is a page where you can get complete information about a custom
 
 ![View Customer summary](../../media/csh-cc-customer360.png "View Customer summary") 
 
-#### Customer profile
+## Customer profile
 
 This section provides details about the customer or account such as name, job, title, relationship type, city, category, primary contact for the account, and preferred channel of engagement.
 
-#### Conversation Summary
+## Conversation Summary
 
 This section provides two tabs with details that help you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The Pre-chat tab displays the survey answers against the questions that are requested by your organization, which helps your engagement with the customer. The Visitor Info tab provides some information such as the browser used by the customer for contacting support, an operating system used by the customer, location of the customer, interacting language of the customer, and so on.
 
-#### Issue Snapshot
+## Issue Snapshot
 
 For an incoming engagement request, the system links an existing case to engagement and displays it in the Issue Snapshot section. This section displays information such as the title of the case, priority, status, product, and owner.
 
-#### Recent Cases
+## Recent Cases
 
 This section displays recent cases that relate to the customer.
 
-#### All Activities
+### All Activities
 
 This section displays case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on Customer activities, Case activities, and Conversation activities.
 

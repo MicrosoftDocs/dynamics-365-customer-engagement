@@ -27,26 +27,19 @@ Based on the search results, you can choose to link a record from the list. You 
 
 ![Select the record to link](../../media/csh-oc-search-link-account-record.png "Select the record to link")  
 
-1.  Select the ![Record selection icon](../../media/csh-oc-search-record-selection-icon.png "Record selection icon") icon to view the selection list.  
+1.  Select the ![Record selection icon](../../media/csh-oc-search-record-selection-icon.png "Record selection icon") icon to view the selection list. <br>![Select icon to open selection of records to link](../../media/csh-oc-select-icon-link.png "Select icon to open selection of records to link")
 
- ![Select icon to open selection of records to link](../../media/csh-oc-select-icon-link.png "Select icon to open selection of records to link")
+2.  Select the check box next to the record you want to link.<br> ![Record selection checkbox](../../media/csh-oc-record-selection-checkbox.png "Record selection checkbox")  
 
-2.  Select the check box next to the record you want to link.
-
- ![Record selection checkbox](../../media/csh-oc-record-selection-checkbox.png "Record selection checkbox")  
-
-3.  Select the link button at the top.
-
- ![Select record to link](../../media/csh-oc-select-record-link.png "Select record to link")
+3.  Select the link button at the top.<br> ![Select record to link](../../media/csh-oc-select-record-link.png "Select record to link")
 
 After you link the record to the conversation, the Customer summary page refreshes and reflects the details. Similarly, you can link other record types.
-
 
 ## Unlink a record from the conversation
 
 You can unlink a record only when you are interacting with customer using the communication panel. That is, after you accept an incoming conversation request and view the **Customer summary** page, you can unlink the record from the conversation. 
 
-![Select X button next the textbox to unlink](../../media/csh-oc-unlink-customer.PNG "Unlink a record using")
+![Select X button next the textbox to unlink](../../media/csh-oc-unlink-customer.PNG "Unlink a record")
 
 To unlink a record, select the **X** button next to the customer name in the **Customer profile** form. After the record is removed, the **Customer profile** form is blank. 
 
