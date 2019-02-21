@@ -1,12 +1,12 @@
 ---
-title: "msdyn_ForecastRecalculate Action Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "Recalculates the hierarchy represented by the input forecast."
+title: "msdyn_ForecastRecalculateAsync Action Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Recalculates the hierarchy represented by the input forecast asynchronously."
 ms.date: 02/21/2019
 ms.service: crm-online
 ms.topic: reference
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-ms.assetid: 9970C2FA-64E4-4678-BC0D-E1EA7DE4C81B
+ms.assetid: 9A57F6C3-4BF8-4CE4-BECD-C09CF18BA43C
 author: susikka
 ms.author: susikka
 manager: shujoshi
@@ -15,11 +15,12 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# msdyn_ForecastRecalculate Action Reference
+
+# msdyn_ForecastRecalculateAsync Action Reference
 
 For Internal Use only.
 
-Recalculates the hierarchy represented by the input forecast. If `IsRefreshHierarchy` parameter is `true`, updates the forecast hierarchy according to current user hierarchy before starting recalculation.
+Recalculates the hierarchy represented by the input forecast asynchronously. If `IsRefreshHierarchy` is `true`, updates the forecast hierarchy according to current user hierarchy before starting recalculation.
 
 ## Parameters
 
