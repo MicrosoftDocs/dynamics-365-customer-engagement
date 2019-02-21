@@ -1,47 +1,45 @@
 ---
-title: "Create a record in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn how to create a record when using Omni-channel Engagement Hub in Customer Service Hub app."
+title: "Link and unlink a record in Omni-channel Engagement Hub | MicrosoftDocs"
+description: "Learn on how to search a record in Omni-channel Engagement Hub and link the record to a conversation."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 03/07/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 08E830B6-6847-4B9C-B579-00DEE79A1C5C
+ms.assetid: 48AB4878-B062-4126-93F8-26FF8A726121
 ms.custom: 
 ---
 
-# Create a record
+# Link and unlink a record in Omni-channel Engagement Hub
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When no records are linked to the conversation in the Omni-channel Engagement Hub, you can create a record using the quick create (**+**) option. After you create the record, it is automatically linked to the conversation.
+The topic explains how to link and unlink a record to the conversation.
 
-1.  Select the **+** icon to create a new record.
+## Link a record
 
-2.  Select a record type from the list. <br>
- - Case
- - Contact
- - Account
+Based on the search results, you can choose to link a record from the list. You can link only one record to a conversation.
 
- > [!div class=mx-imgBorder]
- > ![Quick create record](../../media/oc-csh-create-quick-create.png "Quick create record")
+![Select the record to link](../../media/csh-oc-search-link-account-record.png "Select the record to link")  
 
-3. In the left pane, you can see a new record page. Specify the details in the form.
+1.  Select the ![Record selection icon](../../media/csh-oc-search-record-selection-icon.png "Record selection icon") icon to view the selection list.  
 
-4. Select **Save and Close** to save the changes and close the form.
+ ![Select icon to open selection of records to link](../../media/csh-oc-select-icon-link.png "Select icon to open selection of records to link")
 
- > [!div class=mx-imgBorder]
- > ![Quick create contact](../../media/oc-csh-quick-create-contact.png "Quick create contact")
+2.  Select the check box next to the record you want to link.
 
-After you save the changes, the record is linked to the conversation. You can see the linked conversation in the Customer summary page.
+ ![Record selection checkbox](../../media/csh-oc-record-selection-checkbox.png "Record selection checkbox")  
 
-> [!div class="nextstepaction"]
-> [Next topic: Search and link record to the conversation](csh-search-record.md)
+3.  Select the link button at the top.
+
+ ![Select record to link](../../media/csh-oc-select-record-link.png "Select record to link")
+
+After you link the record to the conversation, the Customer summary page refreshes and reflects the details. Similarly, you can link other record types.
 
 ## See also
 
@@ -59,3 +57,4 @@ After you save the changes, the record is linked to the conversation. You can se
 - [Take notes specific to conversation](csh-take-notes.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+- [Create a record](csh-create-record.md)

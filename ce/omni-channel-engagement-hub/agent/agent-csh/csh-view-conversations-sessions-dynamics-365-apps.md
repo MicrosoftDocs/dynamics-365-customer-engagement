@@ -96,4 +96,4 @@ The Session Participants section lets you add a participant related to the sessi
 - [Search for and share knowledge articles](csh-search-knowledge-articles.md)
 - [Take notes specific to conversation](csh-take-notes.md)
 - [Create a record](csh-create-record.md)
-- [Search and link record to the conversation](csh-search-link-record.md)
+- [Search and link record to the conversation](csh-search-record.md)

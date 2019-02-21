@@ -64,7 +64,7 @@
 #### [View conversations and sessions in Dynamics 365 for Customer Engagement apps](agent/agent-csh/csh-view-conversations-sessions-dynamics-365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-csh/csh-create-record.md)
-#### [Search and link record to the conversation](agent/agent-csh/csh-search-link-record.md)
+#### [Search and link record to the conversation](agent/agent-csh/csh-search-record.md)
 
 ## [System customizer guide](customizer/omni-channel-engagement-hub-customizer.md)
 ### [Customize the Customer summary form](customizer/customize-customer-360-page.md)

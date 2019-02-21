@@ -50,4 +50,4 @@ When you interact with a customer in the conversation control, you can use the *
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
 - [Create a record](csh-create-record.md)
-- [Search and link record to the conversation](csh-search-link-record.md)
+- [Search and link record to the conversation](csh-search-record.md)

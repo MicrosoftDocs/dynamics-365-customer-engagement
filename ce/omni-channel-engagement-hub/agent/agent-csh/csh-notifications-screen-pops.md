@@ -91,4 +91,4 @@ The details you’ll see for a chat channel are:
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
-- [Search and link record to the conversation](csh-search-link-record.md)
+- [Search and link record to the conversation](csh-search-record.md)

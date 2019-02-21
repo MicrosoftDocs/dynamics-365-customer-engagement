@@ -19,7 +19,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The topic explains how to search a record in Omni-channel Engagement Hub and link the record to the conversation.
+The topic explains how to search a record in Omni-channel Engagement Hub.
 
 ## Search for a record
 
@@ -126,27 +126,7 @@ Search the Omni-channel records using the search option. When you select the Sea
 
 3. Select **Search**. The search results appear.
 
- ![Search account record using Omni-channel search](../../media/csh-oc-search-record-account.png "Search account record using Omni-channel search") 
-
-## Link a record
-
-Based on the search results, you can choose to link a record from the list. You can link only one record to a conversation.
-
-![Select the record to link](../../media/csh-oc-search-link-account-record.png "Select the record to link")  
-
-1.  Select the ![Record selection icon](../../media/csh-oc-search-record-selection-icon.png "Record selection icon") icon to view the selection list.  
-
- ![Select icon to open selection of records to link](../../media/csh-oc-select-icon-link.png "Select icon to open selection of records to link")
-
-2.  Select the check box next to the record you want to link.
-
- ![Record selection checkbox](../../media/csh-oc-record-selection-checkbox.png "Record selection checkbox")  
-
-3.  Select the link button at the top.
-
- ![Select record to link](../../media/csh-oc-select-record-link.png "Select record to link")
-
-After you link the record to the conversation, the Customer summary page refreshes and reflects the details. Similarly, you can link other record types.
+ ![Search account record using Omni-channel search](../../media/csh-oc-search-record-account.png "Search account record using Omni-channel search")
 
 ## See also
 

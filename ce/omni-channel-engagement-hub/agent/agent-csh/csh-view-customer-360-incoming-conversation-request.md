@@ -68,5 +68,5 @@ When you choose to search for a record, the application launches the **Omni-chan
 - [Search for and share knowledge articles](csh-search-knowledge-articles.md)
 - [Take notes specific to conversation](csh-take-notes.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)]
-- [Search and link record to the conversation](csh-search-link-record.md)
+- [Search and link record to the conversation](csh-search-record.md)
 

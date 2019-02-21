@@ -54,4 +54,4 @@ When you are working on multiple sessions, and while capturing notes, you switch
 - [Search for and share knowledge articles](csh-search-knowledge-articles.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
-- [Search and link record to the conversation](csh-search-link-record.md)
+- [Search and link record to the conversation](csh-search-record.md)
