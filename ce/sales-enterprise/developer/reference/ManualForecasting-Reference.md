@@ -17,7 +17,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Manual Forecasting custom actions reference
+# Manual Forecasting Custom Actions reference
 
 Provides custom actions for Manual Forecasting.
 
@@ -25,10 +25,10 @@ Provides custom actions for Manual Forecasting.
 
 |Message name|Description|
 |-----|-----|
-|msdyn_ForecastRecalculate|[!INCLUDE[msdyn_ForecastRecalculate-description](includes/msdyn_ForecastRecalculate-description.md)]|
-|msdyn_ForecastRecalculateAsync|[!INCLUDE[msdyn_ForecastRecalculateAsync-description](includes/msdyn_ForecastRecalculateAsync-description.md)]|
-|msdyn_ForecastRecalculateAll|[!INCLUDE[msdyn_ForecastRecalculateAll-description](includes/msdyn_ForecastRecalculateAll-description.md)]|
-|msdyn_ForecastGenerateHierarchy|[!INCLUDE[msdyn_ForecastGenerateHierarchy-description](includes/msdyn_ForecastGenerateHierarchy-description.md)]|
+|[msdyn_ForecastRecalculate](msdyn_ForecastRecalculate.md)|[!INCLUDE[msdyn_ForecastRecalculate-description](includes/msdyn_ForecastRecalculate-description.md)]|
+|[msdyn_ForecastRecalculateAsync](msdyn_ForecastRecalculateAsync.md)|[!INCLUDE[msdyn_ForecastRecalculateAsync-description](includes/msdyn_ForecastRecalculateAsync-description.md)]|
+|[msdyn_ForecastRecalculateAll](msdyn_ForecastRecalculateAll.md)|[!INCLUDE[msdyn_ForecastRecalculateAll-description](includes/msdyn_ForecastRecalculateAll-description.md)]|
+|[msdyn_ForecastGenerateHierarchy](msdyn_ForecastGenerateHierarchy.md)|[!INCLUDE[msdyn_ForecastGenerateHierarchy-description](includes/msdyn_ForecastGenerateHierarchy-description.md)]|
 
 ## See Also
 
