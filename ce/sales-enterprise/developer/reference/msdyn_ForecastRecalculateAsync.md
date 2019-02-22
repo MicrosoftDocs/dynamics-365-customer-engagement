@@ -25,10 +25,10 @@ For Internal Use only.
 
 ## Parameters
 
-|Name|Type|Nullable|Unicode|Description|
-|-----|-----|-----|-----|-----|
-|ForecastInstance|EntityReference|No|True|For Internal Use only.<br />Target forecast instance record. Recalculation is performed on the forecast hierarchy this forecast instance is part of|
-|IsRefreshHierarchy|Boolean|No|True|For Internal Use only.<br />Flag indicating if hierarchy is to be updated as per current user hierarchy before recalculation|
+|Name|Type|Description|
+|-----|-----|-----|
+|ForecastInstance|EntityReference|For Internal Use only.<br />Target forecast instance record. Recalculation is performed on the forecast hierarchy this forecast instance is part of|
+|IsRefreshHierarchy|Boolean|For Internal Use only.<br />Flag indicating if hierarchy is to be updated as per current user hierarchy before recalculation|
 
 ## See Also
 

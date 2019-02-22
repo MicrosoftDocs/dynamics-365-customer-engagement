@@ -25,10 +25,10 @@ Provides custom actions for Manual Forecasting.
 
 |Message name|Description|
 |-----|-----|
-|[msdyn_ForecastRecalculate](msdyn_ForecastRecalculate.md)|[!INCLUDE[msdyn_ForecastRecalculate-description](includes/msdyn_ForecastRecalculate-description.md)]|
-|[msdyn_ForecastRecalculateAsync](msdyn_ForecastRecalculateAsync.md)|[!INCLUDE[msdyn_ForecastRecalculateAsync-description](includes/msdyn_ForecastRecalculateAsync-description.md)]|
-|[msdyn_ForecastRecalculateAll](msdyn_ForecastRecalculateAll.md)|[!INCLUDE[msdyn_ForecastRecalculateAll-description](includes/msdyn_ForecastRecalculateAll-description.md)]|
-|[msdyn_ForecastGenerateHierarchy](msdyn_ForecastGenerateHierarchy.md)|[!INCLUDE[msdyn_ForecastGenerateHierarchy-description](includes/msdyn_ForecastGenerateHierarchy-description.md)]|
+|[msdyn_ForecastRecalculate](msdyn_ForecastRecalculate.md)|For Internal Use only<br />[!INCLUDE[msdyn_ForecastRecalculate-description](includes/msdyn_ForecastRecalculate-description.md)]|
+|[msdyn_ForecastRecalculateAsync](msdyn_ForecastRecalculateAsync.md)|For Internal Use only<br />[!INCLUDE[msdyn_ForecastRecalculateAsync-description](includes/msdyn_ForecastRecalculateAsync-description.md)]|
+|[msdyn_ForecastRecalculateAll](msdyn_ForecastRecalculateAll.md)|For Internal Use only<br />[!INCLUDE[msdyn_ForecastRecalculateAll-description](includes/msdyn_ForecastRecalculateAll-description.md)]|
+|[msdyn_ForecastGenerateHierarchy](msdyn_ForecastGenerateHierarchy.md)|For Internal Use only<br />[!INCLUDE[msdyn_ForecastGenerateHierarchy-description](includes/msdyn_ForecastGenerateHierarchy-description.md)]|
 
 ## See Also
 

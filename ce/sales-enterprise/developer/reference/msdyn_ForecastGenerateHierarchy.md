@@ -25,11 +25,11 @@ For Internal Use only.
 
 ## Parameters
 
-|Name|Type|Nullable|Unicode|Description|
-|-----|-----|-----|-----|-----|
-|ForecastDefinition|EntityReference|No|True|For Internal Use only.<br />Target forecast definition record. Hierarchies are generated/updated for this FD|
-|IsRefresh|Boolean|No|True|For Internal Use only.<br />Flag indicating if the hierarchy has to be generated from scratch or updated according to current user hierarchy|
-|RecurrenceIndex|Integer|No|True|For Internal Use only.<br />In case above flag is true, the combination of this param and FD provides the exact hierarchy which needs to be updated|
+|Name|Type|Description|
+|-----|-----|-----|
+|ForecastDefinition|EntityReference|For Internal Use only.<br />Target forecast definition record. Hierarchies are generated/updated for this FD|
+|IsRefresh|Boolean|For Internal Use only.<br />Flag indicating if the hierarchy has to be generated from scratch or updated according to current user hierarchy|
+|RecurrenceIndex|Integer|For Internal Use only.<br />In case above flag is true, the combination of this param and FD provides the exact hierarchy which needs to be updated|
 
 ## Returns
 
