@@ -47,17 +47,17 @@ In general, the access a field service administrator, dispatcher, and resources/
 
 ## Add IoT security to administrator security role
 
+Field Service administrators are typically given a copy of the **Field Service - Administrator** security role. If your organization is utilizing connected field service, these users should also be assigned a copy of the **IoT Administrator** security role.
 
-For FS Admin users, add IoT Admin role as well.
-	- GR: best practice 
+ field service administrator should also be given full read/write access to the IoT entities according to the picture below. 
 
-Any user who needs to do device registration and device data pulls (IoT Hub operations) need to have one of these roles - Sys Admin/ IoT Admin/ Iot Endpoint user role.
-GR: For IoTHub operations, it is recommended to grant these users  IoT Admin or Iot Endpoint user  security roles
+
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](media/cfs-security-role-administrator.png)
 
+In addition, the field service administrator secuirty role should be given full access to the CFS business process flow.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](media/cfs-security-role-administrator-bpf.png)
@@ -76,7 +76,9 @@ GR: For IoTHub operations, it is recommended to grant these users  IoT Admin or 
 > ![Screenshot of ](media/cfs-security-role-resource.png)
 
 
+## Additional notes
 
+- Any user who needs to do device registration and device data pulls (IoT Hub operations) should be given the **IoT Administrator** and **IoT Endpoint User** security roles.
 
 
 
