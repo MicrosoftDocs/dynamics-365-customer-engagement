@@ -17,7 +17,7 @@ manager: shujoshi
 
 # Sample: Extend Relationship assistant card type (custom card)
 
-Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0
+Applies to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] (online), version 9.1.0
 
 ## Create custom action card
 The following process explains how to create a custom card:
@@ -319,7 +319,7 @@ You can verify the custom cards are created in your organization as end user and
 2. Under **Relationship assistant** section, you can see your created action card.
     
     > [!div class="mx-imgBorder"]
-    > ![example of extended action card](media/devdoc-extended-card.png "example of extended action card")
+    > ![example of extended action card](../media/devdoc-extended-card.png "example of extended action card")
 
 **As administrator**
 
@@ -328,11 +328,11 @@ You can verify the custom cards are created in your organization as end user and
 3. Select **Configuration** on Relationship assistant section or select **Relationship assistant** tab.
 4. On the **Configuration** tab, you see an option to enable created custom actions cards in your organization.
     > [!div class="mx-imgBorder"]
-    > ![Administer extended action card](media/relationship-assistant-custom-card-selection.png "Administer extended action card")
+    > ![Administer extended action card](../media/relationship-assistant-custom-card-selection.png "Administer extended action card")
 
 
 ### See also
 
 - [Create custom cards in Relationship assistant ](extend-relationship-assistant-card.md)
-- [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)
-- [Relationship assistant](relationship-assistant.md)
+- [Configure and enable embedded intelligence](../configure-enable-embedded-intelligence.md)
+- [Relationship assistant](../relationship-assistant.md)
