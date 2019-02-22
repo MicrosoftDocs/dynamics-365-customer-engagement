@@ -60,7 +60,9 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
    If you want to change your connection information to sign in, select **Change Credentials** in the splash screen. You’ll see the initial sign-in dialog box where you can enter different credentials.  
 
-   ![Unified Service Desk Change Credentials screen](../../unified-service-desk/media/usd-second-signin.png "Unified Service Desk Change Credentials screen")  
+   ![Unified Service Desk Change Credentials screen](../../unified-service-desk/media/usd-second-signin.png "Unified Service Desk Change Credentials screen")
+
+::: moniker range=">=dynamics-usd-4"   
 
 ## Single Sign On (SSO) for Unified Service Desk - Preivew
 
@@ -116,6 +118,7 @@ To disbale the SSO feature, follow the steps:
 
 7. Select **Save**.
 
+::: moniker-end
 
 <a name="ConfigureSignIn"></a>   
 ## Configure sign-in information  
