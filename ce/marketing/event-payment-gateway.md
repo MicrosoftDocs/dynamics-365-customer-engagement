@@ -107,45 +107,28 @@ To assign a payment gateway to an event:
 
 ### Receive payment confirmation
 
-When a contact selects the checkout button, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary  event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider. The system then waits for the payment provider to confirm the payment by redirecting the contact to the success URL. When that request is received, the system converts the temporary registration into an actual registration that users can see in the system.
-
-When you sign up with a payment provider, they will ask you for the success URL, which will be embedded into the code they send back to you to include on your payment gateway. The URL you should use looks like this:
-
-`https://<portal-domain>/event/successpayment?id=<Readable_Event_ID>`
-
-Where:
-
-- _&lt;portal-domain&gt;_ is the domain name for your portal. You can see it by opening the event website.
-- *&lt;Readable_Event_ID&gt;* is a value that uniquely identifies the event. To find it, open the relevant event record, go to the **General** tab, scroll to the **Website** section, and copy the value shown in the **Readable event ID** field.
-
-If you hard code the event ID in the confirmation URL, then you'll need a different payment gateway for each event. We recommend that you instead set up a dynamic expression, which you can script as follows in your web template:
-
-`'https://<portal-domain>/event/successpayment?id='{{ request.params['event']}};`
-
-You'll probably need to edit the script returned by your payment provider to correctly create this line of code in your web template.
-
-> [!NOTE]
-> This script example is specific to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. It won't work if you use directly within a customized Angular site, including if you are hosting the event website externally.
-
-<a name="external"></a>
+When you sign up with a payment provider, they will ask you for the success URL, which will be embedded into the code they send back to you to include on your payment gateway. After a contact selects the checkout button, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary  event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider. The system then waits for the payment provider to confirm the payment by redirecting the contact to the success URL. When that request is received, registration needs to be finalized in order to turn temporary registration into an actual registration that users can see in the system. Details about how to finalize registration are contained in the [Finalizing event registration](#finalizing-event-registration) section.
 
 ## Create a payment gateway when hosting on an external site
 
 If you are hosting the event website on your own web server, then you must download and customize the event website to include the payment option as needed. Your payment provider will give you the instructions you need to interact with their system.
 
-When a contact selects the checkout button, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary  event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider. The system then waits for the payment provider to confirm the payment by redirecting the contact to the success URL. When that request is received, the system converts the temporary registration into an actual registration that users can see in the system.
-
-When you sign up with a payment provider, they will ask you for the success URL, which will be embedded into the code they send back to you to include on your payment gateway. The URL you should use looks like this:
-
-`https://<domainAndPath>/event/successpayment?id=<Readable_Event_ID>`
-
-Where:
-
-- _&lt;domainAndPath&gt;_ is the location where you installed the event website on your portal or external site. You can see it by opening the website.
-- *&lt;Readable_Event_ID&gt;* is a value that uniquely identifies the event. To find it, open the relevant event record, go to the **General** tab, scroll to the **Website** section, and copy the value shown in the **Readable event ID** field.
-
-The readable event ID is different for each event, so you should customize your site to add this dynamically to the URL to reflect the event being registered for.
+When you sign up with a payment provider, they will ask you for the success URL, which will be embedded into the code they send back to you to include on your payment gateway. After a contact selects the checkout button, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary  event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider. The system then waits for the payment provider to confirm the payment by redirecting the contact to the success URL. When that request is received, registration needs to be finalized in order to turn temporary registration into an actual registration that users can see in the system. Details about how to finalize registration are contained in the [Finalizing event registration](#finalizing-event-registration) section.
 
 When you are hosting on an external site, the **Payment gateway** and **Allow anonymous registration** settings for the event record have no effect. You can implement these preferences by customizing the site directly.
 
 For more information about how to download the latest version of the event website, customize it, build it, and then deploy it on a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal or external website, see [Build and host a custom event website](developer/event-management-web-application.md).
+
+## Finalizing event registration
+
+In order to finalize the registration you should create a backend code that is triggered by the success URL you sent to the payment gateway. Make sure that backend is authenticated against your CRM instance in order for you to execute custom actions that are needed for finalizing the workflow. You can see more about authenticating against CRM instance using Web API on the following url: [Authenticate to Dynamics 365 for Customer Engagement with the Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/authenticate-web-api)
+
+In the backend code you can do additional checks of the transaction, depending on the provider. This step is not mandatory to finalize the registration, but it is probably a good practice to additionaly check the purchase details. If you need additional purchase details to verify the transaction, you can get the data by executing the custom action **msevtmgt_GetPurchaseDetailsAction**. Input parameter is **PurchaseId** which is the ID of the temporary event registration that you got after checkout button was clicked. The output result of the custom action will be **event name**, **purchase amount**, **currency name**, **ISO currency code** and **currency symbol**.
+
+After you verify that your payment has been done properly you should invoke **adx_FinalizeExternalRegistrationRequest** custom action against your CRM instance. The input parameters of the custom action are **PurchaseId**, **ReadableEventId** and **UserId** where:
+
+- **PurchaseId** is ID of the temporary event registration that you got after checkout button was clicked
+- **ReadableEventId** is a value that uniquely identifies the event. To find it, open the relevant event record, go to the **General** tab, scroll to the **Website** section, and copy the value shown in the **Readable event ID** field.
+- **UserId** is ID of the contact in the CRM that corresponds to the user that is currently logged in into website, and it denotes who actually did the transaction and bought the event passes.
+
+You can find more details about how to execute custom action from the backend code at the following url: [Use Web API actions](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-web-api-actions).
