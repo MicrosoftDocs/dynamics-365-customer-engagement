@@ -31,6 +31,8 @@ Welcome to the Dynamics 365 for Sales Developer Guide. This documentation is for
 <h2>Extend Relationship Assistant</h2>
 <li><a href="extend-relationship-assistant-card.md" data-raw-source="[Create custom cards in Relationship assistant](extend-relationship-assistant-card.md)">Create custom cards in Relationship assistant</a></li>
 <li><a href="sample-extend-relationship-assistant-card-type.md" data-raw-source="[Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)">Sample: Extend Relationship assistant card type (custom card)</a></li>
+</tr></td>
+<tr><td>
 <h2>Manual Forecasting</h2>
 <li><a href="reference/ManualForecasting-Reference.md" data-raw-source="[Manual Forecasting Reference documentation](reference/ManualForecasting-Reference.md)">Manual Forecasting Reference documentation</a></li>
 </td>
