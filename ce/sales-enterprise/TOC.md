@@ -62,8 +62,6 @@
 #### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
 #### [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
 #### [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
-### [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
-#### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
 ### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
 
 ## [Mobile guide for Sales Hub](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
@@ -79,7 +77,9 @@
 ### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
 ### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
 
-## Developer Guide
+## [Developer Guide](../sales-enterprise/developer/developer-guide.md)
+### [Create custom cards in Relationship assistant](../sales-enterprise/developer/extend-relationship-assistant-card.md)
+#### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/developer/sample-extend-relationship-assistant-card-type.md)
 ### [Manual Forecasting reference](../sales-enterprise/developer/reference/ManualForecasting-Reference.md)
 #### [msdyn_ForecastRecalculate](../sales-enterprise/developer/reference/msdyn_ForecastRecalculate.md)
 #### [msdyn_ForecastRecalculateAsync](../sales-enterprise/developer/reference/msdyn_ForecastRecalculateAsync.md)
