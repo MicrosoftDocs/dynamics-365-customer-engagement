@@ -50,7 +50,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
      - **OAuth**. Choose this authentication source if you are connecting to [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] by using a security token service (STS) that is not [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)] but supports the OAuth open framework.  
 
-   - If you have multiple organizations, and want to select the organization where [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is deployed, select the **Display list of available organizations** check box, and then click **Login**.  
+   - If you have multiple organizations, and want to select the organization where [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is deployed, select the **Display list of available organizations** check box, and then select **Login**.  
 
 3. If you have multiple organizations, select the organization you want to connect to.  
 
@@ -58,9 +58,35 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
    Any time you start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client and need to sign in again, you don’t have to provide your connection information again. Your credentials are stored securely in the Windows Credential Manager and other connection information is stored in the Default_USD.config file at c:\Users\\*<USER_NAME>*\AppData\Roaming\Microsoft\USD, and used for subsequent sign-in activities.  
 
-   If you want to change your connection information to sign in, click **Change Credentials** in the splash screen. You’ll see the initial sign-in dialog box where you can enter different credentials.  
+   If you want to change your connection information to sign in, select **Change Credentials** in the splash screen. You’ll see the initial sign-in dialog box where you can enter different credentials.  
 
    ![Unified Service Desk Change Credentials screen](../../unified-service-desk/media/usd-second-signin.png "Unified Service Desk Change Credentials screen")  
+
+## Set up Single Sign On (SSO) for Unified Service Desk
+
+Single Sign On (SSO) in Unified Service Desk authenticates users to access Microsoft Dynamics 365 for Customer Engagement apps using the Dynamics 365 for Customer Engagement apps credentials.
+
+### Understand SSO for Unified Service Desk
+
+While sign in to Unified Service Desk with Customer Engagement apps credentials, you are again prompted to enter Customer Engagement apps credentials to connect to Customer Engagement server. 
+
+Enabling SSO for Unified Service Desk lets you sign in to Unified Service Desk and Customer Engagement server by entering the credentials once.
+
+### How to enable to SSO
+
+To enable SSO for Unified Service Desk, you must the configure the <UII option name> UII option and set it to <\value>.
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
+
+3. Choose **Options**.  
+
+4. On the **Active UII Options** page, select **+ New**.
+
+5. On the new page, enter the <UII option name> for the **Global Option** field and enter the <\value> for the **Value** field.
+
+7. Select **Save**.
 
 <a name="ConfigureSignIn"></a>   
 ## Configure sign-in information  
