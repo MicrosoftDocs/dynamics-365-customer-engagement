@@ -72,12 +72,12 @@ Single Sign On (SSO) in Unified Service Desk authenticates users to access Micro
 
 ### Understand SSO for Unified Service Desk
 
-While signing in to Unified Service Desk you enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. To avoid entering credentials multiple times, the Signle Sign On (SSO) feture is instroduced. 
-By default, the SSO feature is enabled and you need to enter the credentials only once while signing in to Unified Service Desk. 
+While signing in to Unified Service Desk you enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. To avoid entering credentials multiple times, the Signle Sign On (SSO) feture is introduced. 
+By default, the SSO feature is enabled, and you've to enter the credentials only once while signing in to Unified Service Desk. 
 
 **SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds for Unified Service Desk to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default **SingleSignOnThreshold** value is 5000 milliseconds (5 seconds). To learn more [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
-To change the value, configure the **SingleSignOnThreshold** UII option and enter a value in the range **5000-60000** milliseconds (5-60 seconds). If you enter 0 as the value, then the **SingleSignThreshold** is disabled, and you might need to enter the crendentials multiple times. If you enter a value more than **60000** milliseconds, then the Unified Service Desk defaults the value to **5000** milliseconds.
+To change the value, configure the **SingleSignOnThreshold** UII option and enter a value in the range **5000-60000** milliseconds (5-60 seconds). If you enter **0** as the value, then the **SingleSignThreshold** is disabled, and you must enter the crendentials more than once. If you enter a value more than **60000** milliseconds, then the Unified Service Desk defaults the value to **5000** milliseconds.
 
 |Value in milliseconds | Description |
 |-------|------------------------|
