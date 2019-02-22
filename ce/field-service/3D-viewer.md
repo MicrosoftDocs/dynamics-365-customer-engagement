@@ -3,7 +3,7 @@ title: "3d models for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2019
-ms.reviewer: ""
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,11 +13,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
-manager: shellyha
+ms.author: daclar
 search.audienceType: 
   - admin
   - customizer
@@ -30,63 +29,58 @@ search.app:
 
 Dynamics 365 for Field Service allows organizations to upload 3D models for field technicians to reference in the field. Typically a 3d model relates to a specific product or customer asset and helps field technicians with equipment repair and other tasks. As opposed to recording videos or writing long manuals, field service organizations can leverage pre-existing 3D models to generate what are effectively 3D knowledge articles.
 
-A typical way of configuring 3D models is to utilize an N:N relationship between the 3D Model and Customer Asset entities, which enables 3D models to be associated with Customer Assets.
+You can configure 3D models by using an N:N relationship between the 3D model and customer asset entities, which enables 3D models to be associated with customer assets.
 
-In this article we will walk through how to configure a customer asset to have an associated 3D model record.
+In this topic, we'll walk through how to associate a 3D model record with a customer asset.
 
 ## Prerequisites
 
-- Dynamics 365 v9.0+ 
-
+- Dynamics 365 for Customer Engagement v9.0+ 
 - Field Service v8.0+
+- Increased storage for large 3D file sizes. You can do this by increasing attachment file size limit in Dynamics 365 administration, or by using Azure Blob storage.
 
-- Increased storage for large 3D file sizes. Two options include **(1)** increasing attachment file size in Dynamics 365 administration **(2)** using Azure BLOB storage.
+To increase attachment file size in D365 administration:
 
-  > **(1)** increasing attachment file size in D365 administration
-
-  > 1. Navigate to **Settings > Administration > System Settings**
-  > 2. Select **Email** tab
-  > 3. In the **Set file size limit for attachments section** set the **Maximum file size (in Kilobytes)** to **131,072** KB. The click **Ok**.
+1. Navigate to **Settings > Administration > System Settings**
+2. Select **Email** tab
+3. In the **Set file size limit for attachments section** set the **Maximum file size (in Kilobytes)** to **131,072** KB. The click **Ok**.
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of increasing attachment file size in D365 administration](media/3DViewerDocumentationDoc-image4.png)
 
-  > **(2)** using Azure BLOB storage
+To configure Azure Blob storage, use the [Microsoft Labs Attachment Management solution](https://appsource.microsoft.com/product/dynamics-365/microsoft_labs.96257e65-dbbe-43db-b775-77cf1609530c?tab=Overview).
 
-  > Alternatively, you can configure 3D model attachments to be stored in Azure BLOBs by using the [Microsoft Labs Attachment Management solution](https://appsource.microsoft.com/en-us/product/dynamics-365/microsoft_labs.96257e65-dbbe-43db-b775-77cf1609530c?tab=Overview).
+Finally, make sure that 3D file types are not blocked for attachments in the Dynamics 365 settings:
 
-- Ensure 3D file types are not blocked for attachments
-
-  > 1. Navigate to the **General** tab
-  > 2. Scroll down to the **Set blocked file extensions for attachments** section
-  > 3. Ensure **GLB**, **GLTF**, and **OBJ** and **not listed**
+1. Go to the **General** tab
+2. Scroll down to the **Set blocked file extensions for attachments** section
+3. Make sure **GLB**, **GLTF**, and **OBJ** are not listed
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of ensure 3D file types are not blocked for attachments](media/3DViewerDocumentationDoc-image5.png) 
+  > ![Screenshot showing that 3D file types are not blocked for attachments](media/3DViewerDocumentationDoc-image5.png) 
 
   > [!Note]
-  > Supported file types for 3D viewer: **GLB**, **GLTF**, and **OBJ**
+  > The supported file 3D viewer types are **GLB**, **GLTF**, and **OBJ**
 
 ## Open a 3D file
 
- If you already have a 3D file that you would like to use, you can use Paint 3D to open and save that file as a GLB file. The following will walk through how to grab 3D samples in Paint 3D and save to GLB.
+If you already have a 3D file, you can use Paint 3D to open it and save it as a GLB file. 
 
-   1. Open up Paint 3D on your Windows 10 device
-   2. Once open, click the **3D Library** tab at the top
-   3. Select a model from the library to have it appear on the canvas and edit as desired.
+1. Open Paint 3D on your Windows 10 device.
+2. Select the **3D Library** tab at the top.
+3. Select a model from the library and open it on the canvas. Edit or make changes if necessary.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of open up Paint 3D on your Windows 10 device](media/3DViewerDocumentationDoc-image1.png) 
+> ![Screenshot of Paint 3D on a Windows 10 device](media/3DViewerDocumentationDoc-image1.png) 
 
-   4.  When done click on the **Menu** tab
-   5.  Click **3D Model** under the **Save as copy** section
+4.  When done, select the **Menu** tab, go to the **Save as copy** section, and select **3D Model**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of save as copy](media/3DViewerDocumentationDoc-image2.png)  
 
-   6. Enter a **File Name**. For Save as type, select **3D-GLB(*.glb)**. Then click **Save**.
+5. Enter a **File Name**. For Save as type, select **3D-GLB(.glb)**. Then **Save**.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of save as type, select 3D-GLB(*.glb)](media/3DViewerDocumentationDoc-image3.png)  
+> ![Screenshot of save as type, selecting 3D-GLB(.glb)](media/3DViewerDocumentationDoc-image3.png)  
 
  
 ## Associate Customer Assets with 3D Models
