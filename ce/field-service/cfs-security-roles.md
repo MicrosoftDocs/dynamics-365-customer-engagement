@@ -35,12 +35,12 @@ Doing this will give appropriate access to IoT entities including but not limite
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](media/cfs-entities-navbar.png)
 
-In general, the access a field service administrator, dispatcher, and resources/technician should be given to IoT entities mimics the access the existing field service security role gives to the Customer Asset entity.
+In general, access to IoT entities should mimic access to the Customer Asset entity for field service administrators, dispatchers, and resources/technicians.
 
 ## Prerequisites
 
-- Field Service 8.3+
-- It is highly recommended to make copies of the Field Service security roles and assign the copied security roles to users. this will prevent product updates from overwriting your custom security. 
+- Field Service v8.3+
+- It is highly recommended to make copies of the Field Service security roles and assign the copied security roles to users. This will prevent product updates from overwriting your custom security. You can copy a security role by navigating to **Settings > Security > Security Roles** then selecting a security role record and choosing **Actions > Copy Role**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of copying a security role](media/admin-security-role-copy.png) 
 
@@ -58,7 +58,7 @@ Ensure this gives field service administrators full access to IoT entities accor
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](media/cfs-security-role-administrator.png)
 
-In addition, the field service administrator security role should be given full access to the "CFS - IoT Alert Process Flow".
+In addition, the field service administrator security role should be given full access to the "CFS - IoT Alert Process Flow," which is a business process flow for CFS. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](media/cfs-security-role-administrator-bpf.png)
@@ -67,13 +67,12 @@ In addition, the field service administrator security role should be given full 
 
 Field service dispatchers also need some level of access to IoT entities and records. As an example, if a work order is created as a result of an IoT alert, the dispatcher should know this information to communicate with the customer and schedule to the appropriate resources/technicians.
 
-Field Service dispatchers are typically given a copy of the **Field Service - Dispatcher** security role. 
+Find the dispatcher security role your organization assigns to dispatchers (typically a copy of the **Field Service - Dispatcher** security role) and manually assign limited access to IoT entities according to the image below.
 
-Manually assign the dispatcher security role limited access to IoT entities according to the image below.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](media/cfs-security-role-dispatcher.png)
 
-Do the same for the "CFS - IoT Alert Process Flow" for dispatchers.
+Next, add access to the "CFS - IoT Alert Process Flow" according to the image below.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](media/cfs-security-role-dispatcher-bpf.png)
@@ -82,12 +81,12 @@ Do the same for the "CFS - IoT Alert Process Flow" for dispatchers.
 
 Finally, resources/technicians also need access to IoT related entities and records related to the work they are responsible for.
 
-Find the resource security role your organization assigns to resources/technicians (typically a copy of the Field Service - Resource security role) and add access to IoT entities according to the image below.
+Find the resource security role your organization assigns to resources/technicians (typically a copy of the **Field Service - Resource** security role) and manually assign limited access to IoT entities according to the image below.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](media/cfs-security-role-resource.png)
 
-Because resources/technicians use the Field Service Mobile app, they do not need access to the "CFS - IoT Alert Process Flow."
+Because business process flows are not displayed on the Field Service Mobile app, resources/technicians do not need access to the "CFS - IoT Alert Process Flow."
 
 
 ## Additional notes
