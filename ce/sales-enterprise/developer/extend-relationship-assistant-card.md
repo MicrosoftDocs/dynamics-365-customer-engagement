@@ -25,7 +25,7 @@ Action cards provides you up to date information on email, meeting, and much mor
 The action cards contain the following basic elements:
 
 > [!div class="mx-imgBorder"]
-> ![Action cards basic elements](media/card-type-dev.png "Action cards basic elements") 
+> ![Action cards basic elements](../media/card-type-dev.png "Action cards basic elements") 
 
 1.	**Generics actions:** The more options consist of the following actionable buttons:
     - **Snooze button:** Hides card temporarily. Snooze time varies by card type. Once the snooze time expires the card will again be visible.
