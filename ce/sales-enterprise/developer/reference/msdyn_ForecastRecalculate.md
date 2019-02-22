@@ -27,9 +27,10 @@ For Internal Use only.
 
 |Name|Type|Description|
 |-----|-----|-----|
-|ForecastInstance|EntityReference|For Internal Use only.<br />Target forecast instance record. Recalculation is performed on the forecast hierarchy this forecast instance is part of|
-|IsRefreshHierarchy|Boolean|For Internal Use only.<br />Flag indicating if hierarchy is to be updated as per current user hierarchy before recalculation|
+|ForecastInstance|EntityReference|For Internal Use only.<br />Targets forecast instance record. Recalculation is performed on the forecast hierarchy of which this forecast instance is a part|
+|IsRefreshHierarchy|Boolean|For Internal Use only.<br />Flag indicating whether hierarchy is to be updated as per current user hierarchy before recalculation|
 
 ## See Also
 
+[Developer guide for Dynamics 365 for Sales](../developer-guide.md)<br />
 [User guide for Dynamics 365 for Sales](../../user-guide.md)

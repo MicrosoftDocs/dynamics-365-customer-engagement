@@ -29,4 +29,5 @@ None
 
 ## See Also
 
+[Developer guide for Dynamics 365 for Sales](../developer-guide.md)<br />
 [User guide for Dynamics 365 for Sales](../../user-guide.md)

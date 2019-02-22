@@ -333,6 +333,7 @@ You can verify the custom cards are created in your organization as end user and
 
 ### See also
 
+- [Developer guide for Dynamics 365 for Sales](developer-guide.md)
 - [Create custom cards in Relationship assistant ](extend-relationship-assistant-card.md)
 - [Configure and enable embedded intelligence](../configure-enable-embedded-intelligence.md)
 - [Relationship assistant](../relationship-assistant.md)

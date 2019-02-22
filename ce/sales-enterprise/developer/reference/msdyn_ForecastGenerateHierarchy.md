@@ -27,7 +27,7 @@ For Internal Use only.
 
 |Name|Type|Description|
 |-----|-----|-----|
-|ForecastDefinition|EntityReference|For Internal Use only.<br />Target forecast definition record. Hierarchies are generated/updated for this FD|
+|ForecastDefinition|EntityReference|For Internal Use only.<br />Targets forecast definition record. Hierarchies are generated/updated for this forecast definition|
 |IsRefresh|Boolean|For Internal Use only.<br />Flag indicating if the hierarchy has to be generated from scratch or updated according to current user hierarchy|
 |RecurrenceIndex|Integer|For Internal Use only.<br />In case above flag is true, the combination of this param and FD provides the exact hierarchy which needs to be updated|
 
@@ -39,4 +39,5 @@ For Internal Use only.
 
 ## See Also
 
+[Developer guide for Dynamics 365 for Sales](../developer-guide.md)<br />
 [User guide for Dynamics 365 for Sales](../../user-guide.md)

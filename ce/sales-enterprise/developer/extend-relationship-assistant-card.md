@@ -37,6 +37,7 @@ As a developer, you can create new card types according to your organizational r
 
 ### See also
 
+- [Developer guide for Dynamics 365 for Sales](developer-guide.md)
 - [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 - [Configure and enable embedded intelligence](../configure-enable-embedded-intelligence.md)
 - [Relationship assistant](../relationship-assistant.md)
