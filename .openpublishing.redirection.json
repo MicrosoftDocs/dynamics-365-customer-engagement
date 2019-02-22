@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/guidance/server/use-itracingservice-plugins.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/use-itracingservice-plugins",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/guidance/client/avoid-window-top.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/avoid-window-top",
       "redirect_document_id": "false"
