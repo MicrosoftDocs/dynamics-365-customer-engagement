@@ -2,7 +2,7 @@
 title: "Documentation resources for Dynamics 365 for Sales | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 for Sales."
 keywords: sales;help
-ms.date: 10/16/2018
+ms.date: 02/22/2018
 ms.service:
   - dynamics-365-sales
 ms.custom:
@@ -73,10 +73,10 @@ topic-status: Drafting
 
 </td><td>
 
-<h2>Develop</h2>
-<li><a href="../sales-enterprise/extend-relationship-assistant-card.md" data-raw-source="[Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)">Create custom cards in Relationship assistant</a></li>
-<li><a href="../sales-enterprise/sample-extend-relationship-assistant-card-type.md" data-raw-source="[Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)">Sample: Extend Relationship assistant card type (custom card)</a></li>
-
+<h2>Developer guide</h2>
+<li><a href="../sales-enterprise/developer/extend-relationship-assistant-card.md" data-raw-source="[Create custom cards in Relationship assistant](../sales-enterprise/developer/extend-relationship-assistant-card.md)">Create custom cards in Relationship assistant</a></li>
+<li><a href="../sales-enterprise/developer/sample-extend-relationship-assistant-card-type.md" data-raw-source="[Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/developer/sample-extend-relationship-assistant-card-type.md)">Sample: Extend Relationship assistant card type (custom card)</a></li>
+<li><a href="../sales-enterprise/developer/ManualForecasting-Reference.md" data-raw-source="[Manual Forecasting Reference documentation](../sales-enterprise/developer/ManualForecasting-Reference.md)">Manual Forecasting Reference documentation</a></li>
 </td></tr>
 
 <tr><td>
