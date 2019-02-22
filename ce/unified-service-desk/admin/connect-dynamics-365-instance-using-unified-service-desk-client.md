@@ -68,13 +68,15 @@ Single Sign On (SSO) in Unified Service Desk authenticates users to access Micro
 
 ### Understand SSO for Unified Service Desk
 
-While sign in to Unified Service Desk with Customer Engagement apps credentials, you are again prompted to enter Customer Engagement apps credentials to connect to Customer Engagement server. 
+While signing in to Unified Service Desk with Customer Engagement apps credentials, you are shown a dialog to enter Customer Engagement apps credentials to connect to Customer Engagement server. Enabling SSO for Unified Service Desk lets you sign in to Unified Service Desk and Customer Engagement server by entering the credentials once. By default, the SSO feature is enabled. 
 
-Enabling SSO for Unified Service Desk lets you sign in to Unified Service Desk and Customer Engagement server by entering the credentials once.
+**SingleSignOnThreshold** indicates the timeout period for the duration (in milliseconds) that the Unified Service Desk waits before prompting you the Customer Engagement server sign in screen to enter the credentials. By default **SingleSignOnThreshold** value is 5000 milliseconds. To change the value, configure the **SingleSignOnThreshold** UII option and enter a value of your choice in milliseconds.
 
-### How to enable to SSO
+### Enable/disable Single Sign On
 
-To enable SSO for Unified Service Desk, you must the configure the <UII option name> UII option and set it to <\value>.
+By default the SSO feature is enabled for Unified Service Desk,. To disable the SSO feature, you must the configure the **SingleSignOn** UII option and set it to **False**. If you leave the value bank, then the SSO is still enabled.
+
+To disbale the SSO feature, follow the steps:
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
@@ -84,9 +86,24 @@ To enable SSO for Unified Service Desk, you must the configure the <UII option n
 
 4. On the **Active UII Options** page, select **+ New**.
 
-5. On the new page, enter the <UII option name> for the **Global Option** field and enter the <\value> for the **Value** field.
+5. On the new page, enter the <UII option name> for the **SingleSignOn** field and enter the **False** for the **Value** field.
 
 7. Select **Save**.
+
+### Change threshold period
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
+
+3. Choose **Options**.  
+
+4. On the **Active UII Options** page, select **+ New**.
+
+5. On the new page, enter the <UII option name> for the **SingleSignOnThreshold** field and enter time in miiliseconds for the **Value** field.
+
+7. Select **Save**.
+
 
 <a name="ConfigureSignIn"></a>   
 ## Configure sign-in information  
