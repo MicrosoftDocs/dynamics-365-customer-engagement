@@ -1,0 +1,34 @@
+---
+title: "Project accurate revenue with sales forecasting (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Accurately project sales for your team and estimate the revenue by using sales forecasting in Dynamics 365 for Sales."
+keywords: ""
+ms.date: 02/28/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.1"
+ms.assetid: 3f06063b-900d-40dd-a20b-d48e216a9444
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+topic-status: Tech Reviewing
+---
+
+# Project accurate revenue with sales forecasting
+
+Forecasting helps organizations in projecting how much a sales team can sell or in estimating the revenue of the organization. This information in turn provides necessary insights into how to manage their resources or cash flow.
+Similarly, sales people can use forecasting to prevent deals from slipping away by spotting pipeline risks and tracking how they are performing against their targets.
+To start forecasting, a sales manager must create a forecast definition that has information about parameters such as the period for which the forecast should be generated or the data to use for forecasting. 
+While working on opportunities, sales people define what forecast category an opportunity is in. The forecast category is used to determine the different confidence levels of an opportunity as it moves through the different stages before it is converted to a sale.
+
+### See also
+[Create a forecast definition](create-forecast-defintion.md)  
+[Capture forecast category for opportunity](capture-forecast-category-opportunity.md)  
+[View forecasts](view-forecasts.md)
