@@ -49,7 +49,7 @@ By setting security roles for users, you control the types of data and entities 
 
 **Field Service—Inventory Purchase** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory related entities within his or her business unit. An example is processing a product return for one or many lines of business.
 
-**IoT - Administrator** and **IoT - Endpoint User** are designed for users who are responsible for device registration and device data pulls which are IoTHub operations related to Connected Field Service. These roles are characterized by full CRUD abilities for IoT  related entities. An example is access to all IoT Alerts and devices.
+**IoT - Administrator** and **IoT - Endpoint User** are designed for users who are responsible for device registration and device data pulls which are IoTHub operations related to Connected Field Service. These roles are characterized by full CRUD abilities for IoT  related entities. An example is access to all IoT Alerts and devices. For more information see the topic on [setting up security roles for Connected Field Service](cfs-security-roles.md)
 
 ## Set up a user for field service 
   
