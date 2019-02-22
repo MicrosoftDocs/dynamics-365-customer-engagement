@@ -280,7 +280,7 @@ When you want to access and debug all the Chrome Process running in a desktop lo
 
 To provide access to the desktop to connect and debug locally, use the **ChromeRemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `localhost:<\port number>` of the local desktop. You can see all the Chrome Process running in that desktop and then you can debug.
 
-Also, within Unified Service Desk client application, you can debug a Chrome Process by using the keyboard shortcut **F12** to launch the Google Chrome **Developer Tools**.
+Also, within Unified Service Desk client application, you can debug a Chrome Process by using the keyboard shortcut **F12** to launch the Google Chrome **Developer Tools**. To learn more, see [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md).
 
 ### Add the ChromeRemoteDebuggingPort UII option
 
@@ -292,11 +292,27 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 4. Choose **Others** for the **Global Option** field.
 
-5. Type **ChromeRemoteDebuggingPort** for the **Name** field.
+5. Type **ChromeRemoteDebuggingPort** for the **Name** field, and type the port number value for the **Value** field. For example: `1030`.
 
-6. Type the port number value for the **Value** field. For example: `1030`.
+6. Select **Save**.
 
-7. Select **Save**.
+## Render text clarity with Chrome Process
+
+While using Chrome Process to host web applications in Unified Service Desk if text appears slightly blurred, then add the **ChromeSharpRendering** UII option and set the value as **True**. This option renders the text clearly when using Chrome Process to host web aplications in Unified Service Desk. To enable this option, you must add the **ChromeSharpRendering** UII option. To learn more, see [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md). 
+
+### Add the ChromeSharpRendering UII option
+
+1. Sign in to Dynamics 365 for Customer Engagement apps.
+
+2. Go to **Settings** > **Unified Service Desk** > *Options*.
+
+3. On the Active UII Options page, select **+ New**. 
+
+4. Choose **Others** for the **Global Option** field.
+
+5. Type **ChromeSharpRendering** for the **Name** field and type True for the **Value** field. 
+
+6. Select **Save**.
 
 ## Limitations
 

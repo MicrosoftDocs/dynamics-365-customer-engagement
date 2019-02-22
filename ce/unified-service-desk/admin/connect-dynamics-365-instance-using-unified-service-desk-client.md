@@ -62,17 +62,27 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
    ![Unified Service Desk Change Credentials screen](../../unified-service-desk/media/usd-second-signin.png "Unified Service Desk Change Credentials screen")  
 
-## Set up Single Sign On (SSO) for Unified Service Desk
+## Single Sign On (SSO) for Unified Service Desk
 
-Single Sign On (SSO) in Unified Service Desk authenticates users to access Microsoft Dynamics 365 for Customer Engagement apps using the Dynamics 365 for Customer Engagement apps credentials.
+Single Sign On (SSO) in Unified Service Desk authenticates users to access Microsoft Dynamics 365 for Customer Engagement apps using the Dynamics 365 for Customer Engagement apps credentials with out entering the credentials multiple times.
 
 ### Understand SSO for Unified Service Desk
 
-While signing in to Unified Service Desk with Customer Engagement apps credentials, you are shown a dialog to enter Customer Engagement apps credentials to connect to Customer Engagement server. Enabling SSO for Unified Service Desk lets you sign in to Unified Service Desk and Customer Engagement server by entering the credentials once. By default, the SSO feature is enabled. 
+While signing in to Unified Service Desk you enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. To avoid entering credentials multiple times, the Signle Sign On (SSO) feture is instroduced. 
+By default, the SSO feature is enabled and you need to enter the credentials only once while signing in to Unified Service Desk. 
 
-**SingleSignOnThreshold** indicates the timeout period for the duration (in milliseconds) that the Unified Service Desk waits before prompting you the Customer Engagement server sign in screen to enter the credentials. By default **SingleSignOnThreshold** value is 5000 milliseconds. To change the value, configure the **SingleSignOnThreshold** UII option and enter a value of your choice in milliseconds.
+**SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds for Unified Service Desk to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default **SingleSignOnThreshold** value is 5000 milliseconds (5 seconds). To learn more [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
-### Enable/disable Single Sign On
+To change the value, configure the **SingleSignOnThreshold** UII option and enter a value in the range **5000-60000** milliseconds (5-60 seconds). If you enter 0 as the value, then the **SingleSignThreshold** is disabled, and you might need to enter the crendentials multiple times. If you enter a value more than **60000** milliseconds, then the Unified Service Desk defaults the value to **5000** milliseconds.
+
+|Value in milliseconds | Description |
+|-------|------------------------|
+| **5000** | Default value |
+| **5000-60000** | Accepted value range |
+| **0** | **SignleSignOnThreshold** is disabled |
+| **> 60000** | Value is defaulted to **5000** milliseconds |
+
+<!-- ### Enable/disable Single Sign On
 
 By default the SSO feature is enabled for Unified Service Desk,. To disable the SSO feature, you must the configure the **SingleSignOn** UII option and set it to **False**. If you leave the value bank, then the SSO is still enabled.
 
@@ -88,9 +98,9 @@ To disbale the SSO feature, follow the steps:
 
 5. On the new page, enter the <UII option name> for the **SingleSignOn** field and enter the **False** for the **Value** field.
 
-7. Select **Save**.
+7. Select **Save**. -->
 
-### Change threshold period
+### Change SignleSignOnThreshold value
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
@@ -100,7 +110,7 @@ To disbale the SSO feature, follow the steps:
 
 4. On the **Active UII Options** page, select **+ New**.
 
-5. On the new page, enter the <UII option name> for the **SingleSignOnThreshold** field and enter time in miiliseconds for the **Value** field.
+5. On the new page, enter the **SingleSignOnThreshold** for the **Global Option** field and enter time in miiliseconds for the **Value** field.
 
 7. Select **Save**.
 
