@@ -29,6 +29,6 @@ To start forecasting, a sales manager must create a forecast definition that has
 While working on opportunities, sales people define what forecast category an opportunity is in. The forecast category is used to determine the different confidence levels of an opportunity as it moves through the different stages before it is converted to a sale.
 
 ### See also
-[Create a forecast definition](create-forecast-defintion.md)  
+[Create a forecast definition](create-forecast-definition.md)  
 [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)  
 [View forecasts](view-forecasts.md)
