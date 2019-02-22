@@ -28,20 +28,22 @@ search.app:
 
 # Security Roles for Connected Field Service
 
-Goal is to enable existing Field Service users (such as dispatchers, technicians/resources & administrators) to access CFS/IoT entities.
+Security for connected field service entities should be added to existing field service security roles for field service administrators, dispatchers, and resources/technicians. 
 
+Doing this will give appropriate access to IoT entities including but not limited to IoT Alerts, Assets, Devices and Commands which are included with Field Service v8.3+.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](media/cfs-entities-navbar.png)
 
-In general, mimic the 'Customer Asset' permissions for IoT entities
+In general, the access a field service administrator, dispatcher, and resources/technician should be given to IoT entities mimics the access the existing field service security role gives to the Customer Asset entity.
 
 ## Prerequisites
 
-Pre-req: FS 8.3
-Best practice on security roles (applies to all of FS and not just CFS)
-	- Copy existing out of box roles and customize your own copy.
-Product updates will overwrite any changes made to the security roles.
+- Field Service 8.3+
+- It is highly recommended to make copies of the Field Service security roles and assign the copied security roles to users. this will prevent product updates from overwriting your custom security. 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of copying a security role](media/admin-security-role-copy.png) 
+
 
 ## Add IoT security to administrator security role
 
