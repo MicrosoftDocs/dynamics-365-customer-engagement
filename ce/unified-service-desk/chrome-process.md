@@ -296,7 +296,7 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 6. Select **Save**.
 
-## Render text clarity with Chrome Process
+## Render sharper text when using Chrome Process
 
 While using Chrome Process to host web applications in Unified Service Desk if text appears slightly blurred, then add the **ChromeSharpRendering** UII option and set the value as **True**. This option renders the text clearly when using Chrome Process to host web aplications in Unified Service Desk. To enable this option, you must add the **ChromeSharpRendering** UII option. To learn more, see [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md). 
 

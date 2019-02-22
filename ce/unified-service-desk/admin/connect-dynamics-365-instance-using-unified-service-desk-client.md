@@ -62,7 +62,9 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
    ![Unified Service Desk Change Credentials screen](../../unified-service-desk/media/usd-second-signin.png "Unified Service Desk Change Credentials screen")  
 
-## Single Sign On (SSO) for Unified Service Desk
+## Single Sign On (SSO) for Unified Service Desk - Preivew
+
+[This section is pre-release documentation of SSO feature and is subject to change.]
 
 Single Sign On (SSO) in Unified Service Desk authenticates users to access Microsoft Dynamics 365 for Customer Engagement apps using the Dynamics 365 for Customer Engagement apps credentials with out entering the credentials multiple times.
 
