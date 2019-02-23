@@ -2,7 +2,7 @@
 title: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online | MicrosoftDocs"
 description: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online"
 ms.custom: 
-ms.date: 12/06/2018
+ms.date: 02/22/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online
+# Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -126,7 +126,8 @@ All new users will have these settings applied to their mailbox.
 <a name="BKMK_ApproveEmail"></a>   
 
 ## Approve email  
- You need to approve the email address of each user mailbox or queue before the mailbox can process email.  
+
+You only need to approve the email address for a user when their email address has changed in Dynamics 365 for Customer Engagement.
   
 > [!NOTE]
 >  You must be an Office 365 Global administrator or a Dynamics 365 service administrator to approve emails.  
