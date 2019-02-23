@@ -21,3 +21,4 @@ For more information, please check out the following:
 - Blog: [New AI, mixed reality business solutions lead the way for Microsoft Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/2019/02/21/new-ai-mixed-reality-business-solutions-lead-the-way-for-microsoft-dynamics-365/)
 - Website: [Unify your customer data to optimize engagement](https://dynamics.microsoft.com/ai/customer-insights/)
 - Video: [Microsoft Dynamics 365 Customers Insights product demo](https://youtu.be/yayYM7cc3LU)
+- Documentation: [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview)
