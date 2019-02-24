@@ -1,7 +1,7 @@
 ---
-title: "Add and edit multiregional instances of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
+title: "Add and edit multiregional instances of Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 02/24/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: d16732d0-ab5e-4f9c-8bc8-d097cd2f5f2f
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -24,6 +24,11 @@ search.app:
 # Add and edit multiregional instances
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!IMPORTANT]
+> Creating multiregional instances is not currently supported. Please check back for availability. 
+
+<!-- 
 
 For multinational companies with employees and customers distributed around the world, you can create and manage [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances specific to your global regions. You can create an instance in a different region than where your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] tenant resides. Local instances can provide quicker data access for users in that region. Be sure to read [A multi-instance deployment](../admin/multiple-online-instances-tenants.md#BKMK_Single) to understand the features of multiple instances.  
   
@@ -140,3 +145,5 @@ For multinational companies with employees and customers distributed around the 
  [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 for Customer Engagement apps (online) security roles](grant-users-access.md) <br />
  [Grant users access to Microsoft Dynamics 365 for Customer Engagement apps (online) as a Microsoft Online service](../admin/grant-users-access.md)   
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)
+
+-->
