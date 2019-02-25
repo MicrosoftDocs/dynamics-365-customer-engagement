@@ -30,3 +30,6 @@ Take a look at the [October '18 Release Notes for Business Applications](https:/
 
 ## In development
 To see what we have planned in the near future, head over to the [April '19 Release Notes for Business Applications](https://docs.microsoft.com/business-applications-release-notes/April19/service/dynamics365-field-service/planned-features).
+
+> [!Note]
+> To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service) 
