@@ -91,8 +91,22 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 |Row2     |         |
 
 
+----------------------------------------------------------------------------
+---------------------------------------------------------------------------
 
+### Omni-channel administrator
 
+#### User Management 
+- Can  view user list </br> 
+- Can edit roles of a user </br> 
+- Can edit default presence/default capacity/queue assignment of a user
+
+#### Custom Presence
+
+- View presence list
+- Add/edit/delete presence
+- Add users to presence
+- Remove users from presence
 
 
 ### See also
