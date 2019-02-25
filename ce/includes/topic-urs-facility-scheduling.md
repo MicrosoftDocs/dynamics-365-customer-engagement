@@ -413,7 +413,7 @@ Let's take a look at the following work location types:
 
 - When upgrading from Field Service v7.x to v8.x, facility type resources may not appear in schedule assistant results due to default filter settings. To fix this, go to **Field Service** > **Schedule Board**. Double-click on a schedule board tab, and then **Open Default Settings** in the upper right. Scroll down to **Other Settings**. Set **Retreive Resources Query** to 3.0.0.0 as seen in the following screenshot. **Filter Layout** and **Resource Cell Template** should also be set to 3.0.0.0.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the relevant fields set to the 3.0.0.0 settings](./media/ scheduling-schedule-board-tab-settings-resource-query.png)
+> ![Screenshot of the relevant fields set to the 3.0.0.0 settings](./media/scheduling-schedule-board-tab-settings-resource-query.png)
 
 
 ## Additional notes
