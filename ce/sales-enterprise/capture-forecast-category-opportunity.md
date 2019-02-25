@@ -41,7 +41,8 @@ The forecast category is used to determine the different confidence levels of an
 
     -  **Omitted (exclude from forecast).** If you don’t want an opportunity’s numbers to be excluded from forecasting, use this category. 
 
-    ![Capture forecast category on an opportunity](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
+    > [!div class="mx-imgBorder"]
+    > ![Capture forecast category on an opportunity](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
 
 > [!TIP]
 > You can create a workflow to change the forecast category based on changes in the business process stage or in the probability of an opportunity.  
