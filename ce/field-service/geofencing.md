@@ -82,7 +82,7 @@ activate remind to change status upon leaving
 - will have to create custom workflows by using our workflows as a template
 
 ## Configuration
-- pro tip: to test breaking a geofence you can physically break the geofence by syncing your mobile app within the geofence, or as a system adminsitrator you cna manually update lat/long in mobile audit table
+- pro tip: to test breaking a geofence you can physically break the geofence by syncing your mobile app within the geofence, or as a system administrator you cna manually update lat/long in mobile audit table
 - - As part of this feature, latitude and longitude fields have been added to the bookable resource and are populated with the most recent location these could and should be added to the bookable resource form
 ## Additional notes
 
