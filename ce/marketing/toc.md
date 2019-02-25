@@ -27,7 +27,7 @@
 #### [Event management settings](events-settings.md)
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
-#### [Quota management](quota-management.md)
+#### [Quota limits](quota-management.md)
 #### [Control access to designer features](designer-feature-protection.md)
 
 ### Customize Marketing
@@ -141,7 +141,10 @@
 
 ### Analyze marketing results
 #### [Analyze results to gain insights](insights.md)
+#### [Insights glossary](insights-glossary.md)
 #### [Preview: Create custom analytics with Power BI](custom-analytics.md)
+
+### [Activate and use preview features](marketing-preview-features.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
@@ -156,6 +159,9 @@
 #### [Remove custom channel](developer/remove-custom-channel.md)
 ### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
 ### [Build and host a custom event website](developer/event-management-web-application.md)
+#### [Self-hosted](developer/self-hosted.md)
+#### [Dynamics 365 Portal hosted](developer/portal-hosted.md)
+#### [Localization](developer/event-portal-localization.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)

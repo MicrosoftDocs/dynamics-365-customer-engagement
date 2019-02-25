@@ -63,6 +63,6 @@ The author name, user name, profile picture, location, website, and bio is displ
  [!INCLUDE[cc_privacy_mse_engagement_analytics](../includes/cc-privacy-mse-engagement-analytics.md)]  
   
 ### See Also  
-[Get connected to the social conversation using Microsoft Social Engagement](get-connected-social-conversation.md)    
+[Connect with customers. Empower your organization. Create real results.](overview.md)    
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)
  

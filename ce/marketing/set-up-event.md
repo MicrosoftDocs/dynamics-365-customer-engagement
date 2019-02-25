@@ -51,6 +51,8 @@ After you enter values for all the required fields, you can save the record. You
 
 The main body of the page repeats all the important information requested by, and shown in, the workflow, plus much more. It's organized into tabs, which you can navigate by using the links provided near the top of the page body. You can enter your planning details in the main body of the page whenever you want to&mdash;you don't have to wait until you get to a specific part of the workflow. See the following subsections for a summary of how to use each available tab.
 
+Only [live events, sessions, and tracks](go-live.md#event-entities) are shown on the [event website](set-up-event-portal.md). When you're ready to go live with an event, session, or track, open the relevant record and set its **Publish status** to **live**. Contacts will then be able to visit your event website, read about the event, and register online.
+
 ### The General tab
 
 Here you can see and edit your basic event information, including
@@ -77,10 +79,15 @@ Here you can see and edit your basic event information, including
 - **Waitlist**: This section only appears if you enable the waitlist in the **Venue constraints** section. Use it to configure options for how to [invite waiting contacts](event-waitlist.md) when space becomes available.
 - **Webinar setup**: This section only appears for webinar and hybrid events. Use the settings here to [set up your webinar configuration](set-up-webinar.md) and find the URLs for viewing and presenting the webinar.
 
+<a name="agenda-tab"></a>
+
 ### The Agenda tab
 
 The **Agenda** tab includes details about the schedule of sessions happening during your event. Here you can find, create, and edit each of the following for the current event:
 
+- **Allow registrants to create their own agenda**: This setting affects the way checkout works on the [event website](set-up-event-portal.md) as follows:
+    - When this is set to **Yes**, the website offers session-level registration. When a registrant selects **Register now**, the event website shows a list of all of the available sessions, and the registrant can add one, some, or all of them as needed. This option only works for events where registration is free (without online payment). With this option, [passes](#event-passes) won't be presented for selection during checkout.
+    - When this is set to **No**, the website offers pass-level registration. When a registrant selects **Register now**, the event website shows a list of [passes](#event-passes) available, each of which provides access to one or more specific sessions and can also show a different price. Registrants can choose the pass that best matches their needs, but can't make custom session selections. This option works for both free and paid passes and events.
 - **Sessions**: Each [session](#sessions) is typically a single presentation, class, discussion, or webinar.
 - **Tracks**: Each (external) [track](#sessions) is a collection of related, non-conflicting sessions that likely would be of interest to the same audience. Attendees might sign up for a specific track, which you can manage by using [passes](#event-passes). You can also set up internal tracks, which are not exposed to attendees but can help you with your planning.
 - **Speaker engagements**: Each [speaker engagement](#speakers) maps a speaker to a session occurring at your event.
@@ -137,13 +144,14 @@ The core attractions of your event offering will typically be its sessions and s
 
 A session represents a subdivision of things that are happening at your event. Each session is usually a something like a seminar or keynote, but the concept is actually quite flexible so you can adapt it as needed. For example, if your event is a trade show rather than a conference, you can use sessions to represent booths.
 
-A large conference might have several sessions running concurrently, and might even feature several session *tracks*, which organize multiple related and non-conflicting sessions by audience so attendees can easily choose the best track for themselves without having to study the entire offering. Later, you'll be able up event and session passes to manage ticketing and enable attendees to choose a track.
+A large conference might have several sessions running concurrently, and might even feature several session *tracks*, which organize multiple related and non-conflicting sessions by audience so attendees can easily choose the best track for themselves without having to study the entire offering. Later, you'll be able up event and session passes to manage ticketing.
 
-There are two types of tracks: _internal_ and _external_. Use internal tracks during the planning phase to group sessions along organization lines, such as according to team resources or required equipment. Use external tracks to group sessions by content or audience, and to enable ticketing and registration. External tracks are published on customer-facing platforms such as event websites and mobile apps. As needed, you can set up a pass type for each relevant external track, but you wouldn't set up passes for internal tracks. Use the **Track Type** setting, at the top of the form to set the track to internal or external.
+There are two types of tracks: _internal_ and _external_. Use internal tracks during the planning phase to group sessions along organization lines, such as according to team resources or required equipment. Use external tracks to group sessions by content or audience. External tracks are published on customer-facing platforms such as event websites and mobile apps. As needed, you can set up a pass type for each relevant external track, but you wouldn't set up passes for internal tracks. Use the **Track Type** setting, at the top of the form to set the track to internal or external.
 
-Use the **Agenda** tab of an event record to view and set up sessions and sessions tracks for that event. 
+Use the **Agenda** tab of an event record to view and set up sessions and sessions tracks for that event.
 
 - Each session is associated with a specific event and speaker, and includes scheduling details.
+- Only [live sessions and tracks](go-live.md#event-entities) are shown on the [event website](set-up-event-portal.md). When you're ready to go live with a session or track, open the relevant record and set its **Publish status** to **live**.
 - For each track, you can assign an audience and a few other descriptive details and then add member sessions, one at a time. All sessions in a track must be from the same event.
 
 <a name="speakers"></a>
@@ -166,13 +174,16 @@ When setting up a speaker engagement, you map a speaker to a specific session fo
 
 ## Set up event passes
 
-Event passes are essentially tickets that you can sell or give away to grant access to your event and/or its various sessions and tracks. Passes are optional, but if you want to use them, you'll start by setting up the basic types of passes that you need for an event. Later, you'll assign a pass of the appropriate type to each attendee by mapping each event registration to one or more pass types. Passes can also be shown on the event website, so attendees can register for the passes they want while registering for the event itself; in this case, the registration/pass mapping is made automatically. For each assigned pass, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] generates a unique QR code, which you can print onto a physical badge that event personnel can quickly scan on entrance to confirm eligibility and record attendance.
+Event passes are essentially tickets that you can sell or give away to grant access to your event and/or its various sessions and tracks. Passes are optional, but if you want to use them, you'll start by setting up the basic types of passes that you need for an event and adding the applicable sessions to each of them. Later, you'll assign a pass of the appropriate type to each attendee by mapping each event registration to one or more pass types. Passes can also be shown on the event website, so attendees can register for the passes they want while registering for the event itself; in this case, the registration/pass mapping is made automatically. For each assigned pass, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] generates a unique QR code, which you can print onto a physical badge that event personnel can quickly scan on entrance to confirm eligibility and record attendance.
 
-For each pass type, you'll set the event where it applies and then assign a category (attendee, speaker, sponsor, journalist, and so on), a price, an allocation (the number available), and other details. You can also assign a session track for the pass, which grants access to all the sessions in that track, but not necessarily to all sessions at the event. To create a pass that applies to a single session, you must create a track that includes just that session.
+For each pass type, you'll set the event where it applies and then assign a category (attendee, speaker, sponsor, journalist, and so on), a price, an allocation (the number available), and other details. You can also assign a collection of one or more sessions for the pass, which grants access to all the sessions in that track, but not necessarily to all sessions at the event. 
 
 For a simple event, you might set up just one pass type, which grants access to all sessions for all types of attendees. For a complex event, you might have passes for each of several session tracks, and might require specific pass types for accessing certain areas of the venue (such as a lounge just for journalists). Passes only make sense for physical attendees—you wouldn't set up passes for webinar-only attendees, events, or sessions.
 
-To view and create passes for an event, open the appropriate event record and go to its **Registration & Attendance** tab.
+To view and create passes for an event, open the appropriate event record and go to its **Registration & Attendance** tab. You can view, edit, and create passes by working in the **Passes** area here. To add sessions to a pass, first create and save it here, then open it for editing and use its **Eligible sessions** tab to add sessions to it.
+
+> [!NOTE]
+> You can add sessions to a pass individually or add an entire track at once. If you choose to add a track, all of the sessions that currently belong to that track will be added to your pass. However, when you add by track, you won't create a link to the track itself; instead, you just add all the sessions that currently belong to that track to the current pass. Future edits to the track won't affect the pass, so you must edit each existing pass specifically if you need to change the sessions that belong to it.
 
 When setting up a pass, pay attention to the **Passes Allocated** field, where you set the number of passes available, and its related fields: **Passes Sold** and **Passes Remaining**. Each time a pass is granted to an attendee, the **Passes Sold** number automatically increases and the **Passes Remaining** number decreases. When **Passes Remaining** reaches zero, that pass will be shown on the portal as "sold out" and will no longer be available for purchase by further attendees. If you set **Passes Allocated** to zero, that pass won't be shown on the portal at all; you might do this for VIP passes, or to keep a pass as a draft until you're ready to publish it by setting **Passes Allocated** to a positive value.
 

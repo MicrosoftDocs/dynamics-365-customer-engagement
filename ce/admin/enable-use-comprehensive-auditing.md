@@ -2,7 +2,7 @@
 title: "Enable and use Activity Logging (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 ms.custom: 
 description: Learn how to enable auditing to be used for reports in the Office 365 Security Compliance Center.
-ms.date: 06/13/2018
+ms.date: 02/21/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 817fb922-355a-4d5c-9d93-a320be31c276
 caps.latest.revision: 1
 author: jimholtz
@@ -24,11 +23,7 @@ search.app:
 ---
 # Enable and use Activity Logging 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
-> [!IMPORTANT]
-> - This feature currently has limited availability.
-> - We expect some changes to this feature.
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches. This information from Activity Logging can be used when you perform a Data Protection Impact Assessment (DPIA) addressing the use of Office and Dynamics 365 for Customer Engagement.  
 

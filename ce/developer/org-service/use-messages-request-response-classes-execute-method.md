@@ -31,7 +31,7 @@ You can use the methods in the <xref:Microsoft.Xrm.Sdk.IOrganizationService> to 
 
 The `Execute` method returns the corresponding response class for the request, a derived class of the <xref:Microsoft.Xrm.Sdk.OrganizationResponse> class. As with the request class, the derived class contains a property for each value in the results parameter collection. All messages have a response, but many do not have any properties on the response. 
 
-Messages are pre-defined in metadata and stored as records in the SDK message entities. For each message you can determine whether it works while connected to the server or from [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)]. This information can be found in the `SdkMessage.Availability` attribute. For more information, see [Plug-in registration entities](../plug-in-registration-entities.md).  
+Messages are pre-defined in metadata and stored as records in the SDK message entities. For each message you can determine whether it works while connected to the server or from [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)]. This information can be found in the `SdkMessage.Availability` attribute. For more information, see [Supported messages and entities for plug-ins](../supported-messages-entities-plugin.md).  
   
 <a name="bkmk_optional_params"></a>
 

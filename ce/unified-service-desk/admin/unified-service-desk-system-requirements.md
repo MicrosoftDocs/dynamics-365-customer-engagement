@@ -2,7 +2,7 @@
 title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps system requirements | MicrosoftDocs"
 description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk for Dynamics 365 for Customer Engagement apps. "
 keywords: 
-ms.date: 11/02/2018
+ms.date: 01/25/2019
 ms.service:
   - dynamics-365-customerservice
 ms.custom:
@@ -53,7 +53,7 @@ This topic provides information about the system requirements for installing the
   > We recommend that you use [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] and [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)].
   > 
   > [!IMPORTANT]
-  >  Although [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)] is currently not supported for use with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, you can use [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)] with [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)].  
+  > [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)] (Preview) is currently supported for use with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. More information: [Edge Process](../edge-process.md)
   > 
   >  <sup>*</sup> [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] is supported for use only with [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)] organizations. Also, [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] may work for systems that are not [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
@@ -61,7 +61,7 @@ This topic provides information about the system requirements for installing the
 
 > [!NOTE]
 > - [!INCLUDE [pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] or higher version installs [!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)]. 
-> - [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] version installs [!INCLUDE[pn_NET_Framework_452_long](../../includes/pn-net-framework-452-long.md)].
+> - [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] version installs Microsoft .NET Framework 4.6.2.
 
 
 - [!INCLUDE[pn_Windows_Identity_Foundation](../../includes/pn-windows-identity-foundation.md)] 3.5 (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)  

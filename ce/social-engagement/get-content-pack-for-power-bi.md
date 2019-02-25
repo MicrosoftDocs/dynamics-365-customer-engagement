@@ -2,13 +2,12 @@
 title: "Get the Social Engagement content pack | Microsoft Docs"
 description: "Download the use the Social Engagement content pack for Power BI."
 keywords: Power BI, content pack, engagement details
-ms.date: 07/11/2018
+ms.date: 01/24/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: c82b4063-c86c-4922-99dd-1f5ddd18cb00
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
 topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
@@ -81,24 +80,24 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
 -   Try [asking a question in the Q & A box](https://docs.microsoft.com/power-bi/power-bi-tutorial-q-and-a) at the top of the dashboard.  
   
--   [Change the tiles](https://powerbi.microsoft.com/documentation/powerbi-service-edit-a-tile-in-a-dashboard/) in the dashboard.  
+-   [Change the tiles](https://docs.microsoft.com/power-bi/service-dashboard-edit-tile) in the dashboard.  
   
--   [Select a tile](https://powerbi.microsoft.com/documentation/powerbi-service-dashboard-tiles/) to open the underlying report.  
+-   [Select a tile](https://docs.microsoft.com/power-bi/service-dashboard-tiles) to open the underlying report.  
   
 -   While your dataset will be scheduled to refreshed daily, you can change the refresh schedule or try refreshing it on demand using **Refresh Now**.  
   
 -   See also:  
   
-    -   [Get started with Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-dashboard-tiles/)  
+    -   [Get started with Power BI](https://docs.microsoft.com/power-bi/service-dashboard-tiles)  
   
-    -   [Get Data for Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-get-data/)  
+    -   [Get Data for Power BI](https://docs.microsoft.com/power-bi/service-get-data)  
   
 ## What's included  
  At the core of this content pack is the term 'Action'. We describe Action as a single, specific interaction with a given social post. For example, assigning a post to a user or retweeting a tweet, etc.  
   
  Depending on the type of action, related information is shown. It’s critical to understand that only actions taken in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] are part of this dataset.  
   
- To get you started quickly, the content pack includes a dashboard based on three [reports](https://powerbi.microsoft.com/documentation/powerbi-service-reports/):  
+ To get you started quickly, the content pack includes a dashboard based on three [reports](https://docs.microsoft.com/power-bi/service-get-data):  
   
 - **Engagement Performance**: Get insights on how your organization is engaging on  social media with KPIs on actions and response times.  
   

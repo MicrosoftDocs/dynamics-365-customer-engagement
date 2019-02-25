@@ -60,8 +60,6 @@ This document provides important, late-breaking information about known issues a
 
 ### Known issues
 
-- Segment names can't have spaces&mdash;use underscores instead.<!-- 695837 -->
-- You can't include lookup fields among your segmentation criteria.<!-- 852372 -->  
 - Metadata used for building conditions and drop-downs shown on the designer isn't localized for non-English organizations. <!-- 992449 -->
 - The **Save** button isn't visible on the command bar after the initial save of the segment. Use the **Save** button in the lower-right corner of the page instead. <!-- 862491 -->
 - When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design profile-based dynamic segments](segments-profile.md). <!-- 1226384 -->
@@ -71,8 +69,11 @@ This document provides important, late-breaking information about known issues a
 
 ### Fixed issues
 
+- Segment names can now include spaces.<br><del>*Segment names can't have spaces&mdash;use underscores instead.*</del> <!-- 695837 -->
+- Segments can now include lookup field values among their selection criteria.<br><del>*You can't include lookup fields among your segmentation criteria.*</del><!-- 852372 -->  
 - Subscription lists now remove unsubscribed contacts from running journeys.<br><del>*Dynamic segments based on subscription marketing lists don't remove unsubscribed contacts from running journeys. The unsubscribe request will be honored in future journeys.*</del>.
 - When you go live with a new segment, the **Members** tab now displays correct status messages as the segment is being provisioned.<br><del>*If you go live with a new segment and then open the **Members** tab right away, you'll see a message telling you that the segment doesn't exist (even though it does). Reload the page, or open another tab and come back, to view the correct message (that the segment is being provisioned). Later, once the segment is finished provisioning, you'll see the list of contacts it contains here.*</del> <!-- 1251946 -->
+
 
 ## Email marketing
 
@@ -86,7 +87,11 @@ This document provides important, late-breaking information about known issues a
 - Support for dynamic email content is being expanded to include look-up values, relations, and logical functions like conditionals and for-each loops. We are rolling this capability out gradually, so it may not yet be available on your tenant. For more information about this feature, and how to find out if it's available to you, see [Advanced dynamic content](dynamic-email-content.md#advanced-dynamic-content). Be sure also to read [How to enter advanced dynamic content in the designer](dynamic-email-content.md#enter-code) for important tips on how to mix these dynamic features into your designs.
 - If you create an email message with dynamic content that attempts to fetch a single value through a one-to-many database relation, then the system won't know which related record to fetch. As a result, the message will end in an error state when published to the sending service and will therefore never get sent (the error checking mechanism currently doesn't catch this error, which is why you can still publish it). An example of a one-to-many relation is the one between contacts and event registrations because each contact can register for multiple events. To prevent this error from occurring, use a for-each loop to enclose any expressions that reference a one-to-many relationship (this will loop through each related record). More information: [Add dynamic content to email messages](dynamic-email-content.md)
 - Email insights include a map showing where recipients were when they opened your message. For Gmail addresses, this information will often be inaccurate because of the way that Gmail caches embedded images. Geographical information can also be inaccurate for recipients using a VPN or a widely distributed corporate network.
-
+- When you use assist edit to place dynamic content with information about the owner of a contact record, the relationship rendered is incorrect. Instead use the following (and remember also to ensure that the relevant entity is [synced to the customer-insights service](marketing-settings.md#dci-sync)):  
+  - If the contact's owner is a user, use:<br/>`contact.contact_systemuser_owninguser.<fieldname>`<br/>(For example, `contact.contact_systemuser_owninguser.firstname` )  
+  - If the contact's owner is a team, use:<br/>`contact.contact_team_owningteam.<fieldname>`<br/>(For example, `contact.contact_team_owningteam.emailaddress` )  
+     <!-- 1380000 -->
+ 
 ### Fixed issues
 
 - When you create a new keyword, the **Save and close** button now correctly returns you to the **Keywords** list.<br><del>*When you save a new keyword for templates or files from a quick-create form, the keyword list isn't displayed, but the record is created successfully.*</del> <!-- 1033440 -->
@@ -100,7 +105,6 @@ This document provides important, late-breaking information about known issues a
 - It can take up to a minute after a marketing page goes live before its public link (full page URL) is ready. Visitors might see an error message on the page prior to this.
 - Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 marketing page), then make sure your page uses HTTPS.
 - Some client-side malware protection tools parse each incoming email, resolve all the links it contains, and then deliver a modified message in which the links have been replaced with their resolved destinations. This process can interfere with the mechanism that Dynamics 365 uses to identify the contact that has clicked on a subscription center link, which means the subscription center won’t work for these contacts. We are working on a fix for this issue.
-
 
 ### Fixed issues
 
@@ -125,6 +129,7 @@ This document provides important, late-breaking information about known issues a
 ## Insights
 
 - Web interactions registered for an anonymous visitor (on a tracked website, marketing page, marketing form, or redirect URL) don't currently become attributed to a contact record if those visitors later become known contacts. Though these interactions remain anonymous, you can still see them under the related entity (marketing page, website, etc.) and they are leveraged to compute the insights for each record. More information: [Websites](#websites) <!--- 1276305 -->
+- Customer journey insights include a count of contacts that stopped their journey midway because the "Contact joined the suppression segment." In the current release,  this count may be unreliable. The suppression segment still works, and the contacts will be stopped correctly on joining it, but some of the contact numbers won't add up due to stopped contacts not getting counted here. <!--- 1331945 -->
 
 ## Event management
 

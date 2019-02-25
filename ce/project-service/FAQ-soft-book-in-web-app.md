@@ -2,8 +2,8 @@
 
 title: How do I "soft book" resources in app version 2.x? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: This article describes how to soft book project team members with Project Service.
-author: NeilWOrint 
-manager: ShellyHa
+author: JohnPBurrows 
+manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice

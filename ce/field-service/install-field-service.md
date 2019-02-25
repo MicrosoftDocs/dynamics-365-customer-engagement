@@ -1,14 +1,14 @@
 ---
-title: "Install Dynamics 365 for Customer Engagement for Field Service (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Install Dynamics 365 for Field Service (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 12/15/2018
-ms.reviewer: 
+ms.date: 2/15/2019
+ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
-author: shellyhaverkamp
-ms.author: FieldServiceDave
+author: FieldServiceDave
+ms.author: daclar
 ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
@@ -19,11 +19,15 @@ search.app:
   - D365FS
 --- 
 
-# How to install Dynamics 365 for Customer Engagement for Field Service 
+# How to install Dynamics 365 for Field Service 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This article describes how to install the Dynamics 365 for Customer Engagement for Field Service application for Dynamics 365 for Customer Engagement (online). It also includes steps to install the mobile solution, and describes how field technicians download and install the mobile app from their device's app store.
+This article describes how to install the Dynamics 365 for Field Service application for Dynamics 365 for Customer Engagement (online). It also includes steps to install the mobile solution, and describes how field technicians download and install the mobile app from their device's app store.
+
+> [!Note]
+> Installations and upgrades of the Field Service application typically take 30 or more minutes.
+
 
 ## Prerequisites
 Before you begin, you need a Dynamics 365 for Customer Engagement (online) organization with system administrator access. If you don't already have one set up, [sign up for a Field Service trial](https://trials.dynamics.com/). 
@@ -38,7 +42,7 @@ You can add a trial or a purchased subscription of the Field Service application
 
 1. Using system administrator credentials, sign in to the Dynamics 365 for Customer Engagement organization.
 
-2. Go to **Settings > Microsoft AppSource**. Search for **field service trial**, select **Dynamics 365 for Customer Engagement for Field Service trial**, and then select **Free Trial**. 
+2. Go to **Settings > Microsoft AppSource**. Search for **field service trial**, select **Dynamics 365 for Field Service trial**, and then select **Free Trial**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service tile in AppSource](media/field-service-trial-appsource.png)  
@@ -50,7 +54,7 @@ You can add a trial or a purchased subscription of the Field Service application
 ### Purchase a subscription of Field Service and add it to a Dynamics 365 for Customer Engagement organization
 
 1. On the **Office365 Admin Center** go to **Billing > Purchase Services**. 
-2. Select **Dynamics 365 for Customer Engagement for Field Service Enterprise Edition**, and then select **Buy now**. 
+2. Select **Dynamics 365 for Field Service Enterprise Edition**, and then select **Buy now**. 
 3. Follow the on-screen instructions to install the application. Installation may take several minutes.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of purchasing Field Service from Office 365 Admin center](media/field-service-purchase.png)  
@@ -157,7 +161,7 @@ The mobile project template contains all customizations for the Field Service Mo
 8. Double-click the mobile project template parent, and then select **Publish All**. 
 
 > [!Note]
-> For Field Service Mobile v11.1, publish to 9.2 - 10.1.
+> For Field Service Mobile v11.2, publish to 11.2.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of publishing mobile project](media/mobile-install-project-publish-all.png)  

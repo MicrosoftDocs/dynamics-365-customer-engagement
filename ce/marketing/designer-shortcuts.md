@@ -154,9 +154,9 @@ When a text element is selected, you are able to enter and style text within tha
 - **Alt+Down-Arrow**: Open assist edit inside a text element.
 - **Alt+Down-Arrow** or **Down-Arrow**: Open assist edit inside the link field (or any field that supports assist edit).
 
-## Keyboard commands for customer journeys and lead scoring models
+## Keyboard shortcuts for customer journeys and lead scoring models
 
-Most of the standard screen navigation and selection keyboard commands also work when you are designing a customer journey or lead scoring model. In addition, some special assistance is provided to let you work with the tiles and arrange them on the canvas.
+Most of the standard navigation and selection keyboard commands also work when you are designing a customer journey or lead scoring model. In addition, some special assistance is provided to let you work with the tiles and arrange them on the canvas.
 
 ![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
 
@@ -220,6 +220,13 @@ To move quickly between the main areas of the customer journey and lead-scoring 
 - **Alt+2**: Go to first tile on the canvas.
 - **Alt+3**: Go to **Toolbox**/**Properties** panel.
 - **Ctrl+Alt+D**: Go to the selected tile.
+
+## Keyboard shortcuts for the marketing calendar
+
+Most of the standard navigation and selection keyboard commands function as usual when you are working with the marketing calendar. In addition, the following calendar-specific shortcuts are provided:
+
+- **Ctrl + F6**: Remove focus from the calendar (for when you want to leave the calendar).
+- **Ctrl + Shift + G**: Open the date picker (for when you want to change the date/time settings for any calendar item).
 
 ### See also
 

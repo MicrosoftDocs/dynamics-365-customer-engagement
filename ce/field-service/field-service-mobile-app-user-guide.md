@@ -1,5 +1,5 @@
 ---
-title: "Field Service Mobile Setup (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Field Service Mobile Setup (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/29/2018
@@ -43,7 +43,7 @@ For more information, visit the [Field Service installation (web + mobile)](../f
 
 ## Install the mobile app on a phone or tablet    
 
-To get the mobile app, search and download **Field Service Mobile** from the Windows, Apple, or Google Play app stores, or visit the following links. **Field Service Mobile** requires Field Service versions **7.5.5** and **8.2+**.
+To get the mobile app, search and download **Field Service Mobile** from the Windows, Apple, or Google Play app stores, or visit the following links. **Field Service Mobile** requires Field Service versions **7.5.5** or **8.2+**.
 
 - [Download for Windows](http://aka.ms/fsmobile-windows)
 - [Download for iOS (Apple)](http://aka.ms/fsmobile-iOS)
@@ -374,6 +374,6 @@ If work still needs to be done, you can create a follow-up booking.
  
 ### See also  
 
-- [Dynamics 365 for Customer Engagement for Field Service - User's Guide](../field-service/user-guide.md) 
+- [Dynamics 365 for Field Service - User's Guide](../field-service/user-guide.md) 
   
-- [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)
+- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)

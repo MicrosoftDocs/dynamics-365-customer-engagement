@@ -1,6 +1,6 @@
 ---
-title: Overview of Service Scheduling (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
-description: Know the basics of service and service scheduling in Dynamics 365 for Customer Engagement for Customer Service
+title: Overview of Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know the basics of service and service scheduling in Dynamics 365 for Customer Service
 keywords: Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
 applies_to: 
@@ -198,7 +198,7 @@ Make sure that you have the correct security role or equivalent permissions. Kno
 > If you have been using the legacy scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity.
 
 ### Migrate Service Activity
-To know how to migrate your service activity entity records from legacy to new experience by running SDK code samples, see [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
+To know how to migrate your service activity entity records from legacy to new experience by running SDK code samples, see [Migrate Service Activity entity](migrate-service-activity-entity.md).
 
 ## Access scheduling in the Customer Service Hub
 With the Customer Engagement apps version 9.1 release, Scheduling is powered by Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.

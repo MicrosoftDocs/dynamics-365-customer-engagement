@@ -1,5 +1,5 @@
 ---
-title: "Set up bookable resources (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Set up bookable resources (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
@@ -30,7 +30,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-A resource in Dynamics 365 for Customer Engagement for Field Service is anything that needs to be scheduled. This can be users, crews, service centers, company assets (equipment), accounts, or contacts.  
+A resource in Dynamics 365 for Field Service is anything that needs to be scheduled. This can be users, crews, service centers, company assets (equipment), accounts, or contacts.  
   
 <a name="BKMK_CreateBookableResource"></a>   
 ## Create a bookable resource  
@@ -83,7 +83,9 @@ For example, the resource in the following screenshot is a field techncian at yo
 <a name="BKMK_AddWorkHours"></a>   
 ## Add work hours  
   
-1.  Once the resource has been created, at the top, click the arrow next to the resource name, and then click **Work Hours**.  
+1.  Once the resource has been created:
+    - In the classic interface, select the arrow next to the resource name, and choose **Work Hours**.
+    - In the unified client interface, select **Show Working Hours** at the top of the form. 
   
 2.  Click the **Set-Up** drop-down list and choose one of the following:  
   
@@ -112,7 +114,7 @@ For example, the resource in the following screenshot is a field techncian at yo
 3. Use the tooltips to help fill in your information, and then click **Save & Close**.  
   
 ### See also   
- [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
  [Set up characteristics](../field-service/set-up-characteristics.md)   
  [Set up resource pay types](../field-service/set-up-resource-pay-types.md)<br>

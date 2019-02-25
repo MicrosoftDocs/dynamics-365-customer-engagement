@@ -31,11 +31,6 @@ An internal plug-in named ServiceBusPlugin is provided with [!INCLUDE[pn_dynamic
  You can also write a custom workflow activity that can post the execution context to the service bus and include this activity in your workflows. Sample code for a custom [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]-aware workflow activity is provided in the topic [Sample: Azure Aware Custom Workflow Activity](sample-azure-aware-custom-workflow-activity.md).  
   
 ### See also  
- [Walkthrough: Register a Plug-in using the Plug-in Registration Tool](walkthrough-register-plugin-using-plugin-registration-tool.md)   
- [Writing a Plug-in](write-plugin.md)   
- [Plug-in Isolation, Trust, and Statistics](plugin-isolation-trusts-statistics.md)   
- [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md)   
- [Registering Plug-ins](register-deploy-plugins.md)   
- [Event Execution Pipeline](event-execution-pipeline.md)   
- [Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)   
- [ServiceEndPoint Entity](entities/serviceendpoint.md)
+[Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)  
+[Write a custom Azure-aware plug-in](write-custom-azure-aware-plugin.md)  
+[Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md)

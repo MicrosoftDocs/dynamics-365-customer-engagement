@@ -28,7 +28,7 @@ The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
   
 ### Get the public key token  
   
-1.  Load the assembly containing the offline plug-in into the Plug-in Registration tool. For more information about how to use the tool, see [Walkthrough: Register a Plug-in using the Plug-in Registration Tool](walkthrough-register-plugin-using-plugin-registration-tool.md).  
+1.  Load the assembly containing the offline plug-in into the Plug-in Registration tool. For more information about how to use the tool, see [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in).  
   
 2.  Select the plug-in assembly in the tree view of the tool.  
   
@@ -50,5 +50,5 @@ The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
   
 ### See also  
  [Plug-in Development](plugin-development.md)   
- [Sample: Basic Plug-in](sample-create-basic-plugin.md)   
+ [Sample: Create a basic plug-in](/powerapps/developer/common-data-service/org-service/samples/basic-followup-plugin)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)

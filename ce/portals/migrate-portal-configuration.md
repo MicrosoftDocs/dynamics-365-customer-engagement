@@ -2,7 +2,7 @@
 title: "Migrate Dynamics 365 for Customer Engagement Portal configuration | MicrosoftDocs"
 description: "Learn how to migrate Dynamics 365 for Customer Engagement Portal configuration."
 keywords: ""
-ms.date: 12/03/2018
+ms.date: 02/08/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -23,7 +23,7 @@ Portal development involves several configurations and customizations to achieve
 
 After you have completed development or configuration of your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal instance, you might want to migrate your latest [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal configuration from development to testing or the production environments. Migration involves exporting the existing configuration from the source [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, and then importing it into the target [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
 
-To export configuration data, you would need to use the Configuration Migration tool and a portal-specific configuration schema file. For more information about this tool, see [Manage configuration data](https://technet.microsoft.com/en-us/library/dn647421.aspx).
+To export configuration data, you would need to use the Configuration Migration tool and a portal-specific configuration schema file. For more information about this tool, see [Manage configuration data](../admin/manage-configuration-data.md).
 
 > [!NOTE]
 > - We recommend you to use the latest version of the Configuration Migration tool. The Configuration Migration tool can be downloaded from NuGet. More information for downloading the tool: [Download tools from NuGet](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/download-tools-nuget).

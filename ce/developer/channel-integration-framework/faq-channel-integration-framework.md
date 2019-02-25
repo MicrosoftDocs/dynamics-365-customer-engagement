@@ -2,7 +2,7 @@
 title: "FAQs for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: "Frequently asked questions about the Channel Integration Framework (CIF) and its APIs for Dynamics 365."
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 02/14/2019
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -54,7 +54,7 @@ No, Channel Integration Framework is operating system and web browser agnostic a
 Channel Integration Framework is supported on Microsoft Edge and Google Chrome. 
 
 > [!NOTE]
-> The widget domain needs to be accorded permission to use appropriate media like pop-ups and microphone as required. For Edge to permanently accord the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
+> The widget domain needs to be accorded permission to use appropriate media like pop-ups and microphone as required. For Microsoft Edge to permanently accord the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
 
 ## Are there any browsers that Channel Integration Framework does not support?
 Yes, Channel Integration Framework does not support Internet Explorer and Firefox browsers.
@@ -63,6 +63,13 @@ Yes, Channel Integration Framework does not support Internet Explorer and Firefo
 No, the Channel Integration Framework (CIF) solution should not be bundled with another solution. Partners can create solutions that add a check to their package looking for the Channel Integration Framework (CIF) solution (also mentioning the minimum supported version), which causes installation to fail in case the CIF solution is not present.
 
 Also, you can add Configuration Experience to the acquire flow that will allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution do any additional setup or license acquisition remotely before installing.
+
+## What happens when you select a role from under Select roles for the Channel ?
+
+When you select a particular security role for the channel provider from under the **Select roles for the Channel** dropdown, the security role provides certain access rights to the channel provider. In case no role is selected, the channel provider can only be accessed by System Administrators and Customizers.
+
+> [!IMPORTANT]
+> When you select a role in the **Select roles for the Channel** list, it does not filter out users with just the System Administrator role. The System Administrator and Customizer roles will always have access to the channel provider. When you assign a System Administrator role to a user, the other users who have been assigned System Administrator role earlier will not lose access unless you explicitly revoke System administrator rights from a user.
 
 ## See also
 
