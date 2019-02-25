@@ -23,11 +23,15 @@ topic-status: Tech Reviewing
 
 # View forecasts
 
-Track your forecasts to project what a sales person, team, or organization will sell against a given target or in a given period such as quarterly or monthly. If you are a sales rep, you can also track forecasts to know how you are doing towards the quota or targets that are set for you.
+Track your forecasts to project what a sales person, team, or organization will sell against a given target or in a given period such as quarterly or monthly. If you are a sales rep, you can also track forecasts to know how you are doing toward the quota or targets that are set for you.
 
-1.	Make sure that you have the Sales Manager, Sales person, or forecast user role or equivalent permissions.
 
-2.	Select the site map icon ![Icon to open site map](media/site-map-new.png "Icon to open site map"), and check the lower left corner in the site map to ensure that you are in the **Sales** area. 
+<!--editor question: Should "forecast" be capitalized like the other roles? -->
+
+
+1.	Make sure you have the Sales Manager, Sales person, or forecast user role or equivalent permissions.
+
+2.	Select the site map icon ![Icon to open site map](media/site-map-new.png "Icon to open site map"), and check the lower left corner of the site map to ensure that you are in the **Sales** area. 
 
     ![Icon to change area in the site map](media/site-map-area.png "Icon to change area in the site map")
 
@@ -85,7 +89,7 @@ To know which opportunities are contributing to a certain forecast
  
     The Participating Records dialog box opens. It shows a list of opportunities that were used in forecasting.
 
-    ![Participating Records dialog box shows opportunties included in the forecast](media/participating-opportunities.png "Participating Records dialog box shows opportunties included in the forecast")
+    ![Participating Records dialog box shows opportunities included in the forecast](media/participating-opportunities.png "Participating Records dialog box shows opportunities included in the forecast")
 
 2.	Use the **Child Users** and **Forecast Category** drop-down lists to filter out opportunities only for a specific user or opportunities in a specific category. 
  
