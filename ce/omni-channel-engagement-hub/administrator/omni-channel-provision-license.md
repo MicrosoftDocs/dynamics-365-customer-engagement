@@ -22,7 +22,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 Omni-channel Engagement Hub provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
 
 
-> [!IMPORTANT]
+> [!NOTE]
 > Before you can provison Omni-channel Engagement Hub on your org, a **Global Tenant Admin** must [Allow sideloading of external apps in Microsoft Teams](#allow-sideloading-of-external-apps-in-microsoft-teams) and [Provide data access consent](#provide-data-access-consent). 
 
 
@@ -65,8 +65,12 @@ Follow these steps to set up Omni-channel Engagement Hub.
     
         > [!div class=mx-imgBorder]
         > ![provision omni-channel](../media/provision-oc.png)
+        
 
 **Step 2**: Set up Omni-channel Engagement Hub.
+
+> [!NOTE]
+> Ensure that you have allowed sideloading of external apps in Microsoft Teams and have provided data access consent before you proceed with the set up. For more information, see [Allow sideloading of external apps in Microsoft Teams](#allow-sideloading-of-external-apps-in-microsoft-teams) and [Provide data access consent](#provide-data-access-consent).
 
    1. In the **Dynamics 365 Administration Center**, select **Manage**.
       
