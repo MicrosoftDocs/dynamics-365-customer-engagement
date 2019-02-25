@@ -94,7 +94,7 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 ----------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 
-### Omni-channel administrator
+## Omni-channel administrator
 
 #### User Management 
 - Can  view user list </br> 
@@ -108,6 +108,9 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 - Add users to presence
 - Remove users from presence
 
+## Omni-channel supervisor 
+
+## Omni-channel agent
 
 ### See also
 
