@@ -4,7 +4,7 @@ description: "Provides information about how you can extend event management  we
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 2/08/2019
+ms.date: 02/21/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -27,14 +27,14 @@ The Event Management event portal consists of two parts:
 
 The frontend part is a single page application created using the [Angular](https://angular.io) framework and is fully customizable. The backend and the customization of the backend depends on the type of hosting.
 
-You can host your custom event portal in two ways:
+You can host custom event portal in two ways:
 
 - [Self-hosted](self-hosted.md)
 - [Dynamics 365 Portal hosted](portal-hosted.md)
 
 ## Prerequisites
 
-You either can build your own frontend or customize the provided demo event portal. 
+You either can build your own frontend or customize the provided demo event portal.
 
 > [!NOTE]
 > For the provided demo event portal the [Angular framework](https://angular.io/guide/quickstart) is used. However, since the backend is not dependent on the frontend you can use whatever framework you would like to use.
@@ -49,7 +49,15 @@ To get started with customizing the provided demo event portal you need to follo
 
 ## Configuration
 
-All the configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md).
+All the configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). Here are some of the settings that you need to know:
+
+- **production** - Used internally by **Angular** to differentiate between production and development environments.
+- **apiEndpoint** - Used by Event Management application. Points to the API endpoint that **Angular** services use.
+- **localizationEndpoint** - Points to the localization endpoint that Event Management localization system uses to fetch the localized labels.
+- **useRestStack** - Used by Event Management application to adjust to different types of APIs used when utilizing self-hosted approach against Dynamics 365 hosted approach. Self-hosted approach uses REST API.
+- **useAadB2C** - Used by Event Management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).
+- **useMockData** - Used by Event Management for development purposes. Overrides **Angular** application data services to return mock data.
+- **aadB2CConfig** - Configuration object used by Event Management application when **AAD B2C identity management** is enabled. 
 
 ## Development
 
@@ -57,7 +65,7 @@ Run the command `ng serve` from your working directory to build and locally serv
 
 ## Backend customization
 
-Most of the customization possibilities for the Event Management application are found on the front-end, but there is also a use case when customizer adds a new field to the existing Event Management entity and would like to see that field in the website. For example if `custom_new_field` field is added to the `evtmgmt_pass` entity. The passes for the event can be retrieved using API enpoint `api/v1.0/events/{readableEventId}/passes`, but the result won't contain newly added field. To expose the new fields to be visible in API, you should do the following:
+Most of the customization possibilities for the Event Management application are found on the front-end, but there is also a use case when customizer adds a new field to the existing Event Management entity and would like to see that field in the website. For example if `custom_new_field` field is added to the `evtmgmt_pass` entity. The passes for the event can be retrieved using API endpoint `api/v1.0/events/{readableEventId}/passes`, but the result won't contain newly added field. To expose the new fields to be visible in API, you should do the following:
 
 1. Open your Dynamics 365 instance.
 1. Open Advanced Find view
@@ -67,7 +75,7 @@ Most of the customization possibilities for the Event Management application are
 1. Select the entity that you want an extra field to be visible for (`Pass` in this example)
 1. Write a Json array that contains the extra custom fields that should be visible through the API. In this example: `["custom_new_field"]`. Be careful to form proper Json. 
 
-This should expose your new custom field throught the API and you should be able to utilize it in the front-end.
+This will expose your new custom field through the API and you should be able to utilize it in the front-end.
 
 > [!div class="nextstepaction"]
 > [Self-hosted](self-hosted.md)<br /><br />
