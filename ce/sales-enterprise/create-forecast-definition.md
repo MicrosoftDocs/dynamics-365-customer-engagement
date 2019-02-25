@@ -81,5 +81,5 @@ Generating a forecast is a background process. After all the forecasts are gener
 > ![Published forecast definition](media/published-forecast-definitions.png "Published forecast definition")
 
 
-### See also
+## See also
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
