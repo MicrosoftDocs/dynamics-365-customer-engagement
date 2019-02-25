@@ -23,6 +23,8 @@
       href: configure-channel-provider-channel-integration-framework.md
     - name: "Host a communication widget and change its modes"
       href: host-communication-widget-change-modes.md
+      - name: Build a simple widget
+        href: getting-started-simple-widget.md
     - name: "Enable outbound communication (ClickToAct)"
       href: enable-outbound-communication-clicktoact.md
     - name: "Add CIF solution as a dependent solution"
