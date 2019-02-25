@@ -91,13 +91,7 @@ For the **Issue snapshot**, you can search for Case (Incident) entity. By defaul
 
 Only active views are displayed for the search results. Also, you can customize the **Quick Find View** and **Lookup View** to change the searchable fields as per your business requirements. More information [Understand views](/dynamics365/customer-engagement/customize/create-edit-views) and [Unified Interface Lookup view leverages Quick Find View](https://blogs.msdn.microsoft.com/crm/2018/11/02/unified-interface-lookup-now-leverages-quick-find-view/)
 
-> [!div class=mx-imgBorder]
-> ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
-
-After the search results, selecting a record links the conversation to the selected record and loads the **Customer summary** form with the details.
-
-> [!div class=mx-imgBorder]
-> ![Cusomter summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
+To learn on how to link a record, see [Link a record to the conversation](link-unlink-record.md)
 
 ## Search for records using the search option
 

@@ -21,7 +21,17 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 The topic explains how to link and unlink a record to the conversation.
 
-## Link a record
+## Link a record to the conversation when doing inline search
+
+> [!div class=mx-imgBorder]
+> ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
+
+During inline search, the search results are displayed, and you can select a record to link the conversation to the selected record. After you link the record, the **Customer summary** form loads with the details.
+
+> [!div class=mx-imgBorder]
+> ![Cusomter summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
+
+## Link a record by doing advanced search
 
 You can link a record in the list of search results to a conversation. You can link only one record to a conversation.
 
