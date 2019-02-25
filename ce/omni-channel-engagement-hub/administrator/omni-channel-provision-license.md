@@ -65,6 +65,9 @@ Follow these steps to set up Omni-channel Engagement Hub.
     
         > [!div class=mx-imgBorder]
         > ![provision omni-channel](../media/provision-oc.png)
+        
+> [!NOTE]
+> Ensure that you have allowed sideloading of external apps in Microsoft Teams and have provided data access consent before you proceed with the set up.
 
 **Step 2**: Set up Omni-channel Engagement Hub.
 
