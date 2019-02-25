@@ -70,7 +70,7 @@ Follow these steps to set up Omni-channel Engagement Hub.
 **Step 2**: Set up Omni-channel Engagement Hub.
 
 > [!NOTE]
-> Ensure that you have allowed sideloading of external apps in Microsoft Teams and have provided data access consent before you proceed with the set up.
+> Ensure that you have allowed sideloading of external apps in Microsoft Teams and have provided data access consent before you proceed with the set up. For more information, see [Allow sideloading of external apps in Microsoft Teams](#allow-sideloading-of-external-apps-in-microsoft-teams) and [Provide data access consent](#provide-data-access-consent).
 
    1. In the **Dynamics 365 Administration Center**, select **Manage**.
       
