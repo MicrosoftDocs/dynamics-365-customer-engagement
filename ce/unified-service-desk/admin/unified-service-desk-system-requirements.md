@@ -50,14 +50,10 @@ This topic provides information about the system requirements for installing the
 |---------------------------|---------------------------|---------------------|
 | Operating system | <ul><li>[!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li></ul> |<ul><li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] SP2</li></ul>  |
 | Web broswer | <ul><li> [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)] </li><li> Microsoft Edge (Preview)</li></ul> | <ul><li> [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)] </li><li> Microsoft Edge (Preview)</li></ul> |
-| Microsoft .NET Framework | <ul><li>[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)</li></ul> | <ul><li> [!INCLUDE [pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] or higher version installs [!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] </li> <li> [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] version installs Microsoft .NET Framework 4.6.1.</li></ul> |
+| Microsoft .NET Framework | <ul><li>[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)</li></ul> |  |
 | Windows Identity Foundation  | <ul><li> Windows Identity Foundation 3.5 (installed during Unified Service Desk Setup if missing) </li></ul> |  |
 | Screen resolution | <ul><li> 1920 x 1080 (Pixels) </li></ul> |  |
-| Magnified | <ul><li> 100 % </li></ul> |
-
-- [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)], [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)], [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)], or [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)]  
-
-- [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)], [!INCLUDE[pn_IE_10](../../includes/pn-ie-10.md)], or <sup>*</sup>[!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)]  
+| Magnified | <ul><li> 100 % </li></ul> |  
 
   > [!Tip]
   > We recommend that you use [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] and [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)].
