@@ -411,9 +411,9 @@ Let's take a look at the following work location types:
 
 - **Facility pool**: this option is configured by creating a facility pool and adding facilities as pool members. This option makes the most sense when schedulers want to (1) utilize capacity scheduling by having the facility pool capacity increase and decrease as facilities are added or removed and (2) use local scheduling where bookings are first assigned to the facility pool and then later assigned to pool members. Example: a hotel (facility pool) is first scheduled for a weekend and travelers are assigned specific rooms (facility pool members) at a later date when they arrive. 
 
-- When upgrading from Field Service v7.x to v8.x, Facility type resources may not appear in schedule assistant results due to default filter settings. To fix this go to **Field Service > Schedule Board > double click a schedule board tab > Open Default Settings** in the upper right then scroll down to **Other Settings**. Edit **Retreive Resources Query** to 3.0.0.0 as seen in the following screenshot. **Filter Layout** and **Resource Cell Template** should also be set to 3.0.0.0.
+- When upgrading from Field Service v7.x to v8.x, facility type resources may not appear in schedule assistant results due to default filter settings. To fix this, go to **Field Service** > **Schedule Board**. Double-click on a schedule board tab, and then **Open Default Settings** in the upper right. Scroll down to **Other Settings**. Set **Retreive Resources Query** to 3.0.0.0 as seen in the following screenshot. **Filter Layout** and **Resource Cell Template** should also be set to 3.0.0.0.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/ scheduling-schedule-board-tab-settings-resource-query.png)
+> ![Screenshot of the relevant fields set to the 3.0.0.0 settings](./media/ scheduling-schedule-board-tab-settings-resource-query.png)
 
 
 ## Additional notes
