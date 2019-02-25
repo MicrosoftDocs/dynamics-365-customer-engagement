@@ -48,6 +48,6 @@ The forecast category is used to determine the different confidence levels of an
 > You can create a workflow to change the forecast category based on changes in the business process stage or in the probability of an opportunity.  
 
 
-## See also
+### See also
 [Create or edit an opportunity](create-edit-opportunity-sales.md) 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
