@@ -2,7 +2,7 @@
 title: "Instagram business account search rules | Microsoft Docs"
 description: "Learn more about the changes to Instagram data acquisition and search rules."
 keywords: "Instagram, data acquisition, search rules"
-ms.date: 01/22/2019
+ms.date: 02/26/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: 967a4c6c-38de-4714-a65e-13832668c696
@@ -40,6 +40,8 @@ On December 10, a new functionality for [!INCLUDE [tn-instagram](../includes/tn-
 
 > [!WARNING]
 > There's a [known issue with Facebook](https://developers.facebook.com/support/bugs/714852775564332/) when connecting from Instagram to Facebook pages. If you haven't connected your accounts yet, you can [connect them from Facebook](https://developers.facebook.com/docs/instagram-api/getting-started/#connect) to get the search working. If you already connected the accounts, we suggest you wait for the fix from Facebook to avoid losing your insights while reconnecting them. 
+
+> Additionally, we do not currently support listening to your Instagram account if the account or its corresponding Facebook page is linked to your Facebook Business Manager.
 
 The acquisition of posts and comments from owned [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] accounts is done through the [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] Graph API using a user token and thus relies on individual user permissions. All [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] [tokens must have admin permissions](manage-access-tokens.md) on all [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages and linked [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts used in Social Engagement.
 
