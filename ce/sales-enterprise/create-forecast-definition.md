@@ -48,8 +48,8 @@ topic-status: Tech Reviewing
         > [!NOTE]
         > Only the rollup queries with opportunity as the parent entity are available and valid for selection.
 
-    > [!div class="mx-imgBorder"]
-    > ![Forecast definition record](media/forecast-definition-form.png "Forecast definition record")
+      > [!div class="mx-imgBorder"]
+      > ![Forecast definition record](media/forecast-definition-form.png "Forecast definition record")
 
 6.  In the **Scheduling** section of the Forecast definition form, enter the following:
 
@@ -81,5 +81,5 @@ Generating a forecast is a background process. After all the forecasts are gener
 > ![Published forecast definition](media/published-forecast-definitions.png "Published forecast definition")
 
 
-## See also
+### See also
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
