@@ -17,6 +17,14 @@ ms.custom:
 
 [!INCLUDE[lcw-ready-description](../includes/lcw-ready-description.md)]
 
+## Example
+
+```JavaScript
+window.addEventListener("lcw:error", function handleLivechatErrorEvent(){
+               // Handle livechat error event
+});
+
+```
 ## See also
 
 [lcw:error](lcw-error.md)

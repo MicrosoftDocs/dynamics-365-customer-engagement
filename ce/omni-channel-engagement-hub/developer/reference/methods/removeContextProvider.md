@@ -31,3 +31,10 @@ None
 
 ## Example
 
+```JavaScript
+window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+               // Removes the currently set context provider if any
+               Microsoft.Omnichannel.LiveChatWidget.SDK.removeContextProvider();
+});
+
+```

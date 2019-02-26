@@ -31,3 +31,9 @@ None
 
 ## Example
 
+```JavaScript
+window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+               // Opens an existing chat, if any. Else initiates a new chat
+               Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();
+});
+```

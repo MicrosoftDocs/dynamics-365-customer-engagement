@@ -35,3 +35,18 @@ ms.custom:
 None
 
 ## Example
+
+```JavaSript
+window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+               // Set the context provider
+               // Throws error if contextProvider is not a function
+               Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
+                              return {
+                                             'contextKey1': 'contextValue1', // string value
+                                             'contextKey2': 12.34, // number value
+                                             'contextKey3': true // boolean value
+                              };
+               });
+});
+
+```
