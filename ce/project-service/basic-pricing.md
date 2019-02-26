@@ -21,7 +21,7 @@ search.app:
   - D365PS
 ---
 
-# Pricing 
+# Project Pricing 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
