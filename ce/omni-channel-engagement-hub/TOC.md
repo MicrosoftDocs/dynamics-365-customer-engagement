@@ -100,7 +100,7 @@
 ##### [getAuthTokenProvider](developer/reference/methods/getAuthTokenProvider.md)
 ##### [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md)
 ##### [removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)
-##### [startchat](developer/reference/methods/startChat.md)
+##### [startChat](developer/reference/methods/startChat.md)
 #### [Events]()
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
 ##### [lcw:error](developer/reference/events/lcw-error.md)

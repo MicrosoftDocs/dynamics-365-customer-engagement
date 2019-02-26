@@ -33,7 +33,7 @@ Returns the currently set auth-token provider.
 
 ```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-               // Get the currently set auth-token provider if any
+               // Gets the currently set auth-token provider, if any.
                let authTokenProvider = Microsoft.Omnichannel.LiveChatWidget.SDK.getAuthTokenProvider();
 });
 ```

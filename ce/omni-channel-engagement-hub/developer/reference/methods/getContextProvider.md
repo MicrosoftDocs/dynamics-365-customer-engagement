@@ -33,7 +33,7 @@ Returns a function that contains the currently set context provider.
 
 ```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-               // Get the currently set context provider if any
+               // Gets the currently set context provider, if any.
                let contextProvider = Microsoft.Omnichannel.LiveChatWidget.SDK.getContextProvider();
 });
 ```

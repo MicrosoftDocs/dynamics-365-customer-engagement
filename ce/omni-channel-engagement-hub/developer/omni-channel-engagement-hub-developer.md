@@ -24,4 +24,4 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 ## In this section
 
-[JavaScript API reference documentation](omni-channel-reference.md)
+[JavaScript API reference](omni-channel-reference.md)

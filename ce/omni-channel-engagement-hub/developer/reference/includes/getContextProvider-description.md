@@ -1,1 +1,1 @@
-Retrieve the currently set context provider.
+Retrieve the currently set context provider, if any.

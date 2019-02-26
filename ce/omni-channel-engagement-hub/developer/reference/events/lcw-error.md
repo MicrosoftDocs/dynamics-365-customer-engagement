@@ -20,10 +20,10 @@ ms.custom:
 ## Example
 
 ```JavaScript
-window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-               // Handle livechat ready event
-               // Can use the sdk methods now
+window.addEventListener("lcw:error", function handleLivechatErrorEvent(){
+               // Handle LiveChat error event
 });
+
 ```
 ## See also
 
