@@ -43,21 +43,21 @@ Customer summary is a page where you can get complete information about a custom
 
 This section provides details about the customer or account such as name, job, title, relationship type, city, category, primary contact for the account, and preferred channel of engagement.
 
-## Conversation Summary
+## Conversation summary
 
 This section provides two tabs with details that help you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your engagement with the customer. The **Visitor details** tab provides some information such as the customer is authenticated or not, browser used by the customer for contacting support, an operating system used by the customer, location of the customer, interacting language of the customer, and so on.
 
 If the customer signs in to the portal to initiate a chat with the support, then as an agent, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
 
-## Issue Snapshot
+## Issue snapshot
 
 For an incoming engagement request, the system links an existing case to engagement and displays it in the **Issue snapshot** section. This section displays information such as the title of the case, priority, status, product, and owner.
 
-## Recent Cases
+## Recent cases
 
 This section displays recent cases that relate to the customer.
 
-### Recent Activities
+### Recent activities
 
 This section displays case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on Customer activities, Case activities, and Conversation activities.
 

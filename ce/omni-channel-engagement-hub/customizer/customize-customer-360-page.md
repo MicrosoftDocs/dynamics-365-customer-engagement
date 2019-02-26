@@ -34,7 +34,7 @@ The **Visitor details** tab provides some information such as the customer is au
 
 If the customer signs in to the portal to initiate a chat with the support, then as an agent, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
 
-## Issue Snapshot
+## Issue snapshot
 
 For an incoming conversation request, the system links an existing case to the conversation and shows it on the **Issue Snapshot** form (card). This form (card) shows information such as the title of the case, the priority, the status of the case, the product, and the owner. You can customize this form (card) by adding or removing the fields.
 
@@ -42,9 +42,9 @@ For an incoming conversation request, the system links an existing case to the c
 
 This form section displays the recent cases that relate to the customer.
 
-## All activities
+## Recent activities
 
-The **All activities** form (card) shows the case-related and customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. You can also filter the timeline by customer activities, case activities, and conversation activities.
+The **Recent activities** form (card) shows the case-related and customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. You can also filter the timeline by customer activities, case activities, and conversation activities.
 
 > [!div class="nextstepaction"]
 > [Next topic: How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
