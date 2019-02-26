@@ -65,7 +65,21 @@ PSA isn’t designed for invoicing the customer because it lacks the following:
 Use a financial or accounting system to create a customer-facing invoice using the information from an invoice proposal generated in PSA.
 
 While not meant for customers, a PSA invoice is useful as a second level of approval for sales values that are ready for an actual invoice to the customer. The first level of approval happens during the approval of time and expense entries. 
-A PSA invoice is created from a contract or by using an unattended workflow job. Use the following steps to configure an unattended periodic invoice run.
+
+## Creating Project Invoices
+Project invoice can be created one or one or in bulk and invoice creation can be manually or configured for automated runs.
+
+### Manual creation of Project Invoices in PSA
+Project Invoices can be created one by one for each Project Contract or in bulk from the Project Contracts list page.
+
+For bulk creation, from the Project Contracts list page, you can select one or more project contracts. Then click on "Create Invoice Select all the project contracts for which you need to create an invoice.
+There is a warning message indicating that there could be a delay in creating invoices and the process. Click ok on the warning message. Invoice creation proceeds in the background and picks up all transactions that are in the status "ready to invoice" for each project contract. This includes time, expense, milestones and product-based contract lines.  Navigate to Sales->Billing->Invoices to see the invoices that were created. There will be one invoice created for each project contract
+
+
+For creating invoices one by one for each project contract, navigate to the project contract list page, open a project contract and click on "Create invoice". Invoice creation proceeds in the background and picks up all transactions that are in the status "ready to invoice" for the specific project contract. This includes time, expense, milestones and product-based contract lines. 
+
+### Automated creation of Project Invoice 
+Use the following steps to configure an unattended periodic invoice run in PSA.
 
 1. Set up invoice schedules on all active contracts.
 2. Go to **Project Service** > **Settings** > **Batch jobs**.
