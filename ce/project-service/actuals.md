@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Actuals, are the amount of work that has been completed on a project. In Project Service Automation (PSA), project actuals can be traced back to their source documents including time, expense, and journal entries as well as invoices. 
+In Project Service Automation (PSA), project actuals can be traced back to their source documents including time, expense, and journal entries as well as invoices. 
 
 > ![How project actuals are traced to source documents](media/basic-guide-18.png)
 
@@ -54,3 +54,8 @@ Journals in PSA let you record cost or revenue in the material, fee, time, expen
 - To move transaction actuals from another system to PSA.
 - To record costs that occurred in another system, such as procurement or subcontracting costs.
 
+# Recording actuals based on events that occur on the project
+
+Project Service Automation (PSA) records the financial transactions that occur during a project. These transactions are recorded as **actuals**. The following table shows the different types of actuals that are created based on whether the project type is time and material, fixed-price, or internal, or if the project is in the presales stage.
+
+> ![Table showing how actuals are recorded](media/advanced-table2.png)
