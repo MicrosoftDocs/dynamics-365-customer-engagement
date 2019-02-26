@@ -28,7 +28,11 @@ The **Customer profile** form (card) provides details about the customer or acco
 
 The **Conversation summary** form (card) fetches details based on the context of the incoming conversation request. You can modify the fields in this form (card), and also, you can change the position of the form (card) on the **Customer summary** page.
 
-This form (card) includes two tabs: **Pre-chat** and **Visitor info**. The details on these tabs help you to understand contextual channel-specific information about the conversation with the customer. The **Pre-chat** tab shows the conversation details, escalation details, and transfer details.
+This form (card) includes two tabs: **Pre-chat survey** and **Visitor details**. The details on these tabs help you to understand contextual channel-specific information about the conversation with the customer. The **Pre-chat survey** tab shows the conversation details, escalation details, and transfer details.
+
+The **Visitor details** tab provides some information such as the customer is authenticated or not, browser used by the customer for contacting support, an operating system used by the customer, location of the customer, interacting language of the customer, and so on.
+
+If the customer signs in to the portal to initiate a chat with the support, then as an agent, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
 
 ## Issue Snapshot
 
