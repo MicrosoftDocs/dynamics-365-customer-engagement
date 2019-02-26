@@ -91,7 +91,7 @@ For the **Issue snapshot**, you can search for Case (Incident) entity. By defaul
 
 Only active views are displayed for the search results. Also, you can customize the **Quick Find View** and **Lookup View** to change the searchable fields as per your business requirements. More information [Understand views](/dynamics365/customer-engagement/customize/create-edit-views) and [Unified Interface Lookup view leverages Quick Find View](https://blogs.msdn.microsoft.com/crm/2018/11/02/unified-interface-lookup-now-leverages-quick-find-view/)
 
-To learn on how to link a record, see [Link a record to the conversation](link-unlink-record.md)
+To learn on how to link a record, see [Link a record to the conversation](csh-link-unlink-record.md)
 
 ## Search for records using the search option
 
