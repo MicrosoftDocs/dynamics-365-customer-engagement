@@ -1,7 +1,7 @@
 ---
 
-title: Review invocing backlog on Projects and / or Project Contracts
-description: Process description of how to review time, expense, product backlog and mark them as ready for invoicing 
+title: Cancel approval on project time and expense
+description: Process description of how to cancel approval of previously approved project time and expense transactions
 author: Rupa Mantravadi
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Review invoicing backlog
+# Cancel approval of previously approved time and expense entries
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
