@@ -25,7 +25,7 @@ search.app:
 
 Publish your app on [Microsoft AppSource](https://appsource.microsoft.com) so that [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps subscribers can find it, try it, and buy it.
 
-Instructions about publishing your apps is available on the PowerApps documentation: [Publish your app on AppSource](/powerapps/developer/common-data-service/publish-app-appsource) 
+Instructions about publishing your apps is available in the PowerApps documentation: [Publish your app on AppSource](/powerapps/developer/common-data-service/publish-app-appsource) 
 
 ### See also
 [What is PowerApps?](/powerapps/powerapps-overview)<br/>
