@@ -18,8 +18,11 @@ Project Invoices can be created one by one for each Project Contract or in bulk 
 For bulk creation, from the Project Contracts list page, you can select one or more project contracts. Then click on "Create Invoice Select all the project contracts for which you need to create an invoice.
 There is a warning message indicating that there could be a delay in creating invoices and the process. Click ok on the warning message. Invoice creation proceeds in the background and picks up all transactions that are in the status "ready to invoice" for each project contract. This includes time, expense, milestones and product-based contract lines.  Navigate to Sales->Billing->Invoices to see the invoices that were created. There will be one invoice created for each project contract
 
+> ![Bulk creation of Project Invoices](media/CreateProjectInvoicesBulk.png)
 
 For creating invoices one by one for each project contract, navigate to the project contract list page, open a project contract and click on "Create invoice". Invoice creation proceeds in the background and picks up all transactions that are in the status "ready to invoice" for the specific project contract. This includes time, expense, milestones and product-based contract lines. 
+
+> ![Creation of Project Invoices One by One](media/CreateProjectInvoicesOneByOne.png)
 
 ### Automated creation of Project Invoices in PSA 
 Use the following steps to configure an unattended periodic invoice run in PSA.
