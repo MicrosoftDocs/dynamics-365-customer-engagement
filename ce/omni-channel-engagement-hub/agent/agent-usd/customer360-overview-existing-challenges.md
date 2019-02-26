@@ -52,10 +52,12 @@ The **Customer profile** section provides details about the customer, such as th
 
 This section provides two tabs with details that help you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The Pre-chat tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer. The Visitor info tab provides some information like the browser used by the customer for contacting support, the operating system used by the customer, location of the customer, interacting language of the customer and so on.
 
-If the customer signs in to the portal to initiate a chat with the support, then as an agent, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
-
 > [!div class='mx-imgBorder']
 > ![Conversation summary section in the customer summary form](../../media/customer-summary-conversation-summary.PNG "Conversation summary section in the customer summary form")
+
+If the customer signs in to the portal to initiate a chat with the support, then as an agent, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
+
+![Authenticated chat shows as Yes in the visitor details tab of Conversation summary](../../media/conversation-summary-authenticated-chat.PNG "Authenticated chat shows as Yes in the visitor details tab of Conversation summary") ![Unauthenticated chat shows as Yes in the visitor details tab of Conversation summary](../../media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shows as Yes in the visitor details tab of Conversation summary")
 
 #### Issue snapshot
 
