@@ -1,6 +1,7 @@
-## Invoicing
+# Invoicing in PSA
 
-PSA isn’t designed for invoicing the customer because it lacks the following:
+PSA invoice is useful as a second level of approval by Project Managers before generating a customer-facing invoice. The first level of approval is done when time and expense entries are submitted by Project team members .
+PSA isn’t designed for creating a customer facing invoice because it lacks the following:
 
 - Tax information
 - Amounts in other currencies converted to invoicing currency using properly-configured exchange rates
@@ -8,9 +9,7 @@ PSA isn’t designed for invoicing the customer because it lacks the following:
 
 Use a financial or accounting system to create a customer-facing invoice using the information from an invoice proposal generated in PSA.
 
-While not meant for customers, a PSA invoice is useful as a second level of approval for sales values that are ready for an actual invoice to the customer. The first level of approval happens during the approval of time and expense entries. 
-
-## Creating Project Invoices
+## Creating Project Invoices in PSA
 Project invoice can be created one or one or in bulk and invoice creation can be manually or configured for automated runs.
 
 ### Manual creation of Project Invoices in PSA
