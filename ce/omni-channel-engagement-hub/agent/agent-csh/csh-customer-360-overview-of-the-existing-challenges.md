@@ -37,7 +37,7 @@ Customer summary is a page where you can get complete information about a custom
 
  - Recent activities
 
-![View Customer summary](../../media/csh-cc-customer360.png "View Customer summary") 
+![View Customer summary](../../media/customer-summary.png "View Customer summary") 
 
 ## Customer profile
 
@@ -45,7 +45,6 @@ This section provides details about the customer or account such as name, job, t
 
 > [!div class='mx-imgBorder']
 > ![Customer profile section in the customer summary form](../../media/customer-summary-customer-profile.PNG "Customer profile section in the customer summary form")
-
 
 ## Conversation summary
 

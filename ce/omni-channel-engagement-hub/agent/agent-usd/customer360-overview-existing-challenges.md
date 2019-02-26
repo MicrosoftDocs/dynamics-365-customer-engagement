@@ -32,11 +32,11 @@ By having this information ready, when customers reach out to contact center, su
 
    - Conversation summary
 
-   - Issue Snapshot
+   - Issue snapshot
 
    - Recent cases
 
-   - All activities
+   - Recent activities
 
 > [!div class=mx-imgBorder]
 > ![omni-channel Customer summary page](../../media/oc-usd-customer360-page.png "Omni-channel Customer summary page")  
@@ -45,21 +45,38 @@ By having this information ready, when customers reach out to contact center, su
 
 The **Customer profile** section provides details about the customer, such as the name of the customer or account, job, title, relationship type, city, category, relationship type, primary contact for the account, and preferred channel for engagement.
 
+> [!div class='mx-imgBorder']
+> ![Customer profile section in the customer summary form](../../media/customer-summary-customer-profile.PNG "Customer profile section in the customer summary form")
+
 #### Conversation summary
 
 This section provides two tabs with details that help you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The Pre-chat tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer. The Visitor info tab provides some information like the browser used by the customer for contacting support, the operating system used by the customer, location of the customer, interacting language of the customer and so on.
 
-#### Issue Snapshot
+If the customer signs in to the portal to initiate a chat with the support, then as an agent, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
 
-For an incoming conversation request, the system links an existing case to the conversation and shows it in the **Issue Snapshot** section. This section shows  information such as the title of the case, its priority, its status, the product, and the owner.
+> [!div class='mx-imgBorder']
+> ![Conversation summary section in the customer summary form](../../media/customer-summary-conversation-summary.PNG "Conversation summary section in the customer summary form")
+
+#### Issue snapshot
+
+For an incoming conversation request, the system links an existing case to the conversation and shows it in the **Issue snapshot** section. This section shows  information such as the title of the case, its priority, its status, the product, and the owner.
+
+> [!div class='mx-imgBorder']
+> ![Issue snapshot section in the customer summary form](../../media/customer-summary-issue-snapshot.PNG "Issue snapshot section in the customer summary form")
 
 #### Recent cases
 
 This section displays the recent cases that relate to the customer.
 
+> [!div class='mx-imgBorder']
+> ![Recent cases section in the customer summary form](../../media/customer-summary-recent-cases.PNG "Recent cases section in the customer summary form")
+
 #### All activities
 
 This section displays the case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on Customer activities, Case activities, and Conversation activities.
+
+> [!div class='mx-imgBorder']
+> ![Recent activities section in the customer summary form](../../media/customer-summary-recent-activities.PNG "Recent activities section in the customer summary form")
 
 > [!div class="nextstepaction"]
 > [Next topic: View communication panel](left-control-panel.md)
