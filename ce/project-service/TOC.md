@@ -37,7 +37,7 @@
 ### [Organizational units](advanced-organizational.md)
 ### [Quotes and quote lines](basic-quote-lines.md)
 ### [Product-based quote lines](product-based-quote-lines.md)
-### [Pricing](basic-pricing.md)
+### [Project Pricing](basic-pricing.md)
 ### [Product catalog pricing](product-catalog-pricing.md)
 ### [Business transactions](basic-business-transactions.md)
 ### [Estimates](estimates.md)
