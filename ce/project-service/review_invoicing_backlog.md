@@ -37,18 +37,18 @@ an unbilled sales actual.
 
 These unbilled sales actuals represent the Billing backlog and must be marked as "Ready to invoice" i.e their billing status must be set to "Ready to invoice". When a project invoice is created, the Unbilled Sales actuals that are marked as "Ready to invoice" are copied over as invoice line details.  
 To review Time and Material billing backlog, navigate to Sales->Billing -> Time and Material Billing backlog. Select all the unbilled sales actuals that are ready to invoice and then click the ribbon action "Ready to invoice". The billing status of these actuals changes to "Ready to invoice".
-> ![Review time and material billing backlog](media/T&M Backlog.png)
+> ![Review time and material billing backlog](media/TMBacklog.png)
 
 ### Review product billing backlog
 When a project contract in Project service has a product-based contract line, these lines are considered for invoicing whenever an invoice is created for that project contract. Any product - based contract line that is marked as "Ready to invoice" will be copied over to the Project invoice as Project Invoice lines.
 
 To review Product billing backlog, navigate to Sales->Billing -> Product Billing backlog. Select all the product-based  contract lines that are ready to invoice and then click the ribbon action "Ready to invoice". The billing status of these lines changes to "Ready to invoice".
-> ![Review product billing backlog](media/Product Backlog.png)
+> ![Review product billing backlog](media/ProductBacklog.png)
 ### Review billing milestones on fixed price contracts 
 Each project contract line that has fixed price billing method must define Contract milestones. These Contract milestones must be marked as ready to invoice in order to be invoiced. 
 
 To review billing milestones, navigate to Sales->Billing -> Fixed Price Milestones. Select the Milestones that are ready to be invoiced and then click the ribbon action "Ready to invoice". The billing status of these Milestones changes to "Ready to invoice".
-> ![Review Fixed Price Milestones](media/FP Backlog.png)
+> ![Review Fixed Price Milestones](media/FPBacklog.png)
 
 
 
