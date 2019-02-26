@@ -52,6 +52,7 @@ A work stream comprises of the following properties:
 
 
 ### See also
-[Automatically identify customers using pre-chat responses](record-identification-rule.md)
 
 [Create and manage work streams](create-work-streams.md)
+
+[Automatically identify customers using pre-chat responses](record-identification-rule.md)
