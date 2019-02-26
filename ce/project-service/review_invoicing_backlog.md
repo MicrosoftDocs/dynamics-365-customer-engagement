@@ -48,20 +48,6 @@ Each project contract line that has fixed price billing method must define Contr
 
 To review billing milestones, navigate to Sales->Billing -> Fixed Price Milestones. Select the Milestones that are ready to be invoiced and then click the ribbon action "Ready to invoice". The billing status of these Milestones changes to "Ready to invoice".
 
-## Creating Project Invoices
-Project invoice can be created one or one or in bulk and invoice creation can be manually or configured for automated runs.
-
-### Manual creation of Project Invoices in PSA
-Project Invoices can be created one by one for each Project Contract or in bulk from the Project Contracts list page.
-
-For bulk creation, from the Project Contracts list page, you can select one or more project contracts. Then click on "Create Invoice Select all the project contracts for which you need to create an invoice.
-There is a warning message indicating that there could be a delay in creating invoices and the process. Click ok on the warning message. Invoice creation proceeds in the background and picks up all transactions that are in the status "ready to invoice" for each project contract. This includes time, expense, milestones and product-based contract lines.  Navigate to Sales->Billing->Invoices to see the invoices that were created. There will be one invoice created for each project contract
-
-
-For creating invoices one by one for each project contract, navigate to the project contract list page, open a project contract and click on "Create invoice". Invoice creation proceeds in the background and picks up all transactions that are in the status "ready to invoice" for the specific project contract. This includes time, expense, milestones and product-based contract lines. 
-
-### Automated creation of Project Invoice 
-actuals#invoicing
 
 
 
