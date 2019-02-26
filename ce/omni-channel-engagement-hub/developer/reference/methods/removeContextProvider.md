@@ -19,7 +19,7 @@ ms.custom:
 
 ## Syntax
 
-`removeContextProvider();`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.removeContextProvider();`
 
 ## Parameters
 

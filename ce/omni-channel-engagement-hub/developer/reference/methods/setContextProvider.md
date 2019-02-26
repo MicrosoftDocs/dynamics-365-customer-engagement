@@ -22,7 +22,7 @@ ms.custom:
 
 ## Syntax
 
-`setContextProvider(contextProvider);`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(contextProvider);`
 
 ## Parameters
 
@@ -36,7 +36,7 @@ None
 
 ## Example
 
-```JavaSript
+```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                // Set the context provider
                // Throws error if contextProvider is not a function

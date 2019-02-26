@@ -19,7 +19,7 @@ ms.custom:
 
 ## Syntax
 
-`getContextProvider();`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.getContextProvider();`
 
 ## Parameters
 

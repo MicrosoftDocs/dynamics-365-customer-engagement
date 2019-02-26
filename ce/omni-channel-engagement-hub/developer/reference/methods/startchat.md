@@ -19,7 +19,7 @@ ms.custom:
 
 ## Syntax
 
-`startChat();`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();`
 
 ## Parameters
 

@@ -19,7 +19,7 @@ ms.custom:
 
 ## Syntax
 
-`setAuthTokenProvider(authTokenProvider);`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.setAuthTokenProvider(authTokenProvider);`
 
 ## Parameters
 

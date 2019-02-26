@@ -2,8 +2,8 @@
 title: "JavaScript API Reference for Omni-channel Engagement Hub in Dynamics 365 | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 1/10/2019
-ms.service:
+ms.date: 02/26/2019
+ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
 applies_to:
@@ -38,4 +38,7 @@ Provides JavaScript methods that you can use to perform various operations with 
 
 ## See also
 
-[Introduction to Omni-channel Engagement Hub](../introduction-omni-channel.md)
+[Introduction to Omni-channel Engagement Hub](../introduction-omni-channel.md)<br />
+[Omni-channel Engagement Hub for administrators](../admin/omni-channel-engagement-hub-administrator.md)<br />
+[Omni-channel Engagement Hub for system customizers](../customizer/omni-channel-engagement-hub-customizer.md)<br />
+[Omni-channel Engagement Hub for agent](../agent/omni-channel-engagement-hub-agent-introduction.md)

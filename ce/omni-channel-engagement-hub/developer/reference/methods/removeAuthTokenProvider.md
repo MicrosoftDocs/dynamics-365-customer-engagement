@@ -19,7 +19,7 @@ ms.custom:
 
 ## Syntax
 
-`removeAuthTokenProvider();`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.removeAuthTokenProvider();`
 
 ## Parameters
 
