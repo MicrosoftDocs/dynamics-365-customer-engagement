@@ -1,7 +1,7 @@
 ---
-title: "Add and edit multiregional instances of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
+title: "Add and edit multiregional instances of Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 02/26/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: d16732d0-ab5e-4f9c-8bc8-d097cd2f5f2f
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -25,14 +25,16 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+> [!IMPORTANT]
+> We are currently enabling only a very limited number instances for multiple regions. Check back for updated information on availability.
+>
+> To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
+
 For multinational companies with employees and customers distributed around the world, you can create and manage [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances specific to your global regions. You can create an instance in a different region than where your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] tenant resides. Local instances can provide quicker data access for users in that region. Be sure to read [A multi-instance deployment](../admin/multiple-online-instances-tenants.md#BKMK_Single) to understand the features of multiple instances.  
   
  Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. You must have an active [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps account to complete the purchase. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Professional or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Enterprise subscription.  
   
  You must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator or Customer Engagement apps System administrator role to do these tasks. For more information, see [Assigning admin roles](https://support.office.com/article/Assign-admin-roles-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
-  
-> [!NOTE]
->  To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
   
 <a name="BKMK_info_instance"></a>   
 ## What information do I need to create an instance?  
