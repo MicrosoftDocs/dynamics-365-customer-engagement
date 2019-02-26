@@ -23,30 +23,31 @@ topic-status: Tech Reviewing
 
 # Capture forecast category for opportunity
 
-The Forecast category is used to determine the different confidence levels of an opportunity as it moves through the different stages before it is converted to a sale. This information is used in forecasting to indicate how many opportunities are committed versus how many are still in pipeline so appropriate actions can be taken. 
+The forecast category is used to determine the different confidence levels of an opportunity as it moves through the different stages before it is converted to a sale. This information is used in forecasting to indicate how many opportunities are committed versus how many are still in the pipeline so appropriate actions can be taken. 
 
-To capture the forecast category
+**To capture the forecast category**
 
 1.	Select the site map icon ![Icon to open site map](media/site-map-new.png "Icon to open site map"), and check the lower left corner in the site map to ensure that you are in the **Sales** area. Then, select **Opportunities**.
 
 2.	In the list of opportunities, open an opportunity for which you want to capture the forecast category.
 
-3.	In the **Forecast category** drop-down list, select one of the following, and the select **Save**:
+3.	In the **Forecast category** drop-down list, select one of the following, and then select **Save**:
 
     -  **Pipeline (low confidence).** Any opportunity that a sales rep has just started to work on can be set to this category. The confidence of winning this opportunity is low. This is the default value.
 
-    -  **Best case (moderate confidence).** When the sales rep has started talking to customers or have shared quotes, and there are moderate chances of winning the opportunity, change the forecast category to **Best case (moderate confidence)**.
+    -  **Best case (moderate confidence).** When the sales rep has started talking to customers or has shared quotes, and there are moderate chances of winning the opportunity, change the forecast category to **Best case (moderate confidence)**.
 
-    -  **Committed (high confidence)**. When the customer is positive and committed about closing the deal, change the category to **Committed (high confidence)**.
+    -  **Committed (high confidence).** When the customer is positive and committed about closing the deal, change the category to **Committed (high confidence)**.
 
-    -  **Omitted (exclude from forecast)**. If you don’t want an opportunity’s numbers to be excluded from forecasting, use this category. 
+    -  **Omitted (exclude from forecast).** If you don’t want an opportunity’s numbers to be excluded from forecasting, use this category. 
 
-    ![Capture forecast category on an opportunity](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
+       > [!div class="mx-imgBorder"]
+       > ![Capture forecast category on an opportunity](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
 
 > [!TIP]
 > You can create a workflow to change the forecast category based on changes in the business process stage or in the probability of an opportunity.  
 
 
-### See also
+## See also
 [Create or edit an opportunity](create-edit-opportunity-sales.md) 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
