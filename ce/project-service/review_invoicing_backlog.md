@@ -30,8 +30,13 @@ In the latest version PSA, transactions that need to invoiced should be marked a
 Here’s a description of this process for the differnt types of transactions that can be created in Project Service application.  
 ### Review time and material billing backlog
 Whenever a time or expense entry submitted for a project is approved, Project Service creates "project actuals". Project Actuals are entries in the Actuals entity. Each time or expense entry for a project will always result in at least one cost actual. If the project and the transaction class combination maps to a time and material project contract line, the approved time or expense entry will result in 2 actuals:
+
 a cost actual and
+
 an unbilled sales actual.
+
+
+
 These unbilled sales actuals must then be marked as "Ready to invoice" i.e thier status must be set to "Ready to invoice". When a project invoice is created, the Unbilled Sales actuals that are marked as "Ready to invoice" are copied over as invoice line details.  
 In order to review your Time and Material invoice backlog and mark unbilled sales actuals as "ready to invoice", navigate to Sales->Billing -> Time and Material Billing backlog. Select all the unbilled sales actuals that are ready to invoice and then click the ribbon action "Ready to invoice". The billing status of these actuals changes to "Ready to invoice".
 
