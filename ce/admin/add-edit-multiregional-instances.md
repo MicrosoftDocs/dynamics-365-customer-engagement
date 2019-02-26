@@ -26,7 +26,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!IMPORTANT]
-> We are currently enabling only a very limited number instances for multiple regions. Check back for updated information on availability.
+> We are currently enabling only a very limited number of instances for multiple regions. Check back for updated information on availability.
 >
 > To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
 
