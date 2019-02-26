@@ -1,7 +1,7 @@
 ---
 title: "Add and edit multiregional instances of Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/24/2019
+ms.date: 02/26/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,7 +26,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!IMPORTANT]
-> We are currently providing only a very limited number of multiregional instances. Check back for updated information on availability.
+> We are currently enabling only a very limited number instances for multiple regions. Check back for updated information on availability.
 >
 > To request the ability to create [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances (Production and non-Production) in more than one geographical region, please contact your account manager or [Technical Support](contact-technical-support.md).  
 
