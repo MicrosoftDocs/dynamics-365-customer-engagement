@@ -107,7 +107,7 @@ To assign a payment gateway to an event:
 
 ### Receive payment confirmation
 
-For details about how to enable the system for receiving payment and finalizing registrations, see [Develop a system to finalize event registration](#finalize-registration) later in this topic.
+For details about how to develop the system for receiving payment and finalizing registrations, see [Develop a system to finalize event registration](#finalize-registration) later in this topic.
 
 ## Create a payment gateway when hosting on an external site
 
@@ -115,7 +115,7 @@ If you are hosting the event website on your own web server, then you must downl
 
 For more information about how to download the latest version of the event website, customize it, build it, and then deploy it on a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal or external website, see [Build and host a custom event website](developer/event-management-web-application.md).
 
-For details about how to enable the system for receiving payment and finalizing registrations, see [Develop a system to finalize event registration](#finalize-registration) later in this topic.
+For details about how to develop the system for receiving payment and finalizing registrations, see [Develop a system to finalize event registration](#finalize-registration) later in this topic.
 
 > [!NOTE]
 > When you are hosting on an external site, the **Payment gateway** and **Allow anonymous registration** settings for the event record have no effect. You can implement these preferences by customizing the site directly.
@@ -127,8 +127,8 @@ For details about how to enable the system for receiving payment and finalizing 
 After a contact submits their registration and payment details, the following events occur:
 
 1. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary  event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider and forwards the payment details.
-1. The system waits for the payment provider to confirm the payment by redirecting the contact to the *success URL* operated by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. When you sign up with a payment provider, they will usually ask for this success URL.
-1. When [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] receives that URL request, it finalizes the registration by turning the temporary registration into an actual registration that users can see in the system.
+1. The system waits for the payment provider to confirm payment by calling the *success URL* operated by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. When you sign up with a payment provider, they will usually ask for this success URL and use it in the code they return to you to include on your payment page.
+1. When [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] receives the success-URL request, it finalizes the registration by turning the temporary registration into an actual registration that users can see in the system.
 
 To set up the success URL, you must create a back-end service that is triggered when your payment provider calls that URL. You'll probably need assistance from a developer to create this service. You (or your developer) can use any implementation technology you like to create it.
 
@@ -137,10 +137,10 @@ Your back-end service must authenticate against your [!INCLUDE[pn-microsoftcrm](
 
 Depending on your payment provider, your back-end service may also be able to apply additional checks to the transaction. This isn't strictly required to finalize the registration, but it is good practice. If you need additional purchase details to verify the transaction, you can get the data by executing the custom action `msevtmgt_GetPurchaseDetailsAction`. It expects the input parameter `PurchaseId`, which is the ID of the temporary event registration. The output result of this custom action returns the event name, purchase amount, currency name, ISO currency code, and currency symbol.
 
-After your back-end solution has verified payment, it must invoke the `adx_FinalizeExternalRegistrationRequest` custom action against your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance, This custom action requires the following input parameters:
+After your back-end solution has verified payment, it must invoke the `adx_FinalizeExternalRegistrationRequest` custom action against your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance. This custom action requires the following input parameters:
 
 - `PurchaseId`: The ID of the temporary event registration that was generated after the contact submitted their registration and payment details.
 - `ReadableEventId`: A value that uniquely identifies the event. One way that you can see this is by opening the relevant event record, going to the **General** tab and finding the **Readable event ID** field.
-- `UserId`: Identifies the contact who made the purchase. This must be the unique ID for the contact record in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+- `UserId`: Identifies the contact who made the purchase. This is the ID for the contact record in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 
 For more information about how to execute custom actions, see [Use Web API actions](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-web-api-actions).
