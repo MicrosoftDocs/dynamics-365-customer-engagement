@@ -74,11 +74,20 @@ Single Sign On (SSO) in Unified Service Desk authenticates users to access Micro
 
 While signing in to Unified Service Desk you enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. To avoid entering credentials multiple times, the Signle Sign On (SSO) feture is introduced.
 
-To enable the SSO feature, you must configure the **SingleSignOnBrowserList** UII option and specify the list web browsers for which you want to SSO. You must enter the web browser values as comma separated values (CSV). For example, `Chrome,Edge,IE`. If you leave the value field empty, then the SSO feature is not enabled.
+To enable the SSO feature, you must configure the **SingleSignOnEnabledBrowsers** UII option and specify the list web browsers for which you want to SSO. You must enter the web browser values as comma separated values (CSV). For example, `Chrome,Edge,IE`. If value field is empty, then the SSO feature is disabled.
 
-By default, the SSO feature is enabled, and you've to enter the credentials only once while signing in to Unified Service Desk. 
+#### SSO supported browsers
 
-**SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds for Unified Service Desk to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default **SingleSignOnThreshold** value is 5000 milliseconds (5 seconds). To learn more [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md)
+The list of SSO suported browsers are as follows
+
+| Browser           | UII option Value |
+|-------------------|------------------|
+|Microsoft Edge     | Edge             |
+|Google Chrome      | Chrome           |
+|Internet Explorer  | IE               |
+
+
+**SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds for Unified Service Desk to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default, **SingleSignOnThreshold** value is 5000 milliseconds (5 seconds). To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
 
 To change the value, configure the **SingleSignOnThreshold** UII option and enter a value in the range **1000-60000** milliseconds (5-60 seconds). If you enter **0** as the value, then the **SingleSignThreshold** is disabled, and you must enter the crendentials more than once. If you enter a value more than **60000** milliseconds, then the Unified Service Desk defaults the value to **5000** milliseconds.
 
@@ -89,9 +98,9 @@ To change the value, configure the **SingleSignOnThreshold** UII option and ente
 | **0** | **SignleSignOnThreshold** is disabled |
 | **> 60000** | Value is defaulted to **5000** milliseconds |
 
-<!-- ### Enable/disable Single Sign On
+### Enable Single Sign On
 
-By default the SSO feature is enabled for Unified Service Desk,. To disable the SSO feature, you must the configure the **SingleSignOn** UII option and set it to **False**. If you leave the value bank, then the SSO is still enabled.
+To disable the SSO feature, you must the configure the **SingleSignOn** UII option and set it to **False**. If you leave the value bank, then the SSO is still enabled.
 
 To disbale the SSO feature, follow the steps:
 
@@ -103,7 +112,7 @@ To disbale the SSO feature, follow the steps:
 
 4. On the **Active UII Options** page, select **+ New**.
 
-5. On the new page, enter the <UII option name> for the **SingleSignOn** field and enter the **False** for the **Value** field.
+5. On the new page, enter the <UII option name> for the **SingleSignOnEnabledBrowsers** field and enter the browser name for the **Value** field. If you want SSO support for multiple browsers, enter the value as comma seperated values. For example, `Chrome,Edge,IE`.
 
 7. Select **Save**. -->
 
@@ -120,6 +129,8 @@ To disbale the SSO feature, follow the steps:
 5. On the new page, enter the **SingleSignOnThreshold** for the **Global Option** field and enter time in miiliseconds for the **Value** field.
 
 7. Select **Save**.
+
+After you set up the above mentioned UII options, the SSO feature is enabled. While signing in to the Unified Service Desk client application, you've to enter the credentials only once.
 
 ::: moniker-end
 
