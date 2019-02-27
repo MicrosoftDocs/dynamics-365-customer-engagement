@@ -50,27 +50,57 @@ The push notification scenario is delivered out-of-the-box with the geofencing f
 ## Instructions
 
 1) Verify geofence solutions are present in your environment
+mobile-geofence-solutions
 2) Activate gefoence processes
    1) activate generate geofence when booking process
    2) activate delete geofence when booking is completed or cancelled
+mobile-geofence-activate-processes
 3) verify location data is being pulled from mobile app (resco_mobileaudit) by enabling mobile auditing 
    1) go into project and set auditing to yes 
    2) In the Auditing section of the project you can set what kind of action will be recorded on selected entities by using the Mobile CRM application. Then it will be sent to the CRM server when the application is synchronized. You can track the time and GPS position (the device must contain the GPS chip) when the action/change was performed. It‘s also possible to record the time and location where the synchronization was performed. 
+
+mobile-geofence-enable-auditing
 You can track application’s state events, and that is whether the application is running, it’s terminated,  paused (put to background) or resumed (put back to foreground). 
 If you want to audit the movement, you can use the Track GPS position changes, where you can set the Delay and Distance of the GPS position. If the device moves for the defined distance after the set time interval expires, the position is recorded. 
  
  
    1) enable background gps monitoring 
+
+mobile-geofence-enable-location-tracking
 1) test location tracking
+mobile-geofence-sync-mobile-app
+mobile-geofence-mobile-audit-table
+mobile-geofence-map-location
+mobile-geofence-real-time-location-filter
+mobile-geofence-resource-location
 2) Set a unit of measure and minimum distance radius value
+
+mobile-geofence-minimum-radius
 3) verify the account entity is enabled for geofence with desired radius
+
+mobile-geofence-entities
    1) The geofence entity is a mostly static location the geofence will sit around. (example: Account)
-4) Verify bookable resource is configured for geotracking
+
+mobile-geofence-service-account
+1) Verify bookable resource is configured for geotracking
    1) The tracking point entity is the mostly mobile location that can breach the geofence. (example: Bookable Resource)
-5) 
-6)  book a work order (async workflow) and verify geofence is created
-7)  test breaking a geofence
+
+mobile-geofence-bookable-resource
+1)  book a work order (async workflow) and verify geofence is created
+
+mobile-geofence-book
+mobile-geofence-created
+mobile-geofence-created-record
+2)  test breaking a geofence
     1)  Consent to sharing GPS data on the Field Service Mobile app. A message will appear after a geofence is active. 
+
+mobile-geofence-arrive
+
+mobile-geofence-mobile-audit-table
+
+mobile-geofence-event
+
+mobile-geofence-status-inside
 
 
 
@@ -79,6 +109,8 @@ If you want to audit the movement, you can use the Track GPS position changes, w
 see topic on push notifications
 activate remind to change status upon arrival
 activate remind to change status upon leaving
+
+mobile-geofence-activate-reminders
 
 ## Create a custom geofence 
 
