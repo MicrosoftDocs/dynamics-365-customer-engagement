@@ -2,8 +2,8 @@
 title: "Set up field service users and security roles | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/31/2018
-ms.reviewer: 
+ms.date: 02/27/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
@@ -13,10 +13,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -49,7 +49,7 @@ By setting security roles for users, you control the types of data and entities 
 
 **Field Service—Inventory Purchase** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory related entities within his or her business unit. An example is processing a product return for one or many lines of business.
 
-**IoT - Administrator** and **IoT - Endpoint User** are designed for users who are responsible for device registration and device data pulls which are IoTHub operations related to Connected Field Service. These roles are characterized by full CRUD abilities for IoT  related entities. An example is access to all IoT Alerts and devices. For more information see the topic on [setting up security roles for Connected Field Service](cfs-security-roles.md)
+**IoT - Administrator** and **IoT - Endpoint User** are designed for users who are responsible for device registration and device data pulls that are IoTHub operations related to Connected Field Service. These roles are characterized by full CRUD abilities for IoT  related entities. For example, a user with these roles may have access to all IoT Alerts and devices. For more information, see the topic on [setting up security roles for Connected Field Service](cfs-security-roles.md).
 
 ## Set up a user for field service 
   
@@ -73,20 +73,20 @@ After assigning a user a security role, you must assign the user the correspondi
 Follow these steps to set up a dispatcher who schedules work orders for field technicians.
 
 > [!Note]
-> It is highly recommended to make copies of security roles and assign the copies to users. This prevents updates from disrupting business processes. Navigate to **Settings > Security > Security Roles** then select the **Field Service - Dispatcher** role and choose **Copy Role** under **Actions**. 
+> We strongly recommended making copies of security roles and assigning the copies to users. This prevents updates from disrupting business processes. Navigate to **Settings > Security > Security Roles** then select the **Field Service - Dispatcher** role and choose **Copy Role** under **Actions**. See the following screenshot for reference.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of copying a security role](media/admin-security-role-copy.png) 
 
-1. Navigate to **Settings** > **Security** > **Users**.
+1. Go to **Settings** > **Security** > **Users**.
 
 2. Select a user, and then choose **Manage Roles**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of adding a security role to a User](media/users-3.png) 
 
-1. Assign the copied **Field Service—Dispatcher** role to allow schedule, dispatch, and work order editing capabilities to the user. Or, if the user is responsible for more than schedule and dispatch, make a copy of the **Field Service – Administrator** role and assign it to the user.
+3. Assign the copied **Field Service—Dispatcher** role to allow schedule, dispatch, and work order editing capabilities to the user. Or, if the user is responsible for more than schedule and dispatch, make a copy of the **Field Service – Administrator** role and assign it to the user.
 
-2. Open the dispatcher's user record, and then select **Field Security Profiles**.
+4. Open the dispatcher's user record, and then select **Field Security Profiles**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of field security profiles in Dynamics 365 for Customer Engagement dropdown](media/users-4.png) 
@@ -98,7 +98,7 @@ Follow these steps to set up a dispatcher who schedules work orders for field te
 
 ## Set up a field technician user
 
-1. Navigate to **Settings** > **Security** > **Users**.
+1. Go to **Settings** > **Security** > **Users**.
 
 2. Select a user other than your dispatcher/administrator user to be a field technician, and then assign the **Field Service – Resource** and **Field Service—App Access** security roles.
 
@@ -124,7 +124,7 @@ Follow these steps to set up a dispatcher who schedules work orders for field te
 ## Set up geocoding for a field technician user
 To set up geocoding to enable location awareness for scheduling and routing, define where each resource starts and/or ends the day. 
 
-1.  Navigate to **Settings** > **Users**, and then select the field technician's record.
+1.  Go to **Settings** > **Users**, and then select the field technician's record.
 
 2.  Verify that the record includes an address. 
 
@@ -149,7 +149,7 @@ If there isn't already an address for the user, navigate to the Office 365 admin
 > [!div class="mx-imgBorder"]
 > ![Screenshot of connecting to maps and Bing Maps API in Dynamics](media/users-19.png) 
 
-5. Navigate to the user record, and then select **Geo Code**.
+5. Go to the user record, and then select **Geo Code**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geocoding user record](media/users-20.png) 
