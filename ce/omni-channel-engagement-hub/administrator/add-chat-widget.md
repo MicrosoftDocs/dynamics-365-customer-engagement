@@ -26,7 +26,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
     - **Basic details**:
 
-        1. In the **General information** section, enter a name for the chat widget. You can optionally specify authentication settings. Save the record to enter more details. For more information about how to specify authentication settings, see [Create chat authentication settings](create-chat-auth-settings.md).
+        1. In the **General information** section, enter a name for the chat widget and select the agent name to be displayed. More information on agent display name: Set up agent display nameYou can optionally specify authentication settings. For more information about how to specify authentication settings, see [Create chat authentication settings](create-chat-auth-settings.md). You must save the record to enter more details
         2. In the **Work Distribution** section, browse and select the work stream you created for the chat widget. By default, **Default Chat Workstream** is selected.
         
         > [!NOTE]

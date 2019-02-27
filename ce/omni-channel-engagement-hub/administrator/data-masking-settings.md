@@ -15,6 +15,10 @@ ms.custom:
 
 # Create data masking settings
 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 intro here
 
 ## Create data masking record

@@ -23,6 +23,7 @@
 
 ### [Configure a chat widget](administrator/set-up-chat-widget.md)
 #### [Add a chat widget](administrator/add-chat-widget.md)
+#### [Configure agent display name](administrator/agent-display-name.md)
 #### [Create a survey questions library](administrator/create-question-library.md)
 #### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 #### [Create and manage operating hours](administrator/create-operating-hours.md)

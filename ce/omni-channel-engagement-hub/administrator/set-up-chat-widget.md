@@ -24,6 +24,7 @@ The chat widget lets your customers connect with you in a way that is convenient
 In this section, you will learn how to:
 
 - [Add a chat widget](add-chat-widget.md)
+- [Configure agent display name](agent-display-name.md)
 - [Configure a pre-chat survey](configure-pre-chat-survey.md)
 - [Create a survey question](create-question-library.md)
 - [Create and manage operating hours](create-operating-hours.md)
