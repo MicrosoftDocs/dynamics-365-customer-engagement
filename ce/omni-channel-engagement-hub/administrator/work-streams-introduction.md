@@ -21,19 +21,20 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 A work stream is a collection of routing & work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. 
 
-In Omni-channel, you can create two types of work streams:
+In Omni-channel, you can create the following types of work streams:
 
 - [Live chat work stream](create-work-streams.md#create-a-new-live-chat-work-stream)
 - [CDS Entity work stream](create-work-streams.md#create-a-new-cds-entity-work-stream)
+- SMS work stream
 
 > [!NOTE]
 > A work stream can belong to multiple sources of same type, for example multiple live chat widgets. In this case, all the conversations from these widgets inherit routing and work distribution settings of the work stream they belong to.
 
 A work stream comprises of the following properties:
 
-- **Stream source**: Stream source is defined as a medium via which a customer reaches out for support. For example, a customer can chat with an agent through chat. 
+- **Stream source**: Stream source is defined as a medium via which a customer reaches out for support. For example, a customer can contact an agent through chat or SMS. 
    
-- **Allowable Presence**: Allowable presence helps in distributing conversations to agents based on their presence status. For example, if you want to allocate a chat conversation from a high priority customer, ensure that you look for only those agents that have their presence status as 'Available'. So, while defining properties for a work stream, select Allowable presence as Available.
+- **Allowed Presence**: Allowed presence helps in distributing conversations to agents based on their presence status. For example, if you want to allocate a chat conversation from a high priority customer, ensure that you look for only those agents that have their presence status as 'Available'. So, while defining properties for a work stream, select Allowable presence as Available.
 
     For more information, see [Configure and manage presence status](presence-custom-presence.md).
 
@@ -44,11 +45,10 @@ A work stream comprises of the following properties:
     For more information, see [View agent dashboard and agent work items](../agent/agent-usd/introduction-agent-dashboard.md).
  
 
-- **Context attributes**: Context attributes enrich conversations with pre-chat data and channel data. These attributes can then be used to define routing rules to route conversations into different queues. 
-   > [!NOTE]
-   > For this preview, context variables are applicable only for live chat.
+- **Context variables**: Context variables enrich conversations with pre-chat data and channel data. These attributes can then be used to define routing rules to route conversations into different queues. 
+  
 
-- **Routing rules**: Routing rules are configured for each work stream, so that conversations can be routed to the correct queues. For more information, see [Create and manage routing rules in Omni-channel](routing-rules.md). 
+- **Routing rule items**: Routing rule items are configured for each work stream, so that conversations can be routed to the correct queues. For more information, see [Create and manage routing rules in Omni-channel](routing-rules.md). 
 
 
 ### See also

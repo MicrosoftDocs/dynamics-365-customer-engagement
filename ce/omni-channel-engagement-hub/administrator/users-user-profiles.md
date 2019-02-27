@@ -34,7 +34,7 @@ Navigate to **Omni-channel Administration > User Management > Users** to view th
 
     The **Omni-channel Users** view is shown. 
 
-2. In the **Omni-channel** tab, provide the following information:
+2. Select a user and in the **Omni-channel** tab, provide the following information:
 
     - In the **Agent Details** section: </br>
 
