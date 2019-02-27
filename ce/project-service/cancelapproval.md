@@ -25,31 +25,30 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In the latest version PSA, transactions that need to invoiced should be marked as "Ready to invoice" before invoicing can pick them up and create an invoice.  
+In the latest version PSA, an approver has the option to cancel thier approval on a previously approved time or expense entry. 
+  
+## Cancelling an previously approved time or expense entry
+1. To cancel a previously approved time or expense entry, navigate to Projects -> My Work -> Approvals
+2. From the view picker on the Approvals list page, change the view to "My past approvals". A list of previously approved time and expense entries will be shown.
+3. Select one or more entries and click on the ribbon action for "Cancel approval"
+4. A warning message explaining the impact will be shown. Click ok to confirm.
+5. The approval will be cancelled.
 
-Here’s a description of this process for the differnt types of transactions that can be created in Project Service application.  
-### Review time and material billing backlog
-Whenever a time or expense entry submitted for a project is approved, Project Service creates "project actuals". If the project and the transaction class combination maps to a time and material project contract line, the approved time or expense entry will result in 2 actuals:
+## Understand the impact of cancelling the approval on project time or expense entry
 
-a cost actual and
+### Operational Impact:
 
-an unbilled sales actual.
+The approval record will come back into draft status. This means that depending on whether the cancelled approval was time or expense entry, the approval will no longer be in the view for "My past approvals" and instead will be shown under "Time entries for approval" or "Expense entries for approval" view. The related time or expense entry will also have its status modified to "Submitted" to be consistent with an Approval in "draft" status
+As an approver, you can edit fields that are editable for approvals in draft status. This includes fields such as Billing Type, Billable hours for Time entries. Once the required edits are in, you may choose to approve the record again. 
+Alternatively, you also have the option of rejecting the entry. Rejecting the approval of a time entry will put the Time entry in Returned status and Rejecting the approval of an Expense entry will put the Expense entry in "Rejected" status. Semantically both Returned and Rejected entries behave has draft entries would. So the project team member will be able to make the required edit and resubmit or delete the entry entirely.  
 
-These unbilled sales actuals represent the Billing backlog and must be marked as "Ready to invoice" i.e their billing status must be set to "Ready to invoice". When a project invoice is created, the Unbilled Sales actuals that are marked as "Ready to invoice" are copied over as invoice line details.  
-To review Time and Material billing backlog, navigate to Sales->Billing -> Time and Material Billing backlog. Select all the unbilled sales actuals that are ready to invoice and then click the ribbon action "Ready to invoice". The billing status of these actuals changes to "Ready to invoice".
-> ![Review time and material billing backlog](media/TMBacklog.png)
+### Financial Impact:
+When an approval is cancelled, there is financial impact on the project. 
+Fristly the corresponding actuals for cost and sales are updated in the following way:
 
-### Review product billing backlog
-When a project contract in Project service has a product-based contract line, these lines are considered for invoicing whenever an invoice is created for that project contract. Any product - based contract line that is marked as "Ready to invoice" will be copied over to the Project invoice as Project Invoice lines.
+1. The Adjustment status is set to "Adjusted"
+2. The billing status is set to "Cancelled"
 
-To review Product billing backlog, navigate to Sales->Billing -> Product Billing backlog. Select all the product-based  contract lines that are ready to invoice and then click the ribbon action "Ready to invoice". The billing status of these lines changes to "Ready to invoice".
-> ![Review product billing backlog](media/ProductBacklog.png)
-### Review billing milestones on fixed price contracts 
-Each project contract line that has fixed price billing method must define Contract milestones. These Contract milestones must be marked as ready to invoice in order to be invoiced. 
+Secondly, the system created reversal entries in the Actuals table by copying over all the field values from the original actuals with the exception of quantity values that are reversed  the sign. These reversing actuals are created for both Cost and Unbilled Sales actuals. The adjustment status field on these reverse Actuals is set to "Unadjustable" and the Billing status is set to Cancelled
 
-To review billing milestones, navigate to Sales->Billing -> Fixed Price Milestones. Select the Milestones that are ready to be invoiced and then click the ribbon action "Ready to invoice". The billing status of these Milestones changes to "Ready to invoice".
-> ![Review Fixed Price Milestones](media/FPBacklog.png)
-
-
-
-
+Due to the above changes, the spend recorded on the project and the revenue backlog on the project will no longer account for the amounts represented by these actuals.
