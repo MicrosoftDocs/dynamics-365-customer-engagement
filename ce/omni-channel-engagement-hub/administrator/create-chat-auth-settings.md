@@ -151,7 +151,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 ### See also
 
 [Add a chat widget](add-chat-widget.md) <br>
-[Create a survey questions library](create-question-library.md) <br>
+[Create a survey question](create-question-library.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
