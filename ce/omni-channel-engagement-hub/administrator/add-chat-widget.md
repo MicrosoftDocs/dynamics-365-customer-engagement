@@ -49,7 +49,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
     - **Location**:
         1. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
-        2. In the **Visitor location** section, specify if you need to detect the visitor's location. For more information about how to set up location detection, see [Create and manage geo location](create-geo-location.md).
+        2. In the **Visitor location** section, specify if you need to detect the visitor's location. For more information about how to set up location detection, see [Create and manage geo location providers](geo-location-provider.md).
 
 ### See also
 

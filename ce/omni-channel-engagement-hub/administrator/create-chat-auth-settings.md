@@ -1,6 +1,6 @@
 ---
-title: "Set up a chat widget | MicrosoftDocs"
-description: "Instructions to configure a chat widget in Omni-channel Engagement Hub."
+title: "Create chat authentication settings | MicrosoftDocs"
+description: "Instructions to create chat authentication settings in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
