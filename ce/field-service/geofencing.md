@@ -43,7 +43,7 @@ The push notification scenario is delivered out-of-the-box with the geofencing f
 
 2. Field Service Mobile 11.2+
 
-3. Enable geo-auditing in Woodford
+3. Enable geocoding
    
 
 
@@ -51,9 +51,8 @@ The push notification scenario is delivered out-of-the-box with the geofencing f
 
 1) Verify geofence solutions are present in your environment
 2) Activate gefoence processes
-   1) activate default geofence radius visiblity 
-   2) activate generate geofence when booking process
-   3) activate delete geofence when booking is completed or cancelled
+   1) activate generate geofence when booking process
+   2) activate delete geofence when booking is completed or cancelled
 3) verify location data is being pulled from mobile app (resco_mobileaudit) by enabling mobile auditing 
    1) go into project and set auditing to yes 
    2) In the Auditing section of the project you can set what kind of action will be recorded on selected entities by using the Mobile CRM application. Then it will be sent to the CRM server when the application is synchronized. You can track the time and GPS position (the device must contain the GPS chip) when the action/change was performed. It‘s also possible to record the time and location where the synchronization was performed. 
