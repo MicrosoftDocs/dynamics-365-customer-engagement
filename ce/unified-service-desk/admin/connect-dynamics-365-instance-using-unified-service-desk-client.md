@@ -78,7 +78,7 @@ To enable the SSO feature, you must configure the **SingleSignOnEnabledBrowsers*
 
 #### SSO supported browsers
 
-The list of SSO suported browsers are as follows
+The list of SSO suported browsers are as follows.
 
 | Browser           | UII option Value |
 |-------------------|------------------|
