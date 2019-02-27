@@ -59,7 +59,7 @@
 #### [Navigate using the navigation bar](agent/agent-csh/csh-navigation-bar.md)
 #### [Navigation bar buttons](agent/agent-csh/csh-navigation-bar-buttons.md)
 #### [View agent dashboard and agent work items](agent/agent-csh/csh-my-dashboard.md)
-#### [Understand conversation states](agent/agent-usd/csh-conversation-state.md)
+#### [Understand conversation states](agent/agent-csh/csh-conversation-state.md)
 #### [View communication panel](agent/agent-csh/csh-conversation-control.md)
 #### [Set user presence](agent/agent-csh/csh-set-user-presence-status.md)
 #### [View notifications and screen pops](agent/agent-csh/csh-notifications-screen-pops.md)
