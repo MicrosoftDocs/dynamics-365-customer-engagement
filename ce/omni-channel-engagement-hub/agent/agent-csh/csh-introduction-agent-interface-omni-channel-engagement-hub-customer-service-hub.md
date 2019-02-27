@@ -27,7 +27,7 @@ When you sign in to Customer Service Hub app, the Omni-channel Engagement Hub in
 
 3.  Navigation bar buttons
 
-4.  My Dashboard
+4.  Omni-channel agent dashboard
 
 5.  Conversation control (Collapsed mode)
 
