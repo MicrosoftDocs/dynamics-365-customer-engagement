@@ -114,7 +114,7 @@ To disbale the SSO feature, follow the steps:
 
 5. On the new page, enter the <UII option name> for the **SingleSignOnEnabledBrowsers** field and enter the browser name for the **Value** field. If you want SSO support for multiple browsers, enter the value as comma seperated values. For example, `Chrome,Edge,IE`.
 
-7. Select **Save**. -->
+7. Select **Save**.
 
 ### Change SignleSignOnThreshold value
 
