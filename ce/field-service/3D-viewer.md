@@ -1,5 +1,5 @@
 ---
-title: "3d models for Field Service | MicrosoftDocs"
+title: "3D models for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2019
@@ -13,8 +13,8 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
+author: FieldServiceDav
+ems.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
 ms.author: daclar
 search.audienceType: 
@@ -42,8 +42,8 @@ In this topic, we'll walk through how to associate a 3D model record with a cust
 To increase attachment file size in D365 administration:
 
 1. Navigate to **Settings > Administration > System Settings**
-2. Select **Email** tab
-3. In the **Set file size limit for attachments section** set the **Maximum file size (in Kilobytes)** to **131,072** KB. The click **Ok**.
+2. Select the **Email** tab
+3. In the **Set file size limit for attachments section**, set the **Maximum file size (in Kilobytes)** to **131,072** KB. Then select **Ok**.
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of increasing attachment file size in D365 administration](media/3DViewerDocumentationDoc-image4.png)
@@ -60,7 +60,7 @@ Finally, make sure that 3D file types are not blocked for attachments in the Dyn
   > ![Screenshot showing that 3D file types are not blocked for attachments](media/3DViewerDocumentationDoc-image5.png) 
 
   > [!Note]
-  > The supported file 3D viewer types are **GLB**, **GLTF**, and **OBJ**
+  > The supported file 3D viewer types are **GLB**, **GLTF**, and **OBJ**.
 
 ## Open a 3D file
 
@@ -78,50 +78,49 @@ If you already have a 3D file, you can use Paint 3D to open it and save it as a 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of save as copy](media/3DViewerDocumentationDoc-image2.png)  
 
-5. Enter a **File Name**. For Save as type, select **3D-GLB(.glb)**. Then **Save**.
+5. Enter a **File Name**. For **Save as type**, select **3D-GLB(.glb)**. Then **Save**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of save as type, selecting 3D-GLB(.glb)](media/3DViewerDocumentationDoc-image3.png)  
 
  
-## Associate Customer Assets with 3D Models
+## Associate customer assets with 3D models
 
-Once you have your GLB, GLTF, or OBJ file, and you have configured your organization as per the previous steps, you are ready to associate your 3D model with a customer asset.
+Once you have your GLB, GLTF, or OBJ file, and you have configured your organization per the steps in this topic, you are ready to associate your 3D model with a customer asset.
 
-1. Open up the desired customer asset record and select the **Related** tab
-2. Select **3D Models** from the drop down
-3. Click **Add Existing 3D Model**
+1. Open up the desired customer asset record and select the **Related** tab.
+2. Select **3D Models** from the drop down.
+3. Select **Add Existing 3D Model**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of associate your 3D model with a customer asset](media/3DViewerDocumentationDoc-image6.png) 
 
-4. A quick create form for 3D Model will open. Click on **+New**
-5. Enter a **Name** for the 3D Model and then select the **Storage Type** drop-down
-6. Select **Note Attachment**. Then click **Save** on the form.
+4. A quick create form for 3D model will open. Select **+New**.
+5. Enter a **Name** for the 3D model.
+6. Select the **Storage Type** drop-down, and choose **Note Attachment**. Then **Save** the form.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Note Attachment](media/3DViewerDocumentationDoc-image7.png)
 
-7. After saving the record, the **Timeline** section will appear. Click on the paperclip icon to add a note with an attachment.
-8. You will be prompted to select a file. Select the 3D file you saved as a GLB earlier and click **Open**.
-9. After selecting a file, you should see the file attached with a paperclip icon next to it. Give the Note a **Title** and then click **Add note**.
-
+7. After saving the record, the **Timeline** section will appear. Select the paperclip icon to add a note with an attachment.
+8. When the file prompt appears, select your 3D file and then **Open**.
+9. After selecting a file, you should see the file attached with a paperclip icon next to it. Give the note a **Title** and then select **Add note**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Add note](media/3DViewerDocumentationDoc-image8.png)  
 
-10. After saving the note, you should see it appear on the timeline with the attached 3D file.
+10. After saving the note, it will appear on the timeline with the attached 3D file.
 11. To view the 3D file, scroll past the timeline section on the form. You can interact with the 3D viewer by scrolling, left-clicking, right-clicking and dragging. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of appear on the timeline with the attached 3D file](media/3DViewerDocumentationDoc-image9.png)  
 
-12. After saving and closing the form for the 3D model, you can then select it from the lookup on the 3D Model quick create form. 
-13. After selecting the 3D Model record, click **Add** to associate that 3D model with the Customer Asset.
-14. The 3D Model can then be accessed via the 3D Model Associated View on the Customer Asset record.
+12. After saving and closing the form for the 3D model, you can then select it from the lookup on the 3D model quick create form. 
+13. After selecting the 3D model record, select **Add** to associate that 3D model with the customer asset.
+14. The 3D model can then be accessed through the 3D model associated view on the customer asset record.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of 3D Model Associated View](media/3DViewerDocumentationDoc-image10.png)
+> ![Screenshot of 3D model associated view](media/3DViewerDocumentationDoc-image10.png)
 
 ## Additional notes
-- 3D files are viewable on Field Service Mobile on Windows, iOS, and Android devices
+- You can view 3D files on Field Service Mobile for Windows, iOS, and Android devices.
