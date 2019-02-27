@@ -1,9 +1,9 @@
 ---
-title: "Security Roles for Connected Field Service | MicrosoftDocs"
+title: "Security roles for Connected Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/21/2019
-ms.reviewer: ""
+ms.date: 02/28/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,10 +13,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -26,75 +26,69 @@ search.app:
   - D365FS
 ---
 
-# Security Roles for Connected Field Service
+# Security roles for Connected Field Service
 
-Security for connected field service entities should be added to existing field service security roles for field service administrators, dispatchers, and resources/technicians. 
-
-Doing this will give appropriate access to IoT entities including but not limited to IoT Alerts, Assets, Devices and Commands which are included with Field Service v8.3+.
+Security roles for Connected Field Service allow administrators to give appropriate access to Internet of Things (IoT) entities, including alerts, assets, devices, and commands, which are all included with Field Service v8.3+. These security roles should be added to existing Field Service security roles for field service administrators, dispatchers, and resources. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](media/cfs-entities-navbar.png)
 
-In general, access to IoT entities should mimic access to the Customer Asset entity for field service administrators, dispatchers, and resources/technicians.
+In general, access to IoT entities should mimic access to the customer asset entity for field service administrators, dispatchers, and resources.
 
 ## Prerequisites
 
 - Field Service v8.3+
-- It is highly recommended to make copies of the Field Service security roles and assign the copied security roles to users. This will prevent product updates from overwriting your custom security. You can copy a security role by navigating to **Settings > Security > Security Roles** then selecting a security role record and choosing **Actions > Copy Role**.
+
+> [!Note]
+> We strongly recommended making copies of the Field Service security roles and assigning the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To make a security role copy, go to **Settings > Security > Security Roles**, then select= a security role record and choose **Actions > Copy Role**. See the following screenshot for reference.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of copying a security role](media/admin-security-role-copy.png) 
 
 
 ## Add IoT security to administrator security role
 
-Field service administrators should be given full access to IoT entities as these users may need a full view of IoT alerts across all devices and the ability to register new IoT devices.
+Field Service administrators should typically have full access to IoT entities, as these users may need a full view of IoT alerts across all devices and the ability to register new IoT devices.
 
 Field Service administrators are typically given a copy of the **Field Service - Administrator** security role. 
 
-If your organization is utilizing Connected Field Service, these users should also be assigned a copy of the **IoT - Administrator** security role.
+If your organization is using Connected Field Service, these administrators should also be assigned a copy of the **IoT - Administrator** security role.
 
-Ensure this gives field service administrators full access to IoT entities according to the image below.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/cfs-security-role-administrator.png)
-
-In addition, the field service administrator security role should be given full access to the "CFS - IoT Alert Process Flow," which is a business process flow for CFS. 
+With fully enabled IoT administrator permissions, Field Service administrators should have access to all IoT entities, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/cfs-security-role-administrator-bpf.png)
+> ![Screenshot of all the IoT entities that Field Service administrators should have access to](media/cfs-security-role-administrator.png)
+
+The Field Service administrator security role should also be given full access to the **CFS - IoT Alert Process Flow**, which is a business process flow for CFS. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the IoT alert process flow](media/cfs-security-role-administrator-bpf.png)
 
 ## Add IoT security to dispatcher role
 
-Field service dispatchers also need some level of access to IoT entities and records. As an example, if a work order is created as a result of an IoT alert, the dispatcher should know this information to communicate with the customer and schedule to the appropriate resources/technicians.
+Field Service dispatchers also need some level of access to IoT entities and records. For example, if a work order is created as a result of an IoT alert, the dispatcher should be aware so that they can communicate with the customer and schedule to the appropriate resources.
 
-Find the dispatcher security role your organization assigns to dispatchers (typically a copy of the **Field Service - Dispatcher** security role) and manually assign limited access to IoT entities according to the image below.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/cfs-security-role-dispatcher.png)
-
-Next, add access to the "CFS - IoT Alert Process Flow" according to the image below.
+Find the dispatcher security role your organization assigns to dispatchers (typically a copy of the **Field Service - Dispatcher** security role) and manually assign limited access to IoT entities according to the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/cfs-security-role-dispatcher-bpf.png)
+> ![Screenshot of enabled permissions for the dispatcher](media/cfs-security-role-dispatcher.png)
+
+Next, add access to the **CFS - IoT Alert Process Flow** according to the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the IoT alert process flow](media/cfs-security-role-dispatcher-bpf.png)
 
 ## Add IoT security to resource security role
 
-Finally, resources/technicians also need access to IoT related entities and records related to the work they are responsible for.
+Finally, resources also need access to IoT related entities and records related to the work they are responsible for.
 
-Find the resource security role your organization assigns to resources/technicians (typically a copy of the **Field Service - Resource** security role) and manually assign limited access to IoT entities according to the image below.
+Find the resource security role your organization assigns to resources or technicians (typically a copy of the **Field Service - Resource** security role), and manually assign limited access to IoT entities according to the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/cfs-security-role-resource.png)
+> ![Screenshot of the field service resource permissions](media/cfs-security-role-resource.png)
 
-Because business process flows are not displayed on the Field Service Mobile app, resources/technicians do not need access to the "CFS - IoT Alert Process Flow."
+Because business process flows are not displayed on the Field Service Mobile app, resources don't need access to the **CFS - IoT Alert Process Flow.**
 
 
 ## Additional notes
 
 - Any user who needs to do device registration and device data pulls (IoT Hub operations) should be given the **IoT Administrator** and **IoT Endpoint User** security roles.
-
-
-
-
-
-
