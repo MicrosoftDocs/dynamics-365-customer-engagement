@@ -27,9 +27,8 @@ search.app:
 Write application code to handle disaster recovery, administer your deployment, and import sample data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
 ## In This Section  
- [Disaster Recovery in Dynamics 365 for Customer Engagement apps](disaster-recovery-online-customer-engagement.md)  
-  
- [Sample Data for Dynamics 365 for Customer Engagement apps](sample-data.md)  
+[Administer the deployment using the deployment web service](administer-deployment-using-deployment-web-service.md)  
+[Sample Data for Dynamics 365 for Customer Engagement apps](sample-data.md)  
   
 ## Related Sections  
  [Add and Remove Sample Data](../admin/add-remove-sample-data.md)
