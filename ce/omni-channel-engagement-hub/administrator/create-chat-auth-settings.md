@@ -118,7 +118,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
     }
     ```
 
-6. Add custom context variables, if they are required. The context variables must be defined exactly as they are defined in Common Data Service for Apps.
+6. Add custom context variables, if they are required. The context variables must be defined exactly as they are defined in the work stream that is associated with the chat widget.
 
     Here is a sample definition of custom context variables.
 
