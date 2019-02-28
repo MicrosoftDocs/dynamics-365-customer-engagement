@@ -92,6 +92,9 @@
 ## [Omni-channel Engagement Hub for customer](customer/omni-channel-engagement-hub-customer.md)
 
 ## [Developer guide](developer/omni-channel-engagement-hub-developer.md)
+### [How to]()
+#### [Send context when starting chat](developer/how-to/send-context-starting-chat.md)
+#### [Send authentication token when starting chat](developer/how-to/send-auth-token-starting-chat.md)
 ### [JavaScript API Reference](developer/omni-channel-reference.md)
 #### [Methods]()
 ##### [getContextProvider](developer/reference/methods/getContextProvider.md)
@@ -104,5 +107,6 @@
 #### [Events]()
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
 ##### [lcw:error](developer/reference/events/lcw-error.md)
+#### [Error code reference](developer/reference/error-code-reference.md)
 
 ## [Readme](omni-channel-readme.md)

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Send context to Omni-channel when a chat | Microsoft Docs"
+title: "Walkthrough: Send context to Omni-channel when starting a chat | Microsoft Docs"
 description: ""
 keywords: ""
 ms.date: 02/28/2019
@@ -14,12 +14,12 @@ manager: shujoshi
 ---
 # Walkthrough: Send context to Omni-channel Engagement Hub when starting a chat
 
-When a user initiates a chat, developer can some context to Omni-channel Engagement Hub, which would help in deciding which agent/queue to route the chat to.
+When a user initiates a chat, developer can pass some context to Omni-channel Engagement Hub, which would help in deciding which agent/queue to route the chat to.
 
 Follow the given steps to send context when starting a chat:
 
 1. Listen on the **lcw:ready** event raised by live chat before calling the LiveChat SDK methods.
-2. Once the **lcw:ready** event is raised, register a context provider with live chat using [Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider](../reference/methods/setContextProvider.md) method.
+2. Once the **lcw:ready** event is raised, register a context provider with live chat using [setContextProvider](../reference/methods/setContextProvider.md) method.
 
 ## Sample code
 
@@ -45,6 +45,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 	console.log(errorEvent);
 });
 ```
+
 ## See also
 
 [JavaScript API reference](../omni-channel-reference.md)

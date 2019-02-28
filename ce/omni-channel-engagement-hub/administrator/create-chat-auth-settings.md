@@ -81,7 +81,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     Here is sample code for defining the JavaScript client function.
 
-    ```
+    ```JavaScript
     window["getAuthenticationToken"] = function(callback){
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
@@ -102,7 +102,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     Here is a sample JSON payload.
 
-    ```
+    ```JavaScript
     {
         "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
         "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352",
@@ -122,7 +122,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     Here is a sample definition of custom context variables.
 
-    ```
+    ```JavaScript
     def create_token(user_json):
         with open('private_key.pem', 'r') as myfile:
             data = myfile.read()
@@ -143,7 +143,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     Here is sample code for encrypting the payload. (This code is included in the previous sample code for defining custom context variables.)
 
-    ```
+    ```JavaScript
     encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
     return encoded_jwt
     ```
