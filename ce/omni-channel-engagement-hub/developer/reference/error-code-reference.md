@@ -14,12 +14,12 @@ ms.custom:
 ---
 # Error code reference for Omni-channel Engagement Hub
 
-|Error|Resolution|
+|Error Code|Error message|
 |-----|-----|
-|**Error code**: 1<br />LCW_CONTEXTPROVIDER_METHOD_FAIL<br />**Error message**: Context provider method execution failed||
-|**Error code**: 2<br />LCW_AUTHTOKENPROVIDER_METHOD_FAIL<br />**Error message**: Auth token provider method execution failed||
-|**Error code**: 3<br />LCW_AUTHTOKENPROVIDER_NO_TOKEN_RECEIVED<br />**Error message**: Auth token provider didn't provide any token||
-|**Error code**: 4<br />LCW_AUTHTOKENPROVIDER_INVALID_TOKEN_RECEIVED<br />**Error message**: Auth token provider provided invalid token||
+|1|Context provider method execution failed|
+|2|Auth token provider method execution failed|
+|3|Auth token provider didn't provide any token|
+|4|Auth token provider provided invalid token|
 
 ## See also
 
