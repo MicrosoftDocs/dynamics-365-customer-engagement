@@ -15,21 +15,27 @@
 ### [Manage users](administrator/users-user-profiles.md)
 
 ### Work distribution settings
-#### [Understand work streams](administrator/work-streams-introduction.md)
-#### [Create and manage work streams](administrator/create-work-streams.md)
-#### [Create a new live chat work stream](administrator/create-work-streams.md#create-a-new-live-chat-work-stream)
-#### [Create a new CDS Entity work stream](administrator/create-work-streams.md#create-a-new-cds-entity-work-stream)
+#### [Understand and create work streams](administrator/work-streams-introduction.md)
+#### Create a Chat channel
+#### [Create an Entity channel](administrator/create-entity-channel.md)
+#### Create an SMS channel
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 #### [Work with queues](administrator/queues-omni-channel.md)
 
-### [Configure a chat widget](administrator/set-up-chat-widget.md)
+### [Configure a chat channel](administrator/set-up-chat-widget.md)
 #### [Add a chat widget](administrator/add-chat-widget.md)
-#### [Create a survey questions library](administrator/create-question-library.md)
+#### [Configure agent display name](administrator/agent-display-name.md)
+#### [Create a survey question](administrator/create-question-library.md)
 #### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
+#### [Set up location detection](administrator/geo-location-provider.md)
 #### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
+
+### [Configure an SMS channel](administrator/sms-channel.md)
+
+### [Create and manage data masking rules](administrator/data-masking-settings.md)
 
 ### Agent experience settings
 #### [Create quick replies](administrator/create-quick-replies.md)
