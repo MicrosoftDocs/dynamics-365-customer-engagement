@@ -39,12 +39,12 @@ In general, access to IoT entities should mimic access to the customer asset ent
 
 - Field Service v8.3+
 
-- Dynamics 365 System Administrator access
+- Dynamics 365 system administrator access
 
-- General knowledge of Field Service security roles, for more information see the topic on [setting up field service users and security roles](view-user-accounts-security-roles.md)
+- General knowledge of Field Service security roles. For more information, see the topic on [setting up field service users and security roles](view-user-accounts-security-roles.md)
 
 > [!Note]
-> It is highly recommended to make copies of the Field Service security roles and assign the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To copy a security role, go to **Settings > Security > Security Roles**, then select= a security role record and choose **Actions > Copy Role**. See the following screenshot for reference.
+> We strongly recommended making copies of the Field Service security roles and assigning the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To copy a security role, go to **Settings > Security > Security Roles**, then select= a security role record and choose **Actions > Copy Role**. See the following screenshot for reference.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of copying a security role](media/admin-security-role-copy.png)
 
@@ -85,7 +85,7 @@ Next, add access to the **CFS - IoT Alert Process Flow** according to the follow
 
 ## Add IoT security to resource security role
 
-Finally, resources also need access to IoT related entities and records related to the work they are responsible for.
+Finally, resources also need access to IoT entities and records related to the work they are responsible for.
 
 Find the resource security role your organization assigns to resources or technicians (typically a copy of the **Field Service - Resource** security role), and manually assign limited access to IoT entities according to the following screenshot.
 
@@ -97,4 +97,4 @@ Because business process flows are not displayed on the Field Service Mobile app
 
 ## Additional notes
 
-- Any user who needs to do device registration and device data pulls (IoT Hub operations) should be given the **IoT Administrator** and **IoT Endpoint User** security roles.
+- Any user who needs to work with device registration and device data pulls (IoT Hub operations) should be given the **IoT Administrator** and **IoT Endpoint User** security roles.
