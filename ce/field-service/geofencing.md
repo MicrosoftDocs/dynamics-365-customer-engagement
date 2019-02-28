@@ -104,7 +104,7 @@ Among other functions, this allows a technician's current location to appear on 
 
 ## 5. Test location auditing
 
-After enabling location auditing and background location tracking, it is important to test the location data stream. There are multiple ways to confirm this.
+After enabling location auditing and background location tracking, it is important to test the location data stream. There are multiple ways to do this.
 
 First, log into the Field Service Mobile application and synchronize data.
 
@@ -115,14 +115,25 @@ As configured in the mobile project in previous steps, synchronizing the mobile 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-mobile-audit-table.png)
 
-Back in Dynamics 365, go to the mobile audit table (**Settings > Mobile Auditing > Mobile Auditing Records**) to confirm the synchronization event, along with the user and the latitude and longitude values of the event are recorded.
+Back in Dynamics 365, go to the mobile audit table (**Settings > Mobile Auditing > Mobile Auditing Records**) to confirm the synchronization event, along with the user and the **latitude** and **longitude** values of the event are recorded.
+
+If the user signed into the mobile app is related to a bookable resource, the most recent latitude and longitude coordinates will populate on the bookable resource record. 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-geofence-resource-location.png)
+
+> [!Note]
+> You may need to add the latitude and longitude fields to the bookable resource form.
+
+
+Additionally, the bookable resource's current location will appear on the schedule board map. Simply click the map pin icon next to the bookable resource's name and the map will display the location with a different icon. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-map-location.png)
+
+**Pro Tip:** Dispatchers can utilize current locations for schedule assistant travel time calculations by selecting **Real time mode** in the schedule assistant filter pane. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-real-time-location-filter.png)
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-resource-location.png)
+
 
 ## 6. Configure Geofencing Settings
 
@@ -203,5 +214,6 @@ These processes are included in the **Geofence Alerts** solution installed with 
 
 - currently geofencing looks at the resco_mobileaudit table but expecting to geofencing is application agnostic and can be used for multiple dynamics use cases including field service
 - currently the geofence solution only creates circular geofences
+- if a location is current or not
 
 
