@@ -15,7 +15,7 @@
 ### Work distribution settings
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
 #### Create a Chat channel
-#### Create an Entity channel
+#### [Create an Entity channel](administrator/create-entity-channel.md)
 #### Create an SMS channel
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
