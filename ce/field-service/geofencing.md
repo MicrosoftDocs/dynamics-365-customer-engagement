@@ -51,16 +51,22 @@ The push notification scenario is delivered out-of-the-box with the geofencing f
 
 ## 1. Verify geofence solutions are installed
 
-**Settings > Solutions**
+Go to **Settings > Solutions** and verify three Geofence solutions are present.
+
+1. Geofence Alerts
+2. Geofence Management
+3. Geofence for Field Service
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-solutions.png)
 
 ## 2. Activate geofence processes
 
-**Settings > Processes**
-   1) activate generate geofence when booking process
-   2) activate delete geofence when booking is completed or cancelled
+Go to **Settings > Processes** and **activate** the following processes. These processes are installed in a draft state with the geofence solutions.
+
+   1) DeleteGeofenceWhenBooking is completed or canceled
+   2) generate geofence when booking process
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-activate-processes.png)
 
@@ -179,5 +185,6 @@ These processes are included in the **Geofence Alerts** solution installed with 
 ## Additional notes
 
 - currently geofencing looks at the resco_mobileaudit table but expecting to geofencing is application agnostic and can be used for multiple dynamics use cases including field service
+- currently the geofence solution only creates circular geofences
 
 
