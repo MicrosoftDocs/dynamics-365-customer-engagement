@@ -86,7 +86,7 @@ The list of SSO suported browsers are as follows.
 |Google Chrome      | Chrome           |
 |Internet Explorer  | IE               |
 
-> ![Note]
+> [!Note]
 > For public preview, SSO is supported for Google Chrome web browser.
 
 **SingleSignOnThreshold** is a UII option that indicates the timeout period in seconds for Unified Service Desk to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default, **SingleSignOnThreshold** value is 5 seconds. To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
