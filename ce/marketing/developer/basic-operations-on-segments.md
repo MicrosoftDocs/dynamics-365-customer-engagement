@@ -33,7 +33,7 @@ The Segmentation API enables programmatic interaction with segment records. The 
 When you create a segment, the properties of the segment are stored in `msdyncrm_segment` entity. You can browse the entity metadata information using `@odata.context`in `GET` response.
 
 > [!NOTE]
-> Before you perform operations, you should install Dynamics 365 for Marketing app.
+> Before you perform operations, you should install [Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
 
 This topic demonstrates how to perform basic operation on the `msdyncrm_segment` entity. You need to pass the following mandatory fields in order to create a segment.
 
@@ -68,7 +68,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 ```
 
 > [!Important]
-> The purpose of the “crm” prefix is to unambiguously indicate the type of the record identifier. This is required when you are using a legacy Segmentation solution (DCI Segmentation) which by default uses another type of identifier.
+> The purpose of the `crm` prefix is to unambiguously indicate the type of the record identifier. This is required when you are using a legacy Segmentation solution (DCI Segmentation) which by default uses another type of identifier.
 
 2. **Update request**
 
@@ -116,6 +116,17 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
 {
     "msdyncrm_segmentname": "MySegment2",
     "msdyncrm_segmentquery": "PROFILE(contact)",
+    "msdyncrm_segmenttype": 192350000,
+    "statuscode": 192350001
+}
+```
+The following request creates a dynamics segment with conditional segment query to retrieve only contacts that has `address_city` field set to **NewYork** and **NewJersey**.
+
+```HTTP
+POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
+{
+    "msdyncrm_segmentname": "MySegment2",
+    "msdyncrm_segmentquery": "PROFILE(contact).FILTER((address1_city == 'NewYork' || address1_city == 'NewJersey'))",
     "msdyncrm_segmenttype": 192350000,
     "statuscode": 192350001
 }
