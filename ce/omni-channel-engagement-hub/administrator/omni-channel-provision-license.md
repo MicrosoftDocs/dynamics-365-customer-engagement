@@ -71,7 +71,6 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
     > [!div class=mx-imgBorder]
     > ![Fill survey for omni-channel](../media/preview-survey.png)
 
-    Complete the survey to participate in the preview.
 
 4. Fill in all the required fields. Provide the **Org ID** where you want to set up Omni-channel Engagement Hub. 
 
@@ -80,7 +79,7 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
 
     Select **Submit** to submit the survey.
 
-    Once your request is approved, you will receive a confirmation email from Microsoft. Omni-channel Engagement Hub will be available in the org that you provided during the survey. You can view the app in **Manage applications** in the **Dynamics 365 Administration Center**.
+    Once your request is approved, you will receive a confirmation email from Microsoft. Omni-channel Engagement Hub will be available in the org that you provided in the survey. You can view the app in **Manage applications** in the **Dynamics 365 Administration Center**.
 
 
 ### Step 2: Set up Omni-channel Engagement Hub

@@ -134,7 +134,7 @@ Follow these steps to set up an Entity channel.
 
     - Select the Entity work stream that you created in the previous section [Set up an Entity work stream](#set-up-an-entity-work-stream).
 
-4. Select **Save** to save the work stream entity configuration. A relationship is created between this entity and work stream.
+4. Select **Save** to save the work stream entity configuration. A relationship is created between Entity and Work stream.
 
     > [!div class=mx-imgBorder]
     > ![Settings for entity channel](../media/cds-channel.png)
