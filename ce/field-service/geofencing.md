@@ -41,11 +41,11 @@ The push notification scenario is delivered out-of-the-box with the geofencing f
 
 1. Field Service v8.3+
 
-2. Field Service Mobile 11.2+
+2. Field Service Mobile v11.2+
 
-3. Enable geocoding
+3. [Connect to Maps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to connect your Dynamics 365 environment to Bing Maps to locate service accounts and work orders to later place geofences around them.
+4. [Set Auto Geo Code Addresses to Yes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) (Recommended) in order to automatically geo code accounts and work orders as addresses are entered. Geo coding an account or work order record populates latitude and longitude values which are required to place geofences around them.
    
-
 
 ## Instructions
 
