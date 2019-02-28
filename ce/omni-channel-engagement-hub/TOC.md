@@ -13,10 +13,10 @@
 ### [Manage users](administrator/users-user-profiles.md)
 
 ### Work distribution settings
-#### [Understand work streams](administrator/work-streams-introduction.md)
-#### [Create and manage work streams](administrator/create-work-streams.md)
-#### [Create a new live chat work stream](administrator/create-work-streams.md#create-a-new-live-chat-work-stream)
-#### [Create a new CDS Entity work stream](administrator/create-work-streams.md#create-a-new-cds-entity-work-stream)
+#### [Understand and create work streams](administrator/work-streams-introduction.md)
+#### Create a Chat channel
+#### [Create an Entity channel](administrator/create-entity-channel.md)
+#### Create an SMS channel
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 #### [Work with queues](administrator/queues-omni-channel.md)
