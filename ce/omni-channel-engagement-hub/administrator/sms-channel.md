@@ -19,7 +19,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-intro here
+SMS channel allows your organization to connect to the customers by using text messages. When you configure an SMS channel, you have a dedicated phone number to which customers can send text messages and connect with an appropriate agent. This provides your customers the flexibility to connect with their mobile devices even if there is no internet connection for connecting to chat channel.
+
+Agents can view the incoming SMS requests in their dashboard and respond accordingly.
 
 ## Add SMS support for your organization
 
@@ -29,25 +31,33 @@ intro here
 
 3. Select **New** to create a work stream.
 
-4. On the **Summary** tab, in the **Stream source** field, select **SMS**. Save the work stream. For more information, see [Create and manage work streams]
-(create-work-streams.md).
+4. On the **Summary** tab, in the **Stream source** field, select **SMS**. For more information, see [Create and manage work streams](create-work-streams.md).
 
-5. On the **SMS settings** tab, provide the following information:
+5. In the **Auto-close after inactivity** field, select a duration of at least 8 hours or more.
 
-    - Customer ID
+6. On the **SMS settings** tab, provide the following information:
 
-    - API key
+    - **Customer ID**: Customer ID generated from the TeleSign account.
+
+    - **API key**: API key  generated from the TeleSign account.
+
+7. Select **Save**.
 
 8. On the **SMS numbers** tab, select **Add new SMS number**.
 
 9. On the **New SMS Number** page, provide the following information:
 
-    - Number
+    - **Number**: Phone number purchased from TeleSign.
 
-    - Type
+    - **Type**: Select if the number is long code, short code, or toll free.
     
-    - Description
+    - **Description**: Optional description for the number.
 
-10. Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID, API key, and phone number.
+    > [!NOTE]
+    > In this preview, only one phone number is supported per work stream.
 
-11. Select **Save**.
+10. Select **Save**.
+
+11. Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID, API key, and phone number.
+
+12. On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent.
