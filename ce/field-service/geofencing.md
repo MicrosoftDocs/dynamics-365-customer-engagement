@@ -64,7 +64,7 @@ Go to **Settings > Solutions** and verify three Geofence solutions are present.
 
 Go to **Settings > Processes** and **activate** the following processes. These processes are installed in a draft state with the geofence solutions.
 
-   1) DeleteGeofenceWhenBooking is completed or canceled
+   1) DeleteGeofenceWhenBookingIsCompleted or can
    2) generate geofence when booking process
 
 > [!div class="mx-imgBorder"]
@@ -88,7 +88,7 @@ You can track application’s state events, and that is whether the application 
 If you want to audit the movement, you can use the Track GPS position changes, where you can set the Delay and Distance of the GPS position. If the device moves for the defined distance after the set time interval expires, the position is recorded. 
  
  
-## 4. Enable background gps monitoring 
+## 4. Enable background location tracking 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-enable-location-tracking.png)
