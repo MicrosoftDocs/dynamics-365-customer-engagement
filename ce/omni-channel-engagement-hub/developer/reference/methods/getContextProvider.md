@@ -27,7 +27,7 @@ None
 
 ## Return Value
 
-Returns a function that contains the currently set context provider.
+Returns the currently set context provider, if any.
 
 ## Example
 

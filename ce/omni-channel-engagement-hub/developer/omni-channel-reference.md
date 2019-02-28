@@ -12,7 +12,6 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-
 # JavaScript API Reference for Omni-channel Engagament Hub in Dynamics 365
 
 Provides JavaScript methods that you can use to perform various operations with Omni-channel Engagement Hub.
