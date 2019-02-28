@@ -99,15 +99,24 @@ Next go to the **Location Tracking** section of the project and **Enable backgro
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-enable-location-tracking.png)
 
-Among other functions, this allows a field technicians realtime location to appear on the Schedule Board map and allows for events to be triggered based on a technician's current location.
+Among other functions, this allows a technician's current location to appear on the Schedule Board map and trigger events.
 
 
 ## 5. Test location auditing
 
+After enabling location auditing and background location tracking, it is important to test the location data stream. There are multiple ways to confirm this.
+
+First, log into the Field Service Mobile application and synchronize data.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-sync-mobile-app.png)
+
+As configured in the mobile project in previous steps, synchronizing the mobile application is geo-audited.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-mobile-audit-table.png)
+
+Back in Dynamics 365, go to the mobile audit table (**Settings > Mobile Auditing > Mobile Auditing Records**) to confirm the synchronization event, along with the user and the latitude and longitude values of the event are recorded.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-map-location.png)
 > [!div class="mx-imgBorder"]
