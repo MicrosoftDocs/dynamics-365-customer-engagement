@@ -159,12 +159,17 @@ If you want to audit the movement, you can use the Track GPS position changes, w
 
 ## Use push notifications with geofencing
 
-see topic on push notifications
-activate remind to change status upon arrival
-activate remind to change status upon leaving
+First, configure push notifications for Field Service Mobile by going to the topic on [push notifications](./mobile-push-notifications.md)
+
+Next, go to **Settings > Processes** and activate the following processes: 
+
+1. Remind to change status upon arrival
+2. Remind to change status upon leaving
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-activate-reminders.png)
+
+These processes are included in the **Geofence Alerts** solution installed with Field Service and the other geofence solutions. 
 
 ## Configuration considerations
 - Create a custom geofence
