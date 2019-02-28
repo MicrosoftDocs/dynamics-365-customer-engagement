@@ -24,15 +24,15 @@ A work stream is a collection of routing & work distribution settings. Routing s
 In Omni-channel, you can create the following types of work streams:
 
 - Live chat work stream
-- CDS Entity work stream
+- Entity work stream
 - SMS work stream
 
 > [!NOTE]
 > A work stream can belong to multiple channels of same type, for example multiple chat channels. In this case, all the conversations from these channels inherit routing and work distribution settings of the work stream they belong to.
 
-The routing and work distribution settings defined in a work stream are inherited by their respective channels. For example, when you create a work stream for Live chat, you also define settings for work distribution, context variables, and routing rule items. Now, when a chat channel is created, and this work stream is allocated to the chat channel, the settings of the work stream apply to the chat channel also.
+The routing and work distribution settings defined in a work stream are applied to their respective channels. For example, when you create a work stream for Live chat, you define work distribution settings, context variables, and routing rule items. Now, when a chat channel is created, and this work stream is aligned with the chat channel, the settings of the work stream apply to the chat channel also.
 
-For more information about channels, see Create channels in Omni-channel Engagement Hub.
+For more information about channels, see **link to chat channel topic>**
 
 ## Create a work stream
 
@@ -53,14 +53,12 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
       1. **Name**: Enter a name for the work stream.
       2. **Stream Source**: Stream source is defined as a medium via which a customer reaches out for support. For example, a customer can contact an agent through chat or SMS. </br> </br> Select a channel from the drop-down list.
             - **Live Chat**
-            - **CDS Entity**
+            - **Entity**
             - **SMS**
-              
-            For more information, see Create channels in Omni-channel Engagement Hub.
 
       3. **Capacity**: When a conversation from a work stream is assigned to an agent, it consumes some capacity. The units of capacity blocked are defined as capacity in the work stream. For example, a conversation in the chat work stream has a capacity of 20 units. When this conversation is assigned to an agent, it blocks 20 units of agent's capacity. </br> </br>Specify the units of capacity that are required to process a conversation for the work stream in the text box.
       
-      4. **Auto-close after inactivity**: Specify the amount of time after which a conversation is moved from **Waiting** state to **Closed** state because of inactivity. 
+      4. **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from **Waiting** state to **Closed** state because of inactivity. 
       5. Select **Save** to save the work stream.
 
     - In the **Work distribution** section, follow these steps: 
@@ -98,10 +96,9 @@ For more information, see [Configure and manage presence status](presence-custom
 For agents to recieve conversations, the work streams should be aligned with channels. There are some additional configurations that you need to set up in **Channels** so that conversations can be seamlessly assigned to agents. 
 
 
-To know more about channels and how to set up channels, see the following topics: </br> - Create a chat channel </br> - Create a CDS entity channel </br> - Create a SMS channel.
+To know more about channels and how to set up channels, see the following topics: </br> - Create a Chat channel </br> - Create an Entity channel </br> - Create a SMS channel.
 
 
 ### See also
-
 
 [Automatically identify customers using pre-chat responses](record-identification-rule.md)

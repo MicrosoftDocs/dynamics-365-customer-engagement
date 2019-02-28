@@ -56,7 +56,7 @@ Configure the following entities in the Omni-channel Engagement Hub. Once config
 ## Step 2: Process the chat conversation
 A chat conversation originates from the customer.
 
-- For every incoming conversation, the associated work stream is identified, and the routing and work distribution properties are applied 
+- For every incoming conversation, the associated channel is identified, and the routing and work distribution properties are applied 
 - In this case, properties of the work stream **Product & Billing live chat** are imparted to the incoming chat. So, the conversation  carries a capacity of **50 units**. </br> This implies that this chat, when assigned to an agent, will block 50 units of agent’s capacity.
 
 ## Step 3: Apply routing and work distribution rules
@@ -96,8 +96,7 @@ To effectively route and distribute work to agents, admins can set up the follow
 
 - [Enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
 - [Manage users](users-user-profiles.md)
-- [Understand work streams in the Omni-channel Engagement Hub](work-streams-introduction.md)
-- [Create and manage work streams](create-work-streams.md)
+- [Understand and create work streams](work-streams-introduction.md)
 - [Work with queues](queues-omni-channel.md)
 - [Set up record identification rule](record-identification-rule.md)
 - [Create and manage routing rules](routing-rules.md)
@@ -105,7 +104,7 @@ To effectively route and distribute work to agents, admins can set up the follow
 
 ###  See also
 
-[Understand work streams in the Omni-channel Engagement Hub](work-streams-introduction.md)
+Configure channels in Omni-channel Engagement Hub
 
 
 

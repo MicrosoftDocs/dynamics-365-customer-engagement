@@ -23,7 +23,7 @@ All Dynamics 365 users who are assigned the **Omni-channel administrator**, **Om
 
 For more information on how to create users and assign security roles, see [Assign roles and enable users for Omni-channel Engagement Hub](add-users-assign-roles.md).
 
-Navigate to **Omni-channel Administration > User Management > Users** to view the list of Omni-channel users in the **Omni-channel Users** view.
+Navigate to **Omni-channel Administration > Users & Queues > Users** to view the list of Omni-channel users in the **Omni-channel Users** view.
 
 > [!div class=mx-imgBorder] 
 > ![Omni-channel users](../media/omni-channel-users.png)
@@ -40,7 +40,7 @@ Navigate to **Omni-channel Administration > User Management > Users** to view th
 
         - **Capacity** - Allocate capacity to agent.</br>
 
-        - **Default Presence** - Assign a default presence status for agent. This is the status that the agent is logged in with.
+        - **Default Presence** - Assign a default presence status for agent. This is the status that the agent is logged in with in the Omni-channel app.
 
     - In the **Omni-channel Queues** section, assign an existing omni-channel queue to the user.
      

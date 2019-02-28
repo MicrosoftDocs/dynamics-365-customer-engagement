@@ -1,7 +1,7 @@
 ---
-title: Create CDS entity channel | MicrosoftDocs
-description: See how you can create CDS entity channel in the Omni-channel Engagement Hub
-keywords: Create CDS entity channel; Omni-channel Engagement Hub
+title: Create entity channel | MicrosoftDocs
+description: See how you can create entity channel in the Omni-channel Engagement Hub
+keywords: Create entity channel; Omni-channel Engagement Hub
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -12,38 +12,38 @@ ms.topic: article
 ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e
 ms.custom: 
 ---
-# Create a CDS entity channel
+# Create an Entity channel
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-CDS entity channels help route entities from Common Data Service (CDS) to the Omni-channel Engagement Hub. For example, you can enable high-priority cases to be routed to Omni-channel so that they can be automatically distributed and assigned to agents.
+Entity channels help route entities from **Common Data Service for Apps** to the Omni-channel Engagement Hub. For example, you can enable high-priority cases to be routed to Omni-channel so that they can be automatically distributed and assigned to agents.
 
-To set up CDS entity routing, you need to configure the following:
+To set up entity routing for Common Data Service for Apps, you need to configure the following:
 
-- A CDS entity work stream in **Work streams** in Omni-channel and a corresponding flow in **Microsoft Flow**. 
-- A CDS entity channel in **Channels**.
+- An Entity work stream in Omni-channel work streams and a corresponding flow in **Microsoft Flow**. 
+- An Entity channel in **Channels**.
 
-## Set up a CDS entity work stream
+## Set up an Entity work stream
 
 ### In Omni-channel Engagement Hub
 
 1. In the Omni-channel site map, select **Work Distribution \> Work Streams**.
 2. Fill in the **General information** section as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).
-    For CDS work stream, select **Stream Source** as **CDS Entity**. 
+    For Entity work stream, select **Stream Source** as **Entity**. 
 3. Fill in the **Work distribution** section as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).
-4. In the **Work stream entity configuration** section, select **Add** to add a new work stream entity configuration. For more information, see [Set up a CDS entity channel](#set-up-a-cds-entity-channel). 
-3. Set up routing rules and queues for the work stream as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).
+4. In the **Work stream entity configuration** section, select **Add** to add a new work stream entity configuration. For more information, see [Set up an Entity channel](#set-up-an-entity-channel). 
+5. Set up routing rules and queues for the work stream as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).
 
       > [!div class=mx-imgBorder]
-      > ![Setting for CDS in work stream](../media/oc-cds.png)
+      > ![Setting for entity in work stream](../media/oc-cds.png)
 
 ### In Microsoft Flow
 
 1. Go to [portal.office.com](https://www.office.com/?auth=2&home=1), and select **Flow** in the list of apps.
 
-   ![CDS in Flow](../media/ws-flow.png)
+   ![Entity in Flow](../media/ws-flow.png)
 
 2. Go to **Settings \> Custom Connectors**, and then select **Create Custom Connector** to create a custom connector.
 
@@ -77,8 +77,8 @@ To set up CDS entity routing, you need to configure the following:
 
       1. **Organization ID**: Enter your organization ID.
       2. **Work stream ID**: Enter the ID of work stream configured in Dynamics 365. You can get this ID from URL of the work stream record page.  
-      3. **Entity logical name**: Enter the logical name of the CDS entity that you choose to be routed.
-      4. **Entity set name**: Enter the set name of the CDS entity that you choose to be routed. (Typically, this is a plural form of the logical name.)
+      3. **Entity logical name**: Enter the logical name of the entity that you choose to be routed.
+      4. **Entity set name**: Enter the set name of the entity that you choose to be routed. (Typically, this is a plural form of the logical name.)
       5. **Record ID**: Enter the ID of work stream entity configuration record, configured in Dynamics 365. You can get this ID from the URL of the work stream entity configuration record page.
       6. **Relationship name with work stream**: Enter the name of the entity relationship with the work stream. You can get this relationship name from **Settings** > **Customizations** > **Entities**.
 
@@ -99,8 +99,8 @@ To set up CDS entity routing, you need to configure the following:
 13. Select **New Step \> Add an action**. Search for the custom connector you configured, and then select the action to send entity information.
 14. Provide the following information:
 
-      1. **Entity Logical Name**: Enter the logical name of the CDS entity that you choose to be routed.
-      2. **Entity Set Name**: Enter the set name of the CDS entity that you choose be routed. (Typically, this is a plural form of the logical name.)
+      1. **Entity Logical Name**: Enter the logical name of the entity that you choose to be routed.
+      2. **Entity Set Name**: Enter the set name of the entity that you choose be routed. (Typically, this is a plural form of the logical name.)
       3. **Record ID**: Use **Add dynamic content** option to search for and select entity name. For example for case entity select **Case** from dyanmic content 
       4. **Name of Entity Relationship With**: Enter the name of the entity relationship with the work stream. You can get this relationship name from **Settings** > **Customizations** > **Entities**. For example for case entity the relationship name would be  **incident\_msdyn\_ocliveworkitems**.
       5. **Record details**: Use **Add dynamic content** option and select **value-key-item-output**.
@@ -118,15 +118,15 @@ To set up CDS entity routing, you need to configure the following:
     ![Test saved connector](../media/save-connector.png)
 
 
-## Set up a CDS entity channel
+## Set up an Entity channel
 
-Follow these steps to set up a CDS entity channel.
+Follow these steps to set up an Entity channel.
 
-1. In the Omni-channel site map, select **Channels \> CDS Entity**.
+1. In the Omni-channel site map, select **Channels \> Entity**.
 
    The **Active Work Stream Entity Configuration** view is displayed.
 
-2. On the command bar, select **New** to create a new CDS entity channel.
+2. On the command bar, select **New** to create a new Entity channel.
 3. In the **General** tab:
  
     - Select the entity to be routed in the **Entity** drop-down list.
@@ -134,15 +134,15 @@ Follow these steps to set up a CDS entity channel.
         > [!NOTE]
         > You can route any activity enabled entity.
 
-    - Select the CDS entity work stream that you created in the previous section, [Set up a CDS entity work stream](#set-up-a-cds-entity-work-stream).
+    - Select the Entity work stream that you created in the previous section [Set up an Entity work stream](#set-up-an-entity-work-stream).
 
 4. Select **Save** to save the work stream entity configuration. A relationship is created between this entity and work stream.
 
     > [!div class=mx-imgBorder]
-    > ![Settings for CDS channel](../media/cds-channel.png)
+    > ![Settings for entity channel](../media/cds-channel.png)
 
 
 ### See also 
 
-[Understand work streams in the Omni-channel Engagement Hub](work-streams-introduction.md)
+[Understand and create work streams](work-streams-introduction.md)
 

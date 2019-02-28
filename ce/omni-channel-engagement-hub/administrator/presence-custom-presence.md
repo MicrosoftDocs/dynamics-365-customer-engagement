@@ -66,6 +66,6 @@ Follow these steps to create a new presence record.
 
 ### See also
 
-[Create and manage work streams](create-work-streams.md)
+[Understand and create work streams](work-streams-introduction.md)
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)

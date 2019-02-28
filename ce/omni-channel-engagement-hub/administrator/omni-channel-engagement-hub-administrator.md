@@ -42,13 +42,12 @@ You can view the entities in the **Omni-channel Administration** site map.
 
 - [Understand unified routing and work distribution](unified-routing-work-distribution.md)
 - [Scenario walk-through of unified routing and work distribution](unified-routing-work-distribution.md#scenario-walk-through-of-unified-routing-and-work-distribution)
+- [Understand and create work streams](work-streams-introduction.md)
 - [Create a chat widget](set-up-chat-widget.md)
 
 ## How-to topics
 - [Assign roles and enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
 - [Manage a user in Omni-channel](users-user-profiles.md#manage-a-user-in-omni-channel)<br>
-- [Create a new live chat work stream](create-work-streams.md#create-a-new-live-chat-work-stream)<br>
-- [Create a new CDS Entity work stream](create-work-streams.md#create-a-new-cds-entity-work-stream)<br>
 - [Automatically identify customers using pre-chat responses](record-identification-rule.md)<br>
 - [Create custom presence status](presence-custom-presence.md#create-custom-presence-status)<br>
 - [Create a new Omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)<br>
