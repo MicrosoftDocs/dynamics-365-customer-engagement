@@ -37,7 +37,7 @@ The Dynamics 365 for Teams provides the following:
 - **Collaboration hub**: Access records together with the Office applications you need to close deals.
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 for Customer Engagement apps user.
 - **File integration**: Co-author documents using Office 365 and automatically sync to Dynamics 365 for Customer Engagement apps.
-- **Teams mobile app**: Search and update records from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. <!-- @Cindy will provide updated wording. -->
+- **Teams mobile app**: Search records from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
 
 > [!div class="mx-imgBorder"] 
 > ![Features of Teams app](media/teams-intro.png "Features of Teams app")
