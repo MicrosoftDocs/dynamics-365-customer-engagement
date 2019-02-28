@@ -1,6 +1,6 @@
 ---
 title: "Link and unlink a record in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn on how to Search for records in Omni-channel Engagement Hub and link the record to a conversation."
+description: "Learn how to search for records in Omni-channel Engagement Hub and link the record to a conversation."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -26,20 +26,21 @@ The topic explains how to link and unlink a record to the conversation.
 > [!div class=mx-imgBorder]
 > ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
 
-During inline search, the search results are displayed, and you can select a record to link the conversation to the selected record. After you link the record, the **Customer summary** form loads with the details.
+During inline search, the search results are displayed and you can select a record to link the conversation to the selected record. After you link the record, the **Customer summary** form loads with the details.
 
 > [!div class=mx-imgBorder]
-> ![Cusomter summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
+> ![Customer summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Customer summary is loaded with details after linking")
 
 ## Link a record to the conversation
 
 Based on the search results, you can choose to link a record from the list. You can link only one record to a conversation.
 
-![Select the record to link](../../media/csh-oc-search-link-account-record.png "Select the record to link")  
+> [!div class=mx-imgBorder]
+> ![Select the record to link](../../media/csh-oc-search-link-account-record.png "Select the record to link")  
 
 1.  Select the ![Record selection icon](../../media/csh-oc-search-record-selection-icon.png "Record selection icon") icon to view the selection list. <br>![Select icon to open selection of records to link](../../media/csh-oc-select-icon-link.png "Select icon to open selection of records to link")
 
-2.  Select the check box next to the record you want to link.<br> ![Record selection checkbox](../../media/csh-oc-record-selection-checkbox.png "Record selection checkbox")  
+2.  Select the check box next to the record you want to link.<br> ![Record selection check box](../../media/csh-oc-record-selection-checkbox.png "Record selection check box")  
 
 3.  Select the link button at the top.<br> ![Select record to link](../../media/csh-oc-select-record-link.png "Select record to link")
 
@@ -47,13 +48,15 @@ After you link the record to the conversation, the Customer summary page refresh
 
 ## Unlink a record from the conversation
 
-You can unlink a record only when you are interacting with customer using the communication panel. That is, after you accept an incoming conversation request and view the **Customer summary** page, you can unlink the record from the conversation. 
+You can unlink a record only when you are interacting with a customer using the communication panel. That is, after you accept an incoming conversation request and view the **Customer summary** page, you can unlink the record from the conversation. 
 
-![Select X button next the textbox to unlink](../../media/csh-oc-unlink-customer.PNG "Unlink a record")
+> [!div class=mx-imgBorder]
+> ![Select the X button next to the textbox to unlink](../../media/csh-oc-unlink-customer.PNG "Unlink a record")
 
 To unlink a record, select the **X** button next to the customer name in the **Customer profile** form. After the record is removed, the **Customer profile** form is blank. 
 
-![Blank customer profile form after unlinking the record](../../media/csh-oc-unlinked-form.PNG "Blank customer profile form after unlinking the record")
+> [!div class=mx-imgBorder]
+> ![Blank customer profile form after unlinking the record](../../media/csh-oc-unlinked-form.PNG "Blank customer profile form after unlinking the record")
 
 ## See also
 
