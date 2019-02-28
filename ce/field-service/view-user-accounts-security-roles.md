@@ -55,6 +55,9 @@ By setting security roles for users, you control the types of data and entities 
 
 ## Prerequisites
 
+- Dynamics 365 System Administrator access
+
+
 > [!Note]
 > It is highly recommended to make copies of the Field Service security roles and assign the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To copy a security role, go to **Settings > Security > Security Roles**, then select= a security role record and choose **Actions > Copy Role**. See the following screenshot for reference.
 > [!div class="mx-imgBorder"]
