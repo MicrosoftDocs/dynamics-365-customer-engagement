@@ -40,7 +40,7 @@ In general, access to IoT entities should mimic access to the customer asset ent
 - Field Service v8.3+
 
 > [!Note]
-> We strongly recommended making copies of the Field Service security roles and assigning the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To make a security role copy, go to **Settings > Security > Security Roles**, then select= a security role record and choose **Actions > Copy Role**. See the following screenshot for reference.
+> It is highly recommended to make copies of the Field Service security roles and assign the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To copy a security role, go to **Settings > Security > Security Roles**, then select= a security role record and choose **Actions > Copy Role**. See the following screenshot for reference.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of copying a security role](media/admin-security-role-copy.png) 
 

@@ -49,7 +49,17 @@ By setting security roles for users, you control the types of data and entities 
 
 **Field Service—Inventory Purchase** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory related entities within his or her business unit. An example is processing a product return for one or many lines of business.
 
-**IoT - Administrator** and **IoT - Endpoint User** are designed for users who are responsible for device registration and device data pulls that are IoTHub operations related to Connected Field Service. These roles are characterized by full CRUD abilities for IoT  related entities. For example, a user with these roles may have access to all IoT Alerts and devices. For more information, see the topic on [setting up security roles for Connected Field Service](cfs-security-roles.md).
+**IoT - Administrator** and  are designed for users who are responsible for device registration and device data pulls that are IoTHub operations related to Connected Field Service. These roles are characterized by full CRUD abilities for IoT  related entities. For example, a user with these roles may have access to all IoT Alerts and devices. 
+
+**IoT - Endpoint User** is used by Microsoft to connect Dynamics 365 to IoT systems. For more information on CFS security, see the topic on [setting up security roles for Connected Field Service](cfs-security-roles.md).  
+
+## Prerequisites
+
+> [!Note]
+> It is highly recommended to make copies of the Field Service security roles and assign the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To copy a security role, go to **Settings > Security > Security Roles**, then select= a security role record and choose **Actions > Copy Role**. See the following screenshot for reference.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of copying a security role](media/admin-security-role-copy.png) 
+
 
 ## Set up a user for field service 
   
@@ -72,10 +82,11 @@ After assigning a user a security role, you must assign the user the correspondi
 
 Follow these steps to set up a dispatcher who schedules work orders for field technicians.
 
-> [!Note]
-> We strongly recommended making copies of security roles and assigning the copies to users. This prevents updates from disrupting business processes. Navigate to **Settings > Security > Security Roles** then select the **Field Service - Dispatcher** role and choose **Copy Role** under **Actions**. See the following screenshot for reference.
+1. Go to **Settings > Security > Security Roles** and copy the **Field Service - Dispatcher** role
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of copying a security role](media/admin-security-role-copy.png) 
+> ![Screenshot of copying a security role](media/admin-security-role-copy.png)
+
 
 1. Go to **Settings** > **Security** > **Users**.
 
