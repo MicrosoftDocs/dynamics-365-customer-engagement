@@ -22,7 +22,7 @@ Presence status indicates an agent's availability or status. Presence status sto
 
 A presence status consists of two elements:
 
-- **Base status**: The base presence status which routing and work distribution understands. There are five base presence statuses – **Available**, **Busy**, **BusyDND**, **Away**, and **Offline**.
+- **Base status**: This is the base presence status which indicates an agent's availability and status to other agents. There are five base presence statuses – **Available**, **Busy**, **BusyDND**, **Away**, and **Offline**.
 - **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents and other users during run time. 
 
 ## Out of the box presence statuses
@@ -66,6 +66,6 @@ Follow these steps to create a new presence record.
 
 ### See also
 
-[Create and manage work streams](create-work-streams.md)
+[Understand and create work streams](work-streams-introduction.md)
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)

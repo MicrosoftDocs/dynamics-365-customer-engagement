@@ -47,6 +47,8 @@ To view and manage omni-channel users, see [Manage users in Omni-channel Engagem
 
 Each role in Omni-channel Engagement Hub can perform a set of actions based on the privileges. 
 
+
+
 |                        Area         |  Operation |  Omni-channel administrator                 |    Omni-channel supervisor                       |    Omni-channel agent                      |
 |---------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------|---------------------------|----------------------------------|
 |    **User Management**           |    View user list|    Yes                    |     Yes  |     Yes |
