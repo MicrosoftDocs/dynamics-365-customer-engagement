@@ -124,8 +124,6 @@ Follow these steps to set up an Entity channel.
 
 1. In the Omni-channel site map, select **Channels \> Entity**.
 
-   The **Active Work Stream Entity Configuration** view is displayed.
-
 2. On the command bar, select **New** to create a new Entity channel.
 3. In the **General** tab:
  

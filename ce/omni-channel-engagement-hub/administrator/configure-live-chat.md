@@ -67,6 +67,6 @@ You can maximize the chat widget by selecting it.
     
 ### See also
 
-[Create and manage work streams](create-work-streams.md) </br>
+[Understand and create work streams](work-streams-introduction.md) </br>
 [Create and manage routing rules in Omni-channel](routing-rules.md) </br>
 [Configure a chat widget](set-up-chat-widget.md)

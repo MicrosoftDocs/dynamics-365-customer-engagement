@@ -22,7 +22,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 1. Sign in to Omni-channel Engagement Hub.
 2. Go to **Administration** &gt; **Work Streams**.
 3. Select **New** to create a work stream.
-4. On the **Summary** tab, in the **Stream Source** field, select **Live Chat**. Save the work stream. For more information, see [Create and manage work streams](create-work-streams.md).
+4. On the **Summary** tab, in the **Stream Source** field, select **Live Chat**. Save the work stream. For more information, see [Understand and create work streams](work-streams-introduction.md).
 5. On the **Chat settings** tab, in the **Chat widgets** section, select **Add**.
 6. On the **New Chat Widget** page, provide the appropriate information on each tab:
 

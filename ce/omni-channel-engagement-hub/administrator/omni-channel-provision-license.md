@@ -143,7 +143,7 @@ On successful provisioning, you can view the org and the enabled channels in the
 
 ### See also
 
-[Create and manage work streams](create-work-streams.md)
+[Understand and create work streams](work-streams-introduction.md)
 
 [Manage users](users-user-profiles.md)
 
