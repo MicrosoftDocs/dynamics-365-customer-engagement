@@ -1,6 +1,6 @@
 ---
-title: "Create data masking rules | MicrosoftDocs"
-description: "Instructions to create data masking rules in Omni-channel Engagement Hub."
+title: "Create and manage data masking rules | MicrosoftDocs"
+description: "Instructions to create and manage data masking rules in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -13,26 +13,26 @@ ms.assetid: EE5A853F-F531-4EA6-9E64-B5CA9B021AFE
 ms.custom: 
 ---
 
-# Create data masking rules
+# Create and manage data masking rules
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Data masking allows you to block sensitive data such as credit card information, social security numbers, or even profanity in a chat conversation. You can create a masking rule and define a regular expression in it to identify the sensitive information and replace it with the # character. The masking rule applies to every message sent by a customer through a chat or an SMS channel. If an agent sends any sensitive data to a customer, it will not be masked. 
+Data masking allows you to block sensitive data such as credit card information, social security numbers, or even profanity in a conversation. You can create a masking rule and define a regular expression in it to identify the sensitive information and replace it with the masking character. The masking rule applies to every message sent by a customer through a chat or an SMS channel. If an agent sends any sensitive data to a customer, it will not be masked. 
 
 Following masking rules are provided out-of-the-box:
 
-- **Credit Card**: Masks the credit card number if provided in a message.
-- **Email**: Masks the email address if provided in a message
-- **SSN**: Masks the social security number if provided in a message
+- **Credit Card**: Masks the credit card number, if provided in a message.
+- **Email**: Masks the email address, if provided in a message
+- **SSN**: Masks the social security number, if provided in a message
 
-As an administrator, you can delete or modify out-of-the-box masking rules.
+As an administrator, you can delete or modify out-of-the-box masking rules, and create new masking rules.
 
 > [!NOTE]
 > Only an administrator can access data masking rules.
 
-## Create data masking rule
+## Create a data masking rule
 
 1.	Sign in to Omni-channel Engagement Hub.
 

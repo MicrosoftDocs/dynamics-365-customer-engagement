@@ -26,7 +26,10 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
     - **Basic details**:
 
-        1. In the **General information** section, enter a name for the chat widget and select the agent name to be displayed. More information on agent display name: Set up agent display nameYou can optionally specify authentication settings. For more information about how to specify authentication settings, see [Create chat authentication settings](create-chat-auth-settings.md). You must save the record to enter more details
+        1. In the **General information** section, enter a name for the chat widget and select the agent name to be displayed. More information on agent display name: [Configure agent display name](agent-display-name.md).
+        
+        You can optionally specify authentication settings. For more information about how to specify authentication settings, see [Create chat authentication settings](create-chat-auth-settings.md). You must save the record to enter more details.
+
         2. In the **Work Distribution** section, browse and select the work stream you created for the chat widget. By default, **Default Chat Workstream** is selected.
         
         > [!NOTE]
@@ -49,7 +52,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
     - **Location**:
         1. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
-        2. In the **Visitor location** section, specify if you need to detect the visitor's location. For more information about how to set up location detection, see [Create and manage geo location providers](geo-location-provider.md).
+        2. In the **Visitor location** section, specify if you need to detect the visitor's location. For more information about how to set up location detection, see [Set up location detection](geo-location-provider.md).
 
 ### See also
 
