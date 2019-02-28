@@ -39,6 +39,8 @@ In general, access to IoT entities should mimic access to the customer asset ent
 
 - Field Service v8.3+
 
+- Dynamics 365 System Administrator access
+
 > [!Note]
 > It is highly recommended to make copies of the Field Service security roles and assign the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To copy a security role, go to **Settings > Security > Security Roles**, then select= a security role record and choose **Actions > Copy Role**. See the following screenshot for reference.
 > [!div class="mx-imgBorder"]
@@ -72,7 +74,7 @@ Find the dispatcher security role your organization assigns to dispatchers (typi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of enabled permissions for the dispatcher](media/cfs-security-role-dispatcher.png)
 
-Next, add access to the **CFS - IoT Alert Process Flow** according to the following screenshot.
+Next, add access to the **CFS - IoT Alert Process Flow** according to the following screenshot. Dispatchers can use the CFS business process flow to update and track the stages of work orders resulting from IoT alerts.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alert process flow](media/cfs-security-role-dispatcher-bpf.png)
