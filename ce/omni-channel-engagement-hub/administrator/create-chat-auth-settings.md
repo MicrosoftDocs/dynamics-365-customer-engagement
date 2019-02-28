@@ -102,7 +102,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     Here is a sample JSON payload.
 
-    ```JavaScript
+    ```JSON
     {
         "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
         "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352",
