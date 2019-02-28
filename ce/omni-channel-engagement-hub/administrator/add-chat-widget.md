@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 03/06/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: DEDC2F99-3AB4-414D-B3DB-B27F871E804A
@@ -20,16 +20,17 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 1. Sign in to Omni-channel Engagement Hub.
-2. Go to **Administration** &gt; **Work Streams**.
-3. Select **New** to create a work stream.
-4. On the **Summary** tab, in the **Stream Source** field, select **Live Chat**. Save the work stream. For more information, see [Understand and create work streams](work-streams-introduction.md).
-5. On the **Chat settings** tab, in the **Chat widgets** section, select **Add**.
-6. On the **New Chat Widget** page, provide the appropriate information on each tab:
+2. Go to **Administration** &gt; **Chat**.
+3. Select **New** to create a chat widget.
+4. On the **New Chat Widget** page, provide the appropriate information on each tab:
 
     - **Basic details**:
 
-        1. In the **General information** section, enter a name for the chat widget. You can optionally specify authentication settings. Save the record to enter more details. For more information about how to specify authentication settings, see [Create chat authentication settings](create-chat-auth-settings.md).
-        2. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
+        1. In the **General information** section, enter a name for the chat widget and select the agent name to be displayed. More information on agent display name: [Configure agent display name](agent-display-name.md).
+        
+        You can optionally specify authentication settings. For more information about how to specify authentication settings, see [Create chat authentication settings](create-chat-auth-settings.md). You must save the record to enter more details.
+
+        2. In the **Work Distribution** section, browse and select the work stream you created for the chat widget. By default, **Default Chat Workstream** is selected.
         
         > [!NOTE]
         > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
@@ -49,9 +50,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
         > [!div class=mx-imgBorder]
         > ![Configure a pre-chat survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
 
+    - **Location**:
+        1. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
+        2. In the **Visitor location** section, specify if you need to detect the visitor's location. For more information about how to set up location detection, see [Set up location detection](geo-location-provider.md).
+
 ### See also
 
-[Create a survey questions library](create-question-library.md) <br>
+[Create a survey question](create-question-library.md)<br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
