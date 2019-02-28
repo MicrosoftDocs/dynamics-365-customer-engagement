@@ -50,18 +50,31 @@ The push notification scenario is delivered out-of-the-box with the geofencing f
 
 
 ## 1. Verify geofence solutions are installed
+
+**Settings > Solutions**
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-solutions.png)
 
 ## 2. Activate geofence processes
+
+**Settings > Processes**
    1) activate generate geofence when booking process
    2) activate delete geofence when booking is completed or cancelled
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-activate-processes.png)
 
 ## 3. Enable location auditing for the Field Service Mobile app
+
+**Settings > Woodford > MobileCRM Woodford HTML5**
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-geofence-mobile-project.png)
+
    1) go into project and set auditing to yes 
-   2) In the Auditing section of the project you can set what kind of action will be recorded on selected entities by using the Mobile CRM application. Then it will be sent to the CRM server when the application is synchronized. You can track the time and GPS position (the device must contain the GPS chip) when the action/change was performed. It‘s also possible to record the time and location where the synchronization was performed. 
+
+
+   2) In the Auditing section of the project you can set what kind of action will be recorded on selected entities by using the Mobile CRM application. Then it will be sent to the CRM server when the application is synchronized. You can track the time and GPS position (the device must contain the GPS chip) when the action/change was performed. It's also possible to record the time and location where the synchronization was performed. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-enable-auditing.png)
@@ -90,12 +103,16 @@ If you want to audit the movement, you can use the Track GPS position changes, w
 
 ## 6. Configure Geofencing Settings
 
+**Field Service > Settings > Geofencing Settings**
+
+
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-minimum-radius.png)
 
 ## 7. Configure Geofence Entities
 
-**Field Service > Settings > Geofencing > Entity Configurations**
+**Field Service > Settings > Entity Configurations**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-entities.png)
@@ -123,7 +140,8 @@ If you want to audit the movement, you can use the Track GPS position changes, w
 
 
 ## 9. Test a geofence event
-    1)  Consent to sharing GPS data on the Field Service Mobile app. A message will appear after a geofence is active. 
+    
+    Consent to sharing GPS data on the Field Service Mobile app. A message will appear after a geofence is active. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-arrive.png)
