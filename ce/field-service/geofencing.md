@@ -137,19 +137,31 @@ Additionally, the bookable resource's current location will appear on the schedu
 
 ## 6. Configure Geofencing Settings
 
-**Field Service > Settings > Geofencing Settings**
+Go to **Field Service > Settings > Geofencing Settings**
 
-
+Enter a **unit of measure** and **minimum radius**. In the image below, the smallest geofence we can create is a circle around a service account with a radius of 25.59 feet.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-minimum-radius.png)
 
+
+
 ## 7. Configure Geofence Entities
 
-**Field Service > Settings > Entity Configurations**
+Go to **Field Service > Settings > Entity Configurations**
+
+Then select the Account configuration which is included by default with the geofence solutions.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-entities.png)
+
+**Entity:** Account - a work order's location is inherited from the related service account so the Account entity should be geofenced. 
+
+**Latitude / Longitude:** choose the latitude and longitude fields on the account entity that hold the geo coded location.
+
+**Enabled As:** Geofence - this implies the account serves as a static location that a geofence will surround
+
+**Default Radius:** 
    
    1) The geofence entity is a mostly static location the geofence will sit around. (example: Account)
 
@@ -158,6 +170,14 @@ Additionally, the bookable resource's current location will appear on the schedu
  
  2) Verify bookable resource is configured for geotracking
    1) The tracking point entity is the mostly mobile location that can breach the geofence. (example: Bookable Resource)
+
+**Entity:** Bookable Resource - a work order's location is inherited from the related service account so the Account entity should be geofenced. 
+
+**Latitude / Longitude:** choose the latitude and longitude fields on the bookable resource entity that hold the most recent coordinates of the location.
+
+**Enabled As:** Geotracked - this implies the bookable resource has a variable location and is measured as inside or outside defined geofences.
+
+**Default Radius:**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-bookable-resource.png)
