@@ -2,7 +2,7 @@
 title: "3D models for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2019
+ms.date: 02/28/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -41,7 +41,7 @@ In this topic, we'll walk through how to associate a 3D model record with a cust
 
 To increase attachment file size in D365 administration:
 
-1. Navigate to **Settings > Administration > System Settings**
+1. Go to **Settings > Administration > System Settings**
 2. Select the **Email** tab
 3. In the **Set file size limit for attachments section**, set the **Maximum file size (in Kilobytes)** to **131,072** KB. Then select **Ok**.
 
