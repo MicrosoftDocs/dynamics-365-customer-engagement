@@ -64,7 +64,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 ::: moniker range=">=dynamics-usd-4"   
 
-## Single Sign On (SSO) for Unified Service Desk - Preivew
+## Single Sign On (SSO) for Unified Service Desk - Preview
 
 [This section is pre-release documentation of SSO feature and is subject to change.]
 
@@ -72,7 +72,7 @@ Single Sign On (SSO) in Unified Service Desk authenticates users to access Micro
 
 ### Understand SSO for Unified Service Desk
 
-While signing in to Unified Service Desk you enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. To avoid entering credentials multiple times, the Signle Sign On (SSO) feture is introduced.
+While signing in to Unified Service Desk you enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. To avoid entering credentials multiple times, the Single Sign On (SSO) feature is introduced.
 
 To enable the SSO feature, you must configure the **SingleSignOnEnabledBrowsers** UII option and specify the list web browsers for which you want to SSO. You must enter the web browser values as comma separated values (CSV). For example, `Chrome,Edge,IE`. If value field is empty, then the SSO feature is disabled.
 
