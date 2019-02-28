@@ -39,25 +39,27 @@ The push notification scenario is delivered out-of-the-box with the geofencing f
 
 ## Prerequisites
 
-1. Field Service v8.3+
+1. **Field Service v8.3+**. Geofence solutions are included as part of the Field Service v8.3 upgrade/installation. In order to utilize mobile push notifications with geofencing, ensure the [Mobile Configuration Tool (Woodford solution)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool) is installed in your environment before upgrade/installation to v8.3.
 
-2. Field Service Mobile v11.2+
+2. **Field Service Mobile v11.2+**
 
 3. [Connect to Maps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to connect your Dynamics 365 environment to Bing Maps to locate service accounts and work orders to later place geofences around them.
 4. [Set Auto Geo Code Addresses to Yes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) (Recommended) in order to automatically geo code accounts and work orders as addresses are entered. Geo coding an account or work order record populates latitude and longitude values which are required to place geofences around them.
    
 
-## Instructions
 
-1) Verify geofence solutions are present in your environment
+
+## 1. Verify geofence solutions are installed
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-solutions.png)
-2) Activate gefoence processes
+
+## 2. Activate geofence processes
    1) activate generate geofence when booking process
    2) activate delete geofence when booking is completed or cancelled
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-activate-processes.png)
-3) verify location data is being pulled from mobile app (resco_mobileaudit) by enabling mobile auditing 
+
+## 3. Enable location auditing for the Field Service Mobile app
    1) go into project and set auditing to yes 
    2) In the Auditing section of the project you can set what kind of action will be recorded on selected entities by using the Mobile CRM application. Then it will be sent to the CRM server when the application is synchronized. You can track the time and GPS position (the device must contain the GPS chip) when the action/change was performed. It‘s also possible to record the time and location where the synchronization was performed. 
 
@@ -67,11 +69,14 @@ You can track application’s state events, and that is whether the application 
 If you want to audit the movement, you can use the Track GPS position changes, where you can set the Delay and Distance of the GPS position. If the device moves for the defined distance after the set time interval expires, the position is recorded. 
  
  
-   1) enable background gps monitoring 
+## 4. Enable background gps monitoring 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-enable-location-tracking.png)
-1) test location tracking
+
+
+## 5. Test location auditing
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-sync-mobile-app.png)
 > [!div class="mx-imgBorder"]
@@ -82,32 +87,42 @@ If you want to audit the movement, you can use the Track GPS position changes, w
 > ![Screenshot of ](./media/mobile-geofence-real-time-location-filter.png)
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-resource-location.png)
-2) Set a unit of measure and minimum distance radius value
+
+## 6. Configure Geofencing Settings
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-minimum-radius.png)
-3) verify the account entity is enabled for geofence with desired radius
+
+## 7. Configure Geofence Entities
+
+**Field Service > Settings > Geofencing > Entity Configurations**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-entities.png)
+   
    1) The geofence entity is a mostly static location the geofence will sit around. (example: Account)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-service-account.png)
-1) Verify bookable resource is configured for geotracking
+ 
+ 2) Verify bookable resource is configured for geotracking
    1) The tracking point entity is the mostly mobile location that can breach the geofence. (example: Bookable Resource)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-bookable-resource.png)
-1)  book a work order (async workflow) and verify geofence is created
 
+## 8. Book a work order 
+
+(async workflow) and verify geofence is created
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-book.png)
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-created.png)
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-created-record.png)
-2)  test breaking a geofence
+
+
+## 9. Test a geofence event
     1)  Consent to sharing GPS data on the Field Service Mobile app. A message will appear after a geofence is active. 
 
 > [!div class="mx-imgBorder"]
@@ -124,7 +139,7 @@ If you want to audit the movement, you can use the Track GPS position changes, w
 
 
 
-## use push notifications with geofencing
+## Use push notifications with geofencing
 
 see topic on push notifications
 activate remind to change status upon arrival
@@ -133,15 +148,10 @@ activate remind to change status upon leaving
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-activate-reminders.png)
 
-## Create a custom geofence 
-
-**Field Service > Settings > Geofencing > Entity Configurations**
-- entity configuration
-- will have to create custom workflows by using our workflows as a template
-
-## Configuration
+## Configuration considerations
+- Create a custom geofence
 - pro tip: to test breaking a geofence you can physically break the geofence by syncing your mobile app within the geofence, or as a system administrator you cna manually update lat/long in mobile audit table
-- - As part of this feature, latitude and longitude fields have been added to the bookable resource and are populated with the most recent location these could and should be added to the bookable resource form
+- As part of this feature, latitude and longitude fields have been added to the bookable resource and are populated with the most recent location these could and should be added to the bookable resource form
   
 ## Additional notes
 
