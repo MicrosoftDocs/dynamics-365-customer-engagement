@@ -53,9 +53,7 @@ In general, access to IoT entities should mimic access to the customer asset ent
 
 ## Add IoT security to administrator security role
 
-Field Service administrators should typically have full access to IoT entities, as these users may need a full view of IoT alerts across all devices and the ability to register new IoT devices.
-
-Field Service administrators are typically given a copy of the **Field Service - Administrator** security role. 
+Field Service administrators should typically have full access to IoT entities, as these users may need a full view of IoT alerts across all devices and the ability to register new IoT devices. They are typically given a copy of the **Field Service - Administrator** security role. 
 
 If your organization is using Connected Field Service, these administrators should also be assigned a copy of the **IoT - Administrator** security role.
 
