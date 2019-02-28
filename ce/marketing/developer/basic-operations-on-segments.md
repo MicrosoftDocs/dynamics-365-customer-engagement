@@ -120,7 +120,7 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
     "statuscode": 192350001
 }
 ```
-The following request creates a dynamics segment with conditional segment query to retrieve only contacts that has `address_city` field set to **NewYork** and **NewJersey**.
+The following request creates a dynamics segment with a conditional segment query to retrieve only contacts that has `address1_city` field set to **NewYork** and **NewJersey**.
 
 ```HTTP
 POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
