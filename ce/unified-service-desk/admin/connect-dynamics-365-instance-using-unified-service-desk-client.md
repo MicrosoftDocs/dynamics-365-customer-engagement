@@ -89,22 +89,22 @@ The list of SSO suported browsers are as follows.
 > ![Note]
 > For public preview, SSO is supported for Google Chrome web browser.
 
-**SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds for Unified Service Desk to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default, **SingleSignOnThreshold** value is 5000 milliseconds (5 seconds). To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
+**SingleSignOnThreshold** is a UII option that indicates the timeout period in seconds for Unified Service Desk to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default, **SingleSignOnThreshold** value is 5 seconds. To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
 
-To change the value, configure the **SingleSignOnThreshold** UII option and enter a value in the range **1000-60000** milliseconds (5-60 seconds). If you enter **0** as the value, then the **SingleSignThreshold** is disabled, and you must enter the crendentials more than once. If you enter a value more than **60000** milliseconds, then the Unified Service Desk defaults the value to **5000** milliseconds.
+To change the value, configure the **SingleSignOnThreshold** UII option and enter a value in the range **1-6** seconds. If you enter **0** as the value, then the **SingleSignThreshold** is disabled, and you must enter the credentials more than once. If you enter a value more than **60** seconds, then the Unified Service Desk defaults the value to **5** seconds.
 
 |Value in milliseconds | Description |
 |-------|------------------------|
-| **5000** | Default value |
-| **1000-60000** | Accepted value range |
-| **0** | **SignleSignOnThreshold** is disabled |
-| **> 60000** | Value is defaulted to **5000** milliseconds |
+| **5** | Default value |
+| **1-60** | Accepted value range |
+| **0** | **SingleSignOnThreshold** is disabled |
+| **> 60** | Value is defaulted to **5** seconds |
 
 ### Enable Single Sign On
 
 To disable the SSO feature, you must the configure the **SingleSignOn** UII option and set it to **False**. If you leave the value bank, then the SSO is still enabled.
 
-To disbale the SSO feature, follow the steps:
+To disable the SSO feature, follow the steps:
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
@@ -114,11 +114,11 @@ To disbale the SSO feature, follow the steps:
 
 4. On the **Active UII Options** page, select **+ New**.
 
-5. On the new page, enter the <UII option name> for the **SingleSignOnEnabledBrowsers** field and enter the browser name for the **Value** field. If you want SSO support for multiple browsers, enter the value as comma seperated values. For example, `Chrome,Edge,IE`.
+5. On the new page, enter the <UII option name> for the **SingleSignOnEnabledBrowsers** field and enter the browser name for the **Value** field. If you want SSO support for multiple browsers, enter the value as comma separated values. For example, `Chrome,Edge,IE`.
 
 7. Select **Save**.
 
-### Change SignleSignOnThreshold value
+### Change SingleSignOnThreshold value
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
@@ -128,7 +128,7 @@ To disbale the SSO feature, follow the steps:
 
 4. On the **Active UII Options** page, select **+ New**.
 
-5. On the new page, enter the **SingleSignOnThreshold** for the **Global Option** field and enter time in miiliseconds for the **Value** field.
+5. On the new page, enter the **SingleSignOnThreshold** for the **Global Option** field and enter time in seconds for the **Value** field.
 
 7. Select **Save**.
 
