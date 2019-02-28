@@ -93,7 +93,7 @@ The list of SSO suported browsers are as follows.
 
 To change the value, configure the **SingleSignOnThreshold** UII option and enter a value in the range **1-6** seconds. If you enter **0** as the value, then the **SingleSignThreshold** is disabled, and you must enter the credentials more than once. If you enter a value more than **60** seconds, then the Unified Service Desk defaults the value to **5** seconds.
 
-|Value in milliseconds | Description |
+|Value in seconds | Description |
 |-------|------------------------|
 | **5** | Default value |
 | **1-60** | Accepted value range |
