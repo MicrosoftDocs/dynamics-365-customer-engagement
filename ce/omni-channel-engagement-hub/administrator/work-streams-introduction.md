@@ -50,9 +50,9 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
 
    - In the **General information** section, provide the following information: </br>
       1. **Name**: Enter a name for the work stream.
-      2. **Stream Source**: Stream source is defined as a medium via which a customer reaches out for support. For example, a customer can contact an agent through chat or SMS. </br> </br> Select a channel from the drop-down list.
-            - **Live Chat**
-            - **Entity**
+      2. **Stream Source**: Stream source is defined as a medium via which a customer reaches out for support. For example, a customer can contact an agent through chat or SMS. </br> </br> Select a channel from the drop-down list. </br>
+            - **Live Chat** </br>
+            - **Entity** </br>
             - **SMS**
 
            > [!NOTE]

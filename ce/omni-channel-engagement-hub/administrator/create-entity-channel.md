@@ -20,10 +20,10 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 Entity channels help route entities from **Common Data Service for Apps** to the Omni-channel Engagement Hub. For example, you can enable high-priority cases to be routed to Omni-channel so that they can be automatically distributed and assigned to agents.
 
-To set up entity routing for Common Data Service for Apps, you need to configure the following:
+To set up entity routing for Common Data Service for Apps using an Entity channel, you need to configure the following in the given order:
 
-- An Entity work stream in Omni-channel work streams and a corresponding flow in **Microsoft Flow**. 
-- An Entity channel in **Channels**.
+- An Entity work stream in Omni-channel work streams and a corresponding flow in **Microsoft Flow**. See [Set up an Entity work stream](#set-up-an-entity-work-stream).
+- An Entity channel in **Channels**. See [Set up an Entity channel](#set-up-an-entity-channel).
 
 ## Set up an Entity work stream
 
