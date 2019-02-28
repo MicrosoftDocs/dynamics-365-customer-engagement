@@ -10,6 +10,8 @@
 ## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
+#### [Deploy Unified Service Desk - Omni-channel Engagement Hub package](administrator/omni-channel-engagement-hub-package.md)
+#### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
 ### [Manage users](administrator/users-user-profiles.md)
 
 ### Work distribution settings
@@ -45,6 +47,7 @@
 #### [Sign in to Omni-channel Engagement Hub](agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md)
 #### [Introduction to the agent interface](agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md)
 #### [View agent dashboard and agent work items](agent/agent-usd/introduction-agent-dashboard.md)
+#### [Understand conversation states](agent/agent-usd/conversation-state.md)
 #### [View notifications and screen pops](agent/agent-usd/notifications-screen-pop.md)
 #### [View customer summary](agent/agent-usd/customer360-overview-existing-challenges.md)
 #### [View communication panel](agent/agent-usd/left-control-panel.md)
@@ -52,7 +55,8 @@
 #### [View Omni-channel conversation and Omni-channel session in Dynamics 365 apps](agent/agent-usd/view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-usd/create-record.md)
-#### [Search for and link record to the conversation](agent/agent-usd/search-link-record.md)
+#### [Search for records](agent/agent-usd/search-record.md)
+#### [Link and unlink a record](agent/agent-usd/link-unlink-record.md)
 
 ### [Agents using Customer Service Hub app](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
 #### [Sign in to Dynamics 365 Customer Service hub app](agent/agent-csh/csh-sign-dynamics-365-customer-service-hub.md)
@@ -61,6 +65,7 @@
 #### [Navigate using the navigation bar](agent/agent-csh/csh-navigation-bar.md)
 #### [Navigation bar buttons](agent/agent-csh/csh-navigation-bar-buttons.md)
 #### [View agent dashboard and agent work items](agent/agent-csh/csh-my-dashboard.md)
+#### [Understand conversation states](agent/agent-csh/csh-conversation-state.md)
 #### [View communication panel](agent/agent-csh/csh-conversation-control.md)
 #### [Set user presence](agent/agent-csh/csh-set-user-presence-status.md)
 #### [View notifications and screen pops](agent/agent-csh/csh-notifications-screen-pops.md)
@@ -70,7 +75,8 @@
 #### [View conversations and sessions in Dynamics 365 for Customer Engagement apps](agent/agent-csh/csh-view-conversations-sessions-dynamics-365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-csh/csh-view-customer-360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-csh/csh-create-record.md)
-#### [Search and link record to the conversation](agent/agent-csh/csh-search-link-record.md)
+#### [Search for records](agent/agent-csh/csh-search-record.md)
+#### [Link and unlink a record](agent/agent-csh/csh-link-unlink-record.md)
 
 ## [System customizer guide](customizer/omni-channel-engagement-hub-customizer.md)
 ### [Customize the Customer summary form](customizer/customize-customer-360-page.md)
