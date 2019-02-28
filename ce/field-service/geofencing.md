@@ -64,28 +64,32 @@ Go to **Settings > Solutions** and verify three Geofence solutions are present.
 
 Go to **Settings > Processes** and **activate** the following processes. These processes are installed in a draft state with the geofence solutions.
 
-   1) DeleteGeofenceWhenBookingIsCompleted or can
-   2) generate geofence when booking process
+   1) DeleteGeofenceWhenBookingIsCompletedOrCanceled
+   2) GenerateGeofenceWhenBookingIsCreated
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-activate-processes.png)
 
 ## 3. Enable location auditing for the Field Service Mobile app
 
-**Settings > Woodford > MobileCRM Woodford HTML5**
+Go to **Settings > Woodford > MobileCRM Woodford HTML5**
+
+Then enter the mobile project that holds your Field Service Mobile customizations. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-mobile-project.png)
 
-   1) go into project and set auditing to yes 
+> [!Note]
+> It is recommended to import and derive a mobile project template and make customizations in the child derivation. The latest mobile project template can be downloaded at [https://aka.ms/fsmobile-project](https://aka.ms/fsmobile-project).  
 
+Next go to the **Auditing** section of the project. Here you can choose which actions taken on the Field Service Mobile app are recorded and if that action should send related location data to the server.   
 
-   2) In the Auditing section of the project you can set what kind of action will be recorded on selected entities by using the Mobile CRM application. Then it will be sent to the CRM server when the application is synchronized. You can track the time and GPS position (the device must contain the GPS chip) when the action/change was performed. It's also possible to record the time and location where the synchronization was performed. 
+**Enable Auditing**, **Include GPS Position**, and **Log synchronization events**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-enable-auditing.png)
-You can track application’s state events, and that is whether the application is running, it’s terminated,  paused (put to background) or resumed (put back to foreground). 
-If you want to audit the movement, you can use the Track GPS position changes, where you can set the Delay and Distance of the GPS position. If the device moves for the defined distance after the set time interval expires, the position is recorded. 
+
+More specific auditing can be configured based on your business needs. You can track application’s state events, and that is whether the application is running, it’s terminated,  paused (put to background) or resumed (put back to foreground). If you want to audit the movement, you can use the Track GPS position changes, where you can set the Delay and Distance of the GPS position. If the device moves for the defined distance after the set time interval expires, the position is recorded. 
  
  
 ## 4. Enable background location tracking 
