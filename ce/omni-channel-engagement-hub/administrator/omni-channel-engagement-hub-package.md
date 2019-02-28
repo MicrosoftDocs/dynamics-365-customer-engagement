@@ -62,7 +62,7 @@ To learn more, see [Deploy a sample Unified Service Desk package using Package D
 
 2. In the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the Customer Engagement instance where you want to upgrade the current package.
 
-3. Under Select the import package to use, choose **Unified Service Desk - Omni-channel Engagement Hub - Preview - Upgrade**, and then select Next.
+3. Under Select the import package to use, choose **Unified Service Desk - Omni-channel Engagement Hub - Preview - Upgrade**, and then select **Next**.
 
 4. The **Unified Service Desk – Omni-channel Engagement Hub - Preview - Upgrade Setup Tool** page appears. Review the information about the components that will be upgraded, and then select **Next**.
 
