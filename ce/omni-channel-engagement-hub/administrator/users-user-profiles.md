@@ -23,14 +23,14 @@ All Dynamics 365 users who are assigned the **Omni-channel administrator**, **Om
 
 For more information on how to create users and assign security roles, see [Assign roles and enable users for Omni-channel Engagement Hub](add-users-assign-roles.md).
 
-Navigate to **Omni-channel Administration > Users & Queues > Users** to view the list of Omni-channel users in the **Omni-channel Users** view.
+Navigate to **Omni-channel Administration > User Management > Users** to view the list of Omni-channel users in the **Omni-channel Users** view.
 
 > [!div class=mx-imgBorder] 
 > ![Omni-channel users](../media/omni-channel-users.png)
 
 ## Manage a user in Omni-channel
 
-1. In the Omni-channel site map, select **Users & Queues \> Users**.
+1. In the Omni-channel site map, select **User Management \> Users**.
 
     The **Omni-channel Users** view is shown. 
 

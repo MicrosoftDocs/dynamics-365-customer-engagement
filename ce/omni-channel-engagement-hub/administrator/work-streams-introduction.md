@@ -55,16 +55,16 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
             - **Entity**
             - **SMS**
 
-            > [!NOTE]
-            > As you select the Stream source, the channel is updated at the top of the page. You cannot edit the channel.
+           > [!NOTE]
+           > As you select the Stream source, the channel is updated at the top of the page. You cannot edit the channel.
 
       3. **Capacity**: When a conversation from a work stream is assigned to an agent, it consumes some capacity. The units of capacity blocked are defined as capacity in the work stream. For example, a conversation in the chat work stream has a capacity of 20 units. When this conversation is assigned to an agent, it blocks 20 units of agent's capacity. </br> </br>Specify the units of capacity that are required to process a conversation for the work stream in the text box.
       
       4. **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from **Waiting** state to **Closed** state because of inactivity. 
       5. Select **Save** to save the work stream.
 
-            > [!NOTE]
-            > As you save the work stream, additional sections are displayed based on the work stream created. For more information, see [Link work streams with channels](#link-work-streams-with-channels).
+           > [!NOTE]
+           > As you save the work stream, additional sections are displayed based on the work stream created. For more information, see [Link work streams with channels](#link-work-streams-with-channels).
 
     - In the **Work distribution** section, follow these steps: 
 
@@ -103,7 +103,7 @@ For agents to receive conversations, the work streams should be linked with chan
 To know more about channels and how to set up channels, see the following topics: 
 - Create a Chat channel
 - [Create an Entity channel](create-entity-channel.md)
-- Create a SMS channel
+- Create an SMS channel
 
 
 ### See also

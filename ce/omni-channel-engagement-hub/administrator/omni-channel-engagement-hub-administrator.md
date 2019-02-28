@@ -48,6 +48,9 @@ You can view the entities in the **Omni-channel Administration** site map.
 ## How-to topics
 - [Assign roles and enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
 - [Manage a user in Omni-channel](users-user-profiles.md#manage-a-user-in-omni-channel)<br>
+- Create a Chat channel </br>
+- [Create an Entity channel](create-entity-channel.md) </br>
+- Create an SMS channel </br>
 - [Automatically identify customers using pre-chat responses](record-identification-rule.md)<br>
 - [Create custom presence status](presence-custom-presence.md#create-custom-presence-status)<br>
 - [Create a new Omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)<br>

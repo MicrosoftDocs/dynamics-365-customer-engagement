@@ -16,7 +16,7 @@
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
 #### Create a Chat channel
 #### Create an Entity channel
-#### Create a SMS channel
+#### Create an SMS channel
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 #### [Work with queues](administrator/queues-omni-channel.md)
