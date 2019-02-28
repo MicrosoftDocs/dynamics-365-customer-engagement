@@ -59,7 +59,18 @@ Field Service administrators are typically given a copy of the **Field Service -
 
 If your organization is using Connected Field Service, these administrators should also be assigned a copy of the **IoT - Administrator** security role.
 
-With fully enabled IoT administrator permissions, Field Service administrators should have access to all IoT entities, as seen in the following screenshot.
+With fully enabled IoT administrator permissions, Field Service administrators should have access to all IoT entities, allowing them to: 
+
+- Create
+- Read
+- Write
+- Delete
+- Append
+- Append to
+- Assign
+- Share
+
+See the following screenshot for reference.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of all the IoT entities that Field Service administrators should have access to](media/cfs-security-role-administrator.png)
