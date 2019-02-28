@@ -94,8 +94,12 @@ More specific auditing can be configured based on your business needs. You can t
  
 ## 4. Enable background location tracking 
 
+Next go to the **Location Tracking** section of the project and **Enable background GPS monitoring**.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-enable-location-tracking.png)
+
+Among other functions, this allows a field technicians realtime location to appear on the Schedule Board map and allows for events to be triggered based on a technician's current location.
 
 
 ## 5. Test location auditing
