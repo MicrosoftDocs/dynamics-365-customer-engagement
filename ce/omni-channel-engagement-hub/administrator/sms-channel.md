@@ -31,9 +31,11 @@ Agents can view the incoming SMS requests in their dashboard and respond accordi
 
 3. Select **New** to create a work stream.
 
-4. On the **Summary** tab, in the **Stream source** field, select **SMS**. For more information, see [Create and manage work streams](create-work-streams.md).
+4. On the **Summary** tab, in the **Stream source** field, select **SMS**.
 
 5. In the **Auto-close after inactivity** field, select a duration of at least 8 hours or more.
+
+    For more information on work stream, see [Create and manage work streams](work-streams-introduction.md#create-a-work-stream).
 
 6. On the **SMS settings** tab, provide the following information:
 
