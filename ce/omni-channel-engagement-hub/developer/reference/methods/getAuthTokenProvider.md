@@ -31,7 +31,7 @@ None
 
 ## Return Value
 
-Returns the currently set auth-token provider.
+Returns the currently set auth-token provider, if any.
 
 ## Example
 
