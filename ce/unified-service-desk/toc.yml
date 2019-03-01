@@ -421,7 +421,10 @@
     - name: 'Walkthrough: Create a UII WPF Hosted Control'
       href: walkthrough-create-uii-wpf-hosted-control.md
   - name: Integrate channel provider using Channel Integration Framework
-    href: integrate-channel-provider-channel-integration-framework.md    
+    href: integrate-channel-provider-channel-integration-framework.md   
+    items:
+    - name: Create Channel Integration Framework hosted control
+      href: create-channel-integration-framework-hosted-control.md
   - name: Integrate with CTI systems using CTI adapters
     href: integrate-cti-systems-cti-adapters.md
     items:

@@ -31,10 +31,20 @@ Bring your channel providers and integrate them with Unified Service Desk client
 
 The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** for your to host the channel provider within Unified Service Desk client application.
 
-To learn more, see [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md)
+To learn more, see [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md).
 
 ## What is Channel Integration Framework for Unified Service Desk
 
-The Channel Integration Framework hosted control type acts as an interface between the Unified Service client application and channel provider. The Channel Integration Framework hosted control type exposes a set of events that communicates between Unified Service Desk and channel provider.
+The Channel Integration Framework hosted control type acts as an interface between the Unified Service client application and channel provider. 
 
+The Channel Integration Framework hosted control type exposes a set of events that communicates between Unified Service Desk and channel provider. These predefined events parses the parameters to the Unified Service Desk client application. To learn more, see [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md).
+
+Based on your organization requirements, you must create actions and attach them to the predefined events to proceed with the scenarios your business demands.
+
+> [!div class="nextstepaction"]
+> [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md)
+
+## See also
+
+[Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md)
 
