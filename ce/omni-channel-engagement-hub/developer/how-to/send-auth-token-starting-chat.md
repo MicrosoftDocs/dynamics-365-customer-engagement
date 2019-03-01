@@ -47,3 +47,11 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 	console.log(errorEvent);
 });
 ```
+
+> [!div class="nextstepaction"]
+> [Next topic: Initiate chat when user has been waiting for some time](initiate-chat-wait-time.md)
+
+## See also
+
+[JavaScript API reference](../reference/omni-channel-reference.md)<br />
+[Send context to Omni-channel Engagement Hub when starting a chat](send-context-starting-chat.md)

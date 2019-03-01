@@ -49,6 +49,8 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 	console.log(errorEvent);
 });
 ```
+> [!div class="nextstepaction"]
+> [Next topic: Send authentication token when starting a chat](send-auth-token-starting-chat.md)
 
 ## See also
 

@@ -41,7 +41,4 @@ Provides JavaScript methods that you can use to perform various operations with 
 
 ## See also
 
-[Introduction to Omni-channel Engagement Hub](../introduction-omni-channel.md)<br />
-[Omni-channel Engagement Hub for administrators](../administrator/omni-channel-engagement-hub-administrator.md)<br />
-[Omni-channel Engagement Hub for system customizers](../customizer/omni-channel-engagement-hub-customizer.md)<br />
-[Omni-channel Engagement Hub for agent](../agent/omni-channel-engagement-hub-agent-introduction.md)
+[Omni-channel Engagement Hub for developers](omni-channel-engagement-hub-developer.md)

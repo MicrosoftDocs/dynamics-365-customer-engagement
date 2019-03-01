@@ -26,7 +26,14 @@ Omni-channel Engagement Hub provides SDK methods for live chat feature that allo
 
 ## In this section
 
-[Send context when starting chat](how-to/send-context-starting-chat.md)<br />
-[Send authentication token when starting chat](how-to/send-auth-token-starting-chat.md)<br />
-[Initiate chat after user has been waiting for some time](how-to/initiate-chat-wait-time.md)<br />
+[Walkthrough: Send context when starting chat](how-to/send-context-starting-chat.md)<br />
+[Walkthrough: Send authentication token when starting chat](how-to/send-auth-token-starting-chat.md)<br />
+[Walkthrough: Initiate chat after user has been waiting for some time](how-to/initiate-chat-wait-time.md)<br />
 [JavaScript API reference](omni-channel-reference.md)
+
+## See also
+
+[Introduction to Omni-channel Engagement Hub](../introduction-omni-channel.md)<br />
+[Omni-channel Engagement Hub for administrators](../administrator/omni-channel-engagement-hub-administrator.md)<br />
+[Omni-channel Engagement Hub for system customizers](../customizer/omni-channel-engagement-hub-customizer.md)<br />
+[Omni-channel Engagement Hub for agent](../agent/omni-channel-engagement-hub-agent-introduction.md)
