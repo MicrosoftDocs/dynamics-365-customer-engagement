@@ -29,8 +29,28 @@ monikerRange : '>= dynamics-usd-4'
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement apps** > **Settings** > **Unified Service Desk**.
+2. On the nav bar, choose the down arrow (v) next to Dynamics 365.
 
-3. On the **Hosted Controls** page, choose **New**.
+3. Select the **Unified Service Desk Administrator** app.
 
-4. 
+4. On the **Active Hosted Controls** page, choose **+ New**.
+
+5. One the **New Hosted Controls** page, enter the following details.
+
+ | Field                         | Value                                    |
+ |-------------------------------|------------------------------------------|
+ | Name | Name of the channel provider |
+ | Unified Service Desk Component Type | Channel Integration Framework |
+ | Hosting Type | Chrome Process |
+ | Channel URL | The URL of the provider to host in the widget |
+ | Application is Global | Checked |
+ | Display Group | RightPanel |
+ | Application is Dynamic | Yes |
+ | User Can Close | Checked |
+
+6. Choose **Save** in the bottom right corner to create the hosted control.
+
+## See also
+
+- [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md)
+- [Integrate channel provider using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)

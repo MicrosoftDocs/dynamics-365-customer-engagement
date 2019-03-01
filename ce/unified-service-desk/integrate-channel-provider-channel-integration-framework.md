@@ -47,4 +47,3 @@ Based on your organization requirements, you must create actions and attach them
 ## See also
 
 [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md)
-
