@@ -44,9 +44,6 @@ This topic describes how to work with profile segments. For more about interacti
 To create a dynamic segment, set its **Segment type** to **Dynamic** on the **General** tab. Then use the **Definition** tab to build your dynamic segment by combing _groups_ of _logical expressions_, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).
 
 > [!NOTE]
-> The name must not include spaces or special characters. Use underscores or CamelCase to create a name with multiple words.
-
-> [!NOTE]
 > Your dynamic-segment queries can reference fields of all data types _other than multiple option set_. The **Designer** and **Explorer** won't show data fields of this type.
 
 ## Define a segment group
