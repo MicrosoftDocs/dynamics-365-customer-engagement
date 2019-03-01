@@ -53,5 +53,5 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 
 ## See also
 
-[JavaScript API reference](../reference/omni-channel-reference.md)<br />
+[JavaScript API reference](../omni-channel-reference.md)<br />
 [Send context to Omni-channel Engagement Hub when starting a chat](send-context-starting-chat.md)
