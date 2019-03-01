@@ -68,7 +68,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 ```
 
 > [!Important]
-> The purpose of the `crm` prefix is to unambiguously indicate the type of the record identifier. This is required when you are using a legacy Segmentation solution (DCI Segmentation) which by default uses another type of identifier.
+> The purpose of the `crm` prefix is to unambiguously indicate the type of the record identifier. This is required when you are using a legacy segmentation solution which by default uses a different type of identifier.
 
 2. **Update request**
 
@@ -105,7 +105,7 @@ DELETE {{orgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ## CRUD operations on dynamic segments
 
-This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on dynamic segments.
+This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on dynamic segments. Dynamic segements are based on segment query (`msdyncrm_segmentquery`). More information [Segment query definition]().
 
 1. **Create request**
 
@@ -120,7 +120,7 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
     "statuscode": 192350001
 }
 ```
-The following request creates a dynamics segment with a conditional segment query to retrieve only contacts that has `address1_city` field set to **NewYork** and **NewJersey**.
+The following request creates a dynamics segment with a conditional segment query to retrieve only contacts that has `address1_city` field set to **NewYork** or **NewJersey**.
 
 ```HTTP
 POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
@@ -161,7 +161,7 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ### CRUD operations on compound segments
 
-This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on compound segments.
+This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on compound segments. Compound segements are based on segment query (`msdyncrm_segmentquery`). More information [Segment query definition]().
 
 1. **Create request**
 
@@ -208,27 +208,28 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 Members can be added to or removed from segments. As these operations go beyond a simple add/remove for segment they are referred to as `Include/Exclude`.
 
-Include/exclude operations can be performed through the API by posting messages of the following types:
+`Include/Exclude` operations can be performed through the **segmentation API** by posting messages of the following types:
 
 - `msdyncrm_IncludeMemberInSegment`
 - `msdyncrm_IncludeMembersInSegment`
 - `msdyncrm_ExcludeMemberFromSegment`
 - `msdyncrm_ExcludeMembersFromSegment`
 
-Dynamic and compound segments are based on segment query. Records matching the query become segment members. For static segments, the `Include/Exclude` operations have a more straight-forward semantics of adding or removing segment members.
+Including a record makes it a member of the segment whether it satisfies the segment query (`msdyncrm_segmentquery`) or not. Including a record which is already a member will assure that it is not removed when it doesn't match the segment query.
 
-Including a record makes it a member of the segment whether it satisfies the segmentation query or not. Including a record which is already a segment member will assure that it is not removed when it doesn't match the segmentation query.
-
-Excluding a record removes it from the segment members and prevents it from being added again, even if the record matches the segmentation query. A record can be excluded from a segment without previously being a member of the segment to prevent it from becoming a member.
+Excluding a record removes it from the segment members and prevents it from being added again, even if the record matches the segment query. A record can be excluded from a segment without previously being a member of the segment to prevent it from becoming a member.
 
 Once a member is included, action can be reversed by excluding it, thereby removing and preventing it from becoming a member. Similarly, excluding a member can be reversed by including it, thereby making it a member unconditionally.
 
 Following are some of the important aspects that needs to be considered while performing `Include/Exclude`  operations on segment members:
 
-- Dynamic and compound segments must be in `Live` or `Stopped` state (not draft).
+> [!NOTE]
+> For this release, addition of an individual member to a dynamic segment is not supoorted .
+
+- Compound segments must be in `Live` or `Stopped` state (not draft).
 - Only instances of entity type `Contact` can be included/excluded as members.
 - All included/excluded records should exist, otherwise the request gets rejected.
-- `Include/Exclude` feature is supported only by new Segmentation (not by DCI Segmentation).
+- `Include/Exclude` feature is supported only by new Segmentation.
 - `Include/Exclude` member request is processed asynchronously independent of any recurring segment evaluations.
 - Any `Include/Exclude` operation resulting in an actual update to segment members is recorded in `Segment Insights`.
 - When including or excluding multiple records, use the plural endpoints for faster processing.
