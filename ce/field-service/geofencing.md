@@ -155,57 +155,78 @@ Then select the Account configuration which is included by default with the geof
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-entities.png)
 
-**Entity:** Account - a work order's location is inherited from the related service account so the Account entity should be geofenced. 
+**Entity:** Select **Account** because work order locations are inherited from the related service account. 
 
-**Latitude / Longitude:** choose the latitude and longitude fields on the account entity that hold the geo coded location.
+**Latitude / Longitude:** Choose the latitude and longitude fields on the account entity that hold the geo coded location and this will determine the center of the geofence.
 
-**Enabled As:** Geofence - this implies the account serves as a static location that a geofence will surround
+**Enabled As:** Select **Geofence** because the account serves as a static location that a geofence will surround.
 
-**Default Radius:** 
+**Default Radius:** Enter a number to represent the radius of the geofence around the latitude and longitude of the account location. the unit of measure will be the unit chosen in Geofence Settings in the previous step. In this example, the default radius is 328.08399 feet.
    
-   1) The geofence entity is a mostly static location the geofence will sit around. (example: Account)
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-service-account.png)
  
- 2) Verify bookable resource is configured for geotracking
+ 1) Verify bookable resource is configured for geotracking
    1) The tracking point entity is the mostly mobile location that can breach the geofence. (example: Bookable Resource)
 
-**Entity:** Bookable Resource - a work order's location is inherited from the related service account so the Account entity should be geofenced. 
+**Entity:** Select **Bookable Resource** to compare the location of field technicians relative to work orders and service accounts. 
 
-**Latitude / Longitude:** choose the latitude and longitude fields on the bookable resource entity that hold the most recent coordinates of the location.
+**Latitude / Longitude:** Choose the latitude and longitude fields on the bookable resource entity that hold the most recent coordinates of the location.
 
-**Enabled As:** Geotracked - this implies the bookable resource has a variable location and is measured as inside or outside defined geofences.
-
-**Default Radius:**
+**Enabled As:** Select Geotracked because the bookable resource has a variable location that is compared against defined geofences.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-bookable-resource.png)
 
 ## 8. Book a work order 
 
-(async workflow) and verify geofence is created
+Next, book a work order via any booking method. In this example a work order is manually dragged and dropped to a field technician bookable resource. As a reminder this resource is of type user and has access to the Field Service Mobile app. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-book.png)
+
+The booking of a work order will trigger an asynchronous workflow that creates a geofence.
+
+Go to **Field Service > Settings > Geofences** to view the newly created geofence.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-created.png)
+
+The **Geotracked Record Status** is set to Outside meaning the booking resource is outside if the geofence area.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-created-record.png)
 
 
 ## 9. Test a geofence event
-    
-    Consent to sharing GPS data on the Field Service Mobile app. A message will appear after a geofence is active. 
+
+ Finally, we can test "breaking" a geofence meaning a bookable resource travels inside the geofenced area.  
+
+ This is typically done two ways.   
+
+The first way is to travel within the geofenced area and log in and synchronize the Field Service Mobile application. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-arrive.png)
 
+The second way is for testing and development purposes and is to simulate traveling within the geofenced area by using administrator security to manually enter latitude and longitude values in the Mobile Audit table and the bookable resource record.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-mobile-audit-table.png)
+
+> [!Note]
+> You can enable editable grids for the Mobile Audit table to override the latitude and longitude values.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-geofence-minimum-radius.png)
+
+Either way, the synchronized coordinates will be within the geofenced area and trigger a **Geofence Event**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-event.png)
 
+Additionally, this will change the related Geofence Geotracked Record Status to **Inside**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-status-inside.png)
 
@@ -235,5 +256,6 @@ These processes are included in the **Geofence Alerts** solution installed with 
 - currently geofencing looks at the resco_mobileaudit table but expecting to geofencing is application agnostic and can be used for multiple dynamics use cases including field service
 - currently the geofence solution only creates circular geofences
 - if a location is current or not
+- Consent to sharing GPS data on the Field Service Mobile app. A message will appear after a geofence is active. 
 
 
