@@ -68,7 +68,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 ```
 
 > [!Important]
-> The purpose of the `crm` prefix is to unambiguously indicate the type of the record identifier. This is required when you are using a legacy segmentation solution which by default uses a different type of identifier.
+> The purpose of the `crm` prefix is to unambiguously indicate the record identifier type. This is required when you are using a legacy segmentation solution which by default uses a different type of identifier.
 
 2. **Update request**
 
@@ -161,7 +161,7 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ### CRUD operations on compound segments
 
-This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on compound segments. Compound segements are based on segment query (`msdyncrm_segmentquery`). More information [Segment query definition]().
+This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on compound segments. Compound segements are based on segment query (`msdyncrm_segmentquery`). 
 
 1. **Create request**
 
@@ -224,7 +224,7 @@ Once a member is included, action can be reversed by excluding it, thereby remov
 Following are some of the important aspects that needs to be considered while performing `Include/Exclude`  operations on segment members:
 
 > [!NOTE]
-> For this release, addition of an individual member to a dynamic segment is not supoorted .
+> For this release, `Include/Exclude` operations are not supoorted for dynamic segments.
 
 - Compound segments must be in `Live` or `Stopped` state (not draft).
 - Only instances of entity type `Contact` can be included/excluded as members.
