@@ -1,14 +1,14 @@
 ---
 title: "What's new in Dynamics 365 for Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 for Sales."
-keywords: what's new, Dynamics 365 for Sales
+keywords: "what's new, Dynamics 365 for Sales"
 ms.date: 10/16/2018
 ms.service:
-  - crm-online
+  - "crm-online"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: a87d5f37-892f-43a8-97b2-151037132f72
 author: shubhadaj
 ms.author: shujoshi
@@ -23,6 +23,10 @@ topic-status: Drafting
 # What's new in Dynamics 365 for Sales
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Visit this page to see what’s added or updated recently. 
+
+## Dynamics 365 for Sales, version 9.2
+
+-  This version of Dynamics 365 for Sales introduces forecasting, a new capability to help organizations to provide the necessary insights into how they can manage their workforce, cash flow, and resources. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Project accurate revenue with forecasting](project-accurate-revenue-sales-forecasting.md)
 
 ## Dynamics 365 for Sales, Dynamics 365 for Customer Engagement apps, version 9.1
 
