@@ -5,6 +5,7 @@
 ### Sales management
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
+#### [Create a forecast definition](create-forecast-definition.md)
 ### Product management
 #### [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
 #### [Create a product](../sales-enterprise/create-product-sales.md)
