@@ -114,7 +114,7 @@ You can delete a social configuration at any time to prevent [!INCLUDE[pn-market
 
 ### Schedule and post messages on social media
 
-Use the **Social posts** entity to author and schedule your posts. You can post from any social-media account that your admin has set up and authenticated in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md), as described in the previous section.
+Use the **Social posts** entity to author and schedule your posts. You can post from any social-media account that your admin has set up and authenticated in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], as described in the previous section.
 
 In the current preview version, only Twitter is supported, but we expect to add more social media channels when this feature becomes generally available.
 
