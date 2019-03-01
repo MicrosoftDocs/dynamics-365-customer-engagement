@@ -31,9 +31,6 @@ Project-based quote lines don't have to have any quote line details. Alternative
 
 In addition to transaction classes, quote line details have a transaction type. PSA support two transaction types for quote line details: **Cost** and **Project Contract**.
 
-- **Top-down estimate** – The top-down estimate method is used when an estimator must quickly size a deal without including a high level of detail. A top-down estimate is typically done by salespeople, the delivery manager, or both, when there isn't enough time to build a detailed estimate. When work is estimated by using the Quote line detail entity, PSA can enter a default bill rate and sales amount for each quote line detail. The sales amounts on all quote line details for a quote line add up to the quote line value. All quote line values add up to the quote value.
-- **Bottom-up estimate** – If your organization has a project plan template for the type of work that is required, you can create a project from a quote line, and the project is based on the template. A project plan is created, and a project estimate is created based on that plan. You can then import the estimates to a quote line as quote line details. The bottom-up method is typically used when project-based companies are familiar with the work that they are quoting and have successfully done it many times before. By using project templates to create projects and generate project-based estimates that are reflected in the quote, you can reuse information, based on experience or best practices.
-
 ## Estimate by using a contract
 
 If you used a PSA quote when you created a project-based contract, the estimate that you did for each quote line on the quote is copied to the project contract. The structure of a project contract is like the structure of project quote that has lines, line details, and invoice schedules.
