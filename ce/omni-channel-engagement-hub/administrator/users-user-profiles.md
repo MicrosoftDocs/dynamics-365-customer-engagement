@@ -34,13 +34,15 @@ Navigate to **Omni-channel Administration > User Management > Users** to view th
 
     The **Omni-channel Users** view is shown. 
 
-2. In the **Omni-channel** tab, provide the following information:
+2. Select a user and in the **Omni-channel** tab, provide the following information:
 
     - In the **Agent Details** section: </br>
 
         - **Capacity** - Allocate capacity to agent.</br>
 
-        - **Default Presence** - Assign a default presence status for agent. This is the status that the agent is logged in with.
+        - **Default Presence** - Assign a default presence status for agent. This is the status that the agent is logged in with in the Omni-channel app.
+
+    - In the **Omni-channel Queues** section, assign an existing omni-channel queue to the user.
      
 3. Select **Save** to the save the user record.
 

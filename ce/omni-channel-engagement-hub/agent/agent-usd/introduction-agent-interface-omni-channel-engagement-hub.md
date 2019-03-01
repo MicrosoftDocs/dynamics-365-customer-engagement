@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 03/07/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 7369f1e2-e536-4585-a69a-eee434a87af1
@@ -120,7 +120,7 @@ Each session in the Unified Service Desk client is shown on the session tab tool
 
 ## Application management toolbar
 
-The application management toolbar lets you see all the related information for a session. For example, you can use this toolbar to open the **My Dashboard** page, search, use Customer summary, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
+The application management toolbar lets you see all the related information for a session. For example, you can use this toolbar to open the **Omni-channel agent dashboard** page, search, use Customer summary, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
 
 > [!div class=mx-imgBorder]
 > ![Omni-channel application management toolbar](../../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar") 
@@ -135,7 +135,4 @@ The application management toolbar lets you see all the related information for 
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
-- [Create a record](create-record.md)
-- [Search and link a record](search-link-record.md)

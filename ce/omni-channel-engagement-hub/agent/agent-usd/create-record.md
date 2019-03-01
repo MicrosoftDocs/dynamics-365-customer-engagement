@@ -41,16 +41,12 @@ If no records are linked to a conversation in Omni-channel Engagement Hub, you c
  > ![Create record](../../media/oc-usd-create-contact.png "Quick create record")
 
 > [!div class="nextstepaction"]
-> [Next topic: Search and link a record](search-link-record.md)
+> [Next topic: Search for records](search-record.md)
 
 ## See also
 
-- [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
-- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
-- [View agent dashboard and agent work items](introduction-agent-dashboard.md)
-- [View notifications and screen pops](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [Link and unlink a record](link-unlink-record.md)

@@ -37,9 +37,10 @@ Quickly configure and add a chat widget to your portal to chat with your website
 
 ## Step 2: Configure a chat widget
 
-1. On the **Chat settings** tab, in the **Chat widgets** section, select **Add**. The **New Chat Widget** page opens.
+1. Go to **Administration** &gt; **Chat**.
+2. Select **New** to create a chat widget. The **New Chat Widget** page opens.
 2. On the **Basic details** tab, in the **General information** section, enter a name for the chat widget, and save the record.
-3. Copy the widget snippet code from the Code snippet section. This snippet code will be used in [Step 3](#step-3-embed-chat-widget-in-portal).
+3. Copy the widget snippet code from the **Code snippet** section. This snippet code will be used in [Step 3](#step-3-embed-chat-widget-in-portal).
 
     > [!div class=mx-imgBorder]
     > ![Configure the basic details of a chat widget and copy code snippet of a chat widget](../media/chat-widget-snippet.png "Configure the basic details of a chat widget and copy code snippet of a chat widget")
@@ -67,6 +68,6 @@ You can maximize the chat widget by selecting it.
     
 ### See also
 
-[Create and manage work streams](create-work-streams.md) </br>
+[Understand and create work streams](work-streams-introduction.md) </br>
 [Create and manage routing rules in Omni-channel](routing-rules.md) </br>
 [Configure a chat widget](set-up-chat-widget.md)
