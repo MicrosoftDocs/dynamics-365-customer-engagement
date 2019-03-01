@@ -2,9 +2,10 @@
 ## [Overview](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Administrator & Sales Manager Guide](../sales-enterprise/admin-guide.md)
-### Sales and product catalog management
+### Sales management
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
-#### [Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
+#### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
+### Product management
 #### [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
 #### [Create a product](../sales-enterprise/create-product-sales.md)
 #### [Create a product family](../sales-enterprise/create-product-family.md)  
@@ -27,33 +28,41 @@
 #### [Create a goal](../sales-enterprise/create-edit-goal-sales.md)
 #### [Create a goal metric](../sales-enterprise/create-edit-goal-metric.md)
 #### [Create a rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
+### Playbook management
+#### [Define playbook categories](define-playbook-categories.md)  
+#### [Manage playbook templates](manage-playbook-templates.md) 
+#### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
+
 ### [Dynamics 365 for Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
 ### [Upgrade from Dynamics 365 for Sales Professional](upgrade-sales-professional-sales-enterprise.md)
 ### [Move from Dynamics 365 for Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
 ## [User Guide](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
-### [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)
-### [Manage your leads](../sales-enterprise/create-edit-lead-sales.md)
-### [Qualify and convert leads](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
-### [Manage your opportunities](../sales-enterprise/create-edit-opportunity-sales.md)
-### [Build quotes](../sales-enterprise/create-edit-quote-sales.md)
-### [Generate orders](../sales-enterprise/create-edit-order-sales.md)
-### [Generate invoices](../sales-enterprise/create-edit-invoice-sales.md)
-### [Add products to quote, order, or invoice](../sales-enterprise/add-product-quote-order-invoice.md)
-### [Reopen a lead](../sales-enterprise/re-open-lead-sales.md)
-### [Close an opportunity](../sales-enterprise/close-opportunity-won-lost-sales.md)
-### [Track competitors](../sales-enterprise/create-edit-competitor-record-sales.md)
-### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
-### [Manage org charts for accounts](live-org-chart.md)
-## [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
-### Playbook manager guide
-#### [Define playbook categories](define-playbook-categories.md)  
-#### [Manage playbook templates](manage-playbook-templates.md) 
-#### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
-### Playbook user guide
+### Lead and opportunity management
+#### [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)
+#### [Manage your leads](../sales-enterprise/create-edit-lead-sales.md)
+#### [Qualify and convert leads](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
+#### [Manage your opportunities](../sales-enterprise/create-edit-opportunity-sales.md)  
+#### [Reopen a lead](../sales-enterprise/re-open-lead-sales.md)
+#### [Close an opportunity](../sales-enterprise/close-opportunity-won-lost-sales.md)
+#### [Track competitors](../sales-enterprise/create-edit-competitor-record-sales.md)
+#### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
+#### [Manage org charts for accounts](live-org-chart.md)
+### Quotes and order management
+#### [Build quotes](../sales-enterprise/create-edit-quote-sales.md)
+#### [Generate orders](../sales-enterprise/create-edit-order-sales.md)
+#### [Generate invoices](../sales-enterprise/create-edit-invoice-sales.md)
+#### [Add products to quote, order, or invoice](../sales-enterprise/add-product-quote-order-invoice.md)
+### Sales forecasting
+#### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
+#### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
+#### [View forecasts](view-forecasts.md)
+### Playbooks
+#### [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
 #### [Launch a playbook to carry out activities consistently](launch-playbook.md)  
 #### [Mark playbook as completed](mark-playbook-completed.md)  
 #### [Track playbook activities](track-playbook-activities.md)
+
  
 ## [Embedded intelligence](../sales-enterprise/embedded-intelligence.md)
 ### [Administrator guide](../sales-enterprise/configure-enable-embedded-intelligence.md)

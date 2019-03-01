@@ -29,7 +29,7 @@ Track your forecasts to project what a sales person, team, or organization will 
 <!--editor question: Should "forecast" be capitalized like the other roles? -->
 
 
-1.	Make sure you have the Sales Manager, Sales person, or forecast user role or equivalent permissions.
+1.	Make sure you have the Sales Manager, Sales person, or Forecast user role or equivalent permissions.
 
 2.	Select the site map icon ![Icon to open site map](media/site-map-new.png "Icon to open site map"), and check the lower left corner of the site map to ensure that you are in the **Sales** area. 
 
@@ -42,10 +42,6 @@ Track your forecasts to project what a sales person, team, or organization will 
 
     > [!div class="mx-imgBorder"]
     > ![List of forecasts](media/my-active-forecasts.png "List of forecasts")
-
-
-<!--from editor: "Drop-down" shouldn't be used as a noun. Changing to "drop-down list."-->
-
 
 4.	In the drop-down list below the View drop-down list, select a forecast definition to see the forecasts for it. In this drop-down list, you’ll see the definitions that you own or the definitions of the forecast hierarchy that you are a part of.
  
@@ -64,19 +60,11 @@ Track your forecasts to project what a sales person, team, or organization will 
 
     -	**Closed**. Shows the aggregated or rolled-up value of the actual revenue of all closed opportunities owned by a specific owner for the defined period.
 
+    - **Committed**. For the specific period and owner, this column shows the aggregated or rolled-up value of estimated revenue of all open opportunities that have the forecast category set to Committed. This value can be edited inline.
 
-    <!--from editor: Above, it's "rolled-up value," but below it's "rollup value." Is it correct that the terms are different?-->
+    -	**Best case**. For the specific period and owner, this column shows the aggregated or rolled-up value of estimated revenue of all open opportunities that have the forecast category set to Best Case. This value can be edited inline.
 
-
-    -	**Best Case**. For the specific period and owner, this column shows the aggregated or rollup value of estimated revenue of all open opportunities that have the forecast category set to Best Case. This value can be edited inline.
-
-    - 	**Commit**. For the specific period and owner, this column shows the aggregated or rollup value of estimated revenue of all open opportunities that have the forecast category set to Committed. This value can be edited inline.
-    
-    
-    <!--from editor: Above, the category is "Committed," but below it's "Commit" - are they supposed to be different?-->
-    
-
-    -	**Pipeline**. For the specific period and owner, this column shows the aggregated or rollup value of estimated revenue of all open opportunities that have the forecast category set to Commit or Best case. This value can be edited inline.
+    -	**Pipeline**. For the specific period and owner, this column shows the aggregated or rollup value of estimated revenue of all open opportunities that have the forecast category set to Committed or Best case. This value can be edited inline.
 
     -	**% Achieved**. Shows the percentage of quota achieved based on closed revenue versus quota/goals.
 
