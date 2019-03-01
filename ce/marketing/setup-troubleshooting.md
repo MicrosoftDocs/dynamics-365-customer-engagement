@@ -69,7 +69,12 @@ Read this topic to find answers to common questions and solutions to known issue
 
 ## My [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license agreement entitles me to a free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license. How can I get the free app added to my tenant?
 
-If you are entitled to a free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license as a result of your existing [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license agreement, then please [raise a ticket with Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) to have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app added to your tenant.
+ If you only recently purchased enough [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] seats to qualify for a free [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] license, then the app should already be available on your tenant. But if you've had a qualifying [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license for some time, you may need to submit a support request to get the free [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app added to it.
+
+If you are entitled to a free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license, do the following to find or obtain it:
+
+1. [Go to the Dynamics 365 admin center](dynamics-365-admin-center.md), open the **Applications** tab, and check whether your free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app is already shown in the list. If so, then set it up as described in [Set up an unconfigured Marketing app](purchase-marketing.md#set-up-app) and skip the rest of this procedure.
+1. If your free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app  is not shown in the **Applications** list for your tenant, then please [raise a ticket with Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) to have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app added to it. Then set up the app as described in [Set up an unconfigured Marketing app](purchase-marketing.md#set-up-app).
 
 <a name="incompatible-platform"></a>
 
@@ -342,5 +347,5 @@ If you’ve already tried to set up the application several times and are still 
 
 For more information about how to contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] directly, and how to find forums, FAQs, and other resources, see the following:
 
-- [Contact technical support](../admin/contact-technical-support.md)
+- [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support)
 - [Help and additional resources](../admin/help-additional-resources.md)

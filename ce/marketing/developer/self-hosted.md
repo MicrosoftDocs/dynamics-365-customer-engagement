@@ -4,7 +4,7 @@ description: "Provides information about how you can extend event management web
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 2/08/2019
+ms.date: 02/08/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -18,7 +18,7 @@ manager: kvivek
 
 # Self-hosted custom event portal
 
-Before you start hosting sef-hosted custom event portal complete the actions mentioned in [Prerequisites](event-management-web-application.md) topic.
+Before you start hosting self-hosted custom event portal complete the actions mentioned in [Prerequisites](event-management-web-application.md) topic.
 
 The frontend can be fully customized and hosted by yourself. Additionally, you can choose to use our backend service or you can develop your own backend. To interact with the backend service see [API documentation](https://go.microsoft.com/fwlink/?linkid=2042224).
 
@@ -40,7 +40,8 @@ In order to do so a few additional steps need to be done.
 > You need to create a new web application for each origin of which the custom event portal is accessible (most probably you need at least two web applications (for development and production)).
 
 1. Enter an arbitrary `Name`.
-1. Enter the `Origin` URL of the custom event portal (e.g. `http://localhost:4200`)  
+1. Enter the `Origin` URL of the custom event portal (e.g. `http://localhost:4200`) .
+
   > [!NOTE]
   > The origin URL may not contain a trailing slash!
   

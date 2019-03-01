@@ -74,10 +74,16 @@
       ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
-      "feedback_product_url": "https://experience.dynamics.com/ideas/",
+      "feedback_product_url": "https://ideas.dynamics.com",
       "search.appverid": "met150"
     },
     "fileMetadata": {
+      "feedback_product_url":{
+        "admin/**.*": "https://ideas.powerapps.com",
+        "customize/**.*": "https://ideas.powerapps.com",
+        "developer/**.*": "https://ideas.powerapps.com",
+        "developer/channel-integration-framework/**.*": "https://ideas.dynamics.com"
+      },
       "breadcrumb_path": {
         "**.*": "bc/toc.yml",
         "admin/**.*": "bc/toc.yml",

@@ -2,7 +2,7 @@
 title: "Export, import, or remove a model-driven app | MicrosoftDocs"
 description: "Learn you can export, import, or remove a model-driven app"
 keywords: 
-ms.date: 04/09/2018
+ms.date: 02/20/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -54,14 +54,16 @@ When you receive the solution zip file which contains the app that you want to i
 Remove apps that are obsolete in your organization.
 
 1. In your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, go to **Settings** > **Customizations** > **Customize the system**.
-2. In the solution window, under **Components**, select **Apps**.
+2. In the solution window, under **Components**, select **Model-driven Apps**.
 3. Select the app that you want to delete, and then select **Delete** on the command bar.
 
-    ![Delete an app](media/app-module-solution-window.png "Delete an app")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/app-module-solution-window.png "Delete an app")
+
 
 4. In the confirmation message that appears, select **Delete**.
 
-   The app is deleted from your organization.
+   The app is deleted from your instance.
   
 If the component has dependencies (such as relationships), you must remove the dependencies before you can delete the app. To see the dependencies of an app, select the app, and then select **Show Dependencies** on the command bar.
 
