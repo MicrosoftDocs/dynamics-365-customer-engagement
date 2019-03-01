@@ -420,6 +420,8 @@
       href: walkthrough-create-uii-windows-forms-hosted-control.md
     - name: 'Walkthrough: Create a UII WPF Hosted Control'
       href: walkthrough-create-uii-wpf-hosted-control.md
+  - name: Integrate channel provider using Channel Integration Framework
+    href: integrate-channel-provider-channel-integration-framework.md    
   - name: Integrate with CTI systems using CTI adapters
     href: integrate-cti-systems-cti-adapters.md
     items:
@@ -493,6 +495,8 @@
     href: crm-dialog-hosted-control.md
   - name: CRM Page (Hosted Control)
     href: crm-page-hosted-control.md
+  - name: Channel Integration Framework (Hosted Control)
+    href: channel-integration-framework-hosted-control.md
   - name: CTI Desktop Manager (Hosted Control)
     href: cti-desktop-manager-hosted-control.md
   - name: Debugger (Hosted Control)
