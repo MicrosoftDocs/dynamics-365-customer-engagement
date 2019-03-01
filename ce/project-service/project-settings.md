@@ -59,8 +59,6 @@ The term *resource role* refers to the set of skills, competencies, and certific
 
 Every organization must set up these roles on the **Active Resource Categories** page. To open this page, in the left navigation pane, select **Resource Roles**.
 
-> ![Active Recource Categories page](media/project-17.png)
-
 ## Price lists
 
 Price lists let you set cost and sales prices for resource roles, expense categories, products, and other elements in an organization. Before you set financial estimates for the work that must be delivered for a project, you should create a backing cost and sales price list. In the parameters section, you should also set up a default cost and sales price list that applies to all projects that are created in the organization. On the **Active Project Parameters** page, make sure that you set up a default cost and sales price list.
