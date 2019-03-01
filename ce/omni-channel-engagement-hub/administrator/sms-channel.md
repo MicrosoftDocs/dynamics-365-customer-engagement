@@ -25,6 +25,8 @@ Agents can view the incoming SMS requests in their dashboard and respond accordi
 
 ## Add SMS support for your organization
 
+To add SMS support for your organization, you must first register with TeleSign and get your customer ID, API key, and purchase a phone number. You can then add SMS support through Omni-channel Engagement Hub.
+
 1. Sign in to Omni-channel Engagement Hub.
 
 2. Go to **Administration** > **Work Streams**.
