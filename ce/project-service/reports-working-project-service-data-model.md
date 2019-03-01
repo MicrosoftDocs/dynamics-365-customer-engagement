@@ -1,12 +1,12 @@
 ---
 title: Working with the Project Service Automation data model
 description: This topic provides information about how to work with the Dynamics 365 for Project Service for Automation data model.
-author: JohnPBurrows
+author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 01/04/2019
+ms.date: 03/01/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -58,7 +58,7 @@ PSA also extends the **Sales Order Line** entity. Among the fields that it adds 
 
 PSA also adds new entities that are designed for project contracts. Here are some examples:
 
-- **Project Contract Line Detail** – This entity contains the line-level details that are rolled up to the contract line amount. These line-level details can be as detailed as line items that are generated from a project schedule at the task level.
+- **Project Contract Line Detail** – This entity contains the line-level details that are rolled up to the contract line amount. These can be as detailed as line items that are generated from a project schedule at the task level.
 - **Contract Line Invoice Schedule** – This entity contains the billing schedule that is generated based on the invoice frequency that is assigned to the contract line.
 - **Contract Milestone** – This entity contains the billing milestones for contract lines that have a fixed-price billing term.
 
@@ -70,7 +70,7 @@ Other entities that PSA adds to contracts are **Project Contract Line Project Pr
 
 The **Projects** entity and its related entities are exclusive to PSA. **Project** is the top-level entity that is used to capture the work and cost side of operations. Here is a list of the related entities:
 
-- **Project team member** – This entity contains details about the bookable resources that are assigned to the project. Those resources can be generic or named bookable resources that are entered by the project manager or generated from the project schedule.
+- **Project team member** – This entity contains details about the bookable resources that are assigned to the project. Those resources can be generic bookable resources, or they can be named bookable resources that are either entered by the project manager or generated from the project schedule.
 - **Project Task** – This entity contains the tasks that make up the project plan or schedule.
 - **Resource Assignment** – This entity contains the task assignment for the bookable resource.
 - **Resource Requirement** – This entity contains the requirements for any generic resource team members.
@@ -85,19 +85,19 @@ Project resources use the **Bookable Resource** entities from Universal Resource
 - **Bookable Resource** – This entity represents the user, contact, generic resource, account, group, or equipment that is used on the project team.
 - **Bookable Resource Characteristics** – This entity includes the skills, certifications, or education of the resource. The characteristics can have rating values that are defined by the rating model.
 - **Bookable Resource Category** – This entity represents the role of the bookable resource.
-- **Bookable resource bookings** – This entity represents the time that is booked on projects for the resource. Each booking has both a header and line entities, and each line has a status that represents the status of the booking.
+- **Bookable resource bookings** – This entity represents the time that is booked on projects for the resource. Each booking has both a header entity and line entities, and each line has a status that represents the status of the booking.
 
 ![Diagram showing bookable resource characteristics relationships](media/PS-Reporting-image5.png "Diagram showing bookable resource characteristics relationships")
 
 ## Reporting on actual transactions
 
-When you approve a timesheet or expense, or invoice a contract in PSA, the business transaction is captured in the **Actual** entity. This entity can serve as the basis for almost all financially related reports in PSA. The **Actual** entity captures the cost and sales transactions for the business event and many relevant attributes.
+When you approve a timesheet or expense, or invoice a contract in PSA, the business transaction is captured in the **Actual** entity. This entity can serve as the basis for almost all finance-related reports in PSA. The **Actual** entity captures the cost and sales transactions for the business event. It also captures many relevant attributes.
 
 When you're working with the **Actual** entity, it's important that you understand what transaction or transactions are recorded in the entity, and when the transactions are recorded. Here is the typical flow when you work with time entries (the flow for expense entries is similar):
 
 1. When the time entry is saved, no records are created in the **Actual** entity.
 2. When the time entry is submitted, no records are created in the **Actual** entity.
-3. When the time entry is approved, one record can be created in the **Actual** entity, and a second record can also be created. The first record stores the cost of the time entry. The second record stores the unbilled sales amount of the time entry. This second record depends on whether a customer is set on the project, or whether a quote or contract line is assigned to it.
+3. When the time entry is approved, one record is be created in the **Actual** entity, and a second record can also be created. The first record stores the cost of the time entry. The second record stores the unbilled sales amount of the time entry. The second record is dependent on the project either having a customer, a quote, or a contract line assigned to it.
 
     | Document date | Transaction type | Transaction class | Customer         | Contract   | Resource     | Resource role | Billing type | Quantity | Unit price | Amount |
     |---------------|------------------|-------------------|------------------|------------|--------------|---------------|--------------|----------|------------|--------|
