@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 03/07/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: C77F80B6-3908-4E49-B55A-85B5C03CBFAE
@@ -28,7 +28,7 @@ The Sitemap displays the following record types:
 
 - **Dashboards**
 
-  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working. There are several dashboards tailored for your role. To see the other dashboards, select the drop-down list next to **My dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **My Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application. The dashboard displays the following forms:
+  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working. There are several dashboards tailored for your role. To see the other dashboards, select the drop-down list next to **Omni-channel agent dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **Omni-channel agent dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application. The dashboard displays the following forms:
 
    - My work items
    - Open work items
@@ -71,13 +71,3 @@ The Sitemap displays the following record types:
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 - [Navigation bar buttons](csh-navigation-bar-buttons.md)
 - [View agent dashboard and agent work items](csh-my-dashboard.md)
-- [View communication panel](csh-conversation-control.md)
-- [Set user presence](csh-set-user-presence-status.md)
-- [View notifications and screen pops](csh-notifications-screen-pops.md)
-- [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
-- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
-- [Take notes specific to conversation](csh-take-notes.md)
-- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
-- [Create a record](csh-create-record.md)
-- [Search and link record to the conversation](csh-search-link-record.md)

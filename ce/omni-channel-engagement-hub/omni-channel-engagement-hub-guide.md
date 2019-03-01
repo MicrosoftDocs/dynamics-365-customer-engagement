@@ -36,6 +36,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 <li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[Omni-channel administrator](administrator/omni-channel-engagement-hub-administrator.md#how-to-topics)">Omni-channel administrator</a></li>
 <li><a href="administrator/unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
+<li><a href="administrator/work-streams-introduction.md" data-raw-source="[Understand and create work streams](administrator/work-streams-introduction.md)">Understand and create work streams</a></li>
 <li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Configure a chat widget](administrator/set-up-chat-widget.md)">Configure a chat widget</a></li>
 </td>
 </tr>

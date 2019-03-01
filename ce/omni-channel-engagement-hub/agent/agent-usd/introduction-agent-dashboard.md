@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 03/07/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 05962e07-2570-44fd-bca6-a894b1e61969
@@ -18,11 +18,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you first sign in to Unified Service Desk, you see the **My Dashboard** page of Omni-channel Engagement Hub. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues and conversations that you've completed during the last 24 hours.
+When you first sign in to Unified Service Desk, you see the **Omni-channel agent dashboard** page of Omni-channel Engagement Hub. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues and conversations that you've completed during the last 24 hours.
 
-The **Home** button on the **Session** tab provides quick navigation to the **My Dashboard** page. When you select this button, the dashboard appears on the **Application Management** tab.
+The **Home** button on the **Session** tab provides quick navigation to the **Omni-channel agent dashboard** page. When you select this button, the dashboard appears on the **Application Management** tab.
 
-The **My Dashboard** page consists of the following stream:
+The **Omni-channel agent dashboard** page consists of the following stream:
 
  - My work items
 
@@ -50,13 +50,4 @@ In the **Closed work items** stream, the stream refreshes and shows you all the 
 
 ## See also
 
-- [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
-- [View notifications and screen pops](notifications-screen-pop.md)
-- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
-- [View communication panel](left-control-panel.md)
-- [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
-- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
-- [Create a record](create-record.md)
-- [Search and link a record](search-link-record.md)

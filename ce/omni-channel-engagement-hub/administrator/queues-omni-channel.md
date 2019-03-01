@@ -19,7 +19,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Omni-channel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS or entity records like Cases or Leads. Agents are added as queue members to the queues and the workload is distributed among these agents.
+Omni-channel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS or Entity records like Cases or Leads. Agents are added as queue members to the queues and the workload is distributed among these agents.
 
 Omni-channel queues are proxies for skills or domains. For example, you can create separate queues for billing issues, investment issues, and so on. When a customer query comes for these issue types, it is routed to its designated queue.
     
@@ -38,7 +38,7 @@ There is a default Omni-channel queue for each organization. Admins can't delete
 
 Follow these steps to create a new Omni-channel queue.
 
-1. In the Omni-channel site map, select **Work Distribution \> Omni-channel Queues**.
+1. In the Omni-channel site map, select **User Management \> Omni-channel Queues**.
 
     The **Active Omni-channel Queue** view is shown.
 
@@ -64,6 +64,6 @@ Follow these steps to create a new Omni-channel queue.
 
 ### See also
 
-[Create and manage work streams](create-work-streams.md)
+[Understand and create work streams](work-streams-introduction.md)
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)

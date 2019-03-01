@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 03/07/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: D25BB656-E29F-4233-B5BB-ADF678CCD7D2
@@ -23,7 +23,7 @@ One of the major challenges that customers face when contacting customer support
 
 Having this information ready when a customer contacts the support agent can reduce the hold time that the agent sends to retrieve the customer information, reduce the average handling time (AHT), and increase customer satisfaction with faster resolution of the issue.
 
-### What is Customer summary?
+## What is Customer summary?
 
 Customer summary is a page where you can get complete information about a customer when you accept an incoming request from any channel. The default Customer summary view provides the following sections:
 
@@ -31,50 +31,57 @@ Customer summary is a page where you can get complete information about a custom
 
  - Conversation summary
 
- - Issue Snapshot
+ - Issue snapshot
 
  - Recent cases
 
- - All activities
+ - Recent activities
 
-![View Customer summary](../../media/csh-cc-customer360.png "View Customer summary") 
+![View Customer summary](../../media/customer-summary.png "View Customer summary") 
 
-#### Customer profile
+## Customer profile
 
 This section provides details about the customer or account such as name, job, title, relationship type, city, category, primary contact for the account, and preferred channel of engagement.
 
-#### Conversation Summary
+> [!div class='mx-imgBorder']
+> ![Customer profile section in the customer summary form](../../media/customer-summary-customer-profile.PNG "Customer profile section in the customer summary form")
 
-This section provides two tabs with details that help you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The Pre-chat tab displays the survey answers against the questions that are requested by your organization, which helps your engagement with the customer. The Visitor Info tab provides some information such as the browser used by the customer for contacting support, an operating system used by the customer, location of the customer, interacting language of the customer, and so on.
+## Conversation summary
 
-#### Issue Snapshot
+This section provides two tabs with details that help you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your engagement with the customer. The **Visitor details** tab provides some information such as the customer is authenticated or not, browser used by the customer for contacting support, an operating system used by the customer, location of the customer, interacting language of the customer, and so on.
 
-For an incoming engagement request, the system links an existing case to engagement and displays it in the Issue Snapshot section. This section displays information such as the title of the case, priority, status, product, and owner.
+> [!div class='mx-imgBorder']
+> ![Conversation summary section in the customer summary form](../../media/customer-summary-conversation-summary.PNG "Conversation summary section in the customer summary form")
 
-#### Recent Cases
+If the customer signs in to the portal to initiate a chat with the support, then as an agent, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
+
+![Authenticated chat shows as Yes in the visitor details tab of Conversation summary](../../media/conversation-summary-authenticated-chat.PNG "Authenticated chat shows as Yes in the visitor details tab of Conversation summary") ![Unauthenticated chat shows as Yes in the visitor details tab of Conversation summary](../../media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shows as Yes in the visitor details tab of Conversation summary")
+
+## Issue snapshot
+
+For an incoming engagement request, the system links an existing case to engagement and displays it in the **Issue snapshot** section. This section displays information such as the title of the case, priority, status, product, and owner.
+
+> [!div class='mx-imgBorder']
+> ![Issue snapshot section in the customer summary form](../../media/customer-summary-issue-snapshot.PNG "Issue snapshot section in the customer summary form")
+
+## Recent cases
 
 This section displays recent cases that relate to the customer.
 
-#### All Activities
+> [!div class='mx-imgBorder']
+> ![Recent cases section in the customer summary form](../../media/customer-summary-recent-cases.PNG "Recent cases section in the customer summary form")
+
+### Recent activities
 
 This section displays case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on Customer activities, Case activities, and Conversation activities.
+
+> [!div class='mx-imgBorder']
+> ![Recent activities section in the customer summary form](../../media/customer-summary-recent-activities.PNG "Recent activities section in the customer summary form")
 
 > [!div class="nextstepaction"]
 > [Next topic: Search for and share knowledge articles](csh-search-knowledge-articles.md)
 
 ## See also
 
-- [Sign in to Dynamics 365 Customer Service Hub app](csh-sign-dynamics-365-customer-service-hub.md)
-- [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
-- [Know the sitemap navigation](csh-sitemap.md)
-- [Navigate using the navigation bar](csh-navigation-bar.md)
-- [Navigation bar buttons](csh-navigation-bar-buttons.md)
-- [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [View communication panel](csh-conversation-control.md)
-- [Set user presence](csh-set-user-presence-status.md)
-- [View notifications and screen pops](csh-notifications-screen-pops.md)
-- [Take notes specific to conversation](csh-take-notes.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
-- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [Create a record](csh-create-record.md)
-- [Search and link record to the conversation](csh-search-link-record.md)
