@@ -12,8 +12,11 @@ ms.topic: article
 ms.assetid: C1EBAEC6-42D4-4D8F-9FFC-89DA2AD50B2B
 ms.custom: 
 ---
-
 # removeContextProvider (Omni-channel Engagement Hub JavaScript API reference)
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[removeContextProvider-description](../includes/removeContextProvider-description.md)]
 

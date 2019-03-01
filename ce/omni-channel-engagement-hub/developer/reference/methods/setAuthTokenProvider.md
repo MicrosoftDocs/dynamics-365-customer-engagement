@@ -12,8 +12,11 @@ ms.topic: article
 ms.assetid: 8CC62024-BBE4-481B-88A8-1DBC8B47F353
 ms.custom: 
 ---
-
 # setAuthTokenProvider (Omni-channel Engagement Hub JavaScript API reference)
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[setAuthTokenProvider-description](../includes/setAuthTokenProvider-description.md)]
 

@@ -14,6 +14,10 @@ manager: shujoshi
 ---
 # Walkthrough: Initiate a chat when user has been waiting for some time
 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Consider the situation that a user on the website of Contoso Ltd. has been waiting for 1 minute, and developer wants to setup a rule that chat widget will programmatically open after a user has been waiting for a certain time, which in our example is 1 minute.
 
 Follow the given steps to programmatically commence a chat after user has been waiting for 1 minute:

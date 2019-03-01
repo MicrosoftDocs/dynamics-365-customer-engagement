@@ -2,7 +2,7 @@
 title: "JavaScript API Reference for Omni-channel Engagement Hub in Dynamics 365 | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 02/26/2019
+ms.date: 03/01/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -13,6 +13,10 @@ ms.author: susikka
 manager: shujoshi
 ---
 # JavaScript API Reference for Omni-channel Engagament Hub in Dynamics 365
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Provides JavaScript methods that you can use to perform various operations with Omni-channel Engagement Hub.
 

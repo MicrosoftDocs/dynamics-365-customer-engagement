@@ -14,6 +14,10 @@ manager: shujoshi
 ---
 # Walkthrough: Send context to Omni-channel Engagement Hub when starting a chat
 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 When a user initiates a chat, developer can pass some context to Omni-channel Engagement Hub, which would help in deciding which agent/queue to route the chat to.
 
 Follow the given steps to send context when starting a chat:

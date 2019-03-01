@@ -14,6 +14,10 @@ manager: shujoshi
 ---
 # Walkthrough: Send authentication token to Omni-channel Engagement Hub when starting a chat
 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 When a user initiates a chat, developer can pass an authentication token to Omni-channel Engagement Hub, which would help in authenticating the user.
 
 Follow the given steps to send context when starting a chat:

@@ -1,1 +1,1 @@
-Get the currently set auth-token provider, if any.
+Get the currently set authentication token provider, if any.

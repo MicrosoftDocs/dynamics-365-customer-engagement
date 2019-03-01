@@ -1,1 +1,1 @@
-Sets the context provider. The context provider function when called will return the context to be used for initializing an Omni-channel session.
+Sets the context provider. The context provider function when called will return the context to be used for initializing an Omni-channel Engagement Hub session.
