@@ -84,9 +84,6 @@
     items:
     - name: Use Multi-Tenant Server-to-server authentication
       href: use-multi-tenant-server-server-authentication.md
-      items:
-      - name: 'Walkthrough: Multi-tenant server-to-server authentication'
-        href: walkthrough-multi-tenant-server-server-authentication.md
     - name: Use Single-Tenant Server-to-server authentication
       href: use-single-tenant-server-server-authentication.md
 - name: Use Dynamics 365 web services
