@@ -95,6 +95,7 @@
 ### [How to]()
 #### [Send context when starting chat](developer/how-to/send-context-starting-chat.md)
 #### [Send authentication token when starting chat](developer/how-to/send-auth-token-starting-chat.md)
+#### [Initiate chat after user has been waiting for some time](developer/how-to/initiate-chat-wait-time.md)
 ### [JavaScript API Reference](developer/omni-channel-reference.md)
 #### [Methods]()
 ##### [getContextProvider](developer/reference/methods/getContextProvider.md)
