@@ -12,7 +12,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# JavaScript API Reference for Omni-channel Engagament Hub in Dynamics 365
+# JavaScript API Reference for Omni-channel Engagament Hub
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
