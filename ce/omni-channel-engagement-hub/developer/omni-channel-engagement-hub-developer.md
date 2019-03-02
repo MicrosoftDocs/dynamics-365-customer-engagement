@@ -22,7 +22,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 > - [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
 
-Omni-channel Engagement Hub provides SDK methods for live chat features that allow you to set, retrieve, and remove context from an omni-channel session, programmatically open an existing chat or create a new chat and set, retrieve and remove authentication token providers.
+Omni-channel Engagement Hub provides SDK methods for live chat features that allow you to:
+- Set context for an omni-channel session.
+- Retrieve and remove context from an omni-channel session.
+- Programmatically open an existing chat.
+- Create a new chat.
+- Set, retrieve, and remove authentication token providers.
 
 ## In this section
 
