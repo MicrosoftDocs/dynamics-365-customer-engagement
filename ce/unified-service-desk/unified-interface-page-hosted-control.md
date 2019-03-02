@@ -176,7 +176,7 @@ This action is used to navigate to a Dynamics 365 for Customer Engagement apps u
 </tr>
 <tr class="odd">
 <td>postdata</td>
-<td>Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In <!-- BEGIN ERROR INCLUDE: Unable to resolve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]: Couldn&#39;t find file ../includes/pn-unified-service-desk.md. -->[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]<!--END ERROR INCLUDE -->, this data can be received from any event triggered using &quot;<a href="http://event/?" class="uri">http://event/?</a>&quot;. Example: [[postdata]+]<br />
+<td>Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In Unified Service Desk, this data can be received from any event triggered using &quot;<a href="http://event/?" class="uri">http://event/?</a>&quot;. Example: [[postdata]+]<br />
 <br />
 Alternatively, the data can be passed as an encoded string with its header type in the intended format.</td>
 </tr>
@@ -184,7 +184,7 @@ Alternatively, the data can be passed as an encoded string with its header type 
 <td>header</td>
 <td>A string value that contains additional HTTP headers to send to the server. When the postdata parameter is used in the Navigate action, you should also specify an appropriate value for the header parameter. Example: Content-Type:application/x-www-form-urlencoded<br />
 <br />
-If a <!-- BEGIN ERROR INCLUDE: Unable to resolve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]: Couldn&#39;t find file ../includes/pn-unified-service-desk.md. -->[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]<!--END ERROR INCLUDE -->POST event triggers the Navigate action, the default value of this parameter should be header=[[header]+]</td>
+If a Unified Service Desk POST event triggers the Navigate action, the default value of this parameter should be header=[[header]+]</td>
 </tr>
 </tbody>
 </table>

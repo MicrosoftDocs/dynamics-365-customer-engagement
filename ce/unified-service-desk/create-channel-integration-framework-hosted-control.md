@@ -33,7 +33,7 @@ monikerRange: '>= dynamics-usd-4'
 
 3. Select the **Unified Service Desk Administrator** app.
 
-4. On the **Active Hosted Controls** page, choose **+ New**.
+4. On the **Active Hosted Control** page, choose **+ New**.
 
 5. One the **New Hosted Controls** page, enter the following details.
 
