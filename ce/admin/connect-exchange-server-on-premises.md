@@ -1,7 +1,7 @@
 ---
 title: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Server (on-premises) | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/30/2018
+ms.date: 03/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -34,7 +34,7 @@ With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you ca
 
 1. **Exchange Server**. The following versions are supported: [!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)] SP3, [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)] SP1, or [!INCLUDE[pn_exchange_server_2016_short](../includes/pn-exchange-server-2016-short.md)].  
 
-2. **Authentication**. During installation, [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] configures [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)]. To connect Customer Engagement apps with [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)], Windows or Basic authentication must be enabled in [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)].  
+2. **Authentication**. During installation, [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] configures [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)]. To connect Customer Engagement apps with [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)], Windows (NTLM) or Basic authentication must be enabled in [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)]. When configuring Windows (NTLM) authentication, make sure Basic authentication is disabled on Exchange server.  
 
      For more information on authentication, see:  
 
