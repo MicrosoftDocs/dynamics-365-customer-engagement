@@ -49,7 +49,7 @@ monikerRange : '>= dynamics-usd-4'
  | User Can Close | Checked |
 
  > [!div class='mx-imgBorder']
- > [Specify name, Channel Integration Framework for Unified Service Desk Component type, Chrome Process as Hosting type, Channel URL and RightPanel for Display Group](media/channel-integration-framework-hosted-control.GIF "Create the hosted control with the specified values")
+ > ![Specify name, Channel Integration Framework for Unified Service Desk Component type, Chrome Process as Hosting type, Channel URL and RightPanel for Display Group](media/channel-integration-framework-hosted-control.GIF "Create the hosted control with the specified values")
 
 6. Choose **Save** in the bottom right corner to create the hosted control.
 
