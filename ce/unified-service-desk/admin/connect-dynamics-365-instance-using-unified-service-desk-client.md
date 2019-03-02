@@ -64,7 +64,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 ::: moniker range=">=dynamics-usd-4"   
 
-## Single Sign On (SSO) for Unified Service Desk - Preview
+## Single Sign On for Unified Service Desk - Preview
 
 [This section is pre-release documentation of SSO feature and is subject to change.]
 
