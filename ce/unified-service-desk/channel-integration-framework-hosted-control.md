@@ -107,7 +107,7 @@ This action sends the data raised from the client side event to the hosted contr
 |Parameter|Description|  
 |---------------|-----------------|  
 |event| The client side events from where you want to raise the data. |
-|data| The data parameter takes eventData values.<br><br>Pass the data as a string that was received from the event by using replacement parameters. <br>`data = [[data]+]`.<br><br> Supported client-side events are as follows:<br> <ul> <li>[onclicktoact](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onclicktoact)</li> <li>[onmodechanged](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onmodechanged)</li> <li>[onpagenavigate](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onpagenavigate)</li> <li>[onsendkbarticle](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onsendkbarticle)</li> <li>[onsizechanged](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onsizechanged)</li> </ul> See the above mentioned client-side events for the eventData values to pass.|
+|data| The data parameter takes eventData values.<br><br>Pass the data as a string that was received from the event by using replacement parameters. <br>`data = [[data]+]`.<br><br> Supported client-side events are as follows:<br> <ul> <li>[ClickToActEvent](channel-integration-framework-hosted-control.md#clicktoactevent)</li> <li>[SendKbArticleEvent](channel-integration-framework-hosted-control.md#sendkbarticleevent)</li> </ul> See the above mentioned client-side events for the eventData values to pass.|
 
 ### UpdateCifContext
 
@@ -117,6 +117,20 @@ This action sends the data raised from the client side event to the hosted contr
 ## Predefined events
 
 The following events are supported for this type of hosted control.
+
+### ClickToActEvent
+
+The `ClickToActEvent` event invoked when user selects the outbound communication (ClickToAct) field in a form.
+
+You can also write custom controls to raise the Channel Integration ClickToAct window event and pass any eventData as the business requirement.
+
+To learn more, see [onclicktoact](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onclicktoact)
+
+### SendKbArticleEvent
+
+The `SendKbArticleEvent` event is invoked when the user selects the **Send** button in the Knowledge Base control. The eventData are the URL and the title of KB article that you need to pass.
+
+To learn more, see [onsendkbarticle](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onsendkbarticle)
 
 ### CreateRecord
 
@@ -207,7 +221,7 @@ Allows you to search among the records of a particular entity type. This API ope
 
 To learn more, see [renderSearchPage (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/rendersearchpage)
 
-### SearchAndOpenMultipleRecords
+### SearchAndOpenRecords
 
 The method searches for the record from the communication widget during the inbound communication and opens the record.
 
