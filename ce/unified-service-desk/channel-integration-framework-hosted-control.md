@@ -124,9 +124,11 @@ Creates an entity record.
 
 |Parameter|Description|  
 |---------------|-----------------|
-| enitity | The logical name of the entity. |
+| entityLogicalName | The logical name of the entity. |
 | data | String defining the attributes and values for the new entity record. |
 | corrId | <!-- Check with Aniket ---> |
+
+To learn more, see [createRecord (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/createrecord)
 
 ### RetrieveRecord
 
@@ -134,19 +136,61 @@ Retrieves an entity record.
 
 |Parameter|Description|  
 |---------------|-----------------|
-| enitity | The logical name of the entity. |
-| data | String defining the attributes and values for the new entity record. |
-| corrId | <!-- Check with Aniket ---> |
+| entityLogicalName | The entity logical name of the record you want to retrieve. |
+| id | GUID of the entity record you want to retrieve. |
+| options | OData system query options, **$select** and **$expand**, to retrieve your data.<br> <ul> <li>Use the **$select** system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using **$select**, all properties will be returned.</li> <li>Use the <b>$expand</b> system query option to control what data from related entities is returned. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the **$select** system query option in parentheses after the navigation property name. Use this for both *single-valued* and *collection-valued* navigation properties.</li> </ul> <br>You specify the query options starting with `?`. You can also specify multiple query options by using `&` to separate the query options. For example:<br>`?$select=name&amp;$expand=primarycontactid($select=contactid,fullname)` |
+
+To learn more, see [retrieveRecord (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/retrieverecord)
 
 ### UpdateRecord
 
+Updates an entity record.
+
+|Parameter|Description|  
+|---------------|-----------------|
+| entityLogicalName | The entity logical name of the record you want to update.  |
+| id | GUID of the entity record you want to update. |
+| data | String containing `key: value` pairs, where `key` is the property of the entity and `value` is the value of the property you want to update. |
+
+To learn more, see [updateRecord (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/updaterecord)
+
 ### DeleteRecord
+
+Deletes an entity record.
+
+|Parameter|Description|  
+|---------------|-----------------|
+| entityLogicalName | The entity logical name of the record you want to delete.  |
+| data | String defining the attributes and values for the new entity record. |
+| id | GUID of the entity record you want to delete. |
+
+To learn more, see [deleteRecord (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/deleterecord)
 
 ### GetEntityMetadata
 
+Returns the entity metadata for the specified entity.
+
+|Parameter|Description|  
+|---------------|-----------------|
+| entityLogicalName | The entity logical name of entity.  |
+| attributes | The attributes for which you want to get metadata. |
+
+To learn more, see [getEntityMetadata (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/getentitymetadata)
+
 ### GetEnvironment
 
+Gets the current Unified Interface app and page details. The details include appId, pageType, and recordId (If available).
+
+There are no parameters for this event.
+
+To see learn more, see [getEnvironment (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/getenvironment)
+
 ### OpenForm
+
+Opens an entity form or a quick create form.
+
+
+To learn more, see [openForm (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/openform)
 
 ### RenderSearchPage
 
