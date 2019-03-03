@@ -189,12 +189,33 @@ To see learn more, see [getEnvironment (CIF JavaScript API Reference)](/dynamics
 
 Opens an entity form or a quick create form.
 
+|Parameter|Description|  
+|---------------|-----------------|
+| entityFormOptions | Entity form options for opening the form.  |
+| formParameters | A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error.<br><br>For information about passing parameters to a form, see [Set field values using parameters passed to a form](/dynamics365/customer-engagement/developer/set-field-values-using-parameters-passed-form) and [Configure a form to accept custom querystring parameters](/dynamics365/customer-engagement/developer/configure-form-accept-custom-querystring-parameters) |
 
 To learn more, see [openForm (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/openform)
 
 ### RenderSearchPage
 
+Allows you to search among the records of a particular entity type. This API opens the Unified Interface entity page with the search field on it prepopulated with the search string that is passed as a parameter.
+
+|Parameter|Description|  
+|---------------|-----------------|
+| entityFormOptions | The entity logical name of the record you want to query.  |
+| searchString | String to search among the attributes of the entity records. |
+
+To learn more, see [renderSearchPage (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/rendersearchpage)
+
 ### SearchAndOpenMultipleRecords
+
+The method searches for the record from the communication widget during the inbound communication and opens the record.
+
+|Parameter|Description|  
+|---------------|-----------------|
+| entityFormOptions | The entity logical name to search and open. |
+| queryParmeters | OData system query options, **$select** and **$expand**, to retrieve your data.<ul> <li> Use the **$select** system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using **$select**, all properties will be returned.</li> <li>Use the **$expand** system query option to control what data from related entities is returned. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the **$select** system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.</li> </ul>You specify the query options starting with `?`. You can also specify multiple query options by using `&` to separate the query options.<br> For example: `?$select=name&$expand=primarycontactid($select=contactid,fullname) `|
+| searchOnly |Set false to open the record in the Unified Interface page if the search record is a single record. Set false to open search page if the search result has multiple records and auto populate the search page with the tag value mentioned when search field is used in queryParmeters.<br><br>Set true only to get results of the search as a promise result and not open the record or search page. |
 
 ### PageDocumentComplete
 
