@@ -68,55 +68,24 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 [This section is pre-release documentation of SSO feature and is subject to change.]
 
-Single Sign On (SSO) in Unified Service Desk authenticates users to access Microsoft Dynamics 365 for Customer Engagement apps using the Dynamics 365 for Customer Engagement apps credentials with out entering the credentials multiple times.
+Single Sign On (SSO) in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] authenticates users to access Microsoft Dynamics 365 for Customer Engagement apps using the Dynamics 365 for Customer Engagement apps credentials with out entering the credentials multiple times.
 
 ### Understand SSO for Unified Service Desk
 
-While signing in to Unified Service Desk you enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. To avoid entering credentials multiple times, the Single Sign On (SSO) feature is introduced.
+While signing in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you must enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. To avoid entering credentials multiple times, use the Single Sign On (SSO) feature.
 
-To enable the SSO feature, you must configure the **SingleSignOnEnabledBrowsers** UII option and specify the list web browsers for which you want to SSO. You must enter the web browser values as comma separated values (CSV). For example, `Chrome,Edge,IE`. If value field is empty, then the SSO feature is disabled.
+By default, the SSO feature is enabled for the Chrome browser. With SSO, you need to enter the credentails only once while signing into [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and Customer Engagement apps server.
 
-#### SSO supported browsers
+**SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default, **SingleSignOnThreshold** value is 5000 milliseconds. To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
 
-The list of SSO suported browsers are as follows.
+To change the value, configure the **SingleSignOnThreshold** UII option and enter a value in the range **1000** through **60000** milliseconds. If you enter **0** as the value, then the **SingleSignThreshold** is disabled, and you must enter the credentials more than once. If you enter a value more than **60000** milliseconds, then the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] defaults the value to **5** milliseconds.
 
-| Browser           | UII option Value |
-|-------------------|------------------|
-|Microsoft Edge     | Edge             |
-|Google Chrome      | Chrome           |
-|Internet Explorer  | IE               |
-
-> [!Note]
-> For public preview, SSO is supported for Google Chrome web browser.
-
-**SingleSignOnThreshold** is a UII option that indicates the timeout period in seconds for Unified Service Desk to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default, **SingleSignOnThreshold** value is 5 seconds. To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
-
-To change the value, configure the **SingleSignOnThreshold** UII option and enter a value in the range **1-6** seconds. If you enter **0** as the value, then the **SingleSignThreshold** is disabled, and you must enter the credentials more than once. If you enter a value more than **60** seconds, then the Unified Service Desk defaults the value to **5** seconds.
-
-|Value in seconds | Description |
+|Value in milliseconds | Description |
 |-------|------------------------|
-| **5** | Default value |
-| **1-60** | Accepted value range |
+| **5000** | Default value |
+| **1000-60000** | Accepted value range |
 | **0** | **SingleSignOnThreshold** is disabled |
-| **> 60** | Value is defaulted to **5** seconds |
-
-### Enable Single Sign On
-
-To disable the SSO feature, you must the configure the **SingleSignOn** UII option and set it to **False**. If you leave the value bank, then the SSO is still enabled.
-
-To disable the SSO feature, follow the steps:
-
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
-
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
-
-3. Choose **Options**.  
-
-4. On the **Active UII Options** page, select **+ New**.
-
-5. On the new page, enter the <UII option name> for the **SingleSignOnEnabledBrowsers** field and enter the browser name for the **Value** field. If you want SSO support for multiple browsers, enter the value as comma separated values. For example, `Chrome,Edge,IE`.
-
-7. Select **Save**.
+| **> 60000** | Value is defaulted to **5** milliseconds |
 
 ### Change SingleSignOnThreshold value
 
@@ -128,11 +97,30 @@ To disable the SSO feature, follow the steps:
 
 4. On the **Active UII Options** page, select **+ New**.
 
-5. On the new page, enter the **SingleSignOnThreshold** for the **Global Option** field and enter time in seconds for the **Value** field.
+5. On the new page, enter **SingleSignOnThreshold** for the **Global Option** field and enter time in milliseconds for the **Value** field.
 
 7. Select **Save**.
 
-After you set up the above mentioned UII options, the SSO feature is enabled. While signing in to the Unified Service Desk client application, you've to enter the credentials only once.
+After you set up the above mentioned UII options, the SSO feature is enabled. While signing in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, you've to enter the credentials only once.
+
+### Enable/Disable Single Sign On
+
+To disable the SSO feature, you must the configure the **SingleSignOnEnabledBrowsers** UII option and set it to **False**. If you leave the value bank, then the SSO is still enabled.
+Again, when you want to enable the SSO feature, set the value as **Chrome**.
+
+To enable/disable the SSO feature, follow the steps:
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
+
+3. Choose **Options**.  
+
+4. On the **Active UII Options** page, select **+ New**.
+
+5. On the new page, enter **SingleSignOnEnabledBrowsers** for the **Global Option** field and enter **Chrome** for the **Value** field.
+
+7. Select **Save**.
 
 ::: moniker-end
 
