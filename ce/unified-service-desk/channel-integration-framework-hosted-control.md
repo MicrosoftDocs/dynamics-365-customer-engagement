@@ -140,7 +140,7 @@ Creates an entity record.
 |---------------|-----------------|
 | entityLogicalName | The logical name of the entity. |
 | data | String defining the attributes and values for the new entity record. |
-| corrId | <!-- Check with Aniket ---> |
+| corrId |  |
 
 To learn more, see [createRecord (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/createrecord)
 
