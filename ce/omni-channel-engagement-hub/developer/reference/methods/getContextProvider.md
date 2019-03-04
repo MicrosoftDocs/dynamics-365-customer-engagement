@@ -6,7 +6,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 02/27/2019
+ms.date: 03/03/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 1C92A31B-70DF-4CE7-9C7A-BE398F34C6F6
@@ -15,7 +15,7 @@ ms.custom:
 
 # getContextProvider (Omni-channel Engagement Hub JavaScript API reference)
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
