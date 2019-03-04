@@ -23,7 +23,6 @@
 
 ### Work Distribution
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
-
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 
