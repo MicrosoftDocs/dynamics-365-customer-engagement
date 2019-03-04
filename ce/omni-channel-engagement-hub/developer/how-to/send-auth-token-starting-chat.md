@@ -28,6 +28,9 @@ to this:
 
 When a user initiates a chat, you can pass an authentication token to Omni-channel Engagement Hub, which helps authenticate the user.
 
+<!--note from editor:Should the below sentence say "Follow these steps to pass an authentication token:"?    -->
+
+
 Follow these steps to send context when starting a chat:
 
 <!--note from editor: In Step 1, are the "live chat SDK methods" the same thing as the methods under "JavaScript API Reference" in this developer guide? If so, make that connection clear.   -->
