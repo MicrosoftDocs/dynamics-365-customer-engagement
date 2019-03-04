@@ -3,7 +3,7 @@
 ## Get started
 ### [Introduction](introduction-omni-channel.md)
 ### [Pre-requisites and system requirements](system-requirements-omni-channel-engagement-hub.md)
-### [Assign roles and enable users for Omni-channel Engagement Hub](administrator/add-users-assign-roles.md)
+### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 
@@ -12,16 +12,21 @@
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 #### [Deploy Unified Service Desk - Omni-channel Engagement Hub package](administrator/omni-channel-engagement-hub-package.md)
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
-### [Manage users](administrator/users-user-profiles.md)
 
-### Work distribution settings
-#### [Understand and create work streams](administrator/work-streams-introduction.md)
+### Channels
 #### Create a Chat channel
 #### [Create an Entity channel](administrator/create-entity-channel.md)
-#### Create an SMS channel
+
+### User Management
+#### [Work with queues](administrator/queues-omni-channel.md)
+#### [Manage users](administrator/users-user-profiles.md)
+
+### Work Distribution
+#### [Understand and create work streams](administrator/work-streams-introduction.md)
+
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
-#### [Work with queues](administrator/queues-omni-channel.md)
+
 
 ### [Configure a chat channel](administrator/set-up-chat-widget.md)
 #### [Add a chat widget](administrator/add-chat-widget.md)
