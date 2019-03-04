@@ -2,7 +2,7 @@
 title: "Learn about what's new in Microsoft Dynamics 365 for Customer Engagement - Gamification and the issues addressed by the team. | Microsoft Docs"
 description: "Learn about new features, improved capabilities, fixed issues in Dynamics 365 for Customer Engagement - Gamification."
 keywords: what's new, release notes, fixed issues, dynamics 365 gamification
-ms.date: 04/25/2018
+ms.date: 03/05/2019
 ms.service: dynamics-365-sales
 ms.topic: article
 applies_to: 
@@ -10,8 +10,6 @@ applies_to:
 ms.assetid: d94c2bbe-b73d-4369-9100-e5d1a096409a
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
 ms.custom: 
   - dyn365-gamification
 search.audienceType: 

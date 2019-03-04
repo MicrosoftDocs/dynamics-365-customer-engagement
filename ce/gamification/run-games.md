@@ -2,7 +2,7 @@
 title: "Run games in Dynamics 365 for Customer Engagement – Gamification | Microsoft Docs"
 description: "Learn how to set up games in a few steps and how to keep them running smoothly."
 keywords: game, gamification KPI, game setup
-ms.date: 10/27/2017
+ms.date: 03/05/2019
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
 applies_to: 
@@ -10,8 +10,6 @@ applies_to:
 ms.assetid: ec71f8e3-5cc9-4941-8067-5bf8e1081da9
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
 ms.custom: 
   - dyn365-gamification
 search.audienceType: 
@@ -131,7 +129,7 @@ To complete the game setup, click **Start Game** for the dates you defined. You 
 After you activate the game, and before the game start date, you can change KPIs, game awards, and player game quotas, but you can't add new **Percentage of quota** KPIs. On or after the game start date, you can still change the game awards and player game quotas.
 
 > [!NOTE]
-> Add or remove players or fans at any time after you activate a game by choosing **Add or remove players or fans** on the **Games** page, which you'll see after the game is activated. If a player is no longer with the organization, deactivate them from the **Players** page. If you're running a game that uses fantasy teams, you need to first deactivate a player in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] to freeze the points for that player, so teams don't lose points for the current and past game periods.
+> Add or remove players or fans up to 14 days after you activate a game by choosing **Add or remove players or fans** on the **Games** page, which you'll see after the game is activated. If a player is no longer with the organization, deactivate them from the **Players** page. If you're running a game that uses fantasy teams, you need to first deactivate a player in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] to freeze the points for that player, so teams don't lose points for the current and past game periods.
 
  Don't forget to complete the game when you reach the game end date. It's a critical step to be sure prizes get awarded to the players.
 
