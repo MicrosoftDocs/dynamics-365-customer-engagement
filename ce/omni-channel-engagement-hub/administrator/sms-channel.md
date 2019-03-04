@@ -41,9 +41,9 @@ To add SMS support for your organization, you must first register with TeleSign 
 
 6. On the **SMS settings** tab, provide the following information:
 
-    - **Customer ID**: Customer ID generated from the TeleSign account.
+   - **Customer ID**: Customer ID generated from the TeleSign account.
 
-    - **API key**: API key  generated from the TeleSign account.
+   - **API key**: API key  generated from the TeleSign account.
 
 7. Select **Save**.
 
@@ -51,14 +51,14 @@ To add SMS support for your organization, you must first register with TeleSign 
 
 9. On the **New SMS Number** page, provide the following information:
 
-    - **Number**: Phone number purchased from TeleSign.
+   - **Number**: Phone number purchased from TeleSign.
 
-    - **Type**: Select if the number is long code, short code, or toll free.
+   - **Type**: Select if the number is long code, short code, or toll free.
     
-    - **Description**: Optional description for the number.
+   - **Description**: Optional description for the number.
 
-    > [!NOTE]
-    > In this preview, only one phone number is supported per work stream.
+   > [!NOTE]
+   > In this preview, only one phone number is supported per work stream.
 
 10. Select **Save**.
 
