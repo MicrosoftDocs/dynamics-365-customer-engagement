@@ -2,7 +2,7 @@
 title: "Host a communication widget and change its modes | MicrosoftDocs"
 description: "Read how to develop and host a communication widget in Channel Integration Framework (CIF) and change its modes."
 keywords: ""
-ms.date: 02/25/2019
+ms.date: 03/04/2019
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:

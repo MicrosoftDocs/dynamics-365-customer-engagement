@@ -2,7 +2,7 @@
 title: "Getting started with building a simple communication widget | MicrosoftDocs"
 description: "Read how to develop and host a simple communication widget in Channel Integration Framework (CIF)."
 keywords: ""
-ms.date: 02/25/2019
+ms.date: 03/04/2019
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -18,6 +18,33 @@ ms.author: susikka
 manager: shujoshi
 ---
 # Getting started with building a simple communication widget
+
+In this tutorial we will demonstrate how to build a simple *Hello World!* communication widget that can be hosted on Channel Integration Framework(CIF).
+
+## Create a simple *Hello World!* application
+
+1. Open Visual Studio 2017, and click on **File** > **New** > **Project** to create a new project.
+2. Select **ASP.NET Web Application(.NET Framework)** template for your project and add any name to it.<br />
+![Select ASP.NET Web Application(.NET Framework)](media/cif-helloworld-new-project.PNG "Select ASP.NET Web Application(.NET Framework)")<br />
+3. Now select **Empty** template for your application.<br />
+![Select empty template for your application](media/cif-helloworld-select-empty.PNG "Select empty template for your application")<br />
+4. Now we need to add an HTML file to our project. For that, right click on your project in the side panel. Then select **Add** > **New item**.<br />
+![Add an HTML file to project](media/cif-helloworld-html-file.PNG "Add an HTML file to project")<br />
+5. Now copy the following code and add it into your HTML file.
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Dynamics 365 Channel Integration Framework| Simple Hello World widget</title>
+</head>
+<body>
+    <p>Hello World!</p>
+</body>
+</html>
+```
+6. Now run this HTML file using Microsoft Edge or Google Chrome to test and debug.
 
 ## Publish and configure the widget 
 
