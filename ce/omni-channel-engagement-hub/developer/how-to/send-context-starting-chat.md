@@ -24,7 +24,7 @@ Follow these steps to send context when starting a chat:
 
 <!--note from editor: In Step 1, are the "live chat SDK methods" the same thing as the methods under "JavaScript API Reference" in this developer guide? If so, make that connection clear.   -->
 
-1. Listen on the **lcw:ready** event raised by live chat before calling the live chat SDK methods.
+1. Listen on the **lcw:ready** event raised by a live chat before calling the live chat SDK methods.
 2. Once the **lcw:ready** event is raised, register a context provider with live chat using the [setContextProvider](../reference/methods/setContextProvider.md) method.
 
 ## Sample code
