@@ -1,1 +1,1 @@
-This event is invoked when the method is ready to use.
+The event that is invoked when a method is ready to use.
