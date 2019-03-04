@@ -12,7 +12,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# JavaScript API Reference for Omni-channel Engagament Hub
+# JavaScript API Reference for Omni-channel Engagement Hub
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
@@ -22,7 +22,7 @@ Provides JavaScript methods that you can use to perform various operations with 
 
 ## Methods
 
-| Methods | Description |
+| Method | Description |
 |---------|-------------|
 | [getContextProvider](reference/methods/getContextProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getContextProvider-description.md)] |
 | [setContextProvider](reference/methods/setContextProvider.md) | [!INCLUDE[setContextProvider-description](reference/includes/setContextProvider-description.md)] |
