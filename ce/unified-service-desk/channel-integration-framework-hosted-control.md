@@ -69,19 +69,11 @@ Pops up a URL from the hosted control and runs the window navigation rules again
 
 ### RunScript  
 
-This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+This action injects JavaScript into the main frame of the application.
 
 |Parameter|Description|  
 |---------------|-----------------|  
 ||The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|
-
-### RunXrmCommand  
-
-This action is used to inject [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps SDK JavaScript into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps form.  
-
-|Parameter|Description|  
-|---------------|-----------------|  
-||The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|  
 
 ### SetSize  
  
@@ -102,18 +94,23 @@ Enables the user to close the hosted control by clicking the X icon at the top-r
 
 ### RaiseCifClientEvent
 
-This action sends the data raised from the client side event to the hosted control.
+This action sends the data raised from the client-side event to the hosted control.
 
 |Parameter|Description|  
 |---------------|-----------------|  
-|event| The client side events from where you want to raise the data. |
+|event| The client-side events from where you want to raise the data. |
 |data| The data parameter takes eventData values.<br><br>Pass the data as a string that was received from the event by using replacement parameters. <br>`data = [[data]+]`.<br><br> Supported client-side events are as follows:<br> <ul> <li>[ClickToActEvent](channel-integration-framework-hosted-control.md#clicktoactevent)</li> <li>[SendKbArticleEvent](channel-integration-framework-hosted-control.md#sendkbarticleevent)</li> </ul> See the above mentioned client-side events for the eventData values to pass.|
 
 ### UpdateCifContext
 
+This action sends the data from client to channel provider.
 
-
-
+|Parameter|Description|  
+|---------------|-----------------|  
+| corrId |  |
+| action | The parameter to accept or reject the promise object. It takes the value as `accept` or `reject`. |
+| result |  |
+| api |  |
 ## Predefined events
 
 The following events are supported for this type of hosted control.
@@ -230,8 +227,6 @@ The method searches for the record from the communication widget during the inbo
 | entityFormOptions | The entity logical name to search and open. |
 | queryParmeters | OData system query options, **$select** and **$expand**, to retrieve your data.<ul> <li> Use the **$select** system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using **$select**, all properties will be returned.</li> <li>Use the **$expand** system query option to control what data from related entities is returned. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the **$select** system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.</li> </ul>You specify the query options starting with `?`. You can also specify multiple query options by using `&` to separate the query options.<br> For example: `?$select=name&$expand=primarycontactid($select=contactid,fullname) `|
 | searchOnly |Set false to open the record in the Unified Interface page if the search record is a single record. Set false to open search page if the search result has multiple records and auto populate the search page with the tag value mentioned when search field is used in queryParmeters.<br><br>Set true only to get results of the search as a promise result and not open the record or search page. |
-
-### PageDocumentComplete
 
 ## See also
 
