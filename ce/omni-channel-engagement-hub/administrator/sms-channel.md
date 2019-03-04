@@ -57,8 +57,8 @@ To add SMS support for your organization, you must first register with TeleSign 
     
    - **Description**: Optional description for the number.
 
-   > [!NOTE]
-   > In this preview, only one phone number is supported per work stream.
+     > [!NOTE]
+     > In this preview, only one phone number is supported per work stream.
 
 10. Select **Save**.
 
