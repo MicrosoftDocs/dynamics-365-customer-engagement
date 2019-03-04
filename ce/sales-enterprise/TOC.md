@@ -56,7 +56,10 @@
 #### [Track playbook activities](track-playbook-activities.md)
  
 ## [Embedded intelligence](../sales-enterprise/embedded-intelligence.md)
+### [Create custom cards in Relationship assistant](../sales-enterprise/developer/extend-relationship-assistant-card.md)
+#### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/developer/sample-extend-relationship-assistant-card-type.md)
 ### [Administrator guide](../sales-enterprise/configure-enable-embedded-intelligence.md)
+
 ### User guide
 #### [Guide customer communications with relationship assistant](../sales-enterprise/relationship-assistant.md)
 #### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
@@ -77,13 +80,6 @@
 ### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
 ### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
 
-## [Developer Guide](../sales-enterprise/developer/developer-guide.md)
-### [Create custom cards in Relationship assistant](../sales-enterprise/developer/extend-relationship-assistant-card.md)
-#### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/developer/sample-extend-relationship-assistant-card-type.md)
-### [Manual Forecasting reference](../sales-enterprise/developer/reference/ManualForecasting-Reference.md)
-#### [msdyn_ForecastRecalculate](../sales-enterprise/developer/reference/msdyn_ForecastRecalculate.md)
-#### [msdyn_ForecastRecalculateAsync](../sales-enterprise/developer/reference/msdyn_ForecastRecalculateAsync.md)
-#### [msdyn_ForecastRecalculateAll](../sales-enterprise/developer/reference/msdyn_ForecastRecalculateAll.md)
-#### [msdyn_ForecastGenerateHierarchy](../sales-enterprise/developer/reference/msdyn_ForecastGenerateHierarchy.md)
-
 # [Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)
+
+# [Custom actions for Manual forecasting](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
