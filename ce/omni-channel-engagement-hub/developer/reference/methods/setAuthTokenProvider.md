@@ -26,11 +26,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 ## Parameters
 
-<!--note from editor: Use term "authentication-token", normal text, instead of monospace "auth-token"?   -->
+
 
 | Parameter | Type | Description |
 | ---- | ---- | ---- |
-| authTokenProvider | Function | Function that acts as `auth-token` provider |
+| authTokenProvider | Function | Function that acts as an authentication-token provider |
 
 ## Return Value
 
