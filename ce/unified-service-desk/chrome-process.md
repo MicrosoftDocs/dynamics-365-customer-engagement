@@ -30,7 +30,7 @@ monikerRange: '>= dynamics-usd-4'
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Chrome Process browser control hosts your controls in individual Chrome process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Google Chrome, it works in Unified Service Desk. You can select **Chrome Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
+The Chrome Process browser control hosts your controls in individual Chrome process instances and displays them in tabs in the Unified Service Desk client application. The Chrome Process facilitates predictable and secure page rendering. You can select **Chrome Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
 
 The advantages of using the Chrome process hosting method are as follows:
 
@@ -39,7 +39,7 @@ The advantages of using the Chrome process hosting method are as follows:
 - Chrome Process is available on different Windows OS server versions (Client and Server).
 - Chrome, like Microsoft Edge, is a modern browser; modern web apps are highly functional and reliable on these browsers.
 - Easy configurations to host the applications in Unified Service Desk.
-- Google Chrome browser is simple and secure.
+- Chrome Process is simple and secure.
 - Switch easily from one browser to another for your entire organization.
 
 ## Chrome Process settings
@@ -124,7 +124,7 @@ Add a new Global UII option for your organization named **GlobalBrowserMode**. S
 
 ## RunScript action is asynchronous in Chrome Process
 
-The Google Chrome browser supports only the asynchronous operations, and the RunScript action will be asynchronous.
+The Chrome Process supports only the asynchronous operations, and the RunScript action will be asynchronous.
 If your custom code execution is dependent on the return value provided by RunScript action that injects JavaScript into the main frame of the application, then your custom code execution might fail.
 
 For example, Your custom code has a RunScript actions that injects the JavaScript into the main frame of the application followed by an operation or another RunScript action. The RunScript action is invoked and returns a value after the JavaScript injection. If the subsequent operation or another RunScript action executes based on the return value provided by the executed RunScript action, then subsequent operations of your custom code will fail.
@@ -280,7 +280,7 @@ When you want to access and debug all the Chrome Process running in a desktop lo
 
 To provide access to the desktop to connect and debug locally, use the **ChromeRemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `localhost:<\port number>` of the local desktop. You can see all the Chrome Process running in that desktop and then you can debug.
 
-Also, within Unified Service Desk client application, you can debug a Chrome Process by using the keyboard shortcut **F12** to launch the Google Chrome **Developer Tools**. To learn more, see [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md).
+Also, within Unified Service Desk client application, you can debug a Chrome Process by using the keyboard shortcut **F12** to launch the **Developer Tools**. To learn more, see [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md).
 
 ### Add the ChromeRemoteDebuggingPort UII option
 
