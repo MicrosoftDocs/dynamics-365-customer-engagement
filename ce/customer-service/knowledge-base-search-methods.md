@@ -47,7 +47,7 @@ See the following section to learn the types of search mechanisms available:
 
    See [Configure Relevance search](../admin/configure-relevance-search-organization.md) to learn how to configure Relevance search to improve search results and performance.
 
-   To better understand the various searches used in Dynamics 365 for Customer Engagement and how they can be compared, see [Compare Dynamics 365 for Customer Engagement searches](../admin/configure-relevance-search-organization.md#compare-dynamics-365-searches).
+   To better understand the various searches used in Dynamics 365 for Customer Engagement and how they can be compared, see [Compare Dynamics 365 for Customer Engagement searches](../admin/configure-relevance-search-organization.md#compare-dynamics-365-for-customer-engagement-apps-searches).
 
 ## Search the knowledge base
 
