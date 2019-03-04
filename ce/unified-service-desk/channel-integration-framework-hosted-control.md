@@ -99,7 +99,7 @@ This action sends the data raised from the client-side event to the hosted contr
 |Parameter|Description|  
 |---------------|-----------------|  
 |event| The client-side events from where you want to raise the data. |
-|data| The data parameter takes eventData values.<br><br>Pass the data as a string that was received from the event by using replacement parameters. <br>`data = [[data]+]`.<br><br> Supported client-side events are as follows:<br> <ul> <li>[ClickToActEvent](channel-integration-framework-hosted-control.md#clicktoactevent)</li> <li>[SendKbArticleEvent](channel-integration-framework-hosted-control.md#sendkbarticleevent)</li> </ul> See the above mentioned client-side events for the eventData values to pass.|
+|data| The data parameter takes eventData values.<br><br>Pass the data as a string that was received from the event by using replacement parameters. <br>`data = [[data]+]`.<br><br> Supported client-side events are as follows:<br> <ul> <li>[OnClickToAct](unified-interface-page-hosted-control.md#onclicktoact)</li> <li>[SendKbArticleEvent](unified-interface-page-hosted-control.md#onsendkbarticle)</li> </ul>|
 
 ### UpdateCifContext
 

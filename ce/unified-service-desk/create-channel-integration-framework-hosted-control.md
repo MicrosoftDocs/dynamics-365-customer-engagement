@@ -29,7 +29,7 @@ monikerRange: '>= dynamics-usd-4'
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
-2. On the nav bar, choose the down arrow (v) next to Dynamics 365.
+2. On the nav bar, choose the down arrow (v) next to **Dynamics 365**.
 
 3. Select the **Unified Service Desk Administrator** app.
 
