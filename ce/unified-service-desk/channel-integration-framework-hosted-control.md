@@ -107,27 +107,13 @@ This action sends the data from client to channel provider.
 
 |Parameter|Description|  
 |---------------|-----------------|  
-| corrId |  |
+| corrId | The unique identifier should be the same as that of passed in the initial event from channel provider so that the **UpdateCifContext** gets back the result. |
 | action | The parameter to accept or reject the promise object. It takes the value as `accept` or `reject`. |
-| result |  |
-| api |  |
+| result | The data that you want to send from client to channel provider. |
+
 ## Predefined events
 
 The following events are supported for this type of hosted control.
-
-### ClickToActEvent
-
-The `ClickToActEvent` event invoked when user selects the outbound communication (ClickToAct) field in a form.
-
-You can also write custom controls to raise the Channel Integration ClickToAct window event and pass any eventData as the business requirement.
-
-To learn more, see [onclicktoact](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onclicktoact)
-
-### SendKbArticleEvent
-
-The `SendKbArticleEvent` event is invoked when the user selects the **Send** button in the Knowledge Base control. The eventData are the URL and the title of KB article that you need to pass.
-
-To learn more, see [onsendkbarticle](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onsendkbarticle)
 
 ### CreateRecord
 
@@ -135,9 +121,9 @@ Creates an entity record.
 
 |Parameter|Description|  
 |---------------|-----------------|
-| entityLogicalName | The logical name of the entity. |
+| entity | The logical name of the entity. |
 | data | String defining the attributes and values for the new entity record. |
-| corrId |  |
+| corrId | The unique identifier for the raised **CreateRecord** event. |
 
 To learn more, see [createRecord (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/createrecord)
 
@@ -147,8 +133,9 @@ Retrieves an entity record.
 
 |Parameter|Description|  
 |---------------|-----------------|
-| entityLogicalName | The entity logical name of the record you want to retrieve. |
-| id | GUID of the entity record you want to retrieve. |
+| entity | The entity logical name of the record you want to retrieve. |
+| entityId | GUID of the entity record you want to retrieve. |
+| corrId | The unique identifier for the raised **RetrieveRecord** event. |
 | options | OData system query options, **$select** and **$expand**, to retrieve your data.<br> <ul> <li>Use the **$select** system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using **$select**, all properties will be returned.</li> <li>Use the <b>$expand</b> system query option to control what data from related entities is returned. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the **$select** system query option in parentheses after the navigation property name. Use this for both *single-valued* and *collection-valued* navigation properties.</li> </ul> <br>You specify the query options starting with `?`. You can also specify multiple query options by using `&` to separate the query options. For example:<br>`?$select=name&amp;$expand=primarycontactid($select=contactid,fullname)` |
 
 To learn more, see [retrieveRecord (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/retrieverecord)
@@ -159,9 +146,10 @@ Updates an entity record.
 
 |Parameter|Description|  
 |---------------|-----------------|
-| entityLogicalName | The entity logical name of the record you want to update.  |
-| id | GUID of the entity record you want to update. |
+| entity | The entity logical name of the record you want to update.  |
+| entityId | GUID of the entity record you want to update. |
 | data | String containing `key: value` pairs, where `key` is the property of the entity and `value` is the value of the property you want to update. |
+| corrId | The unique identifier for the raised **UpdateRecord** event. |
 
 To learn more, see [updateRecord (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/updaterecord)
 
@@ -171,9 +159,10 @@ Deletes an entity record.
 
 |Parameter|Description|  
 |---------------|-----------------|
-| entityLogicalName | The entity logical name of the record you want to delete.  |
+| entity | The entity logical name of the record you want to delete.  |
 | data | String defining the attributes and values for the new entity record. |
-| id | GUID of the entity record you want to delete. |
+| entityId | GUID of the entity record you want to delete. |
+| corrId | The unique identifier for the raised **DeleteRecord** event. |
 
 To learn more, see [deleteRecord (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/deleterecord)
 
@@ -183,8 +172,9 @@ Returns the entity metadata for the specified entity.
 
 |Parameter|Description|  
 |---------------|-----------------|
-| entityLogicalName | The entity logical name of entity.  |
+| entity | The entity logical name of entity.  |
 | attributes | The attributes for which you want to get metadata. |
+| corrId | The unique identifier for the raised **GetEntityMetadata** event. |
 
 To learn more, see [getEntityMetadata (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/getentitymetadata)
 
@@ -203,7 +193,8 @@ Opens an entity form or a quick create form.
 |Parameter|Description|  
 |---------------|-----------------|
 | entityFormOptions | Entity form options for opening the form.  |
-| formParameters | A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error.<br><br>For information about passing parameters to a form, see [Set field values using parameters passed to a form](/dynamics365/customer-engagement/developer/set-field-values-using-parameters-passed-form) and [Configure a form to accept custom querystring parameters](/dynamics365/customer-engagement/developer/configure-form-accept-custom-querystring-parameters) |
+| entityFormParameters | A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error.<br><br>For information about passing parameters to a form, see [Set field values using parameters passed to a form](/dynamics365/customer-engagement/developer/set-field-values-using-parameters-passed-form) and [Configure a form to accept custom querystring parameters](/dynamics365/customer-engagement/developer/configure-form-accept-custom-querystring-parameters) |
+| corrId | The unique identifier for the raised **OpenForm** event. |
 
 To learn more, see [openForm (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/openform)
 
@@ -213,8 +204,10 @@ Allows you to search among the records of a particular entity type. This API ope
 
 |Parameter|Description|  
 |---------------|-----------------|
-| entityFormOptions | The entity logical name of the record you want to query.  |
+| entity | The entity logical name of the record you want to query.   |
 | searchString | String to search among the attributes of the entity records. |
+| corrId | The unique identifier for the raised **RenderSearchPage** event. |
+
 
 To learn more, see [renderSearchPage (CIF JavaScript API Reference)](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/rendersearchpage)
 
@@ -224,11 +217,13 @@ The method searches for the record from the communication widget during the inbo
 
 |Parameter|Description|  
 |---------------|-----------------|
-| entityFormOptions | The entity logical name to search and open. |
+| entity | The entity logical name to search and open. |
 | queryParmeters | OData system query options, **$select** and **$expand**, to retrieve your data.<ul> <li> Use the **$select** system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using **$select**, all properties will be returned.</li> <li>Use the **$expand** system query option to control what data from related entities is returned. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the **$select** system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.</li> </ul>You specify the query options starting with `?`. You can also specify multiple query options by using `&` to separate the query options.<br> For example: `?$select=name&$expand=primarycontactid($select=contactid,fullname) `|
 | searchOnly |Set false to open the record in the Unified Interface page if the search record is a single record. Set false to open search page if the search result has multiple records and auto populate the search page with the tag value mentioned when search field is used in queryParmeters.<br><br>Set true only to get results of the search as a promise result and not open the record or search page. |
+| corrId | The unique identifier for the raised **SearchAndOpenRecords** event. |
 
 ## See also
 
-
+- [Integrate channel provider using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
+- [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md)
 

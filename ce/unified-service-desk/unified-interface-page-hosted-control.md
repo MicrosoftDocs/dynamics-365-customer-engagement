@@ -351,6 +351,20 @@ Occurs when the page has finished loading. On a Unified Interface Page type of h
 |-----------|------------------------------------------------|
 | url       | The URL of the page that has finished loading. |
 
+### OnClickToAct
+
+The `OnClickToAct` event invoked when user selects the outbound communication (ClickToAct) field in a form.
+
+You can also write custom controls to raise the Channel Integration ClickToAct window event and pass any eventData as the business requirement.
+
+To learn more, see [onclicktoact](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onclicktoact)
+
+### OnSendKbArticle
+
+The `OnSendKbArticle` event is invoked when the user selects the **Send** button in the Knowledge Base control. The eventData are the URL and the title of KB article that you need to pass.
+
+To learn more, see [onsendkbarticle](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onsendkbarticle)
+
 ## See also
 
 [Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/admin/Support-unified-interfaces-apps-usd.md)
