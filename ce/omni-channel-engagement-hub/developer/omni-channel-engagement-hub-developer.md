@@ -38,7 +38,7 @@ Omni-channel Engagement Hub provides SDK methods for live chat features that all
 [Walkthrough: Initiate chat after user has been waiting for some time](how-to/initiate-chat-wait-time.md)<br />
 [JavaScript API reference](omni-channel-reference.md)
 
-## See also
+### See also
 
 [Introduction to Omni-channel Engagement Hub](../introduction-omni-channel.md)<br />
 [Omni-channel Engagement Hub for administrators](../administrator/omni-channel-engagement-hub-administrator.md)<br />
