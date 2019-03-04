@@ -25,7 +25,7 @@ You might want to set up a rule that a chat widget will programmatically open af
 Follow these steps to programmatically start a chat after an user has been waiting for one minute:
 
 1. Listen on the **lcw:ready** event raised by a live chat to start using the live chat SDK methods.
-2. Once the **lcw:ready** event is raised, wait for one minute using the **window.setTimeout()** method, and then call the [startChat](../reference/methods/startChat.md) to open the chat widget.
+2. Once the **lcw:ready** event is raised, wait for one minute using the **window.setTimeout()** method, and then call the [startChat](../reference/methods/startChat.md) method to open the chat widget.
 
 ## Sample code
 
