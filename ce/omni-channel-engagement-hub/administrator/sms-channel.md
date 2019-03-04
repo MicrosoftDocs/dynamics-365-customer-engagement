@@ -19,13 +19,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-SMS channel allows your organization to connect to the customers by using text messages. When you configure an SMS channel, you have a dedicated phone number to which customers can send text messages and connect with an appropriate agent. This provides your customers the flexibility to connect with their mobile devices even if there is no internet connection for connecting to chat channel.
+An SMS channel allows your organization to connect to customers by using text messages. When you configure an SMS channel, you have a dedicated phone number to which customers can send text messages and connect with an appropriate agent. This provides your customers the flexibility to connect to the chat channel with their mobile devices even if there is no internet connection.
 
 Agents can view the incoming SMS requests in their dashboard and respond accordingly.
 
 ## Add SMS support for your organization
 
-To add SMS support for your organization, you must first register with TeleSign and get your customer ID, API key, and purchase a phone number. You can then add SMS support through Omni-channel Engagement Hub.
+To add SMS support for your organization, you must first register with TeleSign and get your customer ID and API key, and purchase a phone number. You can then add SMS support through Omni-channel Engagement Hub.
 
 1. Sign in to Omni-channel Engagement Hub.
 
@@ -35,9 +35,9 @@ To add SMS support for your organization, you must first register with TeleSign 
 
 4. On the **Summary** tab, in the **Stream source** field, select **SMS**.
 
-5. In the **Auto-close after inactivity** field, select a duration of at least 8 hours or more.
+5. In the **Auto-close after inactivity** field, select a duration of at least 8 hours.
 
-    For more information on work stream, see [Create and manage work streams](work-streams-introduction.md#create-a-work-stream).
+    For more information on work streams, see [Create and manage work streams](work-streams-introduction.md#create-a-work-stream).
 
 6. On the **SMS settings** tab, provide the following information:
 
