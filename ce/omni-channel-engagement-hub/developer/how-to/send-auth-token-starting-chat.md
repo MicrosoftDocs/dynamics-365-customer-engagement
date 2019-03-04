@@ -1,4 +1,3 @@
-<!--note from editor:    -->
 ---
 title: "Walkthrough: Send authentication token to Omni-channel when starting a chat | Microsoft Docs"
 description: ""
