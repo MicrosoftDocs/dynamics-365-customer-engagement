@@ -14,7 +14,7 @@ manager: shujoshi
 ---
 # JavaScript API Reference for Omni-channel Engagament Hub
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -39,6 +39,6 @@ Provides JavaScript methods that you can use to perform various operations with 
 | [lcw:ready](reference/events/lcw-ready.md) | [!INCLUDE[lcw-ready-description](reference/includes/lcw-ready-description.md)] |
 | [lcw:error](reference/events/lcw-error.md) | [!INCLUDE[lcw-error-description](reference/includes/lcw-error-description.md)] |
 
-## See also
+### See also
 
 [Omni-channel Engagement Hub for developers](omni-channel-engagement-hub-developer.md)
