@@ -31,6 +31,12 @@ If you are new to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamificatio
 
 The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] are the solution, which is [installed from AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919) and integrated in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)], and [the web portal](https://go.microsoft.com/fwlink/p/?linkid=830344), where all the fun happens.
 
+## Update 2019.1.4
+
+### Resolved issues
+- Improved the reliability of game data synchronizing from the Gamification portal to Dynamics 365 for Customer Engagement.
+- Improved the reliability of points calculation from Dynamics 365 for Customer Engagement to the Gamification portal.
+
 ## Update 2018.4.17 
 
 ### Resolved issues
