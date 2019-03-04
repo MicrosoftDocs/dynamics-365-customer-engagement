@@ -34,7 +34,7 @@ Gilda is resolving an issue where a customer is not able to book a travel packag
 
 Based on configured data input, the Relevance search mechanism filters the cases using key phrases and suggests a list of cases that Gilda can refer. She selects a relevant case and glances through the details. She is able to resolve the customer issue with this suggested case. She can also link the case to the current case for future reference. 
 
-## Create a new similar case suggestion rule
+## Create a new similarity rule to view similar cases
  Set up automatic suggestion of similar cases by creating advanced similarity rules. The rules you create use the Relevance search mechanism.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)
@@ -83,7 +83,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
        |   Item   |                                                                                                                                                                                                                                                                                                                                                                            Description                                                                                                                                                                                                                                                                                                                                                                             |
        |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-       | Criteria |                                                                                                                                      **Exact match**: Only fields from the source entity are matched. **Note:**  By default, not all fields are enabled for exact matching. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a field for exact matching of similar records](#enable-a-field-for-exact-matching-of-similar-cases) <br /><br /> **Text match**:   Text in these fields is used for finding key phrases to match. For example, if you select **Case Title** or **Description**, text in these fields will be matched.                                                                                                                                       |
+       | Criteria |                                                                                                                                      **Exact match**: All fields except  string, memo, and picklist  can be enabled for exact match. </br> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a field for exact matching of similar records](#enable-a-field-for-exact-matching-of-similar-cases) <br /><br /> **Text match**:   Text in these fields is used for finding key phrases to match. For example, if you select **Case Title** or **Description**, text in these fields will be matched.                                                                                                                                       |
        |  Entity (required)  |                                                                                                                                               Choose an entity from the drop-down list to be used to create a text search rule to find matching records in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.                                                                                                                                              |
        | Field (required) | Choose the  field to be used to create a text search rule to find matching target records. <br /><br /> Two types of fields are used for similarity analysis:<br /><br /> **Structured fields**:  Used for exact match on a field to field basis. All fields except Multiple Lines of Text are available for exact match. Each field can be used only once.<br /><br /> **Text fields**: Only fields of type Text or Option Set are available. For Option Set, the  corresponding label in the language of the user is used. Text fields are used for fuzzy match in similarity analysis with keywords/key phrase extraction. Each field can be used only once. |
        |||
@@ -97,19 +97,19 @@ Based on configured data input, the Relevance search mechanism filters the cases
 Similarly, add more mappings to view a comprehensive search of related records.
 
 ### Enable a field for exact matching of similar cases  
- To enable a field for exact match, add the field in the **Quick find view** of the Case entity.  
+ Follow the below steps to enable a field for exact match of similar cases.
 
 1.  Go to **Settings** > **Customizations** > **Customize the System**.  
 
-2.  Expand **Entities**, expand the entity that you want to enable exact matching, Case entity in this scenario, and then select **Views**.  
+2.  Expand **Entities**, go to **Case** entity and then select **Fields**.  
 
-3.  Select **Quick Find Cases**, select **More Actions**, and then select **Edit**.  
+3.  Select a field and select **Edit** to edit the properties. 
 
-4.  Under **Common Tasks**, select **Add Find Columns**, and then select the field that you want to enable for exact matching.  
+4.  In the **Schema** section of the **General** tab, select **Yes** for **Searchable**  in the drop-down list.
 
-5.  Select **OK**, and then select **Save and Close** on the **Quick Find Cases** page.  
+5.  Select **Save**, and then select **Save and Close** to save the setting. Publish this customization to enable exact matching for the field.
 
-As adding a field to a view is a form of customization, you must publish this customization to enable exact matching for the field. To do this, in the left navigation pane select the entity, Case entity in this scenario, and then select **Publish**. To publish all customizations, select **Publish All Customizations**.
+    ![Setting for exact match](media/exact-match.png)
   
 ## See similar case suggestions in the Customer Service Hub
 
