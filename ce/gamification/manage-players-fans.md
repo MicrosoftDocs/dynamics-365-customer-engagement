@@ -37,7 +37,7 @@ After users are imported, an administrator can [change the security role](unders
 
 ## Delete a user from Dynamics 365 for Customer Engagement - Gamification
 
-You can delete users from [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] by deleting their user accounts in the connected organization. If the user is still active in your organization, you can't remove them in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md). 
+You can delete users from [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] by deleting their user accounts in the connected organization. If the user is still active in your organization, you can't remove them in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. 
 
 For step-by-step instructions, see [Delete a user from your organization](https://docs.microsoft.com/office365/admin/add-users/delete-a-user)
 

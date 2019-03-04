@@ -39,7 +39,7 @@ Use [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to visualize and
 
 The previous figure shows how a simple customer journey might look in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. A somewhat more complex example could work like this:
 
-1. A new contact from New York wants to subscribe to your newsletter, and fills out a marketing page on your site. This results in a new contact record in your database.
+1. A new contact from New York wants to subscribe to your newsletter, and fills out a marketing page. This results in a new contact record in your database.
 
 2. You have a dynamic segment that finds all newsletter subscribers from New York, so the new contact automatically joins that list.
 
@@ -86,10 +86,10 @@ Legend:
 1. **Tile type**: Shows what type of tile it is (segment, email, trigger, and so on). The icon and color also indicate this.
 1. **Tile name**: Shows the name assigned to this particular tile.
 1. **Tile status**: Shows key statistics about the tile, such as how many contacts are waiting here or how many messages it has sent so far. The information shown varies by tile type.
-1. **Expand button**: Some types of tiles can include child tiles, which are shown nested below their parent tile. Select the expand button to open or close the child-tile display. Tiles that don't accept child tiles don't show a button here.
-1. **Child tiles**: You can view, select, configure, or remove existing child tiles here when the parent tile is expanded. You can add new child tiles by dragging them here or to the parent tile (this also works when the parent is collapsed).
+1. **Expand button**: Some types of tiles can contain nested tiles. Select the expand button to open or close the nested-tile display. Tiles that don't accept nested tiles don't show a button here.
+1. **Nested tiles**: You can view, select, configure, or remove existing nested tiles here when the container tile is expanded. You can add new nested tiles by dragging them here or to the container tile (this also works when the container is collapsed).
 
-To configure a tile or child tile, select it in the pipeline and then go to the **Properties** tab to the right of the canvas, where you'll find all the settings that apply to the type of tile you've selected.
+To configure a tile or nested tile, select it in the pipeline and then go to the **Properties** tab to the right of the canvas, where you'll find all the settings that apply to the type of tile you've selected.
 
 ### Add tiles by using the command bar and arrow keys
 
@@ -173,7 +173,7 @@ You must set each customer journey to target _either_ contacts _or_ accounts. Us
 
 ### Set the minimum consent level
 
-If data protection is enabled for your site (for example, because you need to comply with the GDPR), then use the **Minimum consent** setting to control the minimum level of consent that each contact must have provided to be included on this journey. The level you choose should depend on the types of operations your journey will execute.
+If data protection is enabled for your instance (for example, because you need to comply with the GDPR), then use the **Minimum consent** setting to control the minimum level of consent that each contact must have provided to be included on this journey. The level you choose should depend on the types of operations your journey will execute.
 
 It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use customer journeys and all other features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
@@ -197,13 +197,13 @@ If you have more than one set of content settings, exactly one of them will be t
 
 Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period. 
 
-All segment membership criteria are re-evaluated at the start of each iteration, so contacts can be added or removed between cycles.
+All segment membership criteria are re-evaluated at the start of each recurrence, so contacts can be added or removed between cycles.
 
 To set up a recurring journey:
 
 1. Open your journey and go to the **General** tab.
 1. Set **Is recurring** to **Yes**. This opens two additional settings here.
-1. Set the **Recurrence interval** to the number of days each iteration should last.
+1. Set the **Recurrence interval** to the number of days each recurrence should last.
 1. Set the **Recurrence count** to the maximum number of recurrences each contact can experience.
 
 > [!NOTE]

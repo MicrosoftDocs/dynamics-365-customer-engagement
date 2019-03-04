@@ -1,6 +1,6 @@
 ---
-title: Create or change a resource group (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
-description: Create or change a resource group in Dynamics 365 for Customer Engagement for Customer Service
+title: Create or change a resource group (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Create or change a resource group in Dynamics 365 for Customer Service
 keywords: Resource group; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 
@@ -24,7 +24,7 @@ search.app:
 
 # Create or change a resource group (Customer Service app)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Use resource groups to group users, facilities, and equipment as part of the selection rules for a service.
 

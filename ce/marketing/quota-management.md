@@ -2,7 +2,7 @@
 title: "Monitor your monthly quotas (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "View your remaining monthly credits for sending marketing email messages and other metered services in Dynamics 365 for Marketing"
 keywords: administration; quota; email
-ms.date: 10/10/2018
+ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -26,27 +26,22 @@ search.app:
   - D365Mktg
 ---
 
-# Other settings
+# Quota limits
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Pages under the **Other settings** heading provide access a few miscellaneous settings that don't fall under any other category.
+[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is a subscription service that is billed monthly and sets organization-level quotas for the maximum number of marketing contact records, Litmus previews, and monthly marketing email messages you can send. Other quotas may also apply. You can always upgrade your subscription if you need higher quotas. The **Quota limits** page shows the total quota levels you have purchased and how much of each quota your organization has already used.
 
-## Quota limits
-
-[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is a subscription service that is billed monthly and sets organization-level quotas for the maximum number of marketable contact records, Litmus previews, and monthly marketing email messages you can send. Other quotas may also apply. You can always upgrade your subscription if you need higher quotas. The **Quota Management** page shows the total quota levels you have purchased and how much of each quota your organization has already used.
-
-To find this information, go to **Settings** > **Advanced Settings** > **Others** > **Quota Limits**. The following quotas are tracked here:
+To find this information, go to **Settings** > **Advanced settings** > **Others** > **Quota limits**. The following quotas are tracked here:
 
 - **Email**: Shows the total number of email messages you can still send this month, and the total number you have sent.
 - **Litmus**: Shows the total number of Litmus email previews (inbox previews) to can still request this month, and the total number you have used. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the advanced inbox preview feature](prepare-marketing-emails.md#inbox-preview)
-- **Contact**: Shows the total number of *marketable contacts* that you can have in your database according to your current [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] subscription, and how many you actually have. Marketing contacts only include those that you engage with marketing activities such as emails, landing pages, forms, LinkedIn integration, events, and surveys. Contacts that you never engage in marketing activities won't be counted as part of your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license. While you're planning your marketing activities, please be sure to purchase enough marketing contacts to remain within your quota.
+- **Contact**: Shows the total number of *marketing contacts* that you can have in your database according to your current [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] subscription. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md) and the [Administration and setup FAQ](setup-troubleshooting.md#licensing)
 
 > [!Note]
 > Quotas and other limits are different based on whether you are running a trial, preview, or subscribed version of the product. 
 >
-> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
+> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 > - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
 > 
 > See also the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
-

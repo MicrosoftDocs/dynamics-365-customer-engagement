@@ -28,7 +28,7 @@ The Web Form Metadata contains additional behavior modification logic to augment
 ## Add a new record
 1. On the Web Form Step that has fields that you would like to modify, select the **Metadata** link in the top navigation.
 
-![Select metadata in Dynamics 365 for Customer Engagement](media/select-metadata-dynamics-365.png Select metadata in Dynamics 365 for Customer Engagement)  
+![Select metadata in Dynamics 365 for Customer Engagement](media/select-metadata-dynamics-365.png "Select metadata in Dynamics 365 for Customer Engagement")  
 2. select **Add New Web Form Metadata**.
 
 ## Web form metadata properties

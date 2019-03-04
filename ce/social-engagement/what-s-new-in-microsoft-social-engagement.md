@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: news, product updates, product improvements, service updates
-ms.date: 12/05/2018
+ms.date: 01/23/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -28,9 +28,31 @@ Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.
 
 If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], see [Get started with Social Engagement](get-started.md).
 
-For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
-
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2019 Update 1.1
+
+### Discontinuation of Microsoft Social Engagement and transition to Dynamics 365 Market Insights
+
+Dynamics 365 will focus on enabling businesses with artificial-intelligence-powered social and web insights rather than just social listening capabilities. Because of this, Microsoft Social Engagement will be discontinued. Combined capabilities and insights through social and web interactions powered by sources such as Bing search will be offered through [Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/en-us/ai/market-insights/). These social and web insights can help marketing, social media, and product teams understand what their customers and competitors are saying, seeking, and feeling. 
+
+More information: 
+- FAQ article - [Frequently asked questions about Microsoft Social Engagement service discontinuation](eol/discontinuation-faq.md)
+- Comparison guide - [Microsoft Social Engagement vs. Dynamics 365 Market Insights](eol/comparison-mse-mi.md).
+- [Help documentation for Dynamics 365 Market Insights](https://docs.microsoft.com/dynamics365/ai/market-insights/help-hub)
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.12
+
+### Introducing new languages
+
+This release introduces new languages for sentiment analysis, search rules, and the user interface. 
+
+The following languages are available in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md) with Update 1.12:
+- Indonesian (Bahasa)
+- Czech
+- Hungarian
+- Hindi
+- Korean
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.11
 
@@ -48,7 +70,7 @@ You can find more information about the new functionality in the [Instagram Acco
 ### Introducing 5 languages for the user interface	
 
 We're introducing the translations for Bosnian, Croatian, Serbian, Slovenian, and Thai across the user interface in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
-For more information about the available languages, see the [Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086).
+For more information about the available languages, see [International availability of Microsoft Dynamics 365](https://go.Microsoft.com/fwlink/p/?LinkID=391086).
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.9
 
@@ -78,7 +100,7 @@ If a user decides to delete their Disqus profile, all related comments and threa
 
 With this release, we're following [!INCLUDE [tn-facebook](../includes/tn-facebook.md)]'s Graph API v3.0 changes from August 1, 2018: [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] stops supporting engagement actions for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles. Interaction tokens for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] users were removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and you won’t be able to add them anymore.
 
-Good to know: This change doesn't affect the way you [work with social profiles](manage-social-profiles.md) for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].You still need to create a **Facebook Acquisition** profile to allow data acquisition from [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages you administer. 
+Good to know: This change doesn't affect the way you [work with social profiles](manage-social-profiles.md) for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You still need to create a **Facebook Acquisition** profile to allow data acquisition from [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages you administer. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.7
 
@@ -128,10 +150,6 @@ All major releases of browsers (Microsoft Edge, Internet Explorer, Firefox, Chro
 |Opera  | equals or higher | 12 | [Release notes](https://blogs.opera.com/security/2016/02/opera-12-and-opera-mail-security-update/) |
 |Android OS Browser |equals or higher |  Android 5.0 (Lollipop) | Compatible by default |
 |Mobile Safari | equals or higher | 5 for iOS 5 or higher| Compatible by default |
-
-#### Related information
-
-[TLS 1.2 support at Microsoft](https://blogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.5
 

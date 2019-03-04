@@ -20,7 +20,7 @@ caps.latest.revision: 9
 topic-status: Drafting
 ---
 
-# Analyze customer-interaction data with Embedded intelligence 
+# Private preview: Analyze customer-interaction data with Embedded intelligence 
 
 Applies to Dynamics 365 for Customer Engagement (online), version 9.1.0<br>
 
@@ -75,7 +75,7 @@ The relationship assistant is constantly at work, keeping an eye on your activit
 <a name="AutoCapture"></a>   
 
 ## Find and track relevant messages from your Exchange server with auto capture  
- [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] can now analyze your email messages directly in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] to find all messages that might be relevant to your work in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md). The system looks for messages to or from relevant email addresses, and presents you with the relevant messages right in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md). With just one click, you can track any of the suggested messages in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md), which makes them available to your sales team and also for use by other Embedded intelligence features.  
+ [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] can now analyze your email messages directly in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] to find all messages that might be relevant to your work in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]. The system looks for messages to or from relevant email addresses, and presents you with the relevant messages right in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]. With just one click, you can track any of the suggested messages in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)], which makes them available to your sales team and also for use by other Embedded intelligence features.  
   
  ![Relationship insights auto capture](media/relationship-insights-auto-capture.png "Relationship insights auto capture")  
   

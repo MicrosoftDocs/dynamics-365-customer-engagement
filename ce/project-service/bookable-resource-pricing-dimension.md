@@ -2,7 +2,7 @@
 title: Use bookable resource as a pricing dimension
 description: This topic provides information about using a bookable resource as a pricing dimension.
 author: Rumant
-manager: eichimur
+manager: kfend
 ms.custom:
   - dyn365-projectservice
 ms.date: 11/06/2018

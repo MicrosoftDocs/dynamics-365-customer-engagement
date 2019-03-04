@@ -60,7 +60,7 @@ To use the document management capabilities of [!INCLUDE[pn-sharepoint-short](..
 3.	Go to **Set up [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration** > **Enable [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration**.
 
     > [!div class=mx-imgBorder]
-    > ![Enable SharePoint integration](media/enable-sharepoint-integration.png Enable SharePoint integration)
+    > ![Enable SharePoint integration](media/enable-sharepoint-integration.png "Enable SharePoint integration")
 
 4.	Select **Enable** in the confirmation window. This will enable the portal to communicate with [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)]. While the [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration is being enabled, the portal restarts and will be unavailable for a few minutes. A message appears when [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration is enabled.
 
@@ -69,12 +69,12 @@ When [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integra
 - **Disable [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration**: Allows you to disable the [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration with your portal. While the [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration is being disabled, the portal restarts and will be unavailable for a few minutes. A message appears when [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration is disabled.
 
     > [!div class=mx-imgBorder]
-    > ![Disable SharePoint integration](media/disable-sharepoint-integration.png Disable SharePoint integration)
+    > ![Disable SharePoint integration](media/disable-sharepoint-integration.png "Disable SharePoint integration")
 
 Enabling or disabling the [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration will update the [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD) application for the portal and add or remove the required [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] permissions, respectively. You will also be redirected to provide your consent for the changes to be made in the [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD application. 
 
 > [!div class=mx-imgBorder]
-> ![Disable SharePoint integration](media/sharepoint-integration-consent.png Disable SharePoint integration)
+> ![Disable SharePoint integration](media/sharepoint-integration-consent.png "Disable SharePoint integration")
 
 If you do not provide your consent:
 
@@ -112,6 +112,9 @@ Apart from the standard configuration required for entity form or web form, you 
 - Select the **Enable Entity Permission** check box on the form to allow a user to read the documents.
 
 - Set the **Mode** to **Edit** to allow document uploads.
+
+> [!NOTE]
+> Document uploading requires the parent entity record to exist. If you set the Mode to Insert, the document upload will not work because the parent entity record is not created until the form is submitted.
 
 ## Step 5: Create appropriate entity permission and assign it to the appropriate web role
 
@@ -157,12 +160,12 @@ This sample provides exact steps and configuration values to enable document man
         c. Open the **Web – Edit Case** in form editor.
 
          > [!div class=mx-imgBorder]
-         > ![Web - Edit Case form](media/web-edit-case-form.png Web - Edit Case form)
+         > ![Web - Edit Case form](media/web-edit-case-form.png "Web - Edit Case form")
     
         d. Select the **Created On** field on the form, and on the **Insert** tab, select **Sub-Grid**.
 
          > [!div class=mx-imgBorder]
-         > ![Add a subgrid to the Web - Edit Case form](media/add-sub-grid.png Add a subgrid to the Web - Edit Case form)
+         > ![Add a subgrid to the Web - Edit Case form](media/add-sub-grid.png "Add a subgrid to the Web - Edit Case form")
     
         e. In the **Set Properties** dialog box, set the following properties, and select **OK**:
 
@@ -175,7 +178,7 @@ This sample provides exact steps and configuration values to enable document man
          - **Default View**: Active Document Locations
 
          > [!div class=mx-imgBorder]
-         > ![Subgrid properties](media/sub-grid-properties.png Subgrid properties)
+         > ![Subgrid properties](media/sub-grid-properties.png "Subgrid properties")
 
         f. In the form editor, select **Save** and then select **Publish**.
 
@@ -196,7 +199,7 @@ This sample provides exact steps and configuration values to enable document man
          - **Entity Permission**: Enabled
     
          > [!div class=mx-imgBorder]
-         > ![Customer Service - Edit Case form](media/customer-service-edit-case-form.png Customer Service - Edit Case form)
+         > ![Customer Service - Edit Case form](media/customer-service-edit-case-form.png "Customer Service - Edit Case form")
     
         d. If you’ve made any changes to the form, select **Save**.
 
@@ -225,17 +228,17 @@ This sample provides exact steps and configuration values to enable document man
     - **Privileges**: Read, Create, Append, Write, Delete
 
       > [!div class=mx-imgBorder]
-      > ![Customer Service entity permission](media/customer-service-entity-permission.png Customer Service entity permission)
+      > ![Customer Service entity permission](media/customer-service-entity-permission.png "Customer Service entity permission")
   
    4. Sign in to Portal to ensure document management is enabled for the Case entity.
 
       a. Go to the **Support** page.
 
       > [!div class=mx-imgBorder]
-      > ![Portal support page](media/portal-support-page.png Portal support page)
+      > ![Portal support page](media/portal-support-page.png "Portal support page")
 
       b. Click on an existing Case record from the list. Go to the **Case Documents** section on the page and see the document list added.
 
       > [!div class=mx-imgBorder]
-      > ![Case document](media/case-document.png Case document)
+      > ![Case document](media/case-document.png "Case document")
 

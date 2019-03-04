@@ -1,7 +1,7 @@
 ---
 title: "Customer-journey tiles (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each tile that is available for assembling a customer journey pipeline for Dynamics 365 for Marketing"
-keywords: "customer journey; tile; reference; pipeline"
+keywords: customer journey; tile; reference; pipeline
 ms.date: 12/06/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -81,7 +81,7 @@ Event tiles provide the following settings in the **Properties** pane while sele
 - **Event**: Identify the event record represented by the tile. Start typing an event name to select an existing event, or click on **New** to create a new one from here.
 - **Description**: Add a description or other notes here (optional).
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management in Dynamics 365](event-management.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management](event-management.md)
 
 ### Survey
 
@@ -94,6 +94,9 @@ Survey tiles provide the following settings in the **Properties** pane while sel
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Survey**: Identify the voice-of-the-customer record represented by the tile.
 - **Description**: Add a description or other notes here (optional).
+
+> [!NOTE]
+> Surveys are optional. If your system admin decided not to include Voice of the Customer as part of your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installation, then the survey tile will be shown as unavailable (greyed out) in your **Toolbox**. Contact your system admin if you want to enable it.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and run online surveys](surveys.md)
 
@@ -118,6 +121,8 @@ Activity tiles provide the following settings in the **Properties** pane while s
 - **Create for each**: If your journey is set to target accounts, then use this setting to choose whether to create and assign an activity for every contact that enters the tile, or for the company (account) they work for. If you create for each account, then you'll only create one activity per account, even if several contacts from that account pass through the tile. This setting only appears when the journey **Target** is set to **Account** (on the **General** tab). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
 - **Assigned To:** Choose which user to assign the activity to (contact owner,contact creator, customer journey owner, or, if you are targeting accounts, the account owner).
 - **Description**: Add a description or other notes here (optional).
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Generate activities from a customer journey](generate-activities-from-customer-journey.md)
 
 ### Launch workflow
 
@@ -241,9 +246,11 @@ Scheduler tiles provide the following settings in the **Properties** pane while 
 - **Restriction Window**: This setting is available for both **Duration** and **Date & Time** schedulers when they are set to **Advanced**. It establishes rules about which day or the week and/or time of day contacts will be released by the scheduler. To open it, click on the **Advanced** link in the **Duration** or **Date & Time** section. Use these settings to restrict the set of week days and/or times when contacts will first be released by the scheduler. This might result in a slightly longer delay. For example, you might set the scheduler to hold contacts for at least 7 days, but then release them on the first Monday, Wednesday, or Friday afternoon after that.
 - **Description**: Add a description or other notes here (optional).
 
+<a name="trigger"></a>
+
 ### Trigger
 
-Trigger tiles hold contacts until some condition is true, or until a defined amount of time expires. The trigger splits the path, so contacts that fulfil the trigger conditions in time will go down the *true* path, but contacts that still haven't met the condition when time is us will go down the *false* path.
+Trigger tiles hold contacts either until some condition is true, or until a defined amount of time expires. The trigger splits the path, so contacts that fulfil the trigger conditions in time will go down the *true* path, but contacts that still haven't met the condition when time is up will go down the *false* path.
 
 A typical use of this is to set up an email tile followed by a trigger tile that holds each contact for 7 days, or until he or she opens the message. As soon as a contact opens the message, the trigger sends that contact down the *true* path, which might include tiles designed for contacts that have shown an interest in your messages. However, if the time limit passes and the contact still has not opened the message, then the trigger will send that contact down the *false* path, which might send the original message again, just to make sure.
 
@@ -259,11 +266,15 @@ Trigger tiles provide the following settings in the **Properties** pane while se
 
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Based on**: Choose whether to trigger based on account or based on contact. *Account-based* triggers treat accounts as a single unit, so they will always send all contacts from the same account down the same path (true or false). *Contact-based* triggers process contacts one at a time, so contacts from the same account are permitted to flow down different paths. This setting only appears when the journey **Target** is set to **Account** (on the **General** tab). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
-
 - **Timeout**: Set the maximum amount of time that the trigger should hold a contact before sending it down the false path, provided the true condition isn't met during that time. Contacts are sent down the true path as soon as the condition is met. Use the field and drop-down list here to establish that amount of time to wait.
-- **Set Rules**: All triggers must have at least one rule, so new ones start with a rule. You can add more rules by clicking on the **+ New** button here. Rules are combined using an AND operator, which means that if you define more than one, then all of the rules must evaluate to true before a contact is sent down the true path.
-- **Rule &lt;n&gt;**: Each rule that you add creates a numbered **Rule** block. Each rule must have a **Source**, which identities the source of a value to test, and a **Condition**, which defines the condition that the found value must fulfil. The **Source** drop-down list shows all the sources that are currently available to the trigger tile; if you don't find a source you are looking for, then you might need to add a tile or nested tile to make that source available.
+- **Set Rules**: All triggers must have at least one rule, so new ones start with a rule. You can add more rules by clicking on the **+ New** button here.
+- **Rule logic** If you have more than one rule, then use this setting to choose an operator for combining the rules. If you choose **And**, then *all* of the rules must evaluate to true before a contact will be sent down the true path. If you choose **Or**, then as soon as *any one* of the rules evaluates true, the contact will sent down the true path.
+- **Rule &lt;n&gt;**: Each rule that you add using the **+ New** button creates a numbered **Rule** block. Each rule must have a **Source**, which identities the source of a value to test, and a **Condition**, which defines the condition that the found value must fulfil. The **Source** drop-down list shows all the sources that are currently available to the trigger tile; if you don't find a source you are looking for, then you might need to add a tile or nested tile to make that source available.
+- **Conditional expression**: This read-only field shows all of the rules you have defined as a single, compact, text-based expression.
 - **Description**: Add a description or other notes here (optional).
+
+> [!NOTE]
+> When you trigger based on email interactions, options include: delivered, opened, hard bounce, soft bounce, click, or specific click. "Click" will react to any link click, but "specific click" requires you to choose a specific link from the message based on its label (the visible link text). If you have more than one link that opens the same URL, then only the first label will be shown here, but the trigger will react if the recipient clicks on any of the links that open that same URL. For more information about the various types of email interactions, see the [Insights glossary](insights-glossary.md).
 
 ### Splitter and splitter-branch tiles
 

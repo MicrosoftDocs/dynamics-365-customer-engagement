@@ -1,5 +1,5 @@
 ---
-title: "Field Service Mobile Setup (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Field Service Mobile Setup (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/29/2018
@@ -30,31 +30,36 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)] (mobile) gives field technicians the information they need to get to a customer location and complete work orders quickly.  
+The [!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)] app gives field technicians the information they need to get to a customer location and complete work orders quickly.  
   
- Before field technicians can use [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator needs to install the mobile solution. 
+ Before field technicians can use the [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] app, a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator needs to install the Field Service Mobile configuration tool and related mobile project. 
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field Service installation (online)](../field-service/install-field-service.md)   
+> [!Note]
+> A new mobile app and mobile project has been released for Field Service v7.5.5 and 8.2+. 
+
+For more information, visit the [Field Service installation (web + mobile)](../field-service/install-field-service.md) page.
   
-<a name="bkmk_install"></a>   
-## Install the mobile app on a phone or tablet  
- [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile) is supported on the following devices:  
+<a name="bkmk_install"></a> 
+
+## Install the mobile app on a phone or tablet    
+
+To get the mobile app, search and download **Field Service Mobile** from the Windows, Apple, or Google Play app stores, or visit the following links. **Field Service Mobile** requires Field Service versions **7.5.5** or **8.2+**.
+
+- [Download for Windows](http://aka.ms/fsmobile-windows)
+- [Download for iOS (Apple)](http://aka.ms/fsmobile-iOS)
+- [Download for Android](http://aka.ms/fsmobile-android)  
   
-- [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)]  
-  
-- iOS 6 +  
-  
-- [!INCLUDE[tn_android](../includes/tn-android.md)] phone  
-  
-  To download the app, search for **field service mobile** in your device's app store.  
-  
-  ![Download the Field Service Mobile app](../field-service/media/field-service-download-mobile-app.png "Download the Field Service Mobile app")  
+  ![Download the Field Service Mobile app](../field-service/media/mobile-field-service-mobile-windows-app-store.png "Download the Field Service Mobile app")  
+
+  > [!Note]
+  > To use Field Service Mobile, the bookable resource (field technician) record must have **Enabled for Field Service Mobile** set to **Yes**.
   
 <a name="bkmk_signin"></a>   
 ## Sign in and sync data
  To sign in, you need your organization's Dynamics 365 for Customer Engagement URL, your user name, and password. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator if you don't have this information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md).  
   
 1. Open the app, and enter your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials. When sign in completes, you'll see the Home screen. 
+  
   
    ![Home screen in the Field Service Mobile app](../field-service/media/field-service-mobile-home-screen.PNG "Home screen in the Field Service Mobile app")  
   
@@ -364,7 +369,11 @@ If work still needs to be done, you can create a follow-up booking.
   
 4. When you’re done, tap **Save**.  
   
+### Next Steps
+- [Enable Bookable Resources for mobile app access](set-up-bookable-resources.md)
  
 ### See also  
- [Dynamics 365 for Customer Engagement for Field Service - User's Guide](../field-service/user-guide.md)   
- [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)
+
+- [Dynamics 365 for Field Service - User's Guide](../field-service/user-guide.md) 
+  
+- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)

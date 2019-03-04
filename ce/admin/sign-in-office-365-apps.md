@@ -104,7 +104,7 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
   
  Your user name depends on whether your organization uses the standard [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] domain (for example, username@contoso.onmicrosoft.com) or you have a custom domain (for example, username@contoso.com).  
   
- [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrators can provide the URL and sign-in information.  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators can provide the URL and sign-in information.  
   
 <a name="BKMK_social"></a>   
 ## Direct sign in to Social Engagement  
@@ -112,11 +112,11 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
   
  https://listening.microsoft.com/app/\<appID>  
   
- This URL, which includes the appID, is sent to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrator in an email invitation.  
+ This URL, which includes the appID, is sent to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator in an email invitation.  
   
  Your user name depends on whether your organization uses the standard [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] domain (for example, username@contoso.onmicrosoft.com) or you have a custom domain (for example, username@contoso.com).  
   
- [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps administrators can provide the URL and sign-in information.  
+ [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators can provide the URL and sign-in information.  
   
 ### See also  
  [Quickly navigate with the Office 365 app launcher and the Dynamics 365 for Customer Engagement apps home page](../admin/quickly-navigate-office-365-app-launcher.md)   

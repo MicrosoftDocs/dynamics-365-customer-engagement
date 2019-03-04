@@ -1,5 +1,6 @@
 ---
-title: "Install the Field Service mobile app solution (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+redirect_url: install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet
+title: "Install the Field Service mobile app solution (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/05/2018
@@ -144,7 +145,7 @@ Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../
    Next, install the app on your mobile device. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field Service Mobile App User’s Guide](../field-service/field-service-mobile-app-user-guide.md)  
   
 ### See also  
- [Overview of Dynamics 365 for Customer Engagement for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
  [Install](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>

@@ -17,7 +17,7 @@ search.app:
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-Opens a search result in the search control by specifying the result number.. 
+Opens a search result in the search control by specifying the result number.
 
 ## Control types supported
 

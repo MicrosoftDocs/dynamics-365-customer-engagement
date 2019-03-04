@@ -1,10 +1,11 @@
-# [Dynamics 365 for Customer Engagement for Customer Service](help-hub.md)
+# [Dynamics 365 for Customer Service](help-hub.md)
 ## [Overview](overview.md)
 ## [What's new](whats-new-customer-service.md)
 ## User Guides
 ### [Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
 #### [Work with cases and manage SLAs](customer-service-hub-user-guide-case-sla.md)
+#### [Search for knowledge articles](search-knowledge-articles-csh.md)
 #### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 #### [Work with interactive dashboards](customer-service-hub-user-guide-dashboard.md)
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
@@ -19,7 +20,7 @@
 #### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
 #### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 
-## [Service Management Guide](service-manager-guide.md)
+## [Service Manager Guide](service-manager-guide.md)
 ### [Create and manage queues](set-up-queues-manage-activities-cases.md)
 ### [Define parent and child case settings](define-settings-parent-child-cases.md)
 ### [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)
@@ -42,7 +43,7 @@
 
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)
 ### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)
-### [Manage security roles in service scheduling](manage-security-roles.md)
+### [Manage security roles](manage-security-roles.md)
 ### Schedule entities
 #### [Create bookable resources](resources-service-scheduling.md)  
 #### [Create and manage resource categories](resource-categories-service-scheduling.md)
@@ -56,8 +57,11 @@
 #### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 #### [Schedule business closure](set-when-business-closed-csh.md)
 ### [Service Scheduling FAQ](service-scheduling-faq.md)
+### Developer Guide
+#### [Migrate Service Activity entity](migrate-service-activity-entity.md)
+#### [Sample: Migrate Service Activity entity using Organization Service](migrate-service-activity-org-service.md)
 
-### Service Scheduling (Legacy Customer Service app)
+### Legacy Service Scheduling (Customer Service app)
 #### [Set up business closure](set-when-business-closed-cs-app.md)
 #### [Set work hours to define availability](set-work-hours-resource.md)
 #### [Create or change a service](create-edit-service-cs-app.md)

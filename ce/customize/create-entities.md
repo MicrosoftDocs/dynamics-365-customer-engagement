@@ -1,8 +1,8 @@
 ---
-title: "Create an entity with Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+title: "Create an entity with Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create an entity"
 ms.custom: 
-ms.date: 11/09/2018
+ms.date: 02/13/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Create an entity
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_CreatingEntities"></a>   
 
@@ -31,6 +31,7 @@ search.app:
 
  Part of the name of any custom entity you create is the customization prefix. This is set based on the solution publisher for the solution you’re working in. If you care about the customization prefix, make sure that you are working in an unmanaged solution or the default solution where the customization prefix is the one you want for this entity. For information about how to change the customization prefix, see [Solution Publisher](../customize/change-solution-publisher-prefix.md#BKMK_SolutionPublisher).  
 
+## Overview for creating an entity
  The minimum required fields to create a custom entity are:  
 
 
@@ -43,7 +44,7 @@ search.app:
 
 > [!NOTE]
 >  - If you are using [!INCLUDE[tn_Safari](../includes/tn-safari.md)] as your browser, you may receive a timeout error when trying to save or publish a new custom entity. If this occurs we recommend you use a different browser to create entities.  
->  - In order for the entity name to work with [Dynamics 365 for Customer Engagement for Customer Service embedded knowledge search](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/set-up-knowledge-management-embedded-knowledge-search), the maximum entity name length including the publisher prefix can’t exceed 24 characters.
+>  - In order for the entity name to work with [Dynamics 365 for Customer Service embedded knowledge search](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/set-up-knowledge-management-embedded-knowledge-search), the maximum entity name length including the publisher prefix can’t exceed 24 characters.
  
 To create an activity entity, select **Define as an activity entity** before you save the entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activity entities](../customize/types-of-entities.md#BKMK_ActivityEntities)  
 
@@ -53,9 +54,22 @@ To create an activity entity, select **Define as an activity entity** before you
 
  Each custom entity has a primary field. This is defined in the **Primary Field** tab. This field is used when records for the entity are displayed in a list. The primary field is typically a link that opens the record. This field must be a **Single Line of Text** field with the format of **Text**. When creating the entity the only value that can’t be changed later is the **Name**. By default the **Display Name** is “Name” and the **Name** is your solution publisher customizations prefix, an underscore, and “name”. If this isn’t what you want, change this before you create the entity. After you save the entity, you can’t edit the primary field values from the Primary Field tab for the entity. You must locate this field in the entity fields. You’ll be able to edit it there like any other single line of text field.  
 
- People with the system administrator or system customizer security roles can see all new custom entities. This allows you to test your custom entities before showing them to people who will use the system. Before people with other security roles can see these entities, you need to edit the security roles and grant access to other users so that they can see them. When the custom entity is created it will be included on the Custom Entities tab for each security role. You must provide at least user-level read access to the custom entity before people will be able to see it in the application.  
+ People with the system administrator or system customizer security roles can see all new custom entities. This allows you to test your custom entities before showing them to people who will use the system. Before people with other security roles can see these entities, you need to edit the security roles and grant access to other users so that they can see them. When the custom entity is created it will be included on the Custom Entities tab for each security role. You must provide at least user-level read access to the custom entity before people will be able to see it in the apps.  
 
  When a new entity is created, a number of metadata and supporting system records are created for it. You continue editing the entity by working with these.  
 
+## Create an entity
+As an app maker or customizer, you can create and edit entities by using solution explorer.
+1. Sign in to your [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps instance. 
+2. Start solution explorer. **Settings** > **Customizations** > **Customize the System**.
+3. In the **Component Type** list, select **New**, and then select **Entity**.
+4. Enter the following required information. For more information about the optional properties available, see [Entity options that can only be enabled](edit-entities.md#entity-options-that-can-only-be-enabled) and [Enable or disable entity options](edit-entities.md#enable-or-disable-entity-options).
+   - **Display Name**. Defines the label displayed in apps for entity references and records created that are based on the entity, such as *Widget*. 
+   - **Plural Name**. This is the label displayed in apps for references to entity records in multiple, such as *Widgets*. 
+   - **Name**. This field is prepopulated based on the **Display Name** you entered and includes the solution publisher customization prefix, such as *new_widget*. You can change the **Display Name** later, but the **Name** can’t be changed after the field is saved. More information: [Change the solution publisher prefix for the default publisher](change-solution-publisher-prefix.md)
+
+
 ### See also
-[Create or edit an entity](create-edit-entities.md)
+[Create and edit fields (attributes)](create-edit-fields.md) <br />
+[Create or edit a main form for an entity](create-edit-main-forms.md) <br />
+[Understand views (lists)](create-edit-views.md)

@@ -2,7 +2,7 @@
 title: "Analyze survey data by using Voice of the Customer | MicrosoftDocs"
 description: "After receiving survey responses, learn how to analyze them and prepare reports."
 keywords: analyze survey responses; survey dashboard
-ms.date: 11/30/2018
+ms.date: 01/23/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -78,6 +78,11 @@ You can also use Advanced Find to create customized queries. For example, you ca
 
 ![Create custom query by using Advanced find](media/advanced-find.png "Create a custom query by using Advanced Find")  
 
+If a file is uploaded in response to the question type **File upload**, you can delete it by selecting **Delete file** on the command bar. The file is deleted from the storage.
+
+> [!div class=mx-imgBorder]
+> ![Delete file](media/delete-file.png "Delete file")  
+
 ## Store responses in a custom field by using response mapping
 
 Voice of the Customer provides some additional fields in the Survey Response entity on the **Measures** tab in the Survey Response form. You can map and store the response to a question in these fields. To map the response to a question to a field, you must select the field from the **Response Mapping** list in the question form (in web client) or **Map response to** list in the **Properties** pane (in Voice of the Customer app) when you create the question.
@@ -120,6 +125,9 @@ You can run the following reports for a survey:
 - **Survey Export**: Displays survey responses in a tabular format.
 
 - **Survey Summary**: Displays a summary of survey responses.
+
+> [!NOTE]
+> The reports are available in English locale only.
 
 To run and export a report:
 

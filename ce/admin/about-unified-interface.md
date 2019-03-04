@@ -123,10 +123,7 @@ We released some capabilities of the legacy web client in the Unified Interface 
 There are certain capabilities that continue to be unavailable in the Unified Interface and we are working to provide these in future releases:
 
 - Audit Trail
--	Creating personal charts
 -	Custom styling of advanced chart properties (excluding colors and basic formatting)
--	Reports entity (experiences to create and manage SSRS reports; excludes Run Report)
--	Third-party search provider (Coveo search)
 -	Composite address control
 -	Letter, Fax, Recurring Appointments
 -	Global notifications
@@ -156,6 +153,11 @@ The following are entities that are currently read-only in Unified Interface:
 - SystemUser
 - Team
 - Template
+- Contract
+- Contract Lines
+- Contract Templates
+- Case Resolution
+- Service
 
 ### See also
 [Overview of building model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)

@@ -41,11 +41,11 @@ For webpages that have page ratings enabled and the developer has applied the co
 
 ### Rating Type
 
-![Rating type](media/rating-type.png Rating type)  
+![Rating type](media/rating-type.png "Rating type")  
 
 ### Vote Type
 
-![Vote type](media/vote-type.png Vote type)  
+![Vote type](media/vote-type.png "Vote type")  
 
 ## Manage ratings in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 

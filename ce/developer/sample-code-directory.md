@@ -128,11 +128,11 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 [Sample: Update a Connection Role (Early Bound)](sample-update-connection-role-early-bound.md)<br />
   
 <a name="BKMK_CRMOutlook"></a>   
-## Dynamics 365 for Customer Engagement for Outlook  
+## Dynamics 365 for Outlook  
 
 
 [Sample: Create and Retrieve Outlook Filters](outlook-client/sample-create-retrieve-outlook-filters.md)<br />
-[Sample: Use Dynamics 365 for Customer Engagement for Outlook methods](outlook-client/sample-outlook-methods.md)<br />
+[Sample: Use Dynamics 365 for Outlook methods](outlook-client/sample-outlook-methods.md)<br />
   
 <a name="BKMK_Currency"></a>   
 ## Currency  
@@ -272,8 +272,8 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 
 
 [Sample: Calculate Price plug-in](sample-calculate-price-plugin.md)<br />
-[Sample: Create a basic plug-in](sample-create-basic-plugin.md)<br />
-[Sample: Web Access from a Sandboxed Plug-in](sample-web-access-sandboxed-plugin.md)<br />
+[Sample: Create a basic plug-in](/powerapps/developer/common-data-service/org-service/samples/basic-followup-plugin)<br />
+[Sample: Web Access from a Sandboxed Plug-in](/powerapps/developer/common-data-service/org-service/samples/web-access-plugin)<br />
   
 <a name="BKMK_ProductCatalog"></a>   
 ## Product catalog  

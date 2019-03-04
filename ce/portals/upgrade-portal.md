@@ -1,7 +1,7 @@
 ---
 title: "Upgrade a Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to upgrade a portal."
-ms.date: 12/03/2018
+ms.date: 01/02/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -64,7 +64,8 @@ To enable a portal for early upgrade:
 
 3.	Under **Portal Details**, select **Enable portal for early upgrade**.
 
-    ![Enable a portal for early upgrade](media/upgrade-portal.png Enable a portal for early upgrade)
+    > [!div class="mx-imgBorder"]
+    > ![Enable a portal for early upgrade](media/upgrade-portal.png "Enable a portal for early upgrade")
 
 > [!NOTE]
 > You can enable or disable a portal for early upgrade anytime. However, a snapshot is taken for all portals marked for early access two days before any release, and any portal marked for early access after that is not guaranteed to get an early upgrade.

@@ -29,7 +29,7 @@ Similar to asynchronous workflows, real-time workflows can be used to model and 
   
 - Defined by using a `Workflow` entity record, similar to an asynchronous workflow.  
   
-- Executes in a stage of the event execution pipeline, similar to synchronous plug-ins. The real-time workflow can execute before (pre-operation), after (post-operation), or during the core operation. A real-time workflow that is executed during the core operation is the implementation of a custom action. Real-time workflows can be ranked within a stage just like you can do with plug-ins. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pipeline Stages](event-execution-pipeline.md#bkmk_PipelineStages)  
+- Executes in a stage of the event execution pipeline, similar to synchronous plug-ins. The real-time workflow can execute before (pre-operation), after (post-operation), or during the core operation. A real-time workflow that is executed during the core operation is the implementation of a custom action. Real-time workflows can be ranked within a stage just like you can do with plug-ins. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)  
   
 - Whether configured to run on-demand or in response to an event, a real-time workflow runs immediately rather than being queued to run at a later time.  
   
@@ -112,5 +112,5 @@ Similar to asynchronous workflows, real-time workflows can be used to model and 
 ### See also  
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)   
  [Create your own actions](create-own-actions.md)   
- [Event Execution Pipeline](event-execution-pipeline.md)   
+ [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)   
  [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md)

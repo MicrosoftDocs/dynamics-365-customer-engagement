@@ -1,8 +1,8 @@
 ---
-title: "Use the default solution to customize with PowerApps | MicrosoftDocs"
+title: "Use the default solution to customize | MicrosoftDocs"
 description: "Learn how to customize the default solution"
 ms.custom: 
-ms.date: 04/24/2018
+ms.date: 01/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,7 +26,7 @@ search.app:
 
 # Use the default solution to customize  
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  When you customize a model-driven app, you may work with the default solution. To open the default solution, open solution explorer.  
   
@@ -45,7 +45,7 @@ search.app:
   
  [!INCLUDE[cc_privacy_crm_customizations](../includes/cc-privacy-crm-customizations.md)]  
   
-### See Also  
+### See also  
  [Customization overview](../customize/overview.md)<br/>
  [Getting started with customization](Getting-started-customization.md)  
  [Privileges required for customization](Privileges-required-customization.md)<br/>

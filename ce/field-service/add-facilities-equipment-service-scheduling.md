@@ -1,6 +1,6 @@
 ---
-title: Add facilities and equipment for service scheduling (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
-description: Know how to add facilities and equipment for service scheduling in Dynamics 365 for Customer Engagement for Customer Service
+title: Add facilities and equipment for service scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to add facilities and equipment for service scheduling in Dynamics 365 for Customer Service
 keywords: Dynamics 365 for Customer Engagement; Customer Service; Service scheduling
 author: anjgupta
 applies_to: 

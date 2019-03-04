@@ -1,6 +1,6 @@
 ---
-title: Service Scheduling Frequently Asked Questions (Dynamics 365 for Customer Engagement for Customer Service) | MicrosoftDocs
-description: See some common questions about service scheduling and setting it up in Dynamics 365 for Customer Engagement for Customer Service
+title: Service Scheduling Frequently Asked Questions (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: See some common questions about service scheduling and setting it up in Dynamics 365 for Customer Service
 keywords: Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS); FAQ
 author: anjgupta
 applies_to: 
@@ -28,7 +28,7 @@ Read this topic to find answers to some common questions regarding Service Sched
 
 ## Do I need Field Service or Project Service license to enable service scheduling for my org?
  
-The new scheduling experience is available to you if you have Dynamics 365 for Customer Engagement for Customer Service Enterprise, Customer Engagement Plan, or Dynamics 365 for Customer Engagement Plan licenses.
+The new scheduling experience is available to you if you have Dynamics 365 for Customer Service Enterprise, Customer Engagement Plan, or Dynamics 365 for Customer Engagement Plan licenses.
 
 ## Is the new scheduling experience automatically available with the next Dynamics 365 for Customer Engagement upgrade?
 
@@ -44,6 +44,9 @@ You can migrate existing service activities by running scripts as shown in [Samp
 
 > [!NOTE]
 > We are working towards an automated migration path in our future release. 
+
+## Is manual selection of resources supported in a service activity in the new scheduling experience?
+While creating a service activity, manual selection of resources is not supported in the new scheduling experience in the Customer Service Hub.
 
 
 ### See also

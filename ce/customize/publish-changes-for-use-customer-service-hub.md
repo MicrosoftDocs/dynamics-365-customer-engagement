@@ -1,8 +1,8 @@
 ---
-title: "Publish changes in PowerApps | MicrosoftDocs"
+title: "Publish changes | MicrosoftDocs"
 description: "Learn how to publish changes made to an app"
 ms.custom: 
-ms.date: 04/16/2018
+ms.date: 01/08/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -25,7 +25,7 @@ search.app:
 ---
 # Publish changes 
 
- [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+ [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
  
  Certain customizations that make changes to the user interface require that they be published before people can use them in the application. 
  
@@ -34,7 +34,7 @@ search.app:
 - In the solution explorer, select **Publish All Customizations**.  
   
 > [!IMPORTANT]
->  Preparing customizations may take some time. If you see a message that the browser page has become unresponsive, wait for the page to become responsive, and don't kill it.  
+>  Preparing customizations may take some time. If you see a message that the browser page has become unresponsive, wait for the page to become responsive, and don't close it.  
 
 ### See also
 

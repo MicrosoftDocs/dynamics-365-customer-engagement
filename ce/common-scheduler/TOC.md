@@ -1,5 +1,9 @@
 # [Overview of Universal Resource Scheduling (URS)](schedule-anything-with-universal-resource-scheduling.md)
+# [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 # [Fulfillment preferences](fulfillment-preferences.md)
+# [Resource crew scheduling](resource-crews.md)
+# [Facility scheduling](facility-scheduling.md)
+# [Resource pools](resource-pools.md)
 # URS extensibility
 ## [Extensibility updates](developer/extensibility-release-notes.md)
 ## Preferred geospatial data provider

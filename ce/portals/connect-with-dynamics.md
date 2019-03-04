@@ -29,7 +29,7 @@ search.app:
 
 A portal connects to a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] online organization using an Azure Active Directory application. The application is created in the same tenant where the portal is provisioned. The application is registered with the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization during the portal provisioning process.
 
-![Connecting a portal with Dynamics 365 for Customer Engagement organization](media/connect-with-dynamics.png Connecting a portal with Dynamics 365 for Customer Engagement organization)
+![Connecting a portal with Dynamics 365 for Customer Engagement organization](media/connect-with-dynamics.png "Connecting a portal with Dynamics 365 for Customer Engagement organization")
 
 Each portal has a separate Azure Active Directory application associated with it, whether it is connected to the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization or not. The default Azure Active Directory authentication provider created for a portal uses the same Azure Active Directory application to authenticate the portal. Authorization is enforced by web roles assigned to the user accessing the portal.
 
@@ -50,14 +50,14 @@ The details of an authentication key is displayed on Portal Admin Center and por
 2. Select the name of the portal key you want to see, and then select **Manage**.
 3. Select **Manage portal authentication key**. The authentication key is displayed along with its expiration date and thumbprint.
 
-   ![Authentication key details in Portal Admin Center](media/manage-auth-key.png Authentication key details in Portal Admin Center)
+   ![Authentication key details in Portal Admin Center](media/manage-auth-key.png "Authentication key details in Portal Admin Center")
 
 **Portal**
 
 1. Sign in to the portal as administrator.
 2. Navigate to the URL <portal_path>/_services/about. The authentication key expiration date is displayed. 
 
-   ![Portal service page](media/portal-services-page.png Portal service page)
+   ![Portal service page](media/portal-services-page.png "Portal service page")
 
 > [!NOTE]
 > To view authentication key information, you must sign in to the portal in the same browser session and you must have all website access permission.
@@ -94,7 +94,7 @@ You will also be notified after the key expires every day until 1 week after key
 
 A message about key expiration is displayed at the top of the page.
 
-![Authentication key notification in Portal Admin Center](media/portal-admin-center-auth-notif.png Authentication key notification in Portal Admin Center)
+![Authentication key notification in Portal Admin Center](media/portal-admin-center-auth-notif.png "Authentication key notification in Portal Admin Center")
 
 **Portal**
 
@@ -103,7 +103,7 @@ When you navigate to the URL <portal_path>/_services/about, a notification about
 > [!NOTE]
 > You must sign in to your portal in the same browser session, and you must be assigned all website access permission.
 
-![Authentication key notification on portal](media/portal-service-page-auth-notif.png Authentication key notification on portal)
+![Authentication key notification on portal](media/portal-service-page-auth-notif.png "Authentication key notification on portal")
 
 ## Renew portal authentication key
 
@@ -116,7 +116,7 @@ You must renew the key every two years to ensure that your portal can connect to
 2. Select the name of the portal you want to update the key, and then select **Manage**.
 3. Select **Manage portal authentication key**. The authentication key is displayed along with its expiration date and thumbprint.
 
-   ![Manage portal authentication key](media/manage-portal-auth-key.png Manage portal authentication key)
+   ![Manage portal authentication key](media/manage-portal-auth-key.png "Manage portal authentication key")
 
 4. Select **Update key**.
 5. Select **Update** in the message. The update process starts, and a message is displayed.
@@ -131,4 +131,4 @@ You must renew the key every two years to ensure that your portal can connect to
 If the key update fails, an error message is displayed along with the following action:
 - **Retry Authentication Key Update**. This action allows you to restart the portal authentication key update process. If the update fails multiple times, contact Microsoft support.
 
-  ![Retry portal authentication key update](media/retry-auth-key-update.png Retry portal authentication key update)
+  ![Retry portal authentication key update](media/retry-auth-key-update.png "Retry portal authentication key update")

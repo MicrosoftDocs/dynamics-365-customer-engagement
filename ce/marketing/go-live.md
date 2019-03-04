@@ -2,7 +2,7 @@
 title: "Publish records with go live and track their status (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Find out which types of records must be published (go live) before you can use them, how to track their go-live status, and how to stop or edit records that are already live in Dynamics 365 for Marketing"
 keywords: publish;live;status;status reason;go live
-ms.date: 08/01/2018
+ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -153,6 +153,7 @@ The **Status reason** indicates the segment's current go-live state and is read-
 | --- | --- | --- |
 | Active | Draft | The segment is new and has never been published. You can edit all settings.<br><br>To publish a draft segment, open it and then choose **Go Live** on the command bar. |
 | Active | Live | The segment is currently live and continuously updating its contacts list. It might be in use for targeting a customer journey.<br><br>The segment can't be edited locally while in this state, but you can stop it at any time by choosing **Stop** on the command bar, then edit and go live again if needed. |
+| Active | Live, editable | The segment is currently live, and can still be used, but you have chosen to edit it locally at the same time.<br><br>Make the required changes and then choose **Save** to update the live segment automatically (after an error check) and return to the active/live state. |
 | Active | Stopped | The segment was once live but is now stopped and can be edited if needed.<br><br>While stopped, you can edit and save the segment without going live. Select **Go live** to republish it. |
 | Inactive | (none) | Segments should never have an inactive status. |
 
@@ -190,25 +191,34 @@ All marketing-page settings are editable when the page has a status reason of Dr
 
 Marketing forms are reusable form elements that you can embed in your marketing pages. They get published to the marketing services, where they are made available to marketing pages running on the portal. The forms can also be embedded onto any web page, such as on your own website, rather than on a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] marketing page.
 
-The publish process for marketing forms is entirely automated, so you don't need to explicitly select buttons to **Go live** or **Edit** a form. As soon as you save a form, it gets published automatically, and each time you open a form, you can start editing it right away.
+You can manually set the **Status** of a draft or stopped marketing form to _active_ or _inactive_ by using the buttons on the command bar (as with most entities). The **Status reason** indicates the page's go-live state and is read-only.
 
-You can deactivate (or reactivate) a marketing form record using buttons on the command line, as with most entities. But be careful—when you deactivate a form, any existing marketing pages that use it will stop working.
+| Status | Status&nbsp;reason | Description |
+| --- | --- | --- |
+| Active | Draft | The form has never been live and can be edited and saved locally without restrictions.<br><br>To publish a draft form, open it and then choose **Go Live** on the command bar. |
+| Active | Live | The form is currently live and available publicly on the internet.<br><br>To stop a live form, open it and then choose **Stop** on the command bar.<br><br>To edit a form page without stopping it, open it and then choose **Edit** on the command bar. |
+| Active | Stopped | The form was once live, and may have already been used, but is now stopped and unavailable publicly on the internet.<br><br>While stopped, you can edit and save the form without going live. Select **Go live** to publish the form again. |
+| Active | Live, editable | The form is currently live, and can still be used, but you have chosen to edit it locally at the same time.<br><br>Make the required changes and then choose **Save** to update the live form automatically (after an error check) and return to the active/live state. |
+| Active | Error | An error occurred while the form was going live. This is usually a temporary issue, so you should wait a short time, then try to go live again. |
+| Inactive | Expired | A user has manually deactivated the form using the **Deactivate** button on the command bar.<br><br>If the form is live, then you must stop it (by choosing **Stop** on the command bar) before you can deactivate it. |
 
-The **Status reason** field for marketing forms doesn't track the publish state; it just mirrors the **Status** itself. All settings are editable at any time.
+All marketing-form settings are editable when the page has a status reason of Draft, Live-editable, or Stopped, but all are locked when Live. No settings become permanent as a result of the record going live once.
+
+<a name="event-entities"></a>
 
 ## Events, session, and tracks go-live operations and status
 
-The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] generates an event portal for that event rather than going live with the event record itself. The generated portal displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the portal, and any changes you make to a published event, and its related published records, will immediately be reflected on the portal too.
+The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] generates an event website for that event rather than going live with the event record itself. The generated website displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the website, and any changes you make to a published event, and its related published records, will immediately be reflected on the website too.
 
-Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event portal shows a schedule of sessions that belong to each event. An event can include both published and unpublished sessions, but only published sessions belonging to published events are shown on the portal.
+Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event website shows a schedule of sessions that belong to each event. An event can include both published and unpublished sessions, but only published sessions belonging to published events are shown on the website.
 
-Event tracks are collections of sessions, usually related by theme or audience. Tracks provide a convenient way for attendees to register for several related sessions at once. Like event sessions, you must publish each track to make it appear on the portal for its related event. An event can include both published and unpublished tracks, but only the published tracks belonging to published events are shown on the portal.
+Event tracks are collections of sessions, usually related by theme or audience. Tracks provide a convenient way for attendees to register for several related sessions at once. Like event sessions, you must publish each track to make it appear on the website for its related event. An event can include both published and unpublished tracks, but only the published tracks belonging to published events are shown on the website.
 
 Event, session, and track entities all have a **Status** field, which works the same way as it does for most entities, but they don't use the **Status reason** field to monitor publish status. Instead, these entities have a **Publish status** field, which is fully editable all the time you work with them. This value is shown as a drop-down list in the upper-right corner when you are editing an event or session record, but is part of the main form for session tracks.
 
 ![The Publish Status menu for events](media/golive-publish-event.png "The Publish Status menu for events")
 
-The default values for **Publish status** are _Draft_, _Ready to publish_, _In progress_, and _Published_. Other than _Published_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Published_, then the event, session, or track details will become available publicly on your portals server. Set the **Publish status** to any value other than _Published_ to hide the event, session, or track on your portal.
+The default values for **Publish status** are _Draft_, _Ready to go live_, _In progress_, _Live_, and _Cancelled_. Other than _Live_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Live_, then the event, session, or track details will become available publicly on your portals server. Set the **Publish status** to any value other than _Live_ to hide the event, session, or track on your portal.
 
 ### See also
 
@@ -219,4 +229,4 @@ The default values for **Publish status** are _Draft_, _Ready to publish_, _In p
 [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)  
 [Design lead-scoring models](score-manage-leads.md)  
-[Set up the event portal](set-up-event-portal.md)
+[Set up the event website](set-up-event-portal.md)

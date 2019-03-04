@@ -2,7 +2,7 @@
 title: "Sample code for softphone integration using Channel Integration Framework (CIF) | Microsoft Docs"
 description: "Learn about sample code for softphone integration using Channel Integration Framework (CIF) with Microsoft Dynamics 365 Unified Interface App."
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 02/12/2019
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -18,12 +18,12 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-## Sample softphone integration using Channel Integration Framework
+# Sample softphone integration using Channel Integration Framework
 
-Go to the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867) to download the sample to integrate a softphone with Dynamics 365 using Channel Integration Framework.
+[Download](https://go.microsoft.com/fwlink/p/?linkid=2025867) the sample to integrate a softphone with Dynamics 365 for Customer Engagement apps using Channel Integration Framework.
 
 > [!NOTE]
-> The sample code does not support Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/)
+> The sample code does not support Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/).
 
 > [!Important]
 > - This sample code currently has limited availability.
@@ -41,11 +41,11 @@ Go to the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linki
 
 1. Open the solution **SampleInteg.sln** using Visual Studio 2017.
 2. In **Solution Explorer**, right-click on the solution and build the complete solution.
-3. In **Solution Explorer**, right-click on the project **SampleInteg**  and select **Publish**
+3. In **Solution Explorer**, right-click on the project **SampleInteg**  and select **Publish**.
 4. Select **Start** to launch the **Publish** wizard.
 5. Choose **App Service** as the publish target.
-6. Select **Create New** and select on **Publish**.
-7. Provide an app name.<br> For example, **SampleInteg**.
+6. Select **Create New**. Then, click on **Publish**.
+7. Provide an app name. For example, **SampleInteg**.
 8. Provide valid subscription, resource group, and hosting plan details.
 9. Select *Create* to create the azure app service, and save the app service URL for future use.<br>For example, `https://sampleinteg.azurewebsites.net`.
 

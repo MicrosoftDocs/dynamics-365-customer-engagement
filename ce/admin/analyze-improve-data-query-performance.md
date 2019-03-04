@@ -1,7 +1,7 @@
 ---
 title: "Analyze and improve data query performance for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 01/23/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,10 +22,12 @@ search.app:
   - Powerplatform
 ---
 # Analyze and improve data query performance
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+Applies to [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)]
 
 You can analyze and optimize query performance using the Data Performance view, which provides an aggregated list of entities with long-running queries. A long running query is defined as a query that takes three seconds or longer to complete. Typical examples of a component that can have a long running query is a plug-in with custom FetchXML or a sub-grid or view. When you optimize an entity that has long-running queries, it could significantly reduce the amount of time the query takes to load. Behind the scenes, optimizations add one or more [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] indexes.  
+
+> [!NOTE]
+>  The Data Performance feature is only available with [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)].  
   
 ## Impact of adding or removing optimizations  
  Optimizations may significantly improve the performance of slow running queries. However, optimizations require storage space. Before you add an optimization carefully consider the entity to be optimized and keep the following best practices in mind.  
@@ -37,9 +39,7 @@ You can analyze and optimize query performance using the Data Performance view, 
 -   Review the impact of adding an optimization and remove optimizations that are not useful. As part of your decision to keep an optimization, you should determine if the performance tradeoff is acceptable.  
   
 -   Depending on the number of tables related to the entity, some entities cannot have more than twenty optimizations.  
-  
-> [!NOTE]
->  The Data Performance feature is available with [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
+
   
 ## Use the All Data Performance Logs view to apply or remove an optimization  
   

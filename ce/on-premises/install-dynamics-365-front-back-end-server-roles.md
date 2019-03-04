@@ -1,5 +1,5 @@
 ---
-title: "Install Microsoft Dynamics 365 for Customer Engagement Front End Server and Back End Server roles | Microsoft Docs"
+title: "Install Microsoft Dynamics 365 Server Front End and Back End server roles | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: crm-2016
@@ -13,12 +13,13 @@ ms.assetid: e113ca28-98da-495a-946d-ab7dee21a25b
 caps.latest.revision: 37
 author: Mattp123
 ms.author: matp
+manager: kvivek
 ---
-# Install Dynamics 365 for Customer Engagement Server Front End Server and Back End Server roles
+# Install Dynamics 365 Server Front End Server and Back End Server roles
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-The following procedure installs [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[Front_End_Server](../includes/front-end-server.md)] and [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles on two separate servers that do not already have [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]  installed. We recommend this configuration instead of a single Full Server deployment because it helps improve security and performance by isolating specific [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] services on each computer. As part of this procedure, the [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] are installed on the server where the [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles are installed, and the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] are installed on the server where the [!INCLUDE[Front_End_Server](../includes/front-end-server.md)] roles are installed. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for Customer Engagement Server roles](microsoft-dynamics-365-server-roles.md)  -->
+The following procedure installs [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[Front_End_Server](../includes/front-end-server.md)] and [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles on two separate servers that do not already have [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]  installed. We recommend this configuration instead of a single Full Server deployment because it helps improve security and performance by isolating specific [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] services on each computer. As part of this procedure, the [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] are installed on the server where the [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles are installed, and the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] are installed on the server where the [!INCLUDE[Front_End_Server](../includes/front-end-server.md)] roles are installed. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Server roles](microsoft-dynamics-365-server-roles.md)  -->
   
  A back-end and front-end deployment configuration requires two separate computers running [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)]. This example uses two computers that are named *CRMbackend* and *CRMfrontend*.  
   
@@ -39,7 +40,7 @@ On the computer named *CRMbackend*, complete the following procedure.
   
 4.  In the folder where the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] files are located, move to the Server\amd64 folder, and then double-click **SetupServer.exe**.  
   
-5.  On the **Welcome to Microsoft Dynamics 365 for Customer Engagement Server Setup** page, we recommend that you select **Get updates for Microsoft Dynamics 365 for Customer Engagement**, to make sure that Setup has the most recent installation files. Select **Next**.  
+5.  On the **Welcome to Microsoft Dynamics 365 Server Setup** page, we recommend that you select **Get updates for Microsoft Dynamics 365 for Customer Engagement**, to make sure that Setup has the most recent installation files. Select **Next**.  
   
 6.  On the **Product Key Information** page, type your product key in the **Product key** boxes, and then select **Next**.  
   
@@ -177,6 +178,6 @@ On the computer named *CRMbackend*, complete the following procedure.
  If you have a Dynamics 365 for Customer Engagement (8.2) deployment, you can import the organization databases into the new deployment. Imported databases will be upgraded during the operation. To import an organization, on the computer named *CRMfrontend* where the [!INCLUDE[pn_Deployment_Administration_Server](../includes/pn-deployment-administration-server.md)] role is installed, run the [Import-CrmOrganization](https://docs.microsoft.com/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command. Alternatively, you can use [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)].  
   
 ## See also  
- [Microsoft Dynamics 365 for Customer Engagement Server installation](microsoft-dynamics-365-server-installation.md)   
+ [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md)   
  [Install Microsoft Dynamics 365 for Customer Engagement Full Server role on a server without Microsoft Dynamics 365 for Customer Engagement installed](install-full-server-role-on-server.md)
 

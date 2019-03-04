@@ -1,8 +1,8 @@
 ---
-title: "Add a payment gateway to your event portal (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Describes how to set up a payment gateway for the event portal, so contacts can pay for a ticket while registering in  Dynamics 365 for Marketing"
+title: "Add a payment gateway to your event website (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "Describes how to set up a payment gateway for the event website, so contacts can pay for a ticket while registering in  Dynamics 365 for Marketing"
 keywords: events; payment
-ms.date: 10/16/2018
+ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -21,19 +21,28 @@ ms.reviewer:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-If you have one or more events where contacts must purchase a pass, then your contacts will probably appreciate being able to pay for their passes online while they are registering for the event on your event portal.
+If you have one or more events where contacts must purchase a pass, then your contacts will probably appreciate being able to pay for their passes online while they are registering for the event on your event website.
 
-To enable online payment, you must make an agreement with a third-party payment provider who can authenticate and capture payment details. Your payment provider will supply you with details about how to implement their system, which you'll usually do by adding code supplied by your provider to a web page running on your event portal. You'll typically also need to tell your provider the URL to request from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to [indicate a successful payment](#pay-confirm).
+To enable online payment, you must make an agreement with a third-party payment provider who can authenticate and capture payment details. Your payment provider will supply you with details about how to implement their system, which you'll usually do by adding code supplied by your provider to a web page running on your event website. You'll typically also need to tell your provider the URL to request from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to indicate a successful payment.
 
-Once your new payment gateway is in place on your event portal, you can configure your various events to use it, or assign it as the default for all new events.
+Once your new payment gateway is in place on your event website, you can configure your various events to use it, or assign it as the default for all new events.
 
-## Add a new payment gateway to your event portal
+The procedure for building and enabling a payment gateway depends on [how you host your event website](set-up-event-portal.md):
 
-To add a new payment page to your event portal:
+- If you are hosting the event website on a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal, then see  [Create a payment gateway when hosting on the Dynamics 365 portal](#portal) for instructions.
+- If you are hosting the event website on an external server, then see [Create a payment gateway when hosting on an external site](#external) for instructions.
+
+<a name="portal"></a>
+
+## Create a payment gateway when hosting on the Dynamics 365 portal
+
+### Add a new payment gateway to your event website
+
+To add a new payment page to your event website:
 
 1. Make an agreement with a third-party payment provider and prepare a web page that provides a payment front end, as described in their documentation.
 
-1. Sign in to [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] and go to the custom app by choosing **Dynamics 365 — custom** from the app selector.  
+1. Sign in to [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] and go to the custom app by choosing **Dynamics 365—custom** from the app selector.  
 
     ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 
@@ -75,33 +84,11 @@ To add a new payment page to your event portal:
     - **Page Template**: Select the page template that you created earlier in this procedure.
     - **Publishing State**: Set to **Published**.
 
-1. **Save** your page. Your new payment gateway is now available to your event portal.
+1. **Save** your page. Your new payment gateway is now available to your event website.
 
 <a name="pay-confirm"></a>
 
-## Receive payment confirmation
-
-When a contact selects the checkout button, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary  event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider. The system then waits for the payment provider to confirm the payment by redirecting the contact to the success URL. When that request is received, the system converts the temporary registration into an actual registration that users can see in the system.
-
-When you sign up with a payment provider, they will ask you for the success URL, which will be embedded into the code they send back to you to include on your payment gateway. The URL you should use looks like this:
-
-`https://<portal-domain>/event/successpayment?id=<Readable_Event_ID>`
-
-Where:
-
-- *&lt;portal-domain&gt;* is the domain of your portal. It usually has the form: `<YourOrganization>.microsoftcrmportals.com`. You can see it by opening your web portal.
-- *&lt;Readable_Event_ID&gt;* is a value that uniquely identifies the event. To find it, open the relevant event record, go to the **General** tab, scroll to the **Website** section, and copy the value shown in the **Readable event ID** field.
-
-However, if you hard code the event ID, as outlined in the previous example, then you'll need a different payment gateway for each event. We recommend that you instead set up a dynamic expression, which you can script as follows in your web template:
-
-`'https://<portal-domain>/event/successpayment?id='{{ request.params['event']}};`
-
-You'll probably need to edit the script returned by your payment provider to correctly create this line of code in your web template.
-
-> [!NOTE]
-> The script example given here for adding the event ID dynamically is specific to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. It won't work on an external website, including if you are using the downloadable AngularJS version of the event portal.
-
-## Set the payment gateway for an event
+### Set the payment gateway for an event
 
 To assign a payment gateway to an event:
 
@@ -117,3 +104,43 @@ To assign a payment gateway to an event:
 
 > [!NOTE]
 > The payment gateway is only displayed for events that have at least one event pass configured for them. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up event passes](set-up-event.md#event-passes)
+
+### Receive payment confirmation
+
+For details about how to develop the system for receiving payment and finalizing registrations, see [Develop a system to finalize event registration](#finalize-registration) later in this topic.
+
+## Create a payment gateway when hosting on an external site
+
+If you are hosting the event website on your own web server, then you must download and customize the event website to include the payment option as needed. Your payment provider will give you the instructions you need to interact with their system.
+
+For more information about how to download the latest version of the event website, customize it, build it, and then deploy it on a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal or external website, see [Build and host a custom event website](developer/event-management-web-application.md).
+
+For details about how to develop the system for receiving payment and finalizing registrations, see [Develop a system to finalize event registration](#finalize-registration) later in this topic.
+
+> [!NOTE]
+> When you are hosting on an external site, the **Payment gateway** and **Allow anonymous registration** settings for the event record have no effect. You can implement these preferences by customizing the site directly.
+
+<a name="finalize-registration"></a>
+
+## Develop a service to finalize event registration
+
+After a contact submits their registration and payment details, the following events occur:
+
+1. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary  event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider and forwards the payment details.
+1. The system waits for the payment provider to confirm payment by calling the *success URL* operated by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. When you sign up with a payment provider, they will usually ask for this success URL and use it in the code they return to you to include on your payment page.
+1. When [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] receives the success-URL request, it finalizes the registration by turning the temporary registration into an actual registration that users can see in the system.
+
+To set up the success URL, you must create a back-end service that is triggered when your payment provider calls that URL. You'll probably need assistance from a developer to create this service. You (or your developer) can use any implementation technology you like to create it.
+
+Your back-end service must authenticate against your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance to enable the service to execute the custom actions needed to finalize the workflow. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
+ [Authenticate to Dynamics 365 for Customer Engagement with the Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/authenticate-web-api)
+
+Depending on your payment provider, your back-end service may also be able to apply additional checks to the transaction. This isn't strictly required to finalize the registration, but it is good practice. If you need additional purchase details to verify the transaction, you can get the data by executing the custom action `msevtmgt_GetPurchaseDetailsAction`. It expects the input parameter `PurchaseId`, which is the ID of the temporary event registration. The output result of this custom action returns the event name, purchase amount, currency name, ISO currency code, and currency symbol.
+
+After your back-end solution has verified payment, it must invoke the `adx_FinalizeExternalRegistrationRequest` custom action against your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance. This custom action requires the following input parameters:
+
+- `PurchaseId`: The ID of the temporary event registration that was generated after the contact submitted their registration and payment details.
+- `ReadableEventId`: A value that uniquely identifies the event. One way that you can see this is by opening the relevant event record, going to the **General** tab and finding the **Readable event ID** field.
+- `UserId`: Identifies the contact who made the purchase. This is the ID for the contact record in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+
+For more information about how to execute custom actions, see [Use Web API actions](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-web-api-actions).

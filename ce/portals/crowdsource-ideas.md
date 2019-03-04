@@ -123,7 +123,7 @@ To get the status reason values:
 While creating a new idea, there might be a scenario where a similar idea already exists in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. As an administrator, you can configure your portal to display a list of similar ideas when a portal user tries to create a new idea. This avoids creation of duplicate ideas in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. To enable a portal to display a list of similar ideas when a new idea is being created, you must create the `Ideas/EnableAutoComplete` site setting and set its value to **True**.
 
 > [!div class=mx-imgBorder]
-> ![Autocomplete ideas](media/idea-autocomplete.png Autocomplete ideas)
+> ![Autocomplete ideas](media/idea-autocomplete.png "Autocomplete ideas")
 
 ## Manage idea comments in Dynamics 365 for Customer Engagement
 

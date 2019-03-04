@@ -2,7 +2,7 @@
 title: "Enable and use Activity Logging (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 ms.custom: 
 description: Learn how to enable auditing to be used for reports in the Office 365 Security Compliance Center.
-ms.date: 06/13/2018
+ms.date: 02/21/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 817fb922-355a-4d5c-9d93-a320be31c276
 caps.latest.revision: 1
 author: jimholtz
@@ -24,11 +23,7 @@ search.app:
 ---
 # Enable and use Activity Logging 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
-> [!IMPORTANT]
-> - This feature currently has limited availability.
-> - We expect some changes to this feature.
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches. This information from Activity Logging can be used when you perform a Data Protection Impact Assessment (DPIA) addressing the use of Office and Dynamics 365 for Customer Engagement.  
 
@@ -44,7 +39,7 @@ Audit logging as described in [Audit data and user activity for security and com
 
 Activity Logging has two significant differences with prior [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] auditing:
 
-1. You can log user and admin activities across Office and Dynamics 365 for Customer Engagement apps apps.
+1. You can log user and admin activities across Office and Dynamics 365 for Customer Engagement apps.
 
    ![Activities across apps](media/activities-across-apps.png "Activities across apps")
 
@@ -123,7 +118,7 @@ Schemas define which Dynamics 365 for Customer Engagement apps fields are sent t
 |ClientIP     |Edm.String         |No         |IP Address of the user or corporate gateway          |
 |CorrelationId     |Edm.Guid         |No         |A unique value used to associate related rows (e.g., when a large row is split)          |
 |CreationTime     |Edm.Date         |No         |Date and time of when the log was generated in UTC          |
-|Operation     |Edm.Date         |No         |Name of the message called in Dynamics 365 for Customer Engagement apps apps SDK          |
+|Operation     |Edm.Date         |No         |Name of the message called in Dynamics 365 for Customer Engagement apps SDK          |
 |UserKey     |Edm.String         |No         |Unique Identifier of the User in AAD. AKA User PUID          |
 |UserType     |Self.UserType         |No         |The Office 365 audit type (Admin, Regular, System)          |
 |User     |Edm.String        |No         |UPN of the user          |
@@ -138,7 +133,7 @@ The Dynamics 365 for Customer Engagement apps schema contains fields specific to
 |Instance Url     |Edm.String         |No         |URL to the instance          |
 |Item Url     |Edm.String         |No         |URL to the record emitting the log          |
 |Item Type     |Edm.String         |No         |Name of the entity          |
-|Message     |Edm.String         |No         |Name of the message called in Dynamics 365 for Customer Engagement apps apps SDK          |
+|Message     |Edm.String         |No         |Name of the message called in Dynamics 365 for Customer Engagement apps SDK          |
 |User Agent     |Edm.String         |No         |Unique identifier of the user GUID in the Dynamics 365 for Customer Engagement apps organization          |
 |EntityId     |Edm.Guid        |No         |Unique identifier of the entity          |
 |EntityName     |Edm.String         |No         |Name of the entity in the Dynamics 365 for Customer Engagement apps organization          |

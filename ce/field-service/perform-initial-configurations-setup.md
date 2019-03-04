@@ -1,5 +1,5 @@
 ---
-title: "Perform initial configurations (Dynamics 365 for Customer Engagement for Field Service) | MicrosoftDocs"
+title: "Perform initial configurations (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 10/31/2018
 ms.reviewer: 
@@ -27,7 +27,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-After installing Dynamics 365 for Customer Engagement for Field Service, there are a few important initial configurations, whether you're using the application for learning, development, testing, demonstrations, or live usage.
+After installing Dynamics 365 for Field Service, there are a few important initial configurations, whether you're using the application for learning, development, testing, demonstrations, or live usage.
 
 Estimated Duration: 10 minutes
 
@@ -89,6 +89,11 @@ The API key will populate automatically and use the Bing Maps API.
 > ![Screenshot of setting COnnect to Maps to yes](media/Perform-Initial-Configurations-image7.png)  
 
 Save and close.
+
+To enable maps for the work order form, go to the topic on [managing Bing Maps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-bing-maps-organization) for details.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of work order map](media/work-order-map.png) 
 
 Later in this topic, we'll test geocoding and location services to make sure they're working properly.
 
@@ -166,17 +171,14 @@ If you don't want the system to auto geocode addresses, select the geocode butto
 
 There are a few mobile application configurations worth considering that field technicians will use to carry out work orders.
 
-The following steps in this section require that you have the mobile solution (Resco Woodford) installed, along with the imported mobile project. [Instructions can be found here](./install-field-service.md).  
+The following steps in this section require that you have the mobile configuration tool (Resco Woodford solution) installed, along with the imported mobile project. [Instructions can be found here](./install-field-service.md).  
 
 In a **non-private Internet Explorer browser**, log into your Dynamics 365 for Customer Engagement organization as a system administrator and navigate to **Settings > Woodford > MobileCRM Woodford**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of opening Internet Explorer from Edge](media/Perform-Initial-Configurations-image18.png)  
 
->[!Note]
->**Pro Tip:** Alternatively, instead of Internet Explorer, you can download the Resco Woodford standalone application. Just once, in a **non-private internet explorer browser,** navigate to <https://www.resco.net/mobilecrm/woodford.html> and download the standalone application and launch it.
-
-Whether you access from Internet Explorer or the standalone application, you will land on the Woodford interface, as seen below.
+You will land on the Woodford interface, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Woodford interface](media/Perform-Initial-Configurations-image19.png)  

@@ -1,7 +1,7 @@
 ---
 title: "Change the Dynamics 365 for Customer Engagement instance, audience, or type of Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to change the Dynamics 365 for Customer Engagement instance, audience, or type of a portal."
-ms.date: 12/03/2018
+ms.date: 01/02/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -32,8 +32,9 @@ After your portal is created and provisioned, you can change the details of your
 
 3. Select the **Manage Dynamics 365 Instance** tab. [!INCLUDE[proc-on-this-page](../includes/proc-on-this-page.md)], you can review the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance that is currently linked to your portal.
 
-4. Select **Update Dynamics 365 Instance**. In the dialog box, use the provided fields to change your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, portal language, or your portal administrator. You can also keep the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, but change the portal audience or type of portal.
+4. Select **Update Dynamics 365 Instance**. In the dialog box, use the provided fields to change your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, portal development status, portal language, or your portal administrator. You can also keep the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, but change the portal audience or type of portal.
 
-5. Select the ![Confirm action](media/confirm-action-icon.png Confirm action) button to confirm your changes.  
+5. Select the ![Confirm action](media/confirm-action-icon.png "Confirm action") button to confirm your changes.  
 
-   ![Change Dynamics 365 for Customer Engagement instance](media/change-dynamics-365-instance.png Change Dynamics 365 for Customer Engagement instance)  
+   > [!div class="mx-imgBorder"]
+   > ![Change Dynamics 365 for Customer Engagement instance](media/change-dynamics-365-instance.png "Change Dynamics 365 for Customer Engagement instance")  
