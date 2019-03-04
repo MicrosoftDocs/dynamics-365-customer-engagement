@@ -19,30 +19,22 @@ search.app:
 ---
 # Custom actions for Manual forecasting
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > The custom actions listed in this doc can be seen in the $metadata of your Dynamics 365 instance but they are for internal use only. This means that Microsoft Dynamics 365 Technical Support will not be able to help you with issues or questions related to the use of these custom actions.
 
-<a name="bkmk_msdynforecastrecalculate"></a>
-
-## msdyn_ForecastRecalculate Action
+#### msdyn_ForecastRecalculate Action
 
 [!INCLUDE[msdyn_ForecastRecalculate-description](includes/msdyn_ForecastRecalculate-description.md)]
 
-<a name="bkmk_forecastrecalculateasync"></a>
-
-## msdyn_ForecastRecalculateAsync Action
+#### msdyn_ForecastRecalculateAsync Action
 
 [!INCLUDE[msdyn_ForecastRecalculateAsync-description](includes/msdyn_ForecastRecalculateAsync-description.md)]
 
-<a name="bkmk_msdynforecastgeneratehierarchy"></a>
-
-## msdyn_ForecastGenerateHierarchy Action
+#### msdyn_ForecastGenerateHierarchy Action
 
 [!INCLUDE[msdyn_ForecastGenerateHierarchy-description](includes/msdyn_ForecastGenerateHierarchy-description.md)]
 
-<a name="bkmk_msdynforecastrecalculateall"></a>
-
-## msdyn_ForecastRecalculateAll Action
+#### msdyn_ForecastRecalculateAll Action
 
 [!INCLUDE[msdyn_ForecastRecalculateAll-description](includes/msdyn_ForecastRecalculateAll-description.md)]
 
