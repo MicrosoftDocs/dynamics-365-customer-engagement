@@ -1,6 +1,6 @@
 ---
 title: "Error code reference for Omni-channel Engagement Hub in Dynamics 365 | MicrosoftDocs"
-description: "Read about the error codes and error messages that are returned when using the LiveChat SDK methods, and how to resolve the errors"
+description: "Read about the error codes and error messages that are returned when using the live chat SDK methods, and how to resolve the errors"
 keywords: ""
 author: susikka
 ms.author: susikka
@@ -18,15 +18,17 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The following table lists the errors that are returned when using the live chat SDK methods.
+Here are the error codes and error messages that are returned when using live chat SDK methods.
 
 |Error Code|Error message|
 |-----|-----|
-|1|The execution of the context-provider method failed.|
-|2|The execution of the authentication-token provider method failed.|
-|3|The authentication-token provider didn't provide a token.|
-|4|The authentication-token provider supplied an invalid token.|
+|1|Context provider method execution failed|
+|2|Auth token provider method execution failed|
+|3|Auth token provider didn't provide any token|
+|4|Auth token provider provided invalid token|
 
-## See also
+
+
+### See also
 
 [JavaScript API reference](../omni-channel-reference.md)
