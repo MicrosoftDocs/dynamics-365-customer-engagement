@@ -10,11 +10,11 @@ applies_to:
 ms.assetid: 51737308-BFD6-4C66-96D6-F11EDCB71E33
 author: susikka
 ms.author: susikka
-manager: shujoshi<!--note from editor:    -->
+manager: shujoshi
 
 ---
 # Walkthrough: Send authentication token to Omni-channel Engagement Hub when starting a chat
-<!--note from editor:    -->
+
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
@@ -23,12 +23,15 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 <!--note from editor:  Suggest changing the sentence 
 "When a user initiates a chat, you can pass an authentication token to Omni-channel Engagement Hub, which helps in authenticating the user." 
 to this:
-To authenticate a user when they initiate a chat, pass an authentication token to Omni-channel Engagement Hub. -->
+"To authenticate a user when they initiate a chat, pass an authentication token to Omni-channel Engagement Hub." -->
 
 
 When a user initiates a chat, you can pass an authentication token to Omni-channel Engagement Hub, which helps in authenticating the user.
 
 Follow these steps to send context when starting a chat:
+
+<!--note from editor: In Step 1, are the "live chat SDK methods" the same thing as the methods under "JavaScript API Reference" in this developer guide? If so, make that connection clear.   -->
+
 
 1. Listen on the **lcw:ready** event raised by the live chat before calling the live chat SDK methods.
 2. Once the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method.
