@@ -45,14 +45,13 @@ Expression to select all profiles linked to interaction. Similar to `PROFILE` ex
 
 ## HAVING
 
-Conditional expression that can be used on aggregated interactions. More information [Usage limitations](). 
-Calculation window is optional parameter. It defines time sliding period for computation. Default value is Lifetime. More information [Usage Limitation](). 
+Conditional expression that can be used on aggregated interactions. Calculation window is an optional parameter. It defines time sliding period for computation. Default value is Lifetime. More information [Usage Limitation](#usage-limitations). 
 
 **Syntax**
 `HAVING(condition, calculation_window)` 
 
 ## FILTER
-Expression applied for the current nodes, to filter the ones not meeting the condition. More inforamtion [Usage Limitation](). 
+Expression applied for the current nodes, to filter the ones not meeting the condition. More inforamtion [Usage Limitations](#usage-limitations). 
 
 **Syntax**
 `FILTER(condition)` 
@@ -159,6 +158,18 @@ Function to determine if property is NULL.
  **Syntax**
  `ISNOTNULL(propertyName)`
  
+ ## propertyName CONTAINS stringValue
+ 
+ String function determing whether property contains given substring.
+ 
+ ## propertyName STARTSWITH stringValue
+ 
+ String function determining whether string property starts with given substring. 
+ 
+ ## propertyName ENDSWITH stringValue
+ 
+ String function determining whether string property ends with given substring. 
+ 
  ## Usage Limitations
  ### HAVING 
  
@@ -176,7 +187,7 @@ Function to determine if property is NULL.
  
  **FILTER(condition)**
  
- PROFILE segment has no limitation for FIILTER(condition). Filter has only limitation in INTERACTION segment. No support of Date, DATEDIFF, DATEADD, DATETIMEUTCNOW, CONTAINS, STARTSWITH, ENDSWITH
+ PROFILE and SEGMENT has no limitation for FIILTER(condition). Filter has only limitation in INTERACTION segment. No support of Date, DATEDIFF, DATEADD, DATETIMEUTCNOW, CONTAINS, STARTSWITH, ENDSWITH.
 
 ## Examples
 
@@ -262,7 +273,7 @@ SEGMENT(SegmentOnClicked)`
       .TRAVERSE('SubscribedToActivity') 
          .FILTER(Age > 20 && Age < 35)`
 
-8. Lead management: Lead in campaign `Always Active` and Grade in `5to10k` or higher. Add members from `Fitness Challenge to 100`. Intersect with list of `ColorRun` signups. Exclude all that are existing member (regular + trial) 
+8. Lead in campaign `Always Active` and Grade in `5to10k` or higher. Add members from `Fitness Challenge to 100`. Intersect with list of `ColorRun` signups. Exclude all that are existing member (regular + trial).
 
 `SegmentOnProfilesFromAlwaysActiveAndFitnessChallenge = 
 PROFILE(Campaign) 
@@ -285,7 +296,7 @@ SEGMENT(SegmentOnProfilesFromColorRun)
 EXCEPT 
 SEGMENT(SegmentOnProfilesWithMembership)`
 
-9. Segment all contacts that have unsubscribed in the last 1 month  
+9. Segment all contacts that have unsubscribed in the last 1 month.  
 
 `PROFILE(Subscription) 
     .TRAVERSE(InSubscription, FILTER(DATEDIFF(month, SubscriptionEndDate, DATETIMEUTCNOW()) 1))`
@@ -347,7 +358,7 @@ INTERACTION(CampaignEventRegistration,CampaignEventRegistration_CampaignEvent)
     .TRAVERSE(Ordered) 
       .FILTER(Name == 'Product Xgenerator')` 
 
-15. Segment all contacts part of Campaign ThankYou Mkt segment but have an open Service ticket with high prio OR Medium prio ticket for more than a month.
+15. Segment all contacts part of Campaign ThankYou Mkt segment but have an open Service ticket with high prio or Medium prio ticket for more than a month.
 
 `SegmentWithImportantServiceTickets = 
 PROFILE(ServiceTicket) 
@@ -366,17 +377,17 @@ Segment all customers whose birthday is within the next month
 PROFILE(Customer) 
   .FILTER(DATEDIFF(month,Birthday,DATETIMEUTCNOW())` 
 
-16. Segment all contacts who unsubscribed after campaign started 
+16. Segment all contacts who unsubscribed after campaign started.
 
 `PROFILE(Contact) 
   .FILTER(Unsubscribed > CampaignStartDate)` 
 
-17. Segment all events that contains `run` in name. 
+17. Segment all events that contains `run` in name field. 
 
 `PROFILE(Event) 
    .FILTER(Name CONTAINS 'run')` 
 
-18. Segment all events which names ends with `run`. 
+18. Segment all events whose names ends with `run`. 
 
 `PROFILE(Event) 
    .FILTER(Name ENDSWITH 'run')` 
