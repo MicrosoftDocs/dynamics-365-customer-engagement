@@ -134,6 +134,211 @@ Function to determine if property is NULL.
 
 ## ISNOTNULL
 
+ Function to determine if property ISNOTNULL.
+ 
+ **Syntax**
+ `ISNOTNULL(propertyName)`
+ 
+ ## Usage Limitations
+ ### HAVING 
+ 
+ **Condition forbidden**
+ 
+ |Function|Operator|Value|
+ |----|----|----|
+ |COUNT ()| `>=`, `!=`|Positive integer|
+ ||`>=`, `!=`, `>`, `==`, `<=`, `<`|Negative numeric<br />Non-integer value|
+ ||`==`|0|
+ |SUM (identifer)|No limitation|No limitation|
+ |AVG (identifier)|No limitation|No limitation|
+ |MIN (identifier)|No limitation|No limitation|
+ |MAX (identifier)|No limitation|No limitation|
+ 
+ **FILTER(condition)**
+ PROFILE segment has no limitation for FIILTER(condition). Filter has only limitation in INTERACTION segment. No support of Date, DATEDIFF, DATEADD, DATETIMEUTCNOW, CONTAINS, STARTSWITH, ENDSWITH
 
+## Examples
+Create a segment for leads that participated in ‘Campaign 1’ and that opened any email from this campaign but have not clicked on it 
 
+`SegmentOnProfilesInCampaign =   
+PROFILE(Campaign) 
+  .FILTER(Name == 'Campaign 1') 
+    .TRAVERSE(ActivityContactProcessed_Campaign)  
+    SegmentOnEmailOpened =   
+INTERACTION(EmailOpened, EmailOpenedLeadLink) 
+  .FILTER(Name == 'Campaign 1')) 
+    .HAVING(COUNT()>0)  
+ SegmentOnClicked  =  
+INTERACTION(EmailClicked, EmailClickedLeadLink) 
+  .FILTER(Name == 'Campaign 1')) 
+    .HAVING(COUNT()>0)   
+ Result =   
+SEGMENT(SegmentInCampaign)   
+UNION 
+SEGMENT(SegmentOnEmailOpened)   
+EXCEPT 
+SEGMENT(SegmentOnClicked)`
 
+Filter on all subscriptions that stem from an email marketing campaign, but without registrations in a certain marketing event 
+
+`SegmentOnProfilesInCampaign = 
+PROFILE(Campaign) 
+  .FILTER(Name == 'Campaign 1') 
+    .TRAVERSE(EmailSubscriptionSubmit_Campaign) 
+ SegmentOnProfilesWithoutRegistration = 
+PROFILE(CampaignEvent) 
+   .FILTER(Name == 'Event 1') 
+      .TRAVERSE(CampaignEventRegistration_CampaignEvent) 
+ Result =  
+SegmentOnProfilesInCampaign 
+EXCEPT 
+SegmentOnProfilesWithoutRegistration`
+
+Find all contacts from leads where the lead date is after the end date of the campaign (of the lead’s marketing context) 
+`PROFILE(Campaign) 
+   .TRAVERSE(ActivityLeadProcessed_Campaign) 
+      .FILTER(StartDate > '2017-03-30')`
+
+Create a Segment for all credit card customers whose credit card(s) are expiring in the next 30 days to send them a notification email 
+`PROFILE(CreditCard) 
+   .FILTER(DATEDIFF(day, ExpirationDate, DateTimeNowUtc()) < 30) 
+      .TRAVERSE(HavingCreditCard)`
+      
+Create a Segment  on all company customers with at least one active Purchaseditem pi such as pi.Product=CreditCard and pi.expirationDate < [month from today] (parametric query relative to TODAY so that a marketer can set up automated campaigns via rolling queries) 
+
+`PROFILE(Contact) 
+   .FILTER( 
+      NumberOfActivePurchasedItems > 0 &&  
+      Product == 'CreditCard' &&  
+      DATEDIFF(month, ExpirationDate, DATETIMEUTCNOW()) < 1)`
+
+Create a segment with all contacts that have not clicked on any link in email 12345 in the last week 
+`SegmentOnProfile =   
+PROFILE(Contact)   
+ SegmentOnClicked =  
+INTERACTION(RedirectLinkClicked, RedirectLinkClicked_ContactLink) 
+   .HAVING(COUNT()>0, UTCDAYS(7)) 
+   .FILTER( EmailId == '12345') 
+ Result =   
+SEGMENT(SegmentOnProfile)   
+EXCEPT 
+SEGMENT(SegmentOnClicked)`
+
+Filter on preferred activity type of some kinds of sports and select a certain range of age 
+`PROFILE(Activity) 
+   .FILTER(ActivityType == 'Football') 
+      .TRAVERSE('SubscribedToActivity') 
+         .FILTER(Age > 20 && Age < 35)`
+
+Lead management: Lead in campaign ‘Always Active’ and Grade in ‘5to10k’ or higher. Add members from Fitness Challenge to 100. Intersect with list of ColorRun signups. Exclude all that are existing member (regular + trial) 
+
+`SegmentOnProfilesFromAlwaysActiveAndFitnessChallenge = 
+PROFILE(Campaign) 
+  .FILTER(Name == 'Always Active' || Name == 'Fitness Challenge to 100') 
+    .TRAVERSE(ActivityContactProcessed_Campaign) 
+      .FILTER(Grade == '5to10k') 
+ SegmentOnProfilesFromColorRun = 
+PROFILE(Event) 
+   .FILTER(Name == 'ColorRun') 
+      .TRAVERSE(SignedToEvent) 
+ SegmentOnProfilesWithMembership = 
+PROFILE(Membership) 
+   .TRAVERSE(InSubscription, FILTER(Status == 'Active')) 
+ Result =  
+SEGMENT(SegmentOnProfilesFromAlwaysActiveAndFitnessChallenge) 
+INTERSECT 
+SEGMENT(SegmentOnProfilesFromColorRun) 
+EXCEPT 
+SEGMENT(SegmentOnProfilesWithMembership)`
+
+Segment all contacts that have unsubscribed in the last 1 month  
+
+`PROFILE(Subscription) 
+    .TRAVERSE(InSubscription, FILTER(DATEDIFF(month, SubscriptionEndDate, DATETIMEUTCNOW()) 1))`
+    
+Segment all contacts who are Marketing Managers or Sales Managers Or Finance managers belonging to Hi tech firms in US West Region with greater than 10 billion revenue and total orders of 1 billion in the last year. 
+
+`PROFILE(Campaign)  
+   .FILTER( 
+      Market == 'Hi tech' && 
+      Revenue > 10000000000 && 
+      NumberOfOrders > 1000000000) 
+      .TRAVERSE(ActivityContactProcessed_Campaign) 
+         .FILTER( 
+            Position == 'Marketing Manager' || 
+            Position == 'Sales Manager' || 
+            Position == 'Finance Manager')`
+
+Segment all contacts part of Silver Tier campaign that received Event X email but did not register 
+`SegmentOnProfile =  
+PROFILE(Campaign) 
+  .FILTER(Name == 'Silver Tier') 
+    .TRAVERSE(ActivityContactProcessed_Campaign)  
+      SegmentOnEmailDelivered =  
+INTERACTION(EmailDelivered, EmailDelivered_Campaign) 
+  .FILTER(CampaignName == 'Silver Tier')) 
+    .HAVING(COUNT()>0) 
+ SegmentRegisteredInEvent  = 
+INTERACTION(CampaignEventRegistration,CampaignEventRegistration_CampaignEvent) 
+  .FILTER(Name == 'Event X')) 
+    .HAVING(COUNT()>0) 
+ Result =  
+SEGMENT(SegmentOnProfile)  
+  .UNION(SegmentOnReceivedEmail) 
+    .EXCEPT(SegmentRegisteredInEvent)`
+    
+Segment all contacts whose emails soft bounced 10 times in the last month 
+
+`INTERACTION(EmailSoftBounced, EmailSoftBounced_ContactLink)       
+   .HAVING(COUNT()>10, UTCMONTHS(1))`
+
+Segment all male contacts living in USA b/w ages 15 - 25 and income > 50K  
+
+`PROFILE(Contact) 
+   .FILTER( 
+      Sex == 'M' && 
+      Country == 'USA' && 
+      Age >= 15 && Age <= 25 && 
+      Income > 50000 
+   )`
+   
+Segment all CEO contacts having accounts that bought Product Xgenerator 
+
+`PROFILE(Contact) 
+   .FILTER(Position == 'CEO') 
+      .TRAVERSE(HavingAccount) 
+    .TRAVERSE(Ordered) 
+      .FILTER(Name == 'Product Xgenerator')` 
+
+Segment all contacts part of Campaign ThankYou Mkt segment but have an open Service ticket with high prio OR Medium prio ticket for more than a month 
+
+`SegmentWithImportantServiceTickets = 
+PROFILE(ServiceTicket) 
+   .FILTER( 
+      State == 'Opened' && 
+      (Priority == 'High' || Priority == 'Medium') && 
+DATEDIFF(month, DATETIMEUTCNOW(), StartDate) > 1)) 
+      .TRAVERSE(HasServiceTicket) 
+ Result =  
+SEGMENT(SegmentWithImportantServiceTickets) 
+INTERSECT 
+SEGMENT(ThankYouMktSegment) 
+Segment all customers whose birthday is within the next month 
+PROFILE(Customer) 
+  .FILTER(DATEDIFF(month,Birthday,DATETIMEUTCNOW())` 
+
+Segment all contacts who unsubscribed after campaign started 
+`PROFILE(Contact) 
+  .FILTER(Unsubscribed > CampaignStartDate)` 
+
+Segment all events that contains ‘run’ in name  
+`PROFILE(Event) 
+   .FILTER(Name CONTAINS 'run')` 
+
+Segment all events which names ends with ‘run’ 
+`PROFILE(Event) 
+   .FILTER(Name ENDSWITH 'run')` 
+
+Segment all customers without address  
+`PROFILE(Customer) 
+   .FILTER(ISNULL(Address))` 
