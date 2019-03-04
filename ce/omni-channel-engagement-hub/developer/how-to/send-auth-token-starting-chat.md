@@ -1,3 +1,4 @@
+<!--note from editor:    -->
 ---
 title: "Walkthrough: Send authentication token to Omni-channel when starting a chat | Microsoft Docs"
 description: ""
@@ -10,20 +11,28 @@ applies_to:
 ms.assetid: 51737308-BFD6-4C66-96D6-F11EDCB71E33
 author: susikka
 ms.author: susikka
-manager: shujoshi
+manager: shujoshi<!--note from editor:    -->
+
 ---
 # Walkthrough: Send authentication token to Omni-channel Engagement Hub when starting a chat
+<!--note from editor:    -->
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When a user initiates a chat, developer can pass an authentication token to Omni-channel Engagement Hub, which would help in authenticating the user.
+<!--note from editor:  Suggest changing the sentence 
+"When a user initiates a chat, you can pass an authentication token to Omni-channel Engagement Hub, which helps in authenticating the user." 
+to this:
+To authenticate a user when they initiate a chat, pass an authentication token to Omni-channel Engagement Hub. -->
 
-Follow the given steps to send context when starting a chat:
 
-1. Listen on the **lcw:ready** event raised by live chat before calling the LiveChat SDK methods.
-2. Once the **lcw:ready** event is raised, register an authentication token provider with live chat using [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method.
+When a user initiates a chat, you can pass an authentication token to Omni-channel Engagement Hub, which helps in authenticating the user.
+
+Follow these steps to send context when starting a chat:
+
+1. Listen on the **lcw:ready** event raised by the live chat before calling the live chat SDK methods.
+2. Once the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method.
 
 ## Sample code
 
@@ -51,7 +60,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 > [!div class="nextstepaction"]
 > [Next topic: Initiate chat when user has been waiting for some time](initiate-chat-wait-time.md)
 
-## See also
+### See also
 
 [JavaScript API reference](../omni-channel-reference.md)<br />
 [Send context to Omni-channel Engagement Hub when starting a chat](send-context-starting-chat.md)
