@@ -105,7 +105,7 @@ DELETE {{orgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ## CRUD operations on dynamic segments
 
-This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on dynamic segments. Dynamic segements are based on segment query (`msdyncrm_segmentquery`). More information [Segment query definition]().
+This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on dynamic segments. Dynamic segements are based on segment query (`msdyncrm_segmentquery`). More information [Segment query definition](segment-query-definition.md).
 
 1. **Create request**
 
@@ -161,7 +161,7 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 ### CRUD operations on compound segments
 
-This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on compound segments. Compound segements are based on segment query (`msdyncrm_segmentquery`). 
+This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on compound segments.
 
 1. **Create request**
 
@@ -224,7 +224,7 @@ Once a member is included, action can be reversed by excluding it, thereby remov
 Following are some of the important aspects that needs to be considered while performing `Include/Exclude`  operations on segment members:
 
 > [!NOTE]
-> For this release, `Include/Exclude` operations are not supoorted for dynamic segments.
+> For this release, `Include/Exclude` operations are not suported for dynamic segments.
 
 - Compound segments must be in `Live` or `Stopped` state (not draft).
 - Only instances of entity type `Contact` can be included/excluded as members.
