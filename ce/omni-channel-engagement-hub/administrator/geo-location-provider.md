@@ -37,6 +37,9 @@ To enable location detection, you must first get your Bing Maps API key and crea
 
     - **Bing Maps API key**: API key of Bing Maps to get the visitor's location.
 
+    > [!div class=mx-imgBorder]
+    > ![Create a geo location record](../media/geo-location-record.png "Create a geo location record")
+
 5.	Select **Save and Close**.
 
 ## Enable location detection
@@ -48,3 +51,6 @@ To enable location detection, you must first get your Bing Maps API key and crea
 3.	In the **Visitor location** section, select **Yes** in the **Request visitor location** field.
 
 4.	In the **Geo Location Provider** field, browse and select the geo location provider record.
+
+    > [!div class=mx-imgBorder]
+    > ![Configure visitor location in a chat widget](../media/chat-widget-location-tab.png "Configure visitor location in a chat widget")
