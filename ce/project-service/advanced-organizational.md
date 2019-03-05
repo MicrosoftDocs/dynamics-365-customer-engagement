@@ -46,7 +46,7 @@ In addition, there is an attribute for the organizational unit on the Resource e
 
 The organizational unit plays two roles in PSA:
 
-- **Contracting unit** – The organizational unit that represents the company group or division that is primarily responsible for winning the sale and managing the delivery of work and services to the customer. The contracting unit is identified by the **Contracting Unit** field under the **Opportunity**, **Quote**, **Project Contract**, and **Project** headers.
+- **Contracting unit** – The organizational unit that represents the company group or division that is primarily responsible for winning the sale and managing the delivery of work and services to the customer. The contracting unit is identified by the **Contracting Unit** field in the header section of the **Opportunity**, **Quote**, **Project Contract**, and **Project** pages.
 - **Resourcing unit** – The organizational unit that a resource belongs to or is assigned to. This organizational unit can provide its resources for some roles on statements of work (SOWs) and projects that are owned by the contracting unit.
 
 > ![Contracting units and resourcing units](media/advanced-1.png)
@@ -55,19 +55,19 @@ The organizational unit plays two roles in PSA:
 
 Here are some of the most frequently asked questions about organizational units.
 
-### How is the organizational unit entity in PSA related to the organization entity that already exists in Dynamics 365?
+### How is the Organizational Unit entity in PSA related to the Organization entity that already exists in Dynamics 365?
 
-The organization entity in Microsoft Dynamics 365 represents the name of a global Dynamics 365 instance. This name is usually the name of the global enterprise.
+The Organization entity in Microsoft Dynamics 365 represents the name of a global Dynamics 365 instance. This name is usually the name of the global enterprise.
 
-The organizational unit entity represents a group or division in the global enterprise. This group or division has a set of roles and a cost price list for those roles, and those roles and price list differ from the roles and price list of other groups or divisions in the enterprise.
+The Organizational Unit entity represents a group or division in the global enterprise. This group or division has a set of roles and a cost price list for those roles, and those roles and price list differ from the roles and price list of other groups or divisions in the enterprise.
 
 When PSA is installed, a default organizational unit is created based on the organization. All existing resources are assigned to the default organizational unit. If any new Active Directory users or resources are imported into Dynamics 365, the user import process assigns them to the default organizational unit in PSA.
  
 ### How does the organizational unit entity differ from the business unit entity?
 
-In Dynamics 365, the business unit entity is a security construct. The association of a user with a business unit determines the entities and entity records that the user has access to. It also determines the permissions (Create, Read, Write, Delete, Append, Append To, Assign, or Share) that the user has for those entity records.
+In Dynamics 365, the Business Unit entity is a security construct. The association of a user with a business unit determines the entities and entity records that the user has access to. It also determines the permissions (Create, Read, Write, Delete, Append, Append To, Assign, or Share) that the user has for those entity records.
 
-The organizational unit entity represents a company group or division that has distinct cost rates for employees that are assigned to it. The association of a resource with an organizational unit determines the resource's cost to a project engagement.
+The Organizational Unit entity represents a company group or division that has distinct cost rates for employees that are assigned to it. The association of a resource with an organizational unit determines the resource's cost to a project engagement.
 
 When you implement Dynamics 365, optimize security authorization for the hierarchy of business units and the assignment of users to business units. Assign all users who must typically access the same set of records to the same business unit. The organizational unit has no effect on security authorization or access.
 
@@ -84,7 +84,7 @@ Here is an optimal way to design for this scenario by using Dynamics 365 and PSA
 
 ### Are organizational units related to sales territories in Dynamics 365?
 
-There is no association or relationship between sales territories and organizational units. A sales territory is typically a geographical area where sales are affected. A sales price list can be associated with each sales territory.
+There is no association or relationship between sales territories and organizational units. A sales territory is typically a geographical area where sales occur. A sales price list can be associated with each sales territory.
 
 An organizational unit is an internal group or division in the company that tracks costs for a set of roles that it sells to other divisions or to external customers.
 
