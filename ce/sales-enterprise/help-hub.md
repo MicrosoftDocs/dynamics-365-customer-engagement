@@ -74,8 +74,8 @@ topic-status: Drafting
 </td><td>
 
 <h2>Develop</h2>
-<li><a href="../sales-enterprise/developer/extend-relationship-assistant-card.md" data-raw-source="[Create custom cards in Relationship assistant](../sales-enterprise/developer/extend-relationship-assistant-card.md)">Create custom cards in Relationship assistant</a></li>
-<li><a href="../sales-enterprise/developer/sample-extend-relationship-assistant-card-type.md" data-raw-source="[Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/developer/sample-extend-relationship-assistant-card-type.md)">Sample: Extend Relationship assistant card type (custom card)</a></li>
+<li><a href="../sales-enterprise/extend-relationship-assistant-card.md" data-raw-source="[Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)">Create custom cards in Relationship assistant</a></li>
+<li><a href="../sales-enterprise/sample-extend-relationship-assistant-card-type.md" data-raw-source="[Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)">Sample: Extend Relationship assistant card type (custom card)</a></li>
 </td></tr>
 
 <tr><td>
