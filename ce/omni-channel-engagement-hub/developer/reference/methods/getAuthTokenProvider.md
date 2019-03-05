@@ -33,7 +33,7 @@ None
 
 <!--note from editor: change "auth-token" to "authentication-token"   -->
 
-Returns the currently set auth-token provider, if any.
+Returns the currently set authentication-token provider, if any.
 
 ## Example
 
