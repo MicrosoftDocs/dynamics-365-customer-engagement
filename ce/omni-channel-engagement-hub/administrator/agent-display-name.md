@@ -13,10 +13,6 @@ ms.assetid: B6B22831-57A3-4877-B379-0A43F1599A11
 ms.custom: 
 ---
 
-
-<!--In step 6, the option says "Nick name." Is that how it appears in the UI? Nickname should be one word, but I'll leave it as two here if that's how the UI shows it. Elsewhere, I'm correcting it.-->
-
-
 # Configure agent display name
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
