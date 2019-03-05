@@ -25,7 +25,6 @@ In Omni-channel, you can create the following types of work streams:
 
 - Live chat work stream
 - Entity work stream
-- SMS work stream
 
 > [!NOTE]
 > A work stream can belong to multiple channels of same type, for example multiple chat channels. In this case, all the conversations from these channels inherit routing and work distribution settings of the work stream they belong to.
@@ -53,12 +52,11 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
       2. **Stream Source**: Stream source is defined as a medium via which a customer reaches out for support. For example, a customer can contact an agent through chat or SMS. </br> </br> Select a channel from the drop-down list. </br>
             - **Live Chat** </br>
             - **Entity** </br>
-            - **SMS**
 
            > [!NOTE]
            > As you select the Stream source, the channel is updated at the top of the page. You cannot edit the channel.
 
-      3. **Capacity**: When a conversation from a work stream is assigned to an agent, it consumes some capacity. The units of capacity blocked are defined as capacity in the work stream. For example, a conversation in the chat work stream has a capacity of 20 units. When this conversation is assigned to an agent, it blocks 20 units of agent's capacity. </br> </br>Specify the units of capacity that are required to process a conversation for the work stream in the text box.
+      3. **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream in the text box.
       
       4. **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from **Waiting** state to **Closed** state because of inactivity. 
       5. Select **Save** to save the work stream.
@@ -76,8 +74,7 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
             - Screen pop with timeout
             - Screen pop with decline
       3. In the **Screen pop timeout** field, select the time from the drop-down list in which the screen pop times out.
-      4. Select the **Allowed Presences** from the drop-down list. Allowed presence helps in distributing conversations to agents based on their presence status. For example, if you want to allocate a chat conversation from a high priority customer, ensure that you look for only those agents that have their presence status as 'Available'. So, while defining properties for a work stream, select Allowable presence as Available.
-For more information, see [Configure and manage presence status](presence-custom-presence.md).
+      4. Select the **Allowed Presences** from the drop-down list. For more information, see [Configure and manage presence status](presence-custom-presence.md).
 
 
       > [!div class=mx-imgBorder] 
