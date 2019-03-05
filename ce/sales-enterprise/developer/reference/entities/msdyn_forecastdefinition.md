@@ -21,12 +21,12 @@ topic-status: Drafting
 ---
 # msdyn_forecastdefinition EntityType
 
-Entity Set Path [organizationURI]/api/data/v9.1/msdyn_forecastdefinitions<br />
-Base Type<br />
-Display Name <br />
-Primary key<br />
-Primary key attribute<br />
-Operations supported<br />
+Defines the parameters used for forecasting.
+
+Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_forecastdefinitions`<br />
+Display Name: Forecast definition <br />
+Primary key: msdyn_forecastdefinitionid <br />
+Operations supported: Create, Retrieve, Update and Delete<br />
 
 ## Properties
 
