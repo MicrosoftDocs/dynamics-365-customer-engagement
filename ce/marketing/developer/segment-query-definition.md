@@ -167,8 +167,77 @@ Function to determine if property is NULL.
  
  ## propertyName ENDSWITH stringValue
  
- String function determining whether string property ends with given substring. 
+ String function determining whether string property ends with given substring.  
  
+ ## Grammar
+ 
+ Grammar definition describes how you can use the query language.
+ 
+ ### Dynamic Segment
+ 
+ dynamicSegmentDefinitionQuery = simpleProfileSegmentDefinition | compoundProfileSegmentDefinition | interactionSegmentDefinition 
+ 
+ ### Static Segment 
+ 
+ staticSegmentDefinitionQuery = profileFunction | profileFunction.filterFunction | profileFunction.orderByFunction.skipFunction.takeFunction.selectFunction | profileFunction.filterFunction.orderByFunction.skipFunction.takeFunction.selectFunction 
+
+## Rules
+|Function| Value|
+|-------|-------|
+|simpleProfileSegmentDefinition| profileFunction or profileFunction.traverseQueryList |
+|profileFunction| PROFILE(identifier)| 
+|traverseQueryList |traverseQueryList.traverseQuery or traverseQuery| 
+|traverseQuery|traverseFunction or filterFunction| 
+|traverseFunction| TRAVERSE(identifier) or TRAVERSE(identifier,filterFunction) |
+|filterFunction|FILTER(propertyCondition)| 
+|propertyCondition| comparisonCondition or notFunction or logicalCondition or stringComparisonCondition or nullFunction| 
+|comparisonCondition|  valueExpression comparisonOperator valueExpression (valueExpression comparisonOperator valueExpression)|
+|valueExpression |booleanValue or string  or number or aliasedIdentifier or dateDiffFunction or dateAddFunction or dateFunction or dateTimeUtcNowFunction or arithmeticOperation| 
+|booleanValue | TRUE or FALSE| 
+|aliasedIdentifier| identifier or identifier.identifier| 
+|dateDiffFunction| DATEDIFF(datePart,valueExpression,valueExpression)| 
+|datePart |YEAR MONTH  DAY  HOUR  MINUTE| SECOND  MILLISECOND |
+|dateAddFunction| DATEADD(datePart,number,valueExpression)|
+|dateFunction| Date(/*year*/ number, /*month*/ number, /*day*/ number) or Date(/*year*/ number, /*month*/ number, /*day*/ number, /*hour*/ number) or Date(/*year*/ number, /*month*/ number, /*day*/ number, /*hour*/ number, /*minute*/ number)  or Date(/*year*/ number, /*month*/ number, /*day*/ number, /*hour*/ number, /*minute*/ number, /*second*/ number) or Date(/*year*/ number, /*month*/ number, /*day*/ number, /*hour*/ number, /*minute*/ number, /*second*/ number, /*millisecond*/ number)|
+|dateTimeUtcNowFunction| DATETIMEUTCNOW()| 
+|nullFunction | nullFuctionKeyword|
+|nullFunctionKeyword|ISNULL or ISNOTNULL| 
+|arithmeticOperation | numericExpression arithmeticOperator numericExpression (numericExpression arithmeticOperator numericExpression)| 
+|numericExpression| number or aliasedIdentifier or arithmeticOperation| 
+|arithmeticOperator | + or - or * or / |
+|comparisonOperator| == or != or > or >= or < or <=|
+|notFunction| NOT(propertyCondition)| 
+|logicalCondition| propertyCondition logicalOperator propertyCondition (propertyCondition logicalOperator propertyCondition)| 
+|logicalOperator |&&, OR|
+|stringComparisonCondition|alisedIdentifier stringComparisonOperator string (aliasedIdentifier stringComparisonOperator string)| 
+|stringComparisonOperator| CONTAINS or STARTSWITH or ENDSWITH|
+|compoundProfileSegmentDefinition|setOperation| 
+|setOperation| setExpression setOperator setExpression (setExpression setOperator setExpression)| 
+|setExpression |segmentFunction or simpleProfileSegmentDefinition or setOperation| 
+|segmentFunction |SEGMENT(identifier)| 
+|setOperator |UNION or INTERSECT or EXCEPT| 
+|interactionSegmentDefinition |interactionFunction.havingFunction or interactionFunction.filterFunction.havingFunction| 
+|interactionFunction |INTERACTION(identifier,identifier)| 
+|havingFunction | HAVING(aggregationFunction comparisonOperator number, calculationWindowFunctionExpression) | ||HAVING(aggregationFunction comparisonOperator number)| 
+|aggregationFunction|countFunction or sumFunction or avgFunction or minFunction or maxFunction| 
+|countFunction |COUNT()| 
+|sumFunction |SUM(identifier)|
+|avgFunction |AVG(identifier)| 
+|minFunction| MIN(identifier)| 
+|maxFunction | MAX(identifier)| 
+|calculationWindowFunctionExpression | daysCalculationWindowFunction or monthsCalculationWindowFunction or yearsCalculationWindowFunction |
+|daysCalculationWindowFunction |UTCDAYS(number)| 
+|monthsCalculationWindowFunction |UTCMONTHS(number)| 
+|yearsCalculationWindowFunction |UTCYEARS(number)| 
+|orderByFunction |ORDERBY(orderByArgumentList)| 
+|orderByArgumentList |orderByArgumentList,orderByArgument or orderByArgument| 
+|orderByArgument |aliasedIdentifier or aliasedIdentifier sortDirection|
+|sortDirection | ASC or DESC |
+|skipFunction | SKIP(number)| 
+|takeFunction | TAKE(number) |
+|selectFunction |SELECT(propertyList)| 
+|propertyList| propertyList,aliasedIdentifier or aliasedIdentifier|
+
  ## Usage Limitations
  ### HAVING 
  
@@ -192,18 +261,9 @@ Function to determine if property is NULL.
 
 1. Create a segment for leads that participated in `Campaign 1` and that opened any email from this campaign but have not clicked on it. 
 
-`SegmentOnProfilesInCampaign =   
-PROFILE(Campaign) 
-  .FILTER(Name == 'Campaign 1') 
-    .TRAVERSE(ActivityContactProcessed_Campaign)  
-    SegmentOnEmailOpened =   
-INTERACTION(EmailOpened, EmailOpenedLeadLink) 
-  .FILTER(Name == 'Campaign 1')) 
-    .HAVING(COUNT()>0)  
- SegmentOnClicked  =  
-INTERACTION(EmailClicked, EmailClickedLeadLink) 
-  .FILTER(Name == 'Campaign 1')) 
-    .HAVING(COUNT()>0)`   
+`SegmentOnProfilesInCampaign = PROFILE(Campaign).FILTER(Name == 'Campaign 1').TRAVERSE(ActivityContactProcessed_Campaign)  
+    SegmentOnEmailOpened = INTERACTION(EmailOpened, EmailOpenedLeadLink).FILTER(Name == 'Campaign 1')).HAVING(COUNT()>0)  
+ SegmentOnClicked  = INTERACTION(EmailClicked, EmailClickedLeadLink).FILTER(Name == 'Campaign 1')).HAVING(COUNT()>0)`   
  
 **Result** 
 
@@ -215,14 +275,8 @@ SEGMENT(SegmentOnClicked)`
 
 2. Filter on all subscriptions that sent from an email marketing campaign, but without registrations in a certain marketing event.
 
-`SegmentOnProfilesInCampaign = 
-PROFILE(Campaign) 
-  .FILTER(Name == 'Campaign 1') 
-    .TRAVERSE(EmailSubscriptionSubmit_Campaign) 
- SegmentOnProfilesWithoutRegistration = 
-PROFILE(CampaignEvent) 
-   .FILTER(Name == 'Event 1') 
-      .TRAVERSE(CampaignEventRegistration_CampaignEvent)` 
+`SegmentOnProfilesInCampaign =PROFILE(Campaign).FILTER(Name == 'Campaign 1').TRAVERSE(EmailSubscriptionSubmit_Campaign) 
+ SegmentOnProfilesWithoutRegistration =PROFILE(CampaignEvent).FILTER(Name == 'Even1').TRAVERSE(CampaignEventRegistration_CampaignEvent)` 
 
 **Result**
 
@@ -238,26 +292,16 @@ SegmentOnProfilesWithoutRegistration`
 
 4. Create a Segment for all credit card customers whose credit card(s) are expiring in the next 30 days to send them a notification email.
 
-`PROFILE(CreditCard) 
-   .FILTER(DATEDIFF(day, ExpirationDate, DateTimeNowUtc()) < 30) 
-      .TRAVERSE(HavingCreditCard)`
+`PROFILE(CreditCard).FILTER(DATEDIFF(day, ExpirationDate, DateTimeNowUtc()) < 30).TRAVERSE(HavingCreditCard)`
       
 5. Create a segment  on all company customers with at least one active `Purchaseditem pi` such as `pi.Product=CreditCard` and `pi.expirationDate < [month from today]` (parametric query relative to TODAY so that a marketer can set up automated campaigns via rolling queries). 
 
-`PROFILE(Contact) 
-   .FILTER( 
-      NumberOfActivePurchasedItems > 0 &&  
-      Product == 'CreditCard' &&  
-      DATEDIFF(month, ExpirationDate, DATETIMEUTCNOW()) < 1)`
+`PROFILE(Contact).FILTER(NumberOfActivePurchasedItems > 0 && Product == 'CreditCard' && DATEDIFF(month, ExpirationDate,DATETIMEUTCNOW()) < 1)`
 
 6. Create a segment with all contacts that have not clicked on any link in email 12345 in the last week. 
 
-`SegmentOnProfile =   
-PROFILE(Contact)   
- SegmentOnClicked =  
-INTERACTION(RedirectLinkClicked, RedirectLinkClicked_ContactLink) 
-   .HAVING(COUNT()>0, UTCDAYS(7)) 
-   .FILTER( EmailId == '12345')` 
+`SegmentOnProfile = PROFILE(Contact)   
+ SegmentOnClicked = INTERACTION(RedirectLinkClicked, RedirectLinkClicked_ContactLink).HAVING(COUNT()>0, UTCDAYS(7)).FILTER(EmailId=='12345')` 
 
 **Result**
 
@@ -267,25 +311,13 @@ SEGMENT(SegmentOnClicked)`
 
 7. Filter on preferred activity type of some kinds of sports and select a certain range of age.
 
-`PROFILE(Activity) 
-   .FILTER(ActivityType == 'Football') 
-      .TRAVERSE('SubscribedToActivity') 
-         .FILTER(Age > 20 && Age < 35)`
+`PROFILE(Activity).FILTER(ActivityType == 'Football').TRAVERSE('SubscribedToActivity').FILTER(Age > 20 && Age < 35)`
 
 8. Lead in campaign `Always Active` and Grade in `5to10k` or higher. Add members from `Fitness Challenge to 100`. Intersect with list of `ColorRun` signups. Exclude all that are existing member (regular + trial).
 
-`SegmentOnProfilesFromAlwaysActiveAndFitnessChallenge = 
-PROFILE(Campaign) 
-  .FILTER(Name == 'Always Active' || Name == 'Fitness Challenge to 100') 
-    .TRAVERSE(ActivityContactProcessed_Campaign) 
-      .FILTER(Grade == '5to10k') 
- SegmentOnProfilesFromColorRun = 
-PROFILE(Event) 
-   .FILTER(Name == 'ColorRun') 
-      .TRAVERSE(SignedToEvent) 
- SegmentOnProfilesWithMembership = 
-PROFILE(Membership) 
-   .TRAVERSE(InSubscription, FILTER(Status == 'Active'))` 
+`SegmentOnProfilesFromAlwaysActiveAndFitnessChallenge = PROFILE(Campaign).FILTER(Name == 'Always Active' || Name == 'Fitness Challenge to 100').TRAVERSE(ActivityContactProcessed_Campaign).FILTER(Grade == '5to10k') 
+ SegmentOnProfilesFromColorRun =PROFILE(Event).FILTER(Name == 'ColorRun').TRAVERSE(SignedToEvent) 
+ SegmentOnProfilesWithMembership =PROFILE(Membership).TRAVERSE(InSubscription, FILTER(Status == 'Active'))` 
 
 **Result**
 
@@ -297,35 +329,18 @@ SEGMENT(SegmentOnProfilesWithMembership)`
 
 9. Segment all contacts that have unsubscribed in the last 1 month.  
 
-`PROFILE(Subscription) 
-    .TRAVERSE(InSubscription, FILTER(DATEDIFF(month, SubscriptionEndDate, DATETIMEUTCNOW()) 1))`
+`PROFILE(Subscription).TRAVERSE(InSubscription, FILTER(DATEDIFF(month, SubscriptionEndDate, DATETIMEUTCNOW()) 1))`
     
 10. Segment all contacts who are `Marketing Managers` or `Sales Managers` Or `Finance managers` belonging to `Hi tech` firms in US West Region with greater than 10 billion revenue and total orders of 1 billion in the last year. 
 
-`PROFILE(Campaign)  
-   .FILTER( 
-      Market == 'Hi tech' && 
-      Revenue > 10000000000 && 
-      NumberOfOrders > 1000000000) 
-      .TRAVERSE(ActivityContactProcessed_Campaign) 
-         .FILTER( 
-            Position == 'Marketing Manager' || 
-            Position == 'Sales Manager' || 
-            Position == 'Finance Manager')`
+`PROFILE(Campaign) .FILTER(Market == 'Hi tech' && Revenue > 10000000000 && NumberOfOrders > 1000000000).TRAVERSE(ActivityContactProcessed_Campaign).FILTER(Position == 'Marketing Manager' || Position == 'Sales Manager' || 
+ Position == 'Finance Manager')`
 
 11. Segment all contacts part of Silver Tier campaign that received Event X email but did not register.
 
-`SegmentOnProfile =  
-PROFILE(Campaign) 
-  .FILTER(Name == 'Silver Tier') 
-    .TRAVERSE(ActivityContactProcessed_Campaign)  
-      SegmentOnEmailDelivered =  
-INTERACTION(EmailDelivered, EmailDelivered_Campaign) 
-  .FILTER(CampaignName == 'Silver Tier')) 
-    .HAVING(COUNT()>0) 
- SegmentRegisteredInEvent  = 
-INTERACTION(CampaignEventRegistration,CampaignEventRegistration_CampaignEvent) 
-  .FILTER(Name == 'Event X')) 
+`SegmentOnProfile = PROFILE(Campaign).FILTER(Name == 'Silver Tier').TRAVERSE(ActivityContactProcessed_Campaign)  
+      SegmentOnEmailDelivered = INTERACTION(EmailDelivered, EmailDelivered_Campaign).FILTER(CampaignName == 'Silver Tier')).HAVING(COUNT()>0) 
+ SegmentRegisteredInEvent  =INTERACTION(CampaignEventRegistration,CampaignEventRegistration_CampaignEvent).FILTER(Name == 'Event X')) 
     .HAVING(COUNT()>0)` 
 
 **Result**
@@ -336,36 +351,20 @@ INTERACTION(CampaignEventRegistration,CampaignEventRegistration_CampaignEvent)
     
 12. Segment all contacts whose emails soft bounced 10 times in the last month. 
 
-`INTERACTION(EmailSoftBounced, EmailSoftBounced_ContactLink)       
-   .HAVING(COUNT()>10, UTCMONTHS(1))`
+`INTERACTION(EmailSoftBounced, EmailSoftBounced_ContactLink).HAVING(COUNT()>10, UTCMONTHS(1))`
 
 13. Segment all male contacts living in USA b/w ages 15 - 25 and income > 50K.  
 
-`PROFILE(Contact) 
-   .FILTER( 
-      Sex == 'M' && 
-      Country == 'USA' && 
-      Age >= 15 && Age <= 25 && 
-      Income > 50000 
-   )`
+`PROFILE(Contact).FILTER(Sex == 'M' && Country == 'USA' && Age >= 15 && Age <= 25 && Income > 50000 )`
    
 14. Segment all CEO contacts having accounts that bought Product Xgenerator. 
 
-`PROFILE(Contact) 
-   .FILTER(Position == 'CEO') 
-      .TRAVERSE(HavingAccount) 
-    .TRAVERSE(Ordered) 
-      .FILTER(Name == 'Product Xgenerator')` 
+`PROFILE(Contact).FILTER(Position == 'CEO').TRAVERSE(HavingAccount).TRAVERSE(Ordered).FILTER(Name == 'Product Xgenerator')` 
 
 15. Segment all contacts part of Campaign ThankYou Mkt segment but have an open Service ticket with high prio or Medium prio ticket for more than a month.
 
-`SegmentWithImportantServiceTickets = 
-PROFILE(ServiceTicket) 
-   .FILTER( 
-      State == 'Opened' && 
-      (Priority == 'High' || Priority == 'Medium') && 
-DATEDIFF(month, DATETIMEUTCNOW(), StartDate) > 1)) 
-      .TRAVERSE(HasServiceTicket)` 
+`SegmentWithImportantServiceTickets = PROFILE(ServiceTicket).FILTER(State == 'Opened' &&(Priority == 'High' || Priority == 'Medium') && 
+DATEDIFF(month, DATETIMEUTCNOW(), StartDate) > 1)).TRAVERSE(HasServiceTicket)` 
 
 **Result**
 
@@ -373,25 +372,20 @@ DATEDIFF(month, DATETIMEUTCNOW(), StartDate) > 1))
 INTERSECT 
 SEGMENT(ThankYouMktSegment) 
 Segment all customers whose birthday is within the next month 
-PROFILE(Customer) 
-  .FILTER(DATEDIFF(month,Birthday,DATETIMEUTCNOW())` 
+PROFILE(Customer).FILTER(DATEDIFF(month,Birthday,DATETIMEUTCNOW())` 
 
 16. Segment all contacts who unsubscribed after campaign started.
 
-`PROFILE(Contact) 
-  .FILTER(Unsubscribed > CampaignStartDate)` 
+`PROFILE(Contact).FILTER(Unsubscribed > CampaignStartDate)` 
 
 17. Segment all events that contains `run` in name field. 
 
-`PROFILE(Event) 
-   .FILTER(Name CONTAINS 'run')` 
+`PROFILE(Event).FILTER(Name CONTAINS 'run')` 
 
 18. Segment all events whose names ends with `run`. 
 
-`PROFILE(Event) 
-   .FILTER(Name ENDSWITH 'run')` 
+`PROFILE(Event).FILTER(Name ENDSWITH 'run')` 
 
 19. Segment all customers without address.
 
-`PROFILE(Customer) 
-   .FILTER(ISNULL(Address))` 
+`PROFILE(Customer).FILTER(ISNULL(Address))` 
