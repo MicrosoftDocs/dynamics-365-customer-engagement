@@ -103,7 +103,7 @@ For agents to receive conversations, the work streams should be linked with chan
 To know more about channels and how to set up channels, see the following topics: 
 - Create a Chat channel
 - [Create an Entity channel](create-entity-channel.md)
-- Create an SMS channel
+
 
 
 ### See also
