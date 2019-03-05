@@ -122,7 +122,7 @@ The following example shows a typical hierarchy:
 
   - SAP Practice 
 
-	-Technical Consultants 
+	- Technical Consultants 
 	- Functional Consultants 
 	
   - Microsoft Technology Practice 
