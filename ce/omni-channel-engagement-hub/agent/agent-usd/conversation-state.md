@@ -25,7 +25,7 @@ Types of conversation states:
  
  - Waiting
  
- - Wrap
+ - Wrap-up
 
  - Closed
 
@@ -61,9 +61,9 @@ The conversations that you pick for working are classified under **Active** stat
 
     - When you close the session (not ending the conversation by selecting the **End** button).
     
-    - When the customer disconnects the conversation, and you wrap (close) the session (not ending the conversation by selecting the **End** button).
+    - When the customer disconnects the conversation, and you Wrap-up (close) the session (not ending the conversation by selecting the **End** button).
 
-- The conversation (work item) transitions from **Active** to **Wrap** state under the following scenarios: 
+- The conversation (work item) transitions from **Active** to **Wrap-up** state under the following scenarios: 
 
     - When you select the **End** button on **Communication panel** during the conversation with the customer.
 
@@ -83,16 +83,12 @@ The conversations that you close or customer disconnects are classified under **
 
 - The conversation (work item) transitions from **Waiting** to **Open** state when the customer revives the conversation within a specified timeout period.
 
-## Wrap
+## Wrap-up
 
-The conversations that are ended either by you or the customer are classified under **Wrap** state. This state is a phase where can finish the wrap-up activities like taking notes and update the customer information before moving the conversation to **Closed** state.
+The conversations that are ended either by you or the customer are classified under **Wrap-up** state. This state is a phase where can finish the Wrap-up activities like taking notes and update the customer information before moving the conversation to **Closed** state.
 
-- The conversation (work item) transitions from **Wrap** to **Closed** state under the following scenarios: 
-
-- When you select the **End** button in **Communication panel** to end the conversation.
-
-- When customer selects the **End** button to end the conversation in the portal chat widget.
+- The conversation (work item) transitions from **Wrap-up** to **Closed** state when you select the **End** button in **Communication panel** and close the session. 
 
 ## Closed
 
-The conversations that are completed by ending, and closing the session are classified under **Closed** state.
+The conversations that are completed by ending, and closing the session are classified under **Closed** state. When you close a conversation, you cannot reopen from 
