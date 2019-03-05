@@ -70,6 +70,46 @@ To control data access, you must set up an organizational structure that both pr
 |**Assign**|Required to give ownership of a record to another user. The records that can be assigned depends on the access level of the permission defined in your security role.|  
 |**Share**|Required to give access to a record to another user while keeping your own access. The records that can be shared depends on the access level of the permission defined in your security role.|  
   
+
+
+## Team Member’s privilege inheritance
+
+User and Team privileges
+
+  •	*User privileges*
+  
+    User is granted these privileges directly when a security role is assigned to the user. User can create and has access to records created/owned by the user when Basic access level for Create and Read were given.
+        
+  •	*Team privileges*
+  
+    User is granted these privileges as member of the team. For team members who do not have user privileges of their own,they can only create records with the team as the owner and they have access to records owned by the Team when Basic access level for Create and Read were given.
+    
+A security role can be set to provide team member direct Basic level access user privileges.  Team member can create records with self as owner as well as team as owner when Basic access level for Create is given.  When Basic access level for Read is given, team member can access records that are owned by both self and by the team.  
+
+This member’s privilege inheritance role is applicable to Owner (https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-teams#about-owner-teams) and AAD Group Teams (new section in the team doc)
+
+Create a security role with team member’s privilege inheritance
+1.	Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
+Check your security role
+•	Follow the steps in View your user profile.
+•	Don’t have the correct permissions? Contact your system administrator.
+
+2.	Go to Settings > Security.
+3.	Click Security Roles.
+4.	On the Actions toolbar, click New.
+5.	Enter a Role Name.
+6.	Click on the Member’s privilege inheritance dropdown list.
+7.	Select Direct User/Basic access level and Team privileges.
+8.	Navigate to each tab and set the appropriate privileges on each entity.
+To change the access level for a privilege, click the symbol until you see the symbol you want. The possible access levels depend on whether the record type is organization-owned or user-owned.
+
+Note:
+You can also set this privilege inheritance property for out-of-the-box security roles except the System Administrator role.  When a privilege inheritance security role is assigned to a user, the user gets all the privileges directly just like a security role without privilege inheritance.
+
+
+
+
+
 ## Overriding security roles  
  The owner of a record or a person who has the Share privilege on a record can share a record with other users or teams. Sharing can add Read, Write, Delete, Append, Assign, and Share privileges for specific records.  
   
