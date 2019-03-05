@@ -42,7 +42,7 @@
 ### [Business transactions](basic-business-transactions.md)
 ### [Estimates](estimates.md)
 ### [Analyzing project quotes](basic-analyzing-quotes.md)
-### [Recall an approved time or expense entry](recallapproved.md)
+### [Recall a previously approved time or expense entry](recallapproved.md)
 ### [Cancel approval on a previously approved time or expense entry](cancelapproval.md)
 ### [Actuals](actuals.md)
 ### [Review project billing backlog](review_invoicing_backlog.md)
