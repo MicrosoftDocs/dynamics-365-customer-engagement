@@ -2,7 +2,7 @@
 title: "JavaScript API Reference for Omni-channel Engagement Hub in Dynamics 365 | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 03/01/2019
+ms.date: 03/04/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
