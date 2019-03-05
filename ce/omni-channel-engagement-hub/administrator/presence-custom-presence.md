@@ -22,7 +22,7 @@ Presence status indicates an agent's availability or status. Presence status sto
 
 A presence status consists of two elements:
 
-- **Base status**: This is the base presence status which indicates an agent's availability and status to other agents. There are five base presence statuses – **Available**, **Busy**, **BusyDND**, **Away**, and **Offline**.
+- **Base status**: This is the base presence status which indicates an agent's availability and status for seamless routing and work distribution. There are five base presence statuses – **Available**, **Busy**, **BusyDND**, **Away**, and **Offline**.
 - **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents and other users during run time. 
 
 ## Out of the box presence statuses
