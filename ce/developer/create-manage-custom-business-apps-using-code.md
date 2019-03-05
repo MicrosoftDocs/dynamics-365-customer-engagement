@@ -32,7 +32,7 @@ System administrators and customizers can provide users access to these business
 In addition to creating custom business apps using the app designer, you can programmatically create and manage custom business apps in Dynamics 365 for Customer Engagement apps. 
 
 > [!IMPORTANT]
-> - However, you don't have to write code to build custom business apps if you don't need to! The app designer provides a much simpler and intuitive experience for building custom business apps without having to write code by providing a tile-based information structure and simplified interface. Check it out here: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
+> However, you don't have to write code to build custom business apps if you don't need to! The app designer provides a much simpler and intuitive experience for building custom business apps without having to write code by providing a tile-based information structure and simplified interface. Check it out here: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
   
 Creating a custom business app involves the following steps:
 1. Create an [AppModule Entity](entities/appmodule.md) instance to define your app and its properties.
