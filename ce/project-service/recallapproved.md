@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Recall a previously approved time or expense entry
+# Recall previously approved time or expense entries
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
