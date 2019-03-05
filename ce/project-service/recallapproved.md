@@ -37,7 +37,7 @@ b. Approver must approve the recall
 4. Enter a reason for recall and Click ok to confirm the recall process.
 5. The sytem will trigger a request to the approver of these entires to approve the recall.
 ---
-**Note: Recall of approved time or expense entries is allowed however, if the approved time or expense has already been invoiced to the custoemr, then recall request is not created and the recaller is shown a message saying that the time or expense cannot be recalled since it was already invoiced.** 
+*Note: Recall of approved time or expense entries is allowed however, if the approved time or expense has already been invoiced to the custoemr, then recall request is not created and the recaller is shown a message saying that the time or expense cannot be recalled since it was already invoiced.* 
 ---
 ## Approving or Rejecting the recall request of an approved time or expense entry
 1. To access Recall requests as an approver, navigate to Projects -> My Work -> Approvals
@@ -46,7 +46,7 @@ b. Approver must approve the recall
 4. If you clicked on "approve",  A warning message explaining the impact will be shown. Click ok to confirm. The recall request will be approved. 
 5. If you clicked on "reject", the recall request will be rejected. 
 ---
-**Note: Just as at the time of requesting the recall, at the time of approving the recall, the system will check for any invoicing activity on the entry. If the entry was already invoiced or is on a draft invoice, the approver will see an error message informing the approver that the time or expense cannot be approved for recall since it was already invoiced.** 
+*Note: Just as at the time of requesting the recall, at the time of approving the recall, the system will check for any invoicing activity on the entry. If the entry was already invoiced or is on a draft invoice, the approver will see an error message informing the approver that the time or expense cannot be approved for recall since it was already invoiced.*
 ---
 ## Understand the impact of approving or rejecting a recall request 
 
