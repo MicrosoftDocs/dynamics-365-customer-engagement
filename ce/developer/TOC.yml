@@ -1016,8 +1016,6 @@
   items:
   - name: Administer the deployment using the deployment web service
     href: deployment-service/
-  - name: Disaster recovery
-    href: disaster-recovery-online-customer-engagement.md
   - name: Sample data
     href: sample-data.md
     items:

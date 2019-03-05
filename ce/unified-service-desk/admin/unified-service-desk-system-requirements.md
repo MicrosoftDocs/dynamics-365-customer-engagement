@@ -34,41 +34,32 @@ This topic provides information about the system requirements for installing the
 | Component |                                           Minimum                                           |                                                                                                                                                                            Recommended                                                                                                                                                                            |
 |-----------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Processor | x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor |                                                                                                                                    x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor                                                                                                                                    |
-|  Memory   |                                      ^2-GB RAM or more                                       |                                                                                                                                                                         ^4-GB RAM or more                                                                                                                                                                          |
+|  Memory   |                                      ^4-GB RAM or more                                       |                                                                                                                                                                         8-GB RAM or more                                                                                                                                                                          |
 | Hard disk |                            \*1.5 GB of available hard disk space                            | 12 GB of available hard disk space: 2 GB of available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application files and 10 GB additional available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client log files<br /><br /> 7200 RPM or more |
 
- ^The minimum and recommended memory are for running basic scenarios. The actual memory required for Unified Service Desk increases with the complex configurations and custom development (UI experience).
+ ^The minimum memory is for running basic scenarios. The actual memory required for Unified Service Desk increases with the complex configurations and custom development (UI experience).
  
  *Requires disabling [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client logging. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure client diagnostic logging in Unified Service Desk](../../unified-service-desk/admin/configure-client-diagnostic-logging-unified-service-desk.md)  
 
 <a name="client"></a>   
-## Software requirements for the Unified Service Desk client  
+## Software requirements for the Unified Service Desk client
+
  To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, the following is required:  
 
-- [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)], [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)], [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)], or [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)]  
-
-- [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)], [!INCLUDE[pn_IE_10](../../includes/pn-ie-10.md)], or <sup>*</sup>[!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)]  
+| Requirement | Recommended Version | Supported Version|
+|---------------------------|---------------------------|---------------------|
+| Operating system | <ul><li>[!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li></ul> |<ul><li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (SP1)</li></ul>  |
+| Web browser | <ul><li> [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)] </li><li> Microsoft Edge (Preview)</li></ul> | <ul><li> [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)] </li><li> Microsoft Edge (Preview)</li></ul> |
+| Microsoft .NET Framework | <ul><li>[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)</li></ul> |  |
+| Windows Identity Foundation  | <ul><li> Windows Identity Foundation 3.5 (installed during Unified Service Desk Setup if missing) </li></ul> |  |
+| Screen resolution | <ul><li> 1920 x 1080 (Pixels) </li></ul> |  |
+| Magnifier | <ul><li> 100 % </li></ul> |  
 
   > [!Tip]
   > We recommend that you use [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] and [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)].
   > 
   > [!IMPORTANT]
-  > [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)] (Preview) is currently supported for use with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. More information: [Edge Process](../edge-process.md)
-  > 
-  >  <sup>*</sup> [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] is supported for use only with [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)] organizations. Also, [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] may work for systems that are not [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
-
-- [!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)  
-
-> [!NOTE]
-> - [!INCLUDE [pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] or higher version installs [!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)]. 
-> - [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] version installs Microsoft .NET Framework 4.6.2.
-
-
-- [!INCLUDE[pn_Windows_Identity_Foundation](../../includes/pn-windows-identity-foundation.md)] 3.5 (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)  
-
-- Recommended screen resolution (in pixels): 1920 x 1080  
-
-- Recommended zoom level in Magnifier: 100%  
+  > [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)] (Preview) is currently supported for use with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. More information: [Edge Process](../edge-process.md).
 
 <a name="SampleApps"></a>   
 ## Software requirements for deploying Unified Service Desk sample applications  
