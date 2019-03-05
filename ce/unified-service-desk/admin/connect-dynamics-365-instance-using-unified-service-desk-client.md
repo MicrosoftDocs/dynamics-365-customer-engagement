@@ -78,13 +78,12 @@ By default, the SSO feature is enabled for the Chrome browser. With SSO, you nee
 
 **SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default, **SingleSignOnThreshold** value is 5000 milliseconds. To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
 
-To change the value, configure the **SingleSignOnThreshold** UII option and enter a value in the range **1000** through **60000** milliseconds. If you enter **0** as the value, then the **SingleSignThreshold** is disabled, and you must enter the credentials more than once. If you enter a value more than **60000** milliseconds, then the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] defaults the value to **5** milliseconds.
+To change the value, configure the **SingleSignOnThreshold** UII option and enter a value in the range **1000** through **60000** milliseconds. If you enter a value more than **0** or any value more **60000** milliseconds, then the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] defaults the value to **5000** milliseconds.
 
 |Value in milliseconds | Description |
 |-------|------------------------|
 | **5000** | Default value |
 | **1000-60000** | Accepted value range |
-| **0** | **SingleSignOnThreshold** is disabled |
 | **> 60000** | Value is defaulted to **5** milliseconds |
 
 ### Change SingleSignOnThreshold value
