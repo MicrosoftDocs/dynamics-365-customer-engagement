@@ -337,7 +337,7 @@ To enable close confirmation dialog, you must add the **OnBeforeCloseHandler** U
 
 6. Select **Save**.
 
-## Zoom in and out keyboard shortcuts
+## Zoom in, zoom out, and zoom reset keyboard shortcuts
 
 Be default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as follows.
 | Function | Keyboard shortcut | Example |
@@ -346,20 +346,40 @@ Be default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as 
 | Zoom out |`Ctrl` + `OemMinus`| `Ctrl -`|
 | Zoom reset |`Ctrl` + `0`| `Ctrl 0`|
 
-To change the default value, you must add the UII options and provide the character as the value. 
-The keys are:
+To change the default value, you must add the UII options and provide the character as the value. To learn about the allowed set of charater values, see [Keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields)
 
-- ZoomInControlKey
+### List of zoom control UII options
 
-- ZoomOutControlKey
+| UII option | Description | Example character |
+|------------|-------------|-------------------|
+| ZoomInControlKey | This option allows you to add a new character to support the zoom in control when using Chrome Process. | `A` |
+| ZoomOutControlKey | This option allows you to add a new character to support the zoom out control when using Chrome Process. | `D1` |
+| ZoomResetControlKey | This option allows you to add a new character to support the zoom reset control when using Chrome Process. | `NumPad4` |
 
-- ZoomResetControlKey
+> [!Important]
+> You must take few precautions before providing the value for the character are as follows:
+>
+> - Ensure that character you update for the UII option doesn't conflict with your existing keyboard shortcuts.
+>
+> - If you leave the value blank, the default keboard shortcuts will be disabled.
 
-You must take few precautions before providing the value for the character are as follows:
+### Add the Zoom control UII option
 
-- Ensure that character you update for the UII option doesn't conflict with your existing keyboard shortcuts.
+1. Sign in to Dynamics 365 for Customer Engagement apps.
 
-- If you leave the value blank then the de
+2. Go to **Settings** > **Unified Service Desk** > *Options*.
+
+3. On the Active UII Options page, select **+ New**. 
+
+4. Choose **Others** for the **Global Option** field.
+
+5. Type the name of the UII option for the **Name** field and type value for the **Value** field.<br> See the list of [zoom control UII options](#list-of-zoom-control-uii-options).<br> See the list of [value keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+
+6. Select **Save**.
+
+## Default zoom control value
+
+
 
 ## Limitations
 
