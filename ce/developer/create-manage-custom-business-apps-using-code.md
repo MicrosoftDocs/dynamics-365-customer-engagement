@@ -2,7 +2,7 @@
 title: "Create and manage custom business apps using code for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about how to create, manage, and publish business apps in Customer Engagement using code. Dynamics 365 for Customer Engagement business apps are purpose built that provide a limited set of functionality that is relevant for a particular area of work."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 03/04/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,7 +26,7 @@ Business apps in Customer Engagement are modular, purpose built apps that provid
 
 System administrators and customizers can provide users access to these business apps using security roles; users can access only those apps that they have permission to. More information: [Business apps in Dynamics 365 for Customer Engagement apps](../basics/business-apps-dynamics-365.md)
 
-In addition to creating custom business apps using the app designer, you can now programmatically create and manage custom business apps in Dynamics 365 for Customer Engagementm apps. 
+In addition to creating custom business apps using the app designer, you can now programmatically create and manage custom business apps in Dynamics 365 for Customer Engagement apps. 
 
 > [!IMPORTANT]
 > You don't have to write code to build custom business apps if you don't need to! The app designer provides a much simpler and intuitive experience for building custom business apps without having to write code by providing a tile-based information structure and simplified interface. Check it out here: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)  
@@ -41,11 +41,7 @@ Creating a custom business app involves the following steps:
 
 ## Create your business app and define its properties
 
-You must have the System Administrator or System Customizer security role or equivalent permissions to be able to create an app. You can select from one of the following types for your app to specify the client that the app will the app will be used for: 
-- **Web**:  This is the classic Dynamics 365 for Customer Engagement apps web browser client.
-- **Unified Interface**: Runs on the new Unified Interface, which provides key accessibility and responsive design benefits. For more information about Unified Interface, see [Unified Interface framework for new apps](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps). 
-
-You select the app type by specifying an integer value for the **clienttype** attribute: 2 for **Web** and 4 for **Unified Interface**. If you do not specify the type for an app, the type is set to **Web** by default. 
+You must have the System Administrator or System Customizer security role or equivalent permissions to be able to create an app.
 
 You must specify the following properties at a minimum to create an app:
 - **name**: Unique for your app
@@ -64,8 +60,7 @@ Accept: application/json
 {
     "name": "SDKTestApp",
     "uniquename":"SDKTestApp",
-    "webresourceid":"953b9fac-1e5e-e611-80d6-00155ded156f",
-    "clienttype": 4
+    "webresourceid":"953b9fac-1e5e-e611-80d6-00155ded156f"    
 }
 ```
 
