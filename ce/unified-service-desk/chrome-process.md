@@ -337,6 +337,30 @@ To enable close confirmation dialog, you must add the **OnBeforeCloseHandler** U
 
 6. Select **Save**.
 
+## Zoom in and out keyboard shortcuts
+
+Be default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as follows.
+| Function | Keyboard shortcut | Example |
+|----------|------------|-----------|
+| Zoom in |`Ctrl` + `Oemplus`| `Ctrl +` |
+| Zoom out |`Ctrl` + `OemMinus`| `Ctrl -`|
+| Zoom reset |`Ctrl` + `0`| `Ctrl 0`|
+
+To change the default value, you must add the UII options and provide the character as the value. 
+The keys are:
+
+- ZoomInControlKey
+
+- ZoomOutControlKey
+
+- ZoomResetControlKey
+
+You must take few precautions before providing the value for the character are as follows:
+
+- Ensure that character you update for the UII option doesn't conflict with your existing keyboard shortcuts.
+
+- If you leave the value blank then the de
+
 ## Limitations
 
 To learn about the limitations of the Edge process, see [Chrome Process limitations](release-notes.md)
