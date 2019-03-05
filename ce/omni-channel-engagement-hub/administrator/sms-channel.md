@@ -1,4 +1,3 @@
-
 ---
 title: "Configure an SMS channel | MicrosoftDocs"
 description: "Instructions to configure an SMS channel in Omni-channel Engagement Hub."
