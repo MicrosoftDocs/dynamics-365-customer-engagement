@@ -30,6 +30,7 @@
 ## [Promo codes: Commercial Web Direct](promo-codes-commercial-web-direct.md)
 # [Support and billing](billing-support.md)
 ## [Contact technical support](/power-platform/admin/get-help-support) 
+## [Determine your organization ID and name](determine-org-id-name.md)
 ## [Help and additional resources](help-additional-resources.md)
 ## [Volume licensing FAQ](volume-licensing-faq-dynamics-365-online-customer-engagement.md)
 ## [Billing FAQ](billing-faqs-dynamics-365-online.md)

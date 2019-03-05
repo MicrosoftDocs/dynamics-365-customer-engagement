@@ -1,5 +1,5 @@
 ---
-title: "Determine your environment's organization name and ID | MicrosoftDocs"
+title: "Determine your environment's organization ID and name | MicrosoftDocs"
 ms.custom: 
 ms.date: 03/05/2019
 ms.reviewer: 
@@ -21,8 +21,13 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Determine your environment's organization name and ID
+# Determine your environment's organization ID and name
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-For information about Dynamics 365 for Customer Engagement apps support for mobile devices, see [What's supported](../mobile-app/support-phones-tablets.md) in the Phones and Tablets Administrator Guide.
+Follow these steps to determine your organization name and ID.
+
+1. Go to **Settings** > **Customizations** > **Developer Resources**.
+2. Under **Instance Reference Information**, make note of **ID** and **Unique Name**. **Unique Name** is the organization name.
+
+
