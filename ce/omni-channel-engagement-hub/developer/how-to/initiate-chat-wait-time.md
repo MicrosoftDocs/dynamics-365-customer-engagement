@@ -1,8 +1,8 @@
 ---
-title: "Walkthrough: Initiate a chat when user has been waiting for some time | Microsoft Docs"
+title: "Walkthrough: Initiate a chat when a user has been waiting for some time | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 03/01/2019
+ms.date: 03/04/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -12,18 +12,20 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# Walkthrough: Initiate a chat when user has been waiting for some time
+# Walkthrough: Initiate a chat when the user has been waiting
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Consider the situation that a user on the website of Contoso Ltd. has been waiting for 1 minute, and developer wants to setup a rule that chat widget will programmatically open after a user has been waiting for a certain time, which in our example is 1 minute.
+<!--note from editor:  specify what the user is waiting for--customer support, specifically?  -->
 
-Follow the given steps to programmatically commence a chat after user has been waiting for 1 minute:
+You might want to set up a rule that a chat widget will programmatically open after a user has been waiting on a website for a certain amount of time. Consider a situation in which a user of the website of Contoso Ltd. has been waiting for one minute.
 
-1. Listen on the **lcw:ready** event raised by live chat to start using the LiveChat SDK methods.
-2. Once the **lcw:ready** event is raised, wait for 1 minute using the **window.setTimeout()** method and then call the [startChat](../reference/methods/startChat.md) to open the chat widget.
+Follow these steps to programmatically start a chat after an user has been waiting for one minute:
+
+1. Listen on the **lcw:ready** event raised by a live chat to start using the live chat SDK methods.
+2. Once the **lcw:ready** event is raised, wait for one minute using the **window.setTimeout()** method, and then call the [startChat](../reference/methods/startChat.md) method to open the chat widget.
 
 ## Sample code
 
@@ -41,6 +43,6 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 });
 ```
 
-## See also
+### See also
 
 [JavaScript API reference](../omni-channel-reference.md)

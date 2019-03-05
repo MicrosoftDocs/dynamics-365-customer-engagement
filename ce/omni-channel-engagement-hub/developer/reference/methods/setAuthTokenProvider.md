@@ -6,7 +6,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 01/10/2019
+ms.date: 03/03/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 8CC62024-BBE4-481B-88A8-1DBC8B47F353
@@ -14,7 +14,7 @@ ms.custom:
 ---
 # setAuthTokenProvider (Omni-channel Engagement Hub JavaScript API reference)
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -26,9 +26,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 ## Parameters
 
+
+
 | Parameter | Type | Description |
 | ---- | ---- | ---- |
-| authTokenProvider | Function | Function which would act as `auth-token` provider |
+| authTokenProvider | Function | Function that acts as an authentication-token provider |
 
 ## Return Value
 

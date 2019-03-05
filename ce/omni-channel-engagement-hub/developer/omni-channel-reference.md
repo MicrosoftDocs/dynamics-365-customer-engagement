@@ -2,7 +2,7 @@
 title: "JavaScript API Reference for Omni-channel Engagement Hub in Dynamics 365 | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 03/01/2019
+ms.date: 03/04/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -12,9 +12,9 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# JavaScript API Reference for Omni-channel Engagament Hub in Dynamics 365
+# JavaScript API Reference for Omni-channel Engagement Hub
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -22,7 +22,7 @@ Provides JavaScript methods that you can use to perform various operations with 
 
 ## Methods
 
-| Methods | Description |
+| Method | Description |
 |---------|-------------|
 | [getContextProvider](reference/methods/getContextProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getContextProvider-description.md)] |
 | [setContextProvider](reference/methods/setContextProvider.md) | [!INCLUDE[setContextProvider-description](reference/includes/setContextProvider-description.md)] |
@@ -39,6 +39,6 @@ Provides JavaScript methods that you can use to perform various operations with 
 | [lcw:ready](reference/events/lcw-ready.md) | [!INCLUDE[lcw-ready-description](reference/includes/lcw-ready-description.md)] |
 | [lcw:error](reference/events/lcw-error.md) | [!INCLUDE[lcw-error-description](reference/includes/lcw-error-description.md)] |
 
-## See also
+### See also
 
 [Omni-channel Engagement Hub for developers](omni-channel-engagement-hub-developer.md)

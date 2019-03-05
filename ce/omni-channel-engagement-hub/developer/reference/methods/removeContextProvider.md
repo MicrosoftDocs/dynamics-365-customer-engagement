@@ -6,7 +6,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 01/10/2019
+ms.date: 03/03/2019
 ms.service: 
 ms.topic: article
 ms.assetid: C1EBAEC6-42D4-4D8F-9FFC-89DA2AD50B2B
@@ -14,7 +14,7 @@ ms.custom:
 ---
 # removeContextProvider (Omni-channel Engagement Hub JavaScript API reference)
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 

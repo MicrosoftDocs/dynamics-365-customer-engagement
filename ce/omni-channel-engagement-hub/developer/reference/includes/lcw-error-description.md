@@ -1,1 +1,3 @@
-This event is invoked in case an error is incurred upon using any method.
+<!--note from editor: Suggested edit: "Invoked if a method call results in an error" ?    -->
+
+Invoked in case an error is incurred upon using any method.
