@@ -29,7 +29,7 @@ Omni-channel Engagement Hub provides SDK methods for live chat features that all
 - Retrieve and remove the context from an omni-channel session.
 - Programmatically open an existing chat.
 - Create a new chat.
-- Set, retrieve, and remove authentication token providers.
+- Set, retrieve, and remove authentication-token providers.
 
 ## In this section
 
