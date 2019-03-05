@@ -21,12 +21,12 @@ topic-status: Drafting
 ---
 # msdyn_forecastdefinition EntityType
 
-Entity Set Path [organizationURI]/api/data/v9.1/msdyn_forecastdefinitions
-Base Type
-Display Name 
-Primary key
-Primary key attribute
-Operations supported
+Entity Set Path [organizationURI]/api/data/v9.1/msdyn_forecastdefinitions<br />
+Base Type<br />
+Display Name <br />
+Primary key<br />
+Primary key attribute<br />
+Operations supported<br />
 
 ## Properties
 
