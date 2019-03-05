@@ -71,8 +71,11 @@ Due to the above changes, the spend recorded on the project and the revenue back
 If a recall request is rejected  there is no financial impact on the project.
 
 ## State Transitions during recall of approved time and expense entries
+###Time Entry state transitions: the picture below represents that state transitions of Time Entry and Approval records during the recall of an approved Time Entry
 
-> ![Time Entry state transitions](media/TimeEntryStateTransitions.png)
+![Time Entry state transitions](media/TimeEntryStateTransitions.png)
 
-> ![Expense Entry state transitions](media/ExpenseEntryStateTransitions.png)
+###Expense Entry state transitions:The picture below represents that state transitions of Time Entry and Approval records during the recall of an approved Expense Entry
+
+![Expense Entry state transitions](media/ExpenseEntryStateTransitions.png)
 
