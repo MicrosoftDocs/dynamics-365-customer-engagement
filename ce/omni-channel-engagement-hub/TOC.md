@@ -14,37 +14,33 @@
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
 
 ### Channels
-#### Create a Chat channel
-#### [Create an Entity channel](administrator/create-entity-channel.md)
+#### [Configure a chat channel](administrator/set-up-chat-widget.md)
+##### [Add a chat widget](administrator/add-chat-widget.md)
+##### [Configure agent display name](administrator/agent-display-name.md)
+##### [Create a survey question](administrator/create-question-library.md)
+##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
+##### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
+#### [Configure an Entity channel](administrator/create-entity-channel.md)
 
-### User Management
+### Queues and Users
 #### [Work with queues](administrator/queues-omni-channel.md)
 #### [Manage users](administrator/users-user-profiles.md)
 
-### Work Distribution
+### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 
-
-### [Configure a chat channel](administrator/set-up-chat-widget.md)
-#### [Add a chat widget](administrator/add-chat-widget.md)
-#### [Configure agent display name](administrator/agent-display-name.md)
-#### [Create a survey question](administrator/create-question-library.md)
-#### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
-#### [Create and manage operating hours](administrator/create-operating-hours.md)
-#### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
-#### [Set up location detection](administrator/geo-location-provider.md)
-#### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
-
-### [Configure an SMS channel](administrator/sms-channel.md)
-
-### [Create and manage data masking rules](administrator/data-masking-settings.md)
-
-### Agent experience settings
+### Agent Experience
 #### [Create quick replies](administrator/create-quick-replies.md)
-#### [Configure and manage presence status](administrator/presence-custom-presence.md)
+#### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
+
+### Settings
+#### [Create and manage operating hours](administrator/create-operating-hours.md)
+#### [Set up location detection](administrator/geo-location-provider.md)
+#### [Create and manage data masking rules](administrator/data-masking-settings.md)
+#### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 
 ## [Agent guide](agent/omni-channel-engagement-hub-agent-introduction.md)
 ### [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)

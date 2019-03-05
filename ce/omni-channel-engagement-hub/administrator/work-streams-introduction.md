@@ -36,7 +36,7 @@ When work streams are linked with channels, the routing and work distribution se
 
 Follow these steps to create a new work stream in Omni-channel Engagement Hub.
 
-1. In the Omni-channel site map, select **Work Distribution \> Work Streams**.
+1. In the Omni-channel site map, go to **Work Distribution Management \> Work Streams**.
 
     The **Active Work Streams** view is shown. 
 

@@ -30,7 +30,7 @@ Navigate to **Omni-channel Administration > User Management > Users** to view th
 
 ## Manage a user in Omni-channel
 
-1. In the Omni-channel site map, select **User Management \> Users**.
+1. In the Omni-channel site map, go to **Queues & Users \> Users**.
 
     The **Omni-channel Users** view is shown. 
 

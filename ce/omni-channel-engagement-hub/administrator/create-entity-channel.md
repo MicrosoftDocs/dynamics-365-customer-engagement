@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e
 ms.custom: 
 ---
-# Create an Entity channel
+# Configure an Entity channel
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -29,7 +29,7 @@ To set up entity routing for Common Data Service for Apps using an Entity channe
 
 ### In Omni-channel Engagement Hub
 
-1. In the Omni-channel site map, select **Work Distribution \> Work Streams**.
+1. In the Omni-channel site map, go to **Work Distribution Management \> Work Streams**.
 2. Fill in the **General information** section as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).
     For Entity work stream, select **Stream Source** as **Entity**. 
 3. Fill in the **Work distribution** section as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).

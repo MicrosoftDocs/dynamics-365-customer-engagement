@@ -38,7 +38,7 @@ There is a default Omni-channel queue for each organization. Admins can't delete
 
 Follow these steps to create a new Omni-channel queue.
 
-1. In the Omni-channel site map, select **User Management \> Omni-channel Queues**.
+1. In the Omni-channel site map, go to **Queues & Users \> Omni-channel Queues**.
 
     The **Active Omni-channel Queue** view is shown.
 

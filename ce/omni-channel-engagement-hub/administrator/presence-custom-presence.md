@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 5a28a973-6c1d-41b9-8f42-74aa233f5aba
 ms.custom: 
 ---
-# Configure and manage presence status
+# Configure and manage custom presence
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -22,7 +22,7 @@ Presence status indicates an agent's availability or status. Presence status sto
 
 A presence status consists of two elements:
 
-- **Base status**: This is the base presence status which indicates an agent's availability and status for seamless routing and work distribution. There are five base presence statuses – **Available**, **Busy**, **BusyDND**, **Away**, and **Offline**.
+- **Base status**: The base presence status which indicates an agent's availability and status. Work distribution system distributes work items to agents according to these presence statuses. There are five base presence statuses – **Available**, **Busy**, **BusyDND**, **Away**, and **Offline**.
 - **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents and other users during run time. 
 
 ## Out of the box presence statuses
