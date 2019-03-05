@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e
 ms.custom: 
 ---
-# Configure an Entity channel
+# Configure an entity channel
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

@@ -20,9 +20,9 @@
 ##### [Create a survey question](administrator/create-question-library.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
-#### [Configure an Entity channel](administrator/create-entity-channel.md)
+#### [Configure an entity channel](administrator/create-entity-channel.md)
 
-### Queues and Users
+### Queues & Users
 #### [Work with queues](administrator/queues-omni-channel.md)
 #### [Manage users](administrator/users-user-profiles.md)
 
@@ -30,6 +30,7 @@
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
+#### [Understand conversation state lifecycle](administrator/conversation-state-lifecycle.md)
 
 ### Agent Experience
 #### [Create quick replies](administrator/create-quick-replies.md)

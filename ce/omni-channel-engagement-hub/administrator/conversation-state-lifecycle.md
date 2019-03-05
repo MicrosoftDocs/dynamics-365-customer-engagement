@@ -13,7 +13,7 @@ ms.assetid: 1a4ef45e-efb3-4a9c-9665-20bb1eed9998
 ms.custom: 
 ---
 
-# Understand the conversation state lifecycle
+# Understand conversation state lifecycle
 
 When a conversation is allocated to an agent, the agent works on the conversation and drives it to logical closure. After the conversation is completed and closed, the agent's capacity becomes available. The agent can then start to accept the next set of conversations that are waiting for attention. Therefore, the distribution of incoming conversations among agents works like clockwork, and efficiencies are utilized.
 
