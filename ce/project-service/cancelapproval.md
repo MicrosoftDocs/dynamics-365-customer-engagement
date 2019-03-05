@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Cancel approval of previously approved time and expense entries
+# Cancel approval of previously approved time or expense entries
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
