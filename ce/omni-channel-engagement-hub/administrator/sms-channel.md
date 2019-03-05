@@ -1,3 +1,4 @@
+
 ---
 title: "Configure an SMS channel | MicrosoftDocs"
 description: "Instructions to configure an SMS channel in Omni-channel Engagement Hub."
@@ -19,9 +20,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-An SMS channel allows your organization to connect to customers by using text messages. When you configure an SMS channel, you have a dedicated phone number to which customers can send text messages and connect with an appropriate agent. This provides your customers the flexibility to connect to the chat channel with their mobile devices even if there is no internet connection.
+An SMS channel allows your organization to connect to customers by using text messages. When you configure an SMS channel, your customers can send text messages and connect with an appropriate agent. This provides your customers the flexibility to connect with their mobile devices even if there is no internet connection for connecting to chat channel.
 
 Agents can view the incoming SMS requests in their dashboard and respond accordingly.
+
+SMS channel is available in preview. You must sign-up for the preview through the Dynamics 365 Insider Program so that it is enabled for your organization.
 
 ## Add SMS support for your organization
 
