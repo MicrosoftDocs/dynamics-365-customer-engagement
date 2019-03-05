@@ -20,7 +20,7 @@ caps.latest.revision: 9
 topic-status: Drafting
 ---
 
-# Private preview: Analyze customer-interaction data with Embedded intelligence 
+# Analyze customer-interaction data with Embedded intelligence 
 
 Applies to Dynamics 365 for Customer Engagement (online), version 9.1.0<br>
 
