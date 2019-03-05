@@ -71,30 +71,8 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 |    **Authentication Settings**      |    View/add/edit/delete authentication settings|    Yes   |     No  |     No |
 |||
 
-| Area | Operation | Omni-channel administrator | Omni-channel supervisor | Omni-channel agent |
-|---------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------|---------------------------|----------------------------------|
-| **User Management** | View user list| Yes | Yes | Yes |
-| | Edit roles of a user | Yes | No | No |
-| | Edit default presence/default capacity/queue assignment of a user| Yes | Yes | No |
-| **Custom Presence** | View presence list| Yes | Yes | Yes |
-| | Add/edit/delete presence | Yes | No | No |
-| | Add users to presence| Yes | Yes | No |
-| | Remove users from presence| Yes | Yes | No |
-| **Work streams** | View work stream list/details| Yes | Yes | Yes |
-| | Add/edit/delete </br> - Work stream </br> - Channel settings </br> - Context settings </br> - Routing rules </br> - Presence associations | Yes | No | No 
-| **Queues** | View queue list/details| Yes | Yes | Yes |
-| | Add/edit/delete queue | Yes | No | No |
-| | Add agents to queue| Yes | Yes | No |
-| | Remove agents from queue| Yes | Yes | No |
-| **Quick Replies** | View quick replies| Yes | Yes | Yes |
-| | Add/edit/delete quick replies | Yes | Yes | No |
-| **Operating Hours** | View operating hours| Yes | Yes | No |
-| | Add/edit/delete operating hours | Yes | No | No |
-| **Authentication Settings** | View/add/edit/delete authentication settings| Yes | No | No |
-|||
 
-
-----------------------------------------------------------------------------
+---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 | Role |View |Add/edit/delete |Add/Remove |
 |---------|---------|---------|---------|
