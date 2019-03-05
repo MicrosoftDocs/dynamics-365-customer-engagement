@@ -91,4 +91,4 @@ The conversations that are ended either by you or the customer are classified un
 
 ## Closed
 
-The conversations that are completed by ending, and closing the session are classified under **Closed** state. When you close a conversation, you cannot reopen from 
+The conversations that are completed by ending, and closing the session are classified under **Closed** state. When you close a conversation, you cannot reopen from <\kabala question: from where?>
