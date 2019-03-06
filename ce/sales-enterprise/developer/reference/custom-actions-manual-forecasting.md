@@ -1,6 +1,6 @@
 ---
-title: "Custom actions for Manual forecasting (Developer Guide for Dynamics 365 for Sales)| MicrosoftDocs"
-description: "Reference documentation for the custom actions of Manual forecasting"
+title: "Custom actions for manual forecasting (Developer Guide for Dynamics 365 for Sales)| MicrosoftDocs"
+description: "Reference documentation for the custom actions of manual forecasting"
 ms.date: 03/05/2019
 ms.service: "dynamics-365-sales"
 ms.custom:
@@ -17,10 +17,12 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Custom actions for Manual forecasting
+# Custom actions for manual forecasting
 
 > [!IMPORTANT]
 > The following actions in the [$metadata](/powerapps/developer/common-data-service/webapi/web-api-types-operations#csdl-metadata-document) document of your Dynamics 365 for Customer Engagement instance are meant for internal use only. This means that programmatically using these actions in your code to manipulate data is not supported.
+
+Use the following actions for manual forecasting:
 
 - **msdyn_ForecastRecalculate Action**: [!INCLUDE[msdyn_ForecastRecalculate-description](includes/msdyn_ForecastRecalculate-description.md)]<br />
 
@@ -32,7 +34,7 @@ search.app:
 
 ### See also
 
-[Entity reference for Manual forecasting](manual-forecasting-entity-reference.md)<br />
+[Entity reference for manual forecasting](manual-forecasting-entity-reference.md)<br />
 [Developer guide for Dynamics 365 for Sales](../developer-guide.md)<br />
 [User guide for Dynamics 365 for Sales](../../user-guide.md)<br />
 [Administrator and Sales Manager guide](../../admin-guide.md)
