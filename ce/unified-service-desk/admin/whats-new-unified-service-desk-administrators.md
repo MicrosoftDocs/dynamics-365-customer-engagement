@@ -49,13 +49,13 @@ The User Interface Integration (UII) framework provides a hosted control - **Cha
 
 More information: [Integrate channel provider using Channel Integration Framework](../integrate-channel-provider-channel-integration-framework.md)
 
-## Preview: Set Configuration Cache Version
+### Preview: Set Configuration Cache Version
 
 The **Configuration Cache Version** option causes the client caching feature to retrieve the configuration that has undergone change from the Dynamics 365 for Customer Engagement server to the agent’s desktop. This helps to improve the startup performance of Unified Service Desk.
 
 More information: [Set Configuration Cache Version](../admin/set-configuration-cache-version.md)
 
-## Preview: Single Sign On for Unified Service Desk
+### Preview: Single Sign On for Unified Service Desk
 
 Single Sign On (SSO) in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] authenticates users to access Microsoft Dynamics 365 for Customer Engagement apps using the Dynamics 365 for Customer Engagement apps credentials with out entering the credentials multiple times.
 
