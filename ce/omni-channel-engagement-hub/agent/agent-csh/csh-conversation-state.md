@@ -47,7 +47,7 @@ The conversations (work items) that are in the queue or available for you (agent
 
 The conversations that you pick for working are classified under **Active** state. In the **Active** state, your capacity is consumed.
 
-- The conversation (work item) transitions from **Active** to **Closed** state when you complete working on the conversation and end the conversation and close the session.
+- The conversation (work item) transitions from **Active** to **Closed** state when you complete working on the conversation and end the conversation and close the session. This is applicable only for the Entity Routing conversations (work items) and not for any other channel conversations (work items).
 
 - The conversation (work item) transitions from **Active** to **Open** state under the following scenarios:
 
@@ -91,4 +91,8 @@ The conversations that are ended either by you or the customer are classified un
 
 ## Closed
 
-The conversations that are completed by ending, and closing the session are classified under **Closed** state. When you close a conversation, you cannot reopen from 
+The conversations that are completed by ending, and closing the session are classified under **Closed** state. When you close a conversation, you cannot reactivate or reopen the conversation again.
+
+## See also
+
+[Understand conversation state lifecycle](../../administrator/conversation-state-lifecycle.md)
