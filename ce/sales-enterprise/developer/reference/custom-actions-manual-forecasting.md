@@ -20,7 +20,7 @@ search.app:
 # Custom actions for Manual forecasting
 
 > [!IMPORTANT]
-> You will find these actions in the [$metadata](/powerapps/developer/common-data-service/webapi/web-api-types-operations#csdl-metadata-document) document of your Dynamics 365 for Customer Engagement instance that are meant for internal use only. This means that programmatically using the following actions in your code to manipulate data is not supported.
+> The following actions in the [$metadata](/powerapps/developer/common-data-service/webapi/web-api-types-operations#csdl-metadata-document) document of your Dynamics 365 for Customer Engagement instance are meant for internal use only. This means that programmatically using these actions in your code to manipulate data is not supported.
 
 - **msdyn_ForecastRecalculate Action**: [!INCLUDE[msdyn_ForecastRecalculate-description](includes/msdyn_ForecastRecalculate-description.md)]<br />
 
@@ -30,7 +30,7 @@ search.app:
 
 - **msdyn_ForecastRecalculateAll Action**: [!INCLUDE[msdyn_ForecastRecalculateAll-description](includes/msdyn_ForecastRecalculateAll-description.md)]
 
-## See also
+### See also
 
 [Entity reference for Manual forecasting](manual-forecasting-entity-reference.md)<br />
 [Developer guide for Dynamics 365 for Sales](../developer-guide.md)<br />
