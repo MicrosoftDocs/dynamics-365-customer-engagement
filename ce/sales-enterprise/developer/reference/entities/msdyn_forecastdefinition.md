@@ -21,7 +21,7 @@ topic-status: Drafting
 ---
 # msdyn_forecastdefinition EntityType
 
-[!INCLUDE[msdyn_forecastdefinition-description](includes/msdyn_forecastdefinition-description.md)]
+[!INCLUDE[msdyn_forecastdefinition-description](../includes/msdyn_forecastdefinition-description.md)]
 
 Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_forecastdefinitions`<br />
 Display Name: Forecast definition <br />

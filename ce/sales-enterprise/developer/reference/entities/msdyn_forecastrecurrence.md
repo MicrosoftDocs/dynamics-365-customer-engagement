@@ -21,7 +21,7 @@ topic-status: Drafting
 ---
 # msdyn_forecastrecurrence EntityType
 
-[!INCLUDE[msdyn_forecastrecurrence-description](includes/msdyn_forecastrecurrence-description.md)]
+[!INCLUDE[msdyn_forecastrecurrence-description](../includes/msdyn_forecastrecurrence-description.md)]
 
 Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_forecastreccurences`<br />
 Display name: Forecast recurrence<br />
