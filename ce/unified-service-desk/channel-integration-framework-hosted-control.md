@@ -1,6 +1,6 @@
 ---
 title: "Channel Integration Framework (CIF) (Hosted Control) | MicrosoftDocs"
-description: "Learn about using the Channel Integration Framework hosted control type to integrate channel providers into Unified Service Desk client application to experience the functionalities of the channel provider (softphone, chatbot, message (sms), chat)."
+description: "Learn about using the Channel Integration Framework hosted control type to integrate channel providers into to Unified Service Desk client application to experience the functionalities of the channel provider (softphone, chatbot, message (sms), chat)."
 ms.custom: 
   - dyn365-USD
 ms.date: 03/08/2019
@@ -27,7 +27,7 @@ search.app:
 
 # Channel Integration Framework (Hosted Control)
 
-Use the **Channel Integration Framework** type of hosted control to integrate your channel provider with Unified Service Desk client application. You can create multiple Channel Integration Framework type of hosted control to host different channels. To learn more, see [Integrate channel provider using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md).
+Use the **Channel Integration Framework** type of hosted control to integrate your channel provider with to Unified Service Desk client application. You can create multiple Channel Integration Framework type of hosted control to host different channels. To learn more, see [Integrate channel provider using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md).
 
 To create a Channel Integration Framework type of hosted control, see [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md)
 
@@ -108,7 +108,7 @@ This action sends the data from client to channel provider.
 |Parameter|Description|  
 |---------------|-----------------|  
 | corrId | The unique identifier should be the same as that of passed in the initial event from channel provider so that the **UpdateCifContext** gets back the result. |
-| action | The parameter to accept or reject the promise object. It takes the value as `accept` or `reject`. |
+| action | The parameter to accept or reject the promise object. It takes the value as `accept` or `reject`. If you pass `accept`, the API calls the success function, which will further execute the result parameter. if you pass `reject`, the API calls the error function.  |
 | result | The data that you want to send from client to channel provider. |
 
 ## Predefined events
@@ -117,7 +117,7 @@ The following events are supported for this type of hosted control.
 
 ### CreateRecord
 
-The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to create an entity. The data passed in the API is also passed Unified Service Desk client application.
+The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to create an entity. The data passed in the API is also passed to Unified Service Desk client application.
 
 |Parameter|Description|  
 |---------------|-----------------|
@@ -129,7 +129,7 @@ To learn more, see [createRecord (CIF JavaScript API Reference)](/dynamics365/cu
 
 ### RetrieveRecord
 
-The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to retrieve an entity. The data passed in the API is also passed Unified Service Desk client application.
+The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to retrieve an entity. The data passed in the API is also passed to Unified Service Desk client application.
 
 |Parameter|Description|  
 |---------------|-----------------|
@@ -142,7 +142,7 @@ To learn more, see [retrieveRecord (CIF JavaScript API Reference)](/dynamics365/
 
 ### UpdateRecord
 
-The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to update an entity. The data passed in the API is also passed Unified Service Desk client application.
+The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to update an entity. The data passed in the API is also passed to Unified Service Desk client application.
 
 |Parameter|Description|  
 |---------------|-----------------|
@@ -155,7 +155,7 @@ To learn more, see [updateRecord (CIF JavaScript API Reference)](/dynamics365/cu
 
 ### DeleteRecord
 
-The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to delete an entity. The data passed in the API is also passed Unified Service Desk client application.
+The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to delete an entity. The data passed in the API is also passed to Unified Service Desk client application.
 
 |Parameter|Description|  
 |---------------|-----------------|
@@ -168,7 +168,7 @@ To learn more, see [deleteRecord (CIF JavaScript API Reference)](/dynamics365/cu
 
 ### GetEntityMetadata
 
-The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to return the entity metadata for the specified entity. The data passed in the API is also passed Unified Service Desk client application.
+The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to return the entity metadata for the specified entity. The data passed in the API is also passed to Unified Service Desk client application.
 
 |Parameter|Description|  
 |---------------|-----------------|
@@ -180,7 +180,7 @@ To learn more, see [getEntityMetadata (CIF JavaScript API Reference)](/dynamics3
 
 ### GetEnvironment
 
-The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to get the current Unified Interface app and page details. The details include appId, pageType, and recordId (If available). The data passed in the API is also passed Unified Service Desk client application.
+The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to get the current Unified Interface app and page details. The details include appId, pageType, and recordId (If available). The data passed in the API is also passed to Unified Service Desk client application.
 
 There are no parameters for this event.
 
@@ -188,7 +188,7 @@ To see learn more, see [getEnvironment (CIF JavaScript API Reference)](/dynamics
 
 ### OpenForm
 
-The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to open an entity form or a quick create form. The data passed in the API is also passed Unified Service Desk client application.
+The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to open an entity form or a quick create form. The data passed in the API is also passed to Unified Service Desk client application.
 
 |Parameter|Description|  
 |---------------|-----------------|
@@ -200,7 +200,7 @@ To learn more, see [openForm (CIF JavaScript API Reference)](/dynamics365/custom
 
 ### RenderSearchPage
 
-The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider allowing to search among the records of a particular entity type. This API opens the Unified Interface entity page with the search field on it pre-populated with the search string that is passed as a parameter. The data passed in the API is also passed Unified Service Desk client application.
+The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider allowing to search among the records of a particular entity type. This API opens the Unified Interface entity page with the search field on it pre-populated with the search string that is passed as a parameter. The data passed in the API is also passed to Unified Service Desk client application.
 
 |Parameter|Description|  
 |---------------|-----------------|
@@ -212,7 +212,7 @@ To learn more, see [renderSearchPage (CIF JavaScript API Reference)](/dynamics36
 
 ### SearchAndOpenRecords
 
-The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to search for the record from the channel provider during the inbound communication and opens the record. The data passed in the API is also passed Unified Service Desk client application.
+The event occurs when the corresponding Channel Integration Framework JavaScript API is called from the channel provider to search for the record from the channel provider during the inbound communication and opens the record. The data passed in the API is also passed to Unified Service Desk client application.
 
 |Parameter|Description|  
 |---------------|-----------------|
