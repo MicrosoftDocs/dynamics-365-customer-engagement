@@ -35,7 +35,7 @@ search.app:
 To find this information, go to **Settings** > **Advanced settings** > **Others** > **Quota limits**. The following quotas are tracked here:
 
 - **Email**: Shows the total number of email messages you can still send this month, and the total number you have sent.
-- **Litmus**: Shows the total number of Litmus email previews (inbox previews) to can still request this month, and the total number you have used. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the advanced inbox preview feature](prepare-marketing-emails.md#inbox-preview)
+- **Litmus**: Shows the total number of Litmus email previews (inbox previews) you have left. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the advanced inbox preview feature](prepare-marketing-emails.md#inbox-preview)
 - **Contact**: Shows the total number of *marketing contacts* that you can have in your database according to your current [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] subscription. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md) and the [Administration and setup FAQ](setup-troubleshooting.md#licensing)
 
 > [!Note]

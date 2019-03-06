@@ -33,7 +33,7 @@ Trials and previews of [!INCLUDE[pn-marketing-business-app-module-name](../inclu
 
 - A maximum of 10,000 contact records can be loaded and used in the system.
 - A maximum of 1,000 emails can be sent per month.
-- A maximum of 100 Litmus email previews can be generated per month.
+- A maximum of 100 Litmus email previews can be generated.
 - A maximum of 100 segments can be live concurrently.
 - You can only install, use, and configure the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial or preview with exactly one (1) [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] trial or preview instance, which is supplied with the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] preview or trial.
 - A maximum of 1,000 website visits can be logged per month using website tracking tags.
