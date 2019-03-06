@@ -2,7 +2,7 @@
 title: "Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams."
-ms.date: 02/11/2019
+ms.date: 03/6/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -34,9 +34,9 @@ Check out the following video to get a quick overview of how Dynamics 365 for Cu
 
 The Dynamics 365 for Teams provides the following: 
 
-- **Collaboration hub**: Access records together with the Office applications you need to close deals.
+- **Collaboration hub**: Access Dynamics records by adding Dynamics 365 tab into Teams channel. Collaborate at scale not only on a single Dynamics record (like a sales opportunity) but also on multiple records with a Dynamics 365 view. 
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 for Customer Engagement apps user.
-- **File integration**: Co-author documents using Office 365 and automatically sync to Dynamics 365 for Customer Engagement apps.
+- **File integration**: Seamless document collaboration between Dynamics 365 and Microsoft Teams.
 - **Teams mobile app**: Search records from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
 
 > [!div class="mx-imgBorder"] 
