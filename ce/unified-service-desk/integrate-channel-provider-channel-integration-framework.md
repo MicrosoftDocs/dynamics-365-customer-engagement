@@ -22,10 +22,12 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange : '>= dynamics-usd-4'
+monikerRange : '>= dynamics-usd-41'
 ---
 
 # Integrate channel provider using Channel Integration Framework
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
 

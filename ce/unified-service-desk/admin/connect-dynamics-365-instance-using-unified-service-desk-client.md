@@ -62,7 +62,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
    ![Unified Service Desk Change Credentials screen](../../unified-service-desk/media/usd-second-signin.png "Unified Service Desk Change Credentials screen")
 
-::: moniker range=">=dynamics-usd-4"   
+::: moniker range=">=dynamics-usd-41"   
 
 ## Single Sign On for Unified Service Desk - Preview
 

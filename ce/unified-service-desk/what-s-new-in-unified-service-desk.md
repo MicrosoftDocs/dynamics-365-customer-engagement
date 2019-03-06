@@ -29,7 +29,7 @@ search.app:
 
 # What's new in Unified Service Desk for developers and customizers
 
-::: moniker range="dynamics-usd-4"
+::: moniker range="dynamics-usd-41"
 
 ##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)]
 
@@ -39,6 +39,10 @@ Use the Microsoft Edge, the modern, faster, safer and responsive web browser to 
 Select Edge Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.
 
 More information: [Edge process](edge-process.md)
+
+::: moniker-end
+
+::: moniker range="dynamics-usd-4"
 
 ## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)]
 

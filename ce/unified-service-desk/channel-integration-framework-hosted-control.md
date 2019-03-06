@@ -23,6 +23,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+monikerRange: '>= dynamics-usd-41'  
 ---
 
 # Channel Integration Framework (Hosted Control)

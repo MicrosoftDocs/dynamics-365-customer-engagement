@@ -26,7 +26,7 @@ search.app:
 
 # Unified Service Desk known issues and limitations
 
-::: moniker range="dynamics-usd-4"
+::: moniker range="dynamics-usd-41"
 
 ## Public Preview: Unified Service Desk 4.1 known issues and limitations
 
@@ -130,6 +130,10 @@ Remove the following values from the data field:
 To open an KB article, only the article url is sufficient. For example: `url=[[KB Search.articleurl]g]`
 
 Now, save the configuration. Login to Unified Service Desk and open any article to see the article contents.
+
+::: moniker-end
+
+::: moniker range="dynamics-usd-4"
 
 ## Unified Service Desk 4.0 known issues and limitations
 
