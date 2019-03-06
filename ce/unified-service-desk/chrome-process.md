@@ -316,7 +316,9 @@ While using Chrome Process to host web applications in Unified Service Desk if t
 
 ## Enable close confirmation dialog when using Chrome Process
 
-While using Chrome Process to host web applications in Unified Service Desk if you close any application, the Chrome Process shows a JavaScript confirmation dialog. The message appears as - **Is it OK to leave/reload the page?**. Select **OK** to close or **Cancel** to stay on the Chrome Process application.
+While using Chrome Process to host web applications in Unified Service Desk if you accidentaly close any application, even though the application has a close confirmation dialog, the dialog not show for your confirmation and the application closes. To avoid closing the application accidentaly, **OnBeforeCloseHandler** UII option is introduced. 
+
+When you enable this UII option and while using Chrome Process to host web applications in Unified Service Desk if you close any application and if the application has a close confirmation dialog, then Chrome Process shows a JavaScript confirmation dialog for you to take an action. The message appears as - **Is it OK to leave/reload the page?**. Select **OK** to close or **Cancel** to stay on the Chrome Process application.
 
 > [!div class=mx-imgBorder]
 > ![The JavaScript confirmation dialog shows the message and options to select OK or cancel](media/chrome-process-close-confirmation-dialog.PNG "Close confirmation dialog")
@@ -413,7 +415,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 ## Limitations
 
-To learn about the limitations of the Edge process, see [Chrome Process limitations](release-notes.md)
+To learn about the limitations of the Chrome Process, see [Chrome Process limitations](release-notes.md)
 
 ## See also
 

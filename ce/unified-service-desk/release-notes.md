@@ -40,10 +40,6 @@ The Chrome Process does not support the **CloseAndPrompt** action for Dynamics 3
 
 The Chrome Process control doesn't support multiple-page navigation for the hosted control. During the hosted control creation, setting the option **Allow Multiple Pages** to **True** with more than one URL does not perform the navigation in the Unified Service Desk client application at run-time. That is, the navigation to first URL will happen and the page renders. However, the navigation to the second URL will not be executed and the webpage will not render the second URL.
 
-#### Use window.top.notifyUSD to open event in a new browser
-
-The Chrome Process WebView control supports using `window.top.notifyUSD` to raise the events instead of `window.open`.
-
 #### KB article support with Chrome Process
 
 In Dynamics 365 Customer Engagement apps web client, when you host the KB article in Unified Service Desk client application using Chrome Process, the KB articles does not render. 
