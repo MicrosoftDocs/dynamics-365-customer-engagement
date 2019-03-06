@@ -318,7 +318,7 @@ While using Chrome Process to host web applications in Unified Service Desk if t
 
 While using Chrome Process to host web applications in Unified Service Desk if you close any application, the Chrome Process shows a JavaScript confirmation dialog. The message appears as - **Is it OK to leave/reload the page?**. Select **OK** to close or **Cancel** to stay on the Chrome Process application.
 
-> [! div class='mx-imgBorder']
+> [!div class=mx-imgBorder]
 > ![The JavaScript confirmation dialog shows the message and options to select OK or cancel](media/chrome-process-close-confirmation-dialog.PNG "Close confirmation dialog")
 
 To enable close confirmation dialog, you must add the **OnBeforeCloseHandler** UII option and set the value as **True**. If you leave the value blank or set it to false, the option is disabled.
@@ -337,9 +337,10 @@ To enable close confirmation dialog, you must add the **OnBeforeCloseHandler** U
 
 6. Select **Save**.
 
-## Zoom in, zoom out, and zoom reset keyboard shortcuts
+## Set zoom in, zoom out, and zoom reset keyboard shortcuts
 
 Be default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as follows.
+
 | Function | Keyboard shortcut | Example |
 |----------|------------|-----------|
 | Zoom in |`Ctrl` + `Oemplus`| `Ctrl +` |
