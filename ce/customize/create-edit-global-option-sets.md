@@ -47,7 +47,10 @@ An option set is a type of field that can be included in an entity. It defines a
      The **Name** field value must be unique. If the generated value is the same as an existing global option set, you will need to change it before you can save.  
   
 5.  Unlike the **Description** for fields, the **Description** value for a global option set is not displayed as a tooltip when the field is used in a form. This description is only visible in the list of global options. You can use the description to provide information about why you have created this global option set and what it should be used for.  
-  
+ 
+> [!NOTE]
+> The fields **External Type Name** and **External Value** are only used if you are using virtual entities. If you are not using virtual entities, these fields can be left blank. For more information, see [Create and Edit Virtual Entities](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/customize/create-edit-virtual-entities.md)
+ 
 6.  In the toolbar choose **Save** to save the global option set. You can then edit the options in the option set using the instructions below.  
   
 #### Edit a global option set  
