@@ -2,7 +2,7 @@
 title: "Glossary of common insights terms (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Provides definitions of terms commonly used to describe marketing results, insights, and KPIs in Dynamics 365 for Marketing"
 keywords: insights;results;KPIs;analytics;glossary
-ms.date: 02/01/2019
+ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing

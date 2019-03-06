@@ -2,7 +2,7 @@
 title: "Preview features (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Learn what preview features are, and how to activate and use them in Dynamics 365 for Marketing"
 keywords: preview
-ms.date: 01/02/2019
+ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
