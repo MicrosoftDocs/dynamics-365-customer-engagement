@@ -32,11 +32,11 @@ search.app:
 
 ### Preview: Chrome Process
 
-#### Support for CloseAndPrompt action in Edge Process
+#### Support for CloseAndPrompt action in Chrome Process
 
 The Chrome Process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
-#### Support for multiple page navigation in Edge Process
+#### Support for multiple page navigation in Chrome Process
 
 The Chrome Process control doesn't support multiple-page navigation for the hosted control. During the hosted control creation, setting the option **Allow Multiple Pages** to **True** with more than one URL does not perform the navigation in the Unified Service Desk client application at run-time. That is, the navigation to first URL will happen and the page renders. However, the navigation to the second URL will not be executed and the webpage will not render the second URL.
 
