@@ -55,7 +55,7 @@ Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/
   
   - A system administrator must enable the text analytics connection in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the Azure Machine Learning text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection)  
   
-- A system administrator must define a similarity rule for each entity type that is to be included in Document Suggestions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create similar record suggestion mappings](../admin/public-preview-microsoft-cognitive-services-integration.md#create_similar_record_rules)  
+- A system administrator must define a similarity rule for each entity type that is to be included in Document Suggestions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use advanced similarity rules to view similar case suggestions](../customer-service/suggest-similar-cases-for-a-case.md)
   
 ## How it works  
  The entities that can use Document Suggestions are Contact, Opportunity, Lead, Account, Case, and custom entities.  
@@ -92,7 +92,7 @@ Currently, Document Suggestions does not search attachments that are added to No
 - Mobile apps. For the [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] and [!INCLUDE[pn_dyn_365_phones](../includes/pn-dyn-365-phones.md)] apps, after clicking **Document Suggestions**, users can click **Other Recommendations**, which opens the external site in the devices default web browser that may include more document suggestions found on the external site. Notice that the user may be prompted to sign in to the external site.  
   
 #### Constructing the external URL  
- The external URL should be constructed in a format that is understood by the external site. For example, for sites that use a construct similar to <em>https://contoso.com/search?{0}</em>, where **<https://contoso.com/search?>** is the search URL structure and {0} is the keyword string, Document Suggestions passes the keywords in the {0} parameter. The keywords that are passed to the URL are derived from similar record rules that include entity mappings of **Text Match**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create similar record suggestion rules](../admin/public-preview-microsoft-cognitive-services-integration.md#create_similar_record_rules)  
+ The external URL should be constructed in a format that is understood by the external site. For example, for sites that use a construct similar to <em>https://contoso.com/search?{0}</em>, where **<https://contoso.com/search?>** is the search URL structure and {0} is the keyword string, Document Suggestions passes the keywords in the {0} parameter. The keywords that are passed to the URL are derived from similar record rules that include entity mappings of **Text Match**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use advanced similarity rules to view similar case suggestions](../customer-service/suggest-similar-cases-for-a-case.md)
   
  The values found in the text fields of the similarity rule mappings are used as keywords to build the query that is passed to the external site, similar to the below URL, where *keyword* is the text values found in the similarity rules mappings and *&* represents a whitespace that Document Suggestions uses to separate each keyword.  
   
@@ -109,8 +109,8 @@ Currently, Document Suggestions does not search attachments that are added to No
 >  The Document Suggestions feature doesn't require a connection to the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Text Analytics service. If you choose not to use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Text Analytics, Document Suggestions will use the built-in keyword matching  logic available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. However, we recommend that you use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Text Analytics service for more advanced keyword matching.  
   
 ## Define and activate similarity rules  
- If you have not already defined similarity rules, see [Create similar record suggestion mappings](../admin/public-preview-microsoft-cognitive-services-integration.md#create_similar_record_rules).  
-  
+ If you have not already defined similarity rules, see [Use advanced similarity rules to view similar case suggestions](../customer-service/suggest-similar-cases-for-a-case.md)
+
 ## Enable Document Suggestions  
  To enable Document Suggestions, do the following:  
   
@@ -121,7 +121,7 @@ Currently, Document Suggestions does not search attachments that are added to No
 3. In the **Select Entities** area, select the entities that you want to include in Document Suggestions,  and then click **Apply**.  
   
    > [!TIP]
-   >  If the entities (contact, opportunity, lead, account, or custom) aren't listed in the **Select Entities** area, it is because similarity rules for the entity have not been defined and activated.  [Create similar record suggestion mappings](../admin/public-preview-microsoft-cognitive-services-integration.md#create_similar_record_rules)  
+   >  If the entities (contact, opportunity, lead, account, or custom) aren't listed in the **Select Entities** area, it is because similarity rules for the entity have not been defined and activated.  [Use advanced similarity rules to view similar case suggestions](../customer-service/suggest-similar-cases-for-a-case.md)
   
 4. Set external URL to include in Document Suggestions. By default, Document Suggestions searches in [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] services like [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] or [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)]. If you want to search  an external site in addition to the available [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services, such as an on-premise [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site, enter the base URL to the external system. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps will append a search query string to the base URL you provide. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Adding an external URL to search other sites](#addExternalURL)  
   
