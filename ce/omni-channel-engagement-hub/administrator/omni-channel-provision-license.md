@@ -23,12 +23,12 @@ Omni-channel Engagement Hub provides a modern, customizable, high-productivity a
 
 
 > [!NOTE]
-> Before you can provison Omni-channel Engagement Hub on your org, a **Global Tenant Admin** must [Allow sideloading of external apps in Microsoft Teams](#allow-sideloading-of-external-apps-in-microsoft-teams) and [Provide data access consent](#provide-data-access-consent). </br> </br> Ensure that all the pre-requisites are set up before the app is provisioned. For more information, see [Pre-requisites](../system-requirements-omni-channel-engagement-hub.md#pre-requisites).
+> Before you can provison Omni-channel Engagement Hub on your org, a **Global Tenant Admin** must [Allow sideloading of external apps in Microsoft Teams](#allow-sideloading-of-external-apps-in-microsoft-teams) and [Provide data access consent](#provide-data-access-consent). </br> </br> Ensure that all the pre-requisites are set up before the app is provisioned. More information, see [Pre-requisites](../system-requirements-omni-channel-engagement-hub.md#pre-requisites).
 
 
 ## Allow sideloading of external apps in Microsoft Teams
 
-To allow sideloading of external apps in Microsoft Teams, follow the below steps:
+To allow sideloading of external apps in Microsoft Teams, follow these steps:
 
 1. Go to [Microsoft 365 admin center](https://portal.office.com/adminportal/home#/homepage).
 2. Select **Settings** > **Services & add-ins** > **Microsoft Teams**.
@@ -39,10 +39,10 @@ For more information, see [Admin settings for apps in Microsoft Teams](https://d
 
 ## Provide data access consent
 
-To allow Omni-channel Engagement Hub to read and write data on behalf of users, follow the below steps:
+To allow Omni-channel Engagement Hub to read and write data on behalf of users, follow these below steps:
 
 1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/?linkid=2070932).
-2. Login using **Global Tenant Admin** credentials.
+2. Sign in using **Global Tenant Admin** credentials.
 3. Select the checkbox **Consent on behalf of your organization**.
 4. Select **Accept** to grant data access consent.
 
@@ -59,8 +59,7 @@ To allow Omni-channel Engagement Hub to read and write data on behalf of users, 
 
 To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagement Hub preview from the Insider portal.
 
-
-1. Go to [Dynamics Insider Portal](http://experience.dynamics.com/insider) and log in with your Microsoft account.
+1. Go to [Dynamics Insider Portal](http://experience.dynamics.com/insider) and sign in with your Microsoft account.
 2. Search for and open **Omni-channel Engagement Hub preview** in the **Upcoming and Active Public Preview Programs** list.
 
     > [!div class=mx-imgBorder]
@@ -116,18 +115,20 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
 
       Select the continue arrow ![Continue terms](../media/continue-arrow.png) to proceed.
 
-     4. Ensure that the check box to enable **Chat** channel on your org is selected by default.
-
-           > [!div class=mx-imgBorder]
-           > ![enable chat](../media/enable-chat.png)
-
-           > [!NOTE]
-           > In this preview, **Chat** check box is selected by default as this preview supports the set up of only the **Chat** channel. You cannot un-select the check box.
-   
-           Once the set up is completed successfully, you can see the **Chat** channel enabled on the **Summary** page.
+     4. Ensure that the check box to enable the **Chat** channel on your org is selected by default.
 
           > [!div class=mx-imgBorder]
-          > ![summary of set up](../media/summary-fre.png)
+          > ![enable chat](../media/enable-chat.png)
+
+          > [!NOTE]
+          > In this preview, **Chat** check box is selected by default as this preview supports the set up of only the **Chat** channel. You cannot un-select the check box.
+   
+          Once the set up is completed successfully, you can see the **Chat** channel enabled on the **Summary** page.
+
+           > [!div class=mx-imgBorder]
+           > ![summary of set up](../media/summary-fre.png)
+
+          
 
 
 On successful set up, you can view the org and the enabled channel in the **Manage Instances** view.
