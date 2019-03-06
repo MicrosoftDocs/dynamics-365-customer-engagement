@@ -30,8 +30,8 @@ The following masking rules are provided out of the box:
 As an administrator, you can delete or modify out-of-the-box masking rules and create new masking rules.
 
 > [!NOTE]
-> Only an administrator can access data masking rules.
-> Only 10 data masking rules, including out of the box masking rules, can exist in Omni-channel Engagement Hub. 
+> - Only an administrator can access data masking rules.
+> - Only 10 data masking rules, including out of the box masking rules, can exist in Omni-channel Engagement Hub. 
 
 ## Create a data masking rule
 
