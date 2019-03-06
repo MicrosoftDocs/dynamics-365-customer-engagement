@@ -16,6 +16,7 @@ ms.assetid: B0070DA6-803C-4F92-92E7-9524EDD7C1A2
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+monikerRange: '>=dynamics-usd-3 <=dynamics-usd-4'
 search.audienceType: 
   - customizer
   - developer
