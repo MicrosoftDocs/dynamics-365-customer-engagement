@@ -47,13 +47,13 @@ Bring your channel providers and integrate them with Unified Service Desk client
 
 The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** for you to host the channel provider within Unified Service Desk client application.
 
-More information: [Integrate channel provider using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
+More information: [Integrate channel provider using Channel Integration Framework](../integrate-channel-provider-channel-integration-framework.md)
 
 ## Preview: Set Configuration Cache Version
 
 The **Configuration Cache Version** option causes the client caching feature to retrieve the configuration that has undergone change from the Dynamics 365 for Customer Engagement server to the agent’s desktop. This helps to improve the startup performance of Unified Service Desk.
 
-More information: [Set Configuration Cache Version](set-configuration-cache-version.md)
+More information: [Set Configuration Cache Version](../admin/set-configuration-cache-version.md)
 
 ## Preview: Single Sign On for Unified Service Desk
 
