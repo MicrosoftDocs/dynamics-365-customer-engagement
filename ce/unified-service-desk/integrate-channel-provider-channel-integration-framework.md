@@ -25,7 +25,7 @@ search.app:
 monikerRange : '>= dynamics-usd-41'
 ---
 
-# Integrate channel provider using Channel Integration Framework
+# Preview: Integrate channel provider using Channel Integration Framework
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

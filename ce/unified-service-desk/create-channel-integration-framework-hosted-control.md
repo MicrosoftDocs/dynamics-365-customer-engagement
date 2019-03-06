@@ -25,7 +25,7 @@ search.app:
 monikerRange: '>= dynamics-usd-41'
 ---
 
-# Create a Channel Integration Framework hosted control
+# Preview: Create a Channel Integration Framework hosted control
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
