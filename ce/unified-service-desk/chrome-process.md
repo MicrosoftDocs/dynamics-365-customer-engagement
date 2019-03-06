@@ -298,7 +298,7 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 ## Render sharper text when using Chrome Process
 
-While using Chrome Process to host web applications in Unified Service Desk if text appears slightly blurred, then add the **ChromeSharpRendering** UII option and set the value as **True**. This option renders the text clearly when using Chrome Process to host web aplications in Unified Service Desk. To enable this option, you must add the **ChromeSharpRendering** UII option. To learn more, see [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md). 
+While using Chrome Process to host web applications in Unified Service Desk if text appears slightly blurred, then add the **ChromeSharpRendering** UII option and set the value as **True**. This option renders the text clearly when using Chrome Process to host web applications in Unified Service Desk. To enable this option, you must add the **ChromeSharpRendering** UII option. To learn more, see [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md). 
 
 ### Add the ChromeSharpRendering UII option
 
@@ -327,7 +327,7 @@ To enable close confirmation dialog, you must add the **OnBeforeCloseHandler** U
 
 1. Sign in to Dynamics 365 for Customer Engagement apps.
 
-2. Go to **Settings** > **Unified Service Desk** > *Options*.
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
 3. On the Active UII Options page, select **+ New**. 
 
@@ -361,13 +361,13 @@ To change the default value, you must add the UII options and provide the charac
 >
 > - Ensure that character you update for the UII option doesn't conflict with your existing keyboard shortcuts.
 >
-> - If you leave the value blank, the default keboard shortcuts will be disabled.
+> - If you leave the value blank, the default keyboard shortcuts will be disabled.
 
 ### Add the Zoom control UII option
 
 1. Sign in to Dynamics 365 for Customer Engagement apps.
 
-2. Go to **Settings** > **Unified Service Desk** > *Options*.
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
 3. On the Active UII Options page, select **+ New**. 
 
@@ -377,9 +377,38 @@ To change the default value, you must add the UII options and provide the charac
 
 6. Select **Save**.
 
-## Default zoom control value
+## Set default zoom value for Chrome Process
 
+You can set default zoom value for Chrome Process according to your users' visual preference requirement. Set the value as a fraction, and you can set the default zoom value for:
 
+- Individual users
+- For entire organization
+
+### Set default zoom value for Individual users
+
+You can set the default value for individual users using the **UnifiedServiceDesk.exe.config** file.
+
+1. Go to directory where you have installed Unified Service Desk and double-click to open the **UnifiedServiceDesk.exe.config** file.
+Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
+
+2. Under the `<appSettings>` section add the new key.<br>
+`<add key="DefaultZoomLevel" value="<fraction value>"/>`<br> For example: `<add key="DefaultZoomLevel" value="0.3"/>`
+
+3. Save the file.
+
+### Set default zoom value for entire organization
+
+1. Sign in to Dynamics 365 for Customer Engagement apps.
+
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
+
+3. On the Active UII Options page, select **+ New**. 
+
+4. Choose **Others** for the **Global Option** field.
+
+5. Type **DefaultZoomLevel** for the **Name** field and enter the value in fraction for the **Value** field. Example of the value: `0.3`, `0.5`, `1.1`, and so on.
+
+6. Select **Save**.
 
 ## Limitations
 
