@@ -2,7 +2,7 @@
 title: "Developer Guide (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Contains topics that describe how developers can work with Dynamics 365 for Sales"
 keywords: sales, developer guide
-ms.date: 02/22/2019
+ms.date: 03/06/2019
 ms.service:
   - dynamics-365-sales
 ms.custom:
@@ -26,21 +26,15 @@ topic-status: Drafting
 Welcome to the Dynamics 365 for Sales Developer Guide. This documentation is for version 9.x.
 
 <table>
-
-<tr><td>
-<h2>Extend Relationship Assistant</h2>
-<li><a href="extend-relationship-assistant-card.md" data-raw-source="[Create custom cards in Relationship assistant](extend-relationship-assistant-card.md)">Create custom cards in Relationship assistant</a></li>
-<li><a href="sample-extend-relationship-assistant-card-type.md" data-raw-source="[Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)">Sample: Extend Relationship assistant card type (custom card)</a></li>
-</tr></td>
 <tr><td>
 <h2>Manual Forecasting</h2>
-<li><a href="reference/ManualForecasting-Reference.md" data-raw-source="[Manual Forecasting Reference documentation](reference/ManualForecasting-Reference.md)">Manual Forecasting Reference documentation</a></li>
-</td>
-</tr>
+<li><a href="reference/manual-forecasting-entity-reference.md" data-raw-source="[Entity reference for Manual forecasting](reference/manual-forecasting-entity-reference.md)">Entity reference for Manual forecasting</a></li>
+<li><a href="reference/custom-actions-manual-forecasting.md" data-raw-source="[Custom actions for Manual forecasting](reference/custom-actions-manual-forecasting.md)">Custom actions for Manual forecasting</a></li>
+</td></tr>
+<tr><td>
 </table>
 
 ## Related resources
 
 [User guide for Dynamics 365 for Sales](../user-guide.md)<br />
 [Administrator and Sales Manager guide](../admin-guide.md)<br />
-[Developer guide for Dynamics 365 for Customer Engagement](../../developer/developer-guide.md)
