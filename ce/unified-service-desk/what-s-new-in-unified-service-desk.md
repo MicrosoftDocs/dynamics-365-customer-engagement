@@ -29,7 +29,7 @@ search.app:
 
 # What's new in Unified Service Desk for developers and customizers
 
-::: moniker range="dynamics-usd-41"
+::: moniker range="dynamics-usd-4.1"
 
 ##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)]
 

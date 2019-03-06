@@ -22,7 +22,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange : '>= dynamics-usd-41'
+monikerRange : '>= dynamics-usd-4.1'
 ---
 
 # Preview: Integrate channel provider using Channel Integration Framework

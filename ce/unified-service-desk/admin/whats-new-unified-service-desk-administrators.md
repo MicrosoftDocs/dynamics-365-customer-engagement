@@ -28,7 +28,7 @@ search.app:
 
 # What's new in Unified Service Desk for administrators
 
-::: moniker range="dynamics-usd-41"
+::: moniker range="dynamics-usd-4.1"
 
 ## What's new in Unified Service Desk 4.1
 

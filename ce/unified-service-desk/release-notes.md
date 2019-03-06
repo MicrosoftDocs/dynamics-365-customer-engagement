@@ -26,7 +26,7 @@ search.app:
 
 # Unified Service Desk known issues and limitations
 
-::: moniker range="dynamics-usd-41"
+::: moniker range="dynamics-usd-4.1"
 
 ## Public Preview: Unified Service Desk 4.1 known issues and limitations
 

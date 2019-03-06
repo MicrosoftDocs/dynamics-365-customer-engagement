@@ -22,12 +22,12 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange : '>= dynamics-usd-41'
+monikerRange : '>= dynamics-usd-4.1'
 ---
 
 # Preview: Set Configuration Cache Version
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 The **Configuration Cache Version** option causes the client caching feature to retrieve the configuration that has undergone change from the Dynamics 365 for Customer Engagement server to the agent’s desktop. This helps to improve the startup performance of Unified Service Desk.
 
