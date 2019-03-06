@@ -39,7 +39,7 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
 Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on Chromium Embedded Framework (CEF), which is an open source **framework** for embedding a web browser engine based on the **Chromium** core. 
 Select Chrome Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.
 
-More information: [Use Chrome Process to host web applications in Unified Service Desk](chrome-process.md)
+More information: [Use Chrome Process to host web applications in Unified Service Desk](../chrome-process.md)
 
 ### Preview: Integrate channel provider using Channel Integration Framework
 
