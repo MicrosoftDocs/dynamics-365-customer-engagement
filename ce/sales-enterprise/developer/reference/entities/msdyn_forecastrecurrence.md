@@ -26,7 +26,4 @@ Stores recalculation information for each recurrence of the forecast hierarchy. 
 Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_forecastreccurences`<br />
 Display name: Forecast recurrence<br />
 Primary key: msdyn_forecastreccurenceid 
-
-## Properties
-
-Properties represent fields of data stored in the entity. Some properties are read-only.
+Operations supported: None

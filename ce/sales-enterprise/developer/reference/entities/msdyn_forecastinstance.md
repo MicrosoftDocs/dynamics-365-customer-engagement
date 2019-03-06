@@ -2,7 +2,7 @@
 title: "msdyn_forecastinstance EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_forecastinstance EntityType"
 keywords: 
-ms.date: 03/05/2019
+ms.date: 03/06/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -23,8 +23,7 @@ topic-status: Drafting
 
 Stores sales predictions for your team or organization. For internal use only.
 
-Display name: Forecast
-
-## Properties
-
-Properties represent fields of data stored in the entity. Some properties are read-only.
+Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_forecastinstances`<br />
+Display name: Forecast<br />
+Primary key: msdyn_forecastinstanceid <br />
+Operations supported: None
