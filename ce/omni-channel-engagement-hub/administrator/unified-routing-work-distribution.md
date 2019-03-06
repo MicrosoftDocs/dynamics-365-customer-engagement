@@ -97,8 +97,8 @@ To effectively route and distribute work to agents, admins can set up the follow
 - [Enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
 - [Manage users](users-user-profiles.md)
 - [Understand and create work streams](work-streams-introduction.md)
-- Create a Chat channel
-- [Create an Entity channel](create-entity-channel.md)
+- [Configure a chat channel](set-up-chat-widget.md)
+- [Configure an entity channel](create-entity-channel.md)
 - [Work with queues](queues-omni-channel.md)
 - [Set up record identification rule](record-identification-rule.md)
 - [Create and manage routing rules](routing-rules.md)
@@ -106,8 +106,6 @@ To effectively route and distribute work to agents, admins can set up the follow
 
 ###  See also
 
-Configure channels in Omni-channel Engagement Hub
-
-
+[Omni-channel Engagement Hub for administrators](omni-channel-engagement-hub-administrator.md)
 
 

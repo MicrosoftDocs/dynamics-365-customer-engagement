@@ -25,6 +25,8 @@ Omni-channel Engagement Hub provides a modern, customizable, high-productivity a
 > [!NOTE]
 > Before you can provison Omni-channel Engagement Hub on your org, a **Global Tenant Admin** must [Allow sideloading of external apps in Microsoft Teams](#allow-sideloading-of-external-apps-in-microsoft-teams) and [Provide data access consent](#provide-data-access-consent). </br> </br> Ensure that all the pre-requisites are set up before the app is provisioned. More information, see [Pre-requisites](../system-requirements-omni-channel-engagement-hub.md#pre-requisites).
 
+Looking for an upgrade? See [Upgrade Omni-channel Engagement Hub](upgrade-omni-channel.md) for more information.
+
 
 ## Allow sideloading of external apps in Microsoft Teams
 
@@ -138,6 +140,8 @@ On successful set up, you can view the org and the enabled channel in the **Mana
 
 
 ### See also
+
+[Upgrade Omni-channel Engagement Hub](upgrade-omni-channel.md)
 
 [Understand and create work streams](work-streams-introduction.md)
 

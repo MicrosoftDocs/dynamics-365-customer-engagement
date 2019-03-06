@@ -18,6 +18,8 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
+An SMS channel lets your customers connect with the service agents in your organization using text messages. These conversations are then assigned to agents and they can respond to customer queries.
+
 Follow these steps to configure an entity channel.
 
 1. In the Omni-channel site map, go to **Channels \> Entity**.
@@ -30,7 +32,7 @@ Follow these steps to configure an entity channel.
         > [!NOTE]
         > You can route any activity enabled entity.
 
-    - A default work stream is displayed in **Work stream**. Select the search icon to associate another entity work stream. Select **New** to create a new entity work stream.
+    - A default work stream is associated in the **Work stream** field. Select the search icon to associate another entity work stream. Select **New** to create a new entity work stream. For more information, see [Set up an entity work stream](work-streams-introduction.md#set-up-an-entity-work-stream).
 
 4. Select **Save** to save the channel.
 
@@ -40,5 +42,5 @@ Follow these steps to configure an entity channel.
 
 ### See also 
 
-
+[Understand and create work streams](work-streams-introduction.md)
 

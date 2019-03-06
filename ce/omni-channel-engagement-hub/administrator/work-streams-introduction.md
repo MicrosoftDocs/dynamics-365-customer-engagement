@@ -27,7 +27,7 @@ In Omni-channel Engagement Hub, you can create the following types of work strea
 - Entity work stream
 
 > [!NOTE]
-> A work stream can belong to multiple channels of same type for example multiple chat channels. In this case, all the conversations from these channels inherit the routing and work distribution settings of the work stream they belong to.
+> A work stream can belong to multiple channels of same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work distribution settings of the work stream they belong to.
 
 ## Create a work stream
 
@@ -46,23 +46,20 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
 
    - In the **General information** section, provide the following information: </br>
       1. **Name**: Enter a name for the work stream.
-      2. **Stream Source**: Stream source is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat or SMS. </br> </br> Select a channel from the drop-down list. </br>
+      2. **Stream Source**: Stream source is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat. </br> </br> Select a channel from the drop-down list. </br>
             - **Live Chat** </br>
             - **Entity** </br>
 
            > [!IMPORTANT]
-           > If you select **Entity**, see [Set up an entity work stream](#set-up-an-entity-work-stream) section later in this topic to complete the set of steps required to configure an entity work stream.
+           > If you select **Entity**, see the [Set up an entity work stream](#set-up-an-entity-work-stream) section later in this topic to configure an entity work stream.
 
            > [!NOTE]
-           > As you select the Stream source, the corresponding channel is updated at the top right of the page. You cannot edit the channel.
+           > As you select the Stream source, the channel is updated at the top right of the page. You cannot edit the channel.
 
       3. **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream in the text box.
       
       4. **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. 
       5. Select **Save** to save the work stream.
-
-           > [!NOTE]
-           > As you save the work stream, additional sections are displayed based on the work stream created. For more information, see [Link work streams with channels](#link-work-streams-with-channels).
 
     - In the **Work distribution** section, follow these steps: 
 
@@ -73,7 +70,7 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
             - Directly open session
             - Screen pop with timeout
             - Screen pop with decline
-      3. In the **Screen pop timeout** field, select the time from the drop-down list in which the screen pop times out.
+      3. In the **Screen pop timeout** field, select the time in which the screen pop times out from the drop-down list .
       4. Select the **Allowed Presences** from the drop-down list. For more information, see [Configure and manage presence status](presence-custom-presence.md).
 
 

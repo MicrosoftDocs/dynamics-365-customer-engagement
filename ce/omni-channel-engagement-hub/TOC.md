@@ -9,6 +9,7 @@
 
 ## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
+### [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 #### [Deploy Unified Service Desk - Omni-channel Engagement Hub package](administrator/omni-channel-engagement-hub-package.md)
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)

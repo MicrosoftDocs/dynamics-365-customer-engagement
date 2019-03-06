@@ -14,3 +14,16 @@ ms.custom:
 ---
 
 # Upgrade Omni-channel Engagement Hub
+
+Upgrade Omni-channel Engagement Hub app from January release to March release to benefit from new features. You can upgrade your Omni-channel app from the **Dynamics 365 Admin Center**.
+
+Follow these steps to upgrade.
+
+1. Go to **Dynamics 365 Admin Center**.
+2. Select the Omni-channel Engagement Hub app instance.
+3. Select **Solutions** and select the **Upgrade** option.
+
+
+### See also
+
+[Provision Omni-channel Engagement Hub](omni-channel-provision-license.md)
