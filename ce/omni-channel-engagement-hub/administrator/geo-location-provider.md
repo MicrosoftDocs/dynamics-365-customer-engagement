@@ -19,9 +19,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can configure your chat widget to detect visitor's location based on their latitude and longitude. If you have enabled location detection, a customer receives a prompt in their web browser when they start to chat. If a customer allows to share the location, the location is detected. If a customer has turned off location sharing from their web browser, the location cannot be detected even if you have enabled location detection.
+You can configure your chat widget to detect a visitor's location based on their latitude and longitude. If you have enabled location detection, a customer receives a prompt in their web browser when they start to chat. If a customer allows the location to be shared, the location is detected. If a customer has turned off location sharing from their web browser, the location cannot be detected even if you have enabled location detection.
 
-To enable location detection, you must first get your Bing Maps API key and create a geo location provider record. After you create a geo location provider record, you must add it in the **Location** tab of the appropriate chat widgets to enable location detection. For information on how to get the Bing Maps API key, see [Getting a Bing Maps Key](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
+To enable location detection, you must first get your Bing Maps API key and create a geo location provider record. After you create a geo location provider record, you must add it in the **Location** tab of the appropriate chat widgets to enable location detection. For information on how to get the Bing Maps API key, see [Getting a Bing Maps Key](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
 
 ## Create a geo location provider record
 
@@ -37,6 +37,9 @@ To enable location detection, you must first get your Bing Maps API key and crea
 
     - **Bing Maps API key**: API key of Bing Maps to get the visitor's location.
 
+    > [!div class=mx-imgBorder]
+    > ![Create a geo location record](../media/geo-location-record.png "Create a geo location record")
+
 5.	Select **Save and Close**.
 
 ## Enable location detection
@@ -48,3 +51,6 @@ To enable location detection, you must first get your Bing Maps API key and crea
 3.	In the **Visitor location** section, select **Yes** in the **Request visitor location** field.
 
 4.	In the **Geo Location Provider** field, browse and select the geo location provider record.
+
+    > [!div class=mx-imgBorder]
+    > ![Configure visitor location in a chat widget](../media/chat-widget-location-tab.png "Configure visitor location in a chat widget")
