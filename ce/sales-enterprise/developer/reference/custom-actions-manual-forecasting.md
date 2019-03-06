@@ -32,5 +32,7 @@ search.app:
 
 ## See also
 
+[Entity reference for Manual forecasting](manual-forecasting-entity-reference.md)<br />
+[Developer guide for Dynamics 365 for Sales](../developer-guide.md)<br />
 [User guide for Dynamics 365 for Sales](../../user-guide.md)<br />
 [Administrator and Sales Manager guide](../../admin-guide.md)

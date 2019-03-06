@@ -30,5 +30,6 @@ Operations supported: None
 
 ## See also
 
+[Entity reference for Manual forecasting](../manual-forecasting-entity-reference.md)<br />
 [msdyn_forecastdefinition EntityType](msdyn_forecastdefinition.md)<br />
 [msdyn_forecastinstance EntityType](msdyn_forecastinstance.md)

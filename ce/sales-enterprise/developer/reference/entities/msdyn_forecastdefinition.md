@@ -92,5 +92,6 @@ Properties represent fields of data stored in the entity. Some properties are re
 ## See also
 
 [Custom actions for Manual forecasting](../custom-actions-manual-forecasting.md)<br />
+[Entity reference for Manual forecasting](../manual-forecasting-entity-reference.md)<br />
 [msdyn_forecastinstance EntityType](msdyn_forecastinstance.md)<br />
 [msdyn_forecastrecurrence EntityType](msdyn_forecastrecurrence.md)
