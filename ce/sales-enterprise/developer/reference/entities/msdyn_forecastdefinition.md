@@ -89,3 +89,8 @@ Properties represent fields of data stored in the entity. Some properties are re
 |msdyn_rollupquery|mscrm.goalrollupquery|msdyn_goalrollupquery_msdyn_forecastdefinition_rollupquery|
 |msdyn_msdyn_forecastdefinition_msdyn_forecastrecurrence|Collection(mscrm.msdyn_forecastrecurrence)|msdyn_ForecastDefinitionId|
 
+## See also
+
+[Custom actions for Manual forecasting](../custom-actions-manual-forecasting.md)<br />
+[msdyn_forecastinstance EntityType](msdyn_forecastinstance.md)<br />
+[msdyn_forecastrecurrence EntityType](msdyn_forecastrecurrence.md)

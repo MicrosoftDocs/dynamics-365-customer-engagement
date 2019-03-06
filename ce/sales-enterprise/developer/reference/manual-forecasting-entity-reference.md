@@ -21,8 +21,8 @@ search.app:
 
 |Entity name|Description|
 |------|------|
-|[msdyn_forecastinstance](entities/msdyn_forecastinstance.md)|[!INCLUDE[msdyn_forecastinstance-description](includes/msdyn_forecastinstance-description.md)]|
 |[msdyn_forecastdefinition](entities/msdyn_forecastdefinition.md)|[!INCLUDE[msdyn_forecastdefinition-description](includes/msdyn_forecastdefinition-description.md)]|
+|[msdyn_forecastinstance](entities/msdyn_forecastinstance.md)|[!INCLUDE[msdyn_forecastinstance-description](includes/msdyn_forecastinstance-description.md)]|
 |[msdyn_forecastrecurrence](entities/msdyn_forecastrecurrence.md)|[!INCLUDE[msdyn_forecastrecurrence-description](includes/msdyn_forecastrecurrence-description.md)]|
 
 ## See also

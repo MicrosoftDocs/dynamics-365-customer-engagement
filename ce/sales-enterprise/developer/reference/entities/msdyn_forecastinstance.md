@@ -27,3 +27,8 @@ Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_forecastinstances`<br />
 Display name: Forecast<br />
 Primary key: msdyn_forecastinstanceid <br />
 Operations supported: None
+
+## See also
+
+[msdyn_forecastdefinition EntityType](msdyn_forecastdefinition.md)<br />
+[Custom actions for Manual forecasting](../custom-actions-manual-forecasting.md)

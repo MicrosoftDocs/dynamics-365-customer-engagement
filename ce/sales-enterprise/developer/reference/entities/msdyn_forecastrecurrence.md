@@ -27,3 +27,8 @@ Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_forecastreccurences`<br 
 Display name: Forecast recurrence<br />
 Primary key: msdyn_forecastreccurenceid 
 Operations supported: None
+
+## See also
+
+[msdyn_forecastdefinition EntityType](msdyn_forecastdefinition.md)<br />
+[msdyn_forecastinstance EntityType](msdyn_forecastinstance.md)
