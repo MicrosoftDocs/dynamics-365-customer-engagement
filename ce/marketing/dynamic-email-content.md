@@ -76,27 +76,59 @@ To view, edit, or create a content-settings set:
 
 The **Assist Edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text element in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
 
-Start by positioning your cursor in the field where you want to insert the dynamic text, and then select the  **Assist Edit**  button  **&lt;/&gt;**  to open a drop-down list showing a selection of data sources appropriate for your current context, which can include some or all of the following:
+To use assist edit:
 
-- **Contact[context]**: Places a field value, such as a first name, from each recipient's contact record.
-- **Content settings[context]**: Places a field value from the content settings—a subscription center URL, forwarding URL, and the sender postal address are included here.
-- **Message[context]**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
-- **Account**: Places a value from a specific account record.
-- **Contact**: Places a value from a specific contact record (not the recipient's record).
-- **Event**: Places a link to a specific event sign-up page, or a field value from the page.
-- **Lead**: Places a value from a specific lead record.
-- **Marketing list**: Places a value from a specific marketing list.
-- **Marketing list member**: Places a value from a specific marketing list member.
-- **Marketing page**: Places a link to a specific marketing page, or a field value from the page.
-- **Survey**: Places a link to a specific online survey (Voice of the Customer), or a field value from the survey.
+1. Position your cursor in the field or text element where you want to insert the dynamic text, and then select the  **Assist Edit**  button  **&lt;/&gt;**. The assist-edit dialog opens.
+
+    ![Assist edit, page 1](media/assist-edit-p1.png "Assist edit, page 1")
+
+1. Do one of the following:
+    - Select **Contextual** to place a value that can change based on the context where you use the message, and then choose one of the following from the drop-down list here:
+        - **Contact**: Places a field value, such as a first name, from the recipient's contact record. These values vary by recipient.
+        - **Content settings*: Places a field value from the content settings. Values such as a subscription center URL, forwarding URL, and the sender postal address are available here. These values can vary according to the customer journey where the message is used.
+        - **Message**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
+    - Select **Static** to place a fixed value from a specific record (such as the name of an upcoming event). This value is the same regardless of where you use the message or who receives it. Then make the following settings to identify the entity and record that contains the value you need:
+        - **Select an option** (top combo box): Select the entity (such as event or account). To search for an entity, place your cursor in this box and start to type its name until the entity you want is shown.
+        - **Choose a record** (bottom drop-down list): Select the specific record by name. This list shows all records from your selected entity. As with the entity, you can also search here.
+1. At the bottom of the dialog, you now see the expression you have built so far. Select **Next** to continue.
+
+    ![Assist edit, page 2](media/assist-edit-p2.png "Assist edit, page 2")
+
+1. Now you must identify the specific field you want to place. Do one of the following:
+    - Select **Related entity** to find a field from an entity that is related to the one you picked on the previous page. Then make the following settings to identify the relation and the field you want to show:
+        - **Select relationship**: The relationship defines which second entity you want to hop to, and the path you will take to get there. To search for a relationship, place your cursor in this box and start to type its name until the relationship you want is shown, and then select it. For more information about how to identify relationships, see the text after this procedure.
+        - **Select field**: Choose the field name you want to show. As with the relationship, you can also search here.
+    - Select **Property** to place a field directly from the entity you chose on the previous page. As with the relationship, you can also search here.
+1. At the bottom of the dialog, you now see the final expression. Select **OK** to place that expression.
+
+Relations in assist edit are displayed using one of the following naming convention:
+
+_&lt;PrimaryEntity&gt;_ **->** _&lt;FieldName&gt;_ **(**_&lt;SecondaryEntity&gt;_**)**  
+_&lt;FieldName&gt;_ **(**_&lt;SecondaryEntity&gt;_**)** **->** _&lt;PrimaryEntity&gt;_
+
+Where:
+
+- _&lt;PrimaryEntity&gt;_ is an entity that uses a value from the secondary entity.
+- _&lt;FieldName&gt;_ is always shown next to the secondary entity (which is in parenthesis). This is the name of the field from the primary entity that holds the ID of a record from the secondary entity.
+- _&lt;SecondaryEntity&gt;_ is always shown in parenthesis. This is the entity that provides the field that you want to show with your expression.
+- The direction has no effect, so it doesn't matter whether the primary or secondary entity is listed first.
+
+For example:
+
+- `Company Name (Contact) -> Account`: This relation is used by the `Contact` entity to display information from the `Account` entity in the contact's `Company Name` field. In other words, it finds the company (account) that the contact works for.
+- `Managing Partner (Contact) -> Account`: This relation is used by the `Contact` entity to display information from the `Account` entity in the contact's `Managing Partner` field. In other words, it finds the company (account) that is the managing partner for a contact.
+- `Primary Contact (Account) -> Contact`:
 
 > [!NOTE]
-> Entities shown by assist edit that include **[context]** in their name take values that can change for each recipient (such as the recipient's name). Entities that don't include **[context]** in their name must refer to a specific record ID, which doesn't change for each recipient. Note also that the **[context]** label isn't included in the code placed on the page when you're done.
+> The entities included in the assist-edit dialog are those that you are currently syncing with the customer-insights service, which means that you might see more entities than those mentioned in the previous list. If you need to show information from an entity that isn't listed, then ask your admin to add that entity to the customer-insights service. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
 
-> [!NOTE]
-> The entities included in the assist-edit menu are those that you are currently syncing with the customer-insights service, which means that you might see more entities than those mentioned in the previous list. If you need to show information from an entity that isn't listed, then ask your admin to add that entity to the customer-insights service. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
+Assist edit creates an expression that uses a format such as the following:
+- `{{EntityName.FieldName}}`
+- `{{EntityName(RecordID).FieldName}}`
+- `{{EntityName.RelationshipName.FieldName}}`
+- `{{EntityName(RecordID).RelationshipName.FieldName}}`
 
-After you've selected a source, the  **Assist Edit**  drop-down list is updated to show individual fields that are available from that source. Choose one of these to place the value or link. The result is an expression that uses a format such as `{{EntityName.FieldName}}` or `{{EntityName(RecordID).FieldName}}`, though more complex expressions can also be generated depending on the options you pick. Here are some examples:
+Here are some examples:
 
 -  `{{contact.firstname}}`  
 Places the recipient's first name.
@@ -110,15 +142,19 @@ Places the URL for opening the current message in a web browser.
 Places the webinar URL for the event identified by the specified event ID (in parentheses).
 - `{{msdyn_survey(39128da2-c968-4627-9595-f030b6571be4).msdyn_name}}`  
 Places the name of the survey identified by the specified survey ID (in parentheses).
+- `{{contact.contact_account_parentcustomerid.name}}`  
+This expression finds the name of the account for the company where a contact works.
+- `{{contact.contact_account_msa_managingpartnerid.name}}`  
+This expression finds the name of the managing partner for the account for the company where a contact works.
 
-## Find record IDs
+> [!TIP]
+> If you require the types of data that are supported by assist-edit, then it's usually best to use the assist-edit feature to place the code. This will ensure that the entity, relation, and field names match those used in the database and will help you avoid misspellings.
 
-Non-contextual field expressions (which use the form  `{{EntityName(RecordID).FieldName}}`) require a record ID to identify the specific record the value must come from. To find the ID for any record:
+> [!IMPORTANT]
+> You can use, at most, two hops (periods) in your field expressions. Some fields (such as email to and from fields), only support one hop (entity and field, no relations).
 
-1. Open the record you want to reference
-2. Look at the URL shown in your browser's address bar, which should show a URL such as:  
-`https://<MyOrg>.crm.dynamics.com/main.aspx?appid=c8cba597-4754-e811-a859-000d3a1be1a3&pagetype=entityrecord&etn=msevtmgt_event&id=5acc43d5-356e-e811-a960-000d3a1cae35`
-3. Find the part of the URL that starts with `&id=`, which is followed by the ID number of your current record. Copy that number (the value only) and use it in your expression.
+> [!IMPORTANT]
+> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
 
 ## Dynamic values in To, From-name, From-address, and Reply-to fields
 
@@ -126,15 +162,23 @@ On the **Summary** tab of the **Marketing Email** form, you can make various non
 
 ![Advanced header settings for email messages](media/email-advanced-header-settings.png "Advanced header settings for email messages")
 
-Though these settings provide assist-edit buttons, you must only place static values, or values from the **Contact[context]** entity, such as `{{contact.emailaddress1}}` (which is the default for the **To** address). These settings don't currently support any other entities or lookup-field values.
+Though these settings provide assist-edit buttons, you must only place static values, or values from the contact (context) entity, such as `{{contact.emailaddress1}}` (which is the default for the **To** address). These settings don't currently support any other entities, relations, or lookup-field values.
 
 > [!TIP]
 > You can include conditional statements in the **Advanced Header** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
 
+## Find record IDs
+
+Non-contextual field expressions (which use the form  `{{EntityName(RecordID).FieldName}}`) require a record ID to identify the specific record the value must come from. Usually, assist edit will help you find these IDs, but you can also find them manually for any record by doing the following:
+
+1. Open the record you want to reference.
+2. Look at the URL shown in your browser's address bar, which should show a URL such as:  
+`https://<MyOrg>.crm.dynamics.com/main.aspx?appid=c8cba597-4754-e811-a859-000d3a1be1a3&pagetype=entityrecord&etn=msevtmgt_event&id=5acc43d5-356e-e811-a960-000d3a1cae35`
+3. Find the part of the URL that starts with `&id=`, which is followed by the ID number of your current record. Copy that number (the value only) and use it in your expression.
+
 <a name="advanced-dynamic-content"></a>
 
 ## Advanced dynamic content
-
 
 You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. 
 
@@ -142,36 +186,6 @@ As you've seen in previous examples, dynamic content is surrounded by double bra
 
 > [!TIP]
 > If you want to display double braces in a message, rather than use them to denote the start or end of a code block, then prepend (escape) the first brace with a backslash, such as `\{{` or `\}}`. The slashes won't appear in your final, rendered message, but the double braces will.
-
-### Fetch custom values from fields and lookup fields
-
-As we've seen, you can use the assist-edit feature to insert both context-sensitive and specific-record values from your database in your email messages—the result is an expression that uses a format such as `{{EntityName.FieldName}}` or `{{EntityName(RecordID).FieldName}}`, as illustrated in the examples shown in [Use assist-edit to place dynamic field values](#assist-edit).
-
-> [!TIP]
-> If you require the types of data that are supported by assist-edit, then it's usually best to use the assist-edit feature to place the code. This will ensure that the entity and field names match those used in the database and will help you avoid misspellings.
-
-You can place nearly any database value into your messages using the same types of syntax created when using assist-edit, but you'll need to find the correct entity, relationship, and field names (for example, by using the tools for [customizing entities, relationships and fields](../customize/customize-entities-relationships-fields.md)).
-
-> [!NOTE]
-> You can only use data from entities that are synced with the customer-insights service (and therefore also listed in the assist-edit menu). If you need to show information from an entity that isn't yet synced, then talk to your admin. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
-
-In addition, you can also construct expressions that fetch values from lookup fields (which link to related records) by adding an extra "hop" in your expression, where each hop (also known as an _access operator_) is indicated by a period (.), such as:
-
-- `{{EntityName.RelationshipName.FieldName}}`
-- `{{EntityName(RecordID).RelationshipName.FieldName}}`
-
-Here are a few useful examples for placing lookup field values:
-
-- `{{contact.contact_account_parentcustomerid.name}}`  
-This expression finds the name of the account for the company where a contact works.
-- `{{contact.contact_account_msa_managingpartnerid.name}}`  
-This expression finds the name of the managing partner for the account for the company where a contact works.
-
-> [!IMPORTANT]
-> You can use, at most, two hops (periods) in your field expressions.
-
-> [!IMPORTANT]
-> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
 
 ### Conditional statements and comparisons
 
