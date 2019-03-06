@@ -69,6 +69,14 @@
 
 ## [Mobile guide for Sales Hub](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 
+## [Developer Guide](../sales-enterprise/developer/developer-guide.md)
+### Manual forecasting
+#### [Entity reference](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)
+##### [msdyn_forecastdefinition](../sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md)
+##### [msdyn_forecastinstance](../sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md)
+##### [msdyn_forecastrecurrence](../sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md)
+#### [Custom actions](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
+
 ## Troubleshooting
 ### [Troubleshooting guide for sales people](troubleshooting.md)
 ### [Troubleshooting guide for administrators](troubleshooting-admin.md)

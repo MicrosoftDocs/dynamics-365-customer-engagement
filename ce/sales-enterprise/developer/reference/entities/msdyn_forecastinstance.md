@@ -21,7 +21,7 @@ topic-status: Drafting
 ---
 # msdyn_forecastinstance EntityType
 
-Stores sales predictions for your team or organization. For internal use only.
+[!INCLUDE[msdyn_forecastinstance-description](includes/msdyn_forecastinstance-description.md)]
 
 Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_forecastinstances`<br />
 Display name: Forecast<br />
