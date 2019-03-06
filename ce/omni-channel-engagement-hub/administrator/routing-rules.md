@@ -33,7 +33,7 @@ Routing rule conditions could be based on channel context, pre-chat context, and
 > If all the rule conditions are evaluated as False for a conversation, it goes to the **Default** queue. For more information, see [Default queue](queues-omni-channel.md#default-queue).
 
 ## Create a routing rule
-To create a routing rule, select a work stream by navigating to **Work Distribution** > **Work Streams**, and define a new rule in the **Routing Rule Items** tab.
+To create a routing rule, select a work stream by navigating to **Work Distribution Management** > **Work Streams**, and define a new rule in the **Routing Rule Items** tab.
 
 1. Select **Add** to add a new routing rule item.  
     - In the **General information** section of the **General** tab, provide the following information: </br>
