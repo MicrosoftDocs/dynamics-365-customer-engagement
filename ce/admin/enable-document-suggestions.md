@@ -53,7 +53,7 @@ Enabling Document Suggestions helps your [!INCLUDE[pn_microsoftcrm](../includes/
   
   - An [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] subscription is required to use the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Text Analytics service.  
   
-  - A system administrator must enable the text analytics connection in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the Azure Machine Learning text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection)  
+  - A system administrator must enable the text analytics connection in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [About Microsoft Cognitive Services](public-preview-microsoft-cognitive-services-integration.md#about-microsoft-cognitive-services)
   
 - A system administrator must define a similarity rule for each entity type that is to be included in Document Suggestions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use advanced similarity rules to view similar case suggestions](../customer-service/suggest-similar-cases-for-a-case.md)
   
@@ -83,7 +83,7 @@ Currently, Document Suggestions does not search attachments that are added to No
  External sites, such as an on-premises [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document library can be included in Document Suggestions by adding an external URL for the site to be searched.  
   
 > [!NOTE]
->  For the best results when using an external site for document suggestions, we recommend that you use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Text Analytics, which provides more advanced keyword matching logic. [Set the text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection)  
+>  For the best results when using an external site for document suggestions, we recommend that you use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Text Analytics, which provides more advanced keyword matching logic. [[Set the text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection) ](public-preview-microsoft-cognitive-services-integration.md#set-the-text-analytics-connection) 
   
  Once you add the external URL to the enabled document suggestions feature, here is what your users will experience.  
   
@@ -103,7 +103,8 @@ Currently, Document Suggestions does not search attachments that are added to No
  <em>https://mysharepoint/sites/subsitename/_layouts/15/osssearchresults.aspx?&k={0}</em>  
   
 ## Set up the Azure text analytics connection  
- To use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] text analytics with Document Suggestions, an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] text analytics connection must be configured. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the Azure Machine Learning text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection)  
+ To use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] text analytics with Document Suggestions, an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] text analytics connection must be configured. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [About Microsoft Cognitive Services](public-preview-microsoft-cognitive-services-integration.md#about-microsoft-cognitive-services)
+  
   
 > [!NOTE]
 >  The Document Suggestions feature doesn't require a connection to the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Text Analytics service. If you choose not to use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Text Analytics, Document Suggestions will use the built-in keyword matching  logic available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. However, we recommend that you use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Text Analytics service for more advanced keyword matching.  
