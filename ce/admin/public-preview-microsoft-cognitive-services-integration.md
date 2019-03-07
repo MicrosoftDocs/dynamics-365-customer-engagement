@@ -35,10 +35,12 @@ This section describes how to integrate [!INCLUDE[pn_MicrosoftCognitiveServices_
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 > - [!INCLUDE[cc_preview_features_send_us_feedback](../includes/cc-preview-features-send-us-feedback.md)]  
 
+<a name="AboutAzureML"></a>   
 
 ## About Microsoft Cognitive Services  
 [!INCLUDE[pn_MicrosoftCognitiveServices_full](../includes/pn-microsoftcognitiveservices-full.md)] includes several APIs that leverage the power of machine learning. Some [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps features can use the Text Analytics APIs to detect sentiment, key phrases, topics, and language from the text found in your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps data.   
 
+<a name="AboutAzureML"></a>   
 
 ## Set the text analytics connection  
 [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps features that  use the [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service for keyword matching require a [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service connection. This connects [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps to the [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service.  
