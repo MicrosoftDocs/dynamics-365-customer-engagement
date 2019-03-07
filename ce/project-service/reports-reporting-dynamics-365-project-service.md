@@ -40,7 +40,7 @@ If your business requires a specific report that can't be created by using the R
 Together, Microsoft Power BI and Dynamics 365 give you a powerful way to work with your data, in the form of insights apps. For information about the availability of insights apps, see the [Power BI insights apps page](https://powerbi.microsoft.com/power-bi-insights-apps/).
 
 
-## More information
+## Additional resources
 For more information about reporting in PSA, see the following topics:
 
 - [Working with the Project Service data model](reports-working-project-service-data-model.md)
