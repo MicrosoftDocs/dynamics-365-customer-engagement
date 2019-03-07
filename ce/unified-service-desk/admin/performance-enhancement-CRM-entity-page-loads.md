@@ -82,6 +82,31 @@ To enable Internet Explorer pooling:
 
 ## Pool process instances for Chrome Process
 
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Chrome Process instances for hosted controls to use. Opening a hosted control using a pooled Chrome Process instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+By default, the Chrome Process instance pooling is enabled.
+
+## Enable pooling for Chrome Process
+
+By default, Chrome Process pooling is enabled. To disable the pooling, a System Administrator must configure the option on the **Active UII Options** page and set it to **False**.
+
+To enable Internet Explorer pooling:
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+
+3. Choose **Options**.  
+
+4. click **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **ChromiumBrowserPooling** for the **False** field.
+
+7. Set **True** for the **Value** field.
+
+8. Click **Save**.
 
 ::: moniker-end
 

@@ -252,7 +252,7 @@ Agents in your organization require webcam and microphone access according to yo
 
  1. Sign in to Dynamics 365 for Customer Engagement apps.
 
- 2. Go to **Settings** > **Unified Service Desk** > *Options*.
+ 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
  3. On the Active UII Options page, select **+ New**. 
  
@@ -290,7 +290,7 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 1. Sign in to Dynamics 365 for Customer Engagement apps.
 
-2. Go to **Settings** > **Unified Service Desk** > *Options*.
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
 3. On the Active UII Options page, select **+ New**. 
 
