@@ -16,7 +16,6 @@ ms.assetid: B0070DA6-803C-4F92-92E7-9524EDD7C1A2
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-monikerRange: '>=dynamics-usd-3 <=dynamics-usd-4'
 search.audienceType: 
   - customizer
   - developer
@@ -27,62 +26,27 @@ search.app:
 
 # Unified Service Desk known issues and limitations
 
-::: moniker range="dynamics-usd-4"
+::: moniker range="dynamics-usd-4.1"
 
 ## Public Preview: Unified Service Desk 4.1 known issues and limitations
 
-### Preview: Edge process
+## Preview: Chrome Process
 
-#### Support for CloseAndPrompt action in Edge process
+#### Support for CloseAndPrompt action in Chrome Process
 
-The Edge process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+The Chrome Process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
-#### Support for alert dialog with WebView control
+#### Support for multiple page navigation in Chrome Process
 
-The Edge process doesn't support the native JavaScript alert dialog in the WebView control. When you use the Microsoft Edge WebView control, the alert dialog (WPF message) shows the information. However, the alert does not stop the JavaScript execution. That is, even though you do not perform an action on the alert dialog, the JavaScript execution continues.
+The Chrome Process control doesn't support multiple-page navigation for the hosted control. During the hosted control creation, setting the option **Allow Multiple Pages** to **True** with more than one URL does not perform the navigation in the Unified Service Desk client application at run-time. That is, the navigation to first URL will happen and the page renders. However, the navigation to the second URL will not be executed and the webpage will not render the second URL.
 
-#### Support for confirm dialog
+#### KB article support with Chrome Process
 
-The Edge process doesn't support the confirm dialog in the WebView control. If your custom code uses the confirm dialog, the Edge process in the WebView control does not support the execution, and your code may fail.
-
-#### Support for multiple page navigation in Edge process
-
-The Edge process WebView control doesn't support multiple-page navigation for the hosted control. During the hosted control creation, setting the option **Allow Multiple Pages** to **True** with more than one URL does not perform the navigation in the Unified Service Desk client application at run-time. That is, the navigation to first URL will happen and the page renders. However, the navigation to the second URL will not be executed and the webpage will not render the second URL.
-
-#### Use window.top.notifyUSD to open event in a new browser
-
-The Edge process WebView control supports using `window.top.notifyUSD` to open the event in a new browser instead of `window.open`.
-
-#### Using a long-running script with Edge process freezes Unified Service Desk
-
-When you execute a long-running script with edge process, the Unified Service Desk client application freezes, and you must restart the client application. We recommend that you review the script that caused the freeze, and then restart the Unified Service Desk client application.
-
-#### Support for downloading files with Edge process
-
-When you host your web pages in a Unified Service Desk client application using Edge process, downloading files from the web application is not supported with Edge process.
-
-A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and download the file.
-
-#### Support for launching application for a URI with Edge WebView control
-
-When you host your web application in Unified Service Desk client application using Edge process, launching application for a URI is not supported with Edge process.
-
-Some of the URI schemes and applications are as follows:
-
-| URI Scheme | Launches |
-| ----------:|----------|
-|bingmaps | Maps app |
-|mailto: | Default email app |
-|ms-call:|  Call app |
-|ms-chat: | Messaging app |
-
-A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and select the URI scheme to launch the application.
-
-#### KB article support with Edge process
-
-In Dynamics 365 Customer Engagement apps web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
+In Dynamics 365 Customer Engagement apps web client, when you host the KB article in Unified Service Desk client application using Chrome Process, the KB articles does not render. 
 
 A workaround is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
+
+Change the **Unified Service Desk Component Type** of the **KB Search** hosted control from **KM Control** to **Unified Interface KM Control**.
 
 After changing the component type, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
 
@@ -97,6 +61,83 @@ Remove the following values from the data field:
 To open an KB article, only the article url is sufficient. For example: `url=[[KB Search.articleurl]g]`
 
 Now, save the configuration. Login to Unified Service Desk and open any article to see the article contents.
+
+#### Support for Microphone and webcam with Channel Integreation Framework
+
+When you integrate a channel with Unified Service Desk using the Channel Integration Framework and if that channels is not based on the Chromium Embedded Framework, then you might not have access to Microphone and webcam.
+
+## Preview: Edge Process
+
+#### Support for CloseAndPrompt action in Edge Process
+
+The Edge Process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+
+#### Support for alert dialog with WebView control
+
+The Edge Process doesn't support the native JavaScript alert dialog in the WebView control. When you use the Microsoft Edge WebView control, the alert dialog (WPF message) shows the information. However, the alert does not stop the JavaScript execution. That is, even though you do not perform an action on the alert dialog, the JavaScript execution continues.
+
+#### Support for confirm dialog
+
+The Edge Process doesn't support the confirm dialog in the WebView control. If your custom code uses the confirm dialog, the Edge Process in the WebView control does not support the execution, and your code may fail.
+
+#### Support for multiple page navigation in Edge Process
+
+The Edge Process WebView control doesn't support multiple-page navigation for the hosted control. During the hosted control creation, setting the option **Allow Multiple Pages** to **True** with more than one URL does not perform the navigation in the Unified Service Desk client application at run-time. That is, the navigation to first URL will happen and the page renders. However, the navigation to the second URL will not be executed and the webpage will not render the second URL.
+
+#### Use window.top.notifyUSD to open event in a new browser
+
+The Edge Process WebView control supports using `window.top.notifyUSD` to raise the events instead of `window.open`.
+
+#### Using a long-running script with Edge Process freezes Unified Service Desk
+
+When you execute a long-running script with Edge Process, the Unified Service Desk client application freezes, and you must restart the client application. We recommend that you review the script that caused the freeze, and then restart the Unified Service Desk client application.
+
+#### Support for downloading files with Edge Process
+
+When you host your web pages in a Unified Service Desk client application using Edge Process, downloading files from the web application is not supported with Edge Process.
+
+A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and download the file.
+
+#### Support for launching application for a URI with Edge WebView control
+
+When you host your web application in Unified Service Desk client application using Edge Process, launching application for a URI is not supported with Edge Process.
+
+Some of the URI schemes and applications are as follows:
+
+| URI Scheme | Launches |
+| ----------:|----------|
+|bingmaps | Maps app |
+|mailto: | Default email app |
+|ms-call:|  Call app |
+|ms-chat: | Messaging app |
+
+A workaround is to open the Microsoft Edge browser separately, navigate to the website URL and select the URI scheme to launch the application.
+
+#### KB article support with Edge Process
+
+In Dynamics 365 Customer Engagement apps web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
+
+A workaround is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
+
+Change the **Unified Service Desk Component Type** of the **KB Search** hosted control from **KM Control** to **Unified Interface KM Control**.
+
+After changing the component type, go to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
+
+![Action call with the postdata and header parameter](media/manual-update-unified-interface-km-control-action-call-data.PNG "Action call with the postdata and header parameter")
+
+Remove the following values from the data field:
+
+`postdata=[[postdata]]`
+
+`header=[[header]+]` 
+
+To open an KB article, only the article url is sufficient. For example: `url=[[KB Search.articleurl]g]`
+
+Now, save the configuration. Login to Unified Service Desk and open any article to see the article contents.
+
+::: moniker-end
+
+::: moniker range="dynamics-usd-4"
 
 ## Unified Service Desk 4.0 known issues and limitations
 
@@ -215,6 +256,36 @@ By default, when you a open Dynamics 365 for Customer Engagement apps page in [!
 However, when you enable Internet Explorer pooling and change the configurations in Dynamics 365 for Customer Engagement apps to hide the command bar and display the navigation bar, the Dynamics 365 for Customer Engagement apps page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application does hide the command bar and display the navigation bar.
 
 To execute the configuration, disable the Internet Explorer pooling.
+
+### Unified Service Desk crashes during sign in
+
+when you launch Unified Service Desk, the application displays the login screen and suddenly the Unified Service Desk crashes with no error message.
+
+If you have enabled performance data logging, the crash error is logged in the log files. The log files will be present in the following location of your computer.
+
+`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
+
+Open the recent log file in the notepad. Search for the following message - 
+
+`multiple_matching_tokens_detected: The cache contains multiple tokens satisfying the requirements. Call AcquireToken again providing more requirements (e.g. UserId)`
+
+One of the reason for the application crash is due to caching of multiple tokens. 
+
+#### Workaround
+
+To resolve the Unified Service Desk application crash issue, follow the steps.
+
+1. Go to the location following in your computer. <br>
+	`C:\Users\<computer name>\AppData\Roaming\Microsoft\USD`
+	
+2. In the location, you will see the following file.<br>
+**Default_USD.tokens.dat** file. 
+
+3. Delete the file.
+	
+4. Restart the Unified Service Desk client application.
+
+You can sign in to Unified Service Desk client application now.
 
 ## See Also
 
@@ -365,6 +436,36 @@ In this step you will create a navigation rule and set the order before other de
 The configuration of action call and window navigation rule is completed. If you now open a webpage, the webpage opens as a popup in a new window.
 
 For more information related to this limitation, refer the [Unified Service Desk Blogs](https://blogs.msdn.microsoft.com/usd/2017/09/27/unified-service-desk-best-practices-part-5-open-pdf-files-in-an-ie-process-hosted-control/)
+
+### Unified Service Desk crashes during sign in
+
+when you launch Unified Service Desk, the application displays the login screen and suddenly the Unified Service Desk crashes with no error message.
+
+If you have enabled performance data logging, the crash error is logged in the log files. The log files will be present in the following location of your computer.
+
+`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
+
+Open the recent log file in the notepad. Search for the following message - 
+
+`multiple_matching_tokens_detected: The cache contains multiple tokens satisfying the requirements. Call AcquireToken again providing more requirements (e.g. UserId)`
+
+One of the reason for the application crash is due to caching of multiple tokens. 
+
+#### Workaround
+
+To resolve the Unified Service Desk application crash issue, follow the steps.
+
+1. Go to the location following in your computer. <br>
+	`C:\Users\<computer name>\AppData\Roaming\Microsoft\USD`
+	
+2. In the location, you will see the following file.<br>
+**Default_USD.tokens.dat** file. 
+
+3. Delete the file.
+	
+4. Restart the Unified Service Desk client application.
+
+You can sign in to Unified Service Desk client application now.
 
 ## See also
 

@@ -29,16 +29,41 @@ search.app:
 
 # What's new in Unified Service Desk for developers and customizers
 
-::: moniker range="dynamics-usd-4"
+::: moniker range="dynamics-usd-4.1"
 
 ##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)]
 
-### Preview: Hosting application in Microsoft using the Edge Process hosting type
+### Preview: Use Chrome Process hosting type to host web applications in Unified Service Desk
+
+Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on **CefSharp**, which is an open source **framework** for embedding a web browser engine based on the **Chromium** core.
+
+The advantages of using the Chrome process hosting method are as follows:
+
+- Chrome Process is available on different Windows OS server versions (Client and Server).
+- Chrome Process is highly functional and reliable.
+- Easy configurations to host the applications in Unified Service Desk.
+- Switch easily from one browser to another for your entire organization.
+
+More information: [Use Chrome Process to host web applications in Unified Service Desk](chrome-process.md)
+
+### Preview: Integrate channel using Channel Integration Framework
+
+Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
+
+The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** for you to host the channel provider within Unified Service Desk client application.
+
+More information: [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
+
+### Preview: Use Edge Process hosting type to host web applications in Unified Service Desk
 
 Use the Microsoft Edge, the modern, faster, safer and responsive web browser to host applications in Unified Service Desk.
 Select Edge Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.
 
-More information: [Edge process](edge-process.md)
+More information: [Use Edge Process to host web applications in Unified Service Desk](edge-process.md)
+
+::: moniker-end
+
+::: moniker range="dynamics-usd-4"
 
 ## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)]
 
