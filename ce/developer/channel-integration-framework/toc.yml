@@ -21,7 +21,7 @@
     items:
     - name: "Configure channel provider for your Dynamics 365 organization"
       href: configure-channel-provider-channel-integration-framework.md
-    - name: Build a simple communication widget
+    - name: "Build a simple communication widget"
       href: getting-started-simple-widget.md
     - name: "Enable outbound communication (ClickToAct)"
       href: enable-outbound-communication-clicktoact.md
