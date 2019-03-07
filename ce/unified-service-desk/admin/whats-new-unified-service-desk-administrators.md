@@ -51,21 +51,21 @@ More information: [Use Chrome Process to host web applications in Unified Servic
 
 Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
 
-If your organization wants to use the web- and cloud-based channel that you have developed and and you can integrate the same channel using the Channel Integration Framework with minimal configuration experience in Unified Service Desk. This empowers to use same channel across the web and Unified Service Desk. Also, this eliminates the need for developing multiple channels. 
+If your organization wants to use the web- and cloud-based channel that you have developed, you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels.
 
 The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** for you to host the channel provider within Unified Service Desk client application.
 
 More information: [Integrate channel provider using Channel Integration Framework](../integrate-channel-provider-channel-integration-framework.md)
 
-### Preview: Set Configuration Cache Version
+### Preview: Cache specific configuration for agents
 
-The **Configuration Cache Version** option causes the client caching feature to retrieve the configuration that has undergone change from the Dynamics 365 for Customer Engagement server to the agent’s desktop. This helps to improve the startup performance of Unified Service Desk.
+Your organization has several departments and a each department has a configuration with agents added to those configurations. Whenever you a make a change to one of those configurations, the **Configuration Cache Version** feature helps to download only that specific configuration for which you've made a change. Also, when the agents assigned to other configurations, signs in to the client application, the feature doesn't download the configurations thus improves the startup performance of Unified Service Desk.
 
-More information: [Set Configuration Cache Version](../admin/set-configuration-cache-version.md)
+More information: [Cache specific configuration for agents](../admin/set-configuration-cache-version.md)
 
 ### Preview: Single Sign On for Unified Service Desk
 
-Single Sign On (SSO) in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] authenticates users to access Microsoft Dynamics 365 for Customer Engagement apps using the Dynamics 365 for Customer Engagement apps credentials with out entering the credentials multiple times.
+Single Sign On (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a improved startup performance and user experience by authenticating users to access Customer Engagement apps without the need for entering the credentials multiple times.
 
 More information: [Single Sign On (SSO) for Unified Service Desk](../admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk---preview)
 

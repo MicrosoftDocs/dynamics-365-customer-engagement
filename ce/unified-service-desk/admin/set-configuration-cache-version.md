@@ -1,6 +1,6 @@
 ---
-title: "Set Configuration Cache Version in the configuration of Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Learn how set Configuration Cache Version in the configuration of Unified Service Desk for Dynamics 365 for Customer Engagement apps."
+title: "Cache specific configuration for agents in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "Learn how Cache specific configuration for agents in the configuration of Unified Service Desk for Dynamics 365 for Customer Engagement apps."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 03/01/2019
@@ -25,11 +25,11 @@ search.app:
 monikerRange : '>= dynamics-usd-4.1'
 ---
 
-# Preview: Set Configuration Cache Version
+# Preview: Cache specific configuration for agents
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Configuration Cache Version** option causes the client caching feature to retrieve the configuration that has undergone change from the Dynamics 365 for Customer Engagement server to the agent’s desktop. This helps to improve the startup performance of Unified Service Desk.
+Your organization has several departments and a each department has a configuration with agents added to those configurations. Whenever you a make a change to one of those configurations, the **Configuration Cache Version** feature helps to download only that specific configuration for which you've made a change. Also, when the agents assigned to other configurations, signs in to the client application, the feature doesn't download the configurations thus improves the startup performance of Unified Service Desk.
 
 > [!div class=mx-imgBorder]
 > ![Configuration Cache Version option in new configuration page with an example value](../media/configuration-cache-version.PNG "Configuration Cache Version option with an example value")
