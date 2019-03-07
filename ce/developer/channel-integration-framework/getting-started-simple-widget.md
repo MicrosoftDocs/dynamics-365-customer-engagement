@@ -2,7 +2,7 @@
 title: "Getting started with building a simple communication widget | MicrosoftDocs"
 description: "Read how to develop and host a simple communication widget in Channel Integration Framework (CIF)."
 keywords: ""
-ms.date: 03/04/2019
+ms.date: 03/07/2019
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -51,4 +51,12 @@ In this tutorial we will demonstrate how to build a simple *Hello World!* commun
 1. To publish the above sample widget, follow the steps mentioned in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). 
 2. Then, to configure the widget in your Dynamics 365 instance follow the steps mentioned in [Configure sample app in Dynamics 365](sample-softphone-integration.md#bkmk_Configure).
 
-Once this is done, launch the Unified Interface app to see the communication widget on the right side.
+Once all the above steps are completed, launch one of the Unified Interface apps that you selected while configuring the widget in CIF to see the communication widget in the side panel on the right side. To launch one of your selected Unified Interface apps, go to `https://[Organization URI]/apps`.
+
+The published widget should look like this.<br />
+
+![Published sample widget in Unified Interface apps](media/cif-helloworld-published-widget.PNG "Published sample widget in Unified Interface apps")<br />
+
+## See also
+
+[Host a communication widget and change its modes](host-communication-widget-change-modes.md)
