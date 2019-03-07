@@ -354,7 +354,7 @@ Be default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as 
 | Zoom out |`Ctrl` + `OemMinus`| `Ctrl -`|
 | Zoom reset |`Ctrl` + `0`| `Ctrl 0`|
 
-To change the default value, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields)
+To update additional the keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields)
 
 ### List of zoom control UII options
 
