@@ -74,7 +74,7 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
 
 ::: moniker-end
 
-::: moniker range=">=dynamics-usd-4"
+::: moniker range="=dynamics-usd-4"
 
    |           Option Name            |  Value and Description  |
    |----------------------------------|-------------------------|
