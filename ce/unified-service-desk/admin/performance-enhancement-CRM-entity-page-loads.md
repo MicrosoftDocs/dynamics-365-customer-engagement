@@ -25,9 +25,28 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Performance enhancement for CRM entity page loads
-With this release of [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], you can experience enhanced performance of CRM entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature. 
-  
+# Performance enhancement for loading Customer Engagement app pages
+
+::: moniker range="<=dynamics-usd-4"
+
+You can experience enhanced performance of Dynamics 365 Customer Engagement apps entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature. 
+
+::: moniker-end
+
+::: moniker range=">=dynamics-usd-4.1"
+
+You can experience enhanced performance of Dynamics 365 Customer Engagement apps entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the pooling feature.
+
+The pooling feature is available for the following processes:
+
+- IE Process
+
+- Chrome Process
+
+::: moniker-end
+
+## Pool process instances for IE Process
+
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Internet Explorer instances for hosted controls to use. Opening a hosted control using a pooled Internet Explorer instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 > [!Note]
@@ -35,7 +54,7 @@ With this release of [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-un
 > - When you enable the pooling feature and open a CRM page hosted control, you can see in Task Manager that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a number of Internet Explorer process instances for hosted controls to use. 
 > - The performance of the Internet Explorer pooling feature is dependent on the resources available on the client computer.
 
-## Enable Internet Explorer pooling
+## Enable pooling for IE Process
 
 By default, Internet Explorer pooling is disabled. To enable pooling, a System Administrator must configure the option on the **Active UII Options** page and set it to **true**.
 
@@ -53,11 +72,18 @@ To enable Internet Explorer pooling:
 
 6. Type **InternetExplorerPooling** for the **Name** field.
 
-7. Set **true** for the **Value** field.
+7. Set **True** for the **Value** field.
 
 8. Click **Save**.
 
    ![Enable InternetExplorerPooling option](../../unified-service-desk/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
+
+::: moniker range=">=dynamics-usd-4.1"
+
+## Pool process instances for Chrome Process
+
+
+::: moniker-end
 
 ## See also
 
