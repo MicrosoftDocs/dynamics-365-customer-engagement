@@ -30,7 +30,7 @@ search.app:
 
 ## Public Preview: Unified Service Desk 4.1 known issues and limitations
 
-### Preview: Chrome Process
+## Preview: Chrome Process
 
 #### Support for CloseAndPrompt action in Chrome Process
 
@@ -66,7 +66,7 @@ Now, save the configuration. Login to Unified Service Desk and open any article 
 
 When you integrate a channel with Unified Service Desk using the Channel Integration Framework and if that channels is not based on the Chromium Embedded Framework, then you might not have access to Microphone and webcam.
 
-### Preview: Edge Process
+## Preview: Edge Process
 
 #### Support for CloseAndPrompt action in Edge Process
 
