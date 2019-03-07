@@ -224,7 +224,7 @@
 #### [Control social data](control-social-data.md)
 
 ### [Manage Bing Maps](manage-bing-maps-organization.md)
-### [Enable embedded Flow (Microsoft Flow)](enable-embedded-flow-in-your-organization.md)
+### [Enable Flow integration](enable-embedded-flow-in-your-organization.md)
 ### [Preview Feature: Live Assist powered by Café X](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)
 ### [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](deploy-packages-using-package-deployer-windows-powershell.md)
 ### [Use Power BI with Dynamics 365 for Customer Engagement](use-power-bi.md)
@@ -244,9 +244,9 @@
 #### [Enable Office Delve](enable-office-delve.md)
 #### [Connect to Yammer](connect-yammer.md)
 
-# [Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)
-## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
-## [Preview feature: Suggest similar cases for a case](public-preview-suggest-similar-cases-for-a-case.md)
+# [Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)
+## [Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
+## [Suggest similar cases for a case](../customer-service/suggest-similar-cases-for-a-case.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
 
 # [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
