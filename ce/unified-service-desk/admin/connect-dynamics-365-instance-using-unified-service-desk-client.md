@@ -68,15 +68,16 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 [This section is pre-release documentation of SSO feature and is subject to change.]
 
-Single Sign On (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a improved startup performance. 
-
-Single Sign On (SSO) in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] authenticates users to access Customer Engagement apps without the need for entering the credentials multiple times. This in turn improves the startup performance for the agents.
+Single Sign On (SSO) for Unified Service Desk provides a improved startup performance and user experience by authenticating users to access Dynamics 365 for Customer Engagement apps without the need for entering the credentials multiple times.
 
 ### Understand SSO for Unified Service Desk
 
 While signing in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you must enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. To avoid entering credentials multiple times, use the Single Sign On (SSO) feature.
 
 By default, the SSO feature is enabled for the Chrome Process. With SSO, you need to enter the credentials only once while signing into [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and Customer Engagement apps server.
+
+> [!Note]
+> The SSO feature is available only for Dynamics 365 and Unified Service Desk.
 
 **SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default, **SingleSignOnThreshold** value is 5000 milliseconds. To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
 
