@@ -86,6 +86,8 @@ To enable Internet Explorer pooling:
 
 By default, the Chrome Process instance pooling is enabled.
 
+With the Chrome Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
+
 ## Enable pooling for Chrome Process
 
 By default, Chrome Process pooling is enabled. To disable the pooling, a System Administrator must configure the option on the **Active UII Options** page and set it to **False**.
