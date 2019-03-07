@@ -26,9 +26,9 @@ search.app:
   - D365FS
 ---
 
-# Geofencing 
+# Geofencing for Field Service Mobile 
 
-A geofence is a virtual perimeter around a specific location. Geofencing allows users of the system to draw zones around places of work, customer's sites and secure areas. These geo-fences when crossed by an equipped vehicle or person can trigger a warning to the user or operator via SMS or email. 
+A geofence is a virtual perimeter around a specific location. Geofencing allows users of the system to draw zones around places of work, customer's sites and secure areas. When geofences are crossed by a person or equipped vehicle an action can be triggered such as a push notification or email message.  
 
 In Dynamics 365 for Field Service, geofencing is designed to send push notifications to field technicians based on their location (as defined by their mobile phone/tablet) relative to a work order location. As an example, when a field technician is within 50 meters of a work order location, a text message will be sent to the technician reminding him/her to document their arrival. 
 
