@@ -59,6 +59,8 @@ If the customer signs in to the portal to initiate a chat with the support, then
 
 ![Authenticated chat shows as Yes in the visitor details tab of Conversation summary](../../media/conversation-summary-authenticated-chat.PNG "Authenticated chat shows as Yes in the visitor details tab of Conversation summary") ![Unauthenticated chat shows as Yes in the visitor details tab of Conversation summary](../../media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shows as Yes in the visitor details tab of Conversation summary")
 
+To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings)
+
 #### Issue snapshot
 
 For an incoming conversation request, the system links an existing case to the conversation and shows it in the **Issue snapshot** section. This section shows  information such as the title of the case, its priority, its status, the product, and the owner.

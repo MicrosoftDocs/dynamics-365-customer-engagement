@@ -33,10 +33,11 @@ The walkthrough demonstrates how to set up provide feedback window in your agent
 
 ### Prerequisites
 
-You must know about the following in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:<br>  
-    - The Toolbar Container type of hosted control. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types and action/event reference](../../unified-service-desk/hosted-control-types-action-event-reference.md)  
+You must know about the following in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:
 
-    - Action call and how to configure it. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Action calls](../../unified-service-desk/action-calls.md)
+ - The Toolbar Container type of hosted control. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types and action/event reference](../../unified-service-desk/hosted-control-types-action-event-reference.md)  
+
+ - Action call and how to configure it. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Action calls](../../unified-service-desk/action-calls.md)
 
 <a name="Top"></a>   
 ## In This Walkthrough

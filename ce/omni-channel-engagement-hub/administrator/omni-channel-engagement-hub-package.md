@@ -27,8 +27,6 @@ Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your co
 
 - OmnichannelDemoPackage
 
-- OmnichannelUpgradePackage
-
 - Assembly files
 
 > [!Note]
@@ -56,7 +54,7 @@ Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your co
 To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](/dynamics365/customer-engagement/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer
 ).
 
-## Upgrade package on Dynamics 365 for Customer Engagement instance
+<!-- ## Upgrade package on Dynamics 365 for Customer Engagement instance
 
 1. Run the **PackageDeployer.exe** file. 
 
@@ -72,7 +70,7 @@ To learn more, see [Deploy a sample Unified Service Desk package using Package D
 
 7. The next page displays the package deployment status. A confirmation message is displayed on successful deployment of the package. Select **Next**.
 
-8. The **Upgrade Complete** screen displays the name and information about the package that you upgraded. Review the information, and choose **Finish** to exit the Package Deployer tool.
+8. The **Upgrade Complete** screen displays the name and information about the package that you upgraded. Review the information, and choose **Finish** to exit the Package Deployer tool. -->
 
 ## See also
 
