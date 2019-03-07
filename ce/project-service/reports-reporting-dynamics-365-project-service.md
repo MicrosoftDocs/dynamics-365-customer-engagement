@@ -33,7 +33,7 @@ The Report Wizard lets non-developers create simple reports in Dynamics 365. Bec
 
 ## Custom SQL Server Reporting Services reports
 
-If your business requires a specific report that can't be created by using the Report Wizard, you can create a custom report. You must have Microsoft Visual Studio installed, together with the appropriate Microsoft SQL Server Data Tools and Report Authoring Extensions. For more information about tools and versions, see [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools). For information about how to create a custom report, see [Create a new report using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools).
+If your business requires a specific report that can't be created by using the Report Wizard, you can create a custom report. You must have Microsoft Visual Studio installed, together with the appropriate Microsoft SQL Server Data Tools and Report Authoring Extensions. For more information about tools and versions, see [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools.md). For information about how to create a custom report, see [Create a new report using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools.md).
 
 ## Power BI insights apps
 
