@@ -28,13 +28,11 @@ search.app:
 
 # Geofencing for Field Service Mobile 
 
-A geofence is a virtual perimeter around a specific location. Geofencing allows users of the system to draw zones around places of work, customer's sites and secure areas. When geofences are crossed by a person or equipped vehicle an action can be triggered such as a push notification or email message.  
+A geofence is a virtual perimeter around a specific location. Geofencing allows users of the system to draw zones around places of work, customer's sites and secure areas. When geofences are crossed by a person or equipped vehicle various actions can be triggered in the system.
 
-In Dynamics 365 for Field Service, geofencing is designed to send push notifications to field technicians based on their location (as defined by their mobile phone/tablet) relative to a work order location. As an example, when a field technician is within 50 meters of a work order location, a text message will be sent to the technician reminding him/her to document their arrival. 
+In Dynamics 365 for Field Service, the default use case for geofencing is to create a circular **geofence** around a work order's location and compare this to the changing location of field technicians as measured by their mobile devices running the Field Service Mobile app. When a work order geofence is crossed or "broken" by a field technician, a **geofence event** record is created and the geofence status is changed from outside to inside indicating the field technician is inside the geofence. Another geofence event is created as the the field technician leaves the geofenced area. Based on entering or leaving a geofenced area, a mobile push notification or custom workflow can be triggered.
 
-The push notification scenario is delivered out-of-the-box with the geofencing feature. Nevertheless, the geofenced entity (Work order, account) and the distance radius of the fence, tracking point entity (field technician, equipment), and the resulting action (notification, workflow, etc) are configurable.
-
-**scenario:** in this article lets explore creating a geofence around a work order and compare this to the location of a bookable resource. when a work order is booked, a geofence will be created. by tracking the location of a bookable resource via the field service mobile app
+In this article let's explore configuring geofences including distance radius, enabling and testing field technician location tracking, booking a work order to automatically create a geofence around it, testing crossing the geofence, and consider triggering push notifications as field technicians enter and leave geofenced areas. 
 
 
 ## Prerequisites
