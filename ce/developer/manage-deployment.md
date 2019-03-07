@@ -2,7 +2,7 @@
 title: "Manage your deployment (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Write application code to handle disaster recovery, administer your deployment, and import sample data."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 03/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Write application code to handle disaster recovery, administer your deployment, and import sample data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+Write application code to administer your deployment and import sample data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
 ## In This Section  
 [Administer the deployment using the deployment web service](administer-deployment-using-deployment-web-service.md)  
