@@ -36,14 +36,22 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
 
 ### Preview: Use Chrome Process hosting type to host web applications in Unified Service Desk
 
-Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on Chromium Embedded Framework (CEF), which is an open source **framework** for embedding a web browser engine based on the **Chromium** core. 
-Select Chrome Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.
+Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on **CefSharp**, which is an open source **framework** for embedding a web browser engine based on the **Chromium** core.
+
+The advantages of using the Chrome process hosting method are as follows:
+
+- Chrome Process is available on different Windows OS server versions.
+- Chrome Process is highly functional and reliable.
+- Easy configurations to host the applications in Unified Service Desk.
+- Switch easily from one browser to another for your entire organization.
 
 More information: [Use Chrome Process to host web applications in Unified Service Desk](../chrome-process.md)
 
 ### Preview: Integrate channel provider using Channel Integration Framework
 
 Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
+
+If your organization wants to use the web- and cloud-based channel that you have developed and and you can integrate the same channel using the Channel Integration Framework with minimal configuration experience in Unified Service Desk. This empowers to use same channel across the web and Unified Service Desk. Also, this eliminates the need for developing multiple channels. 
 
 The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** for you to host the channel provider within Unified Service Desk client application.
 

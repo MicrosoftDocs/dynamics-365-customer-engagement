@@ -30,17 +30,18 @@ monikerRange: '>= dynamics-usd-4.1'
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Chrome Process browser control hosts your controls in individual Chrome process instances and displays them in tabs in the Unified Service Desk client application. The Chrome Process facilitates predictable and secure page rendering. You can select **Chrome Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
+The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. The Chrome Process is based on **CefSharp**, which is an open source **framework** for embedding a web browser engine based on the **Chromium** core.  More information: [CefSharp](https://cefsharp.github.io/)
 
 The advantages of using the Chrome process hosting method are as follows:
 
 ![Advantages of Chrome Process](media/chrome-process-value-props.PNG "Advantages of Chrome Process")
 
-- Chrome Process is available on different Windows OS server versions (Client and Server).
-- Chrome, like Microsoft Edge, is a modern browser; modern web apps are highly functional and reliable on these browsers.
+- Chrome Process is available on different Windows OS server versions.
+- Chrome Process is highly functional and reliable.
 - Easy configurations to host the applications in Unified Service Desk.
-- Chrome Process is simple and secure.
 - Switch easily from one browser to another for your entire organization.
+
+You can select **Chrome Process** as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
 
 ## Chrome Process settings
 
@@ -92,6 +93,9 @@ When you are creating a new hosted control, you can select **Chrome Process** as
 
 1. Go to directory where you have installed Unified Service Desk and double-click to open the **UnifiedServiceDesk.exe.config** file.
 Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
+  
+  > [!Note] 
+  > To edit the **UnifiedServiceDesk.exe.config** file, you must have the administrator access permissions.
 
 2. Under the `<appSettings>` section add the new key.<br>
 `<add key="GlobalBrowserMode" value="Chrome"/>`
@@ -296,6 +300,7 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 6. Select **Save**.
 
+<!--
 ## Render sharper text when using Chrome Process
 
 While using Chrome Process to host web applications in Unified Service Desk if text appears slightly blurred, then add the **ChromeSharpRendering** UII option and set the value as **True**. This option renders the text clearly when using Chrome Process to host web applications in Unified Service Desk. To enable this option, you must add the **ChromeSharpRendering** UII option. To learn more, see [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md). 
@@ -312,7 +317,7 @@ While using Chrome Process to host web applications in Unified Service Desk if t
 
 5. Type **ChromeSharpRendering** for the **Name** field and type True for the **Value** field. 
 
-6. Select **Save**.
+6. Select **Save**. -->
 
 ## Enable close confirmation dialog when using Chrome Process
 
@@ -393,6 +398,9 @@ You can set the default value for individual users using the **UnifiedServiceDes
 
 1. Go to directory where you have installed Unified Service Desk and double-click to open the **UnifiedServiceDesk.exe.config** file.
 Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
+
+  > [!Note] 
+  > To edit the **UnifiedServiceDesk.exe.config** file, you must have the administrator access permissions.
 
 2. Under the `<appSettings>` section add the new key.<br>
 `<add key="DefaultZoomLevel" value="<fraction value>"/>`<br> For example: `<add key="DefaultZoomLevel" value="0.3"/>`

@@ -35,8 +35,14 @@ search.app:
 
 ### Preview: Use Chrome Process hosting type to host web applications in Unified Service Desk
 
-Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on Chromium Embedded Framework (CEF), which is an open source **framework** for embedding a web browser engine based on the **Chromium** core. 
-Select Chrome Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.
+Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on **CefSharp**, which is an open source **framework** for embedding a web browser engine based on the **Chromium** core.
+
+The advantages of using the Chrome process hosting method are as follows:
+
+- Chrome Process is available on different Windows OS server versions (Client and Server).
+- Chrome Process is highly functional and reliable.
+- Easy configurations to host the applications in Unified Service Desk.
+- Switch easily from one browser to another for your entire organization.
 
 More information: [Use Chrome Process to host web applications in Unified Service Desk](chrome-process.md)
 
