@@ -73,7 +73,7 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
     > ![Fill survey for omni-channel](../media/preview-survey.png)
 
 
-4. Fill in all the required fields. Provide the **Org ID** where you want to set up Omni-channel Engagement Hub. 
+4. Fill in all the required fields. Provide the **Org ID** where you want to set up Omni-channel Engagement Hub. To know how to find your Org ID in Dynamics 365 instance, see [Locate your Org ID](#locate-your-org-id).
 
     > [!div class=mx-imgBorder]
     > ![Omni-channel org id](../media/preview-org.png)
@@ -123,21 +123,33 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
           > ![enable chat](../media/enable-chat.png)
 
           > [!NOTE]
-          > In this preview, **Chat** check box is selected by default as this preview supports the set up of only the **Chat** channel. You cannot un-select the check box.
+          > In this release, **Chat** check box is selected by default as this preview supports the set up of only the **Chat** channel. You cannot un-select the check box.</br> </br> SMS with Omni-channel Engagement Hub is currently in limited private preview. It is available to limited participants by invite only.
    
           Once the set up is completed successfully, you can see the **Chat** channel enabled on the **Summary** page.
 
            > [!div class=mx-imgBorder]
            > ![summary of set up](../media/summary-fre.png)
 
-          
-
-
+         
 On successful set up, you can view the org and the enabled channel in the **Manage Instances** view.
 
 > [!div class=mx-imgBorder]
 > ![Set up complete](../media/install-complete.png)
 
+## Locate your Org ID
+
+Follow these steps to locate your Org ID in your Dynamics 365 instance.
+
+1. In Dynamics 365, go to **Settings** > **Customizations**.
+    > [!NOTE]
+    > Ensure that you have System Administrator or System Customizer security role or equivalent permissions.
+
+2. Select **Developer Resources**.
+
+    You can find your Org ID in the **Instant Reference Information** section.
+
+    > [!div class=mx-imgBorder]
+    > ![Locate og id](../media/locate-org-id.png)
 
 ### See also
 
