@@ -316,7 +316,7 @@ While using Chrome Process to host web applications in Unified Service Desk if t
 
 ## Enable close confirmation dialog when using Chrome Process
 
-While using Chrome Process to host web applications in Unified Service Desk if you accidentaly close any application, even though the application has a close confirmation dialog, the dialog not show for your confirmation and the application closes. To avoid closing the application accidentaly, **OnBeforeCloseHandler** UII option is introduced. 
+While using Chrome Process to host web applications in Unified Service Desk if you accidentally close any application, even though the application has a close confirmation dialog, the dialog not show for your confirmation and the application closes. To avoid closing the application accidentally, **OnBeforeCloseHandler** UII option is introduced. 
 
 When you enable this UII option and while using Chrome Process to host web applications in Unified Service Desk if you close any application and if the application has a close confirmation dialog, then Chrome Process shows a JavaScript confirmation dialog for you to take an action. The message appears as - **Is it OK to leave/reload the page?**. Select **OK** to close or **Cancel** to stay on the Chrome Process application.
 
@@ -349,7 +349,7 @@ Be default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as 
 | Zoom out |`Ctrl` + `OemMinus`| `Ctrl -`|
 | Zoom reset |`Ctrl` + `0`| `Ctrl 0`|
 
-To change the default value, you must add the UII options and provide the character as the value. To learn about the allowed set of charater values, see [Keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields)
+To change the default value, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields)
 
 ### List of zoom control UII options
 
