@@ -83,7 +83,7 @@ Currently, Document Suggestions does not search attachments that are added to No
  External sites, such as an on-premises [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document library can be included in Document Suggestions by adding an external URL for the site to be searched.  
   
 > [!NOTE]
->  For the best results when using an external site for document suggestions, we recommend that you use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Text Analytics, which provides more advanced keyword matching logic. [[Set the text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection) ](public-preview-microsoft-cognitive-services-integration.md#set-the-text-analytics-connection) 
+>  For the best results when using an external site for document suggestions, we recommend that you use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Text Analytics, which provides more advanced keyword matching logic. [Set the text analytics connection](public-preview-microsoft-cognitive-services-integration.md#set-the-text-analytics-connection)
   
  Once you add the external URL to the enabled document suggestions feature, here is what your users will experience.  
   
