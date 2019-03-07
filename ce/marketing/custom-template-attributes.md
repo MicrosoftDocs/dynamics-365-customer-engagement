@@ -62,7 +62,7 @@ The following image shows the same design in full-page-edit mode (left) and drag
 ![Full-page editor vs. drag-and-drop editor](media/designer-full-page-editor.png "Full-page editor vs. drag-and-drop editor")
 
 > [!NOTE]
-> When using the full-page editor, you can still select, edit, and style text using the text-formatting toolbar (shown), and can also double-click on images, links, and other elements to set their properties using  a pop-up dialog. The toolbar also includes the assist-edit button for adding dynamic content, such as field values drawn from each recipient's contact record.
+> When using the full-page editor, you can still select, edit, and style text using the text-formatting toolbar (shown), and can also double-click on images, links, and other elements to set their properties using  a pop-up dialog. The toolbar also includes the [assist-edit](dynamic-email-content.md#assist-edit) button for adding dynamic content, such as field values drawn from each recipient's contact record.
 
 <a name="containers"></a>
 

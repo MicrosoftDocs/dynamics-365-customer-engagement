@@ -159,14 +159,14 @@ This expression finds the name of the managing partner for the account for the c
 
 ## Dynamic values in To, From-name, From-address, and Reply-to fields
 
-On the **Summary** tab of the **Marketing Email** form, you can make various non-content-related settings for your message in the **Advanced Header** section. This includes values and expressions for establishing the to, from-name, from-address, and reply-to values the message will use.
+On the **Summary** tab of the **Marketing Email** form, you can make various non-content-related settings for your message in the **Sender and receiver** section. This includes values and expressions for establishing the to, from-name, from-address, and reply-to values the message will use.
 
-![Advanced header settings for email messages](media/email-advanced-header-settings.png "Advanced header settings for email messages")
+![Sender and receiver settings for email messages](media/email-advanced-header-settings.png "Sender and receiver settings for email messages")
 
 Though these settings provide assist-edit buttons, you must only place static values, or values from the contact (context) entity, such as `{{contact.emailaddress1}}` (which is the default for the **To** address). These settings don't currently support any other entities, relations, or lookup-field values.
 
 > [!TIP]
-> You can include conditional statements in the **Advanced Header** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
+> You can include conditional statements in the **Sender and receiver** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
 
 ## Find record IDs
 
