@@ -62,6 +62,10 @@ To open an KB article, only the article url is sufficient. For example: `url=[[K
 
 Now, save the configuration. Login to Unified Service Desk and open any article to see the article contents.
 
+#### Support for Microphone and webcam with Channel Integreation Framework
+
+When you integrate a channel with Unified Service Desk using the Channel Integration Framework and if that channels is not based on the Chromium Embedded Framework, then you might not have access to Microphone and webcam.
+
 ### Preview: Edge Process
 
 #### Support for CloseAndPrompt action in Edge Process
