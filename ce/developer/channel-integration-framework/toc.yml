@@ -21,11 +21,8 @@
     items:
     - name: "Configure channel provider for your Dynamics 365 organization"
       href: configure-channel-provider-channel-integration-framework.md
-    - name: "Host a communication widget and change its modes"
-      href: host-communication-widget-change-modes.md
-      items:
-      - name: Step 1 - Build a simple communication widget
-        href: getting-started-simple-widget.md
+    - name: Build a simple communication widget
+      href: getting-started-simple-widget.md
     - name: "Enable outbound communication (ClickToAct)"
       href: enable-outbound-communication-clicktoact.md
     - name: "Add CIF solution as a dependent solution"
