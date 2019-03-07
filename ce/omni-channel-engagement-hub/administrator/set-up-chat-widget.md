@@ -27,7 +27,4 @@ In this section, you will learn how to:
 - [Configure agent display name](agent-display-name.md)
 - [Configure a pre-chat survey](configure-pre-chat-survey.md)
 - [Create a survey question](create-question-library.md)
-- [Create and manage operating hours](create-operating-hours.md)
-- [Create chat authentication settings](create-chat-auth-settings.md)
-- [Create and manage geo location providers](geo-location-provider.md)
 - [Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)

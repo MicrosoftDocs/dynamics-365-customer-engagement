@@ -25,11 +25,11 @@ You can create survey questions and associate them with a work stream. You can t
 2. Go to **Administration** &gt; **Chat**.
 3. Open the chat widget in which you need to add a question.
 4. On the **Survey** tab, in the **Pre-chat survey** field, select **Yes**.
+5. Select **Add question**.
 
     > [!div class=mx-imgBorder]
     > ![Add a question to the question library](../media/oc-add-question.png "Add a question to the question library")
-
-5. Select **Add question**.
+    
 6. In the **Quick Create: Survey Question Sequence** pane, browse for a question and select **New**.
 5. On the **New Survey Question** page, provide the following information:
 
