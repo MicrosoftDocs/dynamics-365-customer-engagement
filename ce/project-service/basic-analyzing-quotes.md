@@ -48,8 +48,8 @@ If the values for gross margin and adjusted gross margin differ by a wide margin
 
 In PSA, you can analyze quotes and generate charts for customer expectations about the schedule and budget if you enter values for the following fields:
 
-- The **Requested delivery date** field on the quote header
-- The **Customer budget** field for each quote line (for project-based lines and product-based lines)
+- The **Requested delivery date** field on the quote header.
+- The **Customer budget** field for each quote line (for project-based lines and product-based lines).
 
 Analysis of customer expectations about the schedule is done by comparing the latest end date of the quote line detail with the requested delivery date across all quote lines in the quote.
 
