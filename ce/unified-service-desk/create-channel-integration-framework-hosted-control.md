@@ -58,4 +58,4 @@ monikerRange: '>= dynamics-usd-4.1'
 ## See also
 
 - [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md)
-- [Integrate channel provider using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
+- [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)

@@ -420,7 +420,7 @@
       href: walkthrough-create-uii-windows-forms-hosted-control.md
     - name: 'Walkthrough: Create a UII WPF Hosted Control'
       href: walkthrough-create-uii-wpf-hosted-control.md
-  - name: Integrate channel provider using Channel Integration Framework
+  - name: Integrate channel using Channel Integration Framework
     href: integrate-channel-provider-channel-integration-framework.md   
     items:
     - name: Create Channel Integration Framework hosted control

@@ -47,7 +47,7 @@ The advantages of using the Chrome process hosting method are as follows:
 
 More information: [Use Chrome Process to host web applications in Unified Service Desk](../chrome-process.md)
 
-### Preview: Integrate channel provider using Channel Integration Framework
+### Preview: Integrate channel using Channel Integration Framework
 
 Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
 
@@ -55,7 +55,7 @@ If your organization wants to use the web- and cloud-based channel that you have
 
 The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** for you to host the channel provider within Unified Service Desk client application.
 
-More information: [Integrate channel provider using Channel Integration Framework](../integrate-channel-provider-channel-integration-framework.md)
+More information: [Integrate channel using Channel Integration Framework](../integrate-channel-provider-channel-integration-framework.md)
 
 ### Preview: Cache specific configuration for agents
 
