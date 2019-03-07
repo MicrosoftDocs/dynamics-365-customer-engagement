@@ -44,7 +44,7 @@ You can use the Alt+1 keys (default) to set your focus on a notification. If the
 
 ::: moniker-end
 
-::: moniker range="dynamics-usd-4.1"
+::: moniker range=">=dynamics-usd-4.1"
 
 ## Navigate on the notifications using keyboard shortcuts
 
