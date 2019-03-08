@@ -37,8 +37,10 @@ You will need to sign your team up for [LinkedIn Sales Navigator Team](https://b
 The following procedure guides administrators to enable default controls for LinkedIn Sales Navigator content. However, you can still customize other forms and entities to show Sales Navigator controls.
 
 1. In Dynamics 365 for Sales, go to **Settings** > **Business Management**.
+   ![Clickpath for Business Management settings](media/business-management-settings.png)
 2. Select **LinkedIn Sales Navigator**.
 3. Select the **Enable Sales Navigator Integration** checkbox.
+   ![Enable the Sales Navigator integration](media/sales-navigator-dialog-box.png)
 4. Select **Ok** to enable the integration.
 
 ## Disable the default Sales Navigator controls
