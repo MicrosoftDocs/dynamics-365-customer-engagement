@@ -57,7 +57,7 @@ Go to **Settings > Solutions** and verify three Geofence solutions are present.
 3. Geofence for Field Service
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-solutions.png)
+> ![Screenshot of geofence solutions](./media/mobile-geofence-solutions.png)
 
 ## 2. Activate geofence processes
 
@@ -67,7 +67,7 @@ Go to **Settings > Processes** and **activate** the following processes. These p
    2) GenerateGeofenceWhenBookingIsCreated
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-activate-processes.png)
+> ![Screenshot of geofence processes](./media/mobile-geofence-activate-processes.png)
 
 ## 3. Enable location auditing for the Field Service Mobile app
 
@@ -76,7 +76,7 @@ Go to **Settings > Woodford > MobileCRM Woodford HTML5**
 Then enter the mobile project that holds your Field Service Mobile customizations. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-mobile-project.png)
+> ![Screenshot of mobile project](./media/mobile-geofence-mobile-project.png)
 
 > [!Note]
 > It is recommended to import and derive a mobile project template and make customizations in the child derivation. The latest mobile project template can be downloaded at [https://aka.ms/fsmobile-project](https://aka.ms/fsmobile-project).  
@@ -86,7 +86,7 @@ Next go to the **Auditing** section of the project. Here you can choose which ac
 **Enable Auditing**, **Include GPS Position**, and **Log synchronization events**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-enable-auditing.png)
+> ![Screenshot of enabling gps tracking for field service mobile](./media/mobile-geofence-enable-auditing.png)
 
 More specific auditing can be configured based on your business needs. You can track application’s state events, and that is whether the application is running, terminated,  paused (put to background) or resumed (put back to foreground). If you want to audit the movement, you can use the Track GPS position changes, where you can set the Delay and Distance of the GPS position. If the device moves for the defined distance after the set time interval expires, the position is recorded. 
  
@@ -96,7 +96,7 @@ More specific auditing can be configured based on your business needs. You can t
 Next go to the **Location Tracking** section of the project and **Enable background GPS monitoring**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-enable-location-tracking.png)
+> ![Screenshot of enabling background location tracking](./media/mobile-geofence-enable-location-tracking.png)
 
 Among other functions, this allows a technician's location data stream to be sent to Dynamics 365 for Field Service that surfaces a technician’s location on the schedule board.
 
@@ -107,17 +107,17 @@ After enabling location auditing and background location tracking, it is importa
 First, log into the Field Service Mobile application and synchronize data.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-sync-mobile-app.png)
+> ![Screenshot of synchronizing the field service mobile app](./media/mobile-geofence-sync-mobile-app.png)
 
 As configured in the mobile project in previous steps, synchronizing the mobile application is geo-audited.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-mobile-audit-table.png)
+> ![Screenshot of mobile audit table](./media/mobile-geofence-mobile-audit-table.png)
 
 Back in Dynamics 365, go to the mobile audit table (**Settings > Mobile Auditing > Mobile Auditing Records**) to confirm the synchronization event, along with the user and the **latitude** and **longitude** values of the event are recorded.
 
 If the user signed into the mobile app is related to a bookable resource, the most recent latitude and longitude coordinates will populate on the bookable resource record. 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-resource-location.png)
+> ![Screenshot of bookable resource form with latitude and longitude fields](./media/mobile-geofence-resource-location.png)
 
 > [!Note]
 > You may need to add the latitude and longitude fields to the bookable resource form.
@@ -126,11 +126,11 @@ If the user signed into the mobile app is related to a bookable resource, the mo
 Additionally, the bookable resource's current location will appear on the schedule board map. Simply click the map pin icon next to the bookable resource's name and the map will display the location with a different icon. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-map-location.png)
+> ![Screenshot of current location on schedule board map](./media/mobile-geofence-map-location.png)
 
 **Pro Tip:** Dispatchers can utilize current locations for schedule assistant travel time calculations by selecting **Real time mode** in the schedule assistant filter pane. 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-real-time-location-filter.png)
+> ![Screenshot of real time mode schedule assistant setting](./media/mobile-geofence-real-time-location-filter.png)
 
 
 ## 6. Configure Geofencing Settings
@@ -140,7 +140,7 @@ Go to **Field Service > Settings > Geofencing Settings**
 Enter a **unit of measure** and **minimum radius**. In the image below, the smallest geofence we can create is a circle around a service account with a radius of 25.59 feet.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-minimum-radius.png)
+> ![Screenshot of geofencing settings](./media/mobile-geofence-minimum-radius.png)
 
 
 
@@ -151,7 +151,7 @@ Go to **Field Service > Settings > Entity Configurations**
 Then select the Account configuration which is included by default with the geofence solutions.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-entities.png)
+> ![Screenshot of entity configurations](./media/mobile-geofence-entities.png)
 
 **Entity:** Select **Account** because work order locations are inherited from the related service account. 
 
@@ -162,7 +162,7 @@ Then select the Account configuration which is included by default with the geof
 **Default Radius:** Enter a number to represent the radius of the geofence around the latitude and longitude of the account location. The unit of measure will be the unit chosen in Geofence Settings in the previous step. In this example, the default radius is 328.08399 feet.
    
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-service-account.png)
+> ![Screenshot of account geofence configurations](./media/mobile-geofence-service-account.png)
  
 Next go to the Bookable Resource configuration.
 
@@ -173,26 +173,26 @@ Next go to the Bookable Resource configuration.
 **Enabled As:** Select **Geotracked** because the bookable resource has a variable location that is compared against defined geofences.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-bookable-resource.png)
+> ![Screenshot of bookable resource geofence configurations](./media/mobile-geofence-bookable-resource.png)
 
 ## 8. Book a work order 
 
 Next, book a work order via any booking method. In this example a work order is manually dragged and dropped to a field technician bookable resource. As a reminder this resource is of type user and has access to the Field Service Mobile app. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-book.png)
+> ![Screenshot of scheduling a work order from the schedule board](./media/mobile-geofence-book.png)
 
 The booking of a work order will trigger an asynchronous workflow that creates a geofence as long as the appropriate process was activated in earlier steps.
 
 Go to **Field Service > Settings > Geofences** to view the newly created geofence.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-created.png)
+> ![Screenshot of a geofence automatically created](./media/mobile-geofence-created.png)
 
 The **Geotracked Record Status** is set to Outside meaning the bookable resource is outside of the geofence area.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-created-record.png)
+> ![Screenshot of geofence details](./media/mobile-geofence-created-record.png)
 
 
 ## 9. Test a geofence event
@@ -204,28 +204,28 @@ This is typically done two ways.
 The first way is to travel within the geofenced area and log in and synchronize the Field Service Mobile application. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-arrive.png)
+> ![Screenshot of current location overlapping work order location](./media/mobile-geofence-arrive.png)
 
 The second way is for testing and development purposes and is to simulate traveling within the geofenced area by using administrator security to manually enter latitude and longitude values in the Mobile Audit table and the bookable resource record.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-mobile-audit-table.png)
+> ![Screenshot of mobile audit table](./media/mobile-geofence-mobile-audit-table.png)
 
 > [!Note]
 > You can enable editable grids for the Mobile Audit entity to override the latitude and longitude values. You can access the Mobile Audit table by going to a list view for another entity in the Unified Client Interface (UCI) and manually entering **resco_mobileaudit** in the URL.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-minimum-radius.png)
+> ![Screenshot of geofencing settings details](./media/mobile-geofence-minimum-radius.png)
 
 Either way, the synchronized coordinates will be within the geofenced area and trigger a **Geofence Event**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-event.png)
+> ![Screenshot of geofence event showing a bookable resource has entered a geofenced area](./media/mobile-geofence-event.png)
 
 Additionally, this will change the related Geofence Geotracked Record Status to **Inside**.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-status-inside.png)
+> ![Screenshot of geotracked record status changed to 'inside'](./media/mobile-geofence-status-inside.png)
 
 
 
@@ -241,7 +241,7 @@ Next, go to **Settings > Processes** and activate the following processes:
 2. Remind to change status upon leaving
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-activate-reminders.png)
+> ![Screenshot of geofence and push notification processes](./media/mobile-geofence-activate-reminders.png)
 
 
 ## Configuration considerations
@@ -249,7 +249,7 @@ Next, go to **Settings > Processes** and activate the following processes:
 - You can configure how far back in time a geo-location is valid for. This is important for sceanrios when a bookable resource synchronizes a geo-location to the server and then loses Internet connection and dispatchers are unsure of the true location. The time theshold can be configured in **Resource Scheduling > Settings > Scheduling Parameter > Geo Data > Geo Location Expires After X Minutes**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-geofence-location-expirations.png)
+> ![Screenshot of location expiration configuration field](./media/mobile-geofence-location-expiration.png)
   
 ## Additional notes
 - Currently only circular shaped geofences are supported.
