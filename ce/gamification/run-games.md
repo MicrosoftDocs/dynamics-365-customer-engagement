@@ -96,7 +96,7 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 9. In the game setup header, click **2** to proceed to the next step.
 
 > [!IMPORTANT]
-> When you remove a KPI from an active game, a user with the **Game manager** security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] needs to click **Refresh Data** in **Dynamics 365 for Customer Engagement (online)** > **Gamification** > **Gamification Settings** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].
+> When you remove a KPI from an active game, a user with the **Game manager** security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] needs to click **Refresh Data** in **Dynamics 365 for Customer Engagement (online)** > **Gamification** > **Gamification Settings** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]. You can edit and update KPIs in an active game up to 14 days after the start of the game. 
 
 #### Game quotas
 
