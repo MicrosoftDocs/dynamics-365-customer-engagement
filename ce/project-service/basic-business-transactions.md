@@ -1,12 +1,12 @@
 ---
 title: Business transactions 
-description: This topic provides information about business transactions for Project Service Automation (PSA). 
+description: This topic provides information about business transactions for Dynamics 365 for Project Service Automation (PSA).  
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 02/13/2019
+ms.date: 03/01/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In Dynamics 365 for Project Service Automation (PSA), **business transaction** is an abstract concept that isn’t represented by any entity. However, there are certain common fields and processes on entities that are designed to follow the concept of business transactions. The following entities in PSA follow this abstraction:
+In Microsoft Dynamics 365 for Project Service Automation (PSA), *business transaction* is an abstract concept that isn't represented by any entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities in PSA use this abstraction:
 
 - Quote line details
 - Contract line details
@@ -33,14 +33,14 @@ In Dynamics 365 for Project Service Automation (PSA), **business transaction** i
 - Journal lines
 - Actuals
 
-Of these, **Quote line details**, **Contract line details**, and **Estimate lines** map to the estimation phase in the project life cycle. **Journal lines** and **Actuals** map to the execution phase in the project life cycle.
+Of these entities, Quote line details, Contract line details, and Estimate lines are mapped to the estimation phase in the project lifecycle. The Journal lines and Actuals entities are mapped to the execution phase in the project lifecycle.
 
-PSA treats records in each of the five entities as a business transaction. The only distinction is that records in entities that map to the estimation phase are considered a financial forecast while the records in entities that map to execution phase represent financial fact that has already occurred.
+PSA treats records in these five entities as business transactions. The only distinction is that records in entities that are mapped to the estimation phase are considered financial forecasts, whereas the records in entities that are mapped to the execution phase are considered financial facts that have already occurred.
 
 For more information, see [Estimates](estimates.md) and [Actuals](actuals.md).
 
-## Concepts unique to business transactions
-The following concepts are unique to the idea of a business transaction:
+## Concepts that are unique to business transactions
+The following concepts are unique to the concept of business transactions:
 
 - Transaction type
 - Transaction class
@@ -49,7 +49,7 @@ The following concepts are unique to the idea of a business transaction:
 
 ### Transaction type
 
-Transaction type represents the timing and context of the financial impact on a project. It’s represented as an option set with the following supported values in PSA: 
+Transaction type represents the timing and context of the financial impact on a project. It's represented by an option set that has the following supported values in PSA:
 - Cost
 - Project contract
 - Unbilled sales
@@ -59,7 +59,7 @@ Transaction type represents the timing and context of the financial impact on a 
 
 ### Transaction class
 
-Transaction class represents the different types of costs that are incurred on projects. It’s also represented as an option set with the following supported values in PSA:
+Transaction class represents the different types of costs that are incurred on projects. It's represented by an option set that has the following supported values in PSA:
 
 - Time
 - Expense
@@ -68,11 +68,13 @@ Transaction class represents the different types of costs that are incurred on p
 - Milestone
 - Tax
 
-The milestone value is generally used by the fixed price billing business logic in PSA.
+The **Milestone** value is typically used by the business logic for fixed-price billing in PSA.
 
 ### Transaction origin
 
-Transaction origin is an entity that stores the origin of each business transaction. As a project gets underway, each business transaction gives rise to another business transaction, which in turn creates another and so on. Transaction origin entity stores data about each transaction’s origin to help reporting and traceability.
+Transaction connection is an entity that stores the relation between two similar business transactions, such as cost and related sales actuals, or transaction reversals that are triggered by billing activities such as invoice confirmation or invoice correction.
+
+Together, the Transaction origin and Transaction connection entities help you track relationships between business transactions and actions that cause the creation of a specific business transaction.
 
 ### Transaction connection
 
@@ -80,68 +82,66 @@ Transaction connection is an entity that stores the relation between two similar
 
 Together, Transaction origin and Transaction connection help you keep track of relationships between business transactions and actions that resulted in the creation of a specific business transaction.
 
-### Example of transaction origin working with transaction connections
+### Example: How Transaction origin works with Transaction connection
 
-The following is an example of the typical processing of time entries in a PSA project life cycle:
+The following example shows the typical processing of time entries in a PSA project lifecycle.
 
 > ![Processing time entires in a Project Service life cycle](media/basic-guide-17.png)
  
-- The submission of time entry results in the creation of two journal lines: one for cost and one for unbilled sales.
-- The eventual approval of the time entry results in the creation of two actuals: one for cost and one for unbilled sales.
-- When the user creates a project invoice, the invoice line transaction is created using data from the unbilled sales actual. 
-- When the invoice is confirmed, two new actuals are created: an unbilled sales reversal and a billed sales actual.
+1. Submission of a time entry causes the creation of two journal lines: one for cost and one for unbilled sales.
+2. Eventual approval of the time entry causes the creation of two actuals: one for cost and one for unbilled sales.
+3. When the user creates a project invoice, the invoice line transaction is created by using data from the unbilled sales actual. 
+4. When the invoice is confirmed, two new actuals are created: an unbilled sales reversal and a billed sales actual.
 
-Each of these events trigger the creation of records in the transaction origin and transaction connection entities to help build a trace of relationships between these records created across time entry, journal line, actuals, and invoice line details. 
-The following table shows the records in the transaction origin entity for the above workflow:
+Each of these events triggers the creation of records in the Transaction origin and Transaction connection entities to help build a trace of relationships between these records that are created across time entry, journal line, actuals, and invoice line details.
 
+The following table shows the records in the Transaction origin entity for the preceding workflow.
 
-| Event                        | Origin                   | Origin Type                       | Transaction                       | Transaction Type         |
+| Event                        | Origin                   | Origin type                       | Transaction                       | Transaction type         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
 | Time Entry Submission        | Time entry Record GUID   | Time Entry                        | Journal Line Record GUID (cost)   | Journal Line             |
-| Time entry   Record GUID     | Time Entry               | Journal Line Record GUID (sales)  | Journal Line                      |                          |
+| Time entry Record GUID       | Time Entry               | Journal Line Record GUID (sales)  | Journal Line                      |                          |
 | Time Approval                | Journal Line Record GUID | Journal Line                      | Unbilled Sales Record GUID        | Actual                   |
-| Time entry   Record GUID     | Time Entry               | Unbilled Sales Record GUID        | Actual                            |                          |
-| Journal   Line Record GUID   | Journal Line             | Cost Actual Record GUID           | Actual                            |                          |
-| Time entry   Record GUID     | Time Entry               | Cost Actual Record GUID           | Actual                            |                          |
+| Time entry Record GUID       | Time Entry               | Unbilled Sales Record GUID        | Actual                            |                          |
+| Journal Line Record GUID     | Journal Line             | Cost Actual Record GUID           | Actual                            |                          |
+| Time entry Record GUID       | Time Entry               | Cost Actual Record GUID           | Actual                            |                          |
 | Invoice Creation             | Time entry Record GUID   | Time Entry                        | Invoice Line Transaction GUID     | Invoice Line Transaction |
-| Journal   Line Record GUID   | Journal Line             | Invoice Line Transaction GUID     | Invoice Line Transaction          |                          |
+| Journal Line Record GUID     | Journal Line             | Invoice Line Transaction GUID     | Invoice Line Transaction          |                          |
 | Invoice Confirmation         | Invoice Line GUID        | Invoice Line                      | Billed Sales Record GUID          | Actual                   |
-| Invoice   GUID               | Invoice                  | Billed Sales Record GUID          | Actual                            |                          |
-| Invoice   Line Detail GUID   | Invoice Line Detail      | Billed Sales Record GUID          | Actual                            |                          |
-| Time entry   Record GUID     | Time Entry               | Billed Sales Record GUID          | Actual                            |                          |
-| Journal   Line Record GUID   | Journal Line             | Billed Sales Record GUID          | Actual                            |                          |
-| Time entry   Record GUID     | Time Entry               | Unbilled Sales Reversal GUID      | Actual                            |                          |
-| Journal   Line Record GUID   | Journal Line             | Unbilled Sales Reversal GUID      | Actual                            |                          |
+| Invoice GUID                 | Invoice                  | Billed Sales Record GUID          | Actual                            |                          |
+| Invoice Line Detail GUID     | Invoice Line Detail      | Billed Sales Record GUID          | Actual                            |                          |
+| Time entry Record GUID       | Time Entry               | Billed Sales Record GUID          | Actual                            |                          |
+| Journal Line Record GUID     | Journal Line             | Billed Sales Record GUID          | Actual                            |                          |
+| Time entry Record GUID       | Time Entry               | Unbilled Sales Reversal GUID      | Actual                            |                          |
+| Journal Line Record GUID     | Journal Line             | Unbilled Sales Reversal GUID      | Actual                            |                          |
 | Draft Invoice Correction     | Old ILD GUID             | Invoice Line Transaction          | Correction ILD GUID               | Invoice Line Transaction |
-| Old IL   GUID                | Invoice Line             | Correction ILD GUID               | Invoice Line Transaction          |                          |
-| Old   Invoice GUID           | Invoice                  | Correction ILD GUID               | Invoice Line Transaction          |                          |
-| Time entry   Record GUID     | Time Entry               | Correction ILD GUID               | Invoice Line Transaction          |                          |
-| Journal   Line Record GUID   | Journal Line             | Correction ILD GUID               | Invoice Line Transaction          |                          |
+| Old IL GUID                  | Invoice Line             | Correction ILD GUID               | Invoice Line Transaction          |                          |
+| Old Invoice GUID             | Invoice                  | Correction ILD GUID               | Invoice Line Transaction          |                          |
+| Time entry Record GUID       | Time Entry               | Correction ILD GUID               | Invoice Line Transaction          |                          |
+| Journal Line Record GUID     | Journal Line             | Correction ILD GUID               | Invoice Line Transaction          |                          |
 | Confirmed invoice correction | Old ILD GUID             | Invoice Line Transaction          | Reversed Billed Sales Actual GUID | Actual                   |
-| Old IL   GUID                | Invoice Line             | Reversed Billed Sales Actual GUID | Actual                            |                          |
-| Old   Invoice GUID           | Invoice                  | Reversed Billed Sales Actual GUID | Actual                            |                          |
-| Time entry   Record GUID     | Time Entry               | Reversed Billed Sales Actual GUID | Actual                            |                          |
-| Journal   Line Record GUID   | Journal Line             | Reversed Billed Sales Actual GUID | Actual                            |                          |
-| Old ILD   GUID               | Invoice Line Transaction | New Unbilled Sales Actual GUID    | Actual                            |                          |
-| Old IL   GUID                | Invoice Line             | New Unbilled Sales Actual GUID    | Actual                            |                          |
-| Old   Invoice GUID           | Invoice                  | New Unbilled Sales Actual GUID    | Actual                            |                          |
-| Time entry   Record GUID     | Time Entry               | New Unbilled Sales Actual GUID    | Actual                            |                          |
-| Journal   Line Record GUID   | Journal Line             | New Unbilled Sales Actual GUID    | Actual                            |                          |
-| Correction   ILD GUID        | Invoice Line Transaction | New Unbilled Sales Actual GUID    | Actual                            |                          |
-| Correction   IL GUID         | Invoice Line             | New Unbilled Sales Actual GUID    | Actual                            |                          |
-| Correction   Invoice GUID    | Invoice                  | New Unbilled Sales Actual GUID    | Actual                            |                          |
+| Old IL GUID                  | Invoice Line             | Reversed Billed Sales Actual GUID | Actual                            |                          |
+| Old Invoice GUID             | Invoice                  | Reversed Billed Sales Actual GUID | Actual                            |                          |
+| Time entry Record GUID       | Time Entry               | Reversed Billed Sales Actual GUID | Actual                            |                          |
+| Journal Line Record GUID     | Journal Line             | Reversed Billed Sales Actual GUID | Actual                            |                          |
+| Old ILD GUID                 | Invoice Line Transaction | New Unbilled Sales Actual GUID    | Actual                            |                          |
+| Old IL GUID                  | Invoice Line             | New Unbilled Sales Actual GUID    | Actual                            |                          |
+| Old Invoice GUID             | Invoice                  | New Unbilled Sales Actual GUID    | Actual                            |                          |
+| Time entry Record GUID       | Time Entry               | New Unbilled Sales Actual GUID    | Actual                            |                          |
+| Journal Line Record GUID     | Journal Line             | New Unbilled Sales Actual GUID    | Actual                            |                          |
+| Correction ILD GUID          | Invoice Line Transaction | New Unbilled Sales Actual GUID    | Actual                            |                          |
+| Correction IL GUID           | Invoice Line             | New Unbilled Sales Actual GUID    | Actual                            |                          |
+| Correction Invoice GUID      | Invoice                  | New Unbilled Sales Actual GUID    | Actual                            |                          |
 
-The following table shows the records in the transaction connection entity for the above workflow: 
+The following table shows the records in the Transaction connection entity for the preceding workflow.
 
-| Event                            | Transaction 1                 | Transaction 1 Role | Transaction 1 Type           | Transaction 2                | Transaction 2 Role | Transaction 2 Type |
-|----------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
-| Time Entry   Submission          | Journal Line (Sales) GUID     | Unbilled Sales     | msdyn_journalline            | Journal Line (cost) GUID     | Cost               | msdyn_journalline  |
-| Time   Approval                  | Unbilled Actual (Sales) GUID  | Unbilled Sales     | msdyn_actual                 | Cost Actual(cost) GUID       | Cost               | msdyn_actual       |
-| Invoice   Creation               | Invoice Line Detail GUID      | Billed Sales       | msdyn_invoicelinetransaction | Unbilled Sales  Actual GUID  | Unbilled Sales     | msdyn_actual       |
-| Invoice Confirmation             | Reversing Actual GUID         | Reversing          | msdyn_actual                 | Original unbilled sales GUID | Original           | msdyn_actual       |
-| Billed   Sales GUID              | Billed Sales                  | msdyn_actual       | Unbilled Sales  Actual GUID  | Unbilled Sales               | msdyn_actual       |                    |
-| Draft   Invoice Correction       | Invoice Line Transaction GUID | Replacing          | msdyn_invoicelinetransaction | Billed Sales GUID            | Original           | msdyn_actual       |
-| Confirm Invoice Correction       | Billed Sales Reversal GUID    | Reversing          | msdyn_actual                 | Billed Sales GUID            | Original           | msdyn_actual       |
-| New   Unbilled Sales Actual GUID | Replacing                     | msdyn_actual       | Billed Sales GUID            | Original                     | msdyn_actual       |                    |
-
-
+| Event                          | Transaction 1                 | Transaction 1 role | Transaction 1 type           | Transaction 2                | Transaction 2 role | Transaction 2 type |
+|--------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
+| Time Entry Submission          | Journal Line (Sales) GUID     | Unbilled Sales     | msdyn_journalline            | Journal Line (cost) GUID     | Cost               | msdyn_journalline  |
+| Time Approval                  | Unbilled Actual (Sales) GUID  | Unbilled Sales     | msdyn_actual                 | Cost Actual(cost) GUID       | Cost               | msdyn_actual       |
+| Invoice Creation               | Invoice Line Detail GUID      | Billed Sales       | msdyn_invoicelinetransaction | Unbilled Sales Actual GUID   | Unbilled Sales     | msdyn_actual       |
+| Invoice Confirmation           | Reversing Actual GUID         | Reversing          | msdyn_actual                 | Original unbilled sales GUID | Original           | msdyn_actual       |
+| Billed Sales GUID              | Billed Sales                  | msdyn_actual       | Unbilled Sales Actual GUID   | Unbilled Sales               | msdyn_actual       |                    |
+| Draft Invoice Correction       | Invoice Line Transaction GUID | Replacing          | msdyn_invoicelinetransaction | Billed Sales GUID            | Original           | msdyn_actual       |
+| Confirm Invoice Correction     | Billed Sales Reversal GUID    | Reversing          | msdyn_actual                 | Billed Sales GUID            | Original           | msdyn_actual       |
+| New Unbilled Sales Actual GUID | Replacing                     | msdyn_actual       | Billed Sales GUID            | Original                     | msdyn_actual       |                    |

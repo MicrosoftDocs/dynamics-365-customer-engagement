@@ -1,8 +1,8 @@
 ---
-title: "How to assign from order in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
+title: "How to assign from order in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to assign the default form in your app"
 ms.custom: 
-ms.date: 04/02/2018
+ms.date: 03/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,9 +26,9 @@ search.app:
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
- When you have multiple main, quick create, or mobile forms for an entity, you can assign a form order. The form order determines which of the available forms will be shown by default. The available main or mobile forms can be further controlled by assigning security roles to forms. See [Control access to forms](control-access-forms.md) for more information.  
+ When you have multiple main, quick create, quick view, or card forms for an entity, you can assign a form order. The form order determines which of the available forms will be shown by default. The available main or mobile forms can be further controlled by assigning security roles to forms. See [Control access to forms](control-access-forms.md) for more information.  
   
- You cannot assign security roles to quick create forms, so the only form that will be used by everyone is the one at the top of the form order.  
+ You cannot assign security roles to quick create, quick view, or card forms, so the only form that will be used by everyone is the one at the top of the form order.  
   
 ## To assign a form order  
   
@@ -36,7 +36,7 @@ search.app:
   
 2.  In the form list toolbar select **Form Order**.  
   
-3.  Choose either **Main Form Set**, **Quick Create Form Set**, or **Mobile Form Set** depending on the type of forms you want to work with.  
+3.  Choose either **Main Form Set**, **Quick Create Form Set**, or **Card Form Set** depending on the type of forms you want to work with.  
   
 4.  The **Form Order** dialog is a simple list where you can move a selected form up or down in the form order.  
   
