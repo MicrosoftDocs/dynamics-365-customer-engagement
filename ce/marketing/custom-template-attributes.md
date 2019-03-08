@@ -2,7 +2,7 @@
 title: "Use custom attributes to enable designer features in templates (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to mark up the HTML in your email and page templates to enable drag-and-drop features and style controls for the Design view in Dynamics 365 for Marketing"
 keywords: custom attributes;templates;email;marketing pages;HTML
-ms.date: 10/16/2018
+ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -62,7 +62,7 @@ The following image shows the same design in full-page-edit mode (left) and drag
 ![Full-page editor vs. drag-and-drop editor](media/designer-full-page-editor.png "Full-page editor vs. drag-and-drop editor")
 
 > [!NOTE]
-> When using the full-page editor, you can still select, edit, and style text using the text-formatting toolbar (shown), and can also double-click on images, links, and other elements to set their properties using  a pop-up dialog. The toolbar also includes the assist-edit button for adding dynamic content, such as field values drawn from each recipient's contact record.
+> When using the full-page editor, you can still select, edit, and style text using the text-formatting toolbar (shown), and can also double-click on images, links, and other elements to set their properties using  a pop-up dialog. The toolbar also includes the [assist-edit](dynamic-email-content.md#assist-edit) button for adding dynamic content, such as field values drawn from each recipient's contact record.
 
 <a name="containers"></a>
 
