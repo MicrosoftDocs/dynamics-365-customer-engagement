@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
-ms.date: 11/27/2018
+ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
