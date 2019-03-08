@@ -246,14 +246,13 @@ Next, go to **Settings > Processes** and activate the following processes:
 
 ## Configuration considerations
 - Custom geofences using entities other than accounts and bookable resources are supported, however only the mobile audit table (resco_mobileaudit) can be used to track variable locations at this time.
-- You can configure how far back in time a geo-location In some cases a bookable resource may synchronize a geo-location to the server and then lose interenet access. 
+- You can configure how far back in time a geo-location is valid for. This is important for sceanrios when a bookable resource synchronizes a geo-location to the server and then loses Internet connection and dispatchers are unsure of the true location. The time theshold can be configured in **Resource Scheduling > Settings > Scheduling Parameter > Geo Data > Geo Location Expires After X Minutes**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-geofence-location-expirations.png)
   
 ## Additional notes
 - Currently only circular shaped geofences are supported.
-- if a location is current or not
-- Consent to sharing GPS data on the Field Service Mobile app. A message will appear after a geofence is active. 
+- In order to synchronize location data with the server, Field Service Mobile app users (field technicians) will need to consent to sharing GPS data. A message will appear after a geofence is active. 
 
 
