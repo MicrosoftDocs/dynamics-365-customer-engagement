@@ -74,8 +74,6 @@ To control data access, you must set up an organizational structure that both pr
 
 ## Team Member’s privilege inheritance
 
-User and Team privileges
-
 ### User privileges
   
 User is granted these privileges directly when a security role is assigned to the user. User can create and has access to records created/owned by the user when Basic access level for Create and Read were given.
