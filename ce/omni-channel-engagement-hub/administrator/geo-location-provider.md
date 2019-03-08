@@ -1,6 +1,6 @@
 ---
-title: "Set up location detection | MicrosoftDocs"
-description: "Instructions to set up location detection in Omni-channel Engagement Hub."
+title: "Set up visitor location detection | MicrosoftDocs"
+description: "Instructions to set up visitor location detection in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -13,7 +13,7 @@ ms.assetid: 5EE3DBF7-A559-4EBC-821F-63578E1216BB
 ms.custom: 
 ---
 
-# Set up location detection
+# Set up visitor location detection
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -42,7 +42,7 @@ To enable location detection, you must first get your Bing Maps API key and crea
 
 5.	Select **Save and Close**.
 
-## Enable location detection
+## Enable visitor location detection
 
 1.	Open the chat widget to which you want to add geo location.
 
@@ -54,3 +54,10 @@ To enable location detection, you must first get your Bing Maps API key and crea
 
     > [!div class=mx-imgBorder]
     > ![Configure visitor location in a chat widget](../media/chat-widget-location-tab.png "Configure visitor location in a chat widget")
+    
+## Privacy notice
+
+**Location data**: If a user approves the browser request for detecting location, the App or website may collect and use precise data about the user’s location. Precise location data can be Global Position System (GPS) data, as well as data identifying nearby cell towers and Wi-Fi hotspots. The App or website collects latitude and longitude information from the user’s browser and sends it to Bing Maps for converting it into precise location data such as street, city, state, country, and zip code of the user. The App or website may also send location data to Microsoft Dynamics 365 for Customer Engagement. A user may disable the location detection by turning off the location settings in their web browser settings. All use of Bing Maps is governed by the Bing Maps End User Terms of Use available at https://go.microsoft.com/?linkid=9710837 and the Bing Maps Privacy Statement available at https://go.microsoft.com/fwlink/?LinkID=248686. An administrator can turn off this Visitor Location feature by setting the “Request visitor location” to “No”, so no further information will be sent to Bing Map from the App or website.
+
+PLEASE NOTE: Bing Maps is not provisioned in a dedicated data center for exclusive use by you and does not provide data segregation, such as for the Government Community Cloud. Your use of Bing Maps shall not be subject to any product-specific terms and conditions applicable to Dynamics 365 online for Government. If you do not wish to use the Visitor Location feature, then you must ensure that your administrator keeps the feature off.
+
