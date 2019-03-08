@@ -86,7 +86,7 @@ In the Customer Service app, navigate to **Settings > Service Management**.
 
 [Categories](create-manage-categories.md)
 
-## Similar Records Suggestion
+## Similar Record Suggestions
 
 [Suggest similar cases using advanced similarity rules](suggest-similar-cases-for-a-case.md)
 
