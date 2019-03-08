@@ -21,9 +21,9 @@ For more information, see [Manage updates in Dynamics 365](../../admin/manage-up
 
 Follow these steps to upgrade your Omni-channel package.
 
-1. Go to **Dynamics 365 Admin Center**.
-2. Select **Instances** and go to **Omni-channel Engagement Hub – Chat package for Dynamics 365 Applications** package in the **Manage your solutions** section.
-3. Select the Omni-channel package and select **Upgrade**.
+1. Go to [Dynamics 365 Admin Center](https://portal.office.com/adminportal/home#/homepage).
+2. Select **Instances** and go to Omni-channel Engagement Hub package in the **Manage your solutions** section.
+3. Select the package and select **Upgrade**.
 
 
 ### See also
