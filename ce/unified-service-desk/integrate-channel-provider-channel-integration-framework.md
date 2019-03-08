@@ -31,7 +31,7 @@ monikerRange : '>= dynamics-usd-4.1'
 
 Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
 
-If your organization wants to use the web- and cloud-based channel that you have developed, you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
+If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](/dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
 
 The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** for you to host the channel provider within Unified Service Desk client application.
 

@@ -68,11 +68,11 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 [This section is pre-release documentation of SSO feature and is subject to change.]
 
-Single Sign On (SSO) for Unified Service Desk provides a improved startup performance and user experience by authenticating users to access Dynamics 365 for Customer Engagement apps without the need for entering the credentials multiple times.
+Single Sign On (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a improved startup performance and user experience by authenticating users to access Customer Engagement apps without the need for entering the credentials multiple times. This eliminates the need for entering the same password again and minimizes the possibility of login errors and ensures seamless experience.
 
 ### Understand SSO for Unified Service Desk
 
-While signing in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you must enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. To avoid entering credentials multiple times, use the Single Sign On (SSO) feature.
+While signing in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you must enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. To avoid entering credentials multiple times, the Single Sign On (SSO) feature is introduced.
 
 By default, the SSO feature is enabled for the Chrome Process. With SSO, you need to enter the credentials only once while signing into [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and Customer Engagement apps server.
 

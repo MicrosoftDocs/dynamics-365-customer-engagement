@@ -29,7 +29,9 @@ monikerRange : '>= dynamics-usd-4.1'
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Your organization has several departments and a each department has a configuration with agents added to those configurations. Whenever you a make a change to one of those configurations, the **Configuration Cache Version** feature helps to download only that specific configuration for which you've made a change. Also, when the agents assigned to other configurations, signs in to the client application, the feature doesn't download the configurations thus improves the startup performance of Unified Service Desk.
+The Configuration Cache Version option causes the client caching feature to retrieve the configuration that has undergone change from the Customer Engagement server to the agent’s desktop and avoid retrieving all configurations.
+
+Your organization may have several departments and a each department has a configuration with agents added to those configurations. Whenever you make a change to one of those configurations, the **Configuration Cache Version** feature helps to download only that specific configuration for which you've made a change. Also, when the agents assigned to other configurations, sign in to the client application, the feature doesn't download the configurations thus improves the startup time of Unified Service Desk. This is also helpful in better application life cycle management for Unified Service Desk in cases where your organization want to make changes in your pilot or developer configurations without impacting the production users.
 
 > [!div class=mx-imgBorder]
 > ![Configuration Cache Version option in new configuration page with an example value](../media/configuration-cache-version.PNG "Configuration Cache Version option with an example value")

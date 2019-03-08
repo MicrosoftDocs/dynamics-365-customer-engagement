@@ -30,16 +30,17 @@ monikerRange: '>= dynamics-usd-4.1'
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. The Chrome Process is based on **CefSharp**, which is an open source **framework** for embedding a web browser engine based on the **Chromium** core.  More information: [CefSharp](https://cefsharp.github.io/)
+The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. The Chrome Process is based on **CefSharp**, an open source framework, which uses the chromium core that powers many modern browsers.  More information: [CefSharp](https://cefsharp.github.io/)
 
 The advantages of using the Chrome process hosting method are as follows:
 
 ![Advantages of Chrome Process](media/chrome-process-value-props.PNG "Advantages of Chrome Process")
 
 - Chrome Process is available on different Windows OS server versions.
-- Chrome Process is highly functional and reliable.
+- Chrome Process is highly reliable.
 - Easy configurations to host the applications in Unified Service Desk.
 - Switch easily from one browser to another for your entire organization.
+- Chrome Process pooling feature that reuses the chrome processes and mimics inline navigation provides enhanced performance and memory optimizations.
 
 You can select **Chrome Process** as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page** , **Channel Integration Framework** and **Standard Web Application** type of hosted controls.
 

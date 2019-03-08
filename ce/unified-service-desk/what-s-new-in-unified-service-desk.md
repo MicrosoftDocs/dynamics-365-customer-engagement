@@ -35,20 +35,23 @@ search.app:
 
 ### Preview: Use Chrome Process hosting type to host web applications in Unified Service Desk
 
-Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on **CefSharp**, which is an open source **framework** for embedding a web browser engine based on the **Chromium** core.
+Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on **CefSharp**, an open source framework, which uses the chromium core that powers many modern browsers.
 
 The advantages of using the Chrome process hosting method are as follows:
 
 - Chrome Process is available on different Windows OS server versions (Client and Server).
-- Chrome Process is highly functional and reliable.
+- Chrome Process is highly reliable.
 - Easy configurations to host the applications in Unified Service Desk.
 - Switch easily from one browser to another for your entire organization.
+- Chrome Process pooling feature that reuses the chrome processes and mimics inline navigation provides enhanced performance and memory optimizations.
 
 More information: [Use Chrome Process to host web applications in Unified Service Desk](chrome-process.md)
 
 ### Preview: Integrate channel using Channel Integration Framework
 
 Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
+
+If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](/dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
 
 The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** for you to host the channel provider within Unified Service Desk client application.
 
