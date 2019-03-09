@@ -10,7 +10,7 @@
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
 ## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)
 ## [Move between apps](quickly-navigate-office-365-app-launcher.md)
-## [Sign in to apps](sign-in-office-365-apps.md)
+## [Sign in to apps](sign-in-office-365-apps.md) 
 ## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)
 ## [What is Office 365?](what-office-365-how-does-relate.md)
 ## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md)
