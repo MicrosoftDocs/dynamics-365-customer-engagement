@@ -39,7 +39,7 @@ You can use three types of teams:
 
 Choosing the type of the team may depend on the goals, nature of the project, and even the size of your organization. There are a few guidelines that you can use when choosing the team type. 
 
-### When to use owner/group teams 
+### When to use owner or group teams 
 
 - Your organization’s policies require the ability for records to be owned by entities other than users, such as the team entity. 
 - The number of teams is known at the design time of your Dynamics 365 for Customer Engagement apps system. 
@@ -65,16 +65,25 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 ## Create an owner team
 
 1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
+   
    Check your security role:
    - Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
    - Don’t have the correct permissions? Contact your system administrator.
+
 2. Go to **Settings** > **Security**. In Microsoft Dynamics 365 for Outlook, go to **Settings** > **System** > **Security**.
+
 3. Select **Teams**.
+
 4. On the Actions toolbar, select the **New** button.
+
 5. Enter a Team Name.
+
 6. Select a Business Unit.
+
 7. Enter an Administrator.
+
 8. Select **Owner** in Team Type.
+
 9. Complete other required fields, and then select **Save**.
 
    If you don’t select the business unit to which the team will belong, by default, the root business unit is selected. The root business unit is the first business unit created for an organization.
@@ -82,14 +91,20 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 ## Edit an owner team
 
 1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
+   
    Check your security role:
    - Follow the steps in View your user profile.
    - Don’t have the correct permissions? Contact your system administrator.
+
 2. Go to **Settings** > **Security**. In Dynamics 365 for Outlook, go to **Settings** > **System** > **Security**.
+
 3. Select **Teams**.
+
 4. In the **Teams** dropdown list, select **All Owner Teams** or another appropriate view.
-5.	In the grid, select the team you want to edit.
-6.	On the Actions toolbar, select **Edit**, change the desired fields, and then select **Save**.
+
+5. In the grid, select the team you want to edit.
+
+6. On the Actions toolbar, select **Edit**, change the desired fields, and then select **Save**.
 
 ## About group teams
 
@@ -119,14 +134,23 @@ When group team members log into the instance, they are dynamically added/remove
    3.	Create a custom security role that contains privileges as per your team’s collaboration requirement.  Please see Security role member’s inherited privileges if you need to extend the team members’ privileges directly to user.
 
 2. Go to **Settings** > **Security**. In Microsoft Dynamics 365 for Outlook, go to **Settings** > **System** > **Security**.
+
 3. Select **Teams**.
+
 4. On the Actions toolbar, select the **New** button.
+
 5. Enter a Team Name 
+
 6. Select a Business Unit (only the default root Business Unit is allowed).
+
 7. Enter an Administrator.
+
 8. Select the Team Type (a drop-down list will be displayed).
+
 9. Select **AAD Security** or **Office group** (this must match to the AAD Group type).
+
 10.	Enter the respective Azure AD ObjectID of the AAD Security or Office group.
+
 11. Select **Save**. 
     
     If you don’t select the business unit to which the team will belong, by default, the root business unit is selected. The root business unit is the first business unit created for an organization.
@@ -134,13 +158,19 @@ When group team members log into the instance, they are dynamically added/remove
 ## Edit a group team
 
 1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
+   
    Check your security role:
    - Follow the steps in View your user profile.
    - Don’t have the correct permissions? Contact your system administrator.
+
 2. Go to **Settings** > **Security**. In Dynamics 365 for Outlook, go to **Settings** > **System** > **Security**.
+
 3. Select **Teams**.
+
 4. In the **Teams** dropdown list, select **All AAD Office or Security Teams**.
+
 5. In the grid, select the team you want to edit.
+
 6. On the Actions toolbar, select **Edit**, change the desired fields, and then select **Save**.
 
 > [!NOTE]
