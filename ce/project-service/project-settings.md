@@ -1,12 +1,12 @@
 ---
 title: Project settings
-description: This topic provides information about project management settings in Project Service (PSA).
+description: This topic provides information about project management settings in Dynamics 365 for Project Service Automation.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 2/04/2019
+ms.date: 03/01/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -25,42 +25,40 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Use the following settings to access the project-planning features in Project Service (PSA).
+Use the following settings to access the project planning features in Microsoft Dynamics 365 for Project Service Automation (PSA).
 
 ## Work template
 
-To create a project schedule, create a project calendar template that defines the number of working hours per day and any business closures. Do this by associating a work template to the calendar template field on the project. Complete the following steps to create a work template.
+To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures. To create a project calendar template, you associate a work template with the **Calendar template** field for the project. Follow these steps to create a work template.
 
-1. In PSA, on the left navigation pane, click **Resources**. 
-2. On the **Resources** page, double-click to open a user record, and then click **Show Work Hours**.
+1. In PSA, in the left navigation pane, click **Resources**. 
+2. On the **Resources** list page, open a user record, and then select **Show Work Hours**.
+
   > [!NOTE]
   > Make sure that you allow pop-ups on the browser page. This lets you see the work hours set for the resource.
-3. On the **Monthly View** tab, click **Set Up**. You’ll see a drop-down list with three options: 
+  
+3. On the **Monthly View** tab, click **Set Up**. A list of three options appears: 
 
-  - **New Weekly Schedule**
-  - **Work Schedule for One Day**
-  - **Time Off**
+  - New Weekly Schedule
+  - Work Schedule for One Day
+  - Time Off
 
-> ![Screenshot of schedule options](media/project-13.png)
+> ![Set up options](media/project-13.png)
 
-4. Click **New Weekly Schedule** and set options for this resource schedule. You can set a recurring weekly schedule, daily hour parameters, business closures, and date range.
-5. Click **Save**, and then click **Close**. 
-6. Go back to the **Resources** list page and select the resource for which the work hours were set. 
-7. Click **Set Calendar As** to set the work template.  
-8. On the **Work Template** dialog, specify a name for the work template and then click **Apply**.
+4. Select **New Weekly Schedule**, and then set the options for this resource schedule. You can set a recurring weekly schedule, daily hour parameters, business closures, and more.
+5. Set the date range, select **Save**, and then click **Close**. 
+6. Go back to the **Resources** list page, and select the resource that you set the work hours for. 
+7. Select **Set Calendar As** to set the work template. 
+8. In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**. 
 
-> ![Work template dialog](media/project-15.png)
+You can now associate the work template with a project calendar template.
 
-You can now associate the work template to a project calendar template.
- 
 ## Resource roles
 
-Resource role refers to a set of skills, competencies, and certifications that a person is required to have to perform a specific set of tasks on a project. PSA supports the costing and billing of resources' time based on the role that the resource is associated to. Every organization must setup these roles using the left navigation.
+The term *resource role* refers to the set of skills, competencies, and certifications that a person must have to perform a specific set of tasks on a project. PSA lets you cost and bill a resource's time based on the role that the resource is associated with. Every organization must set up these roles by using the left navigation on the **Project Service** menu.
 
-Every organization must set up these roles on the **Active Resource Categories** page. To open this page, in the left navigation on the **Project Service** menu, select **Resource Roles**.
-
-> ![Screenshot of Active Recource Categories](media/project-17.png)
+Every organization must set up these roles on the **Active Resource Categories** page. To open this page, in the left navigation pane, select **Resource Roles**.
 
 ## Price lists
 
-Price lists allow cost and sales prices to be set for resource roles, expense categories, products, and other elements in an organization. Create a backing cost price list and sales price list before setting financial estimates for the work to be delivered on a project. A default cost price list and sales price list should be set up in the parameters section that applies to all projects that are created in the organization. On the **Active Project Parameters** page, you should also set up a default cost price list and sales price list.
+Price lists let you set cost and sales prices for resource roles, expense categories, products, and other elements in an organization. Before you set financial estimates for the work that must be delivered for a project, you should create a backing cost and sales price list. In the parameters section, you should also set up a default cost and sales price list that applies to all projects that are created in the organization. On the **Active Project Parameters** page, make sure that you set up a default cost and sales price list.
