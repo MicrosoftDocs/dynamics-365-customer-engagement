@@ -50,6 +50,7 @@ You can configure your chat widget to show users a survey that they should respo
     > [!div class=mx-imgBorder]
     > ![Change the order of a question in a pre-chat survey](../media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
 
+More information: [Automatically identify customers using pre-chat responses](record-identification-rule.md)
 
 ### See also
 
