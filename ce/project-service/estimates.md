@@ -1,12 +1,12 @@
 ---
 title: Estimates
-description: This topic provides information about estimates for Project Service Automation (PSA). 
+description: This topic provides information about estimates for Dynamics 365 for Project Service Automation (PSA). 
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 02/13/2019
+ms.date: 1/31/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -25,34 +25,37 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-On a project-based quote, you can use the **Quote line detail** entity in PSA to estimate the work involved in delivering a project and then share that with the customer. Project-based quote lines can have none or many quote line details. Quote line details are used to estimate time, expenses or fees. These details are called transaction classes. Estimated tax amounts can also be entered on a transaction class. In addition to transaction classes, a quote line detail has a transaction type. In the context of quote line detail, PSA supports two transaction types, cost and project contract.
+On a project-based quote, you can use the Quote line detail entity in Microsoft Dynamics 365 for Project Service Automation (PSA) to estimate the work that is required to deliver a project. You can then share that estimate with the customer.
 
-## Estimate using a contract
+Project-based quote lines don't have to have any quote line details. Alternatively, they can have many quote line details. Quote line details are used to estimate time, expenses, or fees. PSA doesn't allow for material estimates on quote line details. These are called transaction classes. Estimated tax amounts can also be entered on a transaction class.
 
-If you used a PSA quote while creating a project-based contract, the estimate each quote line on the quote is copied to the project contract. The structure of a project contract is like the structure of project quote with lines, line details, and invoice schedules.
+In addition to transaction classes, quote line details have a transaction type. PSA support two transaction types for quote line details: **Cost** and **Project Contract**.
 
-If your organization has a project plan template for the type of work required, you can create a project from a quote line based on your template. This creates a project plan and project estimate based on that plan. You can then import these estimates to a quote line as quote line details. This method, called the "bottom-up" method, is typically used when project-based companies are familiar with the work that they are quoting and have done it successfully many times in the past. Just like with a project quote, estimates can be done directly in a project contract using contract lines and contract line details. Contract line details can also be generated from a project plan that was created using the bottom-up estimate approach. 
+## Estimate by using a contract
 
-Contract line details can be used to estimate time, expenses or fees. Estimated tax amounts can also be entered on a contract line detail. In addition to transaction classes, a contract line detail also has a transaction type. 
+If you used a PSA quote when you created a project-based contract, the estimate that you did for each quote line on the quote is copied to the project contract. The structure of a project contract is like the structure of project quote that has lines, line details, and invoice schedules.
 
-> [!NOTE]
-> PSA doesn’t allow materials estimation on contract line details. 
+Estimates can be done directly in a project contract, as in a project quote. For a project quotation, the estimate is done by using contract lines and contract line details. Contract line details can also be generated from a project plan that was created by using the bottom-up estimate approach.
 
-When an estimator needs to quickly size a deal without a great level of detail, the top-down estimate method is used. A top-down estimate is typically done by sales people, the delivery manager, or both when there isn’t enough time to build a detailed estimate. When estimating work using the quote line detail entity, PSA can default a bill rate and sales amount for each of the quote line details. The sales amounts on all quote line details for a quote line add up to the quote line value. All quote line values add up to the quote value.
+Contract line details can be used to estimate time, expenses, or fees. Estimated tax amounts can also be entered on a contract line detail.
 
-The processes supported on a project contract are invoice creation and confirmation. Invoice creation creates a draft of a project-based invoice with all unbilled sales actuals until the current date.
+PSA doesn't allow for material estimates on contract line details.
 
-Confirmation makes the contract read-only and changes its status from **Draft** to **Confirmed**. After you take this action, you can’t undo it. Because this action is permanent, it’s a best practice to keep the contract in a **Draft** status. Other than status and the ability to edit, there’s no difference between a draft and a confirmed contract. Invoice creation and tracking actuals can be done on both draft and confirmed contracts. PSA does not support change orders on contracts or projects.
+The processes that are supported on a project contract are invoice creation and confirmation. Invoice creation creates a draft of a project-based invoice that includes all unbilled sales actuals until the current date.
 
+Confirmation makes the contract read-only and changes its status from **Draft** to **Confirmed**. After you take this action, you can't undo it. Because this action is permanent, it's a best practice to keep the contract in a **Draft** status.
+
+The only differences between draft contracts and confirmed contracts are their status and the fact that draft contracts can be edited whereas confirmed contracts can't. Invoice creation and tracking actuals can be done on both draft contracts and confirmed contracts.
+
+PSA doesn't support change orders on contracts or projects.
 
 ## Estimating projects
 
-Using project templates to create projects and generate project-based estimates to inform the quote is a good way to reuse information based on experience or best practices.
+You can estimate time and expenses on projects. PSA doesn't allow for estimates of materials or fees on projects.
 
-You can estimate time and expenses on projects. PSA doesn’t allow estimates of materials or fees on projects.
-Time estimates are generated when you create a task and identify the attributes of a generic resource required to perform the task. Time estimates are generated from schedule tasks. Creating generic team members outside the context of the schedule doesn’t create time estimates.
+Time estimates are generated when you create a task and identify the attributes of a generic resource that is required to perform the task. Time estimates are generated from schedule tasks. Time estimates aren't created if you create generic team members outside the context of the schedule.
 
-Expenses estimates are entered on the **Estimates** gridpage.
+Expense estimates are entered in the grid on the **Estimates** page.
 
 ## Understanding estimation
 
@@ -67,31 +70,33 @@ Use the following table as a guide for understanding the business logic in the e
 | When the user describes a resource on a project task                                                                                                                                                                                                                                                                                            | Estimate line record to show the sales value of the task is created when a task is created with all required pricing dimensions. Role and organizational units are the OOB Project Service pricing dimensions | Project Contract | Time        |                                                                                   |
 |     | The estimate line record to show the cost value of the task is created when a task is created with all required pricing dimensions. All non-money fields are copied from the sales estimate line to the cost estimate line by the system. Role and organizational unit are the OOB PSA pricing dimensions for both cost and bill rates.                                                                                                                                                                                                                | Cost             | Time           |                                                                                   |
 
-## Customizing the quote line detail and contract line detail entities
 
-If you added a custom field on the quote line detail and would like the system to default the value of the field on to the related cost line that it creates, use the **PreOperationContractLineDetailUpdate** and **PreOperationQuoteLineDetailUpdate** plug-in registration tools. These plug-ins need to be re-registered after a change to the quote line detail or the contract line detail. The following steps provide information on how to complete the process:
 
-1. Open **PluginRegistrationTool** and connect to your online instance.
-2. Click **Search** and search for the plug-in you want to update:
+## Customizing the Quote line detail and Contract line detail entities
 
-> ![Screenshot of updating the plug-in with the Search Tree](media/basic-guide-19.png)
+If you added a custom field on the quote line detail and want the system to enter the value of the field as a default value on the related cost line that it creates, use the PreOperationContractLineDetailUpdate and PreOperationQuoteLineDetailUpdate plug-in registration tools. These plug-ins must be re-registered after the quote line detail or the contract line detail is changed. Follow these steps to complete the process.
 
-3. Select the plug-in and on the main form, click **Select**.
-4. Select the **Step** of the plug-in to be updated, right-click, and then click **Update**.
+1. Open PluginRegistrationTool, and connect to your online instance.
+2. Select **Search**, and search for the plug-in to update.
 
-> ![Example of updating a Step in the plugin](media/basic-guide-20.png)
+    ![Search Tree dialog box](media/basic-guide-19.png)
 
-5. In the **Update Existing Step** dialog select **...** in the **Filtering Attributes** field.
+3. Select the plug-in, and then, on the main page, select **Select**.
+4. Select the step of the plug-in to update, right-click, and then select **Update**.
+
+    ![Selecting a step in the plug-in](media/basic-guide-20.png)
+
+5. In the **Update Existing Step** dialog box, in the **Filtering Attributes** field, select the ellipsis button (**...**):
  
-> ![Screenshot of the Update Existing Step configuration information](media/basic-guide-21.png)
+    ![Update Existing Step dialog box](media/basic-guide-21.png)
 
-6. Set check boxes for custom attributes.
+6. In the **Select Attributes** dialog box, select check boxes for custom attributes.
 
-> ![Checkbox selection for pricing attributes](media/basic-guide-22.png)
+    ![Select Attributes dialog box](media/basic-guide-22.png)
 
-7. Click **OK** to close the form and then click **Update Step**.
+7. Select **OK** to close the dialog box, and then select **Update Step**.
  
-> ![Update Step button](media/basic-guide-23.png)
+    ![Update Step button](media/basic-guide-23.png)
 
-8. Repeat steps 1 - 7 for the second plug-in.
-9. Close the **PluginRegistrationTool**.
+8. Repeat steps 1 through 7 for the second plug-in.
+9. Close the PluginRegistrationTool.

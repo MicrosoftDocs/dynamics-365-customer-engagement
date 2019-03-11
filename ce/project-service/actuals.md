@@ -1,12 +1,12 @@
 ---
 title: Actuals
-description: This topic provides information about actuals in Project Service Automation (PSA). 
+description: This topic provides information about actuals in Dynamics 365 for Project Service Automation (PSA). 
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 02/13/2019
+ms.date: 03/06/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -30,23 +30,26 @@ Actuals are the amount of work that has been completed on a project. In Microsof
 > ![How project actuals are traced to source documents](media/basic-guide-18.png)
 
 ## Submitting a time entry
-In PSA, when a time entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created. One line is for cost, and the other line is for unbilled sales. When a time entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost.
 
-Logic for entering default prices resides on the journal line. All the field values from a time entry are copied to the journal line. These fields include the date of the transaction, the contract line that the project is mapped to, and the currency result in the appropriate price list.
+In PSA, when a time entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created. One line is for cost, and the other line is for unbilled sales. When a time entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost. 
 
-The fields that affect default prices, such as Role and Org Unit, cause an appropriate price to be entered by default on the journal line. If you add a custom field on the time entry, and you want the field value to be propagated to actuals, create the field on the Actuals entity, and use field mappings to copy the field from the time entry to the actual.
+Logic for entering default prices resides on the journal line. All the field values from a time entry are copied to the journal line. These fields include the date of the transaction, the contract line that the project is mapped to, and the currency result in the appropriate price list. 
+
+The fields that affect default prices, such as **Role** and **Org Unit**, cause an appropriate price to be entered by default on the journal line. If you add a custom field on the time entry, and you want the field value to be propagated to actuals, create the field on the Actuals entity, and use field mappings to copy the field from the time entry to the actual.
+
 
 ## Submitting an expense entry
 
 In PSA, when an expense entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created. One line is for cost, and the other line is for unbilled sales. When an expense entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost.
 
-Logic for entering default prices for expenses is based on the expense category that is selected on the Expense entry page. The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list. However, for the price itself, the amount that the user entered is set directly on the related expense journal lines for cost and sales by default.
+Logic for entering default prices for expenses is based on the expense category that is selected on the **Expense entry** page. The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list. However, for the price itself, the amount that the user entered is set directly on the related expense journal lines for cost and sales by default.
+
 
 In the current version of PSA, category-based entry of per-unit default prices on expense entries isn't available.
 
 ## Using journals to record costs
 
-In PSA, journals let you record cost or revenue in the material, fee, time, expense, or tax transaction classes. A journal has a header, lines, and a Confirm action. Here are some scenarios where you might use a journal:
+In PSA, journals let you record cost or revenue in the material, fee, time, expense, or tax transaction classes. A journal has a header, lines, and a **Confirm** action. Here are some scenarios where you might use a journal:
 
 - You must record material actual costs and sales on a project.
 - You must move transaction actuals from another system to PSA.

@@ -1,12 +1,12 @@
 ---
 title: Project planning home page
-description: This topic provide information about project planning in Project Service for Dynamics 365.
+description: This topic provides information about project planning in Dynamics 365 for Project Service Automation.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 2/4/2019
+ms.date: 03/01/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -25,20 +25,19 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Project Service offers end-to-end support for service organizations by providing tools for managing the sales and delivery process. This helps you identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer.
-Team members can collaborate on projects and maintain current and accurate project status, allowing project managers to identify and manage project risks. These advanced tasks are typically performed in larger organizations with separate divisions that work together.
+Microsoft Dynamics 365 for Project Service Automation offers end-to-end support for service organizations by providing tools for managing the sales and delivery process. It helps these organizations identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer. Team members can collaborate on projects, and they can maintain current, accurate project status information so that project managers can identify and manage project risks. These advanced tasks are typically performed in larger organizations that have separate divisions that work together.
 
 ## Project management tools
 
-The project management tools in Dynamics 365 for Project Service (PSA) help you run projects with ease. Built-in templates and scheduling tools help project managers and teams stay productive. The tools help to:
+The project management tools in PSA help you easily run projects. Built-in templates and scheduling tools help project managers and teams stay productive. Here are some of the tasks that the tools help with:
 
-- Plan projects with work schedule and estimates
-- Estimate and track project costs and revenue 
-- Leverage project estimates during the sales process 
-- Forecast resource requirements for projects in the pipeline
-- Deliver projects successfully by tracking progress and cost consumption
+- Plan projects by using a work schedule and estimates.
+- Estimate and track project costs and revenue.
+- Use project estimates during the sales process.
+- Forecast resource requirements for projects that are in the pipeline.
+- Successfully deliver projects by tracking progress and cost consumption.
 
-The following list of topics provide information that project managers can use to estimate work, project costs, and forecast resource requirements using the tools that are supported in PSA.
+The following topics provide information that will help project managers estimate work, estimate project costs, and forecast resource requirements by using the tools that are supported in PSA:
 
 - [Creating a schedule](project-creating.md)
 - [Estimating project cost and revenue](project-estimating.md)
