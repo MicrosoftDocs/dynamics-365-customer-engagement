@@ -20,21 +20,19 @@ manager: shujoshi
 
 # searchAndOpenRecords (CIF JavaScript API Reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 [!INCLUDE[searchAndOpenRecords](includes/searchAndOpenRecords-description.md)]
 
 ## Syntax
 
-`Microsoft.CIFramework.searchAndOpenRecords(entityName, queryParameters, searchOnly).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.searchAndOpenRecords(entityLogicalName, queryParameters, searchOnly).then(successCallback, errorCallback);`
 
 ## Parameters
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| entityName | String | Yes | Name of the entity to search and open. |
+| entityLogicalName | String | Yes | Name of the entity to search and open. |
 | queryParmeters | String | Yes | OData system query options, **$select** and **$expand**, to retrieve your data.<br><br> - Use the **$select** system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using **$select**, all properties will be returned.<br><br> -  	Use the **$expand** system query option to control what data from related entities is returned. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the **$select** system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.<br><br> You specify the query options starting with `?`. You can also specify multiple query options by using `&` to separate the query options.<br> For example: `?$select=name&$expand=primarycontactid($select=contactid,fullname) `|
-| searchOnly | Boolean | Yes | Set false to open the record in the Unified Interface page if the search record is a single record. <br><br>Set true only to display the search and not open the record.|
+| searchOnly | Boolean | Yes | Set false to open the record in the Unified Interface page if the search record is a single record. Set false to open search page if the search result has multiple records and auto populate the search page with the tag value mentioned when search field is used in queryParmeters.<br><br>Set true only to get results of the search as a promise result and not open the record or search page.|
 | successCallback	| Function	| No	| A function to call when the request is successful. |
 | errorCallback |	Function	| No	| A function to call when the request fails. |
 
@@ -47,9 +45,9 @@ manager: shujoshi
 
 ## Remarks
 
-When you set the query value as true, the contact is only searched but not opened. Set the query as true when the search displays a list of records based on the search context.
+When you set searchOnly as true, the contact is only searched to the get results as a promise object, and the contact isn't opened. Set searchOnly as true when the search displays a list of records based on the search context.
 
-When you set the query value as false, the contact is searched and opened. Set the query as false when the search displays a single record based on the search context.
+When you set searchOnly as false, the contact is searched and opened. Set the searchOnly as false when you want the search to display a single record based on the search context. Set false to open search page if the search result has multiple records and auto populate the search page with the tag value mentioned when search field is used in queryParmeters.
 
 ## Examples
 

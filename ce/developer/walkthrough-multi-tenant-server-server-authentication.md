@@ -1,19 +1,20 @@
 ---
-title: "Walkthrough: Multi-tenant server-to-server authentication (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This walkthrough describes the steps to create a multi-tenant web application that can connect to a December 2016 Update for Dynamics 365 (online) tenant using the Visual Studio 2015 MVC web application template"
-ms.custom: ""
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication
+title: "Walkthrough: Multi-tenant server-to-server authentication (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+description: "This walkthrough describes the steps to create a multi-tenant web application that can connect to a December 2016 Update for Dynamics 365 for Customer Engagement (online) tenant using the Visual Studio 2015 MVC web application template"
+ms.custom: 
 ms.date: 09/27/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9d09f7e8-c1fc-45c8-9755-ac17785f0818
 caps.latest.revision: 8
-author: "paulliew"
-ms.author: "jdaly"
+author: paulliew
+ms.author: jdaly
 search.audienceType: 
   - developer
 search.app: 
@@ -39,7 +40,7 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
 
 ## Goal of this walkthrough
 
- When you complete this walkthrough you will have an MVC web application which will use the [WhoAmIRequest Class](http://msdn.microsoft.com/en-us/0daeeabf-e8ec-4df1-a320-7aadef191d4c) to retrieve data about the user the application uses to connect to the [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] Customer Engagement tenant.  
+ When you complete this walkthrough you will have an MVC web application which will use the [WhoAmIRequest Class](http://msdn.microsoft.com/en-us/0daeeabf-e8ec-4df1-a320-7aadef191d4c) to retrieve data about the user the application uses to connect to the [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)]apps tenant.  
   
  When you run the app successfully you will see a **Sign in** command in the top right corner.  
   
@@ -63,7 +64,7 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
 
  Before you begin, connect to your [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)][https://portal.office.com](https://portal.office.com) and in the **Admin centers** drop-down, verify that you see both [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and **Azure AD**.  
   
- ![Admin Centers with Azure Active Directory and Dynamics 365](media/admin-centers-with-aad-crm.png "Admin Centers with Azure Active Directory and Dynamics 365")  
+ ![Admin Centers with Azure Active Directory and Dynamics 365 for Customer Engagement](media/admin-centers-with-aad-crm.png "Admin Centers with Azure Active Directory and Dynamics 365 for Customer Engagement")  
   
  If your Azure AD subscription is not associated with a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] subscription, you will not be able to grant privileges for your application to access [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data.  
   
@@ -127,13 +128,13 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
 9. In the **API Access** area, confirm that a **Key** value has been added. The **Key** value is not visible in the Azure portal after the application has been created, but this value was added to your Web.Config appSettings as the `ClientSecret`.  
 
 > [!NOTE]
-> When registering this application you do not need to grant your application rights to access Dynamics 365 (online) data as you usually do when creating a client application. This application is bound to a application user in the system.
+> When registering this application you do not need to grant your application rights to access Dynamics 365 for Customer Engagement (online) data as you usually do when creating a client application. This application is bound to a application user in the system.
   
 <a name="bkmk_CreateApplicationUser"></a>
 
 ## Create an application user
 
- Using steps in [Manually create a Dynamics 365 application user](use-multi-tenant-server-server-authentication.md#bkmk_ManuallyCreateUser), create an application user with the **Application Id** value from your application registration which is also the same as the `ClientId` value in the Web.Config.  
+ Using steps in [Manually create a Dynamics 365 for Customer Engagement application user](use-multi-tenant-server-server-authentication.md#bkmk_ManuallyCreateUser), create an application user with the **Application Id** value from your application registration which is also the same as the `ClientId` value in the Web.Config.  
   
 <a name="bkmk_AddAssemblies"></a>
 
@@ -544,7 +545,7 @@ namespace <Your app namespace>
 ```
 System.ServiceModel.Security.MessageSecurityException  
 HResult=-2146233087  
-  Message=The HTTP request is unauthorized with client authentication scheme 'Anonymous'. The authentication header received from the server was 'Bearer authorization_uri=https://login.windows.net/4baaeaaf-2771-4583-99eb-7c7e39aa1e74/oauth2/authorize, resource_id=https://<org name>.crm.dynamics.com/'.  
+  Message=The HTTP request is unauthorized with client authentication scheme 'Anonymous'. The authentication header received from the server was 'Bearer authorization_uri=https://login.microsoftonline.com/4baaeaaf-2771-4583-99eb-7c7e39aa1e74/oauth2/authorize, resource_id=https://<org name>.crm.dynamics.com/'.  
 InnerException.Message =The remote server returned an error: (401) Unauthorized.  
 ```  
   
@@ -579,4 +580,4 @@ InnerException.Message =The remote server returned an error: (401) Unauthorized.
  [Use Multi-Tenant Server-to-server authentication](use-multi-tenant-server-server-authentication.md)   
  [Use Single-Tenant Server-to-server authentication](use-single-tenant-server-server-authentication.md)   
  [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md)   
- [Connect to Dynamics 365](connect-customer-engagement.md)
+ [Connect to Dynamics 365 for Customer Engagement](connect-customer-engagement.md)

@@ -1,20 +1,20 @@
 ---
-title: "Calculated and rollup attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Calculated and rollup attributes (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about common elements and characterstics, calculated attributes, rollup attributes, retrieve a calculated rollup field value immediately, and SourceTypeMasks enumeration."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 26ada6f7-3e22-465c-90f8-19d326785eb4
 caps.latest.revision: 22
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -72,7 +72,7 @@ search.app:
 ## Calculated attributes  
  Calculated attributes are calculated in real-time when they are retrieved. Calculated attributes can be composed using different data types. For example, an Integer calculated attribute may reference values from Decimal or Currency attributes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx).  
   
- Calculated attribute values are available in the retrieve plug-in pipeline. Post image of entity record update or create contains the calculated attribute value in stage 40. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Event Execution Pipeline](event-execution-pipeline.md)  
+ Calculated attribute values are available in the retrieve plug-in pipeline. Post image of entity record update or create contains the calculated attribute value in stage 40. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)  
   
 ### Limitations  
  You can’t use values in calculated attributes that reference a related entity, another calculated attribute, or a *logical value* in the same entity to sort data returned by a query. Although your query can specify that the results should be ordered using a calculated attribute, the sort direction will be ignored and will not throw an error. If the calculated attribute references only simple values in the same record, sorting works normally. You can determine the sources used in a calculated field using the `SourceTypeMask` property on the attribute metadata. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Logical attributes](introduction-to-entity-attributes.md#BKMK_LogicalAttributes)  

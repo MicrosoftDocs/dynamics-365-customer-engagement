@@ -3,20 +3,19 @@ title: "Walkthrough: Create custom hosted control for Unified Service Desk | Mic
 description: "Learn about how to create a custom hosted control for Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: ""
+ms.date: 01/25/2019
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 7d184ce7-ba95-46ea-9219-67fd6821eba5
-caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -40,7 +39,7 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
 <a name="Prereq"></a>   
 ## Prerequisites  
   
-- [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.5.2  
+- [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.6.2  
   
 - [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application; the client application is required for testing the hosted control  
   
@@ -60,7 +59,7 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
   
    1. From the list of installed templates, expand **Visual C#**, and select **CRM SDK Templates** > **Unified Service Desk** > **USD Custom Hosted Control**.  
   
-   2. Ensure that **[!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] 4.5.2** is selected.  
+   2. Ensure that **[!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] 4.6.2** is selected.  
   
    3. Specify the name and location of the project, and click **OK** to create a new project.  
   
@@ -121,11 +120,11 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
 ## Test your custom hosted control  
  After your project builds successfully, test the custom hosted control. Testing consists of two parts: defining the custom hosted control on the server and then connecting to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on the server using your client application.  
   
-### Define the custom hosted control and action on the Dynamics 365 server  
+### Define the custom hosted control and action on the Dynamics 365 for Customer Engagement server  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365**, and select **Settings**.  
+2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement**, and select **Settings**.  
   
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   
@@ -144,14 +143,14 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
   
 8. Type **MyCustomAction** in the **Name** field, and choose **Save**.  
   
-   You have now configured your custom hosted control and custom action on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server.  
+   You have now configured your custom hosted control and custom action on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps server.  
   
 <a name="Run"></a>   
 ### Run the Unified Service Desk client to work with custom hosted control  
   
 1. Copy the assembly that contains your custom hosted control definition from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project output folder (\<*ProjectFolder*>\bin\debug) to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application directory. In this case, you’ll copy the MyCustomControl.dll file to the c:\Program Files\Microsoft Dynamics CRM USD\USD directory.  
   
-2. Run [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server.  
+2. Run [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps server.  
   
 3. On successful sign in, you’ll see the custom hosted control, **My Custom Hosted Control**, on your desktop.  
   

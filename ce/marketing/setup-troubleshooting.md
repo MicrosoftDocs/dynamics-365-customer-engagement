@@ -1,22 +1,21 @@
 ---
 title: "Administration and setup frequently asked questions (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 for Marketing"
-keywords: "troubleshooting;setup"
-ms.date: 10/10/2018
-ms.service: 
-  - "dynamics-365-marketing"
+keywords: troubleshooting;setup
+ms.date: 03/08/2019
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4c2bc52f-595c-4728-9ef5-5e3281ca0cc0
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -32,6 +31,50 @@ search.app:
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Read this topic to find answers to common questions and solutions to known issues that can sometimes occur during the initial setup and ongoing administration of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+
+<a name="licensing"></a>
+
+## How is [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensed?
+
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is licensed per instance, with each instance priced according to the number of marketing contacts stored in your database. Here are answers to several of the most frequently asked questions about licensing:
+
+- **What is a marketing contact?**  
+    [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is priced in relation to how many marketing contacts you have in your database, where a marketing contact is any contact used as part of a marketing activity in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Contacts that you don’t market to using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] features don’t count towards your marketing-contacts quota. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] keeps a detailed record of all the ways in which each contact interacts with your marketing initiatives, but monitors just a few key interaction types when it comes to identifying marketing contacts. Any contact that performs one or more of these key interactions will become flagged as a marketing contact, and therefore count against your quota. There are many other types of interactions (such as email opens, survey responses, and website visits) but these represent follow-up activities to the core set of key interactions. After a key interaction is logged for a contact, it doesn’t matter how many more of the same or follow-up interactions that contact performs, the contact is still counted just once. The key interaction types are:
+  - Contact used in customer journey
+  - Marketing email sent
+  - Event check-in
+  - Event registration
+  - Marketing form submitted
+  - LinkedIn form submission
+
+- **Which marketing contacts count against my quota?**  
+    All marketing contacts on your tenant are counted, regardless of instance type (including both production and non-production instances).
+
+- **Where can I see my quotas and quota usage?**  
+    To see how many of each quota you've purchased and used, go to **Settings** > **Advanced settings** > **Other settings** > **Quota limits**.
+
+- **What is my monthly email quota?**  
+    Your monthly email quota is equal to ten times the number of marketing contacts you have purchased.
+
+- **If I use a contact only once in a month and don’t use it next month, does it count?**  
+    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on contract renewal.
+
+- **How can I learn more about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing?**
+  - For an overview, see [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md) 
+  - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
+  - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
+  - Check the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
+
+<a name="claim-free-license"></a>
+
+## My [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license agreement entitles me to a free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license. How can I get the free app added to my tenant?
+
+ If you only recently purchased enough [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] seats to qualify for a free [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] license, then the app should already be available on your tenant. But if you've had a qualifying [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license for some time, you may need to submit a support request to get the free [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app added to it.
+
+If you are entitled to a free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license, do the following to find or obtain it:
+
+1. [Go to the Dynamics 365 admin center](dynamics-365-admin-center.md), open the **Applications** tab, and check whether your free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app is already shown in the list. If so, then set it up as described in [Set up an unconfigured Marketing app](purchase-marketing.md#set-up-app) and skip the rest of this procedure.
+1. If your free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app  is not shown in the **Applications** list for your tenant, then please [raise a ticket with Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) to have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app added to it. Then set up the app as described in [Set up an unconfigured Marketing app](purchase-marketing.md#set-up-app).
 
 <a name="incompatible-platform"></a>
 
@@ -66,18 +109,18 @@ One of the requirements for running the [setup wizard](purchase-setup.md) for [!
 
 ## Why do I need a portal, and how can I get one?
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] requires a dedicated [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals solution for running marketing pages and event portals. Depending on the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing plan you have chosen, your license may include a free portal (provided no other free portals are already in use on your tenant), or you may need to purchase a new portal license before you can install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] requires a dedicated [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals solution for running marketing pages and event websites. Depending on the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing plan you have chosen, your license may include a free portal (provided no other free portals are already in use on your tenant), or you may need to purchase a new portal license before you can install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app.
 
-You can have at most one free portal on your tenant, so even if your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license includes a free portal, you may still need to purchase an additional one if  you already have a free portal configured on your tenant (probably because it was included with another  [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app that you are already using).
+You can have at most one free portal on your tenant, so even if your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license includes a free portal, you may still need to purchase an additional one if  you already have a free portal configured on your tenant (probably because it was included with another [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] app that you are already using).
 
 The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard will let you know if you need a new portal app.
 
-For complete details about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing options, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
+For complete details about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing options, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 
 If you don't have any unconfigured free or paid portals available, you have two options:
 
 - Recycle an existing portal.  
-  If you have a portal that you aren't using, you can request to have it reverted to an unconfigured portal and then run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard to set it up for use with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] Microsoft Support for assistance with recycling your portal.
+  If you have a portal that you aren't using, you can reset it and then run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard to set it up for use with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. After the reset, the portal will still be shown as "configured" in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], but you will now be able to select it when you run [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard. For instructions, see [Reset a portal](../portals/reset-portal.md).
 
 - Purchase an additional portal.  
   If you don't have any unused portals that you can recycle, then you can purchase a new one for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] as described in the following procedure.
@@ -125,11 +168,90 @@ If your setup fails for some reason, you'll be notified by email and/or by a sta
 - If you are setting up a [trial](trial-signup.md), then you should have received a welcome email that included a link to the setup wizard. Find your welcome mail and click that link to launch the wizard.
 - If you are setting up a production instance, then launch the setup wizard from the **Applications** tab in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described in [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md).
 
+<a name="fix-portal"></a>
+
+## How can I fix occasional portal issues?
+
+Marketing pages and the event website both run on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals app. Sometimes, you may notice that settings you make in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] aren't reflected on the portal right away, such as (for the event website): updates to banner images, speaker images, or payment gateway assignments&mdash;or, your portal may become unresponsive or otherwise unreliable. You can often solve all of these issues either by [clearing the portal cache](#portal-cache), or [restarting it](#restart-portal). It's faster to clear the cache, but restarting it will sometimes solve more or other issues.
+
+<a name="portal-cache"></a>
+
+### Clear the portal cache
+
+Many portal issues can be solved by clearing the portal cache. Once you have a portal user set up and configured as an administrator, this is faster and easier than [restarting the portal](#restart-portal), though some problem may still require a restart.
+
+The subsections below explain how to set up the required portal user and then run the clear-cache command. If you already have a portal user that's configured as an administrator, just skip ahead to [Step 3: Clear the portal cache](#cache-only).
+
+#### Step 1: Create an account on your portal
+
+Start by adding yourself as a portal user, just as your contacts would do when registering themselves and others for an event (this is not the same as your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user account). To do this:
+
+1. Open your event website, for example by opening any event record and selecting the globe button next to the **Event URL** field.
+
+1. On the event website, select the **Sign In** button at the top of the page.
+
+1. On the sign-in page, go the **Register** tab and fill out the fields to create a new account. Note that you must use an email address that doesn&#39;t already belong to a contact in your database. Be sure to make a note of your user name and password.
+
+1. The **Profile** page opens. Enter your first and last names in the fields provided and select **Update**.
+
+1. Your account is now created.
+
+#### Step 2: Grant your new account permission to clear the portals cache
+
+Once you have your account and password set up, you must go into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and configure that account as an event-portal administrator. To do this:
+
+1. Sign into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and use the app selector to go to the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.
+
+    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
+
+1. In the custom app, go to **Portals** > **Security** > **Contacts**.
+
+    ![Open the portal contacts](media/faq-portal-nav.png "Open the portal contacts")
+
+1. The portal contacts page opens. Open the system-view selector menu and choose the **All Contacts** view.
+
+    ![The system-view selector](media/faq-portal-system-views.png "The system-view selector")
+
+1. Find your portal user in the list and open it.
+
+1. Open the form-view selector and switch to the **Portal contact** form view.
+
+    ![Switch to the 'Portal contact' form view](media/faq-portal-form-view.png "Switch to the 'Portal contact' form view")
+
+1. Scroll down to the **Web Roles** section for your contact.
+
+1. Select the add (**+**) button to add a role, then select the magnifying glass icon to open the role menu, and finally select the **Administrators Event Portal** role to add that role to your contact.
+
+    ![Assign the admin role](media/faq-portal-admin.png "Assign the admin role")
+
+1. Select the **Save** icon in the bottom corner. Your user account is now an administrator for your event website.
+
+<a name="cache-only"></a>
+
+#### Step 3: Clear the portal cache
+
+Once you have your portal-administration account set up, you can use it to clear the portal cache at any time. To do this:
+
+1. Open your event website, for example by opening any event record and selecting the globe button next to the **Event URL** field.
+1. On the event website, select the **Sign In** button at the top of the page.
+1. Sign in as a user that you have set up as an event-portal administrator.
+1. Enter the following URL:
+
+     `https://<YourPortalDomain>/_services/about`
+
+    Where `<YourPortalDomain>` is the domain of your portal. You can find it by looking at the URL shown when you signed into the portal.
+
+1. A portal-administration page opens. Select **Clear cache**.
+
+    ![Select the Clear cache button](media/faq-portal-clear-cache.png "Select the Clear cache button")
+
+1. Your portal cache is cleared, which also has the effect of signing you out of the portal.
+
 <a name="restart-portal"></a>
 
-## How can I restart the portal?
+### Restart the portal
 
-Marketing pages and the event portal both run on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals app. Sometimes, you may notice that settings you make in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] aren't reflected on the portal right away, such as (for the event portal): updates to banner images, speaker images, or payment gateway assignments. Also, if your portal becomes unresponsive or otherwise unreliable, it can often help to restart it.
+If clearing the cache didn't fix your portal issues, then restarting it may help. This operation takes a bit longer than clearing cache, and your portal will be offline until the process is complete.
 
 To restart your portal:
 
@@ -185,28 +307,19 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
 
 1. Select **Install**. A message at the bottom of the page announces that the installation has successfully started.
 
-1. To track the installation progress, go back to your Dynamics 365 admin center and open the **Instances** tab. Select your instance in the list and then select the **Solutions** button in the side panel.
+1. To track the installation progress, go back to your [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] and open the **Instances** tab. Select your instance in the list and then select the **Solutions** button in the side panel.
 
     ![Manage the solutions installed on your instances](media/admin-voc-instances.png "Manage the solutions installed on your instances")
 
-1. The **Manage your solutions** page opens, showing a list of solutions installed on your selected instance and the status of each of them. Find the **Voice of the Customer for Microsoft Dynamics 365** solution and then refresh the page periodically until you can see that the solution is shown as **Installed**.
+1. The **Manage your solutions** page opens, showing a list of solutions installed on your selected instance and the status of each of them. Find the **Voice of the Customer for Microsoft Dynamics 365** solution (not the **Voice of the Customer *Link* for Dynamics 365** solution) and then refresh the page periodically until you can see that the solution is shown as **Installed**.
 
-    ![The Manage your solutions page](media/admin-voc-solutions1.png "The Manage your solutions page")
+    ![The Manage your solutions page](media/admin-voc-solutions4.png "The Manage your solutions page")
 
+1. Still on the **Manage your solutions** page, find and select the solution called **Voice of the Customer *Link* for Dynamics 365** (not the **Voice of the Customer for Microsoft Dynamics 365** solution that you were looking at in the previous step). Then select the **Install** button.
 
-1. Still on the **Manage your solutions** page, find and select the solution called **Dynamics 365 for Marketing**. (If your list includes more than one **Dynamics 365 for Marketing** solution, then select the one that shows a **Status** of either **Installed** or **Upgrade available**.) Then select the **(more)** link in the side panel to see all available information for this solution.
+    ![View details about your Marketing solution](media/admin-voc-solutions5.png "View details about your Marketing solution")
 
-    ![View details about your Marketing solution](media/admin-voc-solutions2.png "View details about your Marketing solution")
-
-1. At the end of the solution description, you should now see a tag in square brackets.
-
-    ![Find this tag at the end of the expanded description](media/admin-voc-solutions3.png "Find this tag at the end of the expanded description")
-
-    Do one of the following, depending on which of the following tags you see for your selected solution:
-    - **[MktVoc]** or **[MktVocEmail]**: Do nothing and continue to the next step.
-    - **[Mkt]**: Find and select another **Dynamics 365 for Marketing** solution that has the same version, but is tagged with **[MktVoc]**, and then install it.
-    - **[MktEmail]**: Find and select another **Dynamics 365 for Marketing** solution that has the same version, but is tagged with **[MktVocEmail]**, and then install it.
-    - If no tag is shown, continue to the next step.
+1. Follow the instructions on your screen and wait for the solution to finish installing.
 
 1. Open [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync**, and enable syncing of the **Survey (msdyn_survey)** entity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync)
 
@@ -234,5 +347,5 @@ If you’ve already tried to set up the application several times and are still 
 
 For more information about how to contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] directly, and how to find forums, FAQs, and other resources, see the following:
 
-- [Contact technical support](../admin/contact-technical-support.md)
+- [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support)
 - [Help and additional resources](../admin/help-additional-resources.md)

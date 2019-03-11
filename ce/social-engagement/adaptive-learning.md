@@ -1,12 +1,12 @@
 ---
 title: "Adaptive learning in Social Engagement | Microsoft Docs"
 description: "Learn about sentiment analysis and the organization-based machine learning models which learn from your inputs."
-keywords: ""
+keywords: 
 ms.date: 12/08/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 2c056a5c-d890-4106-837a-d4b403e011a1
 author: m-hartmann
 ms.author: mhart

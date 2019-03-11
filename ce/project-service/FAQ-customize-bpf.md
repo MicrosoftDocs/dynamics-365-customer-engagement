@@ -1,7 +1,7 @@
 ---
-title: How do I customize the Project Stages business process flow? (Dynamics 365 for Project Service) | MicrosoftDocs
-description: An overview of how to customize the Project Stages business process flow (BPF) in Dynamics 365 for Project Service.
-manager: ShellyHa
+title: How do I customize the Project Stages business process flow? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+description: An overview of how to customize the Project Stages business process flow (BPF) in Dynamics 365 for Customer Engagement for Project Service.
+manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
@@ -9,7 +9,7 @@ ms.date: 10/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Dynamics 365 for Project Service 3.x
+ms.technology: Dynamics 365 for Customer Engagement for Project Service 3.x
 ms.author: john.burrows
 audience: Admin
 search.audienceType: 
@@ -78,7 +78,7 @@ To create your own business process flow for the project entity do the following
 1. Go to **Settings** > **Process Center**. Don’t copy the Project Stages business process flow because that also copies the Project Service business logic.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of Process Center](media/FAQ-Customize-BPF-3.PNG)
+> ![Screenshot of BPF customization](media/FAQ-Customize-BPF-3.png)
 
 2. Use the Process Designer to create the stage names you want. If you want the same functionality as the default stages for **Quote**, **Plan**, and **Close**, you’ll have to create that based on your custom business process flow’s stage names.
 

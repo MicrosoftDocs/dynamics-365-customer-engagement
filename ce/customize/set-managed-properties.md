@@ -1,26 +1,22 @@
 ---
-title: "Set managed properties in PowerApps | MicrosoftDocs"
+title: "Set managed properties | MicrosoftDocs"
 description: "Learn how to set managed properties of an entity"
-ms.custom: ""
-ms.date: 04/24/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/08/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: edaa7d4a-a95f-4d66-a9d9-2ad6051332f7
 caps.latest.revision: 41
 ms.author: "matp"
 manager: "kvivek"
-search.audienceType: 
-  - customizer
-search.app: 
-  - D365CE
 ---
 # Set managed properties overview
 

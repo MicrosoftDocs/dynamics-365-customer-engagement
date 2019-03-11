@@ -1,14 +1,14 @@
 ---
-title: "formContext.ui (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "formContext.ui (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about working with processes in Customer Engagement using client API."
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: f93e0e21-f911-4681-81b0-82ccf98ee28b
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -52,7 +52,3 @@ Provides properties and methods to retrieve information about the user interface
 ### Related topics
 
 [formContext](../clientapi-form-context.md)
-
-
-
-

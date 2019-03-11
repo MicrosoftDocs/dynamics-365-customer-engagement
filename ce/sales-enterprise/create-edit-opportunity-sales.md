@@ -2,15 +2,15 @@
 title: "Create or edit an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
 keywords: "opportunity, deal, develop, propose, nurture sales"
-ms.date: 09/24/2018
+ms.date: 03/04/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 692b7303-d9e1-4323-9e81-ab0dee4cfd2d
 author: shubhadaj
 ms.author: shujoshi
@@ -22,7 +22,6 @@ caps.latest.revision: 58
 topic-status: Drafting
 ---
 
-<!--Note to author: Update ms.date to date of publication. Also, remove keywords entry from metadata.-->
 # Create or edit an opportunity (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -31,7 +30,7 @@ An opportunity is a lead who is now almost ready to buy&mdash;in other words, a 
   
  At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. [!include[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
   
-## Create an opportunity (Sales Hub app)
+## Create an opportunity (Sales Hub)
 
 If you're following the sales process from start to finish, you *qualify* a lead to turn it into an *opportunity*. [!include[proc-more-information](../includes/proc-more-information.md)] [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
 1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
@@ -46,7 +45,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
  
    - **Topic**: What the customer is interested in that created the opportunity, such as specific product details.
  
-   - **Contact**: The contact associated with this opportunity.
+   - **Contact**: The contact associated with this opportunity. The contact that you select here is added as a stakeholder for this opportunity. For more information on stakeholders, see Step 5.  
  
    - **Account**: The account associated with this opportunity.
 
@@ -103,7 +102,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
 
 The next step is to create a quote and send it to your customer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a quote and send it to your customer](../sales-enterprise/create-edit-quote-sales.md)
 
-## Add products to an opportunity (Sales Hub app)
+## Add products to an opportunity (Sales Hub)
 
 You can add a product or product bundle to an opportunity. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog, or an ad hoc product that you add as a write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
 
@@ -150,7 +149,7 @@ Here are the actions you can take on the products added to the **Product Line It
 |See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Up** or **Down** button. |
 
 
-## Recalculate an opportunity (Sales Hub app)
+## Recalculate an opportunity (Sales Hub)
 
 To change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities, recalculate the opportunity.
 
@@ -164,7 +163,7 @@ To change the estimated revenue of an opportunity based on any changes you've ma
 
 5.	On the command bar, select **Recalculate Opportunity**.
 
-## Create an opportunity (Sales app)
+## Create an opportunity (Sales)
 
 If you're following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
 
@@ -201,6 +200,10 @@ If you want to create an opportunity without first creating a lead, do the follo
 - If other people in your organization are working on this sale, be sure to add them as sales team members.  
   
 - Nurture your opportunities through a marketing campaign. [!include[proc-more-information](../includes/proc-more-information.md)] [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md) (applies to the Sales app only)
+
+- The **Pipeline Phase** field of the Opportunity entity has been used in sales charts and dashboards to show the current phase in the sales pipeline for the opportunity. This field is populated by the stage change information on the business process flow for the Opportunity entity.
+
+    Because [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] supports multiple business process flows for the Opportunity entity, the **Pipeline Phase** field will be populated with the last stage change information done on any business process flow on the opportunity record. If you're using multiple business process flows on opportunity, exercise your discretion while using this field. [!include[proc-more-information](../includes/proc-more-information.md)] [Business process flows overview](../customize/business-process-flows-overview.md)
   
 ## Tips and tricks  
 
@@ -218,6 +221,7 @@ Need a faster way to enter opportunities? Try one of these:
   
 ### See also 
 
+ [Dynamics 365 for Sales troubleshooting guide for sales people](troubleshooting.md)  
  [Run a report](../basics/run-report.md)   
  [Assign a record to a user or team](../basics/assign-record-user-team.md)      
  [Stay up-to-date with customer news with the activity feed](../basics/stay-up-date-with-customer-news-with-activity-feed.md)   

@@ -1,20 +1,20 @@
 ---
-title: "Interactive Service Hub Page (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Interactive Service Hub Page (Hosted Control) in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "The topic explains using the Interactive Service Hub Page hosted control type to host interactive service hub forms within Unified Service Desk to integrate the capabilities of both the applications. Interactive Service Hub provides an intuitive interface and displays all the vital information related to customers in one place that lets customer support agents focus on things that require attention."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: b318a432-a6ad-48d8-a8e0-e766b62dfe6f
 caps.latest.revision: 18
 author: kabala123
@@ -35,7 +35,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
  Unified Service Desk provides you with a sample package, **Interactive Service Hub**, which demonstrates how easily you can integrate the interactive service hub pages within Unified Service Desk. More information: [Unified Service sample applications](admin/sample-unified-service-desk-applications.md)  
 
 > [!NOTE]
->  You can convert your existing **CRM Page** type of hosted controls to the **Interactive Service Hub Page** type to display [interactive experience](https://go.microsoft.com/fwlink/?linkid=857057) forms used by the Interactive Service Hub application instead of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] forms. However, there are some considerations in doing so. For more information, see [Blog: Support for Interaction Centric Forms within Unified Service Desk](https://blogs.msdn.microsoft.com/usd/2016/05/24/support-for-interaction-centric-forms-within-unified-service-desk/)  
+>  You can convert your existing **CRM Page** type of hosted controls to the **Interactive Service Hub Page** type to display [interactive experience](https://go.microsoft.com/fwlink/?linkid=857057) forms used by the Interactive Service Hub application instead of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps forms. However, there are some considerations in doing so. For more information, see [Blog: Support for Interaction Centric Forms within Unified Service Desk](https://blogs.msdn.microsoft.com/usd/2016/05/24/support-for-interaction-centric-forms-within-unified-service-desk/)  
 
 <a name="Create"></a>   
 ## Create an Interactive Service Hub Page hosted control  
@@ -49,7 +49,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
 
 - From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the interactive service hub page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This will allow the user to quickly search between the interactive service hub pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.  
 
-- **IE Process** is the default **Hosting Type** for this hosted control type, and you cannot select any other hosting type . For information about supported hosting methods in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Select a hosting method for hosted controls](../unified-service-desk/select-a-hosting-method-for-your-controls.md).  
+- **IE Process** is the default **Hosting Type** for this hosted control type, and you cannot select any other hosting type . For information about supported hosting methods in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).  
 
 - Select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
 
@@ -66,7 +66,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
  These are the predefined actions for this hosted control type.  
 
 > [!NOTE]
->  The **Interactive Service Hub Page** type of hosted control supports all the UII actions supported by the **Dynamics 365 Page** type of hosted control. However, some UII actions are not available when you first create and save an instance of the **Interactive Service Hub Page** type hosted control. Any subsequent update to the hosted control instance adds the missing UII actions.  
+>  The **Interactive Service Hub Page** type of hosted control supports all the UII actions supported by the **Dynamics 365 for Customer Engagement apps page** type of hosted control. However, some UII actions are not available when you first create and save an instance of the **Interactive Service Hub Page** type hosted control. Any subsequent update to the hosted control instance adds the missing UII actions.  
 
 ### AssociatedView  
  This action loads a specific associated view of the interactive service hub.  These views are typically accessed by clicking down arrow next to an entity record name in the nav bar, and selecting the associated entities.  
@@ -76,7 +76,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
 |---------------|--------------------------------------------------------------------------------------------------------------|
 | `navItemName` |                        The associated entity that you want to display. Example: Cases                        |
 |     `Id`      |             The ID of the main entity record for which to display the associated entity records.             |
-|   `tabset`    | The area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Examples: areaSales or areaService. |
+|   `tabset`    | The area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. Examples: areaSales or areaService. |
 
 <a name="Close"></a>   
 ### Close  
@@ -127,7 +127,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
  This action is equivalent to clicking the back button in the interactive service hub, which will take you back in the navigation stack of the interactive service hub.  
 
 ### GoHome  
- This action takes you to the homepage specified by the user in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+ This action takes you to the homepage specified by the user in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.  
 
 <a name="MoveToPanel"></a>   
 ### MoveToPanel  
@@ -152,7 +152,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
 |      header       | A string value that contains additional HTTP headers to send to the server. When the `postdata` parameter is used in the `Navigate` action, you should also specify an appropriate value for the `header` parameter. Example: `Content-Type:application/x-www-form-urlencoded`<br /><br /> If a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]POST event triggers the `Navigate` action, the default value of this parameter should be `header=[[header]+]` |
 
 ### New_CRM_Page  
- Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
 
  You can pass attribute values in name=value pairs as data parameters for this action. For example:  
 
@@ -188,7 +188,7 @@ title=Sample Case
  This action takes the currently displayed URL, and sends it through the window navigation rules from the current hosted control as a popup.  
 
 ### RunScript  
- This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+ This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -196,7 +196,7 @@ title=Sample Case
 
 <a name="RunXrmCommand"></a>   
 ### RunXrmCommand  
- This action is used to inject [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK JavaScript into the interactive service hub form.  
+ This action is used to inject [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps SDK JavaScript into the interactive service hub form.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -262,4 +262,4 @@ title=Sample Case
 
 ### See also  
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
- [Dynamics 365 Page (Hosted Control)](../unified-service-desk/crm-page-hosted-control.md)
+ [Dynamics 365 for Customer Engagement apps page (Hosted Control)](../unified-service-desk/crm-page-hosted-control.md)

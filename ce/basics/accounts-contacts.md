@@ -1,18 +1,13 @@
 ---
-title: "Work with accounts and contacts (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+title: "Work with accounts and contacts (Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+ms.date: 08/11/2018
+ms.service: crm-online
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf
-caps.latest.revision: 22
-ms.author: "shujoshi"
+ms.author: shujoshi
 search.audienceType: 
   - enduser
 search.app: 
@@ -83,7 +78,7 @@ Use contacts to keep track of the people you do business with. Learn how to impo
 3. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
 ### See also  
- [Find your way around Dynamics 365](../basics/navigation-customer-engagement-enterprise.md)
+ [Find your way around Dynamics 365 for Customer Engagement apps](../basics/navigation-customer-engagement-enterprise.md)  
  [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)   
  [Import contacts](../basics/import-contacts.md)    
  [Deactivate or activate an account or contact](../basics/deactivate-activate-account-contact.md)   
@@ -91,4 +86,5 @@ Use contacts to keep track of the people you do business with. Learn how to impo
  [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)   
  [Stay up-to-date with customer news with the activity feed](../basics/stay-up-date-with-customer-news-with-activity-feed.md)   
  [Assign a record to a user or team](../basics/assign-record-user-team.md)   
- [Run a report](../basics/run-report.md)   
+ [Run a report](../basics/run-report.md)  
+ [Organize contacts in live org charts](../sales-enterprise/live-org-chart.md) 

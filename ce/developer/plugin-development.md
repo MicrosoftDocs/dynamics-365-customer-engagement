@@ -1,61 +1,48 @@
 ---
-title: "Plug-in development (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 Customer Engagement to modify or augment the standard behavior of the platform. "
-ms.custom: ""
-ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Plug-in development (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 for Customer Engagement apps to modify or augment the standard behavior of the platform. "
+ms.custom: 
+ms.date: 1/18/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: aa037f4a-b5ae-485c-aac9-8a138a57c576
 caps.latest.revision: 30
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Plug-in development
+# On-premise plug-in development
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement to modify or augment the standard behavior of the platform. Another way to think about plug-ins is that they are handlers for events fired by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can subscribe, or register, a plug-in to a known set of events to have your code run when the event occurs.  
+A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps to modify or augment the standard behavior of the platform. Another way to think about plug-ins is that they are handlers for events fired by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. You can subscribe, or register, a plug-in to a known set of events to have your code run when the event occurs.
+
+> [!NOTE]
+> In this documentation release, the plug-in documentation that is common to all [!INCLUDE[pn_dynamics_365](../includes/pn-dynamics-365.md)] deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to developing plug-ins for an on-premises or Internet Facing Deployment. To learn about plug-in development, start by reading the plug-in [documentation](/powerapps/developer/common-data-service/apply-business-logic-with-code) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
   
- For more information about plug-in run-time execution, see [Event Execution Pipeline](event-execution-pipeline.md).  
+ For more information about plug-in run-time execution, see [Event Framework](/powerapps/developer/common-data-service/event-framework).  
   
-## In This Section  
- [Write a Plug-in](write-plugin.md)  
-  
- [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md)  
-  
- [Handle Exceptions in Plug-ins](handle-exceptions-plugins.md)  
-  
- [Passing Data Between Plug-ins](pass-data-between-plug-ins.md)  
-  
+## In This Section
+
  [Impersonation in Plug-ins](impersonation-plugins.md)  
-  
+
  [Register and Deploy Plug-ins](register-deploy-plugins.md)  
   
- [Debug a Plug-in](debug-plugin.md)  
-  
- [Analyze Plug-in Performance](analyze-plugin-performance.md)  
-  
- [Walkthrough: Register a Plug-in using the Plug-in Registration Tool](walkthrough-register-plugin-using-plugin-registration-tool.md)  
-  
- [Walkthrough: Configure Assembly Security for an Offline Plug-in](walkthrough-configure-assembly-security-offline-plugin.md)  
-  
- [Sample: Basic Plug-in](sample-create-basic-plugin.md)  
-  
- [Sample: Web Access from a Sandboxed Plug-in](sample-web-access-sandboxed-plugin.md)  
+ [Debug a Plug-in](debug-plugin.md) 
+
+ [Access external web resources](access-web-resources.md)  
+
+ [Offline plug-in execution](support-offline-execution.md)  
   
 ## Related Sections  
  [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md)  
-  
- [Event Execution Pipeline](event-execution-pipeline.md)  
-  
  [Web Service Authentication and Impersonation](authenticate-users.md)

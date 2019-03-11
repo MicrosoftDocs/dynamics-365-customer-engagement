@@ -1,16 +1,16 @@
 ---
 title: "Add dynamic content to marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 for Marketing"
-keywords: "email; marketing email; dynamic content; content settings"
-ms.date: 08/23/2018
+keywords: email; marketing email; dynamic content; content settings
+ms.date: 02/01/2019
 ms.service:
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 5134e656-31ae-4984-8045-fcd76b98719a
 author: kamaybac
 ms.author: kamaybac
@@ -42,6 +42,9 @@ The values for content settings are first evaluated at send time, which means th
 
 Each content-settings record that you use must be available to the external marketing services, which manage email assembly and delivery. Therefore, you must publish your content-settings records by choosing **Go Live** whenever you create a new one.
 
+> [!NOTE]
+> If you have other types of values that you often use in email messages, and/or that you want to manage at the customer-journey level, then you can add them as custom fields to the content-settings entity just as you can for other types of entities in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. However, in the current release, all custom fields for the content-settings entity must be of type text (string). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customizing Marketing](customize.md)
+
 To view, edit, or create a content-settings set:
 
 1. Go to **Marketing** > **Templates**  >  **Content Settings**.
@@ -71,29 +74,62 @@ To view, edit, or create a content-settings set:
 
 ## Use assist-edit to place dynamic field values
 
-The **Assist Edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text element in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
+The **Assist edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text element in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
 
-Start by positioning your cursor in the field where you want to insert the dynamic text, and then select the  **Assist Edit**  button  **&lt;/&gt;**  to open a drop-down list showing a selection of data sources appropriate for your current context, which can include some or all of the following:
+To use assist-edit:
 
-- **Contact[context]**: Places a field value, such as a first name, from each recipient's contact record.
-- **Content settings[context]**: Places a field value from the content settings—a subscription center URL, forwarding URL, and the sender postal address are included here.
-- **Message[context]**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
-- **Account**: Places a value from a specific account record.
-- **Contact**: Places a value from a specific contact record (not the recipient's record).
-- **Event**: Places a link to a specific event sign-up page, or a field value from the page.
-- **Lead**: Places a value from a specific lead record.
-- **Marketing list**: Places a value from a specific marketing list.
-- **Marketing list member**: Places a value from a specific marketing list member.
-- **Marketing page**: Places a link to a specific marketing page, or a field value from the page.
-- **Survey**: Places a link to a specific online survey (Voice of the Customer), or a field value from the survey.
+1. Position your cursor in the field or text element where you want to insert the dynamic text, and then select the  **Assist edit**  button  **&lt;/&gt;**. The assist-edit dialog opens.
+
+    ![Assist edit, page 1](media/assist-edit-p1.png "Assist edit, page 1")
+
+1. Do one of the following:
+    - Select **Contextual** to place a value that can change based on the context where you use the message, and then choose one of the following from the drop-down list here:
+        - **Contact**: Places a field value, such as a first name, from the recipient's contact record. These values vary by recipient.
+        - **Content settings**: Places a field value from the content settings. Values such as a subscription center URL, forwarding URL, and the sender postal address are available here. These values can vary according to the customer journey where the message is used.
+        - **Message**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
+    - Select **Static** to place a fixed value from a specific record (such as the name of an upcoming event). This value is the same regardless of where you use the message or who receives it. Then make the following settings to identify the entity and record that contains the value you need:
+        - **Select an option** (top combo box): Select the entity (such as event or account). To search for an entity, place your cursor in this box and start to type its name until the entity you want is shown.
+        - **Choose a record** (bottom drop-down list): Select the specific record by name. This list shows all records from your selected entity. As with the entity, you can also search here.
+1. At the bottom of the dialog, you now see the expression you have built so far. Select **Next** to continue.
+
+    ![Assist edit, page 2](media/assist-edit-p2.png "Assist edit, page 2")
+
+1. Now you must identify the specific field you want to place. Do one of the following:
+    - Select **Related entity** to find a field from an entity that is related to the one you picked on the previous page. Then make the following settings to identify the relation and the field you want to show:
+        - **Select relationship**: The relationship defines which second entity you want to hop to, and the path you will take to get there. To search for a relationship, place your cursor in this box and start to type its name until the relationship you want is shown, and then select it. For more information about how to understand the way relationships are represented here, see the text after this procedure.
+        - **Select field**: Choose the field name you want to show. As with the relationship, you can also search here.
+    - Select **Property** to place a field directly from the entity you chose on the previous page. As with the relationship, you can also search here.
+1. At the bottom of the dialog, you now see the final expression. Select **OK** to place that expression.
+
+When you are selecting a relationship in assist-edit, the options are displayed using one of the following naming convention:
+
+_PrimaryEntity_ **->** _FieldName_ **(**_SecondaryEntity_**)**  
+_FieldName_ **(**_SecondaryEntity_**)** **->** _PrimaryEntity_
+
+Where:
+
+- **PrimaryEntity** is an entity that uses a value from the secondary entity. For example, an *account* (primary entity) can show a value from a *contact* (secondary entity) in its *primary contact* field (field name).
+- **FieldName** is always shown next to the secondary entity (which is in parenthesis). This is the name of the field from the primary entity that holds the ID of a record from the secondary entity (but which usually displays the value of a field other than the ID from the secondary entity, such as its name). In some cases, you'll notice a relationship between the same two entities, each of which flows through a different field.
+- **SecondaryEntity** is always shown in parenthesis. This is the entity that provides the field that you want to show with your expression.
+- The direction (indicated by **->**) has no effect, so it doesn't matter whether the primary or secondary entity is listed first.
+
+For example:
+
+- `Company Name (Contact) -> Account`: This relationship is used by the `Contact` entity to display information from the `Account` entity in the contact's `Company Name` field. In other words, it finds the company (account) that the contact works for.
+- `Managing Partner (Contact) -> Account`: This relationship is used by the `Contact` entity to display information from the `Account` entity in the contact's `Managing Partner` field. In other words, it finds the company (account) that is the managing partner for a contact.
+- `Primary Contact (Account) -> Contact`: This relationship is used by the `Account` entity to display information from the `Contact` entity in the contact's `Primary Contact` field. In other words, it finds the primary contact associated with the account.
+- `Contact -> Contact (Event Registration)`: This relationship is used by the `Event Registration` entity to display information from the `Contact` entity in the contact-registration record's `Contact` field. In other words, it finds the contact that registered for an event.
 
 > [!NOTE]
-> Entities shown by assist edit that include **[context]** in their name take values that can change for each recipient (such as the recipient's name). Entities that don't include **[context]** in their name must refer to a specific record ID, which doesn't change for each recipient. Note also that the **[context]** label isn't included in the code placed on the page when you're done.
+> The entities included in the assist-edit dialog are those that you are currently syncing with the customer-insights service, which means that you might see more entities than those mentioned in the previous list. If you need to show information from an entity that isn't listed, then ask your admin to add that entity to the customer-insights service. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
 
-> [!NOTE]
-> The entities included in the assist-edit menu are those that you are currently syncing with the customer-insights service, which means that you might see more entities than those mentioned in the previous list. If you need to show information from an entity that isn't listed, then ask your admin to add that entity to the customer-insights service. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
+Assist-edit creates an expression that uses a format such as the following:
+- `{{EntityName.FieldName}}`
+- `{{EntityName(RecordID).FieldName}}`
+- `{{EntityName.RelationshipName.FieldName}}`
+- `{{EntityName(RecordID).RelationshipName.FieldName}}`
 
-After you've selected a source, the  **Assist Edit**  drop-down list is updated to show individual fields that are available from that source. Choose one of these to place the value or link. The result is an expression that uses a format such as `{{EntityName.FieldName}}` or `{{EntityName(RecordID).FieldName}}`, though more complex expressions can also be generated depending on the options you pick. Here are some examples:
+Note that the notation used for relationship names in the resulting expressions don't match the way they are represented in the assist-edit dialog. Here are some examples of resulting expressions:
 
 -  `{{contact.firstname}}`  
 Places the recipient's first name.
@@ -107,73 +143,56 @@ Places the URL for opening the current message in a web browser.
 Places the webinar URL for the event identified by the specified event ID (in parentheses).
 - `{{msdyn_survey(39128da2-c968-4627-9595-f030b6571be4).msdyn_name}}`  
 Places the name of the survey identified by the specified survey ID (in parentheses).
-
-## Find record IDs
-
-Non-contextual field expressions (which use the form  `{{EntityName(RecordID).FieldName}}`) require a record ID to identify the specific record the value must come from. To find the ID for any record:
-
-1. Open the record you want to reference
-2. Look at the URL shown in your browser's address bar, which should show a URL such as:  
-`https://<MyOrg>.crm.dynamics.com/main.aspx?appid=c8cba597-4754-e811-a859-000d3a1be1a3&pagetype=entityrecord&etn=msevtmgt_event&id=5acc43d5-356e-e811-a960-000d3a1cae35`
-3. Find the part of the URL that starts with `&id=`, which is followed by the ID number of your current record. Copy that number (the value only) and use it in your expression.
-
-## Dynamic values in To, From-name, From-address, and Reply-to fields
-
-On the **Summary** tab of the **Marketing Email** form, you can make various non-content-related settings for your message in the **Advanced Header** section. This includes values and expressions for establishing the to, from-name, from-address, and reply-to values the message will use.
-
-![Advanced header settings for email messages](media/email-advanced-header-settings.png "Advanced header settings for email messages")
-
-Though these settings provide assist-edit buttons, you must only place static values, or values from the **Contact[context]** entity, such as `{{contact.emailaddress1}}` (which is the default for the **To** address). These settings don't currently support any other entities or lookup-field values.
-
-> [!TIP]
-> You can include conditional statements in the **Advanced Header** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
-
-## Advanced dynamic content
-
-> [!NOTE]
-> The advanced dynamic-content features described in this section are scheduled to be rolled out to customer organizations gradually throughout the last half of 2018. To see if they are available to your organization, create a message and paste in the following conditional example:
-> 
-> `{{#if (eq contact.contact_account_parentcustomerid.name 'abc')}} Hello. {{else if (eq '123' '123')}} Advanced dynamic content is enabled. {{/if}}`
-> 
-> Then open the **Preview** tab. If the preview shows "Advanced dynamic content is enabled," then you have the feature. If instead you see the entire line of code, plus error messages like "We couldn't resolve the message template" or "HTML property not found", then you don't have it yet.  If you don't have the feature available, and require it urgently, then please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance.
-
-You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. You can enter the code while working on either the **Designer** or **HTML** tab of the content designer.
-
-As you've seen in previous examples, dynamic content is surrounded by double braces ( `{{` and `}}` ). This includes both standard field values that you add using the assist-edit feature, and the more advanced programming constructs described in this section.
-
-> [!TIP]
-> If you want to display double braces in a message, rather than use them to denote the start or end of a code block, then prepend (escape) the first brace with a backslash, such as `\{{` or `\}}`. The slashes won't appear in your final, rendered message, but the double braces will.
-
-### Fetch custom values from fields and lookup fields
-
-As we've seen, you can use the assist-edit feature to insert both context-sensitive and specific-record values from your database in your email messages—the result is an expression that uses a format such as `{{EntityName.FieldName}}` or `{{EntityName(RecordID).FieldName}}`, as illustrated in the examples shown in [Use assist-edit to place dynamic field values](#assist-edit).
-
-> [!TIP]
-> If you require the types of data that are supported by assist-edit, then it's usually best to use the assist-edit feature to place the code. This will ensure that the entity and field names match those used in the database and will help you avoid misspellings.
-
-You can place nearly any database value into your messages using the same types of syntax created when using assist-edit, but you'll need to find the correct entity, relationship, and field names (for example, by using the tools for [customizing entities, relationships and fields](../customize/customize-entities-relationships-fields.md)).
-
-> [!NOTE]
-> You can only use data from entities that are synced with the customer-insights service (and therefore also listed in the assist-edit menu). If you need to show information from an entity that isn't yet synced, then talk to your admin. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
-
-In addition, you can also construct expressions that fetch values from lookup fields (which link to related records) by adding an extra "hop" in your expression, where each hop (also known as an _access operator_) is indicated by a period (.), such as:
-
-- `{{EntityName.RelationshipName.FieldName}}`
-- `{{EntityName(RecordID).RelationshipName.FieldName}}`
-
-Here are a few useful examples for placing lookup field values:
-
 - `{{contact.contact_account_parentcustomerid.name}}`  
 This expression finds the name of the account for the company where a contact works.
 - `{{contact.contact_account_msa_managingpartnerid.name}}`  
 This expression finds the name of the managing partner for the account for the company where a contact works.
 
 > [!IMPORTANT]
-> You can use, at most, two hops (periods) in your field expressions.
+> You can use, at most, two hops (periods) in your field expressions. Some fields (such as email to and from fields), only support one hop (entity and field, no relations).
+
+> [!IMPORTANT]
+> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
+
+> [!TIP]
+> If you require the types of data that are supported by assist-edit, then it's usually best to use the assist-edit feature to place the code. This will ensure that the entity, relation, and field names match those used in the database and will help you avoid misspellings.
+
+## Dynamic values in To, From-name, From-address, and Reply-to fields
+
+On the **Summary** tab of the **Marketing Email** form, you can make various non-content-related settings for your message in the **Sender and receiver** section. This includes values and expressions for establishing the to, from-name, from-address, and reply-to values the message will use.
+
+![Sender and receiver settings for email messages](media/email-advanced-header-settings.png "Sender and receiver settings for email messages")
+
+Though these settings provide assist-edit buttons, you must only place static values, or values from the contact (context) entity, such as `{{contact.emailaddress1}}` (which is the default for the **To** address). These settings don't currently support any other entities, relations, or lookup-field values.
+
+> [!TIP]
+> You can include conditional statements in the **Sender and receiver** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
+
+## Find record IDs
+
+Non-contextual field expressions (which use the form  `{{EntityName(RecordID).FieldName}}`) require a record ID to identify the specific record the value must come from. Usually, assist-edit will help you find these IDs, but sometimes you might need to find an ID manually while you are designing dynamic features for a message. To do find the ID for any record:
+
+1. Open the record you want to reference.
+2. Look at the URL shown in your browser's address bar, which should show a URL such as:  
+`https://<MyOrg>.crm.dynamics.com/main.aspx?appid=c8cba597-4754-e811-a859-000d3a1be1a3&pagetype=entityrecord&etn=msevtmgt_event&id=5acc43d5-356e-e811-a960-000d3a1cae35`
+3. Find the part of the URL that starts with `&id=`, which is followed by the ID number of your current record. Copy that number (the value only) and use it in your expression.
+
+<a name="advanced-dynamic-content"></a>
+
+## Advanced dynamic content
+
+You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. 
+
+As you've seen in previous examples, dynamic content is surrounded by double braces ( `{{` and `}}` ). This includes both standard field values that you add using the assist-edit feature, and the more advanced programming constructs described in this section.
+
+> [!TIP]
+> If you want to display double braces in a message, rather than use them to denote the start or end of a code block, then prepend (escape) the first brace with a backslash, such as `\{{` or `\}}`. The slashes won't appear in your final, rendered message, but the double braces will.
 
 ### Conditional statements and comparisons
 
-Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. They take the following form:
+Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create these statements by placing it within a text element, or by placing custom-code elements in between the other design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [How to enter advanced dynamic content in the designer](#enter-code)
+
+Conditional statements take the following form:
 
  ```Handlebars
 {{#if (<operator> <value1> <value>)}}
@@ -184,7 +203,7 @@ Conditional (if-then-else) statements display content depending on whether one o
 .
 .
 {{else}}
-      Content displayed when all expressions are false
+      <p>Content displayed when all expressions are false</p>
 {{/if}}
 ```
 
@@ -246,9 +265,21 @@ For example, this conditional statement could be used to establish the language 
 > {{#if A}}<DisplayedContent>{{/if}} {{#if B}}<DisplayedContent>{{/if}}
 > ```
 
+> [!TIP]
+> When you are testing for values that are stored as an option set in the database, use the index values for the option set, not the display values. For example, you might have a field called `contact.customertypecode`, which holds an integer to identify the type of customer it is. Each customer type code also has a display name, such that 0 = "copper", 1 = "silver", and 2 = "gold". In this case, you must set up your expression to use the index (integer), not the matching display value. Therefore, if you're looking for gold customers, you should use:
+> ```Handlebars
+> {{#if (eq contact.customertypecode 2)}}
+> ```
+
+> [!TIP]
+> When you are testing large numerical values, such as "1,932,333", then leave out the thousands separator (,) in the comparison statement, even though you might often see these presented in the UI. To test for this value, your expression should therefore look something like:
+> ```Handlebars
+> {{#if (eq contact.customernumber 1932333)}}
+> ```
+
 ### For-each loops
 
-For-each loops let you step through a collection of records that are related to a specific current record—for example, to provide a list of all the recent transactions associated with a given contact.
+For-each loops let you step through a collection of records that are related to a specific current record—for example, to provide a list of all the recent transactions associated with a given contact. You can add the code required to create these statements by placing it within a text element, or by placing custom-code elements in between the other design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [How to enter advanced dynamic content in the designer](#enter-code)
 
 For-each loops take the following form:
 
@@ -283,22 +314,28 @@ For example, your database could include a list of products that a contact has o
 
 In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the customer-insights database (as usual).
 
-### Mix your code with content in the editor
+<a name="enter-code"></a>
 
-Often, programmers use multiple lines and indents to format their code during development. This makes the code easier to read and understand. The examples in this help topic likewise use techniques such as these to illustrate the structure of the code. However, when you enter your code into the designer, it's important that you compact the code and maintain your page layout—and that means removing all the extra lines and spaces. Here are some tips for how to enter your code in the designer:
+## How to enter advanced dynamic content in the designer
 
-- You can work on either the **HTML** or **Designer** tab.
-- If are working on the **Designer** tab, avoid all extra spaces and carriage returns because these will create `&nbsp;`and `<p>` tags in your code, which will result in unwanted empty space in your rendered design. If you go to the **HTML** tab, you'll see all of these extra tags in your code.
-- If you are working on the **HTML** tab, then all the code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs, as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs).
-- If you are working on the **HTML** tab, then you can add extra spaces and carriage returns to your code, but these will probably be collapsed automatically into a single line if you or anyone else opens the message using the **Designer** tab.
+You must be careful when entering advanced dynamic code in the designer because there are many, sometimes unexpected, ways to get it wrong, which will break your code. Here are some tips for how to enter and test your code:
 
-For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer:
+- Use custom-code elements place code snippets between design elements on the **Designer** tab. This is much more visible and reliable than placing the code directly into the HTML using the **HTML** tab. However, you might also use dynamic code *within* a text element, in which case you'll probably need to clean up that code on the **HTML** tab, as mentioned later in this list. (When working in the [full-page editor](custom-template-attributes.md#show-toolbox), double click on a custom-code element to edit its content.)
+    ![The custom-code element](media/custom-code-element.png "The custom-code element")
+- When you enter code into a text element on the **Designer** tab, any extra spaces and carriage returns that you add will create `&nbsp;`and `<p>` tags in your code, which can break it. Always go to the **HTML** tab afterwards, where you'll see all of these extra tags, and be sure to remove them.
+- When you enter code into a text element, all of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs (or custom-code elements), as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs). You must work on the **HTML** tab inspect and correct the HTML within your text elements.
+- Do not place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).
+- The [assist-edit](#assist-edit) feature is often helpful for constructing expressions that fetch values from your database because it helps you find database table, field, and relation names. This tool is available when working within a text element on the **Designer** tab, and when entering values is certain fields that support it (like the email subject). Assist-edit isn't available when working on the **HTML** tab or within a custom code element, so you can instead start by using assist-edit in any text element, and then cut/paste the resulting expression into your custom-code element or HTML.
+- The relationship name that you use when creating loops or placing lookup values must match the one used in the customer-insights services. This relationship name is not necessarily the same as the one used to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. To find the correct relationship name, use the [assist-edit](#assist-edit) feature.
+- Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
+
+For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer (either inside or outside of a text element):
 
 ```Handlebars
 <p>{{#if (eq contact.address1_country 'Denmark')}}Hej{{else if (eq contact.address1_country 'US')}}Hi{{/if}}{{contact.firstname}}!</p>
 ```
 
-This example (also shown previously) shows how to use comments to enclose code that exists entirely outside of displayed content (also on the **HTML** tab):
+The following example (also shown previously) shows how to use comments to enclose code that exists entirely outside of displayed content (also on the **HTML** tab):
 
 ```Handlebars
 <p>You have purchased:</p>

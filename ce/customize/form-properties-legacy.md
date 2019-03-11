@@ -1,15 +1,15 @@
 ---
-title: Form properties in PowerApps | MicrosoftDocs
+title: Form properties | MicrosoftDocs
 description: Understand the main form properties
-Keywords: Main form properties; Dynamics 365
+Keywords: Main form properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.author: matp
 manager: kvivek
-ms.date: 04/09/2018
+ms.date: 11/04/2018
 ms.service: crm-online
 ms.topic: article
 ms.assetid: 4ed30bb7-dca1-4de8-80f3-842152ea921a
@@ -21,7 +21,7 @@ search.app:
 
 # Form properties 
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can access **Form properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Home** tab, select Form properties.
 

@@ -1,20 +1,20 @@
 ---
-title: "Set up duplicate detection rules to keep your data clean in Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Set up duplicate detection rules to keep your data clean in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: a692ee2a-ad33-47a9-978e-00331ec0f75e
 caps.latest.revision: 54
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,9 +23,9 @@ search.app:
 ---
 # Set up duplicate detection rules to keep your data clean
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-To maintain the integrity of your data, it’s a good idea to have rules in place to reduce duplicate records in the system. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule.  
+To maintain the integrity of your data, it’s a good idea to have rules in place to reduce duplicate records in the system. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule.  
   
  After you’ve created duplicate detection rules, you need to turn duplicate detection on.  
   

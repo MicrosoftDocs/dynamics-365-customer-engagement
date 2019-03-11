@@ -1,21 +1,20 @@
 ---
 title: "Set up a recurring event (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how recurring events work in Dynamics 365 for Marketing"
-keywords: "events; waitlist"
-ms.date: 07/06/2018
-ms.service: 
-  - "dynamics-365-marketing"
+keywords: events; waitlist
+ms.date: 12/17/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 5ac46cc6-beef-45b3-941e-38c66519d144
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 search.audienceType: 
   - admin
   - customizer
@@ -26,6 +25,8 @@ search.app:
 ---
 
 # Create and manage recurring events
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 If you host an event that occurs regularly, such as a monthly partner call, annual developers conference, or quarterly earnings presentation, then you might benefit by setting up a recurring event. Recurring events provide many benefits in situations like these, including:
 
@@ -39,7 +40,7 @@ If you host an event that occurs regularly, such as a monthly partner call, annu
 
 To set up a recurring event:
 
-1. Go to **Events** > **Event** > **Events** to open the events list view.
+1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Events** to open the events list view.
 
 1. Select **+ New** on the commend bar to create a new event.
 
@@ -66,7 +67,7 @@ When you set up a recurring event, all the events in that series maintain a link
 
 To edit all non-custom events in a series:
 
-1. Go to **Events** > **Event** > **Events** to open the events list view.
+1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Events** to open the events list view.
 1. Do one of the following:
     - Find any occurrence of your target event series in the list and select that event to open it. The **Open recurring item** dialog opens; select **The entire series** to edit the entire series (rather than just the event occurrence you happen to have selected). 
     
@@ -84,7 +85,7 @@ You can customize any individual event that belongs to an event series—for exa
 
 To change a single event that is part of a series:
 
-1. Go to **Events** > **Event** > **Events** to open the events list view.
+1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Events** to open the events list view.
 
 1. Set the view selector to **Active Events** (or almost anything other than **Event Series** or **Event Templates**). You should now see a list of individual event occurrences (and non-recurring events).  
 
@@ -102,7 +103,7 @@ Customized event occurrences from a series don't track changes made for the seri
 
 To revert a customized event-series occurrence to a standard occurrence from that series:
 
-1. Go to **Events** > **Event** > **Events** to open the events list view.
+1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Events** to open the events list view.
 
 1. Set the view selector to **Active Events** (or almost anything other than **Event Series** or **Event Templates**). You should now see a list of individual event occurrences (and non-recurring events). 
 
@@ -120,5 +121,5 @@ To revert a customized event-series occurrence to a standard occurrence from tha
 
 ### See also
 
-[Event planning and management in Dynamics 365](event-management.md)  
+[Event planning and management](event-management.md)  
 [Set up an event](set-up-event.md)

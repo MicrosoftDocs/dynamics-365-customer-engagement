@@ -1,20 +1,20 @@
 ---
-title: "Customize entity relationship metadata (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Customize entity relationship metadata (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The topic explains about working with entity relationships programmatically. Also, types of entity relationships and configuring associated menus."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 44ab54f6-f55a-4cf8-98f4-cbd4358286c7
 caps.latest.revision: 36
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -32,7 +32,7 @@ Entity relationships define the ways that entity records can be associated with 
   
 <a name="BKMK_TypesOfEntityRelationships"></a>   
 ## Types of entity relationships  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement provides two types of entity relationships. Both of these inherit from the <xref:Microsoft.Xrm.Sdk.Metadata.RelationshipMetadataBase> class:  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps provides two types of entity relationships. Both of these inherit from the <xref:Microsoft.Xrm.Sdk.Metadata.RelationshipMetadataBase> class:  
   
 - **[One-to-many relationships](customize-entity-relationship-metadata.md#BKMK_OneToManyRelationships)**  
   
@@ -73,7 +73,7 @@ Entity relationships define the ways that entity records can be associated with 
 <a name="BKMK_HierarchicalRelationships"></a>   
 ### Hierarchical one-to-many entity relationships  
 
- With [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], you can specify one self-referencing one-to-many entity relationship as the designated hierarchical relationship for an entity. The `OneToManyRelationship.IsHierarchical` property (<xref href="Microsoft.Dynamics.CRM.OneToManyRelationship?text=OneToManyRelationship" />.IsHierarchical or <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.IsHierarchical>) flags this relationship as the one-to-many relationship to use for the entity.  
+ With [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps, you can specify one self-referencing one-to-many entity relationship as the designated hierarchical relationship for an entity. The `OneToManyRelationship.IsHierarchical` property (<xref href="Microsoft.Dynamics.CRM.OneToManyRelationship?text=OneToManyRelationship" />.IsHierarchical or <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.IsHierarchical>) flags this relationship as the one-to-many relationship to use for the entity.  
   
  All one-to-many entity relationships represent a type of hierarchy, but relationships explicitly flagged using the `IsHierarchical` property are the only entity relationships that support the hierarchy visualizations in the application as well as new query operators to retrieve hierarchically related records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Query hierarchical data](org-service/query-hierarchical-data.md)  
   
@@ -132,7 +132,7 @@ Entity relationships define the ways that entity records can be associated with 
   
 ### See also  
  [Create and update entity relationships using Web API](webapi/create-update-entity-relationships-using-web-api.md)  
- [Extend the Metadata Model for Dynamics 365](org-service/use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)   
  [Entity Relationship Messages](entity-relationship-metadata-messages.md)   
  [Entity Relationship Eligibility](entity-relationship-eligibility.md)   
  [Entity Relationship Behavior](entity-relationship-behavior.md)   

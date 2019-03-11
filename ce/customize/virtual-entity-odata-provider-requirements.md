@@ -1,22 +1,22 @@
 ---
-title: "Use the virtual entity OData v4 data provider with PowerApps | MicrosoftDocs"
+title: "Use the virtual entity OData v4 data provider | MicrosoftDocs"
 description: "Learn how to use the Virtual entity OData v4 data provider"
-ms.custom: ""
-ms.date: "04/26/2018"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/14/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.assetid: 4cf0d6f6-870b-4ca6-80de-426494a8c2f5
 caps.latest.revision: 
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -25,15 +25,15 @@ search.app:
 
 # OData v4 Data Provider configuration, requirements, and best practices
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 This topic describes how to configure the OData v4 data provider as well as the requirements and recommended best practices for using the OData v4 data provider to connect with an OData v4 web service. 
 
 ## OData v4 data provider best practices
 
-- Your [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] environment requires that all entities have an ID attribute, this ID is known as a unique identifier and the value must be a guid.  You can only map ID fields to external fields with the EDM.Guid data type.  You can’t map an EDM.Int32 data type to a uniqueidentifer data type field in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)].
+- Your instance requires that all entities have an ID attribute. This ID is known as a unique identifier and the value must be a guid.  You can only map ID fields to external fields with the EDM.Guid data type.  You can’t map an EDM.Int32 data type to a uniqueidentifer data type field.
 
-- OData entities with nullable properties must be set to match the mapped field in the virtual entity. For example, an OData entity property with Nullable=False must have the mapped field in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] Field Requirement attribute set to **Business Required**. 
+- OData entities with nullable properties must be set to match the mapped field in the virtual entity. For example, an OData entity property with Nullable=False must have the mapped field with the Field Requirement attribute set to **Business Required**. 
 
 - For retrieve multiple queries, such as when you load data in to a grid, control the size of the dataset returned from the external data source by using the select and filter query parameters.
 
@@ -41,10 +41,10 @@ This topic describes how to configure the OData v4 data provider as well as the 
 
 ## Data type mapping
 
-The following table lists the OData Entity Data Model (EDM) data type mappings with [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] data types. 
+The following table lists the OData Entity Data Model (EDM) data type mappings with the appropriate data type. 
 
 
-|  OData Data Type   | [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] Data Type |
+|  OData Data Type   | Data Type |
 |--------------------|------------------------------------------------------------------|
 |    Edm.Boolean     |                           Two Options                            |
 |    Edm.DateTime    |                          Date and Time                           |

@@ -1,20 +1,20 @@
 ---
-title: "Restrict access to Dynamics 365 (online) with trusted IP rules | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Restrict access to Dynamics 365 for Customer Engagement apps (online) with trusted IP rules | MicrosoftDocs"
+ms.custom: 
+ms.date: 01/31/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 45e17aac-7d50-4022-88b2-9dd5d0895b8c
 caps.latest.revision: 4
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,31 +23,31 @@ search.app:
 ---
 # Restrict access with trusted IP rules
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can limit access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to users with   trusted IP addresses to reduce unauthorized access. When trusted IP address restrictions are set in a user’s profile and the user tries to log in from an untrusted IP address, access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] is blocked.  
+You can limit access to Customer Engagement apps to users with   trusted IP addresses to reduce unauthorized access. When trusted IP address restrictions are set in a user’s profile and the user tries to log in from an untrusted IP address, access to Customer Engagement apps is blocked.  
   
  **Requirements**  
   
 - A subscription to [Azure Active Directory Premium](https://www.microsoft.com/cloud-platform/azure-active-directory).  
   
-- A federated or managed [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] tenant.  
+- A federated [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] tenant. See [Azure AD conditional access and federated authentication](https://docs.microsoft.com/azure/active-directory/conditional-access/overview#azure-ad-conditional-access-and-federated-authentication).
   
 - Federated tenants require that multi-factor authentication (MFA) be enabled.  
   
 <a name="BKMK_AdditionalConsiderations"></a>   
 ## Additional security considerations  
- IP restriction is only enforced during user authentication.  This is done by the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] Conditional Access capability. [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] sets a session timeout limit to balance protecting user data and the number of times users are prompted for their sign-in credentials. Trusted IP restriction for devices (including laptops) is not applied until the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] session timeout expires.  
+ IP restriction is only enforced during user authentication.  This is done by the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] Conditional Access capability. Customer Engagement apps sets a session timeout limit to balance protecting user data and the number of times users are prompted for their sign-in credentials. Trusted IP restriction for devices (including laptops) is not applied until the Customer Engagement apps session timeout expires.  
   
- For example, a trusted IP restriction is setup to only allow access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] when users are working from a corporate office.  When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user signs in into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using their laptop from their office and establishes a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] session, the user can continue to access [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] after leaving the office until the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] session timeout expires.  This behavior also applies to mobile and offsite connections such as: Dynamics 365 for phones and tablets, and [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)].  
+ For example, a trusted IP restriction is setup to only allow access to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps when users are working from a corporate office.  When a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps user signs in into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps using their laptop from their office and establishes a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps session, the user can continue to access [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps after leaving the office until the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps session timeout expires.  This behavior also applies to mobile and offsite connections such as: Dynamics 365 for Customer Engagement apps for phones and tablets, and [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)].  
   
 <a name="BKMK_CreateSecurityGroup"></a>   
 ## Create security group (optional)  
- You can restrict access to all Users or groups of users.  It's more efficient to restrict by a group if only a subset of your Azure Active Directory (AAD) users are accessing [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+ You can restrict access to all Users or groups of users.  It's more efficient to restrict by a group if only a subset of your Azure Active Directory (Azure AD) users are accessing Customer Engagement apps.  
   
 1. Sign in to your [Azure portal](https://portal.azure.com).  
   
-2. Click **Browse** > **Active Directory**, and then select your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] directory.  
+2. Click **Browse** > **Active Directory**, and then select your Customer Engagement apps directory.  
   
 3. Click **Groups** > **Add Group**, and then fill in the settings to create a new group.  
   
@@ -66,15 +66,15 @@ You can limit access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-onl
   
 1. Sign in to your [Azure portal](https://portal.azure.com).  
   
-2. Click **Browse** > **Active Directory**, and then select your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] directory.  
+2. Click **Browse** > **Active Directory**, and then select your Customer Engagement apps directory.  
   
 3. Click **Applications**, and then click  the **Dynamics 365 Online** web application.  
  
-   ![Select the Dynamics 365 (online) web app](media/SelectCRMApp65HL.png "Select the Dynamics 365 (online) web app") 
+   ![Select the Dynamics 365 for Customer Engagement apps (online) web app](media/SelectCRMApp65HL.png "Select the Dynamics 365 for Customer Engagement apps (online) web app") 
   
 4. Click **Configure**.  
  
-   ![Configure Active Directory properties for Dynamics 365 (online) instance](media/ConfigureAD65HL.png "Configure Active Directory properties for Dynamics 365 (online) instance")
+   ![Configure Active Directory properties for Dynamics 365 for Customer Engagement apps (online) instance](media/ConfigureAD65HL.png "Configure Active Directory properties for Dynamics 365 for Customer Engagement apps (online) instance")
 
 5. Set the following on the Properties page:  
   

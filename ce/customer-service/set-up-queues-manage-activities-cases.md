@@ -1,11 +1,11 @@
 ---
 title: Set up queues to manage activities and cases (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Learn how to set up queues to manage activities and cases in Dynamics 365 for Customer Service
-keywords: Dynamics 365; Customer Service; Create queues; Route items to queues ; Assign items in the queue to work
+keywords: Dynamics 365 for Customer Engagement; Customer Service; Create queues; Route items to queues ; Assign items in the queue to work
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -54,7 +54,7 @@ For example, you could create separate queues for first tier and second tier pro
 - **Public queues:** Create public queues to let everyone in the organization view the items in a queue
 
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, queues in service management are available in the Customer Service Hub, based on the Unified Interface experience. We recommend that you create and manage queues using the new experience.
+> With the Customer Engagement apps version 9.1 release, queues in service management are available in the Customer Service Hub. We recommend that you create and manage queues using the new experience.
   
 ## Create a queue (Customer Service Hub) 
   

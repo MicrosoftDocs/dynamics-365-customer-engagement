@@ -1,23 +1,22 @@
 ---
-title: "Unified Service Desk for Dynamics 365 Customer Engagement - Interactive service hub package | MicrosoftDocs"
+title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps - Interactive service hub package | MicrosoftDocs"
 description: "Overview of the Interactive service hub sample application."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
 ms.assetid: bc2bed7d-daab-4c1f-97c4-fea63d6a230a
-caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -28,13 +27,13 @@ search.app:
   - D365USD
 ---
 # Interactive service hub sample application package
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
   
  This package is best used in the following situations:  
   
-- [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] environments that want to evaluate  interactive service hub integration with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User's guide for the new interactive service hub](https://go.microsoft.com/fwlink/?linkid=857154)  
+- [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps environments that want to evaluate  interactive service hub integration with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User's guide for the new interactive service hub](https://go.microsoft.com/fwlink/?linkid=857154)  
   
-- [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] environments that are already using the interactive service hub.  
+- [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps environments that are already using the interactive service hub.  
   
   With the Unified Service Desk interactive service hub sample application package, the following components are installed:  
   
@@ -44,7 +43,7 @@ search.app:
   
 - Configuration for integrating interactive service hub with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]  
   
-- Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and customizations  
+- Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps and customizations  
   
 - The following sample hosted controls  
   
@@ -56,9 +55,9 @@ search.app:
 >  The sample applications are not supported for production use.  
     
   
- Here’s what you’ll see when you install the interactiveservice hub package:  
+ Here’s what you’ll see when you install the interactive service hub package:  
   
-- **Dashboard** tab: Opens the Dynamics 365 customer service dashboard.  
+- **Dashboard** tab: Opens the Dynamics 365 for Customer Engagement apps customer service dashboard.  
   
 - **My Work** tab: Shows a list of all active cases assigned to a service rep.  
   

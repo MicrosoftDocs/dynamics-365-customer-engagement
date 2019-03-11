@@ -1,19 +1,19 @@
 ---
-title: "Simple Web API quick-start sample (C#) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This sample demonstrates how to authenticate with a Dynamics 365 Server and then call a basic Web API operation, theWhoAmI Function"
-ms.custom: ""
+title: "Simple Web API quick-start sample (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This sample demonstrates how to authenticate with a Dynamics 365 for Customer Engagement Server and then call a basic Web API operation, theWhoAmI Function"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 96bd4e85-1877-4716-8036-9ddb0ac3767d
 caps.latest.revision: 14
-author: "JimDaly"
-ms.author: "jdaly"
+author: JimDaly
+ms.author: jdaly
 search.audienceType: 
   - developer
 search.app: 
@@ -35,9 +35,9 @@ This sample demonstrates how to authenticate with   a [!INCLUDE[pn_microsoftcrm_
 
 - A user account on your [!INCLUDE[pn_crm_2016_server](../../includes/pn-crm-2016-server.md)] (online or on-premise).  
 
-- If [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] is used, then the sample application must be registered Azure Active Directory, as described in [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md) .  
+- If [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] is used, then the sample application must be registered Azure Active Directory, as described in [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md) .  
 
-- If [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] with Internet-facing deployment (IFD) is used, then the sample application must be registered with your Active Directory tenant, as described in  [Walkthrough: Register a Dynamics 365 app with Active Directory](../walkthrough-register-app-active-directory.md) .  
+- If [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] with Internet-facing deployment (IFD) is used, then the sample application must be registered with your Active Directory tenant, as described in  [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Active Directory](../walkthrough-register-app-active-directory.md) .  
 
 > [!IMPORTANT]
 >  By design, initially the solution will not build successfully. The source code must be edited at the lines indicated by `//TODO` comments to supply user account and/or application registration information.  
@@ -48,7 +48,7 @@ This sample demonstrates how to authenticate with   a [!INCLUDE[pn_microsoftcrm_
 
  Authentication is required before a client application can access any [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] resource. This process can be nontrivial for two reasons: different authentication mechanisms are required for the different deployment types, and web-based authentication mechanisms typically involve multiple programmatic steps. Windows integrated authentication, required for on-premise deployments, is relatively straightforward, and only requires a username and password. Thereafter, the program subsequently acts as an agent of the authenticated user.  
 
- In contrast, online and IFD deployments require the registration of client application beforehand,  and then uses a multi-step OAuth authentication process. The  registration process for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] is described in the  article [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).   The  registration process for [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] with Internet-facing deployment (IFD) is described in the  article [Walkthrough: Register a Dynamics 365 app with Active Directory](../walkthrough-register-app-active-directory.md).  Each subsequent Web API request must be authenticated with OAuth. Luckily much of the complexity of OAuth authentication can be simplified through the use of Active Directory Authentication Libraries ([ADAL](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-authentication-libraries)) for .NET clients, which is added to the sample as the NuGet package [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/). OAuth authorization is further encapsulated in this sample with the inclusion of the   `OAuthMessageHandler` class, which adds the required OAuth authorization header to message requests. In future samples, supporting authentication functionality is separated into the [Web API Helper Library](https://msdn.microsoft.com/en-us/library/mt770381.aspx). For more information, see [Authenticate users in Dynamics 365](../authenticate-users.md).  
+ In contrast, online and IFD deployments require the registration of client application beforehand,  and then uses a multi-step OAuth authentication process. The  registration process for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] is described in the  article [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).   The  registration process for [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] with Internet-facing deployment (IFD) is described in the  article [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Active Directory](../walkthrough-register-app-active-directory.md).  Each subsequent Web API request must be authenticated with OAuth. Luckily much of the complexity of OAuth authentication can be simplified through the use of Active Directory Authentication Libraries ([ADAL](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-authentication-libraries)) for .NET clients, which is added to the sample as the NuGet package [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/). OAuth authorization is further encapsulated in this sample with the inclusion of the   `OAuthMessageHandler` class, which adds the required OAuth authorization header to message requests. In future samples, supporting authentication functionality is separated into the [Web API Helper Library](https://msdn.microsoft.com/en-us/library/mt770381.aspx). For more information, see [Authenticate users in Dynamics 365 for Customer Engagement apps](../authenticate-users.md).  
 
  The [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web API is a REST API based on the [OData specification](http://www.odata.org/documentation/), so it supports standardized HTTP requests against entities, and calling functions and actions. This sample demonstrates invoking the <xref href="Microsoft.Dynamics.CRM.WhoAmI?text=WhoAmI Function" /> function with a GET request, then using the information provided by this function in the resulting HTTP response. Several standard libraries are leveraged by this sample to assist in this invocation:  
 
@@ -103,7 +103,7 @@ This sample demonstrates how to authenticate with   a [!INCLUDE[pn_microsoftcrm_
 namespace Microsoft.Crm.Sdk.Samples  
 {  
     /// <summary>  
-    /// A basic Web API client application for Dynamics 365 (CRM). This sample authenticates   
+    /// A basic Web API client application for Dynamics 365 for Customer Engagement (CRM). This sample authenticates   
     /// the user and then calls the WhoAmI Web API function.   
     /// </summary>  
     /// <remarks>   
@@ -118,7 +118,7 @@ namespace Microsoft.Crm.Sdk.Samples
     /// </remarks>  
     static class SimpleWebApi  
     {  
-        //TODO: Uncomment then substitute your correct Dynamics 365 organization service   
+        //TODO: Uncomment then substitute your correct Dynamics 365 for Customer Engagement organization service   
         // address for either CRM Online or on-premise (end with a forward-slash).  
         //private static string serviceUrl = "https://mydomain.crm.dynamics.com/myorg/";   // CRM Online  
         //private static string serviceUrl = "https://<organization name>.<domain name>/";   // CRM IFD  
@@ -240,5 +240,5 @@ namespace Microsoft.Crm.Sdk.Samples
 
  [Web API Reference](/dynamics365/customer-engagement/web-api/about?view=dynamics-ce-odata-9)  
  [Web API Samples](web-api-samples.md)   
- [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
- [Authenticate users in Dynamics 365](../authenticate-users.md)
+ [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
+ [Authenticate users in Dynamics 365 for Customer Engagement apps](../authenticate-users.md)

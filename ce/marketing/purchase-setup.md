@@ -1,22 +1,21 @@
 ---
 title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 for Marketing"
-keywords: "setup; licensing; FRE; Azure; privacy; marketing services; customer-insights services"
-ms.date: 10/10/2018
-ms.service: 
-  - "dynamics-365-marketing"
+keywords: setup; licensing; FRE; Azure; privacy; marketing services; customer-insights services
+ms.date: 03/08/2019
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: f722b098-be63-412a-aadc-7b34d11fa668
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -48,6 +47,7 @@ After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-nam
 > 
 > - You must already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
 > - **You must be running [!include[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or higher** (supplied together with most trial and stand-alone [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setups).
+> - You must not already have a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app installed on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance. You can have at most one [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] per [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance, and each  [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app can only be used with one [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance.
 > - You must sign into your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant with a user account that has all the following:
 >   - A [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license assigned to you on your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
 >   - Admin privileges on the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance where you are installing [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
@@ -61,12 +61,12 @@ After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-nam
 > If you run into trouble while working with the setup wizard, see the [Administration and setup FAQ](setup-troubleshooting.md) for some possible solutions.
 
 > [!IMPORTANT]
-> Your system is constrained by certain limits and quotas that apply to the number of contacts you can store, monthly email messages you can send, monthly Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product.
+> Your system is constrained by certain limits and quotas that apply to the number of contacts you can market to, monthly email messages you can send, Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product.
 > 
-> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
+> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 > - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
 > 
-> You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced Settings**  >  **Others**  >  **Quota Limits**  in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
+> You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
 > 
 > See also the  [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
@@ -80,7 +80,7 @@ Choose an instance and name your portal:
 
 1. Select the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] organization where you want to add [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. (A [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] *organization* is another name for a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] *instance*.) If you aren't already using any other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] apps, you'll set up a new instance now. If you already have one or more instances, you'll be able to select an existing one that you want to integrate with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, or create a new one.
 
-2. Enter a prefix for your portal URL and enter it in the field provided. You can also see what the full URL will be here. The portals feature enables [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] to host webpages, accept values submitted by page visitors, and to update its database directly based on those values. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses the portals feature to publish marketing pages, subscription centers, event portals, surveys, and more. All your portals are hosted on a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server, which uses a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]-owned domain name, plus the subdomain name that you choose here. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they will recognize, such as your organization's name. The subdomain that you choose must also be unique among all other subdomains in the same [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server; you'll be notified to try again if you pick one that's already in use.
+2. Enter a prefix for your portal URL in the field provided. You can also see what the full URL will be here. The portals feature enables [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to host webpages, accept values submitted by page visitors, and to update its database directly based on those values. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses the portals feature to publish marketing pages, subscription centers, event websites, surveys, and more. All your portals are hosted on a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] server, which uses a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]-owned domain name, plus the subdomain name that you choose here. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they will recognize, such as your organization's name. The subdomain that you choose must also be unique among all other subdomains in the same [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] server; you'll be notified to try again if you pick one that's already in use.
 
 3. Select  **Continue**  to continue.
 

@@ -2,6 +2,17 @@
   "build": {
     "content": [
       {
+        "group": "usd-all",
+        "files": [
+          "unified-service-desk/**/*.md",
+          "unified-service-desk/**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]        
+      },
+      {
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -9,6 +20,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "unified-service-desk/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -17,6 +29,21 @@
       }
     ],
     "resource": [
+      {
+        "group": "usd-all",
+        "files": [
+          "unified-service-desk/**/*.png",
+          "unified-service-desk/**/*.jpg",
+          "unified-service-desk/**/*.gif",
+          "unified-service-desk/**/*.html",
+          "unified-service-desk/**/*.htm",
+          "unified-service-desk/**/*.txt"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },
       {
         "files": [
           "**/*.png",
@@ -28,7 +55,8 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "unified-service-desk/**"
         ]
       }
     ],
@@ -46,9 +74,16 @@
       ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
-      "feedback_product_url": "https://experience.dynamics.com/ideas/"
+      "feedback_product_url": "https://ideas.dynamics.com",
+      "search.appverid": "met150"
     },
     "fileMetadata": {
+      "feedback_product_url":{
+        "admin/**.*": "https://ideas.powerapps.com",
+        "customize/**.*": "https://ideas.powerapps.com",
+        "developer/**.*": "https://ideas.powerapps.com",
+        "developer/channel-integration-framework/**.*": "https://ideas.dynamics.com"
+      },
       "breadcrumb_path": {
         "**.*": "bc/toc.yml",
         "admin/**.*": "bc/toc.yml",
@@ -71,10 +106,11 @@
         "developer/**/*.*": "bc/toc.yml",
         "sales-enterprise/**.*": "bc/toc.yml",
         "social-engagement/**.*": "bc/toc.yml",
-        "unified-service-desk/**.*": "bc/toc.yml",
+        "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml",
         "versium-predict/**.*": "bc/toc.yml",
         "voice-of-customer/**.*": "bc/toc.yml",
-        "channel-integration-framework/**.*": "bc/toc.yml"
+        "channel-integration-framework/**.*": "bc/toc.yml",
+        "omni-channel-engagement-hub/**.*": "bc/toc.yml"
       },
       "searchScope": {
         "**.*": [
@@ -175,11 +211,21 @@
         "channel-integration-framework/**.*": [
           "Dynamics 365",
           "Customer Engagement"
-        ]
+        ],
+        "omni-channel-engagement-hub/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ]        
       }
     },
     "template": [],
     "dest": "customer-engagement",
+    "groups": {            
+      "usd-all": {
+        "dest": "usd-all",
+        "moniker_range": ">= dynamics-usd-3"
+      }
+    },
     "markdownEngineName": "markdig"
   }
 }

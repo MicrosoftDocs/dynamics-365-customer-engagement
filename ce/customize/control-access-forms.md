@@ -1,22 +1,21 @@
 ---
-title: "Control access to forms in PowerApps | MicrosoftDocs"
+title: "Control access to forms in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to control acces to main forms"
-ms.custom: ""
-ms.date: 04/03/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 03/07/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 15d123e0-b604-45dd-ab34-0b37787a04bb
 caps.latest.revision: 33
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
@@ -25,7 +24,7 @@ search.app:
 ---
 # Control access to forms
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  There are two ways you can control access to main forms:  
   
@@ -44,7 +43,7 @@ search.app:
   When you have more than one main or mobile form defined for an entity, you can select which forms users will be able to use based on their security roles. Because each entity must be able to display a form for any user, at least one form must be designated as a ”fallback” form – a form visible to users whose security roles do not have any forms explicitly assigned to them.  
   
 > [!NOTE]
->  Quick Create and Quick View forms cannot be assigned to security roles.  
+>  Quick Create, Quick View, and Card forms can't be assigned to security roles.  
   
  Within the form editor or from the forms grid you can assign security roles to a form. However, if there is only one form for the entity, you will not be able to clear the **Enabled for fallback** option in the **Assign Security Roles** dialog box. In this case, even though you have assigned security roles to the form, anyone associated with a security role you did not include will still be able to view the form because it is enabled for fallback.  
   

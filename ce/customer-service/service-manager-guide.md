@@ -1,12 +1,12 @@
 ---
-title: Service Management Guide (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Service Management Guide for Customer Service for Dynamics 365
-keywords: Service Management Guide; Dynamics 365; Customer Service Hub; set up customer service admin tasks; access service management; 
+title: Service Manager Guide (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Service Management Guide for Customer Service for Dynamics 365 for Customer Engagement
+keywords: Service Management Guide; Dynamics 365 for Customer Engagement; Customer Service Hub; set up customer service admin tasks; access service management; 
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "Dynamics 365 Version 8.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - Dynamics 365 for Customer Engagement Version 8.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -23,18 +23,16 @@ search.app:
   - D365CS
 ---
 
-# Service Management Guide (Customer Service Hub and Customer Service app)
+# Service Manager Guide (Customer Service Hub and Customer Service app)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-The Service Management module lets your customers quickly deploy their business processes. It helps customer service managers automate various customer service processes, improve agent turnaround time, and lead towards optimum customer satisfaction. 
+The Service Manager guide helps the admins to set up everything related to customer service, like defining parent-child case hierarchy, creating queues, routing rule sets, rules for automatic case creation, service level agreements (SLAs), entitlements, and customer service schedules. 
 
-The Service Management module empowers the admin to set up everything related to customer service, like defining parent-child case hierarchy, creating queues,routing rule sets, rules for automatic case creation, service level agreements (SLAs), entitlements, and customer service schedules. 
-
-With the new release, the Service Management moves under the Customer Service Hub, enabling customer service managers to access the configurations from inside the application. Built on Unified Interface, the new Service Management helps to easily configure service tasks, enabling increased productivity.
+With the new release, the Service Manager moves under the Customer Service Hub, enabling customer service managers to access the configurations from inside the application. Built on Unified Interface, the new Service Management helps to easily configure service tasks, thus enabling increased productivity.
   
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule Sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the Customer Service web application app. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the January 2019 release.
+> With the Customer Engagement apps version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule Sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the Customer Service web application app. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the February 2019 release.
 
 ## Access Service Management
 
@@ -78,17 +76,23 @@ In the Customer Service app, navigate to **Settings > Service Management**.
 
 [Service Configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
 
+## Templates
 
-## Knowledge base management 
+[Entitlement Templates](set-up-entitlements-templates.md)
+
+## Knowledge Base Management 
 
 [Embedded Knowledge Search](set-up-knowledge-management-embedded-knowledge-search.md)
 
 [Categories](create-manage-categories.md)
 
-## Templates
+## Similar Records Suggestion
 
-[Entitlement Templates](set-up-entitlements-templates.md)
+[Suggest similar cases using advanced similarity rules](suggest-similar-cases-for-a-case.md)
+
 
 ### See also
+
+[What's new in Dynamics 365 for Customer Engagement for Customer Service](whats-new-customer-service.md)
 
 [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md)
