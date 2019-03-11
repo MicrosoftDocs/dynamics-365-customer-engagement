@@ -78,8 +78,11 @@
 #### [Custom actions](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
 ### Playbooks
 #### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)
-##### [msdyn_playbookactivity](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookactivity.md)
 ##### [msdyn_playbookinstance](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookinstance.md)
+##### [msdyn_playbookactivity](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookactivity.md)
+##### [msdyn_playbookactivityattribute](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookactivityattribute.md)
+##### [msdyn_playbookcategory](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookcategory.md)
+##### [msdyn_playbooktemplate](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbooktemplate.md)
 ##### [msdyn_callablecontext](../sales-enterprise/developer/reference/playbooks-entities/msdyn_callablecontext.md)
 
 ## Troubleshooting
