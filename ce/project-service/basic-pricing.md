@@ -1,12 +1,12 @@
 ---
-title: Pricing 
+title: Project pricing 
 description: This topic provides information about how pricing works in Project Service Automation (PSA).
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 02/14/2019
+ms.date: 03/11/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -21,7 +21,7 @@ search.app:
   - D365PS
 ---
 
-# Project Pricing 
+# Project pricing 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
