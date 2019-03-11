@@ -33,6 +33,7 @@ This document provides important, late-breaking information about known issues a
 
 ### Known issues
 
+- Some types of system customizations can interfere with the Dynamics 365 for Marketing setup, resulting in no default contact being created or assigned for your instance. In this case, you must assign one manually. More information: [Default marketing settings](marketing-settings.md#default-marketing-settings) <!--1248465-->
 - The setup process can take up to two hours. The process might restart automatically during this time, which can result in multiple success (or failure) notifications being sent to you by email.
 - If you have a license for Dynamics 365 for Marketing, but don't have a license for Dynamics 365 for Customer Engagement, any attempt to install the Marketing application will fail. As a temporary workaround, you can install a trial Customer Engagement plan (which will work for 30 days) and then install Marketing. You'll still need to convert your trial into a production instance before the 30 days are up, but this way you can start working in Marketing right away. You can install the trial from your Office 365 admin center as described in [Purchase services](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-office-365-admin-center-manage-subscription#purchase-services). <!--- 1183223 -->
 
@@ -74,11 +75,11 @@ This document provides important, late-breaking information about known issues a
 - Subscription lists now remove unsubscribed contacts from running journeys.<br><del>*Dynamic segments based on subscription marketing lists don't remove unsubscribed contacts from running journeys. The unsubscribe request will be honored in future journeys.*</del>.
 - When you go live with a new segment, the **Members** tab now displays correct status messages as the segment is being provisioned.<br><del>*If you go live with a new segment and then open the **Members** tab right away, you'll see a message telling you that the segment doesn't exist (even though it does). Reload the page, or open another tab and come back, to view the correct message (that the segment is being provisioned). Later, once the segment is finished provisioning, you'll see the list of contacts it contains here.*</del> <!-- 1251946 -->
 
-
 ## Email marketing
 
 ### Known issues
 
+- Assist-edit is sometimes unavailable for content settings, resulting in inactive assist-edit buttons on this page. This is due to a script not being loaded by the content settings page. To fix the issue, open any email message (which will load the script) and then open the content settings. The script will remain available thereafter until you reload the browser window or close the browser. More information: [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings) <!--1406708-->
 - The default content-settings record must be live before you can send any marketing emails or view heatmaps on **Insights** pages. Usually, the default content-settings record goes live automatically when your setup is complete, but sometimes this isn't the case. To solve this, set up and publish your default content-settings record manually as described in [Use content settings to set up repositories of standard and required values](dynamic-email-content.md#content-settings).
 - Selecting **Stop** on a live email will prevent it from being used in future journeys, but it will continue to function in existing live journeys, which will continue to deliver it.
 - If you reuse the same email multiple times (within the same journey or in different journeys) you will see incorrect performance results on its **Insights** pages.
@@ -100,6 +101,10 @@ This document provides important, late-breaking information about known issues a
 ## Marketing pages and forms
 
 ### Known Issues
+
+- Your marketing forms must include mandatory input fields for each of the fields required by your lead- and contact-matching strategies. If any of the fields required by a matching strategy isn’t present in a form submission, then no lead and/or contact record will be created or updated. More information: [Configure landing pages](marketing-settings.md#config-mkt-pages) and [Design elements for forms](content-blocks-reference.md#form-content-elements) <!--1330191-->
+- If you are using the Firefox web browser, then you can’t copy the code generated for embedding a marketing page on an external site. To work around this, use a different browser to accomplish this task. More information: [Embed a marketing form on your own website](embed-forms.md) <!--1392229-->
+- If you edit a form that you have embedded on an external site, then you must deactivate and then reactivate the relevant form page to implement the edit. To do this, open the marketing-form record, go to the **Form hosting** tab, and open the form page. Then deactivate and reactivate the form page using the buttons on the command bar. The embed code stays the same, so you don’t need to update it on your site. More information: [Embed a marketing form on your own website](embed-forms.md) <!-- 1422382 -->
 
 - When configuring a form on a page, we recommend that you enter a confirmation message or a redirect URL, so users can see that they successfully submitted the form.
 - It can take up to a minute after a marketing page goes live before its public link (full page URL) is ready. Visitors might see an error message on the page prior to this.
@@ -128,6 +133,7 @@ This document provides important, late-breaking information about known issues a
 
 ## Insights
 
+- Some insights for email delivery (reported by the customer journey, email, and contact entities) appear twice on the **Insights** tab&mdash;once under Stopped in journey and once under Blocked. The affected insights are **Contact lowered consent below threshold** and **Contact lowered external consent below threshold**. Both should appear only under **Stopped in journey**. More information: [Analyze results to gain insights from your marketing activities](insights.md) <!--1396995--> 
 - Web interactions registered for an anonymous visitor (on a tracked website, marketing page, marketing form, or redirect URL) don't currently become attributed to a contact record if those visitors later become known contacts. Though these interactions remain anonymous, you can still see them under the related entity (marketing page, website, etc.) and they are leveraged to compute the insights for each record. More information: [Websites](#websites) <!--- 1276305 -->
 - Customer journey insights include a count of contacts that stopped their journey midway because the "Contact joined the suppression segment." In the current release,  this count may be unreliable. The suppression segment still works, and the contacts will be stopped correctly on joining it, but some of the contact numbers won't add up due to stopped contacts not getting counted here. <!--- 1331945 -->
 
