@@ -111,8 +111,7 @@ This function is passed an object as a parameter. The object has a <b>savedEntit
 <b>NOTE</b>:
   <ul>
     <li>The <b>successCallback</b> function is not executed when you open a form for an existing or new record.</li>
-    <li>The <b>successCallback</b> function is executed only when you save a record in a quick create form that was opened using the <strong>openForm</strong> method.</li>
-    <li>When you open a quick create form and create a record, the <b>savedEntityReference</b> array will contain a single item.</li>
+    <li>The <b>successCallback</b> function is executed only when you save a record in a quick create form that was opened using the <strong>openForm</strong> method.</li>    
   </ul>
 </td>
 </tr>
