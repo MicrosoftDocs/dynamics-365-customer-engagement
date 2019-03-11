@@ -98,13 +98,14 @@ Similarly, add more mappings to view a comprehensive search of related records.
 
 ### Understand how relevance search impacts search results
 
-As you search using extracted keyphrases, see how the search results are impacted when Relevance search is enabled or disabled.
+As you search using extracted key phrases, see how the search results are impacted when Relevance search is enabled or disabled.
 
 
-|Relevance search is disabled  |Relevance search is enabled |
+|Relevance search disabled  |Relevance search enabled |
 |---------|---------|
-|Row1     |         |
-|Row2     |         |
+|If relevance search is disabled, FetchXML for each key phrase is passed to relevance search with conditions like, **Condition – As Contains** and **Target search field – PrimaryField**. |If relevance search is enabled, all the key phrases are passed to relevance search as search terms without source attribute context.|
+|Relevance search looks for search results only in the above fields of an entity irrespective of the similarity rules. </br> For example, if you search for key phrases like ‘login, email, credit card’, the condition will be **Case title contains login or contains email or contains credit card**. |    Relevance search looks for search results in all searchable attributes of an entity defined by the customer, irrespective of the similarity rules. </br> For example, if you search for key phrases like *login, email, credit card*, all of these will be sent as search terms to relevance search.     |
+|||
  
   
 
