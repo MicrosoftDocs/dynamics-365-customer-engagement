@@ -2,8 +2,8 @@
 title: "Geofencing for Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 2/18/2018
-ms.reviewer: ""
+ms.date: 03/11/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,11 +13,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
-manager: shellyha
+ms.author: daclar
 search.audienceType: 
   - admin
   - customizer
@@ -28,33 +27,37 @@ search.app:
 
 # Geofencing for Field Service Mobile 
 
-A geofence is a virtual perimeter around a specific location. Geofencing allows users of the system to draw zones around places of work, customer sites and secure areas. When geofences are crossed by a person or equipped vehicle various actions can be triggered in the system.
+A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle.
 
 In Dynamics 365 for Field Service, the default use case for geofencing is to create a circular **geofence** around a work order's location and compare this to the changing location of field technicians as measured by their mobile devices running the Field Service Mobile app. When a work order geofence is crossed or "broken" by a field technician, a **geofence event** record is created and the geofence status is changed from outside to inside indicating the field technician is inside the geofence. Another geofence event is created as the field technician leaves the geofenced area. Based on entering or leaving a geofenced area, a mobile push notification or custom workflow can be triggered.
 
-In this article let's explore configuring geofences including distance radius, enabling and testing field technician location tracking, booking a work order to automatically create a geofence around it, testing crossing the geofence, and consider triggering push notifications as field technicians enter and leave geofenced areas. 
+In this topic, we will look at how to configure geofences, including:
+- setting distance radius
+- enabling and testing field technician location tracking 
+- booking a work order to automatically create a geofence around it 
+- testing crossing the geofence, and triggering push notifications as field technicians enter and leave geofenced areas 
 
 
 ## Prerequisites
 
-1. **Field Service v8.3+**. Geofence solutions are included as part of the Field Service v8.3 upgrade/installation. In order to utilize mobile push notifications with geofencing, ensure the [Mobile Configuration Tool (Woodford solution)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool) is installed in your environment before upgrade/installation to v8.3.
+- **Field Service v8.3+**. Geofence solutions are included as part of the Field Service v8.3 upgrade/installation. In order to utilize mobile push notifications with geofencing, ensure the [Mobile Configuration Tool (Woodford solution)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool) is installed in your environment before upgrade/installation to v8.3.
 
-2. **Field Service Mobile v11.2+**
+- **Field Service Mobile v11.2+**
 
-3. [Connect to Maps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to connect your Dynamics 365 environment to Bing Maps to locate service accounts and work orders to later place geofences around them.
+- [Connect to Bing Maps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to connect your Dynamics 365 environment to Bing Maps to locate service accounts and work orders to later place geofences around them.
    
-4. [Set Auto Geo Code Addresses to Yes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) (Recommended) in order to automatically geo code accounts and work orders as addresses are entered. Geo coding an account or work order record populates latitude and longitude values which are required to place geofences around them.
+- [Set auto geo code addresses to **yes**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geo code accounts and work orders as addresses are entered. Geo coding an account or work order record populates latitude and longitude values which are required to place geofences around them.
    
 
 
 
 ## 1. Verify geofence solutions are installed
 
-Go to **Settings > Solutions** and verify three Geofence solutions are present.
+Go to **Settings > Solutions** and verify the 3 following geofence solutions are there:
 
-1. Geofence Alerts
-2. Geofence Management
-3. Geofence for Field Service
+- **Geofence Alerts**
+- **Geofence Management**
+- **Geofence for Field Service**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geofence solutions](./media/mobile-geofence-solutions.png)
@@ -132,7 +135,6 @@ Additionally, the bookable resource's current location will appear on the schedu
 > [!div class="mx-imgBorder"]
 > ![Screenshot of real time mode schedule assistant setting](./media/mobile-geofence-real-time-location-filter.png)
 
-
 ## 6. Configure Geofencing Settings
 
 Go to **Field Service > Settings > Geofencing Settings**
@@ -141,8 +143,6 @@ Enter a **unit of measure** and **minimum radius**. In the image below, the smal
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geofencing settings](./media/mobile-geofence-minimum-radius.png)
-
-
 
 ## 7. Configure Geofence Entities
 
@@ -164,7 +164,7 @@ Then select the Account configuration which is included by default with the geof
 > [!div class="mx-imgBorder"]
 > ![Screenshot of account geofence configurations](./media/mobile-geofence-service-account.png)
  
-Next go to the Bookable Resource configuration.
+Next, go to the bookable resource configuration.
 
 **Entity:** Select **Bookable Resource** to compare the location of field technicians relative to work orders and service accounts. 
 
