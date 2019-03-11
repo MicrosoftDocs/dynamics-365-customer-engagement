@@ -21,7 +21,7 @@ topic-status: Drafting
 ---
 # msdyn_playbookinstance EntityType
 
-Actual instance of a playbook template once it is launched.
+[!INCLUDE[msdyn_playbookinstance-description](../includes/msdyn_playbookinstance-description.md)]
 
 Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_playbookinstances`<br />
 Display Name: Playbook<br />
@@ -63,4 +63,4 @@ Properties represent fields of data stored in the entity. Some properties are re
 
 ## See also
 
-[Entity reference for Playbooks](playbook-entity-reference.md)
+[Entity reference for Playbooks](../playbook-entity-reference.md)

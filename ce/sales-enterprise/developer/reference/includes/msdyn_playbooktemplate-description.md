@@ -1,0 +1,1 @@
+Playbook templates contains the definition of the Playbook that helps to standardize a set of best practices or next best actions.

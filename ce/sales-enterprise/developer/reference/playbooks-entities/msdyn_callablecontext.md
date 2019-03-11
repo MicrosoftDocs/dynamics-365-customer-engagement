@@ -21,6 +21,8 @@ topic-status: Drafting
 ---
 # msdyn_callablecontext EntityType
 
+[!INCLUDE[msdyn_callablecontext-description](../includes/msdyn_callablecontext-description.md)]
+
 Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_callablecontexts`<br />
 Display Name: Playbook calling record type <br />
 Primary key: msdyn_callablecontextid <br />
@@ -55,4 +57,4 @@ Properties represent fields of data stored in the entity. Some properties are re
 
 ## See also
 
-[Entity reference for Playbooks](playbook-entity-reference.md)
+[Entity reference for Playbooks](../playbook-entity-reference.md)
