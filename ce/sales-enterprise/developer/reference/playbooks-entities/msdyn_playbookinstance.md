@@ -1,15 +1,15 @@
 ---
-title: "msdyn_callablecontext EntityType | MicrosoftDocs"
-description: "Entity reference for msdyn_forecastdefinition EntityType"
+title: "msdyn_playbookinstance EntityType | MicrosoftDocs"
+description: "Entity reference for msdyn_playbookinstance EntityType"
 keywords: 
-ms.date: 03/07/2019
+ms.date: 03/11/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
-ms.assetid: 6713A40E-A1A2-4EEA-B25A-22AA8008A623
+ms.assetid: 61CB2FAA-7808-491B-92C1-82BA0213762A
 author: susikka
 ms.author: susikka
 manager: shujoshi
@@ -19,11 +19,13 @@ ms.tgt_pltfrm:
 caps.latest.revision: 22
 topic-status: Drafting
 ---
-# msdyn_callablecontext EntityType
+# msdyn_playbookinstance EntityType
 
-Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_callablecontexts`<br />
-Display Name: Playbook calling record type <br />
-Primary key: msdyn_callablecontextid <br />
+Actual instance of a playbook template once it is launched.
+
+Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_playbookinstances`<br />
+Display Name: Playbook<br />
+Primary key: msdyn_playbookinstanceid <br />
 Operations supported: Create, Retrieve, Update and Delete<br />
 
 ## Properties
@@ -32,16 +34,22 @@ Properties represent fields of data stored in the entity. Some properties are re
 
 |Name|Display name|Type|Description|
 |-----|-----|-----|-----|
-|createdby|Created By|Edm.Guid|Unique identifier of the user who created the record|
+|createdy|Created By|Edm.Guid|Unique identifier of the user who created the record|
 |createdon|Created On|Edm.DateTimeOffset|Date and time when the record was created|
 |createdonbehalfby|CreatedOnBehalfBy|Edm.Guid|Unique identifier of the delegate user who created the record|
 |importsequencenumber|Import Sequence Number|Edm.Int32|Sequence number of the import that created this record|
 |modifiedby|Modified By|Edm.Guid|Unique identifier of the user who modified the record|
 |modifiedon|Modified On|Edm.DateTimeOffset|Date and time when the record was modified|
 |modifiedonbehalfby|Modified On Behalf By|Edm.Guid|Unique identifier of the delegate user who modified the record|
-|msdyn_callablecontextid|Playbook calling record type|Edm.Guid|Unique identifier for entity instances|
-|msdyn_EntityLogicalName|Name|Edm.String|The name of the custom entity|
-|msdyn_EntityOTC|Fiscal Year|Edm.Int32|Internal use only|
+|msdyn_activitiesassociated|Edm.Int32|Total Activities||
+|msdyn_activitiesclosed|Edm.Int32|Completed Activities||
+|msyn_categoryid|Edm.Guid|Category|Select the playbook category for the playbook|
+|msdyn_estimatedclose|Edm.DateTimeOffset|Estimated close|Estimated close date for a playbook based on the estimated duration specified for the playbook template|
+|msdyn_evaluateactivityclosure|Edm.Boolean|Evaluate Activity Closure|For internal use only|
+|msdyn_name|Edm.String|Name|Type the name of the playbook|
+|msdyn_playbookinstanceid|Edm.Guid|Playbook|Unique identifier for entity instances|
+|msdyn_playbooktemplateid|Edm.Guid|Playbook Template|Shows the unique ID of the playbook template associated with the playbook|
+|msdyn_trackprogress|Edm.Boolean|Track progress|Select whether or not to track the progress of the playbook by creating the activities in a playbook which is in turn linked to the record type the playbook applies to|
 |overriddencreatedon|Record Created On|Edm.DateTimeOffset|Date and time that the record was migrated|
 |owner|Owner|Edm.Guid|Owner Id|
 |owningbusinessunit|Owning Business Unit|Edm.Guid|Unique identifier for the business unit that owns the record|

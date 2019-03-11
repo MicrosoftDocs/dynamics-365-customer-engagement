@@ -1,15 +1,15 @@
 ---
-title: "msdyn_callablecontext EntityType | MicrosoftDocs"
-description: "Entity reference for msdyn_forecastdefinition EntityType"
+title: "msdyn_playbookactivity EntityType | MicrosoftDocs"
+description: "Entity reference for msdyn_playbookactivity EntityType"
 keywords: 
-ms.date: 03/07/2019
+ms.date: 03/11/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
-ms.assetid: 6713A40E-A1A2-4EEA-B25A-22AA8008A623
+ms.assetid: AAF5B63C-876E-4A56-93F4-D4E027997C05
 author: susikka
 ms.author: susikka
 manager: shujoshi
@@ -19,11 +19,13 @@ ms.tgt_pltfrm:
 caps.latest.revision: 22
 topic-status: Drafting
 ---
-# msdyn_callablecontext EntityType
+# msdyn_playbookactivity EntityType
 
-Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_callablecontexts`<br />
-Display Name: Playbook calling record type <br />
-Primary key: msdyn_callablecontextid <br />
+Stores the details of the activities to be created when a playbook is launched.
+
+Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_playbookactivities`<br />
+Display Name: Playbook activity<br />
+Primary key: msdyn_playbookactivityid <br />
 Operations supported: Create, Retrieve, Update and Delete<br />
 
 ## Properties
@@ -39,9 +41,12 @@ Properties represent fields of data stored in the entity. Some properties are re
 |modifiedby|Modified By|Edm.Guid|Unique identifier of the user who modified the record|
 |modifiedon|Modified On|Edm.DateTimeOffset|Date and time when the record was modified|
 |modifiedonbehalfby|Modified On Behalf By|Edm.Guid|Unique identifier of the delegate user who modified the record|
-|msdyn_callablecontextid|Playbook calling record type|Edm.Guid|Unique identifier for entity instances|
-|msdyn_EntityLogicalName|Name|Edm.String|The name of the custom entity|
-|msdyn_EntityOTC|Fiscal Year|Edm.Int32|Internal use only|
+|msdyn_activityLogicalName|Activity Logical name|Edm.String|The logical name of the entity|
+|msdyn_activityType|Activity type|Edm.Int32|Select the type of activity to be associated with the Playbook|
+|msdyn_playbookactivity_json|Playbook Activity JSON|Edm.String|For internal use only|
+|msdyn_playbookactivityid|Playbook activities|Edm.Guid|Shows the unique identifier of the Playbook activity|
+|msdyn_playbooktemplateid|Playbook template|Edm.Guid|Select the type of activity to be associated with the playbook activities|
+|msdyn_subject|Subject|Edm.String|Type a short description about the objective or primary topic of the activity|
 |overriddencreatedon|Record Created On|Edm.DateTimeOffset|Date and time that the record was migrated|
 |owner|Owner|Edm.Guid|Owner Id|
 |owningbusinessunit|Owning Business Unit|Edm.Guid|Unique identifier for the business unit that owns the record|
