@@ -10,3 +10,5 @@ ce\field-service\install-the-mobile-app.md
 ce\developer\disaster-recovery-online-customer-engagement.md
 
 These files have been deleted, but the list hasn't been communicated to loc yet.
+
+ce/developer/walkthrough-multi-tenant-server-server-authentication.md

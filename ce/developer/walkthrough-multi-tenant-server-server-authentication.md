@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication
 title: "Walkthrough: Multi-tenant server-to-server authentication (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "This walkthrough describes the steps to create a multi-tenant web application that can connect to a December 2016 Update for Dynamics 365 for Customer Engagement (online) tenant using the Visual Studio 2015 MVC web application template"
 ms.custom: 
