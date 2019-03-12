@@ -2,7 +2,7 @@
 title: "msdyn_playbookinstance EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_playbookinstance EntityType"
 keywords: 
-ms.date: 03/11/2019
+ms.date: 03/12/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -41,8 +41,8 @@ Properties represent fields of data stored in the entity. Some properties are re
 |modifiedby|Modified By|Edm.Guid|Unique identifier of the user who modified the record|
 |modifiedon|Modified On|Edm.DateTimeOffset|Date and time when the record was modified|
 |modifiedonbehalfby|Modified On Behalf By|Edm.Guid|Unique identifier of the delegate user who modified the record|
-|msdyn_activitiesassociated|Edm.Int32|Total Activities||
-|msdyn_activitiesclosed|Edm.Int32|Completed Activities||
+|msdyn_activitiesassociated|Edm.Int32|Total Activities|Count of activities associated with a playbook|
+|msdyn_activitiesclosed|Edm.Int32|Completed Activities|Count of activities associated with a playbook which has been closed|
 |msyn_categoryid|Edm.Guid|Category|Select the playbook category for the playbook|
 |msdyn_estimatedclose|Edm.DateTimeOffset|Estimated close|Estimated close date for a playbook based on the estimated duration specified for the playbook template|
 |msdyn_evaluateactivityclosure|Edm.Boolean|Evaluate Activity Closure|For internal use only|

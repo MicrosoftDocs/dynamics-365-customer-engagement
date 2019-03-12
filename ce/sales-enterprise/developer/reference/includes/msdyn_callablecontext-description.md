@@ -1,0 +1,1 @@
+List of entities for which a playbook can be created.
