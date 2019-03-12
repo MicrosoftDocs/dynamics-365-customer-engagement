@@ -1,6 +1,6 @@
 ---
 title: Cancel previously approved time and expense entries
-description: This topic provides information about how to cancel an approved project time and expense transaction in Microsoft Dynamics 365 for Project Service Automation.
+description: This topic provides information about how to cancel an approved project time and expense transaction in Microsoft Dynamics 365 for Project Service Automation (PSA).
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -20,34 +20,39 @@ search.app:
   - D365CE
   - D365PS
 ---
+
 # Cancel previously approved time or expense entries
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In the latest version Dynamics 365 for Project Service Automation (PSA), an approver has the option to cancel a time or expense entry that they previously approved.
-  
-## Cancel a previously approved time or expense entry
-Complete the following steps to cancel a previously approved time or expense entry.
+In the latest version of Microsoft Dynamics 365 for Project Service Automation (PSA), approvers can cancel time or expense entries that they previously approved.
 
-1. Navigate to **Projects** \> **My Work** \> **Approvals**.
-2. From the view picker on the **Approvals** list page, change the view to **My past approvals**. A list of previously approved time and expense entries will be shown.
-3. Select one or more entries, and then click **Cancel approval**.
-4. A warning message will open. Click **OK** to cancel the approval.
+## Cancel a previously approved time or expense entry
+
+Follow these steps to cancel a time or expense entry that you previously approved.
+
+1. Go to **Projects** \> **My Work** \> **Approvals**.
+2. On the **Approvals** list page, change the view to **My past approvals**. A list of the time and expense entries that you previously approved is shown.
+3. Select one or more entries, and then select **Cancel approval**. You receive a warning message.
+4. Select **OK** to cancel the approval.
 
 ## Understand the impact of canceling a time or expense entry approval
 
-When an approval is canceled, there is both operational and financial impact. 
+When an approval is canceled, there is both operational impact and financial impact.
 
-On the operations side, the status of the record will be reset to **Draft** and the approval will no longer be available in the **My past approvals** view. Instead, depending on whether the canceled approval was a time or expense entry, the approval will be in the **Time entries for approval** view or the **Expense entries for approval** view. The related time or expense entry will also have its status modified to **Submitted** to be consistent with approvals that are in a **Draft** status.
+### Operational impact
 
-When an approval has a status of **Draft**, as an approver you can edit some of the fields, including **Billing Type** and **Billable Hours for Time Entries**. After you have made changes, you can choose to approve the record again. 
-Alternatively, you also have the option of rejecting the entry. Rejecting the approval of a time entry will change the status of the entry to **Returned** and rejecting the approval of an expense entry will change the status to **Rejected**. Semantically, both returned and rejected entries behave the same as an entry with a status of **Draft**. If necessary, the project team member can make required changes to the entry and resubmit for appoval, or delete the entry entirely.  
+On the operations side, when an approval is canceled, the status of the record is reset to **Draft**, and the approval no longer appears in the **My past approvals** view. Instead, the canceled approval appears in either the **Time entries for approval** view or the **Expense entries for approval** view, depending on whether it was a time entry or an expense entry. Additionally, the status of the related time or expense entry is changed to **Submitted**, so that the related entry is consistent with approvals that have a status of **Draft**.
 
-A project is also impacted financially when an approval is canceled. To start, the corresponding actuals for cost and sales are updated in the following way:
+As an approver, you can edit some of the fields of an approval that has a status of **Draft**. These fields include **Billing Type** and **Billable Hours for Time Entries**. After you make changes, you can approve the record again. Alternatively, you can reject the entry. If you reject the approval of a time entry, the status of the entry is changed to **Returned**. If you reject the approval of an expense entry, the status is changed to **Rejected**. Semantically, both returned and rejected entries behave the same as an entry that has a status of **Draft**. A project team member can either make any required changes to the entry and then resubmit it for approval, or delete the entry entirely.
 
-- The **Adjustment** status is set to **Adjusted**.
-- The **Billing** status is set to **Cancelled**.
+### Financial impact
 
-Next, the system creates reversal entries in the **Actuals** table by copying the field values from the original actuals, minus the quantity values which are reversed. These reversed actuals are created for both **Cost** and **Unbilled Sales** actuals. The **Adjustment Status** field on the reverse actuals is set to **Unadjustable** and the billing status is set to **Cancelled**.
+A project is also affected financially when an approval is canceled. First, the corresponding actuals for cost and sales are updated in the following manner:
 
-After these changes, the amount recorded as spent on the project and the revenue backlog on the project will no longer account for the amounts represented by these actuals.
+- The adjustment status is set to **Adjusted**.
+- The billing status is set to **Cancelled**.
+
+Next, reversal entries are created in the Actuals table. To create reversal entries, the system copies the field values from the original actuals, minus the quantity values that are reversed. These reversed actuals are created for both **Cost** and **Unbilled Sales** actuals. The **Adjustment Status** field on the reversed actuals is set to **Unadjustable**, and the billing status is set to **Cancelled**.
+
+After these changes are made, the amount that is recorded as spent on the project and the revenue backlog on the project will longer account for the amounts that these actuals represent.
