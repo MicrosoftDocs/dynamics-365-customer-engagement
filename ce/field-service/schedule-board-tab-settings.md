@@ -48,20 +48,19 @@ There are three ways to access a particular schedule board's tab settings:
 - Just Me
 
 > [!Note]
-> Users with Field Service - Administrator, Field Service - Dispatcher, and Field Service - Resource security roles can edit schedule board tab settings of schedule boards they create or are shared with them specifically meaning the shared with = everyone or specific people AND the schedule board is shared with their user.
+> Users with **Field Service - Administrator**, **Field Service - Dispatcher**, and **Field Service - Resource** security roles can edit schedule board tab settings of schedule boards they create or are shared with them specifically meaning the **Shared With** field = Everyone or Specific People AND the schedule board is shared with their user.
 
-who can access schedule board tab settings?
-
-fs admin cannot edit sb tab setttings of tabs they did not create even if shared with everyone
-
-fs admin, dispatchers, and resource role users can only edit sb tab settings of tabs they create or are shared with them specifically (meaning shared with = everyone or specific people AND the board is shared with their user)
-
-system administrators can view and edit all sb tab settings for all non private (boards where shared with is not "Just Me") schedule board tabs
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Tab settings - map settings](./media/tab-settings-map-settings.png)
 
 
-Open Default settings
+**Open Default Settings** - Lets you choose the default tab settings when new Schedule Boards are created. When values in a particular Schedule Board Tab Setting display **< Default View >**, this means the value is coming from the default tab settings. As in the image below, when the **Open Default Settings** button is selected, the **< Default View >** values are replaced by the actual values and you are now editing default schedule board tab settings.
 
-Reset to Default
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Default Tab settings](./media/schedule-board-tab-settings-default.png)
+
+**Reset to Default** - Selecting this button will reset the current tab setting values to the values outlined in the default settings.
 
 ## General
 
@@ -69,8 +68,7 @@ Reset to Default
 
 The Map Settings section allows you specify the placement of the map and the views displayed when selecting or hovering over map records.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Tab settings - map settings](./media/tab-settings-map-settings.png)
+
  
 **Map View Tab Placement**
 
