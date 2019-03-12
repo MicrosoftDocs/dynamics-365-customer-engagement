@@ -1,7 +1,7 @@
 ---
 
 title: Recall approved time or expense entries
-description: This topic provides information about how to recall a previously approved time or expense transaction.
+description: This topic provides information about how to recall a previously approved time or expense transaction in Microsoft Dynamics 365 for Project Service Automation (PSA).
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -21,67 +21,85 @@ search.app:
   - D365CE
   - D365PS
 ---
+
 # Recall approved time or expense entries
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In Dynamics 365 for Project Service Automation (PSA), a project team member or other submitter of a time or expense entry, can recall a previously approved time or expense entry. Recalling an approved time or expense entry is a two-step process:
+In Microsoft Dynamics 365 for Project Service Automation (PSA), a project team member or an other person who submits a time or expense entry can recall that time or expense entry after it has been approved. The process for recalling an approved time or expense entry has two steps:
 
-  1. Submitter requests a recall.
-  2. Approver approves the recall.
+1. A submitter requests a recall.
+2. An approver approves the recall.
 
-## Request a recall  
-Complete the following steps to request the recall of an approved time or expense entry.
+## Request a recall
 
-1. Navigate to **Projects** \> **My Work** \> **Time Entry** -or- **Projects** \> **My Work** \> **Expenses**.
-2. For time entries, select all of the time entries for a specific project-task combination or the individual cells in the grid for time on a specific date for a specific project. For expense entries, select the row of the expense entry to be recalled. 
-3. Click **Recall**. The system will show a confirmation dialog and you will be prompted enter a reason for the recall if the selected time and expense entries were already approved. 
-4. Enter a reason for the recall and click **OK** to confirm . The sytem will send a request to the approver of the entries to approve the recall.
+Follow these steps to request a recall of an approved time or expense entry.
+
+1. For time entries, go to **Projects** \> **My Work** \> **Time Entry**.
+
+    –or–
+
+    For expense entries, go to **Projects** \> **My Work** \> **Expenses**.
+
+2. For time entries, select all the time entries for a specific combination of a project and a task. Alternatively, in the grid, select the individual cells for time on a specific date for a specific project.
+
+    –or–
+
+    For expense entries, select the row for the expense entry to recall.
+
+3. Select **Recall**. A confirmation dialog box appears. If the selected time and expense entries were already approved, you're prompted to enter a reason for the recall.
+4. Enter a reason for the recall, and then select **OK** to confirm the operation. The system sends the person who approved the entries a request to approve the recall.
 
 > [!NOTE]
-> While recalling approved time or expense entries is allowed, if the approved time or expense has already been invoiced to the custoemr, a recall request can't be created. The user trying to create the recall will receive a message that says that the time or expense can't be recalled because it was already invoiced.
+> Although approved time and expense entries can be recalled, if an approved time or expense has already been invoiced to the customer, a recall request can't be created. A user who tries to create a recall request will receive a message that states that the time or expense can't be recalled because it was already invoiced.
 
-## Approve or reject a recall request 
-Complete the following steps to approve or reject a recall request.
+## Approve or reject a recall request
 
-1. Navigate to **Projects** \> **My Work** \> **Approvals**.
-2. From the view picker on the **Approvals** list page, change the view to **Recall requests for approval**. A list of submitted recall requests are shown.
-3. Select one or more entries, and click **Approve** or **Reject**.
-4. If you click **Approve**, a warning message that explains the impact will be shown. Click **OK** to confirm. The recall request will be approved. 
-5. If you click **Reject**, the recall request will be rejected. 
+Follow these steps to approve or reject a recall request.
+
+1. Go to **Projects** \> **My Work** \> **Approvals**.
+2. On the **Approvals** list page, change the view to **Recall requests for approval**. A list of submitted recall requests is shown.
+3. Select one or more entries, and then select either **Approve** or **Reject**.
+4. If you selected **Approve**, you receive a warning message that explains the impact of the approval. Select **OK** to confirm the operation. The recall request is approved.
+
+    –or–
+
+    If you selected **Reject**, the recall request is rejected.
 
 > [!NOTE]
-> Just as at the time of requesting the recall, at the time of approving the recall, the system will check for any invoicing activity on the entry. If the entry was already invoiced or is on a draft invoice, the approver will see an error message informing the approver that the time or expense can't be approved for recall since it was already invoiced.
+> As when a recall is requested, when a recall is approved, the system checks for any invoicing activity on the time or expense entries. If an entry was already invoiced, or if it's on a draft invoice, the approver will receive an error message that states that the time or expense can't be approved for recall, because it was already invoiced.
 
-## Impact of a recall request 
-When an approval is recalled, there is both operational and financial impact.
+## Impact of a recall request
 
-### Operational 
-If a recall request is approved, the approval record will be marked as **Rejected**. This means that the entry will have it's status modified to **Returned** or **Rejected**, based on whether it's a time or expense entry. 
+When an approval is recalled, there is both operational impact and financial impact.
 
-The project team member can view entries and choose to edit and resubmit, or delete the entry altogether.
+### Operational impact
 
-If the recall request was rejected, the entry keeps its **Approved** status and can't be edited by the team member of the approver of the Project.   
+If a recall request is approved, the approval record is marked as **Rejected**. The status of the entry is changed to either **Returned** or **Rejected**, depending on whether it's a time entry or an expense entry.
 
-### Financial 
-If a recall request is approved there is financial impact on the project. First, the corresponding actuals for cost and sales are updated in the following way:
+The project team member can view entries, edit and then resubmit entries, or delete entries entirely.
+
+If a recall request is rejected, the status of the entry remains **Approved**, and the entry can't be edited by the project team member or the approver for the project.
+
+### Financial impact
+
+If a recall request is approved, the corresponding actuals for cost and sales are updated in the following manner:
 
 - The **Adjustment Status** field is updated to **Adjusted**.
 - The **Billing Status** field is updated to **Canceled**.
 
-Next, the system creates reversal entries in the **Actuals** table by copying over all of the field values from the original actuals with the exception of the quantity values, which are reversed. Reversed actuals are created for both the **Cost** and **Unbilled Sales** actuals. The **Adjustment Status** field on the reverse actuals is set to **Unadjustable** and the **Billing status** field is set to **Canceled**. Because of these changes, the recorded spending and the revenue backlog on the project will no longer account for the amounts represented by these actuals.
+Next, reversal entries are created in the Actuals table. To create reversal entries, the system copies over the field values from the original actuals. The only values that aren't copied over are the quantity values. These values are reversed instead. Reversed actuals are created for both **Cost** and **Unbilled Sales** actuals. The **Adjustment Status** field on the reversed actuals is set to **Unadjustable**, and the **Billing status** field is set to **Canceled**. Because of these changes, the recorded spending and the revenue backlog on the project will no longer account for the amounts that these actuals represent.
 
 If a recall request is rejected, there is no financial impact on the project.
 
-## Time entry record changes
+## Changes to time entry records
 
-The following flow chart shows the changes that occur on approved time entries as they are recalled.
+The following illustration shows the changes that occur for approved time entries when they are recalled.
 
 ![Time Entry state transitions](media/TimeEntryStateTransitions.png)
 
-### Expense entry record changes
+### Changes to expense entry records
 
-The following flow chart shows the changes that occur on approved expense entries as they are recalled.
+The following illustration shows the changes that occur for approved expense entries when they are recalled.
 
 ![Expense Entry state transitions](media/ExpenseEntryStateTransitions.png)
-
