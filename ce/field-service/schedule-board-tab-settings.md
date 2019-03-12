@@ -28,7 +28,17 @@ search.app:
 
 # Schedule Board Tab Settings
 
-Accessing Schedule Board tab settings- To get to these settings, either double-click the schedule board title tab or select Open Tab Settings from the board’s settings.
+Schedule board tab settings allow you to define the layout and functions of schedule board tabs.
+
+There are three ways to access a particular schedule board's tab settings:  
+
+1. double click the name of the schedule board tab 
+2. while viewing the schedule board tab, click the gear icon in the top right of the schedule board
+3. while viewing the schedule board tab, choose the **settings icon > Open Tab Settings**
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of accessing schedule board tab settings](./media/schedule-board-tab-settings-access.png)
 
 who can access schedule board tab settings?
 
@@ -61,6 +71,10 @@ When set to **Details Pane**, the map will be placed on the right-hand side. Thi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Map View Tab Placement – Details Pane](./media/map-view-tab-placement-details-pane.png)
  
+**Requirement Map Filter View**
+
+This view dictates the resource requirement records displayed on the map. The setting lists public views related to the Resource Requirement entity for selection. Resource requirements need to have a latitude and longitude to display it on the map. Again, as a best practice copy the default view and apply changes to the copy.
+
 
 **Resource Tooltips View**
 
@@ -69,31 +83,25 @@ This view dictates the fields displayed in a tooltip that appears when a schedul
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Resource Tooltips View](./media/resource-tooltips-view.png)
 
+**Resource Details View**
+
+This view dictates the fields displayed in the details pane when a resource map pin is selected. The details pane is on the right-hand side of the schedule board and may have to be expanded. The setting lists public views related to the Bookable Resource entity for selection. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Resource Details View](./media/resource-details-view.png)
+
+
 **Organizational Unit Tooltips View**
 
 This view dictates the fields displayed in a tooltip that appears when a scheduler hovers over a organizational unit map pin. The setting lists public views related to the Organizational Unit entity for selection. Even though you can change existing views, it is a better practice to copy the default view and apply changes to the copy.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Organizational Unit Tooltips View](./media/organizational-unit-tooltips-view.png)
- 
 
-**Requirement Filter View**
-
-This view dictates the resource requirement records displayed on the map. The setting lists public views related to the Resource Requirement entity for selection. Resource requirements need to have a latitude and longitude to display it on the map. Again, as a best practice copy the default view and apply changes to the copy.
-
-affected by territory filter
-
-**Resource Details View**
-
-This view allows a dispatcher to specify the resource attributes that should be shown in the details pane on the right-hand side of the schedule board. The setting lists public views related to the Bookable Resource entity for selection. The details pane is populated when you select a resource pin on the map.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Resource Details View](./media/resource-details-view.png)
- 
 
 **Organizational Unit Details View**
 
-This view allows a dispatcher to specify the organizational unit attributes that should be shown in the details pane. The setting lists views that are based on the Organizational Unit entity, only public views are available for selection. The details pane is populated when you select an organizational unit on the map.
+This view dictates the fields displayed in the details pane when an organizational unit map pin is selected. The details pane is on the right-hand side of the schedule board and may have to be expanded. The setting lists public views related to the Organizational Unit entity for selection.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Organizational Unit Details View](./media/organizational-unit-details-view.png)
@@ -101,11 +109,10 @@ This view allows a dispatcher to specify the organizational unit attributes that
 
 
 
-## Prerequisites
-
-
-
 
 ## Configuration considerations
+- map requirements affected by territory filter
+
+
 ## Additional Notes
 - moving schedule board tab settings to other orgs 
