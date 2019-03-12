@@ -53,6 +53,6 @@ A project is also affected financially when an approval is canceled. First, the 
 - The adjustment status is set to **Adjusted**.
 - The billing status is set to **Cancelled**.
 
-Next, reversal entries are created in the Actuals table. To create reversal entries, the system copies the field values from the original actuals, minus the quantity values that are reversed. These reversed actuals are created for both **Cost** and **Unbilled Sales** actuals. The **Adjustment Status** field on the reversed actuals is set to **Unadjustable**, and the billing status is set to **Cancelled**.
+Next, reversal entries are created in the Actuals table. To create reversal entries, the system copies over the field values from the original actuals. The only values that aren't copied over are the quantity values. These values are reversed instead. Reversed actuals are created for both **Cost** and **Unbilled Sales** actuals. The **Adjustment Status** field on the reversed actuals is set to **Unadjustable**, and the billing status is set to **Cancelled**.
 
 After these changes are made, the amount that is recorded as spent on the project and the revenue backlog on the project will longer account for the amounts that these actuals represent.
