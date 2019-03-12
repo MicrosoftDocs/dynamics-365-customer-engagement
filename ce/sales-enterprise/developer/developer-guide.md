@@ -32,6 +32,9 @@ Welcome to the Dynamics 365 for Sales Developer Guide. This documentation is for
 <li><a href="reference/custom-actions-manual-forecasting.md" data-raw-source="[Custom actions for Manual forecasting](reference/custom-actions-manual-forecasting.md)">Custom actions for Manual forecasting</a></li>
 </td></tr>
 <tr><td>
+<h2>Playbooks</h2>
+<li><a href="reference/playbook-entity-reference.md" data-raw-source="[Entity reference for Playbooks](reference/playbook-entity-reference.md)">Entity reference for Playbooks</a></li>
+</td></tr>
 </table>
 
 ## Related resources
