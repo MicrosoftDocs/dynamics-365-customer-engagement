@@ -36,25 +36,28 @@ There are three ways to access a particular schedule board's tab settings:
 2. while viewing the schedule board tab, click the gear icon in the top right of the schedule board
 3. while viewing the schedule board tab, choose the **settings icon > Open Tab Settings**
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of accessing schedule board tab settings](./media/schedule-board-tab-settings-access.png)
 
+
+**Name:** this field dictates the name displayed at the top of the schedule board
+
+**Shared With:** decides which users can view the schedule board tab
+- Everyone
+- Specific People - after choosing this option, you can select the specific people to share the schedule board with by doing an Advanced Find of the **Schedule Board Settings** entity and sharing the related schedule board record with the specific users  
+- Just Me
+
+> [!Note]
+> Users with Field Service - Administrator, Field Service - Dispatcher, and Field Service - Resource security roles can edit schedule board tab settings of schedule boards they create or are shared with them specifically meaning the shared with = everyone or specific people AND the schedule board is shared with their user.
+
 who can access schedule board tab settings?
-
-dispatchers can edit schedule board tab settings for schedule boards they create or are shared with them
-
-field technicians can edit schedule board tab settings for schedule boards they create or are shared with them
 
 fs admin cannot edit sb tab setttings of tabs they did not create even if shared with everyone
 
-fs admin, dispatchers, and resource role users can only edit sb tab settings of tabs they create or are shared with them specifically
+fs admin, dispatchers, and resource role users can only edit sb tab settings of tabs they create or are shared with them specifically (meaning shared with = everyone or specific people AND the board is shared with their user)
 
 system administrators can view and edit all sb tab settings for all non private (boards where shared with is not "Just Me") schedule board tabs
 
-Name:
-
-Shared With:
 
 Open Default settings
 
