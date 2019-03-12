@@ -25,6 +25,7 @@ topic-status: Drafting
 
 Welcome to the Dynamics 365 for Sales Developer Guide. This documentation is for version 9.x.
 
+<br />
 <table>
 <tr><td>
 <h2>Manual Forecasting</h2>
