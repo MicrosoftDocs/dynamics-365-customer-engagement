@@ -2,7 +2,7 @@
 title: "Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement apps (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "You can create an instance of the CrmServiceClient class, and then use one of the constructors to connect to Dynamics 365 Customer Engagement"
 ms.custom: 
-ms.date: 12/03/2017
+ms.date: 03/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,9 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 74862506-a955-4846-a148-ac266f65592f
 caps.latest.revision: 27
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 

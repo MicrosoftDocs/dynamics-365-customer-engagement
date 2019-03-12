@@ -2,7 +2,7 @@
 title: "Use connection strings in XRM tooling to connect to Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "XRM tooling enables you to connect to your Dynamics 365 instance by using connection strings"
 ms.custom: 
-ms.date: 12/04/2018
+ms.date: 03/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,9 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a98b2fce-df49-4b60-91f4-a4446aa61cd3
 caps.latest.revision: 21
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -24,13 +23,13 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-With [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, XRM tooling enables you to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance by using connection strings. This is similar to the concept of connection strings used with [!INCLUDE[pn_MS_SQL_Server](../../includes/pn-ms-sql-server.md)]. Connection strings have native support in configuration files, including the ability to encrypt the configuration sections for maximum security. This enables you to configure [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] connections at deployment time, and not hard code in your application to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
+With Common Data for Service, XRM tooling enables you to connect to your instance by using connection strings. This is similar to the concept of connection strings used with **SQL Server**. Connection strings have native support in configuration files, including the ability to encrypt the configuration sections for maximum security. This enables you to configure [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] connections at deployment time, and not hard code in your application to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
 
 <a name="Create"></a> 
 
 ## Create a connection string
 
- You specify the connection string in the app.config or web.config file for your project, as shown in the following example.  
+ You specify the connection string in the `app.config` or `web.config` file for your project, as shown in the following example.  
 
 ```xml  
 <connectionStrings>  
@@ -39,7 +38,8 @@ With [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, XRM to
 ```  
 
 > [!IMPORTANT]
->  If you add any sensitive information to the app.config or web.config file, for example an account password, be sure to take appropriate security precautions to protect the information.  
+
+> If you add any sensitive information to the `app.config` or `web.config` file, for example an account password, be sure to take appropriate security precautions to protect the information.  
 
  After creating the connection string, you use it to create a <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> object.  
 
@@ -50,9 +50,13 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 ```  
 
 > [!NOTE]
+
 >  You’ll have to use the following `using` directive in your code to reference the `System.Configuration` namespace to access the connection string in your code: `using System.Configuration;`  
 
  After creating a <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> object, you can use the object to perform actions in Dynamics 365 for Customer Engagement apps. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use XRM Tooling to execute actions in Dynamics 365 for Customer Engagement apps](use-xrm-tooling-execute-actions.md)  
+
+> [!NOTE]
+> In this documentation release, the connection string documentation that is common to [!INCLUDE[pn_dynamics_365](../includes/pn-dynamics-365.md)] deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to implementing connection strings for an on-premises or Internet Facing Deployment. To learn about connection string, start by reading the connection string [documentation](/powerapps/developer/common-data-service/apply-business-logic-with-code) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
 
 <a name="Parameters"></a>
 
@@ -89,37 +93,43 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 ### Integrated on-premises authentication  
 
 ```xml
-<add name="MyCRMServer" connectionString="AuthType=AD;Url=http://contoso:8080/Test;" />  
+<add name="MyCRMServer" 
+connectionString="AuthType=AD;
+Url=http://contoso:8080/Test;" />  
 ```  
 
 ### Named account using on-premises authentication  
 
 ```xml  
-<add name="MyCRMServer" connectionString="AuthType=AD;Url=http://contoso:8080/Test; Domain=CONTOSO; Username=jsmith; Password=passcode" />  
-```  
-
-### Named account using Office 365  
-
-```xml
-<add name="MyCRMServer" connectionString="AuthType=Office365;Username=jsmith@contoso.onmicrosoft.com; Password=passcode;Url=https://contoso.crm.dynamics.com"/>  
-```  
-
-### OAuth using named account in Office 365 with UX to prompt for authentication  
-
-```xml
-<add name="MyCRMServer" connectionString="AuthType=OAuth;Username=jsmith@contoso.onmicrosoft.com; Password=passcode;Url=https://contosotest.crm.dynamics.com;AppId=<GUID>;RedirectUri =app://<GUID>;TokenCacheStorePath =c:\MyTokenCache;LoginPrompt=Auto"/>  
+<add name="MyCRMServer"
+connectionString="AuthType=AD;
+Url=http://contoso:8080/Test;
+Domain=CONTOSO;
+Username=jsmith;
+Password=passcode" />  
 ```  
 
 ### OAuth using named account in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] on-premises with UX to prompt for authentication  
 
 ```xml
-<add name="MyCRMServer" connectionString="AuthType=OAuth;Username=jsmith@contoso.onmicrosoft.com; Password=passcode;Url=https://contoso:8080/Test;AppId=<GUID>;RedirectUri=app://<GUID>;TokenCacheStorePath =c:\MyTokenCache;LoginPrompt=Auto"/>  
+<add name="MyCRMServer"
+connectionString="AuthType=OAuth;
+Username=jsmith@contoso.onmicrosoft.com;
+Password=passcode;
+Url=https://contoso:8080/Test;AppId=<GUID>;
+RedirectUri=app://<GUID>;
+TokenCacheStorePath =c:\MyTokenCache;LoginPrompt=Auto"/>  
 ```  
 
 ### IFD using a named account with delegation to a sub realm  
 
 ```xml
-<add name="MyCRMServer" connectionString="AuthType=IFD;Url=http://contoso:8080/Test; HomeRealmUri=https://server-1.server.com/adfs/services/trust/mex/;Domain=CONTOSO; Username=jsmith; Password=passcode" />  
+<add name="MyCRMServer" 
+connectionString="AuthType=IFD;Url=http://contoso:8080/Test;
+ HomeRealmUri=https://server-1.server.com/adfs/services/trust/mex/;
+Domain=CONTOSO; 
+Username=jsmith; 
+Password=passcode" />  
 ```  
 
 <a name="ConnectionStatus"></a>
@@ -130,7 +140,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 
 ### See also
 
- [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)   
- [Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement apps](use-crmserviceclient-constructors-connect.md)   
- [Use XRM Tooling to execute actions in Dynamics 365 for Customer Engagement apps](use-xrm-tooling-execute-actions.md)   
+ [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)
+ [Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement apps](use-crmserviceclient-constructors-connect.md)
+ [Use XRM Tooling to execute actions in Dynamics 365 for Customer Engagement apps](use-xrm-tooling-execute-actions.md)
  <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>

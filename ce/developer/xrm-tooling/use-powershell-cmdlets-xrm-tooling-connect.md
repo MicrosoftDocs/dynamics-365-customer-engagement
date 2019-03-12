@@ -2,7 +2,7 @@
 title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to use Powershell cmdlets for XRM tooling like Get-CrmConnection and Get-CrmOrganizations to connect to Dynamics 365 for Customer Engagement and retrieve organizations that the current user has access to"
 ms.custom: 
-ms.date: 05/10/2018
+ms.date: 03/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,9 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 81816457-c963-46ca-b350-615fa75f56a7
 caps.latest.revision: 27
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -24,9 +23,9 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-XRM tooling provides you with the following [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] cmdlets that you can use to connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps and retrieve organizations that the current user has access to: `Get-CrmConnection` and `Get-CrmOrganizations`.  
+XRM tooling provides you with the following Windows PowerShell cmdlets that you can use to connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps and retrieve organizations that the current user has access to: `Get-CrmConnection` and `Get-CrmOrganizations`.  
   
-<a name="Prereq"></a>   
+<a name="Prereq"></a> 
 
 ## Prerequisites  
   
@@ -38,7 +37,7 @@ XRM tooling provides you with the following [!INCLUDE[pn_PowerShell](../../inclu
 
 ## Register the cmdlets  
 
- Before you can use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets, you have to register them. The XRM tooling PowerShell cmdlets are available as a NuGet package here: [https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell/). To download and register the cmdlets: 
+ Before you can use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets, you have to register them. The XRM tooling PowerShell cmdlets are available as a NuGet package here: [https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell/). To download and register the cmdlets:
   
 1. Open notepad, and copy the following script:
 
@@ -72,8 +71,8 @@ XRM tooling provides you with the following [!INCLUDE[pn_PowerShell](../../inclu
     ##
     Remove-Item nuget.exe
   
-2. Save the notepad file as batch file on your computer: **GetTools.bat**.
-3. Navigate to the folder where you saved the file, for example C:\SDK, and double-click the **GetTools.bat** file to run the script. This will create a Tools\XRMToolingPowerShell folder in the same location as your **GetTools.bat** file. The Tools\XRMToolingPowerShell folder contains the `RegisterXRMTooling.ps1` script to register the cmdlets, and other associated files.
+2. Save the notepad file as batch file on your computer **GetTools.bat**.
+3. Navigate to the folder where you saved the file, for example `C:\SDK`, and double-click the **GetTools.bat** file to run the script. This will create a `Tools\XRMToolingPowerShell` folder in the same location as your **GetTools.bat** file. The `Tools\XRMToolingPowerShell` folder contains the `RegisterXRMTooling.ps1` script to register the cmdlets, and other associated files.
 4. Start [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] on your computer with elevated privileges (run as administrator).  
   
 5. At the prompt, change your directory to the folder that contains the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] script for registering the cmdlets. For example:  
@@ -93,28 +92,23 @@ XRM tooling provides you with the following [!INCLUDE[pn_PowerShell](../../inclu
 ```powershell
 Get-Help “Crm”  
 ```  
-  
+ 
+> [!NOTE]
+> In this documentation release, the PowerShell cmdlets documentation that is common to [!INCLUDE[pn_dynamics_365](../includes/pn-dynamics-365.md)] deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to PowerShell cmdlets for an on-premises or Internet Facing Deployment. To learn about PowerShell cmdlets for on-line, start by reading the connection string [documentation](/powerapps/developer/common-data-service/apply-business-logic-with-code) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
+
 <a name="RetrieveOrgs"></a>   
 
 ## Use the cmdlet to retrieve organizations from [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps 
 
  Use the `Get-CrmOrganizations` cmdlet to retrieve the organizations that you have access to.  
   
-1. Provide your credentials to connect to your [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] or [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and it will be stored in the `$Cred` variable.  
+1. Provide your credentials to connect to your [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and it will be stored in the `$Cred` variable.  
   
-   ```powershell  
+ ```powershell
    $Cred = Get-Credential  
    ```  
-2. Use the following command to retrieve your organizations, and store the information in the `$CRMOrgs` variable: 
 
-   - If you’re connecting to the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps instance:  
-  
-       ```powershell  
-       $CRMOrgs = Get-CrmOrganizations -Credential $Cred -DeploymentRegion NorthAmerica –OnlineType Office365  
-       ```  
-  
-       > [!NOTE]
-       >  For the `DeploymentRegion` parameter, valid values are `NorthAmerica`, `EMEA`, `APAC`, `SouthAmerica`, `Oceania`, `JPN`, `CAN`, `IND`, and `NorthAmerica2`. For the `OnlineType` parameter, specify `Office365`.
+2. Use the following command to retrieve your organizations, and store the information in the `$CRMOrgs` variable:
   
    - If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] server:  
   
@@ -165,15 +159,6 @@ Get-Help “Crm”
 ### Connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps by specifying credentials inline  
   
 1. To connect to Dynamics 365 for Customer Engagement apps, use the following commands. Note that these commands use the `$Cred` variable created earlier to store the credential while retrieving the organizations. The connection information is stored in the `$CRMConn` variable:
-
-   - If you’re connecting to the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps instance:  
-  
-     ```powershell  
-     $CRMConn = Get-CrmConnection -Credential $Cred -DeploymentRegion <Deployment region name> –OnlineType Office365 –OrganizationName <OrgName>  
-     ```
-  
-     > [!NOTE]
-     >  For the `DeploymentRegion` parameter, valid values are `NorthAmerica`, `EMEA`, `APAC`, `SouthAmerica`, `Oceania`, `JPN`, `CAN`, `IND` and `NorthAmerica2`. For the `OnlineType` parameter, specify `Office365`. 
   
    - If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] server:  
   

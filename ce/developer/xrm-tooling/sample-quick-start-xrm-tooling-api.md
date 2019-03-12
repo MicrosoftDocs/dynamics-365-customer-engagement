@@ -2,7 +2,7 @@
 title: "Sample: Quick start for XRM Tooling API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: ""
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 03/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,9 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 060d45bb-b7fd-48bd-ab8f-629c1b8bc1dc
 caps.latest.revision: 20
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -27,13 +26,6 @@ search.app:
 The QuickStart sample is a [!INCLUDE[pn_Microsoft_.Net_Framework](../../includes/pn-microsoft-net-framework.md)] managed code sample that shows how to connect to a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps instance by using the XRM Tooling APIs, and perform basic create, update, retrieve, and delete operations on an entity. For more information about XRM Tooling, see [Build windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md).
 
 Download the sample: [Work with XRM Tooling API](https://code.msdn.microsoft.com/XRM-Tooling-Sample-24a5c55c)
-
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
-  
-## Requirements
-
- This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps.
 
 ## Demonstrates
 
