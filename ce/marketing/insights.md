@@ -2,7 +2,7 @@
 title: "Analyze marketing results and gain insights (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 for Marketing"
 keywords: insights;results;KPIs;analytics
-ms.date: 02/01/2019
+ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -215,7 +215,7 @@ To view marketing page insights, go to **Marketing** > **Internet marketing** > 
 
 Here you can find a complete history of how various contacts have interacted with the page and the submissions made using it.
 
-Because you can reuse each marketing page in several different journeys, the [filter (#filter) controls for page insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the page was used. As with most other entities, you can also filter marketing page insights by date range.
+Because you can reuse each marketing page in several different journeys, the [filter](#filter) controls for page insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the page was used. As with most other entities, you can also filter marketing page insights by date range.
 
 Marketing pages provide the following [categories](#categories) on the **Insights** tab: <!-- note: this isn't working right now; verify and update as needed when it's up -->
 
