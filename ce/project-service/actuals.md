@@ -27,7 +27,7 @@ search.app:
 
 Actuals are the amount of work that has been completed on a project. In Microsoft Dynamics 365 for Project Service Automation (PSA), project actuals can be traced back to their source documents. Those source documents include time, expense, and journal entries, and also invoices.
 
-> ![How project actuals are traced to source documents](media/basic-guide-18.png)
+![How project actuals are traced to source documents](media/basic-guide-18.png)
 
 ## Submitting a time entry
 
@@ -37,13 +37,11 @@ Logic for entering default prices resides on the journal line. All the field val
 
 The fields that affect default prices, such as **Role** and **Org Unit**, cause an appropriate price to be entered by default on the journal line. If you add a custom field on the time entry, and you want the field value to be propagated to actuals, create the field on the Actuals entity, and use field mappings to copy the field from the time entry to the actual.
 
-
 ## Submitting an expense entry
 
 In PSA, when an expense entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created. One line is for cost, and the other line is for unbilled sales. When an expense entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost.
 
 Logic for entering default prices for expenses is based on the expense category that is selected on the **Expense entry** page. The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list. However, for the price itself, the amount that the user entered is set directly on the related expense journal lines for cost and sales by default.
-
 
 In the current version of PSA, category-based entry of per-unit default prices on expense entries isn't available.
 
@@ -55,8 +53,8 @@ In PSA, journals let you record cost or revenue in the material, fee, time, expe
 - You must move transaction actuals from another system to PSA.
 - You must record costs that occurred in another system, such as procurement or subcontracting costs.
 
-# Recording actuals based on project events
+## Recording actuals based on project events
 
-PSA records the financial transactions that occur during a project. These transactions are recorded as **actuals**. The following table shows the different types of actuals that are created based on whether the project type is time and material, fixed-price, or internal, or if the project is in the presales stage.
+PSA records the financial transactions that occur during a project. These transactions are recorded as **actuals**. The following table shows the different types of actuals that are created, depending on whether the project is a time-and-materials, fixed-price, or internal project, or is in the presales stage.
 
-> ![Table showing how actuals are recorded](media/advanced-table2.png)
+![Table showing how actuals are recorded](media/advanced-table2.png)
