@@ -94,7 +94,7 @@ Get-Help “Crm”
 ```  
  
 > [!NOTE]
-> In this documentation release, the PowerShell cmdlets documentation that is common to [!INCLUDE[pn_dynamics_365](../includes/pn-dynamics-365.md)] deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to PowerShell cmdlets for an on-premises or Internet Facing Deployment. To learn about PowerShell cmdlets for on-line, start by reading the connection string [documentation](/powerapps/developer/common-data-service/apply-business-logic-with-code) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
+> In this documentation release, the PowerShell cmdlets documentation that is common to on-line deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to PowerShell cmdlets for an on-premises or Internet Facing Deployment. To learn about PowerShell cmdlets for on-line, start by reading the connection string [documentation](/powerapps/developer/common-data-service/apply-business-logic-with-code) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
 
 <a name="RetrieveOrgs"></a>   
 
