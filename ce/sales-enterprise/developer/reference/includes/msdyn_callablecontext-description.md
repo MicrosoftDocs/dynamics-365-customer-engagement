@@ -1,1 +1,1 @@
-List of entities for which a playbook can be created.
+Record types that Playbook can be applied to.
