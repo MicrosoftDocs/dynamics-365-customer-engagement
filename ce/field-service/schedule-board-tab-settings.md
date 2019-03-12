@@ -42,6 +42,16 @@ There are three ways to access a particular schedule board's tab settings:
 
 who can access schedule board tab settings?
 
+dispatchers can edit schedule board tab settings for schedule boards they create or are shared with them
+
+field technicians can edit schedule board tab settings for schedule boards they create or are shared with them
+
+fs admin cannot edit sb tab setttings of tabs they did not create even if shared with everyone
+
+fs admin, dispatchers, and resource role users can only edit sb tab settings of tabs they create or are shared with them specifically
+
+system administrators can view and edit all sb tab settings for all non private (boards where shared with is not "Just Me") schedule board tabs
+
 Name:
 
 Shared With:
