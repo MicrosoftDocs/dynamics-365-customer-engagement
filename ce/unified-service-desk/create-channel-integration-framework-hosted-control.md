@@ -22,10 +22,12 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange: '>= dynamics-usd-4'
+monikerRange: '>= dynamics-usd-4.1'
 ---
 
-# Create a Channel Integration Framework hosted control
+# Preview: Create a Channel Integration Framework hosted control
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
@@ -56,4 +58,4 @@ monikerRange: '>= dynamics-usd-4'
 ## See also
 
 - [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md)
-- [Integrate channel provider using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
+- [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)

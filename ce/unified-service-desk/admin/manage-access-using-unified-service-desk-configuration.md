@@ -67,7 +67,7 @@ search.app:
   
 5. On the **New Configuration** page, type the name of the configuration.
 
-6. In the text box of the **Configuration Cache Version** field, enter an alphanumeric value as the cache key, and then select **Save**. <br>For example, the alphanumeric value can be updated as **XY12**. To learn more about Configuration Cache Version, see [Set Configuration Cache Version](set-configuration-cache-version.md).
+6. In the text box of the **Configuration Cache Version** field, enter an alphanumeric value as the cache key, and then select **Save**. <br>For example, the alphanumeric value can be updated as **XY12**. To learn more about Configuration Cache Version, see [Cache specific configuration for agents](set-configuration-cache-version.md).
   
 7. After the new configuration is saved, on the nav bar, select the down arrow next to the configuration name. This shows the components that can be added to a configuration.  
   
@@ -179,4 +179,4 @@ search.app:
 
  [Unified Service Desk Configuration Walkthroughs](../../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
 
- [Set Configuration Cache Version](set-configuration-cache-version.md)
+ [Cache specific configuration for agents](set-configuration-cache-version.md)

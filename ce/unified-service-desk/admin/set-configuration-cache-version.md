@@ -1,6 +1,6 @@
 ---
-title: "Set Configuration Cache Version in the configuration of Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Learn how set Configuration Cache Version in the configuration of Unified Service Desk for Dynamics 365 for Customer Engagement apps."
+title: "Cache specific configuration for agents in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "Learn how Cache specific configuration for agents in the configuration of Unified Service Desk for Dynamics 365 for Customer Engagement apps."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 03/01/2019
@@ -22,11 +22,16 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+monikerRange : '>= dynamics-usd-4.1'
 ---
 
-# Preview: Set Configuration Cache Version
+# Preview: Cache specific configuration for agents
 
-The **Configuration Cache Version** option causes the client caching feature to retrieve the configuration that has undergone change from the Dynamics 365 for Customer Engagement server to the agent’s desktop. This helps to improve the startup performance of Unified Service Desk.
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+The Configuration Cache Version option causes the client caching feature to retrieve the configuration that has undergone change from the Customer Engagement server to the agent’s desktop and avoid retrieving all configurations.
+
+Your organization may have several departments and a each department has a configuration with agents added to those configurations. Whenever you make a change to one of those configurations, the **Configuration Cache Version** feature helps to download only that specific configuration for which you've made a change. Also, when the agents assigned to other configurations, sign in to the client application, the feature doesn't download the configurations thus improves the startup time of Unified Service Desk. This is also helpful in better application life cycle management for Unified Service Desk in cases where your organization want to make changes in your pilot or developer configurations without impacting the production users.
 
 > [!div class=mx-imgBorder]
 > ![Configuration Cache Version option in new configuration page with an example value](../media/configuration-cache-version.PNG "Configuration Cache Version option with an example value")

@@ -523,19 +523,6 @@
       href: sample-detect-solution-dependencies.md
     - name: Publish your app on AppSource
       href: publish-app-appsource.md
-      items:
-      - name: 'Step 1: Fill the app submission form on AppSource'
-        href: fill-app-submission-form-appsource.md
-      - name: 'Step 2: Register for Microsoft Partner Network account'
-        href: register-microsoft-partner-network.md
-      - name: 'Step 3: Create a managed solution for your app'
-        href: create-solution-app-appsource.md
-      - name: 'Step 4: Create an AppSource package for your app'
-        href: create-package-app-appsource.md
-      - name: 'Step 5: Store your AppSource package on Azure Storage'
-        href: store-appsource-package-azure-storage.md
-      - name: 'Next steps: Submit your app on Cloud Partner Portal'
-        href: next-steps-submit-app-cloud-partner-portal.md
   - name: Create and manage custom business apps using code
     href: create-manage-custom-business-apps-using-code.md
   - name: Extend Outlook Client
@@ -1029,8 +1016,6 @@
   items:
   - name: Administer the deployment using the deployment web service
     href: deployment-service/
-  - name: Disaster recovery
-    href: disaster-recovery-online-customer-engagement.md
   - name: Sample data
     href: sample-data.md
     items:
