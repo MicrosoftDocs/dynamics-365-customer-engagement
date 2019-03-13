@@ -54,20 +54,19 @@ There are three ways to access a particular schedule board's tab settings:
 > ![Screenshot of Tab settings - map settings](./media/tab-settings-map-settings.png)
 
 
-**Open Default Settings** - Lets you choose the default tab settings when new Schedule Boards are created. When values in a particular Schedule Board Tab Setting display **< Default View >**, this means the value is coming from the default tab settings. As in the image below, when the **Open Default Settings** button is selected, the **< Default View >** values are replaced by the actual values and you are now editing default schedule board tab settings.
+**Open Default Settings:** Lets you choose the default tab settings when new Schedule Boards are created. When values in a particular Schedule Board Tab Setting display **< Default View >**, this means the value is coming from the default tab settings. As in the image below, when the **Open Default Settings** button is selected, the **< Default View >** values are replaced by the actual values and you are now editing default schedule board tab settings.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Default Tab settings](./media/schedule-board-tab-settings-default.png)
 
-**Reset to Default** - Selecting this button will reset the current tab setting values to the values outlined in the default settings.
+**Reset to Default:** Selecting this button will reset the current tab setting values to the values outlined in the default settings.
 
 ## General
 
 ### Map Settings
 
 The Map Settings section allows you specify the placement of the map and the views displayed when selecting or hovering over map records.
-
 
  
 **Map View Tab Placement**
@@ -118,11 +117,20 @@ This view dictates the fields displayed in the details pane when an organization
 > ![Screenshot of Organizational Unit Details View](./media/organizational-unit-details-view.png)
  
 
+### Custom Web Resource
 
+Web resources represent files that can be used to extend the Microsoft Dynamics 365 web application such as html files, JavaScript, and Silverlight applications. This section allows you to utilize web resources from the schedule board, which can help dispatchers perform more functions and increase utilization. 
+
+**Tab Name:** The chosen web resource will be displayed in the details pane on the right-hand side of the schedule board. A new tab with the name entered here will appear next to the alerts tab. In the example image below, "Web Resource" was entered for the tab name.
+
+**Web Resource:** Select a web resource from your dynamics 365 organization.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Organizational Unit Details View](./media/schedule-board-tab-settings-web-resource.png)
 
 
 ## Configuration considerations
-- map requirements affected by territory filter
+
 
 
 ## Additional Notes
