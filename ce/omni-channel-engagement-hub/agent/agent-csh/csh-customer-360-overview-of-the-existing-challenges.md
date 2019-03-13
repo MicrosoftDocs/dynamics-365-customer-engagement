@@ -57,7 +57,7 @@ If the customer signs in to the portal to initiate a chat with the support, then
 
 ![Authenticated chat shows as Yes in the visitor details tab of Conversation summary](../../media/conversation-summary-authenticated-chat.PNG "Authenticated chat shows as Yes in the visitor details tab of Conversation summary") ![Unauthenticated chat shows as Yes in the visitor details tab of Conversation summary](../../media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shows as Yes in the visitor details tab of Conversation summary")
 
-To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings)
+To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md)
 
 ## Issue snapshot
 
