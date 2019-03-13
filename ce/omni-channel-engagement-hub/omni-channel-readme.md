@@ -21,7 +21,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 The topic explains the known issues and limitations of Omni-channel Engagement Hub.
 
-## Conversation from Omni-channel agent dashboard 
+## Conversation does not open as session or as a form 
 When you use Omni-channel Engagement Hub with Unified Service Desk and use **IE Process** to host web applications, opening a conversation (work item) from the Omni-channel agent dashboard doesn't open as a session or as a form in the application management toolbar.
 
 ### Workaround
