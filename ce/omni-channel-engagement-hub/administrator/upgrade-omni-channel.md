@@ -15,14 +15,14 @@ ms.custom:
 
 # Upgrade Omni-channel Engagement Hub
 
-Upgrade to the latest version of Omni-channel Engagement Hub app to unlock and benefit from new features. You can now upgrade **Omni-channel Engagement Hub – Chat Package for Dynamics 365** from version 1.3.0.9 to version 1.4.0.26 from **Dynamics 365 Admin Center**.
+Upgrade to the latest version of Omni-channel Engagement Hub app to unlock the benefits of new features. You can now upgrade to the latest version of **Omni-channel Engagement Hub – Chat Package for Dynamics 365** from **Dynamics 365 Admin Center**.
 
 For more information, see [Manage updates in Dynamics 365](../../admin/manage-updates.md).
 
 Follow these steps to upgrade your Omni-channel package.
 
 > [!IMPORTANT]
-> Before you upgrade the Omni-channel package, ensure that you have the latest version of Omni-channel Engagement Hub – Customer Service Hub. </br> More information: [User Guide (Customer Service Hub)](../../customer-service/user-guide-customer-service-hub.md)
+> Before you upgrade the Omni-channel package, ensure that you have the latest version of **Omni-channel Engagement Hub – Customer Service Hub**. </br> </br> In case you don't have the latest version, you must also upgrade **Omni-channel Engagement Hub – Customer Service Hub** from Admin Center to ensure seamless agent experience. More information: [Omni-channel Engagement Hub for agent using Customer Service Hub app](../agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
 
 1. Go to [Dynamics 365 Admin Center](https://portal.office.com/adminportal/home#/homepage).
 2. Select **Instances**. Go to **Omni-channel Engagement Hub – Chat Package for Dynamics 365** in the **Manage your solutions** section.
@@ -30,9 +30,6 @@ Follow these steps to upgrade your Omni-channel package.
 
     > [!div class=mx-imgBorder] 
     > ![Upgrade Omni-channel](../media/upgrade-omnichannel.png)
-
-> [!NOTE]
-> You must also upgrade **Omni-channel Engagement Hub – Customer Service Hub** from Admin Center to ensure seamless agent experience. More information: [Omni-channel Engagement Hub for agent using Customer Service Hub app](../agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
 
 
 ### See also
