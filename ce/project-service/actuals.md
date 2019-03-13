@@ -55,6 +55,268 @@ In PSA, journals let you record cost or revenue in the material, fee, time, expe
 
 ## Recording actuals based on project events
 
-PSA records the financial transactions that occur during a project. These transactions are recorded as **actuals**. The following table shows the different types of actuals that are created, depending on whether the project is a time-and-materials, fixed-price, or internal project, or is in the presales stage.
+PSA records the financial transactions that occur during a project. These transactions are recorded as **actuals**. The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.
 
-![Table showing how actuals are recorded](media/advanced-table2.png)
+**The resource belongs to same organizational unit as the project's contracting unit**
+
+<table>
+<thead>
+<tr>
+<th rowspan="3">Event</th>
+<th colspan="4">Billable or sold project</th>
+<th rowspan="3">Project in the presales stage</th>
+<th rowspan="3">Internal project</th>
+</tr>
+<tr>
+<th colspan="2">Time and materials</th>
+<th colspan="2">Fixed price</th>
+</tr>
+<tr>
+<th>Actuals</th>
+<th>Transaction currency</th>
+<th>Fixed price</th>
+<th>Transaction currency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A time entry is created.</td>
+<td colspan="6">No activity in the Actuals entity</td>
+</tr>
+<tr>
+<td>A time entry is submitted.</td>
+<td colspan="6">No activity in the Actuals entity</td>
+</tr>
+<tr>
+<td rowspan="2">Time is approved, and no change to or increase in billable hours occurs during approval.</td>
+<td>Cost actual</td>
+<td>Contracting unit currency</td>
+<td rowspan="2">Cost actual</td>
+<td rowspan="2">Contracting unit currency
+<td rowspan="2">Cost actual</td>
+<td rowspan="2">Cost actual</td>
+</tr>
+<tr>
+<td>Unbilled sales actual – Chargeable</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="3">Time is approved, and a decrease in billable hours occurs during approval.</td>
+<td>Cost actual</td>
+<td>Contracting unit currency</td>
+<td rowspan="3">Cost actual</td>
+<td rowspan="3">Contracting unit currency</td>
+<td rowspan="3">Cost actual</td>
+<td rowspan="3">Cost actual</td>
+</tr>
+<tr>
+<td>Unbilled sales actual – Chargeable for the new quantity</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Unbilled sales actual – Non-chargeable for the difference</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="2">An invoice is confirmed, and no change to or increase in billable hours occurs.</td>
+<td>Unbilled sales reversal</td>
+<td>Project contract currency</td>
+<td rowspan="2">Billed sales for milestone</td>
+<td rowspan="2">Project contract currency</td>
+<td rowspan="2">Not applicable</td>
+<td rowspan="2">Not applicable</td>
+</tr>
+<tr>
+<td>Billed sales</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="3">An invoice is confirmed, and a decrease in billable hours occurs.</td>
+<td>Unbilled sales reversal</td>
+<td>Project contract currency</td>
+<td rowspan="3">Not applicable</td>
+<td rowspan="3">Not applicable</td>
+<td rowspan="3">Not applicable</td>
+<td rowspan="3">Not applicable</td>
+</tr>
+<tr>
+<td>Billed sales – Chargeable for the new quantity</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Billed sales – Non-chargeable for the difference</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="2">An invoice is corrected to increase the chargeable quantity.</td>
+<td>Billed sales – Reversal</td>
+<td>Project contract currency</td>
+<td rowspan="5">
+<ul>
+<li>Billed sales reversal for milestone</li>
+<li>Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></li>
+</ul>
+</td>
+<td rowspan="5">Project contract currency</td>
+<td rowspan="5">Not applicable</td>
+<td rowspan="5">Not applicable</td>
+</tr>
+<tr>
+<td>Billed sales</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="3">An invoice is corrected to decrease the chargeable quantity.</td>
+<td>Billed sales – Reversal</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Billed sales for the new quantity</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Unbilled sales – Chargeable for the difference</td>
+<td>Project contract currency</td>
+</tr>
+</tbody>
+</table>
+
+**The resource belongs to an organizational unit that differs from the project's contracting unit**
+
+<table>
+<thead>
+<tr>
+<th rowspan="3">Event</th>
+<th colspan="4">Billable or sold project</th>
+<th rowspan="3">Project in the presales stage</th>
+<th rowspan="3">Internal project</th>
+</tr>
+<tr>
+<th colspan="2">Time and materials</th>
+<th colspan="2">Fixed price</th>
+</tr>
+<tr>
+<th>Actuals</th>
+<th>Transaction currency</th>
+<th>Fixed price</th>
+<th>Transaction currency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A time entry is created.</td>
+<td colspan="6">No activity in the Actuals entity</td>
+</tr>
+<tr>
+<td>A time entry is submitted.</td>
+<td colspan="6">No activity in the Actuals entity</td>
+</tr>
+<tr>
+<td rowspan="4">Time is approved, and no change to or increase in billable hours occurs during approval.</td>
+<td>Cost actual</td>
+<td>Contracting unit currency</td>
+<td rowspan="4">Cost actual</td>
+<td rowspan="4">Contracting unit currency</td>
+<td rowspan="4">Cost actual</td>
+<td rowspan="4">Cost actual</td>
+</tr>
+<tr>
+<td>Unbilled sales actual – Chargeable</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Resourcing unit cost</td>
+<td>Resourcing unit currency</td>
+</tr>
+<tr>
+<td>Interorganizational sales</td>
+<td>Contracting unit currency</td>
+</tr>
+<tr>
+<td rowspan="5">Time is approved, and a decrease in billable hours occurs during approval.</td>
+<td>Cost actual</td>
+<td>Contracting unit currency</td>
+<td rowspan="5">Cost actual</td>
+<td rowspan="5">Contracting unit currency</td>
+<td rowspan="5">Cost actual</td>
+<td rowspan="5">Cost actual</td>
+</tr>
+<tr>
+<td>Resourcing unit cost</td>
+<td>Resourcing unit currency</td>
+</tr>
+<tr>
+<td>Interorganizational sales</td>
+<td>Contracting unit currency</td>
+</tr>
+<tr>
+<td>Unbilled sales actual – Chargeable for the new quantity</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Unbilled sales actual – Non-chargeable for the difference</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="2">An invoice is confirmed, and no change to or increase in billable hours occurs.</td>
+<td>Unbilled sales reversal</td>
+<td>Project contract currency</td>
+<td rowspan="2">Billed sales for milestone</td>
+<td rowspan="2">Project contract currency</td>
+<td rowspan="2">Not applicable</td>
+<td rowspan="2">Not applicable</td>
+</tr>
+<tr>
+<td>Billed sales</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="3">An invoice is confirmed, and a decrease in billable hours occurs.</td>
+<td>Unbilled sales reversal</td>
+<td>Project contract currency</td>
+<td rowspan="3">Not applicable</td>
+<td rowspan="3">Not applicable</td>
+<td rowspan="3">Not applicable</td>
+<td rowspan="3">Not applicable</td>
+</tr>
+<tr>
+<td>Billed sales – Chargeable for the new quantity</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Billed sales – Non-chargeable for the difference</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="2">An invoice is corrected to increase the chargeable quantity.</td>
+<td>Billed sales – Reversal</td>
+<td>Project contract currency</td>
+<td rowspan="5">
+<ul>
+<li>Billed sales reversal for milestone</li>
+<li>Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></li>
+</ul>
+</td>
+<td rowspan="5">Project contract currency</td>
+<td rowspan="5">Not applicable</td>
+<td rowspan="5">Not applicable</td>
+</tr>
+<tr>
+<td>Billed sales</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="3">An invoice is corrected to decrease the chargeable quantity.</td>
+<td>Billed sales – Reversal</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Billed sales for the new quantity</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Unbilled sales – Chargeable for the difference</td>
+<td>Project contract currency</td>
+</tr>
+</tbody>
+</table>
