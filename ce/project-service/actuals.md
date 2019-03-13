@@ -27,9 +27,10 @@ search.app:
 
 Actuals are the amount of work that has been completed on a project. In Microsoft Dynamics 365 for Project Service Automation (PSA), project actuals can be traced back to their source documents. Those source documents include time, expense, and journal entries, and also invoices.
 
-> ![How project actuals are traced to source documents](media/basic-guide-18.png)
+![How project actuals are traced to source documents](media/basic-guide-18.png)
 
 ## Submitting a time entry
+
 In PSA, when a time entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created. One line is for cost, and the other line is for unbilled sales. When a time entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost. 
 
 Logic for entering default prices resides on the journal line. All the field values from a time entry are copied to the journal line. These fields include the date of the transaction, the contract line that the project is mapped to, and the currency result in the appropriate price list. 
@@ -52,58 +53,270 @@ In PSA, journals let you record cost or revenue in the material, fee, time, expe
 - You must move transaction actuals from another system to PSA.
 - You must record costs that occurred in another system, such as procurement or subcontracting costs.
 
-## Invoicing
+## Recording actuals based on project events
 
-PSA isn’t designed to be used to invoice customers, because it lacks the following features:
+PSA records the financial transactions that occur during a project. These transactions are recorded as **actuals**. The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.
 
-- Tax information
-- Amounts in other currencies that are converted to the invoicing currency by using correctly configured exchange rates
-- The ability to correctly format an invoice for printing
+**The resource belongs to same organizational unit as the project's contracting unit**
 
-Instead, you should use a financial or accounting system to create a customer-facing invoice that is based on the information from an invoice proposal that is generated in PSA.
+<table>
+<thead>
+<tr>
+<th rowspan="3">Event</th>
+<th colspan="4">Billable or sold project</th>
+<th rowspan="3">Project in the presales stage</th>
+<th rowspan="3">Internal project</th>
+</tr>
+<tr>
+<th colspan="2">Time and materials</th>
+<th colspan="2">Fixed price</th>
+</tr>
+<tr>
+<th>Actuals</th>
+<th>Transaction currency</th>
+<th>Fixed price</th>
+<th>Transaction currency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A time entry is created.</td>
+<td colspan="6">No activity in the Actuals entity</td>
+</tr>
+<tr>
+<td>A time entry is submitted.</td>
+<td colspan="6">No activity in the Actuals entity</td>
+</tr>
+<tr>
+<td rowspan="2">Time is approved, and no change to or increase in billable hours occurs during approval.</td>
+<td>Cost actual</td>
+<td>Contracting unit currency</td>
+<td rowspan="2">Cost actual</td>
+<td rowspan="2">Contracting unit currency
+<td rowspan="2">Cost actual</td>
+<td rowspan="2">Cost actual</td>
+</tr>
+<tr>
+<td>Unbilled sales actual – Chargeable</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="3">Time is approved, and a decrease in billable hours occurs during approval.</td>
+<td>Cost actual</td>
+<td>Contracting unit currency</td>
+<td rowspan="3">Cost actual</td>
+<td rowspan="3">Contracting unit currency</td>
+<td rowspan="3">Cost actual</td>
+<td rowspan="3">Cost actual</td>
+</tr>
+<tr>
+<td>Unbilled sales actual – Chargeable for the new quantity</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Unbilled sales actual – Non-chargeable for the difference</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="2">An invoice is confirmed, and no change to or increase in billable hours occurs.</td>
+<td>Unbilled sales reversal</td>
+<td>Project contract currency</td>
+<td rowspan="2">Billed sales for milestone</td>
+<td rowspan="2">Project contract currency</td>
+<td rowspan="2">Not applicable</td>
+<td rowspan="2">Not applicable</td>
+</tr>
+<tr>
+<td>Billed sales</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="3">An invoice is confirmed, and a decrease in billable hours occurs.</td>
+<td>Unbilled sales reversal</td>
+<td>Project contract currency</td>
+<td rowspan="3">Not applicable</td>
+<td rowspan="3">Not applicable</td>
+<td rowspan="3">Not applicable</td>
+<td rowspan="3">Not applicable</td>
+</tr>
+<tr>
+<td>Billed sales – Chargeable for the new quantity</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Billed sales – Non-chargeable for the difference</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="2">An invoice is corrected to increase the chargeable quantity.</td>
+<td>Billed sales – Reversal</td>
+<td>Project contract currency</td>
+<td rowspan="5">
+<ul>
+<li>Billed sales reversal for milestone</li>
+<li>Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></li>
+</ul>
+</td>
+<td rowspan="5">Project contract currency</td>
+<td rowspan="5">Not applicable</td>
+<td rowspan="5">Not applicable</td>
+</tr>
+<tr>
+<td>Billed sales</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="3">An invoice is corrected to decrease the chargeable quantity.</td>
+<td>Billed sales – Reversal</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Billed sales for the new quantity</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Unbilled sales – Chargeable for the difference</td>
+<td>Project contract currency</td>
+</tr>
+</tbody>
+</table>
 
-Although PSA invoices are intended for customers, they are useful as a second level of approval for sales values that are ready for an actual invoice to the customer. The first level of approval occurs during the approval of time and expense entries. 
+**The resource belongs to an organizational unit that differs from the project's contracting unit**
 
-A PSA invoice is created from a contract or by using an unattended workflow job. Follow these steps to configure an unattended periodic invoice run.
-
-1. Set up invoice schedules on all active contracts.
-2. Go to **Project Service** \> **Settings** \> **Batch jobs**.
-3. Create a batch job and name it **PSA Create Invoices**. The batch job name must include the term "Create Invoices". 
-4. Set the **Job type** to **None**. By default, the **Frequency Daily** and **Is Active** options will be set to **Yes** .
-5. On the new batch job, select **Run Workflow**. In the **Look Up Record** dialog box, you will see the following three workflows:
-
-  - ProcessRunCaller
-  - ProcessRunner
-  - UpdateRoleUtilization
-
-> ![Look Up Record dialog box](media/basic-guide-24.png)
- 
-6. Select **ProcessRunCaller**, and then select **Add**. In the next dialog box, select **OK**. A **Sleep** workflow is followed by a **Process** workflow. You can also select **ProcessRunner** and then select **OK**. In this case, a **Process** workflow is followed by a **Sleep** workflow.
-
-### Backgroun information about the batch jobs
-**ProcessRunCaller** and **ProcessRunner** are the workflows that create invoices. **ProcessRunCaller** calls **ProcessRunner**, which actually creates the invoice. **ProcessRunner** looks at the invoice run dates for contract lines and determines all the contract lines in the system that are due for invoice creation on that day. It then creates the invoices. If contract lines that belong to one contract have invoice run dates that fall on the same day, **ProcessRunner** combines the transactions into one invoice that has two invoice lines. If there are no transactions to create invoices for, **ProcessRunner** skips invoice creation.
-
-After **ProcessRunner** has finished running, it calls **ProcessRunCaller** and specifies the end time. It then closes. **ProcessRunCaller** then starts a timer that runs for 24 hours from the specified end time. At the end of the time, **ProcessRunCaller** closes.
-
-The batch process for creating invoices is a recurrent job. If this batch process is run many times, multiple instances of the job are created and cause errors. Therefore, you should start it only one time. You must restart the job only if it stops running.
- 
-### Making adjustments on a draft PSA invoice
-
-When you create a draft project invoice, all unbilled sales transactions that were created when the time and expense entries were approved are pulled into the invoice. You can make the following adjustments:
-
-- You can delete or edit invoice line details from a draft invoice. 
-- The quantity and prices on an invoice line detail are copied from the related unbilled sales actual. You can edit and adjust the quantity and billing type while the invoice is still in a draft stage.
-- You can add time, expense, and fees directly to a draft invoice as transactions. You can use this feature if the invoice line is mapped to a contract line that allows for these transaction classes.
-
-Select **Confirm** to confirm an invoice. This action is a one-way action that makes the invoice read-only and creates billed sales actuals from each invoice line detail for each invoice line. If the invoice line detail referenced an unbilled sales actual (for example, if the invoice line detail was created from a time or expense entry), the system also reverses the unbilled sales actual. General ledger integration systems can use this reversal to reverse project work in progress (WIP) for accounting purposes.
-
-### Making adjustments on a confirmed PSA invoice
-
-You can correct confirmed PSA invoices. In this case, a new draft invoice is created that includes all the transactions from the original invoice. Because the assumption is that you want to reverse all transactions and quantities from the original invoice, you will see that the quantities on the draft invoice are 0 (zero). You can remove any transactions that don't require corrections from the draft corrective invoice. If you want to reverse or return only a partial quantity, you can edit the **Quantity** field on the correction invoice line detail. By opening the invoice line detail, you can see the original invoice quantity. You can also edit the current invoice quantity so that it's less than or more than the original invoice quantity.
-
-When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created.
-
-If you reduced the quantity, the difference will cause a new unbilled sales actual to be created. For example, if the original billed sales was for eight hours and the corrective invoice line detail has a reduced quantity of six hours, PSA will reverse the original billed sales line and create two new actuals:
-
-- A billed sales actual for six hours.
-- An unbilled sales actual for the remaining two hours. This transaction can then be billed later or marked non-chargeable, as negotiated with the customer.
+<table>
+<thead>
+<tr>
+<th rowspan="3">Event</th>
+<th colspan="4">Billable or sold project</th>
+<th rowspan="3">Project in the presales stage</th>
+<th rowspan="3">Internal project</th>
+</tr>
+<tr>
+<th colspan="2">Time and materials</th>
+<th colspan="2">Fixed price</th>
+</tr>
+<tr>
+<th>Actuals</th>
+<th>Transaction currency</th>
+<th>Fixed price</th>
+<th>Transaction currency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A time entry is created.</td>
+<td colspan="6">No activity in the Actuals entity</td>
+</tr>
+<tr>
+<td>A time entry is submitted.</td>
+<td colspan="6">No activity in the Actuals entity</td>
+</tr>
+<tr>
+<td rowspan="4">Time is approved, and no change to or increase in billable hours occurs during approval.</td>
+<td>Cost actual</td>
+<td>Contracting unit currency</td>
+<td rowspan="4">Cost actual</td>
+<td rowspan="4">Contracting unit currency</td>
+<td rowspan="4">Cost actual</td>
+<td rowspan="4">Cost actual</td>
+</tr>
+<tr>
+<td>Unbilled sales actual – Chargeable</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Resourcing unit cost</td>
+<td>Resourcing unit currency</td>
+</tr>
+<tr>
+<td>Interorganizational sales</td>
+<td>Contracting unit currency</td>
+</tr>
+<tr>
+<td rowspan="5">Time is approved, and a decrease in billable hours occurs during approval.</td>
+<td>Cost actual</td>
+<td>Contracting unit currency</td>
+<td rowspan="5">Cost actual</td>
+<td rowspan="5">Contracting unit currency</td>
+<td rowspan="5">Cost actual</td>
+<td rowspan="5">Cost actual</td>
+</tr>
+<tr>
+<td>Resourcing unit cost</td>
+<td>Resourcing unit currency</td>
+</tr>
+<tr>
+<td>Interorganizational sales</td>
+<td>Contracting unit currency</td>
+</tr>
+<tr>
+<td>Unbilled sales actual – Chargeable for the new quantity</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Unbilled sales actual – Non-chargeable for the difference</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="2">An invoice is confirmed, and no change to or increase in billable hours occurs.</td>
+<td>Unbilled sales reversal</td>
+<td>Project contract currency</td>
+<td rowspan="2">Billed sales for milestone</td>
+<td rowspan="2">Project contract currency</td>
+<td rowspan="2">Not applicable</td>
+<td rowspan="2">Not applicable</td>
+</tr>
+<tr>
+<td>Billed sales</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="3">An invoice is confirmed, and a decrease in billable hours occurs.</td>
+<td>Unbilled sales reversal</td>
+<td>Project contract currency</td>
+<td rowspan="3">Not applicable</td>
+<td rowspan="3">Not applicable</td>
+<td rowspan="3">Not applicable</td>
+<td rowspan="3">Not applicable</td>
+</tr>
+<tr>
+<td>Billed sales – Chargeable for the new quantity</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Billed sales – Non-chargeable for the difference</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="2">An invoice is corrected to increase the chargeable quantity.</td>
+<td>Billed sales – Reversal</td>
+<td>Project contract currency</td>
+<td rowspan="5">
+<ul>
+<li>Billed sales reversal for milestone</li>
+<li>Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></li>
+</ul>
+</td>
+<td rowspan="5">Project contract currency</td>
+<td rowspan="5">Not applicable</td>
+<td rowspan="5">Not applicable</td>
+</tr>
+<tr>
+<td>Billed sales</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td rowspan="3">An invoice is corrected to decrease the chargeable quantity.</td>
+<td>Billed sales – Reversal</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Billed sales for the new quantity</td>
+<td>Project contract currency</td>
+</tr>
+<tr>
+<td>Unbilled sales – Chargeable for the difference</td>
+<td>Project contract currency</td>
+</tr>
+</tbody>
+</table>
