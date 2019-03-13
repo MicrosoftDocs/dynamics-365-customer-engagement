@@ -36,13 +36,17 @@ Configure notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-uni
   
  Notifications can be global or session-based. Global notifications are displayed outside of a session and will hide only if it times out or is explicitly closed by the user. Session-based notifications appear only within a session, and switching to another session will hide the notification. Switching back to the session with notification displays the notification again until it times out or is explicitly closed by the user.
 
-::: moniker range="dynamics-usd-3"
+::: moniker range="<=dynamics-usd-4"
+
+## Navigate on the notifications using keyboard shortcuts
 
 You can use the Alt+1 keys (default) to set your focus on a notification. If there are multiple notifications displayed, you can press Alt+1 repeatedly to cycle through all the active notifications on your screen. To change the default keyboard shortcut keys for notifications, use the new **PopupNavigationShortcut** UII option to specify the shortcut keys of your choice. More information: [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)
 
 ::: moniker-end
 
-::: moniker range="dynamics-usd-4"
+::: moniker range=">=dynamics-usd-4.1"
+
+## Navigate on the notifications using keyboard shortcuts
 
 You can use default keyboard shortcuts to navigate to, shift focus to and from the notifications. To change the default keyboard shortcuts, create the UII option and set the keyboard value of your choice. To learn more, see [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md).
 

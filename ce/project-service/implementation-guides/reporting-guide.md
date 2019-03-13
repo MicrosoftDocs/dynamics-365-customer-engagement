@@ -31,3 +31,6 @@ The PDF link that was previously in this topic has been removed and the content 
 - [Reporting home page](../reports-reporting-dynamics-365-project-service.md)
 - [Dashboards](../reports-dashboards.md)
 - [Working with the Project Service Automation data model](../reports-working-project-service-data-model.md)
+
+> [!NOTE]
+> This topic will be removed in a future documentation update. 

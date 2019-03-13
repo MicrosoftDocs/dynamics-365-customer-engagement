@@ -89,7 +89,7 @@
     items:
     - name: Configure client caching in Unified Service Desk
       href: admin/configure-client-caching-unified-service-desk.md
-    - name: Set Configuration Cache version in configuration (Preview)
+    - name: Cache specific configuration for agents (Preview)
       href: admin/set-configuration-cache-version.md     
     - name: Help improve Unified Service Desk
       href: admin/help-improve-unified-service-desk.md
@@ -127,7 +127,7 @@
       href: admin/import-unified-service-desk-configuration-data.md
     - name: Export Unified Service Desk configuration data
       href: admin/export-unified-service-desk-configuration-data.md
-  - name: Performance enhancement for CRM entity page loads
+  - name: Performance enhancement for loading Customer Engagement app pages
     href: admin/performance-enhancement-CRM-entity-page-loads.md
   - name: Recover Internet Explorer process instance
     href: admin/recover-internet-explorer-process-instance.md
@@ -420,7 +420,7 @@
       href: walkthrough-create-uii-windows-forms-hosted-control.md
     - name: 'Walkthrough: Create a UII WPF Hosted Control'
       href: walkthrough-create-uii-wpf-hosted-control.md
-  - name: Integrate channel provider using Channel Integration Framework
+  - name: Integrate channel using Channel Integration Framework
     href: integrate-channel-provider-channel-integration-framework.md   
     items:
     - name: Create Channel Integration Framework hosted control

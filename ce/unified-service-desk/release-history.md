@@ -2,7 +2,7 @@
 title: "Release history (Unified Service Desk for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "The topic provide release history information for the Unified Service Desk Guide."
 keywords: 
-ms.date: 08/17/2018
+ms.date: 03/07/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 
@@ -32,7 +32,7 @@ search.app:
 # Release history for Unified Service Desk
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
-::: moniker range="dynamics-usd-4"
+::: moniker range="dynamics-usd-4.1"
 
 <a name="Release_4_1"></a> 
 
@@ -42,7 +42,17 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 
 | Topic | Updates |
 |--------------|----------------|
-| [Edge process](edge-process.md) | New topic about hosting web applications using edge process in Unified Service Desk <br><br> New topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md) <br><br> **Note:** This is a preview feature. |
+| [Single Sign On for Unified Service Desk](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk---preview) | New section about Single Sign On (SSO) for Unified Service Desk. <br><br> New section in [Connect to a Dynamics 365 for Customer Engagement apps instance overview](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md). <br><br> **Note:** This is a preview feature.|
+| [Cache specific configuration for agents ](admin/set-configuration-cache-version.md) | New topic about caching specific configurations for the agents. <br><br> New topic under [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md) <br><br> **Note:** This is a preview feature.|
+| [Navigate on the notifications using keyboard shortcuts](configure-notifications-unified-service-desk.md#navigate-on-the-notifications-using-keyboard-shortcuts) | New UII options for navigating on the stack notifications. <br><br> New section under [Configure notifications in Unified Service Desk](configure-notifications-unified-service-desk.md) |
+| [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md) | New topic about hosting web applications using Chrome Process in Unified Service Desk <br><br> New topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md). <br><br> **Note:** This is a preview feature.  |
+| [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md) | New topic about integrating channel using Channel Integration Framework in Unified Service Desk. <br><br> New topic under [Extend Unified Service Desk](extend-unified-service-desk.md).<br><br> **Note:** This is a preview feature. |
+| [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md) | New topic about creating a Channel Integration Framework type of hosted control.<br><br> New topic under [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md).<br><br> **Note:** This is a preview feature. |
+| [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md) | New topic about the predefined UII actions and events of Channel Integration Framework type of hosted control. <br><br> New topic under [Hosted control types and action/event reference](hosted-control-types-action-event-reference.md) <br><br> **Note:** This is a preview feature. |
+| [Use Edge process to host web applications in Unified Service Desk](edge-process.md) | New topic about hosting web applications using Edge Process in Unified Service Desk <br><br> New topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md). <br><br> **Note:** This is a preview feature. |
+::: moniker-end
+
+::: moniker range="dynamics-usd-4"
 
 <a name="Release_4_0"></a> 
 

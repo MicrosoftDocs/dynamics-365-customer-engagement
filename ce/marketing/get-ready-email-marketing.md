@@ -2,7 +2,7 @@
 title: "Maximize email deliverability (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 for Marketing"
 keywords: administration; spam; deliverability; SPF; best practice
-ms.date: 12/17/2018
+ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -96,7 +96,7 @@ When you send email from [!INCLUDE[pn-marketing-business-app-module-name](../inc
 
 _Domain-based Message Authentication, Reporting and Conformance_ ([DMARC](https://dmarc.org/wiki/FAQ)) is a standard that helps email recipients confirm that messages claiming to come from one of your email domains actually came from your organization. This standard helps ensure the authenticity of both your organization's day-to-day email messages and messages sent on your behalf by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. As a result, your messages are much more likely to get through, rather than get flagged as junk. We therefore recommend that all organizations set up DMARC for their domains, including the sending domains used by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
-DMARC builds on the SPF and DKIM standards mentioned previously. In many cases, those are enough, but if you are already using DMARC on your other sending domains (or if you would like to), then you must [contact Microsoft Support](../admin/contact-technical-support.md) for assistance with setting it up for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. 
+DMARC builds on the SPF and DKIM standards mentioned previously. In many cases, those are enough, but if you are already using DMARC on your other sending domains (or if you would like to), then you must  [contact Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance with setting it up for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. 
 
 > [!IMPORTANT]
 > If are using DMARC but fail to integrate [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] into your DMARC configuration, your marketing emails are very likely to be labelled as junk and removed from inboxes by many private domains and most large email providers including Gmail and Outlook.com.
@@ -124,7 +124,7 @@ Once you have all of the relevant email-authentication systems in place, we high
 In a standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] setup, all sender IPs are managed by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] and shared among customers that have similar reputation scores. This lets us manage reputation, balance the send load, and warm up new IPs as needed. However, some organizations prefer to use one or more of their own, dedicated sender IPs, especially if they will be sending very high volumes.
 
 > [!NOTE]
-> Dedicated sender IPs are not part of the standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] subscription agreement, and [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] does not generally recommend them because they introduce extra complexity and expense—and can result reduced deliverability compared to our standard sender IPs. [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] considers applications for dedicated sender IPs on a case-by-case basis, and we can support multiple dedicated sender IPs if needed. If you think your organization could benefit from a dedicated sender IP, please [contact Microsoft Support](../admin/contact-technical-support.md) to find out if you qualify. The main goal of this process is to help you achieve as high a delivery rate as possible. Some of the most important factors to consider when making this decision include:
+> Dedicated sender IPs are not part of the standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] subscription agreement, and [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] does not generally recommend them because they introduce extra complexity and expense—and can result reduced deliverability compared to our standard sender IPs. [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] considers applications for dedicated sender IPs on a case-by-case basis, and we can support multiple dedicated sender IPs if needed. If you think your organization could benefit from a dedicated sender IP, please [contact Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) to find out if you qualify. The main goal of this process is to help you achieve as high a delivery rate as possible. Some of the most important factors to consider when making this decision include:
 > 
 > - How many messages does your organization send each month?
 > - Is your content of high quality and in compliance with all relevant regulations?

@@ -23,24 +23,26 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange: '>= dynamics-usd-4'
+monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Preview: Use Chrome Process to host web application
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Chrome Process browser control hosts your controls in individual Chrome process instances and displays them in tabs in the Unified Service Desk client application. The Chrome Process facilitates predictable and secure page rendering. You can select **Chrome Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
+The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. The Chrome Process is based on **CefSharp**, an open source framework, which uses the chromium core that powers many modern browsers.  More information: [CefSharp](https://cefsharp.github.io/)
 
 The advantages of using the Chrome process hosting method are as follows:
 
 ![Advantages of Chrome Process](media/chrome-process-value-props.PNG "Advantages of Chrome Process")
 
-- Chrome Process is available on different Windows OS server versions (Client and Server).
-- Chrome, like Microsoft Edge, is a modern browser; modern web apps are highly functional and reliable on these browsers.
+- Chrome Process is available on different Windows OS server versions.
+- Chrome Process is highly reliable.
 - Easy configurations to host the applications in Unified Service Desk.
-- Chrome Process is simple and secure.
 - Switch easily from one browser to another for your entire organization.
+- Chrome Process pooling feature that reuses the chrome processes and mimics inline navigation provides enhanced performance and memory optimizations.
+
+You can select **Chrome Process** as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page** , **Channel Integration Framework** and **Standard Web Application** type of hosted controls.
 
 ## Chrome Process settings
 
@@ -92,6 +94,9 @@ When you are creating a new hosted control, you can select **Chrome Process** as
 
 1. Go to directory where you have installed Unified Service Desk and double-click to open the **UnifiedServiceDesk.exe.config** file.
 Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
+  
+  > [!Note] 
+  > To edit the **UnifiedServiceDesk.exe.config** file, you must have the administrator access permissions.
 
 2. Under the `<appSettings>` section add the new key.<br>
 `<add key="GlobalBrowserMode" value="Chrome"/>`
@@ -248,7 +253,7 @@ Agents in your organization require webcam and microphone access according to yo
 
  1. Sign in to Dynamics 365 for Customer Engagement apps.
 
- 2. Go to **Settings** > **Unified Service Desk** > *Options*.
+ 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
  3. On the Active UII Options page, select **+ New**. 
  
@@ -286,7 +291,7 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 1. Sign in to Dynamics 365 for Customer Engagement apps.
 
-2. Go to **Settings** > **Unified Service Desk** > *Options*.
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
 3. On the Active UII Options page, select **+ New**. 
 
@@ -296,6 +301,7 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 6. Select **Save**.
 
+<!--
 ## Render sharper text when using Chrome Process
 
 While using Chrome Process to host web applications in Unified Service Desk if text appears slightly blurred, then add the **ChromeSharpRendering** UII option and set the value as **True**. This option renders the text clearly when using Chrome Process to host web applications in Unified Service Desk. To enable this option, you must add the **ChromeSharpRendering** UII option. To learn more, see [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md). 
@@ -312,11 +318,13 @@ While using Chrome Process to host web applications in Unified Service Desk if t
 
 5. Type **ChromeSharpRendering** for the **Name** field and type True for the **Value** field. 
 
-6. Select **Save**.
+6. Select **Save**. -->
 
 ## Enable close confirmation dialog when using Chrome Process
 
-While using Chrome Process to host web applications in Unified Service Desk if you close any application, the Chrome Process shows a JavaScript confirmation dialog. The message appears as - **Is it OK to leave/reload the page?**. Select **OK** to close or **Cancel** to stay on the Chrome Process application.
+While using Chrome Process to host web applications in Unified Service Desk if you accidentally close any application, even though the application has a close confirmation dialog, the dialog not show for your confirmation and the application closes. To avoid closing the application accidentally, **OnBeforeCloseHandler** UII option is introduced. 
+
+When you enable this UII option and while using Chrome Process to host web applications in Unified Service Desk if you close any application and if the application has a close confirmation dialog, then Chrome Process shows a JavaScript confirmation dialog for you to take an action. The message appears as - **Is it OK to leave/reload the page?**. Select **OK** to close or **Cancel** to stay on the Chrome Process application.
 
 > [!div class=mx-imgBorder]
 > ![The JavaScript confirmation dialog shows the message and options to select OK or cancel](media/chrome-process-close-confirmation-dialog.PNG "Close confirmation dialog")
@@ -347,7 +355,7 @@ Be default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as 
 | Zoom out |`Ctrl` + `OemMinus`| `Ctrl -`|
 | Zoom reset |`Ctrl` + `0`| `Ctrl 0`|
 
-To change the default value, you must add the UII options and provide the character as the value. To learn about the allowed set of charater values, see [Keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields)
+To update additional the keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields)
 
 ### List of zoom control UII options
 
@@ -392,6 +400,9 @@ You can set the default value for individual users using the **UnifiedServiceDes
 1. Go to directory where you have installed Unified Service Desk and double-click to open the **UnifiedServiceDesk.exe.config** file.
 Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
+  > [!Note] 
+  > To edit the **UnifiedServiceDesk.exe.config** file, you must have the administrator access permissions.
+
 2. Under the `<appSettings>` section add the new key.<br>
 `<add key="DefaultZoomLevel" value="<fraction value>"/>`<br> For example: `<add key="DefaultZoomLevel" value="0.3"/>`
 
@@ -413,7 +424,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 ## Limitations
 
-To learn about the limitations of the Edge process, see [Chrome Process limitations](release-notes.md)
+To learn about the limitations of the Chrome Process, see [Chrome Process limitations](release-notes.md)
 
 ## See also
 
