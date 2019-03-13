@@ -23,9 +23,9 @@ When you sign in to Omni-channel Engagement Hub through Unified Service Desk, th
 
  - Omni-channel toolbar
 
- - Session tab management toolbar
+ - Session management toolbar
 
- - Application tab management toolbar
+ - Application management toolbar
 
  > [!div class=mx-imgBorder]
  >![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")  
