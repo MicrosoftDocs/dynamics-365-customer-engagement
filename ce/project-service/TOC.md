@@ -124,4 +124,4 @@
 ### [Find projects with Project Finder mobile](find-next-project-finder-mobile-app.md)
 ### [Project Resource Hub guide](project-resource-hub-users-guide.md)
 ## Notes for developers (app version 2.x)
-### [How to add new custom forms for Opportunity, Quote, Order or Invoice entity](../project-service/developer-guides/how-to-add-custom-qoi-forms-in-v2.x.md)
+### [How to add new custom forms for Opportunity, Quote, Order or Invoice entity](../project-service/developer-guides/add-custom-qoi-forms-v2.x.md)
