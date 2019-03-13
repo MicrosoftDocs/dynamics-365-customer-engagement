@@ -30,7 +30,7 @@ To work around the issue, follow the steps:
 1. Go to `https://<orgURL>.dynamics.com/apps` and select **Unified Service Desk Administrator** app.
 2. In the sitemap, under **Basic Settings**, select **Action Calls**.
 3. Select **+ New**.
-4. In the **New Action Call** page, enter the details.
+4. In the **New Action Call** page, enter the details and then select **Save**.
 
    | Field | Value |
    |-------|-------|
@@ -38,12 +38,10 @@ To work around the issue, follow the steps:
    | Hosted Control | Agent Home Page |
    | Action | RunScript |
    | Data | if(navigator.userAgent.search("Trident") >= 0)<br> {<br> window.top.notifyUSD = function(data)<br>{<br>window.open(data);<br>}<br>} |
-5. Select **Save**.
-6. In the sitemap, under **Basic Settings**, select **Events**.
-7. Select **PageLoadComplete** from the list of events.
-8. In the **PageLoadComplete** page, select **Add Existing Action Call**. **Lookup Records** pane appears on the left.
-9. In the **Lookup Records** pane, enter the name of the action call you want to add. In this case, enter **Open Conversation from Omni-channel Agent Dashboard** in the search box and select the search icon. The action call appears.
-10. Select the **Open Conversation from Omni-channel Agent Dashboard** action call and select **Add**, and then select **Save** to save the event.
+5. In the sitemap, under **Basic Settings**, select **Events**, and select **PageLoadComplete** from the list of events.
+6. In the **PageLoadComplete** page, select **Add Existing Action Call**. **Lookup Records** pane appears on the left.
+7. In the **Lookup Records** pane, enter the name of the action call you want to add. In this case, enter **Open Conversation from Omni-channel Agent Dashboard** in the search box and select the search icon. The action call appears.
+8. Select the **Open Conversation from Omni-channel Agent Dashboard** action call and select **Add**, and then select **Save** to save the event.
 
 Now, if you open the conversation (work item) from the Omni-channel agent dashboard, the conversation opens as a session or as a form in the application management toolbar.
 
