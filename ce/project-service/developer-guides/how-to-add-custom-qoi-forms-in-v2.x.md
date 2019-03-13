@@ -1,6 +1,6 @@
 ---
-title: Add new custom entity forms (Project Service 2.x)
-description: This topic provides information about how to add custom entity forms for Opportunities, Quotes, Orders, or Invoices in Project Service 2.x.
+title: Add new custom entity forms (Project Service Automation 2.x)
+description: This topic provides information about how to add custom entity forms for opportunities, quotes, orders, or invoices in Dynamics 365 for Project Service Automation 2.x.
 author: makk
 manager: kfend
 ms.custom:
@@ -18,41 +18,41 @@ search.app:
     - D365PS
 ---
 
-# Add new custom entity forms (Project Service 2.x)
+# Add new custom entity forms (Project Service Automation 2.x)
 
 ## Type field 
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) relies on the **Type** (**msdyn_ordertype**) field of the Opportunity, Quote, Order, and Invoice entities to distinguish between **Work-based** entities, which are handled by PSA, and other versions (**Item-based** adn **Service-based**) of these entities. There is a lot of business logic on the client and server sides of the solution that depends on the **Type** field and it is important that the field be initialized with correct value when the entity is created. If the field is initialized with the wrong value, it may result in incorrect behaviors and some business logic not being executed correctly.
+Microsoft Dynamics 365 for Project Service Automation (PSA) relies on the **Type** (**msdyn\_ordertype**) field of the Opportunity, Quote, Order, and Invoice entities to distinguish **work-based** versions of these entities from **item-based** and **service-based** versions. Work-based versions of these entities are handled by PSA. Lots of business logic on the client side and server side of the solution depends on the **Type** field. Therefore, it's important that the field be initialized with a correct value when the entities are created. An incorrect value can cause incorrect behaviors, and some business logic might not run correctly.
 
 ## Automatic form switching
 
-To avoid potential data corruption and unexpected behaviors due to the incorrect initialization and edit of the sales entity records, PSA has added automatic form switching logic to out-of-the-box forms. This will navigate users to the correct form for working with **Work-based** or any other type of Opportunity, Quote, Order, and Invoice entities. When the user opens the **Work-based** version of Opportunity, Quote, Order, or Invoice, the form will switch to **Project Information**. The automatic form switching logic relies on the mapping between **formId** and **msdyn_ordertype**. All out-of-the-box forms have been added to that mapping. Custom forms have to be manually added to indicate which version of the entity they are meant to handle. This is based on the **msdyn_ordertype**. If the form switching is missing from the mapping, logic will switch to the out-of-the-box form based on the value that is saved in the **msdyn_ordertype** field of the entity.
+To avoid potential data corruption and unexpected behaviors that are caused by incorrect initialization and editing of the sales entity records, PSA now includes logic for automatic form switching in out-of-box forms. This logic takes users to the correct form for working with the work-based version or any other type of Opportunity, Quote, Order, or Invoice entity. When a user opens the work-based version of an Opportunity, Quote, Order, or Invoice entity, the form is switched to **Project Information**.
 
-## Add custom forms and enable the form switching logic
+## Add custom forms and turn on the form switching logic
 
-The following example shows how to add the custom form, **My Project Information**, for working with **Work-based** opportunities. The same process is used to add custom forms to Quote, Order, and Invoice.
+The following example shows how to add a custom form, **My Project Information**, so that it works with work-based opportunities. The same process is used to add custom forms so that they work with quotes, orders, and invoices.
 
-Complete the following steps to create a custom version of the **Project Information** form.
+Follow these steps to create a custom version of the **Project Information** form.
 
-1. In the Opportunity entity, open the **Project Information** form and save a copy with the name, **My Project Information**.
-2. Open the new form, and in the properties, make sure that the form initialization scripts from the **Project Information** form are there. 
-
-  [!IMPORTANT]
-  > Do not remove the scripts because doing so could cause certain data to be initialized incorrectly.
-
-3. Verify that the field, **Type** (**msdyn_ordertype**) is on the form. 
+1. In the Opportunity entity, open the **Project Information** form and save a copy under the name, **My Project Information**.
+2. Open the new form, and then, in the properties, make sure that the form initialization scripts from the **Project Information** form are present. 
 
   [!IMPORTANT]
-  > Do not remove this field or the initialization scripts will fail.
+  > Do not remove the scripts. Otherwise, some data might be initialized incorrectly.
 
-4. Find the **formId** of the new form. You can do this in one of two ways:
+3. Verify that the **Type** (**msdyn_ordertype**) field is present on the form. 
 
-  - Export the **My Project Information** form as part of an unmanaged solution and lookup **formId** in the customization.xml of the exported solution.
-  - Open the **My Project Information** form in the form editor window and search for the GUID next to the **fromId** parameter in the URL as shown in the following graphic.
+  [!IMPORTANT]
+  > Don't remove this field. Otherwise, the initialization scripts will fail.
 
-  > ![Screenshot about identifying formId of the new form](media/how-to-add-custom-forms-in-v2.0.png)
+4. Find the **formId** value of the new form. You can complete this step in two ways:
 
-5. Create **msdyn_ordertype** mapping for the **formId** by editing the Web resource: ***msdyn_/SalesDocument/PSSalesDocumentCustomFormIds.js***. Remove the code in the resource and replace it with the following code:
+  - Export the **My Project Information** form as part of an unmanaged solution, and then look up the **formId** value in the customization.xml file of the exported solution.
+  - Open the **My Project Information** form in the form editor, and then look for the globally unique identifier (GUID) next to the **fromId** parameter in the URL, as shown in the following illustration.
+
+  > ![The formID value of the new form in the URL](media/how-to-add-custom-forms-in-v2.0.png)
+
+5. Create an **msdyn\_ordertype** mapping for the **formId** value by editing the msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js web resource. Remove the code from the resource, and replace it with the following code.
 
             define(["require", "exports"], function (require, exports) {
             "use strict";
@@ -74,7 +74,7 @@ Complete the following steps to create a custom version of the **Project Informa
                       WorkBased: 192350001 (Project Service version of the entity)
                       ItemBased: 192350000 (Regular out of the box entity)
               
-                  Uncommend and update line below in order to register custom Project Service form for required entity:
+                  Uncomment and update one of the following lines to register custom PSA form for required entity:
                 */		
                     //mappedFormIds[1][192350001].push("<formId>"); //Quote
                     //mappedFormIds[5][192350001].push("<formId>"); //Quote Line
