@@ -109,7 +109,7 @@ and set up a corresponding flow in Microsoft Flow. Follow the detailed steps as 
     > You can get **CSS-Entity.swagger.json** file from Insider portal. 
 
 5. Update the host name in the **General** tab in the following format: </br>
-    *https://**orguniquename**-public.omnichannelengagementhub.com*
+    *https://**orguniquename**-crm.omnichannelengagementhub.com*
 
     You can get **orguniquename** from  [Organization unique name](../../developer/developer-resources-page.md#organization-unique-name).
 
