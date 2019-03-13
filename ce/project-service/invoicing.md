@@ -54,7 +54,7 @@ Follow this step to create an invoice for a specific project contract.
 
 Follow these steps to create invoices in bulk.
 
-1. On the **Project Contracts** list page, select one or more project contracts that you must create an invoice for, and then select **Create Invoice**.
+1. On the **Project Contracts** list page, select one or more project contracts that you must create an invoice for, and then select **Create Project Invoices**.
 
     ![Creating project invoices in bulk](media/CreateProjectInvoicesBulk.png)
 
@@ -78,8 +78,6 @@ Follow these steps to configure an automated invoice run in PSA.
     - ProcessRunCaller
     - ProcessRunner
     - UpdateRoleUtilization
-
-    ![Look Up Record screen](media/basic-guide-24.png)
 
 5. Select **ProcessRunCaller**, and then select **Add**.
 6. In the next dialog box, select **OK**. A **Sleep** workflow is followed by a **Process** workflow.
