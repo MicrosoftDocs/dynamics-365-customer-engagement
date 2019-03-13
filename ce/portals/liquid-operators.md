@@ -34,8 +34,8 @@ Liquid has access to all common logical and comparison operators. These can be u
 | &lt;  | Less than                       |
 | &gt;= | Greater than or equal to        |
 | &lt;= | Less than or equal to           |
-| Or    | Condition A **or** condition B  |
-| And   | Condition A **and** condition B |
+| or    | Condition A **or** condition B  |
+| and   | Condition A **and** condition B |
 
 ## contains
 
