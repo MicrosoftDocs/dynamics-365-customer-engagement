@@ -128,6 +128,13 @@ Web resources represent files that can be used to extend the Microsoft Dynamics 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Organizational Unit Details View](./media/schedule-board-tab-settings-web-resource.png)
 
+### Schedule Board Colors
+
+The colors chosen in this section only apply to the Days, Weeks, and Months views of the schedule board and represent resources' utilization. Utilization is calculated as the hours booked compared to working hours for the schedule board time range. 
+
+In the image below is a Days view of the schedule board where each resource works 12 hours each day and the range is 2 days. 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of schedule board colors](./media/schedule-board-tab-settings-schedule-board-colors.png)
 
 ## Configuration considerations
 
