@@ -44,15 +44,15 @@ When an approval is canceled, there is both operational impact and financial imp
 
 On the operations side, when an approval is canceled, the status of the record is reset to **Draft**, and the approval no longer appears in the **My past approvals** view. Instead, the canceled approval appears in either the **Time entries for approval** view or the **Expense entries for approval** view, depending on whether it was a time entry or an expense entry. Additionally, the status of the related time or expense entry is changed to **Submitted**, so that the related entry is consistent with approvals that have a status of **Draft**.
 
-As an approver, you can edit some of the fields of an approval that has a status of **Draft**. These fields include **Billing Type** and **Billable Hours for Time Entries**. After you make changes, you can approve the record again. Alternatively, you can reject the entry. If you reject the approval of a time entry, the status of the entry is changed to **Returned**. If you reject the approval of an expense entry, the status is changed to **Rejected**. Semantically, both returned and rejected entries behave the same as an entry that has a status of **Draft**. A project team member can either make any required changes to the entry and then resubmit it for approval, or delete the entry entirely.
+As an approver, you can edit some of the fields of an approval that has a status of **Draft**. These fields include **Billing Type** and **Billable Hours for Time Entries**. After you make changes, you can approve the record again. Alternatively, you can reject the entry. If you reject the approval of a time entry, the status of the entry is changed to **Returned**. If you reject the approval of an expense entry, the status is changed to **Rejected**. Functionally, both returned and rejected entries behave the same as an entry that has a status of **Draft**. A project team member can either make any required changes to the entry and then resubmit it for approval, or delete the entry entirely.
 
 ### Financial impact
 
 A project is also affected financially when an approval is canceled. First, the corresponding actuals for cost and sales are updated in the following manner:
 
 - The adjustment status is set to **Adjusted**.
-- The billing status is set to **Cancelled**.
+- The billing status is set to **Canceled**.
 
-Next, reversal entries are created in the Actuals table. To create reversal entries, the system copies over the field values from the original actuals. The only values that aren't copied over are the quantity values. These values are reversed instead. Reversed actuals are created for both **Cost** and **Unbilled Sales** actuals. The **Adjustment Status** field on the reversed actuals is set to **Unadjustable**, and the billing status is set to **Cancelled**.
+Next, reversal entries are created in the Actuals table. To create reversal entries, the system copies over the field values from the original actuals. The only values that aren't copied over are the quantity values. These values are reversed instead. Reversed actuals are created for both **Cost** and **Unbilled Sales** actuals. The **Adjustment Status** field on the reversed actuals is set to **Unadjustable**, and the billing status is set to **Canceled**.
 
 After these changes are made, the amount that is recorded as spent on the project and the revenue backlog on the project will longer account for the amounts that these actuals represent.
