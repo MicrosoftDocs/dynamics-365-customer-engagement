@@ -138,7 +138,6 @@ If you have custom security roles defined in Dynamics 365 for Customer Engagemen
 (O)nline: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)] <br />
 (M)ixed: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], Exchange Server 2013/2016
 
-Note: Dynamics 365 for Customer Engagement apps, version 9 is not available on-premises.
 
 (1) Tracking email in compose mode and tracking appointments requires Exchange Server 2013 CU14 or [!INCLUDE [pn-exchange-server-2016-short](../includes/pn-exchange-server-2016-short.md)]. <br />
 
