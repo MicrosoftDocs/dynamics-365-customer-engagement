@@ -1,5 +1,5 @@
 ---
-title: "Getting started with building a simple communication widget | MicrosoftDocs"
+title: "Get started with building a simple communication widget | MicrosoftDocs"
 description: "Read how to develop and host a simple communication widget in Channel Integration Framework (CIF)."
 keywords: ""
 ms.date: 03/14/2019
@@ -17,9 +17,9 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# Getting started with building a simple communication widget
+# Walkthrough: Get started with building a simple communication widget
 
-In this tutorial we will demonstrate how to build a simple *Hello World!* communication widget that can be hosted on Channel Integration Framework(CIF).
+In this tutorial we will demonstrate how to build a simple *Hello World!* communication widget that can be hosted on Channel Integration Framework (CIF).
 
 ## Pre-requisites
 
