@@ -104,7 +104,7 @@ See the below table to understand how search results are impacted when Relevance
 |Relevance search disabled  |Relevance search enabled  |
 |---------|---------|
 |Considering similarity rules, search is performed across primary field of an entity.  |   Considering attributes configured in similarity rules,  search is performed on entity attributes configured for relevance search.   |
-|For example,  if similarity rules are configured on Title and Category, attribute text is passed separated by comma,  to look for a match in the Case title of case entity.     |  For example,    if similarity rules are configured on Title and Category, and Relevance search is enabled on Description, the search is performed for Title and Category in the Description field of case entity.     |
+|For example,  if similarity rules are configured on Title and Category, comma separated attribute text is passed,  to look for a match in the Case title of case entity.     |  For example,    if similarity rules are configured on Title and Category, and Relevance search is enabled on Description, the search is performed for Title and Category in the Description field of case entity.     |
 |  |         |
 
 ### Enable a field for exact matching of similar cases  
