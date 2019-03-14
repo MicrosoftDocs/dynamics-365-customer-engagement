@@ -7,6 +7,8 @@
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 
+## [What's New](omni-channel-whats-new.md)
+
 ## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
 ### [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
