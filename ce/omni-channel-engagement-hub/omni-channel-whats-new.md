@@ -25,7 +25,7 @@ This topic contains information about updates in Omni-channel Engagement Hub ava
 
 ### Live chat SDK
 
-### Admin simplification Admin simplification 
+### Admin simplification
 
 ### Agent anonymization
 
