@@ -24,7 +24,7 @@ In this tutorial we will demonstrate how to build a simple *Hello World!* commun
 ## Pre-requisites
 
 - Visual Studio 2017
-- Azure subscription
+- A valid Azure subscription is required to publish the sample app to Azure.
 
 > [!Note]
 > If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/).
@@ -33,13 +33,20 @@ In this tutorial we will demonstrate how to build a simple *Hello World!* commun
 
 1. Open Visual Studio 2017, and click on **File** > **New** > **Project** to create a new project.
 2. Select **ASP.NET Web Application(.NET Framework)** template for your project and add any name to it.<br />
+
 ![Select ASP.NET Web Application(.NET Framework)](media/cif-helloworld-new-project.PNG "Select ASP.NET Web Application(.NET Framework)")<br />
-3. Now select **MVC** template for your application and make sure authentication is set to **No Authentication**.<br />
+
+3. Now select **MVC** template for your application and make sure that authentication is set to **No Authentication**.<br />
+
 ![Select MVC template for your application](media/cif-helloworld-select-mvc.PNG "Select MVC template for your application")<br />
+
 You can choose any other template for your ASP.NET application.
-4. Now see the files in the solution explorer. Expand **Views** > **Home**, and open **Index.cshtml** file.<br />
+
+1. Now see the files in the solution explorer. Expand **Views** > **Home**, and open **Index.cshtml** file.<br />
+
 ![Open Index.cshtml file from solution explorer](media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
-5. Now replace the HTML code in the **Index.cshtml** file with the given code.
+
+5. Now replace the HTML code in the **Index.cshtml** file with the code given below.
 
 ```HTML
 <!DOCTYPE html>
@@ -50,7 +57,10 @@ You can choose any other template for your ASP.NET application.
 </body>
 </html>
 ```
-6. Now run this HTML file using Microsoft Edge or Google Chrome to test and debug.<br />The web page should look like this when you run it in your browser.<br />
+6. Now run this HTML file using Microsoft Edge or Google Chrome to test and debug.
+
+The web page should look like this when you run it in your browser.
+
 ![Run app in browser](media/cif-helloworld-run-browser.PNG "Run app in browser")<br />
 
 ## Publish and configure the widget 
@@ -58,6 +68,7 @@ You can choose any other template for your ASP.NET application.
 1. To publish the above sample widget, follow the steps mentioned in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). You may also want to read this Azure tutorial on how to create and publish an ASP.NET web app in Azure: [Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-dotnet-framework).
 
 Once the wizard has published the app on Azure, it provides a Site URL using which you can access your hosted web app.<br />
+
 ![See Site URL of published web app](media/cif-helloworld-site-url.PNG "See Site URL of published web app")<br />
 
 When you click on the site URL, it opens the same web app that we earlier saw while debugging our web app in Visual Studio.
