@@ -92,7 +92,7 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
 
 ## Associate work streams with channels
 
-You can associate work streams with channels so that the conversations can be seamlessly assigned to agents. For a channel, a default work stream is already associated in the **Work stream** field. Select the search icon to associate another work stream. Select **New** to create a new work stream.
+You can associate work streams with channels so that the conversations can be assigned to agents seamlessly. For a channel, a default work stream is already associated in the **Work stream** field. Select the search icon to associate another work stream. Select **New** to create a new work stream.
 
 To learn more about how to set up channels and associate work streams, see the following topics: 
 
