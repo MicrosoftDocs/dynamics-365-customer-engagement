@@ -75,7 +75,7 @@ manager: shujoshi
   |-------|-------|
   |Name|Name of the channel provider.<br><br> Example: Contoso|
   |Label|The label is displayed as the title on the widget.<br><br> Example: Contoso|
-  |Channel URL| The channel URL is in the format: `<azure_app_service_url>?base=<crm_base_url><br /><br />**Note:** In this sample, the URL is `https://sampleinteg.azurewebsites.net?base=https://sampleorg.crm10.dynamics.com`. |
+  |Channel URL| The channel URL is in the format: `<azure_app_service_url>?base=<crm_base_url>`<br /><br />**Note:** For this sample, the URL is `https://sampleinteg.azurewebsites.net?base=https://sampleorg.crm10.dynamics.com`. |
   |Enable Outbound Communication| Yes |
   |Channel Order| 0 |
   |API Version| 1.0 |

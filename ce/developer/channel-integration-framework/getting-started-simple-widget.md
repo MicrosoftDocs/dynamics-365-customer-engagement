@@ -32,6 +32,7 @@ In this tutorial we will demonstrate how to build a simple *Hello World!* commun
 ## Create a simple *Hello World!* application
 
 1. Open Visual Studio 2017, and click on **File** > **New** > **Project** to create a new project.
+
 2. Select **ASP.NET Web Application(.NET Framework)** template for your project and add any name to it.<br />
 
 ![Select ASP.NET Web Application(.NET Framework)](media/cif-helloworld-new-project.PNG "Select ASP.NET Web Application(.NET Framework)")<br />
@@ -42,7 +43,7 @@ In this tutorial we will demonstrate how to build a simple *Hello World!* commun
 
 You can choose any other template for your ASP.NET application.
 
-1. Now see the files in the solution explorer. Expand **Views** > **Home**, and open **Index.cshtml** file.<br />
+4. Now see the files in the solution explorer. Expand **Views** > **Home**, and open **Index.cshtml** file.<br />
 
 ![Open Index.cshtml file from solution explorer](media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
 
@@ -67,13 +68,13 @@ The web page should look like this when you run it in your browser.
 
 1. To publish the above sample widget, follow the steps mentioned in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). You may also want to read this Azure tutorial on how to create and publish an ASP.NET web app in Azure: [Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-dotnet-framework).
 
-Once the wizard has published the app on Azure, it provides a Site URL using which you can access your hosted web app.<br />
+Once the wizard has published the app on Azure, it provides a Site URL using which you can use to access your hosted web app.<br />
 
 ![See Site URL of published web app](media/cif-helloworld-site-url.PNG "See Site URL of published web app")<br />
 
-When you click on the site URL, it opens the same web app that we earlier saw while debugging our web app in Visual Studio.
+When you click on the site URL, it opens the same web app that we saw earlier while debugging our web app in Visual Studio.
 
-2. Then, to configure the widget in your Dynamics 365 instance follow the steps mentioned in [Configure sample app in Dynamics 365](sample-softphone-integration.md#bkmk_Configure).
+2. Then, to configure the widget in your Dynamics 365 instance follow the steps mentioned here: [Configure sample app in Dynamics 365](sample-softphone-integration.md#bkmk_Configure).
 
 Once all the above steps are completed, launch one of the Unified Interface apps that you selected while configuring the widget in CIF to see the communication widget in the side panel on the right side. To launch one of your selected Unified Interface apps, go to `https://[Organization URI]/apps`.
 
