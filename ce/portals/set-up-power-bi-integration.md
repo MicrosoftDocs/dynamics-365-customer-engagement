@@ -29,11 +29,11 @@ Power BI is one of the best tools to deliver insights with simple and interactiv
 > [!NOTE]
 > You must have an appropriate Power BI license.
 
-**Set up Power BI integration**
+## Enable Power BI visualization
 
 1.	Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 
-2.	Select the name of the portal for which you want enable Power BI integration, and then select **Manage**.
+2.	Select the name of the portal for which you want enable Power BI visualization, and then select **Manage**.
 
 3.	Go to **Set up Power BI integration** > **Enable Power BI visualization**.
 
@@ -50,6 +50,14 @@ When Power BI visualization is enabled, the following action becomes available:
 
   > [!div class=mx-imgBorder]
   > ![Disable Power BI visualization](media/disable-power-bi-visualization.png "Disable Power BI visualization")
+
+## Enable Power BI Embedded service
+
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
+2. Select the name of the portal for which you want enable Power BI Embedded service, and then select **Manage**.
+3. Go to **Set up Power BI integration** > **Enable Power BI Embedded service (preview)**.
+4. In the **Enable Power BI Embedded service** window, select and move the Power BI workspaces that need to be displayed in your portal to the **Selected workspaces** list.
+5. Select **Enable**.
 
 ## Privacy notice  
 
