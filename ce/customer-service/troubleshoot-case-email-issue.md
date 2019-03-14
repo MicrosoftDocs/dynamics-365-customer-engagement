@@ -58,6 +58,8 @@ For more information about configuration failure scenarios and resolution for sa
 **Step 5**: Check if the contact and account exist with the same incoming email address. 
 - **Comment**: Case created from incoming email will resolve customer field on case as Account.
 
+**Step 6**: Ensure that the queue email address is in the **To** or **Cc** fields of incoming mails. Emails sent with the queue address in the **Bcc** field will not be processed.
+
 ## Configuration failure scenarios and resolutions
 
 Given below is a list of some common issue scenarios and their resolutions.
