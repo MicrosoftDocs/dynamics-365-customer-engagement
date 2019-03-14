@@ -144,5 +144,9 @@ In the image below is a Days view of the schedule board where each resource work
 
 **Book Based On:** Though booking an on site requirement (typically a work order) will always have a total duration = travel time + requirement duration, this setting changes the schedule assistant visualization to make it easier to understand when travel time starts and when the estimated arrival time is. Set to **Start of Travel** to visualize the booking start as when travel begins. Set to **Estimated Arrival** to visualize the booking start as when the resource is estimated to arrive on site. One consideration is whether the scheduler is communicating with the customer in real time over the phone because customers are typically more interested in when the resource will arrive at their location, and therefore administrators should make it easier for the scheduler to communicate this time by selecting the **Estimated Arrival**.
 
+### Available Color, Partially Available Color, Unavailable Color
+
+
+
 ## Additional Notes
 - moving schedule board tab settings to other orgs 
