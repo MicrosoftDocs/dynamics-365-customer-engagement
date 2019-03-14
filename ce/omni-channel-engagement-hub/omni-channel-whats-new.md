@@ -27,12 +27,16 @@ This topic contains information about updates in Omni-channel Engagement Hub ava
 
 ### Simplified workflows for administrators
 
-With the latest release of Omni-channel, the administrators can quickly associate work streams with channels so that conversations can be assigned to agents seamlessly. 
-More information: Understand and create work streams
-Note: For a channel, a default work stream is already associated in the Work stream field. Select the search icon to associate another work stream. Select New to create a new work stream from within the channel.
+With the latest release of Omni-channel, the administrators can quickly associate work streams with channels so that conversations can be assigned to agents seamlessly. </br>
 
-Use entity channel to route entities from Common Data Service for Apps to the Omni-channel Engagement Hub so that they can be automatically distributed and assigned to agents.
-More information: Configure an entity channel
+For more information, see [Understand and create work streams](administrator/work-streams-introduction.md)
+
+> [!NOTE]
+> For a channel, a default work stream is already associated in the Work stream field. Select the search icon to associate another work stream. Select **New** to create a new work stream from within the channel.
+
+Use entity channel to route entities from **Common Data Service for Apps** to the Omni-channel Engagement Hub so that they can be automatically distributed and assigned to agents.
+
+For more information, see [Configure an entity channel](administrator/create-entity-channel.md)
 
 With an improved sitemap, quickly configure channels, work streams, queues, and routing rules so that the agents can quickly assist customer queries.
 
