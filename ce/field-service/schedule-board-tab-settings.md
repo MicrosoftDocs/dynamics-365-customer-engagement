@@ -142,11 +142,18 @@ In the image below is a Days view of the schedule board where each resource work
 
 **Unavailable Resources:** This setting decides how unavailable resources appear when the schedule assistant is triggered. Set to **Unavailable resources do not appear** to have resources that do not meet schedule assistant filter criteria to temporarily be removed from the view of available resources to schedule to. Set to **Unavailable resources appear dimmed (when searching for resources visible on board)** to have resources that do not meet schedule assistant filter criteria to remain on the schedule board but appear dimmed. For schedule boards with many resources, using the **Unavailable resources do not appear** setting can reduce the need to scroll and make it easier for scheduler to compare available resources.
 
-**Book Based On:** Though booking an on site requirement (typically a work order) will always have a total duration = travel time + requirement duration, this setting changes the schedule assistant visualization to make it easier to understand when travel time starts and when the estimated arrival time is. Set to **Start of Travel** to visualize the booking start as when travel begins. Set to **Estimated Arrival** to visualize the booking start as when the resource is estimated to arrive on site. One consideration is whether the scheduler is communicating with the customer in real time over the phone because customers are typically more interested in when the resource will arrive at their location, and therefore administrators should make it easier for the scheduler to communicate this time by selecting the **Estimated Arrival**.
+**Book Based On:** Though booking an on site requirement (typically a work order) will always have a total duration = travel time + requirement duration, this setting changes the schedule assistant visualization to make it easier to understand when travel time starts and when the estimated arrival time is. Set to **Start of Travel** to visualize the booking start as when travel begins. Set to **Estimated Arrival** to visualize the booking start as when the resource is estimated to arrive on site. One consideration is whether the scheduler is communicating with the customer in real time over the phone because customers are typically more interested in when the resource will arrive at their location, and therefore administrators should make it easier for the scheduler to communicate this time by selecting the **Estimated Arrival**. View this [blog post](https://blogs.msdn.microsoft.com/crm/2018/04/02/whats-new-in-universal-resource-scheduling-for-dynamics-365-april-2018-update/#BookbyETA) for more details.
 
 ### Available Color, Partially Available Color, Unavailable Color
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of schedule assistant colors](./media/schedule-board-tab-settings-schedule-assistant-colors.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of schedule assistant icons](./media/schedule-board-tab-settings-schedule-assistant-icons.png)
 
 ## Additional Notes
 - moving schedule board tab settings to other orgs 
