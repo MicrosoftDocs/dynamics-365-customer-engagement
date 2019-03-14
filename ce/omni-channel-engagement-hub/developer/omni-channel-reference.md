@@ -2,7 +2,7 @@
 title: "JavaScript API Reference for Omni-channel Engagement Hub in Dynamics 365 | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 03/04/2019
+ms.date: 03/14/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -30,7 +30,7 @@ Provides JavaScript methods that you can use to perform various operations with 
 | [getAuthTokenProvider](reference/methods/getAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getAuthTokenProvider-description.md)] |
 | [setAuthTokenProvider](reference/methods/setAuthTokenProvider.md) | [!INCLUDE[setAuthTokenProvider-description](reference/includes/setAuthTokenProvider-description.md)] |
 | [removeAuthTokenProvider](reference/methods/removeAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/removeAuthTokenProvider-description.md)] |
-| [startchat](reference/methods/startChat.md) | [!INCLUDE[startchat-description](reference/includes/startChat-description.md)] |
+| [startChat](reference/methods/startChat.md) | [!INCLUDE[startchat-description](reference/includes/startChat-description.md)] |
 
 ## Events
 

@@ -1,8 +1,8 @@
 ---
-title: "Walkthrough: Send context to Omni-channel when starting a chat | Microsoft Docs"
+title: "Walkthrough: Manage custom context | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 03/04/2019
+ms.date: 03/14/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -12,13 +12,13 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# Walkthrough: Send context to Omni-channel Engagement Hub when starting a chat
+# Walkthrough: Manage custom context
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When a user initiates a chat, you can pass the context to Omni-channel Engagement Hub, which helps decide which agent or queue to route the chat to.
+When a user initiates a chat, you can pass the custom context to Omni-channel Engagement Hub, which helps decide which agent or queue to route the chat to.
 
 Follow these steps to send context when starting a chat:
 
