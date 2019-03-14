@@ -38,7 +38,3 @@ You can unlink a record (case, contact, and account) from a conversation while y
 To learn more, see [Unlink a record from the conversation](agent/agent-usd/link-unlink-record.md#unlink-a-record-from-the-conversation) and [Unlink a record from the conversation](agent/agent-csh/csh-link-unlink-record.md#unlink-a-record-from-the-conversation).
 
 ### Clutter-free notifications for non-RI chat
-
-##  What's new in <version>
-
-This is the first release of the topic.
