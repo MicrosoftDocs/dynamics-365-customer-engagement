@@ -44,6 +44,7 @@ To use Field Service Mobile push notifications, you'll need:
 - The [mobile configuration tool (Woodford solution)](https://aka.ms/fsmobile-configurator) must be downloaded and imported as a solution in your environment.
 - Field Service Mobile v11.1+ for Windows, iOS, or Android devices. Visit the app's **About** section to check which version you have.
 - Consent for notifications in your device's settings for the **Field Service Mobile** app.
+- Review the [privacy notes for Field Service Mobile push notifications](mobile-push-notifications-privacy.md)
 
 ## Notify a user about a booking
 
