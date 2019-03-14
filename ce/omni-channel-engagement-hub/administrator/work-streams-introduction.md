@@ -46,15 +46,12 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
 
    - In the **General information** section, provide the following information: </br>
       1. **Name**: Enter a name for the work stream.
-      2. **Stream Source**: Stream source is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat. </br> </br> Select a channel from the drop-down list. </br>
+      2. **Channel**: Channel is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat. </br> </br> Select a channel from the drop-down list. </br>
             - **Live Chat** </br>
             - **Entity** </br>
 
            > [!IMPORTANT]
            > If you select **Entity**, see the [Set up an entity work stream](#set-up-an-entity-work-stream) section later in this topic to configure an entity work stream.
-
-           > [!NOTE]
-           > As you select the Stream source, the channel is updated at the top right of the page. You cannot edit the channel.
 
       3. **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream in the text box.
       
@@ -112,7 +109,7 @@ To set up entity routing, you need to configure an entity work stream in **Omni-
 
 1. In the Omni-channel site map, go to **Work Distribution Management \> Work Streams**.
 2. Fill in the **General information** section as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).
-    For entity work stream, select **Stream Source** as **Entity**. 
+    For entity work stream, select **Channel** as **Entity**. 
 3. Fill in the **Work distribution** section as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).
 4. In the **Work stream entity configuration** section, select **Add** to add a new work stream entity configuration. For more information, see [Configure an entity channel](create-entity-channel.md). 
 5. Set up routing rules and queues for the work stream as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).
