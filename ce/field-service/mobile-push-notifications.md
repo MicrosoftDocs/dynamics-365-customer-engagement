@@ -96,7 +96,7 @@ The Field Service Mobile push notification feature also lets you create custom p
 > [!Note]
 > Do not edit the out of the box **Notify user about booking** process. Deactivate it and create a new one using it as a template.
 
-To send these push notifications, Customer Data detailed below must flow to the Google Cloud Messaging, Apple Push Notification, and Windows Push Notification services to enable push notifications to be received on devices running the Android, iOS, and Windows operating systems, respectively.
+To send these push notifications, the customer data detailed below must flow to the Google Cloud Messaging, Apple Push Notification, and Windows Push Notification services to enable push notifications to be received on devices running the Android, iOS, and Windows operating systems, respectively.
 
 1. Go to **Settings > Customizations > Customize the system > Processes > +New**.
 
@@ -113,7 +113,7 @@ To send these push notifications, Customer Data detailed below must flow to the 
 > ![Screenshot of the Entity Push Notification setting on the workflow editor](./media/mobile-push-notification-custom-workflow2.png)
 
 5. Select **Set Properties**. 
-   1. The properties dialog details what values, Customer Data, will be used for sending the push notification and necessarily flow to the aforementioned third-party services.  
+   1. The properties dialog details what values (customer data) will be used for sending the push notification and necessarily flow to the aforementioned third-party services.  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the set properties button](./media/mobile-push-notification-custom-workflow3.png)
 
