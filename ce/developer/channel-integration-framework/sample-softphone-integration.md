@@ -48,7 +48,9 @@ manager: shujoshi
 6. Select **Create New**. Then, click on **Publish**.
 7. Provide an app name. For example, **SampleInteg**.
 8. Provide valid subscription, resource group, and hosting plan details.
-9. Select *Create* to create the azure app service, and save the app service URL for future use.<br>For example, `https://sampleinteg.azurewebsites.net`.
+9. Select **Create** to create the azure app service, and save the app service URL for future use.<br>For example, `https://sampleinteg.azurewebsites.net`.
+<br />
+![Select Create to publish app on Azure](media/publish-app-azure.PNG "Select Create to publish app on Azure")<br />
 
 ## Create function to use with the app service
 

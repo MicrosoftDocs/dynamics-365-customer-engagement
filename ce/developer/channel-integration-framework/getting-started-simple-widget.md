@@ -25,6 +25,9 @@ In this tutorial we will demonstrate how to build a simple *Hello World!* commun
 
 - Visual Studio 2017
 - Azure subscription
+
+> [!Note]
+> If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/).
  
 ## Create a simple *Hello World!* application
 
@@ -41,28 +44,34 @@ You can choose any other template for your ASP.NET application.
 ```HTML
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title>Dynamics 365 Channel Integration Framework| Simple Hello World widget</title>
-</head>
 <body>
+    <br /><br />
     <p>Hello World!</p>
 </body>
 </html>
 ```
-6. Now run this HTML file using Microsoft Edge or Google Chrome to test and debug.
+6. Now run this HTML file using Microsoft Edge or Google Chrome to test and debug.<br />The web page should look like this when you run it in your browser.<br />
+![Run app in browser](media/cif-helloworld-run-browser.PNG "Run app in browser")<br />
 
 ## Publish and configure the widget 
 
-1. To publish the above sample widget, follow the steps mentioned in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). 
+1. To publish the above sample widget, follow the steps mentioned in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). You may also want to read this Azure tutorial on how to create and publish an ASP.NET web app in Azure: [Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-dotnet-framework).
+
+Once the wizard has published the app on Azure, it provides a Site URL using which you can access your hosted web app.<br />
+![See Site URL of published web app](media/cif-helloworld-site-url.PNG "See Site URL of published web app")<br />
+
+When you click on the site URL, it opens the same web app that we earlier saw while debugging our web app in Visual Studio.
+
 2. Then, to configure the widget in your Dynamics 365 instance follow the steps mentioned in [Configure sample app in Dynamics 365](sample-softphone-integration.md#bkmk_Configure).
 
 Once all the above steps are completed, launch one of the Unified Interface apps that you selected while configuring the widget in CIF to see the communication widget in the side panel on the right side. To launch one of your selected Unified Interface apps, go to `https://[Organization URI]/apps`.
 
 The published widget should look like this.<br />
 
-![Published sample widget in Unified Interface apps](media/cif-helloworld-published-widget.PNG "Published sample widget in Unified Interface apps")<br />
+![Published sample widget in Unified Interface apps](media/cif-helloworld-configure-app.PNG "Published sample widget in Unified Interface apps")<br />
 
 ## See also
 
-[Host a communication widget and change its modes](host-communication-widget-change-modes.md)
+[Sample code for softphone integration](sample-softphone-integration.md)<br />
+[Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-dotnet-framework)<br />
+[Frequently asked questions](faq-channel-integration-framework.md)

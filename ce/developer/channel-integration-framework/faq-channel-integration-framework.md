@@ -76,4 +76,3 @@ When you select a particular security role for the channel provider from under t
 [Dynamics 365 Channel Integration Framework Guide](index.md)<br />
 [Overview of Channel Integration Framework](overview-channel-integration-framework.md)<br />
 [System requirements of Channel Integration Framework](system-requirements-channel-integration-framework.md)
-
