@@ -2,7 +2,7 @@
 title: "Getting started with building a simple communication widget | MicrosoftDocs"
 description: "Read how to develop and host a simple communication widget in Channel Integration Framework (CIF)."
 keywords: ""
-ms.date: 03/07/2019
+ms.date: 03/14/2019
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -21,16 +21,22 @@ manager: shujoshi
 
 In this tutorial we will demonstrate how to build a simple *Hello World!* communication widget that can be hosted on Channel Integration Framework(CIF).
 
+## Pre-requisites
+
+- Visual Studio 2017
+- Azure subscription
+ 
 ## Create a simple *Hello World!* application
 
 1. Open Visual Studio 2017, and click on **File** > **New** > **Project** to create a new project.
 2. Select **ASP.NET Web Application(.NET Framework)** template for your project and add any name to it.<br />
 ![Select ASP.NET Web Application(.NET Framework)](media/cif-helloworld-new-project.PNG "Select ASP.NET Web Application(.NET Framework)")<br />
-3. Now select **Empty** template for your application.<br />
-![Select empty template for your application](media/cif-helloworld-select-empty.PNG "Select empty template for your application")<br />
-4. Now we need to add an HTML file to our project. For that, right click on your project in the side panel. Then select **Add** > **New item**.<br />
-![Add an HTML file to project](media/cif-helloworld-html-file.PNG "Add an HTML file to project")<br />
-5. Now copy the following code and add it into your HTML file.
+3. Now select **MVC** template for your application and make sure authentication is set to **No Authentication**.<br />
+![Select MVC template for your application](media/cif-helloworld-select-mvc.PNG "Select MVC template for your application")<br />
+You can choose any other template for your ASP.NET application.
+4. Now see the files in the solution explorer. Expand **Views** > **Home**, and open **Index.cshtml** file.<br />
+![Open Index.cshtml file from solution explorer](media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
+5. Now replace the HTML code in the **Index.cshtml** file with the given code.
 
 ```HTML
 <!DOCTYPE html>
