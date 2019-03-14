@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Use entity channels to route entities from Common Data Service for Apps to the Omni-channel Engagement Hub so that they can be automatically distributed and assigned to agents.
+Use entity channel to route entities from Common Data Service for Apps to the Omni-channel Engagement Hub so that they can be automatically distributed and assigned to agents.
 
 Follow these steps to configure an entity channel.
 
