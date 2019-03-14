@@ -146,14 +146,24 @@ In the image below is a Days view of the schedule board where each resource work
 
 ### Available Color, Partially Available Color, Unavailable Color
 
+The colors selected in the Schedule Assistant section represent how resources' availability (or unavailability) appear when the schedule assistant is triggered from the Days, Weeks, or Months view.  
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of schedule assistant section](./media/schedule-board-tab-settings-schedule-assistant.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule assistant colors](./media/schedule-board-tab-settings-schedule-assistant-colors.png)
 
+### Available Icon, Partially Available Icon, Unavailable Icon
 
+The icons selected in the Schedule Assistant section also apply when the schedule assistant is triggered from the Days, Weeks, or Months view and are displayed along with the colors chosen in the previous settings to represent if resources are available or unavailable. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule assistant icons](./media/schedule-board-tab-settings-schedule-assistant-icons.png)
+
+If the **Default Available Icon**, **Default Partially Available Icon**, or **Default Unavailable Icon** boxes are unchecked, then no icons will appear.
+
+The icons can be customized by uploading new image files in **Customizations > Customize the System > Web Resources** and referencing the path in tab settings. 
 
 ## Additional Notes
 - moving schedule board tab settings to other orgs 
