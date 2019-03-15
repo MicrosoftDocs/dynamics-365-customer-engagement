@@ -31,8 +31,6 @@ You can configure your chat widget to detect a visitor's location based on their
 
 You can configure your chat widget to display either full name, first name, last name, or nickname of an agent to the customers. If you would like to hide your agent’s identity and anonymize, choose to display the nickname. More information: [Configure agent display name](administrator/agent-display-name.md).
 
-### Live chat SDK
-
 ### Simplified workflows for administrators
 
 With the latest release of Omni-channel, the administrators can quickly associate work streams with channels so that conversations can be assigned to agents seamlessly. </br>
