@@ -1,11 +1,11 @@
 ---
 title: Set up rules to automatically create or update records (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to set up rules to automatically create or update records in Dynamics 365 for Customer Service
-keywords: Set up rules automatically; Dynamics 365; Customer Service; Activities and entities supported by record creation and update rules  ; Activate or deactivate a rule  ; Set up a rule to create and update records automatically  ;
+keywords: Set up rules automatically; Dynamics 365 for Customer Engagement; Customer Service; Activities and entities supported by record creation and update rules  ; Activate or deactivate a rule  ; Set up a rule to create and update records automatically  ;
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
@@ -36,8 +36,8 @@ By using record creation and update rules in [!INCLUDE[pn_dynamics_crm](../inclu
  To enable the rule to update records, you must add an **Update** step to the rule. Only the entity that you select in the **Update** step is updated based on the properties you set.   
 
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
-Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap with the January 2019 release.
+> With the Customer Engagement apps version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
+Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap with the February 2019 release.
 
 ## Activities and entities supported by record creation and update rules  
  By default, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] supports creating records from the following activities, also called source types in the context of record creation and update rules:  

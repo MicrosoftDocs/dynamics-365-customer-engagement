@@ -2,7 +2,7 @@
 
 
  /// <summary>
- /// A helper method that decompresses the the Ribbon data returned
+ /// A helper method that decompresses the Ribbon data returned
  /// </summary>
  /// <param name="data">The compressed ribbon data</param>
  /// <returns></returns>

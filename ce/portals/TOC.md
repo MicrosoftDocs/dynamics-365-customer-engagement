@@ -1,20 +1,21 @@
-# [Deliver web engagement experience with portal capabilities for Dynamics 365](administer-manage-portal-dynamics-365.md)
+# [Deliver web engagement experience with portal capabilities for Dynamics 365 for Customer Engagement](administer-manage-portal-dynamics-365.md)
 # [What's new](monthly-updates-portals.md)
 # [Provision a portal](provision-portal.md)
 
 # [Administer a portal](manage-portal.md)
 ## [Supported browsers](supported-browsers.md)
-## [Connect with Dynamics 365 online organization](connect-with-dynamics.md)
+## [Connect with Dynamics 365 for Customer Engagement online organization](connect-with-dynamics.md)
 ## [View portal error logs](view-portal-error-log.md)
-## [Change Dynamics 365 instance](change-dynamics-instance.md)
+## [Change Dynamics 365 for Customer Engagement instance](change-dynamics-instance.md)
 ## [Clear the server-side cache](clear-server-side-cache.md)
 ## [Download public key of portal](get-public-key.md)
 ## [Reset a portal](reset-portal.md)
 ## [Change base URL of a portal](change-base-url.md)
 ## [Upgrade a portal](upgrade-portal.md)
-## [Migrate Dynamics 365 Portal configuration](migrate-portal-configuration.md)
+## [Migrate Dynamics 365 for Customer Engagement Portal configuration](migrate-portal-configuration.md)
 ## [Set up Power BI integration](set-up-power-bi-integration.md)
 ## [Restrict portal access by IP address](ip-address-restrict.md)
+## [Use portal checker](portal-checker.md)
 
 # [Configure a portal](configure-portal.md)
 ## [Enable multiple-language support](enable-multiple-language-support.md)
@@ -64,7 +65,7 @@
 ####  [Iteration tags](iteration-tags.md)
 ####  [Variable tags](variable-tags.md)
 ####  [Template tags](template-tags.md)
-####  [Dynamics 365 entity tags](dynamics-entity-tags.md)
+####  [Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md)
 ### [Available Liquid filters](liquid-filters.md)
 ### [Create advanced templates](create-advanced-templates.md)
 #### [Create a custom page template](create-custom-template.md)
@@ -73,7 +74,7 @@
 #### [Render an RSS feed by using a custom page template](render-rss-custom-page-template.md)
 #### [Render a site header and primary navigation bar](render-site-header-primary-navigation.md)
 
-# Display data from Dynamics 365 on a portal
+# Display data from Dynamics 365 for Customer Engagement on a portal
 ## [Create and expose portal content easily](create-expose-portal-content.md)
 ## [Behavior and format of the date and time field](behavior-format-date-time-field.md)
 ## [Add chart on a web page in portal](add-chart.md)
@@ -121,12 +122,12 @@
 ## [Integrate Project Service Automation](integrate-project-service-automation.md)
 ## [Integrate Field Service](integrate-field-service.md)
 ## [Implement GDPR in portals](implement-gdpr.md)
-## [View primary domain name in Dynamics 365](view-primary-domain.md)
+## [View primary domain name in Dynamics 365 for Customer Engagement](view-primary-domain.md)
 ## [View email records in portal timeline](view-email-in-timeline.md)
 ## [Rate a webpage or blog article](rate-webpage-blog-post.md)
 ## [Enable header and footer output caching on a portal](enable-header-footer-output-caching.md)
 ## [Add a Power BI report or dashboard to a webpage in portal](add-powerbi-report.md)
 
-# [Dynamics 365 Portal FAQ](portal-faq.md)
+# [Best practices and common portal configuration issues](portal-faq.md)
 
 # [Legacy Adxstudio Portals v7 FAQ](legacy-portal-faq.md)

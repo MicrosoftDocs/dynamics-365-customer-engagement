@@ -1,22 +1,22 @@
 ---
-title: "Actions on dialogs (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "This topic describes the actions you can perform on dialogs using the Dynamics 365 Customer Engagement web services (SDK). "
-ms.custom: ""
+title: "Actions on dialogs (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "This topic describes the actions you can perform on dialogs using the Dynamics 365 for Customer Engagement web services (SDK). "
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "dialogs, dialogs, actions"
+  - dialogs, dialogs, actions
 ms.assetid: dec79d11-75fc-4a1c-ae50-3b5d3d237fd7
 caps.latest.revision: 29
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -32,18 +32,18 @@ This topic describes the actions you can perform on dialogs.
 
 ## Dialog-related activities
 
- These activities are available as steps in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement Process Designer.  
+ These activities are available as steps in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps Process Designer.  
 
-### Query [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Data
+### Query [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps Data
 
- Enables you to define query variables that can be used to query [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data. 
+ Enables you to define query variables that can be used to query [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps data. 
 These query variables can either have pre-defined values or can be parameterized so that they accept values at the runtime, 
 and fetch records accordingly.  
 
  You can parameterize a query variable by using the **Modify Query Variables** tab on the **Define Query** page, 
 and then use the dynamic values section on the query form to associate the prompt and response variables with the query variables.  
 
- The query variable defined using the **Query Dynamics 365 Data** step is available for all the prompts and responses from the point where they 
+ The query variable defined using the **Query Dynamics 365 for Customer Engagement apps Data** step is available for all the prompts and responses from the point where they 
 have been defined in the dialog definition.  
 
 ### Assign Value
@@ -72,7 +72,7 @@ end at that point based on the response from the user.
 
 ## Custom workflow activities
 
- You can create custom workflow activities to extend the dialogs in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For detailed 
+ You can create custom workflow activities to extend the dialogs in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. For detailed 
 information about custom workflow activities, see [Custom Workflow Activities](custom-workflow-activities-workflow-assemblies.md).  
 
 <a name="StartDialog"></a>   

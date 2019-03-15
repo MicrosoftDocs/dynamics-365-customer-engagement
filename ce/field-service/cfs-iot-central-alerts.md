@@ -1,19 +1,18 @@
 ---
 title: "Receive IoT alerts in Connected Field Service from Azure IoT Central | MicrosoftDocs"
-ms.custom: "dyn365-fieldservice"
+ms.custom: dyn365-fieldservice
 ms.date: 09/24/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "activate-fs-mobile-app-license"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: activate-fs-mobile-app-license
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "shellyhaverkamp"
-ms.author: "krbjoran"
-ms.manager: "shellyhaverkamp"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+ms.author: vihuang
+ms.reviewer: krbjoran
 search.audienceType: 
   - admin
   - customizer
@@ -80,7 +79,7 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
 
     b. Set IoT rule as the one you created earlier. In our suggested example, it would be: "Cash drawer level is high."
 
-    c. Select your Dynamics 365 Organization name.
+    c. Select your Dynamics 365 for Customer Engagement Organization name.
 
     d. Set Entity Name to "IoT Alerts."
 
@@ -91,7 +90,7 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
     g. Save the Flow.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Flow fields for IoT Central and Dynamics 365](media/iot-central-alerts-9.png)
+> ![Screenshot of the Flow fields for IoT Central and Dynamics 365 for Customer Engagement](media/iot-central-alerts-9.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the advanced fields, highlighting Alert Type Label](media/iot-central-alerts-10.png)

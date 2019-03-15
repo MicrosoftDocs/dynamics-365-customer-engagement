@@ -1,20 +1,20 @@
 ---
 title: "Customize entity forms | MicrosoftDocs"
 description: "Forms provide the user interface (UI) that people use to create, view, or edit entity records. Use the form designer in the customization tools to create and edit entity forms. This topic will provide information necessary to create or edit forms programmatically. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: dfffa0b9-2884-48e6-9181-c3300e358c04
 caps.latest.revision: 56
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -76,7 +76,7 @@ Forms provide the user interface (UI) that people use to create, view, or edit e
  Editing the form definitions from an exported managed solution and then re-importing the solution is a supported method to edit entity forms. When manually editing forms we strongly recommend you use an XML editor that allows for schema validation. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Edit the Customizations XML File with Schema Validation](edit-customizations-xml-file-schema-validation.md)  
 
 ### See also  
- [Customize Microsoft Dynamics 365](customize-applications.md)   
+ [Customize Microsoft Dynamics 365 for Customer Engagement](customize-applications.md)   
  [Create and design forms](../../customize/create-design-forms.md)   
  [SystemForm Entity](../entities/systemform.md)   
  [Create or edit how business rules are initiated](create-edit-how-business-rules-initiated.md)   

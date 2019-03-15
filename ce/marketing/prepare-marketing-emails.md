@@ -1,21 +1,20 @@
 ---
 title: "Design, preview, check, and send marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to design and deliver marketing email messages in Dynamics 365 for Marketing"
-keywords: "email; marketing email; dynamic content; go live; validation; preview; Litmus"
-ms.date: 04/25/2018
-ms.service: 
-  - "dynamics-365-marketing"
+keywords: email; marketing email; dynamic content; go live; validation; preview; Litmus
+ms.date: 03/08/2019
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 021f45f6-ed70-4979-a227-0631540b2516
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -51,7 +50,7 @@ Marketing email in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] w
 - **You can use a single marketing email message in several marketing contexts**  
     In addition to the ability to merge recipient information and other dynamic content, each marketing email message can also adapt to various marketing contexts defined by the content settings assigned to each customer journey where it's used. Examples of context include supporting page links (such as subscription center and forward pages), your postal address, social-media links, and more. With this feature, you can use a single live email message in several different customer journeys or campaigns.
 - **View and analyze message results**  
-    [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] keeps track of what happens to the marketing message it sends, and records when each contact opens, clicks, or forwards the message. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] tracks when messages are opened by including a unique [web beacon](https://en.wikipedia.org/wiki/Web_beacon) in each message (recipients must load images for this to work). For each link included in your original message design, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] creates a redirect link that's unique for each recipient, so all clicks get routed through [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], which logs the message and contact IDs and forwards the contact to the correct original URL. It tracks when messages are forwarded by a contact who uses the forward-to-a-friend form (but not when contacts simply forward a message by using their standard email client). You can review results and analytics for these and other details grouped by customer journey, email message, email template, and more.
+    [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] keeps track of what happens to the marketing message it sends, and records when each contact opens, clicks, or forwards the message. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] tracks when messages are opened by including a unique [web beacon](https://en.wikipedia.org/wiki/Web_beacon) in each message (recipients must load images for this to work). For each link included in your original message design, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a redirect link that's unique for each recipient, so all clicks get routed through [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], which logs the message and contact IDs and forwards the contact to the correct original URL. It tracks when messages are forwarded by a contact who uses the forward-to-a-friend form, but not when contacts simply forward a message by using their standard email client. Messages forwarded using an email client will still contain the web beacon and personalized links of the original recipient, so your email results will show all interactions with these forwarded messages as being done by the original recipient too&mdash;but when a contact uses the forward-to-a-friend form, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] generates a new web beacon and personalized redirect links for each forwarded message. You can review results and analytics for these and other details grouped by customer journey, email message, email template, and more. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
 
 ## Process overview: How to create and go live with a marketing email
 
@@ -106,7 +105,7 @@ After choosing a template, you'll be in the email content designer, which resemb
 Marketing messages are delivered as HTML and therefore support hyperlinks. Some types of links provide access to special features that are hosted by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], whereas others can simply be standard links to content anywhere on the web. A subscription center link is required before any message can pass the error check and go live, but other links are optional, so you can use them only as needed. The following list describes the types of links that are available. You'll use the assist-edit feature to add most types of dynamic links as text in a text element, while other types of links are added by using a dedicated design-element type (such as an event element).
 
 - **Standard links**: You can add standard links to any text content by highlighting the link text and selecting **Link** on the text toolbar. You can also add link URLs to many other types of design elements, including images and buttons. When your message goes live, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] replaces each link with a unique redirect URL that targets your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server and identifies the message recipient, message ID, and the destination you specified for the link. When a contact clicks a link, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] logs the click and then forwards the contact directly to the URL you specified.
-- **Event, survey, or landing page**: These links go to an event portal, survey, or landing page. You can add them as text links in a text element, or as colorful call-to-action buttons. To create a button, drag an event, survey, or landing-page element to your email design and then configure which item the element should link to. To create a text link, select some text in a text element and then use the assist-edit feature.
+- **Event, survey, or landing page**: These links go to an event website, survey, or landing page. You can add them as text links in a text element, or as colorful call-to-action buttons. To create a button, drag an event, survey, or landing-page element to your email design and then configure which item the element should link to. To create a text link, select some text in a text element and then use the assist-edit feature.
 - **Subscription center (required)**: All marketing email messages must include a link to a subscription center. A subscription center includes mailing lists available from your organization, including an option for contacts to opt out of all marketing emails. Contacts might also be able to update their contact details here. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] includes a standard subscription center, which you can edit to contain your subscription lists and to reflect your graphical identity (you can also create additional pages to support multiple subscription options, languages, or brands). You'll add a subscription center link to your page by highlighting the link text and selecting **Link** on the text toolbar, and then using the assist-edit feature to select the subscription center URL from the content settings.
 - **Forward to a friend**: This type of link opens a form that contacts can use to forward a marketing email to their own friends or colleagues by entering recipients' email addresses. It's a good idea to include this type of service for your contacts because messages forwarded by using the forward form are counted correctly in your email results and analytics (messages forwarded by using a contact's local email client forward feature won't be registered in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and all message opens and clicks performed by the recipients who were forwarded the message will be credited to the original recipient). A forward-to-a-friend page ID can be included in each set of content settings, but none is provided out of the box, so you must create a forwarding page and add it to your content settings to use this feature. You add a forward-to-a-friend link to your page  by highlighting the link text and selecting **Link** on the text toolbar, and then using the assist-edit feature to select the subscription center URL from the content settings.
 - **View as a web page**: This link opens the marketing email message in a web browser. Some recipients will find this useful if their standard email client is having trouble rendering the message. You add this link to your page by highlighting the link text, selecting **Link** on the text toolbar, and then using the assist-edit feature to select the view-as-webpage URL from the message object.
@@ -121,7 +120,7 @@ For complete details about these and other dynamic-content features, see [Add dy
 
 ## Inspect and edit the text-only version of your message
 
-The HTML mail standard allows for messages to include both an HTML version and a plain-text version of your content. The purpose of the plaint-text version is to allow your message to be legible when shown by email clients that don't support HTML (or which have HTML turned off). Mail clients will only show one version to users, and unless you're dealing with a very special market, it will almost always be the HTML version. It's a bit like the system of providing alt-text for images.
+The HTML mail standard allows for messages to include both an HTML version and a plain-text version of your content. The purpose of the plain-text version is to allow your message to be legible when shown by email clients that don't support HTML (or which have HTML turned off). Mail clients will only show one version to users, and unless you're dealing with a very special market, it will almost always be the HTML version. It's a bit like the system of providing alt-text for images.
 
 So why bother with the plain-text version? To improve deliverability. One of the red flags that anti-spam systems look for is an email message that includes HTML content but no plain-text content (or plain-text content that doesn't match the HTML content). To help ensure that your marketing email messages don't get flagged as spam, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generates a plain-text version of your HTML design and includes it when it sends the message. Usually you won't have to worry about the plain-text version, but you can still inspect and optimize it if you like.
 
@@ -130,19 +129,19 @@ Start by designing the HTML version of your message. When you're almost done, go
 - To fine-tune the text version, clear the **Automatically generate** check box to unlock the text field, and then edit the text as needed. From now on, though, your text version will no longer be linked to the HTML version and won't be updated to match any changes you make to the HTML.
 - To go back to tracking the HTML version, reselect the **Automatically generate** check box. This will remove any customizations that you've made to the plain text and update it to match the current HTML design on an ongoing basis.
 
-## Set advanced header options
+## Set sender and receiver options
 
-In addition to the message description and plain-text version, the **Summary** tab also offers **Advanced Header** settings. Usually you shouldn't edit these, but they can be useful in some scenarios.
+In addition to the message description and plain-text version, the **Summary** tab also offers **Sender and receiver** settings. Usually you shouldn't edit these, but they can be useful in some scenarios.
 
 > [!IMPORTANT]
-> When you create a new email, the **Advanced Header** settings are initially blank, but after you've made the standard settings for the **From** contact and saved the message at least once, the correct values are added here automatically. If you edit these values before saving (or after), correct default values will no longer be offered. You should only edit these values if you're sure you need to.
+> When you create a new email, the **Sender and receiver** settings are initially blank, but after you've made the standard settings for the **From** contact and saved the message at least once, the correct values are added here automatically. If you edit these values before saving (or after), correct default values will no longer be offered. You should only edit these values if you're sure you need to.
 
-The following **Advanced Header** settings are available:
+The following **Sender and receiver** settings are available:
 
-* **Email from name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the **From** contact chosen at the top of the form. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
-* **Email from address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the address of the **From** contact chosen at the top of the form. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
-* **To**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
-* **Reply-to email**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **Email from address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+- **From name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+- **From address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the address of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+- **To address**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
+- **Reply-to address**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **From address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
 
 <a name="designation"></a>
 
@@ -162,7 +161,7 @@ Take care not include promotional content in messages that you have set as trans
 
 Each contact record has two settings that establish that contact's consent for receiving email messages from your organization. You can find these consent settings for any contact by opening the relevant contact record, going to the **Details** tab and looking in the **Contact preferences** section, which includes the following two settings:
 
-- **Email**: This setting is among the standard fields for the contact record, and is included with nearly all [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] customer engagement applications. Contacts where this is set to **Do not allow** have indicated that do not want to receive any type of email from your organization, so [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] will send neither commercial nor transactional messages to these contacts.
+- **Email**: This setting is among the standard fields for the contact record, and is included with nearly all [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. Contacts where this is set to **Do not allow** have indicated that do not want to receive any type of email from your organization, so [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] will send neither commercial nor transactional messages to these contacts.
 - **Bulk email**: This setting is added to the contact record when you install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Contacts where this is set to **Do not allow** have indicated that do not want to receive commercial email from your organization, but they may still allow transactional messages. Each contact can enable or disable this option for themselves using any subscription center (all subscription centers provide a check box for controlling this).
 
 The following table shows the result of attempting to send a commercial or transactional email message to contacts with each combination of settings for these two options.
@@ -219,12 +218,12 @@ Use the following drop-down lists on the right side of the **Designer** &gt; **P
 
 Go to the **Designer** &gt; **Preview** &gt; **Inbox Preview** tab to see real-world inbox previews that show your design exactly as it will appear in a wide variety of target email clients and platforms. This feature renders your message by using native code from each of the listed target platforms, and then delivers your preview as an image file showing the precise results. As with the simple preview, you can use the **Designer** &gt; **Preview** &gt; **Inbox Preview** &gt; **Properties** tab to choose a **Contact** record and **Resource Set** from which to draw dynamic values (see also the previous section).
 
-The inbox preview is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)). Your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] license includes a limited number of inbox previews each month (typically 100), and this quota is shared by your entire organization. After your organization has used all the available previews for the month, each user must set up their own Litmus account if they want to create additional previews. Personal Litmus quotas apply to individual users, not to the entire organization. When you've used all your free previews, you'll be given the option to sign in to Litmus directly from the **Inbox Preview** tab in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. After you're signed in, the integration is seamless.
+The inbox preview is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)). Your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] license includes a limited number of inbox previews per month, and this quota is shared by your entire organization. After your organization has used all the available previews for the month, each user must set up their own Litmus account if they want to create additional previews. Personal Litmus quotas apply to individual users, not to the entire organization. When you've used all your free previews, you'll be given the option to sign in to Litmus directly from the **Inbox Preview** tab in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. After you're signed in, the integration is seamless.
 
 The **Inbox Preview** tab displays a grid of icons, each labeled with the name of a different destination platform or email client. Initially, each preview is dimmed and shows a key (locked) icon, which means that you haven't yet generated that preview by using your current design and settings. Select one of these icons to generate that preview and unlock its icon. Each time you unlock a preview, you'll use one preview from either your organization's or your personal quota. The unlocked preview remains available for viewing until you change the design or the **Properties** (dynamic text) settings, at which time all existing previews will no longer be valid and will be shown as locked again.
 
 > [!NOTE]
-> Litmus must be enabled for your site before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Default marketing settings](marketing-settings.md#marketing-configuration)
+> Litmus must be enabled for your instance before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Default marketing settings](marketing-settings.md#marketing-configuration)
 
 <a name="error-check"></a>
 
@@ -246,6 +245,7 @@ The following are also confirmed by the check:
 - All dynamic expressions and HTML code must compile and generate valid values.
 - All referenced images must exist in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 - The To field must be an expression (not static) that results in a valid email address; this is normally handled automatically by the customer journey that sends the mail, but some advanced scenarios allow for customization here.
+- The from-address should use a domain that is authenticated and registered using DKIM as belonging to your organization. You can go live with a from-address that uses an unauthenticated domain, but you'll get a warning because this isn't recommended. You can't go live with a domain that is authenticated as belonging to another organization (this generates an error). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Authenticate your domains](marketing-settings.md#authenticate)
 
 ## Go live and set up a customer journey to deliver your message
 

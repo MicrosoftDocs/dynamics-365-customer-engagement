@@ -1,11 +1,11 @@
 ---
 title: Set up knowledge management using embedded knowledge search (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: See how to set up knowledge management using embedded knowledge search in Dynamics 365 for Customer Service
-keywords: Set up knowledge management; Dynamics 365; Customer Service; using Embedded knowledge search; service manager
+keywords: Set up knowledge management; Dynamics 365 for Customer Engagement; Customer Service; using Embedded knowledge search; service manager
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -46,7 +46,7 @@ After knowledge management is set up, users will be able to:
 - Give timely and consistent information to customers when working on their cases by using actions like opening the article and sharing the information or emailing the article link to customers.   
 
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, embedded knowledge search in service management is available in the Customer Service Hub based on the Unified Interface experience. We recommend that you set up knowledge management using embedded knowledge search in the new experience.
+> With the Customer Engagement apps version 9.1 release, embedded knowledge search in service management is available in the Customer Service Hub. We recommend that you set up knowledge management using embedded knowledge search in the new experience.
   
 ## Set up knowledge management (Customer Service Hub)
   
@@ -60,8 +60,11 @@ After knowledge management is set up, users will be able to:
 3. In the **Support Portal Connection** section, enter the following:  
   
    - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.  
+
+        Select **Yes** to share the knowledge article as a link in the email sent to the customer. Select **No** to share the article content inserted in the email body. If you choose **Yes**, provide the **URL format**.
   
-   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format:  http://\<support portal URL>/kb/{kbnum}   
+   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: 
+        </br> </br> *http://\<support portal URL>/kb/{kbnum}* 
   
         The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
   
@@ -81,9 +84,11 @@ After knowledge management is set up, users will be able to:
   
 6. In the **Support Portal Connection** section, enter the following:  
   
-   - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.  
+   - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.
+
+        Select **Yes** to share the knowledge article as a link in the email sent to the customer. Select **No** to share the article content inserted in the email body.  If you choose **Yes**, provide the **URL format**.
   
-   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: http://\<support portal URL>/kb/{kbnum}  
+   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: </br> </br> *http://\<support portal URL>/kb/{kbnum}*  
   
         The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
   
@@ -92,5 +97,5 @@ After knowledge management is set up, users will be able to:
 8. If you’ve specified the details correctly, the page shows the connection details for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Select **Finish** to complete the setup.  
   
 ### See also  
- [Add the Knowledge Base Search control to a Dynamics 365 form](../customer-service/add-knowledge-base-search-control-forms.md)   
+ [Add the Knowledge Base Search control to a Dynamics 365 for Customer Engagement form](../customer-service/add-knowledge-base-search-control-forms.md)   
  

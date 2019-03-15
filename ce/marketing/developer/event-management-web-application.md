@@ -4,14 +4,13 @@ description: "Provides information about how you can extend event management  we
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 10/09/2018
+ms.date: 02/21/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-ms.assetid: 6d87f02d-5f2b-4012-85fa-31456c450d83
 author: Nkrb
 ms.author: nabuthuk
 manager: kvivek
@@ -19,87 +18,67 @@ manager: kvivek
 
 # Build and host a custom event portal
 
-The Dynamics 365 Event Management feature helps you to organize, manage and process the events. When you install the Event Management solution, you will get an **Event Portal** which gives the users a web application where they can know more about the event details. More information: [Event Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
+The Dynamics 365 Event Management feature helps you to organize, manage and process the events. When you install the Event Management solution, you will get an **Event Portal** which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
+The Event Management event portal consists of two parts:
 
-The Event Management web application consists of two parts:
-- Angular frontend
+- Frontend (e.g. Angular, Vanilla JS,...)
 - REST API backend
 
-The frontend part is a single page application which is created using [Angular](https://angular.io) framework. The frontend part of the web application is fully customizable. Backend and customizability of the backend depends on hosting type.
+The frontend part is a single page application created using the [Angular](https://angular.io) framework and is fully customizable. The backend and the customization of the backend depends on the type of hosting.
 
- You can host the Event Management web application using
-- [Dynamics 365 Portal hosted](#dynamics-365-portal-hosted)
-<!--- [Self-hosted](#self-hosted)-->
+You can host custom event portal in two ways:
 
-## Dynamics 365 Portal hosted
-Event Management web application comes as a Dynamics 365 Portal hosted web when you install the Event Management solution.
+- [Self-hosted](self-hosted.md)
+- [Dynamics 365 Portal hosted](portal-hosted.md)
 
-The frontend part of the application is bundled into two resource files that are stored as Dynamics 365 Portal web files, and the main single page application entry-point is stored as Dynamics 365 Portal web template. More information [web files](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-files) and [web templates](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/store-content-web-templates).
+## Prerequisites
 
-Although, the frontend definition is hosted on Dynamics 365 Portal, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-page), and the code containing the business logic behind it resides in Event Management plugins which is not customizable.
+You either can build your own frontend or customize the provided demo event portal.
 
-![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
+> [!NOTE]
+> For the provided demo event portal the [Angular framework](https://angular.io/guide/quickstart) is used. However, since the backend is not dependent on the frontend you can use whatever framework you would like to use.
 
-### Developing and customizing the web application on Dynamics 365 Portal hosted backend
+To get started with customizing the provided demo event portal you need to follow this steps:
 
-To develop and customize the frontend part of the web application:
-
-1. Download the [Source code](https://go.microsoft.com/fwlink/?linkid=2020107).
 1. Install [Node](https://nodejs.org/en/download).
 1. Open Node cmd (or reopen if you have it opened) and run `Node -v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
 1. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
-1. Go to the directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
-1. Create a new Chrome shortcut and add `--disable-web-security --user-data-dir="C:\chromeTest"` to bypass the same origin policy.
-1. Go to `\src\app\providers\url.providers.ts` in the source code to point the frontend to the correct API endpoint and change the return value in the `baseURL()` method to your API. You need to add a trailing slash at the end of the url.
-1. Bypass anti-CSRF token for local development. To do that, you need to go to **Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`. 
-1. Restart the Dynamics 365 Portal website to see the changes.
-
-> [!NOTE]
-> The **PortalAPI** web template is added by default when you install the Event Management data.
-
-- Run the command `ng serve` from your working directory to build the website and open the website url in the chrome instance with the shortcut you have created.
-
-After the website is successfully built, your output files will show up in `/dist/ClientApp` directory. You need to replace the files hosted under portals. You don’t need to change all the files, usually main.js and styles.css files are enough, but it is always good to use some kind of source control tool to track the changes. 
-
-To replace the files in Dynamics 365, follow the steps below:
-
-1.	Open your Dynamics 365 instance.
-2.	Navigate to **Portals** and click on **Web Files**.
-3.	Open the web file `style.css` .
-4.	Scroll down to **Notes** section and delete the existing attachment. 
-5.	Upload your `style.css` file as attachment. 
-6.  Now, open the web file `main.js` and scroll down to **Notes** section and delete the existing attachment.
-7.  Rename your `main.js` to `main.es` and upload the file as attachment.
-9.	Restart the portal website and reopen your browser.
-
-
-<!--### Developing and Customizing web application on self-hosted backend
-
-To develop and customize the frontend part of the web application:
-
 1. Download the [Source code](https://go.microsoft.com/fwlink/?linkid=2020107).
-1. Install [Node](https://nodejs.org/en/download).
-1. Open Node cmd (or reopen if you have it opened) and run `Node -v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
-1. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular application. More information: [Angular](https://angular.io).
-1. Go to the directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
-1. Create a new Chrome shortcut and add `--disable-web-security --user-data-dir="C:\chromeTest"` to bypass the same origin policy.
-1. Go to `\src\app\providers\url.providers.ts` in the source code to point the frontend to the correct API endpoint and change the return value in the `baseURL()` method to your API. You need to add the trailing slash at the end of the url.
-1. Run the command `ng serve` from your working directory to build the website and open the website url in the chrome instance with the shortcut you have created.
+1. Go to the directory where you have downloaded the source code and run the command `npm install` to fetch all the necessary packages that are required to run the website.
 
-After the website is build successfully, the output files will show up in `/dist/ClientApp`. You need to copy those files to the root directory of your web server, replacing the existing ones.-->
+## Configuration
 
-## Building and deploying website
+All the configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). Here are some of the settings that you need to know:
 
-let's make some simple changes on the website that you have created. 
-- Go to `\src\app\components\home\home.component.html` to add extra paragraph or content that describes the event details or about the event.
-- You can change or add styling to the website by editing the `home.component.css` file in `\src\app\components\home\home.component.css`.
-- After you make necessary changes, run the command `ng build --prod --output-hashing none` to build and deploy the latest changes for self-hosted backend.
-- Run the command `BuildForPortalHosting.ps script`, if you are using Dynamics 365 Portal hosted backend.
+- **production** - Used internally by **Angular** to differentiate between production and development environments.
+- **apiEndpoint** - Used by Event Management application. Points to the API endpoint that **Angular** services use.
+- **localizationEndpoint** - Points to the localization endpoint that Event Management localization system uses to fetch the localized labels.
+- **useRestStack** - Used by Event Management application to adjust to different types of APIs used when utilizing self-hosted approach against Dynamics 365 hosted approach. Self-hosted approach uses REST API.
+- **useAadB2C** - Used by Event Management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).
+- **useMockData** - Used by Event Management for development purposes. Overrides **Angular** application data services to return mock data.
+- **aadB2CConfig** - Configuration object used by Event Management application when **AAD B2C identity management** is enabled. 
 
-> [!NOTE]
-> For extensive customization of the frontend you need to be familiar with the [Angular framework](https://angular.io/guide/quickstart).
+## Development
 
+Run the command `ng serve` from your working directory to build and locally serve the website. Additionally, this command prints the URL and port where you can reach the application (default is `localhost:4200`).
 
+## Backend customization
 
+Most of the customization possibilities for the Event Management application are found on the front-end, but there is also a use case when customizer adds a new field to the existing Event Management entity and would like to see that field in the website. For example if `custom_new_field` field is added to the `evtmgmt_pass` entity. The passes for the event can be retrieved using API endpoint `api/v1.0/events/{readableEventId}/passes`, but the result won't contain newly added field. To expose the new fields to be visible in API, you should do the following:
+
+1. Open your Dynamics 365 instance.
+1. Open Advanced Find view
+1. Select `Website Entity Configuration` entity and hit results button
+1. Create new record
+1. Enter a name that will be meaningful to you
+1. Select the entity that you want an extra field to be visible for (`Pass` in this example)
+1. Write a Json array that contains the extra custom fields that should be visible through the API. In this example: `["custom_new_field"]`. Be careful to form proper Json. 
+
+This will expose your new custom field through the API and you should be able to utilize it in the front-end.
+
+> [!div class="nextstepaction"]
+> [Self-hosted](self-hosted.md)<br /><br />
+> [Dynamics 365 Portal hosted](portal-hosted.md)<br /><br />
+> [Localization](event-portal-localization.md)
 

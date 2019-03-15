@@ -1,19 +1,19 @@
 ---
 title: "Export, import, or remove a model-driven app | MicrosoftDocs"
 description: "Learn you can export, import, or remove a model-driven app"
-keywords: ""
-ms.date: 04/09/2018
+keywords: 
+ms.date: 02/20/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.assetid: e82e7f64-37ad-41e5-acd7-16309881c6a2
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -27,9 +27,9 @@ search.app:
 
 # Export, import, or remove an app
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Model-driven apps are distributed as solution components. After you have created a model-driven app, you can make it available for other organizations to use by packaging the app into a solution and then exporting it into a zip file. After the solution (.zip file) is successfully imported by the organization, the packaged app is available for use.
+ [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps are distributed as solution components. After you have created an app, you can make it available for other organizations to use by packaging the app into a solution and then exporting it into a zip file. After the solution (.zip file) is successfully imported by the organization, the packaged app is available for use.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Solutions overview](../customize/solutions-overview.md).
   
@@ -54,14 +54,16 @@ When you receive the solution zip file which contains the app that you want to i
 Remove apps that are obsolete in your organization.
 
 1. In your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, go to **Settings** > **Customizations** > **Customize the system**.
-2. In the solution window, under **Components**, select **Apps**.
+2. In the solution window, under **Components**, select **Model-driven Apps**.
 3. Select the app that you want to delete, and then select **Delete** on the command bar.
 
-    ![Delete an app](media/app-module-solution-window.png "Delete an app")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/app-module-solution-window.png "Delete an app")
+
 
 4. In the confirmation message that appears, select **Delete**.
 
-   The app is deleted from your organization.
+   The app is deleted from your instance.
   
 If the component has dependencies (such as relationships), you must remove the dependencies before you can delete the app. To see the dependencies of an app, select the app, and then select **Show Dependencies** on the command bar.
 

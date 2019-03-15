@@ -1,16 +1,14 @@
 ---
-title: "Set up sales territories to organize business markets by geographical area for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Set up sales territories to organize business markets by geographical area for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 10/09/2018
 ms.service:
-  - "crm-online"
-ms.custom:
-  - ""
+  - crm-online
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: a7fef06e-31ad-43d1-b4a6-c234a836b191
 author: jimholtz
 ms.author: jimholtz
@@ -23,9 +21,9 @@ caps.latest.revision: 36
 
 # Set up sales territories to organize business markets by geographical area
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Improve sales potential and revenues by creating territories for customer and market segments in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Then assign appropriate sales people to handle the sales and revenue opportunities for those territories.  
+Improve sales potential and revenues by creating territories for customer and market segments in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Then assign appropriate sales people to handle the sales and revenue opportunities for those territories.  
   
  Sales territories improve the sales potential because the members of a territory are focused on the services or sales within that territory. You can associate the financials directly with a territory and its members, which simplify business analysis. Also, based on the sales territory type and size, you can define sales methodologies and the training required for those locations.  
 
@@ -38,7 +36,7 @@ Improve sales potential and revenues by creating territories for customer and ma
  
 3.	To create a new sales territory, on the command bar, select **New**.
 
-4.	In the sales territory form, hill in your information.
+4.	In the sales territory form, fill in your information.
 
       a.	**Name**. Enter the geographical name for the territory such as the name of a city, country/region, or a state.
 

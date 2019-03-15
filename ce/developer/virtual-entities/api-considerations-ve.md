@@ -1,14 +1,14 @@
 ---
-title: "API considerations of virtual entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "API considerations of virtual entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996dea
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,9 +24,9 @@ There are two broad categories of changes to the metadata system that are associ
 * Addition of a new assembly, namespaces, classes and other types to support development of custom virtual entity data providers
 * Changes to the core platform, including a few additional properties to support external data source mapping, and modification of behaviors of existing entity and attribute properties that reflect the limitations of the initial implementation of this feature
 
-## New Dynamics 365 Data SDK assembly
+## New Dynamics 365 for Customer Engagement Data SDK assembly
 
-The Dynamics 365 Data SDK assembly, `Microsoft.Xrm.Sdk.Data.dll`, contains types to aid in the creation of custom virtual entity data providers. It is comprised of the following namespaces:
+The Dynamics 365 for Customer Engagement apps Data SDK assembly, `Microsoft.Xrm.Sdk.Data.dll`, contains types to aid in the creation of custom virtual entity data providers. It is comprised of the following namespaces:
 
 |Namespace|Description|
 |---------|---------|
@@ -42,16 +42,16 @@ The Dynamics 365 Data SDK assembly, `Microsoft.Xrm.Sdk.Data.dll`, contains types
  
 <!-- TODO: Need to put in links to reference sections for these namespaces after TOC is completed. -->
 
-This assembly is distributed with the Dynamics 365 Data SDK, which is also available as a NuGet package.
+This assembly is distributed with the Dynamics 365 for Customer Engagement apps Data SDK, which is also available as a NuGet package.
 <!-- TODO: Will the SDK be downloadable separately? When the final package is ready, put in proper name and link. -->
 
 ## Changes to the core platform
 
-The following changes to the standard [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] reference types were introduced to support virtual entities.
+The following changes to the standard [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] apps reference types were introduced to support virtual entities.
 
 ### New Web API types
 
-The Dynamics 365 Web API exposes virtual entity data providers and sources as the following new entity types: [EntityDataProvider](../entities/entitydataprovider.md) and [EntityDataSource](../entities/entitydatasource.md). 
+The Dynamics 365 for Customer Engagement Web API exposes virtual entity data providers and sources as the following new entity types: [EntityDataProvider](../entities/entitydataprovider.md) and [EntityDataSource](../entities/entitydatasource.md). 
 
 ### New metadata properties
 

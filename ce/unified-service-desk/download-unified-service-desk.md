@@ -1,19 +1,19 @@
 ---
-title: "Download Unified Service Desk for Dynamics 365 | MicrosoftDocs"
+title: "Download Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "This topic provides information about how to download Unified Service Desk."
-keywords: ""
+keywords: 
 ms.date: 08/17/2018
 ms.service: 
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom: 
-  - "dyn365-USD"
+  - dyn365-USD
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 1f9169ce-cba3-4bb6-af20-f86140139cfe
 author: kabala123
 ms.author: kabala
@@ -38,9 +38,21 @@ This topic provides information about the location from where you can download v
 - System requirements to install a version of Unified Service Desk, see [Unified Service Desk System Requirements](admin/unified-service-desk-system-requirements.md)
 - Deploying Unified Service Desk solution or installing the client application, see [Install, deploy, and upgrade Unified Service Desk](admin/install-upgrade-deploy-unified-service-desk.md)
 
+::: moniker range="dynamics-usd-4"
+
 |  Version  |  Download Location |
 |------------------|---------------|
 | [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)] |  [Download](https://go.microsoft.com/fwlink/p/?linkid=2007340) |
+
+::: moniker-end
+
+::: moniker range="dynamics-usd-3"
+
+|  Version  |  Download Location |
+|------------------|---------------|
+| [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=872261) |
+
+::: moniker-end
 
 ## Download administration tools
 
@@ -55,9 +67,5 @@ The tools are as follows:
 | Web Client - Unified Interface Migration Assistant 1.0 |  [Download](https://go.microsoft.com/fwlink/p/?linkid=2005839) |
 | Best Practices Analyzer 1.0 |  [Download](https://go.microsoft.com/fwlink/p/?linkid=872089) |
 
-
-### See also  
-
-[Download Unified Service Desk 3.3](https://go.microsoft.com/fwlink/p/?linkid=872261)
 
  <!--[Download Unified Service Desk 2.2.2](http://go.microsoft.com/fwlink/p/?LinkId=623561), [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)](http://go.microsoft.com/fwlink/p/?LinkId=854761), [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)](https://go.microsoft.com/fwlink/p/?linkid=862012), [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)](https://go.microsoft.com/fwlink/p/?linkid=867343)-->

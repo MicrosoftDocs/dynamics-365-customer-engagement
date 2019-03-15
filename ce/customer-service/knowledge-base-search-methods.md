@@ -1,12 +1,12 @@
 ---
-title: Knowledge base search mechanisms in Dynamics 365| MicrosoftDocs
-description: Know how the Knowledge base search mechanisms and methods works in Microsoft Dynamics 365
-keywords: Search the knowledge base; Dynamics 365; Full-text search; Relevance search; Categorized search; Customer Service Hub; Knowledge Article; Knowledge Management; Knowledge Base; Knowledge base search mechanisms and methods
+title: Knowledge base search mechanisms in Dynamics 365 for Customer Engagement| MicrosoftDocs
+description: Know how the Knowledge base search mechanisms and methods works in Microsoft Dynamics 365 for Customer Engagement
+keywords: Search the knowledge base; Dynamics 365 for Customer Engagement; Full-text search; Relevance search; Categorized search; Customer Service Hub; Knowledge Article; Knowledge Management; Knowledge Base; Knowledge base search mechanisms and methods
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "Dynamics 365 Version 8.2"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - Dynamics 365 for Customer Engagement Version 8.2
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -47,7 +47,7 @@ See the following section to learn the types of search mechanisms available:
 
    See [Configure Relevance search](../admin/configure-relevance-search-organization.md) to learn how to configure Relevance search to improve search results and performance.
 
-   To better understand the various searches used in Dynamics 365 and how they can be compared, see [Compare Dynamics 365 searches](../admin/configure-relevance-search-organization.md#compare-dynamics-365-searches).
+   To better understand the various searches used in Dynamics 365 for Customer Engagement and how they can be compared, see [Compare Dynamics 365 for Customer Engagement searches](../admin/configure-relevance-search-organization.md#compare-dynamics-365-for-customer-engagement-apps-searches).
 
 ## Search the knowledge base
 
@@ -57,7 +57,7 @@ You can search the knowledge base from the following areas in the Customer Servi
   
   ![Knowledge base search control](media/kb-search-control.png)
 
-   To explore more options in the knowledge base search given in the Related section, see [Search for knowledge articles](customer-service-hub-user-guide-case-sla.md#search-for-knowledge-articles).
+   To explore more options in the knowledge base search given in the Related section, see [Search for knowledge articles](search-knowledge-articles-csh.md).
 
    > [!NOTE]
    > Knowledge base search control is available out of the box in a case entity. The previous procedure describes how the control can be accessed in the Customer Service Hub app.
@@ -80,9 +80,9 @@ With each of the previous search areas, the search results might vary based on t
 
 |Version  |  |Search areas| Search mechanism  |
 |---------|---------|---------|---------|
-| December 2016 Update for Dynamics 365 (online) </br> & </br> December 2016 Service Pack for Dynamics 365 (on-premises)  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
+| December 2016 Update for Dynamics 365 for Customer Engagement (online) </br> & </br> December 2016 Service Pack for Dynamics 365 for Customer Engagement (on-premises)  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
 |   |     |      - Global search  |   Categorized search     |
-|Dynamics 365 (online), version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
+|Dynamics 365 for Customer Engagement apps version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
 |  |      |   - Quick find in Grids     |   Full-text search |
 |  |      |   - Global search     |   Relevance search or Categorized search (based on what you configure)    |
 

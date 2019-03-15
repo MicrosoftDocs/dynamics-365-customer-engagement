@@ -1,12 +1,12 @@
 ---
 title: "Frequently asked questions for Microsoft Social Engagement | Microsoft Docs"
 description: "Find answers to frequently asked questions about Social Engagement."
-keywords: "FAQ, questions, common issues, quota, search setup, search topics"
+keywords: FAQ, questions, common issues, quota, search setup, search topics
 ms.date: 05/09/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: ac2d84b4-f7c6-9694-cf10-539e529f2e25
 author: m-hartmann
 ms.author: mhart
@@ -28,7 +28,7 @@ Are you new to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-lon
 
 ## How can I respond to a Data Subject Request (DSR) in context of GDPR?
 
-The workflows and pointers to the related procedures are listed in the [Dynamics 365 Data Subject Request GDPR Documentation](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=24330ae4-fb40-4e2c-9970-354d1ffc03e8&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_DSR) on the [Service Trust Portal](https://servicetrust.microsoft.com/). 
+The workflows and pointers to the related procedures are listed in the [Dynamics 365 for Customer Engagement Data Subject Request GDPR Documentation](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=24330ae4-fb40-4e2c-9970-354d1ffc03e8&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_DSR) on the [Service Trust Portal](https://servicetrust.microsoft.com/). 
   
 ## How soon will I start seeing data after I set up a search topic? 
  

@@ -1,9 +1,9 @@
 ---
 title: User Guide (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand Customer Service app in Microsoft Dynamics 365
-keywords: Customer Service;  Microsoft Dynamics 365; Create and manage a case in Customer Service; Add an activity to a case in Customer Service; Find what's assigned to you in a queue ; Merge similar cases; Create and manage parent and child cases
+description: Understand Customer Service app in Microsoft Dynamics 365 for Customer Engagement
+keywords: Customer Service;  Microsoft Dynamics 365 for Customer Engagement; Create and manage a case in Customer Service; Add an activity to a case in Customer Service; Find what's assigned to you in a queue ; Merge similar cases; Create and manage parent and child cases
 author: anjgupta
-applies_to: Dynamics 365 (online)
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 09/30/2017
@@ -29,7 +29,7 @@ search.app:
 This User's Guide shows customer service agents how to use the application. 
   
 > [!IMPORTANT]
-> This User Guide covers the Customer Service app that you can use with a desktop browser for case management. If you want to manage knowledge articles or do case management on a mobile device, use the new Customer Service Hub app, which is built on the Unified Interface framework. To learn about the  Customer Service Hub app, see [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md). For information on Dynamics 365 basics, [see the Basics Guide](../basics/basics-guide.md).
+> This User Guide covers the Customer Service app that you can use with a desktop browser for case management. If you want to manage knowledge articles or do case management on a mobile device, use the new Customer Service Hub app, which is built on the Unified Interface framework. To learn about the  Customer Service Hub app, see [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md). For information on Dynamics 365 for Customer Engagement basics, [see the Basics Guide](../basics/basics-guide.md).
  
  
 ## Create and manage a case
@@ -185,7 +185,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   
  All activities that you add from within a record appear in the **Activities** area. If the **Regarding** field of an activity is set, the activity appears in the activity wall of the regarding record. You can filter the list to show just the activities that are in progress or the ones that are overdue. Select or tap the inline **Complete** link to close the activity as **Completed**.  
   
- ![Add activities in Dynamics 365](../customer-service/media/add-activities-dynamics-crm.png "Add activities in Dynamics 365")  
+ ![Add activities in Dynamics 365 for Customer Engagement](../customer-service/media/add-activities-dynamics-crm.png "Add activities in Dynamics 365 for Customer Engagement")  
   
 ### Add a phone call  
   
@@ -249,11 +249,11 @@ The activity and notes area helps you keep track of all the interactions with yo
 4.  To save the record, select **Save**.  
   
 ### Add notes  
- You can also easily add notes in the activities area. And if you’re on the latest version of [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)], you have the benefits of using OneNote to take or review customer notes from within your Dynamics 365 records. For more information on OneNote, see: [Set up OneNote integration in Dynamics 365 Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md).  
+ You can also easily add notes in the activities area. And if you’re on the latest version of [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)], you have the benefits of using OneNote to take or review customer notes from within your Dynamics 365 for Customer Engagement records. For more information on OneNote, see: [Set up OneNote integration in Dynamics 365 for Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md).  
   
  This doesn’t replace the current Notes feature, but gives you another way to access notes stored in OneNote.  
   
- ![Add notes or OneNote notes in Dynamics 365](../customer-service/media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365")  
+ ![Add notes or OneNote notes in Dynamics 365 for Customer Engagement](../customer-service/media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365 for Customer Engagement")  
   
 1.  Open the record you want to add the activity to.  
   
@@ -266,7 +266,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   ![Add Meeting Notes in OneNote](../customer-service/media/addonenotenotes.png "Add Meeting Notes in OneNote")  
   
   > [!NOTE]
-  >  The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration in Dynamics 365 Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md).  
+  >  The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration in Dynamics 365 for Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md).  
   
 ### Create an activity and associate it with a customer  
  You can also create an activity from the Activity area and then link it to a customer or support case.  
@@ -472,7 +472,7 @@ You can manage multiple cases more efficiently if you use parent and child cases
 
 
   
- ![How to associate a child case in Dynamics 365](../customer-service/media/gs-create-child-case.png "How to associate a child case in Dynamics 365")  
+ ![How to associate a child case in Dynamics 365 for Customer Engagement](../customer-service/media/gs-create-child-case.png "How to associate a child case in Dynamics 365 for Customer Engagement")  
   
 ### Create a new child case  
  When you need to create a child case for the case you’re working on, you can quickly do this from the Case form.  
@@ -563,9 +563,9 @@ You can manage multiple cases more efficiently if you use parent and child cases
     A case resolution activity is created and shown in the **Activities** area. A case resolution activity contains information about a resolved case, including the resolution and total time spent on the case. You can reactivate a resolved case at any time.  
 
 ### See also 
-[Understanding how data is organized in Dynamics 365](../basics/how-data-organized.md)  
+[Understanding how data is organized in Dynamics 365 for Customer Engagement](../basics/how-data-organized.md)  
   
-[Find your way around Dynamics 365](../basics/find-your-way-around-dynamics-365-customer-engagement-enterprise.md)
+[Find your way around Dynamics 365 for Customer Engagement](../basics/find-your-way-around-dynamics-365-customer-engagement-enterprise.md)
 
 [What are business processes?](../basics/what-are-business-processes.md)
 

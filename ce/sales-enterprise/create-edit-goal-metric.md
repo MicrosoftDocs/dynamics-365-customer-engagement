@@ -1,20 +1,18 @@
 ---
 title: "Define a goal metric (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Define how you want to measure your goals by using goal metrics in Dynamics 365 for Sales."
-keywords: "goal, metric"
+keywords: goal, metric
 ms.date: 10/09/2018
 ms.service:
-  - "crm-online"
-ms.custom:
-  - ""
+  - dynamics-365-sales
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 2251e5a0-fb76-48fb-82ec-73fe6263e3bd
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -28,7 +26,7 @@ topic-status: Drafting
 
 Goal metrics let you clearly define how a goal will be measured. For example, a sales team's performance can be measured based on the number of leads they get or the revenue amount. There are two goal metric types: Amount and Count. The Amount metric type can be a money value, an integer, or a decimal number. The Count metric type is an integer. For example, you can use the Amount (money) goal metric to track the revenues from all active opportunities or sales orders. An integer type can be used to track sales calls made by a salesperson. A decimal number can represent a product sold by weight, such as grain or sugar.   
 
-## Create a goal metric (Sales Hub app)
+## Create a goal metric (Sales Hub)
 
 1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
@@ -49,7 +47,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
     > After you save the goal metric, you will no longer be able to edit this field.
     
-    c.	**Amount Data Type**. Required. This option is not available if the Metric Type you chose is **Count** because Dynamics 365 automatically sets the data type to integer.
+    c.	**Amount Data Type**. Required. This option is not available if the you chose is **Count** as the **Metric Type** because [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] automatically sets the data type to integer.
     
     > [!NOTE]
 
@@ -100,9 +98,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 8.	Select **Save**.
 
 
-## Create a goal metric (Sales app)
-  
-[!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
+## Create a goal metric (Sales)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
   

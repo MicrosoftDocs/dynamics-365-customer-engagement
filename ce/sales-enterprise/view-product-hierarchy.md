@@ -1,31 +1,25 @@
 ---
 title: "View product hierarchy (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Get a visual snapshot of the products your organization sells by looking at the product hierarchy in Dynamics 365 for Sales."
-keywords: "Hierarchy, visual hierarchy"
+keywords: Hierarchy, visual hierarchy
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: 
+ms.service:
+  - dynamics-365-sales
+ms.custom:
   - dyn365-sales
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+applies_to:
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: f2c2fd29-654d-4ccb-81e7-eb49f1ba74fc
+author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 16
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # View product hierarchy (Sales)
@@ -40,7 +34,7 @@ A product hierarchy gives you a visual snapshot of the products your organizatio
   
     You'll see the product in a tree structure and a visual organization of all products in the hierarchy.  
   
-   ![The product in the hierarchy in Dynamics 365](../sales-enterprise/media/v7-product-hierarchy-view.png "The product in the hierarchy in Dynamics 365")  
+   ![The product in the hierarchy in Dynamics 365 for Sales](../sales-enterprise/media/v7-product-hierarchy-view.png "The product in the hierarchy in Dynamics 365 for Sales")  
   
 3. To find out more about a product, family, or bundle, select its corresponding **Open this record** button.  
   

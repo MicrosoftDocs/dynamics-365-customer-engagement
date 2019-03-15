@@ -54,11 +54,8 @@ namespace Microsoft.Crm.Sdk.Samples
             try
             {
                 // Connect to the CRM web service using a connection string.
-                CrmServiceClient conn = new Xrm.Tooling.Connector.CrmServiceClient(connectionString);
+                CrmServiceClient _orgService  = new Xrm.Tooling.Connector.CrmServiceClient(connectionString);
  
-                // Cast the proxy client to the IOrganizationService interface.
-                _orgService = (IOrganizationService)conn.OrganizationWebProxyClient != null ? (IOrganizationService)conn.OrganizationWebProxyClient : (IOrganizationService)conn.OrganizationServiceProxy;
-             
                 //Create any entity records this sample requires.
                 CreateRequiredRecords();
 

@@ -78,17 +78,19 @@
 - name: Administer and manage Unified Service Desk
   href: admin/administer-manage-unified-service-desk.md
   items:
-  - name: Support for Unified Interface Apps
+  - name: Support for Unified Interface Apps (Preview)
     href: admin/Support-unified-interfaces-apps-usd.md
-  - name: Preview feature - Unified Service Desk Administrator app
+  - name: Unified Service Desk Administrator app (Preview)
     href: admin/unified-service-desk-administrator-app.md
-  - name: Preview feature - Unified Interface Settings
+  - name: Unified Interface Settings
     href: admin/unified-interface-settings.md
   - name: Manage Options for Unified Service Desk
     href: admin/manage-options-unified-service-desk.md
     items:
     - name: Configure client caching in Unified Service Desk
       href: admin/configure-client-caching-unified-service-desk.md
+    - name: Cache specific configuration for agents (Preview)
+      href: admin/set-configuration-cache-version.md     
     - name: Help improve Unified Service Desk
       href: admin/help-improve-unified-service-desk.md
       items:
@@ -101,8 +103,6 @@
         href: admin/comply-unified-service-desk-data-gdpr.md
   - name: Configure auditing and diagnostics in Unified Service Desk
     href: admin/configure-auditing-diagnostics-unified-service-desk.md
-  - name: Performance data collection using keyboard shortcut
-    href: admin/performance-data-collection-using-keyboard-shortcut.md
   - name: Distribute custom hosted controls using Customization Files
     href: admin/distribute-custom-hosted-controls-using-customization-files.md
   - name: Access management in Unified Service Desk
@@ -127,12 +127,31 @@
       href: admin/import-unified-service-desk-configuration-data.md
     - name: Export Unified Service Desk configuration data
       href: admin/export-unified-service-desk-configuration-data.md
-  - name: Performance enhancement for CRM entity page loads
+  - name: Performance enhancement for loading Customer Engagement app pages
     href: admin/performance-enhancement-CRM-entity-page-loads.md
   - name: Recover Internet Explorer process instance
     href: admin/recover-internet-explorer-process-instance.md
   - name: Configure close confirmation window
-    href: admin/configure-close-confirmation-window.md    
+    href: admin/configure-close-confirmation-window.md
+- name: Analyze performance of Unified Service Desk (Preview)
+  items:
+  - name: Overview of Unified Service Desk Performance Analyzer
+    href: admin/overview-performance-analyzer.md
+  - name: Download Unified Service Desk Performance Analyzer
+    href: admin/download-performance-analyzer.md
+  - name: Generate (collect) performance data log
+    href: admin/performance-data-collection-using-keyboard-shortcut.md
+  - name: Generate performance report
+    href: admin/generate-performance-report.md
+  - name: Overview of performance report user interface
+    href: admin/overview-performance-report-user-interface.md
+    items:
+    - name: Terminologies in the performance report
+      href: admin/terminologies-performance-report.md
+    - name: View, read, and compare performance report
+      href: admin/view-read-compare-performance-report.md
+    - name: Categories and operations
+      href: admin/operations-categories.md
 - name: Analyze best practices in Unified Service Desk
   href: admin/analyze-best-practices-unified-service-desk.md
   items:
@@ -188,7 +207,18 @@
       href: manage-hosted-controls-actions-events.md
       items:
       - name: 'Select a hosting method for your controls '
-        href: select-a-hosting-method-for-your-controls.md
+        href: select-hosting-method-controls.md
+        items:
+        - name: Use Edge Process to host web applications (Preview)
+          href: edge-process.md
+        - name: Use Chrome Process to host web applications (Preview)
+          href: chrome-process.md       
+        - name: Use IE Process to host web applications
+          href: ie-process.md
+        - name: Use Internal WPF to host web applications
+          href: internal-wpf.md
+        - name: Use Web Hosted Application to host web applications
+          href: web-hosted-application.md
       - name: Create or edit a hosted control
         href: create-edit-hosted-control.md
       - name: Add a UII action to a hosted control
@@ -390,6 +420,11 @@
       href: walkthrough-create-uii-windows-forms-hosted-control.md
     - name: 'Walkthrough: Create a UII WPF Hosted Control'
       href: walkthrough-create-uii-wpf-hosted-control.md
+  - name: Integrate channel using Channel Integration Framework
+    href: integrate-channel-provider-channel-integration-framework.md   
+    items:
+    - name: Create Channel Integration Framework hosted control
+      href: create-channel-integration-framework-hosted-control.md
   - name: Integrate with CTI systems using CTI adapters
     href: integrate-cti-systems-cti-adapters.md
     items:
@@ -463,6 +498,8 @@
     href: crm-dialog-hosted-control.md
   - name: CRM Page (Hosted Control)
     href: crm-page-hosted-control.md
+  - name: Channel Integration Framework (Hosted Control)
+    href: channel-integration-framework-hosted-control.md
   - name: CTI Desktop Manager (Hosted Control)
     href: cti-desktop-manager-hosted-control.md
   - name: Debugger (Hosted Control)
@@ -499,10 +536,5 @@
     href: session-timer-custom-hosted-control.md
 - name: Accessibility in Unified Service Desk for Microsoft Dynamics 365
   href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md
-- name: Release notes of Unified Service Desk
+- name: Known issues and limitations of Unified Service Desk
   href: release-notes.md
-  items:
-  - name: Release notes of Unified Service Desk 4.0
-    href: release-notes-unified-service-desk-40.md    
-  - name: Release notes of Unified Service Desk 3.3
-    href: release-notes-unified-service-desk-33.md

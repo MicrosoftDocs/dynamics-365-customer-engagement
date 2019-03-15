@@ -7,11 +7,13 @@
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
 ## [Dynamics 365 for Good device encryption](secure-mobile-data-dynamics-365-good.md)
 ## [Company News Timeline](../company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md)
-## [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
+
 
 # [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
 
 # [User Guide](dynamics-365-phones-tablets-users-guide.md)
+
+# [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
 
 # Older version (8.x)
 ## [Overview](../mobile-app/v8/about-this-content.md)
@@ -33,7 +35,7 @@
 ### Things to know and troubleshooting
 #### [Get the Company News Timeline](v8/go-mobile/admin-troubleshoot/get-company-news-timeline.md)
 #### [Reconfigure](../mobile-app/v8/go-mobile/admin-troubleshoot/reconfigure.md)
-#### [Secure your mobile data with Microsoft Dynamics 365 for Good](../mobile-app/v8/go-mobile/admin-troubleshoot/secure-mobile-data-dynamics-365-good.md)
+#### [Secure your mobile data with Microsoft Dynamics 365 for Customer Engagement apps for Good](../mobile-app/v8/go-mobile/admin-troubleshoot/secure-mobile-data-dynamics-365-good.md)
 #### [iFrame and web resource support](../mobile-app/v8/go-mobile/admin-troubleshoot/iframe-web-resource-support.md)
 #### [Troubleshoot a startup error](../mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error.md)
 #### [Troubleshoot error code 800c0019 on Windows Phones](../mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-error-code-800c0019-windows-phones.md)

@@ -1,14 +1,14 @@
 ---
-title: "Preview feature: Automatically suggest knowledge articles with Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Preview feature: Automatically suggest knowledge articles with Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: ""
-keywords: ""
+keywords: 
 ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: ee417009-afaf-4a63-9d8b-ef756a37decf
 author: Mattp123
 ms.author: matp
@@ -27,7 +27,7 @@ search.app:
 
 # Preview feature: Automatically suggest knowledge articles
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You want your customer service reps to quickly resolve cases with high customer satisfaction. By using the [!INCLUDE[pn_MicrosoftCognitiveServices_full](../includes/pn-microsoftcognitiveservices-full.md)] Text Analytics service with [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)], you can set up service case analysis to automatically provide your support staff with more relevant solutions from knowledge articles. They'll spend less time searching for answers and more time providing the correct response. The knowledge article suggestion feature includes support for both out-of-box entities and custom entities with a one-to-may (1:N) or many-to-one (N:1) relationship to the source entity.  
 
@@ -50,7 +50,7 @@ You want your customer service reps to quickly resolve cases with high customer 
 
 2. Click **System Settings** and open the **Previews** tab.  
 
-3. Under **Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**, set the **Enable Dynamics 365 Text Analytics Preview** to **Yes**.  
+3. Under **Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**, set the **Enable Dynamics 365 for Customer Engagement apps Text Analytics Preview** to **Yes**.  
 
 4. Click **OK** to give your consent.  
 
@@ -58,8 +58,8 @@ You want your customer service reps to quickly resolve cases with high customer 
 
 <a name="BKMK_ConnectTextAnalytics"></a>   
 
-## Connect Dynamics 365 (online) to the Cognitive Services Text Analytics service  
- If you haven't already, create the [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service connection. [Set the Azure Machine Learning text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection)  
+## Connect Dynamics 365 for Customer Engagement apps (online) to the Cognitive Services Text Analytics service  
+ If you haven't already, create the [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service connection. [Set the text analytics connection](public-preview-microsoft-cognitive-services-integration.md#set-the-text-analytics-connection)
 
 <a name="BKMK_SetUpKnowledgeSearch"></a>   
 
@@ -92,7 +92,7 @@ You want your customer service reps to quickly resolve cases with high customer 
 
    |  Item  |                                                                                                                                                                                                                                Description                                                                                                                                                                                                                                |
    |--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   | Entity | Choose an entity to use in creating a text search rule to find matching records in [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)]. The following entities are available: Activity, Case, Case Resolution, Email, Fax, Note.<br /><br /> -   Source entity like Case and Note.<br />-   Activity and out-of-box activity entities like Email, Fax, Letter, Phone Call, and Appointment.<br />-   Any custom entity with a 1:N or N:1 relationship to the source entity. |
+   | Entity | Choose an entity to use in creating a text search rule to find matching records in [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)]. The following entities are available: Activity, Case, Case Resolution, Email, Fax, Note.<br /><br /> -   Source entity like Case and Note.<br />-   Activity and out-of-box activity entities like Email, Fax, Letter, Phone Call, and Appointment.<br />-   Any custom entity with a 1:N or N:1 relationship to the source entity. |
    | Field  |                                                                                                                                  Choose the  field to use in creating a text search rule to find matching knowledge base records. The following types of fields are available: Option Set, Single Line of Text, Multiple Lines of Text.                                                                                                                                   |
 
 

@@ -65,7 +65,33 @@
       topicHref: /dynamics365/customer-engagement/sales-business/help-hub
     - name: Marketing
       tocHref: /dynamics365/customer-engagement/marketing
-      topicHref: /dynamics365/customer-engagement/marketing/get-started-section  
+      topicHref: /dynamics365/customer-engagement/marketing/get-started-section
+    - name: Omni-channel Engagement Hub
+      tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/
+      topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub-guide
+      items:
+      - name: Administrator
+        tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/administrator/
+        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/administrator/omni-channel-engagement-hub-administrator          
+      - name: Agent
+        tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/
+        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/omni-channel-engagement-hub-agent
+        items:
+        - name: Agent using Unified Service Desk
+          tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-usd/
+          topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-usd/omni-channel-engagement-hub-agent
+        - name: Agent using Customer Service Hub
+          tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-csh/
+          topicHref:  /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-csh/csh-omni-channel-engagement-hub-agent
+      - name: Supervisor
+        tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/supervisor/
+        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/supervisor/omni-channel-engagement-hub-supervisor          
+      - name: System Customizer
+        tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/customizer/
+        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/customizer/omni-channel-engagement-hub-customizer
+      - name: Customer
+        tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/customer/
+        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/customer/omni-channel-engagement-hub-customer                    
     - name: Developer Documentation
       tocHref: /dynamics365/customer-engagement/developer/
       topicHref: /dynamics365/customer-engagement/developer/index
@@ -101,9 +127,6 @@
       - name: Extend Outlook Client
         tocHref: /dynamics365/customer-engagement/developer/outlook-client/
         topicHref: /dynamics365/customer-engagement/developer/extend-customer-engagement-outlook
-    - name: Unified Service Desk
-      tocHref: /dynamics365/customer-engagement/unified-service-desk/
-      topicHref: /dynamics365/customer-engagement/unified-service-desk/index
     - name: Guidance
       tocHref: /dynamics365/customer-engagement/guidance/
       topicHref: /dynamics365/customer-engagement/guidance/
