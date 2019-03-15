@@ -28,7 +28,7 @@ The topic explains the known issues and limitations of Omni-channel Engagement H
 
 After you provision Omni-channel Engagement Hub, the communication panel doesn't load in the Customer Service Hub app.
 
-### Work around
+### Workaround
 
 To work around the issue, follow the steps:
 
@@ -43,6 +43,7 @@ Now, when you sign in to Customer Service Hub app, communication panel loads.
 When you use Omni-channel Engagement Hub with Unified Service Desk and use **IE Process** to host web applications, opening a conversation (work item) from the Omni-channel agent dashboard doesn't open as a session or as a form in the application management toolbar.
 
 ### Workaround
+
 To work around the issue, follow the steps:
 
 1. Go to `https://<orgURL>.dynamics.com/apps` and select **Unified Service Desk Administrator** app.
