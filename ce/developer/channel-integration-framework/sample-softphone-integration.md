@@ -4,7 +4,7 @@ description: "Learn about sample code for softphone integration using Channel In
 keywords: ""
 ms.date: 02/12/2019
 ms.service:
-  - "dynamics-365-cross-app"
+  - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
