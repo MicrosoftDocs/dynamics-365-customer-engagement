@@ -134,7 +134,7 @@ You only need to approve the email address for a user when their email address h
 >
 >  To approve emails for Dynamics 365 for Customer Engagement apps (online), a Dynamics user requires the Approve Email Addresses for Users or Queues privilege and the Office 365 global admin role. 
 >
->  For privacy reasons, we do not support Dynamics 365 service administrators approving emails when Dynamics 365 service admin User Principal Name (UPN) matches the email address in Dynamics 365.
+>  For privacy reasons, we do not support Dynamics 365 service administrators approving emails when the Dynamics 365 service admin User Principal Name (UPN) matches the email address in Dynamics 365.
   
 1.  Go to **Settings** > **Email Configuration** > **Mailboxes**.  
   
