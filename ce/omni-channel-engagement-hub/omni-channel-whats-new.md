@@ -19,9 +19,17 @@ ms.custom:
 
 This topic contains information about updates in Omni-channel Engagement Hub available in this version.
 
-### Data Masking
+### Data masking
 
-### Location Detection
+You can block sensitive data such as credit card information, social security numbers (SSN), or even profanity in a conversation by using data masking. You can create a masking rule and define a regular expression in it to identify the sensitive information and replace it with the masking character. More information: [Create and manage data masking rules](administrator/data-masking-settings.md).
+
+### Visitor location detection
+
+You can configure your chat widget to detect a visitor's location based on their latitude and longitude. If you have enabled location detection, a customer receives a prompt in their web browser when they start to chat. If a customer allows the location to be shared, the location is detected. More information: [Set up visitor location detection](administrator/geo-location-provider.md).
+
+### Agent display name configuration
+
+You can configure your chat widget to display either full name, first name, last name, or nickname of an agent to the customers. If you would like to hide your agent’s identity and anonymize, choose to display the nickname. More information: [Configure agent display name](administrator/agent-display-name.md).
 
 ### Live chat SDK
 
@@ -39,9 +47,6 @@ Use entity channel to route entities from **Common Data Service for Apps** to th
 For more information, see [Configure an entity channel](administrator/create-entity-channel.md)
 
 With an improved sitemap, quickly configure channels, work streams, queues, and routing rules so that the agents can quickly assist customer queries.
-
-
-### Agent anonymization
 
 ### PBI-integration simplification 
 
