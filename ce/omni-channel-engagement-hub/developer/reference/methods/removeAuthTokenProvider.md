@@ -33,14 +33,14 @@ None
 
 None
 
-## Example
+<!--## Example
 
 ```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                // Removes the currently set auth-token provider, if any.
                Microsoft.Omnichannel.LiveChatWidget.SDK.removeAuthTokenProvider();
 });
-```
+```-->
 ## See also
 
 [JavaScript API reference for Live chat SDK](../../omni-channel-reference.md)

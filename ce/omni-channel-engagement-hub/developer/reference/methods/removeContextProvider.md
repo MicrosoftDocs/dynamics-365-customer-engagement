@@ -31,7 +31,7 @@ None
 ## Return Value
 
 None
-
+<!--
 ## Example
 
 ```JavaScript
@@ -41,3 +41,4 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 });
 
 ```
+-->

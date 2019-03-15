@@ -34,7 +34,7 @@ None
 <!--note from editor: change "auth-token" to "authentication-token"   -->
 
 Should return the currently set authentication token provider, if any.
-
+<!--
 ## Example
 
 ```JavaScript
@@ -42,7 +42,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                // Gets the currently set auth-token provider, if any.
                let authTokenProvider = Microsoft.Omnichannel.LiveChatWidget.SDK.getAuthTokenProvider();
 });
-```
+```-->
 ## See also
 
 [JavaScript API reference for Live chat SDK](../../omni-channel-reference.md)
