@@ -1,6 +1,6 @@
 ---
-title: "Omni-channel agent dashboard view of agent interface in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn about the Omni-channel agent dashboard view of agent interface in Omni-channel Engagement Hub"
+title: "My Dashbaord view of agent interface in Omni-channel Engagement Hub | MicrosoftDocs"
+description: "Learn about the My Dashbaord view of agent interface in Omni-channel Engagement Hub"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -19,7 +19,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Omni-channel agent dashboard is a default view when you sign in to the application. The dashboard displays the following streams:
+The My Dashbaord is a default view when you sign in to the application. The dashboard displays the following streams:
 
 -   My work items
 
