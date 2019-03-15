@@ -28,6 +28,7 @@ Power BI is one of the best tools to deliver insights with simple and interactiv
 
 > [!NOTE]
 > You must have an appropriate Power BI license.
+> To use Power BI Embedded service integration, you must have an appropriate Power BI Embedded license.
 
 ## Enable Power BI visualization
 
@@ -44,20 +45,75 @@ Power BI is one of the best tools to deliver insights with simple and interactiv
 
 Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to embed Power BI dashboards and reports on web pages in a portal. While embedding the Power BI content, customizers can use [filter parameters](https://docs.microsoft.com/en-us/power-bi/service-url-filters) to create personalized views. More information: [powerbi Liquid tag](dynamics-entity-tags.md#powerbi)
 
-When Power BI visualization is enabled, the following action becomes available:
+### Disable Power BI visualization
 
-- **Disable Power BI visualization**: Allows you to disable Power BI visualization on your portal. While Power BI visualization is being disabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI visualization is disabled.
+1.	Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
+
+2.	Select the name of the portal for which you want disable Power BI visualization, and then select **Manage**.
+
+3.	Go to **Set up Power BI integration** > **Disable Power BI visualization**.
 
   > [!div class=mx-imgBorder]
   > ![Disable Power BI visualization](media/disable-power-bi-visualization.png "Disable Power BI visualization")
 
+4. Select **Disable** in the confirmation message. While Power BI visualization is being disabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI visualization is disabled.
+
 ## Enable Power BI Embedded service
 
 1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
+
 2. Select the name of the portal for which you want enable Power BI Embedded service, and then select **Manage**.
+
 3. Go to **Set up Power BI integration** > **Enable Power BI Embedded service (preview)**.
-4. In the **Enable Power BI Embedded service** window, select and move the Power BI workspaces that need to be displayed in your portal to the **Selected workspaces** list.
-5. Select **Enable**.
+
+    > [!div class=mx-imgBorder]
+    > ![Enable Power BI Embedded service](media/enable-powerbi-embedded-button.png "Enable Power BI Embedded service")
+
+4. In the **Enable Power BI Embedded service integration** window, select and move the Power BI workspaces that need to be displayed in your portal to the **Selected workspaces** list.
+
+    > [!div class=mx-imgBorder]
+    > ![Select Power BI workspaces](media/enable-powerbi-embedded-window.png "Select Power BI workspaces")
+
+5. Select **Enable**. While Power BI Embedded service is being enabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI Embedded service is disabled.
+
+### Manage Power BI Embedded service
+
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
+
+2. Select the name of the portal for which you want update or disable Power BI Embedded service, and then select **Manage**.
+
+3. Go to **Set up Power BI integration** > **Manage Power BI Embedded service (preview)**.
+
+    > [!div class=mx-imgBorder]
+    > ![Manage Power BI Embedded service](media/manage-powerbi-embedded-button.png "Manage Power BI Embedded service")
+
+4. In the **Manage Power BI Embedded service integration** window, select and move the Power BI workspaces that need to be displayed in your portal to the **Selected workspaces** list.
+
+    > [!div class=mx-imgBorder]
+    > ![Select Power BI workspaces](media/manage-powerbi-embedded-window.png "Select Power BI workspaces")
+
+5. Select **Save**.
+
+### Disable Power BI Embedded service
+
+1.	Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
+
+2.	Select the name of the portal for which you want disable Power BI Embedded service, and then select **Manage**.
+
+3.	Go to **Set up Power BI integration** > **Manage Power BI Embedded service (preview)**.
+
+    > [!div class=mx-imgBorder]
+    > ![Manage Power BI Embedded service](media/manage-powerbi-embedded-button.png "Manage Power BI Embedded service")
+
+4. In the **Manage Power BI Embedded service integration** window, select **Disable Power BI Embedded service integration**.
+
+    > [!div class=mx-imgBorder]
+    > ![Disable Power BI Embedded service](media/disable-powerbi-embedded-window.png "Disable Power BI Embedded service")
+
+5. Select **Save**.
+
+6. Select **OK** in the confirmation message. While Power BI Embedded service is being disabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI Embedded service is disabled.
+
 
 ## Privacy notice  
 

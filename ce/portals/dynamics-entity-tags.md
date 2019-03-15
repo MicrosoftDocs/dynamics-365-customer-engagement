@@ -68,7 +68,7 @@ Path of the Power BI report or dashboard. If the Power BI report or dashboard is
 
 **authentication_type**
 
-Type of authentication required for the Power BI report or dashboard. Valid values for this parameter are Anonymous or AAD. The default value is Anonymous.
+Type of authentication required for the Power BI report or dashboard. Valid values for this parameter are Anonymous, AAD, or powerbiembedded. The default value is Anonymous.
 While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 for Customer Engagement Portal Azure Active Directory authenticated users. 
 
 ```
