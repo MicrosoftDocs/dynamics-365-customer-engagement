@@ -27,7 +27,7 @@ To upgrade the Omni-channel app to the latest version, upgrade the following sol
 Follow these steps to upgrade Omni-channel app.
 
 1. Go to [Dynamics 365 Admin Center](https://portal.office.com/adminportal/home#/homepage).
-2. Select **Instances** tab and navigate to your Dynamics 365 instance. 
+2. Select the **Instances** tab and navigate to your Dynamics 365 instance. 
 3. In the **Manage your solutions** section, select **Omni-channel Engagement Hub – Chat Package for Dynamics 365** from the list of solutions.
 4. Select **Upgrade** to upgrade the solution.
 
