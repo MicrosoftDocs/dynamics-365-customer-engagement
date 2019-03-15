@@ -45,12 +45,11 @@
 ## [Why is the price defaulting to zero on time sales actuals?](FAQ-zero-price-time-sales-actuals.md)
 ## [Why can’t I delete records from the Actuals entity?](FAQ-deleting-actuals.md)
 
-# [Notes for developers (app version 3.x)](../project-service/developer-guides/overview-dev-notes-v3.x.md)
-## Project Service 3.x changes
-### [Pre-Sales](../project-service/developer-guides/presales-changes-in-v3.x.md)  
-### [Time and Expense](../project-service/developer-guides/timeexpense-changes-in-v3.x.md)  
-### [Resource Management](../project-service/developer-guides/resourcemanagement-changes-in-v3.x.md)  
-### [List of Web Resources Deprecated in Project Service v3.x](../project-service/developer-guides/webresources-deprecated-in-v3.x.md)
+## [Development (app version 3.x)](../project-service/developer-guides/overview-dev-notes-v3.x.md)
+### [Entity changes](../project-service/developer-guides/entity-changes-v3.x.md)  
+### [Time and expense](../project-service/developer-guides/time-expense-changes-v3.x.md)  
+### [Resource management](../project-service/developer-guides/resource-management-changes-v3.x.md)  
+### [Deprecated Web resources in Project Service Automation v3.x](../project-service/developer-guides/web-resources-deprecated-v3.x.md)
 
 # Guidance for earlier versions (app version 2.x and 1.x)
 ## FAQ and troubleshooting 
