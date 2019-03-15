@@ -101,14 +101,12 @@
 ##### [Step 5: Add the action calls to the events](customizer/toastnotification-step5-add-action-calls-events.md)
 ##### [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](customizer/toastnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
-## [Omni-channel Engagement Hub for customer](customer/omni-channel-engagement-hub-customer.md)
-
 ## [Developer guide](developer/omni-channel-engagement-hub-developer.md)
 ### [How to]()
 #### [Send context when starting chat](developer/how-to/send-context-starting-chat.md)
 #### [Send authentication token when starting chat](developer/how-to/send-auth-token-starting-chat.md)
 #### [Initiate chat after user has been waiting for some time](developer/how-to/initiate-chat-wait-time.md)
-### [JavaScript API Reference](developer/omni-channel-reference.md)
+### [Live chat JavaScript API Reference](developer/omni-channel-reference.md)
 #### [Methods]()
 ##### [getContextProvider](developer/reference/methods/getContextProvider.md)
 ##### [setContextProvider](developer/reference/methods/setContextProvider.md)
