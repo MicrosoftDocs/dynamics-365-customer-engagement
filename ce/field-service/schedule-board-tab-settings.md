@@ -133,18 +133,33 @@ Web resources represent files that can be used to extend the Microsoft Dynamics 
 The colors chosen in this section only apply to the Days, Weeks, and Months views of the schedule board and represent resources' utilization. Utilization is calculated as the hours booked compared to working hours for the schedule board time range. 
 
 In the image below is a Days view of the schedule board where each resource works 12 hours each day and the range is 2 days. 
+
+**Fully Booked:** Blue because the total booking duration (12 hours) equals the working hours for that particular resource's day.
+
+**Partially Booked:** Light Blue diagonal lines because the total booking duration (7 hours) is less than the working hours for that particular resource's day.
+
+**Overbooked:** Red because the total booking duration (14 hours) exceeds the working hours for that particular resource's day.
+
+**Not booked:** White because no bookings exist for that resource for that day.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule board colors](./media/schedule-board-tab-settings-schedule-board-colors.png)
 
 ### Schedule Assistant
 
-**Search For:** This setting decides the default value for the Search for field in the schedule assistant filter pane. Set to **All resources** to search for all applicable resources in the system that meet the schedule assistant filters for the requirement. Set to **Resources visible on board** to search for resources that meet the schedule assistant filters for that requirement AND meet the current schedule board resource filters (are visible on the schedule board the schedule assistant was triggered from). This schedule assistant filter value can still be manually changed by the dispatcher at the time of scheduling. If a scheduler is responsible for a specific schedule board and specific resources, then the **Resources visible on board** is recommended because this ensures the scheduler cannot schedule requirements to other resources he or she is not responsible for. For smaller organizations or organizations with less rigid resource and line of business divisions, the **All resources** setting will allow schedulers to search across all applicable resources across the entire organization. 
+**Search For** 
 
-**Unavailable Resources:** This setting decides how unavailable resources appear when the schedule assistant is triggered. Set to **Unavailable resources do not appear** to have resources that do not meet schedule assistant filter criteria to temporarily be removed from the view of available resources to schedule to. Set to **Unavailable resources appear dimmed (when searching for resources visible on board)** to have resources that do not meet schedule assistant filter criteria to remain on the schedule board but appear dimmed. For schedule boards with many resources, using the **Unavailable resources do not appear** setting can reduce the need to scroll and make it easier for scheduler to compare available resources.
+This setting decides the default value for the Search for field in the schedule assistant filter pane. Set to **All resources** to search for all applicable resources in the system that meet the schedule assistant filters for the requirement. Set to **Resources visible on board** to search for resources that meet the schedule assistant filters for that requirement AND meet the current schedule board resource filters (are visible on the schedule board the schedule assistant was triggered from). This schedule assistant filter value can still be manually changed by the dispatcher at the time of scheduling. If a scheduler is responsible for a specific schedule board and specific resources, then the **Resources visible on board** is recommended because this ensures the scheduler cannot schedule requirements to other resources he or she is not responsible for. For smaller organizations or organizations with less rigid resource and line of business divisions, the **All resources** setting will allow schedulers to search across all applicable resources across the entire organization. 
 
-**Book Based On:** Though booking an on site requirement (typically a work order) will always have a total duration = travel time + requirement duration, this setting changes the schedule assistant visualization to make it easier to understand when travel time starts and when the estimated arrival time is. Set to **Start of Travel** to visualize the booking start as when travel begins. Set to **Estimated Arrival** to visualize the booking start as when the resource is estimated to arrive on site. One consideration is whether the scheduler is communicating with the customer in real time over the phone because customers are typically more interested in when the resource will arrive at their location, and therefore administrators should make it easier for the scheduler to communicate this time by selecting the **Estimated Arrival**. View this [blog post](https://blogs.msdn.microsoft.com/crm/2018/04/02/whats-new-in-universal-resource-scheduling-for-dynamics-365-april-2018-update/#BookbyETA) for more details.
+**Unavailable Resources** 
 
-### Available Color, Partially Available Color, Unavailable Color
+This setting decides how unavailable resources appear when the schedule assistant is triggered. Set to **Unavailable resources do not appear** to have resources that do not meet schedule assistant filter criteria to temporarily be removed from the view of available resources to schedule to. Set to **Unavailable resources appear dimmed (when searching for resources visible on board)** to have resources that do not meet schedule assistant filter criteria to remain on the schedule board but appear dimmed. For schedule boards with many resources, using the **Unavailable resources do not appear** setting can reduce the need to scroll and make it easier for scheduler to compare available resources.
+
+**Book Based On** 
+
+Though booking an on site requirement (typically a work order) will always have a total duration = travel time + requirement duration, this setting changes the schedule assistant visualization to make it easier to understand when travel time starts and when the estimated arrival time is. Set to **Start of Travel** to visualize the booking start as when travel begins. Set to **Estimated Arrival** to visualize the booking start as when the resource is estimated to arrive on site. One consideration is whether the scheduler is communicating with the customer in real time over the phone because customers are typically more interested in when the resource will arrive at their location, and therefore administrators should make it easier for the scheduler to communicate this time by selecting the **Estimated Arrival**. View this [blog post](https://blogs.msdn.microsoft.com/crm/2018/04/02/whats-new-in-universal-resource-scheduling-for-dynamics-365-april-2018-update/#BookbyETA) for more details.
+
+**Available Color, Partially Available Color, Unavailable Color**
 
 The colors selected in the Schedule Assistant section represent how resources' availability (or unavailability) appear when the schedule assistant is triggered from the Days, Weeks, or Months view.  
 
@@ -154,7 +169,7 @@ The colors selected in the Schedule Assistant section represent how resources' a
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule assistant colors](./media/schedule-board-tab-settings-schedule-assistant-colors.png)
 
-### Available Icon, Partially Available Icon, Unavailable Icon
+**Available Icon, Partially Available Icon, Unavailable Icon**
 
 The icons selected in the Schedule Assistant section also apply when the schedule assistant is triggered from the Days, Weeks, or Months view and are displayed along with the colors chosen in the previous settings to represent if resources are available or unavailable. 
 
@@ -164,6 +179,30 @@ The icons selected in the Schedule Assistant section also apply when the schedul
 If the **Default Available Icon**, **Default Partially Available Icon**, or **Default Unavailable Icon** boxes are unchecked, then no icons will appear.
 
 The icons can be customized by uploading new image files in **Customizations > Customize the System > Web Resources** and referencing the path in tab settings. 
+
+### Other Settings 
+
+**Requirement Page Count**
+
+Controls the number of resource requirement records displayed in the list in the lower pane of the schedule board.
+
+**Non-Working Hours Color**
+
+Controls the color of the shaded area when a resource is not working as dictated by the resource's working hours and time off requests.
+
+**Current Timeline Color**
+
+Controls the color of the vertical line that runs down the schedule board to indicate the current time of that particular schedule board taking into consideration the time zone of the schedule board.
+
+**Booking Alerts View**
+
+System view that can filter which Booking Alerts records are eligible to show up in the Alerts view in the right-hand Details pane of the schedule board. As an example, consider a scenario where the business has booking alerts being triggered based on events related to work orders, projects, and cases. What if the particular schedule board tab only deals with work order requirements? In this case, a booking alert system view can be used to filter to only booking alerts related to work orders to be eligible in the right-hand alerts pane. Note that booking alerts still needs to be triggered based on an alarm or workflow, but the view chosen here can further filter. 
+
+
+**Booking Alerts Template**
+
+Given a Booking Alert can show up 
+
 
 ## Additional Notes
 - moving schedule board tab settings to other orgs 
