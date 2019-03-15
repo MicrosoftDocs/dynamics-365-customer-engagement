@@ -53,8 +53,8 @@ Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to
 
 3.	Go to **Set up Power BI integration** > **Disable Power BI visualization**.
 
-  > [!div class=mx-imgBorder]
-  > ![Disable Power BI visualization](media/disable-power-bi-visualization.png "Disable Power BI visualization")
+    > [!div class=mx-imgBorder]
+    > ![Disable Power BI visualization](media/disable-power-bi-visualization.png "Disable Power BI visualization")
 
 4. Select **Disable** in the confirmation message. While Power BI visualization is being disabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI visualization is disabled.
 
