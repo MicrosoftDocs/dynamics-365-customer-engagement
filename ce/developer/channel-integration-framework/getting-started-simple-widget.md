@@ -39,13 +39,13 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
 3. Select the **MVC** template for your application, and make sure that authentication is set to **No Authentication**.<br />
 
-  ![Select MVC template for your application](media/cif-helloworld-select-mvc.PNG "Select MVC template for your application")<br />
+    ![Select MVC template for your application](media/cif-helloworld-select-mvc.PNG "Select MVC template for your application")<br />
 
-   You can choose any other template for your ASP.NET application.
+    You can choose any other template for your ASP.NET application.
 
 4. Now view the files in Solution Explorer. Expand **Views** > **Home**, and open the **Index.cshtml** file.<br />
 
-  ![Open Index.cshtml file from solution explorer](media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
+    ![Open Index.cshtml file from solution explorer](media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
 
 5. Replace the HTML code in the **Index.cshtml** file with the following code:
 
@@ -60,19 +60,18 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 ```
 6. Run this HTML file using Microsoft Edge or Google Chrome to test and debug.
 
-  The webpage should look like this when you run it in your browser:
+    The webpage should look like this when you run it in your browser:
 
-  ![Run app in browser](media/cif-helloworld-run-browser.PNG "Run app in browser")<br />
+    ![Run app in browser](media/cif-helloworld-run-browser.PNG "Run app in browser")<br />
 
 ## Publish and configure the widget 
 
 1. To publish the sample widget you just created, follow the steps in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). You might also want to read this Azure tutorial on how to create and publish an ASP.NET web app in Azure: [Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-dotnet-framework).
+    Once the wizard has published the app on Azure, it provides a site URL that you can use to access your hosted web app.<br />
 
-  Once the wizard has published the app on Azure, it provides a site URL that you can use to access your hosted web app.<br />
+    ![See Site URL of published web app](media/cif-helloworld-site-url.PNG "See Site URL of published web app")<br />
 
-  ![See Site URL of published web app](media/cif-helloworld-site-url.PNG "See Site URL of published web app")<br />
-
-  When you select the site URL, it opens the same web app that we saw earlier while debugging our web app in Visual Studio.
+    When you select the site URL, it opens the same web app that we saw earlier while debugging our web app in Visual Studio.
 
 2. To configure the widget in your Dynamics 365 instance, follow the steps mentioned here: [Configure sample app in Dynamics 365](sample-softphone-integration.md#bkmk_Configure).
 
