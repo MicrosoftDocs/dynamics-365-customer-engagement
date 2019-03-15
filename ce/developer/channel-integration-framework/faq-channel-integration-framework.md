@@ -4,7 +4,7 @@ description: "Frequently asked questions about the Channel Integration Framework
 keywords: ""
 ms.date: 02/14/2019
 ms.service:
-  - "dynamics-365-cross-app"
+  - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"

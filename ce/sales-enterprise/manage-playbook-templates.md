@@ -4,7 +4,7 @@ description: "Create and manage playbook templates to help your team consistentl
 keywords: "playbook, consistent, activity, sales process, business process, best practice"
 ms.date: 02/20/2019
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
