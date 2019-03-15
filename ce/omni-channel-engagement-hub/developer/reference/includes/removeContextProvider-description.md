@@ -1,1 +1,1 @@
-Removes the currently set context provider, if any.
+Removes the currently set custom context provider, if any.

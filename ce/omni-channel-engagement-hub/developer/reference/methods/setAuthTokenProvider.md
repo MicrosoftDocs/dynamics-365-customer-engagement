@@ -50,4 +50,4 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 ```
 ## See also
 
-[JavaScript API reference for Live chat SDK](omni-channel-reference.md)
+[JavaScript API reference for Live chat SDK](../../omni-channel-reference.md)

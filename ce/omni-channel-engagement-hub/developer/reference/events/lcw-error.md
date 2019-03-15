@@ -31,4 +31,4 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(){
 ### See also
 
 [lcw:ready](lcw-ready.md)<br />
-[JavaScript API reference for Live chat SDK](omni-channel-reference.md)
+[JavaScript API reference for Live chat SDK](../../omni-channel-reference.md)

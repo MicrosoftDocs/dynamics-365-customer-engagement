@@ -21,7 +21,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 [!INCLUDE[setContextProvider-description](../includes/setContextProvider-description.md)]
 
 > [!IMPORTANT]
-> The context is a collection of key/value pairs. Only primitive values are allowed for any key.
+> The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 | Parameter | Type | Description |
 | ---- | ---- | ---- |
-| contextProvider | Function | Function that acts as a context provider |
+| contextProvider | Function | Function that acts as a custom context provider |
 
 ## Return Value
 
@@ -41,7 +41,7 @@ None
 
 ```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-               // Set the context provider
+               // Set the custom context provider
                // Throws error if contextProvider is not a function
                Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
                               return {
@@ -55,4 +55,4 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 ```
 ## See also
 
-[JavaScript API reference for Live chat SDK](omni-channel-reference.md)
+[JavaScript API reference for Live chat SDK](../../omni-channel-reference.md)

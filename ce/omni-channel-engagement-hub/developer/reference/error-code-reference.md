@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Here are the error codes and error messages that are returned when using live chat SDK methods.
+Here are the error codes and error messages that are returned when using Live chat JavaScript API methods.
 
 |Error Code|Error message|
 |-----|-----|
@@ -27,8 +27,6 @@ Here are the error codes and error messages that are returned when using live ch
 |3|Auth token provider didn't provide any token|
 |4|Auth token provider provided invalid token|
 
-
-
 ### See also
 
-[JavaScript API reference](../omni-channel-reference.md)
+[JavaScript API reference for Live chat SDK](../omni-channel-reference.md)
