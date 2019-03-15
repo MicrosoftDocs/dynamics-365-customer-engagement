@@ -71,7 +71,6 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 |    **Authentication Settings**      |    View/add/edit/delete authentication settings|    Yes   |     No  |     No |
 |||
 
-
 ### See also
 
 [Provision Omni-channel Engagement Hub](omni-channel-provision-license.md)

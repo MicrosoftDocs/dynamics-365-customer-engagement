@@ -45,7 +45,7 @@ Email is a vital marketing channel for most modern organizations. It's also a co
 To create a marketing email and go live:
 
 1. Go to **Marketing** &gt; **Marketing Execution** &gt; **Marketing Emails**. This takes you to a list of existing marketing emails.  
-    ![Location of the new-segment button](media/new-segment-button-location.png "Location of the new-segment button")
+    ![Location of the new-email button](media/new-email-button-location.png "Location of the new-email button")
 
     On the command bar, select **New**.
 
@@ -84,32 +84,36 @@ To create a marketing email and go live:
 
 6. An easy way to personalize the message is to include the name of the recipient in the greeting. Add the recipient's name as dynamic text by using the assist-edit feature as follows:
 
-    1. Working in the text element you just added, enter a suitable opening such as **Dear**.
-    1. On the pop-up toolbar, select the assist-edit button **&lt;/&gt;**. This opens a drop-down list at your insertion point in the text element.
-    ![Choose an entity using assist edit](media/email-assist-edit-entity.png "Select an entity by using assist edit")  
-    1. In the assist-edit drop-down list, select **Contact**. The assist-edit tool enters code that references the contact entity, advances the insertion point to the next position in the code, and opens a new drop-down list that shows each field from the contact entity.
-    ![Choose a field using assist-edit](media/email-assist-edit-field.png "Select a field by using assist-edit")
-    1. In the assist-edit drop-down list, select **firstname**. The assist-edit tool finishes the code so that it references the first-name field from the contact entity. The full salutation now looks like this: **Dear {{contact.firstname}},**. (If you prefer, you can enter that code directly without using assist-edit.)
+    1. Working in the text element you just added, enter a suitable opening such as "Dear".
+
+    1. On the pop-up toolbar, select the assist-edit button **&lt;/&gt;**. This opens the assist-edit dialog.
+
+        ![Assist edit, page 1](media/assist-edit-p1.png "Assist edit, page 1")
+
+    1. Select the **Contextual** radio button, and then select **Contact** from the combo box here. The **Contextual** setting means that you will place a dynamic value related to the context where you use the message, while the **Contact** setting means that the context relates to the individual recipient (contact) of the message.
+
+    1. Select **Next** to continue to the next page of the assit-edit tool.
+
+        ![Assist edit, page 2](media/assist-edit-email-tutorial-p2.png "Assist edit, page 2")
+
+    1. On the previous page, you choose the contact entity (in context). On this page you must choose which field from that entity you want to place. We're building the salutation, so we'd like to show the recipient's first name here. Select the **Property** radio button and then start to type "first" into the combo box here. This searches the available fields for those that include the text "first", which greatly reduces the number of fields you need to look through. Select **First Name** from the list as soon as you can see it.
+
+    1. Select OK to place the expression you've built and close the assist-edit tool. The full salutation now looks like this: **Dear {{contact.firstname}},**. (If you prefer, you can enter that code directly without using assist-edit.)
 
    > [!TIP]
    > You might have noticed that the **Subject** field also has an assist-edit button. This means that you can put dynamic text (including the recipient's name) in the subject too.
 
-7. The body of all email messages must include both a subscription-center link and your organization's physical address. These are required by law in many jurisdictions, and [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] won't let you publish any marketing email that doesn't have them. Most templates include them already, but when you're working with a blank template you must add them yourself. Like you did with the recipient's name, you'll place them by using assist-edit as follows:
-   1. Choose a suitable location for your physical address, and then use assist-edit to place it. Select **msdyncrm\_contentsettings** in the first drop-down list, and then select **msdyncrm\_addressmain** in the second drop-down list to build the expression: **{{msdyncrm\_contentsettings.msdyncrm\_addressmain}}**.
-   2. Choose a suitable location for the subscription-center link, and then enter some anchor text there (such as **manage your subscriptions**). Select the anchor text, and then select the **Link** button ![The Link button](media/email-link-button.png "The link button") from the floating toolbar, which opens the **Link** dialog box. Select the assist-edit button for the **Link** field, and then select **msdyncrm\_contentsettings** in the first drop-down list and **msdyncrm\_subscriptioncenter** from the second list to build the expression: **{{msdyncrm\_contentsettings.msdyncrm\_subscriptioncenter}}**. Select **OK** to create the link.  
+7. The body of all email messages must include both a subscription-center link and your organization's physical address. These are required by law in many jurisdictions, and [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] won't let you publish any marketing email that doesn't have them. These values are provided by the [content settings entity](dynamic-email-content.md#content-settings), which enables you to store their values centrally and change them for each customer journey as needed. Therefore you'll place these as contextual dynamic values, just as you did with the recipient's name (though in this case, the relevant context is the journey rather than the recipient). Place them by using assist-edit as follows:
+   1. Choose a suitable location for your *physical address*, and then use assist-edit to place it. Select **Contextual** and then **ContentSettings** on the first page of the assist-edit tool. Select **Next** and then pick **Property** and **msdyncrm_addressmain** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_addressmain}}` into your message.
+   2. Choose a suitable location for the *subscription-center link*, and then enter some anchor text there (such as "Manage your subscriptions"). Select the anchor text, and then select the **Link** button ![The Link button](media/email-link-button.png "The link button") from the floating toolbar, which opens the **Link** dialog box. Select the assist-edit button for the **Link** field. In the assist-edit dialog, select **Contextual** and then **ContentSettings** on the first page. Select **Next** and then pick **Property** and **msdyncrm_subscriptioncenter** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` into the **Link** field.  
       ![The email Link dialog](media/email-link-dialog.png "The email Link dialog box")  
-
-      > [!TIP]
-      > Values that you use often, including required content like the subscription-center link and physical address, are stored in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] as *content settings*. That's why you chose the content settings entity when placing these values by using assist-edit. Content settings provide a central location where you can store and update information that you use in most or all of your messages.
-      > 
-      > You can have as many Content Settings records as you like, but many organizations use just one. When you set up a customer journey, you'll also pick the Content Settings record used by all messages sent by that journey. This means that you can reuse the same marketing email in different customer journeys, but dynamic values taken from the Content Settings record can vary based on which customer journey sends the message.  
 
 8. You should usually include at least one visible image in your design because this will invite recipients to load images, which is required for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to log the message-open event. Drag an **Image** element from the **Toolbox** onto the canvas. This time, when you drop the element, you'll see an image placeholder and the **Properties** tab, which shows configuration settings for the selected element.  
     ![Where to set the Source for an image](media/email-image-source.png "Where to set the source for an image")
 
-9. On the **Properties** tab, select the **Image Gallery** button ![The browse button](media/email-browse-button.png "The browse button") at the right side of the **Source** field . The **Select an Image** dialog box opens.  
+9. On the **Properties** tab, select the **Image gallery** button ![The browse button](media/email-browse-button.png "The browse button") at the right side of the **Source** field . The **Select an file** dialog box opens.  
     ![The image library browser](media/image-library.png "The image library browser")  
-   Here you can see all the images that have already been uploaded to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] server. Select an image, and then choose **Select** to place it in your message design. (If you don't see any images, choose **Upload a Picture** to add a new one.)
+   Here you can see all the images that have already been uploaded to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] server. Select an image, and then choose **Select** to place it in your message design. (If you don't see any images, choose **Upload** to add a new one.)
 
    > [!TIP]
    > When a message goes live, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uploads all relevant images from your library to its content-delivery network, where they become available as a single source to all recipients. The images aren't attached to each message, but instead are included as links that are redirected through [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for tracking purposes. Recipients won't download any images until they open the message, which saves bandwidth both for you and them. When a recipient's email client requests the images, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] knows that the message has been opened, and by whom.
@@ -119,7 +123,7 @@ To create a marketing email and go live:
 
      Use the buttons in the leftmost column to choose a screen size and orientation to preview. Use the **Contact** and **Content Settings** fields in the **Properties** column to see how your dynamic content will resolve for various recipients and settings.
 
-11. To make sure your message includes all required content and is ready to send, select **Check for Errors** in the command bar. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] checks your message, and then displays results in the notification bar. Expand the notification bar to read the results.  
+11. To make sure your message includes all required content and is ready to send, select **Check for Errors** in the command bar. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] checks your message, and then displays results in the notification bar at the top of the page. If more than one errors are found, then select the expansion button to see all of them.
      ![The check-for-errors button and notifications](media/email-validation-result.png "The Check for Errors button and notifications")
 
      If you followed this procedure, your message should pass the error check. If it doesn't, read the error message, fix the reported issue, and try again until it passes.

@@ -2,7 +2,7 @@
 title: "Sign up and install a free trial (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to sign up for a trial of Dynamics 365 for Marketing, obtain prerequisite software, and set up the trial"
 keywords: trial
-ms.date: 10/16/2018
+ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -129,8 +129,8 @@ The user account that you used to set it up is now:
 
 If you set up a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a production tenant, then new users can add themselves by going to trial.dynamics.com and then signing up using their existing [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] email address. However, if you installed the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, as described in the previous section, then you must add each new user as follows:
 
-1. Open a web browser and go to [portal.office.com](http://portal.office.com). Sign in to your trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as the global administrator that you set up while signing up for the trial.
-2. Once you are signed in, go to [portal.office.com/adminportal/home#/users](http://portal.office.com/adminportal/home#/users) to open the **Active users** page, where you can manage users for the tenant.
+1. Open a web browser and go to [portal.office.com](https://portal.office.com). Sign in to your trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as the global administrator that you set up while signing up for the trial.
+2. Once you are signed in, go to [portal.office.com/adminportal/home#/users](https://portal.office.com/adminportal/home#/users) to open the **Active users** page, where you can manage users for the tenant.
 3. Select **Add a user** to open the **New user** flyout panel.
 4. Enter the new user's name and other details in the flyout panel. 
    - Make sure the **Domain** is the same as the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.   

@@ -1,4 +1,5 @@
 ---
+redirect_url: manage-deployment
 title: "Disaster recovery (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Online feature to recover from a planned or unplanned service interruption."
 ms.custom: 

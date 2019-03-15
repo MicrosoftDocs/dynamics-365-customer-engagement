@@ -65,7 +65,7 @@ As an app maker or customizer, you can create and edit entities by using solutio
 3. In the **Component Type** list, select **New**, and then select **Entity**.
 4. Enter the following required information. For more information about the optional properties available, see [Entity options that can only be enabled](edit-entities.md#entity-options-that-can-only-be-enabled) and [Enable or disable entity options](edit-entities.md#enable-or-disable-entity-options).
    - **Display Name**. Defines the label displayed in apps for entity references and records created that are based on the entity, such as *Widget*. 
-   - **Plural Name**. This is the label displayed in apps for references to entity records in multiple, such as *Widgets*. 
+   - **Plural Name**. This is the label displayed in apps for references to entity records that may include multiple records, such as *Widgets*. 
    - **Name**. This field is prepopulated based on the **Display Name** you entered and includes the solution publisher customization prefix, such as *new_widget*. You can change the **Display Name** later, but the **Name** can’t be changed after the field is saved. More information: [Change the solution publisher prefix for the default publisher](change-solution-publisher-prefix.md)
 
 

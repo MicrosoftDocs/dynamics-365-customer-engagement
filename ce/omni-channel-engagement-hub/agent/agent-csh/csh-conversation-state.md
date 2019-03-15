@@ -25,7 +25,7 @@ Types of conversation states:
  
  - Waiting
  
- - Wrap
+ - Wrap-up
 
  - Closed
 
@@ -33,7 +33,7 @@ Types of conversation states:
 
 The conversations (work items) that are in the queue or available for you (agent) to pick are classified under **Open** state. 
 
-- The system changes the state from **Open** to **Active** under the following scenarios:
+- The conversation (work item) transitions from **Open** to **Active** state under the following scenarios:
 
     - When the you pick the conversation from the **Open work items** stream.
 
@@ -41,15 +41,15 @@ The conversations (work items) that are in the queue or available for you (agent
 
     - When the supervisor assigns the conversation to you.
 
-- The system changes the state from **Open** to **Closed** when the customer disconnects or ends the chat before the conversation is assigned to you.
+- The conversation (work item) transitions from **Open** to **Closed** state when the customer disconnects or ends the chat before the conversation is assigned to you.
 
 ## Active
 
-The conversations that you pick for working are classified under **Active** state.
+The conversations that you pick for working are classified under **Active** state. In the **Active** state, your capacity is consumed.
 
-- The system changes the state from **Active** to **Closed** when you complete working on the conversation and end the conversation and close the session.
+- The conversation (work item) transitions from **Active** to **Closed** state when you complete working on the conversation and end the conversation and close the session. This is applicable only for the Entity Routing conversations (work items) and not for any other channel conversations (work items).
 
-- The system changes the state from **Active** to **Open** under the following scenarios:
+- The conversation (work item) transitions from **Active** to **Open** state under the following scenarios:
 
     - When you disconnect the conversation and doesn't reconnect with in a specified timeout period.
 
@@ -57,13 +57,13 @@ The conversations that you pick for working are classified under **Active** stat
 
     - When you transfer the conversation to another agent or queue.
 
-- The system changes the state from **Active** to **Waiting** under the following scenarios:
+- The conversation (work item) transitions from **Active** to **Waiting** state under the following scenarios:
 
-    - When you close the session.
+    - When you close the session (not ending the conversation by selecting the **End** button).
     
-    - When the customer disconnects the conversation, and you wrap (close) the session (not ending the conversation by selecting the **End** button).
+    - When the customer disconnects the conversation, and you Wrap-up (close) the session (not ending the conversation by selecting the **End** button).
 
-- The system changes the state from **Active** to **Wrap** state under the following scenarios: 
+- The conversation (work item) transitions from **Active** to **Wrap-up** state under the following scenarios: 
 
     - When you select the **End** button on **Communication panel** during the conversation with the customer.
 
@@ -73,26 +73,26 @@ The conversations that you pick for working are classified under **Active** stat
 
 The conversations that you close or customer disconnects are classified under **Waiting** state. These conversations are not just closed and not ended by selecting the **End** button either in Communication panel (for agent) and portal chat widget (for customer).
 
-- The system changes the state from **Waiting** to **Closed** under the following scenarios:
+- The conversation (work item) transitions from **Waiting** to **Closed** state under the following scenarios:
 
     - When you don't reconnect to the conversation with in a specified timeout period.
 
     - When the customer selects the **End** button to end the conversation and close the session.
 
-- The system changes the state from **Waiting** to **Active** when you revive the session from your **Today's Conversation** stream on **Omni-channel agent dashbaord**. 
+- The conversation (work item) transitions from **Waiting** to **Active** state when you revive the session from your **Today's Conversation** stream on **Omni-channel agent dashboard**. 
 
-- The system changes the state from **Waiting** to **Open** when the customer revives the conversation within a specified timeout period.
+- The conversation (work item) transitions from **Waiting** to **Open** state when the customer revives the conversation within a specified timeout period.
 
-## Wrap
+## Wrap-up
 
-The conversations that are ended either by you or the customer are classified under **Wrap** state. This state is a phase where can finish the wrap-up activities like taking notes and update the customer information before moving the conversation to **Closed** state.
+The conversations that are ended either by you or the customer are classified under **Wrap-up** state. This state is a phase where can finish the Wrap-up activities like taking notes and update the customer information before moving the conversation to **Closed** state.
 
-- The system changes the state from **Wrap** to **Closed** under the following scenarios: 
-
-- When you select the **End** button in **Communication panel** to end the conversation.
-
-- When customer selects the **End** button to end the conversation in the portal chat widget.
+- The conversation (work item) transitions from **Wrap-up** to **Closed** state when you select the **End** button in **Communication panel** and close the session. 
 
 ## Closed
 
-The conversations that are completed by ending, and closing the session are classified under **Closed** state.
+The conversations that are completed by ending, and closing the session are classified under **Closed** state. When you close a conversation, you cannot reactivate or reopen the conversation again.
+
+## See also
+
+[Understand conversation state lifecycle](../../administrator/conversation-state-lifecycle.md)

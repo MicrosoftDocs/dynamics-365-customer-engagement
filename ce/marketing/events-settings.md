@@ -2,7 +2,7 @@
 title: "Set up event administration options and webinar provider accounts (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Set options for event administration and configure connections to your webinar provider accounts in Dynamics 365 for Marketing"
 keywords: administration; webinar; webinar provider
-ms.date: 10/16/2018
+ms.date: 03/15/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -105,7 +105,10 @@ To set your event-administration options:
     - **Send mail to event attendee**: Set to **Yes** if you'd like the system to send an automatic email to each new contact that is registered for an event. This includes both self-registering contacts (if allowed) and contacts registered by another purchaser.
     - **Event template for event attendee**: Choose the (hard-coded) email template to send to each registrant when **Send mail to event attendee** is enabled.
     - **Match contact based on**: Choose the strategy to use when matching a new event registration to an existing contact record. If a contact record is found that has matching values for *all* of the fields you choose here, then the registration will be linked to that contact record. If no match is found, then a new contact will be created and linked to the new registration record. You can choose to match by email alone; first name and last name; or email, first name, and last name.
-
+    > [!NOTE]
+    > In order to make the name-based contact matching strategy work with AAD, it is mandatory to provide first name and last name on sign-up. More information [Configuration for Azure Active Directory](developer/self-hosted.md#configuration-for-azure-active-directory). 
+    > In order to make the name-based contact matching strategy work with **Portal Authentication** it is mandatory to provide first and last name after registering.
+    
     > [!NOTE]
     > The email templates provided for sending confirmations to the event purchaser and/or attendee are hard coded, so you can't customize or translate their content. If you require custom messaging, then set up a [customer journey](customer-journeys-create-automated-campaigns.md) with event, trigger, and email tiles.
 

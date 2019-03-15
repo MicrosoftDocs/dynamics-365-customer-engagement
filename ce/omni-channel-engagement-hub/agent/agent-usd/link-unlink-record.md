@@ -31,6 +31,10 @@ During inline search, the search results are displayed, and you can select a rec
 > [!div class=mx-imgBorder]
 > ![Cusomter summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
 
+> [!Note]
+> You can link only one contact or account in the **Customer profile** section and one case in the **Issue snapshot** section.
+
+
 ## Link a record by doing advanced search
 
 You can link a record in the list of search results to a conversation. You can link only one record to a conversation.
@@ -52,6 +56,9 @@ You can link a record in the list of search results to a conversation. You can l
 
 After you link the record to the conversation, the Customer summary form is refreshed and reflects the details. Similarly, you can link other record types.
 
+> [!Note]
+> You can link only one contact or account in the **Customer profile** section and one case in the **Issue snapshot** section.
+
 ## Unlink a record from the conversation
 
 You can unlink a record only when you are interacting with customer using the communication panel. That is, after you accept an incoming conversation request and view the **Customer summary** page, you can unlink the record from the conversation. 
@@ -61,6 +68,10 @@ You can unlink a record only when you are interacting with customer using the co
 To unlink a record, select the **X** button next to the customer name in the **Customer profile** form. After the record is removed, the **Customer profile** form is blank. 
 
 ![Blank customer profile form after unlinking the record](../../media/csh-oc-unlinked-form.PNG "Blank customer profile form after unlinking the record")
+
+> [!Note]
+> You can link and unlink only one contact or account in the **Customer profile** section and one case in the **Issue snapshot** section.
+
 
 ## See also
 

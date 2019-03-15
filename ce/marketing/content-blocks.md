@@ -2,7 +2,7 @@
 title: "Work with reusable content blocks (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to create reusable content blocks and use them in your page and email designs in in Dynamics 365 for Marketing"
 keywords: content block;design element
-ms.date: 10/16/2018
+ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
