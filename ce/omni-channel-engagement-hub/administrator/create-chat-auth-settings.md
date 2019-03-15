@@ -1,6 +1,6 @@
 ---
-title: "Set up a chat widget | MicrosoftDocs"
-description: "Instructions to configure a chat widget in Omni-channel Engagement Hub."
+title: "Create chat authentication settings | MicrosoftDocs"
+description: "Instructions to create chat authentication settings in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -22,6 +22,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 You can create authentication settings to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables. For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as shopping cart value or a privileged status.
 
 After you create an authentication settings record, you must add it in the **Basic details** tab of the appropriate chat widget to make it work.
+
+An agent will get a notification in the **Conversation summary** section whether a customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. If a chat widget does not have any authentication setting associated with it, **Authenticated** field is set to **No** even if a customer is logged in to the portal. For information on conversation summary, see [Conversation summary](../agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md#conversation-summary).
+
 
 ## Create a chat authentication setting record
 
@@ -81,7 +84,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     Here is sample code for defining the JavaScript client function.
 
-    ```
+    ```JavaScript
     window["getAuthenticationToken"] = function(callback){
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
@@ -102,7 +105,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     Here is a sample JSON payload.
 
-    ```
+    ```json
     {
         "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
         "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352",
@@ -118,11 +121,11 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
     }
     ```
 
-6. Add custom context variables, if they are required. The context variables must be defined exactly as they are defined in Common Data Service for Apps.
+6. Add custom context variables, if they are required. The context variables must be defined exactly as they are defined in the work stream that is associated with the chat widget.
 
     Here is a sample definition of custom context variables.
 
-    ```
+    ```JavaScript
     def create_token(user_json):
         with open('private_key.pem', 'r') as myfile:
             data = myfile.read()
@@ -151,7 +154,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 ### See also
 
 [Add a chat widget](add-chat-widget.md) <br>
-[Create a survey questions library](create-question-library.md) <br>
+[Create a survey question](create-question-library.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>

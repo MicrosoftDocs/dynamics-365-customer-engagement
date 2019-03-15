@@ -38,16 +38,6 @@ When you interact with a customer in the conversation control, you can use the *
 
 ## See also
 
-- [Sign in to Dynamics 365 Customer Service Hub app](csh-sign-dynamics-365-customer-service-hub.md)
-- [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
-- [Know the sitemap navigation](csh-sitemap.md)
-- [Navigate using the navigation bar](csh-navigation-bar.md)
-- [Navigation bar buttons](csh-navigation-bar-buttons.md)
-- [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [View communication panel](csh-conversation-control.md)
-- [Set user presence](csh-set-user-presence-status.md)
 - [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
-- [Create a record](csh-create-record.md)
-- [Search and link record to the conversation](csh-search-link-record.md)
