@@ -25,7 +25,7 @@ You can configure your chat widget to show users a survey that they should respo
 2. Go to **Administration** &gt; **Chat**.
 3. Open the chat widget in which you need to configure pre-chat survey.
 4. On the **Survey** tab, in the **Pre-chat survey** field, select **Yes**.
-5. Select **Add question**. For more information on creating a question, see [Create a survey question](create-question-library.md).
+5. Select **Add question**.
 
     > [!NOTE]
     > You can add only five questions to a pre-chat survey.
@@ -50,6 +50,7 @@ You can configure your chat widget to show users a survey that they should respo
     > [!div class=mx-imgBorder]
     > ![Change the order of a question in a pre-chat survey](../media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
 
+More information: [Automatically identify customers using pre-chat responses](record-identification-rule.md)
 
 ### See also
 

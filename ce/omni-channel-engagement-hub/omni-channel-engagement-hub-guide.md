@@ -27,6 +27,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="introduction-omni-channel.md" data-raw-source="[Omni-channel Engagement Hub introduction](introduction-omni-channel.md)">Omni-channel Engagement Hub introduction</a></li>
 <li><a href="system-requirements-omni-channel-engagement-hub.md" data-raw-source="[Pre-requisities and system requirements](system-requirements-omni-channel-engagement-hub.md)">Pre-requisities and system requirements</a></li>
 <li><a href="administrator/omni-channel-provision-license.md" data-raw-source="[Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)">Provision Omni-channel Engagement Hub</a></li>
+<li><a href="administrator/upgrade-omni-channel.md" data-raw-source="[Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)">Upgrade Omni-channel Engagement Hub</a></li>
 <li><a href="administrator/add-users-assign-roles.md" data-raw-source="[Assign roles and enable users](administrator/add-users-assign-roles.md)">Assign roles and enable users</a></li>
 <li><a href="administrator/configure-live-chat.md" data-raw-source="[Quickly configure a chat widget](administrator/configure-live-chat.md)">Quickly configure a chat widget</a></li>
 </td>

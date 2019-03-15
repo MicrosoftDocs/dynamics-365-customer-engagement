@@ -28,18 +28,60 @@ search.app:
 
 # What's new in Unified Service Desk for administrators
 
-::: moniker range="dynamics-usd-4"
+::: moniker range="dynamics-usd-4.1"
 
 ## What's new in Unified Service Desk 4.1
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
-### Preview: Hosting application in Microsoft using the Edge Process hosting type
+### Preview: Use Chrome Process hosting type to host web applications in Unified Service Desk
+
+Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on **CefSharp**, an open source framework, which uses the chromium core that powers many modern browsers.
+
+The advantages of using the Chrome process hosting method are as follows:
+
+- Chrome Process is available on different Windows OS server versions (Client and Server).
+- Chrome Process is highly reliable.
+- Easy configurations to host the applications in Unified Service Desk.
+- Switch easily from one browser to another for your entire organization.
+- Chrome Process pooling feature that reuses the chrome processes and mimics inline navigation provides enhanced performance and memory optimizations.
+
+More information: [Use Chrome Process to host web applications in Unified Service Desk](../chrome-process.md)
+
+### Preview: Integrate channel using Channel Integration Framework
+
+Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
+
+If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](/dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
+
+The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** for you to host the channel provider within Unified Service Desk client application.
+
+More information: [Integrate channel using Channel Integration Framework](../integrate-channel-provider-channel-integration-framework.md)
+
+### Preview: Cache specific configuration for agents
+
+The Configuration Cache Version option causes the client caching feature to retrieve the configuration that has undergone change from the Customer Engagement server to the agent’s desktop and avoid retrieving all configurations.
+
+Your organization may have several departments and a each department has a configuration with agents added to those configurations. Whenever you make a change to one of those configurations, the **Configuration Cache Version** feature helps to download only that specific configuration for which you've made a change. Also, when the agents assigned to other configurations, sign in to the client application, the feature doesn't download the configurations thus improves the startup time of Unified Service Desk. This is also helpful in better application life cycle management for Unified Service Desk in cases where your organization want to make changes in your pilot or developer configurations without impacting the production users.
+
+More information: [Cache specific configuration for agents](../admin/set-configuration-cache-version.md)
+
+### Preview: Single Sign On for Unified Service Desk
+
+Single Sign On (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a improved startup performance and user experience by authenticating users to access Customer Engagement apps without the need for entering the credentials multiple times. This eliminates the need for entering the same password again and minimizes the possibility of login errors and ensures seamless experience.
+
+More information: [Single Sign On (SSO) for Unified Service Desk](../admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk---preview)
+
+### Preview: Use Edge Process hosting type to host web applications in Unified Service Desk
 
 Use the Microsoft Edge, the modern, faster, safer and responsive web browser to host applications in Unified Service Desk.
 Select Edge Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.
 
-More information: [Edge process](../edge-process.md)
+More information: [Use Edge Process to host web applications in Unified Service Desk](../edge-process.md)
+
+::: moniker-end
+
+::: moniker range="dynamics-usd-4"
 
 ## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)]
 

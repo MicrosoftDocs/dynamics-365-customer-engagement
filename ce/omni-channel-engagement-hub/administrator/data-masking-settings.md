@@ -1,6 +1,6 @@
 ---
 title: "Create and manage data masking rules | MicrosoftDocs"
-description: "Instructions to create and manage data masking rules in Omni-channel Engagement Hub."
+description: "Instructions on how to create and manage data masking rules in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -19,18 +19,19 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Data masking allows you to block sensitive data such as credit card information, social security numbers, or even profanity in a conversation. You can create a masking rule and define a regular expression in it to identify the sensitive information and replace it with the masking character. The masking rule applies to every message sent by a customer through a chat or an SMS channel. If an agent sends any sensitive data to a customer, it will not be masked. 
+Data masking allows you to block sensitive data such as credit card information, social security numbers (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression in it to identify the sensitive information and replace it with the masking character. The masking rule applies to every message sent by a customer through a chat or an SMS channel. If an agent sends any sensitive data to a customer, it will not be masked. 
 
-Following masking rules are provided out-of-the-box:
+The following masking rules are provided out of the box:
 
 - **Credit Card**: Masks the credit card number, if provided in a message.
-- **Email**: Masks the email address, if provided in a message
-- **SSN**: Masks the social security number, if provided in a message
+- **Email**: Masks the email address, if provided in a message.
+- **SSN**: Masks the social security number, if provided in a message.
 
-As an administrator, you can delete or modify out-of-the-box masking rules, and create new masking rules.
+As an administrator, you can delete or modify out-of-the-box masking rules and create new masking rules.
 
 > [!NOTE]
-> Only an administrator can access data masking rules.
+> - Only an administrator can access data masking rules.
+> - Only 10 data masking rules, including out of the box masking rules, can exist in Omni-channel Engagement Hub. 
 
 ## Create a data masking rule
 
@@ -49,7 +50,7 @@ As an administrator, you can delete or modify out-of-the-box masking rules, and 
     - **Regular expression**: Regular expression to identify the data to be masked.
 
         > [!NOTE]
-        > By default, the # symbol is used to mask the sensitive data.
+        > By default, the \# symbol is used to mask the sensitive data.
         
 5. To test the data masking as per the specified regular expression, enter a value in the **Enter test data** field. The masked value is displayed in the **Masked test data** field.
 

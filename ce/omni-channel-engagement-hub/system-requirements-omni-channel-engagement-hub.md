@@ -63,10 +63,10 @@ You require the following to use Omni-channel Engagement Hub - Preview with Unif
 
 | Area | Requirements | 
 |----------|----------|
-| Desktop application | Unified Service Desk 4.1.0.1130 and higher version <br><br>More information: [Download Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md#download-unified-service-desk-client-application)<br><br>**Note:** Unified Service Desk 4.1.0.1130 is in preview.|
+| Desktop application | Unified Service Desk 4.1.0.1179 and higher version <br><br>More information: [Download Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md#download-unified-service-desk-client-application)<br><br>**Note:** Unified Service Desk 4.1.0.1179 is in preview.|
 | Dynamics 365 | Customer Service Hub app in Dynamics 365 for Customer Engagement apps version 9.1 and a higher version<br><br> **Note:** We recommend you to use a new production Dynamics 365 for Customer Engagement instance to use Omni-channel Engagement Hub on Unified Service Desk. |
-| Web browsers | Supported browsers are: <li> Microsoft Edge </li> <li>Internet Explorer</li><br>**Note:** The Microsoft Edge support in Unified Service Desk is in preview. |
-| Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and a higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7</li>|
+| Web browsers | Supported browsers are: <li> [Microsoft Edge](/dynamics365/customer-engagement/unified-service-desk/edge-process) </li> <li>[Internet Explorer](/dynamics365/customer-engagement/unified-service-desk/ie-process)</li> <li>[Chrome Process](/dynamics365/customer-engagement/unified-service-desk/chrome-process) </li><br>**Note:**<li> The Microsoft Edge support in Unified Service Desk is in preview. </li> <li> The Chrome Process support in Unified Service Desk is in preview. </li>|
+| Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and a higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1)</li>|
 | Memory (Hardware) | ^8-GB RAM or more |
 
 ^The memory requirement is for out-of-the-box solution. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omni-channel Engagement Hub - Preview solution or when using other line-of-business applications with Unified Service Desk.
