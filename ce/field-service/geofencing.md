@@ -220,9 +220,7 @@ The second way is for testing and development purposes; it simulates traveling w
 > [!Note]
 > You can enable editable grids for the mobile audit entity to override the latitude and longitude values. You can access the mobile audit table by going to a list view for another entity in the Unified Client Interface (UCI) and manually entering **resco_mobileaudit** in the URL.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geofencing settings details](./media/mobile-geofence-minimum-radius.png)
+Confirm the latitude and longitude on the bookable resource record is updated as well, and if not, manually adjust them with administrator security.
 
 Either way, the synchronized coordinates will be within the geofenced area and trigger a **Geofence Event**.
 
