@@ -19,7 +19,7 @@ manager: shujoshi
 ---
 # Walkthrough: Get started with building a simple communication widget
 
-In this tutorial we will demonstrate how to build a simple *Hello World!* communication widget that can be hosted on Dynamics 365 Channel Integration Framework.
+In this tutorial, we demonstrate how to build a simple *Hello World!* communication widget that can be hosted on Dynamics 365 Channel Integration Framework.
 
 ## Prerequisites
 
