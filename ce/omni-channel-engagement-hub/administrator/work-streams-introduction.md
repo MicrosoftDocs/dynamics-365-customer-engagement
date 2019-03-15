@@ -74,7 +74,7 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
       > [!div class=mx-imgBorder] 
       > ![New workstream](../media/omni-channel-new-work-stream.png)
 
-4. View and quickly create context variables in the **Context variables** tab. Context variables enrich conversations with pre-chat data and channel data. These attributes can then be used to define routing rules to route conversations into different queues. 
+4. View and quickly create context variables in the **Context variables** tab. Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations into different queues. 
 
     - Select **New** to create a new context variable in the **Quick Create** window. 
         - Enter **Display Name** for the new variable. **Name** field is populated accordingly.
@@ -87,9 +87,9 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
 
 6. Select **Save** to save the work stream.
 
-## Associate work streams with channels
+## Associate work streams with channel artefacts
 
-You can associate work streams with channels so that the conversations can be assigned to agents seamlessly. For a channel, a default work stream is already associated in the **Work stream** field. Select the search icon to associate another work stream. Select **New** to create a new work stream for within the channel.
+You can associate work streams with channel artefacts so that the conversations can be assigned to agents seamlessly. For example, for a live chat widget, a default work stream is already associated in the **Work stream** field. You can select the search icon to associate another work stream. Select **New** to create a new work stream from within the live chat widget.
 
 To learn more about how to set up channels and associate work streams, see the following topics: 
 
