@@ -33,20 +33,18 @@ You can configure your chat widget to detect a visitor's location based on their
 
 To protect an agent's privacy, you can configure your chat widget to display either full name, first name, last name, or nickname of an agent to the customers. If you would like to hide your agent's identity and anonymize, choose to display the nickname. More information: [Configure agent display name](administrator/agent-display-name.md).
 
-### Simplified workflows for administrators
+### Simplified configuration experience for administrators
 
-With the latest release of Omni-channel, the administrators can quickly associate work streams with channels so that conversations can be assigned to agents seamlessly. </br>
+A channel is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat. With this release, the administrators can now configure varied customer experiences separately for chat and entity channels.
 
-For more information, see [Understand and create work streams](administrator/work-streams-introduction.md)
+More information:</br>
+[Configure a chat channel](administrator/set-up-chat-widget.md) and
+[Configure an entity channel](administrator/create-entity-channel.md)
 
-> [!NOTE]
-> For a channel, a default work stream is already associated in the Work stream field. Select the search icon to associate another work stream. Select **New** to create a new work stream from within the channel.
+Configure context variables and routing rules in work streams to ensure that converstions are distributed to the agents appropriately. 
 
-Use entity channel to route entities from **Common Data Service for Apps** to the Omni-channel Engagement Hub so that they can be automatically distributed and assigned to agents.
-
-For more information, see [Configure an entity channel](administrator/create-entity-channel.md)
-
-With an improved sitemap, quickly configure channels, work streams, queues, and routing rules so that the agents can quickly assist customer queries.
+More information: 
+[Understand and create work streams](administrator/work-streams-introduction.md) </br>
 
 ## Agent Experience
 
