@@ -2,7 +2,7 @@
 title: "License a Marketing app and add it to your tenant (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to get started with Dynamics 365 for Marketing by purchasing a license and adding the app to your tenant"
 keywords: purchase;setup
-ms.date: 12/17/2018
+ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -43,7 +43,7 @@ If you already have a paid [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcr
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is licensed per instance, with each instance priced according to the number of *marketing contacts* stored in your database. Marketing contacts only include those that you engage with marketing activities such as emails, landing pages, forms, LinkedIn integration, events, and surveys. Contacts that you never engage in marketing activities won't be counted as part of your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license. While you're planning your marketing activities, please be sure to purchase enough marketing contacts to remain within your quota.
 
 > [!NOTE]
-> When you sign up for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll choose a licensing option that defines your contract period (typically 3 - 12 months) and contact quota for that period. Each of the contacts that you engage through marketing activities during the contract period count against your total contact quota, even if you delete, or otherwise stop marketing to, an existing marketing contact during the contract period. You can only reduce your purchased contact quota on contract renewal date.
+> When you sign up for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll choose a licensing option that defines your contract period and various quotas for that period. Each of the contacts that you engage through marketing activities during the contract period count against your total contact quota, even if you delete, or otherwise stop marketing to, an existing marketing contact during the contract period. You can only reduce your purchased contact quota on contract renewal date.
 
 Unlike most other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] isn't priced per user, so users already licensed to access any [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] app on an instance where [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] is installed will also be able to access [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] without requiring you to purchase any additional licenses. You can even request any number of free (&quot;zero dollar&quot;) [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] licenses to assign to users that don't have a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license, but these aren't valid for apps other than [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 

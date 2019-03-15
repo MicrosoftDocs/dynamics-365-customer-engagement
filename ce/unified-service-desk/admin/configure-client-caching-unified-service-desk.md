@@ -181,7 +181,9 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
     After you have set up the UII action and the action call, you can add a toolbar button, event, or code to directly invoke the action call from the client application. This creates a **RestDesktopCache** setting in the **User Settings** area, which triggers the reset behavior as described earlier in [Using the Dynamics 365 for Customer Engagement server](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md#UsingCRMServer).  
   
 ## See also  
- [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)   
- [Administer and manage Unified Service Desk](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)   
+ [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)
+
+ [Administer and manage Unified Service Desk](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
+ 
  [Add a UII action to a hosted control](../../unified-service-desk/add-uii-action-hosted-control.md)   
  
