@@ -35,13 +35,13 @@ To protect an agent's privacy, you can configure your chat widget to display eit
 
 ### Simplified configuration experience for administrators
 
-A channel is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat. With this release, the administrators can now configure varied customer experiences separately for chat and entity channels.
+With this release, the administrators can now configure varied customer experiences separately for chat and entity channels.
 
 More information:</br>
 [Configure a chat channel](administrator/set-up-chat-widget.md) and
 [Configure an entity channel](administrator/create-entity-channel.md)
 
-Configure context variables and routing rules in work streams to ensure that converstions are distributed to the agents appropriately. 
+Configure context variables and routing rules in work streams to ensure that conversations are distributed to appropriate agents. 
 
 More information: 
 [Understand and create work streams](administrator/work-streams-introduction.md) </br>
