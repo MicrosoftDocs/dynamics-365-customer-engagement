@@ -52,4 +52,4 @@ More information:
 
 You can unlink a record (case, contact, and account) from a conversation while you are interacting with the customer. You can unlink inline on the **Customer profile** and **Issue snapshot** form and link any other required record.
 
-To learn more, see [Unlink a record from the conversation](agent/agent-usd/link-unlink-record.md#unlink-a-record-from-the-conversation) and [Unlink a record from the conversation](agent/agent-csh/csh-link-unlink-record.md#unlink-a-record-from-the-conversation).
+More information: [Unlink a record from the conversation](agent/agent-usd/link-unlink-record.md#unlink-a-record-from-the-conversation) and [Unlink a record from the conversation](agent/agent-csh/csh-link-unlink-record.md#unlink-a-record-from-the-conversation).
