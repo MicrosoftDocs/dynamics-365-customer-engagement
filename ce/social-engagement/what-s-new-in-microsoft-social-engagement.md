@@ -47,7 +47,7 @@ More information:
 
 This release introduces new languages for sentiment analysis, search rules, and the user interface. 
 
-The following languages are available in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md) with Update 1.12:
+The following languages are available in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with Update 1.12:
 - Indonesian (Bahasa)
 - Czech
 - Hungarian
