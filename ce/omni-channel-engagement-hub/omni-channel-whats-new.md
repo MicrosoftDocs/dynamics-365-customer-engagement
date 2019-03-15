@@ -46,8 +46,6 @@ For more information, see [Configure an entity channel](administrator/create-ent
 
 With an improved sitemap, quickly configure channels, work streams, queues, and routing rules so that the agents can quickly assist customer queries.
 
-### PBI-integration simplification 
-
 ### Unlink a record (case, contact, and account) from a conversation
 
 You can unlink a record (case, contact, and account) from a conversation while you are interacting with the customer. You can unlink inline on the **Customer profile** and **Issue snapshot** form and link any other required record.
