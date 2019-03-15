@@ -196,12 +196,26 @@ Controls the color of the vertical line that runs down the schedule board to ind
 
 **Booking Alerts View**
 
-System view that can filter which Booking Alerts records are eligible to show up in the Alerts view in the right-hand Details pane of the schedule board. As an example, consider a scenario where the business has booking alerts being triggered based on events related to work orders, projects, and cases. What if the particular schedule board tab only deals with work order requirements? In this case, a booking alert system view can be used to filter to only booking alerts related to work orders to be eligible in the right-hand alerts pane. Note that booking alerts still needs to be triggered based on an alarm or workflow, but the view chosen here can further filter. 
+System view that can filter which Booking Alerts records are eligible to show up in the Alerts view in the right-hand Details pane of the schedule board. As an example, consider a scenario where the business has booking alerts being triggered based on events related to work orders, projects, and cases. What if the particular schedule board tab only deals with work order requirements and the dispatcher should only see booking alerts related to work orders? In this case, a booking alert system view can be used to filter to only booking alerts related to work orders to be eligible in the right-hand alerts pane. Note that booking alerts still needs to be triggered based on an alarm or workflow, but the view chosen here can further filter. 
 
 
 **Booking Alerts Template**
 
-Given a Booking Alert can show up 
+Given a Booking Alert shows in the alerts pane, the HTML entered here dictates the fields in the alert box.
+
+**Filter Layout**
+
+Controls the fields displayed in the filter pane on the left-hand side. These fields are used to filter which resources are displayed on the board.
+
+**Resource Cell Template**
+
+Controls the images, values, fields displayed in the box that holds the resource's name and utilization on the schedule board.
+
+**Retrieve Resources Query**
+
+Controls the initial resource query that determines which resources are loaded when the schedule board loads. Works with the filter layout functions and connect the displayed fields with the corresponding entities/tables.
+
+**Disable Default Extensions**
 
 
 ## Additional Notes
