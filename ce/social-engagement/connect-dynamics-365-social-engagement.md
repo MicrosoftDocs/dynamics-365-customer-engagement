@@ -93,9 +93,9 @@ To connect the services, both both of them must be part of the same organization
   
 6. If the connection was successful, the **Dynamics 365 Instance** pane opens and shows you the details about the connected instance.
    > [!IMPORTANT]
-   > If the the connection to an on-premises instance doesn't succeed and leads to an OAUTH ERROR, verify that the one-premises instance is configured correctly using this curl request:
+   > If the the connection to an on-premises instance doesn't succeed and leads to an OAUTH ERROR, verify that the on-premises instance is configured correctly using this curl request:
    > `curl https://<CRM_URL>:<PORT>/XRMServices/2011/Organization.svc/web?SdkClientVersion=6.1.0.533 -v`
-   > the expected reply is in this form:
+   > The expected reply is in this form:
    > `HTTP/1.1 401 Unauthorized WWW-Authenticate: Bearer redirect_uri=<URI>, Params=<string>`
   
 7. You can set the **Set as default** control to ON to have this instance selected by default when creating new links to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts.  
