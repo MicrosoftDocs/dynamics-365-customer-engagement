@@ -35,7 +35,7 @@ Follow these steps to upgrade Omni-channel app.
     > ![Upgrade Omni-channel](../media/upgrade-omnichannel.png)
 
     > [!NOTE]
-    > Upgrade may take upto an hour. Please wait for the installation to complete successfully.
+    > Upgrade may take up to an hour. Please wait for the installation to complete successfully.
 
 5. Similarly, select **Omni-channel Engagement Hub – Customer Service Hub** from the list of solutions and select **Upgrade**.
 
