@@ -139,7 +139,7 @@ Additionally, the bookable resource's current location will appear on the schedu
 > [!div class="mx-imgBorder"]
 > ![Screenshot of real time mode schedule assistant setting](./media/mobile-geofence-real-time-location-filter.png)
 
-## Step 6. Configure Geofencing Settings
+## Step 6. Configure geofencing settings
 
 Go to **Field Service > Settings > Geofencing Settings**.
 
@@ -148,7 +148,7 @@ Enter a **unit of measure** and **minimum radius**. As demonstrated in the follo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geofencing settings](./media/mobile-geofence-minimum-radius.png)
 
-## Step 7. Configure Geofence Entities
+## Step 7. Configure geofence entities
 
 Go to **Field Service > Settings > Entity Configurations**.
 
@@ -231,7 +231,6 @@ Additionally, this will change the related geofence **Geotracked Record Status**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geotracked record status changed to 'inside'](./media/mobile-geofence-status-inside.png)
-
 
 
 ## Use push notifications with geofencing
