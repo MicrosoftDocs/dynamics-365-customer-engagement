@@ -89,7 +89,7 @@ Be sure the following 3 boxes are checked:
 
 - **Enable Auditing** 
 - **Include GPS Position** 
-- **Log synchronization events**. 
+- **Log synchronization event**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of enabling gps tracking for field service mobile](./media/mobile-geofence-enable-auditing.png)
