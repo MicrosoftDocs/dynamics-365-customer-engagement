@@ -46,15 +46,12 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
 
    - In the **General information** section, provide the following information: </br>
       1. **Name**: Enter a name for the work stream.
-      2. **Stream Source**: Stream source is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat. </br> </br> Select a channel from the drop-down list. </br>
+      2. **Channel**: Channel is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat. </br> </br> Select a channel from the drop-down list. </br>
             - **Live Chat** </br>
             - **Entity** </br>
 
            > [!IMPORTANT]
            > If you select **Entity**, see the [Set up an entity work stream](#set-up-an-entity-work-stream) section later in this topic to configure an entity work stream.
-
-           > [!NOTE]
-           > As you select the Stream source, the channel is updated at the top right of the page. You cannot edit the channel.
 
       3. **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream in the text box.
       
@@ -77,7 +74,7 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
       > [!div class=mx-imgBorder] 
       > ![New workstream](../media/omni-channel-new-work-stream.png)
 
-4. View and quickly create context variables in the **Context variables** tab. Context variables enrich conversations with pre-chat data and channel data. These attributes can then be used to define routing rules to route conversations into different queues. 
+4. View and quickly create context variables in the **Context variables** tab. Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations into different queues. 
 
     - Select **New** to create a new context variable in the **Quick Create** window. 
         - Enter **Display Name** for the new variable. **Name** field is populated accordingly.
@@ -90,11 +87,11 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
 
 6. Select **Save** to save the work stream.
 
-## Associate work streams with channels
+## Associate work streams with channel artefacts
 
-You can associate the work streams with channels in the **Work Distribution** section so that conversations can be seamlessly assigned to agents. 
+You can associate work streams with channel artefacts so that the conversations can be assigned to agents seamlessly. For example, for a live chat widget, a default work stream is already associated in the **Work stream** field. You can select the search icon to associate another work stream. Select **New** to create a new work stream from within the live chat widget.
 
-To learn more about channels and how to set up channels, see the following topics: 
+To learn more about how to set up channels and associate work streams, see the following topics: 
 
 - [Configure a chat channel](set-up-chat-widget.md)
 - [Configure an entity channel](create-entity-channel.md)
@@ -112,7 +109,7 @@ To set up entity routing, you need to configure an entity work stream in **Omni-
 
 1. In the Omni-channel site map, go to **Work Distribution Management \> Work Streams**.
 2. Fill in the **General information** section as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).
-    For entity work stream, select **Stream Source** as **Entity**. 
+    For entity work stream, select **Channel** as **Entity**. 
 3. Fill in the **Work distribution** section as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).
 4. In the **Work stream entity configuration** section, select **Add** to add a new work stream entity configuration. For more information, see [Configure an entity channel](create-entity-channel.md). 
 5. Set up routing rules and queues for the work stream as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).

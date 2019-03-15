@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: news, product updates, product improvements, service updates
-ms.date: 01/23/2019
+ms.date: 03/15/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -47,7 +47,7 @@ More information:
 
 This release introduces new languages for sentiment analysis, search rules, and the user interface. 
 
-The following languages are available in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md) with Update 1.12:
+The following languages are available in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with Update 1.12:
 - Indonesian (Bahasa)
 - Czech
 - Hungarian

@@ -79,7 +79,7 @@ The conversations that you close or customer disconnects are classified under **
 
     - When the customer selects the **End** button to end the conversation and close the session.
 
-- The conversation (work item) transitions from **Waiting** to **Active** state when you revive the session from your **Today's Conversation** stream on **Omni-channel agent dashboard**. 
+- The conversation (work item) transitions from **Waiting** to **Active** state when you revive the session from your **Today's Conversation** stream on **My Dashboard**. 
 
 - The conversation (work item) transitions from **Waiting** to **Open** state when the customer revives the conversation within a specified timeout period.
 
