@@ -6,7 +6,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 03/03/2019
+ms.date: 03/15/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 1C92A31B-70DF-4CE7-9C7A-BE398F34C6F6
@@ -33,7 +33,7 @@ None
 
 Returns the currently set context provider, if any.
 
-## Example
+<!--## Example
 
 ```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
@@ -41,3 +41,9 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                let contextProvider = Microsoft.Omnichannel.LiveChatWidget.SDK.getContextProvider();
 });
 ```
+
+-->
+
+## See also
+
+[JavaScript API reference for Live chat SDK](omni-channel-reference.md)

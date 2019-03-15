@@ -40,3 +40,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();
 });
 ```
+## See also
+
+[JavaScript API reference for Live chat SDK](omni-channel-reference.md)

@@ -41,3 +41,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                Microsoft.Omnichannel.LiveChatWidget.SDK.removeAuthTokenProvider();
 });
 ```
+## See also
+
+[JavaScript API reference for Live chat SDK](omni-channel-reference.md)

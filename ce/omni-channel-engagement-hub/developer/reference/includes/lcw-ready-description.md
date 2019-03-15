@@ -1,1 +1,1 @@
-Invoked when a method is ready to use.
+This event is raised when a Live chat widget is loaded and is ready to use.
