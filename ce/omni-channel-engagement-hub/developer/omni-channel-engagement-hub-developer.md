@@ -24,16 +24,15 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 <!--note from editor:  In below items, change "the context" to "the context provider", the wording used in other topics?  -->
 
+> [!NOTE]
+> The Live chat SDK methods listed in this developer guide are subject to change until the Live chat feature becomes generally available.
+
 Omni-channel Engagement Hub Live chat SDK provides methods for live chat features that allow you to:
-- Set the custom context for a live chat session.
-- Retrieve and remove the custom context from a live chat session.
+- Set, retrieve and remove custom context for a live chat session.
 - Programmatically open an existing chat or initiate a new one.
 - Set, retrieve, and remove authentication-token providers.
 
 These APIs will be available for use once the live chat widget loads on the web page.
-
-> [!NOTE]
-> The Live chat SDK methods listed in this developer guide are subject to change until the Live chat feature becomes generally available.
 
 ## In this section
 

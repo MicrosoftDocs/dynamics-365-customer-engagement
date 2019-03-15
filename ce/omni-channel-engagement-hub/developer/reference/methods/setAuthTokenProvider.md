@@ -26,8 +26,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 ## Parameters
 
-
-
 | Parameter | Type | Description |
 | ---- | ---- | ---- |
 | authTokenProvider | Function | Function that acts as an authentication-token provider |

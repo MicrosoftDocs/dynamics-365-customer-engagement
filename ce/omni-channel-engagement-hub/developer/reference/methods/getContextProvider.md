@@ -31,7 +31,7 @@ None
 
 ## Return Value
 
-Returns the currently set custom context provider, if any.
+Should return the currently set custom context provider, if any.
 
 <!--## Example
 

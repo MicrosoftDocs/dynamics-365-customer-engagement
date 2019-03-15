@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Manage custom context | Microsoft Docs"
-description: ""
+description: "Read how you can send custom context to a chat session which can help decide which agent or queue to route the chat to."
 keywords: ""
 ms.date: 03/14/2019
 ms.service: dynamics-365-customerservice
@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When a user initiates a chat, you can pass the custom context to Omni-channel Engagement Hub, which helps decide which agent or queue to route the chat to.
+When a user initiates a chat, you can pass the custom context to Omni-channel Engagement Hub. This custom context can be used in routing rules which eventually determine which agent or queue to route the chat to.
 
 Follow these steps to send context when starting a chat:
 

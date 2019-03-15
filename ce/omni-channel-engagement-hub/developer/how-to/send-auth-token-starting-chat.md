@@ -1,8 +1,8 @@
 ---
-title: "Walkthrough: Send authentication token to Omni-channel when starting a chat | Microsoft Docs"
+title: "Walkthrough: Send authentication token | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 02/28/2019
+ms.date: 03/15/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -13,8 +13,7 @@ ms.author: susikka
 manager: shujoshi
 
 ---
-# Walkthrough: Send authentication token to Omni-channel Engagement Hub when starting a chat
-
+# Walkthrough: Send authentication token
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
@@ -25,8 +24,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 to this:
 "To authenticate a user when they initiate a chat, pass an authentication token to Omni-channel Engagement Hub." -->
 
-
-When a user initiates a chat, you can pass an authentication token to Omni-channel Engagement Hub, which helps authenticate the user.
+When a user initiates a chat, you can pass an authentication token to Omni-channel Engagement Hub, which helps authenticate the user. Custom authentication is optional and is relevant only when hosting the chat widget outside Dynamics 365 for Customer Engagement Portal. It is used to send verified information about the current logged-in user. This information will be used to identify the account or contact entity record by Omni-channel Engagement Hub.
 
 <!--note from editor:Should the below sentence say "Follow these steps to pass an authentication token:"?    -->
 
@@ -43,14 +41,14 @@ Follow these steps to send context when starting a chat:
 
 ```JavaScript
 function authTokenProvider(callback){
-	// Calling the callback with a valid jwt token
+	// Calling the callback with a valid JWT token
 	callback("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c");
 }
 
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-	// Handle livechat ready event
-	// Can use the sdk methods now
-	// Setting auth token provider to be used for the chat
+	// Handle live chat ready event
+	// Can use the SDK methods now
+	// Setting authentication token provider to be used for the chat
 	Microsoft.Omnichannel.LiveChatWidget.SDK.setAuthTokenProvider(authTokenProvider);
 	// Starting a new chat
 	Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();
