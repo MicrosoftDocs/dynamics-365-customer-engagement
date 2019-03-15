@@ -27,6 +27,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="introduction-omni-channel.md" data-raw-source="[Omni-channel Engagement Hub introduction](introduction-omni-channel.md)">Omni-channel Engagement Hub introduction</a></li>
 <li><a href="system-requirements-omni-channel-engagement-hub.md" data-raw-source="[Pre-requisities and system requirements](system-requirements-omni-channel-engagement-hub.md)">Pre-requisities and system requirements</a></li>
 <li><a href="administrator/omni-channel-provision-license.md" data-raw-source="[Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)">Provision Omni-channel Engagement Hub</a></li>
+<li><a href="administrator/upgrade-omni-channel.md" data-raw-source="[Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)">Upgrade Omni-channel Engagement Hub</a></li>
 <li><a href="administrator/add-users-assign-roles.md" data-raw-source="[Assign roles and enable users](administrator/add-users-assign-roles.md)">Assign roles and enable users</a></li>
 <li><a href="administrator/configure-live-chat.md" data-raw-source="[Quickly configure a chat widget](administrator/configure-live-chat.md)">Quickly configure a chat widget</a></li>
 </td>
@@ -36,6 +37,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 <li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[Omni-channel administrator](administrator/omni-channel-engagement-hub-administrator.md#how-to-topics)">Omni-channel administrator</a></li>
 <li><a href="administrator/unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
+<li><a href="administrator/work-streams-introduction.md" data-raw-source="[Understand and create work streams](administrator/work-streams-introduction.md)">Understand and create work streams</a></li>
 <li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Configure a chat widget](administrator/set-up-chat-widget.md)">Configure a chat widget</a></li>
 </td>
 </tr>

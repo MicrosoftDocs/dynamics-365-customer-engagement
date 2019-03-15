@@ -45,7 +45,6 @@ This feature was introduced in [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm
  Both scenarios have common elements but there are some differences. Since multi-tenant is the most common scenario, the [Use Multi-Tenant Server-to-server authentication](use-multi-tenant-server-server-authentication.md) content will describe how you can use S2S in this scenario and include notes where the options for single-tenant configuration is different. [Use Single-Tenant Server-to-server authentication](use-single-tenant-server-server-authentication.md) will provide an overview of this scenario and refer to the procedures described in the multi-tenant S2S authentication content.  
 
 ### See also  
- [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md)   
  [Use Single-Tenant Server-to-server authentication](use-single-tenant-server-server-authentication.md)   
  [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md)   
  [Connect to Dynamics 365 for Customer Engagement apps](connect-customer-engagement.md)

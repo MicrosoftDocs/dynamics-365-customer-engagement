@@ -48,4 +48,4 @@ For **Authenticated chat**, the logged in user details will be used to search an
 
 ### See also
 
-[Create and manage work streams](create-work-streams.md)
+[Understand and create work streams](work-streams-introduction.md)
