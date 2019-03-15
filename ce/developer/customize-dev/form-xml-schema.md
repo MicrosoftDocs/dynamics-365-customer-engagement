@@ -26,6 +26,11 @@ search.app:
 
 The following is the schema definition for form customizations for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. For more information, see [Customize Entity Forms in Microsoft Dynamics 365 for Customer Engagement](customize-entity-forms.md). [!INCLUDE[schema_download](../../includes/schema-download.md)].  
   
+> [!NOTE]
+>On solution import if you see an error related to the form xml structure 
+Example: NavBarArea cannot be empty.This would mean that there is a min occurance of 1 for the Titles node inside the NavBarArea.
+<xs:complex Type name="FormNavBarAreasType"> <xs:sequence> <xs:element name="NavBarArea" minOccurs="0" maxOccurs="unbounded"> <xs:complexType>  The mitigation here would be either to add the title node or to remove the NavBarArea completely.
+
 ## Schema  
   
 ```xml  
