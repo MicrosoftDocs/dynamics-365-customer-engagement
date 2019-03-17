@@ -1,12 +1,12 @@
 ---
 title: "Get started with Social Engagement | Microsoft Docs"
 description: "Learn how to ramp up quickly on Social Engagement."
-keywords: "get started, onboarding, key features"
-ms.date: 07/11/2018
+keywords: get started, onboarding, key features
+ms.date: 09/26/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 76f856c7-99a1-4220-a5e6-f55938c8e781
 author: m-hartmann
 ms.author: mhart
@@ -100,7 +100,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Empower your salespeople with the Social Selling Assistant](social-selling-assistant-overview.md)  
   
-- **Message Center**: Create and manage alerts to get the most recent posts or significant changes delivered by email to the specified recipients.  
+- **Alerts**: Create and manage alerts to get the most recent posts or significant changes delivered by email to the specified recipients.  
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stay up to date with alerts](email-alerts.md)  
   
@@ -113,7 +113,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get help with Social Engagement](get-help.md)  
   
 ## Get around in the Analytics area  
- In most cases, the first thing you’ll see when you sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is the Analytics area. By default, you’re looking at a data set that contains all posts that all search topics gathered in the specified time frame.  
+ In most cases, the first thing you’ll see when you sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is the **Home** page. When you don't have any search topics set up yet, you'll be guided to create your first topic. If another user already created search topics, you can go to the **Analytics** area to get insights from a data set that contains all posts that all search topics gathered in the specified time frame.  
   
  ![Analytics area in Social Engagement](media/analytics-areas-explained.png "Analytics area in Social Engagement")  
   
@@ -164,7 +164,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
   4. **User Management**: Administrators define permissions and roles for the users of their solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
-  5. **Connections**: Administrators can connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to create new records in the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances, or stream posts as events to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage connections in Social Engagement](manage-connections.md), [Set up the connection between Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md), [Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)  
+  5. **Connections**: Administrators can connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps to create new records in the connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances, or stream posts as events to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage connections in Social Engagement](manage-connections.md), [Set up the connection between Dynamics 365 for Customer Engagement and Social Engagement](connect-dynamics-365-social-engagement.md), [Stream data from Social Engagement to Microsoft Azure Event Hubs](stream-data-to-event-hubs.md)  
   
   6. **Automation Rules**: Create rules that automatically perform actions on a specified data set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md)  
   

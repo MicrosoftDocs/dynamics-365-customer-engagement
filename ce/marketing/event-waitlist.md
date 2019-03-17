@@ -1,21 +1,20 @@
 ---
 title: "Set and use waitlists for events (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how event waitlists work, how to set them up, and how to invite waiting people when capacity becomes available in  Dynamics 365 for Marketing"
-keywords: "events; waitlist"
-ms.date: 07/06/2018
-ms.service: 
-  - "dynamics-365-marketing"
+keywords: events; waitlist
+ms.date: 02/01/2019
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4aa6d5c3-1b29-46b1-bbf3-9bf260853b20
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 search.audienceType: 
   - admin
   - customizer
@@ -27,13 +26,17 @@ search.app:
 
 # Set up and manage an event waitlist
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 You can assign a maximum capacity to each event when needed. When the number of registrations reaches that capacity, the system won't accept any more active registrations, but you can still allow new registrants to add themselves to a waitlist.
 
 Read this topic to learn how to set up a waitlist and how to invite contacts on the list when space becomes available.
 
 ## How the waitlist works
 
-The waitlist holds a list of contacts who submitted a registration after an event was fully booked. The waitlist registers the time and day that each contact registered, so when space becomes available, contacts are either automatically registered or offered an invitation to register in the same order that they joined the waitlist. You can choose whether contacts will be automatically registered when space becomes available for them, or whether they should instead be sent an invitation to register manually.
+The waitlist holds a list of contacts who submitted a registration to the event website after an event was fully booked. The waitlist registers the time and day that each contact registered, so when space becomes available, contacts are either automatically registered or offered an invitation to register in the same order that they joined the waitlist. You can choose whether contacts will be automatically registered when space becomes available for them, or whether they should instead be sent an invitation to register manually.
+
+For events already at capacity, visitors to the event website can only join the waitlist, but [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] users from your organization can still add new registrations by opening the [event record](set-up-event.md) and going to the **Registration and attendance** tab. Registrants added to the **Event registration** list here will join the event immediately without getting placed on the waitlist. Users can also add registrants directly to the **Waitlist** from here.
 
 When new space becomes available, the waitlist reacts as follows:
 
@@ -42,13 +45,13 @@ When new space becomes available, the waitlist reacts as follows:
 1. The identified waitlist record changes its **Invited** field from **No** to **Yes** to indicate that space is now available for that contact. In addition, one of the following occurs, depending on whether the contact is using automatic registration:
 
     - If the waitlist record has **Automatically register** set to **Yes**, then an event registration record is generated for the contact and the associated waitlist record is hidden. You should create a segment that finds these contacts (where (Automatically-register = Yes) and (Invited = Yes)) and then use a customer journey to send them a notification email that they are now registered.
-    - If the waitlist record has **Automatically register** set to **No**, then nothing happens right away. You should create a segment that finds these contacts (where (Automatically-register = No) and (Invited = Yes)) and then use a customer journey to send them an email that invites them to visit the event portal to accept the slot.
+    - If the waitlist record has **Automatically register** set to **No**, then nothing happens right away. You should create a segment that finds these contacts (where (Automatically-register = No) and (Invited = Yes)) and then use a customer journey to send them an email that invites them to visit the event website to accept the slot.
 
 ## Enable a waitlist for an event
 
 To enable or disable the waitlist for any event:
 
-1. Go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
+1. [Open the Events work area](open-events.md), go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
 
 1. Open the **General** tab and find the **Venue constraints** area.
 
@@ -66,7 +69,7 @@ To enable or disable the waitlist for any event:
 
 To see who is currently on the waitlist for any event:
 
-1. Go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
+1. [Open the Events work area](open-events.md), go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
 
 1. Open the **Registration and attendance** tab and scroll down to the **Waitlist** section. (Note that the **Waitlist** section is only shown for events where the waitlist is enabled.)  
 
@@ -94,7 +97,7 @@ Talk to your system administrator to make sure the waitlisted entity is being sy
 
 To create a segment that finds contacts who _are not_ using automatic registration, but who should now be invited to register, do the following:
 
-1. Go to the events list ( **Events** > **Event** > **Events** ), and then open your event.
+1. [Open the Events work area](open-events.md), go to the events list ( **Events** > **Event** > **Events** ), and then open your event.
 
 1. Check the address bar in your browser, which should show a URL such as:  
 
@@ -102,38 +105,40 @@ To create a segment that finds contacts who _are not_ using automatic registrati
 
     Find the part of the URL that starts with `&id=`, which is followed by the ID number of your current record. Copy that number (the value only) and use it in your expression.
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar.
+1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.
+    ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
 
-1. Fill out the **General** tab with a name and description for your new segment.
+    Do the following:
 
-1. Open the **Definition** tab. A default contact group is provided, but you don't want a contact group, so select the close button to remove this default group.  
+    - Enter a **Name** for the segment at the top of the page.
+    - Select the close button to remove the default contact group from the **Designer** area. Many of your segments will probably start and end with the contact entity, but for this example we will start with waitlist items instead.
 
-    ![Close the default group](media/event-waitlist-invite-segment1.png "Close the default group")
-
-1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Waitlist item** from here. 
-
+1. When default contact group closes, it's replaced by a **Select a profile or relationship** drop-down list. Select **Waitlist item** from here. (If you don't see the **Waitlist item** entity listed here, then you probably need to set up syncing for this entity as described in the previous section; note that it can take up to half an hour for a new entity to appear in this list after the first sync.)    
     ![Select the waitlist-item entity](media/event-waitlist-invite-segment2.png "Select the waitlist-item entity")
 
 1. Complete the row to create the logical expression:  
-**Waitlist Item | Automatically register | is | False**.  
-
+**Waitlist Item | Automatically register | is | False**.    
     ![Complete the waitlist-item clause](media/event-waitlist-invite-segment3.png "Complete the waitlist-item clause")
 
 1. Select **+ And** to add a second clause using an AND operator. Use it to create the logical expression:  
 **Waitlist Item | Invited | is | True**
 
 1. Select **+ And** to add a third clause. Use it to create the logical expression:  
-**Waitlist Item | Event msevtmgt\_event | is | &lt;YourEventID&gt;**
+**Waitlist Item | Event (event) | is | &lt;YourEventID&gt;**
 
     Where _&lt;YourEventID&gt;_ is the event ID you found at the start of this procedure.
 
 1. Select **+ And** to add a fourth clause. Use it to create the logical expression:  
-**msevtmgt\_waitlistitem\_contact\_msevtmgt\_contact\_&lt;YourOrg&gt; | All&ast;**
+**Waitlist item -> Contact (contact) | All&ast;**
 
-    This last clause links from the waitlist entity to the contact entity. All segments must resolve to a contact record, so this clause links the found waitlist records to their related contacts and returns that list of contacts.
+    This clause links from the waitlist entity to the contact entity. All segments must resolve to a contact record, so this clause links the found waitlist records to their related contacts and returns that list of contacts.
 
-1. Your final segment should resemble the following screenshot. Select **Save** at the bottom-right corner of the window to save your settings.  
+1. Select **+ And** to add a fifth clause. Use it to create the logical expression:  
+**Contact | All&ast;**
 
+    This clause adds all the matching contacts to the segment. 
+
+1. Select **Save** at the bottom-right corner of the window to save your settings. Your final segment should resemble the following screenshot:    
     ![The final invite segment query](media/event-waitlist-invite-segment4.png "The final invite segment query")
 
 1. Select **Go Live** from the command bar to activate the segment.
@@ -144,8 +149,9 @@ To create a segment that finds contacts who _have already_ been registered autom
 
 **Waitlist Item | Automatically register | is | True**  
 **AND Waitlist Item | Invited | is | True**  
-**AND Waitlist Item | Event msevtmgt\_event | is | &lt;YourEventID&gt;**  
-**AND msevtmgt\_waitlistitem\_contact\_msevtmgt\_contact\_&lt;YourOrg&gt; | All&ast;**
+**Waitlist Item | Event (event) | is | &lt;YourEventID&gt;**  
+**Waitlist item -> Contact (contact) | All&ast;**  
+**Contact | All&ast;**
 
 ![The final auto-registered segment query](media/event-waitlist-auto-segment.png "The final auto-registered segment query")
 
@@ -153,7 +159,7 @@ To create a segment that finds contacts who _have already_ been registered autom
 
 To deliver messages to your waitlist members, set up a customer journey that uses an appropriate segment (such as those described in the previous sections) followed by an email tile that sends a message that matches that segment. Set the journey to run for the entire registration period of your event. That way, each time a waitlist record gets moved to invited = true, the related contact will be added to the segment and will get processed by the journey.
 
-Each email message should inform the recipient about what has happened (auto registered, or invited to register), and include an event element to link to the relevant event portal. The event link is especially important for invites where auto-register is not enabled, but even auto-registered attendees may still need to purchase a ticket on the portal.
+Each email message should inform the recipient about what has happened (auto registered, or invited to register), and include an event element to link to the relevant event website. The event link is especially important for invites where auto-register is not enabled, but even auto-registered attendees may still need to purchase a ticket on the event website.
 
 For a journey sending invites to waitlist contacts who aren't auto-registered, consider adding an event tile as a child of the email-message tile so you can add a trigger that reacts to registration and follows up as needed.
 
@@ -165,5 +171,5 @@ The following example shows a journey that has two parallel paths, one for auto-
 
 ### See also
 
-[Event planning and management in Dynamics 365](event-management.md)  
+[Event planning and management](event-management.md)  
 [Set up an event](set-up-event.md)

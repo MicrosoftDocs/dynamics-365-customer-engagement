@@ -4,7 +4,7 @@
  /// <summary>
  /// Returns a string representing the label of an option in an optionset
  /// </summary>
- /// <param name="attribute">The metadata for an an attribute with options</param>
+ /// <param name="attribute">The metadata for an attribute with options</param>
  /// <param name="value">The value of the option</param>
  /// <returns>The label for the option</returns>
  public String GetOptionSetLabel(EnumAttributeMetadata attribute, int value)

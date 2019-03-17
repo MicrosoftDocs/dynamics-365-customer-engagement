@@ -1,16 +1,15 @@
 ---
 title: "Documentation resources for Dynamics 365 for Marketing | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 for Marketing."
-keywords: "marketing;help"
+keywords: marketing;help
 ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 0736ed6b-7931-1899-28a2-9f84a03fc568
 author: kamaybac
 ms.author: kamaybac
@@ -80,7 +79,6 @@ search.app:
 <li><a href="manage-images.md" data-raw-source="[Manage images for landing pages and email messages](manage-images.md)">Manage images for landing pages and email messages</a></li>
 <li><a href="create-templates.md" data-raw-source="[Create templates for emails, pages, forms, and journeys](create-templates.md)">Create templates for emails, pages, forms, and journeys</a></li>
 <li><a href="track-online-behavior.md" data-raw-source="[Track website visits, social media clicks, and banner clicks](track-online-behavior.md)">Track website visits, social media clicks, and banner clicks</a></li>
-<li><a href="create-inbound-customer-journey.md" data-raw-source="[Create an inbound customer journey](create-inbound-customer-journey.md)">Create an inbound customer journey</a></li>
 <li><a href="set-up-subscription-center.md" data-raw-source="[Set up subscription lists and subscription centers](set-up-subscription-center.md)">Set up subscription lists and subscription centers</a></li>
 
 </td></tr>
@@ -90,9 +88,9 @@ search.app:
 <li><a href="design-digital-content.md" data-raw-source="[Design digital content](design-digital-content.md)">Design digital content</a></li>
 <li><a href="prepare-marketing-emails.md" data-raw-source="[Prepare marketing email messages](prepare-marketing-emails.md)">Prepare marketing email messages</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
-<li><a href="create-deploy-marketing-pages.md#embed-form" data-raw-source="[Embed a marketing form on your own website](create-deploy-marketing-pages.md#embed-form)">Embed a marketing form on your own website</a></li>
+<li><a href="embed-forms.md" data-raw-source="[Embed a marketing form on your own website](embed-forms.md)">Embed a marketing form on your own website</a></li>
 <li><a href="customer-journeys-create-automated-campaigns.md" data-raw-source="[Create automated campaigns](customer-journeys-create-automated-campaigns.md)">Create automated campaigns</a></li>
-<li><a href="segmentation-lists-subscriptions.md" data-raw-source="[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)">Segmentation, lists, and subscriptions</a></li>
+<li><a href="segmentation-lists-subscriptions.md" data-raw-source="[Working with segments](segmentation-lists-subscriptions.md)">Working with segments</a></li>
 <li><a href="market-to-leads.md" data-raw-source="[Market to leads](market-to-leads.md)">Market to leads</a></li>
 <li><a href="score-manage-leads.md" data-raw-source="[Score and manage leads](score-manage-leads.md)">Score and manage leads</a></li>
 <li><a href="event-management.md" data-raw-source="[Plan and manage events](event-management.md)">Plan and manage events</a></li>

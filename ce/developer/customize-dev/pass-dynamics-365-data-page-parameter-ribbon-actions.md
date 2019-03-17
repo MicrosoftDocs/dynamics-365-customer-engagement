@@ -1,22 +1,22 @@
 ---
-title: "Pass Customer Engagement data from a page as a parameter to Ribbon actions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Pass Customer Engagement data from a page as a parameter to Ribbon actions (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The topic describes options for using the <CrmParameter> element to retrieve these values. "
-ms.custom: ""
-ms.date: 01/22/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 02/15/2019
+ms.reviewer: kvivek 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "ribbon, pass data to"
+  - ribbon, pass data to
 ms.assetid: 15245f11-a7e6-445a-8f18-06765268f1ad
 caps.latest.revision: 23
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: hazhouMSFT
+ms.author: hazhou
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -30,7 +30,7 @@ When you define an action in a ribbon, you frequently have to pass data from the
 
 ## Form and grid context in ribbon actions
 
-To pass in the execution context (*form context* or *grid context*) information to JavaScript function for your ribbon actions, specify **PrimaryControl** as the `<CrmParameter>` value in your ribbon definition. The passed in PrimaryControl value is used as an argument in your JavaScript function that provides the *form context* or *grid context* depending on where the ribbon command is executed. 
+To pass in the execution context (*form context* or *grid context*) information to JavaScript function for your ribbon actions, specify **PrimaryControl** for the form context, or **SelectedControl** for the grid context as the `<CrmParameter>` value in your ribbon definition. **SelectedControl** will pass in the grid context, for both subgrids and homepage grids. The passed in **PrimaryControl** or the **SelectedControl** value is used as an argument in your JavaScript function for *form context* or *grid context* respectively. 
 
 For example, here is a sample ribbon definition where we pass in the **PrimaryControl** parameter to the JavaScript function:
 
@@ -46,7 +46,7 @@ For example, here is a sample ribbon definition where we pass in the **PrimaryCo
 </CommandDefinition>
 ```
 
-Next, in the **new_mySampleScript.js** web resource file referenced in the example above, define your JavaScript function with the **primaryControl** variable as an argument. This argument provides the *form* or *grid* context depending on where the ribbon command is executed:
+Next, in the **new_mySampleScript.js** web resource file referenced in the example above, define your JavaScript function with the **primaryControl** variable as an argument. This argument provides the *form* context where the ribbon command is executed:
 
 ```JavaScript
 function mySampleFunction(primaryControl) {
@@ -121,7 +121,7 @@ function mySampleFunction(primaryControl) {
  The `Value` options `PrimaryEntityTypeName` and `FirstPrimaryItemId` provide information for an entity record. You can use `PrimaryItemIds` for a `HomepageGrid` ribbon to get a list of all the displayed items.
   
 ### See also  
- [Customize the Ribbon for Microsoft Dynamics 365](customize-commands-ribbon.md)   
+ [Customize the Ribbon for Microsoft Dynamics 365 for Customer Engagement](customize-commands-ribbon.md)   
  [Passing Parameters to a URL using the Ribbon](pass-parameters-url-by-using-ribbon.md)    
  [Define Ribbon Actions](define-ribbon-actions.md)   
  [Define Custom Actions to modify the Ribbon](define-custom-actions-modify-ribbon.md)<br>

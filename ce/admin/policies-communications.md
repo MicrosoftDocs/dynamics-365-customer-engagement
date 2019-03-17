@@ -1,20 +1,20 @@
 ---
-title: "Policies and Communications for Dynamics 365 (online) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 08/29/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Policies and Communications for Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
+ms.custom: 
+ms.date: 10/25/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: e351e995-d299-4817-8e84-0a70743627bd
 caps.latest.revision: 5
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,25 +23,32 @@ search.app:
 ---
 # Policies and Communications for service incidents
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!IMPORTANT]
+> Starting October 15, 2018, we will be sending our service notifications from a new email address. The new email addresses may cause the notifications to bypass existing rules, or arrive in your Junk email folder. Please be sure to check your settings so you do not miss any important announcements or service communications. 
+>
+> New email addresses:
+> - Microsoft Dynamics 365 for Customer Engagement apps - msdynamics365@microsoft.com
+> - Microsoft Dynamics 365 for Customer Engagement apps for Finance and Operations - msdyn365finops@microsoft.com
 
 ## Introduction
-Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin for your organization,  or recipients added to the notification list by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin, receives email notifications. During a service incident, a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] customer service representative may also call and follow up with an email.  
+Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admin for your organization,  or recipients added to the notification list by the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admin, receives email notifications. During a service incident, a Customer Engagement apps customer service representative may also call and follow up with an email.  
   
- If you’re not sure who your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin is, see [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md).  
+ If you’re not sure who your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admin is, see [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md).  
   
  If you want to change who receives email communications, see [Manage email notifications](../admin/manage-email-notifications.md).  
   
- If you’re a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin, you can also see the latest status of updates and incidents in the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] service health page. To learn how to get to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page, see [View the status of your services](https://support.office.com/article/View-the-status-of-your-services-932ad3ad-533c-418a-b938-6e44e8bc33b0).  
+ If you’re a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admin, you can also see the latest status of updates and incidents in the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] service health page. To learn how to get to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page, see [View the status of your services](https://support.office.com/article/View-the-status-of-your-services-932ad3ad-533c-418a-b938-6e44e8bc33b0).  
   
 ## System updates
 
- The Dynamics 365 (online) team regularly performs security updates, and major and minor service updates.
+ The Dynamics 365 for Customer Engagement apps (online) team regularly performs security updates, and major and minor service updates.
  
 <a name="bkmk_SecurityUpdates"></a>   
 
 ### Security updates  
- The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team regularly performs the following to ensure the security of the system:  
+ The Customer Engagement apps team regularly performs the following to ensure the security of the system:  
   
 -   Scans of the service to identify possible security vulnerabilities  
   
@@ -49,38 +56,38 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
   
 -   Evaluations of the service to determine exposure to any vulnerabilities identified by the Microsoft Security Response Center (MSRC), which regularly monitors external vulnerability awareness sites  
   
-The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team identifies and tracks any identified issues, and takes swift action to mitigate risks when necessary.  
+The Customer Engagement apps team identifies and tracks any identified issues, and takes swift action to mitigate risks when necessary.  
   
 **How do I find out about security updates?**  
   
- Because the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team strives to apply risk mitigations in a way that doesn’t require service downtime, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators usually don’t receive emails for security updates. If a security update does require service downtime, it is considered planned maintenance.  
+ Because the Customer Engagement apps team strives to apply risk mitigations in a way that doesn’t require service downtime, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators usually don’t receive emails for security updates. If a security update does require service downtime, it is considered planned maintenance.  
   
- For more information about [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] security, see [Dynamics 365 (online) Trust Center](https://www.microsoft.com/en-us/TrustCenter/CloudServices/Dynamics365).
+ For more information about Customer Engagement apps security, see [Dynamics 365 for Customer Engagement apps (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365).
  
  <a name="bkmk_ServiceUpdates"></a>   
 
 ### Major service updates  
- Dynamics 365 (online) typically releases two major service updates per year. Major service updates provide new features and functionality to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+ Dynamics 365 for Customer Engagement apps (online) typically releases two major service updates per year. Major service updates provide new features and functionality to Customer Engagement apps.  
 
 > [!NOTE]
 > For information about minor service updates, see [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).
   
- Improvements in the update process put the power in your hands for scheduling your organization’s service updates. You can choose from a list of available dates. Service updates are only applied after they are approved by the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admin - please review the important note below outlining the Dynamics 365 online update policy. This helps you to plan well in advance for your upgrade path, while using your sandbox organization to properly test and evaluate the service updates with your existing production code.  
+ Improvements in the update process put the power in your hands for scheduling your organization’s service updates. You can choose from a list of available dates. Service updates are only applied after they are approved by the Customer Engagement apps admin - please review the important note below outlining the Dynamics 365 for Customer Engagement apps online update policy. This helps you to plan well in advance for your upgrade path, while using your Sandbox organization to properly test and evaluate the service updates with your existing production code.  
   
 > [!IMPORTANT]
 >  Be sure to check out [Update policy](../admin/manage-updates.md#BKMK_Policy) for important information about updating to the latest version.  
   
  **How do I find out about major service updates?**  
   
- The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team preschedules customers for the service update and emails [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admins 90 days before the scheduled update. [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admins receive additional emails at 90 days, 30 days, 15 days, 7 days, 0 or day of, and post update.  
+ The Customer Engagement apps team preschedules customers for the service update and emails Customer Engagement apps admins 90 days before the scheduled update. Customer Engagement apps admins receive additional emails at 90 days, 30 days, 15 days, 7 days, 0 or day of, and post update.  
   
  In the email, you have the opportunity to either approve the scheduled date or reschedule the update from a list of dates. All customers are updated during the defined service update release period, usually over a three-month window.  
   
- To find out more about rescheduling service updates, see [Manage Dynamics 365 (online) updates](../admin/manage-updates.md).  
+ To find out more about rescheduling service updates, see [Manage Dynamics 365 for Customer Engagement apps (online) updates](../admin/manage-updates.md).  
   
  To find out what’s new and how to prepare for the next release, check out the following resources:  
   
--   [Important changes coming in Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)  
+-   [Important changes coming in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)  
   
 Emails regarding the scheduling or rescheduling of your update will be sent with a light-blue banner.  
   
@@ -90,22 +97,22 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
  
   Minor service updates contain customization changes to support new features, product improvements, and bug fixes.
   
-  A list of minor service updates can be found on our [Releases page](https://support.microsoft.com/en-us/help/2925359/microsoft-dynamics-crm-online-releases).
+  A list of minor service updates can be found on our [Releases page](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).
   
 ## System maintenance
 
 <a name="bkmk_PlannedMaintenance"></a>
 
 ### Planned maintenance  
- Planned maintenance includes updates and changes to the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service to provide increased stability, reliability, and performance. These changes can include:  
+ Planned maintenance includes updates and changes to the Customer Engagement apps service to provide increased stability, reliability, and performance. These changes can include:  
   
 - Hardware or infrastructure updates  
   
 - Integrated services, such as a new version of [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] or [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]  
   
-- [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service changes and software updates  
+- Customer Engagement apps service changes and software updates  
   
-- Minor service updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] that occur several times per year. See [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).  
+- Minor service updates to Customer Engagement apps that occur several times per year. See [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).  
  
  ### Maintenance timeline
  
@@ -113,7 +120,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
  
 - OCE: 11 AM to 9 PM
 - JPN: 10 AM to 7 PM
-- APJ: 11 AM to 8 PM
+- APJ: 2 PM to 8 PM
 - IND: 12 PM to 9 PM
 - EUR: 6 PM to 3 AM
 - GBR: 6 PM to 3 AM
@@ -168,9 +175,9 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
 <a name="bkmk_UnplannedMaintenance"></a>  
 
 ### Unplanned maintenance  
- From time to time, [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] inevitably encounters unplanned issues that require changes to ensure availability. Microsoft strives to provide as much notification as possible during these events. Because these events can’t be predicted, they are not considered planned maintenance.  
+ From time to time, Customer Engagement apps inevitably encounters unplanned issues that require changes to ensure availability. Microsoft strives to provide as much notification as possible during these events. Because these events can’t be predicted, they are not considered planned maintenance.  
   
- When this happens, your organization receives an “Unplanned Maintenance” email. These emails go out to all [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] System Administrators in every [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance that is affected by the unplanned maintenance.  
+ When this happens, your organization receives an “Unplanned Maintenance” email. These emails go out to all Customer Engagement apps System Administrators in every Customer Engagement instance that is affected by the unplanned maintenance.  
   
  You can also see the status of current unplanned maintenance activities on the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page. To learn how to get to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page, see [View the status of your services](https://support.office.com/article/View-the-status-of-your-services-932ad3ad-533c-418a-b938-6e44e8bc33b0).  
   Planned and unplanned maintenance emails can be identified by the light-orange banner.  
@@ -182,7 +189,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
 ## Service incidents  
  A service incident occurs when your organization is inaccessible or you’re unable to use the service or one of its components. Examples include:  
   
-- Your users get a “page not found” or 404 error when they try to access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+- Your users get a “page not found” or 404 error when they try to access Customer Engagement apps.  
   
 - Your users cannot sign in to your organization.  
   
@@ -192,7 +199,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
   
 **How do I find out about service incidents?**  
   
- If you open a case to report a service incident, a [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] customer support representative will call your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin and follow up with an email when the service incident is resolved.  
+ If you open a case to report a service incident, a [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] customer support representative will call your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admin and follow up with an email when the service incident is resolved.  
   
 <a name="bkmk_MajorServiceIncidents"></a>  
 
@@ -201,14 +208,14 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
   
  **How do I find out about major service incidents?**  
   
- The [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] policy is to send email updates to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admins of affected customers as soon as we are aware of a major service incident, and a final email once the issue is considered resolved.  
+ The [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] policy is to send email updates to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admins of affected customers as soon as we are aware of a major service incident, and a final email once the issue is considered resolved.  
   
  You can also see the status of major service incidents in your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page. To learn how to get to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page, see [View the status of your services](https://support.office.com/article/View-the-status-of-your-services-932ad3ad-533c-418a-b938-6e44e8bc33b0).  
   
   
-If the service incident breaches your [Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=196557), you can claim a billing credit according to the conditions of your [Service Agreement](http://go.microsoft.com/fwlink/p/?LinkID=101174). If you need help with this, see [Billing FAQs for Dynamics 365 (online)](billing-faqs-dynamics-365-online.md).
+If the service incident breaches your [Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=196557), you can claim a billing credit according to the conditions of your [Service Agreement](http://go.microsoft.com/fwlink/p/?LinkID=101174). If you need help with this, see [Billing FAQs for Dynamics 365 for Customer Engagement apps (online)](billing-faqs-dynamics-365-online.md).
   
-Major service incident emails can easily be identified by the orange banner.  
+Major service incident emails can easily be identified by the red banner.
   
  ![Service incident email banner](../admin/media/service-incident-banner.png "Service incident email banner")  
   
@@ -223,7 +230,7 @@ Major service incident emails can easily be identified by the orange banner.
 
 **Post-Incident Report**
 
- In addition, five business days after the incident resolution, the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team publishes a post-incident report (PIR) to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page. This report summarizes the following details about the incident:  
+ In addition, five business days after the incident resolution, the Customer Engagement apps team publishes a post-incident report (PIR) to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page. This report summarizes the following details about the incident:  
   
 -   Description  
   
@@ -237,26 +244,20 @@ Major service incident emails can easily be identified by the orange banner.
   
 -   Next steps  
 
-### Communications and awareness  
- Communications emails are specific to managing the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Service, including changes with the service or feature offerings. They can be informational in nature, drive specific actions, or both. The target audience for these communications are [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrators or individuals designated to running the service. You can easily identify these by the light-blue banner.  
+### Communications for releases, package deployments, and awareness
+Communications emails are specific to managing the Dynamics 365 for Customer Engagement apps Service, including changes with the service, releases or feature offerings. They can be informational in nature, drive specific actions, or both. The target audience for these communications are Dynamics 365 for Customer Engagement apps System Administrators or individuals designated to running the service. You can easily identify these by the light-blue banner.
   
- ![General awareness email banner](../admin/media/general-awareness-banner.png "General awareness email banner")  
+ ![General awareness email banner](../admin/media/scheduling-banner.png "General awareness email banner") 
  
  <a name="BKMK_PostPurchase"></a>   
 
 ### Post-purchase customer lifecycle communications  
- Once a customer has purchased [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], we send a series of helpful email communications to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators during the first year. These communications direct customers to a number of resources that will assist both administrators and users to successfully adopt and expand their use of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+ Once a customer has purchased Customer Engagement apps, we send a series of helpful email communications to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators during the first year. These communications direct customers to a number of resources that will assist both administrators and users to successfully adopt and expand their use of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   
  You can easily identify these communications by the dark-blue banner.  
   
  ![Post-purchase email banner](../admin/media/post-purchase-banner.png "Post-purchase email banner")  
-  
-<a name="BKMK_LaunchReadiness"></a>   
 
-### Launch and post launch readiness communications  
- These communications are used to inform [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators about important information prior to a major service release. Our goal is to share information about tasks that administrators may need to perform before the release and to inform customers about new or enhanced capabilities that are coming in the release. You’ll see a green banner when receiving these types of communications.  
-  
- ![Launch readiness email banner](../admin/media/readiness-banner.png "Launch readiness email banner")  
   
 ### Notice about Online Policies
-Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).
+Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/legal/intellectualproperty/onlinedisclaimer.aspx).

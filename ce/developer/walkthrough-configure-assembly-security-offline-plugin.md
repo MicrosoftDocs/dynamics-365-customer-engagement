@@ -1,20 +1,20 @@
 ---
-title: "Walkthrough: Configure assembly security for an offline plug-in  (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Walkthrough: Configure assembly security for an offline plug-in  (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The topic provides a walkthrough on configuring assembly security for an offline plug-in."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: bb9ff0b6-ef76-473e-a24b-2921c8acec23
 caps.latest.revision: 12
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -28,7 +28,7 @@ The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
   
 ### Get the public key token  
   
-1.  Load the assembly containing the offline plug-in into the Plug-in Registration tool. For more information about how to use the tool, see [Walkthrough: Register a Plug-in using the Plug-in Registration Tool](walkthrough-register-plugin-using-plugin-registration-tool.md).  
+1.  Load the assembly containing the offline plug-in into the Plug-in Registration tool. For more information about how to use the tool, see [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in).  
   
 2.  Select the plug-in assembly in the tree view of the tool.  
   
@@ -50,5 +50,5 @@ The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
   
 ### See also  
  [Plug-in Development](plugin-development.md)   
- [Sample: Basic Plug-in](sample-create-basic-plugin.md)   
+ [Sample: Create a basic plug-in](/powerapps/developer/common-data-service/org-service/samples/basic-followup-plugin)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)

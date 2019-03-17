@@ -7,10 +7,10 @@ ms.custom:
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.technology: 
-  - "marketing"
-ms.topic: "get-started-article"
+  - marketing
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c2228386-9755-47e2-b8ce-2585053b121f
 author: KumarVivek
 ms.author: kvivek
@@ -30,6 +30,7 @@ search.app:
 <h2>Extend Dynamics 365 for Marketing</h2>
 <li><a href="extend-customer-journeys-custom-channels.md" data-raw-source="[Extend customer journeys using custom channels](extend-customer-journeys-custom-channels.md)">Extend customer journeys using custom channels</a></li>
 <li><a href="create-custom-channel.md" data-raw-source="[Create a custom channel](create-custom-channel.md)">Create a custom channel</a></li>
+<li><a href="event-management-web-application.md" data-raw-source="[Build and host a custom event portal](event-management-web-application.md)">Build and host a custom event portal</a></li>
 <li><a href="retrieve-interactions-contact.md" data-raw-source="[Retrieve interactions for a contact](retrieve-interactions-contact.md)">Retrieve interactions for a contact</a></li>
 <li><a href="marketing-organization-metadata.md" data-raw-source="[Metadata reference for your organization](marketing-organization-metadata.md)">Metadata reference for your organization</a></li>
 
@@ -51,4 +52,4 @@ search.app:
    
 [User Guide (Marketing)](../../marketing/user-guide.md)  
 
-[Developer Guide for Dynamics 365 Customer Engagement](../../developer/developer-guide.md) 
+[Developer Guide for Dynamics 365 for Customer Engagement](../../developer/developer-guide.md) 

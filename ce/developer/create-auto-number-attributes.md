@@ -1,15 +1,15 @@
 ---
-title: "Create auto-number-attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs)"
+title: "Create auto-number-attributes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs)"
 description: "Learn about creating auto-number attribute in the same way you create a string attribute using the StringAttributeMetadata class except that you use the new AutoNumberFormat property. Use the AutoNumberFormat property to define a pattern that includes sequential numbers and random strings by composing placeholders, which indicates the length and type of values that are generated."
-keywords: "Auto-number attributes"
+keywords: Auto-number attributes
 ms.date: 06/13/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "CRM 2017"
-  - "Dynamics 365"
+  - CRM 2017
+  - Dynamics 365 for Customer Engagement
 ms.assetid: e97477d2-5509-9f5e-76e0-e0039b2e72c8
-author: kabala123
+author: nhelgren
 ms.author: kabala
 manager: kudesia
 topic-status: Drafting
@@ -269,11 +269,11 @@ OData-Version: 4.0
 
 ### Auto Number Manager
 
-**[Auto Number Manager](https://www.xrmtoolbox.com/plugins/Rappen.XrmToolBox.AutoNumManager/)** for XrmToolBox is a community driven tool for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement that provides a UI to set, update and remove auto number format on new or existing attributes.
+**[Auto Number Manager](https://www.xrmtoolbox.com/plugins/Rappen.XrmToolBox.AutoNumManager/)** for XrmToolBox is a community driven tool for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps that provides a UI to set, update and remove auto number format on new or existing attributes.
 Please see the [Developer tools](developer-tools.md) topic for community developed tools and [anm.xrmtoolbox.com](http://anm.xrmtoolbox.com) for more information about Auto Number Manager.
 
 > [!NOTE]
-> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] apps and does not extend support to the community tools. 
 > If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
 
 

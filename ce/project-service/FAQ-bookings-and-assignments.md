@@ -1,9 +1,9 @@
 ---
 
-title: How are resource bookings and task assignments related? (Dynamics 365 for Project Service) | MicrosoftDocs
+title: How are resource bookings and task assignments related? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
 description: How does Project Service manage named resources, resource bookings and task assignments.
-author: NeilWOrint 
-manager: ShellyHa
+author: JohnPBurrows 
+manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice

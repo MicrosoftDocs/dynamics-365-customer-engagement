@@ -1,19 +1,19 @@
 ---
-title: "Retrieve metadata by name or MetadataId (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Dynamics 365 (online) Customer Engagement uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes."
-ms.custom: ""
+title: "Retrieve metadata by name or MetadataId (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Dynamics 365 for Customer Engagement (online) Customer Engagement uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 80bcdd8e-7c4f-4fd5-8708-00345f5d0408
 caps.latest.revision: 8
-author: "JimDaly"
-ms.author: "jdaly"
+author: JimDaly
+ms.author: jdaly
 search.audienceType: 
   - developer
 search.app: 
@@ -297,7 +297,7 @@ OData-Version: 4.0
   
 ### See also
 
- [Use the Web API with Dynamics 365 metadata](use-web-api-metadata.md)   
+ [Use the Web API with Dynamics 365 for Customer Engagement apps metadata](use-web-api-metadata.md)   
  [Query metadata using the Web API](query-metadata-web-api.md)   
  [Create and update entity definitions using the Web API](create-update-entity-definitions-using-web-api.md)   
  [Create and update entity relationships using the Web API](create-update-entity-relationships-using-web-api.md)

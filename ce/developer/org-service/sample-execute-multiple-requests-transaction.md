@@ -1,13 +1,13 @@
 ---
-title: "Sample: Execute multiple requests in transaction (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Execute multiple requests in transaction (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to execute multiple organization message requests in a single database transaction by using a single web service method call, passing ExecuteTransactionRequest as a parameter"
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1ba7b824-6cbf-41f8-87a3-901d42ab5aa1
 author: JimDaly
 ms.author: jdaly
@@ -27,7 +27,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement supports batching of requests into a single web service method call. Each request in the batch is executed as part of a single database transaction. Failure of any request to complete successfully causes a rollback of any completed requests and no further processing is performed on requests not yet executed.
+[!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps supports batching of requests into a single web service method call. Each request in the batch is executed as part of a single database transaction. Failure of any request to complete successfully causes a rollback of any completed requests and no further processing is performed on requests not yet executed.
 
 Download the sample: [Work with multiple requests in transaction](https://code.msdn.microsoft.com/Work-with-execute-4388dac6).
   

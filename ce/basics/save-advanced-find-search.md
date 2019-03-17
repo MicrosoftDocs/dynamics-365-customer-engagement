@@ -1,20 +1,20 @@
 ---
-title: "Create, edit, or save an Advanced Find search (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Create, edit, or save an Advanced Find search (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 07/27/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 45e83f30-ab4c-4ef5-86c4-a0a8f2a21561
 caps.latest.revision: 32
-author: "Mattp123"
-ms.author: "t-mijosh"
-manager: "ryjones"
+author: Mattp123
+ms.author: t-mijosh
+manager: ryjones
 search.audienceType: 
   - enduser
 search.app: 
@@ -40,7 +40,7 @@ With the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], yo
   
         At the bottom of the **Select** list, the **Related** section shows related record types. For example, most record types have a related Notes record type. To select fields from a related record type, select field, and a new **Select** link appears.  
          
-        If you’re on July 2017 update for Dynamics 365 (online) or later, can use advanced find to build a “Does not contain data” query. For example, you can query for all cases that do not contain a task. To do this launch advanced find and in the query, choose look for **Cases** and **Tasks (Regarding)** and chooses **Does not contain data**. 
+        If you’re using Dynamics 365 for Customer Engagement apps, can use advanced find to build a “Does not contain data” query. For example, you can query for all cases that do not contain a task. To do this launch advanced find and in the query, choose look for **Cases** and **Tasks (Regarding)** and chooses **Does not contain data**. 
          
         ![Advanced find does not contain query](media/advancedfind.png "Advanced find does not contain query")
   
@@ -65,6 +65,6 @@ With the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], yo
 5. Click **Results**.  
   
 ### See also  
- [Search and Find in Dynamics 365](../basics/search-and-find-header.md)
+ [Search and Find in Dynamics 365 for Customer EngagEngagement apps](../basics/search-and-find-header.md)
  [Search for records](../basics/search-records.md)
  [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)

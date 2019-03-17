@@ -1,12 +1,12 @@
 ---
 title: "Check the health state of your social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to keep the tokens of your social profiles in a healthy state."
-keywords: "token, health state"
+keywords: token, health state
 ms.date: 01/30/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 4d0153a1-4d21-4a73-8685-2ce2e6c55e9f
 author: m-hartmann
 ms.author: mhart

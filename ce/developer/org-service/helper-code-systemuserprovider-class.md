@@ -1,27 +1,27 @@
 ---
-title: "Helper code: SystemUserProvider class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The SystemUserProvider class demonstrates how to programmatically create additional users in Active Directory andDynamics 365 (online) Customer Engagement"
-ms.custom: ""
+title: "Helper code: SystemUserProvider class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "The SystemUserProvider class demonstrates how to programmatically create additional users in Active Directory andDynamics 365 for Customer Engagement (online) Customer Engagement"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "creating additional users by using Active Directory in CRM"
-  - "SystemUserProvider class, helper code samples"
-  - "sample for creating additional users by using Active Directory in CRM, SystemUserProvider class"
-  - "adding more users by using Active Directory in CRM sample, SystemUserProvider class"
-  - "SystemUserProvider class, creating additional users by using Active Directory in CRM"
-  - "helper code samples, SystemUserProvider class"
+  - creating additional users by using Active Directory in CRM
+  - SystemUserProvider class, helper code samples
+  - sample for creating additional users by using Active Directory in CRM, SystemUserProvider class
+  - adding more users by using Active Directory in CRM sample, SystemUserProvider class
+  - SystemUserProvider class, creating additional users by using Active Directory in CRM
+  - helper code samples, SystemUserProvider class
 ms.assetid: 4a4da7b8-ca42-4f03-9a27-83d487d38ace
 caps.latest.revision: 27
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,12 +1,12 @@
 ---
 title: "Configure the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to prepare for the Social Selling Assistant before sharing it with your users."
-keywords: "ssa, social selling assistant, MSE, dynamics 365, configuration"
+keywords: ssa, social selling assistant, MSE, dynamics 365, configuration
 ms.date: 12/12/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: bbed3178-9494-44bf-9d4e-1f78e84e729d
 author: m-hartmann
 ms.author: mhart
@@ -26,7 +26,7 @@ search.app:
 # Configure [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for the Social Selling Assistant
 Before you invite users to work with Social Selling Assistant, we recommend that an administrator configure [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], so users get the most out of the recommendation experience.  The personalized content feeds are based on the configuration in the connected [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. Users can choose from the available search topics and social profiles to personalize their Social Selling Assistant settings.In the personalization process, users get to choose the search topics to get insights and recommendations for sharing. Also, they can add their own social profiles or view shared profiles for sharing the recommendations.  
   
-After a system administrator installs the Social Selling Assistant in [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)], an administrator in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can optimize its configuration. Start by flagging search topics that gather posts which are owned by your organization or create a special tag to promote certain posts to users in Social Selling Assistant. Finally, you can share social profiles with other users to allow them post on their behalf.  
+After a system administrator installs the Social Selling Assistant in [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] apps, an administrator in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can optimize its configuration. Start by flagging search topics that gather posts which are owned by your organization or create a special tag to promote certain posts to users in Social Selling Assistant. Finally, you can share social profiles with other users to allow them post on their behalf.  
   
   
 ## Flag social profiles in search rules as “owned”
@@ -75,4 +75,4 @@ All posts that have the one or more of these tags will be promoted automatically
 [Personalize the Social Selling Assistant for individual users](personalize-social-selling-assistant.md)   
 [Set up searches to listen to social media conversations](set-up-searches.md)   
 [Work with the Social Selling Assistant](work-with-social-selling-assistant.md)   
-[TechNet: Extend Dynamics 365 with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)
+[TechNet: Extend Dynamics 365 for Customer Engagement with integration and solutions](https://technet.microsoft.com/library/dn832126.aspx)

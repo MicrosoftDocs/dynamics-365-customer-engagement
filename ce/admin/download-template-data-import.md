@@ -1,20 +1,20 @@
 ---
-title: "Download a template for data import for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Download a template for data import for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 8a8f0648-22fd-434b-9b1a-1ded448dacb0
 caps.latest.revision: 30
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,9 +23,9 @@ search.app:
 ---
 # Download a template for data import
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Whether your data is stored in spreadsheets, databases, or other systems, you'll want to import the data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] so you can keep track of all your customer information in one place. You use templates for importing many types of records, such as accounts, leads or cases. There is a complete list in the Templates for Data Import wizard.  
+Whether your data is stored in spreadsheets, databases, or other systems, you'll want to import the data into [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps so you can keep track of all your customer information in one place. You use templates for importing many types of records, such as accounts, leads or cases. There is a complete list in the Templates for Data Import wizard.  
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   

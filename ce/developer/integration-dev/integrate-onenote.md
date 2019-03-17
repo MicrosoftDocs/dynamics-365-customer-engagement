@@ -1,20 +1,20 @@
 ---
-title: "Integrate Microsoft Dynamics 365 with OneNote | MicrosoftDocs"
-description: "Set up OneNote Integration in Dynamics 365 (online) Customer Engagement so that a dedicated OneNote notebook is automatically created for the selected entity records in Dynamics 365. This feature provides you the ability to easily take notes in the context of a Dynamics 365 record in various formats such as pictures, drawings, formatted text (bullet points and tables), and voice recordings in a OneNote notebook. You can access the OneNote notebook directly on the activity wall in the Dynamics 365 web client or from the record form in the Dynamics 365 mobile apps."
-ms.custom: ""
+title: "Integrate Microsoft Dynamics 365 for Customer Engagement with OneNote | MicrosoftDocs"
+description: "Set up OneNote Integration in Dynamics 365 for Customer Engagement (online) Customer Engagement so that a dedicated OneNote notebook is automatically created for the selected entity records in Dynamics 365 for Customer Engagement. This feature provides you the ability to easily take notes in the context of a Dynamics 365 for Customer Engagement record in various formats such as pictures, drawings, formatted text (bullet points and tables), and voice recordings in a OneNote notebook. You can access the OneNote notebook directly on the activity wall in the Dynamics 365 for Customer Engagement web client or from the record form in the Dynamics 365 for Customer Engagement mobile apps."
+ms.custom: 
 ms.date: 02/07/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: e666b9e9-65a6-4a89-918c-bbb3a6e84515
 caps.latest.revision: 17
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Set up [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration in [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Customer Engagement so that a dedicated [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] notebook is automatically created for the selected entity records in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. This feature provides you the ability to easily take notes in the context of a Dynamics 365 record in various formats such as pictures, drawings, formatted text (bullet points and tables), and voice recordings in a OneNote notebook. You can access the OneNote notebook directly on the activity wall in the Dynamics 365 web client or from the record form in the Dynamics 365 mobile apps.  
+Set up [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration in [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps so that a dedicated [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] notebook is automatically created for the selected entity records in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. This feature provides you the ability to easily take notes in the context of a Dynamics 365 for Customer Engagement apps record in various formats such as pictures, drawings, formatted text (bullet points and tables), and voice recordings in a OneNote notebook. You can access the OneNote notebook directly on the activity wall in the Dynamics 365 for Customer Engagement web client or from the record form in the Dynamics 365 for Customer Engagement mobile apps.  
   
 > [!NOTE]
 >  This feature was introduced in [!INCLUDE[pn_crm_online_2015_update_1](../../includes/pn-crm-online-2015-update-1.md)], and is available only for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)].  
@@ -52,5 +52,5 @@ Set up [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration in [!INC
 ### See also  
  [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)   
  [SharePointDocumentLocation Entity](../entities/sharepointdocumentlocation.md)   
- [Integrate Microsoft Dynamics 365 with SharePoint](integrate-sharepoint.md) 
+ [Integrate Microsoft Dynamics 365 for Customer Engagement apps with SharePoint](integrate-sharepoint.md) 
  
