@@ -1,6 +1,6 @@
 ---
-title: "Add a Power BI report or dashboard to a webpage in a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Instructions to add a Power BI report or dashboard to a webpage in the portal."
+title: "Add a Power BI report or dashboard to a web page in a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+description: "Instructions to add a Power BI report or dashboard to a web page in the portal."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -22,9 +22,9 @@ search.app:
   - D365Portals
 ---
 
-# Add a Power BI report or dashboard to a webpage in portal
+# Add a Power BI report or dashboard to a web page in portal
 
-You can add a Power BI report or dashboard to a webpage in portal by using the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag. You can add the tag in the **Copy** field on a web page or in the **Source** field on a web template.
+You can add a Power BI report or dashboard to a web page in portal by using the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag. You can add the tag in the **Copy** field on a web page or in the **Source** field on a web template. If you adding a Power BI report or dashboard created in the new workspace in Power BI, you must specify the authentication type as powerbiembedded in the powerbi Liquid tag.
 
 For example: 
 
@@ -33,7 +33,7 @@ For example:
 ```
 
 > [!NOTE]
-> Before adding the secure Power BI report or dashboard to a webpage in portal, you must share it with the required users. More information: [Share Power BI workspace](https://docs.microsoft.com/en-us/power-bi/service-how-to-collaborate-distribute-dashboards-reports#collaborate-with-coworkers-in-an-app-workspace) and [Share Power BI dashboard and report](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards).
+> Before adding the secure Power BI report or dashboard to a web page in portal, you must share it with the required users. More information: [Share Power BI workspace](https://docs.microsoft.com/en-us/power-bi/service-how-to-collaborate-distribute-dashboards-reports#collaborate-with-coworkers-in-an-app-workspace) and [Share Power BI dashboard and report](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards).
 
 ## Get the path of a dashboard or report
 
@@ -66,4 +66,4 @@ For example:
 ### See also
 
 [powerbi Liquid tag](dynamics-entity-tags.md#powerbi)<br> 
-[Enable Power BI integration](set-up-power-bi-integration.md)
+[Set up Power BI integration](set-up-power-bi-integration.md)
