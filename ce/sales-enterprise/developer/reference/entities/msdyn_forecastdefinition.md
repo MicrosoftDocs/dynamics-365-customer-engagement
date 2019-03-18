@@ -26,7 +26,7 @@ topic-status: Drafting
 Entity set path: `[organizationURI]/api/data/v9.1/msdyn_forecastdefinitions`<br />
 Display name: Forecast definition <br />
 Primary key: msdyn_forecastdefinitionid <br />
-Operations supported: Create, retrieve, update and delete<br />
+Operations supported: Create, retrieve, update, and delete<br />
 
 ## Properties
 
@@ -54,7 +54,7 @@ Properties represent fields of data stored in the entity. Some properties are re
 |msdyn_validfrom|Valid from|Edm.Date|Shows the date from which the forecast is applicable. The date and time are displayed in the time zone selected in Dynamics 365 for Customer Engagement apps options.|
 |msdyn_validto|Valid to|Edm.Date|Shows the date through which the forecast is applicable. The date and time are displayed in the time zone selected in Dynamics 365 for Customer Engagement apps options.|
 |overriddencreatedon|Record Created On|Edm.DateTimeOffset|Date and time that the record was migrated.|
-|owner|Owner|Edm.Guid|Owner Id|
+|owner|Owner|Edm.Guid|Owner ID|
 |owningbusinessunit|Owning Business Unit|Edm.Guid|Unique identifier for the business unit that owns the record.|
 |owningteam|Owning Team|Edm.Guid|Unique identifier for the team that owns the record.|
 |owninguser|Owning User|Edm.Guid|Unique identifier for the user who owns the record|
