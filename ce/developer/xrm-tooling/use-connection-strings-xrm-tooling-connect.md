@@ -56,7 +56,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
  After creating a <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> object, you can use the object to perform actions in Dynamics 365 for Customer Engagement apps. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use XRM Tooling to execute actions in Dynamics 365 for Customer Engagement apps](use-xrm-tooling-execute-actions.md)  
 
 > [!NOTE]
-> In this documentation release, the connection string documentation that is common to on-line deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to implementing connection strings for an on-premises or Internet Facing Deployment. To learn about connection string, start by reading the connection string [documentation](/powerapps/developer/common-data-service/use-connection-strings-xrm-tooling-connect) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
+> In this documentation release, the connection string documentation that is common to on-line deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to implementing connection strings for an on-premises or Internet Facing Deployment. To learn about connection string, start by reading the connection string [documentation](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
 
 <a name="Parameters"></a>
 
@@ -140,7 +140,7 @@ Password=passcode" />
 
 ### See also
 
- [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service//build-windows-client-applications-xrm-tools.md)
- [Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/use-crmserviceclient-constructors-connect.md)
- [Use XRM Tooling to execute actions in Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/use-xrm-tooling-execute-actions.md)
+ [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)<br />
+ [Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement apps](/powerapps/developer/xrm-tooling/common-data-service/use-crmserviceclient-constructors-connect)<br />
+ [Use XRM Tooling to execute actions in Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-execute-actions)
  <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>
