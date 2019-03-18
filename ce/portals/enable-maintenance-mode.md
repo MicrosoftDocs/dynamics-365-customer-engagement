@@ -1,0 +1,54 @@
+---
+title: "Enable maintenance mode with Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
+description: "Learn how to enable maintenance mode with your portal."
+ms.date: 12/03/2018
+ms.service: crm-online
+ms.topic: article
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
+ms.assetid: 1A2BBC0D-17B9-4343-A65D-923737B36E41
+author: sbmjais
+ms.author: shjais
+manager: shubhadaj
+ms.reviewer: 
+topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
+---
+
+# Maintenance mode for a portal
+
+There might be times when your website is under scheduled maintenance or is down due to temporary outage. When a customer accesses the website during maintenance, unpredictable behavior and intermittent unavailability might be experienced. As a portal administrator, you can configure your portal to display a proper message to the customers whenever a maintenance activity is going on, for example solution packages are being upgraded. You can leverage this capability by enabling the maintenance mode on your portal. When the maintenance mode is enabled, a message is displayed, and the customers are restricted from browsing any web pages except the <portal URL>/_services/about page.
+
+## Enable maintenance mode
+
+You can enable maintenance mode on your portal to provide consistent message instead of relying on an unpredictable behavior when your website is under scheduled maintenance. This will provide a better experience for your portal users.
+
+1. Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
+2. Select the name of the portal you want to enable maintenance mode, and then select **Manage**.
+3. Go to **Portal Actions** > **Enable maintenance mode**.
+4. In the Enable maintenance mode window, enter the following values:
+    - **Select page to be used when maintenance mode is enabled**: Select one of the following values:
+        - **Default page**: Select this value if you want the default page to be displayed when maintenance mode is enabled. By default, this option is selected.
+        - **Custom page**: Select this value if you want a custom HTML page to be displayed when maintenance mode is enabled.
+    - **Custom page URL**: This field is enabled only when you select the option to display a custom HTML page. You must ensure that the page URL you provide is publicly accessible. If the specified HTML page can't be reached, the default page is displayed with a note to the administrators.
+5. Select **Enable**. While maintenance mode is being enabled, the portal restarts and will be unavailable for a few minutes. 
+
+## Configure or disable maintenance mode
+
+After enabling maintenance mode for your portal, you might want to select a custom HTML page, if you selected the default page to be displayed or a different custom HTML page, if you selected a custom page to be displayed. To do this, you can configure your maintenance mode settings.
+
+You can also choose to disable maintenance mode on your portal when the scheduled maintenance of your website is complete. Your portal users can now browse and access all web pages as usual.
+
+1. Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
+2. Select the name of the portal you want to disable maintenance mode, and then select **Manage**.
+3. Go to **Portal Actions** > **Configure or disable maintenance mode**.
+4. Modify the settings as required and select **Update**.
+5. To disable maintenance mode, select **Disable**. While maintenance mode is being updated or disabled, the portal restarts and will be unavailable for a few minutes.
+
