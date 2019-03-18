@@ -196,7 +196,7 @@ Function to determine if property is NULL.
 |booleanValue | TRUE or FALSE| 
 |aliasedIdentifier| identifier or identifier.identifier| 
 |dateDiffFunction| DATEDIFF(datePart,valueExpression,valueExpression)| 
-|datePart |YEAR MONTH  DAY  HOUR  MINUTE| SECOND  MILLISECOND |
+|datePart |YEAR MONTH  DAY  HOUR  MINUTE SECOND  MILLISECOND |
 |dateAddFunction| DATEADD(datePart,number,valueExpression)|
 |dateFunction| Date(/*year*/ number, /*month*/ number, /*day*/ number) or Date(/*year*/ number, /*month*/ number, /*day*/ number, /*hour*/ number) or Date(/*year*/ number, /*month*/ number, /*day*/ number, /*hour*/ number, /*minute*/ number)  or Date(/*year*/ number, /*month*/ number, /*day*/ number, /*hour*/ number, /*minute*/ number, /*second*/ number) or Date(/*year*/ number, /*month*/ number, /*day*/ number, /*hour*/ number, /*minute*/ number, /*second*/ number, /*millisecond*/ number)|
 |dateTimeUtcNowFunction| DATETIMEUTCNOW()| 
@@ -218,7 +218,7 @@ Function to determine if property is NULL.
 |setOperator |UNION or INTERSECT or EXCEPT| 
 |interactionSegmentDefinition |interactionFunction.havingFunction or interactionFunction.filterFunction.havingFunction| 
 |interactionFunction |INTERACTION(identifier,identifier)| 
-|havingFunction | HAVING(aggregationFunction comparisonOperator number, calculationWindowFunctionExpression) | ||HAVING(aggregationFunction comparisonOperator number)| 
+|havingFunction | HAVING(aggregationFunction comparisonOperator number, calculationWindowFunctionExpression) or HAVING(aggregationFunction comparisonOperator number)| 
 |aggregationFunction|countFunction or sumFunction or avgFunction or minFunction or maxFunction| 
 |countFunction |COUNT()| 
 |sumFunction |SUM(identifier)|
