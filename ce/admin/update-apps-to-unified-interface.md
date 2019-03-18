@@ -50,6 +50,6 @@ The following are recommended ways to update to Unified Interface based on how t
 
 - Contact the app publisher and get a new version that updates the apps to Unified Interface.
 
-## Apps obtained from an ISV or any other 3rd party publisher
+## Apps obtained from an ISV or any other third party publisher
 
 - Contact the ISV (Independent Software Vendor) or the 3rd party app publisher and get a new version that updates the apps to Unified Interface.
