@@ -53,9 +53,9 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
 
 <sup>1</sup>You must be an Office 365 Global administrator to approve emails.
 
-To approve emails for Dynamics 365 for Customer Engagement apps (online), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role.
+To approve emails for Dynamics 365 for Customer Engagement apps (online), a Dynamics 365 user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role.
 
-This behavior was recently changed for privacy reasons to allow an Office 365 Global administrator to approve emails.
+This behavior has been changed for privacy reasons to allow an Office 365 Global administrator to approve emails.
 
 To approve emails for Dynamics 365 for Customer Engagement apps (on-premises), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege.  A system admin can assign the **Approve Email Addresses for Users or Queues** privilege to any security role and assign the security role to any user. 
 
