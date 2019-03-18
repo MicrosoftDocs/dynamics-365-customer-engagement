@@ -1,7 +1,7 @@
 ---
 title: "Sign in to Dynamics 365 for phones and tablets using your email address (Dynamics 365 for Customer Engagement apps) | Microsoft Docs"
 ms.custom: 
-ms.date: 01/22/2019
+ms.date: 03/22/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,7 +27,6 @@ search.app:
 # Sign-in to your mobile app using your email address (for iOS users only)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
