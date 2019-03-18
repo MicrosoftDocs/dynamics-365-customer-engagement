@@ -42,7 +42,7 @@
 ## User Guide 
 ### [Install the mobile app](../mobile-app/v8/go-mobile/get-started/install.md)
 ### [Signing in and signing out](../mobile-app/v8/go-mobile/get-started/sign-in-out.md)
-###  [Sign in using your email address (for iOS users only)](email-signin.md).
+### [Sign in using your email address (for iOS users only)](email-signin.md).
 ### [Reconfigure](../mobile-app/v8/go-mobile/get-started/reconfigure.md)
 ### [Basic navigation](../mobile-app/v8/go-mobile/get-started/basic-navigation.md)
 ### [The workspace - your personalized action hub](../mobile-app/v8/go-mobile/get-started/workspace-personalized-action-hub.md)
