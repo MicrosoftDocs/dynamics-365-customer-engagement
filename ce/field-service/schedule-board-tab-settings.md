@@ -217,6 +217,8 @@ Controls the initial resource query that determines which resources are loaded w
 
 **Disable Default Extensions**
 
+For more details on editing filter layouts, resource cell templates, and client extensions see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/).
+
 
 ## Additional Notes
 - moving schedule board tab settings to other orgs 
