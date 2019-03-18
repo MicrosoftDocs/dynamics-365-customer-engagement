@@ -37,7 +37,7 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 ## Install the app from your device’s app store  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
 
-## : Sign-in using your email address using an iOS device
+## Sign-in using your email address using an iOS device
 
 For more information, see [Sign-in to your mobile app using your email address (for iOS users only)](email-signin.md).
       
