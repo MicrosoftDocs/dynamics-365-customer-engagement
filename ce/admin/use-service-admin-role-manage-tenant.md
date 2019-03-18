@@ -1,7 +1,7 @@
 ---
 title: "Use the Dynamics 365 for Customer Engagement apps (online) service admin role to manage your tenant | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/07/2019
+ms.date: 03/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -51,7 +51,11 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
 |Dynamics 365 service admin|Yes|Yes|Yes|Yes|No|Yes<sup>1</sup>|Yes|Yes|Yes| 
 |License administrator|No|No|No|No|Yes|No|No|No|No|  
 
-<sup>1</sup>To approve emails for Dynamics 365 for Customer Engagement apps (online), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role or the **Dynamics 365 service administrator** role. The Dynamics 365 service admin User Principal Name (UPN) must match the email address in Dynamics 365 for Customer Engagement. If the email address and the UPN are different then only an Office 365 global admin can approve the email address.
+<sup>1</sup>You must be an Office 365 Global administrator to approve emails.
+
+To approve emails for Dynamics 365 for Customer Engagement apps (online), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role.
+
+This behavior was recently changed for privacy reasons to allow an Office 365 Global administrator to approve emails.
 
 To approve emails for Dynamics 365 for Customer Engagement apps (on-premises), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege.  A system admin can assign the **Approve Email Addresses for Users or Queues** privilege to any security role and assign the security role to any user. 
 

@@ -1665,6 +1665,11 @@
       "source_path": "ce/developer/next-steps-submit-app-cloud-partner-portal.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/next-steps-submit-app-cloud-partner-portal",
       "redirect_document_id": "false"
-    }
+    },
+    {
+      "source_path": "ce/customize/types-forms.md",
+      "redirect_url": "/dynamics365/customer-engagement/customize/create-design-forms#type-of-forms",
+      "redirect_document_id": true
+     }
   ]
 }
