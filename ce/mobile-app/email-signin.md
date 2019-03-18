@@ -31,7 +31,7 @@ search.app:
 Sign in to the Dynamics 365 mobile app quickly using your work email address or Customer Engagement app web address. 
 
 > [!IMPORTANT]
-> - This feature is supported for both version 8.x and 9.x (Online and on-premises) when using the mobile app on an iOS device.
+> - This feature is supported for both version 8.x and 9.x (Online and on-premises) when signing in using the mobile app on an iOS device.
 
 
 ## Sign in with your email address
