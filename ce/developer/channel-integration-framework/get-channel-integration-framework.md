@@ -4,7 +4,7 @@ description: "Learn how to get/download, install and setup Channel Integration F
 keywords: ""
 ms.date: 12/17/2018
 ms.service:
-  - "dynamics-365-cross-app"
+  - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"

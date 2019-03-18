@@ -4,7 +4,7 @@ description: "Learn enable or configure outbound communication (ClickToAct) in C
 keywords: ""
 ms.date: 12/10/2018
 ms.service:
-  - "dynamics-365-cross-app"
+  - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# How to enable outbound communication (ClickTOAct) in Channel Integration Framework?
+# How to enable outbound communication (ClickToAct) in Channel Integration Framework?
 
 To enable outbound communication for your channel, you must perform the following:
 

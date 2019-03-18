@@ -22,6 +22,9 @@ search.app:
 ---
 # Manage projects and bookings in your calendar (Project Service)
 
+> [!Note]
+> DEPRECATED: This feature has been deprecated and is no longer available.
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] 
