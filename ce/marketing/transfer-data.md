@@ -1,12 +1,12 @@
 ---
 title: "Move data between instances (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to move data between instances using export/import in Dynamics 365 for Marketing"
+description: "How to move data between instances using the Configuration Migration tool in Dynamics 365 for Marketing"
 keywords: 
 ms.date: 04/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
@@ -25,7 +25,7 @@ search.app:
   - D365Mktg
 ---
 
-# Transfer data and configurations between instances using export and import
+# Transfer data and configurations between instances using the Configuration Migration tool
 
 You can replicate [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] configurations and data across instances using the standard tools provided for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Common scenarios where this comes in handy include:
 
