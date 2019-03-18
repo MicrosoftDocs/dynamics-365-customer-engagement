@@ -4,7 +4,7 @@ description: The Segmentation API enables programmatic interaction with certain 
 ms.custom: ""
 ms.date: 2/07/2019
 ms.reviewer: ""
-ms.service: "D365CE"
+ms.service: D365CE
 ms.topic: "article"
 author: "nkrb" # GitHub ID
 ms.author: "nabuthuk" # MSFT alias of Microsoft employees only
