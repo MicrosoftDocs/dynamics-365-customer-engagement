@@ -46,7 +46,7 @@ Follow the procedure given below to create a category:
 2. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Categories**.
 
     > [!NOTE]
-    > In the Customer Service app, go to [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Categories**.
+    > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Categories**.
 
 3. To create a new category, select **New**.  
   
