@@ -2,7 +2,7 @@
 title: "msdyn_forecastrecurrence EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_forecastrecurrence EntityType"
 keywords: 
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -23,13 +23,13 @@ topic-status: Drafting
 
 [!INCLUDE[msdyn_forecastrecurrence-description](../includes/msdyn_forecastrecurrence-description.md)]
 
-Entity Set Path: `[organizationURI]/api/data/v9.1/msdyn_forecastreccurences`<br />
+Entity set path: `[organizationURI]/api/data/v9.1/msdyn_forecastreccurences`<br />
 Display name: Forecast recurrence<br />
-Primary key: msdyn_forecastreccurenceid 
+Primary key: msdyn_forecastreccurenceid<br /> 
 Operations supported: None
 
-## See also
+### See also
 
-[Entity reference for Manual forecasting](../manual-forecasting-entity-reference.md)<br />
+[Entity reference for manual forecasting](../manual-forecasting-entity-reference.md)<br />
 [msdyn_forecastdefinition EntityType](msdyn_forecastdefinition.md)<br />
 [msdyn_forecastinstance EntityType](msdyn_forecastinstance.md)
