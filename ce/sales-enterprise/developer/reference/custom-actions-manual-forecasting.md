@@ -1,7 +1,7 @@
 ---
 title: "Custom actions for manual forecasting (Developer Guide for Dynamics 365 for Sales)| MicrosoftDocs"
 description: "Reference documentation for the custom actions of manual forecasting"
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.service: "dynamics-365-sales"
 ms.custom:
   - "dyn365-sales"
@@ -26,13 +26,13 @@ search.app:
 
 The following actions are used for manual forecasting:
 
-- **msdyn_ForecastRecalculate Action**: [!INCLUDE[msdyn_ForecastRecalculate-description](includes/msdyn_ForecastRecalculate-description.md)]<br />
+- **msdyn_ForecastRecalculate action**: [!INCLUDE[msdyn_ForecastRecalculate-description](includes/msdyn_ForecastRecalculate-description.md)]<br />
 
-- **msdyn_ForecastRecalculateAsync Action**: [!INCLUDE[msdyn_ForecastRecalculateAsync-description](includes/msdyn_ForecastRecalculateAsync-description.md)]<br />
+- **msdyn_ForecastRecalculateAsync action**: [!INCLUDE[msdyn_ForecastRecalculateAsync-description](includes/msdyn_ForecastRecalculateAsync-description.md)]<br />
 
-- **msdyn_ForecastGenerateHierarchy Action**: [!INCLUDE[msdyn_ForecastGenerateHierarchy-description](includes/msdyn_ForecastGenerateHierarchy-description.md)]<br />
+- **msdyn_ForecastGenerateHierarchy action**: [!INCLUDE[msdyn_ForecastGenerateHierarchy-description](includes/msdyn_ForecastGenerateHierarchy-description.md)]<br />
 
-- **msdyn_ForecastRecalculateAll Action**: [!INCLUDE[msdyn_ForecastRecalculateAll-description](includes/msdyn_ForecastRecalculateAll-description.md)]
+- **msdyn_ForecastRecalculateAll action**: [!INCLUDE[msdyn_ForecastRecalculateAll-description](includes/msdyn_ForecastRecalculateAll-description.md)]
 
 ### See also
 
