@@ -203,9 +203,16 @@ System view that can filter which Booking Alerts records are eligible to show up
 
 Given a Booking Alert shows in the alerts pane, the HTML entered here dictates the fields in the alert box.
 
+As a reference, the default HTML is as follows:
+
+    <b class="bold">Subject: </b>{msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert.subject}<br />
+    <b class="bold">Due: </b>{msdyn_nexttimetoshow}<br />
+    <b class="bold">Description: </b><br />
+    {msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert.description}
+
 **Filter Layout**
 
-Controls the fields displayed in the filter pane on the left-hand side. These fields are used to filter which resources are displayed on the board.
+Controls the fields displayed in the filter pane on the left-hand side of the schedule board. These fields are used to filter which resources are displayed on the board.
 
 **Resource Cell Template**
 
@@ -213,12 +220,10 @@ Controls the images, values, fields displayed in the box that holds the resource
 
 **Retrieve Resources Query**
 
-Controls the initial resource query that determines which resources are loaded when the schedule board loads. Works with the filter layout functions and connect the displayed fields with the corresponding entities/tables.
+Here you will find xml that basically defines how resource records are fetched/filtered/sorted when the schedule board loads. Retrieve Resources Query can utilize filter layout and resource cell templates to perform filtering and sorting in the brackground. One scenario this enables is filtering resources without having to expose the filter field in the filter layout, but instead the filtering is performed in the background as the scheudle baord loads without additional input from the dispatcher. 
 
 **Disable Default Extensions**
 
-For more details on editing filter layouts, resource cell templates, and client extensions see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/).
+Using the Schedule Board Client Extension framework, you can modify the CSS, add your own JavaScript files, and localize the schedule board changing labels and wording on certain supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
 
-
-## Additional Notes
-- moving schedule board tab settings to other orgs 
+For more details on editing filter layouts, resource cell templates, and client extensions see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/) and [this topic](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes).
