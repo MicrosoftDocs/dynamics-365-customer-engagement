@@ -389,3 +389,6 @@ PROFILE(Customer).FILTER(DATEDIFF(month,Birthday,DATETIMEUTCNOW())`
 19. Segment all customers without address.
 
 `PROFILE(Customer).FILTER(ISNULL(Address))` 
+
+## See also 
+[Basic operations on segments using code](extend-segments.md)
