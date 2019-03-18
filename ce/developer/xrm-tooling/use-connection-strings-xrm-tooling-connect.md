@@ -2,7 +2,7 @@
 title: "Use connection strings in XRM tooling to connect to Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "XRM tooling enables you to connect to your Dynamics 365 instance by using connection strings"
 ms.custom: 
-ms.date: 03/10/2019
+ms.date: 03/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -51,12 +51,12 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 
 > [!NOTE]
 
->  You’ll have to use the following `using` directive in your code to reference the `System.Configuration` namespace to access the connection string in your code: `using System.Configuration;`  
+> You’ll have to use the following `using` directive in your code to reference the `System.Configuration` namespace to access the connection string in your code: `using System.Configuration;`  
 
  After creating a <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> object, you can use the object to perform actions in Dynamics 365 for Customer Engagement apps. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use XRM Tooling to execute actions in Dynamics 365 for Customer Engagement apps](use-xrm-tooling-execute-actions.md)  
 
 > [!NOTE]
-> In this documentation release, the connection string documentation that is common to on-line deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to implementing connection strings for an on-premises or Internet Facing Deployment. To learn about connection string, start by reading the connection string [documentation](/powerapps/developer/common-data-service/apply-business-logic-with-code) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
+> In this documentation release, the connection string documentation that is common to on-line deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to implementing connection strings for an on-premises or Internet Facing Deployment. To learn about connection string, start by reading the connection string [documentation](/powerapps/developer/common-data-service/use-connection-strings-xrm-tooling-connect) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
 
 <a name="Parameters"></a>
 
@@ -78,7 +78,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 |         `RedirectUri` or `ReplyUrl`         |                                                                                                                                                                                                                                                Specifies the redirect URI of the application you registered in [!INCLUDE[pn_microsoft_azure_active_directory](../../includes/pn-microsoft-azure-active-directory.md)] or [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../../includes/pn-active-dir-fed-svcs-ad-fs.md)].<br /><br /> This parameter is applicable only when the authentication type is specified as `OAuth`.                                                                                                                                                                                                                                                |
 |           `TokenCacheStorePath`           |                                                                                                                                                                                                                                                                       Specifies the full path to the location where the user token cache should be stored. The running process should have access to the specified path. It is the processes responsibility to set and configure this path.<br /><br /> This parameter is applicable only when the authentication type is specified as `OAuth`.                                                                                                                                                                                                                                                                       |
 |               `LoginPrompt`               |                                                                                                                                                Specifies whether the user is prompted for credentials if the credentials are not supplied. Valid values are:<br /><br /> -   `Always`: Always prompts the user to specify credentials.<br />-   `Auto`: Allows the user to select in the login control interface whether to display the prompt or not.<br />-   `Never`: Does not prompt the user to specify credentials. If using a connection method does not have a user interface, you should use this value.<br /><br /> This parameter is applicable only when the authentication type is specified as `OAuth`.                                                                                                                                                 |
-|               `SkipDiscovery`               |                                                                                                                                                Specifies whether to call instance discovery to determin the connection uri for a given instance.  As of Nuget release Microsoft.CrmSdk.XrmTooling.CoreAssembly Version 9.0.2.7, default = `true`.  Older versions default to `false`.  <br/>Note: If set to `true`, it is important that the user provide the correct and accurate URI for the target instance.                                                                                                                                                 |
+|               `SkipDiscovery`               |                                                                                                                                                Specifies whether to call instance discovery to determine the connection uri for a given instance.  As of Nuget release Microsoft.CrmSdk.XrmTooling.CoreAssembly Version 9.0.2.7, default = `true`.  Older versions default to `false`.  <br/>Note: If set to `true`, it is important that the user provide the correct and accurate URI for the target instance.                                                                                                                                                 |
 |               `Thumbprint` or `CertificateThumbprint`               |                                                                                                                                                Specifies the thumbprint of the certificate to be utilized during an S2S connection. When set, AppID is required and UserID and Password values are ignored.                                                                                                         |
 |               `StoreName` or `CertificateStoreName`               |                                                                                                                                                Specifies the store name where the certificate identified by thumbprint can be found. When set, Thumbprint is required.                                                                                                         |
 
@@ -93,7 +93,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 ### Integrated on-premises authentication  
 
 ```xml
-<add name="MyCRMServer" 
+<add name="MyCRMServer"
 connectionString="AuthType=AD;
 Url=http://contoso:8080/Test;" />  
 ```  
@@ -124,7 +124,7 @@ TokenCacheStorePath =c:\MyTokenCache;LoginPrompt=Auto"/>
 ### IFD using a named account with delegation to a sub realm  
 
 ```xml
-<add name="MyCRMServer" 
+<add name="MyCRMServer"
 connectionString="AuthType=IFD;Url=http://contoso:8080/Test;
  HomeRealmUri=https://server-1.server.com/adfs/services/trust/mex/;
 Domain=CONTOSO; 
@@ -140,7 +140,7 @@ Password=passcode" />
 
 ### See also
 
- [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)
- [Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement apps](use-crmserviceclient-constructors-connect.md)
- [Use XRM Tooling to execute actions in Dynamics 365 for Customer Engagement apps](use-xrm-tooling-execute-actions.md)
+ [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service//build-windows-client-applications-xrm-tools.md)
+ [Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/use-crmserviceclient-constructors-connect.md)
+ [Use XRM Tooling to execute actions in Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/use-xrm-tooling-execute-actions.md)
  <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>
