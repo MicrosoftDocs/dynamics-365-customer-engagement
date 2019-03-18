@@ -132,9 +132,9 @@ You only need to approve the email address for a user when their email address h
 > [!NOTE]
 >  You must be an Office 365 Global administrator to approve emails.
 > 
->  To approve emails for Dynamics 365 for Customer Engagement apps (online), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role.
+>  To approve emails for Dynamics 365 for Customer Engagement apps (online), a Dynamics 365 user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role.
 > 
->  This behavior was recently changed for privacy reasons to allow an Office 365 Global administrator to approve emails.
+>  This behavior has been changed for privacy reasons to allow an Office 365 Global administrator to approve emails.
   
 1.  Go to **Settings** > **Email Configuration** > **Mailboxes**.  
   
