@@ -37,6 +37,6 @@ The following actions are used for manual forecasting:
 ### See also
 
 [Entity reference for manual forecasting](manual-forecasting-entity-reference.md)<br />
-[Developer guide for Dynamics 365 for Sales](../developer-guide.md)<br />
-[User guide for Dynamics 365 for Sales](../../user-guide.md)<br />
-[Administrator and Sales Manager guide](../../admin-guide.md)
+[Developer Guide for Dynamics 365 for Sales](../developer-guide.md)<br />
+[User Guide for Dynamics 365 for Sales](../../user-guide.md)<br />
+[Administrator and Sales Manager Guide](../../admin-guide.md)
