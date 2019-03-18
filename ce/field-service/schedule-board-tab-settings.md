@@ -54,6 +54,7 @@ There are three ways to access a particular schedule board's tab settings:
 > ![Screenshot of Tab settings - map settings](./media/tab-settings-map-settings.png)
 
 
+
 **Open Default Settings:** Lets you choose the default tab settings when new Schedule Boards are created. When values in a particular Schedule Board Tab Setting display **< Default View >**, this means the value is coming from the default tab settings. As in the image below, when the **Open Default Settings** button is selected, the **< Default View >** values are replaced by the actual values and you are now editing default schedule board tab settings.
 
 
@@ -184,20 +185,35 @@ The icons can be customized by uploading new image files in **Customizations > C
 
 **Requirement Page Count**
 
-Controls the number of resource requirement records displayed in the list in the lower pane of the schedule board.
+Controls the maximum number of resource requirement records displayed on a single page in the view in the lower pane of the schedule board.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-tab-settings-requirement-page-count.png)
 
 **Non-Working Hours Color**
 
 Controls the color of the shaded area when a resource is not working as dictated by the resource's working hours and time off requests.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-tab-settings-nonworking-hours-color.png)
+
 **Current Timeline Color**
 
 Controls the color of the vertical line that runs down the schedule board to indicate the current time of that particular schedule board taking into consideration the time zone of the schedule board.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-tab-settings-current-timeline-color.png)
 
 **Booking Alerts View**
 
 System view that can filter which Booking Alerts records are eligible to show up in the Alerts view in the right-hand Details pane of the schedule board. As an example, consider a scenario where the business has booking alerts being triggered based on events related to work orders, projects, and cases. What if the particular schedule board tab only deals with work order requirements and the dispatcher should only see booking alerts related to work orders? In this case, a booking alert system view can be used to filter to only booking alerts related to work orders to be eligible in the right-hand alerts pane. Note that booking alerts still needs to be triggered based on an alarm or workflow, but the view chosen here can further filter. 
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-tab-settings-booking-alerts-view.png)
 
 **Booking Alerts Template**
 
@@ -210,17 +226,28 @@ As a reference, the default HTML is as follows:
     <b class="bold">Description: </b><br />
     {msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert.description}
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-tab-settings-booking-alerts-template.png)
+
 **Filter Layout**
 
 Controls the fields displayed in the filter pane on the left-hand side of the schedule board. These fields are used to filter which resources are displayed on the board.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-tab-settings-filter-layout.png)
 
 **Resource Cell Template**
 
 Controls the images, values, fields displayed in the box that holds the resource's name and utilization on the schedule board.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-tab-settings-resource-cell-template.png)
+
 **Retrieve Resources Query**
 
-Here you will find xml that basically defines how resource records are fetched/filtered/sorted when the schedule board loads. Retrieve Resources Query can utilize filter layout and resource cell templates to perform filtering and sorting in the brackground. One scenario this enables is filtering resources without having to expose the filter field in the filter layout, but instead the filtering is performed in the background as the scheudle baord loads without additional input from the dispatcher. 
+Here you will find xml that basically defines how resource records are fetched/filtered/sorted when the schedule board loads. Retrieve Resources Query can utilize filter layout and resource cell templates to perform filtering and sorting in the background. One scenario this enables is filtering resources without having to expose the filter field in the filter layout, but instead the filtering is performed in the background as the schedule board loads without additional input from the dispatcher. 
+
 
 **Disable Default Extensions**
 
