@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# How to enable outbound communication (ClickTOAct) in Channel Integration Framework?
+# How to enable outbound communication (ClickToAct) in Channel Integration Framework?
 
 To enable outbound communication for your channel, you must perform the following:
 
