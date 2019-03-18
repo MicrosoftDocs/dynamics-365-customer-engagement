@@ -163,7 +163,7 @@
 #### [Dynamics 365 Portal hosted](developer/portal-hosted.md)
 #### [Localization](developer/event-portal-localization.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
-### [Basic operations on segments using code](developer/basic-operations-on-segments.md)
+### [Basic operations on segments using code](developer/extend-segments.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 for Marketing entity reference](developer/marketing-entity-reference.md)
