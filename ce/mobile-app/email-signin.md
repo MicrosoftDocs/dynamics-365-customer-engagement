@@ -24,7 +24,7 @@ search.app:
   - D365Sales
 ---
 
-# Sign-in to your mobile app using your email address (for iOS users only)
+# Sign-in to using your email address (for iOS users only)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
