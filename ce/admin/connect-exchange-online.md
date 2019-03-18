@@ -2,7 +2,7 @@
 title: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online | MicrosoftDocs"
 description: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online"
 ms.custom: 
-ms.date: 03/15/2019
+ms.date: 03/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -130,11 +130,11 @@ All new users will have these settings applied to their mailbox.
 You only need to approve the email address for a user when their email address has changed in Dynamics 365 for Customer Engagement.
   
 > [!NOTE]
->  You must be an Office 365 Global administrator or a Dynamics 365 service administrator to approve emails.  
->
->  To approve emails for Dynamics 365 for Customer Engagement apps (online), a Dynamics user requires the Approve Email Addresses for Users or Queues privilege and the Office 365 global admin role. 
->
->  For privacy reasons, we do not support Dynamics 365 service administrators approving emails when the Dynamics 365 service admin User Principal Name (UPN) matches the email address in Dynamics 365.
+>  You must be an Office 365 Global administrator to approve emails.
+> 
+>  To approve emails for Dynamics 365 for Customer Engagement apps (online), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role.
+> 
+>  This behavior was recently changed for privacy reasons to allow an Office 365 Global administrator to approve emails.
   
 1.  Go to **Settings** > **Email Configuration** > **Mailboxes**.  
   
