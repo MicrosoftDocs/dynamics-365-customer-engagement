@@ -42,7 +42,7 @@ This topic demonstrates how to perform basic operation on the `msdyncrm_segment`
 |Name|msdyncrm_segmentname|Name of the segment|Yes|
 |Segment Type|msdyncrm_segmenttype|Type of segment. There are 3 types of segments:<br /> - static `192350001`<br />- Dynamic `192350000`<br >- Compound `192350002`|Yes|
 |Status Reason|statuscode|Current status of the segment. Following are the available statu codes: <br /> - Draft `192350000`<br /> - Live `192350001`<br /> - Stopped `192350002`<br /> - GoingLive `192350006`<br /> - Stopping `192350007`|Yes|
-|Segment Query|msdyncrm_segmentquery|Query in segmentation query|Yes (only for dynamic and compounbd segements)|
+|Segment Query|msdyncrm_segmentquery|Query in segmentation query|Yes (only for dynamic and compound segements)|
 
 To test the operations you can use **Postman** tool. More information [Use Postman with Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-perform-operations)
 
