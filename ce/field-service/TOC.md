@@ -59,6 +59,7 @@
 ## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
 ## [Push notifications](mobile-push-notifications.md)
+## [Geofencing](geofencing.md)
 ## [Extend mobile configuration tool trial](activate-fs-mobile-app-license.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
 ## FAQs + troubleshooting
