@@ -56,4 +56,4 @@ More information: [Unlink a record from the conversation](agent/agent-usd/link-u
 
 ## Developer experience
 
-Use the Live Chat JavaScript APIS to programmatically control the visibility of the live chat widget, pass additional user context and enable user identification when hosting the widget on custom websites or portals.
+Use the Live Chat JavaScript APIs to programmatically control the visibility of the live chat widget, pass additional user context and enable user identification when hosting the widget on custom websites or portals.
