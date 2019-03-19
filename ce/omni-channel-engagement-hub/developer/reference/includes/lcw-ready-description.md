@@ -1,1 +1,1 @@
-This event is raised when a live chat widget is loaded and is ready to use.
+This event is raised when the live chat SDK is ready to use.

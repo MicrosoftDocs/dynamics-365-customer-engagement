@@ -21,6 +21,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!INCLUDE[getContextProvider-description](../includes/getContextProvider-description.md)]
 
+> [!NOTE]
+> Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked only after the widget loads fully and the **lcw:ready** event is fired. You can listen for this event by adding your own event listener on the window object.
+
 ## Syntax
 
 `Microsoft.Omnichannel.LiveChatWidget.SDK.getContextProvider();`
@@ -31,7 +34,7 @@ None
 
 ## Return Value
 
-Should return the currently set custom context provider, if any.
+Returns the currently set custom context provider, if any. If there is no registered custom context provider, then it returns null.
 
 <!--## Example
 

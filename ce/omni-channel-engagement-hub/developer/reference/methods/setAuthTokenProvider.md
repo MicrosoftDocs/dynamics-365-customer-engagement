@@ -20,13 +20,18 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!INCLUDE[setAuthTokenProvider-description](../includes/setAuthTokenProvider-description.md)]
 
-The authentication-token provider function, when called with a callback function as a parameter, invokes the callback function with a valid JSON Web Token (JWT) string as the argument.<br />This method raises an error if the value of the `authTokenProvider` parameter is not a function.
+The authentication token provider function, when called with a callback function as a parameter, invokes the callback function with a valid JSON Web Token (JWT) string as the argument.<br />This method raises an error if the value of the `authTokenProvider` parameter is not a function.
 
 > [!IMPORTANT]
 > In the payload of the JWT token, the value provided for `lwicontexts` key should be the serialized custom context.<br />
 > The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.<br />
 > The keys of custom context must correspond to context variables that are created for the associated work stream in Omni-channel Engagement Hub.<br />
 > The authentication token provider would be invoked by live chat widget when starting a new chat.
+
+> [!NOTE]
+> Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked only after the widget loads fully and the **lcw:ready** event is fired. You can listen for this event by adding your own event listener on the window object.
+
+This SDK is applicable only if authentication is enabled for the widget. To enable authentication for your widget, see [Create chat authentication settings](../../../administrator/create-chat-auth-settings.md).
 
 ## Syntax
 
@@ -36,7 +41,7 @@ The authentication-token provider function, when called with a callback function
 
 | Parameter | Type | Description |
 | ---- | ---- | ---- |
-| authTokenProvider | Function | Function that acts as an authentication-token provider |
+| authTokenProvider | Function | Function which when invoked with a callback function as an argument, fetches the JWT token and invokes the callback function with the JWT token as its argument  |
 
 ## Return Value
 

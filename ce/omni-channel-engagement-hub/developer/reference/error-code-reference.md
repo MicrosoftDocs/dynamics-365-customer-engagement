@@ -6,7 +6,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 02/28/2019
+ms.date: 03/19/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 284DD86F-84B5-4000-AACF-5DA72D084814
@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Here are the error codes and error messages that are returned when using Live chat JavaScript API methods.
+Here are the error codes and error messages that are returned when using live chat JavaScript API methods.
 
 |Error Code|Error message|
 |-----|-----|

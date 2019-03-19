@@ -20,10 +20,10 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 <!--note from editor:  specify what the user is waiting for--customer support, specifically?  -->
 
-Follow these steps to start a chat after a user has been waiting for some time:
+Follow these steps to start a chat:
 
 1. Listen to the **lcw:ready** event raised by a live chat to start using the live chat SDK methods. The live chat methods should be invoked only after the widget loads fully and the **lcw:ready** event is fired. You can listen for this event by adding your own event listener on the window object.
-2. Once the **lcw:ready** event is raised, wait for one minute using the **window.setTimeout()** method, and then call the [startChat](../reference/methods/startChat.md) method to open the chat widget.
+2. Once the **lcw:ready** event is raised, call the [startChat](../reference/methods/startChat.md) method to initiate a chat.
 
 ## Sample code
 
@@ -31,8 +31,8 @@ Follow these steps to start a chat after a user has been waiting for some time:
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 	// Handle LiveChat SDK ready event
 	// SDK methods are ready for use now
-	// Starting a chat proactively after 1 minute of user being on the page
-	window.setTimeout(Microsoft.Omnichannel.LiveChatWidget.SDK.startChat, 60000);
+	// Initiate a chat using startChat SDK
+	Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();
 });
 
 window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEvent){
@@ -44,4 +44,5 @@ You might want to set up a rule that a chat widget will programmatically open af
 
 ### See also
 
+[startChat](../reference/methods/startChat.md)<br />
 [JavaScript API reference for Live chat SDK](../omni-channel-reference.md)
