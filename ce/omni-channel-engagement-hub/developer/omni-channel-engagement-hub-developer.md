@@ -25,9 +25,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 <!--note from editor:  In below items, change "the context" to "the context provider", the wording used in other topics?  -->
 
 > [!NOTE]
-> The live chat SDK methods listed in this developer guide are subject to change until the Live chat feature becomes generally available.
+> The live chat SDK methods listed in this developer guide are subject to change until the live chat feature becomes generally available.
 
-Omni-channel Engagement Hub live chat SDK provides methods for live chat features that allow you to:
+Omni-channel Engagement Hub live chat SDK provides methods that allow you to:
 - Set, retrieve and remove custom context for a live chat session.
 - Open an existing chat or initiate a new one.
 - Set, retrieve, and remove authentication-token providers.
@@ -36,9 +36,9 @@ These APIs will be available for use once the live chat widget loads on the web 
 
 ## In this section
 
-[Walkthrough: Send context when starting chat](how-to/send-context-starting-chat.md)<br />
-[Walkthrough: Send authentication token when starting chat](how-to/send-auth-token-starting-chat.md)<br />
-[Walkthrough: Initiate chat after user has been waiting for some time](how-to/initiate-chat-wait-time.md)<br />
+[Send context when starting chat](how-to/send-context-starting-chat.md)<br />
+[Send authentication token when starting chat](how-to/send-auth-token-starting-chat.md)<br />
+[Initiate chat after user has been waiting for some time](how-to/initiate-chat-wait-time.md)<br />
 [JavaScript API reference for Live chat SDK](omni-channel-reference.md)
 
 ### See also

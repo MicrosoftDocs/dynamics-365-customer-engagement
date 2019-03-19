@@ -24,7 +24,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 to this:
 "To authenticate a user when they initiate a chat, pass an authentication token to Omni-channel Engagement Hub." -->
 
-When a user initiates a chat, you can pass an authentication token to Omni-channel Engagement Hub, which helps authenticate the user. Custom authentication is optional and is relevant only when hosting the chat widget outside Dynamics 365 for Customer Engagement Portal. It is used to send verified information about the current logged-in user. This information will be used to identify the account or contact entity record by Omni-channel Engagement Hub.
+When a user initiates a chat, you can pass an authentication token to Omni-channel Engagement Hub, which helps identify the user. Custom authentication is optional and is relevant only when hosting the chat widget outside Dynamics 365 for Customer Engagement Portal. It is used to send verified information about the current logged-in user. This information will be used to identify the account or contact entity record by Omni-channel Engagement Hub.
 
 <!--note from editor:Should the below sentence say "Follow these steps to pass an authentication token:"?    -->
 
@@ -34,8 +34,9 @@ Follow these steps to send context when starting a chat:
 <!--note from editor: In Step 1, are the "live chat SDK methods" the same thing as the methods under "JavaScript API Reference" in this developer guide? If so, make that connection clear.   -->
 
 
-1. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked only after the widget loads fully and the **lcw:ready** event is fired. You can listen for this event by adding your own event listener on the window object.
-2. Once the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method.
+1. Generate an authentication 
+2. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked only after the widget loads fully and the **lcw:ready** event is fired. You can listen for this event by adding your own event listener on the window object.
+3. Once the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method.
 
 ## Sample code
 
