@@ -2,7 +2,7 @@
 title: "Learn about what's new in Microsoft Dynamics 365 for Customer Engagement - Gamification and the issues addressed by the team. | Microsoft Docs"
 description: "Learn about new features, improved capabilities, fixed issues in Dynamics 365 for Customer Engagement - Gamification."
 keywords: what's new, release notes, fixed issues, dynamics 365 gamification
-ms.date: 04/25/2018
+ms.date: 03/05/2019
 ms.service: dynamics-365-sales
 ms.topic: article
 applies_to: 
@@ -10,8 +10,6 @@ applies_to:
 ms.assetid: d94c2bbe-b73d-4369-9100-e5d1a096409a
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
 ms.custom: 
   - dyn365-gamification
 search.audienceType: 
@@ -30,6 +28,12 @@ Welcome to [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. Here's a
 If you are new to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], see [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md).
 
 The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] are the solution, which is [installed from AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919) and integrated in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)], and [the web portal](https://go.microsoft.com/fwlink/p/?linkid=830344), where all the fun happens.
+
+## Update 2019.1.4
+
+### Resolved issues
+- Improved the reliability of game data synchronizing from the Gamification portal to Dynamics 365 for Customer Engagement.
+- Improved the reliability of points calculation from Dynamics 365 for Customer Engagement to the Gamification portal.
 
 ## Update 2018.4.17 
 

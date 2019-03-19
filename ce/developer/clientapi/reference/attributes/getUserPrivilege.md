@@ -17,7 +17,7 @@ search.app:
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-Returns an object with three Boolean properties corresponding to privileges indicating if the user can create, read or update data values for an attribute. This function is intended for use when Field Level Security modifies a user’s privileges for a particular attribute 
+Returns an object with three Boolean properties corresponding to privileges indicating if the user can create, read or update data values for an attribute. This function is intended for use when Field Level Security modifies a user’s privileges for a particular attribute.
 
 ## Attribute types supported
 

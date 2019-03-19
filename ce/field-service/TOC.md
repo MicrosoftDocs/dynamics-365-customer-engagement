@@ -59,6 +59,7 @@
 ## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
 ## [Push notifications](mobile-push-notifications.md)
+## [Geofencing](geofencing.md)
 ## [Extend mobile configuration tool trial](activate-fs-mobile-app-license.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
 ## FAQs + troubleshooting
@@ -77,6 +78,7 @@
 # Assets, inventory and purchasing
 ## Customer assets
 ### [Set up customer assets](configure-set-up-customer-assets.md)
+### [3D models](3D-viewer.md)
 ## Inventory
 ### [Warehouse](create-warehouse.md)
 ###  [View product inventory](view-product-inventory.md)
@@ -118,3 +120,4 @@
 ### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
+## [Security roles for Connected Field Service](cfs-security-roles.md)

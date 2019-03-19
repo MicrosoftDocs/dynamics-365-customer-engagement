@@ -39,10 +39,10 @@ Watch this video to learn more about case management in the Customer Service Hub
 2. In the Customer Service Hub sitemap, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
 
    - The **My Active Cases** view is displayed. You can switch between case views using the drop-down.
-   - Select **Show Chart** in the command bar to see the chart view.
-   - Select **Open Dashboards** in the command bar to directly open the entity dashboard. To switch back to views, select **Open Views**.
+   - Select **Show Chart** on the command bar to see the chart view.
+   - Select **Open Dashboards** on the command bar to directly open the entity dashboard. To switch back to views, select **Open Views**.
 
-   If you select a case record from the case view, you see these additional options in the command bar:
+   If you select a case record from the case view, you see these additional options on the command bar:
 
    - Select **Apply Routing Rule** to apply a routing rule on a selected case.
    - Select **Assign** to assign a case to another owner.
@@ -102,7 +102,7 @@ Watch this video to learn more about case management in the Customer Service Hub
     - On the command bar: 
        - Select **Save and Route** to  route the case by applying routing rules
        - Select **Create Child Case** to create a child case
-       - Select **...** in the command bar to explore more options for the case.
+       - Select **...** on the command bar to explore more options for the case.
 
     ![completed-case](media/completed-case.png "Completed case form")
 
@@ -110,7 +110,7 @@ Watch this video to learn more about case management in the Customer Service Hub
 > If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customize/edit-entities.md#enable-or-disable-entity-options).
 
 ## Track SLA details with Timer Control  
- You or the CSR working on the case can see the SLA details right on the case form.   The following table explains what happens when an enhanced SLA applies to a case form. 
+You or the CSR working on the case can see the SLA details right on the case form. See the below section to know what happens when an  SLA is applied to a case form. 
 
 ### Case form with Applicable SLA applied  
 
@@ -139,9 +139,11 @@ Similarly, the status of the SLA KPI instance is updated when the first response
 - Has succeeded
 
   ![sla-succeeded](media/sla-succeeded.png "timer control succeeded")
+ 
 
 > [!NOTE]
-> The SLA timer continues to run once it is triggered or un-paused. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time. 
+> - The SLA timer continues to run once it is triggered or un-paused. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time.  
+> - The timer control auto-refreshes for **Pause** and **Resume** states to show the updated SLA. For all other states, you must refresh the page to view the refreshed SLA. Select **...** and select **Refresh** on the command bar to refresh the SLA timer control.
 
 You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Apply SLA on demand](define-service-level-agreements.md#apply-sla-on-demand)
 

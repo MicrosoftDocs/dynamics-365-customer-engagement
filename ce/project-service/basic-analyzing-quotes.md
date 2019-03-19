@@ -1,12 +1,12 @@
 ---
-title: Analyzing project quotes 
-description: This topic provides information about analyzing project quotes in Project Service.
+title: Analysis of project quotes 
+description: This topic provides information about the analysis of project quotes in Dynamics 365 for Project Service Automation.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 12/26/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -21,36 +21,36 @@ search.app:
   - D365PS
 ---
 
-# Analyzing project quotes
+# Analysis of project quotes
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Dynamics 365 for Project Service (PSA) analyzes project quotes to estimate profitability and how the quote aligns with customer expectations of the delivery or completion date. PSA also analyzes customer budget expectations.
+Microsoft Dynamics 365 for Project Service Automation (PSA) analyzes project quotes to estimate profitability. It also analyzes how well the quote is aligned with customer expectations about the delivery date or completion date, and about the budget.tions.
 
 ## Profitability analysis
 
-Profitability is analyzed using gross margin and adjusted gross margin.
+PSA analyzes profitability by using the gross margin and the adjusted gross margin.
 
-- Gross margin is calculated in PSA using the following formula:
-
-  `
-    (Sum of estimated chargeable sales value) – (Sum of estimated chargeable costs) *100
-  `
-- Adjusted gross margin is calculated using the following formula:
+- PSA calculates the gross margin by using the following formula:
 
   `
-    (Sum of estimated chargeable sales value) – (Sum of all estimated costs) *100
+    (Sum of estimated chargeable sales value – Sum of estimated chargeable costs) x 100
+  `
+- PSA calculates the adjusted gross margin by using the following formula:
+
+  `
+    (Sum of estimated chargeable sales value – Sum of all estimated costs) x 100
   `
 
-If the values for gross margin and adjusted gross margin are different by a wide margin, this means that much of the work in the quote is classified as non-chargeable.
+If the values for gross margin and adjusted gross margin differ by a wide margin, much of the work in the quote is classified as non-chargeable.
 
-## Customer expectation analysis
+## Analysis of customer expectations
 
-You can analyze quotes and generate the charts for customer expectations for budget and schedule with PSA if you fill out the following fields:
+In PSA, you can analyze quotes and generate charts for customer expectations about the schedule and budget if you enter values for the following fields:
 
-- **Requested delivery date** on the quote header. 
-- **Customer budget** for each of the quote lines (for project-based lines and product-based lines).
+- The **Requested delivery date** field on the quote header.
+- The **Customer budget** field for each quote line (for project-based lines and product-based lines).
 
-Analyzing customer expectations for the schedule is done by comparing the latest end date of the quote line detail with the request delivery date across all quote lines within the quote.
+Analysis of customer expectations about the schedule is done by comparing the latest end date of the quote line detail with the requested delivery date across all quote lines in the quote.
 
-Analyzing customer expectations for budget is done by comparing the sum of the total customer budget with the quoted amount across all quote lines.
+Analysis of customer expectations about the budget is done by comparing the sum of the total customer budget with the quoted amount across all quote lines.

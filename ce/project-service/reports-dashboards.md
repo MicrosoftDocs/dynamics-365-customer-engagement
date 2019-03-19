@@ -1,12 +1,12 @@
 ---
 title: Dashboards
-description: This topic provides information about the reporting dashboards included in Project Service (PSA).
-author: JohnPBurrows
+description: This topic provides information about the reporting dashboards that are included in Dynamics 365 for Project Service Automation.
+author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 12/27/2018
+ms.date: 03/01/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -25,12 +25,12 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Project Service (PSA) includes two system dashboards: Practice Manager and Resource Manager.
+Microsoft Dynamics 365 for Project Service Automation (PSA) includes two system dashboards: **Practice Manager** and **Resource Manager**.
 
 ## Practice Manager 
 
-The Practice Manager Dashboard provides the practice manager with a graphical dashboard experience to track costs, sales, and gross margin and utilization. The dashboard also provides the ability to slice the information by various dimensions such as customer, project, or resource role. For more information about how to create and customize dashboards, see [Create or edit dashboards](../customize/create-edit-dashboards.md).
+The **Practice Manager** dashboard gives practice managers a graphical dashboard experience for tracking costs, sales, and gross margin and utilization. It also lets practice managers slice the information by various dimensions, such as customer, project, or resource role. For more information about how to create and customize dashboards, see [Create or edit dashboards](../customize/create-edit-dashboards.md).
 
 ## Resource Manager 
 
-The Resource Manager Dashboard gives the resource manager a graphical dashboard experience to monitor resource requests and resource demand and utilization. The dashboard also provides the ability to slice the monitored information by various dimensions.
+The **Resource Manager** dashboard gives resource managers a graphical dashboard experience for monitoring resource requests, and resource demand and utilization. It also lets resource managers slice the monitored information by various dimensions.

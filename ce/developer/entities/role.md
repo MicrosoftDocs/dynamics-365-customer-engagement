@@ -60,6 +60,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [CanBeDeleted](#BKMK_CanBeDeleted)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [IsInherited](#BKMK_IsInherited)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [RoleId](#BKMK_RoleId)
@@ -93,6 +94,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|ManagedProperty|
 
 
+
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
 |Property|Value|
@@ -122,6 +124,26 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
 
+### <a name="BKMK_IsInherited"></a> IsInherited
+
+|Property|Value|
+|--------|-----|
+|Description|Role is inherited by users from team membership, if role associated with team.|
+|DisplayName|Customizable|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForCreate|True|
+|IsValidForUpdate|True|
+|LogicalName|isinherited|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+
+#### IsHerited Options
+
+|Value|Label|
+|-----|-----|
+|0|Default - Team privileges only|
+|1|Direct User (Read) access level and Team privileges|
 
 ### <a name="BKMK_Name"></a> Name
 

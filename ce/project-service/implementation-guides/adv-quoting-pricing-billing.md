@@ -43,3 +43,6 @@ The PDF link that was previously in this topic has been removed and the content 
 - [Unit groups and units](../advanced-units.md)
 - [Multi-currency scenarios](../advanced-currency.md)
 - [Recording actuals](../advanced-actuals.md)
+
+> [!NOTE]
+> This topic will be removed in a future documentation update. 

@@ -1635,6 +1635,41 @@
       "source_path": "ce/customer-insights/ref/types/widgettype.md",
       "redirect_url": "../../preview-retire",
       "redirect_document_id": "false"
-    }
+    },
+    {
+      "source_path": "ce/developer/fill-app-submission-form-appsource.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/fill-app-submission-form-appsource",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/register-microsoft-partner-network.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/register-microsoft-partner-network",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/create-solution-app-appsource.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/create-solution-app-appsource",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/create-package-app-appsource.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/create-package-app-appsource",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/store-appsource-package-azure-storage.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/store-appsource-package-azure-storage",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/next-steps-submit-app-cloud-partner-portal.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/next-steps-submit-app-cloud-partner-portal",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customize/types-forms.md",
+      "redirect_url": "/dynamics365/customer-engagement/customize/create-design-forms#type-of-forms",
+      "redirect_document_id": true
+     }
   ]
 }

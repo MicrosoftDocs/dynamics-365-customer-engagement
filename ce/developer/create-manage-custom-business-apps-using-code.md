@@ -2,7 +2,7 @@
 title: "Create and manage custom business apps using code for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about how to create, manage, and publish business apps in Customer Engagement using code. Dynamics 365 for Customer Engagement business apps are purpose built that provide a limited set of functionality that is relevant for a particular area of work."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 03/04/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,14 +22,17 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Business apps in Customer Engagement are modular, purpose built apps that provide role-based functionality relevant for a particular area of work. These apps make it easier for users to quickly find things they need to do every day by providing a simple and intuitive interface. For example, the **Sales** business app provides a simpler, smaller sitemap with only the appropriate set of forms, views, dashboards, and process flows that are relevant for sales people. 
+Business apps in Dynamics 365 for Customer Engagement are modular, purpose built apps that provide role-based functionality relevant for a particular area of work. These apps make it easier for users to quickly find things they need to do every day by providing a simple and intuitive interface. For example, the **Sales** business app provides a simpler, smaller sitemap with only the appropriate set of forms, views, dashboards, and process flows that are relevant for sales people.
 
-System administrators and customizers can provide users access to these business apps using security roles; users can access only those apps that they have permission to. More information: [Business apps in Dynamics 365 for Customer Engagement apps](../basics/business-apps-dynamics-365.md)
+System administrators and customizers can provide users access to these business apps using security roles; users can access only those apps that they have permission to. 
 
-In addition to creating custom business apps using the app designer, you can now programmatically create and manage custom business apps in Dynamics 365 for Customer Engagementm apps. 
+> [!NOTE]
+> Custom business apps in Dynamics 365 for Customer Engagement are the same as model-driven apps in PowerApps; both are built on the same underlying platform. More information: [Business apps in Dynamics 365 for Customer Engagement apps](../basics/business-apps-dynamics-365.md) and [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+
+In addition to creating custom business apps using the app designer, you can programmatically create and manage custom business apps in Dynamics 365 for Customer Engagement apps. 
 
 > [!IMPORTANT]
-> You don't have to write code to build custom business apps if you don't need to! The app designer provides a much simpler and intuitive experience for building custom business apps without having to write code by providing a tile-based information structure and simplified interface. Check it out here: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)  
+> However, you don't have to write code to build custom business apps if you don't need to! The app designer provides a much simpler and intuitive experience for building custom business apps without having to write code by providing a tile-based information structure and simplified interface. Check it out here: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
   
 Creating a custom business app involves the following steps:
 1. Create an [AppModule Entity](entities/appmodule.md) instance to define your app and its properties.
@@ -41,11 +44,7 @@ Creating a custom business app involves the following steps:
 
 ## Create your business app and define its properties
 
-You must have the System Administrator or System Customizer security role or equivalent permissions to be able to create an app. You can select from one of the following types for your app to specify the client that the app will the app will be used for: 
-- **Web**:  This is the classic Dynamics 365 for Customer Engagement apps web browser client.
-- **Unified Interface**: Runs on the new Unified Interface, which provides key accessibility and responsive design benefits. For more information about Unified Interface, see [Unified Interface framework for new apps](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps). 
-
-You select the app type by specifying an integer value for the **clienttype** attribute: 2 for **Web** and 4 for **Unified Interface**. If you do not specify the type for an app, the type is set to **Web** by default. 
+You must have the System Administrator or System Customizer security role or equivalent permissions to be able to create an app.
 
 You must specify the following properties at a minimum to create an app:
 - **name**: Unique for your app
@@ -55,7 +54,7 @@ You must specify the following properties at a minimum to create an app:
 The following Web API request creates an Unified Interface type of an app:
 
 ```http
-POST [Organization URI]/api/data/v9.0/appmodules HTTP/1.1
+POST [Organization URI]/api/data/v9.1/appmodules HTTP/1.1
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
 OData-Version: 4.0
@@ -64,8 +63,7 @@ Accept: application/json
 {
     "name": "SDKTestApp",
     "uniquename":"SDKTestApp",
-    "webresourceid":"953b9fac-1e5e-e611-80d6-00155ded156f",
-    "clienttype": 4
+    "webresourceid":"953b9fac-1e5e-e611-80d6-00155ded156f"    
 }
 ```
 
@@ -74,7 +72,7 @@ The response **OData-EntityId** header contains the Uri of the created app.
 ```http
 HTTP/1.1 204 No Content
 OData-Version: 4.0
-OData-EntityId: [Organization URI]/api/data/v9.0/appmodules(dd621d4a-d898-e711-80e7-00155db763be)
+OData-EntityId: [Organization URI]/api/data/v9.1/appmodules(dd621d4a-d898-e711-80e7-00155db763be)
 ```  
 
 ## Add or remove components from your business app
@@ -88,7 +86,7 @@ Use the <xref:Microsoft.Dynamics.CRM.AddAppComponents> action or the <xref:Micro
 The following Web API request adds a view (savedquery) and a form (systemform) to your app:
 
 ```http
-POST [Organization URI]/api/data/v9.0/AddAppComponents HTTP/1.1
+POST [Organization URI]/api/data/v9.1/AddAppComponents HTTP/1.1
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
 OData-Version: 4.0
@@ -114,7 +112,7 @@ To remove a component from an app, use the <xref:Microsoft.Dynamics.CRM.RemoveAp
 The following Web API request removes a view (savedquery) from your app: 
 
 ```http
-POST [Organization URI]/api/data/v9.0/RemoveAppComponents HTTP/1.1
+POST [Organization URI]/api/data/v9.1/RemoveAppComponents HTTP/1.1
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
 OData-Version: 4.0
@@ -137,7 +135,7 @@ Validating an app involves checking for any dependencies for the components you 
 
 Use the <xref:Microsoft.Dynamics.CRM.ValidateApp> function or the <xref:Microsoft.Crm.Sdk.Messages.ValidateAppRequest> message to validate your app. The following Web API request shows how to validate your business app with ID: dd621d4a-d898-e711-80e7-00155db763be:
 
-`GET [Organization URI]/api/data/v9.0/ValidateApp(AppModuleId=dd621d4a-d898-e711-80e7-00155db763be)`
+`GET [Organization URI]/api/data/v9.1/ValidateApp(AppModuleId=dd621d4a-d898-e711-80e7-00155db763be)`
 
 If there are no validation errors, the response is as follows:
 
@@ -146,7 +144,7 @@ HTTP/1.1 200 OK
 OData-Version: 4.0
 
 {
-    "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.ValidateAppResponse",
+    "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.ValidateAppResponse",
     "AppValidationResponse": {
         "ValidationSuccess": true,
         "ValidationIssueList": []
@@ -161,7 +159,7 @@ HTTP/1.1 200 OK
 OData-Version: 4.0
 
 {
-    "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.ValidateAppResponse",
+    "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.ValidateAppResponse",
     "AppValidationResponse": {
         "ValidationSuccess": false,
         "ValidationIssueList": [
@@ -201,7 +199,7 @@ After you have added required components to your custom business app and validat
 Use the <xref:Microsoft.Dynamics.CRM.PublishXml> action or the <xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest> messageto publish your custom business app. The following request shows how to publish your business app with ID: dd621d4a-d898-e711-80e7-00155db763be:
 
 ```http
-POST [Organization URI]/api/data/v9.0/PublishXml HTTP/1.1
+POST [Organization URI]/api/data/v9.1/PublishXml HTTP/1.1
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
 OData-Version: 4.0
@@ -219,20 +217,20 @@ To provide users access to your apps so that they can access it from their **Set
 Use the **appmoduleroles_association** navigation property of the [AppModule Entity](entities/appmodule.md) entity to associate a business app with a security role. The following request shows how to associate a business app with a security role:
 
 ```http
-POST [Organization URI]/api/data/v9.0/appmodules(dd621d4a-d898-e711-80e7-00155db763be)appmoduleroles_association/$ref HTTP/1.1
+POST [Organization URI]/api/data/v9.1/appmodules(dd621d4a-d898-e711-80e7-00155db763be)appmoduleroles_association/$ref HTTP/1.1
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
 OData-Version: 4.0
 Accept: application/json
 
 {  
-  "@odata.id":"[Organization URI]/api/data/v9.0/roles(<roleId>)"
+  "@odata.id":"[Organization URI]/api/data/v9.1/roles(<roleId>)"
 }
 ```
 
 To disassociate a security role from a business app, you use the DELETE request with the same navigation property. For example:
 
-`DELETE	[Organization URI]/api/data/v9.0/appmodules(dd621d4a-d898-e711-80e7-00155db763be)/appmoduleroles_association/$ref?$id=[Organization URI]/api/data/v9.0/roles(<roleId)
+`DELETE	[Organization URI]/api/data/v9.1/appmodules(dd621d4a-d898-e711-80e7-00155db763be)/appmoduleroles_association/$ref?$id=[Organization URI]/api/data/v9.1/roles(<roleId)
 `
 
 ## Manage your business apps and its components
@@ -242,29 +240,29 @@ This section provides you information about retrieving your apps, updating app p
 ### Retrieve published apps
 To retrieve published apps, use the following request:
 
-`GET [Organization URI]/api/data/v9.0/appmodules?$select=name,clienttype`
+`GET [Organization URI]/api/data/v9.1/appmodules?$select=name`
 
 ### Retrieve unpublished apps
 To retrieve unpublished apps, use the <xref:Microsoft.Dynamics.CRM.RetrieveUnpublishedMultiple> function. For example:
 
-`GET [Organization URI]/api/data/v9.0/appmodules/Microsoft.Dynamics.CRM.RetrieveUnpublishedMultiple()?$select=name,clienttype`
+`GET [Organization URI]/api/data/v9.1/appmodules/Microsoft.Dynamics.CRM.RetrieveUnpublishedMultiple()?$select=name`
 
 ### Retrieve components in a published business app
 To retrieve app components for a business app, use the <xref:Microsoft.Dynamics.CRM.RetrieveAppComponents> function or the <xref:Microsoft.Crm.Sdk.Messages.RetrieveAppComponentsRequest> message. For example:
 
-`GET [Organization URI]/api/data/v9.0/RetrieveAppComponents(AppModuleId=dd621d4a-d898-e711-80e7-00155db763be)`
+`GET [Organization URI]/api/data/v9.1/RetrieveAppComponents(AppModuleId=dd621d4a-d898-e711-80e7-00155db763be)`
 
 ### Retrieve security roles associated with published business app
 
 To retrieve the security roles associated with your business app, use the `$expand` system query option with the **appmoduleroles_association** navigation property. For example, here is the request to retrieve all the security roles associated to a business app with ID: dd621d4a-d898-e711-80e7-00155db763be:
 
-`GET [Organization URI]/api/data/v9.0/appmodules(dd621d4a-d898-e711-80e7-00155db763be)?$expand=appmoduleroles_association&$select=name,appmoduleroles_association`
+`GET [Organization URI]/api/data/v9.1/appmodules(dd621d4a-d898-e711-80e7-00155db763be)?$expand=appmoduleroles_association&$select=name,appmoduleroles_association`
 
 ### Delete business apps
 
 Use the DELETE request to delete a business app. For example:
 
-`DELETE [Organization URI]/api/data/v9.0/appmodules(dd621d4a-d898-e711-80e7-00155db763be)`
+`DELETE [Organization URI]/api/data/v9.1/appmodules(dd621d4a-d898-e711-80e7-00155db763be)`
 
 ## Client API support for business apps
 

@@ -2,9 +2,9 @@
 title: "Create or edit an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
 keywords: "opportunity, deal, develop, propose, nurture sales"
-ms.date: 02/08/2019
+ms.date: 03/04/2019
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
@@ -45,7 +45,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
  
    - **Topic**: What the customer is interested in that created the opportunity, such as specific product details.
  
-   - **Contact**: The contact associated with this opportunity.
+   - **Contact**: The contact associated with this opportunity. The contact that you select here is added as a stakeholder for this opportunity. For more information on stakeholders, see Step 5.  
  
    - **Account**: The account associated with this opportunity.
 

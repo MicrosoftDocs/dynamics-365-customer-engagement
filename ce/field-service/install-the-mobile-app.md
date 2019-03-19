@@ -1,4 +1,5 @@
 ---
+redirect_url: install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet
 title: "Install the Field Service mobile app solution (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice

@@ -2,7 +2,7 @@
 title: "Backup and restore instances of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 12/05/2018
+ms.date: 03/02/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -82,7 +82,7 @@ Protecting your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] app
   
 - Only [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] or later versions are supported for backup.  
   
-- On-demand backups are retained for up to three days. Check your expiration date.  
+- On-demand backups are retained for up to 28 days. Check your expiration date.  
   
   ![On-demand backup expiration date](../admin/media/on-demand-backup-expiration-date.png "On-demand backup expiration date")  
   

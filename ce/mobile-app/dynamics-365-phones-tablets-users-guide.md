@@ -176,14 +176,18 @@ To add an image to a record, open the record and tap the image for the record. N
 
 **Business process flow**
 
-The business process bar on forms gives a clear step-by-step for building customer relationships. You can see at a glance exactly 
+The business process bar on forms gives a clear step-by-step guide for building customer relationships. You can see at a glance exactly 
 where you are with a customer and what you need to do next.
+
+For exmaple, as you work on a new customer record, the business process flow helps you see each step that you need to take to create the new record and fill out the required information according to your organizations business process. 
 
 ![Dynamics 365 for phones and tablets business process flow](media/BusinessProcessFlow.png "Dynamics 365 for phones and tablets business process flow")
 
 The process bar can be docked to the right side of the screen for easy reference as you work with a customer record.
 
 ![Dynamics 365 for phones and tablets docked business process flow](media/DockedProcessFlow.png "Dynamics 365 for phones and tablets docked business process flow")
+
+For more information on how to work with business process flows, see [Business process flows overview](https://docs.microsoft.com/en-us/flow/business-process-flows-overview).
 
 **Task Flows**
 

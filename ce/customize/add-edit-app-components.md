@@ -1,8 +1,8 @@
 ---
-title: "Add or edit app components with Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
-description: "Use the Dynamics 365 for Customer Engagement for Customer Engagement app designer to add or edit components"
+title: "Add or edit app components with Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+description: "Use the Dynamics 365 for Customer Engagement app designer to add or edit components"
 keywords: 
-ms.date: 11/08/2018
+ms.date: 03/04/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -23,7 +23,7 @@ search.app:
   - D365CE
 ---
 
-# Add or edit app components in the Dynamics 365 for Customer Engagement for Customer Engagement app designer
+# Add or edit app components in the Dynamics 365 for Customer Engagement app designer
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
@@ -48,6 +48,9 @@ The app designer refers to existing metadata in the default solution. You can us
 
 ## Add an artifact (entity, dashboard, or business process flow)  
  When you add a dashboard or business process flow to an app, the entities they use are automatically added to the app. When you add an entity, the tiles for its assets are automatically added. There are two ways you can add artifacts to the designer canvas: by using the **Add** button ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") on the command bar or by using the tiles on the **Components** tab.  
+
+> [!NOTE]
+> Unlike business process flows, you don't add task flows to an app.  For more information about task flows, see [Create a mobile task flow](create-mobile-task-flow.md). 
   
  Here are the steps for adding a dashboard to the app. Use the same steps to add a business process flow or entity.  
   

@@ -165,6 +165,7 @@
 ### [Work with Segments using code](developer/basic-operations-on-segments.md)
 ### [Work with Customer Journeys using code](developer/basic-operations-on-customer-journey.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
+### [Basic operations on segments using code](developer/extend-segments.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 for Marketing entity reference](developer/marketing-entity-reference.md)
