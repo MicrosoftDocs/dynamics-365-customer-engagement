@@ -22,6 +22,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 The authentication-token provider function, when called with a callback function as a parameter, invokes the callback function with a valid JSON Web Token (JWT) string as the argument.<br />This method raises an error if the value of the `authTokenProvider` parameter is not a function.
 
+> [!IMPORTANT]
+> In the payload of the JWT token, the value provided for `lwicontexts` key should be the serialized custom context.
+> The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.
+> The keys of custom context must correspond to context variables that are created for the associated work stream in Omni-channel Engagement Hub.
+> The authentication token provider would be invoked by live chat widget when starting a new chat.
+
 ## Syntax
 
 `Microsoft.Omnichannel.LiveChatWidget.SDK.setAuthTokenProvider(authTokenProvider);`
@@ -38,15 +44,46 @@ None
 
 ## Example
 
-```JavaScript
-window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-               // Sets the auth-token provider
-               // Throws error if authTokenProvider is not a function
-               Microsoft.Omnichannel.LiveChatWidget.SDK.setAuthTokenProvider(function authTokenProvider(callback){
-               callback("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c");
-               });
-});
+### Sample token payload
 
+```json
+{
+    "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
+    "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\"}",
+    "iat" : 1542622071,
+    "iss" : "contosohelp.com",
+    "exp" : 1542625672,
+    "nbf" : 1542622072
+}
+```
+> [!NOTE]
+> In the above payload, the value corresponding to `lwicontexts` key should be the serialized custom context.
+> The keys `msdyn_cartvalue` and `msdyn_isvip` in the serialized custom context correspond to context variables that are created for the associated work stream in Omni-channel Engagement Hub.
+
+```JavaScript
+let payloadToEncrypt = {
+    "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
+    "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\"}",
+    "iat" : 1542622071,
+    "iss" : "contosohelp.com",
+    "exp" : 1542625672,
+    "nbf" : 1542622072
+};
+
+function convertToJwtToken(payloadToEncrypt){
+    // Ideally, you call your service to convert the payload to a valid JWT token
+    return Promise.resolve("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4N2I0ZDA2Yy1hYmMyLWU4MTEtYTliMC0wMDBkM2ExMGUwOWUiLCJsd2ljb250ZXh0cyI6IntcIm1zZHluX2NhcnR2YWx1ZVwiOlwiMTAwMDBcIiwgXCJtc2R5bl9pc3ZpcFwiOlwiZmFsc2VcIn0iLCJpYXQiOjE1NDI2MjIwNzEsImlzcyI6ImNvbnRvc29oZWxwLmNvbSIsImV4cCI6MTU0MjYyNTY3MiwibmJmIjoxNTQyNjIyMDcyfQ.r37z1M5rMyRYMOJ-rhyTRYFOgvl9N7KvTMueSFPkiuM");
+}
+
+window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+// Sets the auth-token provider
+// Throws error if authTokenProvider is not a function
+    convertToJwtToken(payloadToEncrypt).then(function (jwtToken){
+        Microsoft.Omnichannel.LiveChatWidget.SDK.setAuthTokenProvider(function authTokenProvider(callback){
+            callback(jwtToken);
+        });
+    });
+});
 ```
 ## Error codes
 
