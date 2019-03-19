@@ -28,14 +28,20 @@ search.app:
 
 # Extend the schedule board with a custom resource attribute
 
-It is possible to customize the schedule board based on your business needs. Common examples include **(1)** customizing the Resource Cells where the resources' names, pictures, and utilization are listed by default **(2)** customizing the fields in the filter pane where dispatchers decide the resources in a view and **(3)** customizing the sort options (also located in the filter pane) allowng dispatchers to sort the current resources on the the schedule board based on various criteria. 
+It is possible to customize the schedule board based on your business needs. Common examples include **(1)** customizing the Resource Cells where the resources' names, pictures, and utilization are listed by default **(2)** customizing the fields in the filter pane where dispatchers decide the resources in a view and **(3)** customizing the sort options (also located in the filter pane) allowng dispatchers to sort the current resources on the the schedule board based on various criteria. This is most commonly achieved by editing the HTML and fetchXML in schedule board's tab settings.
 
-we introduced the ability to extend the schedule board. This document provides a practical example: We add an attribute “resource cost” to the bookable resource entity. Since your regions, industries and currencies may be completely different, we’re not using an absolute value, instead a score from 1 (cheapest) to 10 (most expensive).
+Let's explore customizing the schedule board with the following scenario:
+
+**Scenario:** Each bookable resource (field technician) has a cost based on many factors such as seniority and certifications level. Dispatchers would like the general cost of each resource displayed on the schedule board along with the ability to filter and sort by cost. This is common for scenarios where an organization first wants to schedule internal employees and then external contracting parties second, because they are usually more expensive. Rather than use an 
+
+we introduced the ability to extend the schedule board. This document provides a practical example: We add an attribute “resource cost” to the bookable resource entity. 
+
+Since your regions, industries and currencies may be completely different, we’re not using an absolute value, instead a score from 1 (cheapest) to 10 (most expensive).
 We then expose the attribute in three different places:
 •	On the resource card (just for viewing the cost, using a graphical element)
 •	In the search panel, so that you can provide a maximum cost level for the desired resources
 •	In the sort box, to allow you to sort from cheap to expensive or the other way round.
-This example can also be used in situations where you first want to schedule internal people and then external parties, because they are usually more expensive.
+
 
 ## Step 1: Add the new field
 
