@@ -101,7 +101,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
    2.  With all three rows selected, choose **Group AND**.  
   
-5. Choose **Find**.  
+5. Choose **Results**.  
   
 6. In the results window, you can open each item to determine whether the workflow can be deleted.  
   
@@ -168,6 +168,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
 12. Choose **Next**, review the bulk deletion job, and then choose **Submit** to create the recurring job.  
   
 <a name="BKMK_Method5"></a>   
+
 ## Method 5: Remove notes with attachments using Advanced Find  
   
 > [!WARNING]
@@ -179,7 +180,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 3. In the search criteria area, add criteria similar to the following:  
   
-   **File Size (Bytes)** – **Is Greater Than** – In the text box, type a byte value, such as 1048576.  
+   **File Size (Bytes)** – **Is Greater Than** – In the text box, type a byte value, such as 1048576 (1MB in binary).  
   
 4. Choose **Results**.  
   
