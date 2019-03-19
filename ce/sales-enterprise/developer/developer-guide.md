@@ -38,7 +38,7 @@ Welcome to the Dynamics 365 for Sales Developer Guide. This documentation is for
 </td></tr>
 </table>
 
-## Related resources
+### Related resources
 
 [User Guide for Dynamics 365 for Sales](../user-guide.md)<br />
 [Administrator and Sales Manager Guide](../admin-guide.md)<br />
