@@ -34,13 +34,9 @@ search.app:
 1. Test the customized solution on your sandbox until you've confirmed it's working correctly.
 1. [Export](../customize/import-update-export-solutions.md) the custom solution from your sandbox and then [Import](../customize/import-update-export-solutions.md) it on your production instance.
 
-For general information about creating and working with solutions, see the links in the previous procedure and also the [Solutions overview](../customize/solutions-overview.md). For a full example procedure, see the following section.
+For general information about creating and working with solutions, see the links in the previous procedure and also the [Solutions overview](../customize/solutions-overview.md). For a full example procedure, see the following sections.
 
-## Example: Create a custom solution and then move it to another instance
-
-This section provides a complete example for how to set up a simple customization as a new solution and then move it to another instance.
-
-### Part 1: Create a custom solution
+## Example procedure part 1: Create a custom solution
 
 In this exercise, you'll create a new solution and add a simple customization to it. This will provide a simple custom solution that you can use to export and and transfer to a new instance later in this topic. If you already have a custom solution to work with, then you can skip ahead to [Part 2](#export-solution).
 
@@ -99,7 +95,7 @@ If you'd like to confirm your changes, you can go to the Marketing app, open a m
 
 <a name="export-solution"></a>
 
-### Part 2: Export a solution
+## Example procedure part 2: Export a solution
 
 When you're done customizing your solution and ready to move it to another instance, the next thing you must do is export the custom solution. Here's how:
 
@@ -119,7 +115,7 @@ When you're done customizing your solution and ready to move it to another insta
 
 1. The solution now downloads as a zip file named after the solution name.
 
-### Part 3: Import a solution
+## Example procedure part 3: Import a solution
 
 After exporting the custom solution from the source instance, you're ready to import the solution to the destination instance, which will add it's customizations to that instance and also make it easy for you to remove them again if needed (though any imported system settings will remain if you chose to include them in your exported solution).
 
@@ -147,3 +143,11 @@ To import a solution:
 1. Select **Close** to close the import dialog.
 
 1. To confirm the import, go to the Marketing app, open a marketing form record and look for the new customized field on the **Summary** tab.
+
+### See also
+[Manage your Marketing instances](manage-marketing-instances.md)  
+[Transfer data between instances](transfer-data.md)  
+[Manage instances](../admin/manage-online-instances.md)  
+[Manage your data](../admin/manage-your-data.md)  
+[Move configuration data across instances and organizations](../admin/manage-configuration-data.md)  
+[Import, update, and export solutions](../customize/import-update-export-solutions.md)

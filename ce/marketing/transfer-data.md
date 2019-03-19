@@ -141,3 +141,11 @@ To download the schema package and find the right schema for your version:
     ![Import complete](media/dmt-import4.png "Import complete")
 
 1. When the import is done, select **Exit** to close the import page.
+
+### See also
+[Manage your Marketing instances](manage-marketing-instances.md)  
+[Transfer customizations between instances](transfer-solution.md)  
+[Manage instances](../admin/manage-online-instances.md)  
+[Manage your data](../admin/manage-your-data.md)  
+[Move configuration data across instances and organizations](../admin/manage-configuration-data.md)  
+[Import, update, and export solutions](../customize/import-update-export-solutions.md)
