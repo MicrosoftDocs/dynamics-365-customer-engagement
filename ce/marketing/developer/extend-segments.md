@@ -16,7 +16,7 @@ search.app:
   - D365CE
 ---
 
-# Basic operations on segments using Segmentation API
+# Basic operations on segments using the Segmentation API
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
