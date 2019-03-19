@@ -29,7 +29,7 @@ The Segmentation API enables programmatic interaction with segment records. The 
 > - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)] 
 > - [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]
 
-When you create a segment, the properties of the segment are stored in the **msdyncrm_segment** entity. You can browse the entity metadata information using **@odata.context** in the **GET** response.
+When you create a segment, the properties of the segment are stored in the **msdyncrm_segment** entity. You can browse the entity metadata information using `@odata.context` in the **GET** response.
 
 > [!NOTE]
 > Before you perform operations, you should install the [Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
@@ -67,7 +67,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 ```
 
 > [!IMPORTANT]
-> The purpose of the `crm` prefix is to unambiguously indicate the record identifier type. This is required when you are using a legacy segmentation solution, which, by default, uses a different type of identifier.
+> The purpose of the **crm** prefix is to unambiguously indicate the record identifier type. This is required when you are using a legacy segmentation solution, which, by default, uses a different type of identifier.
 
 **Update request**
 
