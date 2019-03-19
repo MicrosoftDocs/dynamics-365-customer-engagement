@@ -1,7 +1,7 @@
 ---
 title: "Update your apps to Unified Interface | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/10/2019
+ms.date: 03/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -42,7 +42,7 @@ The following are recommended ways to update to Unified Interface based on how t
 
 ## Apps created in your Sandbox environment
 
-- Be sure to import the changes on your target environment via a managed solution only. See [Import, update, and export solutions](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/import-update-export-solutions) for guidance on installing an update to an existing managed solution.
+- Be sure to import the changes in your target environment via a managed solution only. See [Import, update, and export solutions](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/import-update-export-solutions) for guidance on installing an update to an existing managed solution.
 - Modify the app properties by following the steps detailed in [Manage app properties](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/manage-app-properties), and set the **Client** type to **Unified Interface**
 - Import the changes to your target environment via a managed solution update.
 
@@ -52,4 +52,4 @@ The following are recommended ways to update to Unified Interface based on how t
 
 ## Apps obtained from an ISV or any other third party publisher
 
-- Contact the ISV (Independent Software Vendor) or the 3rd party app publisher and get a new version that updates the apps to Unified Interface.
+- Contact the ISV (Independent Software Vendor) or the third party app publisher and get a new version that updates the apps to Unified Interface.
