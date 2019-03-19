@@ -54,7 +54,7 @@ XRM tooling is a set of APIs built on top of the [!INCLUDE[pn_dynamics_crm](../i
   
 - [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Unified Service Desk Developer Guide](https://msdn.microsoft.com/library/dn864923.aspx)
   
-- Package Deployer tool. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy packages using CRM Package Deployer and Windows PowerShell](../admin/deploy-packages-using-package-deployer-windows-powershell.md)  
+- Package Deployer tool. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy packages using Package Deployer and Windows PowerShell](../admin/deploy-packages-using-package-deployer-windows-powershell.md)  
   
 - Configuration Migration tool. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your configuration data](../admin/manage-configuration-data.md)  
   
@@ -63,4 +63,4 @@ XRM tooling is a set of APIs built on top of the [!INCLUDE[pn_dynamics_crm](../i
  [Use the Dynamics 365 for Customer Engagement Organization Service](use-microsoft-dynamics-365-organization-service.md)   
  [Discover the URL for Your Organization With IDiscoveryService Web Service](org-service/discover-url-organization-organization-service.md)   
  [Write Applications and Server Extensions](extend-dynamics-365-server.md)   
- [Blog: PowerShell module for performing data operations and manipulating user and system settings in CRM](http://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)
+ [Blog: PowerShell module for performing data operations and manipulating user and system settings](http://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)
