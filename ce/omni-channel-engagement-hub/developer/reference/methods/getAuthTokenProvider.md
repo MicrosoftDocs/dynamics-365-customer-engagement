@@ -1,19 +1,19 @@
 ---
-title: "getAuthTokenProvider (JavaScript API reference) for Omni-channel Engagement Hub in Dynamics 365 | MicrosoftDocs"
+title: "getAuthTokenProvider (Omni-channel Engagement Hub JavaScript API reference) | MicrosoftDocs"
 description: 
 keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 03/03/2019
+ms.date: 03/19/2019
 ms.service: 
 ms.topic: article
 ms.assetid: BD4EF6FC-E38B-491C-AA23-C4D8EA961EB4
 ms.custom: 
 ---
 
-# getAuthTokenProvider (Omni-channel Engagement Hub JavaScript API reference)
+# getAuthTokenProvider
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 

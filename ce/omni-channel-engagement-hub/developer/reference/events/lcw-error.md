@@ -1,5 +1,5 @@
 ---
-title: "lcw:error (JavaScript API reference) for Omni-channel Engagement Hub in Dynamics 365 | MicrosoftDocs"
+title: "lcw:error | MicrosoftDocs"
 description: 
 keywords: ""
 author: susikka

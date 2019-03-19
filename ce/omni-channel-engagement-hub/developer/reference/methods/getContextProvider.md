@@ -1,19 +1,19 @@
 ---
-title: "getContextProvider (JavaScript API reference) for Omni-channel Engagement Hub in Dynamics 365 | MicrosoftDocs"
+title: "getContextProvider (Omni-channel Engagement Hub JavaScript API reference) | MicrosoftDocs"
 description: 
 keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 03/15/2019
+ms.date: 03/19/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 1C92A31B-70DF-4CE7-9C7A-BE398F34C6F6
 ms.custom: 
 ---
 
-# getContextProvider (Omni-channel Engagement Hub JavaScript API reference)
+# getContextProvider
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 

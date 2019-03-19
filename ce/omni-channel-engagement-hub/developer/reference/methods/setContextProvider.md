@@ -1,18 +1,18 @@
 ---
-title: "setContextProvider (JavaScript API reference) for Omni-channel Engagement Hub in Dynamics 365 | MicrosoftDocs"
+title: "setContextProvider (Omni-channel Engagement Hub JavaScript API reference) | MicrosoftDocs"
 description: 
 keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 03/03/2019
+ms.date: 03/19/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 1C92A31B-70DF-4CE7-9C7A-BE398F34C6F6
 ms.custom: 
 ---
-# setContextProvider (Omni-channel Engagement Hub JavaScript API reference)
+# setContextProvider
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
@@ -53,6 +53,15 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 });
 
 ```
+
+## Error codes
+
+The following error codes can occur with this method.
+
+|Error Code|Error message|
+|-----|-----|
+|1|Context provider method execution failed|
+
 ## See also
 
-[JavaScript API reference for Live chat SDK](../../omni-channel-reference.md)
+[JavaScript API reference for live chat SDK](../../omni-channel-reference.md)

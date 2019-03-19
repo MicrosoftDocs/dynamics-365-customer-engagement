@@ -1,8 +1,8 @@
 ---
-title: "Walkthrough: Send authentication token | Microsoft Docs"
+title: "Send authentication token | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 03/15/2019
+ms.date: 03/19/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -34,7 +34,7 @@ Follow these steps to send context when starting a chat:
 <!--note from editor: In Step 1, are the "live chat SDK methods" the same thing as the methods under "JavaScript API Reference" in this developer guide? If so, make that connection clear.   -->
 
 
-1. Listen on the **lcw:ready** event raised by a live chat before calling the live chat SDK methods.
+1. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked only after the widget loads fully and the **lcw:ready** event is fired. You can listen for this event by adding your own event listener on the window object.
 2. Once the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method.
 
 ## Sample code
@@ -66,4 +66,4 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 ### See also
 
 [JavaScript API reference](../omni-channel-reference.md)<br />
-[Send context to Omni-channel Engagement Hub when starting a chat](send-context-starting-chat.md)
+[Manage custom context](send-context-starting-chat.md)

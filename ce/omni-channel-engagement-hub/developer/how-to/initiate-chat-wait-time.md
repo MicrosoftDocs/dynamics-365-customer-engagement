@@ -1,8 +1,8 @@
 ---
-title: "Walkthrough: Initiate a chat | Microsoft Docs"
+title: "Initiate a chat | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 03/04/2019
+ms.date: 03/19/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -20,9 +20,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 <!--note from editor:  specify what the user is waiting for--customer support, specifically?  -->
 
-Follow these steps to programmatically start a chat after a user has been waiting for some time:
+Follow these steps to start a chat after a user has been waiting for some time:
 
-1. Listen on the **lcw:ready** event raised by a live chat to start using the live chat SDK methods.
+1. Listen to the **lcw:ready** event raised by a live chat to start using the live chat SDK methods. The live chat methods should be invoked only after the widget loads fully and the **lcw:ready** event is fired. You can listen for this event by adding your own event listener on the window object.
 2. Once the **lcw:ready** event is raised, wait for one minute using the **window.setTimeout()** method, and then call the [startChat](../reference/methods/startChat.md) method to open the chat widget.
 
 ## Sample code

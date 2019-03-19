@@ -1,8 +1,8 @@
 ---
-title: "Walkthrough: Manage custom context | Microsoft Docs"
+title: "Manage custom context | Microsoft Docs"
 description: "Read how you can send custom context to a chat session which can help decide which queue to route the chat to."
 keywords: ""
-ms.date: 03/14/2019
+ms.date: 03/19/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -24,8 +24,8 @@ Follow these steps to send context when starting a chat:
 
 <!--note from editor: In Step 1, are the "live chat SDK methods" the same thing as the methods under "JavaScript API Reference" in this developer guide? If so, make that connection clear.   -->
 
-1. Listen on the **lcw:ready** event raised by a live chat before calling the live chat SDK methods.
-2. Once the **lcw:ready** event is raised, register a context provider with live chat using the [setContextProvider](../reference/methods/setContextProvider.md) method.
+1. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked only after the widget loads fully and the **lcw:ready** event is fired. You can listen for this event by adding your own event listener on the window object.
+2. Once the **lcw:ready** event is raised, register a custom context provider with live chat using the [setContextProvider](../reference/methods/setContextProvider.md) method.
 
 ## Sample code
 
@@ -41,8 +41,8 @@ function contextProvider(){
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 	// Handle LiveChat Ready event
 	// SDK methods are ready for use now
-	// Setting context provider to be used for the chat
-	// The context provided by context provider can be used for routing the chat to a particular queue
+	// Setting custom context provider to be used for the chat
+	// The custom context provided by context provider can be used for routing the chat to a particular queue
 	Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(contextProvider);
 });
 

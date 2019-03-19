@@ -1,5 +1,5 @@
 ---
-title: "setAuthTokenProvider (JavaScript API reference) for Omni-channel Engagement Hub in Dynamics 365 | MicrosoftDocs"
+title: "setAuthTokenProvider (Omni-channel Engagement Hub JavaScript API reference) | MicrosoftDocs"
 description: 
 keywords: ""
 author: susikka
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 8CC62024-BBE4-481B-88A8-1DBC8B47F353
 ms.custom: 
 ---
-# setAuthTokenProvider (Omni-channel Engagement Hub JavaScript API reference)
+# setAuthTokenProvider
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
@@ -46,6 +46,16 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 });
 
 ```
+## Error codes
+
+The following error codes can occur with this method.
+
+|Error Code|Error message|
+|-----|-----|
+|2|Auth token provider method execution failed|
+|3|Auth token provider didn't provide any token|
+|4|Auth token provider provided invalid token|
+
 ## See also
 
-[JavaScript API reference for Live chat SDK](../../omni-channel-reference.md)
+[JavaScript API reference for live chat SDK](../../omni-channel-reference.md)

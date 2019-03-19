@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 92BEB77B-CB6C-436A-8585-2EF581945649
 ms.custom: 
 ---
-# startChat (Omni-channel Engagement Hub JavaScript API reference)
+# startChat
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
@@ -42,4 +42,4 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 ```
 ## See also
 
-[JavaScript API reference for Live chat SDK](../../omni-channel-reference.md)
+[JavaScript API reference for live chat SDK](../../omni-channel-reference.md)

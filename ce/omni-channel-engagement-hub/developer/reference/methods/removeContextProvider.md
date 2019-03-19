@@ -1,18 +1,18 @@
 ---
-title: "removeContextProvider (JavaScript API reference) for Omni-channel Engagement Hub in Dynamics 365 | MicrosoftDocs"
+title: "removeContextProvider (Omni-channel Engagement Hub JavaScript API reference)| MicrosoftDocs"
 description: 
 keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 03/03/2019
+ms.date: 03/19/2019
 ms.service: 
 ms.topic: article
 ms.assetid: C1EBAEC6-42D4-4D8F-9FFC-89DA2AD50B2B
 ms.custom: 
 ---
-# removeContextProvider (Omni-channel Engagement Hub JavaScript API reference)
+# removeContextProvider
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
@@ -42,3 +42,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 
 ```
 -->
+## See also
+
+[JavaScript API reference for live chat SDK](../../omni-channel-reference.md)

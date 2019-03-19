@@ -1,5 +1,5 @@
 ---
-title: "lcw:ready (JavaScript API reference) for Omni-channel Engagement Hub in Dynamics 365 | MicrosoftDocs"
+title: "lcw:ready | MicrosoftDocs"
 description: 
 keywords: ""
 author: susikka
