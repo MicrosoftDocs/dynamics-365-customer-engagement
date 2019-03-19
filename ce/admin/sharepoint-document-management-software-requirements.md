@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Document Management software requirements for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 03/19/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: 736cf9ab-6a7f-4dc8-940a-d7302e09e858
 caps.latest.revision: 55
 author: Mattp123
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -59,6 +59,8 @@ The list component, which is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sha
 
 - User interface that is consistent with the newly-updated [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps user interface.  
 
+- Users can create and view folders when using document management within Dynamics 365 for Customer Engagement apps.
+
 - To configure and use document management, you do not need to be signed in to both [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
 
 - You no longer need to install or continue to use the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] solution. Note that client-to-server authentication strategies that require [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] server sandboxing may be deprecated soon. This functionality is required by the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)].  
@@ -71,9 +73,6 @@ The list component, which is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sha
 | [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)] or [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)] SP1 |          Yes           | Yes with [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)] SP1 when used with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps |
 |                                          [!INCLUDE[pn_Microsoft_SharePoint_2010](../includes/pn-microsoft-sharepoint-2010.md)] SP1 or SP2                                          |          Yes           |                                                                                    No                                                                                     |
 |                                             [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)]                                              |          Yes           |                                                                                    Yes                                                                                    |
-
-> [!NOTE]
->  You can create and view folders when using the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)]. This is not available in server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration.  
 
  For information about how to enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, see [Set up SharePoint integration with Dynamics 365 for Customer Engagement](../admin/set-up-sharepoint-integration.md).  
 
