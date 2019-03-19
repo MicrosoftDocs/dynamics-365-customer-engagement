@@ -91,6 +91,8 @@ To download the schema package and find the right schema for your version:
 
 ## Export data from your source instance
 
+To export data from your source instance:
+
 1. Open the folder where you [installed the tools](#install-tools). Find and run the **DataMigrationUtility.exe** file here.
 
 1. The tool launches. Select **Export data** and then **Continue**.  
@@ -116,7 +118,9 @@ To download the schema package and find the right schema for your version:
 
 1. When the export is done, select **Exit** to close the export page.
 
-## Import data into your destination instance
+## Import data to your destination instance
+
+To import data to your destination instance:
 
 1. If the Configuration Migration tool isn't still running, then open the folder where you [installed the tools](#install-tools). Find and run the **DataMigrationUtility.exe** file here.
 
