@@ -30,7 +30,9 @@ search.app:
 
 ## Public Preview: Unified Service Desk 4.1 known issues and limitations
 
-## Preview: Chrome Process
+#### JavaScript Alert and Confirmation dialog
+
+While you use **Chrome Process** to host applications in Unified Service Desk, if you load applications hosted using **IE Process**, then web pages doesn't show the JavaScript alert, Confirmation, and prompt dialog on the application that uses **IE Process**. The web pages show the dialogs on the applications hosted using the Chrome Process. This issue occurs if you have at least one application hosted using Chrome Process and loaded in Unified Service Desk.
 
 #### Support for CloseAndPrompt action in Chrome Process
 
