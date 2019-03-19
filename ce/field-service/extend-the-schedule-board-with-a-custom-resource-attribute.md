@@ -28,7 +28,7 @@ search.app:
 
 # Extend the schedule board with a custom resource attribute
 
-It is possible to customize the schedule board based on your business needs. Common examples include **(1)** customizing the Resource Cells where the resources' names, pictures, and utilization are listed by default **(2)** customizing the fields in the filter pane where dispatchers decide the resources in a view and **(3)** customizing the sort options (also located in the filter pane) allowng dispatchers to sort the current resources on the the schedule board based on various criteria. This is most commonly achieved by editing the HTML and fetchXML in schedule board's tab settings.
+It is possible to customize the schedule board based on your business needs. Common examples include **(1)** customizing the Resource Cells where the resources' names, pictures, and utilization are listed by default **(2)** customizing the fields in the filter pane where dispatchers decide the resources in a view and **(3)** customizing the sort options (also located in the filter pane) allowing dispatchers to sort the current resources on the the schedule board based on various criteria. This is most commonly achieved by editing the HTML and fetchXML in schedule board's tab settings.
 
 Let's explore customizing the schedule board with the following scenario:
 
@@ -41,7 +41,7 @@ Let's explore customizing the schedule board with the following scenario:
 
 ## Step 1: Add the new attribute to the bookable resource entity
 
-Go to **Customizations > Customize the System > Bookable Resource > Fields** and add a new field named "Resource Cost" with the schema name tsp_resourcecost. If your organization has a different schema prefix such as **new_** this can be used if the code snippets below are updated to reflect this.
+Go to **Customizations > Customize the System > Bookable Resource > Fields** and add a new field named **Resource Cost** with the schema name **tsp_resourcecost**. If your organization has a different schema prefix such as **new_** this can be used if the code snippets below are updated to reflect this.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
@@ -53,13 +53,18 @@ Add the newly created field to the form to be able to administrate your resource
 
 
 ## Step 2: Create a new schedule board (or modify an existing one)
-Navigate to the schedule board that you want to change. I have created a new one called DE#2. Here is what we are trying to achieve:
+Navigate to the schedule board that you want to add the new resource cost attribute to. In the example image below is a schedule board titled "DE#2". The image also shows the three areas on the schedule board we will customize with the new resource cost attribute. 
+
+1. add resource cost indicator in the resource cells 
+2. define a maximum cost score when filtering and searching for resources
+3. allow sorting by cost score
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
 ## Step 3: Modify the Resource Cell Template
-As a first step, the resource cost indicator should be displayed in the resource cell (1). Font Awesome can be used to display icons, such as €, $ (or £ if you’re on the Brexit island). The HTML first draws 10 gray icons as background, then 10 yellow icons as foreground. Then the size of the foreground icons is limited to the value of resourcecost, i.e. a value of 1 is converted to 10%, which means only 10% of the 10 yellow Euros will be displayed. A value of 5 shows 50% of the 10 yellow Euros. You get the idea…
+
+The resource cost indicator should be displayed in the resource cell (1). Font Awesome can be used to display icons, such as €, $ (or £ if you’re on the Brexit island). The HTML first draws 10 gray icons as background, then 10 yellow icons as foreground. Then the size of the foreground icons is limited to the value of resourcecost, i.e. a value of 1 is converted to 10%, which means only 10% of the 10 yellow Euros will be displayed. A value of 5 shows 50% of the 10 yellow Euros. You get the idea…
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
