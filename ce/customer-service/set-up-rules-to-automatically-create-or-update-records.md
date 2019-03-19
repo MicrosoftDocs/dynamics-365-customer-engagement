@@ -172,6 +172,9 @@ If the source type for the rule is set to **Email**, specify the conditions for 
 
 6. **Select email template to respond to customer.**  If you select the **Send automatic email response to customer on record creation** check box, select an email template (global email template or email template of any entity type). If you don’t select a template, an automatic response won’t be sent.  
 
+    > [!NOTE]
+    > When mapping incoming email to a field that does not support HTML, you should remove HTML content from the email, so that the text is compatible with Dynamics and the content can be viewed without HTML tags. You can do this in the following ways. </br> </br> 1. Use a regular expression such as \<[^\>]*\> to filter the HTML tags out of the email before mapping it to the field. Note that taking this approach will permanently remove the tags from the content. </br> 2.  If you want to maintain the HTML from the email, but don’t want it to be displayed, customize the field CSS to have the browser only display the text from the email in the form. </br> </br> Please note that these customizations are not supported by Microsoft. Try them on your sandbox environment to avoid any loss of production data.
+
 ## Set Social Activity conditions
 If the source type for the rule is set to Social Activity, specify the conditions for converting the social activity to the target record.  
 
