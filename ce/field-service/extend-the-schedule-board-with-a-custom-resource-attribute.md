@@ -64,16 +64,24 @@ Navigate to the schedule board that you want to add the new resource cost attrib
 
 ## Step 3: Modify the Resource Cell Template
 
-The resource cost indicator should be displayed in the resource cell (1). Font Awesome can be used to display icons, such as €, $ (or £ if you’re on the Brexit island). The HTML first draws 10 gray icons as background, then 10 yellow icons as foreground. Then the size of the foreground icons is limited to the value of resourcecost, i.e. a value of 1 is converted to 10%, which means only 10% of the 10 yellow Euros will be displayed. A value of 5 shows 50% of the 10 yellow Euros. You get the idea…
+The resource cost indicator should be displayed in the resource cell **(1)**. Font Awesome can be used to display icons, such as €, $, £. The HTML first draws 10 gray icons as a background, then 10 yellow icons as foreground. Then the size of the foreground icons is limited to the value of the resource cost, i.e. a value of 1 is converted to 10%, which means only 10% of the 10 yellow Euro icons will be displayed. A value of 5 shows 50% of the 10 yellow Euro icons.
+
+Double-click the tab of your schedule board (DE#2 in the above case). Scroll down to Resource Cell Template. You cannot (and should not) modify the standard templates. Use the button and Save As to create a custom template. 
+
+> [!Note]
+> If you want to set these changes as the default for all schedule boards, after double clicking a schedule board tab, select **Open Default Settings** in the top right and make the code changes to Resource Cell Template, Filter Layout, and Retrieve Resources Query.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-tab-settings-edit-resource-cell.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+ 
 
-Double-click the tab of your schedule board (DE#2 in the above case). Scroll down to Resource Cell Template. You cannot (and should not) modify the standard templates. Use the button and Save As to create a custom template. Paste the following HTML. If you modify an existing template, only insert the section marked in yellow. Replace fa-euro if you need a different symbol.
+Below is the new code snippet to copy and paste into the resource cell template, and the image below that shows the delta in yellow that can be used to modify an existing template. Replace fa-euro if you need a symbol different from the euro.
 
-
-<div class='resource-card-wrapper {{iif ResourceCellSelected "resource-cell-selected" ""}} {{iif ResourceUnavailable "resource-unavailable" ""}} {{iif IsMatchingAvailability "availability-match" ""}}'>
+    <div class='resource-card-wrapper {{iif ResourceCellSelected "resource-cell-selected" ""}} {{iif ResourceUnavailable "resource-unavailable" ""}} {{iif IsMatchingAvailability "availability-match" ""}}'>
     {{#if imagepath}}
     <img class='resource-image' src='{{client-url}}{{imagepath}}' />
     {{else}}
@@ -113,13 +121,19 @@ Double-click the tab of your schedule board (DE#2 in the above case). Scroll dow
     {{#if (eq (is-sa-grid-view) false) }}
     {{> resource-map-pin-template this }}
     {{/if}}
-</div>
+    </div>
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/schedule-board-tab-settings-resource-cell-template-yellow.png)
 
 ## Step 4: Modify the Filter Layout
-The goal is to define a maximum cost factor when searching for candidates (2) and also allow sorting by cost factor (3). Scroll to Filter Layout. Use the button and Save As to create a custom template. Paste the following HTML. If you modify an existing template, only insert the section marked in yellow. 
+
+Next, the goal is to define a maximum cost score when filtering and searching for resources **(2)** and also allow sorting by cost score **(3)**. 
+
+To accomplish this, from the same schedule board tab setting where you edited the Resource Cell Template, scroll to **Filter Layout**. Use the gear button and Save As to create a custom template. 
+
+Below is the new code snippet to copy and paste into the Filter Layout, and the image below that shows the delta in yellow that can be used to modify an existing template.
+
 
 
 <?xml version="1.0" encoding="utf-8" ?>
@@ -152,19 +166,44 @@ The goal is to define a maximum cost factor when searching for candidates (2) an
 </filter>
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/schedule-board-tab-settings-filter-layout-yellow.png)
 
 ## Step 5: Modify the query
-The last step is to modify the actual query and include the new filter (the “le” operator only leaves resources with a cost factor less or equal to the one selected in the filter panel). Scroll to Retrieve Resources Query. Use the button and Save As to create a custom template. The existing code if pretty lengthy, thus I only provide the additional sections. 
-Place this after <entity name="bookableresource">:
-		<attribute name="tsp_resourcecost" alias="resourcecost" groupby="true"/>
 
-Place this after the </filter> tag of the <!-- Territory filter -->
+The last step is to modify the actual query and include the new filter (the “le” operator only leaves resources with a cost score less or equal to the one selected in the filter panel). Scroll to **Retrieve Resources Query**. 
+
+Use the button and Save As to create a custom template. The existing code if lengthy, so below are only the code snippets to paste within an existing resource query.
+
+After 
+            
+        <entity name="bookableresource">:
+
+paste the following
+
+        <attribute name="tsp_resourcecost" alias="resourcecost" groupby="true"/>
+
+See this image for reference:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-tab-settings-resource-query-snippet1.png)
+
+After the ending
+
+            </filter> tag of the <!-- Territory filter -->
+
+Paste the following
+
 		<filter type="or" ufx:if="$input/ResourceCost">
 			<condition attribute="tsp_resourcecost" operator="le">
 				<ufx:value select="$input/ResourceCost" attribute="value" />
 			</condition>
 		</filter>
+
+See this image for reference:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-tab-settings-resource-query-snippet2.png)
+
 
 ## Step 6: Test your new schedule board
 In the screenshot below I have defined a maximum cost factor of 5 and ascending sort order based on cost.
@@ -176,5 +215,3 @@ In the screenshot below I have defined a maximum cost factor of 5 and ascending 
 
 [July 2017 update for Field Service and Project Service Automation blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1)
 
-> [!Note]
->
