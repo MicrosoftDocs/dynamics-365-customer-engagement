@@ -24,7 +24,7 @@ search.app:
 
 # Maintenance mode for a portal
 
-There might be times when your website is under scheduled maintenance or is down due to temporary outage. When a customer accesses the website during maintenance, unpredictable behavior and intermittent unavailability might be experienced. As a portal administrator, you can configure your portal to display a proper message to the customers whenever a maintenance activity is going on, for example solution packages are being upgraded. You can leverage this capability by enabling the maintenance mode on your portal. When the maintenance mode is enabled, a message is displayed, and the customers are restricted from browsing any web pages except the <portal URL>/_services/about page.
+There might be times when your website is under scheduled maintenance or is down due to temporary outage. When a customer accesses the website during maintenance, unpredictable behavior and intermittent unavailability might be experienced. As a portal administrator, you can configure your portal to display a proper message to the customers whenever a maintenance activity is going on, for example solution packages are being upgraded. You can leverage this capability by enabling the maintenance mode on your portal. When the maintenance mode is enabled, a message is displayed, and the customers are restricted from browsing any web pages except the `<portal URL>/_services/about` page.
 
 > [!div class=mx-imgBorder]
 > ![Default maintenance mode page](media/default-maint-page.png "Default maintenance mode page")
