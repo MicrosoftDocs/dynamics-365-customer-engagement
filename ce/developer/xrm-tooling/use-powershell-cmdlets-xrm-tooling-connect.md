@@ -186,5 +186,6 @@ XRM tooling provides you with the following Windows PowerShell cmdlets that you 
   
 ### See also
 
-[Use XRM Tooling API to connect to Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect.md<br/>  [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools.md)<br />   
+[Use XRM Tooling API to connect to Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect.md)<br />
+[Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools.md)<br /> 
 [Blog: PowerShell module for performing data operations and manipulating user and system settings in Customer Engagement](http://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)
