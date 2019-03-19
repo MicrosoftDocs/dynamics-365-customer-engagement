@@ -44,10 +44,11 @@ Let's explore customizing the schedule board with the following scenario:
 Go to **Customizations > Customize the System > Bookable Resource > Fields** and add a new field named **Resource Cost** with the schema name **tsp_resourcecost**. If your organization has a different schema prefix such as **new_** this can be used if the code snippets below are updated to reflect this.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/schedule-board-tab-settings-resource-cost.png)
 
 
 Use the data type **Option Set** and select the existing option set **Level of Importance**. This is simply to have a list of 1 to 10, where the underlying numeric values are also 1 to 10.
+
 Add the newly created field to the form to be able to administrate your resources. **Publish the changes**.
 
 
@@ -60,7 +61,7 @@ Navigate to the schedule board that you want to add the new resource cost attrib
 3. allow sorting by cost score
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/schedule-board-tab-settings-tutorial.png)
 
 ## Step 3: Modify the Resource Cell Template
 
@@ -74,10 +75,6 @@ Double-click the tab of your schedule board (DE#2 in the above case). Scroll dow
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-tab-settings-edit-resource-cell.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
-
- 
 
 Below is the new code snippet to copy and paste into the resource cell template, and the image below that shows the delta in yellow that can be used to modify an existing template. Replace fa-euro if you need a symbol different from the euro.
 
@@ -209,7 +206,7 @@ See this image for reference:
 In the screenshot below I have defined a maximum cost factor of 5 and ascending sort order based on cost.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/schedule-board-tab-settings-tutorial-end.png)
 
 ### See also
 
