@@ -40,5 +40,6 @@ The enterprise-grade routing and work distribution engine allows customers to co
 - [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 - [Agents using Customer Service Hub app](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
 - [System customizers guide](customizer/omni-channel-engagement-hub-customizer.md)
+- [Developer guide](developer/omni-channel-engagement-hub-developer.md)
 
 <!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->
