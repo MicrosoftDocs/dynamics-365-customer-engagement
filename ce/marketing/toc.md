@@ -82,6 +82,7 @@
 
 ### Create marketing pages and forms
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+#### [Provide personalized page content](personalized-page-content.md)
 #### [Create marketing forms](marketing-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
 #### [Embed a form on an external website](embed-forms.md)

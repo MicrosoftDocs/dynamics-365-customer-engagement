@@ -2,7 +2,7 @@
 title: "Inbound marketing with Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to set up a customer journey to implement inbound marketing that attracts new contacts to register with your organization in Dynamics 365 for Marketing"
 keywords: tutorial; inbound marketing; landing page; page
-ms.date: 10/16/2018
+ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -31,11 +31,23 @@ search.app:
 
 *Inbound customer journeys* seek to attract new, unknown contacts, so they typically start with a landing page that new contacts use to register for a newsletter, download, or some other perk. You'd typically promote your inbound campaign by running ads and posting links on social media. (In comparison, an *outbound* customer journey is one that starts with a segment made up of contacts that are already included in your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database, so an outbound journey usually starts by sending out marketing emails to the members of a segment.)
 
-Though messaging and promotion strategies are typically quite different for an inbound campaign compared to an outbound one, you design inbound customer journeys in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] by using the same basic tools as you would to create an outbound customer journey (as we've seen in several previous exercises). The most important difference is that you typically start an inbound customer journey with a landing page or event instead of a segment. In this configuration, all contacts (both new and existing) who submit the form from the landing page or register for the event immediately start down that journey.
+Though messaging and promotion strategies are typically quite different for an inbound campaign compared to an outbound one, you design inbound customer journeys in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] by using the same basic tools as you would to create an outbound customer journey. The most important difference is that you typically start an inbound customer journey with a landing page, marketing form, or event instead of a segment. In this configuration, all contacts (both new and existing) who submit the form from the landing page or register for the event immediately start down that journey.
+
+## Use a marketing page to launch an inbound campaign
+
+If you are using a native [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] marketing page (hosted by a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal) as the starting point of your inbound campaign, then start your journey with a marketing page tile, and configure the tile to link it to the page.
 
 ![An example of a simple inbound journey](media/journey-inbound-example.png "An example of a simple inbound journey")
 
-Another way to create an inbound journey is to start with an [interaction segment](segments-interaction.md) that is based on form-submit interactions. If you are [embedding your marketing forms on your own website](embed-forms.md) rather than on a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] marketing page, then this is the only way to find and target contacts who submitted the form; but you can also use this technique to find submissions from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] marketing pages.
+## Use a hosted form to launch an inbound campaign
+
+You can create an inbound campaign by placing a **Marketing form** tile at the start of a journey, and then configure the tile to reference the form record that created the JavaScript (form page) you have embedded on your external site. This will cause each contact that submits the form to be added to the journey, just as though they had joined a segment targeted by the journey. You could already [do something similar for marketing pages hosted on a Dynamics 365 portal](create-inbound-customer-journey.md), but now you can also do it with an externally hosted marketing forms.
+
+![Inbound campaign from a hosted form](media/journey-host-form-trigger5.png "Inbound campaign from a hosted form")
+
+## Use an interaction segment to find contacts who submitted a form
+
+Another way to create an inbound journey is to start with an [interaction segment](segments-interaction.md) that is based on form-submit or event-registration interactions, and filtered for a specific form or event ID. This technique will work with both native and externally hosted forms, and with event registrations.
 
 ### See also
 
