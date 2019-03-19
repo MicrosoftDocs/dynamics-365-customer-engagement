@@ -17,7 +17,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Entity reference for Manual forecasting
+# Entity reference for manual forecasting
 
 |Entity name|Description|
 |------|------|
