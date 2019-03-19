@@ -146,7 +146,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     Here is sample code for encrypting the payload. (This code is included in the previous sample code for defining custom context variables.)
 
-    ```
+    ```JavaScript
     encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
     return encoded_jwt
     ```

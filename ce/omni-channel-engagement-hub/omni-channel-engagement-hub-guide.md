@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 03/19/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 213B2D86-403C-418F-AD64-44AD1DD3382A
@@ -74,5 +74,14 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="supervisor/configure-supervisor-dashboard-display-omni-channel-engagement-hub.md" data-raw-source="[Configure the supervisor dashboard](configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)">Configure the supervisor dashboard</a></li>
 <li><a href="supervisor/add-users-supervisor-configuration.md" data-raw-source="[Add users to the supervisor configuration](add-users-supervisor-configuration.md)">Add users to the supervisor configuration</a></li>
 </td> -->
+<td>
+
+<h2> I'm a developer </h2>
+
+<li><a href="developer/how-to/initiate-chat-wait-time.md" data-raw-source="[Walkthrough: Initiate a chat](developer/how-to/initiate-chat-wait-time.md)">Walkthrough: Initiate a chat</a></li>
+<li><a href="developer/how-to/send-auth-token-starting-chat.md" data-raw-source="[Walkthrough: Send authentication token](developer/how-to/send-auth-token-starting-chat.md)">Walkthrough: Send authentication token</a></li>
+<li><a href="developer/how-to/send-context-starting-chat.md" data-raw-source="[Walkthrough: Manage custom context](developer/how-to/send-context-starting-chat.md)">Walkthrough: Manage custom context</a></li>
+<li><a href="developer/omni-channel-reference.md" data-raw-source="[JavaScript API reference for Live chat SDK](developer/omni-channel-reference.md)">JavaScript API reference for Live chat SDK</a></li>
+</td>
 </tr>
 </table>

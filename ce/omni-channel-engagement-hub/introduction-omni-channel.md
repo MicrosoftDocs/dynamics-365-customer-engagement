@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 03/19/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: fbe4ca59-daca-403a-97f1-49c79d608cac
@@ -40,5 +40,6 @@ The enterprise-grade routing and work distribution engine allows customers to co
 - [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 - [Agents using Customer Service Hub app](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
 - [System customizers guide](customizer/omni-channel-engagement-hub-customizer.md)
+- [Developer guide](developer/omni-channel-engagement-hub-developer.md)
 
 <!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->
