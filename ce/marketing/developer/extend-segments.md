@@ -225,7 +225,7 @@ Following are some of the important aspects that need to be considered while per
 > [!NOTE]
 > For this release, include/exclude operations are not supported for dynamic segments.
 
-- Compound segments must be in Live or Stopped state (not draft).
+- Compound segments must be in Live or Stopped state (not Draft state).
 - Only instances of entity type **Contact** can be included/excluded as members.
 - All included/excluded records should exist; otherwise, the request gets rejected.
 - The include/exclude feature is supported only by new segmentation.
