@@ -1,7 +1,7 @@
 ---
-title: "Entity reference for Playbooks (Developer Guide for Dynamics 365 for Sales)| MicrosoftDocs"
-description: "Reference documentation for the Playbooks entities"
-ms.date: 03/11/2019
+title: "Entity reference for playbooks (Developer Guide for Dynamics 365 for Sales)| MicrosoftDocs"
+description: "Reference documentation for the playbooks entities"
+ms.date: 03/18/2019
 ms.service: "dynamics-365-sales"
 ms.custom:
   - "dyn365-sales"
@@ -17,7 +17,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Entity reference for Playbooks
+# Entity reference for playbooks
 
 |Entity name|Description|
 |------|------|
@@ -28,6 +28,6 @@ search.app:
 |[msdyn_playbookcategory](playbooks-entities/msdyn_playbookcategory.md)|[!INCLUDE[msdyn_playbookcategory-description](includes/msdyn_playbookcategory-description.md)]|
 |[msdyn_callablecontext](playbooks-entities/msdyn_callablecontext.md)|[!INCLUDE[msdyn_callablecontext-description](includes/msdyn_callablecontext-description.md)]|
 
-## See also
+### See also
 
-[Developer guide for Sales](../developer-guide.md)<br />
+[Developer Guide for Sales](../developer-guide.md)<br />

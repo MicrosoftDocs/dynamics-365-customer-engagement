@@ -1,7 +1,7 @@
 ---
-title: "Entity reference for Manual forecasting (Developer Guide for Dynamics 365 for Sales)| MicrosoftDocs"
-description: "Reference documentation for the entities of Manual forecasting"
-ms.date: 03/06/2019
+title: "Entity reference for manual forecasting (Developer Guide for Dynamics 365 for Sales)| MicrosoftDocs"
+description: "Reference documentation for the entities of manual forecasting"
+ms.date: 03/18/2019
 ms.service: "dynamics-365-sales"
 ms.custom:
   - "dyn365-sales"
@@ -17,7 +17,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Entity reference for Manual forecasting
+# Entity reference for manual forecasting
 
 |Entity name|Description|
 |------|------|
@@ -25,6 +25,6 @@ search.app:
 |[msdyn_forecastinstance](entities/msdyn_forecastinstance.md)|[!INCLUDE[msdyn_forecastinstance-description](includes/msdyn_forecastinstance-description.md)]|
 |[msdyn_forecastrecurrence](entities/msdyn_forecastrecurrence.md)|[!INCLUDE[msdyn_forecastrecurrence-description](includes/msdyn_forecastrecurrence-description.md)]|
 
-## See also
+### See also
 
-[Custom actions for Manual forecasting](custom-actions-manual-forecasting.md)<br />
+[Custom actions for manual forecasting](custom-actions-manual-forecasting.md)<br />
