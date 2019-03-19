@@ -44,7 +44,7 @@ Let's explore customizing the schedule board with the following scenario:
 Go to **Customizations > Customize the System > Bookable Resource > Fields** and add a new field named **Resource Cost** with the schema name **tsp_resourcecost**. If your organization has a different schema prefix such as **new_** this can be used if the code snippets below are updated to reflect this.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-tab-settings-resource-cost.png)
+> ![Screenshot of adding resource cost attribute or field to a bookable resource](./media/schedule-board-tab-settings-resource-cost.png)
 
 
 Use the data type **Option Set** and select the existing option set **Level of Importance**. This is simply to have a list of 1 to 10, where the underlying numeric values are also 1 to 10.
@@ -61,7 +61,7 @@ Navigate to the schedule board that you want to add the new resource cost attrib
 3. allow sorting by cost score
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-tab-settings-tutorial.png)
+> ![Screenshot of final result of changes that will be made in this article](./media/schedule-board-tab-settings-tutorial.png)
 
 ## Step 3: Modify the Resource Cell Template
 
@@ -73,7 +73,7 @@ Double-click the tab of your schedule board (DE#2 in the above case). Scroll dow
 > If you want to set these changes as the default for all schedule boards, after double clicking a schedule board tab, select **Open Default Settings** in the top right and make the code changes to Resource Cell Template, Filter Layout, and Retrieve Resources Query.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-tab-settings-edit-resource-cell.png)
+> ![Screenshot of where to edit the resource cell template](./media/schedule-board-tab-settings-edit-resource-cell.png)
 
 
 Below is the new code snippet to copy and paste into the resource cell template, and the image below that shows the delta in yellow that can be used to modify an existing template. Replace fa-euro if you need a symbol different from the euro.
@@ -121,7 +121,7 @@ Below is the new code snippet to copy and paste into the resource cell template,
     </div>
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-tab-settings-resource-cell-template-yellow.png)
+> ![Screenshot of fetchXML with highlighted new code](./media/schedule-board-tab-settings-resource-cell-template-yellow.png)
 
 ## Step 4: Modify the Filter Layout
 
@@ -133,9 +133,9 @@ Below is the new code snippet to copy and paste into the Filter Layout, and the 
 
 
 
-<?xml version="1.0" encoding="utf-8" ?>
-<filter>
-  <controls>
+    <?xml version="1.0" encoding="utf-8" ?>
+    <filter>
+    <controls>
     <control type="characteristic" key="Characteristics" label-id="ScheduleAssistant.West.Skills" />
 
 	<control type="combo" source="optionset" key="ResourceCost" label-id="Resource Cost Limit" entity="bookableresource" attribute="tsp_resourcecost" multi="false">
@@ -156,14 +156,16 @@ Below is the new code snippet to copy and paste into the Filter Layout, and the 
     <control type="combo" source="entity" key="BusinessUnits" label-id="SB_FilterPanel_BusinessUnitsFilter_Title" entity="businessunit" multi="true" />
     <control type="order" key="Orders" label-id="FilterControl_OrderLabel">
       <order name="name" entity="bookableresource" attribute="name" />
+
       <order name="resourcecost" entity="bookableresource" attribute="tsp_resourcecost" />
+
       <order name="proficiencyscore" entity="bookableresourcecharacteristic" attribute="ratingvalue" />
     </control>
-  </controls>
-</filter>
+    </controls>
+    </filter>
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-tab-settings-filter-layout-yellow.png)
+> ![Screenshot of fetchXML with highlighted new code for filter layout](./media/schedule-board-tab-settings-filter-layout-yellow.png)
 
 ## Step 5: Modify the query
 
@@ -182,7 +184,7 @@ paste the following
 See this image for reference:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-tab-settings-resource-query-snippet1.png)
+> ![Screenshot of code edit to resource query](./media/schedule-board-tab-settings-resource-query-snippet1.png)
 
 After the ending
 
@@ -199,14 +201,14 @@ Paste the following
 See this image for reference:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-tab-settings-resource-query-snippet2.png)
+> ![Screenshot of code edit to resource query](./media/schedule-board-tab-settings-resource-query-snippet2.png)
 
 
 ## Step 6: Test your new schedule board
 In the screenshot below I have defined a maximum cost factor of 5 and ascending sort order based on cost.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-tab-settings-tutorial-end.png)
+> ![Screenshot of final result entering 5 for resource cost on the schedule board](./media/schedule-board-tab-settings-tutorial-end.png)
 
 ### See also
 
