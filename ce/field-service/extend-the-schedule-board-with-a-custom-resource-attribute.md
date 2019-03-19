@@ -28,7 +28,9 @@ search.app:
 
 # Extend the schedule board with a custom resource attribute
 
-In the July 2017 update for Field Service and Project Service Automation (more in this blog entry: https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1) we introduced the ability to extend the schedule board. This document provides a practical example: We add an attribute “resource cost” to the bookable resource entity. Since your regions, industries and currencies may be completely different, we’re not using an absolute value, instead a score from 1 (cheapest) to 10 (most expensive).
+It is possible to customize the schedule board based on your business needs. Common examples include **(1)** customizing the Resource Cells where the resources' names, pictures, and utilization are listed by default **(2)** customizing the fields in the filter pane where dispatchers decide the resources in a view and **(3)** customizing the sort options (also located in the filter pane) allowng dispatchers to sort the current resources on the the schedule board based on various criteria. 
+
+we introduced the ability to extend the schedule board. This document provides a practical example: We add an attribute “resource cost” to the bookable resource entity. Since your regions, industries and currencies may be completely different, we’re not using an absolute value, instead a score from 1 (cheapest) to 10 (most expensive).
 We then expose the attribute in three different places:
 •	On the resource card (just for viewing the cost, using a graphical element)
 •	In the search panel, so that you can provide a maximum cost level for the desired resources
@@ -160,13 +162,12 @@ Place this after the </filter> tag of the <!-- Territory filter -->
 ## Step 6: Test your new schedule board
 In the screenshot below I have defined a maximum cost factor of 5 and ascending sort order based on cost.
 
-
-> [!Note]
->
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
 ### See also
 
 [July 2017 update for Field Service and Project Service Automation blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1)
+
+> [!Note]
+>
