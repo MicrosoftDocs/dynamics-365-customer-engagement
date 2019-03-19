@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When a user initiates a chat, you can pass the custom context to Omni-channel Engagement Hub. This custom context can be used in routing rules which eventually determine which queue to route the chat to.
+When a user initiates a chat, you can pass custom context to Omni-channel Engagement Hub. This custom context can be used in routing rules which eventually determine which queue to route the chat to.
 
 Follow these steps to send context when starting a chat:
 

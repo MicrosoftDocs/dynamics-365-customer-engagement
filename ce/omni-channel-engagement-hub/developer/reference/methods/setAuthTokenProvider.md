@@ -23,9 +23,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 The authentication-token provider function, when called with a callback function as a parameter, invokes the callback function with a valid JSON Web Token (JWT) string as the argument.<br />This method raises an error if the value of the `authTokenProvider` parameter is not a function.
 
 > [!IMPORTANT]
-> In the payload of the JWT token, the value provided for `lwicontexts` key should be the serialized custom context.
-> The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.
-> The keys of custom context must correspond to context variables that are created for the associated work stream in Omni-channel Engagement Hub.
+> In the payload of the JWT token, the value provided for `lwicontexts` key should be the serialized custom context.<br />
+> The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.<br />
+> The keys of custom context must correspond to context variables that are created for the associated work stream in Omni-channel Engagement Hub.<br />
 > The authentication token provider would be invoked by live chat widget when starting a new chat.
 
 ## Syntax
