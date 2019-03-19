@@ -32,27 +32,23 @@ It is possible to customize the schedule board based on your business needs. Com
 
 Let's explore customizing the schedule board with the following scenario:
 
-**Scenario:** Each bookable resource (field technician) has a cost based on many factors such as seniority and certifications level. Dispatchers would like the general cost of each resource displayed on the schedule board along with the ability to filter and sort by cost. This is common for scenarios where an organization first wants to schedule internal employees and then external contracting parties second, because they are usually more expensive. Rather than use an 
+**Scenario:** Each bookable resource (field technician) has a cost based on many factors such as seniority and certification level. Dispatchers would like the general cost of each resource displayed on the schedule board along with the ability to filter and sort by cost. This is common for scenarios where an organization first wants to schedule internal employees and second external contracting parties, who are usually more expensive. Rather than use an exact resource cost, this scenario uses a score of 1 (lowest resource cost) to 10 (highest resource cost) and exposes the score: 
 
-we introduced the ability to extend the schedule board. This document provides a practical example: We add an attribute “resource cost” to the bookable resource entity. 
-
-Since your regions, industries and currencies may be completely different, we’re not using an absolute value, instead a score from 1 (cheapest) to 10 (most expensive).
-We then expose the attribute in three different places:
-•	On the resource card (just for viewing the cost, using a graphical element)
-•	In the search panel, so that you can provide a maximum cost level for the desired resources
-•	In the sort box, to allow you to sort from cheap to expensive or the other way round.
+- In the resource cell, for viewing the cost with a graphical element.
+- In the filter panel, to filter a by a maximum cost level for the desired resources.
+- In the sort options, to sort from lowest to highest cost or vice versa.
 
 
-## Step 1: Add the new field
+## Step 1: Add the new attribute to the bookable resource entity
 
-Go to Customization, select the Bookable Resource entity, then Fields and add a new field Resource Cost with the schema name tsp_resourcecost. 
+Go to **Customizations > Customize the System > Bookable Resource > Fields** and add a new field named "Resource Cost" with the schema name tsp_resourcecost. If your organization has a different schema prefix such as **new_** this can be used if the code snippets below are updated to reflect this.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
 
-Use the data type Option Set and select the existing option set Level of Importance. This is simply to have a list of 1 to 10, where the underlying numeric values are also 1 to 10.
-Add the newly created field to the form to be able to administrate your resources. Publish the changes.
+Use the data type **Option Set** and select the existing option set **Level of Importance**. This is simply to have a list of 1 to 10, where the underlying numeric values are also 1 to 10.
+Add the newly created field to the form to be able to administrate your resources. **Publish the changes**.
 
 
 
