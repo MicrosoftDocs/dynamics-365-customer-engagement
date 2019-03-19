@@ -94,7 +94,7 @@ XRM tooling provides you with the following Windows PowerShell cmdlets that you 
    ```  
  
 > [!NOTE]
-> In this documentation release, the PowerShell cmdlets documentation that is common to `on-line` deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to PowerShell cmdlets for an `on-premises` or `Internet Facing Deployment`. To learn about PowerShell cmdlets for on-line, start by reading the connection string [documentation](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
+> In this documentation release, the PowerShell cmdlets documentation that is common to `on-line` deployment types has been moved to the [Common Data Service](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to PowerShell cmdlets for an `on-premises` or `Internet Facing Deployment`. To learn about PowerShell cmdlets for on-line, start by reading the connection string [documentation](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect) under Common Data Service, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
 
 <a name="RetrieveOrgs"></a>   
 
@@ -128,7 +128,7 @@ XRM tooling provides you with the following Windows PowerShell cmdlets that you 
    $CRMOrgs  
    ```  
    > [!div class="mx-imgBorder"]
-   > ![Dynamics 365 for Customer Engagement organization information](../media/xrmtooling-powershell-1.png)  
+   > ![Dynamics 365 for Customer Engagement apps organization information](../media/xrmtooling-powershell-1.png)  
   
    > [!TIP]
    > You can use the variable that was used to store the retrieved [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organizations (in this case `$CRMOrgs`) with the `Get-CrmConnection` cmdlet to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. To specify the org name, use the following command: `$CRMOrgs.UniqueName`.  

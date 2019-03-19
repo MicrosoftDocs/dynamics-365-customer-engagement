@@ -53,10 +53,10 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 
 > You’ll have to use the following `using` directive in your code to reference the `System.Configuration` namespace to access the connection string in your code: `using System.Configuration;`  
 
- After creating a <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> object, you can use the object to perform actions in Dynamics 365 for Customer Engagement apps. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use XRM Tooling to execute actions](powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-execute-actions.md)  
+ After creating a <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> object, you can use the object to perform actions in Dynamics 365 for Customer Engagement apps. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use XRM Tooling to execute actions](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-execute-actions)  
 
 > [!NOTE]
-> In this documentation release, the connection string documentation that is common to `on-line` deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to implementing connection strings for an `on-premise` or `Internet Facing Deployment`. To learn about connection string, start by reading the connection string [documentation](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
+> In this documentation release, the connection string documentation that is common to `on-line` deployment types has been moved to the [Common Data Service](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to implementing connection strings for an `on-premise` or `Internet Facing Deployment`. To learn about connection string, start by reading the connection string [documentation](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect) under Common Data Service, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
 
 <a name="Parameters"></a>
 
