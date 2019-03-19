@@ -27,8 +27,8 @@ search.app:
 Power BI is one of the best tools to deliver insights with simple and interactive visualization. To view dashboards and reports from Power BI on web pages in a portal, you must enable Power BI visualization from the Portal Admin Center. You can also embed dashboards and reports created in the new workspace of Power BI by enabling the Power BI Embedded service integration.
 
 > [!NOTE]
-> You must have an appropriate Power BI license.
-> To use Power BI Embedded service, you must have an appropriate Power BI Embedded license.
+> - You must have an appropriate Power BI license.
+> - To use Power BI Embedded service, you must have an appropriate Power BI Embedded license.
 
 ## Enable Power BI visualization
 
@@ -100,7 +100,7 @@ Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to
     > [!div class=mx-imgBorder]
     > ![Manage Power BI Embedded service](media/manage-powerbi-embedded-button.png "Manage Power BI Embedded service")
 
-4. In the **Manage Power BI Embedded service integration** window, select and move the Power BI workspaces from which dashboards and reports need to be displayed in your portal to the **Selected workspaces** list.
+4. In the **Manage Power BI Embedded service integration** window, remove or move the Power BI workspaces from which dashboards and reports need to be displayed in your portal to the **Selected workspaces** list.
 
     > [!div class=mx-imgBorder]
     > ![Select Power BI workspaces](media/manage-powerbi-embedded-window.png "Select Power BI workspaces")
