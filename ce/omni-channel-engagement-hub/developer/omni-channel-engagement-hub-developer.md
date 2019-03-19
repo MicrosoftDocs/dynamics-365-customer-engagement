@@ -32,8 +32,6 @@ Omni-channel Engagement Hub live chat widget SDK provides methods that allow you
 - Open an existing chat or initiate a new one.
 - Set, retrieve, and remove authentication-token providers for a live chat session.
 
-These APIs will be available for use once the live chat widget loads on the web page.
-
 ## In this section
 
 [Send context when starting chat](how-to/send-context-starting-chat.md)<br />
