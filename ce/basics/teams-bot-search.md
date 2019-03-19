@@ -51,6 +51,11 @@ You also can search with the bot feature. Enter text like "contoso" in the searc
 > [!div class="mx-imgBorder"] 
 > ![Type contoso](media/teams-bot-search-contoso.png "Type contoso")
 
+
+
+<!--from editor: In the following screenshot, Adrian is the name of a Msft employee. Can you remove or blur?-->
+
+
 > [!div class="mx-imgBorder"] 
 > ![Related records returned](media/teams-bot-search-results.png "Related records returned")
 
