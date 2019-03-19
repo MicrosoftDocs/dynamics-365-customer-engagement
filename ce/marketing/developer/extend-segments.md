@@ -2,7 +2,7 @@
 title: "Basic Operations on Segments using API| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
 description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing App."" # 115-145 characters including spaces. This abstract displays in the search result.
 ms.custom: ""
-ms.date: 03/19/2019
+ms.date: 03/20/2019
 ms.reviewer: ""
 ms.service: D365CE
 ms.topic: "article"
@@ -50,7 +50,7 @@ To test the operations you can use **Postman** tool. More information [Use Postm
 
 This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on static segments.
 
-1. **Create request**
+**Create request**
 
 This request creates a new static segment with two contacts and `statuscode` set to `draft`. The response header contains the `URL` to this newly created record (entity instance), which parenthetically includes the `unique ID (segmentID)` for this record.
 
@@ -70,7 +70,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 > [!Important]
 > The purpose of the `crm` prefix is to unambiguously indicate the record identifier type. This is required when you are using a legacy segmentation solution which by default uses a different type of identifier.
 
-2. **Update request**
+**Update request**
 
 In the update request, you will update the `statuscode` of the static segment to `Going Live (192350006)`, when the request is executed it updates the `statuscode`to `Live`.
 
@@ -81,7 +81,7 @@ PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 }
 ```
 
-3. **Retrieve request**
+**Retrieve request**
 
 In the retrieve request, you will retrieve all the static segments that are in `Live` state.
 
@@ -95,7 +95,7 @@ You can also retrieve the segments with specific properties.
 GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdyncrm_segmentname,msdyncrm_segmentquery,msdyncrm_description
 ```
 
-4. **Delete request**
+**Delete request**
 
 In the delete request, you will delete the created static segment. 
 
@@ -107,7 +107,7 @@ DELETE {{orgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on dynamic segments. Dynamic segements are based on segment query (`msdyncrm_segmentquery`). More information [Segment query definition](segment-query-definition.md).
 
-1. **Create request**
+**Create request**
 
 This request creates a dynamic segment and set the `statuscode` to `Live`.
 
@@ -132,7 +132,7 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
 }
 ```
 
-2. **Update request**
+**Update request**
 
 In the update request, you will update the status of the dynamic segment to `Stop`.
 
@@ -143,7 +143,7 @@ PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 }
 ```
 
-3. **Retrieve request**
+ **Retrieve request**
 
 In the retrieve request, you will retrieve all the dynamic segments that are in `Stop` state. 
 
@@ -151,7 +151,7 @@ In the retrieve request, you will retrieve all the dynamic segments that are in 
 GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350002
 ```
 
-4. **Delete request**
+**Delete request**
 
 In the delete request, you will delete the dynamic segment that is created.
 
@@ -163,7 +163,7 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 This section shows how to perform basic CRUD (create, update, retrieve and delete) operations on compound segments.
 
-1. **Create request**
+**Create request**
 
 This request creates a compound segment and set the `statuscode` to `Live`.
 
@@ -177,7 +177,7 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
 }
 ```
 
-2. **Update request**
+ **Update request**
 
 In the update request, you will update the status of the compound segment to `Stop`.
 
@@ -188,7 +188,7 @@ PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 }
 ```
 
-3. **Retrieve request**
+ **Retrieve request**
 
 In the retrieve request, you will retrieve all the compound segments that are in `Stop` state.
 
@@ -196,7 +196,7 @@ In the retrieve request, you will retrieve all the compound segments that are in
 GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350002
 ```
 
-4. **Delete request**
+ **Delete request**
 
 In the delete request, you will delete the compound segment that is created.
 
