@@ -53,6 +53,8 @@
 ## [Facility scheduling](facility-scheduling.md)
 ## [Fulfillment preferences](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
+## [Customize the schedule board with a custom resource attribute](extend-the-schedule-board-with-a-custom-resource-attribute.md)
+
 
 
 # Field Service Mobile

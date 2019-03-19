@@ -1,5 +1,5 @@
 ---
-title: "Extend the schedule board with a custom resource attribute | MicrosoftDocs"
+title: "Customize the schedule board with a custom resource attribute | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 03/19/2019
@@ -26,9 +26,9 @@ search.app:
   - D365FS
 ---
 
-# Extend the schedule board with a custom resource attribute
+# Customize the schedule board with a custom resource attribute
 
-It is possible to customize the schedule board based on your business needs. Common examples include **(1)** customizing the Resource Cells where the resources' names, pictures, and utilization are listed by default **(2)** customizing the fields in the filter pane where dispatchers decide the resources in a view and **(3)** customizing the sort options (also located in the filter pane) allowing dispatchers to sort the current resources on the the schedule board based on various criteria. This is most commonly achieved by editing the HTML and fetchXML in schedule board's tab settings.
+It is possible to customize and extend the schedule board based on your business needs. Common examples include **(1)** customizing the Resource Cells where the resources' names, pictures, and utilization are listed by default **(2)** customizing the fields in the filter pane where dispatchers decide the resources in a view and **(3)** customizing the sort options (also located in the filter pane) allowing dispatchers to sort the current resources on the the schedule board based on various criteria. This is most commonly achieved by editing the HTML and fetchXML in schedule board's tab settings.
 
 Let's explore customizing the schedule board with the following scenario:
 
