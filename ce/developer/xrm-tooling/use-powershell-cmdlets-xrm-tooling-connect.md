@@ -37,7 +37,7 @@ XRM tooling provides you with the following Windows PowerShell cmdlets that you 
 
 ## Register the cmdlets  
 
- Before you can use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets, you have to register them. The XRM tooling PowerShell cmdlets are available as a NuGet package [here](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell)(https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell/). To download and register the cmdlets
+ Before you can use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets, you have to register them. The XRM tooling PowerShell cmdlets are available as a NuGet package [here](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell). To download and register the cmdlets
   
 1. Open notepad, and copy the following script:
 
@@ -89,9 +89,9 @@ XRM tooling provides you with the following Windows PowerShell cmdlets that you 
   
    You’re now ready to use these [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] cmdlets. To list the cmdlets that you registered, run the following command in the [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] window:  
   
-```powershell
-Get-Help “Crm”  
-```  
+   ```powershell
+      Get-Help “Crm”  
+   ```  
  
 > [!NOTE]
 > In this documentation release, the PowerShell cmdlets documentation that is common to `on-line` deployment types has been moved to the [Common Data Service for Apps](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to PowerShell cmdlets for an `on-premises` or `Internet Facing Deployment`. To learn about PowerShell cmdlets for on-line, start by reading the connection string [documentation](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect) under Common Data Service (CDS) for Apps, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
@@ -127,8 +127,8 @@ Get-Help “Crm”
    ```powershell  
    $CRMOrgs  
    ```  
-  
-   ![Dynamics 365 for Customer Engagement organization information](../media/xrmtooling-powershell-1.png)  
+   > [!div class="mx-imgBorder"]
+   > ![Dynamics 365 for Customer Engagement organization information](../media/xrmtooling-powershell-1.png)  
   
    > [!TIP]
    > You can use the variable that was used to store the retrieved [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organizations (in this case `$CRMOrgs`) with the `Get-CrmConnection` cmdlet to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. To specify the org name, use the following command: `$CRMOrgs.UniqueName`.  
@@ -181,10 +181,10 @@ Get-Help “Crm”
    $CRMConn  
    ```  
   
-   ![Dynamics 365 for Customer Engagement connection information and status](../media/xrm-tooling-powershell-2.png "Dynamics 365 for Customer Engagement connection information and status")  
+   > [!div class="mx-imgBorder"]
+   > ![Dynamics 365 for Customer Engagement connection information and status](../media/xrm-tooling-powershell-2.png "Dynamics 365 for Customer Engagement connection information and status")  
   
 ### See also
-  
- [Use XRM Tooling API to connect to Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect.md)<br />  
- [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools.md)<br />   
- [Blog: PowerShell module for performing data operations and manipulating user and system settings in Customer Engagement](http://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)
+
+[Use XRM Tooling API to connect to Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect.md<br/>  [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools.md)<br />   
+[Blog: PowerShell module for performing data operations and manipulating user and system settings in Customer Engagement](http://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)
