@@ -55,6 +55,6 @@ Properties represent fields of data stored in the entity. Some properties are re
 |utcconversiontimezonecode|UTC Conversion Time Zone Code|Edm.Int32|Time zone code that was in use when the record was created.|
 |versionnumber|Version Number|Edm.Int64|Version number.|
 
-## See also
+### See also
 
 [Entity reference for playbooks](../playbook-entity-reference.md)
