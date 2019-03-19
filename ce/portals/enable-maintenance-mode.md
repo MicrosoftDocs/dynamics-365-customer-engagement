@@ -71,7 +71,7 @@ You can also choose to disable maintenance mode on your portal when the schedule
     > [!div class=mx-imgBorder]
     > ![Enable maintenance mode](media/configure-maint-mode-button.png "Enable maintenance mode")
 
-4. Modify the settings as required and select **Update**. For example, you may choose to display the default page if you've selected to display the custom page.
+4. Modify the settings as required and select **Update**. For example, you may choose to display the default page if you've earlier selected to display the custom page.
 
 5. To disable maintenance mode, select **Disable**. While maintenance mode is being updated or disabled, the portal restarts and will be unavailable for a few minutes.
 

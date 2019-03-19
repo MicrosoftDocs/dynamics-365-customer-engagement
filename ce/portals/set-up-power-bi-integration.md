@@ -80,14 +80,14 @@ Enabling Power BI Embedded service allows you to embed dashboards and reports cr
     > [!div class=mx-imgBorder]
     > ![Enable Power BI Embedded service](media/enable-powerbi-embedded-button.png "Enable Power BI Embedded service")
 
-4. In the **Enable Power BI Embedded service integration** window, select and move the Power BI workspaces that need to be displayed in your portal to the **Selected workspaces** list.
+4. In the **Enable Power BI Embedded service integration** window, select and move the Power BI workspaces from which dashboards and reports need to be displayed in your portal to the **Selected workspaces** list.
 
     > [!div class=mx-imgBorder]
     > ![Select Power BI workspaces](media/enable-powerbi-embedded-window.png "Select Power BI workspaces")
 
 5. Select **Enable**. While Power BI Embedded service is being enabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI Embedded service is disabled.
 
-Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to embed Power BI dashboards and reports from the new workspaces in Power BI on the web pages in a portal. To use Power BI Embedded service, the authentication type must be specified as powerbiembedded. While embedding the Power BI content, customizers can use [filter parameters](https://docs.microsoft.com/en-us/power-bi/service-url-filters) to create personalized views. More information: [powerbi Liquid tag](dynamics-entity-tags.md#powerbi)
+Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to embed Power BI dashboards and reports from the new workspaces in Power BI on the web pages in a portal. To use Power BI Embedded service, the authentication type must be specified as **powerbiembedded**. While embedding the Power BI content, customizers can use [filter parameters](https://docs.microsoft.com/en-us/power-bi/service-url-filters) to create personalized views. More information: [powerbi Liquid tag](dynamics-entity-tags.md#powerbi)
 
 ### Manage Power BI Embedded service
 
@@ -100,7 +100,7 @@ Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to
     > [!div class=mx-imgBorder]
     > ![Manage Power BI Embedded service](media/manage-powerbi-embedded-button.png "Manage Power BI Embedded service")
 
-4. In the **Manage Power BI Embedded service integration** window, select and move the Power BI workspaces that need to be displayed in your portal to the **Selected workspaces** list.
+4. In the **Manage Power BI Embedded service integration** window, select and move the Power BI workspaces from which dashboards and reports need to be displayed in your portal to the **Selected workspaces** list.
 
     > [!div class=mx-imgBorder]
     > ![Select Power BI workspaces](media/manage-powerbi-embedded-window.png "Select Power BI workspaces")
