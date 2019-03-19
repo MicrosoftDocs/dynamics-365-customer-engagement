@@ -34,10 +34,10 @@ Omni-channel Engagement Hub live chat widget SDK provides methods that allow you
 
 ## In this section
 
-[Send context when starting chat](how-to/send-context-starting-chat.md)<br />
-[Send authentication token when starting chat](how-to/send-auth-token-starting-chat.md)<br />
-[Initiate chat after user has been waiting for some time](how-to/initiate-chat-wait-time.md)<br />
-[JavaScript API reference for Live chat SDK](omni-channel-reference.md)
+[Manage custom context](how-to/send-context-starting-chat.md)<br />
+[Send authentication token](how-to/send-auth-token-starting-chat.md)<br />
+[Initiate a chat](how-to/initiate-chat-wait-time.md)<br />
+[JavaScript API reference for live chat SDK](omni-channel-reference.md)
 
 ### See also
 

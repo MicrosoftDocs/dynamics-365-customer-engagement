@@ -85,7 +85,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 ```
 
 > [!div class="nextstepaction"]
-> [Next topic: Initiate chat when user has been waiting](initiate-chat-wait-time.md)
+> [Next topic: Initiate a chat](initiate-chat-wait-time.md)
 
 ### See also
 

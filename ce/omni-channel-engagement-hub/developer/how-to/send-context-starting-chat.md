@@ -49,8 +49,10 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 	// Handle LiveChat Ready event
 	// SDK methods are ready for use now
 	// Setting custom context provider to be used for the chat
-	// The custom context provided by context provider can be used for routing the chat to a particular queue
+	// The custom context provided by custom context provider can be used for routing the chat to a particular queue
 	Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(contextProvider);
+	// Starting a new chat
+	Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();
 });
 
 window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEvent){
@@ -59,7 +61,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 });
 ```
 > [!div class="nextstepaction"]
-> [Next topic: Send authentication token when starting a chat](send-auth-token-starting-chat.md)
+> [Next topic: Send authentication token](send-auth-token-starting-chat.md)
 
 ### See also
 
