@@ -12,7 +12,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# Walkthrough: Initiate a chat
+# Initiate a chat
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 

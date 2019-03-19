@@ -12,7 +12,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# Walkthrough: Manage custom context
+# Manage custom context
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 

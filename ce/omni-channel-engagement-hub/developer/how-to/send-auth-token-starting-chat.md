@@ -13,7 +13,7 @@ ms.author: susikka
 manager: shujoshi
 
 ---
-# Walkthrough: Send authentication token
+# Send authentication token
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
