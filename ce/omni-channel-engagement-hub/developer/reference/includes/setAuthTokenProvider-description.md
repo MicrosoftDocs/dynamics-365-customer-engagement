@@ -1,3 +1,1 @@
-Sets the authentication-token provider. <br />
-
-The authentication-token provider function, when called with a callback function as a parameter, invokes the callback function with a valid JSON Web Token (JWT) string as the argument.<br />This method raises an error if the value of the `authTokenProvider` parameter is not a function.
+Sets the authentication-token provider.
