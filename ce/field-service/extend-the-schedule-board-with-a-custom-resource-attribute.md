@@ -28,11 +28,7 @@ search.app:
 
 # Extend the schedule board with a custom resource attribute
 
-> [!Note]
->
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
 
 Purpose
@@ -157,3 +153,8 @@ In the screenshot below I have defined a maximum cost factor of 5 and ascending 
  
 Enjoy!
 
+> [!Note]
+>
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
