@@ -2,7 +2,7 @@
 title: "Build Windows client applications using the XRM tools (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "XRM tooling is a set of APIs that provides support for building Windows client applications for Dynamics 365 for Customer Engagement apps"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 03/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,9 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: e2f22576-1705-4854-a804-a1ca232c0cfc
 caps.latest.revision: 33
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -37,6 +36,9 @@ XRM tooling is a set of APIs built on top of the [!INCLUDE[pn_dynamics_crm](../i
 - Supports secure storage of the sign-in credentials and reuse of the stored credentials to automatically sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps after initial sign in.  
   
 - Provides built-in diagnostic tracing and performance reporting of the actions performed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, which you can configure based on your organization’s requirements.  
+
+> [!NOTE]
+> In this documentation release, the documentation that is common to `on-line` deployment types has been moved to the [Common Data Service](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to `on-premises` or `Internet Facing Deployment`. To learn on-line, start by reading the connection string [documentation](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect) under Common Data Service, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
   
 ## Components of XRM tooling  
  XRM tooling has the following three components:  
