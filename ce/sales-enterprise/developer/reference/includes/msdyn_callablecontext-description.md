@@ -1,1 +1,1 @@
-List of record types that Playbook can be applied to.
+List of record types that the playbook can be applied to.
