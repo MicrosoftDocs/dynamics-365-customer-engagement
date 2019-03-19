@@ -16,6 +16,7 @@
 ## [Set up Power BI integration](set-up-power-bi-integration.md)
 ## [Restrict portal access by IP address](ip-address-restrict.md)
 ## [Use portal checker](portal-checker.md)
+## [Enable maintenance mode](enable-maintenance-mode.md)
 
 # [Configure a portal](configure-portal.md)
 ## [Enable multiple-language support](enable-multiple-language-support.md)
