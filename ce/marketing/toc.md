@@ -11,6 +11,8 @@
 #### [Run the setup wizard](purchase-setup.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
+#### [Transfer data between instances](transfer-data.md)
+#### [Transfer customizations between instances](transfer-solution.md)
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
 

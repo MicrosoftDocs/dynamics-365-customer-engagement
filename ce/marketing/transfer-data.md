@@ -42,6 +42,14 @@ The process works as follows:
 
 ## Capabilities and limitations of the export/import process
 
+The following notes apply when you use export/import to move data from one [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to another:
+
+- All records exported with a status of "live" will be imported with a status of "draft" on the destination instance.
+- If you import (or reimport) a record that already exists on the destination instance, that record will end with a status of "draft" on the destination instance. Matching records won't be duplicated.
+- Interaction data can't be exported or transferred to a new instance. It will never be included in the export file.
+- If you export from a language not present on the destination instance, that language will simply be added to the destination instance.
+- Both the source and destination instances must be running the same version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and use identical database schema.
+
 <!-- Mention things like: supported/unsupported entities, support for languages, requirement for matching versions, something about customizations, more? -->
 
 <a name="install-tools"></a>

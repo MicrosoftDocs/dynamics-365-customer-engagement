@@ -44,13 +44,17 @@ This section provides a complete example for how to set up a simple customizatio
 
 In this exercise, you'll create a new solution and add a simple customization to it. This will provide a simple custom solution that you can use to export and and transfer to a new instance later in this topic. If you already have a custom solution to work with, then you can skip ahead to [Part 2](#export-solution).
 
+To create a custom solution:
+
 1. Sign in to the instance where you will develop your custom solution.
 
 1. Go to the custom app by selecting **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]** from the app-selector menu.    
     ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 
-1. In the custom app, navigate to **Settings** > **Solutions**. A list of existing solutions opens. Select **New** on the command bar to create a new one.    
+1. In the custom app, navigate to **Settings** > **Solutions**. A list of existing solutions opens.    
     ![The solutions list](media/solution-list.png "The solutions list")
+
+1. Select **New** on the command bar to create a new solution. 
 
 1. A new **PowerApps** window opens. Provide a **Display name**, **Name**, **Publisher**, and **Version** and then select **Save** on the command bar to save your solution.  
     ![The new solution form](media/solution-new-1.png "The new solution form")
@@ -116,3 +120,30 @@ When you're done customizing your solution and ready to move it to another insta
 1. The solution now downloads as a zip file named after the solution name.
 
 ### Part 3: Import a solution
+
+After exporting the custom solution from the source instance, you're ready to import the solution to the destination instance, which will add it's customizations to that instance and also make it easy for you to remove them again if needed (though any imported system settings will remain if you chose to include them in your exported solution).
+
+To import a solution:
+
+1. Sign in to the instance where you will import your custom solution.
+
+1. Go to the custom app by selecting **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]** from the app-selector menu.    
+    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
+
+1. In the custom app, navigate to **Settings** > **Solutions**. A list of existing solutions opens.    
+    ![The solutions list](media/solution-list.png "The solutions list")
+
+1. Select **Import** on the command bar. The import dialog launches.    
+    ![Import dialog, page 1](media/solution-import-1.png "Import dialog, page 1")
+
+1. Select **Choose file** to open a file browser. Find and select the solution file that you exported from the source instance.
+
+1. Select **Next** to continue.    
+    ![Import dialog, page 2](media/solution-import-2.png "Import dialog, page 2")
+
+1. Select **Import** to begin importing the selected solution. A progress bar opens in a pop-up window, which closes automatically when the import is done. Then the import dialog updates to show the result.    
+    ![Import dialog, page 3](media/solution-import-3.png "Import dialog, page 3")
+
+1. Select **Close** to close the import dialog.
+
+1. To confirm the import, go to the Marketing app, open a marketing form record and look for the new customized field on the **Summary** tab.
