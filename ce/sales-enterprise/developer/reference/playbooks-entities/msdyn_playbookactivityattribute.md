@@ -59,4 +59,4 @@ Properties represent fields of data stored in the entity. Some properties are re
 
 ### See also
 
-[Entity reference for Playbooks](../playbook-entity-reference.md)
+[Entity reference for playbooks](../playbook-entity-reference.md)
