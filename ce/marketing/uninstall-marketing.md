@@ -2,7 +2,7 @@
 title: "Uninstall Dynamics 365 for Marketing (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to remove Dynamics 365 for Marketing from a Dynamics 365 instance"
 keywords: uninstall;solutions;administration;instances
-ms.date: 12/17/2018
+ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -98,31 +98,67 @@ To remove the solutions:
 
 1. Go to **Settings** > **Customizations** > **Solutions** to manage your installed solutions.
 
-1. Find each of the following solutions and remove them, one at a time, in the order listed here. To remove a solution, select its check box, and then select **Delete** on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
+1. Find each of the following solutions and remove them, one at a time, in the order listed here. (Some of the items listed may not be present on your instance, so just skip these.) To remove a solution, select its check box, and then select **Delete** on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
 
-    - MicrosoftDynamics_MktEmailTemplates (if present)
-    - MicrosoftDynamics_MktPortalsLink
-    - MicrosoftDynamics_EvtMgmtPortalsLink
-    - MicrosoftDynamics_EvtMgmtVocLink
-    - MicrosoftDynamics_MktVocLink
-    - MicrosoftDynamics_MktVocIntegration
-    - MicrosoftDynamics_GwennolOptimalEmailSendingTime
-    - MicrosoftDynamics_MktIntegration
-    - MicrosoftDynamics_SocialEngagement
-    - MicrosoftDynamics_LinkedInMatchedAudiences
-    - MicrosoftDynamics_MktLeadGenLink
-    - MicrosoftDynamics_MktConsentManagement
-    - MicrosoftDynamics_MktQuotaInfo
-    - MicrosoftDynamics_MktPageTemplates (if present)
-    - MicrosoftDynamics_MktEvtMgmtLink
-    - MicrosoftDynamics_MktLeadManagement
-    - MicrosoftDynamics_Marketing
-    - MicrosoftDynamics_EventManagement
-    - MicrosoftDynamics_ReusableBlocks
-    - MicrosoftDynamics_DigitalAssets
-    - MicrosoftDynamics_Calendar
-    - MicrosoftDynamics_MktVocEmailAnchorSolution
-    - SMBMarketingDemoData (if present)
+    - PackageUpgradeSolution_managed
+    - PersonalizedPagesSolutionManagedPatch
+    - PersonalizedPagesSolutionManaged
+    - SocialPostingManagedPatch
+    - SocialPostingManaged
+    - MarketableContactsManagedPatch
+    - MarketableContactsManaged
+    - VocIntegrationSolutionManagedPatch
+    - VocIntegrationSolutionManaged
+    - EventMgmtVOCLinkSolution_managedPatch
+    - EventMgmtVOCLinkSolution_managed
+    - MktVoCLinkSolutionManagedPatch
+    - MktVoCLinkSolutionManaged
+    - MktPortalsLinkManagedPatch
+    - MktPortalsLinkManaged
+    - EventPortalLinkSolution_managedPatch
+    - EventPortalLinkSolution_managed
+    - GwennolSegmentBoosterSolutionManaged
+    - GwennolFeatureConfigurationSolutionManagedPatch
+    - GwennolFeatureConfigurationSolutionManaged
+    - GwennolSpamScoreSolutionManagedPatch
+    - GwennolSpamScoreSolutionManaged
+    - GwennolOESTPredictionSolutionManagedPatch
+    - GwennolOESTPredictionSolutionManaged
+    - GwennolOptimalEmailSendingTimeSolutionManagedPatch
+    - GwennolOptimalEmailSendingTimeSolutionManaged
+    - SMBMarketingIntegrationSolutionManagedPatch
+    - SMBMarketingIntegrationSolutionManaged
+    - SocialEngagementSolutionManagedPatch
+    - SocialEngagementSolutionManaged
+    - LinkedInMatchedAudiences_managedPatch
+    - LinkedInMatchedAudiences_managed
+    - LinkedInLGLink_managedPatch
+    - LinkedInLGLink_managed
+    - GdprConsentManagementManagedPatch
+    - GdprConsentManagementManaged
+    - QuotaInfoSolutionManagedPatch
+    - QuotaInfoSolutionManaged
+    - MarketingPageTemplatesSolutionManagedPatch
+    - MarketingPageTemplatesSolutionManaged
+    - MktEvtMgmtLinkSolutionManagedPatch
+    - MktEvtMgmtLinkSolutionManaged
+    - LinkedInLeadGen_managedPatch
+    - LinkedInLeadGen_managed
+    - LeadManagementSolutionManagedPatch
+    - LeadManagementSolutionManaged
+    - EmailTemplatesSolutionManagedPatch
+    - EmailTemplatesSolutionManaged
+    - DynamicsMarketingSolutionManagedPatch
+    - DynamicsMarketingSolutionManaged
+    - DynamicsEventManagementSolution_managedPatch
+    - DynamicsEventManagementSolution_managed
+    - ContentBlocksSolutionManagedPatch
+    - ContentBlocksSolutionManaged
+    - DigitalAssetsSolutionManagedPatch
+    - DigitalAssetsSolutionManaged
+    - CalendarSolutionManagedPatch
+    - CalendarSolutionManaged
+    - MktCompleteAnchorSolutionManaged
 
 1. If you see any other "anchor" solutions that start with "MicrosoftDynamics_", then you can delete these too. They are probably left over from an earlier version that you upgraded.
 
