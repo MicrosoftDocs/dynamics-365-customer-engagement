@@ -25,7 +25,6 @@ A market segment is the collection of contacts that you target in a marketing ca
 The Segmentation API enables programmatic interaction with segment records. The Segmentation API leverages the standard Dynamics 365 API for manipulating entities or messages. More information: [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api).
 
 > [!IMPORTANT]
-
 > - The Segmentation API is a preview feature.
 > - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)] 
 > - [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]
