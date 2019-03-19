@@ -4,7 +4,7 @@ description: "Learn how to access a web resource, for example a web service, fro
 ms.custom: ""
 ms.date: 2/6/2019
 ms.reviewer: "pehecke"
-ms.service: "crm-online"
+ms.service: crm-online
 ms.topic: "article"
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)

@@ -32,22 +32,9 @@ The conversation form displays information about a conversation request.
 
 | Section         | Field            |
 |-----------------|-------------------|
-| Details         | Title             |
-|                 | Customer          |
-|                 | Live work stream  |
-|                 | Active agent      |
-|                 | Activity status   |
-|                 | Status reason     |
-|                 | Status updated on |
-|                 | Regarding         |
-|                 | Queue             |
-| History         | Create on         |
-|                 | Closed on         |
-|                 | Modified on       |
-|                 | Transfer count    |
-|                 | Escalation count  |
-| Session details | Subject           |
-|                 | Date created      |
+| Details         | <ul> <li>Title</li> <li>Customer</li> <li>Live work stream</li> <li>Active agent</li>  <li>Activity status</li> <li>Status reason</li> <li>Status updated on</li> <li>Regarding</li> <li>Queue</li> </ul> |
+| History         | <ul> <li>Created on</li> <li>Closed on</li> <li>Modified on</li> <li>Transfer count</li> <li>Escalation count</li> </ul> |
+| Session details | <ul> <li>Subject</li> <li>Date created</li> </ul> |
 
 > [!div class=mx-imgBorder]
 > ![omni-channel conversation form](../../media/oc-crm-conversation-form.png "omni-channel conversation form")  
@@ -58,15 +45,9 @@ The omni-channel session displays information about a conversation request.
 
 | Section | Field           |
 |---------|-----------------|
-| Header  | Priority        |
-|         | Due Date        |
-|         | Activity Status |
-| General | Subject         |
-|         | Owner           |
-|         | Regarding       |
-|         | Name            |
-|         | Created on      |
-| Notes   | Notes           |
+| Header  | <ul> <li>Priority</li> <li>Due Date</li> <li>Activity Status</li> </ul> |
+| General | <ul> <li>Subject</li> <li>Owner</li> <li>Regarding</li> <li>Name</li> <li>Created on</li> </ul>|
+| Notes   | <ul> <li>Notes</li> </ul> |
 
 > [!div class=mx-imgBorder]
 > ![omni-channel session form](../../media/oc-crm-omni-channel-session-form.png "Omni-channel session form") 
