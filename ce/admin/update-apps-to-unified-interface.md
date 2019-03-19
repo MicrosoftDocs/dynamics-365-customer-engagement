@@ -53,3 +53,6 @@ The following are recommended ways to update to Unified Interface based on how t
 ## Apps obtained from an ISV or any other third party publisher
 
 - Contact the ISV (Independent Software Vendor) or the third party app publisher and get a new version that updates the apps to Unified Interface.
+
+<a href="https://review.docs.microsoft.com/dynamics365/customer-engagement/admin/system-settings-dialog-box-general-tab#SetOptions">Click me!</a>
+
