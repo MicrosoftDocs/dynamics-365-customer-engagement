@@ -207,12 +207,12 @@ DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 
 Members can be added to or removed from segments. Because these operations go beyond a simple add or remove, they are referred to as include/exclude operations.
 
-Include/Exclude operations can be performed through the Segmentation API by posting messages of the following types:
+Include/exclude operations can be performed through the Segmentation API by posting messages of the following types:
 
-- `msdyncrm_IncludeMemberInSegment`
-- `msdyncrm_IncludeMembersInSegment`
-- `msdyncrm_ExcludeMemberFromSegment`
-- `msdyncrm_ExcludeMembersFromSegment`
+- **msdyncrm_IncludeMemberInSegment**
+- **msdyncrm_IncludeMembersInSegment**
+- **msdyncrm_ExcludeMemberFromSegment**
+- **msdyncrm_ExcludeMembersFromSegment**
 
 Including a record makes it a member of the segment whether it satisfies the segment query (**msdyncrm_segmentquery**) or not. Including a record that is already a member will ensure that it is not removed when it doesn't match the segment query.
 
