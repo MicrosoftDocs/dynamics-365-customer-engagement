@@ -27,8 +27,6 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
-<!--from editor: In line 42, it says "appsorg". Should it just be org?-->
-
 
 ## Delete user data
 Your privacy is important to us. You can remove Dynamics 365 for Customer Engagement apps personal data from Microsoft Teams.
