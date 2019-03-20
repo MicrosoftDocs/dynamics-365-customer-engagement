@@ -41,7 +41,7 @@ Each resource can have different attributes that distinguish it from each other 
 - Location (ex: Location Agnostic)
 - Resource Type (ex: User)
 
-In this article let's explore creating a bookable resource and adding details to distinguish it from other resources. In addition, let's explore the most common details for setting up field technicians for Field Service organizations.
+In this article let's explore creating a bookable resource and adding details to distinguish it from other resources. In addition, let's explore the most common details for setting up field technician resources for Field Service organizations.
 
 ## Create a bookable resource  
   
@@ -57,11 +57,14 @@ In this article let's explore creating a bookable resource and adding details to
 > ![Screenshot showing where to find the Active Bookable Resources grid](media/qs-1-img28.png)
 
     
-3.  Choose a **Resource Type**:  
+3.  Select a **Resource Type**  
   
-    - **Account** or **Contact**: Resources that aren't directly a part of your organization, but that you subcontract to.  
+  Resource type is a classification of who or what the resource is and how he or she or it relates to your organization. 
+
+   - **User**: Choose this option if the resource is a person and a member of your organization. Also must be chosen if the resource is a field technician who needs access to the Field Service Mobile app.
+   - **Account** or **Contact**: Choose this option if the resource that aren't directly a part of your organization, but need to be scheduled. A common example is subcontractors. In addition, this allows the scheduling framework to more easily apply to an organization's existing Dynamics system who may be using Accounts and Contacts to manage 
   
-    - **User**: The resource is a member of your organization.  
+    
   
     - **Company Asset**: Equipment.  
   
@@ -69,20 +72,24 @@ In this article let's explore creating a bookable resource and adding details to
   
     - **Crew**: Any collection of resources, for example, two or more workers, or a group.  
   
-2.  Choose a **Time Zone**. 
-3.  Set **Enabled for Field Service Mobile** to **Yes** if the resource will need to use the Field Service Mobile app on his or her phone or tablet.
-4. Choose the **Start Location** and the **End Location** to specify which location the resource will be at when starting and ending work.  
+  After selecting a resource type, a lookup field will appear to choose a related record when applicable. As an example, if User is selected, you will then need to select the related User record
+
+
+4.  Name: Enter a name, this can be different 
+5.  Choose a **Time Zone**. 
+6.  Set **Enabled for Field Service Mobile** to **Yes** if the resource will need to use the Field Service Mobile app on his or her phone or tablet.
+7. Choose the **Start Location** and the **End Location** to specify which location the resource will be at when starting and ending work.  
   
-5.  Choose if the resource should be displayed on the schedule board and schedule assistant.  
+8.  Choose if the resource should be displayed on the schedule board and schedule assistant.  
   
-6.  Set **Enable Drip Scheduling** to **Yes** or **No**.  This controls how many schedules will appear on the mobile app. If drip scheduling is disabled, all schedules will appear, based on your mobile settings.  
-7.  Type an **Hour Rate**.  This is the hourly pay that the resource should be paid by the company. 
+9.  Set **Enable Drip Scheduling** to **Yes** or **No**.  This controls how many schedules will appear on the mobile app. If drip scheduling is disabled, all schedules will appear, based on your mobile settings.  
+10. Type an **Hour Rate**.  This is the hourly pay that the resource should be paid by the company. 
   
-8.  Choose if time off needs to be approved or not.  
+11. Choose if time off needs to be approved or not.  
   
-9.  Select **Save**.  
+12. Select **Save**.  
   
-10. In the **Characteristics** section, select **+Add Bookable Resource Characteristics record** to add characteristics. Learn more about this on the [setting up characteristics page](../field-service/set-up-characteristics.md).
+13. In the **Characteristics** section, select **+Add Bookable Resource Characteristics record** to add characteristics. Learn more about this on the [setting up characteristics page](../field-service/set-up-characteristics.md).
 
 For example, the resource in the following screenshot is a field techncian at your organization because the **Resource Type** is set to **User** and **Enabled for Field Service Mobile** is set to **Yes**.
 
@@ -90,7 +97,7 @@ For example, the resource in the following screenshot is a field techncian at yo
 > ![Screenshot showing where to find the fields on the Bookable Resource form](media/qs-1-img29.png)
 
   
-<a name="BKMK_AddWorkHours"></a>   
+## Setting up field technician resources for field service organizations  
 ## Add work hours  
   
 1.  Once the resource has been created:
@@ -105,7 +112,7 @@ For example, the resource in the following screenshot is a field techncian at yo
   
     - **Time Off**: Set the dates and times the resources can't work.  
   
-<a name="BKMK_AddCharacteristics"></a>   
+  
 ## Add characteristics  
   
 1. From the resource name submenu,  click **Bookable Resource Characteristics**.  
@@ -114,7 +121,9 @@ For example, the resource in the following screenshot is a field techncian at yo
   
 3. Use the tooltips to help fill in information, and then click **Save**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
   
-<a name="BKMK_AddResourceTerritories"></a>   
+
+## Add categories  
+
 ## Add resource territories  
   
 1. From the resource name submenu, click **Resource Territories**.  
@@ -122,7 +131,13 @@ For example, the resource in the following screenshot is a field techncian at yo
 2. Click **Add New Resource Territory**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up territories](../field-service/set-up-territories.md)  
   
 3. Use the tooltips to help fill in your information, and then click **Save & Close**.  
-  
+
+
+## Additional notes
+
+- Only one resource record can be associated to a user record, however multiple resources can be associated to a single account or contact record. 
+
+
 ### See also   
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
