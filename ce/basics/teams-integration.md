@@ -34,7 +34,7 @@ Check out the following video to get a quick overview of how Dynamics 365 for Cu
 
 Dynamics 365 for Teams provides the following: 
 
-- **Collaboration hub**: Access Dynamics records by adding a Dynamics 365 tab into the Teams channel. Collaborate at scale not only on a single Dynamics record (like a sales opportunity) but also on multiple records with a Dynamics 365 view.  
+- **Collaboration hub**: Access records by adding a Dynamics 365 tab into the Teams channel. Collaborate at scale not only on a single  record (like a sales opportunity) but also on multiple records with a Dynamics 365 view.  
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 for Customer Engagement apps user.
 - **File integration**: Seamless document collaboration between Dynamics 365 and Microsoft Teams.
 - **Teams mobile app**: Search records from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
