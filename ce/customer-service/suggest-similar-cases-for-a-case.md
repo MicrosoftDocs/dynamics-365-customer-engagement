@@ -1,6 +1,6 @@
 ---
 title: Suggest similar cases for a case with Dynamics 365 for Customer Engagement| MicrosoftDocs
-ms.date: 12/21/2018
+ms.date: 03/08/2019
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -40,7 +40,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)
 
 > [!IMPORTANT]
-> It is recommended to enable Relevance search for your org to see the most accurate suggestions for similar cases. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Relevance Search to improve search results and performance](../admin/configure-relevance-search-organization.md)
+> It is recommended to enable Relevance search for your org to see the most accurate suggestions for similar cases. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand how relevance search impacts search results](#understand-how-relevance-search-impacts-search-results)
 
 
 1.  Make sure you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
@@ -96,6 +96,17 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
 Similarly, add more mappings to view a comprehensive search of related records.
 
+### Understand how relevance search impacts search results
+
+See the below table to understand how search results are impacted when Relevance search is enabled or disabled.
+
+
+|Relevance search disabled  |Relevance search enabled  |
+|---------|---------|
+|Considering similarity rules, search is performed across primary field of an entity.  |   Considering attributes configured in similarity rules,  search is performed on entity attributes configured for relevance search.   |
+|For example,  if similarity rules are configured on Title and Category, comma separated attribute text is passed to look for a match in the Case title of case entity.     |  For example,    if similarity rules are configured on Title and Category, and Relevance search is enabled on Description, the search is performed for Title and Category in the Description field of case entity.     |
+|  |         |
+
 ### Enable a field for exact matching of similar cases  
  Follow the below steps to enable a field for exact match of similar cases.
 
@@ -110,7 +121,8 @@ Similarly, add more mappings to view a comprehensive search of related records.
 5.  Select **Save**, and then select **Save and Close** to save the setting. Publish this customization to enable exact matching for the field.
 
     ![Setting for exact match](media/exact-match.png)
-  
+
+
 ## See similar case suggestions in the Customer Service Hub
 
 You can view the similar case suggestions in the Related section of the Customer Service Hub. 
