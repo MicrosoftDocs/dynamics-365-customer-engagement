@@ -32,11 +32,11 @@ The API leverages the standard Dynamics 365 API for manipulating entities or mes
 When you create a customer journey, the properties are stored in `msdyncrm_customerjourney` entity. You can browse the entity metadata information using `@odata.context`in `GET` response.
 
 > [!NOTE]
-> Before you perform operations, you should install Dynamics 365 for Marketing app. 
+> Before you perform operations, you should install [Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup). 
 
-This topic demonstrates how to perform operation on the `msdyncrm_customerjourney` entity. `msdyncrm_name` field is the only required field to create a simple customer journey. Following are the list of fields that are used in this topic to create a customer journey.
+This topic demonstrates how to perform operations on the `msdyncrm_customerjourney` entity. `msdyncrm_name` field is the only required field to create a simple customer journey. Following are the list of fields that are used in this topic to create a customer journey.
 
-|Display Name|Schema Name|Description/Value|
+|Display name|Schema name|Description or Value|
 |----------|--------------|------|
 |Name|msdyncrm_name|Name of the Customer Journey|
 |Status Reason|statuscode|Current status of the customer journey. Following are the available statuscode: <br />- Draft `192350000`<br />- Live `192350001`<br />- Stopped `192350002`<br />- Live, Editable `192350003`<br />- Error `192350005`<br />- Going Live `192350006`<br />- Stopping `192350007`<br />
@@ -44,25 +44,25 @@ This topic demonstrates how to perform operation on the `msdyncrm_customerjourne
 |Recurrence Interval (Days)|msdyncrm_recurrenceintervaldays|The duration of the iteration (in days). Non negative integer|
 |Minimum Consent|msgdpr_requiredconsent|- (1) Consent `587030001` <br /> - (2) Transactional `587030002`<br /> - (3) Subscriptions `587030003`<br /> - (4) Marketing `587030004` <br/> - (5) Profiling `587030005`|
 |Recurrence Count|msdyncrm_recurrencecount|The number of iterations. Non negative integer|
-|Workflow Definition|msdyncrm_workflowdefinition|The customer journey design definition.|
-|Customer Journey Designer State|msdyncrm_customerjourneydesignerstate|This is a hidden field, used by the Customer Journey Designer to persist its internal state. The field should be copied if you are creating a copy of `msdyncrm_workflowdefinition` field, from another Customer Journey or Customer Journey Template record.|
+|Workflow Definition|msdyncrm_workflowdefinition|The customer journey design definition. More information [Customer Journey workflow definition](customer-journey-workflow-definition.md)|
+|Customer Journey Designer State|msdyncrm_customerjourneydesignerstate|This is a hidden field, used by the customer journey designer to persist its internal state. The field should be copied if you are creating a copy of `msdyncrm_workflowdefinition` field, from another customer journey or customer journey template record.|
 |Time Zone|msdyncrm_customerjourneytimezone|Effective time zone for the customer journey|
 |Content Settings|msdyncrm_contentsettingsId|The ID of associated [Content Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/dynamic-email-content). Use it to reference a record from `msdyncrm_contentsettingss` record set.|
 |End Date and Time|msdyncrm_enddatetime|Date time value in `ISO 8601 UTC` format.|
-|Start Date and Time|msdyncrm_startdatetime|Date time value in ISO 8601 UTC format.|
+|Start Date and Time|msdyncrm_startdatetime|Date time value in `ISO 8601` UTC format.|
 |Is Recurring|msdyncrm_isrecurring|A boolean value.|
 |Entity Target|msdyncrm_entitytarget|- Contact `0`<br />- Account `1`|
 |Type|msdyncrm_type|- Automated `192350000`<br />- LinkedIn `192350001`|
 |Status|statecode|Status of the customer journey|
 
 > [!NOTE]
-> The `statuscode` and `statecode` fields defines the state of the customer journey. Changing the values of  can result in `Publishing` or `Stopping` of customer journey workflow. If you wish to `go live`, save the record in `Going Live` state (statuscode = 192350006). To stop a customer journey record, save the Live record in `Stopping` state (statuscode = 192350007).
+> The `statuscode` and `statecode` fields defines the state of the customer journey. Changing the values can result in `Publishing` or `Stopping` of customer journey workflow. If you wish to `go live`, save the record in `Going Live` state (statuscode = 192350006). To stop a customer journey record, save the Live record in `Stopping` state (statuscode = 192350007).
 
 Use the Postman tool to test the operations. More information [Use Postman With Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-perform-operations)
 
 ## CRUD operations
 
-1. **Create request**
+**Create request**
 
 This request creates a customer journey record and set the `statuscode` to `Draft`. This customer journey includes a segment with `ID:24db2671-1529-e911-a9b7-000d3a1e6adc` and `Unique Name: TC407937_DynamicSegment_2KZQ1p`. an email  with `ID: 15bd0ab8-c12a-e911-a9b6-000d3a1e6c14`. The effective Content Settings has record `ID: 1922b1d8-0523-e911-a9ba-000d3a1e689f`. The response header [OData-EntityId](http://docs.oasis-open.org/odata/odata/v4.0/os/part1-protocol/odata-v4.0-os-part1-protocol.html#_Toc372793637) contains the URL to this newly created record (entity instance), which parenthetically includes the unique ID for this record.
 
@@ -89,7 +89,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys
 }
 ```
 
-2. **Retrieve request**
+**Retrieve request**
 
 The retrieve request retrieves the list of `Live` customer journeys.
 
@@ -97,7 +97,7 @@ The retrieve request retrieves the list of `Live` customer journeys.
 GET {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys?$filter=statuscode eq 192350001
 ```
 
-3. **Update request**
+**Update request**
 
 In update request, you will update the `statuscode` to `Going Live` which effectively publishes it.
 
@@ -108,7 +108,7 @@ PATCH {{OrgUrl}}api/data/v9.0/msdyncrm_customerjourneys(8aee9d91-8c2b-e911-a9b7-
 }
 ```
 
-4. **Delete request**
+**Delete request**
 
 In delete request, you will delete the customer journey that you have created earlier.
 
@@ -118,9 +118,9 @@ DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys(b6faa2b7-b92b-e911-818
 
 ## Check for Errors
 
-The **Check for Errors** feature checks the current record for missing content and technical errors and then display the validation results, including error messages that should help user solve any issue that wwere found.
+The **Check for Errors** feature checks the current record for missing content and technical errors and then display the validation results, including error messages that should help user solve any issue that where found.
 
-The request body is a `JSON` object which contains a number of data elements with values corresponding to the `msdyncrm_customerjourney entity` properties. The reference fields (for example, Content Settings ID) doesn't use the `@odata.bind` with record set reference, but uses the ID of referenced record. The table below explains the mapping.
+The request body is a `JSON` object which contains number of data elements with values corresponding to the `msdyncrm_customerjourney entity` properties. The reference fields (for example, Content Settings ID) doesn't use the `@odata.bind` with record set reference, but uses the ID of referenced record. The table below explains the mapping.
 
 |Key|Corresponding property msdyncrm_customerjourney entity (logical name)|
 |--------|--------------|
@@ -173,6 +173,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_CustomerJourneyValidate
 
 ## See also
 
-[CRUD operations on Customer Journey using C#]()<br/>
+[CRUD operations on Customer Journey using C#](extend-customer-journey-using-code)<br/>
+[Customer journey workflow definition](customer-journey-workflow-definition.md)
 [Use Customer Journey to create automated campaigns](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/customer-journeys-create-automated-campaigns)<br/>
 [Create Custom Journeys](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/create-simple-customer-journey)
