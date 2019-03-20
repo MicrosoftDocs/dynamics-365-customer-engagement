@@ -1,0 +1,109 @@
+---
+title: "Recover a Chrome Process instance in Unified Service Desk | MicrosoftDocs"
+description: "Learn about recovering a Chrome Process instance in Unified Service Desk"
+ms.custom: 
+  - dyn365-USD, dyn365-admin
+ms.date: 04/03/2019
+ms.reviewer: 
+ms.service: dynamics-365-customerservice
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+applies_to: 
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+ms.assetid: 8FA57973-6D0F-47E1-BC29-7BD837159A21
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
+monikerRange: '>= dynamics-usd-4.1'
+---
+
+# Recover an Chrome Process instance
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Chrome Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+By default, Chrome Process instance recovery is enabled. 
+
+## When Unified Service Desk can help recover Chrome Process instances
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover an Chrome Process instance in the following scenarios:
+
+- When Chrome Process closes abruptly.
+- When you manually end an unresponsive Chrome Process instance from Task Manager.
+- When you manually end the hung Unified Service Desk using a keyboard shortcut.
+
+## Recover an unresponsive Chrome Process instance
+
+When a hosted control that uses an Chrome Process browser control closes abruptly, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays the message **Chrome Process closed abruptly**.
+
+<!-- ![Chrome Process closed abruptly](../../unified-service-desk/media/usd-ie-closed-abruptly-33update.PNG "Chrome Process closed abruptly") -->
+
+To recover the closed instance (which may contain more than one webpage), select **Reload**. After you select **Reload**, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] reloads the webpage to the last known URL. That is, when you open an **Account** Chrome Process webpage and navigate inline to a **Case** Chrome Process webpage. If the **Case** webpage becomes unresponsive, the recovery feature reloads only the **Account** webpage.
+
+If you do not want to recover, select **Cancel**. If you cancel, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application skips recovery of the Chrome Process instance and displays a message, **The webpage stopped responding. If you frequently experience unexpected closing of Chrome Process webpage, contact your system administrator**.
+
+<!-- ![Cancel to skip the recovery of Chrome Process webpage](../../unified-service-desk/media/usd-ie-closed-abruptly-cancel.PNG "Cancel to skip the recovery of Chrome Process webpage") -->
+
+## Terminate and recover unresponsive Chrome Process instances using a keyboard shortcut
+
+When the Chrome Process webpage is unresponsive and causes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to freeze, select the unresponsive tab and use the keyboard shortcut **Ctrl+K** to terminate. 
+
+The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a dialog box: **You have chosen to end the Chrome Process instance of \<name of application\> by Pressing** **CTRL** + **K** **. Do you want to continue?**. 
+
+<!-- ![Keyboard shortcut to terminate and not to recover Chrome Process webpage](../../unified-service-desk/media/usd-ie-terminate-shortcutkey.PNG "Keyboard shortcut to terminate and not to recover Chrome Process webpage") -->
+
+Select **Yes** to terminate the Chrome Process instance. Select **No** to cancel the operation.
+
+After you end the Chrome Process instance, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays a message, **Chrome Process closed abruptly**. Select **Reload** to recover the closed Chrome Process instance. If you don't want to recover, select **Cancel**.
+
+<!--![Chrome Process closed abruptly](../../unified-service-desk/media/usd-ie-closed-abruptly-33update.PNG "Chrome Process closed abruptly")-->
+
+> [!Note]
+> - An agent must wait for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process (usdmp.exe) to detect and terminate the unresponsive Chrome Process instance.</br>
+> - The agent must use the keyboard shortcut as last option when the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process fails to detect the unresponsive Chrome Process instance.</br>
+> - Using the keyboard shortcut may terminate any other Chrome Process webpage, causing you to lose any unsaved work.
+
+By default, the keyboard shortcut for terminating an unresponsive Chrome Process instance is **CTRL** + **K**.
+
+To update an additional the keyboard shortcut, you must add the UII option and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields)
+
+| UII option  | Example character |
+|-------------|-------------------|
+| On-DemandChromeProcessTerminationShortcut | `B` |
+
+Now as per the above example, the keyboard shortcut for terminating an unresponsive Chrome Process instance is **CTRL** + **B**.
+
+> [!Important]
+> You must take few precautions before providing the value for the character:
+>
+> - Ensure that character you update for the UII option doesn't conflict with your existing keyboard shortcuts.
+>
+> - If you leave the value blank, the default keyboard shortcuts will be disabled.
+
+### Change keyboard shortcut
+
+To change the keyboard shortcut:
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+
+3. Choose **Options**.  
+
+4. Select **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **On-DemandChromeProcessTerminationShortcut** for the **Name** field.
+
+7. Type the character value for the **Value** field. <br>See the list of [value keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+
+8. Select **Save**.

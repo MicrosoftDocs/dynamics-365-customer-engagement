@@ -301,25 +301,6 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 6. Select **Save**.
 
-<!--
-## Render sharper text when using Chrome Process
-
-While using Chrome Process to host web applications in Unified Service Desk if text appears slightly blurred, then add the **ChromeSharpRendering** UII option and set the value as **True**. This option renders the text clearly when using Chrome Process to host web applications in Unified Service Desk. To enable this option, you must add the **ChromeSharpRendering** UII option. To learn more, see [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md). 
-
-### Add the ChromeSharpRendering UII option
-
-1. Sign in to Dynamics 365 for Customer Engagement apps.
-
-2. Go to **Settings** > **Unified Service Desk** > *Options*.
-
-3. On the Active UII Options page, select **+ New**. 
-
-4. Choose **Others** for the **Global Option** field.
-
-5. Type **ChromeSharpRendering** for the **Name** field and type True for the **Value** field. 
-
-6. Select **Save**. -->
-
 ## Enable close confirmation dialog when using Chrome Process
 
 While using Chrome Process to host web applications in Unified Service Desk if you accidentally close any application, even though the application has a close confirmation dialog, the dialog not show for your confirmation and the application closes. To avoid closing the application accidentally, **OnBeforeCloseHandler** UII option is introduced. 
@@ -347,7 +328,7 @@ To enable close confirmation dialog, you must add the **OnBeforeCloseHandler** U
 
 ## Set zoom in, zoom out, and zoom reset keyboard shortcuts
 
-Be default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as follows.
+By default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as follows.
 
 | Function | Keyboard shortcut | Example |
 |----------|------------|-----------|

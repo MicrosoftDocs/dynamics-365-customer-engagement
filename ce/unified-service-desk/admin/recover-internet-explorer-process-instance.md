@@ -38,7 +38,7 @@ By default, Internet Explorer process instance recovery is enabled. To disable t
 
 3. Choose **Options**.  
 
-4. click **New** on the **Active UII Options** page.
+4. Select **New** on the **Active UII Options** page.
 
 5. Choose **Others** for the **Global Option** field.
 
@@ -46,7 +46,7 @@ By default, Internet Explorer process instance recovery is enabled. To disable t
 
 7. Type **false** for the **Value** field.
 
-8. Click **Save**.
+8. Select **Save**.
 
 <a name="BKMK_When_Unified_Service_Desk_can_help_recover_the_Internet_Explorer_process_instances"></a>
 ## When [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help recover Internet Explorer process instances
@@ -112,7 +112,7 @@ To change the **IEWebPageInactivityTimeout** timeout value:
 
 3. Choose **Options**.  
 
-4. click **New** on the **Active UII Options** page.
+4. Select **New** on the **Active UII Options** page.
 
 5. Choose **Others** for the **Global Option** field.
 
@@ -120,7 +120,7 @@ To change the **IEWebPageInactivityTimeout** timeout value:
 
 7. Type the value in milliseconds for the **Value** field.
 
-8. Click **Save**.
+8. Select **Save**.
 
 <a name="Terminate_recover_unresponsive_Internet_Explorer_process_instance using_keyboard_shortcut"></a>
 ## Terminate and recover unresponsive Internet Explorer process instances using a keyboard shortcut
@@ -152,7 +152,7 @@ To change the keyboard shortcut:
 
 3. Choose **Options**.  
 
-4. click **New** on the **Active UII Options** page.
+4. Select **New** on the **Active UII Options** page.
 
 5. Choose **Others** for the **Global Option** field.
 
@@ -160,7 +160,7 @@ To change the keyboard shortcut:
 
 7. Type the keyboard shortcut in the format _key1+key2+key3_ for the **Value** field.
 
-8. Click **Save**.
+8. Select **Save**.
 
 ![Change On-DemandIETerminationShortcut](../../unified-service-desk/media/crm-usd-options-on-demand-ie-termination-shortcut.PNG "Change On-DemandIETerminationShortcut")
 
