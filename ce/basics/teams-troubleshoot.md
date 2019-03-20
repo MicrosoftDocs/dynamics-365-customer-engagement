@@ -2,7 +2,7 @@
 title: "Troubleshoot Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Teams integration."
-ms.date: 2/11/2019
+ms.date: 03/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -36,7 +36,7 @@ A failed connection means file synchronization is not set up between Microsoft T
 This is the connection error notification bar:
 
 > [!div class="mx-imgBorder"] 
-> ![Connection to Dynamics 365 for Customer Engagement appsfailed](media/teams-error-connection-failed.png "Connection to Dynamics 365 for Customer Engagement apps failed")
+> ![Connection to Dynamics 365 for Customer Engagement apps failed](media/teams-error-connection-failed.png "Connection to Dynamics 365 for Customer Engagement apps failed")
 
 > [!IMPORTANT]
 > When you first create a new team and channel in Microsoft Teams, you might see this error because it takes some time to make the SharePoint file library connection. Wait a few minutes and then refresh your browser to retry the connection.

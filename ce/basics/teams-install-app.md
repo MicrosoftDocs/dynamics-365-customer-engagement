@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
 ms.custom: 
 description: "Install and set up the Dynamics 365 app for Teams."
-ms.date: 2/11/2019
+ms.date: 03/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -123,7 +123,7 @@ Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 for C
 1. Open the Dynamics 365 app.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open the Dynamics 365 for Customer Engagement appsapp](media/teams-pick-app.png "Open the Dynamics 365 for Customer Engagement appsapp")
+   > ![Open the Dynamics 365 for Customer Engagement app](media/teams-pick-app.png "Open the Dynamics 365 for Customer Engagement app")
 
 2. Select a version 9.x org and a Unified Interface app to connect with Dynamics 365 for Customer Engagement apps, and then choose **Save Changes**.
 
@@ -143,7 +143,7 @@ See [Use the personal dashboard](teams-personal-use.md) for information on how y
 You can control whether to display Teams integration in Dynamics 365 for Customer Engagement apps. For [Teams integration in Customer Engagement apps](teams-collaboration.md#teams-integration-in-dynamics-365-for-customer-engagement-apps), the Customer Engagement apps admin should enable the following setting.
 
 
-1. Sign in as a System administrator to Dynamics 365 for Customer Engagement apps.
+1. Sign in as a system administrator to Dynamics 365 for Customer Engagement apps.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
 3. Enable **Microsoft Teams Integration**.
 

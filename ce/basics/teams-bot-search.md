@@ -44,13 +44,17 @@ You'll see some preloaded options. For example, select **Opportunities** to have
 > [!div class="mx-imgBorder"] 
 > ![List of open opportunities](media/teams-bot-list-opportunities.png "List of open opportunities")
 
-Here are more things you can do with the bot feature.
 
 ## Search
-Enter text like "contoso" in the search field to find related records.
+You also can search with the bot feature. Enter text like "contoso" in the search field to find related records.
 
 > [!div class="mx-imgBorder"] 
 > ![Type contoso](media/teams-bot-search-contoso.png "Type contoso")
+
+
+
+<!--from editor: In the following screenshot, Adrian is the name of a Msft employee. Can you remove or blur?-->
+
 
 > [!div class="mx-imgBorder"] 
 > ![Related records returned](media/teams-bot-search-results.png "Related records returned")

@@ -1,8 +1,8 @@
 ---
-title: "Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams| MicrosoftDocs"
+title: "Integrate Dynamics 365 for Customer Engagement apps with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
-description: "Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams."
-ms.date: 03/6/2019
+description: "Integrate Dynamics 365 for Customer Engagement apps with Microsoft Teams."
+ms.date: 03/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -32,11 +32,11 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
 Check out the following video to get a quick overview of how Dynamics 365 for Customer Engagement apps and Teams can work together to make easy collaboration possible: [Dynamics 365 for Customer Engagement app for Microsoft Teams Demo Video](https://go.microsoft.com/fwlink/p/?linkid=2038623).
 
 
-The Dynamics 365 for Teams provides the following: 
+Dynamics 365 for Teams provides the following: 
 
-- **Collaboration hub**: Access Dynamics records by adding Dynamics 365 tab into Teams channel. Collaborate at scale not only on a single Dynamics record (like a sales opportunity) but also on multiple records with a Dynamics 365 view.  
+- **Collaboration hub**: Access your Dynamics 365 Customer Engagement app records by adding a tab for Dynamics 365 in the Teams channel. Use the hub to work on a larger scale and access muliple recrds at a time.
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 for Customer Engagement apps user.
-- **File integration**: Seamless document collaboration between Dynamics 365 and Microsoft Teams.
+- **File integration**: Seamlessly collaborate on documents between Dynamics 365 and Microsoft Teams.
 - **Teams mobile app**: Search records from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
 
 > [!div class="mx-imgBorder"] 
@@ -46,13 +46,13 @@ The Dynamics 365 app for Teams, when installed into a Teams channel, provides a 
 
 ## Privacy notice
 
-While using the Dynamics 365 for Customer Engagement appsfor Sales bot in Microsoft Teams, the user’s text inputs are analyzed for understanding the underlying query/intent. The user’s input such as “Search account Contoso” is routed to one of Microsoft’s Cognitive Service called Language Understanding Intelligent Service (LUIS). Read more about LUIS [here](https://www.luis.ai/). The LUIS service disambiguates or understands the intent of user input (in this case, the intent is to find information) and the target entity (in this case, the intended entity is an account named Contoso). This information is then passed on to Microsoft’s [Azure bot framework](https://azure.microsoft.com/services/bot-service/) which interacts with Dynamics data and retrieves the desired information for the user query.
+While using the Dynamics 365 for Customer Engagement apps for Sales bot in Microsoft Teams, the user’s text inputs are analyzed for understanding the underlying query/intent. The user’s input such as “Search account Contoso” is routed to one of Microsoft’s Cognitive Services called Language Understanding Intelligent Service (LUIS). Read more about LUIS [here](https://www.luis.ai/). The LUIS service disambiguates or understands the intent of user input (in this case, the intent is to find information) and the target entity (in this case, the intended entity is an account named Contoso). This information is then passed on to Microsoft’s [Azure bot framework](https://azure.microsoft.com/services/bot-service/), which interacts with Dynamics data and retrieves the desired information for the user query.
 
-By installing and allowing access to use of the bot, you agree to allow the LUIS service and Azure bot framework to process the intent behind the input – which results in an enhanced conversational user experience. The LUIS service and Azure bot framework  may have varying levels of compliance compared to Dynamics 365 for Customer Engagement appsfor Sales. While the LUIS service has access to only the user queries and is not designed to be connected to the user’s Dynamics data or account, a user of the Dynamics 365 for Sales bot could voluntarily enter a query containing Customer Data, Personal Data or other data and such query content could get sent to the LUIS service and the Azure bot framework. 
+By installing and allowing access to use of the bot, you agree to allow the LUIS service and Azure bot framework to process the intent behind the input – which results in an enhanced conversational user experience. The LUIS service and Azure bot framework  may have varying levels of compliance compared to Dynamics 365 for Customer Engagement apps for Sales. While the LUIS service has access to only the user queries and is not designed to be connected to the user’s Dynamics data or account, a user of the Dynamics 365 for Sales bot could voluntarily enter a query containing Customer Data, Personal Data or other data and such query content could get sent to the LUIS service and the Azure bot framework. 
 
-The content of user’s queries and messages is retained in LUIS system for a maximum of 30 days, encrypted at rest and is not used for training or service improvement. Read more about Cognitive Services [here](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
+The content of user’s queries and messages is retained in the LUIS system for a maximum of 30 days, encrypted at rest and is not used for training or service improvement. Read more about Cognitive Services [here](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
-To manage admin settings for apps in Teams, go to the Office 365 admin center and open **Settings** > **Services & add-ins**, then choose Microsoft Teams. If you're signed in as an Office 365 admin, you can access these controls [here](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns), including the ability to uninstall.
+To manage admin settings for apps in Teams, go to the Office 365 admin center and open **Settings** > **Services & add-ins**, and then choose Microsoft Teams. If you're signed in as an Office 365 admin, you can access these controls [here](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns), including the ability to uninstall.
 
 ### See also
  [Download and install Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)<br/>
