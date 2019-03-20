@@ -136,13 +136,11 @@ When there is more than one Microsoft Teams channel connected to a Dynamics 365 
 
 Currently, the following record types support using **Collaborate**. The **Collaborate** button will only appear for record types listed below.
 
-<!--from editor: The list below is almost alphabetical, except for Note and Article. Should those be moved to make it fully alphabetical?-->
-
 
 -	Account
 -	Agreement
--	Note
 -	Appointment
+-	Article
 - Business Unit
 -	Campaign
 -	Case
@@ -155,9 +153,9 @@ Currently, the following record types support using **Collaborate**. The **Colla
 -	Inventory Adjustment
 -	Inventory Transfer
 -	Invoice
--	Article
 -	Knowledge Article
 -	Lead
+-	Note
 -	Opportunity
 -	Opportunity Line
 -	Order
