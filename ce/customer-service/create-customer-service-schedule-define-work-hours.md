@@ -46,7 +46,7 @@ To define when your service or support team is available for providing support t
 2.  In the Customer Service Hub sitemap, go to **Service Management** and select **Service Terms** > **Customer Service Schedule**.
 
     > [!NOTE]
-    > In the Customer Service app, go to [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Customer Service Schedule**.
+    > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Customer Service Schedule**.
   
 4. To create a new customer service schedule, select **New**.  
   
