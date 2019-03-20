@@ -79,7 +79,7 @@ The following section provides information about connections between Dynamics 36
 
 ### Two connection states
 
-There are two connection states possible when connecting Dynamics 365 for Customer Engagement apps and Microsoft Teams: successful and failed. 
+Two connection states are possible when connecting Dynamics 365 for Customer Engagement apps and Microsoft Teams: successful and failed. 
 
 The successful connection state indicates that the connection was successfully saved in Dynamics 365 for Customer Engagement apps so that the link to the connected Microsoft Teams channel appears on the Dynamics 365 for Customer Engagement apps page and the files used on this channel also appear on the **Documents** tab in Dynamics 365 for Customer Engagement apps. 
 
@@ -100,7 +100,7 @@ It's easy to use Teams to open a record in Dynamics 365 for Customer Engagement 
 > ![Open a record in Dynamics 365 for Customer Engagement apps](media/teams-open-record-d365.png "Open a record in Dynamics 365 for Customer Engagement apps")
 
 ### Have a conversation
-You can chat with your team members side-by-side with the Dynamics 365 record page. From a record or view pinned in a Teams channel, select the **Show tab converation** button to open the conversation tab.
+You can chat with your team members side-by-side with the Dynamics 365 record page. From a record or view pinned in a Teams channel, select the **Show tab conversation** button to open the conversation tab.
 
 > [!div class="mx-imgBorder"] 
 > ![Start a conversation](media/teams-start-conversation.png "Start a conversation")
@@ -112,7 +112,7 @@ In Dynamics 365 for Customer Engagement apps, you can see the connected Microsof
 In Dynamics 365 for Customer Engagement apps records, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Teams.
 
 > [!NOTE]
->  The option to **Collaborate** is only available for pinned records and is not available for pinned views.
+> The option to **Collaborate** is only available for pinned records and is not available for pinned views.
 
 > [!div class="mx-imgBorder"] 
 > ![From Dynamics 365 for Customer Engagement apps, open a conversation in Teams](media/teams-select-collaborate.png "From Dynamics 365 for Customer Engagement apps, open a conversation in Teams")
@@ -135,6 +135,9 @@ When there is more than one Microsoft Teams channel connected to a Dynamics 365 
 ### Record types supporting Collaborate    
 
 Currently, the following record types support using **Collaborate**. The **Collaborate** button will only appear for record types listed below.
+
+<!--from editor: The list below is almost alphabetical, except for Note and Article. Should those be moved to make it fully alphabetical?-->
+
 
 -	Account
 -	Agreement
