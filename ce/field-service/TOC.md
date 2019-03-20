@@ -45,6 +45,7 @@
 ## [Scheduling personas](scheduling-roles-personas.md)
 ## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
 ## [Configure the schedule board](configure-schedule-board.md)
+## [Sharing schedule board tabs](share-a-schedule-board-tab.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
