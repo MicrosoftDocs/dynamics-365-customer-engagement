@@ -17,14 +17,7 @@ search.app:
 ---
 # Basic Operations on Customer Journey using API
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 As you engage potential customers, they start by discovering your product, evaluate whether it meets their needs, look for a good offer, and finally make a purchase. We call this process the **Customer Journey**. Use customer journeys to create a model that helps you guide the members of a selected marketing segment through this process by using automated messaging, activity generation, interactive decision points, and more. More information [Create Customer Journey](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/customer-journeys-create-automated-campaigns)
-
-> [!IMPORTANT]
-> - Customer Journey API is a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)] 
-> - [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]
 
 The Customer Journey API enables programmatic interaction with customer journey records including publishing and validation.
 The API leverages the standard Dynamics 365 API for manipulating entities or messages. More information [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)
@@ -49,22 +42,14 @@ This topic demonstrates how to perform operations on the `msdyncrm_customerjourn
 |Time Zone|msdyncrm_customerjourneytimezone|Effective time zone for the customer journey|
 |Content Settings|msdyncrm_contentsettingsId|The ID of associated [Content Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/dynamic-email-content). Use it to reference a record from `msdyncrm_contentsettingss` record set.|
 |End Date and Time|msdyncrm_enddatetime|Date time value in `ISO 8601 UTC` format.|
-<<<<<<< HEAD
 |Start Date and Time|msdyncrm_startdatetime|Date time value in `ISO 8601` UTC format.|
-=======
-|Start Date and Time|msdyncrm_startdatetime|Date time value in `ISO 8601 UTC` format.|
->>>>>>> 09dd6b73d8a52006c717d6c216cacab39a020c93
 |Is Recurring|msdyncrm_isrecurring|A boolean value.|
 |Entity Target|msdyncrm_entitytarget|- Contact `0`<br />- Account `1`|
 |Type|msdyncrm_type|- Automated `192350000`<br />- LinkedIn `192350001`|
 |Status|statecode|Status of the customer journey|
 
 > [!NOTE]
-<<<<<<< HEAD
-> The `statuscode` and `statecode` fields defines the state of the customer journey. Changing the values can result in `Publishing` or `Stopping` of customer journey workflow. If you wish to `go live`, save the record in `Going Live` state (statuscode = 192350006). To stop a customer journey record, save the Live record in `Stopping` state (statuscode = 192350007).
-=======
 > The `statuscode` and `statecode` fields define the state of the customer journey. Changing their values can result in `Publishing` or `Stopping` of customer journey workflow. If you wish to `go live`, save the record in `Going Live` state (statuscode = 192350006). To stop a customer journey record, save the Live record in `Stopping` state (statuscode = 192350007).
->>>>>>> 09dd6b73d8a52006c717d6c216cacab39a020c93
 
 Use the Postman tool to test the operations. More information [Use Postman With Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-perform-operations)
 
@@ -96,6 +81,8 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys
     "ownerid@odata.bind": "/systemusers(d0e20c01-d6c6-480f-aab5-0fa6749565a5)"
 }
 ```
+> [!IMPORTANT]
+> You can create a customer journey without defining the `msdyncrm_workflowdefinition`. To learn more about how to define a workflow definition see [Customer journey worjflow definition](customer-journey-workflow-definition.md)
 
 **Retrieve request**
 
@@ -107,7 +94,7 @@ GET {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys?$filter=statuscode eq 192
 
 **Update request**
 
-In following update request, you will update the `statuscode` to `Going Live` which effectively publishes it.
+With the update request, you will update the `statuscode` to `Going Live` which effectively publishes it.
 
 ```HTTP
 PATCH {{OrgUrl}}api/data/v9.0/msdyncrm_customerjourneys(8aee9d91-8c2b-e911-a9b7-000d3a1e6adc)
@@ -118,7 +105,7 @@ PATCH {{OrgUrl}}api/data/v9.0/msdyncrm_customerjourneys(8aee9d91-8c2b-e911-a9b7-
 
 **Delete request**
 
-In delete request, you will delete the customer journey that you have created earlier.
+With the delete request, you will delete the customer journey that you have created earlier.
 
 ```HTTP
 DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys(b6faa2b7-b92b-e911-8185-000d3af9d16a)
@@ -126,15 +113,9 @@ DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys(b6faa2b7-b92b-e911-818
 
 ## Check for Errors
 
-<<<<<<< HEAD
-The **Check for Errors** feature checks the current record for missing content and technical errors and then display the validation results, including error messages that should help user solve any issue that where found.
-
-The request body is a `JSON` object which contains number of data elements with values corresponding to the `msdyncrm_customerjourney entity` properties. The reference fields (for example, Content Settings ID) doesn't use the `@odata.bind` with record set reference, but uses the ID of referenced record. The table below explains the mapping.
-=======
 The **Check for Errors** feature checks the current record for missing content and technical errors and then displays the validation results, including error messages that should help user solve any issue that were found.
 
 The request body is a `JSON` object which contains a number of data elements with values corresponding to the `msdyncrm_customerjourney`  entity properties. The reference fields (for example, Content Settings ID) doesn't use the `@odata.bind` with record set reference, but uses the ID of referenced record. The table below explains the mapping.
->>>>>>> 09dd6b73d8a52006c717d6c216cacab39a020c93
 
 |Key|Corresponding property msdyncrm_customerjourney entity (logical name)|
 |--------|--------------|
@@ -187,7 +168,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_CustomerJourneyValidate
 
 ## See also
 
-[CRUD operations on Customer Journey using C#](extend-customer-journey-using-code)<br/>
+[CRUD operations on Customer Journey using C#](extend-customer-journeys-using-code)<br/>
 [Customer journey workflow definition](customer-journey-workflow-definition.md)
 [Use Customer Journey to create automated campaigns](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/customer-journeys-create-automated-campaigns)<br/>
 [Create Custom Journeys](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/create-simple-customer-journey)

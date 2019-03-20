@@ -48,13 +48,13 @@ Workflow activity object has several important properties:
 
 |Property|Type|Description|
 |------|-------|--------|
-|ActivityId|`String`|The identifier of workflow activity; It must be unique in the scope of workflow definition of current Customer Journey.|
-|ParentActivityId|`String`|The identifier of parent workflow activity (the value of ActivityId of parent activity).Following example demonstrates how to declare parent-child relationship between workflow activity using ActivityId and ParentActivityId|
-|ActivityTypeId|`String`|The type of workflow activity, it has the following values<br />bpf_root – the hidden root of the workflow definition<br />Email – Marketing email message<br />LandingPage – Marketing page<br /> Event - Event<br /> CreateCrmActivity - Activity<br /> InvokeWorkflow – Launch workflow<br /> CreateLead – Create lead<br />Scheduler - Scheduler<br /> Trigger - Trigger<br /> Splitter – Splitter<br />  SplitterBranch – Splitter branch<br />Segment – Segment group<br />Survey - Survey<br /> RecordUpdate – Record updated<br />LinkedInCampaign – LinkedIn campaign<br /> MarketingForm – Marketing form<br />|
+|ActivityId|`String`|The identifier of workflow activity. Must be unique in the scope of workflow definition of current customer journey.|
+|ParentActivityId|`String`|The identifier of parent workflow activity (the value of **ActivityId** of parent activity). Following example demonstrates how to declare parent-child relationship between workflow activity using **ActivityId** and **ParentActivityId**|
+|ActivityTypeId|`String`|The type of workflow activity, it has the following values<br />**bpf_root** – the hidden root of the workflow definition<br />**Email** – Marketing email message<br />**LandingPage** – Marketing page<br /> **Event** - Event<br /> **CreateCrmActivity** - Activity<br /> **InvokeWorkflow** – Launch workflow<br /> **CreateLead** – Create lead<br />**Scheduler** - Scheduler<br /> **Trigger** - Trigger<br /> **Splitter** – Splitter<br /> **SplitterBranch** – Splitter branch<br />**Segment** – Segment group<br />**Survey** - Survey<br /> **RecordUpdate** – Record updated<br />**LinkedInCampaign** – LinkedIn campaign<br /> **MarketingForm** – Marketing form<br />|
 |ParentBranchId|`Number`|0-based sequential position of a child tile among its siblings (for example when parallel flows or multiple Splitter branches are used).|
-|ParentRelationshipType|`String`|Defines the relationship type of a workflow activity with its parent. it has following values<br />yesBranch – if the parent workflow activity is a trigger tile, this value denotes the positive branch of the trigger<br />noBranch – if the parent workflow activity is a trigger tile, this value denotes the negative branch of the trigger<br /> default – default value, used when parent is any workflow activity other than the trigger activity. This value is not valid for trigger.<br />Following example demonstrates how the ParentRelationshipType property is used to denote the positive and negative flows for a trigger|
-|EntityTarget||Defines the target of the activity. It has following values<br /> contact – for contact-based customer journey<br />account – for account-based customer journey|
-|Properties|`Object`|Defines the properties of current workflow tile and nested tiles. Contains a single property `Items”` which holds a array of Workflow activity Item objects.|
+|ParentRelationshipType|`String`|Defines the relationship type of a workflow activity with its parent. It has following values<br />**yesBranch** – if the parent workflow activity is a trigger tile, this value denotes the positive branch of the trigger<br />**noBranch** – if the parent workflow activity is a trigger tile, this value denotes the negative branch of the trigger<br /> **default** – default value, used when parent is any workflow activity other than the trigger activity. This value is not valid for trigger.<br />Following example demonstrates how the **ParentRelationshipType** property is used to denote the positive and negative flows for a trigger|
+|EntityTarget||Defines the target of the activity. It has following values<br /> **contact** – for contact-based customer journey<br />**account** – for account-based customer journey|
+|Properties|`Object`|Defines the properties of current workflow tile and nested tiles. Contains a single property **Items** which holds a array of Workflow activity Item objects.|
  
 ### Workflow activity item
 
@@ -62,11 +62,11 @@ Defines the properties of a single item within a workflow activity (title, descr
 
 |Property|Type|Description|
 |------|-------|--------|
-|ActivityTypeId|`String`|The item type. In case of the header item (at index 0 in Items collection of containing workflow activity) this will be equal to ActivityTypeId property of containing workflow activity.Otherwise, following values should be used<br />SegmentItem – Segment item participating in definition of segment group<br />LandingPage – Marketing page nested in Marketing email message<br />Event – Event nested in Marketing email message<br />Survey – Survey nested in Marketing email message<br />MarketingForm – Marketing form nested in Marketing email message|
-|ItemId|`String`|In case of an activity which references a record using lookup (for example Marketing email message), this property holds the record ID of the referenced CRM entity record.|
+|ActivityTypeId|`String`|The item type. In case of the header item (at index 0 in Items collection of containing workflow activity) this will be equal to ActivityTypeId property of containing workflow activity. Otherwise, the following values should be used<br />**SegmentItem** – Segment item participating in definition of segment group<br />**LandingPage** – Marketing page nested in Marketing email message<br />**Event** – Event nested in Marketing email message<br />**Survey** – Survey nested in Marketing email message<br />**MarketingForm** – Marketing form nested in Marketing email message|
+|ItemId|`String`|In case of an activity which refers to a record using lookup (for example Marketing email message), this property holds the record ID of the referenced entity record.|
 |Name|`String`|The value of **Title name** property|
-|IsNameSystemDefined|Boolean|If set to true, changing selection in the Customer Journey Designer, will update the **Title name**property. If set to false, Customer Journey Designer treats the **Title name** as user specified.|
-|ActivityItemId|`Number`|Workflow activity item identifier – unique in the scope of the entire workflow definition of the current Customer Journey.|
+|IsNameSystemDefined|`Boolean`|If set to true, changing the selection in the customer journey designer, will update the **Title name** property. If set to false, customer journey designer treats the **Title name** as user specified.|
+|ActivityItemId|`Number`|Workflow activity item identifier. Must be unique in the scope of the entire workflow definition of the current customer journey.|
 |Description|`String`|The value of **Description** property.|
 |Title|`String`|Unused, set it to **Undefined**.| 
 
@@ -181,5 +181,5 @@ The following shows how the above can be represented in customer journey workflo
 
 ### See also
 
-[Extend customer journey using API](basic-operations-on-customer-journey)
+[Extend customer journey using API](basic-operations-on-customer-journey.md)<br />
 [Extend customer journey using code](extend-customer-journey-using-code.md)
