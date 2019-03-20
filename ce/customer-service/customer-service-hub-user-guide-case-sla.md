@@ -344,7 +344,7 @@ You can set a parent child relationship between cases where you can set one case
 3.  Select **Confirm**.  
 
 > [!NOTE]
-> If you are using a custom code or custom workflow to mark a case resolved or canceled, ensure that you set up appropriate validation to check if the case is already resolved or canceled. In case a custom workflow tries to resolve or cancel a case that is already resolved or canceled, you can see errors while executing the custom workflow.
+> If you are using a custom code or custom workflow to mark a case resolved or canceled, ensure that you set up appropriate validation to check if the case is already resolved or canceled. If a custom workflow tries to resolve or cancel a case that is already resolved or canceled, you will see errors while executing the custom workflow.
 
 
 ## Reassign a case  
