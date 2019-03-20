@@ -2,7 +2,7 @@
 title: "Set up bookable resources (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 03/20/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -16,7 +16,7 @@ applies_to:
 author: krbjoran
 ms.assetid: 7ed1712e-acd6-433b-bb78-22f8d58c5c61
 caps.latest.revision: 14
-ms.author: krbjoran
+ms.author: FieldServiceDave
 manager: shellyha
 search.audienceType: 
   - admin
@@ -30,9 +30,19 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-A resource in Dynamics 365 for Field Service is anything that needs to be scheduled. This can be users, crews, service centers, company assets (equipment), accounts, or contacts.  
-  
-<a name="BKMK_CreateBookableResource"></a>   
+A bookable resource in Field Service is anything that needs to be scheduled. This most commonly includes people, equipment, and physical spaces (facilities).   
+
+Each resource can have different attributes that distinguish it from each other including but not limited to:
+
+- Characteristics (ex: Accounting)
+- Categories (ex: Manager)
+- Territories (ex: Seattle)
+- Organizational Unit (ex: Manager)
+- Location (ex: Location Agnostic)
+- Resource Type (ex: User)
+
+In this article let's explore creating a bookable resource and adding details to distinguish it from other resources. In addition, let's explore the most common details for setting up field technicians for Field Service organizations.
+
 ## Create a bookable resource  
   
 1.  From the Field Service main menu, click **Resources** > **Resources entity**. 
