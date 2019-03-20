@@ -30,4 +30,4 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[topic-urs-facility-scheduling.md](../includes/topic-urs-schedule-board-tab-settings.md)]
+[!INCLUDE[topic-urs-schedule-board-tab-settings.md](../includes/topic-urs-schedule-board-tab-settings.md)]
