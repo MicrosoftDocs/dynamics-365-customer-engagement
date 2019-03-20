@@ -56,60 +56,34 @@ Select **Specific People**
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-shared-with.png)
 
+To assign or share the schedule board tab to specific people you will need to navigate to the record. All schedule board tabs are saved as records in the **Schedule Board Settings** entity.
 
-Dynamics 365 Field Service Personal View and Security on Schedule Board
-
-In the above screenshot, you can see the field “Share With” which has three options as below
-
-    Everyone
-    Just Me
-    Specific People
-
-Once you create the new view, navigate to Advanced Find to share and set permission.
-
-Navigate to Advanced find and select the “Look for:” as “Schedule Board Settings” and click “Results”.
+Go to **Advanced Find** and look for **Schedule Board Settings** and then select Results.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-settings-advanced-find.png)
 
 
-Dynamics 365 Field Service Personal View and Security on Schedule Board
+This will show all schedule board tab records and you should see the one you just created, in our example it is "Schedule Board #3".
 
-Once the “Results” is clicked, you can see the record of the view you created in the Schedule board with Share Type
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-settings-advanced-find-results.png)
 
 
-Dynamics 365 Field Service Personal View and Security on Schedule Board
-
-Double click on the record you created in Schedule board settings. This record gets created when you create new tab in the Schedule Board.
-
-On that record, click on the “Share” button.
+Double click the record to go to the form. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-share.png)
 
+Select **Share** on the top ribbon.
 
-Dynamics 365 Field Service Personal View and Security on Schedule Board
 
-Once click on “Share” button, then below screen appears to add or remove users and also set permissions.
+Finally, use the pop up screen to add users and teams to share the schedule board with along with additional permissions. ANy user or team added here will have see the schedule board tab given they have access to the schedule board.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-share-permissions.png)
-
-
-Dynamics 365 Field Service Personal View and Security on Schedule Board
-
-
-Each schedule board can be shared with specific users i.e. dispatchers with respective territories. You can create the new tab and make them public or keep them private or share with specific people. And also provide the specific permissions by navigating to the record created in Schedule Board settings.
-
-
-
-
-
-
 
 
 
