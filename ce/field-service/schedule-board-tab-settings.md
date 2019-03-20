@@ -1,5 +1,5 @@
 ---
-title: "Schedule Board Tab Settings | MicrosoftDocs"
+title: "Schedule board tab settings | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 03/20/2019
