@@ -2,7 +2,7 @@
 title: "Delete Teams data | MicrosoftDocs"
 ms.custom: 
 description: "Delete Teams data."
-ms.date: 2/11/2019
+ms.date: 03/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,23 +27,26 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
+<!--from editor: In line 42, it says "appsorg". Should it just be org?-->
+
+
 ## Delete user data
-Your privacy is important to us. You can remove Dynamics 365 for Customer Engagement appsapp personal data from Microsoft Teams.
+Your privacy is important to us. You can remove Dynamics 365 for Customer Engagement apps personal data from Microsoft Teams.
 
 The following data is stored with Dynamics 365 for Customer Engagement apps integration with Microsoft Teams.
 
 |     Data |  Description  | Data classification    |  Example   |
 |----|-----|-------|--------|
 |    User ID    |      The user's Azure Active Directory object ID       |  EndUsePseudonymousIdentifiers (EUPI) -<br/>An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer.      |                                      <ul><li>User GUIDs, PUIDs, or SIDs</li><li>Session IDs</li><ul>                                      |
-|   Tenant ID   |     The Azure Active Directory ID of user's tenant     |  OrganizationIdentifiableInformation (OII) -<br/>Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain customer content.   | <ul><li>Tenant ID (non-GUID)</li><li>Domain name in email address (xxx@contoso.com) or other tenant-specific domain information</li><ul> |
-|    Org URL    |   The URL of the Dynamics 365 for Customer Engagement appsorg   |   OrganizationIdentifiableInformation (OII) -<br/>Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain customer content.  | <ul><li>Tenant ID (non-GUID)</li><li>Domain name in email address (xxx@contoso.com) or other tenant-specific domain information</li><ul> |
+|   Tenant ID   |     The Azure Active Directory ID of the user's tenant     |  OrganizationIdentifiableInformation (OII) -<br/>Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain customer content.   | <ul><li>Tenant ID (non-GUID)</li><li>Domain name in email address (xxx@contoso.com) or other tenant-specific domain information.</li><ul> |
+|    Org URL    |   The URL of the Dynamics 365 for Customer Engagement appsorg   |   OrganizationIdentifiableInformation (OII) -<br/>Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain customer content.  | <ul><li>Tenant ID (non-GUID)</li><li>Domain name in email address (xxx@contoso.com) or other tenant-specific domain information.</li><ul> |
 | App module ID | The ID of app module selected to show in the dashboard | EndUsePseudonymousIdentifiers (EUPI) -<br/>An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer. | <ul><li>User GUIDs, PUIDs, or SIDs</li><li>Session IDs</li><ul>   |
 
 You can [contact support](../admin/contact-technical-support.md) to request data deletion. Run the following Windows PowerShell commands to gather the information needed by Dynamics 365 for Customer Engagement apps support.
 
 |Command  |Comment  |
 |---------|---------|
-|``` Connect-MsolService  ```      |Enter your credentials in the popup window         |
+|``` Connect-MsolService  ```      |Enter your credentials in the pop-up window         |
 |``` (Get-MsolUser -UserPrincipalName "<user email>").ObjectId  ```       |Replace <user email> with the user’s email         |
 |``` (Get-MsolCompanyInformation).ObjectId ```        |         |
 
