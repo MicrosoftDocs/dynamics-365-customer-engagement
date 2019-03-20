@@ -115,12 +115,12 @@ After you install the Field Service Mobile configuration tool, you need to downl
 
 The mobile project template contains all customizations for the Field Service Mobile app. A mobile project allows you to customize the mobile experience across devices. For example, you use a mobile project to add, remove, and change fields, entities, views, and forms on the mobile app.
  
-1. Open the mobile configuration tool in a **in a non-private** Internet Explorer window. In the Dynamics 365 for Customer Engagement organization, go to **Settings > Woodford > MobileCRM Woodford**.
+1. Open the Mobile Configuration Tool (Woodford) by going to **Settings > Woodford** and selecting **MobileCRM Woodford HTML5**. If you experience trouble opening or performing functions in the HTML5 version, you can use the MobileCRM Woodford Legacy in a non-private Internet Explorer browser window.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Woodford admin interface](media/mobile-install-mobilecrm-woodford.png)
 
-2. Set the storage quota to **500MB**, and then select **OK**.
+2. You may be asked to set a storage quota. Set to **500MB**, and then select **OK**.
 
 3. Register yourself as a user.
 
