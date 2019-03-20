@@ -34,7 +34,7 @@ When you create a customer journey, the properties are stored in `msdyncrm_custo
 > [!NOTE]
 > Before you perform operations, you should install Dynamics 365 for Marketing app. 
 
-This topic demonstrates how to perform operation on the `msdyncrm_customerjourney` entity. `msdyncrm_name` field is the only required field to create a simple customer journey. Following are the list of fields that are used in this topic to create a customer journey.
+This topic demonstrates how to perform operations on the `msdyncrm_customerjourney` entity. `msdyncrm_name` field is the only required field to create a simple customer journey. Following are the list of fields that are used in this topic to create a customer journey.
 
 |Display Name|Schema Name|Description/Value|
 |----------|--------------|------|
@@ -49,14 +49,14 @@ This topic demonstrates how to perform operation on the `msdyncrm_customerjourne
 |Time Zone|msdyncrm_customerjourneytimezone|Effective time zone for the customer journey|
 |Content Settings|msdyncrm_contentsettingsId|The ID of associated [Content Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/dynamic-email-content). Use it to reference a record from `msdyncrm_contentsettingss` record set.|
 |End Date and Time|msdyncrm_enddatetime|Date time value in `ISO 8601 UTC` format.|
-|Start Date and Time|msdyncrm_startdatetime|Date time value in ISO 8601 UTC format.|
+|Start Date and Time|msdyncrm_startdatetime|Date time value in `ISO 8601 UTC` format.|
 |Is Recurring|msdyncrm_isrecurring|A boolean value.|
 |Entity Target|msdyncrm_entitytarget|- Contact `0`<br />- Account `1`|
 |Type|msdyncrm_type|- Automated `192350000`<br />- LinkedIn `192350001`|
 |Status|statecode|Status of the customer journey|
 
 > [!NOTE]
-> The `statuscode` and `statecode` fields defines the state of the customer journey. Changing the values of  can result in `Publishing` or `Stopping` of customer journey workflow. If you wish to `go live`, save the record in `Going Live` state (statuscode = 192350006). To stop a customer journey record, save the Live record in `Stopping` state (statuscode = 192350007).
+> The `statuscode` and `statecode` fields define the state of the customer journey. Changing their values can result in `Publishing` or `Stopping` of customer journey workflow. If you wish to `go live`, save the record in `Going Live` state (statuscode = 192350006). To stop a customer journey record, save the Live record in `Stopping` state (statuscode = 192350007).
 
 Use the Postman tool to test the operations. More information [Use Postman With Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-perform-operations)
 
@@ -64,7 +64,7 @@ Use the Postman tool to test the operations. More information [Use Postman With 
 
 1. **Create request**
 
-This request creates a customer journey record and set the `statuscode` to `Draft`. This customer journey includes a segment with `ID:24db2671-1529-e911-a9b7-000d3a1e6adc` and `Unique Name: TC407937_DynamicSegment_2KZQ1p`. an email  with `ID: 15bd0ab8-c12a-e911-a9b6-000d3a1e6c14`. The effective Content Settings has record `ID: 1922b1d8-0523-e911-a9ba-000d3a1e689f`. The response header [OData-EntityId](http://docs.oasis-open.org/odata/odata/v4.0/os/part1-protocol/odata-v4.0-os-part1-protocol.html#_Toc372793637) contains the URL to this newly created record (entity instance), which parenthetically includes the unique ID for this record.
+This request creates a customer journey record and sets the `statuscode` to `Draft`. This customer journey includes a segment with `ID:24db2671-1529-e911-a9b7-000d3a1e6adc` and `Unique Name: TC407937_DynamicSegment_2KZQ1p`. an email  with `ID: 15bd0ab8-c12a-e911-a9b6-000d3a1e6c14`. The effective Content Settings has record `ID: 1922b1d8-0523-e911-a9ba-000d3a1e689f`. The response header [OData-EntityId](http://docs.oasis-open.org/odata/odata/v4.0/os/part1-protocol/odata-v4.0-os-part1-protocol.html#_Toc372793637) contains the URL to this newly created record (entity instance), which parenthetically includes the unique ID for this record.
 
 > [!IMPORTANT]
 > You need to replace the `OrgUrl` with `https://<add your environment name, like ‘myorg.crm’>.dynamics.com`. You can also get the environment name from **Settings** -> **Customizations** -> **Developer Resources**.
@@ -99,7 +99,7 @@ GET {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys?$filter=statuscode eq 192
 
 3. **Update request**
 
-In update request, you will update the `statuscode` to `Going Live` which effectively publishes it.
+In following update request, you will update the `statuscode` to `Going Live` which effectively publishes it.
 
 ```HTTP
 PATCH {{OrgUrl}}api/data/v9.0/msdyncrm_customerjourneys(8aee9d91-8c2b-e911-a9b7-000d3a1e6adc)
@@ -118,9 +118,9 @@ DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys(b6faa2b7-b92b-e911-818
 
 ## Check for Errors
 
-The **Check for Errors** feature checks the current record for missing content and technical errors and then display the validation results, including error messages that should help user solve any issue that wwere found.
+The **Check for Errors** feature checks the current record for missing content and technical errors and then displays the validation results, including error messages that should help user solve any issue that were found.
 
-The request body is a `JSON` object which contains a number of data elements with values corresponding to the `msdyncrm_customerjourney entity` properties. The reference fields (for example, Content Settings ID) doesn't use the `@odata.bind` with record set reference, but uses the ID of referenced record. The table below explains the mapping.
+The request body is a `JSON` object which contains a number of data elements with values corresponding to the `msdyncrm_customerjourney`  entity properties. The reference fields (for example, Content Settings ID) doesn't use the `@odata.bind` with record set reference, but uses the ID of referenced record. The table below explains the mapping.
 
 |Key|Corresponding property msdyncrm_customerjourney entity (logical name)|
 |--------|--------------|
