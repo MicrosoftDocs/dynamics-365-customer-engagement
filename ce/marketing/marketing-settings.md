@@ -40,19 +40,25 @@ See the remaining sections of this topic for information about how to work with 
 
 ## Authenticate your domains
 
-Domain authentication is important when you send marketing email messages because it enables recipient email servers to confirm that the from-address shown on each of your messages actually belongs to your organization, and that your organization has approved [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
+Domain authentication is important for two reasons:
 
-The primary purpose of these authentications is to detect forged messages and domains, and thereby prevent spam, phishing, and other fraudulent activity. A method called _DomainKeys Identified Mail_ (DKIM) helps make these authentications possible. Domain authentication is implemented through the internet DNS system, and is based on public/private key encryption and signatures.
+- For marketing email messages, it enables recipient email servers to confirm that the from-address shown on each of your messages actually belongs to your organization, and that your organization has approved [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
+- For externally hosted forms, it confirms that you own the domain and therefore establishes an enhanced trust relationship with your domain, which enables embedded marketing forms to be prefilled with data for known contacts.
+
+The primary purpose of email-domain authentication is to detect forged messages and domains, and thereby prevent spam, phishing, and other fraudulent activity. A method called _DomainKeys Identified Mail_ (DKIM) helps make these authentications possible. Domain authentication is implemented through the internet DNS system, and is based on public/private key encryption and signatures.
 
 When you error check or go live with a marketing email message, the verification system makes sure the message uses a from-address that specifies an authenticated domain registered and confirmed for your organization. You'll get a warning if you try to send a message that has a from-address that has an unregistered domain; you'll get an error if you try to send a message that uses a from-address that uses a domain that is registered as belonging to another organization. You can ignore the warning (but will probably have low deliverability), but you can't go live with the error.
 
-To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md).
+To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md). To learn more about embedded forms and prefilling, see [Integrate with forms on external websites](embed-forms.md).
 
-To set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and the DNS to authenticate marketing email messages from a given domain:
+To set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and the DNS to authenticate marketing email messages and embedded forms for a given domain:
 
 1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Authenticated domains**. A list of existing authenticated domains opens.
 1. Select **New** on the command bar to add a new domain.
-1. A new authenticated domain record opens. In the **Domain name** field, enter the name of the domain you want to authenticate. This must be a domain that your organization owns, and which you can access through your DNS provider.
+1. A new authenticated domain record opens. Make the following settings:
+    - **Domain name**: Enter the name of the domain you want to authenticate. This must be a domain that your organization owns, and which you can access through your DNS provider.
+    - **Authenticate email**: Select this check box if you want to authenticate email for this domain using DKIM.
+    - **Enable prefilled forms**: Select this check box if you want to authenticate marketing forms embedded on this domain for the purpose of supporting prefill for known contacts.
 1. Select **Save** from the command bar. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] saves the new record and generates a set of authentication keys for your specified domain. The page reloads to show the new keys. The following are provided:
     - **Ownership authentication key**: Proves that your organization owns the domain.
     - **Email authentication keys for DKIM**: Prove that [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is authorized to send messages that show your organization's domain name in the from-address.

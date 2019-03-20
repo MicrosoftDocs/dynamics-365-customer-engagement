@@ -83,8 +83,6 @@ To enable the preview features:
 
 See the remaining sections of this topic for details about how to find and use the preview features.
 
-
-
 ## Preview: Expanded support for externally hosted forms
 
 The current version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] already lets you create marketing forms that you can [embed on your own, external website](embed-forms.md), but with a few limitations. We're working towards removing these limitations to enable you to create fully functional marketing pages that can run on your own, external website or CMS system. The following elements of this functionality are now available as preview features:
@@ -93,8 +91,6 @@ The current version of [!INCLUDE[pn-marketing-business-app-module-name](../inclu
 - Run a subscription center as an embedded form
 - Use external forms for inbound customer journeys
 - Create customer journey triggers that react to external form visits and submissions
-
-
 
 <a name="social-posting"></a>
 

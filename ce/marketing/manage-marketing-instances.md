@@ -2,7 +2,7 @@
 title: "Manage marketing instances (Dynamics 365 for Marketing) | Microsoft Docs  "
 description: "How to copy a production Dynamics 365 for Marketing instance to a sandbox instance for experiments and testing"
 keywords: administration;admin center;copy;sandbox;instances;backup;recall
-ms.date: 02/01/2019
+ms.date: 04/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -145,7 +145,7 @@ To copy a production instance to a sandbox:
  
 8. Select the **[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] Application** item, and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel.
 
-9. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens. Select your sandbox instance from drop-down list and choose a new and unique prefix for your sandbox portal.  
+9. The [!INCLUDE[pn-marketing-app-module](../includes/pn-m[Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)arketing-app-module.md)] setup wizard opens. Select your sandbox instance from drop-down list and choose a new and unique prefix for your sandbox portal.  
     ![Choose an organization and name your portal](media/setup-form-1.png "Choose an organization and name your portal")
     
    > [!NOTE]
@@ -154,6 +154,13 @@ To copy a production instance to a sandbox:
 10. Select **Continue**, and then work through the rest of the setup wizard as usual. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [First-time setup](purchase-setup.md)
 
 11. When the setup wizard tells you the installation is complete, you can start working with your sandbox instance.
+
+## Create a custom app that includes the Marketing solution
+
+Customizers and developers can create custom PowerApps apps that include any number of existing solutions, plus custom elements, as needed. You can include 
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] solutions in custom apps such as these, but the *Marketing email test send* entity won't be included automatically when you add the Marketing solution. As a result, your custom app won't support test sends of marketing emails by default. If you'd like to include this feature in your custom app, then you must add the *Marketing email test send* entity manually to your app after you add the Marketing solution.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
 
 ### See also
 
