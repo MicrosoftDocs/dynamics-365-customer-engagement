@@ -64,7 +64,7 @@ Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to
 
 Enabling Power BI Embedded service allows you to embed dashboards and reports created in the new workspace of Power BI. The dashboards and reports are embedded on web pages in a portal by using the powerbi Liquid tag.
 
-**Pre-requisites**: Before enabling Power BI Embedded service, you must ensure that you have created your dashboards and reports in the new workspace in Power BI. After creating the workspace, provide access to the global administrator so the workspaces are displayed in Portal Admin Center. For more information on creating new worksapces and adding access to them, see [Create the new workspaces (preview) in Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces).
+**Pre-requisites**: Before enabling Power BI Embedded service, you must ensure that you have created your dashboards and reports in the new workspace in Power BI. After creating the workspace, provide admin access to the global administrator so the workspaces are displayed in Portal Admin Center. For more information on creating new workspaces and adding access to them, see [Create the new workspaces (preview) in Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces).
 
 **Power BI Embedded service limitations**: For information on limitations, see [Considerations and limitations](https://docs.microsoft.com/en-us/power-bi/developer/embed-service-principal#considerations-and-limitations).
 
@@ -85,7 +85,7 @@ Enabling Power BI Embedded service allows you to embed dashboards and reports cr
     > [!div class=mx-imgBorder]
     > ![Select Power BI workspaces](media/enable-powerbi-embedded-window.png "Select Power BI workspaces")
 
-5. Select **Enable**. While Power BI Embedded service is being enabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI Embedded service is disabled.
+5. Select **Enable**. While Power BI Embedded service is being enabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI Embedded service is enabled.
 
 Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to embed Power BI dashboards and reports from the new workspaces in Power BI on the web pages in a portal. To use Power BI Embedded service, the authentication type must be specified as **powerbiembedded**. While embedding the Power BI content, customizers can use [filter parameters](https://docs.microsoft.com/en-us/power-bi/service-url-filters) to create personalized views. More information: [powerbi Liquid tag](dynamics-entity-tags.md#powerbi)
 
