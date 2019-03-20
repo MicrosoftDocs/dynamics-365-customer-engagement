@@ -55,6 +55,7 @@ All the configuration for your custom event portal can be made by creating an `e
 - **apiEndpoint** - Used by Event Management application. Points to the API endpoint that **Angular** services use.
 - **localizationEndpoint** - Points to the localization endpoint that Event Management localization system uses to fetch the localized labels.
 - **useRestStack** - Used by Event Management application to adjust to different types of APIs used when utilizing self-hosted approach against Dynamics 365 hosted approach. Self-hosted approach uses REST API.
+- **areUsersSupported** - Used by event management to turn on support for users. If false login/logout dropdown will not be shown on the navigation bar.
 - **useAadB2C** - Used by Event Management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).
 - **useMockData** - Used by Event Management for development purposes. Overrides **Angular** application data services to return mock data.
 - **aadB2CConfig** - Configuration object used by Event Management application when **AAD B2C identity management** is enabled. 
