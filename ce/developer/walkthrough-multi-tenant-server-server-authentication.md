@@ -62,7 +62,7 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
 
 ## Verify Azure AD tenant
 
- Before you begin, connect to your [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)][https://portal.office.com](https://portal.office.com) and in the **Admin centers** drop-down, verify that you see both [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and **Azure AD**.  
+ Before you begin, connect to your [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)][https://admin.microsoft.com](https://admin.microsoft.com) and in the **Admin centers** drop-down, verify that you see both [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and **Azure AD**.  
   
  ![Admin Centers with Azure Active Directory and Dynamics 365 for Customer Engagement](media/admin-centers-with-aad-crm.png "Admin Centers with Azure Active Directory and Dynamics 365 for Customer Engagement")  
   

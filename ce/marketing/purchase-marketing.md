@@ -68,7 +68,7 @@ You can have any number of [!INCLUDE[pn-marketing-app-module](../includes/pn-mar
 
 When a new [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app gets added to your tenant, it begins in an unconfigured state. To set it up for use with an existing [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance:
 
-1. Go to [portal.office.com](https://portal.office.com) and sign in to your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant using an administrator account that has a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license assigned.
+1. Go to [admin.microsoft.com](https://admin.microsoft.com) and sign in to your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant using an administrator account that has a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license assigned.
 
 2. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
 

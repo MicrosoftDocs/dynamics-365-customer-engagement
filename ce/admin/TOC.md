@@ -4,7 +4,7 @@
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
 ## [About Unified Interface](about-unified-interface.md)
-<!-- ## [Update apps to Unified Interface](update-apps-to-unified-interface.md) -->
+## [Update apps to Unified Interface](update-apps-to-unified-interface.md)
 ## [Enable hybrid experience](enable-hybrid-experience.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
@@ -14,7 +14,7 @@
 ## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)
 ## [What is Office 365?](what-office-365-how-does-relate.md)
 ## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md)
-## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)
+## [Manage subscription with Microsoft 365 admin center](use-office-365-admin-center-manage-subscription.md)
 ## [Service health](check-online-service-health.md)
 ### [Using Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md)
 ### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)
@@ -77,7 +77,6 @@
 ## [Team templates for access rights](create-team-template-add-entity-form.md)
 ## [Add teams or users to field security profile](add-teams-users-field-security-profile.md)
 ## [Synchronize user information between Dynamics 365 for Customer Engagement and Active Directory](synchronize-user-information-active-directory.md)
-<!-- removed as duplicate  ## [Create or edit a business unit](create-edit-business-unit-control-access-records.md) -->
 ## [Add or remove sales territory members](add-remove-territory-members.md)
 ## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md)
 

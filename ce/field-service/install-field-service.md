@@ -57,7 +57,7 @@ You can add a trial or a purchased subscription of the Field Service application
 2. Select **Dynamics 365 for Field Service Enterprise Edition**, and then select **Buy now**. 
 3. Follow the on-screen instructions to install the application. Installation may take several minutes.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of purchasing Field Service from Office 365 Admin center](media/field-service-purchase.png)  
+> ![Screenshot of purchasing Field Service from Microsoft 365 admin center](media/field-service-purchase.png)  
 
 ### Verify that the installation is complete
 

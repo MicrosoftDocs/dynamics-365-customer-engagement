@@ -39,7 +39,7 @@ You have options for when you update your Dynamics 365 for Customer Engagement a
 
  You, as a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps system administrator, decide when to install Customer Engagement apps major updates for your organization. To update to the latest release of Customer Engagement apps, complete these two steps:  
 
-1. Review the information in the Updates page in the Customer Engagement apps Administration Center ([https://portal.office.com](https://portal.office.com) > **Admin centers** > **Dynamics 365** > **Updates** tab) to find out what instances are ready to update, and the schedule.  
+1. Review the information in the Updates page in the Customer Engagement apps Administration Center ([https://admin.microsoft.com](https://admin.microsoft.com) > **Admin centers** > **Dynamics 365** > **Updates** tab) to find out what instances are ready to update, and the schedule.  
 
 2. Approve the update.  
 
@@ -245,7 +245,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 
 ### Check your instances in the [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] Administration Center  
 
-1. Sign in to [https://portal.office.com](https://portal.office.com).  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com).  
 
 2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365**.  
 
@@ -287,7 +287,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 ## Approve an update  
  You must be a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps system administrator to approve updates.  
 
-1. Sign in to [https://portal.office.com](https://portal.office.com).  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com).  
 
 2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365**, and then on the Instances page click **Updates**.  
 
@@ -302,7 +302,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 ## Reschedule an update  
  You must be a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps system administrator to reschedule updates.  
 
-1. Sign in to [https://portal.office.com](https://portal.office.com).  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com).  
 
 2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365**, and then on the Instances page click **Updates**.  
 
@@ -352,7 +352,7 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
 ## Send email notifications to multiple recipients  
  By default, [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] admins will receive update notifications. You can add others to receive update notifications.  
 
-1. Sign in to [https://portal.office.com](https://portal.office.com).  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com).  
 
 2. In the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365**, and then click **Instances**.  
 

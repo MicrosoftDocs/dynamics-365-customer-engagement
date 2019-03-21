@@ -31,7 +31,7 @@ search.app:
 
 Use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to review the status of your apps and solutions, apply updates, and manage your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances, solutions, and apps. To open the admin center:
 
-1. Sign in to your [Office 365 admin center](https://portal.office.com).
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com).
 
 1. The **Home** dashboard for [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] opens. In the navigation column on the left, expand **Admin centers**, and then select **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]**.  
     ![Open the Dynamics 365 admin center](media/update-open-d365-admin.png "Open the Dynamics 365 admin center")
