@@ -52,8 +52,8 @@ First, an administrator needs to install the solution.
 3. Select **Get** to start installing the solution.
 
 4. Review and accept the disclaimer, required permissions, and service terms to install [!include[Dynamics 365 for Customer Engagement Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)]. You need to be a global admin in this Office 365 tenant to authorize S2S inbound. More information about S2S: [MSDN: Build web applications using Server-to-Server (S2S) authentication](https://msdn.microsoft.com/library/mt790168.aspx)  
-   It takes a few minutes to install the solution. To monitor the status of the installation, or update or remove a managed solution, go to the [Office 365 admin center](https://portal.office.com/).
-   More information: [TechNet: Use the Office 365 admin center to manage your subscription](https://technet.microsoft.com/library/dn973004.aspx).
+   It takes a few minutes to install the solution. To monitor the status of the installation, or update or remove a managed solution, go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
+   More information: [TechNet: Use the Microsoft 365 admin center to manage your subscription](https://technet.microsoft.com/library/dn973004.aspx).
 
 5. In [!include[Dynamics 365 for Customer Engagement](../includes/pn-crm-2016-shortest.md)] settings, go to **Settings** > **Customization** > **Solutions** and select **LinkedIn Lead Gen Forms Connector** to see the solution details.  
    ![LinkedIn Lead Gen Forms Connector solution detail](media/Solution-details.png "LinkedIn Lead Gen Forms Connector solution details")
@@ -70,9 +70,9 @@ More information about installing or removing a solution: [TechNet: Install or r
 
 ## Update the solution
 
-After installing the solution, you can visit the [Office 365 admin center](https://portal.office.com/) to see if an update is available. You'll need global admin permissions to start the update process.
+After installing the solution, you can visit the [Microsoft 365 admin center](https://admin.microsoft.com/) to see if an update is available. You'll need global admin permissions to start the update process.
 
-1. Go to the [Office 365 admin center](https://portal.office.com/) and sign in with your global admin credentials.
+1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and sign in with your global admin credentials.
 
 2. Under **Admin centers**, select **Dynamics 365**. 
 

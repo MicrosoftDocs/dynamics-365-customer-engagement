@@ -62,7 +62,7 @@ You can limit access to Customer Engagement apps to users with   trusted IP addr
  Access restriction is set using Azure Active Directory (AD) Conditional Access. See [Getting started with conditional access to Azure AD](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-azuread-connected-apps/).  You control Conditional Access through an access rule.  
   
 > [!NOTE]
->  Setting Conditional Access is only available with an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] Premium license.  Upgrade your Azure AD to a Premium license in the Office 365 admin center (**<https://portal.office.com>** > **Billing** > **Purchase services**).  
+>  Setting Conditional Access is only available with an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] Premium license.  Upgrade your Azure AD to a Premium license in the Microsoft 365 admin center (**<https://admin.microsoft.com>** > **Billing** > **Purchase services**).  
   
 1. Sign in to your [Azure portal](https://portal.azure.com).  
   

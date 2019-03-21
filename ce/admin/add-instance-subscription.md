@@ -28,7 +28,7 @@ search.app:
 
 You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics 365 for Customer Engagement apps pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).   
   
- Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Microsoft online services portal Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Professional user license subscription.  
+ Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Microsoft online services portal Purchase subscriptions](https://admin.microsoft.com/Commerce/Catalog.aspx) page. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Professional user license subscription.  
   
  You must have the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] Global administrator (however, see **Note** below) to do these tasks. For more information, see [Assigning administrator roles](https://support.office.com/article/Assign-admin-roles-in-Office-365-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
 
@@ -70,7 +70,7 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
   
 ### Step 1: Purchase the additional instance  
   
-1. Sign in to the [Office 365 admin center](https://portal.office.com) as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator. In the navigation pane, click **Billing** > **Purchase Services**.  
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator. In the navigation pane, click **Billing** > **Purchase Services**.  
   
 2. Scroll down to the **Add-on subscriptions** section, and then hover over **Dynamics 365 Enterprise Edition - Additional Non-Production Instance** or **Dynamics 365 Enterprise - Additional Production Instance**, and then click **Buy now**.  
   
@@ -153,7 +153,7 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
   
 ### Create a security group and add members to the security group  
   
-1.  Sign in to the [Office 365 admin center](https://portal.office.com).  
+1.  Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com).  
   
 2.  Click **Groups** > **Groups**.  
   
