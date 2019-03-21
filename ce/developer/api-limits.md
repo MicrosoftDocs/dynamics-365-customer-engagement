@@ -22,7 +22,7 @@ search.app:
 - [!INCLUDE [cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 - [!INCLUDE [cc_applies_to_update_8_2_0](../includes/cc_applies_to_update_8_2_0.md)]
 
-We limit the number of API requests made by each user, per organization instance, within a five minute sliding window. When this limit is exceeded, an exception will be thrown by the platform.
+We limit the number of API requests made by each user, per organization instance, within a five minute sliding window. Additionally, we limit the number of concurrent requests that may come in at one time.  When one of these limits is exceeded, an exception will be thrown by the platform.
 
 The limit will help ensure that users running applications cannot interfere with each other based on resource constraints. The limits will not affect normal users of the platform. Only applications that perform a large number of API requests may be affected. The limit will help provide a level of protection from random and unexpected surges in request volumes that threaten the availability and performance characteristics of the [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] platform.
 
@@ -36,8 +36,8 @@ If you use the .NET SDK assemblies, the platform will respond with a `FaultExcep
 
 | Error Code | Message |
 |------------|-------------------------------------|
-|`-2147015902`|`Number of requests exceeded the limit of 8000, measured over time window of 300 seconds.`|
-|`-2147015903`|`Combined execution time of incoming requests exceeded limit of X milliseconds over time window of Y seconds. Decrease number of concurrent requests or reduce the duration of requests and try again later.`|
+|`-2147015902`|`Number of requests exceeded the limit of 4000, measured over time window of 300 seconds.`|
+|`-2147015903`|`Combined execution time of incoming requests exceeded limit of 1,200,000 milliseconds over time window of 300 seconds. Decrease number of concurrent requests or reduce the duration of requests and try again later.`|
 |`-2147015898`|`Number of concurrent requests exceeded the limit of X`|
 
 If you use HTTP requests, the response will include the same messages, but with:<br />
