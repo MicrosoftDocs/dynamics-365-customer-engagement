@@ -29,7 +29,7 @@ Gain valuable insights from the latest news about your customers on your phone o
   
 ## Install the solution for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
   
-1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global Administrator or Dynamics 365 for Customer Engagement System Administrator credentials.  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 for Customer Engagement System Administrator credentials.  
   
 2. Click **Admin > Dynamics 365 for Customer Engagement**.  
   

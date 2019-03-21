@@ -48,7 +48,7 @@ While installing or updating any solution in your Dynamics 365 for Customer Enga
 
 ## Get notified about new releases
 
-Every customer is notified about new Portal release through Office 365 message center (in Office 365 Admin center). Ensure that you either have access to Office 365 message center (Global administrator and Dynamics 365 for Customer Engagement service administrator have access) or have discussed with your global administrator or Dynamics 365 for Customer Engagement service administrator to inform you about any new Portal release.
+Every customer is notified about new Portal release through Office 365 message center (in Microsoft 365 admin center). Ensure that you either have access to Office 365 message center (Global administrator and Dynamics 365 for Customer Engagement service administrator have access) or have discussed with your global administrator or Dynamics 365 for Customer Engagement service administrator to inform you about any new Portal release.
 
 Notifications are sent around 2-5 business days ahead of the release. Notifications are sent to only those customers whose portals are planned to be updated. Each notification provides details of the type of update and the date/time it will be rolled out along with the link to release notes.
 

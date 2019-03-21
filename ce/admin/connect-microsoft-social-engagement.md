@@ -63,7 +63,7 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
   
  Use the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)] to assign and verify [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] licenses.  
   
-1. Browse to the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)] ([https://portal.office.com](https://portal.office.com)) and sign in using Global administrator credentials.  
+1. Browse to the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)] ([https://admin.microsoft.com](https://admin.microsoft.com)) and sign in using Global administrator credentials.  
   
 2. Choose **Users** > **Active Users** and select a user to assign a license.  
   
