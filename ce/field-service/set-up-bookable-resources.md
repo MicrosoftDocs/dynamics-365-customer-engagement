@@ -76,19 +76,28 @@ In this article let's explore creating a bookable resource and adding details to
 
 4.  **Name** Enter a name, this can be different from the name of the related user, account, or contact record. The name entered here will appear on the schedule board.
 5.  **Time Zone** Select the time zone the resource is located in. This is considered in the schedule process.  
-6.  **Enabled for Field Service Mobile** Set to **Yes** if the resource will need to use the Field Service Mobile app on his or her phone or tablet.
-7. Choose the **Start Location** and the **End Location** to specify which location the resource will be at when starting and ending work.  
+
+6. **Start/End Location** Decide where the resource starts and ends his or her working day for scheduling and routing purposes.
+   1. **Location agnostic** - select this option if the location of this resource is not required for the business need and does not need to be considered during the scheduling process. If the work location of a requirement is set to On site, location agnostic resources will not return in results. 
+   2. **Resource Address** - select this option if the resource starts and ends his or her day at a unique location. The exact location is derived from the latitude and longitude values on the related user, account, or contact records depending on the resource type. It is important to [connect to maps and turn on geo coding](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in your environment for this purpose. 
+   3. **Organizational Unit** - select this option if the resource starts and ends the day at an organizational unit, typically representing a company location. The exact location is derived from the latitude and longitude values on the selected organizational unit for which there is a lookup field on the bookable resource form.
+7. **Organizational Unit** Select the organizational unit the resource belongs to. This can represent a team the resource belongs to, an office the resource reports to, and the location where the resource starts and ends his or her day. 
+8. **Display On Schedule Board** Determines if the resource is eligible to be added to the schedule board. If set to **yes**, then the resource can be added to the schedule board based on the filters or manually selected.
+9. **Enable for Availability Search** Determines if the resource is eligible to be returned in schedule assistant results given the resource attributes meet the filter criteria of the requirement.
+10. **Hourly Rate** enter the internal hourly cost of the resource. This is the hourly pay that the resource should be paid by the company. It is utilized by schedule journals to calculate pay for time worked.
+11. **Warehouse** - select the default warehouse the  
   
-8.  Choose if the resource should be displayed on the schedule board and schedule assistant.  
+12. Choose if the resource should be displayed on the schedule board and schedule assistant.  
   
-9.  Set **Enable Drip Scheduling** to **Yes** or **No**.  This controls how many schedules will appear on the mobile app. If drip scheduling is disabled, all schedules will appear, based on your mobile settings.  
-10. Type an **Hour Rate**.  This is the hourly pay that the resource should be paid by the company. 
+13. Set **Enable Drip Scheduling** to **Yes** or **No**.  This controls how many schedules will appear on the mobile app. If drip scheduling is disabled, all schedules will appear, based on your mobile settings. 
+13. 6.  **Enabled for Field Service Mobile** Set to **Yes** if the resource will need to use the Field Service Mobile app on his or her phone or tablet. 
+
   
-11. Choose if time off needs to be approved or not.  
+14. Choose if time off needs to be approved or not.  
   
-12. Select **Save**.  
+15. Select **Save**.  
   
-13. In the **Characteristics** section, select **+Add Bookable Resource Characteristics record** to add characteristics. Learn more about this on the [setting up characteristics page](../field-service/set-up-characteristics.md).
+16. In the **Characteristics** section, select **+Add Bookable Resource Characteristics record** to add characteristics. Learn more about this on the [setting up characteristics page](../field-service/set-up-characteristics.md).
 
 For example, the resource in the following screenshot is a field techncian at your organization because the **Resource Type** is set to **User** and **Enabled for Field Service Mobile** is set to **Yes**.
 
@@ -96,7 +105,9 @@ For example, the resource in the following screenshot is a field techncian at yo
 > ![Screenshot showing where to find the fields on the Bookable Resource form](media/qs-1-img29.png)
 
   
-## Setting up field technician resources for field service organizations  
+## Setting up field technician resources for field service organizations 
+
+- real time coordinates from the can be used as the resources loction
 ## Add work hours  
   
 1.  Once the resource has been created:
@@ -135,6 +146,7 @@ For example, the resource in the following screenshot is a field techncian at yo
 ## Additional notes
 
 - Only one resource record can be associated to a user record, however multiple resources can be associated to a single account or contact record. 
+- the start and end location is used during break time as well
 
 
 ### See also   
