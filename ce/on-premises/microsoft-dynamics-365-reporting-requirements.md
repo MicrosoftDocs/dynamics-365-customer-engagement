@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for Customer Engagement (on-premises) reporting requirements | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/01/2018"
+ms.date: "03/21/2010"
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -72,7 +72,7 @@ manager: kvivek
 - Windows 10
 
 ####  Additional software requirements  
--   [!INCLUDE[pn_microsoft_visual_studio_2015](../includes/pn-microsoft-visual-studio-2015.md)] Add 2017.
+-   [!INCLUDE[pn_microsoft_visual_studio_2015](../includes/pn-microsoft-visual-studio-2015.md)] or [!INCLUDE[pn_microsoft_visual_studio_2013](../includes/pn-microsoft-visual-studio-2013.md)].
   
 -   [!INCLUDE[pn_sql_server_data_tools_SSDT](../includes/pn-sql-server-data-tools-ssdt.md)] installed with [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
   
