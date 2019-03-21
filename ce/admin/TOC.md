@@ -14,7 +14,7 @@
 ## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)
 ## [What is Office 365?](what-office-365-how-does-relate.md)
 ## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md)
-## [Manage subscription with Microsoft 365 admin center](use-office-365-admin-center-manage-subscription.md)
+## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)
 ## [Service health](check-online-service-health.md)
 ### [Using Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md)
 ### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)
@@ -248,8 +248,8 @@
 ## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
 
-# [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
-## [Dynamics 365 Government - Feature availability](../admin/government/government-feature-availability.md)
+# [Dynamics 365 US Government](../admin/government/microsoft-dynamics-365-government.md)
+## [Dynamics 365 US Government - Feature availability](../admin/government/government-feature-availability.md)
 
 # System Settings Dialog Box Reference
 ## [General tab](system-settings-dialog-box-general-tab.md)
