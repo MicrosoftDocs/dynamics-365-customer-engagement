@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The following tiles are available for constructing a customer journey.
+Read this topic to find out more about how to work with each type of tile available for constructing your customer journeys. For general information about how to create a customer journey and work with its tile, see [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md).
 
 ## Content-type tiles
 
@@ -205,10 +205,22 @@ Each segment tile always either contains or is nested below another segment tile
 
 ![A segment tile with two nested segments](media/cj-segment-stack.png "A segment tile with two nested segments")
 
-The previous image shows a segment stack built with two nested segments. The population of the resulting target segment, which is what will be processed by the customer journey, depends on the logic established by the container segment tile:
+The segment group tile provides the following settings in the **Properties** tab:
 
-- When the container segment is set to use *union* logic, any contact that is on at least one of the nested segments will be included in the customer journey, but contacts that appear on more than one nested segment will still be processed just once.
-- When the container segment is set to use *intersection* logic, then only contacts that appear on *all* nested segments will be targeted, so customers that appear on just one of the lists will be ignored.
+- **Tile name**: Enter a name that describes the tile.
+- **Segment merge logic**: If the group includes more than one nested segment, then use this setting to establish the logic for combining the members of the nested segments. Choose one of the following:
+  - **Union**: any contact that is on at least one of the nested segments will be included in the customer journey, but contacts that appear on more than one nested segment will still be processed just once.
+  - **intersection**: only contacts that appear on *all* nested segments will be targeted, so customers that appear on just one of the lists will be ignored.
+- **Description**: Enter a short description of how you are using the tile in this journey.
+
+Each nested segment tile provides the following settings:
+
+- **Tile name**: Enter a name that describes the tile.
+- **Containment method**: Choose **Inclusion** to add all members of this segment to the group. Choose **Exclusion** to remove all members of this segment from the group (if present).
+- **Segment source**: Choose **Segment** to add (or remove, depending on the **Containment method**) the members of a *segment* to the group. Choose **Subscription marketing list** to add the members of a subscription list (you can't remove members based on a subscription list).
+- **Segment**: If your **Segment source** is a segment, then use this field to choose the segment record.
+- **Marketing list**: If your **Segment source** is a subscription list, then use this field to choose the list.
+- **Description**: Enter a short description of how you are using the tile in this journey.
 
 ### Record updated
 

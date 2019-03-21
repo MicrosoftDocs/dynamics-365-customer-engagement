@@ -88,7 +88,7 @@ search.app:
 <li><a href="design-digital-content.md" data-raw-source="[Design digital content](design-digital-content.md)">Design digital content</a></li>
 <li><a href="prepare-marketing-emails.md" data-raw-source="[Prepare marketing email messages](prepare-marketing-emails.md)">Prepare marketing email messages</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
-<li><a href="embed-forms.md" data-raw-source="[Integrate with forms on external websites](embed-forms.md)">Integrate with forms on external websites</a></li>
+<li><a href="embed-forms.md" data-raw-source="[Integrate with landing pages on external websites](embed-forms.md)">Integrate with landing pages on external websites</a></li>
 <li><a href="customer-journeys-create-automated-campaigns.md" data-raw-source="[Create automated campaigns](customer-journeys-create-automated-campaigns.md)">Create automated campaigns</a></li>
 <li><a href="segmentation-lists-subscriptions.md" data-raw-source="[Working with segments](segmentation-lists-subscriptions.md)">Working with segments</a></li>
 <li><a href="market-to-leads.md" data-raw-source="[Market to leads](market-to-leads.md)">Market to leads</a></li>

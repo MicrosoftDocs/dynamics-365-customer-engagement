@@ -65,7 +65,6 @@
 
 #### [Tutorials for specific scenarios](advanced-tutorials.md)
 ##### [Set up lead scoring](set-up-lead-scoring.md)
-##### [Set up a subscription center](set-up-subscription-center.md)
 ##### [Generate activities from a customer journey](generate-activities-from-customer-journey.md)
 ##### [Manage images](manage-images.md)
 ##### [Track online behavior](track-online-behavior.md)
@@ -85,8 +84,9 @@
 #### [Provide personalized page content](personalized-page-content.md)
 #### [Create marketing forms](marketing-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
-#### [Integrate with forms on external websites](embed-forms.md)
+#### [Integrate with landing pages on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
+#### [Set up a subscription center](set-up-subscription-center.md)
 
 ### Build a library of marketing content
 #### [Upload and use images and files](upload-images-files.md)
@@ -107,6 +107,7 @@
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
+#### [Create activity templates](activity-templates.md)
 
 ### Manage, score, and qualify leads
 #### [The lead lifecycle](lead-lifecycle.md)

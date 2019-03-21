@@ -42,7 +42,43 @@ Each subscription list exists as a static marketing list in [!INCLUDE[pn-microso
 
 The only way a contact can access a subscription center is by clicking a link sent to them in email. Email links are always personalized for the recipient, which means that [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] always knows which contact has requested the subscription center and therefore populates it with that contact's current details and subscriptions. Note that you can also add subscription lists to standard marketing pages, which enables inbound (previously unknown) contacts to sign up for one or more mailing lists at the same time they register.
 
-A default subscription center is provided with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but it is very simple: it includes the minimum contact fields and the required **do not bulk email** check box. In this exercise, we'll walk through the process of creating a subscription list and adding it to a subscription form. We'll also point out how to choose a subscription center in content settings and how to assign content settings to a customer journey.
+## How and where to publish your subscription centers
+
+A good subscription center is vital for any organization doing email marketing. As mentioned previously, the feature is required by law in many jurisdictions, and you must link to it from every marketing email you send. You can run as many subscription centers as you like, for example to support various brands or product families, but you must always have at least one. Each subscription center can offer as many different subscription lists as you like, but each subscription center must provide an option for contacts to opt-out of all marketing emails.
+
+### The default subscription center
+
+A default subscription center is provided with every [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. This default page runs natively on the service fabric for your instance and doesn't require a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
+portal or external website. This is to ensure that all organizations running [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can provide this essential feature, even if they don't have a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
+portal or external website.
+
+To find, customize, and view the default subscription center:
+
+1. Go to **Marketing** > **Internet marketing** > **Marketing pages** to open a list of available marketing pages.
+1. Find the page called **Default Marketing Page** in the list. This is the default subscription center.
+1. Select the **Default Marketing Page** to open it.
+1. Go to the **Summary** tab and look at the **Full page URL**. Note that this URL uses the same domain as your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. Select the globe button here to open the page in a new browser tab.
+1. The page is already live by default. If you'd like to customize it, select **Edit** in the command bar and then work with it just as you would with any other marketing page. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] 
+1. Select **Save** when you are done customizing. The page automatically publishes your changes and returns to the live state.
+
+> [!IMPORTANT]
+> Never delete the default subscription center page! This is the only page that is published on the service fabric rather than on a portal or external site. There is no way to create a new page that is published in this way, so if you delete the default subscription center, you'll need to create an alternative on your portal or external site.
+
+As with all marketing pages, the subscription form on the default marketing page is a marketing form that is defined separately and placed on the page using a form design element. You can edit the form directly and don't need to open the page to do so. To find, customize, and view the default subscription form:
+
+1. Go to **Marketing** > **Internet marketing** > **Marketing forms** to open a list of available marketing forms.
+1. Find the form called **Default Subscription Center Form** in the list. This is the default subscription form.
+1. Select the **Default Subscription Center Form** to open it.
+1. The form is already live by default. If you'd like to customize it, select **Edit** in the command bar and then work with it just as you would with any other marketing form.
+1. Select **Save** when you are done customizing. The form automatically publishes your changes and returns to the live state. All pages that use the form will now automatically use your updated version.
+
+
+### Custom or additional subscription centers
+
+You can publish subscription centers as a native marketing page running on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
+ portal, or set up a marketing form that's embedded on an external site. You can use either of these types of pages as your primary subscription center if you prefer not to use the default one.
+
+
 
 <a name="create-subscription-list"></a>
 
@@ -134,7 +170,7 @@ For a detailed walkthrough of how to create a marketing page, see [Create a land
 
 ## Identify a subscription center in content settings
 
-As you saw in [Create a marketing email and go live](create-marketing-email.md), content settings hold common values that you can place into an email message as dynamic text by using assist-edit (or by typing the correct code). You can create as many content-settings records as you need, and you must assign one to each customer journey. Because of this architecture, you can use the same email message in several customer journeys, but the subscription center link (and other content settings) included in the message can be different for each journey.
+Content settings hold common values that you can place into an email message as dynamic text by using assist-edit (or by typing the correct code). You can create as many content-settings records as you need, and you must assign one to each customer journey. Because of this architecture, you can use the same email message in several customer journeys, but the subscription center link (and other content settings) included in the message can be different for each journey.
 
 To work with content settings records, go to **Marketing** &gt; **Templates** &gt; **Content Settings**. This brings you to a list of current content settings. As usual, you can edit any listed record or select **New** on the command bar to create a new one.
 
@@ -210,24 +246,6 @@ To add a subscription center link to a marketing email:
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a marketing email and go live](create-marketing-email.md)
 
-<a name="target-subscription-list"></a>   
-
-## Set up a customer journey that targets a subscription list
-
-After you've set up a subscription list, you'll probably want to send regular email messages to your subscribers. To do this, place a segment tile configured to load a subscription list as the first tile in a customer journey that automates your email deliveries and other initiatives.
-
-To set up a segment tile to target a subscription list:
-
-1. Set up a customer journey that starts with a segment group tile, as usual.
-
-1. Select a child segment tile and open the **Properties** tab.
-
-1. Set the **Segment source** to **Subscription Marketing List**, which activates the **Marketing List** field. Then set the **Marking List** to the name of the subscription list you want to use for this journey.  
-    ![Set a segment tile to load a subscription list](media/cj-target-subscription-list.png "Set a segment tile to load a subscription list")
-
-> [!IMPORTANT]
-> When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users removes a contact from the list manually using the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request all contacts to manage their own subscriptions using the subscription center.
-
 <a name="test-sub-center"></a>
 
 ## Test your subscription center
@@ -245,5 +263,4 @@ If you open a subscription center by opening its URL directly (or by using  a li
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  
-[Find your way around](navigation.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)
