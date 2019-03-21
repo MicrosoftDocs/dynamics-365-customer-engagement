@@ -86,9 +86,9 @@ In this article let's explore creating a bookable resource and adding details to
 9. **Enable for Availability Search** Determines if the resource is eligible to be returned in schedule assistant results given the resource attributes meet the filter criteria of the requirement.
 10. **Hourly Rate** Enter the internal hourly cost of the resource. This is the hourly pay that the resource should be paid by the company. It is utilized by schedule journals to calculate pay for time worked.
 11. **Warehouse**  Select the default warehouse the resource will get his or her parts from. For Field Service scenarios, this is the default warehouse inventory is deducted from when a field technician uses an inventory work order product.
-12. Choose if time off needs to be approved or not. 
-13. Set **Enable Drip Scheduling** to **Yes** or **No**.  This controls how many schedules will appear on the mobile app. If drip scheduling is disabled, all schedules will appear, based on your mobile settings. 
-14. 6.  **Enabled for Field Service Mobile** Set to **Yes** if the resource will need to use the Field Service Mobile app on his or her phone or tablet. 
+12. **Time Off Approval Required** Choose if time off needs to be approved or not. If set to **No** then a time off request record will block time on the schedule board and show as nonworking hours for that resource. If set to **yes**, the same result will occur once the time off request is approved. 
+13. **Enable Drip Scheduling** Controls how many bookings can appear on the Field Service Mobile app at one time. Set to **No** to allow all bookings for a resource to display  based on mobile settings (view and sync filters). Set to **Yes** to display a new field titled **Bookings to Drip** where you can enter the total number of bookings displayed at one time. As a resource completes bookings (sets booking status to completed) more bookings will be appear on in the bookings tab of the Field Service Mobile app.
+14. **Enabled for Field Service Mobile** Set to **Yes** if the resource will need to use the Field Service Mobile app on his or her phone or tablet. 
 
 **Save** the record.  
   
@@ -145,6 +145,8 @@ For example, the resource in the following screenshot is a field techncian at yo
 
 - Only one resource record can be associated to a user record, however multiple resources can be associated to a single account or contact record. 
 - the start and end location is used during break time as well
+- hidden lat and long fields
+- drip scheduling is currently unavailable for field service mobile 11.0+
 
 
 ### See also   
