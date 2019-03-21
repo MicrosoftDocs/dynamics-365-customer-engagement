@@ -27,7 +27,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
-# Recover an Chrome Process instance
+# Recover a Chrome Process instance
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Chrome Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 By default, Chrome Process instance recovery is enabled. 
@@ -51,6 +51,8 @@ To recover the closed instance (which may contain more than one webpage), select
 
  > [!div class="mx-imageBorder"]
  > ![Chrome Process closed abruptly. Select Relod to recover the Process](../../unified-service-desk/media/usd-chrome-process-webpage-closed-abruptly-gif.GIF "Chrome Process closed abruptly")
+
+ In the above illustration, the **Customer Service Dashboard** application is hosted using the **Chrome Process**. The Chrome Process instance closed abruptly and selecting the **Reload** option loads tha **Customer Service Dashboard** application.
 
 If you don't want to recover, select **Cancel**. If you cancel, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application skips recovery of the Chrome Process instance and displays a message, **The webpage stopped responding. If you frequently experience unexpected closing of Chrome Process webpage, contact your system administrator**.
 

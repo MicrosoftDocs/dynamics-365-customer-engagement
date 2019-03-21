@@ -127,6 +127,12 @@ Add a new Global UII option for your organization named **GlobalBrowserMode**. S
   > [!div class="mx-imageBorder"]
   > ![For the Global Option field enter Global Browser Mode with value as chrome](media/chrome-process-uii-option.GIF "For the Global Option field enter Global Browser Mode with value as chrome")
 
+## Recover a Chrome Process instance
+
+[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Chrome Process in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].
+
+To learn more, see [Recover a Chrome Process instance](admin/recover-chrome-process-instance.md)
+
 ## RunScript action is asynchronous in Chrome Process
 
 The Chrome Process supports only the asynchronous operations, and the RunScript action will be asynchronous.
@@ -402,6 +408,33 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 5. Type **DefaultZoomLevel** for the **Name** field and enter the value in fraction for the **Value** field. Example of the value: `0.3`, `0.5`, `1.1`, and so on.
 
 6. Select **Save**.
+
+## Allow webpage navigation with unauthorized, expired, and invalid certificates in Chrome Process
+
+If you are navigating to a webpage that has invalid Security Socket Layer (SSL) certificates, unauthorized or expired certificates, then Chrome Process blocks the webpage navigation.
+
+To ignore the certificate errors and allow websites navigation, you must add **AllowWebpageNavigationCertificateError** UII option and set the value as **True**. If you set true, Chrome Process allows websites navigation for all the websites. 
+
+If you want to choose few websites and don't want to allow all the website, then provide comma separated values (CSV) of the websites for which you want to ignore the certificate errors. 
+
+For example: `wrong.host.testssl.com,self-signed.testssl.com`
+
+If you leave the value blank or set the value as **False**, then Chrome Process blocks the webpage navigation for all the websites with invalid certificates.
+
+### Add the AllowWebpageNavigationCertificateError UII option
+
+1. Sign in to Dynamics 365 for Customer Engagement apps.
+
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
+
+3. On the Active UII Options page, select **+ New**. 
+
+4. Choose **Others** for the **Global Option** field.
+
+5. Type **AllowWebpageNavigationCertificateError** for the **Name** field, and type the value as **True** or comma seperated values (CSV) of the websites you want allow the navigation. For example: `wrong.host.testssl.com,self-signed.testssl.com`.
+
+6. Select **Save**.
+
 
 ## Limitations
 
