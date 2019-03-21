@@ -164,7 +164,7 @@
 #### [Localization](developer/event-portal-localization.md)
 ### [Work with Segments using code](developer/extend-segments.md)
 ### [Work with Customer Journeys using API](developer/basic-operations-on-customer-journey.md)
-#### [Extend Customer journey using code](extend-customer-journeys-using-code)
+#### [Extend Customer journey using code](extend-customer-journey-using-code.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Basic operations on segments using code](developer/extend-segments.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)

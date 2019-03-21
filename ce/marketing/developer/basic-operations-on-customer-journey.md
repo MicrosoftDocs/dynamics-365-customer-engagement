@@ -81,8 +81,6 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys
     "ownerid@odata.bind": "/systemusers(d0e20c01-d6c6-480f-aab5-0fa6749565a5)"
 }
 ```
-> [!IMPORTANT]
-> You can create a customer journey without defining the `msdyncrm_workflowdefinition`. To learn more about how to define a workflow definition see [Customer journey worjflow definition](customer-journey-workflow-definition.md)
 
 **Retrieve request**
 
@@ -184,7 +182,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_CustomerJourneyValidate
 
 ## See also
 
-[CRUD operations on Customer Journey using C#](extend-customer-journeys-using-code)<br/>
-[Customer journey workflow definition](customer-journey-workflow-definition.md)
+[Basic operations on Customer Journey using C#](extend-customer-journey-using-code.md)<br/>
+[Customer journey workflow definition](customer-journey-workflow-definition.md)<br/>
 [Use Customer Journey to create automated campaigns](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/customer-journeys-create-automated-campaigns)<br/>
 [Create Custom Journeys](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/create-simple-customer-journey)
