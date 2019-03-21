@@ -103,7 +103,7 @@ public class Retry
                     throw;
                 }
 
-                if (ex.Detail.ErrorCode == RateLimitExceededErrorCode 
+                if (ex.Detail.ErrorCode == RateLimitExceededErrorCode)
                 {
                     // Use Retry-After delay when specified
                     delay = (TimeSpan)ex.Detail.ErrorDetails["Retry-After"];
