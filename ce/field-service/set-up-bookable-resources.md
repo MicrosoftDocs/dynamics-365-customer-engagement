@@ -71,12 +71,12 @@ In this article let's explore creating a bookable resource and adding details to
   
      
   
-  After selecting a resource type, a lookup field will appear to choose a related record when applicable. As an example, if User is selected, you will then need to select the related User record
+  After selecting a resource type, a lookup field will appear to choose a related record when applicable. As an example, if User is selected, you will then need to select the related User record.
 
 
-4.  Name: Enter a name, this can be different 
-5.  Choose a **Time Zone**. 
-6.  Set **Enabled for Field Service Mobile** to **Yes** if the resource will need to use the Field Service Mobile app on his or her phone or tablet.
+4.  **Name** Enter a name, this can be different from the name of the related user, account, or contact record. The name entered here will appear on the schedule board.
+5.  **Time Zone** Select the time zone the resource is located in. This is considered in the schedule process.  
+6.  **Enabled for Field Service Mobile** Set to **Yes** if the resource will need to use the Field Service Mobile app on his or her phone or tablet.
 7. Choose the **Start Location** and the **End Location** to specify which location the resource will be at when starting and ending work.  
   
 8.  Choose if the resource should be displayed on the schedule board and schedule assistant.  
