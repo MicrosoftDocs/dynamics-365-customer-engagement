@@ -80,7 +80,7 @@ In this article let's explore creating a bookable resource and adding details to
 6. **Start/End Location** Decide where the resource starts and ends his or her working day for scheduling and routing purposes.
    1. **Location agnostic** - select this option if the location of this resource is not required for the business need and does not need to be considered during the scheduling process. If the work location of a requirement is set to On site, location agnostic resources will not return in results. 
    2. **Resource Address** - select this option if the resource starts and ends his or her day at a unique location. The exact location is derived from the latitude and longitude values on the related user, account, or contact records depending on the resource type. It is important to [connect to maps and turn on geo coding](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in your environment for this purpose. 
-   3. **Organizational Unit** - select this option if the resource starts and ends the day at an organizational unit, typically representing a company location. The exact location is derived from the latitude and longitude values on the selected organizational unit for which there is a lookup field on the bookable resource form.
+   3. **Organizational Unit** - select this option if the resource starts and ends the day at an organizational unit, typically representing a company location. The exact location is derived from the latitude and longitude values on the selected organizational unit for which there is a lookup field on the bookable resource form. If the resource is of type facility, the organizational unit acts as the location of the facility.
 7. **Organizational Unit** Select the organizational unit the resource belongs to. This can represent a team the resource belongs to, an office the resource reports to, and the location where the resource starts and ends his or her day. 
 8. **Display On Schedule Board** Determines if the resource is eligible to be added to the schedule board. If set to **yes**, then the resource can be added to the schedule board based on the filters or manually selected.
 9. **Enable for Availability Search** Determines if the resource is eligible to be returned in schedule assistant results given the resource attributes meet the filter criteria of the requirement.
@@ -92,25 +92,13 @@ In this article let's explore creating a bookable resource and adding details to
 
 **Save** the record.  
   
-15. In the **Characteristics** section, select **+Add Bookable Resource Characteristics record** to add characteristics. Learn more about this on the [setting up characteristics page](../field-service/set-up-characteristics.md).
-
-For example, the resource in the following screenshot is a field techncian at your organization because the **Resource Type** is set to **User** and **Enabled for Field Service Mobile** is set to **Yes**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the fields on the Bookable Resource form](media/qs-1-img29.png)
-
-  
-## Setting up field technician resources for field service organizations 
-
-- real time coordinates from the can be used as the resources location
-
-## Resource Scheduling Optimization
-
 ## Add work hours  
+
+After saving the bookable resource, set the working hours of the resource. Working hours are considered by the schedule board by displaying working and nonworking hours as different colors, by the schedule assistant by only displaying resources that are working in the results, and by resource scheduling optimization that automatically books requirements to resources that are working. 
   
-1.  Once the resource has been created:
-    - In the classic interface, select the arrow next to the resource name, and choose **Work Hours**.
-    - In the unified client interface, select **Show Working Hours** at the top of the form. 
+1.  To set working hours
+    - In the web interface (Field Service v7.x or earlier), select the arrow next to the resource name, and choose **Work Hours**.
+    - In the unified client interface (Field Service v8.x or later), select **Show Working Hours** at the top of the form. 
   
 2.  Click the **Set-Up** drop-down list and choose one of the following:  
   
@@ -118,7 +106,29 @@ For example, the resource in the following screenshot is a field techncian at yo
   
     - **Work Schedule for One Day**: Set the hours the resource can be scheduled for on a particular day.  
   
-    - **Time Off**: Set the dates and times the resources can't work.  
+    - **Time Off**: Set the dates and times the resources can't work. 
+
+Alternatively, double click a day to set the working hours. 
+
+Whether setting the working hours for a day or longer, ensure the Time Zone reflects the time zone the resource is located in and that was entered on the resource form.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of setting working horus and timezone](media/resource-working-hours-timezone.png)
+ 
+## Setting up field technician resources for field service organizations 
+
+For example, the resource in the following screenshot is a field techncian at your organization because the **Resource Type** is set to **User** and **Enabled for Field Service Mobile** is set to **Yes**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing where to find the fields on the Bookable Resource form](media/qs-1-img29.png)
+
+
+- real time coordinates from the can be used as the resources location
+  
+## Resource Scheduling Optimization
+
+
   
   
 ## Add characteristics  
@@ -129,6 +139,7 @@ For example, the resource in the following screenshot is a field techncian at yo
   
 3. Use the tooltips to help fill in information, and then click **Save**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
   
+  1.  In the **Characteristics** section, select **+Add Bookable Resource Characteristics record** to add characteristics. Learn more about this on the [setting up characteristics page](../field-service/set-up-characteristics.md).
 
 ## Add categories  
 
