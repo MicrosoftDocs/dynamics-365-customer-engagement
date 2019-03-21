@@ -28,9 +28,16 @@ This document explains the basics of workflow definition schema. After persistin
 
 The actual customer journey design, consisting of workflow tiles. A simple customer journey example contains one Segment group and one Marketing email message tile.
 
+  > [!div class="mx-imgBorder"] 
+  > ![Workflow design](../media/workflow-design.png "Workflow design")
+
 ### Workflow tile
 
 A node in Workflow design with associated properties, for example an email tile.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Workflow tile](../media/workflow-tile.png "Workflow tile")
+
 
 ### Nested workflow tile
 
