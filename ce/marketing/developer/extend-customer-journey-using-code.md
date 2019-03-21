@@ -16,7 +16,7 @@ search.app:
 
 # CRUD operations on customer journey using code
 
-The Customer Journey SDK  sample is a .NET managed code sample that shows how to use the Customer Journey APIs. The sample focuses on using the Customer Journey SDK from a chosen .NET process, that can be used from a plugin code.
+The Customer Journey SDK  sample is a .NET managed code sample that shows how to use the Customer Journey APIs. The sample focuses on using the Customer Journey SDK from a .NET console aplication. Customer Journey SDK can also be used from a plugin code.
 
 Download the sample: [Customer Journey SDK]() 
 
@@ -39,7 +39,7 @@ When you extract the zip file, you will find 3 projects in it:
 
 1. Download and extract the sample. 
 2. Open `Microsoft.Dynamics.Marketing.Samples.sln` in Visual Studio.
-3. Implement the `GetOrganizationService` method in `Program.cs`. Look in the source code for instructions. This is required to log into a specific Microsoft Dynamics 365 for Customer Engagement apps environment.
+3. Implement the `GetConnectionString` method in `Program.cs`. Look in the source code for instructions. This is required to log into a specific Microsoft Dynamics 365 for Customer Engagement apps environment.
 4. Select one of the preferred samples in command line parameters for example `customerjourneycreate` for creating a sample customer journey with a segment and email. 
 If you don’t specify any parameter, the usage screen will be printed. 
 5. Press **F5** to run the sample. 
@@ -69,19 +69,24 @@ using Microsoft.Xrm.Sdk.Query;
 using System; 
  
 public class Snippet 
- { 
+{ 
     public ValidationResponse CheckForErrors( 
-    IOrganizationService organizationService,  
-    Guid customerJourneyRecordId) 
-     { 
-       // Retrieve record 
-       var customerJourneyRecord = organizationService.Retrieve(EntityLogicalNames.CustomerJourney,customerJourneyRecordId,new ColumnSet(true)); 
- // Call check for errors service 
-       var validationRequest = ValidationRequest.FromCustomerJourneyEntity(customerJourneyRecord); 
-// Transform the organization response to strongly typed validation response 
-      return organizationService.Execute(validationRequest.OrganizationRequest).ToValidationResponse(); 
-        } 
+            IOrganizationService organizationService,  
+            Guid customerJourneyRecordId) 
+    { 
+        // Retrieve record 
+        var customerJourneyRecord = organizationService.Retrieve(
+            EntityLogicalNames.CustomerJourney,
+            customerJourneyRecordId,
+            new ColumnSet(true));
+       
+        // Call check for errors service 
+        var validationRequest = ValidationRequest.FromCustomerJourneyEntity(customerJourneyRecord); 
+
+        // Transform the organization response to strongly typed validation response 
+        return organizationService.Execute(validationRequest.OrganizationRequest).ToValidationResponse(); 
     } 
+} 
 ```
 
 The example below demonstrates how to create a customer journey workflow programmatically: 
@@ -92,23 +97,24 @@ using System;
  
 public class Snippet 
 { 
-  public CustomerJourneyDesign CreateSimpleCustomerJourney() 
-  { 
-     var designBuilder = new CustomerJourneyDesignBuilder(); 
-     var segmentActivityId = Guid.NewGuid().ToString(); 
-     var emailActivityId = Guid.NewGuid().ToString(); 
-     designBuilder.Root.With(new WorkflowActivityBuilder(ActivityType.Segment, segmentActivityId, "Sample Contacts") 
+    public CustomerJourneyDesign CreateSimpleCustomerJourney() 
+    { 
+        var designBuilder = new CustomerJourneyDesignBuilder(); 
+        var segmentActivityId = Guid.NewGuid().ToString(); 
+        var emailActivityId = Guid.NewGuid().ToString(); 
+        designBuilder.Root.With(
+            new WorkflowActivityBuilder(ActivityType.Segment, segmentActivityId, "Sample Contacts") 
                 .WithParentActivityId(designBuilder.Root.RootActivityId) 
                 .WithHeaderItemProperty("SegmentMergeMethod", "Union") 
                 .WithSubItem(new ItemBuilder(ActivityType.SegmentItem, "Sample Segment") 
                     .WithProperty("ContainmentMethod", "Inclusion") 
                     .WithProperty("SegmentSourceType", "Segment")), 
-                new WorkflowActivityBuilder(ActivityType.Email, emailActivityId, "Sample Email") 
+            new WorkflowActivityBuilder(ActivityType.Email, emailActivityId, "Sample Email") 
                 .WithParentActivityId(segmentActivityId)); 
  
             return designBuilder.Build(); 
-        } 
     } 
+} 
 ```
 
 Example below demonstrate how to invoke programmatically: 
@@ -120,16 +126,16 @@ using Microsoft.Xrm.Sdk;
 using System; 
 
 public class Snippet 
- { 
-   public void PublishCustomerJourney(IOrganizationService organizationService, Guid customerJourneyId) 
+{ 
+    public void PublishCustomerJourney(IOrganizationService organizationService, Guid customerJourneyId) 
     { 
-       var customerJourney = new CustomerJourneyEntity(customerJourneyId) 
+        var customerJourney = new CustomerJourneyEntity(customerJourneyId) 
         { 
-           StateCode = new OptionSetValue(CustomerJourneyStatusCode.GoingLive) 
-            }; 
- organizationService.Update(customerJourney.Entity); 
-        } 
+            StateCode = new OptionSetValue(CustomerJourneyStatusCode.GoingLive) 
+        };
+        organizationService.Update(customerJourney.Entity); 
     } 
+} 
 ```
 
 ### See also
