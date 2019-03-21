@@ -60,14 +60,14 @@ In this article let's explore creating a bookable resource and adding details to
     
 3.  Select a **Resource Type**  
   
-  Resource type is a classification of who or what the resource is and how he or she or it relates to your organization. 
+  Resource type is a classification of who or what the resource is and how the resource relates to your organization. 
 
    - **User**: Choose this option if the resource is a person and a member of your organization. This resource type must be chosen if the resource is a field technician who needs access to the Field Service Mobile app.
    - **Account** or **Contact**: Choose this option if the resource is not directly a part of your organization, but needs to be scheduled. A common example is subcontractors. In addition, this allows the scheduling framework to more easily apply to an organization's existing Dynamics system that may be using Accounts and Contacts to manage workers, partners, contractors before Field Service is purchased and implemented. 
   - **Equipment**: Choose this option if the resource is an equipment, tool, or machine that must be scheduled.
-  - **Crew**: Choose this option if you want to a assemble a group of resources where scheduling the crew resource will schedule all crew members. A typycal example is two or more people or a person and a car. The general process is to create a crew header resource with the resource type of crew and then add other resources of resource type user, account, or equipment as resource children to the crew header. For more information see the topic on [resource crews](resource-crews.md).
-  
-    - **Service Center**: Where shop repairs are made.  
+  - **Crew**: Choose this option as the first step to create a crew to assemble a group of resources where scheduling the crew resource will schedule all crew members. A typical example is two or more people or a person and a vehicle. The general process is to create a crew header resource with the resource type of crew and then add other resources of resource type user, account, or equipment as resource children to the crew header. For more information see the topic on [resource crews](resource-crews.md).
+  - **Facility**: Choose this option if the resource is a physical space that needs to be scheduled such as a building or room. For more information see the topic on [facility scheduling](facility-scheduling.md).
+  - **Pool**: Choose this option as the first step to create a pool to assemble a group of similar resources to manage capacity. Among other differences, a pool differs from a crew in that scheduling a pool does not schedule all pool members. For more information see the topic on [resource pools](resource-pools.md).   
   
      
   
