@@ -76,6 +76,9 @@ To view, edit, or create a content-settings set:
 
 The **Assist edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text element in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
 
+> [!NOTE]
+> The assist-edit dialog only shows entities and relations that are synced with the customer-insights service. If you need to show information or use relations for one or more entities that aren't listed, then ask your admin to add the relevant entities to the customer-insights service. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
+
 To use assist-edit:
 
 1. Position your cursor in the field or text element where you want to insert the dynamic text, and then select the  **Assist edit**  button  **&lt;/&gt;**. The assist-edit dialog opens.
@@ -119,9 +122,6 @@ For example:
 - `Managing Partner (Contact) -> Account`: This relationship is used by the `Contact` entity to display information from the `Account` entity in the contact's `Managing Partner` field. In other words, it finds the company (account) that is the managing partner for a contact.
 - `Primary Contact (Account) -> Contact`: This relationship is used by the `Account` entity to display information from the `Contact` entity in the contact's `Primary Contact` field. In other words, it finds the primary contact associated with the account.
 - `Contact -> Contact (Event Registration)`: This relationship is used by the `Event Registration` entity to display information from the `Contact` entity in the contact-registration record's `Contact` field. In other words, it finds the contact that registered for an event.
-
-> [!NOTE]
-> The entities included in the assist-edit dialog are those that you are currently syncing with the customer-insights service, which means that you might see more entities than those mentioned in the previous list. If you need to show information from an entity that isn't listed, then ask your admin to add that entity to the customer-insights service. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
 
 Assist-edit creates an expression that uses a format such as the following:
 - `{{EntityName.FieldName}}`

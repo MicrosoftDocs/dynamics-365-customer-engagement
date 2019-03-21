@@ -1,5 +1,5 @@
 ---
-title: "Manage marketing instances (Dynamics 365 for Marketing) | Microsoft Docs  "
+title: "Manage marketing instances (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 for Marketing instance to a sandbox instance for experiments and testing"
 keywords: administration;admin center;copy;sandbox;instances;backup;recall
 ms.date: 04/01/2019
@@ -145,7 +145,7 @@ To copy a production instance to a sandbox:
  
 8. Select the **[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] Application** item, and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel.
 
-9. The [!INCLUDE[pn-marketing-app-module](../includes/pn-m[Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)arketing-app-module.md)] setup wizard opens. Select your sandbox instance from drop-down list and choose a new and unique prefix for your sandbox portal.  
+9. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens. Select your sandbox instance from drop-down list and choose a new and unique prefix for your sandbox portal.  
     ![Choose an organization and name your portal](media/setup-form-1.png "Choose an organization and name your portal")
     
    > [!NOTE]
