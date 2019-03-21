@@ -743,8 +743,7 @@ The following is the schema definition for form customizations for [!INCLUDE[pn_
                   maxOccurs="1">  
         <xs:complexType>  
           <xs:choice minOccurs="1"  
-                     maxOccurs="1">  
-            <!-- LATER: (TobinZ, 2008-07-24) - Divide this list up into sets that are valid together. -->  
+                     maxOccurs="1">
             <xs:choice minOccurs="1"  
                        maxOccurs="unbounded">  
               <xs:element name="Url"  
