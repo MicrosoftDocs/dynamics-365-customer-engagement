@@ -98,9 +98,12 @@ Web resources represent files that can be used to extend the Microsoft Dynamics 
 
 ## Schedule board colors
 
-The colors chosen in this section only apply to the days, weeks, and months views of the schedule board and represent resources' utilization. Utilization is calculated as the hours booked compared to working hours for the schedule board time range. 
+The colors that represent a resources' utilization on the Days, Weeks, and Months view of the schedule board are configurable here by entering HTML color codes. See an example of colors chosen and the effects in the images below.  
 
-In the next screenshot, you'll see a days view of the schedule board where each resource works 12 hours each day, and the range is 2 days. 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of schedule board colors](../field-service/media/schedule-board-settings-schedule-board-colors.png)
+
+In the next screenshot, you'll see a days view of the schedule board where each resource works 12 hours each day, and the range is 2 days. As a reminder, utilization is calculated as the hours booked compared to working hours for the schedule board time range.
 
 - **Fully Booked:** Blue because the total booking duration (12 hours) equals the working hours for that particular resource's day.
 
