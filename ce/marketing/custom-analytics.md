@@ -72,11 +72,11 @@ You'll be able to connect directly to your [!INCLUDE[pn-marketing-business-app-m
 
     ![Copy the URL](media/custom-analytics-sas-created.png "Copy the URL")
 
-1. Sign into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and go to **Settings** > **Advanced settings** > **Marketing settings** > **CDS-A connector settings**. The **Marketing Settings** page opens. If a record is already listed here, then select it to open it; otherwise, select **New** from the command bar to create a new record.
+1. Sign into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and go to **Settings** > **Advanced settings** > **Marketing settings** > **Common Data Service-A connector settings**. The **Marketing Settings** page opens. If a record is already listed here, then select it to open it; otherwise, select **New** from the command bar to create a new record.
 
-1. The **CDS-A Connector Configuration** page opens.
+1. The **Common Data Service-A Connector Configuration** page opens.
 
-    ![CDS-A connector configuration](media/custom-analytics-cds-a-config.png "CDS-A connector configuration")
+    ![Common Data Service-A connector configuration](media/custom-analytics-cds-a-config.png "Common Data Service-A connector configuration")
 
     Make the following settings:
 

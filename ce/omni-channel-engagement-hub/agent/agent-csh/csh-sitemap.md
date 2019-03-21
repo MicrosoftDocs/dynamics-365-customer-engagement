@@ -48,7 +48,7 @@ The Sitemap displays the following record types:
 
 - **Social Profiles**
 
-  Social profiles are the profiles that contact or account of the customer has on social media. You use the social profiles to interact with the customer on social media and track all the conversations in Common Data Service for apps.
+  Social profiles are the profiles that contact or account of the customer has on social media. You use the social profiles to interact with the customer on social media and track all the conversations in Common Data Service.
 
 - **Cases**
 
