@@ -115,7 +115,6 @@
 #### [Account-based marketing](account-based-marketing.md)
 #### [Design lead-scoring models](score-manage-leads.md)
 #### [Register contacts' engagement](register-engagement.md)
-#### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
@@ -139,16 +138,18 @@
 #### [Engage customers online with portals](portals.md)
 #### [Create and run online surveys](surveys.md)
 
+### Marketing on social media
+#### [Schedule and post messages on social media](social-posting.md)
+#### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
+#### [Get social-listening insights](social-listening.md)
+
 ### [Work with marketing calendars](marketing-calendar.md)
 ### [Go live with publishable entities and track their status](go-live.md)
-### [Get social-listening insights](social-listening.md)
 
 ### Analyze marketing results
 #### [Analyze results to gain insights](insights.md)
 #### [Insights glossary](insights-glossary.md)
 #### [Preview: Create custom analytics with Power BI](custom-analytics.md)
-
-### [Activate and use preview features](marketing-preview-features.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)

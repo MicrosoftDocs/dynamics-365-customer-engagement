@@ -25,7 +25,7 @@ search.app:
   - D365Mktg
 ---
 
-# Activate and use preview features for April 2019
+# Activate and use preview features
 
 From time to time, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] makes new [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] features available as *preview features*, which you can enable and use if you want to get familiar with upcoming features before they're officially released and fully supported. Read this topic to learn about which preview features are currently available, how to activate them, and how to use them.
 
@@ -80,88 +80,6 @@ To enable the preview features:
     - If you're installing [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for the first time, then choose an unconfigured entitlement. Later, when asked by the setup wizard, choose the environment you just enabled for the preview.
 
 1. The setup wizard launches. Follow the instructions on your screen to update or install on your selected environment. For more information about the setup wizard, see [Run the setup wizard](purchase-setup.md).
-
-See the remaining sections of this topic for details about how to find and use the preview features.
-
-## Preview: Expanded support for externally hosted forms
-
-The current version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] already lets you create marketing forms that you can [embed on your own, external website](embed-forms.md), but with a few limitations. We're working towards removing these limitations to enable you to create fully functional marketing pages that can run on your own, external website or CMS system. The following elements of this functionality are now available as preview features:
-
-- Enable prefill on embedded forms
-- Run a subscription center as an embedded form
-- Use external forms for inbound customer journeys
-- Create customer journey triggers that react to external form visits and submissions
-
-<a name="social-posting"></a>
-
-## Preview: Social posting
-
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can schedule and post messages directly to your organization's accounts on social media sites. In the current preview version, only Twitter and Facebook are supported, but we expect to add more social media channels when this feature becomes generally available.
-
-<a name="config-social"></a>
-
-### Configure your social media accounts
-
-Before you can start posting to social media, an administrator must sign in and connect to the social accounts where users want to post and schedule messages.
-
-To add and authenticate a social media account:
-
-1. Go to **Settings** > **Advanced Settings** > **Marketing settings** > **Social configuration**. A list view opens showing your existing social media accounts (if any).
-1. Select **New** on the command bar.
-1. A new social configuration record opens. Make the following settings:
-    - **Name**: Enter a name that you and others will easily recognize. Choose a name that gives a good idea what type of channel it is what type of content should be posted there, such as "Contoso Electronics Twitter."
-    - **Social channel**: Choose the social-media site you want to connect to (such as Twitter).
-1. Select **Sign in** on the command bar.
-1. Follow the instructions on your screen to sign in to your social media account and allow [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to post through this account.
-
-If your sign-in times out, or if the password changes on one of your accounts, you can update an account by doing the following:
-
-1. Go to **Settings** > **Advanced Settings** > **Marketing settings** > **Social configuration**.
-1. Select a social media configuration from the list.
-1. Select **Sign in** on the command bar.
-1. Follow the instructions on your screen to update your sign-in details.
-
-You can delete a social configuration at any time to prevent [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] from posting through that account from now on.
-
-### Schedule and post messages on social media
-
-Use the **Social posts** entity to author and schedule your posts. You can post from any social-media account that your admin has set up and authenticated in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], as described in the previous section.
-
-In the current preview version, only Twitter is supported, but we expect to add more social media channels when this feature becomes generally available.
-
-To schedule and post a message to one of your social-media channels:
-
-1. **Go to Marketing** > **Marketing execution** > **Social Posts**.
-1. A calendar opens, showing all scheduled and previously posted messages. Do one of the following:
-    - To schedule a post using the calendar, choose a calendar view (month, day or week), select a day or time slot to highlight it, and then select again (click or press enter) and choose **New item** from the context menu. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Work with marketing calendars](marketing-calendar.md)
-    - To schedule a post using date pickers, or to send it right away, select **New** on the command bar.
-1. A new social post record is created. Make the following settings:
-    - **Name**: Enter an internal name for the post. This name will be shown on the calendar, but won't appear in the post itself.
-    - **Social channel**: Choose the social channel on which to post your message. Each of the channels currently supported by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is listed here. (In the current release, only Twitter is available.)
-    - **Posting from**: Select the specific account through which to post your message. This drop-down list shows each account for the selected **Social channel** that your admin has set up and authenticated in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure your social media accounts](#config-social)
-    - **Select scheduling**: Choose how to schedule your post by selecting one of the following:
-        - **Post now**: Your message will be posted immediately when you save the record, and will be shown on the calendar for the current date and time.
-        - **Schedule**: Choose a specific date and time to post the message. If you started by choosing a date and time on the calendar, then this option is preselected.
-        - **Schedule later**: Choose this if you want to save the messages without posting or scheduling it. You can come back later to either choose a schedule or post immediately by selecting one of the other options here.
-    - **Posted time**: If you choose to schedule your message, then specify the date and time to post it here. If you started by choosing a date and time on the calendar, then those values are already shown here.
-
-    > [!IMPORTANT]
-    > The dates and times for the posting schedule use the time zone configured in your personal settings. To view or edit your time zone, open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and then select **Personalization settings**.
-
-1. Enter the content of your message in the large text field, exactly as you want it to appear in your social-media post.
-1. Select **Save** to post or schedule your message according to your settings.
-
-### Reschedule or cancel a post
-
-You can reschedule or cancel any post that hasn't been sent yet. Just find and select it on the calendar to open the record, and then edit the schedule or select **Delete** on the command bar, as needed.
-
-Posts that were already sent are read-only, so you can't change or reschedule them, but you can remove them from the calendar if you want.
-
-## Preview: Detailed quota reporting
-
-The preview features an expanded **Quota limits** page, which now tracks the number of marketing contacts you have licensed and the number you are actually using. As before, this page also monitors your quotas of email messages and Litmus inbox previews.
-
-
 
 ## Preview support and feedback
 

@@ -247,6 +247,33 @@ Normally, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-market
 
 However, some organizations need to send separate copies of the same email messages to multiple contacts that happen to be using the same email address; in this case, personalized content, such as account details, would probably be different for each recipient. If your organization requires this, then set **Bypass email deduplication** to **Yes**. Set it to **No** to revert to the standard deduplication behavior.
 
+<a name="config-social"></a>
+
+## Configure your social media accounts
+
+Before you can start posting to social media, an administrator must sign in and connect to the social accounts where users want to post and schedule messages.
+
+To add and authenticate a social media account:
+
+1. Go to **Settings** > **Advanced Settings** > **Marketing settings** > **Social configuration**. A list view opens showing your existing social media accounts (if any).
+1. Select **New** on the command bar.
+1. A new social configuration record opens. Make the following settings:
+    - **Name**: Enter a name that you and others will easily recognize. Choose a name that gives a good idea what type of channel it is what type of content should be posted there, such as "Contoso Electronics Twitter."
+    - **Social channel**: Choose the social-media site you want to connect to (such as Twitter).
+1. Select **Sign in** on the command bar.
+1. Follow the instructions on your screen to sign in to your social media account and allow [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to post through this account.
+
+If your sign-in times out, or if the password changes on one of your accounts, you can update an account by doing the following:
+
+1. Go to **Settings** > **Advanced Settings** > **Marketing settings** > **Social configuration**.
+1. Select a social media configuration from the list.
+1. Select **Sign in** on the command bar.
+1. Follow the instructions on your screen to update your sign-in details.
+
+You can delete a social configuration at any time to prevent [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] from posting through that account from now on.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Schedule and post messages on social media](social-posting.md)
+
 ## Data protection tools
 
 Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Data protection tools** page to enable data-privacy features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. These currently focus on helping organizations comply with GDPR regulations in the European Union. For more information about GDPR, including how to use the settings here, see [Data protection and GDPR](gdpr.md).
