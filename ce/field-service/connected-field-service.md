@@ -62,7 +62,7 @@ The below end-to-end integration processes can be easily implemented based on a 
 
 Azure IoT Central requires no extensive cloud development or coding skills to get an IoT solution up and running.  
 
-With Microsoft Flow templates, users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
+With [Microsoft Flow templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
 
 Check out our [Connected Field Service for IoT Central tutorial](cfs-iot-tutorial-overview.md) to get started.
 
