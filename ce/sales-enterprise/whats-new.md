@@ -32,8 +32,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Visit 
    > The playbook capability is currently available only in the Sales Hub app in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. It is being released with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] application version 9.0.1810.4006 or later and the server version 9.1.0.0263 or later, as part of weekly release of the product to individual geographies. 
    > To learn about updating an app solution, see [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md). 
 
-- With [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] apps version 9.1.0.3806, Playbooks can be created for Account and Contact record types from Sales Hub app in Unified Client Interface, in addition to the existing record types which are presently supported.
-
+- With [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] apps version 9.1.0.3806, playbooks can be created for Account and Contact record types in Sales Hub app (Unified Interface), in addition to the existing record types which are presently supported.
 
 
 ## Dynamics 365 for Sales, Spring 2018 ([!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)])
