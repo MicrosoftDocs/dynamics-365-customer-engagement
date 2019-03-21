@@ -118,20 +118,28 @@ Whether setting the working hours for a day or longer, ensure the Time Zone refl
  
 ## Setting up field technician resources for field service organizations 
 
-For example, the resource in the following screenshot is a field techncian at your organization because the **Resource Type** is set to **User** and **Enabled for Field Service Mobile** is set to **Yes**.
+At its simplest, a field technician is a mobile worker employed at your organization who utilizes the Field Service Mobile app on his or her phone or tablet to view Field Service entities such as work orders.
+
+A bookable resource that represents a field technician for field service scenarios must:
+1. **Resource Type** = **User**
+2. **Enabled for Field Service Mobile** = **Yes**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing where to find the fields on the Bookable Resource form](media/qs-1-img29.png)
 
+Other fields important for field technicians in field service sceanrios are:
+
+**Start/End Location**
+**Display On Schedule Board** 
+**Enable for Availability Search** 
+**Warehouse**  Select the default warehouse the resource will get his or her parts from. For Field Service scenarios, this is the default warehouse inventory is deducted from when a field technician uses an inventory work order product.
 
 - real time coordinates from the can be used as the resources location
   
-## Resource Scheduling Optimization
 
+## Add related attributes 
 
-  
-  
-## Add characteristics  
+### Add characteristics  
   
 1. From the resource name submenu,  click **Bookable Resource Characteristics**.  
   
@@ -141,9 +149,7 @@ For example, the resource in the following screenshot is a field techncian at yo
   
   1.  In the **Characteristics** section, select **+Add Bookable Resource Characteristics record** to add characteristics. Learn more about this on the [setting up characteristics page](../field-service/set-up-characteristics.md).
 
-## Add categories  
-
-## Add resource territories  
+### Add categories  
   
 1. From the resource name submenu, click **Resource Territories**.  
   
@@ -151,6 +157,11 @@ For example, the resource in the following screenshot is a field techncian at yo
   
 3. Use the tooltips to help fill in your information, and then click **Save & Close**.  
 
+## Resource Scheduling Optimization
+
+If Resource Scheduling Optimization (RSO) is enabled in your organization, a new tab will appear on the bookable resource form. To allow RSO to automaitcally schedule requirements to the resource, go to the new tab and set **Optimize Schedule** to **Yes**.
+
+Setting to Yes does not mean requirements will automatically be scheduled to this bookable resource, instead it means that after RSO is set up and with the appropriate scope to include this bookable resource, then it would be eligible for automatic schedules.
 
 ## Additional notes
 
