@@ -124,7 +124,7 @@ New to Customer Engagement apps? We've put together step-by-step guidance whethe
   
 -   [Sign in to Dynamics 365 for Customer Engagement apps and Office 365 apps](sign-in-office-365-apps.md)  
   
--   [Use the Office 365 admin center to manage your Dynamics 365 for Customer Engagement apps (online) subscription](use-office-365-admin-center-manage-subscription.md)  
+-   [Use the Microsoft 365 admin center to manage your Dynamics 365 for Customer Engagement apps (online) subscription](use-office-365-admin-center-manage-subscription.md)  
   
 -   [Optional: Manage user account synchronization](manage-user-account-synchronization.md)  
   

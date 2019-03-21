@@ -14,7 +14,7 @@
 ## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)
 ## [What is Office 365?](what-office-365-how-does-relate.md)
 ## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md)
-## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)
+## [Manage subscription with Microsoft 365 admin center](use-office-365-admin-center-manage-subscription.md)
 ## [Service health](check-online-service-health.md)
 ### [Using Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md)
 ### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)

@@ -32,7 +32,7 @@ Looking for an upgrade? See [Upgrade Omni-channel Engagement Hub](upgrade-omni-c
 
 To allow sideloading of external apps in Microsoft Teams, follow these steps:
 
-1. Go to [Microsoft 365 admin center](https://portal.office.com/adminportal/home#/homepage).
+1. Go to [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/homepage).
 2. Select **Settings** > **Services & add-ins** > **Microsoft Teams**.
 3. Expand **Apps** in **Tenant-wide settings**.
 4. In the **External Apps** section, for the **Allow sideloading of external apps** option, switch the toggle button position to **On**.

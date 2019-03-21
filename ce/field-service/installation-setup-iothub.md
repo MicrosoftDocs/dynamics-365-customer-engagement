@@ -51,7 +51,7 @@ This guide provides all the steps required for getting up and running with Conne
   
  Developers can also use the simulator as a sample template to further customize the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connected Field Service Developer Guide](https://msdn.microsoft.com/en-us/library/mt790241.aspx)  
   
-1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global Administrator or Dynamics 365 for Customer Engagement system administrator credentials.  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 for Customer Engagement system administrator credentials.  
   
 2. Click **Admin centers** > **Dynamics 365 for Customer Engagement**  
   
