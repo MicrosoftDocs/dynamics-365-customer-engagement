@@ -2,16 +2,16 @@
 title: "API Limits | MicrosoftDocs"
 description: "Understand the limits for API requests."
 ms.custom: 
-ms.date: 03/08/2018
-ms.reviewer: sriknair
+ms.date: 03/21/2019
+ms.reviewer: kvivek
 ms.service: crm-online
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6cba6191-4e10-4b21-823a-b0cf71ef21d5
-author: MicroSri
-ms.author: jdaly
-manager: faisalmo
+author: brandonsimons
+ms.author: bsimons
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
