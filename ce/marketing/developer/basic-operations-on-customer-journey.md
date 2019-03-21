@@ -166,6 +166,22 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_CustomerJourneyValidate
 }
 ```
 
+## Validation response
+
+|Property|Type|Description|
+|-------|------|---------|
+|Result|`String`|The overall error check result. It has the following values:<br /> **Valid** – records that passed validation check.<br />**Warning** – records that passed validation check but there are non-blocking issues with it.<br />**Error** – records that did not pass validation, there are blocking issues with it.|
+|ActivityValidationResults|Array of objects|An array of validation detail objects. Each one refers to a specific problem which can apply to the customer journey record a specific tile within the workflow design. See the [Activity validation result schema](#activity-validation-result)|
+
+## Activity validation result
+
+|Property|Type|Description|
+|-------|-------|---------|
+|ActivityId|`String`|The Activity ID of the actual workflow tile to which the validation result applies to. If empty, the validation result applies globally to the entire workflow definition or other properties of customer journey|
+|Fault|`String`|The code, which identifies the actual validation result. See the validation [sample](extend-customer-journey-using-code.md) to learn how to work with messages associated with fault codes.|
+|Result|`String`|The result severity. It has the following values:<br />**Valid** – Informative entry<br />**Warning** – Non-blocking issue<br />**Error** – Blocking issue|
+|ErrorMessageArguments|Array of string|Optional list of arguments which provide details of the validation result. For example, an ID of the element that fails to meet the validity criteria.|
+
 ## See also
 
 [CRUD operations on Customer Journey using C#](extend-customer-journeys-using-code)<br/>
