@@ -1,14 +1,13 @@
 ---
-title: "Operations supported by Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Operations supported by Online Management API for Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: "Provides information about the operations you can perform using the Online Management API to manage your Customer Engagement instances."
-ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "conceptual"
-applies_to: "Dynamics 365 (online)"
+ms.date: 11/16/2018
+ms.service: crm-online
+ms.topic: conceptual
 ms.assetid: 63600a55-a1f0-491f-83f6-b3252566d27e
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -18,7 +17,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-You can perform most of the instance-related operations using the API that you can do using the [Dynamics 365 Admin Center](https://technet.microsoft.com/library/dn659834.aspx). The API also lets you perform some additional operations such as using tenant application identities to create/manage instances and retrieving service versions (releases) for instances.
+You can perform most of the instance-related operations using the API that you can do using the [Dynamics 365 for Customer Engagement apps Admin Center](https://technet.microsoft.com/library/dn659834.aspx). The API also lets you perform some additional operations such as using tenant application identities to create/manage instances and retrieving service versions (releases) for instances.
 
 For a quick start sample on how to authenticate and execute operations using Online Management API, see [Quick Start Sample: Retrieve instances in your tenant](sample-quick-start.md).
 
@@ -33,7 +32,7 @@ You can perform the following core operations on instances:
 
 
 ## Back up and restore instances
-You can perform the following operations to backup and restore instances:
+You can perform the following operations to back up and restore instances:
 
 |Operation  |Description  |Rest API   |
 |----------|--------------|-----------|
@@ -48,10 +47,13 @@ The following additional operations related to Customer Engagement instances are
 |----------|--------------|-----------|
 |Retrieve information about instance types  |Retrieve information about all the instance types in Customer Engagement or about a specific instance type. A Customer Engagement instance can be one of the following types: Production, Sandbox, Support, Preview, Trial. |[Get Instance Types Info](/rest/api/admin.services.crm.dynamics.com/getinstancetypesinfo)<br /> <br />[Get Instance Type Info](/rest/api/admin.services.crm.dynamics.com/getinstancetypeinfo)   |
 |Retrieve templates  |Retrieves the templates supported for creating/provisioning a Customer Engagement instance. The four types of templates that you can choose from while provisioning an instance are: **Sales**, **Customer Service**, **Field Service**, and **Project Service Automation**.|[Get Templates](/rest/api/admin.services.crm.dynamics.com/gettemplates)|
+|Apply users  |Force applies a user to a Customer Engagement instance. |[Apply User](/rest/api/admin.services.crm.dynamics.com/instances/applyuser)|
 |Retrieve service versions (releases)  |Retrieves information about all the supported releases for Customer Engagement. |[Get Service Versions](/rest/api/admin.services.crm.dynamics.com/getserviceversions)|
 |Retrieve currencies  |Retrieves information about all the supported currencies and regions for Customer Engagement. |[Get Currencies](/rest/api/admin.services.crm.dynamics.com/getcurrencies)|
 |Retrieve languages  |Retrieves information about all the supported languages for Customer Engagement. |[Get Languages](/rest/api/admin.services.crm.dynamics.com/getlanguages)|
 |Retrieve operation status  |Retrieves status of any operation that you perform using the API. |[Get Operation Status](/rest/api/admin.services.crm.dynamics.com/getoperationstatus)|
+|Retrieve notifications  |Retrieves all notifications from the Notification service. |[Get All Notifications](/rest/api/admin.services.crm.dynamics.com/notification/getallnotifications)|
+|Post user notifications  |Posts user notifications to the Notification service. |[Post User Notification](/rest/api/admin.services.crm.dynamics.com/notification/postusernotification)|
 |Update Admin Mode setting  |Controls a Customer Engagement instance admin mode settings. If you put admin mode for a Customer Engagement instance, only administrator can access the instance. This is helpful for installing large updates to an instance, and you don't want users to access the instance until the update is complete. Restoring an instance results in enabling Admin Mode for the restored instance.|[Update Instance Admin Mode](/rest/api/admin.services.crm.dynamics.com/updateinstanceadminmode)|
 
 ## Tenant Application Identity-related operations

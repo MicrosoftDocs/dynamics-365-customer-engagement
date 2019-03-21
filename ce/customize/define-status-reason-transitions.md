@@ -1,22 +1,22 @@
 ---
-title: "Define status reason transitions with PowerApps | MicrosoftDocs"
+title: "Define status reason transitions | MicrosoftDocs"
 description: "Learn how to define status reason transitions"
-ms.custom: ""
-ms.date: 04/06/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/28/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: dbc4f436-0b23-42f9-8079-b0de482aaebe
 caps.latest.revision: 11
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -25,7 +25,7 @@ search.app:
 
 # Define status reason transitions for the Case or custom entities
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can specify status reason transitions for the Incident (**Case**) entity or a custom entity.  
   

@@ -1,12 +1,12 @@
 ---
 title: "Create or delete custom sources in Social Engagement | Microsoft Docs"
 description: "Learn how you can add RSS and Atom feeds to a group of custom sources and how you can manage custom sources."
-keywords: "custom source, custom sources"
+keywords: custom source, custom sources
 ms.date: 10/17/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: eeda21ac-40b8-45ec-a90a-3c22e07c872a
 author: m-hartmann
 ms.author: mhart

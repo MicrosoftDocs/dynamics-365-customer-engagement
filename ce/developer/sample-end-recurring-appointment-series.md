@@ -1,24 +1,24 @@
 ---
-title: "Sample: End a recurring appointment series (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: End a recurring appointment series (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to end a recurring appointment series by using the DeleteOpenInstancesRequest message."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "sample for ending a recurring appointment series"
-  - "schedule and appointment entities"
-  - "ending a recurring appointment series sample, schedule and appointment entities samples"
+  - sample for ending a recurring appointment series
+  - schedule and appointment entities
+  - ending a recurring appointment series sample, schedule and appointment entities samples
 ms.assetid: 914a0fde-42ad-4a56-8d2d-7d0166bb2d3f
 caps.latest.revision: 25
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,17 +1,15 @@
 ---
 title: "Enable delegated administration for Social Engagement | Microsoft Docs"
 description: "Learn how to enable a partner to administer on your behalf and how to request delegated administration."
-keywords: "administrator, delegated admin, partner admin"
-ms.date: 10/17/2017
+keywords: administrator, delegated admin, partner admin
+ms.date: 01/22/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 74b59106-5d8d-4bbe-9759-126583cba116
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -32,7 +30,7 @@ As an admin for your organization, you can create or edit users, manage user lic
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Partners: Add or delete a delegated admin](http://go.microsoft.com/fwlink/p/?LinkID=616234)  
   
 ## For partners  
-Your client must authorize you as a delegated administrator before you can start administering a client's account. To get client approval, you first send them an offer for delegated administration, which you can include with a trial invitation or purchase offer. You can also offer delegated administration to your client at a later time.  
+Your client must authorize you as a delegated administrator before you can start administering a client's account. To get client approval, you first send them an offer for delegated administration. You can also offer delegated administration to your client at a later time.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Partners: Offer delegated administration](http://go.microsoft.com/fwlink/p/?LinkId=616235)  
   

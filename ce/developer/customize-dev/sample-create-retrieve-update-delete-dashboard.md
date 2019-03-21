@@ -1,13 +1,13 @@
 ---
-title: "Sample: Create, retrieve, update, and delete a dashboard (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create, retrieve, update, and delete a dashboard (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to create, retrieve, update, and delete an organization-owned dashboard. As part of updating the dashboard, it’s set to be the default dashboard for the organization."
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: eac23f38-e682-40b8-aa6a-b8145ebf7764
 author: JimDaly
 ms.author: jdaly

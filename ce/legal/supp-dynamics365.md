@@ -4,9 +4,9 @@ author: brycho
 
 **PLEASE NOTE:** Microsoft Corporation (or based on where you live, one of its
 affiliates) licenses this supplement to you. You may use it with each validly
-licensed copy of Microsoft Dynamics 365 software (for which this supplement is
+licensed copy of Microsoft Dynamics 365 for Customer Engagement software (for which this supplement is
 applicable) (the “software”) or each validly licensed subscription of Microsoft
-Dynamics 365 services (the “online service”). You may not use the supplement if
+Dynamics 365 for Customer Engagement services (the “online service”). You may not use the supplement if
 you do not have a license for the software or the online service. The license
 terms for the software or the services apply to your use of this supplement.
 Microsoft provides support services for the supplement as described at

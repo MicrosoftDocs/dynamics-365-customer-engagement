@@ -1,22 +1,21 @@
 ---
-title: "Best practices for workflow processes in PowerApps | MicrosoftDocs"
+title: "Best practices for workflow processes in Dynamics 365 for Customer Engagement for Customer Engagement | MicrosoftDocs"
 description: "Understand the recommended ways to use workflows"
-ms.custom: ""
-ms.date: 04/02/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/08/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: 34e34c33-003a-494f-858c-3d34aacb308c
 caps.latest.revision: 10
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -24,7 +23,7 @@ search.app:
 ---
 # Best practices for workflow processes
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 This topic contains best practices for creating and managing workflow processes.  
   

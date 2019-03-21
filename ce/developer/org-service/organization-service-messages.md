@@ -1,26 +1,26 @@
 ---
-title: "Organization service messages in Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This topic shows the messages available in the Dynamics 365 namespace"
-ms.custom: ""
+title: "Organization service messages in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This topic shows the messages available in the Dynamics 365 for Customer Engagement namespace"
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8d7119a7-6cb4-41c8-bf93-a40041f2b5a0
 caps.latest.revision: 75
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Organization service messages in Dynamics 365 Customer Engagement
+# Organization service messages in Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -28,18 +28,18 @@ The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you ne
 
  Messages are used with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method. Most messages available in this namespace apply to all three deployment types. The request page for each message indicates which deployment types support the message. The deployment types are:  
 
-- [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement - On-premises deployment  
+- [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps - On-premises deployment  
 
-- [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] – Internet-facing deployment (IFD)  
+- [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps – Internet-facing deployment (IFD)  
 
-- [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]  
+- [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]  apps
 
   The request page also indicates whether the message works while online (connected to the server) or offline (disconnected from the server).  
 
   [!INCLUDE[cc_sdk_onpremises_note](../../includes/cc-sdk-onpremises-note.md)]
 
 ## Messages  
- The following table shows the messages available in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] namespace.  
+ The following table shows the messages available in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps namespace.  
 
 
 |                              Message request class                              |                                                                                                                   Description                                                                                                                   |
@@ -58,7 +58,7 @@ The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you ne
 |          <xref:Microsoft.Crm.Sdk.Messages.AddSubstituteProductRequest>          |                                                           [!INCLUDE[deprecated](../../includes/deprecated.md)] Establishes an association between a product and a substitute product.                                                           |
 |               <xref:Microsoft.Crm.Sdk.Messages.AddToQueueRequest>               |                                                                                           Moves a record from a source queue to a destination queue.                                                                                            |
 |          <xref:Microsoft.Crm.Sdk.Messages.AddUserToRecordTeamRequest>           |                                                                                      Adds a user to the auto created access team for the specified record.                                                                                      |
-|    <xref:Microsoft.Crm.Sdk.Messages.ApplyRecordCreationAndUpdateRuleRequest>    |                                                Contains data to apply record creating and update rule to incoming activities in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].                                                 |
+|    <xref:Microsoft.Crm.Sdk.Messages.ApplyRecordCreationAndUpdateRuleRequest>    |                                                Contains data to apply record creating and update rule to incoming activities in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps.                                                 |
 |            <xref:Microsoft.Crm.Sdk.Messages.ApplyRoutingRuleRequest>            |                                                                                             Applies the active routing rule to the incident (case).                                                                                             |
 |                 <xref:Microsoft.Crm.Sdk.Messages.AssignRequest>                 |                                                             Assigns the specified record to a new security principal (user). This changes the `ownerid` attribute of the instance.                                                              |
 |           <xref:Microsoft.Crm.Sdk.Messages.AssociateEntitiesRequest>            |                                                              [!INCLUDE[deprecated](../../includes/deprecated.md)] Adds a link between two records in a many-to-many relationship.                                                               |
@@ -73,8 +73,8 @@ The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you ne
 |          <xref:Microsoft.Crm.Sdk.Messages.CalculateRollupFieldRequest>          |                                                                                                 Calculates a rollup attribute value on demand.                                                                                                  |
 |             <xref:Microsoft.Crm.Sdk.Messages.CancelContractRequest>             |                                                                                                               Cancels a contract.                                                                                                               |
 |            <xref:Microsoft.Crm.Sdk.Messages.CancelSalesOrderRequest>            |                                                                                                             Cancels a sales order.                                                                                                              |
-|           <xref:Microsoft.Crm.Sdk.Messages.CheckIncomingEmailRequest>           |                                                       Checks whether the incoming email message is relevant to the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] system.                                                       |
-|           <xref:Microsoft.Crm.Sdk.Messages.CheckPromoteEmailRequest>            |                                                   Checks whether the incoming email message should be promoted to the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] system.                                                    |
+|           <xref:Microsoft.Crm.Sdk.Messages.CheckIncomingEmailRequest>           |                                                       Checks whether the incoming email message is relevant to the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps system.                                                       |
+|           <xref:Microsoft.Crm.Sdk.Messages.CheckPromoteEmailRequest>            |                                                   Checks whether the incoming email message should be promoted to the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps system.                                                    |
 |              <xref:Microsoft.Crm.Sdk.Messages.CloneAsPatchRequest>              |                                                                                         Creates a solution patch from a managed or unmanaged solution.                                                                                          |
 |            <xref:Microsoft.Crm.Sdk.Messages.CloneAsSolutionRequest>             |                                                                    Creates a new copy of an unmanaged solution that contains the original solution plus all of its patches.                                                                     |
 |             <xref:Microsoft.Crm.Sdk.Messages.CloneContractRequest>              |                                                                                                 Copies an existing contract and its line items.                                                                                                 |
@@ -121,7 +121,7 @@ The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you ne
 |       <xref:Microsoft.Crm.Sdk.Messages.FetchXmlToQueryExpressionRequest>        |                                                                                               Converts a query in Fetch XML to a QueryExpression.                                                                                               |
 |        <xref:Microsoft.Crm.Sdk.Messages.FindParentResourceGroupRequest>         |                                                                     Finds a parent resource group (scheduling group) for the specified resource groups (scheduling groups).                                                                     |
 |           <xref:Microsoft.Crm.Sdk.Messages.FulfillSalesOrderRequest>            |                                                                                                         Fulfills a sales order (order).                                                                                                         |
-|     <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest>     |                                                                       Performs a full-text search on knowledge articles in Dynamics 365 using the specified search text.                                                                        |
+|     <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest>     |                                                                       Performs a full-text search on knowledge articles in Dynamics 365 for Customer Engagement apps using the specified search text.                                                                        |
 |     <xref:Microsoft.Crm.Sdk.Messages.GenerateInvoiceFromOpportunityRequest>     |                                                                                                    Generates an invoice from an opportunity.                                                                                                    |
 |      <xref:Microsoft.Crm.Sdk.Messages.GenerateQuoteFromOpportunityRequest>      |                                                                                                     Generates a quote from an opportunity.                                                                                                      |
 |   <xref:Microsoft.Crm.Sdk.Messages.GenerateSalesOrderFromOpportunityRequest>    |                                                                                                  Generates a sales order from an opportunity.                                                                                                   |
@@ -141,7 +141,7 @@ The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you ne
 |              <xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>               |                                                                                   Grants a security principal (user or team) access to the specified record.                                                                                    |
 |         <xref:Microsoft.Crm.Sdk.Messages.ImportFieldTranslationRequest>         |                                                                                                 Imports localizable attributes for translation.                                                                                                 |
 |        <xref:Microsoft.Crm.Sdk.Messages.ImportMappingsImportMapRequest>         |                                                                                              Imports XML mappings and creates an import data map.                                                                                               |
-|          <xref:Microsoft.Crm.Sdk.Messages.ImportRecordsImportRequest>           |                                                       Submits an asynchronous job that uploads the transformed data into [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].                                                        |
+|          <xref:Microsoft.Crm.Sdk.Messages.ImportRecordsImportRequest>           |                                                       Submits an asynchronous job that uploads the transformed data into [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps.                                                        |
 |             <xref:Microsoft.Crm.Sdk.Messages.ImportSolutionRequest>             |                                                                                                    Imports a managed or unmanaged solution.                                                                                                     |
 |           <xref:Microsoft.Crm.Sdk.Messages.ImportTranslationRequest>            |                                                                                                Imports all translations from a compressed file.                                                                                                 |
 |   <xref:Microsoft.Crm.Sdk.Messages.IncrementKnowledgeArticleViewCountRequest>   |                                                                                        Increments the per day view count of a knowledge article record.                                                                                         |
@@ -216,7 +216,7 @@ The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you ne
 |     <xref:Microsoft.Crm.Sdk.Messages.RetrieveDependenciesForDeleteRequest>      |                                                                  Retrieves the dependencies for solution components that will prevent a solution component from being deleted.                                                                  |
 |    <xref:Microsoft.Crm.Sdk.Messages.RetrieveDependenciesForUninstallRequest>    |                                                                     Retrieves the dependencies for solution components that could prevent uninstalling a managed solution.                                                                      |
 |      <xref:Microsoft.Crm.Sdk.Messages.RetrieveDependentComponentsRequest>       |                                                                                        Retrieves all components that depend on the specified component.                                                                                         |
-|     <xref:Microsoft.Crm.Sdk.Messages.RetrieveDeploymentLicenseTypeRequest>      |                                                                Retrieves the type of license for a deployment of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].                                                                |
+|     <xref:Microsoft.Crm.Sdk.Messages.RetrieveDeploymentLicenseTypeRequest>      |                                                                Retrieves the type of license for a deployment of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps.                                                                |
 |     <xref:Microsoft.Crm.Sdk.Messages.RetrieveDeprovisionedLanguagesRequest>     |                                                                              Retrieves the list of language packs installed on the server that have been disabled.                                                                              |
 |           <xref:Microsoft.Crm.Sdk.Messages.RetrieveDuplicatesRequest>           |                                   Detects and retrieves duplicate records for the specified record, provided duplicate detection is enabled and there are published duplicate detection rules for the entity.                                   |
 |          <xref:Microsoft.Crm.Sdk.Messages.RetrieveEntityRibbonRequest>          |                                                                                           Retrieves the ribbon definition used for a specific entity.                                                                                           |
@@ -226,7 +226,7 @@ The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you ne
 |            <xref:Microsoft.Crm.Sdk.Messages.RetrieveFormXmlRequest>             |                                                                                                [!INCLUDE[internal](../../includes/internal.md)]                                                                                                 |
 |     <xref:Microsoft.Crm.Sdk.Messages.RetrieveInstalledLanguagePacksRequest>     |                                                                                          Retrieves the list of language packs installed on the server.                                                                                          |
 |  <xref:Microsoft.Crm.Sdk.Messages.RetrieveInstalledLanguagePackVersionRequest>  |                                                                                              Retrieves the version of an installed language pack.                                                                                               |
-|          <xref:Microsoft.Crm.Sdk.Messages.RetrieveLicenseInfoRequest>           |                                                              Retrieves the number of licenses for a deployment of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].                                                               |
+|          <xref:Microsoft.Crm.Sdk.Messages.RetrieveLicenseInfoRequest>           |                                                              Retrieves the number of licenses for a deployment of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps.                                                               |
 |           <xref:Microsoft.Crm.Sdk.Messages.RetrieveLocLabelsRequest>            |                                                                                           Retrieves the localized labels for the specified attribute.                                                                                           |
 |     <xref:Microsoft.Crm.Sdk.Messages.RetrieveMailboxTrackingFoldersRequest>     |                                                                                                   Retrieves folder mapping rules for a user.                                                                                                    |
 |      <xref:Microsoft.Crm.Sdk.Messages.RetrieveMembersBulkOperationRequest>      |                                                                                                   Retrieves the members of a bulk operation.                                                                                                    |
@@ -258,7 +258,7 @@ The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you ne
 |          <xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedRequest>           |                                           Retrieves the current saved definition of a Web resource, organization-owned chart, or organization-owned dashboard, whether is has been published or not.                                            |
 |         <xref:Microsoft.Crm.Sdk.Messages.RetrieveUserPrivilegesRequest>         |                                                                 Retrieves all the privileges a system user (user) has through his or her roles in the specified business unit.                                                                  |
 |     <xref:Microsoft.Crm.Sdk.Messages.RetrieveUserSettingsSystemUserRequest>     |                                                             [!INCLUDE[deprecated](../../includes/deprecated.md)] Retrieves the system user settings for the specified system user.                                                              |
-|            <xref:Microsoft.Crm.Sdk.Messages.RetrieveVersionRequest>             |                                                                   Retrieves the version number of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] server.                                                                    |
+|            <xref:Microsoft.Crm.Sdk.Messages.RetrieveVersionRequest>             |                                                                   Retrieves the version number of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps server.                                                                    |
 |             <xref:Microsoft.Crm.Sdk.Messages.RevertProductRequest>              |                     Reverts a product family, product, or bundle record to its last Active state. All the product property (attribute) changes done to the record since it was last published (Active state) will be lost.                      |
 |              <xref:Microsoft.Crm.Sdk.Messages.ReviseQuoteRequest>               |                                                                                                       Sets the state of a quote to Draft.                                                                                                       |
 |              <xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>              |                                                                               Removes all access to a record for the specified security principal (user or team).                                                                               |
@@ -281,7 +281,7 @@ The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you ne
 |             <xref:Microsoft.Crm.Sdk.Messages.SetParentTeamRequest>              |                                                                                                Sets the parent (manager) for the specified team.                                                                                                |
 |               <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>               |                                                                                          Sets the process that associates with a given target entity.                                                                                           |
 |               <xref:Microsoft.Crm.Sdk.Messages.SetRelatedRequest>               |                                                       [!INCLUDE[deprecated](../../includes/deprecated.md)] Creates a link between an opportunity and an account, contact, or competitor.                                                        |
-|            <xref:Microsoft.Crm.Sdk.Messages.SetReportRelatedRequest>            |                                                          Specifies in which areas of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] the report can be run and viewed.                                                           |
+|            <xref:Microsoft.Crm.Sdk.Messages.SetReportRelatedRequest>            |                                                          Specifies in which areas of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps the report can be run and viewed.                                                           |
 |                <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>                |                                                                                                           Sets the state of a record.                                                                                                           |
 |            <xref:Microsoft.Crm.Sdk.Messages.TransformImportRequest>             |                                                                                            Submits an asynchronous job to transform the parsed data.                                                                                            |
 |      <xref:Microsoft.Crm.Sdk.Messages.TriggerServiceEndpointCheckRequest>       |                                                         Validates the configuration of a [!INCLUDE[pn_Windows_Azure](../../includes/pn-windows-azure.md)] solution’s service endpoint.                                                          |

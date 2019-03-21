@@ -1,25 +1,25 @@
 ---
-title: "Configure email for incoming messages (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Configure email for incoming messages (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about configuring email for the incoming messages to deliver directly to a queue."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "email, configuring to deliver to a queue"
-  - "configuring email"
-  - "email, configuring address; delivery methods; router; and filtering"
-  - "email, approval of (ensuring unblocked)"
+  - email, configuring to deliver to a queue
+  - configuring email
+  - email, configuring address; delivery methods; router; and filtering
+  - email, approval of (ensuring unblocked)
 ms.assetid: 24e17276-ee23-4414-a025-030b841ae166
 caps.latest.revision: 51
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

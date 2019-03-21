@@ -1,12 +1,12 @@
 ---
-title: Web resource properties for Main forms in PowerApps | MicrosoftDocs
+title: Web resource properties for Main forms | MicrosoftDocs
 description: Understand the Web resource properties for Main forms
-Keywords: Main form; Web resource properties; Dynamics 365
+Keywords: Main form; Web resource properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.author: matp
 manager: kvivek
 ms.date: 04/26/2018
@@ -20,7 +20,7 @@ search.app:
 ---
 # Web resource properties
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  You can add or edit web resources on a form to make it more appealing or useful to app users. Form enabled web resources are images, HTML files, or [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] controls.  
 

@@ -1,20 +1,20 @@
 ---
-title: "System Settings dialog box - Formats tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "System Settings dialog box - Formats tab for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: a9ac1c00-c7d8-4390-86b1-932f98632cf7
 caps.latest.revision: 10
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,9 +23,9 @@ search.app:
 ---
 # System Settings dialog box - Formats tab
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-You can control how [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] displays numbers, currencies, times, and dates for your organization.  
+You can control how [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps displays numbers, currencies, times, and dates for your organization.  
   
 ## Open the Formats System Settings dialog box (it it isn’t already open)  
   

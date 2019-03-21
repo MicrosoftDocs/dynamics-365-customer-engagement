@@ -1,20 +1,20 @@
 ---
-title: "Authenticate Office 365 users with Customer Engagement web services (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This topic applies to customers who access Dynamics 365 (online) Customer Engagement through the Microsoft Online Services environment. It discusses how Dynamics 365 (online) web service authentication with managed domain and federated identity providers works"
-ms.custom: ""
+title: "Authenticate Office 365 users with Customer Engagement web services (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+description: "This topic applies to customers who access Dynamics 365 for Customer Engagement apps Customer Engagement through the Microsoft Online Services environment. It discusses how Dynamics 365 for Customer Engagement apps web service authentication with managed domain and federated identity providers works"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: bdd3b0f8-bdd7-4604-941e-7308f4c2d83c
 caps.latest.revision: 49
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,13 +24,12 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic applies to customers who access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement through the 
+This topic applies to customers who access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps through the 
 [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. There are multiple 
-[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] identity providers that must be accounted for when you develop an application that connects to the Organization or 
+[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps identity providers that must be accounted for when you develop an application that connects to the Organization or 
 Discovery web services. These providers can be identified as managed domain, federated, and [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]. 
-This topic focuses on [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web service authentication with managed domain and federated identity providers, 
-although the same classes and code shown here also work with all supported identity providers and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] 
-deployment types.  
+This topic focuses on [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps web service authentication with managed domain and federated identity providers, 
+although the same classes and code shown here also work with all supported identity providers and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps deployment types.  
   
 <a name="bkmk_simplified"></a>
    
@@ -70,19 +69,18 @@ AuthenticationCredentials.SupportingCredentials.ClientCredentials = <device cred
 
  If your code checks the identity provider type to determine how to authenticate, then additional code is required. See the `GetCredentials` method in the next section for sample code that supports transitioned [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] users.  
   
- For more information about this transition, see [Dynamics 365 (online) Integration with Office 365](online-integration-office-365.md).  
+ For more information about this transition, see [Dynamics 365 for Customer Engagement apps Integration with Office 365](online-integration-office-365.md).  
   
 <a name="bkmk_deep"></a> 
   
 ## Authentication deep dive  
 
- The previous discussion introduced two simple approaches that can be used to authenticate a user with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] 
-web services. The following information shows how to authenticate a user by using the <xref:Microsoft.Xrm.Sdk.Client.IServiceManagement`1>
+ The previous discussion introduced two simple approaches that can be used to authenticate a user with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web services. The following information shows how to authenticate a user by using the <xref:Microsoft.Xrm.Sdk.Client.IServiceManagement`1>
  class and includes the source code to the `GetProxy` method. 
 To see the complete sample that contains the following examples, see [Sample: Authenticate Office 365 Users](sample-authenticate-users-web-services.md). You will notice that authentication at this level takes a lot more code.  
   
  The following sample code demonstrates the classes and methods that you can use in your application to authenticate an 
-[!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS user using the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services.  
+[!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS user using the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps web services.  
   
  [!code-csharp[AuthenticateWithNoHelp#AuthenticateWithNoHelp3](../snippets/csharp/CRMV8/authenticatewithnohelp/cs/authenticatewithnohelp3.cs#authenticatewithnohelp3)]  
 
@@ -110,8 +108,8 @@ proxy constructor. The generic `GetProxy` method shown previously can be used to
   
 ### See also 
  
- [Connect with Microsoft Office 365 and Dynamics 365 (online)](connect-microsoft-office-365.md)
+ [Connect with Microsoft Office 365 and Dynamics 365 for Customer Engagement apps](connect-microsoft-office-365.md)
  [Sample: Authenticate Office 365 Users](sample-authenticate-users-web-services.md)   
  [Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
- [Use connection strings in XRM tooling to connect to Dynamics 365](xrm-tooling/use-connection-strings-xrm-tooling-connect.md)
+ [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement apps](xrm-tooling/use-connection-strings-xrm-tooling-connect.md)

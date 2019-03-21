@@ -1,25 +1,25 @@
 ---
-title: "Sample: Create a LINQ query (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Create a LINQ query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to create simple .NET Language-Integrated Query (LINQ) queries"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "LINQ query examples and samples, creating simple LINQ queries sample"
-  - "simple LINQ queries sample"
-  - "creating simple LINQ queries sample"
-  - "sample for creating simple LINQ queries"
+  - LINQ query examples and samples, creating simple LINQ queries sample
+  - simple LINQ queries sample
+  - creating simple LINQ queries sample
+  - sample for creating simple LINQ queries
 ms.assetid: 43b26b09-636e-4781-8477-65454c4c5232
 caps.latest.revision: 19
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

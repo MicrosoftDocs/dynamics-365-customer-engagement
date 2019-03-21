@@ -1,12 +1,12 @@
 ---
 title: "Use filters to see relevant data in Social Engagement | Microsoft Docs"
 description: "Learn how to use filters to create useful data sets."
-keywords: "filter, data set"
+keywords: filter, data set
 ms.date: 10/17/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 30c01cd4-4df3-42db-a10b-48ddb67e67c4
 author: m-hartmann
 ms.author: mhart
@@ -57,7 +57,7 @@ You can use [filters](understand-filters.md) to slice and dice your data to narr
  In some cases,  filter options are available, but  selecting them results in a data set with zero posts because the filters are conflicting. You’ll see a notification next to the affected filters if a specific combination is required, or if a combination isn’t possible due to a conflict. For example, the Reach filter is only available for News and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] sources. In this case, selecting exclusively the Videos source won’t work if you have a Reach filter selected. Also, some filters will not be displayed for certain areas because they are not applicable.  
   
 > [!NOTE]
->  The Sentiment status, Assignee, Labels,  Link to Dynamics 365, and Custom Tags filters do not display for alerts, activity maps, or automation rules.  
+>  The Sentiment status, Assignee, Labels, Link to Dynamics 365, and Custom Tags filters do not display for alerts, activity maps, or automation rules.  
   
 ## Add, edit, or remove a filter  
  Customize your data set with filters. Add filters to your analysis by drilling down or by adding filters to the filter section.  

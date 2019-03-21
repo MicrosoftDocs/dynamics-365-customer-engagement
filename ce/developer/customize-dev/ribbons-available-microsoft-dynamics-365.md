@@ -1,33 +1,33 @@
 ---
-title: "Ribbons available in Microsoft Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The topic describes where ribbons are defined and modified in Dynamics 365 (online) Customer Engagement."
-ms.custom: ""
+title: "Ribbons available in Microsoft Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "The topic describes where ribbons are defined and modified in Dynamics 365 for Customer Engagement (online) Customer Engagement."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "ribbon, sub-grid"
-  - "ribbon, jewel"
-  - "ribbon, grid"
-  - "ribbon, Outlook"
-  - "ribbon, basic home tab"
-  - "ribbon, form"
+  - ribbon, sub-grid
+  - ribbon, jewel
+  - ribbon, grid
+  - ribbon, Outlook
+  - ribbon, basic home tab
+  - ribbon, form
 ms.assetid: 86157a46-ba82-4678-a1df-82173a37b3ab
 caps.latest.revision: 38
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Ribbons available in Dynamics 365 Customer Engagement
+# Ribbons available in Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -111,7 +111,7 @@ This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dyna
      Activities are the exception to this pattern. The add command will always prompt for the type of activity first.
 
      > [!NOTE]
-     >  Offline mode in Dynamics 365 does not support many-to-many relationship on custom entities. Due to this, the **Add New** button on a sub grid in Dynamics 365 offline mode will not be displayed.
+     >  Offline mode in Dynamics 365 for Customer Engagement does not support many-to-many relationship on custom entities. Due to this, the **Add New** button on a sub grid in Dynamics 365 for Customer Engagement offline mode will not be displayed.
 
 - **Show List** The command with the ![Open view button](../media/customization-open-view.PNG "Open view button") icon will open the full list where all available commands can be used.  
 
@@ -180,5 +180,5 @@ This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dyna
  It is not possible to use a `<PageRule>` to enable or display custom ribbon components on custom pages.  
 
 ### See also  
- [Customize the Ribbon for Microsoft Dynamics 365](customize-commands-ribbon.md)   
+ [Customize the Ribbon for Microsoft Dynamics 365 for Customer Engagement](customize-commands-ribbon.md)   
  [Command bar or ribbon presentation](command-bar-ribbon-presentation.md)

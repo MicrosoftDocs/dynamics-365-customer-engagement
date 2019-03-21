@@ -1,11 +1,11 @@
 ---
 title: Enable entities for service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: See how to enable entities for service level agreements in Dynamics 365 for Customer Service
-keywords: Enable entities for service level agreements; Dynamics 365; Customer Service
+keywords: Enable entities for service level agreements; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
@@ -61,15 +61,15 @@ Previously, you could only create SLAs for case records. With Dynamics CRM Onlin
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3. Click **Customize the System**.  
+3. Select **Customize the System**.  
   
-4. In the solution explorer, in the left nav pane, click the entity that you want to enable for SLA.  
+4. In the solution explorer, in the left nav pane, select the entity that you want to enable for SLA.  
   
 5. Under **Communication & Collaboration**, select the **Enable for SLA** check box.  
   
-6. Click **Save**.  
+6. Select **Save**.  
   
-7. Click **Publish**.  
+7. Select **Publish**.  
   
 > [!NOTE]
 > - The maximum number of entities that can have active SLAs for your organization is 7.  

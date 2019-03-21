@@ -1,13 +1,13 @@
 ---
-title: "Grids and subgrids in Customer Engagement for Dynamics 365| MicrosoftDocs"
+title: "Grids and subgrids in Customer Engagement for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 11/10/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9d35c036-637f-4580-8ba0-027a44c0fdee
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -40,7 +40,7 @@ Grid context is the grid or subgrid instance on a form against which you want to
 |[Grid OnSave](events/grid-onsave.md)|Occurs before sending the updated information to the server, and when any of the following occurs: there is a change in the record selection, the user explicitly triggers a save operation using the editable grid’s save button, or the user applies a sort, filter, group, pagination, or navigation operation from the editable grid while there are pending changes.|Editable grid|
 
 >[!NOTE]
->You can register for the **OnChange**, **OnRecordSelect**, and **OnSave** events using the **Events** tab of the Dynamics 365 Customer Engagement page that is used to enable editable grids for an entity or a read-only grid.
+>You can register for the **OnChange**, **OnRecordSelect**, and **OnSave** events using the **Events** tab of the Dynamics 365 for Customer Engagement apps page that is used to enable editable grids for an entity or a read-only grid.
 
 ## Methods
 
@@ -64,5 +64,5 @@ Grid context is the grid or subgrid instance on a form against which you want to
 
 [Client API Reference for Customer Engagement](../reference.md)
 
-[Developer Guide for Dynamics 365 Customer Engagement](../../developer-guide.md)
+[Developer Guide for Dynamics 365 for Customer Engagement apps](../../developer-guide.md)
 

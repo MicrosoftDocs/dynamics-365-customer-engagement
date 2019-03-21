@@ -1,30 +1,30 @@
 ---
-title: "Time zone entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Time zone entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The time zone entities contain time zone information, such as supported time zone, time zone code, localized time zone, storing information on how times are calculated."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "time zone definition entity, definition"
-  - "local time"
-  - "time zone localized name entity, definition"
-  - "GMT"
-  - "UTC"
-  - "time zone entities, UTC and local time"
-  - "time zone rule entity, definition"
-  - "time zone entities, writing code for multiple time zones"
-  - "time zone entities, multiple time zones"
+  - time zone definition entity, definition
+  - local time
+  - time zone localized name entity, definition
+  - GMT
+  - UTC
+  - time zone entities, UTC and local time
+  - time zone rule entity, definition
+  - time zone entities, writing code for multiple time zones
+  - time zone entities, multiple time zones
 ms.assetid: 87b89e1e-bca8-4934-9bd4-978676ccf5d1
 caps.latest.revision: 19
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

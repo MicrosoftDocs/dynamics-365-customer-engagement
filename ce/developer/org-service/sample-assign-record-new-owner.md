@@ -1,13 +1,13 @@
 ---
-title: "Sample: Assign a record to a new owner (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Assign a record to a new owner (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to assign an account to another user by using the AssignRequest message"
-keywords: ""
+keywords: 
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b8a256a4-e858-44bc-aff7-26b4d670fc61
 author: JimDaly
 ms.author: jdaly
@@ -16,10 +16,10 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
-  - "samples for early-bound classes, assigning records to new owners sample"
-  - "assigning records to new owners sample, early-bound class samples"
-  - "early-bound class samples, assigning records to new owners sample"
-  - "sample for assigning records to new owners"
+  - samples for early-bound classes, assigning records to new owners sample
+  - assigning records to new owners sample, early-bound class samples
+  - early-bound class samples, assigning records to new owners sample
+  - sample for assigning records to new owners
 topic-status: Drafting
 search.audienceType: 
   - developer
@@ -38,9 +38,12 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
   
 ## Requirements  
  This sample code requires that you have administrator rights to create a new user. [!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]  
-  
+ 
+> [!NOTE]
+> This sample uses the `IOrganization.Update` method rather than the `AssignRequest` because there is an effort to remove specialized messages. More information: [Perform speciliazed operations using update](perform-specialized-operations-using-update.md)
+
 ## Example  
- This sample shows how to assign an account to another user by using the <xref:Microsoft.Crm.Sdk.Messages.AssignRequest> message.  
+ This sample shows how to assign an account to another user by using the [IOrganizationService.Update](https://docs.microsoft.com/en-us/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9) message.  
   
 ```csharp
 using System;
@@ -110,19 +113,15 @@ namespace Microsoft.Crm.Sdk.Samples
 
                     // Call the method to create any data that this sample requires.
                     CreateRequiredRecords();
-
-                    // Create the Request Object and Set the Request Object's Properties
-                    AssignRequest assign = new AssignRequest
-                        {
-                            Assignee = new EntityReference(SystemUser.EntityLogicalName,
-                                _otherUserId),
-                            Target = new EntityReference(Account.EntityLogicalName,
-                                _accountId)
-                        };
-
+                    
+		    // Retrieve the account record created
+                    Entity accountRecord = _service.Retrieve("account", _accountId, new ColumnSet(true));
+                    
+		    //Updated the ownerid attribute to the user who want to own the record
+                    accountRecord["ownerid"] = new EntityReference(SystemUser.EntityLogicalName, _otherUserId);
 
                     // Execute the Request
-                    _service.Execute(assign);
+                   _service.Update(accountRecord);
 
                     Console.WriteLine("The account is owned by new owner.");
 
@@ -302,9 +301,7 @@ namespace Microsoft.Crm.Sdk.Samples
   
 ### See also  
  [Use the Early Bound Entity Classes in Code](use-early-bound-entity-classes-code.md)   
- [Sample: Serialize and Deserialize an Entity Instance](sample-serialize-deserialize-entity-instance.md)   
- <xref:Microsoft.Crm.Sdk.Messages.AssignRequest>   
- [Assign](../introduction-entities.md#assign)   
+ [Sample: Serialize and Deserialize an Entity Instance](sample-serialize-deserialize-entity-instance.md)     
  [Entity ownership](../introduction-entities.md#entity-ownership)   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  [Sample: CrmServiceHelper Class](helper-code-serverconnection-class.md)

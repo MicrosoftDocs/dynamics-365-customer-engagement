@@ -1,30 +1,30 @@
 ---
-title: "Subject entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Subject entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "learn about subject categorizing entity records, such as articles and sales literature. Using subjects you can create a hierarchy of topics to organize and maintain information."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "creating a hierarchy of records, subject entity"
-  - "organizing information, subject entity"
-  - "subject entity, creating a hierarchy of records"
-  - "information, catagorizing and organizing"
-  - "subject entity, catagorizing entity records"
-  - "catagorizing entity records, subject entity"
-  - "subject entity, organizing information"
-  - "subject trees"
-  - "catagorizing information, KB articles, cases, products, and sales literature"
+  - creating a hierarchy of records, subject entity
+  - organizing information, subject entity
+  - subject entity, creating a hierarchy of records
+  - information, catagorizing and organizing
+  - subject entity, catagorizing entity records
+  - catagorizing entity records, subject entity
+  - subject entity, organizing information
+  - subject trees
+  - catagorizing information, KB articles, cases, products, and sales literature
 ms.assetid: c3d439be-9ef8-4d59-8638-7df9dadf2cf8
 caps.latest.revision: 15
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

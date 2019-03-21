@@ -1,20 +1,20 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 05/16/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-author: "mduelae"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps Version 9.x
+author: mduelae
 ms.assetid: 7f992770-8c7b-48ba-806a-63a3634d209c
 caps.latest.revision: 7
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer
@@ -25,7 +25,7 @@ search.app:
 ---
 # Configure mobile offline synchronization to allow users to work in offline mode on their mobile device 
 
-Provide an enhanced offline experience for mobile users using Dynamics 365. Once offline synchronisation is turned on, mobile users can seamlessly work in offline mode on their mobile device when they don't have an internet connection.   
+Provide an enhanced offline experience for mobile users using Dynamics 365 for Customer Engagement apps. Once offline synchronisation is turned on, mobile users can seamlessly work in offline mode on their mobile device when they don't have an internet connection.   
   
  This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
  
@@ -91,7 +91,7 @@ To enable more entities for offline, follow the steps below.
 > -   The number of days you specify since records were last modified  
 > -   The filters you set while creating mobile offline profiles  
   
-1.  In the **Dynamics 365 - custom** app, go to **Settings > Customizations**.  
+1.  In the **Dynamics 365 for Customer Engagement apps - custom** app, go to **Settings > Customizations**.  
   
 2.  Click **Customize the System**.  
   
@@ -122,7 +122,7 @@ In this step, you need to turn on mobile offline synchronization. The data for t
 
 To enable offline synchronization, follow the steps below.
  
-1. In the **Dynamics 365 - custom** app, go to **Settings** > **Mobile Offline**. If you don’t see this option, please contact tech support.  
+1. In the **Dynamics 365 for Customer Engagement apps - custom** app, go to **Settings** > **Mobile Offline**. If you don’t see this option, please contact tech support.  
   
 2. Click **Mobile Offline Configuration**.  
   
@@ -307,7 +307,7 @@ To make a mobile offline profile available to users so they can get the mobile o
 
 Enable mobile offline for a specific app from MyApps page.
 
-1. In the **Dynamics 365- custom** app, go to **Settings** > **My Apps**.
+1. In the **Dynamics 365 for Customer Engagement apps- custom** app, go to **Settings** > **My Apps**.
 
 2. From the list of published apps, select an app you want to enable for mobile offline.  
 

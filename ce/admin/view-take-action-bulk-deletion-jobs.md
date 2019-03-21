@@ -1,20 +1,20 @@
 ---
-title: "View and take action on Dynamics 365 Customer Engagement bulk deletion jobs | MicrosoftDocs"
-ms.custom: ""
+title: "View and take action on Dynamics 365 for Customer Engagement apps bulk deletion jobs | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 8a7e3846-a054-46d6-8a60-898b2c17523d
 caps.latest.revision: 24
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # View and take action on bulk deletion jobs
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can view the status of, pause, postpone, and resume a system job that you created using **Bulk Record Deletion**.  
   

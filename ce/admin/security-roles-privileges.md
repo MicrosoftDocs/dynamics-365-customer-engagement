@@ -1,21 +1,21 @@
 ---
 title: "Security roles and privileges | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/13/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 02/20/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "PowerApps"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+  - PowerApps
 ms.assetid: 460766f2-4b19-4406-8fd0-fff46d4cbb5e
 caps.latest.revision: 21
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: Mattp123
+ms.author: matp
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -24,12 +24,12 @@ search.app:
 ---
 # Security roles and privileges
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] <br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] <br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 To control data access, you must set up an organizational structure that both protects sensitive data and enables collaboration. You do this by setting up business units, security roles, and field security profiles.  
 
 > [!TIP]
-> Check out the following video: [How to set up security roles in Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=2020433).
+> Check out the following video: [How to set up security roles in Dynamics 365 for Customer Engagement](https://go.microsoft.com/fwlink/p/?linkid=2020433).
   
 ## Security roles  
  A security role defines how different users, such as salespeople, access different types of records. To control access to data, you can modify existing security roles, create new security roles, or change which security roles are assigned to each user. Each user can have multiple security roles.  
@@ -65,8 +65,8 @@ To control data access, you must set up an organizational structure that both pr
 |**Read**|Required to open a record to view the contents. The records that can be read depends on the access level of the permission defined in your security role.|  
 |**Write**|Required to make changes to a record. The records that can be changed depends on the access level of the permission defined in your security role.|  
 |**Delete**|Required to permanently remove a record. The records that can be deleted depends on the access level of the permission defined in your security role.|  
-|**Append**|Required to associate a record with the current record. For example, if a user has Append rights on an opportunity, the user can add a note to an opportunity. The records that can be appended depends on the access level of the permission defined in your security role.|  
-|**Append To**|Required to associate the current record with another record. For example, a note can be attached to an opportunity if the user has Append To rights on the note. The records that can be appended to depends on the access level of the permission defined in your security role.|  
+|**Append**|Required to associate a record with the current record. For example, a note can be attached to an opportunity if the user has Append rights on the note. The records that can be appended depends on the access level of the permission defined in your security role. <br /> With many-to-many relationships, you must have the Append privilege for both entities being associated or disassociated.  |  
+|**Append To**|Required to associate the current record with another record. For example, if a user has Append To rights on an opportunity, the user can add a note to the opportunity. The records that can be appended to depends on the access level of the permission defined in your security role.|  
 |**Assign**|Required to give ownership of a record to another user. The records that can be assigned depends on the access level of the permission defined in your security role.|  
 |**Share**|Required to give access to a record to another user while keeping your own access. The records that can be shared depends on the access level of the permission defined in your security role.|  
   
@@ -78,6 +78,6 @@ To control data access, you must set up an organizational structure that both pr
  It’s not possible to remove access for a particular record. Any change to a security role privilege applies to all records of that record type.  
   
 ### See also  
- [Security concepts for Microsoft Dynamics 365](../admin/security-concepts.md)   
+ [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
  [Create or edit a security role](../admin/create-edit-security-role.md)

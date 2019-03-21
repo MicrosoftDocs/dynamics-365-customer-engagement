@@ -1,20 +1,20 @@
 ---
-title: "Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The walkthrough demonstrates how to register a service endpoint step using the Plug-in Registration Tool. "
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: adc9af13-8505-4701-ab74-064df1f346a0
 caps.latest.revision: 64
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -30,19 +30,19 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 
 - Access to the Plug-in Registration Tool. [!INCLUDE[proc-download-plugin-registration-tool](../includes/proc-download-plugin-registration-tool.md)] 
 
-- Your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system user account must have the System Customizer or System Administrator role. For more information, see [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365](security-dev/how-role-based-security-control-access-entities.md).  
+- Your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system user account must have the System Customizer or System Administrator role. For more information, see [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 for Customer Engagement](security-dev/how-role-based-security-control-access-entities.md).  
 
 - Have access to a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] platform service namespace that is configured for SAS authorization, to which [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will post a message.  
 
 
 - If you plan to use any other [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] messaging entity other than a queue, for example a relay, there must be a listener application actively listening to the specified solution endpoint for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to successfully post to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. For more information, see [Write a Listener for an Azure Solution](write-listener-application-azure-solution.md).  
 
-- A configured service endpoint with SAS authorization is available in the target organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365](walkthrough-configure-azure-sas-integration.md).  
+- A configured service endpoint with SAS authorization is available in the target organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 for Customer Engagement](walkthrough-configure-azure-sas-integration.md).  
 
 ## Steps  
  This walkthrough contains the following steps:  
 
-1.  [Connect to the Dynamics 365 server](#BKMK_Connect)  
+1.  [Connect to the Dynamics 365 for Customer Engagement server](#BKMK_Connect)  
 
 2.  [Register a service endpoint step for an event](#BKMK_Register)  
 
@@ -103,5 +103,5 @@ This walkthrough demonstrates how to register a service endpoint step using the 
    You can now unregister the endpoint, if so desired, by selecting it in the tool’s tree view and click **Unregister**.  
 
 ### See also  
- [Azure Extensions for Dynamics 365](azure-extensions.md)   
- [Introduction to Microsoft Azure Integration with Dynamics 365](azure-integration.md)
+ [Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)   
+ [Introduction to Microsoft Azure Integration with Dynamics 365 for Customer Engagement apps](azure-integration.md)

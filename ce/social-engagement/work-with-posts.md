@@ -1,12 +1,12 @@
 ---
 title: "Work with posts in Social Engagement | Microsoft Docs"
 description: "Learn how to interact with posts and how to perform internal actions."
-keywords: "publish, sentiment, tag, assign"
+keywords: publish, sentiment, tag, assign
 ms.date: 10/17/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: bf6392aa-e9e1-44b6-8f80-f17c21caa793
 author: m-hartmann
 ms.author: mhart
@@ -139,8 +139,8 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engageme
 4.  Click **Remove** and then confirm your selection.  
   
 <a name="link_post"></a>   
-## Link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to Dynamics 365  
- [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] allows users to create a link from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to an entity in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance. When you link a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, it creates a social activity. Your administrator can define rules to process this social activity in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
+## Link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to Dynamics 365 for Customer Engagement  
+ [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] allows users to create a link from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to an entity in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance. When you link a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, it creates a social activity. Your administrator can define rules to process this social activity in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 for Customer Engagement record from a social post](create-dynamics-365-record-from-social-post.md)  
   
 <a name="privacy"></a>   
 ### Privacy notice  

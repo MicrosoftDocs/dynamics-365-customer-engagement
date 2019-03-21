@@ -1,20 +1,19 @@
 ---
 title: "Business process flows overview | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 06/04/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "PowerApps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4469877e-bb95-481a-bc52-c9746f937ce5
 caps.latest.revision: 16
-ms.author: "matp"
-manager: brycho
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -22,7 +21,7 @@ search.app:
 ---
 # Business process flows overview
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can help ensure that people enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that people get approval for an invoice before submitting an order. Business process flows use the same underlying technology as other processes, but the capabilities that they provide are very different from other features that use processes. To learn how to create or edit a business process flow, see [Create a business process flow](../customize/create-business-process-flow.md).  
   
@@ -30,7 +29,7 @@ You can help ensure that people enter data consistently and follow the same step
   
 <a name="BKMK_Why"></a>   
 ## Why use business process flows?  
-Business process flows provide a guide for people to get work done. They provide a streamlined user experience that leads people through the processes their organization has defined for interactions that need to be advanced to a conclusion of some kind. This user experience can be tailored so that people with different security roles can have an experience that best suites the work they do.  
+Business process flows provide a guide for people to get work done. They provide a streamlined user experience that leads people through the processes their organization has defined for interactions that need to be advanced to a conclusion of some kind. This user experience can be tailored so that people with different security roles can have an experience that best suits the work they do.  
   
  Use business process flows to define a set of steps for people to follow to take them to a desired outcome. These steps provide a visual indicator that tells people where they are in the business process. Business process flows reduce the need for training because new users don’t have to focus on which entity they should be using. They can let the process guide them. You can configure business process flows to support common sales methodologies that can help your sales groups achieve better results. For service groups, business process flows can help new staff get up-to-speed more quickly and avoid mistakes that could result in unsatisfied customers.  
   
@@ -110,7 +109,7 @@ You can assign the following privileges on a business process flow:
  You can define business process flows only for those entities that support them. You also need to be aware of the limits for the number of processes, stages, and steps that can be added.  
   
 ### Business process flows that call a workflow  
- You can now call on-demand workflows from inside a business process flow. You can configure this from the new business process flow designer by dragging a workflow component to a process stage or to the Global Workflows section. For more information about using workflows in business process flows, see [Blog: Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/).  
+ You can now call on-demand workflows from inside a business process flow. You can configure this from the new business process flow designer by dragging a workflow component to a process stage or to the Global Workflows section. For more information about using workflows in business process flows, see [Blog: Business process flow automation in Dynamics 365 for Customer Engagement](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/).  
   
  When you include a workflow that you want to trigger on Stage Exit of a stage in your business process flow, and that stage is  the last stage in the flow, the designer gives the impression that the workflow will be triggered when that stage is completed. However, the workflow will not be triggered because a stage transition does not take place. You will not receive a warning or error preventing you from including the workflow on the stage. When a user interacts with the business process flow, finishing or abandoning the process does not result in a stage transition, and therefore the workflow is not triggered. Consider the following examples:  
   
@@ -194,7 +193,7 @@ Currently, you can’t create custom forms for entities based on a business proc
  [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)   
  [Create a business process flow](../customize/create-business-process-flow.md)   
  [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md) <br/>
- [Whitepaper: Process Enablement with Dynamics 365](http://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>
+ [Whitepaper: Process Enablement with Dynamics 365 for Customer Engagement](http://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>
  [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)</br>
  [Workflow Processes](../customize/workflow-processes.md)   
  [Actions - Overview](../customize/actions.md)

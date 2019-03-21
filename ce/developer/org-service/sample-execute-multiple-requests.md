@@ -1,20 +1,20 @@
 ---
-title: "Sample: Execute multiple requests (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Execute multiple requests (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample uses a single web method call to execute multiple message requests"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 39f237ea-8805-4a45-925e-2663ff635611
 caps.latest.revision: 18
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Sending a large number of individual organization message requests over a network, as you would do in a bulk data import operation, is affected by network performance. For improved performance, [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement supports batching of requests into a single web service method call.  
+Sending a large number of individual organization message requests over a network, as you would do in a bulk data import operation, is affected by network performance. For improved performance, [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps supports batching of requests into a single web service method call.  
   
  This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with multiple requests](https://code.msdn.microsoft.com/Sample-Execute-multiple-ec698fa3). 
 

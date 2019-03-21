@@ -1,15 +1,15 @@
 ---
-title: "Role Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Role Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Role entity."
 ms.date: 12/05/2017
-ms.service: "crm-online"
-ms.topic: "reference"
+ms.service: crm-online
+ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
 search.audienceType: 
   - developer
 search.app: 
@@ -60,6 +60,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [CanBeDeleted](#BKMK_CanBeDeleted)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [IsInherited](#BKMK_IsInherited)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [RoleId](#BKMK_RoleId)
@@ -93,6 +94,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|ManagedProperty|
 
 
+
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
 |Property|Value|
@@ -122,6 +124,26 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|ManagedProperty|
 
+### <a name="BKMK_IsInherited"></a> IsInherited
+
+|Property|Value|
+|--------|-----|
+|Description|Role is inherited by users from team membership, if role associated with team.|
+|DisplayName|Customizable|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForCreate|True|
+|IsValidForUpdate|True|
+|LogicalName|isinherited|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+
+#### IsHerited Options
+
+|Value|Label|
+|-----|-----|
+|0|Default - Team privileges only|
+|1|Direct User (Read) access level and Team privileges|
 
 ### <a name="BKMK_Name"></a> Name
 
@@ -831,6 +853,6 @@ See team Entity [teamroles_association](team.md#BKMK_teamroles_association) Many
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.role?text=role EntityType" />

@@ -1,9 +1,9 @@
 ---
-title: "Configure a load form and load tab step type for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure a load form and load tab step type for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to define a load form and load tab step type in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -54,7 +54,7 @@ This step type allows the web form step to act as an entity form within the over
 |  Enable Validation Summary Links   | A Boolean value of true or false that indicates whether anchor links should be rendered in the validation summary to scroll to the field containing an error. Default: true |
 |    Validation Summary Link Text    |                                                   The label assigned to the validation summary links. Default: Click here                                                   |
 |            Instructions            |                                                               Display a block of text at the top of the form.                                                               |
-|      Record Not Found Message      |                          Message displayed when the source record cannot be loaded. Default: "The record you are looking for could not be found."                           |
+|      Record Not Found Message      |                          Message displayed when the source record cannot be loaded. Default: The record you are looking for could not be found.                           |
 
 ## Form options
 
@@ -114,12 +114,12 @@ This provides a way to associate the current record being created or updated by 
 |                             Label                              |                                                                                          The text displayed next to the file upload control. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language.                                                                                           |
 |                          Is Required                           |                                                                                                                                                                                           Checked makes the attachment of a file required to proceed.                                                                                                                                                                                           |
 |                     Required Error Message                     |                                                               The message displayed during form validation if Is Required is true and the user has not attached a file. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization a field will be available to enter the message in the associated language.                                                                |
-| Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] | A custom block of [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] that will added to the bottom of the page just before the closing form tag element. The HTML input id of an entity field is set to the logical name of the attribute. This makes selecting a field, setting values, or other client side manipulation easy with jQuery. ``` $(document).ready(function() { $("#address1_stateorprovince").val("Saskatchewan"); });``` |
+| Custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] | A custom block of [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] that will added to the bottom of the page just before the closing form tag element. The HTML input id of an entity field is set to the logical name of the attribute. This makes selecting a field, setting values, or other client side manipulation easy with jQuery. ``` $(document).ready(function() { $(#address1_stateorprovince).val(Saskatchewan); });``` |
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Redirect step type](add-redirect-step.md)  
 [Conditional step type](add-conditional-step.md)  

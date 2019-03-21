@@ -1,21 +1,20 @@
 ---
 title: "Set up double opt-in (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to set up the double opt-in system to let contacts confirm their new subscriptions and consent changes in Dynamics 365 for Marketing"
-keywords: "double opt-in;gdpr;subscriptions;consent"
-ms.date: 08/23/2018
-ms.service:
-  - "dynamics-365-marketing"
+keywords: double opt-in;gdpr;subscriptions;consent
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
 ms.custom:
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: dacfc72e-978c-41d1-b4c6-8c5b66042770
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 ---
 
@@ -35,11 +34,11 @@ The double opt-in process works as follows:
 
 Double opt-in is a good idea in all countries/regions, and in many countries/regions (especially in Europe), it's required by law.
 
-Read this topic to learn how to set up each element required for the double opt-in system and how to enable double opt-in for your site.
+Read this topic to learn how to set up each element required for the double opt-in system and how to enable double opt-in for your instance.
 
 ## Create a subscription confirmation-request message
 
-A subscription confirmation-request message is sent to contacts each time they register for a new newsletter subscription while double opt-in is enabled for your site. This applies both to known contacts using a subscription center, and for new contacts registering on your site for the first time.
+A subscription confirmation-request message is sent to contacts each time they register for a new newsletter subscription while double opt-in is enabled for your instance. This applies both to known contacts using a subscription center, and for new contacts registering for the first time.
 
 > [!NOTE]
 > [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] sends a separate confirmation-request message for each subscription list a contact chooses to join, even if they enable several lists at once.
@@ -142,7 +141,7 @@ You might have just one content-settings record set up for your system, which yo
 
 Review your content-settings records and decide which to use (or create a new one if needed).
 
-You will choose the content-settings record to use for all confirmation-request messages when you set up double opt-in for your site, as described later in this topic.
+You will choose the content-settings record to use for all confirmation-request messages when you set up double opt-in for your instance, as described later in this topic.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
 
@@ -152,7 +151,7 @@ When a contact clicks the confirmation link in a confirmation email, [!INCLUDE[p
 
 <a name="set-up-doi"></a>
 
-## Set up and enable double opt-in on your site
+## Set up and enable double opt-in on your instance
 
 The double opt-in feature is global for your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance. When it's enabled, all new-subscription and increase-consent requests will require double opt-in and the same settings will apply everywhere.
 
@@ -175,10 +174,10 @@ To set up and enable the double opt-in system:
 1. Make the following settings:
 
     - **Enable double opt-in**: Set to **Yes** to enable double opt-in on your instance. Set to **No** to disable it.
-    - **New subscription**: Identify the marketing email message you created to send to contacts when they add themselves to a subscription list.
-    - **Increase consent**: Identify the marketing email message you created to send to contacts when they submit a request to increase their consent level.
+    - **Subscriptions**: Identify the marketing email message you created to send to contacts when they add themselves to a subscription list.
+    - **Consent**: Identify the marketing email message you created to send to contacts when they submit a request to increase their consent level.
+    - **Thank-you page for newsletters**: Select a marketing page to show to contacts after they confirm a new subscription.
+    - **Thank-you page**: Select a marketing page to show to contacts after they confirm an increase of their consent level.
     - **Content settings**: Identify the content-settings record you chose to use for all double opt-in messages.
-    - **Thank-you page for subscriptions**: Select a marketing page to show to contacts after they confirm a new subscription.
-    - **Thank-you page for consent**: Select a marketing page to show to contacts after they confirm an increase of their consent level.
 
 1. Select the **Save** button in the bottom-right corner to save your settings.

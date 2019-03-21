@@ -191,7 +191,7 @@ Namespace Microsoft.Crm.Sdk.Samples
 		End Sub
 
 		''' <summary>
-		''' Retrive the local time from the UTC time.
+		''' Retrieve the local time from the UTC time.
 		''' </summary>
 		''' <param name="utcTime"></param>
 		Private Sub RetrieveLocalTimeFromUTCTime(ByVal utcTime As Date)

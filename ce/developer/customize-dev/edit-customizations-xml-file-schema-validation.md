@@ -1,22 +1,22 @@
 ---
 title: "Edit the customizations XML file with schema validation | MicrosoftDocs"
 description: "The customizations.xml file is included within the compressed .zip file exported as a solution. Certain portions of the customizations.xml file can be edited manually. Information about the schema helps you confirm that any modifications you make are valid."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "schemas"
+  - schemas
 ms.assetid: d521a59d-a542-4dce-ab1a-43582756436c
 caps.latest.revision: 19
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -80,7 +80,7 @@ The customizations.xml file is included within the compressed .zip file exported
   
 ### See also
 
- [When to Edit the Customizations File for Dynamics 365 Customer Engagement](when-edit-customization-file.md)   
+ [When to Edit the Customizations File for Dynamics 365 for Customer Engagement](when-edit-customization-file.md)   
  [Ribbon core schema](ribbon-core-schema.md)
  [Ribbon types schema](ribbon-types-schema.md)
  [Ribbon WSS schema](ribbon-wss-schema.md)

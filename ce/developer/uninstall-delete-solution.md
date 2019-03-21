@@ -1,28 +1,28 @@
 ---
-title: "Uninstall or delete a solution (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This doc describes how uninstall and delete actions work for managed and unmanaged solution in Dynamics 365"
-ms.custom: ""
+title: "Uninstall or delete a solution (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+description: "This doc describes how uninstall and delete actions work for managed and unmanaged solution in Dynamics 365 for Customer Engagement"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "uninstalling or deleting solutions, deleting unmanaged solutions"
-  - "uninstalling or deleting solutions, results of deleting managed vs. unmanaged solutions"
-  - "uninstalling or deleting solutions, how to"
-  - "deleting managed vs. unmanaged solutions, results of"
-  - "uninstalling or deleting solutions, deleting (uninstalling) managed solutions"
-  - "deleting (uninstalling) managed solutions"
-  - "deleting unmanaged solutions"
+  - uninstalling or deleting solutions, deleting unmanaged solutions
+  - uninstalling or deleting solutions, results of deleting managed vs. unmanaged solutions
+  - uninstalling or deleting solutions, how to
+  - deleting managed vs. unmanaged solutions, results of
+  - uninstalling or deleting solutions, deleting (uninstalling) managed solutions
+  - deleting (uninstalling) managed solutions
+  - deleting unmanaged solutions
 ms.assetid: 0201e06a-2102-4ea1-a348-93714226e175
 caps.latest.revision: 25
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -66,7 +66,7 @@ You delete managed and unmanaged solutions in the same way, but the resulting ac
 ```  
   
 ### See also  
- [Package and Distribute Extensions with Dynamics 365 Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
  [Delete a Solution](work-solutions.md#BKMK_DeleteSolution)   
  [Introduction to Solutions](introduction-solutions.md)   
  [Planning for Solution Development](plan-solution-development.md)   

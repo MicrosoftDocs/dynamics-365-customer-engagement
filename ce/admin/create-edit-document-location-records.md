@@ -1,20 +1,20 @@
 ---
-title: "Create or edit document location records for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Create or edit document location records for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: e0bacd7b-f84d-4856-a192-2bb564188160
 caps.latest.revision: 5
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: Mattp123
+ms.author: matp
+manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -23,11 +23,11 @@ search.app:
 ---
 # Create or edit document location records
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-[!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document locations are records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that point to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document library or folder.  
+[!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document locations are records in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps that point to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document library or folder.  
   
- To store documents for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records, the document libraries or folders must be in place. If [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is unable to create the document libraries and folders automatically, you can manually create these in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. After you create the document libraries and folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], you must create document location records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to point to these [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document libraries and folders.  
+ To store documents for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps records, the document libraries or folders must be in place. If [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is unable to create the document libraries and folders automatically, you can manually create these in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. After you create the document libraries and folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], you must create document location records in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps to point to these [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document libraries and folders.  
   
 1. [!INCLUDE[proc_settings_doc_mgmt](../includes/proc-settings-doc-mgmt.md)]  
   
@@ -51,7 +51,7 @@ search.app:
   
      - Select **Relative URL**. In **Relative URL**, to create a relative document location to the existing site or document location record, select the existing [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site or document location record. In the second box, enter the name of the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] folder.  
   
-   - **Regarding**. Choose the **Lookup** button ![Lookup button](../admin/media/lookup-button-4.gif "Lookup button"). In the **Look Up Record** dialog box, in the **Look for** list, select the type of records you want to find. search and select the record for which you want to create the location record in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], and choose **OK**.  
+   - **Regarding**. Choose the **Lookup** button ![Lookup button](../admin/media/lookup-button-4.gif "Lookup button"). In the **Look Up Record** dialog box, in the **Look for** list, select the type of records you want to find. search and select the record for which you want to create the location record in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, and choose **OK**.  
   
 5. Choose **Save and Close**.  
   

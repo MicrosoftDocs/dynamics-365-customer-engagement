@@ -1,16 +1,16 @@
 ---
 title: "Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Follow the steps in this topic to upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise."
-keywords: "Dynamics 365 for Sales, Professional, Enterprise, Upgrade"
+keywords: Dynamics 365 for Sales, Professional, Enterprise, Upgrade
 ms.date: 06/22/2018
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service:
+  - dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to:
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: b56f50ee-c4aa-447b-9912-a7031a0075ff
 author: shubhadaj
 ms.author: shujoshi
@@ -19,13 +19,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Move from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise
@@ -44,7 +37,7 @@ The upgrade process involves three steps:
 
 ## Purchase Dynamics 365 for Sales Enterprise Edition subscription
 
-1. Sign in to Office 365 at portal.office.com with the Dynamics 365 account that has admin permissions.
+1. Sign in to Office 365 at portal.office.com with the Dynamics 365 for Customer Engagement account that has admin permissions.
 
 2. Select **Billing** > **Subscriptions**.
 
@@ -58,7 +51,7 @@ The upgrade process involves three steps:
 
    The **Purchase Services** page opens. You’ll see a tile for [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise Edition.
 
-   ![Dynamics 365 for Sales Enterprise Edition tile on Purchase Services page](media/purchase-services-page.png "Dynamics 365 for Sales Enterprise Edition tile on Purchase Services page")
+   ![Dynamics 365 for for Sales Enterprise Edition tile on Purchase Services page](media/purchase-services-page.png "Dynamics 365 for Sales Enterprise Edition tile on Purchase Services page")
  
 4. In the **[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise Edition** tile, move your mouse over the Ellipses icon and select **Buy Now**, and then follow the steps to purchase new licenses. 
 
@@ -77,9 +70,9 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 3.	Select **Replace existing product license assignments**, and then select **Next**. 
 
-4.	Turn on the license for your Dynamics 365 plan. 
+4.	Turn on the license for your Dynamics 365 for Customer Engagement plan. 
 
-    ![Turn on your Dynamics 365 plan](media/turn-license-on.png "Turn on your Dynamics 365 plan")
+    ![Turn on your Dynamics 365 for Customer Engagement plan](media/turn-license-on.png "Turn on your Dynamics 365 for Customer Engagement plan")
 
 5.	Select **Replace**, and then select **Close** twice. 
 
@@ -109,7 +102,7 @@ After you complete these steps, your organization will be effectively upgraded t
 
 1.	Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
 
-2.	Sign in to Dynamics 365. 
+2.	Sign in to Dynamics 365 for Customer Engagement. 
 
 3.	Select **Settings** > **Solutions**. 
 

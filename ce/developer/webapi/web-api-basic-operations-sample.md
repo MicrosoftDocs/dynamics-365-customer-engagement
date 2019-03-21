@@ -1,20 +1,20 @@
 ---
-title: "Web API Basic Operations Sample (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Web API Basic Operations Sample (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This group of sample demonstrates how to perform CRUD (Create, Retrieve, Update and Delete) operations using the Web API. These are implemented using Client-side JavaScript and C#"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f006f88c-74cb-4fde-90e5-e1faf2051673
 caps.latest.revision: 25
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, Update, and Delete) and associative operations using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API.  
+This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, Update, and Delete) and associative operations using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API.  
   
 -   [Web API Basic Operations Sample (C#)](web-api-basic-operations-sample-csharp.md)  
   
@@ -857,7 +857,7 @@ This group of samples demonstrate how to perform basic CRUD (Create, Retrieve, U
   
 ### See also  
 
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Create an entity using the Web API](create-entity-web-api.md)   
  [Retrieve an entity using the Web API](retrieve-entity-using-web-api.md)   
  [Update and delete entities using the Web API](update-delete-entities-using-web-api.md)   

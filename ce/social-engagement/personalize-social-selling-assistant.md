@@ -1,16 +1,15 @@
 ---
 title: "Personalize the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to configure the Social Selling Assistant to receive personalized recommendations."
-keywords: "social selling, social selling assistant, social engagement, personalization, social sales"
-ms.date: 09/19/2017
+keywords: social selling, social selling assistant, social engagement, personalization, social sales
+ms.date: 03/15/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 534adc26-856a-403d-ac6b-3a3c3518470f
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
 topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
@@ -50,7 +49,7 @@ When using the Social Selling Assistant for the first time, users will get recom
   
 4. Click **Get Insights** and manage the topics you want insights for. For example, you might create a new insight group for your business partners and add search topics relating to your partners to get insights so you can stay on top of what your partners are saying on social media. Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
   
-   ![Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them](media/insight-groups-social-selling-assistant.png "Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them")  
+   ![Overview of the Get Insights configuration, showing the default insight groups along with controls to add, edit, or delete them](media/insight-groups-social-selling-assistant.png "Overview of the Get Insights configuration, showing the default insight groups along with controls to add, edit, or delete them")  
   
     By default, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] creates Insight Groups for **Customers**, **Competitors**, and **My brands**. You can edit (![Edit button](media/edit-icon.png "Edit button")), or remove (![Delete button](media/trashbin-icon.png "Delete button")) them, and create (![Add button](media/add-icon.png "Add button")) additional insight groups.  
   

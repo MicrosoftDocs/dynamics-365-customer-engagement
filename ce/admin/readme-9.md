@@ -1,38 +1,47 @@
 ---
-title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
+title: "Dynamics 365 for Customer Engagement Readme (Known Issues) | MicrosoftDocs"
 description: ""
-keywords: ""
-ms.date: 08/08/2018
-ms.service: 
-  - "crm-online"
+keywords: 
+ms.date: 01/30/2019
+ms.service:
+  - crm-online
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to:
+  - Dynamics 365 for Customer Engagement apps version 9.x
+  - Dynamics 365 for Customer Engagement apps version 9.x (on-premises)
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
 author: ReneeW-CPub
 ms.author: renwe
 manager: annbe
-search.audienceType: 
-  - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 
-Dynamics 365 Customer Engagement<br>Readme / Known Issues
+Dynamics 365 for Customer Engagement<br>Readme
 =========================================================
 
-This document provides important information about this product version:
+This document provides important information about these product versions:
 
--   Dynamics 365 (online), Enterprise edition, version 9.0
+-   Dynamics 365 for Customer Engagement apps version 9.0
+-   Dynamics 365 for Customer Engagement apps version 9.0.1
+-   Dynamics 365 for Customer Engagement apps version 9.0.2
+-   Dynamics 365 for Customer Engagement apps version 9.0.2 (on-premises)
 
 You'll also find information about known issues and possible workarounds.
+
+Dynamics 365 Channel Integration Framework
+-----------------------------
+- Channel Integration Framework (CIF) does not support Internet Explorer and Firefox browsers. Channel Integration Framework currently supports Microsoft Edge and Google Chrome web browsers.
+
+- By default, microphone and speaker access is blocked by the browser policy for the voice and video channel. You need to change the settings to enable microphone and speaker access.
+
+- It is not possible for users to work with quick create, task flows and Channel Integration Framework(CIF) panel in parallel. This is because quick create and task flows when expanded will overlay on the CIF panel.
+
+- When you specify the **EntityLogicalName** to pre-populate the search string in the **renderSearchPage** API, the list provides records from all the entities that matches the search criteria rather displaying the records from particular entity type.
 
 Transport Layer Security (TLS) Requirements
 -------------------------------------------
 
-Starting with Dynamics 365 (online), version 9.0, connections to Customer
+Starting with Dynamics 365 for Customer Engagement apps version 9.0, connections to Customer
 Engagement applications are required to use TLS 1.2 (or later) security
 protocols. This aligns with updated Microsoft and industry security policies and
 best practices. To prevent any disruption to your organization, you might be
@@ -48,14 +57,14 @@ required to take the following actions to maintain the connectivity to Dynamics
 2.  Recompile your custom Windows clients that were built using the .NET
     Framework 4.5.2 to use the .NET Framework 4.6.2 or later.
 
-3.  Download and update your Dynamics 365 for Outlook to [version
-    8.2.2.137](https://www.microsoft.com/download/details.aspx?id=56327).
+3.  Download and update Dynamics 365 for Outlook to [version
+    8.2.3](https://www.microsoft.com/download/details.aspx?id=57523).
 
 4.  Download the [latest version of developer
     tools](https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-tools-nuget)
     from NuGet.
 
-5.  Download and update your Unified Service Desk to [the latest
+5.  Download and update Unified Service Desk to [the latest
     version](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk)
     (versions 3.1, 3.2, and 3.3 are TLS 1.2 compliant). If you want to continue
     to use older versions of Unified Service Desk, you must [update the client
@@ -130,19 +139,12 @@ Sales and Customer Service web client apps
 
 -   The relationship assistant control is not supported for custom dashboards.    
 
--   Knowledge Articles are displayed unformatted when relevance search is
+-   Knowledge Articles are displayed unformatted when Relevance Search is
     enabled.
 
--   When you give a long name (more than 41 characters) to a custom entity
-    enabled for Knowledge Management, you might get an error.
-
--   Only the first keyword added to a Knowledge Article returns results in a
-    quick find search.
-
--   If a Knowledge Article is in read-only mode, links in the article will not
-    work.
+-   In order for the entity name to work with Customer Service embedded knowledge search, the maximum entity name length, including the       publisher prefix, can’t exceed 24 characters.
     
--   Knowledge Articles creation and authoring is not supported on the web client, and is supported only in the Unified Interface. When you click the out-of-the-box Knowledge Article node in the Dynamics 365 custom web app sitemap, the page auto refreshes and redirects to the default landing page after seven seconds. Knowledge Articles open in a new tab in the Customer Service Hub application. Please see the new tab in your browser for accessing, creating, and managing your Knowledge articles with enhanced capabilities. If the new tab does not open automatically, check your browser’s settings to allow pop-ups. Also, check your security role privilege for accessing the Customer Service Hub application. 
+-   Knowledge Articles creation and authoring is not supported on the web client, and is supported only in the Unified Interface. When you click the out-of-the-box Knowledge Article node in the Dynamics 365 for Customer Engagement custom web app sitemap, the page auto refreshes and redirects to the default landing page after seven seconds. Knowledge Articles open in a new tab in the Customer Service Hub application. Please see the new tab in your browser for accessing, creating, and managing your Knowledge articles with enhanced capabilities. If the new tab does not open automatically, check your browser’s settings to allow pop-ups. Also, check your security role privilege for accessing the Customer Service Hub application. 
 
 
 Sales Hub and Customer Service Hub apps 
@@ -153,7 +155,7 @@ in the browser or on mobile devices for each scenario. 
 
 | **Service**                                       | **Unified Interface app in a browser** | **Unified Interface app on mobile** | **Web client in a browser** |
 |---------------------------------------------------|----------------------------------------|-------------------------------------|-----------------------------|
-| Sales                                             | –                                      | Sales Hub                           | Sales                       |
+| Sales                                             | Sales Hub                                      | Sales Hub                           | –                       |
 | Customer Service – Knowledge management scenarios | Customer Service Hub                   | Customer Service Hub                | –                           |
 | Customer Service – Case management scenarios      | Customer Service Hub                   | Customer Service Hub                | –                           |
 
@@ -211,11 +213,9 @@ in the browser or on mobile devices for each scenario. 
         vertical space on the Reference Panel section in forms. Scroll downwards
         to see more fields.
 
-    -   In the Knowledge Article form, related articles are opened in a new form
-        instead of within the subgrid.
-
-    -   The page background color changes when you select Related Product or
-        Related Article in the Knowledge Article form.
+    -   In the Knowledge Article form summary section, related articles and products will not open within the subgrid if the related
+        section is loaded as a list.
+        To work around this issue, reduce the screen resolution to load the related section as a grid instead of a list.
 
 -   Other
 
@@ -235,6 +235,11 @@ in the browser or on mobile devices for each scenario. 
 
     -   When an opened article is closed in the KB search control, recent cases
         and entitlements are opened instead of the KB search control.
+        
+    -   Only the first keyword added to a Knowledge Article returns results in a
+        quick find search.
+        
+    -   A subject associated with any Knowledge Article cannot be deleted.
 
 ### Customer Service Hub (Internet Explorer 11 only)
 
@@ -449,16 +454,15 @@ Dynamics 365 App for Outlook
 
 -   If there are any custom security roles, [the roles need to be assigned to
     Dynamics 365 App for Outlook App
-    Module](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#provide-security-role-access).
+    Module](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#provide-security-role-access).
 
 Dynamics 365 for Outlook
 ------------------------
 
--   Microsoft has released Dynamics 365 for Outlook version 8.2.2.137 update.
+-   Microsoft has released Dynamics 365 for Outlook version 8.2.3 update.
     This update includes support for Transport Layer Security (TLS) 1.2, which
-    is required for connecting Dynamics 365 for Outlook with Dynamics 365
-    (online), version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for
-    Outlook](https://www.microsoft.com/en-us/download/details.aspx?id=56327).
+    is required for connecting Dynamics 365 for Outlook with Dynamics 365 for Customer Engagement apps version 9.0. See [Version 8.2.3 Update for Dynamics 365 for
+    Outlook](https://www.microsoft.com/download/details.aspx?id=57523).
 
 -   In offline mode, adding an attachment to a Note in Dynamics 365 for Outlook
     might show the message “Microsoft Dynamics 365 has encountered an error.” A
@@ -480,7 +484,7 @@ Inactivity timeout
 
     -   Live Assist (Chat)
 
--   Portal capabilities for Dynamics 365 has its own session and inactivity
+-   Portal capabilities for Dynamics 365 for Customer Engagement has its own session and inactivity
     timeout settings that are independent of the timeout settings in System
     Settings. This is by design.
 
@@ -554,11 +558,11 @@ Web client visual refresh
         changes and might leave an empty space. However, this empty space will
         disappear on refresh.
 
-Important note for Field Service or Project Service Automation organizations that update to Dynamics 365 version 9.0, or later 
+Important note for Field Service or Project Service Automation organizations that update to Dynamics 365 for Customer Engagement version 9.0, or later 
 -------------------------------------------------------------------------------------------------------------------------------
 
 When you update to version 9.0, or later, you must also update the Project
-Service Automation and Field Service Solutions. After updating to version 9.0,
+Service Automation and Field Service solutions. After updating to version 9.0,
 or later, go to the Dynamics 365 Administration Center, Manage Solutions page to
 update the preferred solution.
 
@@ -577,59 +581,35 @@ mobile offline capabilities for existing and new customers.
 
 Unified Service Desk
 --------------------
+- The next version of Dynamics 365 for Customer Engagement (on-premises) release will support only Unified Service Desk 4.0 and later versions. If you are using Unified Service Desk 3.3, then the next version of Dynamics 365 for Customer Engagement (on-premises) will not be supported.
 
--   Download and update your Unified Service Desk to the [latest
-    version](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk).
-    If you want to continue to use versions of Unified Service Desk older than
-    3.1, you will need to update the client desktop’s registry entries. Read the
-    [blog](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/)
-    about Unified Service Desk and TLS 1.2 mandate to update these registry
-    entries.
+- Download and update your Unified Service Desk to the [latest version](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk).
 
--   **Support for Unified Interface apps in Unified Service Desk**: You can integrate apps built using Unified Interface in the          Unified Service Desk using the preview capabilities in [version 4.0](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/what-s-new-in-unified-service-desk#general-availability-support-for-unified-interface-apps-in-unified-service-desk). This support is not available in earlier versions. <br>More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
+  If you want to continue to use versions of Unified Service Desk earlier than 3.1, you will need to update the client desktop’s registry entries. Read the [Dynamics CRM Unified Service Desk blog](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/) for information about the Unified Service Desk and TLS 1.2 mandate to update these registry entries.
 
--   **Web Client - Unified Interface Migration Assistant**:  The Web Client - Unified Interface Migration Assistant for Unified Service Desk helps you migrate your Unified Service Desk configurations from Unified Service Desk Web Client to a Unified Service Desk Unified Interface app. <br>More information: [Web Client - Unified Interface Migration Assistant](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/overview-migration-assistant)
+-   The following features are in preview:
+    -  Unified Service Desk Administrator app
+    -  Unified Interface Settings
+    -  Stack notification in Unified Service Desk
+    -  Effective session switch management
 
--   **Prevent accidental closure of Unified Service Desk**: While working on Unified Service Desk, you could lose your unsaved work if you accidentally select the **x** Close button. The Close Confirmation Window is introduced to prevent an accidental closure of the Unified Service Desk client application. <br>More information: [Configure close confirmation window for Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-close-confirmation-window)
+    To learn more about the features, see the [Unified Service Desk Guide](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk).
 
--   **Unified Interface KM Control**: The Unified Interface KM Control hosted control is introduced for your knowledge base search experience with Unified Service Desk. You must configure the Unified Interface KM Control when you are using a Unified Interface app in Unified Service Desk. <br>Your service agents can use the **Unified Interface KM Control** hosted control to search and view a knowledge base in Unified Interface from within the Unified Service Desk. You can position your search control in the main panel, left panel, or right panel of the Unified Interface desk application. Also, you can configure the contextual actions for the search results. <br>More information: [Unified Interface KM Control (hosted control)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/unified-interface-km-control-hosted-control)
+-   **Interactive Service Hub**: With the Dynamics 365 for Customer Engagement apps version 9.0 release, Interactive Service Hub has been rebuilt as a Unified Interface app and is called Customer Service Hub. This implies that [support](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for the Interactive Service Hub in Unified Service Desk is available only if you are running Dynamics 365, version 8.2 or an earlier supported version of Microsoft Dynamics CRM. You can integrate with Customer Service Hub in Unified Service Desk in the same way as any other Unified Interface app.
 
--   **Preview feature - Unified Service Desk Administrator app**: The Unified Service Desk Administrator app is built on the Unified Interface framework, which has a new user experience—Unified Interface—that uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Unified Service Desk Administrator app brings rich experience to administer and manage your Unified Service Desk client application. <br>More information: [Preview Feature: Unified Service Desk Administrator app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-administrator-app)
+    More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
 
--   **Preview feature - Unified Interface Settings**: Unified Interface Settings is a new configuration element introduced in the Unified Service Desk Administrator app. This configuration element lets you configure a default Unified Interface for your agents so that when they sign in to Unified Service Desk, they go directly to the Unified Interface app. This configuration saves time and enhances the agents' sign-in experience to Unified Service Desk. <br>More information: [Preview feature - Set default Unified Interface App using Unified Interface Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/unified-interface-settings)
+-   **Relationship Insights**: Although you can view information from the relationship assistant in the Unified Service Desk client, you cannot  interact with the information in the client. 
 
--   **Preview feature - Stack notification in Unified Service Desk**: You can configure stack notifications in Unified Service Desk to display pop-up notification messages to your customer service agents that contain general information or customer- or process-related information that the agents can act on. This facilitates simultaneous toast notifications in a multi-session environment. <br>More information: [Stack notifications](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/configure-notifications-unified-service-desk#stack-notifications) and [Popup Notification (Hosted Control)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/popup-notification-hosted-control)
+    More information: [Embedded intelligence](https://docs.microsoft.com/dynamics365/customer-engagement/admin/embedded-intelligence)
 
--   **Preview feature - Effective session switch management**: When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer will not be counted until you switch back to the session. This helps to efficiently measure the agents' productivity. <br>More information: [SwitchSession](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/session-tabs-hosted-control#switchsession)
+-   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is not supported.
 
--   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0
-    release, Interactive Service Hub has been rebuilt as a Unified Interface app
-    and is called Customer Service Hub. This implies
-    that [support](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for
-    the Interactive Service Hub in Unified Service Desk is available only if you
-    are running Dynamics 365, version 8.2 or an earlier supported version of
-    Microsoft Dynamics CRM. You can integrate with Customer Service Hub in
-    Unified Service Desk in the same way as any other Unified Interface app. <br>More information: [Support for Unified Interface Apps in Unified Service
-    Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
+-   **Multi-select option sets**: Although multi-select option sets display fine when hosted in Unified Service Desk (using [CRM Page](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control) type of hosted control), you cannot change selections in multi-select option sets using the Unified Service Desk APIs.
 
--   **Relationship Insights**: Although you can view information from the
-    relationship assistant in the Unified Service Desk client, you cannot
-    interact with the information in the client. <br>More information: [Embedded
-    intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
+-   **URL addressability in business apps**: Business apps (app modules) use the appid value in the URLs to refer to resources displayed in an app. For example: `https://.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking` Unified Service Desk has added support for the usage of appid values in URLs to refer to a resource from version 4.0. 
 
--   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is
-    not supported.
-
--   **Multi-select option sets**: Although multi-select option sets display fine
-    when hosted in Unified Service Desk (using [CRM
-    Page](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control) type
-    of hosted control), you cannot change selections in multi-select option sets
-    using the Unified Service Desk APIs.
-
--   **URL addressability in business apps**: Business apps (app modules) use the
-    appid value in the URLs to refer to resources displayed in an app. For example:
-    `https://.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking`
-    Unified Service Desk has added support for the usage of appid values in URLs to refer to a resource from version 4.0. <br>More information: [Design custom business apps by using the app designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
+    More information: [Design custom business apps by using the app designer](https://docs.microsoft.com/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
 Third-party notice 
 -------------------

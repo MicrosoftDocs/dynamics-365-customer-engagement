@@ -1,7 +1,7 @@
 ---
-title: Configure interactive dashboards in the Customer Service Hub in Microsoft Dynamics 365 | Microsoft Docs
-description: Know how to configure interactive dashboards in the Customer Service Hub in Microsoft Dynamics 365
-keywords: Configure interactive dashboards; Customer Service; Microsoft Dynamics 365; Customer Service Hub; Configure entities, fields, and security roles for the interactive dashboards; Configure dashboard colors
+title: Configure interactive dashboards in the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement | Microsoft Docs
+description: Know how to configure interactive dashboards in the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement
+keywords: Configure interactive dashboards; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Customer Service Hub; Configure entities, fields, and security roles for the interactive dashboards; Configure dashboard colors
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -9,8 +9,8 @@ ms.date: 03/15/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 ms.custom: dyn365-customerservice
 search.audienceType: 
@@ -80,7 +80,7 @@ The interactive dashboards come in two flavors:
 To know more about how to enable custom entities, see [Enable custom entities in the Customer Service Hub](../customer-service/create-design-forms-customer-service-hub.md#enable-custom-entities-in-the-customer-service-hub).
 
 > [!NOTE]
-> All customization tasks for the Customer Service Hub must be done in the Microsoft Dynamics 365 web application.
+> All customization tasks for the Customer Service Hub must be done in the Microsoft Dynamics 365 for Customer Engagement web application.
   
 ### Configure filter fields  
  For a field to appear in the global filter and to be included in the data stream sort, you must set two flags: 

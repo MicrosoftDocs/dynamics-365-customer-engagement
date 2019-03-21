@@ -1,16 +1,16 @@
 ---
 title: "Dynamics 365 for Sales troubleshooting guide for sales people | MicrosoftDocs"
 description: "Follow the instructions in this topic to troubleshoot the issues you may face while working on Dynamics 365 for Sales."
-keywords: "Dynamics 365 for Sales, troubleshoot, FAQ, issue, resolution"
+keywords: Dynamics 365 for Sales, troubleshoot, FAQ, issue, resolution
 ms.date: 07/20/2018
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service:
+  - dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to:
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 6a381b64-497c-476a-8d4c-98bf5da742b5
 author: shubhadaj
 ms.author: shujoshi
@@ -19,13 +19,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Dynamics 365 for Sales troubleshooting guide for sales people
@@ -112,7 +105,7 @@ If there’s no error, and you are still not able to qualify a lead, please cont
 ### How do I close an opportunity?
       
 Whether your customer has accepted or rejected your proposal, it is a good practice to close the opportunity as won or lost. 
-When you close an opportunity, the opportunity is marked as complete, and can’t be changed. If you want to make further changes to an opportunity, you can reopen it. At the time of closing the opportunity, enter the Actual Revenue and Actual Close Date. The Actual Revenue is used for reporting purposes in charts and reports in Dynamics 365 for Sales.
+When you close an opportunity, the opportunity is marked as complete, and can’t be changed. If you want to make further changes to an opportunity, you can reopen it. At the time of closing the opportunity, enter the Actual Revenue and Actual Close Date. The Actual Revenue is used for reporting purposes in charts and reports in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].
 
 To close an opportunity, open the opportunity record, and on the command bar, select **Close as Won** or **Close as Lost**.
 

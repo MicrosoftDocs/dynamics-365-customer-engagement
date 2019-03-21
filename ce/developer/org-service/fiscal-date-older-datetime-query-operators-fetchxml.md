@@ -1,20 +1,20 @@
 ---
-title: "Fiscal date and older than datetime query operators in FetchXML (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Fiscal date and older than datetime query operators in FetchXML (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how to use FetchXML fiscal data conditional operators and &quot;older than&quot; clauses for date and time values"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 4ab6e60c-161e-468f-b89c-cc3bd243b3df
 caps.latest.revision: 33
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-A FetchXML query in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement can use special fiscal date values and *older than* clauses for date and time values in queries. For example, a FetchXML query can find all orders fulfilled in the last fiscal month or urgent cases with high severity that are older than 15 minutes.  
+A FetchXML query in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps can use special fiscal date values and *older than* clauses for date and time values in queries. For example, a FetchXML query can find all orders fulfilled in the last fiscal month or urgent cases with high severity that are older than 15 minutes.  
   
 > [!NOTE]
 >  For all fiscal date queries, the FetchXML query uses the organization’s fiscal year settings.  

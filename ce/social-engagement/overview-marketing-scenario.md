@@ -1,12 +1,12 @@
 ---
 title: "Social Engagement scenarios for the marketing department | Microsoft Docs"
 description: "Review marketing scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
-keywords: ""
+keywords: 
 ms.date: 03/27/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: f19b9b6d-bb95-4c8d-bb3c-a4f98504e514
 author: m-hartmann
 ms.author: mhart
@@ -61,11 +61,11 @@ Campaigns on social media often revolve around a specific term, for example a ha
 
 ## Find leads for the sales team
 
-Identify potential leads on social media and let your sales team know about them. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you create new leads in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+Identify potential leads on social media and let your sales team know about them. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you create new leads in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 1. Use [intention analysis](tags.md#how-intention-analysis-works) to look for posts that express a purchase intent.
 
-2. [Link these posts to Dynamics 365](create-dynamics-365-record-from-social-post.md) to create a new lead record.
+2. [Link these posts to Dynamics 365 for Customer Engagement apps](create-dynamics-365-record-from-social-post.md) to create a new lead record.
 
 3. Automate this workflow by using an [automation rule](automation-rules.md) for every post tagged with **Purchase Intention**.
 
@@ -83,7 +83,7 @@ Have you launched or refreshed a product or service? Let your marketing team sha
 
 - [Port aims to proactively address issues with Social Engagement](https://customers.microsoft.com/story/port-aims-to-proactively-address-issues-with-microsoft)
 
-- [Marston's delivers personalized service in real time with Dynamics 365](https://customers.microsoft.com/story/marstons-delivers-personalized-service-in-real-time-wi)
+- [Marston's delivers personalized service in real time](https://customers.microsoft.com/story/marstons-delivers-personalized-service-in-real-time-wi)
 
 ### See also
 

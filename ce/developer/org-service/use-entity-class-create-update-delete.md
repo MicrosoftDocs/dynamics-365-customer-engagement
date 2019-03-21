@@ -1,20 +1,20 @@
 ---
-title: "Use the Entity class for create, update and delete (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use the Entity class for create, update and delete (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the Entity class to create, update, and delete entities and entity attributes"
-ms.custom: ""
+ms.custom: 
 ms.date: 05/09/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d0eb57ae-7f45-4bde-964e-da2c6bd1f405
 caps.latest.revision: 22
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

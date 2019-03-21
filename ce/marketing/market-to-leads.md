@@ -1,21 +1,20 @@
 ---
 title: "Market to leads (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to integrate sales-driven and marketing-driven lead processes in Dynamics 365 for Marketing"
-keywords: "leads;contacts;marketing;sales"
+keywords: leads;contacts;marketing;sales
 ms.date: 04/25/2018
-ms.service: 
-  - "crm-online"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: bce3292e-81d3-495b-bc88-9bec29c07177
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -28,7 +27,9 @@ search.app:
 
 # Market to leads with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses contact records to represent prospective customers and enables marketers to engage with those contacts through initiatives such as customer journeys, events, and landing pages. When a contact submits a lading page, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] typically auto-creates a lead for that contact, and marketers can manually add leads for contacts at any time. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] then nurtures and scores those leads through a qualification process, and hands off marketing-qualified leads to salespeople for further qualification into opportunities. In this way, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] uses contacts to represent *people* and leads to represent *specific expressions of interest* made by those people. You can read more about this process in [Manage customer information](manage-customer-information.md) and [Score and manage leads](score-manage-leads.md).
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses contact records to represent prospective customers and enables marketers to engage with those contacts through initiatives such as customer journeys, events, and landing pages. When a contact submits a lading page, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] typically auto-creates a lead for that contact, and marketers can manually add leads for contacts at any time. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] then nurtures and scores those leads through a qualification process, and hands off marketing-qualified leads to salespeople for further qualification into opportunities. In this way, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] uses contacts to represent *people* and leads to represent *specific expressions of interest* made by those people. You can read more about this process in [Manage customer information](manage-customer-information.md) and [The lead lifecycle](lead-lifecycle.md).
 
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] is a highly flexible and customizable system, where each organization can decide how to make use of the various types of records it contains. Some organizations may prefer, or already have in place, a more sales-driven process, where salespeople save new potential customers as lead records and only create a contact record based on a lead once that lead made a purchase or entered into an ongoing business relationship with the organization. So, does that mean you can't market to leads using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]&mdash;of course not!
 
@@ -50,35 +51,29 @@ The resulting system will align with industry best practices and provide many be
 
 For example, to set up a segment that finds all the leads collected at a recent conference, you could do the following:
 
-1. Go to **Marketing** > **Customers** > **Segments**.
+1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.  
+    ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
 
-2. Choose **New** from the command bar to create a new segment.
+    Do the following:
 
-3. Fill out the **General** tab to describe your new segment.
+    - Enter a **Name** for the segment at the top of the page.
+    - Select the close button to remove the default contact group from the **Designer** area. Many of your segments will probably start and end with the contact entity, but for this example we will start with lead instead.
 
-4. Go to the **Definition** tab to set up your query.
-
-5. By default, the query designer opens with a segment group that already has the **Contact** entity selected. But we don't want to search on contacts, so choose the close button to remove the default query group.  
-    <br/>
-    ![Close the default query group](media/leads-segment-close-group.png "Close the default query group")
-
-6. Choose **Lead** from the **Select a profile or relationship** drop-down list.  
-    <br/>
+1. When default contact group closes, it's replaced by a **Select a profile or relationship** drop-down list. Select **Lead** from here.)    
     ![Create a lead query group](media/leads-segment-lead-group.png "Create a lead query group")
 
-7. Set up a query to find the leads you need. In this example, we'll look for leads collected at a recent conference; all were assigned a **Topic** of "Contoso Ltd Conference".  
-    <br/>
+1. Set up a query to find the leads you need. In this example, we'll look for leads collected at a recent conference; all were assigned a **Topic** of "Contoso Ltd Conference".    
     ![An example lead query](media/leads-segment-lead-clause.png "An example lead query")
 
-8. All segments must end by making a connection to the contact entity, so choose **And** to add a new clause to your expression and set it to **lead\_contact\_parentcontactid\__&lt;ServerSuffix&gt;_**, which links from the lead record to the related contact record based on the lead's parent contact ID.  
-    <br/>
+1. All segments must end by making a connection to the contact entity, so choose **+ And** to add a new clause to your expression and set it to **Lead -> Contact (Parent Contact for lead)**, which links from the lead record to the related contact record based on the lead's parent contact ID.  Leave it set it to match **All&#42;**.    
     ![Link to the related contact records](media/leads-segment-lead-relation.png "Link to the related contact records")
 
-9. Set the new relation to **All&ast;** to find all contacts that relate to the found leads.  
-    <br/>
-    ![The final lead segment query](media/leads-segment-lead-final.png "The final lead segment query")
+1. Select **+And** to add a final clause to the group, which must end with the contact entity. Set the new clause to use the **Contact** entity and leave it set it to match **All&#42;** to find all contacts associated with the selected leads.  
+    ![Finish the path to the contact entity](media/leads-segment-contacts.png "Finish the path to the contact entity")
 
-10. Choose **Go Live** from the command bar to publish the segment.
+1. Select **Save** and then **Go live** on the command bar.
+
+1. Your segment is now live and will now find contacts associated with leads that have the specified topic.
 
 ## Automatically generate contacts for orphaned leads
 

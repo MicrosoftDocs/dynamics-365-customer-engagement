@@ -1,20 +1,20 @@
 ---
-title: "Monitor and manage system jobs for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Monitor and manage system jobs for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 07/06/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: d8a87798-4163-4785-9985-6fd2993abb85
 caps.latest.revision: 24
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "kvivek"
+author: jimholtz
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -23,9 +23,9 @@ search.app:
 ---
 # Monitor and manage system jobs
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Several [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] features use system jobs to perform tasks automatically, including workflows, import, and duplicate detection, running independently or in the background.  
+Several [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps features use system jobs to perform tasks automatically, including workflows, import, and duplicate detection, running independently or in the background.  
   
  You can monitor them to ensure that they run smoothly or have completed successfully. Go to **Settings** > **System Jobs** to see a grid view of system jobs.
   

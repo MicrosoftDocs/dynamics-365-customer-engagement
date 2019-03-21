@@ -1,30 +1,30 @@
 ---
-title: "Schedule and appointment entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Schedule and appointment entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Overview of appointment-based service scheduling, including defining services, resources and work schedules, and service locations."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "schedule and appointment entities, scheduling engines"
+  - schedule and appointment entities, scheduling engines
   - optimizing scheduling, see 'schedule and appointment entities'
-  - "schedule and appointment entities, introduction"
+  - schedule and appointment entities, introduction
   - appointment entities, see 'schedule and appointment entities'
   - managing appointment-based services, see 'schedule and appointment entities'
-  - "schedule and appointment entities, managing appointment-based services"
+  - schedule and appointment entities, managing appointment-based services
   - scheduling engines, see 'schedule and appointment entities'
-  - "schedule and appointment entities, message classes for appointments"
-  - "schedule and appointment entities, optimizing scheduling"
+  - schedule and appointment entities, message classes for appointments
+  - schedule and appointment entities, optimizing scheduling
 ms.assetid: 676e9f3f-e5a0-4251-aaea-27f396da8bf1
 caps.latest.revision: 23
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

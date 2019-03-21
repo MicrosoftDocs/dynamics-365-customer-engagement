@@ -1,25 +1,25 @@
 ---
-title: "Sample: Android Activity Tracker for Dynamics 365 and Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The activity tracker sample application enables you to connect to your Dynamics 365 organization, query for your contacts, and add a quick activity record related to a contact."
-ms.custom: ""
+title: "Sample: Android Activity Tracker for Dynamics 365 for Customer Engagement apps and Web API (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+description: "The activity tracker sample application enables you to connect to your Dynamics 365 for Customer Engagement apps organization, query for your contacts, and add a quick activity record related to a contact."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3dc792cf-a9c4-45ea-9efe-895f15ade167
 caps.latest.revision: 9
-author: "JimDaly"
-ms.author: "jdaly"
+author: JimDaly
+ms.author: jdaly
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Sample: Android Activity Tracker for Dynamics 365 and Web API
+# Sample: Android Activity Tracker for Dynamics 365 for Customer Engagement apps and Web API
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -40,5 +40,5 @@ This sample code is for [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-bo
   
 ### See also  
  [Write mobile and modern apps](write-mobile-modern-apps.md)   
- [Dynamics CRM on Github](https://github.com/DynamicsCRM)   
+ [Dynamics 365 for Customer Engagement on Github](https://github.com/DynamicsCRM)   
  [OData.org](http://www.odata.org/)

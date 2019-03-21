@@ -1,19 +1,19 @@
 ---
 title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about configuring notifications in Unified Service Desk."
-keywords: ""
+keywords: 
 ms.date: 08/17/2018
 ms.service: 
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom: 
-  - "dyn365-USD"
+  - dyn365-USD
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: ca7905ed-47a0-47c9-bbfe-5cb1738b0125
 author: kabala123
 ms.author: kabala
@@ -36,7 +36,31 @@ Configure notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-uni
   
  Notifications can be global or session-based. Global notifications are displayed outside of a session and will hide only if it times out or is explicitly closed by the user. Session-based notifications appear only within a session, and switching to another session will hide the notification. Switching back to the session with notification displays the notification again until it times out or is explicitly closed by the user.
 
-You can use the Alt+1 keys (default) to set your focus on a notification. If there are multiple notifications displayed, you can press Alt+1 repeatedly to cycle through all the active notifications on your screen. To change the default keyboard shortcut keys for notifications, use the new **PopupNavigationShortcut** UII option to specify the shortcut keys of your choice. More information: [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)  
+::: moniker range="<=dynamics-usd-4"
+
+## Navigate on the notifications using keyboard shortcuts
+
+You can use the Alt+1 keys (default) to set your focus on a notification. If there are multiple notifications displayed, you can press Alt+1 repeatedly to cycle through all the active notifications on your screen. To change the default keyboard shortcut keys for notifications, use the new **PopupNavigationShortcut** UII option to specify the shortcut keys of your choice. More information: [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)
+
+::: moniker-end
+
+::: moniker range=">=dynamics-usd-4.1"
+
+## Navigate on the notifications using keyboard shortcuts
+
+You can use default keyboard shortcuts to navigate to, shift focus to and from the notifications. To change the default keyboard shortcuts, create the UII option and set the keyboard value of your choice. To learn more, see [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md).
+
+| UII option              | Default keyboard shortcuts | Description |
+|-------------------------|----------------------------|-------------|
+| `PopupNavigationShortcut` | Alt+1                      | Sets focus on a notification.  |
+| `PopupNavigationShortcut` | Alt+1                      | Press the keyboard shortcut repeatedly to cycle through all the active notifications on your screen when multiple notifications are displayed. |
+| `PopupEscapeShortcut`     | Shift+Esc                  | Sets focus on the Unified Service Desk client application from the notification. |
+| `PopupMoveUpShortcut`     | Shift+Up Arrow key         | Move up from one notification to another when notifications are displayed as stack. |
+| `PopupMoveDownShortcut`   | Shift+Down Arrow key       | Move down from one notification to another when notifications are displayed as stack. |
+| `PopupMoveLeftShortcut`   | Shift+Left Arrow Key       | Move left from one notification to another when multiple notifications are displayed. |
+| `PopupMoveRightShortcut`  | Shift+Right Arrow Key      | Move right from one notification to another when multiple notifications are displayed. |
+
+::: moniker-end
   
 <a name="Define"></a>   
 ## Define layout and behavior of notification using forms  
@@ -213,8 +237,15 @@ The added custom parameter can be used in the form XAML as replacement parameter
 <a name="Multiple"></a>   
 ## Multiple notification controls
  
- You can  configure multiple notification controls and invoke actions independently of each other. <!--When multiple notifications are shown at the same time, all the notifications are visible in the order in which they were invoked.--> If two global notifications are configured to be displayed at the same  position, the latest one will overlay on top of the earlier notification. Similarly, if a global and session-based notifications or multiple session-based notifications are  configured to be displayed at the same  position in a session, the latest one will overlay on top of the earlier notification in the session.
+::: moniker range="dynamics-usd-3" 
+ You can  configure multiple notification controls and invoke actions independently of each other. When multiple notifications are shown at the same time, all the notifications are visible in the order in which they were invoked. If two global notifications are configured to be displayed at the same  position, the latest one will overlay on top of the earlier notification. Similarly, if a global and session-based notifications or multiple session-based notifications are  configured to be displayed at the same  position in a session, the latest one will overlay on top of the earlier notification in the session.
+::: moniker-end
 
+::: moniker range=">=dynamics-usd-4" 
+ You can  configure multiple notification controls and invoke actions independently of each other. <!--When multiple notifications are shown at the same time, all the notifications are visible in the order in which they were invoked.--> If two global notifications are configured to be displayed at the same  position, the latest one will overlay on top of the earlier notification. Similarly, if a global and session-based notifications or multiple session-based notifications are  configured to be displayed at the same  position in a session, the latest one will overlay on top of the earlier notification in the session.
+::: moniker-end
+
+::: moniker range=">=dynamics-usd-4"
  ### Stack notifications
 
  You can also configure the stack notification by adding the **stack** parameter in the **Data** field of **Show** action. The parameter takes a Boolean value. Unified Service Desk shows the notifications in stack when the parameter is set to **true**. The default value is **false**. If you do not specify any value, the default value (false) is passed. For example, **stack = true**, shows the notifications in stack.
@@ -228,7 +259,25 @@ The added custom parameter can be used in the form XAML as replacement parameter
  > [!Note]
  > When there are more than 5 notifications, the new notification overlays the recently shown notification.</br> For example, you see 5 notifications in stack. Now, 6th notification is incoming, then the 6th notification overlays the 5th notification. Similarly, when the 7th notification is incoming, it overlays the 6th notification.<br/>
  ![New notification replacing the recent notification in the stack](../unified-service-desk/media/stack-notification.PNG "New notification replacing the recent notification in the stack")
+::: moniker-end
+
+::: moniker range="dynamics-usd-3"  
+<a name="HowTo"></a>   
+## How to configure a notification?  
+ These are the broad steps for displaying a notification:  
   
+1. Create a **Form** record with your notification definition (XAML). For example, create a form with the example XAML illustrated earlier and with the following name: `MaxSessionNotificationForm`.  
+  
+2. Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.  
+  
+3. Create an action call to display the notification by specifying the form name to display along with other parameters in the **Data** field of the `Show` action. For example,  create an action call with the following name: `Action Call for Max Sessions Notification`:  
+  
+   ![Action Call for displaying notification](../unified-service-desk/media/usd-action-call-notification.png "Action Call for displaying notification")  
+  
+4. Finally, add the action call to an event to execute the action. As we are checking for maximum number of sessions on the creation of a new session to show the notification, add the action call to the `SessionNew` event of the [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md). 
+::: moniker-end
+
+::: moniker range=">=dynamics-usd-4"  
 <a name="HowTo"></a>   
 ## How to configure a notification?  
  These are the broad steps for displaying a notification:  
@@ -258,9 +307,9 @@ As we are checking for maximum number of sessions on the creation of a new sessi
     c. On the **SessionNew** event page, under the **Active Actions** area, click **+** to add action calls.</br>
     d. In the search box, type **Action Call for Max Sessions Notifications** and select search icon. The result appears.
     e. Select the **Action Call for Max Sessions Notifications**, and select **Save**.</br>
-    ![Add the action Call to the SessionNew event for displaying notification](../unified-service-desk/media/usd-add-action-call-sessionnew-event.PNG "Add the action Call to the SessionNew event for displaying notification")
+    ![Add the action Call to the SessionNew event for displaying notification](../unified-service-desk/media/usd-add-action-call-sessionnew-event.PNG "Add the action Call to the SessionNew event for displaying notification")  
+::: moniker-end
 
-  
 ### See also  
  [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md)   
  [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)   

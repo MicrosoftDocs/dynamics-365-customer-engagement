@@ -1,19 +1,19 @@
 ---
 title: "Use SCCM to install Dynamics 365 for Outlook | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 02/03/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 for Customer Engagement apps 
 ms.assetid: f6bb55c6-57fd-4f67-9964-31b5ec30dc73
 caps.latest.revision: 8
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

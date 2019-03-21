@@ -1,20 +1,20 @@
 ---
-title: "Query Data using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Read about the various ways to query Dynamics 365 data using the Dynamics 365 Customer Engagement Web API and various system query options that can be applied in these queries"
-ms.custom: ""
-ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Query Data using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Read about the various ways to query Dynamics 365 for Customer Engagement data using the Dynamics 365 for Customer Engagement Web API and various system query options that can be applied in these queries"
+ms.custom: 
+ms.date: 02/06/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: fc3ade34-9c4e-4c33-88a4-aa3842c5eee1
 caps.latest.revision: 78
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-If you want to retrieve data for an entity set, use a GET request. When retrieving data, you can apply query options to set criteria for the data you want and the entity properties that should be returned.  
+If you want to retrieve data for an entity set, use a `GET` request. When retrieving data, you can apply query options to set criteria for the data you want and the entity properties that should be returned.  
     
 <a name="bkmk_basicQuery"></a>
  
@@ -50,32 +50,33 @@ Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0  
   
 {  
-"@odata.context": "[Organization URI]/api/data/v9.0/$metadata#accounts(name)",  
-"value": [  
-{  
-"@odata.etag": "W/\"501097\"",  
-"name": "Fourth Coffee (sample)",  
-"accountid": "89390c24-9c72-e511-80d4-00155d2a68d1"  
-},  
-{  
-"@odata.etag": "W/\"501098\"",  
-"name": "Litware, Inc. (sample)",  
-"accountid": "8b390c24-9c72-e511-80d4-00155d2a68d1"  
-},  
-{  
-"@odata.etag": "W/\"501099\"",  
-"name": "Adventure Works (sample)",  
-"accountid": "8d390c24-9c72-e511-80d4-00155d2a68d1"  
-}  
-]  
-}  
+   "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name)",
+   "value":[  
+      {  
+         "@odata.etag":"W/\"501097\"",
+         "name":"Fourth Coffee (sample)",
+         "accountid":"89390c24-9c72-e511-80d4-00155d2a68d1"
+      },
+      {  
+         "@odata.etag":"W/\"501098\"",
+         "name":"Litware, Inc. (sample)",
+         "accountid":"8b390c24-9c72-e511-80d4-00155d2a68d1"
+      },
+      {  
+         "@odata.etag":"W/\"501099\"",
+         "name":"Adventure Works (sample)",
+         "accountid":"8d390c24-9c72-e511-80d4-00155d2a68d1"
+      }
+   ]
+}
+ 
 ```  
   
 <a name="bkmk_limits"></a>
 
 ## Limits on number of entities returned
 
- Unless you specify a smaller page size, a maximum of 5000 entities will be returned for each request. If there are more entities that match the query filter criteria, a @odata.nextLink property will be returned with the results. Use the value of the @odata.nextLink property with a new GET request to return the next page of data.  
+ Unless you specify a smaller page size, a maximum of 5000 entities will be returned for each request. If there are more entities that match the query filter criteria, a `@odata.nextLink` property will be returned with the results. Use the value of the `@odata.nextLink` property with a new `GET` request to return the next page of data.  
   
 > [!NOTE]
 >  Queries on model entities aren’t limited or paged. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Query Metadata using the Web API](query-metadata-web-api.md)  
@@ -84,10 +85,10 @@ OData-Version: 4.0
 
 ## Specify the number of entities to return in a page
 
- Use the odata.maxpagesize preference value to request the number of entities returned in the response.  
+ Use the `odata.maxpagesize` preference value to request the number of entities returned in the response.  
   
 > [!NOTE]
->  You can’t use an odata.maxpagesize preference value greater than 5000.  
+>  You can’t use an `odata.maxpagesize` preference value greater than 5000.  
   
  The following example queries the accounts  entity set and returns the `name` property for the first three accounts.  
   
@@ -111,32 +112,33 @@ Content-Length: 402
 Preference-Applied: odata.maxpagesize=3  
   
 {  
-"@odata.context": "[Organization URI]/api/data/v9.0/$metadata#accounts(name)",  
-"value": [  
-{  
-"@odata.etag": "W/\"437194\"",  
-"name": "Fourth Coffee (sample)",  
-"accountid": "7d51925c-cde2-e411-80db-00155d2a68cb"  
-},  
-{  
-"@odata.etag": "W/\"437195\"",  
-"name": "Litware, Inc. (sample)",  
-"accountid": "7f51925c-cde2-e411-80db-00155d2a68cb"  
-},  
-{  
-"@odata.etag": "W/\"468026\"",  
-"name": "Adventure Works (sample)",  
-"accountid": "8151925c-cde2-e411-80db-00155d2a68cb"  
-}  
-],  
-"@odata.nextLink": "[Organization URI]/api/data/v9.0/accounts?$select=name&$skiptoken=%3Ccookie%20pagenumber=%222%22%20pagingcookie=%22%253ccookie%2520page%253d%25221%2522%253e%253caccountid%2520last%253d%2522%257b8151925C-CDE2-E411-80DB-00155D2A68CB%257d%2522%2520first%253d%2522%257b7D51925C-CDE2-E411-80DB-00155D2A68CB%257d%2522%2520%252f%253e%253c%252fcookie%253e%22%20/%3E"  
-}  
+   "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name)",
+   "value":[  
+      {  
+         "@odata.etag":"W/\"437194\"",
+         "name":"Fourth Coffee (sample)",
+         "accountid":"7d51925c-cde2-e411-80db-00155d2a68cb"
+      },
+      {  
+         "@odata.etag":"W/\"437195\"",
+         "name":"Litware, Inc. (sample)",
+         "accountid":"7f51925c-cde2-e411-80db-00155d2a68cb"
+      },
+      {  
+         "@odata.etag":"W/\"468026\"",
+         "name":"Adventure Works (sample)",
+         "accountid":"8151925c-cde2-e411-80db-00155d2a68cb"
+      }
+   ],
+   "@odata.nextLink":"[Organization URI]/api/data/v9.0/accounts?$select=name&$skiptoken=%3Ccookie%20pagenumber=%222%22%20pagingcookie=%22%253ccookie%2520page%253d%25221%2522%253e%253caccountid%2520last%253d%2522%257b8151925C-CDE2-E411-80DB-00155D2A68CB%257d%2522%2520first%253d%2522%257b7D51925C-CDE2-E411-80DB-00155D2A68CB%257d%2522%2520%252f%253e%253c%252fcookie%253e%22%20/%3E"
+}
+  
 ```  
   
- Use the value of the `@odata.nextLink` property to request the next set of records. Don’t change or append any additional system query options to the value. For every subsequent request for additional pages, you should use the same odata.maxpagesize preference value used in the original request. Also, cache the results returned or the value of the @odata.nextLink property so that previously retrieved pages can be returned to.  
+ Use the value of the `@odata.nextLink` property to request the next set of records. Don’t change or append any additional system query options to the value. For every subsequent request for additional pages, you should use the same odata.maxpagesize preference value used in the original request. Also, cache the results returned or the value of the `@odata.nextLink` property so that previously retrieved pages can be returned to.  
   
 > [!NOTE]
->  The value of the @odata.nextLink property is URI encoded. If you URI encode the value before you send it, the XML cookie information in the URL will cause an error.  
+>  The value of the `@odata.nextLink` property is URI encoded. If you URI encode the value before you send it, the XML cookie information in the URL will cause an error.  
   
 <a name="bkmk_applyqueryOptions"></a>
 
@@ -216,7 +218,7 @@ GET [Organization URI]/api/data/v9.0/accounts?$select=name,revenue
   
 ### [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web API query functions
  
- [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement provides a number of special functions that accept parameters, return Boolean values, and can be used as filter criteria in a query. See <xref:Microsoft.Dynamics.CRM.QueryFunctionIndex> for a list of these functions. The following is an example of the <xref href="Microsoft.Dynamics.CRM.Between?text=Between Function" /> searching for accounts with a number of employees between 5 and 2000.  
+ [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps provides a number of special functions that accept parameters, return Boolean values, and can be used as filter criteria in a query. See <xref:Microsoft.Dynamics.CRM.QueryFunctionIndex> for a list of these functions. The following is an example of the <xref href="Microsoft.Dynamics.CRM.Between?text=Between Function" /> searching for accounts with a number of employees between 5 and 2000.  
   
 ```http 
 GET [Organization URI]/api/data/v9.0/accounts?$select=name,numberofemployees&$filter=Microsoft.Dynamics.CRM.Between(PropertyName='numberofemployees',PropertyValues=["5","2000"])  
@@ -233,8 +235,6 @@ GET [Organization URI]/api/data/v9.0/accounts?$select=name,numberofemployees&$fi
 ```http 
 GET [Organization URI]/api/data/v9.0/accounts?$select=name,revenue,&$orderby=revenue asc,name desc&$filter=revenue ne null  
 ```  
-  
-<a name="bkmk_useParameterAliases"></a>
 
 ## Aggregate and Grouping results
 
@@ -250,9 +250,11 @@ By using `$apply` you can aggregate and group your data dynamically.  Possible u
 |Last created record date and time|`$apply=aggregate(createdon with max as lastCreate)`|
 |First created record date and time|`$apply=aggregate(createdon with min as firstCreate)`|
 
-The aggregate functions are limited to a collection of 50,000 records.  Further information around using aggregate functionality with Dynamics 365 can be found here: [Use FetchXML to construct a query](../org-service/use-fetchxml-construct-query.md)
+The aggregate functions are limited to a collection of 50,000 records.  Further information around using aggregate functionality with Dynamics 365 for Customer Engagement apps can be found here: [Use FetchXML to construct a query](../org-service/use-fetchxml-construct-query.md)
 
-Additional details on OData data aggregation can be found here: [http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs01/odata-data-aggregation-ext-v4.0-cs01.html](http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs01/odata-data-aggregation-ext-v4.0-cs01.html).  Note that Dynamics 365 only supports a sub-set of these aggregate methods.
+Additional details on OData data aggregation can be found here: [OData Extension for Data Aggregation Version 4.0](http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs01/odata-data-aggregation-ext-v4.0-cs01.html).  Note that Dynamics 365 for Customer Engagement apps only supports a sub-set of these aggregate methods.
+
+<a name="bkmk_useParameterAliases"></a>
 
 ## Use parameter aliases with system query options
 
@@ -322,18 +324,28 @@ OData-Version: 4.0
 Preference-Applied: odata.maxpagesize=3  
   
 {  
-"@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name)",  
-"@odata.count":10,  
-"value":[  
-{  
-"@odata.etag":"W/\"502482\"","name":"Fourth Coffee (sample)","accountid":"655eaf89-f083-e511-80d3-00155d2a68d3"  
-},{  
-"@odata.etag":"W/\"502483\"","name":"Litware, Inc. (sample)","accountid":"675eaf89-f083-e511-80d3-00155d2a68d3"  
-},{  
-"@odata.etag":"W/\"502484\"","name":"Adventure Works (sample)","accountid":"695eaf89-f083-e511-80d3-00155d2a68d3"  
-}  
-],"@odata.nextLink":"[Organization URI]/api/data/v9.0/accounts?$select=name&$filter=contains(name,'sample')&$skiptoken=%3Ccookie%20pagenumber=%222%22%20pagingcookie=%22%253ccookie%2520page%253d%25221%2522%253e%253caccountid%2520last%253d%2522%257b695EAF89-F083-E511-80D3-00155D2A68D3%257d%2522%2520first%253d%2522%257b655EAF89-F083-E511-80D3-00155D2A68D3%257d%2522%2520%252f%253e%253c%252fcookie%253e%22%20istracking=%22False%22%20/%3E"  
-}  
+   "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name)",
+   "@odata.count":10,
+   "value":[  
+      {  
+         "@odata.etag":"W/\"502482\"",
+         "name":"Fourth Coffee (sample)",
+         "accountid":"655eaf89-f083-e511-80d3-00155d2a68d3"
+      },
+      {  
+         "@odata.etag":"W/\"502483\"",
+         "name":"Litware, Inc. (sample)",
+         "accountid":"675eaf89-f083-e511-80d3-00155d2a68d3"
+      },
+      {  
+         "@odata.etag":"W/\"502484\"",
+         "name":"Adventure Works (sample)",
+         "accountid":"695eaf89-f083-e511-80d3-00155d2a68d3"
+      }
+   ],
+   "@odata.nextLink":"[Organization URI]/api/data/v9.0/accounts?$select=name&$filter=contains(name,'sample')&$skiptoken=%3Ccookie%20pagenumber=%222%22%20pagingcookie=%22%253ccookie%2520page%253d%25221%2522%253e%253caccountid%2520last%253d%2522%257b695EAF89-F083-E511-80D3-00155D2A68D3%257d%2522%2520first%253d%2522%257b655EAF89-F083-E511-80D3-00155D2A68D3%257d%2522%2520%252f%253e%253c%252fcookie%253e%22%20istracking=%22False%22%20/%3E"
+}
+
   
 ```  
   
@@ -386,22 +398,25 @@ OData-Version: 4.0
 Preference-Applied: odata.include-annotations="OData.Community.Display.V1.FormattedValue"  
   
 {  
-"@odata.context": "[Organization URI]/api/data/v9.0/$metadata#accounts(name,donotpostalmail,accountratingcode,numberofemployees,revenue)",  
-"value": [  
-{  
-"@odata.etag": "W/"502170"",  
-"name": "Fourth Coffee (sample)",  
-"donotpostalmail@OData.Community.Display.V1.FormattedValue": "Allow",  
-"donotpostalmail": false,  
-"accountratingcode@OData.Community.Display.V1.FormattedValue": "Default Value",  
-"accountratingcode": 1,  
-"numberofemployees@OData.Community.Display.V1.FormattedValue": "9,500",  
-"numberofemployees": 9500,  
-"revenue@OData.Community.Display.V1.FormattedValue": "$100,000.00",  
-"revenue": 100000,  
-"accountid": "89390c24-9c72-e511-80d4-00155d2a68d1",  
-"transactioncurrencyid_value": "50b6dd7b-f16d-e511-80d0-00155db07cb1" } ]  
-}    
+   "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name,donotpostalmail,accountratingcode,numberofemployees,revenue)",
+   "value":[  
+      {  
+         "@odata.etag":"W/\"502170\"",
+         "name":"Fourth Coffee (sample)",
+         "donotpostalmail@OData.Community.Display.V1.FormattedValue":"Allow",
+         "donotpostalmail":false,
+         "accountratingcode@OData.Community.Display.V1.FormattedValue":"Default Value",
+         "accountratingcode":1,
+         "numberofemployees@OData.Community.Display.V1.FormattedValue":"9,500",
+         "numberofemployees":9500,
+         "revenue@OData.Community.Display.V1.FormattedValue":"$100,000.00",
+         "revenue":100000,
+         "accountid":"89390c24-9c72-e511-80d4-00155d2a68d1",
+         "transactioncurrencyid_value":"50b6dd7b-f16d-e511-80d0-00155db07cb1"
+      }
+   ]
+}
+   
 ```  
   
 <a name="bkmk_lookupProperty"></a>
@@ -422,7 +437,7 @@ Preference-Applied: odata.include-annotations="OData.Community.Display.V1.Format
  **Request**  
 
 ```http 
-GET [Organization URI]/api/data/v9.0/incidents(39dd0b31-ed8b-e511-80d2-00155d2a68d4)?$select=title,customerid_value&$expand=customerid_contact($select=fullname) HTTP/1.1  
+GET [Organization URI]/api/data/v9.0/incidents(39dd0b31-ed8b-e511-80d2-00155d2a68d4)?$select=title,_customerid_value&$expand=customerid_contact($select=fullname) HTTP/1.1  
 Accept: application/json  
 Content-Type: application/json; charset=utf-8  
 OData-MaxVersion: 4.0  
@@ -439,19 +454,19 @@ OData-Version: 4.0
 Preference-Applied: odata.include-annotations="*"  
   
 {  
-"@odata.context":"[Organization URI]/api/data/v9.0/$metadata#incidents(title,_customerid_value,customerid_contact(fullname))/$entity",  
-"@odata.etag":"W/\"504696\"",  
-"_customerid_value@Microsoft.Dynamics.CRM.associatednavigationproperty":"customerid_contact",  
-"_customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname":"contact",  
-"_customerid_value@OData.Community.Display.V1.FormattedValue":"Susanna Stubberod (sample)",  
-"_customerid_value":"7ddd0b31-ed8b-e511-80d2-00155d2a68d4",  
-"incidentid":"39dd0b31-ed8b-e511-80d2-00155d2a68d4",  
-"customerid_contact":{  
-"@odata.etag":"W/\"503587\"",  
-"fullname":"Susanna Stubberod (sample)",  
-"contactid":"7ddd0b31-ed8b-e511-80d2-00155d2a68d4"  
-}  
-}  
+    "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#incidents(title,_customerid_value,customerid_contact(fullname))/$entity",
+    "@odata.etag":"W/\"504696\"",
+    "_customerid_value@Microsoft.Dynamics.CRM.associatednavigationproperty":"customerid_contact",
+    "_customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname":"contact",
+    "_customerid_value@OData.Community.Display.V1.FormattedValue":"Susanna Stubberod (sample)",
+    "_customerid_value":"7ddd0b31-ed8b-e511-80d2-00155d2a68d4",
+    "incidentid":"39dd0b31-ed8b-e511-80d2-00155d2a68d4",
+    "customerid_contact":{  
+        "@odata.etag":"W/\"503587\"",
+        "fullname":"Susanna Stubberod (sample)",
+        "contactid":"7ddd0b31-ed8b-e511-80d2-00155d2a68d4"
+    }
+} 
 ```  
   
 <a name="BKMK_FilterNavProperties"></a>
@@ -465,336 +480,98 @@ Preference-Applied: odata.include-annotations="*"
 > [!NOTE]
 >  The capability to filter records  based on single-valued navigation property was introduced in [!INCLUDE[pn_crm_8_1_0_online](../../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_1_0_op](../../includes/pn-crm-8-1-0-op.md)].  
   
- For example:  
+For example:  
   
--   Retrieve all the matching accounts for a specified Contact ID  
+-   **Retrieve all the matching accounts for a specified Contact ID**  
   
-    **Request** 
+**Request** 
  
-    ```http 
-    GET [Organization URI]/api/data/v9.0/accounts?$select=name&$filter=primarycontactid/contactid%20eq%20a0dbf27c-8efb-e511-80d2-00155db07c77 HTTP/1.1  
-    Accept: application/json  
-    OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-    ```  
+```http 
+GET [Organization URI]/api/data/v9.0/accounts?$select=name&$filter=primarycontactid/contactid%20eq%20a0dbf27c-8efb-e511-80d2-00155db07c77 HTTP/1.1  
+Accept: application/json  
+OData-MaxVersion: 4.0  
+OData-Version: 4.0  
+```  
   
-    **Response**  
+**Response**  
 
-    ```http 
-    HTTP/1.1 200 OK  
-    Content-Type: application/json; odata.metadata=minimal  
-    OData-Version: 4.0  
+```http 
+HTTP/1.1 200 OK  
+Content-Type: application/json; odata.metadata=minimal  
+OData-Version: 4.0  
   
-    {  
-    "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name)",  
-    "value":[  
-    {  
-    "@odata.etag":"W/\"513479\"",  
-    "name":"Adventure Works (sample)",  
-    "accountid":"3adbf27c-8efb-e511-80d2-00155db07c77"  
-    },{  
-    "@odata.etag":"W/\"514057\"",  
-    "name":"Blue Yonder Airlines (sample)",  
-    "accountid":"3edbf27c-8efb-e511-80d2-00155db07c77"  
-    }  
-    ]  
-    }  
-    ```  
-  
--   Retrieve child accounts for the specified Account ID.  
-  
-    **Request**  
+{  
+"@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name)",
+"value":[  
+        {  
+            "@odata.etag":"W/\"513479\"",
+            "name":"Adventure Works (sample)",
+            "accountid":"3adbf27c-8efb-e511-80d2-00155db07c77"
+        },
+        {  
+            "@odata.etag":"W/\"514057\"",
+            "name":"Blue Yonder Airlines (sample)",
+            "accountid":"3edbf27c-8efb-e511-80d2-00155db07c77"
+        }
+    ]
+}  
+```  
 
-    ```http 
-    GET [Organization URI]/api/data/v9.0/accounts?$select=name&$filter=parentaccountid/accountid%20eq%203adbf27c-8efb-e511-80d2-00155db07c77  
-    Accept: application/json  
-    OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-    ```  
+-   **Retrieve child accounts for the specified Account ID**  
   
-    **Response**  
+**Request**  
 
-    ```http 
-    HTTP/1.1 200 OK  
-    Content-Type: application/json; odata.metadata=minimal  
-    OData-Version: 4.0  
+```http 
+GET [Organization URI]/api/data/v9.0/accounts?$select=name&$filter=parentaccountid/accountid%20eq%203adbf27c-8efb-e511-80d2-00155db07c77  
+Accept: application/json  
+OData-MaxVersion: 4.0  
+OData-Version: 4.0  
+```  
   
-    {  
-    "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name)",  
-    "value":[  
-    {  
-    "@odata.etag":"W/\"514058\"",  
-    "name":"Sample Child Account 1",  
-    "accountid":"915e89f5-29fc-e511-80d2-00155db07c77"  
-    },{  
-    "@odata.etag":"W/\"514061\"",  
-    "name":"Sample Child Account 2",  
-    "accountid":"03312500-2afc-e511-80d2-00155db07c77"  
-    }  
-    ]  
-    }    
-    ```  
+**Response**  
+
+```http 
+HTTP/1.1 200 OK  
+Content-Type: application/json; odata.metadata=minimal  
+OData-Version: 4.0  
+  
+{  
+"@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name)",
+"value":[  
+        {  
+            "@odata.etag":"W/\"514058\"",
+            "name":"Sample Child Account 1",
+            "accountid":"915e89f5-29fc-e511-80d2-00155db07c77"
+        },
+        {  
+            "@odata.etag":"W/\"514061\"",
+            "name":"Sample Child Account 2",
+            "accountid":"03312500-2afc-e511-80d2-00155db07c77"
+        }
+    ]
+}   
+```  
   
 <a name="bkmk_expandRelated"></a>
 
 ## Retrieve related entities by expanding navigation properties
 
- Use the `$expand` system query option in the navigation properties to control what data from related entities is returned. There are two types of navigation properties:  
-  
-- *Single-valued* navigation properties correspond to Lookup attributes that support many-to-one relationships and allow setting a reference to another entity.  
-  
-- *Collection-valued* navigation properties correspond to one-to-many or many-to-many relationships.  
-  
-  If you include only the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the `$select` system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.  
-  
-> [!NOTE]
->  The capability to retrieve  related entities for entity sets was introduced in [!INCLUDE[pn_crm_8_1_0_online](../../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_1_0_op](../../includes/pn-crm-8-1-0-op.md)].  
-> 
->  To retrieve related entities for an entity instance, see [Retrieve related entities for an entity by expanding navigation properties](retrieve-entity-using-web-api.md#bkmk_expandRelated).  
-  
-- **Retrieve related entities by expanding single-valued navigation properties**: The following example demonstrates how to retrieve the contact for all the account records. For the related contact records, we are only retrieving the contactid and fullname.  
-  
-     **Request**  
-
-    ```http 
-    GET [Organization URI]/api/data/v9.0/accounts?$select=name&$expand=primarycontactid($select=contactid,fullname) HTTP/1.1  
-    Accept: application/json  
-    OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-    ```  
-  
-     **Response** 
+Using `$expand` system query option in the navigation properties lets you decide what data from the related entities is returned. More information: [Retrieve related entities with a query](retrieve-related-entities-query.md).
  
-    ```http 
-    HTTP/1.1 200 OK  
-    Content-Type: application/json; odata.metadata=minimal  
-    OData-Version: 4.0  
-  
-    {  
-    "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name,primarycontactid,primarycontactid(contactid,fullname))","value":[  
-    {  
-    "@odata.etag":"W/\"513475\"","name":"Fourth Coffee (sample)","accountid":"36dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "contactid":"9cdbf27c-8efb-e511-80d2-00155db07c77","fullname":"Yvonne McKay (sample)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513477\"","name":"Litware, Inc. (sample)","accountid":"38dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "contactid":"9edbf27c-8efb-e511-80d2-00155db07c77","fullname":"Susanna Stubberod (sample)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513479\"","name":"Adventure Works (sample)","accountid":"3adbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "contactid":"a0dbf27c-8efb-e511-80d2-00155db07c77","fullname":"Nancy Anderson (sample)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513481\"","name":"Fabrikam, Inc. (sample)","accountid":"3cdbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "contactid":"a2dbf27c-8efb-e511-80d2-00155db07c77","fullname":"Maria Campbell (sample)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"514057\"","name":"Blue Yonder Airlines (sample)","accountid":"3edbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "contactid":"a0dbf27c-8efb-e511-80d2-00155db07c77","fullname":"Nancy Anderson (sample)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513485\"","name":"City Power & Light (sample)","accountid":"40dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "contactid":"a6dbf27c-8efb-e511-80d2-00155db07c77","fullname":"Scott Konersmann (sample)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513487\"","name":"Contoso Pharmaceuticals (sample)","accountid":"42dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "contactid":"a8dbf27c-8efb-e511-80d2-00155db07c77","fullname":"Robert Lyon (sample)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513489\"","name":"Alpine Ski House (sample)","accountid":"44dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "contactid":"aadbf27c-8efb-e511-80d2-00155db07c77","fullname":"Paul Cannon (sample)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513491\"","name":"A. Datum Corporation (sample)","accountid":"46dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "contactid":"acdbf27c-8efb-e511-80d2-00155db07c77","fullname":"Rene Valdes (sample)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513493\"","name":"Coho Winery (sample)","accountid":"48dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "contactid":"aedbf27c-8efb-e511-80d2-00155db07c77","fullname":"Jim Glynn (sample)"  
-    }  
-    }  
-    ]  
-    }    
-    ```  
-
-Instead of returning the related entities for entity sets, you can also return references (links) to the related entities by expanding the single-valued navigation property with the `$ref` option. The following example returns links to the contact records for all the accounts.  
-  
- **Request**
-
-```http  
-    GET [Organization URI]/api/data/v9.0/accounts?$select=name&$expand=primarycontactid/$ref HTTP/1.1  
-    Accept: application/json  
-    OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-```  
-  
- **Response**
- 
-```http 
-    HTTP/1.1 200 OK  
-    Content-Type: application/json; odata.metadata=minimal  
-    OData-Version: 4.0  
-  
-    {  
-    "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name,primarycontactid)","value":[  
-    {  
-    "@odata.etag":"W/\"513475\"","name":"Fourth Coffee (sample)","_primarycontactid_value":"9cdbf27c-8efb-e511-80d2-00155db07c77","accountid":"36dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "@odata.id":"[Organization URI]/api/data/v9.0/contacts(9cdbf27c-8efb-e511-80d2-00155db07c77)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513477\"","name":"Litware, Inc. (sample)","_primarycontactid_value":"9edbf27c-8efb-e511-80d2-00155db07c77","accountid":"38dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "@odata.id":"[Organization URI]/api/data/v9.0/contacts(9edbf27c-8efb-e511-80d2-00155db07c77)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513479\"","name":"Adventure Works (sample)","_primarycontactid_value":"a0dbf27c-8efb-e511-80d2-00155db07c77","accountid":"3adbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "@odata.id":"[Organization URI]/api/data/v9.0/contacts(a0dbf27c-8efb-e511-80d2-00155db07c77)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513481\"","name":"Fabrikam, Inc. (sample)","_primarycontactid_value":"a2dbf27c-8efb-e511-80d2-00155db07c77","accountid":"3cdbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "@odata.id":"[Organization URI]/api/data/v9.0/contacts(a2dbf27c-8efb-e511-80d2-00155db07c77)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"514057\"","name":"Blue Yonder Airlines (sample)","_primarycontactid_value":"a0dbf27c-8efb-e511-80d2-00155db07c77","accountid":"3edbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "@odata.id":"[Organization URI]/api/data/v9.0/contacts(a0dbf27c-8efb-e511-80d2-00155db07c77)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513485\"","name":"City Power & Light (sample)","_primarycontactid_value":"a6dbf27c-8efb-e511-80d2-00155db07c77","accountid":"40dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "@odata.id":"[Organization URI]/api/data/v9.0/contacts(a6dbf27c-8efb-e511-80d2-00155db07c77)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513487\"","name":"Contoso Pharmaceuticals (sample)","_primarycontactid_value":"a8dbf27c-8efb-e511-80d2-00155db07c77","accountid":"42dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "@odata.id":"[Organization URI]/api/data/v9.0/contacts(a8dbf27c-8efb-e511-80d2-00155db07c77)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513489\"","name":"Alpine Ski House (sample)","_primarycontactid_value":"aadbf27c-8efb-e511-80d2-00155db07c77","accountid":"44dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "@odata.id":"[Organization URI]/api/data/v9.0/contacts(aadbf27c-8efb-e511-80d2-00155db07c77)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513491\"","name":"A. Datum Corporation (sample)","_primarycontactid_value":"acdbf27c-8efb-e511-80d2-00155db07c77","accountid":"46dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "@odata.id":"[Organization URI]/api/data/v9.0/contacts(acdbf27c-8efb-e511-80d2-00155db07c77)"  
-    }  
-    },{  
-    "@odata.etag":"W/\"513493\"","name":"Coho Winery (sample)","_primarycontactid_value":"aedbf27c-8efb-e511-80d2-00155db07c77","accountid":"48dbf27c-8efb-e511-80d2-00155db07c77","primarycontactid":{  
-    "@odata.id":"[Organization URI]/api/data/v9.0/contacts(aedbf27c-8efb-e511-80d2-00155db07c77)"  
-    }  
-    }  
-    ]  
-    }  
-```  
-
-- **Retrieve related entities by expanding collection-valued navigation properties**: If you expand on collection-valued navigation parameters to retrieve related entities for entity sets, an @odata.nextLink property will be returned for the related entities. You should use the value of the @odata.nextLink property with a new GET request to return the required data.  
-  
-    The following example retrieves the tasks assigned to the top 5 account records.  
-  
-     **Request**
-
-    ```http 
-        GET [Organization URI]/api/data/v9.0/accounts?$top=5&$select=name&$expand=Account_Tasks($select%20=%20subject,%20scheduledstart) HTTP/1.1  
-        Accept: application/json  
-        OData-MaxVersion: 4.0  
-        OData-Version: 4.0  
-    ```  
-  
-     **Response** 
- 
-    ```http 
-        HTTP/1.1 200 OK  
-        Content-Type: application/json; odata.metadata=minimal  
-        OData-Version: 4.0  
-  
-        {  
-        "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name,Account_Tasks,Account_Tasks(subject,scheduledstart))","value":[  
-        {  
-        "@odata.etag":"W/\"513475\"","name":"Fourth Coffee (sample)","accountid":"36dbf27c-8efb-e511-80d2-00155db07c77","Account_Tasks":[  
-  
-        ],"Account_Tasks@odata.nextLink":"[Organization URI]/api/data/v9.0/accounts(36dbf27c-8efb-e511-80d2-00155db07c77)/Account_Tasks?$select%20=%20subject,%20scheduledstart"  
-        },{  
-        "@odata.etag":"W/\"513477\"","name":"Litware, Inc. (sample)","accountid":"38dbf27c-8efb-e511-80d2-00155db07c77","Account_Tasks":[  
-  
-        ],"Account_Tasks@odata.nextLink":"[Organization URI]/api/data/v9.0/accounts(38dbf27c-8efb-e511-80d2-00155db07c77)/Account_Tasks?$select%20=%20subject,%20scheduledstart"  
-        },{  
-        "@odata.etag":"W/\"514074\"","name":"Adventure Works (sample)","accountid":"3adbf27c-8efb-e511-80d2-00155db07c77","Account_Tasks":[  
-  
-        ],"Account_Tasks@odata.nextLink":"[Organization URI]/api/data/v9.0/accounts(3adbf27c-8efb-e511-80d2-00155db07c77)/Account_Tasks?$select%20=%20subject,%20scheduledstart"  
-        },{  
-        "@odata.etag":"W/\"513481\"","name":"Fabrikam, Inc. (sample)","accountid":"3cdbf27c-8efb-e511-80d2-00155db07c77","Account_Tasks":[  
-  
-        ],"Account_Tasks@odata.nextLink":"[Organization URI]/api/data/v9.0/accounts(3cdbf27c-8efb-e511-80d2-00155db07c77)/Account_Tasks?$select%20=%20subject,%20scheduledstart"  
-        },{  
-        "@odata.etag":"W/\"514057\"","name":"Blue Yonder Airlines (sample)","accountid":"3edbf27c-8efb-e511-80d2-00155db07c77","Account_Tasks":[  
-  
-        ],"Account_Tasks@odata.nextLink":"[Organization URI]/api/data/v9.0/accounts(3edbf27c-8efb-e511-80d2-00155db07c77)/Account_Tasks?$select%20=%20subject,%20scheduledstart"  
-        }  
-        ]  
-        }  
-    ```  
-  
-- **Retrieve related entities by expanding both single-valued and collection-valued navigation properties**: The following example demonstrates how you can expand related entities for entity sets using both single- and collection-valued navigation properties. As explained earlier, expanding on collection-valued navigation properties to retrieve related entities for entity sets returns an @odata.nextLink property for the related entities. You should use the value of the @odata.nextLink property with a new GET request to return the required data.  
-  
-     In this example, we are retrieving the contact and tasks assigned to the top 3 accounts.  
-  
-     **Request**
-
-    ```http 
-    GET [Organization URI]/api/data/v9.0/accounts?$top=3&$select=name&$expand=primarycontactid($select=contactid,fullname),Account_Tasks($select=subject,scheduledstart)  HTTP/1.1  
-    Accept: application/json  
-    OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-    ```  
-  
-     **Response**  
-
-    ```http 
-    HTTP/1.1 200 OK  
-    Content-Type: application/json; odata.metadata=minimal  
-    OData-Version: 4.0  
-  
-    {  
-    "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name,primarycontactid,Account_Tasks,primarycontactid(contactid,fullname),Account_Tasks(subject,scheduledstart))","value":[  
-    {  
-    "@odata.etag":"W/\"550614\"",  
-    "name":"Fourth Coffee (sample)",  
-    "accountid":"5b9648c3-68f7-e511-80d3-00155db53318",  
-    "primarycontactid":{  
-    "contactid":"c19648c3-68f7-e511-80d3-00155db53318",  
-    "fullname":"Yvonne McKay (sample)"  
-    },  
-    "Account_Tasks":[  
-  
-    ],"Account_Tasks@odata.nextLink":"[Organization URI]/api/data/v9.0/accounts(5b9648c3-68f7-e511-80d3-00155db53318)/Account_Tasks?$select=subject,scheduledstart"  
-    },{  
-    "@odata.etag":"W/\"550615\"",  
-    "name":"Litware, Inc. (sample)",  
-    "accountid":"5d9648c3-68f7-e511-80d3-00155db53318",  
-    "primarycontactid":{  
-    "contactid":"c39648c3-68f7-e511-80d3-00155db53318",  
-    "fullname":"Susanna Stubberod (sample)"  
-    },"Account_Tasks":[  
-  
-    ],"Account_Tasks@odata.nextLink":"[Organization URI]/api/data/v9.0/accounts(5d9648c3-68f7-e511-80d3-00155db53318)/Account_Tasks?$select=subject,scheduledstart"  
-    },{  
-    "@odata.etag":"W/\"550616\"",  
-    "name":"Adventure Works (sample)",  
-    "accountid":"5f9648c3-68f7-e511-80d3-00155db53318",  
-    "primarycontactid":{  
-    "contactid":"c59648c3-68f7-e511-80d3-00155db53318",  
-    "fullname":"Nancy Anderson (sample)"  
-    },"Account_Tasks":[  
-  
-    ],"Account_Tasks@odata.nextLink":"[Organization URI]/api/data/v9.0/accounts(5f9648c3-68f7-e511-80d3-00155db53318)/Account_Tasks?$select=subject,scheduledstart"  
-    }  
-    ]  
-    }  
-    ```
-
 ## Filter results based on values of collection-valued navigation properties
 
-You cannot use OData $filter to set criteria that applies to values in collection valued navigation properties in a single operation.
-You have two options:
-*	Construct a query using FetchXML.  More information: Use custom FetchXML
-*	Iterate over results filtering individual entities based on values in the collection using multiple operations.
+You cannot use OData `$filter` to limit the entity records returned using criteria applied to collection-valued navigation properties in a single operation.
+
+> [!NOTE]
+> It is possible to use `$filter` within `$expand` to filter results for related records in a Retrieve operation. You can use a semi-colon separated list of system query options enclosed in parentheses after the name of the collection-valued navigation property. The query options that are supported within `$expand` are `$select`, `$filter`, `$top` and `$orderby`. More information: [Options to apply to expanded entities](retrieve-entity-using-web-api.md#options-to-apply-to-expanded-entities).
+
+The two options for filtering results based on values of collection-valued navigation properties are:
+
+1. **Construct a query using FetchXML**
 
 Generally, using FetchXML should provide better performance because the filtering can be applied server-side in a single operation. The example shown below illustrates how to apply filter on values of collection properties for a link-entity.
+
+The below example retrieves the records of `systemuser` entity type that are linked with `team` and `teammembership` entity types, that means it retrieves `systemuser` records who are also administrators of a team.
 
 ```xml
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
@@ -816,7 +593,20 @@ Generally, using FetchXML should provide better performance because the filterin
   </entity>
 </fetch>
 ```
-  
+More information: [Build queries with FetchXML](../org-service/build-queries-fetchxml.md).
+
+2. **Iterate over results filtering individual entities based on values in the collection using multiple operations**
+
+To get the same results as the FetchXML example above, you can retrieve records of two entity types and then iteratively match the values in the collection of one entity to the value in the other entity, thereby filtering entities based on the values in the collection.
+
+Follow the steps in the below example to understand how we can filter results using the iteration method:
+
+1. Get a distinct list of <xref href="Microsoft.Dynamics.CRM.team" />._administratorid_value values.
+      - `GET [OrganizationURI]/api/data/v9.0/teams?$select=_administratorid_value&$filter=_administrator_value ne null`
+      - Then loop through the returned values to remove duplicates and get a distinct list. i.e. Create a new array, loop through the query results, for each check to see if they are already in the new array, if not, add them. This should give you a list of distinct `systemuserid` values
+      - The way you would do this in JavaScript vs C# would be different, but essentially you should be able to get the same results.
+2. Query <xref href="Microsoft.Dynamics.CRM.systemuser" /> using <xref href="Microsoft.Dynamics.CRM.ContainValues?text=ContainValues Query Function" /> to compare the `systemuserid` values with the list collected in Step 1.
+
 ### See also
 
  [Web API Query Data Sample (C#)](web-api-query-data-sample-csharp.md)   

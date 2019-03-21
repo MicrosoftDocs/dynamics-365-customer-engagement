@@ -1,17 +1,17 @@
 ---
 title: "API Limits | MicrosoftDocs"
 description: "Understand the limits for API requests."
-ms.custom: ""
+ms.custom: 
 ms.date: 03/08/2018
-ms.reviewer: "sriknair"
-ms.service: "crm-online"
-ms.topic: "article"
+ms.reviewer: sriknair
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6cba6191-4e10-4b21-823a-b0cf71ef21d5
-author: "MicroSri"
-ms.author: "jdaly"
-manager: "faisalmo"
+author: MicroSri
+ms.author: jdaly
+manager: faisalmo
 search.audienceType: 
   - developer
 search.app: 
@@ -138,8 +138,8 @@ public class Retry
 
 ### See also
 
-[Use the Dynamics 365 Organization service](use-microsoft-dynamics-365-organization-service.md)<br />
-[Use the Dynamics 365 Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)<br />
+[Use the Dynamics 365 for Customer Engagement Organization apps service](use-microsoft-dynamics-365-organization-service.md)<br />
+[Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)<br />
 [Execute batch operations using the Web API](webapi/execute-batch-operations-using-web-api.md)<br />
 [Use ExecuteMultiple to improve performance for bulk data load](org-service/use-executemultiple-improve-performance-bulk-data-load.md)
 

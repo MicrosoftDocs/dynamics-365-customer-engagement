@@ -1,13 +1,13 @@
 ---
 title: Move around Customer Engagement apps using keyboard shortcuts | Microsoft Docs
-description: Use the keyboard shortcuts to perform common tasks in Microsoft Dynamics 365
+description: Use the keyboard shortcuts to perform common tasks in Microsoft Dynamics 365 for Customer Engagement
 keywords: 
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "ReneeW-CPub"
-ms.author: "renwe"
-manager: "annbe"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: ReneeW-CPub
+ms.author: renwe
+manager: annbe
 ms.date: 05/30/2018
 ms.topic: article
 ms.service: dynamics-365-cross-app
@@ -19,11 +19,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use keyboard shortcuts in Dynamics 365 Customer Engagement applications
+# Use keyboard shortcuts in Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement applications. 
+Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 for Customer Engagement apps. 
 
 > [!NOTE]
 > The keyboard shortcuts described here refer to the United States keyboard layout. Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard. 
@@ -183,7 +183,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 [Dynamics 365 for Marketing: Keyboard shortcuts and accessibility features for content designers](../marketing/designer-shortcuts.md)
 
-[Unified Service Desk](../unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365.md)
+[Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365)
 
 [App designer, site map designer, and My Apps page](../customize/accessibility-app-designer-site-map-designer-my-apps-page.md)
 

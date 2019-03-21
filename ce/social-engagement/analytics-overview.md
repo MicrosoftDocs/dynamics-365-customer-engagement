@@ -1,12 +1,12 @@
 ---
 title: "Start analyzing data in Social Engagement | Microsoft Docs"
 description: "Learn how to get an overview about your data in Social Engagement."
-keywords: "analytics, overview"
+keywords: analytics, overview
 ms.date: 03/09/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 8ac1759b-8534-43c9-a273-f56ce1505166
 author: m-hartmann
 ms.author: mhart

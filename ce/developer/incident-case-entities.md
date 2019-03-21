@@ -1,37 +1,37 @@
 ---
-title: "Incident (case) entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Incident (case) entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about incident (case) entities that performs the incident management by creating an incident and specifying an active SLA record. An incident can be in one of three states: Active, Resolved, or Canceled."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "incident (case) entities, tracking actions and communications"
-  - "routing and queuing, definition"
-  - "tracking actions and communications, incident (case) entities"
-  - "incident (case) entities, tracking incidents and activities"
-  - "incident (case) entities, tracking customer requests; questions; or problems"
-  - "tracking customer requests; questions; or problems"
-  - "knowledge base, definition"
-  - "managing incidents, incident (case) entities"
-  - "incident (case) entities, introduction"
-  - "incident management, definition"
-  - "incident (case) entities, managing"
-  - "managing cases, incident (case) entities"
-  - "incident, definition"
-  - "tracking incidents and activities, incident (case) entities"
-  - "incident states, types of"
+  - incident (case) entities, tracking actions and communications
+  - routing and queuing, definition
+  - tracking actions and communications, incident (case) entities
+  - incident (case) entities, tracking incidents and activities
+  - incident (case) entities, tracking customer requests; questions; or problems
+  - tracking customer requests; questions; or problems
+  - knowledge base, definition
+  - managing incidents, incident (case) entities
+  - incident (case) entities, introduction
+  - incident management, definition
+  - incident (case) entities, managing
+  - managing cases, incident (case) entities
+  - incident, definition
+  - tracking incidents and activities, incident (case) entities
+  - incident states, types of
   - case entities, see 'incident (case) entities'
 ms.assetid: 441cd857-456f-4319-a0e3-69555277eee5
 caps.latest.revision: 29
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

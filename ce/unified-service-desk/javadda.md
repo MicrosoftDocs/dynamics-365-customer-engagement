@@ -1,20 +1,20 @@
 ---
-title: "JavaDDA in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "JavaDDA in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "The Java data-driven adapter (JavaDDA) uses the Java Access Bridge to automate Java applications. User Interface Integration (UII) supports Java Access Bridge 2.0.2."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 1992cc1f-c212-486b-a457-aaf7bcf58b52
 caps.latest.revision: 5
 author: kabala123

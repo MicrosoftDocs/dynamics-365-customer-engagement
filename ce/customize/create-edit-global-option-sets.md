@@ -1,20 +1,19 @@
 ---
 title: "Create and edit global option sets | MicrosoftDocs"
-ms.custom: ""
-ms.date: 03/21/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 03/06/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "PowerApps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: f06b8941-8dca-4601-b965-341cfb6fc3b2
 caps.latest.revision: 11
-ms.author: "matp"
-manager: "brycho"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -22,7 +21,7 @@ search.app:
 ---
 # Create and edit global option sets (picklists)
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 An option set is a type of field that can be included in an entity. It defines a set of options. When an option set is displayed in a form it uses a drop-down list control. When displayed in Advanced Find it uses a picklist control. Sometimes option sets are called picklists by developers.  
   
@@ -33,7 +32,7 @@ An option set is a type of field that can be included in an entity. It defines a
   
 #### Create a global option set  
   
-1.  Choose **Customize the System**.  
+1.  Go to **Settings** > **Customizations** > **Customize the System**.  
   
 2.  In the solution explorer, choose **Option Sets**.  
   
@@ -48,7 +47,10 @@ An option set is a type of field that can be included in an entity. It defines a
      The **Name** field value must be unique. If the generated value is the same as an existing global option set, you will need to change it before you can save.  
   
 5.  Unlike the **Description** for fields, the **Description** value for a global option set is not displayed as a tooltip when the field is used in a form. This description is only visible in the list of global options. You can use the description to provide information about why you have created this global option set and what it should be used for.  
-  
+ 
+> [!NOTE]
+> The fields **External Type Name** and **External Value** are only used if you are using virtual entities. If you are not using virtual entities, these fields can be left blank. For more information, see [Create and edit virtual entities that contain data from an external data source](create-edit-virtual-entities.md) 
+ 
 6.  In the toolbar choose **Save** to save the global option set. You can then edit the options in the option set using the instructions below.  
   
 #### Edit a global option set  

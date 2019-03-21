@@ -1,22 +1,22 @@
 ---
 title: "iFrame and web resource support in Dynamics 365 for tablets | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 2016-11-01
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: "mduelae"
+author: mduelae
 ms.assetid: d4bcbe8e-75c5-4489-b8f1-50641a87f684
 caps.latest.revision: 24
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

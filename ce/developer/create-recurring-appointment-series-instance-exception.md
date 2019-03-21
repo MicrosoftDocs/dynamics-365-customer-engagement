@@ -1,33 +1,33 @@
 ---
-title: "Create a recurring appointment series, instance, or exception (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create a recurring appointment series, instance, or exception (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "programmatically create a recurring appointment master (series),  individual recurring appointment instances, exceptions to those instances, or convert an appointment to a recurring appointment."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "schedule and appointment entities, converting appointments to recurring appointments"
-  - "identifying recurring appointment instances"
-  - "recurring appointment series; instance; or exception, schedule and appointment entities"
-  - "recurring appointment instances stored as appointment records, schedule and appointment entities"
-  - "appointments"
-  - "recurring appointment instances, updating; deleting; or identifying"
-  - "appointments, converting to recurring appointments"
-  - "converting appointments to recurring appointments"
-  - "deleting recurring appointment instances"
-  - "updating recurring appointment instances"
-  - "creating a recurring appointment series; instance; or exception"
-  - "schedule and appointment entities, creating a recurring appointment series; instance; or exception"
+  - schedule and appointment entities, converting appointments to recurring appointments
+  - identifying recurring appointment instances
+  - recurring appointment series; instance; or exception, schedule and appointment entities
+  - recurring appointment instances stored as appointment records, schedule and appointment entities
+  - appointments
+  - recurring appointment instances, updating; deleting; or identifying
+  - appointments, converting to recurring appointments
+  - converting appointments to recurring appointments
+  - deleting recurring appointment instances
+  - updating recurring appointment instances
+  - creating a recurring appointment series; instance; or exception
+  - schedule and appointment entities, creating a recurring appointment series; instance; or exception
 ms.assetid: bb2eadf8-058e-43c2-9fda-c56ac501bc1c
 caps.latest.revision: 29
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

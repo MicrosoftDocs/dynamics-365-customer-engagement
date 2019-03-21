@@ -1,20 +1,20 @@
 ---
 title: "Install Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 12/10/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-author: "mduelae"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps Version 9.x
+author: mduelae
 ms.assetid: 6818238b-1645-4710-a193-0015acb04196
 caps.latest.revision: 97
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer
@@ -35,7 +35,7 @@ search.app:
 ### Privileges required to run the app  
 
 > [!IMPORTANT]
->  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
+>  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 for Customer Engagement apps administrator or support person](../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
 
 ## Install the app from your device’s app store  
  Choose the download link for your device:  

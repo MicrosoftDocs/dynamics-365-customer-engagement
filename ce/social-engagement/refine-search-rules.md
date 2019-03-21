@@ -1,12 +1,12 @@
 ---
 title: "Find more relevant content in Social Engagement | Microsoft Docs"
 description: "Learn how to improve search rules to find relevant posts."
-keywords: "search optimization, search topic, search rule"
+keywords: search optimization, search topic, search rule
 ms.date: 10/17/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
-  - "Social Engagement"
+  - Social Engagement
 ms.assetid: 8ce8506f-179d-4eae-a56a-e9293e935d26
 author: m-hartmann
 ms.author: mhart

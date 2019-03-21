@@ -1,20 +1,20 @@
 ---
-title: "Share a report with other users or teams (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Share a report with other users or teams (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 3a30eb5f-4e3a-4c46-8fa4-150d8b277041
 caps.latest.revision: 34
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: Mattp123
+ms.author: matp
+manager: brycho
 search.audienceType: 
   - enduser
 search.app: 
@@ -33,7 +33,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report.  
   
-   **If using the Dynamics 365 web application:**  
+   **If using the Dynamics 365 for Customer Engagement apps:**  
   
    1.  Click **More Commands**![More Commands button in Appointment Activity](../basics/media/more-commands-button.gif "More Commands button in Appointment Activity"), and then click **Share**.  
   
@@ -57,7 +57,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report, and on the command bar, click **Edit**.  
   
-   **If using the Dynamics 365 web application:**  
+   **If using the Dynamics 365 for Customer Engagement apps:**  
   
    1.  On the command bar, click **Edit**.  
   

@@ -1,33 +1,34 @@
 ---
-title: "Developer Guide for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Developer Guide for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "This SDK contains a wealth of resources, including code samples, which are designed to help you build powerful vertical applications using the Customer Engagement platform. It is a guide for developers writing solutions, server-side code, client applications and extensions, custom business logic, plug-ins, integration modules, custom workflow modules and more. The SDK contains an architectural overview of Customer Engagement, the entity model, security model, web services, and sample code."
-ms.custom: ""
-ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 02/04/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: e926cfed-f581-4f1f-83bd-75a06292212b
-caps.latest.revision: 285
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
 tags: 
-  - "aug2017"
-  - "MigrationHO"
+  - aug2017
+  - MigrationHO
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Developer Guide for Dynamics 365 Customer Engagement
+# Developer Guide for Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement Developer Guide (formerly referred to as the Dynamics 365 SDK). This documentation is for version 9.0, known as [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], which is an online only release.
+Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  apps Developer Guide. This documentation is for version 9.x.
+
+For documentation of earlier versions (8.x and earlier), visit <https://docs.microsoft.com/previous-versions/dynamics/>.
 
 <table>
 <tr>
@@ -138,6 +139,6 @@ Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Custo
 
 [Customization Guide](../customize/overview.md)
 
-[Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md)
+[Unified Service Desk Guide](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk)
 
 

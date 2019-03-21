@@ -1,20 +1,20 @@
 ---
-title: "FindWindow Tag in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "FindWindow Tag in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "The <FindWindow> tag consists of a list of child elements that represent a sequence of match operations, all of which need to succeed for the target window to be considered found."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 1e3efa2f-e888-4a92-a32a-1990735fd936
 caps.latest.revision: 7
 author: kabala123

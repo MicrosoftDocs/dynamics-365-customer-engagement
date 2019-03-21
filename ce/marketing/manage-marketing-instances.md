@@ -1,22 +1,21 @@
 ---
 title: "Manage marketing instances (Dynamics 365 for Marketing) | Microsoft Docs  "
 description: "How to copy a production Dynamics 365 for Marketing instance to a sandbox instance for experiments and testing"
-keywords: "administration;admin center;copy;sandbox;instances;backup;recall"
-ms.date: 04/01/2018
-ms.service: 
-  - "crm-online"
+keywords: administration;admin center;copy;sandbox;instances;backup;recall
+ms.date: 02/01/2019
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: c692a378-bf2f-42f6-81cd-8273cda9c695
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -28,6 +27,8 @@ search.app:
 ---
 
 # Manage your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instances
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 General instructions for how to manage [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances are available in [Manage instances](../admin/manage-online-instances.md) and its subtopics, but for instances where you also have [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed, some exceptions and added procedures apply. This topic provides details about the exceptions&mdash;for all other management tasks, see [Manage instances](../admin/manage-online-instances.md), but read this topic first.
 
@@ -43,6 +44,12 @@ Instance management operations are a standard feature of [!INCLUDE[pn-microsoftc
 - **Customer-insights services** This is another class of external services that [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] uses. These provide big-data services such as resolving segment queries, storing interaction data, and providing analytics based on this data.
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and customer-insights services are external to the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] platform server, and thus follow their own lifecycle. These services aren't directly accessible to users, so when backup and restore operations are used on the organization database, you must consider their impact on these connected services.
+
+## Copy your production instance to a support instance
+
+ [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] offers a service for testing pending changes (usually updates) on a copy of your production instance. If you wish to use this service, please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] to find out if you are eligible. If so, [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] will create a support instance on your tenant and then ask you to copy your production instance onto it.
+
+ For this operation, you can just make a simple copy of your production instance as described in [To copy an instance](../admin/copy-instance.md#to-copy-an-instance). There is no need to stop any live entities or make any other type of special preparation (as mentioned in the following section).
 
 <a name="prepare-backup"></a>
 
@@ -67,7 +74,10 @@ This helps to ensure that when you finish the copy or restore the data (especial
 
 ## Restoring a backup onto a different instance
 
-Each time you set up a new [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance, including when restoring a backup to a new instance and when copying a production instance to a sandbox instance, you must rerun the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] [setup wizard](purchase-setup.md) on the new instance. This is because the new instance needs to be set up with a new collection of external services.
+When you restore a backup that includes [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] onto a different instance, you must do the following:
+
+- If your target instance (the instance you are restoring *onto*) already has [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed on it, then you must delete [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] from that instance before you restore the backup. You don't need to remove all of the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] solutions, but you do need to run the uninstall wizard on the target instance before your restore. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Uninstall Marketing](uninstall-marketing.md).
+- After restoring a backup to a new instance (or copying a production instance to a sandbox instance) you must rerun the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] [setup wizard](purchase-setup.md) on the new instance. This is because the new instance needs to be set up with a new collection of external services.
 
 > [!NOTE]
 > Because a new set of customer-insights services is created for your new instance, all interaction data stored in the database used by the previous customer-insights services isn't available to the new instance.
@@ -80,9 +90,9 @@ For standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instanc
 
 ## Change the URL for an instance
 
-For standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances (without [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed) you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to change the URL of an instance. However, *you can't currently do this if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed*. 
+For standard [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instances (without [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed) you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to change the URL of an instance. However, *you can't currently do this if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed*. 
 
-Do not attempt to change the URL for a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance. If you require a different URL, then you must set up a new [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance at the new URL and then reinstall [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] there.
+Do not attempt to change the URL for a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance. If you require a different URL, then you must set up a new [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance at the new URL and then reinstall [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] there.
 
 <a name="copy-to-sandbox"></a>
 
@@ -93,11 +103,11 @@ A sandbox instance is where you safely can test new customizations, features, an
 After the copy, your sandbox instance will be set up as follows:
 
 - All settings and customizations from your production instance will be present in the sandbox.
-- A new portal will be created to host marketing pages and event portals for the sandbox instance.
+- A new portal will be created to host marketing pages and event websites for the sandbox instance.
 - A new set of customer-insights services (including a new customer-insights database) will be created and linked to your sandbox instance. Interaction data from your production instance won't be available to the sandbox, so most insights data will be initialized. You can freely generate new interaction data using the sandbox without affecting your production instance.
 - If you choose to do a full copy:
   - The entire core database of your production instance will be copied and linked to the sandbox instance. This means that your previous production data will be available to the sandbox, but your work in the sandbox instance won't affect your production database from now on. 
-  - Any live entities from your production portal (such as marketing pages and the event portal) will be republished on the new portal created for the sandbox instance.
+  - Any live entities from your production portal (such as marketing pages and the event website) will be republished on the new portal created for the sandbox instance.
   - Any live entities that run on external marketing services (such as marketing email messages and customer journeys) will also be copied and enabled as live entities on the sandbox instance.
 - If you choose to do a minimal copy, all your customizations will still be present on the sandbox instance, but none of your production data (including email messages, portal content, and customer journeys) will be there.
 

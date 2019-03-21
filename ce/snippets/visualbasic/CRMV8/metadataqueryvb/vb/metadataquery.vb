@@ -549,7 +549,7 @@ _service.Execute(createEntityRequest_Renamed)
 		  Return Me._optionValue
 	  End Get
   End Property
-  Public ReadOnly Property lable() As String
+  Public ReadOnly Property label() As String
 	  Get
 		  Return Me._label
 	  End Get

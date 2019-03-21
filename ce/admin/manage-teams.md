@@ -1,20 +1,20 @@
 ---
-title: "Manage Dynamics 365 Customer Engagement teams | MicrosoftDocs"
-ms.custom: ""
+title: "Manage Dynamics 365 for Customer Engagement apps teams | MicrosoftDocs"
+ms.custom: 
 ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: jimholtz
 ms.assetid: 5355ef54-ce27-4383-bf21-1419c71f4cc4
 caps.latest.revision: 29
-ms.author: "rdubois"
-manager: "brycho"
+mms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -23,9 +23,9 @@ search.app:
 ---
 # Manage teams
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
+Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
   
  You can use two types of teams:  
   
@@ -41,7 +41,7 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is op
   
 - Your organization’s policies require the ability for records to be owned by entities other than users, such as the team entity.  
   
-- The number of teams is known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system.  
+- The number of teams is known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps system.  
   
 - Daily reporting on progress by owning teams is required.  
   
@@ -49,7 +49,7 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is op
   
 - The teams are dynamically formed and dissolved. This typically happens if the clear criteria for defining the teams, such as established territory, product, or volume are not provided.  
   
-- The number of teams is not known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system.  
+- The number of teams is not known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps system.  
   
 - The team members require different access rights on the records. You can share a record with several access teams, each team providing different access rights on the record. For example, one team is granted the Read access right on the account and another team, the Read, Write, and Share access rights on the same account.  
   

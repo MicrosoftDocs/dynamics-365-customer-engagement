@@ -1,15 +1,15 @@
 ---
 
-title: Can I create a project booking from the schedule board? (Dynamics 365 for Project Service) | MicrosoftDocs
-description: This article describes how to create a project booking from the schedule board in Dynamics 365 Project Service.
-author: NeilWOrint 
-manager: ShellyHa
+title: Can I create a project booking from the schedule board? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+description: This article describes how to create a project booking from the schedule board in Dynamics 365 for Customer Engagement Project Service.
+author: JohnPBurrows 
+manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
 ms.date: 8/21/2018
 ms.topic: article
-ms.prod: Applies to Dynamics 365 Project Service versions 2.x and 3.x 
+ms.prod: Applies to Dynamics 365 for Customer Engagement Project Service versions 2.x and 3.x 
 ms.service: business-applications
 ms.technology: 
 ms.author: john.burrows

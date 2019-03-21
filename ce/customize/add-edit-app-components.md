@@ -1,16 +1,15 @@
 ---
-title: "Quickstart to add or edit app components with PowerApps | MicrosoftDocs"
-description: "Use the PowerApps app designer to add or edit components"
-keywords: ""
-ms.date: 03/30/2018
+title: "Add or edit app components with Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+description: "Use the Dynamics 365 for Customer Engagement app designer to add or edit components"
+keywords: 
+ms.date: 03/04/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "PowerApps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+author: Mattp123
 ms.assetid: be93b9d7-f1c2-4ee7-8d7c-0f5c34dfa5f7
 ms.author: matp
 ms.reviewer: 
@@ -24,9 +23,9 @@ search.app:
   - D365CE
 ---
 
-# Add or edit app components in the PowerApps app designer
+# Add or edit app components in the Dynamics 365 for Customer Engagement app designer
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 An app is composed of various components. You can add two types of components to an app: artifacts and entity assets. In the context of the app designer, entities, dashboard, and business process flows are all artifacts of an app. Entity assets consist of forms, views, charts, and dashboards.  
   
@@ -49,6 +48,9 @@ The app designer refers to existing metadata in the default solution. You can us
 
 ## Add an artifact (entity, dashboard, or business process flow)  
  When you add a dashboard or business process flow to an app, the entities they use are automatically added to the app. When you add an entity, the tiles for its assets are automatically added. There are two ways you can add artifacts to the designer canvas: by using the **Add** button ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") on the command bar or by using the tiles on the **Components** tab.  
+
+> [!NOTE]
+> Unlike business process flows, you don't add task flows to an app.  For more information about task flows, see [Create a mobile task flow](create-mobile-task-flow.md). 
   
  Here are the steps for adding a dashboard to the app. Use the same steps to add a business process flow or entity.  
   

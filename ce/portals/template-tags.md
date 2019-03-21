@@ -1,13 +1,13 @@
 ---
-title: "Use template tags for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Use template tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about template tags available in portal"
 keywords: "template tags; liquid tags"
-ms.date: 05/04/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 78AED6A8-53CD-48C3-AE4B-0896E070406A
 author: sbmjais
 ms.author: shjais
@@ -78,4 +78,4 @@ Allows output of Liquid code on a page without having it parsed and executed.
 [Control flow tags](control-flow-tags.md)<br>
 [Iteration tags](iteration-tags.md)<br>
 [Variable tags](variable-tags.md)<br>
-[Dynamics 365 entity tags](dynamics-entity-tags.md)
+[Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md)

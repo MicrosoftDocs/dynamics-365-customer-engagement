@@ -1,20 +1,20 @@
 ---
-title: "Define alternate keys for an entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Define alternate keys for an entity (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The topic explains about how to create alternate keys for an entity. Alternate keys can be created programmatically or by using the customization tools"
-ms.custom: ""
-ms.date: 06/05/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 10/22/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: fb4a93d6-590b-4913-96f7-25d351dc52ab
 caps.latest.revision: 23
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: mayadumesh
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement records have unique identifiers defined as GUIDs. These are the primary key for each entity. When you need to integrate with an external data store, you might be able to add a column to the external database tables to contain a reference to the unique identifier in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This allows you to have a local reference to link to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record. However, sometimes you can’t modify the external database. With alternate keys you can now define an attribute in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entity to correspond to a unique identifier (or unique combination of columns) used by the external data store. This alternate key can be used to uniquely identify a record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in place of the primary key. You must be able to define which attributes represent a unique identity for your records. Once you identify the attributes that are unique to the entity, you can declare them as alternate keys through the customization user interface (UI) or in the code. This topic provides information about defining alternate keys in the data model.  
+All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps records have unique identifiers defined as GUIDs. These are the primary key for each entity. When you need to integrate with an external data store, you might be able to add a column to the external database tables to contain a reference to the unique identifier in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. This allows you to have a local reference to link to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps record. However, sometimes you can’t modify the external database. With alternate keys you can now define an attribute in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps entity to correspond to a unique identifier (or unique combination of columns) used by the external data store. This alternate key can be used to uniquely identify a record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps in place of the primary key. You must be able to define which attributes represent a unique identity for your records. Once you identify the attributes that are unique to the entity, you can declare them as alternate keys through the customization user interface (UI) or in the code. This topic provides information about defining alternate keys in the data model.  
 
 <a name="BKMK_Declare"></a>
 
@@ -36,27 +36,39 @@ To define alternate keys programmatically, you first have to create an object of
 
 You should be aware of the following constraints when creating alternate keys:  
 
-- **Valid attributes in key definitions**  
+- **Valid attribute types in key definitions**  
 
    Only attributes of the following types can be included in alternate key definitions:  
 
 
-  |      Attribute Type      |    Display Name     |
-  |--------------------------|---------------------|
-  | DecimalAttributeMetadata |   Decimal Number    |
-  | IntegerAttributeMetadata |    Whole Number     |
-  | StringAttributeMetadata  | Single line of text |
+  |      Attribute Type         |    Display Name     |
+  |-----------------------------|---------------------|
+  | DecimalAttributeMetadata    |   Decimal Number    |
+  | IntegerAttributeMetadata    |    Whole Number     |
+  | StringAttributeMetadata     | Single line of text |
+  | DateTimeAttributeMetadata   |      Date Time      |
+  | LookupAttributeMetadata     |       Lookup        |
+  | PicklistAttributeMetadata   |      Picklist       |
+  
+ - **Attributes must be valid for create and update**  
 
+   Each attribute used in a key must support both create and update. More information: [Valid operations on attributes](introduction-entity-attributes.md#valid-operations-on-attributes)
+   
+- **Attributes must not have Field-level security applied**  
 
+- **Attributes must not be logical or inherited**  
+
+   Most logical and inherited attributes are configured as read-only. However, many of the attributes that contain address information in entities such as Account and Contact are logical and cannot be used in a key, even though they are writable. More information: [Logical attributes](introduction-entity-attributes.md#logical-attributes)
+   
 - **Valid key size**  
 
-   When a key is created, the system validates that the key can be supported by the platform, including that the total key size does not violate SQL-based index constraints like 900 bytes per key and 16 columns per key. If the key size doesn’t meet the constraints, an error message will be displayed.  
+   When a key is created, the system validates that the key can be supported by the platform, including that the total key size does not violate SQL-based index constraints like 900 bytes per key and 16 columns per key. If the key size doesn’t meet the constraints, an error message will be displayed. 
 
 - **Maximum number of alternate key definitions for an entity**  
 
    There can be a maximum of 5 alternate key definitions for an entity in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
 
-- **Unicode characters in key value**
+- **Special characters in key value**
 
   If the data within a field that is used in an alternate key will contain one of the following characters `<`,`>`,`*`,`%`,`&`,`:`,`\\` then patch or upsert actions will not work.  If you only need uniqueness then this approach will work, but if you need to use these keys as part of data integration then it is best to create the key on fields that won't have data with those characters.
 

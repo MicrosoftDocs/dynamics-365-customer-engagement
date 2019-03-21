@@ -1,13 +1,13 @@
 ---
-title: "Sample: Assign a record to a team (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Assign a record to a team (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The sample shows how to assign a record to a team by using the AssignRequest message. "
-keywords: ""
+keywords: 
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0537eac1-c997-4091-970f-e726109b1247
 author: KumarVivek
 ms.author: kvivek
@@ -16,9 +16,9 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
-  - "assigning records sample, team entity"
-  - "users and teams, assigning records sample"
-  - "assigning records sample, system user entity"
+  - assigning records sample, team entity
+  - users and teams, assigning records sample
+  - assigning records sample, system user entity
 topic-status: Drafting
 search.audienceType: 
   - developer
@@ -49,5 +49,5 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Entity Ownership](introduction-entities.md#EntityOwnership)   
  [Assign](introduction-entities.md#Assign)   
  [User and Team Entities](user-team-entities.md)   
- [Introduction to Entities in Dynamics 365](introduction-entities.md)   
+ [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)   
  [Sample: Share Records Using GrantAccess, ModifyAccess and RevokeAccess Messages](sample-share-records-using-grantaccess-modifyaccess-revokeaccess-messages.md)

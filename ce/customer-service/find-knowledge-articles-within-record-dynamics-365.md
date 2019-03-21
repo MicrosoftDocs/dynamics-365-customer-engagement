@@ -1,11 +1,11 @@
 ---
 title: Find knowledge articles from within a record (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: See how to find knowledge articles from within a record in Dynamics 365 for Customer Service
-keywords: Find knowledge articles; Dynamics 365; Customer Service
+keywords: Find knowledge articles; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
@@ -61,7 +61,7 @@ For any customer service team, it’s important to give customers the right info
   
     If your organization is using the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management solution, the option to sort results based on rating is not available.  
   
-   ![Option to sort knowledge article results in Dynamics 365](../customer-service/media/sort-article-search-results.png "Option to sort knowledge article results in Dynamics 365")  
+   ![Option to sort knowledge article results in Dynamics 365 for Customer Engagement](../customer-service/media/sort-article-search-results.png "Option to sort knowledge article results in Dynamics 365 for Customer Engagement")  
   
 6. To filter the search results, in the **Filter Result By** drop-down list, select a filter.  
   
@@ -77,18 +77,18 @@ For any customer service team, it’s important to give customers the right info
   
 8. You can take the following actions on the search results:  
   
-   1. To associate a knowledge article with the current case, select a knowledge article, and then click the **Link the KB article to the current case** button ![Link knowledge article to current case button in Dynamics 365](../customer-service/media/link-article-current-record.png "Link knowledge article to current case button in Dynamics 365"). [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] adds the associated knowledge article to the **Associated Knowledge Base records** section. This association helps customer service managers determine which knowledge articles were effective in resolving cases.  
+   1. To associate a knowledge article with the current case, select a knowledge article, and then click the **Link the KB article to the current case** button ![Link knowledge article to current case button in Dynamics 365 for Customer Engagement](../customer-service/media/link-article-current-record.png "Link knowledge article to current case button in Dynamics 365 for Customer Engagement"). [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] adds the associated knowledge article to the **Associated Knowledge Base records** section. This association helps customer service managers determine which knowledge articles were effective in resolving cases.  
   
-       You can also choose to disassociate the article from the case by clicking the **Unlink the KB article from the current record** button ![Unlink knowledge article from current record button in Dynamics 365](../customer-service/media/unlink-article.png "Unlink knowledge article from current record button in Dynamics 365").  
+       You can also choose to disassociate the article from the case by clicking the **Unlink the KB article from the current record** button ![Unlink knowledge article from current record button in Dynamics 365 for Customer Engagement](../customer-service/media/unlink-article.png "Unlink knowledge article from current record button in Dynamics 365 for Customer Engagement").  
   
-   2. To copy the external URL of the article so you can share it with your customers over channels like chat or email, click the **Copy Link** button ![Copy knowledge article link button Dynamics 365](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365"). This option is available only if you are using [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)].  
+   2. To copy the external URL of the article so you can share it with your customers over channels like chat or email, click the **Copy Link** button ![Copy knowledge article link button Dynamics 365 for Customer Engagement](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 for Customer Engagement"). This option is available only if you are using [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)].  
   
       > [!NOTE]
       >  If you don’t see a URL when you try to paste it, it could be because the article is still in draft state or is expired.  
   
        If you’re using the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management solution, the Copy Link option is available only for published articles.  
   
-   3. To associate an article with a case and share the article link with the customer through email, click the **Link the KB article to the case and email the link to the customer** button ![Link knowledge article to case and email link to article button in Dynamics 365](../customer-service/media/email-article-link.png "Link knowledge article to case and email link to article button in Dynamics 365"). An email form opens with the **To** field automatically filled with the customer’s information and the link added to the email body. Fill in any additional details, and then click **Send**.  
+   3. To associate an article with a case and share the article link with the customer through email, click the **Link the KB article to the case and email the link to the customer** button ![Link knowledge article to case and email link to article button in Dynamics 365 for Customer Engagement](../customer-service/media/email-article-link.png "Link knowledge article to case and email link to article button in Dynamics 365 for Customer Engagement"). An email form opens with the **To** field automatically filled with the customer’s information and the link added to the email body. Fill in any additional details, and then click **Send**.  
   
        This action also associates the knowledge article with the case automatically.  
   
@@ -100,9 +100,9 @@ For any customer service team, it’s important to give customers the right info
   
        If you’re using the native [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledge base, and if the article is a draft, an internal Parature Service Desk link will be copied into the email. The customer may not be able to view this knowledge article.  
   
-   4. To associate an article with a case and share the article content with the customer through email, click the **Link Article to the Case and Email Content** button ![Link article to case and email content button in Dynamics 365](../customer-service/media/v8-1-link-article-case-and-email-content.png "Link article to case and email content button in Dynamics 365"). An email form opens with the **To** field automatically filled with the customer’s information and the knowledge article content added to the email body. Fill in any additional details, and then click **Send**.  
+   4. To associate an article with a case and share the article content with the customer through email, click the **Link Article to the Case and Email Content** button ![Link article to case and email content button in Dynamics 365 for Customer Engagement](../customer-service/media/v8-1-link-article-case-and-email-content.png "Link article to case and email content button in Dynamics 365 for Customer Engagement"). An email form opens with the **To** field automatically filled with the customer’s information and the knowledge article content added to the email body. Fill in any additional details, and then click **Send**.  
   
-   5. To open the article in a new window, click the **Pop Out** button ![Pop out knowledge article in a new window button in Dynamics 365](../customer-service/media/pop-out-article.png "Pop out knowledge article in a new window button in Dynamics 365").  
+   5. To open the article in a new window, click the **Pop Out** button ![Pop out knowledge article in a new window button in Dynamics 365 for Customer Engagement](../customer-service/media/pop-out-article.png "Pop out knowledge article in a new window button in Dynamics 365 for Customer Engagement").  
   
 ### See also  
 

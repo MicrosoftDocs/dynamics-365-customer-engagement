@@ -3,16 +3,16 @@ title: "Schedule a work order (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.suite: 
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+  - field-service
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 2d02cea2-8cd3-4324-9c38-a6c1ec45aed1
 caps.latest.revision: 26
@@ -41,9 +41,9 @@ Once a work order has been created in [!INCLUDE[pn_dyn_365_field_service](../inc
   
 2.  There are several ways to manually schedule a work order:  
   
-    - **Right click on an unscheduled booking and find available resources**.  
+    - **Right-click an unscheduled booking and find available resources**.  
   
-        1.  From the **Booking Requirement** list, right click on an unscheduled booking and choose one of the following:  
+        1.  From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:  
   
             1. **Choose Find availability -Current Resources** to find available resource from the list of resources on the schedule board.  
   
@@ -52,7 +52,7 @@ Once a work order has been created in [!INCLUDE[pn_dyn_365_field_service](../inc
                 > [!NOTE]
                 >  When you do this, the filters will show the options for the selected booking requirement.  
   
-            3.  When you see the available slot right click on the time slot on the schedule board and choose **Book Here**. Or, drag and drop the booking requirement to the available time slot.  
+            3.  When you see the available slot right-click the time slot on the schedule board and choose **Book Here**. Or, drag and drop the booking requirement to the available time slot.  
   
     - **Drag unscheduled work orders from list view to the schedule board**.  
   

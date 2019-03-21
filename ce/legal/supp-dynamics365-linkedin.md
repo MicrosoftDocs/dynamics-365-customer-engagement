@@ -4,7 +4,7 @@ author: brycho
 
 **PLEASE NOTE:** Microsoft Corporation (or based on where you live, one of its
 affiliates) licenses this supplement to you. You may use it with each validly
-licensed subscription of Microsoft Dynamics 365 online services (the “online
+licensed subscription of Microsoft Dynamics 365 for Customer Engagement online services (the “online
 service”). You may not use this supplement if you do not have a license for the
 online service. The license terms for the online service apply to your use of
 this supplement. Notwithstanding anything to the contrary in the applicable
@@ -15,7 +15,7 @@ additional terms will govern your use of the supplement.
 This supplement is not provisioned in a dedicated data center for exclusive use
 by you and it is neither part of, nor a component of the online service. Your
 use of this supplement shall not be subject to any product-specific terms and
-conditions applicable to Dynamics 365 online for Government or other Online
+conditions applicable to Dynamics 365 for Customer Engagement online for Government or other Online
 Services for which product-specific terms and conditions may be included in the
 Enrollment or Agreement (including Amendments thereto, the Use Rights, or the
 Product Terms). Notwithstanding anything to the contrary provided for in the
@@ -33,7 +33,7 @@ If you do not agree to these additional terms, do not install or use this
 supplement.
 
 **IMPORTANT:** By installing or using this supplement, you consent to allow
-authorized users of Microsoft Dynamics 365 online services to activate,
+authorized users of Microsoft Dynamics 365 for Customer Engagement online services to activate,
 configure and enable certain functionality which transmits Customer Data to
 external systems. Please consult the feature technical documentation for more
 information.

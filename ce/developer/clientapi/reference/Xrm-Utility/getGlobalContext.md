@@ -1,13 +1,13 @@
 ---
-title: "getGlobalContext (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "getGlobalContext (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 01/23/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: d87e0614-f365-4ed1-992a-741575bb2b7e
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -43,7 +43,7 @@ Use the following properties of global context to return information about the c
 |[getCurrentAppName](getGlobalContext/getCurrentAppName.md) |Returns the name of the current business app in Customer Engagement.|
 |[getCurrentAppProperties](getGlobalContext/getCurrentAppProperties.md) |Returns the properties of the current business app in Customer Engagement.|
 |[getCurrentAppUrl](getGlobalContext/getCurrentAppUrl.md) |Returns the URL of the current business app in Customer Engagement.|
-|[getVersion](getGlobalContext/getVersion.md) |Returns the version number of the Dynamics 365 Customer Engagement instance.|
+|[getVersion](getGlobalContext/getVersion.md) |Returns the version number of the Dynamics 365 for Customer Engagement apps instance.|
 |[isOnPremises](getGlobalContext/isOnPremises.md) |Returns a boolean value indicating if the Customer Engagement instance is hosted on-premises or online.|
 |[prependOrgName](getGlobalContext/prependOrgName.md) |Prefixes the current organization's unique name to a string, typically a URL path.|
 

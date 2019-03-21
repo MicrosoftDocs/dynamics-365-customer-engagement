@@ -1,20 +1,20 @@
 ---
-title: "Export data to Excel (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Export data to Excel (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
+ms.date: 10/29/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 7505920c-fb5b-4794-acdb-110e307f0ffe
 caps.latest.revision: 41
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
 search.audienceType: 
   - enduser
 search.app: 
@@ -28,7 +28,7 @@ Do you need to analyze your data from [!INCLUDE[pn_dynamics_crm](../includes/pn-
   
  You can choose to export static worksheets or dynamic worksheets, which you can import back into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you need more advanced functions, you can export a dynamic PivotTable, which makes it very easy to organize and summarize data.  
   
- Export data to a standard [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file that that you can use on any device such as your phone, tablet, or desktop computer. The data is exported in the same format as you see in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Text will remain text, numbers will remain numbers, and dates will remain dates. However, when you export data from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] the some cell format may change. The table below summarizes how you’ll see the data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and how the cell format changes when you export the data to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
+ Export data to a standard [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file that you can use on any device such as your phone, tablet, or desktop computer. The data is exported in the same format as you see in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Text will remain text, numbers will remain numbers, and dates will remain dates. However, when you export data from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] the some cell format may change. The table below summarizes how you’ll see the data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and how the cell format changes when you export the data to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
   
 ## Cell format when data is exported from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]  
   
@@ -46,7 +46,7 @@ Do you need to analyze your data from [!INCLUDE[pn_dynamics_crm](../includes/pn-
   
 |                                                                                                               Task                                                                                                                |                                              Learn more                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-|   Do an *ad-hoc* or *what if* analysis without modifying [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. Or, quick bulk edit to multiple [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records.   | [Analyze your Dynamics 365 data in Excel Online](../basics/analyze-dynamics-365-data-excel-online.md) |
+|   Do an *ad-hoc* or *what if* analysis without modifying [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. Or, quick bulk edit to multiple [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records.   | [Analyze your Dynamics 365 for Customer Engagement apps data in Excel Online](../basics/analyze-dynamics-365-data-excel-online.md) |
 |                                                                   Get a snapshot of the data at the current data and time or you want to share it with others.                                                                    |           [Export to an Excel static worksheet](../basics/export-excel-static-worksheet.md)           |
 | Get the most update-to-date information and be able to refresh it in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] and match what you see in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] at any time. |          [Export to an Excel dynamic worksheet](../basics/export-excel-dynamic-worksheet.md)          |
 |                                                                      View [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data in a pivot table.                                                                      |                 [Export to an Excel PivotTable](../basics/export-excel-pivottable.md)                 |

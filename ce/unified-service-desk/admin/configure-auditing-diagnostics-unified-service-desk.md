@@ -1,26 +1,26 @@
 ---
-title: "Configure auditing and diagnostics in Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Configure auditing and diagnostics in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to set auditing and diagnostics."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 02/06/2018
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 27b03f6a-2297-425e-be79-d4e6c960890b
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 tags: 
-  - "MigrationHO"
+  - MigrationHO
 search.audienceType: 
   - admin
 search.app: 
@@ -36,7 +36,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
  When you configure auditing and diagnostics in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], keep in mind the following functionality:  
 
-- How [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] auditing and diagnostics are configured and recorded is completely separate from the audit feature in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+- How [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] auditing and diagnostics are configured and recorded is completely separate from the audit feature in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
 - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] auditing requires a Listener Hosted Control to record and save audit activity. Similarly, you can channel diagnostic logging using a Listener Hosted Control, but it’s not required, and by default, diagnostic logging is recorded on the local computer.  
 
@@ -103,7 +103,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 #### Standard auditing by adding an audit flag  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 
@@ -132,11 +132,11 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 6. Click **Save**.  
 
-7. To view audit logging, sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], and then from a productivity area click **Advanced Find**. In the Look for list, select `UII Audit`, and then click **Results** to see all audit logging details.  
+7. To view audit logging, sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps, and then from a productivity area click **Advanced Find**. In the Look for list, select `UII Audit`, and then click **Results** to see all audit logging details.  
 
 <a name="BKMK_Diagnostics"></a>   
 ## Diagnostics  
- UTF-8 encoded text files that are named **UnifiedServiceDesk-\<date>.log** are maintained at the following location on the client computer: `c:\Users\\*\<UserName>*\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\*\<Version>*`. The log files record operational events and errors in the client application, and are created or appended to when you first start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. By default, diagnostic logging is enabled at the error level for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. This topic describes how you can view and change the client diagnostic logging characteristics.  
+ UTF-8 encoded text files that are named **UnifiedServiceDesk-\<date>.log** are maintained at the following location on the client computer: `c:\Users\\*\<UserName>*\AppData\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\\*\<Version>*`. The log files record operational events and errors in the client application, and are created or appended to when you first start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. By default, diagnostic logging is enabled at the error level for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. This topic describes how you can view and change the client diagnostic logging characteristics.  
 
 #### Create an Audit & Diagnostics record to use for diagnostics  
 
@@ -154,7 +154,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
    - **Enable Exit Monitoring.** By default, exit monitoring is enabled and both diagnostics logs and exit logs are collected in the event of an exception in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
 
-   - **Diagnostics Logs Directory.** Specifies the full path to the folder where diagnostics files for exceptions are kept. If the path is invalid or inaccessible, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] will use the default folder. By default, the folder is `%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\<version\>\Diagnostics\\`.  
+   - **Diagnostics Logs Directory.** Specifies the full path to the folder where diagnostics files for exceptions are kept. If the path is invalid or inaccessible, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] will use the default folder. By default, the folder is `%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\\<version\>\Diagnostics\\`.  
 
    - **On-Demand Diagnostics Shortcut.** Specifies the shortcut key used to invoke the manual creation of a  dump file. The default key combination is CTRL+ALT+A. To change the default, use the form *key1*+*key2*+*key3*.
 

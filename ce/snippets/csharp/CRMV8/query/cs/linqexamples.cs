@@ -1062,7 +1062,7 @@ namespace Microsoft.Crm.Sdk.Samples
      System.Console.WriteLine();
 
      // *****************************************************************************************************************
-     //    LNQ        Using a a picklist to order by
+     //    LNQ        Using a picklist to order by
      // *****************************************************************************************************************
 
      System.Console.WriteLine();

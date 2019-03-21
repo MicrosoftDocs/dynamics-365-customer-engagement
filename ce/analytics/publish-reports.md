@@ -1,22 +1,22 @@
 ---
-title: "Publish reports (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Publish reports (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4d2af46d-1b57-4c30-871e-de2694e6b48f
 caps.latest.revision: 15
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: Mattp123
+ms.author: matp
+manager: amyla
 tags: 
-  - "MigrationHO"
+  - MigrationHO
 search.audienceType: 
   - customizer
 search.app: 
@@ -24,15 +24,15 @@ search.app:
 ---
 # Publish reports
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-To make reports available to users, publish the reports in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+To make reports available to users, publish the reports in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
-## Publish a report in Dynamics 365 by using the web application  
+## Publish a report in Dynamics 365 for Customer Engagement apps by using the web application  
   
 1. Create a new report or modify a report by using [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Custom Reports Using Business Intelligence Development Studio](../analytics/create-a-new-report-using-sql-server-data-tools.md)  
   
-2. Sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], and then go to **Sales** > **Reports**.  
+2. Sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, and then go to **Sales** > **Reports**.  
   
 3. On the command bar, click **New**.  
   
@@ -42,10 +42,10 @@ To make reports available to users, publish the reports in [!INCLUDE[pn_dynamics
   
 6. Click **Save and Close**.  
   
-    You can test the report by selecting it from the Available Reports list. To add the report to context-sensitive lists and forms in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], follow the steps in [Determine where the report will appear](../analytics/publish-reports.md#BKMK_reportappear).  
+    You can test the report by selecting it from the Available Reports list. To add the report to context-sensitive lists and forms in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, follow the steps in [Determine where the report will appear](../analytics/publish-reports.md#BKMK_reportappear).  
   
    > [!TIP]
-   >  To update the report or to update the information that is displayed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], such as the description, in the Available Reports list, select the report, and then click **Edit** on the command bar.  
+   >  To update the report or to update the information that is displayed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, such as the description, in the Available Reports list, select the report, and then click **Edit** on the command bar.  
   
 <a name="BKMK_reportappear"></a>   
 ## Determine where the report will appear  
@@ -54,7 +54,7 @@ To make reports available to users, publish the reports in [!INCLUDE[pn_dynamics
   
 2. In the **Report** dialog box, specify values in the **Categorization** section according to the following descriptions:  
   
-   - **Categories**: Categorizes the report by its intended purpose. For example, a sales report can be included in context-sensitive lists and forms in the Sales area of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+   - **Categories**: Categorizes the report by its intended purpose. For example, a sales report can be included in context-sensitive lists and forms in the Sales area of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
    - **Related Record Types**: Associates the report to specific entities, such as accounts or contacts.  
   

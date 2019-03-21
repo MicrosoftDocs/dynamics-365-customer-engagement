@@ -1,20 +1,20 @@
 ---
-title: "Create an entity using the Web API (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Read how to create a POST request to send data to create an entity on Dynamics 365 using the Web API"
-ms.custom: ""
+title: "Create an entity using the Web API (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Read how to create a POST request to send data to create an entity on Dynamics 365 for Customer Engagement using the Web API"
+ms.custom: 
 ms.date: 11/16/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 244259ca-2fbc-4fd4-9a74-6166e6683355
 caps.latest.revision: 51
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -235,7 +235,7 @@ Accept: application/json
 > [!NOTE]
 > This capability was added with [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)].
 
- You can compose your POST request so that data from the created record will be returned with a status of 201 (Created).  To get his result, you must use the `return=representation` preference in the request headers.
+ You can compose your POST request so that data from the created record will be returned with a status of 201 (Created).  To get this result, you must use the `return=representation` preference in the request headers.
 
  To control which properties are returned, append the `$select` query option to the URL to the entity set.  The `$expand` query option will be ignored if used.
 

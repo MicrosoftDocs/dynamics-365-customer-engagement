@@ -1,16 +1,16 @@
 ---
 title: "Remove custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: "Provides information on how to uninstall/remove custom channel from your Dynamics 365 instance."
+description: "Provides information on how to uninstall/remove custom channel from your Dynamics 365 for Customer Engagement instance."
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.technology: 
-  - "marketing"
-ms.topic: "conceptual"
+  - marketing
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9b170052-5300-4d69-af80-c81247c2fdab
 author: KumarVivek
 ms.author: kvivek
@@ -25,13 +25,13 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This step is typically performed by administrators of your Dynamics 365 instance.
+This step is typically performed by administrators of your Dynamics 365 for Customer Engagement instance.
 
-To remove a custom channel app from your Dynamics 365 instance, you will first have to ensure that none of the components of the custom channel app are in use. This implies that before removing a custom channel app, you will have to remove the custom tile from your customer journeys, or delete the customer journeys containing the custom tile altogether. This includes journeys in any state: draft, live or even past journeys in stopped/expired state. 
+To remove a custom channel app from your Dynamics 365 for Customer Engagement instance, you will first have to ensure that none of the components of the custom channel app are in use. This implies that before removing a custom channel app, you will have to remove the custom tile from your customer journeys, or delete the customer journeys containing the custom tile altogether. This includes journeys in any state: draft, live or even past journeys in stopped/expired state. 
 
-This is because the custom channel app is a [managed solution](../../developer/introduction-solutions.md#unmanaged-and-managed-solutions), and the solution component [dependency tracking](../../developer/dependency-tracking-solution-components.md) feature in Dynamics 365 for Customer Engagement *prevents* you from deleting a managed solution if any of the managed solution component is used by other components in a customization.
+This is because the custom channel app is a [managed solution](../../developer/introduction-solutions.md#unmanaged-and-managed-solutions), and the solution component [dependency tracking](../../developer/dependency-tracking-solution-components.md) feature in Dynamics 365 for Customer Engagement for Customer Engagement *prevents* you from deleting a managed solution if any of the managed solution component is used by other components in a customization.
 
-After you have taken care of the dependencies, delete the managed solution to remove the custom channel app from your Dynamics 365 instance. More information: [Uninstall or delete a solution](../../developer/uninstall-delete-solution.md)
+After you have taken care of the dependencies, delete the managed solution to remove the custom channel app from your Dynamics 365 for Customer Engagement instance. More information: [Uninstall or delete a solution](../../developer/uninstall-delete-solution.md)
 
 If there are any customer journeys that still use one or more components of the custom channel app solution, you will receive the following error on deleting the custom channel app solution:
 

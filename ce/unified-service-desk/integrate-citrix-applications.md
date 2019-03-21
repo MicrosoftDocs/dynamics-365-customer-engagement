@@ -1,20 +1,20 @@
 ---
-title: "Integrate with Citrix applications in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Integrate with Citrix applications in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "The topic explains the integration with Citrix application in Unified service Desk."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: 174894bd-eb2e-4b67-95bd-74e6b3540f47
 caps.latest.revision: 18
 author: kabala123
@@ -28,7 +28,7 @@ search.app:
   - D365USD
 ---
 # Integrate with Citrix applications in Unified Service Desk
-Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by hosting them in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This enables customer service agents to interact with the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications from within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client while working on the customer data in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can configure a Windows application as a virtual application on Citrix XenApp 7.6 that runs as a hosted application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. More information: [Software requirements for Citrix XenApp application virtualization](admin/unified-service-desk-system-requirements.md#software-requirements-for-citrix-xenapp-application-virtualization)  
+Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by hosting them in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This enables customer service agents to interact with the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications from within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client while working on the customer data in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps. You can configure a Windows application as a virtual application on Citrix XenApp 7.6 that runs as a hosted application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. More information: [Software requirements for Citrix XenApp application virtualization](admin/unified-service-desk-system-requirements.md#software-requirements-for-citrix-xenapp-application-virtualization)  
   
  The [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application hosted  in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client uses the Independent Computing Architecture (ICA) protocol to remotely communicate with the application on a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server. A Citrix .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information.  
   
@@ -54,14 +54,14 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
 ## Configure client-side component for Citrix integration  
  The client-side configuration for [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] integration involves two things:  
   
-- Configure a UII hosted application (`Remote Hosted Application`) instance in your Dynamics 365 instance that can be used directly without any custom code, or can be extended as required. Actions fired on the UII hosted application instances are transmitted to the server-side component using a .ica file, where it is dispatched to the application adapters configured, if any. For more information about UII hosted applications, see [UII hosted applications](../unified-service-desk/uii-hosted-applications.md)  
+- Configure a UII hosted application (`Remote Hosted Application`) instance in your Dynamics 365 for Customer Engagement apps instance that can be used directly without any custom code, or can be extended as required. Actions fired on the UII hosted application instances are transmitted to the server-side component using a .ica file, where it is dispatched to the application adapters configured, if any. For more information about UII hosted applications, see [UII hosted applications](../unified-service-desk/uii-hosted-applications.md)  
   
 - Copy the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application executable and other required assemblies in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory, apply client-side registry patch, and add [!INCLUDE[pn_citrix](../includes/pn-citrix.md)]-specific settings in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client app config file. This step needs to be performed on each computer where the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application is installed.  
   
 <a name="ConfRemoteHosted"></a>   
 ### Configure a Remote Hosted Application  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -158,7 +158,7 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
   
     -   If the Citrix application process could not be identified, the server-side executable remains running, and sends a message to the client about the same. You can view the message if you have turned on tracing.  
   
-    -   If the Citrix application process is identified,  the server-side executable acquires the process, and proceeds with identifying the designated top-window for the application. The  configuration commonly used for External Applications is referenced by the server-side executable and can be leveraged to select a non-default top-window. If the top-window could not be found, the erver-side executable remains running, and sends an Info  message to the client that can be seen when tracing has been turned on.  
+    -   If the Citrix application process is identified,  the server-side executable acquires the process, and proceeds with identifying the designated top-window for the application. The  configuration commonly used for External Applications is referenced by the server-side executable and can be leveraged to select a non-default top-window. If the top-window could not be found, the server-side executable remains running, and sends an Info  message to the client that can be seen when tracing has been turned on.  
   
 5.  Finally, the application adapter for the hosted control is instantiated. The acquired process and top-window are provided to the adapter, and all adapter operations are routed between client and server at this point.  
   

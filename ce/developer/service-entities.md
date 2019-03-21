@@ -1,29 +1,29 @@
 ---
-title: "Service entities in Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Service entities in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about service entites that are targeted at the customer service department of an organization."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "service entities (contract; incident; knowledge base), introduction"
-  - "customer service department, entities for"
+  - service entities (contract; incident; knowledge base), introduction
+  - customer service department, entities for
 ms.assetid: 4a81b285-0ebc-446e-920e-ac7d82d4b027
 caps.latest.revision: 25
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Service entities in Dynamics 365 Customer Engagement
+# Service entities in Dynamics 365 for Customer Engagement
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -57,7 +57,7 @@ The entities described in this section are targeted at the customer service depa
  [SlaKpiInstance Entity](entities/slakpiinstance.md)  
   
 ## Related Sections  
- [Model Your Business Data With Dynamics 365](model-business-data.md)  
+ [Model Your Business Data With Dynamics 365 for Customer Engagement apps](model-business-data.md)  
   
  [Activity Entities](activity-entities.md)  
   

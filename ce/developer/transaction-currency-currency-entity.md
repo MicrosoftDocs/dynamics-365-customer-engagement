@@ -1,34 +1,34 @@
 ---
-title: "Transaction Currency (currency) entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Transaction Currency (currency) entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about transaction curreny, which is a multicurrency feature enabling users to perform financial transactions in multiple currencies. Multiple records in different transaction currencies can be aggregated, compared, or analyzed with regard to a single currency using the base currency."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "transaction currency (currency) entity, associating currency to specific records"
-  - "transaction currency properties, actions you can perform"
-  - "transaction currency, definition"
-  - "transaction currency (currency) entity, transaction currency"
-  - "transaction currency (currency) entity, multicurrency system"
-  - "transaction currency (currency) entity, supported entities"
-  - "multicurrency system, definition"
-  - "exchange rate, definition"
-  - "transaction currency (currency) entity, decimal precision"
-  - "multicurrency system, transaction currency (currency) entity"
-  - "transaction currency (currency) entity, introduction"
-  - "associating currency to specific records, transaction currency (currency) entity"
-  - "base currency, definition"
+  - transaction currency (currency) entity, associating currency to specific records
+  - transaction currency properties, actions you can perform
+  - transaction currency, definition
+  - transaction currency (currency) entity, transaction currency
+  - transaction currency (currency) entity, multicurrency system
+  - transaction currency (currency) entity, supported entities
+  - multicurrency system, definition
+  - exchange rate, definition
+  - transaction currency (currency) entity, decimal precision
+  - multicurrency system, transaction currency (currency) entity
+  - transaction currency (currency) entity, introduction
+  - associating currency to specific records, transaction currency (currency) entity
+  - base currency, definition
 ms.assetid: 9439baba-166c-4779-be3c-2c52833e01b0
 caps.latest.revision: 16
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

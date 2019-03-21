@@ -1,13 +1,13 @@
 ---
-title: "retrieveRecord (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "retrieveRecord (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 11/10/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: d4e92999-3b79-4783-8cac-f656fc5f7fda
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -79,12 +79,12 @@ On success, returns a promise containing a JSON object with the retrieved attrib
 
 ### Basic retrieve 
 
-Retrieves the name and revenue of an account record wwith record ID = 5531d753-95af-e711-a94e-000d3a11e605.
+Retrieves the name and revenue of an account record with record ID = 5531d753-95af-e711-a94e-000d3a11e605.
 
 ```JavaScript
-Xrm.WebApi.retrieveRecord("account", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200", "?$select=name,revenue").then(
+Xrm.WebApi.retrieveRecord("account", "5531d753-95af-e711-a94e-000d3a11e605", "?$select=name,revenue").then(
     function success(result) {
-        console.log(`Retrieved values: Name: ${result.name}, Revenue: ${result.revenue}`);
+        console.log("Retrieved values: Name: " + result.name + ", Revenue: " + result.revenue);
         // perform operations on record retrieval
     },
     function (error) {
@@ -105,7 +105,7 @@ The above example displays the following in your console; you might see other va
 ```JavaScript
 Xrm.WebApi.retrieveRecord("account", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200", "?$select=name&$expand=primarycontactid($select=contactid,fullname)").then(
     function success(result) {
-        console.log(`Retrieved values: Name: ${result.name}, Primary Contact ID: ${result.primarycontactid.contactid}, Primary Contact Name: ${result.primarycontactid.fullname}`);
+        console.log("Retrieved values: Name: " + result.name + ", Primary Contact ID: " + result.primarycontactid.contactid + ", Primary Contact Name: " + result.primarycontactid.fullname);
         // perform operations on record retrieval
     },
     function (error) {

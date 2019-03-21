@@ -1,9 +1,9 @@
 ---
-title: "Add a webpage to render a list of records on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Add a webpage to render a list of records on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to add and configure entity lists to render a list of records on a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 01/02/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -27,7 +27,7 @@ An entity list is a data-driven configuration that you use to add a webpage that
 
 The grid supports sorting and will be paginated if the number of records is larger than the page size specified. If **Web Page for Details View** has been specified, each record will contain a link to the page, and the ID of the record will be appended to the query string along with the ID Query String Parameter Name. The entity list also supports multiple views. If more than one view has been specified, a drop-down list will be rendered to allow the user to switch between the various views.
 
-The data can also be filtered by the current portal user, the current portal user's parent Customer account, and the current portal website. If a value exists for both filter conditions **Portal User Attribute** and **Account Attribute**, the portal will render a drop-down list to allow the user to view their own ("My") data or their parent Customer account's data.
+The data can also be filtered by the current portal user, the current portal user's parent Customer account, and the current portal website. If a value exists for both filter conditions **Portal User Attribute** and **Account Attribute**, the portal will render a drop-down list to allow the user to view their own (My) data or their parent Customer account's data.
 
 ## Add an entity list to your portal
 
@@ -53,7 +53,7 @@ When creating or editing a webpage, you can specify an entity list in the lookup
 |      Web Page for Create       |                                                                                                                                                             An optional webpage that will be the target of the create button.                                                                                                                                                              |
 |      Create Button Label       |                              The text displayed for the create button if **Web Page for Create** has been specified. Default: Create <br>**Note**: For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language._                              |
 | ID Query String Parameter Name |                                                                                                                                           A parameter name provided in the query string of the URL to the Web Page for Details View. Default: id                                                                                                                                           |
-|        Empty List Text         |                                                          The message displayed when there are no records.<br>**Note**: For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language.                                                           |
+|        Empty List Text         |  **Deprecated**.  The message displayed when there are no records.<br>**Note**: For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language.                                                           |
 |     Portal User Attribute      |                                                                                      An optional lookup attribute on the primary entity that represents the portal user record, either contact or system user, to which the current user's ID can be applied to filter the data rendered in the list.                                                                                      |
 |       Account Attribute        |                                                                                       An optional lookup attribute on the primary entity that represents an account record to which the current user contact's parent Customer account value can be applied to filter the data rendered in the list.                                                                                       |
 |       Website Attribute        |                                                                                                          An optional lookup attribute on the primary entity that represents the website to which the current website's ID can be applied to filter the data rendered in the list.                                                                                                          |
@@ -71,10 +71,10 @@ The Options tab on the form contains a text area that you can enter custom [!INC
 The list gets its data asynchronously, and when it is complete it will trigger an event `loaded` that your custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] can listen for and do something with items in the grid. The following code is a trivial example:
 ```
 $(document).ready(function (){
-$(".entitylist.entity-grid").on("loaded", function () {
-$(this).children(".view-grid").find("tr").each(function (){
+$(.entitylist.entity-grid).on(loaded, function () {
+$(this).children(.view-grid).find(tr).each(function (){
 // do something with each row
-$(this).css("background-color", "yellow");
+$(this).css(background-color, yellow);
 });
 });
 }); 
@@ -83,9 +83,9 @@ $(this).css("background-color", "yellow");
 Find a particular attribute field and get its value to possibly modify the rendering of the value. The following code gets each table cell that contains the value of the `accountnumber` attribute. Replace `accountnumber` with an attribute appropriate for your entity and view.
 ```
 $(document).ready(function (){
-   $(".entitylist.entity-grid").on("loaded", function () {
-      $(this).children(".view-grid").find("td[data-attribute='accountnumber']").each(function (i, e){
-         var value = $(this).data("value");
+   $(.entitylist.entity-grid).on(loaded, function () {
+      $(this).children(.view-grid).find(td[data-attribute='accountnumber']).each(function (i, e){
+         var value = $(this).data(value);
          // now that you have the value you can do something to the value
       });
    });
@@ -145,14 +145,14 @@ Generally, you can configure the corresponding dialog box for each action, which
 |**Name**                 |**Description**                                                                                                                         |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Title                    | Overrides the HTML that appears in the title bar of the dialog box.|                                                                         
-| Primary Button Text      | Overrides the HTML that appears in the Primary ("Delete") button on the dialog box.                                                         |
-| Close Button Text        | Overrides the HTML that appears in the Close ("Cancel") button on the dialog box.                                                           |
+| Primary Button Text      | Overrides the HTML that appears in the Primary (Delete) button on the dialog box.                                                         |
+| Close Button Text        | Overrides the HTML that appears in the Close (Cancel) button on the dialog box.                                                           |
 | Dismiss Button Sr Text   | Overrides the screen reader text associated with the dialog box's Dismiss button.                                                           |
 | Size                     | Specifies the size of the Delete dialog box. The Options are Default, Large, and Small. The default size is Default. |
 | CSS Class                | Specify a CSS class or classes that will be applied to the resulting dialog box.                                                            |
 | Tile CSS Class           | Specify a CSS class or classes that will be applied to the resulting dialog box's title bar.                                                |
-| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary ("Delete") button.                                          |
-| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close ("Cancel") button.                                            |
+| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary (Delete) button.                                          |
+| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close (Cancel) button.                                            |
 
 **Create action settings**
 
@@ -257,14 +257,14 @@ Enabling a **Delete Action** allows a user to permanently delete the record of t
 |**Name**                 |**Description**                                                                                                                         |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Title                    | Overrides the HTML that appears in the title bar of the dialog box.                                                                         |
-| Primary Button Text      | Overrides the HTML that appears in the Primary ("Delete") button on the dialog box.                                                         |
-| Close Button Text        | Overrides the HTML that appears in the Close ("Cancel") button on the dialog box.                                                           |
+| Primary Button Text      | Overrides the HTML that appears in the Primary (Delete) button on the dialog box.                                                         |
+| Close Button Text        | Overrides the HTML that appears in the Close (Cancel) button on the dialog box.                                                           |
 | Dismiss Button Sr Text   | Overrides the screen reader text associated with the dialog box's Dismiss button.                                                           |
 | Size                     | Specifies the size of the Delete dialog box. The Options are Default, Large, and Small. The default size is Default. |
 | CSS Class                | Specify a CSS class or classes that will be applied to the resulting dialog box.                                                            |
 | Title CSS Class          | Specify a CSS class or classes that will be applied to the resulting dialog box's title bar.                                                |
-| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary ("Delete") button.                                          |
-| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close ("Cancel") button.                                            |
+| Primary Button CSS Class | Specify a CSS class or classes that will be applied to the dialog box's Primary (Delete) button.                                          |
+| Close Button CSS Class   | Specify a CSS class or classes that will be applied to the dialog box's Close (Cancel) button.                                            |
 
 **Workflow action settings**
 
@@ -342,7 +342,7 @@ You can define how the Filter area on the entity list will be rendered by using 
 | Text Filter          | Filter the entity list by using a text box to search for matching text in a selected attribute of the given entity.                                                                                                                               |
 | Attribute Filter Set | Filter the entity list by using a series of check boxes, each of which tries to match its condition against a particular attribute of the given entity.                                                                                           |
 | Lookup Set           | Filter the entity list by using a series of check boxes, each of which represents a relationship between a record for the given entity and a record for a related entity.                                                                         |
-| Range Filter Set     | Similar to the Attribute Filter Set, except that each check box can represent two conditions rather than one (for example, "greater than or equal to 0 AND less than 100").                                                                    |
+| Range Filter Set     | Similar to the Attribute Filter Set, except that each check box can represent two conditions rather than one (for example, greater than or equal to 0 AND less than 100).                                                                    |
 | Dynamic Picklist Set | Similar to choosing a picklist value on an Attribute Filter Set. The Dynamic Picklist Set does not require that you specify the picklist options to filter by; instead, it generates the full list of options when the entity list is loaded. |
 | Dynamic Lookup Set   | Similar to the Lookup Set. The Dynamic Lookup Set does not require that you specify the lookup options to filter by; instead, it generates the full list of options when the entity list is loaded.                                           |
 | FetchXML Filter      | Filter the entity list by using a FetchXML filter condition.                                                                                                                                                                                     |
@@ -359,7 +359,7 @@ The Text filter uses the following attributes:
 
 |**Name**     |**Description**                                                                                                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Attribute    | The name of the attribute on the entity list's selected entity type to filter by. *Only attributes with the type "String" are valid for a Text filter.*                                                                                   |
+| Attribute    | The name of the attribute on the entity list's selected entity type to filter by. *Only attributes with the type String are valid for a Text filter.*                                                                                   |
 | Display Name | Override the label for the filter when the entity list is displayed. By default, this will be automatically set to the name of the selected attribute. |
 
 **Attribute Filter Set**
@@ -510,7 +510,7 @@ You can use Entity Permissions if you want to secure records, but if you want to
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  

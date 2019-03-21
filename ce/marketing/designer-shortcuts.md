@@ -1,22 +1,21 @@
 ---
 title: "Accessibility features and keyboard shortcuts (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 for Marketing"
-keywords: "accessibility; keyboard shortcuts"
-ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+keywords: accessibility; keyboard shortcuts
+ms.date: 02/01/2019
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-marketing"
+  - dyn365-a11y
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: f0dec7ab-009f-432a-8618-53708615aa6a
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -33,11 +32,13 @@ search.app:
 
 ## General accessibility for Customer Engagement applications
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Customer Engagement applications. For details, see the following help topics:
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. For details, see the following help topics:
 
 - [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
 - [Keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)
 
+> [!IMPORTANT]
+> If you're working on an iOS device and using an attached keyboard, then use option+tab to move between user-interface elements (such as links, buttons, tabs, etc.). The standard keyboard navigation technique for this is to use tab alone, but because [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] sometimes uses specialized HTML constructs to create its feature (especially for the content and pipeline designers), some buttons and links will be skipped if you use tab alone. But if you use option+tab, you'll be able to navigate to everything.
 
 ## Accessibility and keyboard shortcuts for content designers
 
@@ -45,9 +46,7 @@ search.app:
 
 ![The designer toolbar and content area](media/designer-tools-ill.png "The designer toolbar and content area")
 
-
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
-
 
 > [!IMPORTANT]
 > For keyboard shortcuts that include a number, you usually need to use the standard number keys, not the number pad.
@@ -73,9 +72,9 @@ search.app:
 - **Alt+Ctrl+3**: Open the tablet landscape preview.
 - **Alt+Ctrl+4**: Open the mobile portrait preview.
 - **Alt+Ctrl+5**: Open the mobile landscape preview.
-- **Alt+1**: Open the design editor.
-- **Alt+2**: Open the HTML editor.
-- **Alt+3**: Open the preview tab.
+- **Alt+1**: Open the **Designer** editor tab.
+- **Alt+2**: Open the **HTML** editor tab.
+- **Alt+3**: Open the **Preview** tab.
 - **Alt+11**: Toggle the full screen view of the design editor.
 
 ### Manipulate design elements
@@ -83,6 +82,8 @@ search.app:
 - **Alt+M**: Move the selected element.
 - **Alt+Shift+C**: Clone the selected element.
 - **Alt+Shift+D**: Delete the selected element.
+- **Alt+4**: Open the **Toolbox** panel.
+- **Alt+5**: Open the **Properties** panel.
 - **Alt+X**: Go back to the active element (for example, from the **Properties** panel).
 
 ### Working with text element content
@@ -153,9 +154,9 @@ When a text element is selected, you are able to enter and style text within tha
 - **Alt+Down-Arrow**: Open assist edit inside a text element.
 - **Alt+Down-Arrow** or **Down-Arrow**: Open assist edit inside the link field (or any field that supports assist edit).
 
-## Keyboard commands for customer journeys and lead scoring models
+## Keyboard shortcuts for customer journeys and lead scoring models
 
-Most of the standard screen navigation and selection keyboard commands also work when you are designing a customer journey or lead scoring model. In addition, some special assistance is provided to let you work with the tiles and arrange them on the canvas.
+Most of the standard navigation and selection keyboard commands also work when you are designing a customer journey or lead scoring model. In addition, some special assistance is provided to let you work with the tiles and arrange them on the canvas.
 
 ![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
 
@@ -220,6 +221,13 @@ To move quickly between the main areas of the customer journey and lead-scoring 
 - **Alt+3**: Go to **Toolbox**/**Properties** panel.
 - **Ctrl+Alt+D**: Go to the selected tile.
 
+## Keyboard shortcuts for the marketing calendar
+
+Most of the standard navigation and selection keyboard commands function as usual when you are working with the marketing calendar. In addition, the following calendar-specific shortcuts are provided:
+
+- **Ctrl + F6**: Remove focus from the calendar (for when you want to leave the calendar).
+- **Ctrl + Shift + G**: Open the date picker (for when you want to change the date/time settings for any calendar item).
+
 ### See also
 
 [Design your digital content](design-digital-content.md)  
@@ -229,4 +237,4 @@ To move quickly between the main areas of the customer journey and lead-scoring 
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Score and manage leads](score-manage-leads.md)
+[Design lead-scoring models](score-manage-leads.md)

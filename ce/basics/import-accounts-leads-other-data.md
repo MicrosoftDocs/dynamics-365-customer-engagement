@@ -1,19 +1,19 @@
 ---
-title: "Import accounts, leads, or other data (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Import accounts, leads, or other data (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: dee40fe5-1942-4521-986f-714edfd36433
 caps.latest.revision: 37
-ms.author: "anbichse"
-manager: "brycho"
+ms.author: anbichse
+manager: brycho
 search.audienceType: 
   - enduser
 search.app: 
@@ -109,7 +109,7 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
       
    For example, an import file containing contacts may have a field for First Name, Last Name, and Job Title. Make sure those fields are mapped correctly to the corresponding fields in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
       
-   For any field in the import file that is marked **Not Mapped**, go to the **Dynamics 365 Field Types** drop-down list and select the field name to use in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You may need to scroll down to see all available fields.  
+   For any field in the import file that is marked **Not Mapped**, go to the **Dynamics 365 for Customer Engagement Field Types** drop-down list and select the field name to use in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You may need to scroll down to see all available fields.  
     
 10. After reviewing the field mapping, choose **Next**.  
   

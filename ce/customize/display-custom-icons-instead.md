@@ -1,34 +1,38 @@
 ---
-title: "Display custom icons instead of values in list views with PowerApps | MicrosoftDocs"
+title: "Display custom icons alongside values in list views | MicrosoftDocs"
 description: "Learn how to display custom icon graphics in a view"
-ms.custom: ""
-ms.date: 04/06/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 02/14/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: af866aed-2586-4b6f-bb1c-3519baae3645
 caps.latest.revision: 25
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
   - D365CE
 ---
-# Display custom icons instead of values in list views
+# Display custom icons in list views
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="GridIcons"></a>   
 
- Administrators and customizers can add graphics to a view and establish the logic used to select the graphic based on a column values using JavaScript. The capability to display list views that show icons rather than text or numerical values in some columns was introduced in Relationship Insights. 
+ Administrators and customizers can add graphics to a view and establish the logic used to select a graphic based on the column value using JavaScript. The capability lets you customize list views that display icons alongside text or numerical values, such as in this **Rating** column in the **All Opportunities** view. 
+
+> [!div class="mx-imgBorder"] 
+> ![](media/icon-in-opportunity-view.png "All Opportunities view with Rating column displaying icons and text value")
+
   
 > [!NOTE]
 >  Grid icons are only shown in the web interface. They are not shown in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or the mobile app.  
@@ -92,7 +96,7 @@ search.app:
 <a name="SampleJavascript"></a>   
 
 ### Sample JavaScript function  
- The JavaScript function for displaying custom icons and tooltips expects the following two arguments: the entire row object specified in layoutxml and the calling user’s Locale ID (LCID). The LCID parameter enables you to specify tooltip text in multiple languages. For more information about the languages supported by the environment, see [Enable languages](../admin/enable-languages.md) and [Install or upgrade language packs for Dynamics 365](https://technet.microsoft.com/library/hh699674.aspx). For a list of locale ID (LCID) values that you can use in your code, see [Locale IDs assigned by Microsoft](https://go.microsoft.com/fwlink/?linkid=829588).
+ The JavaScript function for displaying custom icons and tooltips expects the following two arguments: the entire row object specified in layoutxml and the calling user’s Locale ID (LCID). The LCID parameter enables you to specify tooltip text in multiple languages. For more information about the languages supported by the environment, see [Enable languages](../admin/enable-languages.md) and [Install or upgrade language packs for Dynamics 365 for Customer Engagement](https://technet.microsoft.com/library/hh699674.aspx). For a list of locale ID (LCID) values that you can use in your code, see [Locale IDs assigned by Microsoft](https://go.microsoft.com/fwlink/?linkid=829588).
 
   
  Assuming you will be adding custom icons for an option-set type of attribute, which has a limited set of predefined options, make sure you use the integer value of the options instead of label to avoid localization issues.  
@@ -149,9 +153,9 @@ function displayIconTooltip(rowData, userLCID) {
 }  
 ```  
   
- This results in displaying icons with tooltips in the **Rating** column that depend on the value in each row. The result could look like this:  
+ <!-- This results in displaying icons with tooltips in the **Rating** column that depend on the value in each row. The result could look like this:  
   
- ![Custom column graphics example](../customize/media/custom-column-graphics-example.png "Custom column graphics example")  
+ ![Custom column graphics example](../customize/media/custom-column-graphics-example.png "Custom column graphics example")  -->
  
  ### See also
  [Create or edit views](create-edit-views.md)

@@ -1,54 +1,54 @@
 ---
-title: "Create packages for the Dynamics 365 Package Deployer (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
-ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Create packages for the Dynamics 365 for Customer Engagement Package deployer (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+ms.custom: 
+ms.date: 01/25/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8def31d9-ee2a-4527-a29a-f16b53fc9229
 caps.latest.revision: 59
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Create packages for the Dynamics 365 Package Deployer
+# Create packages for the Dynamics 365 for Customer Engagement Package deployer
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instances. A “package” can consist of any or all of the following:  
+[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] apps instance. A “package” can consist of any or all of the following:  
 
-- One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution files.  
+- One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps solution files.  
 
 - Flat files or exported configuration data file from the Configuration Migration tool. For more information about the tool, see [Manage your configuration data](https://technet.microsoft.com/library/dn647421.aspx).  
 
-- Custom code that can run before, while, or after the package is deployed to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+- Custom code that can run before, while, or after the package is deployed to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance.  
 
 - HTML content specific to the package that can display at the beginning and end of the deployment process. This can be useful to provide a description of the solutions and files that are deployed in the package.  
 
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides you with a [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] template for creating these packages that can be used with the Package Deployer tool to deploy them to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps provide you with a [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] template for creating these packages that can be used with the Package Deployer tool to deploy them to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance.
 
 <a name="Prereq"></a>   
 ## Prerequisites  
 
 - Ensure that you have all the solutions and files ready that you want to include in the package.  
 
-- [!INCLUDE[pn_NET_Framework_452_long](../includes/pn-net-framework-452-long.md)]  
+- Microsoft .NET Framework 4.6.2  
 
 - [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]  
 
 - [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
 
-- Microsoft Dynamics CRM SDK Templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the package template. You can get it by downloading the [Microsoft Dynamics CRM SDK Templates](http://go.microsoft.com/fwlink/p/?LinkId=400925) and double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- Microsoft Dynamics 365 for Customer Engagement apps SDK Templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the package template. You can get it by downloading the [Microsoft Dynamics 365 for Customer Engagement apps SDK Templates](http://go.microsoft.com/fwlink/p/?LinkId=400925) and double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
 
 
 
@@ -73,11 +73,11 @@ search.app:
 
 2. In the **New Project** dialog box:  
 
-   1. From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 SDK Templates**.  
+   1. From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates**.  
 
-   2. Ensure that **[!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)]** is selected.  
+   2. Ensure that **.NET Framework 4.6.2** is selected.  
 
-   3. Select **Dynamics 365 Package**.  
+   3. Select **Dynamics 365 for Customer Engagement Package**.  
 
    4. Specify the name and location of the project, and click **OK**.  
 
@@ -132,21 +132,21 @@ search.app:
 
    - You can also import a localized version of the configuration data file based on the locale ID (LCID) specified using new runtime settings while running                             the package deployer. Use the `<cmtdatafile>` node (explained later) to specify the localized versions of the                             configuration data file in a package and then use the  `OverrideConfigurationDataFileLanguage` method (explained later)                             to specify the logic for importing the configuration data file based on the locale ID specified using the runtime settings. You cannot import more than                             one configuration data file using a package at a time.  
 
-   - For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises), if your configuration data file contains user information, and both the source and target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances are on the same Active Directory Domain, user information will be imported to the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. To import user information to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) instance on a different domain, you must include the user map file (.xml) generated using the Configuration Migration tool in your project, and specify it along with the configuration data file using the `usermapfilename` attribute in the `<cmtdatafile>` node explained later. User information cannot be imported to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.  
+   - For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) apps, if your configuration data file contains user information, and both the source and target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instances are on the same Active Directory Domain, user information will be imported to the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance. To import user information to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) apps instance on a different domain, you must include the user map file (.xml) generated using the Configuration Migration tool in your project, and specify it along with the configuration data file using the `usermapfilename` attribute in the `<cmtdatafile>` node explained later. User information cannot be imported to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] apps instance.  
 
      `<solutions>` node  
-     Contains an array of `<configsolutionfile>` nodes that describe the solutions to import. The order of the solutions under this                         node indicates the order in which the solutions will be imported on the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+     Contains an array of `<configsolutionfile>` nodes that describe the solutions to import. The order of the solutions under this                         node indicates the order in which the solutions will be imported on the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance.  
 
      `<configsolutionfile>` node  
      Use this node under the `<solutions>` node to specify the individual solutions and the following information for each solution to be imported:  
 
    - `solutionpackagefilename`: Specify the .zip file name of your solution. Required.  
 
-   - `overwriteunmanagedcustomizations`: Specify whether to overwrite any unmanaged customizations when importing a solution that already exists                             in the target Dynamics 365 instance. This is optional, and if you do not specify this attribute, by default the unmanaged customizations in the existing solution are maintained                             on the target Dynamics 365 instance.  
+   - `overwriteunmanagedcustomizations`: Specify whether to overwrite any unmanaged customizations when importing a solution that already exists in the target Dynamics 365 for Customer Engagement apps instance. This is optional, and if you do not specify this attribute, by default the unmanaged customizations in the existing solution are maintained on the target Dynamics 365 for Customer Engagement apps instance.  
 
-   - `publishworkflowsandactivateplugins`: Specify whether to publish workflows and activate plug-ins                             in the target Dynamics 365 instance after the solution is imported. This is optional, and if you do not specify not specify this attribute, by default                             the workflows are published and plug-ins are activated after the solution is imported on the target Dynamics 365 instance.  
+   - `publishworkflowsandactivateplugins`: Specify whether to publish workflows and activate plug-ins in the target Dynamics 365 for Customer Engagement apps instance after the solution is imported. This is optional, and if you do not specify not specify this attribute, by default the workflows are published and plug-ins are activated after the solution is imported on the target Dynamics 365 for Customer Engagement apps instance.  
 
-     You can add multiple solution file names in a package by adding as many `<configsolutionfile>` nodes. For example, if you want three solution                         files to be imported, add them like this:  
+     You can add multiple solution file names in a package by adding as many `<configsolutionfile>` nodes. For example, if you want three solution files to be imported, add them like this:  
 
    ```xml  
 
@@ -205,7 +205,7 @@ search.app:
    |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    |         `filename`         | Name of the file that contains the import data. If the file is a .zip file, a `<zipimportdetails>` node must be present with a                                 `<zipimportdetail>` node for each file in the .zip file. |
    |         `filetype`         |                                                                                              This can be csv, xml, or zip.                                                                                              |
-   |      `associatedmap`       |           Name of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] import data map to use with this file. If blank, attempts to use the system determined import data map name for this file.            |
+   |      `associatedmap`       |           Name of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps import data map to use with this file. If blank, attempts to use the system determined import data map name for this file.            |
    |      `importtoentity`      |                                                Can be the name of the exe in the zip file, a URL, or an .msi file to provide a link to invoke at the end of the process.                                                |
    |      `datadelimiter`       |                                                            Name of the data delimiter used in the import file. Valid values are singlequote or doublequotes.                                                            |
    |      `fielddelimiter`      |                                          Name of the field delimiter used in the import file. Valid values are comma or colon, or                                 singlequote.                                          |
@@ -216,7 +216,7 @@ search.app:
    | `waitforimporttocomplete`  |                                                 If `true`, the system waits for the import to complete before proceeding. If `false`, it queues the jobs and moves on.                                                  |
 
     `<zipimportdetails>` node  
-    This node contains an array of `<zipimportdetail>` nodes that describe the files included in a zip file that is used to import to Dynamics 365.  
+    This node contains an array of `<zipimportdetail>` nodes that describe the files included in a zip file that is used to import to Dynamics 365 for Customer Engagement apps.  
 
     `<zipimportdetail>` node  
     Use this node under the `<zipimportdetails>` node to provide information about an individual file in a .zip file that is specified in the                         `<configimportfile>` node.  
@@ -387,9 +387,9 @@ search.app:
 
        This lets the administrator use the command line or the [Import-CrmPackage](https://technet.microsoft.com/library/dn756301.aspx) cmdlet to specify whether to skip the safety checks while running the Package Deployer tool to import the package. More information: [Deploy packages using CRM Package Deployer and Windows PowerShell](https://technet.microsoft.com/library/dn647420.aspx)  
 
-   2. Enter custom code to execute before the solutions are imported in  the override method definition of `PreSolutionImport` to specify whether to                     maintain or overwrite customizations while updating the specified solution in a target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, and whether to automatically activate plug-ins and workflows.  
+   2. Enter custom code to execute before the solutions are imported in  the override method definition of `PreSolutionImport` to specify whether to maintain or overwrite customizations while updating the specified solution in a target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance, and whether to automatically activate plug-ins and workflows.  
 
-   3. Use the override method definition of `RunSolutionUpgradeMigrationStep` to perform data transformation or upgrade between two versions of a solution                     This method is called only if the solution you are importing is already present in the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+   3. Use the override method definition of `RunSolutionUpgradeMigrationStep` to perform data transformation or upgrade between two versions of a solution. This method is called only if the solution you are importing is already present in the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
 
        This function expects the following parameters:  
 
@@ -409,7 +409,7 @@ search.app:
 
        You specify the available languages for the configuration data in the `<cmtdatafiles>` node in the                     `ImportConfig.xml` file. The default configuration data import file is specified in the `crmmigdataimportfile` attribute in the                     `ImportConfig.xml` file.  
 
-       Skipping data checks (<xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.OverrideDataImportSafetyChecks> = true)                     can be effective here if you are sure that the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance does not contain any data.  
+       Skipping data checks (<xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.OverrideDataImportSafetyChecks> = true)                     can be effective here if you are sure that the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance does not contain any data.  
 
    6. Enter custom code to execute after the import completes in the override definition of `AfterPrimaryImport`>method.                     The remaining flat files that were not imported earlier, before the solution import started, are imported now.  
 
@@ -480,9 +480,9 @@ search.app:
    |                                              <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.IsWorkflowActive(System.Guid)>                                              |   Function    |                                                                                                                                                                                   Used to determine if a specified workflow is active.                                                                                                                                                                                    |
    |                                                       <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.PackageLog>                                                        | Class Pointer |                                                                                                                            This is a pointer to the initialized logging interface for the package. This interface is used by a package to log messages and exceptions to the package log file.                                                                                                                            |
    |                                                  <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.RootControlDispatcher>                                                  |   Property    |                                                         This is a dispatcher interface used to allow your control to render its own UI during package deployment. Use this interface to wrap any UI elements or commands.                         It is important to check this variable for null values before using it as it may or may not be set to a value.                                                          |
-   |                                                         <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.CrmSvc>                                                          |   Property    |                                                                                        This is a pointer to <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class that allows for a package to address Dynamics 365 from within the package. Use this to execute SDK methods and other actions in the overridden methods.                                                                                         |
-   |                                                   <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.DataImportBypass>                                                   |   Property    |                    Use this to specify whether [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] skips all data import operations such as importing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] sample data,                         flat file data, and data exported from the Configuration Migration tool. Specify true or false. Default is `false`.                    |
-   |                                            <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.OverrideDataImportSafetyChecks>                                            |   Property    |      Use this to specify whether [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] will bypass some of its safety checks, which helps in improving the import performance. Specify `true` or `false`. Default is `false`.<br /><br /> You should set this to `true` only if the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance does not contain any data.      |
+   |                                                         <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.CrmSvc>                                                          |   Property    |                                                                                        This is a pointer to <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class that allows for a package to address Dynamics 365 for Customer Engagement apps from within the package. Use this to execute SDK methods and other actions in the overridden methods.                                                                                         |
+   |                                                   <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.DataImportBypass>                                                   |   Property    |                    Use this to specify whether [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] apps skip all data import operations such as importing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps sample data,                         flat file data, and data exported from the Configuration Migration tool. Specify true or false. Default is `false`.                    |
+   |                                            <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.OverrideDataImportSafetyChecks>                                            |   Property    |      Use this to specify whether [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] will bypass some of its safety checks, which helps in improving the import performance. Specify `true` or `false`. Default is `false`.<br /><br /> You should set this to `true` only if the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance does not contain any data.      |
 
 
 4. Save your project, and then build it (**Build** > **Build Solution**) to create the package. Your package is the following files under the *\<Project>*\Bin\Debug folder  
@@ -495,7 +495,7 @@ search.app:
 
 <a name="UsethePackage"></a>   
 ## Deploy a package  
- After you create a package, you can deploy it on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance by using either the Package Deployer tool or [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)]. 
+ After you create a package, you can deploy it on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance by using either the Package Deployer tool or [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)]. 
 
  The package deployer tool is distributed as part of the [Microsoft.CrmSdk.XrmTooling.PackageDeployment.WPF](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment) NuGet package.To download the package deployer tool, see [Download tools from NuGet](download-tools-nuget.md).
 
@@ -505,7 +505,7 @@ search.app:
 ## Best practices for creating and deploying packages  
  While creating packages, developers must ensure that the package assemblies are signed.  
 
- While deploying the packages, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators must:  
+ While deploying the packages, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps administrators must:  
 
 -   Insist on a signed package assembly so that you can track an assembly back to its source.  
 

@@ -1,20 +1,20 @@
 ---
-title: "Web API Basic Operations Sample (Client-side JavaScript) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This sample demonstrates how to perform basic CRUD (create, retrieve, update, and delete) and association and dissociation operations on entity instances using client-side JavaScript and the Dynamics 365 Customer Engagement Web API"
-ms.custom: ""
+title: "Web API Basic Operations Sample (Client-side JavaScript) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This sample demonstrates how to perform basic CRUD (create, retrieve, update, and delete) and association and dissociation operations on entity instances using client-side JavaScript and the Dynamics 365 for Customer Engagement Web API"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 11847c67-2807-4cb5-998b-90f45d3d98a7
 caps.latest.revision: 27
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -492,7 +492,7 @@ Sdk.basicCreateAndUpdatesAsync = function () {
    var contactAlt = {};  
    contactAlt.jobtitle = "Senior Developer";  
    contactAlt.annualincome = 95000;  
-   contactAlt.description = "MS Azure and Dynamics 365 Specialist";  
+   contactAlt.description = "MS Azure and Dynamics 365 for Customer Engagement Specialist";  
    var properties = [  
       "fullname",  
       "annualincome",  
@@ -865,7 +865,7 @@ Sdk.deleteSampleData = function () {
 
 ### See also
 
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Create an entity using the Web API](create-entity-web-api.md)   
  [Retrieve an entity using the Web API](retrieve-entity-using-web-api.md)   
  [Update and delete entities using the Web API](update-delete-entities-using-web-api.md)   

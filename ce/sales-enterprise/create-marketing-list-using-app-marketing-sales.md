@@ -1,29 +1,26 @@
 ---
 title: "Create a marketing list using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: 
-  - dyn365-sales
-ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: dynamics-365-sales
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+description: ""
+keywords: ""
+ms.date: 01/30/2019
+ms.service:
+  - dynamics-365-sales
+ms.custom:
+  - "dyn365-sales"
+ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 509b776a-6932-4c87-881a-353782c95beb
-caps.latest.revision: 48
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 48
 ---
+
 # Create a marketing list using in-app marketing (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -125,7 +122,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
 ## Define the member selection criteria for a dynamic marketing list  
   
 <a name="Collapsed3"></a>   
-1.  In any marketing list, in the **Members** area, click the **Add**![Add button](../sales-enterprise/media/add-button.PNG "Add button") button.  
+1.  In any marketing list, on the command bar, select **Manage Members**.  
   
 2.  In the **Manage Members** dialog box, click **Select**, and then select the field on which you want to search, such as **Account Name** or **City**. You can select fields from the current record type, or from related record types.  
   

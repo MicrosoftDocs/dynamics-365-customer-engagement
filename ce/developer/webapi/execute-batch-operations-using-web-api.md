@@ -1,20 +1,20 @@
 ---
-title: "Execute batch operations using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Execute batch operations using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Batch operation lets you group multiple operations in a single HTTP request. Read how to execute batch operations using the Web API"
-ms.custom: ""
+ms.custom: 
 ms.date: 05/23/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 799b2346-bda1-4a26-a330-79d0927a7743
 caps.latest.revision: 11
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -60,9 +60,6 @@ Content-Transfer-Encoding:binary
 ```  
 --batch_WKQS9Yui9r--  
 ```  
-  
-> [!NOTE]
->  The odata.continue-on-error preference is not supported by the web API. Any error that occurs in the batch will stop the processing of the remainder of the batch.  
   
 <a name="bkmk_ChangeSets"></a>
 

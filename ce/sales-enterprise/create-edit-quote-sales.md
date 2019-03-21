@@ -1,39 +1,32 @@
 ---
 title: "Create or edit a quote (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Quotes include the pricing details of the products your potential customer is interested in."
-keywords: "Quote, proposal, create quote, products, price"
+keywords: Quote, proposal, create quote, products, price
 ms.date: 09/22/2017
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service:
+  - dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: get-started-article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to:
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 9881bdf5-8922-4cb6-b2df-544286e56400
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 37
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Create or edit a quote (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-One way that can help you increase your sales is to add all products that your customer might need to your quote. Your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] system might offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell.  
+One way that can help you increase your sales is to add all products that your customer might need to your quote. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell.  
   
  Most sales begin with a price quote, which eventually becomes an order.  
   
@@ -42,7 +35,7 @@ One way that can help you increase your sales is to add all products that your c
  When the customer accepts the quote, you create an order. Otherwise, you close the quote as revised, canceled, or lost.  
   
 <a name="bkmk1"></a>  
-## Create a quote from an opportunity (Sales Hub app)
+## Create a quote from an opportunity (Sales Hub)
 
 1.	Select the site map  ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
 
@@ -68,7 +61,7 @@ One way that can help you increase your sales is to add all products that your c
 > Similarly, if the quote is created from an opportunity, it must use the same currency as the opportunity.
 
 <a name="bkmk2"></a>  
-## Create a quote (Sales Hub app)
+## Create a quote (Sales Hub)
 
 1.	Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Quotes**.
 
@@ -96,7 +89,7 @@ One way that can help you increase your sales is to add all products that your c
 
 
 <a name="bkmk3"></a>   
-## Create a quote from an opportunity (Sales app)
+## Create a quote from an opportunity (Sales)
   
 1. [!INCLUDE[proc_sales_opportunities](../includes/proc-sales-opportunities.md)]  
   
@@ -115,7 +108,7 @@ One way that can help you increase your sales is to add all products that your c
 8. When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.  
   
 <a name="bkmk4"></a>   
-## Create a quote  (Sales app)
+## Create a quote  (Sales)
   
 1. [!INCLUDE[proc_sales_quotes](../includes/proc-sales-quotes.md)]  
   

@@ -163,7 +163,7 @@ namespace Microsoft.Crm.Sdk.Samples
         }
 
         /// <summary>
-        /// Retrives and display principal access information.
+        /// Retrieve and display principal access information.
         /// </summary>
         /// <param name="entityReference"></param>
         /// <param name="principal"></param>

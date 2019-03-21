@@ -1,18 +1,18 @@
 ---
 title: "Customize global option sets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/20/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6786ff10-0e38-4f5c-b973-c682d1d60de5
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -98,8 +98,8 @@ Typically, you use global option sets to set fields so that different fields can
  [!code-csharp[OptionSets#WorkwithGlobalOptionSets12](../../snippets/csharp/CRMV8/optionsets/cs/workwithglobaloptionsets12.cs#workwithglobaloptionsets12)]  
   
 ### See also  
- [Customize Dynamics 365 Customer Engagement applications](../customize-dev/customize-applications.md)   
- [Extend the Metadata Model for Dynamics 365](use-organization-service-metadata.md)   
+ [Customize Dynamics 365 for Customer Engagement applications](../customize-dev/customize-applications.md)   
+ [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](use-organization-service-metadata.md)   
  [Insert, update, delete, and order global option set options](insert-update-delete-order-global-option-set-options.md)   
  [Sample: Create Global Option Set](sample-create-global-option-set.md)   
  [Sample: Work with Global Option Sets](sample-work-global-option-sets.md)   

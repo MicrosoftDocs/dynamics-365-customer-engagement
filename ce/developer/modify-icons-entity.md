@@ -1,28 +1,28 @@
 ---
-title: "Modify the icons for an entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Modify the icons for an entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about modifying the icons for an entity."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "modifying icons for entities, types of"
-  - "modifying icons for entities, properties for"
-  - "customizing entity metadata, modifying icons for entities"
-  - "icons, customizing for entities"
-  - "entities, modifying icons for"
-  - "custom icons, modifying for entities"
-  - "modifying icons for entities, default specifications for icons"
+  - modifying icons for entities, types of
+  - modifying icons for entities, properties for
+  - customizing entity metadata, modifying icons for entities
+  - icons, customizing for entities
+  - entities, modifying icons for
+  - custom icons, modifying for entities
+  - modifying icons for entities, default specifications for icons
 ms.assetid: 32fbb402-3808-4d9a-b2e3-6acecb4bb62a
 caps.latest.revision: 27
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

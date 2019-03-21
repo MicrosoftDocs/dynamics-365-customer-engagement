@@ -1,9 +1,9 @@
 ---
-title: "Create, edit, and distribute opportunities in Dynamics 365 | MicrosoftDocs"
+title: "Create, edit, and distribute opportunities in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about how you can use opportunities to notify your partners of sales prospects that they can follow up on."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/05/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - D365Portals
 ---
-# Create, edit, and distribute opportunities in Dynamics 365
+# Create, edit, and distribute opportunities in Dynamics 365 for Customer Engagement
 
 In your partner portal, you can use opportunities to notify your partners of sales prospects that they can follow up on. You may have opportunities for existing customers or from new customers, and by distributing them to your partners, you can create new revenue sources or strengthen relationships with current customers.
 

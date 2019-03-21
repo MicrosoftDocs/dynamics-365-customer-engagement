@@ -1,20 +1,20 @@
 ---
 title: "Manage duplicate detection for create and update operations using the Web API | MicrosoftDocs"
-description: "Read how to detect duplicates using MSCRM.SuppressDuplicateDetection header and Dynamics 365 Customer Engagement Web API"
-ms.custom: ""
+description: "Read how to detect duplicates using MSCRM.SuppressDuplicateDetection header and Dynamics 365 for Customer Engagement Web API"
+ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: AE107774-4545-44B4-94C8-A0271EFA7876
 caps.latest.revision: 11
-author: "SushantSikka"
-ms.author: "susikka"
-manager: "amyla"
+author: SushantSikka
+ms.author: susikka
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Dynamics 365 Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. 
+Dynamics 365 for Customer Engagement Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. 
 
 ## Detect duplicate during Create operation
 
@@ -40,7 +40,7 @@ Use `MSCRM.SuppressDuplicateDetection` header during `POST` request, to detect c
 Use preference header `MSCRM.SuppressDuplicateDetection` and set its value to `false` in the Web API request.
 
 > [!NOTE]
->  Make sure there are appropriate duplicate detection rules in place. Dynamics 365 includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule. For information on how to create a duplicate detection rule, see [Duplicate detection rules](../../admin/set-up-duplicate-detection-rules-keep-data-clean.md).
+>  Make sure there are appropriate duplicate detection rules in place. Dynamics 365 for Customer Engagement apps includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule. For information on how to create a duplicate detection rule, see [Duplicate detection rules](../../admin/set-up-duplicate-detection-rules-keep-data-clean.md).
 
 <a name="bkmk_create"></a>
 ###  Example: Detect duplicates during Create operation using the Web API

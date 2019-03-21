@@ -1,19 +1,19 @@
 ---
-title: "Web API Functions and Actions Sample (Client-side JavaScript) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "This sample demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 Customer Engagement Web API and client-side JavaScript"
-ms.custom: ""
-ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Web API Functions and Actions Sample (Client-side JavaScript) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "This sample demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 for Customer Engagement Web API and client-side JavaScript"
+ms.custom: 
+ms.date: 12/24/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 337f5d15-66be-46db-a96a-309951a37a2a
 caps.latest.revision: 20
-author: "JimDaly"
-ms.author: "jdaly"
+author: JimDaly
+ms.author: jdaly
 search.audienceType: 
   - developer
 search.app: 
@@ -475,7 +475,7 @@ Sdk.startSample = function () {
 Sdk.deleteEntities = function () {  
  return new Promise(function (resolve, reject) {  
   
-  entitiesToDelete.unshift(opportunityUri) // Adding to the begining so it will get deleted before the parent account.  
+  entitiesToDelete.unshift(opportunityUri) // Adding to the beginning so it will get deleted before the parent account.  
   // Re-open the created opportunity so it can be deleted.  
   Sdk.request("PATCH", opportunityUri, { statecode: 0, statuscode: 2 })  
   .then(function () {  
@@ -716,7 +716,7 @@ Sdk.createAccountWithOpportunityToWin = function () {
   
 ### See also
 
- [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Use Web API functions](use-web-api-functions.md)   
  [Use Web API actions](use-web-api-actions.md)   
  [Web API Samples](web-api-samples.md)   

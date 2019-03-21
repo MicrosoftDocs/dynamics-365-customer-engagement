@@ -1,27 +1,23 @@
 ---
-title: "Work with solutions in PowerApps | MicrosoftDocs"
+title: "Work with solutions | MicrosoftDocs"
 description: "Learn how solutions are distributed"
 ms.custom: 
   - dyn365-deflc
-ms.date: 04/24/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: 01/08/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: ece68f5f-ad40-4bfa-975a-3e5bafb854aa
 caps.latest.revision: 55
 ms.author: "matp"
 manager: "kvivek"
-search.audienceType: 
-  - customizer
-search.app: 
-  - D365CE
 ---
 
 <a name="BKMK_Solutions"></a>   
@@ -135,7 +131,7 @@ search.app:
  The system solution is like a managed solution that every organization has. The system solution is the definition of all the out-of-the box components in the system.  
   
  **Managed Solutions**  
- Managed solutions can modify the system solution components and add new components. If multiple managed solutions are installed, the first one installed is below the managed solution installed later. This means that the second solution installed can customize the one installed before it. When two managed solutions have conflicting definitions, the general rule is “Last one wins”. If you uninstall a managed solution, the managed solution below it takes effect. If you uninstall all managed solution, the default behavior defined within the system solution is applied.  
+ Managed solutions can modify the system solution components and add new components. If multiple managed solutions are installed, the first one installed is below the managed solution installed later. This means that the second solution installed can customize the one installed before it. When two managed solutions have conflicting definitions, the general rule is “Last one wins." If you uninstall a managed solution, the managed solution below it takes effect. If you uninstall all managed solution, the default behavior defined within the system solution is applied.  
   
  **Unmanaged Customizations**  
  Unmanaged customizations are any change you have made to your organization through an unmanaged solution. The system solution defines what you can or can't customize by using managed properties. Publishers of managed solutions have the same ability to limit your ability to customize solution components that they add in their solution. You can customize any of the solution components that do not have managed properties that prevent you from customization them.  
@@ -149,11 +145,9 @@ search.app:
   
 <a name="BKMK_Dependencies"></a>   
 ### Solution dependencies  
- Because of the way that managed solutions are layered some managed solutions can be dependent on solution components in other managed solutions. Some solution publishers will take advantage of this to build solutions that modular. You may need to install a “base” managed solution first and then you can install a second managed that will further customize the components in the base managed solution. The second managed solution depends on solution components that are part of the first solution.  
+ Because of the way that managed solutions are layered some managed solutions can be dependent on solution components in other managed solutions. Some solution publishers will take advantage of this to build solutions that are modular. You may need to install a “base” managed solution first and then you can install a second managed that will further customize the components in the base managed solution. The second managed solution depends on solution components that are part of the first solution.  
   
  The system tracks these dependencies between solutions. If you try to install a solution that requires a base solution that isn’t installed, you won’t be able to install the solution. You will get a message saying that the solution requires another solution to be installed first. Similarly, because of the dependencies, you can’t uninstall the base solution while a solution that depends on it is still installed. You have to uninstall the dependent solution before you can uninstall the base solution.  
-  
-
   
 ### See also  
  [Getting started with customization](../customize/getting-started-customization.md)   

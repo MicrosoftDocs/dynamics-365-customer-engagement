@@ -1,20 +1,20 @@
 ---
-title: "Perform conditional operations using the Web API (Dynamics 365 Customer Engagement SDK)| MicrosoftDocs"
+title: "Perform conditional operations using the Web API (Dynamics 365 for Customer Engagement apps SDK)| MicrosoftDocs"
 description: "Read how to create conditions that decide whether and how to perform certain operations using the Web API"
-ms.custom: ""
+ms.custom: 
 ms.date: 02/26/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 771002b0-825a-462d-bbf0-1aeba4b726c8
 caps.latest.revision: 16
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,17 +24,17 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement provides support for a set of conditional operations that rely upon the standard HTTP resource versioning mechanism known as *ETags*.  
+[!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps provides support for a set of conditional operations that rely upon the standard HTTP resource versioning mechanism known as *ETags*.  
   
 <a name="bkmk_ETags"></a>   
 ## ETags  
  The HTTP protocol defines an *entity tag*, or [ETag](https://msdn.microsoft.com/en-us/library/dd541486.aspx) for short, for identifying specific versions of a resource. ETags are opaque identifiers whose exact values are implementation dependent. ETag values occur in two varieties: strong and weak validation. Strong validation indicates that a unique resource, identified by a specific URI, will be identical on the binary level if its corresponding ETag value is unchanged. Weak validation only guarantees that the resource representation is semantically equivalent for the same ETag value.  
   
- [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] generates a weakly validating `@odata.etag` property for every entity instance, and this property is automatically returned with each retrieved entity record. For more information, see [Retrieve an entity using the Web API](retrieve-entity-using-web-api.md).  
+ [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps generates a weakly validating `@odata.etag` property for every entity instance, and this property is automatically returned with each retrieved entity record. For more information, see [Retrieve an entity using the Web API](retrieve-entity-using-web-api.md).  
   
 <a name="bkmk_ifMatchHeaders"></a>   
 ## If-Match and If-None-Match headers  
- Use [If-Match](https://tools.ietf.org/html/rfc7232#section-3.1) and [If-None-Match](https://tools.ietf.org/html/rfc7232#section-3.2) headers with ETag values to check whether the current version of a resource matches the one last retrieved, matches any previous version or matches no version.  These comparisons form the basis of conditional operation support. Dynamics 365 provides ETags to support conditional retrievals, optimistic concurrency, and limited upsert operations.
+ Use [If-Match](https://tools.ietf.org/html/rfc7232#section-3.1) and [If-None-Match](https://tools.ietf.org/html/rfc7232#section-3.2) headers with ETag values to check whether the current version of a resource matches the one last retrieved, matches any previous version or matches no version.  These comparisons form the basis of conditional operation support. Dynamics 365 for Customer Engagement apps provides ETags to support conditional retrievals, optimistic concurrency, and limited upsert operations.
  
  Queries which expand collection-valued navigation properties may return cached data for those properties that doesn’t reflect recent changes. It is recommended to use `If-None-Match` header with value `null` to override browser caching. See [HTTP Headers](compose-http-requests-handle-errors.md#bkmk_headers) for more details. Use `If-None-Match` header with a specific ETag value to ensure that only changed data is returned.
   

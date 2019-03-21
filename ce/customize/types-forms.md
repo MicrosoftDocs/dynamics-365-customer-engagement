@@ -1,22 +1,22 @@
 ---
 title: "Type of forms in PowerApps | MicrosoftDocs"
 description: "Understand the different types of forms"
-ms.custom: ""
+ms.custom: 
 ms.date: 04/24/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 0eb1b9b7-7b76-435b-ad71-ecf33754d736
 caps.latest.revision: 33
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
@@ -25,7 +25,7 @@ search.app:
 ---
 # Type of forms
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  There are several different types of forms and each type has a specific functionality or use. The following table describes the types of forms available:  
 

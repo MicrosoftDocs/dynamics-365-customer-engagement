@@ -1,17 +1,15 @@
 ---
-title: "Run games in Dynamics 365 – Gamification | Microsoft Docs"
+title: "Run games in Dynamics 365 for Customer Engagement – Gamification | Microsoft Docs"
 description: "Learn how to set up games in a few steps and how to keep them running smoothly."
-keywords: "game, gamification KPI, game setup"
-ms.date: 10/27/2017
+keywords: game, gamification KPI, game setup
+ms.date: 03/05/2019
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: ec71f8e3-5cc9-4941-8067-5bf8e1081da9
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
 ms.custom: 
   - dyn365-gamification
 search.audienceType: 
@@ -31,7 +29,7 @@ Before you start setting up a game in [!INCLUDE[cc_gamification_portal](../inclu
 
 - You are assigned the **Commissioner** or **Game manager** [security role](understand-security-roles.md).  
 
-- [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)  
+- [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] is installed and correctly configured in your school or organization's [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 for Customer Engagement (online)](manage-gamification-in-dynamics-365-online.md)  
 
 ## Set up a game
 
@@ -43,7 +41,7 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 
 #### Create a new game
 
-1. Select the business unit you want to create a game for. The business unit represents a Dynamics 365 (online) organization. [!include[](../includes/proc-more-information.md)] [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)
+1. Select the business unit you want to create a game for. The business unit represents a Dynamics 365 for Customer Engagement (online) organization. [!include[](../includes/proc-more-information.md)] [Install and configure the Gamification solution in Dynamics 365 for Customer Engagement (online)](manage-gamification-in-dynamics-365-online.md)
 
 2. Provide a **Name** for the game.
 
@@ -77,7 +75,7 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 
 1. In step 2 of the game setup process, choose whether you want to use **Actuals** or **Targets** for the KPIs in this game. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)
 
-2. Choose from the available KPIs in the list. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] by a user who has the **Game Manager** security role assigned in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]. Those users also get a game manager user role when they sign in to [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md)
+2. Choose from the available KPIs in the list. KPIs are created in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] by a user who has the **Game Manager** security role assigned in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]. Those users also get a game manager user role when they sign in to [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 for Customer Engagement (online)](configure-kpis.md)
 
 3. Optionally, provide a different (game-specific) name for the KPI.
 
@@ -98,7 +96,7 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 9. In the game setup header, click **2** to proceed to the next step.
 
 > [!IMPORTANT]
-> When you remove a KPI from an active game, a user with the **Game manager** security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] needs to click **Refresh Data** in **Dynamics 365 (online)** > **Gamification** > **Gamification Settings** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].
+> When you remove a KPI from an active game, a user with the **Game manager** security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] needs to click **Refresh Data** in **Dynamics 365 for Customer Engagement (online)** > **Gamification** > **Gamification Settings** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]. You can edit and update KPIs in an active game up to 14 days after the start of the game. 
 
 #### Game quotas
 
@@ -131,7 +129,7 @@ To complete the game setup, click **Start Game** for the dates you defined. You 
 After you activate the game, and before the game start date, you can change KPIs, game awards, and player game quotas, but you can't add new **Percentage of quota** KPIs. On or after the game start date, you can still change the game awards and player game quotas.
 
 > [!NOTE]
-> Add or remove players or fans at any time after you activate a game by choosing **Add or remove players or fans** on the **Games** page, which you'll see after the game is activated. If a player is no longer with the organization, deactivate them from the **Players** page. If you're running a game that uses fantasy teams, you need to first deactivate a player in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] to freeze the points for that player, so teams don't lose points for the current and past game periods.
+> Add or remove players or fans up to 14 days after you activate a game by choosing **Add or remove players or fans** on the **Games** page, which you'll see after the game is activated. If a player is no longer with the organization, deactivate them from the **Players** page. If you're running a game that uses fantasy teams, you need to first deactivate a player in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] to freeze the points for that player, so teams don't lose points for the current and past game periods.
 
  Don't forget to complete the game when you reach the game end date. It's a critical step to be sure prizes get awarded to the players.
 
@@ -159,5 +157,5 @@ After you activate the game, and before the game start date, you can change KPIs
 ### See also
 
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
- [Install and configure the Gamification solution in Dynamics 365 (online)](manage-gamification-in-dynamics-365-online.md)   
- [Import players and fans from Dynamics 365 (online) and manage their security roles](manage-players-fans.md)
+ [Install and configure the Gamification solution in Dynamics 365 for Customer Engagement (online)](manage-gamification-in-dynamics-365-online.md)   
+ [Import players and fans from Dynamics 365 for Customer Engagement (online) and manage their security roles](manage-players-fans.md)

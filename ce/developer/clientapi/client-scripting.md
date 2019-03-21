@@ -1,15 +1,15 @@
 ---
-title: "Client scripting in Customer Engagement using JavaScript| MicrosoftDocs"
+title: "Client scripting in Customer Engagement using JavaScript | MicrosoftDocs"
 description: "Learn how to use Client API in Customer Engagement to apply custom business process logic for displaying data on a form."
 ms.date: 10/31/2017
-ms.service: "crm-online"
-ms.topic: "article"
+ms.service: crm-online
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 16271bd8-cfa8-4a7f-802a-60fbff7c3722
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -34,7 +34,7 @@ You can attach your JavaScript code to "react" to these events so that your code
 Customer Engagement provides you a rich set of **client APIs** to interact with form objects and events to control what and when to display on a form.
 
 > [!NOTE]
-> Some client APIs are deprecated in the current release of Dynamics 365 Customer Engagement. Ensure that you are aware of these APIs as you write your client-side code for Customer Engagement. More information: [Deprecated client APIs](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated)
+> Some client APIs are deprecated in the current release of Dynamics 365 for Customer Engagement apps. Ensure that you are aware of these APIs as you write your client-side code for Customer Engagement. More information: [Deprecated client APIs](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated)
 
 ## Get Started
 

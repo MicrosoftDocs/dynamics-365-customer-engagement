@@ -1,22 +1,22 @@
 ---
 title: Special field properties for main forms in PowerApps | MicrosoftDocs
 description: Understand the special field properties for main forms
-Keywords: Main forms; Special field properties; Dynamics 365
+Keywords: Main forms; Special field properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
 ms.author: matp
 manager: kvivek
 ms.date: 04/24/2018
 ms.service: crm-online
 ms.topic: article
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+  - "powerapps"
 ms.assetid: 6ad7e43c-b6a1-48c4-9dfb-ed830142a841
-search.audienceType: 
-  - customizer
-search.app: 
-  - D365CE
 ---
 # Overview of special field properties
 

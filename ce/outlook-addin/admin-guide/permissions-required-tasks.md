@@ -1,19 +1,19 @@
 ---
 title: "Permissions required for Dynamics 365 for Outlook tasks | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 08/28/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 for Customer Engagement apps 
 ms.assetid: 871df72e-d9b4-4bff-89e2-6a3fc96f3be3
 caps.latest.revision: 9
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

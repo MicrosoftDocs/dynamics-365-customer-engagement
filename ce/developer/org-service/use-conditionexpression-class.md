@@ -1,27 +1,27 @@
 ---
-title: "Use the ConditionExpression class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Use the ConditionExpression class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the ConditionExpression class to compare an attribute to a value or set of values by using an operator, such as “equal to” or “greater than”"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "using the ConditionExpression class"
-  - "comparing attributes to a value or set of values by using operators, ConditionExpression class"
-  - "ConditionExpression class, about; properties for; and code examples"
-  - "using operators to compare attributes to a value or set of values, ConditionExpression class"
-  - "ConditionExpression class, comparing attributes to a value or set of values by using operators"
-  - "ConditionExpression class, passing condition expressions to other classes"
+  - using the ConditionExpression class
+  - comparing attributes to a value or set of values by using operators, ConditionExpression class
+  - ConditionExpression class, about; properties for; and code examples
+  - using operators to compare attributes to a value or set of values, ConditionExpression class
+  - ConditionExpression class, comparing attributes to a value or set of values by using operators
+  - ConditionExpression class, passing condition expressions to other classes
 ms.assetid: 68a072f6-e3d9-48f6-9e55-11df3dbd1bf5
 caps.latest.revision: 27
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

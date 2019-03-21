@@ -1,9 +1,9 @@
 ---
-title: "Manage blogs on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Manage blogs on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to manage blogs on a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -25,7 +25,7 @@ search.app:
 
 Learn how to manage blog comments and blog posts both within [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and in your portal.
 
-## Manage blogs in Dynamics 365
+## Manage blogs in Dynamics 365 for Customer Engagement
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users can manage Blog records under the Portals tab after your portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
 
@@ -73,7 +73,7 @@ It is important to note that the way in which many of the content/display-orient
 |   Author Roles   |                                                                                                                               Relationship specifying the Web Roles that grant authorship permission on the blog. Any portal users associated with any of these roles will be granted the permission to create new posts, edit and delete their own posts, and edit the attributes and settings of the blog itself.                                                                                                                               |
 |                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
-## Manage blog posts in Dynamics 365
+## Manage blog posts in Dynamics 365 for Customer Engagement
 
 For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, Blog Posts can be managed by launching the editor for the desired Blog and then navigating to its related Blog Posts.
 

@@ -1,28 +1,32 @@
 ---
-title: "Work with an international audience (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Work with an international audience | MicrosoftDocs"
+ms.custom: 
+ms.date: 01/14/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a3e40322-6hf7-48c9-aaea-bff7675d1378
 caps.latest.revision: 35
-ms.author: "rdubois"
-manager: "brycho"
+author: Mattp123
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
   - D365CE
 ---
 
-# Work with an international audience
-
-> [!NOTE]
-> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon")  [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
+# Work with international features
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+This section describes the customization features available to you for language and translation.
+
+### See also
+[Enable additional languages](enable-additional-languages.md) <br />
+[Translate customized entity and field text into other languages](export-customized-entity-field-text-translation.md) <br />
+[Import translated entity and field text back into an app](import-translated-entity-field-text.md)

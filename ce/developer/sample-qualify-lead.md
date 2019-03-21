@@ -1,25 +1,25 @@
 ---
-title: "Sample: Qualify a lead (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Qualify a lead (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to qualify a lead and create an account, contact, or opportunity."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "sample for qualifying leads"
-  - "qualifying leads, sample"
-  - "creating lead-based accounts; contacts; or opportunities, sample"
-  - "sample that creates lead-based accounts; contacts; or opportunities"
+  - sample for qualifying leads
+  - qualifying leads, sample
+  - creating lead-based accounts; contacts; or opportunities, sample
+  - sample that creates lead-based accounts; contacts; or opportunities
 ms.assetid: fb89b821-ed96-4a24-bae9-3e217f2cf1dc
 caps.latest.revision: 14
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

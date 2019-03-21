@@ -24,7 +24,7 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 > 
 > >   • Microsoft Dynamics CRM; or
 > > 
-> >   • Microsoft Dynamics 365.
+> >   • Microsoft Dynamics 365 for Customer Engagement.
 > 
 >   **b. Third Party Programs.** The software may include third party programs
 >   that Microsoft, not the third party, licenses to you under this agreement.

@@ -1,24 +1,24 @@
 ---
-title: "BusinessUnit entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "BusinessUnit entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "A business unit is a unit of the top-level organization. Business units can be parents of other business units (child business units). The first business unit created for an organization is called the root business unit."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "businessunit entities"
-  - "business unit entities"
-  - "business unit, definition"
+  - businessunit entities
+  - business unit entities
+  - business unit, definition
 ms.assetid: bf38e07e-37a2-419b-bd5e-d259d97a3c70
 caps.latest.revision: 24
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

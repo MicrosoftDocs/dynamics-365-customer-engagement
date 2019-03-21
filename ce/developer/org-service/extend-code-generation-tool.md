@@ -1,17 +1,17 @@
 ---
 title: "Create extensions for the code generation tool | MicrosoftDocs"
 description: "You can extend the functionality of the code generation tool by specifying additional command-line parameters and parameter values."
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "JimDaly"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: JimDaly
 ms.assetid: 00533626-2587-4bb2-ad82-98560024794e
 ms.author: jdaly
 manager: jdaly

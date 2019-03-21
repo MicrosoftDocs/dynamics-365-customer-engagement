@@ -1,26 +1,26 @@
 ---
-title: "Upload and manage document templates in Dynamics 365 | MicrosoftDocs"
+title: "Upload and manage document templates in Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 description: "Learn about manging document templates and exporting data as excel or word files using upload and manage document templates."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: cbe05ed2-dfe4-4128-9df0-658e9110ac76
 caps.latest.revision: 10
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Upload and manage document templates in Dynamics 365
+# Upload and manage document templates in Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 

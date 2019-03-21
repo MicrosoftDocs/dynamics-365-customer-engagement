@@ -8,6 +8,8 @@
 - name: Get started
   href: get-started-sdk.md
   items:
+  - name: 'Download SDK'
+    href: download-dynamics-365-sdk-v9.md
   - name: Programming models
     href: programming-models.md
   - name: Choose your development style
@@ -82,9 +84,6 @@
     items:
     - name: Use Multi-Tenant Server-to-server authentication
       href: use-multi-tenant-server-server-authentication.md
-      items:
-      - name: 'Walkthrough: Multi-tenant server-to-server authentication'
-        href: walkthrough-multi-tenant-server-server-authentication.md
     - name: Use Single-Tenant Server-to-server authentication
       href: use-single-tenant-server-server-authentication.md
 - name: Use Dynamics 365 web services
@@ -179,46 +178,24 @@
     - name: Write plug-ins to extend business processes
       href: write-plugin-extend-business-processes.md
       items:
-      - name: Introduction to the event framework
-        href: introduction-event-framework.md
-        items:
-        - name: Event execution pipeline
-          href: event-execution-pipeline.md
-        - name: Plug-in isolation, trusts, and statistics
-          href: plugin-isolation-trusts-statistics.md
-      - name: Supported messages and entities for plug-ins
-        href: supported-messages-entities-plugin.md
-      - name: Plug-in development
+      - name: On-premises plug-in development
         href: plugin-development.md
         items:
-        - name: Write a plug-in
-          href: write-plugin.md
-        - name: Understand the data context passed to a plug-in
-          href: understand-data-context-passed-plugin.md
-        - name: Handle exceptions in plug-ins
-          href: handle-exceptions-plugins.md
-        - name: Pass data between plug-ins
-          href: pass-data-between-plug-ins.md
         - name: Impersonation in plug-ins
           href: impersonation-plugins.md
         - name: Register and Deploy Plug-Ins
           href: register-deploy-plugins.md
         - name: Debug a plug-In
           href: debug-plugin.md
-        - name: Analyze plug-in performance
-          href: analyze-plugin-performance.md
-        - name: 'Walkthrough: Register a plug-in using the plug-in registration tool'
-          href: walkthrough-register-plugin-using-plugin-registration-tool.md
-        - name: 'Walkthrough: Configure assembly security for an offline plug-in'
-          href: walkthrough-configure-assembly-security-offline-plugin.md
-        - name: 'Sample: Create a basic plug-in'
-          href: sample-create-basic-plugin.md
-        - name: 'Sample: Web access from a sandboxed plug-in'
-          href: sample-web-access-sandboxed-plugin.md
-      - name: Plug-in entities
-        href: plug-in-entities.md
-      - name: Plug-in registration entities
-        href: plug-in-registration-entities.md
+        - name: Access external web resources
+          href: access-web-resources.md
+        - name: Offline plug-in execution
+          href: support-offline-execution.md
+          items:
+          - name: Messages and entities for offline plug-ins
+            href: supported-messages-entities-plugin.md
+          - name: 'Walkthrough: Configure assembly security for an offline plug-in'
+            href: walkthrough-configure-assembly-security-offline-plugin.md
     - name: Automate your business processes in Customer Engagement
       href: automate-business-processes-customer-engagement.md
       items:
@@ -499,7 +476,7 @@
         href: customize-dev/customization-solutions-file-schema.md
     - name: Query and edit an organization theme
       href: customize-dev/query-and-edit-an-organization-theme.md
-    - name: Use editable grids in Dynamics 365
+    - name: Use editable grids
       href: customize-dev/use-editable-grids-dynamics-365.md
   - name: Package and distribute extensions using solutions
     href: package-distribute-extensions-use-solutions.md
@@ -527,8 +504,6 @@
       href: create-export-import-unmanaged-solution.md
     - name: Create, install, and update a managed solution
       href: create-install-update-managed-solution.md
-    - name: Export a solution for a specific Dynamics 365 version
-      href: export-solution-specific-version.md
     - name: Uninstall or delete a solution
       href: uninstall-delete-solution.md
     - name: Create solutions that support multiple languages
@@ -545,19 +520,6 @@
       href: sample-detect-solution-dependencies.md
     - name: Publish your app on AppSource
       href: publish-app-appsource.md
-      items:
-      - name: 'Step 1: Fill the app submission form on AppSource'
-        href: fill-app-submission-form-appsource.md
-      - name: 'Step 2: Register for Microsoft Partner Network account'
-        href: register-microsoft-partner-network.md
-      - name: 'Step 3: Create a managed solution for your app'
-        href: create-solution-app-appsource.md
-      - name: 'Step 4: Create an AppSource package for your app'
-        href: create-package-app-appsource.md
-      - name: 'Step 5: Store your AppSource package on Azure Storage'
-        href: store-appsource-package-azure-storage.md
-      - name: 'Next steps: Submit your app on Cloud Partner Portal'
-        href: next-steps-submit-app-cloud-partner-portal.md
   - name: Create and manage custom business apps using code
     href: create-manage-custom-business-apps-using-code.md
   - name: Extend Outlook Client
@@ -1051,8 +1013,6 @@
   items:
   - name: Administer the deployment using the deployment web service
     href: deployment-service/
-  - name: Disaster recovery
-    href: disaster-recovery-online-customer-engagement.md
   - name: Sample data
     href: sample-data.md
     items:
@@ -1093,3 +1053,5 @@
     href: customization-xml-reference.md
 - name: Developer Guide for Connected Field Service
   href: ../field-service/developer/connected-field-service-developer-guide.md
+- name: Channel Integration Framework Guide for Dynamics 365
+  href: channel-integration-framework/channel-integration-framework.md

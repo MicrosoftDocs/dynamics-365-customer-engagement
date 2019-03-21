@@ -1,20 +1,20 @@
 ---
-title: "Use the workplace calendar (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+title: "Use the workplace calendar (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 20ba9141-2816-4311-ade2-97dafd86e2bf
 caps.latest.revision: 28
-author: "shubhadaj"
-ms.author: "shujoshi"
-manager: "sakudes"
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 search.audienceType: 
   - enduser
 search.app: 
@@ -52,5 +52,6 @@ Use the calendar to view appointments and service activities you need to partici
  You can create an appointment or service activity from a normal calendar as well as a service calendar. More information: [Create or edit an appointment](../basics/create-edit-appointment.md),  
   
 ### See also  
- [Create a service activity without checking for conflicts](../customer-service/create-service-activity-without-checking-conflicts.md)   
- [Schedule a service activity](../customer-service/schedule-service-activity.md)
+[Force an activity into a time slot in the service schedule (Customer Service app)](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md) </br>
+
+[Schedule a service activity (Customer Service app)](../customer-service/schedule-service-activity-cs-app.md)

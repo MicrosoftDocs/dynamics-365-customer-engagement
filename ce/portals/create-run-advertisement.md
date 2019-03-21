@@ -1,9 +1,9 @@
 ---
-title: "Create and run advertisements on a portal in Dynamics 365 | MicrosoftDocs"
+title: "Create and run advertisements on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to create text or image-based advertisements and have them run in multiple placements throughout your site."
 ms.custom: 
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -27,7 +27,7 @@ Create text or image-based ads and have them run in multiple placements througho
 
 ## Create a new advertisement
 
-Ads represent the specific advertisement or image that will appear on the portal at a given time. The Ad entity will be displayed in the location specified by the ad placement. The ad must be associated with an ad placement to appear on the portal. For this demonstration, the out-of-the-box example "Place Holder" ad and "Sidebar Bottom" ad placement will be surfaced in the Company Portal to exhibit basic functionality and to help you gain familiarity before you create more complex ads. Any of the starter sites can be used in place of the Company Portal. However, note that the Liquid Templates used for this demonstration call on the "Sidebar Bottom" ad placement name.
+Ads represent the specific advertisement or image that will appear on the portal at a given time. The Ad entity will be displayed in the location specified by the ad placement. The ad must be associated with an ad placement to appear on the portal. For this demonstration, the out-of-the-box example Place Holder ad and Sidebar Bottom ad placement will be surfaced in the Company Portal to exhibit basic functionality and to help you gain familiarity before you create more complex ads. Any of the starter sites can be used in place of the Company Portal. However, note that the Liquid Templates used for this demonstration call on the Sidebar Bottom ad placement name.
 
 1. Go to **Portals** > **Ads**
 2. Open the **Placeholder** ad associated with the **Company Portal** website (this can be done with the starter site of your choosing by selecting **+New** and creating an identical ad below the Website). 
@@ -39,7 +39,7 @@ Within the Ad form, you specify a **Name** to describe the ad, the **Website** w
 ## Create a new advertisement placements
 
 1. Go to **Portals** > **Ad Placements**.
-2. Select the Web Template Field to select a Web Template. For demonstration purposes, the "Random Ad" Web Template was chosen.
+2. Select the Web Template Field to select a Web Template. For demonstration purposes, the Random Ad Web Template was chosen.
 3. On the rightmost corner of the Ads grid, select **+** to select the ad created in the previous step.
 4. Select the **Save** icon in the lower-right corner
 
@@ -63,12 +63,12 @@ This template renders an ad by name, or a random ad from an ad placement. Curren
 ```
 {% include 'ad' ad_name:'Name' %}
 {% include 'ad' ad_placement_name:'Placement Name' %}
-1. {% include 'Random Ad' placement:ads.placements["Sidebar Bottom"] %}
+1. {% include 'Random Ad' placement:ads.placements[Sidebar Bottom] %}
 ```
 OR 
 
 ```
-1. {% include 'Ad Template' ad:ads{"Retail Ad - Go Greene"] %}
+1. {% include 'Ad Template' ad:ads{Retail Ad - Go Greene] %}
 ```
 
 
@@ -97,7 +97,7 @@ The Ad Entity has the following attributes:
 
 ### See also
 
-[Configure a Dynamics 365 portal](configure-portal.md)  
+[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Gather feedback by using polls on a portal](gather-feedback-poll.md)  

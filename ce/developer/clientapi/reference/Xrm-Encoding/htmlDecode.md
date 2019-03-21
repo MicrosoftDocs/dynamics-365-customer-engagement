@@ -2,13 +2,13 @@
 title: "htmlDecode| MicrosoftDocs"
 description: "The Client API method converts a string that has been HTML-encoded into a decoded string."
 ms.date: 05/09/2018
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 4ef7160b-ac01-4d08-8a98-f8e3012ef20b
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "kvivek"
+author: KumarVivek
+ms.author: kvivek
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 

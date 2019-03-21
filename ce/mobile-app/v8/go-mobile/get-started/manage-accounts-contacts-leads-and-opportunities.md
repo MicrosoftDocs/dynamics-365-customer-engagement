@@ -1,24 +1,24 @@
 ---
 title: "Manage accounts, contacts, leads, and opportunities in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
-ms.date: "2016-11-01"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 2016-11-01
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: "mduelae"
+author: mduelae
 ms.assetid: e9db0517-cd29-4764-8c0a-6aef5a23f8ee
 caps.latest.revision: 40
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer
@@ -58,4 +58,4 @@ search.app:
  [!INCLUDE[cc_privacy_moca_user_content_and_location](../../../../includes/cc-privacy-moca-user-content-and-location.md)]  
   
 ### See also  
- [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

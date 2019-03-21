@@ -3,20 +3,19 @@ title: "Walkthrough: Use the generic listener adapter for CTI event routing | Mi
 description: "Learn about using the CTI Desktop Manager and generic listener in to expose the CTI events as screen pops in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: ""
+ms.date: 01/25/2019
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: d6013727-b00e-4671-97c6-f0c0600da980
-caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -32,14 +31,14 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
  In this walkthrough, you’ll:  
   
-- Search for a contact record in the sample [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data based on an email address specified in the sample CTI Call Tester application.  
+- Search for a contact record in the sample [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps data based on an email address specified in the sample CTI Call Tester application.  
   
 - Create a window navigation rule to display the matching record in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
 <a name="Prereq"></a>   
 ## Prerequisites  
   
-- [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.5.2  
+- [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.6.2  
   
 - [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application; required for testing the hosted control.  
   
@@ -50,9 +49,9 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
 <a name="step1"></a>   
 ## Step 1: Configure a CTI Desktop Manager hosted control in Unified Service Desk  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings** > **Unified Service Desk**.  
   
 3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
   
@@ -78,7 +77,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
 <a name="step2"></a>   
 ## Step 2: Test if the CTI events are raised in Unified Service Desk  
   
-1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. After the client is up, choose **Settings**![Gear button](../unified-service-desk/media/crm-ua-selection-rule-gear.gif "Gear button") in the top-right corner to display the debugger control, and then choose **Clear Debug Output**![Delete button](../unified-service-desk/media/crm-ua-delete.gif "Delete button") to clear the desktop.  
+1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance. After the client is up, choose **Settings**![Gear button](../unified-service-desk/media/crm-ua-selection-rule-gear.gif "Gear button") in the top-right corner to display the debugger control, and then choose **Clear Debug Output**![Delete button](../unified-service-desk/media/crm-ua-delete.gif "Delete button") to clear the desktop.  
   
    ![Unified Service Desk client](../unified-service-desk/media/usd-usdclientwithdebugger.png "Unified Service Desk client")  
   
@@ -94,7 +93,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
 ## Step 3: Define a window navigation rule to route the CtiLookUpRequest  
  Create a window navigation rule to create a session if a match is found, and then display the matching contact record in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
   
 2. Navigate to the advanced find for contacts, and create a query where you search for active contacts where the email, email address 2, or email address 3 field equals a certain value, for example, someone_c@example.com.  
   
@@ -102,7 +101,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
 3. Click **Download Fetch XML** to save the query as `FetchXML`.  
   
-4. On the nav bar, choose **Microsoft Dynamics 365** > **Settings** > **Unified Service Desk** > **Window Navigation Rules**.  
+4. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings** > **Unified Service Desk** > **Window Navigation Rules**.  
   
 5. Click **New**, and on the **New Window Navigation Rule** window, specify the following values.  
   
@@ -165,7 +164,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
     |Field|Value|  
     |-----------|-----------|  
     |Name|CTIOpenContact|  
-    |Hosted Control|Dynamics 365 Global Manager|  
+    |Hosted Control|Dynamics 365 for Customer Engagement apps Global Manager|  
     |Action|Open_CRM_Page|  
     |Data|Id=[[$Context.Id]]<br />LogicalName=[[$Context.LogicalName]]|  
   
@@ -177,7 +176,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
     1. In the **Destination** field, choose **Tab** to display the matching contact record in a tab.  
   
-    2. In the **Target Tab** field, choose the **Contact** hosted control. The **Contact** hosted control was created when you deployed a sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server using the [!INCLUDE[pn_package_deployer_tool](../includes/pn-package-deployer-tool.md)]. For more information, see [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
+    2. In the **Target Tab** field, choose the **Contact** hosted control. The **Contact** hosted control was created when you deployed a sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps server using the [!INCLUDE[pn_package_deployer_tool](../includes/pn-package-deployer-tool.md)]. For more information, see [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   
     3. In the **Show Tab** field, choose the **Contact** hosted control  
   
@@ -188,7 +187,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
 <a name="test"></a>   
 ## Test your CTI adapter  
   
-1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. After the client is up, choose **Settings**![Gear button](../unified-service-desk/media/crm-ua-selection-rule-gear.gif "Gear button") in the top-right corner to display the debugger control, and then choose **Clear Debug Output**![Delete button](../unified-service-desk/media/crm-ua-delete.gif "Delete button") to clear the desktop.  
+1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance. After the client is up, choose **Settings**![Gear button](../unified-service-desk/media/crm-ua-selection-rule-gear.gif "Gear button") in the top-right corner to display the debugger control, and then choose **Clear Debug Output**![Delete button](../unified-service-desk/media/crm-ua-delete.gif "Delete button") to clear the desktop.  
   
    ![Unified Service Desk client](../unified-service-desk/media/usd-usdclientwithdebugger.png "Unified Service Desk client")  
   
@@ -198,7 +197,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
 3. The matching contact record is displayed in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-   ![Matching Dynamics 365 contact record displayed in a session](../unified-service-desk/media/usd-testctiadapter02.png "Matching Dynamics 365 contact record displayed in a session")  
+   ![Matching Dynamics 365 for Customer Engagement apps contact record displayed in a session](../unified-service-desk/media/usd-testctiadapter02.png "Matching Dynamics 365 for Customer Engagement apps contact record displayed in a session")  
   
 4. Check the Debugger hosted control to view the events that got raised as a result of the CTI search. Also check out the **Data Parameters** tab to view the context information in the `$Context` variable and CTI information under the `CTI` variable.  
   

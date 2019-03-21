@@ -1,13 +1,13 @@
 ---
-title: "GridAttribute (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "GridAttribute (Client API reference) in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.date: 11/10/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8139c622-e4d9-478f-9510-414d140e5556
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -23,8 +23,8 @@ GridAttribute represents the data in the cell of an editable grid, and contains 
 
 GridAttribute also supports the **controls** collection for attributes of a selected grid row, which provides methods to work with a collection of cells associated with the attribute. Each cell ([GridCell](gridcell.md)) of a selected grid row is analogous to a control on a form that is tied to an attribute in an editable grid. See [Collections (Client API reference)](../collections.md) for information on the methods available to access data in a collection.
 
->[!TIP]
->For performance reasons, a row (record) in an editable grid is not editable until the record is selected. Users must select a single record in a grid to edit it. Once a record is selected in an editable grid, Dynamics 365 internally evaluates a number of things including user access to the record, whether the record is active, and field validations to ensure that data security and validity are honored when you edit data. Consider using the [OnRecordSelect](../events/grid-onrecordselect.md) event with the [getFormContext](../executioncontext/getFormContext.md) method to access records in the grid that are in the editable state.
+> [!TIP]
+> For performance reasons, a row (record) in an editable grid is not editable until the record is selected. Users must select a single record in a grid to edit it. Once a record is selected in an editable grid, Dynamics 365 for Customer Engagement internally evaluates a number of things including user access to the record, whether the record is active, and field validations to ensure that data security and validity are honored when you edit data. Consider using the [OnRecordSelect](../events/grid-onrecordselect.md) event with the [getFormContext](../executioncontext/getFormContext.md) method to access records in the grid that are in the editable state.
 
 ## Methods
 
@@ -48,5 +48,3 @@ GridAttribute supports the following methods for attributes of a selected grid r
 [Grids and subgrids in Customer Engagement](../grids.md)
 
 [Controls collection](../attributes/controls-collection.md)
-
-

@@ -1,20 +1,20 @@
 ---
-title: "Add resources to a site for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+title: "Add resources to a site for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+author: jimholtz
 ms.assetid: 71cdcd4d-09f8-48e0-b15a-e860dd325169
 caps.latest.revision: 14
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Add resources to a site
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 After you create a site, you can add resources such as users, equipment, or facilities to it.  
   
@@ -44,5 +44,5 @@ After you create a site, you can add resources such as users, equipment, or faci
 8. Close the site record.  
   
 ### See also  
- [Set up a Dynamics 365 organization](../admin/set-up-a-dynamics-365-organization.md)   
+ [Set up a Dynamics 365 for Customer Engagement apps organization](../admin/set-up-a-dynamics-365-organization.md)   
  [Change regional and language options for your organization](regional-other-business-management-settings.md)

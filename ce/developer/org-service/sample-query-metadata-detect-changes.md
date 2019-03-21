@@ -1,13 +1,13 @@
 ---
-title: "Sample: Query metadata and detect changes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Query metadata and detect changes (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to use the classes and methods in the Query and Metadata namespaces to query for specific items of metadata and then track changes to the organization metadata. "
-keywords: ""
+keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1df1931b-51a2-4992-9985-cb6da7605ed5
 author: JimDaly
 ms.author: jdaly
@@ -27,7 +27,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the sample: [Query metadata and detect changes](https://code.msdn.microsoft.com/Sample-for-query-metadata-98848365).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. Download the sample: [Query metadata and detect changes](https://code.msdn.microsoft.com/Sample-for-query-metadata-98848365).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

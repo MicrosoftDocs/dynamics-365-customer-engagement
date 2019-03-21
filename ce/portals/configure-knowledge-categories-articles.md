@@ -1,9 +1,9 @@
 ---
-title: "Configure and manage category for knowledge articles for a portal in Dynamics 365 | MicrosoftDocs"
+title: "Configure and manage category for knowledge articles for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Instructions to create and manage a category for knowledge article."
 ms.custom: 
   - dyn365-portal
-ms.date: 06/18/2018
+ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -1,26 +1,26 @@
 ---
-title: "Order results using entity attributes with LINQ (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Order results using entity attributes with LINQ (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use lookup or OptionSet (Picklist) attributes to order results within a LINQ query"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "LINQ queries, using OptionSet (Picklist) attributes to order results in LINQ queries"
-  - "LINQ queries, ordering query results by using entity attributes with LINQ"
-  - "LINQ queries, using a lookup value in an order by clause (example of)"
-  - "arranging results in order by using entity attributes with LINQ"
-  - "ordering results by using entity attributes with LINQ"
+  - LINQ queries, using OptionSet (Picklist) attributes to order results in LINQ queries
+  - LINQ queries, ordering query results by using entity attributes with LINQ
+  - LINQ queries, using a lookup value in an order by clause (example of)
+  - arranging results in order by using entity attributes with LINQ
+  - ordering results by using entity attributes with LINQ
 ms.assetid: 72904866-87bd-4f4c-9fec-695e6f47a6b2
 caps.latest.revision: 24
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

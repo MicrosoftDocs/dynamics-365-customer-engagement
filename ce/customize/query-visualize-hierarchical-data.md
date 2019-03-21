@@ -1,22 +1,22 @@
 ---
-title: "Query and visualize hierarchical data with PowerApps | MicrosoftDocs"
+title: "Query and visualize hierarchical data | MicrosoftDocs"
 description: "Learn how to query and visualize heirarchical related data"
-ms.custom: ""
-ms.date: 04/17/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/08/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 0cf62817-5ff5-40bb-ad17-e1f6b0921720
 caps.latest.revision: 42
-ms.author: "matp"
-manager: "kvivek"
+ms.author: matp
+manager: kvivek
 search.audienceType: 
   - customizer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 ---
 # Query and visualize hierarchically related data
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can get valuable business insights by visualizing hierarchically related data. The hierarchical modelling and visualization capabilities give you a number of benefits:  
   
@@ -38,10 +38,9 @@ For some entities, such as account and user, the visualizations are provided out
   
 <a name="BKMK_Querydata"></a>   
 ## Query hierarchical data  
- With [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], hierarchical data structures are supported by self-referential one-to-many (1:N) relationships of the related records. In the past, to view hierarchical data, you had to iteratively query for the related records. Presently, you can query the related data as a hierarchy, in one step. You’ll be able to query records using the **Under** and **Not Under** logic. The **Under** and **Not Under** hierarchical operators are exposed in Advanced Find and the workflow editor. For more information about how to use these operators, see [Configure workflow steps](../customize/configure-workflow-steps.md). For more information about Advanced Find, see [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)  
+ Hierarchical data structures are supported by self-referential one-to-many (1:N) relationships of the related records. In the past, to view hierarchical data, you had to iteratively query for the related records. Presently, you can query the related data as a hierarchy, in one step. You’ll be able to query records using the **Under** and **Not Under** logic. The **Under** and **Not Under** hierarchical operators are exposed in Advanced Find and the workflow editor. For more information about how to use these operators, see [Configure workflow steps](../customize/configure-workflow-steps.md). For more information about Advanced Find, see [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)  
   
  The following examples illustrate various scenarios for querying hierarchies:  
-  
  Query account hierarchy  
   
  ![Query accounts in the account hierarchy](../customize/media/query-accounts.png "Query accounts in the account hierarchy")  
@@ -80,7 +79,7 @@ For some entities, such as account and user, the visualizations are provided out
   
 > [!TIP]
 >  If an entity can be enabled for a hierarchy:  
->  In solution explorer, expand the entity that you want. You will see the entity component called **Hierarchy Settings**. The entities that can’t be enabled for a hierarchy don’t have this component, with the exception of the Dynamics 365 customer engagement Sales Territory entity. Although **Hierarchy Settings** appears for the Sales Territory entity, the entity can’t be enabled for a hierarchy.  
+>  In solution explorer, expand the entity that you want. You will see the entity component called **Hierarchy Settings**. The entities that can’t be enabled for a hierarchy don’t have this component, with the exception of the Dynamics 365 for Customer Engagement apps Sales Territory entity. Although **Hierarchy Settings** appears for the Sales Territory entity, the entity can’t be enabled for a hierarchy.  
   
  Important things to remember when you create visualizations:  
   
@@ -115,5 +114,4 @@ For some entities, such as account and user, the visualizations are provided out
  ![Widget's tree and tiles views](../customize/media/widget-tree-tiles.png "Widget's tree and tiles views")  
   
 ### See also  
- [Video: Hierarchical Security Modelling](http://www.youtube.com/watch?v=kx5So32DrCo&index=10&list=PLC3591A8FE4ADBE07)   
- [Video: Hierarchy Visualization](http://www.youtube.com/watch?v=_dGBE6icLNw&index=9&list=PLC3591A8FE4ADBE07)
+[Create 1:N (one-to-many) or N:1 (many-to-one) relationships](create-and-edit-1n-relationships.md)

@@ -1,27 +1,27 @@
 ---
-title: "CampaignItem intersect entity metadata (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "CampaignItem intersect entity metadata (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The CampaignItem intersect entity is the intersect table for several many-to-many relationships for the Campaign entity"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "campaign entity, campaignitem intersect table"
-  - "campaignitem intersect entity, effect of early- and late-bound types on"
+  - campaign entity, campaignitem intersect table
+  - campaignitem intersect entity, effect of early- and late-bound types on
   - "campaignitem intersect entity, many-to-many (N:N) relationships for the campaign entity"
   - "many-to-many (N:N) relationships, for the campaignitem intersect entity"
-  - "intersect entity metadata, campaignitem"
-  - "campaignitem intersect entity, table of attribute metadata"
+  - intersect entity metadata, campaignitem
+  - campaignitem intersect entity, table of attribute metadata
 ms.assetid: 23835406-e515-4240-a10b-3d5df12542f5
 caps.latest.revision: 18
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

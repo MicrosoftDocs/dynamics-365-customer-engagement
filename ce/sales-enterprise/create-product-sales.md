@@ -1,31 +1,25 @@
 ---
 title: "Create a product (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Use products in Dynamics 365 for Sales to define the products or services that your organization offers."
-keywords: "product, service"
+keywords: product, service
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: 
+ms.service:
+  - dynamics-365-sales
+ms.custom:
   - dyn365-sales
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to:
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 8847977e-3768-4859-bce4-821c259aa79a
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 22
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Set up products (Sales and Sales Hub)
@@ -34,7 +28,7 @@ search.app:
 
 Products are the backbone of your business. They can be physical products or services—whatever your organization sells. Your sales reps use the products you create in [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] to generate sales quotes, marketing campaigns, orders, and invoices. Your customer service reps might also use them when they create customer service cases.  
 
-## Create a product (Sales Hub app)
+## Create a product (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]
 
@@ -88,7 +82,7 @@ Products are the backbone of your business. They can be physical products or ser
 > Previewing the properties of product is currently not supported in the Sales Hub app.
 
 
-## Create a product (Sales app)
+## Create a product (Sales)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -123,7 +117,7 @@ Products are the backbone of your business. They can be physical products or ser
   
 7. In the **Price List Items** section, select the **Add a Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and create a price list item for each unit the product is available in. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
   
-8. In the **Default price list** box, select a default price list. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] uses this price list for calculations when the associated price list in the opportunity or order for the product does not contain a price definition of the product.  
+8. In the **Default price list** box, select a default price list. This price list is used for calculations when the associated price list in the opportunity or order for the product does not contain a price definition of the product.  
   
    > [!NOTE]
    >  A price list will be available for selection only when the product you're creating is added to it as a price list item (as described in **Step 7**).  

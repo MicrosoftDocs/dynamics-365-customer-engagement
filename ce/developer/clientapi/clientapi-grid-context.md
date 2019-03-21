@@ -1,14 +1,14 @@
 ---
-title: "Client API grid context in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Client API grid context in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 08/29/2018
-ms.service: "crm-online"
-ms.topic: "conceptual"
+ms.service: crm-online
+ms.topic: conceptual
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f884d7d4-31e6-4080-acd9-493e81e6b278
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 

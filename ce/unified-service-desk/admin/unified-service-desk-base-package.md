@@ -1,21 +1,21 @@
 ---
-title: "Unified Service Desk for Dynamics 365 Customer Engagement Base package | MicrosoftDocs"
+title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps Base package | MicrosoftDocs"
 description: "Overview of the base sample application."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: ""
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
 ms.assetid: 5ee40b52-6c52-48ec-b3f1-7c2a839e7285
 caps.latest.revision: 19
 author: kabala123
@@ -28,7 +28,7 @@ search.app:
   - D365USD
 ---
 # Base sample application package
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
   
  With the Unified Service Desk Base sample application package, the following components are installed:  
   
@@ -36,7 +36,7 @@ search.app:
   
 - Unified Service Desk Solution  
   
-- Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and customizations  
+- Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps and customizations  
   
 > [!IMPORTANT]
 >  The sample applications are not supported for production use.  

@@ -1,13 +1,13 @@
 ---
-title: "setFormEntityName (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "setFormEntityName (Client API reference) in Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.date: 12/04/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service: crm-online
+ms.topic: reference
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: ed0704e3-a6e8-4003-b092-8d1b60ce7306
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

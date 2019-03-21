@@ -1,12 +1,12 @@
 ---
-title: Understanding Cases and SLA in Customer Service Hub in Dynamics 365 | Microsoft Docs
-description: Understand Cases and SLA in Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Cases; SLA; Customer Service Hub; Customer Service;  Microsoft Dynamics 365; Create a case; Manage a case;  Merge cases; Resolve a case; Track SLA details with Timer Control; Manage activities from the Timeline; Convert a case to a Knowledge article; Create and manage parent and child cases
+title: Understanding Cases and SLA in Customer Service Hub in Dynamics 365 for Customer Engagement | Microsoft Docs
+description: Understand Cases and SLA in Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
+keywords: Cases; SLA; Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement; Create a case; Manage a case;  Merge cases; Resolve a case; Track SLA details with Timer Control; Manage activities from the Timeline; Convert a case to a Knowledge article; Create and manage parent and child cases
 author: anjgupta
-applies_to: Dynamics 365 (online)
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
-ms.date: 06/01/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
@@ -20,7 +20,7 @@ search.app:
   - D365CS
 ---
 
-# Work with Cases and manage SLAs
+# Work with cases and manage SLAs
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -39,10 +39,10 @@ Watch this video to learn more about case management in the Customer Service Hub
 2. In the Customer Service Hub sitemap, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
 
    - The **My Active Cases** view is displayed. You can switch between case views using the drop-down.
-   - Select **Show Chart** in the command bar to see the chart view.
-   - Select **Open Dashboards** in the command bar to directly open the entity dashboard. To switch back to views, select **Open Views**.
+   - Select **Show Chart** on the command bar to see the chart view.
+   - Select **Open Dashboards** on the command bar to directly open the entity dashboard. To switch back to views, select **Open Views**.
 
-   If you select a case record from the case view, you see these additional options in the command bar:
+   If you select a case record from the case view, you see these additional options on the command bar:
 
    - Select **Apply Routing Rule** to apply a routing rule on a selected case.
    - Select **Assign** to assign a case to another owner.
@@ -102,20 +102,22 @@ Watch this video to learn more about case management in the Customer Service Hub
     - On the command bar: 
        - Select **Save and Route** to  route the case by applying routing rules
        - Select **Create Child Case** to create a child case
-       - Select **...** in the command bar to explore more options for the case.
+       - Select **...** on the command bar to explore more options for the case.
 
     ![completed-case](media/completed-case.png "Completed case form")
 
+> [!NOTE]
+> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customize/edit-entities.md#enable-or-disable-entity-options).
 
 ## Track SLA details with Timer Control  
- You or the CSR working on the case can see the SLA details right on the case form.   The following table explains what happens when an enhanced SLA applies to a case form. 
+You or the CSR working on the case can see the SLA details right on the case form. See the below section to know what happens when an  SLA is applied to a case form. 
 
 ### Case form with Applicable SLA applied  
 
 Only the failure time is tracked and saved on the case record. You can ask your system administrator or customizer to add a timer to the case form. The timer shows the time remaining to meet the SLA or the time elapsed since the SLA failed. 
 
 > [!NOTE]
-> It is recommended to use only Enhanced SLA as Standard SLA is deprecated. For more information, see [Important changes coming in Dynamics 365 Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> It is recommended to use only Enhanced SLA as Standard SLA is deprecated. For more information, see [Important changes coming in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
 
 ### Case form with Enhanced SLA applied 
 When an enhanced SLA is applied to a case, a related **SLA KPI Instance** record is created for each SLA KPI that is tracked for that case. On the **Summary** tab of the case record, you’ll see a timer that shows the time remaining to meet each SLA KPI.<br /><br /> ![Timer showing time left to achieve SLA KPI](../customer-service/media/v9-1-enhancedslatimer-case-form.png "Timer showing time left to achieve SLA KPI")<br /><br />When a service rep puts a case on hold, the status of the SLA KPI Instance is set to **Paused**. You can see the time for which a case was on hold and the last time the case was put on hold. These details are not available on the case form by default, but your system customizer can add these fields on the case form for you. 
@@ -137,9 +139,11 @@ Similarly, the status of the SLA KPI instance is updated when the first response
 - Has succeeded
 
   ![sla-succeeded](media/sla-succeeded.png "timer control succeeded")
+ 
 
 > [!NOTE]
-> The SLA timer continues to run once it is triggered or un-paused. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time. 
+> - The SLA timer continues to run once it is triggered or un-paused. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time.  
+> - The timer control auto-refreshes for **Pause** and **Resume** states to show the updated SLA. For all other states, you must refresh the page to view the refreshed SLA. Select **...** and select **Refresh** on the command bar to refresh the SLA timer control.
 
 You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Apply SLA on demand](define-service-level-agreements.md#apply-sla-on-demand)
 
@@ -162,51 +166,18 @@ To know more about adding a timer control to a case form, see [Add a timer contr
 
 
 ## See and manage related records in the Related section  
- The **Related** section (also known as Reference panel) in a case record provides you quick access to important information related to the selected case that would help you in solving the case. For more information, see [Related section](customer-service-hub-user-guide-basics.md#related-section).
+ The **Related** section (also known as Reference panel) in a case record provides you with quick access to important information related to the selected case that would help you resolve the case. For more information, see [Related section](customer-service-hub-user-guide-basics.md#related-section).
 
 ### See recent cases and entitlements  
- See **Recent Cases and Entitlement** to view:  
+See **Recent Cases and Entitlements** to view:  
 
 -   A list of recent cases for the customer associated with the current case.  
 
 -   A list of entitlements for the customer associated with the current case.  
 
+### Search knowledge articles in the Knowledge Base Search control
 
-### Search for knowledge articles  
- The Knowledge Base Search lets you search for relevant knowledge articles to resolve a case. Select the **Knowledge Base Search** search box to see search results automatically populated based on a field your administrator configured in the **Knowledge Base search** control properties. For a case, this is the title of the case record.  
-
-**Knowledge Base Search** in the Customer Service Hub comes with an improved search functionality. Knowledge Base is enabled for relevance search in the Global search UI. Relevance search functionality utilizes Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes.
-
-> [!IMPORTANT]
->  The knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator.  
-
-  ![knowledge-article-search](media/case-form-search-rp.png "Knowledge article search") 
-
-- Type a different keyword to search for other knowledge articles. The following fields of a knowledge article are searched for the keywords that you type: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.  
-
-- To see knowledge articles in specific states, use the filters. You can filter search results to see all draft, published, or approved articles.    
-
-- To choose how you want to sort your search results, select **Sort by**. You can sort the knowledge articles on relevance, number of views, newest first, or oldest first.  
-
-- Select the article title to see its full content. The article opens inline and you can scroll to read the complete article. Select the back arrow to come back to the list view. 
-
-- To associate the knowledge article to the current case, select the  **Link the KB Article** button ![Select link the knowledge article to the case](../customer-service/media/v8-link-kb-article.png "Select to link the knowledge article to the case").  
-
-   You can also dissociate the article from the case by choosing the **Unlink the knowledge article from the current record** button ![Unlink knowledge article from current record button in Dynamics 365](../customer-service/media/unlink-article.png "Unlink knowledge article from current record button in Dynamics 365").  
-
-- To email the article directly, select the **Email** button. 
-
-- To send a link of the knowledge article in an email, select the **Quick Actions** button ![Send link to the knowledge article in email](../customer-service/media/v8-email-link.png "Send link to the knowledge article in email"), and then select **Email Link**. An email form opens with the link to the article populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**. 
-
-   If the article is published, an external link is copied to the email body.  
-
-  > [!NOTE]
-  >  This action is available only for Published and Expired articles.  
-
-- To copy the external URL of the article so you can share it with your customers over channels like chat or email, select the **Copy Link** button ![Copy knowledge article link button Dynamics 365](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365").  
-
-  > [!NOTE]
-  >  This option is available only if your organization is using an external portal to publish the knowledge articles and your administrator has selected the **Use an external portal** check box in the **Embedded Knowledge search** setup. If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available.  
+Search for relevant knowledge articles to quickly resolve a case. For more information, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
 
 
 ## Convert a case to a Knowledge article  
@@ -428,6 +399,8 @@ Your system administrator can enable entities other than case for SLA. For the C
 
 > [!NOTE]
 >  SLAs can only be created in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application. However, you can ask your system administrator or customizer to add a timer to your interactive experience forms to track the SLA KPI details in the Customer Service Hub.  
+
+To know more about how to create SLAs, see [Define Service Level Agreements (SLAs)](define-service-level-agreements.md).
 
 ### See also
 

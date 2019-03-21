@@ -1,27 +1,27 @@
 ---
-title: "xRM messages in the Organization service (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "xRM messages in the Organization service (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the data messages available in the xRM namespace"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "Microsoft.Xrm.Sdk.Messages namespace, list of data and metadata messages in"
-  - "Xrm namespace, list of data and metadata messages in"
-  - "Xrm messages in the organization service"
-  - "IOrganizationService web service, Xrm messages in"
-  - "Xrm messages in the IOrganizationService"
-  - "organization service web service, Xrm messages in"
+  - Microsoft.Xrm.Sdk.Messages namespace, list of data and metadata messages in
+  - Xrm namespace, list of data and metadata messages in
+  - Xrm messages in the organization service
+  - IOrganizationService web service, Xrm messages in
+  - Xrm messages in the IOrganizationService
+  - organization service web service, Xrm messages in
 ms.assetid: f392ebae-4012-4861-a335-42e1d9243409
 caps.latest.revision: 39
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -107,6 +107,6 @@ The <xref:Microsoft.Xrm.Sdk.Messages> namespace supports the core messages used 
 
 ### See also  
  [Web Services: IOrganizationService](use-organization-service-read-write-data-metadata.md)   
- [Dynamics 365 Messages in the Organization Service](organization-service-messages.md)   
+ [Dynamics 365 for Customer Engagement apps Messages in the Organization Service](organization-service-messages.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Xrm.Sdk.Messages>

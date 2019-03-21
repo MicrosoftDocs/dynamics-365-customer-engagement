@@ -1,20 +1,20 @@
 ---
-title: "Sample: Quick start for XRM Tooling API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Quick start for XRM Tooling API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: ""
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 060d45bb-b7fd-48bd-ab8f-629c1b8bc1dc
 caps.latest.revision: 20
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The QuickStart sample is a [!INCLUDE[pn_Microsoft_.Net_Framework](../../includes/pn-microsoft-net-framework.md)] managed code sample that shows how to connect to a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement instance by using the XRM Tooling APIs, and perform basic create, update, retrieve, and delete operations on an entity. For more information about XRM Tooling, see [Build windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md).
+The QuickStart sample is a [!INCLUDE[pn_Microsoft_.Net_Framework](../../includes/pn-microsoft-net-framework.md)] managed code sample that shows how to connect to a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps instance by using the XRM Tooling APIs, and perform basic create, update, retrieve, and delete operations on an entity. For more information about XRM Tooling, see [Build windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md).
 
 Download the sample: [Work with XRM Tooling API](https://code.msdn.microsoft.com/XRM-Tooling-Sample-24a5c55c)
 
@@ -33,7 +33,7 @@ Download the sample: [Work with XRM Tooling API](https://code.msdn.microsoft.com
   
 ## Requirements
 
- This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].
+ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps.
 
 ## Demonstrates
 
@@ -173,7 +173,7 @@ namespace QuickStartXRMToolingWPFClient
             updateData.Add("telephone1", new CrmDataTypeWrapper("555-0161", CrmFieldType.String));   
             bool updateAccountStatus = _ctrl.CrmConnectionMgr.CrmSvc.UpdateEntity("account","accountid",_accountId,updateData);  
   
-            // Validate if the the account record was updated successfully, and then display the updated information  
+            // Validate if the account record was updated successfully, and then display the updated information  
             if (updateAccountStatus == true)  
             {  
                 UpdateStatus("***************************************");  
@@ -257,4 +257,4 @@ namespace QuickStartXRMToolingWPFClient
 
 [Use the XRM Tooling common login control](use-xrm-tooling-common-login-control-client-applications.md)<br />
 [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)<br />
-[Tutorials for Learning About Dynamics 365 Development](../tutorials-resources-sdk.md)<br />
+[Tutorials for Learning About Dynamics 365 for Customer Engagement apps Development](../tutorials-resources-sdk.md)<br />

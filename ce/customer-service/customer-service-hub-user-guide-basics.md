@@ -1,12 +1,12 @@
 ---
-title: Learn the basics of the Customer Service Hub in Dynamics 365 | Microsoft Docs
-description: Learn the basics of the Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Basics of the Customer Service Hub; Customer Service; Microsoft Dynamics 365; Customer Service Hub Application requirements; Understand the sitemap navigation; Quickly create new records; Business processes; Related section; Queues
+title: Learn the basics of the Customer Service Hub in Dynamics 365 for Customer Engagement | Microsoft Docs
+description: Learn the basics of the Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
+keywords: Basics of the Customer Service Hub; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Customer Service Hub Application requirements; Understand the sitemap navigation; Quickly create new records; Business processes; Related section; Queues
 author: anjgupta
-applies_to: Dynamics 365 (online)
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
-ms.date: 06/01/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
@@ -27,10 +27,7 @@ search.app:
 The Customer Service Hub’s intuitive interface brings together vital information in one place, so you can focus on the things that matter.  
 
 ## Customer Service Hub application requirements  
- Here’s a list of operating systems and browsers that are supported by the Customer Service Hub:  
-  
-- **Desktop operating system**  
-    - Windows 10 (for Knowledge management on Unified Interface)
+ Here’s a list of browsers and mobile versions that are supported by the Customer Service Hub:  
   
 - **Browsers** 
     - Google Chrome
@@ -56,7 +53,7 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
    ![open-csh](media/open-csh.png "Open the Customer Service Hub")
  
   
-- In the Dynamics 365 sitemap, navigate to the app switcher and then select **Customer Service Hub**.
+- In the Dynamics 365 for Customer Engagement sitemap, navigate to the app switcher and then select **Customer Service Hub**.
 
   ![open-csh-sitemap](media/open-csh-sitemap.png "Customer Service Hub sitemap")
   
@@ -64,9 +61,9 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 To access the Customer Service Hub app on a mobile device:
 
-- Install the Dynamics 365 mobile app. 
+- Install the Dynamics 365 for Customer Engagement mobile app. 
   
-  To install the Dynamics 365 mobile app, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
+  To install the Dynamics 365 for Customer Engagement mobile app, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
 - From the MyApps page, select **Customer Service Hub**.
 
    ![choose-on-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
@@ -86,21 +83,19 @@ To access the Customer Service Hub app on a mobile device:
 
 The Customer Service Hub comes with an enhanced sitemap to enable easy navigation of the interface. To learn more, see [Understand the sitemap navigation](#understand-the-sitemap-navigation).
   
-Any record types that are enabled for mobile are also available for use in the Customer Service Hub. However, these records are read-only.  
-  
 > [!NOTE]
-> The navigation bar for the Customer Service Hub is different from the navigation bar in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application.   
+> The navigation bar for the Customer Service Hub is different from the navigation bar in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application. </br> Any record types that are enabled for mobile are also available for use in the Customer Service Hub. However, these records are read-only.  
 
 
 ## Understand the sitemap navigation
   
-1.  On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **Service**, and then select an entity record type.  
+1. Select the sitemap icon ![Sitemap](media/sitemap-icon.png). Select **Service**, and then select an entity record type.
   
     ![navigate recods](media/v9-navigate-records.png "Navigate records")
   
-    When you select a record type from the menu, such as Accounts, Contacts, or Cases, you’ll see a list of corresponding customer records (also known as Entity grid). 
+    When you select a record type from the menu, such as Accounts, Contacts, or Cases, you’ll see a list of corresponding customer records (also known as **Entity grid**). 
 
- 	To view recently opened records, select the down-arrow next to the record type.
+ 	To view recently opened records, select the down-arrow next to the record type in the sitemap.
 
     Here is what each entity record type is used for:
 
@@ -114,11 +109,14 @@ Any record types that are enabled for mobile are also available for use in the C
     - **Knowledge Articles** capture your customer’s questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
 
 2. Select **...** to go to **Training** and access the documentation site to view the **Help Center**. 
-3. Select **Favorites and Recent** button ![recent-button](media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.
+3. You can also access **Service Management** from the sitemap. Service Management lets you define all the customer service admin settings from the Customer Service Hub sitemap.  Select **...** to go to **Service Management**. 
 
-For a mobile device, the sitemap is displayed as illustrated in the following image:
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md).
+4. Select **Favorites and Recent** button ![recent-button](media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.
 
-![mobile-sitemap](media/mobile-sitemap.png "Customer Service Hub sitemap on mobile")
+   For a mobile device, the sitemap is displayed as illustrated in the following image:
+
+   ![mobile-sitemap](media/mobile-sitemap.png "Customer Service Hub sitemap on mobile")
 
 
 ## Open the default dashboard for a record type
@@ -233,17 +231,14 @@ The Timeline is available on the **Summary** tab for account, contact, case reco
 -   Sort the entries by latest or oldest entry.
 
 ### **Related section**  
-In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience.
-
-For example:
+In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/en-us/powerapps/user/navigation#reference-panel).
 
 By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you’re working on. 
   
 ![reference-panel](media/reference-panel.png "Reference panel")
 
-The second tab in the Related section of a case record is the **Knowledge Base search**. Knowledge Base search lets you search for the knowledge articles related to a specific record. It also lets you view automatic suggestions. You can filter the search results to display articles that are Published, Draft, or Approved. For more information, see [Search for Knowledge articles](customer-service-hub-user-guide-case-sla.md#search-for-knowledge-articles). 
+The second tab in the Related section of a case record is the **Knowledge Base search**. Knowledge Base search lets you search for the knowledge articles related to a specific record. It also lets you view automatic suggestions. You can filter the search results to display articles that are Published, Draft, or Approved. For more information, see [Search for Knowledge articles](search-knowledge-articles-csh.md). 
   
-![knowledge-article-search](media/case-form-search-rp.png "Knowledge article search in Reference panel")
 
 The third tab in the Related section of a case record displays **Similar Cases**. Select **...** on a record to follow or unfollow the case, and explore other options. 
 
@@ -254,7 +249,7 @@ The third tab in the Related section of a case record displays **Similar Cases**
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d8224c3f-6e20-4b8e-9d0d-b0f5602c7708" frameborder="0" allowfullscreen=""></iframe></div>
 
 > [!NOTE]
-> You can configure rules that help you view similar cases based on automatic suggestions. These rules can be created using either the Cognitive Services Text Analytics or a built-in similarities matching engine in Dynamics 365. For more information, see [Create similar record suggestion rules](../admin/public-preview-microsoft-cognitive-services-integration.md#create-similar-record-suggestion-rules).
+> You can configure rules that help you view similar cases based on automatic suggestions. For more information, see [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md).
 
 Similarly,
 
@@ -264,6 +259,7 @@ Similarly,
 
 > [!NOTE]
 > Your system administrator or customizer can choose if Related section should be included in a form. They can also decide on what related data should be displayed in the section for each form.
+
 
 #### Reference Panel reflow
 The Customer Service Hub is available to use on a desktop browser, and on a mobile device. Depending on the zoom level and the resolution of the system on which you are accessing the hub interface, the Reference panel adjusts the tabs and records for an optimum experience.
@@ -282,7 +278,7 @@ Activities are the tasks that you or your team perform while interacting with cu
 
 For example, you can make a record to track a phone call with a customer, or list an appointment scheduled with a customer to discuss a certain issue. You can create activities for yourself, or assign them to other service reps.
 
-In Dynamics 365, the following activities are supported:
+In Dynamics 365 for Customer Engagement, the following activities are supported:
 - Email
 - Task
 - Appointment
@@ -313,7 +309,7 @@ In the Customer Service Hub sitemap, select **Service** > **Activities**. The **
 
 ## Work with Queues
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 for Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and edit queues](create-edit-queue.md).
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 for Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 **Open Queues view**
 

@@ -1,1 +1,1 @@
-Lync has been rebranded as Skype for Business. Currently, you’ll still see references to “Lync” in Microsoft Dynamics 365, but Dynamics 365 will work with Skype for Business.
+Lync has been rebranded as Skype for Business. Currently, you’ll still see references to “Lync” in Dynamics 365 for Customer Engagement apps, but Dynamics 365 for Customer Engagement apps will work with Skype for Business.

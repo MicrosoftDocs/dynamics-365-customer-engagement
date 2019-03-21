@@ -1,34 +1,34 @@
 ---
-title: "Use field security to control access to field values (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Use field security to control access to field values (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Provides field-level security to restrict access to high business impact (custom and OOB) fields to specific users and teams."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "field-level security in CRM, when aggregating on secured attributes"
-  - "field-level security in CRM, explained"
-  - "field-level security in CRM, when ordering on secured attributes"
-  - "controlling access to field values by using field-level security"
-  - "field-level security in CRM, behavior of secured fields when sharing records"
-  - "secured fields"
-  - "field-level security in CRM, behavior of secured fields for Create or Update"
-  - "field-level security in CRM, when grouping on secured attributes"
-  - "field-level security in CRM, behavior of secured fields for filtered views or offline synchronization"
-  - "using field-level security to control access to field values in CRM"
-  - "security roles that allow access to secured fields"
-  - "field-level security in CRM, secured attributes in column sets"
-  - "field-level security in CRM, secured attributes in the filter condition"
+  - field-level security in CRM, when aggregating on secured attributes
+  - field-level security in CRM, explained
+  - field-level security in CRM, when ordering on secured attributes
+  - controlling access to field values by using field-level security
+  - field-level security in CRM, behavior of secured fields when sharing records
+  - secured fields
+  - field-level security in CRM, behavior of secured fields for Create or Update
+  - field-level security in CRM, when grouping on secured attributes
+  - field-level security in CRM, behavior of secured fields for filtered views or offline synchronization
+  - using field-level security to control access to field values in CRM
+  - security roles that allow access to secured fields
+  - field-level security in CRM, secured attributes in column sets
+  - field-level security in CRM, secured attributes in the filter condition
 ms.assetid: bd42f612-f01c-47dd-9859-69f6024af263
 caps.latest.revision: 42
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -39,7 +39,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement, you use field-level security to restrict access to high business impact fields to specific users and teams. For example, you use this to enable only certain users to read or update the credit score for a customer. For this release, field-level security can be applied to both custom fields and many out-of-box (OOB) fields.  
+In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps, you use field-level security to restrict access to high business impact fields to specific users and teams. For example, you use this to enable only certain users to read or update the credit score for a customer. For this release, field-level security can be applied to both custom fields and many out-of-box (OOB) fields.  
   
  The following steps describe how to restrict access to a field:  
   
@@ -188,6 +188,6 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
   
 ### See also  
  [Video: Field Level Security in Microsoft Dynamics CRM 2015](http://youtu.be/Czc9sKvWd9k)   
- [The Security Model of Microsoft Dynamics 365](security-model.md)   
- [How role-based security can be used to control access to entities in Microsoft Dynamics 365](how-role-based-security-control-access-entities.md)   
+ [The Security Model of Microsoft Dynamics 365 for Customer Engagement](security-model.md)   
+ [How role-based security can be used to control access to entities in Microsoft Dynamics 365 for Customer Engagement](how-role-based-security-control-access-entities.md)   
  [Use record-based security to control access to records](use-record-based-security-control-access-records.md)

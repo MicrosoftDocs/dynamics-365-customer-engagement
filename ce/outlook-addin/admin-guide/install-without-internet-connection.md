@@ -1,19 +1,19 @@
 ---
 title: "Install Dynamics 365 for Outlook without an Internet connection | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 11/28/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 for Customer Engagement apps 
 ms.assetid: 723e1196-cd04-4823-bb0d-2e050e2b4acd
 caps.latest.revision: 42
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer

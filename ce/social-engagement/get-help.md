@@ -6,7 +6,7 @@ ms.custom:
 ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to: Social Engagement
 ms.assetid: f191bbcd-1f93-42dc-8d6d-6aa8dae8c8f7
 author: m-hartmann
 ms.author: mhart

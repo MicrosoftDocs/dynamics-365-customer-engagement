@@ -1,1 +1,1 @@
-Click **Save**.
+Select **Save**.

@@ -1,12 +1,12 @@
 ---
-title: "Create and manage publishing states in Dynamics 365 portals | MicrosoftDocs"
+title: "Create and manage publishing states in Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to create and manage publishing states in a portal."
-ms.date: 05/24/2018
+ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: C8B271E8-D79E-42DC-923C-3101F8B23040
 author: sbmjais
 ms.author: shjais
@@ -30,7 +30,7 @@ Publishing states can be used with [web pages](web-page.md), [web files](web-fil
 
 By default, two publishing states are available: Draft and Published. Draft specifies content that should not be visible to non-content-author users, while Published specifies content that should be visible to all portal users (barring other security restrictions). You can modify the default configuration to meet your specific requirements, if desired – by adding new states or renaming states.
 
-## Manage publishing states in Dynamics 365
+## Manage publishing states in Dynamics 365 for Customer Engagement
 
 Publishing states can be created, edited, and deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
@@ -56,7 +56,7 @@ You can also manage publish states under the **Publishing States** section on th
 
 ## Manage publishing states on a portal
 
-While publishing states and their attributes must be managed within Dynamics 365, portal users with content management permissions can control the state of certain entities (such as web pages and web files) through the portal front-side editing interface.
+While publishing states and their attributes must be managed within Dynamics 365 for Customer Engagement, portal users with content management permissions can control the state of certain entities (such as web pages and web files) through the portal front-side editing interface.
 
 ![Select publishing state on a portal](media/publishing-states-portal.png "Select publishing state on a portal")
 
@@ -67,7 +67,7 @@ While publishing states and their attributes must be managed within Dynamics 365
 |Name|The descriptive name of the state. This field is required.|
 |Website|The website to which the state belongs. This field is required.|
 |Is Default|If checked, designates this state as the default state for the website. This will determine the default state selected when creating new entities through the portal front-side editing interface.<br>**Note**:Only one Publishing State in a given Website should be marked as the default state.|
-|Is Visible|If checked, designates that entities associated with this state will be considered visible (or published) on the portal.<br>While an entity associated with a non-visible state will not be visible on the portal, an entity associated with a visible state may also not be visible, due to security permissions, expiration dates, or other visibility rules.<br>Users with content management permissions may be granted the ability to use "Preview Mode", which allows these users to see ("preview") unpublished content.|
+|Is Visible|If checked, designates that entities associated with this state will be considered visible (or published) on the portal.<br>While an entity associated with a non-visible state will not be visible on the portal, an entity associated with a visible state may also not be visible, due to security permissions, expiration dates, or other visibility rules.<br>Users with content management permissions may be granted the ability to use Preview Mode, which allows these users to see (preview) unpublished content.|
 |Display Order|An integer value indicating the order in which the state will be placed, in menus and drop-down lists for selecting a Publishing State – mostly found in the portal front-side editing interfaces.|
 |||
 

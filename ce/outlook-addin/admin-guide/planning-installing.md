@@ -1,19 +1,19 @@
 ---
-title: "Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 and Dynamics 365 Online | MicrosoftDocs"
-ms.custom: ""
+title: "Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 for Customer Engagement apps and Dynamics 365 for Customer Engagement apps Online | MicrosoftDocs"
+ms.custom: 
 ms.date: 11/28/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
+  - Dynamics 365 for Customer Engagement apps 
 ms.assetid: 0e6157ee-a9fc-4da2-8ade-9199a405db05
 caps.latest.revision: 40
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 and Dynamics 365 Online
+# Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 for Customer Engagement apps and Dynamics 365 for Customer Engagement apps Online
 [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] enables access to the same data through [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] as the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Web client. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users who need access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while they are using the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] application.  
   
 > [!IMPORTANT]
@@ -45,7 +45,7 @@ search.app:
 > [!NOTE]
 >  Although multiple users can share a computer that uses [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], go offline capability is not supported in a shared computer environment, such as when you use remote desktop services (formerly Terminal Services).  
 > 
->  [Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx) with offline files is not supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If the Dynamics 365 data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
+>  [Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx) with offline files is not supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If the Dynamics 365 for Customer Engagement apps data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
   
 ### See Also  
  [Compatibility with Microsoft Dynamics CRM 2016](https://support.microsoft.com/en-us/kb/3124955)   

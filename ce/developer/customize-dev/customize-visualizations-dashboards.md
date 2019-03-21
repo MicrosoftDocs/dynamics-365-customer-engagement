@@ -1,24 +1,24 @@
 ---
-title: "Customize visualizations and dashboards (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about configuring dashboards in such a way that enables you to view data from multiple areas of Dynamics 365 such as sales, marketing, and service. You can even adjust the data displayed in visualizations and dashboards per your business requirements by applying filters. "
-ms.custom: ""
+title: "Customize visualizations and dashboards (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Learn about configuring dashboards in such a way that enables you to view data from multiple areas of Dynamics 365 for Customer Engagement such as sales, marketing, and service. You can even adjust the data displayed in visualizations and dashboards per your business requirements by applying filters. "
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "visualizations"
-  - "charts"
-  - "dashboards"
+  - visualizations
+  - charts
+  - dashboards
 ms.assetid: 275d803b-68ea-41d0-9a31-e0adbb9c1815
 caps.latest.revision: 37
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -48,7 +48,7 @@ Data visualization and analytics in [!INCLUDE[pn_dynamics_crm_online](../../incl
   
  [Customize entity forms](customize-entity-forms.md)  
   
- [Customize Entity Views in Dynamics 365 Customer Engagement](customize-entity-views.md)  
+ [Customize Entity Views in Dynamics 365 for Customer Engagement](customize-entity-views.md)  
   
  [Customize global option sets](../org-service/customize-global-option-sets.md)  
   
@@ -62,10 +62,10 @@ Data visualization and analytics in [!INCLUDE[pn_dynamics_crm_online](../../incl
   
  [When to edit the customizations file](when-edit-customization-file.md)  
   
- [Customize Entity Views in Dynamics 365 Customer Engagement](customize-entity-views.md)  
+ [Customize Entity Views in Dynamics 365 for Customer Engagement](customize-entity-views.md)  
   
  [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)  
   
- [Extend Microsoft Dynamics 365](../extend-client.md)  
+ [Extend Microsoft Dynamics 365 for Customer Engagement](../extend-client.md)  
   
- [Web Resources for Microsoft Dynamics 365](../web-resources.md)
+ [Web Resources for Microsoft Dynamics 365 for Customer Engagement](../web-resources.md)

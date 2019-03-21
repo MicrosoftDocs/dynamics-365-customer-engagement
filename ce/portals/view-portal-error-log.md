@@ -2,12 +2,12 @@
 title: "Viewing portal error logs and storing them in Azure Blob storage | MicrosoftDocs"
 description: "Learn how to view portal error logs and store them in your Azure Blob storage account."
 keywords: "portal error logs, store portal error logs in Azure Blob storage"
-ms.date: 02/22/2018
+ms.date: 01/02/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 9CE45197-4457-44D2-A7C3-B756BB3E6129
 author: sbmjais
 ms.author: shjais
@@ -25,9 +25,9 @@ search.app:
   - D365Portals
 ---
 
-# Viewing portal error logs
+# View portal error logs
 
-As a portal administrator or developer, you can use portal capabilities for Dynamics 365 to create a website for your customers. One common task for a developer is to debug issues while developing the portal. To help debug, you can access detailed error logs for any issues on your portal. There are multiple ways that you can get error logs for your portals.
+As a portal administrator or developer, you can use portal capabilities for Dynamics 365 for Customer Engagement to create a website for your customers. One common task for a developer is to debug issues while developing the portal. To help debug, you can access detailed error logs for any issues on your portal. There are multiple ways that you can get error logs for your portals.
 
 ## Custom error
 
@@ -47,7 +47,7 @@ More information on custom error: [Displaying a Custom Error Page](https://docs.
 ### Disable custom error
 
 You can disable custom errors on portals to display the detailed exception message if any server-side exception occurs in your portal.
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal that you want to disable custom errors, and then select **Manage**.
 3. Go to **Portal Actions** > **Disable custom errors**.
 
@@ -58,7 +58,7 @@ You can disable custom errors on portals to display the detailed exception messa
 ### Enable custom error
 You can enable custom errors on portals to display a professional-looking page instead of YSOD. This page provides meaningful information if any exception occurs in the application.
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal you want to enable custom errors, and then select **Manage**.
 3. Go to **Portal Actions** > **Enable custom errors**.
 
@@ -67,14 +67,14 @@ You can enable custom errors on portals to display a professional-looking page i
 4. Select **Enable** in the confirmation message. While custom errors are being enabled, the portal restarts and will be unavailable. A message appears when custom errors are enabled.
 
 > [!NOTE]
-> - If you change the Dynamics 365 instance that your portal is connected to, the custom errors setting is set to enabled. You must disable the custom errors again, if required.
-> - You must not enable or disable custom errors when the Dynamics 365 instance that your portal is connected to is being changed; otherwise an error message appears.
+> - If you change the Dynamics 365 for Customer Engagement instance that your portal is connected to, the custom errors setting is set to enabled. You must disable the custom errors again, if required.
+> - You must not enable or disable custom errors when the Dynamics 365 for Customer Engagement instance that your portal is connected to is being changed; otherwise an error message appears.
 
 ### Display a custom error message
 
 You can configure your portal to display a professional-looking custom error instead of a generic error.
 
-To define a custom error, use the content snippet `Portal Generic Error`. The content defined in this snippet is shown on the error page. This content snippet is not available out-of-the-box and you must create it. The content snippet **Type** can be **Text** or **HTML**. To create the content snippet, see [here](customize-content-snippets.md#edit-using-dynamics-365).
+To define a custom error, use the content snippet `Portal Generic Error`. The content defined in this snippet is shown on the error page. This content snippet is not available out-of-the-box and you must create it. The content snippet **Type** can be **Text** or **HTML**. To create or edit the content snippet, see [Customize content by using content snippets](customize-content-snippets.md).
 
 > [!NOTE]
 > If liquid code is written in the content snippet, it will be skipped and not rendered.
@@ -104,7 +104,7 @@ After developing and publishing the portal, you still need to be able to access 
 
 ### Enable diagnostic logging
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal that you want to enable diagnostic logging, and then select **Manage**.
 3. Go to **Portal Actions** > **Enable diagnostic logging**.
 
@@ -137,7 +137,7 @@ When diagnostic logging is enabled successfully, the following action becomes av
  
 ### Update diagnostic logging
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal you want to update diagnostic logging, and then select **Manage**.
 3. Go to **Portal Actions** > **Update diagnostic logging configuration**.
 
@@ -163,7 +163,7 @@ When diagnostic logging is enabled successfully, the following action becomes av
 
 ### Disable diagnostic logging
 
-1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
 2. Select the name of the portal you want to update diagnostic logging, and then select **Manage**.
 3. Go to **Portal Actions** > **Disable diagnostic logging**.
 
@@ -171,7 +171,7 @@ When diagnostic logging is enabled successfully, the following action becomes av
 
 4. Click **Disable** in the confirmation message.
 
-## Display Dynamics 365 plugin error
+## Display Dynamics 365 for Customer Engagement plugin error
 
 Another scenario that often occurs while developing a portal is an error generated by custom plug-ins and business logic written in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization. These errors can generally be accessed by [disabling custom errors](#disable-custom-error) or [enabling diagnostic logging](#enable-diagnostic-logging). However, in some cases, it is faster to display these errors directly on the portal to diagnose the issue faster. To do this, you can configure your portal to display custom plugin errors from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on your portal screen.
 

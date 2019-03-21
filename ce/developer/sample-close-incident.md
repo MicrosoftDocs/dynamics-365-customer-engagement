@@ -1,23 +1,23 @@
 ---
-title: "Sample: Close an incident (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Close an incident (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample code demonstrates how to process and close an incident (case) with a case resolution."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "processing and closing incidents (cases), service entities sample"
-  - "sample for closing incidents (cases)"
+  - processing and closing incidents (cases), service entities sample
+  - sample for closing incidents (cases)
 ms.assetid: 748ac902-3ba5-456c-ab91-aece8947131a
 caps.latest.revision: 14
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

@@ -1,27 +1,27 @@
 ---
-title: "Use the QueryExpression class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "In Dynamics 365 (online) Customer Engagement, you can use the QueryExpression class to build complex queries for use with the IOrganizationService.QueryBase) method or the RetrieveMultipleRequest message"
-ms.custom: ""
+title: "Use the QueryExpression class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "In Dynamics 365 for Customer Engagement (online) Customer Engagement, you can use the QueryExpression class to build complex queries for use with the IOrganizationService.QueryBase) method or the RetrieveMultipleRequest message"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "building queries by using QueryExpression, QueryExpression class"
-  - "QueryExpression class, building complex queries"
-  - "QueryExpression class, obtaining record counts with the ReturnTotalRecordCount property"
-  - "QueryExpression class, difference between the QueryByAttribute class"
-  - "using the QueryExpression class"
-  - "QueryExpression class, about; properties for; and code example"
+  - building queries by using QueryExpression, QueryExpression class
+  - QueryExpression class, building complex queries
+  - QueryExpression class, obtaining record counts with the ReturnTotalRecordCount property
+  - QueryExpression class, difference between the QueryByAttribute class
+  - using the QueryExpression class
+  - QueryExpression class, about; properties for; and code example
 ms.assetid: f5d2195b-8cae-49d6-a493-6f8b92e7f54e
 caps.latest.revision: 29
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

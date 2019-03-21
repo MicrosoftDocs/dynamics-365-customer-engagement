@@ -91,7 +91,7 @@
      // add user to the created business unit
      _serviceProxy.Execute(new SetBusinessSystemUserRequest()
      {
-         BusinessId = _buisnessUnit.Id,
+         BusinessId = _businessUnit.Id,
          ReassignPrincipal = new EntityReference(
              SystemUser.EntityLogicalName,
              _users[2]),
@@ -134,7 +134,7 @@
      // deactivate business unit before deleting it
      _serviceProxy.Execute(new SetStateRequest()
      {
-         EntityMoniker = _buisnessUnit.ToEntityReference(),
+         EntityMoniker = _businessUnit.ToEntityReference(),
          // mark the state as inactive (value 1)
          State = new OptionSetValue(1),
          Status = new OptionSetValue(-1)
@@ -142,7 +142,7 @@
 
      // delete business unit
      _serviceProxy.Delete(BusinessUnit.EntityLogicalName,
-         _buisnessUnit.Id);
+         _businessUnit.Id);
 
      #endregion
 

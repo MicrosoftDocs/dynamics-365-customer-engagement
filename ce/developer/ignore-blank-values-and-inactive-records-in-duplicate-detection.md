@@ -1,19 +1,19 @@
 ---
-title: "Ignore blank values and inactive records in duplicate detection (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Ignore blank values and inactive records in duplicate detection (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Improve result quality by creating duplicate detection rules that ignore blank values and inactive records."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7b905429-1bde-4ba5-a523-62ab770b2582
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -38,8 +38,8 @@ You can improve data results by creating duplicate detection rules that ignore b
   
 |          Entity          |        Attribute         |  Type   |                                                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                                                     |
 |--------------------------|--------------------------|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `DuplicateRuleCondition` |   `IgnoreBlankValues`    | Boolean | Specifies whether to consider blank values as non-duplicate values. The default value of this attribute is `false`. Set it to `true`if you do not want the duplicate detection rule to consider **null**) values as equal. When you upgrade from earlier versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], this attribute is set to `false`.<br /><br /> Important:<br /><br /> For a duplicate detection rule with one condition, if you set the attribute value to `false`, it is treated by the system as a `true`value. |
-|     `DuplicateRule`      | `ExcludeInactiveRecords` | Boolean |                                                                       Specifies whether to flag inactive records as duplicates. The default value is `false`. Set it to                              `true`if you do not want inactive records to be flagged as duplicates, even if they meet duplication detection rule criteria. When you upgrade from earlier versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], this attribute is set to `false`.                                                                        |
+| `DuplicateRuleCondition` |   `IgnoreBlankValues`    | Boolean | Specifies whether to consider blank values as non-duplicate values. The default value of this attribute is `false`. Set it to `true`if you do not want the duplicate detection rule to consider **null**) values as equal. When you upgrade from earlier versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps, this attribute is set to `false`.<br /><br /> Important:<br /><br /> For a duplicate detection rule with one condition, if you set the attribute value to `false`, it is treated by the system as a `true`value. |
+|     `DuplicateRule`      | `ExcludeInactiveRecords` | Boolean |                                                                       Specifies whether to flag inactive records as duplicates. The default value is `false`. Set it to                              `true`if you do not want inactive records to be flagged as duplicates, even if they meet duplication detection rule criteria. When you upgrade from earlier versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps, this attribute is set to `false`.                                                                        |
   
  There are entities that have states other than Active and Inactive. If you set the `ExcludeInactiveRecords`attribute to `true`, the duplicate detection process will consider matching records only in the Active states or in states that are considered Active.  
   
@@ -69,5 +69,5 @@ You can improve data results by creating duplicate detection rules that ignore b
  For example, if you set the `ExcludeInactiveRecords`attribute to `true`, only active, submitted, and invoiced sales orders will be considered for matching during duplicate detection.  
   
 ### See also  
- [Detect Duplicate Data in Dynamics 365](detect-duplicate-data-for-developers.md)   
+ [Detect Duplicate Data in Dynamics 365 for Customer Engagement apps](detect-duplicate-data-for-developers.md)   
  [Enable and Disable duplicate detection](enable-disable-duplicate-detection.md)

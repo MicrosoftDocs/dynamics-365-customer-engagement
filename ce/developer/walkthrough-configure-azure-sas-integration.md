@@ -1,25 +1,25 @@
 ---
-title: "Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 | MicrosoftDocs"
-description: "The walkthrough guides you through configuring the Azure Service Bus issuer, scope, and rules to allow a listener application to read the Dynamics 365 Customer Engagement messages posted to the Azure Service Bus. "
-ms.custom: ""
+title: "Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+description: "The walkthrough guides you through configuring the Azure Service Bus issuer, scope, and rules to allow a listener application to read the Dynamics 365 for Customer Engagement messages posted to the Azure Service Bus. "
+ms.custom: 
 ms.date: 05/16/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1977e223-2d7b-4019-a584-e81d1b832785
 caps.latest.revision: 8
-author: "JimDaly"
-ms.author: "jdaly"
+author: JimDaly
+ms.author: jdaly
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Walkthrough: Configure Azure (SAS) for integration with Customer Engagement
+# Walkthrough: Configure Azure (SAS) for integration with Customer Engagement apps
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -73,5 +73,5 @@ This walkthrough guides you through configuring the [!INCLUDE[windows_azure_serv
    ![New service endpoint](media/new-service-endpoint.PNG "New service endpoint")  
   
 ### See also  
- [Azure extensions for Dynamics 365](azure-extensions.md)   
+ [Azure extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)   
  [Azure Service Bus](/azure/service-bus-messaging/service-bus-fundamentals-hybrid-solutions)

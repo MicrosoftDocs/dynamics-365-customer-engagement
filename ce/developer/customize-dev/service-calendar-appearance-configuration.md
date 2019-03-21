@@ -1,23 +1,23 @@
 ---
 title: "Service calendar appearance configuration | MicrosoftDocs"
 description: "Learn about the configuration of the service calendar appearance configuration."
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "service calendar, appearance"
-  - "isv.config"
+  - service calendar, appearance
+  - isv.config
 ms.assetid: b529c857-c2b9-4a02-9993-bd99008d7998
 caps.latest.revision: 22
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -143,7 +143,7 @@ div.ganttBlockserviceappointmentStatus8
 ### See also  
  [Customize Entity Views](customize-entity-views.md)   
  [ISV Configuration File Schema](isv-configuration-file-schema.md)   
- [Customize Microsoft Dynamics 365](customize-applications.md)   
+ [Customize Microsoft Dynamics 365 for Customer Engagement](customize-applications.md)   
  [Create, Export, or Import an Unmanaged Solution](../create-export-import-unmanaged-solution.md)   
  [Support for Editing the Customization File](when-edit-customization-file.md)   
  [Publish Customizations](publish-customizations.md)   

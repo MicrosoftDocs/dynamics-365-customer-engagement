@@ -4,7 +4,7 @@ description: "Learn how to share posts and view insights from your personalized 
 ms.date: 09/12/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to: Social Engagement
 ms.assetid: 689020c7-0790-47a1-996c-040d052a81de
 author: m-hartmann
 ms.author: mhart

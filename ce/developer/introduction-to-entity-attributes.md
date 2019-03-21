@@ -1,19 +1,19 @@
 ---
-title: "Introduction to entity attributes (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
+title: "Introduction to entity attributes (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 24de68ca-354b-48a2-b514-62c0d01ac3bb
 caps.latest.revision: 25
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -166,12 +166,12 @@ Entities include a set of attributes that represent the data that can be include
 
 <a name="BKMK_LogicalAttributes"></a>   
 ## Logical attributes  
- Logical attributes contain values which are stored in different database tables than other attributes in the entity. In most cases this internal implementation is not relevant to working with Dynamics 365. When you use logical attributes as sources for a calculated field the values in the calculated field cannot be sorted. Use the  <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsLogical> property to detect if an attribute is a logical attribute.  
+ Logical attributes contain values which are stored in different database tables than other attributes in the entity. In most cases this internal implementation is not relevant to working with Dynamics 365 for Customer Engagement apps. When you use logical attributes as sources for a calculated field the values in the calculated field cannot be sorted. Use the  <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsLogical> property to detect if an attribute is a logical attribute.  
 
  The most common logical attributes are those which store address information in several special entities: CompetitorAddress, CustomerAddress, InternalAddress, LeadAddress, and PublisherAddress. There are 8 system entities that include a complete set of attributes for two addresses using logical attributes. Each of these attributes begin with “Address*”, such as Address1_City or Address2_Latitude.  
 
 ### See also  
- [Introduction to Entities in Dynamics 365](introduction-entities.md)   
+ [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)   
  [Image Attributes](image-attributes.md)   
  [Calculated and Rollup Attributes](calculated-rollup-attributes.md)   
  [Sample: Retrieve Valid Status Transitions](sample-retrieve-valid-status-transitions.md)   

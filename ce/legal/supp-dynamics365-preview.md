@@ -1,19 +1,19 @@
 ---
-title: Supplemental Terms of Use for Microsoft Dynamics 365 Online Previews
+title: Supplemental Terms of Use for Microsoft Dynamics 365 for Customer Engagement Online Previews
 author: brycho
 ---
 
 **Supplemental Terms of Use for**  
-**Microsoft Dynamics 365 Online Previews**
+**Microsoft Dynamics 365 for Customer Engagement Online Previews**
 
 Last updated: April 2018
 
 Microsoft may include preview, beta, or other pre-release features or services
 to obtain customer feedback ("Previews"). Previews are made available to you on
 the condition that you agree to these terms of use, which supplement your Online
-Services Terms governing your use of Microsoft Dynamics 365 Online or Dynamics
+Services Terms governing your use of Microsoft Dynamics 365 for Customer Engagement Online or Dynamics
 CRM Online. If these terms of use conflict with the Online Services Terms
-governing your use of Microsoft Dynamics 365 Online or Dynamics CRM Online,
+governing your use of Microsoft Dynamics 365 for Customer Engagement Online or Dynamics CRM Online,
 these Supplemental Terms of Use will govern.
 
 PREVIEWS ARE PROVIDED "AS-IS," "WITH ALL FAULTS," AND "AS AVAILABLE," AND ARE

@@ -1,24 +1,24 @@
 ---
 title: "Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 (on-premises)
+  - Dynamics 365 for Customer Engagement apps 
+  - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
 ms.assetid: de3bac06-c80f-40f8-bf8f-6e0735e8350e
 caps.latest.revision: 36
-author: "mduelae"
-ms.author: "mkaur"
-manager: "kvivek"
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - admin
   - customizer
@@ -109,7 +109,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 10. If you have either created a new template or updated an existing template, you can upload the template.  
   
-    -   To save the document as a template, on the **Complete the merge** pane, click or tap **Upload Template to Dynamics 365**.  
+    -   To save the document as a template, on the **Complete the merge** pane, click or tap **Upload Template to Dynamics 365 for Customer Engagement apps**.  
   
 11. If you have saved the document as a template, you can go back and edit the template with **Settings** > **Business** > **Templates**. Click or tap your template to review and edit it.  
   

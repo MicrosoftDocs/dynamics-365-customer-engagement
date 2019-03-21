@@ -1,13 +1,13 @@
 ---
-title: "Sample: Create, retrieve, update, and delete records (early bound) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Sample: Create, retrieve, update, and delete records (early bound) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to create, retrieve, update, and delete operations on an account using the early bound class. This sample uses IOrganizationService.Entity), IOrganizationService.ColumnSet), IOrganizationService.Entity) and IOrganizationService.Guid)"
-keywords: ""
+keywords: 
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: fef4451b-a749-4db4-a8cf-08e577dff2d8
 author: JimDaly
 ms.author: jdaly
@@ -16,10 +16,10 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
-  - "sample for creating; retrieving; updating; and deleting records (early bound)"
-  - "early-bound class samples, creating; retrieving; updating; and deleting records (early bound) sample"
-  - "samples for early-bound classes, creating; retrieving; updating; and deleting records (early bound) sample"
-  - "creating; retrieving; updating; and deleting records (early bound) sample, early-bound class samples"
+  - sample for creating; retrieving; updating; and deleting records (early bound)
+  - early-bound class samples, creating; retrieving; updating; and deleting records (early bound) sample
+  - samples for early-bound classes, creating; retrieving; updating; and deleting records (early bound) sample
+  - creating; retrieving; updating; and deleting records (early bound) sample, early-bound class samples
 topic-status: Drafting
 search.audienceType: 
   - developer

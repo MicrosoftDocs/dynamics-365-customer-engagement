@@ -1,19 +1,19 @@
 ---
 title: "Use your browser for non-mobile features in Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
-ms.date: "07/19/2017"
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 07/19/2017
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics CRM Online
+author: jimholtz
 ms.assetid: 48b551f7-89da-4fa4-abf7-50ac2184fc94
 caps.latest.revision: 7
-ms.author: "mkaur"
+ms.author: mkaur
 search.audienceType: 
   - admin
   - customizer
@@ -46,4 +46,4 @@ search.app:
 3.  Sign in to the web application when it appears. The web app goes right to the record that you were working on in the mobile app.  
   
 ### See also  
- [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

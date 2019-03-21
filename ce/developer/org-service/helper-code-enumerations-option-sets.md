@@ -1,20 +1,20 @@
 ---
-title: "Helper code: Enumerations for option sets (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Helper code: Enumerations for option sets (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The SDK download package includes an extension to the CrmSvcUtil code generation tool that you can use to generate enumerations for all option set values including global option sets, picklist, state, and status values."
-ms.custom: ""
+ms.custom: 
 ms.date: 08/21/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 9ca7cb42-2b16-4429-8205-04f27e7eeb54
 caps.latest.revision: 25
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

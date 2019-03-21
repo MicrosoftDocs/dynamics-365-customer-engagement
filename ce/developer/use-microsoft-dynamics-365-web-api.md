@@ -1,26 +1,26 @@
 ---
-title: "Use the Dynamics 365 Customer Engagement Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The Dynamics 365 Web API implements OData v4 and provides a development experience that can be used across a wide variety of programming languages, platforms, and devices"
-ms.custom: ""
+title: "Use the Dynamics 365 for Customer Engagement Web API (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+description: "The Dynamics 365 for Customer Engagement Web API implements OData v4 and provides a development experience that can be used across a wide variety of programming languages, platforms, and devices"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 15c4039e-a3ca-4116-ba1d-3ac88cba3ae1
 caps.latest.revision: 15
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Use the Dynamics 365 Customer Engagement Web API
+# Use the Dynamics 365 for Customer Engagement Web API
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -28,11 +28,11 @@ The Customer Engagement Web API provides a development experience that can be us
   
  Because the Web API is built on open standards, we don’t provide assemblies for a specific developer experience. You can compose HTTP requests for specific operations or use third-party libraries to generate classes for whatever language or platform you want. You can find a list of libraries that support OData version 4.0 at [http://www.odata.org/libraries/](http://www.odata.org/libraries/).  
   
- To compare the Web API with other [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement web services, see [Use Dynamics 365 web services](use-microsoft-dynamics-365-web-services.md). 
+ To compare the Web API with other [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement web services, see [Use Dynamics 365 for Customer Engagement web services](use-microsoft-dynamics-365-web-services.md). 
 
   
 ### Related Sections  
- [Use Dynamics 365 web services](use-microsoft-dynamics-365-web-services.md)  
+ [Use Dynamics 365 for Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)  
   
  [OData - the best way to REST](http://www.odata.org/)  
   

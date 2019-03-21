@@ -1,16 +1,16 @@
 ---
-title: "Specify properties for Unified Interface apps in PowerApps | MicrosoftDocs"
+title: "Specify properties for Unified Interface apps | MicrosoftDocs"
 description: "Learn how to configure the grid control for your app"
-keywords: ""
-ms.date: 04/24/2018
+keywords: 
+ms.date: 01/09/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
+  - powerapps
+author: Mattp123
 ms.assetid: 3ecea4a7-0d18-4ccd-9609-3a62179e9e1b
 ms.author: matp
 manager: kvivek
@@ -28,7 +28,7 @@ search.app:
 
 # Specify properties for Unified Interface apps
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 The Unified Interface framework uses responsive design principles to provide an optimal viewing and interaction experience for any screen size or orientation. With model-driven apps that use the Unified Interface framework, the grid (view) control is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the grid is transformed into a list. 
 

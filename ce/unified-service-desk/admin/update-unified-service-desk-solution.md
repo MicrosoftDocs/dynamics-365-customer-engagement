@@ -1,19 +1,19 @@
 ---
-title: "Update Unified Service Desk for Dynamics 365 Customer Engagement solution | MicrosoftDocs"
-description: "Learn how to update Unified Service Desk for Dynamics 365 Customer Engagement."
-keywords: ""
+title: "Update Unified Service Desk for Dynamics 365 for Customer Engagement apps solution | MicrosoftDocs"
+description: "Learn how to update Unified Service Desk for Dynamics 365 for Customer Engagement apps."
+keywords: 
 ms.date: 08/23/2017
 ms.service: 
-  - "dynamics-365-customerservice"
+  - dynamics-365-customerservice
 ms.custom: 
-  - "dyn365-USD, dyn365-admin"
+  - dyn365-USD, dyn365-admin
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: d3773029-8b2f-4aa3-9317-abc309b01960
 author: kabala123
 ms.author: kabala
@@ -21,7 +21,6 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 12
 search.audienceType: 
   - admin
 search.app: 
@@ -30,7 +29,7 @@ search.app:
 ---
 
 # Updating the solution
-Read this topic only if you have an existing installation of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] from the previous release of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], and want to update to the [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] release.  
+Read this topic only if you have an existing installation of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] from the previous release of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps, and want to update to the [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] release.  
   
  If you’re installing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for the first time, you can skip this topic.  
   
@@ -39,7 +38,7 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
  If you’re unsure whether you need to update your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] installation, check the following versions to be sure.  
   
 ### Check the Unified Service Desk solution version  
- In your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, navigate to **[!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]** > **Settings** > **Solutions**. If the version numbers of the solutions match those in the table, you have the latest version of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], and don’t need to update.  
+ In your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, navigate to **[!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps** > **Settings** > **Solutions**. If the version numbers of the solutions match those in the table, you have the latest version of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], and don’t need to update.  
   
 |Solution name|Version|  
 |-------------------|-------------|  
@@ -66,7 +65,7 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
   
      For example, if you currently have Base package installed, you must navigate to the USDPackageDeployer\BasePackage folder to find the solution files for updating. Similarly, navigate to the USDPackageDeployer\CRM2013SP1Package folder if you have the [!INCLUDE[pn_crm_2013_sp_shortest](../../includes/pn-crm-2013-sp-shortest.md)] package, to the USDPackageDeployer\CRM2013SP1withProductUpdatesPackage folder if you have the [!INCLUDE[pn_crm_2013_sp_shortest](../../includes/pn-crm-2013-sp-shortest.md)] with Product Updates package, and USDPackageDeployer\ParatureKnowledgeManagementPackage folder if you have the Knowledge Management package.  
   
-5. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+5. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
   
 6. Go to **Settings** > **Solutions**.   
   
@@ -83,12 +82,12 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
 11. Repeat steps 7-10 for the DynamicsUnifiedServiceDesk_1_0_managed.zip and UnifiedInterfaceDemoCustomization_1_0_managed.zip file to update the **DynamicsUnifiedServiceDesk** and 
   solution in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
   
-     For detailed information about updating solutions in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], see [Import, update, and export solutions](../../customize/import-update-export-solutions.md).  
+     For detailed information about updating solutions in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], see [Import, update, and export solutions](/dynamics365/customer-engagement/customize/import-update-export-solutions).  
   
 12. In [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], verify the version numbers of the updated solutions with those listed in the table shown earlier to ensure they’re the latest versions.  
   
 13. Close the browser instance, and sign in again to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to see the new features in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [What's new in Unified Service Desk for administrators](../../unified-service-desk/admin/whats-new-unified-service-desk-administrators.md).  
   
 ## See also  
- [Connect to Dynamics 365 instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)   
+ [Connect to Dynamics 365 for Customer Engagement apps instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)   
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   

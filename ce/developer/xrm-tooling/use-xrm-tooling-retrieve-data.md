@@ -1,20 +1,20 @@
 ---
-title: "Use XRM tooling to retrieve data (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Use CrmServiceClient class to retrieve data from Dynamics 365"
-ms.custom: ""
+title: "Use XRM tooling to retrieve data (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Use CrmServiceClient class to retrieve data from Dynamics 365 for Customer Engagement"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2afc057e-8f70-4bea-bad4-d01e18ed92fd
 caps.latest.revision: 14
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-There are many methods available in the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class for retrieving data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. The following examples demonstrate how you can retrieve a record by ID or FetchXML query.  
+There are many methods available in the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class for retrieving data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps. The following examples demonstrate how you can retrieve a record by ID or FetchXML query.  
   
 ## GetEntityDataById  
 
@@ -107,5 +107,5 @@ else
 ### See also  
 
  [Sample: Quick start for XRM Tooling API](sample-quick-start-xrm-tooling-api.md)   
- [Use XRM Tooling to connect to Dynamics 365](use-crmserviceclient-constructors-connect.md)   
- [Use XRM Tooling API to execute actions in Dynamics 365](use-xrm-tooling-execute-actions.md)
+ [Use XRM Tooling to connect to Dynamics 365 for Customer Engagement apps](use-crmserviceclient-constructors-connect.md)   
+ [Use XRM Tooling API to execute actions in Dynamics 365 for Customer Engagement apps](use-xrm-tooling-execute-actions.md)

@@ -1,25 +1,25 @@
 ---
-title: "Sample: Clean up history for a queue (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-decription: "The sample code demonstrates how to clean up the history for the queue using RemoveFromQueueRequest with inactive items."
-ms.custom: ""
+title: "Sample: Clean up history for a queue (early bound) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+decription: The sample code demonstrates how to clean up the history for the queue using RemoveFromQueueRequest with inactive items.
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "cleaning up history in queues (early bound), sample"
-  - "sample for deleting inactive items from queues (early bound)"
-  - "sample for cleaning up history in queues (early bound)"
-  - "deleting inactive items from queues (early bound), sample"
+  - cleaning up history in queues (early bound), sample
+  - sample for deleting inactive items from queues (early bound)
+  - sample for cleaning up history in queues (early bound)
+  - deleting inactive items from queues (early bound), sample
 ms.assetid: 81d686b0-7c5d-45e5-b2df-b74b0413bf6b
 caps.latest.revision: 19
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 

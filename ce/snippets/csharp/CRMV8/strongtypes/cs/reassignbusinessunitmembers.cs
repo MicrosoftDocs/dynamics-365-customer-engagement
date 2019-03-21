@@ -37,7 +37,7 @@ namespace Microsoft.Crm.Sdk.Samples
         private List<Guid> _users;
         private Team _team;
         private Lead[] _leads = new Lead[4];
-        private BusinessUnit _buisnessUnit;
+        private BusinessUnit _businessUnit;
         private BusinessUnit _rootBusinessUnit;
         private List<Guid> _originalRolesIds;
 
@@ -154,7 +154,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     // add user to the created business unit
                     _serviceProxy.Execute(new SetBusinessSystemUserRequest()
                     {
-                        BusinessId = _buisnessUnit.Id,
+                        BusinessId = _businessUnit.Id,
                         ReassignPrincipal = new EntityReference(
                             SystemUser.EntityLogicalName,
                             _users[2]),
@@ -197,7 +197,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     // deactivate business unit before deleting it
                     _serviceProxy.Execute(new SetStateRequest()
                     {
-                        EntityMoniker = _buisnessUnit.ToEntityReference(),
+                        EntityMoniker = _businessUnit.ToEntityReference(),
                         // mark the state as inactive (value 1)
                         State = new OptionSetValue(1),
                         Status = new OptionSetValue(-1)
@@ -205,7 +205,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
                     // delete business unit
                     _serviceProxy.Delete(BusinessUnit.EntityLogicalName,
-                        _buisnessUnit.Id);
+                        _businessUnit.Id);
 
                     #endregion
 
@@ -318,12 +318,12 @@ namespace Microsoft.Crm.Sdk.Samples
             #region create new business unit
 
             Console.WriteLine("  Creating new business unit");
-            _buisnessUnit = new BusinessUnit()
+            _businessUnit = new BusinessUnit()
             {
                 Name = "A Sample Business Unit",
                 ParentBusinessUnitId = _rootBusinessUnit.ToEntityReference()
             };
-            _buisnessUnit.Id = _serviceProxy.Create(_buisnessUnit);
+            _businessUnit.Id = _serviceProxy.Create(_businessUnit);
 
             #endregion
 

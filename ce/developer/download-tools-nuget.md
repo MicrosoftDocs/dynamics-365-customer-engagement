@@ -1,19 +1,19 @@
 ---
-title: "Download tools from NuGet (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Download tools from NuGet (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Download the Plugin Registration, Package Deployment, and other core tools from Nuget."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/6/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: feb3e634-7c60-46fd-8b92-3f5682b1570b
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -85,6 +85,14 @@ You can download tools used in development from NuGet using the  powershell scri
     Remove-Item .\Tools\$pdFolder -Force -Recurse
 
     ##
+    ##Download Package Deployer PowerShell module
+    ##
+    ./nuget install Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell -O .\Tools
+    $pdPoshFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell.'}
+    move .\Tools\$pdPoshFolder\tools\*.* .\Tools\PackageDeployment.PowerShell
+    Remove-Item .\Tools\$pdPoshFolder -Force -Recurse
+
+    ##
     ##Remove NuGet.exe
     ##
     Remove-Item nuget.exe    
@@ -105,7 +113,6 @@ To get the latest version of these tools, repeat these steps.
 [Create early bound entity classes](org-service/create-early-bound-entity-classes-code-generation-tool.md)<br />
 [Create extensions for the code generation tool](org-service/extend-code-generation-tool.md)<br />
 [Browse the metadata for your organization](browse-your-metadata.md)<br />
-[Analyze plug-in performance](analyze-plugin-performance.md)<br />
 [Solution tools for team development](solution-tools-team-development.md)<br />
 [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](../admin/deploy-packages-using-package-deployer-windows-powershell.md)<br />
-[Walkthrough: Register a plug-in using the plug-in registration tool](walkthrough-register-plugin-using-plugin-registration-tool.md)<br />
+[Register a plug-in](/powerapps/developer/common-data-service/register-plug-in)

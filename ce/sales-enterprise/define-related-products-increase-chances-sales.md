@@ -1,31 +1,25 @@
 ---
 title: "Define related products to increase sales (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Improve your opportunities to increase sales by adding related products as suggestions for up-sell, cross-sell, accessories, or substitutes in Dynamics 365 for Sales."
-keywords: "Related product"
+keywords: Related product
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: 
+ms.service:
+  - dynamics-365-sales
+ms.custom:
   - dyn365-sales
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+applies_to:
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: feff6902-ef54-47ff-a13f-e5edc213adb0
+author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 18
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Define related products to increase sales (Sales)
@@ -36,7 +30,7 @@ Improve your opportunities to increase sales by adding related products as sugge
   
  The related products are displayed as suggestions to your sales agents during opportunity or order management. These suggestions help your sales agents recommend related products and bundles/kits to the customers, and increase product sales. You can define the following relationships for a product: Accessory, cross-sell, substitute, and up-sell. For example, for a [!INCLUDE[pn_microsoft_surface](../includes/pn-microsoft-surface.md)] Pro product, you can add [!INCLUDE[pn_microsoft_surface](../includes/pn-microsoft-surface.md)] Book as an up-sell product so that when your sales agent is adding [!INCLUDE[pn_microsoft_surface](../includes/pn-microsoft-surface.md)] Pro to any opportunity, quote, order, or invoice,  [!INCLUDE[pn_microsoft_surface](../includes/pn-microsoft-surface.md)] is suggested as the up-sell option.  
   
-## Add related products (Sales Hub app)
+## Add related products (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -70,7 +64,7 @@ Improve your opportunities to increase sales by adding related products as sugge
 > Currently, product suggestions are not supported in the Sales Hub app. 
 
 
-## Add related products (Sales app)
+## Add related products (Sales)
 
 1. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
@@ -92,7 +86,7 @@ Improve your opportunities to increase sales by adding related products as sugge
   
    When you add a product to an opportunity, the sales agents can see the related product as suggestions for an opportunity. The **Suggestions** dialog box on the opportunity record suggests only those products that are related to the main product and have the same price list as the one associated with the opportunity.  
   
-   ![Product suggestions an opportunity in Dynamics 365](../sales-enterprise/media/v7-product-suggestions.png "Product suggestions an opportunity in Dynamics 365 for Sales")  
+   ![Product suggestions an opportunity in Dynamics 365 for Sales](../sales-enterprise/media/v7-product-suggestions.png "Product suggestions an opportunity in Dynamics 365 for Sales")  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](../sales-enterprise/publish-product-bundle-make-available-selling.md)  

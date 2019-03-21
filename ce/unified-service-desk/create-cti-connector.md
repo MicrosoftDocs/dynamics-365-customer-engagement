@@ -3,20 +3,19 @@ title: "Create a CTI Connector | MicrosoftDocs"
 description: "Learn about the CTI Connector component in your custom CTI adapter contains the logic to connect to and communicate with an external CTI system. CTI Connector consists of the ICtiControl interface, which includes the CtiHostedControl class containing methods and events that will be called and listened to by the CTI Desktop Manager component."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: ""
+ms.date: 01/25/2019
+ms.reviewer: 
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
 ms.assetid: dc647143-8e14-4bb3-ad6a-844f6fc63b33
-caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -43,7 +42,7 @@ The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in y
  [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] implements the [ICtiControl](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.icticontrol) interface. To define a [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)], use the CRM SDK [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project template. [Download](http://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]. 
 
 > [!NOTE]
->  The template works if you have [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.5.2 and [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]. Additionally, you must have [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d).  
+>  The template works if you have [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.6.2 and [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]. Additionally, you must have [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d).  
 
  The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] template provides pre-wired events and methods that help you define a [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)].  
 
@@ -76,9 +75,9 @@ The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in y
 > [!NOTE]
 >  The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] project also lets you define your [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] component. You have to create two separate hosted controls, one each for the [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] and [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)], in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] after you have added the code for the latter in the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a CTI Desktop Manager](../unified-service-desk/create-cti-desktop-manager.md)  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
-2. On the nav bar, choose **Microsoft Dynamics 365** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement apps** > **Settings** > **Unified Service Desk**.  
 
 3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
 

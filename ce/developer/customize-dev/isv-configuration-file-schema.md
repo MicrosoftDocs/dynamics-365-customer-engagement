@@ -1,20 +1,20 @@
 ---
 title: "ISV configuration file schema | MicrosoftDocs"
 description: "The topic shows you the schema definition for the ISV Configuration section of an import/export customization file."
-ms.custom: ""
+ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7e473dfe-f4fd-4c5a-bd43-96fc487620dd
 caps.latest.revision: 21
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic shows you the schema definition for the ISV Configuration section of an import/export customization file. This schema is included from the [Customization Solutions File Schema](customization-solutions-file-schema.md). For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 Solutions](../package-distribute-extensions-use-solutions.md). [!INCLUDE[schema_download](../../includes/schema-download.md)] and see the file `ISV.config.xsd`.
+This topic shows you the schema definition for the ISV Configuration section of an import/export customization file. This schema is included from the [Customization Solutions File Schema](customization-solutions-file-schema.md). For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 for Customer Engagement Solutions](../package-distribute-extensions-use-solutions.md). [!INCLUDE[schema_download](../../includes/schema-download.md)] and see the file `ISV.config.xsd`.
   
 ## Schema  
   
@@ -649,6 +649,6 @@ A Tool Bar that contains buttons
   
 ### See also  
  [Service calendar appearance configuration](service-calendar-appearance-configuration.md)   
- [Schemas Used in Microsoft Dynamics 365](../schemas-used-dynamics-365.md)   
+ [Schemas Used in Microsoft Dynamics 365 for Customer Engagement](../schemas-used-dynamics-365.md)   
  [Schema Support for the Customization File](edit-customizations-xml-file-schema-validation.md)   
  <xref:Microsoft.Crm.Sdk.Messages.ExportSolutionRequest.ExportIsvConfig>

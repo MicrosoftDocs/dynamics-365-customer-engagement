@@ -1,58 +1,58 @@
 ---
-title: "Work with knowledge articles in Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The section provides information about working with the new native Dynamics 365 knowledge management capabilities."
-ms.custom: ""
+title: "Work with knowledge articles in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+description: "The section provides information about working with the new native Dynamics 365 for Customer Engagement knowledge management capabilities."
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "knowledge base entities, creating and searching for knowledge base articles"
-  - "creating a subject tree hierarchy (best practice), knowledge base entities"
-  - "creating and searching for knowledge base articles, knowledge base entities"
-  - "knowledge base entities, templates for"
-  - "publishing and unpublishing knowledge base articles, knowledge base entities"
-  - "knowledge base entities, creating a subject tree hierarchy (best practice)"
-  - "knowledge base entities, specifying search keywords"
-  - "states, knowledge base entities"
-  - "knowledge base entities, publishing and unpublishing knowledge base articles"
-  - "knowledge base entities, KB articles states"
+  - knowledge base entities, creating and searching for knowledge base articles
+  - creating a subject tree hierarchy (best practice), knowledge base entities
+  - creating and searching for knowledge base articles, knowledge base entities
+  - knowledge base entities, templates for
+  - publishing and unpublishing knowledge base articles, knowledge base entities
+  - knowledge base entities, creating a subject tree hierarchy (best practice)
+  - knowledge base entities, specifying search keywords
+  - states, knowledge base entities
+  - knowledge base entities, publishing and unpublishing knowledge base articles
+  - knowledge base entities, KB articles states
   - KB articles, see 'knowledge base entities'
-  - "search keywords, knowledge base entities"
+  - search keywords, knowledge base entities
 ms.assetid: 7d0f1da8-1d6b-4795-a4c1-b0ed898e59f0
 caps.latest.revision: 39
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Work with knowledge articles in Dynamics 365
+# Work with knowledge articles in Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-The new knowledge articles in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] enable you to create rich knowledge articles along with versioning and translation support. When you create and publish a knowledge article, it become available to users in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance so that they can use information in the articles to effectively service the customers. Use the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365.  
+The new knowledge articles in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] enable you to create rich knowledge articles along with versioning and translation support. When you create and publish a knowledge article, it become available to users in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance so that they can use information in the articles to effectively service the customers. Use the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 for Customer Engagement.  
   
- This topic provides information about working with the new native Dynamics 365 knowledge management capabilities.  
+ This topic provides information about working with the new native Dynamics 365 for Customer Engagement knowledge management capabilities.  
   
 > [!NOTE]
->  If you’re using the earlier knowledge base article (`KBArticle`) entity model, see [Work with earlier Dynamics 365 knowledge base articles](work-knowledge-articles.md#EarlierKBArticle) later in this topic.  
+>  If you’re using the earlier knowledge base article (`KBArticle`) entity model, see [Work with earlier Dynamics 365 for Customer Engagement knowledge base articles](work-knowledge-articles.md#EarlierKBArticle) later in this topic.  
   
- You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 instance; it can only be done using the Dynamics 365 web client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management in CRM](http://go.microsoft.com/fwlink/p/?LinkId=691083)  
+ You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 for Customer Engagement instance; it can only be done using the Dynamics 365 for Customer Engagement web client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management in CRM](http://go.microsoft.com/fwlink/p/?LinkId=691083)  
   
 <a name="Create"></a>   
 ## Create a knowledge article  
- When you create a knowledge article record, Dynamics 365 internally creates a root article for the record. The root article acts as a container for the primary knowledge article created by you along with all the article versions and translations that you might create in future. The following diagram depicts the entity model for the `KnowledgeArticle` entity.  
+ When you create a knowledge article record, Dynamics 365 for Customer Engagement internally creates a root article for the record. The root article acts as a container for the primary knowledge article created by you along with all the article versions and translations that you might create in future. The following diagram depicts the entity model for the `KnowledgeArticle` entity.  
   
  ![KnowledgeArticle entity model](media/crm-knowledgearticleentitymodel.png "KnowledgeArticle entity model")  
   
- When you create a knowledge article record, it’s created in the `Draft` state. Using the new `KnowledgeArticle` entity, you can create an article by specifying its contents and formatting in the HTML format as compared to using the old `KbArticle` entity where you had to associate it with a template that described the sections and formatting for the article. You can specify your own value for the `KnowledgeArticle`.`ArticlePublicNumber` attribute while creating a knowledge article record programmatically; otherwise, the value is automatically generated based on the format you specified in the Dynamics 365 settings area in the web client. The `KnowledgeArticle`.`ArticlePublicNumber` attribute stores the ID exposed to customers, partners, and other external users to reference and look up knowledge articles, and remains the same across knowledge article versions and translations.  
+ When you create a knowledge article record, it’s created in the `Draft` state. Using the new `KnowledgeArticle` entity, you can create an article by specifying its contents and formatting in the HTML format as compared to using the old `KbArticle` entity where you had to associate it with a template that described the sections and formatting for the article. You can specify your own value for the `KnowledgeArticle`.`ArticlePublicNumber` attribute while creating a knowledge article record programmatically; otherwise, the value is automatically generated based on the format you specified in the Dynamics 365 for Customer Engagement settings area in the web client. The `KnowledgeArticle`.`ArticlePublicNumber` attribute stores the ID exposed to customers, partners, and other external users to reference and look up knowledge articles, and remains the same across knowledge article versions and translations.  
   
  The following sample code shows how you can create a knowledge article record:  
   
@@ -150,8 +150,8 @@ _serviceProxy.Execute(updateKnowledgeArticle);
 ```  
   
 <a name="Associate"></a>   
-## Associate a knowledge article record with a Dynamics 365 entity instance  
- When you enable embedded knowledge search for an entity in Dynamics 365 using the web client, a many-to-many relationship, `msdyn_`***<Entity_Name>***`_knowledgearticle`, is automatically created. You can use this relationship to programmatically associate or link a `KnowledgeArticle` instance with a Dynamics 365 entity instance. When you associate a `KnowledgeArticle` instance with an entity instance, a record for the relationship is created in an intersect entity called `msdyn_`***<Entity_Name>***`_knowledgearticle`. For example, when you associate a `KnowledgeArticle` instance with an `Account` instance for the first time, an intersect entity called `msdyn_account_knowledgearticle` is created, and a record with the association mapping is created in this intersect entity. By default, the `Incident` (Case) entity is enabled for the embedded knowledge search, and when you link a `KnowledgeArticle` record to an `Incident` record, an association record is created in the `KnowledgeArticleIncident` intersect entity.  
+## Associate a knowledge article record with a Dynamics 365 for Customer Engagement apps entity instance  
+ When you enable embedded knowledge search for an entity in Dynamics 365 for Customer Engagement using the web client, a many-to-many relationship, `msdyn_`***<Entity_Name>***`_knowledgearticle`, is automatically created. You can use this relationship to programmatically associate or link a `KnowledgeArticle` instance with a Dynamics 365 for Customer Engagement entity instance. When you associate a `KnowledgeArticle` instance with an entity instance, a record for the relationship is created in an intersect entity called `msdyn_`***<Entity_Name>***`_knowledgearticle`. For example, when you associate a `KnowledgeArticle` instance with an `Account` instance for the first time, an intersect entity called `msdyn_account_knowledgearticle` is created, and a record with the association mapping is created in this intersect entity. By default, the `Incident` (Case) entity is enabled for the embedded knowledge search, and when you link a `KnowledgeArticle` record to an `Incident` record, an association record is created in the `KnowledgeArticleIncident` intersect entity.  
   
  The following sample code demonstrates how to associate a `KnowledgeArticle` instance with an `Account` instance:  
   
@@ -180,15 +180,15 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
   
 <a name="Search"></a>   
 ## Search knowledge articles using full-text search  
- Knowledge articles in Dynamics 365, including their versions and translations, are full-text indexed and support SQL Server full-text search. For more information about full-text search, see [SQL Server: Full-text Search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search).  
+ Knowledge articles in Dynamics 365 for Customer Engagement, including their versions and translations, are full-text indexed and support SQL Server full-text search. For more information about full-text search, see [SQL Server: Full-text Search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search).  
   
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
   
 <a name="EarlierKBArticle"></a>   
-## Work with earlier Dynamics 365 knowledge base articles  
+## Work with earlier Dynamics 365 for Customer Engagement apps knowledge base articles  
   
 > [!NOTE]
->  This section provides you with information about working with the earlier knowledge base article entity model for knowledge management in Dynamics 365. While the entities mentioned in this section are still available in the current version, you should use the knowledge management entities mentioned earlier to take advantage of the enhanced knowledge management experience.  
+>  This section provides you with information about working with the earlier knowledge base article entity model for knowledge management in Dynamics 365 for Customer Engagement. While the entities mentioned in this section are still available in the current version, you should use the knowledge management entities mentioned earlier to take advantage of the enhanced knowledge management experience.  
   
  During its lifecycle, a knowledge base article can be in the following states:  
   

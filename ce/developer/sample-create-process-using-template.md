@@ -1,20 +1,20 @@
 ---
-title: "Sample: Create a process using a template (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create a process using a template (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This sample demonstrates how to create a workflow process using a template using the CreateWorkflowFromTemplateRequest"
-ms.custom: ""
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "samples"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: samples
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 5c7f045f-7b57-4e44-a99c-becefe533035
 caps.latest.revision: 20
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the sample: [Work with workflows](https://code.msdn.microsoft.com/Work-with-workflows-edf8f3bf).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for Customer Engagement apps. Download the sample: [Work with workflows](https://code.msdn.microsoft.com/Work-with-workflows-edf8f3bf).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -41,5 +41,5 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 ### See also  
  [Sample Code for Processes](sample-code-processes.md)   
  [Sample: Execute a Workflow](sample-run-workflow.md)   
- [Processes in Dynamics 365 (formerly Workflows)](automate-business-processes-customer-engagement.md)   
+ [Processes in Dynamics 365 for Customer Engagement apps(formerly Workflows)](automate-business-processes-customer-engagement.md)   
  <xref:Microsoft.Crm.Sdk.Messages.CreateWorkflowFromTemplateRequest>

@@ -1,29 +1,29 @@
 ---
-title: "Use LINQ to construct a query (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Discusses how to use .NET Language-Integrated Query(LINQ) query provider in Dynamics 365 to construct a query"
-ms.custom: ""
+title: "Use LINQ to construct a query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Discusses how to use .NET Language-Integrated Query(LINQ) query provider in Dynamics 365 for Customer Engagement to construct a query"
+ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 helpviewer_keywords: 
-  - "LINQ operators and their limitations, select clause"
-  - "LINQ operators and their limitations, orderby operator"
-  - "LINQ operators and their limitations, from clause"
-  - "LINQ operators and their limitations"
-  - "LINQ operators and their limitations, join clause"
-  - "LINQ operators and their limitations, where clause"
-  - "LINQ queries, using LINQ to construct queries"
-  - "using LINQ to construct queries, LINQ operators and their limitations"
+  - LINQ operators and their limitations, select clause
+  - LINQ operators and their limitations, orderby operator
+  - LINQ operators and their limitations, from clause
+  - LINQ operators and their limitations
+  - LINQ operators and their limitations, join clause
+  - LINQ operators and their limitations, where clause
+  - LINQ queries, using LINQ to construct queries
+  - using LINQ to construct queries, LINQ operators and their limitations
 ms.assetid: 8fda7c51-ce40-4263-aeac-804dc79ea212
 caps.latest.revision: 41
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -33,18 +33,18 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] query provider in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement uses standard LINQ syntax. The first step in creating a LINQ query is to identify the relevant entity types and the relationships between them. You can then specify the data source and the other query parameters.  
+The [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] query provider in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps uses standard LINQ syntax. The first step in creating a LINQ query is to identify the relevant entity types and the relationships between them. You can then specify the data source and the other query parameters.  
 
  The `from` clause is used to return a single “root” entity. The query provider can only return entities of a single entity type. The `orderby` and `select` clauses must reference this root entity. You can use `join` clauses to add entities with a relationship to the “root” entity.  
 
 <a name="bkmk_operators"></a>   
 ## LINQ operators  
- All LINQ query expressions have a similar format. The following table shows the most common clauses in a LINQ query expression when using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] LINQ query provider.  
+ All LINQ query expressions have a similar format. The following table shows the most common clauses in a LINQ query expression when using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps LINQ query provider.  
 
 ### from  
  When using the generated service context and early binding, use the `IQueryable` entity set, such as `AccountSet`, in the generated context.  
 
- When not using the generated context, the `CreateQuery` method on the organization service context object gives you access to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] entities.  
+ When not using the generated context, the `CreateQuery` method on the organization service context object gives you access to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps entities.  
 
  Example:  
 
@@ -131,7 +131,7 @@ select new Contact
 
 <a name="filter"></a>   
 ## Filter multiple entities  
- You can create complex [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] queries in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]. You use multiple `Join` clauses with filter clauses to create a result that is filtered on attributes from several entities.  
+ You can create complex [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] queries in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps and [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps. You use multiple `Join` clauses with filter clauses to create a result that is filtered on attributes from several entities.  
 
  The following sample shows how to create a LINQ query that works with two entities and filters the result based on values from each of the entities.  
 

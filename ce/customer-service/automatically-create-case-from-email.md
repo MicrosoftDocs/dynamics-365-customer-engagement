@@ -1,11 +1,11 @@
 ---
 title: Automatically create a case from an email (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to automatically create a case from an email in Dynamics 365 for Customer Service
-keywords: Automatically create a case from an email; Dynamics 365; Customer Service; Create cases automatically using rules; Activate or deactivate a case creation rule
+keywords: Automatically create a case from an email; Dynamics 365 for Customer Engagement; Customer Service; Create cases automatically using rules; Activate or deactivate a case creation rule
 author: anjgupta
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
@@ -28,8 +28,6 @@ search.app:
 
 Reduce the need for manually creating cases from incoming emails and increase the efficiency of customer service agents by creating automatic case creation rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The conditions in these rules automatically convert emails to support cases.  
 
-> [!NOTE]
-> This feature was introduced in [!INCLUDE[pn_crm_8_1_0_online.md](../includes/pn-crm-8-1-0-online.md)].
 
 ## Create cases automatically using rules  
 
@@ -47,11 +45,11 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
 3. Select **Automatic Case Creation Rules**.  
 
-4. To create a new case creation rule, click **New**.  
+4. To create a new case creation rule, select **New**.  
 
     -OR-  
 
-    To edit an existing rule, in the list of rules, select a rule, and then on the command bar, click **Edit**.  
+    To edit an existing rule, in the list of rules, select a rule, and then on the command bar, select **Edit**.  
 
 5. Type or modify information in the fields.  
 
@@ -64,20 +62,20 @@ Reduce the need for manually creating cases from incoming emails and increase th
    - **Queue**. Select the queue that the rule applies to. For example, if you want to convert email messages and then send them to the Support queue, select that queue here.  
 
      > [!NOTE]
-     >  You can associate only one rule per source type to a specific queue. If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue.  Otherwise, automatic case creation for email won’t work. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
+     >  You can associate only one rule per source type to a specific queue. If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue.  Otherwise, automatic case creation for email won’t work. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
 
 6. In the **Specify Conditions for Case Creation** section, select the conditions for creating the case automatically. You can add multiple conditions here and arrange them in the desired order. The conditions are considered in the same order. Only one item that has conditions matching the incoming email is applied.  
 
    #### Specify conditions for email to case creation  
 
-   1. **Create cases for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address is not present in any Dynamics 365 records) are converted to cases. A contact record is also created for this unknown sender.  
+   1. **Create cases for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address is not present in any Dynamics 365 for Customer Engagement records) are converted to cases. A contact record is also created for this unknown sender.  
 
       > [!NOTE]
       >  If this option is not selected, cases are created only for email messages that have a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contact or account as the senders. Email messages from sender that are present as other record types in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] won’t be converted to cases.  
 
-        This option, in conjunction with the **Automatically create records in Microsoft Dynamics 365** option in the rule owner’s Personal Options, determines whether a case and contact record is created (see [Set personal options](../basics/set-personal-options.md)):  
+        This option, in conjunction with the **Automatically create records in Microsoft Dynamics 365 for Customer Engagement** option in the rule owner’s Personal Options, determines whether a case and contact record is created (see [Set personal options](../basics/set-personal-options.md)):  
 
-        This table shows if a contact and case record is created based on the values set for the **Automatically create records in Microsoft Dynamics 365** field in Personal Options and the **Create cases for email from unknown senders** check box in the automatic case creation rule:  
+        This table shows if a contact and case record is created based on the values set for the **Automatically create records in Microsoft Dynamics 365 for Customer Engagement** field in Personal Options and the **Create cases for email from unknown senders** check box in the automatic case creation rule:  
 
 
       | “Automatically create records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]” option is set to: | If “Create case from unknown sender” option in this rule is set to: |    Contact or case created?     |
@@ -110,7 +108,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
    #### Specify case details  
 
-   1. In the **Specify Case Details** section, click **+**, and define the conditions for creating a case and specify the case properties.  
+   1. In the **Specify Case Details** section, select **+**, and define the conditions for creating a case and specify the case properties.  
 
    2. In the Conditions section, specify when the case should be created.  
 
@@ -128,14 +126,14 @@ Reduce the need for manually creating cases from incoming emails and increase th
 >  If there’s no routing rule to route the newly created case to another user or queue, the user who’s the owner of the case creation rule will be set as the owner of the case, too.  
 
 ## Activate or deactivate a case creation rule  
- Cases are created automatically only when the case creation rule is active. To activate a rule, open it, and on the command bar, click **Activate**.  
+ Cases are created automatically only when the case creation rule is active. To activate a rule, open it, and on the command bar, select **Activate**.  
 
- Once the rule is active, you can’t change it. To change a rule, first open the rule and on the command bar, and click **Deactivate**. You can then edit the rule.  
+ Once the rule is active, you can’t change it. To change a rule, first open the rule and on the command bar, and select **Deactivate**. You can then edit the rule.  
 
 ## Manage automatic case creation from a queue form  
- You can create or manage an automatic case creation rule from a queue form, too. To do this, open the queue record, and on the command bar, click **Email to Case Settings**.  
+ You can create or manage an automatic case creation rule from a queue form, too. To do this, open the queue record, and on the command bar, select **Email to Case Settings**.  
 
 ### See also  
  [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)    </br>
- [Create or change a queue](../customer-service/create-edit-queue.md)   
+[Create or change a queue](set-up-queues-manage-activities-cases.md)
 

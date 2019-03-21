@@ -1,20 +1,20 @@
 ---
-title: "Retrieve and execute predefined queries (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Dynamics 365 Customer Engagement provides a way for administrators to create system views that are available to all users. Read how you can compose a predefined query and use FetchXML to create a query string to retrieve data"
-ms.custom: ""
+title: "Retrieve and execute predefined queries (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Dynamics 365 for Customer Engagement provides a way for administrators to create system views that are available to all users. Read how you can compose a predefined query and use FetchXML to create a query string to retrieve data"
+ms.custom: 
 ms.date: 06/14/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3d771a18-3dc5-4372-a7c7-40b3b1f986d8
 caps.latest.revision: 16
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
 search.audienceType: 
   - developer
 search.app: 
@@ -25,13 +25,13 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement provides a way for administrators to create system views that are available to all users. Individual users can save the advanced find queries for re-use in the application. Both of these represent predefined queries you can retrieve and execute using the Web API. You can also compose a query using FetchXml and use that to retrieve data.
+[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps provides a way for administrators to create system views that are available to all users. Individual users can save the advanced find queries for re-use in the application. Both of these represent predefined queries you can retrieve and execute using the Web API. You can also compose a query using FetchXml and use that to retrieve data.
 
 <a name="bkmk_predefinedQueries"></a>
 
 ## Predefined queries
 
-[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] allows you to define, save, and execute two types of queries as listed here.
+[!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps allows you to define, save, and execute two types of queries as listed here.
 
 
 |   Query type    |                                                                                                                                                 Description                                                                                                                                                  |

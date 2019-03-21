@@ -1,20 +1,20 @@
 ---
-title: "Find your way around Dynamics 365 Customer Engagement apps | MicrosoftDocs"
-ms.custom: ""
+title: "Find your way around Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+ms.custom: 
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
 caps.latest.revision: 58
-author: "brycho"
-ms.author: "brycho"
-manager: "amyla"
+author: brycho
+ms.author: brycho
+manager: amyla
 search.audienceType: 
   - enduser
 search.app: 
@@ -34,14 +34,14 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
 1. Sign in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], click the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** icon.  
   
-   ![Office 365 app launcher with Dynamics 365 iconselected](../basics/media/office-365-app-launcher-with-dynamics-365-iconselected.png "Office 365 app launcher with Dynamics 365 iconselected")  
+   ![Office 365 app launcher with Dynamics 365 for Customer Engagement apps iconselected](../basics/media/office-365-app-launcher-with-dynamics-365-iconselected.png "Office 365 app launcher with Dynamics 365 for Customer Engagement apps iconselected")  
   
 > [!NOTE]
 >  The apps available to you in the app launcher depend on your subscription.  
   
 2. In the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Home page, select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] app for your role.  
   
-   ![Dynamics 365 Home page with 4 apps](../basics/media/dynamics-365-home-page-with-4-apps.png "Dynamics 365 Home page with 4 apps")  
+   ![Dynamics 365 for Customer Engagement apps Home page with 4 apps](../basics/media/dynamics-365-home-page-with-4-apps.png "Dynamics 365 for Customer Engagement apps Home page with 4 apps")  
   
 > [!TIP]
 >  To go directly to the Home page, go to [https://home.dynamics.com](https://home.dynamics.com). You can also sign in to an app directly using a URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sign in with a URL](../admin/sign-in-office-365-apps.md)  
@@ -50,7 +50,7 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
 - On the navigation bar, go to **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]>My apps**, and then select the app you want.  
   
-  ![Dynamics 365 app switcher](../basics/media/dynamics-365-app-switcher.png "Dynamics 365 app switcher")  
+  ![Dynamics 365 for Customer Engagement app switcher](../basics/media/dynamics-365-app-switcher.png "Dynamics 365 for Customer Engagement app switcher")  
   
 ## Find your way around the app menus
  When you open an app, you’ll see tiles and icons (called a *sitemap*) for that app. Use the icons to access different types of information relevant to that role.  
@@ -61,7 +61,7 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
 >  Your Sales or Customer Service app sitemap may be different if your app has been customized.  
   
 ## Sales app sitemap  
- ![Sales app site map for Dynamics 365](../basics/media/sales-app-site-map-for-dynamics-365.png "Sales app site map for Dynamics 365")  
+ ![Sales app site map for Dynamics 365 for Customer Engagement apps](../basics/media/sales-app-site-map-for-dynamics-365.png "Sales app site map for Dynamics 365 for Customer Engagement apps")  
   
  **1**. **Dashboards** collect all your most important data in one place. You can select from several dashboards for your role.  
   
@@ -99,7 +99,7 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
  **18**. Use **Rollup Queries** to gather data about a given goal, including all its related goals, in one view.  
   
- **19**. Dynamics 365 comes with many built-in **Reports**. You can access and run them from here, or you can create your own reports.  
+ **19**. Dynamics 365 for Customer Engagement apps comes with many built-in **Reports**. You can access and run them from here, or you can create your own reports.  
   
  **20**. **Alerts** shows system-wide alerts to let you know about issues such as problems with your mailbox.  
   
@@ -128,12 +128,12 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
  **10**. Tracks the specifics of **Services** provided by your business.  
   
- **11**. Dynamics 365 comes with many built-in **Reports**. You can access and run them from here, or you can create your own reports.  
+ **11**. Dynamics 365 for Customer Engagement apps comes with many built-in **Reports**. You can access and run them from here, or you can create your own reports.  
   
  **12**. The **Calendar** shows all your scheduled appointments. You can use rules when scheduling appointments.  
   
-## Dynamics 365 - Custom (Settings) sitemap  
- ![Dynamics 365 Settings sitemap](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 Settings sitemap")  
+## Dynamics 365 for Customer Engagement apps - Custom (Settings) sitemap  
+ ![Dynamics 365 for Customer Engagement apps Settings sitemap](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 for Customer Engagement apps Settings sitemap")  
   
  **1**. Use **Business Management** to set a variety of business settings. For example, set fiscal year settings, or when your business is closed.  
   
@@ -147,7 +147,7 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
  **6**. See **Sync Errors** associated with mobile offline.  
   
- **7**. Use **Customizations** to make Dynamics 365 work the way your business does: add or remove fields, create or customize forms, reports, views, dashboards, charts, and more.  
+ **7**. Use **Customizations** to make Dynamics 365 for Customer Engagement apps work the way your business does: add or remove fields, create or customize forms, reports, views, dashboards, charts, and more.  
   
  **8**. It’s a best practice to keep your customizations separate from the default solution. Create and manage your **Solutions** here.  
   
@@ -161,19 +161,19 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
  **13**. Use **Data Management** to turn sample data on or off, import data, set up duplicate detection rules, and more.  
   
- **14**. Several Dynamics 365 features use **System Jobs** to perform tasks automatically, including workflows, import, and duplicate detection. Monitor your system jobs here.  
+ **14**. Several Dynamics 365 for Customer Engagement apps features use **System Jobs** to perform tasks automatically, including workflows, import, and duplicate detection. Monitor your system jobs here.  
   
- **15**. Use **Document Management** to set up SharePoint integration. With SharePoint, your team can work together on the same documents. SharePoint integration is also required if you want to use other collaboration features like OneNote, OneDrive for Business, or Office 365 Groups with Dynamics 365.  
+ **15**. Use **Document Management** to set up SharePoint integration. With SharePoint, your team can work together on the same documents. SharePoint integration is also required if you want to use other collaboration features like OneNote, OneDrive for Business, or Office 365 Groups with Dynamics 365 for Customer Engagement apps.  
   
  **16**. Enable **Auditing** to track changes made to your business data.  
   
- **17**. Use **Email Configuration** to integrate Outlook or web mail systems with Dynamics 365. You can also manage and monitor mailboxes from here.  
+ **17**. Use **Email Configuration** to integrate Outlook or web mail systems with Dynamics 365 for Customer Engagement apps. You can also manage and monitor mailboxes from here.  
   
  **18**. Users can stay up-to-date on what’s happening in your organization by using **Activity Feeds**. This is where you can administer them. But consider Yammer integration as an alternative to Activity Feeds.  
   
  **19**. Use **Activity Feeds Rules** to specify when posts will automatically be created for followed records.  
   
- **20**. Set up **Dynamics 365 App for Outlook**, which is an Office add-on for Microsoft Outlook. With Dynamics 365 App for Outlook, users can view Dynamics 365 data from Outlook, and can track Outlook email and appointment records with a single click.  
+ **20**. Set up **Dynamics 365 App for Outlook**, which is an Office add-on for Microsoft Outlook. With Dynamics 365 for Customer Engagement App for Outlook, users can view Dynamics 365 for Customer Engagement apps data from Outlook, and can track Outlook email and appointment records with a single click.  
   
  **21**. Set up **Relationship Insights** to continuously analyze a vast collection of data to help users better understand business relationships, evaluate their activities in relation to previous successes, and choose the best path forward.  
   
@@ -186,7 +186,7 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
 ## Navigation bar buttons  
  The navigation bar in each app has the same buttons:  
   
- ![Dynamics 365 navigation bar buttons](../basics/media/dynamics-365-navigation-bar-buttons.png "Dynamics 365 navigation bar buttons")  
+ ![Dynamics 365 for Customer Engagement apps navigation bar buttons](../basics/media/dynamics-365-navigation-bar-buttons.png "Dynamics 365 for Customer Engagement apps navigation bar buttons")  
   
  **1**.  Do a simple search for a record.  
   
@@ -209,5 +209,5 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
  [Dynamics 365 for Project Service Automation](../project-service/overview.md)  
   
- [Administrator's Guide to Dynamics 365](../admin/admin-guide.md)  
+ [Administrator's Guide to Dynamics 365 for Customer Engagement](../admin/admin-guide.md)  
   
