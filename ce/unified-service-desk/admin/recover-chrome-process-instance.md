@@ -44,27 +44,34 @@ By default, Chrome Process instance recovery is enabled.
 
 When a hosted control that uses an Chrome Process browser control closes abruptly, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays the message **Chrome Process closed abruptly**.
 
-<!-- ![Chrome Process closed abruptly](../../unified-service-desk/media/usd-ie-closed-abruptly-33update.PNG "Chrome Process closed abruptly") -->
+ > [!div class="mx-imageBorder"]
+ > ![Chrome Process closed abruptly](../../unified-service-desk/media/usd-chrome-process-closed-abruptly.PNG "Chrome Process closed abruptly")
 
 To recover the closed instance (which may contain more than one webpage), select **Reload**. After you select **Reload**, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] reloads the webpage to the last known URL. That is, when you open an **Account** Chrome Process webpage and navigate inline to a **Case** Chrome Process webpage. If the **Case** webpage becomes unresponsive, the recovery feature reloads only the **Account** webpage.
 
 If you don't want to recover, select **Cancel**. If you cancel, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application skips recovery of the Chrome Process instance and displays a message, **The webpage stopped responding. If you frequently experience unexpected closing of Chrome Process webpage, contact your system administrator**.
 
-<!-- ![Cancel to skip the recovery of Chrome Process webpage](../../unified-service-desk/media/usd-ie-closed-abruptly-cancel.PNG "Cancel to skip the recovery of Chrome Process webpage") -->
+ > [!div class="mx-imageBorder"]
+ > ![Cancel to skip the recovery of Chrome Process webpage](../../unified-service-desk/media/usd-chrome-process-closed-abruptly-cancel.PNG "Cancel to skip the recovery of Chrome Process webpage")
 
 ## Use keyboard shortcut to terminate and recover unresponsive Chrome Process instance
 
-When the Chrome Process webpage is unresponsive and causes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to freeze, select the unresponsive tab (webpage) and use the keyboard shortcut **Ctrl+K** to terminate. 
+When the Chrome Process webpage is unresponsive and causes the webpage to freeze, select the webpage and use the keyboard shortcut **Ctrl+K** to terminate. Use the mouse to click anywhere on the form area and on application management toolbar. If you select the tab and try to use the keyboard shortcut, Unified Service Desk doesn't display the dialog box with a message.
+
+ > [!div class="mx-imageBorder"]
+ > ![Select the form area including the application management toolbar except the tabs](../../unified-service-desk/media/usd-chrome-process-select-form-area.PNG "Select the form area including the application management toolbar except the tabs")
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a dialog box: **You have chosen to end the Chrome Process instance of \<name of application\> by Pressing** **CTRL** + **K** **. Do you want to continue?**. 
 
-<!-- ![Keyboard shortcut to terminate and not to recover Chrome Process webpage](../../unified-service-desk/media/usd-ie-terminate-shortcutkey.PNG "Keyboard shortcut to terminate and not to recover Chrome Process webpage") -->
+ > [!div class="mx-imageBorder"]
+ > ![Keyboard shortcut to terminate and not to recover Chrome Process webpage](../../unified-service-desk/media/usd-chrome-process-terminate-shortcutkey.PNG "Keyboard shortcut to terminate and not to recover Chrome Process webpage")
 
 Select **Yes** to terminate the Chrome Process instance. Select **No** to cancel the operation.
 
 After you end the Chrome Process instance, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays a message, **Chrome Process closed abruptly**. Select **Reload** to recover the closed Chrome Process instance. If you don't want to recover, select **Cancel**.
 
-<!--![Chrome Process closed abruptly](../../unified-service-desk/media/usd-ie-closed-abruptly-33update.PNG "Chrome Process closed abruptly")-->
+ > [!div class="mx-imageBorder"]
+ > ![Chrome Process closed abruptly](../../unified-service-desk/media/usd-chrome-process-closed-abruptly.PNG "Chrome Process closed abruptly")
 
 > [!Note]
 > - The agent must use the keyboard shortcut as last option when the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process fails to detect the unresponsive Chrome Process instance.
