@@ -49,6 +49,9 @@ When a hosted control that uses an Chrome Process browser control closes abruptl
 
 To recover the closed instance (which may contain more than one webpage), select **Reload**. After you select **Reload**, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] reloads the webpage to the last known URL. That is, when you open an **Account** Chrome Process webpage and navigate inline to a **Case** Chrome Process webpage. If the **Case** webpage becomes unresponsive, the recovery feature reloads only the **Account** webpage.
 
+ > [!div class="mx-imageBorder"]
+ > ![Chrome Process closed abruptly. Select Relod to recover the Process](../../unified-service-desk/media/usd-chrome-process-webpage-closed-abruptly-gif.GIF "Chrome Process closed abruptly")
+
 If you don't want to recover, select **Cancel**. If you cancel, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application skips recovery of the Chrome Process instance and displays a message, **The webpage stopped responding. If you frequently experience unexpected closing of Chrome Process webpage, contact your system administrator**.
 
  > [!div class="mx-imageBorder"]
