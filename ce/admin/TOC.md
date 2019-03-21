@@ -248,8 +248,8 @@
 ## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
 
-# [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
-## [Dynamics 365 Government - Feature availability](../admin/government/government-feature-availability.md)
+# [Dynamics 365 US Government](../admin/government/microsoft-dynamics-365-government.md)
+## [Dynamics 365 US Government - Feature availability](../admin/government/government-feature-availability.md)
 
 # System Settings Dialog Box Reference
 ## [General tab](system-settings-dialog-box-general-tab.md)
