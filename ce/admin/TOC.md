@@ -4,6 +4,7 @@
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
 ## [About Unified Interface](about-unified-interface.md)
+<!-- ## [Enable Unified Interface Only](enable-unified-interface-only.md)   -->
 ## [Update apps to Unified Interface](update-apps-to-unified-interface.md)
 ## [Enable hybrid experience](enable-hybrid-experience.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
