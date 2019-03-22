@@ -186,18 +186,17 @@ Once the territory record is created, you can add it to a resource. Learn more o
   
 3. Select a **Territory** from the lookup then **Save & Close**.   
 
-## Resource Scheduling Optimization
+## Enabling resource for Resource Scheduling Optimization (RSO)
 
-If Resource Scheduling Optimization (RSO) is enabled in your organization, a new tab will appear on the bookable resource form. To allow RSO to automaitcally schedule requirements to the resource, go to the new tab and set **Optimize Schedule** to **Yes**.
+If Resource Scheduling Optimization (RSO) is enabled in your organization, a new tab will appear on the bookable resource form. To allow RSO to automatically schedule requirements to the resource, go to the new tab and set **Optimize Schedule** to **Yes**.
 
 Setting to Yes does not mean requirements will automatically be scheduled to this bookable resource, instead it means that after RSO is set up and with the appropriate scope to include this bookable resource, then it would be eligible for automatic schedules.
 
 ## Additional notes
 
 - Only one resource record can be associated to a user record, however multiple resources can be associated to a single account or contact record. 
-- the start and end location is used during break time as well
-- hidden lat and long fields
-- drip scheduling is currently unavailable for field service mobile 11.0+
+- The start/end location of a resource is used as the resource's location during break hours if a break is configured when working hours are set up for that resource. 
+- Drip scheduling is currently unavailable for Field Service Mobile 11.0+
 
 
 ### See also   
