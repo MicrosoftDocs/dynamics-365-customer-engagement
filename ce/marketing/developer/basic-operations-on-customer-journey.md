@@ -41,7 +41,7 @@ This topic demonstrates how to perform operations on the `msdyncrm_customerjourn
 |Customer Journey Designer State|msdyncrm_customerjourneydesignerstate|This is a hidden field, used by the customer journey designer to persist its internal state. The field should be copied if you are creating a copy of `msdyncrm_workflowdefinition` field, from another customer journey or customer journey template record.|
 |Time Zone|msdyncrm_customerjourneytimezone|Effective time zone for the customer journey|
 |Content Settings|msdyncrm_contentsettingsId|The ID of associated [Content Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/dynamic-email-content). Use it to reference a record from `msdyncrm_contentsettingss` record set.|
-|End Date and Time|msdyncrm_enddatetime|Date time value in `ISO 8601 UTC` format.|
+|End Date and Time|msdyncrm_enddatetime|Date time value in `ISO 8601` UTC format.|
 |Start Date and Time|msdyncrm_startdatetime|Date time value in `ISO 8601` UTC format.|
 |Is Recurring|msdyncrm_isrecurring|A boolean value.|
 |Entity Target|msdyncrm_entitytarget|- Contact `0`<br />- Account `1`|
@@ -55,7 +55,7 @@ Use the Postman tool to test the operations. More information [Use Postman With 
 
 ## CRUD operations
 
-**Create request**
+### Create request
 
 This request creates a customer journey record and sets the `statuscode` to `Draft`. This customer journey includes a segment with `ID:24db2671-1529-e911-a9b7-000d3a1e6adc` and `Unique Name: TC407937_DynamicSegment_2KZQ1p`. an email  with `ID: 15bd0ab8-c12a-e911-a9b6-000d3a1e6c14`. The effective Content Settings has record `ID: 1922b1d8-0523-e911-a9ba-000d3a1e689f`. The response header [OData-EntityId](http://docs.oasis-open.org/odata/odata/v4.0/os/part1-protocol/odata-v4.0-os-part1-protocol.html#_Toc372793637) contains the URL to this newly created record (entity instance), which parenthetically includes the unique ID for this record.
 
@@ -82,7 +82,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys
 }
 ```
 
-**Retrieve request**
+### Retrieve request
 
 The retrieve request retrieves the list of `Live` customer journeys.
 
@@ -90,7 +90,7 @@ The retrieve request retrieves the list of `Live` customer journeys.
 GET {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys?$filter=statuscode eq 192350001
 ```
 
-**Update request**
+### Update request
 
 With the update request, you will update the `statuscode` to `Going Live` which effectively publishes it.
 
@@ -101,7 +101,7 @@ PATCH {{OrgUrl}}api/data/v9.0/msdyncrm_customerjourneys(8aee9d91-8c2b-e911-a9b7-
 }
 ```
 
-**Delete request**
+### Delete request
 
 With the delete request, you will delete the customer journey that you have created earlier.
 
@@ -131,9 +131,7 @@ The request body is a `JSON` object which contains a number of data elements wit
 |FieldValueSuppressionSegmentId|msdyncrm_suppressionsegmentid|
 |FieldValueCustomerJourneyTimeZone|msdyncrm_customerjourneytimezone|
 
-## Validate Customer Journey
-
-**Request**
+### Validate Customer Journey request
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_CustomerJourneyValidate
@@ -155,7 +153,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_CustomerJourneyValidate
 }
 ```
 
-**Response**
+### Validate Customer Journey response
 
 ```HTTP
 {
@@ -164,21 +162,25 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_CustomerJourneyValidate
 }
 ```
 
-## Validation response
+### Validation result
+
+The table below describes the schema of `ValidationResult` object received in [Validate Customer Journey response](#validate-customer-journey-response).
 
 |Property|Type|Description|
 |-------|------|---------|
 |Result|`String`|The overall error check result. It has the following values:<br /> **Valid** – records that passed validation check.<br />**Warning** – records that passed validation check but there are non-blocking issues with it.<br />**Error** – records that did not pass validation, there are blocking issues with it.|
-|ActivityValidationResults|Array of objects|An array of validation detail objects. Each one refers to a specific problem which can apply to the customer journey record a specific tile within the workflow design. See the [Activity validation result schema](#activity-validation-result)|
+|ActivityValidationResults|`Object[]`|An array of validation detail objects. Each one refers to a specific problem which can apply to the customer journey record a specific tile within the workflow design. See the [Activity validation result schema](#activity-validation-result)|
 
-## Activity validation result
+### Activity validation result
+
+The table below describes the schema of objects contained within the `ActivityValidationResults` array of `ValidationResult` object.
 
 |Property|Type|Description|
 |-------|-------|---------|
 |ActivityId|`String`|The Activity ID of the actual workflow tile to which the validation result applies to. If empty, the validation result applies globally to the entire workflow definition or other properties of customer journey|
 |Fault|`String`|The code, which identifies the actual validation result. See the validation [sample](extend-customer-journey-using-code.md) to learn how to work with messages associated with fault codes.|
 |Result|`String`|The result severity. It has the following values:<br />**Valid** – Informative entry<br />**Warning** – Non-blocking issue<br />**Error** – Blocking issue|
-|ErrorMessageArguments|Array of string|Optional list of arguments which provide details of the validation result. For example, an ID of the element that fails to meet the validity criteria.|
+|ErrorMessageArguments|`String[]`|Optional list of arguments which provide details of the validation result. For example, an ID of the element that fails to meet the validity criteria.|
 
 ## See also
 
