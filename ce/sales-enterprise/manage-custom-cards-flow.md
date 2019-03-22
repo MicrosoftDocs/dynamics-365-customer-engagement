@@ -33,7 +33,7 @@ The relationship assistant displays actionable insight cards (formerly called ac
 
 With the new redesigned assistant administration, you can perform tasks that were previously available such as such as turn on and off the insight cards and set thresholds for certain cards. Additionally, you can use preview capabilities to create customized insight cards and optimize card ranking for your Dynamics 365 for Sales organization. The preview features include:
 
-- [Creating custom insight cards](create-insight-cards.md)
+- [Creating custom insight cards](create-insight-cards-flow.md)
 - [Prioritizing individual cards](edit-insight-cards.md#set-priority-to-a-card)
 - [Optimizing card ranking](optimize-ranking-insight-cards.md)
 - [Assigning cards to users by roles](edit-insight-cards.md#assign-or-remove-roles-to-a-card)
