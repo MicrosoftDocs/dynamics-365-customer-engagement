@@ -74,8 +74,6 @@
     items:
     - name: Setup a Postman environment
       href: setup-postman-environment.md
-    - name: Use Postman to perform operations
-      href: use-postman-perform-operations.md
   - name: Web API Samples
     href: web-api-samples.md
     items:
