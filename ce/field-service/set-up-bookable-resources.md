@@ -147,7 +147,7 @@ The most common attributes to distinguish resources are characteristics, territo
 
 Characteristics represent skills and certifications that a resource possesses. An example can be very concrete such as a CPR certification, more general such as accounting or web development experience, or as simple as security clearance for a specific building or fluency in the Spanish language.
 
-A resource can have multiple characteristics. Once the characteristic record is created, you can add it to a resource.
+A resource can have multiple characteristics. Once the characteristic record is created, you can add it to a resource. Learn more on the [setting up characteristics page](../field-service/set-up-characteristics.md).
   
 1. From the resource record, navigate to related entities and choose **Resource Characteristics**.  
   
@@ -158,17 +158,33 @@ A resource can have multiple characteristics. Once the characteristic record is 
    1. Rating value can be left blank. 
    2. You can customize or create new rating values by going to Proficiency Models.
    3. When dispatchers are searching for resource's to fulfill requirements, the dispatcher can choose which rating value is required for particular skills.
-5. Use the tooltips to help fill in information, and then click **Save**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
-  
-  1.  In the **Characteristics** section, select **+Add Bookable Resource Characteristics record** to add characteristics. Learn more about this on the [setting up characteristics page](../field-service/set-up-characteristics.md).
+5. **Save & Close**. 
 
-### Add categories  
   
-1. From the resource name submenu, click **Resource Territories**.  
+### Add categories 
+
+Resource categories serve as roles and titles to distinguish resources. Common examples include service manager, junior field technician, senior field technician, and territory manager. You can add categories to resources via the Resource Category Association entity.  
+
+A resource can have multiple categories. Once the category record is created, you can add it to a resource. Learn more on the [setting up resource categories page](../field-service/set-up-bookable-resource-categories.md).
+
+1. From the resource record, navigate to related entities and choose **Resource Category Assns**  
   
-2. Click **Add New Resource Territory**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up territories](../field-service/set-up-territories.md)  
+2. Click **Add New Resource Category Assns**. 
   
-3. Use the tooltips to help fill in your information, and then click **Save & Close**.  
+3. Select a **Category** from the lookup then **Save & Close**.  
+
+
+### Add territories 
+
+Territories represent geographic regions the resource conducts work in. Common examples include a city, county, specific zip codes, state or a general region. A resource can be part of multiple territories, but requirements can only exist in a single territory. 
+
+Once the territory record is created, you can add it to a resource. Learn more on the [setting up territories](../field-service/set-up-territories.md).
+
+1. From the resource record, navigate to related entities and choose **Resource Territories**.  
+  
+2. Click **Add New Resource Territory**. 
+  
+3. Select a **Territory** from the lookup then **Save & Close**.   
 
 ## Resource Scheduling Optimization
 
