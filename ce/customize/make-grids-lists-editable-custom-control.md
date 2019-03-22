@@ -2,7 +2,7 @@
 title: "Make grids (lists) editable by using the editable grid custom control | MicrosoftDocs"
 description: "Learn how to use the editable grid custom control"
 ms.custom: 
-ms.date: 12/04/2018
+ms.date: 03/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -96,7 +96,7 @@ In previous releases of Dynamics 365 for Customer Engagement apps, users couldn�
 6. If you have a nested grid, select the pencil button for **Nested grid view**, and then select the entity and view for the nested grid. For the **Nested grid parent ID** select the relationship for the entities. For example, the ParentAccountID field connects the **Account** and **Contact** entities.  
   
    > [!NOTE]
-   >  Nested grids are only available for phones and tablets, not the web.  
+   >  Nested grids are only available for phones, tablets, and unified interface apps. Nested grids aren't available with classic web client apps. More information: [About Unified Interface](../admin/about-unified-interface.md) 
   
 7. If you don’t want to allow the user to group data by any column in the view (you want to save space, for example), in the **Group by Column** row, select the pencil button, and then in the **Configure Property “Group by Column”** dialog box, select **Disabled**, and then select **OK**.  
   

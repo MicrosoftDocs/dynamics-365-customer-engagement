@@ -70,43 +70,25 @@ For more information on FAQ's, see [Frequently Asked Questions about Dynamics 36
 
 - On Windows clients, Internet Explorer 11 should be installed and enabled but not necessarily the default browser. For more information about this dependency, see [Requirements for running Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/requirements-for-running-office-add-ins#client-requirements-windows-desktop-and-tablet).
 
-- Required privileges as described below  
+- Required security role access as described below
 
 > [!NOTE]
 >  Supported configurations and requirements for [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] features are listed throughout our documentation. Specific configurations not documented should be  considered unsupported.  
 
-### Required privileges 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides access to [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] through the **Use Dynamics 365 App for Outlook** privilege. If a user doesn’t have this privilege, they’ll receive the following error:  
+### Provide security role access
+Dynamics 365 App for Outlook is an App Module in version 9. The minimum set of privileges required to run App for Outlook are packaged as a security role called **Dynamics 365 App for Outlook User** which is bound to the App. You need to add users to this role in order for them to access Dynamics 365 App for Outlook. In order to achieve this, follow the steps below:
 
-“You haven't been authorized to use this app. Check with your system administrator to update your settings.”  
+1.  From the main menu navigate to **Settings** > **Security** > **Users**.
 
-#### Set the right privileges for the security role assigned to the user accessing Dynamics 365 App for Outlook
+2.  Select the users from the list and then click **Manage Roles**.
 
-1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
+3.  In the dialog that appears, apply the **Dynamics 365 App for Outlook User** security role to the users.
 
-2. Click **Security Roles**.  
-
-3. Choose a security role.  
-
-4. In the **Business Management** tab, verify that **Mailbox** has **read/write** privileges. In the **Privacy Related Privileges** section, verify that **Use Dynamics 365 App for Outlook** is set to **Organization**. If not, click **Use Dynamics 365 App for Outlook**.
-
-5. In the **Customization** tab, verify that **User Application Metadata** has **read/write** privileges. Also verify that **Entity**, **Field**, **Model-driven App**, **Relationship**, **System Application Metadata**, **System Form** and **View** have **read** privilege.
+This will ensure that the users have the basic privileges needed to access App for Outlook.
 
 > [!NOTE]
->  A user also needs to have read/write privileges to the **Contact** entity.
-
-### Provide security role access 
-If you have custom security roles defined in Dynamics 365 for Customer Engagement apps, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
-
-1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to **My Apps** page by going to **"<your_organization_URL>/apps"**) 
-
-![Dynamics 365 for Customer Engagement apps My Apps page](media/MyAppPage.png "Dynamics 365 for Customer Engagement apps My Apps page") 
-
-2.  On the **Dynamics 365 App for Outlook** tile click the ellipsis and then click **Manage Roles**.
-![Dynamics 365 for Customer Engagement apps Manage Roles page](media/ManageRolesPage.png "Dynamics 365 for Customer Engagement apps Manage Roles page") 
-
-3.  In the flyout that appears on the right, select the security roles to have access to App for Outlook and choose **Save**.
-![Dynamics 365 for Customer Engagement apps select a Role](media/ManageRolesPage2.png "Dynamics 365 for Customer Engagement apps select a role")
+>  The security role **Dynamics 365 App for Outlook User** is available from Build 9.1.0.3420. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: 
+> “You haven't been authorized to use this app. Check with your system administrator to update your settings.”
 
 ### Supported configurations with Microsoft Exchange  
  As of the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] you can use the app with any combination of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] or [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises), including hybrid configurations. This means you can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] in any of the following configurations:  
@@ -198,7 +180,7 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 <a name=BKMK_Deploy></a>   
 
 ## Deploy Dynamics 365 App for Outlook  
- After setting up [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)] and setting the required privileges, you can push [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to some or all users, or you can have users install it themselves as needed.  
+ After setting up [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)], you can push [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to some or all users, or you can have users install it themselves as needed.  
 
 <!--
 > [!NOTE]
@@ -209,7 +191,8 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 
 1. Go to **Settings** > **Dynamics 365 App for Outlook**.  
 
-2. In the **Getting Started with Dynamics 365 App for Outlook** screen, under **Add for Eligible Users** (you may have to click **Settings** if you’re opening this screen for the second or subsequent time), select the **Automatically add the app to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]** check box if you want to have users get the app automatically. If a user has the required privileges and email is synchronized through [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)], you won’t have to do anything more to push the app to them. For example, if you add the required privileges to the Salesperson role, and then assign this role to a new user, they’ll automatically get the app.  
+2. In the **Getting Started with Dynamics 365 App for Outlook** screen, under **Add for Eligible Users** (you may have to click **Settings** if you’re opening this screen for the second or subsequent time), select the **Automatically add the app to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]** check box if you want to have users get the app automatically. 
+If a user's email is synchronized through [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)], you won’t have to do anything more to push the app to them.  
 
 3. Do one of the following:  
 
@@ -221,6 +204,8 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
    >  If the list shows that a user is pending or hasn’t been added, you can click the **Learn more** link next to the user to find more information about status.  
 
 4. When you’re done, click **Save**.  
+
+5. Make sure to add users to the security role **Dynamics 365 App for Outlook User** as described in the **Provide security role access** section above.
 
 #### To have users install the app themselves  
 

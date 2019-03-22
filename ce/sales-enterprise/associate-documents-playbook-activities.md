@@ -4,7 +4,7 @@ description: "Associate documents with playbook activities to help your team acc
 keywords: ""
 ms.date: 02/20/2019
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
   - "dyn365-sales"
 ms.topic: article

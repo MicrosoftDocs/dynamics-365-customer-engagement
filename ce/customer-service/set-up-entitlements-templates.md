@@ -44,7 +44,7 @@ Quickly create other entitlements prefilled with the basic information like the 
 2. In the Customer Service Hub sitemap, go to **Service Management** and select **Templates** > **Entitlement Templates**.
 
     > [!NOTE]
-    > In the Customer Service app, go to [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Entitlement Templates**.
+    > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Entitlement Templates**.
   
 4. To create a new entitlement template, select **New** in the entitlement template search box.  
   

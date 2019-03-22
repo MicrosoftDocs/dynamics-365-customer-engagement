@@ -4,7 +4,7 @@ description: "Read how you can add a CIF solution as a dependent solution and us
 keywords: ""
 ms.date: 12/10/2018
 ms.service:
-  - "dynamics-365-cross-app"
+  - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"

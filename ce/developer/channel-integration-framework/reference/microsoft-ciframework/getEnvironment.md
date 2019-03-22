@@ -4,7 +4,7 @@ description: ""
 keywords: ""
 ms.date: 10/12/2018
 ms.service:
-  - "dynamics-365-cross-app"
+  - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"

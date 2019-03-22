@@ -4,7 +4,7 @@ description: "Learn how to configure a channel provider install and setup Channe
 keywords: ""
 ms.date: 12/10/2018
 ms.service:
-  - "dynamics-365-cross-app"
+  - dynamics-365-cross-app
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"

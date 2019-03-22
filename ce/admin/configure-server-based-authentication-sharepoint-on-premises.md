@@ -1,7 +1,7 @@
 ---
 title: "Configure server-based authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint on-premises | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/10/2018
+ms.date: 03/21/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: d3fed784-942b-470d-b01a-ce3f2be3aa04
 caps.latest.revision: 42
 author: Mattp123
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -66,7 +66,7 @@ Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online
   > [!IMPORTANT]
   >  SharePoint Foundation 2013 versions aren’t supported for use with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps document management.  
   
-- [Hotfix KB2883081 for SharePoint Foundation 2013 August 12, 2014 (Sts-x-none.msp)](http://support2.microsoft.com/kb/2883081)  
+- Hotfix KB2883081 for SharePoint Foundation 2013 August 12, 2014 (Sts-x-none.msp). This hotfix is included with the [Office 2013 cumulative update for August 2014](https://support.microsoft.com/help/2989078/office-2013-cumulative-update-for-august-2014).  
   
   > [!IMPORTANT]
   >  The following updates are prerequisites to KB2883081 and may also be required.  
