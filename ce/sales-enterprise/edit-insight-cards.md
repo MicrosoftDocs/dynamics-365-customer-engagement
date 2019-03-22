@@ -66,7 +66,7 @@ In this example we have filtered the cards with the security role **Sales manage
 
 When you create a card, you must specify the security roles to whom you want the card to display. By default, all the cards are assigned to the security roles **Salesperson** and **Sales manager**. You can edit the card to assign or remove the security roles to the card. 
 
->[!NOITE]
+>[!NOTE]
 >The security roles you see in the cards are defined in Dynamics 365 for Customer Engagement. To learn more on security roles, see [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges).
 
 1. Go to **Assistant** tab and select the card for which you want to add the security roles. In this example we have select **Opportunity Health Score Changed** card.
@@ -129,5 +129,5 @@ To learn more about editing the flow, see [Add an action](/flow/multi-step-logic
 ### See also
 
 - [Manage custom insight cards using Microsoft Flow](manage-custom-cards-flow.md)
-- [Create insight cards](create-insight-cards.md)
+- [Create insight cards](create-insight-cards-flow.md)
 - [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)

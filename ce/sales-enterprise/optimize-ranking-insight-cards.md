@@ -29,12 +29,6 @@ Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 
-The **Optimize ranking** tab provides information on the rules that are created to prioritize cards to appear in the application. The following is an example of **Optimize ranking** tab:
-
-![Optimize ranking tab](media/cc-optimize-ranking-tab.png "Optimize ranking tab")
-
-## How to optimize ranking
-
 There are several cards defined for your organization and all will be displayed to the users through an externally prioritized list. In this externally prioritized list display of cards, users might miss cards that important and needs follow-ups. The **Optimize ranking** option in **Assistant** allows you to optimize the ranking of card that are important and promotes the card to display on the top.
 
 You can define up to four rules in the ranking section and are based on the entities such as Account, Leads, and Opportunity. Also, the cards are given the priority in the order you define. For example, you created two rules the first is to prioritize cards that the annual revenue is above $100,000 and the second is prioritize cards that estimated revenue is above $10,000. The assistant analyzes the cards and displays the cards with annual revenue more than $100,000 and followed by estimated revenue with more than $10,000, later followed by the cards that are not prioritized. 
@@ -71,5 +65,5 @@ Follow these steps to rank the cards:
 ### See also
 
 - [Manage custom insight cards using Microsoft Flow](manage-custom-cards-flow.md)
-- [Create insight cards](create-insight-cards.md)
+- [Create insight cards](create-insight-cards-flow.md)
 - [Edit insight cards](edit-insight-cards.md)

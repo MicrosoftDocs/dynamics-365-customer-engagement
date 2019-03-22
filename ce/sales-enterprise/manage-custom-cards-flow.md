@@ -84,14 +84,21 @@ The following is an example of **Manage insights cards** tab:
 To learn more, see Create custom cards.
 2. **Table with card details**: This displays the cards that are available in your organization. On the cards, you can perform actions such as edit the settings, disable, assign to security roles, and prioritize.
 
-To learn more, see [Edit insight cards](edit-insight-cards.md).
+    To learn more, see [Edit insight cards](edit-insight-cards.md).
 
 3. **Filters**: This allows you to filter the cards displayed in the table based on the security roles. For example, if you want to view only the cards that are available to salesperson, select Salesperson from the filter drop down and the table is refreshed to display the cards that are assigned only to salesperson role.
 4. **Preview enable button**: This allows you to turn on or off the preview features for customizing the assistant in your organization, giving you the opportunity to try the feature. If the preview is not enabled, you cannot create custom cards or perform other action on cards such as edit, set priorities, assign to roles and so on.
 
+### Optimize ranking tabs
+
+The **Optimize ranking** tab provides information on the rules that are created to prioritize cards to appear in the application. The following is an example of **Optimize ranking** tab:
+
+![Optimize ranking tab](media/cc-optimize-ranking-tab.png "Optimize ranking tab")
+
+To learn more, see [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 
 ### See also
 
-- [Create insight cards](create-insight-cards.md)
+- [Create insight cards](create-insight-cards-flow.md)
 - [Edit insight cards](edit-insight-cards.md)
 - [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)

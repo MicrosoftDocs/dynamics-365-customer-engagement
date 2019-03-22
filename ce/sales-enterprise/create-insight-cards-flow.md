@@ -81,6 +81,7 @@ As an administrator or sales manager, you can create your own suggested actions 
     ![Define card operations](media/cc-card-operation-step.png "Define card operations")
 
 7. In step 3, an apply to each control is selected and enter the necessary information.
+
     a. The **Value** token is added to the **Select an output from previous steps** box. This value is got from the previous step where we have defined the entity.
      
       ![Select output from previous step](media/cc-add-information-condition-value.png "Select output from previous step")  
