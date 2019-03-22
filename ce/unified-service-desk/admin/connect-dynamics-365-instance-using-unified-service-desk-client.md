@@ -3,7 +3,7 @@ title: "Connect to a Dynamics 365 for Customer Engagement apps instance using th
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
 ms.custom: 
   - dyn365-USD, dyn365-admin
-ms.date: 08/23/2017
+ms.date: 04/03/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -64,9 +64,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 ::: moniker range=">=dynamics-usd-4.1"   
 
-## Single Sign On for Unified Service Desk - Preview
-
-[This section is pre-release documentation of SSO feature and is subject to change.]
+## Single Sign On for Unified Service Desk
 
 Single Sign On (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a improved startup performance and user experience by authenticating users to access Customer Engagement apps without the need for entering the credentials multiple times. This eliminates the need for entering the same password again and minimizes the possibility of login errors and ensures seamless experience.
 

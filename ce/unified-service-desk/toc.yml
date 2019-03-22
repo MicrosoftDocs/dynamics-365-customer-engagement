@@ -80,7 +80,7 @@
   items:
   - name: Support for Unified Interface Apps
     href: admin/Support-unified-interfaces-apps-usd.md
-  - name: Unified Service Desk Administrator app (Preview)
+  - name: Unified Service Desk Administrator app
     href: admin/unified-service-desk-administrator-app.md
   - name: Unified Interface Settings
     href: admin/unified-interface-settings.md
@@ -89,7 +89,7 @@
     items:
     - name: Configure client caching in Unified Service Desk
       href: admin/configure-client-caching-unified-service-desk.md
-    - name: Cache specific configuration for agents (Preview)
+    - name: Cache specific configuration for agents
       href: admin/set-configuration-cache-version.md     
     - name: Help improve Unified Service Desk
       href: admin/help-improve-unified-service-desk.md
@@ -213,7 +213,7 @@
         items:
         - name: Use Edge Process to host web applications (Preview)
           href: edge-process.md
-        - name: Use Chrome Process to host web applications (Preview)
+        - name: Use Chrome Process to host web applications
           href: chrome-process.md       
         - name: Use IE Process to host web applications
           href: ie-process.md
