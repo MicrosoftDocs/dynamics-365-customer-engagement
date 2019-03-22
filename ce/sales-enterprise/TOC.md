@@ -62,7 +62,7 @@
 #### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
 #### [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
 #### [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
-#### [Preview: Manage custom insight cards using Microsoft Flow](../sales-enterprise/manage-custom-cards-flow.md)
+#### [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md)
 ##### [Preview: Create insight cards](../sales-enterprise/create-insight-cards-flow.md)
 ##### [Preview: Edit insight cards](../sales-enterprise/edit-insight-cards.md)
 ##### [Preview: Optimize ranking of insight cards](../sales-enterprise/optimize-ranking-insight-cards.md)

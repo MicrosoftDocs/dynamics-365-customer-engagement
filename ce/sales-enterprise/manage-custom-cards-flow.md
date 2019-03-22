@@ -1,5 +1,5 @@
 ---
-title: "Manage custom insight cards using Microsoft Flow in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Manage custom insight cards in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Create custom insight cards using Microsoft and optimize ranking for cards in assistant"
 keywords: "AI for sales, , "
 ms.date: 03/21/2019
@@ -20,7 +20,7 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# Preview: Manage custom insight cards using Microsoft Flow
+# Preview: Manage insight cards
 
 Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0.
 
