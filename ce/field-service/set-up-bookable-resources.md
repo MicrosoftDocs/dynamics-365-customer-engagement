@@ -135,18 +135,30 @@ Other fields important for field technicians in field service scenarios are:
 **Enable for Availability Search** because the schedule assistant is a dispatchers best tool to schedule field technicians to work orders. 
 **Warehouse**  because this connects a field technician to a warehouse (typically the truck) to consume inventory on work orders. 
 
-In Field Service v8.2+ latitude and longitude fields exist on the bookable resource record and are populated with the latest location coordinates from the Field Service Mobile app, though the fields may need to be added to the bookable resource form. See the topic on [enabling location tracking](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) for more details. 
+In Field Service v8.2+ latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service Mobile app, though the fields may need to be added to the bookable resource form. See the topic on [enabling location tracking](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) for more details. 
 
 
-## Add related attributes 
+## Add characteristics, territories, and categories 
 
-### Add characteristics  
+The most common attributes to distinguish resources are characteristics, territories, and roles.
+
+
+### Add characteristics 
+
+Characteristics represent skills and certifications that a resource possesses. An example can be very concrete such as a CPR certification, more general such as accounting or web development experience, or as simple as security clearance for a specific building or fluency in the Spanish language.
+
+A resource can have multiple characteristics. Once the characteristic record is created, you can add it to a resource.
   
-1. From the resource name submenu,  click **Bookable Resource Characteristics**.  
+1. From the resource record, navigate to related entities and choose **Resource Characteristics**.  
   
 2. Click **Add New Bookable Resource Characteristics**.  
   
-3. Use the tooltips to help fill in information, and then click **Save**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
+3. Select a **Characteristic** from the lookup.
+4. Select a **Rating Value** that represents the resource's proficiency in that skill. This can be a simple 1 to 10 rating or even represent the score on a certification exam. 
+   1. Rating value can be left blank. 
+   2. You can customize or create new rating values by going to Proficiency Models.
+   3. When dispatchers are searching for resource's to fulfill requirements, the dispatcher can choose which rating value is required for particular skills.
+5. Use the tooltips to help fill in information, and then click **Save**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
   
   1.  In the **Characteristics** section, select **+Add Bookable Resource Characteristics record** to add characteristics. Learn more about this on the [setting up characteristics page](../field-service/set-up-characteristics.md).
 
