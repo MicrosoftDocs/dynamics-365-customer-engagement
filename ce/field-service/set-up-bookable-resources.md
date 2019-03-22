@@ -110,7 +110,8 @@ After saving the bookable resource, set the working hours of the resource. Worki
 
 Alternatively, double click a day to set the working hours. 
 
-Whether setting the working hours for a day or longer, ensure the Time Zone reflects the time zone the resource is located in and that was entered on the resource form.
+> [!Note]
+> Whether setting the working hours for a day or longer, ensure the Time Zone reflects the time zone the resource is located in and that was entered on the resource form.
 
 
 > [!div class="mx-imgBorder"]
@@ -120,22 +121,22 @@ Whether setting the working hours for a day or longer, ensure the Time Zone refl
 
 At its simplest, a field technician is a mobile worker employed at your organization who utilizes the Field Service Mobile app on his or her phone or tablet to view Field Service entities such as work orders.
 
-A bookable resource that represents a field technician for field service scenarios must:
+A bookable resource that represents a field technician for field service scenarios must have:
 1. **Resource Type** = **User**
 2. **Enabled for Field Service Mobile** = **Yes**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing where to find the fields on the Bookable Resource form](media/qs-1-img29.png)
 
-Other fields important for field technicians in field service sceanrios are:
+Other fields important for field technicians in field service scenarios are:
 
-**Start/End Location**
-**Display On Schedule Board** 
-**Enable for Availability Search** 
-**Warehouse**  Select the default warehouse the resource will get his or her parts from. For Field Service scenarios, this is the default warehouse inventory is deducted from when a field technician uses an inventory work order product.
+**Start/End Location** because where the resource starts and ends his or her day is factored into schedule work order requirements to the closest field technician.
+**Display On Schedule Board** because displaying a field technician resource on the schedule board is crucial for enabling dispatchers to manage their schedules.
+**Enable for Availability Search** because the schedule assistant is a dispatchers best tool to schedule field technicians to work orders. 
+**Warehouse**  because this connects a field technician to a warehouse (typically the truck) to consume inventory on work orders. 
 
-- real time coordinates from the can be used as the resources location
-  
+In Field Service v8.2+ latitude and longitude fields exist on the bookable resource record and are populated with the latest location coordinates from the Field Service Mobile app, though the fields may need to be added to the bookable resource form. See the topic on [enabling location tracking](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) for more details. 
+
 
 ## Add related attributes 
 
