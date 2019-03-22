@@ -52,7 +52,7 @@ To execute a FetchXML query in [!INCLUDE[pn_dynamics_crm_online](../../includes/
    <entity name='account'>  
       <attribute name='accountid'/>   
       <attribute name='name'/>   
-</entity>  
+   </entity>  
 </fetch>  
   
 ```  
