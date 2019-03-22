@@ -32,7 +32,7 @@ search.app:
 
 For multinational companies with employees and customers distributed around the world, you can create and manage [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances specific to your global regions. You can create an instance in a different region than where your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] tenant resides. Local instances can provide quicker data access for users in that region. Be sure to read [A multi-instance deployment](../admin/multiple-online-instances-tenants.md#BKMK_Single) to understand the features of multiple instances.  
   
- Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. You must have an active [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps account to complete the purchase. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Professional or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Enterprise subscription.  
+ Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Purchase subscriptions](https://admin.microsoft.com/Commerce/Catalog.aspx) page. You must have an active [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps account to complete the purchase. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Professional or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Enterprise subscription.  
   
  You must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator or Customer Engagement apps System administrator role to do these tasks. For more information, see [Assigning admin roles](https://support.office.com/article/Assign-admin-roles-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
   
@@ -69,7 +69,7 @@ For multinational companies with employees and customers distributed around the 
   
 ### Step 1: Purchase the additional instance  
   
-1.  Global administrators sign in to the [Office 365 admin center](https://portal.office.com), and then, in the navigation pane, click **Billing** > **Purchase services**.  
+1.  Global administrators sign in to the [Microsoft 365 admin center](https://admin.microsoft.com), and then, in the navigation pane, click **Billing** > **Purchase services**.  
   
 2.  Scroll down to the **Add-on subscriptions** section, and then hover over **Microsoft Dynamics 365 for Customer Engagement apps (online) Additional Non-Production Instance** or **Microsoft Dynamics 365 for Customer Engagement apps (online) Additional Production Instance**, and then click **Buy now**.  
   

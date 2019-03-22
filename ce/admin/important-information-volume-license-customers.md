@@ -62,7 +62,7 @@ If you do not switch your users to a Dynamics 365 for Customer Engagement apps s
 
 Here's what to expect for you and your users if your subscription is disabled.
 
-- Admin access: Admins can still sign in and access the Office 365 admin center, and buy other Microsoft Online Services as needed.
+- Admin access: Admins can still sign in and access the Microsoft 365 admin center, and buy other Microsoft Online Services as needed.
 
 - User access: Your users won't be able to use Dynamics 365 for Customer Engagement, or access customer data. CRM Online applications will eventually move into a read-only, reduced functionality mode and display Unlicensed Product notifications.
 
