@@ -106,7 +106,11 @@ After saving the bookable resource, set the working hours of the resource. Worki
     - In the web interface (Field Service v7.x or earlier), select the arrow next to the resource name, and choose **Work Hours**.
     - In the unified client interface (Field Service v8.x or later), select **Show Working Hours** at the top of the form. 
   
-2.  Click the **Set-Up** drop-down list and choose one of the following:  
+ 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of setting working hours](media/resource-show-work-hours.png)
+
+1.  Click the **Set-Up** drop-down list and choose one of the following:  
   
     - **New Weekly Schedule**: Set an ongoing weekly schedule for the resource.  
   
@@ -121,7 +125,7 @@ Alternatively, double click a day to set the working hours.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of setting working horus and timezone](media/resource-working-hours-timezone.png)
+> ![Screenshot of setting working hours and timezone](media/resource-working-hours-timezone.png)
  
 ## Setting up field technician resources for field service organizations 
 
