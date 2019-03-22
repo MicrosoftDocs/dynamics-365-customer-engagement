@@ -29,7 +29,7 @@ Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin ce
 You must be your organization's [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator to perform the following tasks.
 
 > [!IMPORTANT]
-> If your organization is eligible for Social Engagement and you've signed up for the Dynamics 365 AI for Market Insights Preview, all your existing data will be available in both applications. If you want to go back to using Social Engagement, a global admin can [remove your license](#remove-a-license-from-a-user) for **Dynamics 365 AI for Market Insights (Preview)** in the Office 365 admin center and ensure a Social Engagement [license is assigned](#assign-a-license-to-a-user) to you. This will roll back to the experience with Social Engagement branding while persisting your data. 
+> If your organization is eligible for Social Engagement and you've signed up for the Dynamics 365 AI for Market Insights Preview, all your existing data will be available in both applications. If you want to go back to using Social Engagement, a global admin can [remove your license](#remove-a-license-from-a-user) for **Dynamics 365 AI for Market Insights (Preview)** in the Microsoft 365 admin center and ensure a Social Engagement [license is assigned](#assign-a-license-to-a-user) to you. This will roll back to the experience with Social Engagement branding while persisting your data. 
 
 ## Prepare your organization
 
@@ -41,7 +41,7 @@ If your school or work organization doesn't have an [!INCLUDE[pn_Office_365](../
 
 ### Sign up for a new organization on Office 365
 
-1. Sign up on [Office 365](https://portal.office.com/).
+1. Sign up on [Office 365](https://admin.microsoft.com/).
 
 2. Follow the wizard to create your organization and your administrator account.
 
@@ -57,7 +57,7 @@ It takes a few minutes to complete the provisioning process before you can start
 
 Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by assigning [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] licenses to them. As an administrator you can always [modify the user's permissions](assign-user-roles.md) to use certain features.  
 
-1. In the [Office 365 admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Users** > **Active Users**, and then select the user.
 
 2. In the **Product licenses** tab, select **Edit**.
 
@@ -73,7 +73,7 @@ When you [remove the assigned license](http://go.microsoft.com/fwlink/p/?LinkId=
 
 Removing a user's license  from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] deletes all related custom settings, alerts, and any owned or shared streams. Deleted custom settings can't be restored. Search topics owned by a removed user will remain. It takes up to 30 days to reflect the removal of a license in the list of users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
-1. In the [Office 365 admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Users** > **Active Users**, and then select the user.
 
 2. In the **Product licenses** tab, select **Edit**.
 

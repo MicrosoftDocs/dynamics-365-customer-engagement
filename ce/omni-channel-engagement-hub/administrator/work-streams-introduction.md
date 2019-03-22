@@ -119,7 +119,7 @@ To set up entity routing, you need to configure an entity work stream in **Omni-
 
 ### In Microsoft Flow
 
-1. Go to [portal.office.com](https://www.office.com/?auth=2&home=1), and select **Flow** in the list of apps.
+1. Go to [admin.microsoft.com](https://www.office.com/?auth=2&home=1), and select **Flow** in the list of apps.
 
    ![Entity in Flow](../media/ws-flow.png)
 
