@@ -136,7 +136,7 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
 With the update request, you update the status of the dynamic segment to “Stop”.
 
 ```HTTP
-PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
+PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 {
     "statuscode": 192350002
 }
@@ -147,7 +147,7 @@ PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 With the retrieve request, you retrieve all the dynamic segments that are in the Stop state. 
 
 ```HTTP
-GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350002
+GET {{OrgUrl}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350002
 ```
 
 **Delete request**
@@ -155,7 +155,7 @@ GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350002
 With the delete request, you delete the dynamic segment that is created.
 
 ```HTTP
-DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
+DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 
 ### CRUD operations on compound segments
@@ -181,7 +181,7 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
 With the update request, you update the status of the compound segment to “Stop”.
 
 ```HTTP
-PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
+PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 {
     "statuscode": 192350002
 }
@@ -192,7 +192,7 @@ PATCH {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 With the retrieve request, you retrieve all the compound segments that are in the Stop state.
 
 ```HTTP
-GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350002
+GET {{OrgUrl}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350002
 ```
 
  **Delete request**
@@ -200,7 +200,7 @@ GET {{orgUlr}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350002
 With the delete request, you delete the compound segment that is created.
 
 ```HTTP
-DELETE {{orgUlr}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
+DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 
 ## Include/exclude segment members
@@ -237,7 +237,7 @@ Following are some of the important aspects that need to be considered while per
 **Add a segment member**
 
 ```HTTP
-POST {{orgUlr}}/api/data/v9.0/msdyncrm_IncludeMemberInSegment
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_IncludeMemberInSegment
 {
   msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
   msdyncrm_segmentmemberid: "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3"
@@ -247,7 +247,7 @@ POST {{orgUlr}}/api/data/v9.0/msdyncrm_IncludeMemberInSegment
 **Add multiple segment members**
 
 ```HTTP
-POST {{orgUlr}}/api/data/v9.0/msdyncrm_IncludeMembersInSegment
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_IncludeMembersInSegment
 {
    msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
    msdyncrm_segmentmemberids: "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]"
@@ -257,7 +257,7 @@ POST {{orgUlr}}/api/data/v9.0/msdyncrm_IncludeMembersInSegment
 **Remove a segment member**
 
 ```HTTP
-POST {{orgUlr}}/api/data/v9.0/msdyncrm_ExcludeMemberFromSegment
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ExcludeMemberFromSegment
 {
     msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
     msdyncrm_segmentmemberid: "B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3"
@@ -267,7 +267,7 @@ POST {{orgUlr}}/api/data/v9.0/msdyncrm_ExcludeMemberFromSegment
 
 ```HTTP
 Remove multiple segment members
-POST {{orgUlr}}/api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
 {
    msdyncrm_segmentid: "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
    msdyncrm_segmentmemberids: "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]" 
