@@ -84,6 +84,12 @@ In this article let's explore creating a bookable resource and adding details to
 7. **Organizational Unit** Select the organizational unit the resource belongs to. This can represent a team the resource belongs to, an office the resource reports to, and the location where the resource starts and ends his or her day. 
 8. **Display On Schedule Board** Determines if the resource is eligible to be added to the schedule board. If set to **yes**, then the resource can be added to the schedule board based on the filters or manually selected.
 9. **Enable for Availability Search** Determines if the resource is eligible to be returned in schedule assistant results given the resource attributes meet the filter criteria of the requirement.
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of scheduling tab on resource form](media/resource-scheduling-tab.png)
+
 10. **Hourly Rate** Enter the internal hourly cost of the resource. This is the hourly pay that the resource should be paid by the company. It is utilized by schedule journals to calculate pay for time worked.
 11. **Warehouse**  Select the default warehouse the resource will get his or her parts from. For Field Service scenarios, this is the default warehouse inventory is deducted from when a field technician uses an inventory work order product.
 12. **Time Off Approval Required** Choose if time off needs to be approved or not. If set to **No** then a time off request record will block time on the schedule board and show as nonworking hours for that resource. If set to **yes**, the same result will occur once the time off request is approved. 
@@ -140,7 +146,11 @@ In Field Service v8.2+ latitude and longitude fields exist on the bookable resou
 
 ## Add characteristics, territories, and categories 
 
-The most common attributes to distinguish resources are characteristics, territories, and roles.
+The most common attributes to distinguish resources are characteristics, territories, and categories.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing where to find related entities on the Bookable Resource form](media/resource-add-related-details.png)
 
 
 ### Add characteristics 
@@ -192,6 +202,10 @@ If Resource Scheduling Optimization (RSO) is enabled in your organization, a new
 
 Setting to Yes does not mean requirements will automatically be scheduled to this bookable resource, instead it means that after RSO is set up and with the appropriate scope to include this bookable resource, then it would be eligible for automatic schedules.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of enabling rso for a resource](media/resource-enable-rso.png)
+
 ## Additional notes
 
 - Only one resource record can be associated to a user record, however multiple resources can be associated to a single account or contact record. 
@@ -200,8 +214,8 @@ Setting to Yes does not mean requirements will automatically be scheduled to thi
 
 
 ### See also   
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ 
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
  [Set up characteristics](../field-service/set-up-characteristics.md)   
  [Set up resource pay types](../field-service/set-up-resource-pay-types.md)<br>
- [User's Guide](../field-service/user-guide.md) 
+
