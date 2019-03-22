@@ -146,7 +146,7 @@
 ## [Data encryption](data-encryption.md)
 ## [Remove user personal data](remove-user-personal-data.md)
 ## [Manage storage](manage-storage.md)
-<!-- ## [Free storage space](free-storage-space.md) -->
+## [Free storage space](free-storage-space.md) -->
 ## [Fixing Add License Wizard and Add Storage Wizard errors](add-license-wizard-add-storage-wizard-errors.md)
 ## [Recover database space by deleting audit logs](recover-database-space-deleting-audit-logs.md)
 ## [Enable change tracking to control data synchronization](enable-change-tracking-control-data-synchronization.md)
