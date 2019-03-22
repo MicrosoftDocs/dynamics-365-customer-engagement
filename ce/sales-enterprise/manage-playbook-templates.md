@@ -53,7 +53,7 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
 
 5.  In the **Select record types that this playbook applies to** section, the **Available** box lists all the entities that are enabled for using playbooks. Select and move the record types to which the current playbook template applies into the **Selected** box.
 
-    The playbook capability is currently enabled only on **Lead**, **Quote**, **Opportunity**, **Order**, and **Invoice** record types. As a playbook manager, when you create a playbook template, you can select which entity that playbook applies to.
+    The playbook capability is currently enabled only on **Lead**, **Quote**, **Opportunity**, **Order**, **Invoice**, **Account**, and **Contact** record types. As a playbook manager, when you create a playbook template, you can select which entity that playbook applies to.
 
     ![section to select record types the playbook applies to](media/playbook-applies-to.png "Section to select record types the playbook applies to")  
 
