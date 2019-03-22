@@ -413,13 +413,13 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 If you are navigating to a webpage that has invalid Security Socket Layer (SSL) certificates, unauthorized or expired certificates, then Chrome Process blocks the webpage navigation.
 
-To ignore the certificate errors and allow websites navigation, you must add **AllowWebpageNavigationCertificateError** UII option and set the value as **True**. If you set true, Chrome Process allows websites navigation for all the websites. 
+To ignore the certificate errors and allow websites navigation, you must add **AllowWebpageNavigationCertificateError** UII option and set the value as **True**. If you set true, Chrome Process allows webpage navigation for all the websites. 
 
-If you want to choose few websites and don't want to allow all the website, then provide comma separated values (CSV) of the websites for which you want to ignore the certificate errors. 
+If you want to choose few websites and don't want to allow all the websites, then provide comma separated values (CSV) of the websites for which you want to ignore the certificate errors. 
 
 For example: `wrong.host.testssl.com,self-signed.testssl.com`
 
-If you leave the value blank or set the value as **False**, then Chrome Process blocks the webpage navigation for all the websites with invalid certificates.
+If you leave the value blank or set the value as **False**, then Chrome Process blocks the webpage navigation for all the websites with certificates errors.
 
 ### Add the AllowWebpageNavigationCertificateError UII option
 
