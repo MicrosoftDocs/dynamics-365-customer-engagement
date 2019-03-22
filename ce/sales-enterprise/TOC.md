@@ -62,6 +62,7 @@
 #### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
 #### [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
 #### [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
+#### [Preview: Manage custom insight cards using Microsoft Flow](../sales-enterprise/manage-custom-cards-flow.md)
 ### [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
 #### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
 ### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
