@@ -157,7 +157,7 @@ To copy a production instance to a sandbox:
 
 ## Create a custom app that includes the Marketing solution
 
-Customizers and developers can create custom PowerApps apps that include any number of existing solutions, plus custom elements, as needed. You can include 
+Customizers and developers can create custom app modules that include any number of existing solutions, plus other custom elements, as needed. You can include 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] solutions in custom apps such as these, but the *Marketing email test send* entity won't be included automatically when you add the Marketing solution. As a result, your custom app won't support test sends of marketing emails by default. If you'd like to include this feature in your custom app, then you must add the *Marketing email test send* entity manually to your app after you add the Marketing solution.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)

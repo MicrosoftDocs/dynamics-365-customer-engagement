@@ -79,7 +79,9 @@ For example, to set up a segment that finds all the leads collected at a recent 
 
 Segments, customer journeys, and other [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] features require that each lead has a contact associated with it. However, sales-driven setups may follow a different model, where leads are created as the first touchpoint, without necessarily having contact records associated with them.
 
-To solve this, you can use [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] custom workflows to automatically generate and link a contact record for each new or existing unmatched lead record. For more information about workflows, start with the [Workflows overview](../customize/workflow-processes.md).
+To solve this, you can use [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] custom workflows to automatically generate and link a contact record for each new or existing unmatched lead record. To create the link, populate the `parentcontactid` field of each lead record with the GUID of the relevant contact record. This field connects to the contact record through an N:1 relation called `lead_parent_contact`.
+
+For more information about workflows, start with the [Workflows overview](../customize/workflow-processes.md).
 
 Also, any user can manually select or create a contact for a lead by using the **Inquiry** stage of the **Lead to opportunity marketing sales process** business process on the lead record.
 

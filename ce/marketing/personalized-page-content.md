@@ -33,12 +33,20 @@ As with marketing emails, you can create landing pages, and other types of web p
 The required cookie is set in a user's browser when they open any [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] landing page, embedded form, or subscription center. The cookie might initially be anonymous but gets linked to a contact record when the contact submits a landing page with valid contact details or opens a subscription center using a personalized link sent to them in email.
 - **JavaScript is used to fetch values from the relevant contact record to the marketing page**  
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] generates the code you must add to your page to connect to the database and fetch the field values, but you must modify this with the specific field names you want to use, and also write your own JavaScript to make use of those values on the page. You might display contact values directly, or use them programmatically to modify page content, layout, and more.
+- **Personalized pages must run either on an authenticated domain or the Dynamics 365 portal, and use HTTPS**  
+For security purposes, personalized pages are only supported on domains that are authenticated with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] (including native marketing pages running on the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]portal, which are always authenticated). Personalized pages must furthermore be accessed using HTTPS (not HTTP).
 - **Data access is restricted to explicitly white-listed fields from the contact entity**  
 For security, the solution will only provide those field values that you specifically configure to make available to personalized landing pages.
 - **Contacts must accept form prefilling to see personalized marketing page content**  
 For privacy, the solution only allows personalized content to be shown to contacts whose contact record has the _allow-prefill_ flag set. This same flag enables landing pages to display forms that are prefilled with values from the contact record of a known contact (identified by the same cookie). Contacts can set or clear their allow-prefill flag themselves using a subscription center or landing page form, provided your form includes a "remember me" setting.
 - **Use the personalized page entity to establish the white list and generate the JavaScript**  
 Go to **Marketing** > **Marketing content** > **Personalized pages** to identify which contact fields to make available and generate the code for bringing those values onto the page.
+
+## Authenticate your external domains
+
+Domain authentication helps ensure that your organization's websites (external domains) really do belong to your organization, and that your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance is authorized to interact with those domains and send marketing emails associated with them. It requires your system administrator to prove ownership of each domain by submitting signed certificates through the DNS system. Before you start developing a personalized page for your website, be sure to ask your system administrator whether your domain is authenticated for use with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. For instructions, see [Authenticate your domains](marketing-settings.md#authenticate).
+
+For native marketing pages, which are designed in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and run on your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal, authentication is automatic, so you don't need to set up an authenticated domain for these.
 
 ## Set up page personalization
 
@@ -119,11 +127,14 @@ After you've set up a personalized-pages record to whitelist all the fields you 
 
 1. Each contact field that you enabled in the `<head>` is now available to JavaScript on the page. Use standard JavaScript techniques to reference and use the values.
 
+> [!IMPORTANT]
+> If you're running your personalized page on an external website, make sure it always communicates with visitors using HTTPS, not HTTP. Also, as already mentioned, make sure that your external domain is authenticated for use with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+
 ## Test your page personalization
 
-As mentioned in the introduction to this section, page personalization requires that a contact is known and allows prefilling of marketing pages. To test your page personalization, do the following:
+As mentioned in the introduction to this topic, page personalization requires that a contact is known and allows prefilling of marketing pages. To test your page personalization, do the following:
 
-1. Set up page personalization and create your personalized page as described earlier in this section.
+1. Set up page personalization and create your personalized page as described earlier in this topic.
 1. Open ([or create](create-deploy-marketing-pages.md)) a marketing page that's live and running on your instance and that includes a [marketing form](marketing-forms.md) with the following:
     - An [field design element](content-blocks-reference.md#form-content-elements) for each of the values you want to test on your personalized page.
     - A [remember-me design element](content-blocks-reference.md#form-content-elements) (which creates a checkbox that enables/disables prefilling and page personalization for the submitting contact)

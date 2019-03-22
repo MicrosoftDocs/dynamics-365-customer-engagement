@@ -58,7 +58,7 @@ To set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-market
 1. A new authenticated domain record opens. Make the following settings:
     - **Domain name**: Enter the name of the domain you want to authenticate. This must be a domain that your organization owns, and which you can access through your DNS provider.
     - **Authenticate email**: Select this check box if you want to authenticate email for this domain using DKIM.
-    - **Enable prefilled forms**: Select this check box if you want to authenticate marketing forms embedded on this domain for the purpose of supporting prefill for known contacts.
+    - **Enable prefilled forms**: Select this check box if you want to authenticate marketing forms [embedded](embed-forms.md) on this domain for the purpose of supporting prefill for known contacts. This check box also enables [page personalization](personalized-page-content.md) on this domain.
 1. Select **Save** from the command bar. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] saves the new record and generates a set of authentication keys for your specified domain. The page reloads to show the new keys. The following are provided:
     - **Ownership authentication key**: Proves that your organization owns the domain.
     - **Email authentication keys for DKIM**: Prove that [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is authorized to send messages that show your organization's domain name in the from-address.
