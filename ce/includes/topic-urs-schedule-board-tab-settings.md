@@ -87,7 +87,7 @@ This view defines the fields displayed in the details pane when an organizationa
 
 ## Custom web resource
 
-Web resources represent files that can be used to extend the Microsoft Dynamics 365 web application, such as HTML files, JavaScript, and Silverlight applications. This section allows you to use web resources from the schedule board, which can help dispatchers perform more functions and increase utilization. 
+Web resources represent files that can be used to extend the Microsoft Dynamics 365 web application, such as HTML files, JavaScript, and Silverlight applications. This section allows you to access web resources from the schedule board, which can help dispatchers perform more functions and increase utilization. 
 
 - **Tab Name:** the chosen web resource will be displayed in the details pane on the right-hand side of the schedule board. A new tab with the name entered here will appear next to the alerts tab. In the following example screenshot, "Web Resource" was entered for the tab name.
 
@@ -98,12 +98,12 @@ Web resources represent files that can be used to extend the Microsoft Dynamics 
 
 ## Schedule board colors
 
-The colors that represent a resources' utilization on the Days, Weeks, and Months view of the schedule board are configurable here by entering HTML color codes. See an example of colors chosen and the effects in the images below.  
+The colors that represent a resource's utilization on the days, weeks, and months view of the schedule board are configurable here by entering HTML hex color codes. See an example of colors chosen and the effects in the following screenshot.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule board colors](../field-service/media/schedule-board-settings-schedule-board-colors.png)
 
-In the next screenshot, you'll see a days view of the schedule board where each resource works 12 hours each day, and the range is 2 days. As a reminder, utilization is calculated as the hours booked compared to working hours for the schedule board time range.
+To illustrate how these colors affect the schedule board, see the following example. In our example, we have a day view of the schedule board where each resource works 12 hours each day, and the range is 2 days. The colors are configured as follows:
 
 - **Fully Booked:** Blue because the total booking duration (12 hours) equals the working hours for that particular resource's day.
 
