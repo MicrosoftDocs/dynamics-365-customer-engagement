@@ -98,7 +98,8 @@ When Unified Interface Only mode is enabled, environment settings can be accesse
 1. Select **Settings** (![Gear button](../admin/media/selection-rule-gear.gif "Gear button")) on the navigation bar.
 2. Select **Advanced Settings**.
 
-<image>
+> [!div class="mx-imgBorder"] 
+> ![](media/uci-advanced-settings.png "Advanced settings")
 
 ## How to enable Unified Interface Only mode
 
@@ -106,11 +107,14 @@ Unified Interface Only can be turned on and off in one of these two ways:
 
 - System Settings, go to the General tab (https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/system-settings-dialog-box-general-tab) and change the following setting.
 
-  <image>
+
+> [!div class="mx-imgBorder"] 
+> ![](media/uci-use-new-unified-interface-only.png "Use new Unified Interface Only")
 
 - Power Platform Admin Center, access the environments by following the steps in Manage settings (https://docs.microsoft.com/en-us/power-platform/admin/admin-settings), or navigating directly  (https://admin.powerplatform.microsoft.com/environments), go to the Behavior settings (https://docs.microsoft.com/en-us/power-platform/admin/settings-behavior) and change the following setting.
 
-  <image>
+> [!div class="mx-imgBorder"] 
+> ![](media/ucd-classic-mode.png "Classic mode")
 
 ## FAQs
 
