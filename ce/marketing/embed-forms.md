@@ -43,10 +43,10 @@ The following table summarizes the capabilities available with each of these app
 |   | Embedded marketing form | Captured external form | Native marketing page |
 | --- | --- | --- | --- |
 | Form design | Dynamics 365 | External/CMS | Dynamics 365 |
-| Page designed and publishing | External/CMS | External/CMS | Dynamics 365 |
+| Page design and publishing | External/CMS | External/CMS | Dynamics 365 |
 | Form prefill | Yes | No | Yes |
 | Subscription center functionality | Yes | No | Yes |
-| Forward to a friend functionality | Yes | No | Yes |
+| Forward to a friend functionality | No | No | Yes |
 | Link to forms from email messages | Yes | Yes | Yes |
 | Launch inbound campaigns | Yes | Yes | Yes |
 | Use form visits or submissions as criteria for journey triggers | Yes | Yes | Yes |

@@ -42,6 +42,19 @@ For privacy, the solution only allows personalized content to be shown to contac
 - **Use the personalized page entity to establish the white list and generate the JavaScript**  
 Go to **Marketing** > **Marketing content** > **Personalized pages** to identify which contact fields to make available and generate the code for bringing those values onto the page.
 
+You can use fields of the following types on personalized pages:
+
+- Single line of text
+- Option set
+- Two options
+- Whole Number
+- Floating point number
+- Decimal number
+- Currency
+- Multiple lines of text
+- Date and time
+- Multi-select option set
+
 ## Authenticate your external domains
 
 Domain authentication helps ensure that your organization's websites (external domains) really do belong to your organization, and that your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance is authorized to interact with those domains and send marketing emails associated with them. It requires your system administrator to prove ownership of each domain by submitting signed certificates through the DNS system. Before you start developing a personalized page for your website, be sure to ask your system administrator whether your domain is authenticated for use with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. For instructions, see [Authenticate your domains](marketing-settings.md#authenticate).
