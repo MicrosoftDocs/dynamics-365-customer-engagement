@@ -52,6 +52,10 @@ As an administrator or sales manager, you can create your own suggested actions 
     
     A new tab opens with the flow selections options.
     
+    
+    <!--Please don't use real names in screenshots. Check the names in the image below. They should be from a fictitious names list.-->
+    
+    
     ![Account validation in flow](media/cc-account-validation-flow.png "Account validation in flow")
     
     The flow validates your accounts of the applications that the flow is going to connect. In this example, the flow is connecting to Dynamics 365 and Dynamics 365 AI for Sales. Once you are successfully signed in, you can continue creating the card.
