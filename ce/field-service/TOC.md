@@ -53,7 +53,7 @@
 ## [Facility scheduling](facility-scheduling.md)
 ## [Fulfillment preferences](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
-
+## [Schedule board tab settings](schedule-board-tab-settings.md)
 
 # Field Service Mobile
 ## [Setup](field-service-mobile-app-user-guide.md)
