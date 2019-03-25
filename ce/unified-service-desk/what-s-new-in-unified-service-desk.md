@@ -74,13 +74,6 @@ Using **SwitchSession** action, you can now switch between local sessions. Also,
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SwitchSession Action](session-tabs-hosted-control.md#switchsession)
 
-### Preview: Use Edge Process hosting type to host web applications in Unified Service Desk
-
-Use the Microsoft Edge, the modern, faster, safer and responsive web browser to host applications in Unified Service Desk.
-Select Edge Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.
-
-More information: [Use Edge Process to host web applications in Unified Service Desk](edge-process.md)
-
 ::: moniker-end
 
 ::: moniker range="dynamics-usd-4"
