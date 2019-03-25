@@ -79,7 +79,7 @@ In this article let's explore creating a bookable resource and adding details to
 
 6. **Start/End Location** Decide where the resource starts and ends his or her working day for scheduling and routing purposes.
    1. **Location agnostic** - select this option if the location of this resource is not required for the business need and does not need to be considered during the scheduling process. If the work location of a requirement is set to On site, location agnostic resources will not return in results. 
-   2. **Resource Address** - select this option if the resource starts and ends his or her day at a unique location. The exact location is derived from the latitude and longitude values on the related user, account, or contact records depending on the resource type. It is important to [connect to maps and turn on geo coding](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in your environment for this purpose. 
+   2. **Resource Address** - select this option if the resource starts and ends his or her day at a unique location. The exact location is derived from the latitude and longitude values on the related user, account, or contact records depending on the resource type. See the configuration considerations section in this article for an example of how resource type and start/end location work together. It is important to [connect to maps and turn on geo coding](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in your environment for this purpose as well. 
    3. **Organizational Unit** - select this option if the resource starts and ends the day at an organizational unit, typically representing a company location. The exact location is derived from the latitude and longitude values on the selected organizational unit for which there is a lookup field on the bookable resource form. If the resource is of type facility, the organizational unit acts as the location of the facility.
 7. **Organizational Unit** Select the organizational unit the resource belongs to. This can represent a team the resource belongs to, an office the resource reports to, and the location where the resource starts and ends his or her day. 
 8. **Display On Schedule Board** Determines if the resource is eligible to be added to the schedule board. If set to **yes**, then the resource can be added to the schedule board based on the filters or manually selected.
@@ -209,6 +209,22 @@ Setting to Yes does not mean requirements will automatically be scheduled to thi
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of enabling rso for a resource](media/resource-enable-rso.png)
+
+## Configuration considerations
+
+Resource type and start/end location of **resource address** work together to define a resource's location. 
+
+As an example, in the image below is a bookable resource with resource type of **Contact** and a lookup to a contact record. Not shown is the start/end location field set to resource address.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of resource with resource type of contact](media/resource-type-contact.png)
+
+After navigating to the related contact record, you can add an address and then select the geo code button to populate latitude and longitude values that are used as the resource's start and end location for scheduling and routing purposes. This is also the resource's location displayed on the schedule board map.
+
+The process is similar for resources with resource type of Account or User. **Note** that editing a User record address may have to be done in the Office 365 admin center.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of geo coding a contact record](media/resource-contact-location-example.png)
 
 ## Additional notes
 
