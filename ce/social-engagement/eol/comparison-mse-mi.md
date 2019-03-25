@@ -102,6 +102,6 @@ Use Dynamics 365 Market Insights to capture AI-powered insights from social chan
 
 Engage with us in the [Market Insights Community forum](https://community.dynamics.com/365/aimarketinsights) or email us directly at [mseeol@microsoft.com](mailto:mseeol@microsoft.com) with any other questions or concerns.
 
-[Try the public preview and prepare to transition.](https://dynamics.microsoft.com/ai/marketinsights)    
+[Try the public preview and prepare to transition.](https://dynamics.microsoft.com/ai/market-insights)    
 Visit the [release notes](https://aka.ms/businessappsreleasenotes) for more information about capabilities.    
 
