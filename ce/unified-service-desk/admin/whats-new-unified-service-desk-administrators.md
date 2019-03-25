@@ -2,7 +2,7 @@
 title: "What's new in Unified Service Desk for Dynamics 365 for Customer Engagement apps for administrators | MicrosoftDocs"
 description: "Learn about new Unified Service Desk features for Dynamics 365 for Customer Engagement apps"
 keywords: 
-ms.date: 12/17/2018
+ms.date: 04/02/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 
@@ -47,6 +47,20 @@ The advantages of using the Chrome process hosting method are as follows:
 - Chrome Process pooling feature that reuses the chrome processes and mimics inline navigation provides enhanced performance and memory optimizations.
 
 More information: [Use Chrome Process to host web applications in Unified Service Desk](../chrome-process.md)
+
+### Recover a Chrome Process instance
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Chrome Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the webpages in the following scenarios:
+
+- When Chrome Process closes abruptly.
+- When you manually end an unresponsive Chrome Process instance from Task Manager.
+- When you manually end an unresponsive Chrome Process instance using a keyboard shortcut.
+
+Chrome Process recovery enables you to recover any Chrome Process instance (which may have more than one webpage) that is unresponsive in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application.
+
+By default, Chrome Process instance recovery is enabled. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Recover Chrome Process instance](../../unified-service-desk/admin/recover-chrome-process-instance.md).
 
 ### Integrate channel using Channel Integration Framework
 
