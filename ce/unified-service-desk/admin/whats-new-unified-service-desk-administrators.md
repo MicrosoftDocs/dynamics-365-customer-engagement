@@ -34,7 +34,7 @@ search.app:
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
-### Preview: Use Chrome Process hosting type to host web applications in Unified Service Desk
+### Use Chrome Process hosting type to host web applications in Unified Service Desk
 
 Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on **CefSharp**, an open source framework, which uses the chromium core that powers many modern browsers.
 
@@ -48,7 +48,7 @@ The advantages of using the Chrome process hosting method are as follows:
 
 More information: [Use Chrome Process to host web applications in Unified Service Desk](../chrome-process.md)
 
-### Preview: Integrate channel using Channel Integration Framework
+### Integrate channel using Channel Integration Framework
 
 Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
 
@@ -58,7 +58,7 @@ The User Interface Integration (UII) framework provides a hosted control - **Cha
 
 More information: [Integrate channel using Channel Integration Framework](../integrate-channel-provider-channel-integration-framework.md)
 
-### Preview: Cache specific configuration for agents
+### Cache specific configuration for agents
 
 The Configuration Cache Version option causes the client caching feature to retrieve the configuration that has undergone change from the Customer Engagement server to the agent’s desktop and avoid retrieving all configurations.
 
@@ -66,11 +66,34 @@ Your organization may have several departments and a each department has a confi
 
 More information: [Cache specific configuration for agents](../admin/set-configuration-cache-version.md)
 
-### Preview: Single Sign On for Unified Service Desk
+### Single Sign On for Unified Service Desk
 
 Single Sign On (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a improved startup performance and user experience by authenticating users to access Customer Engagement apps without the need for entering the credentials multiple times. This eliminates the need for entering the same password again and minimizes the possibility of login errors and ensures seamless experience.
 
 More information: [Single Sign On (SSO) for Unified Service Desk](../admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk---preview)
+
+### Unified Service Desk Administrator App
+
+With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 4.0, you can use the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
+
+The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app is built on the Unified Interface framework, which has a new user experience - **Unified Interface** - that uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
+
+The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app brings rich experience to administer and manage your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
+
+The Administrator app, built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client. 
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
+
+### Unified Interface Settings
+
+Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in experience.
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Interface Settings](../admin/unified-interface-settings.md)
+
+### Show feedback window to agents
+A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
 ### Preview: Use Edge Process hosting type to host web applications in Unified Service Desk
 

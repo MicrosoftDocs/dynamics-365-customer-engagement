@@ -33,7 +33,7 @@ search.app:
 
 ##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)]
 
-### Preview: Use Chrome Process hosting type to host web applications in Unified Service Desk
+### Use Chrome Process hosting type to host web applications in Unified Service Desk
 
 Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on **CefSharp**, an open source framework, which uses the chromium core that powers many modern browsers.
 
@@ -47,7 +47,7 @@ The advantages of using the Chrome process hosting method are as follows:
 
 More information: [Use Chrome Process to host web applications in Unified Service Desk](chrome-process.md)
 
-### Preview: Integrate channel using Channel Integration Framework
+### Integrate channel using Channel Integration Framework
 
 Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
 
@@ -56,6 +56,23 @@ If your organization wants to use the cloud-based channel that you have develope
 The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** for you to host the channel provider within Unified Service Desk client application.
 
 More information: [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
+
+### Stack notification in Unified Service Desk
+
+You can configure stack notifications in Unified Service Desk to display popup notification messages to your customer service agents that contains general information, customer or process-related information that the agent can act on.
+This facilitates simultaneous toast notifications in a multi-session environment. 
+
+Two new parameters are introduced: **stack** and **stackHeight**, for which you can set the values to show the notifications in a stack with a certain height.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stack Notifications](configure-notifications-unified-service-desk.md#stack-notifications) and [Popup Notification Hosted Control](popup-notification-hosted-control.md)
+
+### Switch between local sessions, and between local and global sessions
+
+When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer doesn't count until you switch back to the session. This helps in efficiently measure the agents' productivity.
+
+Using **SwitchSession** action, you can now switch between local sessions. Also, you can switch sessions between local and global by passing the global session ID retrieved from the context using the replacement parameter.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SwitchSession Action](session-tabs-hosted-control.md#switchsession)
 
 ### Preview: Use Edge Process hosting type to host web applications in Unified Service Desk
 
