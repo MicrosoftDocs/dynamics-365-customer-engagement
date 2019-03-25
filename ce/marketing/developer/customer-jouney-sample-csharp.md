@@ -139,4 +139,4 @@ Example below demonstrate how to invoke **Go live** programmatically
  
  ## See also
  
- [Create customer journeys using API](basic-operations-on-customer-jounery-using-api.md)
+ [Create customer journeys using API](basic-operations-on-customer-journey-using-api.md)
