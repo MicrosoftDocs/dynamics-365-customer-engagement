@@ -58,7 +58,7 @@ The Customer Journey SDK sample shows how to:
 
 The Microsoft.Dynamics.Marketing.SDK.dll uses core Microsoft XRM SDK to process organization requests. The source code of this project can be embedded into a plugin code and executed. Following examples demonstrate how they can be used. 
 
-Example below demonstrates how to invoke command programmatically 
+Example below demonstrates how to invoke **Check for Errors** command programmatically 
 
 ```csharp  
 using Microsoft.Dynamics.Marketing.SDK; 
@@ -117,7 +117,7 @@ public class Snippet
 } 
 ```
 
-Example below demonstrate how to invoke programmatically: 
+Example below demonstrate how to invoke **Go Live** programmatically: 
 
 ```csharp
 using Microsoft.Dynamics.Marketing.SDK.Metadata.OptionSets; 
