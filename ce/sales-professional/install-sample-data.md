@@ -1,0 +1,33 @@
+Add or remove sample data in Dynamics 365 for Sales Professional
+================================================================
+
+Sample data gives you something to experiment with as you learn Dynamics 365 for
+Sales Professional, and helps you see how data is organized in the system. At
+some point, you’ll probably want to remove the sample data.
+
+Or, if sample data isn’t installed on your system, you may want to add it for
+training purposes. Later, when you’re ready, you can remove it.
+
+>   [!Important]
+
+>   Use sample data to learn and play around with system features. However, to
+>   avoid unwanted results, don’t associate it with any data you actually need.
+
+1.  Make sure you have the System Administrator or System Customizer security
+    role in Dynamics 365 for Sales Professional.
+
+2.  In the site map, select **Sales Settings**, and under **Standard settings**,
+    select **Import data**.
+
+3.  On the **Import Data** page, under **Explore with sample data**, select
+    **Install sample data**.
+
+>   \-OR-
+
+>   If sample data is already installed, select **Remove Sample Data**.
+
+### See Also
+
+[Quick Setup & Advanced Settings
+overview](https://microsoft.sharepoint.com/teams/crmtechreview/Shared%20Documents/Sales/Sales%20pro/quick-setup-advanced-settings-overview.md)  
+Overview of Dynamics 365 for Sales Professional

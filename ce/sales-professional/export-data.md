@@ -1,0 +1,34 @@
+Export data or template in Dynamics 365 for Sales Professional
+==============================================================
+
+Present the sales related information to an individual who doesn’t have access
+to the Sales app by exporting the data to a Microsoft Office Excel static
+worksheet.
+
+You can export just the data from a list to an Excel static file, or you can
+export a template.
+
+When you export a template, a readymade worksheet with column headings matching
+to that of the fields of the record is created for you. The Excel template can
+be used to seamlessly import records into the Sales app.
+
+Where do I find the export options?
+-----------------------------------
+
+Data and template can be exported from:
+
+-   List of records
+
+-   Advanced settings
+
+When you export data or template from **Advanced settings**, you must select the
+entity you want to export the data or template for, such as Lead or Opportunity.
+You may also choose the view that will be used for exporting. If you don’t
+choose a view, the default view is selected and the data or template for all the
+columns in that view is exported.
+
+### See Also
+
+Import data into Dynamics 365 for Sales Professional  
+[Quick Setup & Advanced Settings
+overview](https://microsoft.sharepoint.com/teams/crmtechreview/Shared%20Documents/Sales/Sales%20pro/quick-setup-advanced-settings-overview.md)
