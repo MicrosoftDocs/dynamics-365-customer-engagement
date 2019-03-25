@@ -38,13 +38,13 @@ extending entitlement functionality for customer service to field service
 
 multiple different entitlements that impact the same work order
 
-Scenario 1: Offer a specific customer an entitlement for a special price list and a 10% discount applied to all work order products and services.
-Scenario 2: Offer a specific customer an entitlement for free work order products and services for two years for managed asset within a specified category.
+**Scenario 1:** Offer a specific customer an entitlement for a special price list and a 10% discount applied to all work order products and services.
+**Scenario 2:** Offer a specific customer an entitlement for free work order products and services for two years for managed asset within a specified category.
 
 ## Prerequisites
 Field Service v8.4+
 Customer Service
-knowledge of D365 price lists recommended
+Knowledge of Dynamics 365 price lists is recommended
 
 > [!Note]
 >
@@ -52,27 +52,42 @@ knowledge of D365 price lists recommended
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
-## Instructions
-Create entitlement
+## Scenario 1: entitlement for price list and discount
+
+Step 1: Create a price list and add a product 
+
+Step 2: Create an entitlement
 - select work order
 - must be billing acount
 - allocation type 
 - manipulate discount, price list or both
-- 
-create a work order
-- adding a new entitlement 
-see products and services, entitlement applied 
 
-can override entitlement if other entitlements are applicable
 
-## Configuration considerations
-- example: if you wanted to give 10% on products and 20% on services you would need 2 entitlements
-- how does this work with incident types?
-## Additional Notes
+Step 3: Create a work order and add work order products and services
+
+
+## Scenario 2: entitlement for free products and services for an asset category
+
+Step 1: create a customer asset with an asset category
+
+Step 2: create an entitlement
+
+Step 3: create a work order for the customer asset
+
+## Entitlement conflicts 
+
 - handling conflicts?
   - prioritization 1 is highest
   - a product/service can be eligible for multiple entitlements 
   - tie break goes to specificity 
-- - cost doesnt change 
-  - can manually override 
-  - 
+  -  
+  - can override entitlement if other entitlements are applicable
+  - - adding a new entitlement 
+see products and services, entitlement applied 
+
+## Configuration considerations
+- example: if you wanted to give 10% on products and 20% on services you would need 2 entitlements
+
+## Additional Notes
+cost doesnt change
+  - - how does this work with incident types?
