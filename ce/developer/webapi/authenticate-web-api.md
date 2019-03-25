@@ -30,7 +30,7 @@ The code you write to manage authentication when using the Web API depends on th
  There are three different ways to manage authentication when using the Web API.  
   
 ### With JavaScript in web resources  
- When you use the Web API with [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] within HTML web resources, form scripts, or ribbon commands you don’t need to include any code for authentication. In each of these cases the user is already authenticated by the application and authentication is managed by the application.  
+ When you use the Web API with [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] within HTML web resources, form scripts, or ribbon commands you don’t need to include any code for authentication. In each of these cases the user is already authenticated by the application and authentication is managed by the application. More information: [Authenticate with Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api). 
   
 ### With on-premises deployments  
 
