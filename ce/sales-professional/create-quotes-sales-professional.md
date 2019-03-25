@@ -1,23 +1,18 @@
-Create and manage quotes in Dynamics 365 for Sales Professional
+# Create and manage quotes in Dynamics 365 for Sales Professional
 ===============================================================
 
-Most sales begin with a price quote in Dynamics 365 for Sales Professional. A
-quote is a formal offer for products proposed at specific prices and related
-payment terms, which you send to an opportunity, account, or contact.
+Most sales begin with a price quote in Dynamics 365 for Sales Professional. A quote is a formal offer for products proposed at specific prices and related
+payment terms, which you send to an opportunity, account, or contact. 
 
-If you’ve created your quote from an opportunity, you may have already added
-products that your customer is interested in to the opportunity. When you create
+If you’ve created your quote from an opportunity, you may have already added products that your customer is interested in to the opportunity. When you create
 a quote from the opportunity, all the products are already added to the quote.
 
-You’ll probably edit a quote multiple times as a sale progresses. Initially, you
-create a draft, and then you need to activate it when it’s ready to go to a
+You’ll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it’s ready to go to a
 customer.
 
-When the customer accepts the quote, and you are ready to ship the products, you
-create an invoice. Otherwise, you close the quote as revised, canceled, or lost.
+When the customer accepts the quote, and you are ready to ship the products, you create an invoice. Otherwise, you close the quote as revised, canceled, or lost.
 
-Create a quote from an opportunity
-----------------------------------
+## Create a quote from an opportunity
 
 1.  In the site map, select **Opportunities**.
 
@@ -25,77 +20,62 @@ Create a quote from an opportunity
 
 3.  On the command bar, select **Create Quote**.
 
-The quote form opens.
+    The quote form opens.
 
-![](media/2f046df377f1f82409dd5c694c3aae55.png)
+    ![](media/2f046df377f1f82409dd5c694c3aae55.png)
 
->   A screenshot of a cell phone Description automatically generated
+    A screenshot of a cell phone Description automatically generated
 
-1.  Type shipping and payment information in the **Shipping Information** area
+4.  Type shipping and payment information in the **Shipping Information** area
     of the **Quote** screen.
 
-2.  Type the billing and shipping addresses in the **Addresses** area of the
+5.  Type the billing and shipping addresses in the **Addresses** area of the
     **Quote** screen.
 
-3.  To add products from your opportunity to your quote, on the command bar of
+6.  To add products from your opportunity to your quote, on the command bar of
     the Quote form, select **Get Products**. You add more products or remove
     existing ones from the **Quote Products** grid.
 
-4.  In the **Products Summary** area, enter all the information you have
+7.  In the **Products Summary** area, enter all the information you have
     available. If you are adding a discount, add a percentage or amount, or
     both.
 
-5.  Select the **Save** button at the bottom right corner of the screen.
+8.  Select the **Save** button at the bottom right corner of the screen.
 
-6.  When your quote is ready to send to your customer, select **Activate Quote**
-    at the top of the screen.
+9.  When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.
 
-Create a new quote
-------------------
+
+## Create a new quote
 
 1.  In the site map, select **Quotes**.
 
 2.  Select **New**.
 
->   The quote form opens.
+    The quote form opens.
 
-![](media/0cadb6760475d96f72d6835373bbb33d.png)
+    ![](media/0cadb6760475d96f72d6835373bbb33d.png)
 
->   A screenshot of a computer Description automatically generated
+3.  Add your quote information.
 
-1.  Add your quote information.
+4.  To add products from your opportunity to your quote, select **Get Products** at the top of the **Quote** screen and select **OK**.
 
-2.  To add products from your opportunity to your quote, select **Get Products**
-    at the top of the **Quote** screen and select **OK**.
-
-3.  In the **Sales Information** area, select the potential customer you’re
-    creating this quote for. If the record doesn’t already exist, you can create
+5.  In the **Sales Information** area, select the potential customer you’re creating this quote for. If the record doesn’t already exist, you can create
     a new one.
 
-4.  In the **Shipping Information** area, type shipping details.
+6.  In the **Shipping Information** area, type shipping details.
 
-5.  In the **Addresses** area, type shipping and billing addresses.
+7.  In the **Addresses** area, type shipping and billing addresses.
 
-6.  Select the **Save** button at the bottom right corner of the screen.
+8.  Select the **Save** button at the bottom right corner of the screen.
 
-7.  When your quote is ready to send to your customer, select **Activate Quote**
-    at the top of the screen.
+9.  When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.
 
-Email a quote
--------------
+## Email a quote
 
-When you’ve added all the details to the quote, you can send it to the customer.
+When you’ve added all the details to the quote, you can send it to the customer. To directly send an email to customer with a quote attached, open the quote, and
+on the command bar, select the **More Commands** icon ![Icon for More Commands](media/8ee65c6454c46d9d95de8bc81379a04b.png), and then select **Send by Email**.
 
-To directly send an email to customer with a quote attached, open the quote, and
-on the command bar, select the **More Commands** icon
-
-![Icon for More Commands](media/8ee65c6454c46d9d95de8bc81379a04b.png)
-
-, and then select **Send by Email**.
-
-![Send By Email command bar button](media/27a7ee6f4034834467ff8b31fc93d0bd.png)
-
-Send By Email command bar button
+![Send By Email command bar button](media/27a7ee6f4034834467ff8b31fc93d0bd.png) "Send By Email command bar button"
 
 ### See Also
 

@@ -47,7 +47,7 @@ Step 1: Create a new template from existing data
 5.  In the **Create Template Type** pane, select **Excel Template**, and then
     select **Next**.
 
-![](media/013f28c2d0faf8cecfe9b2caa1fb72bd.png)
+    ![Select template type in the Create Template wizard](media/013f28c2d0faf8cecfe9b2caa1fb72bd.png)
 
 >   Select template type in the Create Template wizard
 
@@ -207,9 +207,9 @@ Excel templates in Dynamics 365 for Sales Professional.
 >   the spreadsheet. Other types of charts do update automatically.
 
 >   In Excel, right-click the pivot chart, and then select **PivotChart
->   Options** \> **Refresh data** when opening the file.
+>   Options** > **Refresh data** when opening the file.
 
-![](media/0636f28e00e6d39fd228738e4d96dc4e.png)
+    ![Define PivotTable options](media/0636f28e00e6d39fd228738e4d96dc4e.png)
 
 >   Define PivotTable options
 

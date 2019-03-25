@@ -14,7 +14,7 @@ You can also assign a record to a team, or to yourself.
 
 4.  In the **Assign** dialog box, select the **Assign to** box to toggle between **Me** and **User or Team**.
 
-    ![](media/8c16488b1c6ee619deccd9c55ba24c98.png)
+    ![Assign Opportunity dialog box](media/8c16488b1c6ee619deccd9c55ba24c98.png "Assign Opportunity dialog box")
 
 5.  If you have chosen to assign to **User or Team**, then in the **User or
     team** field, select the **Lookup** icon to select a user or a team.
@@ -24,4 +24,4 @@ You can also assign a record to a team, or to yourself.
 ## See Also
 
 [Learn the Basics](learn-the-basics.md)  
-Overview of Dynamics 365 for Sales Professional
+[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)

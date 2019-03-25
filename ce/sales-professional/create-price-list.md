@@ -1,71 +1,48 @@
-Create a price list
-===================
+# Create a price list
 
-Price lists tell your sales agents what to charge for your products or services.
-You can create multiple price lists so that you can maintain separate price
-structures for different regions you sell your products in or for different
-sales channels.
+Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price
+structures for different regions you sell your products in or for different sales channels.
 
-Price lists tie the unit, product, and pricing details together, so before you
-create a price list, make sure the units and products are in place.
+Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.
 
-1.  Make sure that you have the System Administrator or Sales Professional
-    Manager role of equivalent permissions.
+1.  Make sure that you have the System Administrator or Sales Professional Manager role of equivalent permissions.
 
 2.  In the site map, select **Price List**.
 
 3.  Select **+New**.
 
->   The Price List form opens.
+    The Price List form opens.
 
-![](media/7f6ba57e266ad83dedb874701d6ab1a1.png)
+    ![Empty Price list form](media/7f6ba57e266ad83dedb874701d6ab1a1.png "Empty Price list form")
 
->   A screenshot of a cell phone Description automatically generated
+4.  Fill in your information, and then select **Save**.
 
-1.  Fill in your information, and then select **Save**.
+    a. **Name**. Type a descriptive name for the price list. For example, if you are creating a price list for retail, mention that.
 
->   a. **Name**. Type a descriptive name for the price list. For example, if you
->   are creating a price list for retail, mention that.
+    b. **Start Date**/**End Date**. Select the start date and end date for the price list. For example, if this is a promotional price list that’s effective only for the promotional period, select that period.
 
->   b. **Start Date**/**End Date**. Select the start date and end date for the
->   price list. For example, if this is a promotional price list that’s
->   effective only for the promotional period, select that period.
+    c. **Currency**. Select the currency you’re creating the price list for. You can have different price list for different currencies.
 
->   c. **Currency**. Select the currency you’re creating the price list for. You
->   can have different price list for different currencies.
+5.  To add price per unit for a product, create and add price list items.
 
-1.  To add price per unit for a product, create and add price list items.
+    1.  In the **Price List** form, select the **Price List Items** tab, and then select **Add New Price List Item**.
 
-    1.  In the **Price List** form, select the **Price List Items** tab, and
-        then select **Add New Price List Item**.
+    ![Add New Price List Item button on the Price List Items tab](media/c358464e9b8e2f07cf67850cb9a33f27.png "Add New Price List Item button on the Price List Items tab")
 
-![](media/c358464e9b8e2f07cf67850cb9a33f27.png)
+    2. In the **Price List Item** form, fill in the information, and select **Save and Close**:
 
->   A screenshot of a cell phone Description automatically generated
+        - **Price List**. The price list for which you are creating price list item is automatically populated here.
 
-1.  In the **Price List Item** form, fill in the information, and select Save
-    and Close:
+        - **Product**. Select the product from which you are creating the price list item.
 
-    1.  **Price List**. The price list for which you are creating price list
-        item is automatically populated here.
+        - **Unit**. Select the unit for the product you’re creating this price list item for.
 
-    2.  **Product**. Select the product from which you are creating the price
-        list item.
-
-    3.  **Unit**. Select the unit for the product you’re creating this price
-        list item for.
-
-    4.  **Currency**. The currency defined for the price list is automatically
+        -  **Currency**. The currency defined for the price list is automatically
         populated.
 
-    5.  **Discount List**. If you want to offer a discount on the products,
+        -  **Discount List**. If you want to offer a discount on the products,
         select a discount list to the price list item.
 
-    6.  **Quantity Selling Option**. select whether the product or service can
-        be ordered in whole, partial, or both types of quantities. This
-        information is used in the Quantity field of Quote Product, Order
-        Product, and Invoice Product records.
+        -  **Quantity Selling Option**. select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the Quantity field of Quote Product, Order Product, and Invoice Product records.
 
-![](media/100172ed0bb1edf426dd5c3363c3af4f.png)
-
->   A screenshot of a cell phone Description automatically generated
+        ![New Price List Item form](media/100172ed0bb1edf426dd5c3363c3af4f.png "New Price List Item form")
