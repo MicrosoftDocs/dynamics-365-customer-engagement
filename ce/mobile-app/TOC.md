@@ -6,7 +6,6 @@
 ## [Configure mobile offline synchronization](configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md)
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
 ## [Dynamics 365 for Good device encryption](secure-mobile-data-dynamics-365-good.md)
-## [Company News Timeline](../company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md)
 
 
 # [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
@@ -43,6 +42,7 @@
 ## User Guide 
 ### [Install the mobile app](../mobile-app/v8/go-mobile/get-started/install.md)
 ### [Signing in and signing out](../mobile-app/v8/go-mobile/get-started/sign-in-out.md)
+### [Sign in using your email address (for iOS users)](email-signin.md)
 ### [Reconfigure](../mobile-app/v8/go-mobile/get-started/reconfigure.md)
 ### [Basic navigation](../mobile-app/v8/go-mobile/get-started/basic-navigation.md)
 ### [The workspace - your personalized action hub](../mobile-app/v8/go-mobile/get-started/workspace-personalized-action-hub.md)
