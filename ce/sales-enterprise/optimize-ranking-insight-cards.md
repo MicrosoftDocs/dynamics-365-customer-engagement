@@ -29,34 +29,36 @@ Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 
-There are several cards defined for your organization and all will be displayed to the users through an externally prioritized list. In this externally prioritized list display of cards, users might miss cards that important and needs follow-ups. The **Optimize ranking** option in **Assistant** allows you to optimize the ranking of card that are important and promotes the card to display on the top.
+Several cards are defined for your organization and all will be displayed to the users through an externally prioritized list. In this list of cards, users might miss those that are important and need follow-up. The **Optimize ranking** option in Assistant allows you to optimize the ranking of cards that are important and promotes those cards to display at the top.
 
-You can define up to four rules in the ranking section and are based on the entities such as Account, Leads, and Opportunity. Also, the cards are given the priority in the order you define. For example, you created two rules the first is to prioritize cards that the annual revenue is above $100,000 and the second is prioritize cards that estimated revenue is above $10,000. The assistant analyzes the cards and displays the cards with annual revenue more than $100,000 and followed by estimated revenue with more than $10,000, later followed by the cards that are not prioritized. 
+You can define up to four rules in the ranking section, based on entities such as Account, Leads, and Opportunity. Also, the cards are given a priority in the order you define. For example, you created two rules—the first is to prioritize cards for which annual revenue is above $100,000 and the second is to prioritize cards for which estimated revenue is above $10,000. The assistant analyzes the cards and displays those with annual revenue of more than $100,000, followed by those with estimated revenue of more than $10,000, and then followed by the cards that are not prioritized. 
 
 Follow these steps to rank the cards:
 
 1. Sign in to **Dynamics 365 for Sales** and go to **Settings** > **Sales AI**.
-2. On the **Assistant** section, select **Configure** or select the **Assistant** tab.
+2. In the **Assistant** section, select **Configure** or select the **Assistant** tab.
 
-    ![Open assistant tab](media/cc-open-assistant.png "Open assistant tab")
+    ![Open Assistant tab](media/cc-open-assistant.png "Open Assistant tab")
 
-3. On the **Assistant** tab, select the **Optimize ranking** tab
+3. On the **Assistant** tab, select the **Optimize ranking** tab.
 
    ![Optimize ranking tab](media/cc-optimize-ranking-tab.png "Optimize ranking tab")
  
-    The list of rankings that are defined in your organization are displayed.
+    The list of rankings that are defined in your organization is displayed.
 
-    When ranking rules are checked, specifying that the rules are active. If any rule not required in your organization, deselect the rule and save.
+    When ranking rules are checked, it specifies that the rules are active. If any rule is not required in your organization, deselect the rule and select **Save**.
 
-4. There are four properties you can edit for a rule. The rules are set using these four properties. The basic structure of rules displays as: **Cards related to** *'Name of the entity'* **with** *'Attribute type' 'Condition' 'Value'*. The four properties are:
+4. There are four properties you can edit for a rule. The rules are set using these four properties. The basic structure of rules displays as: **Cards related to** *'Name of the entity'* **with** *'Attribute type' 'Condition' 'Value'*. 
+
+    The four properties are:
     - **Name of the entity**: The entities such as account, leads, and opportunities are used to model and manage business data in Dynamics 365 for Customer Engagement apps.
-        After you select the entity, the values in the Attribute type, Condition, and Value dropdowns change accordingly.
-    - **Attribute type**: An entity has set of attributes. For example, the account entity contains attributes such as Name, Address, and OwnerId. 
-        The list of attribute type displays in the drop down varies depending on the entity selection and is related to the fields defined within CRM.
-    - **Condition**: The conditional specifies to display a card when the set condition is met. For example, some common conditions are above, equal, and below.
+        After you select the entity, the values in the Attribute type, Condition, and Value drop-down lists change accordingly.
+    - **Attribute type**: An entity has a set of attributes. For example, the account entity contains attributes such as Name, Address, and OwnerId. 
+        The attribute types displayed in the drop-down list vary depending on the entity selection and are related to the fields defined within CRM.
+    - **Condition**: The condition specifies that a card is displayed when the set condition is met. For example, some common conditions are above, equal, and below.
     - **Value**: The value specifies the unit of measure for a condition to validate for the attribute type.
 
-        For example, you want prioritize cards of accounts where annual revenue of the account is more than $100,000 and display it to your user in your organization. You define the rule as, **Cards related to** *account* **with** *annual revenue* *above* *100,000*.
+        For example, you want to prioritize cards of accounts where the annual revenue is more than $100,000 and display it to your user in your organization. You define the rule as, **Cards related to** *account* **with** *annual revenue* *above* *100,000*.
 
 5. Save the rule.
 
