@@ -1,7 +1,7 @@
 ---
 title: "Sign in to Dynamics 365 for phones and tablets using your email address (Dynamics 365 for Customer Engagement apps) | Microsoft Docs"
 ms.custom: 
-ms.date: 03/22/2019
+ms.date: 03/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
