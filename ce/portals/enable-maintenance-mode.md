@@ -58,7 +58,7 @@ You can enable maintenance mode on your portal to provide consistent message ins
 
 ## Configure or disable maintenance mode
 
-After enabling maintenance mode for your portal, you might want to select a custom HTML page, if you selected the default page to be displayed or a different custom HTML page, if you selected a custom page to be displayed. To do this, you can configure your maintenance mode settings.
+After enabling maintenance mode for your portal, you can update the maintenance mode settings and choose a different page.
 
 You can also choose to disable maintenance mode on your portal when the scheduled maintenance of your website is complete. Your portal users can now browse and access all web pages as usual.
 
