@@ -2,7 +2,7 @@
 title: "Comparison between Microsoft Social Engagement and Dynamics 365 Market Insights | Microsoft Docs"
 description: "Features, enhancements, and benefits of Dynamics 365 Market Insights."
 keywords: "discontinuation, MSE, Market Insights"
-ms.date: 01/16/2019
+ms.date: 03/04/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -79,20 +79,20 @@ Use machine learning to tweak sentiment detection in a way that’s tailored to 
 ### Social care 
 Give service agents the information they need, and automate case routing, so they can spend more time addressing customer needs. Detect and create alerts based on sentiment and trends to proactively identify service issues.
 
-| Brand Reputation Capabilities  |  Market Insights |  Microsoft Social Engagement |
+| Social Care Capabilities  |  Market Insights |  Microsoft Social Engagement |
 |---|---|---|
-| Link posts to cases in Dynamics 365 for Customer Service  | Yes         | Yes |
-| Post assignments                           | Yes         | Yes |
-| Customizable alerts                        | Yes         | Yes |
-| Author insights                            | Yes         | Yes |
-| Top fans and critics                       | Yes         | Yes |
+| Link posts to cases in Dynamics 365 for Customer Service  | No         | Yes |
+| Post assignments                           | No         | Yes |
+| Customizable alerts                        | No         | Yes |
+| Author insights                            | No         | Yes |
+| Top fans and critics                       | No         | Yes |
 
 ### Social Selling
 Empower your sales people to sell more by leveraging social media. Sales teams can gather intelligence, source new leads, and build credibility. Source high-quality leads to identify and act on buying signals, and then create new leads based on social posts.	
 
 | Social Selling Capabilities  |  Market Insights |  Microsoft Social Engagement |
 |---|---|---|
-| Link posts to leads in Dynamics 365 for Sales  | Yes         | Yes |
+| Link posts to leads in Dynamics 365 for Sales  | No         | Yes |
 | Social Selling Assistant                         | No         | Yes |
 	
 

@@ -4,7 +4,7 @@ description: "Playbooks lets you consistently perform recurrent business process
 keywords: "playbook, launch, run, report"
 ms.date: 02/20/2019
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
   - "dyn365-sales"
 ms.topic: article

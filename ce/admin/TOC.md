@@ -4,13 +4,13 @@
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
 ## [About Unified Interface](about-unified-interface.md)
-<!-- ## [Update apps to Unified Interface](update-apps-to-unified-interface.md) -->
+## [Update apps to Unified Interface](update-apps-to-unified-interface.md)
 ## [Enable hybrid experience](enable-hybrid-experience.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
 ## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)
 ## [Move between apps](quickly-navigate-office-365-app-launcher.md)
-## [Sign in to apps](sign-in-office-365-apps.md)
+## [Sign in to apps](sign-in-office-365-apps.md) 
 ## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)
 ## [What is Office 365?](what-office-365-how-does-relate.md)
 ## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md)
@@ -30,6 +30,7 @@
 ## [Promo codes: Commercial Web Direct](promo-codes-commercial-web-direct.md)
 # [Support and billing](billing-support.md)
 ## [Contact technical support](/power-platform/admin/get-help-support) 
+## [Determine your organization ID and name](determine-org-id-name.md)
 ## [Help and additional resources](help-additional-resources.md)
 ## [Volume licensing FAQ](volume-licensing-faq-dynamics-365-online-customer-engagement.md)
 ## [Billing FAQ](billing-faqs-dynamics-365-online.md)
@@ -76,7 +77,6 @@
 ## [Team templates for access rights](create-team-template-add-entity-form.md)
 ## [Add teams or users to field security profile](add-teams-users-field-security-profile.md)
 ## [Synchronize user information between Dynamics 365 for Customer Engagement and Active Directory](synchronize-user-information-active-directory.md)
-<!-- removed as duplicate  ## [Create or edit a business unit](create-edit-business-unit-control-access-records.md) -->
 ## [Add or remove sales territory members](add-remove-territory-members.md)
 ## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md)
 
@@ -244,13 +244,12 @@
 #### [Enable Office Delve](enable-office-delve.md)
 #### [Connect to Yammer](connect-yammer.md)
 
-# [Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)
-## [Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
-## [Suggest similar cases for a case](../customer-service/suggest-similar-cases-for-a-case.md)
+# [Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)
+## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
 
-# [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
-## [Dynamics 365 Government - Feature availability](../admin/government/government-feature-availability.md)
+# [Dynamics 365 US Government](../admin/government/microsoft-dynamics-365-government.md)
+## [Dynamics 365 US Government - Feature availability](../admin/government/government-feature-availability.md)
 
 # System Settings Dialog Box Reference
 ## [General tab](system-settings-dialog-box-general-tab.md)

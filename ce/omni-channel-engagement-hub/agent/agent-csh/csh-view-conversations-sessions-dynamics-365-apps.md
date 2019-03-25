@@ -35,23 +35,10 @@ The Conversation Form displays information about an engagement request.
 
 | **Tab** | **Section**     | **Fields**        |
 |---------|-----------------|-------------------|
-| Details | Details         | Title             |
-|         |                 | Customer          |
-|         |                 | Work stream       |
-|         |                 | Active agent      |
-|         |                 | Activity status   |
-|         |                 | Status reason     |
-|         |                 | Status updated on |
-|         |                 | Regarding         |
-|         |                 | Queue             |
-|         | History         | Create on         |
-|         |                 | Closed on         |
-|         |                 | Modified on       |
-|         |                 | Transfer count    |
-|         |                 | Escalation count  |
-|         | Session Details | Subject           |
-|         |                 | Date created      |
-|         | Chat Transcript | Download          |
+| Details | Details         | <ul> <li>Title</li> <li>Customer</li> <li>Work stream </li> <li>Active agent</li> <li>Activity status</li> <li>Status reason</li> <li>Status updated on</li> <li>Regarding</li> <li>Queue</li> </ul>|
+| Details | History         |<ul> Create on</li> <li>Closed on</li> <li>Modified on</li> <li>Transfer count</li>  <li>Escalation count</li> <ul>
+| Details | Session Details |<ul> <li>Subject</li> <li>Date created</li> <ul>|
+| Details | Chat Transcript |<ul> <li>Download</li> <ul>|
 
 ### Session form
 
@@ -61,21 +48,9 @@ The session form displays information about a conversation request.
 
 | **Tab** | **Section**          | **Field**          |
 |---------|----------------------|--------------------|
-| General | Header               | Activity Status    |
-|         | General              | Subject            |
-|         |                      | Owner              |
-|         |                      | Conversation id    |
-|         |                      | Session Created On |
-|         |                      | Session Closed On  |
-|         |                      | Agent Assigned On  |
-|         |                      | Agent Accepted On  |
-|         |                      | Regarding          |
-|         |                      | Name               |
-|         |                      | Created on         |
-|         | Session Participants | Agents             |
-|         |                      | Joined On          |
-|         |                      | Left On            |
-|         |                      | Mode               |
+| General | Header               | <ul> <li>Activity Status</li> </ul>|
+| General | General              | <ul> <li>Subject</li> <li>Owner</li> <li>Conversation id</li> <li>Session Created On</li> <li>Session Closed On</li> <li>Agent Assigned On</li> <li>Agent Accepted On</li> <li>Regarding</li> <li>Name</li> <li>Created on</li> </ul> |
+| General | Session Participants | <ul> <li>Agents</li> <li>Joined On</li> <li>Left On</li> <li>Mode</li> </ul> |
 
 The Session Participants section lets you add a participant related to the session or add a session participant that already exists for the record you are working with.
 
@@ -84,16 +59,7 @@ The Session Participants section lets you add a participant related to the sessi
 
 ## See also
 
-- [Sign in to Dynamics 365 Customer Service hub](csh-sign-dynamics-365-customer-service-hub.md)
-- [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
-- [Know the sitemap navigation](csh-sitemap.md)
-- [Navigate using the navigation bar](csh-navigation-bar.md)
-- [Navigation bar buttons](csh-navigation-bar-buttons.md)
-- [View agent dashboard and agent work items](csh-my-dashboard.md)
-- [View communication panel](csh-conversation-control.md)
-- [View notifications and screen pops](csh-notifications-screen-pops.md)
 - [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
-- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
-- [Take notes specific to conversation](csh-take-notes.md)
 - [Create a record](csh-create-record.md)
-- [Search and link record to the conversation](csh-search-link-record.md)
+- [Search for records](csh-search-record.md)
+- [Link and unlink a record](csh-link-unlink-record.md)

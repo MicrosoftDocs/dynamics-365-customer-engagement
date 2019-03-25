@@ -61,8 +61,7 @@ This is the most common scenario and the one which is used for apps distributed 
   
 5. Test your application using a separate [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
   
-   For a complete example of this process, see [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md).  
-  
+
 <a name="bkmk_CreateAMultitenantWebApp"></a>
    
 ## Create a multi-tenant web application registered with your Azure AD tenant 
@@ -90,7 +89,7 @@ This is the most common scenario and the one which is used for apps distributed 
   
  ![ASP.NET  MVC Change Authentication Dialog](media/mvc-change-authentication-dialog.png "ASP.NET  MVC Change Authentication Dialog")  
   
- When you configure a project with these options it will be configured to use OWIN middleware and scaffolding for a basic application that supports this scenario. With some basic modifications it can be adapted to work with [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)]. This is the approach demonstrated in [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md).  
+ When you configure a project with these options it will be configured to use OWIN middleware and scaffolding for a basic application that supports this scenario. With some basic modifications it can be adapted to work with [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)].
   
  In the process of creating and registering your application for development you will most likely use `http://localhost` as the **Sign-on URL** and **Reply URL** values so you can test and debug your application locally before publishing. You will need to change these values before you publish your app.  
   
@@ -204,7 +203,6 @@ There are several ways that you can achieve this, including writing your own pro
 The [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] is an application which can be used to prepare a package to automate transferring solutions and data to a different [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the Dynamics 365 for Customer Engagement Package Deployer](create-packages-package-deployer.md)  
   
 ### See also  
- [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md)   
  [Use Single-Tenant Server-to-server authentication](use-single-tenant-server-server-authentication.md)   
  [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md)   
  [Connect to Dynamics 365 for Customer Engagement apps](connect-customer-engagement.md)

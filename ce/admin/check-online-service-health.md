@@ -32,14 +32,14 @@ You can quickly get a real-time status of your Customer Engagement apps and [!IN
 ## View a snapshot of service health  
 [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can see a quick snapshot of service health for some of your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services. Select **Service health** (from the menu: **Health** > **Service health**) to get more information on all your services.  
   
-![Office 365 Admin Center service health dashboard](../admin/media/office-365-admin-center-service-health-dashboard.png "Office 365 Admin Center service health dashboard")  
+![Microsoft 365 admin center service health dashboard](../admin/media/office-365-admin-center-service-health-dashboard.png "Microsoft 365 admin center service health dashboard")  
   
 <a name="BKMK_TenantHealth"></a>   
 
 ## View Dynamics 365 for Customer Engagement apps (online) service health  
 Select an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service, such as Customer Engagement apps,  to get detailed information on its service health status.  
   
-![Office 365 Admin Center service issue](../admin/media/office-365-admin-center-service-issue.png "Office 365 Admin Center service issue")  
+![Microsoft 365 admin center service issue](../admin/media/office-365-admin-center-service-issue.png "Microsoft 365 admin center service issue")  
   
 ## View service health history  
 Select **View history** in the upper-right corner to view the past 7 or the past 30 days of service. 
@@ -48,7 +48,7 @@ Select **View history** in the upper-right corner to view the past 7 or the past
 
 Select an item to see service health status and details for that item. 
   
-![Office 365 Admin Center service health history](../admin/media/office-365-admin-center-service-health-history.png "Office 365 Admin Center service health history")  
+![Microsoft 365 admin center service health history](../admin/media/office-365-admin-center-service-health-history.png "Microsoft 365 admin center service health history")  
   
 <a name="BKMK_PlannedMaintenance"></a>   
 
@@ -56,7 +56,7 @@ Select an item to see service health status and details for that item.
 
 Select the **Message center** on your home dashboard (from the menu: **Health** > **Message center**) to see if there are any scheduled events for your online service and to view other informative messages.  
   
-![Office 365 Admin Center Message Center](../admin/media/office-365-admin-center-message-center.png "Office 365 Admin Center Message Center")  
+![Microsoft 365 admin center Message Center](../admin/media/office-365-admin-center-message-center.png "Microsoft 365 admin center Message Center")  
   
 ## View instance service health  
 

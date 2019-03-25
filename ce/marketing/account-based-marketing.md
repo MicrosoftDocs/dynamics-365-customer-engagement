@@ -55,15 +55,15 @@ As with all types of segments, the segments that you create for use with account
 
 When you're creating dynamic segments for account-based marketing, you'll probably often want to start by finding the relevant accounts and then finding the attached contacts. Here's how to set up a segment like this:
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar.
+1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.  
+    ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
 
-1. Fill out the **General** tab with a name and description for your new segment. Make sure **Segment type** is set to **Dynamic segment**.
+    Do the following:
 
-1. Open the **Definition** tab, where you'll find the segment **Designer**. A default contact group is provided, but you don't want a contact group, so select the close button to remove this default group.
+    - Enter a **Name** for the segment at the top of the page.
+    - Select the close button to remove the default contact group from the **Designer** area. Many of your segments will probably start and end with the contact entity, but for this example we will start with accounts instead.
 
-    ![Remove the default contact group](media/abm-segment-1.png "Remove the default contact group")
-
-1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Account** from here.
+1. When default contact group closes, it's replaced by a **Select a profile or relationship** drop-down list. Select **Accounts** from here.
 
 1. Finish setting up the selection criteria to find the accounts you are looking for. For example, to find all accounts in Chicago with an annual revenue over $100,000, you would set up the following two clauses:
 
@@ -72,7 +72,7 @@ When you're creating dynamic segments for account-based marketing, you'll probab
 
     ![Example account query](media/abm-segment-2.png "Example account query")
 
-1. When you're done setting up your account query, you must create a relation to the contact entity. To do that, select the **+ And** button to add a new **Select a profile or relationship** drop-down list, and choose **contact\_account\_parentcustomerid\_&lt;Your\_Dynamics\_Domain&gt;** from that list. This value describes a relationship between the **contact** entity and the **account** entity, where the **parentcustomerid** field of the contact entity contains the ID of the account record that contact belongs to (in other words, it finds the contacts that belong to the accounts we've found so far). Then set the last drop-down list to **All\*** to find all matching contacts.
+1. When you're done setting up your account query, you must create a relation to the contact entity. To do that, select the **+ And** button to add a new **Select a profile or relationship** drop-down list, and choose **Contact -> Account (Company name)** from that list. This value describes a relationship between the **contact** entity and the **account** entity, where the **Company name** field of the contact entity contains the ID (but displays the name) of the account record that contact belongs to (in other words, it finds the contacts that belong to the accounts we've found so far).
 
     ![Add the relationship between account and contact](media/abm-segment-3.png "Add the relationship between account and contact")
 

@@ -150,7 +150,7 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
      ![Success criteria for an SLA](../customer-service/media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA")  
 
      > [!NOTE]
-     >  Before you specify the SLA failure and warning actions, save the SLA item record.  
+     >  Before you specify the SLA failure and warning actions, save the SLA item record.  </br> </br> If the conditions configured in the SLA fields are conflicting, then the SLA is cancelled before meeting the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as **not equal to Active** in the **Success Criteria** section, then the SLA will be cancelled when implemented.
 
    - Under **SLA Item Failure**, in the **Failure After** drop-down list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response is not done within 1 hour of case creation. 1 hour is calculated based on the value in date/time field that you select in the **Applicable From** field of the SLA record.  
 

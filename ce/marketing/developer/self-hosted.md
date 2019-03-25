@@ -4,7 +4,7 @@ description: "Provides information about how you can extend event management web
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 02/08/2019
+ms.date: 03/13/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -63,6 +63,9 @@ In order to do so a few additional steps need to be done.
 The event portal is capable of integrating the Azure Active Directory B2C. To integrate it you need follow this steps:
 
 1. Create B2C tenant. More information [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/). 
+> [!NOTE]
+> To use a name-based contact matching strategy, you need to configure the sign-up policy to include the `Given Name` and `Surname`' attributes and also selecting them in the `Application claim` section.
+
 1. Go to **Dynamics 365 > Settings > Event settings > Web Applications** and select the earlier created **Web Application**.
 1. Insert your client ID in the `AAD Client ID` field.
 1. Insert your metadata endpoint in the `AAD Metadata Endpoint` field.

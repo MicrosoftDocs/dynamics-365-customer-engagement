@@ -1,5 +1,5 @@
 ---
-title: "Edge Process hosting method for your controls in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Use Edge Process hosting method for your controls in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn about the Edge Process hosting methods for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -26,7 +26,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4'
 ---
 
-# Preview: Edge Process
+# Preview: Use Edge Process to host web applications
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -41,19 +41,19 @@ The advantages of using the Edge process hosting method are as follows:
 - Webpages, including Dynamics 365 pages, render faster in Microsoft Edge.
 - Microsoft Edge is a modern browser with better process and memory management.
 - Microsoft Edge is the default browser for the Windows 10 operating system.
-- it provides easy configurations to host the applications in Unified Service Desk.
-- It provides improved reliability and supportability for browser-specific issues
+- It provides easy configurations to host the applications in Unified Service Desk.
+- It provides improved reliability and supportability for browser-specific issues.
 
 > [!NOTE]
 > To use **Edge Process**, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
 
 ## Edge Process settings
 
-You can set the **Edge Process** on the hosted controls (exisitng hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Edge Process** based on your requirements. More information: [Create a hosted control with hosting type as Edge](edge-process.md#create-a-hosted-control-with-hosting-type-as-edge)
+You can set the **Edge Process** on the hosted controls (existing hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Edge Process** based on your requirements. More information: [Create a hosted control with hosting type as Edge](edge-process.md#create-a-hosted-control-with-hosting-type-as-edge)
 
 If you want to set the **Edge Process** to host the applications for an entire organization, then use the **GlobalBrowserMode** Global UII option and specify the value as **Edge**. More information: [Enable Edge for Unified Service Desk on client desktop](edge-process.md#enable-edge-for-unified-service-desk-on-client-desktop)
 
-If you want to set the **Edge Process** only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **Edge**. More information: [Enables Edge for an entire organization](edge-process.md#enable-edge-for-an-entire-organization)
+If you want to set the **Edge Process** only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **Edge**. More information: [Enable Edge for an entire organization](edge-process.md#enable-edge-for-an-entire-organization)
 
 ### Order of precedence
 
@@ -108,8 +108,6 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 Add a new Global UII option for your organization named **GlobalBrowserMode**. Specify the value as **Edge**.
 
-![Edge process global uii option](media/edge-process-global-uii-option.gif "Edge process global uii option")
-
 1. Sign in to Dynamics 365.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
@@ -124,6 +122,8 @@ Add a new Global UII option for your organization named **GlobalBrowserMode**. S
 
 7. Select **Save**.
 
+![Edge process global uii option](media/edge-process-global-uii-option.gif "Edge process global uii option")
+
 ## Debug Edge Process using Microsoft Edge DevTools Preview
 
 With Edge process, you can use the **Microsoft Edge DevTools Preview** tool as a JavaScript debugger. Edge DevTools helps you debug the webpage locally or remotely.
@@ -135,7 +135,7 @@ More information: [Microsoft Edge DevTools Preview](https://docs.microsoft.com/e
 ## RunScript action is asynchronous in Edge Process
 
 The Microsoft Edge browser supports only the asynchronous operations, and the RunScript action will be asynchronous.
-If your custom code execution is dependent on the return value provided by RunScript action that injects JavaScript into the main frame of the application, then your custom code execution may fail.
+If your custom code execution is dependent on the return value provided by RunScript action that injects JavaScript into the main frame of the application, then your custom code execution might fail.
 
 For example, Your custom code has a RunScript actions that injects the JavaScript into the main frame of the application followed by an operation or another RunScript action. The RunScript action is invoked and returns a value after the JavaScript injection. If the subsequent operation or another RunScript action executes based on the return value provided by the executed RunScript action, then subsequent operations of your custom code will fail.
 
@@ -151,7 +151,7 @@ Next, you must create a sub action call to show the number of days a case is in 
 
 You must create another sub action call to open the phone call page and perform the next operation. After seeing the message, you select the **OK** button on the dialog, and this causes the phone call page to opens.
 
-Let us see what configurations you need to do create for the above-mentioned scenario.
+Let us see what configurations you need to create for the above-mentioned scenario.
 
 ### Step 1: Create a hosted control
 
@@ -208,8 +208,7 @@ Let us see what configurations you need to do create for the above-mentioned sce
 | Name | DisplayMessageForCaseOpen |
 | Hosted Control | CRM Global Manager |
 | Action | DisplayMessage |
-| Data | 	text=No of days case is in open state: [[$Return.FindNoOfDaysCaseBeingOpened]]<br>
-caption=Case is open |
+| Data | 	text=No of days case is in open state: [[$Return.FindNoOfDaysCaseBeingOpened]]<br>caption=Case is open |
 
 4. Repeat steps 2 and 3 to create another action call.
 
@@ -223,7 +222,7 @@ caption=Case is open |
 
 5. From the list of action calls, select the **DaysValue** action call.
 
-6. In the navigation bar, next to the **DaysValue** action call, select the *>* icon, and select **Sub Action Call**.
+6. In the navigation bar, next to the **DaysValue** action call, select the **>** icon, and select **Sub Action Call**.
 
 7. Select the **ADD EXISTING ACTION CALL** option. In the search field, type the action **DisplayMessageForCaseOpen**, and select the search icon.
 
@@ -239,7 +238,7 @@ caption=Case is open |
 
 2. Select the **PageReady** event for the **Incident** hosted control from the list of events.
 
-3. On the event page, under the **Active Actions** area, click **+** to add action calls.
+3. On the event page, under the **Active Actions** area, select **+** to add action calls.
 
 4. A search box appears, type **FindNoOfDaysCaseBeingOpened** and select the search icon and select the action call. The action call appears under the **Active Actions** area.
 
@@ -247,7 +246,7 @@ caption=Case is open |
 
 6. Save the changes.
 
-## EdgeSingleProcess global UII option
+## EdgeSingleProcess UII option
 
 With the Edge WebView control, each domain will have its own process. If your organization requires common authentication modes across different domains, the Edge process might not support the same authentication.
 
@@ -283,7 +282,7 @@ To sign out from sessions when using the Edge process, you must configure the si
 
 ## Limitations
 
-To learn about the limitations of the Edge process, see [Edge process limitations](release-notes.md)
+To learn about the limitations of the Edge process, see [Edge Process limitations](release-notes.md)
 
 ## See also  
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  

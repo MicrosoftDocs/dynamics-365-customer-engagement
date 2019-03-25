@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
- When you have multiple main, quick create, quick view, or card forms for an entity, you can assign a form order. The form order determines which of the available forms will be shown by default. The available main or mobile forms can be further controlled by assigning security roles to forms. See [Control access to forms](control-access-forms.md) for more information.  
+ When you have multiple main, quick create, quick view, or card forms for an entity, you can assign a form order. The form order determines which of the available forms will be shown by default. The available main forms can be further controlled by assigning security roles to forms. See [Control access to forms](control-access-forms.md) for more information.  
   
  You cannot assign security roles to quick create, quick view, or card forms, so the only form that will be used by everyone is the one at the top of the form order.  
   
