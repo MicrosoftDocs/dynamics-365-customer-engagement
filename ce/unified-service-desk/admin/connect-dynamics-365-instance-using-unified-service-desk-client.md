@@ -75,7 +75,9 @@ While signing in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified
 By default, the SSO feature is enabled for the Chrome Process. With SSO, you need to enter the credentials only once while signing into [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and Customer Engagement apps server.
 
 > [!Note]
-> The SSO feature is available only for Dynamics 365 and Unified Service Desk.
+> - The SSO feature is available only for Dynamics 365 and Unified Service Desk.
+>
+> - If your organization has enforced the Inactivity session timeout for the agents, then with Chrome Process, the agent is not automatically singed out when the inactivity session expires as SSO is enabled by default. If you want to enforce Inactivity session timeout for the agents, then disable the SSO feature for the Chrome Process. To learn more see, [Disable Single Sign On](#enable/disable-single-sign-on).
 
 **SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default, **SingleSignOnThreshold** value is 5000 milliseconds. To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
 
