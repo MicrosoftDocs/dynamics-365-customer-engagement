@@ -1,3 +1,19 @@
+---
+title: "Use lookup field on forms in Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 157b98bd-adb4-4e77-b8fb-3fc862b11ef6
+ms.custom: dyn365-sales
+---
 # Use lookup field on forms
 -------------------------
 

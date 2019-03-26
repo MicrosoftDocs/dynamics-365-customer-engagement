@@ -1,3 +1,19 @@
+---
+title: "Use document templates in Dynamics 365 for Sales Professional to create standardized documents | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: d131432d-36d1-4f65-b1fa-29ed85376200
+ms.custom: dyn365-sales
+---
 Use document templates in Dynamics 365 for Sales Professional to create standardized documents
 ==============================================================================================
 

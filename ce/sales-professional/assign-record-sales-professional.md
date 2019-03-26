@@ -1,3 +1,19 @@
+---
+title: "Assign a record to a user or team in Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 01d211c4-efd5-4b63-891c-819312fc4cc8
+ms.custom: dyn365-sales
+---
 
 
 # Assign a record to a user or team

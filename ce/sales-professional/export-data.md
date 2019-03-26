@@ -1,3 +1,19 @@
+---
+title: "Export data or template in Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 30b0a1be-9a6a-4926-a32a-a9320b94d22a
+ms.custom: dyn365-sales
+---
 Export data or template in Dynamics 365 for Sales Professional
 ==============================================================
 

@@ -1,3 +1,19 @@
+---
+title: "Create and manage invoices in Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 723857a0-42bd-406c-a64c-7e911ce6c625
+ms.custom: dyn365-sales
+---
 # Create and manage invoices in Dynamics 365 for Sales Professional
 
 Once your customer accepts the quote, you can create an invoice in Dynamics 365 for Sales Professional to bill them for the upcoming sale.

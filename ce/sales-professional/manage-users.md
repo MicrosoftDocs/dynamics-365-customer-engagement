@@ -1,3 +1,19 @@
+---
+title: "Add or manage users in Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 9c3688a9-2319-42e2-838d-cfd4de3d290c
+ms.custom: dyn365-sales
+---
 Add or manage users in Dynamics 365 for Sales Professional
 ==========================================================
 

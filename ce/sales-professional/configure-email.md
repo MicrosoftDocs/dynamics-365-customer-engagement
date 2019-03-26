@@ -1,3 +1,19 @@
+---
+title: "Configure email in Dynamics 365 for Sales Professional by integrating with Exchange | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: c0fd21e7-c669-46bb-9db2-347a45197483
+ms.custom: dyn365-sales
+---
 # Configure email in Dynamics 365 for Sales Professional by integrating with Exchange
 
 To store email and other messaging records in Dynamics 365 for Sales Professional, you need to synchronize it with your email system.

@@ -1,3 +1,19 @@
+---
+title: "Create unit group and add units in Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: f313e339-c14a-4b87-8898-db42ce8b82e3
+ms.custom: dyn365-sales
+---
 Create unit group and add units
 ===============================
 

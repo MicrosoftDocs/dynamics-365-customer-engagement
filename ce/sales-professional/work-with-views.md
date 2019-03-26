@@ -1,3 +1,19 @@
+---
+title: "Work with views (lists) in Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 93ee704c-3d36-40d6-be4e-ca3566729aba
+ms.custom: dyn365-sales
+---
 # Work with views (lists)
 
 Use grids (views) and lists to browse and manage various data sets in Dynamics 365 for Sales Professional to improve your productivity.

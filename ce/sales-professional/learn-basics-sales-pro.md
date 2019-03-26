@@ -1,3 +1,19 @@
+---
+title: "Learn the basics of Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 95278663-cbc1-4c6b-b694-ac345bd7283b
+ms.custom: dyn365-sales
+---
 # Learn the basics of Dynamics 365 for Sales Professional
 
 Start here to onboard quickly and learn about the Sales app and its user

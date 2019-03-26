@@ -1,3 +1,19 @@
+---
+title: "Customize views (Dynamics 365 for Sales Professional) | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 582aaeed-7b3d-451d-ada7-c5671126fc58
+ms.custom: dyn365-sales
+---
 # Customize views (Sales Professional)
 
 In Dynamics 365 for Sales Professional, use views to define how a list of records for a specific entity is displayed. A view defines: 

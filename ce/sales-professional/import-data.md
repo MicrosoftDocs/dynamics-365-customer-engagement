@@ -1,3 +1,19 @@
+---
+title: "Import data into Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 7914b026-8e46-4dda-9134-f86bd8ae5db8
+ms.custom: dyn365-sales
+---
 # Import data into Dynamics 365 for Sales Professional
 
 Bring in your customer and sales data quickly into your app by importing it. It can be used for importing data into most record types.

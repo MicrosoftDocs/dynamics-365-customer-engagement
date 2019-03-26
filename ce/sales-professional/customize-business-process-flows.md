@@ -1,3 +1,19 @@
+---
+title: "Customize business process flows (Dynamics 365 for Sales Professional) | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 298b8168-4674-4167-8b32-c9840414770e
+ms.custom: dyn365-sales
+---
 Customize business process flows (Sales Professional)
 =====================================================
 

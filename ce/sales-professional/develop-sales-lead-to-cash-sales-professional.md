@@ -1,3 +1,19 @@
+---
+title: "Develop sales from lead to cash in Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: b63a4880-f1ef-4908-b5f7-98065da556ae
+ms.custom: dyn365-sales
+---
 # Develop sales from lead to cash in Dynamics 365 for Sales Professional
 
 The sales process in Dynamics 365 for Sales Professional helps you close more deals and achieve higher customer satisfaction. You can achieve more consistent

@@ -1,3 +1,19 @@
+---
+title: "Change the color scheme or logo for your organization in Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 41aa9b5c-aaa6-4639-825c-d8a600677875
+ms.custom: dyn365-sales
+---
 #Change the color scheme or logo for your organization
 
 Change the color scheme of the user interface based on your preference or create your own branding by changing the color scheme or logo in Dynamics 365 for Sales

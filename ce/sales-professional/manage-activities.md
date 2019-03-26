@@ -1,3 +1,19 @@
+---
+title: "Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 95388471-8414-4ac9-b990-36f038ca4919
+ms.custom: dyn365-sales
+---
 # Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales Professional
 
 Keep track of all your customer communications with activities in Dynamics 365 for Sales Professional. For example, you can send email, make phone calls, set

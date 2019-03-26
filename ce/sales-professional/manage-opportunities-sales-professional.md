@@ -1,3 +1,19 @@
+---
+title: "Create or edit an opportunity in Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 821221be-8b4d-47e8-88b6-58a664337717
+ms.custom: dyn365-sales
+---
 Create or edit an opportunity in Dynamics 365 for Sales Professional
 ====================================================================
 

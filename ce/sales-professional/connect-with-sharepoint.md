@@ -1,3 +1,19 @@
+---
+title: "Configure Dynamics 365 for Sales Professional to integrate with SharePoint | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 4b7ba471-25f9-403b-91cc-6e60fff2c668
+ms.custom: dyn365-sales
+---
 # Configure Dynamics 365 for Sales Professional to integrate with SharePoint
 
 Store the documents related to Dynamics 365 for Sales Professional entity records in SharePoint and quickly access, share, and manage these documents from

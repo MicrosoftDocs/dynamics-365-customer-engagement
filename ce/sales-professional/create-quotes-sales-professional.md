@@ -1,3 +1,19 @@
+---
+title: "Create and manage quotes in Dynamics 365 for Sales Professional | MicrosoftDocs"
+description: ""
+keywords: ""
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
+applies_to: 
+	- Dynamics 365 for Customer Engagement
+	- Dynamics 365 for Customer Engagement apps version 9.x
+ms.date: 03/26/2019
+ms.service: dynamics-365-sales
+ms.topic: article
+ms.assetid: 9f0790d3-9141-4e2e-a0fe-f15324d67337
+ms.custom: dyn365-sales
+---
 # Create and manage quotes in Dynamics 365 for Sales Professional
 ===============================================================
 
