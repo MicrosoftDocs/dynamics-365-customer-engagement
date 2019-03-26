@@ -86,6 +86,5 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
 5. Select **Settings**.  
   
 6. Select **Sign Out**.  
-  
-   You can sign in again as the same or a different user, or you can sign in to a different organization.  
+
 
