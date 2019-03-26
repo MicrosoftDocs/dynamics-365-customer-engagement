@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 US Government - Feature availability | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/21/2019
+ms.date: 03/26/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -55,8 +55,6 @@ There are certain experiences that are currently not available with Dynamics 365
 
 There are a number of other business application apps and services that are not currently available as a service operating within the GCC at this time. They include:
 
-- [Microsoft PowerApps](https://docs.microsoft.com/powerapps/)
-- [Microsoft Flow](https://docs.microsoft.com/flow/) – Please note that it is technically possible to connect to Dynamics 365 GCC from Flow.
 - [Microsoft Dynamics 365 for Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/overview)
 - [Microsoft Dynamics 365 for Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/)
 - [Microsoft Dynamics Social Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-started) – This is a feature that cannot be used by Government customers, worldwide.
