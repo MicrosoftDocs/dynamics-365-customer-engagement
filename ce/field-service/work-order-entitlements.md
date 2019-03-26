@@ -44,7 +44,7 @@ multiple different entitlements that impact the same work order
 ## Prerequisites
 Field Service v8.4+
 Customer Service
-Knowledge of Dynamics 365 price lists is recommended
+Knowledge of Dynamics 365 [price lists](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) is recommended
 
 > [!Note]
 >
