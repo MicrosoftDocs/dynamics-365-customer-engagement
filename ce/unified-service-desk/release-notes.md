@@ -120,6 +120,10 @@ Now, save the configuration. Login to Unified Service Desk and open any article 
 For an entity list, in the URL, if the `cmdbar=false`, then any URL originating from the URL might not have ribbon command bar.
 For example, if you are navigating from a case grid to a case, and in the URL when `cmdbar=false`, then the case page might not have ribbon command bar.
 
+####
+
+As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
+
 ## See also
 
 [Use Edge Process to host web application](edge-process.md)
@@ -127,10 +131,6 @@ For example, if you are navigating from a case grid to a case, and in the URL wh
 [Use Chrome Process to host web application](chrome-process.md)
 
 [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
-
-####
-
-As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
 ::: moniker-end
 
