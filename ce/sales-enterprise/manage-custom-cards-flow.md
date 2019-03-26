@@ -31,7 +31,7 @@ Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0
 
 The relationship assistant displays actionable insight cards (formerly called action cards) for users in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. The relationship assistant is evolving and we're introducing new preview capabilities such as customized insight cards to your team. To learn more about predefined insight cards, see [Action cards](../sales-enterprise/action-cards-reference.md).
 
-With the new redesigned assistant administration, you can perform tasks that were previously available such as such as turn on and off the insight cards and set thresholds for certain cards. Additionally, you can use preview capabilities to create customized insight cards and optimize card ranking for your Dynamics 365 for Sales organization. The preview features include:
+With the new redesigned assistant administration, you can perform tasks that were previously available, such as turn on and off the insight cards and set thresholds for certain cards. Additionally, you can use preview capabilities to create customized insight cards and optimize card ranking for your Dynamics 365 for Sales organization. The preview features include:
 
 - [Creating custom insight cards](create-insight-cards-flow.md)
 - [Prioritizing individual cards](edit-insight-cards.md#set-priority-to-a-card)
@@ -49,11 +49,11 @@ With the new redesigned assistant administration, you can perform tasks that wer
 Verify the following prerequisites before you start working on insight card creation.
 
 - You must have administrative privileges.
-- You must purchase **Dynamics 365 AI for Sales** license. However, in preview you need not acquire the **Dynamics 365 AI for Sales** license.
+- You must purchase a **Dynamics 365 AI for Sales** license. However, in preview you do not need to acquire the **Dynamics 365 AI for Sales** license.
 - Embedded intelligence is enabled. To learn more, see [How to enable Embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md#how-to-enable-embedded-intelligence).
-- Enabled preview features for Assistant.
-    1. Sign into **Dynamics 365 for Sales** and go to **Settings** > **Sales AI**.
-    2. Select **Configure** on **Assistant** section.
+- Preview features for Assistant are enabled.
+    1. Sign in to **Dynamics 365 for Sales** and go to **Settings** > **Sales AI**.
+    2. Select **Configure** on the **Assistant** section.
         
         ![Assistant section](media/cc-assistant-section.png "Assistant section")
         
@@ -67,16 +67,21 @@ Verify the following prerequisites before you start working on insight card crea
 
 ## Understand Assistant tab
 
-After enabling Embedded intelligence, select **Configuration** on the **Assistant** section to go to **Assistant** tab (configuration page). The assistant displays two tabs – **Manage insight cards** and **Optimize ranking** tabs.
+After enabling Embedded intelligence, select **Configuration** on the **Assistant** section to go to the **Assistant** tab (configuration page). The assistant displays two tabs:
+
+– **Manage insight cards**
+- **Optimize ranking**
 
 ### Manage insight cards 
 
 The **Manage insight cards** tab allows you to: 
-- Create custom insight cards;
-- View the information on the cards that are available for your organization in a tabular format;
-- Filter and/or sort cards;
-- Enable preview features for the assistant feature. 
-The following is an example of **Manage insights cards** tab:
+
+- Create custom insight cards.
+- View the information on the cards that are available for your organization in a tabular format.
+- Filter and/or sort cards.
+- Enable preview features for the assistant feature.
+
+The following is an example of the **Manage insight cards** tab:
 
 ![Manage insight cards tab](media/cc-manage-insight-card-tab.png "Manage insight cards tab")
 
@@ -86,12 +91,12 @@ To learn more, see Create custom cards.
 
     To learn more, see [Edit insight cards](edit-insight-cards.md).
 
-3. **Filters**: This allows you to filter the cards displayed in the table based on the security roles. For example, if you want to view only the cards that are available to salesperson, select Salesperson from the filter drop down and the table is refreshed to display the cards that are assigned only to salesperson role.
-4. **Preview enable button**: This allows you to turn on or off the preview features for customizing the assistant in your organization, giving you the opportunity to try the feature. If the preview is not enabled, you cannot create custom cards or perform other action on cards such as edit, set priorities, assign to roles and so on.
+3. **Filters**: This allows you to filter the cards displayed in the table based on the security roles. For example, if you want to view only the cards that are available to a salesperson, select Salesperson from the filter drop-down list and the table is refreshed to display the cards that are assigned only to the salesperson role.
+4. **Preview enable button**: This allows you to turn on or off the preview features for customizing the assistant in your organization, giving you the opportunity to try the feature. If the preview is not enabled, you cannot create custom cards or perform other action on cards such as edit, set priorities, assign to roles, and so on.
 
-### Optimize ranking tabs
+### Optimize ranking
 
-The **Optimize ranking** tab provides information on the rules that are created to prioritize cards to appear in the application. The following is an example of **Optimize ranking** tab:
+The **Optimize ranking** tab provides information on the rules that are created to prioritize cards to appear in the application. The following is an example of the **Optimize ranking** tab:
 
 ![Optimize ranking tab](media/cc-optimize-ranking-tab.png "Optimize ranking tab")
 
