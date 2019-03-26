@@ -1,6 +1,6 @@
 ---
-title: Resource management changes (Project Service 3.x)
-description: This topic provides information about the changes to the Resource management area in Microsoft Dynamics 365 for Project Service Automation 3.x.
+title: Resource management changes (Project Service Automation 3.x)
+description: This topic provides information about the changes to the Resource management area in Microsoft Dynamics 365 for Project Service Automation (PSA) 3.x.
 author: makk
 manager: kfend
 ms.custom:
@@ -18,120 +18,148 @@ search.app:
     - D365PS
 ---
 
-# Resource management changes (Project Service 3.x)
-The sections in this topic provide information about the changes that have been made to the Resource management area of Microsoft Dynamics 365 for Project Service Automation (PSA) v3.x.
+# Resource management changes (Project Service Automation 3.x)
+
+The sections of this topic provide information about the changes that have been made to the Resource management area of Microsoft Dynamics 365 for Project Service Automation (PSA) version 3.x.
 
 ## Project estimates
-Instead of being based on the **msdyn_projecttask** (Project Task), project estimates are based on **msdyn_resourceassignment** (Resource Assignment). The resource assignments have become the source of truth for task schedule and pricing. 
+
+Instead of being based on the **msdyn\_projecttask** entity (**Project Task**), project estimates are based on the **msdyn\_resourceassignment** entity (**Resource Assignment**). Resource assignments have become the "source of truth" for task scheduling and pricing.
 
 ## Line tasks
-In PSA v3.x, line tasks have been deprecated. Assignments now point to the whole task instead of the line tasks.
 
-For example, assigning the task, "Test task" to team members A and B:  
+In PSA 3.x, line tasks are obsolete (deprecated). Assignments now point to the whole task instead of the line tasks.
 
-- Prr-PSA v3.x:
+The following example shows how a task that is named "Test task" is assigned to team members A and B in earlier versions of PSA and in PSA 3.x.
 
-      Test task
-        Test task - Line task 1
-            Assignment to A
-        Test task - Line task 2
-            Assignment to B
+- **Before PSA 3.x:**
 
-- PSA v3.x:
+    - Test task
 
-      Test task
-        Assignment to A
-        Assignment to B
+        - Test task – Line task 1
+
+            - Assignment to A
+
+        - Test task – Line task 2
+
+            - Assignment to B
+
+- **PSA 3.x:**
+
+    - Test task
+
+        - Assignment to A
+        - Assignment to B
 
 ## Unassigned assignment
-In PSA 3.x, an unassigned assignment is an assignment that is assigned to **NULL** team member and **NULL** resource. Unassigned assignments can happen in a couple of scenarios:
 
-- When a task is created but not assigned to any team member, an unassigned assignment is always created. 
-- When all assignees on a task are removed, an unassigned assignment is recreated for that task.
+In PSA 3.x, an unassigned assignment is an assignment that is assigned to a **NULL** team member and a **NULL** resource. Unassigned assignments can occur in a couple of scenarios:
 
-## Scheduling fields on the Project task entity
-The fields in **msdyn_projecttask** have been deprecated or moved to **msdyn_resourceassignment** or, are now referenced from **msdyn_projectteam** entity.
+- If a task has been created, but it hasn't yet been assigned to any team member, an unassigned assignment is always created. 
+- If all assignees on a task are removed, an unassigned assignment is re-created for that task.
 
-Deprecated field on **msdyn_projecttask** (project task) | New field on **msdyn_resourceassignment** (resource assignment) | Comment
---- | --- | ---
-msdyn_assignedresources | - |
-msdyn_assignedteammembers |	- |
-msdyn_numberofresources | - | 
-msdyn_scheduledhours | - | 
-msdyn_effortcontour | msdyn_plannedwork | The format of the **JSON** data structure stored in the field has been changed.
+## Scheduling fields on the Project Task entity
 
-## Schedule contour 
-The schedule contour is stored in the **Planned Work** field (**msdyn_plannedwork**) of each **Reasource Assignment** entity (**msdyn_resourceassignment**).
+The fields on the **msdyn\_projecttask** entity have been deprecated or moved to the **msdyn\_resourceassignment** entity, or they are now referenced from the **msdyn\_projectteam** entity (**Project Team Member**).
+
+| Deprecated field on msdyn\_projecttask (Project Task) | New field on msdyn\_resourceassignment (Resource Assignment) | Comment |
+|---|---|---|
+| msdyn\_assignedresources | None | |
+| msdyn\_assignedteammembers | None | |
+| msdyn\_numberofresources | None | |
+| msdyn\_scheduledhours | None | |
+| msdyn\_effortcontour | msdyn\_plannedwork | The format of the JavaScript Object Notation (JSON) data structure that is stored in the field has been changed. |
+
+## Schedule contour
+
+The schedule contour is stored in the **Planned Work** field (**msdyn\_plannedwork**) of each **Resource Assignment** entity (**msdyn\_resourceassignment**).
 
 ### Structure
-The new schedule contour structure consists of flexible time slices that are defined for each day of the schedule.
-Each time slice has the following properties:
 
-- **Start** - Start of working hours for the day, according to the project calender.
-- **End** - End of working hours for the day, according to the project calendar.
-- **Hours** - The number of hours assigned on the day.
+The new structure of the schedule contour consists of flexible time slices that are defined for each day of the schedule. Each time slice has the following properties:
 
-The following example uses a project calendar with **9 AM** - **5 PM** workday in **UTC -8** timezone:  
+- **Start** – The start of the working hours for the day, according to the project calendar.
+- **End** – The end of the working hours for the day, according to the project calendar.
+- **Hours** – The number of hours that are assigned on the day.
 
-    [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
+**Example**
 
-### Auto- and manual scheduling
-If a task is auto-scheduled, the hours will be front loaded and the task duration may shrink.  
+This example uses a project calendar where the workday is from 9 AM to 5 PM in the UTC-8 time zone.
 
-*Example:*  
+```
+[{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
+```
 
-- **Task 1**: 12/3/2018 to 12/5/2018 (three days) - 18 hours - auto scheduled:             
-     
-        [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
+### Auto-scheduling and manual scheduling
 
-If a task is manually scheduled, the hours will be evenly distributed to all the dates.  
+If a task is auto-scheduled, the hours are front-loaded, and the task duration might be reduced.
 
-*Example:*  
+**Example**
 
-- **Task 2**: 12/3/2018 to 12/5/2018 (three days) - 18 hours - manual scheduled:   
+The following task is auto-scheduled for 18 hours over three days (December 3, 2018, to December 5, 2018).
 
-        [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":6},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":6},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":6}]
+```
+[{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
+```
+
+If a task is manually scheduled, the hours are evenly distributed to all the dates.
+
+**Example**
+
+The following task is manually scheduled for 18 hours over three days (December 3, 2018, to December 5, 2018).
+
+```
+[{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":6},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":6},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":6}]
+```
 
 ### Assignment unit
-The Assignment unit has been deprecated in PSA 3.x. The task effort hours are now divided equally per day for all of the assigned resources.  
-        
-*Example:*
 
-- **Task 1**: 12/3/2018 to 12/5/2018 (three days) - assigned to two resources - 36 hours - auto-scheduled:
-    - Assignment 1:  
+The assignment unit has been deprecated in PSA 3.x. The task effort hours are now equally divided, per day, among all the assigned resources.
 
-            [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]  
+**Example**
 
-    - Assignment 2:  
+In this example, the task is is assigned to two resources and is auto-scheduled for 36 hours over three days (December 3, 2018, to December 5, 2018).
 
-            [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
+- Assignment 1:
+
+    ```
+    [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
+    ```
+
+- Assignment 2:
+
+    ```
+    [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
+    ```
 
 ## Pricing dimensions
-In PSA 3.x, resource-specific pricing dimension fields (like **Role** and **Organizaitonal Unit**) have been removed from  **msdyn_projecttask** and can now be retrieved from the corresponding team member (**msdyn_projectteam**) of the resrouce assignment (**msdyn_resourceassignment**) when project estimates are generated. A new field, **msdyn_organizationalunit** has been added to the **msdyn_projectteam** entity.
 
-Deprecated field on **msdyn_projecttask** (project task) | Field from **msdyn_projectteam** (project team member) that is used instead
---- | --- 
-msdyn_resourcecategory | msdyn_resourcecategory
-msdyn_organizationalunit | msdyn_organizationalunit
+In PSA 3.x, resource-specific pricing dimension fields (such as **Role** and **Organizational Unit**) have been removed from the **msdyn\_projecttask** entity. These fields can now be retrieved from the corresponding project team member (**msdyn\_projectteam**) of the resource assignment (**msdyn\_resourceassignment**) when project estimates are generated. A new field, **msdyn\_organizationalunit**, has been added to the **msdyn\_projectteam** entity.
 
-## Countours
-The pricing and estimation contour fields have been deprecated on **msdyn_projecttask** and moved to the **msdyn_resourceassignment** entity.
+| Deprecated field on msdyn\_projecttask (Project Task) | Field from msdyn\_projectteam (Project Team Member) that is used instead |
+|---|---|
+| msdyn\_resourcecategory | msdyn\_resourcecategory |
+| msdyn\_organizationalunit | msdyn\_organizationalunit |
 
-Deprecated field on **msdyn_projecttask** (Project Task) | New field on **msdyn_resourceassignment** (Resource Assignment)
---- | --- 
-msdyn_costestimatecontour | msdyn_plannedcostcontour
-msdyn_salesestimatecontour | msdyn_plannedsalescontour
+## Contours
 
-The following fields are added to **msdyn_resourceassignment** entity:
-* msdyn_plannedcost
-* msdyn_plannedsales
+The pricing and estimation contour fields have been deprecated on the **msdyn\_projecttask** entity. They have been moved to the **msdyn\_resourceassignment** entity.
 
-Field for planned, actual, and remaining cost and sales, are unchanged on the entity, **msdyn_projecttask**:
-* msdyn_plannedcost
-* msdyn_plannedsales
-* msdyn_actualcost
-* msdyn_actualsales
-* msdyn_remainingcost
-* msdyn_remainingsales
+| Deprecated field on msdyn\_projecttask (Project Task) | New field on msdyn\_resourceassignment (Resource Assignment) |
+|---|---|
+| msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
+| msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
+The following fields have been added to the **msdyn\_resourceassignment** entity:
 
+* msdyn\_plannedcost
+* msdyn\_plannedsales
+
+The following fields for planned, actual, and remaining cost and sales are unchanged on the **msdyn\_projecttask** entity:
+
+* msdyn\_plannedcost
+* msdyn\_plannedsales
+* msdyn\_actualcost
+* msdyn\_actualsales
+* msdyn\_remainingcost
+* msdyn\_remainingsales
