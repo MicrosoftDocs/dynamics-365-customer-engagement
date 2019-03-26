@@ -40,7 +40,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 
 ## Sign in with your email address
 
-To sign in using your work email address, enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
+To sign in using your work email address, enter your email address, and then select ![Sign in](../../../media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
 
 ![Enter email address](../../../media/previewsignin.png "Enter email address to sign-in in").
 
@@ -55,7 +55,7 @@ To sign in using your work email address, enter your email address, and then sel
 
 ### Sign out
 
-From the upper-right corner, select ![Sign out](media/gearsignout.png "Sign out") > **Sign out**.
+From the upper-right corner, select ![Sign out](../../../media/gearsignout.png "Sign out") > **Sign out**.
 
 ![Sign out](../../../media/signout1.png "Sign out")
 
