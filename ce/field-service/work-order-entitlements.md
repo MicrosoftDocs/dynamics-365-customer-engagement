@@ -43,11 +43,13 @@ multiple different entitlements that impact the same work order
 
 ## Prerequisites
 Field Service v8.4+
-Customer Service
+
+Customer Service installed in your environment 
+
 Knowledge of Dynamics 365 [price lists](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) is recommended
 
 > [!Note]
->
+> 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
@@ -55,6 +57,8 @@ Knowledge of Dynamics 365 [price lists](https://docs.microsoft.com/en-us/dynamic
 ## Scenario 1: entitlement for price list and discount
 
 Step 1: Create a price list and add a product 
+- products have a list price as well
+- field service product type
 
 Step 2: Create an entitlement
 - select work order
@@ -87,7 +91,12 @@ see products and services, entitlement applied
 
 ## Configuration considerations
 - example: if you wanted to give 10% on products and 20% on services you would need 2 entitlements
+- -what if primary customer on entitlement is service account and not billing account?
+- adding a product means the entitlement will apply when the product or service on the work order product or service is there? - yes
 
 ## Additional Notes
 cost doesnt change
   - - how does this work with incident types?
+    - incident types can apply work order types and WOT can apply price lists!
+  - - what if entitlement is edited?
+  - why is this needed, why cant i just add special price lists?
