@@ -20,14 +20,14 @@ search.app:
 
 
 # Entity, control, and user interface changes (Project Service Automation 3.x)
-With the release of Microsoft Dynamics Project Service Automation (PSA) 3.x, many changes have been made to the entities, controls and views, and the user interface. This topic provides information about these important changes.
+With the release of Microsoft Dynamics Project Service Automation (PSA) 3.x, many changes have been made to the entities, controls, views, and user interface. This topic provides information about these important changes.
 
-## Parent-Child relationships for Sales Document, Sales Document Line, Sales Document Line Detail entities
-In versions of Microsoft Dynamics 365 Project Service Automation (PSA) released prior to version 3.0, some of the relationships between sales documents, sales document lines, and sales document line detail entities, were implemented through string fields that would hold a string representation of GUID of the related entity. This was due to platform limitations that required significant custom code on the server and client sides of the solution to make those relationships work similar to regular Dynamics CRM entity relationships and to make string fields act like lookup fields.
+## Parent-child relationships for sales document, sales document line, sales document line detail entities
+In versions of Dynamics 365 Project Service Automation (PSA) released prior to version 3.0, some of the relationships between sales documents, sales document lines, and sales document line detail entities were implemented through string fields that would hold a string representation of GUID of the related entity. This was due to platform limitations that required significant custom code on the server and client sides of the solution to make those relationships work similar to typical Dynamics CRM entity relationships and to make string fields act like lookup fields.
 
 PSA 3.0 has been updated to leverage the new entity relationships between sales document and sales document line entities.
 
-Because regular lookup fields can now be used to indicate references to entities, the fields that held the string value of the GUID of the related entity in pervious versions are no longer needed and therefore have been deprecated. The custom client and server side code that handles the relationships defined by old string fields has also been deprecated. 
+Because lookup fields can now be used to indicate references to entities, the fields that held the string value of the GUID of the related entity in previous versions are no longer needed and therefore have been deprecated. The custom client and server side code that handles the relationships defined by legacy string fields has also been deprecated.
 
 ### Entity schema changes
 The following table provides a one-to-one list of the deprecated string fields and the new lookup fields for the entities. 
@@ -56,9 +56,9 @@ SalesOrderDetail (Order Line) |	msdyn_quotelineid |	msdyn_quoteline
 ### Deprecated custom views and controls
 The following custom views and controls, and their related artifacts, have been deprecated.
 
-- Chargeability view 
-- Custom grid controls for showing quote line details on the **Project Information** page form for the quote line
-- Custom grid controls for showing project contract line details on the **Project Information** page for sales order line
+- Chargeability view.
+- Custom grid controls for showing quote line details on the **Project Information** page for the quote line.
+- Custom grid controls for showing project contract line details on the **Project Information** page for the sales order line.
 
 > [!NOTE]
 > For the full list of deprecated resources, see [Deprecated Web resources in Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md)
@@ -72,6 +72,7 @@ The following web resources have been deprecated:
 - msdyn_\SalesDocument\SalesDocumentFormLoader.js
 - msdyn_\SalesDocument\PSSalesDocumentCustomFormIds.js
 
-> For the full list of deprecated resources see [Deprecated Web resources in Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
+> [!NOTE]
+> For the full list of deprecated resources, see [Deprecated Web resources in Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
