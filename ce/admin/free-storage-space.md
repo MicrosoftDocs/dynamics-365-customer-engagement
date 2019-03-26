@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Free storage space
+# Free storage space 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

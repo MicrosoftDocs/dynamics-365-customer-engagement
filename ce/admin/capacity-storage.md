@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - Powerplatform
 ---
-# Preview: Common Data Service for Apps storage capacity
+# Preview: Common Data Service for Apps storage capacity 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
