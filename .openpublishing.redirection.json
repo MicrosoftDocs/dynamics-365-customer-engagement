@@ -1,16 +1,17 @@
 {
-  "redirections": [    {
-      "source_path": "/ce/developer/disaster-recovery-online-customer-engagement.md",
+  "redirections": [
+    {
+      "source_path": "ce/developer/disaster-recovery-online-customer-engagement.md",
       "redirect_url": "manage-deployment",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "/ce/developer/walkthrough-multi-tenant-server-server-authentication.md",
+      "source_path": "ce/developer/walkthrough-multi-tenant-server-server-authentication.md",
       "redirect_url": "https//docs.microsoft.com/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "/ce/field-service/install-the-mobile-app.md",
+      "source_path": "ce/field-service/install-the-mobile-app.md",
       "redirect_url": "install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet",
       "redirect_document_id": "false"
     },
