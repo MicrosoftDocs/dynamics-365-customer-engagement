@@ -120,6 +120,7 @@
 #### [Event management overview](event-management.md)
 #### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
+#### [Set up session-level registration and waitlisting](session-level-registration.md)
 #### [Set up and manage an event waitlist](event-waitlist.md)
 #### [Create and manage recurring events](event-recurring.md)
 #### [Create and use event templates](event-templates.md)
