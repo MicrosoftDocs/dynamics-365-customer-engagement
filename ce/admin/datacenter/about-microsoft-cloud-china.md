@@ -65,9 +65,10 @@ Services operated by 21Vianet. For information about future feature availability
   - [Embedded intelligence](../../sales-enterprise/embedded-intelligence.md) **for Sales**
   - [Dynamics 365 AI for Sales](../../sales-enterprise/dynamics365-ai-sales.md)
 
-### See also  
-[Azure Docs (in Chinese)](https://docs.azure.cn/zh-cn/)<br />
-[Azure China 21Vianet](https://docs.microsoft.com/azure/china/china-welcome)<br />
-Privacy statement<br />
-Licensing terms<br />
-Dynamics 365 for Customer Engagement Operated by 21Vianet Support
+## Additional resources
+- [Azure Docs (in Chinese)](https://docs.azure.cn/zh-cn/)<br />
+- [Azure China 21Vianet](https://docs.microsoft.com/azure/china/china-welcome)<br />
+- [Dynamics 365 for Customer Engagement Operated by 21Vianet Support](21vianet-support.md)
+- [Dynamics 365 Privacy statement](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
+- [Dynamics 365 Service Level agreement](https://www.21vbluecloud.com/Dynamics365/d365-sla/)
+- [Dynamics 365 Legal information](https://www.21vbluecloud.com/Dynamics365/dynamics365-legal/)
