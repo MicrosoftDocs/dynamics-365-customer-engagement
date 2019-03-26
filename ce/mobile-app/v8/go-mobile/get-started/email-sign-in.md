@@ -28,7 +28,7 @@ search.app:
   - D365Sales
 ---
 
-# Sign in using your email address (for iOS users only)
+# Signing in and signing out (for iOS users)
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -55,9 +55,11 @@ To sign in using your work email address, enter your email address, and then sel
 
 ### Sign out
 
-From the upper-right corner, select ![Sign out](../../../media/gearsignout.png "Sign out") > **Sign out**.
-
-![Sign out](../../../media/signout1.png "Sign out")
+1. From your Home page, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
+  
+2. Tap **Settings**.  
+  
+3. Tap **Sign Out**.  
 
 ## Sign in with your web address
 
