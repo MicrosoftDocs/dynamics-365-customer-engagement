@@ -81,7 +81,7 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
   
    Here's how to sign out in case someone else needs to use your device.  
   
-4. From your Home page, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
+4. From your Home page, select ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
   
 5. Select **Settings**.  
   
