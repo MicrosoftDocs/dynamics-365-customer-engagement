@@ -46,6 +46,8 @@ The only way a contact can access a subscription center is by clicking a link se
 
 A good subscription center is vital for any organization doing email marketing. As mentioned previously, the feature is required by law in many jurisdictions, and you must link to it from every marketing email you send. You can run as many subscription centers as you like, for example to support various brands or product families, but you must always have at least one. Each subscription center can offer as many different subscription lists as you like, but each subscription center must provide an option for contacts to opt-out of all marketing emails.
 
+<a name="default-center"></a>
+
 ### The default subscription center
 
 A default subscription center is provided with every [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. This default page runs natively on the service fabric for your instance and doesn't require a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
@@ -72,13 +74,10 @@ As with all marketing pages, the subscription form on the default marketing page
 1. The form is already live by default. If you'd like to customize it, select **Edit** in the command bar and then work with it just as you would with any other marketing form.
 1. Select **Save** when you are done customizing. The form automatically publishes your changes and returns to the live state. All pages that use the form will now automatically use your updated version.
 
-
 ### Custom or additional subscription centers
 
 You can publish subscription centers as a native marketing page running on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
  portal, or set up a marketing form that's embedded on an external site. You can use either of these types of pages as your primary subscription center if you prefer not to use the default one.
-
-
 
 <a name="create-subscription-list"></a>
 

@@ -33,7 +33,10 @@ A marketing page is a webpage that is hosted by [!INCLUDE[pn-microsoftcrm](../in
 
 Marketing pages integrate with&mdash;and provide expanded functionality for&mdash;many other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] features, including email marketing, customer journeys, behavior analysis, lead scoring, and result analytics.
 
-[!INCLUDE[cc-marketing-cookies](../includes/cc-marketing-cookies.md)]
+> [!IMPORTANT]
+> The marketing-page feature described in this topic requires that you have a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal associated with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. If your admin chose to install Marketing without a portal, then the features described in this topic won't be available to you. If you attempt to go live with a marketing page without having a portal available, you'll be alerted to the issue and offered a chance to install a portal if you like (admin privileges required). For details about how to create landing pages without using a portal (or in addition to the portal), see [Integrate with landing pages on external websites](embed-forms.md).
+> 
+> Note, however, that a simple default subscription center *is* available even if you don't have a portal. This page is hosted by your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] server and can be customized using the features described in this topic. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The default subscription center](set-up-subscription-center.md#default-center).
 
 ## Overview: How to create a new marketing page and go live
 
@@ -132,6 +135,10 @@ To view form submissions and analytics about page usage and performance:
 ## Configure marketing page defaults and matching strategies
 
 Administrators can choose settings that control several aspects of the way all marketing pages function on your instance and the way they match incoming page submissions to existing contacts and leads. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure marketing pages](marketing-settings.md#config-mkt-pages)
+
+## Privacy notice
+
+[!INCLUDE[cc-marketing-cookies](../includes/cc-marketing-cookies.md)]
 
 ### See also
 
