@@ -27,6 +27,10 @@ monikerRange: '>= dynamics-usd-4.1'
 
 # Create a Channel Integration Framework hosted control
 
+The topic demonstrates how to create Channel Integration Framework type of hosted control.
+
+## Create the hosted control
+
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
 2. On the nav bar, choose the down arrow (v) next to **Dynamics 365**.
