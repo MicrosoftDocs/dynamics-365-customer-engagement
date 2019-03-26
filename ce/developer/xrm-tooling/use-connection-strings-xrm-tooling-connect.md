@@ -25,8 +25,6 @@ With Dynamics 365 for Customer Engagement apps, XRM tooling enables you to conne
 
 
 > [!NOTE]
-> [!INCLUDE[cc-cdsnote-1](../includes/cc-cdsnote-1.md)]
->
 > The connection string documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Use connection strings in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect)
 >
 > [!INCLUDE[cc-cdsnote-2-topic](../includes/cc-cdsnote-2-topic.md)] 
