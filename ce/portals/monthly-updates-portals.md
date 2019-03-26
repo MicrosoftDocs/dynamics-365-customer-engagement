@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365 for Customer Engagement."
 keywords: "portal new features, portal enhancements, portal user guide"
-ms.date: 02/08/2019
+ms.date: 26/03/2019
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -27,6 +27,15 @@ search.app:
 # What's new in portal capabilities for Dynamics 365 for Customer Engagement apps
 
 Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps. Here's a list of recently added features. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps to date, see [portal capabilities for Microsoft Dynamics 365 for Customer Engagement Releases](https://support.microsoft.com/en-us/help/3181191).
+
+## Portal capabilities version 9.1.4 for Dynamics 365 for Customer Engagement apps
+
+Portal capabilities version 9.1.4 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps brings these new updates and features:
+
+Maintenance mode for portal
+Enable Power BI Embedded service
+Display external data in portal
+
 
 ## Portal capabilities version 9.1.1 for Dynamics 365 for Customer Engagement apps
 
