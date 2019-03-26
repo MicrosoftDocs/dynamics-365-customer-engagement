@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/15/2018
+ms.date: 03/25/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -39,7 +39,7 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 
 ## Sign in using your email address (for iOS users only)
 
-For more information, see [Sign-in using your email address (for iOS users only)](email-signin.md).
+For more information, see [Sign-in using your email address (for iOS users only)](email-signin.md). 
       
 <a name="BKMK_Signin"></a> 
 ## Signing in and signing out
