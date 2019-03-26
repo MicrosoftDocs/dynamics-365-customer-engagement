@@ -38,13 +38,12 @@ To protect an agent's privacy, you can configure your chat widget to display eit
 With this release, administrators can now configure varied customer experiences separately for chat and entity channels.
 
 More information:</br>
-[Configure a chat channel](administrator/set-up-chat-widget.md) 
+[Configure a chat channel](administrator/set-up-chat-widget.md) </br> 
 [Configure an entity channel](administrator/create-entity-channel.md)
 
 Configure context variables and routing rules in work streams to ensure that conversations are distributed to appropriate agents. 
 
-More information: 
-[Understand and create work streams](administrator/work-streams-introduction.md) </br>
+More information: [Understand and create work streams](administrator/work-streams-introduction.md) </br>
 
 ## Agent experience
 
