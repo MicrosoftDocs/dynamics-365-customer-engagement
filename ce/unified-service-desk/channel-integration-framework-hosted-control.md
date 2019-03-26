@@ -26,7 +26,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4.1'  
 ---
 
-# Preview: Channel Integration Framework (Hosted Control)
+# Channel Integration Framework (Hosted Control)
 
 Use the **Channel Integration Framework** type of hosted control to integrate your channel provider with to Unified Service Desk client application. You can create multiple Channel Integration Framework type of hosted control to host different channels. To learn more, see [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md).
 

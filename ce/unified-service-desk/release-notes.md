@@ -28,7 +28,7 @@ search.app:
 
 ::: moniker range="dynamics-usd-4.1"
 
-Unified Service Desk 4.1 known issues and limitations
+## Unified Service Desk 4.1 known issues and limitations
 
 #### Support for inactivity timeout with Chrome Process and SSO
 
@@ -114,6 +114,23 @@ Remove the following values from the data field:
 To open an KB article, only the article url is sufficient. For example: `url=[[KB Search.articleurl]g]`
 
 Now, save the configuration. Login to Unified Service Desk and open any article to see the article contents.
+
+### Ribbon command not loading in the forms
+
+For an entity list, in the URL, if the `cmdbar=false`, then any URL originating from the URL might not have ribbon command bar.
+For example, if you are navigating from a case grid to a case, and in the URL when `cmdbar=false`, then the case page might not have ribbon command bar.
+
+## See also
+
+[Use Edge Process to host web application](edge-process.md)
+
+[Use Chrome Process to host web application](chrome-process.md)
+
+[Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
+
+####
+
+As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
 ::: moniker-end
 
@@ -266,6 +283,15 @@ To resolve the Unified Service Desk application crash issue, follow the steps.
 4. Restart the Unified Service Desk client application.
 
 You can sign in to Unified Service Desk client application now.
+
+### Ribbon command not loading in the forms
+
+For an entity list, in the URL, if the `cmdbar=false`, then any URL originating from the URL might not have ribbon command bar.
+For example, if you are navigating from a case grid to a case, and in the URL when `cmdbar=false`, then the case page might not have ribbon command bar.
+
+####
+
+As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
 ## See Also
 
@@ -446,6 +472,15 @@ To resolve the Unified Service Desk application crash issue, follow the steps.
 4. Restart the Unified Service Desk client application.
 
 You can sign in to Unified Service Desk client application now.
+
+### Ribbon command not loading in the forms
+
+For an entity list, in the URL, if the `cmdbar=false`, then any URL originating from the URL might not have ribbon command bar.
+For example, if you are navigating from a case grid to a case, and in the URL when `cmdbar=false`, then the case page might not have ribbon command bar.
+
+####
+
+As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
 ## See also
 

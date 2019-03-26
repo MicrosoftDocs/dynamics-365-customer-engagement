@@ -25,9 +25,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
-# Preview: Create a Channel Integration Framework hosted control
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Create a Channel Integration Framework hosted control
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 

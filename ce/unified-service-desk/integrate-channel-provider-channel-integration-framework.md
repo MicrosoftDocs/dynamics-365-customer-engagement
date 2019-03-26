@@ -25,9 +25,7 @@ search.app:
 monikerRange : '>= dynamics-usd-4.1'
 ---
 
-# Preview: Integrate channel using Channel Integration Framework
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Integrate channel using Channel Integration Framework
 
 Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
 
