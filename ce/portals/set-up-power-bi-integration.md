@@ -84,6 +84,9 @@ Enabling Power BI Embedded service allows you to embed dashboards and reports cr
 
     > [!div class=mx-imgBorder]
     > ![Select Power BI workspaces](media/enable-powerbi-embedded-window.png "Select Power BI workspaces")
+    
+    > [!NOTE]
+    > After adding the workspaces to the **Selected workspaces list**, the databases and reports are rendered after a few minutes.
 
 5. Select **Enable**. While Power BI Embedded service is being enabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI Embedded service is enabled.
 
@@ -104,6 +107,9 @@ Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to
 
     > [!div class=mx-imgBorder]
     > ![Select Power BI workspaces](media/manage-powerbi-embedded-window.png "Select Power BI workspaces")
+    
+    > [!NOTE]
+    > After removing the workspaces from the **Selected workspaces list**, it may take up to 1 hour to reflect the changes. Till then, the databases and reports are rendered on portal without any issues.
 
 5. Select **Save**.
 
