@@ -120,7 +120,7 @@ Now, save the configuration. Login to Unified Service Desk and open any article 
 For an entity list, in the URL, if the `cmdbar=false`, then any URL originating from the URL might not have ribbon command bar.
 For example, if you are navigating from a case grid to a case, and in the URL when `cmdbar=false`, then the case page might not have ribbon command bar.
 
-####
+#### Workaround
 
 As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
