@@ -4,7 +4,7 @@ description: "Extend Marketing forms with Javascript to apply custom business lo
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
-ms.date: 03/25/2019
+ms.date: 03/31/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
@@ -24,9 +24,7 @@ search.app:
 
 A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form and choose local settings for it, which apply to that page only. More information [Marketing forms](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-forms)
 
-Client-side scripting using JavaScript is one of the way to extend marketing forms to perform actions in Dynamics 365 for Marketing app. All client-side code is initiated by [events](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/clientapi/events-forms-grids).
 
-You can attach your JavaScript code to "react" to these events so that your code gets executed when the event occurs on the form. You attach your JavaScript code (scripts) to these events by using a [Script web resource](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/script-jscript-web-resources) in Dynamics 365 for Customer Engagement apps.
 
 ## Form load
 
@@ -84,7 +82,7 @@ Triggers after the form content is injected into a page, and after the validatio
 
 ## Form submit
 
-Triggers on form submit, before the form submission is send to the server.
+Triggers on form submit, before the form submission is sent to the server.
 
 ## Syntax
 
@@ -99,7 +97,7 @@ Triggers on form submit, before the form submission is send to the server.
 
 ## After form submit
 
-Triggers on form submit, after the form submission is send to the server. It triggers only in case the submission was successfull. It triggers before redirect or showing confirmation message.
+Triggers on form submit, after the form submission is sent to the server. It triggers only in case the submission was successfull. It triggers before the redirect or showing the confirmation message.
 
 ## Syntax
 
@@ -113,14 +111,14 @@ Triggers on form submit, after the form submission is send to the server. It tri
 
 ## Examples 
 
-1. Validating to make sure the checkbox is checked before accepting the submission.
+1. Sample validation - checks if the textbox is either Fabricam or Contoso, otherwise prevents the form submission.
 
 ```JavaScript
     MsCrmMkt.MsCrmFormLoader.onformsubmit = function(formPageId, formEvent) {
   // sample validation - check if 
   document.getElementById('txt-company-name-message').style.visibility = 'hidden';
   var companyName = document.getElementById('txt-company-name').value;
-  if (companyName !== 'Fabricam' && companyName != 'Contosco') {
+  if (companyName !== 'Fabricam' && companyName != 'Contoso') {
     document.getElementById('txt-company-name-message').style.visibility = 'visible';
     formEvent.preventDefault();
   }
