@@ -86,6 +86,8 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
 From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > **User Information** > **Sign out**.
 
 ![Sign out](media/previewsignout.png "Sign out")
+
+
       
 <a name="BKMK_Signin"></a> 
 ## Signing in and signing out (for Android users)

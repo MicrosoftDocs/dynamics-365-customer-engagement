@@ -276,7 +276,7 @@ To set up a journey that invites contacts to visit an externally hosted form and
 
 ### Use hosted forms with inbound campaigns
 
-You can create an inbound campaign by placing a **Marketing page** tile at the start of a journey, and then configure the tile to reference the form record that created the JavaScript (form page) you have embedded on your external site. This will cause each contact that submits the form to be added to the journey, just as though they had joined a segment targeted by the journey. You could already [do something similar for marketing pages hosted on a Dynamics 365 portal](create-inbound-customer-journey.md), but now you can also do it with an externally hosted marketing forms.
+You can create an inbound campaign by placing a **Marketing form** tile at the start of a journey, and then configure the tile to reference the form record that created the JavaScript (form page) you have embedded on your external site. This will cause each contact that submits the form to be added to the journey, just as though they had joined a segment targeted by the journey. You could already [do something similar for marketing pages hosted on a Dynamics 365 portal](create-inbound-customer-journey.md), but now you can also do it with an externally hosted marketing forms.
 
 ![Inbound campaign from a hosted form](media/journey-host-form-trigger5.png "Inbound campaign from a hosted form")
 

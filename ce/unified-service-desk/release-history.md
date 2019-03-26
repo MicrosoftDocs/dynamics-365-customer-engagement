@@ -36,7 +36,7 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 <a name="Release_4_1"></a> 
 
-## Release history for public preview of [!INCLUDE [pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)], December 2018
+## Release history for public preview of [!INCLUDE [pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)], March 2019
 
 The list provides an overview of documentation updates made in [!INCLUDE [pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)].
 

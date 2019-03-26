@@ -1,7 +1,7 @@
 ---
-title: "Dynamics 365 Government - Feature availability | MicrosoftDocs"
+title: "Dynamics 365 US Government - Feature availability | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/09/2019
+ms.date: 03/21/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,13 +21,13 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Dynamics 365 Government - Feature availability 
+# Dynamics 365 US Government - Feature availability 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 Microsoft strives to maintain functional parity between our commercially available service and that which is servicing the Dynamics 365 for Customer Engagement for U.S. Government - referred to as Dynamics 365 GCC. However, there are notable exceptions to this affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
 
-At this time, preview features in the commercial offering are not available to Dynamics 365 Government Community Cloud (GCC) customers. This is intentional, as the GCC represents a community leveraging our generally available services, further protected with heightened compliance demands of the U.S. Government and Government community customers.
+At this time, preview features in the commercial offering are not available to Dynamics 365 US Government Community Cloud (GCC) customers. This is intentional, as the GCC represents a community leveraging our generally available services, further protected with heightened compliance demands of the U.S. Government and Government community customers.
 
 Dynamics 365 GCC currently supports the following versions:
 
@@ -78,7 +78,7 @@ There are a number of other business application apps and services that are not 
 Customizations or email configurations in Dynamics 365 GCC can only use these ports.
 
 ### See also  
- [Microsoft Dynamics 365 Government](microsoft-dynamics-365-government.md)<br/>
+ [Microsoft Dynamics 365 US Government](microsoft-dynamics-365-government.md)<br/>
  [Important changes coming in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)<br/>
  [Dynamics 365 for Customer Engagement apps IP Address Ranges (prior to v9.x)](https://support.microsoft.com/help/2728473/microsoft-dynamics-crm-online-ip-address-ranges)<br/>
  [Dynamics 365 for Customer Engagement apps IP Address Ranges (v9.x)](https://www.microsoft.com/download/confirmation.aspx?id=57063) Focus only on AzureCloud.usgovtexas and AzureCloud.usgovvirginia <br/>

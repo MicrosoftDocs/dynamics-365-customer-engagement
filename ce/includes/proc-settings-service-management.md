@@ -1,1 +1,1 @@
-Go to **Settings** > **Service Management**.
+go to **Settings** > **Service Management**
