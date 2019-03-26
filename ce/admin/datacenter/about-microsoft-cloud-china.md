@@ -33,25 +33,25 @@ Services operated by 21Vianet. For information about future feature availability
 
 [Collaborate with your colleagues using Office 365 Groups](../../basics/collaborate-with-colleagues-using-office-365-groups.md)
 
-- [Relevance Search](../../basics/relevance-search-results) or **Categorized Search** used for searching records across multiple entities will be unavailable.
-- [Office 365 Groups](../../basics/collaborate-with-colleagues-using-office-365-groups) feature used for shared workspace for emails, conversations, files and events in Customer Engagement services will be unavailable.
-- [Online Management API](../../developer/online-management-api) (Admin API) that enables customers to create and manage the Customer Engagement environments using REST API will be unavailable.
-- [Company News Timeline](../../company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets) provides valuable insights from the latest news about tenant customers on phone or tablet. This feature will be unavailable.
-- [Global Discovery Service API](../../developer/webapi/discover-url-organization-web-api) which programmatically enables customer applications to discover user organization (also known as instance) and find instances across regions will not be available.
-- The service health [Organization Insights](../../admin/use-organization-insights-solution-view-instance-metrics) feature will be unavailable.
-- [Portals](../../portals/administer-manage-portal-dynamics-365) for the Dynamics 365 Customer Engagement services will be unavailable.
-- [Dynamics 365 for phones and tablets](../../mobile-app/overview) will be unavailable.
+- [Relevance Search](../../basics/relevance-search-results.md) or **Categorized Search** used for searching records across multiple entities will be unavailable.
+- [Office 365 Groups](../../basics/collaborate-with-colleagues-using-office-365-groups.md) feature used for shared workspace for emails, conversations, files and events in Customer Engagement services will be unavailable.
+- [Online Management API](../../developer/online-management-api.md) (Admin API) that enables customers to create and manage the Customer Engagement environments using REST API will be unavailable.
+- [Company News Timeline](../../company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md) provides valuable insights from the latest news about tenant customers on phone or tablet. This feature will be unavailable.
+- [Global Discovery Service API](../../developer/webapi/discover-url-organization-web-api.md) which programmatically enables customer applications to discover user organization (also known as instance) and find instances across regions will not be available.
+- The service health [Organization Insights](../../admin/use-organization-insights-solution-view-instance-metrics.md) feature will be unavailable.
+- [Portals](../../portals/administer-manage-portal-dynamics-365.md) for the Dynamics 365 Customer Engagement services will be unavailable.
+- [Dynamics 365 for phones and tablets](../../mobile-app/overview.md) will be unavailable.
 - The following Microsoft AppSource hosted solutions for the Dynamics 365 Customer Engagement services will not be available:
   - [Microsoft Dynamics 365 - Data Export Service](https://appsource.microsoft.com/product/dynamics-365/mscrm.44f192ec-e387-436c-886c-879923d8a448)
   - [Dynamics 365 Connector for LinkedIn Lead Gen Forms](https://appsource.microsoft.com/product/dynamics-365/mscrm.dd228afa-64e7-4c9f-92ad-77e7f1334547?tab=overview)
   - [Microsoft Dynamics 365 - Gamification](https://appsource.microsoft.com/product/dynamics-365/mscrm.f6d23ec7-255c-4bd8-8c99-dc041d5cb8b3)
   - [DXC Health360 Care Coordination](https://appsource.microsoft.com/product/dynamics-365/tribridge_health360.2ca8cb47-4e93-4e1c-af86-784041b4d8a9)
-- [Voice of the Customer](../../voice-of-customer/help-hub) solution used for sending surveys to customers and get their valuable feedback will not be available.
-- [Live Assist for Microsoft Dynamics 365](../../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x) Powered by [CaféX](https://www.cafex.com/products/live-assist-365/) is an integrated omnichannel solution for Customer Engagement services that will not be available.
-- The following [Customer Service](../../customer-service) features will be unavailable:
+- [Voice of the Customer](../../voice-of-customer/help-hub.md) solution used for sending surveys to customers and get their valuable feedback will not be available.
+- [Live Assist for Microsoft Dynamics 365](../../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md) Powered by [CaféX](https://www.cafex.com/products/live-assist-365/) is an integrated omnichannel solution for Customer Engagement services that will not be available.
+- The following [Customer Service](../../customer-service.md) features will be unavailable:
   - Knowledge Base Search
   - Similar Cases Search
-- The following [Field Service](../../field-service/overview) features will be unavailable:
+- The following [Field Service](../../field-service/overview.md) features will be unavailable:
   - Remote Assist
   - Push Notifications
   - Geofencing
@@ -59,11 +59,11 @@ Services operated by 21Vianet. For information about future feature availability
   - Connected Field Service (CFS) for Azure IoT Central
   - Connected Field Service (CFS) for Azure IoT Hub
   - Field Service Mobile App
-- The following [Sales](../../sales-enterprise) features will be unavailable:
+- The following [Sales](../../sales-enterprise.md) features will be unavailable:
   - LinkedIn’s Organization Chart feature
   - LinkedIn’s “No longer in the Organization” feature
-  - [Embedded intelligence](../../sales-enterprise/embedded-intelligence) **for Sales**
-  - [Dynamics 365 AI for Sales](../../sales-enterprise/dynamics365-ai-sales)
+  - [Embedded intelligence](../../sales-enterprise/embedded-intelligence.md) **for Sales**
+  - [Dynamics 365 AI for Sales](../../sales-enterprise/dynamics365-ai-sales.md)
 
 ### See also  
 
