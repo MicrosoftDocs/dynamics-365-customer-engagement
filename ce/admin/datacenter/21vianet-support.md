@@ -40,7 +40,7 @@ Pre-sales support for Customer Engagement provides assistance on subscription fe
 
 Assistance for billing and subscription management issues is available online or by telephone Monday through Friday local business hours 9:00 to 24:00 China
 Standard Time (CST). Billing and subscription management support can be accessed using the same phone number and online service request process as with technical
-support. The billing and subscription support telephone number is +86 400-089-0365​ and online portal is O365 portal.
+support. The billing and subscription support telephone number is +86 400-089-0365​ and the online portal is [Microsoft 365 admin center](https://admin.microsoft.com).
 
 Here are some examples of billing and subscription management issues:
 
