@@ -43,7 +43,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 
 > [!IMPORTANT]
 > - This feature is supported for version 9.x (Online and on-premises) when signing in using the mobile app on an iOS device.
-  - If you are a government cloud user, you will need to sign in using the government cloud URL.
+> - If you are a government cloud user, you will need to sign in using the government cloud URL.
 
 
 ### Sign in with your email address
