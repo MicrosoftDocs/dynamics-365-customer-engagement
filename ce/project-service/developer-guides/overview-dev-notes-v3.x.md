@@ -5,7 +5,7 @@ author: makk
 manager: kfend
 ms.custom:
   - dyn365-projectservice
-ms.date: 03/15/2019
+ms.date: 03/26/2019
 ms.topic: article
 ms.prod: Project Service
 ms.service: business-applications
@@ -19,7 +19,7 @@ search.app:
 ---
 # Development home page (Project Service Automation 3.x)
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) 3.x offers new features, uptake of the new platform capabilities, and improvements to existing features in various areas. The following topics provide more information about the changes that were made in the newest version of PSA:
+Microsoft Dynamics 365 for Project Service Automation (PSA) 3.x offers new features, implementation of new platform capabilities, and improvements to existing features in various areas. The following topics provide more information about the changes that were made in the newest version of PSA:
 
 - [Entity, control, and user interface changes (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Time and Expense changes (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
