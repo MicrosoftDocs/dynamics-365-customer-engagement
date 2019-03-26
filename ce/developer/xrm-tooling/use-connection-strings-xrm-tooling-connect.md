@@ -8,8 +8,6 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a98b2fce-df49-4b60-91f4-a4446aa61cd3
 caps.latest.revision: 21
 ms.author: nabuthuk
@@ -25,9 +23,13 @@ search.app:
 
 With Dynamics 365 for Customer Engagement apps, XRM tooling enables you to connect to your instance by using connection strings. This is similar to the concept of connection strings used with **SQL Server**. Connection strings have native support in configuration files, including the ability to encrypt the configuration sections for maximum security. This enables you to configure [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] connections at deployment time, and not hard code in your application to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
 
+
 > [!NOTE]
-> In this documentation release, the connection string documentation that is common to `on-line` deployment types has been moved to the [Common Data Service](/powerapps/developer/common-data-service/overview) documentation set. The sub-sections that follow contain only the information specifically related to implementing connection strings for an `on-premise` or `Internet Facing Deployment`. To learn about connection string, start by reading the connection string [documentation](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect) under Common Data Service, and then if you are targeting an on-premises/IFD deployment, read the sub-topics that follow this topic.
-<a name="Create"></a> 
+> [!INCLUDE[cc-cdsnote-1](../includes/cc-cdsnote-1.md)]
+>
+> The connection string documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Use connection strings in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect)
+>
+> [!INCLUDE[cc-cdsnote-2-topic](../includes/cc-cdsnote-2-topic.md)] 
 
 ## Create a connection string
 
@@ -85,9 +87,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 
 ## Connection string examples
 
- The following examples show how you can use connection strings for connecting to different deployments and authentication scenarios.  
-
-[!INCLUDE[cc_sdk_onpremises_note](../../includes/cc-sdk-onpremises-note.md)]
+ The following examples show how you can use connection strings for connecting to on-premises and IFD deployments. The connection string examples for online instances is now available in the PowerApps documentation at: [Use connection strings in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect)  
 
 ### Integrated on-premises authentication  
 

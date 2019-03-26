@@ -42,7 +42,7 @@ XRM tooling is a set of APIs built on top of the [!INCLUDE[pn_dynamics_crm](../i
 >
 > The XRM tooling documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Build Windows client applications using the XRM tools](https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)
 >
-> [!INCLUDE[cc-cdsnote-2](./includes/cc-cdsnote-2.md)]
+> [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
 
   
 ### See also  
