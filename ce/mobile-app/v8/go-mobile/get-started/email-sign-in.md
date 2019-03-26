@@ -54,7 +54,9 @@ To sign in using your work email address, enter your email address, and then sel
 
 ### Sign out
 
-1. From your Home page, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
+
+
+1. If you selected the app for version 8.x from the app list above, go to the Home page, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
   
 2. Tap **Settings**.  
   
@@ -72,10 +74,20 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
     > If you need help with your sign-in information, contact your Dynamics 365 administrator.
 
 2. Enter the URL for your Dynamics 365 Customer Engagement app, and select ![Sign in](../../../media/signinarrow.png "Dynamics 365  for phones and tablets sign-in"). After that, enter your user name and password.
-3.	When you sign in, you see a list of all the apps that you have access to.
-4.	Select the app that you want to use.
 
-    ![Select an app to use](../../../media/navwebsignin.png "Select an app to use"). 
+2. On the next screen, enter your user name and password, and tap **Sign in**.  
+  
+   A few basic navigation tips appear while your app starts up. Be sure to stay on this screen while your app starts up so any changes can download successfully to your device. If you switch to another app during this time, the processing will restart when you open this one again.  
+  
+   Here's how to sign out in case someone else needs to use your device.  
+  
+3. From your Home page, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
+  
+4. Tap **Settings**.  
+  
+5. Tap **Sign Out**.  
+  
+   You can sign in again as the same or a different user, or you can sign in to a different organization.  
 
 ### Sign out
 
