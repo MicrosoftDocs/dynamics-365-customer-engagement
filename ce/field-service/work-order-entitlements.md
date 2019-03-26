@@ -60,14 +60,32 @@ Step 1: Create a price list and add a product
 - products have a list price as well
 - field service product type
 
+entitlement-pricelist
+
+entitlement-pricelist-item
+
+entitlement-product
+
 Step 2: Create an entitlement
 - select work order
 - must be billing acount
 - allocation type 
 - manipulate discount, price list or both
 
+entitlement-navigation
+
+entitlement-scenario1
+
 
 Step 3: Create a work order and add work order products and services
+
+entitlement-work-order1
+
+entitlement-work-order-product1
+
+entitlement-work-order-product-discount
+
+entitlement-work-order-product-list
 
 
 ## Scenario 2: entitlement for free products and services for an asset category
@@ -76,7 +94,13 @@ Step 1: create a customer asset with an asset category
 
 Step 2: create an entitlement
 
+entitlement-scenario2
+
+entitlement-scenario2-entitlement-application
+
 Step 3: create a work order for the customer asset
+
+entitlement-work-order2
 
 ## Entitlement conflicts 
 
@@ -94,9 +118,13 @@ see products and services, entitlement applied
 - -what if primary customer on entitlement is service account and not billing account?
 - adding a product means the entitlement will apply when the product or service on the work order product or service is there? - yes
 
+entitlement-add-product
+
+
 ## Additional Notes
 cost doesnt change
   - - how does this work with incident types?
     - incident types can apply work order types and WOT can apply price lists!
   - - what if entitlement is edited?
   - why is this needed, why cant i just add special price lists?
+  - - what if the billing account isnt present but the service account is?
