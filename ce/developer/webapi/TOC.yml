@@ -24,7 +24,7 @@
   - name: Web API types and operations
     href: web-api-types-operations.md
   - name: Perform operations using the Web API
-    href: perform-operations-web-api.md
+    href: /powerapps/developer/common-data-service/webapi/perform-operations-web-api
     items:
     - name: Compose HTTP requests and handle errors
       href: compose-http-requests-handle-errors.md
