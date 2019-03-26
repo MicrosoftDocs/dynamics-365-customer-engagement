@@ -103,6 +103,7 @@
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
 ## [Canada](../admin/datacenter/about-microsoft-cloud-canada.md)
 ## [China](../admin/datacenter/about-microsoft-cloud-china.md)
+### [21Vianet support](../admin/datacenter/21vianet-support.md)
 ## [Germany](../admin/datacenter/about-microsoft-cloud-germany.md)
 ## [India](../admin/datacenter/about-microsoft-cloud-india.md)
 ## [Japan](../admin/datacenter/about-microsoft-cloud-japan.md)
