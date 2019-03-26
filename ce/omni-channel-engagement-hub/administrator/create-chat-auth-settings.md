@@ -56,7 +56,7 @@ An agent will get a notification in the **Conversation summary** section whether
     > [!div class=mx-imgBorder]
     > ![Add authentication to a chat widget](../media/oc-chat-widget-basic-details-tab.png "Add authentication to a chat widget")
 
-When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omni-channel Engagement Hub. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are defined in Common Data Service for Apps.
+When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omni-channel Engagement Hub. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are defined in Common Data Service.
 
 ## Setup for a Dynamics 365 for Customer Engagement Portal
 

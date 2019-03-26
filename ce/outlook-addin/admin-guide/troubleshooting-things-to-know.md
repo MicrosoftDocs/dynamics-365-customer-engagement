@@ -31,9 +31,9 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
 <a name="BKMK_Issues"></a>   
 ## Potential issues and resolutions  
   
-### Common Data Service for Apps
+### Common Data Service
 
-Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service for Apps 2.0. 
+Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0. 
 
 <a name="BKMK_AssignedTasks"></a>   
 ### Assigned tasks not updated in Outlook after updated in Dynamics 365 for Customer Engagement apps  
