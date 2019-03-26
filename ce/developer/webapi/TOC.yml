@@ -22,51 +22,51 @@
   - name: Authenticate with the Web API
     href: authenticate-web-api.md
   - name: Web API types and operations
-    href: web-api-types-operations.md
+    href: /powerapps/developer/common-data-service/webapi/web-api-types-operations
   - name: Perform operations using the Web API
     href: /powerapps/developer/common-data-service/webapi/perform-operations-web-api
     items:
     - name: Compose HTTP requests and handle errors
-      href: compose-http-requests-handle-errors.md
+      href: /powerapps/developer/common-data-service/webapi/compose-http-requests-handle-errors
     - name: Query Data using the Web API
-      href: query-data-web-api.md
+      href: /powerapps/developer/common-data-service/webapi/query-data-web-api
     - name: Retrieve related entities with a query
-      href: retrieve-related-entities-query.md
+      href: /powerapps/developer/common-data-service/webapi/retrieve-related-entities-query
     - name: Retrieve and execute predefined queries
-      href: retrieve-and-execute-predefined-queries.md
+      href: /powerapps/developer/common-data-service/webapi/retrieve-and-execute-predefined-queries
     - name: Create an entity using the Web API
-      href: create-entity-web-api.md
+      href: /powerapps/developer/common-data-service/webapi/create-entity-web-api
     - name: Retrieve an entity using the Web API
-      href: retrieve-entity-using-web-api.md
+      href: /powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api
     - name: Update and delete entities using the Web API
-      href: update-delete-entities-using-web-api.md
+      href: /powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api
     - name: Associate and disassociate entities using the Web API
-      href: associate-disassociate-entities-using-web-api.md
+      href: /powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api
     - name: Use Web API functions
-      href: use-web-api-functions.md
+      href: /powerapps/developer/common-data-service/webapi/use-web-api-functions
     - name: Use Web API actions
-      href: use-web-api-actions.md
+      href: /powerapps/developer/common-data-service/webapi/use-web-api-actions
     - name: Execute batch operations using the Web API
-      href: execute-batch-operations-using-web-api.md
+      href: /powerapps/developer/common-data-service/webapi/execute-batch-operations-using-web-api
     - name: Impersonate another user using the Web API
-      href: impersonate-another-user-web-api.md
+      href: /powerapps/developer/common-data-service/webapi/impersonate-another-user-web-api
     - name: Perform conditional operations using the Web API
-      href: perform-conditional-operations-using-web-api.md
+      href: /powerapps/developer/common-data-service/webapi/perform-conditional-operations-using-web-api
     - name: Manage duplicate detection during Create and Update operations
-      href: manage-duplicate-detection-create-update.md
+      href: /powerapps/developer/common-data-service/webapi/manage-duplicate-detection-create-update
   - name: Web API Versions
     href: web-api-versions.md
   - name: Use the Web API with metadata
     href: use-web-api-metadata.md
     items:
     - name: Query metadata using the Web API
-      href: query-metadata-web-api.md
+      href: /powerapps/developer/common-data-service/webapi/query-metadata-web-api
     - name: Retrieve metadata by name or MetadataId
-      href: retrieve-metadata-name-metadataid.md
+      href: /powerapps/developer/common-data-service/webapi/retrieve-metadata-name-metadataid
     - name: Create and update entity definitions
-      href: create-update-entity-definitions-using-web-api.md 
+      href: /powerapps/developer/common-data-service/webapi/create-update-entity-definitions-using-web-api
     - name: Create and update entity relationships
-      href: create-update-entity-relationships-using-web-api.md
+      href: /powerapps/developer/common-data-service/webapi/create-update-entity-relationships-using-web-api
   - name: Discover the URL for your organization using the Web API
     href: discover-url-organization-web-api.md
   - name: Use Postman with Web API
@@ -74,6 +74,8 @@
     items:
     - name: Setup a Postman environment
       href: setup-postman-environment.md
+    - name: Use Postman to perform operations
+      href: /powerapps/developer/common-data-service/webapi/use-postman-perform-operations
   - name: Web API Samples
     href: web-api-samples.md
     items:
