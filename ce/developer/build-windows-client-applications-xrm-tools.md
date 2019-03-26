@@ -23,7 +23,16 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-XRM tooling is a set of APIs built on top of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps SDK assembly APIs (Organization service and IDiscoveryService) that provide support for building [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] client applications for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. It provides the following capabilities:  
+XRM tooling is a set of APIs built on top of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps SDK assembly APIs (Organization service and IDiscoveryService) that provide support for building [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] client applications for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.   
+
+> [!NOTE]
+> [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
+>
+> The XRM tooling documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Build Windows client applications using the XRM tools](https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)
+>
+> [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
+
+XRM tooling provides the following capabilities:  
   
 - Supports all the authentication modes to sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, including OAuth.  
   
@@ -36,15 +45,3 @@ XRM tooling is a set of APIs built on top of the [!INCLUDE[pn_dynamics_crm](../i
 - Supports secure storage of the sign-in credentials and reuse of the stored credentials to automatically sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps after initial sign in.  
   
 - Provides built-in diagnostic tracing and performance reporting of the actions performed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, which you can configure based on your organization’s requirements.  
-
-> [!NOTE]
-> [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
->
-> The XRM tooling documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Build Windows client applications using the XRM tools](https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)
->
-> [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
-
-  
-### See also  
- [Sample: Quick start for XRM Tooling API](xrm-tooling/sample-quick-start-xrm-tooling-api.md)   
-
