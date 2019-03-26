@@ -47,7 +47,7 @@ When a hosted control that uses an Chrome Process browser control closes abruptl
  > [!div class="mx-imageBorder"]
  > ![Chrome Process closed abruptly](../../unified-service-desk/media/usd-chrome-process-closed-abruptly.PNG "Chrome Process closed abruptly")
 
-To recover the closed instance (which may contain more than one webpage), select **Reload**. After you select **Reload**, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] reloads the webpage to the last known URL. That is, when you open an **Account** Chrome Process webpage and navigate inline to a **Case** Chrome Process webpage. If the **Case** webpage becomes unresponsive, the recovery feature reloads only the **Account** webpage.
+To recover the closed instance (which may contain more than one webpage), select **Reload**. After you select **Reload**, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] reloads the webpage to the last known URL.
 
  > [!div class="mx-imageBorder"]
  > ![Chrome Process closed abruptly. Select Relod to recover the Process](../../unified-service-desk/media/usd-chrome-process-webpage-closed-abruptly-gif.GIF "Chrome Process closed abruptly")
@@ -61,7 +61,7 @@ If you don't want to recover, select **Cancel**. If you cancel, the [!INCLUDE[pn
 
 ## Use keyboard shortcut to terminate and recover unresponsive Chrome Process instance
 
-When the Chrome Process webpage is unresponsive and causes the webpage to freeze, select the webpage and use the keyboard shortcut **Ctrl+K** to terminate. Use the mouse to click anywhere on the form area and on application management toolbar. If you select the tab and try to use the keyboard shortcut, Unified Service Desk doesn't display the dialog box with a message.
+When the Chrome Process webpage is unresponsive and causes the webpage to freeze, select the webpage and use the keyboard shortcut **Ctrl+K** to terminate. Use the mouse to click anywhere on the webpage.
 
  > [!div class="mx-imageBorder"]
  > ![Select the form area including the application management toolbar except the tabs](../../unified-service-desk/media/usd-chrome-process-select-form-area.PNG "Select the form area including the application management toolbar except the tabs")
@@ -78,11 +78,6 @@ After you end the Chrome Process instance, the [!INCLUDE[pn_unified_service_desk
  > [!div class="mx-imageBorder"]
  > ![Chrome Process closed abruptly](../../unified-service-desk/media/usd-chrome-process-closed-abruptly.PNG "Chrome Process closed abruptly")
 
-> [!Note]
-> - The agent must use the keyboard shortcut as last option when the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process fails to detect the unresponsive Chrome Process instance.
->
-> - Using the keyboard shortcut may terminate any other Chrome Process webpage, causing you to lose any unsaved work.
-
 By default, the keyboard shortcut for terminating an unresponsive Chrome Process instance is **CTRL** + **K**.
 
 To update an additional keyboard shortcut, you must add the UII option and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
@@ -93,12 +88,8 @@ To update an additional keyboard shortcut, you must add the UII option and provi
 
 Now as per the above example, the keyboard shortcut for terminating an unresponsive Chrome Process instance is **CTRL** + **B**.
 
-> [!Important]
-> You must take few precautions before providing the value for the character:
->
-> - Ensure that character you update for the UII option doesn't conflict with your existing keyboard shortcuts.
->
-> - If you leave the value blank, the default keyboard shortcuts will be disabled.
+> [!NOTE]
+> You must ensure that character you update for the UII option doesn't conflict with your existing keyboard shortcuts.
 
 ### Change keyboard shortcut
 
@@ -119,3 +110,9 @@ To change the keyboard shortcut:
 7. Type the character value for the **Value** field. <br>See the list of [value keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
 
 8. Select **Save**.
+
+## See also
+
+[Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
+
+[Use Chrome Process to host web application](../chrome-process.md)

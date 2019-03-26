@@ -26,7 +26,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
-# Preview: Use Chrome Process to host web application
+# Use Chrome Process to host web application
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -447,3 +447,5 @@ To learn about the limitations of the Chrome Process, see [Chrome Process limita
 [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
 
 [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
+
+[Recover chrome process instance](admin/recover-chrome-process-instance.md)
