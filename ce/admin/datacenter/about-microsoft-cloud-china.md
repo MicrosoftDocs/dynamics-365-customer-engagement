@@ -66,9 +66,8 @@ Services operated by 21Vianet. For information about future feature availability
   - [Dynamics 365 AI for Sales](../../sales-enterprise/dynamics365-ai-sales.md)
 
 ### See also  
-
-[Azure Docs (in Chinese)](https://docs.azure.cn/zh-cn/)
-[Azure China 21Vianet](https://docs.microsoft.com/azure/china/china-welcome)
-Privacy statement
-Licensing terms
-Dynamics 365 for Customer Engagement Operated by 21Vianet Support.
+[Azure Docs (in Chinese)](https://docs.azure.cn/zh-cn/)<br />
+[Azure China 21Vianet](https://docs.microsoft.com/azure/china/china-welcome)<br />
+Privacy statement<br />
+Licensing terms<br />
+Dynamics 365 for Customer Engagement Operated by 21Vianet Support
