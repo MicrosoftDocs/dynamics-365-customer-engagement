@@ -107,9 +107,7 @@ Unified Interface Only can be turned on and off in one of two ways:
 
 - In Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Use the new Unified Interface only (recommended)**, select **Yes** for **Enable only the Unified Interface**.
 
-
-> [!div class="mx-imgBorder"] 
-> ![](media/uci-use-new-unified-interface-only.png "Use new Unified Interface Only")
+[need image]
 
 - In the Power Platform Admin center, go to **Environments** > select an environment > **Settings** > **Behavior** > **Interface settings** > turn on **Use Unified Interface only**.
 
