@@ -51,11 +51,7 @@ As an administrator or sales manager, you can create your own suggested actions 
     ![Select insight card creation template](media/cc-insight-card-template-selection.png "Select insight card creation template")
     
     A new tab opens with the flow selections options.
-    
-    
-    <!--Please don't use real names in screenshots. Check the names in the image below. They should be from a fictitious names list.-->
-    
-    
+        
     ![Account validation in flow](media/cc-account-validation-flow.png "Account validation in flow")
     
     The flow validates your accounts of the applications that the flow is going to connect. In this example, the flow is connecting to Dynamics 365 and Dynamics 365 AI for Sales. Once you are successfully signed in, you can continue creating the card.
@@ -83,13 +79,7 @@ As an administrator or sales manager, you can create your own suggested actions 
     Select **Show advanced options** to further update the step by configuring the parameters **Filter Query**, **Order By**, **Top Count**, and **Expand Query**.
 
     ![Define card operations](media/cc-card-operation-step.png "Define card operations")
-
-
-
-<!--Please check the following sentence. It seems off but I'm not sure how to fix it. Maybe "In step 3, select an apply for each control and enter the necessary information." But I'm not sure what an "apply" means here.-->
-
-
-7. In step 3, an apply to each control is selected and enter the necessary information.
+7. In step 3, an **apply to each** control is selected and enter the necessary information.
 
     a. The **Value** token is added to the **Select an output from previous steps** box. This value is obtained from the previous step where we defined the entity.
      
@@ -119,14 +109,9 @@ As an administrator or sales manager, you can create your own suggested actions 
 8. Save the flow.
 
     > [!NOTE]
-    > - If any errors occur, the **Flow Checker** displays the errors and warnings that you can resolve. Resolve these errors and save the flow.
-    
-    
-    <!--The last sentence in the following paragraph is confusing. Not sure what "the step highlights" means, and unclear who or what resolves the error.-->     
-    
-    
+    > - If any errors occur, the **Flow Checker** displays the errors and warnings that you can resolve. You must resolve these errors and save the flow.
     > - If you want to execute and ensure the flow is working properly before using it in the organization, select **Test**. This runs and validates each step in the flow. If any error occurs on a step, the step highlights and resolve the error to proceed.
-    > In this example, you see that the step **Look at all tasks in Dynamics 365** has failed the test. Select the step and more information on the error is displayed. Resolve the error and proceed.
+    > In this example, you see that the step **Look at all tasks in Dynamics 365** has failed the test. Select the step and more information on the error is displayed. You must resolve the error to proceed.
     > ![Test flow of card](media/cc-test-run-flow.png "Test flow of card")
 
     When the card is saved, the **Manage insight cards** list gets updated and the **Due date coming up** card displays. Now you can edit the card to set priority and assign to different security roles.
