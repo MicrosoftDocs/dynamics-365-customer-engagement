@@ -38,7 +38,7 @@ In the current version, you can post updates to Twitter, LinkedIn, and Facebook.
 
 To schedule and post a message to one of your social-media channels:
 
-1. **Go to Marketing** > **Marketing execution** > **Social Posts**.
+1. Go to **Marketing** > **Marketing execution** > **Social posts**.
 1. A calendar opens, showing all scheduled and previously posted messages. Do one of the following:
     - To schedule a post using the calendar, choose a calendar view (month, day or week), select a day or time slot to highlight it, and then select again (click or press enter) and choose **New item** from the context menu. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Work with marketing calendars](marketing-calendar.md)
     - To schedule a post using date pickers, or to send it right away, select **New** on the command bar.

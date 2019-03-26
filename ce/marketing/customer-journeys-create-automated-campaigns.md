@@ -75,7 +75,7 @@ You can add tiles to the pipeline by dragging tiles from the **Toolbox** tab on 
 
 ![Drag a tile from the Toolbox to the canvas](media/cj-drag-ill.png "Drag a tile from the Toolbox to the canvas")
 
-The first tile in the pipeline establishes the target segment for the customer journey. This is what determines which contacts get sent down the pipeline. You'll typically start with a segment tile, which finds contacts based on a logical query (a dynamic list) or on a static list, where individual contacts are added and removed manually.
+The first tile in the pipeline establishes the target segment for the customer journey. This is what determines which contacts get sent down the pipeline. You'll typically start with a segment tile, which finds contacts based on a logical query (a dynamic segment) or on a static segment, where individual contacts are added and removed manually.
 
 After they are added, most tiles provide features such as those illustrated in the following figure.
 
