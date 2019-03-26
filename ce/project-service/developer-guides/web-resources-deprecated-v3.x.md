@@ -20,7 +20,7 @@ search.app:
 
 # Deprecated web resources in Project Service Automation 3.x
 
-Because of the uptake of the new client interface and other changes that have been made to the Microsoft Dynamics 365 for Project Service Automation (PSA) solution, some of the web resources for the solution are longer used. Therefore, they are obsolete (deprecated) as of version 3.0.
+Because of the new client interface and other changes that have been made to the Microsoft Dynamics 365 for Project Service Automation (PSA) solution, some of the web resources for the solution are longer used. Therefore, they are obsolete (deprecated) as of version 3.0.
 
 ## Deprecated style sheets
 
