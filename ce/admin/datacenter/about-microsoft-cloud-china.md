@@ -48,7 +48,7 @@ Services operated by 21Vianet. For information about future feature availability
   - [DXC Health360 Care Coordination](https://appsource.microsoft.com/product/dynamics-365/tribridge_health360.2ca8cb47-4e93-4e1c-af86-784041b4d8a9)
 - [Voice of the Customer](../../voice-of-customer/help-hub.md) solution used for sending surveys to customers and get their valuable feedback will not be available.
 - [Live Assist for Microsoft Dynamics 365](../../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md) Powered by [CaféX](https://www.cafex.com/products/live-assist-365/) is an integrated omnichannel solution for Customer Engagement services that will not be available.
-- The following [Customer Service](../../customer-service.md) features will be unavailable:
+- The following [Customer Service](../../customer-service/help-hub.md) features will be unavailable: 
   - Knowledge Base Search
   - Similar Cases Search
 - The following [Field Service](../../field-service/overview.md) features will be unavailable:
@@ -59,7 +59,7 @@ Services operated by 21Vianet. For information about future feature availability
   - Connected Field Service (CFS) for Azure IoT Central
   - Connected Field Service (CFS) for Azure IoT Hub
   - Field Service Mobile App
-- The following [Sales](../../sales-enterprise.md) features will be unavailable:
+- The following [Sales](../../sales-enterprise/help-hub.md) features will be unavailable: 
   - LinkedIn’s Organization Chart feature
   - LinkedIn’s “No longer in the Organization” feature
   - [Embedded intelligence](../../sales-enterprise/embedded-intelligence.md) **for Sales**
