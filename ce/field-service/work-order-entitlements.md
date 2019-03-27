@@ -87,11 +87,11 @@ Go to **Field Service > Settings > Entitlement** and create a new entitlement.
 
 **Primary Customer:** Choose the account this entitlement will apply to. If the account chosen here is later listed as the billing account of a work order then this entitlement can be eligible. An entitlement can only apply to one customer, however a billing account can be related to multiple service accounts, so work orders for multiple locations can have entitlements applied to all of them as long as the billing account is the same.
 
-**Start/End Date:**
+**Start/End Date:** choose the date range this entitlement is valid for, if a valid work order is created within this range the entitlement will be applied.
 
 **Entity Type:** Select Work Order
 
-**Allocation Type:**
+**Allocation Type:** Select Discount % and Price List. This is currently the only option available and more will appear as the feature develops.
 
 **Applies to:**
 
