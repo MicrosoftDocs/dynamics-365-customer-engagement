@@ -60,11 +60,17 @@ Step 1: Create a price list and add a product
 - products have a list price as well
 - field service product type
 
-entitlement-pricelist
 
-entitlement-pricelist-item
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-pricelist.png)
 
-entitlement-product
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-pricelist-item.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-product.png)
 
 Step 2: Create an entitlement
 - select work order
@@ -72,21 +78,31 @@ Step 2: Create an entitlement
 - allocation type 
 - manipulate discount, price list or both
 
-entitlement-navigation
 
-entitlement-scenario1
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-navigation.png)
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-scenario1.png)
 
 Step 3: Create a work order and add work order products and services
 
-entitlement-work-order1
 
-entitlement-work-order-product1
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-work-order1.png)
 
-entitlement-work-order-product-discount
 
-entitlement-work-order-product-list
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-work-order-product1.png)
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-work-order-product-discount.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-work-order-product-list.png)
 
 ## Scenario 2: entitlement for free products and services for an asset category
 
@@ -94,13 +110,37 @@ Step 1: create a customer asset with an asset category
 
 Step 2: create an entitlement
 
-entitlement-scenario2
 
-entitlement-scenario2-entitlement-application
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-scenario2.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-scenario2-entitlement-application.png)
 
 Step 3: create a work order for the customer asset
 
-entitlement-work-order2
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-work-order2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-work-order-product2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-work-order-product2-customer-asset.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-work-order-product2-discount.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-work-order-service2.png)
+
 
 ## Entitlement conflicts 
 
@@ -113,13 +153,19 @@ entitlement-work-order2
   - - adding a new entitlement 
 see products and services, entitlement applied 
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-conflict-2-options.png)
+
+
 ## Configuration considerations
 - example: if you wanted to give 10% on products and 20% on services you would need 2 entitlements
 - -what if primary customer on entitlement is service account and not billing account?
 - adding a product means the entitlement will apply when the product or service on the work order product or service is there? - yes
 
-entitlement-add-product
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-add-product.png)
 
 ## Additional Notes
 cost doesnt change
