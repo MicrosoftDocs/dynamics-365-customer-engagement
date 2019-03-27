@@ -28,8 +28,9 @@ Microsoft Dynamics 365 online services operated by 21Vianet is designed to compl
 
 Microsoft strives to maintain functional parity between our commercially available service and that which is servicing the Dynamics 365 Customer Engagement -  operated by 21Vianet in China. However, there are notable exceptions to this affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
 
-Due to certain technology dependencies, the features listed below will not be available for the private preview or general availability of the Dynamics 365
-Services operated by 21Vianet. For information about future feature availability, see [Business applications and platform release notes](https://go.microsoft.com/fwlink/p/?linkid=2010158).
+## Features not available
+
+Due to certain technology dependencies, the features listed below will not be available for the private preview or general availability of the Dynamics 365 Services operated by 21Vianet. For information about future feature availability, see [Business applications and platform release notes](https://go.microsoft.com/fwlink/p/?linkid=2010158).
 
 [Collaborate with your colleagues using Office 365 Groups](../../basics/collaborate-with-colleagues-using-office-365-groups.md)
 
@@ -65,10 +66,19 @@ Services operated by 21Vianet. For information about future feature availability
   - [Embedded intelligence](../../sales-enterprise/embedded-intelligence.md) **for Sales**
   - [Dynamics 365 AI for Sales](../../sales-enterprise/dynamics365-ai-sales.md)
 
+- The following components of Dynamics 365 Customer Engagement Plan are unavailable.
+  - [Project Automation Service](https://dynamics.microsoft.com/en-us/project-service-automation/overview/)
+  - [Marketing (for >10 users)](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/help-hub)
+  - [Microsoft Social Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/integrate-social-engagement-dynamics-365)
+  - [PowerApps for Dynamics 365](https://powerapps.microsoft.com/)
+  - [Flow](https://flow.microsoft.com/)
+
+
 ## Additional resources
-- [Azure Docs (in Chinese)](https://docs.azure.cn/zh-cn/)<br />
-- [Azure China 21Vianet](https://docs.microsoft.com/azure/china/china-welcome)<br />
+- [Azure Docs (in Chinese)](https://docs.azure.cn/zh-cn/)
+- [Azure China 21Vianet](https://docs.microsoft.com/azure/china/china-welcome)
 - [Dynamics 365 for Customer Engagement Operated by 21Vianet Support](21vianet-support.md)
+- [Dynamics 365 for Finance and Operations operated by 21Vianet](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 - [Dynamics 365 Privacy statement](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
 - [Dynamics 365 Service Level agreement](https://www.21vbluecloud.com/Dynamics365/d365-sla/)
 - [Dynamics 365 Legal information](https://www.21vbluecloud.com/Dynamics365/dynamics365-legal/)
