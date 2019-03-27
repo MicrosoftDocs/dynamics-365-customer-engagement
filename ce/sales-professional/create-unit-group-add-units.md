@@ -29,7 +29,7 @@ Units are the quantities or measurements that you sell your products or services
 
     The **Create Unit Group** dialog box opens.
 
-    ![Create unit group dialog box](media/f1943840be810d1b2b7d7b3f9ed59ccc.png "Create unit group dialog box")
+    ![Create unit group dialog box](media/create-unit-group-dialog-box.png "Create unit group dialog box")
 
 4.  Fill in your information, and select **OK**:
 
@@ -39,12 +39,12 @@ Units are the quantities or measurements that you sell your products or services
 
 5.  To add units to the unit group, open the unit group you just created, then select the **Related** tab, and then select **Units**.
 
-    ![Units option on the Related menu](media/9539045f057e7108df452522432ff197.png "Units option on the Related menu")
+    ![Units option on the Related menu](media/related-tab-units-option.png "Units option on the Related menu")
 
  
 6.  On the **Units** tab, you’ll see that the primary unit is already added. Select **Add New Unit**.
 
-    ![Add New Unit button](media/6541d1d81c3f0487c4f19aeda7ec41d8.png "Add New Unit button")
+    ![Add New Unit button](media/unit-tab-add-new-unit-button.png "Add New Unit button")
 
 7.  In the **Quick Create: Unit** form, fill in the following, and select
     **Save**:
@@ -55,7 +55,7 @@ Units are the quantities or measurements that you sell your products or services
 
     c. **Base Unit**. Select a base unit. The base unit will establish the lowest unit of measurement for the unit you're creating. Using our example, you would select "Piece."
 
-    ![Quick Create form for Unit](media/215be9d11391bf85ccdfeed1588d2cdb.png "Quick create form for Unit")
+    ![Quick Create form for Unit](media/unit-quick-create-form.png "Quick create form for Unit")
 
 
 ### See also

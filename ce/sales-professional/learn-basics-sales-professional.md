@@ -26,7 +26,7 @@ interface.
 
 1.  Sign in to Office 365, select the Office 365 app launcher, and then select the icon for **Dynamics 365**.
 
-    ![Office 365 App Launcher pane](media/a049bfff8f07415f7ef185178269c6d4.png "Office 365 App Launcher pane")
+    ![Office 365 App Launcher pane](media/office365-app-launcher-pane.png "Office 365 App Launcher pane")
 
     >   [!Note]
 
@@ -34,7 +34,7 @@ interface.
 
 2.  In the Dynamics 365 Home page, select the tile for Sales Professional
 
-    ![Tile for Dynamics 365 for Sales Professional](media/79461c243265db5390c112d30d84d416.png "Tile for Dynamics 365 for Sales Professional")
+    ![Tile for Dynamics 365 for Sales Professional](media/sales-professional-app-tile.png "Tile for Dynamics 365 for Sales Professional")
 
 ## Find your way around the app
 
@@ -45,14 +45,14 @@ The Sales Professional app is designed so that you can access the tools and cust
 The nav bar at the top of every screen includes buttons for common tasks like searching for customer data or entering records. The nav bar also includes
 access to tools that help you manage your deals, such as a guided task flow that walks you through common sales tasks,
 
-![Options on the nav bar](media/128db5e01d5997a3bbf927afdb1d8c5c.png "Options on the nav bar")
+![Options on the nav bar](media/options-on-nav-bar.png "Options on the nav bar")
 
 ### Menu on the side
 
 Select the Site map icon to see a list of all your options in one place, including access to communication tools like email and customer records, your
 calendar, and settings. You’ll also find quick access to any favorite customers you’ve pinned and your recent work, so you don’t have to waste time backtracking.
 
-![Image showing the menu and items on the menu](media/1273c28047469ec2dfb8a22086810972.png "Image showing the menu and items on the menu")
+![Image showing the menu and items on the menu](media/items-on-menu.png "Image showing the menu and items on the menu")
 
 ## Understand the data in the app
 
@@ -70,7 +70,7 @@ to as the nav bar), so it’s always available whenever you need to enter new in
 
 With Quick Create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.
 
-1.  On the nav bar, select the **New** button ![Icon for Quick Create](media/b4215c68497e37e8d69ba3393fee24d8.png "Icon for Quick Create"), and then select the item you want.
+1.  On the nav bar, select the **New** button ![Icon for Quick Create](media/quick-create-icon.png "Icon for Quick Create"), and then select the item you want.
 
 2.  Fill in the fields, and then select **Save**.
 

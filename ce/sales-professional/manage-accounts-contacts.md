@@ -41,7 +41,7 @@ You can add accounts or contacts manually or use the Import wizard in your Sales
 
     Required fields are marked with a red asterisk (*). Here are some important fields in the account record:
 
-    ![Account form](media/94587deb7b7cb3f42d0aa41e6c38c7c9.png "Account form")
+    ![Account form](media/account-form.png "Account form")
 
     **Summary tab.** Use the summary tab to store all the primary information about the account. This is the tab you’ll use the most.
 
@@ -58,11 +58,11 @@ You can add accounts or contacts manually or use the Import wizard in your Sales
 
     The **Timeline** pane shows all the activities with the account.
 
-    ![Timeline section](media/b60ea6b372146efa0e1cd924cb009093.png "Timeline section")
+    ![Timeline section](media/timeline-section.png "Timeline section")
 
     The last pane has three tabs that show the contacts of the account, the recent opportunities with the account, and the recent invoices generated for them.
 
-    ![Related tabs in account form](media/69e20486318001e6236f19301ab9781b.png "Related tabs in account form")
+    ![Related tabs in account form](media/related-tab-account-form.png "Related tabs in account form")
 
     **Details tab (Company Profile).** This is used for track important profile information about an account like their industry, number of employees or annual revenue.
 
@@ -88,7 +88,7 @@ To create or edit a contact
 
     Here are some important fields of a contact record:
 
-    ![Contact form showing the Summary tab](media/378211eb0fb1b7e73224d88c49f186ee.png "Contact form showing the Summary tab")
+    ![Contact form showing the Summary tab](media/summary-tab-contact-form.png "Contact form showing the Summary tab")
 
     The **Summary** tab stores all the primary information about the contact.
 

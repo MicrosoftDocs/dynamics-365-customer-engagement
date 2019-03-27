@@ -57,9 +57,9 @@ More information: [Develop sales from lead to cash
 
     -   **Est. Revenue**. Opportunities with products added to them have their estimated revenue value calculated based on the base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, Dynamics 365 for Sales Professional recalculates the estimated revenue value based on any changes to the products or product quantities associated with the opportunity.
 
-        ![Opportunity form](media/3a45d6df1a6914d64949e10d8e26a40c.png "Opportunity form")
+        ![Opportunity form](media/opportunity-form.png "Opportunity form")
 
-4.  In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/3a83a320869211ff074b20eb79d57cd5.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
+4.  In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
 
     In the **Lookup Records** dialog box, enter a name or select the Lookup icon
     to choose from a list of suggestions. When you've entered the name you want,
@@ -68,7 +68,7 @@ More information: [Develop sales from lead to cash
     corresponding to the contact to select a different role such as Decision
     Maker or Technical Buyer.
 
-5.  In the last pane, select the **Sales team** ![Sales team icon](media/f24f57d092bdfef2505400f8639586a4.png "Sales team icon") icon to open the **Sales team** tab. Select the **More Commands** button ![More Commands button](media/3a83a320869211ff074b20eb79d57cd5.png "More Commands"), and then select **+ New Connection** to add a member of the sales team (from your organization).
+5.  In the last pane, select the **Sales team** ![Sales team icon](media/sales-team-icon.png "Sales team icon") icon to open the **Sales team** tab. Select the **More Commands** button ![More Commands button](media/more-commands-button.png "More Commands"), and then select **+ New Connection** to add a member of the sales team (from your organization).
 
 6.  To save your changes, on the command bar, select **Save**.
 
@@ -84,7 +84,7 @@ More information: [Develop sales from lead to cash
 
     -   **Develop Proposal**. Select the check box to indicate you’ve included notes on how the account will be approached (optional).
 
-        ![Develop Opportunity stage in the process bar](media/5f89d9d3d4ee2b364f52ab8c427045a1.png "Develop Opportunity stage in the process bar")
+        ![Develop Opportunity stage in the process bar](media/develop-opportunity-stage-bpf.png "Develop Opportunity stage in the process bar")
 
 9.  In the **Develop Opportunity** stage, select **Next**.
 
@@ -103,7 +103,7 @@ More information: [Develop sales from lead to cash
 
     -  **Select Product**. Toggle the field to indicate whether you want to add an existing product or create a new one.
 
-        To use an existing product, select the **Lookup** button![Icon for lookup](media/9e59a673876bab7cf0ec9af400949c67.png) to search for and add a product.
+        To use an existing product, select the **Lookup** button![Icon for lookup](media/lookup-icon.png) to search for and add a product.
 
         To create a write-in product, select **Write-In**, and then type the name of the product.
 
@@ -147,7 +147,7 @@ Whether you win a sale or close an opportunity, you probably want to close it. Y
 
 2.  On the command bar, select **Close as Won** or **Close as Lost**.
 
-    ![Close Opportunity dialog box](media/c9e1e06926fc78d665025ad81b3c9f26.png "Close Opportunity dialog box")
+    ![Close Opportunity dialog box](media/close-opportunity-dialog-box.png "Close Opportunity dialog box")
 
 3.  Enter the details in the dialog box, and select **OK**.
 

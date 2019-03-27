@@ -37,7 +37,7 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
     The quote form opens.
 
-    ![Quote form with data from opportunity](media/2f046df377f1f82409dd5c694c3aae55.png "Quote form with data from opportunity")
+    ![Quote form with data from opportunity](media/quote-form-opportunity-data.png "Quote form with data from opportunity")
 
 4.  Type shipping and payment information in the **Shipping Information** area of the **Quote** screen.
 
@@ -60,7 +60,7 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
     The quote form opens.
 
-    ![Quote form](media/0cadb6760475d96f72d6835373bbb33d.png "Quote form")
+    ![Quote form](media/empty-quote-form.png "Quote form")
 
 3.  Add your quote information.
 
@@ -80,7 +80,7 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 When you’ve added all the details to the quote, you can send it to the customer. To directly send an email to customer with a quote attached, open the quote, and on the command bar, select **Send by Email**.
 
-![Send By Email command bar button](media/27a7ee6f4034834467ff8b31fc93d0bd.png) "Send By Email command bar button"
+![Send By Email command bar button](media/send-by-email-button.png) "Send By Email command bar button"
 
 ### See Also
 

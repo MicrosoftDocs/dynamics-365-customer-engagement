@@ -43,7 +43,7 @@ After you select your Word template, Dynamics 365 for Sales Professional creates
 
 The process for using an Excel template looks like this.
 
-![Steps to use an Excel template](media/92a6131460f74d59999717af697a34ae.png "Steps to use an Excel template")
+![Steps to use an Excel template](media/steps-use-excel-template.png "Steps to use an Excel template")
 
 ### Step 1: Select an entity to analyze
 
@@ -51,13 +51,13 @@ In Dynamics 365 for Sales Professional, select a record type (entity) to analyze
 
 For example, go to **Sales** > **Opportunities** > **My Open Opportunities**.
 
-![List of opportunities](media/1c631f55e656ebe299de2954d24b9766.png "List of opportunities")
+![List of opportunities](media/opportunity-list.png "List of opportunities")
 
 ### Step 2: Export Dynamics 365 for Sales Professional data using your new Excel template
 
 Select the Excel template you created. Select **Excel Templates** > \<template name>.
 
-![Select the Pipeline Management Excel template on opportunity record](media/831cc0ec7d6381546835419349bad7d9.png "Select the Pipeline Management Excel template on opportunity record")
+![Select the Pipeline Management Excel template on opportunity record](media/pipeline-management-template.png "Select the Pipeline Management Excel template on opportunity record")
 
 ### Step 3: Analyze your Dynamics 365 for Sales Professional data in Excel
 

@@ -34,7 +34,7 @@ After you provide these details, and select **Add**, a user is automatically cre
 
 3.  Under **Standard Settings** > **Manage Users**.
 
-    ![Manage Users in Standard settings](media/3442229bebac880f721a533926afef95.png "Manage users in Standard settings")
+    ![Manage Users in Standard settings](media/manage-users-standard-settings.png "Manage users in Standard settings")
 
 4.  Select **Add a new user**.
 
@@ -42,7 +42,7 @@ After you provide these details, and select **Add**, a user is automatically cre
 
     The **Add New User** pane appears.
 
-    ![Add New User dialog box](media/34937ce246d6b02de6718b66933bebc3.png "Add New User dialog box")
+    ![Add New User dialog box](media/add-new-user-dialog.box.png "Add New User dialog box")
 
 6.  Enter the following details:
 
@@ -100,7 +100,7 @@ In Dynamics 365 for Sales Professional:
 
 3.  In the **Manage User Roles** dialog box, select the security role or roles you want for the user or users, and then select **OK**.
 
-    ![Manage User Roles dialog box](media/36ecc4b164909df564a86971bef022d1.png "Manage User Roles dialog box")
+    ![Manage User Roles dialog box](media/manage-use-roles-dialog-box.png "Manage User Roles dialog box")
 
 ## Join Team
 

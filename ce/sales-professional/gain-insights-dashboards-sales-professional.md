@@ -36,19 +36,19 @@ Sales Professional comes with the following pre-built dashboards that you can us
 
 This dashboard shows data that helps sales managers get important insights on how their sales team is performing. The sales pipeline shows open opportunities in different stages. The deal won vs. deal lost chart shows the number of opportunities won or lost by an owner. The dashboard also includes chart that show important financial data such as the estimated vs the actual revenue by month.
 
-![Sales Manager Summary dashboard](media/b5eb792ee89fce018f0abf9f34a3ccb0.png "Sales manager Summary dashboard")
+![Sales Manager Summary dashboard](media/sales-manager-summary-dashboard.png "Sales manager Summary dashboard")
 
 ### Sales Professional Summary dashboard
 
 This dashboard shows daily work-related sales numbers such as the activities you’re working on, your sales pipeline, or your open opportunities and leads.
 
-![Sales Professional Summary dashboard](media/4522c69f2c35d4afe0dc05cf2e969375.png "Sales Professional Summary dashboard")
+![Sales Professional Summary dashboard](media/sales-professional-summary-dashboard.png "Sales Professional Summary dashboard")
 
 ## Open a different dashboard
 
 You can use the view selector to select a dashboard of your choice. Select the dashboard name, and from the drop-down list, select the dashboard you want to open.
 
-![Dashboard drop-down list](media/208a69d902c5de70a945e08cbb039ab3.png "Dashboard drop-down list")
+![Dashboard drop-down list](media/dashboard-drop-down-list.png "Dashboard drop-down list")
 
 
 ## Set a dashboard as default
@@ -65,7 +65,7 @@ For example, in the list of opportunities when you select the **Open
 Dashboard**, the following dashboard specific to opportunity entity is
 displayed.
 
-![Entity dashboard for opportunity](media/c6385df100e0b61249d07610a1f33d6b.png "Entity dashboard for opportunity")
+![Entity dashboard for opportunity](media/opportunity-entity-dashboard.png "Entity dashboard for opportunity")
 
 You can use the global or visual filters to filter and see only the data that is important to you.
 

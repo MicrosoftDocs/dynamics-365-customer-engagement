@@ -32,7 +32,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
     The Price List form opens.
 
-    ![Empty Price list form](media/7f6ba57e266ad83dedb874701d6ab1a1.png "Empty Price list form")
+    ![Empty Price list form](media/empty-price-list-form.png "Empty Price list form")
 
 4.  Fill in your information, and then select **Save**.
 
@@ -46,7 +46,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
     1.  In the **Price List** form, select the **Price List Items** tab, and then select **Add New Price List Item**.
 
-    ![Add New Price List Item button on the Price List Items tab](media/c358464e9b8e2f07cf67850cb9a33f27.png "Add New Price List Item button on the Price List Items tab")
+    ![Add New Price List Item button on the Price List Items tab](media/price-list-items-tab.png "Add New Price List Item button on the Price List Items tab")
 
     2. In the **Price List Item** form, fill in the information, and select **Save and Close**:
 
@@ -64,7 +64,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
         -  **Quantity Selling Option**. select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the Quantity field of Quote Product, Order Product, and Invoice Product records.
 
-        ![New Price List Item form](media/100172ed0bb1edf426dd5c3363c3af4f.png "New Price List Item form")
+        ![New Price List Item form](media/empty-price-list-item-form.png "New Price List Item form")
 
 
 ### See also

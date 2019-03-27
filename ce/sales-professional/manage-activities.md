@@ -30,7 +30,7 @@ every email, phone call, task, or appointment. That way, a customer’s history 
 
 1. In the site map, select **Activities**. 
 
-    ![Select activities in site map](media/c330f092ae021e263eba0a04733684b4.png "Select activities in site map")
+    ![Select activities in site map](media/task-activity-in-menu.png "Select activities in site map")
 
 2. From the view list, select a view to see activities for one of the following activity types:
 
@@ -52,7 +52,7 @@ You can filter the list of activities to see only the ones you’re interested i
 
 2.  Select the down arrow next to the view name at the top of the page, and select the **My Sent Emails** view.
 
-![Drop-down list to select a view](media/862037d5a2b7732e2bf5501eacea49f4.png "Drop-down list to select a view")
+![Drop-down list to select a view](media/drop-down-list-select-a-view.png "Drop-down list to select a view")
 
 
 ## Add a new activity for a customer
@@ -76,7 +76,7 @@ Otherwise, to keep a history of your interactions with a customer, you should ad
 
 2.  On the nav bar, select **<Activity Type>**. For example, **Tasks**.
 
-    ![Command bar button for creating a new activity type Task](media/638d78acfec4d23fb4d3642a45065487.png "Command bar button for creating a new activity type Task")
+    ![Command bar button for creating a new activity type Task](media/create-task.png "Command bar button for creating a new activity type Task")
     
 3.  Fill in the fields, and then select **Save**.
 
@@ -90,7 +90,7 @@ you can mark the activity for that action as completed.
 
 2.  On the command bar, select **Mark Complete**.
 
-![Command bar button to mark an activity complete](media/19a354a2d91fd803d9a7857901b98b2b.png "Command bar button to mark an activity complete")
+![Command bar button to mark an activity complete](media/command-bar-button-mark-activity-complete.png "Command bar button to mark an activity complete")
 
 
 ### See Also

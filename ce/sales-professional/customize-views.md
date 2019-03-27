@@ -51,11 +51,11 @@ This topic covers how to create system views as a customizer. 
 
 2.  Under **Customization**, select **Views**.
 
-    ![Views in the site map](media/2fa281110c99eb1b1619a901517e40b2.png "Settings in the Views")
+    ![Views in the site map](media/views-in-sitemap.png "Settings in the Views")
 
 3.  In the **Name** column, select the view to open it, or if you want to search for a view, under **List of system views** in the upper left, in the **Search for records** box, type all or part of the name of the view you want to search for, and then choose the magnifying glass icon. 
 
-    ![List of views](media/dcdcffdf50254ce9d59990c8608b3192.png "List of views")
+    ![List of views](media/view-list.png "List of views")
 
   
 ## Create a new system view
@@ -70,11 +70,11 @@ You can create your own views specific to your organization's practices and proc
 
 4.  Select the entity to use for the view. 
 
-    ![Select entity drop-down list](media/dbe937af1155564ef4971c4f05606343.png "Select entity")
+    ![Select entity drop-down list](media/select-entity-drop-down-list.png "Select entity")
 
 5.  Choose **Go to View Designer** at the bottom of the pane.
 
-    ![Go to View Designer](media/d56399add39f6c35f855273d23c3756f.png "Go to View Designer")
+    ![Go to View Designer](media/go-to-view-designer.png "Go to View Designer")
 
 6.  To add a name, which is the name displayed in the list of views:
 
@@ -125,7 +125,7 @@ by the column defined as the secondary sort.  
 
 2.  In the drop-down menu, select **Primary Sort** or **Secondary Sort**. 
 
-    ![Set sort order](media/6e8345772180a310f24c4f2696b4d1d9.png "Set sort order")
+    ![Set sort order](media/set-sort-order.png "Set sort order")
 
     > [!NOTE]
 
@@ -139,7 +139,7 @@ You can set the sort order to ascending or descending for the column defined as 
 
 2.  Choose the arrow next to the name to change the order. 
 
-    ![Set ascending or descending](media/79b316e276449a8323f18181d472c01c.png "Set ascending or descending")
+    ![Set ascending or descending](media/set-ascending-descending.png "Set ascending or descending")
 
 When the arrow is pointing up, the sort order is ascending. When the arrow is pointing down, the sort order is descending. 
 
@@ -153,7 +153,7 @@ You can change the order of the columns already included in your view. 
 
     You will see a visual indicator when you hold the column over an allowed position. 
 
-    ![Rearrange columns](media/159339b08519f481026540b9bc4dd973.png "Rearrange columns")
+    ![Rearrange columns](media/rearrange-columns.png "Rearrange columns")
 
   
 >   [!NOTE]
@@ -168,7 +168,7 @@ You may want to remove a column from a default system view, or one that you adde
 
 2.  Choose **Remove**. 
 
-    ![Remove column](media/1db4f61e5e60f047938e094b5ca218a7.png "Remove column")
+    ![Remove column](media/remove-column.png "Remove column")
    
 
 ## Define filter criteria 
@@ -178,7 +178,7 @@ filter criteria will be displayed. You can select fields from both the primary a
 
 1.  In the designer, expand the **Filter Criteria** section.
 
-    ![Expand filter criteria](media/2a3c4850ebf7094a491595e7e93a4d50.png "Expand filter criteria")
+    ![Expand filter criteria](media/expand-filter-criteria.png "Expand filter criteria")
 
 2.  Choose **Add Filter**. 
 
@@ -186,7 +186,7 @@ filter criteria will be displayed. You can select fields from both the primary a
 
 4.  In the drop-down in the second column, select the operator to use for the filter. The available operators depend on the selected field. 
 
-    ![Select operator](media/b93d4f0cf9f316bba6780bdc4c9b89be.png "Select operator")
+    ![Select operator](media/select-operator.png "Select operator")
 
 5.  Enter a value to filter on in the field in the third column. 
 
@@ -201,7 +201,7 @@ more than one field, and then group on fields, as desired. 
 
 3.  Select the check box next to each row of filter criteria. 
 
-    ![Group filters](media/7ceed0944a2f6a44a313bf863bbb9793.png "Group filters")
+    ![Group filters](media/group-filters.png "Group filters")
 
 4.  Choose **Group And** or **Group Or** to group the filters. 
 
@@ -214,7 +214,7 @@ more than one field, and then group on fields, as desired. 
 
 2.  Choose **Ungroup**. 
 
-    ![Ungroup filters](media/dfa167eb93c1e227c5460e3e5b185c2a.png "Ungroup filters")
+    ![Ungroup filters](media/ungroup-filters.png "Ungroup filters")
 
 
 ## Clear filters 

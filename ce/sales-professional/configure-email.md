@@ -82,7 +82,7 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
 6. The mailboxes will be in the **Not Run** state initially. Select the **Approve and Test mailboxes** to test the mailboxes and approve them.  
 
-    ![Button to configure Exchange](media/ab16896a870846e7b67db4c47976f38a.png "Button to configure Exchange")
+    ![Button to configure Exchange](media/button-configure-exchange.png "Button to configure Exchange")
 
     > [!Note]
         

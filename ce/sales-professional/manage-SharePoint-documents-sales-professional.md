@@ -59,7 +59,7 @@ By default, SharePoint is enabled on the following entities:
 
 For record types that support document management, open the record, select the **Related** tab, and then select **Documents**.
 
-![Documents option in Related tab](media/992b926bbeca8ef7e8d1b1a67f7ce47d.png "Documents option in Related tab")
+![Documents option in Related tab](media/documents-option-related-tab.png "Documents option in Related tab")
 
 ## What happens when you navigate to the Documents tab first time?
 
@@ -76,7 +76,7 @@ For example,
 
 2.  Select the **Related** tab, and then select **Documents**.
 
-    ![Documents tab in a form](media/129dfcc566041ce040818f5db89a15fc.png "Documents tab in a form")
+    ![Documents tab in a form](media/documents-tab-in-form.png "Documents tab in a form")
 
 3.  Select **Document Location** to filter the document list. Select from the available document locations.
 
@@ -95,7 +95,7 @@ To create a new SharePoint document in your app:
 4.  In the **Create a New Document dialog** box, enter a document or folder
     name.
 
-    ![Create a new Word document dialog box](media/15f073330a3110eba6d752cf7165b253.png "Create a new Word document dialog box")
+    ![Create a new Word document dialog box](media/create-word-document-dialog-box.png "Create a new Word document dialog box")
 
 5.  Select **Save**.
 
@@ -103,7 +103,7 @@ To create a new SharePoint document in your app:
 
     If you create a folder, you’ll be able to see a folder hierarchy at the top of Documents list.
 
-    ![Form showing folder hierarchy in documents list](media/509379834876cc3a5ee90a8eeede6826.png "Form showing folder hierarchy in documents list")
+    ![Form showing folder hierarchy in documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in documents list")
 
     Select the folder name to navigate between the folders.
 
@@ -139,13 +139,13 @@ In the **Documents** list
 1.  To open the location, on the command bar, select **Open Location**, and then
     select the location.
 
-    ![Open document location from a record](media/28e2a40e1b789a1ed02147e5496c8b8d.png "Open document location from a record")
+    ![Open document location from a record](media/open-document-location.png "Open document location from a record")
 
 2.  To edit the location, on the command bar, select **Edit Location** > <location name>.
 
     The **Edit Location** dialog box appears.
 
-    ![Dialog box to edit a SharePoint location](media/a17c5a86ff9838dfe068d71c1cba14f6.png "Dialog box to edit a SharePoint location")
+    ![Dialog box to edit a SharePoint location](media/edit-sharepoint-location.png "Dialog box to edit a SharePoint location")
 
 3.  The display name, parent site, and folder name is automatically populated. Provide the new location details, and select **Save**.
 
@@ -153,7 +153,7 @@ In the **Documents** list
 
     The **Add Location** dialog box appears.
 
-    ![Dialog box to add a SharePoint location](media/f8a70a382e58a05eeb86d951a6578f9f.png "Dialog box to add a SharePoint location")
+    ![Dialog box to add a SharePoint location](media/add-sharepoint-location.png "Dialog box to add a SharePoint location")
 
 5.  The display name, parent site, and folder name is automatically populated. Change the details if required, and then select **Save**.
 

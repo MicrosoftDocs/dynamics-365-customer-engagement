@@ -21,7 +21,7 @@ manager: annbe
 
 Lookup helps you to choose records from related entity (recordset) quickly in Dynamics 365. When you select a related entity and you type search criteria, such as a name or email address, lookup automatically begins to resolve the partial text and displays any matching records. If no records are displayed after you have typed the full text of your search criteria, a message is displayed specifying that there are no records. For example, you are searching for the name **Adrian Dumitrascu**. When you type **ad**, possible matching records are automatically populated and displayed.
 
-![Automatically populates matching records](media/3e32183d97aef939e086b5b4ddc61f71.png "Automatically populates matching records")
+![Automatically populates matching records](media/automatically-populate-matching-records.png "Automatically populates matching records")
 
 >   [!Note] 
 
@@ -64,7 +64,7 @@ Change a view in a lookup field Selecting Change View lets you determine:
 -   What you want to view in the records, such as name, email, and telephone. For example, if you want to view only the contacts that you follow, select
     **Change View** \> **Contacts being followed**. Only the contacts that you are following will be displayed. The following image illustrates this example:
 
-    ![Change view contacts types](media/1992c7810ed0807724187f1d4e2abff0.png "Change view contacts types")
+    ![Change view contacts types](media/change-view.png "Change view contacts types")
 
 >   [!Important] 
 
@@ -76,13 +76,13 @@ When lookup has more records in a field than can fit in the available display ar
 
 **Collapsed:**
 
-![Collapsed multi-lookup display area](media/00873711d68f54522f761b19737fb600.png "Collapsed multi-lookup display area")
+![Collapsed multi-lookup display area](media/collapsed-multi-lookup-display-area.png "Collapsed multi-lookup display area")
 
 Collapsed multi-lookup display area
 
 **Non-collapsed:**
 
-![Non-collapsed multi-lookup display area](media/93e0e86a639a714f3fda41d8e4e427b8.png "Non-collapsed multi-lookup display area")
+![Non-collapsed multi-lookup display area](media/non-collapsed-multi-lookup-display-area.png "Non-collapsed multi-lookup display area")
 
 
 ### See Also

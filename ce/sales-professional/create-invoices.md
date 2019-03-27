@@ -33,7 +33,7 @@ You may also create an invoice that doesn’t generate from a quote.
 
     The Invoice form opens.
 
-    ![Invoice form populated with data from opportunity and quote](media/41cc32e81dbe62865fe54a6f3a4ed7ed.png "Invoice form populated with data from opportunity and quote")
+    ![Invoice form populated with data from opportunity and quote](media/invoice-populated-form.png "Invoice form populated with data from opportunity and quote")
 
 4.  Review the contents of the invoice and make any additions or corrections
     before sending to your customer.
@@ -46,7 +46,7 @@ You may also create an invoice that doesn’t generate from a quote.
 
     The Invoice form opens.
 
-    ![Invoice form](media/3e447269042aab5b482a126f62972b2c.png "Invoice form")
+    ![Invoice form](media/empty-invoice-form.png "Invoice form")
 
 3.  Add the invoice details.
 
@@ -61,7 +61,7 @@ You may also create an invoice that doesn’t generate from a quote.
 
     In the **Products** section, select the **More Commands** icon, and then select **Add New Invoice Products**.
 
-    ![Add New Invoice Products menu option](media/2d9e428f4ac1da984ad6991d8f835603.png "Add New Invoice Products menu option")
+    ![Add New Invoice Products menu option](media/add-new-invoice-products-menu-option.png "Add New Invoice Products menu option")
 
 
 7.  In the **Quick Create: Invoice Product** form, enter the details:

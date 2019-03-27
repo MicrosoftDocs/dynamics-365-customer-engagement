@@ -33,7 +33,7 @@ You can perform some common interactions in a view, such as: - Switching views, 
 
 The following image shows how a view is displayed:
 
-![Components of a view](media/1251e65e1814af7d8de2fc9f05d50bc0.png "Components of a view")
+![Components of a view](media/components-of-view.png "Components of a view")
 
 A typical view page contains these components: 
 
@@ -74,7 +74,7 @@ A typical view page contains these components:
 
 The view page is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the view is transformed into a list. A list can be rendered in a compact manner that is suitable for viewing at a smaller width. For example, in the list, the index is displayed as a button. By default, a list displays an image or initials for each record. In addition, the command bar is minimized to a **More Actions** (**…**) icon.
 
-![Components of a list](media/61c951527a827330da5cd9367e18cf64.png "Components of a list")
+![Components of a list](media/components-of-list.png "Components of a list")
 
 You can perform different actions such as sort, delete, and refresh on items in lists by using the command bar as you do in grids. To open the command bar, select **More Actions** (**…**) in the header pane of the view selector.
 

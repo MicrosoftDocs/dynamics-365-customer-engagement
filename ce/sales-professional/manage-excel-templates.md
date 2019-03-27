@@ -36,7 +36,7 @@ You can use Excel templates for:
 
 Templates display information from the view defined for a record type (entity). There are four steps for creating an Excel template.
 
-![Steps to create an Excel template](media/bd8dd002515d846631f51a83bd54edc3.png "Steps to create an Excel template")
+![Steps to create an Excel template](media/excel-template-creation.png "Steps to create an Excel template")
 
 
 ## Step 1: Create a new template from existing data
@@ -51,14 +51,14 @@ Templates display information from the view defined for a record type (entity). 
 
 5.  In the **Create Template Type** pane, select **Excel Template**, and then select **Next**.
 
-    ![Select template type in the Create Template wizard](media/013f28c2d0faf8cecfe9b2caa1fb72bd.png "Select template type in the Create Template wizard")
+    ![Select template type in the Create Template wizard](media/select-template-type-create-template-wizard.png "Select template type in the Create Template wizard")
 
 6.  Select an entity to which the template applies. The template will use data from this entity. The views you can select in the next field depend on the
     entity you select.
 
 7.  The view defines the query used to display records and the columns or fields that are shown. Select a view, and then select **Next**.
 
-    ![Select entity in the Create Template wizard](media/d43933691e3b8f16a17a4c6e4772f7f8.png "Select entity in the Create Template wizard")
+    ![Select entity in the Create Template wizard](media/select-entity-in-create-template-wizard.png "Select entity in the Create Template wizard")
 
 8.  In the **Download Template** page, select **Download**.
 
@@ -70,7 +70,7 @@ Templates display information from the view defined for a record type (entity). 
 
 Open the newly-created template in Excel to customize the data.
 
-![Excel template with data](media/9917d7538352374b49726f425fbb0a13.png "Excel template with data")
+![Excel template with data](media/excel-template-with-data.png "Excel template with data")
 
 Let’s walk through a simple example of customizing an Excel template using Dynamics 365 for Sales Professional sample data.
 
@@ -80,11 +80,11 @@ Let’s walk through a simple example of customizing an Excel template using Dyn
 
 2.  Add a new column and name it “Expected Revenue”.
 
-    ![Add a column in Excel template](media/539837c097157802e3b733ba2233d5d5.png "Add a column in Excel template")
+    ![Add a column in Excel template](media/add-column-excel-template.png "Add a column in Excel template")
 
 3.  Create a formula for expected revenue. Don’t refer to cells using their addresses; define and use names instead.
 
-    ![Create formula to calculate expected revenue in Excel](media/95ea604236d733ffbfba2d17344beb85.png "Create formula to calculate expected revenue in Excel")
+    ![Create formula to calculate expected revenue in Excel](media/expected-revenue-formula-excel.png "Create formula to calculate expected revenue in Excel")
 
 4.  Create a pivot table and chart.
 
@@ -92,7 +92,7 @@ Let’s walk through a simple example of customizing an Excel template using Dyn
     
     For more information, see: [Best practices and considerations for using Excel templates](#best-practices-and-considerations-for-using-excel-templates).
 
-    ![Create a PivotTable in Excel file](media/6a82904f5ddf95d0182f8dd93cd38532.png "Create a PivotTable in Excel file")
+    ![Create a PivotTable in Excel file](media/create-pivot-table-excel.png "Create a PivotTable in Excel file")
 
 5.  Save the spreadsheet.
 
@@ -114,7 +114,7 @@ template into Dynamics 365 for Sales Professional.
 
 2.  Find and upload the file.
 
-    ![Upload Template step in Create Template wizard](media/169f9062559872e4a77cc5c03375f882.png "Upload Template step in Create Template wizard")
+    ![Upload Template step in Create Template wizard](media/upload-template-step-create-template-wizard.png "Upload Template step in Create Template wizard")
 
 
 3.  Select **Upload**.
@@ -157,7 +157,7 @@ Here are some things you need to be aware of to create and make best use of Exce
 
     In Excel, right-click the pivot chart, and then select **PivotChart Options** > **Refresh data** when opening the file.
 
-    ![Define PivotTable options](media/0636f28e00e6d39fd228738e4d96dc4e.png "Define PivotTable options")
+    ![Define PivotTable options](media/define-pivottable-options.png "Define PivotTable options")
 
 -   **Placing new data**
 

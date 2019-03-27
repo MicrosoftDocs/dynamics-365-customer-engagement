@@ -47,14 +47,14 @@ Products are the backbone of your business. The product catalog in Dynamics 365 
 
     9.  **Subject**. Associate this product with a subject. You can use subjects to categorize your products and to filter reports.
 
-        ![Product form with data](media/78df87f233a0394bf5f19bf370e2b594.png "Product form with data")
+        ![Product form with data](media/product-form.png "Product form with data")
 
 
 5.  Select **Save**.
 
 6.  To add price list items, go to the **Additional Details** tab, and in the **Price List Items** section, select the **More commands** icon, and then select **Add New Price List Item**.
 
-    ![Add New Price List Item menu option](media/582ea50131c846ad5b9ec4a3c79c8fe7.png "Add New Price List Item menu option")
+    ![Add New Price List Item menu option](media/add-new-price-list-item-menu-option.png "Add New Price List Item menu option")
 
 7.  To add product relationships, on the **Additional Details** tab of the product form, in the Product Relationship section, select the **More commands** icon, and then select **Add New Product Relationship.**
 
@@ -84,11 +84,11 @@ products as required, and republishing the information so that your sales agents
 
 3.  Open an active product you want to change, and on the command bar, select **Revise**.
 
-    ![Revise button on the command bar](media/f20e626b005de9823d63fa7881bbc892.png "Revise button on the command bar")
+    ![Revise button on the command bar](media/revise-button-product-form.png "Revise button on the command bar")
 
 4.  In the **Confirm Revise** dialog box, select **Confirm**.
 
-    ![Confirm Revise dialog box](media/2d6c6c6346f82957f66409613f7c690d.png "Confirm Revise dialog box")
+    ![Confirm Revise dialog box](media/confirm-revise-dialog-box.png "Confirm Revise dialog box")
 
     This will change the product status to **Under Revision**.
 
@@ -111,11 +111,11 @@ When you're creating a new product, save time by cloning an existing one. This c
 
 3.  Select a product record that you want to clone, and on the command bar, select **Clone**.
 
-    ![Clone button on the command bar](media/58516c1f00c18c6fa704b8caf908fdd8.png "Clone button on the command bar")
+    ![Clone button on the command bar](media/clone-button-product-form.png "Clone button on the command bar")
 
     A confirmation dialog box appears.
 
-    ![Confirmation dialog box for cloning product](media/35453981244f7ff7d0b46cf9ee2c3983.png "Confirmation dialog box for cloning product")
+    ![Confirmation dialog box for cloning product](media/confirm-clone-dialog-box.png "Confirmation dialog box for cloning product")
 
 4.  Select **Confirm**.
 
@@ -131,11 +131,11 @@ If your organization doesn't sell a product anymore, retire it so that the produ
 
 3.  Open an active product that you want to retire, and on the command bar, select **Retire**.
 
-    ![Retire button on the command bar](media/8c16c0a782b4c71d0becd928e8be38b6.png "Retire button on the command bar")
+    ![Retire button on the command bar](media/retire-button-product-form.png "Retire button on the command bar")
 
 4.  In the **Confirm Retire** dialog box, select **Confirm**.
 
-    ![Confirm Retire dialog box](media/23f259d96aaec2eabcd10635d3fe544d.png "Confirm Retire dialog box")
+    ![Confirm Retire dialog box](media/confirm-retire-dialog-box.png "Confirm Retire dialog box")
 
 ## Delete a product
 
@@ -152,11 +152,11 @@ To stop selling a product, delete it.
 
 3.  Select a product record you want to delete, and on the command bar, select **Delete**.
 
-    ![Delete button on the command bar](media/9f03631cbb52acf19cb9784d845c1529.png "Delete button on the command bar")
+    ![Delete button on the command bar](media/delete-button-product-form.png "Delete button on the command bar")
 
 4.  In the **Confirm Deletion** dialog box, select **Delete**.
 
-    ![Confirm Deletion dialog box](media/8e728faedc6f1fd57b145fa8d04962c1.png "Confirm Deletion dialog box")
+    ![Confirm Deletion dialog box](media/confirm-deletion-dialog-box.png "Confirm Deletion dialog box")
 
 ### See Also
 

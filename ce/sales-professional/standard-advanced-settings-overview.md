@@ -34,7 +34,7 @@ The Welcome page has resources to get you started—you’ll see links to videos
 
 The Standard settings page provides an intuitive experience of setting up the most important things with fewer clicks. With just one click, Exchange and SharePoint are automatically configured for you, and your users are ready to send out emails or share documents on SharePoint. The quick setup also lets you quickly import data, so your users have it ready in the app to start their work.
 
-![Standard settings page](media/87793ac6c88a1444d292867479df5744.png "Standard settings page")
+![Standard settings page](media/standard-settings-page.png "Standard settings page")
 
 ## Advanced settings
 
@@ -47,7 +47,7 @@ If the Sales app does not entirely fit your business requirement, use the
 drag-and-drop designers to quickly make changes to the app to reflect the
 specific information that your company needs. For example, change the pipeline phases to match your organization’s business flows or add new fields to capture data relevant to your business—all of this without writing a single line of code.
 
-![Customize the business process flow](media/e3d6d9cf03de38612bd573da8ea7e8ed.png "Customize the business process flow")
+![Customize the business process flow](media/customize-bpf.png "Customize the business process flow")
 
 ### See Also
 

@@ -32,7 +32,7 @@ You can also assign a record to a team, or to yourself.
 
 4.  In the **Assign** dialog box, select the **Assign to** box to toggle between **Me** and **User or Team**.
 
-    ![Assign Opportunity dialog box](media/8c16488b1c6ee619deccd9c55ba24c98.png "Assign Opportunity dialog box")
+    ![Assign Opportunity dialog box](media/assign-opportunity-dialog-box.png "Assign Opportunity dialog box")
 
 5.  If you have chosen to assign to **User or Team**, then in the **User or     team** field, select the **Lookup** icon to select a user or a team.
 

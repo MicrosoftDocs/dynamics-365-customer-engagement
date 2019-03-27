@@ -152,7 +152,7 @@ bikes”“someone\@example.com”“555-555-0112”
     2.  If the column headings don’t match, the unmapped fields will be shown with a Red exclamation mark. Select a Dynamics 365 field to map to the
         unmapped column heading of your file.
 
-        ![Review mapping page to map data](media/285850ed7c88d074657f8d67f15907f1.png "Review mapping page to map data")
+        ![Review mapping page to map data](media/review-mapping-page.png "Review mapping page to map data")
 
         >   [!Tip]
 
@@ -161,7 +161,7 @@ bikes”“someone\@example.com”“555-555-0112”
         In the **Optional Fields** section, the left side shows the column headings in your source file. If the column headings match the field
         display names, the fields will be automatically selected in the corresponding drop-down lists.
 
-        ![Review mapping page to map data](media/285850ed7c88d074657f8d67f15907f1.png "Review mapping page to map data")
+        ![Review mapping page to map data](media/review-mapping-page.png "Review mapping page to map data")
 
         If the column headings don’t match, the unmapped fields will be shown with a Red exclamation mark.
 
@@ -169,11 +169,11 @@ bikes”“someone\@example.com”“555-555-0112”
         from the drop-down list. If you select **Ignore** for a column, the data in that column won’t be imported into Dynamics 365 for Sales
         Professional.
 
-        ![Optional Fields section in Review Mapping Page](media/d2f1b9f46caf87871a5f61b949b01adc.png "Optional Fields section in Review Mapping Page")
+        ![Optional Fields section in Review Mapping Page](media/review-mapping-page-optional-fields.png "Optional Fields section in Review Mapping Page")
 
-    4.  While importing your data, if any column in your source file includes fixed set of values, you must map the column to a field of Option Set type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, select the ![Option Set icon](media/75f2747a7e47446b19055a171569de6a.png "Option Set icon") icon next to the option set field. Option set mapping section opens:
+    4.  While importing your data, if any column in your source file includes fixed set of values, you must map the column to a field of Option Set type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, select the ![Option Set icon](media/option-set-mapping-icon.png "Option Set icon") icon next to the option set field. Option set mapping section opens:
     
-        [Option set mapping dialog box](media/2da10c8ae6ccb706c8a4a9c5c0a54963.png "Option set mapping dialog box")
+        [Option set mapping dialog box](media/option-set-mapping-dialog-box.png "Option set mapping dialog box")
     
         For each **Source Option Values** item, select an item from the **Dynamics 365 Option Values** list to map it, and then select **OK**.
 
@@ -212,11 +212,11 @@ bikes”“someone\@example.com”“555-555-0112”
         For example, you want to import the file Leads.csv that contains customer records. The **Customer** column in the Leads.csv contains the
         associated account or contact data.
 
-        To do this, select the ![Mapping of an option set field](media/4e8fed560293c340f3c1811b54c07531.png "Mapping of an option set field") icon next to the lookup field. The Lookup Reference section opens and lists the related entities to the current entity. For each entity, select the fields to search during import to retain the relationships between the records, and then select **OK**.
+        To do this, select the ![Mapping of an option set field](media/icon-for-option-set-field-mapping.png "Mapping of an option set field") icon next to the lookup field. The Lookup Reference section opens and lists the related entities to the current entity. For each entity, select the fields to search during import to retain the relationships between the records, and then select **OK**.
 
     6.  To save these mappings as a data map, enter a name in the **Name your data map** box.
 
-        ![Name your data map](media/81f09e4d6e4a9da46cccd253e437e5d6.png "Name your data map")
+        ![Name your data map](media/name-data-map.png "Name your data map")
 
         You can just select this data map when you want to import similar data in the future. The data map maps data based on the mappings you’ve
         defined earlier.
@@ -254,7 +254,7 @@ You must wait for an import job to complete before you can repair failures.
 
     Use the tabs to see information about failures, success, or partial failure of records during import.
 
-    ![General tab of the import source file](media/1bdb9449382ce6e92adf0f3d4cae2863.png "General tab of the import source file")
+    ![General tab of the import source file](media/general-tab-import-source-file.png "General tab of the import source file")
 
 3.  On the **Failures** tab, export rows that failed to import to a new comma-separated value (CSV) file. Select **Export Error Rows**. You can correct the errors in this file, and then import it.
 
@@ -288,7 +288,7 @@ To be able to import from Exchange:
 1.   If you’re a user with a Sales Professional or Sales Professional Manager role, go to the list of contacts, then on the command bar, select **Import
     from Excel** \> **Import from Exchange**.
 
-    ![Import from Exchange option](media/ea58d9b668f5e2b5955b82b89233c502.png "Import from Exchange option")
+    ![Import from Exchange option](media/import-from-exchange-option.png "Import from Exchange option")
 
     -OR-
 
@@ -298,7 +298,7 @@ To be able to import from Exchange:
 
     The **Track data from Exchange** dialog box opens.
 
-    ![Track data from Exchange dialog box](media/b685452aa548c9250c48881ed0ec4c0f.png "Track data from Exchange dialog box")
+    ![Track data from Exchange dialog box](media/track-data-from-exchange-dialog-box.png "Track data from Exchange dialog box")
 
 4. Select **Track**.
 
