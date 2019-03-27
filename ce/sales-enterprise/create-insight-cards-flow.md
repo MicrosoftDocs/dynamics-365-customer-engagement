@@ -29,7 +29,11 @@ Applies to [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] version 9.1.0
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)] 
 
-As an administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. In this procedure, we will show as an example how to create an insight to act when a property is updated. Let’s create the **When property is updated, create an insight to act** card.
+As an administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following illustrates the flow of insight card creation:
+
+ ![Open assistant tab](media/cc-create-card.png "Open assistant tab")
+
+In this procedure, we will show as an example how to create an insight to act when a property is updated. Let’s create the **When property is updated, create an insight to act** card.
 
 1. Sign in to **[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]** and go to **Settings** > **Sales AI**.
 2. Select **Configure** on the **Assistant** section or select the **Assistant** tab.
