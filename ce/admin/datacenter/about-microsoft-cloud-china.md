@@ -30,9 +30,7 @@ Microsoft strives to maintain functional parity between our commercially availab
 
 ## Features not available
 
-Due to certain technology dependencies, the features listed below will not be available for the private preview or general availability of the Dynamics 365 Services operated by 21Vianet. For information about future feature availability, see [Business applications and platform release notes](https://go.microsoft.com/fwlink/p/?linkid=2010158).
-
-[Collaborate with your colleagues using Office 365 Groups](../../basics/collaborate-with-colleagues-using-office-365-groups.md)
+Due to certain technology dependencies, the features listed below will not be available for general availability of the Dynamics 365 Services operated by 21Vianet. For information about future feature availability, see [Business applications and platform release notes](https://go.microsoft.com/fwlink/p/?linkid=2010158).
 
 - [Relevance Search](../../basics/relevance-search-results.md) or **Categorized Search** used for searching records across multiple entities will be unavailable.
 - [Office 365 Groups](../../basics/collaborate-with-colleagues-using-office-365-groups.md) feature used for shared workspace for emails, conversations, files and events in Customer Engagement services will be unavailable.
@@ -67,7 +65,7 @@ Due to certain technology dependencies, the features listed below will not be av
   - [Dynamics 365 AI for Sales](../../sales-enterprise/dynamics365-ai-sales.md)
 
 - The following components of Dynamics 365 Customer Engagement Plan are unavailable.
-  - [Project Automation Service](https://dynamics.microsoft.com/en-us/project-service-automation/overview/)
+  - [Project Service Automation](https://dynamics.microsoft.com/en-us/project-service-automation/overview/)
   - [Marketing (for >10 users)](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/help-hub)
   - [Microsoft Social Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/integrate-social-engagement-dynamics-365)
   - [PowerApps for Dynamics 365](https://powerapps.microsoft.com/)
