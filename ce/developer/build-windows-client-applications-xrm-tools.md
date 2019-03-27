@@ -46,3 +46,9 @@ XRM tooling provides the following capabilities:
   
 - Provides built-in diagnostic [tracing](/powerapps/developer/common-data-service/xrm-tooling/configure-tracing-xrm-tooling
 ) and performance reporting of the actions performed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, which you can configure based on your organization’s requirements.  
+
+
+### See also 
+
+[Sample: Quick start for XRM Tooling API](/powerapps/developer/common-data-service/xrm-tooling/sample-quick-start-xrm-tooling-api)<br />
+[Simplified connection quick start](/powerapps/developer/common-data-service/xrm-tooling/sample-simplified-connection-quick-start)
