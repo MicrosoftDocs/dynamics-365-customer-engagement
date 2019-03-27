@@ -2,21 +2,21 @@
   href: ../use-microsoft-dynamics-365-web-api.md
   items:
   - name: Get started with Dynamics 365 Customer Engagement Web API (C#)
-    href: get-started-dynamics-365-web-api-csharp.md
+    href: /powerapps/developer/common-data-service/webapi/get-started-dynamics-365-web-api-csharp
     items:
     - name: Simple Web API quick-start sample (C#)
-      href: simple-web-api-quick-start-sample-csharp.md
+      href: /powerapps/developer/common-data-service/webapi/simple-web-api-quick-start-sample-csharp
     - name: Start a Web API project in Visual Studio (C#)
-      href: start-web-api-project-visual-studio-csharp.md
+      href: /powerapps/developer/common-data-service/webapi/start-web-api-project-visual-studio-csharp
     - name: Use the Dynamics 365 Web API Helper Library (C#)
-      href: use-microsoft-dynamics-365-web-api-helper-library-csharp.md
+      href: /powerapps/developer/common-data-service/webapi/use-microsoft-dynamics-365-web-api-helper-library-csharp
       items:
       - name: 'Web API Helper code: Configuration classes'
-        href: web-api-helper-code-configuration-classes.md
+        href: /powerapps/developer/common-data-service/webapi/web-api-helper-code-configuration-classes
       - name: 'Web API Helper code: Authentication class'
-        href: web-api-helper-code-authentication-class.md
+        href: /powerapps/developer/common-data-service/webapi/web-api-helper-code-authentication-class
       - name: 'Web API Helper code: CrmHttpResponseException class'
-        href: web-api-helper-code-crmhttpresponseexception-class.md
+        href: /powerapps/developer/common-data-service/webapi/web-api-helper-code-crmhttpresponseexception-class
   - name: Get started with the Dynamics 365 Customer Engagement Web API (client-side JavaScript)
     href: /powerapps/developer/common-data-service/webapi/get-started-web-api-client-side-javascript
   - name: Authenticate with the Web API
@@ -57,7 +57,7 @@
   - name: Web API Versions
     href: web-api-versions.md
   - name: Use the Web API with metadata
-    href: use-web-api-metadata.md
+    href: /powerapps/developer/common-data-service/webapi/use-web-api-metadata
     items:
     - name: Query metadata using the Web API
       href: /powerapps/developer/common-data-service/webapi/query-metadata-web-api
@@ -77,26 +77,26 @@
     - name: Use Postman to perform operations
       href: /powerapps/developer/common-data-service/webapi/use-postman-perform-operations
   - name: Web API Samples
-    href: web-api-samples.md
+    href: /powerapps/developer/common-data-service/webapi/web-api-samples
     items:
     - name: Web API Basic Operations Sample
-      href: web-api-basic-operations-sample.md
+      href: /powerapps/developer/common-data-service/webapi/web-api-basic-operations-sample
     - name: Web API Query Data Sample
-      href: web-api-query-data-sample.md
+      href: /powerapps/developer/common-data-service/webapi/web-api-query-data-sample
     - name: Web API Conditional Operations Sample
-      href: web-api-conditional-operations-sample.md
+      href: /powerapps/developer/common-data-service/webapi/web-api-conditional-operations-sample
     - name: Web API Functions and Actions Sample
-      href: web-api-functions-actions-sample.md
+      href: /powerapps/developer/common-data-service/webapi/web-api-functions-actions-sample
   - name: Web API Samples (C#)
-    href: web-api-samples-csharp.md
+    href: /powerapps/developer/common-data-service/webapi/web-api-samples-csharp
     items:
       - name: Web API Basic Operations Sample (C#)
-        href: web-api-basic-operations-sample-csharp.md
+        href: /powerapps/developer/common-data-service/webapi/web-api-basic-operations-sample-csharp
       - name: Web API Query Data Sample (C#)
-        href: web-api-query-data-sample-csharp.md
+        href: /powerapps/developer/common-data-service/webapi/web-api-query-data-sample-csharp
       - name: Web API Conditional Operations Sample (C#)
-        href: web-api-conditional-operations-sample-csharp.md
+        href: /powerapps/developer/common-data-service/webapi/web-api-conditional-operations-sample-csharp
       - name: Web API Functions and Actions Sample (C#)
-        href: web-api-functions-actions-sample-csharp.md
+        href: /powerapps/developer/common-data-service/webapi/web-api-functions-actions-sample-csharp
   - name: Web API Samples (Client-side JavaScript)
-    href: web-api-samples-client-side-javascript.md
+    href: /powerapps/developer/common-data-service/webapi/web-api-samples-client-side-javascript
