@@ -1,6 +1,6 @@
 ---
 title: "Create and manage invoices in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Bill your customers for upcoming sale by using invoices in Dynamics 365 for Sales Professional."
+description: "Bill your customers for upcoming sales by using invoices in Dynamics 365 for Sales Professional."
 keywords: ""
 ms.date: 04/05/2019
 ms.service:
@@ -19,9 +19,9 @@ manager: annbe
 
 # Create and manage invoices in Dynamics 365 for Sales Professional
 
-Once your customer accepts the quote, you can create an invoice in Dynamics 365 for Sales Professional to bill them for the upcoming sale.
+Once your customer accepts a quote, you can create an invoice in Dynamics 365 for Sales Professional to bill them for the upcoming sale.
 
-You may also create an invoice that doesn’t generate from a quote.
+You can also create an invoice that doesn’t generate from a quote.
 
 ## Create an invoice from a quote
 
@@ -66,7 +66,7 @@ You may also create an invoice that doesn’t generate from a quote.
 
 7.  In the **Quick Create: Invoice Product** form, enter the details:
 
-    1.  In the **Select Product** toggle button, select whether you want to add an existing product or create a new one:
+    1.  In the **Select Product** button, select whether you want to add an existing product or create a new one:
 
         1.  To use an existing product, select **Lookup** to search for and add a product. Also, select a unit of measurement for the product.
 
@@ -77,7 +77,7 @@ You may also create an invoice that doesn’t generate from a quote.
         1.  Toggle the **Pricing** button to indicate whether you want to use the default pricing that is listed in the product catalog or
             override the price. For a write-in product, this field is set to **Override** Price.
 
-        2.  **I**f you’re adding a write-in product, in **Price Per Unit**, enter the price to be charged per unit for the product.
+        2.  If you’re adding a write-in product, in **Price Per Unit**, enter the price to be charged per unit for the product.
 
         3.  Enter the quantity of the product or service that will be included.
 
@@ -93,9 +93,9 @@ You may also create an invoice that doesn’t generate from a quote.
 
 ## Lock or unlock prices of an invoice
 
-Price locked locks the price for a product in an open invoice. Even if the price changes in the product catalog, that invoice remains at the agreed price.
+**Lock Pricing** locks the price for a product in an open invoice. Even if the price changes in the product catalog, that invoice remains at the agreed price.
 
-To lock the prices
+To lock a price:
 
 1.  Go to the list of invoices and open the invoice that you want.
 
@@ -114,9 +114,9 @@ command bar, select **Cancel Invoice** or **Invoice Paid**.
 
 When you’ve added all the details to the invoice, send it to the customer.
 
-To directly send an email to customer with an invoice attached, open the invoice, and on the command bar, select **Send by Email**.
+To directly send an email to a customer with an invoice attached, open the invoice, and on the command bar, select **Send by Email**.
 
-### See Also
+### See also
 
 [Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
