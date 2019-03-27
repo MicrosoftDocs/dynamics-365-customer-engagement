@@ -64,12 +64,11 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
     -   The email server profile is set to Exchange Online (automatically created when a new Dynamics 365 instance is provisioned). The email server profile stores settings that are used by server-side synchronization to connect to an email server and process email for the associated mailboxes.
 
-    -   Incoming Email, Outgoing Email, and Appointment, Contacts, and Tasks are all set to use Server-side synchronization
+    -   Incoming email, outgoing email, appointments, contacts, and tasks are all set to use server-side synchronization
 
     -   Existing user mailboxes that have valid Exchange licenses are automatically approved. Approval of mailboxes is required for the mailbox to process email. The incoming and outgoing email configuration of the selected mailboxes is tested, and mailboxes are then enabled for processing email.
 
         > [!Important]
-
         > User mailboxes are automatically approved and enabled only when the primary email of the user is equal to the user's UPN (User Principal Name attribute).      
 
     -  For newly added users, you must manually test and enable the mailboxes.
@@ -83,11 +82,10 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
     ![Button to configure Exchange](media/button-configure-exchange.png "Button to configure Exchange")
 
     > [!Note]
-        
     > If an error occurs in a mailbox, an alert is sent to the user of the mailbox. You can also see the alert when you open the mailbox record. The **Test Run Status** column is set to **Failure** for the mailbox. Select the **Approve and test mailboxes** button to test and approve the mailboxes.
 
 
-### See Also
+### See also
 
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)  
 [Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)
