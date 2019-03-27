@@ -92,7 +92,7 @@ The transition to Dynamics 365 Market Insights is intended to be a seamless expe
 
 ###	What are the key capabilities of Dynamics 365 Market Insights?
 
-The key features of Dynamics 365 Market Insights fall within three     categories:
+The key features of Dynamics 365 Market Insights fall within three categories:
 -	**Search Insights**: Know what your customers are saying, seeking, and feeling by acquiring audience insights from Bing search. Access demographic and historical insights to align marketing and product development activities. Turn these insights into actions by developing targeted campaigns. 
 -	**Social Insights**: Listen to what customers and competitors are saying, and track how their sentiment changes over time through automatic sentiment analysis. Leverage the power of AI to detect intent within social posts and help you identify new leads or respond to service questions.
 -	**Brand Reputation**: Use machine learning to tweak sentiment detection in a way that’s tailored to your organization. Identify, track, and engage with individual influencers and experts on social media so you never miss a post from an influencer.
