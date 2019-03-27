@@ -5,7 +5,7 @@
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
 ## [Configure mobile offline synchronization](configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md)
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
-## [Dynamics 365 for Good device encryption](secure-mobile-data-dynamics-365-good.md)
+## [Dynamics 365 for Good device encryption](secure-mobile-data-dynamics-365-good.md) 
 
 # [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
 
