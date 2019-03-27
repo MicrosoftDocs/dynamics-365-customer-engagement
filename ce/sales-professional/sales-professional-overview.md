@@ -101,7 +101,7 @@ Here are some highlights of Dynamics 365 for Sales Professional
 
     More information: [Create standardized documents with document templates in Dynamics 365 for Sales Professional](use-document-templates-sales-professional.md)
 
-    ![Document templates in the Sales Professional app](media/document-templates-sales-professional-app "Document templates in the Sales Professional app")
+    ![Document templates in the Sales Professional app](media/document-templates-sales-professional-app.png "Document templates in the Sales Professional app")
 
 -   **Sales data anywhere and everywhere.** Get all your customer and sales data right on your mobile or tablet. Whether you are visiting a customer or are
     on the road, you can quickly pull out your device to update the opportunity with information. What’s more—you get the same, consistent experience
