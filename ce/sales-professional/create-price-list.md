@@ -1,6 +1,6 @@
 ---
 title: "Create a price list in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Define what to charge for your products or services by creating price list and price list items in Dynamics 365 for Sales Professional."
+description: "Define what to charge for your products or services by creating a price list and price list items in Dynamics 365 for Sales Professional."
 keywords: ""
 ms.date: 04/05/2019
 ms.service:
@@ -24,11 +24,11 @@ structures for different regions you sell your products in or for different sale
 
 Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.
 
-1.  Make sure that you have the System Administrator or Sales Professional Manager role of equivalent permissions.
+1.  Make sure that you have the System Administrator or Sales Professional Manager role or equivalent permissions.
 
 2.  In the site map, select **Price List**.
 
-3.  Select **+New**.
+3.  Select **New**.
 
     The Price List form opens.
 
@@ -36,11 +36,11 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
 4.  Fill in your information, and then select **Save**.
 
-    a. **Name**. Type a descriptive name for the price list. For example, if you are creating a price list for retail, mention that.
+    - **Name**. Type a descriptive name for the price list. For example, if you are creating a price list for retail, mention that.
 
-    b. **Start Date**/**End Date**. Select the start date and end date for the price list. For example, if this is a promotional price list that’s effective only for the promotional period, select that period.
+    - **Start Date**/**End Date**. Select the start date and end date for the price list. For example, if this is a promotional price list that’s effective only for the promotional period, select that period.
 
-    c. **Currency**. Select the currency you’re creating the price list for. You can have different price list for different currencies.
+    - **Currency**. Select the currency you’re creating the price list for. You can have different price lists for different currencies.
 
 5.  To add price per unit for a product, create and add price list items.
 
@@ -50,7 +50,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
     2. In the **Price List Item** form, fill in the information, and select **Save and Close**:
 
-        - **Price List**. The price list for which you are creating price list item is automatically populated here.
+        - **Price List**. The price list for which you are creating a price list item is automatically populated here.
 
         - **Product**. Select the product from which you are creating the price list item.
 
@@ -59,10 +59,10 @@ Price lists tie the unit, product, and pricing details together, so before you c
         -  **Currency**. The currency defined for the price list is automatically
         populated.
 
-        -  **Discount List**. If you want to offer a discount on the products,
-        select a discount list to the price list item.
+        -  **Discount List**. If you want to offer a discount on a product,
+        select a discount list for the price list item.
 
-        -  **Quantity Selling Option**. select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the Quantity field of Quote Product, Order Product, and Invoice Product records.
+        -  **Quantity Selling Option**. Select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the Quantity field of Quote Product, Order Product, and Invoice Product records.
 
         ![New Price List Item form](media/empty-price-list-item-form.png "New Price List Item form")
 
