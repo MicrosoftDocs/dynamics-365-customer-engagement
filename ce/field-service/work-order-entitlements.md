@@ -28,21 +28,22 @@ search.app:
 
 # Entitlements for Work Orders
 
-Entitlements for work orders allow a field service organization to dynamically apply price lists and discounts to work order products and services based on multiple factors. This is achieved through the same processes an organization would use Dynamics 365 for Customer Service to apply entitlements for cases.
+Entitlements for work orders allow a field service organization to dynamically apply price lists and discounts to work order products and services based on work order attributes and date range factors. This is achieved through the same process and entities an organization would offer case entitlements in Dynamics 365 for Customer Service.
 
+Entitlements can be applied to work orders based on:
 
-Entitlements in Dynamics 365 are privileges an organization offers to their customers. Entitlements have historically been a 
-extending entitlement functionality for customer service to field service
+- Billing account
+- Service account
+- Specific products and services
+- Specific customer assets
+- Customer asset categories
+- Incident types
 
+Let's explore entitlements for work orders with two scenarios: 
 
+> **Scenario 1:** An organization would like to offer a customer a 10% discount for two years on all work order products and services based on a preset price list. 
 
-
-
-multiple different entitlements that impact the same work order
-
-**Scenario 1:** Offer a specific customer an entitlement for a special price list and a 10% discount applied to all work order products and services.
-
-**Scenario 2:** Offer a specific customer an entitlement for free work order products and services for two years for managed asset within a specified category.
+> **Scenario 2:** An organization would like to offer a customer free work order products and services for two years for work orders that relate to customer assets of a specified category.
 
 ## Prerequisites
 Field Service v8.4+
