@@ -1,19 +1,22 @@
 ---
 title: "Configure Dynamics 365 for Sales Professional to integrate with SharePoint | MicrosoftDocs"
-description: ""
+description: "Allow your users to store sales documents in SharePoint and collaborate on them by integrating Dynamics 365 for Sales Professional with SharePoint."
 keywords: ""
+ms.date: 04/05/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
+ms.assetid: 4b7ba471-25f9-403b-91cc-6e60fff2c668
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-applies_to: 
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.date: 03/26/2019
-ms.service: dynamics-365-sales
-ms.topic: article
-ms.assetid: 4b7ba471-25f9-403b-91cc-6e60fff2c668
-ms.custom: dyn365-sales
 ---
+
 # Configure Dynamics 365 for Sales Professional to integrate with SharePoint
 
 Store the documents related to Dynamics 365 for Sales Professional entity records in SharePoint and quickly access, share, and manage these documents from
@@ -40,7 +43,7 @@ To be able to configure SharePoint, you must have:
     The following configuration happens in the background:
 
     1.  A SharePoint sub site is created with the SharePoint default root URL. This URL is used to configure SharePoint. For example, a subsite
-        /Dynamics 365/\<orgname\> is created under tenant.sharepoint.com.
+        /Dynamics 365/<orgname> is created under tenant.sharepoint.com.
 
     2.  The SharePoint site is validated.
 

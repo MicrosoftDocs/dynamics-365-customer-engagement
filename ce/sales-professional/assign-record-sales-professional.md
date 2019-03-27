@@ -1,18 +1,20 @@
 ---
 title: "Assign a record to a user or team in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: ""
+description: "Assign a record to a user or a team in Dynamics 365 for Sales Professional to enable them to work on the record"
 keywords: ""
+ms.date: 04/05/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
+ms.assetid: 01d211c4-efd5-4b63-891c-819312fc4cc8
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-applies_to: 
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.date: 03/26/2019
-ms.service: dynamics-365-sales
-ms.topic: article
-ms.assetid: 01d211c4-efd5-4b63-891c-819312fc4cc8
-ms.custom: dyn365-sales
 ---
 
 
@@ -32,8 +34,7 @@ You can also assign a record to a team, or to yourself.
 
     ![Assign Opportunity dialog box](media/8c16488b1c6ee619deccd9c55ba24c98.png "Assign Opportunity dialog box")
 
-5.  If you have chosen to assign to **User or Team**, then in the **User or
-    team** field, select the **Lookup** icon to select a user or a team.
+5.  If you have chosen to assign to **User or Team**, then in the **User or     team** field, select the **Lookup** icon to select a user or a team.
 
 6.  Select **Assign**.
 

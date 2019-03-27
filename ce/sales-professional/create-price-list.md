@@ -1,19 +1,22 @@
 ---
 title: "Create a price list in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: ""
+description: "Define what to charge for your products or services by creating price list and price list items in Dynamics 365 for Sales Professional."
 keywords: ""
+ms.date: 04/05/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
+ms.assetid: 7a65d93b-4794-4a9b-b57a-9ef82cefc326
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-applies_to: 
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.date: 03/26/2019
-ms.service: dynamics-365-sales
-ms.topic: article
-ms.assetid: 7a65d93b-4794-4a9b-b57a-9ef82cefc326
-ms.custom: dyn365-sales
 ---
+
 # Create a price list
 
 Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price
@@ -62,3 +65,9 @@ Price lists tie the unit, product, and pricing details together, so before you c
         -  **Quantity Selling Option**. select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the Quantity field of Quote Product, Order Product, and Invoice Product records.
 
         ![New Price List Item form](media/100172ed0bb1edf426dd5c3363c3af4f.png "New Price List Item form")
+
+
+### See also
+
+[Create unit groups and add units](create-unit-groups-add-units.md)
+[Create a product](create-products.md)  

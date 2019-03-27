@@ -1,35 +1,34 @@
 ---
 title: "Overview of Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: ""
+description: "Get an overview of Dynamics 365 for Sales Professional."
 keywords: ""
+ms.date: 04/05/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
+ms.assetid: d55f5a5a-2a2f-4740-b1a4-babeff282fc9
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-applies_to: 
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.date: 03/26/2019
-ms.service: dynamics-365-sales
-ms.topic: article
-ms.assetid: d55f5a5a-2a2f-4740-b1a4-babeff282fc9
-ms.custom: dyn365-sales
 ---
+
 # Overview of Dynamics 365 for Sales Professional
 
 >   [!IMPORTANT]
 >   [Learn about the usage and extensibility restrictions for Dynamics 365 for Sales Professional](https://go.microsoft.com/fwlink/p/?linkid=850959).
 
-Welcome to Dynamics 365 for Sales Professional. If you don't need a full-fledged enterprise app for your organization, the new Dynamics 365 for Sales
-Professional app is for you.
+Welcome to Dynamics 365 for Sales Professional. If you don't need a full-fledged enterprise app for your organization, the new Dynamics 365 for Sales Professional app is for you.
 
-This offering, available online-only and built on the new Unified Interface framework, contains a targeted set of sales capabilities to get your
-organization up and running quickly.
+This offering, available online-only and built on the new Unified Interface framework, contains a targeted set of sales capabilities to get your organization up and running quickly.
 
-It is designed from the ground up with accessibility in mind, and uses responsive web design principles to provide an optimal viewing and interaction
-experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
+It is designed from the ground up with accessibility in mind, and uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
 
-Dynamics 365 for Sales Professional comes with a Get Started page that shows you the core things you need to set up to have your users get started, such as
-connecting email, sharing documents, and importing data. 
+Dynamics 365 for Sales Professional comes with a Get Started page that shows you the core things you need to set up to have your users get started, such as connecting email, sharing documents, and importing data. 
 
 ![Get started page with links to Standard settings](media/0e3a2788236bf5cbbf5e5c412aefd2bc.png "Get started page with links to Standard settings")
 
@@ -66,16 +65,13 @@ Here are some highlights of Dynamics 365 for Sales Professional
 
     More information: [Gain insights with dashboards in Dynamics 365 for Sales Professional](gain-insights-with-dashboards-in-dynamic)
 
-    ![Sales dashboard](media/c18f1cd07b08ea69ef632512f1f41fa8.png "Sales dashboard")
+    ![Sales Manager Summary dashboard](media/b5eb792ee89fce018f0abf9f34a3ccb0.png "Sales Manager Summary dashboard")
 
--   **Customer 360 view.** Once in the app, quickly get an overview of what’s  happening with a customer, such as, see all the communications with the
-    customer, progress of individual deals, and much more all in one place.
+-   **Customer 360 view.** Once in the app, quickly get an overview of what’s  happening with a customer, such as, see all the communications with the customer, progress of individual deals, and much more all in one place.
 
     ![Customer 360 view in the Contact form](media/94f9b17b9f500ed954955eaec0637b15.png "Customer 360 view in the Contact form")
 
--   **Business process flow.** The guided process flows on the Lead and Opportunity form tell you exactly what to do next. You can quickly find out
-    the steps you must take to increase the likelihood of a successful sale, and thus increase the sales count. The process bar can be docked to the right
-    side of the screen for an omnipresent experience while you work on the opportunity.
+-   **Business process flow.** The guided process flows on the Lead and Opportunity form tell you exactly what to do next. You can quickly find out the steps you must take to increase the likelihood of a successful sale, and thus increase the sales count. The process bar can be docked to the right side of the screen for an omnipresent experience while you work on the opportunity.
 
     ![Business process bar on the lead form](media/220c95292cbc19f9492a446bec2d077d.png "Business process bar on the lead form")
 
@@ -113,6 +109,5 @@ Here are some highlights of Dynamics 365 for Sales Professional
 
 ### See Also
 
-[Learn the basics](#learn-the-basics-of-dynamics-365-for-sal)  
-[Quick Setup & Advanced Settings
-Overview](https://microsoft.sharepoint.com/teams/crmtechreview/Shared%20Documents/Sales/Sales%20pro/quick-setup-advanced-settings-overview.md)
+[Learn the basics](#learn-basics-sales-professional.md)  
+[Standard and Advanced Settings Overview](standard-advanced-settings-overview.md)

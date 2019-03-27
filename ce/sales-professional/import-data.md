@@ -1,19 +1,22 @@
 ---
 title: "Import data into Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: ""
+description: "Get your data in bulk into Dynamics 365 for Sales Professional by importing it."
 keywords: ""
+ms.date: 04/05/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
+ms.assetid: 7914b026-8e46-4dda-9134-f86bd8ae5db8
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-applies_to: 
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.date: 03/26/2019
-ms.service: dynamics-365-sales
-ms.topic: article
-ms.assetid: 7914b026-8e46-4dda-9134-f86bd8ae5db8
-ms.custom: dyn365-sales
 ---
+
 # Import data into Dynamics 365 for Sales Professional
 
 Bring in your customer and sales data quickly into your app by importing it. It can be used for importing data into most record types.
@@ -169,39 +172,39 @@ bikes”“someone\@example.com”“555-555-0112”
         ![Optional Fields section in Review Mapping Page](media/d2f1b9f46caf87871a5f61b949b01adc.png "Optional Fields section in Review Mapping Page")
 
     4.  While importing your data, if any column in your source file includes fixed set of values, you must map the column to a field of Option Set type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, select the ![Option Set icon](media/75f2747a7e47446b19055a171569de6a.png "Option Set icon") icon next to the option set field. Option set mapping section opens:
-
-    [Option set mapping dialog box](media/2da10c8ae6ccb706c8a4a9c5c0a54963.png "Option set mapping dialog box")
     
-    For each **Source Option Values** item, select an item from the **Dynamics 365 Option Values** list to map it, and then select **OK**.
-
-    When you are mapping the source values to items in the **Dynamics 365 Option Values** list, the Import Data Wizard temporarily adds the items from the source values to the **Dynamics 365 Option Values** list. You can map the source list values to the existing options in Dynamics 365 or to the added values. If you map to one of the added values, these new values are created in Dynamics 365 for Sales Professional.
-
-    For example, your source values and the Dynamics 365 target values could have the following values before the import starts:
-
-    | **Source values** | **Dynamics 365 for Sales Professional target values** |
-    |-------------------|-------------------------------------------------------|
-    | Low               | Cold                                                  |
-    | High              | Warm                                                  |
-    |                   | Hot                                                   |
-
-    During the import, the Import Data Wizard adds the source values to the Dynamics 365 target values:
-
-    | **Source values** | **Dynamics 365 for Sales Professional target values** |
-    |-------------------|-------------------------------------------------------|
-    | Low               | Cold                                                  |
-    | High              | Warm                                                  |
-    |                   | Hot                                                   |
-    |                   | Low                                                   |
-    |                   | High                                                  |
-
-    You can map Low in the source values to Cold in the Dynamics 365 target values. Also, you can map High in the source values to High in the Dynamics
-    365 target values.
-
-    Based on these mappings, the Import Data Wizard creates "High" as a Dynamics 365 target value. It does not create "Low" as a Dynamics 365 target value because you did not map any source value to the added Dynamics 365 target value of "Low".
-
-    >   [!Note] 
+        [Option set mapping dialog box](media/2da10c8ae6ccb706c8a4a9c5c0a54963.png "Option set mapping dialog box")
     
-    >   You can also map a column in your source file to a field of type “Two Options” and “Multiselect Option Set” (where a field can have multiple values). You must map each **Source Option Values** to the items in the **Dynamics 365 Option Values** list. When mapping to a field of type Multiselect Option Set, if your source file includes values that aren’t available in Dynamics 365 for Sales Professional, new values won’t be created in Dynamics 365 for Sales Professional.
+        For each **Source Option Values** item, select an item from the **Dynamics 365 Option Values** list to map it, and then select **OK**.
+
+         When you are mapping the source values to items in the **Dynamics 365 Option Values** list, the Import Data Wizard temporarily adds the items from the source values to the **Dynamics 365 Option Values** list. You can map the source list values to the existing options in Dynamics 365 or to the added values. If you map to one of the added values, these new values are created in Dynamics 365 for Sales Professional.
+
+        For example, your source values and the Dynamics 365 target values could have the following values before the import starts:
+
+        | **Source values** | **Dynamics 365 for Sales Professional target values** |
+        |-------------------|-------------------------------------------------------|
+        | Low               | Cold                                                  |
+        | High              | Warm                                                  |
+        |                   | Hot                                                   |
+
+        During the import, the Import Data Wizard adds the source values to the Dynamics 365 target values:
+
+        | **Source values** | **Dynamics 365 for Sales Professional target values** |
+        |-------------------|-------------------------------------------------------|
+        | Low               | Cold                                                  |
+        | High              | Warm                                                  |
+        |                   | Hot                                                   |
+        |                   | Low                                                   |
+        |                   | High                                                  |
+
+        You can map Low in the source values to Cold in the Dynamics 365 target values. Also, you can map High in the source values to High in the Dynamics
+        365 target values.
+
+        Based on these mappings, the Import Data Wizard creates "High" as a Dynamics 365 target value. It does not create "Low" as a Dynamics 365 target value because you did not map any source value to the added Dynamics 365 target value of "Low".
+
+        >   [!Note] 
+        
+        >   You can also map a column in your source file to a field of type “Two Options” and “Multiselect Option Set” (where a field can have multiple values). You must map each **Source Option Values** to the items in the **Dynamics 365 Option Values** list. When mapping to a field of type Multiselect Option Set, if your source file includes values that aren’t available in Dynamics 365 for Sales Professional, new values won’t be created in Dynamics 365 for Sales Professional.
 
     5.  If some data in your source file reference other existing records in Dynamics 365 for Sales Professional, you must map the column in the
         source file to a lookup field of Dynamics 365 for Sales Professional.

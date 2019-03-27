@@ -1,19 +1,22 @@
 ---
 title: "Create and manage invoices in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: ""
+description: "Bill your customers for upcoming sale by using invoices in Dynamics 365 for Sales Professional."
 keywords: ""
+ms.date: 04/05/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
+ms.assetid: 723857a0-42bd-406c-a64c-7e911ce6c625
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-applies_to: 
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.date: 03/26/2019
-ms.service: dynamics-365-sales
-ms.topic: article
-ms.assetid: 723857a0-42bd-406c-a64c-7e911ce6c625
-ms.custom: dyn365-sales
 ---
+
 # Create and manage invoices in Dynamics 365 for Sales Professional
 
 Once your customer accepts the quote, you can create an invoice in Dynamics 365 for Sales Professional to bill them for the upcoming sale.
@@ -89,7 +92,6 @@ You may also create an invoice that doesn’t generate from a quote.
 2.  Select **Save and Close**.
 
 ## Lock or unlock prices of an invoice
------------------------------------
 
 Price locked locks the price for a product in an open invoice. Even if the price changes in the product catalog, that invoice remains at the agreed price.
 
@@ -112,7 +114,7 @@ command bar, select **Cancel Invoice** or **Invoice Paid**.
 
 When you’ve added all the details to the invoice, send it to the customer.
 
-To directly send an email to customer with an invoice attached, open the invoice, and on the command bar, select the **More Commands** icon  ![Icon for More Commands](media/8ee65c6454c46d9d95de8bc81379a04b.png) "More commands icon" , and then select **Send by Email**.
+To directly send an email to customer with an invoice attached, open the invoice, and on the command bar, select **Send by Email**.
 
 ### See Also
 

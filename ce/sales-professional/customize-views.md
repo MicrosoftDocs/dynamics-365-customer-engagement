@@ -1,19 +1,22 @@
 ---
 title: "Customize views (Dynamics 365 for Sales Professional) | MicrosoftDocs"
-description: ""
+description: "Use views in Dynamics 365 for Sales Professional to define how a list of records for a specific entity is displayed."
 keywords: ""
+ms.date: 04/05/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
+ms.assetid: 582aaeed-7b3d-451d-ada7-c5671126fc58
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-applies_to: 
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.date: 03/26/2019
-ms.service: dynamics-365-sales
-ms.topic: article
-ms.assetid: 582aaeed-7b3d-451d-ada7-c5671126fc58
-ms.custom: dyn365-sales
 ---
+
 # Customize views (Sales Professional)
 
 In Dynamics 365 for Sales Professional, use views to define how a list of records for a specific entity is displayed. A view defines: 
@@ -46,14 +49,13 @@ This topic covers how to create system views as a customizer. 
 
 1.  In the site map, select **Sales Settings**.
 
-2.  Under Customization, select **Views**.
+2.  Under **Customization**, select **Views**.
 
-    ![Settings in the site map](media/2fa281110c99eb1b1619a901517e40b2.png "Settings in the site map")
+    ![Views in the site map](media/2fa281110c99eb1b1619a901517e40b2.png "Settings in the Views")
 
-3.  In the **Name** column, select the view to open it, or if you want to search for a view, under **List of system views** in the upper left, in the
-    **Search for records** box, type all or part of the name of the view you want to search for, and then choose the magnifying glass icon. 
+3.  In the **Name** column, select the view to open it, or if you want to search for a view, under **List of system views** in the upper left, in the **Search for records** box, type all or part of the name of the view you want to search for, and then choose the magnifying glass icon. 
 
-    ![Customize views in Advanced settings](media/dcdcffdf50254ce9d59990c8608b3192.png "Customize views in Advanced settings")
+    ![List of views](media/dcdcffdf50254ce9d59990c8608b3192.png "List of views")
 
   
 ## Create a new system view

@@ -1,19 +1,22 @@
 ---
 title: "Configure email in Dynamics 365 for Sales Professional by integrating with Exchange | MicrosoftDocs"
-description: ""
+description: "Enable users to send and receive emails by configuring email in Dynamics 365 for Sales Professional."
 keywords: ""
+ms.date: 04/05/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
+ms.assetid: c0fd21e7-c669-46bb-9db2-347a45197483
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-applies_to: 
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.date: 03/26/2019
-ms.service: dynamics-365-sales
-ms.topic: article
-ms.assetid: c0fd21e7-c669-46bb-9db2-347a45197483
-ms.custom: dyn365-sales
 ---
+
 # Configure email in Dynamics 365 for Sales Professional by integrating with Exchange
 
 To store email and other messaging records in Dynamics 365 for Sales Professional, you need to synchronize it with your email system.
@@ -53,71 +56,38 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
 2.  If your organization has an Exchange subscription, skip to Step 5.
 
-3.  If you don’t have an Office 365 subscription, you’ll be prompted to purchase an Office 365 subscription. Select the link to purchase an Office 365
-    subscription.
+3.  If you don’t have an Office 365 subscription, you’ll be prompted to purchase an Office 365 subscription. Select the link to purchase an Office 365 subscription.
 
-    ![Email configuration page in Advanced Settings](media/419cdd3477e121fa8c394fc33bc70601.png "Email configuration page in Advanced Settings")
+    ![Link to sign up for Microsoft Exchange](media/get-microsoft-exchange.png "Link to sign up for Microsoft Exchange")
 
-4.  After you purchase a subscription, go to **Set up email**. This time, Exchange will be automatically detected.
+4.  After you purchase a subscription, go to **Set up email**. This time, Exchange is automatically detected and configured in the background.
 
-5.  If an Exchange subscription is detected but Exchange isn’t configured, you’ll get an option to configure Exchange.
+    The following configuration happens in the background:
 
-    > [!Important]     
+    -   The email server profile is set to Exchange Online (automaticallycreated when a new Dynamics 365 instance is provisioned). The email server profile stores settings that are used by server-side synchronization to connect to an email server and process email for the associated mailboxes.
 
-    > If Exchange is already configured for any user in your organization, instead of the Configure button, the user’s mailbox will appear. To configure mailboxes for other users, you must add the users in **Advanced Settings** > **User Management**. When you do this, their mailboxes will automatically appear here, which you can test and enable later.
+    -   Incoming Email, Outgoing Email, and Appointment, Contacts, and Tasks are all set to use Server-side synchronization
+
+    -   Existing user mailboxes that have valid Exchange licenses are automatically approved. Approval of mailboxes is required for the mailbox to process email. The incoming and outgoing email configuration of the selected mailboxes is tested, and mailboxes are then enabled for processing email.
+
+        > [!Important]
+
+        > User mailboxes are automatically approved and enabled only when the primary email of the user is equal to the user's UPN (User Principal Name attribute).      
+
+    -  For newly added users, you must manually test and enable the mailboxes.
+
+    - Dynamics 365 App for Outlook is automatically enabled for all the users.
+
+5.  If users are already created in your organization, the mailboxes of the users will appear in the **Mailbox** list. For more information about adding users, see [Manage users](manage-users.md)  
+
+6. The mailboxes will be in the **Not Run** state initially. Select the **Approve and Test mailboxes** to test the mailboxes and approve them.  
 
     ![Button to configure Exchange](media/ab16896a870846e7b67db4c47976f38a.png "Button to configure Exchange")
 
-6.  Select **Configure**. A consent dialog box opens.
-
-7.  In the consent dialog box, select **I Agree**.
-
-    >   [!Note]
-
-    >   The integration won’t work unless you agree.
-
-9.  When you select I Agree, the following happens:
-
-    1.  Server-side synchronization is automatically enabled and configured at the system (organization) level.
-
-        -   The email server profile is set to Exchange Online (automaticallycreated when a new Dynamics 365 instance is provisioned). The email
-            server profile stores settings that are used by server-side synchronization to connect to an email server and process email for
-            the associated mailboxes.
-
-        -   Incoming Email, Outgoing Email, and Appointment, Contacts, and Tasks are all set to use Server-side synchronization
-
-    2.  When Exchange is configured, the following happens:
-
-        -   Existing user mailboxes that have valid Exchange licenses are automatically approved. Approval of mailboxes is required for the
-            mailbox can process email. The incoming and outgoing email configuration of the selected mailboxes is tested, and mailboxes are
-            then enabled for processing email.
-
-            > [!Important]
-
-            > User mailboxes are automatically approved and enabled only when the primary email of the user is equal to the user's UPN (User Principal Name attribute).      
-
-        -  For newly added users, you must manually test and enable the mailboxes.
-
-    3. All these user mailboxes are automatically approved. A mailbox needs to be approved before it can process email.
-
-    4. The incoming and outgoing email configuration of the selected mailboxes is tested, and mailboxes are then enabled for processing email.  
-      
-        > [!Note]
+    > [!Note]
         
-        > If an error occurs in a mailbox, an alert is sent to the user of the mailbox. You can also see the alert when you open the mailbox record. The
-        **Test Run Status** column is set to Failure for the mailbox. You mustselect all such mailboxes, and test and enable them. More information: [Test
-        and enable mailboxes](#test-and-enable-mailboxes).  `  
-        
-    5.  Dynamics 365 App for Outlook is automatically enabled for all the users.
+    > If an error occurs in a mailbox, an alert is sent to the user of the mailbox. You can also see the alert when you open the mailbox record. The **Test Run Status** column is set to **Failure** for the mailbox. Select the **Approve and test mailboxes** button to test and approve the mailboxes.
 
-## Test and enable mailboxes
-
-The Test Run column shows the status of the test performed on the mailboxes. If an error occurs while testing any of the mailbox, it’s status is set to Failed
-and the user of the mailbox is sent an alert.
-
-As an administrator, you must select all such mailboxes, select the **More Commands** icon, and then select **Test and Enable**.
-
-The error must automatically resolve now. If the error persists, please contact Support.
 
 ### See Also
 

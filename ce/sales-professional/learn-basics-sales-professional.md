@@ -1,19 +1,22 @@
 ---
 title: "Learn the basics of Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: ""
+description: "Get started with the Sales Professional app quickly by learning about the user interface and its components."
 keywords: ""
+ms.date: 04/05/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
+ms.assetid: 95278663-cbc1-4c6b-b694-ac345bd7283b
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-applies_to: 
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.date: 03/26/2019
-ms.service: dynamics-365-sales
-ms.topic: article
-ms.assetid: 95278663-cbc1-4c6b-b694-ac345bd7283b
-ms.custom: dyn365-sales
 ---
+
 # Learn the basics of Dynamics 365 for Sales Professional
 
 Start here to onboard quickly and learn about the Sales app and its user
@@ -34,7 +37,6 @@ interface.
     ![Tile for Dynamics 365 for Sales Professional](media/79461c243265db5390c112d30d84d416.png "Tile for Dynamics 365 for Sales Professional")
 
 ## Find your way around the app
-----------------------------
 
 The Sales Professional app is designed so that you can access the tools and customer data you need quickly when you need them.
 
@@ -80,16 +82,16 @@ marking the step completed in the process bar at the top of the screen. When all
 
 There are three ready-to-use business processes that you can use as you move your leads through a sales process:
 
-    -   Lead to invoice. This business process flow is available on:
+  -   Lead to invoice. This business process flow is available on:
 
-        -   All leads
+      -   All leads
+      -   On opportunities created from leads
+  -   Opportunity sales process. This business process flow is available on:
 
-        -   On opportunities created from leads
+      -   All directly created opportunities (not originating from lead) forms
 
-    -   Opportunity sales process. This business process flow is available on:
-
-       -   All directly created opportunities (not originating from lead) forms
 
 ### See Also
 
+[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
 

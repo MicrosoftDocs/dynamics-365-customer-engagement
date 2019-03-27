@@ -1,127 +1,94 @@
 ---
 title: "Manage your customers in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: ""
+description: "Store important information about the accounts and contacts you do business with in Dynamics 365 for Sales."
 keywords: ""
+ms.date: 03/26/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
+ms.assetid: 63050767-00bb-4394-87f2-0a34b64147b2
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-applies_to: 
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.date: 03/26/2019
-ms.service: dynamics-365-sales
-ms.topic: article
-ms.assetid: 63050767-00bb-4394-87f2-0a34b64147b2
-ms.custom: dyn365-sales
 ---
-Manage your customers
-=====================
 
-In Dynamics 365 for Sales Professional, accounts and contacts records types are
-used to store information about your customers.
+# Manage your customers
 
-Accounts are organizations you do business with, and contacts are individual
-people with whom you have a relationship. A contact may or may not be associated
-to an account.
+In Dynamics 365 for Sales Professional, accounts and contacts records types are used to store information about your customers.
 
-Accounts and contacts share a one-to-many relationship, which means that a
-single account can have multiple contacts.
+Accounts are organizations you do business with, and contacts are individual people with whom you have a relationship. A contact may or may not be associated to an account.
 
-You can add accounts or contacts manually or use the Import wizard in your Sales
-app to get in all your customer data in to the system.
+Accounts and contacts share a one-to-many relationship, which means that a single account can have multiple contacts.
 
-Create or edit an account
--------------------------
+You can add accounts or contacts manually or use the Import wizard in your Sales app to get in all your customer data in to the system.
 
-1.  Select the site map icon
+## Create or edit an account
 
-    ![A close up of a device Description automatically generated](media/24a780638faabce82f27f2c6490948b1.png)
-
-    , and then select **Accounts**.
+1.  In the site map, select **Accounts**.
 
 2.  To create a new account, select **New**.
 
--   \-OR-
+    -OR-
 
     To edit an existing account, open the account.
 
-1.  Fill in or change the information. Don’t know what to enter in a field?
-    Hover over the field name to see a tooltip.
+3.  Fill in or change the information. Don’t know what to enter in a field? Hover over the field name to see a tooltip.
 
->   Required fields are marked with a red asterisk (\*). Here are some important
->   fields in the account record:
+    Required fields are marked with a red asterisk (*). Here are some important fields in the account record:
 
-![](media/94587deb7b7cb3f42d0aa41e6c38c7c9.png)
+    ![Account form](media/94587deb7b7cb3f42d0aa41e6c38c7c9.png "Account form")
 
->   A screenshot of a cell phone Description automatically generated
+    **Summary tab.** Use the summary tab to store all the primary information about the account. This is the tab you’ll use the most.
 
-Account form showing the Summary tab
+    The left pane includes fields like:
 
->   **Summary tab.** Use the summary tab to store all the primary information
->   about the account. This is the tab you’ll use the most.
+    - **Primary Contact.** The main person you are working with at this account.
 
->   The left pane includes fields like:
+    - **Account Name.** The name of the organization you do business with. This name is used in searches, reports, and lookup fields related to accounts.
 
->   \- **Primary Contact.** The main person you are working with at this
->   account.
+    - **Parent Account**. The parent organization of an account. The parent
+    account must also be added as an account first to be able to choose it as a parent account. - The middle pane, which is called a timeline, records all the activities related to the account or the communication with the account.
 
->   \- **Account Name.** The name of the organization you do business with. This
->   name is used in searches, reports, and lookup fields related to accounts.
+    The right pane shows everything that’s happening with the account. In other words, it shows related records to the account.
 
->   \- **Parent Account**. The parent organization of an account. The parent
->   account must also be added as an account first to be able to choose it as a
->   parent account. - The middle pane, which is called a timeline, records all
->   the activities related to the account or the communication with the account.
->   - The right pane shows everything that’s happening with the account. In
->   other words, it shows related records to the account.
+    The **Timeline** pane shows all the activities with the account.
 
->   The **Timeline** pane shows all the activities with the account.
+    ![Timeline section](media/b60ea6b372146efa0e1cd924cb009093.png "Timeline section")
 
-![](media/b60ea6b372146efa0e1cd924cb009093.png)
+    The last pane has three tabs that show the contacts of the account, the recent opportunities with the account, and the recent invoices generated for them.
 
->   A screenshot of a cell phone Description automatically generated
+    ![Related tabs in account form](media/69e20486318001e6236f19301ab9781b.png "Related tabs in account form")
 
->   The last pane has three tabs that show the contacts of the account, the
->   recent opportunities with the account, and the recent invoices generated for
->   them.
+    **Details tab (Company Profile).** This is used for track important profile information about an account like their industry, number of employees or annual revenue.
 
-![](media/69e20486318001e6236f19301ab9781b.png)
+4.  Select **Save**.
 
->   A screenshot of a cell phone Description automatically generated
+## Create or edit a contact
 
->   **Details tab (Company Profile).** This is used for track important profile
->   information about an account like their industry, number of employees or
->   annual revenue.
+Typically, contacts are associated with an account. However, in some cases, contacts won’t have an associated account.
 
-1.  Select **Save**.
-
-Create or edit a contact
-------------------------
-
-Typically, contacts are associated with an account. However, in some cases,
-contacts won’t have an associated account.
-
-Account and contact forms are very similar as they store similar information
-about the customers.
+Account and contact forms are very similar as they store similar information about the customers.
 
 To create or edit a contact
 
-1.  Select the Site Map icon Menu icon, and then select **Contacts**.
+1.  In the site map, select **Contacts**.
 
 2.  To create a new contact, select **New**.
 
--   \-OR-
+    -OR-
 
     To edit an existing contact, open the contact record.
 
-1.  Fill in or change the information. Don’t know what to enter in a field?
-    Hover over the field name to see a tooltip.
+3.  Fill in or change the information. Don’t know what to enter in a field? Hover over the field name to see a tooltip.
 
--   Here are some important fields of a contact record:
+    Here are some important fields of a contact record:
 
-    ![A screenshot of a cell phone Description automatically generated](media/378211eb0fb1b7e73224d88c49f186ee.png)
-
-    Contact form showing the Summary tab
+    ![Contact form showing the Summary tab](media/378211eb0fb1b7e73224d88c49f186ee.png "Contact form showing the Summary tab")
 
     The **Summary** tab stores all the primary information about the contact.
 
@@ -129,17 +96,16 @@ To create or edit a contact
 
     -   **Full Name.** This is combination of First Name and Last Name. 
 
-    -   **Account Name.** This points to the account record this contact is
-        associated with.
+    -   **Account Name.** This points to the account record this contact is associated with.
 
-    -   **Contact Info.** Fields like Email, Business Phone, and Mobile Phone
-        fields store the contact details of the contact.
+    -   **Contact Info.** Fields like Email, Business Phone, and Mobile Phone fields store the contact details of the contact.
 
     The rest of the sections are similar to that of an account form.
 
-1.  Select **Save** on the lower right corner.
+4.  Select **Save** on the lower right corner.
+
 
 ### See Also
 
-Develop sales from lead to cash in Dynamics 365 for Sales Professional  
-Overview of Dynamics 365 for Sales Professional
+[Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
+[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)

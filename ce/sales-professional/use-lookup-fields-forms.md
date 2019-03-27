@@ -1,26 +1,25 @@
 ---
 title: "Use lookup field on forms in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: ""
+description: "Choose records from a related entity (recordset) quickly by using lookups in Dynamics 365 for Sales Professional."
 keywords: ""
+ms.date: 03/26/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
+ms.assetid: 157b98bd-adb4-4e77-b8fb-3fc862b11ef6
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-applies_to: 
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.date: 03/26/2019
-ms.service: dynamics-365-sales
-ms.topic: article
-ms.assetid: 157b98bd-adb4-4e77-b8fb-3fc862b11ef6
-ms.custom: dyn365-sales
 ---
-# Use lookup field on forms
--------------------------
 
-Lookup helps you to choose records from related entity (recordset) quickly in Dynamics 365. When you select a related entity and you type search criteria,
-such as a name or email address, lookup automatically begins to resolve the partial text and displays any matching records. If no records are displayed
-after you have typed the full text of your search criteria, a message is displayed specifying that there are no records. For example, you are searching
-for the name **Adrian Dumitrascu**. When you type **ad**, possible matching records are automatically populated and displayed.
+# Use lookup field on forms
+
+Lookup helps you to choose records from related entity (recordset) quickly in Dynamics 365. When you select a related entity and you type search criteria, such as a name or email address, lookup automatically begins to resolve the partial text and displays any matching records. If no records are displayed after you have typed the full text of your search criteria, a message is displayed specifying that there are no records. For example, you are searching for the name **Adrian Dumitrascu**. When you type **ad**, possible matching records are automatically populated and displayed.
 
 ![Automatically populates matching records](media/3e32183d97aef939e086b5b4ddc61f71.png "Automatically populates matching records")
 
@@ -73,8 +72,7 @@ Change a view in a lookup field Selecting Change View lets you determine:
 
 ### Choose from multiple records
 
-When lookup has more records in a field than can fit in the available display area, the display area is collapsed—that is, the records that do fit the display
-area are shown next to the number of records that are not shown. To view all records, select the number. The following images show the difference between collapsed and non-collapsed fields.
+When lookup has more records in a field than can fit in the available display area, the display area is collapsed—that is, the records that do fit the display area are shown next to the number of records that are not shown. To view all records, select the number. The following images show the difference between collapsed and non-collapsed fields.
 
 **Collapsed:**
 
@@ -87,6 +85,6 @@ Collapsed multi-lookup display area
 ![Non-collapsed multi-lookup display area](media/93e0e86a639a714f3fda41d8e4e427b8.png "Non-collapsed multi-lookup display area")
 
 
-#### See Also
+### See Also
 
-User guide (Sales Professional)
+[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
