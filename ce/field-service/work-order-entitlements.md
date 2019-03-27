@@ -84,29 +84,27 @@ Then add the products and services as price list items with the related prices.
 
 Go to **Field Service > Settings > Entitlement** and create a new entitlement.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-navigation.png)
+
 
 **Primary Customer:** Choose the account this entitlement will apply to. If the account chosen here is later listed as the billing account of a work order then this entitlement can be eligible. An entitlement can only apply to one customer, however a billing account can be related to multiple service accounts, so work orders for multiple locations can have entitlements applied to all of them as long as the billing account is the same.
 
 **Start/End Date:** choose the date range this entitlement is valid for, if a valid work order is created within this range the entitlement will be applied.
 
-**Entity Type:** Select Work Order
+**Entity Type:** Select Work Order.
 
 **Allocation Type:** Select Discount % and Price List. This is currently the only option available and more will appear as the feature develops.
 
 **Applies to:** Select Both Work Order Products & Services for this scenario. It is possible to have an entitlement only apply to either products or services.
 
-**Entitlement Prioritization:** If applicable enter a number to represent the priority of this entitlement if multiple entitlements apply to a single work order product or service. 1 represents the highest priority. See more details in the Entitlement conflicts section of this article.
+**Price List to Apply:** Select the price list that you want applied to the work order product and service when the entitlement is applied.
+
+**% Discount:** Enter a number that represents the percent the price of the work order product or service should be discounted. If a Price List is applied, and the product or service is part of the price list, this value will discount the price list price. If it is not part of the price list, this value will discount the list price on the product record.
+
+**Entitlement Prioritization:** If applicable enter a number to represent the priority of this entitlement for instances when multiple entitlements apply to a single work order product or service. Entering "1" represents the highest priority. See more details in the **Entitlement conflicts** section of this article.
 
 **Save** and **Activate** the entitlement.
-
-- select work order
-- must be billing account
-- allocation type 
-- manipulate discount, price list or both
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/entitlement-navigation.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -114,16 +112,28 @@ Go to **Field Service > Settings > Entitlement** and create a new entitlement.
 
 ### Step 3: Create a work order and add work order products and services
 
+Next create a work order the entitlement you just created will apply to.
+
+In the image below is a work order with a billing account that is the same as the primary customer of the entitlement. This triggers the entitlement to apply to this work order.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-work-order1.png)
+
+
+Select the products tab to view work order products. Products are typically added to work orders automatically by from work order incidents or manually. However the work order products are added, the entitlement will apply.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-work-order-product-list.png)
 
+In the Other tab of the work order product, the entitlement is automatically chosen. This means the price list chosen on the entitlement is added to the work order product as well, even if this differs from the price list on the work order. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-work-order-product1.png)
 
+> [!Note]
+> The work order price list applies to work order products and services by default but an entitlement will override this and apply directly to the work order products and services. 
+
+The discount percentage is also applied because of the entitlement and this edits the estimate total amount. If the work order line status is changed from Estimated to Used, this is the price that will be billed to the customer.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-work-order-product-discount.png)
@@ -133,22 +143,32 @@ Go to **Field Service > Settings > Entitlement** and create a new entitlement.
 
 An organization would like to offer a customer free work order products and services for two years for work orders that relate to customer assets of a specified category.
 
-### Step 1: Create a customer asset 
+### Step 1: Create an entitlement
 
+Go to entitlements and create a new one.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/entitlement-customer-asset.png)
-
-### Step 2: Create an entitlement
+This entitlement is similar to the previous one however the **% Discount** is set to 100% to make the work order products and services free when the entitlement is applied.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-scenario2.png)
 
+Create a new Entitlement Application to add more details to when the entitlement should be applied.
 
+Given the primary customer of the entitlement matches the billing account on the work order, entitlement applications allow you to add more constraints to when an entitlement should apply to work order products. t
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-scenario2-entitlement-application.png)
+
+
+> [!Note]
+> Entitlement Application work in addition to primary customer, not in replacement of. As an example.. 
+
+### Step 2: Create a customer asset 
+
+First create a customer asset.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-customer-asset.png)
 
 ### Step 3: Create a work order to service the customer asset
 
@@ -207,3 +227,4 @@ cost doesnt change
   - currently unsupported scenarios
     -  examples warranty (currently not supported)
     - quantity based and limit based - limited number of work orders (currently not supported)
+    - what if product is not part of price list?
