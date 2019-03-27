@@ -153,9 +153,19 @@ This entitlement is similar to the previous one however the **% Discount** is se
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-scenario2.png)
 
-Create a new Entitlement Application to add more details to when the entitlement should be applied.
+From the entitlement, create a new entitlement application to add more details to when the entitlement should be applied.
 
-Given the primary customer of the entitlement matches the billing account on the work order, entitlement applications allow you to add more constraints to when an entitlement should apply to work order products. t
+Given the primary customer of the entitlement matches the billing account on the work order, entitlement applications allow you to add more constraints to when an entitlement should apply to work order products and services.
+
+In the example below, if a work order product or service is related to a customer asset, AND the customer asset belongs to the Wine Press Asset Category, then the entitlement is applicable. 
+
+Other applications are:
+
+> **Service Account:** if the service account here matches the work order service account then the entitlement will be applied to all work order products and services.
+
+> **Customer Asset:** if the customer asset value here matches the customer asset on the work order product or service then the entitlement will be applied to that work order product or service.
+
+> **Incident Type:** if the incident type here matches the work order incident type on the work order product or service then the entitlement will be applied to that work order product or service. Basically this means products and services added from the incident type entered here will have the entitlement.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-scenario2-entitlement-application.png)
