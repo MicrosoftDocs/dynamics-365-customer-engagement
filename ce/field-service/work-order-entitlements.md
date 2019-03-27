@@ -108,6 +108,10 @@ Step 3: Create a work order and add work order products and services
 
 Step 1: create a customer asset with an asset category
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-customer-asset.png)
+
 Step 2: create an entitlement
 
 
