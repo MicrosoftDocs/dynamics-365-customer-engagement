@@ -29,7 +29,7 @@ search.app:
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Delete user data
-Your privacy is important to us. You can remove Dynamics 365 for Customer Engagement appsapp personal data from Microsoft Teams.
+Your privacy is important to us. You can remove Dynamics 365 for Customer Engagement apps personal data from Microsoft Teams.
 
 The following data is stored with Dynamics 365 for Customer Engagement apps integration with Microsoft Teams.
 
