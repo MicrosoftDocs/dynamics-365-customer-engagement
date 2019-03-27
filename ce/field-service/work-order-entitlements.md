@@ -93,9 +93,9 @@ Go to **Field Service > Settings > Entitlement** and create a new entitlement.
 
 **Allocation Type:** Select Discount % and Price List. This is currently the only option available and more will appear as the feature develops.
 
-**Applies to:**
+**Applies to:** Select Both Work Order Products & Services for this scenario. It is possible to have an entitlement only apply to either products or services.
 
-**Entitlement Prioritization:**
+**Entitlement Prioritization:** If applicable enter a number to represent the priority of this entitlement if multiple entitlements apply to a single work order product or service. 1 represents the highest priority. See more details in the Entitlement conflicts section of this article.
 
 **Save** and **Activate** the entitlement.
 
