@@ -18,7 +18,7 @@
       - name: 'Web API Helper code: CrmHttpResponseException class'
         href: web-api-helper-code-crmhttpresponseexception-class.md
   - name: Get started with the Dynamics 365 Customer Engagement Web API (client-side JavaScript)
-    href: get-started-web-api-client-side-javascript.md
+    href: /powerapps/developer/common-data-service/get-started-web-api-client-side-javascript
   - name: Authenticate with the Web API
     href: authenticate-web-api.md
   - name: Web API types and operations
