@@ -39,7 +39,7 @@ All new Dynamics 365 Customer Engagement environments (instances) and Common Dat
 |New Trial and Production Common Data Service environments     | Feb 2, 2019        |
 |New Production and Sandbox Dynamics 365 Customer Engagement instances     | May 17, 2019        |
 
-Environments created before the scheduled release dates (created before version [text needed]) require administrators to change the environment settings to get the Unified Interface Only experience. We recommend that admins switch to this mode by following the steps at [How to enable Unified Interface Only](#how-to-enable-unified-interface-only-mode).
+Environments created before the scheduled release dates <!--(created before version [text needed])-->require administrators to change the environment settings to get the Unified Interface Only experience. We recommend that admins switch to this mode by following the steps at [How to enable Unified Interface Only](#how-to-enable-unified-interface-only-mode).
 
 > [!IMPORTANT]
 > For existing environments, it’s recommended that you:
@@ -76,17 +76,18 @@ If no app is referenced in the URL, the record or page opens without any navigat
 
 The legacy web client app, also known as *Dynamics 365 - custom*, is hidden from end users when a new environment is provisioned. It is always visible to those with System Administrator and System Customizer roles, and to other custom roles with similar privileges. The legacy web client app should only be used to check for backwards compatibility while you migrate your environments to the use of Unified Interface.
 
-[need image of KS]
+> [!div class="mx-imgBorder"] 
+> ![](media/dynamics-365-custom.png "Dynamics 365 - custom legacy app")
 
 When Unified Interface Only mode is enabled, *Dynamics 365 - custom* opens in Unified Interface and not in the legacy web client. If users only have access to the Dynamics 365 – custom app and no other model-driven apps, they won’t be redirected automatically when signing in using the environment URL (for example https://contoso.crm.dynamics.com/). Access to this app can be enabled in one of two ways:
 
 - In Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Show legacy Dynamics 365 - custom app**, select **Yes** for **Show this app to all users, not just administrators**.
 
-[need image]
+<!--need image-->
 
 - In the Power Platform Admin center, go to **Environments** > select an environment > **Settings** > **Behavior** > **Interface settings** > turn on **Show legacy app to everyone, not just admins**.
 
-[need image]
+<!--need image-->
 
 ### Advanced settings
 
@@ -107,17 +108,17 @@ Unified Interface Only can be turned on and off in one of two ways:
 
 - In Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Use the new Unified Interface only (recommended)**, select **Yes** for **Enable only the Unified Interface**.
 
-[need image]
+<!--need image-->
 
 - In the Power Platform Admin center, go to **Environments** > select an environment > **Settings** > **Behavior** > **Interface settings** > turn on **Use Unified Interface only**.
 
-[need image]
+<!--need image-->
 
 ## FAQs
 
 ### Business users in my environment are still using the legacy web client for all or some of the scenarios, and our business is not completely ready to move to Unified Interface. How does the Unified Interface Only setting impact my environment after the April 2019 release?
 
-There are no automatic changes for environments created before version [need text]. This setting is set to Off for your environment, and you can remain unaffected by April 2019 release. It is recommended that you take advantage of the benefits of Unified Interface early, by turning Unified Interface Only mode on.
+<!--There are no automatic changes for environments created before version [need text]. -->This setting is preset to Off for your environment, and you are unaffected by April 2019 release. It is recommended that you take advantage of the benefits of Unified Interface early, by turning Unified Interface Only mode on.
 
 ### I want to use Unified Interface for all the apps, but still want *Dynamics 365 – custom* to open in the legacy web client as a fallback option. Is that possible?
 
