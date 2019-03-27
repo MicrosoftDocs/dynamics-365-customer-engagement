@@ -52,18 +52,19 @@ Dynamics 365 for Customer Service
 
 Knowledge of Dynamics 365 [price lists](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) is recommended
 
-> [!Note]
-> 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+## Scenario 1: Entitlement for price list and discount
 
-## Scenario 1: entitlement for price list and discount
+An organization would like to offer a customer a 10% discount for two years on all work order products and services based on a preset price list. 
 
 ### Step 1: Create a price list and add a product 
-- products have a list price as well
-- field service product type
 
+To create an entitlement that adds a price list and a discount to work order products and services, you must first have a price list with associated products.
+
+Go to **Field Service > Settings > Price Lists** and create a new price list.
+
+
+Then add the products and services as price list items with the related prices.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-pricelist.png)
@@ -72,14 +73,34 @@ Knowledge of Dynamics 365 [price lists](https://docs.microsoft.com/en-us/dynamic
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-pricelist-item.png)
 
-**Pro Tip:**
+**Pro Tip #1:** Products and services are both added in the product entity, simply use the **Field Service Product Type** to distinguish them, using **Inventory** and **Non-inventory** options for products, and the **Service** option for Services. 
+
+**Pro Tip #2:** Enter a list price for the product record that is used if the product does not belong to a price list or if it does not belong to the price entered on the work order.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-product.png)
 
 ### Step 2: Create an entitlement
+
+Go to **Field Service > Settings > Entitlement** and create a new entitlement.
+
+
+**Primary Customer:** Choose the account this entitlement will apply to. If the account chosen here is later listed as the billing account of a work order then this entitlement can be eligible. An entitlement can only apply to one customer, however a billing account can be related to multiple service accounts, so work orders for multiple locations can have entitlements applied to all of them as long as the billing account is the same.
+
+**Start/End Date:**
+
+**Entity Type:** Select Work Order
+
+**Allocation Type:**
+
+**Applies to:**
+
+**Entitlement Prioritization:**
+
+**Save** and **Activate** the entitlement.
+
 - select work order
-- must be billing acount
+- must be billing account
 - allocation type 
 - manipulate discount, price list or both
 
@@ -92,7 +113,6 @@ Knowledge of Dynamics 365 [price lists](https://docs.microsoft.com/en-us/dynamic
 > ![Screenshot of ](./media/entitlement-scenario1.png)
 
 ### Step 3: Create a work order and add work order products and services
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-work-order1.png)
@@ -109,7 +129,9 @@ Knowledge of Dynamics 365 [price lists](https://docs.microsoft.com/en-us/dynamic
 > ![Screenshot of ](./media/entitlement-work-order-product-discount.png)
 
 
-## Scenario 2: entitlement for free products and services for an asset category
+## Scenario 2: Entitlement for free products and services for an asset category
+
+An organization would like to offer a customer free work order products and services for two years for work orders that relate to customer assets of a specified category.
 
 ### Step 1: Create a customer asset 
 
@@ -169,7 +191,7 @@ see products and services, entitlement applied
 
 ## Configuration considerations
 - example: if you wanted to give 10% on products and 20% on services you would need 2 entitlements
-- -what if primary customer on entitlement is service account and not billing account? what if the billing account isnt present but the service account is?
+- what if primary customer on entitlement is service account and not billing account? what if the billing account isnt present but the service account is?
 - adding a product means the entitlement will apply when the product or service on the work order product or service is there? - yes
 
 
