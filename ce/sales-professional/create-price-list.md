@@ -69,5 +69,5 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
 ### See also
 
-[Create unit groups and add units](create-unit-groups-add-units.md)
+[Create unit groups and add units](create-unit-group-add-units.md)
 [Create a product](create-products.md)  

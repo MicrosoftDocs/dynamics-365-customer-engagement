@@ -70,10 +70,9 @@ Products are the backbone of your business. The product catalog in Dynamics 365 
 
 ## Import products
 
-You may also use the import templates to bring in bulk data of products in to Dynamics 365 for Sales. More information: [Import data into Dynamics 365 for Sales](#import-contacts-accounts-or-leads-into-d)
+You may also use the import templates to bring in bulk data of products in to Dynamics 365 for Sales. More information: [Import data into Dynamics 365 for Sales Professional](import-data.md)
 
 ## Revise a product
-================
 
 Keep the product inventory updated by quickly revising properties for the
 products as required, and republishing the information so that your sales agents can see the latest changes to the inventory.
@@ -160,5 +159,5 @@ To stop selling a product, delete it.
 
 ### See Also
 
-[Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-lead-to-cash-sales-professional.md)  
+[Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)

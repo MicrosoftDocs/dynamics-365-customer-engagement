@@ -40,5 +40,5 @@ You can also assign a record to a team, or to yourself.
 
 ## See Also
 
-[Learn the Basics](learn-the-basics.md)  
+[Learn the Basics](learn-basics-sales-professional.md)  
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
