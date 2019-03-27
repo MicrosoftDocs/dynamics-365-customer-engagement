@@ -145,20 +145,21 @@ After enabling Power BI Embedded service integration, you must create a security
 
 1. Sign in to [Power BI](https://powerbi.microsoft.com) using a Global administrator account for the directory.
 
-2. Select Settings ![Settings icon in Power BI service](media/settings-icon.png "Settings icon in Power BI service") in the top right of the Power BI service.
+2. Select **Settings** in the top right of the Power BI service, and choose **Admin portal**.
 
-3. Select **Admin portal**.
+    > [!div class=mx-imgBorder]
+    > ![Select Admin portal in Power BI service](media/select-admin-portal.png "Select Admin portal in Power BI service")
 
-4. Select **Tenant settings**.
+3. Select **Tenant settings**.
 
-5. Under the **Developer settings** section, select **Allow service principals to use Power BI APIs**.
+4. Under the **Developer settings** section, select **Allow service principals to use Power BI APIs**.
 
-6. In the **Specific security groups** field, search for the **Portal Power BI Embedded service** group and select it.
+5. In the **Specific security groups** field, search for the **Portal Power BI Embedded service** group and select it.
 
     > [!div class=mx-imgBorder]
     > ![Add security group in Power BI Admin portal](media/add-sg-powerbi.png "Add security group in Power BI Admin portal")
 
-7. Select **Apply**.
+6. Select **Apply**.
 
 Customizers can now use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to embed Power BI dashboards and reports from the new workspaces in Power BI on the web pages in a portal. To use Power BI Embedded service, the authentication type must be specified as **powerbiembedded**. While embedding the Power BI content, customizers can use [filter parameters](https://docs.microsoft.com/en-us/power-bi/service-url-filters) to create personalized views. More information: [powerbi Liquid tag](dynamics-entity-tags.md#powerbi)
 
