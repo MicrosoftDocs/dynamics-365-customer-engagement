@@ -1,8 +1,8 @@
 ---
-title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 for Customer Engagement apps (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to use Powershell cmdlets for XRM tooling like Get-CrmConnection and Get-CrmOrganizations to connect to Dynamics 365 for Customer Engagement and retrieve organizations that the current user has access to"
 ms.custom: 
-ms.date: 03/20/2019
+ms.date: 03/27/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-XRM tooling provides you with the following Windows PowerShell cmdlets that you can use to connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps and retrieve organizations that the current user has access to: `Get-CrmConnection` and `Get-CrmOrganizations`.  
+XRM tooling provides you with the following Windows PowerShell cmdlets that you can use to connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps (on-premises )and retrieve organizations that the current user has access to: `Get-CrmConnection` and `Get-CrmOrganizations`.  
 
 > [!NOTE]
 > The PowerShell cmdlets documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Use PowerShell cmdlets in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect)
@@ -98,15 +98,15 @@ XRM tooling provides you with the following Windows PowerShell cmdlets that you 
 
 <a name="RetrieveOrgs"></a>   
 
-## Use the cmdlet to retrieve organizations from [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps 
+## Use the cmdlet to retrieve organizations from [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps (on-premises)
 
  Use the `Get-CrmOrganizations` cmdlet to retrieve the organizations that you have access to.  
   
 1. Provide your credentials to connect to your [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and it will be stored in the `$Cred` variable.  
   
- ```powershell
-   $Cred = Get-Credential  
-   ```  
+     ```powershell
+       $Cred = Get-Credential  
+     ```  
 
 2. Use the following command to retrieve your organizations, and store the information in the `$CRMOrgs` variable:
   
@@ -137,9 +137,9 @@ XRM tooling provides you with the following Windows PowerShell cmdlets that you 
   
 <a name="ConnecttoCRM"></a>
    
-## Use the cmdlet to connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps 
+## Use the cmdlet to connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps (on-premises)
 
- Use the `Get-CrmConnection` cmdlet to connect to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance. The cmdlet lets you either use the XRM tooling common login control to specify your credentials and connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] or lets you specify your credentials as inline parameters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the XRM Tooling common login control](use-xrm-tooling-common-login-control-client-applications.md)
+ Use the `Get-CrmConnection` cmdlet to connect to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] (on-premises )instance. The cmdlet lets you either use the XRM tooling common login control to specify your credentials and connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] or lets you specify your credentials as inline parameters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the XRM Tooling common login control](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-common-login-control-client-applications)
 
 > [!IMPORTANT]
 > Before using the `Get-CrmConnection` cmdlet, ensure that you use the following command to enforce usage of TLS 1.2 by PowerShell to connect to your Customer Engagement instance:<br/>
@@ -186,6 +186,6 @@ XRM tooling provides you with the following Windows PowerShell cmdlets that you 
   
 ### See also
 
-[Use XRM Tooling API to connect to Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect.md)<br />
-[Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools.md)<br /> 
+[Use XRM Tooling API to connect to Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
+[Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)<br /> 
 [Blog: PowerShell module for performing data operations and manipulating user and system settings in Customer Engagement](http://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)

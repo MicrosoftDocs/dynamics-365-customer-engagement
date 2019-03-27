@@ -2,7 +2,7 @@
 title: "Build Windows client applications using the XRM tools (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "XRM tooling is a set of APIs that provides support for building Windows client applications for Dynamics 365 for Customer Engagement apps"
 ms.custom: 
-ms.date: 03/20/2019
+ms.date: 03/27/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -36,11 +36,11 @@ XRM tooling provides the following capabilities:
   
 - Supports all the authentication modes to sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, including OAuth.  
   
-- Provides [PowerShell](use-powershell-cmdlets-xrm-tooling-connect.md) support for authentication and connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- Provides [PowerShell](../use-powershell-cmdlets-xrm-tooling-connect.md) support for authentication and connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
 - Provides thread safety for actions performed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps in a multithreaded environment. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Multithreading in Components](https://msdn.microsoft.com/library/vstudio/3es4b6yy.aspx), [Thread-Safe Components](https://msdn.microsoft.com/library/vstudio/a8544e2s.aspx)  
   
-- Provides a common [Windows Presentation Foundation login control](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-common-login-control-client-application) for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps for consistent sign-in experience to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps from your Windows client applications.  
+- Provides a common [Windows Presentation Foundation login control](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-common-login-control-client-applications) for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps for consistent sign-in experience to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps from your Windows client applications.  
   
 - Supports secure storage of the sign-in credentials and reuse of the stored credentials to automatically sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps after initial sign in.  
   

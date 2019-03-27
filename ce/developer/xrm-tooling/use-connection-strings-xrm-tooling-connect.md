@@ -2,7 +2,7 @@
 title: "Use connection strings in XRM tooling to connect to Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "XRM tooling enables you to connect to your Dynamics 365 instance by using connection strings"
 ms.custom: 
-ms.date: 03/20/2019
+ms.date: 03/27/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -17,11 +17,9 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement
+# Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement apps (on-premises)
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
-With Dynamics 365 for Customer Engagement apps, XRM tooling enables you to connect to your instance by using connection strings. This is similar to the concept of connection strings used with **SQL Server**. Connection strings have native support in configuration files, including the ability to encrypt the configuration sections for maximum security. This enables you to configure [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] connections at deployment time, and not hard code in your application to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
+With Dynamics 365 for Customer Engagement apps (on-premises), XRM tooling enables you to connect to your instance by using connection strings. This is similar to the concept of connection strings used with **SQL Server**. Connection strings have native support in configuration files, including the ability to encrypt the configuration sections for maximum security. This enables you to configure [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] connections at deployment time, and not hard code in your application to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
 
 
 > [!NOTE]
@@ -137,7 +135,7 @@ Password=passcode" />
 
 ### See also
 
- [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)<br />
+ [Build Windows client applications using the XRM tools](../build-windows-client-applications-xrm-tools.md)<br />
  [Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
  [Use XRM Tooling to execute actions in Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-execute-actions)<br />
  <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>
