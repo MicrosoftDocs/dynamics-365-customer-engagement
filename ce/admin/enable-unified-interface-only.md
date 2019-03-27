@@ -80,11 +80,11 @@ The legacy web client app, also known as *Dynamics 365 - custom*, is hidden from
 
 When Unified Interface Only mode is enabled, *Dynamics 365 - custom* opens in Unified Interface and not in the legacy web client. If users only have access to the Dynamics 365 – custom app and no other model-driven apps, they won’t be redirected automatically when signing in using the environment URL (for example https://contoso.crm.dynamics.com/). Access to this app can be enabled in one of two ways:
 
-- In Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Show legacy Dynamics 365 - custom app**, select **Yes** for **Show this app to all users, not just admins**.
+- In Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Show legacy Dynamics 365 - custom app**, select **Yes** for **Show this app to all users, not just administrators**.
 
 [need image]
 
-- In the Power Platform Admin center, go to **Environments** > select an environment > **Settings** > **Behavior** > **Interface settings** > turn on **Show legacy app to all users, not just admins**.
+- In the Power Platform Admin center, go to **Environments** > select an environment > **Settings** > **Behavior** > **Interface settings** > turn on **Show legacy app to everyone, not just admins**.
 
 [need image]
 
