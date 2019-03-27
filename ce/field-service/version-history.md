@@ -32,8 +32,8 @@ search.app:
 
 | Solution                             | Latest version | Download links                                                                                                                     |
 |--------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Field Service                        | 8.4.0.338           | [https://trials.dynamics.com](https://trials.dynamics.com).   See additional notes at the end of this document.                  |
-| Field Service Mobile                 | 11.2.203          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
+| Field Service                        | 8.5.0.345           | [https://trials.dynamics.com](https://trials.dynamics.com).   See additional notes at the end of this document.                  |
+| Field Service Mobile                 | 11.2.206          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
 | Mobile Configuration Tool (Woodford) | 11.3+          | [Direct download link (English only)](https://aka.ms/fsmobile-configurator)                                                       |
 | Mobile Project Template              | 1.0.1322       | [Direct download link (English only)](https://aka.ms/fsmobile-project)                                                                 |
 

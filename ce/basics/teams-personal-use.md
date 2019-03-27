@@ -4,7 +4,7 @@ ms.custom: ""
 description: "Use the personal dashboard."
 ms.date: 03/20/2019
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"

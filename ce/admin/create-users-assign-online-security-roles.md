@@ -151,7 +151,7 @@ The following are Office 365 user contact fields.
   
 ### Enable a user by assigning a license to the user and adding a user to the security group  
   
-1. Browse to the [Office 365 admin center](https://portal.office.com) and sign in.  
+1. Browse to the [Microsoft 365 admin center](https://admin.microsoft.com) and sign in.  
   
 2. Click **Users** > **Active users** and select the user.  
   

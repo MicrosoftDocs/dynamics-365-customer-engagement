@@ -28,7 +28,7 @@ Business apps are available to users based on their security roles. If your syst
 ## Open business apps from the Dynamics 365 for Customer Engagement appshome page  
  This option is available only to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps customers.  
   
-1. Sign in to the [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] admin center at: https://portal.office.com.  
+1. Sign in to the [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] admin center at: https://admin.microsoft.com.  
   
 2. Click the App Launcher button ![App launcher](../basics/media/app-chooser.png "App launcher") in the upper-left corner, and then click Dynamics 365 for Customer Engagement.  
   

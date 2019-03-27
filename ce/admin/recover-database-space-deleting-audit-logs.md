@@ -1,7 +1,7 @@
 ---
 title: "Recover database space by deleting Dynamics 365 for Customer Engagement apps audit logs | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 03/19/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -50,4 +50,5 @@ When you enable auditing, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm
    >  You can only delete the oldest audit log in the system. To delete more than one audit log, continue to delete the oldest audit log until you have deleted enough logs.  
   
 ### See also  
- [Audit data and user activity](audit-data-user-activity.md)
+[Audit data and user activity](audit-data-user-activity.md)<br />
+[Retrieve and delete the history of audited data changes](../developer/retrieve-and-delete-the-history-of-audited-data-changes.md)

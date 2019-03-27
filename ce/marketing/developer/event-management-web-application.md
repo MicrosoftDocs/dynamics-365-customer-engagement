@@ -52,12 +52,13 @@ To get started with customizing the provided demo event portal you need to follo
 All the configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). Here are some of the settings that you need to know:
 
 - **production** - Used internally by **Angular** to differentiate between production and development environments.
-- **apiEndpoint** - Used by Event Management application. Points to the API endpoint that **Angular** services use.
+- **apiEndpoint** - Used by event management application. Points to the API endpoint that **Angular** services use.
 - **localizationEndpoint** - Points to the localization endpoint that Event Management localization system uses to fetch the localized labels.
-- **useRestStack** - Used by Event Management application to adjust to different types of APIs used when utilizing self-hosted approach against Dynamics 365 hosted approach. Self-hosted approach uses REST API.
-- **useAadB2C** - Used by Event Management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).
-- **useMockData** - Used by Event Management for development purposes. Overrides **Angular** application data services to return mock data.
-- **aadB2CConfig** - Configuration object used by Event Management application when **AAD B2C identity management** is enabled. 
+- **useRestStack** - Used by event management application to adjust to different types of APIs used when utilizing self-hosted approach against Dynamics 365 hosted approach. Self-hosted approach uses REST API.
+- **isAuthenticationEnabled** - Used by event management application to turn on support user authentication. If false login/logout dropdown will not be shown on the navigation bar.
+- **useAadB2C** - Used by event management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).
+- **useMockData** - Used by event management for development purposes. Overrides **Angular** application data services to return mock data.
+- **aadB2CConfig** - Configuration object used by event management application when **AAD B2C identity management** is enabled. 
 
 ## Development
 
