@@ -69,7 +69,7 @@ A typical view page contains these components:
 
     >[!NOTE]
     >- You can define the number of records that you want to view on a page. When you reach the end of the records on the current page, the grid automatically shows the next page of records and starts scrolling again from there. The pagination control will change to show the current page number.
-     - You can navigate across pages by using the left and right arrows.
+    >- You can navigate across pages by using the left and right arrows.
 
 The view page is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the view is transformed into a list. A list can be rendered in a compact manner that is suitable for viewing at a smaller width. For example, in a list, the index is displayed as a button. By default, a list displays an image or initials for each record. In addition, the command bar is minimized to a **More Actions** (**…**) icon.
 
