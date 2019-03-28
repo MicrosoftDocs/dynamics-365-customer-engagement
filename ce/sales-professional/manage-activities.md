@@ -21,7 +21,7 @@ manager: annbe
 
 Keep track of all your customer communications with activities in Dynamics 365 for Sales Professional. For example, you can send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale. These actions are all considered types of activities.
 
-The system automatically timestamps every activity and shows who created it. You and other people on your team can scroll through the activities to see the history as you work with a customer.
+The system automatically time stamps every activity and shows who created it. You and other people on your team can scroll through the activities to see the history as you work with a customer.
 
 To get the most out of your Sales app, it’s important for everyone in the organization to track all their customer interactions by adding an activity for
 every email, phone call, task, or appointment. That way, a customer’s history is complete.
@@ -46,11 +46,11 @@ every email, phone call, task, or appointment. That way, a customer’s history 
 
 ## Filter the list of activities
 
-You can filter the list of activities to see only the ones you’re interested in. For example, filter the list to see closed tasks, or to see emails that you sent.
+You can filter the list of activities to see only the ones you’re interested in. For example, filter the list to see closed tasks, or to see emails that you've sent.
 
-1.  Go to the activity list. For example, to see the emails that you sent, in the site map, select **Activities**, and then in the **View** list, select **My Sent Email**.
+1.  Go to the activity list. For example, to see the emails that you've sent, in the site map, select **Activities**, and then in the **View** list, select **My Sent Email**.
 
-2.  Select the down arrow next to the view name at the top of the page, and select the **My Sent Emails** view.
+2.  Select the arrow next to the view name at the top of the page, and select the **My Sent Emails** view.
 
 ![Drop-down list to select a view](media/drop-down-list-select-a-view.png "Drop-down list to select a view")
 
@@ -59,22 +59,25 @@ You can filter the list of activities to see only the ones you’re interested i
 
 Most often, you’ll want to add an activity associated with a contact, opportunity, account, or other type of record to help you keep track of all the communication history you have with a customer. (You can also add an activity for yourself.)
 
-As your organization’s relationship with a customer develops over time, you and other people on your team can look through the activity feed as you work with the customer, and see the history of your interactions.
+As your organization’s relationship with a customer develops over time, you and other people on your team can look through the activity feed as you work with the customer and see the history of your interactions.
 
 1.  Open the record you want to add the activity to.
 
-2.  In the Timeline section, select **+** and select the type of activity you want to add.
+2.  In the **Timeline** section, select **+**, and select the type of activity you want to add.
 
 
 ## Add an activity for yourself
 
 Add a task or note for yourself when you want a reminder to do something personal, like schedule a doctor’s appointment or attend a sporting event.
 
-Otherwise, to keep a history of your interactions with a customer, you should add new activities that are associated with a customer’s record, so those become part of the history that other people on your team can view.
+Otherwise, to keep a history of your interactions with a customer, you should add new activities that are associated with a customer’s record so that they become part of the history that other people on your team can view.
 
-1.  In the site map, select **Activities**. For example, select **Tasks**.
+<!--note from editor: Are "Tasks" and "Task" referred to in #1 and #2 two different things?
+In #2--is it a "navigation bar" or a "command bar"?   -->
 
-2.  On the nav bar, select **<Activity Type>**. For example, **Tasks**.
+1.  In the site map, select **Activities**. 
+
+2.  On the command bar, select an activity type—for example, **Task**.
 
     ![Command bar button for creating a new activity type Task](media/create-task.png "Command bar button for creating a new activity type Task")
     
@@ -86,6 +89,8 @@ Otherwise, to keep a history of your interactions with a customer, you should ad
 After you call someone, complete a task, send an email, or go to an appointment,
 you can mark the activity for that action as completed.
 
+<!--note from editor: In screen shot, put red box around "Mark Complete"?   -->
+
 1.  Open the activity.
 
 2.  On the command bar, select **Mark Complete**.
@@ -93,7 +98,7 @@ you can mark the activity for that action as completed.
 ![Command bar button to mark an activity complete](media/command-bar-button-mark-activity-complete.png "Command bar button to mark an activity complete")
 
 
-### See Also
+### See also
 
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)<br/>
 [Manage your customers](#manage-your-customers)
