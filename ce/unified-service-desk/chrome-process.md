@@ -437,9 +437,9 @@ If you leave the value blank or set the value as **False**, then Chrome Process 
 
 ## Accessibility support with Chrome Process
 
-When you use Chrome Process to host web application in Unified Service Desk, to enable accessibility support for the webpages, the **ChromeAccessibilityRenderer** is introduced. Add the UII option and set the value as **True** to enable and ensure that screen reader applications read the webpage.
+When you use Chrome Process to host web application in Unified Service Desk, to enable accessibility support for the webpages, the **ChromeAccessibilityRenderer** is introduced. By default, the accessibility support for chrome process is disabled. Add the UII option and set the value as **True** to enable and ensure that screen reader applications read the webpage.
 
-By default, the accessibility is disabled. After adding the UII option, if you set to false or leave the value empty, the UII option is disabled.
+After adding the UII option, if you set to false or leave the value empty, the UII option is disabled.
 
 ### Add the AllowWebpageNavigationCertificateError UII option
 
