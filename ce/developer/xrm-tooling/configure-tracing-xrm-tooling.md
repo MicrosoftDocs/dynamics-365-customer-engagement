@@ -2,7 +2,7 @@
 title: "Configure tracing for XRM tooling (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how you can configure tracing for components such as operation calls, warnings, exceptions, and other significant events in XRM Tooling"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 03/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,9 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d7586a5a-40da-427e-bbeb-4f8a371a8dcf
 caps.latest.revision: 8
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
