@@ -79,6 +79,12 @@
 ## [Why is the price defaulting to zero on time sales actuals?](FAQ-zero-price-time-sales-actuals.md)
 ## [Why can’t I delete records from the Actuals entity?](FAQ-deleting-actuals.md)
 
+## [Development (app version 3.x)](../project-service/developer-guides/overview-dev-notes-v3.x.md)
+### [Entity changes](../project-service/developer-guides/entity-changes-v3.x.md)  
+### [Time and expense](../project-service/developer-guides/time-expense-changes-v3.x.md)  
+### [Resource management](../project-service/developer-guides/resource-management-changes-v3.x.md)  
+### [Deprecated Web resources in Project Service Automation v3.x](../project-service/developer-guides/web-resources-deprecated-v3.x.md)
+
 # Guidance for earlier versions (app version 2.x and 1.x)
 ## FAQ and troubleshooting 
 ### [How do I assign a resource to a task (app version 2.x)?](FAQ-assign-resources-to-tasks-in-web-app.md)
@@ -150,3 +156,5 @@
 ### [Collaborate using Office 365 Groups](collaborate-project-team-members-office-365-groups.md)
 ### [Find projects with Project Finder mobile](find-next-project-finder-mobile-app.md)
 ### [Project Resource Hub guide](project-resource-hub-users-guide.md)
+## Notes for developers (app version 2.x)
+### [How to add new custom forms for Opportunity, Quote, Order or Invoice entity](../project-service/developer-guides/add-custom-qoi-forms-v2.x.md)

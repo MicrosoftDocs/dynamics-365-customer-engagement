@@ -47,10 +47,16 @@ Although, the frontend definition is hosted on Dynamics 365 Portal, you can stil
 
 1. Make sure that the `useRestStack` variable is set to false.
 
-### Building
+### Local Development
 
-1. Run `npm install` to make sure that your dependencies are installed and up-to-date.
-1. Run `BuildForPortalHosting.ps1` which is located in `/Scripts` to build the application. After the website is successfully built, your output files will show up in `/dist/ClientApp` directory.
+In order to serve the application locally you need to follow the steps below:
+
+1.	Run `npm install` to make sure all the dependencies are installed and are up-to-date.
+2.	Run `ng serve` to start the local development server to see the changes immediately.
+
+> [!NOTE]
+> You can find more information on serving an Angular application locally here [Serving an Angular application locally]( https://angular.io/guide/quickstart#step-3-serve-the-application)
+
 
 ### Deployment
 
