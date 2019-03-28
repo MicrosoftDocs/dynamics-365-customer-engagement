@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/xrm-tooling/sample-quick-start-xrm-tooling-api
 title: "Sample: Quick start for XRM Tooling API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: ""
 ms.custom: 
