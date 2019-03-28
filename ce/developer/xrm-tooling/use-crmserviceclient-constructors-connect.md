@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect
 title: "Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement apps (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "You can create an instance of the CrmServiceClient class, and then use one of the constructors to connect to Dynamics 365 Customer Engagement"
 ms.custom: 
