@@ -24,7 +24,7 @@ search.app:
 # Use Postman with the Web API
 
 > [!NOTE]
-> [!INCLUDE[](../../includes/cc-cdsnote-2-section.md)]
+> [!INCLUDE[](../includes/cc-cdsnote-2-section.md)]
 
 There are a number of third-party tools that allow you to authenticate to [!INCLUDE[](../../includes/pn-dyn-365.md)] for Customer Engagement app instances and to compose and send Web API requests and view responses. Postman is one of the most popular.
 
