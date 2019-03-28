@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-execute-actions
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-execute-actions
 title: "Use XRM tooling to execute actions in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Object of CrmServiceClient class can be used to perform create, retrieve, update and delete operations on Dynamics 365 for Customer Engagement data"
 ms.custom: 

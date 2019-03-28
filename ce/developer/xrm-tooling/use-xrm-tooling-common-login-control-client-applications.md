@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-common-login-control-client-applications
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-common-login-control-client-applications
 title: "Use the XRM tooling common login control in your client applications (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The Dynamics 365 for Customer Engagement apps SDK provides you with a template for Visual Studio that enables you to use the common login control in your client applications. The code for Dynamics 365 for Customer Engagement authentication, credential storage and retrieval, and diagnostic logging is built into the template so that you can quickly leverage these capabilities in your Windows client applications for Dynamics 365 for Customer Engagement"
 ms.custom: 

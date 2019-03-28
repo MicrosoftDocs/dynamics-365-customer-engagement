@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-retrieve-data
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-retrieve-data
 title: "Use XRM tooling to retrieve data (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Use CrmServiceClient class to retrieve data from Dynamics 365 for Customer Engagement"
 ms.custom: 
