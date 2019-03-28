@@ -35,8 +35,8 @@ You can access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data 
   
 |                              Platform                              |   Versions    | RAM (minimum) | RAM (recommended for optimal performance) |
 |--------------------------------------------------------------------|---------------|---------------|-------------------------------------------|
-|       [iOS](http://go.microsoft.com/fwlink/p/?LinkID=519213)       | 10 and above  |     1 GB      |                   2 GB                    |
-|     [Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)     | 4.4 and above |     2 GB      |                   3 GB                    |
+|       [iOS](http://go.microsoft.com/fwlink/p/?LinkID=519213)       | 10 and later  |     1 GB      |                   2 GB                    |
+|     [Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)     | 4.4 and later |     2 GB      |                   3 GB                    |
 | [Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |      10       |     2 GB      |                   4 GB                    |
  
 > [!NOTE]
