@@ -2,7 +2,7 @@
 title: "Set up a Postman environment (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to set up and configure a Postman environment that connects with Dynamics 365 for Customer Engagement online and on-premises environments."
 ms.custom: 
-ms.date: 02/09/2019
+ms.date: 03/28/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,6 +22,9 @@ search.app:
 ---
 
 # Set up a Postman environment
+
+> [!NOTE]
+> [!INCLUDE[](../includes/cc-cdsnote-2-topic.md)]
 
 You can use Postman to connect to your [!INCLUDE[](../../includes/pn-dyn-365.md)] for Customer Engagement apps instance and to compose Web API requests, send them, and view responses. Managing authentication challenges many people. This topic describes how to configure a Postman environment to work for both online and on-premises environments.
 
