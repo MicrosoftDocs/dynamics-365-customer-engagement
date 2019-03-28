@@ -240,8 +240,8 @@ You must wait for an import job to complete before you can repair failures.
 
     - **Completed**
 
-3.  After the import is complete, the **Success**, **Errors**, and **Partial Failures** column will show the number of records that were successfully
-    imported, failed to import or were partially imported.
+3.  After the import is complete, the **Success**, **Errors**, and **Partial Failures** column shows the number of records that were successfully
+    imported, failed to import, or were partially imported.
 
 2.  Open the import file to view the records that did not import or were partially imported. Open the import file record.
 
@@ -249,7 +249,7 @@ You must wait for an import job to complete before you can repair failures.
 
     ![General tab of the import source file](media/general-tab-import-source-file.png "General tab of the import source file")
 
-3.  On the **Failures** tab, export rows that failed to import to a new comma-separated value (CSV) file. Select **Export Error Rows**. You can correct the errors in this file, and then import it.
+3.  On the **Failures** tab, export rows that failed to import to a new CSV file. Select **Export Error Rows**. You can correct the errors in this file, and then import it.
 
 ## Delete imported records
 
@@ -263,7 +263,7 @@ You must wait for an import job to complete before you can repair failures.
 
     -   **Delete imported records**. This deletes all records that were imported from the selected file.
 
-    -   **Delete All**. This deletes the import file along with the records thatwere imported from the import file.
+    -   **Delete All**. This deletes the import file along with the records that were imported from the import file.
 
 ## Import data from Exchange in Dynamics 365 for Sales Professional
 
@@ -278,16 +278,16 @@ To be able to import from Exchange:
 
 -    Your mailbox must be tested and enabled. Talk to your administrator if you receive an error.
 
-1.   If you’re a user with a Sales Professional or Sales Professional Manager role, go to the list of contacts, then on the command bar, select **Import
+1.   If you’re a user with a Sales Professional or Sales Professional Manager role, go to the list of contacts. On the command bar, select **Import
     from Excel** \> **Import from Exchange**.
 
     ![Import from Exchange option](media/import-from-exchange-option.png "Import from Exchange option")
 
     -OR-
 
-2.  If you’re a user with a System Administrator role, in the site map, select **Sales Settings**, and under **Standard settings**, select **Import data**. 
+2.  If you’re a user with a System Administrator role, in the site map, select **Sales Settings**. Under **Standard settings**, select **Import data**. 
 
-3. In the **Data type** drop- down list, select the type of records you want to import, and in the **File type** drop-down list, select **Exchange**, and select **Start Import**.
+3. In the **Data type** drop-down list, select the type of records you want to import. In the **File type** drop-down list, select **Exchange**, and then select **Start Import**.
 
     The **Track data from Exchange** dialog box opens.
 
@@ -295,14 +295,13 @@ To be able to import from Exchange:
 
 4. Select **Track**.
 
-    All the contacts from your Exchange will start importing to Dynamics 365 for Sales Professional. Any changes that you make to the contact in your Exchange mailbox will be automatically updated in the contact record in Dynamics 365 for Sales Professional.
+    All the contacts from Exchange will start importing to Dynamics 365 for Sales Professional. Any changes that you make to contacts in your Exchange mailbox are automatically updated in the contact records in Dynamics 365 for Sales Professional.
 
->   [!Important]
+>   [!IMPORTANT]
+>   You won’t be able to remove or untrack a contact from Dynamics 365 for Sales Professional. Use the Dynamics 365 App for Outlook to do this.
 
->   You won’t be able to remove or untrack a contact from Dynamics 365 for Sales Professional. Use the Dynamics 365 App for Outlook for the same.
 
-
-### See Also
+### See also
 
 [Export data or template](export-data.md)  
 [Quick Setup & Advanced Settings ](standard-advanced-settings-overview.md)
