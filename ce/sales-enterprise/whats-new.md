@@ -42,3 +42,9 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Visit 
 -  **View hierarchical data**: With Dynamics 365 for Customer Engagement apps version 9.0.2.2082, you can see how info is related or grouped by viewing accounts, products, or users in hierarchical charts in the Sales hub app. You can click a tile in the chart to get the full details and then navigate to the info you’re interested in. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
 
 -  **Sales app is built on the Unified Interface framework for consistent user experience**: The new Sales Hub app delivers a consistent, uniform, user interface, and follows responsive design principles for optimal viewing on any screen size or device. Entities used in the sales process, including products, goals, and sales literature, run on this responsive platform and conform to common data model standards. 
+
+
+## Embedded intelligence
+
+- **Preview: Assistant**: The new redesigned assistant administration helps the administrator or sales manager, you can create custom insight cards, prioritize cards, optimize card ranking, and assign cards to user roles for your Dynamics 365 for Sales organization. 
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md).
