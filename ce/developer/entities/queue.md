@@ -366,7 +366,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether the queue is public or private. A public queue can be viewed by all. A private queue can be viewed only by the members added to the queue.|
+|Description|Select whether the queue is public or private. A public queue can be viewed by all. A private queue will only be shown in the Customer Service application to the members of the queue.|
 |DisplayName|Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
