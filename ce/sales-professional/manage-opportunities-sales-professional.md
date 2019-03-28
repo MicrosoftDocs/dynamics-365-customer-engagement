@@ -2,7 +2,7 @@
 title: "Create or edit an opportunity in Dynamics 365 for Sales Professional | MicrosoftDocs"
 description: "Track a deal that has more probability of turning into a business as an opportunity in Dynamics 365 for Sales Professional."
 keywords: ""
-ms.date: 03/26/2019
+ms.date: 04/05/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -27,7 +27,9 @@ If you’re following the sales process from start to finish, you qualify a lead
 You can create a new opportunity or convert one from a qualified lead without re-entering the data. When you convert a qualified lead to an opportunity, you can access the lead record, which includes activities, from the corresponding opportunity form. The preferred way is to create an opportunity from a lead.
 
 More information: [Develop sales from lead to cash
-(Sales)](develop-sales-lead-to-cash-sales-professional.md)
+(Sales)](develop-sales-lead-to-cash-sales-professional.md).
+
+<!--note from editor: In list below, the "Topic" item--Change "Interest of the opportunity" to "Interest in the opportunity...."? Also, fill in info for "Budget Amount".   -->
 
 1. In the site map, select **Opportunity**.
 
@@ -37,7 +39,7 @@ More information: [Develop sales from lead to cash
 
     To create a new lead, on the command bar, select **New**.
 
- 3. In the opportunity form, make sure that your potential customer’s important details are captured. Most of the fields will be automatically populated from the lead record.
+ 3. In the opportunity form, make sure that your potential customer’s important details are captured. Most of the fields will be automatically populated from the lead record:
 
     -   **Topic**. Interest of the opportunity, such as specific product details.
 
@@ -45,13 +47,13 @@ More information: [Develop sales from lead to cash
 
     -   **Account**. The account associated with this opportunity.
 
-    -   **Purchase timeframe**. The timeframe by when the account or contact is likely to purchase.
+    -   **Purchase timeframe**. The timeframe of when the account or contact is likely to purchase.
 
     -   **Budget Amount**.
 
     -   **Probability**. Indicates the likelihood of a sale occurring.
 
-    -   **Purchase Process**. Indicates whether the purchase process involves and individual or a committee.
+    -   **Purchase Process**. Indicates whether the purchase process involves an individual or a committee.
 
     -   **Est. Close Date**. An estimated date by which the opportunity is expected to close.
 
@@ -59,11 +61,11 @@ More information: [Develop sales from lead to cash
 
         ![Opportunity form](media/opportunity-form.png "Opportunity form")
 
-4.  In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
+4.  In the **Stakeholders** section, select **More Commands** ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
 
     In the **Lookup Records** dialog box, enter a name or select the Lookup icon
     to choose from a list of suggestions. When you've entered the name you want,
-    select **Add**. To create a new contact, select **+ New**. By default, the
+    select **Add**. To create a new contact, select **New**. By default, the
     contact you add is assigned the **Stakeholder** role. Click the role
     corresponding to the contact to select a different role such as Decision
     Maker or Technical Buyer.
@@ -151,7 +153,7 @@ Whether you win a sale or close an opportunity, you probably want to close it. Y
 
 3.  Enter the details in the dialog box, and select **OK**.
 
-### See Also
+### See also
 
 [Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)  
