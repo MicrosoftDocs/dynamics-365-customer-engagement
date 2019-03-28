@@ -1,7 +1,7 @@
 - name: Use the Dynamics 365 Organization service
   href: ../use-microsoft-dynamics-365-organization-service.md
   items:
-  - name: Getting started with managed code application development
+  - name: Getting started with on-premise managed code application development
     href: get-started-managed-code-application-development.md
     items:
     - name: Start a managed code project in Visual Studio

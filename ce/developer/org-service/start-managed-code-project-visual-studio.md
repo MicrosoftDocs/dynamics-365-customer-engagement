@@ -60,4 +60,4 @@ This topic shows you how to create a new project in [!INCLUDE[pn_Visual_Studio](
  The minimum set of assemblies you need are in the [Microsoft.CrmSdk.CoreAssemblies](http://www.nuget.org/packages/Microsoft.CrmSdk.CoreAssemblies/) NuGet package. Installing this package will add the required references to your project. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Subscribe to SDK assembly updates using NuGet](subscribe-sdk-assembly-updates-using-nuget.md)
   
 ### See also  
- [Getting started with managed code application development](get-started-managed-code-application-development.md)
+ [Getting started with on-premise managed code application development](get-started-managed-code-application-development.md)
