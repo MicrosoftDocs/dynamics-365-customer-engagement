@@ -213,6 +213,19 @@ The same entitlement effects apply to work order services as well.
 
 ## Entitlement conflicts 
 
+It possible for multiple entitlements to apply to a single work order product or service. This is because entitlements can be applied based on different work order and work order product and service attributes that can all be present. As an example, in the first scenario an entitlement applied based on the work order billing account, and in the second scenario an entitlement applied based on the customer asset category. 
+
+In such cases, all applicable entitlements will show as options in the entitlement lookup field.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-conflict-2-options.png)
+
+However one entitlement will be selected by default, first by the **Entitlement Prioritization** value and second by the specificity.
+
+The system will look at the entitlement prioritization values of all applicable entitlements and select the one with the greatest priority (1 being the highest priority). Any priority value is greater than a blank priority value.
+
+If no priority value exists
+
 - handling conflicts?
   - prioritization 1 is highest
   - a product/service can be eligible for multiple entitlements 
@@ -223,8 +236,7 @@ The same entitlement effects apply to work order services as well.
 see products and services, entitlement applied 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/entitlement-conflict-2-options.png)
+
 
 
 ## Configuration considerations
