@@ -1,4 +1,5 @@
 ---
+redirect_url:  https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/xrm-tooling/sample-simplified-connection-quick-start
 title: "Sample: Simplified connection quick start (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "This sample shows you how to connect to the Dynamics 365 for Customer Engagement (online) Customer Engagement web services using the CrmServiceClient and perform basic create, update, retrieve, and delete operations on an entity. "
 ms.custom: 

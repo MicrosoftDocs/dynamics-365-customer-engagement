@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-update-data
 title: "Use XRM tooling to update data (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Use CrmServiceClient class to update data on Dynamics 365 for Customer Engagement"
 ms.custom: 
