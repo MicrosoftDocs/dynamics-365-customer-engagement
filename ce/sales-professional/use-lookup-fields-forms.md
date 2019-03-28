@@ -28,7 +28,9 @@ Lookup helps you to choose records from a related entity (recordset) quickly in 
 
 Also, you can create a new record by selecting the **New** button. You must have sufficient permissions to view the **New** button and create a
 record. When you select the lookup field, the five most recently used records are displayed along with five favorite records. Which records are displayed
-depends on your view history and the favorites you’ve pinned. For example, if you have only three records in your history, lookup will display those three,
+depends on your view history and the favorites you’ve pinned. 
+
+For example, if you have only three records in your history, lookup will display those three,
 along with seven of your favorite records. If you have not pinned any favorites, only the most recently viewed records will be displayed.
 
 >[!NOTE] 
@@ -38,7 +40,7 @@ along with seven of your favorite records. If you have not pinned any favorites,
 
 Lookups are classified into two types: 
 
-<!--note from editor: Should the "fields" items be part of a different list?   -->
+<!--note from editor: Should the "fields" items below be part of a different list?   -->
 
 - **Simple lookup:** Select a single record in a field from a single entity. 
 
@@ -51,7 +53,7 @@ each record by performing a new search, multiple times. Every time you select a 
 
 ### Create a new record if you don’t find an existing record
 
-If you did not find a record, select **New** in the lookup area to create a new record.
+If you do not find a record, select **New** in the lookup area to create a new record.
 
 ### Replace an existing record from a lookup field
 
@@ -67,7 +69,7 @@ Selecting **Change View** lets you determine:
     ![Change view contacts types](media/change-view.png "Change view contacts types")
 
 >[!IMPORTANT] 
->The **Change View** option will not be visible if your administrator hasn't configured the **Change View** option to appear in your views.
+>The **Change View** option will not be visible if your administrator hasn't configured the option to appear in your views.
 
 ### Choose from multiple records
 
