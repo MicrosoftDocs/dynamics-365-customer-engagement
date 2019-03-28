@@ -63,11 +63,14 @@ search.app:
 ## Public and private queues  
  The `QueueViewType` attribute is a picklist that defines whether a queue is public or private.  
   
--   All user queues are private queues for the user: Only the user will be able to see queue items in their private queue.  
+-   All user queues are private queues for the user: Only the user will be able to see the queue.  
   
 -   Team queues are marked as private with members: the team owner and all team members will be able to see the queue in the application.  
   
 -   All other queues are public. Everyone with read privileges for the queue entity will be able to see these queues.  
+
+> [!IMPORTANT]
+> Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to records in a private queue to a specific set of users, you can adjust permissions for the queue. See [Dynamics 365 security model](../developer/security-dev/security-model.md) for information on how to adjust permissions.
   
 <a name="BKMK_QueueAttributes"></a>   
 ## Attributes used to manage queues  
