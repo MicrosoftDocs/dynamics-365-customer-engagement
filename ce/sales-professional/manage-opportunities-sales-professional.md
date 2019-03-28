@@ -24,12 +24,13 @@ You must link a new opportunity to an existing account or contact.
 
 If you’re following the sales process from start to finish, you qualify a lead to turn it into an opportunity.
 
-You can create a new opportunity or convert one from a qualified lead without re-entering the data. When you convert a qualified lead to an opportunity, you can access the lead record, which includes activities, from the corresponding opportunity form. The preferred way is to create an opportunity from a lead.
-
-More information: [Develop sales from lead to cash
+You can create a new opportunity or convert one from a qualified lead without re-entering the data. When you convert a qualified lead to an opportunity, you can access the lead record, which includes activities, from the corresponding opportunity form. The preferred way is to create an opportunity from a lead. More information: [Develop sales from lead to cash
 (Sales)](develop-sales-lead-to-cash-sales-professional.md).
 
-<!--note from editor: In list below, the "Topic" item--Change "Interest of the opportunity" to "Interest in the opportunity...."? Also, fill in info for "Budget Amount".   -->
+<!--note from editor: In list below, the "Topic" item--Change "Interest of the opportunity" to "Interest in the opportunity...."? Also, fill in info for "Budget Amount". 
+In Step #4--is there a term you can used besides "click" that isn't mouse-specific?-->
+
+To create or edit an opportunity:
 
 1. In the site map, select **Opportunity**.
 
@@ -66,11 +67,11 @@ More information: [Develop sales from lead to cash
     In the **Lookup Records** dialog box, enter a name or select the Lookup icon
     to choose from a list of suggestions. When you've entered the name you want,
     select **Add**. To create a new contact, select **New**. By default, the
-    contact you add is assigned the **Stakeholder** role. Click the role
+    contact you add is assigned the Stakeholder role. Click the role
     corresponding to the contact to select a different role such as Decision
     Maker or Technical Buyer.
 
-5.  In the last pane, select the **Sales team** ![Sales team icon](media/sales-team-icon.png "Sales team icon") icon to open the **Sales team** tab. Select the **More Commands** button ![More Commands button](media/more-commands-button.png "More Commands"), and then select **+ New Connection** to add a member of the sales team (from your organization).
+5.  In the last pane, select the **Sales team** ![Sales team icon](media/sales-team-icon.png "Sales team icon") icon to open the **Sales team** tab. Select the **More Commands** button ![More Commands button](media/more-commands-button.png "More Commands"), and then select **New Connection** to add a member of the sales team (from your organization).
 
 6.  To save your changes, on the command bar, select **Save**.
 
@@ -84,14 +85,13 @@ More information: [Develop sales from lead to cash
 
     -   **Identify Sales Team**. Select the check box to indicate that you’ve included information about who in your organization will be involved in pursuing the opportunity.
 
-    -   **Develop Proposal**. Select the check box to indicate you’ve included notes on how the account will be approached (optional).
+    -   **Develop Proposal**. Select the check box to indicate that you’ve included notes on how the account will be approached (optional).
 
         ![Develop Opportunity stage in the process bar](media/develop-opportunity-stage-bpf.png "Develop Opportunity stage in the process bar")
 
 9.  In the **Develop Opportunity** stage, select **Next**.
 
-    The next step is to create and send a quote to your customer. More
-    information. Create and send a quote to your customer.
+    The next step is to create and send a quote to your customer. 
 
 ## Add products to your opportunity
 
@@ -103,24 +103,24 @@ More information: [Develop sales from lead to cash
 
 4.  In the **Quick Create** form, do the following, and select **Save**:
 
-    -  **Select Product**. Toggle the field to indicate whether you want to add an existing product or create a new one.
+    -  **Select product**. This field is a toggle that indicates whether you want to add an existing product or create a new one.
 
         To use an existing product, select the **Lookup** button![Icon for lookup](media/lookup-icon.png) to search for and add a product.
 
         To create a write-in product, select **Write-In**, and then type the name of the product.
 
-    -  **Pricing.** Select the pricing option. By default, this uses the price that is listed in the product catalog. To override the price, select **Override Price**. When you override the price, you can specify a price that you want to charge for each unit of the product.
+    -  **Select pricing.** Select the pricing option. By default, this uses the price that is listed in the product catalog. To override the price, select **Override Price**. When you override the price, you can specify a price that you want to charge for each unit of the product.
 
-    -  **Quantity.** Enter the quantity of the product or service that will be included.
+    -  **Enter quantity.** Enter the quantity of the product or service that will be included.
 
-    -  **Manual Discount.** If you want, you can enter a discount to the
+    -  **Enter manual discount.** If you want, you can enter a discount to the
         product.
 
-    -  **Tax. If required,** enter the appropriate tax amount.
+    -  **Enter tax.** If required, enter the appropriate tax amount.
 
     The right side of the page shows the total amount and discount based on the number of products added to the opportunity.
 
-5.  If you want the pricing to be automatically calculated based on the products and quantities added, toggle the **Revenue** field to **System Calculated**. If not, toggle it to **User Provided**.
+5.  If you want the pricing to be automatically calculated based on the products and quantities added, switch the **Revenue** field to **System Calculated**. If not, switch it to **User Provided**.
 
 ## Recalculate an opportunity
 
