@@ -25,7 +25,7 @@ In Dynamics 365 for Sales Professional, use views to define how a list of record
 
 -   The width of columns displayed
 
--   How the list of records are sorted by default 
+-   How the list of records is sorted by default 
 
 -   What default filters are applied to restrict which records will appear in the list 
 
@@ -35,12 +35,12 @@ are used in the application. 
 
 ## Types of views 
 
-There are two types of views in Dynamics 365 for Sales Professional: System views and Personal views. System views are views that are included with the app,
-or created by customizers and made available to some or all users. As a system administrator or system customizer, you can edit System views. System views are
+There are two types of views in Dynamics 365 for Sales Professional: System views and personal views. System views are views that are included with the app,
+or created by customizers and made available to some or all users. As a system administrator or system customizer, you can edit system views. System views are
 special views the application depends on, which exist for system entities or are automatically created when you create custom entities. These views have specific
 purposes and some additional capabilities.
 
-Personal views are created by individual users and they are visible only to that person or anyone else they choose to share their personal views with. As a user,
+Personal views are created by individual users. They are visible only to that user or to other users they choose to share their personal views with. As a user,
 you can create a new personal view based on a system or public view. You can't create a system or public view based on a personal view. 
 
 This topic covers how to create system views as a customizer. 
