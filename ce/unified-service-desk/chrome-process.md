@@ -435,6 +435,26 @@ If you leave the value blank or set the value as **False**, then Chrome Process 
 
 6. Select **Save**.
 
+## Accessibility support with Chrome Process
+
+When you use Chrome Process to host web application in Unified Service Desk, to enable accessibility support for the webpages, the **ChromeAccessibilityRenderer** is introduced. Add the UII option and set the value as **True** to enable and ensure that screen reader applications read the webpage.
+
+By default, the accessibility is disabled. After adding the UII option, if you set to false or leave the value empty, the UII option is disabled.
+
+### Add the AllowWebpageNavigationCertificateError UII option
+
+1. Sign in to Dynamics 365 for Customer Engagement apps.
+
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
+
+3. On the Active UII Options page, select **+ New**. 
+
+4. Choose **Others** for the **Global Option** field.
+
+5. Type **ChromeAccessibilityRenderer** for the **Name** field, and type the value as **True**. 
+
+6. Select **Save**.
+
 
 ## Limitations
 
