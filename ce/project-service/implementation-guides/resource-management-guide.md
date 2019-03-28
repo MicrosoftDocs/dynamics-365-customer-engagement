@@ -28,7 +28,6 @@ The PDF link that was previously in this topic has been removed and the content 
 
 - [Resource management home page](../resource-management-home-page.md)
 - [Key concepts](../reports-key-concepts.md)
-- [Resource manager dashboard](../resource-management-resource-manager-dashboard.md)
 - [Fulfilling resource requests](../resource-management-fulfill-requests.md)
 - [Proposing resources](../resource-management-propose-resources.md)
 - [Booking resources](../resource-management-book-resources-scheduleboard.md)
