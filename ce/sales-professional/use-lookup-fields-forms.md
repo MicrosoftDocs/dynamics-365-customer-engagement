@@ -1,5 +1,5 @@
 ---
-title: "Use lookup field on forms in Dynamics 365 for Sales Professional | MicrosoftDocs"
+title: "Use the lookup field on forms in Dynamics 365 for Sales Professional | MicrosoftDocs"
 description: "Choose records from a related entity (recordset) quickly by using lookups in Dynamics 365 for Sales Professional."
 keywords: ""
 ms.date: 04/05/2019
@@ -17,7 +17,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Use lookup field on forms
+# Use the lookup field on forms
 
 Lookup helps you to choose records from a related entity (recordset) quickly in Dynamics 365. When you select a related entity and enter search criteria, such as a name or email address, lookup automatically begins to resolve the partial text and displays any matching records. If no records are displayed after you have typed the full text of your search criteria, a message is displayed specifying that there are no records. For example, you might search for the name **Adrian Dumitrascu**. When you type **ad**, possible matching records are automatically populated and displayed.
 
