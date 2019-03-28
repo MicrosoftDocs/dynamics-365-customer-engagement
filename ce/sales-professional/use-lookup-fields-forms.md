@@ -31,12 +31,14 @@ record. When you select the lookup field, the five most recently used records ar
 depends on your view history and the favorites you’ve pinned. For example, if you have only three records in your history, lookup will display those three,
 along with seven of your favorite records. If you have not pinned any favorites, only the most recently viewed records will be displayed.
 
->   [!NOTE] 
->   The number of favorites or recently visited records depends on the device and application type that you are using. 
+>[!NOTE] 
+>The number of favorites or recently visited records depends on the device and application type that you are using. 
 
 ## Types of lookups
 
 Lookups are classified into two types: 
+
+<!--note from editor: Should the "fields" items be part of a different list?   -->
 
 - **Simple lookup:** Select a single record in a field from a single entity. 
 
@@ -65,7 +67,7 @@ Selecting **Change View** lets you determine:
     ![Change view contacts types](media/change-view.png "Change view contacts types")
 
 >[!IMPORTANT] 
->Contact your administrator to configure the **Change View** option for lookup. The **Change View** option will not be visible if the administrator hasn't configured the **Change View** option to appear in your views.
+>The **Change View** option will not be visible if your administrator hasn't configured the **Change View** option to appear in your views.
 
 ### Choose from multiple records
 
