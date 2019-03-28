@@ -98,7 +98,7 @@ To learn more about how to set up channels and associate work streams, see the f
 
 ## Set up an entity work stream
 
-Entity work streams help route entities from **Common Data Service for Apps** to the Omni-channel Engagement Hub. For example, you can enable high-priority cases to be routed to Omni-channel so that they can be automatically distributed and assigned to agents.
+Entity work streams help route entities from **Common Data Service** to the Omni-channel Engagement Hub. For example, you can enable high-priority cases to be routed to Omni-channel so that they can be automatically distributed and assigned to agents.
 
 > [!NOTE]
 > You can route any activity enabled entity.

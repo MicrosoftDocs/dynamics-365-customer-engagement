@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for Customer Engagement (on-premises) reporting requirements | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/21/2010"
+ms.date: 03/27/2019
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,14 +34,14 @@ manager: kvivek
 ### SQL Server Reporting Services  
  [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] is required for reporting features in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
- You can use the following [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] editions for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] reporting:  
+ For [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] reporting, you can use the following [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] editions running on a [supported version of Windows Server](software-requirements-for-microsoft-dynamics-365-server.md#windows-server-operating-system):  
   
 <!-- -   Microsoft SQL Server 2017 Enterprise   
 -   Microsoft SQL Server 2017 Standard   
 -   Microsoft SQL Server 2017 Developer (for non-production use only)  -->
--   Microsoft SQL Server 2016 Enterprise, with Cumulative Update 2  
--   Microsoft SQL Server 2016 Standard, Cumulative Update 2   
--   Microsoft SQL Server 2016 Developer, with Cumulative Update 2 (for non-production use only) 
+-   Microsoft SQL Server 2016 Enterprise, with Service Pack 2  
+-   Microsoft SQL Server 2016 Standard, with Service Pack 2   
+-   Microsoft SQL Server 2016 Developer, with Service Pack 2 (for non-production use only) 
   
   
 > [!IMPORTANT]

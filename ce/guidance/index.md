@@ -14,5 +14,5 @@ manager: austinj
 # Overview of guidance content
 
 The guidance or the best practices content is now available in PowerApps documentation:
-- [Best practices and guidance for the Common Data Service for Apps](/powerapps/developer/common-data-service/best-practices/)
+- [Best practices and guidance for the Common Data Service](/powerapps/developer/common-data-service/best-practices/)
 - [Best practices and guidance for model-driven apps](/powerapps/developer/model-driven-apps/best-practices/)
