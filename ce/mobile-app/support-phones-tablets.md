@@ -1,7 +1,7 @@
 ---
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/03/2017
+ms.date: 3/28/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -36,7 +36,7 @@ You can access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data 
 |                              Platform                              |   Versions    | RAM (minimum) | RAM (recommended for optimal performance) |
 |--------------------------------------------------------------------|---------------|---------------|-------------------------------------------|
 |       [iOS](http://go.microsoft.com/fwlink/p/?LinkID=519213)       | 10 and above  |     1 GB      |                   2 GB                    |
-|     [Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)     | 6.0 and above |     2 GB      |                   3 GB                    |
+|     [Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)     | 4.4 and above |     2 GB      |                   3 GB                    |
 | [Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |      10       |     2 GB      |                   4 GB                    |
  
 > [!NOTE]
@@ -78,7 +78,7 @@ You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../includes/pn-crm-for-ipad-
 ### Android  
 You can run the [!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.md)] app on devices that meet the following requirements:
 
-- Android versions 6.0
+- Android versions 4.4
 
 - Tablets with screens larger than 7 inches (optimized for 9 to 10 inches) using [!INCLUDE[pn_moca_CRM_Android_full](../includes/pn-moca-crm-android-full.md)].  
  
