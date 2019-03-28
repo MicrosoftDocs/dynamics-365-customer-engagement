@@ -66,7 +66,7 @@ To enable Internet Explorer pooling:
 
 3. Choose **Options**.  
 
-4. click **New** on the **Active UII Options** page.
+4. Select **New** on the **Active UII Options** page.
 
 5. Choose **Others** for the **Global Option** field.
 
@@ -74,7 +74,7 @@ To enable Internet Explorer pooling:
 
 7. Set **True** for the **Value** field.
 
-8. Click **Save**.
+8. Select **Save**.
 
    ![Enable InternetExplorerPooling option](../../unified-service-desk/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
 
@@ -88,7 +88,7 @@ By default, the Chrome Process instance pooling is enabled.
 
 With the Chrome Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
-## Enable pooling for Chrome Process
+### Enable pooling for Chrome Process
 
 By default, Chrome Process pooling is enabled. To disable the pooling, a System Administrator must configure the option on the **Active UII Options** page and set it to **False**.
 
@@ -100,15 +100,61 @@ To enable Internet Explorer pooling:
 
 3. Choose **Options**.  
 
-4. click **New** on the **Active UII Options** page.
+4. Select **New** on the **Active UII Options** page.
 
 5. Choose **Others** for the **Global Option** field.
 
-6. Type **ChromiumBrowserPooling** for the **False** field.
+6. Type **ChromiumBrowserPooling** for the **Name** field.
 
 7. Set **True** for the **Value** field.
 
-8. Click **Save**.
+8. Select **Save**.
+
+## Skip inline entity navigation in Chrome Process pooling
+
+If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockChromeProcessPooling** UII option and enter the entity names as the comma separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option)
+
+### Add the BlockChromeProcessPooling UII option
+
+To skip inline navigation for certain entities, a system Administrator must configure the option on the **Active UII Options** page and the entity names as the comma separated values (CSV).
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+
+3. Choose **Options**.  
+
+4. Select **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **BlockChromeProcessPooling** for the **Name** field.
+
+7. Enter the entity names as comma separated values (CSV) for the **Value** field. For example, **incident,account,contact**.
+
+8. Select **Save**.
+
+## Block second navigation in Chrome Process pooling
+
+When an application (hosted control) is initialized and you do an inline navigation to another entity page using the same application (hosted control), then the second navigation is also inline.
+
+To block the second inline navigation, add the **BlockChromePoolingSecondNavigation** UII option and set the value as **True**.
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+
+3. Choose **Options**.  
+
+4. Select **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **BlockChromePoolingSecondNavigation** for the **Name** field.
+
+7. Set **True** for the **Value** field.
+
+8. Select **Save**.
 
 ::: moniker-end
 
