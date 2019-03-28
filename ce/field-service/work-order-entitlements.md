@@ -157,7 +157,14 @@ From the entitlement, create a new entitlement application to add more details t
 
 Given the primary customer of the entitlement matches the billing account on the work order, entitlement applications allow you to add more constraints to when an entitlement should apply to work order products and services.
 
+> [!Note]
+> Entitlement Applications work in addition to the primary customer value, not in replacement of. As an example, if the service account of an entitlement application matches a work order service account, but the billing account does not match the primary customer, then the entitlement will not be applied. 
+
 In the example below, if a work order product or service is related to a customer asset, AND the customer asset belongs to the Wine Press Asset Category, then the entitlement is applicable. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/entitlement-scenario2-entitlement-application.png)
 
 Other applications are:
 
@@ -167,38 +174,39 @@ Other applications are:
 
 > **Incident Type:** if the incident type here matches the work order incident type on the work order product or service then the entitlement will be applied to that work order product or service. Basically this means products and services added from the incident type entered here will have the entitlement.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/entitlement-scenario2-entitlement-application.png)
-
-
 > [!Note]
-> Entitlement Application work in addition to primary customer, not in replacement of. As an example.. 
+> Entitlement applications use AND logic. This means if you specify a service account and an incident type then both need to be present on the work order to apply.
+
 
 ### Step 2: Create a customer asset 
 
-First create a customer asset.
+Next create a customer asset. In the image below is a customer asset that has a category equal to Wine Press that was noted on the entitlement application. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-customer-asset.png)
 
 ### Step 3: Create a work order to service the customer asset
 
+Next create a work order that matches the entitlement for the second scenario. In the example below the billing account matches the primary customer. The primary incident customer asset lists an asset that belongs to the Wine Press category. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-work-order2.png)
 
+The correct entitlement is applied to the work order products.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-work-order-product2.png)
 
+Products and services added from the Standard Inspection incident type are related to the Press Filter customer asset.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-work-order-product2-customer-asset.png)
 
-
+Finally, the 100% discount is applied rendering the work order products as free.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-work-order-product2-discount.png)
 
-
+The same entitlement effects apply to work order services as well.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-work-order-service2.png)
 
