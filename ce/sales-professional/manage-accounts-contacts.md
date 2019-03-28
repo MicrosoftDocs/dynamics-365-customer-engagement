@@ -2,7 +2,7 @@
 title: "Manage your customers in Dynamics 365 for Sales Professional | MicrosoftDocs"
 description: "Store important information about the accounts and contacts you do business with in Dynamics 365 for Sales."
 keywords: ""
-ms.date: 03/26/2019
+ms.date: 04/05/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -21,11 +21,11 @@ manager: annbe
 
 In Dynamics 365 for Sales Professional, accounts and contacts records types are used to store information about your customers.
 
-Accounts are organizations you do business with, and contacts are individual people with whom you have a relationship. A contact may or may not be associated to an account.
+Accounts are organizations you do business with, and contacts are individual people with whom you have a relationship. A contact may or may not be associated with an account.
 
 Accounts and contacts share a one-to-many relationship, which means that a single account can have multiple contacts.
 
-You can add accounts or contacts manually or use the Import wizard in your Sales app to get in all your customer data in to the system.
+You can add accounts or contacts manually or use the Import wizard in your Sales app to get all your customer data into the system.
 
 ## Create or edit an account
 
@@ -43,7 +43,7 @@ You can add accounts or contacts manually or use the Import wizard in your Sales
 
     ![Account form](media/account-form.png "Account form")
 
-    **Summary tab.** Use the summary tab to store all the primary information about the account. This is the tab you’ll use the most.
+    **Summary tab.** Use the summary tab to store all of the primary information about the account. This is the tab you’ll use the most.
 
     The left pane includes fields like:
 
@@ -52,11 +52,13 @@ You can add accounts or contacts manually or use the Import wizard in your Sales
     - **Account Name.** The name of the organization you do business with. This name is used in searches, reports, and lookup fields related to accounts.
 
     - **Parent Account**. The parent organization of an account. The parent
-    account must also be added as an account first to be able to choose it as a parent account. - The middle pane, which is called a timeline, records all the activities related to the account or the communication with the account.
+    account must also be added as an account first to be able to choose it as a parent account. 
+    
+    The middle pane, which is called a timeline, records all the activities related to the account or the communication with the account.
 
-    The right pane shows everything that’s happening with the account. In other words, it shows related records to the account.
+    The right pane shows everything that’s happening with the account. In other words, it shows records related to the account.
 
-    The **Timeline** pane shows all the activities with the account.
+    The **Timeline** pane shows all the activities in the account.
 
     ![Timeline section](media/timeline-section.png "Timeline section")
 
@@ -64,7 +66,7 @@ You can add accounts or contacts manually or use the Import wizard in your Sales
 
     ![Related tabs in account form](media/related-tab-account-form.png "Related tabs in account form")
 
-    **Details tab (Company Profile).** This is used for track important profile information about an account like their industry, number of employees or annual revenue.
+    **Details tab (Company Profile).** This is used to track important profile information about an account, like the organization's industry, number of employees, or annual revenue.
 
 4.  Select **Save**.
 
@@ -72,9 +74,9 @@ You can add accounts or contacts manually or use the Import wizard in your Sales
 
 Typically, contacts are associated with an account. However, in some cases, contacts won’t have an associated account.
 
-Account and contact forms are very similar as they store similar information about the customers.
+Account and contact forms are very similar, as they store similar information about customers.
 
-To create or edit a contact
+To create or edit a contact:
 
 1.  In the site map, select **Contacts**.
 
@@ -94,18 +96,18 @@ To create or edit a contact
 
     The left pane includes important details like the following:
 
-    -   **Full Name.** This is combination of First Name and Last Name. 
+    -   **Full Name.** This is a combination of First Name and Last Name. 
 
-    -   **Account Name.** This points to the account record this contact is associated with.
+    -   **Account Name.** This points to the account record that this contact is associated with.
 
-    -   **Contact Info.** Fields like Email, Business Phone, and Mobile Phone fields store the contact details of the contact.
+    -   **Contact Info.** Fields like Email, Business Phone, and Mobile Phone store contact details.
 
-    The rest of the sections are similar to that of an account form.
+    The rest of the sections are similar to those of an account form.
 
-4.  Select **Save** on the lower right corner.
+4.  Select **Save** in the lower-right corner.
 
 
-### See Also
+### See also
 
 [Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
