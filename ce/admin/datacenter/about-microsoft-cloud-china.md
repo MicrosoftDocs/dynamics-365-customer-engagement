@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement operated by 21Vianet in China | MicrosoftDocs"
+title: "Dynamics 365 for Customer Engagement - operated by 21Vianet in China | MicrosoftDocs"
 ms.custom: 
 ms.date: 04/01/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Dynamics 365 for Customer Engagement operated by 21Vianet in China
+# Dynamics 365 for Customer Engagement - operated by 21Vianet in China
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
