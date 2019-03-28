@@ -24,18 +24,18 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Microsoft Dynamics 365 online services operated by 21Vianet is designed to comply with regulatory requirement in China. The services are a physically separated instance of cloud services operated and transacted currently by a local operator Shanghai Blue Cloud Technology Co., Ltd (“21Vianet”), a wholly owned subsidiary of Beijing 21Vianet Broadband Data Center Co., Ltd. located in mainland China.
+Microsoft Dynamics 365 online services operated by 21Vianet is designed to comply with regulatory requirements in China. The services are a physically separated instance of cloud services operated and transacted currently by a local operator, Shanghai Blue Cloud Technology Co., Ltd (“21Vianet”). This is a wholly owned subsidiary of Beijing 21Vianet Broadband Data Center Co., Ltd. located in mainland China.
 
-Microsoft strives to maintain functional parity between our commercially available service and that which is servicing the Dynamics 365 Customer Engagement -  operated by 21Vianet in China. However, there are notable exceptions to this affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
+Microsoft strives to maintain functional parity between our commercially available service and Dynamics 365 Customer Engagement -  operated by 21Vianet in China. However, there are notable exceptions to this affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
 
 ## Features not available
 
-Due to certain technology dependencies, the features listed below will not be available for general availability of the Dynamics 365 Services operated by 21Vianet. For information about future feature availability, see [Business applications and platform release notes](https://go.microsoft.com/fwlink/p/?linkid=2010158).
+Due to certain technological dependencies, the following features listed will not be available for general availability of Dynamics 365 Services operated by 21Vianet. For information about future feature availability, see [Business applications and platform release notes](https://go.microsoft.com/fwlink/p/?linkid=2010158).
 
 - [Relevance Search](../../basics/relevance-search-results.md) or **Categorized Search** used for searching records across multiple entities will be unavailable.
-- [Office 365 Groups](../../basics/collaborate-with-colleagues-using-office-365-groups.md) feature used for shared workspace for emails, conversations, files and events in Customer Engagement services will be unavailable.
-- [Online Management API](../../developer/online-management-api.md) (Admin API) that enables customers to create and manage the Customer Engagement environments using REST API will be unavailable.
-- [Company News Timeline](../../company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md) provides valuable insights from the latest news about tenant customers on phone or tablet. This feature will be unavailable.
+- [Office 365 Groups](../../basics/collaborate-with-colleagues-using-office-365-groups.md) feature used for shared workspace for emails, conversations, files, and events in Customer Engagement services will be unavailable.
+- [Online Management API](../../developer/online-management-api.md) (Admin API) enables customers to create and manage the Customer Engagement environments using REST API will be unavailable.
+- [Company News Timeline](../../company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md) provides valuable insights from the latest news about tenant customers on the phone or tablet. This feature will be unavailable.
 - [Global Discovery Service API](../../developer/webapi/discover-url-organization-web-api.md) which programmatically enables customer applications to discover user organization (also known as instance) and find instances across regions will not be available.
 - The service health [Organization Insights](../../admin/use-organization-insights-solution-view-instance-metrics.md) feature will be unavailable.
 - [Portals](../../portals/administer-manage-portal-dynamics-365.md) for the Dynamics 365 Customer Engagement services will be unavailable.
@@ -61,7 +61,7 @@ Due to certain technology dependencies, the features listed below will not be av
 - The following [Sales](../../sales-enterprise/help-hub.md) features will be unavailable: 
   - LinkedIn’s Organization Chart feature
   - LinkedIn’s “No longer in the Organization” feature
-  - [Embedded intelligence](../../sales-enterprise/embedded-intelligence.md) **for Sales**
+  - [Embedded intelligence for Sales](../../sales-enterprise/embedded-intelligence.md)
   - [Dynamics 365 AI for Sales](../../sales-enterprise/dynamics365-ai-sales.md)
 
 - The following components of Dynamics 365 Customer Engagement Plan are unavailable.
