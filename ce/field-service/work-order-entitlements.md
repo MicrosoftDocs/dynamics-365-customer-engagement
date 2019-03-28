@@ -222,37 +222,30 @@ In such cases, all applicable entitlements will show as options in the entitleme
 
 However one entitlement will be selected by default, first by the **Entitlement Prioritization** value and second by the specificity.
 
-The system will look at the entitlement prioritization values of all applicable entitlements and select the one with the greatest priority (1 being the highest priority). Any priority value is greater than a blank priority value.
+The system will look at the entitlement prioritization values of all applicable entitlements and select the one with the highest priority (1 being the highest priority). Any priority value is greater than a blank priority value.
 
-If no priority value exists
+If no priority values exists or priority values are equal, the system will select the most specific entitlement. 
 
-- handling conflicts?
-  - prioritization 1 is highest
-  - a product/service can be eligible for multiple entitlements 
-  - tie break goes to specificity 
-  -  
-  - can override entitlement if other entitlements are applicable
-  - - adding a new entitlement 
-see products and services, entitlement applied 
+Using our examples above, the second scenario entitlement is applicable based on the billing account and the customer asset category, whereas the first scenario entitlement is applicable based only on the billing account. In this case, the second scenario entitlement is more specific as it is based on two factors and was chosen.
 
 
-
+Even if multiple entitlements apply and one is chosen by default, the user can manually override or disable an entitlement.
 
 
 ## Configuration considerations
-- example: if you wanted to give 10% on products and 20% on services you would need 2 entitlements
-- what if primary customer on entitlement is service account and not billing account? what if the billing account isnt present but the service account is?
-- adding a product means the entitlement will apply when the product or service on the work order product or service is there? - yes
 
+- **Applying different discounts** - In the scenario where you may want to apply a 10% discount on products and a 20% discount on services, this would require two entitlements.
+- If the work order service account matches the primary customer of the entitlement and the billing account does not, the entitlement will not be applied. 
+- **Applying entitlements to specific products or services** - By adding products and services to the products subgrid in an entitlement will apply the entitlement when the product or service matches the work order product or service.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/entitlement-add-product.png)
 
 ## Additional Notes
-cost doesnt change
-  - - how does this work with incident types?
-    - incident types can apply work order types and WOT can apply price lists!
-  - - what if entitlement is edited?
+- Entitlements cannot change the cost of a product or service, only the price. 
+- For simpler scenarios, administrators should consider using the relationship between work order types, incident types, and price lists. Selecting an incident type can populate a work order type, and populating a work order type can populate a price list on the work order. This is configured during the incident type and work order type setup. In addition, adding a price list to a work order will populate the price lists on work order products and services by default. 
+
+- what if entitlement is edited?
   - why is this needed, why cant i just add special price lists?
   - currently unsupported scenarios
     -  examples warranty (currently not supported)
