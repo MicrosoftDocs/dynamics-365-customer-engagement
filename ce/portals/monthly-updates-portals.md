@@ -32,10 +32,11 @@ Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dyn
 
 Portal capabilities version 9.1.4 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps brings these new updates and features:
 
-Maintenance mode for portal
-Enable Power BI Embedded service
-Display external data in portal
+- **Maintenance mode for portal**: As a portal administrator, you can now configure your portal to display a proper message to the customers whenever a maintenance activity is going on, for example solution packages are being upgraded. More information: [Maintenance mode for a portal](enable-maintenance-mode.md)
 
+- **Enable Power BI Embedded service**: As a portal customizer, you can now embed dashboards and reports created in the new workspace of Power BI by enabling Power BI Embedded service. The dashboards and reports are embedded on web pages in a portal by using the powerbi Liquid tag. More information: [Set up Power BI integration](set-up-power-bi-integration.md#enable-power-bi-embedded-service)
+
+- **Display external data in portal**: As a portal developer, you can now get data from external applications and display it in portals in a secure manner. Client-side calls can be made to external APIs and get them secured by using OAuth Implicit grant type flow.
 
 ## Portal capabilities version 9.1.1 for Dynamics 365 for Customer Engagement apps
 
