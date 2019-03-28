@@ -1,5 +1,5 @@
 ---
-title: "Manage Leads in Dynamics 365 for Sales Professional | MicrosoftDocs"
+title: "Manage leads in Dynamics 365 for Sales Professional | MicrosoftDocs"
 description: "Track your potential buyers as leads in Dynamics 365 for Sales Professional."
 keywords: ""
 ms.date: 04/05/2019
@@ -17,20 +17,21 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Manage Leads in Dynamics 365 for Sales Professional
+# Manage leads in Dynamics 365 for Sales Professional
 ===================================================
 
 In Dynamics 365 for Sales Professional, leads are potential sales. In other words, a lead is a potential customer who must be qualified or disqualified as a sales opportunity. When a lead is qualified, it can be converted to an opportunity, account, or contact.
 
-You can collect leads from many different sources. For example, you can generate sales leads from marketing campaigns, inquiries from your website or mailing lists.
+You can collect leads from many different sources. For example, you can generate sales leads from marketing campaigns, inquiries from your website, or mailing lists.
 
 When you create a lead, there are system-required fields to fill out. But other data, such as e-mail addresses, the source of the lead, and specific product interests, can also help your sales staff in following up with the customers.
 
 ## Create a lead
+<!--note from editor:  in step #3, can a term other than "click" be used (so it's not mouse-specific), or can another way besides clicking be added to the sentence?  -->
 
 1.  In the site map, select **Leads**.
 
-2.  Select **+New**.
+2.  Select **New**.
 
     The Lead form opens.
 
@@ -40,13 +41,13 @@ When you create a lead, there are system-required fields to fill out. But other 
 
 4.  In the **Timeline** section, add any notes and activities (for example, phone calls or emails) related to this lead.
 
-3.  In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
+3.  In the **Stakeholders** section, select **More Commands** ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
 
-    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the **Stakeholder** role. Click the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.
+    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **New**. By default, the contact you add is assigned the Stakeholder role. Click the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.
 
 4.  In the **Details** tab, enter information about your lead’s industry and preferred contact method.
 
-5.  Select the **Save** button on the bottom right of the screen.
+5.  Select the **Save** button in the lower-right corner of the screen.
 
 ## Qualify and convert a lead to an opportunity
 
@@ -58,13 +59,13 @@ If your lead has potential to become a sale, you can qualify the lead to an oppo
 
 3.  In the **Qualify** section of the sales process bar, type in all applicable information.
 
-4.  Select **Qualify** at the top of the Lead screen.
+4.  Select **Qualify** at the top of the **Lead** screen.
 
     You must also select the currency in which to calculate the opportunity.
 
-5.  Select the **Save** button at the bottom right of the screen.
+5.  Select the **Save** button at the lower-right corner of the screen.
 
-To qualify multiple leads at once, go to the list of lead records. Then select the check boxes next to all leads that you want to qualify, and then select **Qualify** at the top of the screen.
+To qualify multiple leads at once, go to the list of lead records. Select the check boxes next to all the leads that you want to qualify, and then select **Qualify** at the top of the screen.
 
 ## Disqualify a lead
 
@@ -73,7 +74,7 @@ disqualify it and still have an audit trail for your sales process. You can reac
 
 To disqualify, select the lead, and on the command bar, select  **Disqualify**.
 
-### See Also
+### See also
 
 [Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
