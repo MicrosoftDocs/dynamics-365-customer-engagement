@@ -157,6 +157,8 @@ To stop selling a product, delete it.
 
     ![Confirm Deletion dialog box](media/confirm-deletion-dialog-box.png "Confirm Deletion dialog box")
 
+<!--note from editor: In list item #4 above--the screen shot doesn't show a "Delete" option to select.    -->
+
 ### See also
 
 [Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
