@@ -29,38 +29,25 @@ Use the discovery service to determine the organizations that a user is a member
   
  For [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps installations, server and organization allocation may change as part of datacenter management and load balancing. Therefore, the discovery service provides a way to discover which [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps server is serving your organization at a given time.  
   
- The following table lists the Web service URLs for the worldwide [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md) apps data centers.  
-
-[!INCLUDE [regional-discovery-services](../../includes/regional-discovery-services.md)]
-  
  For an Internet-facing deployment (IFD) installation, the Web service URL has the following form:  
-  
 ```  
 https://dev.<hostname[:port]>/XRMServices/2011/Discovery.svc  
 ```  
-  
+
  For an on-premises installation, the web service URL has the following form:  
-  
-[!INCLUDE[cc_sdk_onpremises_note](../../includes/cc-sdk-onpremises-note.md)]
 ```  
 http[s]://<hostname[:port]>/XRMServices/2011/Discovery.svc  
 ```  
-  
+
  Consult the **Developer Resources** page in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web application for the correct URL of your installation.  
   
  To use the discovery service, add a reference to the `Microsoft.Xrm.Sdk.dll` assembly to your [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] project, and then add a `using` or `imports` statement to access the <xref:Microsoft.Xrm.Sdk.Discovery> namespace. The <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService> interface provides <xref:Microsoft.Xrm.Sdk.Discovery.IDiscoveryService.Execute*> method you will use to pass a instance of the <xref:Microsoft.Xrm.Sdk.Discovery.DiscoveryRequest> class.
  
-Alternatively, you can add the service references for the URLs described previously to your project.  
-  
-## In This Section  
- [Discovery Service Methods](discovery-service-methods.md)<br />
- [Discovery Service Messages (Request and Response Classes)](discovery-service-messages-request-response-classes.md)<br />
- [Messages in the Discovery Service](messages-discovery-service.md)<br />
- [Sample: Accessing the DiscoveryService](sample-access-discovery-service.md)<br />
+Alternatively, you can add the service references for the URLs described previously to your project.
   
 ## Related Sections  
+ [Use the Discovery Service with the SDK Assemblies](/powerapps/developer/common-data-service/org-service/discovery-service)  
  [Write Applications and Server Extensions](../extend-dynamics-365-server.md)<br />
- [Use Dynamics 365 for Customer Engagement apps Services](use-services-in-code.md)<br />
  [Download endpoints using Developer resources page](../developer-resources-page.md)<br />
  [Access the Web Services in Dynamics 365 for Customer Engagement](../authenticate-users.md)<br />
  [Quick Start: A Simple Program](../simple-program-web-services.md)<br />
