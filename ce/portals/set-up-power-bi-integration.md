@@ -119,8 +119,8 @@ After enabling the Power BI Embedded service integration, you must create a secu
 
     - **Membership type**: Assigned.
 
-    > [!div class=mx-imgBorder]
-    > ![Create security group for Power BI Embedded service](media/powerbi-embed-security-group.png "Create security group for Power BI Embedded service")
+      > [!div class=mx-imgBorder]
+      > ![Create security group for Power BI Embedded service](media/powerbi-embed-security-group.png "Create security group for Power BI Embedded service")
 
 4. Select **Create**.
 
@@ -179,13 +179,13 @@ Customizers can now use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid ta
     > [!div class=mx-imgBorder]
     > ![Manage Power BI Embedded service](media/manage-powerbi-embedded-button.png "Manage Power BI Embedded service")
 
-4. In the **Manage Power BI Embedded service integration** window, remove or move the Power BI workspaces from which dashboards and reports need to be displayed in your portal to the **Selected workspaces** list.
+4. In the **Manage Power BI Embedded service integration** window, remove or move the Power BI workspaces from which dashboards and reports need to be displayed in your portal to the **Selected Workspaces** list.
 
     > [!div class=mx-imgBorder]
     > ![Select Power BI workspaces](media/manage-powerbi-embedded-window.png "Select Power BI workspaces")
     
     > [!NOTE]
-    > After removing the workspaces from the **Selected workspaces list**, it can take up to 1 hour to reflect the changes. Until then, the databases and reports are rendered on the portal without any issues.
+    > After removing the workspaces from the **Selected Workspaces** list, it can take up to 1 hour to reflect the changes. Until then, the databases and reports are rendered on the portal without any issues.
 
 5. Select **Save**.
 
@@ -209,6 +209,9 @@ Customizers can now use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid ta
 
 6. Select **OK** in the confirmation message. While Power BI Embedded service is being disabled, the portal restarts and is unavailable for a few minutes. A message appears when Power BI Embedded service is disabled.
 
+<!--note from editor:  In the Privacy notice section (include file):
+Before the Note, there is a reference to "the following section"; not sure what is meant.
+After the note, "Azure Active Directory" is by itself & linked, not part of a paragraph.-->
 
 ## Privacy notice  
 
