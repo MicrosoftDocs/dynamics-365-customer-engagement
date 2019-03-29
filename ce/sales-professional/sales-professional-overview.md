@@ -44,6 +44,8 @@ What’s the fastest way to get productive?
 
 Here are a couple options:
 
+<!--note from editor: Use of "clicking" --use a term that isn't mouse-specific, or add in another term?   -->
+
 -   **Dive in and try out the sample data.** If you learn best through your own hands-on exploration, the app comes with sample data to help you see how
     data is presented and organized, and to give you something to experiment with as you get oriented.
 
@@ -107,7 +109,7 @@ Here are some highlights of Dynamics 365 for Sales Professional
     on the road, you can quickly pull out your device to update the opportunity with information. What’s more—you get the same, consistent experience
     regardless of the device you use.
 
-### See Also
+### See also
 
 [Learn the basics](#learn-basics-sales-professional.md)  
 [Standard and Advanced Settings Overview](standard-advanced-settings-overview.md)
