@@ -16,8 +16,8 @@ In this topic, we'll walk through how to configure this common example scenario.
 
 ## Prerequisites
 
-- Field Service v8.0+
-- Universal Resource Scheduling v3.0+
+- Field Service v6.2.1+
+- Universal Resource Scheduling v1.1.1+
 
 ## Step 1: Add the new attribute to the bookable resource entity
 
@@ -48,7 +48,7 @@ Go to the schedule board that you want to add the new resource cost attribute to
 
 The resource cost indicator should be displayed in the resource cell (1). [Font Awesome](https://fontawesome.com/) can be used to display icons, such as €, $, £. 
 
-The HTML first draws 10 gray icons as a background, then 10 yellow icons as foreground. Then the size of the foreground icons is limited to the value of the resource cost; in other words, a value of 1 is converted to 10%, which means only 10% of the 10 yellow Euro icons will be displayed. A value of 5 shows 50% of the 10 yellow Euro icons. 
+The HTML first draws 5 gray icons as a background, then 5 yellow icons as foreground. Then the number of the foreground icons is limited to the value of the resource cost; in other words, a resource cost value of 2 is converted to 20%, which means only 20% of the 5 yellow Euro icons (1 icon) will be displayed. A resource cost value of 5 shows 50% of the 5 yellow Euro icons (2.5 icons). 
 
 Double-click the tab of your schedule board (DE#2 in our example). Scroll down to resource cell template. You can't (and shouldn't) modify the standard templates. Use the button and **Save As** to create a custom template. 
 
