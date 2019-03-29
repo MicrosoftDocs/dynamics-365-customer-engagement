@@ -24,15 +24,14 @@ interface.
 
 ## Go to Sales Professional app
 
-1.  Sign in to Office 365, select the Office 365 app launcher, and then select the icon for **Dynamics 365**.
+1.  Sign in to Office 365, select the Office 365 app launcher, and then select **Dynamics 365**.
 
     ![Office 365 App Launcher pane](media/office365-app-launcher-pane.png "Office 365 App Launcher pane")
 
-    >   [!Note]
+    >[!NOTE]
+    >The selection of apps available to you in the app launcher will depend on your subscription.
 
-    >   The apps available to you in the app launcher depend on your subscription.
-
-2.  In the Dynamics 365 Home page, select the tile for Sales Professional
+2.  On the Dynamics 365 home page, select **Sales Professional**.
 
     ![Tile for Dynamics 365 for Sales Professional](media/sales-professional-app-tile.png "Tile for Dynamics 365 for Sales Professional")
 
@@ -50,7 +49,7 @@ access to tools that help you manage your deals, such as a guided task flow that
 ### Menu on the side
 
 Select the Site map icon to see a list of all your options in one place, including access to communication tools like email and customer records, your
-calendar, and settings. You’ll also find quick access to any favorite customers you’ve pinned and your recent work, so you don’t have to waste time backtracking.
+calendar, and settings. You’ll also find quick access to any favorite customers you’ve pinned and to your recent work, so you don’t have to waste time backtracking.
 
 ![Image showing the menu and items on the menu](media/items-on-menu.png "Image showing the menu and items on the menu")
 
@@ -91,7 +90,7 @@ There are three ready-to-use business processes that you can use as you move you
       -   All directly created opportunities (not originating from lead) forms
 
 
-### See Also
+### See also
 
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
 
