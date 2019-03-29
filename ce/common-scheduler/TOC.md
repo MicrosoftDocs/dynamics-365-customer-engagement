@@ -4,6 +4,7 @@
 # [Resource crew scheduling](resource-crews.md)
 # [Facility scheduling](facility-scheduling.md)
 # [Resource pools](resource-pools.md)
+# [Share schedule board tabs](share-schedule-board-tab.md)
 # URS extensibility
 ## [Extensibility updates](developer/extensibility-release-notes.md)
 ## Preferred geospatial data provider
