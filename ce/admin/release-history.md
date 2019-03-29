@@ -1,7 +1,7 @@
 ---
 title: "Release history (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/21/2019
+ms.date: 03/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: 7f04a24b-9275-4286-8d51-9ce29a0433ce
 caps.latest.revision: 8
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -40,6 +40,7 @@ Check out the following for more "What's new" and release history information:
 
 |New and updated topics|Description of changes|  
 |----------------------------|----------------------------|  
+|[Enable Unified Interface Only](enable-unified-interface-only.md) | Added new topic.             |
 |[Public Preview: Introducing Live Assist for Dynamics 365 for Customer Engagement apps Powered by CaféX](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)|Added new topic.|  
 |[Configure Relevance Search to improve search results and performance](configure-relevance-search-organization.md)|Updated topic.|  
 |[Use Power BI](use-power-bi.md)|Updated topic.|
