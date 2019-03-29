@@ -52,7 +52,7 @@ You can filter the list of activities to see only the ones you’re interested i
 
 2.  Select the arrow next to the view name at the top of the page, and select the **My Sent Emails** view.
 
-![Drop-down list to select a view](media/drop-down-list-select-a-view.png "Drop-down list to select a view")
+   ![Drop-down list to select a view](media/drop-down-list-select-a-view.png "Drop-down list to select a view")
 
 
 ## Add a new activity for a customer
@@ -95,7 +95,7 @@ you can mark the activity for that action as completed.
 
 2.  On the command bar, select **Mark Complete**.
 
-![Command bar button to mark an activity complete](media/command-bar-button-mark-activity-complete.png "Command bar button to mark an activity complete")
+   ![Command bar button to mark an activity complete](media/command-bar-button-mark-activity-complete.png "Command bar button to mark an activity complete")
 
 
 ### See also
