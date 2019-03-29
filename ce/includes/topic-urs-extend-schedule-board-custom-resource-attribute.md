@@ -1,20 +1,24 @@
-It is possible to customize and extend the schedule board based on your business needs. Common examples include **(1)** customizing the Resource Cells where the resources' names, pictures, and utilization are listed by default **(2)** customizing the fields in the filter pane where dispatchers decide the resources in a view and **(3)** customizing the sort options (also located in the filter pane) allowing dispatchers to sort the current resources on the the schedule board based on various criteria. This is most commonly achieved by editing the HTML and fetchXML in schedule board's tab settings.
+The schedule board based can be customized and extended to help you reach your business needs. Common examples include customizing:
 
-Let's explore customizing the schedule board with the following scenario:
+1. the resource cells where the resources' names, pictures, and utilization are listed by default 
+2. the fields in the filter pane where dispatchers choose the resources in a view 
+3. the sort options (also located in the filter pane) allowing dispatchers to sort the current resources on the the schedule board based on various criteria.
 
-**Scenario:** Each bookable resource (field technician) has a cost based on many factors such as seniority and certification level. Dispatchers would like the general cost of each resource displayed on the schedule board along with the ability to filter and sort by cost. This is common for scenarios where an organization first wants to schedule internal employees and second external contracting parties, who are usually more expensive. Rather than use an exact resource cost, this scenario uses a score of 1 (lowest resource cost) to 10 (highest resource cost) and exposes the score: 
+Consider the following customization scenario:
 
-- In the resource cell, for viewing the cost with a graphical element.
-- In the filter panel, to filter a by a maximum cost level for the desired resources.
-- In the sort options, to sort from lowest to highest cost or vice versa.
+Each bookable resource (field technician) has a cost based on factors like seniority and certification level. Dispatchers would like to see the general cost of their resources, along with the ability to filter and sort by cost. This is common for scenarios where an organization prioritizes scheduling internal employees over external contracting parties, who are usually more expensive. Rather than use an exact resource cost, this scenario uses a score of 1 (lowest resource cost) to 10 (highest resource cost) and exposes the score: 
+
+- In the resource cell, for viewing the cost with a graphical element
+- In the filter panel, to filter a by a maximum cost level for the desired resources
+- In the sort options, to sort from lowest to highest cost or vice versa
 
 
 ## Step 1: Add the new attribute to the bookable resource entity
 
-Go to **Customizations > Customize the System > Bookable Resource > Fields** and add a new field named **Resource Cost** with the schema name **tsp_resourcecost**. If your organization has a different schema prefix such as **new_** this can be used if the code snippets below are updated to reflect this.
+Go to **Customizations > Customize the System > Bookable Resource > Fields** and add a new field named **Resource Cost** with the schema name **tsp_resourcecost**. If your organization has a different schema prefix such as **new_**, it can be used if the code snippets below are updated to reflect this.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of adding resource cost attribute or field to a bookable resource](./media/schedule-board-tab-settings-resource-cost.png)
+> ![Screenshot of adding resource cost attribute or field to a bookable resource](./field-service/media/schedule-board-tab-settings-resource-cost.png)
 
 
 Use the data type **Option Set** and select the existing option set **Level of Importance**. This is simply to have a list of 1 to 10, where the underlying numeric values are also 1 to 10.
@@ -31,7 +35,7 @@ Navigate to the schedule board that you want to add the new resource cost attrib
 3. allow sorting by cost score
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of final result of changes that will be made in this article](./media/schedule-board-tab-settings-tutorial.png)
+> ![Screenshot of final result of changes that will be made in this article](./field-service/media/schedule-board-tab-settings-tutorial.png)
 
 ## Step 3: Modify the Resource Cell Template
 
@@ -43,7 +47,7 @@ Double-click the tab of your schedule board (DE#2 in the above case). Scroll dow
 > If you want to set these changes as the default for all schedule boards, after double clicking a schedule board tab, select **Open Default Settings** in the top right and make the code changes to Resource Cell Template, Filter Layout, and Retrieve Resources Query.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of where to edit the resource cell template](./media/schedule-board-tab-settings-edit-resource-cell.png)
+> ![Screenshot of where to edit the resource cell template](./field-service/media/schedule-board-tab-settings-edit-resource-cell.png)
 
 
 Below is the new code snippet to copy and paste into the resource cell template, and the image below that shows the delta in yellow that can be used to modify an existing template. Replace fa-euro if you need a symbol different from the euro.
@@ -91,7 +95,7 @@ Below is the new code snippet to copy and paste into the resource cell template,
     </div>
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of fetchXML with highlighted new code](./media/schedule-board-tab-settings-resource-cell-template-yellow.png)
+> ![Screenshot of fetchXML with highlighted new code](./field-service/media/schedule-board-tab-settings-resource-cell-template-yellow.png)
 
 ## Step 4: Modify the Filter Layout
 
@@ -135,7 +139,7 @@ Below is the new code snippet to copy and paste into the Filter Layout, and the 
     </filter>
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of fetchXML with highlighted new code for filter layout](./media/schedule-board-tab-settings-filter-layout-yellow.png)
+> ![Screenshot of fetchXML with highlighted new code for filter layout](./field-service/media/schedule-board-tab-settings-filter-layout-yellow.png)
 
 ## Step 5: Modify the query
 
@@ -154,7 +158,7 @@ paste the following
 See this image for reference:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of code edit to resource query](./media/schedule-board-tab-settings-resource-query-snippet1.png)
+> ![Screenshot of code edit to resource query](./field-service/media/schedule-board-tab-settings-resource-query-snippet1.png)
 
 After the ending
 
@@ -171,14 +175,14 @@ Paste the following
 See this image for reference:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of code edit to resource query](./media/schedule-board-tab-settings-resource-query-snippet2.png)
+> ![Screenshot of code edit to resource query](./field-service/media/schedule-board-tab-settings-resource-query-snippet2.png)
 
 
 ## Step 6: Test your new schedule board
 In the screenshot below I have defined a maximum cost factor of 5 and ascending sort order based on cost.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of final result entering 5 for resource cost on the schedule board](./media/schedule-board-tab-settings-tutorial-end.png)
+> ![Screenshot of final result entering 5 for resource cost on the schedule board](./field-service/media/schedule-board-tab-settings-tutorial-end.png)
 
 ### See also
 
