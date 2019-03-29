@@ -1,7 +1,7 @@
 ---
 title: "Security enhancements: User session and access management with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/02/2019
+ms.date: 04/03/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
