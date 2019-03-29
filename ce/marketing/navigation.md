@@ -70,32 +70,44 @@ All of the apps listed in the app-selector menu operate on the same database as 
 
 ### Move between entities, records, and work areas
 
-It's easy to get around [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and get back to your favorite or most-used records.
-
-Usually, the navigator is docked and out of the way, but still provides quick links to common features.
-
-![Navigation controls, compact view](media/nav-collapsed-ill.png "Navigation controls, compact view")
-
-Expand the navigator to gain easy access to all features and work areas.
+It's easy to get around [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and get back to your favorite or most-used records. The following illustration shows the primary navigation elements.
 
 ![Navigation controls, expanded view](media/nav-expanded-ill.png "Navigation controls, expanded view")
 
+Legend:
+1. **App selector**: Open this menu to move between apps, for example, to move between [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.
+1. **Collapse/expand button**: Select this to collapse the menu to allow more room for the main part of the page. If the menu is already collapsed, select this button to expand it again.
+1. **Recent records**: Expand this entry to view a list of records you were recently using. Select an record here to open it. Select the push-pin icon next to a record listed here to added to your favorites (pinned records).
+1. **Favorite records**: Expand this entry to view and open your favorite (pinned) records. Use the **Recent records** list to add records here. Select the remove-pin icon next to a record listed here to remove it from this list.
+1. **Entity navigator**: This area lists each entity and dashboard available for the current work area. Select any entry here to open the named dashboard or list-view for that entity.
+1. **Work-area selector**: Open this menu to move to another work area. The current work area is named here.
+
+Use the work-area select at the bottom of the navigation panel to move between the main work areas of the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, which are:
+
+- **Marketing**: Provides access to all the core marketing features, including contacts, leads, segments, customer journeys, email messages, marketing pages, lead-scoring models, and more.
+- **Events**: Provides access to all of the event-management features.
+- **Settings**: Provides access to system settings used to administrate the system (requires admin privileges).
+- **Training**: Provides links to online help pages and tutorials recommended for new users.
+
+![Work-area selector](media/work-area-selector.png "Work-area selector")
+
+
 ## Working with list views
 
-Usually, when you first open an entity, you'll see the list view, which shows a list of records belonging to that entity, formatted as a table. For example, if you open the contacts entity, you'll see a list of individual contacts.
+Usually, when you first open an entity, you'll see the list view, which shows a list of records belonging to that entity, formatted as a table. For example, if you open the **Marketing email** entity, you'll see a list of individual email messages.
 
 ![A typical list view](media/list-view.png "A typical list view")
 
-From here, you can do the following:
+Legend:
 
-- **Sort the list**: Select a column heading to sort the list by values in that column. Select the heading again to sort in the opposite direction.
-- **Search the list**: Enter text in the search field above the list to show only those records that contain your text.
-- **Filter the list**: Select one of the letters at the bottom of the list to show only records that start with that letter (in the field by which the list is currently being sorted).
-- **Choose a system view**: A system view is predefined to show commonly used list views such as active contacts, tasks assigned to you, closed leads, and so on. The current system view&mdash;My Active Contacts, in the preceding image&mdash;is shown as a heading above the list. To change the system view, select the down arrow next to this heading and choose the view you want. To set a view as the default, select the pushpin icon next to the view.
-- **Go to a page in the list**: If the list contains more records than can be shown on one page, use the paging controls at the bottom of the list to move forward and backward through the pages.
-- **Create records**: Select **New** to create a new, blank record.
-- **Open a record**: Select any record in the list to open its record view, which shows all the details about the record.
-- **Operate on records**: Use the commands in the command bar to operate on records in the list and perform related actions. Some commands (such as **Delete**) require that you first select one or more target records by placing a check mark in the leftmost column, while others operate on the entire list. You can export the list to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] workbook (possibly based on a template), open charts and dashboards, and more, depending on the type of records you are working with.
+1. **Select records**: Select one or more records by placing a check in this column. Depending on where you are working, you may be able to apply a single operation to all the selected records at once using buttons in the command bar.
+1. **Open a record**: Select any record in the list to open its record view, which shows all the details about the record. Usually you should select from the **Name** column to open a record from the current entity. Some entities provide links to records from related entities in other columns (such as a related contact).
+1. **Sort the list**: Select a column heading to sort the list by values in that column. Select the heading again to sort in the opposite direction. An arrow in the column heading indicates which column is being sorted and in which direction.
+1. **Choose a system view**: A system view is predefined to show commonly used list views such as active contacts, tasks assigned to you, closed leads, and so on. The current system view is shown as a heading above the list. To change the system view, select the down arrow next to this heading and choose the view you want. To set a view as the default, select the pushpin icon next to the view in the open menu.
+1. **Filter the list**: Select a funnel icon next to a column heading to filter the list by values in that column. The funnel icon shows as filled to indicate which column is being filtered (if any).
+1. **Command bar**: Use the commands in the command bar to operate on records in the list and perform related actions. Some commands (such as **Delete**) require that you first select one or more target records by placing a check mark in the leftmost column, while others operate on the entire list. You can export the list to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] workbook (possibly based on a template), open charts and dashboards, and more, depending on the type of records you are working with.
+1. **Search the list**: Enter text in the search field above the list to show only those records that contain your text.
+1. **Paging and filtering**: If the list contains more records than can be shown on one page, use the paging arrows at the bottom of the list to move forward and backward through the pages. Select a letter to show only those records whose names start with that letter.
 
 ## Working with record views
 
@@ -103,13 +115,13 @@ Record views show all the details about a single record and sometimes also provi
 
 ![A typical record view](media/form-view.png "A typical record view")
 
-From here, you can do the following:
+Legend:
 
-- **Operate on the record**: Use the commands in the command bar to operate on the current record or perform a task related to the record. The available commands vary based on the record type, but you can typically use the command bar to delete the record, refresh the page, email a link to the record, reassign the record owner, or export the record by using a [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template.
-- **Choose a form view**: Each form view provides a collection of related fields from the record, or related features, such analytics or a designer. Some types of records provide just one view, some provide several. The current form view (when available) is shown above the record name, near the top of the page. To change the form view, click the down arrow next to the form-view name to open a menu, and then select the new view that you want.
-- **Choose a tab**: Some record views are divided into tabs. When tabs are available, they're listed below the record name. Select any tab name to go to that tab. Each tab provides a collection of related fields from the record.
-- **Read and edit important field values**: Some record views display a few especially important fields in the heading bar, opposite the record name. These are typically fields that are fundamental to working with records of the current type (such as a the name of the record owner).
-- **View and edit all field values**: In the main body of the record view, you'll find all of the fields related to the current tab, form view, and record type. Fields marked with a red asterisk are required, and you can't save the record without their having valid values. Fields marked with a blue plus sign are especially important or recommended, but are not strictly required. Fields showing a lock icon are read-only and can't be edited.
+1. **Tabs**: Most record views are divided into tab. Each tab provides a collection of related fields from the record. When tabs are available, they're listed below the record name. Select any tab name to go to that tab. The current tab is shown underlined.
+1. **Form view selector**: Each form view provides a collection of related fields from the record, or related features, such analytics or a designer. Some types of records provide just one view, some provide several. The current form view (when available) is shown above the record name, near the top of the page. To change the form view, click the down arrow next to the form-view name to open a menu, and then select the new view that you want.
+1. **Command bar**: Use the commands in the command bar to operate on the current record or perform a task related to the record. The available commands vary based on the record type, but you can typically use the command bar to go live, delete the record, refresh the page, email a link to the record, reassign the record owner, or export the record by using a [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template.
+1. **Heading bar**: Some record views display a few especially important fields in the heading bar, opposite the record name. These are typically fields that are fundamental to working with records of the current type (such as a the record name or record owner).
+1. **View and edit all field values**: In the main body of the record view, you'll find all of the fields related to the current tab, form view, and record type. Fields marked with a red asterisk are required, and you can't save the record without their having valid values. Fields marked with a blue plus sign are especially important or recommended, but are not strictly required. Fields showing a lock icon are read-only and can't be edited.
 
 ## Working with business processes
 
