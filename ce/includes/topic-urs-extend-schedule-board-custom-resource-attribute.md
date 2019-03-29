@@ -1,4 +1,4 @@
-The schedule board based can be customized and extended to help you reach your business needs. Common examples include customizing:
+The schedule board can be customized and extended to help you reach your business needs. Common examples include customizing:
 
 1. the resource cells where the resources' names, pictures, and utilization are listed by default 
 2. the fields in the filter pane where dispatchers choose the resources in a view 
@@ -12,13 +12,19 @@ Each bookable resource (field technician) has a cost based on factors like senio
 - In the filter panel, to filter a by a maximum cost level for the desired resources
 - In the sort options, to sort from lowest to highest cost or vice versa
 
+In this topic, we'll walk through how to configure this common example scenario.
+
+## Prerequisites
+
+- Field Service v8.0+
+- Universal Resource Scheduling v3.0+
 
 ## Step 1: Add the new attribute to the bookable resource entity
 
-Go to **Customizations > Customize the System > Bookable Resource > Fields** and add a new field named **Resource Cost** with the schema name **tsp_resourcecost**. If your organization has a different schema prefix such as **new_**, it can be used if the code snippets below are updated to reflect this.
+Go to **Customizations > Customize the System > Bookable Resource > Fields** and add a new field named **Resource Cost** with the schema name **tsp_resourcecost**. If your organization has a different schema prefix such as **new_**, it can be used if the code snippets (which you will find below) are updated to reflect this.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of adding resource cost attribute or field to a bookable resource](./field-service/media/schedule-board-tab-settings-resource-cost.png)
+> ![Screenshot of adding resource cost attribute or field to a bookable resource](../field-service/media/schedule-board-tab-settings-resource-cost.png)
 
 
 Use the data type **Option Set** and select the existing option set **Level of Importance**. This is simply to have a list of 1 to 10, where the underlying numeric values are also 1 to 10.
@@ -28,29 +34,32 @@ Add the newly created field to the form to be able to administrate your resource
 
 
 ## Step 2: Create a new schedule board (or modify an existing one)
-Navigate to the schedule board that you want to add the new resource cost attribute to. In the example image below is a schedule board titled "DE#2". The image also shows the three areas on the schedule board we will customize with the new resource cost attribute. 
+
+Go to the schedule board that you want to add the new resource cost attribute to. In the following example screenshot, you'll see a schedule board titled "DE#2". You'll also find the 3 areas highlighted on the schedule board that we will customize with the new resource cost attribute. 
 
 1. add resource cost indicator in the resource cells 
 2. define a maximum cost score when filtering and searching for resources
 3. allow sorting by cost score
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of final result of changes that will be made in this article](./field-service/media/schedule-board-tab-settings-tutorial.png)
+> ![Screenshot of final result of changes that will be made in this article](../field-service/media/schedule-board-tab-settings-tutorial.png)
 
-## Step 3: Modify the Resource Cell Template
+## Step 3: Modify the resource cell template
 
-The resource cost indicator should be displayed in the resource cell **(1)**. Font Awesome can be used to display icons, such as €, $, £. The HTML first draws 10 gray icons as a background, then 10 yellow icons as foreground. Then the size of the foreground icons is limited to the value of the resource cost, i.e. a value of 1 is converted to 10%, which means only 10% of the 10 yellow Euro icons will be displayed. A value of 5 shows 50% of the 10 yellow Euro icons.
+The resource cost indicator should be displayed in the resource cell (1). [Font Awesome](https://fontawesome.com/) can be used to display icons, such as €, $, £. 
 
-Double-click the tab of your schedule board (DE#2 in the above case). Scroll down to Resource Cell Template. You cannot (and should not) modify the standard templates. Use the button and Save As to create a custom template. 
+The HTML first draws 10 gray icons as a background, then 10 yellow icons as foreground. Then the size of the foreground icons is limited to the value of the resource cost; in other words, a value of 1 is converted to 10%, which means only 10% of the 10 yellow Euro icons will be displayed. A value of 5 shows 50% of the 10 yellow Euro icons. 
+
+Double-click the tab of your schedule board (DE#2 in our example). Scroll down to resource cell template. You can't (and shouldn't) modify the standard templates. Use the button and **Save As** to create a custom template. 
 
 > [!Note]
-> If you want to set these changes as the default for all schedule boards, after double clicking a schedule board tab, select **Open Default Settings** in the top right and make the code changes to Resource Cell Template, Filter Layout, and Retrieve Resources Query.
+> If you want to set these changes as the default for all schedule boards, after double-clicking a schedule board tab, select **Open Default Settings** in the top right and make the code changes to **Resource Cell Template**, **Filter Layout**, and **Retrieve Resources Query**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of where to edit the resource cell template](./field-service/media/schedule-board-tab-settings-edit-resource-cell.png)
+> ![Screenshot of where to edit the resource cell template](../field-service/media/schedule-board-tab-settings-edit-resource-cell.png)
 
 
-Below is the new code snippet to copy and paste into the resource cell template, and the image below that shows the delta in yellow that can be used to modify an existing template. Replace fa-euro if you need a symbol different from the euro.
+Below is the new code snippet to copy and paste into the resource cell template, followed by an image that shows the delta (highlighted in yellow) that can be used to modify an existing template. Replace **fa-euro** if you need a symbol different from the euro.
 
     <div class='resource-card-wrapper {{iif ResourceCellSelected "resource-cell-selected" ""}} {{iif ResourceUnavailable "resource-unavailable" ""}} {{iif IsMatchingAvailability "availability-match" ""}}'>
     {{#if imagepath}}
@@ -95,16 +104,18 @@ Below is the new code snippet to copy and paste into the resource cell template,
     </div>
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of fetchXML with highlighted new code](./field-service/media/schedule-board-tab-settings-resource-cell-template-yellow.png)
+> ![Screenshot of fetchXML with highlighted new code](../field-service/media/schedule-board-tab-settings-resource-cell-template-yellow.png)
 
-## Step 4: Modify the Filter Layout
+## Step 4: Modify the filter layout
 
-Next, the goal is to define a maximum cost score when filtering and searching for resources **(2)** and also allow sorting by cost score **(3)**. 
+Our next goal is to define a maximum cost score when filtering and searching for resources **(2)** and also allow sorting by cost score **(3)**. 
 
-To accomplish this, from the same schedule board tab setting where you edited the Resource Cell Template, scroll to **Filter Layout**. Use the gear button and Save As to create a custom template. 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of final result of changes that will be made in this article](../field-service/media/schedule-board-tab-settings-tutorial.png)
 
-Below is the new code snippet to copy and paste into the Filter Layout, and the image below that shows the delta in yellow that can be used to modify an existing template.
+To accomplish this, from the same schedule board tab setting where you edited the resource cell template, scroll to **Filter Layout**. Use the gear button and **Save As** to create a custom template. 
 
+Copy and paste the following code snippet into the Filter Layout. The following image shows the delta (highlighted in yellow) that can be used to modify an existing template.
 
 
     <?xml version="1.0" encoding="utf-8" ?>
@@ -139,32 +150,32 @@ Below is the new code snippet to copy and paste into the Filter Layout, and the 
     </filter>
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of fetchXML with highlighted new code for filter layout](./field-service/media/schedule-board-tab-settings-filter-layout-yellow.png)
+> ![Screenshot of fetchXML with highlighted new code for filter layout](../field-service/media/schedule-board-tab-settings-filter-layout-yellow.png)
 
 ## Step 5: Modify the query
 
-The last step is to modify the actual query and include the new filter (the “le” operator only leaves resources with a cost score less or equal to the one selected in the filter panel). Scroll to **Retrieve Resources Query**. 
+Finally, we'll modify the actual query and include the new filter (the “le” operator only leaves resources with a cost score less than or equal to the one selected in the filter panel). Scroll to **Retrieve Resources Query**. 
 
-Use the button and Save As to create a custom template. The existing code if lengthy, so below are only the code snippets to paste within an existing resource query.
+Use the gear button and **Save As** to create a custom template. The existing code is lengthy, so below are only the code snippets to paste within an existing resource query.
 
-After 
+After this line: 
             
         <entity name="bookableresource">:
 
-paste the following
+Paste the following:
 
         <attribute name="tsp_resourcecost" alias="resourcecost" groupby="true"/>
 
-See this image for reference:
+See the following image for reference:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of code edit to resource query](./field-service/media/schedule-board-tab-settings-resource-query-snippet1.png)
+> ![Screenshot of code edit to resource query](../field-service/media/schedule-board-tab-settings-resource-query-snippet1.png)
 
-After the ending
+After the ending:
 
             </filter> tag of the <!-- Territory filter -->
 
-Paste the following
+Paste the following:
 
 		<filter type="or" ufx:if="$input/ResourceCost">
 			<condition attribute="tsp_resourcecost" operator="le">
@@ -172,19 +183,20 @@ Paste the following
 			</condition>
 		</filter>
 
-See this image for reference:
+See the following image for reference:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of code edit to resource query](./field-service/media/schedule-board-tab-settings-resource-query-snippet2.png)
+> ![Screenshot of code edit to resource query](../field-service/media/schedule-board-tab-settings-resource-query-snippet2.png)
 
 
 ## Step 6: Test your new schedule board
-In the screenshot below I have defined a maximum cost factor of 5 and ascending sort order based on cost.
+
+Back on the schedule board we've been working on, you'll see that we have defined a maximum cost factor of 5 and ascending sort order based on cost. See the following screenshot for reference.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of final result entering 5 for resource cost on the schedule board](./field-service/media/schedule-board-tab-settings-tutorial-end.png)
+> ![Screenshot of final result entering 5 for resource cost on the schedule board](../field-service/media/schedule-board-tab-settings-tutorial-end.png)
 
-### See also
+### Additional notes
 
-[July 2017 update for Field Service and Project Service Automation blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1)
+- See the [July 2017 update for Field Service and Project Service Automation blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1) for more general information about schedule board extensibility. 
 
