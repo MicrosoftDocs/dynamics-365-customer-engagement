@@ -68,6 +68,8 @@ Templates display information from the view defined for a record type (entity). 
 
 ## Step 2: Customize the data in Excel
 
+<!--note from editor: The people names in the screen shots in this topic are not on my list of approved names; some of the co. names not on list (eg, Coho Winery, Litware.   -->
+
 Open the newly created template in Excel to customize the data.
 
 ![Excel template with data](media/excel-template-with-data.png "Excel template with data")
