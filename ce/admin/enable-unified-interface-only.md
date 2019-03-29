@@ -37,7 +37,7 @@ All new Dynamics 365 Customer Engagement environments (instances) and Common Dat
 |---------|---------|
 |New Trial Dynamics 365 Customer Engagement instances     | Dec 12, 2018         |
 |New Trial and Production Common Data Service environments     | Feb 2, 2019        |
-|New Production and Sandbox Dynamics 365 Customer Engagement instances     | May 17, 2019        |
+|New Production and Sandbox Dynamics 365 Customer Engagement instances     | To be announced soon        |
 
 Environments created before the scheduled release dates <!--(created before version [text needed])-->require administrators to change the environment settings to get the Unified Interface Only experience. We recommend that admins switch to this mode by following the steps at [How to enable Unified Interface Only](#how-to-enable-unified-interface-only-mode).
 
