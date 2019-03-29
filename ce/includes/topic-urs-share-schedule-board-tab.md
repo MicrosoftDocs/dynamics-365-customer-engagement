@@ -12,8 +12,8 @@ In this topic, we'll explore creating a new schedule board tab and sharing it wi
 
 ## Prerequisites
 
-- Field Service v8.0+
-- Universal Resource Scheduling v3.0+
+- Field Service v6.1+
+- Universal Resource Scheduling v1.0.2+
 
 ## Instructions
 
