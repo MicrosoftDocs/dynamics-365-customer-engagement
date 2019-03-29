@@ -42,14 +42,26 @@ See the remaining sections of this topic for information about how to work with 
 
 Domain authentication is important for two reasons:
 
-- For marketing email messages, it enables recipient email servers to confirm that the from-address shown on each of your messages actually belongs to your organization, and that your organization has approved [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
-- For externally hosted forms, it confirms that you own the domain and therefore establishes an enhanced trust relationship with your domain, which enables embedded marketing forms to be prefilled with data for known contacts.
+- For *marketing email messages*, it enables recipient email servers to confirm that the from-address shown on each of your messages actually belongs to your organization, and that your organization has approved [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
+- For *externally hosted forms*, it confirms that you own the domain and therefore establishes an enhanced trust relationship with your domain, which enables embedded marketing forms to be prefilled with data for known contacts.
 
 The primary purpose of email-domain authentication is to detect forged messages and domains, and thereby prevent spam, phishing, and other fraudulent activity. A method called _DomainKeys Identified Mail_ (DKIM) helps make these authentications possible. Domain authentication is implemented through the internet DNS system, and is based on public/private key encryption and signatures.
 
 When you error check or go live with a marketing email message, the verification system makes sure the message uses a from-address that specifies an authenticated domain registered and confirmed for your organization. You'll get a warning if you try to send a message that has a from-address that has an unregistered domain; you'll get an error if you try to send a message that uses a from-address that uses a domain that is registered as belonging to another organization. You can ignore the warning (but will probably have low deliverability), but you can't go live with the error.
 
 To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md). To learn more about embedded forms and prefilling, see [Integrate with landing pages on external websites](embed-forms.md).
+
+### Which domains to authenticate
+
+Set up as many authenticated domains as you need to cover all the from-addresses you use in your marketing emails, plus all domains and subdomains where you want to support embedded forms with prefill enabled.
+
+- When you're authenticating a domain for email, use the full domain name as it appears in your email return addresses. Email addresses take the form _&lt;MailAccount&gt;_@_&lt;domain&gt;_, so if your email address is `lamar.ferrari@contoso.com`, then the domain you need to authenticate is `contoso.com` (not `www.contoso.com` or any other subdomain).
+- When you're authenticating a domain to support prefilled forms, you must authenticate each subdomain individually. So if you have forms on `contoso.com`, `www.contoso.com`, and `events.contoso.com`, then you must set up a separate domain-authentication record for each of them and specify the full subdomain each time.
+
+> [!IMPORTANT]
+> To use form prefilling, the page hosting the form must be served over HTTPS (not HTTP).
+
+### Authenticate a domain
 
 To set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and the DNS to authenticate marketing email messages and embedded forms for a given domain:
 
@@ -64,8 +76,6 @@ To set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-market
     - **Email authentication keys for DKIM**: Prove that [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is authorized to send messages that show your organization's domain name in the from-address.
 1. Contact your DNS provider and tell them you are setting up domain authentication and DKIM so that you can do email marketing with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. They will typically provide you with an online form where you can submit the values now being provided for you by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Follow the instructions provided by your DNS provider to register all these values. (If your DNS registration is already configured with a key that matches one of the new ones you are registering now, then keep the existing key and append the new value(s) to form a comma-separated list for it.)
 1. When you are done registering the values with your DNS provider, return to your authenticated-domain record in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and select **Confirm DNS registration** on the command bar. Dynamics 365 checks to make sure the values are correctly set up and active in the DNS system. If you get a success message, then everything is working and you're done. DNS registration may require up to 24 hours to take effect, so try again later if your registration isn't confirmed right away.
-
-Set up as many authenticated domains as you need to cover all the from-addresses you use in your marketing emails.
 
 As you are setting up an authenticated domain, you can track the progress of both its **Ownership status** and **Email status** , each of which is reported as one of the following:
 
