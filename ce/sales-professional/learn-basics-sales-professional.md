@@ -69,7 +69,7 @@ fill in the fields for their records—and ultimately to win their business.
 
 -   What’s a record type? Each record you add to the system belongs to a certain **record type**, such as an account, contact, lead, or opportunity.
 
-## Quick Create – Enter new records fast
+## Quick Create—enter new records fast
 
 The Quick Create command makes it fast and easy to enter almost any type of information into the system. The command is on the nav bar, so it’s available whenever you need to enter new info into the system.
 
