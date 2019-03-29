@@ -157,7 +157,7 @@ An administrator can use the **Advanced Settings** page to upload the Word templ
 
 4.  Select **Upload**.
 
-You’ll see the summary of the file you’re uploading.
+    You’ll see the summary of the file you’re uploading.
 
 5.  Select **Finish**.
 
