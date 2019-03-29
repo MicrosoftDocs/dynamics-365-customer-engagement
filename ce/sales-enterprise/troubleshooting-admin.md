@@ -142,14 +142,29 @@ If the issue still persists, try to [Disable custom JavaScript](#disable-custom-
     > [!div class="mx-imgBorder"]
     > ![Open form editor](media/troubleshooting-javascript-form-editor.png "Open form editor")
 
-2. Select **Edit Properties** on the form editor.
-    The **Tab Properties** dialog opens.
+2. Select **Form Properties** on the form editor.
 
-3. Select **Events** tab and on the **Events Handlers** section, select **+ Add**.
+    > [!div class="mx-imgBorder"]
+    > ![Edit form page](media/troubleshooting-javascript-form-editor-edit-properties.png "Edit form page")
 
+    The **Form Properties** dialog opens.
 
+3. On the **Events** tab, Select the control **OnLoad** from the **Events** dropdown and choose the custom JavaScript file.  
 
+    > [!div class="mx-imgBorder"]
+    > ![Event control selection](media/troubleshooting-javascript-form-properties-event-control-selection.png "Event control selection")
 
+4. Select **Edit**. In this example, we have selected the custom JavaScript file **eg_opportunity** to edit.
+   
+    > [!div class="mx-imgBorder"]
+    > ![Handler properties dialog](media/troubleshooting-javascript-handler-properties-dialog.png "Handler properties dialog") 
+
+5. Uncheck the **Enabled** option and select OK.
+ 
+    > [!div class="mx-imgBorder"]
+    > ![Uncheck enabled option](media/troubleshooting-javascript-handler-properties-uncheck-enabled.png "Uncheck enabled option") 
+ 
+6. Publish the customizations.
 
 If the issue still persists, try to [Deactivate custom plugin](#deactivate-custom-plugin) or [Deactivate custom workflow process](#deactivate-custom-workflow-process).
 
@@ -174,6 +189,7 @@ If the issue still persists, try to [Deactivate custom plugin](#deactivate-custo
 
 ## Unable to see data in certain columns in entity views
 
+**Reason:**
 
 
 ## Unable to see some records in the entity views
