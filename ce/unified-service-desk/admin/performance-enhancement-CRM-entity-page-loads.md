@@ -136,9 +136,24 @@ To skip inline navigation for certain entities, a system Administrator must conf
 
 ## Block second navigation in Chrome Process pooling
 
-When an application (hosted control) is initialized and you do an inline navigation to another entity page using the same application (hosted control), then the second navigation is also inline.
+When an application (hosted control) is initialized and you do an inline navigation to another entity page using the same application (hosted control), then the second navigation is also inline. If you've specific window navigation rule between the same entity type with the **Route Window** action and **Inplace** type, then the window navigation rule triggers the rule in a loop causing Unified Service Desk to crash. 
 
-To block the second inline navigation, add the **BlockChromePoolingSecondNavigation** UII option and set the value as **True**.
+For example, with Chrome Process pooling, if you've set window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **Inplace** type, then window navigation rule loops in a recursive manner causing Unified Service Desk to crash.
+
+To avoid the crash of Unified Service Desk, you can perform the following:
+
+- Remove or change the window navigation rule
+- Add the **BlockChromePoolingSecondNavigation** UII option
+
+### Remove or change the window navigation rule
+
+Window navigation rule for same entity navigation, you can remove or delete the window navigation rule itself as with the Chrome Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
+
+Window navigation rule for different entity navigation, you can change the window navigation rule to be more specific from which entity you want the navigation to happen. For example, you can set the window navigation rule from Contact or a Case entity to the Account entity type with the **Route Window** action and **Inplace** type.
+
+### Add the BlockChromePoolingSecondNavigation UII option
+
+If you face challenges to change the window navigation rule, you can block the second inline navigation by adding the **BlockChromePoolingSecondNavigation** UII option and set the value as **True**.
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 
@@ -161,4 +176,3 @@ To block the second inline navigation, add the **BlockChromePoolingSecondNavigat
 ## See also
 
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
- 
