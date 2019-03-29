@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-create-data
 title: "Use XRM tooling to create data (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Use CrmServiceClient class to create data on Dynamics 365 for Customer Engagement"
 ms.custom: 

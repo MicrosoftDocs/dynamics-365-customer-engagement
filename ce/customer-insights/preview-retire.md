@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/dynamics365/ai/customer-insights/overview
 title: Dynamics 365 Customer Insights
 description: Introducing Dynamics 365 Customer Insights.
 keywords: dynamics 365; customer insights
