@@ -70,7 +70,7 @@ search.app:
 -   All other queues are public. Everyone with read privileges for the queue entity will be able to see these queues.  
 
 > [!IMPORTANT]
-> Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to records in a private queue to a specific set of users, you can adjust permissions for the queue. See [Dynamics 365 security model](../developer/security-dev/security-model.md) for information on how to adjust permissions.
+> Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../developer/security-dev/security-model.md).
   
 <a name="BKMK_QueueAttributes"></a>   
 ## Attributes used to manage queues  

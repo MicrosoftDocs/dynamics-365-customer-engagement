@@ -54,7 +54,7 @@ For example, you could create separate queues for first tier and second tier pro
 - **Public queues:** Create public queues to let everyone in the organization view the queue and all the items it contains.
 
 > [!IMPORTANT]
-> Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to records in a private queue to a specific set of users, you can adjust permissions for the queue. See [Dynamics 365 security model](../developer/security-dev/security-model.md) for information on how to adjust permissions.
+> Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../developer/security-dev/security-model.md).
 
 > [!NOTE]
 > With the Customer Engagement apps version 9.1 release, queues in service management are available in the Customer Service Hub. We recommend that you create and manage queues using the new experience.
