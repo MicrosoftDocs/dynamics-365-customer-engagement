@@ -1,7 +1,7 @@
 ---
 title: "Set up Power BI integration with Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
 description: "Learn how to set up Power BI integration with your portal."
-ms.date: 26/03/2019
+ms.date: 29/03/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -60,18 +60,18 @@ Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to
 
 4. Select **Disable** in the confirmation message. While Power BI visualization is being disabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI visualization is disabled.
 
-## Enable Power BI Embedded service
+## Enable the Power BI Embedded service
 
-Enabling Power BI Embedded service allows you to embed dashboards and reports created in the new workspace of Power BI. The dashboards and reports are embedded on web pages in a portal by using the powerbi Liquid tag.
+Enabling the Power BI Embedded service allows you to embed dashboards and reports created in the new workspace of Power BI. The dashboards and reports are embedded on webpages in a portal by using the powerbi Liquid tag.
 
-**Pre-requisites**: Before enabling Power BI Embedded service, you must ensure that you have created your dashboards and reports in the new workspace in Power BI. After creating the workspace, provide admin access to the global administrator so the workspaces are displayed in Portal Admin Center. For more information on creating new workspaces and adding access to them, see [Create the new workspaces (preview) in Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces).
+**Prerequisites**: Before enabling the Power BI Embedded service, ensure that you have created your dashboards and reports in the new workspace in Power BI. After creating the workspace, provide admin access to the global administrator so the workspaces are displayed in the Portal Admin Center. For more information on creating new workspaces and adding access to them, see [Create the new workspaces (preview) in Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces).
 
 **Power BI Embedded service limitations**: For information on limitations, see [Considerations and limitations](https://docs.microsoft.com/en-us/power-bi/developer/embed-service-principal#considerations-and-limitations).
 
 > [!NOTE]
 > Ensure that Power BI visualization is enabled for the powerbi Liquid tag to work.
 
-1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page, and select the **Applications** tab.
 
 2. Select the name of the portal for which you want enable Power BI Embedded service, and then select **Manage**.
 
@@ -86,19 +86,22 @@ Enabling Power BI Embedded service allows you to embed dashboards and reports cr
     > ![Select Power BI workspaces](media/enable-powerbi-embedded-window.png "Select Power BI workspaces")
     
     > [!NOTE]
-    > - After adding the workspaces to the **Selected workspaces list**, the databases and reports are rendered after a few minutes.
+    > - After you add workspaces to the **Selected workspaces** list, the databases and reports are rendered after a few minutes.
     > - Copy the portal's application ID displayed in this window.
 
-5. Select **Enable**. While Power BI Embedded service is being enabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI Embedded service is enabled.
+5. Select **Enable**. While Power BI Embedded service is being enabled, the portal restarts and is unavailable for a few minutes. A message appears when Power BI Embedded service is enabled.
 
-You must now create a security group and add it to your Power BI account. For more information, see [Create security group and add to Power BI account](#create-security-group-and-add-to-power-bi-account).
+You must now create a security group, and add it to your Power BI account. For more information, see [Create security group and add to Power BI account](#create-security-group-and-add-to-power-bi-account).
 
 ### Create security group and add to Power BI account
 
-After enabling Power BI Embedded service integration, you must create a security group in Azure Active Directory, add a member to it, and then add the security group in  Power BI through Power BI Admin portal. This will allow the dashboards and reports created in new workspaces of Power BI to be displayed in portal.
+After enabling the Power BI Embedded service integration, you must create a security group in Azure Active Directory, add a member to it, and then add the security group in Power BI through the Power BI admin portal. This allows the dashboards and reports created in new Power BI workspaces to be displayed in the portal.
 
 > [!NOTE]
-> You must login with the same Global administrator user that you used to enable the Power BI Embedded service.
+> You must sign in with the same Global administrator user that you used to enable the Power BI Embedded service.
+
+<!--note from editor: Should "user" in sentence above be "account", as below?   -->
+
 
 **Step 1: Create a security group**
 
@@ -106,15 +109,15 @@ After enabling Power BI Embedded service integration, you must create a security
 
 2. Select **Azure Active Directory**, **Groups**, and then select **New group**.
 
-3. On the **Group** page, enter the information as follows:
+3. On the **Group** page, enter the following information:
 
-    - **Group type**: Security
+    - **Group type**: Security.
 
-    - **Group name**: Portal Power BI Embedded service
+    - **Group name**: Portal Power BI Embedded service.
 
     - **Group description**: This security group is used for Portal and Power BI Embedded service integration.
 
-    - **Membership type**: Assigned
+    - **Membership type**: Assigned.
 
     > [!div class=mx-imgBorder]
     > ![Create security group for Power BI Embedded service](media/powerbi-embed-security-group.png "Create security group for Power BI Embedded service")
@@ -123,13 +126,13 @@ After enabling Power BI Embedded service integration, you must create a security
 
 **Step 2: Add group member**
 
-**Pre-requisite**: Before adding a member to the security group, you must have the portal's application ID with you. The application ID is displayed while enabling Power BI Embedded service integration.
+**Prerequisite**: Before adding a member to the security group, you must have the portal's application ID with you. The application ID is displayed while enabling Power BI Embedded service integration.
 
 1. Sign in to the [Azure portal](https://portal.azure.com) using a Global administrator account for the directory.
 
 2. Select **Azure Active Directory**, and then select **Groups**.
 
-3. From the **Groups - All groups** page, search for the **Portal Power BI Embedded service** group and select it.
+3. From the **Groups - All groups** page, search for the **Portal Power BI Embedded service** group, and select it.
 
     > [!div class=mx-imgBorder]
     > ![Search and select the security group for Power BI Embedded service](media/search-security-group.png "Search and select the security group for Power BI Embedded service")
@@ -156,18 +159,18 @@ After enabling Power BI Embedded service integration, you must create a security
 
 4. Under the **Developer settings** section, select **Allow service principals to use Power BI APIs**.
 
-5. In the **Specific security groups** field, search for the **Portal Power BI Embedded service** group and select it.
+5. In the **Specific security groups** field, search for the **Portal Power BI Embedded service** group, and select it.
 
     > [!div class=mx-imgBorder]
     > ![Add security group in Power BI Admin portal](media/add-sg-powerbi.png "Add security group in Power BI Admin portal")
 
 6. Select **Apply**.
 
-Customizers can now use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to embed Power BI dashboards and reports from the new workspaces in Power BI on the web pages in a portal. To use Power BI Embedded service, the authentication type must be specified as **powerbiembedded**. While embedding the Power BI content, customizers can use [filter parameters](https://docs.microsoft.com/en-us/power-bi/service-url-filters) to create personalized views. More information: [powerbi Liquid tag](dynamics-entity-tags.md#powerbi)
+Customizers can now use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to embed Power BI dashboards and reports from new Power BI workspaces on webpages in a portal. To use Power BI Embedded service, the authentication type must be specified as **powerbiembedded**. While embedding the Power BI content, customizers can use [filter parameters](https://docs.microsoft.com/en-us/power-bi/service-url-filters) to create personalized views. More information: [powerbi Liquid tag](dynamics-entity-tags.md#powerbi).
 
 ### Manage Power BI Embedded service
 
-1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page, and select the **Applications** tab.
 
 2. Select the name of the portal for which you want update or disable Power BI Embedded service, and then select **Manage**.
 
