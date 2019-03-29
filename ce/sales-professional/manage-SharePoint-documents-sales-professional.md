@@ -133,9 +133,11 @@ To upload an existing document to SharePoint from your app:
 
 ## Manage SharePoint locations
 
+<!--note from editor: In List item #2 below, "<location name>" isn't rendering in the built file.  -->
+
 You can create new or edit existing SharePoint locations from your app.
 
-In the **Documents** list
+In the **Documents** list:
 
 1.  To open the location, on the command bar, select **Open Location**, and then
     select the location.
