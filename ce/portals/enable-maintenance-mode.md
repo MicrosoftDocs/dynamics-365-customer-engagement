@@ -1,5 +1,5 @@
 ---
-title: "Enable maintenance mode with Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
+title: "Enable maintenance mode with the Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
 description: "Learn how to enable maintenance mode with your portal."
 ms.date: 29/03/2019
 ms.service: crm-online
@@ -53,7 +53,7 @@ You can enable maintenance mode on your portal to provide a consistent message, 
 
     - **Custom page URL**: This field is enabled only when you select the option to display a custom HTML page. You must ensure that the page URL you provide is publicly accessible. If the specified HTML page can't be reached, the default page is displayed with a note to the administrators.
 
-5. Select **Enable**. While maintenance mode is being enabled, the portal restarts and will be unavailable for a few minutes. 
+5. Select **Enable**. While maintenance mode is being enabled, the portal restarts and is unavailable for a few minutes. 
 
     > [!div class=mx-imgBorder]
     > ![Enable maintenance mode settings](media/enable-maint-mode.png "Enable maintenance mode settings")
