@@ -58,8 +58,8 @@ After you provide these details and select **Add**, a user is automatically crea
 
 7.  In the **Role** drop-down list, select a role that you want to assign to the user. You must assign at least one role to the user at this time. To assign multiple roles, see "Assign a security role to the user."
 
-    >   [!IMPORTANT] 
-    >   Assign a role with only the privileges the user needs.
+    >[!IMPORTANT] 
+    >Assign a role with only the privileges the user needs.
 
 8.  Under **Password**, select the **User must create a new password when signing in for the first time** check box if you want the user to enter a new
     password when they sign in.
@@ -68,8 +68,8 @@ After you provide these details and select **Add**, a user is automatically crea
 
 10.  Select **Add**.
 
->   [!NOTE] 
->   If there’s a single license type for your organization, a license is automatically assigned to users. If there are no licenses left, a user will be created but no license will be assigned. The user will not be able to use Dynamics 365 for Sales Professional until a license is assigned.
+>[!NOTE] 
+>If there’s a single license type for your organization, a license is automatically assigned to users. If there are no licenses left, a user will be created but no license will be assigned. The user will not be able to use Dynamics 365 for Sales Professional until a license is assigned.
 
 ## Assign a security role to a user
 
@@ -87,7 +87,8 @@ Dynamics 365 for Sales Professional provides a default set of security roles:
 
 You can assign more than one security role to a user. The effect of multiple security roles is cumulative, which means that the user has the permissions associated with all security roles assigned to that user.
 
->   [!IMPORTANT] You must assign at least one security role to every user. The service does not allow access to any user who does not have at least one security role.
+>[!IMPORTANT] 
+>You must assign at least one security role to every user. The service does not allow access to any user who does not have at least one security role.
 
 To assign a role in Dynamics 365 for Sales Professional:
 
