@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-In 2018, we introduced [Unified Interface](https://docs.microsoft.com/powerapps/user/unified-interface), the latest generation of web app design for the PowerApps model-driven apps and Dynamics 365 Customer Engagement for apps. It brings the best in usability, accessibility, functionality, and speed to every user. Improve how your business applications run by using only the Unified Interface. To know how to enable it, see [How to enable Unified Interface Only](#how-to-enable-unified-interface-only-mode). For more information about it, see [What experiences are available in Unified Interface Only](#what-experiences-are-available-in-unified-interface-only-mode) and [FAQs](#faqs).
+In 2018, we introduced [Unified Interface](https://docs.microsoft.com/powerapps/user/unified-interface), the latest generation of web app design for the PowerApps model-driven apps and Dynamics 365 Customer Engagement apps. It brings the best in usability, accessibility, functionality, and speed to every user. Improve how your business applications run by using only the Unified Interface. To learn how to enable it, see [How to enable Unified Interface Only](#how-to-enable-unified-interface-only-mode). For more information, see [What experiences are available in Unified Interface Only](#what-experiences-are-available-in-unified-interface-only-mode) and [FAQs](#faqs).
 
 ## When does Unified Interface Only experience become available, and which environments are affected?
 
@@ -53,7 +53,7 @@ Environments created before the scheduled release dates <!--(created before vers
 
 Unified Interface Only mode provides easier and quicker access to apps, and gives users the ease of working in simple purpose-built apps. Users with just one app available to their security roles land in the app after signing in using the environment URL (for e.g. https://contoso.crm.dynamics.com/). The first page they see is determined by the first page of the app. 
 
-Users with multiple apps see the list of apps available to them, and can navigate to them by clicking on the app tile. 
+Users with multiple apps see the list of apps available to them, and can navigate to them by clicking the app tile. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/uci-apps-home-page.png "Unified interface apps")
@@ -74,7 +74,7 @@ If no app is referenced in the URL, the record or page opens without any navigat
 
 ### Dynamics 365 - custom
 
-The legacy web client app, also known as *Dynamics 365 - custom*, is hidden from end users when a new environment is provisioned. It is always visible to those with System Administrator and System Customizer roles, and to other custom roles with similar privileges. The legacy web client app should only be used to check for backwards compatibility while you migrate your environments to the use of Unified Interface.
+The legacy web client app, also known as *Dynamics 365 - custom*, is hidden from end users when a new environment is provisioned. It is always visible to those with System Administrator and System Customizer roles, and to other custom roles with similar privileges. The legacy web client app should only be used to check for backwards compatibility while you migrate your environments to Unified Interface.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/dynamics-365-custom.png "Dynamics 365 - custom legacy app")
