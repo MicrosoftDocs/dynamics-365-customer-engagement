@@ -93,7 +93,7 @@ Enabling the Power BI Embedded service allows you to embed dashboards and report
 
 You must now create a security group, and add it to your Power BI account. For more information, see [Create security group and add to Power BI account](#create-security-group-and-add-to-power-bi-account).
 
-### Create security group add to Power BI account
+### Create security group and add to Power BI account
 
 After enabling the Power BI Embedded service integration, you must create a security group in Azure Active Directory, add a member to it, and then add the security group in Power BI through the Power BI admin portal. This allows the dashboards and reports created in new Power BI workspaces to be displayed in the portal.
 
