@@ -1,7 +1,7 @@
 ---
 title: "Release history (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 03/21/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -51,6 +51,8 @@ The following are topics for features that were delivered out of band since the 
 
 |New and updated topics|Description of changes|  
 |----------------------------|----------------------------|  
+|[Update your apps to Unified Interface](update-apps-to-unified-interface.md)| Added new topic.|
+|[Determine your environment's organization ID and name](determine-org-id-name.md)| Added new topic.|
 |[Purchase and assign Dynamics 365 for Customer Engagement apps (online) licenses](purchase-assign-online-licenses.md)| Added information about PowerApps licensing.|
 |[What's new with instance management](new-instance-management.md)|New topic.|
 |[Common Data Service instances](common-data-service-instances.md)|New topic.|

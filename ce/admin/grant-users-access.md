@@ -47,7 +47,7 @@ To have users up and running in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-onli
   
  Using roles is a powerful way to group a set of rights that are common to a job title or business unit. This way, the administrator can grant a whole set of permissions to users simply by assigning a user or group of users to a given role.  
   
-## Step One: Provision users, and assign licenses and administrative roles in the Office 365 admin center  
+## Step One: Provision users, and assign licenses and administrative roles in the Microsoft 365 admin center  
  Your organization’s subscription to Customer Engagement apps provides access to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] through a global administrator account. The global administrator manages every aspect of the subscription and may add subscriptions to other [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)].  
   
  As the global administrator for your organization, one of your first tasks is to create users in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. This registers users in the system and enables users to be licensed to use services available within the online service environment. You decide which service you want your users to have by assigning a license for that service to a user. For instructions about creating users in the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)], see [Create or edit users in Office 365](http://go.microsoft.com/fwlink/p/?LinkId=251998). For instructions about assigning a license to a user, see [Assign or remove licenses, or view a list of unlicensed users](http://go.microsoft.com/fwlink/p/?LinkId=255449).  

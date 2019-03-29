@@ -142,7 +142,7 @@ To set up geocoding to enable location awareness for scheduling and routing, def
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Dynamics 365 for Customer Engagement user record address](media/users-14.png) 
 
-If there isn't already an address for the user, navigate to the Office 365 admin center and enter one. To display the address in the Dynamics 365 for Customer Engagement organization, refresh the page.
+If there isn't already an address for the user, navigate to the Microsoft 365 admin center and enter one. To display the address in the Dynamics 365 for Customer Engagement organization, refresh the page.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of office 365 user](media/users-15.png) 

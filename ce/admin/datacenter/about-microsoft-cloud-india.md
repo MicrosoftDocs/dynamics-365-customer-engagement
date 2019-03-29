@@ -42,7 +42,7 @@ search.app:
   
 ### How do I find what country or region my account is under?  
   
-1. Sign in to [https://portal.office.com](https://portal.office.com).  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com).  
   
 2. In the upper-right corner of the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] admin center menu bar, click your organization.  
   

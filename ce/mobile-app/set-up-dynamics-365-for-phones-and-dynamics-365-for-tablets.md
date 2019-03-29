@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/07/2019
+ms.date: 03/26/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -62,7 +62,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
 > You haven't been authorized to use this app. Check with your system administrator to update your settings.  
 > 
 > [!NOTE]
-> [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 for Customer Engagement apps organization through [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. However, there is not a new event type that indicates the access was through [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The audit login events would appear as **User Access via Web Services**.  
+> [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 for Customer Engagement apps organization through [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. However, there is not a new event type that indicates the access was through [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The audit login events would appear as **User Access via Web**.  
   
  In addition, particularly if you have created a custom security role, validate that these entities have **Read** permission.  
   
