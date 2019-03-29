@@ -6,7 +6,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 02/14/2019
+ms.date: 03/28/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -24,8 +24,16 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals. 
+The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:
 
-This English-language document explains the resource management capabilities of the Project Service app: 
+- [Resource management home page](../resource-management-home-page.md)
+- [Key concepts](../reports-key-concepts.md)
+- [Fulfilling resource requests](../resource-management-fulfill-requests.md)
+- [Proposing resources](../resource-management-propose-resources.md)
+- [Booking resources](../resource-management-book-resources-scheduleboard.md)
+- [Soft-book requirements](../resource-management-softbook-requirements.md)
+- [Skills and proficiency models](../resource-management-skills-proficiency.md)
+- [Resource management FAQ](../resource-management-faq.md)
 
-> [Download PDF of the resource management guide](https://go.microsoft.com/fwlink/?linkid=2006724)
+> [!NOTE]
+> This topic will be removed in a future documentation update. 

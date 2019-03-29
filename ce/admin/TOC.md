@@ -4,6 +4,7 @@
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
 ## [About Unified Interface](about-unified-interface.md)
+## [Enable Unified Interface Only](enable-unified-interface-only.md) 
 ## [Update apps to Unified Interface](update-apps-to-unified-interface.md)
 ## [Enable hybrid experience](enable-hybrid-experience.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
@@ -101,6 +102,8 @@
 # [Datacenter regions](../admin/datacenter/new-datacenter-regions.md)
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
 ## [Canada](../admin/datacenter/about-microsoft-cloud-canada.md)
+<!-- ## [China](../admin/datacenter/about-microsoft-cloud-china.md)
+### [21Vianet support](../admin/datacenter/21vianet-support.md) -->
 ## [Germany](../admin/datacenter/about-microsoft-cloud-germany.md)
 ## [India](../admin/datacenter/about-microsoft-cloud-india.md)
 ## [Japan](../admin/datacenter/about-microsoft-cloud-japan.md)
@@ -146,7 +149,7 @@
 ## [Data encryption](data-encryption.md)
 ## [Remove user personal data](remove-user-personal-data.md)
 ## [Manage storage](manage-storage.md)
-## [Free storage space](free-storage-space.md)
+## [Free storage space](free-storage-space.md) -->
 ## [Fixing Add License Wizard and Add Storage Wizard errors](add-license-wizard-add-storage-wizard-errors.md)
 ## [Recover database space by deleting audit logs](recover-database-space-deleting-audit-logs.md)
 ## [Enable change tracking to control data synchronization](enable-change-tracking-control-data-synchronization.md)

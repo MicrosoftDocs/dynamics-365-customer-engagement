@@ -1,7 +1,7 @@
 ---
 title: "Configure server-based authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint on-premises | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/21/2019
+ms.date: 03/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -225,7 +225,7 @@ Set-SPAuthenticationRealm -Realm $SPOContextId
   
    ```  
   
-   $ = New-SPTrustedSecurityTokenIssuer –Name "ACSInternal" –IsTrustBroker:$true –MetadataEndpoint $metadataEndpoint -RegisteredIssuerName $acsissuer  
+   $acs = New-SPTrustedSecurityTokenIssuer –Name "ACSInternal" –IsTrustBroker:$true –MetadataEndpoint $metadataEndpoint -RegisteredIssuerName $acsissuer  
   
    ```  
   
