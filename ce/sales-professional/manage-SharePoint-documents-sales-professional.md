@@ -19,21 +19,19 @@ manager: annbe
 
 # Manage your SharePoint documents and document locations in Dynamics 365 for Sales Professional
 
-With Dynamics 365 for Sales Professional, you can store your documents on SharePoint and manage them from within your app.
+With Dynamics 365 for Sales Professional, you can store your documents on Microsoft SharePoint and manage them from within your app.
 
-The documents that you create in the Sales app are stored on SharePoint, and are automatically synced to your desktop and mobile devices.
+The documents that you create in the Sales app are stored on SharePoint and are automatically synced to your desktop and mobile devices.
 
->   [!Note] 
+>[!NOTE] 
+>Before you can use SharePoint to store documents, it must be enabled by your system administrator.
 
->   Before you can use SharePoint to store the documents, it must be enabled by your system administrator.
-
->   [!Important]
-
->   This feature requires that you have an Office 365 subscription or a subscription to an online service such as SharePoint.
+>[!IMPORTANT]
+>This feature requires that you have an Office 365 subscription or a subscription to an online service such as SharePoint.
 
 ## What record types support document management?
 
-By default, SharePoint is enabled on the following entities:
+By default, SharePoint is enabled for the following entities:
 
 -   Account
 
@@ -61,16 +59,16 @@ For record types that support document management, open the record, select the *
 
 ![Documents option in Related tab](media/documents-option-related-tab.png "Documents option in Related tab")
 
-## What happens when you navigate to the Documents tab first time?
+## What happens when you navigate to the Documents tab the first time?
 
-When SharePoint is enabled, for record types that support document management, a default document location (folder) is automatically created on SharePoint the
+When SharePoint is enabled for record types that support document management, a default document location (folder) is automatically created on SharePoint the
 first time you go to the **Documents** tab. The name of the document location is in the following format: <record_name>_<record_id>.
 
 ## View existing SharePoint documents
 
-Open a view with a document grid.
+<!--note from editor: What is a "document grid"?   -->
 
-For example,
+Open a view with a document grid. For example:
 
 1.  In the site map, select **Opportunities**
 
@@ -86,9 +84,9 @@ To create a new SharePoint document in your app:
 
 1.  Go to the record you want to create the document for, and select the **Documents** tab.
 
-2.  Navigate to the document location and folder where you want to create this new document.
+2.  Navigate to the location where you want to create this new document.
 
-3.  Select **New**, and then choose a document type such as Microsoft Word, Microsoft Excel, Microsoft PowerPoint, or OneNote.
+3.  Select **New**, and then choose a document type such as Microsoft Word, Excel, PowerPoint, or OneNote.
 
     You can also create a folder from here.
 
@@ -107,9 +105,12 @@ To create a new SharePoint document in your app:
 
     Select the folder name to navigate between the folders.
 
+<!--note from editor: Change "The document is created in the folder of the current document location you’re in." to "The document is created and is located in your current location in the folder hierarchy." ?-->
+
+
 ## Upload a document
 
-To upload existing document to SharePoint from your app:
+To upload an existing document to SharePoint from your app:
 
 1.  Go to the record you want to create the document for, and select the **Documents** tab.
 
@@ -120,19 +121,17 @@ To upload existing document to SharePoint from your app:
     -   The document is created in the folder of the current document location
     you’re in.
 
-    >   [!Note] 
-    
-    >   -  You can upload a file of up to 50 MB of size. 
-    
-    >   -  If your internet connection is slow, you may get an error while uploading large files.
+    >[!NOTE] 
+    >-You can upload a file of up to 50 MB in size. 
+    >-If your internet connection is slow, you might get an error while uploading large files.
 
-4.  If files with the same name exists in SharePoint, select if you want to overwrite the files.
+4.  If a file with the same name exists in SharePoint, choose whether you want to overwrite the file.
 
 5.  Select **Upload**.
 
 ## Manage SharePoint locations
 
-You may create new or edit existing SharePoint locations from your app.
+You can create new or edit existing SharePoint locations from your app.
 
 In the **Documents** list
 
@@ -147,7 +146,7 @@ In the **Documents** list
 
     ![Dialog box to edit a SharePoint location](media/edit-sharepoint-location.png "Dialog box to edit a SharePoint location")
 
-3.  The display name, parent site, and folder name is automatically populated. Provide the new location details, and select **Save**.
+3.  The display name, parent site, and folder name are automatically populated. Provide the new location details, and select **Save**.
 
 4.  To add a location, on the command bar, select **Add Location**.
 
@@ -155,23 +154,22 @@ In the **Documents** list
 
     ![Dialog box to add a SharePoint location](media/add-sharepoint-location.png "Dialog box to add a SharePoint location")
 
-5.  The display name, parent site, and folder name is automatically populated. Change the details if required, and then select **Save**.
+5.  The display name, parent site, and folder name are automatically populated. Change the details if required, and then select **Save**.
 
 
 ## Create folders
 
-1.  To create folders to store documents, on the command bar, select **New** > **Folder**.
+1.  To create folders to store documents in, on the command bar, select **New** > **Folder**.
 
-2.  In the **Create a New Folder** dialog box, enter a name of the folder, and select **Save**.
+2.  In the **Create a New Folder** dialog box, enter a name for the folder, and select **Save**.
 
->   [!Note]
-
->   If your folder name contains a slash (/), Dynamics 365 for Sales Professional creates nested folders. For example, if you enter the folder name as Bike/2001, two folders are created: "Bike" and "2001". The 2001 folder is created inside the Bike folder.
+  >[!NOTE]
+  >If your folder name contains a slash (/), Dynamics 365 for Sales Professional creates nested folders. For example, if you enter the folder name as Bike/2001, two folders are created: "Bike" and "2001". The 2001 folder is created inside the Bike folder.
 
 ## Actions on documents
 
-When you select one or more documents in the Documents list, you can take the
-following other common SharePoint actions on the documents:
+When you select one or more documents in the Documents list, you can take these
+common SharePoint actions on the documents:
 
 -   Edit
 
@@ -186,7 +184,7 @@ following other common SharePoint actions on the documents:
 -   Edit properties
 
 
-### See Also
+### See also
 
 [Configure Dynamics 365 for Sales Professional to integrate with SharePoint](connect-with-sharepoint.md)  
 [Manage your customers](manage-accounts-contacts.md)   
