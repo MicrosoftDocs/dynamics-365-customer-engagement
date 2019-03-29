@@ -47,6 +47,8 @@ The process for using an Excel template looks like this.
 
 ### Step 1: Select an entity to analyze
 
+<!--note from editor:  People names in screen shot not on list of approved names for Dynamics 365.  -->
+
 In Dynamics 365 for Sales Professional, select a record type (entity) to analyze with the Excel template you created.
 
 For example, go to **Sales** > **Opportunities** > **My Open Opportunities**.
