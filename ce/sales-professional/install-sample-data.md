@@ -23,9 +23,9 @@ Sample data gives you something to experiment with as you learn Dynamics 365 for
 
 Or, if sample data isn’t installed on your system, you might want to add it for training purposes. Later, when you’re ready, you can remove it.
 
->   [!IMPORTANT]
->   Use sample data to learn and play around with system features. However, to
->   avoid unwanted results, don’t associate it with any data you actually need.
+>[!IMPORTANT]
+>Use sample data to learn and play around with system features. However, to
+>avoid unwanted results, don’t associate it with any data you actually need.
 
 1.  Make sure you have the System Administrator security
     role in Dynamics 365 for Sales Professional.
@@ -36,7 +36,7 @@ Or, if sample data isn’t installed on your system, you might want to add it fo
 
     -OR-
 
-  If sample data is already installed, select **Remove Sample Data**.
+    If sample data is already installed, select **Remove Sample Data**.
 
 ### See also
 
