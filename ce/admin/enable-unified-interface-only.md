@@ -62,7 +62,8 @@ Users with multiple apps see the list of apps available to them, and can navigat
 > [!div class="mx-imgBorder"] 
 > ![](media/uci-apps-home-page.png "Unified interface apps")
 
-**Note**:  This change applies to environment URL based sign-in (for example https://contoso.crm.dynamics.com/) on the web. It doesn’t affect users who sign in using home.dynamics.com or other portals. The sign in and home page experience for [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)] remains unchanged, and you can learn more at [Signing in and signing out (for iOS users)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/dynamics-365-phones-tablets-users-guide#signing-in-and-signing-out-for-ios-users) and [Signing in and signing out (for Android users)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/dynamics-365-phones-tablets-users-guide#signing-in-and-signing-out-for-android-users).
+> [!NOTE]
+> This change applies to environment URL based sign-in (for example https://contoso.crm.dynamics.com/) on the web. It doesn’t affect users who sign in using home.dynamics.com or other portals. The sign in and home page experience for [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)] remains unchanged, and you can learn more at [Signing in and signing out (for iOS users)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/dynamics-365-phones-tablets-users-guide#signing-in-and-signing-out-for-ios-users) and [Signing in and signing out (for Android users)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/dynamics-365-phones-tablets-users-guide#signing-in-and-signing-out-for-android-users).
 
 ### Run all apps in Unified Interface Only mode
 
