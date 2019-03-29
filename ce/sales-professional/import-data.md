@@ -19,6 +19,8 @@ manager: annbe
 
 # Import data into Dynamics 365 for Sales Professional
 
+<!--note from editor: I don't see the people names and co. names used in this topic on the Dynamics 365 "approved" list. -->
+
 Bring customer and sales data quickly into your app by importing it. The Sales Professional app can be used for importing data into most record types.
 
 Dynamics 365 for Sales Professional processes import in the background. After an import completes, you can review which records succeeded, failed to import,
