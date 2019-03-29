@@ -196,7 +196,7 @@ Back on the schedule board we've been working on, you'll see that we have define
 > [!div class="mx-imgBorder"]
 > ![Screenshot of final result entering 5 for resource cost on the schedule board](../field-service/media/schedule-board-tab-settings-tutorial-end.png)
 
-### Additional notes
+## Additional notes
 
 - See the [July 2017 update for Field Service and Project Service Automation blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1) for more general information about schedule board extensibility. 
 
