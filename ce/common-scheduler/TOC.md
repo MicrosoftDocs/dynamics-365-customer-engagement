@@ -4,8 +4,9 @@
 # [Resource crew scheduling](resource-crews.md)
 # [Facility scheduling](facility-scheduling.md)
 # [Resource pools](resource-pools.md)
-# [Schedule board tab settings](schedule-board-tab-settings.md)
 # [Share schedule board tabs](share-schedule-board-tab.md)
+# [Schedule board tab settings](schedule-board-tab-settings.md)
+
 
 # URS extensibility
 ## [Extensibility updates](developer/extensibility-release-notes.md)
