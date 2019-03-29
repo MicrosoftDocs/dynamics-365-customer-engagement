@@ -18,7 +18,6 @@ manager: annbe
 ---
 
 # Manage leads in Dynamics 365 for Sales Professional
-===================================================
 
 In Dynamics 365 for Sales Professional, leads are potential sales. In other words, a lead is a potential customer who must be qualified or disqualified as a sales opportunity. When a lead is qualified, it can be converted to an opportunity, account, or contact.
 
