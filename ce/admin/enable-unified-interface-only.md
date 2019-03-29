@@ -113,6 +113,10 @@ Unified Interface Only can be turned on and off in one of two ways:
 
 ## FAQs
 
+### Is there any downtime upon applying this change?
+
+No, this change applies immediately, upon reloading the page. If it doesn't, clear cache and retry.
+
 ### Business users in my environment are still using the legacy web client for all or some of the scenarios, and our business is not completely ready to move to Unified Interface. How does the Unified Interface Only setting impact my environment after the April 2019 release?
 
 This setting is preset to Off for your environment, and you are unaffected by April 2019 release. It is recommended that you take advantage of the benefits of Unified Interface early by turning Unified Interface Only mode on.
@@ -123,4 +127,3 @@ You can achieve this by [setting all apps to be Unified Interface apps](https://
 
 ### How do I resolve errors seen while using *Dynamics 365 - custom* legacy app in Unified Interface?
 If there are issues with Unified Interface, [please let us know](https://docs.microsoft.com/power-platform/admin/get-help-support).
-
