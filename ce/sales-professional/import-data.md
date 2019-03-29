@@ -19,9 +19,9 @@ manager: annbe
 
 # Import data into Dynamics 365 for Sales Professional
 
-Bring in your customer and sales data quickly into your app by importing it. It can be used for importing data into most record types.
+Bring customer and sales data quickly into your app by importing it. The Sales Professional app can be used for importing data into most record types.
 
-Dynamics 365 for Sales Professional processes imports in the background. After an import completes, you can review which records succeeded, failed to import,
+Dynamics 365 for Sales Professional processes import in the background. After an import completes, you can review which records succeeded, failed to import,
 or were partially imported. To fix the records that failed to import, export them into a separate file, fix them, and then try to import them again. You can
 delete all records associated with an import.
 
@@ -29,13 +29,13 @@ delete all records associated with an import.
 
 You can import data from the following file types:
 
--   Comma-separated value (CSV) file.
+-   Comma-separated value (CSV) files.
 
 -   Microsoft Excel templates available in Dynamics 365 for Sales. More information: [Export data or template](export-data.md).
 
 ## Prepare your file for import
 
-Follow the guidelines in this topic to make sure that your file imports
+Follow these guidelines to make sure that your file imports
 successfully:
 
 1.  Put records for each record type in a separate file.
@@ -49,35 +49,36 @@ successfully:
 
 3.  If your import file is a CSV file, make sure that it is correctly delimited. You can use double quotation marks (“) or single quotation marks (‘) as data delimiters.
 
-    -   Make sure the first line of a file is the column headings.
+    -   Make sure that the first line of a file contains the column headings.
 
-        Edit your file and add column headings (text used in the first row of a spreadsheet or file that labels the data in each column) if they are not
+    -   Edit your file and add column headings (text used in the first row of a spreadsheet or file that labels the data in each column) if they are not
         already present.
 
         >[!NOTE]
         >Make sure that the CSV file does not contain:
-         - Multiple lines in the first line (header row).
-         - Quotation marks in the first line. In Dynamics 365 for Sales Professional, quotation marks are used as data delimiters.
-         - Data separated with a semicolon (;) or comma (,). In Dynamics 365 for Sales Professional, semicolons and commas are used as field delimiters.
+         >- Multiple lines in the first line (header row).
+         >- Quotation marks in the first line. In Dynamics 365 for Sales Professional, quotation marks are used as data delimiters.
+         >- Data separated with a semicolon (;) or comma (,). In Dynamics 365 for Sales Professional, semicolons and commas are used as field delimiters.
 
-        >   [!IMPORTANT]
-
-        >   To import quickly, it will help to have your column headings match the display name (the label that is used by default when an attribute is displayed on a form, in a list, or in a report. The **Display Name** for each attribute can be changed in the **Customization** area by a user with an appropriate security role.) of fields in Dynamics 365 for Sales Professional. This will help in automatic mapping of data while you import.
+        >[!IMPORTANT]
+        >To import files quickly, it helps to have your column headings match the display name of the fields in Dynamics 365 for Sales Professional. This will help in the automatic mapping of data while you import. (The display name is a label that is used by default when an attribute is displayed on a form, in a list, or in a report. The **Display Name** field for each attribute can be changed in the **Customization** area by a user with an appropriate security role.)
 
 4.  Make sure data exists for all business-required fields.
 
-A record will only import if all Dynamics 365 for Sales Professional business-required (Attributes that are required before a record can be saved.
-Required fields are marked with an asterisk.) fields are mapped, and if the data exists in each of the source columns that are mapped to the required fields. You
-can either determine the required fields in advance, or identify missing required mappings during the import. In either case, make sure you have required
-data in each record. To determine which fields are business-required, open the form for the record type as if you were creating a new record, and identify
+A record will import only if all Dynamics 365 for Sales Professional business-required fields are mapped and if the data exists in each of the source columns that are mapped to the required fields. (Business-required fields are attributes that are required before a record can be saved.
+Required fields are marked with an asterisk.) You
+can either determine the required fields in advance or identify missing required mappings during the import. In either case, make sure you include the required
+data in each record. 
+
+To determine which fields are business-required, open the form for the record type as if you were creating a new record, and identify
 fields that are marked with a red asterisk (*).
 
 The following list shows default business-required fields for commonly imported record types:
 
 - Account: **Account Name**
 - Contact: **Last Name**
-- Lead: **Topic, Last Name, Company Name**
-- Product: **Default Unit, Unit Group, Decimals Supported**
+- Lead: **Topic**, **Last Name**, **Company Name**
+- Product: **Default Unit**, **Unit Group**, **Decimals Supported**
 
 **Example showing sample leads to import:**
 
@@ -86,14 +87,12 @@ containing leads to import. The first line contains the field names, and the
 remaining lines are imported as data.
 
 `Company,Last Name,First Name,Topic,Email,Mobile Phone
-
 “Designer Bikes”“Groth”“Brian”“Mountain
 bikes”“someone\@example.com”“555-555-0112”
-
 “Major Sporting Goods”“Bedecs”“Anna”“Components”“555-555-0171”`
 
->   [!NOTE]
->   By default, the maximum size of the files that you can import is 8 MB.
+>[!NOTE]
+>By default, the maximum size of the files that you can import is 8 MB.
 
 
 ## Import records from an Excel template
@@ -137,20 +136,19 @@ bikes”“someone\@example.com”“555-555-0112”
         By default, the **Primary Fields** section of the wizard shows all the required fields for the entity that must be mapped for the data to
         import successfully on the left side.
 
-        >   [!NOTE]
-        >   If you’ve selected an alternate key, all the fields of the alternate key also become required fields and must be mapped.
+         >[!NOTE]
+         >If you’ve selected an alternate key, all the fields of the alternate key also become required fields and must be mapped.
 
         If the column headings of your source file match the field display names, these fields will be automatically mapped. All the mapped fields
         will be shown with a green check mark.
 
-    2.  If the column headings don’t match, the unmapped fields will be shown with a Red exclamation point. Select a Dynamics 365 field to map to the
+    2.  If the column headings don’t match, the unmapped fields will be shown with a red exclamation point. Select a Dynamics 365 field to map to the
         unmapped column heading of your file.
 
         ![Review mapping page to map data](media/review-mapping-page.png "Review mapping page to map data")
 
-        >   [!TIP]
-
-        >   To quickly filter on only the unmapped fields, select **Unmapped** from the **Map Attributes** drop-down list.
+        >[!TIP]
+        >To quickly filter on only the unmapped fields, select **Unmapped** from the **Map Attributes** drop-down list.
 
         In the **Optional Fields** section, the left side shows the column headings in your source file. If the column headings match the field
         display names, the fields will be automatically selected in the corresponding drop-down lists.
@@ -171,7 +169,7 @@ bikes”“someone\@example.com”“555-555-0112”
     
         For each **Source Option Values** item, select an item from the **Dynamics 365 Option Values** list to map it, and then select **OK**.
 
-         When you are mapping the source values to items in the **Dynamics 365 Option Values** list, the Import Data Wizard temporarily adds the items from the source values to the **Dynamics 365 Option Values** list. You can map the source list values to the existing options in Dynamics 365 or to the added values. If you map to one of the added values, these new values are created in Dynamics 365 for Sales Professional.
+         When you are mapping the source values to items in the **Dynamics 365 Option Values** list, the Import Data wizard temporarily adds the items from the source values to the **Dynamics 365 Option Values** list. You can map the source list values to the existing options in Dynamics 365 or to the added values. If you map to one of the added values, these new values are created in Dynamics 365 for Sales Professional.
 
         For example, your source values and the Dynamics 365 target values could have the following values before the import starts:
 
@@ -191,13 +189,13 @@ bikes”“someone\@example.com”“555-555-0112”
         |                   | Low                                                   |
         |                   | High                                                  |
 
-        You can map Low in the source values to Cold in the Dynamics 365 target values. Also, you can map High in the source values to High in the Dynamics
+        You can map "Low" in the source values to "Cold" in the Dynamics 365 target values. Also, you can map "High" in the source values to "High" in the Dynamics
         365 target values.
 
-        Based on these mappings, the Import Data Wizard creates "High" as a Dynamics 365 target value. It does not create "Low" as a Dynamics 365 target value because you did not map any source value to the added Dynamics 365 target value of "Low".
+        Based on these mappings, the Import Data wizard creates "High" as a Dynamics 365 target value. It does not create "Low" as a Dynamics 365 target value because you did not map any source value to the added Dynamics 365 target value of "Low".
 
-        >   [!NOTE] 
-        >   You can also map a column in your source file to a field of type “Two Options” and “Multiselect Option Set” (where a field can have multiple values). You must map each **Source Option Values** to the items in the **Dynamics 365 Option Values** list. When mapping to a field of type Multiselect Option Set, if your source file includes values that aren’t available in Dynamics 365 for Sales Professional, new values won’t be created.
+        >[!NOTE] 
+        >You can also map a column in your source file to a field of type **Two Options** and **Multiselect Option Set** (where a field can have multiple values). You must map each **Source Option Values** to the items in the **Dynamics 365 Option Values** list. When mapping to a field of type **Multiselect Option Set**, if your source file includes values that aren’t available in Dynamics 365 for Sales Professional, new values won’t be created.
 
     5.  If some data in your source file references other existing records in Dynamics 365 for Sales Professional, you must map the column in the
         source file to a lookup field of Dynamics 365 for Sales Professional.
@@ -240,12 +238,12 @@ You must wait for an import job to complete before you can repair failures.
 
     - **Completed**
 
-3.  After the import is complete, the **Success**, **Errors**, and **Partial Failures** column shows the number of records that were successfully
+3.  After the import is complete, the **Success**, **Errors**, and **Partial Failures** columns show the number of records that were successfully
     imported, failed to import, or were partially imported.
 
 2.  Open the import file to view the records that did not import or were partially imported. Open the import file record.
 
-    Use the tabs to see information about failures, success, or partial failure of records during import.
+    Select appropriate tabs to see information about failures, success, or partial failure of records during import.
 
     ![General tab of the import source file](media/general-tab-import-source-file.png "General tab of the import source file")
 
@@ -297,8 +295,8 @@ To be able to import from Exchange:
 
     All the contacts from Exchange will start importing to Dynamics 365 for Sales Professional. Any changes that you make to contacts in your Exchange mailbox are automatically updated in the contact records in Dynamics 365 for Sales Professional.
 
->   [!IMPORTANT]
->   You won’t be able to remove or untrack a contact from Dynamics 365 for Sales Professional. Use the Dynamics 365 App for Outlook to do this.
+>[!IMPORTANT]
+>You won’t be able to remove or untrack a contact from Dynamics 365 for Sales Professional. Use the Dynamics 365 App for Outlook to do this.
 
 
 ### See also
