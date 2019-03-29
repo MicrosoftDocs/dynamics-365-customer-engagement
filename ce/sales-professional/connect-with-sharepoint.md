@@ -34,9 +34,9 @@ To be able to configure SharePoint, you must have:
 
 ## Integrate with SharePoint
 
-1.  In the site map, select Sales Settings, and then under Standard settings, select **Connect SharePoint**.
+1.  In the site map, select **Sales Settings**, and then under **Standard settings**, select **Connect SharePoint**.
 
-    If your organization doesn’t have a SharePoint subscription, you’ll need to first purchase a SharePoint subscription.
+    If your organization doesn’t have a SharePoint subscription, you’ll need to first purchase one.
 
 2.  On the **Connect SharePoint to Dynamics 365 for Sales** page, enter your organization’s SharePoint address, and select **Connect SharePoint**.
 
