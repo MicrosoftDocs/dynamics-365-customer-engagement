@@ -51,7 +51,7 @@ Environments created before the scheduled release dates <!--(created before vers
 
 ### New immersive home page experience on web
 
-Unified Interface Only mode provides easier and quicker access to apps, and gives users the ease of working in simple purpose-built apps. Users with just one app available to their security roles land in the app after signing in using the environment URL (for e.g. https://contoso.crm.dynamics.com/). The first page they see is determined by the first page of the app. 
+Unified Interface Only mode provides easier and quicker access to apps, and gives users the ease of working in simple purpose-built apps. Users with just one app available to their security roles land directly in the app after signing in using the environment URL (for e.g. https://contoso.crm.dynamics.com/). The first page they see is determined by the first page of the app. 
 
 Users with multiple apps see the list of apps available to them, and can navigate to them by clicking the app tile. 
 
