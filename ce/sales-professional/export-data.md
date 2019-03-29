@@ -17,8 +17,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-Export data or template in Dynamics 365 for Sales Professional
-==============================================================
+# Export data or a template in Dynamics 365 for Sales Professional
 
 Present sales-related information to someone who doesn’t have access to the Sales Professional app by exporting the data to a Microsoft Excel static worksheet.
 
@@ -27,7 +26,6 @@ You can export just the data from a list to an Excel static file, or you can exp
 When you export a template, a ready-made worksheet with column headings matching to that of the fields of the record is created for you. The Excel template can be used to seamlessly import records into the Sales app.
 
 ## Where do I find the export options?
------------------------------------
 
 Data and templates can be exported from:
 
