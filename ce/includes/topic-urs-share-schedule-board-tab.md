@@ -1,10 +1,10 @@
 You can have multiple schedule board tabs, each showing different resources and requirements. Typically, these are divided by territory or lines of business.
 
-A schedule board tab can be:
+A schedule board tab can be shared:
 
-- publicly available to all schedule board viewers (mostly dispatchers), 
-- private for just the person who created it
-- available only to specified people
+- publicly, available to all schedule board viewers (mostly dispatchers), 
+- privately for just the person who created it
+- only to specified people
 
 By default, there exists a schedule board tab called **Initial Public View** that includes all resources and requirements. 
 
