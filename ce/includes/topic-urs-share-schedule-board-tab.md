@@ -48,13 +48,10 @@ This shows all schedule board tab records and you should see the one you just cr
 > ![Screenshot of advanced find results showing all schedule board tabs](../field-service/media/schedule-board-settings-advanced-find-results.png)
 
 
-Double-click the record to go to the form. 
-
+Double-click the record to go to the form, and select **Share** on the top ribbon.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the share button for a specific schedule board setting](../field-service/media/schedule-board-share.png)
-
-Select **Share** on the top ribbon.
 
 
 Finally, use the pop up screen to add users and teams to share the schedule board with. Any user or team added here can see the schedule board tab, given they also have access to the schedule board.
