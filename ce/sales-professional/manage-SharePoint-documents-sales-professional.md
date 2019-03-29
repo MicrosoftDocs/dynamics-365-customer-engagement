@@ -55,6 +55,8 @@ By default, SharePoint is enabled for the following entities:
 
 ## Where do you access the documents from?
 
+<!--note from editor: Maria Campbell not on Approved list of names that I have access to.   -->
+
 For record types that support document management, open the record, select the **Related** tab, and then select **Documents**.
 
 ![Documents option in Related tab](media/documents-option-related-tab.png "Documents option in Related tab")
@@ -118,12 +120,12 @@ To upload an existing document to SharePoint from your app:
 
 3.  Select the file you want to upload. You can select only one file at a time.
 
-    -   The document is created in the folder of the current document location
+    The document is created in the folder of the current document location
     you’re in.
 
     >[!NOTE] 
-    >-You can upload a file of up to 50 MB in size. 
-    >-If your internet connection is slow, you might get an error while uploading large files.
+    >You can upload a file of up to 50 MB in size. 
+    >If your internet connection is slow, you might get an error while uploading large files.
 
 4.  If a file with the same name exists in SharePoint, choose whether you want to overwrite the file.
 
