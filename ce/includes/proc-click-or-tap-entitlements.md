@@ -1,1 +1,1 @@
-Choose **Entitlements**.
+choose **Entitlements**.

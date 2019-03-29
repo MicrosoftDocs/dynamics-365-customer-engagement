@@ -106,7 +106,7 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
   
  If an update is available, a notification is displayed on the **Gamification Settings** page.   
   
-1. Sign in to [https://portal.office.com](https://portal.office.com) with your global administrator or [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)] system administrator credentials.  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your global administrator or [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)] system administrator credentials.  
   
 2. Click **Admin centers** > **Dynamics 365 for Customer Engagement**.  
   

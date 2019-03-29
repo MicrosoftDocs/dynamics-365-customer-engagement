@@ -85,7 +85,7 @@ You may request migration to the Australia datacenter upon datacenter availabili
   
 ### How do I find what country or region my account is under?  
   
-1. Sign in to [https://portal.office.com](https://portal.office.com).  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com).  
   
 2. In the upper-right corner of [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)], choose your organization.  
   
@@ -138,7 +138,7 @@ You may request migration to the Australia datacenter upon datacenter availabili
   
 - The account country/region can be found in the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)].  
   
-  1. Sign in to [https://portal.office.com](https://portal.office.com).  
+  1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com).  
   
   2. In the upper-right corner of [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)], choose your organization.  
   
@@ -163,7 +163,7 @@ You may request migration to the Australia datacenter upon datacenter availabili
 ### How do I request my instance to be moved to the Australia datacenter?  
  You can request a move to the new Australian datacenter by submitting a technical support incident through the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)].  
   
-1. Sign in to [https://portal.office.com](https://portal.office.com).  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com).  
   
 2. Go to **Support** > **Service Requests** > **+**  
   

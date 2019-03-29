@@ -39,7 +39,7 @@ To give these administrators access to additional areas, such as the Sales, Mark
   
 ## Create a Dynamics 365 for Customer Engagement Service administrator account  
   
-1. Sign in to the [Office 365 admin center](https://portal.office.com), and then choose **Users** > **Active Users**.  
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com), and then choose **Users** > **Active Users**.  
   
 2. Select an existing user in the list. If you want to create a new administrative user, see [Create or edit users](https://support.office.com/article/Create-or-edit-users-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc) and [Assigning admin roles](https://support.office.com/article/Assign-admin-roles-in-Office-365-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
   

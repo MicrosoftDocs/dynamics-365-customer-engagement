@@ -47,7 +47,7 @@ You can manage your organization’s data storage capacity in connection with yo
   
 ## Add storage to Dynamics 365 for Customer Engagement apps (online)  
  
-As a global or billing administrator, you can purchase additional storage for your company on Office 365 Admin Center by following the steps below. [Learn how to find your global or billing administrator](../basics/find-administrator-support.md). 
+As a global or billing administrator, you can purchase additional storage for your company on Microsoft 365 admin center by following the steps below. [Learn how to find your global or billing administrator](../basics/find-administrator-support.md). 
 
 If you purchase through volume licensing or a cloud solutions provider, please contact your partner directly.  
  

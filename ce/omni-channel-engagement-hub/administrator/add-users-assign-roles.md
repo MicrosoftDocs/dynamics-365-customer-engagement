@@ -24,7 +24,7 @@ All Dynamics 365 users who are assigned the **Omni-channel administrator**, **Om
 > [!IMPORTANT]
 > To enable users for Omni-channel, your org should have successfully on-boarded to the Omni-channel public preview. Refer [Provision Omni-channel Engagement Hub](omni-channel-provision-license.md) to provision Omni-channel in your Dynamics 365 org.
 
-Use the Office 365 Admin Center to create user accounts for every user who needs access to Omni-channel Engagement Hub. For more information, see  [Create users in Dynamics 365 for Customer Engagement apps and assign security roles](../../admin/create-users-assign-online-security-roles.md).
+Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omni-channel Engagement Hub. For more information, see  [Create users in Dynamics 365 for Customer Engagement apps and assign security roles](../../admin/create-users-assign-online-security-roles.md).
 
 Follow these steps to assign Omni-channel roles to users in the Dynamics 365 web application:
 
