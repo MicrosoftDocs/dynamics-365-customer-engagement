@@ -29,6 +29,8 @@ In 2018, we introduced [Unified Interface](https://docs.microsoft.com/powerapps/
 
 ## When does Unified Interface Only experience become available, and which environments are affected?
 
+### New environments
+
 All new Dynamics 365 Customer Engagement environments (instances) and Common Data Service environments, including those created in existing tenants, will be provisioned in Unified Interface Only mode per the schedule below. [Server version info text needed]
 
 **Note**: Some geographical regions will get the changes ahead of schedule by as much as 2-3 weeks. 
@@ -39,7 +41,9 @@ All new Dynamics 365 Customer Engagement environments (instances) and Common Dat
 |New Trial and Production Common Data Service environments     | Feb 2, 2019        |
 |New Production and Sandbox Dynamics 365 Customer Engagement instances     | To be announced soon        |
 
-Environments created before the scheduled release dates <!--(created before version [text needed])-->require administrators to change the environment settings to get the Unified Interface Only experience. We recommend that admins switch to this mode by following the steps at [How to enable Unified Interface Only](#how-to-enable-unified-interface-only-mode).
+### Existing environments
+
+Environments created before the scheduled release dates <!--(created before version [text needed])-->will not get this change automatically. Administrators will have the option to change the environment settings to get the Unified Interface Only experience, and it is recommended to switch to this mode by following the steps at [How to enable Unified Interface Only](#how-to-enable-unified-interface-only-mode).
 
 > [!IMPORTANT]
 > For existing environments, it’s recommended that you:
