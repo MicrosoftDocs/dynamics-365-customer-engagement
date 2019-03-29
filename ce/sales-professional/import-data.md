@@ -86,13 +86,10 @@ The following example shows what the data might look like for a CSV file
 containing leads to import. The first line contains the field names, and the
 remaining lines are imported as data.
 
-`Company,Last Name,First Name,Topic,Email,Mobile Phone
-
-“Designer Bikes”“Groth”“Brian”“Mountain
-
-bikes”“someone\@example.com”“555-555-0112”
-
-“Major Sporting Goods”“Bedecs”“Anna”“Components”“555-555-0171”`
+`Company,Last Name,First Name,Topic,Email,Mobile Phone`
+`“Designer Bikes”“Groth”“Brian”“Mountain`
+`bikes”“someone\@example.com”“555-555-0112”`
+`“Major Sporting Goods”“Bedecs”“Anna”“Components”“555-555-0171”`
 
 >[!NOTE]
 >By default, the maximum size of the files that you can import is 8 MB.
