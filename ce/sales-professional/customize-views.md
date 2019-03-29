@@ -117,8 +117,8 @@ When a view is opened, the records displayed are sorted in the order you set whe
 columns with a primary and secondary sort order. When the view is opened, the records are sorted by the column defined as the primary sort, and then
 by the column defined as the secondary sort.  
 
->   [!NOTE]
->   You can only set primary and secondary sort on columns from the primary entity. 
+>[!NOTE]
+>You can only set primary and secondary sort on columns from the primary entity. 
 
 1.  Select the column to use as the primary or secondary sort. 
 
@@ -141,6 +141,9 @@ You can set the sort order to ascending or descending for the column defined as 
 
 When the arrow is pointing up, the sort order is ascending. When the arrow is pointing down, the sort order is descending. 
 
+
+<!--note from editor: some of the co. names in the graphic above, eg "Litware" and "Coho Winery" not on approved list that I have access to on the CELA website.  -->
+
 ## Rearrange columns in a view 
 
 You can change the order of the columns already included in your view. 
@@ -154,8 +157,8 @@ You can change the order of the columns already included in your view. 
     ![Rearrange columns](media/rearrange-columns.png "Rearrange columns")
 
   
->   [!NOTE]
->   You can also rearrange columns by using the Ctrl+X and Ctrl+V keyboard shortcuts.
+>[!NOTE]
+>You can also rearrange columns by using the Ctrl+X and Ctrl+V keyboard shortcuts.
 
 ## Remove a column from a view 
 
