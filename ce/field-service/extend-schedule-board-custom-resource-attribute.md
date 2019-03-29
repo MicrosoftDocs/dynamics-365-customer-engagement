@@ -28,6 +28,6 @@ search.app:
 
 # Customize the schedule board with a custom resource attribute
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/topic-urs-extend-schedule-board-custom-resource-attribute.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[topic-urs-extend-schedule-board-custom-resource-attribute.md](../includes/topic-urs-extend-schedule-board-custom-resource-attribute.md)]
