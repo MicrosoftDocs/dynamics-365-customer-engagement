@@ -1,7 +1,7 @@
 ---
 title: "Enable Unified Interface Only for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 ms.custom: 
-ms.date: 03/25/2019
+ms.date: 03/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: c3742b70-863a-488e-beb3-fb9d63c2e6e5
 caps.latest.revision: 5
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -31,7 +31,7 @@ In 2018, we introduced [Unified Interface](https://docs.microsoft.com/powerapps/
 
 ### New environments
 
-All new Dynamics 365 Customer Engagement environments (instances) and Common Data Service environments, including those created in existing tenants, will be provisioned in Unified Interface Only mode per the schedule below. [Server version info text needed]
+All new Dynamics 365 Customer Engagement environments (instances) and Common Data Service environments, including those created in existing tenants, will be provisioned in Unified Interface Only mode per the schedule below. 
 
 **Note**: Some geographical regions will get the changes ahead of schedule by as much as 2-3 weeks. 
 
@@ -43,7 +43,7 @@ All new Dynamics 365 Customer Engagement environments (instances) and Common Dat
 
 ### Existing environments
 
-Environments created before the scheduled release dates <!--(created before version [text needed])-->will not get this change automatically. Administrators will have the option to change the environment settings to get the Unified Interface Only experience, and it is recommended to switch to this mode by following the steps at [How to enable Unified Interface Only](#how-to-enable-unified-interface-only-mode).
+Environments created before the scheduled release dates will not get this change automatically. Administrators will have the option to change the environment settings to get the Unified Interface Only experience, and it is recommended to switch to this mode by following the steps at [How to enable Unified Interface Only](#how-to-enable-unified-interface-only-mode).
 
 > [!IMPORTANT]
 > For existing environments, it’s recommended that you:
@@ -55,9 +55,9 @@ Environments created before the scheduled release dates <!--(created before vers
 
 ### New immersive home page experience on web
 
-Unified Interface Only mode provides easier and quicker access to apps, and gives users the ease of working in simple purpose-built apps. Users with just one app available to their security roles land directly in the app after signing in using the environment URL (for e.g. https://contoso.crm.dynamics.com/). The first page they see is determined by the first page of the app. 
+Unified Interface Only mode provides easier and quicker access to apps, and gives users the ease of working in simple purpose-built apps. Users with just one app available to their security roles land directly in the app after signing in using the environment URL (for example: https://contoso.crm.dynamics.com/). The first page they see is determined by the first page of the app. 
 
-Users with multiple apps see the list of apps available to them, and can navigate to them by clicking the app tile. 
+Users with multiple apps see the list of apps available to them, and can navigate to them by selecting the app tile. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/uci-apps-home-page.png "Unified interface apps")
@@ -88,11 +88,7 @@ When Unified Interface Only mode is enabled, *Dynamics 365 - custom* opens in Un
 
 - In Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Show legacy Dynamics 365 - custom app**, select **Yes** for **Show this app to all users, not just administrators**.
 
-<!--need image-->
-
 - In the Power Platform Admin center, go to **Environments** > select an environment > **Settings** > **Behavior** > **Interface settings** > turn on **Show legacy app to everyone, not just admins**.
-
-<!--need image-->
 
 ### Advanced settings
 
@@ -113,17 +109,13 @@ Unified Interface Only can be turned on and off in one of two ways:
 
 - In Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Use the new Unified Interface only (recommended)**, select **Yes** for **Enable only the Unified Interface**.
 
-<!--need image-->
-
 - In the Power Platform Admin center, go to **Environments** > select an environment > **Settings** > **Behavior** > **Interface settings** > turn on **Use Unified Interface only**.
-
-<!--need image-->
 
 ## FAQs
 
 ### Business users in my environment are still using the legacy web client for all or some of the scenarios, and our business is not completely ready to move to Unified Interface. How does the Unified Interface Only setting impact my environment after the April 2019 release?
 
-<!--There are no automatic changes for environments created before version [need text]. -->This setting is preset to Off for your environment, and you are unaffected by April 2019 release. It is recommended that you take advantage of the benefits of Unified Interface early, by turning Unified Interface Only mode on.
+This setting is preset to Off for your environment, and you are unaffected by April 2019 release. It is recommended that you take advantage of the benefits of Unified Interface early by turning Unified Interface Only mode on.
 
 ### I want to use Unified Interface for all the apps, but still want *Dynamics 365 – custom* to open in the legacy web client as a fallback option. Is that possible?
 
@@ -132,11 +124,3 @@ You can achieve this by [setting all apps to be Unified Interface apps](https://
 ### How do I resolve errors seen while using *Dynamics 365 - custom* legacy app in Unified Interface?
 If there are issues with Unified Interface, [please let us know](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
-<!-- 
-### Can I designate an app as the default one, so that it loads as the home page instead of showing the app list?
->
-### Can I make deep links without any appId reference to always open in user’s default app?
->
-### How do things like Outlook COM Add-in work in that world, will they continue to trigger Classic UI?
->
-### Will USD continue to launch classic UI deep linked UI?
