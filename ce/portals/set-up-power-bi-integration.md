@@ -60,7 +60,7 @@ Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to
 
 4. Select **Disable** in the confirmation message. While Power BI visualization is being disabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI visualization is disabled.
 
-## Enable the Power BI Embedded service
+## Enable Power BI Embedded service
 
 Enabling the Power BI Embedded service allows you to embed dashboards and reports created in the new workspace of Power BI. The dashboards and reports are embedded on webpages in a portal by using the powerbi Liquid tag.
 
@@ -93,7 +93,7 @@ Enabling the Power BI Embedded service allows you to embed dashboards and report
 
 You must now create a security group, and add it to your Power BI account. For more information, see [Create security group and add to Power BI account](#create-security-group-and-add-to-power-bi-account).
 
-### Create a security group and add it to your Power BI account
+### Create security group add to Power BI account
 
 After enabling the Power BI Embedded service integration, you must create a security group in Azure Active Directory, add a member to it, and then add the security group in Power BI through the Power BI admin portal. This allows the dashboards and reports created in new Power BI workspaces to be displayed in the portal.
 
