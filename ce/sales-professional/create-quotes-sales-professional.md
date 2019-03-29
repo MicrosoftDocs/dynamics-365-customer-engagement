@@ -80,7 +80,7 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 When you’ve added all the details to the quote, you can send it to the customer. To directly send an email to customer with a quote attached, open the quote, and on the command bar, select **Send by Email**.
 
-![Send By Email command bar button](media/send-by-email-button.png) "Send By Email command bar button"
+![Send By Email command bar button](media/send-by-email-button.png "Send By Email command bar button")
 
 ### See also
 
