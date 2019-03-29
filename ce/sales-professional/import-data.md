@@ -87,8 +87,11 @@ containing leads to import. The first line contains the field names, and the
 remaining lines are imported as data.
 
 `Company,Last Name,First Name,Topic,Email,Mobile Phone
+
 “Designer Bikes”“Groth”“Brian”“Mountain
+
 bikes”“someone\@example.com”“555-555-0112”
+
 “Major Sporting Goods”“Bedecs”“Anna”“Components”“555-555-0171”`
 
 >[!NOTE]
@@ -216,6 +219,7 @@ bikes”“someone\@example.com”“555-555-0112”
     **Ignore** in the list under **Dynamics 365 Entity Fields**.
 
 
+<!--note from editor:   In list above (Line 171), the image after "The Option set mapping section opens:" is a link; screen shot not showing up embedded in text.  -->
 ## View the results of an import, and correct errors
 
 You must wait for an import job to complete before you can repair failures.
