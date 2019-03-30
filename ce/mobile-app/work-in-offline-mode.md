@@ -63,9 +63,9 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
 
 When the updates have download, you can check to see if mobile offline is available.
 
-1. From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then select, **Offline Status**.
+1. From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then select, **Offline Status**.
   
-   ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
+   ![Mobile Offline Status](mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
 
 2. **Offline Status**, tracks offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
 
@@ -100,7 +100,7 @@ Reconfiguring deletes all data and metadata from the cache, though you shouldn't
 
 If you sign out of one organization and sign in to another, and then use the Reconfigure option on the organization you signed in to, your metadata will remain for the organization you signed out of. To remove your metadata from the organization you signed out of, you’ll need to sign in to it and use the Reconfigure option there, as well. 
 
--	Select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis")  > **User Information** > **Reconfigure**. 
+-	Select ![Dynamics 365 for Customer Engagement apps ellipsis](mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis")  > **User Information** > **Reconfigure**. 
 
 **Capabilities available in offline mode**
 
@@ -133,9 +133,32 @@ These entities and corresponding commands available in offline mode.
 |Team |Read only	|
 |User |Read only	|
 
+**Lookup support**: Lookups are supported for the entities that are mobile offline enabled. All the entities participating in the lookup should also be offline enabled.
 
+**Offline views**: Only system views are supported in mobile offline. 
 
+**Offline search**: Available only for offline entities. User can only search one entity at a time. Only categorized search is supported in offline and not relevant search.
 
-
+> [!NOTE]
+> - The **Date** field is not available for mobile offline search.
    
-   
+**Security modelling**: Mobile offline honors the Dynamics 365 for Customer Engagement security model. It also supports the hierarchical security model.
+
+Field level security and attribute sharing are not supported for offline.
+
+If user was working on a record and lost network connection, any updates made to the record is saved in offline mode and will be synchronized to the Customer Engagement app once the user is back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
+
+> [!NOTE]
+> - Actions from offline mode are replayed automatically. The changes are played back in the same sequence as they were created/modified/ deleted. This ensure that the data state is maintained and there are no data mismatch on Dynamics 365 for Customer Engagement app.
+> - The org can enhance business functionality available in mobile offline using Xrm.Mobile.offline. For more information, see Xrm.Mobile.offline (client-side reference)
+
+**Provide Feedback**
+
+We would love to hear from you. If you have any concerns, questions or feedback.
+
+- Contact us at [d365moftc@microsoft.com](d365moftc@microsoft.com) 
+
+- Or, To provide feedback through the insider preview portal, select on the Dynamics 365 mobile offline Preview Program > **View Program feedback** > **Add Feedback**.
+
+
+   ![Provide feedback](media/feedback.png "Provide feedback")
