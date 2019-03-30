@@ -1,7 +1,7 @@
 ---
 title: "Work Offline on your mobile device (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/25/2019
+ms.date: 04/01/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -29,13 +29,32 @@ search.app:
 
 Seamless work offline with mobile offline synchronization. You can work with mobile app in offline mode when the device is disconnected from the internet. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
 
-When you're admin has enabled mobile offline, the next time that you access the mobile app, you will be prompted to download updates. Once you download the updates, you can start using the mobile app in offline mode.
+> [!IMPORTANT]
+> - This feature is currently only available for instances in the United States (US) region.  
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
+> - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-1. When you see the **Offline Updates Available** dialog box, choose **Update**. 
+WWhen your admin has enabled mobile offline, the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
+
+> [!NOTE]
+> - To use the mobile offline feature, download the latest version (13.19031.55 or greater) of the **Dynamics 365 for phones app** from the app store on your device. 
+
+- When you see the **Offline Updates Available** dialog box, choose **Update**. 
 
    ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
   
-2. You'll see a progress indicator while the updates are being downloaded. When the download load is complete, it's a good idea to verify offline mode is available.
+If you choose **Skip for now**, you will not be able to use the app in offline mode unless you download the updates. 
+
+1. To manually download the updates later, select the ellipses (…) > Offline Status.
+
+  ![Manually download updates](media/downloadupdates.png "Manually download updates")
+
+2. On the offline status page, choose **Download Customizations** to download the updates.
+
+  ![Download Customization](media/DownloadCustomization.png "Download Customization")
+
+2. Once you select update on the dialog above or download customizations from the offline status page, you will see a progress indicator while the updates are being downloaded. When the download is complete, it's a good idea to verify offline mode is available
 
     ![Download updates progress bar](media/downloadingupdatesprogress.png "Download updates progress bar")
 
@@ -44,7 +63,7 @@ When you're admin has enabled mobile offline, the next time that you access the 
 
 When the updates have download, you can check to see if mobile offline is available.
 
-1. From the nav bar, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then tap, **Offline Status**.
+1. From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then select, **Offline Status**.
   
    ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
 
@@ -53,7 +72,9 @@ When the updates have download, you can check to see if mobile offline is availa
    > [!NOTE] 
    > The status here can be **Not Available** due to an error or if you missed downlading offline updates. If the status is **Not Available** due to missing the latest offline updates, then try downloading the updates again.
  
-   - **Entity Status**, provides the offline status of each entity individually. For the available entities you can also track the last time the entity synced.
+   - **Entity Status**, provides the offline status of each entity individually. For the available entities you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
+   
+    - **Sync time**, indicates the last time your data was synced with the server.
  
      ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
  
@@ -64,3 +85,57 @@ When the updates have download, you can check to see if mobile offline is availa
 -  No Wi-Fi icon indicates that your admin has not enabled the entity to use in offline mode.
 
    ![Available entities for mobile offline](media/available_entites.png "Available entities for mobile offline")
+   
+**Sync conflict resolution**
+
+Based on the settings done by the admin, conflict errors will be resolved. If your admin has set the conflict resolution to **No**, client values win and there will be no sync errors. 
+
+If your admin has set the conflict resolution to **Yes**, server values win. In this case, while syncing changes to the server, you may see some errors which are automatically resolved. Client changes are overwritten by server values.
+
+**Clear cache from the device**
+
+If you used the mobile app on a phone or tablet temporarily and want to remove all you cache data before giving to device to someone else, you need reconfigure the app.
+
+Reconfiguring deletes all data and metadata from the cache, though you shouldn't rely on this as a security measure.
+
+If you sign out of one organization and sign in to another, and then use the Reconfigure option on the organization you signed in to, your metadata will remain for the organization you signed out of. To remove your metadata from the organization you signed out of, you’ll need to sign in to it and use the Reconfigure option there, as well. 
+
+-	Select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis")  > **User Information** > **Reconfigure**. 
+
+**Capabilities available in offline mode**
+
+Dynamics 365 for Customer Engagement for phones and tablets provides the capabilities listed below in offline mode for the end users.
+
+These entities and corresponding commands available in offline mode.
+
+|Entities |Commands|  
+|-------------|---------|  
+|Account|	Create, Read, Update, Delete|
+|Activity Pointer|Read, Delete|
+|Appointment|	Create, Read, Update, Delete, Convert ActivityCase|
+|Attachment	|Read only|
+|Case|Create, Read, Update, Delete|
+|Competitor|Create, Read, Update, Delete	|
+|Competitor Address Address|Create, Read, Update, Delete	|
+|Connection|Read only|
+|Connection Role|Read only|
+|Contact|Create, Read, Update, Delete	|
+|Currency|Create, Read, Update, Delete|
+|Custome Entity|Create, Read, Update, Delete	|
+|Email|Read only	|
+|Lead|Create, Read, Update, Delete, Qualify/Disqualify	|
+|Opportunity|Create, Read, Update, Delete, Lost/Won	|
+|Opportunity Product|Create, Read, Update, Delete	|
+|Phone Call|Create, Read, Update, Delete	|
+|Position|Create, Read, Update, Delete	|
+|Product|Create, Read, Update, Delete|
+|Task |Create, Read, Update, Delete|
+|Team |Read only	|
+|User |Read only	|
+
+
+
+
+
+   
+   
