@@ -63,7 +63,7 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
 
 When the updates have download, you can check to see if mobile offline is available.
 
-1. From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then select, **Offline Status**.
+1. From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then select, **Offline Status**.
   
    ![Mobile Offline Status](mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
 
