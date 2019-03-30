@@ -344,5 +344,12 @@ Ensure that you have configured at least one of the Profile rules for each entit
 |-------------|---------|  
 |All Records|	If you are selecting this filter you cannot define any other filter rule.|
 |Download Related Data only|If you are selecting this filter you cannot define any other filter rule. Ensure that the entity has been define as a Profile Item Association entity also.|
-|Other Data Filter - if selected, then ensure to select at least one option. **Download my Records**, **Download my team records**,**Download my business unit**  |	If you want to define this filter you have to pick -at-least one of the given options. It is highly recommended to not have Business Unit level filter for an entity unless there is a strong justification. It recommended for a master data scenario with small data set like Country codes. |
+|Other Data Filter - if selected, then ensure to select at least one option. **Download my Records**, **Download my team records**,**Download my business unit**  |	If you want to define this filter you have to pick at least one of the given options. It is highly recommended to not have Business Unit level filter for an entity unless there is a strong justification. It recommended for a master data scenario with small data set like Country codes. |
 |Custom Data Filter |<=3 filters can be defined in the custom data filter |
+
+
+### Data Volume recommendation 
+
+The recommended data volume should be <= 10k records per user subscription.
+
+
