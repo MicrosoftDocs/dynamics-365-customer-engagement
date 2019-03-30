@@ -339,32 +339,10 @@ It is recommended to have at least one rule defined for all mobile offline enabl
 ### Profile Filter Rules Recommendation 
 
 Ensure that you have configured at least one of the Profile rules for each entity to download its data. 
-
-|Customization |Recommendation|  
-|-------------|---------|  
-|All Records|	If you are selecting this filter you cannot define any other filter rule.|
-|Download Related Data only|If you are selecting this filter you cannot define any other filter rule. Ensure that the entity has been define as a Profile Item Association entity also.|
-
-|Other Data Filter 
--	If Selected, then ensure to select at least one option 
-•	Download my Records
-•	Download my team records 
-•	Download my business unit | |If you want to define this filter you have to pick -at-least one of the given options. It is highly recommended to not have Business Unit level filter for an entity unless there is a strong justification. It recommended for a master data scenario with small data set like Country codes.	<=3 filters can be defined in the custom data filter.|
-|Custom Data Filter |	<=3 filters can be defined in the custom data filter.|
-
   
 |Customization |Recommendation|  
 |-------------|---------|  
 |All Records|	If you are selecting this filter you cannot define any other filter rule.|
 |Download Related Data only|If you are selecting this filter you cannot define any other filter rule. Ensure that the entity has been define as a Profile Item Association entity also.|
-|Other Data Filter - -f selected, then ensure to select at least one option. **Download my Records**, **Download my team records**, 
-**Download my business unit**  |	If you are selecting this filter you cannot define any other filter rule. Ensure that the entity has been define as a Profile Item Association entity also. |
-|Go to the previous tab in the tab order.|Shift + Tab|
-|Go to the next section or major component for example to go to the next stream in the dashboard.|	F8|
-|Go to the previous section. This shortcut can't be used on Mozilla Firefox for the intended purpose.	|Shift + F8|
-|Move to the next item in a list or in a group of options.|	Down Arrow|
-|Move to the previous item in a list or in a group of options.|	Up Arrow|
-|Expand a collapsed control.|	Right Arrow|
-|Collapse an expanded control.|	Left Arrow|
-|Select a check box or make a selection.|	Spacebar|
-  
+|Other Data Filter - if selected, then ensure to select at least one option. **Download my Records**, **Download my team records**,**Download my business unit**  |	If you want to define this filter you have to pick -at-least one of the given options. It is highly recommended to not have Business Unit level filter for an entity unless there is a strong justification. It recommended for a master data scenario with small data set like Country codes. |
+|Custom Data Filter |<=3 filters can be defined in the custom data filter |
