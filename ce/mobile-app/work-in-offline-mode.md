@@ -100,7 +100,7 @@ Reconfiguring deletes all data and metadata from the cache, though you shouldn't
 
 If you sign out of one organization and sign in to another, and then use the Reconfigure option on the organization you signed in to, your metadata will remain for the organization you signed out of. To remove your metadata from the organization you signed out of, you’ll need to sign in to it and use the Reconfigure option there, as well. 
 
--	Select ![Dynamics 365 for Customer Engagement apps ellipsis](mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis")  > **User Information** > **Reconfigure**. 
+-	Select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis")  > **User Information** > **Reconfigure**. 
 
 **Capabilities available in offline mode**
 
