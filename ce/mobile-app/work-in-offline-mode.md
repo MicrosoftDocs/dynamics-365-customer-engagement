@@ -38,7 +38,7 @@ Seamless work offline with mobile offline synchronization. You can work with mob
 WWhen your admin has enabled mobile offline, the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
 > [!NOTE]
-> - To use the mobile offline feature, download the latest version (13.19031.55 or greater) of the **Dynamics 365 for phones app** from the app store on your device. 
+> To use the mobile offline feature, download the latest version (13.19031.55 or greater) of the **Dynamics 365 for phones app** from the app store on your device. 
 
 - When you see the **Offline Updates Available** dialog box, choose **Update**. 
 
@@ -65,7 +65,7 @@ When the updates have download, you can check to see if mobile offline is availa
 
 1. From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then select, **Offline Status**.
   
-   ![Mobile Offline Status](mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
+   ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
 
 2. **Offline Status**, tracks offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
 
