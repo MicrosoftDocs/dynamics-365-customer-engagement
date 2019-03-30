@@ -2,9 +2,9 @@
 title: "Sample: Audit entity data changes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Sample demonstrating how to audit entity data changes."
 keywords: 
-ms.date: 10/31/2017
+ms.date: 03/29/2019
 ms.service: crm-online
-ms.custom: 
+ms.custom: audit
 ms.topic: samples
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -12,7 +12,7 @@ ms.assetid: d30356c5-da29-4466-8356-ec3d1acad578
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
