@@ -40,7 +40,6 @@ Check out the following for more "What's new" and release history information:
 
 |New and updated topics|Description of changes|  
 |----------------------------|----------------------------|  
-|[Enable Unified Interface Only](enable-unified-interface-only.md) | Added new topic.             |
 |[Public Preview: Introducing Live Assist for Dynamics 365 for Customer Engagement apps Powered by CaféX](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)|Added new topic.|  
 |[Configure Relevance Search to improve search results and performance](configure-relevance-search-organization.md)|Updated topic.|  
 |[Use Power BI](use-power-bi.md)|Updated topic.|
@@ -52,6 +51,7 @@ The following are topics for features that were delivered out of band since the 
 
 |New and updated topics|Description of changes|  
 |----------------------------|----------------------------|  
+|[Enable Unified Interface Only](enable-unified-interface-only.md) | Added new topic.|
 |[Update your apps to Unified Interface](update-apps-to-unified-interface.md)| Added new topic.|
 |[Determine your environment's organization ID and name](determine-org-id-name.md)| Added new topic.|
 |[Purchase and assign Dynamics 365 for Customer Engagement apps (online) licenses](purchase-assign-online-licenses.md)| Added information about PowerApps licensing.|
