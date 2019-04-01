@@ -52,6 +52,30 @@ The list component, which is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sha
 
  Users who access [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] from [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps must have appropriate permissions on the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collection where the document management components are installed. For more information about how to grant membership on a site collection, see the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Help.  
 
+## Use document management in Microsoft Dynamics 365 (on-premises)
+
+If you are using server-based integration with SharePoint, you can use Microsoft SharePoint Online or Microsoft SharePoint 2013 SP1 on-premises (or a later version).
+
+If you are using the Microsoft Dynamics CRM 2016 List Component for Microsoft SharePoint, one of the following versions of Microsoft SharePoint must be available:
+
+  - Microsoft SharePoint 2013 or Microsoft SharePoint 2013 SP1
+
+  - Microsoft SharePoint 2010 SP1 or SP2
+
+  - Microsoft SharePoint Online
+
+**A SharePoint site collection**. You also need at least one site collection configured and available for Microsoft Dynamics 365.
+
+Either **Server-based SharePoint integration** (recommended) or **Microsoft Dynamics CRM List Component**, must be enabled.
+
+The Microsoft Dynamics CRM List Component is a SharePoint solution. you must download and install. More information: Microsoft Dynamics CRM List Component for Microsoft SharePoint
+
+
+> [!IMPORTANT]
+> SharePoint Foundation versions aren’t supported for use with Microsoft Dynamics 365 document management.
+
+Users who access SharePoint from Dynamics 365 must have appropriate permissions on the SharePoint site collection where the document management components are installed. For more information about how to grant membership on a site collection, see the SharePoint Help.
+
 <a name="BKMK_enable_servertoserver"></a>   
 
 ## Server-based SharePoint integration  

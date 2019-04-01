@@ -18,5 +18,14 @@ ce/developer/xrm-tooling/configure-tracing-xrm-tooling.md
 ce/developer/xrm-tooling/sample-quick-start-xrm-tooling-api.md
 ce/developer/xrm-tooling/sample-simplified-connection-quick-start.md
 ce\customer-insights\preview-retire.md
+ce/developer/org-service/start-managed-code-project-visual-studio.md
+ce/developer/org-service/use-services-in-code.md
+ce/developer/org-service/assemblies-included-sdk.md
+ce/developer/org-service/entity-attribute-naming-conventions.md
+ce/developer/org-service/discovery-service-methods.md
+ce/developer/org-service/discovery-service-messages-request-response-classes.md
+ce/developer/org-service/messages-discovery-service.md
+ce/developer/org-service/sample-access-discovery-service.md
+
 
 These files have been deleted, but the list hasn't been communicated to loc yet.
