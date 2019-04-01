@@ -47,7 +47,7 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
 
 1. To manually download the updates later, select the ellipses (…) > Offline Status.
 
-  ![Manually download updates](media/downloadupdates.png "Manually download updates")
+  ![Manually download updates](media/downloadupdates_1.png "Manually download updates")
 
 2. On the offline status page, choose **Download Customizations** to download the updates.
 
