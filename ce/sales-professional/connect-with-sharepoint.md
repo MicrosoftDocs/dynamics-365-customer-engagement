@@ -42,8 +42,7 @@ To be able to configure SharePoint, you must have:
 
     The following configuration happens in the background:
 
-    1.  A SharePoint subsite is created with the SharePoint default root URL. This URL is used to configure SharePoint. For example, a subsite
-        /Dynamics 365/<orgname> is created under tenant.sharepoint.com.
+    1.  A SharePoint subsite is created with the SharePoint default root URL. This URL is used to configure SharePoint. For example, a subsite /Dynamics 365/<orgname> is created under tenant.sharepoint.com.
 
     2.  The SharePoint site is validated.
 
@@ -69,9 +68,7 @@ To be able to configure SharePoint, you must have:
 
         -   Phone Call
 
-        The folder structure is created based on the **Account** entity. This means that the folders are created under the folder for the related
-        account.  For example, the following folder structure is created for a document for the opportunity record “100 Bikes” that has a related account,
-        Margie’s travel:
+        The folder structure is created based on the **Account** entity. This means that the folders are created under the folder for the related account. For example, the following folder structure is created for a document for the opportunity record “100 Bikes” that has a related account, Margie’s travel:
 
         `:.../account/Margie's Travel/opportunity/100 Bikes&lt;entityGUID&gt;.`
 
@@ -85,8 +82,7 @@ To be able to configure SharePoint, you must have:
     All the back-end configuration steps are performed again in the background.
 
     > [!IMPORTANT]
-    > If the issues persist, please follow the detailed setup process using the Dynamics 365 – custom app. More information: [Set up Dynamics 365 for
-    Customer Engagement to use SharePoint Online](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+    > If the issues persist, please follow the detailed setup process using the Dynamics 365 – custom app. More information: [Set up Dynamics 365 for Customer Engagement to use SharePoint Online](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 ### See also
 
