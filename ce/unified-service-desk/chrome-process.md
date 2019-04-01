@@ -455,6 +455,10 @@ After adding the UII option, if you set to false or leave the value empty, the U
 
 6. Select **Save**.
 
+## Set focus on webpage when using Chrome Process
+
+When using Chrome Process to host web applications in Unified Service Desk, if you want to set the focus on the webpage automatically, then you must create an action call with action as **RunScript** and **Data** with a JavaScript function - `window.top.USDChromeSetFocus()`. After you create the action call, add it to the **PageReady** event in case of **Unified Interface Page** and the **BrowserDocumentComplete** event in case of the **CRM Page** hosted control.
+
 
 ## Limitations
 
