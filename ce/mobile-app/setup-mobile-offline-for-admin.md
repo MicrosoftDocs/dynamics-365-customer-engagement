@@ -354,4 +354,23 @@ Ensure that you have configured at least one of the Profile rules for each entit
 
 The recommended data volume should be <= 10k records per user subscription.
 
+## Provide Feedback
+
+We would love to hear from you. If you have any concerns, questions or feedback.
+
+To provide feedback through the Dynamics insider preview portal: 
+
+1. Sign in to the Dynamics insider portal using your organization account.
+
+2. Once signed in, select **Insider programs** and select **Dynamics 365 mobile offline Preview Program**.
+
+Once you are a part of the program, you will easily be able to add feedback and chat with the experts. You will also have access to feature guide which you can access through**Program downloads**.
+
+3. Select **View feedback**, then select **Add feedback to add any comments**. 
+
+The feedback will be continuously monitored by us and we will respond to you as soon as possible.  
+
+
+   ![Provide feedback](media/feedback.png "Provide feedback")
+
 
