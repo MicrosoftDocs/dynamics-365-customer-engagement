@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/subscribe-sdk-assembly-updates-using-nuget
 title: "Assemblies included in Dynamics 365 for Customer Engagement apps SDK (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn about assemblies such as Microsoft.Crm.Sdk.Proxy.dll, Microsoft.Xrm.Sdk.dll, Microsoft.Xrm.Sdk.Workflow.dll, Microsoft.Crm.Tools.EmailProviders.dll and Microsoft.Xrm.Sdk.Deployment.dll that you can use when writing custom code"
 ms.custom: 
