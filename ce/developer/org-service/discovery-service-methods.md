@@ -1,5 +1,4 @@
 ---
-redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/discovery-service
 title: "Discovery Service methods (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The IDiscoveryService Web service provides a single method which can be used to determine the correct organization and URL to use to interact with the Dynamics 365 for Customer Engagement Server"
 ms.custom: 

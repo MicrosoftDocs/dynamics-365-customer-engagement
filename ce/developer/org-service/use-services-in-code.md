@@ -1,5 +1,4 @@
 ---
-redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/overview
 title: "Use Dynamics 365 for Customer Engagement services in code (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This article discusses about the Discovery Service and Organization Service that can be used to identify your organization and to access Dynamics 365 for Customer Engagement data"
 ms.custom: 

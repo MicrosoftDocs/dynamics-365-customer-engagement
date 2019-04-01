@@ -34,8 +34,7 @@ The following table lists the newest datacenter regions. Checkout the interactiv
   
 |Datacenter regions|Service area|Information|  
 |------------------------|------------------|-----------------|  
-|**Canada**|Canada|[About Microsoft Cloud Canada](about-microsoft-cloud-canada.md)|
-|**China**|China|[Dynamics 365 for Customer Engagement - operated by 21Vianet in China](about-microsoft-cloud-china.md)|
+|**Canada**|Canada|[About Microsoft Cloud Canada](about-microsoft-cloud-canada.md)|  
 |**Germany**|Germany|[About Microsoft Cloud Germany](about-microsoft-cloud-germany.md)|  
 |**India**|India|[About Microsoft Cloud India](about-microsoft-cloud-india.md)|  
 |**Japan**|Japan|[About Microsoft Cloud Japan](about-microsoft-cloud-japan.md)|  
