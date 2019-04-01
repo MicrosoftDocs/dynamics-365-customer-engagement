@@ -90,6 +90,5 @@ Create a new Web API request to test the connection with your Dynamics 365 for C
 
 ## See also
 
-[Use Postman to perform operations](use-postman-perform-operations.md)<br>
 [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)<br>
 [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md)
