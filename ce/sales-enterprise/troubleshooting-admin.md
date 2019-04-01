@@ -105,13 +105,10 @@ The user trying to close the opportunity doesn’t have sufficient permissions o
 
 While working on entities, you observe unexpected behavior or error while working on entities in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The following are some of the issues that you might encounter:
 
-- Observe unexpected behavior or error while creating, activating, or closing a **Quote** 
-- Observe unexpected behavior or error while opening, saving, or closing an **Opportunity**
-- Observe unexpected behavior or error while creating or fulfilling an **Order**
-- Error on order line item, total tax, or amount calculation is wrong 
-- Error on quote line item, total tax, or amount calculation is wrong
-  
-These issues might occur due to improper customization of application. To resolve the issue, perform one of the following based in the error: 
+- Observe unexpected behavior or error while working on entities such as opportunity, quote, order, and invoice.
+- Error on entity (such as order and quote) line item, total tax, or amount calculation is wrong.
+
+These issues might occur due to improper customization of application. You must verify these customization errors and resolve them. Perform the following verification methods to identify the root cause depending on the error and resolve the issue:
 - [Deactivate custom plugin](#deactivate-custom-plugin)
 - [Disable custom JavaScript](#disable-custom-javascript)
 - [Deactivate custom workflow process](#deactivate-custom-workflow-process)
@@ -190,10 +187,10 @@ If the issue still persists, try to [Deactivate custom plugin](#deactivate-custo
 ## Unable to see data in certain columns in entity views
 
 **Reason:**
-This error is occurring due to mismatch of column names between the <xml> and <xml>. 
+This error is occurring due to mismatch of column names between the `layoutxml` and `fetchxml` in the view ODATA file (*OrgUrl*/api/data/*Dynamics 365 version*/savedqueries(*ViewId*)). 
 
 **Resolution:**
-To resolve this issue, you must remove and add back the column that is causing this error. This will ensure that the column names in <xml> and <xml> are matched.
+To resolve this issue, you must remove and add back the column that is causing this error. This will ensure that the column names in `layoutxml` and `fetchxml` are matched.
 
 > [!NOTE]
 > Before you start resolving the issue, take a note of the view for which this error is occurring.
@@ -228,10 +225,10 @@ To resolve this issue, you must remove and add back the column that is causing t
 ## Unable to see some records in the entity views
 
 **Reason:**
-This error is occurring due to mismatch of column names between the <xml> and <xml>. 
+This error is occurring due to the filtering of data on a view. 
 
 **Resolution:**
-To resolve this issue, you must remove and add back the column that is causing this error. This will ensure that the column names in <xml> and <xml> are matched.
+To resolve this issue, you must edit or remove filters for the view. This will ensure that filters are applied properly for the view.
 
 > [!NOTE]
 > Before you start resolving the issue, take a note of the view for which this error is occurring.
@@ -258,5 +255,6 @@ To resolve this issue, you must remove and add back the column that is causing t
 
 
 ### See Also
+
 
 [Troubleshooting guide for sales people](troubleshooting.md)
