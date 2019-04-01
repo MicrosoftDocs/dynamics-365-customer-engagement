@@ -97,10 +97,6 @@ products, as required, and republishing the information so that your sales agent
     > [!TIP]
     > To revert the changes and continue with the last active version of the product, select **Revert**. This changes the status of the product back to **Active**.
 
-Revising a family sets all the products to the **Under Revision** state.
-
-<!--note from editor: In sentence above, introduce the concept of "family"?   -->
-
 ## Clone a product 
 
 When you're creating a new product, save time by cloning an existing one. This creates a copy of the original record with all the details except for the name and ID.
