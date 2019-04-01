@@ -30,17 +30,20 @@ search.app:
 
 Dynamics 365 for Field Service utilizes accounts and contacts during the work order process. Accounts represent who is receiving on site service, where the work order must be performed, and which customer account should be billed for invoices generated from the work order.
 
-**Service accounts** represent **who** the receiving account of the on site service (work order) is and **where** the work order will be performed meaning where the field technician will be dispatched to.
+**Service accounts** represent **who** the receiving account of the on site service (work order) is and **where** the work order will be performed and the field technician will be dispatched to.
 
 **Billing accounts** represent which account should receive invoices and who the parent account is in cases where many service accounts belong to a central organization (ex: multiple wine vineyards are owned by a wine corporation). 
 
-In addition, selecting accounts on a work order can auto-populate other fields on the work order.
+In addition, selecting accounts will auto-populate other fields on a work order.
  
+In this article let's explore creating and using accounts on work orders. 
 
 ## Prerequisites
 
-Locations are very important in field service scenarios where field technicians may need to be routed to a customer's location
-geocoding 
+Locations are very important in field service scenarios where field technicians may need to be routed to multiple customers' locations each day. For this reason it is highly recommended to 
+1. [connect to Bing maps and enable map visualizations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
+2. [enable and test geo coding](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
+ 
 
 > [!Note]
 >
@@ -48,8 +51,17 @@ geocoding
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+
+## Create a service account
+
 - have an account that represents a customer location where service will take place
 - add field service information on an account 
+- if the service account does not have a different billing account then leave this blank
+
+
+
+## create a work order for the service account
+
 - add a service account to a work order
 - billing account
 - primary contact 
@@ -62,3 +74,4 @@ geocoding
 
 
 ## Additional Notes
+- can add location to work order without account location
