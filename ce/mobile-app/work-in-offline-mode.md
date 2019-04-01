@@ -205,7 +205,7 @@ To provide feedback through the Dynamics insider preview portal:
 
 2. Once signed in, select **Insider programs** and select **Dynamics 365 mobile offline Preview Program**.
 
-Once you are a part of the program, you will easily be able to add feedback and chat with the experts. You will also have access to feature guide which you can access through**Program downloads**.
+Once you are a part of the program, you will easily be able to add feedback and chat with the experts. You will also have access to feature guide which you can access through **Program downloads**.
 
 3. Select **View feedback**, then select **Add feedback to add any comments**. 
 
