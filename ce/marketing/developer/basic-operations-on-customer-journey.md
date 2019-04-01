@@ -29,7 +29,7 @@ When you create a customer journey, the properties are stored in the `msdyncrm_c
 
 This topic demonstrates how to perform operations on the `msdyncrm_customerjourney` entity. The `msdyncrm_name` field is the only required field to create a simple customer journey. The fields that are used in this topic to create a customer journey are shown in the following table.
 
-|Display name|Schema name|Description or Value|
+|Display name|Schema name|Description or value|
 |----------|--------------|------|
 |Name|msdyncrm_name|Name of the Customer Journey|
 |Status Reason|statuscode|Current status of the customer journey. Following are the available statuscodes: <br />- Draft `192350000`<br />- Live `192350001`<br />- Stopped `192350002`<br />- Live, Editable `192350003`<br />- Error `192350005`<br />- Going Live `192350006`<br />- Stopping `192350007`<br />
