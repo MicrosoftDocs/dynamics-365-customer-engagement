@@ -44,7 +44,7 @@ The Chrome Process does not support the **CloseAndPrompt** action for Dynamics 3
 
 #### Support for Microphone and webcam with Channel Integration Framework
 
-When you integrate a channel with Unified Service Desk using the Channel Integration Framework and if that channels is not based on the Chromium Embedded Framework, then you might not have access to Microphone and webcam.
+When you integrate a channel with Unified Service Desk using the Channel Integration Framework and if that channel does not work on the Chromium browser (which is based on Chromium Embedded Framework), then you might not have access to Microphone and webcam.
 
 ### Preview: Edge Process
 
