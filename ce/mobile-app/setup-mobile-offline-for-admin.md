@@ -324,7 +324,7 @@ Here are a few things to keep in mind about mobile offline synchronization:
 ### Organization data filter 
 It is recommended to have at least one rule defined for all mobile offline enabled entity for org filters, if you are using the entities across profiles.  By default, this value is set to last 10 days for most of the offline enabled entities.
 
- ![Edit org data filter](media/datafilter.png "Edit org data filter")
+ ![Edit org data filter](media/datafilter_1.png "Edit org data filter")
 
 
 ### Profile Filters 
