@@ -283,7 +283,7 @@ When there is a mismatch of data between client and server, conflict errors occu
 
  ![Set conflict detection for mobile offline](media/detectconflict.png "Set conflict detection for mobile offline  ")
 
-## Step 4: Enable the App Module for offline
+## Step 3: Enable the App Module for offline
 
 Enable mobile offline for a specific app from MyApps page.
 
