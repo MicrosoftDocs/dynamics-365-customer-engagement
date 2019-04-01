@@ -354,6 +354,48 @@ Ensure that you have configured at least one of the Profile rules for each entit
 
 The recommended data volume should be <= 10k records per user subscription.
 
+## Known Issues
+
+**Business Process Flows**: Business Process Flows are not supported for offline. When offline, Business Process Flow grids and views will not be available for use, and BPFs will not be rendered on records opened in mobile offline. If a record containing a BPF was loaded prior to going offline, BPF functions (such as move next/move previous, etc.) will not work, branching conditions will not be evaluated and recommendations on steps will not be displayed 
+
+**Qualify a lead**:
+
+- Users cannot see the qualify button after selecting a lead from the grid. As a workaround they can open the lead record to qualify. 
+
+- Qualify button does show up on the lead form, if any custom status codes are added against the qualify state of the lead. 
+
+- When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. User will have to manually click “Next stage” to move to the next stage.
+
+**Disqualify a lead**: Users will not be able to disqualify a lead in mobile offline. Clicking on disqualify button from lead’s grid or from the lead form gives an error.
+
+**Close opportunity**: Users cannot close an opportunity as won or lost from mobile offline. When users click on “Close as won “or “Close as lost”, the close dialog will open but ok and cancel buttons are disabled. 
+
+**Views** are not supported for the following entities in offline mode: 
+
+- Email
+
+- Task
+
+- Appointment
+
+- Fax
+
+- Phonecall
+
+- Letter
+
+- Serviceappointment
+
+- Campaignresponse
+
+- Campaignactivity
+
+- Recurringappointmentmaster
+
+- Socialactivity
+
+Any views which have linked - entities (related entity) which are not available offline are also not supported. 
+
 ## Provide Feedback
 
 We would love to hear from you. If you have any concerns, questions or feedback.
