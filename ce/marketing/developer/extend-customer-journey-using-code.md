@@ -16,32 +16,36 @@ search.app:
 
 # CRUD operations on customer journey using code
 
-The Customer Journey SDK  sample is a .NET managed code sample that shows how to use the Customer Journey APIs. The sample focuses on using the Customer Journey SDK from a .NET console aplication. Customer Journey SDK can also be used from a plugin code.
+The Customer Journey SDK sample is a .NET managed-code sample that shows how to use the Customer Journey APIs. The sample focuses on using the Customer Journey SDK from a .NET console application. The Customer Journey SDK can also be used from plug-in code.
 
 Download the sample: [Customer Journey SDK]() 
 
-When you extract the zip file, you will find 3 projects in it: 
+When you extract the .zip file, you will find three projects in it: 
 
-- **Microsoft.Dynamics.Marketing.SDK** that defines the basic reusable functionality which simplifies accessing Customer Journey APIs. It contains: 
+- **Microsoft.Dynamics.Marketing.SDK**, which defines the basic reusable functionality that simplifies accessing Customer Journey APIs. It contains: 
    - Organized constants simplifying the reference to metadata elements like entities and option sets. 
-   - A builder to simplify the construction of customer journey designs (programmatic equivalent to Customer Journey designer).
+   - A builder to simplify the construction of customer journey designs (programmatic equivalent to the Customer Journey designer).
    - Encapsulation of data contracts (requests and responses) for most of the important marketing operations like checking for Customer Journey errors.
-- **Microsoft.Dynamics.Marketing.SDK.Tests** contains unit tests which assure the quality of **Microsoft.Dynamics.Marketing.SDK**  
-- **Microsoft.Dynamics.Marketing.Samples** is an executable which is used to execute the actual samples, it contains: 
+- **Microsoft.Dynamics.Marketing.SDK.Tests**, which contains unit tests that ensure the quality of **Microsoft.Dynamics.Marketing.SDK**. 
+- **Microsoft.Dynamics.Marketing.Samples**, which is an executable program that is used to execute the actual samples. It contains: 
    - Creating a customer journey from an existing template record.
    - Creating a sample customer journey with a segment and email.
    - Validating and publishing the existing customer journey record.
+   
+  <!--note from editor: Something missing in Line 30-- "It contains" doesn't match up with what follows. Change to something like "It contains code for:"    --> 
 
 > [!NOTE]
-> You need to have access to Microsoft Dynamics 365 Customer Engagement for apps organization with Dynamics 365 for Marketing app installed. More information [Install Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup)
+> You need to have access to Microsoft Dynamics 365 for Customer Engagement for apps organization with Dynamics 365 for Marketing app installed. More information: [Install Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
+
+<!--note from editor: Meaning of note unclear. You need to have access to the organization that is using Customer Engagement? Is it the organization or the "you" that needs to have Dynamics 365 for Marketing app installed?   -->
 
 ## How to run the sample
 
 1. Download and extract the sample. 
 2. Open `Microsoft.Dynamics.Marketing.Samples.sln` in Visual Studio.
-3. Implement the `GetConnectionString` method in `Program.cs`. Look in the source code for instructions. This is required to log into a specific Microsoft Dynamics 365 for Customer Engagement apps environment.
-4. Select one of the preferred samples in command line parameters for example `customerjourneycreate` for creating a sample customer journey with a segment and email. 
-If you don’t specify any parameter, the usage screen will be printed. 
+3. Implement the `GetConnectionString` method in `Program.cs`. Look in the source code for instructions. This is required to sign in to a specific Microsoft Dynamics 365 for Customer Engagement apps environment.
+4. Select the sample that you want to run by using command-line parameters; for example, `customerjourneycreate` creates a sample customer journey with a segment and email. 
+If you don’t specify a parameter, the usage screen is printed. 
 5. Press **F5** to run the sample. 
 
 ## What this sample does
@@ -49,16 +53,18 @@ If you don’t specify any parameter, the usage screen will be printed.
 The Customer Journey SDK sample shows how to: 
 
 1. Query customer journey data.
-2. Create a new customer journey from a customer journey Template.
+2. Create a new customer journey from a customer journey template.
 3. Create a new customer journey with a specific workflow design.
 4. Validate an existing customer journey record for any errors.  
 5. Publish an existing customer journey record. 
 
 ## Examples
 
-The Microsoft.Dynamics.Marketing.SDK.dll uses core Microsoft XRM SDK to process organization requests. The source code of this project can be embedded into a plugin code and executed. Following examples demonstrate how they can be used. 
+<!--note from editor: Will "XRM" be known to readers?   -->
 
-Example below demonstrates how to invoke **Check for Errors** command programmatically 
+Microsoft.Dynamics.Marketing.SDK.dll uses the core Microsoft XRM SDK to process organization requests. The source code of this project can be embedded into plug-in code and executed. 
+
+This example demonstrates how to invoke the **Check for Errors** command programmatically: 
 
 ```csharp  
 using Microsoft.Dynamics.Marketing.SDK; 
@@ -89,7 +95,7 @@ public class Snippet
 } 
 ```
 
-The example below demonstrates how to create a customer journey workflow programmatically: 
+This example demonstrates how to create a customer journey workflow programmatically: 
  
 ```csharp
 using Microsoft.Dynamics.Marketing.SDK.CustomerJourney.Workflow; 
@@ -117,7 +123,7 @@ public class Snippet
 } 
 ```
 
-Example below demonstrate how to invoke **Go Live** programmatically: 
+This example demonstrate how to invoke **Go Live** programmatically: 
 
 ```csharp
 using Microsoft.Dynamics.Marketing.SDK.Metadata.OptionSets; 

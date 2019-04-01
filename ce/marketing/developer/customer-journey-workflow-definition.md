@@ -1,12 +1,12 @@
 ---
-title: "Customer Journey workflow definition| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
-description: This topic shows how to define a customer journey workflow design."" # 115-145 characters including spaces. This abstract displays in the search result.
+title: "Customer Journey workflow definition| Microsoft Docs" 
+description: This topic shows how to define a customer journey workflow design.
 ms.custom: ""
-ms.date: 03/25/2019
+ms.date: 04/01/2019
 ms.service: "D365CE"
 ms.topic: "article"
-ms.author: "nabuthuk" # MSFT alias of Microsoft employees only
-manager: "kvivek" # MSFT alias of manager or PM counterpart
+ms.author: "nabuthuk" 
+manager: "kvivek" 
 search.audienceType: 
   - developer
 search.app: 
@@ -14,83 +14,89 @@ search.app:
   - D365CE
 ---
 
-# Customer Journey Workflow definition
+# Customer Journey workflow definition
 
-The Customer Journey design is persisted in `JSON` format in `msdyncrm_workflowdefinition` attribute of `msdyncrm_customerjourney` entity. The `JSON` serialized customer journey design is called **Customer Journey workflow definition**.  
+The Customer Journey design is persisted in JSON format in the **msdyncrm_workflowdefinition** attribute of the **msdyncrm_customerjourney** entity. The JSON serialized customer journey design is called *Customer Journey workflow definition*.  
  
-The customer journey designer control on the main form of `Customer Journey` entity is data bound to `msdyncrm_workflowdefinition` field. Customer journey designer can present, edit, serialize and deserialize workflow design.
+The customer journey designer control on the main form of the Customer Journey entity is data bound to the **msdyncrm_workflowdefinition** field. The customer journey designer can present, edit, serialize, and deserialize workflow design.
 
-This document explains the basics of workflow definition schema. After persisting workflow definitions in Dynamics 365 for Customer Engagement apps, you can use the customer journey main form and customer journey designer to visualize the workflow definition.
+This topic explains the basics of the workflow definition schema. After persisting workflow definitions in Dynamics 365 for Customer Engagement apps, you can use the customer journey main form and customer journey designer to visualize the workflow definition.
 
 ## Concepts
 
 ### Workflow design
 
-The actual customer journey design, consisting of workflow tiles. A simple customer journey example contains one Segment group and one Marketing email message tile.
+Workflow design is the actual customer journey design, consisting of workflow tiles. A simple customer journey example contains one Segment group and one Marketing email message tile.
 
   > [!div class="mx-imgBorder"] 
   > ![Workflow design](../media/workflow-design.png "Workflow design")
 
 ### Workflow tile
 
-A node in Workflow design with associated properties, for example an email tile.
+A workflow tile is a node in the workflow design with associated properties—for example, an email tile.
 
    > [!div class="mx-imgBorder"] 
    > ![Workflow tile](../media/workflow-tile.png "Workflow tile")
 
 ### Nested workflow tile
 
-A tile with associated properties, which is nested inside a workflow tile, for example a Marketing Page nested inside a Marketing email message tile.
+A nested workflow tile is a tile with associated properties, which is nested inside a workflow tile—for example, a Marketing page nested inside a Marketing email message tile.
 
    > [!div class="mx-imgBorder"] 
    > ![Workflow tile](../media/workflow-tile.png "Workflow tile")
 
 ### Workflow definition
 
-`JSON` serialized workflow design, represented by array of workflow activities. 
+A workflow definition is a JSON serialized workflow design, represented by an array of workflow activities. 
 
 ### Workflow activity
 
-A `JSON` representation of a workflow tile. Each workflow activity can be interpreted as a array of workflow activity items. The first item in the array corresponds to the header tile, and the following ones are the nested tiles.
+A workflow activity is a JSON representation of a workflow tile. Each workflow activity can be interpreted as an array of workflow activity items. The first item in the array corresponds to the header tile, and the following items are the nested tiles.
  
-Workflow activity object has several important properties:
+A workflow activity object has several important properties, shown in the following table.
 
 |Property|Type|Description|
 |------|-------|--------|
-|ActivityId|`String`|The identifier of workflow activity. Must be unique in the scope of workflow definition of current customer journey.|
-|ParentActivityId|`String`|The identifier of parent workflow activity (the value of **ActivityId** of parent activity). Following example demonstrates how to declare parent-child relationship between workflow activity using **ActivityId** and **ParentActivityId**<br /> ![ParentActivityId](../media/parentactivityid.png "ParentActivityId")|
-|ActivityTypeId|`String`|The type of workflow activity, it has the following values<br />**bpf_root** – the hidden root of the workflow definition<br />**Email** – Marketing email message<br />**LandingPage** – Marketing page<br /> **Event** - Event<br /> **CreateCrmActivity** - Activity<br /> **InvokeWorkflow** – Launch workflow<br /> **CreateLead** – Create lead<br />**Scheduler** - Scheduler<br /> **Trigger** - Trigger<br /> **Splitter** – Splitter<br /> **SplitterBranch** – Splitter branch<br />**Segment** – Segment group<br />**Survey** - Survey<br /> **RecordUpdate** – Record updated<br />**LinkedInCampaign** – LinkedIn campaign<br /> **MarketingForm** – Marketing form<br />|
-|ParentBranchId|`Number`|0-based sequential position of a child tile among its siblings (for example when parallel flows or multiple Splitter branches are used).<br /> ![ParentBranchId](../media/parentbranchid.png "ParentBranchId")|
-|ParentRelationshipType|`String`|Defines the relationship type of a workflow activity with its parent. It has following values<br />**yesBranch** – if the parent workflow activity is a trigger tile, this value denotes the positive branch of the trigger<br />**noBranch** – if the parent workflow activity is a trigger tile, this value denotes the negative branch of the trigger<br /> **default** – default value, used when parent is any workflow activity other than the trigger activity. This value is not valid for trigger.<br />Following example demonstrates how the **ParentRelationshipType** property is used to denote the positive and negative flows for a trigger.<br />![Parent Relationship Type](../media/parentrelationshiptype.png "Parent Relationship Type")|
-|EntityTarget||Defines the target of the activity. It has following values<br /> **contact** – for contact-based customer journey<br />**account** – for account-based customer journey|
-|Properties|`Object`|Defines the properties of current workflow tile and nested tiles. Contains a single property **Items** which holds a array of Workflow activity Item objects.|
+|ActivityId|String|The identifier of workflow activity. Must be unique in the scope of the workflow definition of the current customer journey.|
+|ParentActivityId|String|The identifier of parent workflow activity (the value of the **ActivityId** of the parent activity). The following example demonstrates how to declare parent-child relationship between workflow activities using **ActivityId** and **ParentActivityId**<br /> ![ParentActivityId](../media/parentactivityid.png "ParentActivityId")|
+|ActivityTypeId|String|The type of workflow activity. It has the following values<br />**bpf_root**: The hidden root of the workflow definition<br />**Email**: Marketing email message<br />**LandingPage**: Marketing page<br /> **Event**: Event<br /> **CreateCrmActivity**: Activity<br /> **InvokeWorkflow**: Launch workflow<br /> **CreateLead**: Create lead<br />**Scheduler**: Scheduler<br /> **Trigger**: Trigger<br /> **Splitter**: Splitter<br /> **SplitterBranch**: Splitter branch<br />**Segment**: Segment group<br />**Survey**: Survey<br /> **RecordUpdate**: Record updated<br />**LinkedInCampaign**: LinkedIn campaign<br /> **MarketingForm**: Marketing form<br />|
+|ParentBranchId|Number|0-based sequential position of a child tile among its siblings (for example, when parallel flows or multiple Splitter branches are used).<br /> ![ParentBranchId](../media/parentbranchid.png "ParentBranchId")|
+|ParentRelationshipType|String|Defines the relationship type of a workflow activity with its parent. It has the following values<br />**yesBranch**: If the parent workflow activity is a trigger tile, this value denotes the positive branch of the trigger.<br />**noBranch**: If the parent workflow activity is a trigger tile, this value denotes the negative branch of the trigger.<br /> **default**: Default value, used when the parent is any workflow activity other than the trigger activity. This value is not valid for the trigger.<br />The following example demonstrates how the **ParentRelationshipType** property is used to denote the positive and negative flows for a trigger.<br />![Parent Relationship Type](../media/parentrelationshiptype.png "Parent Relationship Type")|
+|EntityTarget||Defines the target of the activity. It has the following values<br /> **contact**: For contact-based customer journey<br />**account**: For account-based customer journey|
+|Properties|Object|Defines the properties of the current workflow tile and nested tiles. Contains a single property, **Items**, which holds an array of workflow activity item objects.|
  
 ### Workflow activity item
 
-Defines the properties of a single item within a workflow activity (title, description, related marketing email record, or trigger condition). The properties of workflow item objects differ by the workflow item type, but there are some common ones
+A workflow activity item defines the properties of a single item within a workflow activity (title, description, related marketing email record, or trigger condition). The properties of a workflow item object differ by the workflow item type, but there are some common properties.
 
    > [!div class="mx-imgBorder"] 
    > ![Customer Journey Design](../media/customer-journey-design.png "Customer Journey Design")
 
+<!--note from editor: In first table row, are the 2 occurrences of  phrase "of containing workflow activity" correct? Should it be "of the containing workflow activity", or should the "of" be deleted?   -->
+
+
 |Property|Type|Description|
 |------|-------|--------|
-|ActivityTypeId|`String`|The item type. In case of the header item (at index 0 in Items collection of containing workflow activity) this will be equal to ActivityTypeId property of containing workflow activity. Otherwise, the following values should be used<br />**SegmentItem** – Segment item participating in definition of segment group<br />**LandingPage** – Marketing page nested in Marketing email message<br />**Event** – Event nested in Marketing email message<br />**Survey** – Survey nested in Marketing email message<br />**MarketingForm** – Marketing form nested in Marketing email message|
-|ItemId|`String`|In case of an activity which refers to a record using lookup (for example Marketing email message), this property holds the record ID of the referenced entity record.|
-|Name|`String`|The value of **Title name** property|
-|IsNameSystemDefined|`Boolean`|If set to true, changing the selection in the customer journey designer, will update the **Title name** property. If set to false, customer journey designer treats the **Title name** as user specified.|
-|ActivityItemId|`Number`|Workflow activity item identifier. Must be unique in the scope of the entire workflow definition of the current customer journey.|
-|Description|`String`|The value of **Description** property.|
-|Title|`String`|Unused, set it to **Undefined**.| 
+|ActivityTypeId|String|The item type. In the case of the header item (at index 0 in the Items collection of containing workflow activity), this will be equal to the **ActivityTypeId** property of containing workflow activity. Otherwise, the following values should be used:<br />**SegmentItem**: Segment item participating in the definition of the segment group<br />**LandingPage**: Marketing page nested in the Marketing email message<br />**Event**: Event nested in the Marketing email message<br />**Survey**: Survey nested in the Marketing email message<br />**MarketingForm**: Marketing form nested in the Marketing email message|
+|ItemId|String|In the case of an activity that refers to a record using lookup (for example, a Marketing email message), this property holds the record ID of the referenced entity record.|
+|Name|String|The value of **Title name** property|
+|IsNameSystemDefined|Boolean|If set to true, changing the selection in the customer journey designer will update the **Title name** property. If set to false, the customer journey designer treats the **Title name** as user specified.|
+|ActivityItemId|Number|Workflow activity item identifier. Must be unique in the scope of the entire workflow definition of the current customer journey.|
+|Description|String|The value of the **Description** property.|
+|Title|String|Unused; set it to **Undefined**.| 
 
 ### Example
 
-The following example shows how to define a simple customer journey design with a segment group and a Marketing email message
+The following example shows how to define a simple customer journey design with a segment group and a Marketing email message:
 
-- Segment Group
+<!--note from editor: Is the list below a list of the elements of the workflow?   -->
+
+
+- Segment group
   - Direct child of root 
   - Title name: **Customers**
   - Segment merge logic: **Union**
-  - One Segment with:
+  - One segment with:
     - Title name: **Demo segment**
     - Segment record ID: 51d2115b-544a-e911-a873-000d3a1fe344; internal name: Demo_segment_09c58544
 - Marketing email message 
@@ -101,7 +107,11 @@ The following example shows how to define a simple customer journey design with 
     - Title name: **Demo page**
     - Marketing page record ID: 46dece00-464a-e911-a873-000d3a1fe344
 
-The following shows how the above can be represented in customer journey workflow definition
+
+<!--note from editor: Refer to the above as a "list" rather than an example?    -->
+
+
+The following shows how the preceding example can be represented in a customer journey workflow definition:
 
 ```JSON
 [ 
