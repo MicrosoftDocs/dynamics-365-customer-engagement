@@ -1,5 +1,4 @@
 ---
-redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/discovery-service
 title: "Messages in the discovery service (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This article discusses the messages that are used with the discovery service DiscoveryRequest) method. Some supported messages are RetrieveUserIdByExternalIdRequest, RetrieveOrganizationRequest and RetrieveOrganizationsRequest."
 ms.custom: 
