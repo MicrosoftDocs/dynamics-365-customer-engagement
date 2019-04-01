@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-update-data
 title: "Use XRM tooling to update data (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Use CrmServiceClient class to update data on Dynamics 365 for Customer Engagement"
 ms.custom: 
@@ -46,7 +47,7 @@ if (crmSvc != null && crmSvc.IsReady)
     Dictionary<string, CrmDataTypeWrapper> updateData = new Dictionary<string, CrmDataTypeWrapper>();  
     updateData.Add("name", new CrmDataTypeWrapper("Updated Sample Account Name", CrmFieldType.String));  
     updateData.Add("address1_city", new CrmDataTypeWrapper("Boston", CrmFieldType.String));  
-    updateData.Add("telephone1", new CrmDataTypeWrapper("555-0161", CrmFieldType.String));   
+    updateData.Add("telephone1", new CrmDataTypeWrapper("555-0161", CrmFieldType.String));
     bool updateAccountStatus = crmSvc.UpdateEntity("account","accountid",_accountId,updateData);  
   
     // Validate if the account record was updated successfully, and then display the updated information  
