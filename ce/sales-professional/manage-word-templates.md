@@ -1,6 +1,6 @@
 ---
 title: "Create and manage Word templates in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Create templates in Dynamics 365 for Sales Professional so all the documents that go out to your customers have a consistent look as per your organization’s branding guidelines."
+description: "Create templates in Dynamics 365 for Sales Professional so all documents that go out to your customers have a consistent look per your organization’s branding guidelines."
 keywords: ""
 ms.date: 04/05/2019
 ms.service:
@@ -19,9 +19,9 @@ manager: annbe
 
 # Create and manage Word templates in Dynamics 365 for Sales Professional
 
-Microsoft Word provides powerful ways to present your Dynamics 365 for Sales Professional data in a standardized and well formatted document. With Word templates, you can easily create and share your template with others, so all the documents that go out to your customers have a consistent look as per your organization’s branding.
+Microsoft Word provides powerful ways to present your Dynamics 365 for Sales Professional data in a standardized and well-formatted document. Use Word templates to ensure that all the documents that go out to your customers have a consistent look per your organization’s branding. You can easily create and share your template with others.
 
-When the templates are ready, users can generate standardized documents automatically populated with Dynamics 365 for Sales Professional data with just click.
+Once templates are created, users can generate standardized documents automatically populated with Dynamics 365 for Sales Professional data with just a click.
 
 Follow the steps in this topic to successfully create Word templates in Dynamics 365 for Sales Professional.
 
@@ -39,15 +39,15 @@ Follow the steps in this topic to successfully create Word templates in Dynamics
 
     ![Select template type in the Create Template wizard](media/select-template-type-create-template-wizard.png "Select template type in the Create Template wizard")
 
-6.  Select an entity to which the template applies. The template will use data from this entity.
+6.  Select the entity to which the template applies. The template will use data from this entity.
 
     ![Select entity in the Create Template wizard](media/select-entity-create-template-wizard.png "Select entity in the Create Template wizard")
 
-7.  To select the fields that you want to be included in the Word template, select **Choose Related Entities**. The **Choose Related Entity** dialog box opens.
+7.  To add the fields that you want to be included in the Word template, select **Choose Related Entities**. The **Choose Related Entity** dialog box opens.
 
-    The relationships you select on this screen determine what entities and fields are available later when you define the Word template. Only select the relationships you need to add Dynamics 365 for Sales Professional data to the Word template. When you’re done selecting, select **Done**.
+    The relationships you select on this screen determine which entities and fields are available later, when you define the Word template. Select only the relationships you need to add Dynamics 365 for Sales Professional data to the Word template. When you’re done,  select **Done**.
 
-    Here are some example relationships for the Account entity.
+    Here are some example relationships for the Account entity:
 
     -   1:N Relationship. An account can have multiple contacts.
 
@@ -55,19 +55,18 @@ Follow the steps in this topic to successfully create Word templates in Dynamics
 
     -   N:N Relationship. An account can have multiple marketing lists. A marketing list can have multiple accounts.
 
-    >   [!Note] 
-    
-    >   To ensure documents download in a timely matter, there is an upper limit of 100 for the number of related records returned for each relationship. For example, if you’re exporting a template for an account, and you want to include a list of its contacts, the document will return at most 100 of the account’s contacts.
+     >[!NOTE] 
+     >To ensure documents download in a timely matter, there is an upper limit of 100 for the number of related records returned for each relationship. For example, if you’re exporting a template for an account, and you want to include a list of its contacts, the document will return at most 100 of the account’s contacts.
 
 8.  In the **Select Entity** dialog box, select **Next**.
 
 9.  Select **Download** to create a Word file on your local computer with the exported entity included as XML data.
 
-10.  To upload the template later, select **Upload the template later** check box, and then select **Next**.
+10.  To upload the template later, select  the **Upload the template later** check box, and then select **Next**.
 
-11.  To upload the template back after you customize the data, go to the list of templates, and then select **Upload Template**.
+11.  To upload the template after you customize the data, go to the list of templates, and then select **Upload Template**.
 
-More information: [Upload the template back into Dynamics 365 for Sales Professional](#BKMK_Upload)
+More information: [Upload the template back into Dynamics 365 for Sales Professional](#BKMK_Upload).
 
 ## Step 2: Enable the Developer tab
 
@@ -100,13 +99,12 @@ Use the XML Mapping Pane to define the Word template with Dynamics 365 for Sales
 
     ![Default XML schema selected in XML Mapping Pane](media/default-xml-schema-selected.png "Default XML schema selected in XML Mapping Pane")
 
-2.  Select the Dynamics 365 for Sales Professional XML schema. It will begin     with “urn:microsoft-crm/document-template/”.
+2.  Select the Dynamics 365 for Sales Professional XML schema. It will begin with “urn:microsoft-crm/document-template/”.
 
     ![Select the schema for Dynamics 365 for Sales Professional](media/select-schema-sales-professional.png "Select the schema for Dynamics 365 for Sales")
 
-    >   [!Important]
-
-    >   If you have frequent accidental edits that cause Word to freeze or have performance degradation, be sure to turn off the AutoCorrect options according to the section: “A known issue and how to avoid it”.
+      >[!IMPORTANT]
+      >If you have frequent accidental edits that cause Word to freeze or have performance degradation, be sure to turn off the AutoCorrect options according to the section: “A known issue and how to avoid it”.
 
 3.  Expand the entity to see all available fields, right-click the field you wish to add, and then select **Insert Content Control** \> **Plain Text**.
 
@@ -136,19 +134,18 @@ Use the XML Mapping Pane to define the Word template with Dynamics 365 for Sales
 
     ![Set the content control fields to repeat in Word template](media/set-content-control-fields.png "Set the content control fields to repeat in Word template")
 
-When you use the Word template in Dynamics 365 for Sales Professional to create document, the table will populate with multiple rows of data.
+When you use the Word template in Dynamics 365 for Sales Professional to create a document, the table populates with multiple rows of data.
 
-When the template has the fields and formatting you want, save it and upload it into Dynamics 365 for Sales Professional.
+When the template has the fields and formatting you want, save it, and upload it into Dynamics 365 for Sales Professional.
 
 ## Step 4: Upload the Word template back into the Sales app
 
 When you have your Word template built the way you want, save it so you can upload it into Dynamics 365 for Sales Professional.
 
-An administrator can use the Advanced Settings page to upload the Word template into Dynamics 365 for Sales Professional.
+An administrator can use the **Advanced Settings** page to upload the Word template into Dynamics 365 for Sales Professional.
 
->   [!Note]
-
->   Users in your organization can see the templates available to them by selecting the **Word Templates** button on the command bar in the list of records.
+> [!NOTE]
+> Users in your organization can see the templates available to them by selecting the **Word Templates** button on the command bar in the list of records.
 
 1.  In the Sales Professional app, go to **Advanced Settings** > **Excel and Word Templates**.
 
@@ -160,12 +157,12 @@ An administrator can use the Advanced Settings page to upload the Word template 
 
 4.  Select **Upload**.
 
-You’ll see the summary of the file you’re uploading.
+    You’ll see the summary of the file you’re uploading.
 
 5.  Select **Finish**.
 
 
-### See Also
+### See also
 
 [Use document templates to create standardized documents](use-document-templates-sales-professional.md)  
 [Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)

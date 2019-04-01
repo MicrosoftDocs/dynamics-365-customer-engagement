@@ -1,5 +1,5 @@
 ---
-title: "Create unit group and add units in Dynamics 365 for Sales Professional | MicrosoftDocs"
+title: "Create a unit group and add units in Dynamics 365 for Sales Professional | MicrosoftDocs"
 description: "Use units in Dynamics 365 for Sales Professional to define the quantities or measurements in which your products are available."
 keywords: ""
 ms.date: 04/05/2019
@@ -17,15 +17,15 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Create unit group and add units
+# Create a unit group and add units
 
 Units are the quantities or measurements that you sell your products or services in. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.
 
-1.  Make sure that you have the System Administrator or Sales Professional Manager role of equivalent permissions.
+1.  Make sure that you have the System Administrator or Sales Professional Manager role or equivalent permissions.
 
 2.  In the site map, select **Units**.
 
-3.  Select **+New**.
+3.  Select **New**.
 
     The **Create Unit Group** dialog box opens.
 
@@ -33,11 +33,11 @@ Units are the quantities or measurements that you sell your products or services
 
 4.  Fill in your information, and select **OK**:
 
-    a. **Name**. Type a meaningful name for the unit group. In our example, you would type "Televisions."
+    - **Name**. Enter a meaningful name for the unit group. In our example, you would type "Televisions."
 
-    b. **Primary Unit**. Type the lowest common unit of measure that the product will be sold in. In our example, you would type "Piece." Other examples could include box, cartons, ounces, hours, or tons, depending on your product.
+    - **Primary Unit**. Enter the lowest common unit of measure that the product will be sold in. In our example, you would type "Piece." Other examples could include box, cartons, ounces, hours, or tons, depending on your product.
 
-5.  To add units to the unit group, open the unit group you just created, then select the **Related** tab, and then select **Units**.
+5.  To add units to the unit group, open the unit group you just created, select the **Related** tab, and then select **Units**.
 
     ![Units option on the Related menu](media/related-tab-units-option.png "Units option on the Related menu")
 
@@ -49,11 +49,11 @@ Units are the quantities or measurements that you sell your products or services
 7.  In the **Quick Create: Unit** form, fill in the following, and select
     **Save**:
 
-    a. **Name**. Type a meaningful name for the unit. In our example, you would type "box."
+    - **Name**. Enter a meaningful name for the unit. In our example, you would enter "box."
 
-    b. **Quantity**. Type the quantity that this unit will contain. For example, if a box contains 2 pieces, you would type "2."
+    - **Quantity**. Enter the quantity that this unit will contain. For example, if a box contains two pieces, you would type "2."
 
-    c. **Base Unit**. Select a base unit. The base unit will establish the lowest unit of measurement for the unit you're creating. Using our example, you would select "Piece."
+    - **Base Unit**. Select a base unit. The base unit will establish the lowest unit of measurement for the unit you're creating. Using our example, you would select "Piece."
 
     ![Quick Create form for Unit](media/unit-quick-create-form.png "Quick create form for Unit")
 

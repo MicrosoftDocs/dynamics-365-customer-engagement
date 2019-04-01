@@ -17,27 +17,24 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-#Change the color scheme or logo for your organization
+# Change the color scheme or logo for your organization
 
 Change the color scheme of the user interface based on your preference or create your own branding by changing the color scheme or logo in Dynamics 365 for Sales
-Professional. You can create a custom look and feel (a theme), for your Sales Professional app and the Dynamics 365 for phones app by creating new themes with colors and visual elements.
+Professional. You can create a custom look and feel (a theme) for Sales Professional apps and Dynamics 365 for phones apps by using new colors and visual elements.
 
 The theme colors are applied globally throughout the application. For example, you can enhance the following visual elements in the UI:
 
--   Change product logos
+-   Product logos
 
--   Change Nav Bar Color, Main Color, Accent Color
+-   Background color for the navigation bar (defined by **Nav Bar color**)
 
--   Nav Bar color defines the background color for the navigation bar
+-   Color for the command bar, buttons, and tabs (defined by **Main Color**)
 
--   Main Color defines the color for command bar, buttons, and tabs
-
--   Accent Color defines the color for process bar
+-   Color for the process bar (defined by **Accent Color**)
 
 ## Apply a new theme
 
-The Sales app comes with three default themes that you can use. You can choose one of these default themes and apply, or pick any other custom theme that you
-may have created.
+The Sales app comes with three default themes that you can use. You can choose one of these default themes and apply it, or pick a custom theme that you have created.
 
 To apply a theme, select the theme in the **Select Theme** drop-down list, and select **Save and Apply Theme**.
 
@@ -53,17 +50,17 @@ The theme that you are currently using is shown with the text “currently appli
 
 4.  In the **Theme Name** field, enter a descriptive name for the new theme.
 
-5.  To change the logo, select pencil icon on the logo box, and then choose an image file of type JPG, PNG, GIF or SVG format. The image file is converted to a web resource. 
+5.  To change the logo, select the pencil icon on the logo box, and then choose an image file of type JPG, PNG, GIF, or SVG format. The image file is converted to a web resource. 
 
     To revert to the default logo, select **Restore default logo**.
 
 6.  Enter a tooltip for the logo.
 
-7.  Choose the colors in the **Nav Bar Color**, **Main Color**, and **Accent Color boxes**.
+7.  Choose colors in the **Nav Bar Color**, **Main Color**, and **Accent Color** boxes.
 
 8.  Select **Save and Apply Theme**.
 
-### See Also
+### See also
 
 [Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)  
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)

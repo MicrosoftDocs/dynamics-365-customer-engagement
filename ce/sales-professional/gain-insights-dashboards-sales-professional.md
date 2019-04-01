@@ -20,9 +20,9 @@ manager: annbe
 # Gain insights with dashboards in Dynamics 365 for Sales Professional
 
 Dashboards in Dynamics 365 for Sales Professional provide an overview of
-business data ‒ actionable information that’s viewable across the organization. Use dashboards to see important data at a glance.
+business data—actionable information that’s viewable across the organization. Use dashboards to see important data at a glance.
 
-Dashboards use views, list, and charts to bring data that is meaningful to you one place.
+Dashboards use views, lists, and charts to bring data that is meaningful to you to one place.
 
 ## Where to find dashboards
 
@@ -30,11 +30,13 @@ To go to dashboards, in the site map, select **Dashboards**.
 
 ## Dashboards in Dynamics 365 for Sales Professional
 
-Sales Professional comes with the following pre-built dashboards that you can use to quickly get insights on your sales data and team performance.
+Sales Professional comes with the following prebuilt dashboards that you can use to quickly get insights on your sales data and team performance.
 
-### Sales Manager Summary Dashboard
+### Sales Manager Summary dashboard
 
-This dashboard shows data that helps sales managers get important insights on how their sales team is performing. The sales pipeline shows open opportunities in different stages. The deal won vs. deal lost chart shows the number of opportunities won or lost by an owner. The dashboard also includes chart that show important financial data such as the estimated vs the actual revenue by month.
+This dashboard shows data that helps sales managers get important insights on how their sales team is performing. The sales pipeline shows open opportunities in different stages. 
+
+The “deal won versus deal lost” chart shows the number of opportunities won or lost by an owner. The dashboard also includes charts that show important financial data such as estimated versus actual revenue by month.
 
 ![Sales Manager Summary dashboard](media/sales-manager-summary-dashboard.png "Sales manager Summary dashboard")
 
@@ -51,25 +53,25 @@ You can use the view selector to select a dashboard of your choice. Select the d
 ![Dashboard drop-down list](media/dashboard-drop-down-list.png "Dashboard drop-down list")
 
 
-## Set a dashboard as default
+## Set a dashboard as the default
 
-To see a specific dashboard every time you log on to Dynamics 365 for Sales Professional, set it as default. To do this, open the dashboard, and on the command bar, select **Set as Default**.
+To see a specific dashboard every time you sign in to Dynamics 365 for Sales Professional, set it as the default. To do this, open the dashboard, and on the command bar, select **Set as Default**.
 
 ## Entity dashboards
 
-Other than the dashboards described earlier, there are dashboards specific to entities. These are available for account, contact, lead, opportunity, quote and invoice entities. Remember, an entity is the same as a record type.
+Other than the dashboards described earlier, there are dashboards specific to entities. These are available for account, contact, lead, opportunity, quote, and invoice entities. Remember, an entity is the same as a record type.
 
 To see an entity dashboard, go to the list of records for the entity, and then on the command bar, select **Open Dashboards**.
 
-For example, in the list of opportunities when you select the **Open
-Dashboard**, the following dashboard specific to opportunity entity is
+For example, in the list of opportunities, when you select **Open
+Dashboard**, the following dashboard, specific to the opportunity entity, is
 displayed.
 
 ![Entity dashboard for opportunity](media/opportunity-entity-dashboard.png "Entity dashboard for opportunity")
 
-You can use the global or visual filters to filter and see only the data that is important to you.
+You can use the global or visual filters to see only the data that is important to you.
 
-### See Also
+### See also
 
 Overview of Dynamics 365 for Sales Professional  
 [Learn the basics](#learn-the-basics-of-dynamics-365-for-sal)

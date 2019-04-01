@@ -23,21 +23,19 @@ To store email and other messaging records in Dynamics 365 for Sales Professiona
 
 Dynamics 365 for Sales Professional uses server-side synchronization to synchronize your email system with Dynamics 365 for Sales.
 
-## What is Server Side Synchronization?
+## What is server-side synchronization?
 
-Using server-side synchronization makes messaging data available to a web browser, tablet, or smartphone that is running Dynamics 365 for Sales
-Professional.
+Using server-side synchronization makes messaging data available to a web browser, tablet, or smartphone that is running Dynamics 365 for Sales Professional.
 
-Server-side synchronization provides direct Dynamics 365 for Sales Professional-to-email server synchronization. When you use Exchange, you can
+Server-side synchronization provides direct Dynamics 365 for Sales Professional-to-email server synchronization. When you use Microsoft Exchange, you can
 synchronize email, contacts, tasks, and appointments.
 
 Some features offered by server-side synchronization include the following: 
 
--  Email folder tracking. You can simply drag email to a folder to track it. Folder tracking works on any mobile device that supports Microsoft Exchange, which
+-  Email folder tracking. You can simply drag email to a folder to track it. Folder tracking works on any mobile device that supports Exchange, which
 means you can track email from just about any device.
 
--  Support for Dynamics 365 App for Outlook. You can track incoming email with the new Dynamics 365 App for Outlook. Dynamics 365 App for Outlook works
-    with Outlook on the web. So, all you need is a browser to track incoming email.
+-  Support for Dynamics 365 App for Outlook. You can track incoming email with the new Dynamics 365 App for Outlook. Dynamics 365 App for Outlook works with Outlook on the web. So, all you need is a browser to track incoming email.
 
 ## Prerequisite for Exchange integration
 
@@ -56,7 +54,7 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
 2.  If your organization has an Exchange subscription, skip to Step 5.
 
-3.  If you don’t have an Office 365 subscription, you’ll be prompted to purchase an Office 365 subscription. Select the link to purchase an Office 365 subscription.
+3.  If you don’t have an Office 365 subscription, you’ll be prompted to purchase one. Select the link to purchase an Office 365 subscription.
 
     ![Link to sign up for Microsoft Exchange](media/get-microsoft-exchange.png "Link to sign up for Microsoft Exchange")
 
@@ -64,32 +62,30 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
     The following configuration happens in the background:
 
-    -   The email server profile is set to Exchange Online (automaticallycreated when a new Dynamics 365 instance is provisioned). The email server profile stores settings that are used by server-side synchronization to connect to an email server and process email for the associated mailboxes.
+    -   The email server profile is set to Exchange Online (automatically created when a new Dynamics 365 instance is provisioned). The email server profile stores settings that are used by server-side synchronization to connect to an email server and process email for the associated mailboxes.
 
-    -   Incoming Email, Outgoing Email, and Appointment, Contacts, and Tasks are all set to use Server-side synchronization
+    -   Incoming email, outgoing email, appointments, contacts, and tasks are all set to use server-side synchronization
 
     -   Existing user mailboxes that have valid Exchange licenses are automatically approved. Approval of mailboxes is required for the mailbox to process email. The incoming and outgoing email configuration of the selected mailboxes is tested, and mailboxes are then enabled for processing email.
 
         > [!Important]
-
         > User mailboxes are automatically approved and enabled only when the primary email of the user is equal to the user's UPN (User Principal Name attribute).      
 
     -  For newly added users, you must manually test and enable the mailboxes.
 
     - Dynamics 365 App for Outlook is automatically enabled for all the users.
 
-5.  If users are already created in your organization, the mailboxes of the users will appear in the **Mailbox** list. For more information about adding users, see [Manage users](manage-users.md)  
+5.  If users are already created in your organization, the mailboxes of the users will appear in the **Mailbox** list. For more information about adding users, see [Manage users](manage-users.md).  
 
-6. The mailboxes will be in the **Not Run** state initially. Select the **Approve and Test mailboxes** to test the mailboxes and approve them.  
+6. The mailboxes will be in the **Not Run** state initially. Select **Approve and Test mailboxes** to test the mailboxes and approve them.  
 
     ![Button to configure Exchange](media/button-configure-exchange.png "Button to configure Exchange")
 
     > [!Note]
-        
     > If an error occurs in a mailbox, an alert is sent to the user of the mailbox. You can also see the alert when you open the mailbox record. The **Test Run Status** column is set to **Failure** for the mailbox. Select the **Approve and test mailboxes** button to test and approve the mailboxes.
 
 
-### See Also
+### See also
 
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)  
 [Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)
