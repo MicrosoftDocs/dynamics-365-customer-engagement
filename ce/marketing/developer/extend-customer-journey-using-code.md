@@ -35,7 +35,7 @@ When you extract the .zip file, you will find three projects in it:
   <!--note from editor: Something missing in Line 30-- "It contains" doesn't match up with what follows. Change to something like "It contains code for:"    --> 
 
 > [!NOTE]
-> You need to have access to Microsoft Dynamics 365 for Customer Engagement for apps organization with Dynamics 365 for Marketing app installed. More information [Install Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
+> You need to have access to Microsoft Dynamics 365 for Customer Engagement for apps organization with Dynamics 365 for Marketing app installed. More information: [Install Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
 
 <!--note from editor: Meaning of note unclear. You need to have access to the organization that is using Customer Engagement? Is it the organization or the "you" that needs to have Dynamics 365 for Marketing app installed?   -->
 
