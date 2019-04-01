@@ -14,7 +14,7 @@ search.app:
   - D365CE
 ---
 
-# Customer Journey Workflow definition
+# Customer Journey workflow definition
 
 The Customer Journey design is persisted in JSON format in the **msdyncrm_workflowdefinition** attribute of the **msdyncrm_customerjourney** entity. The JSON serialized customer journey design is called *Customer Journey workflow definition*.  
  
@@ -67,7 +67,7 @@ A workflow activity object has several important properties, shown in the follow
  
 ### Workflow activity item
 
-Defines the properties of a single item within a workflow activity (title, description, related marketing email record, or trigger condition). The properties of a workflow item object differ by the workflow item type, but there are some common properties.
+A workflow activity item defines the properties of a single item within a workflow activity (title, description, related marketing email record, or trigger condition). The properties of a workflow item object differ by the workflow item type, but there are some common properties.
 
    > [!div class="mx-imgBorder"] 
    > ![Customer Journey Design](../media/customer-journey-design.png "Customer Journey Design")
@@ -77,7 +77,7 @@ Defines the properties of a single item within a workflow activity (title, descr
 
 |Property|Type|Description|
 |------|-------|--------|
-|ActivityTypeId|String|The item type. In the case of the header item (at index 0 in the Items collection of containing workflow activity), this will be equal to the **ActivityTypeId** property of containing workflow activity. Otherwise, the following values should be used<br />**SegmentItem**: Segment item participating in the definition of the segment group<br />**LandingPage**: Marketing page nested in the Marketing email message<br />**Event**: Event nested in the Marketing email message<br />**Survey**: Survey nested in the Marketing email message<br />**MarketingForm**: Marketing form nested in the Marketing email message|
+|ActivityTypeId|String|The item type. In the case of the header item (at index 0 in the Items collection of containing workflow activity), this will be equal to the **ActivityTypeId** property of containing workflow activity. Otherwise, the following values should be used:<br />**SegmentItem**: Segment item participating in the definition of the segment group<br />**LandingPage**: Marketing page nested in the Marketing email message<br />**Event**: Event nested in the Marketing email message<br />**Survey**: Survey nested in the Marketing email message<br />**MarketingForm**: Marketing form nested in the Marketing email message|
 |ItemId|String|In the case of an activity that refers to a record using lookup (for example, a Marketing email message), this property holds the record ID of the referenced entity record.|
 |Name|String|The value of **Title name** property|
 |IsNameSystemDefined|Boolean|If set to true, changing the selection in the customer journey designer will update the **Title name** property. If set to false, the customer journey designer treats the **Title name** as user specified.|
@@ -89,11 +89,14 @@ Defines the properties of a single item within a workflow activity (title, descr
 
 The following example shows how to define a simple customer journey design with a segment group and a Marketing email message:
 
-- Segment Group
+<!--note from editor: Is the list below a list of the elements of the workflow?   -->
+
+
+- Segment group
   - Direct child of root 
   - Title name: **Customers**
   - Segment merge logic: **Union**
-  - One Segment with:
+  - One segment with:
     - Title name: **Demo segment**
     - Segment record ID: 51d2115b-544a-e911-a873-000d3a1fe344; internal name: Demo_segment_09c58544
 - Marketing email message 
@@ -103,6 +106,10 @@ The following example shows how to define a simple customer journey design with 
   - Nested marketing page with
     - Title name: **Demo page**
     - Marketing page record ID: 46dece00-464a-e911-a873-000d3a1fe344
+
+
+<!--note from editor: Refer to the above as a "list" rather than an example?    -->
+
 
 The following shows how the preceding example can be represented in a customer journey workflow definition:
 
