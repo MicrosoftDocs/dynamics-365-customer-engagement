@@ -1,5 +1,6 @@
 - name: Use Dynamics 365 Customer Engagement Web API
   href: ../use-microsoft-dynamics-365-web-api.md
+  items:
   - name: Authenticate with the Web API
     href: authenticate-web-api.md
   - name: Web API Versions
