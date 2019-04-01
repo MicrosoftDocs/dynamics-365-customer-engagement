@@ -35,7 +35,7 @@ Seamless work offline on your mobile device when your admin enables mobile offli
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-WWhen your admin has enabled mobile offline, the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
+When your admin has enabled mobile offline, the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
 > [!NOTE]
 > To use the mobile offline feature, download the latest version (13.19031.55 or greater) of the **Dynamics 365 for phones app** from the app store on your device. 
