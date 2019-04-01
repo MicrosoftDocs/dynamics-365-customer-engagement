@@ -1,5 +1,4 @@
 ---
-redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/discovery-service
 title: "Discovery service messages (request and response classes) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: ""
 ms.custom: 
