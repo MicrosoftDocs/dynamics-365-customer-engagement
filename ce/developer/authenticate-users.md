@@ -2,8 +2,8 @@
 title: "Authenticate users in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about the various security models for authentication that Dynamics 365 for Customer Engagement apps support"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 03/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

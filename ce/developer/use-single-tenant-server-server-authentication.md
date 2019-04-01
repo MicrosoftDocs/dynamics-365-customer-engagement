@@ -2,8 +2,8 @@
 title: "Use Single-Tenant Server-to-server authentication | MicrosoftDocs"
 description: "An enterprise can create a web application or service to connect to all the Dynamics 365 for Customer Engagement (online) organizations for the single tenant"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 03/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
