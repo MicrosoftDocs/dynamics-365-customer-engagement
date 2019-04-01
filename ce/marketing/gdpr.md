@@ -192,7 +192,7 @@ The following list provides a few ideas for how your organization could set up a
 
 Ideally, you should prepare your system to make it easy for your privacy officer to completely delete a contact and all their related data on request. 
 
-- For a non-customized system, your privacy officer can just use the standard search function to find the contact and then hard-delete the contact. The system will automatically unlink and remove all related interaction data stored in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] back-end systems (including from all [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] and customer-insights services).
+- For a non-customized system, your privacy officer can just use the standard search function to find the contact and then hard-delete the contact. The system will automatically unlink and remove all related interaction data stored in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] back-end systems (including from all [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] and marketing-insights services).
 - If you have custom fields or entities, then you must further customize your system to make sure it deletes all related personal data from related records and/or unlinks them from the contact record so that all personal information is removed. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Developer Guide (Marketing)](developer/marketing-developer-guide.md)
 
 > [!NOTE]
