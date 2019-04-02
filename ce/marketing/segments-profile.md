@@ -61,7 +61,7 @@ A simple segment group uses the contact entity only. When you create this type o
 
 Here's an example of how to define a segment that starts by finding a collection of opportunities and, as usual, ends by finding the contacts that belong to that segment. In this example, we'll find contacts associated with opportunities with an estimated revenue over $10,000 and then build a relation to the contacts entity.
 
-1. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync opportunities with the marketing-insights services, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing-insights services](marketing-settings.md#dci-sync) for instructions.
+1. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync opportunities with the marketing insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync) for instructions.
 
 1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.  
     ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")

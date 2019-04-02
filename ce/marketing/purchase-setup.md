@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 for Marketing"
-keywords: setup; licensing; FRE; Azure; privacy; marketing services; marketing-insights services
+keywords: setup; licensing; FRE; Azure; privacy; marketing services; marketing insights service
 ms.date: 04/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 

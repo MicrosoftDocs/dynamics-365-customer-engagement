@@ -1,7 +1,7 @@
 ---
 title: "Configure core marketing functionality in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Use the marketing settings to configure landing pages, email marketing, and marketing-insights sync in Dynamics 365 for Marketing"
-keywords: administration; landing page; marketing-insights sync
+keywords: administration; landing page; marketing insights sync
 ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -30,7 +30,7 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The **Marketing settings** section contains pages that let you configure the core marketing functionality for landing pages, email marketing, and marketing-insights services.
+The **Marketing settings** section contains pages that let you configure the core marketing functionality for landing pages, email marketing, and marketing services.
 
 To find these settings, open **Settings** > **Advanced settings** and choose one of the pages under the **Marketing settings** heading in the left column. You can also access these same settings by finding the **Marketing settings** section in the right column and choosing the icons there.
 
@@ -143,16 +143,16 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 
 <a name="dci-sync"></a>
 
-## Choose entities to sync with the marketing-insights services
+## Choose entities to sync with the marketing insights service
 
-The marketing-insights services are external services that provide analytical tools for working with customer records. They help you to better understand your customers and help you set up subscription lists and target segments for use in email-marketing campaigns. The marketing-insights services also make dynamic field values available for use in marketing email messages as they are processed and sent by the marketing services.
+The marketing insights service provides analytical tools for working with customer records. It helps you to better understand your customers and set up subscription lists and target segments for use in email-marketing campaigns. The marketing insights service also makes dynamic field values available for use in marketing email messages as they are processed and sent.
 
-The analytical and data-crunching capabilities of the marketing-insights services are very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and these external services. For optimal performance and functionality, choose only the entities you need—no more and no less.
+The analytical and data-crunching capabilities of the marketing insights service is very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and this service. The marketing insights service also collects and manages all interaction data. For optimal performance and functionality, choose only the entities you need&mdash;no more and no less.
 
 > [!IMPORTANT]
 > The sync settings are permanent, so once you begin syncing an entity you won't be able to remove it again later. Syncing occurs often, and each entity that you sync requires storage space and processing time, so you should only sync those entities you are sure you will need.
 
-The most-used entities (including contacts, accounts, and events) are synced by default, but you can sync any set of entities that you want, including custom entities. The following features require all the relevant data to be present in the marketing-insights services:
+The most-used entities (including contacts, accounts, and events) are synced by default, but you can sync any set of entities that you want, including custom entities. The following features require all the relevant data to be present in the marketing insights service:
 
 - **Segmentation**: All entities that you need to query in your segmentation criteria must be present.
 - **Dynamic email content**: All entities with field values that you want to show as dynamic data in an email message must be present.
@@ -170,7 +170,7 @@ The most-used entities (including contacts, accounts, and events) are synced by 
 > 
 > [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customizing Dynamics 365 for Marketing](customize.md)
 
-To sync a new entity with the marketing-insights services:
+To sync a new entity with the marketing insights service:
 
 1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync**.
 

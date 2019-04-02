@@ -40,8 +40,8 @@ The following table lists all entities that have a go-live function and which se
 | Marketing email messages | Marketing services |
 | Customer journeys | Marketing services |
 | Content settings | Marketing services |
-| Lead-scoring models | Marketing-insights services |
-| Segments | Marketing-insights services |
+| Lead-scoring models | Marketing services |
+| Segments | Marketing services |
 | Marketing pages | Marketing services, shared with portals |
 | Marketing forms | Portals |
 | Events, sessions, and tracks | Portals |
