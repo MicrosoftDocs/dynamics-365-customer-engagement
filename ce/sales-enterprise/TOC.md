@@ -80,3 +80,6 @@
 ### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
 
 # [Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)
+
+# [Developer Guide]()
+## [RecalculatePrice Action](../sales-enterprise/recalculateprice-action.md)
