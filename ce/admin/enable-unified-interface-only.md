@@ -79,7 +79,7 @@ If no app is referenced in the URL, the record or page opens without any navigat
 
 ### Dynamics 365 - custom
 
-The legacy web client app, also known as *Dynamics 365 - custom*, is hidden from end users when a new environment is provisioned. It is always visible to those with System Administrator and System Customizer roles, and to other custom roles with similar privileges. The legacy web client app should only be used to check for backwards compatibility while you migrate your environments to Unified Interface.
+The legacy web client app, also known as *Dynamics 365 - custom*, is hidden from end users when a new environment is provisioned. It is always visible to those with System Administrator and System Customizer roles, and to other custom roles with similar privileges. The legacy web client app should only be used temporarily for backwards compatibility with custom and third-party legacy functionality that you have not migrated to Unified Interface. It is not designed for Unified Interface and can cause unexpected errors and experience. For the best user experience, port all custom and third-party functionality to model-driven apps for Unified Interface.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/dynamics-365-custom.png "Dynamics 365 - custom legacy app")
