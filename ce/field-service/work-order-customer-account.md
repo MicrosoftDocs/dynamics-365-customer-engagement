@@ -72,7 +72,7 @@ Next, go the Field Service section of the account form and fill in details based
 
 **Billing Account:** The value chosen here will populate the billing account field on the work order when this account is entered as the service account. This field is not required, and if no account is entered here, the service account listed on the work order will act as both the service account and the billing account. In the example image below, Winery Inc. is the Billing Account for the service account, Coho Winery. This implies Coho Winery is a specific location of Winery Inc. and invoices should be listed for Winery Inc.
 
-**Price List:** This value is listed on related work orders and all related work order products and services and dictates the price of those products and services on the resulting invoices. If the billing account field in the previous step has a value, then the price list on the billing account record will be used. If no billing account is entered, then the price list entered here will be used on resulting work orders and invoices. If the work order products or services are not listed on the price list, then the list price on the product record is used. **Note:** the price list entered will be overridden by price lists related to Work Order Types and with Entitlements.
+**Price List:** This value is listed on related work orders and all related work order products and services and dictates the price of those products and services on the resulting invoices. If the billing account field in the previous step has a value, then the price list on the billing account record will be used. If no billing account is entered, then the price list entered here will be used on resulting work orders and invoices. If the work order products or services are not listed on the price list, then the list price on the product record is used. 
 
 **Tax Exempt:** Decides if sales tax should be added to the price of related work orders. Set to **Yes** to not add sales tax. Set to **No** to specify a sales tax code (percentage) that should be added to the work order price and invoice.
 
@@ -92,6 +92,28 @@ Next, go the Field Service section of the account form and fill in details based
 Next, go to **Field Service > Work Orders > +New**
 
 Add the account you just created as the service account. 
+
+
+Notice the following values automatically populated.
+
+Billing Account - populated as the Billing account specified on the service account record.
+
+Price List - populated as the price list specified on the **billing account** record.
+
+> [!Note]
+> If the work order price list does not reflect the price list entered on your service account or billing account, this means it is being overridden by the price list related to Work Order Types or Entitlements.
+
+Service Territory and Instructions
+
+Address
+
+Location
+
+**Pro Tip**
+
+> [!Note]
+> Work Orders can be assigned and addresses and geo coded 
+
 - add a service account to a work order
 - billing account
 - primary contact 
