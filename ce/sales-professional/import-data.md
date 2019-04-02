@@ -19,8 +19,6 @@ manager: annbe
 
 # Import data into Dynamics 365 for Sales Professional
 
-<!--note from editor: I don't see the people names and co. names used in this topic on the Dynamics 365 "approved" list. -->
-
 Bring customer and sales data quickly into your app by importing it. The Sales Professional app can be used for importing data into most record types.
 
 Dynamics 365 for Sales Professional processes import in the background. After an import completes, you can review which records succeeded, failed to import,
@@ -88,10 +86,9 @@ The following example shows what the data might look like for a CSV file
 containing leads to import. The first line contains the field names, and the
 remaining lines are imported as data.
 
-`Company,Last Name,First Name,Topic,Email,Mobile Phone`
-`“Designer Bikes”“Groth”“Brian”“Mountain`
-`bikes”“someone\@example.com”“555-555-0112”`
-`“Major Sporting Goods”“Bedecs”“Anna”“Components”“555-555-0171”`
+\`Company,Last Name,First Name,Topic,Email,Mobile Phone\`  
+\`“Coho Winery”“Glynn”“Jim”“New store opened”“someone\@example.com”“555-555-0112”\`  
+\`“Adventure Works”“Anderson”“Nancy”“Components”“555-555-0171”`
 
 >[!NOTE]
 >By default, the maximum size of the files that you can import is 8 MB.
@@ -126,8 +123,7 @@ remaining lines are imported as data.
 6.  If you have an alternate key defined, select it from the **Alternate Key** drop-down list.
 
     The alternate key is used to uniquely identify and update records during import instead of using the primary key. Some external data systems do not
-    store primary keys. In such cases, an alternate key can be used to uniquely identify records. 
-    More information: [How alternate key and duplicate detection work during import](#how-alternate-key-and-duplicate-detection-work-during-import).
+    store primary keys. In such cases, an alternate key can be used to uniquely identify records.
 
 6.  In the **Data Delimiter** drop-down list, select the data delimiter that you’ve used in your CSV file.
 
@@ -139,6 +135,7 @@ remaining lines are imported as data.
         import successfully on the left side.
 
          >[!NOTE]
+
          >If you’ve selected an alternate key, all the fields of the alternate key also become required fields and must be mapped.
 
         If the column headings of your source file match the field display names, these fields will be automatically mapped. All the mapped fields
@@ -167,7 +164,7 @@ remaining lines are imported as data.
 
     4.  While importing your data, if any column in your source file includes a fixed set of values, you must map the column to a field of Option Set type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, select the ![Option Set icon](media/option-set-mapping-icon.png "Option Set icon") icon next to the option set field. The **Option set mapping** section opens:
     
-        [Option set mapping dialog box](media/option-set-mapping-dialog-box.png "Option set mapping dialog box")
+        ![Option set mapping dialog box](media/option-set-mapping-dialog-box.png "Option set mapping dialog box")
     
         For each **Source Option Values** item, select an item from the **Dynamics 365 Option Values** list to map it, and then select **OK**.
 
@@ -196,11 +193,11 @@ remaining lines are imported as data.
 
         Based on these mappings, the Import Data wizard creates "High" as a Dynamics 365 target value. It does not create "Low" as a Dynamics 365 target value because you did not map any source value to the added Dynamics 365 target value of "Low".
 
-        >[!NOTE] 
-        >You can also map a column in your source file to a field of type **Two Options** and **Multiselect Option Set** (where a field can have multiple values). You must map each **Source Option Values** to the items in the **Dynamics 365 Option Values** list. When mapping to a field of type **Multiselect Option Set**, if your source file includes values that aren’t available in Dynamics 365 for Sales Professional, new values won’t be created.
+        > [!NOTE] 
 
-    5.  If some data in your source file references other existing records in Dynamics 365 for Sales Professional, you must map the column in the
-        source file to a lookup field of Dynamics 365 for Sales Professional.
+        > You can also map a column in your source file to a field of type **Two Options** and **Multiselect Option Set** (where a field can have multiple values). You must map each **Source Option Values** to the items in the **Dynamics 365 Option Values** list. When mapping to a field of type **Multiselect Option Set**, if your source file includes values that aren’t available in Dynamics 365 for Sales Professional, new values won’t be created.
+
+    5.  If some data in your source file references other existing records in Dynamics 365 for Sales Professional, you must map the column in the source file to a lookup field of Dynamics 365 for Sales Professional.
 
         For example, say you want to import the file Leads.csv that contains customer records. The **Customer** column in the Leads.csv contains the
         associated account or contact data.
@@ -214,11 +211,8 @@ remaining lines are imported as data.
         You can just select this data map when you want to import similar data in the future. The data map maps data based on the mappings you’ve
         defined earlier.
 
-8.  Select **Finish Import** when you have mapped each column from the source file to a Dynamics 365 for Sales Professional field or have selected
-    **Ignore** in the list under **Dynamics 365 Entity Fields**.
+8.  Select **Finish Import** when you have mapped each column from the source file to a Dynamics 365 for Sales Professional field or have selected **Ignore** in the list under **Dynamics 365 Entity Fields**.
 
-
-<!--note from editor:   In list above (Line 171), the image after "The Option set mapping section opens:" is a link; screen shot not showing up embedded in text.  -->
 ## View the results of an import, and correct errors
 
 You must wait for an import job to complete before you can repair failures.
@@ -241,10 +235,9 @@ You must wait for an import job to complete before you can repair failures.
 
     - **Completed**
 
-3.  After the import is complete, the **Success**, **Errors**, and **Partial Failures** columns show the number of records that were successfully
-    imported, failed to import, or were partially imported.
+3.  After the import is complete, the **Success**, **Errors**, and **Partial Failures** columns show the number of records that were successfully imported, failed to import, or were partially imported.
 
-2.  Open the import file to view the records that did not import or were partially imported. Open the import file record.
+4.  Open the import file to view the records that did not import or were partially imported. Open the import file record.
 
     Select appropriate tabs to see information about failures, success, or partial failure of records during import.
 
@@ -305,4 +298,4 @@ To be able to import from Exchange:
 ### See also
 
 [Export data or template](export-data.md)  
-[Quick Setup & Advanced Settings ](standard-advanced-settings-overview.md)
+[Quick Setup and Advanced Settings overview](standard-advanced-settings-overview.md)

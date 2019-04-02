@@ -55,8 +55,6 @@ By default, SharePoint is enabled for the following entities:
 
 ## Where do you access the documents from?
 
-<!--note from editor: Maria Campbell not on Approved list of names that I have access to.   -->
-
 For record types that support document management, open the record, select the **Related** tab, and then select **Documents**.
 
 ![Documents option in Related tab](media/documents-option-related-tab.png "Documents option in Related tab")
@@ -68,17 +66,17 @@ first time you go to the **Documents** tab. The name of the document location is
 
 ## View existing SharePoint documents
 
-<!--note from editor: What is a "document grid"?   -->
+Open a Document list for an entity record. For example, for an opportunity record:
 
-Open a view with a document grid. For example:
+1.  In the site map, select **Opportunities**.
 
-1.  In the site map, select **Opportunities**
+2. Open an opportunity record.
 
-2.  Select the **Related** tab, and then select **Documents**.
+3.  Select the **Related** tab, and then select **Documents**.
 
-    ![Documents tab in a form](media/documents-tab-in-form.png "Documents tab in a form")
+    ![Documents tab showing the Documents list or Documents Associated Grid in a form](media/documents-tab-in-form.png "Documents tab showing the Documents list or Documents Associated Grid in a form")
 
-3.  Select **Document Location** to filter the document list. Select from the available document locations.
+4.  Select **Document Location** to filter the document list. Select from the available document locations.
 
 ## Create a new document
 
@@ -99,16 +97,13 @@ To create a new SharePoint document in your app:
 
 5.  Select **Save**.
 
-    The document is created in the folder of the current document location you’re in.
+    The document is created and is located in your current location in the folder hierarchy.
 
     If you create a folder, you’ll be able to see a folder hierarchy at the top of Documents list.
 
     ![Form showing folder hierarchy in documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in documents list")
 
     Select the folder name to navigate between the folders.
-
-<!--note from editor: Change "The document is created in the folder of the current document location you’re in." to "The document is created and is located in your current location in the folder hierarchy." ?-->
-
 
 ## Upload a document
 
@@ -133,8 +128,6 @@ To upload an existing document to SharePoint from your app:
 
 ## Manage SharePoint locations
 
-<!--note from editor: In List item #2 below, "<location name>" isn't rendering in the built file.  -->
-
 You can create new or edit existing SharePoint locations from your app.
 
 In the **Documents** list:
@@ -144,7 +137,7 @@ In the **Documents** list:
 
     ![Open document location from a record](media/open-document-location.png "Open document location from a record")
 
-2.  To edit the location, on the command bar, select **Edit Location** > <location name>.
+2.  To edit the location, on the command bar, select **Edit Location** \> \<location name>.
 
     The **Edit Location** dialog box appears.
 
@@ -172,19 +165,13 @@ In the **Documents** list:
 
 ## Actions on documents
 
-When you select one or more documents in the Documents list, you can take these
-common SharePoint actions on the documents:
+When you select one or more documents in the Documents list, you can take these common SharePoint actions on the documents:
 
 -   Edit
-
 -   Delete
-
 -   Check in
-
 -   Check out
-
 -   Discard check out
-
 -   Edit properties
 
 

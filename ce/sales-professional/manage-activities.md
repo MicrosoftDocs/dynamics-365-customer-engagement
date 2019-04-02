@@ -72,9 +72,6 @@ Add a task or note for yourself when you want a reminder to do something persona
 
 Otherwise, to keep a history of your interactions with a customer, you should add new activities that are associated with a customer’s record so that they become part of the history that other people on your team can view.
 
-<!--note from editor: Are "Tasks" and "Task" referred to in #1 and #2 two different things?
-In #2--is it a "navigation bar" or a "command bar"?   -->
-
 1.  In the site map, select **Activities**. 
 
 2.  On the command bar, select an activity type—for example, **Task**.
@@ -89,16 +86,14 @@ In #2--is it a "navigation bar" or a "command bar"?   -->
 After you call someone, complete a task, send an email, or go to an appointment,
 you can mark the activity for that action as completed.
 
-<!--note from editor: In screen shot, put red box around "Mark Complete"?   -->
-
 1.  Open the activity.
 
 2.  On the command bar, select **Mark Complete**.
 
-   ![Command bar button to mark an activity complete](media/command-bar-button-mark-activity-complete.png "Command bar button to mark an activity complete")
+    ![Command bar button to mark an activity complete](media/command-bar-button-mark-activity-complete.png "Command bar button to mark an activity complete")
 
 
 ### See also
 
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)<br/>
-[Manage your customers](#manage-your-customers)
+[Manage your customers](manage-accounts-contacts.md)

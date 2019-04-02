@@ -66,7 +66,7 @@ Follow the steps in this topic to successfully create Word templates in Dynamics
 
 11.  To upload the template after you customize the data, go to the list of templates, and then select **Upload Template**.
 
-More information: [Upload the template back into Dynamics 365 for Sales Professional](#BKMK_Upload).
+For more information, see the [Step 4: Upload the Word template back into the Sales app](#step-4-upload-the-word-template-back-into-the-sales-app).
 
 ## Step 2: Enable the Developer tab
 

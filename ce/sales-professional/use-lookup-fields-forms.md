@@ -40,8 +40,6 @@ along with seven of your favorite records. If you have not pinned any favorites,
 
 Lookups are classified into two types: 
 
-<!--note from editor: Should the "fields" items below be part of a different list?   -->
-
 - **Simple lookup:** Select a single record in a field from a single entity. 
 
 - **Complex lookup:** Select a single record or multiple records in a field from multiple entities: 

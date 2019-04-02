@@ -149,11 +149,10 @@ To stop selling a product, delete it.
 
     ![Delete button on the command bar](media/delete-button-product-form.png "Delete button on the command bar")
 
-4.  In the **Confirm Deletion** dialog box, select **Delete**.
+4.  In the **Confirm Deletion** dialog box, select **Continue**.
 
     ![Confirm Deletion dialog box](media/confirm-deletion-dialog-box.png "Confirm Deletion dialog box")
 
-<!--note from editor: In list item #4 above--the screen shot doesn't show a "Delete" option to select.    -->
 
 ### See also
 

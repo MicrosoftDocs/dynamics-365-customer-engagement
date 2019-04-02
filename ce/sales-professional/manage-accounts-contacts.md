@@ -19,8 +19,6 @@ manager: annbe
 
 # Manage your customers
 
-<!--note from editor:  Customer names in screen shots. not on the approved list I have access to  -->
-
 In Dynamics 365 for Sales Professional, accounts and contacts records types are used to store information about your customers.
 
 Accounts are organizations you do business with, and contacts are individual people with whom you have a relationship. A contact may or may not be associated with an account.

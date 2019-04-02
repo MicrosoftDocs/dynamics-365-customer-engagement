@@ -24,11 +24,8 @@ You must link a new opportunity to an existing account or contact.
 
 If you’re following the sales process from start to finish, you qualify a lead to turn it into an opportunity.
 
-You can create a new opportunity or convert one from a qualified lead without re-entering the data. When you convert a qualified lead to an opportunity, you can access the lead record, which includes activities, from the corresponding opportunity form. The preferred way is to create an opportunity from a lead. More information: [Develop sales from lead to cash
-(Sales)](develop-sales-lead-to-cash-sales-professional.md).
+You can create a new opportunity or convert one from a qualified lead without re-entering the data. When you convert a qualified lead to an opportunity, you can access the lead record, which includes activities, from the corresponding opportunity form. The preferred way is to create an opportunity from a lead. More information: [Develop sales from lead to cash](develop-sales-lead-to-cash-sales-professional.md).
 
-<!--note from editor: In list below, the "Topic" item--Change "Interest of the opportunity" to "Interest in the opportunity...."? Also, fill in info for "Budget Amount". 
-In Step #4--is there a term you can used besides "click" that isn't mouse-specific?-->
 
 To create or edit an opportunity:
 
@@ -42,7 +39,7 @@ To create or edit an opportunity:
 
  3. In the opportunity form, make sure that your potential customer’s important details are captured. Most of the fields will be automatically populated from the lead record:
 
-    -   **Topic**. Interest of the opportunity, such as specific product details.
+    -   **Topic**. Interest in the opportunity, such as specific product details.
 
     -   **Contact**. The contact associated with this opportunity.
 
@@ -50,7 +47,7 @@ To create or edit an opportunity:
 
     -   **Purchase timeframe**. The timeframe of when the account or contact is likely to purchase.
 
-    -   **Budget Amount**.
+    -   **Budget Amount**. Indicates the lead's potential available budget.
 
     -   **Probability**. Indicates the likelihood of a sale occurring.
 
@@ -64,12 +61,7 @@ To create or edit an opportunity:
 
 4.  In the **Stakeholders** section, select **More Commands** ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
 
-    In the **Lookup Records** dialog box, enter a name or select the Lookup icon
-    to choose from a list of suggestions. When you've entered the name you want,
-    select **Add**. To create a new contact, select **New**. By default, the
-    contact you add is assigned the Stakeholder role. Click the role
-    corresponding to the contact to select a different role such as Decision
-    Maker or Technical Buyer.
+    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to choose a different role such as **Decision Maker** or **Technical Buyer**.
 
 5.  In the last pane, select the **Sales team** ![Sales team icon](media/sales-team-icon.png "Sales team icon") icon to open the **Sales team** tab. Select the **More Commands** button ![More Commands button](media/more-commands-button.png "More Commands"), and then select **New Connection** to add a member of the sales team (from your organization).
 

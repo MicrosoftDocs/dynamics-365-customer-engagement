@@ -26,7 +26,6 @@ You can collect leads from many different sources. For example, you can generate
 When you create a lead, there are system-required fields to fill out. But other data, such as e-mail addresses, the source of the lead, and specific product interests, can also help your sales staff in following up with the customers.
 
 ## Create a lead
-<!--note from editor:  in step #3, can a term other than "click" be used (so it's not mouse-specific), or can another way besides clicking be added to the sentence?  -->
 
 1.  In the site map, select **Leads**.
 
@@ -40,13 +39,13 @@ When you create a lead, there are system-required fields to fill out. But other 
 
 4.  In the **Timeline** section, add any notes and activities (for example, phone calls or emails) related to this lead.
 
-3.  In the **Stakeholders** section, select **More Commands** ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
+5.  In the **Stakeholders** section, select **More Commands** ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
 
-    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **New**. By default, the contact you add is assigned the Stakeholder role. Click the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.
+    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to choose a different role such as **Decision Maker** or **Technical Buyer**.
 
-4.  In the **Details** tab, enter information about your lead’s industry and preferred contact method.
+6.  In the **Details** tab, enter information about your lead’s industry and preferred contact method.
 
-5.  Select the **Save** button in the lower-right corner of the screen.
+7.  Select the **Save** button in the lower-right corner of the screen.
 
 ## Qualify and convert a lead to an opportunity
 

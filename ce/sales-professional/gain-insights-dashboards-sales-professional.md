@@ -63,9 +63,7 @@ Other than the dashboards described earlier, there are dashboards specific to en
 
 To see an entity dashboard, go to the list of records for the entity, and then on the command bar, select **Open Dashboards**.
 
-For example, in the list of opportunities, when you select **Open
-Dashboard**, the following dashboard, specific to the opportunity entity, is
-displayed.
+For example, in the list of opportunities, when you select **Open Dashboard**, the following dashboard, specific to the opportunity entity, is displayed.
 
 ![Entity dashboard for opportunity](media/opportunity-entity-dashboard.png "Entity dashboard for opportunity")
 
@@ -73,5 +71,5 @@ You can use the global or visual filters to see only the data that is important 
 
 ### See also
 
-Overview of Dynamics 365 for Sales Professional  
-[Learn the basics](#learn-the-basics-of-dynamics-365-for-sal)
+[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md) 
+[Learn the basics](learn-basics-sales-professional.md)

@@ -68,8 +68,6 @@ Templates display information from the view defined for a record type (entity). 
 
 ## Step 2: Customize the data in Excel
 
-<!--note from editor: The people names in the screen shots in this topic are not on my list of approved names; some of the co. names not on list (eg, Coho Winery, Litware.   -->
-
 Open the newly created template in Excel to customize the data.
 
 ![Excel template with data](media/excel-template-with-data.png "Excel template with data")
@@ -108,8 +106,9 @@ When you have your Excel template customized the way you want, you can upload it
 Administrators can use the **Advanced Settings** page to upload the Excel
 template into Dynamics 365 for Sales Professional.
 
->[!NOTE] 
->Users in your organization can see the templates available to them by selecting the **Excel Templates** button on the command bar in the list of records.
+>  [!NOTE] 
+
+>  Users in your organization can see the templates available to them by selecting the **Excel Templates** button on the command bar in the list of records.
 
 1.  Under **Advanced Settings**, select **Excel and Word Templates**, and then select **Upload template**.
 
@@ -174,4 +173,4 @@ Here are some things you need to be aware of to create and make the best use of 
 ### See also
 
 [Use document templates in Dynamics 365 for Sales Professional](use-document-templates-sales-professional.md)  
-[Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)
+[Quick Setup and Advanced Settings overview](standard-advanced-settings-overview.md)

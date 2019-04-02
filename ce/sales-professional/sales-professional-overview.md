@@ -19,8 +19,9 @@ manager: annbe
 
 # Overview of Dynamics 365 for Sales Professional
 
->[!IMPORTANT]
->[Learn about the usage and extensibility restrictions for Dynamics 365 for Sales Professional](https://go.microsoft.com/fwlink/p/?linkid=850959).
+> [!IMPORTANT]
+
+> [Learn about the usage and extensibility restrictions for Dynamics 365 for Sales Professional](https://go.microsoft.com/fwlink/p/?linkid=850959).
 
 Welcome to Dynamics 365 for Sales Professional. If you don't need a full-fledged enterprise app for your organization, the new Dynamics 365 for Sales Professional app is for you.
 
@@ -44,12 +45,10 @@ What’s the fastest way to get productive?
 
 Here are a couple options:
 
-<!--note from editor: Use of "clicking" --use a term that isn't mouse-specific, or add in another term?   -->
-
 -   **Dive in and try out the sample data.** If you learn best through hands-on exploration, the app comes with sample data to help you see how
     data is presented and organized, and to give you something to experiment with as you get oriented.
 
-    Start clicking, and play around with the sample data until you’re ready to work with your real customer data.
+    Start exploring, and play around with the sample data until you’re ready to work with your real customer data.
 
 -   **Do a quick read that covers the basics.** The user guide and learning modules contain all the essentials you need to know to navigate the app,
     find and enter customer data, glean actionable insights from interactive dashboards, and more. And it’s short. (We know you’re busy.)
@@ -65,7 +64,7 @@ Here are some highlights of Dynamics 365 for Sales Professional:
 
 -   **Visual insights.** The out-of-the-box dashboards and charts have almost everything that you need to get insight into your business.
 
-    More information: [Gain insights with dashboards in Dynamics 365 for Sales Professional](gain-insights-with-dashboards-in-dynamic).
+    More information: [Gain insights with dashboards in Dynamics 365 for Sales Professional](gain-insights-dashboards-sales-professional.md).
 
     ![Sales Manager Summary dashboard](media/sales-manager-summary-dashboard.png "Sales Manager Summary dashboard")
 
@@ -85,7 +84,7 @@ Here are some highlights of Dynamics 365 for Sales Professional:
 -   **Store and view documents in the context of records.** Do you have presentations or documents for an opportunity all over the place? Store them
     all in one place, so anyone who’s working on the opportunity can view them!
 
-    More information: [Manage your SharePoint documents and document locations in Dynamics 365 for Sales Professional](manage-sharepoint-documents.md).
+    More information: [Manage your SharePoint documents and document locations in Dynamics 365 for Sales Professional](manage-sharepoint-documents-sales-professional.md).
 
     ![Documents tab in a form](media/documents-tab-form.png "Documents tab in a form")
 
@@ -93,7 +92,7 @@ Here are some highlights of Dynamics 365 for Sales Professional:
     you’re working on, and activate it. Use the same quote to quickly generate an invoice and mark the deal as won. You can also email the quotes and
     invoices to your customer in just one click.
 
-    More information: [Develop sales from lead to cash in Dynamics 365 for Sales Professional](manage-your-sharepoint-documents-and-doc).
+    More information: [Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md).
 
     ![Image showing the opportunity-to-invoice process](media/opportunity-to-invoice-process.png "Image showing the opportunity-to-invoice process")
 
@@ -111,5 +110,5 @@ Here are some highlights of Dynamics 365 for Sales Professional:
 
 ### See also
 
-[Learn the basics](#learn-basics-sales-professional.md)  
+[Learn the basics](learn-basics-sales-professional.md)  
 [Standard and Advanced Settings Overview](standard-advanced-settings-overview.md)

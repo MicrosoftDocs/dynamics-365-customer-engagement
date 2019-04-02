@@ -44,21 +44,15 @@ The Sales Professional app is designed so that you can access the tools and cust
 The navigation bar (or nav bar) at the top of every screen includes buttons for common tasks like searching for customer data or entering records. The nav bar also includes
 access to tools that help you manage your deals, such as a guided task flow that walks you through common sales tasks.
 
-![Options on the nav bar](media/options-on-nav-bar.png "Options on the nav bar")
+![Search, task flow, Quick create, Advanced Find, Personal options, and Help menu on the nav bar](media/options-on-nav-bar.png "Search, task flow, Quick create, Advanced Find, Personal options, and Help menu on the nav bar")
 
-<!--note from editor: RE: the screen shot above: Consider including the names of the menus and menu items in the alt text to support accessibility. -->
 
-### Menu on the side
-
-<!--note from editor: Are "site map" and "side menu" the same thing?  -->
+### Site map on the side
 
 Select the Site map icon to see a list of all your options in one place, including access to communication tools like email and customer records, your
 calendar, and settings. You’ll also find quick access to any favorite customers you’ve pinned and to your recent work, so you don’t have to waste time backtracking.
 
-![Image showing the menu and items on the menu](media/items-on-menu.png "Image showing the menu and items on the menu")
-
-
-<!--note from editor: RE: the screen shot above. The image has a #7; the corresponding table goes only to #5. Also, consider including the names of the menus and menu items in the alt text for user accessibility.    -->
+![Site map showing links to the recent and pinned items, sales records, sales settings, and area switcher](media/items-on-menu.png "Site map showing links to the recent and pinned items, sales records, sales settings, and area switcher")
 
 ## Understand the data in the app
 
@@ -85,13 +79,11 @@ With Quick Create, you need to complete only a few fields. Later, when you have 
 Business processes help everyone follow best practices, even when handling situations that don’t occur very often. You complete a step by entering data or
 marking the step completed in the process bar at the top of the screen. When all the steps are done, you can move on to the next stage.
 
-There are three ready-to-use business processes that you can use as you move your leads through a sales process:
-
-<!--note from editor: Are the business processes "Lead to invoice" and "Opportunity sales process"? Is the third one missing? Also, in last bullet item, should "forms" be its own bullet, or is it part of the sentence?   -->
+The following ready-to-use business processes are available that you can use as you move your leads through a sales process:
 
   -   Lead to invoice. This business process flow is available for:
       -   All leads.
-      -   Opportunities created from leads.
+      -   Opportunities created from leads
   -   Opportunity sales process. This business process flow is available for:
       -   All directly created opportunities (not originating from lead) forms
 
