@@ -27,15 +27,11 @@ When you export a template, a ready-made worksheet with column headings matching
 
 ## Where do I find the export options?
 
-Data and templates can be exported from:
+You can export data and templates from the Advanced Settings.
 
--   List of records
+When you export data or a template, you must select the entity you want to export the data or template for, such as Lead or Opportunity. 
 
--   Advanced settings
-
-When you export data or a template from **Advanced settings**, you must select the entity you want to export the data or template for, such as Lead or Opportunity. 
-
-You can also choose the view that will be used for exporting. If you don’t choose a view, the default view is selected, and the data or  template for all the columns in that view is exported.
+You can also choose the view that will be used for exporting. If you don’t choose a view, the default view is selected, and the data or template for all the columns in that view is exported.
 
 ### See also
 
