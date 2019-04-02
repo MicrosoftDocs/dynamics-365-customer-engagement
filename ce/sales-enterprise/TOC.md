@@ -71,6 +71,9 @@
 ## Troubleshooting
 ### [Troubleshooting guide for sales people](troubleshooting.md)
 ### [Troubleshooting guide for administrators](troubleshooting-admin.md)
+
+## [FAQs](faqs-sales.md)
+
 ## [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)
 ### [Create a marketing list](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  
 ### [Create a quick campaign](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)
