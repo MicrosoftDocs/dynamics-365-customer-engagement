@@ -36,15 +36,15 @@ Use the profile card to get quick information about a contact or user. When you 
 2.	Select an existing activity or create a new one.
 3.	Hover over the **Call To** field when it has a contact record. 
 
-   > [!div class="mx-imgBorder"]
-   > ![Call To field](callto/teams-add-tab.png "Call to field")
+ > [!div class="mx-imgBorder"]
+ > ![Call To field](media/callto.png "Call to field")
 
 You can view details of the contact inline which includes the contact picture, name, title and account.
 
 4. To view more details, select **Show more** to expand the contact's profile.
 
  > [!div class="mx-imgBorder"]
- > ![View profile card details](Viewprofilecard/teams-add-tab.png "View profile card details")
+ > ![View profile card details](media/Viewprofilecard.png "View profile card details")
    
  ## View s user's profile
  
@@ -53,5 +53,5 @@ You can view details of the contact inline which includes the contact picture, n
 3.	Hover over the owner field when it has a user record. You can view the details of the user inline.
 
  > [!div class="mx-imgBorder"]
- > ![View profile card details for a user](Userprofilecard/teams-add-tab.png "View profile card details for a user")
+ > ![View profile card details for a user](media/Userprofilecard.png "View profile card details for a user")
  
