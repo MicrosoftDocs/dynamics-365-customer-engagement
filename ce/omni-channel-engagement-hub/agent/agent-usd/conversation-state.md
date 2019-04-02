@@ -72,7 +72,7 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 
 The session that you close while conversation is still in active state are classified under **In-progress** state.
 
-| Initial state | Transition state | Scenario  | Type (SMS, Chat, Entity Routing, Conversation Channels) |
+| From state | To state | Scenario  | Type (SMS, Chat, Entity Routing, Conversation Channels) |
 |---------------|------------------|---------------------------------------------------------|------------|
 | In-progress   | Closed           | When you don't perform any action, then then conversation auto-closes after the inactivity timeout. | SMS |
 
