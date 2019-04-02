@@ -63,24 +63,24 @@ You can view details of the contact inline which includes the contact picture, n
  ## FAQs
  
 ### Where can I see profile cards in Dynamics 365?
-Profile cards in Dynamics 365 can be seen in Unified Interface on contact and user records. You only view them when they are in a lookup currently.
+Profile cards in Dynamics 365 can be seen in Unified Interface on contact and user records. You can only view them when they are in a lookup.
 
-### Where is information shown in the Profile card coming from?
-The information shown on the contact Profile card is fetched from Common Data Service (and not Microsoft Exchange). So, the contact details are coming from Dynamics 365.
+### Where is information shown in the profile card coming from?
+The information shown on the contact profile card is fetched from Common Data Service (and not Microsoft Exchange). This means the contact details are coming from Dynamics 365.
 
-The information shown on the user Profile card is fetched from Office 365 (Azure Active Dictory). For more information, see [Profile cards in Office 365 (admin section)](https://support.office.com/en-us/article/Profile-cards-in-Office-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501).
+The information shown on the user profile card is fetched from Office 365 (Azure Active Directory). For more information, see [Profile cards in Office 365 (admin section)](https://support.office.com/en-us/article/Profile-cards-in-Office-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501).
 
 ### How can I customize the fields shown on the profile card?
 Currently, the list of fields displayed on the profile card are not open for customization.
 
-### Why is the **Start chat** option on the Profile card disabled (greyed out)?
-The ‘Start chat’ and the ‘Send Email’ options on the Profile card will open your default IM and email apps, respectively. ‘Start chat’ option is enabled if the person you are trying to contact in the same Azure AD environment as you or in a federated one.
+### Why is the **Start chat** option on the profile card disabled (greyed out)?
+The **Start chat** and the **Send Email** options on the profile card will open your default instant message and email apps. The **Start chat** option is enabled if the person you are trying to contact in the same Azure Active Directory environment as you or is a federated contact.
 
 ### Can I see profile cards in Dynamics 365 on the tablet app?
 Profile cards in Dynamics 365 are only enabled for browsers on a desktop/PC currently, as they are activated on hover.
 
 ### What will happen to the Skype presence integration in Unified Interface?
-When you have enabled both Skype presence and the Profile card integration in Dynamics 365, you will see the Profile card displayed in a lookup. All other areas referencing Skype card integration will not be affected.
+When you have enabled both Skype presence and the profile card integration in Dynamics 365, you will see the profile card displayed in a lookup. All other areas referencing Skype card integration will not be affected.
 
  
  
