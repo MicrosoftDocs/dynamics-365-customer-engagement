@@ -10,7 +10,7 @@
 ## [Quick create](../basics/quick-create-enter-data-fast.md)
 ## [Pin frequently used items](../basics/pin-records-views-dashboards-used-frequently.md)
 ## [Search and Find](../basics/search-and-find-header.md)
-## [View someone's profile card]((../basics/profile-card.md)
+## [View someone's profile card](../basics/profile-card.md)
 ### [Basic search](../basics/search-records.md)
 ### [Relevance search](../basics/relevance-search-results.md)
 ### [Save searches using Advanced Find](../basics/save-advanced-find-search.md)
