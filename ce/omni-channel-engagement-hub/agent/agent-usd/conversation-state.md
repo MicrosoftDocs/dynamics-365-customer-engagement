@@ -50,20 +50,20 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 |---------------|------------------|---------------------------------------------------------|------------|
 | Active        | Closed           | When you complete working on the conversation and end the conversation and close the session.| Entity Routing |
 | Active        | Open             | When you disconnect the conversation and doesn't reconnect with in a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another agent or queue. <br><br> | Conversation |
-| Active        | Waiting          | When you close the session (not ending the conversation by selecting the End button).<br><br> When the customer disconnects the conversation, and you Wrap-up (close) the session (not ending the conversation by selecting the End button). <br><br> When you select the Waiting button in Communication Panel. |   Conversation |
-| Active        | Wrap-up          | When you select the End button on Communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the End button on the portal chat widget.| Conversation |
-| Active        | In-progress      | When you close the session with conversation in active state  | SMS  |
+| Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button).<br><br> When the customer disconnects the conversation, and you **Wrap-up** (close) the session (not ending the conversation by selecting the **End** button). <br><br> When you select the **Waiting** button in communication panel. |   Conversation |
+| Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget.| Conversation |
+| Active        | In-progress      | When you close the session with conversation in active state.  | SMS  |
 
 ## Waiting
 
-The conversations that you close or customer disconnects are classified under **Waiting** state. These conversations are not just closed and not ended by selecting the **End** button either in Communication panel (for agent) and portal chat widget (for customer).
+The conversations that you close or customer disconnects are classified under **Waiting** state. These conversations are not just closed and not ended by selecting the **End** button either in communication panel (for agent) and portal chat widget (for customer).
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** state under the following scenarios.
 
 | From state | To state | Scenario  | Type (SMS, Chat, Entity Routing, Conversation Channels) |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Waiting       | Closed           | When you don't reconnect to the conversation with in a specified timeout period.<br><br> When the customer selects the End button to end the conversation and close the session.| Conversation |
-| Waiting       | Active           | When you revive the session from your My work items stream on My Dashboard. | Conversation |
+| Waiting       | Closed           | When you don't reconnect to the conversation with in a specified timeout period.<br><br> When the customer selects the **End** button to end the conversation and close the session.| Conversation. |
+| Waiting       | Active           | When you revive the session from your **My work items** stream on **My Dashboard**. | Conversation |
 | Waiting       | Open             | When the customer revives the conversation within a specified timeout period. | Conversation |
 
 ## In-progress
@@ -72,7 +72,7 @@ The session that you close while conversation is still in active state are class
 
 | Initial state | Transition state | Scenario  | Type (SMS, Chat, Entity Routing, Conversation Channels) |
 |---------------|------------------|---------------------------------------------------------|------------|
-| In-progress   | Closed           | When you don't perform any action, then then conversation auto-closes after the inactivity timeout | SMS |
+| In-progress   | Closed           | When you don't perform any action, then then conversation auto-closes after the inactivity timeout. | SMS |
 
 ## Wrap-up
 
@@ -82,7 +82,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** state un
 
 | From state | To state | Scenario  | Type (SMS, Chat, Entity Routing, Conversation Channels) |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Wrap-up       | Closed           | When you select the **End** button in **Communication panel** and close the session. | Conversation |
+| Wrap-up       | Closed           | When you select the **End** button in communication panel and close the session. | Conversation |
 
 ## Closed
 
