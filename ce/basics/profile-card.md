@@ -46,7 +46,7 @@ You can view details of the contact inline which includes the contact picture, n
  > [!div class="mx-imgBorder"]
  > ![View profile card details](media/Viewprofilecard.png "View profile card details")
    
- ## View s user's profile
+ ## View a user's profile
  
 1.	Navigate to **Sales Hub** > **Accounts**.
 2.	Select an account record.
