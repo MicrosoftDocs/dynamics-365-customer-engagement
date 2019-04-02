@@ -65,21 +65,22 @@ manager: shubhadaj
 **Answer**:<br>The **Prices Locked** (ispricelocked) field controls the prices specified on the **Order** are locked from any further updates.<br>
 Behavior of **PricePerUnit** in the **Products** subgrid and **Order** product from:<br> 
 - **For existing product**:
-   |Configuration| In editable grid – **PricePerUnit** column value| In non-editable grid – **PricePerUnit** column value| **Order** product form|
-   |-------------|-------------|-------------|-------------|
-   |**Prices Locked** is Yes|Non-Editable|Non-Editable|Non-Editable|
-   |**Prices Locked** is No and **Pricing** is Override Price|Editable|Non-Editable|Editable|
-   |**Prices Locked** is No and **Pricing** is Use Default|Non-Editable|Non-Editable|Non-Editable|
+  |Configuration| In editable grid – **PricePerUnit** column value| In non-editable grid – **PricePerUnit** column value| **Order** product form|
+  |-------------|-------------|-------------|-------------|
+  |**Prices Locked** is Yes|Non-Editable|Non-Editable|Non-Editable|
+  |**Prices Locked** is No and **Pricing** is Override Price|Editable|Non-Editable|Editable|
+  |**Prices Locked** is No and **Pricing** is Use Default|Non-Editable|Non-Editable|Non-Editable|
 
 - **For new product**:
-   |Configuration| In editable grid – **PricePerUnit** column value| In non-editable grid – **PricePerUnit** column value| **Order** product form|
-   |-------------|-------------|-------------|-------------|
-   |**Prices Locked** is Yes|Non-Editable|Non-Editable|Non-Editable|
-   |**Prices Locked** is No|Editable|Non-Editable|Editable|
+  |Configuration| In editable grid – **PricePerUnit** column value| In non-editable grid – **PricePerUnit** column value| **Order** product form|
+  |-------------|-------------|-------------|-------------|
+  |**Prices Locked** is Yes|Non-Editable|Non-Editable|Non-Editable|
+  |**Prices Locked** is No|Editable|Non-Editable|Editable|
    
 **Question**:<br>What is the result of changing product price in **Pricelist** on the **PricePerUnit** of **Order** product form?
 
 **Answer**:<br>The following table defines the effect of changing product price in **Pricelist** on the **PricePerUnit** of **Order** product form:
+
 |Entity State|IsPriceLocked|Pricing|Is the value of **PricePerUnit** on the **Order** product form change?|
 |------------|-------------|-------|----------------------------------------------------------------------|
 |Editable|Yes|Default or Override|No|
