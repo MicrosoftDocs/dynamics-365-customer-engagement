@@ -96,7 +96,7 @@ Add the account you just created as the service account.
 
 Notice the following values automatically populated.
 
-Billing Account - populated as the Billing account specified on the service account record.
+Billing Account - populated as the billing account specified on the service account record.
 
 Price List - populated as the price list specified on the **billing account** record.
 
@@ -109,21 +109,13 @@ Address
 
 Location
 
-**Pro Tip**
+**Pro Tip:** You can select and drag the map pin to edit the work order location (latitude and longitude) as needed. This is helpful for scenarios where the address points to an arbitrary location at a university campus for example, but the work order must take place at a specific building or location on the campus.
+
+This work order location is passed down to the work order requirement and is reflected on the schedule board map. 
 
 > [!Note]
-> Work Orders can be assigned and addresses and geo coded 
-
-- add a service account to a work order
-- billing account
-- primary contact 
-- price list
-- location 
-  - board
+> Work Orders can be assigned addresses and geo coded independent of the service account if needed.
 
 ## Configuration considerations
 - travel charge type 
 
-
-## Additional Notes
-- can add location to work order without account location
