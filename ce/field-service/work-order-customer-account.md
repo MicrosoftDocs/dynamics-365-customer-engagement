@@ -70,25 +70,28 @@ Confirm geo coding is successful by the location visualized on the map and value
 
 Next, go the Field Service section of the account form and fill in details based on your business needs. Values entered here are passed down to work orders where this account is listed as the service account, but the values can be edited on each work order as needed.
 
-**Price List:** This value is listed on the work order and all related work order products and services and dictates the price of those products and services on the resulting invoice. If the work order products or services are not listed on the price list, then the list price on the product record is used.
+**Billing Account:** The value chosen here will populate the billing account field on the work order when this account is entered as the service account. This field is not required, and if no account is entered here, the service account listed on the work order will act as both the service account and the billing account. In the example image below, Winery Inc. is the Billing Account for the service account, Coho Winery. This implies Coho Winery is a specific location of Winery Inc. and invoices should be listed for Winery Inc.
 
-**Billing Account:** The value chosen here will populate the billing account field on the work order when this account is entered as the service account. This field is not required, and if no account is entered here, the service account listed on the work order will act as both the service account and the billing account.
+**Price List:** This value is listed on related work orders and all related work order products and services and dictates the price of those products and services on the resulting invoices. If the billing account field in the previous step has a value, then the price list on the billing account record will be used. If no billing account is entered, then the price list entered here will be used on resulting work orders and invoices. If the work order products or services are not listed on the price list, then the list price on the product record is used. **Note:** the price list entered will be overridden by price lists related to Work Order Types and with Entitlements.
 
-**Tax Exempt:** Decides if sales tax should be added to the price of related work orders. Set to **Yes** to not add sales tax. Set to **No** to specify a sales tax code (percentage) that should be added onto the work order price and invoice.
+**Tax Exempt:** Decides if sales tax should be added to the price of related work orders. Set to **Yes** to not add sales tax. Set to **No** to specify a sales tax code (percentage) that should be added to the work order price and invoice.
 
-**Service Territory:** Choose the geographical region this account is located in. This will be passed down to the work order and work order requirement
+**Service Territory:** Choose the geographical region this account is located in. This value will be passed down to the related work orders and work order requirements and is considered in the scheduling process on the schedule board, in the schedule assistant, and with resource scheduling optimization (RSO).
 
-**Travel Charge Type:**
+**Travel Charge Type:** Decide if and how travel by a field technician to this service account should be priced and billed on work orders. See configuration considerations in this article for more details.
 
-**Work Order Instructions:** 
+**Work Order Instructions:** The value here serves as a text note and populates the **Instructions** field on all related work orders. This is a good way to ensure field technicians follow processes specific to this account. See an example in the image below.
 
 
 > [!Note]
-> Updating these values will not update previous work orders, only work order going forward.
+> Updating these values will not update previous work orders, only future work orders.
 
 
 ## create a work order for the service account
 
+Next, go to **Field Service > Work Orders > +New**
+
+Add the account you just created as the service account. 
 - add a service account to a work order
 - billing account
 - primary contact 
