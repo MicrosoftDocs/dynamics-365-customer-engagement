@@ -81,5 +81,5 @@
 
 # [Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)
 
-# [Developer Guide]()
+# [Developer Guide](developer-guide.md)
 ## [RecalculatePrice Action](../sales-enterprise/recalculateprice-action.md)
