@@ -27,7 +27,7 @@ This action is used to trigger out of box price calculation for Opportunity, Quo
 
 |Name|Type|Required|Description|
 |----|----|----|----|
-|entityName|string|Yes|Entity logical name|
+|entityName|String|Yes|Entity logical name|
 |entityId|GUID|Yes|Entity GUID|
 
 ## Examples
@@ -35,7 +35,7 @@ This action is used to trigger out of box price calculation for Opportunity, Quo
 **Request**
 
 ```HTTP
-POST : [Organization URI]/api/data/v9.1/RecalculatePrice
+POST [Organization URI]/api/data/v9.1/RecalculatePrice
 {
     "entityLogicalName": "quote",
     "entityId":"91F3EDB0-213B-E911-8190-000D3AFD8945"
