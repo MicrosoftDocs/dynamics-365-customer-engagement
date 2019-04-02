@@ -28,7 +28,7 @@ Use the profile card to get quick information about a contact or user. When you 
 
 > [!NOTE]
 >  - The profile card experience is available in the Unified Interface of Dynamics 365 Customer Engagemnt apps.
->  - It is available for the  **Contact** and **User** entity. More information for admin on how to enable this feature see, [Enable the profile card](www.bing.com).
+>  - It is available for the  **Contact** and **User** entity. More information for admins to learn how to enable this feature see, [Enable the profile card](www.bing.com).
 
 ## View a contact's profile
 
