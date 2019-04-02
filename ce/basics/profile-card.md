@@ -24,11 +24,11 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use the profile card to get quick information about a contact or user. When you select contact or user in Dynamics 365 for Customer Engagement apps, you can find information related to them on their profile card. For more information about profile cards, see [Profile cards in Office 365](https://support.office.com/en-us/article/Profile-cards-in-Office-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501).
+Use the profile card to get quick information about a contact or user. When you select a contact or user field in Dynamics 365 for Customer Engagement apps, you can find information related to them on their profile card. For more information about profile cards, see [Profile cards in Office 365](https://support.office.com/en-us/article/Profile-cards-in-Office-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501).
 
 > [!NOTE]
 >  - The profile card experience is available in the Unified Interface of Dynamics 365 Customer Engagemnt apps.
->  - It is available for the  **Contact** and **User** entity. More information on how to turn this feature on see, [Enable the profile card (for admins)](www.bing.com).
+>  - It is available for the  **Contact** and **User** entity. More information on how to turn this feature on see, [Enable the profile card (for admins)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/admin-guide).
 
 ## View a contact's profile
 
