@@ -27,7 +27,7 @@ This action is used to trigger out of box price calculation for Opportunity, Quo
 
 |Name|Type|Required|Description|
 |----|----|----|----|
-|entityName|String|Yes|Entity logical name|
+|entityLogicalName|String|Yes|Entity logical name|
 |entityId|GUID|Yes|Entity GUID|
 
 ## Examples
