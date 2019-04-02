@@ -136,9 +136,9 @@ To skip inline navigation for certain entities, a system Administrator must conf
 
 ### Block second navigation in Chrome Process pooling
 
-When an application (hosted control) is initialized and you do an inline navigation to another entity page using the same application (hosted control), then the second navigation is also inline. If you've specific window navigation rule between the same entity type with the **Route Window** action and **Inplace** type, then the window navigation rule triggers the rule in a loop causing Unified Service Desk to crash. 
+When an application (hosted control) is initialized and you do an inline navigation to another entity page using the same application (hosted control), then the second navigation is also inline. If you've specific window navigation rule between the same entity type with the **Route Window** action and **In Place** type, then the window navigation rule triggers the rule in a loop causing Unified Service Desk to crash. 
 
-For example, with Chrome Process pooling, if you've set window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **Inplace** type, then window navigation rule loops in a recursive manner causing Unified Service Desk to crash.
+For example, with Chrome Process pooling, if you've set window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **In Place** type, then window navigation rule loops in a recursive manner causing Unified Service Desk to crash.
 
 To avoid the crash of Unified Service Desk, you can perform the following:
 
@@ -149,7 +149,7 @@ To avoid the crash of Unified Service Desk, you can perform the following:
 
 Window navigation rule for same entity navigation, you can remove or delete the window navigation rule itself as with the Chrome Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
-Window navigation rule for different entity navigation, you can change the window navigation rule to be more specific from which entity you want the navigation to happen. For example, you can set the window navigation rule from Contact or a Case entity to the Account entity type with the **Route Window** action and **Inplace** type.
+Window navigation rule for different entity navigation, you can change the window navigation rule to be more specific from which entity you want the navigation to happen. For example, you can set the window navigation rule from Contact or a Case entity to the Account entity type with the **Route Window** action and **In Place** type.
 
 #### Add the BlockChromePoolingSecondNavigation UII option
 
