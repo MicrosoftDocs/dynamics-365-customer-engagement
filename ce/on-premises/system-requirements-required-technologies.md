@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for Customer Engagement (on-premises) system requirements and required technologies | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/01/2018"
+ms.date: "03/28/2019"
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,12 @@ This [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] version req
 -   [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] for [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] and other [!INCLUDE[pn_office_shortest](../includes/pn-office-shortest.md)] integration features  
   
 > [!NOTE]
->  For detailed hardware and software requirements or specific product versions and service pack levels that are supported, see the topics in this section.  
+>  For detailed hardware and software requirements or specific product versions and service pack levels that are supported for this version, see the topics in this section. 
+>
+>  For hardware and software requirements of earlier versions, see the following topics.  
+>  - [Dynamics 365 (version 8.x) and Dynamics CRM 2016](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699831(v%3dcrm.8))
+>  - [Microsoft Dynamics CRM 2015](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2015/deployment-administrators-guide/hh699831(v=crm.7))
+>  - [Microsoft Dynamics CRM 2013](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2013/implementation-guide/hh699831(v%3dcrm.6))
   
 > [!IMPORTANT]
 >  Typically, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] applications support the latest version and service pack (SP) for all required components, such as [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)], [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)], and [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)]. However, to fully support the latest version of a required component, you should apply the latest update for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  

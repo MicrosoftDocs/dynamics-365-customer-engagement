@@ -106,7 +106,7 @@ For more information about the key types supported by Key Vault by uploading the
 ### Set or change the encryption key for an instance  
  Use this procedure to set the manage key feature the first time for an instance or to change an encryption key for an already self-managed instance.  
   
-1. Sign in to the [Office 365 Admin center](https://portal.office.com).  
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com).  
   
 2. Expand **Admin centers**, and then click **Dynamics 365**.  
   

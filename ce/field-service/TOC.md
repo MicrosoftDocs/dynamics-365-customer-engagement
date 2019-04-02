@@ -45,6 +45,7 @@
 ## [Scheduling personas](scheduling-roles-personas.md)
 ## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
 ## [Configure the schedule board](configure-schedule-board.md)
+## [Sharing schedule board tabs](share-schedule-board-tab.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
@@ -53,7 +54,8 @@
 ## [Facility scheduling](facility-scheduling.md)
 ## [Fulfillment preferences](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
-
+## [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
+## [Schedule board tab settings](schedule-board-tab-settings.md)
 
 # Field Service Mobile
 ## [Setup](field-service-mobile-app-user-guide.md)

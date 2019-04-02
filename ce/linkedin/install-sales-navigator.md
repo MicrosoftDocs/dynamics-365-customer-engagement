@@ -45,9 +45,9 @@ You will need to sign your team up for [LinkedIn Sales Navigator Team](https://b
 
 ## Update the solution
 
-After installing the solution, you can visit the [Office 365 admin center](https://portal.office.com/) to see if an update is available. You'll need global admin permissions to start the update process.
+After installing the solution, you can visit the [Microsoft 365 admin center](https://admin.microsoft.com/) to see if an update is available. You'll need global admin permissions to start the update process.
 
-1. Go to the [Office 365 admin center](https://portal.office.com/) and sign in with your global admin credentials.
+1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and sign in with your global admin credentials.
 
 2. Under **Admin centers**, select **[!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]**. 
 
