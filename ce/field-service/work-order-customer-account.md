@@ -50,8 +50,6 @@ Locations are very important in field service scenarios where field technicians 
 2. [enable and test geo coding](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
  
 
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
@@ -65,6 +63,9 @@ Go to **Field Service > Accounts > +New**
 Enter an **Account name** and an **address** along with other important details based on your business needs.
 
 Next, select **Geo Code** at the top fo the form. If you have Set **Auto Geo Code** to **Yes** in Field Service Settings as noted in the prerequisites then you can skip this step. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 Confirm geo coding is successful by the location visualized on the map and values populated in the latitude and longitude fields in the Scheduling section. 
 
@@ -82,6 +83,8 @@ Next, go the Field Service section of the account form and fill in details based
 
 **Work Order Instructions:** The value here serves as a text note and populates the **Instructions** field on all related work orders. This is a good way to ensure field technicians follow processes specific to this account. See an example in the image below.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 > [!Note]
 > Updating these values will not update previous work orders, only future work orders.
@@ -100,10 +103,16 @@ Billing Account - populated as the billing account specified on the service acco
 
 Price List - populated as the price list specified on the **billing account** record.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
 > [!Note]
 > If the work order price list does not reflect the price list entered on your service account or billing account, this means it is being overridden by the price list related to Work Order Types or Entitlements.
 
 Service Territory and Instructions
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 Address
 
@@ -113,9 +122,15 @@ Location
 
 This work order location is passed down to the work order requirement and is reflected on the schedule board map. 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
 > [!Note]
 > Work Orders can be assigned addresses and geo coded independent of the service account if needed.
 
 ## Configuration considerations
 - travel charge type 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
