@@ -256,5 +256,5 @@ To resolve this issue, you must edit or remove filters for the view. This will e
 
 ### See Also
 
-
+[Frequently asked questions](faqs-sales.md)
 [Troubleshooting guide for sales people](troubleshooting.md)
