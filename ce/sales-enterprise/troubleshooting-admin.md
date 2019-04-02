@@ -230,7 +230,7 @@ To resolve this issue, you must remove and add back the column that is causing t
     > [!div class="mx-imgBorder"]
     > ![Adding back the removed column](media/troubleshooting-column-add-back-column-view.png "Adding back the removed column")
    
-  The data in the columns is displayed properly.
+    The data in the columns is displayed properly.
 
 ## Unable to see some records in the entity views
 
@@ -261,10 +261,10 @@ To resolve this issue, you must edit or remove filters for the view. This will e
     > [!div class="mx-imgBorder"]
     > ![Update or clear the filter criteria](media/troubleshooting-record-update-filter.png "Update or clear the filter criteria")
    
-  The records in the views are displayed properly.
+    The records in the views are displayed properly.
 
 
 ### See also
 
-[Frequently asked questions](faqs-sales.md)
+[Frequently asked questions](faqs-sales.md) </br>
 [Troubleshooting guide for sales people](troubleshooting.md)
