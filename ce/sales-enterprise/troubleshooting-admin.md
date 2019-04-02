@@ -168,7 +168,7 @@ If the issue persists, try to [Disable custom JavaScript](#disable-custom-javasc
  
 6. Publish the customizations.
 
-If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plugin) or [Deactivate custom workflow process](#deactivate-custom-workflow-process).
+If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Deactivate custom workflow process](#deactivate-custom-workflow-process).
 
 ### Deactivate custom workflow process
 
