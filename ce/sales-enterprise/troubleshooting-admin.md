@@ -122,6 +122,7 @@ These issues might occur due to improper customization of the application. You m
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
 2. Select **Sdk Message Processing Steps**. 
+
    A list of available Sdk message processing steps is displayed.
 3. Select the **Filter** icon, select the column **Primary Object Type Code (Sdk Message Filter)**, and then select the entity for which the error is occurring.
     
