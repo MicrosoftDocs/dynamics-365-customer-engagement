@@ -2,9 +2,9 @@
 title: "Sample: Audit user access (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Sample demonstrating the auditing of user access to records."
 keywords: 
-ms.date: 10/31/2017
+ms.date: 03/29/2019
 ms.service: crm-online
-ms.custom: 
+ms.custom: audit
 ms.topic: samples
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -12,7 +12,7 @@ ms.assetid: db508858-7386-44f3-9f91-29493e6fe2c4
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
