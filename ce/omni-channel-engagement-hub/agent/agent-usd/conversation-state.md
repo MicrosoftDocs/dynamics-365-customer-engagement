@@ -19,15 +19,17 @@ The topic explains the various states of the conversation (work item) in Omni-ch
 
 Types of conversation states:
 
- - Open
+ - [Open](#open)
 
- - Active
+ - [Active](#active)
  
- - Waiting
- 
- - Wrap-up
+ - [Waiting](#waiting)
 
- - Closed
+ - [In-progress](#in-progress)
+ 
+ - [Wrap-up](#wrap-up)
+
+ - [Closed](#closed)
 
 ## Open
 
