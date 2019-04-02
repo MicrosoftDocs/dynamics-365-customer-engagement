@@ -187,7 +187,7 @@ If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plu
     > [!div class="mx-imgBorder"]
     > ![Choose and deactivate unmanaged process workflows](media/troubleshooting-goto-deactivate-unmanaged-custom-process-workflow.png "Choose and deactivate unmanaged custom process workflows") 
 
-If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plugin) or [Disable custom JavaScript](#disable-custom-javascript).
+If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Disable custom JavaScript](#disable-custom-javascript).
 
 ## Unable to see data in certain columns in entity views
 
