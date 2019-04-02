@@ -50,8 +50,7 @@ Locations are very important in field service scenarios where field technicians 
 2. [enable and test geo coding](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
  
 
-> [!Note]
->
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
@@ -69,10 +68,23 @@ Next, select **Geo Code** at the top fo the form. If you have Set **Auto Geo Cod
 
 Confirm geo coding is successful by the location visualized on the map and values populated in the latitude and longitude fields in the Scheduling section. 
 
-- have an account that represents a customer location where service will take place
-- add field service information on an account 
-- if the service account does not have a different billing account then leave this blank
+Next, go the Field Service section of the account form and fill in details based on your business needs. Values entered here are passed down to work orders where this account is listed as the service account, but the values can be edited on each work order as needed.
 
+**Price List:** This value is listed on the work order and all related work order products and services and dictates the price of those products and services on the resulting invoice. If the work order products or services are not listed on the price list, then the list price on the product record is used.
+
+**Billing Account:** The value chosen here will populate the billing account field on the work order when this account is entered as the service account. This field is not required, and if no account is entered here, the service account listed on the work order will act as both the service account and the billing account.
+
+**Tax Exempt:** Decides if sales tax should be added to the price of related work orders. Set to **Yes** to not add sales tax. Set to **No** to specify a sales tax code (percentage) that should be added onto the work order price and invoice.
+
+**Service Territory:** Choose the geographical region this account is located in. This will be passed down to the work order and work order requirement
+
+**Travel Charge Type:**
+
+**Work Order Instructions:** 
+
+
+> [!Note]
+> Updating these values will not update previous work orders, only work order going forward.
 
 
 ## create a work order for the service account
