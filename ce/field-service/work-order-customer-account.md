@@ -35,12 +35,16 @@ Dynamics 365 for Field Service utilizes accounts and contacts during the work or
 **Billing accounts** represent which account should receive invoices and who the parent account is in cases where many service accounts belong to a central organization (ex: multiple wine vineyards are owned by a wine corporation). 
 
 In addition, selecting accounts will auto-populate other fields on a work order.
+
+Examples include: 
+- passing account (customer) price lists to all related work orders.
+- passing the account territory to all related work orders to ensure resources devoted to that territory are scheduled to perform the on site work.
  
 In this article let's explore creating and using accounts on work orders. 
 
 ## Prerequisites
 
-Locations are very important in field service scenarios where field technicians may need to be routed to multiple customers' locations each day. For this reason it is highly recommended to 
+Locations are very important in field service scenarios where field technicians may need to be routed to multiple customers' locations each day. For this reason it is highly recommended to: 
 
 1. [connect to Bing maps and enable map visualizations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
 2. [enable and test geo coding](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
@@ -54,6 +58,16 @@ Locations are very important in field service scenarios where field technicians 
 
 
 ## Create a service account
+
+First lets create a service account that represents a specific customer location where work orders will be performed. Whether it is a service account or a billing account, they are both simply account records. The main difference is it is recommended service accounts have addresses and are geo coded.
+
+Go to **Field Service > Accounts > +New**
+
+Enter an **Account name** and an **address** along with other important details based on your business needs.
+
+Next, select **Geo Code** at the top fo the form. If you have Set **Auto Geo Code** to **Yes** in Field Service Settings as noted in the prerequisites then you can skip this step. 
+
+Confirm geo coding is successful by the location visualized on the map and values populated in the latitude and longitude fields in the Scheduling section. 
 
 - have an account that represents a customer location where service will take place
 - add field service information on an account 
