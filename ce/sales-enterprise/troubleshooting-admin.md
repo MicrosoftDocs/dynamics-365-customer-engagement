@@ -103,38 +103,43 @@ The user trying to close the opportunity doesn’t have sufficient permissions o
 
 ## Error or unexpected behavior while working on entities such as opportunities, quote, and order
 
-While working on entities, you observe unexpected behavior or error while working on entities in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The following are some of the issues that you might encounter:
+While working on entities, you observe unexpected behavior or an error while working on entities in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The following are some issues that you might encounter:
 
-- Observe unexpected behavior or error while working on entities such as opportunity, quote, order, and invoice.
-- Error on entity (such as order and quote) line item, total tax, or amount calculation is wrong.
+- You observe unexpected behavior or an error while working on entities such as opportunity, quote, order, and invoice.
+- You get an error on an entity (such as order and quote) line item or total tax, or the amount calculation is wrong.
 
-These issues might occur due to improper customization of application. You must verify these customization errors and resolve them. Perform the following verification methods to identify the root cause depending on the error and resolve the issue:
-- [Deactivate custom plugin](#deactivate-custom-plugin)
+These issues might occur due to improper customization of the application. You must verify these customization errors and resolve them. Perform the following verification methods to identify the root cause, depending on the error, and then resolve the issue:
+
+- [Deactivate custom plug-in](#deactivate-custom-plug-in)
 - [Disable custom JavaScript](#disable-custom-javascript)
 - [Deactivate custom workflow process](#deactivate-custom-workflow-process)
 
-### Deactivate custom plugin
+### Deactivate custom plug-in
+
+
+<!--In the following steps, does "Sdk" mean software development kit? If so, it should be in caps, such as SDK or SDKs, except to match the UI.-->
+
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
 2. Select **Sdk Message Processing Steps**. 
-    a list of available Sdk message processing steps is displayed.
-3. Select **Filter** icon, Select column **Primary Object Type Code (Sdk Message Filter)** and select the entity for which the error is occurring.
+   A list of available Sdk message processing steps is displayed.
+3. Select the **Filter** icon, select the column **Primary Object Type Code (Sdk Message Filter)**, and then select the entity for which the error is occurring.
     
     > [!div class="mx-imgBorder"]
-    > ![Go to custom plugin list](media/troubleshooting-goto-custom-plugin-list.png "Go to custom plugin list")
+    > ![Go to custom plug-in list](media/troubleshooting-goto-custom-plugin-list.png "Go to custom plug-in list")
 
-4. Choose all the plugins that are in **Unmanaged** state. In this example, we have selected **ActivityFeeds.Plugins** with **Create** and **Update** SDK message types.
+4. Choose all the plug-ins that are in an **Unmanaged** state. In this example, we have selected **ActivityFeeds.Plugins** with **Create** and **Update** SDK message types.
 5. Select **Deactivate**.
 6. Publish the customizations.
  
     > [!div class="mx-imgBorder"]
-    > ![Choose and deactivate unmanaged custom plugins](media/troubleshooting-deactivate-unmanaged-custom-plugin.png "Choose and deactivate unmanaged custom plugins")
+    > ![Choose and deactivate unmanaged custom plug-ins](media/troubleshooting-deactivate-unmanaged-custom-plugin.png "Choose and deactivate unmanaged custom plug-ins")
 
-If the issue still persists, try to [Disable custom JavaScript](#disable-custom-javascript) or [Deactivate custom workflow process](#deactivate-custom-workflow-process).
+If the issue persists, try to [Disable custom JavaScript](#disable-custom-javascript) or [Deactivate custom workflow process](#deactivate-custom-workflow-process).
 
 ### Disable custom JavaScript
 
-1. Open form editor of the entity in which the error is occurring. In this example, we are selecting the entity as Opportunities and the default solution form.
+1. Open the form editor of the entity in which the error is occurring. In this example, we are selecting the entity as Opportunities and the default solution form.
 
     > [!div class="mx-imgBorder"]
     > ![Open form editor](media/troubleshooting-javascript-form-editor.png "Open form editor")
@@ -146,7 +151,7 @@ If the issue still persists, try to [Disable custom JavaScript](#disable-custom-
 
     The **Form Properties** dialog opens.
 
-3. On the **Events** tab, Select the control **OnLoad** from the **Events** dropdown and choose the custom JavaScript file.  
+3. On the **Events** tab, select the control **OnLoad** from the **Events** drop-down list and choose the custom JavaScript file.  
 
     > [!div class="mx-imgBorder"]
     > ![Event control selection](media/troubleshooting-javascript-form-properties-event-control-selection.png "Event control selection")
@@ -156,33 +161,33 @@ If the issue still persists, try to [Disable custom JavaScript](#disable-custom-
     > [!div class="mx-imgBorder"]
     > ![Handler properties dialog](media/troubleshooting-javascript-handler-properties-dialog.png "Handler properties dialog") 
 
-5. Uncheck the **Enabled** option and select OK.
+5. Clear the **Enabled** option and select **OK**.
  
     > [!div class="mx-imgBorder"]
-    > ![Uncheck enabled option](media/troubleshooting-javascript-handler-properties-uncheck-enabled.png "Uncheck enabled option") 
+    > ![Clear enabled option](media/troubleshooting-javascript-handler-properties-uncheck-enabled.png "Clear enabled option") 
  
 6. Publish the customizations.
 
-If the issue still persists, try to [Deactivate custom plugin](#deactivate-custom-plugin) or [Deactivate custom workflow process](#deactivate-custom-workflow-process).
+If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plugin) or [Deactivate custom workflow process](#deactivate-custom-workflow-process).
 
 ### Deactivate custom workflow process
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
 1. Select **Processes**. 
-    a list of available processes is displayed.
-3. Select **Filter** icon, Select column **Primary Entity** and select the entity for which the error is occurring.
+   A list of available processes is displayed.
+3. Select the **Filter** icon, select the column **Primary Entity**, and then select the entity for which the error is occurring.
     
     > [!div class="mx-imgBorder"]
     > ![Go to custom process workflow list](media/troubleshooting-goto-custom-process-workflow-list.png "Go to custom process workflow list")
 
-4. Choose all process workflows that are in **Unmanaged** state. In this example, we have to select all the unmanaged process workflows.
+4. Choose all process workflows that are in the **Unmanaged** state. In this example, we have to select all the unmanaged process workflows.
 5. Select **Deactivate**.
 6. Publish the customizations.
  
     > [!div class="mx-imgBorder"]
     > ![Choose and deactivate unmanaged process workflows](media/troubleshooting-goto-deactivate-unmanaged-custom-process-workflow.png "Choose and deactivate unmanaged custom process workflows") 
 
-If the issue still persists, try to [Deactivate custom plugin](#deactivate-custom-plugin) or [Disable custom JavaScript](#disable-custom-javascript).
+If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plugin) or [Disable custom JavaScript](#disable-custom-javascript).
 
 ## Unable to see data in certain columns in entity views
 
@@ -193,7 +198,7 @@ This error is occurring due to mismatch of column names between the `layoutxml` 
 To resolve this issue, you must remove and add back the column that is causing this error. This will ensure that the column names in `layoutxml` and `fetchxml` are matched.
 
 > [!NOTE]
-> Before you start resolving the issue, take a note of the view for which this error is occurring.
+> Before you start resolving the issue, take note of the view for which this error is occurring.
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
 2. Select the entity > **Views** and select the view that has this error. In this example, we are selecting the entity **Account** and view as **Accounts Being Followed**.
@@ -215,12 +220,16 @@ To resolve this issue, you must remove and add back the column that is causing t
 
     The column is removed from the view.
 
-5. Add back the column that column that you have deleted. Select **Add Columns** and add the column that you have removed. In this example, we are adding  the column **Email (Primary Contact)** that was removed.
+
+<!--Should "that column" be deleted below? It's a repeat. Actually, that whole first sentence seems unneeded.-->
+
+
+5. Add back the column that column that you have deleted. Select **Add Columns** and re-add the column that you removed. In this example, we are adding  the column **Email (Primary Contact)** that was removed.
 
     > [!div class="mx-imgBorder"]
     > ![Adding back the removed column](media/troubleshooting-column-add-back-column-view.png "Adding back the removed column")
    
-  The data in the columns are displayed properly.
+  The data in the columns is displayed properly.
 
 ## Unable to see some records in the entity views
 
@@ -231,7 +240,7 @@ This error is occurring due to the filtering of data on a view.
 To resolve this issue, you must edit or remove filters for the view. This will ensure that filters are applied properly for the view.
 
 > [!NOTE]
-> Before you start resolving the issue, take a note of the view for which this error is occurring.
+> Before you start resolving the issue, take note of the view for which this error is occurring.
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
 2. Select the entity > **Views** and select the view that has this error. In this example, we are selecting the entity **Account** and view as **Accounts I Follow**.
@@ -254,7 +263,7 @@ To resolve this issue, you must edit or remove filters for the view. This will e
   The records in the views are displayed properly.
 
 
-### See Also
+### See also
 
 [Frequently asked questions](faqs-sales.md)
 [Troubleshooting guide for sales people](troubleshooting.md)
