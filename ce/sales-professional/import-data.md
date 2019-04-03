@@ -298,4 +298,4 @@ To be able to import from Exchange:
 ### See also
 
 [Export data or template](export-data.md)  
-[Quick Setup and Advanced Settings overview](standard-advanced-settings-overview.md)
+[Admin settings overview](admin-settings-overview.md)

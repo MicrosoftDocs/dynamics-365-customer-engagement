@@ -157,4 +157,4 @@ To stop selling a product, delete it.
 ### See also
 
 [Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
-[Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)
+[Admin settings overview](admin-settings-overview.md)

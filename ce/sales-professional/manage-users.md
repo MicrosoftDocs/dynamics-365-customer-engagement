@@ -120,5 +120,5 @@ Assign a manager or change an existing manager. The manager is responsible for a
 
 ### See also
 
-[Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)  
+[Admin settings overview](admin-settings-overview.md)  
 [Add or manage teams](manage-teams.md)

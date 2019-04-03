@@ -88,4 +88,4 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 ### See also
 
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)  
-[Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)
+[Admin settings overview](admin-settings-overview.md)

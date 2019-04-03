@@ -111,4 +111,4 @@ Here are some highlights of Dynamics 365 for Sales Professional:
 ### See also
 
 [Learn the basics](learn-basics-sales-professional.md)  
-[Standard and Advanced Settings Overview](standard-advanced-settings-overview.md)
+[Admin settings overview](admin-settings-overview.md)

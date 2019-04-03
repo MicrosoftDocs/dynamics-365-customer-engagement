@@ -62,5 +62,5 @@ The theme that you are currently using is shown with the text “currently appli
 
 ### See also
 
-[Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)  
+[Admin settings overview](admin-settings-overview.md)  
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)

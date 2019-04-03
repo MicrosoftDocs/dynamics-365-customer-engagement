@@ -36,4 +36,4 @@ You can also choose the view that will be used for exporting. If you don’t cho
 ### See also
 
 [Import data](import-data.md)   
-[Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)
+[Admin settings overview](admin-settings-overview.md)

@@ -173,4 +173,4 @@ Here are some things you need to be aware of to create and make the best use of 
 ### See also
 
 [Use document templates in Dynamics 365 for Sales Professional](use-document-templates-sales-professional.md)  
-[Quick Setup and Advanced Settings overview](standard-advanced-settings-overview.md)
+[Admin settings overview](admin-settings-overview.md)

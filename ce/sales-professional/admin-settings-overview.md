@@ -1,5 +1,5 @@
 ---
-title: "Standard and Advanced Settings overview (Dynamics 365 for Sales Professional) | MicrosoftDocs"
+title: "Admin settings overview (Dynamics 365 for Sales Professional) | MicrosoftDocs"
 description: "Learn about the standard and advanced settings in Dynamics 365 for Sales Professional."
 keywords: ""
 ms.date: 04/05/2019
@@ -17,7 +17,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Standard and Advanced settings overview
+# Overview of admin settings
 
 Are you the person responsible for getting your sales team onboard?
 
@@ -30,7 +30,6 @@ Dynamics 365 for Sales Professional comes with a simple and straightforward setu
 The Welcome page has resources to get you started—you’ll see links to videos and documentation. Go to the **Standard settings** page to start setting up the basics, or go directly to the app and start working.
 
 ## Standard settings
------------------
 
 The **Standard settings** page provides an intuitive experience of setting up what's most important with the fewest number of clicks. With just one click, Microsoft Exchange and SharePoint are automatically configured for you, and your users are ready to send out emails or share documents. The quick setup also lets you quickly import data, so your users have it ready in the app to start their work.
 

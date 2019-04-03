@@ -65,4 +65,4 @@ privileges associated with that role.
 ### See also
 
 [Add or manage users in Dynamics 365 for Sales Professional](manage-users.md)  
-[Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)
+[Admin settings overview](admin-settings-overview.md)

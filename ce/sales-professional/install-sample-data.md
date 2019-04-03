@@ -40,5 +40,5 @@ Or, if sample data isn’t installed on your system, you might want to add it fo
 
 ### See also
 
-[Quick Setup & Advanced Settings overview](standard-advanced-settings-overview.md)    
+[Admin settings overview](admin-settings-overview.md)    
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
