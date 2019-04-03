@@ -136,8 +136,24 @@ This work order location is passed down to the work order requirement and is ref
 > Work Orders can be assigned addresses and geo coded independent of the service account if needed.
 
 ## Configuration considerations
-- travel charge type 
+If the service account (not billing account) of the work order has a travel charge type set then a work order product for a travel charge will be added when the **Work Order System Status** becomes **Open-Completed** after being booked. 
+
+First, go to **Field Service > Settings > Field Service Settings** and specify a product in the **Travel Charge Item** field. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/field-service-settings-travel-charge.png)
+
+This is the product that will later show as a work order product.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-service-account-travel-charge-product.png)
+
+The price of the travel charge work order product depends on the value chosen on the service account for the Travel Charge Type.
+
+- Hourly:
+- Mileage:
+- Fixed:
+- None:
+
+
 
