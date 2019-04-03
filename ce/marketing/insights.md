@@ -217,7 +217,7 @@ Here you can find a complete history of how various contacts have interacted wit
 
 Because you can reuse each marketing page in several different journeys, the [filter](#filter) controls for page insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the page was used. As with most other entities, you can also filter marketing page insights by date range.
 
-Marketing pages provide the following [categories](#categories) on the **Insights** tab: <!-- note: this isn't working right now; verify and update as needed when it's up -->
+Marketing pages provide the following [categories](#categories) on the **Insights** tab:
 
 - **Overview**: Provides a general overview that includes KPIs, responses over time, geographical data, and more.
 - **Submissions**: Provides a table that lists the full content of each submission made through the page. Metadata and several important field values are shown in the table columns for each submission; hover your mouse pointer over a value in the **Form submissions** column to open a tooltip that shows all values included in a given submission.

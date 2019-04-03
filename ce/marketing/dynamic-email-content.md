@@ -114,7 +114,6 @@ Where:
 - **PrimaryEntity** is an entity that uses a value from the secondary entity. For example, an *account* (primary entity) can show a value from a *contact* (secondary entity) in its *primary contact* field (field name).
 - **FieldName** is always shown next to the secondary entity (which is in parenthesis). This is the name of the field from the primary entity that holds the ID of a record from the secondary entity (but which usually displays the value of a field other than the ID from the secondary entity, such as its name). In some cases, you'll notice a relationship between the same two entities, each of which flows through a different field.
 - **SecondaryEntity** is always shown in parenthesis. This is the entity that provides the field that you want to show with your expression.
-- The direction (indicated by **->**) has no effect, so it doesn't matter whether the primary or secondary entity is listed first.
 
 For example:
 
@@ -163,10 +162,33 @@ On the **Summary** tab of the **Marketing Email** form, you can make various non
 
 ![Sender and receiver settings for email messages](media/email-advanced-header-settings.png "Sender and receiver settings for email messages")
 
-Though these settings provide assist-edit buttons, you must only place static values, or values from the contact (context) entity, such as `{{contact.emailaddress1}}` (which is the default for the **To** address). These settings don't currently support any other entities, relations, or lookup-field values.
+One typical way to take advantage of this feature is to set the **From name** and **From address** to the owner of the contact record. Then, by assigning the owner of each contact record to the salesperson managing that contact, recipients will receive marketing emails that show a from address of somebody they may know, which can greatly increase open rates. Here's how:
+
+1. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync the **User (systemuser)** entity with the marketing insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync) for instructions.
+1. Open your email message and go to the **Summary** tab.
+1. Delete the contents of the **From name** field and then select the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") next to this field.
+1. On the first page of the assist-edit dialog, select **Contextual** and set it to **Contact**. Then select **Next**.
+1. On the second page of the assist-edit dialog, select **Related entity** and then:
+    - Set the top drop-down list (relationship) to **Owning User systemuser (Contact) -> User**.
+    - Set the bottom drop-down list (field) to **Full name**.
+1. Select **OK** to place the expression, which should be: `{{contact.contact_systemuser_owninguser.fullname}}`.
+1. Delete the contents of the **From address** field and then select the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") next to this field.
+1. On the first page of the assist-edit dialog, select **Contextual** and set it to **Contact**. Then select **Next**.
+1. On the second page of the assist-edit dialog, select **Related entity** and then:
+    - Set the top drop-down list (relationship) to **Owning User systemuser (Contact) -> User**.
+    - Set the bottom drop-down list (field) to **Primary email**.
+1. Select **OK** to place the expression, which should be: `{{contact.contact_systemuser_owninguser.internalemailaddress}}`.
+
+You can use similar techniques to place the owning user's name or email address anywhere in the message content. You could do this using assist-edit, copy/paste of the handlebar expressions, or even type them manually, as shown in the previous procedure.
 
 > [!TIP]
-> You can include conditional statements in the **Sender and receiver** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
+> You can include conditional statements in the **Sender and receiver** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty.
+
+## Use dynamic values to choose an image source or link
+
+You can use a dynamic expression to define the source URL for image elements. To do so, select the image element, go to its **Properties** panel and then select the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") next to the **Source** field to place dynamic text as part of the URL. You'll typically mix this with static text to assemble a complete URL. For example, you could include the recipient's contact ID or company name to select an image that is relevant for each individual recipient.
+
+You can likewise use assist-edit to help construct a dynamic expression for setting a **Link** destination for the image.
 
 ## Find record IDs
 
