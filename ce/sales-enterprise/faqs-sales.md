@@ -20,6 +20,16 @@ manager: shubhadaj
 
 # Frequently asked questions
 
+## Entity: Opportunity
+
+**Question**:<br>When can I edit the **Est.Revenue** value in **Opportunity** form?
+
+**Answer**:<br>To edit the value of estimated **Revenue** in **Opportunity** form , the **Revenue** must configured as **User Provided** and the opportunity must be in **Open** state. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Edit estimated revenue](media/faqs-est-revenue.png "Edit estimated revenue")
+
+ 
 ## Entities: Opportunity, Quote, Invoice, and Order
 
 > [!IMPORTANT]
@@ -27,7 +37,19 @@ manager: shubhadaj
 
 **Question**:<br>Why any view other than **Opportunity Product Inline Edit View** loses the inline editable functionality in WebClient if it’s been selected for **Opportunity Product** sub grid in the **Opportunity** form?
 
-**Answer**:<br>This behavior is known and is by design in Web Client. However, this behavior is changed through Unified Interface. You can  
+**Answer**:<br>This behavior is known and is by design in Web Client. However, this behavior is changed in Unified Interface. We recommende you to use Unified Interface to experience inline edit view. You can verify if a grid is editable, go to **Grid control properties**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Properties settings for grid control](media/faqs-grid-control-properties.png "Properties settings for grid control")
+
+   >[!NOTE]
+   > - In Unified Interface, the behavior of the grid columns **Price Per Unit** and **Quantiy** editable or non-editable is independent of the view that is selected.  
+   > - Editable grid doesn’t guarantee that all columns are editable and it depends on the **Pricing**.
+
+## Entities: Opportunity Product, Quote Product, Order product, and Invoice product 
+
+> [!IMPORTANT]
+> In the section we use the entity **Opportunity Product** to frame the questions. However, these questions are true for other entities - **Quote Product**, **Order Product**, and **Invoice Product**.
 
 **Question**:<br>How to configure the value of default **Pricing** to **Override Price** on **Opportunity Product** form?
 
@@ -37,13 +59,6 @@ manager: shubhadaj
 3. Select **ispriceoverridden** field and configure the **Default Value** to **Override Price**.
 4. Save and publish the customizations.
  
-**Question**:<br>When can I edit the **Est.Revenue** value in **Opportunity** form?
-
-**Answer**:<br>To edit the value of estimated **Revenue** in **Opportunity** form , the **Revenue** must configured as **User Provided** and the opportunity must be in **Open** state. 
-
-   > [!div class="mx-imgBorder"]
-   > ![Edit estimated revenue](media/faqs-est-revenue.png "Edit estimated revenue")
-
 ## Entities: Order and Invoice
 
 > [!IMPORTANT]
@@ -86,6 +101,6 @@ Behavior of **PricePerUnit** in the **Products** subgrid and **Order** product f
 |Entity State|IsPriceLocked|Pricing|Is the value of **PricePerUnit** on the **Order** product form change?|
 |------------|-------------|-------|----------------------------------------------------------------------|
 |Editable|Yes|Default or Override|No|
-|-|No|Default|Yes|
-|-|-|Override|No|
+|Editable|No|Default|Yes|
+|Editable|No|Override|No|
 |ReadOnly|Yes or No|Default or Override|No|

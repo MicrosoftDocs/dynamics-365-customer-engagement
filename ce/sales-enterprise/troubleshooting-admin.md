@@ -103,7 +103,7 @@ The user trying to close the opportunity doesn’t have sufficient permissions o
 
 ## Error or unexpected behavior while working on entities 
 
-While working on entities (such as opportunities, quote, order, and invoice), you observe unexpected behavior or an error in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The following are some of the errors that you might encounter while working on opportunities and this might be same for other entities:
+While working on entities (such as opportunities, quote, order, invoice, quote product, and order product), you observe unexpected behavior or an error in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The following are some of the errors that you might encounter while working on opportunities and this might be same for other entities:
 
 - "Not able to open opportunity" - this error might have occured due to Custom Plugin.
 - "Error while saving the opportunity" - this error might have occured due to Custom JavaScript.
