@@ -1,21 +1,22 @@
 ---
-title: "Workflow Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Workflow Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Workflow entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Workflow Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Set of logical rules that define the steps necessary to automate a specific business process, task, or set of actions to be performed.
 
@@ -24,20 +25,20 @@ Set of logical rules that define the steps necessary to automate a specific busi
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/workflows(*workflowid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/workflows<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/workflows(*workflowid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/workflows<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateWorkflowFromTemplate|<xref href="Microsoft.Dynamics.CRM.CreateWorkflowFromTemplate?text=CreateWorkflowFromTemplate Action" />|<xref:Microsoft.Crm.Sdk.Messages.CreateWorkflowFromTemplateRequest>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/workflows(*workflowid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/workflows(*workflowid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |ExecuteWorkflow|<xref href="Microsoft.Dynamics.CRM.ExecuteWorkflow?text=ExecuteWorkflow Action" />|<xref:Microsoft.Crm.Sdk.Messages.ExecuteWorkflowRequest>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/workflows(*workflowid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/workflows<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/workflows(*workflowid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/workflows<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/workflows(*workflowid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/workflows(*workflowid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/workflows(*workflowid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/workflows(*workflowid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -64,6 +65,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [AsyncAutoDelete](#BKMK_AsyncAutoDelete)
 - [BusinessProcessType](#BKMK_BusinessProcessType)
 - [Category](#BKMK_Category)
+- [ClientData](#BKMK_ClientData)
 - [CreateStage](#BKMK_CreateStage)
 - [DeleteStage](#BKMK_DeleteStage)
 - [Description](#BKMK_Description)
@@ -167,7 +169,24 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |2|Business Rule|
 |3|Action|
 |4|Business Process Flow|
+|5|Modern Flow|
 
+
+
+### <a name="BKMK_ClientData"></a> ClientData
+
+|Property|Value|
+|--------|-----|
+|Description|Business logic converted into client data|
+|DisplayName|Client Data|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|clientdata|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_CreateStage"></a> CreateStage
@@ -789,12 +808,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Memo|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ActiveWorkflowId](#BKMK_ActiveWorkflowId)
 - [ActiveWorkflowIdName](#BKMK_ActiveWorkflowIdName)
-- [ClientData](#BKMK_ClientData)
 - [ComponentState](#BKMK_ComponentState)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
@@ -861,22 +881,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
-
-
-### <a name="BKMK_ClientData"></a> ClientData
-
-|Property|Value|
-|--------|-----|
-|Description|Business logic converted into client data|
-|DisplayName|Client Data|
-|Format|TextArea|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|clientdata|
-|MaxLength|1073741823|
-|RequiredLevel|None|
-|Type|Memo|
 
 
 ### <a name="BKMK_ComponentState"></a> ComponentState
@@ -1057,7 +1061,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates whether the process was created using the Microsoft Dynamics 365 for Customer Engagement Web application.|
+|Description|Indicates whether the process was created using the Microsoft Dynamics 365 Web application.|
 |DisplayName|Is CRM Process|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -1455,27 +1459,23 @@ Listed by **SchemaName**.
 - [lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid](#BKMK_lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid)
 - [lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_processid](#BKMK_lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_processid)
 - [Workflow_Annotation](#BKMK_Workflow_Annotation)
-- [workflowid_profilerule](#BKMK_workflowid_profilerule)
 - [process_processstage](#BKMK_process_processstage)
-- [Workflow_routingrule](#BKMK_Workflow_routingrule)
 - [lk_asyncoperation_workflowactivationid](#BKMK_lk_asyncoperation_workflowactivationid)
 - [process_processtrigger](#BKMK_process_processtrigger)
 - [lk_expiredprocess_processid](#BKMK_lk_expiredprocess_processid)
 - [workflow_parent_workflow](#BKMK_workflow_parent_workflow)
-- [userentityinstancedata_workflow](#BKMK_userentityinstancedata_workflow)
 - [slaitembase_workflowid](#BKMK_slaitembase_workflowid)
 - [slabase_workflowid](#BKMK_slabase_workflowid)
 - [lk_processsession_processid](#BKMK_lk_processsession_processid)
-- [workflow_dependencies](#BKMK_workflow_dependencies)
 - [lk_translationprocess_processid](#BKMK_lk_translationprocess_processid)
 - [lk_newprocess_processid](#BKMK_lk_newprocess_processid)
 - [Workflow_SyncErrors](#BKMK_Workflow_SyncErrors)
 - [workflow_active_workflow](#BKMK_workflow_active_workflow)
-- [workflowid_convertrule](#BKMK_workflowid_convertrule)
-- [convertruleitembase_workflowid](#BKMK_convertruleitembase_workflowid)
 
 
 ### <a name="BKMK_lk_phonetocaseprocess_processid"></a> lk_phonetocaseprocess_processid
+
+**Added by**: Service Solution
 
 Same as phonetocaseprocess entity [lk_phonetocaseprocess_processid](phonetocaseprocess.md#BKMK_lk_phonetocaseprocess_processid) Many-To-One relationship.
 
@@ -1492,6 +1492,8 @@ Same as phonetocaseprocess entity [lk_phonetocaseprocess_processid](phonetocasep
 
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_processid"></a> lk_leadtoopportunitysalesprocess_processid
 
+**Added by**: Sales Solution
+
 Same as leadtoopportunitysalesprocess entity [lk_leadtoopportunitysalesprocess_processid](leadtoopportunitysalesprocess.md#BKMK_lk_leadtoopportunitysalesprocess_processid) Many-To-One relationship.
 
 |Property|Value|
@@ -1506,6 +1508,8 @@ Same as leadtoopportunitysalesprocess entity [lk_leadtoopportunitysalesprocess_p
 
 
 ### <a name="BKMK_lk_opportunitysalesprocess_processid"></a> lk_opportunitysalesprocess_processid
+
+**Added by**: Sales Solution
 
 Same as opportunitysalesprocess entity [lk_opportunitysalesprocess_processid](opportunitysalesprocess.md#BKMK_lk_opportunitysalesprocess_processid) Many-To-One relationship.
 
@@ -1522,6 +1526,8 @@ Same as opportunitysalesprocess entity [lk_opportunitysalesprocess_processid](op
 
 ### <a name="BKMK_lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_processid"></a> lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_processid
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_bpf_665e73aa18c247d886bfc50499c73b82 entity [lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_processid](msdyn_bpf_665e73aa18c247d886bfc50499c73b82.md#BKMK_lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_processid) Many-To-One relationship.
 
 |Property|Value|
@@ -1536,6 +1542,8 @@ Same as msdyn_bpf_665e73aa18c247d886bfc50499c73b82 entity [lk_msdyn_bpf_665e73aa
 
 
 ### <a name="BKMK_lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_processid"></a> lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_processid
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d entity [lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_processid](msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d.md#BKMK_lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_processid) Many-To-One relationship.
 
@@ -1552,6 +1560,8 @@ Same as msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d entity [lk_msdyn_bpf_d8f9dc7f
 
 ### <a name="BKMK_lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_processid"></a> lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_processid
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_bpf_2c5fe86acc8b414b8322ae571000c799 entity [lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_processid](msdyn_bpf_2c5fe86acc8b414b8322ae571000c799.md#BKMK_lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_processid) Many-To-One relationship.
 
 |Property|Value|
@@ -1566,6 +1576,8 @@ Same as msdyn_bpf_2c5fe86acc8b414b8322ae571000c799 entity [lk_msdyn_bpf_2c5fe86a
 
 
 ### <a name="BKMK_lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_processid"></a> lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_processid
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bpf_989e9b1857e24af18787d5143b67523b entity [lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_processid](msdyn_bpf_989e9b1857e24af18787d5143b67523b.md#BKMK_lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_processid) Many-To-One relationship.
 
@@ -1582,6 +1594,8 @@ Same as msdyn_bpf_989e9b1857e24af18787d5143b67523b entity [lk_msdyn_bpf_989e9b18
 
 ### <a name="BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_processid"></a> lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_processid
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 entity [lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_processid](msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3.md#BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_processid) Many-To-One relationship.
 
 |Property|Value|
@@ -1597,6 +1611,8 @@ Same as msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 entity [lk_msdyn_bpf_baa0a411
 
 ### <a name="BKMK_lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid"></a> lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 entity [lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid](msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39.md#BKMK_lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid) Many-To-One relationship.
 
 |Property|Value|
@@ -1611,6 +1627,8 @@ Same as msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 entity [lk_msdyn_bpf_d3d97bac
 
 
 ### <a name="BKMK_lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_processid"></a> lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_processid
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b entity [lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_processid](msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b.md#BKMK_lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_processid) Many-To-One relationship.
 
@@ -1640,21 +1658,6 @@ Same as annotation entity [Workflow_Annotation](annotation.md#BKMK_Workflow_Anno
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_workflowid_profilerule"></a> workflowid_profilerule
-
-Same as channelaccessprofilerule entity [workflowid_profilerule](channelaccessprofilerule.md#BKMK_workflowid_profilerule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|channelaccessprofilerule|
-|ReferencingAttribute|workflowid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|workflowid_profilerule|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_process_processstage"></a> process_processstage
 
 Same as processstage entity [process_processstage](processstage.md#BKMK_process_processstage) Many-To-One relationship.
@@ -1668,21 +1671,6 @@ Same as processstage entity [process_processstage](processstage.md#BKMK_process_
 |ReferencedEntityNavigationPropertyName|process_processstage|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_Workflow_routingrule"></a> Workflow_routingrule
-
-Same as routingrule entity [Workflow_routingrule](routingrule.md#BKMK_Workflow_routingrule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|routingrule|
-|ReferencingAttribute|workflowid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|Workflow_routingrule|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lk_asyncoperation_workflowactivationid"></a> lk_asyncoperation_workflowactivationid
@@ -1745,21 +1733,6 @@ Same as workflow entity [workflow_parent_workflow](workflow.md#BKMK_workflow_par
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_userentityinstancedata_workflow"></a> userentityinstancedata_workflow
-
-Same as userentityinstancedata entity [userentityinstancedata_workflow](userentityinstancedata.md#BKMK_userentityinstancedata_workflow) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_workflow|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_slaitembase_workflowid"></a> slaitembase_workflowid
 
 Same as slaitem entity [slaitembase_workflowid](slaitem.md#BKMK_slaitembase_workflowid) Many-To-One relationship.
@@ -1801,21 +1774,6 @@ Same as processsession entity [lk_processsession_processid](processsession.md#BK
 |IsHierarchical|False|
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|lk_processsession_processid|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_workflow_dependencies"></a> workflow_dependencies
-
-Same as workflowdependency entity [workflow_dependencies](workflowdependency.md#BKMK_workflow_dependencies) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|workflowdependency|
-|ReferencingAttribute|workflowid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|workflow_dependencies|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
@@ -1879,36 +1837,6 @@ Same as workflow entity [workflow_active_workflow](workflow.md#BKMK_workflow_act
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-
-### <a name="BKMK_workflowid_convertrule"></a> workflowid_convertrule
-
-Same as convertrule entity [workflowid_convertrule](convertrule.md#BKMK_workflowid_convertrule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|convertrule|
-|ReferencingAttribute|workflowid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|workflowid_convertrule|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_convertruleitembase_workflowid"></a> convertruleitembase_workflowid
-
-Same as convertruleitem entity [convertruleitembase_workflowid](convertruleitem.md#BKMK_convertruleitembase_workflowid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|convertruleitem|
-|ReferencingAttribute|workflowid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|convertruleitembase_workflowid|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
@@ -1965,6 +1893,6 @@ See systemuser Entity [workflow_modifiedonbehalfby](systemuser.md#BKMK_workflow_
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.workflow?text=workflow EntityType" />
