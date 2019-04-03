@@ -9,6 +9,7 @@
 # [Navigation and Basics](../basics/navigation-customer-engagement-enterprise.md)
 ## [Quick create](../basics/quick-create-enter-data-fast.md)
 ## [Pin frequently used items](../basics/pin-records-views-dashboards-used-frequently.md)
+## [View someone's profile card](../basics/profile-card.md)
 ## [Search and Find](../basics/search-and-find-header.md)
 ### [Basic search](../basics/search-records.md)
 ### [Relevance search](../basics/relevance-search-results.md)
