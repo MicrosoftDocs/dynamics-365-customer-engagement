@@ -146,7 +146,7 @@ Using this information, [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sal
 ### Enable or disable following for individual messages  
  Followed emails can tell you when a recipient opened the message, replied to the message, opened an attachment, or clicked a link.  
   
- When email engagement is enabled on your site, it will also be enabled by default for all messages you create in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)], provided that none of the recipients are set up to block followed messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set following to Do Not Allow to respect individuals' privacy and preferences](#SetTrackingScopeOnContacts)  
+ When email engagement is enabled on your site, it will also be enabled by default for all messages you create in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)], provided that none of the recipients are set up to block followed messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set following to Do Not Allow to respect individuals' privacy and preferences](#set-individuals-privacy-and-preferences)  
   
  Use the controls at the top of the **Email Engagement** area to view and edit the follow state for your message, as summarized in the following table.  
   
