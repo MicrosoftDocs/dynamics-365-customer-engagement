@@ -2,8 +2,8 @@
 title: "Choose your development style for Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about the various options available to developers to make use of Dynamics 365 for Customer Engagement web services (SDK) or to extend the application."
 ms.custom: 
-ms.date: 01/25/2019
-ms.reviewer: 
+ms.date: 03/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
