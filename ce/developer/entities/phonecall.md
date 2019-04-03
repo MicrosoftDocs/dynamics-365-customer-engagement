@@ -1,21 +1,22 @@
 ---
-title: "PhoneCall Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "PhoneCall Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the PhoneCall entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # PhoneCall Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Activity to track a telephone call.
 
@@ -24,18 +25,18 @@ Activity to track a telephone call.
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/phonecalls(*activityid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/phonecalls<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/phonecalls(*activityid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/phonecalls(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/phonecalls<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/phonecalls(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/phonecalls(*activityid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/phonecalls<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/phonecalls(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/phonecalls<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/phonecalls(*activityid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/phonecalls(*activityid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/phonecalls(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/phonecalls(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -449,7 +450,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_fieldservicesetting,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,quote,salesorder,site|
+|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_fieldservicesetting,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_playbookinstance,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,quote,salesorder,site|
 |Type|Lookup|
 
 
@@ -498,6 +499,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ServiceId"></a> ServiceId
 
+**Added by**: Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for an associated service.|
@@ -544,7 +547,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Shows the ID of the stage.|
-|DisplayName|Process Stage|
+|DisplayName|(Deprecated) Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -576,8 +579,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_StatusCode"></a> StatusCode
-
-**Added by**: Activities Solution<br />
 
 |Property|Value|
 |--------|-----|
@@ -695,7 +696,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|Traversed Path|
+|DisplayName|(Deprecated) Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -722,7 +723,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ActivityTypeCode](#BKMK_ActivityTypeCode)
@@ -823,7 +826,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -969,7 +972,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1165,6 +1168,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ServiceIdName"></a> ServiceIdName
 
+**Added by**: Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1277,10 +1282,11 @@ Listed by **SchemaName**.
 - [phonecall_activity_parties](#BKMK_phonecall_activity_parties)
 - [PhoneCall_QueueItem](#BKMK_PhoneCall_QueueItem)
 - [phonecall_principalobjectattributeaccess](#BKMK_phonecall_principalobjectattributeaccess)
-- [userentityinstancedata_phonecall](#BKMK_userentityinstancedata_phonecall)
 
 
 ### <a name="BKMK_phonecall_campaignresponse"></a> phonecall_campaignresponse
+
+**Added by**: Marketing Solution
 
 Same as campaignresponse entity [phonecall_campaignresponse](campaignresponse.md#BKMK_phonecall_campaignresponse) Many-To-One relationship.
 
@@ -1519,21 +1525,6 @@ Same as principalobjectattributeaccess entity [phonecall_principalobjectattribut
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-
-### <a name="BKMK_userentityinstancedata_phonecall"></a> userentityinstancedata_phonecall
-
-Same as userentityinstancedata entity [userentityinstancedata_phonecall](userentityinstancedata.md#BKMK_userentityinstancedata_phonecall) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_phonecall|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
@@ -1552,6 +1543,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [Incident_Phonecalls](#BKMK_Incident_Phonecalls)
 - [site_PhoneCalls](#BKMK_site_PhoneCalls)
 - [service_phonecalls](#BKMK_service_phonecalls)
+- [msdyn_playbookinstance_PhoneCalls](#BKMK_msdyn_playbookinstance_PhoneCalls)
 - [Invoice_Phonecalls](#BKMK_Invoice_Phonecalls)
 - [Opportunity_Phonecalls](#BKMK_Opportunity_Phonecalls)
 - [Quote_Phonecalls](#BKMK_Quote_Phonecalls)
@@ -1639,317 +1631,481 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_Lead_Phonecalls"></a> Lead_Phonecalls
 
+**Added by**: Lead Management Solution
+
 See lead Entity [Lead_Phonecalls](lead.md#BKMK_Lead_Phonecalls) One-To-Many relationship.
 
 ### <a name="BKMK_bookableresourcebooking_PhoneCalls"></a> bookableresourcebooking_PhoneCalls
+
+**Added by**: Scheduling Solution
 
 See bookableresourcebooking Entity [bookableresourcebooking_PhoneCalls](bookableresourcebooking.md#BKMK_bookableresourcebooking_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_bookableresourcebookingheader_PhoneCalls"></a> bookableresourcebookingheader_PhoneCalls
 
+**Added by**: Scheduling Solution
+
 See bookableresourcebookingheader Entity [bookableresourcebookingheader_PhoneCalls](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_BulkOperation_Phonecall"></a> BulkOperation_Phonecall
+
+**Added by**: Marketing Solution
 
 See bulkoperation Entity [BulkOperation_Phonecall](bulkoperation.md#BKMK_BulkOperation_Phonecall) One-To-Many relationship.
 
 ### <a name="BKMK_Campaign_Phonecalls"></a> Campaign_Phonecalls
 
+**Added by**: Marketing Solution
+
 See campaign Entity [Campaign_Phonecalls](campaign.md#BKMK_Campaign_Phonecalls) One-To-Many relationship.
 
 ### <a name="BKMK_CampaignActivity_Phonecalls"></a> CampaignActivity_Phonecalls
+
+**Added by**: Marketing Solution
 
 See campaignactivity Entity [CampaignActivity_Phonecalls](campaignactivity.md#BKMK_CampaignActivity_Phonecalls) One-To-Many relationship.
 
 ### <a name="BKMK_Contract_Phonecalls"></a> Contract_Phonecalls
 
+**Added by**: Service Solution
+
 See contract Entity [Contract_Phonecalls](contract.md#BKMK_Contract_Phonecalls) One-To-Many relationship.
 
 ### <a name="BKMK_entitlement_PhoneCalls"></a> entitlement_PhoneCalls
+
+**Added by**: Service Solution
 
 See entitlement Entity [entitlement_PhoneCalls](entitlement.md#BKMK_entitlement_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_entitlementtemplate_PhoneCalls"></a> entitlementtemplate_PhoneCalls
 
+**Added by**: Service Solution
+
 See entitlementtemplate Entity [entitlementtemplate_PhoneCalls](entitlementtemplate.md#BKMK_entitlementtemplate_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_Incident_Phonecalls"></a> Incident_Phonecalls
+
+**Added by**: Service Solution
 
 See incident Entity [Incident_Phonecalls](incident.md#BKMK_Incident_Phonecalls) One-To-Many relationship.
 
 ### <a name="BKMK_site_PhoneCalls"></a> site_PhoneCalls
 
+**Added by**: Service Solution
+
 See site Entity [site_PhoneCalls](site.md#BKMK_site_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_service_phonecalls"></a> service_phonecalls
 
+**Added by**: Service Solution
+
 See service Entity [service_phonecalls](service.md#BKMK_service_phonecalls) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_playbookinstance_PhoneCalls"></a> msdyn_playbookinstance_PhoneCalls
+
+**Added by**: Playbook Solution
+
+See msdyn_playbookinstance Entity [msdyn_playbookinstance_PhoneCalls](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_PhoneCalls) One-To-Many relationship.
+
 ### <a name="BKMK_Invoice_Phonecalls"></a> Invoice_Phonecalls
+
+**Added by**: Sales Solution
 
 See invoice Entity [Invoice_Phonecalls](invoice.md#BKMK_Invoice_Phonecalls) One-To-Many relationship.
 
 ### <a name="BKMK_Opportunity_Phonecalls"></a> Opportunity_Phonecalls
 
+**Added by**: Sales Solution
+
 See opportunity Entity [Opportunity_Phonecalls](opportunity.md#BKMK_Opportunity_Phonecalls) One-To-Many relationship.
 
 ### <a name="BKMK_Quote_Phonecalls"></a> Quote_Phonecalls
+
+**Added by**: Sales Solution
 
 See quote Entity [Quote_Phonecalls](quote.md#BKMK_Quote_Phonecalls) One-To-Many relationship.
 
 ### <a name="BKMK_SalesOrder_Phonecalls"></a> SalesOrder_Phonecalls
 
+**Added by**: Sales Solution
+
 See salesorder Entity [SalesOrder_Phonecalls](salesorder.md#BKMK_SalesOrder_Phonecalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_postalbum_PhoneCalls"></a> msdyn_postalbum_PhoneCalls
+
+**Added by**: Activity Feeds Solution
 
 See msdyn_postalbum Entity [msdyn_postalbum_PhoneCalls](msdyn_postalbum.md#BKMK_msdyn_postalbum_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingalertstatus_PhoneCalls"></a> msdyn_bookingalertstatus_PhoneCalls
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_bookingalertstatus Entity [msdyn_bookingalertstatus_PhoneCalls](msdyn_bookingalertstatus.md#BKMK_msdyn_bookingalertstatus_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingrule_PhoneCalls"></a> msdyn_bookingrule_PhoneCalls
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_bookingrule Entity [msdyn_bookingrule_PhoneCalls](msdyn_bookingrule.md#BKMK_msdyn_bookingrule_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_resourceterritory_PhoneCalls"></a> msdyn_resourceterritory_PhoneCalls
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_resourceterritory Entity [msdyn_resourceterritory_PhoneCalls](msdyn_resourceterritory.md#BKMK_msdyn_resourceterritory_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_systemuserschedulersetting_PhoneCalls"></a> msdyn_systemuserschedulersetting_PhoneCalls
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_systemuserschedulersetting Entity [msdyn_systemuserschedulersetting_PhoneCalls](msdyn_systemuserschedulersetting.md#BKMK_msdyn_systemuserschedulersetting_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timegroup_PhoneCalls"></a> msdyn_timegroup_PhoneCalls
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_timegroup Entity [msdyn_timegroup_PhoneCalls](msdyn_timegroup.md#BKMK_msdyn_timegroup_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timegroupdetail_PhoneCalls"></a> msdyn_timegroupdetail_PhoneCalls
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_PhoneCalls](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_processnotes_PhoneCalls"></a> msdyn_processnotes_PhoneCalls
 
+**Added by**: Project Service Automation Solution
+
 See msdyn_processnotes Entity [msdyn_processnotes_PhoneCalls](msdyn_processnotes.md#BKMK_msdyn_processnotes_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_projectteam_PhoneCalls"></a> msdyn_projectteam_PhoneCalls
+
+**Added by**: Project Service Automation Solution
 
 See msdyn_projectteam Entity [msdyn_projectteam_PhoneCalls](msdyn_projectteam.md#BKMK_msdyn_projectteam_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreement_PhoneCalls"></a> msdyn_agreement_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_agreement Entity [msdyn_agreement_PhoneCalls](msdyn_agreement.md#BKMK_msdyn_agreement_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingdate_PhoneCalls"></a> msdyn_agreementbookingdate_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_PhoneCalls](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingincident_PhoneCalls"></a> msdyn_agreementbookingincident_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingincident Entity [msdyn_agreementbookingincident_PhoneCalls](msdyn_agreementbookingincident.md#BKMK_msdyn_agreementbookingincident_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingproduct_PhoneCalls"></a> msdyn_agreementbookingproduct_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingproduct Entity [msdyn_agreementbookingproduct_PhoneCalls](msdyn_agreementbookingproduct.md#BKMK_msdyn_agreementbookingproduct_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingservice_PhoneCalls"></a> msdyn_agreementbookingservice_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingservice Entity [msdyn_agreementbookingservice_PhoneCalls](msdyn_agreementbookingservice.md#BKMK_msdyn_agreementbookingservice_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingservicetask_PhoneCalls"></a> msdyn_agreementbookingservicetask_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingservicetask Entity [msdyn_agreementbookingservicetask_PhoneCalls](msdyn_agreementbookingservicetask.md#BKMK_msdyn_agreementbookingservicetask_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingsetup_PhoneCalls"></a> msdyn_agreementbookingsetup_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_PhoneCalls](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoicedate_PhoneCalls"></a> msdyn_agreementinvoicedate_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_PhoneCalls](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoiceproduct_PhoneCalls"></a> msdyn_agreementinvoiceproduct_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementinvoiceproduct Entity [msdyn_agreementinvoiceproduct_PhoneCalls](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_agreementinvoiceproduct_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoicesetup_PhoneCalls"></a> msdyn_agreementinvoicesetup_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_PhoneCalls](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingtimestamp_PhoneCalls"></a> msdyn_bookingtimestamp_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_bookingtimestamp Entity [msdyn_bookingtimestamp_PhoneCalls](msdyn_bookingtimestamp.md#BKMK_msdyn_bookingtimestamp_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_customerasset_PhoneCalls"></a> msdyn_customerasset_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_customerasset Entity [msdyn_customerasset_PhoneCalls](msdyn_customerasset.md#BKMK_msdyn_customerasset_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_fieldservicesetting_PhoneCalls"></a> msdyn_fieldservicesetting_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_fieldservicesetting Entity [msdyn_fieldservicesetting_PhoneCalls](msdyn_fieldservicesetting.md#BKMK_msdyn_fieldservicesetting_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypecharacteristic_PhoneCalls"></a> msdyn_incidenttypecharacteristic_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_incidenttypecharacteristic Entity [msdyn_incidenttypecharacteristic_PhoneCalls](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_incidenttypecharacteristic_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypeproduct_PhoneCalls"></a> msdyn_incidenttypeproduct_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_incidenttypeproduct Entity [msdyn_incidenttypeproduct_PhoneCalls](msdyn_incidenttypeproduct.md#BKMK_msdyn_incidenttypeproduct_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypeservice_PhoneCalls"></a> msdyn_incidenttypeservice_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_incidenttypeservice Entity [msdyn_incidenttypeservice_PhoneCalls](msdyn_incidenttypeservice.md#BKMK_msdyn_incidenttypeservice_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryadjustment_PhoneCalls"></a> msdyn_inventoryadjustment_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_PhoneCalls](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryadjustmentproduct_PhoneCalls"></a> msdyn_inventoryadjustmentproduct_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_inventoryadjustmentproduct Entity [msdyn_inventoryadjustmentproduct_PhoneCalls](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_inventoryadjustmentproduct_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryjournal_PhoneCalls"></a> msdyn_inventoryjournal_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_inventoryjournal Entity [msdyn_inventoryjournal_PhoneCalls](msdyn_inventoryjournal.md#BKMK_msdyn_inventoryjournal_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventorytransfer_PhoneCalls"></a> msdyn_inventorytransfer_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_PhoneCalls](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_payment_PhoneCalls"></a> msdyn_payment_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_payment Entity [msdyn_payment_PhoneCalls](msdyn_payment.md#BKMK_msdyn_payment_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentdetail_PhoneCalls"></a> msdyn_paymentdetail_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_paymentdetail Entity [msdyn_paymentdetail_PhoneCalls](msdyn_paymentdetail.md#BKMK_msdyn_paymentdetail_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentmethod_PhoneCalls"></a> msdyn_paymentmethod_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_paymentmethod Entity [msdyn_paymentmethod_PhoneCalls](msdyn_paymentmethod.md#BKMK_msdyn_paymentmethod_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentterm_PhoneCalls"></a> msdyn_paymentterm_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_paymentterm Entity [msdyn_paymentterm_PhoneCalls](msdyn_paymentterm.md#BKMK_msdyn_paymentterm_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_postalcode_PhoneCalls"></a> msdyn_postalcode_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_postalcode Entity [msdyn_postalcode_PhoneCalls](msdyn_postalcode.md#BKMK_msdyn_postalcode_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_productinventory_PhoneCalls"></a> msdyn_productinventory_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_productinventory Entity [msdyn_productinventory_PhoneCalls](msdyn_productinventory.md#BKMK_msdyn_productinventory_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorder_PhoneCalls"></a> msdyn_purchaseorder_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorder Entity [msdyn_purchaseorder_PhoneCalls](msdyn_purchaseorder.md#BKMK_msdyn_purchaseorder_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderbill_PhoneCalls"></a> msdyn_purchaseorderbill_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorderbill Entity [msdyn_purchaseorderbill_PhoneCalls](msdyn_purchaseorderbill.md#BKMK_msdyn_purchaseorderbill_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderproduct_PhoneCalls"></a> msdyn_purchaseorderproduct_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorderproduct Entity [msdyn_purchaseorderproduct_PhoneCalls](msdyn_purchaseorderproduct.md#BKMK_msdyn_purchaseorderproduct_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderreceipt_PhoneCalls"></a> msdyn_purchaseorderreceipt_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorderreceipt Entity [msdyn_purchaseorderreceipt_PhoneCalls](msdyn_purchaseorderreceipt.md#BKMK_msdyn_purchaseorderreceipt_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderreceiptproduct_PhoneCalls"></a> msdyn_purchaseorderreceiptproduct_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorderreceiptproduct Entity [msdyn_purchaseorderreceiptproduct_PhoneCalls](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_purchaseorderreceiptproduct_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseordersubstatus_PhoneCalls"></a> msdyn_purchaseordersubstatus_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseordersubstatus Entity [msdyn_purchaseordersubstatus_PhoneCalls](msdyn_purchaseordersubstatus.md#BKMK_msdyn_purchaseordersubstatus_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingincident_PhoneCalls"></a> msdyn_quotebookingincident_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_quotebookingincident Entity [msdyn_quotebookingincident_PhoneCalls](msdyn_quotebookingincident.md#BKMK_msdyn_quotebookingincident_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingproduct_PhoneCalls"></a> msdyn_quotebookingproduct_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_quotebookingproduct Entity [msdyn_quotebookingproduct_PhoneCalls](msdyn_quotebookingproduct.md#BKMK_msdyn_quotebookingproduct_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingservice_PhoneCalls"></a> msdyn_quotebookingservice_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_quotebookingservice Entity [msdyn_quotebookingservice_PhoneCalls](msdyn_quotebookingservice.md#BKMK_msdyn_quotebookingservice_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingservicetask_PhoneCalls"></a> msdyn_quotebookingservicetask_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_quotebookingservicetask Entity [msdyn_quotebookingservicetask_PhoneCalls](msdyn_quotebookingservicetask.md#BKMK_msdyn_quotebookingservicetask_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rma_PhoneCalls"></a> msdyn_rma_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_rma Entity [msdyn_rma_PhoneCalls](msdyn_rma.md#BKMK_msdyn_rma_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmaproduct_PhoneCalls"></a> msdyn_rmaproduct_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_rmaproduct Entity [msdyn_rmaproduct_PhoneCalls](msdyn_rmaproduct.md#BKMK_msdyn_rmaproduct_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmareceipt_PhoneCalls"></a> msdyn_rmareceipt_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_rmareceipt Entity [msdyn_rmareceipt_PhoneCalls](msdyn_rmareceipt.md#BKMK_msdyn_rmareceipt_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmareceiptproduct_PhoneCalls"></a> msdyn_rmareceiptproduct_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_rmareceiptproduct Entity [msdyn_rmareceiptproduct_PhoneCalls](msdyn_rmareceiptproduct.md#BKMK_msdyn_rmareceiptproduct_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmasubstatus_PhoneCalls"></a> msdyn_rmasubstatus_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_rmasubstatus Entity [msdyn_rmasubstatus_PhoneCalls](msdyn_rmasubstatus.md#BKMK_msdyn_rmasubstatus_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtv_PhoneCalls"></a> msdyn_rtv_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_rtv Entity [msdyn_rtv_PhoneCalls](msdyn_rtv.md#BKMK_msdyn_rtv_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtvproduct_PhoneCalls"></a> msdyn_rtvproduct_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_rtvproduct Entity [msdyn_rtvproduct_PhoneCalls](msdyn_rtvproduct.md#BKMK_msdyn_rtvproduct_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtvsubstatus_PhoneCalls"></a> msdyn_rtvsubstatus_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_rtvsubstatus Entity [msdyn_rtvsubstatus_PhoneCalls](msdyn_rtvsubstatus.md#BKMK_msdyn_rtvsubstatus_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_shipvia_PhoneCalls"></a> msdyn_shipvia_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_shipvia Entity [msdyn_shipvia_PhoneCalls](msdyn_shipvia.md#BKMK_msdyn_shipvia_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timeoffrequest_PhoneCalls"></a> msdyn_timeoffrequest_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_timeoffrequest Entity [msdyn_timeoffrequest_PhoneCalls](msdyn_timeoffrequest.md#BKMK_msdyn_timeoffrequest_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_warehouse_PhoneCalls"></a> msdyn_warehouse_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_warehouse Entity [msdyn_warehouse_PhoneCalls](msdyn_warehouse.md#BKMK_msdyn_warehouse_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorder_PhoneCalls"></a> msdyn_workorder_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_workorder Entity [msdyn_workorder_PhoneCalls](msdyn_workorder.md#BKMK_msdyn_workorder_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workordercharacteristic_PhoneCalls"></a> msdyn_workordercharacteristic_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_workordercharacteristic Entity [msdyn_workordercharacteristic_PhoneCalls](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderincident_PhoneCalls"></a> msdyn_workorderincident_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderincident Entity [msdyn_workorderincident_PhoneCalls](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderproduct_PhoneCalls"></a> msdyn_workorderproduct_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderproduct Entity [msdyn_workorderproduct_PhoneCalls](msdyn_workorderproduct.md#BKMK_msdyn_workorderproduct_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderresourcerestriction_PhoneCalls"></a> msdyn_workorderresourcerestriction_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderresourcerestriction Entity [msdyn_workorderresourcerestriction_PhoneCalls](msdyn_workorderresourcerestriction.md#BKMK_msdyn_workorderresourcerestriction_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderservice_PhoneCalls"></a> msdyn_workorderservice_PhoneCalls
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderservice Entity [msdyn_workorderservice_PhoneCalls](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_PhoneCalls) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderservicetask_PhoneCalls"></a> msdyn_workorderservicetask_PhoneCalls
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_PhoneCalls](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_PhoneCalls) One-To-Many relationship.
 
@@ -2020,6 +2176,6 @@ See businessunit Entity [business_unit_phone_call_activities](businessunit.md#BK
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.phonecall?text=phonecall EntityType" />

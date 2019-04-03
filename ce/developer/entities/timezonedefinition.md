@@ -1,21 +1,22 @@
 ---
-title: "TimeZoneDefinition Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "TimeZoneDefinition Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the TimeZoneDefinition entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # TimeZoneDefinition Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Time zone definition, including name and time zone code.
 
@@ -26,10 +27,10 @@ Time zone definition, including name and time zone code.
 |-|-|-|
 |GetAllTimeZonesWithDisplayName|<xref href="Microsoft.Dynamics.CRM.GetAllTimeZonesWithDisplayName?text=GetAllTimeZonesWithDisplayName Function" />|<xref:Microsoft.Crm.Sdk.Messages.GetAllTimeZonesWithDisplayNameRequest>|
 |GetTimeZoneCodeByLocalizedName|<xref href="Microsoft.Dynamics.CRM.GetTimeZoneCodeByLocalizedName?text=GetTimeZoneCodeByLocalizedName Function" />|<xref:Microsoft.Crm.Sdk.Messages.GetTimeZoneCodeByLocalizedNameRequest>|
-|LocalTimeFromUtcTime||<xref:Microsoft.Crm.Sdk.Messages.LocalTimeFromUtcTimeRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/timezonedefinitions(*timezonedefinitionid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/timezonedefinitions<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|UtcTimeFromLocalTime||<xref:Microsoft.Crm.Sdk.Messages.UtcTimeFromLocalTimeRequest>|
+|LocalTimeFromUtcTime|<xref href="Microsoft.Dynamics.CRM.LocalTimeFromUtcTime?text=LocalTimeFromUtcTime Function" />|<xref:Microsoft.Crm.Sdk.Messages.LocalTimeFromUtcTimeRequest>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/timezonedefinitions(*timezonedefinitionid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/timezonedefinitions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|UtcTimeFromLocalTime|<xref href="Microsoft.Dynamics.CRM.UtcTimeFromLocalTime?text=UtcTimeFromLocalTime Function" />|<xref:Microsoft.Crm.Sdk.Messages.UtcTimeFromLocalTimeRequest>|
 
 ## Entity Properties
 
@@ -172,7 +173,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -373,24 +376,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
-- [userentityinstancedata_timezonedefinition](#BKMK_userentityinstancedata_timezonedefinition)
 - [lk_timezonerule_timezonedefinitionid](#BKMK_lk_timezonerule_timezonedefinitionid)
 - [lk_timezonelocalizedname_timezonedefinitionid](#BKMK_lk_timezonelocalizedname_timezonedefinitionid)
-
-
-### <a name="BKMK_userentityinstancedata_timezonedefinition"></a> userentityinstancedata_timezonedefinition
-
-Same as userentityinstancedata entity [userentityinstancedata_timezonedefinition](userentityinstancedata.md#BKMK_userentityinstancedata_timezonedefinition) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_timezonedefinition|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lk_timezonerule_timezonedefinitionid"></a> lk_timezonerule_timezonedefinitionid
@@ -453,6 +440,6 @@ See systemuser Entity [lk_timezonedefinition_createdby](systemuser.md#BKMK_lk_ti
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.timezonedefinition?text=timezonedefinition EntityType" />

@@ -1,38 +1,40 @@
 ---
-title: "BulkOperation Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "BulkOperation Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the BulkOperation entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # BulkOperation Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.
 
-**Added by**: Marketing Solution<br />
+**Added by**: Marketing Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/bulkoperations<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/bulkoperations(*activityid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/bulkoperations(*activityid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|Create|POST [*org URI*]/api/data/v9.0/bulkoperations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/bulkoperations(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/bulkoperations(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMembersBulkOperation|<xref href="Microsoft.Dynamics.CRM.RetrieveMembersBulkOperation?text=RetrieveMembersBulkOperation Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveMembersBulkOperationRequest>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bulkoperations<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bulkoperations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/bulkoperations(*activityid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/bulkoperations(*activityid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/bulkoperations(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/bulkoperations(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -646,6 +648,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ServiceId"></a> ServiceId
 
+**Added by**: Marketing Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for an associated service.|
@@ -692,7 +696,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the Stage.|
-|DisplayName|Process Stage|
+|DisplayName|(Deprecated) Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -809,7 +813,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|timezoneruleversionnumber|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
@@ -847,7 +851,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|Traversed Path|
+|DisplayName|(Deprecated) Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -869,7 +873,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|utcconversiontimezonecode|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
@@ -891,7 +895,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ActivityTypeCode](#BKMK_ActivityTypeCode)
@@ -1021,7 +1027,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the user who created the bulk operation.|
+|Description||
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1054,7 +1060,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1268,7 +1274,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the user who modified the bulk operation.|
+|Description||
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1707,7 +1713,6 @@ Listed by **SchemaName**.
 - [bulkoperation_activity_parties](#BKMK_bulkoperation_activity_parties)
 - [BulkOperation_AsyncOperations](#BKMK_BulkOperation_AsyncOperations)
 - [BulkOperation_MailboxTrackingFolder](#BKMK_BulkOperation_MailboxTrackingFolder)
-- [userentityinstancedata_bulkoperation](#BKMK_userentityinstancedata_bulkoperation)
 - [BulkOperation_BulkDeleteFailures](#BKMK_BulkOperation_BulkDeleteFailures)
 - [bulkoperation_PrincipalObjectAttributeAccesses](#BKMK_bulkoperation_PrincipalObjectAttributeAccesses)
 - [BulkOperation_Appointment](#BKMK_BulkOperation_Appointment)
@@ -1719,8 +1724,6 @@ Listed by **SchemaName**.
 - [BulkOperation_RecurringAppointmentMaster](#BKMK_BulkOperation_RecurringAppointmentMaster)
 - [BulkOperation_SocialActivity](#BKMK_BulkOperation_SocialActivity)
 - [bulkoperation_Annotations](#BKMK_bulkoperation_Annotations)
-- [bulkoperation_CampaignActivities](#BKMK_bulkoperation_CampaignActivities)
-- [bulkoperation_CampaignResponses](#BKMK_bulkoperation_CampaignResponses)
 - [BulkOperation_CampaignResponse](#BKMK_BulkOperation_CampaignResponse)
 - [BulkOperation_logs](#BKMK_BulkOperation_logs)
 - [BulkOperation_QueueItem](#BKMK_BulkOperation_QueueItem)
@@ -1734,6 +1737,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_BulkOperation_ActivityPointers"></a> BulkOperation_ActivityPointers
+
+**Added by**: System Solution Solution
 
 Same as activitypointer entity [BulkOperation_ActivityPointers](activitypointer.md#BKMK_BulkOperation_ActivityPointers) Many-To-One relationship.
 
@@ -1750,6 +1755,8 @@ Same as activitypointer entity [BulkOperation_ActivityPointers](activitypointer.
 
 ### <a name="BKMK_BulkOperation_SyncErrors"></a> BulkOperation_SyncErrors
 
+**Added by**: System Solution Solution
+
 Same as syncerror entity [BulkOperation_SyncErrors](syncerror.md#BKMK_BulkOperation_SyncErrors) Many-To-One relationship.
 
 |Property|Value|
@@ -1764,6 +1771,8 @@ Same as syncerror entity [BulkOperation_SyncErrors](syncerror.md#BKMK_BulkOperat
 
 
 ### <a name="BKMK_bulkoperation_activity_parties"></a> bulkoperation_activity_parties
+
+**Added by**: System Solution Solution
 
 Same as activityparty entity [bulkoperation_activity_parties](activityparty.md#BKMK_bulkoperation_activity_parties) Many-To-One relationship.
 
@@ -1780,6 +1789,8 @@ Same as activityparty entity [bulkoperation_activity_parties](activityparty.md#B
 
 ### <a name="BKMK_BulkOperation_AsyncOperations"></a> BulkOperation_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [BulkOperation_AsyncOperations](asyncoperation.md#BKMK_BulkOperation_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -1795,6 +1806,8 @@ Same as asyncoperation entity [BulkOperation_AsyncOperations](asyncoperation.md#
 
 ### <a name="BKMK_BulkOperation_MailboxTrackingFolder"></a> BulkOperation_MailboxTrackingFolder
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [BulkOperation_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_BulkOperation_MailboxTrackingFolder) Many-To-One relationship.
 
 |Property|Value|
@@ -1808,22 +1821,9 @@ Same as mailboxtrackingfolder entity [BulkOperation_MailboxTrackingFolder](mailb
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_userentityinstancedata_bulkoperation"></a> userentityinstancedata_bulkoperation
-
-Same as userentityinstancedata entity [userentityinstancedata_bulkoperation](userentityinstancedata.md#BKMK_userentityinstancedata_bulkoperation) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_bulkoperation|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_BulkOperation_BulkDeleteFailures"></a> BulkOperation_BulkDeleteFailures
+
+**Added by**: System Solution Solution
 
 Same as bulkdeletefailure entity [BulkOperation_BulkDeleteFailures](bulkdeletefailure.md#BKMK_BulkOperation_BulkDeleteFailures) Many-To-One relationship.
 
@@ -1840,6 +1840,8 @@ Same as bulkdeletefailure entity [BulkOperation_BulkDeleteFailures](bulkdeletefa
 
 ### <a name="BKMK_bulkoperation_PrincipalObjectAttributeAccesses"></a> bulkoperation_PrincipalObjectAttributeAccesses
 
+**Added by**: System Solution Solution
+
 Same as principalobjectattributeaccess entity [bulkoperation_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_bulkoperation_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
 |Property|Value|
@@ -1854,6 +1856,8 @@ Same as principalobjectattributeaccess entity [bulkoperation_PrincipalObjectAttr
 
 
 ### <a name="BKMK_BulkOperation_Appointment"></a> BulkOperation_Appointment
+
+**Added by**: System Solution Solution
 
 Same as appointment entity [BulkOperation_Appointment](appointment.md#BKMK_BulkOperation_Appointment) Many-To-One relationship.
 
@@ -1870,6 +1874,8 @@ Same as appointment entity [BulkOperation_Appointment](appointment.md#BKMK_BulkO
 
 ### <a name="BKMK_BulkOperation_Email"></a> BulkOperation_Email
 
+**Added by**: System Solution Solution
+
 Same as email entity [BulkOperation_Email](email.md#BKMK_BulkOperation_Email) Many-To-One relationship.
 
 |Property|Value|
@@ -1884,6 +1890,8 @@ Same as email entity [BulkOperation_Email](email.md#BKMK_BulkOperation_Email) Ma
 
 
 ### <a name="BKMK_BulkOperation_Faxes"></a> BulkOperation_Faxes
+
+**Added by**: System Solution Solution
 
 Same as fax entity [BulkOperation_Faxes](fax.md#BKMK_BulkOperation_Faxes) Many-To-One relationship.
 
@@ -1900,6 +1908,8 @@ Same as fax entity [BulkOperation_Faxes](fax.md#BKMK_BulkOperation_Faxes) Many-T
 
 ### <a name="BKMK_BulkOperation_Letter"></a> BulkOperation_Letter
 
+**Added by**: System Solution Solution
+
 Same as letter entity [BulkOperation_Letter](letter.md#BKMK_BulkOperation_Letter) Many-To-One relationship.
 
 |Property|Value|
@@ -1914,6 +1924,8 @@ Same as letter entity [BulkOperation_Letter](letter.md#BKMK_BulkOperation_Letter
 
 
 ### <a name="BKMK_BulkOperation_Phonecall"></a> BulkOperation_Phonecall
+
+**Added by**: System Solution Solution
 
 Same as phonecall entity [BulkOperation_Phonecall](phonecall.md#BKMK_BulkOperation_Phonecall) Many-To-One relationship.
 
@@ -1930,6 +1942,8 @@ Same as phonecall entity [BulkOperation_Phonecall](phonecall.md#BKMK_BulkOperati
 
 ### <a name="BKMK_bulkoperation_Tasks"></a> bulkoperation_Tasks
 
+**Added by**: System Solution Solution
+
 Same as task entity [bulkoperation_Tasks](task.md#BKMK_bulkoperation_Tasks) Many-To-One relationship.
 
 |Property|Value|
@@ -1944,6 +1958,8 @@ Same as task entity [bulkoperation_Tasks](task.md#BKMK_bulkoperation_Tasks) Many
 
 
 ### <a name="BKMK_BulkOperation_RecurringAppointmentMaster"></a> BulkOperation_RecurringAppointmentMaster
+
+**Added by**: System Solution Solution
 
 Same as recurringappointmentmaster entity [BulkOperation_RecurringAppointmentMaster](recurringappointmentmaster.md#BKMK_BulkOperation_RecurringAppointmentMaster) Many-To-One relationship.
 
@@ -1960,6 +1976,8 @@ Same as recurringappointmentmaster entity [BulkOperation_RecurringAppointmentMas
 
 ### <a name="BKMK_BulkOperation_SocialActivity"></a> BulkOperation_SocialActivity
 
+**Added by**: System Solution Solution
+
 Same as socialactivity entity [BulkOperation_SocialActivity](socialactivity.md#BKMK_BulkOperation_SocialActivity) Many-To-One relationship.
 
 |Property|Value|
@@ -1975,6 +1993,8 @@ Same as socialactivity entity [BulkOperation_SocialActivity](socialactivity.md#B
 
 ### <a name="BKMK_bulkoperation_Annotations"></a> bulkoperation_Annotations
 
+**Added by**: System Solution Solution
+
 Same as annotation entity [bulkoperation_Annotations](annotation.md#BKMK_bulkoperation_Annotations) Many-To-One relationship.
 
 |Property|Value|
@@ -1984,36 +2004,6 @@ Same as annotation entity [bulkoperation_Annotations](annotation.md#BKMK_bulkope
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|bulkoperation_Annotations|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_bulkoperation_CampaignActivities"></a> bulkoperation_CampaignActivities
-
-Same as campaignactivity entity [bulkoperation_CampaignActivities](campaignactivity.md#BKMK_bulkoperation_CampaignActivities) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|campaignactivity|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|bulkoperation_CampaignActivities|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_bulkoperation_CampaignResponses"></a> bulkoperation_CampaignResponses
-
-Same as campaignresponse entity [bulkoperation_CampaignResponses](campaignresponse.md#BKMK_bulkoperation_CampaignResponses) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|campaignresponse|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|bulkoperation_CampaignResponses|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
@@ -2050,6 +2040,8 @@ Same as bulkoperationlog entity [BulkOperation_logs](bulkoperationlog.md#BKMK_Bu
 
 ### <a name="BKMK_BulkOperation_QueueItem"></a> BulkOperation_QueueItem
 
+**Added by**: System Solution Solution
+
 Same as queueitem entity [BulkOperation_QueueItem](queueitem.md#BKMK_BulkOperation_QueueItem) Many-To-One relationship.
 
 |Property|Value|
@@ -2064,6 +2056,8 @@ Same as queueitem entity [BulkOperation_QueueItem](queueitem.md#BKMK_BulkOperati
 
 
 ### <a name="BKMK_bulkoperation_IncidentResolutions"></a> bulkoperation_IncidentResolutions
+
+**Added by**: Service Solution
 
 Same as incidentresolution entity [bulkoperation_IncidentResolutions](incidentresolution.md#BKMK_bulkoperation_IncidentResolutions) Many-To-One relationship.
 
@@ -2080,6 +2074,8 @@ Same as incidentresolution entity [bulkoperation_IncidentResolutions](incidentre
 
 ### <a name="BKMK_bulkoperation_ServiceAppointments"></a> bulkoperation_ServiceAppointments
 
+**Added by**: Service Solution
+
 Same as serviceappointment entity [bulkoperation_ServiceAppointments](serviceappointment.md#BKMK_bulkoperation_ServiceAppointments) Many-To-One relationship.
 
 |Property|Value|
@@ -2094,6 +2090,8 @@ Same as serviceappointment entity [bulkoperation_ServiceAppointments](serviceapp
 
 
 ### <a name="BKMK_bulkoperation_OpportunityCloses"></a> bulkoperation_OpportunityCloses
+
+**Added by**: Sales Solution
 
 Same as opportunityclose entity [bulkoperation_OpportunityCloses](opportunityclose.md#BKMK_bulkoperation_OpportunityCloses) Many-To-One relationship.
 
@@ -2110,6 +2108,8 @@ Same as opportunityclose entity [bulkoperation_OpportunityCloses](opportunityclo
 
 ### <a name="BKMK_bulkoperation_OrderCloses"></a> bulkoperation_OrderCloses
 
+**Added by**: Sales Solution
+
 Same as orderclose entity [bulkoperation_OrderCloses](orderclose.md#BKMK_bulkoperation_OrderCloses) Many-To-One relationship.
 
 |Property|Value|
@@ -2124,6 +2124,8 @@ Same as orderclose entity [bulkoperation_OrderCloses](orderclose.md#BKMK_bulkope
 
 
 ### <a name="BKMK_bulkoperation_QuoteCloses"></a> bulkoperation_QuoteCloses
+
+**Added by**: Sales Solution
 
 Same as quoteclose entity [bulkoperation_QuoteCloses](quoteclose.md#BKMK_bulkoperation_QuoteCloses) Many-To-One relationship.
 
@@ -2140,6 +2142,8 @@ Same as quoteclose entity [bulkoperation_QuoteCloses](quoteclose.md#BKMK_bulkope
 
 ### <a name="BKMK_bulkoperation_msdyn_bookingalerts"></a> bulkoperation_msdyn_bookingalerts
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_bookingalert entity [bulkoperation_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_bulkoperation_msdyn_bookingalerts) Many-To-One relationship.
 
 |Property|Value|
@@ -2154,6 +2158,8 @@ Same as msdyn_bookingalert entity [bulkoperation_msdyn_bookingalerts](msdyn_book
 
 
 ### <a name="BKMK_bulkoperation_msdyn_approvals"></a> bulkoperation_msdyn_approvals
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_approval entity [bulkoperation_msdyn_approvals](msdyn_approval.md#BKMK_bulkoperation_msdyn_approvals) Many-To-One relationship.
 
@@ -2199,81 +2205,121 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lead_BulkOperations"></a> lead_BulkOperations
 
+**Added by**: Lead Management Solution
+
 See lead Entity [lead_BulkOperations](lead.md#BKMK_lead_BulkOperations) One-To-Many relationship.
 
 ### <a name="BKMK_bookableresourcebooking_BulkOperations"></a> bookableresourcebooking_BulkOperations
+
+**Added by**: Scheduling Solution
 
 See bookableresourcebooking Entity [bookableresourcebooking_BulkOperations](bookableresourcebooking.md#BKMK_bookableresourcebooking_BulkOperations) One-To-Many relationship.
 
 ### <a name="BKMK_bookableresourcebookingheader_BulkOperations"></a> bookableresourcebookingheader_BulkOperations
 
+**Added by**: Scheduling Solution
+
 See bookableresourcebookingheader Entity [bookableresourcebookingheader_BulkOperations](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_BulkOperations) One-To-Many relationship.
 
 ### <a name="BKMK_interactionforemail_BulkOperations"></a> interactionforemail_BulkOperations
+
+**Added by**: System Solution Solution
 
 See interactionforemail Entity [interactionforemail_BulkOperations](interactionforemail.md#BKMK_interactionforemail_BulkOperations) One-To-Many relationship.
 
 ### <a name="BKMK_knowledgebaserecord_BulkOperations"></a> knowledgebaserecord_BulkOperations
 
+**Added by**: System Solution Solution
+
 See knowledgebaserecord Entity [knowledgebaserecord_BulkOperations](knowledgebaserecord.md#BKMK_knowledgebaserecord_BulkOperations) One-To-Many relationship.
 
 ### <a name="BKMK_account_BulkOperations"></a> account_BulkOperations
+
+**Added by**: System Solution Solution
 
 See account Entity [account_BulkOperations](account.md#BKMK_account_BulkOperations) One-To-Many relationship.
 
 ### <a name="BKMK_lk_BulkOperation_createdby"></a> lk_BulkOperation_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_BulkOperation_createdby](systemuser.md#BKMK_lk_BulkOperation_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_contact_BulkOperations"></a> contact_BulkOperations
+
+**Added by**: System Solution Solution
 
 See contact Entity [contact_BulkOperations](contact.md#BKMK_contact_BulkOperations) One-To-Many relationship.
 
 ### <a name="BKMK_bulkoperation_mailbox_sendermailboxid"></a> bulkoperation_mailbox_sendermailboxid
 
+**Added by**: System Solution Solution
+
 See mailbox Entity [bulkoperation_mailbox_sendermailboxid](mailbox.md#BKMK_bulkoperation_mailbox_sendermailboxid) One-To-Many relationship.
 
 ### <a name="BKMK_bulkoperation_transactioncurrency_transactioncurrencyid"></a> bulkoperation_transactioncurrency_transactioncurrencyid
+
+**Added by**: System Solution Solution
 
 See transactioncurrency Entity [bulkoperation_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_bulkoperation_transactioncurrency_transactioncurrencyid) One-To-Many relationship.
 
 ### <a name="BKMK_user_BulkOperation"></a> user_BulkOperation
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_BulkOperation](systemuser.md#BKMK_user_BulkOperation) One-To-Many relationship.
 
 ### <a name="BKMK_bulkoperation_sla_slaid"></a> bulkoperation_sla_slaid
+
+**Added by**: System Solution Solution
 
 See sla Entity [bulkoperation_sla_slaid](sla.md#BKMK_bulkoperation_sla_slaid) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_BulkOperation_activities"></a> business_unit_BulkOperation_activities
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_BulkOperation_activities](businessunit.md#BKMK_business_unit_BulkOperation_activities) One-To-Many relationship.
 
 ### <a name="BKMK_knowledgearticle_BulkOperations"></a> knowledgearticle_BulkOperations
+
+**Added by**: System Solution Solution
 
 See knowledgearticle Entity [knowledgearticle_BulkOperations](knowledgearticle.md#BKMK_knowledgearticle_BulkOperations) One-To-Many relationship.
 
 ### <a name="BKMK_lk_BulkOperation_modifiedonbehalfby"></a> lk_BulkOperation_modifiedonbehalfby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_BulkOperation_modifiedonbehalfby](systemuser.md#BKMK_lk_BulkOperation_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_BulkOperation_createdonbehalfby"></a> lk_BulkOperation_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_BulkOperation_createdonbehalfby](systemuser.md#BKMK_lk_BulkOperation_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_BulkOperation_modifiedby"></a> lk_BulkOperation_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_BulkOperation_modifiedby](systemuser.md#BKMK_lk_BulkOperation_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_team_BulkOperation"></a> team_BulkOperation
+
+**Added by**: System Solution Solution
 
 See team Entity [team_BulkOperation](team.md#BKMK_team_BulkOperation) One-To-Many relationship.
 
 ### <a name="BKMK_bulkoperation_sla_slainvokedid"></a> bulkoperation_sla_slainvokedid
 
+**Added by**: System Solution Solution
+
 See sla Entity [bulkoperation_sla_slainvokedid](sla.md#BKMK_bulkoperation_sla_slainvokedid) One-To-Many relationship.
 
 ### <a name="BKMK_activity_pointer_BulkOperation"></a> activity_pointer_BulkOperation
+
+**Added by**: System Solution Solution
 
 See activitypointer Entity [activity_pointer_BulkOperation](activitypointer.md#BKMK_activity_pointer_BulkOperation) One-To-Many relationship.
 
@@ -2288,6 +2334,6 @@ See list Entity [List_BulkOperations](list.md#BKMK_List_BulkOperations) One-To-M
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.bulkoperation?text=bulkoperation EntityType" />

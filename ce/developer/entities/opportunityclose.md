@@ -1,42 +1,44 @@
 ---
-title: "OpportunityClose Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "OpportunityClose Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the OpportunityClose entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # OpportunityClose Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.
 
-**Added by**: Sales Solution<br />
+**Added by**: Sales Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/opportunitycloses(*activityid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/opportunitycloses<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/opportunitycloses(*activityid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/opportunitycloses(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/opportunitycloses<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/opportunitycloses(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/opportunitycloses(*activityid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/opportunitycloses<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/opportunitycloses(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/opportunitycloses<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/opportunitycloses(*activityid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/opportunitycloses(*activityid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/opportunitycloses(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/opportunitycloses(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -655,7 +657,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,entitlement,entitlementtemplate,incident,interactionforemail,knowledgearticle,knowledgebaserecord,lead,opportunity,site|
+|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,entitlement,entitlementtemplate,incident,interactionforemail,knowledgearticle,knowledgebaserecord,lead,msdyn_playbookinstance,opportunity,site|
 |Type|Lookup|
 
 
@@ -810,7 +812,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the Stage.|
-|DisplayName|Process Stage|
+|DisplayName|(Deprecated) Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -906,7 +908,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|timezoneruleversionnumber|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
@@ -944,7 +946,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|Traversed Path|
+|DisplayName|(Deprecated) Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -966,12 +968,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|utcconversiontimezonecode|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ActivityTypeCode](#BKMK_ActivityTypeCode)
@@ -1102,6 +1106,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedByExternalParty"></a> CreatedByExternalParty
 
+**Added by**: Sales Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the external party who created the record.|
@@ -1115,6 +1121,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByExternalPartyName"></a> CreatedByExternalPartyName
+
+**Added by**: Sales Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1131,6 +1139,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByExternalPartyYomiName"></a> CreatedByExternalPartyYomiName
+
+**Added by**: Sales Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1333,6 +1343,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedByExternalParty"></a> ModifiedByExternalParty
 
+**Added by**: Sales Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the external party who modified the record.|
@@ -1346,6 +1358,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByExternalPartyName"></a> ModifiedByExternalPartyName
+
+**Added by**: Sales Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1362,6 +1376,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByExternalPartyYomiName"></a> ModifiedByExternalPartyYomiName
+
+**Added by**: Sales Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1781,13 +1797,14 @@ Listed by **SchemaName**.
 - [OpportunityClose_SyncErrors](#BKMK_OpportunityClose_SyncErrors)
 - [OpportunityClose_AsyncOperations](#BKMK_OpportunityClose_AsyncOperations)
 - [opportunityclose_MailboxTrackingFolders](#BKMK_opportunityclose_MailboxTrackingFolders)
-- [userentityinstancedata_opportunityclose](#BKMK_userentityinstancedata_opportunityclose)
 - [OpportunityClose_BulkDeleteFailures](#BKMK_OpportunityClose_BulkDeleteFailures)
 - [opportunityclose_PrincipalObjectAttributeAccesses](#BKMK_opportunityclose_PrincipalObjectAttributeAccesses)
 - [OpportunityClose_Annotation](#BKMK_OpportunityClose_Annotation)
 
 
 ### <a name="BKMK_opportunityclose_activity_parties"></a> opportunityclose_activity_parties
+
+**Added by**: System Solution Solution
 
 Same as activityparty entity [opportunityclose_activity_parties](activityparty.md#BKMK_opportunityclose_activity_parties) Many-To-One relationship.
 
@@ -1804,6 +1821,8 @@ Same as activityparty entity [opportunityclose_activity_parties](activityparty.m
 
 ### <a name="BKMK_CampaignResponse_OpportunityCloses"></a> CampaignResponse_OpportunityCloses
 
+**Added by**: Marketing Solution
+
 Same as campaignresponse entity [CampaignResponse_OpportunityCloses](campaignresponse.md#BKMK_CampaignResponse_OpportunityCloses) Many-To-One relationship.
 
 |Property|Value|
@@ -1818,6 +1837,8 @@ Same as campaignresponse entity [CampaignResponse_OpportunityCloses](campaignres
 
 
 ### <a name="BKMK_OpportunityClose_SyncErrors"></a> OpportunityClose_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [OpportunityClose_SyncErrors](syncerror.md#BKMK_OpportunityClose_SyncErrors) Many-To-One relationship.
 
@@ -1834,6 +1855,8 @@ Same as syncerror entity [OpportunityClose_SyncErrors](syncerror.md#BKMK_Opportu
 
 ### <a name="BKMK_OpportunityClose_AsyncOperations"></a> OpportunityClose_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [OpportunityClose_AsyncOperations](asyncoperation.md#BKMK_OpportunityClose_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -1849,6 +1872,8 @@ Same as asyncoperation entity [OpportunityClose_AsyncOperations](asyncoperation.
 
 ### <a name="BKMK_opportunityclose_MailboxTrackingFolders"></a> opportunityclose_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [opportunityclose_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_opportunityclose_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -1859,25 +1884,12 @@ Same as mailboxtrackingfolder entity [opportunityclose_MailboxTrackingFolders](m
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|opportunityclose_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_userentityinstancedata_opportunityclose"></a> userentityinstancedata_opportunityclose
-
-Same as userentityinstancedata entity [userentityinstancedata_opportunityclose](userentityinstancedata.md#BKMK_userentityinstancedata_opportunityclose) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_opportunityclose|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_OpportunityClose_BulkDeleteFailures"></a> OpportunityClose_BulkDeleteFailures
+
+**Added by**: System Solution Solution
 
 Same as bulkdeletefailure entity [OpportunityClose_BulkDeleteFailures](bulkdeletefailure.md#BKMK_OpportunityClose_BulkDeleteFailures) Many-To-One relationship.
 
@@ -1894,6 +1906,8 @@ Same as bulkdeletefailure entity [OpportunityClose_BulkDeleteFailures](bulkdelet
 
 ### <a name="BKMK_opportunityclose_PrincipalObjectAttributeAccesses"></a> opportunityclose_PrincipalObjectAttributeAccesses
 
+**Added by**: System Solution Solution
+
 Same as principalobjectattributeaccess entity [opportunityclose_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_opportunityclose_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
 |Property|Value|
@@ -1908,6 +1922,8 @@ Same as principalobjectattributeaccess entity [opportunityclose_PrincipalObjectA
 
 
 ### <a name="BKMK_OpportunityClose_Annotation"></a> OpportunityClose_Annotation
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [OpportunityClose_Annotation](annotation.md#BKMK_OpportunityClose_Annotation) Many-To-One relationship.
 
@@ -1938,72 +1954,99 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [incident_OpportunityCloses](#BKMK_incident_OpportunityCloses)
 - [site_OpportunityCloses](#BKMK_site_OpportunityCloses)
 - [service_opportunityclose](#BKMK_service_opportunityclose)
+- [msdyn_playbookinstance_OpportunityCloses](#BKMK_msdyn_playbookinstance_OpportunityCloses)
 - [opportunity_OpportunityCloses](#BKMK_opportunity_OpportunityCloses)
 - [interactionforemail_OpportunityCloses](#BKMK_interactionforemail_OpportunityCloses)
 - [knowledgebaserecord_OpportunityCloses](#BKMK_knowledgebaserecord_OpportunityCloses)
-- [knowledgearticle_OpportunityCloses](#BKMK_knowledgearticle_OpportunityCloses)
-- [opportunityclose_mailbox_sendermailboxid](#BKMK_opportunityclose_mailbox_sendermailboxid)
-- [lk_opportunityclose_createdonbehalfby](#BKMK_lk_opportunityclose_createdonbehalfby)
-- [lk_opportunityclose_modifiedonbehalfby](#BKMK_lk_opportunityclose_modifiedonbehalfby)
-- [transactioncurrency_opportunityclose](#BKMK_transactioncurrency_opportunityclose)
-- [opportunityclose_sla_slainvokedid](#BKMK_opportunityclose_sla_slainvokedid)
-- [business_unit_opportunity_close_activities](#BKMK_business_unit_opportunity_close_activities)
 - [account_OpportunityCloses](#BKMK_account_OpportunityCloses)
-- [opportunityclose_sla_slaid](#BKMK_opportunityclose_sla_slaid)
-- [team_opportunityclose](#BKMK_team_opportunityclose)
-- [lk_opportunityclose_modifiedby](#BKMK_lk_opportunityclose_modifiedby)
 - [lk_opportunityclose_createdby](#BKMK_lk_opportunityclose_createdby)
+- [opportunityclose_mailbox_sendermailboxid](#BKMK_opportunityclose_mailbox_sendermailboxid)
+- [transactioncurrency_opportunityclose](#BKMK_transactioncurrency_opportunityclose)
 - [user_opportunityclose](#BKMK_user_opportunityclose)
+- [opportunityclose_sla_slaid](#BKMK_opportunityclose_sla_slaid)
+- [business_unit_opportunity_close_activities](#BKMK_business_unit_opportunity_close_activities)
+- [knowledgearticle_OpportunityCloses](#BKMK_knowledgearticle_OpportunityCloses)
+- [lk_opportunityclose_modifiedonbehalfby](#BKMK_lk_opportunityclose_modifiedonbehalfby)
+- [lk_opportunityclose_createdonbehalfby](#BKMK_lk_opportunityclose_createdonbehalfby)
+- [lk_opportunityclose_modifiedby](#BKMK_lk_opportunityclose_modifiedby)
+- [team_opportunityclose](#BKMK_team_opportunityclose)
+- [opportunityclose_sla_slainvokedid](#BKMK_opportunityclose_sla_slainvokedid)
 - [activity_pointer_opportunity_close](#BKMK_activity_pointer_opportunity_close)
 - [Opportunity_OpportunityClose](#BKMK_Opportunity_OpportunityClose)
 - [competitor_opportunity_activities](#BKMK_competitor_opportunity_activities)
-- [lk_externalparty_opportunityclose_createdby](#BKMK_lk_externalparty_opportunityclose_createdby)
-- [lk_externalparty_opportunityclose_modifiedby](#BKMK_lk_externalparty_opportunityclose_modifiedby)
 
 
 ### <a name="BKMK_lead_OpportunityCloses"></a> lead_OpportunityCloses
+
+**Added by**: Lead Management Solution
 
 See lead Entity [lead_OpportunityCloses](lead.md#BKMK_lead_OpportunityCloses) One-To-Many relationship.
 
 ### <a name="BKMK_bookableresourcebooking_OpportunityCloses"></a> bookableresourcebooking_OpportunityCloses
 
+**Added by**: Scheduling Solution
+
 See bookableresourcebooking Entity [bookableresourcebooking_OpportunityCloses](bookableresourcebooking.md#BKMK_bookableresourcebooking_OpportunityCloses) One-To-Many relationship.
 
 ### <a name="BKMK_bookableresourcebookingheader_OpportunityCloses"></a> bookableresourcebookingheader_OpportunityCloses
+
+**Added by**: Scheduling Solution
 
 See bookableresourcebookingheader Entity [bookableresourcebookingheader_OpportunityCloses](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_OpportunityCloses) One-To-Many relationship.
 
 ### <a name="BKMK_bulkoperation_OpportunityCloses"></a> bulkoperation_OpportunityCloses
 
+**Added by**: Marketing Solution
+
 See bulkoperation Entity [bulkoperation_OpportunityCloses](bulkoperation.md#BKMK_bulkoperation_OpportunityCloses) One-To-Many relationship.
 
 ### <a name="BKMK_campaign_OpportunityCloses"></a> campaign_OpportunityCloses
+
+**Added by**: Marketing Solution
 
 See campaign Entity [campaign_OpportunityCloses](campaign.md#BKMK_campaign_OpportunityCloses) One-To-Many relationship.
 
 ### <a name="BKMK_campaignactivity_OpportunityCloses"></a> campaignactivity_OpportunityCloses
 
+**Added by**: Marketing Solution
+
 See campaignactivity Entity [campaignactivity_OpportunityCloses](campaignactivity.md#BKMK_campaignactivity_OpportunityCloses) One-To-Many relationship.
 
 ### <a name="BKMK_entitlement_OpportunityCloses"></a> entitlement_OpportunityCloses
+
+**Added by**: Service Solution
 
 See entitlement Entity [entitlement_OpportunityCloses](entitlement.md#BKMK_entitlement_OpportunityCloses) One-To-Many relationship.
 
 ### <a name="BKMK_entitlementtemplate_OpportunityCloses"></a> entitlementtemplate_OpportunityCloses
 
+**Added by**: Service Solution
+
 See entitlementtemplate Entity [entitlementtemplate_OpportunityCloses](entitlementtemplate.md#BKMK_entitlementtemplate_OpportunityCloses) One-To-Many relationship.
 
 ### <a name="BKMK_incident_OpportunityCloses"></a> incident_OpportunityCloses
+
+**Added by**: Service Solution
 
 See incident Entity [incident_OpportunityCloses](incident.md#BKMK_incident_OpportunityCloses) One-To-Many relationship.
 
 ### <a name="BKMK_site_OpportunityCloses"></a> site_OpportunityCloses
 
+**Added by**: Service Solution
+
 See site Entity [site_OpportunityCloses](site.md#BKMK_site_OpportunityCloses) One-To-Many relationship.
 
 ### <a name="BKMK_service_opportunityclose"></a> service_opportunityclose
 
+**Added by**: Service Solution
+
 See service Entity [service_opportunityclose](service.md#BKMK_service_opportunityclose) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_playbookinstance_OpportunityCloses"></a> msdyn_playbookinstance_OpportunityCloses
+
+**Added by**: Playbook Solution
+
+See msdyn_playbookinstance Entity [msdyn_playbookinstance_OpportunityCloses](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_OpportunityCloses) One-To-Many relationship.
 
 ### <a name="BKMK_opportunity_OpportunityCloses"></a> opportunity_OpportunityCloses
 
@@ -2011,65 +2054,97 @@ See opportunity Entity [opportunity_OpportunityCloses](opportunity.md#BKMK_oppor
 
 ### <a name="BKMK_interactionforemail_OpportunityCloses"></a> interactionforemail_OpportunityCloses
 
+**Added by**: System Solution Solution
+
 See interactionforemail Entity [interactionforemail_OpportunityCloses](interactionforemail.md#BKMK_interactionforemail_OpportunityCloses) One-To-Many relationship.
 
 ### <a name="BKMK_knowledgebaserecord_OpportunityCloses"></a> knowledgebaserecord_OpportunityCloses
 
+**Added by**: System Solution Solution
+
 See knowledgebaserecord Entity [knowledgebaserecord_OpportunityCloses](knowledgebaserecord.md#BKMK_knowledgebaserecord_OpportunityCloses) One-To-Many relationship.
-
-### <a name="BKMK_knowledgearticle_OpportunityCloses"></a> knowledgearticle_OpportunityCloses
-
-See knowledgearticle Entity [knowledgearticle_OpportunityCloses](knowledgearticle.md#BKMK_knowledgearticle_OpportunityCloses) One-To-Many relationship.
-
-### <a name="BKMK_opportunityclose_mailbox_sendermailboxid"></a> opportunityclose_mailbox_sendermailboxid
-
-See mailbox Entity [opportunityclose_mailbox_sendermailboxid](mailbox.md#BKMK_opportunityclose_mailbox_sendermailboxid) One-To-Many relationship.
-
-### <a name="BKMK_lk_opportunityclose_createdonbehalfby"></a> lk_opportunityclose_createdonbehalfby
-
-See systemuser Entity [lk_opportunityclose_createdonbehalfby](systemuser.md#BKMK_lk_opportunityclose_createdonbehalfby) One-To-Many relationship.
-
-### <a name="BKMK_lk_opportunityclose_modifiedonbehalfby"></a> lk_opportunityclose_modifiedonbehalfby
-
-See systemuser Entity [lk_opportunityclose_modifiedonbehalfby](systemuser.md#BKMK_lk_opportunityclose_modifiedonbehalfby) One-To-Many relationship.
-
-### <a name="BKMK_transactioncurrency_opportunityclose"></a> transactioncurrency_opportunityclose
-
-See transactioncurrency Entity [transactioncurrency_opportunityclose](transactioncurrency.md#BKMK_transactioncurrency_opportunityclose) One-To-Many relationship.
-
-### <a name="BKMK_opportunityclose_sla_slainvokedid"></a> opportunityclose_sla_slainvokedid
-
-See sla Entity [opportunityclose_sla_slainvokedid](sla.md#BKMK_opportunityclose_sla_slainvokedid) One-To-Many relationship.
-
-### <a name="BKMK_business_unit_opportunity_close_activities"></a> business_unit_opportunity_close_activities
-
-See businessunit Entity [business_unit_opportunity_close_activities](businessunit.md#BKMK_business_unit_opportunity_close_activities) One-To-Many relationship.
 
 ### <a name="BKMK_account_OpportunityCloses"></a> account_OpportunityCloses
 
+**Added by**: System Solution Solution
+
 See account Entity [account_OpportunityCloses](account.md#BKMK_account_OpportunityCloses) One-To-Many relationship.
-
-### <a name="BKMK_opportunityclose_sla_slaid"></a> opportunityclose_sla_slaid
-
-See sla Entity [opportunityclose_sla_slaid](sla.md#BKMK_opportunityclose_sla_slaid) One-To-Many relationship.
-
-### <a name="BKMK_team_opportunityclose"></a> team_opportunityclose
-
-See team Entity [team_opportunityclose](team.md#BKMK_team_opportunityclose) One-To-Many relationship.
-
-### <a name="BKMK_lk_opportunityclose_modifiedby"></a> lk_opportunityclose_modifiedby
-
-See systemuser Entity [lk_opportunityclose_modifiedby](systemuser.md#BKMK_lk_opportunityclose_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_opportunityclose_createdby"></a> lk_opportunityclose_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_opportunityclose_createdby](systemuser.md#BKMK_lk_opportunityclose_createdby) One-To-Many relationship.
+
+### <a name="BKMK_opportunityclose_mailbox_sendermailboxid"></a> opportunityclose_mailbox_sendermailboxid
+
+**Added by**: System Solution Solution
+
+See mailbox Entity [opportunityclose_mailbox_sendermailboxid](mailbox.md#BKMK_opportunityclose_mailbox_sendermailboxid) One-To-Many relationship.
+
+### <a name="BKMK_transactioncurrency_opportunityclose"></a> transactioncurrency_opportunityclose
+
+**Added by**: System Solution Solution
+
+See transactioncurrency Entity [transactioncurrency_opportunityclose](transactioncurrency.md#BKMK_transactioncurrency_opportunityclose) One-To-Many relationship.
 
 ### <a name="BKMK_user_opportunityclose"></a> user_opportunityclose
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_opportunityclose](systemuser.md#BKMK_user_opportunityclose) One-To-Many relationship.
 
+### <a name="BKMK_opportunityclose_sla_slaid"></a> opportunityclose_sla_slaid
+
+**Added by**: System Solution Solution
+
+See sla Entity [opportunityclose_sla_slaid](sla.md#BKMK_opportunityclose_sla_slaid) One-To-Many relationship.
+
+### <a name="BKMK_business_unit_opportunity_close_activities"></a> business_unit_opportunity_close_activities
+
+**Added by**: System Solution Solution
+
+See businessunit Entity [business_unit_opportunity_close_activities](businessunit.md#BKMK_business_unit_opportunity_close_activities) One-To-Many relationship.
+
+### <a name="BKMK_knowledgearticle_OpportunityCloses"></a> knowledgearticle_OpportunityCloses
+
+**Added by**: System Solution Solution
+
+See knowledgearticle Entity [knowledgearticle_OpportunityCloses](knowledgearticle.md#BKMK_knowledgearticle_OpportunityCloses) One-To-Many relationship.
+
+### <a name="BKMK_lk_opportunityclose_modifiedonbehalfby"></a> lk_opportunityclose_modifiedonbehalfby
+
+**Added by**: System Solution Solution
+
+See systemuser Entity [lk_opportunityclose_modifiedonbehalfby](systemuser.md#BKMK_lk_opportunityclose_modifiedonbehalfby) One-To-Many relationship.
+
+### <a name="BKMK_lk_opportunityclose_createdonbehalfby"></a> lk_opportunityclose_createdonbehalfby
+
+**Added by**: System Solution Solution
+
+See systemuser Entity [lk_opportunityclose_createdonbehalfby](systemuser.md#BKMK_lk_opportunityclose_createdonbehalfby) One-To-Many relationship.
+
+### <a name="BKMK_lk_opportunityclose_modifiedby"></a> lk_opportunityclose_modifiedby
+
+**Added by**: System Solution Solution
+
+See systemuser Entity [lk_opportunityclose_modifiedby](systemuser.md#BKMK_lk_opportunityclose_modifiedby) One-To-Many relationship.
+
+### <a name="BKMK_team_opportunityclose"></a> team_opportunityclose
+
+**Added by**: System Solution Solution
+
+See team Entity [team_opportunityclose](team.md#BKMK_team_opportunityclose) One-To-Many relationship.
+
+### <a name="BKMK_opportunityclose_sla_slainvokedid"></a> opportunityclose_sla_slainvokedid
+
+**Added by**: System Solution Solution
+
+See sla Entity [opportunityclose_sla_slainvokedid](sla.md#BKMK_opportunityclose_sla_slainvokedid) One-To-Many relationship.
+
 ### <a name="BKMK_activity_pointer_opportunity_close"></a> activity_pointer_opportunity_close
+
+**Added by**: System Solution Solution
 
 See activitypointer Entity [activity_pointer_opportunity_close](activitypointer.md#BKMK_activity_pointer_opportunity_close) One-To-Many relationship.
 
@@ -2081,17 +2156,9 @@ See opportunity Entity [Opportunity_OpportunityClose](opportunity.md#BKMK_Opport
 
 See competitor Entity [competitor_opportunity_activities](competitor.md#BKMK_competitor_opportunity_activities) One-To-Many relationship.
 
-### <a name="BKMK_lk_externalparty_opportunityclose_createdby"></a> lk_externalparty_opportunityclose_createdby
-
-See externalparty Entity [lk_externalparty_opportunityclose_createdby](externalparty.md#BKMK_lk_externalparty_opportunityclose_createdby) One-To-Many relationship.
-
-### <a name="BKMK_lk_externalparty_opportunityclose_modifiedby"></a> lk_externalparty_opportunityclose_modifiedby
-
-See externalparty Entity [lk_externalparty_opportunityclose_modifiedby](externalparty.md#BKMK_lk_externalparty_opportunityclose_modifiedby) One-To-Many relationship.
-
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.opportunityclose?text=opportunityclose EntityType" />
