@@ -65,9 +65,13 @@ Enter an **Account name** and an **address** along with other important details 
 Next, select **Geo Code** at the top fo the form. If you have Set **Auto Geo Code** to **Yes** in Field Service Settings as noted in the prerequisites then you can skip this step. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-service-account-create.png)
 
 Confirm geo coding is successful by the location visualized on the map and values populated in the latitude and longitude fields in the Scheduling section. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/service-account-scheduling-section.png)
 
 Next, go the Field Service section of the account form and fill in details based on your business needs. Values entered here are passed down to work orders where this account is listed as the service account, but the values can be edited on each work order as needed.
 
@@ -84,7 +88,7 @@ Next, go the Field Service section of the account form and fill in details based
 **Work Order Instructions:** The value here serves as a text note and populates the **Instructions** field on all related work orders. This is a good way to ensure field technicians follow processes specific to this account. See an example in the image below.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/service-account-field-service-section.png)
 
 > [!Note]
 > Updating these values will not update previous work orders, only future work orders.
@@ -104,7 +108,7 @@ Billing Account - populated as the billing account specified on the service acco
 Price List - populated as the price list specified on the **billing account** record.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-service-account.png)
 
 > [!Note]
 > If the work order price list does not reflect the price list entered on your service account or billing account, this means it is being overridden by the price list related to Work Order Types or Entitlements.
@@ -112,9 +116,12 @@ Price List - populated as the price list specified on the **billing account** re
 Service Territory and Instructions
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-account-territory-instructions.png)
 
 Address
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-account-address.png)
 
 Location
 
@@ -123,7 +130,7 @@ Location
 This work order location is passed down to the work order requirement and is reflected on the schedule board map. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-account-map.png)
 
 > [!Note]
 > Work Orders can be assigned addresses and geo coded independent of the service account if needed.
