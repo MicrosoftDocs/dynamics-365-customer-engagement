@@ -32,6 +32,8 @@ This action is used to trigger out of the box price calculation for Opportunity,
 
 ## Examples
 
+### Server Invocation
+
 **Request**
 
 ```HTTP
@@ -49,7 +51,7 @@ HTTP/1.1 204 No Content
 OData-Version: 4.0
 ```
 
-### Client-side sample
+### Client Invocation
 
 ```JavaScript
 var recalculatePriceRequest = new ODataContract.ReCalculatePriceRequest({guid: ClientUtility.Guid.create(Xrm.Page.data.entity.getId())}, Xrm.Page.data.entity.getEntityName());
