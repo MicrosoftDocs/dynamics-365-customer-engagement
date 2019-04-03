@@ -51,7 +51,7 @@ Locations are very important in field service scenarios where field technicians 
  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of new service account](./media/.png)
 
 
 ## Create a service account
@@ -71,7 +71,7 @@ Confirm geo coding is successful by the location visualized on the map and value
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/service-account-scheduling-section.png)
+> ![Screenshot of geo coded account](./media/service-account-scheduling-section.png)
 
 Next, go the Field Service section of the account form and fill in details based on your business needs. Values entered here are passed down to work orders where this account is listed as the service account, but the values can be edited on each work order as needed.
 
@@ -88,7 +88,7 @@ Next, go the Field Service section of the account form and fill in details based
 **Work Order Instructions:** The value here serves as a text note and populates the **Instructions** field on all related work orders. This is a good way to ensure field technicians follow processes specific to this account. See an example in the image below.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/service-account-field-service-section.png)
+> ![Screenshot of Field Service related values for a specific account](./media/service-account-field-service-section.png)
 
 > [!Note]
 > Updating these values will not update previous work orders, only future work orders.
@@ -103,57 +103,66 @@ Add the account you just created as the service account.
 
 Notice the following values automatically populated.
 
-Billing Account - populated as the billing account specified on the service account record.
+**Billing Account** - populated as the billing account specified on the service account record.
 
-Price List - populated as the price list specified on the **billing account** record.
+**Price List** - populated as the price list specified on the **billing account** record.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-service-account.png)
+> ![Screenshot of new work order with the account just created listed as a service account](./media/work-order-service-account.png)
 
 > [!Note]
 > If the work order price list does not reflect the price list entered on your service account or billing account, this means it is being overridden by the price list related to Work Order Types or Entitlements.
 
-Service Territory and Instructions
+**Service Territory and Instructions**
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-account-territory-instructions.png)
+> ![Screenshot of service territory and instructions](./media/work-order-account-territory-instructions.png)
 
-Address
+**Address**
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-account-address.png)
+> ![Screenshot of address of service account passed down to work order address](./media/work-order-account-address.png)
 
-Location
-
-**Pro Tip:** You can select and drag the map pin to edit the work order location (latitude and longitude) as needed. This is helpful for scenarios where the address points to an arbitrary location at a university campus for example, but the work order must take place at a specific building or location on the campus.
+**Location**
 
 This work order location is passed down to the work order requirement and is reflected on the schedule board map. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-account-map.png)
+> ![Screenshot of work order map location](./media/work-order-account-map.png)
+
+**Pro Tip:** You can select and drag the map pin to edit the work order location (latitude and longitude) as needed. This is helpful for scenarios where the address points to an arbitrary location at a university campus for example, but the work order must take place at a specific building or location on the campus.
 
 > [!Note]
 > Work Orders can be assigned addresses and geo coded independent of the service account if needed.
 
 ## Configuration considerations
-If the service account (not billing account) of the work order has a travel charge type set then a work order product for a travel charge will be added when the **Work Order System Status** becomes **Open-Completed** after being booked. 
+
+### Travel charge explained
+
+If the service account (not billing account) of the work order has a travel charge type set, then a work order product for a travel charge will be added when the **Work Order System Status** becomes **Open-Completed** after being booked. 
 
 First, go to **Field Service > Settings > Field Service Settings** and specify a product in the **Travel Charge Item** field. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/field-service-settings-travel-charge.png)
+> ![Screenshot of travel charge item in field service settings](./media/field-service-settings-travel-charge.png)
 
 This is the product that will later show as a work order product.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-service-account-travel-charge-product.png)
+> ![Screenshot of travel charge added as a work order product](./media/work-order-service-account-travel-charge-product.png)
 
-The price of the travel charge work order product depends on the value chosen on the service account for the Travel Charge Type.
+> [!Note]
+> The travel charge work order product is subject to the same pricing rules as all work order products and services. The unit amount pricing of travel charge work order products is dictated first by the **price list**, if the travel charge product is not part of the price list as a price list item then the **list price** on the travel charge product will be used, and lastly if no list price is entered, the unit amount price will be the value entered in the service account **travel charge**.
 
-- Hourly:
-- Mileage:
-- Fixed:
-- None:
 
+Though the uit amount price of the travel charge is dictated by the price list, list price, and travel charge, the quantity is dictated by the **Travel Charge Type** on the service account.
+
+- **Hourly:** Quantity will be the **Actual Travel Duration** of the booking / 60 minutes. As an example, if the unit amount price of the Travel Charge is set to $60 and actual travel duration is 30 minutes, the travel charge work order product will be priced as $30.
+- **Mileage:** Quantity is the **Miles Traveled** of the booking. As an example, if the unit amount price of the Travel Charge is set to $1 and miles traveled is 20 miles, the travel charge work order product will be priced as $20.
+- **Fixed:** Quantity is **1**. As an example, if the unit amount price of the Travel Charge is set to $50, the travel charge work order product will be priced as $50, regardless of miles or time spent traveling. 
+- **None:** No travel charge will be added to the work order.
+
+> [!Note]
+> In cases of multiple bookings for a single work order, multiple travel charges will be added as work order products.
 
 
