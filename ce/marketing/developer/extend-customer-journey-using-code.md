@@ -1,8 +1,8 @@
 ---
-title: "Basic Operations on Customer Journey using C#| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
+title: "Basic Operations on customer journey using C#| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
 description: This sample shows how to perform basic operations on customer journey using c#."" # 115-145 characters including spaces. This abstract displays in the search result.
 ms.custom: ""
-ms.date: 03/25/2019
+ms.date: 04/03/2019
 ms.service: "D365CE"
 ms.topic: "article"
 ms.author: "nabuthuk" # MSFT alias of Microsoft employees only
@@ -16,28 +16,24 @@ search.app:
 
 # CRUD operations on customer journey using code
 
-The Customer Journey SDK sample is a .NET managed-code sample that shows how to use the Customer Journey APIs. The sample focuses on using the Customer Journey SDK from a .NET console application. The Customer Journey SDK can also be used from plug-in code.
+The customer journey SDK sample is a .NET managed-code sample that shows how to use the customer journey APIs. The sample focuses on using the customer journey SDK from a .NET console application. The customer journey SDK can be used from plug-in code.
 
-Download the sample: [Customer Journey SDK]() 
+Download the sample: [customer journey SDK](https://go.microsoft.com/fwlink/?linkid=2086553)
 
-When you extract the .zip file, you will find three projects in it: 
+When you extract the .zip file, you find three projects in it:
 
-- **Microsoft.Dynamics.Marketing.SDK**, which defines the basic reusable functionality that simplifies accessing Customer Journey APIs. It contains: 
-   - Organized constants simplifying the reference to metadata elements like entities and option sets. 
-   - A builder to simplify the construction of customer journey designs (programmatic equivalent to the Customer Journey designer).
-   - Encapsulation of data contracts (requests and responses) for most of the important marketing operations like checking for Customer Journey errors.
+- **Microsoft.Dynamics.Marketing.SDK**, which defines the basic reusable functionality that simplifies accessing customer journey APIs. It contains:
+   - Organized constants simplifying the reference to metadata elements like entities and option sets.
+   - A builder to simplify the construction of customer journey designs (programmatic equivalent to the customer journey designer).
+   - Encapsulation of data contracts (requests and responses) for most of the important marketing operations like checking for customer journey errors.
 - **Microsoft.Dynamics.Marketing.SDK.Tests**, which contains unit tests that ensure the quality of **Microsoft.Dynamics.Marketing.SDK**. 
-- **Microsoft.Dynamics.Marketing.Samples**, which is an executable program that is used to execute the actual samples. It contains: 
+- **Microsoft.Dynamics.Marketing.Samples**, which is an executable program that is used to execute the actual samples. It contains code for:
    - Creating a customer journey from an existing template record.
    - Creating a sample customer journey with a segment and email.
    - Validating and publishing the existing customer journey record.
-   
-  <!--note from editor: Something missing in Line 30-- "It contains" doesn't match up with what follows. Change to something like "It contains code for:"    --> 
 
 > [!NOTE]
-> You need to have access to Microsoft Dynamics 365 for Customer Engagement for apps organization with Dynamics 365 for Marketing app installed. More information: [Install Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
-
-<!--note from editor: Meaning of note unclear. You need to have access to the organization that is using Customer Engagement? Is it the organization or the "you" that needs to have Dynamics 365 for Marketing app installed?   -->
+> You need to have access to Microsoft Dynamics 365 for Marketing app. More information: [Install Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
 
 ## How to run the sample
 
@@ -50,7 +46,7 @@ If you don’t specify a parameter, the usage screen is printed.
 
 ## What this sample does
 
-The Customer Journey SDK sample shows how to: 
+The customer journey SDK sample shows how to:
 
 1. Query customer journey data.
 2. Create a new customer journey from a customer journey template.
@@ -60,13 +56,11 @@ The Customer Journey SDK sample shows how to:
 
 ## Examples
 
-<!--note from editor: Will "XRM" be known to readers?   -->
+Microsoft.Dynamics.Marketing.SDK.dll uses the core SDK to process organization requests. The source code of this project can be embedded in the plug-in code and executed.
 
-Microsoft.Dynamics.Marketing.SDK.dll uses the core Microsoft XRM SDK to process organization requests. The source code of this project can be embedded into plug-in code and executed. 
+This example demonstrates how to invoke the **Check for Errors** command programmatically:
 
-This example demonstrates how to invoke the **Check for Errors** command programmatically: 
-
-```csharp  
+```CSharp  
 using Microsoft.Dynamics.Marketing.SDK; 
 using Microsoft.Dynamics.Marketing.SDK.CustomerJourney.Validation; 
 using Microsoft.Dynamics.Marketing.SDK.Metadata.Entities; 
@@ -97,7 +91,7 @@ public class Snippet
 
 This example demonstrates how to create a customer journey workflow programmatically: 
  
-```csharp
+```CSharp
 using Microsoft.Dynamics.Marketing.SDK.CustomerJourney.Workflow; 
 using System; 
  
@@ -125,7 +119,7 @@ public class Snippet
 
 This example demonstrate how to invoke **Go Live** programmatically: 
 
-```csharp
+```CSharp
 using Microsoft.Dynamics.Marketing.SDK.Metadata.OptionSets; 
 using Microsoft.Dynamics.Marketing.SDK.Wrappers; 
 using Microsoft.Xrm.Sdk; 

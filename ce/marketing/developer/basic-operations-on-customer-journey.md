@@ -22,7 +22,7 @@ As you engage potential customers, they start by discovering your product, evalu
 The Customer Journey API enables programmatic interaction with customer journey records including publishing and validation.
 The API leverages the standard Dynamics 365 API for manipulating entities or messages. More information: [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api).
 
-When you create a customer journey, the properties are stored in the `msdyncrm_customerjourney` entity. You can browse the entity metadata information using `@odata.context`in the `GET` response.
+When you create a customer journey, the properties will be stored in the `msdyncrm_customerjourney` entity. You can browse the entity metadata information using `@odata.context`in the `GET` response.
 
 > [!NOTE]
 > Before you perform operations, you should install the [Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup). 
@@ -49,13 +49,11 @@ This topic demonstrates how to perform operations on the `msdyncrm_customerjourn
 |Status|statecode|Status of the customer journey.|
 
 > [!NOTE]
-> The `statuscode` and `statecode` fields define the state of the customer journey. Changing their values can result in `Publishing` or `Stopping` of customer journey workflow. If you wish to `go live`, save the record in `Going Live` state (statuscode = 192350006). To stop a customer journey record, save the Live record in `Stopping` state (statuscode = 192350007).
+> The `statuscode` and `statecode` fields define the state of the customer journey. Changing their values can result in `Publishing` or `Stopping` of customer journey workflow. If you wish to `go live` save the record in `Going Live` state (statuscode = 192350006). To stop a customer journey record, save the Live record in `Stopping` state (statuscode = 192350007).
 
 Use the Postman tool to test the operations. More information: [Use Postman With Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/use-postman-perform-operations).
 
-## CRUD operations
-
-<!--note from editor:  Introduce CRUD and spell out the acronym since it is first occurrence.  -->
+## Create, retrieve, update and delete operations
 
 ### Create request
 
@@ -94,7 +92,7 @@ GET {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys?$filter=statuscode eq 192
 
 ### Update request
 
-With the update request, you update `statuscode` to `Going Live`, which effectively publishes it.
+With the update request, you update `statuscode` to `Going Live` which effectively publishes it.
 
 ```HTTP
 PATCH {{OrgUrl}}api/data/v9.0/msdyncrm_customerjourneys(8aee9d91-8c2b-e911-a9b7-000d3a1e6adc)
@@ -115,7 +113,7 @@ DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_customerjourneys(b6faa2b7-b92b-e911-818
 
 The Check for Errors feature checks the current record for missing content and technical errors and then displays the validation results, including error messages that should help the user solve any issues that were found.
 
-The request body is a JSON object, which contains a number of data elements with values corresponding to the `msdyncrm_customerjourney` entity properties. The reference field (for example, Content Settings ID) doesn't use `@odata.bind` with the record set reference but uses the ID of the referenced record. The following table explains the mapping.
+The request body is a JSON object, which contains number of data elements with values corresponding to the `msdyncrm_customerjourney` entity properties. The reference field (for example, Content Settings ID) doesn't use `@odata.bind` with the record set reference but uses the ID of the referenced record. The following table explains the mapping.
 
 |Key|Corresponding property msdyncrm_customerjourney entity (logical name)|
 |--------|--------------|
@@ -179,7 +177,7 @@ The following table shows the schema of objects contained within the `ActivityVa
 
 |Property|Type|Description|
 |-------|-------|---------|
-|ActivityId|String|The Activity ID of the actual workflow tile to which the validation result applies to. If empty, the validation result applies globally to the entire workflow definition or other properties of the customer journey.|
+|ActivityId|String|The Activity ID of the actual workflow tile to which the validation result applies. If empty, the validation result applies globally to the entire workflow definition or other properties of the customer journey.|
 |Fault|String|The code that identifies the actual validation result. See the validation [sample](extend-customer-journey-using-code.md) to learn how to work with messages associated with fault codes.|
 |Result|String|The result severity. It has the following values:<br />**Valid** – Informative entry<br />**Warning** – Nonblocking issue<br />**Error** – Blocking issue|
 |ErrorMessageArguments|String[]|Optional list of arguments that provides details of the validation result, for example, an ID of the element that fails to meet the validity criteria.|

@@ -51,7 +51,7 @@ A workflow definition is a JSON serialized workflow design, represented by an ar
 
 ### Workflow activity
 
-A workflow activity is a JSON representation of a workflow tile. Each workflow activity can be interpreted as an array of workflow activity items. The first item in the array corresponds to the header tile, and the following items are the nested tiles.
+A workflow activity is a JSON representation of the workflow tile. Each workflow activity is interpreted as an array of workflow activity items. The first item in the array corresponds to the header tile, and the following items are the nested tiles.
  
 A workflow activity object has several important properties, shown in the following table.
 
@@ -67,20 +67,18 @@ A workflow activity object has several important properties, shown in the follow
  
 ### Workflow activity item
 
-A workflow activity item defines the properties of a single item within a workflow activity (title, description, related marketing email record, or trigger condition). The properties of a workflow item object differ by the workflow item type, but there are some common properties.
+A workflow activity item defines the properties of a single item within the workflow activity (title, description, related marketing email record, or trigger condition). The properties of the workflow item object differ from the workflow item type, but there are some common properties.
 
    > [!div class="mx-imgBorder"] 
    > ![Customer Journey Design](../media/customer-journey-design.png "Customer Journey Design")
 
-<!--note from editor: In first table row, are the 2 occurrences of  phrase "of containing workflow activity" correct? Should it be "of the containing workflow activity", or should the "of" be deleted?   -->
-
 
 |Property|Type|Description|
 |------|-------|--------|
-|ActivityTypeId|String|The item type. In the case of the header item (at index 0 in the Items collection of containing workflow activity), this will be equal to the **ActivityTypeId** property of containing workflow activity. Otherwise, the following values should be used:<br />**SegmentItem**: Segment item participating in the definition of the segment group<br />**LandingPage**: Marketing page nested in the Marketing email message<br />**Event**: Event nested in the Marketing email message<br />**Survey**: Survey nested in the Marketing email message<br />**MarketingForm**: Marketing form nested in the Marketing email message|
+|ActivityTypeId|String|The item type. In the case of the header item (at index 0 in the Items collection containing workflow activity), this is equal to the **ActivityTypeId** property of the containing workflow activity. Otherwise, the following values should be used:<br />**SegmentItem**: Segment item participating in the definition of the segment group<br />**LandingPage**: Marketing page nested in the Marketing email message<br />**Event**: Event nested in the Marketing email message<br />**Survey**: Survey nested in the Marketing email message<br />**MarketingForm**: Marketing form nested in the Marketing email message|
 |ItemId|String|In the case of an activity that refers to a record using lookup (for example, a Marketing email message), this property holds the record ID of the referenced entity record.|
 |Name|String|The value of **Title name** property|
-|IsNameSystemDefined|Boolean|If set to true, changing the selection in the customer journey designer will update the **Title name** property. If set to false, the customer journey designer treats the **Title name** as user specified.|
+|IsNameSystemDefined|Boolean|If set to true, changing the selection in the customer journey designer updates the **Title name** property. If set to false, the customer journey designer treats the **Title name** as user specified.|
 |ActivityItemId|Number|Workflow activity item identifier. Must be unique in the scope of the entire workflow definition of the current customer journey.|
 |Description|String|The value of the **Description** property.|
 |Title|String|Unused; set it to **Undefined**.| 
@@ -89,29 +87,27 @@ A workflow activity item defines the properties of a single item within a workfl
 
 The following example shows how to define a simple customer journey design with a segment group and a Marketing email message:
 
-<!--note from editor: Is the list below a list of the elements of the workflow?   -->
+1. Create a segment group with the following properties:
+
+   - Segment group
+   - Direct child of root 
+   - Title name: **Customers**
+   - Segment merge logic: **Union**
+   - One segment with:
+      - Title name: **Demo segment**
+      - Segment record ID: 51d2115b-544a-e911-a873-000d3a1fe344; internal name: Demo_segment_09c58544
+
+2. Create a Marketing email message with the following properties:
+
+     - Direct child of the segment **Customers**
+     - Title name: **Demo email**
+     - Marketing email record ID: 184e5a1a-464a-e911-a873-000d3a1fe344
+     - Nested marketing page with
+     - Title name: **Demo page**
+     - Marketing page record ID: 46dece00-464a-e911-a873-000d3a1fe344
 
 
-- Segment group
-  - Direct child of root 
-  - Title name: **Customers**
-  - Segment merge logic: **Union**
-  - One segment with:
-    - Title name: **Demo segment**
-    - Segment record ID: 51d2115b-544a-e911-a873-000d3a1fe344; internal name: Demo_segment_09c58544
-- Marketing email message 
-  - Direct child of the segment **Customers**
-  - Title name: **Demo email**
-  - Marketing email record ID: 184e5a1a-464a-e911-a873-000d3a1fe344
-  - Nested marketing page with
-    - Title name: **Demo page**
-    - Marketing page record ID: 46dece00-464a-e911-a873-000d3a1fe344
-
-
-<!--note from editor: Refer to the above as a "list" rather than an example?    -->
-
-
-The following shows how the preceding example can be represented in a customer journey workflow definition:
+The following shows how the preceding example is represented in a customer journey workflow definition:
 
 ```JSON
 [ 
