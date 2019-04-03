@@ -1,42 +1,44 @@
 ---
-title: "Characteristic Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Characteristic Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Characteristic entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Characteristic Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Skills, education and certifications of resources.
 
-**Added by**: Scheduling Solution<br />
+**Added by**: Scheduling Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/characteristics(*characteristicid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/characteristics<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/characteristics(*characteristicid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/characteristics(*characteristicid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/characteristics<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/characteristics(*characteristicid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/characteristics(*characteristicid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/characteristics<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/characteristics(*characteristicid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/characteristics<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/characteristics(*characteristicid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/characteristics(*characteristicid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/characteristics(*characteristicid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/characteristics(*characteristicid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -146,7 +148,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_requireapproval"></a> msdyn_requireapproval
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -155,7 +157,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_requireapproval|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|Boolean|
 
 #### msdyn_requireapproval Options
@@ -216,6 +218,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -317,7 +321,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -689,7 +695,6 @@ Listed by **SchemaName**.
 - [characteristic_DuplicateBaseRecord](#BKMK_characteristic_DuplicateBaseRecord)
 - [characteristic_AsyncOperations](#BKMK_characteristic_AsyncOperations)
 - [characteristic_MailboxTrackingFolders](#BKMK_characteristic_MailboxTrackingFolders)
-- [characteristic_UserEntityInstanceDatas](#BKMK_characteristic_UserEntityInstanceDatas)
 - [characteristic_ProcessSession](#BKMK_characteristic_ProcessSession)
 - [characteristic_BulkDeleteFailures](#BKMK_characteristic_BulkDeleteFailures)
 - [characteristic_PrincipalObjectAttributeAccess](#BKMK_characteristic_PrincipalObjectAttributeAccess)
@@ -702,6 +707,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_Characteristic_SyncErrors"></a> Characteristic_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [Characteristic_SyncErrors](syncerror.md#BKMK_Characteristic_SyncErrors) Many-To-One relationship.
 
@@ -718,6 +725,8 @@ Same as syncerror entity [Characteristic_SyncErrors](syncerror.md#BKMK_Character
 
 ### <a name="BKMK_characteristic_DuplicateMatchingRecord"></a> characteristic_DuplicateMatchingRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [characteristic_DuplicateMatchingRecord](duplicaterecord.md#BKMK_characteristic_DuplicateMatchingRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -732,6 +741,8 @@ Same as duplicaterecord entity [characteristic_DuplicateMatchingRecord](duplicat
 
 
 ### <a name="BKMK_characteristic_DuplicateBaseRecord"></a> characteristic_DuplicateBaseRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [characteristic_DuplicateBaseRecord](duplicaterecord.md#BKMK_characteristic_DuplicateBaseRecord) Many-To-One relationship.
 
@@ -748,6 +759,8 @@ Same as duplicaterecord entity [characteristic_DuplicateBaseRecord](duplicaterec
 
 ### <a name="BKMK_characteristic_AsyncOperations"></a> characteristic_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [characteristic_AsyncOperations](asyncoperation.md#BKMK_characteristic_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -763,6 +776,8 @@ Same as asyncoperation entity [characteristic_AsyncOperations](asyncoperation.md
 
 ### <a name="BKMK_characteristic_MailboxTrackingFolders"></a> characteristic_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [characteristic_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_characteristic_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -773,25 +788,12 @@ Same as mailboxtrackingfolder entity [characteristic_MailboxTrackingFolders](mai
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|characteristic_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_characteristic_UserEntityInstanceDatas"></a> characteristic_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [characteristic_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_characteristic_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|characteristic_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_characteristic_ProcessSession"></a> characteristic_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [characteristic_ProcessSession](processsession.md#BKMK_characteristic_ProcessSession) Many-To-One relationship.
 
@@ -808,6 +810,8 @@ Same as processsession entity [characteristic_ProcessSession](processsession.md#
 
 ### <a name="BKMK_characteristic_BulkDeleteFailures"></a> characteristic_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [characteristic_BulkDeleteFailures](bulkdeletefailure.md#BKMK_characteristic_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -822,6 +826,8 @@ Same as bulkdeletefailure entity [characteristic_BulkDeleteFailures](bulkdeletef
 
 
 ### <a name="BKMK_characteristic_PrincipalObjectAttributeAccess"></a> characteristic_PrincipalObjectAttributeAccess
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [characteristic_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_characteristic_PrincipalObjectAttributeAccess) Many-To-One relationship.
 
@@ -853,6 +859,8 @@ Same as bookableresourcecharacteristic entity [characteristic_bookableresourcech
 
 ### <a name="BKMK_msdyn_characteristic_msdyn_requirementcharacteristic_characteristic"></a> msdyn_characteristic_msdyn_requirementcharacteristic_characteristic
 
+**Added by**: Universal Resource Scheduling Solution
+
 Same as msdyn_requirementcharacteristic entity [msdyn_characteristic_msdyn_requirementcharacteristic_characteristic](msdyn_requirementcharacteristic.md#BKMK_msdyn_characteristic_msdyn_requirementcharacteristic_characteristic) Many-To-One relationship.
 
 |Property|Value|
@@ -867,6 +875,8 @@ Same as msdyn_requirementcharacteristic entity [msdyn_characteristic_msdyn_requi
 
 
 ### <a name="BKMK_msdyn_characteristic_msdyn_characteristicreqforteammember_characteristic"></a> msdyn_characteristic_msdyn_characteristicreqforteammember_characteristic
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_characteristicreqforteammember entity [msdyn_characteristic_msdyn_characteristicreqforteammember_characteristic](msdyn_characteristicreqforteammember.md#BKMK_msdyn_characteristic_msdyn_characteristicreqforteammember_characteristic) Many-To-One relationship.
 
@@ -883,6 +893,8 @@ Same as msdyn_characteristicreqforteammember entity [msdyn_characteristic_msdyn_
 
 ### <a name="BKMK_msdyn_characteristic_msdyn_rolecompetencyrequirement_characteristic"></a> msdyn_characteristic_msdyn_rolecompetencyrequirement_characteristic
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_rolecompetencyrequirement entity [msdyn_characteristic_msdyn_rolecompetencyrequirement_characteristic](msdyn_rolecompetencyrequirement.md#BKMK_msdyn_characteristic_msdyn_rolecompetencyrequirement_characteristic) Many-To-One relationship.
 
 |Property|Value|
@@ -898,6 +910,8 @@ Same as msdyn_rolecompetencyrequirement entity [msdyn_characteristic_msdyn_rolec
 
 ### <a name="BKMK_msdyn_characteristic_msdyn_incidenttypecharacteristic_Characteristic"></a> msdyn_characteristic_msdyn_incidenttypecharacteristic_Characteristic
 
+**Added by**: Field Service Solution
+
 Same as msdyn_incidenttypecharacteristic entity [msdyn_characteristic_msdyn_incidenttypecharacteristic_Characteristic](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_characteristic_msdyn_incidenttypecharacteristic_Characteristic) Many-To-One relationship.
 
 |Property|Value|
@@ -912,6 +926,8 @@ Same as msdyn_incidenttypecharacteristic entity [msdyn_characteristic_msdyn_inci
 
 
 ### <a name="BKMK_msdyn_characteristic_msdyn_workordercharacteristic_Characteristic"></a> msdyn_characteristic_msdyn_workordercharacteristic_Characteristic
+
+**Added by**: Field Service Solution
 
 Same as msdyn_workordercharacteristic entity [msdyn_characteristic_msdyn_workordercharacteristic_Characteristic](msdyn_workordercharacteristic.md#BKMK_msdyn_characteristic_msdyn_workordercharacteristic_Characteristic) Many-To-One relationship.
 
@@ -943,39 +959,55 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_characteristic_createdby"></a> lk_characteristic_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_characteristic_createdby](systemuser.md#BKMK_lk_characteristic_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_characteristic_createdonbehalfby"></a> lk_characteristic_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_characteristic_createdonbehalfby](systemuser.md#BKMK_lk_characteristic_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_characteristic_modifiedby"></a> lk_characteristic_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_characteristic_modifiedby](systemuser.md#BKMK_lk_characteristic_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_characteristic_modifiedonbehalfby"></a> lk_characteristic_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_characteristic_modifiedonbehalfby](systemuser.md#BKMK_lk_characteristic_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_characteristic"></a> user_characteristic
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_characteristic](systemuser.md#BKMK_user_characteristic) One-To-Many relationship.
 
 ### <a name="BKMK_team_characteristic"></a> team_characteristic
+
+**Added by**: System Solution Solution
 
 See team Entity [team_characteristic](team.md#BKMK_team_characteristic) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_characteristic"></a> business_unit_characteristic
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_characteristic](businessunit.md#BKMK_business_unit_characteristic) One-To-Many relationship.
 
 ### <a name="BKMK_TransactionCurrency_characteristic"></a> TransactionCurrency_characteristic
+
+**Added by**: System Solution Solution
 
 See transactioncurrency Entity [TransactionCurrency_characteristic](transactioncurrency.md#BKMK_TransactionCurrency_characteristic) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.characteristic?text=characteristic EntityType" />

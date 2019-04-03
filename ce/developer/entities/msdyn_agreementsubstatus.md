@@ -1,51 +1,53 @@
 ---
-title: "msdyn_agreementsubstatus Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_agreementsubstatus Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_agreementsubstatus entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_agreementsubstatus Entity Reference
 
-Specify custom agreement sub-statuses, which can be used to specify the current agreement status more precisely.
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-**Added by**: Field Service Solution<br />
+Specify custom agreement substatuses, which can be used to specify the current agreement status more precisely.
+
+**Added by**: Field Service Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses(*msdyn_agreementsubstatusid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses(*msdyn_agreementsubstatusid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses(*msdyn_agreementsubstatusid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses(*msdyn_agreementsubstatusid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses(*msdyn_agreementsubstatusid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses(*msdyn_agreementsubstatusid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses(*msdyn_agreementsubstatusid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses(*msdyn_agreementsubstatusid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses(*msdyn_agreementsubstatusid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_agreementsubstatuses(*msdyn_agreementsubstatusid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|msdyn_agreementsubstatuses|
-|DisplayCollectionName|Agreement Sub-Statuses|
-|DisplayName|Agreement Sub-Status|
+|DisplayCollectionName|Agreement Substatuses|
+|DisplayName|Agreement Substatus|
 |EntitySetName|msdyn_agreementsubstatuses|
 |IsBPFEntity|False|
 |LogicalCollectionName|msdyn_agreementsubstatuses|
@@ -97,7 +99,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Shows the entity instances.|
-|DisplayName|Agreement Sub-Status|
+|DisplayName|Agreement Substatus|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
@@ -110,8 +112,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Specify whether this status should be the default Sub-status for this status type|
-|DisplayName|Default Sub-Status|
+|Description|Specify whether this status should be the default substatus for this status type|
+|DisplayName|Default Substatus|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_defaultsubstatus|
@@ -133,7 +135,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the agreement sub-status name.|
+|Description|Shows the agreement substatus name.|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -186,6 +188,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -199,6 +203,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -215,7 +221,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Agreement Sub-Status|
+|Description|Status of the Agreement Substatus|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -237,7 +243,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Agreement Sub-Status|
+|Description|Reason for the status of the Agreement Substatus|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -286,7 +292,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -313,6 +321,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -326,6 +336,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -342,6 +354,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -362,7 +376,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -373,6 +387,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -387,6 +403,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -404,6 +422,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -420,6 +440,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -433,6 +455,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -449,6 +473,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -469,7 +495,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -480,6 +506,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -494,6 +522,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -511,6 +541,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -526,6 +558,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -543,6 +577,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Yomi name of the owner|
@@ -559,6 +595,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -572,6 +610,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -587,6 +627,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -600,6 +642,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -624,7 +668,6 @@ Listed by **SchemaName**.
 - [msdyn_agreementsubstatus_DuplicateBaseRecord](#BKMK_msdyn_agreementsubstatus_DuplicateBaseRecord)
 - [msdyn_agreementsubstatus_AsyncOperations](#BKMK_msdyn_agreementsubstatus_AsyncOperations)
 - [msdyn_agreementsubstatus_MailboxTrackingFolders](#BKMK_msdyn_agreementsubstatus_MailboxTrackingFolders)
-- [msdyn_agreementsubstatus_UserEntityInstanceDatas](#BKMK_msdyn_agreementsubstatus_UserEntityInstanceDatas)
 - [msdyn_agreementsubstatus_ProcessSession](#BKMK_msdyn_agreementsubstatus_ProcessSession)
 - [msdyn_agreementsubstatus_BulkDeleteFailures](#BKMK_msdyn_agreementsubstatus_BulkDeleteFailures)
 - [msdyn_agreementsubstatus_PrincipalObjectAttributeAccesses](#BKMK_msdyn_agreementsubstatus_PrincipalObjectAttributeAccesses)
@@ -633,6 +676,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_agreementsubstatus_SyncErrors"></a> msdyn_agreementsubstatus_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_agreementsubstatus_SyncErrors](syncerror.md#BKMK_msdyn_agreementsubstatus_SyncErrors) Many-To-One relationship.
 
@@ -644,10 +689,12 @@ Same as syncerror entity [msdyn_agreementsubstatus_SyncErrors](syncerror.md#BKMK
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_agreementsubstatus_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_agreementsubstatus_DuplicateMatchingRecord"></a> msdyn_agreementsubstatus_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_agreementsubstatus_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_agreementsubstatus_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -664,6 +711,8 @@ Same as duplicaterecord entity [msdyn_agreementsubstatus_DuplicateMatchingRecord
 
 ### <a name="BKMK_msdyn_agreementsubstatus_DuplicateBaseRecord"></a> msdyn_agreementsubstatus_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_agreementsubstatus_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_agreementsubstatus_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -678,6 +727,8 @@ Same as duplicaterecord entity [msdyn_agreementsubstatus_DuplicateBaseRecord](du
 
 
 ### <a name="BKMK_msdyn_agreementsubstatus_AsyncOperations"></a> msdyn_agreementsubstatus_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_agreementsubstatus_AsyncOperations](asyncoperation.md#BKMK_msdyn_agreementsubstatus_AsyncOperations) Many-To-One relationship.
 
@@ -694,6 +745,8 @@ Same as asyncoperation entity [msdyn_agreementsubstatus_AsyncOperations](asyncop
 
 ### <a name="BKMK_msdyn_agreementsubstatus_MailboxTrackingFolders"></a> msdyn_agreementsubstatus_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_agreementsubstatus_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_agreementsubstatus_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -704,25 +757,12 @@ Same as mailboxtrackingfolder entity [msdyn_agreementsubstatus_MailboxTrackingFo
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_agreementsubstatus_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_agreementsubstatus_UserEntityInstanceDatas"></a> msdyn_agreementsubstatus_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_agreementsubstatus_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_agreementsubstatus_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_agreementsubstatus_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_agreementsubstatus_ProcessSession"></a> msdyn_agreementsubstatus_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_agreementsubstatus_ProcessSession](processsession.md#BKMK_msdyn_agreementsubstatus_ProcessSession) Many-To-One relationship.
 
@@ -739,6 +779,8 @@ Same as processsession entity [msdyn_agreementsubstatus_ProcessSession](processs
 
 ### <a name="BKMK_msdyn_agreementsubstatus_BulkDeleteFailures"></a> msdyn_agreementsubstatus_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_agreementsubstatus_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_agreementsubstatus_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -754,6 +796,8 @@ Same as bulkdeletefailure entity [msdyn_agreementsubstatus_BulkDeleteFailures](b
 
 ### <a name="BKMK_msdyn_agreementsubstatus_PrincipalObjectAttributeAccesses"></a> msdyn_agreementsubstatus_PrincipalObjectAttributeAccesses
 
+**Added by**: System Solution Solution
+
 Same as principalobjectattributeaccess entity [msdyn_agreementsubstatus_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_agreementsubstatus_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
 |Property|Value|
@@ -768,6 +812,8 @@ Same as principalobjectattributeaccess entity [msdyn_agreementsubstatus_Principa
 
 
 ### <a name="BKMK_msdyn_agreementsubstatus_Annotations"></a> msdyn_agreementsubstatus_Annotations
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [msdyn_agreementsubstatus_Annotations](annotation.md#BKMK_msdyn_agreementsubstatus_Annotations) Many-To-One relationship.
 
@@ -813,35 +859,49 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_agreementsubstatus_createdby"></a> lk_msdyn_agreementsubstatus_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_agreementsubstatus_createdby](systemuser.md#BKMK_lk_msdyn_agreementsubstatus_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_agreementsubstatus_createdonbehalfby"></a> lk_msdyn_agreementsubstatus_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_agreementsubstatus_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_agreementsubstatus_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_agreementsubstatus_modifiedby"></a> lk_msdyn_agreementsubstatus_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_agreementsubstatus_modifiedby](systemuser.md#BKMK_lk_msdyn_agreementsubstatus_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_agreementsubstatus_modifiedonbehalfby"></a> lk_msdyn_agreementsubstatus_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_agreementsubstatus_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_agreementsubstatus_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_agreementsubstatus"></a> user_msdyn_agreementsubstatus
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_msdyn_agreementsubstatus](systemuser.md#BKMK_user_msdyn_agreementsubstatus) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_agreementsubstatus"></a> team_msdyn_agreementsubstatus
 
+**Added by**: System Solution Solution
+
 See team Entity [team_msdyn_agreementsubstatus](team.md#BKMK_team_msdyn_agreementsubstatus) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_agreementsubstatus"></a> business_unit_msdyn_agreementsubstatus
+
+**Added by**: System Solution Solution
 
 See businessunit Entity [business_unit_msdyn_agreementsubstatus](businessunit.md#BKMK_business_unit_msdyn_agreementsubstatus) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_agreementsubstatus?text=msdyn_agreementsubstatus EntityType" />

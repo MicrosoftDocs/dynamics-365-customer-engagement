@@ -1,21 +1,22 @@
 ---
-title: "Dependency Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Dependency Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Dependency entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Dependency Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 A component dependency in CRM.
 
@@ -24,12 +25,12 @@ A component dependency in CRM.
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/dependencies(*dependencyid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/dependencies(*dependencyid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveDependenciesForDelete|<xref href="Microsoft.Dynamics.CRM.RetrieveDependenciesForDelete?text=RetrieveDependenciesForDelete Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveDependenciesForDeleteRequest>|
 |RetrieveDependenciesForUninstall|<xref href="Microsoft.Dynamics.CRM.RetrieveDependenciesForUninstall?text=RetrieveDependenciesForUninstall Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveDependenciesForUninstallRequest>|
 |RetrieveDependentComponents|<xref href="Microsoft.Dynamics.CRM.RetrieveDependentComponents?text=RetrieveDependentComponents Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveDependentComponentsRequest>|
 |RetrieveMissingDependencies|<xref href="Microsoft.Dynamics.CRM.RetrieveMissingDependencies?text=RetrieveMissingDependencies Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveMissingDependenciesRequest>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/dependencies<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/dependencies<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrieveRequiredComponents|<xref href="Microsoft.Dynamics.CRM.RetrieveRequiredComponents?text=RetrieveRequiredComponents Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveRequiredComponentsRequest>|
 
 ## Entity Properties
@@ -49,7 +50,9 @@ A component dependency in CRM.
 |SchemaName|Dependency|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [DependencyId](#BKMK_DependencyId)
@@ -252,6 +255,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |207|SdkMessageResponseField|
 |208|Import Map|
 |210|WebWizard|
+|300|Canvas App|
+|371|Connector|
 
 
 
@@ -419,6 +424,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |207|SdkMessageResponseField|
 |208|Import Map|
 |210|WebWizard|
+|300|Canvas App|
+|371|Connector|
 
 
 
@@ -436,31 +443,11 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
-
-## One-To-Many Relationships
-
-Listed by **SchemaName**.
-
-
-### <a name="BKMK_userentityinstancedata_dependency"></a> userentityinstancedata_dependency
-
-Same as userentityinstancedata entity [userentityinstancedata_dependency](userentityinstancedata.md#BKMK_userentityinstancedata_dependency) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_dependency|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.dependency?text=dependency EntityType" />
