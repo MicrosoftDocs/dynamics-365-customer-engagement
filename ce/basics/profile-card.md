@@ -39,6 +39,7 @@ Use the profile card to get quick information about a contact or user. When you 
  > [!div class="mx-imgBorder"]
  > ![Call To field](media/callto.png "Call to field")
 
+
 You can view details of the contact inline which includes the contact picture, name, title and account.
 
 4. To view more details, select **Show more** to expand the contact's profile.
@@ -60,6 +61,9 @@ You can view details of the contact inline which includes the contact picture, n
   > [!div class="mx-imgBorder"]
  > ![Expand profile card detail](media/expandprofilecard.png "Expand profile card details")
  
+![Expand user profile card detail](media/userprofilecard_1.gif "Expand user profile card details")
+
+
  ## FAQs
  
 ### Where can I see profile cards in Dynamics 365?
