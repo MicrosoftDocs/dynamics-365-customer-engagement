@@ -2,7 +2,7 @@
 title: "Social Engagement 2018 Update 1.9 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: readme, known issues, information
-ms.date: 09/26/2018
+ms.date: 04/03/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -98,6 +98,10 @@ look for the Search topic in the [!INCLUDE[pn_netbreeze_short](../includes/pn-so
 URL.
 
 ## Display of content - known issues
+
+### Organization logo from LinkedIn not shown in Social Engagement
+
+Starting April 15 2019, due to a change on the LinkedIn API, the organization logo from LinkedIn pages can't be displayed in Social Engagement.
 
 ### Blog content delivered in some cases in JSON format
 
