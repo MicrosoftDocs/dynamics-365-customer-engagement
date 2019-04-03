@@ -1,21 +1,22 @@
 ---
-title: "Mailbox Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Mailbox Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Mailbox entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Mailbox Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 
 
@@ -24,18 +25,18 @@ search.app:
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/mailboxes(*mailboxid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/mailboxes<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/mailboxes(*mailboxid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/mailboxes(*mailboxid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/mailboxes<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/mailboxes(*mailboxid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/mailboxes(*mailboxid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/mailboxes<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/mailboxes(*mailboxid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/mailboxes<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/mailboxes(*mailboxid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/mailboxes(*mailboxid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/mailboxes(*mailboxid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/mailboxes(*mailboxid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -80,6 +81,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [ItemsFailedForLastSync](#BKMK_ItemsFailedForLastSync)
 - [ItemsProcessedForLastSync](#BKMK_ItemsProcessedForLastSync)
 - [LastAutoDiscoveredOn](#BKMK_LastAutoDiscoveredOn)
+- [LastSuccessfulSyncCompletedOn](#BKMK_LastSuccessfulSyncCompletedOn)
 - [LastSyncError](#BKMK_LastSyncError)
 - [LastSyncErrorCode](#BKMK_LastSyncErrorCode)
 - [LastSyncErrorCount](#BKMK_LastSyncErrorCount)
@@ -529,6 +531,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|lastautodiscoveredon|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
+### <a name="BKMK_LastSuccessfulSyncCompletedOn"></a> LastSuccessfulSyncCompletedOn
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Last Successful Sync Time|
+|DisplayName|Last Successful Sync Time|
+|Format|DateAndTime|
+|IsValidForCreate|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|lastsuccessfulsynccompletedon|
 |RequiredLevel|None|
 |Type|DateTime|
 
@@ -1095,7 +1113,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [AverageTotalDuration](#BKMK_AverageTotalDuration)
@@ -1121,7 +1141,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [LastDuration](#BKMK_LastDuration)
 - [LastMailboxForcedUnlockOccurredOn](#BKMK_LastMailboxForcedUnlockOccurredOn)
 - [LastMessageId](#BKMK_LastMessageId)
-- [LastSuccessfulSyncCompletedOn](#BKMK_LastSuccessfulSyncCompletedOn)
 - [LastSyncStartedOn](#BKMK_LastSyncStartedOn)
 - [MailboxStatus](#BKMK_MailboxStatus)
 - [ModifiedBy](#BKMK_ModifiedBy)
@@ -1222,7 +1241,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1539,21 +1558,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_LastSuccessfulSyncCompletedOn"></a> LastSuccessfulSyncCompletedOn
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Last Successful Sync Time|
-|DisplayName|Last Successful Sync Time|
-|Format|DateAndTime|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|lastsuccessfulsynccompletedon|
-|RequiredLevel|None|
-|Type|DateTime|
-
-
 ### <a name="BKMK_LastSyncStartedOn"></a> LastSyncStartedOn
 
 |Property|Value|
@@ -1642,7 +1646,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -2047,7 +2051,6 @@ Listed by **SchemaName**.
 - [quoteclose_mailbox_sendermailboxid](#BKMK_quoteclose_mailbox_sendermailboxid)
 - [msdyn_bookingalert_mailbox_sendermailboxid](#BKMK_msdyn_bookingalert_mailbox_sendermailboxid)
 - [msdyn_approval_mailbox_sendermailboxid](#BKMK_msdyn_approval_mailbox_sendermailboxid)
-- [mailbox_userentityinstancedatas](#BKMK_mailbox_userentityinstancedatas)
 - [systemuser_defaultmailbox_mailbox](#BKMK_systemuser_defaultmailbox_mailbox)
 - [queue_defaultmailbox_mailbox](#BKMK_queue_defaultmailbox_mailbox)
 - [activitypointer_sendermailboxid_mailbox](#BKMK_activitypointer_sendermailboxid_mailbox)
@@ -2058,10 +2061,11 @@ Listed by **SchemaName**.
 - [mailbox_asyncoperations](#BKMK_mailbox_asyncoperations)
 - [tracelog_Mailbox](#BKMK_tracelog_Mailbox)
 - [email_sendermailboxid_mailbox](#BKMK_email_sendermailboxid_mailbox)
-- [mailbox_mailboxstatistics](#BKMK_mailbox_mailboxstatistics)
 
 
 ### <a name="BKMK_bulkoperation_mailbox_sendermailboxid"></a> bulkoperation_mailbox_sendermailboxid
+
+**Added by**: Marketing Solution
 
 Same as bulkoperation entity [bulkoperation_mailbox_sendermailboxid](bulkoperation.md#BKMK_bulkoperation_mailbox_sendermailboxid) Many-To-One relationship.
 
@@ -2078,6 +2082,8 @@ Same as bulkoperation entity [bulkoperation_mailbox_sendermailboxid](bulkoperati
 
 ### <a name="BKMK_campaignactivity_mailbox_sendermailboxid"></a> campaignactivity_mailbox_sendermailboxid
 
+**Added by**: Marketing Solution
+
 Same as campaignactivity entity [campaignactivity_mailbox_sendermailboxid](campaignactivity.md#BKMK_campaignactivity_mailbox_sendermailboxid) Many-To-One relationship.
 
 |Property|Value|
@@ -2092,6 +2098,8 @@ Same as campaignactivity entity [campaignactivity_mailbox_sendermailboxid](campa
 
 
 ### <a name="BKMK_campaignresponse_mailbox_sendermailboxid"></a> campaignresponse_mailbox_sendermailboxid
+
+**Added by**: Marketing Solution
 
 Same as campaignresponse entity [campaignresponse_mailbox_sendermailboxid](campaignresponse.md#BKMK_campaignresponse_mailbox_sendermailboxid) Many-To-One relationship.
 
@@ -2108,6 +2116,8 @@ Same as campaignresponse entity [campaignresponse_mailbox_sendermailboxid](campa
 
 ### <a name="BKMK_incidentresolution_mailbox_sendermailboxid"></a> incidentresolution_mailbox_sendermailboxid
 
+**Added by**: Service Solution
+
 Same as incidentresolution entity [incidentresolution_mailbox_sendermailboxid](incidentresolution.md#BKMK_incidentresolution_mailbox_sendermailboxid) Many-To-One relationship.
 
 |Property|Value|
@@ -2122,6 +2132,8 @@ Same as incidentresolution entity [incidentresolution_mailbox_sendermailboxid](i
 
 
 ### <a name="BKMK_serviceappointment_mailbox_sendermailboxid"></a> serviceappointment_mailbox_sendermailboxid
+
+**Added by**: Service Solution
 
 Same as serviceappointment entity [serviceappointment_mailbox_sendermailboxid](serviceappointment.md#BKMK_serviceappointment_mailbox_sendermailboxid) Many-To-One relationship.
 
@@ -2138,6 +2150,8 @@ Same as serviceappointment entity [serviceappointment_mailbox_sendermailboxid](s
 
 ### <a name="BKMK_opportunityclose_mailbox_sendermailboxid"></a> opportunityclose_mailbox_sendermailboxid
 
+**Added by**: Sales Solution
+
 Same as opportunityclose entity [opportunityclose_mailbox_sendermailboxid](opportunityclose.md#BKMK_opportunityclose_mailbox_sendermailboxid) Many-To-One relationship.
 
 |Property|Value|
@@ -2152,6 +2166,8 @@ Same as opportunityclose entity [opportunityclose_mailbox_sendermailboxid](oppor
 
 
 ### <a name="BKMK_orderclose_mailbox_sendermailboxid"></a> orderclose_mailbox_sendermailboxid
+
+**Added by**: Sales Solution
 
 Same as orderclose entity [orderclose_mailbox_sendermailboxid](orderclose.md#BKMK_orderclose_mailbox_sendermailboxid) Many-To-One relationship.
 
@@ -2168,6 +2184,8 @@ Same as orderclose entity [orderclose_mailbox_sendermailboxid](orderclose.md#BKM
 
 ### <a name="BKMK_quoteclose_mailbox_sendermailboxid"></a> quoteclose_mailbox_sendermailboxid
 
+**Added by**: Sales Solution
+
 Same as quoteclose entity [quoteclose_mailbox_sendermailboxid](quoteclose.md#BKMK_quoteclose_mailbox_sendermailboxid) Many-To-One relationship.
 
 |Property|Value|
@@ -2182,6 +2200,8 @@ Same as quoteclose entity [quoteclose_mailbox_sendermailboxid](quoteclose.md#BKM
 
 
 ### <a name="BKMK_msdyn_bookingalert_mailbox_sendermailboxid"></a> msdyn_bookingalert_mailbox_sendermailboxid
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bookingalert entity [msdyn_bookingalert_mailbox_sendermailboxid](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_mailbox_sendermailboxid) Many-To-One relationship.
 
@@ -2198,6 +2218,8 @@ Same as msdyn_bookingalert entity [msdyn_bookingalert_mailbox_sendermailboxid](m
 
 ### <a name="BKMK_msdyn_approval_mailbox_sendermailboxid"></a> msdyn_approval_mailbox_sendermailboxid
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_approval entity [msdyn_approval_mailbox_sendermailboxid](msdyn_approval.md#BKMK_msdyn_approval_mailbox_sendermailboxid) Many-To-One relationship.
 
 |Property|Value|
@@ -2209,21 +2231,6 @@ Same as msdyn_approval entity [msdyn_approval_mailbox_sendermailboxid](msdyn_app
 |ReferencedEntityNavigationPropertyName|msdyn_approval_mailbox_sendermailboxid|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_mailbox_userentityinstancedatas"></a> mailbox_userentityinstancedatas
-
-Same as userentityinstancedata entity [mailbox_userentityinstancedatas](userentityinstancedata.md#BKMK_mailbox_userentityinstancedatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|mailbox_userentityinstancedatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_systemuser_defaultmailbox_mailbox"></a> systemuser_defaultmailbox_mailbox
@@ -2375,21 +2382,6 @@ Same as email entity [email_sendermailboxid_mailbox](email.md#BKMK_email_senderm
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-
-### <a name="BKMK_mailbox_mailboxstatistics"></a> mailbox_mailboxstatistics
-
-Same as mailboxstatistics entity [mailbox_mailboxstatistics](mailboxstatistics.md#BKMK_mailbox_mailboxstatistics) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|mailboxstatistics|
-|ReferencingAttribute|mailboxid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|mailbox_mailboxstatistics|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
@@ -2456,6 +2448,6 @@ See queue Entity [mailbox_regarding_queue](queue.md#BKMK_mailbox_regarding_queue
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.mailbox?text=mailbox EntityType" />

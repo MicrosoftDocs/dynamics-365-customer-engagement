@@ -2,8 +2,8 @@
 title: "Build web applications using Server-to-Server (S2S) authentication (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Read how you can use server-to-server (S2S) authentication to securely and seamlessly communicate with Dynamics 365 for Customer Engagement apps through your web applications and services and know about various scenarios where you can use S2S authentication"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 03/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

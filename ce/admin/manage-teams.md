@@ -25,15 +25,15 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Using teams in Dynamics 365 for Customer Engagement apps is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team. 
+Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
   
-You can use three types of teams: 
+ You can use two types of teams:  
   
 - An *owner* team owns records and has security roles assigned to the team. The team’s privileges are defined by these security roles. In addition to privileges provided by the team, team members have the privileges defined by their individual security roles and team member’s privilege inheritance roles (see [Create or edit a security role to manage access](create-edit-security-role.md)), and by the roles from other teams in which they are members. A team has full access rights on the records that the team owns. Team members are added manually to the owner team. 
 
 - An Azure Active Directory (AAD) *group* team. Similar to owner team, an AAD group team can own records and can have security roles assigned to the team. There are two *group* team types and they correspond directly to the AAD group types – Security and Office. Team members are dynamically derived (added and removed) when they access the instance based on their AAD group membership.  
   
-- An *access* team doesn’t own records and doesn’t have security roles assigned to the team. The team members have privileges defined by their individual security roles and by roles from the teams in which they are members. The records are shared with an access team and the team is granted access rights on the records, such as Read, Write, or Append. 
+-   An *access* team doesn’t own records and doesn’t have security roles assigned to the team. The team members have privileges defined by their individual security roles and by roles from the teams in which they are members. The records are shared with an access team and the team is granted access rights on the records, such as Read, Write, or Append.  
   
 ## Owner/Group team or access team? 
 
@@ -186,11 +186,33 @@ A team template is displayed on all record forms for the specified entity as a l
 
 Because of the parental relationship between the team template and system-managed access teams, when you delete a template, all teams associated with the template are deleted according to the cascading rules. If you change access rights for the team template, the changes are applied only to the new auto-created (system-managed) access teams. The existing teams are not affected.
 
+<a name="AboutAccess"></a>   
+## About access teams and team templates  
+ You can create an access team manually by choosing the team type **Access**, or let the system create and manage an access team for you. When you create an access team, you can share multiple records with the team.  
+  
+ A system-managed access team is created for a specific record, other records can’t be shared with this team. You have to provide a team template that the system uses to create a team. In this template, you define the entity type and the access rights on the record that are granted to the team members when the team is created.  
+  
+ A team template is displayed on all record forms for the specified entity as a list. When you add the first user to the list, the actual access team for this record is created. You can add and remove members in the team by using this list. The team template applies to the records of the specified entity type and the related entities, according to the cascading rules. To give team members different access on the record, you can provide several team templates, each template specifying different access rights. For example, you can create a team template for the Account entity with the Read access right, which allows the team members to view the specified account. For another team that requires more access to the same account, you can create a team template with Read, Write, Share and other access rights. To be added to the team, a minimum access level a user must have on the entity specified in the template is Basic (User) Read.  
+  
+ Because of the parental relationship between the team template and system-managed access teams, when you delete a template, all teams associated with the template are deleted according to the cascading rules. If you change access rights for the team template, the changes are applied only to the new auto-created (system-managed) access teams. The existing teams are not affected.  
+  
 > [!NOTE]
-> A user must have sufficient privileges to join an access team. For example, if the access team has the Delete access right on an account, the user must have the Delete privilege on the Account entity to join the team. If you’re trying to add a user with insufficient privileges, you’ll see this error message: “You can’t add the user to the access team because the user doesn’t have sufficient privileges on the entity.”
-
-For the step-by-step instructions on how to create a team template and add it the entity form, see the article in the [Create a team template and add to an entity form](create-team-template-add-entity-form.md).
-
-## Maximum settings for system-managed access teams
-
-The maximum number of team templates that you can create for an entity is specified in the `MaxAutoCreatedAccessTeamsPerEntity` deployment setting. The default value is 2. The maximum number of entities that you can enable for auto-created access teams is specified in the `MaxEntitiesEnabledForAutoCreatedAccessTeams` deployment setting. The default value is 5. You can use the `Set-CrmSetting` Windows PowerShell command to update this value. 
+>  A user must have sufficient privileges to join an access team. For example, if the access team has the Delete access right on an account, the user must have the Delete privilege on the Account entity to join the team. If you’re trying to add a user with insufficient privileges, you’ll see this error message: “You can’t add the user to the access team because the user doesn’t have sufficient privileges on the entity.”  
+  
+ For the step-by-step instructions on how to create a team template and add it the entity form, see the article in the [Create a team template and add to an entity form](create-team-template-add-entity-form.md)  
+  
+<a name="MaxSettings"></a>   
+## Maximum settings for system-managed access teams  
+ The maximum number of team templates that you can create for an entity is specified in the `MaxAutoCreatedAccessTeamsPerEntity` deployment setting. The default value is 2. The maximum number of entities that you can enable for auto-created access teams is specified in the `MaxEntitiesEnabledForAutoCreatedAccessTeams` deployment setting. The default value is 5. You can use the `Set-CrmSetting`[!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command to update this value. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TeamSettings](Update%20deployment%20configuration%20settings.md#team) or -->   
+  
+### See also  
+ [Manage security, users and teams](../admin/manage-security-users-and-teams.md)<br /> 
+ [Create a team template and add to an entity form](create-team-template-add-entity-form.md)   
+ [About team templates](../admin/about-team-templates.md)   
+ [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
+ [Add teams or users to a field security profile](../admin/add-teams-users-field-security-profile.md)   
+ <!-- [Update deployment configuration settings](Update%20deployment%20configuration%20settings.md)   -->
+ [About team templates](about-team-templates.md)   
+ [Download: Access Teams in Microsoft Dynamics CRM](http://download.microsoft.com/download/E/9/0/E9009308-CA01-4B37-B03C-435B8ACB49B4/Access%20Teams%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)   
+ [Download: Scalable security modeling with Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkID=328757)   
+[Entity relationship behavior](../developer/entity-relationship-behavior.md)
