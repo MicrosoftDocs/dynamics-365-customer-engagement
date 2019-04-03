@@ -107,6 +107,8 @@ Notice the following values automatically populated.
 
 **Price List** - populated as the price list specified on the **billing account** record.
 
+**Primary Contact** - the primary contact of the service account shown on the work order.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of new work order with the account just created listed as a service account](./media/work-order-service-account.png)
 
