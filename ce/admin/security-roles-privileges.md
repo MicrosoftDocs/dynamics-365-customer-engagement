@@ -86,8 +86,29 @@ To control data access, you must set up an organizational structure that both pr
 
 A security role can be set to provide team member direct Basic level access user privileges.  Team member can create records with self as owner as well as team as owner when Basic access level for Create is given.  When Basic access level for Read is given, team member can access records that are owned by both self and by the team.  
 
-This member’s privilege inheritance role is applicable to [Owner](admin/manage-teams#about-owner-teams.md) and AAD Group Teams (new section in the team doc)
+This member’s privilege inheritance role is applicable to [Owner](admin/manage-teams#about-owner-teams.md) and [Azure Active Directory (AAD) Group Teams](manage-teams.md#about-group-teams). 
 
+### Create a security role with team member’s privilege inheritance
+
+#### Prerequisites
+Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
+
+Check your security role:
+- Follow the steps in [View your user profile](../basics/view-your-user-profile.md)View your user profile.
+- Don’t have the correct permissions? Contact your system administrator.
+
+1. Go to **Settings** > **Security**.
+2. Select **Security Roles**.
+3. On the Actions toolbar, select **New**.
+4. Enter a **Role Name**.
+5. Select the **Member’s privilege inheritance** drop-down list.
+6. Select **Direct User/Basic access level and Team privileges**.
+7. Navigate to each tab and set the appropriate privileges on each entity.
+
+   To change the access level for a privilege, select the symbol until you see the symbol you want. The possible access levels depend on whether the record type is organization-owned or user-owned.
+
+> [!NOTE]
+> You can also set this privilege inheritance property for out-of-the-box security roles except the System Administrator role.  When a privilege inheritance security role is assigned to a user, the user gets all the privileges directly just like a security role without privilege inheritance.
 
 
 
