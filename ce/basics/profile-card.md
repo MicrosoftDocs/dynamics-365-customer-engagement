@@ -46,6 +46,8 @@ You can view details of the contact inline which includes the contact picture, n
 
  > [!div class="mx-imgBorder"]
  > ![View profile card details](media/Viewprofilecard.png "View profile card details")
+ 
+ ![Expand contact profile card detail](media/userprofilecard_1.gif "Expand contact profile card details")
    
  ## View a user's profile
  
@@ -61,7 +63,7 @@ You can view details of the contact inline which includes the contact picture, n
   > [!div class="mx-imgBorder"]
  > ![Expand profile card detail](media/expandprofilecard.png "Expand profile card details")
  
-![Expand user profile card detail](media/userprofilecard_1.gif "Expand user profile card details")
+![Expand User profile card detail](media/Userprofilecard_2.gif "Expand User profile card details")
 
 
  ## FAQs
