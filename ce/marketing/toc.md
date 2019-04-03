@@ -167,6 +167,7 @@
 #### [Extend Customer journey using code](developer/extend-customer-journey-using-code.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Basic operations on segments using code](developer/extend-segments.md)
+### [Extend marketing forms using Client side scripting](developer/marketing-form-client-side-extensibility.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 for Marketing entity reference](developer/marketing-entity-reference.md)
