@@ -148,7 +148,7 @@ This expression finds the name of the account for the company where a contact wo
 This expression finds the name of the managing partner for the account for the company where a contact works.
 
 > [!IMPORTANT]
-> You can use, at most, two hops (periods) in your field expressions. Some fields (such as email to and from fields), only support one hop (entity and field, no relations).
+> You can use, at most, two hops (periods) in your field expressions.
 
 > [!IMPORTANT]
 > Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
@@ -179,10 +179,10 @@ One typical way to take advantage of this feature is to set the **From name** an
     - Set the bottom drop-down list (field) to **Primary email**.
 1. Select **OK** to place the expression, which should be: `{{contact.contact_systemuser_owninguser.internalemailaddress}}`.
 
-You can use similar techniques to place the owning user's name or email address anywhere in the message content. You could do this using assist-edit, copy/paste of the handlebar expressions, or even type them manually, as shown in the previous procedure.
+You can use similar techniques to place the owning user's name or email address anywhere in the message content. You could do this using assist-edit, or copy/paste the handlebar expressions, or even type the handlebar expressions manually.
 
-> [!TIP]
-> You can include conditional statements in the **Sender and receiver** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty.
+<!-- > [!TIP]
+> You can include conditional statements in the **Sender and receiver** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. -->
 
 ## Use dynamic values to choose an image source or link
 
