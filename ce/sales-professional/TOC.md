@@ -1,8 +1,8 @@
 # [Dynamics 365 for Sales Professional](help-hub.md)
 
 ## Get started
-### [Overview](../sales-professional/sales-professional-overview.md)
-### [Learn the basics](learn-bsaics-sales-professional.md)
+### [Overview](sales-professional-overview.md)
+### [Learn the basics](learn-basics-sales-professional.md)
 ### [Use lookup fields](use-lookup-fields-forms.md)
 ### [Work with views](work-with-views.md)
 ### [Manager your customers](manage-accounts-contacts.md)
@@ -11,9 +11,9 @@
 ## Increase sales
 ### Set up a product catalog
 #### [Create products](create-products.md)
-#### [Create a price list](create-price-lists.md)
+#### [Create a price list](create-price-list.md)
 #### [Create a unit group and add units](create-unit-group-add-units.md)
-### [Develop sales from lead to cash](develop-sales-lead-cash-sales-professional.md)
+### [Develop sales from lead to cash](develop-sales-lead-to-cash-sales-professional.md)
 #### [Manage leads](manage-leads-sales-professional.md)
 #### [Manage opportunities](manage-opportunities-sales-professional.md)
 ### [Understand sales transactions.md](understanding-sales-transactions-sales-professional.md)

@@ -26,10 +26,9 @@ topic-status: Drafting
 
 <h2>Get started</h2>
 
-<li><a href="overview.md" data-raw-source="[Dynamics 365 for Sales Professional Overview](overview.md)">Dynamics 365 for Sales Professional Overview</a></li>
+<li><a href="sales-professional-overview.md" data-raw-source="[Dynamics 365 for Sales Professional Overview](sales-professional-overview.md)">Dynamics 365 for Sales Professional Overview</a></li>
 <li><a href="learn-basics-sales-professional.md" data-raw-source="[Learn the basics](learn-basics-sales-professional.md)">Learn the basics</a></li>
 <li><a href="manage-accounts-contacts.md" data-raw-source="[Manager your customers](manage-accounts-contacts.md)">Manager your customers</a></li>
-
 <li><a href="manage-activities.md" data-raw-source="[Manage tasks, appointments, email, or phone calls](manage-activities.md)">Manage tasks, appointments, email, or phone calls</a></li>
 
 </td><td>
@@ -37,7 +36,7 @@ topic-status: Drafting
 <h2>Increase sales</h2>
 
 <li><a href="create-products.md" data-raw-source="[Create products](create-products.md)">Create products</a></li>
-<li><a href="create-price-lists.md" data-raw-source="[Create a price list](create-price-lists.md)">Create a price list</a></li>
+<li><a href="create-price-list.md" data-raw-source="[Create a price list](create-price-list.md)">Create a price list</a></li>
 <li><a href="create-unit-group-add-units.md" data-raw-source="[Create a unit group and add units](create-unit-group-add-units.md)">Create a unit group and add units</a></li>
 <li><a href="manage-leads-sales-professional.md" data-raw-source="[Manage leads](manage-leads-sales-professional.md)">Manage leads</a></li>
 <li><a href="manage-opportunities-sales-professional.md" data-raw-source="[Manage opportunities](manage-opportunities-sales-professional.md)">Manage opportunities</a></li>
@@ -67,7 +66,7 @@ Microsoft Learn resources</h2>
 <tr><td>
 <h2>Administer the app</h2>
 
-<li><a href="./sales-professional/admin-settings-overview.md" data-raw-source="[Set up the app for use](./sales-professional/admin-settings-overview.md)">Set up the app for use</a></li>
+<li><a href="admin-settings-overview.md" data-raw-source="[Set up the app for use](admin-settings-overview.md)">Set up the app for use</a></li>
 <li><a href="connect-with-sharepoint.md" data-raw-source="[Connect with SharePoint](connect-with-sharepoint.md)">Connect with SharePoint</a></li>
 <li><a href="import-data.md" data-raw-source=" [Import data](import-data.md)">Import data</a></li>
 <li><a href="manage-users.md" data-raw-source=" [Manage users](manage-users.md)">Manage users</a></li>
