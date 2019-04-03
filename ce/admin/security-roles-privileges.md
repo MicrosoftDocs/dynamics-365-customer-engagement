@@ -56,6 +56,7 @@ To control data access, you must set up an organizational structure that both pr
 >  To ensure that users can view and access all areas of the web application, such as entity forms, the nav bar, or the command bar, all security roles in the organization must include the Read privilege on the `Web Resource` entity. For example, without read permissions, a user won’t be able to open a form that contains a web resource and will see an error message similar to this: “Missing `prvReadWebResource` privilege.” [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a security role](../admin/create-edit-security-role.md)  
   
 <a name="BKMK_privileges"></a>   
+
 ### Record-level privileges  
  [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] use eight different record-level privileges that determine the level of access a user has to a specific record or record type.  
   
@@ -77,6 +78,26 @@ To control data access, you must set up an organizational structure that both pr
   
  It’s not possible to remove access for a particular record. Any change to a security role privilege applies to all records of that record type.  
   
+## Team Member’s privilege inheritance
+
+**User and Team privileges**:
+- **User privileges**: User is granted these privileges directly when a security role is assigned to the user.  User can create and has access to records created/owned by the user when Basic access level for Create and Read were given.
+- **Team privileges**: User is granted these privileges as member of the team.  For team members who do not have user privileges of their own, they can only create records with the team as the owner and they have access to records owned by the Team when Basic access level for Create and Read were given.
+
+A security role can be set to provide team member direct Basic level access user privileges.  Team member can create records with self as owner as well as team as owner when Basic access level for Create is given.  When Basic access level for Read is given, team member can access records that are owned by both self and by the team.  
+
+This member’s privilege inheritance role is applicable to [Owner](admin/manage-teams#about-owner-teams.md) and AAD Group Teams (new section in the team doc)
+
+
+
+
+
+
+
+
+
+
+
 ### See also  
  [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
