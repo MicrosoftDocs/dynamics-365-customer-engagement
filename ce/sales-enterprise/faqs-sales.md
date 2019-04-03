@@ -29,6 +29,10 @@ manager: shubhadaj
    > [!div class="mx-imgBorder"]
    > ![Edit estimated revenue](media/faqs-est-revenue.png "Edit estimated revenue")
 
+
+<!--from editor: How do they know if it's in an Open state? I don't see that in the above screenshot.-->
+
+
  
 ## Entities: Opportunity, Quote, Invoice, and Order
 
