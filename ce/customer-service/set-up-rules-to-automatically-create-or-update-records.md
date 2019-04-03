@@ -146,7 +146,7 @@ If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance mee
     > [!NOTE]
     >  When you select a property group for a record creation and update rule, you can use the channel property group’s property items in the rule item conditions or while setting properties for the target record. After you activate a rule, you can’t remove or change the selected property group. You can select another property group only after you remove the referenced property items of the previous property group from the rule items. When you try to select a new property group without removing the property references of the previous property group, you’ll see an error.  
 
-To learn more about creating channel property groups and adding properties to them, see [Set up channel properties](../customer-service/set-up-rules-to-automatically-create-or-update-records.md#bkmk_SetUpChannelProperties) later in this topic.  
+To learn more about creating channel property groups and adding properties to them, see [Set up channel properties](#set-up-channel-properties) later in this topic.  
 
 ## Set Email conditions
 If the source type for the rule is set to **Email**, specify the conditions for converting the email to the target record.  
@@ -236,7 +236,7 @@ In the **Specify Record Creation and Update Details** section, select ![Add a re
     > - The property items for each of the supported data types need to have a default value. This requirement is important in scenarios where the configured property line items have a blank incoming web request. In such cases, the property line item will take the default value when referred to in a workflow.  
 
 ## Turn on the rule
-Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] can start creating or updating records for incoming activities based on the defined conditions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate a record creation and update rule](../customer-service/set-up-rules-to-automatically-create-or-update-records.md#bkmk_ActivateRule).  
+Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] can start creating or updating records for incoming activities based on the defined conditions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate or deactivate a rule](#activate-or-deactivate-a-rule).  
 
 > [!TIP]
 >  Developers can also apply rules retroactively to the incoming [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records that might have been skipped while a rule was edited. 
