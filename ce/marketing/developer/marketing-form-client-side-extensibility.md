@@ -28,7 +28,7 @@ Marketing forms can be extended using JavaScript to perform custom business acti
 
 ## Form load
 
-Triggers once the form placeholder is recognized before the actual form content is fetched.
+Triggers when the form placeholder is recognized before the actual form content are fetched.
 
 ### Syntax
 
@@ -38,11 +38,11 @@ Triggers once the form placeholder is recognized before the actual form content 
 
 |Parameter Name|Type|Description|
 |------|-------|----------|
-|formPageId|`String`| The `msdyncrm_formpageid` value that is associated between particular marketing page and form.|
+|formPageId|`String`| The `msdyncrm_formpageid` value associated between particular marketing page and marketing form.|
 
 ## Form rendering
 
-Triggers after the form content are fetched and before the form content is injected into a page.
+Triggers after the form content is fetched and before the form content is injected to a page.
 
 ### Syntax
 
@@ -52,10 +52,10 @@ Triggers after the form content are fetched and before the form content is injec
 
 |Parameter Name|Type|Description|
 |------|-------|----------|
-|formPageId|`String`| The `msdyncrm_formpageid` value that is associated between particular marketing page and form.|
+|formPageId|`String`| The `msdyncrm_formpageid` value associated between particular marketing page and marketing form.|
 
 ## After form render
-Triggers after the form content are injected into a page before the validation hooks are attached.
+Triggers after the form content is injected to a page before the validation hooks are attached.
 
 ### Syntax
 
@@ -65,10 +65,10 @@ Triggers after the form content are injected into a page before the validation h
 
 |Parameter Name|Type|Description|
 |------|-------|----------|
-|formPageId|`String`| The `msdyncrm_formpageid` value that is associated between particular marketing page and form.|
+|formPageId|`String`| The `msdyncrm_formpageid` value associated between particular marketing page and marketing form.|
 
 ## After form load
-Triggers after the form content are injected into a page and after the validation hooks are attached.
+Triggers after the form content is injected to a page and after the validation hooks are attached.
 
 ### Syntax
 
@@ -78,7 +78,7 @@ Triggers after the form content are injected into a page and after the validatio
 
 |Parameter Name|Type|Description|
 |------|-------|----------|
-|formPageId|`String`| The `msdyncrm_formpageid` value that is associated between particular marketing page and form.|
+|formPageId|`String`| The `msdyncrm_formpageid` value associated between particular marketing page and marketing form.|
 
 ## Form submit
 
@@ -92,12 +92,12 @@ Triggers on form submit before the form submission is sent to the server.
 
 |Parameter Name|Type|Description|
 |------|-------|----------|
-|formPageId|`String`| The `msdyncrm_formpageid` value that is associated between particular marketing page and form.|
+|formPageId|`String`| The `msdyncrm_formpageid` value associated between particular marketing page and marketing form.|
 |formEvent|{preventDefault:() =>void}||
 
 ## After form submit
 
-Triggers on form submit after the form submission is sent to the server. It triggers only when the submission is successfull. It triggers before the redirect or showing the confirmation message.
+Triggers on form submit after the form submission is sent to the server. It triggers only when the submission is successful. It triggers before the redirect or showing the confirmation message.
 
 ## Syntax
 
@@ -107,7 +107,7 @@ Triggers on form submit after the form submission is sent to the server. It trig
 
 |Parameter Name|Type|Description|
 |------|-------|----------|
-|formPageId|`String`| The `msdyncrm_formpageid` value that is associated between particular marketing page and form.|
+|formPageId|`String`| The `msdyncrm_formpageid` value associated between particular marketing page and marketing form.|
 
 ## Add your code snippet to a marketing form
 To add the JavaScript code, you need to follow the steps below:
@@ -115,7 +115,7 @@ To add the JavaScript code, you need to follow the steps below:
 1. Navigate to **Marketing** app and go to **Marketing forms**
 2. Choose **New** to create a new marketing form.
 3. Specify the **Name** and **Form type** for the marketing form and click on **Save**.
-4. Click on the **Form hosting** tab and clik on ... as shown below to add a new form page.
+4. Click on the **Form hosting** tab and click on **...** as shown below to add a new form page.
 
    ![Add new form page](../media/add-existing-marketing-page.png "Add new form page")
    
