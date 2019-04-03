@@ -101,24 +101,21 @@ The user trying to close the opportunity doesn’t have sufficient permissions o
 3.	Assign **Read**, **Create**, **Append**, **Append To** permissions to the user’s Security Role at User level on the Opportunity entity and custom entity.
 
 
-## Error or unexpected behavior while working on entities such as opportunities, quote, and order
+## Error or unexpected behavior while working on entities 
 
-While working on entities, you observe unexpected behavior or an error while working on entities in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The following are some issues that you might encounter:
+While working on entities (such as opportunities, quote, order, and invoice), you observe unexpected behavior or an error in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The following are some of the errors that you might encounter while working on opportunities and this might be same for other entities:
 
-- You observe unexpected behavior or an error while working on entities such as opportunity, quote, order, and invoice.
-- You get an error on an entity (such as order and quote) line item or total tax, or the amount calculation is wrong.
+- "Not able to open opportunity" - this error might have occured due to Custom Plugin.
+- "Error while saving the opportunity" - this error might have occured due to Custom JavaScript.
+- "Error while close opportunity" - this error might have occured due to Custom Workflow.
 
-These issues might occur due to improper customization of the application. You must verify these customization errors and resolve them. Perform the following verification methods to identify the root cause, depending on the error, and then resolve the issue:
+These issues might occur due to improper customization of the application. You must verify these customization and resolve them. Perform the following verification methods to identify which customization is causing the issue and then resolve:
 
 - [Deactivate custom plug-in](#deactivate-custom-plug-in)
 - [Disable custom JavaScript](#disable-custom-javascript)
 - [Deactivate custom workflow process](#deactivate-custom-workflow-process)
 
 ### Deactivate custom plug-in
-
-
-<!--In the following steps, does "Sdk" mean software development kit? If so, it should be in caps, such as SDK or SDKs, except to match the UI.-->
-
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
 2. Select **Sdk Message Processing Steps**. 
@@ -169,19 +166,19 @@ If the issue persists, try to [Disable custom JavaScript](#disable-custom-javasc
  
 6. Publish the customizations.
 
-If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Deactivate custom workflow process](#deactivate-custom-workflow-process).
+If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Deactivate custom workflow process](#deactivate-custom-process).
 
-### Deactivate custom workflow process
+### Deactivate custom process
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
-1. Select **Processes**. 
+1. Select **Processes**. These process include Workflow, Business Process Flow, and Business Rule.
    A list of available processes is displayed.
 3. Select the **Filter** icon, select the column **Primary Entity**, and then select the entity for which the error is occurring.
     
     > [!div class="mx-imgBorder"]
     > ![Go to custom process workflow list](media/troubleshooting-goto-custom-process-workflow-list.png "Go to custom process workflow list")
 
-4. Choose all process workflows that are in the **Unmanaged** state. In this example, we have to select all the unmanaged process workflows.
+4. Choose all process that are in the **Unmanaged** state. In this example, we have to select all the unmanaged process.
 5. Select **Deactivate**.
 6. Publish the customizations.
  
@@ -221,11 +218,7 @@ To resolve this issue, you must remove and add back the column that is causing t
 
     The column is removed from the view.
 
-
-<!--Should "that column" be deleted below? It's a repeat. Actually, that whole first sentence seems unneeded.-->
-
-
-5. Add back the column that column that you have deleted. Select **Add Columns** and re-add the column that you removed. In this example, we are adding  the column **Email (Primary Contact)** that was removed.
+5. Add back the column that you have deleted. Select **Add Columns** and re-add the column that you removed. In this example, we are adding  the column **Email (Primary Contact)** that was removed.
 
     > [!div class="mx-imgBorder"]
     > ![Adding back the removed column](media/troubleshooting-column-add-back-column-view.png "Adding back the removed column")
