@@ -69,7 +69,7 @@ Verify the following prerequisites before you start working on insight card crea
 
 After enabling Embedded intelligence, select **Configuration** on the **Assistant** section to go to the **Assistant** tab (configuration page). The assistant displays two tabs:
 
-– **Manage insight cards**
+- **Manage insight cards**
 - **Optimize ranking**
 
 ### Manage insight cards 
