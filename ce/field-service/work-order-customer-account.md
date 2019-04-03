@@ -50,10 +50,6 @@ Locations are very important in field service scenarios where field technicians 
 2. [enable and test geo coding](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
  
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of new service account](./media/.png)
-
-
 ## Create a service account
 
 First lets create a service account that represents a specific customer location where work orders will be performed. Whether it is a service account or a billing account, they are both simply account records. The main difference is service accounts have addresses and are geo coded (recommended).
