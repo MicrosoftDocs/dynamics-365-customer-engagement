@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 for Customer Engagement apps teams | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/15/2019
+ms.date: 04/02/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -174,7 +174,7 @@ When group team members log into the instance, they are dynamically added/remove
 6. On the Actions toolbar, select **Edit**, change the desired fields, and then select **Save**.
 
 > [!NOTE]
-> The list of Team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the AAD group.
+> The list of Team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the AAD group. The team member’s privileges are derived dynamically at run-time when the team member accesses the application. The security role of the team is not assigned directly to the team member.
 
 ## About access teams and team templates
 
