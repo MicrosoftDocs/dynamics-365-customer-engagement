@@ -49,7 +49,7 @@ If the email to case conversion is not working, follow the below troubleshooting
 
 - **Action**: Go to system jobs and check for any failure message. 
  
-For more information about configuration failure scenarios and resolution for sample configuration failure, see [Configuration failure scenarios and resolutions](#configuration-failure-scenarios-and-resolution).
+For more information about configuration failure scenarios and resolution for sample configuration failure, see [Configuration failure scenarios and resolutions](#configuration-failure-scenarios-and-resolutions).
 
 
 > [!NOTE]
@@ -57,6 +57,8 @@ For more information about configuration failure scenarios and resolution for sa
 
 **Step 5**: Check if the contact and account exist with the same incoming email address. 
 - **Comment**: Case created from incoming email will resolve customer field on case as Account.
+
+**Step 6**: Ensure that the queue email address is in the **To** or **Cc** fields of incoming mails. Emails sent with the queue address in the **Bcc** field will not be processed.
 
 ## Configuration failure scenarios and resolutions
 

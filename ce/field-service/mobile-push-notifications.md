@@ -48,7 +48,7 @@ To use Field Service Mobile push notifications, you'll need:
 
 ## Notify a user about a booking
 
-In our first example, Let's say a field service organization wants to notify field technicians on their mobile devices when they have been booked for a work order.
+In our first example, let's say a field service organization wants to notify field technicians on their mobile devices when they have been booked for a work order.
 
 
 ### Verify push notifications are activated

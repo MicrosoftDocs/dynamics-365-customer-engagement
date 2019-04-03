@@ -1,21 +1,22 @@
 ---
-title: "ImportLog Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "ImportLog Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ImportLog entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # ImportLog Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Failure reason and other detailed information for a record that failed to import.
 
@@ -24,8 +25,8 @@ Failure reason and other detailed information for a record that failed to import
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/importlogs(*importlogid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/importlogs<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/importlogs(*importlogid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/importlogs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
 ## Entity Properties
 
@@ -57,7 +58,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [ImportDataId](#BKMK_ImportDataId)
 - [ImportFileId](#BKMK_ImportFileId)
 - [ImportLogId](#BKMK_ImportLogId)
-- [IntroducedVersion](#BKMK_IntroducedVersion)
 - [LineNumber](#BKMK_LineNumber)
 - [LogPhaseCode](#BKMK_LogPhaseCode)
 - [OwnerId](#BKMK_OwnerId)
@@ -187,23 +187,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_IntroducedVersion"></a> IntroducedVersion
-
-|Property|Value|
-|--------|-----|
-|Description|Version in which the component is introduced.|
-|DisplayName|Introduced Version|
-|FormatName|VersionNumber|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|introducedversion|
-|MaxLength|48|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_LineNumber"></a> LineNumber
 
 |Property|Value|
@@ -292,10 +275,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
-- [ComponentState](#BKMK_ComponentState)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
 - [CreatedByYomiName](#BKMK_CreatedByYomiName)
@@ -305,8 +289,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
 - [ImportDataIdName](#BKMK_ImportDataIdName)
 - [ImportFileIdName](#BKMK_ImportFileIdName)
-- [ImportLogIdUnique](#BKMK_ImportLogIdUnique)
-- [IsManaged](#BKMK_IsManaged)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedByName](#BKMK_ModifiedByName)
 - [ModifiedByYomiName](#BKMK_ModifiedByYomiName)
@@ -314,39 +296,13 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [OverwriteTime](#BKMK_OverwriteTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
 - [SequenceNumber](#BKMK_SequenceNumber)
-- [SolutionId](#BKMK_SolutionId)
 - [StateCode](#BKMK_StateCode)
-- [SupportingSolutionId](#BKMK_SupportingSolutionId)
-
-
-### <a name="BKMK_ComponentState"></a> ComponentState
-
-|Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Component State|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|componentstate|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
-
-#### ComponentState Options
-
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
-
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
@@ -488,42 +444,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_ImportLogIdUnique"></a> ImportLogIdUnique
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the Impport Log.|
-|DisplayName||
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|importlogidunique|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_IsManaged"></a> IsManaged
-
-|Property|Value|
-|--------|-----|
-|Description|Information that specifies whether this component is managed.|
-|DisplayName|State|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|ismanaged|
-|RequiredLevel|SystemRequired|
-|Type|Boolean|
-
-#### IsManaged Options
-
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
-
-**DefaultValue**: False
-
-
-
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
 |Property|Value|
@@ -631,21 +551,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_OverwriteTime"></a> OverwriteTime
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|For internal use only.|
-|DisplayName|Record Overwrite Time|
-|Format|DateOnly|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|overwritetime|
-|RequiredLevel|SystemRequired|
-|Type|DateTime|
-
-
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 |Property|Value|
@@ -736,19 +641,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|Integer|
 
 
-### <a name="BKMK_SolutionId"></a> SolutionId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the associated solution.|
-|DisplayName|Solution|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|solutionid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
 ### <a name="BKMK_StateCode"></a> StateCode
 
 |Property|Value|
@@ -768,43 +660,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |0|Active|0|Active|
 
 
-
-### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
-
-|Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Solution|
-|IsValidForForm|False|
-|IsValidForRead|False|
-|LogicalName|supportingsolutionid|
-|RequiredLevel|None|
-|Type|Uniqueidentifier|
-
 <a name="onetomany"></a>
 
 ## One-To-Many Relationships
 
 Listed by **SchemaName**.
 
-- [userentityinstancedata_importlog](#BKMK_userentityinstancedata_importlog)
 - [ImportLog_BulkDeleteFailures](#BKMK_ImportLog_BulkDeleteFailures)
 - [ImportLog_AsyncOperations](#BKMK_ImportLog_AsyncOperations)
-
-
-### <a name="BKMK_userentityinstancedata_importlog"></a> userentityinstancedata_importlog
-
-Same as userentityinstancedata entity [userentityinstancedata_importlog](userentityinstancedata.md#BKMK_userentityinstancedata_importlog) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_importlog|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_ImportLog_BulkDeleteFailures"></a> ImportLog_BulkDeleteFailures
@@ -887,6 +750,6 @@ See systemuser Entity [lk_importlog_modifiedonbehalfby](systemuser.md#BKMK_lk_im
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.importlog?text=importlog EntityType" />

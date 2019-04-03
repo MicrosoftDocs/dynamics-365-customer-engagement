@@ -1,42 +1,43 @@
 ---
-title: "SharePointDocumentLocation Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "SharePointDocumentLocation Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SharePointDocumentLocation entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # SharePointDocumentLocation Entity Reference
 
-Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365 for Customer Engagement apps.
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365.
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/sharepointdocumentlocations(*sharepointdocumentlocationid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/sharepointdocumentlocations<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/sharepointdocumentlocations(*sharepointdocumentlocationid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/sharepointdocumentlocations(*sharepointdocumentlocationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/sharepointdocumentlocations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/sharepointdocumentlocations(*sharepointdocumentlocationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/sharepointdocumentlocations(*sharepointdocumentlocationid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/sharepointdocumentlocations(*sharepointdocumentlocationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveAbsoluteAndSiteCollectionUrl|<xref href="Microsoft.Dynamics.CRM.RetrieveAbsoluteAndSiteCollectionUrl?text=RetrieveAbsoluteAndSiteCollectionUrl Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlRequest>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/sharepointdocumentlocations<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/sharepointdocumentlocations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/sharepointdocumentlocations(*sharepointdocumentlocationid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/sharepointdocumentlocations(*sharepointdocumentlocationid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/sharepointdocumentlocations(*sharepointdocumentlocationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/sharepointdocumentlocations(*sharepointdocumentlocationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -250,7 +251,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,kbarticle,knowledgearticle,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoicesetup,msdyn_bookingtimestamp,msdyn_expense,msdyn_incidenttypeproduct,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventorytransfer,msdyn_project,msdyn_purchaseorder,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_resourceterritory,msdyn_rma,msdyn_rmareceipt,msdyn_rtv,msdyn_timegroup,msdyn_timegroupdetail,msdyn_warehouse,msdyn_workorder,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,product,quote,salesliterature|
+|Targets|account,kbarticle,knowledgearticle,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoicesetup,msdyn_bookingtimestamp,msdyn_expense,msdyn_incidenttypeproduct,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventorytransfer,msdyn_playbookactivity,msdyn_project,msdyn_purchaseorder,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_resourceterritory,msdyn_rma,msdyn_rmareceipt,msdyn_rtv,msdyn_timegroup,msdyn_timegroupdetail,msdyn_warehouse,msdyn_workorder,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,product,quote,salesliterature|
 |Type|Lookup|
 
 
@@ -334,6 +335,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |0|SharePoint|
 |1|OneDrive|
 |2|Shared with me|
+|3|MS Teams|
 
 
 
@@ -439,7 +441,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -854,10 +858,8 @@ Listed by **SchemaName**.
 
 - [sharepointdocumentlocation_parent_sharepointdocumentlocation](#BKMK_sharepointdocumentlocation_parent_sharepointdocumentlocation)
 - [SharePointDocumentLocation_AsyncOperations](#BKMK_SharePointDocumentLocation_AsyncOperations)
-- [userentityinstancedata_sharepointdocumentlocation](#BKMK_userentityinstancedata_sharepointdocumentlocation)
 - [sharepointdocumentlocation_principalobjectattributeaccess](#BKMK_sharepointdocumentlocation_principalobjectattributeaccess)
 - [SharePointDocumentLocation_DuplicateBaseRecord](#BKMK_SharePointDocumentLocation_DuplicateBaseRecord)
-- [sharepointdata_sharepointdocumentlocation](#BKMK_sharepointdata_sharepointdocumentlocation)
 - [SharePointDocumentLocation_ProcessSessions](#BKMK_SharePointDocumentLocation_ProcessSessions)
 - [SharePointDocumentLocation_SyncErrors](#BKMK_SharePointDocumentLocation_SyncErrors)
 - [SharePointDocumentLocation_DuplicateMatchingRecord](#BKMK_SharePointDocumentLocation_DuplicateMatchingRecord)
@@ -893,21 +895,6 @@ Same as asyncoperation entity [SharePointDocumentLocation_AsyncOperations](async
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_userentityinstancedata_sharepointdocumentlocation"></a> userentityinstancedata_sharepointdocumentlocation
-
-Same as userentityinstancedata entity [userentityinstancedata_sharepointdocumentlocation](userentityinstancedata.md#BKMK_userentityinstancedata_sharepointdocumentlocation) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_sharepointdocumentlocation|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_sharepointdocumentlocation_principalobjectattributeaccess"></a> sharepointdocumentlocation_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [sharepointdocumentlocation_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_sharepointdocumentlocation_principalobjectattributeaccess) Many-To-One relationship.
@@ -936,21 +923,6 @@ Same as duplicaterecord entity [SharePointDocumentLocation_DuplicateBaseRecord](
 |ReferencedEntityNavigationPropertyName|SharePointDocumentLocation_DuplicateBaseRecord|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_sharepointdata_sharepointdocumentlocation"></a> sharepointdata_sharepointdocumentlocation
-
-Same as sharepointdata entity [sharepointdata_sharepointdocumentlocation](sharepointdata.md#BKMK_sharepointdata_sharepointdocumentlocation) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|sharepointdata|
-|ReferencingAttribute|location|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|sharepointdata_sharepointdocumentlocation|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_SharePointDocumentLocation_ProcessSessions"></a> SharePointDocumentLocation_ProcessSessions
@@ -1005,6 +977,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 - [Lead_SharepointDocumentLocation](#BKMK_Lead_SharepointDocumentLocation)
 - [Product_SharepointDocumentLocation](#BKMK_Product_SharepointDocumentLocation)
+- [msdyn_playbookactivity_SharePointDocumentLocations](#BKMK_msdyn_playbookactivity_SharePointDocumentLocations)
 - [Opportunity_SharepointDocumentLocation](#BKMK_Opportunity_SharepointDocumentLocation)
 - [Quote_SharepointDocumentLocation](#BKMK_Quote_SharepointDocumentLocation)
 - [SalesLiterature_SharepointDocumentLocation](#BKMK_SalesLiterature_SharepointDocumentLocation)
@@ -1052,129 +1025,199 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_Lead_SharepointDocumentLocation"></a> Lead_SharepointDocumentLocation
 
+**Added by**: Lead Management Solution
+
 See lead Entity [Lead_SharepointDocumentLocation](lead.md#BKMK_Lead_SharepointDocumentLocation) One-To-Many relationship.
 
 ### <a name="BKMK_Product_SharepointDocumentLocation"></a> Product_SharepointDocumentLocation
 
+**Added by**: Product Management Solution
+
 See product Entity [Product_SharepointDocumentLocation](product.md#BKMK_Product_SharepointDocumentLocation) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_playbookactivity_SharePointDocumentLocations"></a> msdyn_playbookactivity_SharePointDocumentLocations
+
+**Added by**: Playbook Solution
+
+See msdyn_playbookactivity Entity [msdyn_playbookactivity_SharePointDocumentLocations](msdyn_playbookactivity.md#BKMK_msdyn_playbookactivity_SharePointDocumentLocations) One-To-Many relationship.
+
 ### <a name="BKMK_Opportunity_SharepointDocumentLocation"></a> Opportunity_SharepointDocumentLocation
+
+**Added by**: Sales Solution
 
 See opportunity Entity [Opportunity_SharepointDocumentLocation](opportunity.md#BKMK_Opportunity_SharepointDocumentLocation) One-To-Many relationship.
 
 ### <a name="BKMK_Quote_SharepointDocumentLocation"></a> Quote_SharepointDocumentLocation
 
+**Added by**: Sales Solution
+
 See quote Entity [Quote_SharepointDocumentLocation](quote.md#BKMK_Quote_SharepointDocumentLocation) One-To-Many relationship.
 
 ### <a name="BKMK_SalesLiterature_SharepointDocumentLocation"></a> SalesLiterature_SharepointDocumentLocation
+
+**Added by**: Sales Solution
 
 See salesliterature Entity [SalesLiterature_SharepointDocumentLocation](salesliterature.md#BKMK_SalesLiterature_SharepointDocumentLocation) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_resourceterritory_SharePointDocumentLocations"></a> msdyn_resourceterritory_SharePointDocumentLocations
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_resourceterritory Entity [msdyn_resourceterritory_SharePointDocumentLocations](msdyn_resourceterritory.md#BKMK_msdyn_resourceterritory_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timegroup_SharePointDocumentLocations"></a> msdyn_timegroup_SharePointDocumentLocations
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_timegroup Entity [msdyn_timegroup_SharePointDocumentLocations](msdyn_timegroup.md#BKMK_msdyn_timegroup_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timegroupdetail_SharePointDocumentLocations"></a> msdyn_timegroupdetail_SharePointDocumentLocations
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_SharePointDocumentLocations](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_expense_SharePointDocumentLocations"></a> msdyn_expense_SharePointDocumentLocations
+
+**Added by**: Project Service Automation Solution
 
 See msdyn_expense Entity [msdyn_expense_SharePointDocumentLocations](msdyn_expense.md#BKMK_msdyn_expense_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_project_SharePointDocumentLocations"></a> msdyn_project_SharePointDocumentLocations
 
+**Added by**: Project Service Automation Solution
+
 See msdyn_project Entity [msdyn_project_SharePointDocumentLocations](msdyn_project.md#BKMK_msdyn_project_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreement_SharePointDocumentLocations"></a> msdyn_agreement_SharePointDocumentLocations
+
+**Added by**: Field Service Solution
 
 See msdyn_agreement Entity [msdyn_agreement_SharePointDocumentLocations](msdyn_agreement.md#BKMK_msdyn_agreement_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingdate_SharePointDocumentLocations"></a> msdyn_agreementbookingdate_SharePointDocumentLocations
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_SharePointDocumentLocations](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingsetup_SharePointDocumentLocations"></a> msdyn_agreementbookingsetup_SharePointDocumentLocations
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_SharePointDocumentLocations](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoicedate_SharePointDocumentLocations"></a> msdyn_agreementinvoicedate_SharePointDocumentLocations
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_SharePointDocumentLocations](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoicesetup_SharePointDocumentLocations"></a> msdyn_agreementinvoicesetup_SharePointDocumentLocations
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_SharePointDocumentLocations](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingtimestamp_SharePointDocumentLocations"></a> msdyn_bookingtimestamp_SharePointDocumentLocations
 
+**Added by**: Field Service Solution
+
 See msdyn_bookingtimestamp Entity [msdyn_bookingtimestamp_SharePointDocumentLocations](msdyn_bookingtimestamp.md#BKMK_msdyn_bookingtimestamp_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypeproduct_SharePointDocumentLocations"></a> msdyn_incidenttypeproduct_SharePointDocumentLocations
+
+**Added by**: Field Service Solution
 
 See msdyn_incidenttypeproduct Entity [msdyn_incidenttypeproduct_SharePointDocumentLocations](msdyn_incidenttypeproduct.md#BKMK_msdyn_incidenttypeproduct_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryadjustment_SharePointDocumentLocations"></a> msdyn_inventoryadjustment_SharePointDocumentLocations
 
+**Added by**: Field Service Solution
+
 See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_SharePointDocumentLocations](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryadjustmentproduct_SharePointDocumentLocations"></a> msdyn_inventoryadjustmentproduct_SharePointDocumentLocations
+
+**Added by**: Field Service Solution
 
 See msdyn_inventoryadjustmentproduct Entity [msdyn_inventoryadjustmentproduct_SharePointDocumentLocations](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_inventoryadjustmentproduct_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventorytransfer_SharePointDocumentLocations"></a> msdyn_inventorytransfer_SharePointDocumentLocations
 
+**Added by**: Field Service Solution
+
 See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_SharePointDocumentLocations](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorder_SharePointDocumentLocations"></a> msdyn_purchaseorder_SharePointDocumentLocations
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorder Entity [msdyn_purchaseorder_SharePointDocumentLocations](msdyn_purchaseorder.md#BKMK_msdyn_purchaseorder_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderproduct_SharePointDocumentLocations"></a> msdyn_purchaseorderproduct_SharePointDocumentLocations
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorderproduct Entity [msdyn_purchaseorderproduct_SharePointDocumentLocations](msdyn_purchaseorderproduct.md#BKMK_msdyn_purchaseorderproduct_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderreceipt_SharePointDocumentLocations"></a> msdyn_purchaseorderreceipt_SharePointDocumentLocations
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorderreceipt Entity [msdyn_purchaseorderreceipt_SharePointDocumentLocations](msdyn_purchaseorderreceipt.md#BKMK_msdyn_purchaseorderreceipt_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rma_SharePointDocumentLocations"></a> msdyn_rma_SharePointDocumentLocations
 
+**Added by**: Field Service Solution
+
 See msdyn_rma Entity [msdyn_rma_SharePointDocumentLocations](msdyn_rma.md#BKMK_msdyn_rma_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmareceipt_SharePointDocumentLocations"></a> msdyn_rmareceipt_SharePointDocumentLocations
+
+**Added by**: Field Service Solution
 
 See msdyn_rmareceipt Entity [msdyn_rmareceipt_SharePointDocumentLocations](msdyn_rmareceipt.md#BKMK_msdyn_rmareceipt_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtv_SharePointDocumentLocations"></a> msdyn_rtv_SharePointDocumentLocations
 
+**Added by**: Field Service Solution
+
 See msdyn_rtv Entity [msdyn_rtv_SharePointDocumentLocations](msdyn_rtv.md#BKMK_msdyn_rtv_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_warehouse_SharePointDocumentLocations"></a> msdyn_warehouse_SharePointDocumentLocations
+
+**Added by**: Field Service Solution
 
 See msdyn_warehouse Entity [msdyn_warehouse_SharePointDocumentLocations](msdyn_warehouse.md#BKMK_msdyn_warehouse_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorder_SharePointDocumentLocations"></a> msdyn_workorder_SharePointDocumentLocations
 
+**Added by**: Field Service Solution
+
 See msdyn_workorder Entity [msdyn_workorder_SharePointDocumentLocations](msdyn_workorder.md#BKMK_msdyn_workorder_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderincident_SharePointDocumentLocations"></a> msdyn_workorderincident_SharePointDocumentLocations
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderincident Entity [msdyn_workorderincident_SharePointDocumentLocations](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderproduct_SharePointDocumentLocations"></a> msdyn_workorderproduct_SharePointDocumentLocations
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderproduct Entity [msdyn_workorderproduct_SharePointDocumentLocations](msdyn_workorderproduct.md#BKMK_msdyn_workorderproduct_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderservice_SharePointDocumentLocations"></a> msdyn_workorderservice_SharePointDocumentLocations
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderservice Entity [msdyn_workorderservice_SharePointDocumentLocations](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_SharePointDocumentLocations) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderservicetask_SharePointDocumentLocations"></a> msdyn_workorderservicetask_SharePointDocumentLocations
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_SharePointDocumentLocations](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_SharePointDocumentLocations) One-To-Many relationship.
 
@@ -1233,6 +1276,6 @@ See sharepointsite Entity [sharepointdocumentlocation_parent_sharepointsite](sha
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.sharepointdocumentlocation?text=sharepointdocumentlocation EntityType" />

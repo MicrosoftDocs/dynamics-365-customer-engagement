@@ -99,7 +99,7 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
 1. After a few minutes, your new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization will be ready and will open in your browser. Be sure to make a note of your org's URL and your other account details, such as the user name, password, and email address you chose while setting it up.
 
 1. This step is optional, but it can be useful to set up an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] trial so you can set up email accounts to use with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial. 
-   1. Open a new browser tab and go to [portal.office.com/adminportal/home?rc=1#/catalog](https://portal.office.com/adminportal/home?rc=1#/catalog). This is where you can add new apps to your new org.
+   1. Open a new browser tab and go to [admin.microsoft.com/adminportal/home?rc=1#/catalog](https://admin.microsoft.com/adminportal/home?rc=1#/catalog). This is where you can add new apps to your new org.
    2. Scroll down to the **[!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3** box. Hover your mouse over this box to open a flyout message and then select **Start free trial** on the message.
    3. Follow the instructions on your screen to add the trial to your account.
    4. You can now go to the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] to assign an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] license to your user account and then set up an [!INCLUDE[pn-exchange](../includes/pn-exchange.md)] mailbox for yourself. It may take several minutes for your mailbox to come online, but when it's ready you should consider setting [!INCLUDE[pn-exchange](../includes/pn-exchange.md)] to forward all messages to your usual work address.  To set up forwarding:
@@ -129,8 +129,8 @@ The user account that you used to set it up is now:
 
 If you set up a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a production tenant, then new users can add themselves by going to trial.dynamics.com and then signing up using their existing [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] email address. However, if you installed the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, as described in the previous section, then you must add each new user as follows:
 
-1. Open a web browser and go to [portal.office.com](https://portal.office.com). Sign in to your trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as the global administrator that you set up while signing up for the trial.
-2. Once you are signed in, go to [portal.office.com/adminportal/home#/users](https://portal.office.com/adminportal/home#/users) to open the **Active users** page, where you can manage users for the tenant.
+1. Open a web browser and go to [admin.microsoft.com](https://admin.microsoft.com). Sign in to your trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as the global administrator that you set up while signing up for the trial.
+2. Once you are signed in, go to [admin.microsoft.com/adminportal/home#/users](https://admin.microsoft.com/adminportal/home#/users) to open the **Active users** page, where you can manage users for the tenant.
 3. Select **Add a user** to open the **New user** flyout panel.
 4. Enter the new user's name and other details in the flyout panel. 
    - Make sure the **Domain** is the same as the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.   

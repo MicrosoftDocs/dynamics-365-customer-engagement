@@ -1,32 +1,33 @@
 ---
-title: "Organization Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Organization Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Organization entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Organization Entity Reference
 
-Top level of the Microsoft Dynamics 365 for Customer Engagement apps business hierarchy. The organization can be a specific business, holding company, or corporation.
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/organizations(*organizationid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/organizations<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/organizations(*organizationid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/organizations(*organizationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/organizations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/organizations(*organizationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -58,6 +59,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [AllowAutoUnsubscribeAcknowledgement](#BKMK_AllowAutoUnsubscribeAcknowledgement)
 - [AllowClientMessageBarAd](#BKMK_AllowClientMessageBarAd)
 - [AllowEntityOnlyAudit](#BKMK_AllowEntityOnlyAudit)
+- [AllowLegacyClientExperience](#BKMK_AllowLegacyClientExperience)
+- [AllowLegacyDialogsEmbedding](#BKMK_AllowLegacyDialogsEmbedding)
 - [AllowMarketingEmailExecution](#BKMK_AllowMarketingEmailExecution)
 - [AllowOfflineScheduledSyncs](#BKMK_AllowOfflineScheduledSyncs)
 - [AllowOutlookScheduledSyncs](#BKMK_AllowOutlookScheduledSyncs)
@@ -67,6 +70,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [AllowWebExcelExport](#BKMK_AllowWebExcelExport)
 - [AMDesignator](#BKMK_AMDesignator)
 - [AppDesignerExperienceEnabled](#BKMK_AppDesignerExperienceEnabled)
+- [AppointmentRichEditorExperience](#BKMK_AppointmentRichEditorExperience)
 - [AutoApplyDefaultonCaseCreate](#BKMK_AutoApplyDefaultonCaseCreate)
 - [AutoApplyDefaultonCaseUpdate](#BKMK_AutoApplyDefaultonCaseUpdate)
 - [AutoApplySLA](#BKMK_AutoApplySLA)
@@ -82,6 +86,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [CascadeStatusUpdate](#BKMK_CascadeStatusUpdate)
 - [CasePrefix](#BKMK_CasePrefix)
 - [CategoryPrefix](#BKMK_CategoryPrefix)
+- [ClientFeatureSet](#BKMK_ClientFeatureSet)
 - [ContractPrefix](#BKMK_ContractPrefix)
 - [CortanaProactiveExperienceEnabled](#BKMK_CortanaProactiveExperienceEnabled)
 - [CreateProductsWithoutParentInActiveState](#BKMK_CreateProductsWithoutParentInActiveState)
@@ -119,10 +124,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [EmailSendPollingPeriod](#BKMK_EmailSendPollingPeriod)
 - [EnableBingMapsIntegration](#BKMK_EnableBingMapsIntegration)
 - [EnableImmersiveSkypeIntegration](#BKMK_EnableImmersiveSkypeIntegration)
+- [EnableLivePersonaCardUCI](#BKMK_EnableLivePersonaCardUCI)
 - [EnableLPAuthoring](#BKMK_EnableLPAuthoring)
 - [EnableMicrosoftFlowIntegration](#BKMK_EnableMicrosoftFlowIntegration)
 - [EnablePricingOnCreate](#BKMK_EnablePricingOnCreate)
 - [EnableSmartMatching](#BKMK_EnableSmartMatching)
+- [EnableUnifiedInterfaceShellRefresh](#BKMK_EnableUnifiedInterfaceShellRefresh)
 - [EnforceReadOnlyPlugins](#BKMK_EnforceReadOnlyPlugins)
 - [EntityImage](#BKMK_EntityImage)
 - [ExpireChangeTrackingInDays](#BKMK_ExpireChangeTrackingInDays)
@@ -188,22 +195,31 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [IsEmailMonitoringAllowed](#BKMK_IsEmailMonitoringAllowed)
 - [IsEmailServerProfileContentFilteringEnabled](#BKMK_IsEmailServerProfileContentFilteringEnabled)
 - [IsEnabledForAllRoles](#BKMK_IsEnabledForAllRoles)
+- [IsExternalFileStorageEnabled](#BKMK_IsExternalFileStorageEnabled)
 - [IsExternalSearchIndexEnabled](#BKMK_IsExternalSearchIndexEnabled)
 - [IsFiscalPeriodMonthBased](#BKMK_IsFiscalPeriodMonthBased)
 - [IsFolderAutoCreatedonSP](#BKMK_IsFolderAutoCreatedonSP)
 - [IsFolderBasedTrackingEnabled](#BKMK_IsFolderBasedTrackingEnabled)
 - [IsFullTextSearchEnabled](#BKMK_IsFullTextSearchEnabled)
 - [IsHierarchicalSecurityModelEnabled](#BKMK_IsHierarchicalSecurityModelEnabled)
+- [IsLUISEnabledforD365Bot](#BKMK_IsLUISEnabledforD365Bot)
 - [IsMailboxForcedUnlockingEnabled](#BKMK_IsMailboxForcedUnlockingEnabled)
 - [IsMailboxInactiveBackoffEnabled](#BKMK_IsMailboxInactiveBackoffEnabled)
+- [IsManualSalesForecastingEnabled](#BKMK_IsManualSalesForecastingEnabled)
 - [IsMobileClientOnDemandSyncEnabled](#BKMK_IsMobileClientOnDemandSyncEnabled)
 - [IsMobileOfflineEnabled](#BKMK_IsMobileOfflineEnabled)
+- [IsMSTeamsCollaborationEnabled](#BKMK_IsMSTeamsCollaborationEnabled)
+- [IsMSTeamsEnabled](#BKMK_IsMSTeamsEnabled)
+- [IsMSTeamsSettingChangedByUser](#BKMK_IsMSTeamsSettingChangedByUser)
+- [IsMSTeamsUserSyncEnabled](#BKMK_IsMSTeamsUserSyncEnabled)
+- [IsNotesAnalysisEnabled](#BKMK_IsNotesAnalysisEnabled)
 - [IsOfficeGraphEnabled](#BKMK_IsOfficeGraphEnabled)
 - [IsOneDriveEnabled](#BKMK_IsOneDriveEnabled)
 - [IsPresenceEnabled](#BKMK_IsPresenceEnabled)
 - [IsPreviewEnabledForActionCard](#BKMK_IsPreviewEnabledForActionCard)
 - [IsPreviewForAutoCaptureEnabled](#BKMK_IsPreviewForAutoCaptureEnabled)
 - [IsPreviewForEmailMonitoringAllowed](#BKMK_IsPreviewForEmailMonitoringAllowed)
+- [IsReadAuditEnabled](#BKMK_IsReadAuditEnabled)
 - [IsRelationshipInsightsEnabled](#BKMK_IsRelationshipInsightsEnabled)
 - [IsResourceBookingExchangeSyncEnabled](#BKMK_IsResourceBookingExchangeSyncEnabled)
 - [IsSOPIntegrationEnabled](#BKMK_IsSOPIntegrationEnabled)
@@ -281,6 +297,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [RestrictStatusUpdate](#BKMK_RestrictStatusUpdate)
 - [RiErrorStatus](#BKMK_RiErrorStatus)
 - [SampleDataImportId](#BKMK_SampleDataImportId)
+- [SchedulingEngine](#BKMK_SchedulingEngine)
 - [SchemaNamePrefix](#BKMK_SchemaNamePrefix)
 - [ServeStaticResourcesFromAzureCDN](#BKMK_ServeStaticResourcesFromAzureCDN)
 - [SessionTimeoutEnabled](#BKMK_SessionTimeoutEnabled)
@@ -302,6 +319,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [SQMEnabled](#BKMK_SQMEnabled)
 - [SupportUserId](#BKMK_SupportUserId)
 - [SuppressSLA](#BKMK_SuppressSLA)
+- [SyncBulkOperationBatchSize](#BKMK_SyncBulkOperationBatchSize)
+- [SyncBulkOperationMaxLimit](#BKMK_SyncBulkOperationMaxLimit)
 - [SyncOptInSelection](#BKMK_SyncOptInSelection)
 - [SyncOptInSelectionStatus](#BKMK_SyncOptInSelectionStatus)
 - [SystemUserId](#BKMK_SystemUserId)
@@ -507,6 +526,52 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_AllowLegacyClientExperience"></a> AllowLegacyClientExperience
+
+|Property|Value|
+|--------|-----|
+|Description|Enable access to legacy web client UI|
+|DisplayName|Enable access to legacy web client UI|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|allowlegacyclientexperience|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### AllowLegacyClientExperience Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
+
+
+
+### <a name="BKMK_AllowLegacyDialogsEmbedding"></a> AllowLegacyDialogsEmbedding
+
+|Property|Value|
+|--------|-----|
+|Description|Enable embedding of certain legacy dialogs in Unified Interface browser client|
+|DisplayName|Enable embedding of certain legacy dialogs in Unified Interface browser client|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|allowlegacydialogsembedding|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### AllowLegacyDialogsEmbedding Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
+
+
+
 ### <a name="BKMK_AllowMarketingEmailExecution"></a> AllowMarketingEmailExecution
 
 |Property|Value|
@@ -697,6 +762,31 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Boolean|
 
 #### AppDesignerExperienceEnabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_AppointmentRichEditorExperience"></a> AppointmentRichEditorExperience
+
+**Added by**: Activities Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Information on whether rich editing experience for Appointment is enabled.|
+|DisplayName|Enable Rich Editing Experience for Appointment|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|appointmentricheditorexperience|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### AppointmentRichEditorExperience Options
 
 |Value|Label|
 |-----|-----|
@@ -951,7 +1041,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix to use for all cases throughout Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Prefix to use for all cases throughout Microsoft Dynamics 365.|
 |DisplayName|Case Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -967,7 +1057,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Type the prefix to use for all categories in Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Type the prefix to use for all categories in Microsoft Dynamics 365.|
 |DisplayName|Category Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -979,11 +1069,27 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_ClientFeatureSet"></a> ClientFeatureSet
+
+|Property|Value|
+|--------|-----|
+|Description|Client Features to be enabled as an XML BLOB.|
+|DisplayName|Client Feature Set|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|clientfeatureset|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_ContractPrefix"></a> ContractPrefix
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix to use for all contracts throughout Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Prefix to use for all contracts throughout Microsoft Dynamics 365.|
 |DisplayName|Contract Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1105,7 +1211,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Symbol used for currency throughout Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Symbol used for currency throughout Microsoft Dynamics 365.|
 |DisplayName|Currency Symbol|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1291,9 +1397,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 #### DateFormatCode Options
 
-| Value | Label |
-|-------|-------|
-|       |       |
+|Value|Label|
+|-----|-----|
+
+
+
 
 ### <a name="BKMK_DateFormatString"></a> DateFormatString
 
@@ -1315,7 +1423,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Character used to separate the month, the day, and the year in dates throughout Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Character used to separate the month, the day, and the year in dates throughout Microsoft Dynamics 365.|
 |DisplayName|Date Separator|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1331,7 +1439,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Symbol used for decimal in Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Symbol used for decimal in Microsoft Dynamics 365.|
 |DisplayName|Decimal Symbol|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1555,7 +1663,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Value|Label|
 |-----|-----|
 |0|Server-Side Synchronization|
-|1|Microsoft Dynamics 365 for Customer Engagement Email Router|
+|1|Microsoft Dynamics 365 Email Router|
 
 
 
@@ -1641,6 +1749,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |0|No|
 
 **DefaultValue**: True
+
+
+
+### <a name="BKMK_EnableLivePersonaCardUCI"></a> EnableLivePersonaCardUCI
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether the user has enabled or disabled Live Persona Card feature in UCI.|
+|DisplayName|Indicates whether the user has enabled or disabled Live Persona Card feature in UCI.|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|enablelivepersonacarduci|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### EnableLivePersonaCardUCI Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
 
 
 
@@ -1733,6 +1864,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |0|No|
 
 **DefaultValue**: False
+
+
+
+### <a name="BKMK_EnableUnifiedInterfaceShellRefresh"></a> EnableUnifiedInterfaceShellRefresh
+
+|Property|Value|
+|--------|-----|
+|Description|Enable site map and commanding update|
+|DisplayName|Enable site map and commanding update|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|enableunifiedinterfaceshellrefresh|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### EnableUnifiedInterfaceShellRefresh Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
 
 
 
@@ -2394,7 +2548,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates whether incoming email sent by internal Microsoft Dynamics 365 for Customer Engagement apps users or queues should be tracked.|
+|Description|Indicates whether incoming email sent by internal Microsoft Dynamics 365 users or queues should be tracked.|
 |DisplayName|Ignore Internal Email|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -2518,7 +2672,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix to use for all invoice numbers throughout Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Prefix to use for all invoice numbers throughout Microsoft Dynamics 365.|
 |DisplayName|Invoice Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -2603,7 +2757,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates whether loading of Microsoft Dynamics 365 for Customer Engagement apps in a browser window that does not have address, tool, and menu bars is enabled.|
+|Description|Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.|
 |DisplayName|Is Application Mode Enabled|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -3036,6 +3190,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_IsExternalFileStorageEnabled"></a> IsExternalFileStorageEnabled
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether the organization's files are being stored in Azure.|
+|DisplayName|Enable external file storage|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|isexternalfilestorageenabled|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### IsExternalFileStorageEnabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_IsExternalSearchIndexEnabled"></a> IsExternalSearchIndexEnabled
 
 |Property|Value|
@@ -3174,6 +3351,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_IsLUISEnabledforD365Bot"></a> IsLUISEnabledforD365Bot
+
+|Property|Value|
+|--------|-----|
+|Description|Give Consent to use LUIS in Dynamics 365 Bot|
+|DisplayName|LUIS Consent for Dynamics 365 Bot|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|isluisenabledford365bot|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### IsLUISEnabledforD365Bot Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_IsMailboxForcedUnlockingEnabled"></a> IsMailboxForcedUnlockingEnabled
 
 |Property|Value|
@@ -3220,6 +3420,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_IsManualSalesForecastingEnabled"></a> IsManualSalesForecastingEnabled
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether Manual Sales Forecasting feature has been enabled for the organization.|
+|DisplayName|Enable Manual Sales Forecasting feature for this organization|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismanualsalesforecastingenabled|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### IsManualSalesForecastingEnabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_IsMobileClientOnDemandSyncEnabled"></a> IsMobileClientOnDemandSyncEnabled
 
 |Property|Value|
@@ -3256,6 +3479,121 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Boolean|
 
 #### IsMobileOfflineEnabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_IsMSTeamsCollaborationEnabled"></a> IsMSTeamsCollaborationEnabled
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether Microsoft Teams Collaboration feature has been enabled for the organization.|
+|DisplayName|Enable Microsoft Teams Collaboration for this organization|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismsteamscollaborationenabled|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### IsMSTeamsCollaborationEnabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_IsMSTeamsEnabled"></a> IsMSTeamsEnabled
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether Microsoft Teams integration has been enabled for the organization.|
+|DisplayName|Enable Microsoft Teams integration|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismsteamsenabled|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### IsMSTeamsEnabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_IsMSTeamsSettingChangedByUser"></a> IsMSTeamsSettingChangedByUser
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether the user has enabled or disabled Microsoft Teams integration.|
+|DisplayName|Microsoft Teams integration changed by user|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismsteamssettingchangedbyuser|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### IsMSTeamsSettingChangedByUser Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_IsMSTeamsUserSyncEnabled"></a> IsMSTeamsUserSyncEnabled
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether Microsoft Teams User Sync feature has been enabled for the organization.|
+|DisplayName|Enable Microsoft Teams User Sync for this organization|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismsteamsusersyncenabled|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### IsMSTeamsUserSyncEnabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_IsNotesAnalysisEnabled"></a> IsNotesAnalysisEnabled
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether the feature Notes Analysis should be enabled for the organization.|
+|DisplayName|Enable Notes Analysis for this Organization|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|isnotesanalysisenabled|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### IsNotesAnalysisEnabled Options
 
 |Value|Label|
 |-----|-----|
@@ -3404,6 +3742,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_IsReadAuditEnabled"></a> IsReadAuditEnabled
+
+|Property|Value|
+|--------|-----|
+|Description|Enable or disable auditing of read operations.|
+|DisplayName|Is Read Auditing Enabled|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|isreadauditenabled|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### IsReadAuditEnabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_IsRelationshipInsightsEnabled"></a> IsRelationshipInsightsEnabled
 
 |Property|Value|
@@ -3524,7 +3885,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Indicates whether loading of Microsoft Dynamics 365 for Customer Engagement apps in a browser window that does not have address, tool, and menu bars is enabled.|
+|Description|Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.|
 |DisplayName|ISV Integration Mode|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -3551,7 +3912,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Type the prefix to use for all knowledge articles in Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Type the prefix to use for all knowledge articles in Microsoft Dynamics 365.|
 |DisplayName|Knowledge Article Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -3567,7 +3928,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix to use for all articles in Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Prefix to use for all articles in Microsoft Dynamics 365.|
 |DisplayName|Article Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -3632,7 +3993,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information that specifies how the Long Date format is displayed in Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Information that specifies how the Long Date format is displayed in Microsoft Dynamics 365.|
 |DisplayName|Long Date Format|
 |Format|None|
 |IsValidForForm|False|
@@ -4001,7 +4362,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information that specifies how negative currency numbers are displayed throughout Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Information that specifies how negative currency numbers are displayed throughout Microsoft Dynamics 365.|
 |DisplayName|Negative Currency Format|
 |Format|None|
 |IsValidForForm|False|
@@ -4096,7 +4457,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Specifies how numbers are grouped in Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Specifies how numbers are grouped in Microsoft Dynamics 365.|
 |DisplayName|Number Grouping Format|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -4112,7 +4473,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Symbol used for number separation in Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Symbol used for number separation in Microsoft Dynamics 365.|
 |DisplayName|Number Separator|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -4190,7 +4551,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix to use for all orders throughout Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Prefix to use for all orders throughout Microsoft Dynamics 365.|
 |DisplayName|Order Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -4316,7 +4677,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|PM designator to use throughout Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|PM designator to use throughout Microsoft Dynamics 365.|
 |DisplayName|PM Designator|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -4491,7 +4852,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Prefix to use for all quotes throughout Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Prefix to use for all quotes throughout Microsoft Dynamics 365.|
 |DisplayName|Quote Prefix|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -4651,10 +5012,10 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Value|Label|
 |-----|-----|
-|0|No preference for sending an error report to Microsoft about Microsoft Dynamics 365 for Customer Engagement apps|
+|0|No preference for sending an error report to Microsoft about Microsoft Dynamics 365|
 |1|Ask me for permission to send an error report to Microsoft|
 |2|Automatically send an error report to Microsoft without asking me for permission|
-|3|Never send an error report to Microsoft about Microsoft Dynamics 365 for Customer Engagement apps|
+|3|Never send an error report to Microsoft about Microsoft Dynamics 365|
 
 
 
@@ -4777,6 +5138,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|sampledataimportid|
 |RequiredLevel|None|
 |Type|Uniqueidentifier|
+
+
+### <a name="BKMK_SchedulingEngine"></a> SchedulingEngine
+
+**Added by**: Scheduling Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Scheduling engine for Appointments and Service Activities|
+|DisplayName|Scheduling engine for Appointments and Service Activities|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|schedulingengine|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### SchedulingEngine Options
+
+|Value|Label|
+|-----|-----|
+|0|Legacy Scheduling Engine|
+|192350000|Universal Resource Scheduling|
+
 
 
 ### <a name="BKMK_SchemaNamePrefix"></a> SchemaNamePrefix
@@ -5181,6 +5565,38 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_SyncBulkOperationBatchSize"></a> SyncBulkOperationBatchSize
+
+|Property|Value|
+|--------|-----|
+|Description|Number of records to update per operation in Sync Bulk Pause/Resume/Cancel|
+|DisplayName|Number of records to update per operation in Sync Bulk Pause/Resume/Cancel|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|syncbulkoperationbatchsize|
+|MaxValue|1000|
+|MinValue|1|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+
+
+### <a name="BKMK_SyncBulkOperationMaxLimit"></a> SyncBulkOperationMaxLimit
+
+|Property|Value|
+|--------|-----|
+|Description|Max total number of records to update in database for Sync Bulk Pause/Resume/Cancel|
+|DisplayName|Max total number of records to update in database for Sync Bulk Pause/Resume/Cancel|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|syncbulkoperationmaxlimit|
+|MaxValue|500000|
+|MinValue|1|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
+
+
 ### <a name="BKMK_SyncOptInSelection"></a> SyncOptInSelection
 
 |Property|Value|
@@ -5331,15 +5747,17 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 #### TimeFormatCode Options
 
-| Value | Label |
-|-------|-------|
-|       |       |
+|Value|Label|
+|-----|-----|
+
+
+
 
 ### <a name="BKMK_TimeFormatString"></a> TimeFormatString
 
 |Property|Value|
 |--------|-----|
-|Description|Text for how time is displayed in Microsoft Dynamics 365 for Customer Engagement.|
+|Description|Text for how time is displayed in Microsoft Dynamics 365.|
 |DisplayName|Time Format String|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -5355,7 +5773,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Text for how the time separator is displayed throughout Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Text for how the time separator is displayed throughout Microsoft Dynamics 365.|
 |DisplayName|Time Separator|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -5684,7 +6102,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Designated first day of the week throughout Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Designated first day of the week throughout Microsoft Dynamics 365.|
 |DisplayName|Week Start Day Code|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -5694,9 +6112,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 #### WeekStartDayCode Options
 
-| Value | Label |
-|-------|-------|
-|       |       |
+|Value|Label|
+|-----|-----|
+
+
+
 
 ### <a name="BKMK_WidgetProperties"></a> WidgetProperties
 
@@ -5798,7 +6218,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Information that specifies how the first week of the year is specified in Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Information that specifies how the first week of the year is specified in Microsoft Dynamics 365.|
 |DisplayName|Year Start Week Code|
 |Format|None|
 |IsValidForForm|False|
@@ -5810,7 +6230,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [AcknowledgementTemplateIdName](#BKMK_AcknowledgementTemplateIdName)
@@ -6578,13 +7000,14 @@ Listed by **SchemaName**.
 - [organization_ProductAssociation](#BKMK_organization_ProductAssociation)
 - [organization_ProductSubstitute](#BKMK_organization_ProductSubstitute)
 - [organization_uof_schedules](#BKMK_organization_uof_schedules)
+- [organization_msdyn_databaseversion](#BKMK_organization_msdyn_databaseversion)
+- [organization_msdyn_upgraderun](#BKMK_organization_msdyn_upgraderun)
+- [organization_msdyn_upgradestep](#BKMK_organization_msdyn_upgradestep)
+- [organization_msdyn_upgradeversion](#BKMK_organization_msdyn_upgradeversion)
 - [organization_contract_templates](#BKMK_organization_contract_templates)
 - [entitlementtemplate_organization](#BKMK_entitlementtemplate_organization)
 - [organization_phonetocaseprocess](#BKMK_organization_phonetocaseprocess)
 - [organization_services](#BKMK_organization_services)
-- [organization_topicmodel](#BKMK_organization_topicmodel)
-- [organization_topicmodelconfiguration](#BKMK_organization_topicmodelconfiguration)
-- [organization_topicmodelexecutionhistory](#BKMK_organization_topicmodelexecutionhistory)
 - [organization_sites](#BKMK_organization_sites)
 - [organization_constraint_based_groups](#BKMK_organization_constraint_based_groups)
 - [organization_equipment](#BKMK_organization_equipment)
@@ -6607,6 +7030,7 @@ Listed by **SchemaName**.
 - [organization_msdyn_bpf_665e73aa18c247d886bfc50499c73b82](#BKMK_organization_msdyn_bpf_665e73aa18c247d886bfc50499c73b82)
 - [organization_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d](#BKMK_organization_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d)
 - [organization_msdyn_contractlineinvoiceschedule](#BKMK_organization_msdyn_contractlineinvoiceschedule)
+- [organization_msdyn_dimensionfieldname](#BKMK_organization_msdyn_dimensionfieldname)
 - [organization_msdyn_expensecategory](#BKMK_organization_msdyn_expensecategory)
 - [organization_msdyn_invoicefrequency](#BKMK_organization_msdyn_invoicefrequency)
 - [organization_msdyn_invoicefrequencydetail](#BKMK_organization_msdyn_invoicefrequencydetail)
@@ -6616,6 +7040,7 @@ Listed by **SchemaName**.
 - [organization_msdyn_projectparameterpricelist](#BKMK_organization_msdyn_projectparameterpricelist)
 - [organization_msdyn_projectteammembersignup](#BKMK_organization_msdyn_projectteammembersignup)
 - [organization_msdyn_quotelineinvoiceschedule](#BKMK_organization_msdyn_quotelineinvoiceschedule)
+- [organization_msdyn_resourcecategorymarkuppricelevel](#BKMK_organization_msdyn_resourcecategorymarkuppricelevel)
 - [organization_msdyn_resourcecategorypricelevel](#BKMK_organization_msdyn_resourcecategorypricelevel)
 - [organization_msdyn_transactioncategory](#BKMK_organization_msdyn_transactioncategory)
 - [organization_msdyn_transactioncategoryclassification](#BKMK_organization_msdyn_transactioncategoryclassification)
@@ -6635,19 +7060,14 @@ Listed by **SchemaName**.
 - [lk_principalobjectattributeaccess_organizationid](#BKMK_lk_principalobjectattributeaccess_organizationid)
 - [organization_theme](#BKMK_organization_theme)
 - [organization_UserMapping](#BKMK_organization_UserMapping)
-- [organization_suggestioncardtemplate](#BKMK_organization_suggestioncardtemplate)
 - [organization_metric](#BKMK_organization_metric)
 - [organization_position](#BKMK_organization_position)
 - [organization_officegraphdocument](#BKMK_organization_officegraphdocument)
-- [organization_delveactionhub](#BKMK_organization_delveactionhub)
 - [organization_recommendeddocument](#BKMK_organization_recommendeddocument)
 - [organization_KnowledgeBaseRecord](#BKMK_organization_KnowledgeBaseRecord)
 - [organization_translationprocess](#BKMK_organization_translationprocess)
-- [organization_orginsightsmetric](#BKMK_organization_orginsightsmetric)
 - [organization_navigationsetting](#BKMK_organization_navigationsetting)
 - [organization_plugintype](#BKMK_organization_plugintype)
-- [organization_azureserviceconnection](#BKMK_organization_azureserviceconnection)
-- [organization_sdkmessageresponse](#BKMK_organization_sdkmessageresponse)
 - [organization_business_unit_news_articles](#BKMK_organization_business_unit_news_articles)
 - [organization_saved_query_visualizations](#BKMK_organization_saved_query_visualizations)
 - [customcontrolresource_organization](#BKMK_customcontrolresource_organization)
@@ -6655,79 +7075,50 @@ Listed by **SchemaName**.
 - [organization_PostComment](#BKMK_organization_PostComment)
 - [organization_postlike](#BKMK_organization_postlike)
 - [organization_importjob](#BKMK_organization_importjob)
-- [organization_licenses](#BKMK_organization_licenses)
-- [organization_expanderevent](#BKMK_organization_expanderevent)
-- [organization_ribbon_customization](#BKMK_organization_ribbon_customization)
 - [organization_queues](#BKMK_organization_queues)
 - [organization_sdkmessageprocessingstepimage](#BKMK_organization_sdkmessageprocessingstepimage)
-- [organization_savedorginsightsconfiguration](#BKMK_organization_savedorginsightsconfiguration)
 - [organization_plugintypestatistic](#BKMK_organization_plugintypestatistic)
 - [MobileOfflineProfileItemAssociation_organization](#BKMK_MobileOfflineProfileItemAssociation_organization)
-- [organization_relationship_roles](#BKMK_organization_relationship_roles)
 - [organization_appmodule](#BKMK_organization_appmodule)
-- [organization_sdkmessagepair](#BKMK_organization_sdkmessagepair)
 - [organization_kb_articles](#BKMK_organization_kb_articles)
 - [organization_systemforms](#BKMK_organization_systemforms)
 - [organization_appconfig](#BKMK_organization_appconfig)
-- [organization_sdkmessagerequestfield](#BKMK_organization_sdkmessagerequestfield)
 - [organization_connection_roles](#BKMK_organization_connection_roles)
 - [customcontrol_organization](#BKMK_customcontrol_organization)
-- [userentityinstancedata_organization](#BKMK_userentityinstancedata_organization)
 - [organization_subjects](#BKMK_organization_subjects)
 - [organization_calendars](#BKMK_organization_calendars)
 - [organization_publisher](#BKMK_organization_publisher)
 - [organization_queueitems](#BKMK_organization_queueitems)
 - [organization_teams](#BKMK_organization_teams)
-- [organization_advancedsimilarityrule](#BKMK_organization_advancedsimilarityrule)
-- [organization_socialinsightsconfiguration](#BKMK_organization_socialinsightsconfiguration)
-- [organization_entitymap](#BKMK_organization_entitymap)
-- [channelproperty_organization](#BKMK_channelproperty_organization)
 - [organization_entitydataprovider](#BKMK_organization_entitydataprovider)
-- [organization_sharepointdocument](#BKMK_organization_sharepointdocument)
 - [webresource_organization](#BKMK_webresource_organization)
-- [organization_textanalyticsentitymapping](#BKMK_organization_textanalyticsentitymapping)
 - [MobileOfflineProfile_organization](#BKMK_MobileOfflineProfile_organization)
 - [organization_transactioncurrencies](#BKMK_organization_transactioncurrencies)
 - [organization_expiredprocess](#BKMK_organization_expiredprocess)
 - [organization_mailbox](#BKMK_organization_mailbox)
 - [lk_dataperformance_organizationid](#BKMK_lk_dataperformance_organizationid)
-- [organization_isvconfigs](#BKMK_organization_isvconfigs)
-- [organization_sharepointdata](#BKMK_organization_sharepointdata)
-- [offlinecommanddefinition_organization](#BKMK_offlinecommanddefinition_organization)
 - [MobileOfflineProfileItem_organization](#BKMK_MobileOfflineProfileItem_organization)
 - [organization_custom_displaystrings](#BKMK_organization_custom_displaystrings)
 - [Organization_SyncErrors](#BKMK_Organization_SyncErrors)
-- [channelpropertygroup_organization](#BKMK_channelpropertygroup_organization)
-- [organization_sdkmessagerequest](#BKMK_organization_sdkmessagerequest)
 - [Organization_AsyncOperations](#BKMK_Organization_AsyncOperations)
 - [customcontroldefaultconfig_organization](#BKMK_customcontroldefaultconfig_organization)
 - [organization_sitemap](#BKMK_organization_sitemap)
 - [Organization_MailboxTrackingFolder](#BKMK_Organization_MailboxTrackingFolder)
 - [organization_emailserverprofile](#BKMK_organization_emailserverprofile)
-- [lk_organizationui_organizationid](#BKMK_lk_organizationui_organizationid)
 - [organization_pluginassembly](#BKMK_organization_pluginassembly)
-- [organization_mailboxstatistics](#BKMK_organization_mailboxstatistics)
-- [organization_knowledgesearchmodel](#BKMK_organization_knowledgesearchmodel)
 - [Organization_BulkDeleteFailures](#BKMK_Organization_BulkDeleteFailures)
 - [lk_fieldsecurityprofile_organizationid](#BKMK_lk_fieldsecurityprofile_organizationid)
 - [organization_sdkmessagefilter](#BKMK_organization_sdkmessagefilter)
 - [organization_kb_article_templates](#BKMK_organization_kb_article_templates)
 - [organization_roles](#BKMK_organization_roles)
 - [organization_sdkmessageprocessingstepsecureconfig](#BKMK_organization_sdkmessageprocessingstepsecureconfig)
-- [organization_entitydatasource](#BKMK_organization_entitydatasource)
 - [organization_aciviewmapper](#BKMK_organization_aciviewmapper)
 - [organization_system_users](#BKMK_organization_system_users)
 - [languagelocale_organization](#BKMK_languagelocale_organization)
 - [organization_business_units](#BKMK_organization_business_units)
-- [organization_sdkmessageresponsefield](#BKMK_organization_sdkmessageresponsefield)
-- [organization_attributemap](#BKMK_organization_attributemap)
 - [organization_newprocess](#BKMK_organization_newprocess)
-- [organization_hierarchyrules](#BKMK_organization_hierarchyrules)
 - [organization_sdkmessageprocessingstep](#BKMK_organization_sdkmessageprocessingstep)
-- [organization_RoutingRules](#BKMK_organization_RoutingRules)
-- [organization_orginsightsnotification](#BKMK_organization_orginsightsnotification)
 - [organization_appconfiginstance](#BKMK_organization_appconfiginstance)
-- [organization_routingruleitems](#BKMK_organization_routingruleitems)
 - [lk_documenttemplatebase_organization](#BKMK_lk_documenttemplatebase_organization)
 - [organization_serviceendpoint](#BKMK_organization_serviceendpoint)
 - [organization_sdkmessage](#BKMK_organization_sdkmessage)
@@ -6738,6 +7129,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_organization_territories"></a> organization_territories
+
+**Added by**: Application Common Solution
 
 Same as territory entity [organization_territories](territory.md#BKMK_organization_territories) Many-To-One relationship.
 
@@ -6754,6 +7147,8 @@ Same as territory entity [organization_territories](territory.md#BKMK_organizati
 
 ### <a name="BKMK_dynamicproperty_organization"></a> dynamicproperty_organization
 
+**Added by**: Product Management Solution
+
 Same as dynamicproperty entity [dynamicproperty_organization](dynamicproperty.md#BKMK_dynamicproperty_organization) Many-To-One relationship.
 
 |Property|Value|
@@ -6768,6 +7163,8 @@ Same as dynamicproperty entity [dynamicproperty_organization](dynamicproperty.md
 
 
 ### <a name="BKMK_DynamicPropertyAssociation_organization"></a> DynamicPropertyAssociation_organization
+
+**Added by**: Product Management Solution
 
 Same as dynamicpropertyassociation entity [DynamicPropertyAssociation_organization](dynamicpropertyassociation.md#BKMK_DynamicPropertyAssociation_organization) Many-To-One relationship.
 
@@ -6784,6 +7181,8 @@ Same as dynamicpropertyassociation entity [DynamicPropertyAssociation_organizati
 
 ### <a name="BKMK_DynamicPropertyOptionSetItem_organization"></a> DynamicPropertyOptionSetItem_organization
 
+**Added by**: Product Management Solution
+
 Same as dynamicpropertyoptionsetitem entity [DynamicPropertyOptionSetItem_organization](dynamicpropertyoptionsetitem.md#BKMK_DynamicPropertyOptionSetItem_organization) Many-To-One relationship.
 
 |Property|Value|
@@ -6798,6 +7197,8 @@ Same as dynamicpropertyoptionsetitem entity [DynamicPropertyOptionSetItem_organi
 
 
 ### <a name="BKMK_organization_price_levels"></a> organization_price_levels
+
+**Added by**: Product Management Solution
 
 Same as pricelevel entity [organization_price_levels](pricelevel.md#BKMK_organization_price_levels) Many-To-One relationship.
 
@@ -6814,6 +7215,8 @@ Same as pricelevel entity [organization_price_levels](pricelevel.md#BKMK_organiz
 
 ### <a name="BKMK_organization_products"></a> organization_products
 
+**Added by**: Product Management Solution
+
 Same as product entity [organization_products](product.md#BKMK_organization_products) Many-To-One relationship.
 
 |Property|Value|
@@ -6828,6 +7231,8 @@ Same as product entity [organization_products](product.md#BKMK_organization_prod
 
 
 ### <a name="BKMK_organization_ProductAssociation"></a> organization_ProductAssociation
+
+**Added by**: Product Management Solution
 
 Same as productassociation entity [organization_ProductAssociation](productassociation.md#BKMK_organization_ProductAssociation) Many-To-One relationship.
 
@@ -6844,6 +7249,8 @@ Same as productassociation entity [organization_ProductAssociation](productassoc
 
 ### <a name="BKMK_organization_ProductSubstitute"></a> organization_ProductSubstitute
 
+**Added by**: Product Management Solution
+
 Same as productsubstitute entity [organization_ProductSubstitute](productsubstitute.md#BKMK_organization_ProductSubstitute) Many-To-One relationship.
 
 |Property|Value|
@@ -6859,6 +7266,8 @@ Same as productsubstitute entity [organization_ProductSubstitute](productsubstit
 
 ### <a name="BKMK_organization_uof_schedules"></a> organization_uof_schedules
 
+**Added by**: Product Management Solution
+
 Same as uomschedule entity [organization_uof_schedules](uomschedule.md#BKMK_organization_uof_schedules) Many-To-One relationship.
 
 |Property|Value|
@@ -6872,7 +7281,77 @@ Same as uomschedule entity [organization_uof_schedules](uomschedule.md#BKMK_orga
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
+### <a name="BKMK_organization_msdyn_databaseversion"></a> organization_msdyn_databaseversion
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_databaseversion entity [organization_msdyn_databaseversion](msdyn_databaseversion.md#BKMK_organization_msdyn_databaseversion) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_databaseversion|
+|ReferencingAttribute|organizationid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|organization_msdyn_databaseversion|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_organization_msdyn_upgraderun"></a> organization_msdyn_upgraderun
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_upgraderun entity [organization_msdyn_upgraderun](msdyn_upgraderun.md#BKMK_organization_msdyn_upgraderun) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_upgraderun|
+|ReferencingAttribute|organizationid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|organization_msdyn_upgraderun|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_organization_msdyn_upgradestep"></a> organization_msdyn_upgradestep
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_upgradestep entity [organization_msdyn_upgradestep](msdyn_upgradestep.md#BKMK_organization_msdyn_upgradestep) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_upgradestep|
+|ReferencingAttribute|organizationid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|organization_msdyn_upgradestep|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_organization_msdyn_upgradeversion"></a> organization_msdyn_upgradeversion
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_upgradeversion entity [organization_msdyn_upgradeversion](msdyn_upgradeversion.md#BKMK_organization_msdyn_upgradeversion) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_upgradeversion|
+|ReferencingAttribute|organizationid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|organization_msdyn_upgradeversion|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
 ### <a name="BKMK_organization_contract_templates"></a> organization_contract_templates
+
+**Added by**: Service Solution
 
 Same as contracttemplate entity [organization_contract_templates](contracttemplate.md#BKMK_organization_contract_templates) Many-To-One relationship.
 
@@ -6889,6 +7368,8 @@ Same as contracttemplate entity [organization_contract_templates](contracttempla
 
 ### <a name="BKMK_entitlementtemplate_organization"></a> entitlementtemplate_organization
 
+**Added by**: Service Solution
+
 Same as entitlementtemplate entity [entitlementtemplate_organization](entitlementtemplate.md#BKMK_entitlementtemplate_organization) Many-To-One relationship.
 
 |Property|Value|
@@ -6903,6 +7384,8 @@ Same as entitlementtemplate entity [entitlementtemplate_organization](entitlemen
 
 
 ### <a name="BKMK_organization_phonetocaseprocess"></a> organization_phonetocaseprocess
+
+**Added by**: Service Solution
 
 Same as phonetocaseprocess entity [organization_phonetocaseprocess](phonetocaseprocess.md#BKMK_organization_phonetocaseprocess) Many-To-One relationship.
 
@@ -6919,6 +7402,8 @@ Same as phonetocaseprocess entity [organization_phonetocaseprocess](phonetocasep
 
 ### <a name="BKMK_organization_services"></a> organization_services
 
+**Added by**: Service Solution
+
 Same as service entity [organization_services](service.md#BKMK_organization_services) Many-To-One relationship.
 
 |Property|Value|
@@ -6932,52 +7417,9 @@ Same as service entity [organization_services](service.md#BKMK_organization_serv
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_organization_topicmodel"></a> organization_topicmodel
-
-Same as topicmodel entity [organization_topicmodel](topicmodel.md#BKMK_organization_topicmodel) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|topicmodel|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_topicmodel|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_topicmodelconfiguration"></a> organization_topicmodelconfiguration
-
-Same as topicmodelconfiguration entity [organization_topicmodelconfiguration](topicmodelconfiguration.md#BKMK_organization_topicmodelconfiguration) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|topicmodelconfiguration|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_topicmodelconfiguration|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_topicmodelexecutionhistory"></a> organization_topicmodelexecutionhistory
-
-Same as topicmodelexecutionhistory entity [organization_topicmodelexecutionhistory](topicmodelexecutionhistory.md#BKMK_organization_topicmodelexecutionhistory) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|topicmodelexecutionhistory|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_topicmodelexecutionhistory|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_organization_sites"></a> organization_sites
+
+**Added by**: Service Solution
 
 Same as site entity [organization_sites](site.md#BKMK_organization_sites) Many-To-One relationship.
 
@@ -6994,6 +7436,8 @@ Same as site entity [organization_sites](site.md#BKMK_organization_sites) Many-T
 
 ### <a name="BKMK_organization_constraint_based_groups"></a> organization_constraint_based_groups
 
+**Added by**: Service Solution
+
 Same as constraintbasedgroup entity [organization_constraint_based_groups](constraintbasedgroup.md#BKMK_organization_constraint_based_groups) Many-To-One relationship.
 
 |Property|Value|
@@ -7008,6 +7452,8 @@ Same as constraintbasedgroup entity [organization_constraint_based_groups](const
 
 
 ### <a name="BKMK_organization_equipment"></a> organization_equipment
+
+**Added by**: Service Solution
 
 Same as equipment entity [organization_equipment](equipment.md#BKMK_organization_equipment) Many-To-One relationship.
 
@@ -7024,6 +7470,8 @@ Same as equipment entity [organization_equipment](equipment.md#BKMK_organization
 
 ### <a name="BKMK_organization_resources"></a> organization_resources
 
+**Added by**: Service Solution
+
 Same as resource entity [organization_resources](resource.md#BKMK_organization_resources) Many-To-One relationship.
 
 |Property|Value|
@@ -7038,6 +7486,8 @@ Same as resource entity [organization_resources](resource.md#BKMK_organization_r
 
 
 ### <a name="BKMK_organization_resource_groups"></a> organization_resource_groups
+
+**Added by**: Service Solution
 
 Same as resourcegroup entity [organization_resource_groups](resourcegroup.md#BKMK_organization_resource_groups) Many-To-One relationship.
 
@@ -7054,6 +7504,8 @@ Same as resourcegroup entity [organization_resource_groups](resourcegroup.md#BKM
 
 ### <a name="BKMK_organization_resource_specs"></a> organization_resource_specs
 
+**Added by**: Service Solution
+
 Same as resourcespec entity [organization_resource_specs](resourcespec.md#BKMK_organization_resource_specs) Many-To-One relationship.
 
 |Property|Value|
@@ -7068,6 +7520,8 @@ Same as resourcespec entity [organization_resource_specs](resourcespec.md#BKMK_o
 
 
 ### <a name="BKMK_entitlementchannel_organization"></a> entitlementchannel_organization
+
+**Added by**: Service Solution
 
 Same as entitlementchannel entity [entitlementchannel_organization](entitlementchannel.md#BKMK_entitlementchannel_organization) Many-To-One relationship.
 
@@ -7084,6 +7538,8 @@ Same as entitlementchannel entity [entitlementchannel_organization](entitlementc
 
 ### <a name="BKMK_entitlementtemplatechannel_organization"></a> entitlementtemplatechannel_organization
 
+**Added by**: Service Solution
+
 Same as entitlementtemplatechannel entity [entitlementtemplatechannel_organization](entitlementtemplatechannel.md#BKMK_entitlementtemplatechannel_organization) Many-To-One relationship.
 
 |Property|Value|
@@ -7098,6 +7554,8 @@ Same as entitlementtemplatechannel entity [entitlementtemplatechannel_organizati
 
 
 ### <a name="BKMK_organization_discount_types"></a> organization_discount_types
+
+**Added by**: Sales Solution
 
 Same as discounttype entity [organization_discount_types](discounttype.md#BKMK_organization_discount_types) Many-To-One relationship.
 
@@ -7114,6 +7572,8 @@ Same as discounttype entity [organization_discount_types](discounttype.md#BKMK_o
 
 ### <a name="BKMK_organization_leadtoopportunitysalesprocess"></a> organization_leadtoopportunitysalesprocess
 
+**Added by**: Sales Solution
+
 Same as leadtoopportunitysalesprocess entity [organization_leadtoopportunitysalesprocess](leadtoopportunitysalesprocess.md#BKMK_organization_leadtoopportunitysalesprocess) Many-To-One relationship.
 
 |Property|Value|
@@ -7128,6 +7588,8 @@ Same as leadtoopportunitysalesprocess entity [organization_leadtoopportunitysale
 
 
 ### <a name="BKMK_organization_opportunitysalesprocess"></a> organization_opportunitysalesprocess
+
+**Added by**: Sales Solution
 
 Same as opportunitysalesprocess entity [organization_opportunitysalesprocess](opportunitysalesprocess.md#BKMK_organization_opportunitysalesprocess) Many-To-One relationship.
 
@@ -7144,6 +7606,8 @@ Same as opportunitysalesprocess entity [organization_opportunitysalesprocess](op
 
 ### <a name="BKMK_organization_sales_literature"></a> organization_sales_literature
 
+**Added by**: Sales Solution
+
 Same as salesliterature entity [organization_sales_literature](salesliterature.md#BKMK_organization_sales_literature) Many-To-One relationship.
 
 |Property|Value|
@@ -7158,6 +7622,8 @@ Same as salesliterature entity [organization_sales_literature](salesliterature.m
 
 
 ### <a name="BKMK_organization_competitors"></a> organization_competitors
+
+**Added by**: Sales Solution
 
 Same as competitor entity [organization_competitors](competitor.md#BKMK_organization_competitors) Many-To-One relationship.
 
@@ -7174,6 +7640,8 @@ Same as competitor entity [organization_competitors](competitor.md#BKMK_organiza
 
 ### <a name="BKMK_organization_msdyn_postconfig"></a> organization_msdyn_postconfig
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_postconfig entity [organization_msdyn_postconfig](msdyn_postconfig.md#BKMK_organization_msdyn_postconfig) Many-To-One relationship.
 
 |Property|Value|
@@ -7188,6 +7656,8 @@ Same as msdyn_postconfig entity [organization_msdyn_postconfig](msdyn_postconfig
 
 
 ### <a name="BKMK_organization_msdyn_postruleconfig"></a> organization_msdyn_postruleconfig
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_postruleconfig entity [organization_msdyn_postruleconfig](msdyn_postruleconfig.md#BKMK_organization_msdyn_postruleconfig) Many-To-One relationship.
 
@@ -7204,6 +7674,8 @@ Same as msdyn_postruleconfig entity [organization_msdyn_postruleconfig](msdyn_po
 
 ### <a name="BKMK_organization_msdyn_wallsavedquery"></a> organization_msdyn_wallsavedquery
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_wallsavedquery entity [organization_msdyn_wallsavedquery](msdyn_wallsavedquery.md#BKMK_organization_msdyn_wallsavedquery) Many-To-One relationship.
 
 |Property|Value|
@@ -7218,6 +7690,8 @@ Same as msdyn_wallsavedquery entity [organization_msdyn_wallsavedquery](msdyn_wa
 
 
 ### <a name="BKMK_organization_msdyn_organizationalunit"></a> organization_msdyn_organizationalunit
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_organizationalunit entity [organization_msdyn_organizationalunit](msdyn_organizationalunit.md#BKMK_organization_msdyn_organizationalunit) Many-To-One relationship.
 
@@ -7234,6 +7708,8 @@ Same as msdyn_organizationalunit entity [organization_msdyn_organizationalunit](
 
 ### <a name="BKMK_organization_msdyn_schedulingparameter"></a> organization_msdyn_schedulingparameter
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_schedulingparameter entity [organization_msdyn_schedulingparameter](msdyn_schedulingparameter.md#BKMK_organization_msdyn_schedulingparameter) Many-To-One relationship.
 
 |Property|Value|
@@ -7248,6 +7724,8 @@ Same as msdyn_schedulingparameter entity [organization_msdyn_schedulingparameter
 
 
 ### <a name="BKMK_organization_msdyn_batchjob"></a> organization_msdyn_batchjob
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_batchjob entity [organization_msdyn_batchjob](msdyn_batchjob.md#BKMK_organization_msdyn_batchjob) Many-To-One relationship.
 
@@ -7264,6 +7742,8 @@ Same as msdyn_batchjob entity [organization_msdyn_batchjob](msdyn_batchjob.md#BK
 
 ### <a name="BKMK_organization_msdyn_bpf_665e73aa18c247d886bfc50499c73b82"></a> organization_msdyn_bpf_665e73aa18c247d886bfc50499c73b82
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_bpf_665e73aa18c247d886bfc50499c73b82 entity [organization_msdyn_bpf_665e73aa18c247d886bfc50499c73b82](msdyn_bpf_665e73aa18c247d886bfc50499c73b82.md#BKMK_organization_msdyn_bpf_665e73aa18c247d886bfc50499c73b82) Many-To-One relationship.
 
 |Property|Value|
@@ -7278,6 +7758,8 @@ Same as msdyn_bpf_665e73aa18c247d886bfc50499c73b82 entity [organization_msdyn_bp
 
 
 ### <a name="BKMK_organization_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d"></a> organization_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d entity [organization_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d](msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d.md#BKMK_organization_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d) Many-To-One relationship.
 
@@ -7294,6 +7776,8 @@ Same as msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d entity [organization_msdyn_bp
 
 ### <a name="BKMK_organization_msdyn_contractlineinvoiceschedule"></a> organization_msdyn_contractlineinvoiceschedule
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_contractlineinvoiceschedule entity [organization_msdyn_contractlineinvoiceschedule](msdyn_contractlineinvoiceschedule.md#BKMK_organization_msdyn_contractlineinvoiceschedule) Many-To-One relationship.
 
 |Property|Value|
@@ -7307,7 +7791,26 @@ Same as msdyn_contractlineinvoiceschedule entity [organization_msdyn_contractlin
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
+### <a name="BKMK_organization_msdyn_dimensionfieldname"></a> organization_msdyn_dimensionfieldname
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_dimensionfieldname entity [organization_msdyn_dimensionfieldname](msdyn_dimensionfieldname.md#BKMK_organization_msdyn_dimensionfieldname) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_dimensionfieldname|
+|ReferencingAttribute|organizationid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|organization_msdyn_dimensionfieldname|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
 ### <a name="BKMK_organization_msdyn_expensecategory"></a> organization_msdyn_expensecategory
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_expensecategory entity [organization_msdyn_expensecategory](msdyn_expensecategory.md#BKMK_organization_msdyn_expensecategory) Many-To-One relationship.
 
@@ -7324,6 +7827,8 @@ Same as msdyn_expensecategory entity [organization_msdyn_expensecategory](msdyn_
 
 ### <a name="BKMK_organization_msdyn_invoicefrequency"></a> organization_msdyn_invoicefrequency
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_invoicefrequency entity [organization_msdyn_invoicefrequency](msdyn_invoicefrequency.md#BKMK_organization_msdyn_invoicefrequency) Many-To-One relationship.
 
 |Property|Value|
@@ -7338,6 +7843,8 @@ Same as msdyn_invoicefrequency entity [organization_msdyn_invoicefrequency](msdy
 
 
 ### <a name="BKMK_organization_msdyn_invoicefrequencydetail"></a> organization_msdyn_invoicefrequencydetail
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_invoicefrequencydetail entity [organization_msdyn_invoicefrequencydetail](msdyn_invoicefrequencydetail.md#BKMK_organization_msdyn_invoicefrequencydetail) Many-To-One relationship.
 
@@ -7354,6 +7861,8 @@ Same as msdyn_invoicefrequencydetail entity [organization_msdyn_invoicefrequency
 
 ### <a name="BKMK_organization_msdyn_mlresultcache"></a> organization_msdyn_mlresultcache
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_mlresultcache entity [organization_msdyn_mlresultcache](msdyn_mlresultcache.md#BKMK_organization_msdyn_mlresultcache) Many-To-One relationship.
 
 |Property|Value|
@@ -7368,6 +7877,8 @@ Same as msdyn_mlresultcache entity [organization_msdyn_mlresultcache](msdyn_mlre
 
 
 ### <a name="BKMK_organization_msdyn_processnotes"></a> organization_msdyn_processnotes
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_processnotes entity [organization_msdyn_processnotes](msdyn_processnotes.md#BKMK_organization_msdyn_processnotes) Many-To-One relationship.
 
@@ -7384,6 +7895,8 @@ Same as msdyn_processnotes entity [organization_msdyn_processnotes](msdyn_proces
 
 ### <a name="BKMK_organization_msdyn_projectparameter"></a> organization_msdyn_projectparameter
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_projectparameter entity [organization_msdyn_projectparameter](msdyn_projectparameter.md#BKMK_organization_msdyn_projectparameter) Many-To-One relationship.
 
 |Property|Value|
@@ -7398,6 +7911,8 @@ Same as msdyn_projectparameter entity [organization_msdyn_projectparameter](msdy
 
 
 ### <a name="BKMK_organization_msdyn_projectparameterpricelist"></a> organization_msdyn_projectparameterpricelist
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_projectparameterpricelist entity [organization_msdyn_projectparameterpricelist](msdyn_projectparameterpricelist.md#BKMK_organization_msdyn_projectparameterpricelist) Many-To-One relationship.
 
@@ -7414,6 +7929,8 @@ Same as msdyn_projectparameterpricelist entity [organization_msdyn_projectparame
 
 ### <a name="BKMK_organization_msdyn_projectteammembersignup"></a> organization_msdyn_projectteammembersignup
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_projectteammembersignup entity [organization_msdyn_projectteammembersignup](msdyn_projectteammembersignup.md#BKMK_organization_msdyn_projectteammembersignup) Many-To-One relationship.
 
 |Property|Value|
@@ -7429,6 +7946,8 @@ Same as msdyn_projectteammembersignup entity [organization_msdyn_projectteammemb
 
 ### <a name="BKMK_organization_msdyn_quotelineinvoiceschedule"></a> organization_msdyn_quotelineinvoiceschedule
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_quotelineinvoiceschedule entity [organization_msdyn_quotelineinvoiceschedule](msdyn_quotelineinvoiceschedule.md#BKMK_organization_msdyn_quotelineinvoiceschedule) Many-To-One relationship.
 
 |Property|Value|
@@ -7442,7 +7961,26 @@ Same as msdyn_quotelineinvoiceschedule entity [organization_msdyn_quotelineinvoi
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
+### <a name="BKMK_organization_msdyn_resourcecategorymarkuppricelevel"></a> organization_msdyn_resourcecategorymarkuppricelevel
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_resourcecategorymarkuppricelevel entity [organization_msdyn_resourcecategorymarkuppricelevel](msdyn_resourcecategorymarkuppricelevel.md#BKMK_organization_msdyn_resourcecategorymarkuppricelevel) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_resourcecategorymarkuppricelevel|
+|ReferencingAttribute|organizationid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|organization_msdyn_resourcecategorymarkuppricelevel|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
 ### <a name="BKMK_organization_msdyn_resourcecategorypricelevel"></a> organization_msdyn_resourcecategorypricelevel
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_resourcecategorypricelevel entity [organization_msdyn_resourcecategorypricelevel](msdyn_resourcecategorypricelevel.md#BKMK_organization_msdyn_resourcecategorypricelevel) Many-To-One relationship.
 
@@ -7459,6 +7997,8 @@ Same as msdyn_resourcecategorypricelevel entity [organization_msdyn_resourcecate
 
 ### <a name="BKMK_organization_msdyn_transactioncategory"></a> organization_msdyn_transactioncategory
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_transactioncategory entity [organization_msdyn_transactioncategory](msdyn_transactioncategory.md#BKMK_organization_msdyn_transactioncategory) Many-To-One relationship.
 
 |Property|Value|
@@ -7473,6 +8013,8 @@ Same as msdyn_transactioncategory entity [organization_msdyn_transactioncategory
 
 
 ### <a name="BKMK_organization_msdyn_transactioncategoryclassification"></a> organization_msdyn_transactioncategoryclassification
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_transactioncategoryclassification entity [organization_msdyn_transactioncategoryclassification](msdyn_transactioncategoryclassification.md#BKMK_organization_msdyn_transactioncategoryclassification) Many-To-One relationship.
 
@@ -7489,6 +8031,8 @@ Same as msdyn_transactioncategoryclassification entity [organization_msdyn_trans
 
 ### <a name="BKMK_organization_msdyn_transactioncategoryhierarchyelement"></a> organization_msdyn_transactioncategoryhierarchyelement
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_transactioncategoryhierarchyelement entity [organization_msdyn_transactioncategoryhierarchyelement](msdyn_transactioncategoryhierarchyelement.md#BKMK_organization_msdyn_transactioncategoryhierarchyelement) Many-To-One relationship.
 
 |Property|Value|
@@ -7503,6 +8047,8 @@ Same as msdyn_transactioncategoryhierarchyelement entity [organization_msdyn_tra
 
 
 ### <a name="BKMK_organization_msdyn_transactioncategorypricelevel"></a> organization_msdyn_transactioncategorypricelevel
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_transactioncategorypricelevel entity [organization_msdyn_transactioncategorypricelevel](msdyn_transactioncategorypricelevel.md#BKMK_organization_msdyn_transactioncategorypricelevel) Many-To-One relationship.
 
@@ -7519,6 +8065,8 @@ Same as msdyn_transactioncategorypricelevel entity [organization_msdyn_transacti
 
 ### <a name="BKMK_organization_msdyn_transactiontype"></a> organization_msdyn_transactiontype
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_transactiontype entity [organization_msdyn_transactiontype](msdyn_transactiontype.md#BKMK_organization_msdyn_transactiontype) Many-To-One relationship.
 
 |Property|Value|
@@ -7533,6 +8081,8 @@ Same as msdyn_transactiontype entity [organization_msdyn_transactiontype](msdyn_
 
 
 ### <a name="BKMK_organization_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799"></a> organization_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bpf_2c5fe86acc8b414b8322ae571000c799 entity [organization_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799](msdyn_bpf_2c5fe86acc8b414b8322ae571000c799.md#BKMK_organization_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799) Many-To-One relationship.
 
@@ -7549,6 +8099,8 @@ Same as msdyn_bpf_2c5fe86acc8b414b8322ae571000c799 entity [organization_msdyn_bp
 
 ### <a name="BKMK_organization_msdyn_bpf_989e9b1857e24af18787d5143b67523b"></a> organization_msdyn_bpf_989e9b1857e24af18787d5143b67523b
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_bpf_989e9b1857e24af18787d5143b67523b entity [organization_msdyn_bpf_989e9b1857e24af18787d5143b67523b](msdyn_bpf_989e9b1857e24af18787d5143b67523b.md#BKMK_organization_msdyn_bpf_989e9b1857e24af18787d5143b67523b) Many-To-One relationship.
 
 |Property|Value|
@@ -7563,6 +8115,8 @@ Same as msdyn_bpf_989e9b1857e24af18787d5143b67523b entity [organization_msdyn_bp
 
 
 ### <a name="BKMK_organization_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3"></a> organization_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 entity [organization_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3](msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3.md#BKMK_organization_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3) Many-To-One relationship.
 
@@ -7579,6 +8133,8 @@ Same as msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 entity [organization_msdyn_bp
 
 ### <a name="BKMK_organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39"></a> organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 entity [organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39](msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39.md#BKMK_organization_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39) Many-To-One relationship.
 
 |Property|Value|
@@ -7593,6 +8149,8 @@ Same as msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 entity [organization_msdyn_bp
 
 
 ### <a name="BKMK_organization_msdyn_fieldservicepricelistitem"></a> organization_msdyn_fieldservicepricelistitem
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_fieldservicepricelistitem entity [organization_msdyn_fieldservicepricelistitem](msdyn_fieldservicepricelistitem.md#BKMK_organization_msdyn_fieldservicepricelistitem) Many-To-One relationship.
 
@@ -7609,6 +8167,8 @@ Same as msdyn_fieldservicepricelistitem entity [organization_msdyn_fieldservicep
 
 ### <a name="BKMK_organization_msdyn_fieldservicesystemjob"></a> organization_msdyn_fieldservicesystemjob
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_fieldservicesystemjob entity [organization_msdyn_fieldservicesystemjob](msdyn_fieldservicesystemjob.md#BKMK_organization_msdyn_fieldservicesystemjob) Many-To-One relationship.
 
 |Property|Value|
@@ -7623,6 +8183,8 @@ Same as msdyn_fieldservicesystemjob entity [organization_msdyn_fieldservicesyste
 
 
 ### <a name="BKMK_organization_msdyn_productinventory"></a> organization_msdyn_productinventory
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_productinventory entity [organization_msdyn_productinventory](msdyn_productinventory.md#BKMK_organization_msdyn_productinventory) Many-To-One relationship.
 
@@ -7639,6 +8201,8 @@ Same as msdyn_productinventory entity [organization_msdyn_productinventory](msdy
 
 ### <a name="BKMK_organization_msdyn_uniquenumber"></a> organization_msdyn_uniquenumber
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_uniquenumber entity [organization_msdyn_uniquenumber](msdyn_uniquenumber.md#BKMK_organization_msdyn_uniquenumber) Many-To-One relationship.
 
 |Property|Value|
@@ -7654,6 +8218,8 @@ Same as msdyn_uniquenumber entity [organization_msdyn_uniquenumber](msdyn_unique
 
 ### <a name="BKMK_organization_msdyn_workorderdetailsgenerationqueue"></a> organization_msdyn_workorderdetailsgenerationqueue
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_workorderdetailsgenerationqueue entity [organization_msdyn_workorderdetailsgenerationqueue](msdyn_workorderdetailsgenerationqueue.md#BKMK_organization_msdyn_workorderdetailsgenerationqueue) Many-To-One relationship.
 
 |Property|Value|
@@ -7668,6 +8234,8 @@ Same as msdyn_workorderdetailsgenerationqueue entity [organization_msdyn_workord
 
 
 ### <a name="BKMK_organization_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b"></a> organization_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b entity [organization_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b](msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b.md#BKMK_organization_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b) Many-To-One relationship.
 
@@ -7727,21 +8295,6 @@ Same as usermapping entity [organization_UserMapping](usermapping.md#BKMK_organi
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_organization_suggestioncardtemplate"></a> organization_suggestioncardtemplate
-
-Same as suggestioncardtemplate entity [organization_suggestioncardtemplate](suggestioncardtemplate.md#BKMK_organization_suggestioncardtemplate) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|suggestioncardtemplate|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|organization_suggestioncardtemplate|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_organization_metric"></a> organization_metric
 
 Same as metric entity [organization_metric](metric.md#BKMK_organization_metric) Many-To-One relationship.
@@ -7783,21 +8336,6 @@ Same as officegraphdocument entity [organization_officegraphdocument](officegrap
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|organization_officegraphdocument|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_delveactionhub"></a> organization_delveactionhub
-
-Same as delveactionhub entity [organization_delveactionhub](delveactionhub.md#BKMK_organization_delveactionhub) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|delveactionhub|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|organization_delveactionhub|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
@@ -7847,21 +8385,6 @@ Same as translationprocess entity [organization_translationprocess](translationp
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_organization_orginsightsmetric"></a> organization_orginsightsmetric
-
-Same as orginsightsmetric entity [organization_orginsightsmetric](orginsightsmetric.md#BKMK_organization_orginsightsmetric) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|orginsightsmetric|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_orginsightsmetric|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_organization_navigationsetting"></a> organization_navigationsetting
 
 Same as navigationsetting entity [organization_navigationsetting](navigationsetting.md#BKMK_organization_navigationsetting) Many-To-One relationship.
@@ -7888,36 +8411,6 @@ Same as plugintype entity [organization_plugintype](plugintype.md#BKMK_organizat
 |IsHierarchical|False|
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|organization_plugintype|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_azureserviceconnection"></a> organization_azureserviceconnection
-
-Same as azureserviceconnection entity [organization_azureserviceconnection](azureserviceconnection.md#BKMK_organization_azureserviceconnection) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|azureserviceconnection|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_azureserviceconnection|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_sdkmessageresponse"></a> organization_sdkmessageresponse
-
-Same as sdkmessageresponse entity [organization_sdkmessageresponse](sdkmessageresponse.md#BKMK_organization_sdkmessageresponse) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|sdkmessageresponse|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_sdkmessageresponse|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
@@ -8027,51 +8520,6 @@ Same as importjob entity [organization_importjob](importjob.md#BKMK_organization
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_organization_licenses"></a> organization_licenses
-
-Same as license entity [organization_licenses](license.md#BKMK_organization_licenses) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|license|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_licenses|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_expanderevent"></a> organization_expanderevent
-
-Same as expanderevent entity [organization_expanderevent](expanderevent.md#BKMK_organization_expanderevent) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|expanderevent|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_expanderevent|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_ribbon_customization"></a> organization_ribbon_customization
-
-Same as ribboncustomization entity [organization_ribbon_customization](ribboncustomization.md#BKMK_organization_ribbon_customization) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|ribboncustomization|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_ribbon_customization|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_organization_queues"></a> organization_queues
 
 Same as queue entity [organization_queues](queue.md#BKMK_organization_queues) Many-To-One relationship.
@@ -8098,21 +8546,6 @@ Same as sdkmessageprocessingstepimage entity [organization_sdkmessageprocessings
 |IsHierarchical|False|
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|organization_sdkmessageprocessingstepimage|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_savedorginsightsconfiguration"></a> organization_savedorginsightsconfiguration
-
-Same as savedorginsightsconfiguration entity [organization_savedorginsightsconfiguration](savedorginsightsconfiguration.md#BKMK_organization_savedorginsightsconfiguration) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|savedorginsightsconfiguration|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_savedorginsightsconfiguration|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
@@ -8147,21 +8580,6 @@ Same as mobileofflineprofileitemassociation entity [MobileOfflineProfileItemAsso
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_organization_relationship_roles"></a> organization_relationship_roles
-
-Same as relationshiprole entity [organization_relationship_roles](relationshiprole.md#BKMK_organization_relationship_roles) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|relationshiprole|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_relationship_roles|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_organization_appmodule"></a> organization_appmodule
 
 Same as appmodule entity [organization_appmodule](appmodule.md#BKMK_organization_appmodule) Many-To-One relationship.
@@ -8173,21 +8591,6 @@ Same as appmodule entity [organization_appmodule](appmodule.md#BKMK_organization
 |IsHierarchical|False|
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|organization_appmodule|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_sdkmessagepair"></a> organization_sdkmessagepair
-
-Same as sdkmessagepair entity [organization_sdkmessagepair](sdkmessagepair.md#BKMK_organization_sdkmessagepair) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|sdkmessagepair|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_sdkmessagepair|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
@@ -8237,21 +8640,6 @@ Same as appconfig entity [organization_appconfig](appconfig.md#BKMK_organization
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_organization_sdkmessagerequestfield"></a> organization_sdkmessagerequestfield
-
-Same as sdkmessagerequestfield entity [organization_sdkmessagerequestfield](sdkmessagerequestfield.md#BKMK_organization_sdkmessagerequestfield) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|sdkmessagerequestfield|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_sdkmessagerequestfield|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_organization_connection_roles"></a> organization_connection_roles
 
 Same as connectionrole entity [organization_connection_roles](connectionrole.md#BKMK_organization_connection_roles) Many-To-One relationship.
@@ -8278,21 +8666,6 @@ Same as customcontrol entity [customcontrol_organization](customcontrol.md#BKMK_
 |IsHierarchical|False|
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|customcontrol_organization|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_userentityinstancedata_organization"></a> userentityinstancedata_organization
-
-Same as userentityinstancedata entity [userentityinstancedata_organization](userentityinstancedata.md#BKMK_userentityinstancedata_organization) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_organization|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
@@ -8372,66 +8745,6 @@ Same as team entity [organization_teams](team.md#BKMK_organization_teams) Many-T
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_organization_advancedsimilarityrule"></a> organization_advancedsimilarityrule
-
-Same as advancedsimilarityrule entity [organization_advancedsimilarityrule](advancedsimilarityrule.md#BKMK_organization_advancedsimilarityrule) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|advancedsimilarityrule|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_advancedsimilarityrule|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_socialinsightsconfiguration"></a> organization_socialinsightsconfiguration
-
-Same as socialinsightsconfiguration entity [organization_socialinsightsconfiguration](socialinsightsconfiguration.md#BKMK_organization_socialinsightsconfiguration) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|socialinsightsconfiguration|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_socialinsightsconfiguration|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_entitymap"></a> organization_entitymap
-
-Same as entitymap entity [organization_entitymap](entitymap.md#BKMK_organization_entitymap) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|entitymap|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_entitymap|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_channelproperty_organization"></a> channelproperty_organization
-
-Same as channelproperty entity [channelproperty_organization](channelproperty.md#BKMK_channelproperty_organization) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|channelproperty|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|channelproperty_organization|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_organization_entitydataprovider"></a> organization_entitydataprovider
 
 Same as entitydataprovider entity [organization_entitydataprovider](entitydataprovider.md#BKMK_organization_entitydataprovider) Many-To-One relationship.
@@ -8447,21 +8760,6 @@ Same as entitydataprovider entity [organization_entitydataprovider](entitydatapr
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_organization_sharepointdocument"></a> organization_sharepointdocument
-
-Same as sharepointdocument entity [organization_sharepointdocument](sharepointdocument.md#BKMK_organization_sharepointdocument) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|sharepointdocument|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_sharepointdocument|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_webresource_organization"></a> webresource_organization
 
 Same as webresource entity [webresource_organization](webresource.md#BKMK_webresource_organization) Many-To-One relationship.
@@ -8473,21 +8771,6 @@ Same as webresource entity [webresource_organization](webresource.md#BKMK_webres
 |IsHierarchical|False|
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|webresource_organization|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_textanalyticsentitymapping"></a> organization_textanalyticsentitymapping
-
-Same as textanalyticsentitymapping entity [organization_textanalyticsentitymapping](textanalyticsentitymapping.md#BKMK_organization_textanalyticsentitymapping) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|textanalyticsentitymapping|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_textanalyticsentitymapping|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
@@ -8567,51 +8850,6 @@ Same as dataperformance entity [lk_dataperformance_organizationid](dataperforman
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_organization_isvconfigs"></a> organization_isvconfigs
-
-Same as isvconfig entity [organization_isvconfigs](isvconfig.md#BKMK_organization_isvconfigs) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|isvconfig|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_isvconfigs|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_sharepointdata"></a> organization_sharepointdata
-
-Same as sharepointdata entity [organization_sharepointdata](sharepointdata.md#BKMK_organization_sharepointdata) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|sharepointdata|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_sharepointdata|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_offlinecommanddefinition_organization"></a> offlinecommanddefinition_organization
-
-Same as offlinecommanddefinition entity [offlinecommanddefinition_organization](offlinecommanddefinition.md#BKMK_offlinecommanddefinition_organization) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|offlinecommanddefinition|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|offlinecommanddefinition_organization|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_MobileOfflineProfileItem_organization"></a> MobileOfflineProfileItem_organization
 
 Same as mobileofflineprofileitem entity [MobileOfflineProfileItem_organization](mobileofflineprofileitem.md#BKMK_MobileOfflineProfileItem_organization) Many-To-One relationship.
@@ -8655,36 +8893,6 @@ Same as syncerror entity [Organization_SyncErrors](syncerror.md#BKMK_Organizatio
 |ReferencedEntityNavigationPropertyName|Organization_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: Cascade<br />Delete: NoCascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_channelpropertygroup_organization"></a> channelpropertygroup_organization
-
-Same as channelpropertygroup entity [channelpropertygroup_organization](channelpropertygroup.md#BKMK_channelpropertygroup_organization) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|channelpropertygroup|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|channelpropertygroup_organization|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_sdkmessagerequest"></a> organization_sdkmessagerequest
-
-Same as sdkmessagerequest entity [organization_sdkmessagerequest](sdkmessagerequest.md#BKMK_organization_sdkmessagerequest) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|sdkmessagerequest|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_sdkmessagerequest|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Organization_AsyncOperations"></a> Organization_AsyncOperations
@@ -8762,21 +8970,6 @@ Same as emailserverprofile entity [organization_emailserverprofile](emailserverp
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_lk_organizationui_organizationid"></a> lk_organizationui_organizationid
-
-Same as organizationui entity [lk_organizationui_organizationid](organizationui.md#BKMK_lk_organizationui_organizationid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|organizationui|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|lk_organizationui_organizationid|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_organization_pluginassembly"></a> organization_pluginassembly
 
 Same as pluginassembly entity [organization_pluginassembly](pluginassembly.md#BKMK_organization_pluginassembly) Many-To-One relationship.
@@ -8788,36 +8981,6 @@ Same as pluginassembly entity [organization_pluginassembly](pluginassembly.md#BK
 |IsHierarchical|False|
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|organization_pluginassembly|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_mailboxstatistics"></a> organization_mailboxstatistics
-
-Same as mailboxstatistics entity [organization_mailboxstatistics](mailboxstatistics.md#BKMK_organization_mailboxstatistics) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|mailboxstatistics|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_mailboxstatistics|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_knowledgesearchmodel"></a> organization_knowledgesearchmodel
-
-Same as knowledgesearchmodel entity [organization_knowledgesearchmodel](knowledgesearchmodel.md#BKMK_organization_knowledgesearchmodel) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|knowledgesearchmodel|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_knowledgesearchmodel|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
@@ -8912,21 +9075,6 @@ Same as sdkmessageprocessingstepsecureconfig entity [organization_sdkmessageproc
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_organization_entitydatasource"></a> organization_entitydatasource
-
-Same as entitydatasource entity [organization_entitydatasource](entitydatasource.md#BKMK_organization_entitydatasource) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|entitydatasource|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_entitydatasource|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_organization_aciviewmapper"></a> organization_aciviewmapper
 
 Same as aciviewmapper entity [organization_aciviewmapper](aciviewmapper.md#BKMK_organization_aciviewmapper) Many-To-One relationship.
@@ -8987,36 +9135,6 @@ Same as businessunit entity [organization_business_units](businessunit.md#BKMK_o
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_organization_sdkmessageresponsefield"></a> organization_sdkmessageresponsefield
-
-Same as sdkmessageresponsefield entity [organization_sdkmessageresponsefield](sdkmessageresponsefield.md#BKMK_organization_sdkmessageresponsefield) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|sdkmessageresponsefield|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_sdkmessageresponsefield|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_attributemap"></a> organization_attributemap
-
-Same as attributemap entity [organization_attributemap](attributemap.md#BKMK_organization_attributemap) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|attributemap|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_attributemap|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_organization_newprocess"></a> organization_newprocess
 
 Same as newprocess entity [organization_newprocess](newprocess.md#BKMK_organization_newprocess) Many-To-One relationship.
@@ -9029,21 +9147,6 @@ Same as newprocess entity [organization_newprocess](newprocess.md#BKMK_organizat
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|organization_newprocess|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_hierarchyrules"></a> organization_hierarchyrules
-
-Same as hierarchyrule entity [organization_hierarchyrules](hierarchyrule.md#BKMK_organization_hierarchyrules) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|hierarchyrule|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_hierarchyrules|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
@@ -9062,36 +9165,6 @@ Same as sdkmessageprocessingstep entity [organization_sdkmessageprocessingstep](
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_organization_RoutingRules"></a> organization_RoutingRules
-
-Same as routingrule entity [organization_RoutingRules](routingrule.md#BKMK_organization_RoutingRules) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|routingrule|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_RoutingRules|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_orginsightsnotification"></a> organization_orginsightsnotification
-
-Same as orginsightsnotification entity [organization_orginsightsnotification](orginsightsnotification.md#BKMK_organization_orginsightsnotification) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|orginsightsnotification|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_orginsightsnotification|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_organization_appconfiginstance"></a> organization_appconfiginstance
 
 Same as appconfiginstance entity [organization_appconfiginstance](appconfiginstance.md#BKMK_organization_appconfiginstance) Many-To-One relationship.
@@ -9103,21 +9176,6 @@ Same as appconfiginstance entity [organization_appconfiginstance](appconfiginsta
 |IsHierarchical|False|
 |IsCustomizable|False|
 |ReferencedEntityNavigationPropertyName|organization_appconfiginstance|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_organization_routingruleitems"></a> organization_routingruleitems
-
-Same as routingruleitem entity [organization_routingruleitems](routingruleitem.md#BKMK_organization_routingruleitems) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|routingruleitem|
-|ReferencingAttribute|organizationid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|organization_routingruleitems|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
@@ -9282,6 +9340,6 @@ See template Entity [Template_Organization](template.md#BKMK_Template_Organizati
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.organization?text=organization EntityType" />

@@ -2,7 +2,7 @@
 title: "createRecord (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/12/2018
+ms.date: 04/02/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -95,3 +95,26 @@ Microsoft.CIFramework.createRecord(entityLogicalName,jsonData).then(
       }
   ); 
 ``` 
+
+The below example shows how you can pass lookup value instead of plain text in the variable `data`.
+
+```JavaScript
+var data =
+    {
+        "name": "Sample Account",
+        "primarycontactid@odata.bind": "/contacts(3518ddae-2f46-e911-8190-000d3a6ce16d)"
+    }
+var jsonData = JSON.stringify(data);
+Microsoft.CIFramework.createRecord("account",jsonData).then(
+    function success (result) {
+      res=JSON.parse(result);
+          console.log("Contact created with ID: " + res.id);
+          //perform operations on record creation
+      },
+      function (error) {
+          console.log(error);
+          //handle error conditions
+      }
+);
+
+```

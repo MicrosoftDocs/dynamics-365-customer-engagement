@@ -1,43 +1,45 @@
 ---
-title: "msdyn_resourceterritory Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_resourceterritory Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_resourceterritory entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_resourceterritory Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Allows to specify for which territory a resource could provide services for
 
-**Added by**: Unified Resource Scheduling Solution<br />
+**Added by**: Universal Resource Scheduling Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_resourceterritories(*msdyn_resourceterritoryid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_resourceterritories<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_resourceterritories(*msdyn_resourceterritoryid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_resourceterritories(*msdyn_resourceterritoryid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_resourceterritories<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_resourceterritories(*msdyn_resourceterritoryid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_resourceterritories(*msdyn_resourceterritoryid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_resourceterritories<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_resourceterritories(*msdyn_resourceterritoryid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_resourceterritories<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_resourceterritories(*msdyn_resourceterritoryid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_resourceterritories(*msdyn_resourceterritoryid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_resourceterritories(*msdyn_resourceterritoryid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_resourceterritories(*msdyn_resourceterritoryid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -168,6 +170,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -181,6 +185,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -268,7 +274,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -297,6 +305,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -310,6 +320,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -326,6 +338,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -346,7 +360,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics CRM options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -357,6 +371,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -371,6 +387,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -388,6 +406,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -404,6 +424,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -417,6 +439,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -433,6 +457,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -453,7 +479,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics CRM options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -464,6 +490,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -478,6 +506,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -494,6 +524,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -543,6 +575,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Type the name of the owner.|
@@ -558,6 +592,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -575,6 +611,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -588,6 +626,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -603,6 +643,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -616,6 +658,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -641,10 +685,8 @@ Listed by **SchemaName**.
 - [msdyn_resourceterritory_DuplicateMatchingRecord](#BKMK_msdyn_resourceterritory_DuplicateMatchingRecord)
 - [msdyn_resourceterritory_DuplicateBaseRecord](#BKMK_msdyn_resourceterritory_DuplicateBaseRecord)
 - [msdyn_resourceterritory_SharePointDocumentLocations](#BKMK_msdyn_resourceterritory_SharePointDocumentLocations)
-- [msdyn_resourceterritory_SharePointDocuments](#BKMK_msdyn_resourceterritory_SharePointDocuments)
 - [msdyn_resourceterritory_AsyncOperations](#BKMK_msdyn_resourceterritory_AsyncOperations)
 - [msdyn_resourceterritory_MailboxTrackingFolders](#BKMK_msdyn_resourceterritory_MailboxTrackingFolders)
-- [msdyn_resourceterritory_UserEntityInstanceDatas](#BKMK_msdyn_resourceterritory_UserEntityInstanceDatas)
 - [msdyn_resourceterritory_ProcessSession](#BKMK_msdyn_resourceterritory_ProcessSession)
 - [msdyn_resourceterritory_BulkDeleteFailures](#BKMK_msdyn_resourceterritory_BulkDeleteFailures)
 - [msdyn_resourceterritory_PrincipalObjectAttributeAccesses](#BKMK_msdyn_resourceterritory_PrincipalObjectAttributeAccesses)
@@ -665,6 +707,8 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_resourceterritory_ActivityPointers"></a> msdyn_resourceterritory_ActivityPointers
 
+**Added by**: System Solution Solution
+
 Same as activitypointer entity [msdyn_resourceterritory_ActivityPointers](activitypointer.md#BKMK_msdyn_resourceterritory_ActivityPointers) Many-To-One relationship.
 
 |Property|Value|
@@ -679,6 +723,8 @@ Same as activitypointer entity [msdyn_resourceterritory_ActivityPointers](activi
 
 
 ### <a name="BKMK_msdyn_resourceterritory_msdyn_bookingalerts"></a> msdyn_resourceterritory_msdyn_bookingalerts
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bookingalert entity [msdyn_resourceterritory_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_resourceterritory_msdyn_bookingalerts) Many-To-One relationship.
 
@@ -695,6 +741,8 @@ Same as msdyn_bookingalert entity [msdyn_resourceterritory_msdyn_bookingalerts](
 
 ### <a name="BKMK_msdyn_resourceterritory_SyncErrors"></a> msdyn_resourceterritory_SyncErrors
 
+**Added by**: System Solution Solution
+
 Same as syncerror entity [msdyn_resourceterritory_SyncErrors](syncerror.md#BKMK_msdyn_resourceterritory_SyncErrors) Many-To-One relationship.
 
 |Property|Value|
@@ -705,10 +753,12 @@ Same as syncerror entity [msdyn_resourceterritory_SyncErrors](syncerror.md#BKMK_
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_resourceterritory_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourceterritory_DuplicateMatchingRecord"></a> msdyn_resourceterritory_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_resourceterritory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_resourceterritory_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -725,6 +775,8 @@ Same as duplicaterecord entity [msdyn_resourceterritory_DuplicateMatchingRecord]
 
 ### <a name="BKMK_msdyn_resourceterritory_DuplicateBaseRecord"></a> msdyn_resourceterritory_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_resourceterritory_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_resourceterritory_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -740,6 +792,8 @@ Same as duplicaterecord entity [msdyn_resourceterritory_DuplicateBaseRecord](dup
 
 ### <a name="BKMK_msdyn_resourceterritory_SharePointDocumentLocations"></a> msdyn_resourceterritory_SharePointDocumentLocations
 
+**Added by**: System Solution Solution
+
 Same as sharepointdocumentlocation entity [msdyn_resourceterritory_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_resourceterritory_SharePointDocumentLocations) Many-To-One relationship.
 
 |Property|Value|
@@ -753,22 +807,9 @@ Same as sharepointdocumentlocation entity [msdyn_resourceterritory_SharePointDoc
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_msdyn_resourceterritory_SharePointDocuments"></a> msdyn_resourceterritory_SharePointDocuments
-
-Same as sharepointdocument entity [msdyn_resourceterritory_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_resourceterritory_SharePointDocuments) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|sharepointdocument|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_resourceterritory_SharePointDocuments|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 60|
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
 ### <a name="BKMK_msdyn_resourceterritory_AsyncOperations"></a> msdyn_resourceterritory_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_resourceterritory_AsyncOperations](asyncoperation.md#BKMK_msdyn_resourceterritory_AsyncOperations) Many-To-One relationship.
 
@@ -785,6 +826,8 @@ Same as asyncoperation entity [msdyn_resourceterritory_AsyncOperations](asyncope
 
 ### <a name="BKMK_msdyn_resourceterritory_MailboxTrackingFolders"></a> msdyn_resourceterritory_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_resourceterritory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_resourceterritory_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -795,25 +838,12 @@ Same as mailboxtrackingfolder entity [msdyn_resourceterritory_MailboxTrackingFol
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_resourceterritory_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_resourceterritory_UserEntityInstanceDatas"></a> msdyn_resourceterritory_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_resourceterritory_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_resourceterritory_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_resourceterritory_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourceterritory_ProcessSession"></a> msdyn_resourceterritory_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_resourceterritory_ProcessSession](processsession.md#BKMK_msdyn_resourceterritory_ProcessSession) Many-To-One relationship.
 
@@ -830,6 +860,8 @@ Same as processsession entity [msdyn_resourceterritory_ProcessSession](processse
 
 ### <a name="BKMK_msdyn_resourceterritory_BulkDeleteFailures"></a> msdyn_resourceterritory_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_resourceterritory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_resourceterritory_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -844,6 +876,8 @@ Same as bulkdeletefailure entity [msdyn_resourceterritory_BulkDeleteFailures](bu
 
 
 ### <a name="BKMK_msdyn_resourceterritory_PrincipalObjectAttributeAccesses"></a> msdyn_resourceterritory_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [msdyn_resourceterritory_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_resourceterritory_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -860,6 +894,8 @@ Same as principalobjectattributeaccess entity [msdyn_resourceterritory_Principal
 
 ### <a name="BKMK_msdyn_resourceterritory_Appointments"></a> msdyn_resourceterritory_Appointments
 
+**Added by**: System Solution Solution
+
 Same as appointment entity [msdyn_resourceterritory_Appointments](appointment.md#BKMK_msdyn_resourceterritory_Appointments) Many-To-One relationship.
 
 |Property|Value|
@@ -874,6 +910,8 @@ Same as appointment entity [msdyn_resourceterritory_Appointments](appointment.md
 
 
 ### <a name="BKMK_msdyn_resourceterritory_Emails"></a> msdyn_resourceterritory_Emails
+
+**Added by**: System Solution Solution
 
 Same as email entity [msdyn_resourceterritory_Emails](email.md#BKMK_msdyn_resourceterritory_Emails) Many-To-One relationship.
 
@@ -890,6 +928,8 @@ Same as email entity [msdyn_resourceterritory_Emails](email.md#BKMK_msdyn_resour
 
 ### <a name="BKMK_msdyn_resourceterritory_Faxes"></a> msdyn_resourceterritory_Faxes
 
+**Added by**: System Solution Solution
+
 Same as fax entity [msdyn_resourceterritory_Faxes](fax.md#BKMK_msdyn_resourceterritory_Faxes) Many-To-One relationship.
 
 |Property|Value|
@@ -904,6 +944,8 @@ Same as fax entity [msdyn_resourceterritory_Faxes](fax.md#BKMK_msdyn_resourceter
 
 
 ### <a name="BKMK_msdyn_resourceterritory_Letters"></a> msdyn_resourceterritory_Letters
+
+**Added by**: System Solution Solution
 
 Same as letter entity [msdyn_resourceterritory_Letters](letter.md#BKMK_msdyn_resourceterritory_Letters) Many-To-One relationship.
 
@@ -920,6 +962,8 @@ Same as letter entity [msdyn_resourceterritory_Letters](letter.md#BKMK_msdyn_res
 
 ### <a name="BKMK_msdyn_resourceterritory_PhoneCalls"></a> msdyn_resourceterritory_PhoneCalls
 
+**Added by**: System Solution Solution
+
 Same as phonecall entity [msdyn_resourceterritory_PhoneCalls](phonecall.md#BKMK_msdyn_resourceterritory_PhoneCalls) Many-To-One relationship.
 
 |Property|Value|
@@ -934,6 +978,8 @@ Same as phonecall entity [msdyn_resourceterritory_PhoneCalls](phonecall.md#BKMK_
 
 
 ### <a name="BKMK_msdyn_resourceterritory_Tasks"></a> msdyn_resourceterritory_Tasks
+
+**Added by**: System Solution Solution
 
 Same as task entity [msdyn_resourceterritory_Tasks](task.md#BKMK_msdyn_resourceterritory_Tasks) Many-To-One relationship.
 
@@ -950,6 +996,8 @@ Same as task entity [msdyn_resourceterritory_Tasks](task.md#BKMK_msdyn_resourcet
 
 ### <a name="BKMK_msdyn_resourceterritory_RecurringAppointmentMasters"></a> msdyn_resourceterritory_RecurringAppointmentMasters
 
+**Added by**: System Solution Solution
+
 Same as recurringappointmentmaster entity [msdyn_resourceterritory_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_resourceterritory_RecurringAppointmentMasters) Many-To-One relationship.
 
 |Property|Value|
@@ -964,6 +1012,8 @@ Same as recurringappointmentmaster entity [msdyn_resourceterritory_RecurringAppo
 
 
 ### <a name="BKMK_msdyn_resourceterritory_SocialActivities"></a> msdyn_resourceterritory_SocialActivities
+
+**Added by**: System Solution Solution
 
 Same as socialactivity entity [msdyn_resourceterritory_SocialActivities](socialactivity.md#BKMK_msdyn_resourceterritory_SocialActivities) Many-To-One relationship.
 
@@ -980,6 +1030,8 @@ Same as socialactivity entity [msdyn_resourceterritory_SocialActivities](sociala
 
 ### <a name="BKMK_msdyn_resourceterritory_connections1"></a> msdyn_resourceterritory_connections1
 
+**Added by**: System Solution Solution
+
 Same as connection entity [msdyn_resourceterritory_connections1](connection.md#BKMK_msdyn_resourceterritory_connections1) Many-To-One relationship.
 
 |Property|Value|
@@ -994,6 +1046,8 @@ Same as connection entity [msdyn_resourceterritory_connections1](connection.md#B
 
 
 ### <a name="BKMK_msdyn_resourceterritory_connections2"></a> msdyn_resourceterritory_connections2
+
+**Added by**: System Solution Solution
 
 Same as connection entity [msdyn_resourceterritory_connections2](connection.md#BKMK_msdyn_resourceterritory_connections2) Many-To-One relationship.
 
@@ -1010,6 +1064,8 @@ Same as connection entity [msdyn_resourceterritory_connections2](connection.md#B
 
 ### <a name="BKMK_msdyn_resourceterritory_Annotations"></a> msdyn_resourceterritory_Annotations
 
+**Added by**: System Solution Solution
+
 Same as annotation entity [msdyn_resourceterritory_Annotations](annotation.md#BKMK_msdyn_resourceterritory_Annotations) Many-To-One relationship.
 
 |Property|Value|
@@ -1025,6 +1081,8 @@ Same as annotation entity [msdyn_resourceterritory_Annotations](annotation.md#BK
 
 ### <a name="BKMK_msdyn_resourceterritory_ServiceAppointments"></a> msdyn_resourceterritory_ServiceAppointments
 
+**Added by**: Service Solution
+
 Same as serviceappointment entity [msdyn_resourceterritory_ServiceAppointments](serviceappointment.md#BKMK_msdyn_resourceterritory_ServiceAppointments) Many-To-One relationship.
 
 |Property|Value|
@@ -1039,6 +1097,8 @@ Same as serviceappointment entity [msdyn_resourceterritory_ServiceAppointments](
 
 
 ### <a name="BKMK_msdyn_resourceterritory_msdyn_approvals"></a> msdyn_resourceterritory_msdyn_approvals
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_approval entity [msdyn_resourceterritory_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_resourceterritory_msdyn_approvals) Many-To-One relationship.
 
@@ -1071,43 +1131,61 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_resourceterritory_createdby"></a> lk_msdyn_resourceterritory_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_resourceterritory_createdby](systemuser.md#BKMK_lk_msdyn_resourceterritory_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_resourceterritory_createdonbehalfby"></a> lk_msdyn_resourceterritory_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_resourceterritory_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_resourceterritory_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_resourceterritory_modifiedby"></a> lk_msdyn_resourceterritory_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_resourceterritory_modifiedby](systemuser.md#BKMK_lk_msdyn_resourceterritory_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_resourceterritory_modifiedonbehalfby"></a> lk_msdyn_resourceterritory_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_resourceterritory_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_resourceterritory_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_resourceterritory"></a> user_msdyn_resourceterritory
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_msdyn_resourceterritory](systemuser.md#BKMK_user_msdyn_resourceterritory) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_resourceterritory"></a> team_msdyn_resourceterritory
+
+**Added by**: System Solution Solution
 
 See team Entity [team_msdyn_resourceterritory](team.md#BKMK_team_msdyn_resourceterritory) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_resourceterritory"></a> business_unit_msdyn_resourceterritory
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_msdyn_resourceterritory](businessunit.md#BKMK_business_unit_msdyn_resourceterritory) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookableresource_msdyn_resourceterritory_Resource"></a> msdyn_bookableresource_msdyn_resourceterritory_Resource
 
+**Added by**: Scheduling Solution
+
 See bookableresource Entity [msdyn_bookableresource_msdyn_resourceterritory_Resource](bookableresource.md#BKMK_msdyn_bookableresource_msdyn_resourceterritory_Resource) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_territory_msdyn_resourceterritory_Territory"></a> msdyn_territory_msdyn_resourceterritory_Territory
+
+**Added by**: Application Common Solution
 
 See territory Entity [msdyn_territory_msdyn_resourceterritory_Territory](territory.md#BKMK_msdyn_territory_msdyn_resourceterritory_Territory) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_resourceterritory?text=msdyn_resourceterritory EntityType" />

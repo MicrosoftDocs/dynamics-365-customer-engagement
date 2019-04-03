@@ -142,10 +142,8 @@ The following are entities that are currently read-only in Unified Interface:
 
 - Connection Role
 - EmailSignature
-- Entitlement
 - KnowledgeArticleViews
 - KnowledgeBaseRecord
-- Queue
 - SharePointDocument
 - SharePointSite
 - SLA

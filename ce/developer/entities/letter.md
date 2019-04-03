@@ -1,21 +1,22 @@
 ---
-title: "Letter Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Letter Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Letter entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Letter Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.
 
@@ -24,18 +25,18 @@ Activity that tracks the delivery of a letter. The activity can contain the elec
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/letters(*activityid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/letters<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/letters(*activityid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/letters(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/letters<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/letters(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/letters(*activityid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/letters<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/letters(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/letters<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/letters(*activityid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/letters(*activityid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/letters(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/letters(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -438,7 +439,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_fieldservicesetting,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,quote,salesorder,site|
+|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_fieldservicesetting,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_playbookinstance,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,quote,salesorder,site|
 |Type|Lookup|
 
 
@@ -487,6 +488,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ServiceId"></a> ServiceId
 
+**Added by**: Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for an associated service.|
@@ -533,7 +536,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Shows the ID of the stage.|
-|DisplayName|Process Stage|
+|DisplayName|(Deprecated) Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -683,7 +686,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|Traversed Path|
+|DisplayName|(Deprecated) Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -710,7 +713,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ActivityTypeCode](#BKMK_ActivityTypeCode)
@@ -811,7 +816,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -957,7 +962,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1153,6 +1158,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ServiceIdName"></a> ServiceIdName
 
+**Added by**: Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1262,12 +1269,13 @@ Listed by **SchemaName**.
 - [Letter_DuplicateMatchingRecord](#BKMK_Letter_DuplicateMatchingRecord)
 - [Letter_SyncErrors](#BKMK_Letter_SyncErrors)
 - [letter_activity_parties](#BKMK_letter_activity_parties)
-- [userentityinstancedata_letter](#BKMK_userentityinstancedata_letter)
 - [Letter_QueueItem](#BKMK_Letter_QueueItem)
 - [letter_connections2](#BKMK_letter_connections2)
 
 
 ### <a name="BKMK_letter_campaignresponse"></a> letter_campaignresponse
+
+**Added by**: Marketing Solution
 
 Same as campaignresponse entity [letter_campaignresponse](campaignresponse.md#BKMK_letter_campaignresponse) Many-To-One relationship.
 
@@ -1462,21 +1470,6 @@ Same as activityparty entity [letter_activity_parties](activityparty.md#BKMK_let
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_userentityinstancedata_letter"></a> userentityinstancedata_letter
-
-Same as userentityinstancedata entity [userentityinstancedata_letter](userentityinstancedata.md#BKMK_userentityinstancedata_letter) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_letter|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_Letter_QueueItem"></a> Letter_QueueItem
 
 Same as queueitem entity [Letter_QueueItem](queueitem.md#BKMK_Letter_QueueItem) Many-To-One relationship.
@@ -1524,6 +1517,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [Incident_Letters](#BKMK_Incident_Letters)
 - [site_Letters](#BKMK_site_Letters)
 - [service_letters](#BKMK_service_letters)
+- [msdyn_playbookinstance_Letters](#BKMK_msdyn_playbookinstance_Letters)
 - [Invoice_Letters](#BKMK_Invoice_Letters)
 - [Opportunity_Letters](#BKMK_Opportunity_Letters)
 - [Quote_Letters](#BKMK_Quote_Letters)
@@ -1611,317 +1605,481 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_Lead_Letters"></a> Lead_Letters
 
+**Added by**: Lead Management Solution
+
 See lead Entity [Lead_Letters](lead.md#BKMK_Lead_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_bookableresourcebooking_Letters"></a> bookableresourcebooking_Letters
+
+**Added by**: Scheduling Solution
 
 See bookableresourcebooking Entity [bookableresourcebooking_Letters](bookableresourcebooking.md#BKMK_bookableresourcebooking_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_bookableresourcebookingheader_Letters"></a> bookableresourcebookingheader_Letters
 
+**Added by**: Scheduling Solution
+
 See bookableresourcebookingheader Entity [bookableresourcebookingheader_Letters](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_BulkOperation_Letter"></a> BulkOperation_Letter
+
+**Added by**: Marketing Solution
 
 See bulkoperation Entity [BulkOperation_Letter](bulkoperation.md#BKMK_BulkOperation_Letter) One-To-Many relationship.
 
 ### <a name="BKMK_Campaign_Letters"></a> Campaign_Letters
 
+**Added by**: Marketing Solution
+
 See campaign Entity [Campaign_Letters](campaign.md#BKMK_Campaign_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_CampaignActivity_Letters"></a> CampaignActivity_Letters
+
+**Added by**: Marketing Solution
 
 See campaignactivity Entity [CampaignActivity_Letters](campaignactivity.md#BKMK_CampaignActivity_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_Contract_Letters"></a> Contract_Letters
 
+**Added by**: Service Solution
+
 See contract Entity [Contract_Letters](contract.md#BKMK_Contract_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_entitlement_Letters"></a> entitlement_Letters
+
+**Added by**: Service Solution
 
 See entitlement Entity [entitlement_Letters](entitlement.md#BKMK_entitlement_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_entitlementtemplate_Letters"></a> entitlementtemplate_Letters
 
+**Added by**: Service Solution
+
 See entitlementtemplate Entity [entitlementtemplate_Letters](entitlementtemplate.md#BKMK_entitlementtemplate_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_Incident_Letters"></a> Incident_Letters
+
+**Added by**: Service Solution
 
 See incident Entity [Incident_Letters](incident.md#BKMK_Incident_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_site_Letters"></a> site_Letters
 
+**Added by**: Service Solution
+
 See site Entity [site_Letters](site.md#BKMK_site_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_service_letters"></a> service_letters
 
+**Added by**: Service Solution
+
 See service Entity [service_letters](service.md#BKMK_service_letters) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_playbookinstance_Letters"></a> msdyn_playbookinstance_Letters
+
+**Added by**: Playbook Solution
+
+See msdyn_playbookinstance Entity [msdyn_playbookinstance_Letters](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_Letters) One-To-Many relationship.
+
 ### <a name="BKMK_Invoice_Letters"></a> Invoice_Letters
+
+**Added by**: Sales Solution
 
 See invoice Entity [Invoice_Letters](invoice.md#BKMK_Invoice_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_Opportunity_Letters"></a> Opportunity_Letters
 
+**Added by**: Sales Solution
+
 See opportunity Entity [Opportunity_Letters](opportunity.md#BKMK_Opportunity_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_Quote_Letters"></a> Quote_Letters
+
+**Added by**: Sales Solution
 
 See quote Entity [Quote_Letters](quote.md#BKMK_Quote_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_SalesOrder_Letters"></a> SalesOrder_Letters
 
+**Added by**: Sales Solution
+
 See salesorder Entity [SalesOrder_Letters](salesorder.md#BKMK_SalesOrder_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_postalbum_Letters"></a> msdyn_postalbum_Letters
+
+**Added by**: Activity Feeds Solution
 
 See msdyn_postalbum Entity [msdyn_postalbum_Letters](msdyn_postalbum.md#BKMK_msdyn_postalbum_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingalertstatus_Letters"></a> msdyn_bookingalertstatus_Letters
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_bookingalertstatus Entity [msdyn_bookingalertstatus_Letters](msdyn_bookingalertstatus.md#BKMK_msdyn_bookingalertstatus_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingrule_Letters"></a> msdyn_bookingrule_Letters
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_bookingrule Entity [msdyn_bookingrule_Letters](msdyn_bookingrule.md#BKMK_msdyn_bookingrule_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_resourceterritory_Letters"></a> msdyn_resourceterritory_Letters
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_resourceterritory Entity [msdyn_resourceterritory_Letters](msdyn_resourceterritory.md#BKMK_msdyn_resourceterritory_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_systemuserschedulersetting_Letters"></a> msdyn_systemuserschedulersetting_Letters
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_systemuserschedulersetting Entity [msdyn_systemuserschedulersetting_Letters](msdyn_systemuserschedulersetting.md#BKMK_msdyn_systemuserschedulersetting_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timegroup_Letters"></a> msdyn_timegroup_Letters
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_timegroup Entity [msdyn_timegroup_Letters](msdyn_timegroup.md#BKMK_msdyn_timegroup_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timegroupdetail_Letters"></a> msdyn_timegroupdetail_Letters
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_Letters](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_processnotes_Letters"></a> msdyn_processnotes_Letters
 
+**Added by**: Project Service Automation Solution
+
 See msdyn_processnotes Entity [msdyn_processnotes_Letters](msdyn_processnotes.md#BKMK_msdyn_processnotes_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_projectteam_Letters"></a> msdyn_projectteam_Letters
+
+**Added by**: Project Service Automation Solution
 
 See msdyn_projectteam Entity [msdyn_projectteam_Letters](msdyn_projectteam.md#BKMK_msdyn_projectteam_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreement_Letters"></a> msdyn_agreement_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_agreement Entity [msdyn_agreement_Letters](msdyn_agreement.md#BKMK_msdyn_agreement_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingdate_Letters"></a> msdyn_agreementbookingdate_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_Letters](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingincident_Letters"></a> msdyn_agreementbookingincident_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingincident Entity [msdyn_agreementbookingincident_Letters](msdyn_agreementbookingincident.md#BKMK_msdyn_agreementbookingincident_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingproduct_Letters"></a> msdyn_agreementbookingproduct_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingproduct Entity [msdyn_agreementbookingproduct_Letters](msdyn_agreementbookingproduct.md#BKMK_msdyn_agreementbookingproduct_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingservice_Letters"></a> msdyn_agreementbookingservice_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingservice Entity [msdyn_agreementbookingservice_Letters](msdyn_agreementbookingservice.md#BKMK_msdyn_agreementbookingservice_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingservicetask_Letters"></a> msdyn_agreementbookingservicetask_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingservicetask Entity [msdyn_agreementbookingservicetask_Letters](msdyn_agreementbookingservicetask.md#BKMK_msdyn_agreementbookingservicetask_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingsetup_Letters"></a> msdyn_agreementbookingsetup_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_Letters](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoicedate_Letters"></a> msdyn_agreementinvoicedate_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_Letters](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoiceproduct_Letters"></a> msdyn_agreementinvoiceproduct_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementinvoiceproduct Entity [msdyn_agreementinvoiceproduct_Letters](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_agreementinvoiceproduct_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoicesetup_Letters"></a> msdyn_agreementinvoicesetup_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_Letters](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingtimestamp_Letters"></a> msdyn_bookingtimestamp_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_bookingtimestamp Entity [msdyn_bookingtimestamp_Letters](msdyn_bookingtimestamp.md#BKMK_msdyn_bookingtimestamp_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_customerasset_Letters"></a> msdyn_customerasset_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_customerasset Entity [msdyn_customerasset_Letters](msdyn_customerasset.md#BKMK_msdyn_customerasset_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Letters"></a> msdyn_fieldservicesetting_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_fieldservicesetting Entity [msdyn_fieldservicesetting_Letters](msdyn_fieldservicesetting.md#BKMK_msdyn_fieldservicesetting_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypecharacteristic_Letters"></a> msdyn_incidenttypecharacteristic_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_incidenttypecharacteristic Entity [msdyn_incidenttypecharacteristic_Letters](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_incidenttypecharacteristic_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypeproduct_Letters"></a> msdyn_incidenttypeproduct_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_incidenttypeproduct Entity [msdyn_incidenttypeproduct_Letters](msdyn_incidenttypeproduct.md#BKMK_msdyn_incidenttypeproduct_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypeservice_Letters"></a> msdyn_incidenttypeservice_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_incidenttypeservice Entity [msdyn_incidenttypeservice_Letters](msdyn_incidenttypeservice.md#BKMK_msdyn_incidenttypeservice_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryadjustment_Letters"></a> msdyn_inventoryadjustment_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_Letters](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryadjustmentproduct_Letters"></a> msdyn_inventoryadjustmentproduct_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_inventoryadjustmentproduct Entity [msdyn_inventoryadjustmentproduct_Letters](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_inventoryadjustmentproduct_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryjournal_Letters"></a> msdyn_inventoryjournal_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_inventoryjournal Entity [msdyn_inventoryjournal_Letters](msdyn_inventoryjournal.md#BKMK_msdyn_inventoryjournal_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventorytransfer_Letters"></a> msdyn_inventorytransfer_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_Letters](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_payment_Letters"></a> msdyn_payment_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_payment Entity [msdyn_payment_Letters](msdyn_payment.md#BKMK_msdyn_payment_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentdetail_Letters"></a> msdyn_paymentdetail_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_paymentdetail Entity [msdyn_paymentdetail_Letters](msdyn_paymentdetail.md#BKMK_msdyn_paymentdetail_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentmethod_Letters"></a> msdyn_paymentmethod_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_paymentmethod Entity [msdyn_paymentmethod_Letters](msdyn_paymentmethod.md#BKMK_msdyn_paymentmethod_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentterm_Letters"></a> msdyn_paymentterm_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_paymentterm Entity [msdyn_paymentterm_Letters](msdyn_paymentterm.md#BKMK_msdyn_paymentterm_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_postalcode_Letters"></a> msdyn_postalcode_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_postalcode Entity [msdyn_postalcode_Letters](msdyn_postalcode.md#BKMK_msdyn_postalcode_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_productinventory_Letters"></a> msdyn_productinventory_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_productinventory Entity [msdyn_productinventory_Letters](msdyn_productinventory.md#BKMK_msdyn_productinventory_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorder_Letters"></a> msdyn_purchaseorder_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorder Entity [msdyn_purchaseorder_Letters](msdyn_purchaseorder.md#BKMK_msdyn_purchaseorder_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderbill_Letters"></a> msdyn_purchaseorderbill_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorderbill Entity [msdyn_purchaseorderbill_Letters](msdyn_purchaseorderbill.md#BKMK_msdyn_purchaseorderbill_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderproduct_Letters"></a> msdyn_purchaseorderproduct_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorderproduct Entity [msdyn_purchaseorderproduct_Letters](msdyn_purchaseorderproduct.md#BKMK_msdyn_purchaseorderproduct_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderreceipt_Letters"></a> msdyn_purchaseorderreceipt_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorderreceipt Entity [msdyn_purchaseorderreceipt_Letters](msdyn_purchaseorderreceipt.md#BKMK_msdyn_purchaseorderreceipt_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderreceiptproduct_Letters"></a> msdyn_purchaseorderreceiptproduct_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorderreceiptproduct Entity [msdyn_purchaseorderreceiptproduct_Letters](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_purchaseorderreceiptproduct_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseordersubstatus_Letters"></a> msdyn_purchaseordersubstatus_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseordersubstatus Entity [msdyn_purchaseordersubstatus_Letters](msdyn_purchaseordersubstatus.md#BKMK_msdyn_purchaseordersubstatus_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingincident_Letters"></a> msdyn_quotebookingincident_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_quotebookingincident Entity [msdyn_quotebookingincident_Letters](msdyn_quotebookingincident.md#BKMK_msdyn_quotebookingincident_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingproduct_Letters"></a> msdyn_quotebookingproduct_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_quotebookingproduct Entity [msdyn_quotebookingproduct_Letters](msdyn_quotebookingproduct.md#BKMK_msdyn_quotebookingproduct_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingservice_Letters"></a> msdyn_quotebookingservice_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_quotebookingservice Entity [msdyn_quotebookingservice_Letters](msdyn_quotebookingservice.md#BKMK_msdyn_quotebookingservice_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingservicetask_Letters"></a> msdyn_quotebookingservicetask_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_quotebookingservicetask Entity [msdyn_quotebookingservicetask_Letters](msdyn_quotebookingservicetask.md#BKMK_msdyn_quotebookingservicetask_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rma_Letters"></a> msdyn_rma_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_rma Entity [msdyn_rma_Letters](msdyn_rma.md#BKMK_msdyn_rma_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmaproduct_Letters"></a> msdyn_rmaproduct_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_rmaproduct Entity [msdyn_rmaproduct_Letters](msdyn_rmaproduct.md#BKMK_msdyn_rmaproduct_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmareceipt_Letters"></a> msdyn_rmareceipt_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_rmareceipt Entity [msdyn_rmareceipt_Letters](msdyn_rmareceipt.md#BKMK_msdyn_rmareceipt_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmareceiptproduct_Letters"></a> msdyn_rmareceiptproduct_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_rmareceiptproduct Entity [msdyn_rmareceiptproduct_Letters](msdyn_rmareceiptproduct.md#BKMK_msdyn_rmareceiptproduct_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmasubstatus_Letters"></a> msdyn_rmasubstatus_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_rmasubstatus Entity [msdyn_rmasubstatus_Letters](msdyn_rmasubstatus.md#BKMK_msdyn_rmasubstatus_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtv_Letters"></a> msdyn_rtv_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_rtv Entity [msdyn_rtv_Letters](msdyn_rtv.md#BKMK_msdyn_rtv_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtvproduct_Letters"></a> msdyn_rtvproduct_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_rtvproduct Entity [msdyn_rtvproduct_Letters](msdyn_rtvproduct.md#BKMK_msdyn_rtvproduct_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtvsubstatus_Letters"></a> msdyn_rtvsubstatus_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_rtvsubstatus Entity [msdyn_rtvsubstatus_Letters](msdyn_rtvsubstatus.md#BKMK_msdyn_rtvsubstatus_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_shipvia_Letters"></a> msdyn_shipvia_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_shipvia Entity [msdyn_shipvia_Letters](msdyn_shipvia.md#BKMK_msdyn_shipvia_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timeoffrequest_Letters"></a> msdyn_timeoffrequest_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_timeoffrequest Entity [msdyn_timeoffrequest_Letters](msdyn_timeoffrequest.md#BKMK_msdyn_timeoffrequest_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_warehouse_Letters"></a> msdyn_warehouse_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_warehouse Entity [msdyn_warehouse_Letters](msdyn_warehouse.md#BKMK_msdyn_warehouse_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorder_Letters"></a> msdyn_workorder_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_workorder Entity [msdyn_workorder_Letters](msdyn_workorder.md#BKMK_msdyn_workorder_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workordercharacteristic_Letters"></a> msdyn_workordercharacteristic_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_workordercharacteristic Entity [msdyn_workordercharacteristic_Letters](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderincident_Letters"></a> msdyn_workorderincident_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderincident Entity [msdyn_workorderincident_Letters](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderproduct_Letters"></a> msdyn_workorderproduct_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderproduct Entity [msdyn_workorderproduct_Letters](msdyn_workorderproduct.md#BKMK_msdyn_workorderproduct_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderresourcerestriction_Letters"></a> msdyn_workorderresourcerestriction_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderresourcerestriction Entity [msdyn_workorderresourcerestriction_Letters](msdyn_workorderresourcerestriction.md#BKMK_msdyn_workorderresourcerestriction_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderservice_Letters"></a> msdyn_workorderservice_Letters
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderservice Entity [msdyn_workorderservice_Letters](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_Letters) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderservicetask_Letters"></a> msdyn_workorderservicetask_Letters
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_Letters](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_Letters) One-To-Many relationship.
 
@@ -1992,6 +2150,6 @@ See systemuser Entity [lk_letter_modifiedonbehalfby](systemuser.md#BKMK_lk_lette
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.letter?text=letter EntityType" />

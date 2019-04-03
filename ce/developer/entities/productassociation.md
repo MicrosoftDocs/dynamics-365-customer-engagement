@@ -1,36 +1,38 @@
 ---
-title: "ProductAssociation Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "ProductAssociation Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ProductAssociation entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # ProductAssociation Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Instance of a product added to a bundle or kit.
 
-**Added by**: Product Management Solution<br />
+**Added by**: Product Management Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/productassociations<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/productassociations(*productassociationid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/productassociations(*productassociationid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/productassociations<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/productassociations(*productassociationid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/productassociations(*productassociationid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.0/productassociations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/productassociations(*productassociationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/productassociations(*productassociationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/productassociations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/productassociations(*productassociationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/productassociations(*productassociationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -327,7 +329,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [AssociatedProductIdName](#BKMK_AssociatedProductIdName)
@@ -423,7 +427,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when the record was created.|
 |DisplayName|Created On|
-|Format|DateOnly|
+|Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|createdon|
@@ -546,7 +550,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when the record was modified.|
 |DisplayName|Modified On|
-|Format|DateOnly|
+|Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|modifiedon|
@@ -701,7 +705,6 @@ Listed by **SchemaName**.
 - [ProductAssociation_SyncErrors](#BKMK_ProductAssociation_SyncErrors)
 - [ProductAssociation_AsyncOperations](#BKMK_ProductAssociation_AsyncOperations)
 - [productassociation_MailboxTrackingFolders](#BKMK_productassociation_MailboxTrackingFolders)
-- [userentityinstancedata_productassociation](#BKMK_userentityinstancedata_productassociation)
 - [ProductAssociation_ProcessSessions](#BKMK_ProductAssociation_ProcessSessions)
 - [productassociation_BulkDeleteFailures](#BKMK_productassociation_BulkDeleteFailures)
 - [ProductAssociation_PrincipalObjectAttributeAccess](#BKMK_ProductAssociation_PrincipalObjectAttributeAccess)
@@ -714,6 +717,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_ProductAssociation_SyncErrors"></a> ProductAssociation_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [ProductAssociation_SyncErrors](syncerror.md#BKMK_ProductAssociation_SyncErrors) Many-To-One relationship.
 
@@ -730,6 +735,8 @@ Same as syncerror entity [ProductAssociation_SyncErrors](syncerror.md#BKMK_Produ
 
 ### <a name="BKMK_ProductAssociation_AsyncOperations"></a> ProductAssociation_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [ProductAssociation_AsyncOperations](asyncoperation.md#BKMK_ProductAssociation_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -745,6 +752,8 @@ Same as asyncoperation entity [ProductAssociation_AsyncOperations](asyncoperatio
 
 ### <a name="BKMK_productassociation_MailboxTrackingFolders"></a> productassociation_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [productassociation_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_productassociation_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -758,22 +767,9 @@ Same as mailboxtrackingfolder entity [productassociation_MailboxTrackingFolders]
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_userentityinstancedata_productassociation"></a> userentityinstancedata_productassociation
-
-Same as userentityinstancedata entity [userentityinstancedata_productassociation](userentityinstancedata.md#BKMK_userentityinstancedata_productassociation) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_productassociation|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_ProductAssociation_ProcessSessions"></a> ProductAssociation_ProcessSessions
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [ProductAssociation_ProcessSessions](processsession.md#BKMK_ProductAssociation_ProcessSessions) Many-To-One relationship.
 
@@ -790,6 +786,8 @@ Same as processsession entity [ProductAssociation_ProcessSessions](processsessio
 
 ### <a name="BKMK_productassociation_BulkDeleteFailures"></a> productassociation_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [productassociation_BulkDeleteFailures](bulkdeletefailure.md#BKMK_productassociation_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -804,6 +802,8 @@ Same as bulkdeletefailure entity [productassociation_BulkDeleteFailures](bulkdel
 
 
 ### <a name="BKMK_ProductAssociation_PrincipalObjectAttributeAccess"></a> ProductAssociation_PrincipalObjectAttributeAccess
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [ProductAssociation_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_ProductAssociation_PrincipalObjectAttributeAccess) Many-To-One relationship.
 
@@ -850,6 +850,8 @@ Same as dynamicproperty entity [ProductAssociation_DynamicProperty](dynamicprope
 
 ### <a name="BKMK_productAssociation_quote_details"></a> productAssociation_quote_details
 
+**Added by**: Sales Solution
+
 Same as quotedetail entity [productAssociation_quote_details](quotedetail.md#BKMK_productAssociation_quote_details) Many-To-One relationship.
 
 |Property|Value|
@@ -864,6 +866,8 @@ Same as quotedetail entity [productAssociation_quote_details](quotedetail.md#BKM
 
 
 ### <a name="BKMK_productAssociation_opportunity_product"></a> productAssociation_opportunity_product
+
+**Added by**: Sales Solution
 
 Same as opportunityproduct entity [productAssociation_opportunity_product](opportunityproduct.md#BKMK_productAssociation_opportunity_product) Many-To-One relationship.
 
@@ -880,6 +884,8 @@ Same as opportunityproduct entity [productAssociation_opportunity_product](oppor
 
 ### <a name="BKMK_productAssociation_invoice_details"></a> productAssociation_invoice_details
 
+**Added by**: Sales Solution
+
 Same as invoicedetail entity [productAssociation_invoice_details](invoicedetail.md#BKMK_productAssociation_invoice_details) Many-To-One relationship.
 
 |Property|Value|
@@ -894,6 +900,8 @@ Same as invoicedetail entity [productAssociation_invoice_details](invoicedetail.
 
 
 ### <a name="BKMK_productAssociation_salesorder_details"></a> productAssociation_salesorder_details
+
+**Added by**: Sales Solution
 
 Same as salesorderdetail entity [productAssociation_salesorder_details](salesorderdetail.md#BKMK_productAssociation_salesorder_details) Many-To-One relationship.
 
@@ -926,21 +934,31 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_ProductAssociate_createdby"></a> lk_ProductAssociate_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_ProductAssociate_createdby](systemuser.md#BKMK_lk_ProductAssociate_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_ProductAssociation_createdonbehalfby"></a> lk_ProductAssociation_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_ProductAssociation_createdonbehalfby](systemuser.md#BKMK_lk_ProductAssociation_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_ProductAssociation_modifiedby"></a> lk_ProductAssociation_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_ProductAssociation_modifiedby](systemuser.md#BKMK_lk_ProductAssociation_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_ProductAssociation_modifiedonbehalfby"></a> lk_ProductAssociation_modifiedonbehalfby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_ProductAssociation_modifiedonbehalfby](systemuser.md#BKMK_lk_ProductAssociation_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_organization_ProductAssociation"></a> organization_ProductAssociation
+
+**Added by**: System Solution Solution
 
 See organization Entity [organization_ProductAssociation](organization.md#BKMK_organization_ProductAssociation) One-To-Many relationship.
 
@@ -954,6 +972,8 @@ See product Entity [Product_ProductAssociation_Prod](product.md#BKMK_Product_Pro
 
 ### <a name="BKMK_transactioncurrency_ProductAssociation"></a> transactioncurrency_ProductAssociation
 
+**Added by**: System Solution Solution
+
 See transactioncurrency Entity [transactioncurrency_ProductAssociation](transactioncurrency.md#BKMK_transactioncurrency_ProductAssociation) One-To-Many relationship.
 
 ### <a name="BKMK_unit_of_measurement_productassociation"></a> unit_of_measurement_productassociation
@@ -963,6 +983,6 @@ See uom Entity [unit_of_measurement_productassociation](uom.md#BKMK_unit_of_meas
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.productassociation?text=productassociation EntityType" />

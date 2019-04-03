@@ -4,7 +4,8 @@
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
 ## [About Unified Interface](about-unified-interface.md)
-<!-- ## [Update apps to Unified Interface](update-apps-to-unified-interface.md) -->
+## [Enable Unified Interface Only](enable-unified-interface-only.md) 
+## [Update apps to Unified Interface](update-apps-to-unified-interface.md)
 ## [Enable hybrid experience](enable-hybrid-experience.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
@@ -77,7 +78,6 @@
 ## [Team templates for access rights](create-team-template-add-entity-form.md)
 ## [Add teams or users to field security profile](add-teams-users-field-security-profile.md)
 ## [Synchronize user information between Dynamics 365 for Customer Engagement and Active Directory](synchronize-user-information-active-directory.md)
-<!-- removed as duplicate  ## [Create or edit a business unit](create-edit-business-unit-control-access-records.md) -->
 ## [Add or remove sales territory members](add-remove-territory-members.md)
 ## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md)
 
@@ -102,6 +102,8 @@
 # [Datacenter regions](../admin/datacenter/new-datacenter-regions.md)
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
 ## [Canada](../admin/datacenter/about-microsoft-cloud-canada.md)
+<!-- ## [China](../admin/datacenter/about-microsoft-cloud-china.md)
+### [21Vianet support](../admin/datacenter/21vianet-support.md) -->
 ## [Germany](../admin/datacenter/about-microsoft-cloud-germany.md)
 ## [India](../admin/datacenter/about-microsoft-cloud-india.md)
 ## [Japan](../admin/datacenter/about-microsoft-cloud-japan.md)
@@ -147,7 +149,7 @@
 ## [Data encryption](data-encryption.md)
 ## [Remove user personal data](remove-user-personal-data.md)
 ## [Manage storage](manage-storage.md)
-## [Free storage space](free-storage-space.md)
+## [Free storage space](free-storage-space.md) -->
 ## [Fixing Add License Wizard and Add Storage Wizard errors](add-license-wizard-add-storage-wizard-errors.md)
 ## [Recover database space by deleting audit logs](recover-database-space-deleting-audit-logs.md)
 ## [Enable change tracking to control data synchronization](enable-change-tracking-control-data-synchronization.md)
@@ -239,6 +241,7 @@
 #### [Skype for Business and Skype integration](skype-business-integration.md)
 #### [Set up Dynamics 365 for Customer Engagement to use Skype or Skype for Business](set-up-skype-or-skype-for-business.md)
 #### [Deploy Office 365 Groups](deploy-office-365-groups.md)
+#### [Enable viewing profile cards](enable-profile-card.md)
 #### [Set up OneNote integration](set-up-onenote-integration-in-dynamics-365.md)
 #### [Enable OneDrive for Business (online)](enable-onedrive-for-business.md)
 #### [Enable OneDrive for Business (on-premises)](connect-onedrive-business.md)
@@ -249,8 +252,8 @@
 ## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
 
-# [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
-## [Dynamics 365 Government - Feature availability](../admin/government/government-feature-availability.md)
+# [Dynamics 365 US Government](../admin/government/microsoft-dynamics-365-government.md)
+## [Dynamics 365 US Government - Feature availability](../admin/government/government-feature-availability.md)
 
 # System Settings Dialog Box Reference
 ## [General tab](system-settings-dialog-box-general-tab.md)
