@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/create-entity-web-api
 title: "Create an entity using the Web API (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Read how to create a POST request to send data to create an entity on Dynamics 365 for Customer Engagement using the Web API"
 ms.custom: 

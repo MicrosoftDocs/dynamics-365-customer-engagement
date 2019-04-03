@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/start-web-api-project-visual-studio-csharp
 title: "Start a Dynamics 365 for Customer Engagement Web API project in Visual Studio (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Create a new project in Visual Studio to build a console application that uses Dynamics 365 for Customer Engagement Web API"
 ms.custom: 

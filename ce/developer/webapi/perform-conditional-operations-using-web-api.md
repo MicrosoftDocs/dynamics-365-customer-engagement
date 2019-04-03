@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/perform-conditional-operations-using-web-api
 title: "Perform conditional operations using the Web API (Dynamics 365 for Customer Engagement apps SDK)| MicrosoftDocs"
 description: "Read how to create conditions that decide whether and how to perform certain operations using the Web API"
 ms.custom: 

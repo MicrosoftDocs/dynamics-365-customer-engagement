@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/query-metadata-web-api
 title: "Query metadata using the Web API (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The capability to query system metadata is available using the Web API as well as using the organization service by using RetrieveMetadataChangesRequest"
 ms.custom: 

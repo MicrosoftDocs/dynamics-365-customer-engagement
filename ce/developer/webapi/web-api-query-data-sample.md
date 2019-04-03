@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-query-data-sample
 title: "Web API Query Data Sample (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This group of samples shows how to query data using the Web API. These are implemented using Client-side JavaScript and C#"
 ms.custom: 

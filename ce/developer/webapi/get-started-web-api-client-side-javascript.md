@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/get-started-web-api-client-side-javascript
 title: "Get started with the Dynamics 365 for Customer Engagement Web API (client-side JavaScript) | MicrosoftDocs"
 description: "JavaScript can be used in HTML web resources, form scripts or ribbon commands to perform operations on Dynamics 365 for Customer Engagement data using Web API"
 ms.custom: 

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-samples
 title: "Web API Samples (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The Dynamics 365 for Customer Engagement apps SDK provides a matrix of samples demonstrating how to use the Web API in a number of different ways. Find here the C# and JavaScript implementations of Basic Operations, Query Data, Conditional Operations and Functions and Actions sample"
 ms.custom: 

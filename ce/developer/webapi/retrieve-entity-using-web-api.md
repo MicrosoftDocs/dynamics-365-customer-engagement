@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api
 title: "Retrieve an entity using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how to form a GET request using the Dynamics 365 for Customer Engagement Web API to retrieve data for an entity specified as the resource with a unique identifier"
 ms.custom: 

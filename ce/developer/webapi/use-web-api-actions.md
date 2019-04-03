@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions
 title: "Use Web API actions (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 descriptions: Actions are reusable operations that can be performed using the Web API. These are used with a POST request to modify data on Dynamics 365 for Customer Engagement
 ms.custom: 

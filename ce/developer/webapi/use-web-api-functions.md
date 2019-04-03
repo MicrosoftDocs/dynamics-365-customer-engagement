@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-functions
 title: "Use Web API functions (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Functions are reusable operations that are used with a GET request to retrieve data from Dynamics 365 for Customer Engagement"
 ms.custom: 

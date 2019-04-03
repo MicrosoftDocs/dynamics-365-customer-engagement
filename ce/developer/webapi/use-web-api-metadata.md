@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-metadata
 title: "Use the Web API with metadata (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The section provides guidance about how to use the Web API with the entity types included in Web API Metadata EntityType Reference."
 ms.custom: 

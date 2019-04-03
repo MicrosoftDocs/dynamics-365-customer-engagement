@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/retrieve-and-execute-predefined-queries
 title: "Retrieve and execute predefined queries (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Dynamics 365 for Customer Engagement provides a way for administrators to create system views that are available to all users. Read how you can compose a predefined query and use FetchXML to create a query string to retrieve data"
 ms.custom: 

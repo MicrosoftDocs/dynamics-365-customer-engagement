@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query
 title: "Retrieve related entities with a query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can retrieve related entities by expanding the navigation properties."
 ms.custom: 

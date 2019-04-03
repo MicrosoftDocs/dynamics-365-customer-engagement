@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-postman-perform-operations
 title: "Use Postman to perform operations with the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to compose and send Web API requests using Postman."
 ms.custom: 

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/query-data-web-api
 title: "Query Data using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the various ways to query Dynamics 365 for Customer Engagement data using the Dynamics 365 for Customer Engagement Web API and various system query options that can be applied in these queries"
 ms.custom: 

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-conditional-operations-sample
 title: "Web API Conditional Operations Sample (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This group of samples demonstrate how to perform operations that are conditionally based upon the version of the entity record contained on the Dynamics 365 for Customer Engagement server and/or currently maintained by the client"
 ms.custom: 

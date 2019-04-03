@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api
 title: "Update and delete entities using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how to perform update and delete operations on entities using the Web API"
 ms.custom: 

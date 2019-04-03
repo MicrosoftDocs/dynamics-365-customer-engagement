@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-basic-operations-sample-csharp
 title: "Web API Basic Operations Sample (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample demonstrates how to perform basic CRUD (Create, Retrieve, Update, and Delete) and association and dissociation operations on Dynamics 365 for Customer Engagement entity instances, using the Dynamics 365 for Customer Engagement Web API"
 ms.custom: 
