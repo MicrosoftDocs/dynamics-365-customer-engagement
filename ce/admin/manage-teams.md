@@ -29,7 +29,7 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps 
   
  You can use two types of teams:  
   
-- An *owner* team owns records and has security roles assigned to the team. The team’s privileges are defined by these security roles. In addition to privileges provided by the team, team members have the privileges defined by their individual security roles and team member’s privilege inheritance roles (see [Create or edit a security role to manage access](create-edit-security-role.md)), and by the roles from other teams in which they are members. A team has full access rights on the records that the team owns. Team members are added manually to the owner team. 
+- An *owner* team owns records and has security roles assigned to the team. The team’s privileges are defined by these security roles. In addition to privileges provided by the team, team members have the privileges defined by their individual security roles and team member’s privilege inheritance roles (see [Security roles and privileges](security-roles-privileges.md)), and by the roles from other teams in which they are members. A team has full access rights on the records that the team owns. Team members are added manually to the owner team. 
 
 - An Azure Active Directory (AAD) *group* team. Similar to owner team, an AAD group team can own records and can have security roles assigned to the team. There are two *group* team types and they correspond directly to the AAD group types – Security and Office. Team members are dynamically derived (added and removed) when they access the instance based on their AAD group membership.  
   
