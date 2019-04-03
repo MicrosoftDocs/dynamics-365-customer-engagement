@@ -12,6 +12,10 @@
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
+## [Priorities](set-priorities.md)
+## [Postal codes](set-up-postal-codes.md)
+## [Tax codes](set-up-tax-codes.md)
+## [Territories](set-up-territories.md)
 ## [Field Service settings](configure-default-settings.md)
 
 
@@ -20,17 +24,14 @@
 
 # Work orders
 ## [Create a new work order](create-work-order.md)
+## [Add a customer, location, and related account details to a work order](work-order-customer-account.md)
 ## [Work order types](create-work-order-types.md)
-## [Create a product or service](create-product-or-service.md)
 ## [Price list](create-price-list.md)
+## [Create a product or service](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
 ## [Incident types](configure-incident-types.md)
 ## [Work order sub-statuses](set-up-work-order-sub-statuses.md)
-## [Priorities](set-priorities.md)
-## [Territories](set-up-territories.md)
-## [Postal codes](set-up-postal-codes.md)
-## [Tax codes](set-up-tax-codes.md)
-## [Service level agreements](sla-work-orders.md)
+
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
@@ -73,6 +74,7 @@
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
+## [Service level agreements](sla-work-orders.md)
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 
 # Assets, inventory and purchasing
