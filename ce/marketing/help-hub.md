@@ -94,7 +94,7 @@ search.app:
 <li><a href="market-to-leads.md" data-raw-source="[Market to leads](market-to-leads.md)">Market to leads</a></li>
 <li><a href="score-manage-leads.md" data-raw-source="[Score and manage leads](score-manage-leads.md)">Score and manage leads</a></li>
 <li><a href="event-management.md" data-raw-source="[Plan and manage events](event-management.md)">Plan and manage events</a></li>
-<li><a href="portals.md" data-raw-source="[Engage customers online with portals](portals.md)">Engage customers online with portals</a></li>
+<li><a href="portals.md" data-raw-source="[Create interactive features with or without portals](portals.md)">Create interactive features with or without portals</a></li>
 <li><a href="surveys.md" data-raw-source="[Create and run online surveys](surveys.md)">Create and run online surveys</a></li>
 <li><a href="linkedin-lead-gen-integration.md" data-raw-source="[Integrate with LinkedIn Lead Gen](linkedin-lead-gen-integration.md)">Integrate with LinkedIn Lead Gen</a></li>
 

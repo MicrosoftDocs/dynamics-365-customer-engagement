@@ -163,6 +163,6 @@ Where:
 ### See also
 
 [Set up online payment for events](event-payment-gateway.md)  
-[Engage customers online with portals](portals.md)  
+[Create interactive features with or without portals](portals.md)  
 [Set up an event](set-up-event.md)  
 [Go live with publishable entities and track their status](go-live.md)

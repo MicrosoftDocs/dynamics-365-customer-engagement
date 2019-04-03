@@ -136,7 +136,7 @@
 #### [Record and view financial information for events](event-financials.md)
 
 ### Engage contacts with portals and surveys
-#### [Engage customers online with portals](portals.md)
+#### [Create interactive features with or without portals](portals.md)
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media

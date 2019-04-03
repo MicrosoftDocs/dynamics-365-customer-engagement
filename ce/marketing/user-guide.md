@@ -100,7 +100,7 @@ search.app:
 <tr><td>
 
 <h2>Engage with contacts online</h2>
-<li><a href="portals.md" data-raw-source="[Engage customers online with portals](portals.md)">Engage customers online with portals</a></li>
+<li><a href="portals.md" data-raw-source="[Create interactive features with or without portals](portals.md)">Create interactive features with or without portals</a></li>
 <li><a href="surveys.md" data-raw-source="[Create and run online surveys](surveys.md)">Create and run online surveys</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
 <li><a href="LinkedIn-Lead-Gen-integration.md" data-raw-source="[Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)">Integrate with LinkedIn Lead Gen</a></li>
