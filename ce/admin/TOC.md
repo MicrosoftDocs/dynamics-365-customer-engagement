@@ -241,6 +241,7 @@
 #### [Skype for Business and Skype integration](skype-business-integration.md)
 #### [Set up Dynamics 365 for Customer Engagement to use Skype or Skype for Business](set-up-skype-or-skype-for-business.md)
 #### [Deploy Office 365 Groups](deploy-office-365-groups.md)
+#### [Enable viewing profile cards](enable-profile-card.md)
 #### [Set up OneNote integration](set-up-onenote-integration-in-dynamics-365.md)
 #### [Enable OneDrive for Business (online)](enable-onedrive-for-business.md)
 #### [Enable OneDrive for Business (on-premises)](connect-onedrive-business.md)
