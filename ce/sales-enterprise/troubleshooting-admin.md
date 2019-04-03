@@ -113,7 +113,7 @@ These issues might occur due to improper customization of the application. You m
 
 - [Deactivate custom plug-in](#deactivate-custom-plug-in)
 - [Disable custom JavaScript](#disable-custom-javascript)
-- [Deactivate custom workflow process](#deactivate-custom-workflow-process)
+- [Deactivate custom workflow process](#deactivate-custom-process)
 
 ### Deactivate custom plug-in
 
@@ -133,7 +133,7 @@ These issues might occur due to improper customization of the application. You m
     > [!div class="mx-imgBorder"]
     > ![Choose and deactivate unmanaged custom plug-ins](media/troubleshooting-deactivate-unmanaged-custom-plugin.png "Choose and deactivate unmanaged custom plug-ins")
 
-If the issue persists, try to [Disable custom JavaScript](#disable-custom-javascript) or [Deactivate custom workflow process](#deactivate-custom-workflow-process).
+If the issue persists, try to [Disable custom JavaScript](#disable-custom-javascript) or [Deactivate custom workflow process](#deactivate-custom-process).
 
 ### Disable custom JavaScript
 
