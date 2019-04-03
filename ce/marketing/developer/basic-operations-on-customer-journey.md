@@ -2,7 +2,7 @@
 title: "Basic operations on the Customer Journey using the API| Microsoft Docs" 
 description: The Customer Journey API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing app.
 ms.custom:
-ms.date: 3/29/2019
+ms.date: 04/03/2019
 ms.reviewer: ""
 ms.service: "D365CE"
 ms.topic: "article"
