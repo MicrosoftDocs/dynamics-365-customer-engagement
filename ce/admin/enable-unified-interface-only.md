@@ -43,7 +43,7 @@ All new Dynamics 365 for Customer Engagement environments (instances) and Common
 
 ### Existing environments
 
-Environments created before the scheduled release dates will not get this change automatically. Beginning April 5, 2019, administrators will have the option to change the environment settings to get the Unified Interface Only experience. It is recommended to switch to this mode by following the steps at [How to enable Unified Interface Only](#how-to-enable-unified-interface-only-mode).
+Environments created before the scheduled release dates will not get this change automatically. Version 9.1.0.3448 onwards, administrators will have the option to change the environment settings to get the Unified Interface Only experience. It is recommended to switch to this mode by following the steps at [How to enable Unified Interface Only](#how-to-enable-unified-interface-only-mode).
 
 > [!IMPORTANT]
 > For existing environments, it’s recommended that you:
