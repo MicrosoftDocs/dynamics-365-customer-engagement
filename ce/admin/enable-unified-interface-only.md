@@ -86,7 +86,10 @@ The legacy web client app, also known as *Dynamics 365 - custom*, is hidden from
 
 When Unified Interface Only mode is enabled, *Dynamics 365 - custom* opens in Unified Interface and not in the legacy web client. If users only have access to the Dynamics 365 – custom app and no other model-driven apps, they won’t be redirected automatically when signing in using the environment URL (for example https://contoso.crm.dynamics.com/). Access to this app can be enabled in one of two ways:
 
-- In Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Show legacy Dynamics 365 - custom app**, select **Yes** for **Show this app to all users, not just administrators**.
+- In Dynamics 365 for Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Show legacy Dynamics 365 - custom app**, select **Yes** for **Show this app to all users, not just administrators**.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/d365ce-system-settings-legacy-app.png "System Settings for legacy app")
 
 - In the Power Platform Admin center, go to **Environments** > select an environment > **Settings** > **Behavior** > **Interface settings** > turn on **Show legacy app to everyone, not just admins**.
 
@@ -107,7 +110,10 @@ When Unified Interface Only mode is enabled, environment settings can be accesse
 
 Unified Interface Only can be turned on and off in one of two ways:
 
-- In Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Use the new Unified Interface only (recommended)**, select **Yes** for **Enable only the Unified Interface**.
+- In Dynamics 365 for Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Use the new Unified Interface only (recommended)**, select **Yes** for **Enable only the Unified Interface**.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/d365ce-system-settings-uci-only.png "System Settings for Unified Interface Only")
 
 - In the Power Platform Admin center, go to **Environments** > select an environment > **Settings** > **Behavior** > **Interface settings** > turn on **Use Unified Interface only**.
 
