@@ -105,6 +105,7 @@
         "sales-business/**.*": "bc/toc.yml",
         "developer/**/*.*": "bc/toc.yml",
         "sales-enterprise/**.*": "bc/toc.yml",
+        "sales-professional/**.*": "bc/toc.yml",
         "social-engagement/**.*": "bc/toc.yml",
         "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml",
         "versium-predict/**.*": "bc/toc.yml",
@@ -187,11 +188,11 @@
           "Dynamics 365",
           "Customer Engagement"
         ],
-        "sales-business/**.*": [
+        "sales-enterprise/**.*": [
           "Dynamics 365",
           "Customer Engagement"
         ],
-        "sales-enterprise/**.*": [
+        "sales-professional/**.*": [
           "Dynamics 365",
           "Customer Engagement"
         ],
