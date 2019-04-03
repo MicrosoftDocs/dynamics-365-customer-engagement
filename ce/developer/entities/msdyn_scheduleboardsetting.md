@@ -1,43 +1,45 @@
 ---
-title: "msdyn_scheduleboardsetting Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_scheduleboardsetting Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_scheduleboardsetting entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_scheduleboardsetting Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 To store settings of SB by user & tabs
 
-**Added by**: Unified Resource Scheduling Solution<br />
+**Added by**: Universal Resource Scheduling Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges(*msdyn_scheduleboardsettingid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges(*msdyn_scheduleboardsettingid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges(*msdyn_scheduleboardsettingid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges(*msdyn_scheduleboardsettingid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges(*msdyn_scheduleboardsettingid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges(*msdyn_scheduleboardsettingid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges(*msdyn_scheduleboardsettingid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges(*msdyn_scheduleboardsettingid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges(*msdyn_scheduleboardsettingid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_scheduleboardsettinges(*msdyn_scheduleboardsettingid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -62,6 +64,7 @@ To store settings of SB by user & tabs
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_BookBasedOn](#BKMK_msdyn_BookBasedOn)
 - [msdyn_CustomTabName](#BKMK_msdyn_CustomTabName)
 - [msdyn_CustomTabWebResource](#BKMK_msdyn_CustomTabWebResource)
 - [msdyn_FilterLayout](#BKMK_msdyn_FilterLayout)
@@ -81,10 +84,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_RetrieveResourcesQuery](#BKMK_msdyn_RetrieveResourcesQuery)
 - [msdyn_SAAvailableColor](#BKMK_msdyn_SAAvailableColor)
 - [msdyn_SAAvailableIcon](#BKMK_msdyn_SAAvailableIcon)
+- [msdyn_SAAvailableIconDefault](#BKMK_msdyn_SAAvailableIconDefault)
 - [msdyn_SAPartiallyAvailableColor](#BKMK_msdyn_SAPartiallyAvailableColor)
 - [msdyn_SAPartiallyAvailableIcon](#BKMK_msdyn_SAPartiallyAvailableIcon)
+- [msdyn_SAPartiallyAvailableIconDefault](#BKMK_msdyn_SAPartiallyAvailableIconDefault)
 - [msdyn_SAUnavailableColor](#BKMK_msdyn_SAUnavailableColor)
 - [msdyn_SAUnavailableIcon](#BKMK_msdyn_SAUnavailableIcon)
+- [msdyn_SAUnavailableIconDefault](#BKMK_msdyn_SAUnavailableIconDefault)
 - [msdyn_scheduleboardsettingId](#BKMK_msdyn_scheduleboardsettingId)
 - [msdyn_SchedulerAlertsView](#BKMK_msdyn_SchedulerAlertsView)
 - [msdyn_SchedulerBusinessUnitDetailsView](#BKMK_msdyn_SchedulerBusinessUnitDetailsView)
@@ -129,6 +135,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MinValue|-2147483648|
 |RequiredLevel|None|
 |Type|Integer|
+
+
+### <a name="BKMK_msdyn_BookBasedOn"></a> msdyn_BookBasedOn
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Book Based On|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_bookbasedon|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_BookBasedOn Options
+
+|Value|Label|
+|-----|-----|
+|1|Estimated Arrival|
+|0|Start of Travel|
+
+**DefaultValue**: True
+
 
 
 ### <a name="BKMK_msdyn_CustomTabName"></a> msdyn_CustomTabName
@@ -457,6 +486,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_msdyn_SAAvailableIconDefault"></a> msdyn_SAAvailableIconDefault
+
+|Property|Value|
+|--------|-----|
+|Description|Is available icon inheriting from default setting.|
+|DisplayName|SA Available Icon Default|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_saavailableicondefault|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_SAAvailableIconDefault Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
+
+
+
 ### <a name="BKMK_msdyn_SAPartiallyAvailableColor"></a> msdyn_SAPartiallyAvailableColor
 
 |Property|Value|
@@ -487,6 +539,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|256|
 |RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_SAPartiallyAvailableIconDefault"></a> msdyn_SAPartiallyAvailableIconDefault
+
+|Property|Value|
+|--------|-----|
+|Description|Is partially available icon inheriting from default setting.|
+|DisplayName|SA Partially Available Icon Default|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_sapartiallyavailableicondefault|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_SAPartiallyAvailableIconDefault Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
+
 
 
 ### <a name="BKMK_msdyn_SAUnavailableColor"></a> msdyn_SAUnavailableColor
@@ -521,6 +596,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_msdyn_SAUnavailableIconDefault"></a> msdyn_SAUnavailableIconDefault
+
+|Property|Value|
+|--------|-----|
+|Description|Is unavailable icon inheriting from default setting.|
+|DisplayName|SA Unavailable Icon Default|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_saunavailableicondefault|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_SAUnavailableIconDefault Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
+
+
+
 ### <a name="BKMK_msdyn_scheduleboardsettingId"></a> msdyn_scheduleboardsettingId
 
 |Property|Value|
@@ -553,7 +651,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_SchedulerBusinessUnitDetailsView"></a> msdyn_SchedulerBusinessUnitDetailsView
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -565,13 +663,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_schedulerbusinessunitdetailsview|
 |MaxLength|40|
-|RequiredLevel|Recommended|
+|RequiredLevel|None|
 |Type|String|
 
 
 ### <a name="BKMK_msdyn_SchedulerBusinessUnitTooltipView"></a> msdyn_SchedulerBusinessUnitTooltipView
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -583,13 +681,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_schedulerbusinessunittooltipview|
 |MaxLength|40|
-|RequiredLevel|Recommended|
+|RequiredLevel|None|
 |Type|String|
 
 
 ### <a name="BKMK_msdyn_SchedulerCoreDetailsView"></a> msdyn_SchedulerCoreDetailsView
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -607,7 +705,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_SchedulerCoreSlotTextTemplate"></a> msdyn_SchedulerCoreSlotTextTemplate
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -625,7 +723,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_SchedulerCoreTooltipView"></a> msdyn_SchedulerCoreTooltipView
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -643,7 +741,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_SchedulerFieldServiceDetailsView"></a> msdyn_SchedulerFieldServiceDetailsView
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -655,13 +753,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_schedulerfieldservicedetailsview|
 |MaxLength|40|
-|RequiredLevel|Recommended|
+|RequiredLevel|None|
 |Type|String|
 
 
 ### <a name="BKMK_msdyn_SchedulerFieldServiceSlotTextTemplate"></a> msdyn_SchedulerFieldServiceSlotTextTemplate
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -673,13 +771,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_schedulerfieldserviceslottexttemplate|
 |MaxLength|8000|
-|RequiredLevel|Recommended|
+|RequiredLevel|None|
 |Type|Memo|
 
 
 ### <a name="BKMK_msdyn_SchedulerFieldServiceTooltipView"></a> msdyn_SchedulerFieldServiceTooltipView
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -691,7 +789,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_schedulerfieldservicetooltipview|
 |MaxLength|40|
-|RequiredLevel|Recommended|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -800,7 +898,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_UnscheduledViewId"></a> msdyn_UnscheduledViewId
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -812,7 +910,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_unscheduledviewid|
 |MaxLength|40|
-|RequiredLevel|Recommended|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -834,7 +932,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_UnscheduledWOTooltipsViewId"></a> msdyn_UnscheduledWOTooltipsViewId
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -846,7 +944,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|msdyn_unscheduledwotooltipsviewid|
 |MaxLength|40|
-|RequiredLevel|Recommended|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -884,6 +982,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -898,9 +998,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
-|Description|Shows the owner ID type.|
+|Description|Owner Id Type|
 |DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -984,7 +1086,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -1014,6 +1118,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -1027,6 +1133,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1043,6 +1151,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1063,7 +1173,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics CRM options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1074,6 +1184,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1088,6 +1200,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1105,6 +1219,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1121,6 +1237,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -1134,6 +1252,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1150,6 +1270,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1170,7 +1292,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics CRM options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1181,6 +1303,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1195,6 +1319,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1211,6 +1337,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1276,9 +1404,11 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
-|Description|Type the name of the owner.|
+|Description|Name of the owner|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1292,9 +1422,11 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
-|Description|Shows the Yomi name of the owner.|
+|Description|Yomi name of the owner|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1307,6 +1439,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1322,6 +1456,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the team that owns the record.|
@@ -1336,6 +1472,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -1349,6 +1487,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1373,7 +1513,6 @@ Listed by **SchemaName**.
 - [msdyn_scheduleboardsetting_DuplicateBaseRecord](#BKMK_msdyn_scheduleboardsetting_DuplicateBaseRecord)
 - [msdyn_scheduleboardsetting_AsyncOperations](#BKMK_msdyn_scheduleboardsetting_AsyncOperations)
 - [msdyn_scheduleboardsetting_MailboxTrackingFolders](#BKMK_msdyn_scheduleboardsetting_MailboxTrackingFolders)
-- [msdyn_scheduleboardsetting_UserEntityInstanceDatas](#BKMK_msdyn_scheduleboardsetting_UserEntityInstanceDatas)
 - [msdyn_scheduleboardsetting_ProcessSession](#BKMK_msdyn_scheduleboardsetting_ProcessSession)
 - [msdyn_scheduleboardsetting_BulkDeleteFailures](#BKMK_msdyn_scheduleboardsetting_BulkDeleteFailures)
 - [msdyn_scheduleboardsetting_PrincipalObjectAttributeAccesses](#BKMK_msdyn_scheduleboardsetting_PrincipalObjectAttributeAccesses)
@@ -1381,6 +1520,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_scheduleboardsetting_SyncErrors"></a> msdyn_scheduleboardsetting_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_scheduleboardsetting_SyncErrors](syncerror.md#BKMK_msdyn_scheduleboardsetting_SyncErrors) Many-To-One relationship.
 
@@ -1392,10 +1533,12 @@ Same as syncerror entity [msdyn_scheduleboardsetting_SyncErrors](syncerror.md#BK
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_scheduleboardsetting_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_scheduleboardsetting_DuplicateMatchingRecord"></a> msdyn_scheduleboardsetting_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_scheduleboardsetting_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_scheduleboardsetting_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -1412,6 +1555,8 @@ Same as duplicaterecord entity [msdyn_scheduleboardsetting_DuplicateMatchingReco
 
 ### <a name="BKMK_msdyn_scheduleboardsetting_DuplicateBaseRecord"></a> msdyn_scheduleboardsetting_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_scheduleboardsetting_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_scheduleboardsetting_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -1426,6 +1571,8 @@ Same as duplicaterecord entity [msdyn_scheduleboardsetting_DuplicateBaseRecord](
 
 
 ### <a name="BKMK_msdyn_scheduleboardsetting_AsyncOperations"></a> msdyn_scheduleboardsetting_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_scheduleboardsetting_AsyncOperations](asyncoperation.md#BKMK_msdyn_scheduleboardsetting_AsyncOperations) Many-To-One relationship.
 
@@ -1442,6 +1589,8 @@ Same as asyncoperation entity [msdyn_scheduleboardsetting_AsyncOperations](async
 
 ### <a name="BKMK_msdyn_scheduleboardsetting_MailboxTrackingFolders"></a> msdyn_scheduleboardsetting_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_scheduleboardsetting_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_scheduleboardsetting_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -1452,25 +1601,12 @@ Same as mailboxtrackingfolder entity [msdyn_scheduleboardsetting_MailboxTracking
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_scheduleboardsetting_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_scheduleboardsetting_UserEntityInstanceDatas"></a> msdyn_scheduleboardsetting_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_scheduleboardsetting_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_scheduleboardsetting_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_scheduleboardsetting_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_scheduleboardsetting_ProcessSession"></a> msdyn_scheduleboardsetting_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_scheduleboardsetting_ProcessSession](processsession.md#BKMK_msdyn_scheduleboardsetting_ProcessSession) Many-To-One relationship.
 
@@ -1487,6 +1623,8 @@ Same as processsession entity [msdyn_scheduleboardsetting_ProcessSession](proces
 
 ### <a name="BKMK_msdyn_scheduleboardsetting_BulkDeleteFailures"></a> msdyn_scheduleboardsetting_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_scheduleboardsetting_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_scheduleboardsetting_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -1501,6 +1639,8 @@ Same as bulkdeletefailure entity [msdyn_scheduleboardsetting_BulkDeleteFailures]
 
 
 ### <a name="BKMK_msdyn_scheduleboardsetting_PrincipalObjectAttributeAccesses"></a> msdyn_scheduleboardsetting_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [msdyn_scheduleboardsetting_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_scheduleboardsetting_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -1549,29 +1689,43 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_scheduleboardsetting_createdby"></a> lk_msdyn_scheduleboardsetting_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_scheduleboardsetting_createdby](systemuser.md#BKMK_lk_msdyn_scheduleboardsetting_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_scheduleboardsetting_createdonbehalfby"></a> lk_msdyn_scheduleboardsetting_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_scheduleboardsetting_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_scheduleboardsetting_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_scheduleboardsetting_modifiedby"></a> lk_msdyn_scheduleboardsetting_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_scheduleboardsetting_modifiedby](systemuser.md#BKMK_lk_msdyn_scheduleboardsetting_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_scheduleboardsetting_modifiedonbehalfby"></a> lk_msdyn_scheduleboardsetting_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_scheduleboardsetting_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_scheduleboardsetting_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_scheduleboardsetting"></a> user_msdyn_scheduleboardsetting
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_msdyn_scheduleboardsetting](systemuser.md#BKMK_user_msdyn_scheduleboardsetting) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_scheduleboardsetting"></a> team_msdyn_scheduleboardsetting
 
+**Added by**: System Solution Solution
+
 See team Entity [team_msdyn_scheduleboardsetting](team.md#BKMK_team_msdyn_scheduleboardsetting) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_scheduleboardsetting"></a> business_unit_msdyn_scheduleboardsetting
+
+**Added by**: System Solution Solution
 
 See businessunit Entity [business_unit_msdyn_scheduleboardsetting](businessunit.md#BKMK_business_unit_msdyn_scheduleboardsetting) One-To-Many relationship.
 
@@ -1590,6 +1744,6 @@ See msdyn_configuration Entity [msdyn_msdyn_configuration_msdyn_scheduleboardset
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_scheduleboardsetting?text=msdyn_scheduleboardsetting EntityType" />

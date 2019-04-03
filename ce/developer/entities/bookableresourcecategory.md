@@ -1,42 +1,44 @@
 ---
-title: "BookableResourceCategory Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "BookableResourceCategory Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the BookableResourceCategory entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # BookableResourceCategory Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Resource category master used to categorize people and equipment.
 
-**Added by**: Scheduling Solution<br />
+**Added by**: Scheduling Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategories(*bookableresourcecategoryid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/bookableresourcecategories<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/bookableresourcecategories(*bookableresourcecategoryid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategories(*bookableresourcecategoryid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/bookableresourcecategories<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/bookableresourcecategories(*bookableresourcecategoryid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/bookableresourcecategories(*bookableresourcecategoryid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bookableresourcecategories<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/bookableresourcecategories(*bookableresourcecategoryid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bookableresourcecategories<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategories(*bookableresourcecategoryid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategories(*bookableresourcecategoryid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategories(*bookableresourcecategoryid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategories(*bookableresourcecategoryid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -126,7 +128,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_billingtype"></a> msdyn_billingtype
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -151,7 +153,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_targetutilization"></a> msdyn_targetutilization
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -169,7 +171,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_TransactionCategory"></a> msdyn_TransactionCategory
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -230,6 +232,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -331,7 +335,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -591,6 +597,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_TransactionCategoryName"></a> msdyn_TransactionCategoryName
 
+**Added by**: Project Service Automation Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -720,7 +728,6 @@ Listed by **SchemaName**.
 - [bookableresourcecategory_DuplicateBaseRecord](#BKMK_bookableresourcecategory_DuplicateBaseRecord)
 - [bookableresourcecategory_AsyncOperations](#BKMK_bookableresourcecategory_AsyncOperations)
 - [bookableresourcecategory_MailboxTrackingFolders](#BKMK_bookableresourcecategory_MailboxTrackingFolders)
-- [bookableresourcecategory_UserEntityInstanceDatas](#BKMK_bookableresourcecategory_UserEntityInstanceDatas)
 - [bookableresourcecategory_ProcessSession](#BKMK_bookableresourcecategory_ProcessSession)
 - [bookableresourcecategory_BulkDeleteFailures](#BKMK_bookableresourcecategory_BulkDeleteFailures)
 - [bookableresourcecategory_PrincipalObjectAttributeAccess](#BKMK_bookableresourcecategory_PrincipalObjectAttributeAccess)
@@ -745,6 +752,7 @@ Listed by **SchemaName**.
 - [msdyn_bookableresourcecategory_msdyn_quotelineanalyticsbreakdown_ResourceCategory](#BKMK_msdyn_bookableresourcecategory_msdyn_quotelineanalyticsbreakdown_ResourceCategory)
 - [msdyn_bookableresourcecategory_msdyn_quotelineresourcecategory_ResourceCategory](#BKMK_msdyn_bookableresourcecategory_msdyn_quotelineresourcecategory_ResourceCategory)
 - [msdyn_bookableresourcecategory_msdyn_quotelinetransaction_ResourceCategory](#BKMK_msdyn_bookableresourcecategory_msdyn_quotelinetransaction_ResourceCategory)
+- [msdyn_bookableresourcecategory_msdyn_resourcecategorymarkuppricelevel_resourcecategory](#BKMK_msdyn_bookableresourcecategory_msdyn_resourcecategorymarkuppricelevel_resourcecategory)
 - [msdyn_bookableresourcecategory_msdyn_resourcecategorypricelevel_ResourceCategory](#BKMK_msdyn_bookableresourcecategory_msdyn_resourcecategorypricelevel_ResourceCategory)
 - [msdyn_bookableresourcecategory_msdyn_resourcerequest_roleid](#BKMK_msdyn_bookableresourcecategory_msdyn_resourcerequest_roleid)
 - [msdyn_bookableresourcecategory_msdyn_rolecompetencyrequirement_resourcecategory](#BKMK_msdyn_bookableresourcecategory_msdyn_rolecompetencyrequirement_resourcecategory)
@@ -754,6 +762,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_BookableResourceCategory_SyncErrors"></a> BookableResourceCategory_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [BookableResourceCategory_SyncErrors](syncerror.md#BKMK_BookableResourceCategory_SyncErrors) Many-To-One relationship.
 
@@ -770,6 +780,8 @@ Same as syncerror entity [BookableResourceCategory_SyncErrors](syncerror.md#BKMK
 
 ### <a name="BKMK_bookableresourcecategory_DuplicateMatchingRecord"></a> bookableresourcecategory_DuplicateMatchingRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [bookableresourcecategory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_bookableresourcecategory_DuplicateMatchingRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -784,6 +796,8 @@ Same as duplicaterecord entity [bookableresourcecategory_DuplicateMatchingRecord
 
 
 ### <a name="BKMK_bookableresourcecategory_DuplicateBaseRecord"></a> bookableresourcecategory_DuplicateBaseRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [bookableresourcecategory_DuplicateBaseRecord](duplicaterecord.md#BKMK_bookableresourcecategory_DuplicateBaseRecord) Many-To-One relationship.
 
@@ -800,6 +814,8 @@ Same as duplicaterecord entity [bookableresourcecategory_DuplicateBaseRecord](du
 
 ### <a name="BKMK_bookableresourcecategory_AsyncOperations"></a> bookableresourcecategory_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [bookableresourcecategory_AsyncOperations](asyncoperation.md#BKMK_bookableresourcecategory_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -815,6 +831,8 @@ Same as asyncoperation entity [bookableresourcecategory_AsyncOperations](asyncop
 
 ### <a name="BKMK_bookableresourcecategory_MailboxTrackingFolders"></a> bookableresourcecategory_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [bookableresourcecategory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bookableresourcecategory_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -825,25 +843,12 @@ Same as mailboxtrackingfolder entity [bookableresourcecategory_MailboxTrackingFo
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|bookableresourcecategory_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_bookableresourcecategory_UserEntityInstanceDatas"></a> bookableresourcecategory_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [bookableresourcecategory_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_bookableresourcecategory_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|bookableresourcecategory_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_bookableresourcecategory_ProcessSession"></a> bookableresourcecategory_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [bookableresourcecategory_ProcessSession](processsession.md#BKMK_bookableresourcecategory_ProcessSession) Many-To-One relationship.
 
@@ -860,6 +865,8 @@ Same as processsession entity [bookableresourcecategory_ProcessSession](processs
 
 ### <a name="BKMK_bookableresourcecategory_BulkDeleteFailures"></a> bookableresourcecategory_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [bookableresourcecategory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_bookableresourcecategory_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -874,6 +881,8 @@ Same as bulkdeletefailure entity [bookableresourcecategory_BulkDeleteFailures](b
 
 
 ### <a name="BKMK_bookableresourcecategory_PrincipalObjectAttributeAccess"></a> bookableresourcecategory_PrincipalObjectAttributeAccess
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [bookableresourcecategory_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_bookableresourcecategory_PrincipalObjectAttributeAccess) Many-To-One relationship.
 
@@ -905,6 +914,8 @@ Same as bookableresourcecategoryassn entity [bookableresourcecategory_bookablere
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_requirementresourcecategory_ResourceCategory"></a> msdyn_bookableresourcecategory_requirementresourcecategory_ResourceCategory
 
+**Added by**: Universal Resource Scheduling Solution
+
 Same as msdyn_requirementresourcecategory entity [msdyn_bookableresourcecategory_requirementresourcecategory_ResourceCategory](msdyn_requirementresourcecategory.md#BKMK_msdyn_bookableresourcecategory_requirementresourcecategory_ResourceCategory) Many-To-One relationship.
 
 |Property|Value|
@@ -919,6 +930,8 @@ Same as msdyn_requirementresourcecategory entity [msdyn_bookableresourcecategory
 
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_bookableresourcebooking_resourcecategoryid"></a> msdyn_bookableresourcecategory_bookableresourcebooking_resourcecategoryid
+
+**Added by**: Project Service Automation Solution
 
 Same as bookableresourcebooking entity [msdyn_bookableresourcecategory_bookableresourcebooking_resourcecategoryid](bookableresourcebooking.md#BKMK_msdyn_bookableresourcecategory_bookableresourcebooking_resourcecategoryid) Many-To-One relationship.
 
@@ -935,6 +948,8 @@ Same as bookableresourcebooking entity [msdyn_bookableresourcecategory_bookabler
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_bookableresourcebookingheader_resourcecategoryid"></a> msdyn_bookableresourcecategory_bookableresourcebookingheader_resourcecategoryid
 
+**Added by**: Project Service Automation Solution
+
 Same as bookableresourcebookingheader entity [msdyn_bookableresourcecategory_bookableresourcebookingheader_resourcecategoryid](bookableresourcebookingheader.md#BKMK_msdyn_bookableresourcecategory_bookableresourcebookingheader_resourcecategoryid) Many-To-One relationship.
 
 |Property|Value|
@@ -949,6 +964,8 @@ Same as bookableresourcebookingheader entity [msdyn_bookableresourcecategory_boo
 
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_actual_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_actual_ResourceCategory
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_actual entity [msdyn_bookableresourcecategory_msdyn_actual_ResourceCategory](msdyn_actual.md#BKMK_msdyn_bookableresourcecategory_msdyn_actual_ResourceCategory) Many-To-One relationship.
 
@@ -965,6 +982,8 @@ Same as msdyn_actual entity [msdyn_bookableresourcecategory_msdyn_actual_Resourc
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_estimateline_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_estimateline_ResourceCategory
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_estimateline entity [msdyn_bookableresourcecategory_msdyn_estimateline_ResourceCategory](msdyn_estimateline.md#BKMK_msdyn_bookableresourcecategory_msdyn_estimateline_ResourceCategory) Many-To-One relationship.
 
 |Property|Value|
@@ -979,6 +998,8 @@ Same as msdyn_estimateline entity [msdyn_bookableresourcecategory_msdyn_estimate
 
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_fact_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_fact_ResourceCategory
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_fact entity [msdyn_bookableresourcecategory_msdyn_fact_ResourceCategory](msdyn_fact.md#BKMK_msdyn_bookableresourcecategory_msdyn_fact_ResourceCategory) Many-To-One relationship.
 
@@ -995,6 +1016,8 @@ Same as msdyn_fact entity [msdyn_bookableresourcecategory_msdyn_fact_ResourceCat
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_invoicelinetransaction_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_invoicelinetransaction_ResourceCategory
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_invoicelinetransaction entity [msdyn_bookableresourcecategory_msdyn_invoicelinetransaction_ResourceCategory](msdyn_invoicelinetransaction.md#BKMK_msdyn_bookableresourcecategory_msdyn_invoicelinetransaction_ResourceCategory) Many-To-One relationship.
 
 |Property|Value|
@@ -1009,6 +1032,8 @@ Same as msdyn_invoicelinetransaction entity [msdyn_bookableresourcecategory_msdy
 
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_journalline_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_journalline_ResourceCategory
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_journalline entity [msdyn_bookableresourcecategory_msdyn_journalline_ResourceCategory](msdyn_journalline.md#BKMK_msdyn_bookableresourcecategory_msdyn_journalline_ResourceCategory) Many-To-One relationship.
 
@@ -1025,6 +1050,8 @@ Same as msdyn_journalline entity [msdyn_bookableresourcecategory_msdyn_journalli
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_opportunitylineresourcecategory_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_opportunitylineresourcecategory_ResourceCategory
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_opportunitylineresourcecategory entity [msdyn_bookableresourcecategory_msdyn_opportunitylineresourcecategory_ResourceCategory](msdyn_opportunitylineresourcecategory.md#BKMK_msdyn_bookableresourcecategory_msdyn_opportunitylineresourcecategory_ResourceCategory) Many-To-One relationship.
 
 |Property|Value|
@@ -1039,6 +1066,8 @@ Same as msdyn_opportunitylineresourcecategory entity [msdyn_bookableresourcecate
 
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_opportunitylinetransaction_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_opportunitylinetransaction_ResourceCategory
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_bookableresourcecategory_msdyn_opportunitylinetransaction_ResourceCategory](msdyn_opportunitylinetransaction.md#BKMK_msdyn_bookableresourcecategory_msdyn_opportunitylinetransaction_ResourceCategory) Many-To-One relationship.
 
@@ -1055,6 +1084,8 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_bookableresourcecategory_
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_orderlineresourcecategory_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_orderlineresourcecategory_ResourceCategory
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_orderlineresourcecategory entity [msdyn_bookableresourcecategory_msdyn_orderlineresourcecategory_ResourceCategory](msdyn_orderlineresourcecategory.md#BKMK_msdyn_bookableresourcecategory_msdyn_orderlineresourcecategory_ResourceCategory) Many-To-One relationship.
 
 |Property|Value|
@@ -1069,6 +1100,8 @@ Same as msdyn_orderlineresourcecategory entity [msdyn_bookableresourcecategory_m
 
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_orderlinetransaction_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_orderlinetransaction_ResourceCategory
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_orderlinetransaction entity [msdyn_bookableresourcecategory_msdyn_orderlinetransaction_ResourceCategory](msdyn_orderlinetransaction.md#BKMK_msdyn_bookableresourcecategory_msdyn_orderlinetransaction_ResourceCategory) Many-To-One relationship.
 
@@ -1085,6 +1118,8 @@ Same as msdyn_orderlinetransaction entity [msdyn_bookableresourcecategory_msdyn_
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_projectapproval_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_projectapproval_ResourceCategory
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_projectapproval entity [msdyn_bookableresourcecategory_msdyn_projectapproval_ResourceCategory](msdyn_projectapproval.md#BKMK_msdyn_bookableresourcecategory_msdyn_projectapproval_ResourceCategory) Many-To-One relationship.
 
 |Property|Value|
@@ -1099,6 +1134,8 @@ Same as msdyn_projectapproval entity [msdyn_bookableresourcecategory_msdyn_proje
 
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_projectparameter_projectmanagerrole"></a> msdyn_bookableresourcecategory_msdyn_projectparameter_projectmanagerrole
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_projectparameter entity [msdyn_bookableresourcecategory_msdyn_projectparameter_projectmanagerrole](msdyn_projectparameter.md#BKMK_msdyn_bookableresourcecategory_msdyn_projectparameter_projectmanagerrole) Many-To-One relationship.
 
@@ -1115,6 +1152,8 @@ Same as msdyn_projectparameter entity [msdyn_bookableresourcecategory_msdyn_proj
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_projectparameter_teammemberrole"></a> msdyn_bookableresourcecategory_msdyn_projectparameter_teammemberrole
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_projectparameter entity [msdyn_bookableresourcecategory_msdyn_projectparameter_teammemberrole](msdyn_projectparameter.md#BKMK_msdyn_bookableresourcecategory_msdyn_projectparameter_teammemberrole) Many-To-One relationship.
 
 |Property|Value|
@@ -1129,6 +1168,8 @@ Same as msdyn_projectparameter entity [msdyn_bookableresourcecategory_msdyn_proj
 
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_projecttask_resourcecategory"></a> msdyn_bookableresourcecategory_msdyn_projecttask_resourcecategory
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_projecttask entity [msdyn_bookableresourcecategory_msdyn_projecttask_resourcecategory](msdyn_projecttask.md#BKMK_msdyn_bookableresourcecategory_msdyn_projecttask_resourcecategory) Many-To-One relationship.
 
@@ -1145,6 +1186,8 @@ Same as msdyn_projecttask entity [msdyn_bookableresourcecategory_msdyn_projectta
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_projectteam_resourcecategory"></a> msdyn_bookableresourcecategory_msdyn_projectteam_resourcecategory
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_projectteam entity [msdyn_bookableresourcecategory_msdyn_projectteam_resourcecategory](msdyn_projectteam.md#BKMK_msdyn_bookableresourcecategory_msdyn_projectteam_resourcecategory) Many-To-One relationship.
 
 |Property|Value|
@@ -1159,6 +1202,8 @@ Same as msdyn_projectteam entity [msdyn_bookableresourcecategory_msdyn_projectte
 
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_quotelineanalyticsbreakdown_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_quotelineanalyticsbreakdown_ResourceCategory
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_quotelineanalyticsbreakdown entity [msdyn_bookableresourcecategory_msdyn_quotelineanalyticsbreakdown_ResourceCategory](msdyn_quotelineanalyticsbreakdown.md#BKMK_msdyn_bookableresourcecategory_msdyn_quotelineanalyticsbreakdown_ResourceCategory) Many-To-One relationship.
 
@@ -1175,6 +1220,8 @@ Same as msdyn_quotelineanalyticsbreakdown entity [msdyn_bookableresourcecategory
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_quotelineresourcecategory_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_quotelineresourcecategory_ResourceCategory
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_quotelineresourcecategory entity [msdyn_bookableresourcecategory_msdyn_quotelineresourcecategory_ResourceCategory](msdyn_quotelineresourcecategory.md#BKMK_msdyn_bookableresourcecategory_msdyn_quotelineresourcecategory_ResourceCategory) Many-To-One relationship.
 
 |Property|Value|
@@ -1190,6 +1237,8 @@ Same as msdyn_quotelineresourcecategory entity [msdyn_bookableresourcecategory_m
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_quotelinetransaction_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_quotelinetransaction_ResourceCategory
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_quotelinetransaction entity [msdyn_bookableresourcecategory_msdyn_quotelinetransaction_ResourceCategory](msdyn_quotelinetransaction.md#BKMK_msdyn_bookableresourcecategory_msdyn_quotelinetransaction_ResourceCategory) Many-To-One relationship.
 
 |Property|Value|
@@ -1203,7 +1252,26 @@ Same as msdyn_quotelinetransaction entity [msdyn_bookableresourcecategory_msdyn_
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
+### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_resourcecategorymarkuppricelevel_resourcecategory"></a> msdyn_bookableresourcecategory_msdyn_resourcecategorymarkuppricelevel_resourcecategory
+
+**Added by**: Project Service Automation Solution
+
+Same as msdyn_resourcecategorymarkuppricelevel entity [msdyn_bookableresourcecategory_msdyn_resourcecategorymarkuppricelevel_resourcecategory](msdyn_resourcecategorymarkuppricelevel.md#BKMK_msdyn_bookableresourcecategory_msdyn_resourcecategorymarkuppricelevel_resourcecategory) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_resourcecategorymarkuppricelevel|
+|ReferencingAttribute|msdyn_resourcecategory|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_bookableresourcecategory_msdyn_resourcecategorymarkuppricelevel_resourcecategory|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_resourcecategorypricelevel_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_resourcecategorypricelevel_ResourceCategory
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_resourcecategorypricelevel entity [msdyn_bookableresourcecategory_msdyn_resourcecategorypricelevel_ResourceCategory](msdyn_resourcecategorypricelevel.md#BKMK_msdyn_bookableresourcecategory_msdyn_resourcecategorypricelevel_ResourceCategory) Many-To-One relationship.
 
@@ -1220,6 +1288,8 @@ Same as msdyn_resourcecategorypricelevel entity [msdyn_bookableresourcecategory_
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_resourcerequest_roleid"></a> msdyn_bookableresourcecategory_msdyn_resourcerequest_roleid
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_resourcerequest entity [msdyn_bookableresourcecategory_msdyn_resourcerequest_roleid](msdyn_resourcerequest.md#BKMK_msdyn_bookableresourcecategory_msdyn_resourcerequest_roleid) Many-To-One relationship.
 
 |Property|Value|
@@ -1234,6 +1304,8 @@ Same as msdyn_resourcerequest entity [msdyn_bookableresourcecategory_msdyn_resou
 
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_rolecompetencyrequirement_resourcecategory"></a> msdyn_bookableresourcecategory_msdyn_rolecompetencyrequirement_resourcecategory
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_rolecompetencyrequirement entity [msdyn_bookableresourcecategory_msdyn_rolecompetencyrequirement_resourcecategory](msdyn_rolecompetencyrequirement.md#BKMK_msdyn_bookableresourcecategory_msdyn_rolecompetencyrequirement_resourcecategory) Many-To-One relationship.
 
@@ -1250,6 +1322,8 @@ Same as msdyn_rolecompetencyrequirement entity [msdyn_bookableresourcecategory_m
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_roleutilization_role"></a> msdyn_bookableresourcecategory_msdyn_roleutilization_role
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_roleutilization entity [msdyn_bookableresourcecategory_msdyn_roleutilization_role](msdyn_roleutilization.md#BKMK_msdyn_bookableresourcecategory_msdyn_roleutilization_role) Many-To-One relationship.
 
 |Property|Value|
@@ -1265,6 +1339,8 @@ Same as msdyn_roleutilization entity [msdyn_bookableresourcecategory_msdyn_roleu
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_timeentry_resourceCategory"></a> msdyn_bookableresourcecategory_msdyn_timeentry_resourceCategory
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_timeentry entity [msdyn_bookableresourcecategory_msdyn_timeentry_resourceCategory](msdyn_timeentry.md#BKMK_msdyn_bookableresourcecategory_msdyn_timeentry_resourceCategory) Many-To-One relationship.
 
 |Property|Value|
@@ -1279,6 +1355,8 @@ Same as msdyn_timeentry entity [msdyn_bookableresourcecategory_msdyn_timeentry_r
 
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_resourcerequirement"></a> msdyn_bookableresourcecategory_resourcerequirement
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_resourcerequirement entity [msdyn_bookableresourcecategory_resourcerequirement](msdyn_resourcerequirement.md#BKMK_msdyn_bookableresourcecategory_resourcerequirement) Many-To-One relationship.
 
@@ -1311,43 +1389,61 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_bookableresourcecategory_createdby"></a> lk_bookableresourcecategory_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_bookableresourcecategory_createdby](systemuser.md#BKMK_lk_bookableresourcecategory_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_bookableresourcecategory_createdonbehalfby"></a> lk_bookableresourcecategory_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_bookableresourcecategory_createdonbehalfby](systemuser.md#BKMK_lk_bookableresourcecategory_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_bookableresourcecategory_modifiedby"></a> lk_bookableresourcecategory_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_bookableresourcecategory_modifiedby](systemuser.md#BKMK_lk_bookableresourcecategory_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_bookableresourcecategory_modifiedonbehalfby"></a> lk_bookableresourcecategory_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_bookableresourcecategory_modifiedonbehalfby](systemuser.md#BKMK_lk_bookableresourcecategory_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_bookableresourcecategory"></a> user_bookableresourcecategory
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_bookableresourcecategory](systemuser.md#BKMK_user_bookableresourcecategory) One-To-Many relationship.
 
 ### <a name="BKMK_team_bookableresourcecategory"></a> team_bookableresourcecategory
+
+**Added by**: System Solution Solution
 
 See team Entity [team_bookableresourcecategory](team.md#BKMK_team_bookableresourcecategory) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_bookableresourcecategory"></a> business_unit_bookableresourcecategory
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_bookableresourcecategory](businessunit.md#BKMK_business_unit_bookableresourcecategory) One-To-Many relationship.
 
 ### <a name="BKMK_TransactionCurrency_bookableresourcecategory"></a> TransactionCurrency_bookableresourcecategory
 
+**Added by**: System Solution Solution
+
 See transactioncurrency Entity [TransactionCurrency_bookableresourcecategory](transactioncurrency.md#BKMK_TransactionCurrency_bookableresourcecategory) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_bookableresourcecategory_TransactionCategory"></a> msdyn_msdyn_transactioncategory_bookableresourcecategory_TransactionCategory
+
+**Added by**: Project Service Automation Solution
 
 See msdyn_transactioncategory Entity [msdyn_msdyn_transactioncategory_bookableresourcecategory_TransactionCategory](msdyn_transactioncategory.md#BKMK_msdyn_msdyn_transactioncategory_bookableresourcecategory_TransactionCategory) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.bookableresourcecategory?text=bookableresourcecategory EntityType" />
