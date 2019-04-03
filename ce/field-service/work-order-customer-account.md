@@ -137,6 +137,15 @@ This work order location is passed down to the work order requirement and is ref
 > [!Note]
 > Work Orders can be assigned addresses and geo coded independent of the service account if needed.
 
+## Invoice the billing account
+
+When the work order is finished and the system status is changed to Closed-Posted, an invoice with all used work order products and services is created for the account that is listed in the **billing account** of the work order.
+
+Go to **Field Service > Sales > Invoices** to view the newly generated invoice for the closed work order. Notice the Account of the invoice is the billing account of the work order, and the name references the work order number.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of invoice for billing account](./media/work-order-invoice.png)
+
 ## Configuration considerations
 
 ### Travel charge explained
