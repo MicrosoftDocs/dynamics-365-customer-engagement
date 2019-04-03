@@ -70,7 +70,6 @@ When you're reviewing your insights, you'll see graphs, timelines, and values fo
 
 ![Insights tool tips](media/insights-tooltip.png "Insights tool tips")
 
-
 For more information about many of the most-used insights and how they are calculated, see the [Insights glossary](insights-glossary.md). Many of the tool tips also reference this glossary.
 
 <a name="contact-insights"></a>
@@ -94,6 +93,7 @@ Contacts provide the following [insights categories](#categories):
     > - Results from anonymous visits and redirect-URL clicks that occurred prior to becoming a known contact are not shown here.
 - **Event interactions**: See a timeline of event interactions, and event registration, check-in and cancellation records for the current contact.
 - **Marketing form interactions**: See which marketing forms the contact has submitted and the content of each submission.
+- **Subscription list interactions**: See which subscription lists the contact joined or left, and when.
 
 ## Lead insights
 
