@@ -1,36 +1,38 @@
 ---
-title: "Resource Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Resource Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Resource entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Resource Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 User or facility/equipment that can be scheduled for a service.
 
-**Added by**: Service Solution<br />
+**Added by**: Service Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/resources<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/resources(*resourceid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/resources(*resourceid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|Create|POST [*org URI*]/api/data/v9.0/resources<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/resources(*resourceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/resources(*resourceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveByGroupResource|<xref href="Microsoft.Dynamics.CRM.RetrieveByGroupResource?text=RetrieveByGroupResource Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveByGroupResourceRequest>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/resources<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/resources(*resourceid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/resources<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/resources(*resourceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -121,6 +123,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_EntityImage"></a> EntityImage
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -295,7 +299,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [BusinessUnitIdName](#BKMK_BusinessUnitIdName)
@@ -422,12 +428,13 @@ Listed by **SchemaName**.
 - [Resource_SyncErrors](#BKMK_Resource_SyncErrors)
 - [Resource_AsyncOperations](#BKMK_Resource_AsyncOperations)
 - [resource_MailboxTrackingFolders](#BKMK_resource_MailboxTrackingFolders)
-- [userentityinstancedata_resource](#BKMK_userentityinstancedata_resource)
 - [Resource_BulkDeleteFailures](#BKMK_Resource_BulkDeleteFailures)
 - [resource_PrincipalObjectAttributeAccesses](#BKMK_resource_PrincipalObjectAttributeAccesses)
 
 
 ### <a name="BKMK_Resource_SyncErrors"></a> Resource_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [Resource_SyncErrors](syncerror.md#BKMK_Resource_SyncErrors) Many-To-One relationship.
 
@@ -444,6 +451,8 @@ Same as syncerror entity [Resource_SyncErrors](syncerror.md#BKMK_Resource_SyncEr
 
 ### <a name="BKMK_Resource_AsyncOperations"></a> Resource_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [Resource_AsyncOperations](asyncoperation.md#BKMK_Resource_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -459,6 +468,8 @@ Same as asyncoperation entity [Resource_AsyncOperations](asyncoperation.md#BKMK_
 
 ### <a name="BKMK_resource_MailboxTrackingFolders"></a> resource_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [resource_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_resource_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -469,25 +480,12 @@ Same as mailboxtrackingfolder entity [resource_MailboxTrackingFolders](mailboxtr
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|resource_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_userentityinstancedata_resource"></a> userentityinstancedata_resource
-
-Same as userentityinstancedata entity [userentityinstancedata_resource](userentityinstancedata.md#BKMK_userentityinstancedata_resource) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_resource|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Resource_BulkDeleteFailures"></a> Resource_BulkDeleteFailures
+
+**Added by**: System Solution Solution
 
 Same as bulkdeletefailure entity [Resource_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Resource_BulkDeleteFailures) Many-To-One relationship.
 
@@ -503,6 +501,8 @@ Same as bulkdeletefailure entity [Resource_BulkDeleteFailures](bulkdeletefailure
 
 
 ### <a name="BKMK_resource_PrincipalObjectAttributeAccesses"></a> resource_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [resource_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_resource_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -532,6 +532,8 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_business_unit_resources"></a> business_unit_resources
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_resources](businessunit.md#BKMK_business_unit_resources) One-To-Many relationship.
 
 ### <a name="BKMK_equipment_resources"></a> equipment_resources
@@ -540,6 +542,8 @@ See equipment Entity [equipment_resources](equipment.md#BKMK_equipment_resources
 
 ### <a name="BKMK_organization_resources"></a> organization_resources
 
+**Added by**: System Solution Solution
+
 See organization Entity [organization_resources](organization.md#BKMK_organization_resources) One-To-Many relationship.
 
 ### <a name="BKMK_resourcespec_resources"></a> resourcespec_resources
@@ -547,6 +551,8 @@ See organization Entity [organization_resources](organization.md#BKMK_organizati
 See resourcespec Entity [resourcespec_resources](resourcespec.md#BKMK_resourcespec_resources) One-To-Many relationship.
 
 ### <a name="BKMK_systemuser_resources"></a> systemuser_resources
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [systemuser_resources](systemuser.md#BKMK_systemuser_resources) One-To-Many relationship.
 
@@ -557,6 +563,6 @@ See site Entity [site_resources](site.md#BKMK_site_resources) One-To-Many relati
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.resource?text=resource EntityType" />

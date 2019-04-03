@@ -1,35 +1,37 @@
 ---
-title: "ProductPriceLevel Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "ProductPriceLevel Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ProductPriceLevel entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # ProductPriceLevel Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.
 
-**Added by**: Product Management Solution<br />
+**Added by**: Product Management Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/productpricelevels<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/productpricelevels(*productpricelevelid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/productpricelevels(*productpricelevelid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/productpricelevels<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/productpricelevels(*productpricelevelid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.0/productpricelevels<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/productpricelevels(*productpricelevelid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/productpricelevels(*productpricelevelid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/productpricelevels<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/productpricelevels(*productpricelevelid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -94,6 +96,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_DiscountTypeId"></a> DiscountTypeId
+
+**Added by**: Sales Solution
 
 |Property|Value|
 |--------|-----|
@@ -325,7 +329,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Contains the id of the stage where the entity is located.|
-|DisplayName|Stage Id|
+|DisplayName|(Deprecated) Stage Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -369,7 +373,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|
-|DisplayName|Traversed Path|
+|DisplayName|(Deprecated) Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -424,7 +428,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [Amount_Base](#BKMK_Amount_Base)
@@ -581,6 +587,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_DiscountTypeIdName"></a> DiscountTypeIdName
 
+**Added by**: Sales Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -596,6 +604,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -867,13 +877,14 @@ Listed by **SchemaName**.
 - [ProductPriceLevel_SyncErrors](#BKMK_ProductPriceLevel_SyncErrors)
 - [ProductPriceLevel_AsyncOperations](#BKMK_ProductPriceLevel_AsyncOperations)
 - [productpricelevel_MailboxTrackingFolders](#BKMK_productpricelevel_MailboxTrackingFolders)
-- [userentityinstancedata_productpricelevel](#BKMK_userentityinstancedata_productpricelevel)
 - [ProductPriceLevel_ProcessSessions](#BKMK_ProductPriceLevel_ProcessSessions)
 - [ProductPriceLevel_BulkDeleteFailures](#BKMK_ProductPriceLevel_BulkDeleteFailures)
 - [productpricelevel_PrincipalObjectAttributeAccesses](#BKMK_productpricelevel_PrincipalObjectAttributeAccesses)
 
 
 ### <a name="BKMK_ProductPriceLevel_SyncErrors"></a> ProductPriceLevel_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [ProductPriceLevel_SyncErrors](syncerror.md#BKMK_ProductPriceLevel_SyncErrors) Many-To-One relationship.
 
@@ -885,10 +896,12 @@ Same as syncerror entity [ProductPriceLevel_SyncErrors](syncerror.md#BKMK_Produc
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|ProductPriceLevel_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_ProductPriceLevel_AsyncOperations"></a> ProductPriceLevel_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [ProductPriceLevel_AsyncOperations](asyncoperation.md#BKMK_ProductPriceLevel_AsyncOperations) Many-To-One relationship.
 
@@ -905,6 +918,8 @@ Same as asyncoperation entity [ProductPriceLevel_AsyncOperations](asyncoperation
 
 ### <a name="BKMK_productpricelevel_MailboxTrackingFolders"></a> productpricelevel_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [productpricelevel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_productpricelevel_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -915,25 +930,12 @@ Same as mailboxtrackingfolder entity [productpricelevel_MailboxTrackingFolders](
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|productpricelevel_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_userentityinstancedata_productpricelevel"></a> userentityinstancedata_productpricelevel
-
-Same as userentityinstancedata entity [userentityinstancedata_productpricelevel](userentityinstancedata.md#BKMK_userentityinstancedata_productpricelevel) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_productpricelevel|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_ProductPriceLevel_ProcessSessions"></a> ProductPriceLevel_ProcessSessions
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [ProductPriceLevel_ProcessSessions](processsession.md#BKMK_ProductPriceLevel_ProcessSessions) Many-To-One relationship.
 
@@ -950,6 +952,8 @@ Same as processsession entity [ProductPriceLevel_ProcessSessions](processsession
 
 ### <a name="BKMK_ProductPriceLevel_BulkDeleteFailures"></a> ProductPriceLevel_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [ProductPriceLevel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ProductPriceLevel_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -964,6 +968,8 @@ Same as bulkdeletefailure entity [ProductPriceLevel_BulkDeleteFailures](bulkdele
 
 
 ### <a name="BKMK_productpricelevel_PrincipalObjectAttributeAccesses"></a> productpricelevel_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [productpricelevel_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_productpricelevel_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -998,25 +1004,37 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_productpricelevelbase_createdby"></a> lk_productpricelevelbase_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_productpricelevelbase_createdby](systemuser.md#BKMK_lk_productpricelevelbase_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_productpricelevel_createdonbehalfby"></a> lk_productpricelevel_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_productpricelevel_createdonbehalfby](systemuser.md#BKMK_lk_productpricelevel_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_productpricelevelbase_modifiedby"></a> lk_productpricelevelbase_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_productpricelevelbase_modifiedby](systemuser.md#BKMK_lk_productpricelevelbase_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_productpricelevel_modifiedonbehalfby"></a> lk_productpricelevel_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_productpricelevel_modifiedonbehalfby](systemuser.md#BKMK_lk_productpricelevel_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_processstage_productpricelevels"></a> processstage_productpricelevels
 
+**Added by**: System Solution Solution
+
 See processstage Entity [processstage_productpricelevels](processstage.md#BKMK_processstage_productpricelevels) One-To-Many relationship.
 
 ### <a name="BKMK_transactioncurrency_productpricelevel"></a> transactioncurrency_productpricelevel
+
+**Added by**: System Solution Solution
 
 See transactioncurrency Entity [transactioncurrency_productpricelevel](transactioncurrency.md#BKMK_transactioncurrency_productpricelevel) One-To-Many relationship.
 
@@ -1038,11 +1056,13 @@ See uomschedule Entity [unit_of_measure_schedule_product_price_level](uomschedul
 
 ### <a name="BKMK_discount_type_product_price_levels"></a> discount_type_product_price_levels
 
+**Added by**: Sales Solution
+
 See discounttype Entity [discount_type_product_price_levels](discounttype.md#BKMK_discount_type_product_price_levels) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.productpricelevel?text=productpricelevel EntityType" />

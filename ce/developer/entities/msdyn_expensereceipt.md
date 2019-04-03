@@ -1,43 +1,45 @@
 ---
-title: "msdyn_expensereceipt Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_expensereceipt Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_expensereceipt entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_expensereceipt Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Table that contains expense receipt information.
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_expensereceipts(*msdyn_expensereceiptid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_expensereceipts<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_expensereceipts(*msdyn_expensereceiptid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_expensereceipts(*msdyn_expensereceiptid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_expensereceipts<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_expensereceipts(*msdyn_expensereceiptid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_expensereceipts(*msdyn_expensereceiptid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_expensereceipts<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_expensereceipts(*msdyn_expensereceiptid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_expensereceipts<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_expensereceipts(*msdyn_expensereceiptid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_expensereceipts(*msdyn_expensereceiptid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_expensereceipts(*msdyn_expensereceiptid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_expensereceipts(*msdyn_expensereceiptid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -153,6 +155,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -166,6 +170,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -253,7 +259,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -281,6 +289,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -294,6 +304,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -310,6 +322,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -342,6 +356,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -355,6 +371,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -372,6 +390,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -388,6 +408,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -401,6 +423,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -417,6 +441,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -449,6 +475,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -462,6 +490,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -478,6 +508,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -511,6 +543,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Name of the owner|
@@ -526,6 +560,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -543,6 +579,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -556,6 +594,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -571,6 +611,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -584,6 +626,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -606,7 +650,6 @@ Listed by **SchemaName**.
 - [msdyn_expensereceipt_SyncErrors](#BKMK_msdyn_expensereceipt_SyncErrors)
 - [msdyn_expensereceipt_AsyncOperations](#BKMK_msdyn_expensereceipt_AsyncOperations)
 - [msdyn_expensereceipt_MailboxTrackingFolders](#BKMK_msdyn_expensereceipt_MailboxTrackingFolders)
-- [msdyn_expensereceipt_UserEntityInstanceDatas](#BKMK_msdyn_expensereceipt_UserEntityInstanceDatas)
 - [msdyn_expensereceipt_ProcessSession](#BKMK_msdyn_expensereceipt_ProcessSession)
 - [msdyn_expensereceipt_BulkDeleteFailures](#BKMK_msdyn_expensereceipt_BulkDeleteFailures)
 - [msdyn_expensereceipt_PrincipalObjectAttributeAccesses](#BKMK_msdyn_expensereceipt_PrincipalObjectAttributeAccesses)
@@ -614,6 +657,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_expensereceipt_SyncErrors"></a> msdyn_expensereceipt_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_expensereceipt_SyncErrors](syncerror.md#BKMK_msdyn_expensereceipt_SyncErrors) Many-To-One relationship.
 
@@ -625,10 +670,12 @@ Same as syncerror entity [msdyn_expensereceipt_SyncErrors](syncerror.md#BKMK_msd
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_expensereceipt_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_expensereceipt_AsyncOperations"></a> msdyn_expensereceipt_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_expensereceipt_AsyncOperations](asyncoperation.md#BKMK_msdyn_expensereceipt_AsyncOperations) Many-To-One relationship.
 
@@ -645,6 +692,8 @@ Same as asyncoperation entity [msdyn_expensereceipt_AsyncOperations](asyncoperat
 
 ### <a name="BKMK_msdyn_expensereceipt_MailboxTrackingFolders"></a> msdyn_expensereceipt_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_expensereceipt_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_expensereceipt_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -655,25 +704,12 @@ Same as mailboxtrackingfolder entity [msdyn_expensereceipt_MailboxTrackingFolder
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_expensereceipt_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_expensereceipt_UserEntityInstanceDatas"></a> msdyn_expensereceipt_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_expensereceipt_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_expensereceipt_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_expensereceipt_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_expensereceipt_ProcessSession"></a> msdyn_expensereceipt_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_expensereceipt_ProcessSession](processsession.md#BKMK_msdyn_expensereceipt_ProcessSession) Many-To-One relationship.
 
@@ -690,6 +726,8 @@ Same as processsession entity [msdyn_expensereceipt_ProcessSession](processsessi
 
 ### <a name="BKMK_msdyn_expensereceipt_BulkDeleteFailures"></a> msdyn_expensereceipt_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_expensereceipt_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_expensereceipt_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -705,6 +743,8 @@ Same as bulkdeletefailure entity [msdyn_expensereceipt_BulkDeleteFailures](bulkd
 
 ### <a name="BKMK_msdyn_expensereceipt_PrincipalObjectAttributeAccesses"></a> msdyn_expensereceipt_PrincipalObjectAttributeAccesses
 
+**Added by**: System Solution Solution
+
 Same as principalobjectattributeaccess entity [msdyn_expensereceipt_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_expensereceipt_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
 |Property|Value|
@@ -719,6 +759,8 @@ Same as principalobjectattributeaccess entity [msdyn_expensereceipt_PrincipalObj
 
 
 ### <a name="BKMK_msdyn_expensereceipt_Annotations"></a> msdyn_expensereceipt_Annotations
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [msdyn_expensereceipt_Annotations](annotation.md#BKMK_msdyn_expensereceipt_Annotations) Many-To-One relationship.
 
@@ -750,29 +792,43 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_expensereceipt_createdby"></a> lk_msdyn_expensereceipt_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_expensereceipt_createdby](systemuser.md#BKMK_lk_msdyn_expensereceipt_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_expensereceipt_createdonbehalfby"></a> lk_msdyn_expensereceipt_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_expensereceipt_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_expensereceipt_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_expensereceipt_modifiedby"></a> lk_msdyn_expensereceipt_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_expensereceipt_modifiedby](systemuser.md#BKMK_lk_msdyn_expensereceipt_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_expensereceipt_modifiedonbehalfby"></a> lk_msdyn_expensereceipt_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_expensereceipt_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_expensereceipt_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_expensereceipt"></a> user_msdyn_expensereceipt
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_msdyn_expensereceipt](systemuser.md#BKMK_user_msdyn_expensereceipt) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_expensereceipt"></a> team_msdyn_expensereceipt
 
+**Added by**: System Solution Solution
+
 See team Entity [team_msdyn_expensereceipt](team.md#BKMK_team_msdyn_expensereceipt) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_expensereceipt"></a> business_unit_msdyn_expensereceipt
+
+**Added by**: System Solution Solution
 
 See businessunit Entity [business_unit_msdyn_expensereceipt](businessunit.md#BKMK_business_unit_msdyn_expensereceipt) One-To-Many relationship.
 
@@ -783,6 +839,6 @@ See msdyn_expense Entity [msdyn_msdyn_expense_msdyn_expensereceipt_ExpenseId](ms
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_expensereceipt?text=msdyn_expensereceipt EntityType" />

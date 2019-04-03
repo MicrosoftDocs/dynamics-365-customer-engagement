@@ -52,7 +52,7 @@ Make sure that you have the required security role or equivalent permissions.
 
    ![resource categories](media/resource-categories.png)
 
-Similarly, you can create a new requirement resource category for requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a requirement resource category](#create-a-requirement-resource-category).
+Similarly, you can create a new requirement resource category for requirements.
 
 ## Add resources to a resource category
 

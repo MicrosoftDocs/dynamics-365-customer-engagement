@@ -1,9 +1,9 @@
 ---
 title: "Configure entities and attributes for auditing (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Explains configuration requirements to enable and disable auditing of entities and their attributes."
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.custom: audit
+ms.date: 03/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

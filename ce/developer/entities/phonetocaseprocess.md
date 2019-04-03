@@ -1,36 +1,38 @@
 ---
-title: "PhoneToCaseProcess Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "PhoneToCaseProcess Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the PhoneToCaseProcess entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # PhoneToCaseProcess Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Phone To Case Process Business Process Flow
 
-**Added by**: Service Solution<br />
+**Added by**: Service Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/phonetocaseprocesses<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/phonetocaseprocesses(*businessprocessflowinstanceid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/phonetocaseprocesses(*businessprocessflowinstanceid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/phonetocaseprocesses<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/phonetocaseprocesses(*businessprocessflowinstanceid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/phonetocaseprocesses(*businessprocessflowinstanceid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.0/phonetocaseprocesses<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/phonetocaseprocesses(*businessprocessflowinstanceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/phonetocaseprocesses(*businessprocessflowinstanceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/phonetocaseprocesses<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/phonetocaseprocesses(*businessprocessflowinstanceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/phonetocaseprocesses(*businessprocessflowinstanceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -312,7 +314,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ActiveStageIdName](#BKMK_ActiveStageIdName)
@@ -409,7 +413,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when the record was created.|
 |DisplayName|Created On|
-|Format|DateOnly|
+|Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|createdon|
@@ -564,7 +568,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when the record was modified.|
 |DisplayName|Modified On|
-|Format|DateOnly|
+|Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|modifiedon|
@@ -704,13 +708,14 @@ Listed by **SchemaName**.
 - [phonetocaseprocess_AsyncOperations](#BKMK_phonetocaseprocess_AsyncOperations)
 - [lk_phonetocaseprocess_workflowlogs](#BKMK_lk_phonetocaseprocess_workflowlogs)
 - [phonetocaseprocess_MailboxTrackingFolders](#BKMK_phonetocaseprocess_MailboxTrackingFolders)
-- [phonetocaseprocess_UserEntityInstanceDatas](#BKMK_phonetocaseprocess_UserEntityInstanceDatas)
 - [phonetocaseprocess_ProcessSession](#BKMK_phonetocaseprocess_ProcessSession)
 - [phonetocaseprocess_BulkDeleteFailures](#BKMK_phonetocaseprocess_BulkDeleteFailures)
 - [phonetocaseprocess_PrincipalObjectAttributeAccesses](#BKMK_phonetocaseprocess_PrincipalObjectAttributeAccesses)
 
 
 ### <a name="BKMK_PhoneToCaseProcess_SyncErrors"></a> PhoneToCaseProcess_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [PhoneToCaseProcess_SyncErrors](syncerror.md#BKMK_PhoneToCaseProcess_SyncErrors) Many-To-One relationship.
 
@@ -727,6 +732,8 @@ Same as syncerror entity [PhoneToCaseProcess_SyncErrors](syncerror.md#BKMK_Phone
 
 ### <a name="BKMK_phonetocaseprocess_AsyncOperations"></a> phonetocaseprocess_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [phonetocaseprocess_AsyncOperations](asyncoperation.md#BKMK_phonetocaseprocess_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -741,6 +748,8 @@ Same as asyncoperation entity [phonetocaseprocess_AsyncOperations](asyncoperatio
 
 
 ### <a name="BKMK_lk_phonetocaseprocess_workflowlogs"></a> lk_phonetocaseprocess_workflowlogs
+
+**Added by**: System Solution Solution
 
 Same as workflowlog entity [lk_phonetocaseprocess_workflowlogs](workflowlog.md#BKMK_lk_phonetocaseprocess_workflowlogs) Many-To-One relationship.
 
@@ -757,6 +766,8 @@ Same as workflowlog entity [lk_phonetocaseprocess_workflowlogs](workflowlog.md#B
 
 ### <a name="BKMK_phonetocaseprocess_MailboxTrackingFolders"></a> phonetocaseprocess_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [phonetocaseprocess_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_phonetocaseprocess_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -770,22 +781,9 @@ Same as mailboxtrackingfolder entity [phonetocaseprocess_MailboxTrackingFolders]
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_phonetocaseprocess_UserEntityInstanceDatas"></a> phonetocaseprocess_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [phonetocaseprocess_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_phonetocaseprocess_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|phonetocaseprocess_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_phonetocaseprocess_ProcessSession"></a> phonetocaseprocess_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [phonetocaseprocess_ProcessSession](processsession.md#BKMK_phonetocaseprocess_ProcessSession) Many-To-One relationship.
 
@@ -802,6 +800,8 @@ Same as processsession entity [phonetocaseprocess_ProcessSession](processsession
 
 ### <a name="BKMK_phonetocaseprocess_BulkDeleteFailures"></a> phonetocaseprocess_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [phonetocaseprocess_BulkDeleteFailures](bulkdeletefailure.md#BKMK_phonetocaseprocess_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -816,6 +816,8 @@ Same as bulkdeletefailure entity [phonetocaseprocess_BulkDeleteFailures](bulkdel
 
 
 ### <a name="BKMK_phonetocaseprocess_PrincipalObjectAttributeAccesses"></a> phonetocaseprocess_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [phonetocaseprocess_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_phonetocaseprocess_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -848,33 +850,49 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_phonetocaseprocess_createdby"></a> lk_phonetocaseprocess_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_phonetocaseprocess_createdby](systemuser.md#BKMK_lk_phonetocaseprocess_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_phonetocaseprocess_createdonbehalfby"></a> lk_phonetocaseprocess_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_phonetocaseprocess_createdonbehalfby](systemuser.md#BKMK_lk_phonetocaseprocess_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_phonetocaseprocess_modifiedby"></a> lk_phonetocaseprocess_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_phonetocaseprocess_modifiedby](systemuser.md#BKMK_lk_phonetocaseprocess_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_phonetocaseprocess_modifiedonbehalfby"></a> lk_phonetocaseprocess_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_phonetocaseprocess_modifiedonbehalfby](systemuser.md#BKMK_lk_phonetocaseprocess_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_organization_phonetocaseprocess"></a> organization_phonetocaseprocess
 
+**Added by**: System Solution Solution
+
 See organization Entity [organization_phonetocaseprocess](organization.md#BKMK_organization_phonetocaseprocess) One-To-Many relationship.
 
 ### <a name="BKMK_lk_phonetocaseprocess_activestageid"></a> lk_phonetocaseprocess_activestageid
+
+**Added by**: System Solution Solution
 
 See processstage Entity [lk_phonetocaseprocess_activestageid](processstage.md#BKMK_lk_phonetocaseprocess_activestageid) One-To-Many relationship.
 
 ### <a name="BKMK_lk_phonetocaseprocess_processid"></a> lk_phonetocaseprocess_processid
 
+**Added by**: System Solution Solution
+
 See workflow Entity [lk_phonetocaseprocess_processid](workflow.md#BKMK_lk_phonetocaseprocess_processid) One-To-Many relationship.
 
 ### <a name="BKMK_transactioncurrency_phonetocaseprocess"></a> transactioncurrency_phonetocaseprocess
+
+**Added by**: System Solution Solution
 
 See transactioncurrency Entity [transactioncurrency_phonetocaseprocess](transactioncurrency.md#BKMK_transactioncurrency_phonetocaseprocess) One-To-Many relationship.
 
@@ -885,6 +903,6 @@ See incident Entity [lk_phonetocaseprocess_incidentid](incident.md#BKMK_lk_phone
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.phonetocaseprocess?text=phonetocaseprocess EntityType" />
