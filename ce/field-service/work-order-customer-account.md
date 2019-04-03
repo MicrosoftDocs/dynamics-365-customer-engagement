@@ -44,7 +44,7 @@ In this article let's explore creating and using accounts on work orders.
 
 ## Prerequisites
 
-Locations are very important in field service scenarios where field technicians may need to be routed to multiple customers' locations each day. For this reason it is highly recommended to: 
+Locations are very important in field service scenarios where field technicians may need to travel to multiple customers' locations each day. For this reason it is highly recommended to: 
 
 1. [connect to Bing maps and enable map visualizations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
 2. [enable and test geo coding](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
@@ -56,7 +56,7 @@ Locations are very important in field service scenarios where field technicians 
 
 ## Create a service account
 
-First lets create a service account that represents a specific customer location where work orders will be performed. Whether it is a service account or a billing account, they are both simply account records. The main difference is it is recommended service accounts have addresses and are geo coded.
+First lets create a service account that represents a specific customer location where work orders will be performed. Whether it is a service account or a billing account, they are both simply account records. The main difference is service accounts have addresses and are geo coded (recommended).
 
 Go to **Field Service > Accounts > +New**
 
@@ -73,9 +73,9 @@ Confirm geo coding is successful by the location visualized on the map and value
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geo coded account](./media/service-account-scheduling-section.png)
 
-Next, go the Field Service section of the account form and fill in details based on your business needs. Values entered here are passed down to work orders where this account is listed as the service account, but the values can be edited on each work order as needed.
+Next, go to the Field Service section of the account form and fill in details based on your business needs. Values entered here are passed down to work orders where this account is listed as the service account, but the values can be edited on each work order as needed.
 
-**Billing Account:** The value chosen here will populate the billing account field on the work order when this account is entered as the service account. This field is not required, and if no account is entered here, the service account listed on the work order will act as both the service account and the billing account. In the example image below, Winery Inc. is the Billing Account for the service account, Coho Winery. This implies Coho Winery is a specific location of Winery Inc. and invoices should be listed for Winery Inc.
+**Billing Account:** The value chosen here will populate the billing account field on the work order when this account is entered as the service account. This field is not required, and if no account is entered here, the service account listed on the work order will act as both the service account and the billing account. In the example image below, Winery Inc. is the billing account for the service account, Coho Winery. This implies Coho Winery is a specific location of Winery Inc. and invoices should be sent to Winery Inc.
 
 **Price List:** This value is listed on related work orders and all related work order products and services and dictates the price of those products and services on the resulting invoices. If the billing account field in the previous step has a value, then the price list on the billing account record will be used. If no billing account is entered, then the price list entered here will be used on resulting work orders and invoices. If the work order products or services are not listed on the price list, then the list price on the product record is used. 
 
@@ -94,7 +94,7 @@ Next, go the Field Service section of the account form and fill in details based
 > Updating these values will not update previous work orders, only future work orders.
 
 
-## create a work order for the service account
+## Create a work order for the service account
 
 Next, go to **Field Service > Work Orders > +New**
 
@@ -107,13 +107,14 @@ Notice the following values automatically populated.
 
 **Price List** - populated as the price list specified on the **billing account** record.
 
+> [!Note]
+> If the work order price list does not reflect the price list entered on your service account or billing account, this means it is being overridden by the price list related to Work Order Types or Entitlements.
+
 **Primary Contact** - the primary contact of the service account shown on the work order.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of new work order with the account just created listed as a service account](./media/work-order-service-account.png)
 
-> [!Note]
-> If the work order price list does not reflect the price list entered on your service account or billing account, this means it is being overridden by the price list related to Work Order Types or Entitlements.
 
 **Service Territory and Instructions**
 
@@ -139,9 +140,9 @@ This work order location is passed down to the work order requirement and is ref
 
 ## Invoice the billing account
 
-When the work order is finished and the system status is changed to Closed-Posted, an invoice with all used work order products and services is created for the account that is listed in the **billing account** of the work order.
+When the work order is finished and the system status is changed to **Closed-Posted**, an invoice with all used work order products and services is created for the account that is listed in the **billing account** of the work order.
 
-Go to **Field Service > Sales > Invoices** to view the newly generated invoice for the closed work order. Notice the Account of the invoice is the billing account of the work order, and the name references the work order number.
+Go to **Field Service > Sales > Invoices** to view the newly generated invoice for the closed work order. Notice the account of the invoice is the billing account of the work order, and the name references the work order number.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of invoice for billing account](./media/work-order-invoice.png)
@@ -166,7 +167,7 @@ This is the product that will later show as a work order product.
 > The travel charge work order product is subject to the same pricing rules as all work order products and services. The unit amount pricing of travel charge work order products is dictated first by the **price list**, if the travel charge product is not part of the price list as a price list item then the **list price** on the travel charge product will be used, and lastly if no list price is entered, the unit amount price will be the value entered in the service account **travel charge**.
 
 
-Though the uit amount price of the travel charge is dictated by the price list, list price, and travel charge, the quantity is dictated by the **Travel Charge Type** on the service account.
+Though the unit amount price of the travel charge is dictated by the price list, list price, and travel charge, the quantity is dictated by the **Travel Charge Type** on the service account.
 
 - **Hourly:** Quantity will be the **Actual Travel Duration** of the booking / 60 minutes. As an example, if the unit amount price of the Travel Charge is set to $60 and actual travel duration is 30 minutes, the travel charge work order product will be priced as $30.
 - **Mileage:** Quantity is the **Miles Traveled** of the booking. As an example, if the unit amount price of the Travel Charge is set to $1 and miles traveled is 20 miles, the travel charge work order product will be priced as $20.
