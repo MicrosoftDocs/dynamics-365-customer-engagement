@@ -28,9 +28,9 @@ A content moderation policy allows you to moderate the ideas that are submitted 
 
 To enable content moderation on ideas:
 
-1.	Create a content moderation policy
-2.	Add the moderation policy to an idea forum
-3.	Moderate the flagged ideas
+1.	[Create a content moderation policy](#create-a-content-moderation-policy)
+2.	[Add the moderation policy to an idea forum](#add-content-moderation-policy-to-an-idea-forum)
+3.	[Moderate the flagged ideas](#moderate-an-idea)
 
 ## Create a content moderation policy
 
