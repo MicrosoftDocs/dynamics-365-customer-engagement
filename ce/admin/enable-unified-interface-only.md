@@ -1,7 +1,7 @@
 ---
 title: "Enable Unified Interface Only for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 ms.custom: 
-ms.date: 03/29/2019
+ms.date: 04/04/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -49,7 +49,7 @@ Environments created before the scheduled release dates will not get this change
 > For existing environments, it’s recommended that you:
 >
 > - Read [What experiences are available in Unified Interface Only](#what-experiences-are-available-in-unified-interface-only-mode) and understand how it affects end users in your environment. 
-> - Test the changes in your trial or sandbox environments before applying to your production environment.
+> - Test the changes in your Trial or Sandbox environments before applying to your production environment.
 
 ## What experiences are available in Unified Interface Only mode 
 
@@ -88,10 +88,6 @@ When Unified Interface Only mode is enabled, *Dynamics 365 - custom* opens in Un
 
 - In Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Show legacy Dynamics 365 - custom app**, select **Yes** for **Show this app to all users, not just administrators**.
 
-
-<!--please review the editing changes to the following sentence.-->
-
-
 - In the Power Platform Admin center, go to **Environments** and select an environment. Go to **Settings** > **Behavior** > **Interface settings** and then turn on **Show legacy app to everyone, not just admins**.
 
 ### Advanced settings
@@ -112,10 +108,6 @@ When Unified Interface Only mode is enabled, environment settings can be accesse
 Unified Interface Only can be turned on and off in one of two ways:
 
 - In Customer Engagement, go to **Settings** > **Administration** > **System Settings** > **General** tab. Under **Use the new Unified Interface only (recommended)**, select **Yes** for **Enable only the Unified Interface**.
-
-
-<!--Please review the editing changes to the following sentence.-->
-
 
 - In the Power Platform Admin center, go to **Environments** and select an environment. Go to **Settings** > **Behavior** > **Interface settings** and then turn on **Use Unified Interface only**.
 
