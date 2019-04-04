@@ -24,7 +24,7 @@
 #### [Assign records](assign-records-sales-professional.md)
 #### [Use document templates](use-document-templates-sales-professional.md)
 
-## [Set up the app](admin-guide.md)
+## [Administrator and Sales Manager guide](admin-guide.md)
 ### [Standard settings](admin-settings-overview.md)
 #### [Connect with SharePoint](connect-with-sharepoint.md)
 #### [Import data](import-data.md)
