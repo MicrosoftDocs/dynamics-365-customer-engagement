@@ -176,4 +176,5 @@ The table below explains the standard attributes and relationships of the Idea V
 [Manage forum threads](manage-forum-threads.md)  
 [Create forum posts on the portal](create-forum-posts.md)  
 [Moderate forums](moderate-forums.md)  
-[Subscribe to alerts](subscribe-alerts.md)
+[Subscribe to alerts](subscribe-alerts.md)<br>
+[Enable content moderation on ideas](enable-idea-content-moderation.md)

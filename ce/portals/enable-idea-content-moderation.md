@@ -85,7 +85,7 @@ When a portal user flags an idea on the portal by using a reason, the idea is hi
 
 5.	In the **Moderation status** list, choose **Accepted** or **Rejected** if you agree or disagree with the moderation status reason, respectively. The moderated idea is moved to the **Moderated Ideas** view.
 
-## See also
+### See also
 
 [Manage idea forums in Dynamics 365 for Customer Engagement](crowdsource-ideas.md#manage-idea-forums-in-dynamics-365-for-customer-engagement)<br>
 [Manage ideas in Dynamics 365 for Customer Engagement](crowdsource-ideas.md#manage-ideas-in-dynamics-365-for-customer-engagement)
