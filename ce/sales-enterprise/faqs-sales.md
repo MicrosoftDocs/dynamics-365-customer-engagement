@@ -35,7 +35,7 @@ manager: shubhadaj
 > [!NOTE]
 > In this section, we use the entity **Opportunity** to frame the questions. However, these questions are also true for these other entities: **Quote**, **Invoice**, and **Order**.
 
-**Question**:<br>Why does any view other than **Opportunity Product Inline Edit View** lose the inline editable functionality in Web Client if it’s been selected for the **Opportunity Product** subgrid in the **Opportunity** form?
+**Question**:<br>Why does any view other than **Opportunity Product Inline Edit View** lose the inline editable functionality and can't view grid actions such as move up, move down, and lock icons in Web Client if it’s been selected for the **Opportunity Product** subgrid in the **Opportunity** form?
 
 **Answer**:<br>This is known and by-design behavior in Web Client. However, this behavior is changed in Unified Interface. We recommend that you use Unified Interface to experience the inline edit view. To verify if a grid is editable, go to **Grid control properties**.
 
@@ -67,15 +67,20 @@ manager: shubhadaj
 **Question**:<br>How can I change the default value for the **Prices Locked** field in the **Order** form?
 
 **Answer**:<br>You can change the default value for the **Prices Locked** field in the **Order** form through customizations or the inline editable grid:
-- **Through customizations**:
-    1. Go to **Settings** > **Customizations** > **Customize the System**.
-    2. Select **Entities** > **Order** > **Fields**.
-    3. Select the **ispricelocked** field and configure the **Default Value** to **No**.
-    4. Save and publish the customizations.
-- **Through inline editable grid**:<br>
-    Select the **Lock** icon on the editable grid and change the value of the **Prices Locked** field.
+  1. Go to **Settings** > **Customizations** > **Customize the System**.
+  2. Select **Entities** > **Order** > **Fields**.
+  3. Select the **ispricelocked** field and configure the **Default Value** to **No**.
+  4. Save and publish the customizations.
 
-**Question**:<br>What does the **Prices Locked** (ispricelocked) field mean on the **Order** form and how does this field value impact the **Price Per Unit** column in the **Products** grid?
+**Question**:<br>How can I change the default value for the **Prices Locked** field for a perticular **Order** form?
+
+**Answer**:<br> You can change the default value for the **Prices Locked** field through inline editable grid**. Select the **Lock** icon on the editable grid and change the value of the **Prices Locked** field.
+
+  > [!div class="mx-imgBorder"]
+  > ![Edit pricing for a product](media/faqs-edit-pricing-for-product.png "Edit pricing for a product")
+
+
+**Question**:<br>When can I change the **Pricing Per Unit** column in **Products** grid?
 
 **Answer**:<br>The **Prices Locked** (ispricelocked) field controls the prices specified on the **Order** form and locks them from any further updates.<br>
 
@@ -89,7 +94,7 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 |**Prices Locked** is No and **Pricing** is Override Price|Editable|Non-editable|Editable|
 |**Prices Locked** is No and **Pricing** is Use Default|Non-editable|Non-editable|Non-editable|
 
-**For new product**:
+**For write-in product**:
 
 |Configuration| In editable grid – **PricePerUnit** column value| In non-editable grid – **PricePerUnit** column value| **Order** product form|
 |-------------|-------------|-------------|-------------|
