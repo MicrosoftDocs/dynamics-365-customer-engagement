@@ -43,7 +43,6 @@ ce\developer\webapi\query-metadata-web-api.md
 ce\developer\webapi\retrieve-metadata-name-metadataid.md
 ce\developer\webapi\create-update-entity-definitions-using-web-api.md
 ce\developer\webapi\create-update-entity-relationships-using-web-api.md
-ce\developer\webapi\use-postman-perform-operations.md
 ce\developer\webapi\web-api-samples.md
 ce\developer\webapi\web-api-basic-operations-sample.md
 ce\developer\webapi\web-api-query-data-sample.md
