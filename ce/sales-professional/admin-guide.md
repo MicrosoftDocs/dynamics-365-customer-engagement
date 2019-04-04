@@ -71,8 +71,8 @@ topic-status: Drafting
 <tr><td>
 <h2>Upgrade/downgrade</h2>
 <ul>
-<li><a href="upgrade-sales-professional-sales-enterprise.md" data-raw-source="[Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise](../sales-enterprise/upgrade-sales-professional-sales-enterprise.md)">Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise</a> </li>
-<li><a href="move-sales-enterprise-sales-professional.md" data-raw-source="[Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional](../sales-enterprise/move-sales-enterprise-sales-professional.md)">Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional</a> </li>
+<li><a href="../sales-enterprise/upgrade-sales-professional-sales-enterprise.md" data-raw-source="[Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise](../sales-enterprise/upgrade-sales-professional-sales-enterprise.md)">Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise</a> </li>
+<li><a href="../sales-enterprise/move-sales-enterprise-sales-professional.md" data-raw-source="[Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional](../sales-enterprise/move-sales-enterprise-sales-professional.md)">Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional</a> </li>
 </ul>
 
 </td><td>
