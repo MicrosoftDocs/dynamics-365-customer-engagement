@@ -58,6 +58,9 @@ manager: shubhadaj
 2. Select **Entities** > **Opportunity Product** > **Fields**.
 3. Select the **ispriceoverridden** field and configure the **Default Value** to **Override Price**.
 4. Save and publish the customizations.
+
+  > [!div class="mx-imgBorder"]
+  > ![Change pricing on order form](media/faqs-pricing-change-order-product-form.png "Change pricing on order form")
  
 ## Entities: Order and Invoice
 
