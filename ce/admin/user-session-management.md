@@ -23,10 +23,11 @@ search.app:
 ---
 # Security enhancements: User session and access management 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. 
 
+<!--
 > [!IMPORTANT]
 > These security enhancements are also available for:
 >
@@ -41,6 +42,7 @@ New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-cr
 
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Security Enhancements: User session management](https://youtu.be/9eR8hP6S-YM).  
+-->
 
 ## User session timeout management
 
@@ -52,7 +54,13 @@ By default, the Dynamics 365 for Customer Engagement apps leverage the Azure Act
 This Azure AD ID token refresh cycle continues in the background based on the Azure AD token lifetime policy configurations.  Users continue to access the Dynamics 365 for Customer Engagement/Common Data Service data without the needs to re-authenticate until the Azure AD token lifetime policy expires. 
 
 > [!NOTE]
-> The default Azure AD refresh token expiration is 90 days.  This token lifetime properties can be configured. For detailed information, see [Configurable token lifetimes in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-configurable-token-lifetimes#configurable-token-lifetime-properties).
+> - The default Azure AD refresh token expiration is 90 days.  This token lifetime properties can be configured. For detailed information, see [Configurable token lifetimes in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-configurable-token-lifetimes#configurable-token-lifetime-properties).
+> - The Azure AD session policy is bypassed and the maximum user session duration is reverted back to 24 hours in the following scenarios:
+>   - In the same browser session, you to go to the Dynamics 365 Administration Center (Instance Picker) page and open an environment in a new tab by manually adding a new tab and manually entering the environment URL. 
+>   - In the same browser session, open a version 9.1.0.2637 or higher environment and then open a version earlier 9.1.0.2637.
+>
+> To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right side of the screen, click the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**. 
+
 
 ### Resilience to Azure AD outages 
 In an event that there are intermittent Azure AD outages, authenticated users can continue to access the Dynamics 365 for Customer Engagement/Common Data Service data if the PCI claims has not expired or the user has opted in the ‘Stay signed in’ during authentication. 
@@ -116,6 +124,7 @@ The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps portal has its 
 - To enforce users to re-authenticate, users are required to sign in with their credentials after they signed out within the application. 
 - To prevent users from sharing credentials to access [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the user access token is validated to ensure that the user who was given access by the identity provider is the same user who is accessing [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
 
+<!--
 ## Steps for enabling security enhancements for Dynamics 365 for Customer Engagement apps (on-premises) deployments
 
 These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when using one of the supported Dynamics 365 for Customer Engagement apps (on-premises) builds listed below.
@@ -198,5 +207,5 @@ Sample:
 
 For more information, see [Get-CrmOrganization](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn833066(v=crm.8)) for details.
 
-
+-->
 
