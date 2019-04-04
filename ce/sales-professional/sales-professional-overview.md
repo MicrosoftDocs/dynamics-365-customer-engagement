@@ -1,6 +1,6 @@
 ---
 title: "Overview of Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Get an overview of Dynamics 365 for Sales Professional."
+description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 for Sales Professional."
 keywords: ""
 ms.date: 04/05/2019
 ms.service:
@@ -84,7 +84,7 @@ Here are some highlights of Dynamics 365 for Sales Professional:
 -   **Store and view documents in the context of records.** Do you have presentations or documents for an opportunity all over the place? Store them
     all in one place, so anyone who’s working on the opportunity can view them!
 
-    More information: [Manage your SharePoint documents and document locations in Dynamics 365 for Sales Professional](manage-sharepoint-documents-sales-professional.md).
+    More information: [Manage your SharePoint documents and document locations in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md).
 
     ![Documents tab in a form](media/documents-tab-form.png "Documents tab in a form")
 

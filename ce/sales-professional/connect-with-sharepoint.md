@@ -86,6 +86,6 @@ To be able to configure SharePoint, you must have:
 
 ### See also
 
-[Manage your SharePoint documents](manage-sharepoint-documents-sales-professional.md)  
+[Manage your SharePoint documents](develop-sales-lead-to-cash-sales-professional.md)  
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)  
 [Admin settings overview](admin-settings-overview.md)
