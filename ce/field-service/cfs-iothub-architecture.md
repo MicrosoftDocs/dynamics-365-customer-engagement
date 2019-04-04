@@ -29,12 +29,17 @@ search.app:
 # Connected Field Service with IoTHub Architecture
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iothub-architecture.png)
+
+
 ## Prerequisites
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 ## Configuration considerations
 ## Additional Notes
+
+### See also
