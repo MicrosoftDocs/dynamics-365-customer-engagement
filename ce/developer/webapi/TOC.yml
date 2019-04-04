@@ -13,4 +13,4 @@
     - name: Setup a Postman environment
       href: setup-postman-environment.md
     - name: Use Postman to perform operations
-      href: /powerapps/developer/common-data-service/webapi/use-postman-perform-operations
+      href: use-postman-perform-operations.md
