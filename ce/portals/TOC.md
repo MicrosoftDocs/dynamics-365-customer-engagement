@@ -110,6 +110,7 @@
 ### [Subscribe to alerts](subscribe-alerts.md)
 ## [Manage blogs](manage-blogs.md)
 ## [Manage ideas](crowdsource-ideas.md)
+### [Enable content moderation on ideas](enable-idea-content-moderation.md)
 ## [Manage cases in portals](case-management.md)
 
 # Document storage in portal
