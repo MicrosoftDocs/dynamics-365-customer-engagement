@@ -33,7 +33,7 @@ Mobile offline allows Dynamics 365 for phones app users to interact with their d
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)] 
-> - Mobile offline is not available for Trial.
+> - Mobile offline feature is not available on trial instances.
 
 To allows users to use this feature, a Dynamics 365 administrator will need to set-up mobile offline for their organization. 
   
