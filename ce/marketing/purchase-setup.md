@@ -74,13 +74,13 @@ After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-nam
 > [!IMPORTANT]
 > Most of the settings you make while running the setup wizard will be *permanent* for your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installation, so take care while filling it out.
 
-## Step 2: Choose an organization and name your portal
+## Step 2: Choose an organization and choose portal options
 
-The first page of the wizard lets you choose where you will install the app and to choose an address where your portals and landing pages will run.
+The first page of the wizard lets you choose where you will install the app and to choose whether to set up a portal to run your marketing pages and event website.
 
 ![Choose an organization and name your portal](media/setup-form-1.png "Choose an organization and name your portal")
 
-Choose an instance and your portal options:
+Choose an instance and set your portal options:
 
 1. Select the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] organization where you want to add [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. (A [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] *organization* is another name for a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] *instance*.)
 
@@ -90,7 +90,7 @@ Choose an instance and your portal options:
 
 1. If you selected to **Use Dynamics 365 portals**, then enter a prefix for your portal URL in the field provided. You can also see what the full URL will be here. All your portals are hosted on your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, which uses a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]-owned domain name, plus the subdomain name that you choose here. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they will recognize, such as your organization's name. The subdomain that you choose must also be unique among all other subdomains in the same tenant; you'll be notified to try again if you pick one that's already in use.
 
-3. Select  **Continue**  to continue.
+1. Select  **Continue**  to continue.
 
 ## Step 3: Give consent and enter your postal address
 
