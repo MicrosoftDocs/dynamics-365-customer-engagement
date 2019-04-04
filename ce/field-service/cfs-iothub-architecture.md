@@ -44,9 +44,11 @@ Connected Field Service with IoTHub brings together AzureIoT and Dynamics 365 fo
 
 **Threshold Rules Store** - helps decide if device data is abnormal and beyond acceptable boundaries. Abnormal data is characterized as a **Fault**.
 
-**Service Bus** - takes faults and enters them into a queue to systematically keep track of them.
+**Service Bus** - takes faults and enters them into a queue to systematically keep track of them. The queue is helpful for scenarios where faults fail to get transferred to Dynamics 365 and should be attempted again after some time.
 
 **Stream Analytics & Azure SQL** - used to store device data for longer time periods to perform data analysis. As an example, this would be an option for organizations interested in analyzing large amounts of historical data to predict device failures in the future. This generally incurs a greater Azure cost.
+
+**Logic App Azure to Dynamics** - connects Azure with Dynamics 365 (and other applications and platforms). Serves as a way to apply more logic, map entities, and trigger the appropriate actions in dynamics such as the creation of an **IoT Alert** record.
 
 ## Prerequisites
 > [!Note]
