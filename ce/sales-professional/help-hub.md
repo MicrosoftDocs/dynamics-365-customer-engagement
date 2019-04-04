@@ -35,13 +35,13 @@ topic-status: Drafting
 
 <h2>Increase sales</h2>
 
-<li><a href="create-products.md" data-raw-source="[Create products](create-products.md)">Create products</a></li>
-<li><a href="create-price-list.md" data-raw-source="[Create a price list](create-price-list.md)">Create a price list</a></li>
-<li><a href="create-unit-group-add-units.md" data-raw-source="[Create a unit group and add units](create-unit-group-add-units.md)">Create a unit group and add units</a></li>
 <li><a href="manage-leads-sales-professional.md" data-raw-source="[Manage leads](manage-leads-sales-professional.md)">Manage leads</a></li>
 <li><a href="manage-opportunities-sales-professional.md" data-raw-source="[Manage opportunities](manage-opportunities-sales-professional.md)">Manage opportunities</a></li>
 <li><a href="create-quotes-sales-professional.md" data-raw-source="[Create quotes](create-quotes-sales-professional.md)">Create quotes</a></li>
 <li><a href="create-invoices.md" data-raw-source="[Create invoices](create-invoices.md)">Create invoices</a></li>
+<li><a href="create-products.md" data-raw-source="[Create products](create-products.md)">Create products</a></li>
+<li><a href="create-price-list.md" data-raw-source="[Create a price list](create-price-list.md)">Create a price list</a></li>
+<li><a href="create-unit-group-add-units.md" data-raw-source="[Create a unit group and add units](create-unit-group-add-units.md)">Create a unit group and add units</a></li>
 
 </td></tr>
 
