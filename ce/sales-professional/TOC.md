@@ -33,7 +33,7 @@
 #### [Set up email](configure-email.md)
 
 ### [Advanced settings](admin-settings-overview.md)
-#### [Set up branding and thmeing](change-color-scheme-logo.md)
+#### [Set up branding and themeing](change-color-scheme-logo.md)
 #### [Manage teams](manage-teams.md)
 #### [Manage Excel templates](manage-excel-templates.md)
 #### [Manage Word templates](manage-word-templates.md)
