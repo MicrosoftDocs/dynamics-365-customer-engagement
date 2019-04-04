@@ -30,20 +30,10 @@ manager: shubhadaj
    > ![Edit estimated revenue](media/faqs-est-revenue.png "Edit estimated revenue")
 
 
-<!--from editor: How do they know if it's in an Open state? I don't see that in the above screenshot.-->
-
-
- 
 ## Entities: Opportunity, Quote, Invoice, and Order
 
-
-
-<!--from editor: We define an "Important" alert as being "Information that the user needs to know to correctly perform a task." Do you agree that this alert falls into that category, or would it instead be a "Note" ("Additional, 'neutral' information, offered as an aside — 'nice to know' details")?
-Also, does the alert apply to more entities than the ones mentioned? Are they "such as"? If it is only those listed, change it to "However, these questions are also true for these other entities ...."--> 
-
-
-> [!IMPORTANT]
-> In this section, we use the entity **Opportunity** to frame the questions. However, these questions are true for other entities: **Quote**, **Invoice**, and **Order**.
+> [!NOTE]
+> In this section, we use the entity **Opportunity** to frame the questions. However, these questions are also true for these other entities: **Quote**, **Invoice**, and **Order**.
 
 **Question**:<br>Why does any view other than **Opportunity Product Inline Edit View** lose the inline editable functionality in Web Client if it’s been selected for the **Opportunity Product** subgrid in the **Opportunity** form?
 
@@ -58,13 +48,8 @@ Also, does the alert apply to more entities than the ones mentioned? Are they "s
 
 ## Entities: Opportunity Product, Quote Product, Order Product, and Invoice Product 
 
-
-
-<!--from editor: Same questions about this alert as above.-->
-
-
-> [!IMPORTANT]
-> In this section, we use the entity **Opportunity Product** to frame the questions. However, these questions are true for other entities: **Quote Product**, **Order Product**, and **Invoice Product**.
+> [!NOTE]
+> In this section, we use the entity **Opportunity Product** to frame the questions. However, these questions are also true for these other entities: **Quote Product**, **Order Product**, and **Invoice Product**.
 
 **Question**:<br>How do you configure the value of the default **Pricing** to **Override Price** on the **Opportunity Product** form?
 
@@ -76,12 +61,8 @@ Also, does the alert apply to more entities than the ones mentioned? Are they "s
  
 ## Entities: Order and Invoice
 
-
-<!--from editor: Same question about this alert as for the previous ones.-->
-
-
-> [!IMPORTANT]
-> In this section, we use the entity **Order** to frame the questions. However, these questions are also true for **Invoice**.
+> [!NOTE]
+> In this section, we use the entity **Order** to frame the questions. However, these questions are also true for the entity **Invoice**.
 
 **Question**:<br>How can I change the default value for the **Prices Locked** field in the **Order** form?
 
@@ -98,11 +79,7 @@ Also, does the alert apply to more entities than the ones mentioned? Are they "s
 
 **Answer**:<br>The **Prices Locked** (ispricelocked) field controls the prices specified on the **Order** form and locks them from any further updates.<br>
 
-
-<!--from editor: In the following sentence, is it supposed to be "... Order product form" instead of "from"?-->
-
-
-These tables define the behavior of **PricePerUnit** in the **Products** subgrid and **Order** product from:<br> 
+These tables define the behavior of **PricePerUnit** in the **Products** subgrid and **Order** product form:<br> 
 
 **For existing product**:
  
