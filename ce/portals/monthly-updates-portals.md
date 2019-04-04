@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365 for Customer Engagement."
 keywords: "portal new features, portal enhancements, portal user guide"
-ms.date: 26/03/2019
+ms.date: 04/04/2019
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -35,6 +35,8 @@ Portal capabilities version 9.1.4 for [!INCLUDE[pn-dynamics-crm](../includes/pn-
 - **Maintenance mode for portal**: As a portal administrator, you can now configure your portal to display a proper message to the customers whenever a maintenance activity is going on, for example solution packages are being upgraded. More information: [Maintenance mode for a portal](enable-maintenance-mode.md)
 
 - **Enable Power BI Embedded service**: As a portal customizer, you can now embed dashboards and reports created in the new workspace of Power BI by enabling Power BI Embedded service. The dashboards and reports are embedded on web pages in a portal by using the powerbi Liquid tag. More information: [Set up Power BI integration](set-up-power-bi-integration.md#enable-power-bi-embedded-service)
+
+- **Enable content moderation on ideas**: As a portal administrator, you can now create a content moderation policy to moderate the ideas that are submitted on your portal. More information: [Enable content moderation on ideas](enable-idea-content-moderation.md)
 
 - **Display external data in portal**: As a portal developer, you can now get data from external applications and display it in portals in a secure manner. Client-side calls can be made to external APIs and get them secured by using OAuth Implicit grant type flow.
 
