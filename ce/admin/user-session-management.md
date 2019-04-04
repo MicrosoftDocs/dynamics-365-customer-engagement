@@ -46,6 +46,8 @@ New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-cr
 
 ## User session timeout management
 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.3647 or higher.
+
 The maximum user session timeout of 24 hours is removed.  This means that a user is not forced to login with their credentials to use the Dynamics 365 for Customer Engagement apps and other Microsoft service apps like Outlook that were opened in the same browser session every 24 hours. 
 
 ### Honor Azure AD session policy 
@@ -56,8 +58,8 @@ This Azure AD ID token refresh cycle continues in the background based on the Az
 > [!NOTE]
 > - The default Azure AD refresh token expiration is 90 days.  This token lifetime properties can be configured. For detailed information, see [Configurable token lifetimes in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-configurable-token-lifetimes#configurable-token-lifetime-properties).
 > - The Azure AD session policy is bypassed and the maximum user session duration is reverted back to 24 hours in the following scenarios:
->   - In the same browser session, you to go to the Dynamics 365 Administration Center (Instance Picker) page and open an environment in a new tab by manually adding a new tab and manually entering the environment URL. 
->   - In the same browser session, open a version 9.1.0.2637 or higher environment and then open a version earlier 9.1.0.2637.
+>   - In the same browser session, you go to the Dynamics 365 Administration Center **Instances** tab and open an environment in a new tab by manually adding a new tab and manually entering the environment URL. To workaround the policy bypass and user duration change, open the environment from the Dynamics 365 Administration Center **Instances** tab.
+>   - In the same browser session, open a version 9.1.0.3647 or higher environment and then open a version earlier 9.1.0.3647. To workaround the policy bypass and user duration change, open the second environment in a separate browser session.
 >
 > To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right side of the screen, click the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**. 
 
