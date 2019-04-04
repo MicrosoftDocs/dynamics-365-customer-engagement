@@ -34,6 +34,16 @@ Connected Field Service with IoTHub brings together AzureIoT and Dynamics 365 fo
 > ![Screenshot of ](./media/cfs-iothub-architecture.png)
 
 
+## Prerequisites
+data, telementry are the same
+devices and sensors are the same
+
+CFS and FS are always referring to dynamics
+
+
+
+## Architecture explained
+
 **IoT Devices & Edge** - Internet connected sensors on equipment send data to IoTHub typically via WiFi or cellular connectivity. A single piece of equipment can have multiple sensors each taking different measurements such as temperature and pressure. If a building or area has a collection of equipment each with multiple sensors then an **Edge device** can be used to organize them and broker telemetry and messages sent to IoTHub.
 
 **Device Simulator** - administrators can simulate devices and telemetry for testing and development purposes before the hardware (devices) are set up and then see how simulated alerts flow to Dynamics 365 for Field Service and create work orders.
@@ -54,9 +64,16 @@ Connected Field Service with IoTHub brings together AzureIoT and Dynamics 365 fo
 
 **Field Service** - Dynamics 365 app designed to help service organizations perform on site service such as preventative maintenance and repair at their customers' locations. For IoT scenarios the field service app "makes IoT actionable" by organizing the people, tools, knowledge, and business processes to respond to equipment failures and meet service level agreements. 
 
-## Prerequisites
-> [!Note]
->
+**Connected Field Service Model Driven App** - a set of entities and processes built on Dynamics 365 for Field Service. Among other things, Connected Field Service allows you to connect IoT devices (sensors) with Field Service Customer Assets. As of Field Service v8.2+ Connected Field Service is built in and shipped with the Field Service app.
+
+**Field Service Dispatchers & Technicians** - the end users of Connected Field Service who interact with cases and work orders generated from IoTHub on their phones, tablets, and computers.
+
+**Devices and Assets** - entities in Connected Field Service in Dynamics 365 that help you manage the sensors and equipment that your organization manages.
+
+**Registration, Commands & Properties** - processes used in Connected Field Service to interact with and send data back to IoTHub making Connected Field Service a bi-directional solution with IoTHub. As an example, registration allows you to..........commands allow you to.......
+
+**Logic App Dynamics to Azure** - the reverse of the previously explained Logic App, this makes 
+
 
 
 
