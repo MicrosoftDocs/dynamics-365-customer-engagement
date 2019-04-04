@@ -48,7 +48,11 @@ Connected Field Service with IoTHub brings together AzureIoT and Dynamics 365 fo
 
 **Stream Analytics & Azure SQL** - used to store device data for longer time periods to perform data analysis. As an example, this would be an option for organizations interested in analyzing large amounts of historical data to predict device failures in the future. This generally incurs a greater Azure cost.
 
-**Logic App Azure to Dynamics** - connects Azure with Dynamics 365 (and other applications and platforms). Serves as a way to apply more logic, map entities, and trigger the appropriate actions in dynamics such as the creation of an **IoT Alert** record.
+**Logic App Azure to Dynamics** - connects Azure with Dynamics 365 (and other applications and platforms). Serves as a way to apply more logic, map entities, and trigger the appropriate actions in Dynamics such as the creation of an **IoT Alert** record. Compare this to IoTCentral that uses Microsoft Flow.
+
+**IoT Alert** - faults are passed from AzureIoT to Dynamics in the form of IoT Alerts which is an entity in Field Service. An IoT Alert is the first part of the process inside Dynamics 365. An IoT Alert is a subset of all device data that requires attention and potentially an action from the field service or customer service department.
+
+**Field Service** - Dynamics 365 app designed to help service organizations perform on site service such as preventative maintenance and repair at their customers' locations. For IoT scenarios the field service app "makes IoT actionable" by organizing the people, tools, knowledge, and business processes to respond to equipment failures and meet service level agreements. 
 
 ## Prerequisites
 > [!Note]
