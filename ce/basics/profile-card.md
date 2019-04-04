@@ -36,30 +36,22 @@ Use the profile card to get quick information about a contact or user. When you 
 2.	Select an existing activity or create a new one.
 3.	Hover over the **Call To** field when it has a contact record. 
 
- > [!div class="mx-imgBorder"]
- > ![Call To field](media/callto.png "Call to field")
-
 You can view details of the contact inline which includes the contact picture, name, title and account.
 
 4. To view more details, select **Show more** to expand the contact's profile.
-
- > [!div class="mx-imgBorder"]
- > ![View profile card details](media/Viewprofilecard.png "View profile card details")
+ 
+ ![Expand contact profile card detail](media/userprofilecard_1.gif "Expand contact profile card details")
    
  ## View a user's profile
  
 1.	Navigate to **Sales Hub** > **Accounts**.
 2.	Select an account record.
 3.	Hover over the owner field when it has a user record. You can view the details of the user inline.
+4.  To view more details like emails and shared files with the user, select **Show more** to expand the contact's profile.
+ 
+![Expand User profile card detail](media/Userprofilecard_2.gif "Expand User profile card details")
 
- > [!div class="mx-imgBorder"]
- > ![View profile card details for a user](media/Userprofilecard.png "View profile card details for a user")
- 
- 4.	To view more details like emails and shared files with the user, select **Show more** to expand the contact's profile.
- 
-  > [!div class="mx-imgBorder"]
- > ![Expand profile card detail](media/expandprofilecard.png "Expand profile card details")
- 
+
  ## FAQs
  
 ### Where can I see profile cards in Dynamics 365?
