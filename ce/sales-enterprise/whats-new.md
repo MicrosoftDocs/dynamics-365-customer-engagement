@@ -24,6 +24,10 @@ topic-status: Drafting
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Visit this page to see what’s added or updated recently. 
 
+## Dynamics 365 for Sales, version 9.2
+
+-  This version of Dynamics 365 for Sales introduces forecasting, a new capability to help organizations to provide the necessary insights into how they can manage their workforce, cash flow, and resources. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Project accurate revenue with forecasting](project-accurate-revenue-sales-forecasting.md)
+
 ## Dynamics 365 for Sales, Dynamics 365 for Customer Engagement apps, version 9.1
 
 - Dynamics 365 for Sales app version 9.1.0.4023 introduces forecasting that lets sales managers and sales people project how much a sales team can sell or to estimate the revenue of the organization. Sales people can use forecasting to prevent deals from slipping away by spotting pipeline risks and tracking how they are performing against their targets.
