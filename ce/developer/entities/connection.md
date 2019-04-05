@@ -1,21 +1,22 @@
 ---
-title: "Connection Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Connection Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Connection entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Connection Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Relationship between two entities.
 
@@ -24,18 +25,18 @@ Relationship between two entities.
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/connections(*connectionid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/connections<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/connections(*connectionid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/connections(*connectionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/connections<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/connections(*connectionid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/connections(*connectionid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/connections<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/connections(*connectionid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/connections<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/connections(*connectionid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/connections(*connectionid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/connections(*connectionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/connections(*connectionid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -225,7 +226,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|record1id|
 |RequiredLevel|None|
-|Targets|account,activitypointer,appointment,campaign,campaignactivity,channelaccessprofilerule,competitor,constraintbasedgroup,contact,contract,email,entitlement,entitlementchannel,entitlementtemplatechannel,equipment,fax,goal,incident,invoice,knowledgearticle,knowledgebaserecord,lead,letter,list,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_approval,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_iotalert,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,phonecall,position,pricelevel,processsession,product,quote,recurringappointmentmaster,resourcegroup,salesorder,serviceappointment,socialactivity,socialprofile,systemuser,task,team,territory|
+|Targets|account,activitypointer,appointment,campaign,campaignactivity,channelaccessprofilerule,competitor,constraintbasedgroup,contact,contract,email,entitlement,entitlementchannel,entitlementtemplatechannel,equipment,fax,goal,incident,invoice,knowledgearticle,knowledgebaserecord,lead,letter,list,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_approval,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_iotalert,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,msfp_surveyinvite,msfp_surveyresponse,opportunity,phonecall,position,pricelevel,processsession,product,quote,recurringappointmentmaster,resourcegroup,salesorder,serviceappointment,socialactivity,socialprofile,systemuser,task,team,territory|
 |Type|Lookup|
 
 
@@ -266,7 +267,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|record2id|
 |RequiredLevel|None|
-|Targets|account,activitypointer,appointment,campaign,campaignactivity,channelaccessprofilerule,competitor,constraintbasedgroup,contact,contract,email,entitlement,entitlementchannel,entitlementtemplatechannel,equipment,fax,goal,incident,invoice,knowledgearticle,knowledgebaserecord,lead,letter,list,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_approval,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_iotalert,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,phonecall,position,pricelevel,processsession,product,quote,recurringappointmentmaster,resourcegroup,salesorder,serviceappointment,socialactivity,socialprofile,systemuser,task,team,territory|
+|Targets|account,activitypointer,appointment,campaign,campaignactivity,channelaccessprofilerule,competitor,constraintbasedgroup,contact,contract,email,entitlement,entitlementchannel,entitlementtemplatechannel,equipment,fax,goal,incident,invoice,knowledgearticle,knowledgebaserecord,lead,letter,list,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_approval,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_iotalert,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,msfp_surveyinvite,msfp_surveyresponse,opportunity,phonecall,position,pricelevel,processsession,product,quote,recurringappointmentmaster,resourcegroup,salesorder,serviceappointment,socialactivity,socialprofile,systemuser,task,team,territory|
 |Type|Lookup|
 
 
@@ -354,7 +355,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Lookup|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -444,7 +447,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -634,7 +637,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -853,77 +856,79 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |9703|Entitlement Template Channel|
 |9930|Knowledge Base Record|
 |9953|Knowledge Article|
-|10001|Profile Album|
-|10007|Booking Alert|
-|10008|Booking Alert Status|
-|10010|Booking Rule|
-|10023|Resource Territory|
-|10026|System User Scheduler Setting|
-|10027|Time Group|
-|10028|Time Group Detail|
-|10032|Approval|
-|10068|Process Notes|
-|10069|Project|
-|10077|Project Team Member|
-|10107|Agreement|
-|10108|Agreement Booking Date|
-|10109|Agreement Booking Incident|
-|10110|Agreement Booking Product|
-|10111|Agreement Booking Service|
-|10112|Agreement Booking Service Task|
-|10113|Agreement Booking Setup|
-|10114|Agreement Invoice Date|
-|10115|Agreement Invoice Product|
-|10116|Agreement Invoice Setup|
-|10119|Booking Timestamp|
-|10124|Customer Asset|
-|10129|Incident Type Characteristic|
-|10130|Incident Type Product|
-|10131|Incident Type Service|
-|10133|Inventory Adjustment|
-|10134|Inventory Adjustment Product|
-|10135|Inventory Journal|
-|10136|Inventory Transfer|
-|10141|Payment|
-|10142|Payment Detail|
-|10143|Payment Method|
-|10144|Payment Term|
-|10145|Postal Code|
-|10146|Product Inventory|
-|10147|Purchase Order|
-|10148|Purchase Order Bill|
-|10149|Purchase Order Product|
-|10150|Purchase Order Receipt|
-|10151|Purchase Order Receipt Product|
-|10152|Purchase Order Sub Status|
-|10153|Quote Booking Incident|
-|10154|Quote Booking Product|
-|10155|Quote Booking Service|
-|10156|Quote Booking Service Task|
-|10161|RMA|
-|10162|RMA Product|
-|10163|RMA Receipt|
-|10164|RMA Receipt Product|
-|10165|RMA Sub-Status|
-|10166|RTV|
-|10167|RTV Product|
-|10168|RTV Sub-Status|
-|10170|Ship Via|
-|10171|Tax Code|
-|10173|Time Off Request|
-|10175|Warehouse|
-|10176|Work Order|
-|10177|Work Order Characteristic (Deprecated)|
-|10179|Work Order Incident|
-|10180|Work Order Product|
-|10181|Resource Restriction (Deprecated)|
-|10182|Work Order Service|
-|10183|Work Order Service Task|
-|10186|IoT Alert|
-|10187|IoT Device|
-|10188|IoT Device Category|
-|10189|IoT Device Command|
-|10190|IoT Device Registration History|
+|10027|Profile Album|
+|10036|Survey invite|
+|10037|Survey response|
+|10042|Booking Alert|
+|10043|Booking Alert Status|
+|10045|Booking Rule|
+|10061|Resource Territory|
+|10064|System User Scheduler Setting|
+|10065|Fulfillment Preference|
+|10066|Time Group Detail|
+|10070|Project Service Approval|
+|10108|Process Notes|
+|10109|Project|
+|10117|Project Team Member|
+|10156|Agreement|
+|10157|Agreement Booking Date|
+|10158|Agreement Booking Incident|
+|10159|Agreement Booking Product|
+|10160|Agreement Booking Service|
+|10161|Agreement Booking Service Task|
+|10162|Agreement Booking Setup|
+|10163|Agreement Invoice Date|
+|10164|Agreement Invoice Product|
+|10165|Agreement Invoice Setup|
+|10168|Booking Timestamp|
+|10173|Customer Asset|
+|10181|Incident Type Characteristic|
+|10182|Incident Type Product|
+|10183|Incident Type Service|
+|10187|Inventory Adjustment|
+|10188|Inventory Adjustment Product|
+|10189|Inventory Journal|
+|10190|Inventory Transfer|
+|10195|Payment|
+|10196|Payment Detail|
+|10197|Payment Method|
+|10198|Payment Term|
+|10199|Postal Code|
+|10200|Product Inventory|
+|10201|Purchase Order|
+|10202|Purchase Order Bill|
+|10203|Purchase Order Product|
+|10204|Purchase Order Receipt|
+|10205|Purchase Order Receipt Product|
+|10206|Purchase Order SubStatus|
+|10207|Quote Booking Incident|
+|10208|Quote Booking Product|
+|10209|Quote Booking Service|
+|10210|Quote Booking Service Task|
+|10215|RMA|
+|10216|RMA Product|
+|10217|RMA Receipt|
+|10218|RMA Receipt Product|
+|10219|RMA SubStatus|
+|10220|RTV|
+|10221|RTV Product|
+|10222|RTV Substatus|
+|10224|Ship Via|
+|10225|Tax Code|
+|10227|Time Off Request|
+|10229|Warehouse|
+|10230|Work Order|
+|10231|Work Order Characteristic (Deprecated)|
+|10233|Work Order Incident|
+|10234|Work Order Product|
+|10235|Resource Restriction (Deprecated)|
+|10236|Work Order Service|
+|10237|Work Order Service Task|
+|10241|IoT Alert|
+|10242|IoT Device|
+|10243|IoT Device Category|
+|10244|IoT Device Command|
+|10248|IoT Device Registration History|
 
 
 
@@ -1016,77 +1021,79 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |9703|Entitlement Template Channel|
 |9930|Knowledge Base Record|
 |9953|Knowledge Article|
-|10001|Profile Album|
-|10007|Booking Alert|
-|10008|Booking Alert Status|
-|10010|Booking Rule|
-|10023|Resource Territory|
-|10026|System User Scheduler Setting|
-|10027|Time Group|
-|10028|Time Group Detail|
-|10032|Approval|
-|10068|Process Notes|
-|10069|Project|
-|10077|Project Team Member|
-|10107|Agreement|
-|10108|Agreement Booking Date|
-|10109|Agreement Booking Incident|
-|10110|Agreement Booking Product|
-|10111|Agreement Booking Service|
-|10112|Agreement Booking Service Task|
-|10113|Agreement Booking Setup|
-|10114|Agreement Invoice Date|
-|10115|Agreement Invoice Product|
-|10116|Agreement Invoice Setup|
-|10119|Booking Timestamp|
-|10124|Customer Asset|
-|10129|Incident Type Characteristic|
-|10130|Incident Type Product|
-|10131|Incident Type Service|
-|10133|Inventory Adjustment|
-|10134|Inventory Adjustment Product|
-|10135|Inventory Journal|
-|10136|Inventory Transfer|
-|10141|Payment|
-|10142|Payment Detail|
-|10143|Payment Method|
-|10144|Payment Term|
-|10145|Postal Code|
-|10146|Product Inventory|
-|10147|Purchase Order|
-|10148|Purchase Order Bill|
-|10149|Purchase Order Product|
-|10150|Purchase Order Receipt|
-|10151|Purchase Order Receipt Product|
-|10152|Purchase Order Sub Status|
-|10153|Quote Booking Incident|
-|10154|Quote Booking Product|
-|10155|Quote Booking Service|
-|10156|Quote Booking Service Task|
-|10161|RMA|
-|10162|RMA Product|
-|10163|RMA Receipt|
-|10164|RMA Receipt Product|
-|10165|RMA Sub-Status|
-|10166|RTV|
-|10167|RTV Product|
-|10168|RTV Sub-Status|
-|10170|Ship Via|
-|10171|Tax Code|
-|10173|Time Off Request|
-|10175|Warehouse|
-|10176|Work Order|
-|10177|Work Order Characteristic (Deprecated)|
-|10179|Work Order Incident|
-|10180|Work Order Product|
-|10181|Resource Restriction (Deprecated)|
-|10182|Work Order Service|
-|10183|Work Order Service Task|
-|10186|IoT Alert|
-|10187|IoT Device|
-|10188|IoT Device Category|
-|10189|IoT Device Command|
-|10190|IoT Device Registration History|
+|10027|Profile Album|
+|10036|Survey invite|
+|10037|Survey response|
+|10042|Booking Alert|
+|10043|Booking Alert Status|
+|10045|Booking Rule|
+|10061|Resource Territory|
+|10064|System User Scheduler Setting|
+|10065|Fulfillment Preference|
+|10066|Time Group Detail|
+|10070|Project Service Approval|
+|10108|Process Notes|
+|10109|Project|
+|10117|Project Team Member|
+|10156|Agreement|
+|10157|Agreement Booking Date|
+|10158|Agreement Booking Incident|
+|10159|Agreement Booking Product|
+|10160|Agreement Booking Service|
+|10161|Agreement Booking Service Task|
+|10162|Agreement Booking Setup|
+|10163|Agreement Invoice Date|
+|10164|Agreement Invoice Product|
+|10165|Agreement Invoice Setup|
+|10168|Booking Timestamp|
+|10173|Customer Asset|
+|10181|Incident Type Characteristic|
+|10182|Incident Type Product|
+|10183|Incident Type Service|
+|10187|Inventory Adjustment|
+|10188|Inventory Adjustment Product|
+|10189|Inventory Journal|
+|10190|Inventory Transfer|
+|10195|Payment|
+|10196|Payment Detail|
+|10197|Payment Method|
+|10198|Payment Term|
+|10199|Postal Code|
+|10200|Product Inventory|
+|10201|Purchase Order|
+|10202|Purchase Order Bill|
+|10203|Purchase Order Product|
+|10204|Purchase Order Receipt|
+|10205|Purchase Order Receipt Product|
+|10206|Purchase Order SubStatus|
+|10207|Quote Booking Incident|
+|10208|Quote Booking Product|
+|10209|Quote Booking Service|
+|10210|Quote Booking Service Task|
+|10215|RMA|
+|10216|RMA Product|
+|10217|RMA Receipt|
+|10218|RMA Receipt Product|
+|10219|RMA SubStatus|
+|10220|RTV|
+|10221|RTV Product|
+|10222|RTV Substatus|
+|10224|Ship Via|
+|10225|Tax Code|
+|10227|Time Off Request|
+|10229|Warehouse|
+|10230|Work Order|
+|10231|Work Order Characteristic (Deprecated)|
+|10233|Work Order Incident|
+|10234|Work Order Product|
+|10235|Resource Restriction (Deprecated)|
+|10236|Work Order Service|
+|10237|Work Order Service Task|
+|10241|IoT Alert|
+|10242|IoT Device|
+|10243|IoT Device Category|
+|10244|IoT Device Command|
+|10248|IoT Device Registration History|
 
 
 
@@ -1158,7 +1165,6 @@ Listed by **SchemaName**.
 
 - [Connection_AsyncOperations](#BKMK_Connection_AsyncOperations)
 - [connection_related_connection](#BKMK_connection_related_connection)
-- [userentityinstancedata_connection](#BKMK_userentityinstancedata_connection)
 - [connection_principalobjectattributeaccess](#BKMK_connection_principalobjectattributeaccess)
 - [Connection_SyncErrors](#BKMK_Connection_SyncErrors)
 - [Connection_ProcessSessions](#BKMK_Connection_ProcessSessions)
@@ -1192,21 +1198,6 @@ Same as connection entity [connection_related_connection](connection.md#BKMK_con
 |ReferencedEntityNavigationPropertyName|connection_related_connection|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_userentityinstancedata_connection"></a> userentityinstancedata_connection
-
-Same as userentityinstancedata entity [userentityinstancedata_connection](userentityinstancedata.md#BKMK_userentityinstancedata_connection) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_connection|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_connection_principalobjectattributeaccess"></a> connection_principalobjectattributeaccess
@@ -1445,8 +1436,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [msdyn_iotdeviceregistrationhistory_connections2](#BKMK_msdyn_iotdeviceregistrationhistory_connections2)
 - [knowledgearticle_connections1](#BKMK_knowledgearticle_connections1)
 - [knowledgearticle_connections2](#BKMK_knowledgearticle_connections2)
-- [profilerule_connections1](#BKMK_profilerule_connections1)
-- [profilerule_connections2](#BKMK_profilerule_connections2)
 - [KnowledgeBaseRecord_connections1](#BKMK_KnowledgeBaseRecord_connections1)
 - [KnowledgeBaseRecord_connections2](#BKMK_KnowledgeBaseRecord_connections2)
 - [processsession_connections1](#BKMK_processsession_connections1)
@@ -1496,737 +1485,1105 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_territory_connections1"></a> territory_connections1
 
+**Added by**: Application Common Solution
+
 See territory Entity [territory_connections1](territory.md#BKMK_territory_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_territory_connections2"></a> territory_connections2
+
+**Added by**: Application Common Solution
 
 See territory Entity [territory_connections2](territory.md#BKMK_territory_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_lead_connections1"></a> lead_connections1
 
+**Added by**: Lead Management Solution
+
 See lead Entity [lead_connections1](lead.md#BKMK_lead_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_lead_connections2"></a> lead_connections2
+
+**Added by**: Lead Management Solution
 
 See lead Entity [lead_connections2](lead.md#BKMK_lead_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_pricelevel_connections1"></a> pricelevel_connections1
 
+**Added by**: Product Management Solution
+
 See pricelevel Entity [pricelevel_connections1](pricelevel.md#BKMK_pricelevel_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_pricelevel_connections2"></a> pricelevel_connections2
+
+**Added by**: Product Management Solution
 
 See pricelevel Entity [pricelevel_connections2](pricelevel.md#BKMK_pricelevel_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_product_connections1"></a> product_connections1
 
+**Added by**: Product Management Solution
+
 See product Entity [product_connections1](product.md#BKMK_product_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_product_connections2"></a> product_connections2
+
+**Added by**: Product Management Solution
 
 See product Entity [product_connections2](product.md#BKMK_product_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_campaign_connections1"></a> campaign_connections1
 
+**Added by**: Marketing Solution
+
 See campaign Entity [campaign_connections1](campaign.md#BKMK_campaign_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_campaign_connections2"></a> campaign_connections2
+
+**Added by**: Marketing Solution
 
 See campaign Entity [campaign_connections2](campaign.md#BKMK_campaign_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_campaignactivity_connections1"></a> campaignactivity_connections1
 
+**Added by**: Marketing Solution
+
 See campaignactivity Entity [campaignactivity_connections1](campaignactivity.md#BKMK_campaignactivity_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_campaignactivity_connections2"></a> campaignactivity_connections2
+
+**Added by**: Marketing Solution
 
 See campaignactivity Entity [campaignactivity_connections2](campaignactivity.md#BKMK_campaignactivity_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_list_connections1"></a> list_connections1
 
+**Added by**: Marketing Solution
+
 See list Entity [list_connections1](list.md#BKMK_list_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_list_connections2"></a> list_connections2
+
+**Added by**: Marketing Solution
 
 See list Entity [list_connections2](list.md#BKMK_list_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_constraintbasedgroup_connections1"></a> constraintbasedgroup_connections1
 
+**Added by**: Service Solution
+
 See constraintbasedgroup Entity [constraintbasedgroup_connections1](constraintbasedgroup.md#BKMK_constraintbasedgroup_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_constraintbasedgroup_connections2"></a> constraintbasedgroup_connections2
+
+**Added by**: Service Solution
 
 See constraintbasedgroup Entity [constraintbasedgroup_connections2](constraintbasedgroup.md#BKMK_constraintbasedgroup_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_contract_connections1"></a> contract_connections1
 
+**Added by**: Service Solution
+
 See contract Entity [contract_connections1](contract.md#BKMK_contract_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_contract_connections2"></a> contract_connections2
+
+**Added by**: Service Solution
 
 See contract Entity [contract_connections2](contract.md#BKMK_contract_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_entitlement_connections1"></a> entitlement_connections1
 
+**Added by**: Service Solution
+
 See entitlement Entity [entitlement_connections1](entitlement.md#BKMK_entitlement_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_entitlement_connections2"></a> entitlement_connections2
+
+**Added by**: Service Solution
 
 See entitlement Entity [entitlement_connections2](entitlement.md#BKMK_entitlement_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_entitlementchannel_connections1"></a> entitlementchannel_connections1
 
+**Added by**: Service Solution
+
 See entitlementchannel Entity [entitlementchannel_connections1](entitlementchannel.md#BKMK_entitlementchannel_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_entitlementchannel_connections2"></a> entitlementchannel_connections2
+
+**Added by**: Service Solution
 
 See entitlementchannel Entity [entitlementchannel_connections2](entitlementchannel.md#BKMK_entitlementchannel_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_entitlementtemplatechannel_connections1"></a> entitlementtemplatechannel_connections1
 
+**Added by**: Service Solution
+
 See entitlementtemplatechannel Entity [entitlementtemplatechannel_connections1](entitlementtemplatechannel.md#BKMK_entitlementtemplatechannel_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_entitlementtemplatechannel_connections2"></a> entitlementtemplatechannel_connections2
+
+**Added by**: Service Solution
 
 See entitlementtemplatechannel Entity [entitlementtemplatechannel_connections2](entitlementtemplatechannel.md#BKMK_entitlementtemplatechannel_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_equipment_connections1"></a> equipment_connections1
 
+**Added by**: Service Solution
+
 See equipment Entity [equipment_connections1](equipment.md#BKMK_equipment_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_equipment_connections2"></a> equipment_connections2
+
+**Added by**: Service Solution
 
 See equipment Entity [equipment_connections2](equipment.md#BKMK_equipment_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_incident_connections1"></a> incident_connections1
 
+**Added by**: Service Solution
+
 See incident Entity [incident_connections1](incident.md#BKMK_incident_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_incident_connections2"></a> incident_connections2
+
+**Added by**: Service Solution
 
 See incident Entity [incident_connections2](incident.md#BKMK_incident_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_resourcegroup_connections1"></a> resourcegroup_connections1
 
+**Added by**: Service Solution
+
 See resourcegroup Entity [resourcegroup_connections1](resourcegroup.md#BKMK_resourcegroup_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_resourcegroup_connections2"></a> resourcegroup_connections2
+
+**Added by**: Service Solution
 
 See resourcegroup Entity [resourcegroup_connections2](resourcegroup.md#BKMK_resourcegroup_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_serviceappointment_connections1"></a> serviceappointment_connections1
 
+**Added by**: Service Solution
+
 See serviceappointment Entity [serviceappointment_connections1](serviceappointment.md#BKMK_serviceappointment_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_serviceappointment_connections2"></a> serviceappointment_connections2
+
+**Added by**: Service Solution
 
 See serviceappointment Entity [serviceappointment_connections2](serviceappointment.md#BKMK_serviceappointment_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_invoice_connections1"></a> invoice_connections1
 
+**Added by**: Sales Solution
+
 See invoice Entity [invoice_connections1](invoice.md#BKMK_invoice_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_invoice_connections2"></a> invoice_connections2
+
+**Added by**: Sales Solution
 
 See invoice Entity [invoice_connections2](invoice.md#BKMK_invoice_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_opportunity_connections1"></a> opportunity_connections1
 
+**Added by**: Sales Solution
+
 See opportunity Entity [opportunity_connections1](opportunity.md#BKMK_opportunity_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_opportunity_connections2"></a> opportunity_connections2
+
+**Added by**: Sales Solution
 
 See opportunity Entity [opportunity_connections2](opportunity.md#BKMK_opportunity_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_quote_connections1"></a> quote_connections1
 
+**Added by**: Sales Solution
+
 See quote Entity [quote_connections1](quote.md#BKMK_quote_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_quote_connections2"></a> quote_connections2
+
+**Added by**: Sales Solution
 
 See quote Entity [quote_connections2](quote.md#BKMK_quote_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_salesorder_connections1"></a> salesorder_connections1
 
+**Added by**: Sales Solution
+
 See salesorder Entity [salesorder_connections1](salesorder.md#BKMK_salesorder_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_salesorder_connections2"></a> salesorder_connections2
+
+**Added by**: Sales Solution
 
 See salesorder Entity [salesorder_connections2](salesorder.md#BKMK_salesorder_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_competitor_connections1"></a> competitor_connections1
 
+**Added by**: Sales Solution
+
 See competitor Entity [competitor_connections1](competitor.md#BKMK_competitor_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_competitor_connections2"></a> competitor_connections2
+
+**Added by**: Sales Solution
 
 See competitor Entity [competitor_connections2](competitor.md#BKMK_competitor_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_postalbum_connections1"></a> msdyn_postalbum_connections1
 
+**Added by**: Activity Feeds Solution
+
 See msdyn_postalbum Entity [msdyn_postalbum_connections1](msdyn_postalbum.md#BKMK_msdyn_postalbum_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_postalbum_connections2"></a> msdyn_postalbum_connections2
+
+**Added by**: Activity Feeds Solution
 
 See msdyn_postalbum Entity [msdyn_postalbum_connections2](msdyn_postalbum.md#BKMK_msdyn_postalbum_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingalert_connections1"></a> msdyn_bookingalert_connections1
 
+**Added by**: Active Solution Solution
+
 See msdyn_bookingalert Entity [msdyn_bookingalert_connections1](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingalert_connections2"></a> msdyn_bookingalert_connections2
+
+**Added by**: Active Solution Solution
 
 See msdyn_bookingalert Entity [msdyn_bookingalert_connections2](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingalertstatus_connections1"></a> msdyn_bookingalertstatus_connections1
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_bookingalertstatus Entity [msdyn_bookingalertstatus_connections1](msdyn_bookingalertstatus.md#BKMK_msdyn_bookingalertstatus_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingalertstatus_connections2"></a> msdyn_bookingalertstatus_connections2
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_bookingalertstatus Entity [msdyn_bookingalertstatus_connections2](msdyn_bookingalertstatus.md#BKMK_msdyn_bookingalertstatus_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingrule_connections1"></a> msdyn_bookingrule_connections1
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_bookingrule Entity [msdyn_bookingrule_connections1](msdyn_bookingrule.md#BKMK_msdyn_bookingrule_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingrule_connections2"></a> msdyn_bookingrule_connections2
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_bookingrule Entity [msdyn_bookingrule_connections2](msdyn_bookingrule.md#BKMK_msdyn_bookingrule_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_resourceterritory_connections1"></a> msdyn_resourceterritory_connections1
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_resourceterritory Entity [msdyn_resourceterritory_connections1](msdyn_resourceterritory.md#BKMK_msdyn_resourceterritory_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_resourceterritory_connections2"></a> msdyn_resourceterritory_connections2
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_resourceterritory Entity [msdyn_resourceterritory_connections2](msdyn_resourceterritory.md#BKMK_msdyn_resourceterritory_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_systemuserschedulersetting_connections1"></a> msdyn_systemuserschedulersetting_connections1
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_systemuserschedulersetting Entity [msdyn_systemuserschedulersetting_connections1](msdyn_systemuserschedulersetting.md#BKMK_msdyn_systemuserschedulersetting_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_systemuserschedulersetting_connections2"></a> msdyn_systemuserschedulersetting_connections2
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_systemuserschedulersetting Entity [msdyn_systemuserschedulersetting_connections2](msdyn_systemuserschedulersetting.md#BKMK_msdyn_systemuserschedulersetting_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timegroup_connections1"></a> msdyn_timegroup_connections1
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_timegroup Entity [msdyn_timegroup_connections1](msdyn_timegroup.md#BKMK_msdyn_timegroup_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timegroup_connections2"></a> msdyn_timegroup_connections2
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_timegroup Entity [msdyn_timegroup_connections2](msdyn_timegroup.md#BKMK_msdyn_timegroup_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timegroupdetail_connections1"></a> msdyn_timegroupdetail_connections1
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_connections1](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timegroupdetail_connections2"></a> msdyn_timegroupdetail_connections2
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_connections2](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_approval_connections1"></a> msdyn_approval_connections1
 
+**Added by**: Active Solution Solution
+
 See msdyn_approval Entity [msdyn_approval_connections1](msdyn_approval.md#BKMK_msdyn_approval_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_approval_connections2"></a> msdyn_approval_connections2
+
+**Added by**: Active Solution Solution
 
 See msdyn_approval Entity [msdyn_approval_connections2](msdyn_approval.md#BKMK_msdyn_approval_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_processnotes_connections1"></a> msdyn_processnotes_connections1
 
+**Added by**: Project Service Automation Solution
+
 See msdyn_processnotes Entity [msdyn_processnotes_connections1](msdyn_processnotes.md#BKMK_msdyn_processnotes_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_processnotes_connections2"></a> msdyn_processnotes_connections2
+
+**Added by**: Project Service Automation Solution
 
 See msdyn_processnotes Entity [msdyn_processnotes_connections2](msdyn_processnotes.md#BKMK_msdyn_processnotes_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_project_connections1"></a> msdyn_project_connections1
 
+**Added by**: Project Service Automation Solution
+
 See msdyn_project Entity [msdyn_project_connections1](msdyn_project.md#BKMK_msdyn_project_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_project_connections2"></a> msdyn_project_connections2
+
+**Added by**: Project Service Automation Solution
 
 See msdyn_project Entity [msdyn_project_connections2](msdyn_project.md#BKMK_msdyn_project_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_projectteam_connections1"></a> msdyn_projectteam_connections1
 
+**Added by**: Project Service Automation Solution
+
 See msdyn_projectteam Entity [msdyn_projectteam_connections1](msdyn_projectteam.md#BKMK_msdyn_projectteam_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_projectteam_connections2"></a> msdyn_projectteam_connections2
+
+**Added by**: Project Service Automation Solution
 
 See msdyn_projectteam Entity [msdyn_projectteam_connections2](msdyn_projectteam.md#BKMK_msdyn_projectteam_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreement_connections1"></a> msdyn_agreement_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_agreement Entity [msdyn_agreement_connections1](msdyn_agreement.md#BKMK_msdyn_agreement_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreement_connections2"></a> msdyn_agreement_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_agreement Entity [msdyn_agreement_connections2](msdyn_agreement.md#BKMK_msdyn_agreement_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingdate_connections1"></a> msdyn_agreementbookingdate_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_connections1](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingdate_connections2"></a> msdyn_agreementbookingdate_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_connections2](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingincident_connections1"></a> msdyn_agreementbookingincident_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingincident Entity [msdyn_agreementbookingincident_connections1](msdyn_agreementbookingincident.md#BKMK_msdyn_agreementbookingincident_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingincident_connections2"></a> msdyn_agreementbookingincident_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingincident Entity [msdyn_agreementbookingincident_connections2](msdyn_agreementbookingincident.md#BKMK_msdyn_agreementbookingincident_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingproduct_connections1"></a> msdyn_agreementbookingproduct_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingproduct Entity [msdyn_agreementbookingproduct_connections1](msdyn_agreementbookingproduct.md#BKMK_msdyn_agreementbookingproduct_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingproduct_connections2"></a> msdyn_agreementbookingproduct_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingproduct Entity [msdyn_agreementbookingproduct_connections2](msdyn_agreementbookingproduct.md#BKMK_msdyn_agreementbookingproduct_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingservice_connections1"></a> msdyn_agreementbookingservice_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingservice Entity [msdyn_agreementbookingservice_connections1](msdyn_agreementbookingservice.md#BKMK_msdyn_agreementbookingservice_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingservice_connections2"></a> msdyn_agreementbookingservice_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingservice Entity [msdyn_agreementbookingservice_connections2](msdyn_agreementbookingservice.md#BKMK_msdyn_agreementbookingservice_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingservicetask_connections1"></a> msdyn_agreementbookingservicetask_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingservicetask Entity [msdyn_agreementbookingservicetask_connections1](msdyn_agreementbookingservicetask.md#BKMK_msdyn_agreementbookingservicetask_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingservicetask_connections2"></a> msdyn_agreementbookingservicetask_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingservicetask Entity [msdyn_agreementbookingservicetask_connections2](msdyn_agreementbookingservicetask.md#BKMK_msdyn_agreementbookingservicetask_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingsetup_connections1"></a> msdyn_agreementbookingsetup_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_connections1](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingsetup_connections2"></a> msdyn_agreementbookingsetup_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_connections2](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoicedate_connections1"></a> msdyn_agreementinvoicedate_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_connections1](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoicedate_connections2"></a> msdyn_agreementinvoicedate_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_connections2](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoiceproduct_connections1"></a> msdyn_agreementinvoiceproduct_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementinvoiceproduct Entity [msdyn_agreementinvoiceproduct_connections1](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_agreementinvoiceproduct_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoiceproduct_connections2"></a> msdyn_agreementinvoiceproduct_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementinvoiceproduct Entity [msdyn_agreementinvoiceproduct_connections2](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_agreementinvoiceproduct_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoicesetup_connections1"></a> msdyn_agreementinvoicesetup_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_connections1](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoicesetup_connections2"></a> msdyn_agreementinvoicesetup_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_connections2](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingtimestamp_connections1"></a> msdyn_bookingtimestamp_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_bookingtimestamp Entity [msdyn_bookingtimestamp_connections1](msdyn_bookingtimestamp.md#BKMK_msdyn_bookingtimestamp_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingtimestamp_connections2"></a> msdyn_bookingtimestamp_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_bookingtimestamp Entity [msdyn_bookingtimestamp_connections2](msdyn_bookingtimestamp.md#BKMK_msdyn_bookingtimestamp_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_customerasset_connections1"></a> msdyn_customerasset_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_customerasset Entity [msdyn_customerasset_connections1](msdyn_customerasset.md#BKMK_msdyn_customerasset_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_customerasset_connections2"></a> msdyn_customerasset_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_customerasset Entity [msdyn_customerasset_connections2](msdyn_customerasset.md#BKMK_msdyn_customerasset_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypecharacteristic_connections1"></a> msdyn_incidenttypecharacteristic_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_incidenttypecharacteristic Entity [msdyn_incidenttypecharacteristic_connections1](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_incidenttypecharacteristic_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypecharacteristic_connections2"></a> msdyn_incidenttypecharacteristic_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_incidenttypecharacteristic Entity [msdyn_incidenttypecharacteristic_connections2](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_incidenttypecharacteristic_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypeproduct_connections1"></a> msdyn_incidenttypeproduct_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_incidenttypeproduct Entity [msdyn_incidenttypeproduct_connections1](msdyn_incidenttypeproduct.md#BKMK_msdyn_incidenttypeproduct_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypeproduct_connections2"></a> msdyn_incidenttypeproduct_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_incidenttypeproduct Entity [msdyn_incidenttypeproduct_connections2](msdyn_incidenttypeproduct.md#BKMK_msdyn_incidenttypeproduct_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypeservice_connections1"></a> msdyn_incidenttypeservice_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_incidenttypeservice Entity [msdyn_incidenttypeservice_connections1](msdyn_incidenttypeservice.md#BKMK_msdyn_incidenttypeservice_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypeservice_connections2"></a> msdyn_incidenttypeservice_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_incidenttypeservice Entity [msdyn_incidenttypeservice_connections2](msdyn_incidenttypeservice.md#BKMK_msdyn_incidenttypeservice_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryadjustment_connections1"></a> msdyn_inventoryadjustment_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_connections1](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryadjustment_connections2"></a> msdyn_inventoryadjustment_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_connections2](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryadjustmentproduct_connections1"></a> msdyn_inventoryadjustmentproduct_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_inventoryadjustmentproduct Entity [msdyn_inventoryadjustmentproduct_connections1](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_inventoryadjustmentproduct_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryadjustmentproduct_connections2"></a> msdyn_inventoryadjustmentproduct_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_inventoryadjustmentproduct Entity [msdyn_inventoryadjustmentproduct_connections2](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_inventoryadjustmentproduct_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryjournal_connections1"></a> msdyn_inventoryjournal_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_inventoryjournal Entity [msdyn_inventoryjournal_connections1](msdyn_inventoryjournal.md#BKMK_msdyn_inventoryjournal_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryjournal_connections2"></a> msdyn_inventoryjournal_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_inventoryjournal Entity [msdyn_inventoryjournal_connections2](msdyn_inventoryjournal.md#BKMK_msdyn_inventoryjournal_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventorytransfer_connections1"></a> msdyn_inventorytransfer_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_connections1](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventorytransfer_connections2"></a> msdyn_inventorytransfer_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_connections2](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_payment_connections1"></a> msdyn_payment_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_payment Entity [msdyn_payment_connections1](msdyn_payment.md#BKMK_msdyn_payment_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_payment_connections2"></a> msdyn_payment_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_payment Entity [msdyn_payment_connections2](msdyn_payment.md#BKMK_msdyn_payment_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentdetail_connections1"></a> msdyn_paymentdetail_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_paymentdetail Entity [msdyn_paymentdetail_connections1](msdyn_paymentdetail.md#BKMK_msdyn_paymentdetail_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentdetail_connections2"></a> msdyn_paymentdetail_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_paymentdetail Entity [msdyn_paymentdetail_connections2](msdyn_paymentdetail.md#BKMK_msdyn_paymentdetail_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentmethod_connections1"></a> msdyn_paymentmethod_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_paymentmethod Entity [msdyn_paymentmethod_connections1](msdyn_paymentmethod.md#BKMK_msdyn_paymentmethod_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentmethod_connections2"></a> msdyn_paymentmethod_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_paymentmethod Entity [msdyn_paymentmethod_connections2](msdyn_paymentmethod.md#BKMK_msdyn_paymentmethod_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentterm_connections1"></a> msdyn_paymentterm_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_paymentterm Entity [msdyn_paymentterm_connections1](msdyn_paymentterm.md#BKMK_msdyn_paymentterm_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentterm_connections2"></a> msdyn_paymentterm_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_paymentterm Entity [msdyn_paymentterm_connections2](msdyn_paymentterm.md#BKMK_msdyn_paymentterm_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_postalcode_connections1"></a> msdyn_postalcode_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_postalcode Entity [msdyn_postalcode_connections1](msdyn_postalcode.md#BKMK_msdyn_postalcode_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_postalcode_connections2"></a> msdyn_postalcode_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_postalcode Entity [msdyn_postalcode_connections2](msdyn_postalcode.md#BKMK_msdyn_postalcode_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_productinventory_connections1"></a> msdyn_productinventory_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_productinventory Entity [msdyn_productinventory_connections1](msdyn_productinventory.md#BKMK_msdyn_productinventory_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_productinventory_connections2"></a> msdyn_productinventory_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_productinventory Entity [msdyn_productinventory_connections2](msdyn_productinventory.md#BKMK_msdyn_productinventory_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorder_connections1"></a> msdyn_purchaseorder_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorder Entity [msdyn_purchaseorder_connections1](msdyn_purchaseorder.md#BKMK_msdyn_purchaseorder_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorder_connections2"></a> msdyn_purchaseorder_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorder Entity [msdyn_purchaseorder_connections2](msdyn_purchaseorder.md#BKMK_msdyn_purchaseorder_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderbill_connections1"></a> msdyn_purchaseorderbill_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorderbill Entity [msdyn_purchaseorderbill_connections1](msdyn_purchaseorderbill.md#BKMK_msdyn_purchaseorderbill_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderbill_connections2"></a> msdyn_purchaseorderbill_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorderbill Entity [msdyn_purchaseorderbill_connections2](msdyn_purchaseorderbill.md#BKMK_msdyn_purchaseorderbill_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderproduct_connections1"></a> msdyn_purchaseorderproduct_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorderproduct Entity [msdyn_purchaseorderproduct_connections1](msdyn_purchaseorderproduct.md#BKMK_msdyn_purchaseorderproduct_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderproduct_connections2"></a> msdyn_purchaseorderproduct_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorderproduct Entity [msdyn_purchaseorderproduct_connections2](msdyn_purchaseorderproduct.md#BKMK_msdyn_purchaseorderproduct_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderreceipt_connections1"></a> msdyn_purchaseorderreceipt_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorderreceipt Entity [msdyn_purchaseorderreceipt_connections1](msdyn_purchaseorderreceipt.md#BKMK_msdyn_purchaseorderreceipt_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderreceipt_connections2"></a> msdyn_purchaseorderreceipt_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorderreceipt Entity [msdyn_purchaseorderreceipt_connections2](msdyn_purchaseorderreceipt.md#BKMK_msdyn_purchaseorderreceipt_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderreceiptproduct_connections1"></a> msdyn_purchaseorderreceiptproduct_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorderreceiptproduct Entity [msdyn_purchaseorderreceiptproduct_connections1](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_purchaseorderreceiptproduct_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderreceiptproduct_connections2"></a> msdyn_purchaseorderreceiptproduct_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorderreceiptproduct Entity [msdyn_purchaseorderreceiptproduct_connections2](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_purchaseorderreceiptproduct_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseordersubstatus_connections1"></a> msdyn_purchaseordersubstatus_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseordersubstatus Entity [msdyn_purchaseordersubstatus_connections1](msdyn_purchaseordersubstatus.md#BKMK_msdyn_purchaseordersubstatus_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseordersubstatus_connections2"></a> msdyn_purchaseordersubstatus_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseordersubstatus Entity [msdyn_purchaseordersubstatus_connections2](msdyn_purchaseordersubstatus.md#BKMK_msdyn_purchaseordersubstatus_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingincident_connections1"></a> msdyn_quotebookingincident_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_quotebookingincident Entity [msdyn_quotebookingincident_connections1](msdyn_quotebookingincident.md#BKMK_msdyn_quotebookingincident_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingincident_connections2"></a> msdyn_quotebookingincident_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_quotebookingincident Entity [msdyn_quotebookingincident_connections2](msdyn_quotebookingincident.md#BKMK_msdyn_quotebookingincident_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingproduct_connections1"></a> msdyn_quotebookingproduct_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_quotebookingproduct Entity [msdyn_quotebookingproduct_connections1](msdyn_quotebookingproduct.md#BKMK_msdyn_quotebookingproduct_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingproduct_connections2"></a> msdyn_quotebookingproduct_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_quotebookingproduct Entity [msdyn_quotebookingproduct_connections2](msdyn_quotebookingproduct.md#BKMK_msdyn_quotebookingproduct_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingservice_connections1"></a> msdyn_quotebookingservice_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_quotebookingservice Entity [msdyn_quotebookingservice_connections1](msdyn_quotebookingservice.md#BKMK_msdyn_quotebookingservice_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingservice_connections2"></a> msdyn_quotebookingservice_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_quotebookingservice Entity [msdyn_quotebookingservice_connections2](msdyn_quotebookingservice.md#BKMK_msdyn_quotebookingservice_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingservicetask_connections1"></a> msdyn_quotebookingservicetask_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_quotebookingservicetask Entity [msdyn_quotebookingservicetask_connections1](msdyn_quotebookingservicetask.md#BKMK_msdyn_quotebookingservicetask_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingservicetask_connections2"></a> msdyn_quotebookingservicetask_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_quotebookingservicetask Entity [msdyn_quotebookingservicetask_connections2](msdyn_quotebookingservicetask.md#BKMK_msdyn_quotebookingservicetask_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rma_connections1"></a> msdyn_rma_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_rma Entity [msdyn_rma_connections1](msdyn_rma.md#BKMK_msdyn_rma_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rma_connections2"></a> msdyn_rma_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_rma Entity [msdyn_rma_connections2](msdyn_rma.md#BKMK_msdyn_rma_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmaproduct_connections1"></a> msdyn_rmaproduct_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_rmaproduct Entity [msdyn_rmaproduct_connections1](msdyn_rmaproduct.md#BKMK_msdyn_rmaproduct_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmaproduct_connections2"></a> msdyn_rmaproduct_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_rmaproduct Entity [msdyn_rmaproduct_connections2](msdyn_rmaproduct.md#BKMK_msdyn_rmaproduct_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmareceipt_connections1"></a> msdyn_rmareceipt_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_rmareceipt Entity [msdyn_rmareceipt_connections1](msdyn_rmareceipt.md#BKMK_msdyn_rmareceipt_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmareceipt_connections2"></a> msdyn_rmareceipt_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_rmareceipt Entity [msdyn_rmareceipt_connections2](msdyn_rmareceipt.md#BKMK_msdyn_rmareceipt_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmareceiptproduct_connections1"></a> msdyn_rmareceiptproduct_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_rmareceiptproduct Entity [msdyn_rmareceiptproduct_connections1](msdyn_rmareceiptproduct.md#BKMK_msdyn_rmareceiptproduct_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmareceiptproduct_connections2"></a> msdyn_rmareceiptproduct_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_rmareceiptproduct Entity [msdyn_rmareceiptproduct_connections2](msdyn_rmareceiptproduct.md#BKMK_msdyn_rmareceiptproduct_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmasubstatus_connections1"></a> msdyn_rmasubstatus_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_rmasubstatus Entity [msdyn_rmasubstatus_connections1](msdyn_rmasubstatus.md#BKMK_msdyn_rmasubstatus_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmasubstatus_connections2"></a> msdyn_rmasubstatus_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_rmasubstatus Entity [msdyn_rmasubstatus_connections2](msdyn_rmasubstatus.md#BKMK_msdyn_rmasubstatus_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtv_connections1"></a> msdyn_rtv_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_rtv Entity [msdyn_rtv_connections1](msdyn_rtv.md#BKMK_msdyn_rtv_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtv_connections2"></a> msdyn_rtv_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_rtv Entity [msdyn_rtv_connections2](msdyn_rtv.md#BKMK_msdyn_rtv_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtvproduct_connections1"></a> msdyn_rtvproduct_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_rtvproduct Entity [msdyn_rtvproduct_connections1](msdyn_rtvproduct.md#BKMK_msdyn_rtvproduct_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtvproduct_connections2"></a> msdyn_rtvproduct_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_rtvproduct Entity [msdyn_rtvproduct_connections2](msdyn_rtvproduct.md#BKMK_msdyn_rtvproduct_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtvsubstatus_connections1"></a> msdyn_rtvsubstatus_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_rtvsubstatus Entity [msdyn_rtvsubstatus_connections1](msdyn_rtvsubstatus.md#BKMK_msdyn_rtvsubstatus_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtvsubstatus_connections2"></a> msdyn_rtvsubstatus_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_rtvsubstatus Entity [msdyn_rtvsubstatus_connections2](msdyn_rtvsubstatus.md#BKMK_msdyn_rtvsubstatus_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_shipvia_connections1"></a> msdyn_shipvia_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_shipvia Entity [msdyn_shipvia_connections1](msdyn_shipvia.md#BKMK_msdyn_shipvia_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_shipvia_connections2"></a> msdyn_shipvia_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_shipvia Entity [msdyn_shipvia_connections2](msdyn_shipvia.md#BKMK_msdyn_shipvia_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_taxcode_connections1"></a> msdyn_taxcode_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_taxcode Entity [msdyn_taxcode_connections1](msdyn_taxcode.md#BKMK_msdyn_taxcode_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_taxcode_connections2"></a> msdyn_taxcode_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_taxcode Entity [msdyn_taxcode_connections2](msdyn_taxcode.md#BKMK_msdyn_taxcode_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timeoffrequest_connections1"></a> msdyn_timeoffrequest_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_timeoffrequest Entity [msdyn_timeoffrequest_connections1](msdyn_timeoffrequest.md#BKMK_msdyn_timeoffrequest_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timeoffrequest_connections2"></a> msdyn_timeoffrequest_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_timeoffrequest Entity [msdyn_timeoffrequest_connections2](msdyn_timeoffrequest.md#BKMK_msdyn_timeoffrequest_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_warehouse_connections1"></a> msdyn_warehouse_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_warehouse Entity [msdyn_warehouse_connections1](msdyn_warehouse.md#BKMK_msdyn_warehouse_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_warehouse_connections2"></a> msdyn_warehouse_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_warehouse Entity [msdyn_warehouse_connections2](msdyn_warehouse.md#BKMK_msdyn_warehouse_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorder_connections1"></a> msdyn_workorder_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_workorder Entity [msdyn_workorder_connections1](msdyn_workorder.md#BKMK_msdyn_workorder_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorder_connections2"></a> msdyn_workorder_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_workorder Entity [msdyn_workorder_connections2](msdyn_workorder.md#BKMK_msdyn_workorder_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workordercharacteristic_connections1"></a> msdyn_workordercharacteristic_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_workordercharacteristic Entity [msdyn_workordercharacteristic_connections1](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workordercharacteristic_connections2"></a> msdyn_workordercharacteristic_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_workordercharacteristic Entity [msdyn_workordercharacteristic_connections2](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderincident_connections1"></a> msdyn_workorderincident_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderincident Entity [msdyn_workorderincident_connections1](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderincident_connections2"></a> msdyn_workorderincident_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderincident Entity [msdyn_workorderincident_connections2](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderproduct_connections1"></a> msdyn_workorderproduct_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderproduct Entity [msdyn_workorderproduct_connections1](msdyn_workorderproduct.md#BKMK_msdyn_workorderproduct_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderproduct_connections2"></a> msdyn_workorderproduct_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderproduct Entity [msdyn_workorderproduct_connections2](msdyn_workorderproduct.md#BKMK_msdyn_workorderproduct_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderresourcerestriction_connections1"></a> msdyn_workorderresourcerestriction_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderresourcerestriction Entity [msdyn_workorderresourcerestriction_connections1](msdyn_workorderresourcerestriction.md#BKMK_msdyn_workorderresourcerestriction_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderresourcerestriction_connections2"></a> msdyn_workorderresourcerestriction_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderresourcerestriction Entity [msdyn_workorderresourcerestriction_connections2](msdyn_workorderresourcerestriction.md#BKMK_msdyn_workorderresourcerestriction_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderservice_connections1"></a> msdyn_workorderservice_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderservice Entity [msdyn_workorderservice_connections1](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderservice_connections2"></a> msdyn_workorderservice_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderservice Entity [msdyn_workorderservice_connections2](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderservicetask_connections1"></a> msdyn_workorderservicetask_connections1
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_connections1](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderservicetask_connections2"></a> msdyn_workorderservicetask_connections2
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_connections2](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_iotalert_connections1"></a> msdyn_iotalert_connections1
 
+**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
+
 See msdyn_iotalert Entity [msdyn_iotalert_connections1](msdyn_iotalert.md#BKMK_msdyn_iotalert_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_iotalert_connections2"></a> msdyn_iotalert_connections2
+
+**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
 
 See msdyn_iotalert Entity [msdyn_iotalert_connections2](msdyn_iotalert.md#BKMK_msdyn_iotalert_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_iotdevice_connections1"></a> msdyn_iotdevice_connections1
 
+**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
+
 See msdyn_iotdevice Entity [msdyn_iotdevice_connections1](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_iotdevice_connections2"></a> msdyn_iotdevice_connections2
+
+**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
 
 See msdyn_iotdevice Entity [msdyn_iotdevice_connections2](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_iotdevicecategory_connections1"></a> msdyn_iotdevicecategory_connections1
 
+**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
+
 See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_connections1](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_iotdevicecategory_connections2"></a> msdyn_iotdevicecategory_connections2
+
+**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
 
 See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_connections2](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_iotdevicecommand_connections1"></a> msdyn_iotdevicecommand_connections1
 
+**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
+
 See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_connections1](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_iotdevicecommand_connections2"></a> msdyn_iotdevicecommand_connections2
+
+**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
 
 See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_connections2](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_iotdeviceregistrationhistory_connections1"></a> msdyn_iotdeviceregistrationhistory_connections1
 
+**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
+
 See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_connections1](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_connections1) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_iotdeviceregistrationhistory_connections2"></a> msdyn_iotdeviceregistrationhistory_connections2
+
+**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
 
 See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_connections2](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_connections2) One-To-Many relationship.
 
@@ -2237,14 +2594,6 @@ See knowledgearticle Entity [knowledgearticle_connections1](knowledgearticle.md#
 ### <a name="BKMK_knowledgearticle_connections2"></a> knowledgearticle_connections2
 
 See knowledgearticle Entity [knowledgearticle_connections2](knowledgearticle.md#BKMK_knowledgearticle_connections2) One-To-Many relationship.
-
-### <a name="BKMK_profilerule_connections1"></a> profilerule_connections1
-
-See channelaccessprofilerule Entity [profilerule_connections1](channelaccessprofilerule.md#BKMK_profilerule_connections1) One-To-Many relationship.
-
-### <a name="BKMK_profilerule_connections2"></a> profilerule_connections2
-
-See channelaccessprofilerule Entity [profilerule_connections2](channelaccessprofilerule.md#BKMK_profilerule_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_KnowledgeBaseRecord_connections1"></a> KnowledgeBaseRecord_connections1
 
@@ -2429,6 +2778,6 @@ See recurringappointmentmaster Entity [recurringappointmentmaster_connections2](
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.connection?text=connection EntityType" />

@@ -42,10 +42,25 @@ New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-cr
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Security Enhancements: User session management](https://youtu.be/9eR8hP6S-YM).  
 
-## User session timeout
-By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps sets a user session timeout of 24 hours. A user is not required to log in with their credentials for up to 24 hours regardless of whether the user was active or inactive. 
+## User session timeout management
 
-You can change this behavior.
+The maximum user session timeout of 24 hours is removed.  This means that a user is not forced to login with their credentials to use the Dynamics 365 for Customer Engagement apps and other Microsoft service apps like Outlook that were opened in the same browser session every 24 hours. 
+
+### Honor Azure AD session policy 
+By default, the Dynamics 365 for Customer Engagement apps leverage the Azure Active Directory (Azure AD) [session policy](https://docs.microsoft.com/azure/active-directory/develop/active-directory-configurable-token-lifetimes) to manage the user session timeout.  Dynamics 365 for Customer Engagement apps uses the Azure AD ID Token with a Policy Check Interval (PCI) claims.  Every hour a new Azure AD ID Token is fetched silently in the background and the Azure AD instant policy is enforced (by Azure AD). For example,  user account disabled/deleted, admin forced user password reset and revoke refresh token. 
+
+This Azure AD ID token refresh cycle continues in the background based on the Azure AD token lifetime policy configurations.  Users continue to access the Dynamics 365 for Customer Engagement/Common Data Service data without the needs to re-authenticate until the Azure AD token lifetime policy expires. 
+
+> [!NOTE]
+> The default Azure AD refresh token expiration is 90 days.  This token lifetime properties can be configured. For detailed information, see [Configurable token lifetimes in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-configurable-token-lifetimes#configurable-token-lifetime-properties).
+
+### Resilience to Azure AD outages 
+In an event that there are intermittent Azure AD outages, authenticated users can continue to access the Dynamics 365 for Customer Engagement/Common Data Service data if the PCI claims has not expired or the user has opted in the ‘Stay signed in’ during authentication. 
+
+### Set Custom Session timeout for individual environment 
+For environments that require different session timeout values, administrators can continue to set the session timeout and/or inactivity timeout in the System Settings.  These settings override the default Azure AD session policy and users will be directed to Azure AD for re-authentication when these settings expired.   
+
+### To change this behavior
 
 - To enforce users to re-authenticate after a pre-determined period of time, admins can set a session timeout for their individual [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances.  Users can only remain signed in the application for the duration of session.  The application signs out the user when the session expires.  Users need to sign-in with their credentials to return to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
 

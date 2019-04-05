@@ -109,6 +109,8 @@ To assign a payment gateway to an event:
 
 For details about how to develop the system for receiving payment and finalizing registrations, see [Develop a system to finalize event registration](#finalize-registration) later in this topic.
 
+<a name="external"></a>
+
 ## Create a payment gateway when hosting on an external site
 
 If you are hosting the event website on your own web server, then you must download and customize the event website to include the payment option as needed. Your payment provider will give you the instructions you need to interact with their system.
