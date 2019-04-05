@@ -29,11 +29,30 @@ search.app:
 
 The table provides where you can download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for various versions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
+::: moniker range=">=dynamics-usd-4.1"  
+
+|Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|
+|---------|-------------|------------------------------------------------------------------------------|------------------|
+|Available through sample application package | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 for Customer Engagement apps Web client sample application | [!INCLUDE[pn-unified-service-desk-4-1](../../includes/pn-unified-service-desk-4-1.md)] | [Download](https://go.microsoft.com/fwlink/?linkid=2007340) |
+
+::: moniker-end
+
+::: moniker range="<=dynamics-usd-4"  
 
 |Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|
 |---------|-------------|------------------------------------------------------------------------------|------------------|
 |Available through sample application package | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 for Customer Engagement apps Web client sample application | [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)] | [Download](https://go.microsoft.com/fwlink/?linkid=2007340) |
 | Available through [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] package |                          [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is available as a download package |[!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]  <br>  [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] <br> [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] <br> [!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] <br> [!INCLUDE[pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=872089) |
+
+::: moniker-end
+
+::: moniker range="=dynamics-usd-3"  
+
+|Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|
+|---------|-------------|------------------------------------------------------------------------------|------------------|
+| Available through [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] package |                          [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is available as a download package |[!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]  <br>  [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] <br> [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] <br> [!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] <br> [!INCLUDE[pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=872089) |
+
+::: moniker-end
 
 ## Install [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
 
