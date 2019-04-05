@@ -4,7 +4,7 @@ description: "Create and manage playbook templates to help your team consistentl
 keywords: "playbook, consistent, activity, sales process, business process, best practice"
 ms.date: 02/20/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
@@ -23,7 +23,7 @@ topic-status: Tech Reviewing
 
 # Manage playbook templates
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.x
 
 Playbooks provide users with guidance on recurring tasks in which consistent actions are expected. Playbooks can also contain best practices based on scenarios that have worked in similar situations before.
 
