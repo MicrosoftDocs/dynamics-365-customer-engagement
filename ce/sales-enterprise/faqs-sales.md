@@ -75,9 +75,9 @@ manager: shubhadaj
   3. Select the **ispricelocked** field and configure the **Default Value** to **No**.
   4. Save and publish the customizations.
 
-**Question**:<br>How can I change the value for the **Prices Locked** field for a particular **Order** form?
+**Question**:<br>For a particular **Order** form, how can I change the state of **Prices Locked** field?
 
-**Answer**:<br> You can change the value for the **Prices Locked** field through inline editable grid. Select the **Lock** icon on the editable grid and change the value of the **Prices Locked** field. 
+**Answer**:<br> You can change the state for the **Prices Locked** field through inline editable grid. Select the **Lock** icon on the editable grid and the state of the **Prices Locked** field changes accordingly. 
 
   > [!div class="mx-imgBorder"]
   > ![Edit pricing for a product](media/faqs-edit-pricing-for-product.png "Edit pricing for a product")
