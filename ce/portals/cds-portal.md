@@ -81,7 +81,7 @@ After specifying all the required values, the **Configure your portal** page loo
 
 ## Change the Dynamics 365 for Customer Engagement instance, audience, or type of portal
 
-After your portal is created and provisioned, you can change the Dynamics 365 instance associated with your portal to the that uses Common Data Service. After selecting the instance, the only portal type you see is **Common Data Service Starter Portal**. This portal type is the same for all portal audiences. For more information on changing the Dynamics 365 instance, see [Change the Dynamics 365 for Customer Engagement instance, audience, or type of portal](change-dynamics-instance.md).
+After your portal is created and provisioned, you can change the Dynamics 365 instance associated with your portal to the one that uses Common Data Service. After selecting the instance, the only portal type you see is **Common Data Service Starter Portal**. This portal type is the same for all portal audiences. For more information on changing the Dynamics 365 instance, see [Change the Dynamics 365 for Customer Engagement instance, audience, or type of portal](change-dynamics-instance.md).
 
 After specifying all the required values, the **Select Dynamics 365 Instance** window looks as follows:
 
