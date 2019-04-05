@@ -79,8 +79,13 @@ manager: shubhadaj
 
 **Answer**:<br> You can change the state for the **Prices Locked** field through inline editable grid. Select the **Lock** icon on the editable grid and the state of the **Prices Locked** field changes accordingly. 
 
+In Web Client: 
   > [!div class="mx-imgBorder"]
   > ![Edit pricing for a product](media/faqs-edit-pricing-for-product.png "Edit pricing for a product")
+
+In Unified Interface:
+  > [!div class="mx-imgBorder"]
+  > ![Edit pricing for a product in Unified Interface](media/faqs-edit-pricing-for-product-uci.png "Edit pricing for a product in Unified Interface")
 
 **Question**:<br>When can I change the values in **Pricing Per Unit** column in the **Products** grid?
 
