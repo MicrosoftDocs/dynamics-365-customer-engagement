@@ -25,6 +25,11 @@ This offering, available online only and built on the new Unified Interface fram
 
 It is designed from the ground up with accessibility in mind, and uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
 
+
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE2OJXb" frameborder="0" allowfullscreen=""></iframe></div>
+
+
+
 Dynamics 365 for Sales Professional comes with a **Get Started** page that shows you the core things you need to set up to have your users get started, such as connecting email, sharing documents, and importing data. 
 
 ![Get started page with links to Standard settings](media/get-started-page-standard-settings-links.png "Get started page with links to Standard settings")

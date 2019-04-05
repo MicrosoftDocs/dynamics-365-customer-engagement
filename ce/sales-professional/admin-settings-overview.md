@@ -25,6 +25,11 @@ Here’s some good news.
 
 Dynamics 365 for Sales Professional comes with a simple and straightforward setup experience, so anybody can put things together and get their team rolling quickly.
 
+
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE2OJWL" frameborder="0" allowfullscreen=""></iframe></div>
+
+
+
 > [!IMPORTANT]
 > The Welcome page, Standard settings, Advanced settings, and Customization capabilities are introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
 
