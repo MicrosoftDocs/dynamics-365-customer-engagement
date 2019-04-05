@@ -77,7 +77,7 @@ By default, the SSO feature is enabled for the Chrome Process. With SSO, you nee
 > [!Note]
 > - The SSO feature is available only for Dynamics 365 and Unified Service Desk.
 >
-> - If your organization has enforced the Inactivity session timeout for the agents, then with Chrome Process, the agent is not automatically singed out when the inactivity session timeout expires as SSO is enabled by default. If you want to enforce Inactivity session timeout for the agents, then disable the SSO feature for the Chrome Process. To learn more see, [Disable Single Sign On](#enable/disable-single-sign-on).
+> - If your organization has enforced the Inactivity session timeout for the agents, then with Chrome Process, the agent is not automatically singed out when the inactivity session timeout expires as SSO is enabled by default. If you want to enforce Inactivity session timeout for the agents, then disable the SSO feature for the Chrome Process. To learn more see, [Disable Single Sign On](#enable-or-disable-single-sign-on).
 
 **SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default, **SingleSignOnThreshold** value is 5000 milliseconds. To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
 
@@ -105,7 +105,7 @@ To change the value, configure the **SingleSignOnThreshold** UII option and ente
 
 After you set up the above mentioned UII options, the SSO feature is enabled. While signing in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, you've to enter the credentials only once.
 
-### Enable/disable Single Sign On
+### Enable or disable Single Sign On
 
 To disable the SSO feature, you must the configure the **SingleSignOnEnabledBrowsers** UII option and set it to **False**. If you leave the value bank, then the SSO is still enabled.
 Again, when you want to enable the SSO feature, set the value as **Chrome**.
