@@ -19,6 +19,9 @@ manager: annbe
 
 # Customize business process flows (Sales Professional)
 
+> [!IMPORTANT]
+> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+
 With Dynamics 365 for Sales Professional, you can help ensure that users enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that users get approval for an invoice before submitting an order. 
 
 Business process flows use the same underlying technology as other processes, but the capabilities that they provide are very different from other features that use processes.

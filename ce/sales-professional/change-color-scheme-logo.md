@@ -19,6 +19,9 @@ manager: annbe
 
 # Change the color scheme or logo for your organization
 
+> [!IMPORTANT]
+> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+
 Change the color scheme of the user interface based on your preference or create your own branding by changing the color scheme or logo in Dynamics 365 for Sales
 Professional. You can create a custom look and feel (a theme) for Sales Professional apps and Dynamics 365 for phones apps by using new colors and visual elements.
 

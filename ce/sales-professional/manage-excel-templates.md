@@ -19,6 +19,9 @@ manager: annbe
 
 # Create and manage Excel templates in Dynamics 365 for Sales Professional
 
+> [!IMPORTANT]
+> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+
 Microsoft Excel provides powerful ways to analyze and present your Dynamics 365 for Sales Professional data. With Excel templates, you can easily create and share your customized analysis with others in your organization.
 
 You can use Excel templates for:

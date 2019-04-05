@@ -19,6 +19,9 @@ manager: annbe
 
 # Create and manage Word templates in Dynamics 365 for Sales Professional
 
+> [!IMPORTANT]
+> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+
 Microsoft Word provides powerful ways to present your Dynamics 365 for Sales Professional data in a standardized and well-formatted document. Use Word templates to ensure that all the documents that go out to your customers have a consistent look per your organization’s branding. You can easily create and share your template with others.
 
 Once templates are created, users can generate standardized documents automatically populated with Dynamics 365 for Sales Professional data with just a click.

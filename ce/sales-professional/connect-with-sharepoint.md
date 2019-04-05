@@ -19,6 +19,9 @@ manager: annbe
 
 # Configure Dynamics 365 for Sales Professional to integrate with SharePoint
 
+> [!IMPORTANT]
+> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+
 Store the documents related to Dynamics 365 for Sales Professional entity records in SharePoint. Quickly access, share, and manage these documents from
 the Sales app by integrating with SharePoint Online.
 

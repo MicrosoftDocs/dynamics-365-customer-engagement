@@ -19,6 +19,9 @@ manager: annbe
 
 # Customize the Dynamics 365 for Sales Professional app
 
+> [!IMPORTANT]
+> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+
 The Dynamics 365 for Sales Professional application is a modular app built to provide capabilities tailored for sales professionals and sales managers. As and administrator or customizer, you can easily customize the entities, dashboards, forms, views, charts, and business processes included in the Sales Professional application using the app designer, without having to write any code.
 
 1.	In the site map, select **Sales Settings**.

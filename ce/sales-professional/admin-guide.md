@@ -23,7 +23,7 @@ topic-status: Drafting
 
 
 > [!IMPORTANT]
-> The Standard settings and Admin settings are introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> The Standard settings, Advanced settings, and Customization capabilities are introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
 
 <table>
 

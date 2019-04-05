@@ -19,6 +19,9 @@ manager: annbe
 
 # Customize views (Sales Professional)
 
+> [!IMPORTANT]
+> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+
 In Dynamics 365 for Sales Professional, use views to define how a list of records for a specific entity is displayed. A view defines: 
 
 -   The columns to be displayed.

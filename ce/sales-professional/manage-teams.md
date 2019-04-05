@@ -19,6 +19,9 @@ manager: annbe
 
 # Add or manage teams in Dynamics 365 for Sales Professional
 
+> [!IMPORTANT]
+> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+
 In Dynamics 365 for Sales Professional, a team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
 1.  In the site map, select **Sales Settings**.

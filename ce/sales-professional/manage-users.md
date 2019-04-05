@@ -19,8 +19,10 @@ manager: annbe
 
 # Add or manage users in Dynamics 365 for Sales Professional
 
-To sign in to Dynamics 365 for Sales Professional, every user in your
-organization must have a user account. Create a user account for each user to give them access to the Sales app.
+> [!IMPORTANT]
+> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+
+To sign in to Dynamics 365 for Sales Professional, every user in your organization must have a user account. Create a user account for each user to give them access to the Sales app.
 
 When you create a user in the Sales app, you can define a user ID, generate a password, and assign a license and security role in a single step.
 

@@ -19,6 +19,9 @@ manager: annbe
 
 # Configure email in Dynamics 365 for Sales Professional by integrating with Exchange
 
+> [!IMPORTANT]
+> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+
 To store email and other messaging records in Dynamics 365 for Sales Professional, you need to synchronize it with your email system.
 
 Dynamics 365 for Sales Professional uses server-side synchronization to synchronize your email system with Dynamics 365 for Sales.

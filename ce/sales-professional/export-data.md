@@ -19,6 +19,9 @@ manager: annbe
 
 # Export data or a template in Dynamics 365 for Sales Professional
 
+> [!IMPORTANT]
+> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+
 Present sales-related information to someone who doesn’t have access to the Sales Professional app by exporting the data to a Microsoft Excel static worksheet.
 
 You can export just the data from a list to an Excel static file, or you can export a template.

@@ -19,6 +19,9 @@ manager: annbe
 
 # Enable automatic generation of quotes and invoices
 
+> [!IMPORTANT]
+> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+
 Make sure that all the quotes and invoices that your sales team sends out to customers follow a consistent format and branding by enabling automatic generation of quotes and invoices.
 
 1.  Make sure you have a Sales Professional Manager or System Administrator role so that you can enable automatic generation of quotes or invoice documents.
