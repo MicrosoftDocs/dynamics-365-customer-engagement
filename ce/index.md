@@ -51,7 +51,8 @@ These guides provide in-depth information about specific apps, solutions and rel
 <table>
 <tr>
 <td>
-<li><a href="sales-enterprise/index.md" data-raw-source="[Sales](sales-enterprise/index.md)">Sales</a></li>
+<li><a href="sales-enterprise/index.md" data-raw-source="[Sales Enterprise](sales-enterprise/index.md)">Sales</a></li>
+<li><a href="sales-professional/help-hub.md" data-raw-source="[Sales Professional](sales-professional/help-hub.md)">Sales</a></li>  
 <li><a href="customer-service/index.md" data-raw-source="[Customer Service](customer-service/index.md)">Customer Service</a></li>
 <li><a href="marketing/index.md" data-raw-source="[Marketing](marketing/index.md)">Marketing</a></li>
 <li><a href="field-service/index.md" data-raw-source="[Field Service](field-service/index.md)">Field Service</a></li>
