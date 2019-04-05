@@ -44,3 +44,45 @@ Start by understanding the requirements listed in [Important considerations for 
    4. Complete the wizard.
    5. Verify if the Documents link /button is appearing.
 
+## Validate and fix Related - Missing Document associated grid
+
+Start by understanding the requirements listed in [Important considerations for server-based SharePoint integration](important-considerations-server-based-sharepoint-integration.md).
+
+The most common cause for *Documents Associated Grid not to load* is the corrupted FetchXML and LayoutXML. These sections could be corrupted due to many reasons. The most common of them is through customizing the entity/grid view, adding/removing columns, and other similar customizations.
+
+To fix *Documents Associated grid not loading*, follow these steps:
+
+1. Go to Settings-> Customizations -> Solutions -> create a solution (named SharePointDocumentSolution) -> add SharePoint Document Entity (select all fields , forms, views)
+2. Save and close
+3. Publish All customizations.
+4. Select the created (SharePointDocumentSolution) solution.
+5. Export the solution. (SharePointDocumentSolution.zip will be downloaded) 
+6. Extract the zip file (downloaded file from step “e”)
+7. Browse the folder, Locate and Open customization.xml
+8. Search LayoutXml of Document Associated Grid(search for Document Associated)
+9. Make the changes as below.
+
+```  
+<grid name="sharepointdocument" object="9507" jump="fullname" select="1" icon="0" preview="1">
+<row name="sharepointdocument" id="sharepointdocumentid">
+<cell name="fullname" width="300" imageproviderfunctionname="DocumentManagement.FileTypeIcon.loadSharePointFileTypeIcon" imageproviderwebresource="$webresource:SharePoint_main_system_library.js" />
+<cell name="modified" width="150" />
+<cell name="sharepointmodifiedby" width="150" />
+<cell name="servicetype" width="150" />
+<cell name="relativelocation" width="200" />
+<cell name="documentid" ishidden="1" />
+<cell name="title" ishidden="1" />
+<cell name="author" ishidden="1" />
+<cell name="sharepointcreatedon" ishidden="1" />
+<cell name="sharepointdocumentid" ishidden="1" />
+<cell name="filetype" ishidden="1" />
+<cell name="readurl" ishidden="1" />
+<cell name="editurl" ishidden="1" />
+<cell name="ischeckedout" ishidden="1" />
+<cell name="absoluteurl" ishidden="1" />
+<cell name="locationid" ishidden="1" />
+<cell name="iconclassname" ishidden="1" />
+</row>
+</grid>
+```  
+
