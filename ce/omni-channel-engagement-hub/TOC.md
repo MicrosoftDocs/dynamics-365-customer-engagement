@@ -90,6 +90,7 @@
 ### [Customize the conversation forms](customizer/customize-conversation-form.md)
 ### [Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
 ### [Configure communication panel for agents](customizer/configure-communication-panel.md)
+#### [Steps for configuring communication panel](customizer/steps-configure-communication-panel.md)
 ### [Configure notifications (screen pops) for agents](customizer/configure-notification-screen-pop-agents.md)
 #### [Configure alert notifications in Unified Service Desk](customizer/configure-alert-notification-unified-service-desk.md)
 ##### [Step 1: Create forms to define the layout and behavior of the notification](customizer/alertnotification-step1-create-forms-define-layout-behavior-notification.md)

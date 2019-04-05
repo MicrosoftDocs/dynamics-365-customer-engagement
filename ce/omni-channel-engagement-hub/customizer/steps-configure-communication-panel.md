@@ -13,7 +13,7 @@ ms.assetid: 4396B2D0-20DE-4B88-A87C-DC197F14F6CF
 ms.custom: 
 ---
 
-# Walkthrough - configure communication panel for agents
+# Steps for configuring communication panel
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -157,6 +157,3 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 8. Repeat steps 4 through 7 to add the hosted controls and the events by selecting the down arrow next to Configuration, and selecting Hosted Controls and Events, respectively.
 
 9. When you've finished, select **Save**.
-
-> [!div class="nextstepaction"]
-> [Next topic:]()
