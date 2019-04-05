@@ -28,11 +28,9 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
 2.  Create action Calls.
 
-3.  Create events.
+3.  Attach the action Calls to events
 
-4.  Attach the action Calls to events
-
-5.  Add the Hosted Controls, Actions, and Events to the Agent and Supervisor Configurations.
+4.  Add the Hosted Controls, Actions, and Events to the Agent and Supervisor Configurations.
 
 > [!div class="nextstepaction"]
 > [Next topic:]()
