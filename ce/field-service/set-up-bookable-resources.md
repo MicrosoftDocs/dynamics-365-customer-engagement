@@ -44,6 +44,10 @@ Each resource can have different attributes that distinguish it from others, inc
 
 In this topic, we will walk through how to create a bookable resource and add details to distinguish it from other resources. We will also explore some common details for setting up field technician resources for Field Service organizations.
 
+## Prerequisites
+
+Logged in as a user with **Field Service - Administrator** or **System Administrator** security roles
+
 ## Create a bookable resource  
   
 1.  From the Field Service main menu, select **Resources** > **Resources entity**. 
