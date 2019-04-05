@@ -23,6 +23,16 @@ topic-status: Tech Reviewing
 
 # Project accurate revenue with sales forecasting
 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
+> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 for Customer Engagement apps Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+
+
 Forecasting helps organizations to project how much a sales team can sell or to estimate the revenue of the organization. This information in turn provides necessary insights into how to manage their resources or cash flow.
 
 Similarly, sales people can use forecasting to prevent deals from slipping away by spotting pipeline risks and tracking how they are performing against their targets.
