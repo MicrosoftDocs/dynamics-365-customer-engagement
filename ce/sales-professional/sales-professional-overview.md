@@ -19,10 +19,6 @@ manager: annbe
 
 # Overview of Dynamics 365 for Sales Professional
 
-> [!IMPORTANT]
-
-> [Learn about the usage and extensibility restrictions for Dynamics 365 for Sales Professional](https://go.microsoft.com/fwlink/p/?linkid=850959).
-
 Welcome to Dynamics 365 for Sales Professional. If you don't need a full-fledged enterprise app for your organization, the new Dynamics 365 for Sales Professional app is for you.
 
 This offering, available online only and built on the new Unified Interface framework, contains a targeted set of sales capabilities to get your organization up and running quickly.
