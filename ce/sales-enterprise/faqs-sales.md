@@ -51,7 +51,7 @@ manager: shubhadaj
 > [!NOTE]
 > In this section, we use the entity **Opportunity Product** to frame the questions. However, these questions are also true for these other entities: **Quote Product**, **Order Product**, and **Invoice Product**.
 
-**Question**:<br>How do you configure the value of the default **Pricing** to **Override Price** on the **Opportunity Product** form?
+**Question**:<br>How can I configure the value of the default **Pricing** to **Override Price** on the **Opportunity Product** form?
 
 **Answer**:<br>To configure the value of the default **Pricing** as **Override Price** in the **Opportunity Product** form: 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
@@ -75,15 +75,14 @@ manager: shubhadaj
   3. Select the **ispricelocked** field and configure the **Default Value** to **No**.
   4. Save and publish the customizations.
 
-**Question**:<br>How can I change the default value for the **Prices Locked** field for a perticular **Order** form?
+**Question**:<br>How can I change the value for the **Prices Locked** field for a particular **Order** form?
 
-**Answer**:<br> You can change the default value for the **Prices Locked** field through inline editable grid**. Select the **Lock** icon on the editable grid and change the value of the **Prices Locked** field.
+**Answer**:<br> You can change the value for the **Prices Locked** field through inline editable grid. Select the **Lock** icon on the editable grid and change the value of the **Prices Locked** field. 
 
   > [!div class="mx-imgBorder"]
   > ![Edit pricing for a product](media/faqs-edit-pricing-for-product.png "Edit pricing for a product")
 
-
-**Question**:<br>When can I change the **Pricing Per Unit** column in **Products** grid?
+**Question**:<br>When can I change the values in **Pricing Per Unit** column in the **Products** grid?
 
 **Answer**:<br>The **Prices Locked** (ispricelocked) field controls the prices specified on the **Order** form and locks them from any further updates.<br>
 
