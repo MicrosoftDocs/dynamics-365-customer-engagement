@@ -2,7 +2,7 @@
 title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about configuring notifications in Unified Service Desk."
 keywords: 
-ms.date: 08/17/2018
+ms.date: 04/08/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 
@@ -53,7 +53,6 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
 | UII option              | Default keyboard shortcuts | Description |
 |-------------------------|----------------------------|-------------|
 | `PopupNavigationShortcut` | Alt+1                      | Sets focus on a notification.  |
-| `PopupNavigationShortcut` | Alt+1                      | Press the keyboard shortcut repeatedly to cycle through all the active notifications on your screen when multiple notifications are displayed. |
 | `PopupEscapeShortcut`     | Shift+Esc                  | Sets focus on the Unified Service Desk client application from the notification. |
 | `PopupMoveUpShortcut`     | Shift+Up Arrow key         | Move up from one notification to another when notifications are displayed as stack. |
 | `PopupMoveDownShortcut`   | Shift+Down Arrow key       | Move down from one notification to another when notifications are displayed as stack. |

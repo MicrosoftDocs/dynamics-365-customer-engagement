@@ -2,7 +2,7 @@
 title: "Unified Interface Settings (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
 keywords: 
-ms.date: 08/17/2018
+ms.date: 04/08/2019
 ms.service: 
   - usd
 ms.topic: article
@@ -24,7 +24,13 @@ search.app:
 monikerRange: ">=dynamics-usd-4"
 ---
 
-# Preview feature - Set default Unified Interface App using Unified Interface Settings
+::: moniker range="dynamics-usd-4"
+# Preview feature: Set default Unified Interface App using Unified Interface Settings
+::: moniker-end
+
+::: moniker range="dynamics-usd-4.1"
+# Set default Unified Interface App using Unified Interface Settings
+::: moniker-end
 
 Unified Interface Settings is a new configuration element introduced under **Advanced Settings** in the Unified Service Desk Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the Unified Service Desk sign-in experience.  
 

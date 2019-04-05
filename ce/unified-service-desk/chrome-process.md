@@ -3,7 +3,7 @@ title: "Use Chrome Process hosting method for your controls in Unified Service D
 description: "Learn about the Chrome Process hosting method for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 12/19/2018
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -26,7 +26,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
-# Preview: Use Chrome Process to host web application
+# Use Chrome Process to host web application
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -126,6 +126,12 @@ Add a new Global UII option for your organization named **GlobalBrowserMode**. S
 
   > [!div class="mx-imageBorder"]
   > ![For the Global Option field enter Global Browser Mode with value as chrome](media/chrome-process-uii-option.GIF "For the Global Option field enter Global Browser Mode with value as chrome")
+
+## Recover a Chrome Process instance
+
+[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Chrome Process in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].
+
+To learn more, see [Recover a Chrome Process instance](admin/recover-chrome-process-instance.md)
 
 ## RunScript action is asynchronous in Chrome Process
 
@@ -301,25 +307,6 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 6. Select **Save**.
 
-<!--
-## Render sharper text when using Chrome Process
-
-While using Chrome Process to host web applications in Unified Service Desk if text appears slightly blurred, then add the **ChromeSharpRendering** UII option and set the value as **True**. This option renders the text clearly when using Chrome Process to host web applications in Unified Service Desk. To enable this option, you must add the **ChromeSharpRendering** UII option. To learn more, see [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md). 
-
-### Add the ChromeSharpRendering UII option
-
-1. Sign in to Dynamics 365 for Customer Engagement apps.
-
-2. Go to **Settings** > **Unified Service Desk** > *Options*.
-
-3. On the Active UII Options page, select **+ New**. 
-
-4. Choose **Others** for the **Global Option** field.
-
-5. Type **ChromeSharpRendering** for the **Name** field and type True for the **Value** field. 
-
-6. Select **Save**. -->
-
 ## Enable close confirmation dialog when using Chrome Process
 
 While using Chrome Process to host web applications in Unified Service Desk if you accidentally close any application, even though the application has a close confirmation dialog, the dialog not show for your confirmation and the application closes. To avoid closing the application accidentally, **OnBeforeCloseHandler** UII option is introduced. 
@@ -347,7 +334,7 @@ To enable close confirmation dialog, you must add the **OnBeforeCloseHandler** U
 
 ## Set zoom in, zoom out, and zoom reset keyboard shortcuts
 
-Be default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as follows.
+By default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as follows.
 
 | Function | Keyboard shortcut | Example |
 |----------|------------|-----------|
@@ -422,6 +409,57 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 6. Select **Save**.
 
+## Allow webpage navigation with unauthorized, expired, and invalid certificates in Chrome Process
+
+If you are navigating to a webpage that has invalid Security Socket Layer (SSL) certificates, unauthorized or expired certificates, then Chrome Process blocks the webpage navigation.
+
+To ignore the certificate errors and allow websites navigation, you must add **AllowWebpageNavigationCertificateError** UII option and set the value as **True**. If you set true, Chrome Process allows webpage navigation for all the websites. 
+
+If you want to choose few websites and don't want to allow all the websites, then provide comma separated values (CSV) of the websites for which you want to ignore the certificate errors. 
+
+For example: `wrong.host.testssl.com,self-signed.testssl.com`
+
+If you leave the value blank or set the value as **False**, then Chrome Process blocks the webpage navigation for all the websites with certificates errors.
+
+### Add the AllowWebpageNavigationCertificateError UII option
+
+1. Sign in to Dynamics 365 for Customer Engagement apps.
+
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
+
+3. On the Active UII Options page, select **+ New**. 
+
+4. Choose **Others** for the **Global Option** field.
+
+5. Type **AllowWebpageNavigationCertificateError** for the **Name** field, and type the value as **True** or comma seperated values (CSV) of the websites you want allow the navigation. For example: `wrong.host.testssl.com,self-signed.testssl.com`. 
+
+6. Select **Save**.
+
+## Accessibility support with Chrome Process
+
+When you use Chrome Process to host web application in Unified Service Desk, to enable accessibility support for the webpages, the **ChromeAccessibilityRenderer** is introduced. By default, the accessibility support for chrome process is disabled. Add the UII option and set the value as **True** to enable and ensure that screen reader applications read the webpage.
+
+After adding the UII option, if you set to false or leave the value empty, the UII option is disabled.
+
+### Add the AllowWebpageNavigationCertificateError UII option
+
+1. Sign in to Dynamics 365 for Customer Engagement apps.
+
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
+
+3. On the Active UII Options page, select **+ New**. 
+
+4. Choose **Others** for the **Global Option** field.
+
+5. Type **ChromeAccessibilityRenderer** for the **Name** field, and type the value as **True**. 
+
+6. Select **Save**.
+
+## Set focus on webpage when using Chrome Process
+
+When using Chrome Process to host web applications in Unified Service Desk, if you want to set the focus on the webpage automatically, then you must create an action call with action as **RunScript** and **Data** with a JavaScript function - `window.top.USDChromeSetFocus()`. After you create the action call, add it to the **PageReady** event in case of **Unified Interface Page** and the **BrowserDocumentComplete** event in case of the **CRM Page** hosted control.
+
+
 ## Limitations
 
 To learn about the limitations of the Chrome Process, see [Chrome Process limitations](release-notes.md)
@@ -433,3 +471,5 @@ To learn about the limitations of the Chrome Process, see [Chrome Process limita
 [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
 
 [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
+
+[Recover chrome process instance](admin/recover-chrome-process-instance.md)
