@@ -23,6 +23,8 @@ search.app:
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)] 
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 
+Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities.
+
 |Entity name|Description|
 |------|------|
 |[msdyn_forecastdefinition](entities/msdyn_forecastdefinition.md)|[!INCLUDE[msdyn_forecastdefinition-description](includes/msdyn_forecastdefinition-description.md)]|

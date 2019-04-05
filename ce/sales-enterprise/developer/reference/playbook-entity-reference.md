@@ -19,6 +19,8 @@ search.app:
 ---
 # Entity reference for playbooks
 
+Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities.
+
 |Entity name|Description|
 |------|------|
 |[msdyn_playbookinstance](playbooks-entities/msdyn_playbookinstance.md)|[!INCLUDE[msdyn_playbookinstance-description](includes/msdyn_playbookinstance-description.md)]|
