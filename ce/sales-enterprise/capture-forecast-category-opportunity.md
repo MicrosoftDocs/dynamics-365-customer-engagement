@@ -23,8 +23,6 @@ topic-status: Tech Reviewing
 
 # Capture forecast category for opportunity
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
-
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]

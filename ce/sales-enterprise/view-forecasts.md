@@ -23,8 +23,6 @@ topic-status: Tech Reviewing
 
 # View forecasts
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
-
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
