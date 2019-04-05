@@ -35,7 +35,7 @@ manager: shubhadaj
 > [!NOTE]
 > In this section, we use the entity **Opportunity** to frame the questions. However, these questions are also true for these other entities: **Quote**, **Invoice**, and **Order**.
 
-**Question**:<br>Why does a view other than **Opportunity Product Inline Edit View** lose the inline editing functionality and why can't I see grid actions such as move up, move down, and lock icons in the legacy web client if it’s been selected for the **Opportunity Product** subgrid in the **Opportunity** form?
+**Question**:<br>Why does a view other than **Opportunity Product Inline Edit View** lose the inline editing functionality and why can't I see grid actions such as move up, move down, and lock icons in the legacy web client if a view other than **Opportunity Product Inline Edit View** is selected for the **Opportunity Product** subgrid in the **Opportunity** form?
 
 **Answer**:<br>This is known and by-design behavior in Web Client. However, this behavior is changed in Unified Interface. We recommend that you use Unified Interface to experience the inline edit view. To verify if a grid is editable, go to **Grid control properties**.
 
