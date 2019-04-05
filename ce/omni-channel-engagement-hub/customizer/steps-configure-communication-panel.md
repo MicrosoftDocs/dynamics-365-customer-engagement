@@ -33,13 +33,13 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
 5. On the page for new hosted control, specify the following.
 
-| **Field**                           | **Value**                       |
-|-------------------------------------|---------------------------------|
-| Name                                | Communication Panel |
-| Unified Service Desk Component Type | USD Hosted Control              |
-| Application is Global               | Select the checkbox             |
-| Display Group              | LeftPanelFill            |
-| Application is Dynamics               | yes            |
+    | **Field**                           | **Value**                       |
+    |-------------------------------------|---------------------------------|
+    | Name                                | Communication Panel |
+    | Unified Service Desk Component Type | USD Hosted Control              |
+    | Application is Global               | Select the checkbox             |
+    | Display Group              | LeftPanelFill            |
+    | Application is Dynamics               | yes            |
 
 6.  Save the hosted control.
 
@@ -55,62 +55,62 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
 6. In the new page, specify the following details.
 
- | **Field**      | **Value**                       |
- |----------------|---------------------------------|
- | Name           | Launch Communication Panel      |
- | Hosted Control | Communication Panel |
- | Action         | default             |
+    | **Field**      | **Value**                       |
+    |----------------|---------------------------------|
+    | Name           | Launch Communication Panel      |
+    | Hosted Control | Communication Panel |
+    | Action         | default             |
 
 7. Save the action call.
 
 8. Repeat steps 4 through 7 to create the following additional action calls.
 
- | **Field**      | **Value**                       |
- |----------------|---------------------------------|
- | Name           | Omni-channel Clear Entity List      |
- | Order | 1 |
- | Hosted Control | CRM Global Manager |
- | Action         | ClearEntityList    |
+    | **Field**      | **Value**                       |
+    |----------------|---------------------------------|
+    | Name           | Omni-channel Clear Entity List      |
+    | Order | 1 |
+    | Hosted Control | CRM Global Manager |
+    | Action         | ClearEntityList    |
 
 
- | **Field**      | **Value**                       |
- |----------------|---------------------------------|
- | Name           | Omni-channel Fetch Live Work Streams      |
- | Order | 2 | 
- | Hosted Control | CRM Global Manager |
- | Action         | DoSearch    |
- | Data | name=LiveWorkStreamSearch <br>global=True |
+    | **Field**      | **Value**                       |
+    |----------------|---------------------------------|
+    | Name           | Omni-channel Fetch Live Work Streams      |
+    | Order | 2 | 
+    | Hosted Control | CRM Global Manager |
+    | Action         | DoSearch    |
+    | Data | name=LiveWorkStreamSearch <br>global=True |
 
- | **Field**      | **Value**                       |
- |----------------|---------------------------------|
- | Order | 2 | 
- | Name           | Omni-channel Fetch Service End Point     |
- | Hosted Control | CRM Global Manager |
- | Action         | DoSearch    |
- | Data | name=ServiceEndPointSearch <br>global=True |
+    | **Field**      | **Value**                       |
+    |----------------|---------------------------------|
+    | Order | 2 | 
+    | Name           | Omni-channel Fetch Service End Point     |
+    | Hosted Control | CRM Global Manager |
+    | Action         | DoSearch    |
+    | Data | name=ServiceEndPointSearch <br>global=True |
 
- | **Field**      | **Value**                       |
- |----------------|---------------------------------|
- | Name           | Omni-channel Save Configuration Data     |
- | Order | 3 |
- | Hosted Control | Communication Panel |
- | Action         | OmnichannelSaveConfigurationData    |
+    | **Field**      | **Value**                       |
+    |----------------|---------------------------------|
+    | Name           | Omni-channel Save Configuration Data     |
+    | Order | 3 |
+    | Hosted Control | Communication Panel |
+    | Action         | OmnichannelSaveConfigurationData    |
 
- | **Field**      | **Value**                       |
- |----------------|---------------------------------|
- | Name           | Update Omni-channel Configuration     |
- | Hosted Control | CRM Global Manager |
- | Action         | SaveSetting    | 
- | Data | name=OmniChannelConfig<br>value=[[OCConfig]+] |
+    | **Field**      | **Value**                       |
+    |----------------|---------------------------------|
+    | Name           | Update Omni-channel Configuration     |
+    | Hosted Control | CRM Global Manager |
+    | Action         | SaveSetting    | 
+    | Data | name=OmniChannelConfig<br>value=[[OCConfig]+] |
 
- | **Field**      | **Value**                       |
- |----------------|---------------------------------|
- | Name           | Omni-channel AAD Authentication Failed     |
- | Hosted Control | Communication Panel |
- | Action         | OmnichannelAADAuthenticationFailure | 
- | Data | PostData=[[PostData]+] |
+    | **Field**      | **Value**                       |
+    |----------------|---------------------------------|
+    | Name           | Omni-channel AAD Authentication Failed     |
+    | Hosted Control | Communication Panel |
+    | Action         | OmnichannelAADAuthenticationFailure | 
+    | Data | PostData=[[PostData]+] |
 
-## Step 4.  Attach the Action Calls to Events
+## Step 3.  Attach the Action Calls to Events
 
 1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
 
@@ -132,13 +132,13 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
 8. Repeat steps 4 through 7 to create the following action calls to the events.
 
-| Event | Action Call |
-|-------|-------------|
-| OmnichannelFetchConfigurationData | <ul> <li> Omni-channel Clear Entity List </li> <li>Omni-channel Fetch Live Work Streams </li> <li> Omni-channel Fetch Service End Point </li> <li>Omni-channel Save Configuration Data </li> |
-| OmnichannelUpdateConfigurationContext | Update Omni-channel Configuration |
-| AADAuthenticationFailed | Omni-channel AAD Authentication Failed |
+    | Event | Action Call |
+    |-------|-------------|
+    | OmnichannelFetchConfigurationData | <ul> <li> Omni-channel Clear Entity List </li> <li>Omni-channel Fetch Live Work Streams </li> <li> Omni-channel Fetch Service End Point </li> <li>Omni-channel Save Configuration Data </li> |
+    | OmnichannelUpdateConfigurationContext | Update Omni-channel Configuration |
+    | AADAuthenticationFailed | Omni-channel AAD Authentication Failed |
 
-## Step 5.  Add the Hosted Controls, Actions, and Events to the Agent and Supervisor Configurations
+## Step 4.  Add the Hosted Controls, Actions, and Events to the Agent and Supervisor Configurations
 
 1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
 
