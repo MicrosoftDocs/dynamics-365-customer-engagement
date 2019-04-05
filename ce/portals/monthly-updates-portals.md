@@ -32,7 +32,7 @@ Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dyn
 
 Portal capabilities version 9.1.4 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps brings these new updates and features:
 
-- **Maintenance mode for portal**: As a portal administrator, you can now configure your portal to display a proper message to the customers whenever a maintenance activity is going on, for example solution packages are being upgraded. More information: [Maintenance mode for a portal](enable-maintenance-mode.md)
+- **Maintenance mode for portal**: As a portal administrator, you can now configure your portal to display a proper message to the customers whenever a maintenance activity is going on—for example, solution packages are being upgraded. More information: [Maintenance mode for a portal](enable-maintenance-mode.md)
 
 - **Enable Power BI Embedded service**: As a portal customizer, you can now embed dashboards and reports created in the new workspace of Power BI by enabling Power BI Embedded service. The dashboards and reports are embedded on web pages in a portal by using the powerbi Liquid tag. More information: [Set up Power BI integration](set-up-power-bi-integration.md#enable-power-bi-embedded-service)
 
@@ -40,7 +40,7 @@ Portal capabilities version 9.1.4 for [!INCLUDE[pn-dynamics-crm](../includes/pn-
 
 - **OAuth 2.0 Implicit grant flow**: As a portal developer, you can now get data from external applications and display it in portals in a secure manner. Client-side calls can be made to external APIs and get them secured by using OAuth 2.0 Implicit grant flow.
 
-- **Common Data Service starter portal (preview)**: As a portal administrator, you can now configure your portal to connect to the Common Data Service environment and allow your users to interact with it. This feature brings in the ability to connect a portal to a Common Data Service environment that does not have any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps (Sales, Service, or Marketing) pre-installed. More information: [Common Data Service starter portal](cds-portal.md)
+- **Common Data Service starter portal (preview)**: As a portal administrator, you can now configure your portal to connect to the Common Data Service environment and allow your users to interact with it. This feature brings in the ability to connect a portal to a Common Data Service environment that does not have any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps (Sales, Service, or Marketing) preinstalled. More information: [Common Data Service starter portal](cds-portal.md)
 
 ## Portal capabilities version 9.1.1 for Dynamics 365 for Customer Engagement apps
 
@@ -54,7 +54,7 @@ Portal capabilities version 9.0.10 for [!INCLUDE[pn-dynamics-crm](../includes/pn
 
 - **Migrate Dynamics 365 for Customer Engagement Portal configuration**: You can now migrate your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal configuration from development to testing or the production environments. Migration involves exporting the existing configuration from the source [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, and then importing it into the target [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. To migrate configuration data, you need to use the Configuration Migration tool and a portal-specific configuration schema file. More information: [Migrate Dynamics 365 for Customer Engagement Portal configuration](migrate-portal-configuration.md)
 
-- **Add Power BI visualization**: As a portal customizer, you can now embed Power BI visualizations (dashboard, reports, amd tiles) on web pages in a portal by using the powerbi Liquid tag. More information: [Set up Power BI integration](set-up-power-bi-integration.md)
+- **Add Power BI visualization**: As a portal customizer, you can now embed Power BI visualizations (dashboard, reports, and tiles) on web pages in a portal by using the powerbi Liquid tag. More information: [Set up Power BI integration](set-up-power-bi-integration.md)
 
 - **Restrict portal access by IP address**: As a portal administrator, you can now define a list of IP addresses that are allowed to access your portal. When a request to the portal is generated from any user, their IP address is evaluated against the allow list. If the IP address is not on the list, the portal displays a web page with an HTTP 403 status code. More information: [Restrict portal access by IP address](ip-address-restrict.md)
 
