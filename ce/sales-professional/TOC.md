@@ -38,7 +38,7 @@
 #### [Manage Excel templates](manage-excel-templates.md)
 #### [Manage Word templates](manage-word-templates.md)
 #### [Automatic generation of quotes or invoices](enable-automatic-generation-quotes-invoices.md)
-#### Export data (export-data.md)
+#### [Export data](export-data.md)
 
 ### Customize the app
 #### [Customize forms](customize-forms.md)
