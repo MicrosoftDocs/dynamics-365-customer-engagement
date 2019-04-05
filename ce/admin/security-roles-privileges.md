@@ -56,6 +56,7 @@ To control data access, you must set up an organizational structure that both pr
 >  To ensure that users can view and access all areas of the web application, such as entity forms, the nav bar, or the command bar, all security roles in the organization must include the Read privilege on the `Web Resource` entity. For example, without read permissions, a user won’t be able to open a form that contains a web resource and will see an error message similar to this: “Missing `prvReadWebResource` privilege.” [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a security role](../admin/create-edit-security-role.md)  
   
 <a name="BKMK_privileges"></a>   
+
 ### Record-level privileges  
  [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] use eight different record-level privileges that determine the level of access a user has to a specific record or record type.  
   

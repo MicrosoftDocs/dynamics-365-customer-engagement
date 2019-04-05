@@ -62,6 +62,10 @@
 #### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
 #### [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
 #### [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
+#### [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md)
+##### [Preview: Create insight cards](../sales-enterprise/create-insight-cards-flow.md)
+##### [Preview: Edit insight cards](../sales-enterprise/edit-insight-cards.md)
+##### [Preview: Optimize ranking of insight cards](../sales-enterprise/optimize-ranking-insight-cards.md)
 ### [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
 #### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
 ### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
@@ -71,6 +75,9 @@
 ## Troubleshooting
 ### [Troubleshooting guide for sales people](troubleshooting.md)
 ### [Troubleshooting guide for administrators](troubleshooting-admin.md)
+
+## [FAQs](faqs-sales.md)
+
 ## [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)
 ### [Create a marketing list](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  
 ### [Create a quick campaign](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)
