@@ -50,9 +50,9 @@ When you want to send messages to all the participants in the conversation inclu
 
 You can use keyboard shortcuts to send internal and public messages:
 
-- **Slash+I** – Press the Slash (/) key and the letter I to send an internal message to other agents and/or a supervisor.
+- **/I** – Press the Slash (/) key and the letter I to send an internal message to other agents and/or a supervisor.
 
-- **Slash+P** – Press the Slash (/) key and the letter P to send a public message to all the participants in the interaction.
+- **/P** – Press the Slash (/) key and the letter P to send a public message to all the participants in the interaction.
 
 ## Send quick replies in the chat
 
@@ -61,13 +61,13 @@ The communication panel provides you with the capability to send templatized mes
 > [!div class=mx-imgBorder]
 >![omni-channel quick response](../../media/oc-usd-cc-quick-replies.png "Omni-channel quick response")
 
-You can use a keyboard shortcut to see the list of quick replies. Press the Slash (/) key and the letter Q (**/+Q**).
+You can use a keyboard shortcut to see the list of quick replies. Press the Slash (/) key and the letter Q (**/Q**).
 
 ## Search for and share knowledge articles
 
 From the communication panel, you can launch the knowledge article search control using the knowledge article option. After launching the knowledge article search control, you can search for relevant knowledge articles, based on the context of the session, and then share the articles with the customers.
 
-You can use a keyboard shortcut to launch the knowledge article search control in the right panel. Press the Slash (/) key and the letters K and B (**/+K+B**). You can search for and share articles with customers through the communication panel. Select the **Send link** button to share the link of a knowledge article with the customer. More information: [Search for knowledge articles](right-control-panel.md#search-for-knowledge-articles)
+You can use a keyboard shortcut to launch the knowledge article search control in the right panel. Press the Slash (/) key and the letters K and B (**/KB**). You can search for and share articles with customers through the communication panel. Select the **Send link** button to share the link of a knowledge article with the customer. More information: [Search for knowledge articles](right-control-panel.md#search-for-knowledge-articles)
 
 ## Consult with agent or supervisor
 
@@ -76,7 +76,7 @@ The communication panel lets you to consult with other agents and/or supervisor 
 > [!div class=mx-imgBorder]
 >![omni-channel consult](../../media/oc-usd-cc-consult.png "Omni-channel consult")  
 
-You can use a keyboard shortcut to see the list of agents and/or the supervisor who is available for consultation. Press the Slash (/) key and the letters C and O (**/+C+O**).
+You can use a keyboard shortcut to see the list of agents and/or the supervisor who is available for consultation. Press the Slash (/) key and the letter C (**/C**).
 
 ## Transfer the conversation
 
@@ -87,9 +87,9 @@ The communication panel allows you to transfer a conversation request. You can t
 
 You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and when you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
 
-Use a keyboard shortcut to see the list of agents and/or the supervisor who is available for transfer. Press the Slash (/) key and the letters t (**/+t**).
+Use a keyboard shortcut to see the list of agents and/or the supervisor who is available for transfer. Press the Slash (/) key and the letters T (**/T**).
 
-Use a keyboard shortcut to see the list of queues to transfer the conversation request. Press the Slash (/) key and the letters T and Q (**/+T+Q**).
+Use a keyboard shortcut to see the list of queues to transfer the conversation request. Press the Slash (/) key and the letters T and Q (**/TQ**).
 
 > [!div class="nextstepaction"]
 > [Next topic: View call scripts, take notes, and search knowledge articles](right-control-panel.md)
