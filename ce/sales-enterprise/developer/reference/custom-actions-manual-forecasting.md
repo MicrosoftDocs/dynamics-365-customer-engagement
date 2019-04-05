@@ -19,8 +19,6 @@ search.app:
 ---
 # Custom actions for manual forecasting
 
-
-
 > [!IMPORTANT]
 > You will find the following actions in the [$metadata](/powerapps/developer/common-data-service/webapi/web-api-types-operations#csdl-metadata-document) document of your Dynamics 365 for Customer Engagement instance. They are meant for internal use only. This means that programmatically using these actions in your code to manipulate data is not supported.
 

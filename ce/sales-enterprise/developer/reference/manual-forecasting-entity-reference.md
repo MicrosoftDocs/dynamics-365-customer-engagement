@@ -19,6 +19,10 @@ search.app:
 ---
 # Entity reference for manual forecasting
 
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)] 
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+
 |Entity name|Description|
 |------|------|
 |[msdyn_forecastdefinition](entities/msdyn_forecastdefinition.md)|[!INCLUDE[msdyn_forecastdefinition-description](includes/msdyn_forecastdefinition-description.md)]|
