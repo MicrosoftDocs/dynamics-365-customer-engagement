@@ -1,42 +1,44 @@
 ---
-title: "BookableResourceCharacteristic Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "BookableResourceCharacteristic Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the BookableResourceCharacteristic entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # BookableResourceCharacteristic Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.
 
-**Added by**: Scheduling Solution<br />
+**Added by**: Scheduling Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/bookableresourcecharacteristics(*bookableresourcecharacteristicid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/bookableresourcecharacteristics<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/bookableresourcecharacteristics(*bookableresourcecharacteristicid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/bookableresourcecharacteristics(*bookableresourcecharacteristicid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/bookableresourcecharacteristics<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/bookableresourcecharacteristics(*bookableresourcecharacteristicid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/bookableresourcecharacteristics(*bookableresourcecharacteristicid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bookableresourcecharacteristics<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/bookableresourcecharacteristics(*bookableresourcecharacteristicid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bookableresourcecharacteristics<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/bookableresourcecharacteristics(*bookableresourcecharacteristicid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/bookableresourcecharacteristics(*bookableresourcecharacteristicid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/bookableresourcecharacteristics(*bookableresourcecharacteristicid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/bookableresourcecharacteristics(*bookableresourcecharacteristicid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -128,7 +130,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_approvalstatus"></a> msdyn_approvalstatus
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -154,7 +156,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_supportingrecord"></a> msdyn_supportingrecord
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -216,6 +218,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id Type|
@@ -273,7 +277,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Contains the id of the stage where the entity is located.|
-|DisplayName|Stage Id|
+|DisplayName|(Deprecated) Stage Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -359,7 +363,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|
-|DisplayName|Traversed Path|
+|DisplayName|(Deprecated) Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -386,7 +390,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CharacteristicName](#BKMK_CharacteristicName)
@@ -665,6 +671,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_supportingrecordName"></a> msdyn_supportingrecordName
 
+**Added by**: Project Service Automation Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -826,7 +834,6 @@ Listed by **SchemaName**.
 - [bookableresourcecharacteristic_DuplicateBaseRecord](#BKMK_bookableresourcecharacteristic_DuplicateBaseRecord)
 - [bookableresourcecharacteristic_AsyncOperations](#BKMK_bookableresourcecharacteristic_AsyncOperations)
 - [bookableresourcecharacteristic_MailboxTrackingFolders](#BKMK_bookableresourcecharacteristic_MailboxTrackingFolders)
-- [bookableresourcecharacteristic_UserEntityInstanceDatas](#BKMK_bookableresourcecharacteristic_UserEntityInstanceDatas)
 - [bookableresourcecharacteristic_ProcessSession](#BKMK_bookableresourcecharacteristic_ProcessSession)
 - [bookableresourcecharacteristic_BulkDeleteFailures](#BKMK_bookableresourcecharacteristic_BulkDeleteFailures)
 - [bookableresourcecharacteristic_PrincipalObjectAttributeAccess](#BKMK_bookableresourcecharacteristic_PrincipalObjectAttributeAccess)
@@ -836,6 +843,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_BookableResourceCharacteristic_SyncErrors"></a> BookableResourceCharacteristic_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [BookableResourceCharacteristic_SyncErrors](syncerror.md#BKMK_BookableResourceCharacteristic_SyncErrors) Many-To-One relationship.
 
@@ -852,6 +861,8 @@ Same as syncerror entity [BookableResourceCharacteristic_SyncErrors](syncerror.m
 
 ### <a name="BKMK_bookableresourcecharacteristic_DuplicateMatchingRecord"></a> bookableresourcecharacteristic_DuplicateMatchingRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [bookableresourcecharacteristic_DuplicateMatchingRecord](duplicaterecord.md#BKMK_bookableresourcecharacteristic_DuplicateMatchingRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -866,6 +877,8 @@ Same as duplicaterecord entity [bookableresourcecharacteristic_DuplicateMatching
 
 
 ### <a name="BKMK_bookableresourcecharacteristic_DuplicateBaseRecord"></a> bookableresourcecharacteristic_DuplicateBaseRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [bookableresourcecharacteristic_DuplicateBaseRecord](duplicaterecord.md#BKMK_bookableresourcecharacteristic_DuplicateBaseRecord) Many-To-One relationship.
 
@@ -882,6 +895,8 @@ Same as duplicaterecord entity [bookableresourcecharacteristic_DuplicateBaseReco
 
 ### <a name="BKMK_bookableresourcecharacteristic_AsyncOperations"></a> bookableresourcecharacteristic_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [bookableresourcecharacteristic_AsyncOperations](asyncoperation.md#BKMK_bookableresourcecharacteristic_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -897,6 +912,8 @@ Same as asyncoperation entity [bookableresourcecharacteristic_AsyncOperations](a
 
 ### <a name="BKMK_bookableresourcecharacteristic_MailboxTrackingFolders"></a> bookableresourcecharacteristic_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [bookableresourcecharacteristic_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bookableresourcecharacteristic_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -907,25 +924,12 @@ Same as mailboxtrackingfolder entity [bookableresourcecharacteristic_MailboxTrac
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|bookableresourcecharacteristic_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_bookableresourcecharacteristic_UserEntityInstanceDatas"></a> bookableresourcecharacteristic_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [bookableresourcecharacteristic_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_bookableresourcecharacteristic_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|bookableresourcecharacteristic_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_bookableresourcecharacteristic_ProcessSession"></a> bookableresourcecharacteristic_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [bookableresourcecharacteristic_ProcessSession](processsession.md#BKMK_bookableresourcecharacteristic_ProcessSession) Many-To-One relationship.
 
@@ -942,6 +946,8 @@ Same as processsession entity [bookableresourcecharacteristic_ProcessSession](pr
 
 ### <a name="BKMK_bookableresourcecharacteristic_BulkDeleteFailures"></a> bookableresourcecharacteristic_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [bookableresourcecharacteristic_BulkDeleteFailures](bulkdeletefailure.md#BKMK_bookableresourcecharacteristic_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -956,6 +962,8 @@ Same as bulkdeletefailure entity [bookableresourcecharacteristic_BulkDeleteFailu
 
 
 ### <a name="BKMK_bookableresourcecharacteristic_PrincipalObjectAttributeAccess"></a> bookableresourcecharacteristic_PrincipalObjectAttributeAccess
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [bookableresourcecharacteristic_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_bookableresourcecharacteristic_PrincipalObjectAttributeAccess) Many-To-One relationship.
 
@@ -972,6 +980,8 @@ Same as principalobjectattributeaccess entity [bookableresourcecharacteristic_Pr
 
 ### <a name="BKMK_bookableresourcecharacteristic_Annotations"></a> bookableresourcecharacteristic_Annotations
 
+**Added by**: System Solution Solution
+
 Same as annotation entity [bookableresourcecharacteristic_Annotations](annotation.md#BKMK_bookableresourcecharacteristic_Annotations) Many-To-One relationship.
 
 |Property|Value|
@@ -987,6 +997,8 @@ Same as annotation entity [bookableresourcecharacteristic_Annotations](annotatio
 
 ### <a name="BKMK_msdyn_bookableresourcecharacteristic_bookableresourcecharacteristic_supportingrecord"></a> msdyn_bookableresourcecharacteristic_bookableresourcecharacteristic_supportingrecord
 
+**Added by**: Project Service Automation Solution
+
 Same as bookableresourcecharacteristic entity [msdyn_bookableresourcecharacteristic_bookableresourcecharacteristic_supportingrecord](bookableresourcecharacteristic.md#BKMK_msdyn_bookableresourcecharacteristic_bookableresourcecharacteristic_supportingrecord) Many-To-One relationship.
 
 |Property|Value|
@@ -1001,6 +1013,8 @@ Same as bookableresourcecharacteristic entity [msdyn_bookableresourcecharacteris
 
 
 ### <a name="BKMK_msdyn_bookableresourcecharacteristic_msdyn_approval_Characteristic"></a> msdyn_bookableresourcecharacteristic_msdyn_approval_Characteristic
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_approval entity [msdyn_bookableresourcecharacteristic_msdyn_approval_Characteristic](msdyn_approval.md#BKMK_msdyn_bookableresourcecharacteristic_msdyn_approval_Characteristic) Many-To-One relationship.
 
@@ -1037,33 +1051,49 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_bookableresourcecharacteristic_createdby"></a> lk_bookableresourcecharacteristic_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_bookableresourcecharacteristic_createdby](systemuser.md#BKMK_lk_bookableresourcecharacteristic_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_bookableresourcecharacteristic_createdonbehalfby"></a> lk_bookableresourcecharacteristic_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_bookableresourcecharacteristic_createdonbehalfby](systemuser.md#BKMK_lk_bookableresourcecharacteristic_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_bookableresourcecharacteristic_modifiedby"></a> lk_bookableresourcecharacteristic_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_bookableresourcecharacteristic_modifiedby](systemuser.md#BKMK_lk_bookableresourcecharacteristic_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_bookableresourcecharacteristic_modifiedonbehalfby"></a> lk_bookableresourcecharacteristic_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_bookableresourcecharacteristic_modifiedonbehalfby](systemuser.md#BKMK_lk_bookableresourcecharacteristic_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_bookableresourcecharacteristic"></a> user_bookableresourcecharacteristic
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_bookableresourcecharacteristic](systemuser.md#BKMK_user_bookableresourcecharacteristic) One-To-Many relationship.
 
 ### <a name="BKMK_team_bookableresourcecharacteristic"></a> team_bookableresourcecharacteristic
+
+**Added by**: System Solution Solution
 
 See team Entity [team_bookableresourcecharacteristic](team.md#BKMK_team_bookableresourcecharacteristic) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_bookableresourcecharacteristic"></a> business_unit_bookableresourcecharacteristic
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_bookableresourcecharacteristic](businessunit.md#BKMK_business_unit_bookableresourcecharacteristic) One-To-Many relationship.
 
 ### <a name="BKMK_processstage_BookableResourceCharacteristic"></a> processstage_BookableResourceCharacteristic
+
+**Added by**: System Solution Solution
 
 See processstage Entity [processstage_BookableResourceCharacteristic](processstage.md#BKMK_processstage_BookableResourceCharacteristic) One-To-Many relationship.
 
@@ -1081,6 +1111,8 @@ See ratingvalue Entity [ratingvalue_bookableresourcecharacteristic_RatingValue](
 
 ### <a name="BKMK_TransactionCurrency_bookableresourcecharacteristic"></a> TransactionCurrency_bookableresourcecharacteristic
 
+**Added by**: System Solution Solution
+
 See transactioncurrency Entity [TransactionCurrency_bookableresourcecharacteristic](transactioncurrency.md#BKMK_TransactionCurrency_bookableresourcecharacteristic) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookableresourcecharacteristic_bookableresourcecharacteristic_supportingrecord"></a> msdyn_bookableresourcecharacteristic_bookableresourcecharacteristic_supportingrecord
@@ -1090,6 +1122,6 @@ See bookableresourcecharacteristic Entity [msdyn_bookableresourcecharacteristic_
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.bookableresourcecharacteristic?text=bookableresourcecharacteristic EntityType" />

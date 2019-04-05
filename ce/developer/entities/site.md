@@ -1,35 +1,37 @@
 ---
-title: "Site Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Site Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Site entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Site Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Location or branch office where an organization does business. An organization can have multiple sites.
 
-**Added by**: Service Solution<br />
+**Added by**: Service Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/sites<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/sites(*siteid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/sites(*siteid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/sites<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/sites(*siteid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.0/sites<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/sites(*siteid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/sites(*siteid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/sites<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/sites(*siteid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -914,7 +916,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -1204,7 +1208,6 @@ Listed by **SchemaName**.
 - [Site_SyncErrors](#BKMK_Site_SyncErrors)
 - [Site_AsyncOperations](#BKMK_Site_AsyncOperations)
 - [site_MailboxTrackingFolders](#BKMK_site_MailboxTrackingFolders)
-- [userentityinstancedata_site](#BKMK_userentityinstancedata_site)
 - [Site_ProcessSessions](#BKMK_Site_ProcessSessions)
 - [Site_BulkDeleteFailures](#BKMK_Site_BulkDeleteFailures)
 - [site_PrincipalObjectAttributeAccesses](#BKMK_site_PrincipalObjectAttributeAccesses)
@@ -1230,6 +1233,8 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_site_ActivityPointers"></a> site_ActivityPointers
 
+**Added by**: System Solution Solution
+
 Same as activitypointer entity [site_ActivityPointers](activitypointer.md#BKMK_site_ActivityPointers) Many-To-One relationship.
 
 |Property|Value|
@@ -1244,6 +1249,8 @@ Same as activitypointer entity [site_ActivityPointers](activitypointer.md#BKMK_s
 
 
 ### <a name="BKMK_Site_SyncErrors"></a> Site_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [Site_SyncErrors](syncerror.md#BKMK_Site_SyncErrors) Many-To-One relationship.
 
@@ -1260,6 +1267,8 @@ Same as syncerror entity [Site_SyncErrors](syncerror.md#BKMK_Site_SyncErrors) Ma
 
 ### <a name="BKMK_Site_AsyncOperations"></a> Site_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [Site_AsyncOperations](asyncoperation.md#BKMK_Site_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -1275,6 +1284,8 @@ Same as asyncoperation entity [Site_AsyncOperations](asyncoperation.md#BKMK_Site
 
 ### <a name="BKMK_site_MailboxTrackingFolders"></a> site_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [site_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_site_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -1288,22 +1299,9 @@ Same as mailboxtrackingfolder entity [site_MailboxTrackingFolders](mailboxtracki
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_userentityinstancedata_site"></a> userentityinstancedata_site
-
-Same as userentityinstancedata entity [userentityinstancedata_site](userentityinstancedata.md#BKMK_userentityinstancedata_site) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_site|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_Site_ProcessSessions"></a> Site_ProcessSessions
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [Site_ProcessSessions](processsession.md#BKMK_Site_ProcessSessions) Many-To-One relationship.
 
@@ -1320,6 +1318,8 @@ Same as processsession entity [Site_ProcessSessions](processsession.md#BKMK_Site
 
 ### <a name="BKMK_Site_BulkDeleteFailures"></a> Site_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [Site_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Site_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -1334,6 +1334,8 @@ Same as bulkdeletefailure entity [Site_BulkDeleteFailures](bulkdeletefailure.md#
 
 
 ### <a name="BKMK_site_PrincipalObjectAttributeAccesses"></a> site_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [site_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_site_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -1350,6 +1352,8 @@ Same as principalobjectattributeaccess entity [site_PrincipalObjectAttributeAcce
 
 ### <a name="BKMK_site_Appointments"></a> site_Appointments
 
+**Added by**: System Solution Solution
+
 Same as appointment entity [site_Appointments](appointment.md#BKMK_site_Appointments) Many-To-One relationship.
 
 |Property|Value|
@@ -1364,6 +1368,8 @@ Same as appointment entity [site_Appointments](appointment.md#BKMK_site_Appointm
 
 
 ### <a name="BKMK_site_Emails"></a> site_Emails
+
+**Added by**: System Solution Solution
 
 Same as email entity [site_Emails](email.md#BKMK_site_Emails) Many-To-One relationship.
 
@@ -1380,6 +1386,8 @@ Same as email entity [site_Emails](email.md#BKMK_site_Emails) Many-To-One relati
 
 ### <a name="BKMK_site_Faxes"></a> site_Faxes
 
+**Added by**: System Solution Solution
+
 Same as fax entity [site_Faxes](fax.md#BKMK_site_Faxes) Many-To-One relationship.
 
 |Property|Value|
@@ -1394,6 +1402,8 @@ Same as fax entity [site_Faxes](fax.md#BKMK_site_Faxes) Many-To-One relationship
 
 
 ### <a name="BKMK_site_Letters"></a> site_Letters
+
+**Added by**: System Solution Solution
 
 Same as letter entity [site_Letters](letter.md#BKMK_site_Letters) Many-To-One relationship.
 
@@ -1410,6 +1420,8 @@ Same as letter entity [site_Letters](letter.md#BKMK_site_Letters) Many-To-One re
 
 ### <a name="BKMK_site_PhoneCalls"></a> site_PhoneCalls
 
+**Added by**: System Solution Solution
+
 Same as phonecall entity [site_PhoneCalls](phonecall.md#BKMK_site_PhoneCalls) Many-To-One relationship.
 
 |Property|Value|
@@ -1424,6 +1436,8 @@ Same as phonecall entity [site_PhoneCalls](phonecall.md#BKMK_site_PhoneCalls) Ma
 
 
 ### <a name="BKMK_site_Tasks"></a> site_Tasks
+
+**Added by**: System Solution Solution
 
 Same as task entity [site_Tasks](task.md#BKMK_site_Tasks) Many-To-One relationship.
 
@@ -1440,6 +1454,8 @@ Same as task entity [site_Tasks](task.md#BKMK_site_Tasks) Many-To-One relationsh
 
 ### <a name="BKMK_site_RecurringAppointmentMasters"></a> site_RecurringAppointmentMasters
 
+**Added by**: System Solution Solution
+
 Same as recurringappointmentmaster entity [site_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_site_RecurringAppointmentMasters) Many-To-One relationship.
 
 |Property|Value|
@@ -1454,6 +1470,8 @@ Same as recurringappointmentmaster entity [site_RecurringAppointmentMasters](rec
 
 
 ### <a name="BKMK_site_SocialActivities"></a> site_SocialActivities
+
+**Added by**: System Solution Solution
 
 Same as socialactivity entity [site_SocialActivities](socialactivity.md#BKMK_site_SocialActivities) Many-To-One relationship.
 
@@ -1545,6 +1563,8 @@ Same as serviceappointment entity [site_service_appointments](serviceappointment
 
 ### <a name="BKMK_site_OpportunityCloses"></a> site_OpportunityCloses
 
+**Added by**: Sales Solution
+
 Same as opportunityclose entity [site_OpportunityCloses](opportunityclose.md#BKMK_site_OpportunityCloses) Many-To-One relationship.
 
 |Property|Value|
@@ -1559,6 +1579,8 @@ Same as opportunityclose entity [site_OpportunityCloses](opportunityclose.md#BKM
 
 
 ### <a name="BKMK_site_OrderCloses"></a> site_OrderCloses
+
+**Added by**: Sales Solution
 
 Same as orderclose entity [site_OrderCloses](orderclose.md#BKMK_site_OrderCloses) Many-To-One relationship.
 
@@ -1575,6 +1597,8 @@ Same as orderclose entity [site_OrderCloses](orderclose.md#BKMK_site_OrderCloses
 
 ### <a name="BKMK_site_QuoteCloses"></a> site_QuoteCloses
 
+**Added by**: Sales Solution
+
 Same as quoteclose entity [site_QuoteCloses](quoteclose.md#BKMK_site_QuoteCloses) Many-To-One relationship.
 
 |Property|Value|
@@ -1590,6 +1614,8 @@ Same as quoteclose entity [site_QuoteCloses](quoteclose.md#BKMK_site_QuoteCloses
 
 ### <a name="BKMK_site_msdyn_bookingalerts"></a> site_msdyn_bookingalerts
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_bookingalert entity [site_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_site_msdyn_bookingalerts) Many-To-One relationship.
 
 |Property|Value|
@@ -1604,6 +1630,8 @@ Same as msdyn_bookingalert entity [site_msdyn_bookingalerts](msdyn_bookingalert.
 
 
 ### <a name="BKMK_site_msdyn_approvals"></a> site_msdyn_approvals
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_approval entity [site_msdyn_approvals](msdyn_approval.md#BKMK_site_msdyn_approvals) Many-To-One relationship.
 
@@ -1632,27 +1660,37 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_sitebase_createdby"></a> lk_sitebase_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_sitebase_createdby](systemuser.md#BKMK_lk_sitebase_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_site_createdonbehalfby"></a> lk_site_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_site_createdonbehalfby](systemuser.md#BKMK_lk_site_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_sitebase_modifiedby"></a> lk_sitebase_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_sitebase_modifiedby](systemuser.md#BKMK_lk_sitebase_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_site_modifiedonbehalfby"></a> lk_site_modifiedonbehalfby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_site_modifiedonbehalfby](systemuser.md#BKMK_lk_site_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_organization_sites"></a> organization_sites
+
+**Added by**: System Solution Solution
 
 See organization Entity [organization_sites](organization.md#BKMK_organization_sites) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.site?text=site EntityType" />

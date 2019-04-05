@@ -2,7 +2,7 @@
 title: "Troubleshoot Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Teams integration."
-ms.date: 03/20/2019
+ms.date: 11/29/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,6 +26,8 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The following are error messages with possible resolutions.
 
 ## Error messages in the Teams app
@@ -36,7 +38,7 @@ A failed connection means file synchronization is not set up between Microsoft T
 This is the connection error notification bar:
 
 > [!div class="mx-imgBorder"] 
-> ![Connection to Dynamics 365 for Customer Engagement apps failed](media/teams-error-connection-failed.png "Connection to Dynamics 365 for Customer Engagement apps failed")
+> ![Connection to Dynamics 365 for Customer Engagement appsfailed](media/teams-error-connection-failed.png "Connection to Dynamics 365 for Customer Engagement apps failed")
 
 > [!IMPORTANT]
 > When you first create a new team and channel in Microsoft Teams, you might see this error because it takes some time to make the SharePoint file library connection. Wait a few minutes and then refresh your browser to retry the connection.
@@ -69,7 +71,7 @@ and
 > [!div class="mx-imgBorder"] 
 > ![Org is not up to date](media/teams-error-org-not-latest.png "Org is not up to date")
 
-Your Dynamics 365 org is not the latest version or is not supported for this feature. Please select a different org. Also, note that Microsoft Teams integration is not supported with Model-driven apps or Canvas apps.
+The Dynamics 365 for Customer Engagement apps org that you are trying to connect does not support Microsoft Teams integration. You can wait for the org to be updated or pick a different org that has been updated to support Teams integration.
 
 ## Error messages in Dynamics 365 for Customer Engagement apps 
 

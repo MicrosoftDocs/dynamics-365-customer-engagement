@@ -1,32 +1,34 @@
 ---
-title: "LeadAddress Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "LeadAddress Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the LeadAddress entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # LeadAddress Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Address information for a lead.
 
-**Added by**: Lead Management Solution<br />
+**Added by**: Lead Management Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/leadaddresses(*leadaddressid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/leadaddresses<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/leadaddresses(*leadaddressid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/leadaddresses<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
 ## Entity Properties
 
@@ -110,9 +112,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 #### AddressTypeCode Options
 
-| Value | Label |
-|-------|-------|
-|       |       |
+|Value|Label|
+|-----|-----|
+
+
+
 
 ### <a name="BKMK_City"></a> City
 
@@ -381,9 +385,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 #### ShippingMethodCode Options
 
-| Value | Label |
-|-------|-------|
-|       |       |
+|Value|Label|
+|-----|-----|
+
+
+
 
 ### <a name="BKMK_StateOrProvince"></a> StateOrProvince
 
@@ -527,7 +533,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [Composite](#BKMK_Composite)
@@ -897,12 +905,13 @@ Listed by **SchemaName**.
 - [LeadAddress_SyncErrors](#BKMK_LeadAddress_SyncErrors)
 - [leadaddress_AsyncOperations](#BKMK_leadaddress_AsyncOperations)
 - [leadaddress_MailboxTrackingFolders](#BKMK_leadaddress_MailboxTrackingFolders)
-- [userentityinstancedata_leadaddress](#BKMK_userentityinstancedata_leadaddress)
 - [leadaddress_BulkDeleteFailures](#BKMK_leadaddress_BulkDeleteFailures)
 - [leadaddress_PrincipalObjectAttributeAccesses](#BKMK_leadaddress_PrincipalObjectAttributeAccesses)
 
 
 ### <a name="BKMK_LeadAddress_SyncErrors"></a> LeadAddress_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [LeadAddress_SyncErrors](syncerror.md#BKMK_LeadAddress_SyncErrors) Many-To-One relationship.
 
@@ -914,10 +923,12 @@ Same as syncerror entity [LeadAddress_SyncErrors](syncerror.md#BKMK_LeadAddress_
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|LeadAddress_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_leadaddress_AsyncOperations"></a> leadaddress_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [leadaddress_AsyncOperations](asyncoperation.md#BKMK_leadaddress_AsyncOperations) Many-To-One relationship.
 
@@ -934,6 +945,8 @@ Same as asyncoperation entity [leadaddress_AsyncOperations](asyncoperation.md#BK
 
 ### <a name="BKMK_leadaddress_MailboxTrackingFolders"></a> leadaddress_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [leadaddress_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_leadaddress_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -944,25 +957,12 @@ Same as mailboxtrackingfolder entity [leadaddress_MailboxTrackingFolders](mailbo
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|leadaddress_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_userentityinstancedata_leadaddress"></a> userentityinstancedata_leadaddress
-
-Same as userentityinstancedata entity [userentityinstancedata_leadaddress](userentityinstancedata.md#BKMK_userentityinstancedata_leadaddress) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_leadaddress|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_leadaddress_BulkDeleteFailures"></a> leadaddress_BulkDeleteFailures
+
+**Added by**: System Solution Solution
 
 Same as bulkdeletefailure entity [leadaddress_BulkDeleteFailures](bulkdeletefailure.md#BKMK_leadaddress_BulkDeleteFailures) Many-To-One relationship.
 
@@ -978,6 +978,8 @@ Same as bulkdeletefailure entity [leadaddress_BulkDeleteFailures](bulkdeletefail
 
 
 ### <a name="BKMK_leadaddress_PrincipalObjectAttributeAccesses"></a> leadaddress_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [leadaddress_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_leadaddress_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -1007,17 +1009,25 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_leadaddressbase_createdby"></a> lk_leadaddressbase_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_leadaddressbase_createdby](systemuser.md#BKMK_lk_leadaddressbase_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_leadaddress_createdonbehalfby"></a> lk_leadaddress_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_leadaddress_createdonbehalfby](systemuser.md#BKMK_lk_leadaddress_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_leadaddressbase_modifiedby"></a> lk_leadaddressbase_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_leadaddressbase_modifiedby](systemuser.md#BKMK_lk_leadaddressbase_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_leadaddress_modifiedonbehalfby"></a> lk_leadaddress_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_leadaddress_modifiedonbehalfby](systemuser.md#BKMK_lk_leadaddress_modifiedonbehalfby) One-To-Many relationship.
 
@@ -1027,11 +1037,13 @@ See lead Entity [lead_addresses](lead.md#BKMK_lead_addresses) One-To-Many relati
 
 ### <a name="BKMK_TransactionCurrency_LeadAddress"></a> TransactionCurrency_LeadAddress
 
+**Added by**: System Solution Solution
+
 See transactioncurrency Entity [TransactionCurrency_LeadAddress](transactioncurrency.md#BKMK_TransactionCurrency_LeadAddress) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.leadaddress?text=leadaddress EntityType" />

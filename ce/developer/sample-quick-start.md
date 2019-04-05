@@ -2,8 +2,8 @@
 title: "Sample: Quick start for Dynamics 365 for Customer Engagement apps(Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Dynamics 365 for Customer Engagement Custommer Engagement web services by using the ServerConnection helper class and perform basic create, update, retrieve, and delete operations on an entity. "
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 03/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

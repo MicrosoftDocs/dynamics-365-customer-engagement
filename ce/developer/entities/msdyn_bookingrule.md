@@ -1,43 +1,45 @@
 ---
-title: "msdyn_bookingrule Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_bookingrule Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_bookingrule entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_bookingrule Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Specify custom rules to be validated by the system before saving a booking record.
 
-**Added by**: Unified Resource Scheduling Solution<br />
+**Added by**: Universal Resource Scheduling Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingrules(*msdyn_bookingruleid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_bookingrules<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_bookingrules(*msdyn_bookingruleid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingrules(*msdyn_bookingruleid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_bookingrules<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_bookingrules(*msdyn_bookingruleid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_bookingrules(*msdyn_bookingruleid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_bookingrules<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_bookingrules(*msdyn_bookingruleid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_bookingrules<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingrules(*msdyn_bookingruleid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingrules(*msdyn_bookingruleid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingrules(*msdyn_bookingruleid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingrules(*msdyn_bookingruleid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -189,6 +191,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -202,6 +206,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -289,7 +295,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -316,6 +324,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -329,6 +339,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -345,6 +357,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -365,7 +379,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics CRM options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -376,6 +390,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -390,6 +406,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -407,6 +425,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -423,6 +443,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -436,6 +458,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -452,6 +476,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -472,7 +498,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics CRM options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -483,6 +509,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -497,6 +525,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -514,6 +544,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -529,6 +561,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -546,6 +580,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the Yomi name of the owner.|
@@ -562,6 +598,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -575,6 +613,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -590,6 +630,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -603,6 +645,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -629,7 +673,6 @@ Listed by **SchemaName**.
 - [msdyn_bookingrule_DuplicateBaseRecord](#BKMK_msdyn_bookingrule_DuplicateBaseRecord)
 - [msdyn_bookingrule_AsyncOperations](#BKMK_msdyn_bookingrule_AsyncOperations)
 - [msdyn_bookingrule_MailboxTrackingFolders](#BKMK_msdyn_bookingrule_MailboxTrackingFolders)
-- [msdyn_bookingrule_UserEntityInstanceDatas](#BKMK_msdyn_bookingrule_UserEntityInstanceDatas)
 - [msdyn_bookingrule_ProcessSession](#BKMK_msdyn_bookingrule_ProcessSession)
 - [msdyn_bookingrule_BulkDeleteFailures](#BKMK_msdyn_bookingrule_BulkDeleteFailures)
 - [msdyn_bookingrule_PrincipalObjectAttributeAccesses](#BKMK_msdyn_bookingrule_PrincipalObjectAttributeAccesses)
@@ -650,6 +693,8 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_bookingrule_ActivityPointers"></a> msdyn_bookingrule_ActivityPointers
 
+**Added by**: System Solution Solution
+
 Same as activitypointer entity [msdyn_bookingrule_ActivityPointers](activitypointer.md#BKMK_msdyn_bookingrule_ActivityPointers) Many-To-One relationship.
 
 |Property|Value|
@@ -664,6 +709,8 @@ Same as activitypointer entity [msdyn_bookingrule_ActivityPointers](activitypoin
 
 
 ### <a name="BKMK_msdyn_bookingrule_msdyn_bookingalerts"></a> msdyn_bookingrule_msdyn_bookingalerts
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bookingalert entity [msdyn_bookingrule_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_bookingrule_msdyn_bookingalerts) Many-To-One relationship.
 
@@ -680,6 +727,8 @@ Same as msdyn_bookingalert entity [msdyn_bookingrule_msdyn_bookingalerts](msdyn_
 
 ### <a name="BKMK_msdyn_bookingrule_SyncErrors"></a> msdyn_bookingrule_SyncErrors
 
+**Added by**: System Solution Solution
+
 Same as syncerror entity [msdyn_bookingrule_SyncErrors](syncerror.md#BKMK_msdyn_bookingrule_SyncErrors) Many-To-One relationship.
 
 |Property|Value|
@@ -690,10 +739,12 @@ Same as syncerror entity [msdyn_bookingrule_SyncErrors](syncerror.md#BKMK_msdyn_
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_bookingrule_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_bookingrule_DuplicateMatchingRecord"></a> msdyn_bookingrule_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_bookingrule_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_bookingrule_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -710,6 +761,8 @@ Same as duplicaterecord entity [msdyn_bookingrule_DuplicateMatchingRecord](dupli
 
 ### <a name="BKMK_msdyn_bookingrule_DuplicateBaseRecord"></a> msdyn_bookingrule_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_bookingrule_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_bookingrule_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -724,6 +777,8 @@ Same as duplicaterecord entity [msdyn_bookingrule_DuplicateBaseRecord](duplicate
 
 
 ### <a name="BKMK_msdyn_bookingrule_AsyncOperations"></a> msdyn_bookingrule_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_bookingrule_AsyncOperations](asyncoperation.md#BKMK_msdyn_bookingrule_AsyncOperations) Many-To-One relationship.
 
@@ -740,6 +795,8 @@ Same as asyncoperation entity [msdyn_bookingrule_AsyncOperations](asyncoperation
 
 ### <a name="BKMK_msdyn_bookingrule_MailboxTrackingFolders"></a> msdyn_bookingrule_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_bookingrule_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_bookingrule_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -750,25 +807,12 @@ Same as mailboxtrackingfolder entity [msdyn_bookingrule_MailboxTrackingFolders](
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_bookingrule_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_bookingrule_UserEntityInstanceDatas"></a> msdyn_bookingrule_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_bookingrule_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_bookingrule_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_bookingrule_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_bookingrule_ProcessSession"></a> msdyn_bookingrule_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_bookingrule_ProcessSession](processsession.md#BKMK_msdyn_bookingrule_ProcessSession) Many-To-One relationship.
 
@@ -785,6 +829,8 @@ Same as processsession entity [msdyn_bookingrule_ProcessSession](processsession.
 
 ### <a name="BKMK_msdyn_bookingrule_BulkDeleteFailures"></a> msdyn_bookingrule_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_bookingrule_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_bookingrule_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -799,6 +845,8 @@ Same as bulkdeletefailure entity [msdyn_bookingrule_BulkDeleteFailures](bulkdele
 
 
 ### <a name="BKMK_msdyn_bookingrule_PrincipalObjectAttributeAccesses"></a> msdyn_bookingrule_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [msdyn_bookingrule_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_bookingrule_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -815,6 +863,8 @@ Same as principalobjectattributeaccess entity [msdyn_bookingrule_PrincipalObject
 
 ### <a name="BKMK_msdyn_bookingrule_Appointments"></a> msdyn_bookingrule_Appointments
 
+**Added by**: System Solution Solution
+
 Same as appointment entity [msdyn_bookingrule_Appointments](appointment.md#BKMK_msdyn_bookingrule_Appointments) Many-To-One relationship.
 
 |Property|Value|
@@ -829,6 +879,8 @@ Same as appointment entity [msdyn_bookingrule_Appointments](appointment.md#BKMK_
 
 
 ### <a name="BKMK_msdyn_bookingrule_Emails"></a> msdyn_bookingrule_Emails
+
+**Added by**: System Solution Solution
 
 Same as email entity [msdyn_bookingrule_Emails](email.md#BKMK_msdyn_bookingrule_Emails) Many-To-One relationship.
 
@@ -845,6 +897,8 @@ Same as email entity [msdyn_bookingrule_Emails](email.md#BKMK_msdyn_bookingrule_
 
 ### <a name="BKMK_msdyn_bookingrule_Faxes"></a> msdyn_bookingrule_Faxes
 
+**Added by**: System Solution Solution
+
 Same as fax entity [msdyn_bookingrule_Faxes](fax.md#BKMK_msdyn_bookingrule_Faxes) Many-To-One relationship.
 
 |Property|Value|
@@ -859,6 +913,8 @@ Same as fax entity [msdyn_bookingrule_Faxes](fax.md#BKMK_msdyn_bookingrule_Faxes
 
 
 ### <a name="BKMK_msdyn_bookingrule_Letters"></a> msdyn_bookingrule_Letters
+
+**Added by**: System Solution Solution
 
 Same as letter entity [msdyn_bookingrule_Letters](letter.md#BKMK_msdyn_bookingrule_Letters) Many-To-One relationship.
 
@@ -875,6 +931,8 @@ Same as letter entity [msdyn_bookingrule_Letters](letter.md#BKMK_msdyn_bookingru
 
 ### <a name="BKMK_msdyn_bookingrule_PhoneCalls"></a> msdyn_bookingrule_PhoneCalls
 
+**Added by**: System Solution Solution
+
 Same as phonecall entity [msdyn_bookingrule_PhoneCalls](phonecall.md#BKMK_msdyn_bookingrule_PhoneCalls) Many-To-One relationship.
 
 |Property|Value|
@@ -889,6 +947,8 @@ Same as phonecall entity [msdyn_bookingrule_PhoneCalls](phonecall.md#BKMK_msdyn_
 
 
 ### <a name="BKMK_msdyn_bookingrule_Tasks"></a> msdyn_bookingrule_Tasks
+
+**Added by**: System Solution Solution
 
 Same as task entity [msdyn_bookingrule_Tasks](task.md#BKMK_msdyn_bookingrule_Tasks) Many-To-One relationship.
 
@@ -905,6 +965,8 @@ Same as task entity [msdyn_bookingrule_Tasks](task.md#BKMK_msdyn_bookingrule_Tas
 
 ### <a name="BKMK_msdyn_bookingrule_RecurringAppointmentMasters"></a> msdyn_bookingrule_RecurringAppointmentMasters
 
+**Added by**: System Solution Solution
+
 Same as recurringappointmentmaster entity [msdyn_bookingrule_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_bookingrule_RecurringAppointmentMasters) Many-To-One relationship.
 
 |Property|Value|
@@ -919,6 +981,8 @@ Same as recurringappointmentmaster entity [msdyn_bookingrule_RecurringAppointmen
 
 
 ### <a name="BKMK_msdyn_bookingrule_SocialActivities"></a> msdyn_bookingrule_SocialActivities
+
+**Added by**: System Solution Solution
 
 Same as socialactivity entity [msdyn_bookingrule_SocialActivities](socialactivity.md#BKMK_msdyn_bookingrule_SocialActivities) Many-To-One relationship.
 
@@ -935,6 +999,8 @@ Same as socialactivity entity [msdyn_bookingrule_SocialActivities](socialactivit
 
 ### <a name="BKMK_msdyn_bookingrule_connections1"></a> msdyn_bookingrule_connections1
 
+**Added by**: System Solution Solution
+
 Same as connection entity [msdyn_bookingrule_connections1](connection.md#BKMK_msdyn_bookingrule_connections1) Many-To-One relationship.
 
 |Property|Value|
@@ -949,6 +1015,8 @@ Same as connection entity [msdyn_bookingrule_connections1](connection.md#BKMK_ms
 
 
 ### <a name="BKMK_msdyn_bookingrule_connections2"></a> msdyn_bookingrule_connections2
+
+**Added by**: System Solution Solution
 
 Same as connection entity [msdyn_bookingrule_connections2](connection.md#BKMK_msdyn_bookingrule_connections2) Many-To-One relationship.
 
@@ -965,6 +1033,8 @@ Same as connection entity [msdyn_bookingrule_connections2](connection.md#BKMK_ms
 
 ### <a name="BKMK_msdyn_bookingrule_Annotations"></a> msdyn_bookingrule_Annotations
 
+**Added by**: System Solution Solution
+
 Same as annotation entity [msdyn_bookingrule_Annotations](annotation.md#BKMK_msdyn_bookingrule_Annotations) Many-To-One relationship.
 
 |Property|Value|
@@ -980,6 +1050,8 @@ Same as annotation entity [msdyn_bookingrule_Annotations](annotation.md#BKMK_msd
 
 ### <a name="BKMK_msdyn_bookingrule_ServiceAppointments"></a> msdyn_bookingrule_ServiceAppointments
 
+**Added by**: Service Solution
+
 Same as serviceappointment entity [msdyn_bookingrule_ServiceAppointments](serviceappointment.md#BKMK_msdyn_bookingrule_ServiceAppointments) Many-To-One relationship.
 
 |Property|Value|
@@ -994,6 +1066,8 @@ Same as serviceappointment entity [msdyn_bookingrule_ServiceAppointments](servic
 
 
 ### <a name="BKMK_msdyn_bookingrule_msdyn_approvals"></a> msdyn_bookingrule_msdyn_approvals
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_approval entity [msdyn_bookingrule_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_bookingrule_msdyn_approvals) Many-To-One relationship.
 
@@ -1024,35 +1098,49 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_bookingrule_createdby"></a> lk_msdyn_bookingrule_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_bookingrule_createdby](systemuser.md#BKMK_lk_msdyn_bookingrule_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_bookingrule_createdonbehalfby"></a> lk_msdyn_bookingrule_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_bookingrule_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_bookingrule_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_bookingrule_modifiedby"></a> lk_msdyn_bookingrule_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_bookingrule_modifiedby](systemuser.md#BKMK_lk_msdyn_bookingrule_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_bookingrule_modifiedonbehalfby"></a> lk_msdyn_bookingrule_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_bookingrule_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_bookingrule_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_bookingrule"></a> user_msdyn_bookingrule
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_msdyn_bookingrule](systemuser.md#BKMK_user_msdyn_bookingrule) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_bookingrule"></a> team_msdyn_bookingrule
 
+**Added by**: System Solution Solution
+
 See team Entity [team_msdyn_bookingrule](team.md#BKMK_team_msdyn_bookingrule) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_bookingrule"></a> business_unit_msdyn_bookingrule
+
+**Added by**: System Solution Solution
 
 See businessunit Entity [business_unit_msdyn_bookingrule](businessunit.md#BKMK_business_unit_msdyn_bookingrule) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_bookingrule?text=msdyn_bookingrule EntityType" />

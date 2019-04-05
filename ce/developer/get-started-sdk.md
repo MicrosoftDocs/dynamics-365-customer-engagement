@@ -2,8 +2,8 @@
 title: "Get started (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This topic contains information about some specific key tasks and how you can accomplish them. You’ll get guidance at a high level with directions to where you can find the details you need."
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 3/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

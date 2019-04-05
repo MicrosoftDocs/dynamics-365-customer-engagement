@@ -33,7 +33,7 @@ If you select a record, the Customer summary page displays details by pre-popula
 
 If you select a case, contact, or account, the Customer summary page refreshes and updates the **Issue snapshot** section with the current case details.
 
-If you choose a case that is different than the one you are assigned, you will see a warning message that needs your action to link the conversation to the record. More information: [Search for records](#search-for-a-record)  
+If you choose a case that is different than the one you are assigned, you will see a warning message that needs your action to link the conversation to the record. More information: [Search for records](#search-for-records)  
 
 ### Create a record
 
