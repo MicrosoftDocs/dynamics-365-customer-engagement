@@ -36,15 +36,9 @@ Connected Field Service with IoTHub brings together AzureIoT and Dynamics 365 fo
 
 ## Prerequisites
 
-Understand that Connected Field Service refers to a set solutions, entities, and processes and FS are always referring to dynamics
+Understand that Connected Field Service (CFS) refers to a set solutions, entities, and processes built on top of the Dynamics 365 for Field Service app. As of Field Service v8.3+ CFS is included as part of Field Service.
 
-In this article the words **data** and **telemetry** refer to information sent from an IoT device to the cloud.
-
-**Devices** and **sensors** refer to internet connected things that take specific measurements such as thermometers, gyroscopes, magnetometer, pressure readers and more. A piece of equipment cam have one or more sensors connected to it.  
-
-
-
-
+In this article the words **data** and **telemetry** refer to information sent from an IoT device to the cloud. The words **devices** and **sensors** refer to internet connected things that take specific measurements such as thermometers, gyroscopes, magnetometers, pressure readers and more. An **asset** is a piece of equipment that can have one or more sensors connected to it.  
 
 ## Architecture explained
 
@@ -74,7 +68,7 @@ In this article the words **data** and **telemetry** refer to information sent f
 
 **Devices and Assets** - entities in Connected Field Service in Dynamics 365 that help you manage the sensors and equipment that your organization manages.
 
-**Registration, Commands & Properties** - processes used in Connected Field Service to interact with and send data back to IoTHub making Connected Field Service a bi-directional solution with IoTHub. As an example, registration allows you to..........commands allow you to.......
+**Registration, Commands & Properties** - processes used in Connected Field Service to interact with and send data back to IoTHub making CFS a bi-directional solution with IoTHub. As an example, registration allows you to create a new device in CFS and register it in IoTHub. Commands allow you ..........commands allow you to.......
 
 **Logic App Dynamics to Azure** - the reverse of the previously explained Logic App, this makes 
 
