@@ -24,7 +24,7 @@ search.app:
 
 # Enable content moderation on ideas
 
-A content moderation policy allows you to moderate the ideas that are submitted on your portal. After you create a moderation policy, you add it to an idea forum. The moderation policy will be applicable to all ideas in the idea forum. A portal user can flag an idea by selecting an appropriate reason and add any additional details, if required. 
+A content moderation policy allows you to moderate the ideas that are submitted on your portal. After you create a moderation policy, you add it to an idea forum. The moderation policy will be applicable to all ideas in the idea forum. A portal user can flag an idea by selecting an appropriate reason and adding any additional details, if required. 
 
 To enable content moderation on ideas:
 
@@ -34,7 +34,7 @@ To enable content moderation on ideas:
 
 ## Create a content moderation policy
 
-1.	Open Dynamics 365 Portal app.
+1.	Open the Dynamics 365 Portal app.
 
 2.	Go to **Portals** > **Content moderation policies**.
 
@@ -73,9 +73,9 @@ After you have created a moderation policy and assigned it to an idea forum, the
 > [!div class=mx-imgBorder]
 > ![Moderate an idea](media/moderate-idea.png "Moderate an idea")
 
-When a portal user flags an idea on the portal by using a reason, the idea is hidden from the portal and moved to the **Flagged Ideas** view in Dynamics 365 Portal. As an administrator, you can open Dynamics 365 Portal app and take decision whether to accept or reject the flagged. You can further decide whether to deactivate the idea or keep it active.
+When a portal user flags an idea on the portal by using a reason, the idea is hidden from the portal and moved to the **Flagged Ideas** view in the Dynamics 365 portal. As an administrator, you can open the Dynamics 365 portal app and decide whether to accept or reject the flagged idea. You can further decide whether to deactivate the idea or keep it active.
 
-1.	Open Dynamics 365 Portal app.
+1.	Open the Dynamics 365 portal app.
 
 2.	Go to **Community** > **Ideas**.
 
