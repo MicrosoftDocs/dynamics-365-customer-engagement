@@ -46,7 +46,8 @@ In this topic, we will walk through how to create a bookable resource and add de
 
 ## Prerequisites
 
-Logged in as a user with **Field Service - Administrator** or **System Administrator** security roles
+- Any version of Field Service
+- You must be logged in as a user with **Field Service - Administrator** or **System Administrator** security roles
 
 ## Create a bookable resource  
   
@@ -62,7 +63,7 @@ Logged in as a user with **Field Service - Administrator** or **System Administr
 > ![Screenshot showing where to find the Active Bookable Resources grid](media/qs-1-img28.png)
 
     
-3.  Select a **Resource Type** . 
+3.  Select a **Resource Type**. 
   
   Resource type is a classification that describes who or what the resource is and how the resource relates to your organization. 
 
