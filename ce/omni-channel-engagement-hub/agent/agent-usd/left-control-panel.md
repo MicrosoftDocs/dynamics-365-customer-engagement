@@ -22,14 +22,14 @@ The communication or conversation panel shows the exchange of messages between y
 
 In the chat channel, you can see the following options:
  
- | Option           | Description                                   |
- |------------------|-----------------------------------------------|
- | Public           | Send messages to public |
- | Internal         | Send messages to internal users |
- | Quick replies    | Send templatized messages  |
- | Knowledge articles | Search for knowledge articles and share |
- | Consult          | View list to consult with other users | 
- | Transfer         | View list to transfer the request |
+ | Option           | Description                                   |  Shortcut |
+ |------------------|-----------------------------------------------|-----------|
+ | Public           | Send messages to public | `/P` |
+ | Internal         | Send messages to internal users | `/I` |
+ | Quick replies    | Send templatized messages  | `/Q` |
+ | Knowledge articles | Search for knowledge articles and share | `/KB` |
+ | Consult          | View list to consult with other users | `/C` |
+ | Transfer         | View list to transfer the request | `/T` and `/TQ` |
 
 > [!div class=mx-imgBorder]
 > ![omni-channel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omni-channel chat panel")   
