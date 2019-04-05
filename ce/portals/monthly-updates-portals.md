@@ -40,6 +40,8 @@ Portal capabilities version 9.1.4 for [!INCLUDE[pn-dynamics-crm](../includes/pn-
 
 - **Display external data in portal**: As a portal developer, you can now get data from external applications and display it in portals in a secure manner. Client-side calls can be made to external APIs and get them secured by using OAuth Implicit grant type flow.
 
+- **Common Data Service starter portal**: As a portal administrator, you can now configure your portal to connect to the Common Data Service environment and allow your users to interact with it. This feature brings in the ability to connect a portal to a Common Data Service environment that does not have any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps (Sales, Service, or Marketing) pre-installed. More information: [Common Data Service starter portal](cds-portal.md)
+
 ## Portal capabilities version 9.1.1 for Dynamics 365 for Customer Engagement apps
 
 Portal capabilities version 9.1.1 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps brings these new updates and features:

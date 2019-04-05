@@ -129,6 +129,7 @@
 ## [Rate a webpage or blog article](rate-webpage-blog-post.md)
 ## [Enable header and footer output caching on a portal](enable-header-footer-output-caching.md)
 ## [Add a Power BI report or dashboard to a webpage in portal](add-powerbi-report.md)
+## [Provision a Common Data Service starter portal](cds-portal.md)
 
 # [Best practices and common portal configuration issues](portal-faq.md)
 
