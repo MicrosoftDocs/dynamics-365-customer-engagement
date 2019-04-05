@@ -37,8 +37,8 @@ Each resource can have different attributes that distinguish it from others, inc
 
 - Characteristics (for example: Accounting)
 - Categories (for example: Manager)
-- Territories (for example: Seattle)
-- Organizational Unit (for example: Manager)
+- Territories (for example: Washington State)
+- Organizational Unit (for example: Seattle Service Delivery)
 - Location (for example: Location Agnostic)
 - Resource Type (for example: User)
 
