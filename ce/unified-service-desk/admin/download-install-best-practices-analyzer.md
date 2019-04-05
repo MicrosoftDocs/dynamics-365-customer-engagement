@@ -2,7 +2,7 @@
 title: "Download and Install Best Practices Analyzer | MicrosoftDocs"
 description: "Learn about downloading and installing the Best Practices Analyzer."
 keywords: 
-ms.date: 08/17/2018
+ms.date: 04/05/2019
 ms.service: 
   - usd
 ms.topic: article

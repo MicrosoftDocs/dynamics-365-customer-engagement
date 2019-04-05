@@ -3,7 +3,7 @@ title: "Use Chrome Process hosting method for your controls in Unified Service D
 description: "Learn about the Chrome Process hosting method for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 04/03/2019
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.tgt_pltfrm: ""
 ms.topic: "article"

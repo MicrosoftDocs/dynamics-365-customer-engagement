@@ -3,7 +3,7 @@ title: "Recover a Chrome Process instance in Unified Service Desk | MicrosoftDoc
 description: "Learn about recovering a Chrome Process instance in Unified Service Desk"
 ms.custom: 
   - dyn365-USD, dyn365-admin
-ms.date: 04/03/2019
+ms.date: 04/08/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 

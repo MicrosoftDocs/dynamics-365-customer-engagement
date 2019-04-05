@@ -3,7 +3,7 @@ title: "Channel Integration Framework (CIF) (Hosted Control) | MicrosoftDocs"
 description: "Learn about using the Channel Integration Framework hosted control type to integrate channel providers into to Unified Service Desk client application to experience the functionalities of the channel provider (softphone, chatbot, message (sms), chat)."
 ms.custom: 
   - dyn365-USD
-ms.date: 04/03/2019
+ms.date: 04/08/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.topic: article
