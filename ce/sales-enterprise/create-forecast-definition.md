@@ -2,7 +2,7 @@
 title: "Create a forecast definition (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Define the data and period to use for the purpose of forecasting in Dynamics 365 for Sales."
 keywords: ""
-ms.date: 02/28/2019
+ms.date: 04/05/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:

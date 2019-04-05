@@ -2,7 +2,7 @@
 title: "View forecasts (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "See forecasts in Dynamics 365 for Sales to know the health of your pipeline or to track how your sales team is performing against their quota or target. Define the data and period to use for the purpose of forecasting in Dynamics 365 for Sales."
 keywords: ""
-ms.date: 02/28/2019
+ms.date: 04/05/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -33,9 +33,6 @@ topic-status: Tech Reviewing
 
 
 Track your forecasts to project what a sales person, team, or organization will sell against a given target or in a given period such as quarterly or monthly. If you are a sales rep, you can also track forecasts to know how you are doing toward the quota or targets that are set for you.
-
-
-<!--editor question: Should "forecast" be capitalized like the other roles? -->
 
 
 1.	Make sure you have the Sales Manager, Sales person, or Forecast user role or equivalent permissions.
