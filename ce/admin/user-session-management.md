@@ -14,7 +14,7 @@ ms.assetid: 599f849d-c4cb-4b1c-84a0-9fde48a1601a
 caps.latest.revision: 59
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -26,23 +26,6 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can use security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. 
-
-<!--
-> [!IMPORTANT]
-> These security enhancements are also available for:
->
-> - Microsoft Dynamics CRM 2016 (on-premises, version 8.2) <br />
->   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
-> - Microsoft Dynamics CRM 2016 (on-premises, version 8.1) <br />
->   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
-> - Microsoft Dynamics CRM 2015 (on-premises) <br />
->   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
-> 
-> For more information on these versions, see [Security enhancements: User session and access management](https://technet.microsoft.com/library/mt825191.aspx)
-
-> [!TIP]
-> ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Security Enhancements: User session management](https://youtu.be/9eR8hP6S-YM).  
--->
 
 ## User session timeout management
 
@@ -127,89 +110,3 @@ The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps portal has its 
 
 - To enforce users to re-authenticate, users are required to sign in with their credentials after they signed out within the application. 
 - To prevent users from sharing credentials to access [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the user access token is validated to ensure that the user who was given access by the identity provider is the same user who is accessing [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
-
-<!--
-## Steps for enabling security enhancements for Dynamics 365 for Customer Engagement apps (on-premises) deployments
-
-These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when using one of the supported Dynamics 365 for Customer Engagement apps (on-premises) builds listed below.
-
-> [!NOTE]
-> This applies to customers with the following versions of Dynamics 365 for Customer Engagement:
-> - Microsoft Dynamics CRM 2016 (on-premises, version 8.2) <br />
->   The feature is included in [this update](https://support.microsoft.com/help/4046795/microsoft-dynamics-365-online-and-on-premises-update-2-2).
-> - Microsoft Dynamics CRM 2016 (on-premises, version 8.1) <br />
->   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
-> - Microsoft Dynamics CRM 2015 (on-premises) <br />
->   The feature is available by [contacting support](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
-> 
-> **Requirement**
-> These security enhancement features require claims-based authentication for user authentication. You can configure claims-based authentication in one of two ways:
-> - With an Internet-facing deployment (IFD). See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).
-> - With claims-based authentication alone if Microsoft Dynamics 365 for Customer Engagement apps is deployed in the same domain where all Microsoft Dynamics 365 for Customer Engagement apps users are located, or users are in a trusted domain. See [Configure claims-based authentication](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn920270(v=crm.8)).
-
-To obtain SDK sample code (for reference, not required to configure and enable session timeout):
-
-1. Access your Dynamics 365 for Customer Engagement server using your administrator account.
-2. Open a browser session and download the [Dynamics 365 for Customer Engagement apps Software Development Kit (SDK)](https://www.microsoft.com/download/details.aspx?id=50032).
-3. Select and run **MicrosoftDynamics365SDK.exe**. This will extract the download and create an SDK folder on your Dynamics 365 for Customer Engagement server.
-4. Open a PowerShell command prompt.
-5. Navigate to the downloaded SDK folder.
-6. Open the SampleCode\PS folder.
-
-After updating to a supported on-premises version, follow the steps below to enable security enhancements.
-
-
-### User session timeout
-
-System admins can now force users to re-authenticate after a set period.  You can set an active session timeout for each of your Dynamics 365 for Customer Engagement instances.  Users can only remain signed in to the application for the duration of the session.  Once the session expires, they’ll need to sign in again with their credentials.  System admins can also require sign in for users after a period of inactivity.  You can set an inactivity timeout for each of your instances.  The helps prevent unauthorized access by a malicious user from an unattended device. 
-
-**Enable user session timeout**
-
-  1. Enable session timeout:
-     ```    
-     SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName AllowCustomSessionDuration -SettingValue true
-     ```
-
-  2. Enable inactivity timeout:
-     ``` 
-     SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName AllowCustomInactivityDuration -SettingValue true
-     ```
-
-### Access token management
-
-To better protect user access and data privacy in Dynamics 365 for Customer Engagement, when a user signs out in the web client and needs to return to the application, they will need to enter their credentials again in all open browser sessions. Dynamics 365 for Customer Engagement apps ensures that the sign-in token was originally generated for the current browser and computer.
-
-**Enable access token management**
-
-To enable for all organizations by default, copy and run this command in PowerShell:
-
-```    
-SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName WSFedNonceCookieEnabled -SettingValue true
-```
-
-Sample:
-
-![SetAdvancedSettings.ps1](media/ps_setadvancedsettings.png)
-
--OR- 
-
-To enable for a single organization, copy and run this command in PowerShell:
-
-```
-SetAdvancedSettings.ps1 -ConfigurationEntityName Organization -SettingName WSFedNonceCookieEnabled -SettingValue true -Id <Your organization ID GUID>
-```
-To get [Your organization ID GUID], open PowerShell, and run the following:
-
-```
-Add-PSSnapin Microsoft.Crm.PowerShell 
-Get-CrmOrganization
-```
-        
-Sample:
-
-![Example Organization ID](media/ps_orgid.png)
-
-For more information, see [Get-CrmOrganization](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn833066(v=crm.8)) for details.
-
--->
-
