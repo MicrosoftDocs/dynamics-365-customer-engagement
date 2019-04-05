@@ -59,7 +59,7 @@ To see the activities created by the playbook when the **Track progress** field 
    The Open Activity Associated View lists all the activities for the calling record along with the playbook activities created since the playbook was launched. However, this view doesn't show the total number of activities that have been created in the context of a playbook. 
 
 
-## Preview: View or download documents associated with an activity
+## View or download documents associated with an activity
 
 If a sales manager has added sales brochures or training docs to a playbook activity, as a sales rep you can refer to these docs while you are working on the activity to ensure you can quickly access any details you need.
 

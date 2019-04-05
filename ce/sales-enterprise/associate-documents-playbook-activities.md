@@ -34,7 +34,7 @@ For example, create a playbook template that sales reps can follow when the deci
 
 ## Prerequisites
 
-So that you can add documents, make sure that document management for the playbook activity entity is enabled. Document Management must also be enabled for playbook activity and all the entities to which documents must be copied, that is, task, appointment, and phone call.[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](../admin/enable-sharepoint-document-management-specific-entities.md), [Set up SharePoint integration](../admin/set-up-sharepoint-integration.md).
+So that you can add documents, make sure that document management for the playbook activity entity is enabled. Document Management must also be enabled for playbook activity and all the entities to which documents must be copied, that is, task, appointment, and phone call. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](../admin/enable-sharepoint-document-management-specific-entities.md), [Set up SharePoint integration](../admin/set-up-sharepoint-integration.md).
 
 ## Add documents 
 
