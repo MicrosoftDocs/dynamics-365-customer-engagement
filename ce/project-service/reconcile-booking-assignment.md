@@ -25,9 +25,9 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-For project team members, their bookings to the project and project task assignments are loosely coupled. This means that resources can have assignments without corresponding bookings and bookings without task assignments. Ideally, a project manager would like bookings and assignments to be aligned so that resources have committed capacity to perform their task assignments. However, the reality is that bookings may happen based on availability and task timings may change as the project continues on in its lifecycle. Because of this loose coupling of bookings and assignments to allow for flexibility, PSA has a tab on the project entity called the Reconciliation View to assist project managers to be able to reconcile team member bookings and their assignments for their project team. 
+A project team member's project bookings and project task assignments are loosely coupled. This means that a resource can have and assignment that doesn't correspond to bookings and bookings that don't correspond to task assignments. Ideally, project bookings and assignments are aligned so that resources have committed capacity to perform their task assignments. However, the reality is that bookings may happen based on availability and task timings may change as the project continues through its lifecycle. Because of the loose coupling of bookings and assignments to allow for flexibility, Dynamics 365 for Project Service Automation (PSA) has a tab on the Project entity called Reconciliation view. This view assists project managers in reconciling team member bookings and their assignments for their project team. 
 
-You can get to the Reconciliation View for a project by clicking the Reconciliation tab on the project entity. 
+On the Project entity, click the **Reconciliation** tab to open the Reconciliation view.
  
 GRAPHIC 
  
