@@ -32,9 +32,9 @@ Field Service organizations often travel to their customers' locations to perfor
 
 Using Bing Maps API by default, Dynamics 365 for Field Service calculates the driving travel time and distance as field technicians travel:
 
-1. from home to a work order location
-2. from a company location to a work order location
-3. from the current work order location to the next work order location
+1. from their personal address to a work order location
+2. from a company address to a work order location
+3. from their current work order location to the next work order location
 4. from their current location to a work order location (typically for high priority emergencies)
 
 In this article, let's explore how travel time and distance is calculated and visualized for dispatchers during manual scheduling, semi-automated scheduling with the schedule assistant, and automated scheduling with resource scheduling optimization (RSO).
