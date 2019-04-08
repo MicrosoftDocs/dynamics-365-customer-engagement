@@ -48,7 +48,6 @@ search.app:
 
 ## Add travel time with manual scheduling
 
-- Add travel when manually scheduling
   - show travel time on schedule board
   - actual travel duration
 
@@ -56,11 +55,11 @@ search.app:
 
 
 ## Add travel time with resource scheduling optimization (RSO)
-- travel time with resource scheduling optimization
+
   - leave time to travel home
 
 ## Consider traffic when scheduling
-- consider traffic
+
   - display traffic on the schedule board
   - real time traffic is not supported
   - bing maps api cna use historical information
@@ -68,6 +67,7 @@ search.app:
 ## Configuration considerations
 - travel charge
 - real time location travel time
+
 ## Additional Notes
 - consider processes to support what happens if travel time is long and technician is running late
 - travel time is only driving time, not walking or flying
