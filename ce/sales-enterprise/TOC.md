@@ -66,8 +66,6 @@
 
  
 ## [Embedded intelligence](../sales-enterprise/embedded-intelligence.md)
-### [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
-#### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
 ### [Administrator guide](../sales-enterprise/configure-enable-embedded-intelligence.md)
 
 ### User guide

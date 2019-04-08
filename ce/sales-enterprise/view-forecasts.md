@@ -77,12 +77,12 @@ Track your forecasts to project what a sales person, team, or organization will 
 
 ## Forecasts and sales hierarchy
 
-Forecasts are shown based on the sales team hierarchy. For example, if Tonya Cortez is a sales manager with five people reporting directly to her, and she is set as a manager in her direct reports' user records, she will see a forecast for herself and her five direct reports. 
+Forecasts are shown based on the sales team hierarchy. For example, if Wade Roque is a sales manager with five people reporting directly to him, and he is set as a manager in his direct reports' user records, he will see a forecast for himself and his five direct reports. 
 
 > [!div class="mx-imgBorder"]
 > ![Forecasts for a manager and direct reports](media/forecast-for-team-hierarchy.png "Forecasts for a manager and direct reports")
 
-If Tonya reports to Bert Hair, Bert will see his own forecasts along with Tonya's rolled-up forecast. Bert will not see the forecasts of Tonya's direct reports.
+If Wade Roque reports to Bert Hair, Bert will see his own forecasts along with Wade's rolled-up forecast. Bert will not see the forecasts of Wade's direct reports.
 
 To see the forecast for everyone in the hierarchy, expand a specific forecast.
 
