@@ -86,3 +86,42 @@ To fix *Documents Associated grid not loading*, follow these steps:
 </grid>
 ```  
 
+10. Make the changes as below for the FetchXml section.
+
+```  
+<fetch distinct="false" mapping="logical">
+  <entity name="sharepointdocument">
+  <attribute name="documentid" />
+  <attribute name="fullname" />
+  <attribute name="relativelocation" />
+  <attribute name="sharepointcreatedon" />
+  <attribute name="ischeckedout" />
+  <attribute name="filetype" />
+  <attribute name="modified" />
+  <attribute name="sharepointmodifiedby" />
+  <attribute name="servicetype" />
+  <attribute name="absoluteurl" />
+  <attribute name="title" />
+  <attribute name="author" />
+  <attribute name="sharepointdocumentid" />
+  <attribute name="readurl" />
+  <attribute name="editurl" />
+  <attribute name="locationid" />
+  <attribute name="iconclassname" />
+  <order attribute="relativelocation" descending="false" />
+  <filter>
+  <condition attribute="isrecursivefetch" operator="eq" value="0" />
+  </filter>
+  </entity>
+  </fetch>
+```  
+
+11. Save the file.
+12. Zip the folder.
+13. Open Dynamics.
+14. Navigate to **Settings** > **Solutions**
+15. Import the solution (zipped file in Step 12).
+16. Publish all customizations.
+17. Verify the Document associated grid is displaying in all the required SharePoint documents.
+
+
