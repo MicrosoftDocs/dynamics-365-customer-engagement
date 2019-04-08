@@ -103,7 +103,7 @@
 ##### [msdyn_playbooktemplate](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbooktemplate.md)
 ##### [msdyn_callablecontext](../sales-enterprise/developer/reference/playbooks-entities/msdyn_callablecontext.md)
 ### Action Reference
-#### [RecalculatePrice Action](../sales-enterprise/reference/recalculateprice-action.md)
+#### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
 ## Troubleshooting
 ### [Troubleshooting guide for sales people](troubleshooting.md)
