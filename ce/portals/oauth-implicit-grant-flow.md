@@ -24,9 +24,9 @@ search.app:
 
 # Use OAuth 2.0 Implicit grant flow within your portal 
 
-This feature allows a customer to make client-side calls to external APIs and secure them by using OAuth Implicit grant flow. It provides an endpoint to obtain secure access tokens that will contain user identity information to be used by external APIs for authorization following OAuth 2.0 Implicit grant flow. The identity information of a logged in user is passed in a secured manner to the external AJAX calls. This would not only help developers to pass authentication context but will also help users to secure their API's by using this mechanism.
+This feature allows a customer to make client-side calls to external APIs and secure them by using OAuth Implicit grant flow. It provides an endpoint to obtain secure access tokens that will contain user identity information to be used by external APIs for authorization following OAuth 2.0 Implicit grant flow. The identity information of a signed-in user is passed in a secured manner to the external AJAX calls. This would not only help developers to pass authentication context but will also help users to secure their APIs by using this mechanism.
 
-OAuth 2.0 Implicit grant flow supports endpoints that a client can call to get ID token. There are two endpoints that are used for this purpose: [authorize](#authorize-endpoint-details) and [token](#token-endpoint-details).
+OAuth 2.0 Implicit grant flow supports endpoints that a client can call to get an ID token. Two endpoints are used for this purpose: [authorize](#authorize-endpoint-details) and [token](#token-endpoint-details).
 
 ## Authorize endpoint details 
 
@@ -34,19 +34,24 @@ When your portal needs to authenticate the user and execute a user flow, it dire
 
 | Parameter   | Required? | Description                             |
 |---------------|-----------|---------------------------------------|
-| client_id      | Yes       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is [registered with portal](#register-client-id-for-implicit-grant-flow), otherwise an error is displayed. Client ID is added in claims in the token as `aud` as well as `appid` parameter and can be used by clients to validate that token returned is for their app.<br>The maximum length is 36 characters. Only alphanumeric characters and hyphen are supported. |
+| client_id      | Yes       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is [registered with the portal](#register-client-id-for-implicit-grant-flow). Otherwise, an error is displayed. Client ID is added in claims in the token as `aud` as well as `appid` parameter and can be used by clients to validate that the token returned is for their app.<br>The maximum length is 36 characters. Only alphanumeric characters and hyphens are supported. |
 | redirect_uri      | Yes       | URL of the portal where authentication responses can be sent and received. It must be registered for the particular `client_id` used in the call and should be exactly the same value as registered.            |
-| state       | No        | A value included in the request that also is returned in the token response. It can be a string of any content that you want to use. Usually, a randomly generated, unique value is used, to prevent cross-site request forgery attacks.<br>The maximum length is 20 characters.              |
+| state       | No        | A value included in the request that also is returned in the token response. It can be a string of any content that you want to use. Usually, a randomly generated, unique value is used to prevent cross-site-request forgery attacks.<br>The maximum length is 20 characters.              |
 | nonce   | No        | A string value sent by the client that is included in the resulting ID token as a claim. The client can then verify this value to mitigate token replay attacks. The maximum length is 20 characters.      |
 | response_type         | No        | This parameter supports only `token` as a value. This allows your app to immediately receive an access token from the authorize endpoint, without making a second request to the authorize endpoint.                               |
 |||
 
-The authorize endpoint must not be CORS enabled. This means that any client-side script from another host should not be able to make calls to them. This will help in preventing any cross-domain attacks which can lead to token being compromised.
+
+<!--from editor: What does the acronym CORS stand for?-->
+
+
+The authorize endpoint must not be CORS-enabled. This means that any client-side script from another host should not be able to make calls to them. This will help in preventing any cross-domain attacks that can lead to a token being compromised.
 
 ### Successful response
 
 The authorize endpoint returns the following values in the response URL as a fragment:
-- **token**: Token is returned as a JSON Web Token (JWT) digitally signed by portal’s private key.
+
+- **token**: Token is returned as a JSON Web Token (JWT) digitally signed by the portal’s private key.
 - **state**: If a state parameter is included in the request, the same value should appear in the response. The app should verify that the state values in the request and response are identical.
 - **expires_in**: The length of time that the access token is valid (in seconds).
 
@@ -58,6 +63,10 @@ GET https://aadb2cplayground.azurewebsites.net/#token=eyJ0eXAiOiJKV1QiLCJhbGciOI
 
 ### Error response
 
+
+<!--from editor: Looks like Correlation ID needs a definition. Otherwise, remove the colon.-->
+
+
 The error in authorize endpoint is returned as a JSON document with the following values:
 
 - **Error ID**: Unique identifier of the error.
@@ -65,7 +74,7 @@ The error in authorize endpoint is returned as a JSON document with the followin
 - **Correlation ID**: 
 - **Timestamp**: Date and time when the error is generated.
 
-Error message is displayed in the default language of the logged in user. If the user is not logged in, login page is displayed for the user to log in. 
+The error message is displayed in the default language of the signed-in user. If the user is not signed in, the sign-in page is displayed for the user to sign in. 
 For example, an error response looks as follows:
 
 ```
@@ -78,14 +87,14 @@ You can also get a token by making a request to the `/token` endpoint. It is dif
 
 | Parameter   | Required? | Description                             |
 |---------------|-----------|---------------------------------------|
-| client_id      | No       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is [registered with portal](#register-client-id-for-implicit-grant-flow), otherwise an error is displayed. Client ID is added in claims in the token as `aud` as well as `appid` parameter and can be used by clients to validate that token returned is for their app.<br>The maximum length is 36 characters. Only alphanumeric characters and hyphen are supported. |
+| client_id      | No       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is [registered with the portal](#register-client-id-for-implicit-grant-flow). Otherwise, an error is displayed. Client ID is added in claims in the token as `aud` as well as `appid` parameter and can be used by clients to validate that the token returned is for their app.<br>The maximum length is 36 characters. Only alphanumeric characters and hyphen are supported. |
 | redirect_uri      | No       | URL of the portal where authentication responses can be sent and received. It must be registered for the particular `client_id` used in the call and should be exactly the same value as registered.            |
-| state       | No        | A value included in the request that also is returned in the token response. It can be a string of any content that you want to use. Usually, a randomly generated, unique value is used, to prevent cross-site request forgery attacks.<br>The maximum length is 20 characters.              |
+| state       | No        | A value included in the request that also is returned in the token response. It can be a string of any content that you want to use. Usually, a randomly generated, unique value is used to prevent cross-site-request forgery attacks.<br>The maximum length is 20 characters.              |
 | nonce   | No        | A string value sent by the client that is included in the resulting ID token as a claim. The client can then verify this value to mitigate token replay attacks. The maximum length is 20 characters.      |
 | response_type         | No        | This parameter supports only `token` as a value. This allows your app to immediately receive an access token from the authorize endpoint, without making a second request to the authorize endpoint.                               |
 |||
 
-The token endpoint must not be CORS enabled. This means that any client-side script from another host should not be able to make calls to them. This will help in preventing any cross-domain attacks which can lead to token being compromised.
+The token endpoint must not be CORS-enabled. This means that any client-side script from another host should not be able to make calls to them. This will help in preventing any cross-domain attacks that can lead to the token being compromised.
 
 ### Successful response
 
@@ -93,14 +102,19 @@ The token endpoint returns state and expires_in as response headers, and token i
 
 ### Error response
 
-The error in token endpoint is returned as a JSON document with the following values:
+The error in a token endpoint is returned as a JSON document with the following values:
+
+
+
+<!--from editor: Looks like Correlation ID needs a definition. Otherwise, remove the colon.-->
+
 
 - **Error ID**: Unique identifier of the error.
 - **Error message**: A specific error message that can help you identify the root cause of an authentication error.
 - **Correlation ID**: 
 - **Timestamp**: Date and time when the error is generated.
 
-Error message is displayed in the default language of the logged in user. If the user is not logged in, login page is displayed for the user to log in. 
+The error message is displayed in the default language of the signed-in user. If the user is not signed in, a sign-in page is displayed for the user to sign in. 
 For example, an error response looks as follows:
 
 ```
@@ -109,11 +123,11 @@ For example, an error response looks as follows:
 
 ## Validate ID token
 
-Just getting an ID token is not sufficient to authenticate the user; you must also validate the token's signature and verify the claims in the token based on your app's requirements. The public token endpoint provides the public key of the portal which can be used to validate the signature of the token provided by the portal. The URL for public token endpoint is: `<portal_url>/_services/auth/publickey`.
+Just getting an ID token is not sufficient to authenticate the user; you must also validate the token's signature and verify the claims in the token based on your app's requirements. The public token endpoint provides the public key of the portal, which can be used to validate the signature of the token provided by the portal. The URL for public token endpoint is: `<portal_url>/_services/auth/publickey`.
 
 ## Turn Implicit grant flow on or off
 
-By default, implicit grant flow is enabled. If you want to turn off implicit grant flow, set the value of the **Connector/ImplicitGrantFlowEnabled** site setting to **False**.
+By default, Implicit grant flow is enabled. If you want to turn off Implicit grant flow, set the value of the **Connector/ImplicitGrantFlowEnabled** site setting to **False**.
 
 ## Configure token validity
 
@@ -121,11 +135,11 @@ By default, the token is valid for 15 minutes. If you want to change the validit
 
 ## Register client ID for Implicit grant flow
 
-You must register the client ID with portal for which this flow is allowed. To register a client ID, you must create the following site settings:
+You must register the client ID with the portal for which this flow is allowed. To register a client ID, you must create the following site settings:
 
 |Site setting|Value|
 |------|------|
-|ImplicitGrantFlow/RegisteredClientId|The valid client ID values that are allowed for this portal. The values must be separated by semicolon and can contain alphanumeric characters and hyphen. The maximum length is 36 characters.|
-|ImplicitGrantFlow/{ClientId}/RedirectUri|The valid redirect URIs that are allowed for a specific client ID. The values must be separated by semicolon. The URL provided must be of a valid web page of the portal.|
+|ImplicitGrantFlow/RegisteredClientId|The valid client ID values that are allowed for this portal. The values must be separated by a semicolon and can contain alphanumeric characters and hyphens. The maximum length is 36 characters.|
+|ImplicitGrantFlow/{ClientId}/RedirectUri|The valid redirect URIs that are allowed for a specific client ID. The values must be separated by a semicolon. The URL provided must be of a valid web page of the portal.|
 |||
 
