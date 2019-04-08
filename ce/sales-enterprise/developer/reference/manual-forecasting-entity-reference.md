@@ -34,6 +34,4 @@ Use this reference to understand the available operations that can be performed 
 ### See also
 
 [Custom actions for manual forecasting](custom-actions-manual-forecasting.md)<br />
-[Project accurate revenue with sales forecasting](../../project-accurate-revenue-sales-forecasting.md)<br />
-[Capture forecast category for opportunity](../../capture-forecast-category-opportunity.md)<br />
-[View forecasts](../../view-forecasts.md)
+[Project accurate revenue with sales forecasting](../../project-accurate-revenue-sales-forecasting.md)

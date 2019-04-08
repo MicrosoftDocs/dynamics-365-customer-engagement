@@ -1,1 +1,1 @@
-Stores attribute names and values of the playbook activity.
+Stores attribute names and values of the playbook activity. For internal use only.

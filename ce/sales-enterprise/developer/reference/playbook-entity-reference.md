@@ -27,12 +27,10 @@ Use this reference to understand the available operations that can be performed 
 |[msdyn_playbookcategory](playbooks-entities/msdyn_playbookcategory.md)|[!INCLUDE[msdyn_playbookcategory-description](includes/msdyn_playbookcategory-description.md)]|
 |[msdyn_playbookactivity](playbooks-entities/msdyn_playbookactivity.md)|[!INCLUDE[msdyn_playbookactivity-description](includes/msdyn_playbookactivity-description.md)]|
 |[msdyn_playbookactivityattribute](playbooks-entities/msdyn_playbookactivityattribute.md)|[!INCLUDE[msdyn_playbookactivityattribute-description](includes/msdyn_playbookactivityattribute-description.md)]|
-|[msdyn_playbookcategory](playbooks-entities/msdyn_playbookcategory.md)|[!INCLUDE[msdyn_playbookcategory-description](includes/msdyn_playbookcategory-description.md)]|
+|[msdyn_playbooktemplate](playbooks-entities/msdyn_playbooktemplate.md)|[!INCLUDE[msdyn_playbooktemplate-description](includes/msdyn_playbooktemplate-description.md)]|
 |[msdyn_callablecontext](playbooks-entities/msdyn_callablecontext.md)|[!INCLUDE[msdyn_callablecontext-description](includes/msdyn_callablecontext-description.md)]|
 
 ### See also
 
 [Developer Guide for Sales](../developer-guide.md)<br />
-[Enforce best practices with playbooks](../../enforce-best-practices-playbooks.md)<br />
-[Launch a playbook to carry out activities consistently](../../launch-playbook.md)<br />
-[Track playbook activities](../../track-playbook-activities.md)
+[Enforce best practices with playbooks](../../enforce-best-practices-playbooks.md)
