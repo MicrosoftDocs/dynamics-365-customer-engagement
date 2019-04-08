@@ -44,17 +44,26 @@ search.app:
 
 ## instructions
 
+## Visualize travel time on the schedule board
+
+## Add travel time with manual scheduling
+
 - Add travel when manually scheduling
   - show travel time on schedule board
   - actual travel duration
-- Use travel time with schedule assistant
+
+## Add travel time with schedule assistant
+
+
+## Add travel time with resource scheduling optimization (RSO)
 - travel time with resource scheduling optimization
   - leave time to travel home
 
+## Consider traffic when scheduling
 - consider traffic
   - display traffic on the schedule board
   - real time traffic is not supported
-  - bing maps api cna use histroical information
+  - bing maps api cna use historical information
 
 ## Configuration considerations
 - travel charge
