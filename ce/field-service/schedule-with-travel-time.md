@@ -45,12 +45,19 @@ search.app:
 ## instructions
 
 - Add travel when manually scheduling
+  - show travel time on schedule board
+  - actual travel duration
 - Use travel time with schedule assistant
 - travel time with resource scheduling optimization
+  - leave time to travel home
 
-- consider traffic 
+- consider traffic
+  - real time traffic is not supported
 
 ## Configuration considerations
+- travel charge
+- real time location travel time
 ## Additional Notes
 - travel time is only driving time, not walking or flying
+- historical travel time is currently not included
 - can use other map services for travel time calculations
