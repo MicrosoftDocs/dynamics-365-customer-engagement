@@ -52,15 +52,15 @@ The most common cause for *Documents Associated Grid not to load* is the corrupt
 
 To fix *Documents Associated grid not loading*, follow these steps:
 
-1. Go to Settings-> Customizations -> Solutions -> create a solution (named SharePointDocumentSolution) -> add SharePoint Document Entity (select all fields , forms, views)
-2. Save and close
-3. Publish All customizations.
+1. Go to **Settings** > **Customizations** > **Solutions**. Create a solution (named SharePointDocumentSolution). Add SharePoint Document Entity (select all fields , forms, views).
+2. Select **Save** and **Close**.
+3. Publish all customizations.
 4. Select the created (SharePointDocumentSolution) solution.
 5. Export the solution. (SharePointDocumentSolution.zip will be downloaded) 
-6. Extract the zip file (downloaded file from step “e”)
-7. Browse the folder, Locate and Open customization.xml
-8. Search LayoutXml of Document Associated Grid(search for Document Associated)
-9. Make the changes as below.
+6. Extract the zip file (downloaded file from Step 5).
+7. Browse the folder, locate and open customization.xml.
+8. Search LayoutXml of Document Associated Grid (search for Document Associated).
+9. Make the changes as below:
 
 ```  
 <grid name="sharepointdocument" object="9507" jump="fullname" select="1" icon="0" preview="1">
@@ -86,7 +86,7 @@ To fix *Documents Associated grid not loading*, follow these steps:
 </grid>
 ```  
 
-10. Make the changes as below for the FetchXml section.
+10. Make the changes as below for the FetchXml section:
 
 ```  
 <fetch distinct="false" mapping="logical">
@@ -118,7 +118,7 @@ To fix *Documents Associated grid not loading*, follow these steps:
 
 11. Save the file.
 12. Zip the folder.
-13. Open Dynamics.
+13. Open Dynamics 365 for Customer Engagement.
 14. Navigate to **Settings** > **Solutions**
 15. Import the solution (zipped file in Step 12).
 16. Publish all customizations.
