@@ -143,7 +143,7 @@ By default, the file size is set to 10 MB. However, you can configure the file s
 
 This sample provides exact steps and configuration values to enable document management on the Case entity in Community portal.
 
-1.	Follow the instructions in [Step 1](step-1-enable-document-management-functionality-in-dynamics-365-for-customer-engagement-apps) to ensure that server-based configuration is complete for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration.
+1.	Follow the instructions in [Step 1](#step-1-enable-document-management-functionality-in-dynamics-365-for-customer-engagement-apps) to ensure that server-based configuration is complete for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] integration.
 
 2.	Follow the instructions in [Step 2](#step-2-set-up-sharepoint-integration-from-portal-admin-center) to ensure that the portal has permissions to integrate with [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)]. 
 
