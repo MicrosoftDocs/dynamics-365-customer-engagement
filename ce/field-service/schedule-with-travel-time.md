@@ -52,12 +52,15 @@ search.app:
   - leave time to travel home
 
 - consider traffic
+  - display traffic on the schedule board
   - real time traffic is not supported
+  - bing maps api cna use histroical information
 
 ## Configuration considerations
 - travel charge
 - real time location travel time
 ## Additional Notes
+- consider processes to support what happens if travel time is long and technician is running late
 - travel time is only driving time, not walking or flying
 - historical travel time is currently not included
 - can use other map services for travel time calculations
