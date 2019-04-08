@@ -2,7 +2,7 @@
 title: "What's new in Dynamics 365 for Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 for Sales."
 keywords: "what's new, Dynamics 365 for Sales"
-ms.date: 10/16/2018
+ms.date: 04/08/2019
 ms.service:
   - "crm-online"
 ms.topic: article
@@ -24,24 +24,26 @@ topic-status: Drafting
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Visit this page to see what’s added or updated recently. 
 
-## Dynamics 365 for Sales, version 9.2
+## Dynamics 365 for Sales, April 2019 release
 
--  This version of Dynamics 365 for Sales introduces forecasting, a new capability to help organizations to provide the necessary insights into how they can manage their workforce, cash flow, and resources. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Project accurate revenue with forecasting](project-accurate-revenue-sales-forecasting.md)
+-  Dynamics 365 for Sales (build 9.1.0.4023) introduces forecasting, a new capability to help organizations to provide the necessary insights into how they can manage their workforce, cash flow, and resources.
+Sales managers and sales people can use forecasting to project how much a sales team can sell or to estimate the revenue of the organization. Sales people can use forecasting to prevent deals from slipping away by spotting pipeline risks and tracking how they are performing against their targets.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Project accurate revenue with forecasting](project-accurate-revenue-sales-forecasting.md)
 
-## Dynamics 365 for Sales, Dynamics 365 for Customer Engagement apps, version 9.1
+    > [!IMPORTANT]
+    > This feature is currently in preview. To know more about the feature's availability in your region, see [When will the April 2019 features be enabled for customers who did not opt in to the preview?](/power-platform/admin/preview-april-2019-updates#when-will-the-april-2019-features-be-enabled-for-customers-who-did-not-opt-in-to-the-preview)
 
-- Dynamics 365 for Sales app version 9.1.0.4023 introduces forecasting that lets sales managers and sales people project how much a sales team can sell or to estimate the revenue of the organization. Sales people can use forecasting to prevent deals from slipping away by spotting pipeline risks and tracking how they are performing against their targets.
+- With Dynamics 365 for Sales (build 9.1.0.3806), playbooks can be created for Account and Contact record types in the Sales Hub app (Unified Interface), in addition to the existing record types that are currently supported.
 
-  > [!IMPORTANT]
-  > To know more about the feature's availability in your region, see [When will the April 2019 features be enabled for customers who did not opt in to the preview?](/power-platform/admin/preview-april-2019-updates#when-will-the-april-2019-features-be-enabled-for-customers-who-did-not-opt-in-to-the-preview)
-
-- With Dynamics 365 for Sales app version 9.1.0.3647, sales managers can associate necessary documents with Playbook activities to provide additional contextual information to sales representatives working on a playbook.
+- With Dynamics 365 for Sales (build 9.1.0.3647), sales managers can associate necessary documents with Playbook activities to provide additional contextual information to sales representatives working on a playbook.
 
 
   > [!IMPORTANT]
   > This feature is being released in a phased manner. To know more about the feature's availability in your region, see [When will the April 2019 features be enabled for customers who did not opt in to the preview?](/power-platform/admin/preview-april-2019-updates#when-will-the-april-2019-features-be-enabled-for-customers-who-did-not-opt-in-to-the-preview)
 
-- With [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] apps version 9.1.0.3806, playbooks can be created for Account and Contact record types in the Sales Hub app (Unified Interface), in addition to the existing record types that are currently supported.
+
+## Dynamics 365 for Sales, Dynamics 365 for Customer Engagement apps, version 9.1
+
+
 
 -  Dynamics 365 for Sales introduces Playbook, a new capability to help organizations automate repeatable sales activities and respond to external events. It provides proactive and predictive event-driven guidance that can suggest the next best actions and surface relevant activities to successfully respond to external events. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enforce best bractices with playbooks](enforce-best-practices-playbooks.md)
 
