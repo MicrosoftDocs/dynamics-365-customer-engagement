@@ -40,8 +40,12 @@ Using Bing Maps API by default, Dynamics 365 for Field Service calculates the dr
 In this article, let's explore how travel time and distance is calculated and visualized for dispatchers during manual scheduling, semi-automated scheduling with the schedule assistant, and automated scheduling with resource scheduling optimization (RSO).
 
 ## Prerequisites
-- connect to maps
-- geocoding
+- [Connect to Bing Maps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to connect your Dynamics 365 environment to Bing Maps in order to locate resources (field technicians) and work orders, and later calculate the travel time and distances between them.
+   
+- [Set auto geo code addresses to **yes**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geo code accounts and work orders when addresses are entered. Geo coding an account or work order record populates latitude and longitude values, which are required for travel time and distance calculations.
+
+- Resources (field technicians) must have geo coded starting/ending locations in order to calculate travel times and distances from their starting location to work orders and all on site requirements. See the topics on [setting up bookable resources](./set-up-bookable-resources.md) and using [resource types to locate resources](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
+
 - resources with locations
 - requirements with locations
   - work location is on site
