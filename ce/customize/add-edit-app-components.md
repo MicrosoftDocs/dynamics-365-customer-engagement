@@ -50,7 +50,7 @@ The app designer refers to existing metadata in the default solution. You can us
  When you add a dashboard or business process flow to an app, the entities they use are automatically added to the app. When you add an entity, the tiles for its assets are automatically added. There are two ways you can add artifacts to the designer canvas: by using the **Add** button ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") on the command bar or by using the tiles on the **Components** tab.  
 
 > [!NOTE]
-> Unlike business process flows, you don't add task flows to an app.  For more information about task flows, see [Create a mobile task flow](create-mobile-task-flow.md). 
+> Unlike business process flows, you don't add task flows to an app.  For more information about task flows, see [Create a mobile task flow](create-mobile-task-flow.md). Also, task flows are not app aware. When you activate task flows, they become available across all model driven apps.
   
  Here are the steps for adding a dashboard to the app. Use the same steps to add a business process flow or entity.  
   

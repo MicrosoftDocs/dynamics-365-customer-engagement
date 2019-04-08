@@ -1,12 +1,12 @@
 ---
 title: Use the Project Service Add-in to plan your work in Microsoft Project | MicrosoftDocs
-description: How to add, configure, and use the Microsoft Project add-in for Project Service
-author: JohnPBurrows
+description: This topic provides information about how to add, configure, and use the Microsoft Project add-in for Microsoft Project Service.
+author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 7/30/2018
+ms.date: 04/06/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -37,11 +37,11 @@ search.app:
 ## Download and install the add-in  
  Have your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sign-in information ready. You will need this information to connect from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  From the download center you can, [download the add-in](https://go.microsoft.com/fwlink/?linkid=828268).  
+1.  From the download center you can, download the add-in for your supported version of Project Service, either [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) or [V3.4+](https://www.microsoft.com/en-us/download/details.aspx?id=57956).  
 
 2.  Click the download link.  
 
-3.  Once the download is complete, click **Yes** to install the add-in.  
+3.  When the download is complete, click **Yes** to install the add-in.  
 
 ## Configure the add-in  
 

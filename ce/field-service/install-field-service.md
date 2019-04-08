@@ -124,7 +124,7 @@ The mobile project template contains all customizations for the Field Service Mo
 
 3. Register yourself as a user.
 
-4. [Download mobile project for **Field Service Mobile** (latest) Field Service v7.5.5 and v8.2+](https://aka.ms/fsmobile-project) and save in a location other than the Downloads folder.
+4. [Download mobile project for **Field Service Mobile** (latest) Field Service v7.5.5 and v8.2+](https://aka.ms/fsmobile-project) and save in a location other than the Downloads folder. NOTE: If you have an existing mobile project from a previous app version, you will need to manually move the customizations for that project into a derivative of this project.
 
 - The mobile project is updated periodically; [bookmark this website](https://aka.ms/fsmobile-project) for regular access the latest mobile project.
 

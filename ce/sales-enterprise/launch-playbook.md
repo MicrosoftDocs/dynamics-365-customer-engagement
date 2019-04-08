@@ -4,7 +4,7 @@ description: "Playbooks lets you consistently perform recurrent business process
 keywords: "playbook, launch, run, report"
 ms.date: 02/20/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
   - "dyn365-sales"
 ms.topic: article
@@ -24,7 +24,7 @@ topic-status: Tech Reviewing
 
 # Launch a playbook to carry out activities consistently
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.x
 
 To ensure consistency in your business process or to know what steps to follow in certain scenarios or events, rely on the playbooks prepared by your managers that guide you with the actions you can take. Playbooks can also contain best practices based on practices that have worked in similar situations before.
 
