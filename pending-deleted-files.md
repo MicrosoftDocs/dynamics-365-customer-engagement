@@ -18,5 +18,6 @@ ce/developer/xrm-tooling/configure-tracing-xrm-tooling.md
 ce/developer/xrm-tooling/sample-quick-start-xrm-tooling-api.md
 ce/developer/xrm-tooling/sample-simplified-connection-quick-start.md
 ce\customer-insights\preview-retire.md
+ce\sales-enterprise/developer-guide.md
 
 These files have been deleted, but the list hasn't been communicated to loc yet.
