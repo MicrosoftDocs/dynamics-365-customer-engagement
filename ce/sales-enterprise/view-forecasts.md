@@ -138,5 +138,6 @@ Apart from manual recalculation, the system also recalculates automatically at a
 
 
 ## See also
-[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
-[Create a forecast definition](create-forecast-definition.md)
+[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br />
+[Create a forecast definition](create-forecast-definition.md)<br />
+[Entity reference for manual forecasting](developer/reference/manual-forecasting-entity-reference.md)
