@@ -1,36 +1,38 @@
 ---
-title: "ContractDetail Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "ContractDetail Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ContractDetail entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # ContractDetail Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Line item in a contract that specifies the type of service a customer is entitled to.
 
-**Added by**: Service Solution<br />
+**Added by**: Service Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/contractdetails<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/contractdetails(*contractdetailid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/contractdetails(*contractdetailid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/contractdetails<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/contractdetails(*contractdetailid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/contractdetails(*contractdetailid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.0/contractdetails<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/contractdetails(*contractdetailid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/contractdetails(*contractdetailid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/contractdetails<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/contractdetails(*contractdetailid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/contractdetails(*contractdetailid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -140,6 +142,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_CustomerIdType"></a> CustomerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -420,7 +424,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|timezoneruleversionnumber|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
@@ -496,12 +500,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|utcconversiontimezonecode|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [AccountId](#BKMK_AccountId)
@@ -656,9 +662,11 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 #### ContractStateCode Options
 
-| Value | Label |
-|-------|-------|
-|       |       |
+|Value|Label|
+|-----|-----|
+
+
+
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
@@ -713,7 +721,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when the record was created.|
 |DisplayName|Created On|
-|Format|DateOnly|
+|Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|createdon|
@@ -818,6 +826,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|
@@ -885,7 +895,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when the record was modified.|
 |DisplayName|Modified On|
-|Format|DateOnly|
+|Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|modifiedon|
@@ -1242,7 +1252,6 @@ Listed by **SchemaName**.
 - [ContractDetail_SyncErrors](#BKMK_ContractDetail_SyncErrors)
 - [ContractDetail_AsyncOperations](#BKMK_ContractDetail_AsyncOperations)
 - [contractdetail_MailboxTrackingFolders](#BKMK_contractdetail_MailboxTrackingFolders)
-- [userentityinstancedata_contractdetail](#BKMK_userentityinstancedata_contractdetail)
 - [ContractDetail_ProcessSessions](#BKMK_ContractDetail_ProcessSessions)
 - [ContractDetail_BulkDeleteFailures](#BKMK_ContractDetail_BulkDeleteFailures)
 - [contractdetail_principalobjectattributeaccess](#BKMK_contractdetail_principalobjectattributeaccess)
@@ -1251,6 +1260,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_ContractDetail_SyncErrors"></a> ContractDetail_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [ContractDetail_SyncErrors](syncerror.md#BKMK_ContractDetail_SyncErrors) Many-To-One relationship.
 
@@ -1267,6 +1278,8 @@ Same as syncerror entity [ContractDetail_SyncErrors](syncerror.md#BKMK_ContractD
 
 ### <a name="BKMK_ContractDetail_AsyncOperations"></a> ContractDetail_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [ContractDetail_AsyncOperations](asyncoperation.md#BKMK_ContractDetail_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -1282,6 +1295,8 @@ Same as asyncoperation entity [ContractDetail_AsyncOperations](asyncoperation.md
 
 ### <a name="BKMK_contractdetail_MailboxTrackingFolders"></a> contractdetail_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [contractdetail_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_contractdetail_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -1292,25 +1307,12 @@ Same as mailboxtrackingfolder entity [contractdetail_MailboxTrackingFolders](mai
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|contractdetail_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_userentityinstancedata_contractdetail"></a> userentityinstancedata_contractdetail
-
-Same as userentityinstancedata entity [userentityinstancedata_contractdetail](userentityinstancedata.md#BKMK_userentityinstancedata_contractdetail) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_contractdetail|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_ContractDetail_ProcessSessions"></a> ContractDetail_ProcessSessions
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [ContractDetail_ProcessSessions](processsession.md#BKMK_ContractDetail_ProcessSessions) Many-To-One relationship.
 
@@ -1327,6 +1329,8 @@ Same as processsession entity [ContractDetail_ProcessSessions](processsession.md
 
 ### <a name="BKMK_ContractDetail_BulkDeleteFailures"></a> ContractDetail_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [ContractDetail_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ContractDetail_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -1342,6 +1346,8 @@ Same as bulkdeletefailure entity [ContractDetail_BulkDeleteFailures](bulkdeletef
 
 ### <a name="BKMK_contractdetail_principalobjectattributeaccess"></a> contractdetail_principalobjectattributeaccess
 
+**Added by**: System Solution Solution
+
 Same as principalobjectattributeaccess entity [contractdetail_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_contractdetail_principalobjectattributeaccess) Many-To-One relationship.
 
 |Property|Value|
@@ -1356,6 +1362,8 @@ Same as principalobjectattributeaccess entity [contractdetail_principalobjectatt
 
 
 ### <a name="BKMK_ContractDetail_Annotation"></a> ContractDetail_Annotation
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [ContractDetail_Annotation](annotation.md#BKMK_ContractDetail_Annotation) Many-To-One relationship.
 
@@ -1408,37 +1416,55 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_contractdetailbase_createdby"></a> lk_contractdetailbase_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_contractdetailbase_createdby](systemuser.md#BKMK_lk_contractdetailbase_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_contractdetail_createdonbehalfby"></a> lk_contractdetail_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_contractdetail_createdonbehalfby](systemuser.md#BKMK_lk_contractdetail_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_contractdetailbase_modifiedby"></a> lk_contractdetailbase_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_contractdetailbase_modifiedby](systemuser.md#BKMK_lk_contractdetailbase_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_contractdetail_modifiedonbehalfby"></a> lk_contractdetail_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_contractdetail_modifiedonbehalfby](systemuser.md#BKMK_lk_contractdetail_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_contractdetail"></a> user_contractdetail
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_contractdetail](systemuser.md#BKMK_user_contractdetail) One-To-Many relationship.
 
 ### <a name="BKMK_team_contractdetail"></a> team_contractdetail
+
+**Added by**: System Solution Solution
 
 See team Entity [team_contractdetail](team.md#BKMK_team_contractdetail) One-To-Many relationship.
 
 ### <a name="BKMK_transactioncurrency_contractdetail"></a> transactioncurrency_contractdetail
 
+**Added by**: System Solution Solution
+
 See transactioncurrency Entity [transactioncurrency_contractdetail](transactioncurrency.md#BKMK_transactioncurrency_contractdetail) One-To-Many relationship.
 
 ### <a name="BKMK_contractlineitem_customer_accounts"></a> contractlineitem_customer_accounts
 
+**Added by**: System Solution Solution
+
 See account Entity [contractlineitem_customer_accounts](account.md#BKMK_contractlineitem_customer_accounts) One-To-Many relationship.
 
 ### <a name="BKMK_contractlineitem_customer_contacts"></a> contractlineitem_customer_contacts
+
+**Added by**: System Solution Solution
 
 See contact Entity [contractlineitem_customer_contacts](contact.md#BKMK_contractlineitem_customer_contacts) One-To-Many relationship.
 
@@ -1448,23 +1474,31 @@ See contract Entity [contract_line_items](contract.md#BKMK_contract_line_items) 
 
 ### <a name="BKMK_customer_address_contract_line_items"></a> customer_address_contract_line_items
 
+**Added by**: System Solution Solution
+
 See customeraddress Entity [customer_address_contract_line_items](customeraddress.md#BKMK_customer_address_contract_line_items) One-To-Many relationship.
 
 ### <a name="BKMK_product_contract_line_items"></a> product_contract_line_items
+
+**Added by**: Product Management Solution
 
 See product Entity [product_contract_line_items](product.md#BKMK_product_contract_line_items) One-To-Many relationship.
 
 ### <a name="BKMK_unit_of_measurement_contract_line_items"></a> unit_of_measurement_contract_line_items
 
+**Added by**: Product Management Solution
+
 See uom Entity [unit_of_measurement_contract_line_items](uom.md#BKMK_unit_of_measurement_contract_line_items) One-To-Many relationship.
 
 ### <a name="BKMK_contract_detail_unit_of_measure_schedule"></a> contract_detail_unit_of_measure_schedule
+
+**Added by**: Product Management Solution
 
 See uomschedule Entity [contract_detail_unit_of_measure_schedule](uomschedule.md#BKMK_contract_detail_unit_of_measure_schedule) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.contractdetail?text=contractdetail EntityType" />

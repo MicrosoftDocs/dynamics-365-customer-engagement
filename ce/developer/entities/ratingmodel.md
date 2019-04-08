@@ -1,42 +1,44 @@
 ---
-title: "RatingModel Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "RatingModel Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the RatingModel entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # RatingModel Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Represents a model to evaluate skills or other related entities.
 
-**Added by**: Scheduling Solution<br />
+**Added by**: Scheduling Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/ratingmodels(*ratingmodelid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/ratingmodels<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/ratingmodels(*ratingmodelid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/ratingmodels(*ratingmodelid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/ratingmodels<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/ratingmodels(*ratingmodelid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/ratingmodels(*ratingmodelid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/ratingmodels<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/ratingmodels(*ratingmodelid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/ratingmodels<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/ratingmodels(*ratingmodelid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/ratingmodels(*ratingmodelid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/ratingmodels(*ratingmodelid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/ratingmodels(*ratingmodelid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -127,7 +129,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_RatableEntity"></a> msdyn_RatableEntity
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -195,6 +197,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -310,7 +314,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -682,7 +688,6 @@ Listed by **SchemaName**.
 - [ratingmodel_DuplicateBaseRecord](#BKMK_ratingmodel_DuplicateBaseRecord)
 - [ratingmodel_AsyncOperations](#BKMK_ratingmodel_AsyncOperations)
 - [ratingmodel_MailboxTrackingFolders](#BKMK_ratingmodel_MailboxTrackingFolders)
-- [ratingmodel_UserEntityInstanceDatas](#BKMK_ratingmodel_UserEntityInstanceDatas)
 - [ratingmodel_ProcessSession](#BKMK_ratingmodel_ProcessSession)
 - [ratingmodel_BulkDeleteFailures](#BKMK_ratingmodel_BulkDeleteFailures)
 - [ratingmodel_PrincipalObjectAttributeAccess](#BKMK_ratingmodel_PrincipalObjectAttributeAccess)
@@ -690,6 +695,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_RatingModel_SyncErrors"></a> RatingModel_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [RatingModel_SyncErrors](syncerror.md#BKMK_RatingModel_SyncErrors) Many-To-One relationship.
 
@@ -706,6 +713,8 @@ Same as syncerror entity [RatingModel_SyncErrors](syncerror.md#BKMK_RatingModel_
 
 ### <a name="BKMK_ratingmodel_DuplicateMatchingRecord"></a> ratingmodel_DuplicateMatchingRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [ratingmodel_DuplicateMatchingRecord](duplicaterecord.md#BKMK_ratingmodel_DuplicateMatchingRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -720,6 +729,8 @@ Same as duplicaterecord entity [ratingmodel_DuplicateMatchingRecord](duplicatere
 
 
 ### <a name="BKMK_ratingmodel_DuplicateBaseRecord"></a> ratingmodel_DuplicateBaseRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [ratingmodel_DuplicateBaseRecord](duplicaterecord.md#BKMK_ratingmodel_DuplicateBaseRecord) Many-To-One relationship.
 
@@ -736,6 +747,8 @@ Same as duplicaterecord entity [ratingmodel_DuplicateBaseRecord](duplicaterecord
 
 ### <a name="BKMK_ratingmodel_AsyncOperations"></a> ratingmodel_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [ratingmodel_AsyncOperations](asyncoperation.md#BKMK_ratingmodel_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -751,6 +764,8 @@ Same as asyncoperation entity [ratingmodel_AsyncOperations](asyncoperation.md#BK
 
 ### <a name="BKMK_ratingmodel_MailboxTrackingFolders"></a> ratingmodel_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [ratingmodel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_ratingmodel_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -761,25 +776,12 @@ Same as mailboxtrackingfolder entity [ratingmodel_MailboxTrackingFolders](mailbo
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|ratingmodel_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_ratingmodel_UserEntityInstanceDatas"></a> ratingmodel_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [ratingmodel_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_ratingmodel_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|ratingmodel_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_ratingmodel_ProcessSession"></a> ratingmodel_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [ratingmodel_ProcessSession](processsession.md#BKMK_ratingmodel_ProcessSession) Many-To-One relationship.
 
@@ -796,6 +798,8 @@ Same as processsession entity [ratingmodel_ProcessSession](processsession.md#BKM
 
 ### <a name="BKMK_ratingmodel_BulkDeleteFailures"></a> ratingmodel_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [ratingmodel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ratingmodel_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -810,6 +814,8 @@ Same as bulkdeletefailure entity [ratingmodel_BulkDeleteFailures](bulkdeletefail
 
 
 ### <a name="BKMK_ratingmodel_PrincipalObjectAttributeAccess"></a> ratingmodel_PrincipalObjectAttributeAccess
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [ratingmodel_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_ratingmodel_PrincipalObjectAttributeAccess) Many-To-One relationship.
 
@@ -856,39 +862,55 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_ratingmodel_createdby"></a> lk_ratingmodel_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_ratingmodel_createdby](systemuser.md#BKMK_lk_ratingmodel_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_ratingmodel_createdonbehalfby"></a> lk_ratingmodel_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_ratingmodel_createdonbehalfby](systemuser.md#BKMK_lk_ratingmodel_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_ratingmodel_modifiedby"></a> lk_ratingmodel_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_ratingmodel_modifiedby](systemuser.md#BKMK_lk_ratingmodel_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_ratingmodel_modifiedonbehalfby"></a> lk_ratingmodel_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_ratingmodel_modifiedonbehalfby](systemuser.md#BKMK_lk_ratingmodel_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_ratingmodel"></a> user_ratingmodel
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_ratingmodel](systemuser.md#BKMK_user_ratingmodel) One-To-Many relationship.
 
 ### <a name="BKMK_team_ratingmodel"></a> team_ratingmodel
+
+**Added by**: System Solution Solution
 
 See team Entity [team_ratingmodel](team.md#BKMK_team_ratingmodel) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_ratingmodel"></a> business_unit_ratingmodel
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_ratingmodel](businessunit.md#BKMK_business_unit_ratingmodel) One-To-Many relationship.
 
 ### <a name="BKMK_TransactionCurrency_ratingmodel"></a> TransactionCurrency_ratingmodel
+
+**Added by**: System Solution Solution
 
 See transactioncurrency Entity [TransactionCurrency_ratingmodel](transactioncurrency.md#BKMK_TransactionCurrency_ratingmodel) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.ratingmodel?text=ratingmodel EntityType" />

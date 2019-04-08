@@ -1,43 +1,45 @@
 ---
-title: "msdyn_resourcerequest Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_resourcerequest Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_resourcerequest entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_resourcerequest Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Entity that wraps the resource requirement to capture the type of resources, skills, and location required.
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_resourcerequests(*msdyn_resourcerequestid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_resourcerequests<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_resourcerequests(*msdyn_resourcerequestid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_resourcerequests(*msdyn_resourcerequestid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_resourcerequests<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_resourcerequests(*msdyn_resourcerequestid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_resourcerequests(*msdyn_resourcerequestid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_resourcerequests<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_resourcerequests(*msdyn_resourcerequestid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_resourcerequests<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_resourcerequests(*msdyn_resourcerequestid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_resourcerequests(*msdyn_resourcerequestid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_resourcerequests(*msdyn_resourcerequestid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_resourcerequests(*msdyn_resourcerequestid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -215,6 +217,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -228,6 +232,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -279,7 +285,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Value|Label|State|
 |-----|-----|-----|
 |192350000|Submitted|0|
-|192350003|Proposed|0|
+|192350003|Needs Review|0|
 |192350008|Fulfilled|1|
 |192350009|In Progress|0|
 |192350011|Inactive|1|
@@ -318,7 +324,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -351,6 +359,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -364,6 +374,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -380,6 +392,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -412,6 +426,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -425,6 +441,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -442,6 +460,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -458,6 +478,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -471,6 +493,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -487,6 +511,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -519,6 +545,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -532,6 +560,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -548,6 +578,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -661,6 +693,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Name of the owner|
@@ -676,6 +710,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -693,6 +729,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -706,6 +744,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -721,6 +761,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -734,6 +776,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -758,7 +802,6 @@ Listed by **SchemaName**.
 - [msdyn_resourcerequest_DuplicateBaseRecord](#BKMK_msdyn_resourcerequest_DuplicateBaseRecord)
 - [msdyn_resourcerequest_AsyncOperations](#BKMK_msdyn_resourcerequest_AsyncOperations)
 - [msdyn_resourcerequest_MailboxTrackingFolders](#BKMK_msdyn_resourcerequest_MailboxTrackingFolders)
-- [msdyn_resourcerequest_UserEntityInstanceDatas](#BKMK_msdyn_resourcerequest_UserEntityInstanceDatas)
 - [msdyn_resourcerequest_ProcessSession](#BKMK_msdyn_resourcerequest_ProcessSession)
 - [msdyn_resourcerequest_BulkDeleteFailures](#BKMK_msdyn_resourcerequest_BulkDeleteFailures)
 - [msdyn_resourcerequest_PrincipalObjectAttributeAccesses](#BKMK_msdyn_resourcerequest_PrincipalObjectAttributeAccesses)
@@ -767,6 +810,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_resourcerequest_SyncErrors"></a> msdyn_resourcerequest_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_resourcerequest_SyncErrors](syncerror.md#BKMK_msdyn_resourcerequest_SyncErrors) Many-To-One relationship.
 
@@ -778,10 +823,12 @@ Same as syncerror entity [msdyn_resourcerequest_SyncErrors](syncerror.md#BKMK_ms
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_resourcerequest_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequest_DuplicateMatchingRecord"></a> msdyn_resourcerequest_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_resourcerequest_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_resourcerequest_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -798,6 +845,8 @@ Same as duplicaterecord entity [msdyn_resourcerequest_DuplicateMatchingRecord](d
 
 ### <a name="BKMK_msdyn_resourcerequest_DuplicateBaseRecord"></a> msdyn_resourcerequest_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_resourcerequest_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_resourcerequest_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -812,6 +861,8 @@ Same as duplicaterecord entity [msdyn_resourcerequest_DuplicateBaseRecord](dupli
 
 
 ### <a name="BKMK_msdyn_resourcerequest_AsyncOperations"></a> msdyn_resourcerequest_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_resourcerequest_AsyncOperations](asyncoperation.md#BKMK_msdyn_resourcerequest_AsyncOperations) Many-To-One relationship.
 
@@ -828,6 +879,8 @@ Same as asyncoperation entity [msdyn_resourcerequest_AsyncOperations](asyncopera
 
 ### <a name="BKMK_msdyn_resourcerequest_MailboxTrackingFolders"></a> msdyn_resourcerequest_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_resourcerequest_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_resourcerequest_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -838,25 +891,12 @@ Same as mailboxtrackingfolder entity [msdyn_resourcerequest_MailboxTrackingFolde
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_resourcerequest_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_resourcerequest_UserEntityInstanceDatas"></a> msdyn_resourcerequest_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_resourcerequest_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_resourcerequest_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_resourcerequest_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequest_ProcessSession"></a> msdyn_resourcerequest_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_resourcerequest_ProcessSession](processsession.md#BKMK_msdyn_resourcerequest_ProcessSession) Many-To-One relationship.
 
@@ -873,6 +913,8 @@ Same as processsession entity [msdyn_resourcerequest_ProcessSession](processsess
 
 ### <a name="BKMK_msdyn_resourcerequest_BulkDeleteFailures"></a> msdyn_resourcerequest_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_resourcerequest_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_resourcerequest_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -887,6 +929,8 @@ Same as bulkdeletefailure entity [msdyn_resourcerequest_BulkDeleteFailures](bulk
 
 
 ### <a name="BKMK_msdyn_resourcerequest_PrincipalObjectAttributeAccesses"></a> msdyn_resourcerequest_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [msdyn_resourcerequest_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_resourcerequest_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -903,6 +947,8 @@ Same as principalobjectattributeaccess entity [msdyn_resourcerequest_PrincipalOb
 
 ### <a name="BKMK_msdyn_resourcerequest_QueueItems"></a> msdyn_resourcerequest_QueueItems
 
+**Added by**: System Solution Solution
+
 Same as queueitem entity [msdyn_resourcerequest_QueueItems](queueitem.md#BKMK_msdyn_resourcerequest_QueueItems) Many-To-One relationship.
 
 |Property|Value|
@@ -917,6 +963,8 @@ Same as queueitem entity [msdyn_resourcerequest_QueueItems](queueitem.md#BKMK_ms
 
 
 ### <a name="BKMK_msdyn_resourcerequest_Annotations"></a> msdyn_resourcerequest_Annotations
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [msdyn_resourcerequest_Annotations](annotation.md#BKMK_msdyn_resourcerequest_Annotations) Many-To-One relationship.
 
@@ -951,51 +999,73 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_resourcerequest_createdby"></a> lk_msdyn_resourcerequest_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_resourcerequest_createdby](systemuser.md#BKMK_lk_msdyn_resourcerequest_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_resourcerequest_createdonbehalfby"></a> lk_msdyn_resourcerequest_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_resourcerequest_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_resourcerequest_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_resourcerequest_modifiedby"></a> lk_msdyn_resourcerequest_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_resourcerequest_modifiedby](systemuser.md#BKMK_lk_msdyn_resourcerequest_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_resourcerequest_modifiedonbehalfby"></a> lk_msdyn_resourcerequest_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_resourcerequest_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_resourcerequest_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_resourcerequest"></a> user_msdyn_resourcerequest
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_msdyn_resourcerequest](systemuser.md#BKMK_user_msdyn_resourcerequest) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_resourcerequest"></a> team_msdyn_resourcerequest
+
+**Added by**: System Solution Solution
 
 See team Entity [team_msdyn_resourcerequest](team.md#BKMK_team_msdyn_resourcerequest) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_resourcerequest"></a> business_unit_msdyn_resourcerequest
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_msdyn_resourcerequest](businessunit.md#BKMK_business_unit_msdyn_resourcerequest) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_resourcerequest_roleid"></a> msdyn_bookableresourcecategory_msdyn_resourcerequest_roleid
+
+**Added by**: Scheduling Solution
 
 See bookableresourcecategory Entity [msdyn_bookableresourcecategory_msdyn_resourcerequest_roleid](bookableresourcecategory.md#BKMK_msdyn_bookableresourcecategory_msdyn_resourcerequest_roleid) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_resourcerequirement_request"></a> msdyn_resourcerequirement_request
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_resourcerequirement Entity [msdyn_resourcerequirement_request](msdyn_resourcerequirement.md#BKMK_msdyn_resourcerequirement_request) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_systemuser_msdyn_resourcerequest_claimedby"></a> msdyn_systemuser_msdyn_resourcerequest_claimedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [msdyn_systemuser_msdyn_resourcerequest_claimedby](systemuser.md#BKMK_msdyn_systemuser_msdyn_resourcerequest_claimedby) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_systemuser_msdyn_resourcerequest_requestedby"></a> msdyn_systemuser_msdyn_resourcerequest_requestedby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [msdyn_systemuser_msdyn_resourcerequest_requestedby](systemuser.md#BKMK_msdyn_systemuser_msdyn_resourcerequest_requestedby) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_resourcerequest?text=msdyn_resourcerequest EntityType" />

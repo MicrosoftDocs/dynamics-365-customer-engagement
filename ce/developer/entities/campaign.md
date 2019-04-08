@@ -1,25 +1,27 @@
 ---
-title: "Campaign Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Campaign Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Campaign entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Campaign Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.
 
-**Added by**: Marketing Solution<br />
+**Added by**: Marketing Solution
+
 
 ## Messages
 
@@ -27,21 +29,21 @@ Container for campaign activities and responses, sales literature, products, and
 |-|-|-|
 |AddItemCampaign|<xref href="Microsoft.Dynamics.CRM.AddItemCampaign?text=AddItemCampaign Action" />|<xref:Microsoft.Crm.Sdk.Messages.AddItemCampaignRequest>|
 |AddItemCampaignActivity|<xref href="Microsoft.Dynamics.CRM.AddItemCampaignActivity?text=AddItemCampaignActivity Action" />|<xref:Microsoft.Crm.Sdk.Messages.AddItemCampaignActivityRequest>|
-|Assign|PATCH [*org URI*]/api/data/v9.0/campaigns(*campaignid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/campaigns(*campaignid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
 |CopyCampaign|<xref href="Microsoft.Dynamics.CRM.CopyCampaign?text=CopyCampaign Action" />|<xref:Microsoft.Crm.Sdk.Messages.CopyCampaignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/campaigns<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/campaigns(*campaignid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.0/campaigns<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/campaigns(*campaignid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 |RemoveItemCampaign|<xref href="Microsoft.Dynamics.CRM.RemoveItemCampaign?text=RemoveItemCampaign Action" />|<xref:Microsoft.Crm.Sdk.Messages.RemoveItemCampaignRequest>|
 |RemoveItemCampaignActivity|<xref href="Microsoft.Dynamics.CRM.RemoveItemCampaignActivity?text=RemoveItemCampaignActivity Action" />|<xref:Microsoft.Crm.Sdk.Messages.RemoveItemCampaignActivityRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/campaigns(*campaignid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/campaigns<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/campaigns(*campaignid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/campaigns<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/campaigns(*campaignid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/campaigns(*campaignid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/campaigns(*campaignid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/campaigns(*campaignid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -210,6 +212,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_EntityImage"></a> EntityImage
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -396,6 +400,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id Type|
@@ -485,7 +491,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Contains the id of the stage where the entity is located.|
-|DisplayName|Stage Id|
+|DisplayName|(Deprecated) Stage Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -552,7 +558,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|timezoneruleversionnumber|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
@@ -577,7 +583,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|
-|DisplayName|Traversed Path|
+|DisplayName|(Deprecated) Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -623,12 +629,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|utcconversiontimezonecode|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [BudgetedCost_Base](#BKMK_BudgetedCost_Base)
@@ -701,7 +709,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the user who created the campaign.|
+|Description||
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -836,6 +844,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|
@@ -885,7 +895,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the user who last modified the campaign.|
+|Description||
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1192,7 +1202,6 @@ Listed by **SchemaName**.
 - [Campaign_DuplicateBaseRecord](#BKMK_Campaign_DuplicateBaseRecord)
 - [Campaign_AsyncOperations](#BKMK_Campaign_AsyncOperations)
 - [Campaign_MailboxTrackingFolder](#BKMK_Campaign_MailboxTrackingFolder)
-- [userentityinstancedata_campaign](#BKMK_userentityinstancedata_campaign)
 - [Campaign_ProcessSessions](#BKMK_Campaign_ProcessSessions)
 - [Campaign_BulkDeleteFailures](#BKMK_Campaign_BulkDeleteFailures)
 - [campaign_principalobjectattributeaccess](#BKMK_campaign_principalobjectattributeaccess)
@@ -1224,6 +1233,8 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_Campaign_ActivityPointers"></a> Campaign_ActivityPointers
 
+**Added by**: System Solution Solution
+
 Same as activitypointer entity [Campaign_ActivityPointers](activitypointer.md#BKMK_Campaign_ActivityPointers) Many-To-One relationship.
 
 |Property|Value|
@@ -1238,6 +1249,8 @@ Same as activitypointer entity [Campaign_ActivityPointers](activitypointer.md#BK
 
 
 ### <a name="BKMK_Campaign_SyncErrors"></a> Campaign_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [Campaign_SyncErrors](syncerror.md#BKMK_Campaign_SyncErrors) Many-To-One relationship.
 
@@ -1254,6 +1267,8 @@ Same as syncerror entity [Campaign_SyncErrors](syncerror.md#BKMK_Campaign_SyncEr
 
 ### <a name="BKMK_campaign_activity_parties"></a> campaign_activity_parties
 
+**Added by**: System Solution Solution
+
 Same as activityparty entity [campaign_activity_parties](activityparty.md#BKMK_campaign_activity_parties) Many-To-One relationship.
 
 |Property|Value|
@@ -1268,6 +1283,8 @@ Same as activityparty entity [campaign_activity_parties](activityparty.md#BKMK_c
 
 
 ### <a name="BKMK_Campaign_DuplicateMatchingRecord"></a> Campaign_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [Campaign_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Campaign_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -1284,6 +1301,8 @@ Same as duplicaterecord entity [Campaign_DuplicateMatchingRecord](duplicaterecor
 
 ### <a name="BKMK_Campaign_DuplicateBaseRecord"></a> Campaign_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [Campaign_DuplicateBaseRecord](duplicaterecord.md#BKMK_Campaign_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -1298,6 +1317,8 @@ Same as duplicaterecord entity [Campaign_DuplicateBaseRecord](duplicaterecord.md
 
 
 ### <a name="BKMK_Campaign_AsyncOperations"></a> Campaign_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [Campaign_AsyncOperations](asyncoperation.md#BKMK_Campaign_AsyncOperations) Many-To-One relationship.
 
@@ -1314,6 +1335,8 @@ Same as asyncoperation entity [Campaign_AsyncOperations](asyncoperation.md#BKMK_
 
 ### <a name="BKMK_Campaign_MailboxTrackingFolder"></a> Campaign_MailboxTrackingFolder
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [Campaign_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Campaign_MailboxTrackingFolder) Many-To-One relationship.
 
 |Property|Value|
@@ -1327,22 +1350,9 @@ Same as mailboxtrackingfolder entity [Campaign_MailboxTrackingFolder](mailboxtra
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_userentityinstancedata_campaign"></a> userentityinstancedata_campaign
-
-Same as userentityinstancedata entity [userentityinstancedata_campaign](userentityinstancedata.md#BKMK_userentityinstancedata_campaign) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_campaign|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_Campaign_ProcessSessions"></a> Campaign_ProcessSessions
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [Campaign_ProcessSessions](processsession.md#BKMK_Campaign_ProcessSessions) Many-To-One relationship.
 
@@ -1359,6 +1369,8 @@ Same as processsession entity [Campaign_ProcessSessions](processsession.md#BKMK_
 
 ### <a name="BKMK_Campaign_BulkDeleteFailures"></a> Campaign_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [Campaign_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Campaign_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -1373,6 +1385,8 @@ Same as bulkdeletefailure entity [Campaign_BulkDeleteFailures](bulkdeletefailure
 
 
 ### <a name="BKMK_campaign_principalobjectattributeaccess"></a> campaign_principalobjectattributeaccess
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [campaign_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_campaign_principalobjectattributeaccess) Many-To-One relationship.
 
@@ -1389,6 +1403,8 @@ Same as principalobjectattributeaccess entity [campaign_principalobjectattribute
 
 ### <a name="BKMK_Campaign_Appointments"></a> Campaign_Appointments
 
+**Added by**: System Solution Solution
+
 Same as appointment entity [Campaign_Appointments](appointment.md#BKMK_Campaign_Appointments) Many-To-One relationship.
 
 |Property|Value|
@@ -1403,6 +1419,8 @@ Same as appointment entity [Campaign_Appointments](appointment.md#BKMK_Campaign_
 
 
 ### <a name="BKMK_Campaign_Emails"></a> Campaign_Emails
+
+**Added by**: System Solution Solution
 
 Same as email entity [Campaign_Emails](email.md#BKMK_Campaign_Emails) Many-To-One relationship.
 
@@ -1419,6 +1437,8 @@ Same as email entity [Campaign_Emails](email.md#BKMK_Campaign_Emails) Many-To-On
 
 ### <a name="BKMK_Campaign_Faxes"></a> Campaign_Faxes
 
+**Added by**: System Solution Solution
+
 Same as fax entity [Campaign_Faxes](fax.md#BKMK_Campaign_Faxes) Many-To-One relationship.
 
 |Property|Value|
@@ -1433,6 +1453,8 @@ Same as fax entity [Campaign_Faxes](fax.md#BKMK_Campaign_Faxes) Many-To-One rela
 
 
 ### <a name="BKMK_Campaign_Letters"></a> Campaign_Letters
+
+**Added by**: System Solution Solution
 
 Same as letter entity [Campaign_Letters](letter.md#BKMK_Campaign_Letters) Many-To-One relationship.
 
@@ -1449,6 +1471,8 @@ Same as letter entity [Campaign_Letters](letter.md#BKMK_Campaign_Letters) Many-T
 
 ### <a name="BKMK_Campaign_Phonecalls"></a> Campaign_Phonecalls
 
+**Added by**: System Solution Solution
+
 Same as phonecall entity [Campaign_Phonecalls](phonecall.md#BKMK_Campaign_Phonecalls) Many-To-One relationship.
 
 |Property|Value|
@@ -1463,6 +1487,8 @@ Same as phonecall entity [Campaign_Phonecalls](phonecall.md#BKMK_Campaign_Phonec
 
 
 ### <a name="BKMK_Campaign_Tasks"></a> Campaign_Tasks
+
+**Added by**: System Solution Solution
 
 Same as task entity [Campaign_Tasks](task.md#BKMK_Campaign_Tasks) Many-To-One relationship.
 
@@ -1479,6 +1505,8 @@ Same as task entity [Campaign_Tasks](task.md#BKMK_Campaign_Tasks) Many-To-One re
 
 ### <a name="BKMK_Campaign_RecurringAppointmentMasters"></a> Campaign_RecurringAppointmentMasters
 
+**Added by**: System Solution Solution
+
 Same as recurringappointmentmaster entity [Campaign_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_Campaign_RecurringAppointmentMasters) Many-To-One relationship.
 
 |Property|Value|
@@ -1493,6 +1521,8 @@ Same as recurringappointmentmaster entity [Campaign_RecurringAppointmentMasters]
 
 
 ### <a name="BKMK_campaign_SocialActivities"></a> campaign_SocialActivities
+
+**Added by**: System Solution Solution
 
 Same as socialactivity entity [campaign_SocialActivities](socialactivity.md#BKMK_campaign_SocialActivities) Many-To-One relationship.
 
@@ -1509,6 +1539,8 @@ Same as socialactivity entity [campaign_SocialActivities](socialactivity.md#BKMK
 
 ### <a name="BKMK_campaign_connections1"></a> campaign_connections1
 
+**Added by**: System Solution Solution
+
 Same as connection entity [campaign_connections1](connection.md#BKMK_campaign_connections1) Many-To-One relationship.
 
 |Property|Value|
@@ -1524,6 +1556,8 @@ Same as connection entity [campaign_connections1](connection.md#BKMK_campaign_co
 
 ### <a name="BKMK_campaign_connections2"></a> campaign_connections2
 
+**Added by**: System Solution Solution
+
 Same as connection entity [campaign_connections2](connection.md#BKMK_campaign_connections2) Many-To-One relationship.
 
 |Property|Value|
@@ -1538,6 +1572,8 @@ Same as connection entity [campaign_connections2](connection.md#BKMK_campaign_co
 
 
 ### <a name="BKMK_Campaign_Annotation"></a> Campaign_Annotation
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [Campaign_Annotation](annotation.md#BKMK_Campaign_Annotation) Many-To-One relationship.
 
@@ -1593,11 +1629,13 @@ Same as lead entity [campaign_leads](lead.md#BKMK_campaign_leads) Many-To-One re
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|campaign_leads|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Marketing<br />Label: <br />Order: 130|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_campaign_IncidentResolutions"></a> campaign_IncidentResolutions
+
+**Added by**: Service Solution
 
 Same as incidentresolution entity [campaign_IncidentResolutions](incidentresolution.md#BKMK_campaign_IncidentResolutions) Many-To-One relationship.
 
@@ -1614,6 +1652,8 @@ Same as incidentresolution entity [campaign_IncidentResolutions](incidentresolut
 
 ### <a name="BKMK_Campaign_ServiceAppointments"></a> Campaign_ServiceAppointments
 
+**Added by**: Service Solution
+
 Same as serviceappointment entity [Campaign_ServiceAppointments](serviceappointment.md#BKMK_Campaign_ServiceAppointments) Many-To-One relationship.
 
 |Property|Value|
@@ -1628,6 +1668,8 @@ Same as serviceappointment entity [Campaign_ServiceAppointments](serviceappointm
 
 
 ### <a name="BKMK_campaign_OpportunityCloses"></a> campaign_OpportunityCloses
+
+**Added by**: Sales Solution
 
 Same as opportunityclose entity [campaign_OpportunityCloses](opportunityclose.md#BKMK_campaign_OpportunityCloses) Many-To-One relationship.
 
@@ -1644,6 +1686,8 @@ Same as opportunityclose entity [campaign_OpportunityCloses](opportunityclose.md
 
 ### <a name="BKMK_campaign_OrderCloses"></a> campaign_OrderCloses
 
+**Added by**: Sales Solution
+
 Same as orderclose entity [campaign_OrderCloses](orderclose.md#BKMK_campaign_OrderCloses) Many-To-One relationship.
 
 |Property|Value|
@@ -1658,6 +1702,8 @@ Same as orderclose entity [campaign_OrderCloses](orderclose.md#BKMK_campaign_Ord
 
 
 ### <a name="BKMK_campaign_QuoteCloses"></a> campaign_QuoteCloses
+
+**Added by**: Sales Solution
 
 Same as quoteclose entity [campaign_QuoteCloses](quoteclose.md#BKMK_campaign_QuoteCloses) Many-To-One relationship.
 
@@ -1674,6 +1720,8 @@ Same as quoteclose entity [campaign_QuoteCloses](quoteclose.md#BKMK_campaign_Quo
 
 ### <a name="BKMK_campaign_opportunities"></a> campaign_opportunities
 
+**Added by**: Marketing Sales Solution
+
 Same as opportunity entity [campaign_opportunities](opportunity.md#BKMK_campaign_opportunities) Many-To-One relationship.
 
 |Property|Value|
@@ -1683,11 +1731,13 @@ Same as opportunity entity [campaign_opportunities](opportunity.md#BKMK_campaign
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|campaign_opportunities|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Sales<br />Label: <br />Order: 130|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_campaign_orders"></a> campaign_orders
+
+**Added by**: Marketing Sales Solution
 
 Same as salesorder entity [campaign_orders](salesorder.md#BKMK_campaign_orders) Many-To-One relationship.
 
@@ -1704,6 +1754,8 @@ Same as salesorder entity [campaign_orders](salesorder.md#BKMK_campaign_orders) 
 
 ### <a name="BKMK_campaign_quotes"></a> campaign_quotes
 
+**Added by**: Marketing Sales Solution
+
 Same as quote entity [campaign_quotes](quote.md#BKMK_campaign_quotes) Many-To-One relationship.
 
 |Property|Value|
@@ -1719,6 +1771,8 @@ Same as quote entity [campaign_quotes](quote.md#BKMK_campaign_quotes) Many-To-On
 
 ### <a name="BKMK_campaign_msdyn_bookingalerts"></a> campaign_msdyn_bookingalerts
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_bookingalert entity [campaign_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_campaign_msdyn_bookingalerts) Many-To-One relationship.
 
 |Property|Value|
@@ -1733,6 +1787,8 @@ Same as msdyn_bookingalert entity [campaign_msdyn_bookingalerts](msdyn_bookingal
 
 
 ### <a name="BKMK_campaign_msdyn_approvals"></a> campaign_msdyn_approvals
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_approval entity [campaign_msdyn_approvals](msdyn_approval.md#BKMK_campaign_msdyn_approvals) Many-To-One relationship.
 
@@ -1766,41 +1822,61 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_campaign_createdby"></a> lk_campaign_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_campaign_createdby](systemuser.md#BKMK_lk_campaign_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_campaign_createdonbehalfby"></a> lk_campaign_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_campaign_createdonbehalfby](systemuser.md#BKMK_lk_campaign_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_campaign_modifiedby"></a> lk_campaign_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_campaign_modifiedby](systemuser.md#BKMK_lk_campaign_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_campaign_modifiedonbehalfby"></a> lk_campaign_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_campaign_modifiedonbehalfby](systemuser.md#BKMK_lk_campaign_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_SystemUser_Campaigns"></a> SystemUser_Campaigns
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [SystemUser_Campaigns](systemuser.md#BKMK_SystemUser_Campaigns) One-To-Many relationship.
 
 ### <a name="BKMK_team_Campaigns"></a> team_Campaigns
+
+**Added by**: System Solution Solution
 
 See team Entity [team_Campaigns](team.md#BKMK_team_Campaigns) One-To-Many relationship.
 
 ### <a name="BKMK_BusinessUnit_Campaigns"></a> BusinessUnit_Campaigns
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [BusinessUnit_Campaigns](businessunit.md#BKMK_BusinessUnit_Campaigns) One-To-Many relationship.
 
 ### <a name="BKMK_processstage_campaigns"></a> processstage_campaigns
+
+**Added by**: System Solution Solution
 
 See processstage Entity [processstage_campaigns](processstage.md#BKMK_processstage_campaigns) One-To-Many relationship.
 
 ### <a name="BKMK_transactioncurrency_campaign"></a> transactioncurrency_campaign
 
+**Added by**: System Solution Solution
+
 See transactioncurrency Entity [transactioncurrency_campaign](transactioncurrency.md#BKMK_transactioncurrency_campaign) One-To-Many relationship.
 
 ### <a name="BKMK_PriceList_Campaigns"></a> PriceList_Campaigns
+
+**Added by**: Product Management Solution
 
 See pricelevel Entity [PriceList_Campaigns](pricelevel.md#BKMK_PriceList_Campaigns) One-To-Many relationship.
 <a name="manytomany"></a>
@@ -1910,6 +1986,6 @@ IntersectEntityName: campaignitem<br />
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.campaign?text=campaign EntityType" />
