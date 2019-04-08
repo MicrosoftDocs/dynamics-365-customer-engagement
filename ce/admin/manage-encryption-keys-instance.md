@@ -27,7 +27,7 @@ search.app:
 
 # Manage the encryption keys
 
-Applies to Dynamics 365 for Customer Engagement apps (online), version 8.2
+Applies to Dynamics 365 for Customer Engagement apps (online), version 9x
 
 All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps use [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] Transparent Data Encryption (TDE) to perform real-time encryption of data when written to disk, also known as encryption at rest.  
   
