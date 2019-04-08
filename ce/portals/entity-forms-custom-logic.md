@@ -3,7 +3,7 @@ title: "Define entity forms and custom logic within a portal in Dynamics 365 for
 description: "Instructions to create entity forms in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 26/03/2019
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -29,14 +29,14 @@ A data-driven configuration to allow end users to add a form to collect data in 
 
 ## Add a form to your portal
 
-The entity form contains relationships to webpages and additional properties to control the initialization of the form within the portal. The relationship to webpages allows dynamic retrieval of the form definition for a given page node within the [website](#website-1).  
+The entity form contains relationships to webpages and additional properties to control the initialization of the form within the portal. The relationship to webpages allows dynamic retrieval of the form definition for a given page node within the [website](websites.md).  
 
 To view existing entity forms or to create new entity forms, go to **Portals** &gt; **Entity Forms**.
 
 When creating a new entity form, the first step is to decide the **Entity** and **Form Name** that you will be rendering, in addition to the **mode: Insert, Edit, or Read Only**. The mode selected will determine if you are creating a new record from the portal, editing an existing record, or just displaying information about a record on the portal.
 
 > [!Note]
-> - An **Entity Form** must be associated with a webpage for a given [website](#website-1) for the form to be viewable within the site.
+> - An **Entity Form** must be associated with a webpage for a given [website](websites.md) for the form to be viewable within the site.
 > - The Connection entity subgrids are not supported in entity forms. If you add a Connection entity subgrid to the form using Form designer, error messages are displayed when you render the form on the portal and use the Connection entity.
 > - Duplicate fields, multi-select option set, custom controls, and business rules are not supported in entity forms.
 > - If you create an entity form in the Insert mode, you can't change a button's alignment or place an action button above the entity form.
