@@ -369,7 +369,7 @@ else
  Forms in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] are based on the development principle of “Design once and deploy across clients.” Entity behavior and business processes in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] forms function similarly to forms in the web application, but with a flow tailored for a tablet. In Microsoft Dynamics 365 for Customer Engagement apps online,  you can preview how forms look on tablets and phones when you customize them in the web app.  
   
 > [!NOTE]
->  Forms work a bit differently for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]. See the section below [Things to know about [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]](#things-to-know-about-includepnmobileexpressshortincludespn-mobile-express-shortmd).  
+>  Forms work a bit differently for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]. See the section later [Things to know about Dynamics 365 for phones](#things-to-know-about-dynamics-365-for-phones).  
   
 |                                                                                                                                                     |   |                                                                                                                                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -405,7 +405,7 @@ else
   
 <a name="BKMK_PhonesThingsToKnow"></a>  
  
-## Things to know about [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]  
+## Things to know about Dynamics 365 for phones  
   
 ### Forms  
  Forms in [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] use the Main form type. Entity behavior and business processes in [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] forms function similarly to forms in the web application, but with a flow tailored for a phone.  

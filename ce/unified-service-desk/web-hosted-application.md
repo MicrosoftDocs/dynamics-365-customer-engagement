@@ -1,6 +1,6 @@
 ---
-title: "Edge process hosting method for your controls in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
-description: "Learn about the edge process hosting methods for your controls in Unified Service Desk."
+title: "Use Web Hosted Application hosting method for your controls in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: "Learn about the Web Hosted Application hosting methods for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
 ms.date: 12/01/2018
@@ -26,7 +26,7 @@ search.app:
 monikerRange: '>= dynamics-usd-3'
 ---
 
-# Web hosted application
+# Use Web Hosted Application to host web applications
 
  The `Web Hosted Application` browser control is applicable only for the legacy `CCA Hosted Application` type of hosted control. This browser control doesn’t provide native features of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] such as events and toolbars.
 

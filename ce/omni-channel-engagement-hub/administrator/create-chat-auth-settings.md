@@ -1,6 +1,6 @@
 ---
-title: "Set up a chat widget | MicrosoftDocs"
-description: "Instructions to configure a chat widget in Omni-channel Engagement Hub."
+title: "Create chat authentication settings | MicrosoftDocs"
+description: "Instructions to create chat authentication settings in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -23,6 +23,9 @@ You can create authentication settings to validate a signed-in customer from a d
 
 After you create an authentication settings record, you must add it in the **Basic details** tab of the appropriate chat widget to make it work.
 
+An agent will get a notification in the **Conversation summary** section whether a customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. If a chat widget does not have any authentication setting associated with it, **Authenticated** field is set to **No** even if a customer is logged in to the portal. For information on conversation summary, see [Conversation summary](../agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md#conversation-summary).
+
+
 ## Create a chat authentication setting record
 
 1. Sign in to Omni-channel Engagement Hub.
@@ -40,7 +43,7 @@ After you create an authentication settings record, you must add it in the **Bas
         > [!div class=mx-imgBorder]
         > ![Create chat authentication setting record](../media/chat-auth-settings.png "Create chat authentication setting record")
 
-    For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Microsoft Dynamics 365 portal](#setup-for-a-dynamics-365-portal) section or the [Setup for portals that don't use Dynamics 365 (custom portal)](#setup-for-portals-that-dont-use-dynamics-365-custom-portal) section later in this topic.
+    For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Microsoft Dynamics 365 portal](#setup-for-a-dynamics-365-for-customer-engagement-portal) section or the [Setup for portals that don't use Dynamics 365 (custom portal)](#setup-for-portals-that-dont-use-dynamics-365-for-customer-engagement-custom-portal) section later in this topic.
 
 5. Select **Save**.
 
@@ -53,7 +56,7 @@ After you create an authentication settings record, you must add it in the **Bas
     > [!div class=mx-imgBorder]
     > ![Add authentication to a chat widget](../media/oc-chat-widget-basic-details-tab.png "Add authentication to a chat widget")
 
-When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omni-channel Engagement Hub. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are defined in Common Data Service for Apps.
+When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omni-channel Engagement Hub. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are defined in Common Data Service.
 
 ## Setup for a Dynamics 365 for Customer Engagement Portal
 
@@ -81,7 +84,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     Here is sample code for defining the JavaScript client function.
 
-    ```
+    ```JavaScript
     window["getAuthenticationToken"] = function(callback){
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
@@ -102,7 +105,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     Here is a sample JSON payload.
 
-    ```
+    ```json
     {
         "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
         "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352",
@@ -118,11 +121,11 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
     }
     ```
 
-6. Add custom context variables, if they are required. The context variables must be defined exactly as they are defined in Common Data Service for Apps.
+6. Add custom context variables, if they are required. The context variables must be defined exactly as they are defined in the work stream that is associated with the chat widget.
 
     Here is a sample definition of custom context variables.
 
-    ```
+    ```JavaScript
     def create_token(user_json):
         with open('private_key.pem', 'r') as myfile:
             data = myfile.read()
@@ -143,7 +146,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     Here is sample code for encrypting the payload. (This code is included in the previous sample code for defining custom context variables.)
 
-    ```
+    ```JavaScript
     encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
     return encoded_jwt
     ```
@@ -151,7 +154,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 ### See also
 
 [Add a chat widget](add-chat-widget.md) <br>
-[Create a survey questions library](create-question-library.md) <br>
+[Create a survey question](create-question-library.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>

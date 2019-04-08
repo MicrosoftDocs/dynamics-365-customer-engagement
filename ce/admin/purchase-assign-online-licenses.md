@@ -39,7 +39,7 @@ search.app:
 <a name="BKMK_PurchaseLicense"></a>   
 ## Purchase a Dynamics 365 for Customer Engagement apps (online) license  
   
-1. Browse to the [Office 365 admin center](https://portal.office.com) and sign in as a global admin.  
+1. Browse to the [Microsoft 365 admin center](https://admin.microsoft.com) and sign in as a global admin.  
   
 2. Click **Billing** > **Purchase Services**.  
   
@@ -55,7 +55,7 @@ search.app:
  
 ## Assign a license to a user  
   
-1. Browse to the [Office 365 admin center](https://portal.office.com) and sign in as a global admin.  
+1. Browse to the [Microsoft 365 admin center](https://admin.microsoft.com) and sign in as a global admin.  
   
 2. Click **Users** > **Active users**.  
   

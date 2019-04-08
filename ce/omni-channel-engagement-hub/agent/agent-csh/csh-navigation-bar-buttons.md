@@ -23,7 +23,7 @@ The navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hu
 
 ![Navigation bar buttons of Omni-channel Engagement Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")
 
-a. **Search.** Do a simple search for a record.
+a. **Search.** Do a simple search for records.
 
 b. **Task flow.** Create an automated task flow between your apps and services.
 
@@ -90,13 +90,5 @@ Similarly, for the other records, the application displays the quick create form
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 - [Know the sitemap navigation](csh-sitemap.md)
 - [Navigate using the navigation bar](csh-navigation-bar.md)
-- [View communication panel](csh-conversation-control.md)
-- [Set user presence](csh-set-user-presence-status.md)
-- [View notifications and screen pops](csh-notifications-screen-pops.md)
-- [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
-- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
-- [Take notes specific to conversation](csh-take-notes.md)
-- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
-- [Search and link record to the conversation](csh-search-link-record.md)
+- [Search for records](csh-search-record.md)

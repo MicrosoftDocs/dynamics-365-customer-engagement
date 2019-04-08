@@ -33,10 +33,17 @@ The action cards contain the following basic elements:
 2. **Actions area:** Provides convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type.
 3. **Main content area:** Shows the title of the record the card refers to, its summary, the card type, and other basic information. Click anywhere in this area (except for on the two buttons) to open the related item, which might be a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] record or an email message.
 
-As a developer, you can create new card types according to your organizational requirements and make them available for users.
+You can generate these custom cards in two ways:
+
+- As a sales manager or administrator, you can generate custom insight cards (known as action cards) by using the **Assistant** which is based on Microsoft Flow. This provides you a graphical user interface to generate custom cards. To learn more, see [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md)
+    >[!NOTE]
+    > We recommend you to use the **Assistant** to generate the custom insight cards.  
+
+- As a developer, you can create new card types according to your organizational requirements and make them available for users. To learn more, see [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 
 ### See also
 
+- [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md)
 - [Sample: Extend Relationship assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 - [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)
 - [Relationship assistant](relationship-assistant.md)

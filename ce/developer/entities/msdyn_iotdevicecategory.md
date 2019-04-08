@@ -1,43 +1,45 @@
 ---
-title: "msdyn_iotdevicecategory Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_iotdevicecategory Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_iotdevicecategory entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_iotdevicecategory Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Used to categorize IoT devices.
 
-**Added by**: IoT Connector for Microsoft Dynamics 365 for Customer Engagement Solution<br />
+**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories(*msdyn_iotdevicecategoryid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories(*msdyn_iotdevicecategoryid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories(*msdyn_iotdevicecategoryid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories(*msdyn_iotdevicecategoryid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories(*msdyn_iotdevicecategoryid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories(*msdyn_iotdevicecategoryid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories(*msdyn_iotdevicecategoryid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories(*msdyn_iotdevicecategoryid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories(*msdyn_iotdevicecategoryid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_iotdevicecategories(*msdyn_iotdevicecategoryid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -138,6 +140,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -151,6 +155,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -238,7 +244,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -265,6 +273,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -278,6 +288,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -294,6 +306,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -326,6 +340,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -339,6 +355,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -356,6 +374,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -372,6 +392,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -385,6 +407,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -401,6 +425,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -433,6 +459,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -446,6 +474,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -463,6 +493,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -478,6 +510,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -495,6 +529,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Yomi name of the owner|
@@ -511,6 +547,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -524,6 +562,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -539,6 +579,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -552,6 +594,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -576,7 +620,6 @@ Listed by **SchemaName**.
 - [msdyn_iotdevicecategory_DuplicateBaseRecord](#BKMK_msdyn_iotdevicecategory_DuplicateBaseRecord)
 - [msdyn_iotdevicecategory_AsyncOperations](#BKMK_msdyn_iotdevicecategory_AsyncOperations)
 - [msdyn_iotdevicecategory_MailboxTrackingFolders](#BKMK_msdyn_iotdevicecategory_MailboxTrackingFolders)
-- [msdyn_iotdevicecategory_UserEntityInstanceDatas](#BKMK_msdyn_iotdevicecategory_UserEntityInstanceDatas)
 - [msdyn_iotdevicecategory_ProcessSession](#BKMK_msdyn_iotdevicecategory_ProcessSession)
 - [msdyn_iotdevicecategory_BulkDeleteFailures](#BKMK_msdyn_iotdevicecategory_BulkDeleteFailures)
 - [msdyn_iotdevicecategory_PrincipalObjectAttributeAccesses](#BKMK_msdyn_iotdevicecategory_PrincipalObjectAttributeAccesses)
@@ -584,9 +627,12 @@ Listed by **SchemaName**.
 - [msdyn_iotdevicecategory_connections2](#BKMK_msdyn_iotdevicecategory_connections2)
 - [msdyn_iotdevicecategory_Annotations](#BKMK_msdyn_iotdevicecategory_Annotations)
 - [msdyn_msdyn_iotdevicecategory_msdyn_iotdevice_Category](#BKMK_msdyn_msdyn_iotdevicecategory_msdyn_iotdevice_Category)
+- [msdyn_msdyn_iotdevicecategory_msdyn_iotdeviceproperty_DeviceCategory](#BKMK_msdyn_msdyn_iotdevicecategory_msdyn_iotdeviceproperty_DeviceCategory)
 
 
 ### <a name="BKMK_msdyn_iotdevicecategory_SyncErrors"></a> msdyn_iotdevicecategory_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_iotdevicecategory_SyncErrors](syncerror.md#BKMK_msdyn_iotdevicecategory_SyncErrors) Many-To-One relationship.
 
@@ -598,10 +644,12 @@ Same as syncerror entity [msdyn_iotdevicecategory_SyncErrors](syncerror.md#BKMK_
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_iotdevicecategory_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_iotdevicecategory_DuplicateMatchingRecord"></a> msdyn_iotdevicecategory_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_iotdevicecategory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_iotdevicecategory_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -618,6 +666,8 @@ Same as duplicaterecord entity [msdyn_iotdevicecategory_DuplicateMatchingRecord]
 
 ### <a name="BKMK_msdyn_iotdevicecategory_DuplicateBaseRecord"></a> msdyn_iotdevicecategory_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_iotdevicecategory_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_iotdevicecategory_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -632,6 +682,8 @@ Same as duplicaterecord entity [msdyn_iotdevicecategory_DuplicateBaseRecord](dup
 
 
 ### <a name="BKMK_msdyn_iotdevicecategory_AsyncOperations"></a> msdyn_iotdevicecategory_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_iotdevicecategory_AsyncOperations](asyncoperation.md#BKMK_msdyn_iotdevicecategory_AsyncOperations) Many-To-One relationship.
 
@@ -648,6 +700,8 @@ Same as asyncoperation entity [msdyn_iotdevicecategory_AsyncOperations](asyncope
 
 ### <a name="BKMK_msdyn_iotdevicecategory_MailboxTrackingFolders"></a> msdyn_iotdevicecategory_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_iotdevicecategory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_iotdevicecategory_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -658,25 +712,12 @@ Same as mailboxtrackingfolder entity [msdyn_iotdevicecategory_MailboxTrackingFol
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_iotdevicecategory_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_iotdevicecategory_UserEntityInstanceDatas"></a> msdyn_iotdevicecategory_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_iotdevicecategory_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_iotdevicecategory_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_iotdevicecategory_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_iotdevicecategory_ProcessSession"></a> msdyn_iotdevicecategory_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_iotdevicecategory_ProcessSession](processsession.md#BKMK_msdyn_iotdevicecategory_ProcessSession) Many-To-One relationship.
 
@@ -693,6 +734,8 @@ Same as processsession entity [msdyn_iotdevicecategory_ProcessSession](processse
 
 ### <a name="BKMK_msdyn_iotdevicecategory_BulkDeleteFailures"></a> msdyn_iotdevicecategory_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_iotdevicecategory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_iotdevicecategory_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -707,6 +750,8 @@ Same as bulkdeletefailure entity [msdyn_iotdevicecategory_BulkDeleteFailures](bu
 
 
 ### <a name="BKMK_msdyn_iotdevicecategory_PrincipalObjectAttributeAccesses"></a> msdyn_iotdevicecategory_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [msdyn_iotdevicecategory_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_iotdevicecategory_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -723,6 +768,8 @@ Same as principalobjectattributeaccess entity [msdyn_iotdevicecategory_Principal
 
 ### <a name="BKMK_msdyn_iotdevicecategory_connections1"></a> msdyn_iotdevicecategory_connections1
 
+**Added by**: System Solution Solution
+
 Same as connection entity [msdyn_iotdevicecategory_connections1](connection.md#BKMK_msdyn_iotdevicecategory_connections1) Many-To-One relationship.
 
 |Property|Value|
@@ -738,6 +785,8 @@ Same as connection entity [msdyn_iotdevicecategory_connections1](connection.md#B
 
 ### <a name="BKMK_msdyn_iotdevicecategory_connections2"></a> msdyn_iotdevicecategory_connections2
 
+**Added by**: System Solution Solution
+
 Same as connection entity [msdyn_iotdevicecategory_connections2](connection.md#BKMK_msdyn_iotdevicecategory_connections2) Many-To-One relationship.
 
 |Property|Value|
@@ -752,6 +801,8 @@ Same as connection entity [msdyn_iotdevicecategory_connections2](connection.md#B
 
 
 ### <a name="BKMK_msdyn_iotdevicecategory_Annotations"></a> msdyn_iotdevicecategory_Annotations
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [msdyn_iotdevicecategory_Annotations](annotation.md#BKMK_msdyn_iotdevicecategory_Annotations) Many-To-One relationship.
 
@@ -780,6 +831,21 @@ Same as msdyn_iotdevice entity [msdyn_msdyn_iotdevicecategory_msdyn_iotdevice_Ca
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
+
+### <a name="BKMK_msdyn_msdyn_iotdevicecategory_msdyn_iotdeviceproperty_DeviceCategory"></a> msdyn_msdyn_iotdevicecategory_msdyn_iotdeviceproperty_DeviceCategory
+
+Same as msdyn_iotdeviceproperty entity [msdyn_msdyn_iotdevicecategory_msdyn_iotdeviceproperty_DeviceCategory](msdyn_iotdeviceproperty.md#BKMK_msdyn_msdyn_iotdevicecategory_msdyn_iotdeviceproperty_DeviceCategory) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_iotdeviceproperty|
+|ReferencingAttribute|msdyn_devicecategory|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_iotdevicecategory_msdyn_iotdeviceproperty_DeviceCategory|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
@@ -797,35 +863,78 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_iotdevicecategory_createdby"></a> lk_msdyn_iotdevicecategory_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_iotdevicecategory_createdby](systemuser.md#BKMK_lk_msdyn_iotdevicecategory_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_iotdevicecategory_createdonbehalfby"></a> lk_msdyn_iotdevicecategory_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_iotdevicecategory_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_iotdevicecategory_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_iotdevicecategory_modifiedby"></a> lk_msdyn_iotdevicecategory_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_iotdevicecategory_modifiedby](systemuser.md#BKMK_lk_msdyn_iotdevicecategory_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_iotdevicecategory_modifiedonbehalfby"></a> lk_msdyn_iotdevicecategory_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_iotdevicecategory_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_iotdevicecategory_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_iotdevicecategory"></a> user_msdyn_iotdevicecategory
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_msdyn_iotdevicecategory](systemuser.md#BKMK_user_msdyn_iotdevicecategory) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_iotdevicecategory"></a> team_msdyn_iotdevicecategory
+
+**Added by**: System Solution Solution
 
 See team Entity [team_msdyn_iotdevicecategory](team.md#BKMK_team_msdyn_iotdevicecategory) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_iotdevicecategory"></a> business_unit_msdyn_iotdevicecategory
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_msdyn_iotdevicecategory](businessunit.md#BKMK_business_unit_msdyn_iotdevicecategory) One-To-Many relationship.
+<a name="manytomany"></a>
+
+## Many-To-Many Relationships
+
+Relationship details provided where the msdyn_iotdevicecategory entity is the first entity in the relationship. Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_iotdevicecategorycommands"></a> msdyn_iotdevicecategorycommands
+
+IntersectEntityName: msdyn_iotdevicecategorycommands<br />
+#### Entity 1
+
+|Property|Value|
+|--------|-----|
+|IntersectAttribute|msdyn_iotdevicecategoryid|
+|IsCustomizable|True|
+|LogicalName|msdyn_iotdevicecategory|
+|NavigationPropertyName|msdyn_iotdevicecategorycommands|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+
+#### Entity 2
+
+|Property|Value|
+|--------|-----|
+|LogicalName|msdyn_iotdevicecommanddefinition|
+|IntersectAttribute|msdyn_iotdevicecommanddefinitionid|
+|NavigationPropertyName|msdyn_iotdevicecategorycommands|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_iotdevicecategory?text=msdyn_iotdevicecategory EntityType" />

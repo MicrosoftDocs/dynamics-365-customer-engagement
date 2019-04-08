@@ -22,9 +22,8 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 To embed a chat widget in Dynamics 365 for Customer Engagement Portal:
 
 1.	Sign in to Omni-channel Engagement Hub.
-2.	Go to **Administration** > **Work Streams**.
-3.	Select the work stream where you created your chat widget.
-4.	On the **Chat settings** tab, select the name of the chat widget you want to embed in Dynamics 365 for Customer Engagement Portal.
+2.	Go to **Administration** &gt; **Chat**.
+3.	Open the chat widget you want to embed in Dynamics 365 for Customer Engagement Portal.
 5.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
     > [!div class=mx-imgBorder]
     > ![Copy code snippet of a chat widget](../media/chat-widget-snippet.png "Copy code snippet of a chat widget")

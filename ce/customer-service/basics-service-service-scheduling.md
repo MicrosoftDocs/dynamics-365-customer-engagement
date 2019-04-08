@@ -55,8 +55,8 @@ The following scenario helps to understand how the new scheduling experience let
 
 Contoso bike repair schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
 
-- Geographical locations where they offer their services.
-- The personnel and equipment they have to perform those services. 
+- Geographical locations where they need to offer their services.
+- The personnel and equipment they need to perform those services. 
 - The types of bike repair services they offer. 
 - Work hours during which they perform their services. 
 - Capacity and expert level for all personnel.

@@ -18,9 +18,12 @@
     - name: "Reporting and Analytics Guide"
       tocHref: /dynamics365/customer-engagement/analytics/
       topicHref: /dynamics365/customer-engagement/analytics/reporting-analytics-with-dynamics-365
-    - name: Sales
+    - name: Sales Enterprise
       tocHref: /dynamics365/customer-engagement/sales-enterprise/
       topicHref: /dynamics365/customer-engagement/sales-enterprise/overview
+    - name: Sales Professional
+      tocHref: /dynamics365/customer-engagement/sales-professional/
+      topicHref: /dynamics365/customer-engagement/sales-professional/sales-professional-overview  
     - name: Customer Service
       tocHref: /dynamics365/customer-engagement/customer-service/
       topicHref: /dynamics365/customer-engagement/customer-service/overview

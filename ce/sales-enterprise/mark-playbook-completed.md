@@ -24,7 +24,7 @@ topic-status: Tech Reviewing
 
 # Mark a playbook as completed
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.x
 
 When you complete all the activities created for a playbook, you must mark the playbook as completed. This helps you to know if the playbook was successful or not.
 

@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: news, product updates, product improvements, service updates
-ms.date: 01/23/2019
+ms.date: 04/04/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -30,6 +30,13 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2019 Update 1.2
+
+### Introducing new Reach prediction
+
+Now you can get to the viral Tweets before others.    
+We've upgraded the Reach prediction to consider *who* is writing, *what* is being said, *how*, and *when*. Powered by the latest AI models from Social Engagement and methods from Microsoft Research, we can be the first to offer you high predictive performance. We strongly recommend to pay attention to content with high predicted Reach. Post with a high reach value is expected to get more retweets and thus will be seen by a much larger audience than an average tweet. 
+
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2019 Update 1.1
 
 ### Discontinuation of Microsoft Social Engagement and transition to Dynamics 365 Market Insights
@@ -47,7 +54,7 @@ More information:
 
 This release introduces new languages for sentiment analysis, search rules, and the user interface. 
 
-The following languages are available in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md) with Update 1.12:
+The following languages are available in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with Update 1.12:
 - Indonesian (Bahasa)
 - Czech
 - Hungarian

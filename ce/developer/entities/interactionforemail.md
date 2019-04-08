@@ -1,21 +1,22 @@
 ---
-title: "InteractionForEmail Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "InteractionForEmail Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the InteractionForEmail entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # InteractionForEmail Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 
 
@@ -24,7 +25,8 @@ search.app:
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/interactionforemails<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/interactionforemails(*interactionforemailid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/interactionforemails<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
 ## Entity Properties
 
@@ -48,6 +50,7 @@ search.app:
 
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
+- [EmailAddress](#BKMK_EmailAddress)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [InteractedComponentText](#BKMK_InteractedComponentText)
 - [InteractionForEmailId](#BKMK_InteractionForEmailId)
@@ -64,6 +67,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
 - [TransactionCurrencyId](#BKMK_TransactionCurrencyId)
 - [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
+
+
+### <a name="BKMK_EmailAddress"></a> EmailAddress
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Email Interaction Component Related Text|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|emailaddress|
+|MaxLength|1250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
@@ -325,7 +344,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -339,6 +360,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [EmailInteractionReplyId](#BKMK_EmailInteractionReplyId)
 - [EmailInteractionTime](#BKMK_EmailInteractionTime)
 - [ExchangeRate](#BKMK_ExchangeRate)
+- [InteractionPartyId](#BKMK_InteractionPartyId)
+- [InteractionPartyTypecode](#BKMK_InteractionPartyTypecode)
 - [InteractionType](#BKMK_InteractionType)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedByName](#BKMK_ModifiedByName)
@@ -518,6 +541,35 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Precision|10|
 |RequiredLevel|None|
 |Type|Decimal|
+
+
+### <a name="BKMK_InteractionPartyId"></a> InteractionPartyId
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Interaction party id.|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|interactionpartyid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_InteractionPartyTypecode"></a> InteractionPartyTypecode
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only|
+|DisplayName|Interaction party type code.|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|interactionpartytypecode|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_InteractionType"></a> InteractionType
@@ -761,7 +813,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 Listed by **SchemaName**.
 
 - [interactionforemail_BulkOperations](#BKMK_interactionforemail_BulkOperations)
-- [interactionforemail_CampaignActivities](#BKMK_interactionforemail_CampaignActivities)
 - [interactionforemail_CampaignResponses](#BKMK_interactionforemail_CampaignResponses)
 - [interactionforemail_IncidentResolutions](#BKMK_interactionforemail_IncidentResolutions)
 - [interactionforemail_ServiceAppointments](#BKMK_interactionforemail_ServiceAppointments)
@@ -776,6 +827,8 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_interactionforemail_BulkOperations"></a> interactionforemail_BulkOperations
 
+**Added by**: Marketing Solution
+
 Same as bulkoperation entity [interactionforemail_BulkOperations](bulkoperation.md#BKMK_interactionforemail_BulkOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -789,22 +842,9 @@ Same as bulkoperation entity [interactionforemail_BulkOperations](bulkoperation.
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_interactionforemail_CampaignActivities"></a> interactionforemail_CampaignActivities
-
-Same as campaignactivity entity [interactionforemail_CampaignActivities](campaignactivity.md#BKMK_interactionforemail_CampaignActivities) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|campaignactivity|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|interactionforemail_CampaignActivities|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
 ### <a name="BKMK_interactionforemail_CampaignResponses"></a> interactionforemail_CampaignResponses
+
+**Added by**: Marketing Solution
 
 Same as campaignresponse entity [interactionforemail_CampaignResponses](campaignresponse.md#BKMK_interactionforemail_CampaignResponses) Many-To-One relationship.
 
@@ -821,6 +861,8 @@ Same as campaignresponse entity [interactionforemail_CampaignResponses](campaign
 
 ### <a name="BKMK_interactionforemail_IncidentResolutions"></a> interactionforemail_IncidentResolutions
 
+**Added by**: Service Solution
+
 Same as incidentresolution entity [interactionforemail_IncidentResolutions](incidentresolution.md#BKMK_interactionforemail_IncidentResolutions) Many-To-One relationship.
 
 |Property|Value|
@@ -835,6 +877,8 @@ Same as incidentresolution entity [interactionforemail_IncidentResolutions](inci
 
 
 ### <a name="BKMK_interactionforemail_ServiceAppointments"></a> interactionforemail_ServiceAppointments
+
+**Added by**: Service Solution
 
 Same as serviceappointment entity [interactionforemail_ServiceAppointments](serviceappointment.md#BKMK_interactionforemail_ServiceAppointments) Many-To-One relationship.
 
@@ -851,6 +895,8 @@ Same as serviceappointment entity [interactionforemail_ServiceAppointments](serv
 
 ### <a name="BKMK_interactionforemail_OpportunityCloses"></a> interactionforemail_OpportunityCloses
 
+**Added by**: Sales Solution
+
 Same as opportunityclose entity [interactionforemail_OpportunityCloses](opportunityclose.md#BKMK_interactionforemail_OpportunityCloses) Many-To-One relationship.
 
 |Property|Value|
@@ -865,6 +911,8 @@ Same as opportunityclose entity [interactionforemail_OpportunityCloses](opportun
 
 
 ### <a name="BKMK_interactionforemail_OrderCloses"></a> interactionforemail_OrderCloses
+
+**Added by**: Sales Solution
 
 Same as orderclose entity [interactionforemail_OrderCloses](orderclose.md#BKMK_interactionforemail_OrderCloses) Many-To-One relationship.
 
@@ -881,6 +929,8 @@ Same as orderclose entity [interactionforemail_OrderCloses](orderclose.md#BKMK_i
 
 ### <a name="BKMK_interactionforemail_QuoteCloses"></a> interactionforemail_QuoteCloses
 
+**Added by**: Sales Solution
+
 Same as quoteclose entity [interactionforemail_QuoteCloses](quoteclose.md#BKMK_interactionforemail_QuoteCloses) Many-To-One relationship.
 
 |Property|Value|
@@ -896,6 +946,8 @@ Same as quoteclose entity [interactionforemail_QuoteCloses](quoteclose.md#BKMK_i
 
 ### <a name="BKMK_interactionforemail_msdyn_bookingalerts"></a> interactionforemail_msdyn_bookingalerts
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_bookingalert entity [interactionforemail_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_interactionforemail_msdyn_bookingalerts) Many-To-One relationship.
 
 |Property|Value|
@@ -910,6 +962,8 @@ Same as msdyn_bookingalert entity [interactionforemail_msdyn_bookingalerts](msdy
 
 
 ### <a name="BKMK_interactionforemail_msdyn_approvals"></a> interactionforemail_msdyn_approvals
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_approval entity [interactionforemail_msdyn_approvals](msdyn_approval.md#BKMK_interactionforemail_msdyn_approvals) Many-To-One relationship.
 
@@ -1004,6 +1058,6 @@ See transactioncurrency Entity [TransactionCurrency_InteractionForEmail](transac
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.interactionforemail?text=interactionforemail EntityType" />

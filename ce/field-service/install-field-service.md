@@ -57,7 +57,7 @@ You can add a trial or a purchased subscription of the Field Service application
 2. Select **Dynamics 365 for Field Service Enterprise Edition**, and then select **Buy now**. 
 3. Follow the on-screen instructions to install the application. Installation may take several minutes.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of purchasing Field Service from Office 365 Admin center](media/field-service-purchase.png)  
+> ![Screenshot of purchasing Field Service from Microsoft 365 admin center](media/field-service-purchase.png)  
 
 ### Verify that the installation is complete
 
@@ -115,16 +115,16 @@ After you install the Field Service Mobile configuration tool, you need to downl
 
 The mobile project template contains all customizations for the Field Service Mobile app. A mobile project allows you to customize the mobile experience across devices. For example, you use a mobile project to add, remove, and change fields, entities, views, and forms on the mobile app.
  
-1. Open the mobile configuration tool in a **in a non-private** Internet Explorer window. In the Dynamics 365 for Customer Engagement organization, go to **Settings > Woodford > MobileCRM Woodford**.
+1. Open the Mobile Configuration Tool (Woodford) by going to **Settings > Woodford** and selecting **MobileCRM Woodford HTML5**. If you experience trouble opening or performing functions in the HTML5 version, you can use the MobileCRM Woodford Legacy in a non-private Internet Explorer browser window.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Woodford admin interface](media/mobile-install-mobilecrm-woodford.png)
 
-2. Set the storage quota to **500MB**, and then select **OK**.
+2. You may be asked to set a storage quota. Set to **500MB**, and then select **OK**.
 
 3. Register yourself as a user.
 
-4. [Download mobile project for **Field Service Mobile** (latest) Field Service v7.5.5 and v8.2+](https://aka.ms/fsmobile-project) and save in a location other than the Downloads folder.
+4. [Download mobile project for **Field Service Mobile** (latest) Field Service v7.5.5 and v8.2+](https://aka.ms/fsmobile-project) and save in a location other than the Downloads folder. NOTE: If you have an existing mobile project from a previous app version, you will need to manually move the customizations for that project into a derivative of this project.
 
 - The mobile project is updated periodically; [bookmark this website](https://aka.ms/fsmobile-project) for regular access the latest mobile project.
 

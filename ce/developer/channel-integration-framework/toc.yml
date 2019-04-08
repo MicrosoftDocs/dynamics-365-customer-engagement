@@ -7,7 +7,7 @@
       href: overview-channel-integration-framework.md
     - name: "Architecture overview of Channel Integration Framework (CIF)"
       href: architecture-overview-channel-integration-framework.md
-    - name: "System requirements of Channel Integration Framework"
+    - name: "System requirements for Channel Integration Framework"
       href:  system-requirements-channel-integration-framework.md
   - name: "What's new"
     href: whats-new-channel-integration-framework.md
@@ -21,6 +21,8 @@
     items:
     - name: "Configure channel provider for your Dynamics 365 organization"
       href: configure-channel-provider-channel-integration-framework.md
+    - name: "Build a simple communication widget"
+      href: getting-started-simple-widget.md
     - name: "Enable outbound communication (ClickToAct)"
       href: enable-outbound-communication-clicktoact.md
     - name: "Add CIF solution as a dependent solution"

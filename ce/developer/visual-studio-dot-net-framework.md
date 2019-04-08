@@ -2,7 +2,7 @@
 title: "Visual Studio and the .NET Framework (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Learn about managed code development tools and requirements."
 keywords: 
-ms.date: 01/25/2019
+ms.date: 03/229/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -15,7 +15,7 @@ ms.assetid: b2d572f9-6114-4694-a2d1-127cff861a96
 author: JimDaly
 ms.author: kvivek
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 20

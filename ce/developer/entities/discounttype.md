@@ -1,36 +1,38 @@
 ---
-title: "DiscountType Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "DiscountType Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the DiscountType entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # DiscountType Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Type of discount specified as either a percentage or an amount.
 
-**Added by**: Sales Solution<br />
+**Added by**: Sales Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/discounttypes<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/discounttypes(*discounttypeid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/discounttypes(*discounttypeid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/discounttypes<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/discounttypes(*discounttypeid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/discounttypes(*discounttypeid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.0/discounttypes<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/discounttypes(*discounttypeid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/discounttypes(*discounttypeid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/discounttypes<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/discounttypes(*discounttypeid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/discounttypes(*discounttypeid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -260,7 +262,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -566,7 +570,6 @@ Listed by **SchemaName**.
 - [DiscountType_SyncErrors](#BKMK_DiscountType_SyncErrors)
 - [DiscountType_AsyncOperations](#BKMK_DiscountType_AsyncOperations)
 - [discounttype_MailboxTrackingFolders](#BKMK_discounttype_MailboxTrackingFolders)
-- [userentityinstancedata_discounttype](#BKMK_userentityinstancedata_discounttype)
 - [DiscountType_ProcessSessions](#BKMK_DiscountType_ProcessSessions)
 - [DiscountType_BulkDeleteFailures](#BKMK_DiscountType_BulkDeleteFailures)
 - [discounttype_PrincipalObjectAttributeAccesses](#BKMK_discounttype_PrincipalObjectAttributeAccesses)
@@ -575,6 +578,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_DiscountType_SyncErrors"></a> DiscountType_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [DiscountType_SyncErrors](syncerror.md#BKMK_DiscountType_SyncErrors) Many-To-One relationship.
 
@@ -591,6 +596,8 @@ Same as syncerror entity [DiscountType_SyncErrors](syncerror.md#BKMK_DiscountTyp
 
 ### <a name="BKMK_DiscountType_AsyncOperations"></a> DiscountType_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [DiscountType_AsyncOperations](asyncoperation.md#BKMK_DiscountType_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -606,6 +613,8 @@ Same as asyncoperation entity [DiscountType_AsyncOperations](asyncoperation.md#B
 
 ### <a name="BKMK_discounttype_MailboxTrackingFolders"></a> discounttype_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [discounttype_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_discounttype_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -619,22 +628,9 @@ Same as mailboxtrackingfolder entity [discounttype_MailboxTrackingFolders](mailb
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_userentityinstancedata_discounttype"></a> userentityinstancedata_discounttype
-
-Same as userentityinstancedata entity [userentityinstancedata_discounttype](userentityinstancedata.md#BKMK_userentityinstancedata_discounttype) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_discounttype|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_DiscountType_ProcessSessions"></a> DiscountType_ProcessSessions
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [DiscountType_ProcessSessions](processsession.md#BKMK_DiscountType_ProcessSessions) Many-To-One relationship.
 
@@ -651,6 +647,8 @@ Same as processsession entity [DiscountType_ProcessSessions](processsession.md#B
 
 ### <a name="BKMK_DiscountType_BulkDeleteFailures"></a> DiscountType_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [DiscountType_BulkDeleteFailures](bulkdeletefailure.md#BKMK_DiscountType_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -665,6 +663,8 @@ Same as bulkdeletefailure entity [DiscountType_BulkDeleteFailures](bulkdeletefai
 
 
 ### <a name="BKMK_discounttype_PrincipalObjectAttributeAccesses"></a> discounttype_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [discounttype_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_discounttype_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -724,31 +724,43 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_discounttypebase_createdby"></a> lk_discounttypebase_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_discounttypebase_createdby](systemuser.md#BKMK_lk_discounttypebase_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_discounttype_createdonbehalfby"></a> lk_discounttype_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_discounttype_createdonbehalfby](systemuser.md#BKMK_lk_discounttype_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_discounttypebase_modifiedby"></a> lk_discounttypebase_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_discounttypebase_modifiedby](systemuser.md#BKMK_lk_discounttypebase_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_discounttype_modifiedonbehalfby"></a> lk_discounttype_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_discounttype_modifiedonbehalfby](systemuser.md#BKMK_lk_discounttype_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_organization_discount_types"></a> organization_discount_types
 
+**Added by**: System Solution Solution
+
 See organization Entity [organization_discount_types](organization.md#BKMK_organization_discount_types) One-To-Many relationship.
 
 ### <a name="BKMK_transactioncurrency_discounttype"></a> transactioncurrency_discounttype
+
+**Added by**: System Solution Solution
 
 See transactioncurrency Entity [transactioncurrency_discounttype](transactioncurrency.md#BKMK_transactioncurrency_discounttype) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.discounttype?text=discounttype EntityType" />

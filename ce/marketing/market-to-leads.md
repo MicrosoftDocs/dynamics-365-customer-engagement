@@ -51,35 +51,29 @@ The resulting system will align with industry best practices and provide many be
 
 For example, to set up a segment that finds all the leads collected at a recent conference, you could do the following:
 
-1. Go to **Marketing** > **Customers** > **Segments**.
+1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.  
+    ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
 
-2. Choose **New** from the command bar to create a new segment.
+    Do the following:
 
-3. Fill out the **General** tab to describe your new segment.
+    - Enter a **Name** for the segment at the top of the page.
+    - Select the close button to remove the default contact group from the **Designer** area. Many of your segments will probably start and end with the contact entity, but for this example we will start with lead instead.
 
-4. Go to the **Definition** tab to set up your query.
-
-5. By default, the query designer opens with a segment group that already has the **Contact** entity selected. But we don't want to search on contacts, so choose the close button to remove the default query group.  
-    <br/>
-    ![Close the default query group](media/leads-segment-close-group.png "Close the default query group")
-
-6. Choose **Lead** from the **Select a profile or relationship** drop-down list.  
-    <br/>
+1. When default contact group closes, it's replaced by a **Select a profile or relationship** drop-down list. Select **Lead** from here.)    
     ![Create a lead query group](media/leads-segment-lead-group.png "Create a lead query group")
 
-7. Set up a query to find the leads you need. In this example, we'll look for leads collected at a recent conference; all were assigned a **Topic** of "Contoso Ltd Conference".  
-    <br/>
+1. Set up a query to find the leads you need. In this example, we'll look for leads collected at a recent conference; all were assigned a **Topic** of "Contoso Ltd Conference".    
     ![An example lead query](media/leads-segment-lead-clause.png "An example lead query")
 
-8. All segments must end by making a connection to the contact entity, so choose **And** to add a new clause to your expression and set it to **lead\_contact\_parentcontactid\__&lt;ServerSuffix&gt;_**, which links from the lead record to the related contact record based on the lead's parent contact ID.  
-    <br/>
+1. All segments must end by making a connection to the contact entity, so choose **+ And** to add a new clause to your expression and set it to **Lead -> Contact (Parent Contact for lead)**, which links from the lead record to the related contact record based on the lead's parent contact ID.  Leave it set it to match **All&#42;**.    
     ![Link to the related contact records](media/leads-segment-lead-relation.png "Link to the related contact records")
 
-9. Set the new relation to **All&ast;** to find all contacts that relate to the found leads.  
-    <br/>
-    ![The final lead segment query](media/leads-segment-lead-final.png "The final lead segment query")
+1. Select **+And** to add a final clause to the group, which must end with the contact entity. Set the new clause to use the **Contact** entity and leave it set it to match **All&#42;** to find all contacts associated with the selected leads.  
+    ![Finish the path to the contact entity](media/leads-segment-contacts.png "Finish the path to the contact entity")
 
-10. Choose **Go Live** from the command bar to publish the segment.
+1. Select **Save** and then **Go live** on the command bar.
+
+1. Your segment is now live and will now find contacts associated with leads that have the specified topic.
 
 ## Automatically generate contacts for orphaned leads
 

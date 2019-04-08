@@ -2,7 +2,7 @@
 title: "Design, preview, check, and send marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to design and deliver marketing email messages in Dynamics 365 for Marketing"
 keywords: email; marketing email; dynamic content; go live; validation; preview; Litmus
-ms.date: 12/17/2018
+ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -120,7 +120,7 @@ For complete details about these and other dynamic-content features, see [Add dy
 
 ## Inspect and edit the text-only version of your message
 
-The HTML mail standard allows for messages to include both an HTML version and a plain-text version of your content. The purpose of the plaint-text version is to allow your message to be legible when shown by email clients that don't support HTML (or which have HTML turned off). Mail clients will only show one version to users, and unless you're dealing with a very special market, it will almost always be the HTML version. It's a bit like the system of providing alt-text for images.
+The HTML mail standard allows for messages to include both an HTML version and a plain-text version of your content. The purpose of the plain-text version is to allow your message to be legible when shown by email clients that don't support HTML (or which have HTML turned off). Mail clients will only show one version to users, and unless you're dealing with a very special market, it will almost always be the HTML version. It's a bit like the system of providing alt-text for images.
 
 So why bother with the plain-text version? To improve deliverability. One of the red flags that anti-spam systems look for is an email message that includes HTML content but no plain-text content (or plain-text content that doesn't match the HTML content). To help ensure that your marketing email messages don't get flagged as spam, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generates a plain-text version of your HTML design and includes it when it sends the message. Usually you won't have to worry about the plain-text version, but you can still inspect and optimize it if you like.
 
@@ -129,19 +129,19 @@ Start by designing the HTML version of your message. When you're almost done, go
 - To fine-tune the text version, clear the **Automatically generate** check box to unlock the text field, and then edit the text as needed. From now on, though, your text version will no longer be linked to the HTML version and won't be updated to match any changes you make to the HTML.
 - To go back to tracking the HTML version, reselect the **Automatically generate** check box. This will remove any customizations that you've made to the plain text and update it to match the current HTML design on an ongoing basis.
 
-## Set advanced header options
+## Set sender and receiver options
 
-In addition to the message description and plain-text version, the **Summary** tab also offers **Advanced Header** settings. Usually you shouldn't edit these, but they can be useful in some scenarios.
+In addition to the message description and plain-text version, the **Summary** tab also offers **Sender and receiver** settings. Usually you shouldn't edit these, but they can be useful in some scenarios.
 
 > [!IMPORTANT]
-> When you create a new email, the **Advanced Header** settings are initially blank, but after you've made the standard settings for the **From** contact and saved the message at least once, the correct values are added here automatically. If you edit these values before saving (or after), correct default values will no longer be offered. You should only edit these values if you're sure you need to.
+> When you create a new email, the **Sender and receiver** settings are initially blank, but after you've made the standard settings for the **From** contact and saved the message at least once, the correct values are added here automatically. If you edit these values before saving (or after), correct default values will no longer be offered. You should only edit these values if you're sure you need to.
 
-The following **Advanced Header** settings are available:
+The following **Sender and receiver** settings are available:
 
-- **Email from name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
-- **Email from address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the address of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
-- **To**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
-- **Reply-to email**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **Email from address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+- **From name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+- **From address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the address of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+- **To address**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
+- **Reply-to address**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **From address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
 
 <a name="designation"></a>
 
@@ -218,7 +218,7 @@ Use the following drop-down lists on the right side of the **Designer** &gt; **P
 
 Go to the **Designer** &gt; **Preview** &gt; **Inbox Preview** tab to see real-world inbox previews that show your design exactly as it will appear in a wide variety of target email clients and platforms. This feature renders your message by using native code from each of the listed target platforms, and then delivers your preview as an image file showing the precise results. As with the simple preview, you can use the **Designer** &gt; **Preview** &gt; **Inbox Preview** &gt; **Properties** tab to choose a **Contact** record and **Resource Set** from which to draw dynamic values (see also the previous section).
 
-The inbox preview is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)). Your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] license includes a limited number of inbox previews each month (typically 100), and this quota is shared by your entire organization. After your organization has used all the available previews for the month, each user must set up their own Litmus account if they want to create additional previews. Personal Litmus quotas apply to individual users, not to the entire organization. When you've used all your free previews, you'll be given the option to sign in to Litmus directly from the **Inbox Preview** tab in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. After you're signed in, the integration is seamless.
+The inbox preview is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)). Your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] license includes a limited number of inbox previews per month, and this quota is shared by your entire organization. After your organization has used all the available previews for the month, each user must set up their own Litmus account if they want to create additional previews. Personal Litmus quotas apply to individual users, not to the entire organization. When you've used all your free previews, you'll be given the option to sign in to Litmus directly from the **Inbox Preview** tab in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. After you're signed in, the integration is seamless.
 
 The **Inbox Preview** tab displays a grid of icons, each labeled with the name of a different destination platform or email client. Initially, each preview is dimmed and shows a key (locked) icon, which means that you haven't yet generated that preview by using your current design and settings. Select one of these icons to generate that preview and unlock its icon. Each time you unlock a preview, you'll use one preview from either your organization's or your personal quota. The unlocked preview remains available for viewing until you change the design or the **Properties** (dynamic text) settings, at which time all existing previews will no longer be valid and will be shown as locked again.
 
