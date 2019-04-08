@@ -2,7 +2,7 @@
 title: "msdyn_forecastinstance EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_forecastinstance EntityType"
 keywords: 
-ms.date: 03/18/2019
+ms.date: 04/08/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

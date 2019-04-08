@@ -2,7 +2,7 @@
 title: "msdyn_forecastrecurrence EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_forecastrecurrence EntityType"
 keywords: 
-ms.date: 03/18/2019
+ms.date: 04/08/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

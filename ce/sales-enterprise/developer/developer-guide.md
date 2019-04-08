@@ -2,7 +2,7 @@
 title: "Developer Guide (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Contains topics that describe how developers can work with Dynamics 365 for Sales"
 keywords: sales, developer guide
-ms.date: 03/18/2019
+ms.date: 04/08/2019
 ms.service:
   - dynamics-365-sales
 ms.custom:
@@ -37,6 +37,10 @@ Welcome to the Dynamics 365 for Sales Developer Guide. This documentation is for
 <tr><td>
 <h2>Playbooks</h2>
   <li><a href="reference/playbook-entity-reference.md" data-raw-source="[Entity reference for Playbooks](reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
+</td></tr>
+<tr><td>
+<h2>Action Reference</h2>
+  <li><a href="reference/recalculateprice-action.md" data-raw-source="[RecalculatePrice Action](reference/recalculateprice-action.md)">RecalculatePrice Action</a></li>
 </td></tr>
 </table>
 
