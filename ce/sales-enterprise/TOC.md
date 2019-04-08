@@ -66,21 +66,44 @@
 
  
 ## [Embedded intelligence](../sales-enterprise/embedded-intelligence.md)
+### [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
+#### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
 ### [Administrator guide](../sales-enterprise/configure-enable-embedded-intelligence.md)
+
 ### User guide
 #### [Guide customer communications with relationship assistant](../sales-enterprise/relationship-assistant.md)
 #### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
 #### [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
 #### [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
+
 #### [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md)
 ##### [Preview: Create insight cards](../sales-enterprise/create-insight-cards-flow.md)
 ##### [Preview: Edit insight cards](../sales-enterprise/edit-insight-cards.md)
 ##### [Preview: Optimize ranking of insight cards](../sales-enterprise/optimize-ranking-insight-cards.md)
 ### [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
 #### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
+
 ### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
 
 ## [Mobile guide for Sales Hub](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
+
+## [Developer Guide](../sales-enterprise/developer/developer-guide.md)
+### Manual forecasting
+#### [Entity reference](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)
+##### [msdyn_forecastdefinition](../sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md)
+##### [msdyn_forecastinstance](../sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md)
+##### [msdyn_forecastrecurrence](../sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md)
+#### [Custom actions](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
+### Playbooks
+#### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)
+##### [msdyn_playbookinstance](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookinstance.md)
+##### [msdyn_playbookactivity](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookactivity.md)
+##### [msdyn_playbookactivityattribute](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookactivityattribute.md)
+##### [msdyn_playbookcategory](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookcategory.md)
+##### [msdyn_playbooktemplate](../sales-enterprise/developer/reference/playbooks-entities/msdyn_playbooktemplate.md)
+##### [msdyn_callablecontext](../sales-enterprise/developer/reference/playbooks-entities/msdyn_callablecontext.md)
+### Action Reference
+#### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
 ## Troubleshooting
 ### [Troubleshooting guide for sales people](troubleshooting.md)
@@ -97,6 +120,3 @@
 ### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
 
 # [Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)
-
-# [Developer Guide](developer-guide.md)
-## [RecalculatePrice Action](../sales-enterprise/recalculateprice-action.md)
