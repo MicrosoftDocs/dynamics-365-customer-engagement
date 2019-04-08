@@ -2,7 +2,7 @@
 title: "Documentation resources for Dynamics 365 for Sales | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 for Sales."
 keywords: sales;help
-ms.date: 02/22/2018
+ms.date: 04/08/2019
 ms.service:
   - dynamics-365-sales
 ms.custom:
@@ -76,6 +76,8 @@ topic-status: Drafting
 <h2>Develop</h2>
 <li><a href="../sales-enterprise/extend-relationship-assistant-card.md" data-raw-source="[Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)">Create custom cards in Relationship assistant</a></li>
 <li><a href="../sales-enterprise/sample-extend-relationship-assistant-card-type.md" data-raw-source="[Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)">Sample: Extend Relationship assistant card type (custom card)</a></li>
+<li><a href="../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md" data-raw-source="[Entity reference for manual forecasting](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)">Entity reference for manual forecasting</a></li>
+<li><a href="../sales-enterprise/developer/reference/playbook-entity-reference.md" data-raw-source="[Entity reference for playbooks](../sales-enterprise/developer/reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
 </td></tr>
 
 <tr><td>
