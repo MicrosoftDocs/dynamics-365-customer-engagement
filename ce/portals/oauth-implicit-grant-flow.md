@@ -26,7 +26,7 @@ search.app:
 
 This feature allows a customer to make client-side calls to external APIs and secure them by using OAuth Implicit grant flow. It provides an endpoint to obtain secure access tokens that will contain user identity information to be used by external APIs for authorization following OAuth 2.0 Implicit grant flow. The identity information of a logged in user is passed in a secured manner to the external AJAX calls. This would not only help developers to pass authentication context but will also help users to secure their API's by using this mechanism.
 
-OAuth 2.0 Implicit grant flow supports endpoints that a client can call to get ID token. There are two endpoints that are used for this purpose: authorize and token.
+OAuth 2.0 Implicit grant flow supports endpoints that a client can call to get ID token. There are two endpoints that are used for this purpose: [authorize](#authorize-endpoint-details) and [token](#token-endpoint-details).
 
 ## Authorize endpoint details 
 
@@ -34,11 +34,11 @@ When your portal needs to authenticate the user and execute a user flow, it dire
 
 | Parameter   | Required? | Description                             |
 |---------------|-----------|---------------------------------------|
-| client_id      | Yes       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is registered with portal, otherwise an error is displayed. Client ID is added in claims in the token as `aud` as well as `appid` parameter and can be used by clients to validate that token returned is for their app.<br>The maximum length is 36 characters. Only alphanumeric characters and hyphen are supported. |
+| client_id      | Yes       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is [registered with portal](#register-client-id-for-implicit-grant-flow), otherwise an error is displayed. Client ID is added in claims in the token as `aud` as well as `appid` parameter and can be used by clients to validate that token returned is for their app.<br>The maximum length is 36 characters. Only alphanumeric characters and hyphen are supported. |
 | redirect_uri      | Yes       | URL of the portal where authentication responses can be sent and received. It must be registered for the particular `client_id` used in the call and should be exactly the same value as registered.            |
 | state       | No        | A value included in the request that also is returned in the token response. It can be a string of any content that you want to use. Usually, a randomly generated, unique value is used, to prevent cross-site request forgery attacks.<br>The maximum length is 20 characters.              |
 | nonce   | No        | A string value sent by the client that is included in the resulting ID token as a claim. The client can then verify this value to mitigate token replay attacks. The maximum length is 20 characters.      |
-| response_type         | No        | This parameter supports only token as a value. This allows your app to immediately receive an access token from the authorize endpoint, without making a second request to the authorize endpoint.                               |
+| response_type         | No        | This parameter supports only `token` as a value. This allows your app to immediately receive an access token from the authorize endpoint, without making a second request to the authorize endpoint.                               |
 |||
 
 The authorize endpoint must not be CORS enabled. This means that any client-side script from another host should not be able to make calls to them. This will help in preventing any cross-domain attacks which can lead to token being compromised.
@@ -74,15 +74,15 @@ For example, an error response looks as follows:
 
 ## Token endpoint details
 
-You can also get a token by making a request to the `/token endpoint. It is different from the authorization endpoint in the way that authorization endpoint handles the token logic in a separate page (redirect_uri), whereas the token endpoint handles the token logic on the same page. The URL for token endpoint is: `<portal_url>/_services/auth/token`. The token endpoint supports the following parameters:
+You can also get a token by making a request to the `/token` endpoint. It is different from the authorization endpoint in the way that authorization endpoint handles the token logic in a separate page (redirect_uri), whereas the token endpoint handles the token logic on the same page. The URL for token endpoint is: `<portal_url>/_services/auth/token`. The token endpoint supports the following parameters:
 
 | Parameter   | Required? | Description                             |
 |---------------|-----------|---------------------------------------|
-| client_id      | No       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is registered with portal, otherwise an error is displayed. Client ID is added in claims in the token as `aud` as well as `appid` parameter and can be used by clients to validate that token returned is for their app.<br>The maximum length is 36 characters. Only alphanumeric characters and hyphen are supported. |
+| client_id      | No       | A string that is passed when making a call to the authorize endpoint. You must ensure that the client ID is [registered with portal](#register-client-id-for-implicit-grant-flow), otherwise an error is displayed. Client ID is added in claims in the token as `aud` as well as `appid` parameter and can be used by clients to validate that token returned is for their app.<br>The maximum length is 36 characters. Only alphanumeric characters and hyphen are supported. |
 | redirect_uri      | No       | URL of the portal where authentication responses can be sent and received. It must be registered for the particular `client_id` used in the call and should be exactly the same value as registered.            |
 | state       | No        | A value included in the request that also is returned in the token response. It can be a string of any content that you want to use. Usually, a randomly generated, unique value is used, to prevent cross-site request forgery attacks.<br>The maximum length is 20 characters.              |
 | nonce   | No        | A string value sent by the client that is included in the resulting ID token as a claim. The client can then verify this value to mitigate token replay attacks. The maximum length is 20 characters.      |
-| response_type         | No        | This parameter supports only token as a value. This allows your app to immediately receive an access token from the authorize endpoint, without making a second request to the authorize endpoint.                               |
+| response_type         | No        | This parameter supports only `token` as a value. This allows your app to immediately receive an access token from the authorize endpoint, without making a second request to the authorize endpoint.                               |
 |||
 
 The token endpoint must not be CORS enabled. This means that any client-side script from another host should not be able to make calls to them. This will help in preventing any cross-domain attacks which can lead to token being compromised.
