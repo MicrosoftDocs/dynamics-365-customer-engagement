@@ -95,7 +95,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
 5. Click **Save and Close** to save the changes to the security role.  
 
 ### Required services 
-This list identifies all services to which PowerApps Studio talks and their usages. Your network must **not** block these services.
+This list identifies all services to which Dynamics 365 for Phones and Tablets talks and their usages. Your network must **not** block these services.
 
 | Domain(s) | Protocols | Uses |
 | --- | --- | --- |
