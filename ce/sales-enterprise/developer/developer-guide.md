@@ -46,5 +46,6 @@ Welcome to the Dynamics 365 for Sales Developer Guide. This documentation is for
 
 ### Related resources
 
+[Overview of Sales and Sales Hub](../overview.md)<br />
 [User Guide for Dynamics 365 for Sales](../user-guide.md)<br />
 [Administrator and Sales Manager Guide](../admin-guide.md)<br />
