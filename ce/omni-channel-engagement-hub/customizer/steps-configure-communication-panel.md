@@ -49,11 +49,11 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
 2. Select down arrow next Dynamics 365.
 
-4. Select **Unified Service Desk Administrator**.
+3. Select **Unified Service Desk Administrator**.
 
-5. Select **Action Calls** and select **+ New**.
+4. Select **Action Calls** and select **+ New**.
 
-6. In the new page, specify the following details.
+5. In the new page, specify the following details.
 
     | **Field**      | **Value**                       |
     |----------------|---------------------------------|
@@ -61,9 +61,9 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | Hosted Control | Communication Panel |
     | Action         | default             |
 
-7. Save the action call.
+6. Save the action call.
 
-8. Repeat steps 4 through 7 to create the following additional action calls.
+7. Repeat steps 3 through 6 to create the following additional action calls.
 
     | **Field**      | **Value**                       |
     |----------------|---------------------------------|
