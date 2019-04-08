@@ -1,6 +1,6 @@
 ---
-title: "Make client-side calls to external APIs and secure them by using OAuth Implicit grant flow in Dynamics 365 for Customer Engagement Portal | MicrosoftDocs"
-description: "Learn how to make client-side calls to external APIs and secure them by using OAuth Implicit grant flow in Dynamics 365 for Customer Engagement Portal."
+title: "Make client-side calls to external APIs and secure them by using OAuth implicit grant flow in Dynamics 365 for Customer Engagement Portal | MicrosoftDocs"
+description: "Learn how to make client-side calls to external APIs and secure them by using OAuth implicit grant flow in the Dynamics 365 for Customer Engagement Portal."
 ms.custom: 
   - dyn365-portal
 ms.date: 04/08/2019
@@ -22,11 +22,11 @@ search.app:
   - D365Portals
 ---
 
-# Use OAuth 2.0 Implicit grant flow within your portal 
+# Use OAuth 2.0 implicit grant flow within your portal 
 
-This feature allows a customer to make client-side calls to external APIs and secure them by using OAuth Implicit grant flow. It provides an endpoint to obtain secure access tokens that will contain user identity information to be used by external APIs for authorization following OAuth 2.0 Implicit grant flow. The identity information of a signed-in user is passed in a secured manner to the external AJAX calls. This would not only help developers to pass authentication context but will also help users to secure their APIs by using this mechanism.
+This feature allows a customer to make client-side calls to external APIs and secure them by using OAuth implicit grant flow. It provides an endpoint to obtain secure access tokens that will contain user identity information to be used by external APIs for authorization following OAuth 2.0 implicit grant flow. The identity information of a signed-in user is passed in a secured manner to the external AJAX calls. This will not only help developers to pass authentication context but will also help users to secure their APIs by using this mechanism.
 
-OAuth 2.0 Implicit grant flow supports endpoints that a client can call to get an ID token. Two endpoints are used for this purpose: [authorize](#authorize-endpoint-details) and [token](#token-endpoint-details).
+OAuth 2.0 implicit grant flow supports endpoints that a client can call to get an ID token. Two endpoints are used for this purpose: [authorize](#authorize-endpoint-details) and [token](#token-endpoint-details).
 
 ## Authorize endpoint details 
 
@@ -125,15 +125,15 @@ For example, an error response looks as follows:
 
 Just getting an ID token is not sufficient to authenticate the user; you must also validate the token's signature and verify the claims in the token based on your app's requirements. The public token endpoint provides the public key of the portal, which can be used to validate the signature of the token provided by the portal. The URL for public token endpoint is: `<portal_url>/_services/auth/publickey`.
 
-## Turn Implicit grant flow on or off
+## Turn implicit grant flow on or off
 
-By default, Implicit grant flow is enabled. If you want to turn off Implicit grant flow, set the value of the **Connector/ImplicitGrantFlowEnabled** site setting to **False**.
+By default, implicit grant flow is enabled. If you want to turn off implicit grant flow, set the value of the **Connector/ImplicitGrantFlowEnabled** site setting to **False**.
 
 ## Configure token validity
 
 By default, the token is valid for 15 minutes. If you want to change the validity of token, set the value of the **ImplicitGrantFlow/TokenExpirationTime** site setting to the required value. The value must be specified in seconds. The maximum value can be 1 hour, and the minimum value must be 1 minute. If an incorrect value is specified (for example, alphanumeric characters), the default value of 15 minutes is used. If you specify a value more than the maximum value or less than the minimum value, the maximum and minimum values are used respectively, by default.
 
-## Register client ID for Implicit grant flow
+## Register client ID for implicit grant flow
 
 You must register the client ID with the portal for which this flow is allowed. To register a client ID, you must create the following site settings:
 
