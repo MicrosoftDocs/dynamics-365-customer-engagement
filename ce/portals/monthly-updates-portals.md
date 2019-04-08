@@ -38,7 +38,7 @@ Portal capabilities version 9.1.4 for [!INCLUDE[pn-dynamics-crm](../includes/pn-
 
 - **Enable content moderation on ideas**: As a portal administrator, you can now create a content moderation policy to moderate the ideas that are submitted on your portal. More information: [Enable content moderation on ideas](enable-idea-content-moderation.md)
 
-- **OAuth 2.0 Implicit grant flow**: As a portal developer, you can now get data from external applications and display it in portals in a secure manner. Client-side calls can be made to external APIs and get them secured by using OAuth 2.0 Implicit grant flow.
+- **OAuth 2.0 Implicit grant flow**: As a portal developer, you can now get data from external applications and display it in portals in a secure manner. Client-side calls can be made to external APIs and get them secured by using OAuth 2.0 Implicit grant flow. More information: [OAuth 2.0 Implicit grant flow](oauth-implicit-grant-flow.md)
 
 - **Common Data Service starter portal (preview)**: As a portal administrator, you can now configure your portal to connect to the Common Data Service environment and allow your users to interact with it. This feature brings in the ability to connect a portal to a Common Data Service environment that does not have any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps (Sales, Service, or Marketing) preinstalled. More information: [Common Data Service starter portal](cds-portal.md)
 
