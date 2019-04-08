@@ -22,6 +22,10 @@ search.app:
   - D365Portals
 ---
 
+
+<!--from editor: Note that I changed "implicit" to lowercase. I couldn't find any reason to leave it capitalized.-->
+
+
 # Use OAuth 2.0 implicit grant flow within your portal 
 
 This feature allows a customer to make client-side calls to external APIs and secure them by using OAuth implicit grant flow. It provides an endpoint to obtain secure access tokens that will contain user identity information to be used by external APIs for authorization following OAuth 2.0 implicit grant flow. The identity information of a signed-in user is passed in a secured manner to the external AJAX calls. This will not only help developers to pass authentication context but will also help users to secure their APIs by using this mechanism.
