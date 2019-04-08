@@ -1,4 +1,5 @@
 ---
+redirect_url: /dynamics365/customer-engagement/sales-enterprise/developer/developer-guide
 title: "Developer Guide (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Contains topics that describe how developers can work with Dynamics 365 for Sales"
 keywords: sales, developer guide
