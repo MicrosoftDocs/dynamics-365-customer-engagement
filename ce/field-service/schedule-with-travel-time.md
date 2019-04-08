@@ -28,7 +28,14 @@ search.app:
 
 # Schedule with travel time
 
-Field Service organizations often travel to their customers' locations to perform preventative maintenance, inspections, repairs, and other types of service and rely on Dynamics 365 for Field Service to manage the routes of field technicians who travel to multiple customer sites each day. This makes understanding and minimizing travel time crucial for 
+Field Service organizations often travel to their customers' locations to perform preventative maintenance, inspections, repairs, and other types of service and rely on Dynamics 365 for Field Service to manage field technicians' routes to multiple customer sites each day. This makes understanding and minimizing travel time crucial for the field service organization's success.
+
+Using Bing Maps API by default, Dynamics 365 for Field Service calculates the driving travel time and distance as field technicians travel:
+
+1. from home to a work order location
+2. from a company location to a work order location
+3. from the current work order location to the next work order location
+4. from their current location to a work order location (typically for high priority emergencies)
 
 ## Prerequisites
 - connect to maps
