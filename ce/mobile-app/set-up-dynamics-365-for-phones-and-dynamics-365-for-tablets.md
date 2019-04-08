@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/26/2019
+ms.date: 04/08/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -93,7 +93,14 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
    -   User Settings  
   
 5. Click **Save and Close** to save the changes to the security role.  
-  
+
+### Required services 
+This list identifies all services to which PowerApps Studio talks and their usages. Your network must **not** block these services.
+
+| Domain(s) | Protocols | Uses |
+| --- | --- | --- |
+| service.powerapps.com |https |Starting with version 13.19033.0, used for email sign-in and the app list. |
+
 <a name="BKMK_UsersToDo"></a>   
 ## What users need to do  
  See this topic: [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)  
