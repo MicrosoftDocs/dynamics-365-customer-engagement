@@ -33,13 +33,15 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
 5. On the page for new hosted control, specify the following.
 
-    | **Field**                           | **Value**                       |
-    |-------------------------------------|---------------------------------|
-    | Name                                | Communication Panel |
-    | Unified Service Desk Component Type | USD Hosted Control              |
-    | Application is Global               | Select the checkbox             |
-    | Display Group              | LeftPanelFill            |
-    | Application is Dynamics               | yes            |
+    | Tab     | **Field**                           | **Value**                       |
+    |---------|-------------------------------------|---------------------------------|
+    | General | Name                                | Communication Panel |
+    | General | Unified Service Desk Component Type | USD Hosted Control |
+    | General | Application is Global               | Select the checkbox  |
+    | General | Display Group              | LeftPanelFill |
+    | General | Application is Dynamics               | yes |
+    | Hosting | Assembly URI               | `USDConfiguration.ChatControl` |
+    | Hosting | Assembly Type             | `USDConfiguration.ChatControl.OmniChannelHost` |
 
 6.  Save the hosted control.
 
