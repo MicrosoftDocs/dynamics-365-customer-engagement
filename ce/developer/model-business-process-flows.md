@@ -400,4 +400,3 @@ The only exception to this is programmatically modifying the **ProcessId** attri
 ### See also    
    
  - [Business process flows](../customize/business-process-flows-overview.md)
- - [Best practices for using business process flow entity attributes](.md)

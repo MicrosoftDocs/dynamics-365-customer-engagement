@@ -44,3 +44,4 @@ While working on opportunities, sales people define what forecast category an op
 [Create a forecast definition](create-forecast-definition.md)  
 [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)  
 [View forecasts](view-forecasts.md)
+[Entity reference for manual forecasting](developer/reference/manual-forecasting-entity-reference.md)
