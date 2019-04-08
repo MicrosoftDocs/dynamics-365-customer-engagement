@@ -20,8 +20,8 @@ search.app:
 # Entity reference for manual forecasting
 
 > [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)] 
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
+> [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)] 
+> [!INCLUDE[cc_preview_features_expect_changes](../../includes/cc-preview-features-expect-changes.md)]
 
 Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities.
 
