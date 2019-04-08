@@ -1,37 +1,39 @@
 ---
-title: "msdyn_contractlineinvoiceschedule Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_contractlineinvoiceschedule Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_contractlineinvoiceschedule entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_contractlineinvoiceschedule Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 List of dates that shows when invoicing for this customer should be run. This list is used by the invoice creation job.
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_contractlineinvoiceschedules<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_contractlineinvoiceschedules(*msdyn_contractlineinvoicescheduleid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_contractlineinvoiceschedules<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_contractlineinvoiceschedules(*msdyn_contractlineinvoicescheduleid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_contractlineinvoiceschedules(*msdyn_contractlineinvoicescheduleid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_contractlineinvoiceschedules<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_contractlineinvoiceschedules(*msdyn_contractlineinvoicescheduleid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_contractlineinvoiceschedules(*msdyn_contractlineinvoicescheduleid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_contractlineinvoiceschedules(*msdyn_contractlineinvoicescheduleid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_contractlineinvoiceschedules<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_contractlineinvoiceschedules(*msdyn_contractlineinvoicescheduleid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_contractlineinvoiceschedules(*msdyn_contractlineinvoicescheduleid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -57,6 +59,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_ContractLine](#BKMK_msdyn_ContractLine)
+- [msdyn_ContractLineId](#BKMK_msdyn_ContractLineId)
 - [msdyn_contractlineinvoicescheduleId](#BKMK_msdyn_contractlineinvoicescheduleId)
 - [msdyn_ContractLineScheduleOfValue](#BKMK_msdyn_ContractLineScheduleOfValue)
 - [msdyn_Invoice](#BKMK_msdyn_Invoice)
@@ -92,16 +95,30 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the associated project contract line for this invoice schedule.|
-|DisplayName|Project Contract Line|
+|Description|(Deprecated) Shows the associated project contract line for this invoice schedule.|
+|DisplayName|(Deprecated) Project Contract Line|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_contractline|
 |MaxLength|100|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_ContractLineId"></a> msdyn_ContractLineId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Project Contract Line associated with Project Contract Line Invoice Schedule.|
+|DisplayName|Project Contract Line|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_contractlineid|
+|RequiredLevel|None|
+|Targets|salesorderdetail|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_contractlineinvoicescheduleId"></a> msdyn_contractlineinvoicescheduleId
@@ -165,8 +182,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select the milestone status, for example, Not Ready to Invoice, Ready to Invoice, On an invoice, or Invoiced.|
-|DisplayName|Milestone status|
+|Description|Select the invoice status, for example, Not Run, Run Successful, or Run Failed.|
+|DisplayName|Invoice Status|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_invoicerunstatus|
@@ -305,7 +322,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -322,6 +341,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_ContractLineIdName](#BKMK_msdyn_ContractLineIdName)
 - [msdyn_ContractLineScheduleOfValueName](#BKMK_msdyn_ContractLineScheduleOfValueName)
 - [msdyn_InvoiceName](#BKMK_msdyn_InvoiceName)
 - [OrganizationId](#BKMK_OrganizationId)
@@ -330,6 +350,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -344,6 +366,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -360,6 +384,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -392,6 +418,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -405,6 +433,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -422,6 +452,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -438,6 +470,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -451,6 +485,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -467,6 +503,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -499,6 +537,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -512,6 +552,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -529,6 +571,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -540,6 +584,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |LogicalName|modifiedonbehalfbyyominame|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ContractLineIdName"></a> msdyn_ContractLineIdName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_contractlineidname|
+|MaxLength|100|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -577,6 +637,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the organization|
@@ -590,6 +652,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -606,6 +670,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -630,13 +696,14 @@ Listed by **SchemaName**.
 - [msdyn_contractlineinvoiceschedule_DuplicateBaseRecord](#BKMK_msdyn_contractlineinvoiceschedule_DuplicateBaseRecord)
 - [msdyn_contractlineinvoiceschedule_AsyncOperations](#BKMK_msdyn_contractlineinvoiceschedule_AsyncOperations)
 - [msdyn_contractlineinvoiceschedule_MailboxTrackingFolders](#BKMK_msdyn_contractlineinvoiceschedule_MailboxTrackingFolders)
-- [msdyn_contractlineinvoiceschedule_UserEntityInstanceDatas](#BKMK_msdyn_contractlineinvoiceschedule_UserEntityInstanceDatas)
 - [msdyn_contractlineinvoiceschedule_ProcessSession](#BKMK_msdyn_contractlineinvoiceschedule_ProcessSession)
 - [msdyn_contractlineinvoiceschedule_BulkDeleteFailures](#BKMK_msdyn_contractlineinvoiceschedule_BulkDeleteFailures)
 - [msdyn_contractlineinvoiceschedule_PrincipalObjectAttributeAccesses](#BKMK_msdyn_contractlineinvoiceschedule_PrincipalObjectAttributeAccesses)
 
 
 ### <a name="BKMK_msdyn_contractlineinvoiceschedule_SyncErrors"></a> msdyn_contractlineinvoiceschedule_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_contractlineinvoiceschedule_SyncErrors](syncerror.md#BKMK_msdyn_contractlineinvoiceschedule_SyncErrors) Many-To-One relationship.
 
@@ -653,6 +720,8 @@ Same as syncerror entity [msdyn_contractlineinvoiceschedule_SyncErrors](syncerro
 
 ### <a name="BKMK_msdyn_contractlineinvoiceschedule_DuplicateMatchingRecord"></a> msdyn_contractlineinvoiceschedule_DuplicateMatchingRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_contractlineinvoiceschedule_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_contractlineinvoiceschedule_DuplicateMatchingRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -667,6 +736,8 @@ Same as duplicaterecord entity [msdyn_contractlineinvoiceschedule_DuplicateMatch
 
 
 ### <a name="BKMK_msdyn_contractlineinvoiceschedule_DuplicateBaseRecord"></a> msdyn_contractlineinvoiceschedule_DuplicateBaseRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_contractlineinvoiceschedule_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_contractlineinvoiceschedule_DuplicateBaseRecord) Many-To-One relationship.
 
@@ -683,6 +754,8 @@ Same as duplicaterecord entity [msdyn_contractlineinvoiceschedule_DuplicateBaseR
 
 ### <a name="BKMK_msdyn_contractlineinvoiceschedule_AsyncOperations"></a> msdyn_contractlineinvoiceschedule_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [msdyn_contractlineinvoiceschedule_AsyncOperations](asyncoperation.md#BKMK_msdyn_contractlineinvoiceschedule_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -698,6 +771,8 @@ Same as asyncoperation entity [msdyn_contractlineinvoiceschedule_AsyncOperations
 
 ### <a name="BKMK_msdyn_contractlineinvoiceschedule_MailboxTrackingFolders"></a> msdyn_contractlineinvoiceschedule_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_contractlineinvoiceschedule_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_contractlineinvoiceschedule_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -711,22 +786,9 @@ Same as mailboxtrackingfolder entity [msdyn_contractlineinvoiceschedule_MailboxT
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_msdyn_contractlineinvoiceschedule_UserEntityInstanceDatas"></a> msdyn_contractlineinvoiceschedule_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_contractlineinvoiceschedule_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_contractlineinvoiceschedule_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_contractlineinvoiceschedule_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_msdyn_contractlineinvoiceschedule_ProcessSession"></a> msdyn_contractlineinvoiceschedule_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_contractlineinvoiceschedule_ProcessSession](processsession.md#BKMK_msdyn_contractlineinvoiceschedule_ProcessSession) Many-To-One relationship.
 
@@ -743,6 +805,8 @@ Same as processsession entity [msdyn_contractlineinvoiceschedule_ProcessSession]
 
 ### <a name="BKMK_msdyn_contractlineinvoiceschedule_BulkDeleteFailures"></a> msdyn_contractlineinvoiceschedule_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_contractlineinvoiceschedule_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_contractlineinvoiceschedule_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -757,6 +821,8 @@ Same as bulkdeletefailure entity [msdyn_contractlineinvoiceschedule_BulkDeleteFa
 
 
 ### <a name="BKMK_msdyn_contractlineinvoiceschedule_PrincipalObjectAttributeAccesses"></a> msdyn_contractlineinvoiceschedule_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [msdyn_contractlineinvoiceschedule_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_contractlineinvoiceschedule_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -783,25 +849,36 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [organization_msdyn_contractlineinvoiceschedule](#BKMK_organization_msdyn_contractlineinvoiceschedule)
 - [msdyn_contractlinescheduleofvalue_msdyn_contractlineinvoiceschedule](#BKMK_msdyn_contractlinescheduleofvalue_msdyn_contractlineinvoiceschedule)
 - [msdyn_invoice_msdyn_contractlineinvoiceschedule_Invoice](#BKMK_msdyn_invoice_msdyn_contractlineinvoiceschedule_Invoice)
+- [msdyn_salesorderdetail_msdyn_contractlineinvoic](#BKMK_msdyn_salesorderdetail_msdyn_contractlineinvoic)
 
 
 ### <a name="BKMK_lk_msdyn_contractlineinvoiceschedule_createdby"></a> lk_msdyn_contractlineinvoiceschedule_createdby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_contractlineinvoiceschedule_createdby](systemuser.md#BKMK_lk_msdyn_contractlineinvoiceschedule_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_contractlineinvoiceschedule_createdonbehalfby"></a> lk_msdyn_contractlineinvoiceschedule_createdonbehalfby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_contractlineinvoiceschedule_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_contractlineinvoiceschedule_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_contractlineinvoiceschedule_modifiedby"></a> lk_msdyn_contractlineinvoiceschedule_modifiedby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_contractlineinvoiceschedule_modifiedby](systemuser.md#BKMK_lk_msdyn_contractlineinvoiceschedule_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_contractlineinvoiceschedule_modifiedonbehalfby"></a> lk_msdyn_contractlineinvoiceschedule_modifiedonbehalfby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_contractlineinvoiceschedule_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_contractlineinvoiceschedule_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_organization_msdyn_contractlineinvoiceschedule"></a> organization_msdyn_contractlineinvoiceschedule
+
+**Added by**: System Solution Solution
 
 See organization Entity [organization_msdyn_contractlineinvoiceschedule](organization.md#BKMK_organization_msdyn_contractlineinvoiceschedule) One-To-Many relationship.
 
@@ -811,11 +888,19 @@ See msdyn_contractlinescheduleofvalue Entity [msdyn_contractlinescheduleofvalue_
 
 ### <a name="BKMK_msdyn_invoice_msdyn_contractlineinvoiceschedule_Invoice"></a> msdyn_invoice_msdyn_contractlineinvoiceschedule_Invoice
 
+**Added by**: Sales Solution
+
 See invoice Entity [msdyn_invoice_msdyn_contractlineinvoiceschedule_Invoice](invoice.md#BKMK_msdyn_invoice_msdyn_contractlineinvoiceschedule_Invoice) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_salesorderdetail_msdyn_contractlineinvoic"></a> msdyn_salesorderdetail_msdyn_contractlineinvoic
+
+**Added by**: Sales Solution
+
+See salesorderdetail Entity [msdyn_salesorderdetail_msdyn_contractlineinvoic](salesorderdetail.md#BKMK_msdyn_salesorderdetail_msdyn_contractlineinvoic) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_contractlineinvoiceschedule?text=msdyn_contractlineinvoiceschedule EntityType" />

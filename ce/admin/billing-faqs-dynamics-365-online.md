@@ -65,7 +65,7 @@ Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-cr
  If you're interested in placing an order for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps through Volume Licensing, you can find more information on what the best option is for you by reviewing How Volume Licensing Works.  For detailed information, see [Microsoft Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx).  
   
 ## How do I extend my Dynamics 365 for Customer Engagement apps (online) trial?  
- You can now extend your free trial on a self-serve extension on the [Admin portal](https://portal.office.com/default.aspx) for a one-time extension of 30 days. Alternatively, you can submit a service request via the portal or call the Billing Support toll free numbers. Please note that for self-serve extensions you’re required to enter your credit card information, but your credit card won’t be charged for trial extensions.  
+ You can now extend your free trial on a self-serve extension on the [Admin portal](https://admin.microsoft.com/default.aspx) for a one-time extension of 30 days. Alternatively, you can submit a service request via the portal or call the Billing Support toll free numbers. Please note that for self-serve extensions you’re required to enter your credit card information, but your credit card won’t be charged for trial extensions.  
   
 ## How do I migrate from Dynamics 365 for Customer Engagement apps (online) to the on-premises version of Dynamics 365 for Customer Engagement?  
  If your organization is considering changing from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps to the on-premises (server-based) version of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, you will need to work with [Technical support](contact-technical-support.md).  
@@ -89,7 +89,7 @@ You should have also made the following decisions:
   
 2. Do you want to keep any Internet Marketing service campaigns running? If you’re not the person who signed up for the marketing service, you must work with that person to cancel or maintain it.  
   
-In addition, you can now do a self-serve cancellation of your subscription from the [Admin portal](https://portal.office.com/default.aspx).  
+In addition, you can now do a self-serve cancellation of your subscription from the [Admin portal](https://admin.microsoft.com/default.aspx).  
   
 > [!IMPORTANT]
 >  If you cancel today, this subscription will remain active until the end of the billing cycle.  

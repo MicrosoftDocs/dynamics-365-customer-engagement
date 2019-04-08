@@ -32,7 +32,7 @@ You manage your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance
 > [!NOTE]
 > Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
   
-1.  Browse to the [Office 365 admin center](https://portal.office.com) and sign in using Global administrator credentials.  
+1.  Browse to the [Microsoft 365 admin center](https://admin.microsoft.com) and sign in using Global administrator credentials.  
   
 2.  Choose **Admin** > **Dynamics 365**  
   

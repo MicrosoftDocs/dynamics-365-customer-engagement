@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 03/07/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: b8ce1f5a-54b5-46f3-99a4-d4829fe42e67
@@ -28,9 +28,13 @@ The **Customer profile** form (card) provides details about the customer or acco
 
 The **Conversation summary** form (card) fetches details based on the context of the incoming conversation request. You can modify the fields in this form (card), and also, you can change the position of the form (card) on the **Customer summary** page.
 
-This form (card) includes two tabs: **Pre-chat** and **Visitor info**. The details on these tabs help you to understand contextual channel-specific information about the conversation with the customer. The **Pre-chat** tab shows the conversation details, escalation details, and transfer details.
+This form (card) includes two tabs: **Pre-chat survey** and **Visitor details**. The details on these tabs help you to understand contextual channel-specific information about the conversation with the customer. The **Pre-chat survey** tab shows the conversation details, escalation details, and transfer details.
 
-## Issue Snapshot
+The **Visitor details** tab provides some information such as the customer is authenticated or not, browser used by the customer for contacting support, an operating system used by the customer, location of the customer, interacting language of the customer, and so on.
+
+If the customer signs in to the portal to initiate a chat with the support, then as an agent, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
+
+## Issue snapshot
 
 For an incoming conversation request, the system links an existing case to the conversation and shows it on the **Issue Snapshot** form (card). This form (card) shows information such as the title of the case, the priority, the status of the case, the product, and the owner. You can customize this form (card) by adding or removing the fields.
 
@@ -38,9 +42,9 @@ For an incoming conversation request, the system links an existing case to the c
 
 This form section displays the recent cases that relate to the customer.
 
-## All activities
+## Recent activities
 
-The **All activities** form (card) shows the case-related and customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. You can also filter the timeline by customer activities, case activities, and conversation activities.
+The **Recent activities** form (card) shows the case-related and customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. You can also filter the timeline by customer activities, case activities, and conversation activities.
 
 > [!div class="nextstepaction"]
 > [Next topic: How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)

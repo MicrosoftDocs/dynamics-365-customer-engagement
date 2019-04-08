@@ -2,7 +2,7 @@
 title: "Set and use waitlists for events (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how event waitlists work, how to set them up, and how to invite waiting people when capacity becomes available in  Dynamics 365 for Marketing"
 keywords: events; waitlist
-ms.date: 12/17/2018
+ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -105,38 +105,40 @@ To create a segment that finds contacts who _are not_ using automatic registrati
 
     Find the part of the URL that starts with `&id=`, which is followed by the ID number of your current record. Copy that number (the value only) and use it in your expression.
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar.
+1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.
+    ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
 
-1. Fill out the **General** tab with a name and description for your new segment.
+    Do the following:
 
-1. Open the **Definition** tab. A default contact group is provided, but you don't want a contact group, so select the close button to remove this default group.  
+    - Enter a **Name** for the segment at the top of the page.
+    - Select the close button to remove the default contact group from the **Designer** area. Many of your segments will probably start and end with the contact entity, but for this example we will start with waitlist items instead.
 
-    ![Close the default group](media/event-waitlist-invite-segment1.png "Close the default group")
-
-1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Waitlist item** from here. 
-
+1. When default contact group closes, it's replaced by a **Select a profile or relationship** drop-down list. Select **Waitlist item** from here. (If you don't see the **Waitlist item** entity listed here, then you probably need to set up syncing for this entity as described in the previous section; note that it can take up to half an hour for a new entity to appear in this list after the first sync.)    
     ![Select the waitlist-item entity](media/event-waitlist-invite-segment2.png "Select the waitlist-item entity")
 
 1. Complete the row to create the logical expression:  
-**Waitlist Item | Automatically register | is | False**.  
-
+**Waitlist Item | Automatically register | is | False**.    
     ![Complete the waitlist-item clause](media/event-waitlist-invite-segment3.png "Complete the waitlist-item clause")
 
 1. Select **+ And** to add a second clause using an AND operator. Use it to create the logical expression:  
 **Waitlist Item | Invited | is | True**
 
 1. Select **+ And** to add a third clause. Use it to create the logical expression:  
-**Waitlist Item | Event msevtmgt\_event | is | &lt;YourEventID&gt;**
+**Waitlist Item | Event (event) | is | &lt;YourEventID&gt;**
 
     Where _&lt;YourEventID&gt;_ is the event ID you found at the start of this procedure.
 
 1. Select **+ And** to add a fourth clause. Use it to create the logical expression:  
-**msevtmgt\_waitlistitem\_contact\_msevtmgt\_contact\_&lt;YourOrg&gt; | All&ast;**
+**Waitlist item -> Contact (contact) | All&ast;**
 
-    This last clause links from the waitlist entity to the contact entity. All segments must resolve to a contact record, so this clause links the found waitlist records to their related contacts and returns that list of contacts.
+    This clause links from the waitlist entity to the contact entity. All segments must resolve to a contact record, so this clause links the found waitlist records to their related contacts and returns that list of contacts.
 
-1. Your final segment should resemble the following screenshot. Select **Save** at the bottom-right corner of the window to save your settings.  
+1. Select **+ And** to add a fifth clause. Use it to create the logical expression:  
+**Contact | All&ast;**
 
+    This clause adds all the matching contacts to the segment. 
+
+1. Select **Save** at the bottom-right corner of the window to save your settings. Your final segment should resemble the following screenshot:    
     ![The final invite segment query](media/event-waitlist-invite-segment4.png "The final invite segment query")
 
 1. Select **Go Live** from the command bar to activate the segment.
@@ -147,8 +149,9 @@ To create a segment that finds contacts who _have already_ been registered autom
 
 **Waitlist Item | Automatically register | is | True**  
 **AND Waitlist Item | Invited | is | True**  
-**AND Waitlist Item | Event msevtmgt\_event | is | &lt;YourEventID&gt;**  
-**AND msevtmgt\_waitlistitem\_contact\_msevtmgt\_contact\_&lt;YourOrg&gt; | All&ast;**
+**Waitlist Item | Event (event) | is | &lt;YourEventID&gt;**  
+**Waitlist item -> Contact (contact) | All&ast;**  
+**Contact | All&ast;**
 
 ![The final auto-registered segment query](media/event-waitlist-auto-segment.png "The final auto-registered segment query")
 

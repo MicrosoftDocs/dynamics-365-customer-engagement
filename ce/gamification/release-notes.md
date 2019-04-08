@@ -2,7 +2,7 @@
 title: "Learn about what's new in Microsoft Dynamics 365 for Customer Engagement - Gamification and the issues addressed by the team. | Microsoft Docs"
 description: "Learn about new features, improved capabilities, fixed issues in Dynamics 365 for Customer Engagement - Gamification."
 keywords: what's new, release notes, fixed issues, dynamics 365 gamification
-ms.date: 04/25/2018
+ms.date: 03/05/2019
 ms.service: dynamics-365-sales
 ms.topic: article
 applies_to: 
@@ -10,8 +10,6 @@ applies_to:
 ms.assetid: d94c2bbe-b73d-4369-9100-e5d1a096409a
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
 ms.custom: 
   - dyn365-gamification
 search.audienceType: 
@@ -30,6 +28,12 @@ Welcome to [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. Here's a
 If you are new to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], see [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md).
 
 The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] are the solution, which is [installed from AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919) and integrated in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)], and [the web portal](https://go.microsoft.com/fwlink/p/?linkid=830344), where all the fun happens.
+
+## Update 2019.1.4
+
+### Resolved issues
+- Improved the reliability of game data synchronizing from the Gamification portal to Dynamics 365 for Customer Engagement.
+- Improved the reliability of points calculation from Dynamics 365 for Customer Engagement to the Gamification portal.
 
 ## Update 2018.4.17 
 
@@ -86,7 +90,7 @@ The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-ga
 
 - This update introduces significant changes to user management for [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Instead of the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] web portal, security roles for users are now managed the same way they're managed in Dynamics 365 for Customer Engagement.  
   The Dynamics 365 for Customer Engagement (online) security role **KPI manager** is now called **Game manager**. If a user has the Game Manager security role assigned in Dynamics 365 for Customer Engagement, they get promoted to game manager in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] and can continue to create and edit KPIs in Dynamics 365 for Customer Engagement.
-  To promote a user to a Commissioner role in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a global admin of Dynamics 365 for Customer Engagement is required to assign the user the **Global Admin** or **Dynamics 365 for Customer Engagement Service Admin** role in the [Dynamics 365 for Customer Engagement Admin Center](https://portal.office.com). 
+  To promote a user to a Commissioner role in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a global admin of Dynamics 365 for Customer Engagement is required to assign the user the **Global Admin** or **Dynamics 365 for Customer Engagement Service Admin** role in the [Dynamics 365 for Customer Engagement Admin Center](https://admin.microsoft.com). 
   [!include[](../includes/proc-more-information.md)] [Available security roles](understand-security-roles.md)
 
 - Administrators can now connect multiple Dynamics 365 for Customer Engagement (online) organizations from the same Office 365 tenant to the same [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] web portal. This maintains a shared experience across organizations. [!include[](../includes/proc-more-information.md)] [Set up a connection to a Dynamics 365 for Customer Engagement (online) organization](manage-gamification-in-dynamics-365-online.md)

@@ -1,21 +1,22 @@
 ---
-title: "Role Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Role Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Role entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Role Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Grouping of security privileges. Users are assigned roles that authorize their access to the Microsoft CRM system.
 
@@ -25,14 +26,14 @@ Grouping of security privileges. Users are assigned roles that authorize their a
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
 |AddPrivilegesRole|<xref href="Microsoft.Dynamics.CRM.AddPrivilegesRole?text=AddPrivilegesRole Action" />|<xref:Microsoft.Crm.Sdk.Messages.AddPrivilegesRoleRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/roles<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/roles(*roleid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.0/roles<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/roles(*roleid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |RemovePrivilegeRole|<xref href="Microsoft.Dynamics.CRM.RemovePrivilegeRole?text=RemovePrivilegeRole Action" />|<xref:Microsoft.Crm.Sdk.Messages.RemovePrivilegeRoleRequest>|
 |ReplacePrivilegesRole|<xref href="Microsoft.Dynamics.CRM.ReplacePrivilegesRole?text=ReplacePrivilegesRole Action" />|<xref:Microsoft.Crm.Sdk.Messages.ReplacePrivilegesRoleRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/roles(*roleid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/roles<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/roles(*roleid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/roles<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrieveRolePrivilegesRole|<xref href="Microsoft.Dynamics.CRM.RetrieveRolePrivilegesRole?text=RetrieveRolePrivilegesRole Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveRolePrivilegesRoleRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/roles(*roleid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/roles(*roleid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -60,6 +61,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [CanBeDeleted](#BKMK_CanBeDeleted)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomizable](#BKMK_IsCustomizable)
+- [IsInherited](#BKMK_IsInherited)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [RoleId](#BKMK_RoleId)
@@ -123,6 +125,27 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|ManagedProperty|
 
 
+### <a name="BKMK_IsInherited"></a> IsInherited
+
+|Property|Value|
+|--------|-----|
+|Description|Role is inherited by users from team membership, if role associated with team.|
+|DisplayName|Is Inherited|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|isinherited|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+
+#### IsInherited Options
+
+|Value|Label|
+|-----|-----|
+|0|Default - Team privileges only|
+|1|Direct User (Read) access level and Team privileges|
+
+
+
 ### <a name="BKMK_Name"></a> Name
 
 |Property|Value|
@@ -169,7 +192,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Uniqueidentifier|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [BusinessUnitIdName](#BKMK_BusinessUnitIdName)
@@ -661,7 +686,6 @@ Listed by **SchemaName**.
 - [role_parent_root_role](#BKMK_role_parent_root_role)
 - [Role_BulkDeleteFailures](#BKMK_Role_BulkDeleteFailures)
 - [Role_SyncErrors](#BKMK_Role_SyncErrors)
-- [userentityinstancedata_role](#BKMK_userentityinstancedata_role)
 
 
 ### <a name="BKMK_role_parent_role"></a> role_parent_role
@@ -738,21 +762,6 @@ Same as syncerror entity [Role_SyncErrors](syncerror.md#BKMK_Role_SyncErrors) Ma
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
-
-### <a name="BKMK_userentityinstancedata_role"></a> userentityinstancedata_role
-
-Same as userentityinstancedata entity [userentityinstancedata_role](userentityinstancedata.md#BKMK_userentityinstancedata_role) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_role|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
@@ -766,6 +775,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [lk_role_createdonbehalfby](#BKMK_lk_role_createdonbehalfby)
 - [lk_role_modifiedonbehalfby](#BKMK_lk_role_modifiedonbehalfby)
 - [role_parent_root_role](#BKMK_role_parent_root_role)
+- [solution_role](#BKMK_solution_role)
 - [lk_rolebase_createdby](#BKMK_lk_rolebase_createdby)
 
 
@@ -796,6 +806,10 @@ See systemuser Entity [lk_role_modifiedonbehalfby](systemuser.md#BKMK_lk_role_mo
 ### <a name="BKMK_role_parent_root_role"></a> role_parent_root_role
 
 See role Entity [role_parent_root_role](role.md#BKMK_role_parent_root_role) One-To-Many relationship.
+
+### <a name="BKMK_solution_role"></a> solution_role
+
+See solution Entity [solution_role](solution.md#BKMK_solution_role) One-To-Many relationship.
 
 ### <a name="BKMK_lk_rolebase_createdby"></a> lk_rolebase_createdby
 
@@ -831,6 +845,6 @@ See team Entity [teamroles_association](team.md#BKMK_teamroles_association) Many
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.role?text=role EntityType" />

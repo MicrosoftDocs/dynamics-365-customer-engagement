@@ -1,37 +1,39 @@
 ---
-title: "msdyn_batchjob Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_batchjob Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_batchjob entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_batchjob Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Placeholder for workflows used for machine learning scenarios.
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_batchjobs<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_batchjobs(*msdyn_batchjobid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_batchjobs<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_batchjobs(*msdyn_batchjobid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_batchjobs(*msdyn_batchjobid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_batchjobs<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_batchjobs(*msdyn_batchjobid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_batchjobs(*msdyn_batchjobid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_batchjobs(*msdyn_batchjobid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_batchjobs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_batchjobs(*msdyn_batchjobid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_batchjobs(*msdyn_batchjobid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -347,7 +349,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -371,6 +375,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -384,6 +390,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -400,6 +408,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -432,6 +442,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -445,6 +457,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -462,6 +476,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -478,6 +494,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -491,6 +509,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -507,6 +527,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -539,6 +561,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -552,6 +576,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -569,6 +595,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -585,6 +613,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the organization|
@@ -598,6 +628,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -614,6 +646,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -638,13 +672,14 @@ Listed by **SchemaName**.
 - [msdyn_batchjob_DuplicateBaseRecord](#BKMK_msdyn_batchjob_DuplicateBaseRecord)
 - [msdyn_batchjob_AsyncOperations](#BKMK_msdyn_batchjob_AsyncOperations)
 - [msdyn_batchjob_MailboxTrackingFolders](#BKMK_msdyn_batchjob_MailboxTrackingFolders)
-- [msdyn_batchjob_UserEntityInstanceDatas](#BKMK_msdyn_batchjob_UserEntityInstanceDatas)
 - [msdyn_batchjob_ProcessSession](#BKMK_msdyn_batchjob_ProcessSession)
 - [msdyn_batchjob_BulkDeleteFailures](#BKMK_msdyn_batchjob_BulkDeleteFailures)
 - [msdyn_batchjob_PrincipalObjectAttributeAccesses](#BKMK_msdyn_batchjob_PrincipalObjectAttributeAccesses)
 
 
 ### <a name="BKMK_msdyn_batchjob_SyncErrors"></a> msdyn_batchjob_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_batchjob_SyncErrors](syncerror.md#BKMK_msdyn_batchjob_SyncErrors) Many-To-One relationship.
 
@@ -661,6 +696,8 @@ Same as syncerror entity [msdyn_batchjob_SyncErrors](syncerror.md#BKMK_msdyn_bat
 
 ### <a name="BKMK_msdyn_batchjob_DuplicateMatchingRecord"></a> msdyn_batchjob_DuplicateMatchingRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_batchjob_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_batchjob_DuplicateMatchingRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -675,6 +712,8 @@ Same as duplicaterecord entity [msdyn_batchjob_DuplicateMatchingRecord](duplicat
 
 
 ### <a name="BKMK_msdyn_batchjob_DuplicateBaseRecord"></a> msdyn_batchjob_DuplicateBaseRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_batchjob_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_batchjob_DuplicateBaseRecord) Many-To-One relationship.
 
@@ -691,6 +730,8 @@ Same as duplicaterecord entity [msdyn_batchjob_DuplicateBaseRecord](duplicaterec
 
 ### <a name="BKMK_msdyn_batchjob_AsyncOperations"></a> msdyn_batchjob_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [msdyn_batchjob_AsyncOperations](asyncoperation.md#BKMK_msdyn_batchjob_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -706,6 +747,8 @@ Same as asyncoperation entity [msdyn_batchjob_AsyncOperations](asyncoperation.md
 
 ### <a name="BKMK_msdyn_batchjob_MailboxTrackingFolders"></a> msdyn_batchjob_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_batchjob_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_batchjob_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -719,22 +762,9 @@ Same as mailboxtrackingfolder entity [msdyn_batchjob_MailboxTrackingFolders](mai
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_msdyn_batchjob_UserEntityInstanceDatas"></a> msdyn_batchjob_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_batchjob_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_batchjob_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_batchjob_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_msdyn_batchjob_ProcessSession"></a> msdyn_batchjob_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_batchjob_ProcessSession](processsession.md#BKMK_msdyn_batchjob_ProcessSession) Many-To-One relationship.
 
@@ -751,6 +781,8 @@ Same as processsession entity [msdyn_batchjob_ProcessSession](processsession.md#
 
 ### <a name="BKMK_msdyn_batchjob_BulkDeleteFailures"></a> msdyn_batchjob_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_batchjob_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_batchjob_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -765,6 +797,8 @@ Same as bulkdeletefailure entity [msdyn_batchjob_BulkDeleteFailures](bulkdeletef
 
 
 ### <a name="BKMK_msdyn_batchjob_PrincipalObjectAttributeAccesses"></a> msdyn_batchjob_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [msdyn_batchjob_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_batchjob_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -793,27 +827,37 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_batchjob_createdby"></a> lk_msdyn_batchjob_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_batchjob_createdby](systemuser.md#BKMK_lk_msdyn_batchjob_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_batchjob_createdonbehalfby"></a> lk_msdyn_batchjob_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_batchjob_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_batchjob_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_batchjob_modifiedby"></a> lk_msdyn_batchjob_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_batchjob_modifiedby](systemuser.md#BKMK_lk_msdyn_batchjob_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_batchjob_modifiedonbehalfby"></a> lk_msdyn_batchjob_modifiedonbehalfby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_batchjob_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_batchjob_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_organization_msdyn_batchjob"></a> organization_msdyn_batchjob
+
+**Added by**: System Solution Solution
 
 See organization Entity [organization_msdyn_batchjob](organization.md#BKMK_organization_msdyn_batchjob) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_batchjob?text=msdyn_batchjob EntityType" />

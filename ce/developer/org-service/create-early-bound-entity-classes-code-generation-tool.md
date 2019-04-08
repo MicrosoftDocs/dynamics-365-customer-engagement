@@ -171,7 +171,7 @@ The following sample shows how to configure the output file and the domain name 
 </system.diagnostics>  
 ```
 
-For more information on supported tracing options see [Configure tracing for XRM tooling](../xrm-tooling/configure-tracing-xrm-tooling.md).  
+For more information on supported tracing options see [Configure tracing for XRM tooling](/powerapps/developer/common-data-service/xrm-tooling/configure-tracing-xrm-tooling.md).  
 
 ## Community tools
 

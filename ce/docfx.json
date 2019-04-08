@@ -9,7 +9,9 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
         ]        
       },
       {
@@ -21,6 +23,8 @@
           "**/obj/**",
           "**/includes/**",
           "unified-service-desk/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -41,7 +45,9 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
         ]
       },
       {
@@ -56,7 +62,9 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
-          "unified-service-desk/**"
+          "unified-service-desk/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
         ]
       }
     ],
@@ -74,10 +82,16 @@
       ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
-      "feedback_product_url": "https://experience.dynamics.com/ideas/",
+      "feedback_product_url": "https://ideas.dynamics.com",
       "search.appverid": "met150"
     },
     "fileMetadata": {
+      "feedback_product_url":{
+        "admin/**.*": "https://ideas.powerapps.com",
+        "customize/**.*": "https://ideas.powerapps.com",
+        "developer/**.*": "https://ideas.powerapps.com",
+        "developer/channel-integration-framework/**.*": "https://ideas.dynamics.com"
+      },
       "breadcrumb_path": {
         "**.*": "bc/toc.yml",
         "admin/**.*": "bc/toc.yml",
@@ -99,6 +113,7 @@
         "sales-business/**.*": "bc/toc.yml",
         "developer/**/*.*": "bc/toc.yml",
         "sales-enterprise/**.*": "bc/toc.yml",
+        "sales-professional/**.*": "bc/toc.yml",
         "social-engagement/**.*": "bc/toc.yml",
         "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml",
         "versium-predict/**.*": "bc/toc.yml",
@@ -181,11 +196,11 @@
           "Dynamics 365",
           "Customer Engagement"
         ],
-        "sales-business/**.*": [
+        "sales-enterprise/**.*": [
           "Dynamics 365",
           "Customer Engagement"
         ],
-        "sales-enterprise/**.*": [
+        "sales-professional/**.*": [
           "Dynamics 365",
           "Customer Engagement"
         ],

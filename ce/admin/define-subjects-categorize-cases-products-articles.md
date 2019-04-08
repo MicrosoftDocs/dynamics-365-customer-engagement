@@ -1,6 +1,5 @@
 ---
-title: "Define subjects to categorize cases, products, and articles for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: 
+title: Define subjects to categorize cases, products, and articles for Dynamics 365 for Customer Engagement apps | MicrosoftDocs
 ms.date: 10/01/2018
 ms.reviewer: 
 ms.service: crm-online
@@ -10,16 +9,16 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
-author: shubhadaj
+author: anjgup
 ms.assetid: 1f07c7ea-9d85-49e6-a41d-7d49841340dd
-caps.latest.revision: 27
-ms.author: shujoshi
-manager: brycho
+ms.author: anjgupta
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - Powerplatform
+ms.custom: 
 ---
 # Define subjects to categorize cases, products, and articles
 
@@ -45,7 +44,7 @@ search.app:
 
 ## Create or edit a subject  (Customer Service app) 
   
-1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)] select **Subjects**. You can also get there by going to **Settings** > **Service Management** > **Subjects**.  
+1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)] Select **Subjects**. You can also get there by going to **Settings** > **Service Management** > **Subjects**.  
 
 
   

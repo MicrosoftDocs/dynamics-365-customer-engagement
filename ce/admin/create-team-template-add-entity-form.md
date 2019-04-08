@@ -1,7 +1,7 @@
 ---
 title: "Create a team template and add to an entity form (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 02/24/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -55,8 +55,9 @@ A team template can be used for the entities that are enabled for automatically 
   
 3. On the **Actions** toolbar, choose **New**, complete the required fields, and then choose **Save**.  
   
-<a name="bkmk_3"></a>   
-## Add a team template to the entity form  
+<a name="bkmk_3"></a>  
+ 
+## Add a team template to the entity form   
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
@@ -88,6 +89,9 @@ A team template can be used for the entities that are enabled for automatically 
   
 13. On the **Actions** toolbar, click or tap **Save**, and then choose **Publish**.  
   
+> [!NOTE]
+> The Access Team template does not get exported with its entity in a Solution.  Administrators will need to recreate the template when exporting the entity into another instance.
+
 ### See also  
  [Manage teams](../admin/manage-teams.md)   
  [About team templates](../admin/about-team-templates.md)   

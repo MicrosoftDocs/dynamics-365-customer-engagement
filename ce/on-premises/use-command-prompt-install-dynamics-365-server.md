@@ -27,7 +27,7 @@ You can install Dynamics 365 Server and Dynamics 365 Reporting Extensions from t
 >  To help troubleshoot invalid XML error messages, open the XML configuration file using a web browser to help indicate where the problem occurs in the file.  
   
 ## General procedures  
- The general procedures for running the Setup program from a command prompt are described here. For more detailed instructions, see the [In This Section](use-command-prompt-install-dynamics-365-server.md#BKMK_section) topics. The prerequisites for each of the Dynamics 365 for Customer Engagement system features as discussed in previous sections also apply.  
+ The general procedures for running the Setup program from a command prompt are described here. The prerequisites for each of the Dynamics 365 for Customer Engagement system features as discussed in previous section also apply.  
   
 #### To run the Setup program from a command prompt, follow these steps:  
   
@@ -73,8 +73,7 @@ You can install Dynamics 365 Server and Dynamics 365 Reporting Extensions from t
   
   
 ## See Also  
- [Install Microsoft Dynamics 365 for Outlook using a command prompt](../outlook-addin/admin-guide/install-using-command-prompt.md)   </br>
-    
- [Installing on-premises Dynamics 365](installing-on-premises-dynamics-365.md)  </br>
+ [Install Microsoft Dynamics 365 for Outlook using a command prompt](../outlook-addin/admin-guide/install-using-command-prompt.md)   <br/> 
+ [Installing on-premises Dynamics 365](installing-on-premises-dynamics-365.md)  <br/>
  [Post-installation and configuration guidelines for Microsoft Dynamics 365](post-installation-configuration-guidelines-dynamics-365.md)
 

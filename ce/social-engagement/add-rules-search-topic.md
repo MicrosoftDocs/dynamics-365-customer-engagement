@@ -2,7 +2,7 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: search topic, search rule, Social Engagement
-ms.date: 08/22/2018
+ms.date: 04/03/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -39,7 +39,7 @@ You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 
 - **[Custom sources rule](#add-a-custom-sources-rule)** ![Custom sources symbol](media/custom-sources-icon.png "Custom sources symbol"): Gather posts from public RSS feeds in your custom source groups.
 
-- **[YouTube rule](#add-a-includetnyoutubeincludestn-youtubemd-rule)** ![YouTube symbol](media/video-icon.png "YouTube symbol"): Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.
+- **[YouTube rule](#add-a--rule)** ![YouTube symbol](media/video-icon.png "YouTube symbol"): Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels.
 
 - **[LinkedIn page rule](#linkedin-page-rule)**: Gather posts from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages.
   

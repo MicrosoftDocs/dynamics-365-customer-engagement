@@ -1,35 +1,37 @@
 ---
-title: "UoM Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "UoM Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the UoM entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # UoM Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Unit of measure.
 
-**Added by**: Product Management Solution<br />
+**Added by**: Product Management Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/uoms<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/uoms(*uomid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/uoms(*uomid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/uoms<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/uoms(*uomid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.0/uoms<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/uoms(*uomid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/uoms(*uomid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/uoms<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/uoms(*uomid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -204,7 +206,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [BaseUoMName](#BKMK_BaseUoMName)
@@ -631,7 +635,6 @@ Listed by **SchemaName**.
 - [UoM_SyncErrors](#BKMK_UoM_SyncErrors)
 - [UoM_AsyncOperations](#BKMK_UoM_AsyncOperations)
 - [uom_MailboxTrackingFolders](#BKMK_uom_MailboxTrackingFolders)
-- [userentityinstancedata_uom](#BKMK_userentityinstancedata_uom)
 - [UoM_BulkDeleteFailures](#BKMK_UoM_BulkDeleteFailures)
 - [uom_PrincipalObjectAttributeAccesses](#BKMK_uom_PrincipalObjectAttributeAccesses)
 - [unit_of_measurement_base_unit](#BKMK_unit_of_measurement_base_unit)
@@ -645,6 +648,7 @@ Listed by **SchemaName**.
 - [unit_of_measurement_quote_details](#BKMK_unit_of_measurement_quote_details)
 - [msdyn_uom_msdyn_actual_Unit](#BKMK_msdyn_uom_msdyn_actual_Unit)
 - [msdyn_uom_msdyn_estimateline_Unit](#BKMK_msdyn_uom_msdyn_estimateline_Unit)
+- [msdyn_uom_msdyn_expense_Unit](#BKMK_msdyn_uom_msdyn_expense_Unit)
 - [msdyn_uom_msdyn_invoicelinetransaction_Unit](#BKMK_msdyn_uom_msdyn_invoicelinetransaction_Unit)
 - [msdyn_uom_msdyn_journalline_Unit](#BKMK_msdyn_uom_msdyn_journalline_Unit)
 - [msdyn_uom_msdyn_opportunitylinetransaction_Unit](#BKMK_msdyn_uom_msdyn_opportunitylinetransaction_Unit)
@@ -673,9 +677,12 @@ Listed by **SchemaName**.
 - [msdyn_uom_msdyn_rtvproduct_Unit](#BKMK_msdyn_uom_msdyn_rtvproduct_Unit)
 - [msdyn_uom_msdyn_workorderproduct_Unit](#BKMK_msdyn_uom_msdyn_workorderproduct_Unit)
 - [msdyn_uom_msdyn_workorderservice_Unit](#BKMK_msdyn_uom_msdyn_workorderservice_Unit)
+- [msdyn_uom_msdyn_geofencingsettings_DistanceUnit](#BKMK_msdyn_uom_msdyn_geofencingsettings_DistanceUnit)
 
 
 ### <a name="BKMK_UoM_SyncErrors"></a> UoM_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [UoM_SyncErrors](syncerror.md#BKMK_UoM_SyncErrors) Many-To-One relationship.
 
@@ -687,10 +694,12 @@ Same as syncerror entity [UoM_SyncErrors](syncerror.md#BKMK_UoM_SyncErrors) Many
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|UoM_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_UoM_AsyncOperations"></a> UoM_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [UoM_AsyncOperations](asyncoperation.md#BKMK_UoM_AsyncOperations) Many-To-One relationship.
 
@@ -707,6 +716,8 @@ Same as asyncoperation entity [UoM_AsyncOperations](asyncoperation.md#BKMK_UoM_A
 
 ### <a name="BKMK_uom_MailboxTrackingFolders"></a> uom_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [uom_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_uom_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -717,25 +728,12 @@ Same as mailboxtrackingfolder entity [uom_MailboxTrackingFolders](mailboxtrackin
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|uom_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_userentityinstancedata_uom"></a> userentityinstancedata_uom
-
-Same as userentityinstancedata entity [userentityinstancedata_uom](userentityinstancedata.md#BKMK_userentityinstancedata_uom) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_uom|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_UoM_BulkDeleteFailures"></a> UoM_BulkDeleteFailures
+
+**Added by**: System Solution Solution
 
 Same as bulkdeletefailure entity [UoM_BulkDeleteFailures](bulkdeletefailure.md#BKMK_UoM_BulkDeleteFailures) Many-To-One relationship.
 
@@ -751,6 +749,8 @@ Same as bulkdeletefailure entity [UoM_BulkDeleteFailures](bulkdeletefailure.md#B
 
 
 ### <a name="BKMK_uom_PrincipalObjectAttributeAccesses"></a> uom_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [uom_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_uom_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -827,6 +827,8 @@ Same as productpricelevel entity [unit_of_measurement_product_price_levels](prod
 
 ### <a name="BKMK_unit_of_measurement_contract_line_items"></a> unit_of_measurement_contract_line_items
 
+**Added by**: Service Solution
+
 Same as contractdetail entity [unit_of_measurement_contract_line_items](contractdetail.md#BKMK_unit_of_measurement_contract_line_items) Many-To-One relationship.
 
 |Property|Value|
@@ -841,6 +843,8 @@ Same as contractdetail entity [unit_of_measurement_contract_line_items](contract
 
 
 ### <a name="BKMK_unit_of_measurement_invoice_details"></a> unit_of_measurement_invoice_details
+
+**Added by**: Sales Solution
 
 Same as invoicedetail entity [unit_of_measurement_invoice_details](invoicedetail.md#BKMK_unit_of_measurement_invoice_details) Many-To-One relationship.
 
@@ -857,6 +861,8 @@ Same as invoicedetail entity [unit_of_measurement_invoice_details](invoicedetail
 
 ### <a name="BKMK_unit_of_measurement_opportunity_products"></a> unit_of_measurement_opportunity_products
 
+**Added by**: Sales Solution
+
 Same as opportunityproduct entity [unit_of_measurement_opportunity_products](opportunityproduct.md#BKMK_unit_of_measurement_opportunity_products) Many-To-One relationship.
 
 |Property|Value|
@@ -871,6 +877,8 @@ Same as opportunityproduct entity [unit_of_measurement_opportunity_products](opp
 
 
 ### <a name="BKMK_unit_of_measurement_order_details"></a> unit_of_measurement_order_details
+
+**Added by**: Sales Solution
 
 Same as salesorderdetail entity [unit_of_measurement_order_details](salesorderdetail.md#BKMK_unit_of_measurement_order_details) Many-To-One relationship.
 
@@ -887,6 +895,8 @@ Same as salesorderdetail entity [unit_of_measurement_order_details](salesorderde
 
 ### <a name="BKMK_unit_of_measurement_quote_details"></a> unit_of_measurement_quote_details
 
+**Added by**: Sales Solution
+
 Same as quotedetail entity [unit_of_measurement_quote_details](quotedetail.md#BKMK_unit_of_measurement_quote_details) Many-To-One relationship.
 
 |Property|Value|
@@ -901,6 +911,8 @@ Same as quotedetail entity [unit_of_measurement_quote_details](quotedetail.md#BK
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_actual_Unit"></a> msdyn_uom_msdyn_actual_Unit
+
+**Added by**: Universal Resource Scheduling Solution
 
 Same as msdyn_actual entity [msdyn_uom_msdyn_actual_Unit](msdyn_actual.md#BKMK_msdyn_uom_msdyn_actual_Unit) Many-To-One relationship.
 
@@ -917,6 +929,8 @@ Same as msdyn_actual entity [msdyn_uom_msdyn_actual_Unit](msdyn_actual.md#BKMK_m
 
 ### <a name="BKMK_msdyn_uom_msdyn_estimateline_Unit"></a> msdyn_uom_msdyn_estimateline_Unit
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_estimateline entity [msdyn_uom_msdyn_estimateline_Unit](msdyn_estimateline.md#BKMK_msdyn_uom_msdyn_estimateline_Unit) Many-To-One relationship.
 
 |Property|Value|
@@ -930,7 +944,26 @@ Same as msdyn_estimateline entity [msdyn_uom_msdyn_estimateline_Unit](msdyn_esti
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
+### <a name="BKMK_msdyn_uom_msdyn_expense_Unit"></a> msdyn_uom_msdyn_expense_Unit
+
+**Added by**: Project Service Automation Solution
+
+Same as msdyn_expense entity [msdyn_uom_msdyn_expense_Unit](msdyn_expense.md#BKMK_msdyn_uom_msdyn_expense_Unit) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_expense|
+|ReferencingAttribute|msdyn_unit|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_expense_Unit|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
 ### <a name="BKMK_msdyn_uom_msdyn_invoicelinetransaction_Unit"></a> msdyn_uom_msdyn_invoicelinetransaction_Unit
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_invoicelinetransaction entity [msdyn_uom_msdyn_invoicelinetransaction_Unit](msdyn_invoicelinetransaction.md#BKMK_msdyn_uom_msdyn_invoicelinetransaction_Unit) Many-To-One relationship.
 
@@ -947,6 +980,8 @@ Same as msdyn_invoicelinetransaction entity [msdyn_uom_msdyn_invoicelinetransact
 
 ### <a name="BKMK_msdyn_uom_msdyn_journalline_Unit"></a> msdyn_uom_msdyn_journalline_Unit
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_journalline entity [msdyn_uom_msdyn_journalline_Unit](msdyn_journalline.md#BKMK_msdyn_uom_msdyn_journalline_Unit) Many-To-One relationship.
 
 |Property|Value|
@@ -961,6 +996,8 @@ Same as msdyn_journalline entity [msdyn_uom_msdyn_journalline_Unit](msdyn_journa
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_opportunitylinetransaction_Unit"></a> msdyn_uom_msdyn_opportunitylinetransaction_Unit
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_uom_msdyn_opportunitylinetransaction_Unit](msdyn_opportunitylinetransaction.md#BKMK_msdyn_uom_msdyn_opportunitylinetransaction_Unit) Many-To-One relationship.
 
@@ -977,6 +1014,8 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_uom_msdyn_opportunityline
 
 ### <a name="BKMK_msdyn_uom_msdyn_orderlinetransaction_Unit"></a> msdyn_uom_msdyn_orderlinetransaction_Unit
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_orderlinetransaction entity [msdyn_uom_msdyn_orderlinetransaction_Unit](msdyn_orderlinetransaction.md#BKMK_msdyn_uom_msdyn_orderlinetransaction_Unit) Many-To-One relationship.
 
 |Property|Value|
@@ -991,6 +1030,8 @@ Same as msdyn_orderlinetransaction entity [msdyn_uom_msdyn_orderlinetransaction_
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_quotelinetransaction_Unit"></a> msdyn_uom_msdyn_quotelinetransaction_Unit
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_quotelinetransaction entity [msdyn_uom_msdyn_quotelinetransaction_Unit](msdyn_quotelinetransaction.md#BKMK_msdyn_uom_msdyn_quotelinetransaction_Unit) Many-To-One relationship.
 
@@ -1007,6 +1048,8 @@ Same as msdyn_quotelinetransaction entity [msdyn_uom_msdyn_quotelinetransaction_
 
 ### <a name="BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit"></a> msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_resourcecategorypricelevel entity [msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit](msdyn_resourcecategorypricelevel.md#BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit) Many-To-One relationship.
 
 |Property|Value|
@@ -1021,6 +1064,8 @@ Same as msdyn_resourcecategorypricelevel entity [msdyn_uom_msdyn_resourcecategor
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_Unit"></a> msdyn_uom_msdyn_resourcecategorypricelevel_Unit
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_resourcecategorypricelevel entity [msdyn_uom_msdyn_resourcecategorypricelevel_Unit](msdyn_resourcecategorypricelevel.md#BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_Unit) Many-To-One relationship.
 
@@ -1037,6 +1082,8 @@ Same as msdyn_resourcecategorypricelevel entity [msdyn_uom_msdyn_resourcecategor
 
 ### <a name="BKMK_msdyn_uom_msdyn_transactioncategory_DefaultUnit"></a> msdyn_uom_msdyn_transactioncategory_DefaultUnit
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_transactioncategory entity [msdyn_uom_msdyn_transactioncategory_DefaultUnit](msdyn_transactioncategory.md#BKMK_msdyn_uom_msdyn_transactioncategory_DefaultUnit) Many-To-One relationship.
 
 |Property|Value|
@@ -1051,6 +1098,8 @@ Same as msdyn_transactioncategory entity [msdyn_uom_msdyn_transactioncategory_De
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_transactioncategorypricelevel_Unit"></a> msdyn_uom_msdyn_transactioncategorypricelevel_Unit
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_transactioncategorypricelevel entity [msdyn_uom_msdyn_transactioncategorypricelevel_Unit](msdyn_transactioncategorypricelevel.md#BKMK_msdyn_uom_msdyn_transactioncategorypricelevel_Unit) Many-To-One relationship.
 
@@ -1067,6 +1116,8 @@ Same as msdyn_transactioncategorypricelevel entity [msdyn_uom_msdyn_transactionc
 
 ### <a name="BKMK_msdyn_uom_msdyn_transactiontype_DefaultUnit"></a> msdyn_uom_msdyn_transactiontype_DefaultUnit
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_transactiontype entity [msdyn_uom_msdyn_transactiontype_DefaultUnit](msdyn_transactiontype.md#BKMK_msdyn_uom_msdyn_transactiontype_DefaultUnit) Many-To-One relationship.
 
 |Property|Value|
@@ -1081,6 +1132,8 @@ Same as msdyn_transactiontype entity [msdyn_uom_msdyn_transactiontype_DefaultUni
 
 
 ### <a name="BKMK_msdyn_uom_pricelevel_TimeUnit"></a> msdyn_uom_pricelevel_TimeUnit
+
+**Added by**: Project Service Automation Solution
 
 Same as pricelevel entity [msdyn_uom_pricelevel_TimeUnit](pricelevel.md#BKMK_msdyn_uom_pricelevel_TimeUnit) Many-To-One relationship.
 
@@ -1097,6 +1150,8 @@ Same as pricelevel entity [msdyn_uom_pricelevel_TimeUnit](pricelevel.md#BKMK_msd
 
 ### <a name="BKMK_msdyn_uom_msdyn_agreementbookingproduct_Unit"></a> msdyn_uom_msdyn_agreementbookingproduct_Unit
 
+**Added by**: Field Service Solution
+
 Same as msdyn_agreementbookingproduct entity [msdyn_uom_msdyn_agreementbookingproduct_Unit](msdyn_agreementbookingproduct.md#BKMK_msdyn_uom_msdyn_agreementbookingproduct_Unit) Many-To-One relationship.
 
 |Property|Value|
@@ -1111,6 +1166,8 @@ Same as msdyn_agreementbookingproduct entity [msdyn_uom_msdyn_agreementbookingpr
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_agreementbookingservice_Unit"></a> msdyn_uom_msdyn_agreementbookingservice_Unit
+
+**Added by**: Field Service Solution
 
 Same as msdyn_agreementbookingservice entity [msdyn_uom_msdyn_agreementbookingservice_Unit](msdyn_agreementbookingservice.md#BKMK_msdyn_uom_msdyn_agreementbookingservice_Unit) Many-To-One relationship.
 
@@ -1127,6 +1184,8 @@ Same as msdyn_agreementbookingservice entity [msdyn_uom_msdyn_agreementbookingse
 
 ### <a name="BKMK_msdyn_uom_msdyn_agreementinvoiceproduct_Unit"></a> msdyn_uom_msdyn_agreementinvoiceproduct_Unit
 
+**Added by**: Field Service Solution
+
 Same as msdyn_agreementinvoiceproduct entity [msdyn_uom_msdyn_agreementinvoiceproduct_Unit](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_uom_msdyn_agreementinvoiceproduct_Unit) Many-To-One relationship.
 
 |Property|Value|
@@ -1141,6 +1200,8 @@ Same as msdyn_agreementinvoiceproduct entity [msdyn_uom_msdyn_agreementinvoicepr
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_incidenttypeproduct_Unit"></a> msdyn_uom_msdyn_incidenttypeproduct_Unit
+
+**Added by**: Field Service Solution
 
 Same as msdyn_incidenttypeproduct entity [msdyn_uom_msdyn_incidenttypeproduct_Unit](msdyn_incidenttypeproduct.md#BKMK_msdyn_uom_msdyn_incidenttypeproduct_Unit) Many-To-One relationship.
 
@@ -1157,6 +1218,8 @@ Same as msdyn_incidenttypeproduct entity [msdyn_uom_msdyn_incidenttypeproduct_Un
 
 ### <a name="BKMK_msdyn_uom_msdyn_incidenttypeservice_Unit"></a> msdyn_uom_msdyn_incidenttypeservice_Unit
 
+**Added by**: Field Service Solution
+
 Same as msdyn_incidenttypeservice entity [msdyn_uom_msdyn_incidenttypeservice_Unit](msdyn_incidenttypeservice.md#BKMK_msdyn_uom_msdyn_incidenttypeservice_Unit) Many-To-One relationship.
 
 |Property|Value|
@@ -1171,6 +1234,8 @@ Same as msdyn_incidenttypeservice entity [msdyn_uom_msdyn_incidenttypeservice_Un
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_inventoryadjustmentproduct_Unit"></a> msdyn_uom_msdyn_inventoryadjustmentproduct_Unit
+
+**Added by**: Field Service Solution
 
 Same as msdyn_inventoryadjustmentproduct entity [msdyn_uom_msdyn_inventoryadjustmentproduct_Unit](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_uom_msdyn_inventoryadjustmentproduct_Unit) Many-To-One relationship.
 
@@ -1187,6 +1252,8 @@ Same as msdyn_inventoryadjustmentproduct entity [msdyn_uom_msdyn_inventoryadjust
 
 ### <a name="BKMK_msdyn_uom_msdyn_inventoryjournal_Unit"></a> msdyn_uom_msdyn_inventoryjournal_Unit
 
+**Added by**: Field Service Solution
+
 Same as msdyn_inventoryjournal entity [msdyn_uom_msdyn_inventoryjournal_Unit](msdyn_inventoryjournal.md#BKMK_msdyn_uom_msdyn_inventoryjournal_Unit) Many-To-One relationship.
 
 |Property|Value|
@@ -1201,6 +1268,8 @@ Same as msdyn_inventoryjournal entity [msdyn_uom_msdyn_inventoryjournal_Unit](ms
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_orderinvoicingproduct_Unit"></a> msdyn_uom_msdyn_orderinvoicingproduct_Unit
+
+**Added by**: Field Service Solution
 
 Same as msdyn_orderinvoicingproduct entity [msdyn_uom_msdyn_orderinvoicingproduct_Unit](msdyn_orderinvoicingproduct.md#BKMK_msdyn_uom_msdyn_orderinvoicingproduct_Unit) Many-To-One relationship.
 
@@ -1217,6 +1286,8 @@ Same as msdyn_orderinvoicingproduct entity [msdyn_uom_msdyn_orderinvoicingproduc
 
 ### <a name="BKMK_msdyn_uom_msdyn_productinventory_Unit"></a> msdyn_uom_msdyn_productinventory_Unit
 
+**Added by**: Field Service Solution
+
 Same as msdyn_productinventory entity [msdyn_uom_msdyn_productinventory_Unit](msdyn_productinventory.md#BKMK_msdyn_uom_msdyn_productinventory_Unit) Many-To-One relationship.
 
 |Property|Value|
@@ -1231,6 +1302,8 @@ Same as msdyn_productinventory entity [msdyn_uom_msdyn_productinventory_Unit](ms
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_purchaseorderproduct_Unit"></a> msdyn_uom_msdyn_purchaseorderproduct_Unit
+
+**Added by**: Field Service Solution
 
 Same as msdyn_purchaseorderproduct entity [msdyn_uom_msdyn_purchaseorderproduct_Unit](msdyn_purchaseorderproduct.md#BKMK_msdyn_uom_msdyn_purchaseorderproduct_Unit) Many-To-One relationship.
 
@@ -1247,6 +1320,8 @@ Same as msdyn_purchaseorderproduct entity [msdyn_uom_msdyn_purchaseorderproduct_
 
 ### <a name="BKMK_msdyn_uom_msdyn_quotebookingproduct_Unit"></a> msdyn_uom_msdyn_quotebookingproduct_Unit
 
+**Added by**: Field Service Solution
+
 Same as msdyn_quotebookingproduct entity [msdyn_uom_msdyn_quotebookingproduct_Unit](msdyn_quotebookingproduct.md#BKMK_msdyn_uom_msdyn_quotebookingproduct_Unit) Many-To-One relationship.
 
 |Property|Value|
@@ -1261,6 +1336,8 @@ Same as msdyn_quotebookingproduct entity [msdyn_uom_msdyn_quotebookingproduct_Un
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_quotebookingservice_Unit"></a> msdyn_uom_msdyn_quotebookingservice_Unit
+
+**Added by**: Field Service Solution
 
 Same as msdyn_quotebookingservice entity [msdyn_uom_msdyn_quotebookingservice_Unit](msdyn_quotebookingservice.md#BKMK_msdyn_uom_msdyn_quotebookingservice_Unit) Many-To-One relationship.
 
@@ -1277,6 +1354,8 @@ Same as msdyn_quotebookingservice entity [msdyn_uom_msdyn_quotebookingservice_Un
 
 ### <a name="BKMK_msdyn_uom_msdyn_quoteinvoicingproduct_Unit"></a> msdyn_uom_msdyn_quoteinvoicingproduct_Unit
 
+**Added by**: Field Service Solution
+
 Same as msdyn_quoteinvoicingproduct entity [msdyn_uom_msdyn_quoteinvoicingproduct_Unit](msdyn_quoteinvoicingproduct.md#BKMK_msdyn_uom_msdyn_quoteinvoicingproduct_Unit) Many-To-One relationship.
 
 |Property|Value|
@@ -1291,6 +1370,8 @@ Same as msdyn_quoteinvoicingproduct entity [msdyn_uom_msdyn_quoteinvoicingproduc
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_rmaproduct_Unit"></a> msdyn_uom_msdyn_rmaproduct_Unit
+
+**Added by**: Field Service Solution
 
 Same as msdyn_rmaproduct entity [msdyn_uom_msdyn_rmaproduct_Unit](msdyn_rmaproduct.md#BKMK_msdyn_uom_msdyn_rmaproduct_Unit) Many-To-One relationship.
 
@@ -1307,6 +1388,8 @@ Same as msdyn_rmaproduct entity [msdyn_uom_msdyn_rmaproduct_Unit](msdyn_rmaprodu
 
 ### <a name="BKMK_msdyn_uom_msdyn_rtvproduct_Unit"></a> msdyn_uom_msdyn_rtvproduct_Unit
 
+**Added by**: Field Service Solution
+
 Same as msdyn_rtvproduct entity [msdyn_uom_msdyn_rtvproduct_Unit](msdyn_rtvproduct.md#BKMK_msdyn_uom_msdyn_rtvproduct_Unit) Many-To-One relationship.
 
 |Property|Value|
@@ -1321,6 +1404,8 @@ Same as msdyn_rtvproduct entity [msdyn_uom_msdyn_rtvproduct_Unit](msdyn_rtvprodu
 
 
 ### <a name="BKMK_msdyn_uom_msdyn_workorderproduct_Unit"></a> msdyn_uom_msdyn_workorderproduct_Unit
+
+**Added by**: Field Service Solution
 
 Same as msdyn_workorderproduct entity [msdyn_uom_msdyn_workorderproduct_Unit](msdyn_workorderproduct.md#BKMK_msdyn_uom_msdyn_workorderproduct_Unit) Many-To-One relationship.
 
@@ -1337,6 +1422,8 @@ Same as msdyn_workorderproduct entity [msdyn_uom_msdyn_workorderproduct_Unit](ms
 
 ### <a name="BKMK_msdyn_uom_msdyn_workorderservice_Unit"></a> msdyn_uom_msdyn_workorderservice_Unit
 
+**Added by**: Field Service Solution
+
 Same as msdyn_workorderservice entity [msdyn_uom_msdyn_workorderservice_Unit](msdyn_workorderservice.md#BKMK_msdyn_uom_msdyn_workorderservice_Unit) Many-To-One relationship.
 
 |Property|Value|
@@ -1346,6 +1433,23 @@ Same as msdyn_workorderservice entity [msdyn_uom_msdyn_workorderservice_Unit](ms
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_workorderservice_Unit|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_uom_msdyn_geofencingsettings_DistanceUnit"></a> msdyn_uom_msdyn_geofencingsettings_DistanceUnit
+
+**Added by**: Geofence Management Solution
+
+Same as msdyn_geofencingsettings entity [msdyn_uom_msdyn_geofencingsettings_DistanceUnit](msdyn_geofencingsettings.md#BKMK_msdyn_uom_msdyn_geofencingsettings_DistanceUnit) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_geofencingsettings|
+|ReferencingAttribute|msdyn_unitofmeasure|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_uom_msdyn_geofencingsettings_DistanceUnit|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
@@ -1359,35 +1463,33 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [lk_uom_createdonbehalfby](#BKMK_lk_uom_createdonbehalfby)
 - [lk_uombase_modifiedby](#BKMK_lk_uombase_modifiedby)
 - [lk_uom_modifiedonbehalfby](#BKMK_lk_uom_modifiedonbehalfby)
-- [lk_externalparty_uom_createdby](#BKMK_lk_externalparty_uom_createdby)
-- [lk_externalparty_uom_modifiedby](#BKMK_lk_externalparty_uom_modifiedby)
 - [unit_of_measurement_base_unit](#BKMK_unit_of_measurement_base_unit)
 - [unit_of_measure_schedule_conversions](#BKMK_unit_of_measure_schedule_conversions)
 
 
 ### <a name="BKMK_lk_uombase_createdby"></a> lk_uombase_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_uombase_createdby](systemuser.md#BKMK_lk_uombase_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_uom_createdonbehalfby"></a> lk_uom_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_uom_createdonbehalfby](systemuser.md#BKMK_lk_uom_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_uombase_modifiedby"></a> lk_uombase_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_uombase_modifiedby](systemuser.md#BKMK_lk_uombase_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_uom_modifiedonbehalfby"></a> lk_uom_modifiedonbehalfby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_uom_modifiedonbehalfby](systemuser.md#BKMK_lk_uom_modifiedonbehalfby) One-To-Many relationship.
-
-### <a name="BKMK_lk_externalparty_uom_createdby"></a> lk_externalparty_uom_createdby
-
-See externalparty Entity [lk_externalparty_uom_createdby](externalparty.md#BKMK_lk_externalparty_uom_createdby) One-To-Many relationship.
-
-### <a name="BKMK_lk_externalparty_uom_modifiedby"></a> lk_externalparty_uom_modifiedby
-
-See externalparty Entity [lk_externalparty_uom_modifiedby](externalparty.md#BKMK_lk_externalparty_uom_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_unit_of_measurement_base_unit"></a> unit_of_measurement_base_unit
 
@@ -1400,6 +1502,6 @@ See uomschedule Entity [unit_of_measure_schedule_conversions](uomschedule.md#BKM
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.uom?text=uom EntityType" />

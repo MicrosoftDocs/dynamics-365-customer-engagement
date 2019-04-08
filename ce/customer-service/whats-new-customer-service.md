@@ -8,7 +8,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
-ms.date: 11/20/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -28,15 +28,24 @@ search.app:
 
 Welcome to Dynamics 365 for Customer Service. Visit this page to learn about new or updated features for Customer Service.
 
-## Dynamics 365 for Customer Engagement for Customer Engagement apps version 9.1
+## Dynamics 365 for Customer Engagement apps version 9.1
 
 Customer Engagement apps version 9.1 introduces some new features for enhanced customer satisfaction by facilitating improved operational efficiency and organizational productivity. 
 
 New features introduced in this release are:
 
+- [Advanced similarity rules to view similar case suggestions](#advanced-similarity-rules-to-view-similar-case-suggestions)
 - [Service scheduling powered by Universal Resource Scheduling](#service-scheduling-powered-by-universal-resource-scheduling)
 - [Relevance search enabled for knowledge management ](#relevance-search-enabled-for-knowledge-management)
 - [Enhanced customer service admin settings using Service Management](#enhanced-customer-service-admin-settings-using-service-management)
+
+### Advanced similarity rules to view similar case suggestions
+
+With the help of advanced similarity rules, you can now view cases similar to your current case and resolve customer issues in the first contact and within minimal time.
+
+Using Relevance search mechanism, you can leverage keywords or key phrases in a service case to quickly find related cases and use them to resolve your current case.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
 
 ### Service scheduling powered by Universal Resource Scheduling 
@@ -61,7 +70,7 @@ With the Customer Engagement apps version 9.1 release, Service Management moves 
 See the [Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md) to learn more about Customer Service admin settings.
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the web application. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the February 2019 release.
+> With the Customer Engagement apps version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the web application. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the April 2019 release.
 
 
 ### See also

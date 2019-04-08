@@ -59,7 +59,7 @@ You want your customer service reps to quickly resolve cases with high customer 
 <a name="BKMK_ConnectTextAnalytics"></a>   
 
 ## Connect Dynamics 365 for Customer Engagement apps (online) to the Cognitive Services Text Analytics service  
- If you haven't already, create the [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service connection. [Set the Azure Machine Learning text analytics connection](../admin/public-preview-microsoft-cognitive-services-integration.md#Set_AzureMLconnection)  
+ If you haven't already, create the [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service connection. [Set the text analytics connection](public-preview-microsoft-cognitive-services-integration.md#set-the-text-analytics-connection)
 
 <a name="BKMK_SetUpKnowledgeSearch"></a>   
 

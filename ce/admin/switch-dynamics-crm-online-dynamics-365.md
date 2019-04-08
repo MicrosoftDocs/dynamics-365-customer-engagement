@@ -46,7 +46,7 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, you'll 
 <a name="BKMK_SwitchToSalesCSTeam"></a>   
 
 ## How to renew when your plan is retiring  
- The easiest way to switch plans is to use the Switch plans button in the Office 365 admin center which launches a wizard. However, using the Switch plans button isn’t supported in all situations. In some cases, you might want or need to switch plans manually.  
+ The easiest way to switch plans is to use the Switch plans button in the Microsoft 365 admin center which launches a wizard. However, using the Switch plans button isn’t supported in all situations. In some cases, you might want or need to switch plans manually.  
 
  **When to use the Switch plans wizard**  
 

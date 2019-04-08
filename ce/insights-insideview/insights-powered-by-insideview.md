@@ -4,7 +4,7 @@ description: ""
 keywords: ""
 ms.date: 09/30/2017
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
   - "dyn365-insightsinsideview"
 ms.topic: article
