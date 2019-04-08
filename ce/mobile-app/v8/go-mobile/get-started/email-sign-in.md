@@ -39,7 +39,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 > - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government)(GCC and GCC High)user, you are required to sign in using the web address option.
 
 ### Required services (for admins)
-This list identifies all services to which PowerApps Studio talks and their usages. Your network must **not** block these services.
+This list identifies all services to which Dynamics 365 for Phones and Tablets talks and their usages. Your network must **not** block these services.
 
 | Domain(s) | Protocols | Uses |
 | --- | --- | --- |
