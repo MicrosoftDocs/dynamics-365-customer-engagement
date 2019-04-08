@@ -28,6 +28,7 @@ search.app:
 
 # Schedule with travel time
 
+Field Service organizations often travel to their customers' locations to perform preventative maintenance, inspections, repairs, and other types of service and rely on Dynamics 365 for Field Service to manage the routes of field technicians who travel to multiple customer sites each day. This makes understanding and minimizing travel time crucial for 
 
 ## Prerequisites
 - connect to maps
@@ -42,14 +43,15 @@ search.app:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
-## instructions
-
 ## Visualize travel time on the schedule board
+  
+  - show travel time on schedule board
+  - actual travel duration
+
 
 ## Add travel time with manual scheduling
 
-  - show travel time on schedule board
-  - actual travel duration
+
 
 ## Add travel time with schedule assistant
 
@@ -57,19 +59,23 @@ search.app:
 ## Add travel time with resource scheduling optimization (RSO)
 
   - leave time to travel home
+  - graph showing travel to work chart
+  - 
 
 ## Consider traffic when scheduling
 
   - display traffic on the schedule board
   - real time traffic is not supported
-  - bing maps api cna use historical information
+  - bing maps api can use historical information
 
 ## Configuration considerations
+
 - travel charge
 - real time location travel time
+- can use other map services for travel time calculations
 
-## Additional Notes
-- consider processes to support what happens if travel time is long and technician is running late
+## Additional notes
+
 - travel time is only driving time, not walking or flying
 - historical travel time is currently not included
-- can use other map services for travel time calculations
+- consider processes to support what happens if travel time is long and technician is running late
