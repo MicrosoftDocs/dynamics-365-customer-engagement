@@ -60,7 +60,19 @@ In the image below a work order has Work Location set to Onsite and this is pass
 
 ## Visualize travel time on the schedule board
 
-When an onsite requirment is scheduled to a resource with a location, travel time and distance are calculated and travel time is displayed on the schedule board as a line before the booking.  
+After a requirement is scheduled to a resource, the booking appears on the schedule board and if applicable, travel time is displayed as a line before.
+
+In the image below, the travel time to the customer's location is 23 minutes and the estimated duration of the work order is 2 hours giving the booking a total duration of 2 hours and 23 minutes.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-booking-travel-time.png)
+
+
+If you do not want travel time displayed differently than working duration, then you can deselect **Show Travel Duration** in the schedule board configuration and  which will display the travel time and duration as one 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-board-show-travel-duration.png)
+
+
   - show travel time on schedule board
   - actual travel duration
 
