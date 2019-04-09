@@ -19,5 +19,8 @@ ce/developer/xrm-tooling/sample-quick-start-xrm-tooling-api.md
 ce/developer/xrm-tooling/sample-simplified-connection-quick-start.md
 ce\customer-insights\preview-retire.md
 ce\sales-enterprise/developer-guide.md
+ce\admin\public-preview-microsoft-cognitive-services-integration.md
+ce\admin\public-preview-automatically-suggest-knowledge-articles.md
+ce\admin\enable-document-suggestions.md
 
 These files have been deleted, but the list hasn't been communicated to loc yet.
