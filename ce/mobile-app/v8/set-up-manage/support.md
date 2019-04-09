@@ -57,7 +57,7 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 
 *Enhancements to the app require this minimum memory amount.
 
-** Dynamics 365 for phones and tablets app will only connect to servers that are trusted by the underlying operating system. On Android, beginning with Android Oreo (8.0) the app will only connect to the servers that rely on one of the trusted CA certificates installed on the device.
+**Dynamics 365 for phones and tablets app will only connect to servers that are trusted by the underlying operating system. On Android, beginning with Android Oreo (8.0) the app will only connect to the servers that rely on one of the trusted CA certificates installed on the device.
 
 ## Support for Dynamics 365 for tablets
 
