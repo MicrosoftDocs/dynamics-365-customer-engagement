@@ -33,7 +33,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
 5. On the page for new hosted control, specify the following.
 
-    | Tab     | **Field**                           | **Value**                       |
+    | Tab     | Field                           | Value                       |
     |---------|-------------------------------------|---------------------------------|
     | General | Name                                | Communication Panel |
     | General | Unified Service Desk Component Type | USD Hosted Control |
@@ -57,60 +57,264 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
 5. In the new page, specify the following details.
 
-    | **Field**      | **Value**                       |
-    |----------------|---------------------------------|
-    | Name           | Launch Communication Panel      |
-    | Hosted Control | Communication Panel |
-    | Action         | default             |
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Launch Communication Panel      |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | default             |
 
 6. Save the action call.
 
 7. Repeat steps 3 through 6 to create the following additional action calls.
 
-    | **Field**      | **Value**                       |
-    |----------------|---------------------------------|
-    | Name           | Omni-channel Clear Entity List      |
-    | Order | 1 |
-    | Hosted Control | CRM Global Manager |
-    | Action         | ClearEntityList    |
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Clear Entity List      |
+    | General | Order | 1 |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | ClearEntityList    |
 
 
-    | **Field**      | **Value**                       |
-    |----------------|---------------------------------|
-    | Name           | Omni-channel Fetch Live Work Streams      |
-    | Order | 2 | 
-    | Hosted Control | CRM Global Manager |
-    | Action         | DoSearch    |
-    | Data | name=LiveWorkStreamSearch <br>global=True |
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Fetch Live Work Streams      |
+    | General | Order | 2 | 
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | DoSearch    |
+    | General | Data | `name=LiveWorkStreamSearch <br>global=True` |
 
-    | **Field**      | **Value**                       |
-    |----------------|---------------------------------|
-    | Order | 2 | 
-    | Name           | Omni-channel Fetch Service End Point     |
-    | Hosted Control | CRM Global Manager |
-    | Action         | DoSearch    |
-    | Data | name=ServiceEndPointSearch <br>global=True |
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Fetch Service End Point     |
+    | General | Order | 2 | 
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | DoSearch    |
+    | General | Data | `name=ServiceEndPointSearch <br>global=True` |
 
-    | **Field**      | **Value**                       |
-    |----------------|---------------------------------|
-    | Name           | Omni-channel Save Configuration Data     |
-    | Order | 3 |
-    | Hosted Control | Communication Panel |
-    | Action         | OmnichannelSaveConfigurationData    |
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Save Configuration Data     |
+    | General | Order | 3 |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelSaveConfigurationData    |
 
-    | **Field**      | **Value**                       |
-    |----------------|---------------------------------|
-    | Name           | Update Omni-channel Configuration     |
-    | Hosted Control | CRM Global Manager |
-    | Action         | SaveSetting    | 
-    | Data | name=OmniChannelConfig<br>value=[[OCConfig]+] |
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Update Omni-channel Configuration     |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | SaveSetting    | 
+    | General | Data | `name=OmniChannelConfig<br>value=[[OCConfig]+]` |
 
-    | **Field**      | **Value**                       |
-    |----------------|---------------------------------|
-    | Name           | Omni-channel AAD Authentication Failed     |
-    | Hosted Control | Communication Panel |
-    | Action         | OmnichannelAADAuthenticationFailure | 
-    | Data | PostData=[[PostData]+] |
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel AAD Authentication Failed     |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelAADAuthenticationFailure | 
+    | General | Data | `PostData=[[PostData]+]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Activate Session   |
+    | General | Hosted Control | Session Tabs |
+    | General | Action         | SwitchSession | 
+    | General | Data | `sessionid=[[SessionTabId]+]` |
+    | Advanced | Condition | `'[[CanActivateSession]+]' == 'True'` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Rehydrate Conversation   |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelSwitchSessionsTabs | 
+    | General | Data | `SessionTabId=[[SessionTabId]+]` |
+    | Advanced | Condition | `'[[CanActivateSession]+]' == 'True'` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Create Customer Session   |
+    | General | Order          | 10  |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | CreateSession | 
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]  && '[[CanActivateSession]+]' != 'True'` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Show Session Assignment Toast Notification   |
+    | General | Order | 10 |
+    | General | Hosted Control | Omni-channel Toast Notification |
+    | General | Action         | Show | 
+    | General | Data | `formname=ToastNotification <br>top=85<br>left=82<br>timeout=7<br>stack=true<br>stackHeight=56<br>placementmode=absolute<br>ToastNotificationText=[[$Resources.SessionAssignmentToastNotification]+]<br>NotificationIcon=new_omni_toast_tick_icon` |
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] >= [[$Global.maxNumberOfSessions]+] && '[[CanActivateSession]+]' != 'True'` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Set IsCaseSession to False   |
+    | General | Order | 11 |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | CopyToContext | 
+    | General | Data | `IsCaseSession=False` |
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Session Accepted   |
+    | General | Order | 15 |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelSessionAccepted | 
+    | General | Data | `ConversationId=[[cid]]<br>SessionTabId=[[$Session.ActiveSession]]<br>From=[[from]]<br>CanActivateSession=[[CanActivateSession]+]` |
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] ||  '[[CanActivateSession]+]' == 'True'` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Close Toast Notification  |
+    | General | Hosted Control | Omni-channel Toast Notification |
+    | General | Action         | Close | 
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Expand Right Pane   |
+    | General | Hosted Control | Custom Panel |
+    | General | Action         | SetVisualProperty | 
+    | General | Data | `elementName=RightPanelExpander <br> propertyname=IsExpanded <br> value=true` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Create Customer Session   |
+    | General | Order | 10 |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | OmnichannelSessionAccepted | 
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]  && '[[CanActivateSession]+]' != 'True'` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Show Session Error Toast Notification   |
+    | General | Order | 10 |
+    | General | Hosted Control | Omni-channel Toast Notification |
+    | General | Action         | Show | 
+    | General | Data | `formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> stack=true <br> stackHeight=56 <br> placementmode=absolute <br> ToastNotificationText=[[$Resources.SessionErrorToastNotificationText]+] <br> NotificationIcon=new_omni_toast_error_icon` |
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] >= [[$Global.maxNumberOfSessions]+] && '[[CanActivateSession]+]' != 'True'` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Set Entity Session Property in Context   |
+    | General | Order | 11 |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | CopyToContext | 
+    | General | Data | `ISENTITYSESSION=True <br> CRMCONTACTID=010101` |
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Collapse Left Panel   |
+    | General | Order | 20 |
+    | General | Hosted Control | Agent Script |
+    | General | Action         | GotoTask | 
+    | General | Data | `Case Resolution Script` |
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` | 
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Collapse Left Panel   |
+    | General | Order | 12 |
+    | General | Hosted Control | Custom Panel |
+    | General | Action         | SetVisualProperty | 
+    | General | Data | `elementname=LeftPanelParent <br> propertyname=Visibility  <br> value=$Expression('[[$Context.IsCaseSession]+]'=='True' || '[[$Context.ISENTITYSESSION]+]'=='True' || '[[$Session.IsGlobal]+]'=='True' || '[[$Context.cticallincoming]+]'=='1'? "Collapsed" : "Visible")` |
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Load Case session Agent Script   |
+    | General | Order | 20 |
+    | General | Hosted Control | Agent Script |
+    | General | Action         | GotoTask | 
+    | General | Data | `Case Resolution Script` |
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Load Form for entity |
+    | General | Order | 30 |
+    | General | Hosted Control | Entity Page |
+    | General | Action         | Open_CRM_Page | 
+    | General | Data | `LogicalName=[[EntityLogicalName]+] <br> id=[[EntityId]+]` |
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           |  Omni-channel Set Session Tab Id For Entity Session  |
+    | General | Order | 40 |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelSetSessionTabIdForEntitySession | 
+    | General | Data | `ConversationId=[[ConversationId]] <br> SessionTabId=[[$Session.ActiveSession]]` |
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Focus on KB Search  |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | ShowTab | 
+    | General | Data | `KB Search` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Display Message Action  |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | DisplayMessage | 
+    | General | Data | `text=An error occurred in the communication panel. Restart Unified Service Desk and try again. (Error Code - [[TEXT]+]) <br> caption=Error` |   
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel End Conversation  |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelEndConversation | 
+    | General | Data | `ChatPayLoad=[[PostData]]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Presence Status Update  |
+    | General | Order | 240 |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OCPresenceUpdate | 
+    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] <= [[$Global.maxNumberOfSessions]+]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Incoming Session Request  |
+    | General | Order | 17 |    
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelIncomingSessionRequest | 
+    | General | Data | `ChatPayLoad=[[PostData]]` |         
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Show Chat Transfer Request Alert Notification  |
+    | General | Hosted Control | Omni-channel Alert Notification |
+    | General | Action         | Show | 
+    | General | Data | `formname=ChatTransferRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> cid=[[ConversationId]+] <br> showWarning=[[showWarning]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE` |
+    | Advanced | Condition | `[[RequestType]] == "3" && "[[ParticipantInitiatorType]+]" != "AutoAssign"` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Show Consult Request Alert Notification  |
+    | General | Hosted Control | Omni-channel Alert Notification |
+    | General | Action         | Show | 
+    | General | Data | `formname=ConsultRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> showWarning=[[showWarning]+] <br> stackHeight=100 <br> cid=[[ConversationId]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE` |
+    | Advanced | Condition | `[[RequestType]] == "2"` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Show Simple Chat Request Alert Notification  |
+    | General | Hosted Control | Omni-channel Alert Notification |
+    | General | Action         | Show | 
+    | General | Data | `formname=SimpleChatRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> showWarning=[[showWarning]+] <br> channelIcon=[[channelIcon]+] <br> channelName=[[channelName]+] <br> cid=[[ConversationId]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE` |
+    | Advanced | Condition | `([[RequestType]] == "1" && "[[ParticipantInitiatorType]+]" != "Supervisor") || ([[RequestType]] == "3" && "[[ParticipantInitiatorType]+]" == "AutoAssign")` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Show Simple Chat Request From Supervisor Alert Notification  |
+    | General | Hosted Control | Omni-channel Alert Notification |
+    | General | Action         | Show | 
+    | General | Data | `formname=SimpleChatRequestFromSupervisorForm <br> top=8  <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> showWarning=[[showWarning]+] <br> channelIcon=[[channelIcon]+] <br> channelName=[[channelName]+] <br> cid=[[ConversationId]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE` |
+    | Advanced | Condition | `[[RequestType]] == "1" && "[[ParticipantInitiatorType]]" == "Supervisor"` |              
 
 ## Step 3.  Attach the Action Calls to Events
 
@@ -122,7 +326,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
 4. Select **Events** and select the event to which you want to add the action call. Select **DesktopReady**.
 
-5. Select **Add an Exisiting Action Call**. The **Lookup Records** pane appears.
+5. Select **Add an Existing Action Call**. The **Lookup Records** pane appears.
 
     ![Select Add an Exisiting Action Call option from the event page](../media/oc-usd-cp-desktopready-add.png "Add an exisiting action call") 
 
