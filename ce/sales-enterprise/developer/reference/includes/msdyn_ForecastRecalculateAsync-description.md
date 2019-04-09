@@ -1,0 +1,1 @@
+Recalculates the hierarchy represented by the input forecast asynchronously.<!-- If `IsRefreshHierarchy` is `true`, the forecast hierarchy is updated according to current user hierarchy before starting recalculation.-->

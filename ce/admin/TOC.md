@@ -249,9 +249,6 @@
 #### [Enable Office Delve](enable-office-delve.md)
 #### [Connect to Yammer](connect-yammer.md)
 
-# [Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)
-## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
-## [Enable document suggestions](enable-document-suggestions.md)
 
 # [Dynamics 365 US Government](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 US Government - Feature availability](../admin/government/government-feature-availability.md)

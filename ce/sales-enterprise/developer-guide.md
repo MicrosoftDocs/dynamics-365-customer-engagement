@@ -1,4 +1,5 @@
 ---
+redirect_url: /dynamics365/customer-engagement/sales-enterprise/developer/developer-guide
 title: "Developer Guide (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Contains topics that describe how developers can work with Dynamics 365 for Sales"
 keywords: sales, developer guide
@@ -27,12 +28,12 @@ Welcome to the Dynamics 365 for Sales Developer Guide. This documentation is for
 
 <!--note from editor:  The formatting looks off here--bullets should be indented under the headings--but I haven't been able to fix.  -->
 
-<br />
+<!--<br />
 <table>
 <tr><td>
 <li><a href="recalculateprice-action.md" data-raw-source="[RecalculatePrice Action](recalculateprice-action.md)">RecalculatePrice Action</a></li>
 </td></tr>
-</table>
+</table>-->
 
 ### Related resources
 
