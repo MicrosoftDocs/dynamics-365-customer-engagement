@@ -91,28 +91,28 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Action         | DoSearch    |
     | General | Data | name=ServiceEndPointSearch <br>global=True |
 
-    | Tab | Field      | Value                       |
+    | Tab     | Field          | Value                           |
     |---------|----------------|---------------------------------|
-    | General | Name           | Omni-channel Save Configuration Data     |
+    | General | Name           | Omni-channel Save Configuration Data 
     | General | Order | 3 |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelSaveConfigurationData    |
 
-    | Tab | Field      | Value                       |
+    | Tab     | Field          | Value                           |
     |---------|----------------|---------------------------------|
-    | General | Name           | Update Omni-channel Configuration     |
+    | General | Name           | Update Omni-channel Configuration |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | SaveSetting    | 
     | General | Data | name=OmniChannelConfig<br>value=[[OCConfig]+] |
 
-    | Tab | Field      | Value                       |
+    | Tab     | Field          | Value                           |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel AAD Authentication Failed     |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelAADAuthenticationFailure | 
     | General | Data | PostData=[[PostData]+] |
 
-    | Tab | Field      | Value                       |
+    | Tab     | Field          | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel Activate Session   |
     | General | Hosted Control | Session Tabs |
@@ -120,7 +120,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Data | sessionid=[[SessionTabId]+] |
     | Advanced | Condition | '[[CanActivateSession]+]' == 'True' |
 
-    | Tab | Field      | Value                       |
+    | Tab     | Field          | Value                           |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel Rehydrate Conversation   |
     | General | Hosted Control | Communication Panel |
