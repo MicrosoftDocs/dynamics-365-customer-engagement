@@ -57,7 +57,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
 5. In the new page, specify the following details.
 
-    | Tab | Field      | Value                       |
+    | Tab     | Field          | Value                           |
     |---------|----------------|---------------------------------|
     | General | Name           | Launch Communication Panel      |
     | General | Hosted Control | Communication Panel |
@@ -67,7 +67,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
 7. Repeat steps 3 through 6 to create the following additional action calls.
 
-    | Tab | Field      | Value                       |
+    | Tab     | Field          | Value                           |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel Clear Entity List      |
     | General | Order | 1 |
@@ -75,7 +75,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Action         | ClearEntityList    |
 
 
-    | Tab | Field      | Value                       |
+    | Tab     | Field          | Value                           |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel Fetch Live Work Streams      |
     | General | Order | 2 | 
@@ -83,7 +83,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Action         | DoSearch    |
     | General | Data | name=LiveWorkStreamSearch <br>global=True |
 
-    | Tab | Field      | Value                       |
+    | Tab     | Field          | Value                           |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel Fetch Service End Point     |
     | General | Order | 2 | 
@@ -202,23 +202,23 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Data | ISENTITYSESSION=True <br> CRMCONTACTID=010101  |
     | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] |
 
-    | Tab | Field      | Value                       |
-    |---------|----------------|---------------------------------|
-    | General | Name           | Collapse Left Panel   |
-    | General | Order | 20 |
-    | General | Hosted Control | Agent Script |
-    | General | Action         | GotoTask | 
-    | General | Data | Case Resolution Script |
-    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] | 
-
-    | Tab | Field      | Value                       |
+    | Tab     | Field          | Value                           |
     |---------|----------------|---------------------------------|
     | General | Name           | Collapse Left Panel   |
     | General | Order | 12 |
     | General | Hosted Control | Custom Panel |
     | General | Action         | SetVisualProperty | 
-    | General | Data | elementname=LeftPanelParent <br> propertyname=Visibility  <br> value=$Expression('[[$Context.IsCaseSession]+]'=='True' || '[[$Context.ISENTITYSESSION]+]'=='True' || '[[$Session.IsGlobal]+]'=='True' || '[[$Context.cticallincoming]+]'=='1'? "Collapsed" : "Visible") |
+    | General | Data | elementname=LeftPanelParent <br> propertyname=Visibility<br>value=$Expression('[[$Context.IsCaseSession]+]'=='True' || '[[$Context.ISENTITYSESSION]+]'=='True' || '[[$Session.IsGlobal]+]'=='True' || '[[$Context.cticallincoming]+]'=='1'? "Collapsed" : "Visible") |
     | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Load Case session Agent Script  |
+    | General | Order | 20 |
+    | General | Hosted Control | Agent Script |
+    | General | Action         | GotoTask | 
+    | General | Data | Case Resolution Script |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] | 
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
