@@ -112,12 +112,12 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Action         | OmnichannelAADAuthenticationFailure | 
     | General | Data | PostData=[[PostData]+] |
 
-    | Tab     | Field          | Value                       |
-    |---------|----------------|---------------------------------|
-    | General | Name           | Omni-channel Activate Session   |
-    | General | Hosted Control | Session Tabs |
-    | General | Action         | SwitchSession | 
-    | General | Data | sessionid=[[SessionTabId]+] |
+    | Tab      | Field          | Value                           |
+    |----------|----------------|---------------------------------|
+    | General  | Name           | Omni-channel Activate Session   |
+    | General  | Hosted Control | Session Tabs |
+    | General  | Action         | SwitchSession | 
+    | General  | Data | sessionid=[[SessionTabId]+] |
     | Advanced | Condition | '[[CanActivateSession]+]' == 'True' |
 
     | Tab     | Field          | Value                           |
