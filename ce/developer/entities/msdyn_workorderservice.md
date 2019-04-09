@@ -1,43 +1,45 @@
 ---
-title: "msdyn_workorderservice Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_workorderservice Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_workorderservice entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_workorderservice Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Record all services proposed and performed for work order
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_workorderservices(*msdyn_workorderserviceid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_workorderservices<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_workorderservices(*msdyn_workorderserviceid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_workorderservices(*msdyn_workorderserviceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_workorderservices<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_workorderservices(*msdyn_workorderserviceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_workorderservices(*msdyn_workorderserviceid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_workorderservices<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_workorderservices(*msdyn_workorderserviceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_workorderservices<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_workorderservices(*msdyn_workorderserviceid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_workorderservices(*msdyn_workorderserviceid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_workorderservices(*msdyn_workorderserviceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_workorderservices(*msdyn_workorderserviceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -69,10 +71,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_CommissionCosts](#BKMK_msdyn_CommissionCosts)
 - [msdyn_CustomerAsset](#BKMK_msdyn_CustomerAsset)
 - [msdyn_Description](#BKMK_msdyn_Description)
+- [msdyn_DisableEntitlement](#BKMK_msdyn_DisableEntitlement)
 - [msdyn_DiscountAmount](#BKMK_msdyn_DiscountAmount)
 - [msdyn_DiscountPercent](#BKMK_msdyn_DiscountPercent)
 - [msdyn_Duration](#BKMK_msdyn_Duration)
 - [msdyn_DurationToBill](#BKMK_msdyn_DurationToBill)
+- [msdyn_Entitlement](#BKMK_msdyn_Entitlement)
 - [msdyn_EstimateCalculatedUnitAmount](#BKMK_msdyn_EstimateCalculatedUnitAmount)
 - [msdyn_EstimateDiscountAmount](#BKMK_msdyn_EstimateDiscountAmount)
 - [msdyn_EstimateDiscountPercent](#BKMK_msdyn_EstimateDiscountPercent)
@@ -237,6 +241,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Memo|
 
 
+### <a name="BKMK_msdyn_DisableEntitlement"></a> msdyn_DisableEntitlement
+
+|Property|Value|
+|--------|-----|
+|Description|Choose whether to disable entitlement selection for this work order service.|
+|DisplayName|Disable Entitlement|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_disableentitlement|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_DisableEntitlement Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_msdyn_DiscountAmount"></a> msdyn_DiscountAmount
 
 |Property|Value|
@@ -282,7 +309,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|msdyn_duration|
 |MaxValue|2147483647|
 |MinValue|0|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|Integer|
 
 
@@ -298,8 +325,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|msdyn_durationtobill|
 |MaxValue|2147483647|
 |MinValue|0|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|Integer|
+
+
+### <a name="BKMK_msdyn_Entitlement"></a> msdyn_Entitlement
+
+|Property|Value|
+|--------|-----|
+|Description|Entitlement to apply to the Work Order Service.|
+|DisplayName|Entitlement|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_entitlement|
+|RequiredLevel|None|
+|Targets|entitlement|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_EstimateCalculatedUnitAmount"></a> msdyn_EstimateCalculatedUnitAmount
@@ -580,7 +621,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_pricelist|
-|RequiredLevel|None|
+|RequiredLevel|ApplicationRequired|
 |Targets|pricelevel|
 |Type|Lookup|
 
@@ -781,6 +822,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -794,6 +837,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -867,6 +912,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the currency associated with the entity.|
@@ -895,7 +942,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -920,6 +969,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [msdyn_commissioncosts_Base](#BKMK_msdyn_commissioncosts_Base)
 - [msdyn_CustomerAssetName](#BKMK_msdyn_CustomerAssetName)
 - [msdyn_discountamount_Base](#BKMK_msdyn_discountamount_Base)
+- [msdyn_entitlementName](#BKMK_msdyn_entitlementName)
 - [msdyn_estimatecalculatedunitamount_Base](#BKMK_msdyn_estimatecalculatedunitamount_Base)
 - [msdyn_estimatediscountamount_Base](#BKMK_msdyn_estimatediscountamount_Base)
 - [msdyn_estimatesubtotal_Base](#BKMK_msdyn_estimatesubtotal_Base)
@@ -949,6 +999,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -962,6 +1014,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -978,6 +1032,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -998,7 +1054,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1009,6 +1065,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1023,6 +1081,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1040,6 +1100,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1055,6 +1117,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1072,6 +1136,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -1085,6 +1151,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1101,6 +1169,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1121,7 +1191,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1132,6 +1202,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1146,6 +1218,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1162,6 +1236,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1291,6 +1367,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |PrecisionSource|1|
 |RequiredLevel|None|
 |Type|Money|
+
+
+### <a name="BKMK_msdyn_entitlementName"></a> msdyn_entitlementName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_entitlementname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_estimatecalculatedunitamount_Base"></a> msdyn_estimatecalculatedunitamount_Base
@@ -1596,6 +1688,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Name of the owner|
@@ -1611,6 +1705,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1628,6 +1724,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -1641,6 +1739,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1656,6 +1756,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -1669,6 +1771,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1685,6 +1789,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1705,16 +1811,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 Listed by **SchemaName**.
 
 - [msdyn_workorderservice_ActivityPointers](#BKMK_msdyn_workorderservice_ActivityPointers)
-- [msdyn_workorderservice_msdyn_approvals](#BKMK_msdyn_workorderservice_msdyn_approvals)
 - [msdyn_workorderservice_msdyn_bookingalerts](#BKMK_msdyn_workorderservice_msdyn_bookingalerts)
+- [msdyn_workorderservice_msdyn_approvals](#BKMK_msdyn_workorderservice_msdyn_approvals)
 - [msdyn_workorderservice_SyncErrors](#BKMK_msdyn_workorderservice_SyncErrors)
 - [msdyn_workorderservice_DuplicateMatchingRecord](#BKMK_msdyn_workorderservice_DuplicateMatchingRecord)
 - [msdyn_workorderservice_DuplicateBaseRecord](#BKMK_msdyn_workorderservice_DuplicateBaseRecord)
 - [msdyn_workorderservice_SharePointDocumentLocations](#BKMK_msdyn_workorderservice_SharePointDocumentLocations)
-- [msdyn_workorderservice_SharePointDocuments](#BKMK_msdyn_workorderservice_SharePointDocuments)
 - [msdyn_workorderservice_AsyncOperations](#BKMK_msdyn_workorderservice_AsyncOperations)
 - [msdyn_workorderservice_MailboxTrackingFolders](#BKMK_msdyn_workorderservice_MailboxTrackingFolders)
-- [msdyn_workorderservice_UserEntityInstanceDatas](#BKMK_msdyn_workorderservice_UserEntityInstanceDatas)
 - [msdyn_workorderservice_ProcessSession](#BKMK_msdyn_workorderservice_ProcessSession)
 - [msdyn_workorderservice_BulkDeleteFailures](#BKMK_msdyn_workorderservice_BulkDeleteFailures)
 - [msdyn_workorderservice_PrincipalObjectAttributeAccesses](#BKMK_msdyn_workorderservice_PrincipalObjectAttributeAccesses)
@@ -1736,6 +1840,8 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_workorderservice_ActivityPointers"></a> msdyn_workorderservice_ActivityPointers
 
+**Added by**: System Solution Solution
+
 Same as activitypointer entity [msdyn_workorderservice_ActivityPointers](activitypointer.md#BKMK_msdyn_workorderservice_ActivityPointers) Many-To-One relationship.
 
 |Property|Value|
@@ -1749,22 +1855,9 @@ Same as activitypointer entity [msdyn_workorderservice_ActivityPointers](activit
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_msdyn_workorderservice_msdyn_approvals"></a> msdyn_workorderservice_msdyn_approvals
-
-Same as msdyn_approval entity [msdyn_workorderservice_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_workorderservice_msdyn_approvals) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_approval|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_workorderservice_msdyn_approvals|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
 ### <a name="BKMK_msdyn_workorderservice_msdyn_bookingalerts"></a> msdyn_workorderservice_msdyn_bookingalerts
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bookingalert entity [msdyn_workorderservice_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_workorderservice_msdyn_bookingalerts) Many-To-One relationship.
 
@@ -1779,7 +1872,26 @@ Same as msdyn_bookingalert entity [msdyn_workorderservice_msdyn_bookingalerts](m
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
+### <a name="BKMK_msdyn_workorderservice_msdyn_approvals"></a> msdyn_workorderservice_msdyn_approvals
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_approval entity [msdyn_workorderservice_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_workorderservice_msdyn_approvals) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_approval|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_workorderservice_msdyn_approvals|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+
+
 ### <a name="BKMK_msdyn_workorderservice_SyncErrors"></a> msdyn_workorderservice_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_workorderservice_SyncErrors](syncerror.md#BKMK_msdyn_workorderservice_SyncErrors) Many-To-One relationship.
 
@@ -1791,10 +1903,12 @@ Same as syncerror entity [msdyn_workorderservice_SyncErrors](syncerror.md#BKMK_m
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_workorderservice_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorderservice_DuplicateMatchingRecord"></a> msdyn_workorderservice_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_workorderservice_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_workorderservice_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -1811,6 +1925,8 @@ Same as duplicaterecord entity [msdyn_workorderservice_DuplicateMatchingRecord](
 
 ### <a name="BKMK_msdyn_workorderservice_DuplicateBaseRecord"></a> msdyn_workorderservice_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_workorderservice_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_workorderservice_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -1826,6 +1942,8 @@ Same as duplicaterecord entity [msdyn_workorderservice_DuplicateBaseRecord](dupl
 
 ### <a name="BKMK_msdyn_workorderservice_SharePointDocumentLocations"></a> msdyn_workorderservice_SharePointDocumentLocations
 
+**Added by**: System Solution Solution
+
 Same as sharepointdocumentlocation entity [msdyn_workorderservice_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_workorderservice_SharePointDocumentLocations) Many-To-One relationship.
 
 |Property|Value|
@@ -1839,22 +1957,9 @@ Same as sharepointdocumentlocation entity [msdyn_workorderservice_SharePointDocu
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_msdyn_workorderservice_SharePointDocuments"></a> msdyn_workorderservice_SharePointDocuments
-
-Same as sharepointdocument entity [msdyn_workorderservice_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_workorderservice_SharePointDocuments) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|sharepointdocument|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_workorderservice_SharePointDocuments|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 60|
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
 ### <a name="BKMK_msdyn_workorderservice_AsyncOperations"></a> msdyn_workorderservice_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_workorderservice_AsyncOperations](asyncoperation.md#BKMK_msdyn_workorderservice_AsyncOperations) Many-To-One relationship.
 
@@ -1871,6 +1976,8 @@ Same as asyncoperation entity [msdyn_workorderservice_AsyncOperations](asyncoper
 
 ### <a name="BKMK_msdyn_workorderservice_MailboxTrackingFolders"></a> msdyn_workorderservice_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_workorderservice_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_workorderservice_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -1881,25 +1988,12 @@ Same as mailboxtrackingfolder entity [msdyn_workorderservice_MailboxTrackingFold
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_workorderservice_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_workorderservice_UserEntityInstanceDatas"></a> msdyn_workorderservice_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_workorderservice_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_workorderservice_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_workorderservice_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_workorderservice_ProcessSession"></a> msdyn_workorderservice_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_workorderservice_ProcessSession](processsession.md#BKMK_msdyn_workorderservice_ProcessSession) Many-To-One relationship.
 
@@ -1916,6 +2010,8 @@ Same as processsession entity [msdyn_workorderservice_ProcessSession](processses
 
 ### <a name="BKMK_msdyn_workorderservice_BulkDeleteFailures"></a> msdyn_workorderservice_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_workorderservice_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_workorderservice_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -1930,6 +2026,8 @@ Same as bulkdeletefailure entity [msdyn_workorderservice_BulkDeleteFailures](bul
 
 
 ### <a name="BKMK_msdyn_workorderservice_PrincipalObjectAttributeAccesses"></a> msdyn_workorderservice_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [msdyn_workorderservice_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_workorderservice_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -1946,6 +2044,8 @@ Same as principalobjectattributeaccess entity [msdyn_workorderservice_PrincipalO
 
 ### <a name="BKMK_msdyn_workorderservice_Appointments"></a> msdyn_workorderservice_Appointments
 
+**Added by**: System Solution Solution
+
 Same as appointment entity [msdyn_workorderservice_Appointments](appointment.md#BKMK_msdyn_workorderservice_Appointments) Many-To-One relationship.
 
 |Property|Value|
@@ -1960,6 +2060,8 @@ Same as appointment entity [msdyn_workorderservice_Appointments](appointment.md#
 
 
 ### <a name="BKMK_msdyn_workorderservice_Emails"></a> msdyn_workorderservice_Emails
+
+**Added by**: System Solution Solution
 
 Same as email entity [msdyn_workorderservice_Emails](email.md#BKMK_msdyn_workorderservice_Emails) Many-To-One relationship.
 
@@ -1976,6 +2078,8 @@ Same as email entity [msdyn_workorderservice_Emails](email.md#BKMK_msdyn_workord
 
 ### <a name="BKMK_msdyn_workorderservice_Faxes"></a> msdyn_workorderservice_Faxes
 
+**Added by**: System Solution Solution
+
 Same as fax entity [msdyn_workorderservice_Faxes](fax.md#BKMK_msdyn_workorderservice_Faxes) Many-To-One relationship.
 
 |Property|Value|
@@ -1990,6 +2094,8 @@ Same as fax entity [msdyn_workorderservice_Faxes](fax.md#BKMK_msdyn_workorderser
 
 
 ### <a name="BKMK_msdyn_workorderservice_Letters"></a> msdyn_workorderservice_Letters
+
+**Added by**: System Solution Solution
 
 Same as letter entity [msdyn_workorderservice_Letters](letter.md#BKMK_msdyn_workorderservice_Letters) Many-To-One relationship.
 
@@ -2006,6 +2112,8 @@ Same as letter entity [msdyn_workorderservice_Letters](letter.md#BKMK_msdyn_work
 
 ### <a name="BKMK_msdyn_workorderservice_PhoneCalls"></a> msdyn_workorderservice_PhoneCalls
 
+**Added by**: System Solution Solution
+
 Same as phonecall entity [msdyn_workorderservice_PhoneCalls](phonecall.md#BKMK_msdyn_workorderservice_PhoneCalls) Many-To-One relationship.
 
 |Property|Value|
@@ -2020,6 +2128,8 @@ Same as phonecall entity [msdyn_workorderservice_PhoneCalls](phonecall.md#BKMK_m
 
 
 ### <a name="BKMK_msdyn_workorderservice_Tasks"></a> msdyn_workorderservice_Tasks
+
+**Added by**: System Solution Solution
 
 Same as task entity [msdyn_workorderservice_Tasks](task.md#BKMK_msdyn_workorderservice_Tasks) Many-To-One relationship.
 
@@ -2036,6 +2146,8 @@ Same as task entity [msdyn_workorderservice_Tasks](task.md#BKMK_msdyn_workorders
 
 ### <a name="BKMK_msdyn_workorderservice_RecurringAppointmentMasters"></a> msdyn_workorderservice_RecurringAppointmentMasters
 
+**Added by**: System Solution Solution
+
 Same as recurringappointmentmaster entity [msdyn_workorderservice_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_workorderservice_RecurringAppointmentMasters) Many-To-One relationship.
 
 |Property|Value|
@@ -2050,6 +2162,8 @@ Same as recurringappointmentmaster entity [msdyn_workorderservice_RecurringAppoi
 
 
 ### <a name="BKMK_msdyn_workorderservice_SocialActivities"></a> msdyn_workorderservice_SocialActivities
+
+**Added by**: System Solution Solution
 
 Same as socialactivity entity [msdyn_workorderservice_SocialActivities](socialactivity.md#BKMK_msdyn_workorderservice_SocialActivities) Many-To-One relationship.
 
@@ -2066,6 +2180,8 @@ Same as socialactivity entity [msdyn_workorderservice_SocialActivities](socialac
 
 ### <a name="BKMK_msdyn_workorderservice_connections1"></a> msdyn_workorderservice_connections1
 
+**Added by**: System Solution Solution
+
 Same as connection entity [msdyn_workorderservice_connections1](connection.md#BKMK_msdyn_workorderservice_connections1) Many-To-One relationship.
 
 |Property|Value|
@@ -2080,6 +2196,8 @@ Same as connection entity [msdyn_workorderservice_connections1](connection.md#BK
 
 
 ### <a name="BKMK_msdyn_workorderservice_connections2"></a> msdyn_workorderservice_connections2
+
+**Added by**: System Solution Solution
 
 Same as connection entity [msdyn_workorderservice_connections2](connection.md#BKMK_msdyn_workorderservice_connections2) Many-To-One relationship.
 
@@ -2096,6 +2214,8 @@ Same as connection entity [msdyn_workorderservice_connections2](connection.md#BK
 
 ### <a name="BKMK_msdyn_workorderservice_QueueItems"></a> msdyn_workorderservice_QueueItems
 
+**Added by**: System Solution Solution
+
 Same as queueitem entity [msdyn_workorderservice_QueueItems](queueitem.md#BKMK_msdyn_workorderservice_QueueItems) Many-To-One relationship.
 
 |Property|Value|
@@ -2111,6 +2231,8 @@ Same as queueitem entity [msdyn_workorderservice_QueueItems](queueitem.md#BKMK_m
 
 ### <a name="BKMK_msdyn_workorderservice_Annotations"></a> msdyn_workorderservice_Annotations
 
+**Added by**: System Solution Solution
+
 Same as annotation entity [msdyn_workorderservice_Annotations](annotation.md#BKMK_msdyn_workorderservice_Annotations) Many-To-One relationship.
 
 |Property|Value|
@@ -2125,6 +2247,8 @@ Same as annotation entity [msdyn_workorderservice_Annotations](annotation.md#BKM
 
 
 ### <a name="BKMK_msdyn_workorderservice_ServiceAppointments"></a> msdyn_workorderservice_ServiceAppointments
+
+**Added by**: Service Solution
 
 Same as serviceappointment entity [msdyn_workorderservice_ServiceAppointments](serviceappointment.md#BKMK_msdyn_workorderservice_ServiceAppointments) Many-To-One relationship.
 
@@ -2168,6 +2292,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [business_unit_msdyn_workorderservice](#BKMK_business_unit_msdyn_workorderservice)
 - [TransactionCurrency_msdyn_workorderservice](#BKMK_TransactionCurrency_msdyn_workorderservice)
 - [msdyn_bookableresourcebooking_msdyn_workorderservice_Booking](#BKMK_msdyn_bookableresourcebooking_msdyn_workorderservice_Booking)
+- [msdyn_entitlement_msdyn_workorderservice_entitlement](#BKMK_msdyn_entitlement_msdyn_workorderservice_entitlement)
 - [msdyn_msdyn_agreementbookingservice_msdyn_workorderservice_AgreementBookingService](#BKMK_msdyn_msdyn_agreementbookingservice_msdyn_workorderservice_AgreementBookingService)
 - [msdyn_msdyn_customerasset_msdyn_workorderservice_CustomerAsset](#BKMK_msdyn_msdyn_customerasset_msdyn_workorderservice_CustomerAsset)
 - [msdyn_msdyn_workorder_msdyn_workorderservice_WorkOrder](#BKMK_msdyn_msdyn_workorder_msdyn_workorderservice_WorkOrder)
@@ -2179,39 +2304,63 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_workorderservice_createdby"></a> lk_msdyn_workorderservice_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_workorderservice_createdby](systemuser.md#BKMK_lk_msdyn_workorderservice_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_workorderservice_createdonbehalfby"></a> lk_msdyn_workorderservice_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_workorderservice_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_workorderservice_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_workorderservice_modifiedby"></a> lk_msdyn_workorderservice_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_workorderservice_modifiedby](systemuser.md#BKMK_lk_msdyn_workorderservice_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_workorderservice_modifiedonbehalfby"></a> lk_msdyn_workorderservice_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_workorderservice_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_workorderservice_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_workorderservice"></a> user_msdyn_workorderservice
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_msdyn_workorderservice](systemuser.md#BKMK_user_msdyn_workorderservice) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_workorderservice"></a> team_msdyn_workorderservice
+
+**Added by**: System Solution Solution
 
 See team Entity [team_msdyn_workorderservice](team.md#BKMK_team_msdyn_workorderservice) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_workorderservice"></a> business_unit_msdyn_workorderservice
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_msdyn_workorderservice](businessunit.md#BKMK_business_unit_msdyn_workorderservice) One-To-Many relationship.
 
 ### <a name="BKMK_TransactionCurrency_msdyn_workorderservice"></a> TransactionCurrency_msdyn_workorderservice
+
+**Added by**: System Solution Solution
 
 See transactioncurrency Entity [TransactionCurrency_msdyn_workorderservice](transactioncurrency.md#BKMK_TransactionCurrency_msdyn_workorderservice) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookableresourcebooking_msdyn_workorderservice_Booking"></a> msdyn_bookableresourcebooking_msdyn_workorderservice_Booking
 
+**Added by**: Scheduling Solution
+
 See bookableresourcebooking Entity [msdyn_bookableresourcebooking_msdyn_workorderservice_Booking](bookableresourcebooking.md#BKMK_msdyn_bookableresourcebooking_msdyn_workorderservice_Booking) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_entitlement_msdyn_workorderservice_entitlement"></a> msdyn_entitlement_msdyn_workorderservice_entitlement
+
+**Added by**: Service Solution
+
+See entitlement Entity [msdyn_entitlement_msdyn_workorderservice_entitlement](entitlement.md#BKMK_msdyn_entitlement_msdyn_workorderservice_entitlement) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_agreementbookingservice_msdyn_workorderservice_AgreementBookingService"></a> msdyn_msdyn_agreementbookingservice_msdyn_workorderservice_AgreementBookingService
 
@@ -2231,19 +2380,25 @@ See msdyn_workorderincident Entity [msdyn_msdyn_workorderincident_msdyn_workorde
 
 ### <a name="BKMK_msdyn_pricelevel_msdyn_workorderservice_PriceList"></a> msdyn_pricelevel_msdyn_workorderservice_PriceList
 
+**Added by**: Product Management Solution
+
 See pricelevel Entity [msdyn_pricelevel_msdyn_workorderservice_PriceList](pricelevel.md#BKMK_msdyn_pricelevel_msdyn_workorderservice_PriceList) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_product_msdyn_workorderservice_Service"></a> msdyn_product_msdyn_workorderservice_Service
 
+**Added by**: Product Management Solution
+
 See product Entity [msdyn_product_msdyn_workorderservice_Service](product.md#BKMK_msdyn_product_msdyn_workorderservice_Service) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_uom_msdyn_workorderservice_Unit"></a> msdyn_uom_msdyn_workorderservice_Unit
+
+**Added by**: Product Management Solution
 
 See uom Entity [msdyn_uom_msdyn_workorderservice_Unit](uom.md#BKMK_msdyn_uom_msdyn_workorderservice_Unit) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_workorderservice?text=msdyn_workorderservice EntityType" />

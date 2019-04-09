@@ -98,7 +98,11 @@ More specific auditing can be configured based on your business needs. You can t
  
 ## Step 4. Enable background location tracking 
 
-Next, go to the **Location Tracking** section of the project and **Enable background GPS monitoring**.
+
+
+1. Go to the **Location Tracking** section of the project. 
+2. Select **Enable background GPS monitoring**  
+3. Deselect **Enable real-time position flushing via Resco web service**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of enabling background location tracking](./media/mobile-geofence-enable-location-tracking.png)

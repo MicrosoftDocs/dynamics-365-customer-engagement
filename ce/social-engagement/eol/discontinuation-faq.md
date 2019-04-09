@@ -2,7 +2,7 @@
 title: "Discontinuation of Microsoft Social Engagement | Microsoft Docs"
 description: "Information about the discontinuation of the Microsoft Social Engagement service."
 keywords: "discontinuation, MSE, AI for Market Insights"
-ms.date: 01/16/2019
+ms.date: 03/27/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,6 @@ applies_to:
 ms.assetid: ff0e1de0-5f0f-4ba7-ae7e-3f10dc1fe998
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
-topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -94,12 +92,10 @@ The transition to Dynamics 365 Market Insights is intended to be a seamless expe
 
 ###	What are the key capabilities of Dynamics 365 Market Insights?
 
-The key features of Dynamics 365 Market Insights fall within five categories:
+The key features of Dynamics 365 Market Insights fall within three categories:
 -	**Search Insights**: Know what your customers are saying, seeking, and feeling by acquiring audience insights from Bing search. Access demographic and historical insights to align marketing and product development activities. Turn these insights into actions by developing targeted campaigns. 
 -	**Social Insights**: Listen to what customers and competitors are saying, and track how their sentiment changes over time through automatic sentiment analysis. Leverage the power of AI to detect intent within social posts and help you identify new leads or respond to service questions.
 -	**Brand Reputation**: Use machine learning to tweak sentiment detection in a way that’s tailored to your organization. Identify, track, and engage with individual influencers and experts on social media so you never miss a post from an influencer.
-- **Social Care**: Give service agents the information they need, and automate case routing, so they can spend more time addressing customer needs. Detect and create alerts based on sentiment and trends to proactively identify service issues.
-- **Social Selling**: Empower your sales people to sell more by leveraging social media. Sales teams can gather intelligence, source new leads, and build credibility. Source high-quality leads to identify and act on buying signals, and then create new leads based on social posts.
 
 Refer to the [Release Notes](https://dynamics.microsoft.com/business-applications/release/) for information about additional capabilities for future release.
 

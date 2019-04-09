@@ -1,7 +1,7 @@
 ---
 title: "Open the form editor (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/08/2019
+ms.date: 04/02/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,14 +27,12 @@ search.app:
  You can access the form editor in Dynamics 365 for Customer Engagement apps through the command bar or the ribbon, depending on the entity. Both of these methods open the form in the context of the default solution. If you create any new solution components in the process of editing the form, for example web resources, the names of the components will use the solution publisher customization prefix for the default solution and these components will only be included in the default solution. If you want any new solution components to be included in a specific unmanaged solution, you should open the form editor through that unmanaged solution.  
   
 ## Access the form editor through the command bar  
+> [!NOTE]
+> Accessing the form editor through the command bar is only available in the classic web app.
   
 1.  Open a record.  
   
-2.  If there are multiple main forms for the entity, verify that the form is the one you want to edit. If it isn’t, use the form selector to choose the form you want to edit.  
-  
-3.  Select the **More Commands** button ![More Commands button in Appointment Activity](../customize/media/more-commands.gif "More Commands button in Appointment Activity").  
-  
-4.  Select **Form Editor**.  
+2.  On the command bar, select **Form**, to open the form editor.  
   
 ## Access the form editor through the default solution  
   

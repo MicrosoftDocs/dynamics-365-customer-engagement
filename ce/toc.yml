@@ -19,7 +19,12 @@
   expanded: true
   items:    
   - name: Sales
-    href: sales-enterprise/index.md
+    expanded: true
+    items:    
+    - name: Sales Enterprise
+      href: sales-enterprise/index.md
+    - name: Sales Professional
+      href: sales-professional/help-hub.md
   - name: Customer Service
     href: customer-service/index.md
   - name: Field Service

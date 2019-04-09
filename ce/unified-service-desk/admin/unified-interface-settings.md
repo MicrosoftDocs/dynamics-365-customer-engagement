@@ -96,7 +96,7 @@ The configuration is added successfully and appears in the **Configuration** tab
 4. In the **Unified Interface Settings** field, type the name of the existing Unified Interface record you want to assign, and choose the search icon.<br> Select the record when it appears..<br>
 ![Add unified interface setting record to the configuration](../media/usd-crm-add-unified-interface-record-configuration.PNG "Add unified interface setting record to the configuration")<br>
     >[!Note]
-    > In the above step, we added an existing Unified Interface Settings record to the configuration. To create a new Unified Interface Settings record, see [How to create Unified Interface Setting record](#how-to-create-unified-interface-setting-record).
+    > In the above step, we added an existing Unified Interface Settings record to the configuration. To create a new Unified Interface Settings record, see [How to create Unified Interface Setting record](#how-to-create-unified-interface-settings-record).
 
 5. Select **Save & Close**.
 
