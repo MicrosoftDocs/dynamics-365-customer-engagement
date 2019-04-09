@@ -151,8 +151,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 11 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | CopyToContext | 
-    | General | Data | `IsCaseSession=False` |
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` |
+    | General | Data | IsCaseSession=False |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -160,8 +160,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 15 |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelSessionAccepted | 
-    | General | Data | `ConversationId=[[cid]]<br>SessionTabId=[[$Session.ActiveSession]]<br>From=[[from]]<br>CanActivateSession=[[CanActivateSession]+]` |
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] ||  '[[CanActivateSession]+]' == 'True'` |
+    | General | Data | ConversationId=[[cid]]<br>SessionTabId=[[$Session.ActiveSession]]<br>From=[[from]]<br>CanActivateSession=[[CanActivateSession]+] |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] ||  '[[CanActivateSession]+]' == 'True' |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -174,7 +174,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Name           | Expand Right Pane   |
     | General | Hosted Control | Custom Panel |
     | General | Action         | SetVisualProperty | 
-    | General | Data | `elementName=RightPanelExpander <br> propertyname=IsExpanded <br> value=true` |
+    | General | Data | elementName=RightPanelExpander <br> propertyname=IsExpanded <br> value=true |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -182,7 +182,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 10 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | OmnichannelSessionAccepted | 
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]  && '[[CanActivateSession]+]' != 'True'` |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]  && '[[CanActivateSession]+]' != 'True' |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -190,8 +190,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 10 |
     | General | Hosted Control | Omni-channel Toast Notification |
     | General | Action         | Show | 
-    | General | Data | `formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> stack=true <br> stackHeight=56 <br> placementmode=absolute <br> ToastNotificationText=[[$Resources.SessionErrorToastNotificationText]+] <br> NotificationIcon=new_omni_toast_error_icon` |
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] >= [[$Global.maxNumberOfSessions]+] && '[[CanActivateSession]+]' != 'True'` |
+    | General | Data | formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> stack=true <br> stackHeight=56 <br> placementmode=absolute <br> ToastNotificationText=[[$Resources.SessionErrorToastNotificationText]+] <br> NotificationIcon=new_omni_toast_error_icon |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] >= [[$Global.maxNumberOfSessions]+] && '[[CanActivateSession]+]' != 'True' |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -199,8 +199,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 11 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | CopyToContext | 
-    | General | Data | `ISENTITYSESSION=True <br> CRMCONTACTID=010101` |
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` |
+    | General | Data | ISENTITYSESSION=True <br> CRMCONTACTID=010101  |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -208,8 +208,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 20 |
     | General | Hosted Control | Agent Script |
     | General | Action         | GotoTask | 
-    | General | Data | `Case Resolution Script` |
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` | 
+    | General | Data | Case Resolution Script |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] | 
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -217,8 +217,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 12 |
     | General | Hosted Control | Custom Panel |
     | General | Action         | SetVisualProperty | 
-    | General | Data | `elementname=LeftPanelParent <br> propertyname=Visibility  <br> value=$Expression('[[$Context.IsCaseSession]+]'=='True' || '[[$Context.ISENTITYSESSION]+]'=='True' || '[[$Session.IsGlobal]+]'=='True' || '[[$Context.cticallincoming]+]'=='1'? "Collapsed" : "Visible")` |
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` |
+    | General | Data | elementname=LeftPanelParent <br> propertyname=Visibility  <br> value=$Expression('[[$Context.IsCaseSession]+]'=='True' || '[[$Context.ISENTITYSESSION]+]'=='True' || '[[$Session.IsGlobal]+]'=='True' || '[[$Context.cticallincoming]+]'=='1'? "Collapsed" : "Visible") |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -226,8 +226,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 20 |
     | General | Hosted Control | Agent Script |
     | General | Action         | GotoTask | 
-    | General | Data | `Case Resolution Script` |
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` |
+    | General | Data | Case Resolution Script |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -235,8 +235,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 30 |
     | General | Hosted Control | Entity Page |
     | General | Action         | Open_CRM_Page | 
-    | General | Data | `LogicalName=[[EntityLogicalName]+] <br> id=[[EntityId]+]` |
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` |
+    | General | Data | LogicalName=[[EntityLogicalName]+] <br> id=[[EntityId]+] |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -244,29 +244,29 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 40 |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelSetSessionTabIdForEntitySession | 
-    | General | Data | `ConversationId=[[ConversationId]] <br> SessionTabId=[[$Session.ActiveSession]]` |
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]` |
+    | General | Data | ConversationId=[[ConversationId]] <br> SessionTabId=[[$Session.ActiveSession]] |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Focus on KB Search  |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | ShowTab | 
-    | General | Data | `KB Search` |
+    | General | Data | KB Search |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Display Message Action  |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | DisplayMessage | 
-    | General | Data | `text=An error occurred in the communication panel. Restart Unified Service Desk and try again. (Error Code - [[TEXT]+]) <br> caption=Error` |   
+    | General | Data | text=An error occurred in the communication panel. Restart Unified Service Desk and try again. (Error Code - [[TEXT]+]) <br> caption=Error |   
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel End Conversation  |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelEndConversation | 
-    | General | Data | `ChatPayLoad=[[PostData]]` |
+    | General | Data | ChatPayLoad=[[PostData]] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -274,7 +274,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 240 |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OCPresenceUpdate | 
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] <= [[$Global.maxNumberOfSessions]+]` |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] <= [[$Global.maxNumberOfSessions]+] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -282,46 +282,46 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 17 |    
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelIncomingSessionRequest | 
-    | General | Data | `ChatPayLoad=[[PostData]]` |         
+    | General | Data | ChatPayLoad=[[PostData]] |         
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Show Chat Transfer Request Alert Notification  |
     | General | Hosted Control | Omni-channel Alert Notification |
     | General | Action         | Show | 
-    | General | Data | `formname=ChatTransferRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> cid=[[ConversationId]+] <br> showWarning=[[showWarning]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE` |
-    | Advanced | Condition | `[[RequestType]] == "3" && "[[ParticipantInitiatorType]+]" != "AutoAssign"` |
+    | General | Data | formname=ChatTransferRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> cid=[[ConversationId]+] <br> showWarning=[[showWarning]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
+    | Advanced | Condition | [[RequestType]] == "3" && "[[ParticipantInitiatorType]+]" != "AutoAssign" |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Show Consult Request Alert Notification  |
     | General | Hosted Control | Omni-channel Alert Notification |
     | General | Action         | Show | 
-    | General | Data | `formname=ConsultRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> showWarning=[[showWarning]+] <br> stackHeight=100 <br> cid=[[ConversationId]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE` |
-    | Advanced | Condition | `[[RequestType]] == "2"` |
+    | General | Data | formname=ConsultRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> showWarning=[[showWarning]+] <br> stackHeight=100 <br> cid=[[ConversationId]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
+    | Advanced | Condition | [[RequestType]] == "2" |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Show Simple Chat Request Alert Notification  |
     | General | Hosted Control | Omni-channel Alert Notification |
     | General | Action         | Show | 
-    | General | Data | `formname=SimpleChatRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> showWarning=[[showWarning]+] <br> channelIcon=[[channelIcon]+] <br> channelName=[[channelName]+] <br> cid=[[ConversationId]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE` |
-    | Advanced | Condition | `([[RequestType]] == "1" && "[[ParticipantInitiatorType]+]" != "Supervisor") || ([[RequestType]] == "3" && "[[ParticipantInitiatorType]+]" == "AutoAssign")` |
+    | General | Data | formname=SimpleChatRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> showWarning=[[showWarning]+] <br> channelIcon=[[channelIcon]+] <br> channelName=[[channelName]+] <br> cid=[[ConversationId]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
+    | Advanced | Condition | ([[RequestType]] == "1" && "[[ParticipantInitiatorType]+]" != "Supervisor") || ([[RequestType]] == "3" && "[[ParticipantInitiatorType]+]" == "AutoAssign") |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Show Simple Chat Request From Supervisor Alert Notification  |
     | General | Hosted Control | Omni-channel Alert Notification |
     | General | Action         | Show | 
-    | General | Data | `formname=SimpleChatRequestFromSupervisorForm <br> top=8  <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> showWarning=[[showWarning]+] <br> channelIcon=[[channelIcon]+] <br> channelName=[[channelName]+] <br> cid=[[ConversationId]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE` |
-    | Advanced | Condition | `[[RequestType]] == "1" && "[[ParticipantInitiatorType]]" == "Supervisor"` |
+    | General | Data | formname=SimpleChatRequestFromSupervisorForm <br> top=8  <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> showWarning=[[showWarning]+] <br> channelIcon=[[channelIcon]+] <br> channelName=[[channelName]+] <br> cid=[[ConversationId]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
+    | Advanced | Condition | [[RequestType]] == "1" && "[[ParticipantInitiatorType]]" == "Supervisor" |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Load Supervisor Dashboard  |
     | General | Hosted Control | Supervisor Dashboard |
     | General | Action         | Navigate | 
-    | General | Data | `url=https://app.powerbi.com/groups/615cd3a0-1220-4a6e-b611-45b88532bfdf/dashboards/1dfe8823-0e81-4f23-a81d-8bb1069ea059?chromeless=1&nosignupcheck=1` |
+    | General | Data | url=https://app.powerbi.com/groups/615cd3a0-1220-4a6e-b611-45b88532bfdf/dashboards/1dfe8823-0e81-4f23-a81d-8bb1069ea059?chromeless=1&nosignupcheck=1 |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -329,7 +329,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 1 |
     | General | Hosted Control | Omni-channel Agent Dashboard |
     | General | Action         | Navigate | 
-    | General | Data | `url=/main.aspx?pagetype=dashboard&id=e8fb53c5-2f79-e811-8162-000d3aa3ef73&_canOverride=false <br> HideNavigationBar=True` |
+    | General | Data | url=/main.aspx?pagetype=dashboard&id=e8fb53c5-2f79-e811-8162-000d3aa3ef73&_canOverride=false <br> HideNavigationBar=True |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -344,7 +344,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 19 |
     | General | Hosted Control | Supervisor Conversations |
     | General | Action         | Navigate | 
-    | General | Data | `"url=/main.aspx?pagetype=dashboard&id=7a33c42b-02f9-e811-8161-000d3afe51f1&type=system <br> hideNavigationBar=true"` |       
+    | General | Data | "url=/main.aspx?pagetype=dashboard&id=7a33c42b-02f9-e811-8161-000d3afe51f1&type=system <br> hideNavigationBar=true" |       
     
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -352,7 +352,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 2 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | CopyToContext | 
-    | General | Data | `contactIds = [[contact]+]` |
+    | General | Data | contactIds = [[contact]+] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -360,8 +360,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 3 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | DoSearch | 
-    | General | Data | `ContextContactSearch <br> global=True` |
-    | Advanced | Condition |  `$Expression('[[$Context.contactIds]+]' == '' ? "false" : "true")` |
+    | General | Data | ContextContactSearch <br> global=True |
+    | Advanced | Condition |  $Expression('[[$Context.contactIds]+]' == '' ? "false" : "true") |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -369,7 +369,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 4 |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelSaveContextEntities | 
-    | General | Data | `LiveWorkItemId = [[LiveWorkItemId]+] <br> SessionId = [[SessionId]+] <br> RequestType = [[RequestType]+] <br> LiveWorkStreamId = [[LiveWorkStreamId]+] <br> ChatId=[[ChatId]+]` |    
+    | General | Data | LiveWorkItemId = [[LiveWorkItemId]+] <br> SessionId = [[SessionId]+] <br> RequestType = [[RequestType]+] <br> LiveWorkStreamId = [[LiveWorkStreamId]+] <br> ChatId=[[ChatId]+] |    
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -377,7 +377,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 1 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | ClearEntityList | 
-    | General | Data | `global=True` |    
+    | General | Data | global=True |    
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -385,7 +385,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 2 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | CopyToContext | 
-    | General | Data | `contactIds = [[contact]+]` |
+    | General | Data | contactIds = [[contact]+] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -393,8 +393,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 3 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | DoSearch | 
-    | General | Data | `ContextContactSearch <br> global=True` |
-    | Advanced | Condition | `$Expression('[[$Context.contactIds]+]' == '' ? "false" : "true")` |
+    | General | Data | ContextContactSearch <br> global=True |
+    | Advanced | Condition | $Expression('[[$Context.contactIds]+]' == '' ? "false" : "true") |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -402,7 +402,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 4 |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelSaveUpdatedContextEntities | 
-    | General | Data | `LiveWorkItemId=[[LiveWorkItemId]+]` | 
+    | General | Data | LiveWorkItemId=[[LiveWorkItemId]+] | 
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -410,7 +410,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 5 |
     | General | Hosted Control | Customer Summary |
     | General | Action         | RunScript | 
-    | General | Data | `function initOCContext() { <br> var ocConfig = JSON.parse('[[$Settings.OmniChannelConfig]+]'); <br> var session = {"LiveWorkItemId" : "[[$Context.LiveWorkItemId]+]", "OCSessionId" : "[[$Context.OCSessionId]+]", "LiveWorkStreamId" : "[[$Context.LiveWorkStreamId]+]", "LiveWorkItemContext" : '[[$Context.LiveWorkItemContext]]', "SessionInfo": '[[$Context.SessionInfo]+]'}; <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> } <br> initOCContext();` |
+    | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('[[$Settings.OmniChannelConfig]+]'); <br> var session = {"LiveWorkItemId" : "[[$Context.LiveWorkItemId]+]", "OCSessionId" : "[[$Context.OCSessionId]+]", "LiveWorkStreamId" : "[[$Context.LiveWorkStreamId]+]", "LiveWorkItemContext" : '[[$Context.LiveWorkItemContext]]', "SessionInfo": '[[$Context.SessionInfo]+]'}; <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> } <br> initOCContext(); |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -418,28 +418,28 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 6 |
     | General | Hosted Control | Customer Summary |
     | General | Action         | RunScript | 
-    | General | Data | `function refreshControls() { <br> MscrmControls.FormInitiator.FormInitiatorControl.updateLinkedRecords(); <br> } <br> refreshControls();` |
+    | General | Data | function refreshControls() { <br> MscrmControls.FormInitiator.FormInitiatorControl.updateLinkedRecords(); <br> } <br> refreshControls(); |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel Notify Communication Panel Error |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelNotifyConversationControlError | 
-    | General | Data | `PostData=[[PostData]+]` |  
+    | General | Data | PostData=[[PostData]+] |  
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel Proxy Response |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelProxyResponse | 
-    | General | Data | `ChatPayLoad=[[PostData]]` |  
+    | General | Data | ChatPayLoad=[[PostData]] |  
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel Session Transfer Initiated |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelSessionTransferInitiated | 
-    | General | Data | `ChatPayLoad=[[PostData]]` |      
+    | General | Data | ChatPayLoad=[[PostData]] |      
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -447,7 +447,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 2 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | ShowTab | 
-    | General | Data | `Omni-channel Agent Dashboard` |
+    | General | Data | Omni-channel Agent Dashboard |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -455,7 +455,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 10 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | SetReplacementParameter | 
-    | General | Data | `appname=$GlobalDictionary <br> param=OCOLDPRESENCESTATE <br> value=[[$GlobalDictionary.OCCURRENTPRESENCESTATE]] <br> global=true` |
+    | General | Data | appname=$GlobalDictionary <br> param=OCOLDPRESENCESTATE <br> value=[[$GlobalDictionary.OCCURRENTPRESENCESTATE]] <br> global=true |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -463,14 +463,14 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 20 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | SetReplacementParameter | 
-    | General | Data | `appname=$GlobalDictionary <br> param=OCCURRENTPRESENCESTATE  <br> value=[[CURRENT_PRESENCE_STATE]+]  <br> global=true` |
+    | General | Data | appname=$GlobalDictionary <br> param=OCCURRENTPRESENCESTATE  <br> value=[[CURRENT_PRESENCE_STATE]+]  <br> global=true |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Update All Presence Status In Settings |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | SetReplacementParameter | 
-    | General | Data | `appname=$GlobalDictionary <br> param=OCALLPRESENCESTATE  <br> value=[[CURRENT_PRESENCE_STATE]+]  <br> global=true` |
+    | General | Data | appname=$GlobalDictionary <br> param=OCALLPRESENCESTATE  <br> value=[[CURRENT_PRESENCE_STATE]+]  <br> global=true |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -478,8 +478,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 10 |
     | General | Hosted Control | Omni-channel Toast Notification |
     | General | Action         | Show | 
-    | General | Data | `formname=EntityNotification <br> top=85 <br> left=82 <br> timeout=60 <br> stack=true <br> stackHeight=56 <br> EntityDisplayName=[[EntityDisplayName]+] <br> EntityLogicalName=[[EntityLogicalName]+] <br> EntityId=[[EntityId]+] <br> ConversationId=[[ConversationId]+] <br> placementmode=absolute <br> NotificationIcon=new_omni_foonotification_case_icon` |
-    | Advanced | Condition | `'[[EntityLogicalName]+]' == 'incident'` |
+    | General | Data | formname=EntityNotification <br> top=85 <br> left=82 <br> timeout=60 <br> stack=true <br> stackHeight=56 <br> EntityDisplayName=[[EntityDisplayName]+] <br> EntityLogicalName=[[EntityLogicalName]+] <br> EntityId=[[EntityId]+] <br> ConversationId=[[ConversationId]+] <br> placementmode=absolute <br> NotificationIcon=new_omni_foonotification_case_icon |
+    | Advanced | Condition | '[[EntityLogicalName]+]' == 'incident' |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -487,8 +487,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 10 |
     | General | Hosted Control | Omni-channel Toast Notification |
     | General | Action         | Show | 
-    | General | Data | `formname=EntityNotification <br> top=85 <br> left=82 <br> timeout=60 <br> stack=true <br> stackHeight=56 <br> EntityDisplayName=[[EntityDisplayName]+] <br> EntityLogicalName=[[EntityLogicalName]+] <br> EntityId=[[EntityId]+] <br> ConversationId=[[ConversationId]+] <br> placementmode=absolute <br> NotificationIcon=new_omni_foonotification_default_icon` |
-    | Advanced | Condition | `'[[EntityLogicalName]+]' != 'incident'` |
+    | General | Data | formname=EntityNotification <br> top=85 <br> left=82 <br> timeout=60 <br> stack=true <br> stackHeight=56 <br> EntityDisplayName=[[EntityDisplayName]+] <br> EntityLogicalName=[[EntityLogicalName]+] <br> EntityId=[[EntityId]+] <br> ConversationId=[[ConversationId]+] <br> placementmode=absolute <br> NotificationIcon=new_omni_foonotification_default_icon |
+    | Advanced | Condition | '[[EntityLogicalName]+]' != 'incident' |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -496,21 +496,21 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 10 |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelUnreadMessage | 
-    | General | Data | `ChatPayLoad=[[PostData]]` |
+    | General | Data | ChatPayLoad=[[PostData]] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel Upadte Presence |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelUpdatePresence | 
-    | General | Data | `ChatPayLoad=[[PostData]+]` |  
+    | General | Data | ChatPayLoad=[[PostData]+] |  
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Update Session Count In Dictionary |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | SetReplacementParameter | 
-    | General | Data | `appname=$GlobalDictionary <br> param=CurrentSessionCount <br> value=[[CurrentSessionCount]+] <br> global=true` |  
+    | General | Data | appname=$GlobalDictionary <br> param=CurrentSessionCount <br> value=[[CurrentSessionCount]+] <br> global=true |  
 
 ## Step 3.  Attach the Action Calls to Events
 
@@ -532,7 +532,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
 7. Select **Save**.
 
-8. Repeat steps 4 through 7 to create the following action calls to the events.
+8. Repeat steps 4 through 7 to add the following action calls to the corresponding events.
 
     | Event | Action Call |
     |-------|-------------|
