@@ -2,7 +2,7 @@
 title: "Add an instance to your subscription of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 12/05/2018
+ms.date: 04/09/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -15,7 +15,7 @@ ms.assetid: 7e8b84a7-ae29-4180-94f5-5d89fc43bdbc
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -27,8 +27,6 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics 365 for Customer Engagement apps pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).   
-  
- Purchase the [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] instance on the [Microsoft online services portal Purchase subscriptions](https://admin.microsoft.com/Commerce/Catalog.aspx) page. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Professional user license subscription.  
   
  You must have the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] Global administrator (however, see **Note** below) to do these tasks. For more information, see [Assigning administrator roles](https://support.office.com/article/Assign-admin-roles-in-Office-365-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
 
@@ -65,23 +63,14 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
     >  Once set, the base currency cannot be changed.  
   
 <a name="BKMK_add_instance"></a>   
+
 ## Add an additional instance  
  The following steps apply to customers who do not purchase using volume licensing. Volume license customers should see: [Microsoft Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx).  
-  
-### Step 1: Purchase the additional instance  
-  
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator. In the navigation pane, click **Billing** > **Purchase Services**.  
-  
-2. Scroll down to the **Add-on subscriptions** section, and then hover over **Dynamics 365 Enterprise Edition - Additional Non-Production Instance** or **Dynamics 365 Enterprise - Additional Production Instance**, and then click **Buy now**.  
-  
-3. Proceed through the screens to purchase additional instances.  
-  
-    For more information, see [Microsoft Dynamics 365 for Customer Engagement apps pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).  
   
 > [!TIP]
 >  Close your Customer Engagement apps browser session and open a new session to force an update to the **Manage your Dynamics 365 instances** page.  
   
-### Step 2: Configure the additional instance  
+### Configure the additional instance  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
