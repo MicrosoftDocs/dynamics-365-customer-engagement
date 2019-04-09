@@ -2,7 +2,7 @@
 title: "Create segments and lists to establish target markets (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 for Marketing"
 keywords: segment; marketing list; subscription; Customer Insights
-ms.date: 09/17/2018
+ms.date: 04/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -29,11 +29,14 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can define your various target groups by setting up segments and lists. Each list or segment represents a collection of contacts that you can use to target a customer journey. You'll also use marketing lists in your subscription center to enable contacts to manually opt-in or opt-out of various types of newsletters and other marketing communications.
+Use segments to establish groups of related contacts that you can target with your customer journeys.
+
+> [!NOTE]
+> *Marketing segments* are different than *marketing lists*. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Marketing segments vs. marketing lists](segments-vs-lists.md)
 
 ## Segments in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll simply target all the contacts you have, but in most cases, you'll choose who you want to target based on demographic or firmographic data and other considerations. For example, if you're opening a new store in San Francisco, you'll probably promote the opening-day event at that store only to contacts who live near San Francisco. Or if you're running a sale on dresses, you might only send related marketing email messages to your contacts who are female. Decisions like these will typically also affect the way you communicate with the segment in terms of which channels you'll choose, what kind of graphics you'll pick, which kinds of arguments you make, and more.
+A market segment is the collection of contacts that you target with a customer journey. In some cases, you'll simply target all the contacts you have, but in most cases, you'll choose who you want to target based on demographic or firmographic data and other considerations. For example, if you're opening a new store in San Francisco, you'll probably promote the opening-day event at that store only to contacts who live near San Francisco. Or if you're running a sale on dresses, you might only send related marketing email messages to your contacts who are female. Decisions like these will typically also affect the way you communicate with the segment in terms of which channels you'll choose, what kind of graphics you'll pick, which kinds of arguments you make, and more.
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses segments to target customer journeys. Most customer journeys start with a segment tile, which establishes the collection of contacts who will experience that journey. You can combine multiple segments here.
 
@@ -94,17 +97,13 @@ Use the **Definition** tab to establish membership of the segment. For dynamic s
 - [Define a static segment](segments-static.md)
 - [Combine segments into a compound segment](segments-compound.md)
 
-### The Related tab
+### The Members tab
 
-This is actually a drop-down list that you can use to find other types of records (such as customer journeys) that use or reference the current segment. When you choose an entity name here, a new tab named for that entity opens, showing a list of all found records. The **Related** tab remains available, and you can still use it to find other types of records that reference the current segment.
+The **Members** tab is only shown after you segment has gone live at least once. Use it to see which contacts are part of the segment. It typically takes a few minutes for the **Members** tab to populate after you go live with a segment.
 
-## Set up marketing lists for use with subscription centers
+### The Insights tab
 
-Subscription lists enable contacts to add or remove themselves from a static marketing list, which you can then use to create a segment that targets members of that list, for example to deliver a monthly newsletter.
-
-To set up a subscription list, you must use the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app to create the static marketing list and mark it as a subscription list. Then you'll be able to set up a segment tile in a customer journey to use that list as a target segment. Lists marked as subscription lists are also available for use on your subscription centers, but static segments are not.
-
-For details about how to create marketing lists and use them in subscription centers and segment tiles, see [Set up subscription lists and subscription centers](set-up-subscription-center.md).
+Many types of entities, including segments, show a tab labelled **Insights**  after a record has gone live at least once. This tab shows results, analytics, KPIs and other information about how that record has been used and how contacts have interacted with it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
 
 ### See also
 
