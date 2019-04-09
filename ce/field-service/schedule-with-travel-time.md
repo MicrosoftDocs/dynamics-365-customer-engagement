@@ -28,9 +28,9 @@ search.app:
 
 # Schedule with travel time
 
-Field Service organizations often travel to their customers' locations to perform preventative maintenance, inspections, repairs, and other types of service and rely on Dynamics 365 for Field Service to manage field technicians' routes to multiple customer sites each day. This makes understanding and minimizing travel time crucial for the field service organization's success.
+Field Service organizations often perform preventative maintenance, inspections, repairs, and other types of service at their customers' locations by having field technicians travel to multiple customer sites each day, and rely on Dynamics 365 for Field Service to manage locations and routes. This makes understanding and minimizing travel time crucial for the field service organization's success.
 
-Using Bing Maps API by default, Dynamics 365 for Field Service calculates the driving travel time and distance as field technicians travel:
+Using Bing Maps API by default, Field Service calculates the driving travel time and distance as field technicians travel:
 
 1. from their personal address to a work order location
 2. from a company address to a work order location
@@ -40,23 +40,27 @@ Using Bing Maps API by default, Dynamics 365 for Field Service calculates the dr
 In this article, let's explore how travel time and distance is calculated and visualized for dispatchers during manual scheduling, semi-automated scheduling with the schedule assistant, and automated scheduling with resource scheduling optimization (RSO).
 
 ## Prerequisites
-1. [Connect to Bing Maps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to connect your Dynamics 365 environment to Bing Maps in order to locate resources (field technicians) and work orders, and later calculate the travel time and distances between them.
+1. [Connect your Dynamics 365 environment to Bing Maps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to locate resources (field technicians) and work orders, and later calculate the travel time and distances between them.
    
 2. [Set auto geo code addresses to **yes**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geo code accounts and work orders when addresses are entered. Geo coding an account or work order record populates latitude and longitude values, which are required for travel time and distance calculations.
 
 3. After you have connected your environment to Bing Maps, ensure your resources (field technicians) have defined starting and ending locations. Resources (field technicians) must have geo coded starting/ending locations in order to calculate travel times and distances from their starting location to work orders and all on site requirements generally for their first job of the day. See the topics on [setting up bookable resources](./set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
 
-4. Understand that only requirements where **Work Location = On Site** and have **latitude and longitude values** are eligible for travel time calculations. A work location of **Location Agnostic** implies the location of the requirement should not considered and a work location of **Facility** implies the customer will travel to the organizations location and thus the location of the resource (field technician) should not be considered. By default, work order requirements have a work location of on site.
+4. Understand that only requirements where **Work Location = Onsite** and have **latitude and longitude values** are eligible for travel time calculations. A work location of **Location Agnostic** implies the location of the requirement should not be considered and a work location of **Facility** implies the customer will travel to the organization's location and thus the location of the resource (field technician) should not be considered. By default, work order requirements have a work location of onsite, but default work location can be edited for each scheduleable entity in **Resource Scheduling > Settings > Enable Resource Scheduling for Entities >** then double click an **Enabled Entity**.
 
+In the image below a work order has Work Location set to Onsite and this is passed to the related work order requirement. When that work order requirement is scheduled to a resource, the system will look at the work location field along with the location of the requirement and the resource to calculate travel time.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-work-order-location-onsite.png)
 
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 ## Visualize travel time on the schedule board
-  
+
+When an onsite requirment is scheduled to a resource with a location, travel time and distance are calculated and travel time is displayed on the schedule board as a line before the booking.  
   - show travel time on schedule board
   - actual travel duration
 
