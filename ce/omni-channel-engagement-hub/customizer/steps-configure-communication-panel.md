@@ -1,6 +1,6 @@
 ---
 title: "Steps or procedure to configure communication panel for agents | MicrosoftDocs"
-description: "Learn steps to configure communication panel for agents using Omni-channel Engagement Hub."
+description: "Learn the steps to configure communication panel for agents using Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
