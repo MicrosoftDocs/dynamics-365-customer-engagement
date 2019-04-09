@@ -314,7 +314,85 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Hosted Control | Omni-channel Alert Notification |
     | General | Action         | Show | 
     | General | Data | `formname=SimpleChatRequestFromSupervisorForm <br> top=8  <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> showWarning=[[showWarning]+] <br> channelIcon=[[channelIcon]+] <br> channelName=[[channelName]+] <br> cid=[[ConversationId]+] <br> from=[[From]+] <br> isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br> jobTitle=[[contact_jobtitle_0]+] <br> email=[[contact_emailaddress1_0]+] <br> state=[[contact_Address1_Stateorprovince_0]+] <br> city=[[contact_Address1_City_0]+] <br> CanActivateSession=[[CanActivateSession]+] <br> SessionTabId=[[SessionTabId]+] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE` |
-    | Advanced | Condition | `[[RequestType]] == "1" && "[[ParticipantInitiatorType]]" == "Supervisor"` |              
+    | Advanced | Condition | `[[RequestType]] == "1" && "[[ParticipantInitiatorType]]" == "Supervisor"` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Load Supervisor Dashboard  |
+    | General | Hosted Control | Supervisor Dashboard |
+    | General | Action         | Navigate | 
+    | General | Data | `url=https://app.powerbi.com/groups/615cd3a0-1220-4a6e-b611-45b88532bfdf/dashboards/1dfe8823-0e81-4f23-a81d-8bb1069ea059?chromeless=1&nosignupcheck=1` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Load Agent Home Page  |
+    | General | Order | 1 |
+    | General | Hosted Control | Omni-channel Agent Dashboard |
+    | General | Action         | Navigate | 
+    | General | Data | `url=/main.aspx?pagetype=dashboard&id=e8fb53c5-2f79-e811-8162-000d3aa3ef73&_canOverride=false <br> HideNavigationBar=True` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Communication Panel Loaded  |
+    | General | Order | 17 |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelConversationControlReady |     
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Load Supervisor Conversations |
+    | General | Order | 19 |
+    | General | Hosted Control | Supervisor Conversations |
+    | General | Action         | Navigate | 
+    | General | Data | `"url=/main.aspx?pagetype=dashboard&id=7a33c42b-02f9-e811-8161-000d3afe51f1&type=system <br> hideNavigationBar=true"` |       
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Clear Context Entities |
+    | General | Order | 1 |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | ClearEntityList | 
+    | General | Data | `global=True` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Copy Contact Ids To Context |
+    | General | Order | 2 |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | CopyToContext | 
+    | General | Data | `contactIds = [[contact]+]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Fetch Context Contacts |
+    | General | Order | 3 |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | DoSearch | 
+    | General | Data | `ContextContactSearch <br> global=True` |
+    | Advanced | Condition | `$Expression('[[$Context.contactIds]+]' == '' ? "false" : "true")` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Save Context Entities on Update |
+    | General | Order | 4 |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelSaveUpdatedContextEntities | 
+    | General | Data | `LiveWorkItemId=[[LiveWorkItemId]+]` | 
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Initialize OCContext - Window Variable - Customer Summary |
+    | General | Order | 5 |
+    | General | Hosted Control | Customer Summary |
+    | General | Action         | RunScript | 
+    | General | Data | `function initOCContext() { <br> var ocConfig = JSON.parse('[[$Settings.OmniChannelConfig]+]'); <br> var session = {"LiveWorkItemId" : "[[$Context.LiveWorkItemId]+]", "OCSessionId" : "[[$Context.OCSessionId]+]", "LiveWorkStreamId" : "[[$Context.LiveWorkStreamId]+]", "LiveWorkItemContext" : '[[$Context.LiveWorkItemContext]]', "SessionInfo": '[[$Context.SessionInfo]+]'}; <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> } <br> initOCContext();` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Refresh Customer Summary Controls |
+    | General | Order | 6 |
+    | General | Hosted Control | Customer Summary |
+    | General | Action         | RunScript | 
+    | General | Data | `function refreshControls() { <br> MscrmControls.FormInitiator.FormInitiatorControl.updateLinkedRecords(); <br> } <br> refreshControls();` |             
 
 ## Step 3.  Attach the Action Calls to Events
 
