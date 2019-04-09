@@ -345,13 +345,39 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Hosted Control | Supervisor Conversations |
     | General | Action         | Navigate | 
     | General | Data | `"url=/main.aspx?pagetype=dashboard&id=7a33c42b-02f9-e811-8161-000d3afe51f1&type=system <br> hideNavigationBar=true"` |       
+    
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Copy Contact Ids To Context |
+    | General | Order | 2 |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | CopyToContext | 
+    | General | Data | `contactIds = [[contact]+]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Fetch Context Contacts |
+    | General | Order | 3 |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | DoSearch | 
+    | General | Data | `ContextContactSearch <br> global=True` |
+    | Advanced | Condition |  `$Expression('[[$Context.contactIds]+]' == '' ? "false" : "true")` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Save Context Entities |
+    | General | Order | 4 |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelSaveContextEntities | 
+    | General | Data | `LiveWorkItemId = [[LiveWorkItemId]+] <br> SessionId = [[SessionId]+] <br> RequestType = [[RequestType]+] <br> LiveWorkStreamId = [[LiveWorkStreamId]+] <br> ChatId=[[ChatId]+]` |    
+
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel Clear Context Entities |
     | General | Order | 1 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | ClearEntityList | 
-    | General | Data | `global=True` |
+    | General | Data | `global=True` |    
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -380,7 +406,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
-    | General | Name           | Initialize OCContext - Window Variable - Customer Summary |
+    | General | Name           | Initialize Omni-channel Context - Window Variable - Customer Summary |
     | General | Order | 5 |
     | General | Hosted Control | Customer Summary |
     | General | Action         | RunScript | 
@@ -392,7 +418,21 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 6 |
     | General | Hosted Control | Customer Summary |
     | General | Action         | RunScript | 
-    | General | Data | `function refreshControls() { <br> MscrmControls.FormInitiator.FormInitiatorControl.updateLinkedRecords(); <br> } <br> refreshControls();` |             
+    | General | Data | `function refreshControls() { <br> MscrmControls.FormInitiator.FormInitiatorControl.updateLinkedRecords(); <br> } <br> refreshControls();` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Notify Communication Panel Error |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelNotifyConversationControlError | 
+    | General | Data | `PostData=[[PostData]+]` |  
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Proxy Response |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelProxyResponse | 
+    | General | Data | `ChatPayLoad=[[PostData]]` |                   
 
 ## Step 3.  Attach the Action Calls to Events
 
