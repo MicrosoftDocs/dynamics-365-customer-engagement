@@ -432,7 +432,16 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Name           | Omni-channel Proxy Response |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelProxyResponse | 
-    | General | Data | `ChatPayLoad=[[PostData]]` |                   
+    | General | Data | `ChatPayLoad=[[PostData]]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Session Transfer Initiated |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelSessionTransferInitiated | 
+    | General | Data | `ChatPayLoad=[[PostData]]` |
+    
+                   
 
 ## Step 3.  Attach the Action Calls to Events
 
