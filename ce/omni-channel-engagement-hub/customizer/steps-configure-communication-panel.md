@@ -81,7 +81,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 2 | 
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | DoSearch    |
-    | General | Data | `name=LiveWorkStreamSearch <br>global=True` |
+    | General | Data | name=LiveWorkStreamSearch <br>global=True |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -89,7 +89,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 2 | 
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | DoSearch    |
-    | General | Data | `name=ServiceEndPointSearch <br>global=True` |
+    | General | Data | name=ServiceEndPointSearch <br>global=True |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -103,30 +103,30 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Name           | Update Omni-channel Configuration     |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | SaveSetting    | 
-    | General | Data | `name=OmniChannelConfig<br>value=[[OCConfig]+]` |
+    | General | Data | name=OmniChannelConfig<br>value=[[OCConfig]+] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel AAD Authentication Failed     |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelAADAuthenticationFailure | 
-    | General | Data | `PostData=[[PostData]+]` |
+    | General | Data | PostData=[[PostData]+] |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel Activate Session   |
     | General | Hosted Control | Session Tabs |
     | General | Action         | SwitchSession | 
-    | General | Data | `sessionid=[[SessionTabId]+]` |
-    | Advanced | Condition | `'[[CanActivateSession]+]' == 'True'` |
+    | General | Data | sessionid=[[SessionTabId]+] |
+    | Advanced | Condition | '[[CanActivateSession]+]' == 'True' |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
     | General | Name           | Omni-channel Rehydrate Conversation   |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelSwitchSessionsTabs | 
-    | General | Data | `SessionTabId=[[SessionTabId]+]` |
-    | Advanced | Condition | `'[[CanActivateSession]+]' == 'True'` |
+    | General | Data | SessionTabId=[[SessionTabId]+] |
+    | Advanced | Condition | '[[CanActivateSession]+]' == 'True' |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -134,7 +134,7 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order          | 10  |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | CreateSession | 
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]  && '[[CanActivateSession]+]' != 'True'` |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+]  && '[[CanActivateSession]+]' != 'True' |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
@@ -142,8 +142,8 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Order | 10 |
     | General | Hosted Control | Omni-channel Toast Notification |
     | General | Action         | Show | 
-    | General | Data | `formname=ToastNotification <br>top=85<br>left=82<br>timeout=7<br>stack=true<br>stackHeight=56<br>placementmode=absolute<br>ToastNotificationText=[[$Resources.SessionAssignmentToastNotification]+]<br>NotificationIcon=new_omni_toast_tick_icon` |
-    | Advanced | Condition | `[[$GlobalDictionary.CurrentSessionCount]+] >= [[$Global.maxNumberOfSessions]+] && '[[CanActivateSession]+]' != 'True'` |
+    | General | Data | formname=ToastNotification <br>top=85<br>left=82<br>timeout=7<br>stack=true<br>stackHeight=56<br>placementmode=absolute<br>ToastNotificationText=[[$Resources.SessionAssignmentToastNotification]+]<br>NotificationIcon=new_omni_toast_tick_icon |
+    | Advanced | Condition | [[$GlobalDictionary.CurrentSessionCount]+] >= [[$Global.maxNumberOfSessions]+] && '[[CanActivateSession]+]' != 'True' |
 
     | Tab | Field      | Value                       |
     |---------|----------------|---------------------------------|
