@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot SharePoint Online setup | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/05/2019
+ms.date: 04/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -52,23 +52,26 @@ For more information, see [Enable SharePoint document management for specific en
 
 ##  Missing Document associated grid - validate and fix
 
-If **Documents** is missing from entities such as account, use the following to restore.
+If the Documents associated grid is missing, use the following to restore.
+
+![Documents associated grid](../basics/media/list-of-documents-in-onedrive.png "Documents associated grid")
 
 Start by understanding the requirements listed in [Important considerations for server-based SharePoint integration](important-considerations-server-based-sharepoint-integration.md).
 
-The most common cause for *Documents Associated Grid not to load* is the corrupted FetchXML and LayoutXML. These sections could be corrupted due to many reasons. The most common of them is through customizing the entity/grid view, adding/removing columns, and other similar customizations.
+The most common cause for the Documents associated grid not loading is the corrupted FetchXML and LayoutXML. These sections could be corrupted due to many reasons. The most common of them is through customizing the entity/grid view, adding/removing columns, and other similar customizations.
 
-To fix *Documents Associated grid not loading*, follow these steps:
+1. Go to **Settings** > **Customizations** > **Solutions**. 
+2. Create a solution (named SharePointDocumentSolution). For more information, see [Create a solution](../customize/create-solution.md).
+3. Add **SharePoint Document** entity (select all fields , forms, views). 
+4. Select **Save** and **Close**.
+5. Publish all customizations.
+6. Select the created (SharePointDocumentSolution) solution.
+7. Export the solution. (SharePointDocumentSolution.zip will be downloaded) 
+8. Extract the zip file (downloaded file from Step 7).
+9. Browse the folder, locate and open customization.xml.
+10. Search LayoutXml of Document associated grid (search for *Document Associated*).
+11. Make the changes as below:
 
-1. Go to **Settings** > **Customizations** > **Solutions**. Create a solution (named SharePointDocumentSolution). Add SharePoint Document Entity (select all fields , forms, views).
-2. Select **Save** and **Close**.
-3. Publish all customizations.
-4. Select the created (SharePointDocumentSolution) solution.
-5. Export the solution. (SharePointDocumentSolution.zip will be downloaded) 
-6. Extract the zip file (downloaded file from Step 5).
-7. Browse the folder, locate and open customization.xml.
-8. Search LayoutXml of Document Associated Grid (search for Document Associated).
-9. Make the changes as below:
 
 ```  
 <grid name="sharepointdocument" object="9507" jump="fullname" select="1" icon="0" preview="1">
