@@ -149,7 +149,7 @@
 ## [Data encryption](data-encryption.md)
 ## [Remove user personal data](remove-user-personal-data.md)
 ## [Manage storage](manage-storage.md)
-## [Free storage space](free-storage-space.md) -->
+## [Free storage space](free-storage-space.md) 
 ## [Fixing Add License Wizard and Add Storage Wizard errors](add-license-wizard-add-storage-wizard-errors.md)
 ## [Recover database space by deleting audit logs](recover-database-space-deleting-audit-logs.md)
 ## [Enable change tracking to control data synchronization](enable-change-tracking-control-data-synchronization.md)
@@ -248,9 +248,6 @@
 #### [Enable Office Delve](enable-office-delve.md)
 #### [Connect to Yammer](connect-yammer.md)
 
-# [Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)
-## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
-## [Enable document suggestions](enable-document-suggestions.md)
 
 # [Dynamics 365 US Government](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 US Government - Feature availability](../admin/government/government-feature-availability.md)

@@ -45,4 +45,5 @@ To start, a team member with a **Playbook manager** role or equivalent permissio
 [Launch a playbook to carry out activities consistently](launch-playbook.md)  <br>
 [Mark playbook as completed](mark-playbook-completed.md)  <br>
 [Track playbook activities](track-playbook-activities.md)  <br>
-[What's new in Dynamics 365 for Sales](whats-new.md)
+[What's new in Dynamics 365 for Sales](whats-new.md)<br />
+[Entity reference for playbooks](developer/reference/playbook-entity-reference.md)
