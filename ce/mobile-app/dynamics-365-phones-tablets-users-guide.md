@@ -45,6 +45,12 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 > - This feature is supported for version 9.x (Online and on-premises) when signing in using the mobile app on an iOS device.
 > - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government)(GCC and GCC High)user, you are required to sign in using the web address option.
 
+### Required services (for admins)
+This list identifies all services to which Dynamics 365 for Phones and Tablets talks and their usages. Your network must **not** block these services.
+
+| Domain(s) | Protocols | Uses |
+| --- | --- | --- |
+| service.powerapps.com |https |Starting with version 13.19033.0, used for email sign-in and the app list. |
 
 ### Sign in with your email address
 
