@@ -25,9 +25,13 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-If you see the following error message... [need screenshots]
+If you experience any of following situations, use the steps below to correct.
 
-## Validate and fix Related - Documents link/button missing
+## Documents button missing - validate and fix 
+
+If **Documents** is missing from entities such as account, use the following to restore.
+
+![Documents](media/crm-itpro-crmo365tg-seldoc.png "Documents")
 
 Start by understanding the requirements listed in [Important considerations for server-based SharePoint integration](important-considerations-server-based-sharepoint-integration.md).
 
@@ -42,9 +46,13 @@ Start by understanding the requirements listed in [Important considerations for 
    2. Go to **Settings** > **Document Management Settings**.
    3. Make sure the entity you wished to have documents link (selected in Step 1) are selected and a valid SharePoint URL is specified. 
    4. Complete the wizard.
-   5. Verify if the Documents link /button is appearing.
+   5. Verify the **Documents** button appears.
 
-## Validate and fix Related - Missing Document associated grid
+For more information, see [Enable SharePoint document management for specific entities](enable-sharepoint-document-management-specific-entities.md).
+
+##  Missing Document associated grid - validate and fix
+
+If **Documents** is missing from entities such as account, use the following to restore.
 
 Start by understanding the requirements listed in [Important considerations for server-based SharePoint integration](important-considerations-server-based-sharepoint-integration.md).
 
