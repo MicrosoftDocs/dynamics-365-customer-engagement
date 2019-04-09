@@ -75,8 +75,9 @@ It's easy to get around [!INCLUDE[pn-marketing-business-app-module-name](../incl
 ![Navigation controls, expanded view](media/nav-expanded-ill.png "Navigation controls, expanded view")
 
 Legend:
+
 1. **App selector**: Open this menu to move between apps, for example, to move between [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.
-1. **Collapse/expand button**: Select this to collapse the menu to allow more room for the main part of the page. If the menu is already collapsed, select this button to expand it again.
+1. **Collapse/expand button**: Select this to collapse the navigator to allow more room for the main part of the page. If the navigator is already collapsed, select this button to expand it again.
 1. **Recent records**: Expand this entry to view a list of records you were recently using. Select an record here to open it. Select the push-pin icon next to a record listed here to added to your favorites (pinned records).
 1. **Favorite records**: Expand this entry to view and open your favorite (pinned) records. Use the **Recent records** list to add records here. Select the remove-pin icon next to a record listed here to remove it from this list.
 1. **Entity navigator**: This area lists each entity and dashboard available for the current work area. Select any entry here to open the named dashboard or list-view for that entity.

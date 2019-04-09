@@ -109,7 +109,6 @@ DMARC builds on the SPF and DKIM standards mentioned previously. In many cases, 
 
 DMARC requires you to have either your own envelope domain or your own DKIM signing domain. It's best to have both to minimize false positives during a DMARC check by the receiving party.
 
-
 ## Test your deliverability
 
 Once you have all of the relevant email-authentication systems in place, we highly recommend that you test your deliverability to all of the major email hosts (such as Gmail, Outlook.com, Yahoo mail, and more), and to as many private domains as your can (including your own). To do this:
@@ -118,6 +117,23 @@ Once you have all of the relevant email-authentication systems in place, we high
 1. Set up a contact record for each of these addresses in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 1. Run a [simple email campaign](create-simple-customer-journey.md) that targets all of your test contacts.
 1. Inspect the inbox for each account to confirm your messages arrive in the inbox and don't get labelled as junk.
+
+## [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]'s spam policy for email marketing
+
+Throughout this topic, we've stressed the importance of maintaining clean, opted-in send lists combined with valued content and collaborative sending behavior. These are all important aspects of building a strong sender reputation and thereby achieving high deliverability and in-box placement. Because email sent by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is delivered from shared sending domains, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] constantly monitors all delivery results, spam complaints, and blacklists to make sure our sending domains maintain their high reputation for the benefit of all customers.
+
+To help protect you, the responsible marketer, against the behavior of bad actors beyond your control, we have implemented an anti-spam policy that protects your sending reputation. Here’s how it works:
+
+### Stage 1: Inform and warn
+
+When we notice that a particular customer is generating a relatively high rate of bounces or spam complaints, we'll let them know right away that something is wrong with the way they are using the system and will offer our assistance to help sort it out.
+When this occurs, we will send a notification directly to the administrator by email. This communication will urge the customer to contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance as soon as possible.
+
+### Stage 2: Move to a higher risk sending pool
+
+If the problem persists for more than a few days and the customer still has not contacted [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)], then we will move that customer to a higher risk sending pool, which has a lower reputation than the high-deliverability sending pool provided to compliant customers.
+
+When this occurs, we will send email notification to alert the customer that we have moved them to a higher risk sending pool and to urge them to contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance. It may still be possible for the customer to return to the low-risk email sending pool, but not before contacting [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] and learning how to address the issue going forward.
 
 ## Using a custom, dedicated sender IP
 
