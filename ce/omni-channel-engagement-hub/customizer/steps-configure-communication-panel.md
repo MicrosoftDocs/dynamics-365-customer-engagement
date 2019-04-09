@@ -537,8 +537,28 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | Event | Action Call |
     |-------|-------------|
     | OmnichannelFetchConfigurationData | <ul> <li> Omni-channel Clear Entity List </li> <li>Omni-channel Fetch Live Work Streams </li> <li> Omni-channel Fetch Service End Point </li> <li>Omni-channel Save Configuration Data </li> |
-    | OmnichannelUpdateConfigurationContext | Update Omni-channel Configuration |
-    | AADAuthenticationFailed | Omni-channel AAD Authentication Failed |
+    | OmnichannelUpdateConfigurationContext | <ul>Update Omni-channel Configuration</ul> |
+    | AADAuthenticationFailed | <ul>Omni-channel AAD Authentication Failed</ul> |
+    | CreateCustomerSession | <ul> <li>Omni-channel Activate Session</li> <li>Omni-channel Rehydrate Conversation</li> <li>Create Customer Session</li> <li>Show Session Assignment Toast Notification</li> <li>Set IsCaseSession to False</li> <li>Omni-channel Session Accepted</li> </ul> |
+    | CreateEntitySession | <ul> <li>Close Toast Notification</li> <li>Expand Right Pane</li> <li>Create Customer Session</li> <li>Show Session Error Toast Notification</li> <li>Set Entity Session Property in Context</li> <li>Collapse Left Panel</li> <li>Load Case Session Agent Script</li> <li>Load Form for Entity</li> <li>Omni-channel Set Session Tab Id for Entity</li> <li>Session</li> </ul>|
+    | DisplayKBSearchControl | <ul> <li> Expand Right Pane </li> <li>Focus on KB Search</li> </ul> |
+    | DisplayMessage | <ul>Display Message Action</ul> |
+    | EndConversation | <ul> <li>Omni-channel End Conversation</li> <li>Omni-channel Presence Status Update</li> </ul> |
+    | IncomingChatRequest | <ul>Omni-channel Incoming Session Request</ul> |
+    | OmnichannelContextFetch | <ul> <li>Show Chat Transfer Request Alert Notification </li> <li>Show Consult Request Alert Notification</li> <li>Show Simple Chat Request Alert Notification</li> <li>Show Simple Chat Request From Supervisor Alert Notification</li>  |
+    | Omni-channel Conversation Control Ready | <ul> <li>Load Supervisor Dashboard</li> <li>Load Agent Home Page</li> <li>Omni-channel Communication Panel Loaded</li> <li>Load Supervisor Conversations</li> </ul> |
+    | OmnichannelFetchContextEntities | <ul> <li>Omni-channel Clear Context Entities</li> <li>Omni-channel Copy Contact Ids To Context</li> <li>Omni-channel Fetch Context Contacts</li> <li>Omni-channel Save Context Entities</li></ul> |
+    | OmnichannelFetchContextEntitiesOnUpdate | <ul> <li>Omni-channel Clear Context Entities</li> <li>Omni-channel Copy Contact Ids To Context</li> <li>Omni-channel Fetch Context Contacts</li> <li>Omni-channel Save Context Entities on Update</li> <li>Initialize Omni-channel Context - Window Variable - Customer Summary</li> <li>Refresh Customer Summary Controls</li> </ul> |
+    | OmnichannelNotifyConversationControlError | <ul> Omni-channel Notify Communication Panel Error </ul> |
+    | OmnichannelProxyHttpResponse | <ul>Omni-channel Proxy Response</ul> |
+    | OmnichannelSessionTransferInitiated | <ul>Omni-channel Session Transfer Initiated</ul> |
+    | OmnichannelSwitchToGlobalSession | <ul>Focus on Omni-channel Agent Dashboard</ul> |
+    | OmnichannelUpdatePresenceGlobalContext | <ul> <li>Update Old Presence Status In Settings</li> <li>Update Current Presence Status In Settings</li></ul> |
+    | OmnichannelUpdatePresenceParameters | <ul> <li>Update Current Presence Status In Settings</li> <li>Update All Presence State In Settings</li> </ul> |
+    | ShowEntityNotification | <ul> <li>ShowCaseEntityNotification</li> <li>ShowDefaultEntityNotification</li> </ul> |
+    | UnreadMessage | <ul> Omni-channel Unread Message Action </ul> |
+    | UpdatePresence | <ul> Omni-channel Update Presence </ul> |
+    | UpdateSessionCount | <ul> Update Session Count in Dictionary </ul> |
 
 ## Step 4.  Add the Hosted Controls, Actions, and Events to the Agent and Supervisor Configurations
 
