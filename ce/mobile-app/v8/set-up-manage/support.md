@@ -55,7 +55,7 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 |[Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)|4.4,5.0, 6.0, 7.0 **|1 GB|  
 |[Windows Phone 8.1](http://go.microsoft.com/fwlink/p/?LinkId=519212)<br /><br /> [Windows Phone 10](http://go.microsoft.com/fwlink/p/?LinkID=799909)|8.1 and 10|2 GB*|  
 
-* Enhancements to the app require this minimum memory amount.
+*Enhancements to the app require this minimum memory amount.
 
 ** Dynamics 365 for phones and tablets app will only connect to servers that are trusted by the underlying operating system. On Android, beginning with Android Oreo (8.0) the app will only connect to the servers that rely on one of the trusted CA certificates installed on the device.
 
