@@ -30,7 +30,7 @@ If an IoT device isn't associated with a customer account in Connected Field Ser
 
 ## Goals
 
-Associate a device in Connected Field Service with a customer account so that word orders or cases can be generated against incoming IoT alerts.
+Associate a device in Connected Field Service with a customer account so that work orders or cases can be generated against incoming IoT alerts.
 
 ## Steps
 

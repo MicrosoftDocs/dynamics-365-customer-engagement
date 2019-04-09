@@ -1,44 +1,46 @@
 ---
-title: "ServiceAppointment Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "ServiceAppointment Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ServiceAppointment entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # ServiceAppointment Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.
 
-**Added by**: Service Solution<br />
+**Added by**: Service Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/serviceappointments(*activityid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/serviceappointments(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
 |Book|<xref href="Microsoft.Dynamics.CRM.Book?text=Book Action" />|<xref:Microsoft.Crm.Sdk.Messages.BookRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/serviceappointments<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/serviceappointments(*activityid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.0/serviceappointments<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/serviceappointments(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 |Reschedule|<xref href="Microsoft.Dynamics.CRM.Reschedule?text=Reschedule Action" />|<xref:Microsoft.Crm.Sdk.Messages.RescheduleRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/serviceappointments(*activityid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/serviceappointments<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/serviceappointments(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/serviceappointments<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/serviceappointments(*activityid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/serviceappointments(*activityid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/serviceappointments(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/serviceappointments(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |Validate|<xref href="Microsoft.Dynamics.CRM.Validate?text=Validate Action" />|<xref:Microsoft.Crm.Sdk.Messages.ValidateRequest>|
 |ValidateSavedQuery|<xref href="Microsoft.Dynamics.CRM.ValidateSavedQuery?text=ValidateSavedQuery Action" />|<xref:Microsoft.Crm.Sdk.Messages.ValidateSavedQueryRequest>|
 
@@ -653,7 +655,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_fieldservicesetting,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,quote,salesorder,site|
+|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_fieldservicesetting,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_playbookinstance,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,quote,salesorder,site|
 |Type|Lookup|
 
 
@@ -806,7 +808,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the Stage.|
-|DisplayName|Process Stage|
+|DisplayName|(Deprecated) Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -923,7 +925,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|timezoneruleversionnumber|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
@@ -961,7 +963,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|Traversed Path|
+|DisplayName|(Deprecated) Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -983,12 +985,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|utcconversiontimezonecode|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ActivityTypeCode](#BKMK_ActivityTypeCode)
@@ -1098,7 +1102,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when the activity was created.|
 |DisplayName|Date Created|
-|Format|DateOnly|
+|Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|createdon|
@@ -1283,7 +1287,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when activity was last modified.|
 |DisplayName|Last Updated|
-|Format|DateOnly|
+|Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|modifiedon|
@@ -1651,7 +1655,6 @@ Listed by **SchemaName**.
 - [ServiceAppointment_SyncErrors](#BKMK_ServiceAppointment_SyncErrors)
 - [ServiceAppointment_AsyncOperations](#BKMK_ServiceAppointment_AsyncOperations)
 - [serviceappointment_MailboxTrackingFolders](#BKMK_serviceappointment_MailboxTrackingFolders)
-- [userentityinstancedata_serviceappointment](#BKMK_userentityinstancedata_serviceappointment)
 - [ServiceAppointment_ProcessSessions](#BKMK_ServiceAppointment_ProcessSessions)
 - [ServiceAppointment_BulkDeleteFailures](#BKMK_ServiceAppointment_BulkDeleteFailures)
 - [serviceappointment_principalobjectattributeaccess](#BKMK_serviceappointment_principalobjectattributeaccess)
@@ -1664,6 +1667,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_serviceappointment_activity_parties"></a> serviceappointment_activity_parties
+
+**Added by**: System Solution Solution
 
 Same as activityparty entity [serviceappointment_activity_parties](activityparty.md#BKMK_serviceappointment_activity_parties) Many-To-One relationship.
 
@@ -1680,6 +1685,8 @@ Same as activityparty entity [serviceappointment_activity_parties](activityparty
 
 ### <a name="BKMK_CampaignResponse_ServiceAppointments"></a> CampaignResponse_ServiceAppointments
 
+**Added by**: Marketing Solution
+
 Same as campaignresponse entity [CampaignResponse_ServiceAppointments](campaignresponse.md#BKMK_CampaignResponse_ServiceAppointments) Many-To-One relationship.
 
 |Property|Value|
@@ -1694,6 +1701,8 @@ Same as campaignresponse entity [CampaignResponse_ServiceAppointments](campaignr
 
 
 ### <a name="BKMK_ServiceAppointment_SyncErrors"></a> ServiceAppointment_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [ServiceAppointment_SyncErrors](syncerror.md#BKMK_ServiceAppointment_SyncErrors) Many-To-One relationship.
 
@@ -1710,6 +1719,8 @@ Same as syncerror entity [ServiceAppointment_SyncErrors](syncerror.md#BKMK_Servi
 
 ### <a name="BKMK_ServiceAppointment_AsyncOperations"></a> ServiceAppointment_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [ServiceAppointment_AsyncOperations](asyncoperation.md#BKMK_ServiceAppointment_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -1725,6 +1736,8 @@ Same as asyncoperation entity [ServiceAppointment_AsyncOperations](asyncoperatio
 
 ### <a name="BKMK_serviceappointment_MailboxTrackingFolders"></a> serviceappointment_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [serviceappointment_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_serviceappointment_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -1735,25 +1748,12 @@ Same as mailboxtrackingfolder entity [serviceappointment_MailboxTrackingFolders]
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|serviceappointment_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_userentityinstancedata_serviceappointment"></a> userentityinstancedata_serviceappointment
-
-Same as userentityinstancedata entity [userentityinstancedata_serviceappointment](userentityinstancedata.md#BKMK_userentityinstancedata_serviceappointment) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_serviceappointment|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_ServiceAppointment_ProcessSessions"></a> ServiceAppointment_ProcessSessions
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [ServiceAppointment_ProcessSessions](processsession.md#BKMK_ServiceAppointment_ProcessSessions) Many-To-One relationship.
 
@@ -1770,6 +1770,8 @@ Same as processsession entity [ServiceAppointment_ProcessSessions](processsessio
 
 ### <a name="BKMK_ServiceAppointment_BulkDeleteFailures"></a> ServiceAppointment_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [ServiceAppointment_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ServiceAppointment_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -1784,6 +1786,8 @@ Same as bulkdeletefailure entity [ServiceAppointment_BulkDeleteFailures](bulkdel
 
 
 ### <a name="BKMK_serviceappointment_principalobjectattributeaccess"></a> serviceappointment_principalobjectattributeaccess
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [serviceappointment_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_serviceappointment_principalobjectattributeaccess) Many-To-One relationship.
 
@@ -1800,6 +1804,8 @@ Same as principalobjectattributeaccess entity [serviceappointment_principalobjec
 
 ### <a name="BKMK_serviceappointment_connections1"></a> serviceappointment_connections1
 
+**Added by**: System Solution Solution
+
 Same as connection entity [serviceappointment_connections1](connection.md#BKMK_serviceappointment_connections1) Many-To-One relationship.
 
 |Property|Value|
@@ -1814,6 +1820,8 @@ Same as connection entity [serviceappointment_connections1](connection.md#BKMK_s
 
 
 ### <a name="BKMK_serviceappointment_connections2"></a> serviceappointment_connections2
+
+**Added by**: System Solution Solution
 
 Same as connection entity [serviceappointment_connections2](connection.md#BKMK_serviceappointment_connections2) Many-To-One relationship.
 
@@ -1830,6 +1838,8 @@ Same as connection entity [serviceappointment_connections2](connection.md#BKMK_s
 
 ### <a name="BKMK_ServiceAppointment_QueueItem"></a> ServiceAppointment_QueueItem
 
+**Added by**: System Solution Solution
+
 Same as queueitem entity [ServiceAppointment_QueueItem](queueitem.md#BKMK_ServiceAppointment_QueueItem) Many-To-One relationship.
 
 |Property|Value|
@@ -1844,6 +1854,8 @@ Same as queueitem entity [ServiceAppointment_QueueItem](queueitem.md#BKMK_Servic
 
 
 ### <a name="BKMK_ServiceAppointment_Annotation"></a> ServiceAppointment_Annotation
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [ServiceAppointment_Annotation](annotation.md#BKMK_ServiceAppointment_Annotation) Many-To-One relationship.
 
@@ -1860,6 +1872,8 @@ Same as annotation entity [ServiceAppointment_Annotation](annotation.md#BKMK_Ser
 
 ### <a name="BKMK_serviceappointment_actioncard"></a> serviceappointment_actioncard
 
+**Added by**: System Solution Solution
+
 Same as actioncard entity [serviceappointment_actioncard](actioncard.md#BKMK_serviceappointment_actioncard) Many-To-One relationship.
 
 |Property|Value|
@@ -1874,6 +1888,8 @@ Same as actioncard entity [serviceappointment_actioncard](actioncard.md#BKMK_ser
 
 
 ### <a name="BKMK_slakpiinstance_serviceappointment"></a> slakpiinstance_serviceappointment
+
+**Added by**: System Solution Solution
 
 Same as slakpiinstance entity [slakpiinstance_serviceappointment](slakpiinstance.md#BKMK_slakpiinstance_serviceappointment) Many-To-One relationship.
 
@@ -1923,6 +1939,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [site_ServiceAppointments](#BKMK_site_ServiceAppointments)
 - [service_service_appointments](#BKMK_service_service_appointments)
 - [site_service_appointments](#BKMK_site_service_appointments)
+- [msdyn_playbookinstance_ServiceAppointments](#BKMK_msdyn_playbookinstance_ServiceAppointments)
 - [Invoice_ServiceAppointments](#BKMK_Invoice_ServiceAppointments)
 - [Opportunity_ServiceAppointments](#BKMK_Opportunity_ServiceAppointments)
 - [Quote_ServiceAppointments](#BKMK_Quote_ServiceAppointments)
@@ -1994,25 +2011,37 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_Lead_ServiceAppointments"></a> Lead_ServiceAppointments
 
+**Added by**: Lead Management Solution
+
 See lead Entity [Lead_ServiceAppointments](lead.md#BKMK_Lead_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_bookableresourcebooking_ServiceAppointments"></a> bookableresourcebooking_ServiceAppointments
+
+**Added by**: Scheduling Solution
 
 See bookableresourcebooking Entity [bookableresourcebooking_ServiceAppointments](bookableresourcebooking.md#BKMK_bookableresourcebooking_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_bookableresourcebookingheader_ServiceAppointments"></a> bookableresourcebookingheader_ServiceAppointments
 
+**Added by**: Scheduling Solution
+
 See bookableresourcebookingheader Entity [bookableresourcebookingheader_ServiceAppointments](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_bulkoperation_ServiceAppointments"></a> bulkoperation_ServiceAppointments
+
+**Added by**: Marketing Solution
 
 See bulkoperation Entity [bulkoperation_ServiceAppointments](bulkoperation.md#BKMK_bulkoperation_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_Campaign_ServiceAppointments"></a> Campaign_ServiceAppointments
 
+**Added by**: Marketing Solution
+
 See campaign Entity [Campaign_ServiceAppointments](campaign.md#BKMK_Campaign_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_campaignactivity_ServiceAppointments"></a> campaignactivity_ServiceAppointments
+
+**Added by**: Marketing Solution
 
 See campaignactivity Entity [campaignactivity_ServiceAppointments](campaignactivity.md#BKMK_campaignactivity_ServiceAppointments) One-To-Many relationship.
 
@@ -2034,69 +2063,103 @@ See incident Entity [Incident_ServiceAppointments](incident.md#BKMK_Incident_Ser
 
 ### <a name="BKMK_interactionforemail_ServiceAppointments"></a> interactionforemail_ServiceAppointments
 
+**Added by**: System Solution Solution
+
 See interactionforemail Entity [interactionforemail_ServiceAppointments](interactionforemail.md#BKMK_interactionforemail_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_KnowledgeBaseRecord_ServiceAppointments"></a> KnowledgeBaseRecord_ServiceAppointments
+
+**Added by**: System Solution Solution
 
 See knowledgebaserecord Entity [KnowledgeBaseRecord_ServiceAppointments](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_Account_ServiceAppointments"></a> Account_ServiceAppointments
 
+**Added by**: System Solution Solution
+
 See account Entity [Account_ServiceAppointments](account.md#BKMK_Account_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_lk_serviceappointment_createdby"></a> lk_serviceappointment_createdby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_serviceappointment_createdby](systemuser.md#BKMK_lk_serviceappointment_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_Contact_ServiceAppointments"></a> Contact_ServiceAppointments
 
+**Added by**: System Solution Solution
+
 See contact Entity [Contact_ServiceAppointments](contact.md#BKMK_Contact_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_serviceappointment_mailbox_sendermailboxid"></a> serviceappointment_mailbox_sendermailboxid
+
+**Added by**: System Solution Solution
 
 See mailbox Entity [serviceappointment_mailbox_sendermailboxid](mailbox.md#BKMK_serviceappointment_mailbox_sendermailboxid) One-To-Many relationship.
 
 ### <a name="BKMK_TransactionCurrency_ServiceAppointment"></a> TransactionCurrency_ServiceAppointment
 
+**Added by**: System Solution Solution
+
 See transactioncurrency Entity [TransactionCurrency_ServiceAppointment](transactioncurrency.md#BKMK_TransactionCurrency_ServiceAppointment) One-To-Many relationship.
 
 ### <a name="BKMK_system_user_service_appointments"></a> system_user_service_appointments
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [system_user_service_appointments](systemuser.md#BKMK_system_user_service_appointments) One-To-Many relationship.
 
 ### <a name="BKMK_manualsla_serviceappointment"></a> manualsla_serviceappointment
 
+**Added by**: System Solution Solution
+
 See sla Entity [manualsla_serviceappointment](sla.md#BKMK_manualsla_serviceappointment) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_service_appointments"></a> business_unit_service_appointments
+
+**Added by**: System Solution Solution
 
 See businessunit Entity [business_unit_service_appointments](businessunit.md#BKMK_business_unit_service_appointments) One-To-Many relationship.
 
 ### <a name="BKMK_KnowledgeArticle_ServiceAppointments"></a> KnowledgeArticle_ServiceAppointments
 
+**Added by**: System Solution Solution
+
 See knowledgearticle Entity [KnowledgeArticle_ServiceAppointments](knowledgearticle.md#BKMK_KnowledgeArticle_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_lk_serviceappointment_modifiedonbehalfby"></a> lk_serviceappointment_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_serviceappointment_modifiedonbehalfby](systemuser.md#BKMK_lk_serviceappointment_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_serviceappointment_createdonbehalfby"></a> lk_serviceappointment_createdonbehalfby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_serviceappointment_createdonbehalfby](systemuser.md#BKMK_lk_serviceappointment_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_serviceappointment_modifiedby"></a> lk_serviceappointment_modifiedby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_serviceappointment_modifiedby](systemuser.md#BKMK_lk_serviceappointment_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_team_service_appointments"></a> team_service_appointments
 
+**Added by**: System Solution Solution
+
 See team Entity [team_service_appointments](team.md#BKMK_team_service_appointments) One-To-Many relationship.
 
 ### <a name="BKMK_sla_serviceappointment"></a> sla_serviceappointment
 
+**Added by**: System Solution Solution
+
 See sla Entity [sla_serviceappointment](sla.md#BKMK_sla_serviceappointment) One-To-Many relationship.
 
 ### <a name="BKMK_activity_pointer_service_appointment"></a> activity_pointer_service_appointment
+
+**Added by**: System Solution Solution
 
 See activitypointer Entity [activity_pointer_service_appointment](activitypointer.md#BKMK_activity_pointer_service_appointment) One-To-Many relationship.
 
@@ -2112,277 +2175,417 @@ See service Entity [service_service_appointments](service.md#BKMK_service_servic
 
 See site Entity [site_service_appointments](site.md#BKMK_site_service_appointments) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_playbookinstance_ServiceAppointments"></a> msdyn_playbookinstance_ServiceAppointments
+
+**Added by**: Playbook Solution
+
+See msdyn_playbookinstance Entity [msdyn_playbookinstance_ServiceAppointments](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_ServiceAppointments) One-To-Many relationship.
+
 ### <a name="BKMK_Invoice_ServiceAppointments"></a> Invoice_ServiceAppointments
+
+**Added by**: Sales Solution
 
 See invoice Entity [Invoice_ServiceAppointments](invoice.md#BKMK_Invoice_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_Opportunity_ServiceAppointments"></a> Opportunity_ServiceAppointments
 
+**Added by**: Sales Solution
+
 See opportunity Entity [Opportunity_ServiceAppointments](opportunity.md#BKMK_Opportunity_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_Quote_ServiceAppointments"></a> Quote_ServiceAppointments
+
+**Added by**: Sales Solution
 
 See quote Entity [Quote_ServiceAppointments](quote.md#BKMK_Quote_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_SalesOrder_ServiceAppointments"></a> SalesOrder_ServiceAppointments
 
+**Added by**: Sales Solution
+
 See salesorder Entity [SalesOrder_ServiceAppointments](salesorder.md#BKMK_SalesOrder_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_postalbum_ServiceAppointments"></a> msdyn_postalbum_ServiceAppointments
+
+**Added by**: Activity Feeds Solution
 
 See msdyn_postalbum Entity [msdyn_postalbum_ServiceAppointments](msdyn_postalbum.md#BKMK_msdyn_postalbum_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingalertstatus_ServiceAppointments"></a> msdyn_bookingalertstatus_ServiceAppointments
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_bookingalertstatus Entity [msdyn_bookingalertstatus_ServiceAppointments](msdyn_bookingalertstatus.md#BKMK_msdyn_bookingalertstatus_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingrule_ServiceAppointments"></a> msdyn_bookingrule_ServiceAppointments
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_bookingrule Entity [msdyn_bookingrule_ServiceAppointments](msdyn_bookingrule.md#BKMK_msdyn_bookingrule_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_resourceterritory_ServiceAppointments"></a> msdyn_resourceterritory_ServiceAppointments
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_resourceterritory Entity [msdyn_resourceterritory_ServiceAppointments](msdyn_resourceterritory.md#BKMK_msdyn_resourceterritory_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_systemuserschedulersetting_ServiceAppointments"></a> msdyn_systemuserschedulersetting_ServiceAppointments
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_systemuserschedulersetting Entity [msdyn_systemuserschedulersetting_ServiceAppointments](msdyn_systemuserschedulersetting.md#BKMK_msdyn_systemuserschedulersetting_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timegroup_ServiceAppointments"></a> msdyn_timegroup_ServiceAppointments
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_timegroup Entity [msdyn_timegroup_ServiceAppointments](msdyn_timegroup.md#BKMK_msdyn_timegroup_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timegroupdetail_ServiceAppointments"></a> msdyn_timegroupdetail_ServiceAppointments
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_ServiceAppointments](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_processnotes_ServiceAppointments"></a> msdyn_processnotes_ServiceAppointments
 
+**Added by**: Project Service Automation Solution
+
 See msdyn_processnotes Entity [msdyn_processnotes_ServiceAppointments](msdyn_processnotes.md#BKMK_msdyn_processnotes_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_projectteam_ServiceAppointments"></a> msdyn_projectteam_ServiceAppointments
+
+**Added by**: Project Service Automation Solution
 
 See msdyn_projectteam Entity [msdyn_projectteam_ServiceAppointments](msdyn_projectteam.md#BKMK_msdyn_projectteam_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreement_ServiceAppointments"></a> msdyn_agreement_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_agreement Entity [msdyn_agreement_ServiceAppointments](msdyn_agreement.md#BKMK_msdyn_agreement_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingdate_ServiceAppointments"></a> msdyn_agreementbookingdate_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_ServiceAppointments](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingincident_ServiceAppointments"></a> msdyn_agreementbookingincident_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingincident Entity [msdyn_agreementbookingincident_ServiceAppointments](msdyn_agreementbookingincident.md#BKMK_msdyn_agreementbookingincident_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingproduct_ServiceAppointments"></a> msdyn_agreementbookingproduct_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingproduct Entity [msdyn_agreementbookingproduct_ServiceAppointments](msdyn_agreementbookingproduct.md#BKMK_msdyn_agreementbookingproduct_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingservice_ServiceAppointments"></a> msdyn_agreementbookingservice_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingservice Entity [msdyn_agreementbookingservice_ServiceAppointments](msdyn_agreementbookingservice.md#BKMK_msdyn_agreementbookingservice_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingservicetask_ServiceAppointments"></a> msdyn_agreementbookingservicetask_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementbookingservicetask Entity [msdyn_agreementbookingservicetask_ServiceAppointments](msdyn_agreementbookingservicetask.md#BKMK_msdyn_agreementbookingservicetask_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementbookingsetup_ServiceAppointments"></a> msdyn_agreementbookingsetup_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_ServiceAppointments](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoicedate_ServiceAppointments"></a> msdyn_agreementinvoicedate_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_ServiceAppointments](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoiceproduct_ServiceAppointments"></a> msdyn_agreementinvoiceproduct_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_agreementinvoiceproduct Entity [msdyn_agreementinvoiceproduct_ServiceAppointments](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_agreementinvoiceproduct_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_agreementinvoicesetup_ServiceAppointments"></a> msdyn_agreementinvoicesetup_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_ServiceAppointments](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingtimestamp_ServiceAppointments"></a> msdyn_bookingtimestamp_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_bookingtimestamp Entity [msdyn_bookingtimestamp_ServiceAppointments](msdyn_bookingtimestamp.md#BKMK_msdyn_bookingtimestamp_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_customerasset_ServiceAppointments"></a> msdyn_customerasset_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_customerasset Entity [msdyn_customerasset_ServiceAppointments](msdyn_customerasset.md#BKMK_msdyn_customerasset_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_fieldservicesetting_ServiceAppointments"></a> msdyn_fieldservicesetting_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_fieldservicesetting Entity [msdyn_fieldservicesetting_ServiceAppointments](msdyn_fieldservicesetting.md#BKMK_msdyn_fieldservicesetting_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypecharacteristic_ServiceAppointments"></a> msdyn_incidenttypecharacteristic_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_incidenttypecharacteristic Entity [msdyn_incidenttypecharacteristic_ServiceAppointments](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_incidenttypecharacteristic_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypeproduct_ServiceAppointments"></a> msdyn_incidenttypeproduct_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_incidenttypeproduct Entity [msdyn_incidenttypeproduct_ServiceAppointments](msdyn_incidenttypeproduct.md#BKMK_msdyn_incidenttypeproduct_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_incidenttypeservice_ServiceAppointments"></a> msdyn_incidenttypeservice_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_incidenttypeservice Entity [msdyn_incidenttypeservice_ServiceAppointments](msdyn_incidenttypeservice.md#BKMK_msdyn_incidenttypeservice_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryadjustment_ServiceAppointments"></a> msdyn_inventoryadjustment_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_ServiceAppointments](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryadjustmentproduct_ServiceAppointments"></a> msdyn_inventoryadjustmentproduct_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_inventoryadjustmentproduct Entity [msdyn_inventoryadjustmentproduct_ServiceAppointments](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_inventoryadjustmentproduct_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventoryjournal_ServiceAppointments"></a> msdyn_inventoryjournal_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_inventoryjournal Entity [msdyn_inventoryjournal_ServiceAppointments](msdyn_inventoryjournal.md#BKMK_msdyn_inventoryjournal_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_inventorytransfer_ServiceAppointments"></a> msdyn_inventorytransfer_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_ServiceAppointments](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_payment_ServiceAppointments"></a> msdyn_payment_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_payment Entity [msdyn_payment_ServiceAppointments](msdyn_payment.md#BKMK_msdyn_payment_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentdetail_ServiceAppointments"></a> msdyn_paymentdetail_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_paymentdetail Entity [msdyn_paymentdetail_ServiceAppointments](msdyn_paymentdetail.md#BKMK_msdyn_paymentdetail_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentmethod_ServiceAppointments"></a> msdyn_paymentmethod_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_paymentmethod Entity [msdyn_paymentmethod_ServiceAppointments](msdyn_paymentmethod.md#BKMK_msdyn_paymentmethod_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_paymentterm_ServiceAppointments"></a> msdyn_paymentterm_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_paymentterm Entity [msdyn_paymentterm_ServiceAppointments](msdyn_paymentterm.md#BKMK_msdyn_paymentterm_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_postalcode_ServiceAppointments"></a> msdyn_postalcode_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_postalcode Entity [msdyn_postalcode_ServiceAppointments](msdyn_postalcode.md#BKMK_msdyn_postalcode_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_productinventory_ServiceAppointments"></a> msdyn_productinventory_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_productinventory Entity [msdyn_productinventory_ServiceAppointments](msdyn_productinventory.md#BKMK_msdyn_productinventory_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorder_ServiceAppointments"></a> msdyn_purchaseorder_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorder Entity [msdyn_purchaseorder_ServiceAppointments](msdyn_purchaseorder.md#BKMK_msdyn_purchaseorder_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderbill_ServiceAppointments"></a> msdyn_purchaseorderbill_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorderbill Entity [msdyn_purchaseorderbill_ServiceAppointments](msdyn_purchaseorderbill.md#BKMK_msdyn_purchaseorderbill_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderproduct_ServiceAppointments"></a> msdyn_purchaseorderproduct_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorderproduct Entity [msdyn_purchaseorderproduct_ServiceAppointments](msdyn_purchaseorderproduct.md#BKMK_msdyn_purchaseorderproduct_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderreceipt_ServiceAppointments"></a> msdyn_purchaseorderreceipt_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseorderreceipt Entity [msdyn_purchaseorderreceipt_ServiceAppointments](msdyn_purchaseorderreceipt.md#BKMK_msdyn_purchaseorderreceipt_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseorderreceiptproduct_ServiceAppointments"></a> msdyn_purchaseorderreceiptproduct_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_purchaseorderreceiptproduct Entity [msdyn_purchaseorderreceiptproduct_ServiceAppointments](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_purchaseorderreceiptproduct_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_purchaseordersubstatus_ServiceAppointments"></a> msdyn_purchaseordersubstatus_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_purchaseordersubstatus Entity [msdyn_purchaseordersubstatus_ServiceAppointments](msdyn_purchaseordersubstatus.md#BKMK_msdyn_purchaseordersubstatus_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingincident_ServiceAppointments"></a> msdyn_quotebookingincident_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_quotebookingincident Entity [msdyn_quotebookingincident_ServiceAppointments](msdyn_quotebookingincident.md#BKMK_msdyn_quotebookingincident_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingproduct_ServiceAppointments"></a> msdyn_quotebookingproduct_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_quotebookingproduct Entity [msdyn_quotebookingproduct_ServiceAppointments](msdyn_quotebookingproduct.md#BKMK_msdyn_quotebookingproduct_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingservice_ServiceAppointments"></a> msdyn_quotebookingservice_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_quotebookingservice Entity [msdyn_quotebookingservice_ServiceAppointments](msdyn_quotebookingservice.md#BKMK_msdyn_quotebookingservice_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_quotebookingservicetask_ServiceAppointments"></a> msdyn_quotebookingservicetask_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_quotebookingservicetask Entity [msdyn_quotebookingservicetask_ServiceAppointments](msdyn_quotebookingservicetask.md#BKMK_msdyn_quotebookingservicetask_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rma_ServiceAppointments"></a> msdyn_rma_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_rma Entity [msdyn_rma_ServiceAppointments](msdyn_rma.md#BKMK_msdyn_rma_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmaproduct_ServiceAppointments"></a> msdyn_rmaproduct_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_rmaproduct Entity [msdyn_rmaproduct_ServiceAppointments](msdyn_rmaproduct.md#BKMK_msdyn_rmaproduct_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmareceipt_ServiceAppointments"></a> msdyn_rmareceipt_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_rmareceipt Entity [msdyn_rmareceipt_ServiceAppointments](msdyn_rmareceipt.md#BKMK_msdyn_rmareceipt_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmareceiptproduct_ServiceAppointments"></a> msdyn_rmareceiptproduct_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_rmareceiptproduct Entity [msdyn_rmareceiptproduct_ServiceAppointments](msdyn_rmareceiptproduct.md#BKMK_msdyn_rmareceiptproduct_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rmasubstatus_ServiceAppointments"></a> msdyn_rmasubstatus_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_rmasubstatus Entity [msdyn_rmasubstatus_ServiceAppointments](msdyn_rmasubstatus.md#BKMK_msdyn_rmasubstatus_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtv_ServiceAppointments"></a> msdyn_rtv_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_rtv Entity [msdyn_rtv_ServiceAppointments](msdyn_rtv.md#BKMK_msdyn_rtv_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtvproduct_ServiceAppointments"></a> msdyn_rtvproduct_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_rtvproduct Entity [msdyn_rtvproduct_ServiceAppointments](msdyn_rtvproduct.md#BKMK_msdyn_rtvproduct_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_rtvsubstatus_ServiceAppointments"></a> msdyn_rtvsubstatus_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_rtvsubstatus Entity [msdyn_rtvsubstatus_ServiceAppointments](msdyn_rtvsubstatus.md#BKMK_msdyn_rtvsubstatus_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_shipvia_ServiceAppointments"></a> msdyn_shipvia_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_shipvia Entity [msdyn_shipvia_ServiceAppointments](msdyn_shipvia.md#BKMK_msdyn_shipvia_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_timeoffrequest_ServiceAppointments"></a> msdyn_timeoffrequest_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_timeoffrequest Entity [msdyn_timeoffrequest_ServiceAppointments](msdyn_timeoffrequest.md#BKMK_msdyn_timeoffrequest_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_warehouse_ServiceAppointments"></a> msdyn_warehouse_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_warehouse Entity [msdyn_warehouse_ServiceAppointments](msdyn_warehouse.md#BKMK_msdyn_warehouse_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorder_ServiceAppointments"></a> msdyn_workorder_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_workorder Entity [msdyn_workorder_ServiceAppointments](msdyn_workorder.md#BKMK_msdyn_workorder_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workordercharacteristic_ServiceAppointments"></a> msdyn_workordercharacteristic_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_workordercharacteristic Entity [msdyn_workordercharacteristic_ServiceAppointments](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderincident_ServiceAppointments"></a> msdyn_workorderincident_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderincident Entity [msdyn_workorderincident_ServiceAppointments](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderproduct_ServiceAppointments"></a> msdyn_workorderproduct_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderproduct Entity [msdyn_workorderproduct_ServiceAppointments](msdyn_workorderproduct.md#BKMK_msdyn_workorderproduct_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderresourcerestriction_ServiceAppointments"></a> msdyn_workorderresourcerestriction_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderresourcerestriction Entity [msdyn_workorderresourcerestriction_ServiceAppointments](msdyn_workorderresourcerestriction.md#BKMK_msdyn_workorderresourcerestriction_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderservice_ServiceAppointments"></a> msdyn_workorderservice_ServiceAppointments
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderservice Entity [msdyn_workorderservice_ServiceAppointments](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_ServiceAppointments) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_workorderservicetask_ServiceAppointments"></a> msdyn_workorderservicetask_ServiceAppointments
+
+**Added by**: Field Service Solution
 
 See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_ServiceAppointments](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_ServiceAppointments) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.serviceappointment?text=serviceappointment EntityType" />

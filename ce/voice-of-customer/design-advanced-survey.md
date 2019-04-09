@@ -2,7 +2,7 @@
 title: "Design an advanced survey by using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to add advanced functionalities to the survey."
 keywords: advanced survey design; interactive survey; response routing
-ms.date: 11/30/2018
+ms.date: 04/03/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -139,7 +139,7 @@ You can use client-side routing to keep the survey relevant to the respondent an
 
 **Note**: Be careful not to create a huge logic tree with many combinations of response actions, because this will increase your testing effort. Instead, split the survey into multiple, smaller surveys and send invitations to different groups of people.
 
-When you [design an interactive survey](#design-interactive-surveys) and select **Client** as **Scope**, the following actions are available:  
+When you [design an interactive survey](#design-interactive-surveys-by-using-response-routing) and select **Client** as **Scope**, the following actions are available:  
 
 - **Show**: Shows a page, section, grid, or question based on a given response.
 

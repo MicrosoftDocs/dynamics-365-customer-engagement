@@ -1,21 +1,22 @@
 ---
-title: "ActionCard Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "ActionCard Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ActionCard entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # ActionCard Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Action card entity to show action cards.
 
@@ -24,11 +25,11 @@ Action card entity to show action cards.
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/actioncards<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/actioncards(*actioncardid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/actioncards(*actioncardid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/actioncards<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/actioncards(*actioncardid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.0/actioncards<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/actioncards(*actioncardid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/actioncards(*actioncardid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/actioncards<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/actioncards(*actioncardid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -128,7 +129,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|For internal use only.|
+|Description|Json formatted string for generic purpose.|
 |DisplayName|Data Associated with Card Commandbar Actions|
 |Format|TextArea|
 |IsLocalizable|False|
@@ -144,7 +145,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|For internal use only.|
+|Description|Card Description|
 |DisplayName|Card Description|
 |Format|TextArea|
 |IsLocalizable|False|
@@ -251,14 +252,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |--------|-----|
 |Description|ParentRegardingObjectTypeCode of the ActionCard|
 |DisplayName|ParentRegardingObjectTypeCode|
-|Format|None|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|parentregardingobjecttypecode|
-|MaxValue|2147483647|
-|MinValue|0|
 |RequiredLevel|None|
-|Type|Integer|
+|Type|EntityName|
 
 
 ### <a name="BKMK_Priority"></a> Priority
@@ -295,8 +293,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName||
+|Description|Shows the Object Type Code.|
+|DisplayName|RecordIdObjectTypeCode|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|recordidobjecttypecode|
@@ -346,7 +344,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,appointment,contact,email,fax,incident,lead,letter,msdyn_approval,msdyn_bookingalert,opportunity,phonecall,recurringappointmentmaster,serviceappointment,task|
+|Targets|account,appointment,contact,email,fax,incident,lead,letter,msdyn_approval,msdyn_bookingalert,msfp_surveyinvite,msfp_surveyresponse,opportunity,phonecall,recurringappointmentmaster,serviceappointment,task|
 |Type|Lookup|
 
 
@@ -491,7 +489,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CardTypeIdName](#BKMK_CardTypeIdName)
@@ -844,8 +844,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName||
+|Description|Shows the record ID Name.|
+|DisplayName|RecordIdName|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -925,7 +925,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [phonecall_actioncard](#BKMK_phonecall_actioncard)
 - [task_actioncard](#BKMK_task_actioncard)
 - [email_actioncard](#BKMK_email_actioncard)
-- [cardtype_actioncard](#BKMK_cardtype_actioncard)
 - [lk_actioncardbase_createdonbehalfby](#BKMK_lk_actioncardbase_createdonbehalfby)
 - [business_unit_actioncards](#BKMK_business_unit_actioncards)
 - [recurringappointmentmaster_actioncard](#BKMK_recurringappointmentmaster_actioncard)
@@ -939,25 +938,37 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_Lead_actioncard"></a> Lead_actioncard
 
+**Added by**: Lead Management Solution
+
 See lead Entity [Lead_actioncard](lead.md#BKMK_Lead_actioncard) One-To-Many relationship.
 
 ### <a name="BKMK_incident_actioncard"></a> incident_actioncard
+
+**Added by**: Service Solution
 
 See incident Entity [incident_actioncard](incident.md#BKMK_incident_actioncard) One-To-Many relationship.
 
 ### <a name="BKMK_serviceappointment_actioncard"></a> serviceappointment_actioncard
 
+**Added by**: Service Solution
+
 See serviceappointment Entity [serviceappointment_actioncard](serviceappointment.md#BKMK_serviceappointment_actioncard) One-To-Many relationship.
 
 ### <a name="BKMK_opportunity_actioncard"></a> opportunity_actioncard
+
+**Added by**: Sales Solution
 
 See opportunity Entity [opportunity_actioncard](opportunity.md#BKMK_opportunity_actioncard) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingalert_ActionCards"></a> msdyn_bookingalert_ActionCards
 
+**Added by**: Active Solution Solution
+
 See msdyn_bookingalert Entity [msdyn_bookingalert_ActionCards](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_ActionCards) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_approval_ActionCards"></a> msdyn_approval_ActionCards
+
+**Added by**: Active Solution Solution
 
 See msdyn_approval Entity [msdyn_approval_ActionCards](msdyn_approval.md#BKMK_msdyn_approval_ActionCards) One-To-Many relationship.
 
@@ -984,10 +995,6 @@ See task Entity [task_actioncard](task.md#BKMK_task_actioncard) One-To-Many rela
 ### <a name="BKMK_email_actioncard"></a> email_actioncard
 
 See email Entity [email_actioncard](email.md#BKMK_email_actioncard) One-To-Many relationship.
-
-### <a name="BKMK_cardtype_actioncard"></a> cardtype_actioncard
-
-See cardtype Entity [cardtype_actioncard](cardtype.md#BKMK_cardtype_actioncard) One-To-Many relationship.
 
 ### <a name="BKMK_lk_actioncardbase_createdonbehalfby"></a> lk_actioncardbase_createdonbehalfby
 
@@ -1028,6 +1035,6 @@ See systemuser Entity [lk_actioncardbase_modifiedonbehalfby](systemuser.md#BKMK_
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.actioncard?text=actioncard EntityType" />

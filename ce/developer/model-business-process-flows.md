@@ -377,7 +377,7 @@ If you do not set a value for the **ProcessId** attribute while creating a new e
 
 ## Legacy process-related attributes in entities
 
-The legacy process-related attributes (such as **ProcessId**, **StageId**, and **TraversedPath**) on entities enabled for business process flows are already deprecated. Manipulating these legacy process related attributes for target entity records does not guarantee consistency of the business process flow state, and is ***not*** a supported scenario. The recommended way is to use the attributes of the business process flow entity as explained earlier in the section [Create, retrieve, update, and delete business process flow entity records (process instances)](#create-retrieve-update-and-delete-business-process-flow-entity-records-process-instances)
+The legacy process-related attributes (**ProcessId**, **StageId**, and **TraversedPath**) on entities enabled for business process flows, along with the setProcess client API are already deprecated. Manipulating these legacy process related attributes for target entity records, or using the legacy setProcess client API does not guarantee consistency of the business process flow state, and are not supported scenarios. The recommended way is to use the attributes of the business process flow entity as explained earlier in the section [Create, retrieve, update, and delete business process flow entity records (process instances)](#create-retrieve-update-and-delete-business-process-flow-entity-records-process-instances)
 
 The only exception to this is programmatically modifying the **ProcessId** attribute while creating an entity record to override the default application of the business process flow to the new record as explained in the previous section: [Apply business process flow while creating an entity record](#ApplyBPF).
 
@@ -399,4 +399,4 @@ The only exception to this is programmatically modifying the **ProcessId** attri
   
 ### See also    
    
- [Business process flows](../customize/business-process-flows-overview.md)
+ - [Business process flows](../customize/business-process-flows-overview.md)
