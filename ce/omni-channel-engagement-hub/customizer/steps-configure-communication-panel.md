@@ -432,7 +432,85 @@ The steps for configuring Communication panel in Unified Service Desk involves m
     | General | Name           | Omni-channel Proxy Response |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelProxyResponse | 
-    | General | Data | `ChatPayLoad=[[PostData]]` |                   
+    | General | Data | `ChatPayLoad=[[PostData]]` |  
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Session Transfer Initiated |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelSessionTransferInitiated | 
+    | General | Data | `ChatPayLoad=[[PostData]]` |      
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Focus on Omni-channel Agent Dashboard |
+    | General | Order | 2 |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | ShowTab | 
+    | General | Data | `Omni-channel Agent Dashboard` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Update Old Presence Status In Settings |
+    | General | Order | 10 |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | SetReplacementParameter | 
+    | General | Data | `appname=$GlobalDictionary <br> param=OCOLDPRESENCESTATE <br> value=[[$GlobalDictionary.OCCURRENTPRESENCESTATE]] <br> global=true` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Update Current Presence Status In Settings |
+    | General | Order | 20 |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | SetReplacementParameter | 
+    | General | Data | `appname=$GlobalDictionary <br> param=OCCURRENTPRESENCESTATE  <br> value=[[CURRENT_PRESENCE_STATE]+]  <br> global=true` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Update All Presence Status In Settings |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | SetReplacementParameter | 
+    | General | Data | `appname=$GlobalDictionary <br> param=OCALLPRESENCESTATE  <br> value=[[CURRENT_PRESENCE_STATE]+]  <br> global=true` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Show Case Entity Notification |
+    | General | Order | 10 |
+    | General | Hosted Control | Omni-channel Toast Notification |
+    | General | Action         | Show | 
+    | General | Data | `formname=EntityNotification <br> top=85 <br> left=82 <br> timeout=60 <br> stack=true <br> stackHeight=56 <br> EntityDisplayName=[[EntityDisplayName]+] <br> EntityLogicalName=[[EntityLogicalName]+] <br> EntityId=[[EntityId]+] <br> ConversationId=[[ConversationId]+] <br> placementmode=absolute <br> NotificationIcon=new_omni_foonotification_case_icon` |
+    | Advanced | Condition | `'[[EntityLogicalName]+]' == 'incident'` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Show Defaut Entity Notification |
+    | General | Order | 10 |
+    | General | Hosted Control | Omni-channel Toast Notification |
+    | General | Action         | Show | 
+    | General | Data | `formname=EntityNotification <br> top=85 <br> left=82 <br> timeout=60 <br> stack=true <br> stackHeight=56 <br> EntityDisplayName=[[EntityDisplayName]+] <br> EntityLogicalName=[[EntityLogicalName]+] <br> EntityId=[[EntityId]+] <br> ConversationId=[[ConversationId]+] <br> placementmode=absolute <br> NotificationIcon=new_omni_foonotification_default_icon` |
+    | Advanced | Condition | `'[[EntityLogicalName]+]' != 'incident'` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Unread Message Action |
+    | General | Order | 10 |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelUnreadMessage | 
+    | General | Data | `ChatPayLoad=[[PostData]]` |
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Omni-channel Upadte Presence |
+    | General | Hosted Control | Communication Panel |
+    | General | Action         | OmnichannelUpdatePresence | 
+    | General | Data | `ChatPayLoad=[[PostData]+]` |  
+
+    | Tab | Field      | Value                       |
+    |---------|----------------|---------------------------------|
+    | General | Name           | Update Session Count In Dictionary |
+    | General | Hosted Control | CRM Global Manager |
+    | General | Action         | SetReplacementParameter | 
+    | General | Data | `appname=$GlobalDictionary <br> param=CurrentSessionCount <br> value=[[CurrentSessionCount]+] <br> global=true` |  
 
 ## Step 3.  Attach the Action Calls to Events
 
