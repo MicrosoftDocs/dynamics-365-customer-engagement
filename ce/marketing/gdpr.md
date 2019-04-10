@@ -243,7 +243,10 @@ You can export this list from here, if needed, by selecting the **Export** butto
 
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] can keep a record of all database changes, who made them, and when. You can use this to show when GDPR consent was changed for each contact and by whom. The auditing system is usually disabled by default, so you'll need to set it up if you want to use it log your GDPR consent changes (and other information). When setting up the system, you'll be able to choose which types of events you want to audit on which type of records.
 
-You can access the auditing features by opening the **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]** application and then going to **Settings** > **System** > **Auditing** to open the **Audit** page. From there, you can access the auditing settings and review the audit record.
+To access the auditing features:
+
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Navigate to **Settings** > **System** > **Auditing** to open the **Audit** page. From there, you can access the auditing settings and review the audit record.
 
 This feature is part of the standard functionality of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. For information about how auditing works, how to set it up, and how to review the log, see [Audit data and user activity for security and compliance](../admin/audit-data-user-activity.md).
 

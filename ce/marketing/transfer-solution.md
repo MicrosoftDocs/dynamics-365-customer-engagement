@@ -46,10 +46,9 @@ To create a custom solution:
 
 1. Sign in to the instance where you will develop your custom solution.
 
-1. Go to the custom app by selecting **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]** from the app-selector menu.    
-    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 
-1. In the custom app, navigate to **Settings** > **Solutions**. A list of existing solutions opens.    
+1. Navigate to **Settings** > **Customization** > **Solutions**. A list of existing solutions opens.    
     ![The solutions list](media/solution-list.png "The solutions list")
 
 1. Select **New** on the command bar to create a new solution. 
@@ -101,7 +100,8 @@ If you'd like to confirm your changes, you can go to the Marketing app, open a m
 
 When you're done customizing your solution and ready to move it to another instance, the next thing you must do is export the custom solution. Here's how:
 
-1. If you're not already there after the last exercise, open the custom app and navigate to **Settings** > **Solutions**.    
+1. If you're not already there after the last exercise, go to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area by opening the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and then select **Advanced settings**.
+1. Navigate to **Settings** > **Customizations** > **Solutions**.    
     ![The solutions list](media/solution-list.png "The solutions list")
 
 1. Select the check box for the solution you want to export, and then select **Export** on the command bar.
@@ -125,10 +125,9 @@ To import a solution:
 
 1. Sign in to the instance where you will import your custom solution.
 
-1. Go to the custom app by selecting **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]** from the app-selector menu.    
-    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 
-1. In the custom app, navigate to **Settings** > **Solutions**. A list of existing solutions opens.    
+1. Navigate to **Settings** > **Customization** > **Solutions**. A list of existing solutions opens.    
     ![The solutions list](media/solution-list.png "The solutions list")
 
 1. Select **Import** on the command bar. The import dialog launches.    

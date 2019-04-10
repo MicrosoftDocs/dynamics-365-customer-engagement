@@ -51,7 +51,13 @@ Administrators can also create teams, apply security roles to those teams, and a
 > [!IMPORTANT]
 > You must assign at least one security role to every user. The app doesn't allow access to any user who does not have at least one security role.
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides a read-only view of users who are licensed to use the system. To apply security roles to users, and to customize each role, you must work in the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app. For details about how to open this app, see [Move between apps](navigation.md#move-between-apps). For more information about managing users and working with security roles in the custom app, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides a read-only view of users who are licensed to use the system. To apply security roles to users, and to customize each role, do the following:
+
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+
+1. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+
+1. Work with the **Users** settings here to assign security roles to users. For details, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
 
 <a name="inspect-roles"></a>
 
@@ -64,9 +70,11 @@ All [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications com
 
 To find out which permissions apply to any existing security role (and/or edit a role):
 
-1. [Open the Dynamics 365 - custom app](navigation.md#move-between-apps).
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
-1. Go to **Settings** > **System** > **Security** to open the **Security** page, and then select the **Security roles** icon.
+1. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+
+1. Select the **Security roles** icon.
 
 1. You now see a list of security roles. Select a role to open the **Security role** window, which shows individual access levels for each available entity. Most entities are named intuitively to map to various features and areas of the app.
 

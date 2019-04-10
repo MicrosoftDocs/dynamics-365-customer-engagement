@@ -93,10 +93,9 @@ Customer journeys can introduce data dependencies if they include launch-workflo
 
 To remove the solutions:
 
-1. Use the app selector to go to the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.  
-    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 
-1. Go to **Settings** > **Customizations** > **Solutions** to manage your installed solutions.
+1. Navigate to **Settings** > **Customization** > **Solutions** to manage your installed solutions.
 
 1. Find each of the following solutions and remove them, one at a time, in the order listed here. (Some of the items listed may not be present on your instance, so just skip these.) To remove a solution, select its check box, and then select **Delete** on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
 
