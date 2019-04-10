@@ -2,7 +2,7 @@
 title: "Enable LinkedIn Sales Navigator for Dynamics 365 | Microsoft Docs"
 description: "Enable the LinkedIn Sales Navigator for Dynamics 365 capabilities"
 keywords: "installation, setup, sales navigator"
-ms.date: 03/08/2019
+ms.date: 04/10/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
