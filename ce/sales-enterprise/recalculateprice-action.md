@@ -1,4 +1,5 @@
 ---
+redirect_url: /dynamics365/customer-engagement/sales-enterprise/developer/reference/recalculateprice-action
 title: "RecalculatePrice Action (Dynamics 365 for Sales) | MicrosoftDocs"
 description: ""
 keywords: recalculateprice

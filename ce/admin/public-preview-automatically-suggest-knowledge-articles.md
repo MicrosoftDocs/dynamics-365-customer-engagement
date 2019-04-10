@@ -1,4 +1,5 @@
 ---
+redirect_url: admin-guide
 title: "Preview feature: Automatically suggest knowledge articles with Dynamics 365 for Customer Engagement| MicrosoftDocs"
 description: ""
 keywords: 

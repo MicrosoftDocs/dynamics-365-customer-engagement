@@ -37,33 +37,7 @@ Preview features are features that aren’t complete, but are made available on 
   
 - May be available only in selected geographic areas.  
 
-<!--
-## What preview features are included in [!INCLUDE [pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)]
-
-The following table lists preview features as well as learning resources for each.
-
-|||  
-|-|-|  
-|**Preview feature**|**Learning resource**|  
--->
-
-
-## What preview features are included in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]?   
- The following table lists preview features as well as learning resources for each.  
-  
-|||  
-|-|-|  
-|**Preview feature**|**Learning resource**|  
-|Microsoft Cognitive Services integration|[Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)|
-  
-
-## What preview features are included in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)]?  
- The following table lists preview features  as well as learning resources for each.  
-  
-|||  
-|-|-|  
-|**Preview feature**|**Learning resource**|  
-|Document recommendations, product recommendations, knowledge article suggestions, case suggestions, and topic analysis|[Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)|  
+ 
   
 ## What preview features were included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)]?  
  The following table lists the features that are still in preview, as well as  learning resources for each.  

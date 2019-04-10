@@ -1,4 +1,5 @@
 ---
+redirect_url: admin-guide
 title: "Microsoft Cognitive Services integration with Dynamics 365 for Customer Engagement| MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
