@@ -97,15 +97,21 @@ As an example, a work order requirement that is manually scheduled to a resource
 Organizations that operate in small, contained geographic areas, can add a generic 30 minutes to the work order durations either manually or by inflating the incident durations to roughly estimate travel but still utilize manual scheduling.
 
 > [!Note]
-> As of Field Service v8.6 travel time and distance calculations can be added to manually scheduled requirements. 
+> As of Field Service v8.6 travel time and distance calculations can be added to booking that are **manually scheduled**. 
 
+In addition to completing the prerequisites above, you need to go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Auto Update Booking Travel** to **Enabled**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-manual-travel-update-enable.png)
 
+This will add a travel time to the booking visualization on the schedule board, displayed by a line before the booking, and populate the **Miles Traveled** booking field (though this is not visualized on the schedule board). 
+
+In the image below, an unscheduled work order requirement was dragged from the lower requirement pane to a resource at 10:00am. Similarly to before, this implies the field technician should arrive on site at 10:00am, the only difference is the travel time to get there from a home, office, or previous job location is displayed **before** that time.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-manual-travel-update.png)
+
+For more details see the **Additional notes** section of this article.
 
 
 ## Add travel time with schedule assistant
@@ -138,3 +144,5 @@ Organizations that operate in small, contained geographic areas, can add a gener
   - what if an onsite requirement is manually scheduled to a location agnostic resource? no travel time is calculated, however if an onsite requirement is scheudled after an onsite requirement travel tim will be added
   - org wide
   - threshold is next day
+  - hours view only
+  - does not respect Book Based On setting of schedule board
