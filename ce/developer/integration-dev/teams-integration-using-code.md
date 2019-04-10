@@ -67,7 +67,7 @@ The **msdyn_SetTeamsDocumentStatus** action returns the following value:
 <tr>
 <td><code>msdyn_SetTeamsDocumentStatusResponse</code></td>
 <td><a href="/dynamics365/customer-engagement/developer/webapi/web-api-types-operations#complex-types">ComplexType</a> </td>
-<td>Contains the response from **msdyn_SetTeamsDocumentStatus** action. It contains the following properties that contain the structured data of the type:
+<td>Contains the response from <strong>msdyn_SetTeamsDocumentStatus</strong> action. It contains the following properties that contain the structured data of the type:
 <table>
 <tr>
 <th>Name</th>
