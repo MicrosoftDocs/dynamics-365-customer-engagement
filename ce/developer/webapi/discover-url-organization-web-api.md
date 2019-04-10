@@ -2,7 +2,7 @@
 title: "Discover the URL for your organization using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how you can use the Web API to discover at runtime the organizations, or instances that the logged-on user belongs to"
 ms.custom: 
-ms.date: 09/30/2018
+ms.date: 04/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: 2db13b4e-0e7c-4f25-b7be-70a612fb96e2
 caps.latest.revision: 18
 author: JimDaly
 ms.author: jdaly
-manager: amyla
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -23,6 +23,9 @@ search.app:
 # Discover the URL for your organization using the Web API
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!NOTE]
+> Global discovery service is currently in L2 and is expected be moved to L4 in April 2019. The process to provide Global discovery service support to all regions in currently underway and is expected to be completed by October 2019.
 
 The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API enables your applications to determine at run-time the organizations, also known as *instances*, that the logged-on user belongs to.  You can retrieve detailed information about those instances like the instance service URL, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] release version, the instance ID and more. You can use standard `$filter` and `$select` parameters to a Web API service request to customize the  returned list of instance data. The Discovery service is supported by all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment types: Online, on-premises, and IFD.  
   
