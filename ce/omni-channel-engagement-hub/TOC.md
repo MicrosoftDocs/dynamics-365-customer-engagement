@@ -83,17 +83,26 @@
 #### [Link and unlink a record](agent/agent-csh/csh-link-unlink-record.md)
 
 ## [System customizer guide](customizer/omni-channel-engagement-hub-customizer.md)
+
 ### [Customize the Customer summary form](customizer/customize-customer-360-page.md)
 #### [Modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
 #### [Modify the section properties of a form](customizer/how-modify-section-properties-form-section.md)
 #### [Add or remove the fields in a form](customizer/add-remove-fields-form-section.md)
+
 ### [Customize the conversation forms](customizer/customize-conversation-form.md)
+
 ### [Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
+
 ### [Configure communication panel for agents](customizer/configure-communication-panel.md)
-#### [Step 1: Create hosted control](customizer/communication-panel-step1-create-hosted-control.md)
-#### [Step 2: Create action calls](customizer/communication-panel-step2-create-action-calls.md)
+#### [Step 1: Create communication panel hosted control](customizer/communication-panel-step1-create-hosted-control.md)
+#### [Step 2: Create communication related action calls](customizer/communication-panel-step2-create-action-calls.md)
 #### [Step 3: Attach the Action Calls to Events](customizer/communication-panel-step3-attach-action-calls-events.md)
 #### [Step 4: Add hosted control, action calls, and events to configurations](customizer/communication-panel-step4-attach-action-calls-events.md)
+
+### [Configure customer summary](customizer/configure-customer-summary.md)
+#### [Step 1: Create customer summary hosted control](customizer/customer-summary-step1-create-hosted-control.md)
+#### [Step 2: Create customer summary related action calls](customizer/customer-summary-step2-create-action-calls.md)
+
 ### [Configure notifications (screen pops) for agents](customizer/configure-notification-screen-pop-agents.md)
 #### [Configure alert notifications in Unified Service Desk](customizer/configure-alert-notification-unified-service-desk.md)
 ##### [Step 1: Create forms to define the layout and behavior of the notification](customizer/alertnotification-step1-create-forms-define-layout-behavior-notification.md)
