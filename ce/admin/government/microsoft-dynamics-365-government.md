@@ -101,8 +101,6 @@ Dynamics 365 US Government plans are available to qualified government and priva
   
  For more information on the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] protection of customer data, see the [Microsoft Online Services Trust Center](https://www.microsoft.com/trustcenter/cloudservices/dynamics365).  
   
- ![Customer data and customer content](../../admin/media/customer-data-content.png "Customer data and customer content")  
-  
 ## Data segregation for Government Community Cloud  
  When provisioned as part of [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)], the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] service is offered in accordance with the National Institute of Standards and Technology (NIST) Special Publication 800-145.  
   
