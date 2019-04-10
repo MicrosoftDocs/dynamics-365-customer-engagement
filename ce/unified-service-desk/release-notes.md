@@ -30,19 +30,19 @@ search.app:
 
 ## Unified Service Desk 4.1 known issues and limitations
 
-#### Support for inactivity timeout with Chrome Process and SSO
+### Support for inactivity timeout with Chrome Process and SSO
 
 If your organization has enforced the Inactivity session timeout for the agents, then with Chrome Process, the agent is not automatically singed out when the inactivity session timeout expires as SSO is enabled by default. If you want to enforce Inactivity session timeout for the agents, then disable the SSO feature for the Chrome Process. To learn more see, [Disable Single Sign On](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#enable-or-disable-single-sign-on).
 
-#### JavaScript Alert and Confirmation dialog
+### JavaScript Alert and Confirmation dialog
 
 While you use **Chrome Process** to host applications in Unified Service Desk, if you load applications hosted using **IE Process**, then web pages doesn't show the JavaScript alert, Confirmation, and prompt dialog on the application that uses **IE Process**. The web pages show the dialogs on the applications hosted using the Chrome Process. This issue occurs if you have at least one application hosted using Chrome Process and loaded in Unified Service Desk.
 
-#### Support for CloseAndPrompt action in Chrome Process
+### Support for CloseAndPrompt action in Chrome Process
 
 The Chrome Process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
-#### Support for Microphone and webcam with Channel Integration Framework
+### Support for Microphone and webcam with Channel Integration Framework
 
 When you integrate a channel with Unified Service Desk using the Channel Integration Framework and if that channel does not work on the Chromium browser (which is based on Chromium Embedded Framework), then you might not have access to Microphone and webcam.
 
