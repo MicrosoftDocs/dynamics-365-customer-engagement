@@ -68,7 +68,7 @@ For environments that require different session timeout values, administrators c
 > User session timeout is not enforced in the following:
 > 1. [!INCLUDE [pn-oc-online-short](../includes/pn-oc-online-short.md)]
 > 2. [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]
-> 3. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [WPF](https://docs.microsoft.com/dotnet/framework/wpf/) browser (Internet Explorer is supported)
+> 3. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [WPF](https://docs.microsoft.com/dotnet/framework/wpf/) browser
 > 4. Live Assist (Chat)
 
 ## Configure session timeout 
@@ -92,8 +92,9 @@ By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps does no
 > Inactivity session timeout is not enforced in the following:
 > 1. [!INCLUDE [pn-oc-online-short](../includes/pn-oc-online-short.md)]
 > 2. [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]
-> 3. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [WPF](https://docs.microsoft.com/dotnet/framework/wpf/) browser (Internet Explorer is supported)
-> 4. Live Assist (Chat)
+> 3. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [WPF](https://docs.microsoft.com/dotnet/framework/wpf/) browser
+> 4. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [Chrome Process](/dynamics365/customer-engagement/unified-service-desk/chrome-process) when [SSO](/dynamics365/customer-engagement/unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client#enable/disable-single-sign-on) is enabled
+> 5. Live Assist (Chat)
 
 To enforce the inactivity session timeout for Web Resources, Web Resources need to include the ClientGlobalContext.js.aspx file in their solution.
 
