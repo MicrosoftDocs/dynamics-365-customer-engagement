@@ -26,7 +26,7 @@ This document provides important, late-breaking information about known issues a
 ## Trials
 
 - Trials are subject to the [Dynamics 365 for Marketing trial limits and restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
-- You can't use the sign-up process to add more users to a Marketing trial that is running on a trial tenant without a mailbox set up for the organization admin. Instead, each new user must be added in a specific way. For more information, see [Add more users to a Marketing trial running on a trial Office 365 tenant](trial-signup.md#add-users).
+- You can't use the sign-up process to add more users to a Marketing trial that is running on a trial tenant without a mailbox set up for the organization admin. Instead, each new user must be added in a specific way. For more information, see [Add more users to a Marketing trial running on a trial tenant](trial-signup.md#add-users).
 - You can't sign up using an \@microsoft.com email address. If you are a Microsoft employee and would like to sign up for a trial, follow the instructions given in [Sign up for a managed Office 365 trial tenant and install the Marketing trial on it](trial-signup.md#get-managed-tenant).
 
 ## Configuration, installation, and first-run experience
@@ -35,7 +35,7 @@ This document provides important, late-breaking information about known issues a
 
 - Some types of system customizations can interfere with the Dynamics 365 for Marketing setup, resulting in no default contact being created or assigned for your instance. In this case, you must assign one manually. More information: [Default marketing settings](marketing-settings.md#default-marketing-settings) <!--1248465-->
 - The setup process can take up to two hours. The process might restart automatically during this time, which can result in multiple success (or failure) notifications being sent to you by email.
-- If you have a license for Dynamics 365 for Marketing, but don't have a license for Dynamics 365 for Customer Engagement, any attempt to install the Marketing application will fail. As a temporary workaround, you can install a trial Customer Engagement plan (which will work for 30 days) and then install Marketing. You'll still need to convert your trial into a production instance before the 30 days are up, but this way you can start working in Marketing right away. You can install the trial from your Office 365 admin center as described in [Purchase services](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-office-365-admin-center-manage-subscription#purchase-services). <!--- 1183223 -->
+- If you have a license for Dynamics 365 for Marketing, but don't have a license for Dynamics 365 for Customer Engagement, any attempt to install the Marketing application will fail. As a temporary workaround, you can install a trial Customer Engagement plan (which will work for 30 days) and then install Marketing. You'll still need to convert your trial into a production instance before the 30 days are up, but this way you can start working in Marketing right away. You can install the trial from your Microsoft 365 admin center as described in [Purchase services](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-office-365-admin-center-manage-subscription#purchase-services). <!--- 1183223 -->
 
 ### Fixed issues
 

@@ -127,7 +127,7 @@ If you don't have any unconfigured free or paid portals available, you have thre
 
 To get a new, unconfigured portal app and then use it with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]:
 
-1. Open your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] admin center and go to **Billing** > **Subscriptions**.
+1. Open your Microsoft 365 admin center and go to **Billing** > **Subscriptions**.
 
 2. Choose **Buy add-ons** in the tile for your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] subscription.
 
