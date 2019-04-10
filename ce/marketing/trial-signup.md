@@ -46,6 +46,7 @@ You can sing up for, install, and use a trial version of [!INCLUDE[pn-marketing-
 > You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
 > 
 > See also the  [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
+
 <a name="choose-tenant"></a>
 
 ## Step 1: Choose or prepare your Microsoft 365 tenant
@@ -74,7 +75,7 @@ Soon after you submit the form, you'll be contacted by a Microsoft representativ
 
 To install your trial:
 
-1. Make sure you have a [managed tenant](choose-tenant) available and have  [signed up for the Marketing trial](sign-up-marketing-trial).
+1. Make sure you have a [managed tenant](#choose-tenant) available and have  [signed up for the Marketing trial](#sign-up-marketing-trial).
 
 1. Soon after you signed up for the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial, you should have received a link for adding trial to your tenant. Open that link.
 
