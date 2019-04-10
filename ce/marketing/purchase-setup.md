@@ -30,7 +30,10 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Read this topic to learn how to set up a new [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance after you have purchased a license or finished signing up for a trial.
+Read this topic to learn how to set up a new [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance after you have purchased a license.
+
+> [!TIP]
+> A trial version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is also available. If you'd like to set up a trial, see [Sign up for a free trial of Dynamics 365 for Marketing](trial-signup.md) for instructions. This topic describes how to set up a production version.
 
 ## Prerequisites and requirements
 
@@ -64,17 +67,14 @@ Read this topic to learn how to set up a new [!INCLUDE[pn-marketing-business-app
 
 ## Step 1: Launch the setup wizard
 
-After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], or signing up for a trial, you'll have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app available on your tenant. To set up the app, you must run its setup wizard.
-
-- If you are setting up a [trial](trial-signup.md), then you will receive a link to the setup wizard in a welcome email. Click that link to launch the wizard.
-- If you setting up a production instance, then launch the setup wizard from the **Applications** tab in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described in [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md)
+After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app available on your tenant. To set up the app, you must run its setup from the **Applications** tab in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described in [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md)
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses several other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] components, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services, and apps; the setup wizard will help you review all the relevant privacy policies and set up and integrate these various elements. Proceed as described in the following subsections.
 
 > [!IMPORTANT]
 > Most of the settings you make while running the setup wizard will be *permanent* for your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installation, so take care while filling it out.
 
-## Step 2: Choose an organization and choose portal options
+## Step 2: Choose an organization and portal options
 
 The first page of the wizard lets you choose where you will install the app and to choose whether to set up a portal to run your marketing pages and event website.
 
