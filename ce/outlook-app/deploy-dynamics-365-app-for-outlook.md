@@ -87,7 +87,7 @@ Dynamics 365 App for Outlook is an App Module in version 9. The minimum set of p
 This will ensure that the users have the basic privileges needed to access App for Outlook.
 
 > [!NOTE]
->  The security role **Dynamics 365 App for Outlook User** is available from Build 9.1.0.3420. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: 
+>  The security role **Dynamics 365 App for Outlook User** is available from Build 9.1.0.4206. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: 
 > “You haven't been authorized to use this app. Check with your system administrator to update your settings.”
 
 ### Supported configurations with Microsoft Exchange  
@@ -117,7 +117,7 @@ This will ensure that the users have the basic privileges needed to access App f
 |             [!INCLUDE [pn-outlook-web-app](../includes/pn-outlook-web-app.md)] (OWA)<sup>4</sup>             |                     O and M                      |                                                       O and M<sup>1</sup>                                                        |                     O and M<sup>1</sup>                      |                                            |
 |                                  Mobile Outlook app<sup>5</sup>                                  |                        O                         |                                                                                                                                  |                                                              |                                            |
 
-(O)nline: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)] <br />
+(O)nline: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)]  with both in the **same** tenant (Multi-tenant configuration of [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)] and [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)] being in different tenants is not supported) <br />
 (M)ixed: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], Exchange Server 2013/2016
 
 
