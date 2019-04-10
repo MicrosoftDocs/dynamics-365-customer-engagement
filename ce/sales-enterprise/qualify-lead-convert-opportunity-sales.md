@@ -1,16 +1,16 @@
 ---
 title: "Qualify a lead and convert it to an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
-keywords: lead, budget, purchase process, decision maker, opportunity
+keywords: "lead, budget, purchase process, decision maker, opportunity"
 ms.date: 04/01/2018
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 476a1284-61e5-4eb2-9bd4-b95d111cf82e
 author: shubhadaj
 ms.author: shujoshi
@@ -61,6 +61,8 @@ To qualify multiple leads at once, go to the list of leads, select the leads tha
 
 To qualify multiple leads, go to the list of leads, select the leads you want to qualify, and on the command bar, select **Qualify**.
 
+For information on how to resolve the common errors that you may get while you qualify a lead, see the [troubleshooting guide](troubleshooting.md).
+
  
 <a name="bkmk3"></a>   
 ## Additional considerations  
@@ -80,5 +82,6 @@ To qualify multiple leads, go to the list of leads, select the leads you want to
   
 ### See also  
 [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)          
+[Dynamics 365 for Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  

@@ -10,7 +10,7 @@ ms.custom:
 ms.topic: article
 applies_to:
   - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.1"
+  - "Dynamics 365 for Customer Engagement apps version 9.1.x"
 ms.assetid: 3f06063b-900d-40dd-a20b-d48e216a9444
 author: shubhadaj
 ms.author: shujoshi
@@ -22,6 +22,8 @@ topic-status: Tech Reviewing
 ---
 
 # Project accurate revenue with sales forecasting
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
