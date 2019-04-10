@@ -160,7 +160,10 @@ Because this is a preview feature, you can control whether to display Teams inte
 
 When Microsoft Teams Integration Preview is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.   
 
-If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the related Microsoft Teams channel and document do not appear in Dynamics 365 for Customer Engagement apps.  
+If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the related Microsoft Teams channel and document do not appear in Dynamics 365 for Customer Engagement apps. 
+
+> [!IMPORTANT]
+> When the Microsoft Teams integration Preview is enabled in system settings, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code][Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md). 
 
 ### See also  
  [Troubleshoot Teams integration](teams-troubleshoot.md)
