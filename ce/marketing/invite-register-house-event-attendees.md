@@ -47,13 +47,14 @@ The [event website](set-up-event-portal.md) enables contacts to register themsel
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] users can also register attendees manually by creating event registrations, session registrations, and pass assignments directly in the app. This lets you provide phone-based registration, for example. Manual registrations also enables users to bypass the [Waitlists](event-waitlist.md) if needed.
 
-Each registration results in an event-registration record, which pulls together a registrant's profile, their passes, the sessions they'll attend, and, eventually, the sessions they did attend. Each registration record has a unique ID, which the system encodes into a QR code that you can embed in a registration-confirmation email sent to each registrant (see also [Event registration QR code elements](content-blocks-reference.md#qr-code)). You'll also find the QR code embedded in each registration record so you can use it in other contexts, such as to print badges to be handed out at the event.
+Each registration results in an event-registration record, which pulls together a registrant's profile, their passes, the sessions they'll attend, and, eventually, the sessions they did attend. Each registration record has a unique ID, which the system encodes into a QR code that you can embed in a registration-confirmation email sent to each registrant (see also [Event registration QR code elements](content-blocks-reference.md#qr-code)). You'll also find the QR code embedded in each registration record so you can use it in other contexts, such as to print badges to be handed out at the event. 
+
+At the event, event organizers can scan the QR code presented by each attendee to capture the registration ID, which can then be used to verify the registration and/or register attendance at each event or session. The QR code provides only a registration ID, so event organizers must do some custom development to implement the verification, check-in, and registration features they need. One way to do this could be by creating a custom smartphone app.
 
 To view all current registrations and pass assignments, and to create them manually in the system, work in either of the following entities of the [Events work area](open-events.md):
 
 - **Events** > **Event** > **Event Registrations**: You can view and create registrations for all events here. 
 - **Events** > **Event** > **Events**: Open an event record here and go to the **Registration & Attendance** tab to view and create registrations for the selected event. To view or create individual session registrations, go to the **Agenda** tab of the event record and open a session listed there.
-
 
 ## Set up segments for communicating with event attendees
 
