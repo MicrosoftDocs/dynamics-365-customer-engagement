@@ -85,26 +85,23 @@ You can publish subscription centers as a native marketing page running on a [!I
 
 Subscription lists are based on the standard (static) marketing lists feature of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. To create one:
 
-1. In [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], open the app selector, and then select the **Surveys** app module. (Marketing lists aren't included in the current version of the Marketing work area, so one place you can find them is in the Surveys app, which is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You could also use the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.)  
-    ![How to open the surveys app](media/app-selector-surveys.png "How to open the surveys app")
+1. Go to **Marketing** > **Customers** > **Marketing lists**.
 
-2. The navigator for the Surveys app is a bit different from the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app: it's horizontal and displayed at the top of the screen. Use it to navigate to **Marketing** &gt; **Customers** &gt; **Marketing Lists**.  
-    ![How to open marketing lists in the surveys app](media/surveys-app-lists.png "How to open marketing lists in the surveys app")
+1. You now see a list of existing marketing lists, if any. On the toolbar, select **New** to create a new list.
 
-3. You now see a list of existing marketing lists, if any. On the toolbar, select **New** to create a new list.
+1. The **New Marketing List** page opens. Make the following settings (at minimum):
+   - **Name**: Enter a descriptive name
+   - **List type**: Set to **Static**.
+   - **Targeted at**: Set to **Contact**.
+   - **Locked**: Leave set to **No**.
 
-4. The **New Marketing List** page opens.  
     ![How to configure a list as a subscription list](media/subscription-list-example.png "How to configure a list as a subscription list")
 
-    Make the following settings (at minimum):
-   - **Name**: Enter a descriptive name
-   - **Subscription**: Set to **True**.
-   - **Locked**: Set to **No**.
+1. On the command bar, select **Save** to save your new list.
 
-     > [!TIP]
-     > When you set **Subscription** to **True**, the **List Type** is automatically set to **Static** and **Targeted At** is automatically set to **Contact**. Both of these settings are consistent with the requirements of a subscription list, and they remain locked unless you change the **Subscription** setting.
+1. After saving, the **Subscription** field becomes unlocked (provided you've set the **List type** to **Static** and **Targeted at** to **Contact**). Set **Subscription** to **Yes**.
 
-5. On the command bar, select **Save** to save your new subscription list.
+1. Select **Save** on the command bar to save your new list as a subscription list.
 
 ## Add a subscription list to a subscription form
 
