@@ -94,7 +94,10 @@ As an example, a work order requirement that is manually scheduled to a resource
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-board-manual.png)
 
-For organizations that operate in a small, contained geographic area and who are not very concerned with managing travel time but recognize their field technicians will travel, these organization can add a generic 30 minutes to the work order durations either manually or by inflating the incident durations.
+Organizations that operate in small, contained geographic areas, can add a generic 30 minutes to the work order durations either manually or by inflating the incident durations to roughly estimate travel but still utilize manual scheduling.
+
+> [!Note]
+> As of Field Service v8.7 travel time and distance calculations can be added to manually scheduled requirements. 
 
 
 
@@ -125,3 +128,4 @@ For organizations that operate in a small, contained geographic area and who are
 - travel time is only driving time, not walking or flying
 - historical travel time is currently not included
 - consider processes to support what happens if travel time is long and technician is running late
+- what if an onsite requirement is manually scheduled to a location agnostic resource? no travel time is calculated, however if an onsite requirement is scheudled after an onsite requirement travel tim will be added
