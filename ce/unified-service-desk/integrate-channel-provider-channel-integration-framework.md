@@ -1,7 +1,7 @@
 ---
 title: "Integrate channel using Channel Integration Framework (CIF) | MicrosoftDocs"
 description: "Learn how to integrate channel provider like softphone, message, bots, and so on with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework."
-ms.date: 04/08/2019
+ms.date: 04/10/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 

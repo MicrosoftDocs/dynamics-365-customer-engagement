@@ -3,7 +3,7 @@ title: "Connect to a Dynamics 365 for Customer Engagement apps instance using th
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
 ms.custom: 
   - dyn365-USD, dyn365-admin
-ms.date: 04/08/2019
+ms.date: 04/10/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 

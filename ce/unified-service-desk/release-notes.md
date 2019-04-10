@@ -2,7 +2,7 @@
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
 keywords: ""
-ms.date: 12/17/2018
+ms.date: 05/10/2018
 ms.service: 
   - usd
 ms.topic: article
