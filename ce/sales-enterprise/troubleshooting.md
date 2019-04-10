@@ -1,16 +1,16 @@
 ---
 title: "Dynamics 365 for Sales troubleshooting guide for sales people | MicrosoftDocs"
 description: "Follow the instructions in this topic to troubleshoot the issues you may face while working on Dynamics 365 for Sales."
-keywords: Dynamics 365 for Sales, troubleshoot, FAQ, issue, resolution
-ms.date: 07/20/2018
+keywords: "Dynamics 365 for Sales, troubleshoot, FAQ, issue, resolution"
+ms.date: 04/10/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 6a381b64-497c-476a-8d4c-98bf5da742b5
 author: shubhadaj
 ms.author: shujoshi
@@ -43,7 +43,7 @@ There could be multiple errors you may get while you qualify a lead.
 3.  [Active stage is not on 'lead' entity](troubleshooting.md#NoActiveStage)
 4.  [Access denied or Insufficient permissions](troubleshooting.md#AccessDenied)
 
-The following sections talk about each of these errors and how you can resolve them.
+The following sections describe each of these errors and how you can resolve them.
 
 <a name="duplicate"> </a>
 #### 1. Duplicate warning - There might already be a match for this account or contact. If so, please select it.
@@ -112,14 +112,14 @@ To close an opportunity, open the opportunity record, and on the command bar, se
 
 ![Close opportunity as Won or Lost](media/close-opportunity.png "Close opportunity as Won or Lost")
 
-### Why am I not able to closing an opportunity?
+### Why am I not able to close an opportunity?
 
-Here are some errors that you may see while you close an opportunity. 
+Here are some errors that you may see when you close an opportunity. 
 1.  [The opportunity cannot be closed](troubleshooting.md#CannotBeClosed)
 2.  [Access denied or Insufficient permissions](troubleshooting.md#AccessDeniedOpportunity)
 3.  [The opportunity has already been closed](troubleshooting.md#AlreadyClosed)
 
-The following sections talk about each of these errors and how you can resolve them.
+The following sections describe each of these errors and how you can resolve them.
 
 <a name="CannotBeClosed"> </a> 
 #### 1. The opportunity cannot be closed
@@ -130,7 +130,7 @@ There may be active or draft quotes associated with the opportunity.
 
 **Resolution:**
 
-1.	In the Opportunity record, go to the Quotes tab (or Quotes line item tab).
+1.	In the Opportunity record, go to the **Quotes** tab (or **Quotes line item** tab).
 2.	Make sure none of the quotes are in the Draft or Active status.
 
     ![Quotes in the Draft status](media/quotes-in-draft-state.png "Quotes in the Draft status")
@@ -158,7 +158,7 @@ The opportunity that you are trying to close is already marked as Won or Lost.
 
 If you want to make changes to the already-closed opportunity, reopen the opportunity, make changes, and close it again.
 
-### I am unable to edit an opportunity?
+### Why am I not able to edit an opportunity?
 
 If you have already closed an opportunity as Won or Lost, it becomes read-only and you can no more change it. If you want to make any changes to the opportunity, reopen the opportunity. 
 
@@ -166,7 +166,7 @@ To reopen, open the opportunity, and on the command bar, select **Reopen Opportu
  
 ![Reopen opportunity](media/reopen-opportunity.png "Reopen opportunity")
 
-### I am unable to add products to opportunity? 
+### Why am I not able to add products to opportunity? 
 
 Here are some errors that you may see while you add products to an opportunity. 
 1.  [You must select a price list before attempting to add a product](troubleshooting.md#SelectPriceList)
@@ -183,7 +183,7 @@ You've not selected a price list for the opportunity. Selecting a price list is 
 **Resolution:**
 
 1.  In the Opportunity record, go to the **Product Line Item** tab.
-2.  In the Price List field, select a price list for the opportunity.  
+2.  In the **Price List** field, select a price list for the opportunity.  
 
 <a name="ProductName"></a>
 #### 2. You must provide a value for product description.

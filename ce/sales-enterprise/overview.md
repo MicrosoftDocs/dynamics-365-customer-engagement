@@ -1,16 +1,16 @@
 ---
 title: "Sales Overview (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365 for Customer Engagement."
-keywords: Sales Hub, Sales, overview, lead, opportunity, mobile, mobile-optimized, desktop, deal, device, Dynamics 365 for Customer Engagement, sales person, sales manager
-ms.date: 10/29/2018
+keywords: "Sales Hub, Sales, overview, lead, opportunity, mobile, mobile-optimized, desktop, deal, device, Dynamics 365 for Customer Engagement, sales person, sales manager"
+ms.date: 04/10/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 0abe6dc4-c8bc-4d09-a29f-e41218e08927
 author: shubhadaj
 ms.author: shujoshi
@@ -28,7 +28,14 @@ topic-status: Drafting
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
 
-[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, create sales collateral, create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities. The following image shows the menu for the Sales module in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral.
+
+The following image shows the menu of the Sales Hub app, which is the Unified Interface app for Dynamics 365 for Sales.
+
+![Menu of the Sales Hub app](../sales-enterprise/media/menu-sales-hub-app.png "Menu of the Sales Hub app")
+
+
+The Sales module in Dynamics 365 - custom app lets you create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities in addition to the core sales activities. The following image shows the menu for the Sales module in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 ![Menu of the Sales app](../sales-enterprise/media/sales_overview_intro.png "Menu of the Sales app")
 
@@ -38,9 +45,9 @@ Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
 
 - The Sales module in Dynamics 365 for Customer Engagement is the full-featured, desktop-optimized module for sales scenarios. 
 
-- The Sales Pro app is similar to the Sales module, but the entities included in the Sales Pro app are a subset of the entities included in the Sales module in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. 
-
 - The Sales Hub app is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. With [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)], the Sales Hub app is optimized to work on mobile devices as well as desktops.
+
+- The Sales Pro app is similar to the Sales module, but the entities included in the Sales Pro app are a subset of the entities included in the Sales module in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. 
 
   > [!NOTE]
   > 
