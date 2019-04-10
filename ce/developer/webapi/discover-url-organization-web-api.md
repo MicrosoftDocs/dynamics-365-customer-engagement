@@ -25,7 +25,7 @@ search.app:
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!NOTE]
-> Global discovery service is currently in L2 and is expected be moved to L4 in April 2019. The process to provide Global discovery service support to all regions in currently underway and is expected to be completed by October 2019.
+> Global Discovery Service is currently in L2 and is expected to be moved to L4 in April 2019. The process to provide Global Discovery Service support to all regions in currently underway and is expected to be completed by October 2019.
 
 The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API enables your applications to determine at run-time the organizations, also known as *instances*, that the logged-on user belongs to.  You can retrieve detailed information about those instances like the instance service URL, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] release version, the instance ID and more. You can use standard `$filter` and `$select` parameters to a Web API service request to customize the  returned list of instance data. The Discovery service is supported by all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment types: Online, on-premises, and IFD.  
   
