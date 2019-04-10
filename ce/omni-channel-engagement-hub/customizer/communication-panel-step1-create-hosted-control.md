@@ -1,7 +1,6 @@
 ---
-title: "Configure communication panel for agents | MicrosoftDocs"
-description: "Learn how to configure communication panel for agents using Omni-channel Engagement Hub."
-keywords: ""
+title: "Steps or procedure to configure communication panel for agents | MicrosoftDocs"
+description: "Learn how to set up the communication panel hosted control for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -9,17 +8,17 @@ applies_to:
 ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 68C78C8A-A4A3-4213-A0A4-F641B11A8541
+ms.assetid: 4396B2D0-20DE-4B88-A87C-DC197F14F6CF
 ms.custom: 
 ---
 
-# Configure communication panel for agents
+# Step 1: Create communication panel hosted control
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic demonstrates how to set up communication panel for agents to converse with the customers. When agents get an incoming conversation notification request and accept, then agents use the communication panel to engage with the customers.
+This topic demonstrates how to create communication panel hosted control in Unified Service Desk for Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites 
 
@@ -33,21 +32,35 @@ This topic demonstrates how to set up communication panel for agents to converse
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-The steps for configuring Communication panel in Unified Service Desk involves multiple steps:
+## Step 1.  Create hosted control
 
-1.  Create hosted control.
+1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
 
-2.  Create action Calls.
+2. Select down arrow next Dynamics 365.
 
-3.  Attach the action Calls to events
+3. Select **Unified Service Desk Administrator**.
 
-4.  Add the Hosted Controls, Actions, and Events to the Agent and Supervisor Configurations.
+4. Select **Hosted Controls** and select **+ New**.
+
+5. On the page for new hosted control, specify the following.
+
+    | Tab     | Field                           | Value                       |
+    |------------------|-------------------------------------|---------------------------------|
+    | General | Name                                | Communication Panel |
+    | General | Unified Service Desk Component Type | USD Hosted Control |
+    | General | Application is Global               | Select the checkbox  |
+    | General | Display Group              | LeftPanelFill |
+    | General | Application is Dynamics               | yes |
+    | Hosting | Assembly URI               | `USDConfiguration.ChatControl` |
+    | Hosting | Assembly Type             | `USDConfiguration.ChatControl.OmniChannelHost` |
+
+6.  Save the hosted control.
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md)
+> [Next topic: Step 2:  Create action calls related to communication panel](communication-panel-step2-create-action-calls.md)
 
 ## See also
 
-- [Step 2: Create action calls related to communication panel](communication-panel-step2-create-action-calls.md)
+- [Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md)
 - [Step 3: Attach communication panel related action calls to events](communication-panel-step3-attach-action-calls-events.md)
 - [Step 4: Attach communication panel related action calls to events](communication-panel-step4-attach-action-calls-events.md)
