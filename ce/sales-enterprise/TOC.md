@@ -5,7 +5,7 @@
 ### Sales management
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
-#### [Create a forecast definition](create-forecast-definition.md)
+
 ### Product management
 #### [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
 #### [Create a product](../sales-enterprise/create-product-sales.md)
@@ -29,6 +29,7 @@
 #### [Create a goal](../sales-enterprise/create-edit-goal-sales.md)
 #### [Create a goal metric](../sales-enterprise/create-edit-goal-metric.md)
 #### [Create a rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
+#### [Create a forecast definition](create-forecast-definition.md)
 ### Playbook management
 #### [Define playbook categories](define-playbook-categories.md)  
 #### [Manage playbook templates](manage-playbook-templates.md) 
@@ -45,6 +46,8 @@
 #### [Qualify and convert leads](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
 #### [Manage your opportunities](../sales-enterprise/create-edit-opportunity-sales.md)  
 #### [Reopen a lead](../sales-enterprise/re-open-lead-sales.md)
+#### [Add products to an opportunity](add-products-opportunity.md)  
+#### [Recalculate an opportunity](recalculate-opportunity.md)
 #### [Close an opportunity](../sales-enterprise/close-opportunity-won-lost-sales.md)
 #### [Track competitors](../sales-enterprise/create-edit-competitor-record-sales.md)
 #### [Manage sales literature](../sales-enterprise/create-sales-literature.md)

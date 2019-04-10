@@ -18,7 +18,7 @@ manager: annbe
 ---
 
 
-# Assign a record to a user or team
+# Assign a record to a user or team (Sales Professional)
 
 If you would like another person in your organization to handle an account or contact for you, you can assign the record to that person.
 
