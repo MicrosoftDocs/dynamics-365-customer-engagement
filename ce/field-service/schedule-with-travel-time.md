@@ -67,14 +67,19 @@ In the image below, the travel time to the customer's location is 23 minutes and
 > ![Screenshot of ](./media/scheduling-booking-travel-time.png)
 
 
-If you do not want travel time displayed differently than working duration, then you can deselect **Show Travel Duration** in the schedule board configuration and  which will display the travel time and duration as one 
+If you do not want travel time displayed differently than the working duration, then you can deselect **Show Travel Duration** in the schedule board configuration and the travel time and working duration will appear as one solid block with the same total time (in this case 2 hours and 23 minutes). 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-board-show-travel-duration.png)
 
+As a field technician completes work, he or she may update the booking status as traveling in which case the system will track the time the booking status = traveling and update the **Actual Travel Duration** accordingly, though this will not be displayed on the schedule board.
 
-  - show travel time on schedule board
-  - actual travel duration
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-board-travel-status.png)
+
+However when the booking is completed the working duration is updated.
+
 
 
 ## Add travel time with manual scheduling
