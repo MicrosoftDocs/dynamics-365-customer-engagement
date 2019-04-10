@@ -116,6 +116,32 @@ For more details see the **Additional notes** section of this article.
 
 ## Add travel time with schedule assistant
 
+The schedule assistant is designed to help dispatchers make better scheduling decisions especially based on travel times and distances.
+
+Consider a scenario where a dispatcher wants to schedule a work order requirement to the field technician who is closest to the work order location based on travel time.
+
+By triggering the scheduling assistant from the schedule board, the schedule assistant will display resources within the distance radius filter along with the travel time estimates from their location (home, office, previous job, real time location) to the work order.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant-schedule-board.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant-schedule-board-booked.png)
+
+This is predicated on **1)** the work order requirement has a work location = on site **2)** the work order requirement has a location (latitude and longitude) **3)** the resources displayed have defined locations.
+
+This is true when the schedule assistant is not triggered from the schedule board, but via the book button from a requirement as well.
+
+In the image below travel time and distance calculations appear in the columns.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant-travel-times.png)
+
+**Pro Tip:** if the work order requirement has a work location = Location Agnostic or if the schedule assistant work location filter is changed to Location Agnostic, then resources without locations will also be displayed along with resources that do have locations, except the booking will not calculate travel time.
+
+In the image below the work location is location agnostic and no travel times are displayed in results
+scheduling-schedule-assistant-schedule-board-location-agnostic
 
 ## Add travel time with resource scheduling optimization (RSO)
 
