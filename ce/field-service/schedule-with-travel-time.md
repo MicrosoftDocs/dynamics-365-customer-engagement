@@ -148,22 +148,40 @@ In the image below the work location is location agnostic and no travel times ar
 
 ## Add travel time with resource scheduling optimization (RSO)
 
-While using the schedule assistant can help dispatchers make smarter scheduling decisions for individual requirements, resource scheduling optimization (RSO) helps dispatchers make smarter scheduling decisions across many or all requirements at once. In regards to travel, this is the difference between reducing travel times and distances and minimizing them. 
+While using the schedule assistant can help dispatchers make smarter scheduling decisions for individual requirements, resource scheduling optimization (RSO) helps dispatchers make smarter scheduling decisions across many or all requirements at once. In regards to travel, this is the difference between reducing travel times and distances and **minimizing** them. 
 
-
+When the RSO runs and automatically schedules work orders or other requirements, the travel times are displayed on the schedule board the same as with other booking methods.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-optimized-schedule-board.png)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/rso-optimized-schedule-board-time-at-end-of-day.png)
-
+However, to better understand how RSO minimizes overall travel time, each RSO run (called a "request") displays a graph comparing total working minutes scheduled to total travel minutes for those optimized bookings. This can be compared to the same graph for requirements manually scheduled or with the schedule assistant.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-travel-time-graph.png)
 
+> [!Note]
+> If the RSO is set to schedule within working hours, it will calculate time to leave at the end of the day for resources to travel to their ending location, generally a home or office.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-optimized-schedule-board-time-at-end-of-day.png)
+
 ## Consider traffic when scheduling
+
+To help dispatchers make smarter scheduling decisions, current traffic patterns and accidents can be displayed on the schedule board map alongside technician routes by selecting the show traffic icon at the top of the schedule board map.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-board-traffic.png)
+
+> [!Note]
+> Travel time calculations do not reflect traffic patterns or historical travel times based on time of day or year.
+
+Scheduling based on real time traffic is generally not applicable since most organizations schedule days or weeks in advance and you cannot predict real time traffic ahead of time. In instances of emergencies are you want to use real time location with real time
+  
+to use real time traffic and real time location...
+
+to use historical travel times...
 
   - display traffic on the schedule board
   - real time traffic is not supported
