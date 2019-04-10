@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
 ms.custom: 
 description: "Install and set up the Dynamics 365 app for Teams."
-ms.date: 12/04/2018
+ms.date: 04/09/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -163,7 +163,7 @@ When Microsoft Teams Integration Preview is enabled, the **Collaborate** button 
 If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the related Microsoft Teams channel and document do not appear in Dynamics 365 for Customer Engagement apps. 
 
 > [!IMPORTANT]
-> When the Microsoft Teams integration Preview is enabled in system settings, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code][Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md). 
+> When the Microsoft Teams integration Preview is enabled in system settings, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md). 
 
 ### See also  
  [Troubleshoot Teams integration](teams-troubleshoot.md)
