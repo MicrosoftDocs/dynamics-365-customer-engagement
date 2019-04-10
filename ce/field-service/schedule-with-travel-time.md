@@ -129,7 +129,7 @@ By triggering the scheduling assistant from the schedule board, the schedule ass
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-schedule-assistant-schedule-board-booked.png)
 
-This is predicated on **1)** the work order requirement has a work location = on site **2)** the work order requirement has a location (latitude and longitude) **3)** the resources displayed have defined locations.
+This is predicated on **1)** the work order requirement has a work location of on site **2)** the work order requirement has a location (latitude and longitude) **3)** the resources displayed have defined locations.
 
 This is true when the schedule assistant is not triggered from the schedule board, but via the book button from a requirement as well.
 
@@ -141,13 +141,27 @@ In the image below travel time and distance calculations appear in the columns.
 **Pro Tip:** if the work order requirement has a work location = Location Agnostic or if the schedule assistant work location filter is changed to Location Agnostic, then resources without locations will also be displayed along with resources that do have locations, except the booking will not calculate travel time.
 
 In the image below the work location is location agnostic and no travel times are displayed in results
-scheduling-schedule-assistant-schedule-board-location-agnostic
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant-schedule-board-location-agnostic.png)
 
 ## Add travel time with resource scheduling optimization (RSO)
 
-  - leave time to travel home
-  - graph showing travel to work chart
-  - 
+While using the schedule assistant can help dispatchers make smarter scheduling decisions for individual requirements, resource scheduling optimization (RSO) helps dispatchers make smarter scheduling decisions across many or all requirements at once. In regards to travel, this is the difference between reducing travel times and distances and minimizing them. 
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-optimized-schedule-board.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-optimized-schedule-board-time-at-end-of-day.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-travel-time-graph.png)
 
 ## Consider traffic when scheduling
 
