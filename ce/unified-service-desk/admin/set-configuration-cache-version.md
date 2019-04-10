@@ -25,9 +25,7 @@ search.app:
 monikerRange : '>= dynamics-usd-4.1'
 ---
 
-# Preview: Cache specific configuration for agents
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+# Cache specific configuration for agents
 
 The Configuration Cache Version option causes the client caching feature to retrieve the configuration that has undergone change from the Customer Engagement server to the agent’s desktop and avoid retrieving all configurations.
 
