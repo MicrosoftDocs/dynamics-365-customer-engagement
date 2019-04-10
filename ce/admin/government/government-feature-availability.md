@@ -23,7 +23,7 @@ search.app:
 ---
 # Dynamics 365 US Government - Feature availability 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)](through May, 2019)
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)] (through May, 2019)
 
 Microsoft strives to maintain functional parity between our commercially available service and that which is servicing the Dynamics 365 for Customer Engagement for U.S. Government - referred to as Dynamics 365 GCC and GCC High. However, there are notable exceptions to this affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
 
@@ -57,7 +57,7 @@ There are certain experiences that are currently not available with Dynamics 365
 - [Resource Scheduling Optimization](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/resource-scheduling-optimization)
 - [Versium Predict](https://docs.microsoft.com/dynamics365/customer-engagement/versium-predict/versium-predict)
 - [Forms Professional (Preview)](https://docs.microsoft.com/business-applications-release-notes/April19/forms-pro/)
-- [Microsoft Dynamics Portals](../../portals/administer-manage-portal-dynamics-365.md) (GCC High limitation until May, 2019)
+- [Microsoft Dynamics Portals](https://docs.microsoft.com/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365) (Currently available in GCC; GCC High availability in May, 2019)
 - [Power Platform Admin center](https://docs.microsoft.com/power-platform/admin/admin-guide): The admin center can be used to open support tickets, but other functionality is currently not available in US Government tenants.
 
 There are a number of other business application apps and services that are not currently available as a service operating within the GCC or GCC High at this time. They include:

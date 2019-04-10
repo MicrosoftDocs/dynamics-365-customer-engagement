@@ -24,7 +24,7 @@ search.app:
 ---
 # Dynamics 365 US Government 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)](through May, 2019)
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)] (through May, 2019)
 
 In response to the unique and evolving requirements of the United States public sector, Microsoft has created Microsoft Dynamics 365 US Government that is available to qualified government entities in the United States. On October 11, 2016, Microsoft announced the next generation of intelligent business applications in the cloud under the brand Microsoft Dynamics 365. To this end, Microsoft Dynamics 365 US Government entails a continuity of the protected environment that was originally branded Microsoft CRM Online Government where the protections afforded to the government community cloud under the new brand are now represented by four discrete functions: Sales, Customer Service, Field Service, and Project Service Automation. This section provides an overview of features that are specific to Microsoft Dynamics 365 US Government.  It is important to note that the following Microsoft Dynamics Apps do not provide the compliance commitments or acquisition regulations documented in this Service Description:
 
@@ -38,17 +38,12 @@ In response to the unique and evolving requirements of the United States public 
 - Microsoft Dynamics 365 AI for Market Insights
 - Microsoft Dynamics 365 AI for Sales
 
-## Deployment environment options
-
-Dynamics 365 US Government has been Generally Available to customers through deployment into the Government Community Cloud (GCC) since January, 2017.  The service has received several agency Authority to Operate (ATOs) since that time, and was the first Cloud Solution Provider (CSP) to achieve a FedRAMP Joint Application Board (JAB) Provisional Authority to Operate (JAB P-ATO) through the JAB Accelerated Process.  In March, 2018, the service impact level was granted a JAB High P-ATO. 
- 
-Beginning April, 2019, eligible customers may now choose to deploy Dynamics 365 US Government to the “GCC High” environment, which enables single sign-on and seamless integration with Office 365 GCC High deployments.  Microsoft has designed the platform and our operational procedures to meet the requirements aligning with the DISA SRG IL4 compliance framework.  We expect our US Department of Defense contractor customer base to use the GCC High deployment option, which enables and requires the customer to leverage Azure AD Government for customer identities, in contrast to GCC which leverages Public Azure AD.  For our US Department of Defense contractor customer base, Microsoft operates the service in a manner that enables these customers to meet ITAR and DFARS commitments.
-
 ## About Dynamics 365 US Government environments and plans
 
 Dynamics 365 US Government has been Generally Available to customers through deployment into the Government Community Cloud (GCC) since January, 2017.  Among other compliance commitments and reviews as documented in the Microsoft Trust Center, the service has received several agency Authority to Operate (ATOs) since that time.  It was the first Cloud Solution Provider (CSP) to achieve a FedRAMP Joint Application Board Provisional Authority to Operate (JAB P-ATO) through the JAB Accelerated Process.  In March, 2018, the service impact level was granted a FedRAMP JAB High P-ATO.  
 
-Beginning April, 2019, eligible customers may now choose to deploy Dynamics 365 US Government to the “GCC High” environment, which enables single sign-on and seamless integration with Office 365 GCC High deployments.  Microsoft has designed the platform and our operational procedures to meet the requirements aligning with the DISA SRG IL4 compliance framework.  We anticipate our US Department of Defense contractor customer base and other Federal agencies currently leveraging Office 365 GC High to use the Dynamics 365 US Government GCC High deployment option, which enables and requires the customer to leverage Azure AD Government for customer identities, in contrast to GCC which leverages Public Azure AD.  For our US Department of Defense contractor customer base, Microsoft operates the service in a manner that enables these customers to meet ITAR commitment and DFARS acquisition regulations, as documented and required by their contracts with the US Department of Defense.
+Beginning April, 2019, eligible customers may now choose to deploy Dynamics 365 US Government to the “GCC High” environment, which enables single sign-on and seamless integration with Office 365 GCC High deployments.  Microsoft has designed the platform and our operational procedures to meet the requirements aligning with the DISA SRG IL4 compliance framework.  We anticipate our US Department of Defense contractor customer base and other Federal agencies currently leveraging Office 365 GCC High to use the Dynamics 365 US Government GCC High deployment option, which enables and requires the customer to leverage Azure AD Government for customer identities, in contrast to GCC which leverages Public Azure AD.  For our US Department of Defense contractor customer base, Microsoft operates the service in a manner that enables these customers to meet ITAR commitment and DFARS acquisition regulations, as documented and required by their contracts with the US Department of Defense.
+
 Dynamics 365 US Government plans are available to qualified government and private entities, limited to (i) United States (US) federal, state, local, tribal, and territorial government entities; (ii) private entities using Dynamics 365 US Government to provide solutions to a government entity or a qualified member of the cloud community; and (iii) private entities with customer data subject to government regulations for which the use of Dynamics 365 US Government is the appropriate service to meet the regulatory requirements. Access to Dynamics 365 US Government plans is restricted to the offerings described below, each plan is offered as a monthly subscription and can be licensed to an unlimited number of users:
 
 ### Dynamics 365 US Government – GCC User Subscription Licenses
@@ -94,6 +89,17 @@ Dynamics 365 US Government plans are available to qualified government and priva
 - Additional Production Instance for Government – GCC High
 - Additional Non-Production Instance for Government – GCC High
   
+### Subscription Availability
+
+Eligible customers can purchase the above SKUs through the following purchasing channels:
+
+- GCC:  Volume Licensing (VL) and Cloud Solution Provider (CSP)
+- GCC High:  Volume Licensing (VL)
+
+GCC SKUs currently included in an Enterprise Agreement (EA) can also be obtained through Reservation either through a qualified reseller or through the Volume Licensing Service Center (VLSC). When a reservation is placed, the requested subscription is added to the established customer Tenant that same day, and the customer is billed a prorated amount based on the currently established Enterprise Agreement from the first of the month following activation of the reservation as part of the next anniversary or renewal payment cycle. Reservations are currently not available for GCC High subscriptions. For GCC High, please follow the standard addon ordering process with your reseller.
+
+Orders placed for GCC High must be followed-up with a request to the Microsoft GCC High order processing team using the following online form: https://aka.ms/m365usgovtenantrequest. Please work with your reseller or Microsoft account manager for more information and guidance.   
+
 ## What is “customer data” and “customer content?”  
  This section describes [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] commitments that apply to customer content and to customer data.  
   
@@ -133,15 +139,13 @@ Dynamics 365 support and service engineering staff do not have standing access t
 <sup>1</sup>Applies only to personnel with temporary or standing access to customer content hosted in Dynamics 365 US Government (GCC & GCC High).
 
 <sup>2</sup> Applies only to personnel with temporary or standing access to customer content hosted in Dynamics 365 US Government (GCC).
-
-
   
 ## Certifications and accreditations  
 Dynamics 365 US Government is designed to support the Federal Risk and Authorization Management Program (FedRAMP) accreditation at a High Impact level. FedRAMP artifacts are available for review by federal customers who are required to comply with FedRAMP. Federal agencies can review these artifacts in support of their review to grant an Authority to Operate (ATO).  
   
 Dynamics 365 US Government has features designed to support customer’s CJIS Policy requirements for law enforcement agencies. Please visit the Dynamics 365 for Customer Engagement apps Trust Center for more detailed information related to certifications and accreditations.
 
-Microsoft has designed the platform and our operational procedures to meet the requirements aligning with the DISA SRG IL4 compliance framework.  We anticipate our US Department of Defense contractor customer base and other Federal agencies currently leveraging Office 365 GC High to use the Dynamics 365 US Government GCC High deployment option, which enables and requires the customer to leverage Azure AD Government for customer identities, in contrast to GCC which leverages Public Azure AD.  For our US Department of Defense contractor customer base, Microsoft operates the service in a manner that enables these customers to meet ITAR commitment and DFARS acquisition regulations
+Microsoft has designed the platform and our operational procedures to meet the requirements aligning with the DISA SRG IL4 compliance framework.  We anticipate our US Department of Defense contractor customer base and other Federal agencies currently leveraging Office 365 GCC High to use the Dynamics 365 US Government GCC High deployment option, which enables and requires the customer to leverage Azure AD Government for customer identities, in contrast to GCC which leverages Public Azure AD.  For our US Department of Defense contractor customer base, Microsoft operates the service in a manner that enables these customers to meet ITAR commitment and DFARS acquisition regulations
 
 ## Dynamics 365 US Government and other Microsoft services
 
@@ -193,7 +197,7 @@ You use a different set of URLs to access Dynamics 365 US Government environment
 ### Microsoft Dynamics Portals
 
 - GCC: https://*.dynamics365portals.us
-- GCC High: TBD
+- GCC High: http://*.high.dynamics365portals.us
   
 ### See also  
  [Dynamics 365 for Customer Engagement apps (online) Government - Feature availability](government-feature-availability.md)<br/>
