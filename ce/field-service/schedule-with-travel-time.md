@@ -85,9 +85,18 @@ Eventually when the field technician arrives on site, he or she will update the 
 
 ## Add travel time with manual scheduling
 
-By default, manually scheduling a requirement via drag & drop on the schedule board does not calculate travel time and distance. This can be helpful for field service organizations that are not very concerned with managing or optimizing the travel of their field technicians, but simply want to manage appointment start times.
+By default, manually scheduling a requirement via drag & drop on the schedule board does not calculate travel time and distance. This can be helpful for field service organizations that are not very concerned with managing or optimizing the travel of their field technicians, but simply want to manage appointment start times. Imagine a scenario where an emergency work order arises and the dispatcher simply wants to communicate a time a field technician will arrive.
 
-With this in mind, a work order requirement that 
+
+As an example, a work order requirement that is manually scheduled to a resource at 9:00am implies the field technician should arrive at the customer's location at 9:00am and it is the responsibility of the field technician to manage travel arrangements. In the image below an unscheduled work order requirement was dragged from the lower requirement pane to 9:00am for a resource. No travel time is calculated or added to the duration of the booking implying all 4 hours are working duration.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-board-manual.png)
+
+For organizations that operate in a small, contained geographic area and who are not very concerned with managing travel time but recognize their field technicians will travel, these organization can add a generic 30 minutes to the work order durations either manually or by inflating the incident durations.
+
+
 
 
 ## Add travel time with schedule assistant
