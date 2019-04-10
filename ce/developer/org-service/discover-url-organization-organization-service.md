@@ -21,7 +21,7 @@ search.app:
   - D365CE
 ---
 
-# Discover the URL for your organization using the Discovery Service
+# Discover the URL for your organization using the Discovery Service 
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
