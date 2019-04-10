@@ -78,10 +78,7 @@ As a field technician completes work, he or she may update the booking status as
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-board-travel-status.png)
 
-Eventually when the field technician arrives on site, he or she will update the booking status to **In progress** indicating work has begun and the system will track the time the booking status = in progress and update the **Total Duration In Progress** booking field.
-
-Finally, when the booking is complete (i.e. the booking status = Completed) the booking **End Time** is updated and the booking length is updated visually on the schedule board accordingly.
-
+Eventually when the field technician arrives on site, he or she will update the booking status to **In progress** indicating work has begun and the system will track the time the booking status = in progress and update the **Total Duration In Progress** booking field. Finally, when the booking is complete (i.e. the booking status = Completed) the booking **End Time** is updated and the booking length is updated visually on the schedule board accordingly.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-board-completed-status.png)
