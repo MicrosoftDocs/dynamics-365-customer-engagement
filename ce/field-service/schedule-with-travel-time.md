@@ -85,6 +85,9 @@ Eventually when the field technician arrives on site, he or she will update the 
 
 ## Add travel time with manual scheduling
 
+By default, manually scheduling a requirement via drag & drop on the schedule board does not calculate travel time and distance. This can be helpful for field service organizations that are not very concerned with managing or optimizing the travel of their field technicians, but simply want to manage appointment start times.
+
+With this in mind, a work order requirement that 
 
 
 ## Add travel time with schedule assistant
