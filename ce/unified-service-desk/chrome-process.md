@@ -36,7 +36,7 @@ The advantages of using the Chrome process hosting method are as follows:
 
 ![Advantages of Chrome Process](media/chrome-process-value-props.PNG "Advantages of Chrome Process")
 
-- Chrome Process is available on different Windows OS server versions.
+- Chrome Process is available on different Windows OS versions.
 - Chrome Process is highly reliable.
 - Easy configurations to host the applications in Unified Service Desk.
 - Switch easily from one browser to another for your entire organization.

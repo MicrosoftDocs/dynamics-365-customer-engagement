@@ -40,7 +40,7 @@ Use Chrome Process to host web applications in Unified Service Desk client appli
 
 The advantages of using the Chrome process hosting method are as follows:
 
-- Chrome Process is available on different Windows OS server versions (Client and Server).
+- Chrome Process is available on different Windows OS versions.
 - Chrome Process is highly reliable.
 - Easy configurations to host the applications in Unified Service Desk.
 - Switch easily from one browser to another for your entire organization.
