@@ -25,6 +25,30 @@ Gets a control on the form.
 
 The **formContext.getControl(arg)** method is a shortcut method to access **formContext.ui.controls.get**.
 
+## Examples 
+### Example 1: GetControl for single attribute
+```JavaScript
+function attachEvents() {
+        if (formContext.getControl(FIELD.NAME) != null) {
+            formContext.getControl(FIELD.NAME).addPreSearch(<CustomFilterCriteria>);
+        }
+        }
+```
+### Example 2: GetControl for multiple attributes
+The following sample code sets the visibility propert for multiple controls:
+```JavaScript
+function SetVisibile(visible) {
+        var fieldIds = [FIELD.NAME, FIELD.CITY, FIELD.PROVINCE_NAME, FIELD.REGION_NAME];
+        for (var i = 0; i < fieldIds.length; i++) {
+            var field = formContext.getControl(fieldIds[i]);
+            if (field != null && field != undefined) {
+                field && field.setVisible(visible);
+            }
+            else {
+                visible = false;
+            }
+        }
+ ```       
 ## Parameter
 
 **arg**: Optional. You can access a control on a form by passing an argument as either the **name** or the **index valu**e of the control on a form. For example: `formContext.getControl("firstname")` or `formContext.getControl(0)`
