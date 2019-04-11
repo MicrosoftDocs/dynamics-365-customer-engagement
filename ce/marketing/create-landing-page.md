@@ -68,7 +68,7 @@ To create a landing page and go live:
 
 7. On the command bar, select **Save** to save your form. Forms are always live, so you don't need to select **Go Live**.
 
-8. Now you're ready to use your new form on a landing page. Go to **Marketing** &gt; **Lead Management** &gt; **Marketing Pages**, and then select **New** on the command bar. The **New Marketing Page** page opens with the **Select a Template** dialog box shown.  
+8. Now you're ready to use your new form on a landing page. Go to **Marketing** > **Internet Marketing** > **Marketing Pages**, and then select **New** on the command bar. The **New Marketing Page** page opens with the **Select a Template** dialog box shown.  
     ![Select a page template dialog](media/page-template-dialog.png "Select a Template dialog box")
 
     It's important to choose a template of the right type (landing page), so do the following here:
@@ -81,7 +81,7 @@ To create a landing page and go live:
     ![Required fields for a new page](media/page-required-fields.png "Required fields for a new page")
 
     Enter the following:
-   - **Name**: Enter a name for the page that you can easily recognize later. This name is internal-only..
+   - **Name**: Enter a name for the page that you can easily recognize later. This name is internal-only.
    - **Type**: Make sure this is set to **Landing page**.
    - **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal server, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
 

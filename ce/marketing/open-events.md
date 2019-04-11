@@ -36,9 +36,9 @@ To find the event management work area:
 
     ![The app-selector menu](media/nav-apps-ill.png "The app-selector menu")
 
-1. Expand the side navigator bar,  select the ellipsis (**…**) button to open the work area menu, and then choose **Events**.
+1. Expand the work-area area menu at the bottom of the side navigator and select **Events**.
 
-    ![Open the work area menu](media/open-events-work-area.png "Open the work area menu")
+    ![Open the Events work area](media/open-settings-menu-ill.png "Open the Events work area")
 
 1. You are now in the Events work area, and can navigate between event-related entities using the side navigator, just as with the core **Marketing** work area.
 
