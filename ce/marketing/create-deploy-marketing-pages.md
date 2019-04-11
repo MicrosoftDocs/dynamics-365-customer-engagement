@@ -87,7 +87,7 @@ Every time you create a new marketing page, you must fill out the fields provide
 Make the following settings here:
 
 - **Name**: Enter a name for the page that you can easily recognize later. This name is internal-only.
-- **Type**: Choose the [type of page](page-types) you are making. Each type has different requirements and options.
+- **Type**: Choose the [type of page](#page-types) you are making. Each type has different requirements and options.
 - **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal server, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
 
 Select **Save** on the command bar after you've finished making these settings.
