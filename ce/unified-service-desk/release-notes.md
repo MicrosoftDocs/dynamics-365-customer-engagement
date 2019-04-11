@@ -32,7 +32,7 @@ search.app:
 
 ### Support for inactivity timeout with Chrome Process and SSO
 
-If your organization has enforced the Inactivity session timeout for the agents, then with Chrome Process, the agent is not automatically singed out when the inactivity session timeout expires as SSO is enabled by default. If you want to enforce Inactivity session timeout for the agents, then disable the SSO feature for the Chrome Process. To learn more see, [Disable Single Sign On](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#enable-or-disable-single-sign-on).
+If your organization has enforced the Inactivity session timeout for the agents, then with Chrome Process, the agent is not automatically signed out when the inactivity session timeout expires as SSO is enabled by default. If you want to enforce Inactivity session timeout for the agents, then disable the SSO feature for the Chrome Process. To learn more see, [Disable Single Sign On](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#enable-or-disable-single-sign-on).
 
 ### JavaScript Alert and Confirmation dialog
 
