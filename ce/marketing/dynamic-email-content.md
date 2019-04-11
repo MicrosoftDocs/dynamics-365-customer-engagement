@@ -107,20 +107,20 @@ To use assist-edit:
 When you are selecting a relationship in assist-edit, the options are displayed using one of the following naming convention:
 
 _PrimaryEntity_ **->** _FieldName_ **(**_SecondaryEntity_**)**  
-_FieldName_ **(**_SecondaryEntity_**)** **->** _PrimaryEntity_
+_FieldName_ **(**_PrimaryEntity_**)** **->** _SecondaryEntity_
 
 Where:
 
-- **PrimaryEntity** is an entity that uses a value from the secondary entity. For example, an *account* (primary entity) can show a value from a *contact* (secondary entity) in its *primary contact* field (field name).
-- **FieldName** is always shown next to the secondary entity (which is in parenthesis). This is the name of the field from the primary entity that holds the ID of a record from the secondary entity (but which usually displays the value of a field other than the ID from the secondary entity, such as its name). In some cases, you'll notice a relationship between the same two entities, each of which flows through a different field.
-- **SecondaryEntity** is always shown in parenthesis. This is the entity that provides the field that you want to show with your expression.
+- ***PrimaryEntity*** is an entity at the starting side of the relationship. It is always shown on the left side of the arrow. This is the entity you chose on the previous page of the assist-edit dialog. For example, a *contact* (primary entity) can be related to an *account* (secondary entity) through the account's *primary contact* field (field name).
+- ***FieldName*** is always shown next to an entity name (which is in parenthesis). This is the name of the field through which the relation is established. The named field belongs to the entity in parenthesis, and displays a value from the entity of the other side of the arrow (but actually contains the ID of the related record that value is drawn from). In some cases, you'll notice a relationship between the same two entities, each of which flows through a different field.
+- ***SecondaryEntity*** is the destination of the relationship. It is always shown on the right side of the arrow. The value that you choose to display with your final expression will come from a field belonging to the secondary entity.
 
 For example:
 
-- `Company Name (Contact) -> Account`: This relationship is used by the `Contact` entity to display information from the `Account` entity in the contact's `Company Name` field. In other words, it finds the company (account) that the contact works for.
-- `Managing Partner (Contact) -> Account`: This relationship is used by the `Contact` entity to display information from the `Account` entity in the contact's `Managing Partner` field. In other words, it finds the company (account) that is the managing partner for a contact.
-- `Primary Contact (Account) -> Contact`: This relationship is used by the `Account` entity to display information from the `Contact` entity in the contact's `Primary Contact` field. In other words, it finds the primary contact associated with the account.
-- `Contact -> Contact (Event Registration)`: This relationship is used by the `Event Registration` entity to display information from the `Contact` entity in the contact-registration record's `Contact` field. In other words, it finds the contact that registered for an event.
+- `Company Name account (Contact) -> Account`: This relationship is used by the `Contact` entity to display information from the `Account` entity in a contact record's `Company Name` field. In other words, it links to the company (account) that the contact works for.
+- `Managing Partner account (Contact) -> Account`: This relationship is used by the `Contact` entity to display information from the `Account` entity in a contact record's `Managing Partner` field. In other words, it links to the company (account) that is the managing partner for a contact.
+- `Contact -> Primary Contact contact (Account)`: This relationship is used by the `Account` entity to display information from the `Contact` entity in an account record's `Primary Contact` field. In other words, it links to the primary contact associated with the account.
+- `Contact -> Contact contact (Event Registration)`: This relationship is used by the `Event Registration` entity to display information from the `Contact` entity in an event-registration record's `Contact` field. In other words, it links to the contact that registered for an event.
 
 Assist-edit creates an expression that uses a format such as the following:
 - `{{EntityName.FieldName}}`
@@ -189,6 +189,8 @@ You can use similar techniques to place the owning user's name or email address 
 You can use a dynamic expression to define the source URL for image elements. To do so, select the image element, go to its **Properties** panel and then select the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") next to the **Source** field to place dynamic text as part of the URL. You'll typically mix this with static text to assemble a complete URL. For example, you could include the recipient's contact ID or company name to select an image that is relevant for each individual recipient.
 
 You can likewise use assist-edit to help construct a dynamic expression for setting a **Link** destination for the image.
+
+<a name="record-ids"></a>
 
 ## Find record IDs
 
