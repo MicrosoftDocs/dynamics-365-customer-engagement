@@ -1,8 +1,8 @@
 ---
-title: "Manage marketing instances (Dynamics 365 for Marketing) | Microsoft Docs  "
+title: "Manage marketing instances (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 for Marketing instance to a sandbox instance for experiments and testing"
 keywords: administration;admin center;copy;sandbox;instances;backup;recall
-ms.date: 02/01/2019
+ms.date: 04/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -40,10 +40,10 @@ Instance management operations are a standard feature of [!INCLUDE[pn-microsoftc
 
 - **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance.** This provides the basic platform for the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and includes both a *platform server* and an *organizational database*. This database is also shared by the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, which reads and stores much of its data here. The standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] backup and restore functionality applies only to these components.
 - **[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application.** This is a collection of solutions that are installed on the platform server and add marketing features to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. It's also referred to as the *[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app*.
-- **[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] services.** This is a collection of external services that run on another server, which the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app interacts with. Among other things, live customer journeys and marketing email messages run here.
-- **Customer-insights services** This is another class of external services that [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] uses. These provide big-data services such as resolving segment queries, storing interaction data, and providing analytics based on this data.
+- **Marketing services.** This is a collection of services that run in parallel with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance, and  which the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app interacts with. Among other things, live customer journeys and marketing email messages run here.
+- **Marketing insights service** This is a marketing service that provides big-data services such as resolving segment queries, storing interaction data, and providing analytics based on this data. The marketing insights service is one of the marketing services.
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and customer-insights services are external to the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] platform server, and thus follow their own lifecycle. These services aren't directly accessible to users, so when backup and restore operations are used on the organization database, you must consider their impact on these connected services.
+Marketing services run in parallel with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance, and thus follow their own lifecycle. These services aren't directly accessible to users, so when backup and restore operations are used on the organization database, you must consider their impact on these connected services.
 
 ## Copy your production instance to a support instance
 
@@ -55,11 +55,11 @@ Instance management operations are a standard feature of [!INCLUDE[pn-microsoftc
 
 ## Prepare for copies and manual backups
 
-The basic [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance and its database are automatically backed up every day by Microsoft. However, processes that are running in the external customer-insights and marketing services aren't backed up by this operation.
+The basic [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance and its database are automatically backed up every day by Microsoft. However, processes that are running in the parallel marketing services aren't backed up by this operation.
 
-Processes running on the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] services, such as live customer journeys and email marketing messages, aren't affected by the backup or copy operations, so these will continue to run normally, and the customer-insights services will also continue to collect data from them even while the organization database gets copied or backed up.
+Processes running on the marketing services, such as live customer journeys and email marketing messages, aren't affected by the backup or copy operations, so these will continue to run normally, and the marketing insights service will also continue to collect data from them even while the organization database gets copied or backed up.
 
-When you restore from a backup (or start running a copy), any data that was created or modified since that backup was taken will be reverted (or lost). But the processes running on the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services will still be active, and the data that was generated and saved in the customer-insights services since the backup will also still be there. This means that if you want to make a copy, or to make manual backup to be restored later or on another instance, you should first stop all your running live entities by moving them to a *stopped* state. This includes:
+When you restore from a backup (or start running a copy), any data that was created or modified since that backup was taken will be reverted (or lost). But the processes running on the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services will still be active, and the data that was generated and saved in the marketing services since the backup will also still be there. This means that if you want to make a copy, or to make manual backup to be restored later or on another instance, you should first stop all your running live entities by moving them to a *stopped* state. This includes:
 
 - Customer journeys
 - Marketing emails
@@ -77,10 +77,10 @@ This helps to ensure that when you finish the copy or restore the data (especial
 When you restore a backup that includes [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] onto a different instance, you must do the following:
 
 - If your target instance (the instance you are restoring *onto*) already has [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed on it, then you must delete [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] from that instance before you restore the backup. You don't need to remove all of the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] solutions, but you do need to run the uninstall wizard on the target instance before your restore. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Uninstall Marketing](uninstall-marketing.md).
-- After restoring a backup to a new instance (or copying a production instance to a sandbox instance) you must rerun the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] [setup wizard](purchase-setup.md) on the new instance. This is because the new instance needs to be set up with a new collection of external services.
+- After restoring a backup to a new instance (or copying a production instance to a sandbox instance) you must rerun the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] [setup wizard](purchase-setup.md) on the new instance. This is because the new instance needs to be set up with a new collection of marketing services.
 
 > [!NOTE]
-> Because a new set of customer-insights services is created for your new instance, all interaction data stored in the database used by the previous customer-insights services isn't available to the new instance.
+> Because a new set of marketing services is created for your new instance, all interaction data stored by the previous marketing services isn't available to the new instance.
 
 For details about how to copy a production instance to a sandbox and then run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard on the sandbox, see  [Copy your current production instance to a sandbox](#copy-to-sandbox). The process is similar when you restore a backup to a new instance.
 
@@ -104,11 +104,11 @@ After the copy, your sandbox instance will be set up as follows:
 
 - All settings and customizations from your production instance will be present in the sandbox.
 - A new portal will be created to host marketing pages and event websites for the sandbox instance.
-- A new set of customer-insights services (including a new customer-insights database) will be created and linked to your sandbox instance. Interaction data from your production instance won't be available to the sandbox, so most insights data will be initialized. You can freely generate new interaction data using the sandbox without affecting your production instance.
+- A new set of marketing services (including a new marketing insights service) will be created and linked to your sandbox instance. Interaction data from your production instance won't be available to the sandbox, so most insights data will be initialized. You can freely generate new interaction data using the sandbox without affecting your production instance.
 - If you choose to do a full copy:
   - The entire core database of your production instance will be copied and linked to the sandbox instance. This means that your previous production data will be available to the sandbox, but your work in the sandbox instance won't affect your production database from now on. 
   - Any live entities from your production portal (such as marketing pages and the event website) will be republished on the new portal created for the sandbox instance.
-  - Any live entities that run on external marketing services (such as marketing email messages and customer journeys) will also be copied and enabled as live entities on the sandbox instance.
+  - Any live entities that run on marketing services (such as marketing email messages and customer journeys) will also be copied and enabled as live entities on the sandbox instance.
 - If you choose to do a minimal copy, all your customizations will still be present on the sandbox instance, but none of your production data (including email messages, portal content, and customer journeys) will be there.
 
 To copy a production instance to a sandbox:
@@ -149,7 +149,7 @@ To copy a production instance to a sandbox:
     ![Choose an organization and name your portal](media/setup-form-1.png "Choose an organization and name your portal")
     
    > [!NOTE]
-   > You need to rerun the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard on your sandbox because your sandbox needs portals, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services, and customer-insights services that are separate from your production services.
+   > You need to rerun the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard on your sandbox because your sandbox needs supporting resources, such as portals and marketing services, which are separate from your production services.
 
 10. Select **Continue**, and then work through the rest of the setup wizard as usual. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [First-time setup](purchase-setup.md)
 
@@ -160,3 +160,9 @@ To copy a production instance to a sandbox:
 [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)  
 [Keep Marketing up to date](apply-updates.md)  
 [Uninstall Marketing](uninstall-marketing.md)
+[Transfer data between instances](transfer-data.md)  
+[Transfer customizations between instances](transfer-solution.md)  
+[Manage instances](../admin/manage-online-instances.md)  
+[Manage your data](../admin/manage-your-data.md)  
+[Move configuration data across instances and organizations](../admin/manage-configuration-data.md)  
+[Import, update, and export solutions](../customize/import-update-export-solutions.md)

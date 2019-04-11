@@ -35,8 +35,6 @@ When you have completed the exercises here, you'll be able to:
 
 - [Set up automatic lead scoring](set-up-lead-scoring.md), which can score leads based on demographic information and interaction records.
 
-- [Set up a subscription center](set-up-subscription-center.md) with custom subscription lists, and include it in your emails and customer journeys.
-
 - [Create a customer journey that generates activities](generate-activities-from-customer-journey.md) (such as phone calls, tasks, or appointments), assigns them to relevant staff, and associates each with a contact on that journey.
 
 - [Manage images](manage-images.md) for use in marketing emails and pages.
