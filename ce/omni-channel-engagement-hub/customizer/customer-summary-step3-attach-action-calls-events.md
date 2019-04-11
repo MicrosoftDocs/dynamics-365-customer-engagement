@@ -62,7 +62,7 @@ This topic demonstrates how to attach the customer summary related action calls 
     | OmnichannelFetchContextEntitiesOnUpdate | <ul> <li>Omni-channel Clear Context Entities</li> <li>Omni-channel Copy Contact Ids To Context</li> <li>Omni-channel Fetch Context Contacts</li> <li>Omni-channel Save Context Entities on Update</li> <li>Initialize Omni-channel Context - Window Variable - Customer Summary</li> <li>Refresh Customer Summary Controls</li> </ul> |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 4: Add the hosted control, action calls, and events to Configurations](customer-summary-step4-attach-action-calls-events.md)  
+> [Next topic: Step 4: Add the hosted control, action calls, and events to Configurations](customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)  
 
 ## See also
 
