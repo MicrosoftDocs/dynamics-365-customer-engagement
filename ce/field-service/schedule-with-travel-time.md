@@ -183,7 +183,8 @@ If a field technician begins travel to his or her next work order and sees the t
 
 ## Configuration considerations
 
-- travel charge
+- By adding a travel charge to the service account of the work order, you can charge the customer of a work order a fee for travel time and distance. See the topic on [adding account related details to work orders](../field-service/work-order-customer-account.md) for more details.
+- A field technicians current location as derived from his or her mobile device running the Field Service Mobile app can be used for travel time and distance calculations with the scheduling assistant. This is called Real Time Mode. See the topic on [enabling and testing location auditing]([../field-service/work-order-customer-account.md](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/geofencing#step-5-test-location-auditing)) for more details.
 - real time location travel time
 - can use other map services for travel time calculations
 
