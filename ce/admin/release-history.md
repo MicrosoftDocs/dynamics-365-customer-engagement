@@ -1,7 +1,7 @@
 ---
-title: "Release history (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "What's new | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/29/2019
+ms.date: 04/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,11 +21,13 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Release history for Administrator Guide
+# What's new
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-This is the release history page for the [Administrator Guide for Dynamics 365 for Customer Engagement](admin-guide.md) documentation. Note that some of the updated and new topics relate to changes made since the last product release and are not exclusive to [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)].
+To find out about the latest capabilities and enhancements in Dynamics 365 and Power Platform, see [Dynamics 365 and Power Platform Release Notes](https://docs.microsoft.com/business-applications-release-notes/index).
+
+<!-- This is the release history page for the [Administrator Guide for Dynamics 365 for Customer Engagement](admin-guide.md) documentation. Note that some of the updated and new topics relate to changes made since the last product release and are not exclusive to [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)].
 
 Check out the following for more "What's new" and release history information:
 
@@ -68,3 +70,4 @@ The following are topics for features that were delivered out of band since the 
 |[Switch from Dynamics CRM Online to Dynamics 365 for Customer Engagement apps (online)](switch-dynamics-crm-online-dynamics-365.md)|Updated topic.|
 |[Manage Support instances](support-instance.md)|Added new topic.|
 |[Security enhancements: User session and access management](user-session-management.md)|Added new topic.|
+-->
