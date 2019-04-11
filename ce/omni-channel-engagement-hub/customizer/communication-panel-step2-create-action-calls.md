@@ -197,7 +197,7 @@ This topic demonstrates how to create communication panel related action calls i
     | General | Order | 12 |
     | General | Hosted Control | Custom Panel |
     | General | Action         | SetVisualProperty | 
-    | General | Data | elementname=LeftPanelParent<br>propertyname=Visibility<br>value=$Expression('\[\[$Context.IsCaseSession\]+\]'=='True' || '\[\[$Context.ISENTITYSESSION\]+\]'=='True' || '\[\[$Session.IsGlobal\]+\]'=='True' || '\[\[$Context.cticallincoming\]+\]'=='1'? "Collapsed" : "Visible") |
+    | General | Data | elementname=LeftPanelParent<br>propertyname=Visibility<br> value=$Expression('\[\[$Context.IsCaseSession\]+\]'=='True' \|\| '\[\[$Context.ISENTITYSESSION\]+\]'=='True' \|\| '\[\[$Session.IsGlobal\]+\]'=='True' \|\| '\[\[$Context.cticallincoming\]+\]'=='1'? "Collapsed" : "Visible") |
     | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
     | Tab | Field      | Value                       |
