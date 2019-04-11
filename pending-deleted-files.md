@@ -23,5 +23,7 @@ ce\admin\public-preview-microsoft-cognitive-services-integration.md
 ce\admin\public-preview-automatically-suggest-knowledge-articles.md
 ce\admin\enable-document-suggestions.md
 ce\sales-enterprise\recalculateprice-action.md
+ce\guidance\toc.yml
+ce\guidance\index.md
 
 These files have been deleted, but the list hasn't been communicated to loc yet.
