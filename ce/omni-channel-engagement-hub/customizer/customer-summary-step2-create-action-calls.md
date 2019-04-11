@@ -46,7 +46,7 @@ This topic demonstrates how to create customer summary hosted control in Unified
 4. Select **Action Calls** and select **+ New**.
 
 5. In the new page, specify the following details.
-    > [!div class="mx-tdBreakAll"]
+    > [!div class="mx-tdCol3BreakAll"]
     > | Tab     | Field          | Value                           |
     > |------------------|----------------------|---------------------------------|
     > | General | Name           | Initialize Omni-channel Context - Window Variable - Customer Summary      |
@@ -55,7 +55,7 @@ This topic demonstrates how to create customer summary hosted control in Unified
     > | General | Action         | RunScript    |
     > | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]');  <br> var session = {"LiveWorkItemId" : "\[\[$Context.LiveWorkItemId\]+\]", "OCSessionId" : "\[\[$Context.OCSessionId\]+\]", "LiveWorkStreamId" : "\[\[$Context.LiveWorkStreamId\]+\]", "LiveWorkItemContext" : '\[\[$Context.LiveWorkItemContext\]\]', "SessionInfo": '\[\[$Context.SessionInfo\]+\]'};  <br> ocConfig.config.sessionParams = session;  <br> window.ocContext = ocConfig;  <br> }  <br> initOCContext(); |
 
-    > [!div class="mx-tdBreakAll"]
+    > [!div class="mx-tdCol3BreakAll"]
     > | Tab     | Field          | Value                           |
     > |------------------|----------------------|---------------------------------|
     > | General | Name           | Update Conversation Context Entities     |
@@ -64,7 +64,7 @@ This topic demonstrates how to create customer summary hosted control in Unified
     > | General | Action         | OmnichannelUpdateContextEntities    |
     > | General | Data | ChatPayLoad=\[\[PostData\]\] |
 
-    > [!div class="mx-tdBreakAll"]
+    > [!div class="mx-tdCol3BreakAll"]
     > | Tab | Field      | Value                       |
     |------------------|----------------------|---------------------------------|
     > | General | Name           | Omni-channel Session Accepted   |
@@ -74,7 +74,7 @@ This topic demonstrates how to create customer summary hosted control in Unified
     > | General | Data | ConversationId=\[\[cid\]\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] <br> CanActivateSession=\[\[CanActivateSession\]+\] |
     | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] ||  '\[\[CanActivateSession\]+\]' == 'True' |
 
-    > [!div class="mx-tdBreakAll"]
+    > [!div class="mx-tdCol3BreakAll"]
     > | Tab | Field      | Value                       |
     > |------------------|----------------------|---------------------------------|
     > | General | Name           | Show Dashboards On Data Available   |
@@ -84,7 +84,7 @@ This topic demonstrates how to create customer summary hosted control in Unified
     > | General | Data | milliseconds=5000 <br> \[\[$Context.LiveWorkItemId\]\] <br> \[\[$Context.OCSessionId\]\] <br> \[\[$Context.LiveWorkStreamId\]\] |
     | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
-    > [!div class="mx-tdBreakAll"]
+    > [!div class="mx-tdCol3BreakAll"]
     > | Tab | Field      | Value                       |
     > |------------------|----------------------|---------------------------------|
     > | General | Name           | Load Customer Summary   |
@@ -93,7 +93,7 @@ This topic demonstrates how to create customer summary hosted control in Unified
     > | General | Action         | Navigate | 
     > | General | Data | url=/main.aspx?navbar=off&cmdbar=false&pagetype=entityrecord&etn=msdyn_ocliveworkitem&formid=5fe86453-73ea-4821-b6dd-ddc06e1755a1&bodyOnly=true <br> Hidenav=true |
 
-    > [!div class="mx-tdBreakAll"]
+    > [!div class="mx-tdCol3BreakAll"]
     > | Tab | Field      | Value                       |
     > |------------------|----------------------|---------------------------------|
     > | General | Name           | Omni-channel Clear Context Entities |
@@ -102,7 +102,7 @@ This topic demonstrates how to create customer summary hosted control in Unified
     > | General | Action         | ClearEntityList | 
     > | General | Data | global=True |    
 
-    > [!div class="mx-tdBreakAll"]
+    > [!div class="mx-tdCol3BreakAll"]
     > | Tab | Field      | Value                       |
     > |------------------|----------------------|---------------------------------|
     > | General | Name           | Omni-channel Copy Contact Ids To Context |
@@ -111,7 +111,7 @@ This topic demonstrates how to create customer summary hosted control in Unified
     > | General | Action         | CopyToContext | 
     > | General | Data | contactIds = \[\[contact\]+\] |
 
-    > [!div class="mx-tdBreakAll"]
+    > [!div class="mx-tdCol3BreakAll"]
     > | Tab | Field      | Value                       |
     > |------------------|----------------------|---------------------------------|
     > | General | Name           | Omni-channel Fetch Context Contacts |
@@ -121,7 +121,7 @@ This topic demonstrates how to create customer summary hosted control in Unified
     > | General | Data | ContextContactSearch <br> global=True |
     | Advanced | Condition | $Expression('\[\[$Context.contactIds\]+\]' == '' ? "false" : "true") |
 
-    > [!div class="mx-tdBreakAll"]
+    > [!div class="mx-tdCol3BreakAll"]
     > | Tab | Field      | Value                       |
     > |------------------|----------------------|---------------------------------|
     > | General | Name           | Omni-channel Save Context Entities on Update |
@@ -130,7 +130,7 @@ This topic demonstrates how to create customer summary hosted control in Unified
     > | General | Action         | OmnichannelSaveUpdatedContextEntities | 
     > | General | Data | LiveWorkItemId=\[\[LiveWorkItemId\]+\] | 
 
-    > [!div class="mx-tdBreakAll"]
+    > [!div class="mx-tdCol3BreakAll"]
     > | Tab | Field      | Value                       |
     > |------------------|----------------------|---------------------------------|
     > | General | Name           | Initialize Omni-channel Context - Window Variable - Customer Summary |
@@ -139,7 +139,7 @@ This topic demonstrates how to create customer summary hosted control in Unified
     > | General | Action         | RunScript | 
     > | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]'); <br> var session = {"LiveWorkItemId" : "\[\[$Context.LiveWorkItemId\]+\]", "OCSessionId" : "\[\[$Context.OCSessionId\]+\]", "LiveWorkStreamId" : "\[\[$Context.LiveWorkStreamId\]+\]", "LiveWorkItemContext" : '\[\[$Context.LiveWorkItemContext\]\]', "SessionInfo": '\[\[$Context.SessionInfo\]+\]'}; <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> } <br> initOCContext(); |
 
-    > [!div class="mx-tdBreakAll"]
+    > [!div class="mx-tdCol3BreakAll"]
     > | Tab | Field      | Value                       |
     > |------------------|----------------------|---------------------------------|
     > | General | Name           | Refresh Customer Summary Controls |
