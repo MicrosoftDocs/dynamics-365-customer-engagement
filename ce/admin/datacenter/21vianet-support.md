@@ -33,7 +33,7 @@ Dynamics 365 for Customer Engagement provides many self-service support options 
 
 ## Presales support
 
-Presales support telephone number: +86 400-089-0365
+Presales support telephone number: +86 400-886-6134
 
 Pre-sales support for Customer Engagement provides assistance on subscription features and benefits, plan comparisons, pricing and licensing, and helps to identify the right solution to meet your business needs. In addition, pre-sales support can help you find a Partner, and purchase and sign up for a trial. You can call during local business hours, Monday through Friday. Pre-sales support can be accessed using the same phone number for technical support. 
 
