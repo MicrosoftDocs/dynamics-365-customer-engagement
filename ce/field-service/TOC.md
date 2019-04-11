@@ -31,7 +31,7 @@
 ## [Postal codes](set-up-postal-codes.md)
 ## [Tax codes](set-up-tax-codes.md)
 ## [Service level agreements](sla-work-orders.md)
-## [Entitlements](work-order-entitlements.md)
+
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
@@ -75,6 +75,7 @@
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
+## [Entitlements](work-order-entitlements.md)
 
 # Assets, inventory and purchasing
 ## Customer assets
