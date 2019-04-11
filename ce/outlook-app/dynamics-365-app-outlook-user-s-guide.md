@@ -232,7 +232,7 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 [!INCLUDE [pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] can track S/MIME signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
 
 ## Compose an email message and link it to a Dynamics 365 for Customer Engagement apps record  
-Create an email message and then follow the steps in [Link an email message or meeting to a specific Dynamics 365 for Customer Engagement apps record](#link-an-email-message-or-meeting-to-a-specific-dynamics-365-record).
+Create an email message and then follow the steps in [Link an email message or meeting to a specific Dynamics 365 for Customer Engagement apps record](#link-an-email-message-or-meeting-to-a-specific-dynamics-365-for-customer-engagement-apps-record).
 
 ## Gain insights into your activities with relationship assistant
 

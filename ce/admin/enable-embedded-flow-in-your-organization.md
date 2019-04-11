@@ -62,7 +62,11 @@ Once the Flow integration feature is enabled, the following privileges are added
   
         ![Enable Flow integration](../admin/media/embed-flow-enable.png "Enable Flow integration")  
   
-3.  Click **OK** to close System Settings.  
-  
+3.  Click **OK** to close System Settings. 
+
+> [!TIP]
+   >  The Flows menu only list flows that begin with the *When a record is selected* Common Data Service trigger and contain at least one trigger or action that references that entity.
+   >  
+ 
 ### See also  
  [Create and edit web resources](../customize/create-edit-web-resources.md)

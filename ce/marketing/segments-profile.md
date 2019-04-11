@@ -2,7 +2,7 @@
 title: "Design dynamic profile segments in the standard view (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to use the standard view to construct segments in Dynamics 365 for Marketing"
 keywords: segment; compound segment
-ms.date: 09/17/2018
+ms.date: 04/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -53,15 +53,78 @@ Each group in your segment must result in a list of contacts, which are selected
 > [!NOTE]
 > While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
 
+### Build a clause that finds standard field values
+
+*Standard fields* are fields where users can freely enter any value (of the correct data type). A typical example is the **First Name** field of the contact entity. Users are free to enter any text in this field, and the field is directly part of the contact entity. The following illustration shows how to construct a clause based on a standard field.
+
+![A clause based on a standard field](media/segment-clause-standard.png "A clause based on a standard field")
+
+Legend:
+
+1. **Entity name**: This is the entity that the field comes from. This clause will return records of this type.
+1. **Field name**: This is the field from the selected entity that the clause will test for. When you're selecting this, the drop-down list is organized into the following categories: **Fields** (includes standard and option-set fields), **Lookup fields**, **Type** (a wildcard that lets you find all records of the selected entity) and (for contacts) **Interactions** (see [Design interaction-based dynamic segments](segments-interaction.md) for details about this category). If you know the name of the field you want to specify here, then start typing it's name in this field to filter the dropdown list.
+1. **Operator**: This is how the clause will test the values of the specified field. The choices here depend on the data type of the field. For example, string fields allow operators such as *is*, *is not*, *contains*, *begins with*, *ends with*, and more. Number fields offer comparisons such as *equal to*, *less than*, and *greater than*.
+1. **Value**: This is the value the clause will test for using the specified operator. With standard fields, this is free text, so you can type anything you like. Press return to add the value you've typed. After adding a value you can add more values by typing them and pressing return again. If you enter more than one value here, then the clause will find records that match any of these values (as if they were separate clauses combined with an OR operator). To remove a value from here, select its close icon, which looks like an X.
+
+> [!NOTE]
+> You can only select entities that are available to the marketing insights service. If you need an entity that isn't listed, please ask your administrator to enable it. For instructions, see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync).
+
+### Build a clause that finds option-set values
+
+*Option-set fields* are fields that accept a limited set of specific input values. They are typically presented to users as drop-down lists in input forms. They include both yes/no values and custom option-sets such as the contact **Role**, which might provide limited options such as **Decision Maker**, **Employee**, and **Influencer**.  The available values are part of the entity itself, so they don't refer to any related entities.
+
+Option-set fields work in nearly the same way as the standard fields described in the previous section. The only difference is that when you are entering the value, you'll only be able to choose from among the values defined in the entity for that option set. As with standard fields, you can specify multiple values, which are combined with an OR operator.
+
+### Create a clause that finds a lookup value
+
+*Lookup values* are values that come from a related entity. For example, the contact entity has a field called **Company Name (Account)**, which relates to the account entity. In the contact record, this field stores the unique ID of a related account record, but the system displays the name of the company, which is found by looking up the account ID and finding the value of the matching account record's **Name** field.
+
+When you're selecting the field name for a clause, lookup fields are shown under the **Lookup fields** section of the drop-down list. Lookup fields show both the local field name and the name of the related entity (in parenthesis).
+
+![A lookup field in the fields name drop-down list](media/segment-clause-lookup.png "A lookup field in the fields name drop-down list")
+
+In the previous screenshot, you can see that the **Contact** entity has a field called **Company Name**, which comes from a related **Account** record.
+
+Provided the related entity is available to the marketing insights service, you'll be able to select from among available values when you assign value for your clause. In the previous example, you'd be able to choose from a list of available company names. If the related entity is not available to the marketing insights service, then you'll have to look up and enter the [record ID](dynamic-email-content.md#record-ids) instead. Your administrator can add whatever entities you need to the marketing insights service as required; for instructions, see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync)
+
+Lookup fields also provide a special operator called **has**. Use this operator to test for field values from the related entity, rather than the display value of the local entity. For example, if you are querying the **Company Name (Account)** field of the **Contact** entity, you can use the **is/is in** operator to test for values of the **Name** field of the related account entity. But if you use the **has** operator, you can test for any field value from the related account record (such as **Address 1: City**). In the following illustration, this clause will find contacts who work for companies with street addresses in New York or Chicago.
+
+![A lookup field in the fields name drop-down list](media/segment-clause-has.png "A lookup field in the fields name drop-down list")
+
 ### Example: Define a simple segment based on contacts
 
 A simple segment group uses the contact entity only. When you create this type of segment definition, set up a query with clauses that test various field values from your contact records and combine the various clauses using the logical operators AND and OR. For an example, see the tutorial [Create a dynamic segment](create-segment.md).
+
+### Move between entities with relationships
+
+When you create a new segment, it automatically starts with a default group based on the contact entity, as we saw in the [previous example](create-segment.md). So long as you only want to query values directly on the contact entity, then it's straightforward to add various logical clauses and combine them with AND/OR operators until you've defined the set of contacts you're looking for. However, you can also build much more complex queries that start from some other entity (such as accounts), queries that entity according to some criteria (such as number of employees) and then transverses to the contact entity to find the contacts associated with those accounts. All segments must end with the contact entity, so any time you start with a non-contact entity you must eventually traverse back to the contact entity using *relationships*.
+
+Relationships are listed in the first drop-down list (together with the entities) when you add a new clause. When you select a relationship instead of an entity, then no further settings are available for that clause.
+
+When you are selecting a relation, the options are displayed using the following naming convention:
+
+_PrimaryEntity_ **->** _SecondaryEntity_ **(**_FieldName_**)**  
+
+Where:
+
+- ***PrimaryEntity*** is an entity at the starting side of the relationship. It is always shown on the left side of the arrow. For example, a *contact* (primary entity) can be related to an *account* (secondary entity) through the account's *primary contact* field (field name).
+- ***FieldName*** is the name of the field through which the relation is established. It is always shown in parenthesis The named field belongs to the primary entity, and displays a value from the secondary entity (but actually contains the ID of the related record that value is drawn from). In some cases, you'll notice a relationship between the same two entities, each of which flows through a different field.
+- ***SecondaryEntity*** is the destination of the relationship. It is always shown on the right side of the arrow. The value that you choose to display with your final expression will come from a field belonging to the secondary entity.
+
+When you're choosing relationships, either the primary entity or the secondary entity must be the entity of the previous clause, while the other entity must the be one you are changing to with the next clause after the relation. Relationships work in both directions, so it doesn't matter which is the primary and which is the secondary.
+
+For example:
+
+- `Account -> Contact (Primary Contact)`: This relationship is used by the `Account` entity to display information from the `Contact` entity in a contact record's `Primary Contact` field. In other words, it links to the primary contact for an account.
+- `Contact -> Account (Managing Partner)`: This relationship is used by the `Contact` entity to display information from the `Account` entity in a contact record's `Managing Partner` field. In other words, it links to the company (account) that is the managing partner for a contact.
+- `Event Registration -> Contact (Contact)`: This relationship is used by the `Event Registration` entity to display information from the `Contact` entity in an event-registration record's `Contact` field. In other words, it links to the contact that registered for an event.
+- `Lead -> Contact (Parent Contact for lead)`: This relationship is used by the `Lead` entity to display information from the `Contact` entity in a lead record's `Parent Contact` field. In other words, it links to the contact associated with the lead.
 
 ### Example: Define a more complex segment based on opportunities
 
 Here's an example of how to define a segment that starts by finding a collection of opportunities and, as usual, ends by finding the contacts that belong to that segment. In this example, we'll find contacts associated with opportunities with an estimated revenue over $10,000 and then build a relation to the contacts entity.
 
-1. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync opportunities with the customer-insights services, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
+1. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync the **Opportunity (opportunity)** entity with the marketing insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync) for instructions.
 
 1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.  
     ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")

@@ -2,8 +2,8 @@
 title: "Download tools from NuGet (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Download the Plugin Registration, Package Deployment, and other core tools from Nuget."
 ms.custom: 
-ms.date: 12/6/2017
-ms.reviewer: 
+ms.date: 03/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -50,8 +50,11 @@ For example, you could create separate queues for first tier and second tier pro
   
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] lets you create two types of queues:
 
-- **Private queues:** Create private queues with limited sets of members to let only those members view the items in the queue
-- **Public queues:** Create public queues to let everyone in the organization view the items in a queue
+- **Private queues:** Create private queues with limited set of members to help those members easily view the queue items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other user’s views.
+- **Public queues:** Create public queues to let everyone in the organization view the queue and all the items it contains.
+
+> [!IMPORTANT]
+> Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../developer/security-dev/security-model.md).
 
 > [!NOTE]
 > With the Customer Engagement apps version 9.1 release, queues in service management are available in the Customer Service Hub. We recommend that you create and manage queues using the new experience.

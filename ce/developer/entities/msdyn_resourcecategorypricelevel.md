@@ -1,37 +1,39 @@
 ---
-title: "msdyn_resourcecategorypricelevel Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_resourcecategorypricelevel Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_resourcecategorypricelevel entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_resourcecategorypricelevel Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 List of prices by role on a price list.
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_resourcecategorypricelevels<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_resourcecategorypricelevels(*msdyn_resourcecategorypricelevelid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_resourcecategorypricelevels<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_resourcecategorypricelevels(*msdyn_resourcecategorypricelevelid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_resourcecategorypricelevels(*msdyn_resourcecategorypricelevelid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_resourcecategorypricelevels<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_resourcecategorypricelevels(*msdyn_resourcecategorypricelevelid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_resourcecategorypricelevels(*msdyn_resourcecategorypricelevelid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_resourcecategorypricelevels(*msdyn_resourcecategorypricelevelid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_resourcecategorypricelevels<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_resourcecategorypricelevels(*msdyn_resourcecategorypricelevelid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_resourcecategorypricelevels(*msdyn_resourcecategorypricelevelid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -56,16 +58,17 @@ List of prices by role on a price list.
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_bookableresource](#BKMK_msdyn_bookableresource)
 - [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_organizationalunit](#BKMK_msdyn_organizationalunit)
 - [msdyn_percent](#BKMK_msdyn_percent)
 - [msdyn_Price](#BKMK_msdyn_Price)
-- [msdyn_pricecalculation](#BKMK_msdyn_pricecalculation)
 - [msdyn_PriceInPrimaryUnit](#BKMK_msdyn_PriceInPrimaryUnit)
 - [msdyn_PriceList](#BKMK_msdyn_PriceList)
 - [msdyn_PrimaryUnit](#BKMK_msdyn_PrimaryUnit)
 - [msdyn_ResourceCategory](#BKMK_msdyn_ResourceCategory)
 - [msdyn_resourcecategorypricelevelId](#BKMK_msdyn_resourcecategorypricelevelId)
+- [msdyn_transactioncategory](#BKMK_msdyn_transactioncategory)
 - [msdyn_Unit](#BKMK_msdyn_Unit)
 - [msdyn_UnitSchedule](#BKMK_msdyn_UnitSchedule)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -91,6 +94,20 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MinValue|-2147483648|
 |RequiredLevel|None|
 |Type|Integer|
+
+
+### <a name="BKMK_msdyn_bookableresource"></a> msdyn_bookableresource
+
+|Property|Value|
+|--------|-----|
+|Description|Select the bookable resource that the price is being set for.|
+|DisplayName|Resource|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_bookableresource|
+|RequiredLevel|None|
+|Targets|bookableresource|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_description"></a> msdyn_description
@@ -156,28 +173,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Money|
 
 
-### <a name="BKMK_msdyn_pricecalculation"></a> msdyn_pricecalculation
-
-|Property|Value|
-|--------|-----|
-|Description|Select the price calculation method to determine the price as a function of cost. This field is only relevant for expense categories.|
-|DisplayName|Price Calculation|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_pricecalculation|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### msdyn_pricecalculation Options
-
-|Value|Label|
-|-----|-----|
-|192350000|Price per unit|
-|192350001|At cost|
-|192350002|Markup percentage|
-
-
-
 ### <a name="BKMK_msdyn_PriceInPrimaryUnit"></a> msdyn_PriceInPrimaryUnit
 
 |Property|Value|
@@ -232,7 +227,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_resourcecategory|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Targets|bookableresourcecategory|
 |Type|Lookup|
 
@@ -249,6 +244,20 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|msdyn_resourcecategorypricelevelid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_transactioncategory"></a> msdyn_transactioncategory
+
+|Property|Value|
+|--------|-----|
+|Description|Select the transaction category that the price is being set for.|
+|DisplayName|Transaction Category|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_transactioncategory|
+|RequiredLevel|None|
+|Targets|msdyn_transactioncategory|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_Unit"></a> msdyn_Unit
@@ -356,6 +365,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the currency associated with the entity.|
@@ -384,7 +395,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -402,12 +415,15 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_bookableresourceName](#BKMK_msdyn_bookableresourceName)
 - [msdyn_organizationalunitName](#BKMK_msdyn_organizationalunitName)
 - [msdyn_price_Base](#BKMK_msdyn_price_Base)
+- [msdyn_pricecalculation](#BKMK_msdyn_pricecalculation)
 - [msdyn_priceinprimaryunit_Base](#BKMK_msdyn_priceinprimaryunit_Base)
 - [msdyn_PriceListName](#BKMK_msdyn_PriceListName)
 - [msdyn_PrimaryUnitName](#BKMK_msdyn_PrimaryUnitName)
 - [msdyn_ResourceCategoryName](#BKMK_msdyn_ResourceCategoryName)
+- [msdyn_transactioncategoryName](#BKMK_msdyn_transactioncategoryName)
 - [msdyn_UnitName](#BKMK_msdyn_UnitName)
 - [msdyn_UnitScheduleName](#BKMK_msdyn_UnitScheduleName)
 - [OrganizationId](#BKMK_OrganizationId)
@@ -417,6 +433,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -431,6 +449,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -447,6 +467,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -479,6 +501,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -492,6 +516,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -509,6 +535,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -524,6 +552,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -541,6 +571,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -554,6 +586,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -570,6 +604,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -602,6 +638,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -615,6 +653,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -632,6 +672,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -643,6 +685,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |LogicalName|modifiedonbehalfbyyominame|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_bookableresourceName"></a> msdyn_bookableresourceName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_bookableresourcename|
+|MaxLength|100|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -677,6 +735,28 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |PrecisionSource|2|
 |RequiredLevel|None|
 |Type|Money|
+
+
+### <a name="BKMK_msdyn_pricecalculation"></a> msdyn_pricecalculation
+
+|Property|Value|
+|--------|-----|
+|Description|Select the price calculation method to determine the price as a function of cost. This field is only relevant for expense categories.|
+|DisplayName|Price Calculation|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_pricecalculation|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_pricecalculation Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Price per unit|
+|192350001|At cost|
+|192350002|Markup percentage|
+
 
 
 ### <a name="BKMK_msdyn_priceinprimaryunit_Base"></a> msdyn_priceinprimaryunit_Base
@@ -744,6 +824,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_transactioncategoryName"></a> msdyn_transactioncategoryName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_transactioncategoryname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_UnitName"></a> msdyn_UnitName
 
 |Property|Value|
@@ -778,6 +874,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the organization|
@@ -791,6 +889,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -808,6 +908,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -823,6 +925,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -847,7 +951,6 @@ Listed by **SchemaName**.
 - [msdyn_resourcecategorypricelevel_DuplicateBaseRecord](#BKMK_msdyn_resourcecategorypricelevel_DuplicateBaseRecord)
 - [msdyn_resourcecategorypricelevel_AsyncOperations](#BKMK_msdyn_resourcecategorypricelevel_AsyncOperations)
 - [msdyn_resourcecategorypricelevel_MailboxTrackingFolders](#BKMK_msdyn_resourcecategorypricelevel_MailboxTrackingFolders)
-- [msdyn_resourcecategorypricelevel_UserEntityInstanceDatas](#BKMK_msdyn_resourcecategorypricelevel_UserEntityInstanceDatas)
 - [msdyn_resourcecategorypricelevel_ProcessSession](#BKMK_msdyn_resourcecategorypricelevel_ProcessSession)
 - [msdyn_resourcecategorypricelevel_BulkDeleteFailures](#BKMK_msdyn_resourcecategorypricelevel_BulkDeleteFailures)
 - [msdyn_resourcecategorypricelevel_PrincipalObjectAttributeAccesses](#BKMK_msdyn_resourcecategorypricelevel_PrincipalObjectAttributeAccesses)
@@ -855,6 +958,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_SyncErrors"></a> msdyn_resourcecategorypricelevel_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_resourcecategorypricelevel_SyncErrors](syncerror.md#BKMK_msdyn_resourcecategorypricelevel_SyncErrors) Many-To-One relationship.
 
@@ -871,6 +976,8 @@ Same as syncerror entity [msdyn_resourcecategorypricelevel_SyncErrors](syncerror
 
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_DuplicateMatchingRecord"></a> msdyn_resourcecategorypricelevel_DuplicateMatchingRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_resourcecategorypricelevel_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_resourcecategorypricelevel_DuplicateMatchingRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -885,6 +992,8 @@ Same as duplicaterecord entity [msdyn_resourcecategorypricelevel_DuplicateMatchi
 
 
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_DuplicateBaseRecord"></a> msdyn_resourcecategorypricelevel_DuplicateBaseRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_resourcecategorypricelevel_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_resourcecategorypricelevel_DuplicateBaseRecord) Many-To-One relationship.
 
@@ -901,6 +1010,8 @@ Same as duplicaterecord entity [msdyn_resourcecategorypricelevel_DuplicateBaseRe
 
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_AsyncOperations"></a> msdyn_resourcecategorypricelevel_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [msdyn_resourcecategorypricelevel_AsyncOperations](asyncoperation.md#BKMK_msdyn_resourcecategorypricelevel_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -916,6 +1027,8 @@ Same as asyncoperation entity [msdyn_resourcecategorypricelevel_AsyncOperations]
 
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_MailboxTrackingFolders"></a> msdyn_resourcecategorypricelevel_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_resourcecategorypricelevel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_resourcecategorypricelevel_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -929,22 +1042,9 @@ Same as mailboxtrackingfolder entity [msdyn_resourcecategorypricelevel_MailboxTr
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_msdyn_resourcecategorypricelevel_UserEntityInstanceDatas"></a> msdyn_resourcecategorypricelevel_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_resourcecategorypricelevel_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_resourcecategorypricelevel_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_resourcecategorypricelevel_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_ProcessSession"></a> msdyn_resourcecategorypricelevel_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_resourcecategorypricelevel_ProcessSession](processsession.md#BKMK_msdyn_resourcecategorypricelevel_ProcessSession) Many-To-One relationship.
 
@@ -961,6 +1061,8 @@ Same as processsession entity [msdyn_resourcecategorypricelevel_ProcessSession](
 
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_BulkDeleteFailures"></a> msdyn_resourcecategorypricelevel_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_resourcecategorypricelevel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_resourcecategorypricelevel_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -976,6 +1078,8 @@ Same as bulkdeletefailure entity [msdyn_resourcecategorypricelevel_BulkDeleteFai
 
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_PrincipalObjectAttributeAccesses"></a> msdyn_resourcecategorypricelevel_PrincipalObjectAttributeAccesses
 
+**Added by**: System Solution Solution
+
 Same as principalobjectattributeaccess entity [msdyn_resourcecategorypricelevel_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_resourcecategorypricelevel_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
 |Property|Value|
@@ -990,6 +1094,8 @@ Same as principalobjectattributeaccess entity [msdyn_resourcecategorypricelevel_
 
 
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_Annotations"></a> msdyn_resourcecategorypricelevel_Annotations
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [msdyn_resourcecategorypricelevel_Annotations](annotation.md#BKMK_msdyn_resourcecategorypricelevel_Annotations) Many-To-One relationship.
 
@@ -1015,7 +1121,9 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [lk_msdyn_resourcecategorypricelevel_modifiedonbehalfby](#BKMK_lk_msdyn_resourcecategorypricelevel_modifiedonbehalfby)
 - [organization_msdyn_resourcecategorypricelevel](#BKMK_organization_msdyn_resourcecategorypricelevel)
 - [TransactionCurrency_msdyn_resourcecategorypricelevel](#BKMK_TransactionCurrency_msdyn_resourcecategorypricelevel)
+- [msdyn_bookableresource_msdyn_resourcecategorypricelevel_bookableresource](#BKMK_msdyn_bookableresource_msdyn_resourcecategorypricelevel_bookableresource)
 - [msdyn_bookableresourcecategory_msdyn_resourcecategorypricelevel_ResourceCategory](#BKMK_msdyn_bookableresourcecategory_msdyn_resourcecategorypricelevel_ResourceCategory)
+- [msdyn_msdyn_transactioncategory_msdyn_resourcecategorypricelevel_transactioncategory](#BKMK_msdyn_msdyn_transactioncategory_msdyn_resourcecategorypricelevel_transactioncategory)
 - [msdyn_pricelevel_msdyn_resourcecategorypricelevel_PriceList](#BKMK_msdyn_pricelevel_msdyn_resourcecategorypricelevel_PriceList)
 - [msdyn_resourcecategorypricelevel_organizationalunit](#BKMK_msdyn_resourcecategorypricelevel_organizationalunit)
 - [msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit](#BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit)
@@ -1025,55 +1133,89 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_resourcecategorypricelevel_createdby"></a> lk_msdyn_resourcecategorypricelevel_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_resourcecategorypricelevel_createdby](systemuser.md#BKMK_lk_msdyn_resourcecategorypricelevel_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_resourcecategorypricelevel_createdonbehalfby"></a> lk_msdyn_resourcecategorypricelevel_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_resourcecategorypricelevel_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_resourcecategorypricelevel_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_resourcecategorypricelevel_modifiedby"></a> lk_msdyn_resourcecategorypricelevel_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_resourcecategorypricelevel_modifiedby](systemuser.md#BKMK_lk_msdyn_resourcecategorypricelevel_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_resourcecategorypricelevel_modifiedonbehalfby"></a> lk_msdyn_resourcecategorypricelevel_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_resourcecategorypricelevel_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_resourcecategorypricelevel_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_organization_msdyn_resourcecategorypricelevel"></a> organization_msdyn_resourcecategorypricelevel
 
+**Added by**: System Solution Solution
+
 See organization Entity [organization_msdyn_resourcecategorypricelevel](organization.md#BKMK_organization_msdyn_resourcecategorypricelevel) One-To-Many relationship.
 
 ### <a name="BKMK_TransactionCurrency_msdyn_resourcecategorypricelevel"></a> TransactionCurrency_msdyn_resourcecategorypricelevel
 
+**Added by**: System Solution Solution
+
 See transactioncurrency Entity [TransactionCurrency_msdyn_resourcecategorypricelevel](transactioncurrency.md#BKMK_TransactionCurrency_msdyn_resourcecategorypricelevel) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_bookableresource_msdyn_resourcecategorypricelevel_bookableresource"></a> msdyn_bookableresource_msdyn_resourcecategorypricelevel_bookableresource
+
+**Added by**: Scheduling Solution
+
+See bookableresource Entity [msdyn_bookableresource_msdyn_resourcecategorypricelevel_bookableresource](bookableresource.md#BKMK_msdyn_bookableresource_msdyn_resourcecategorypricelevel_bookableresource) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_resourcecategorypricelevel_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_resourcecategorypricelevel_ResourceCategory
 
+**Added by**: Scheduling Solution
+
 See bookableresourcecategory Entity [msdyn_bookableresourcecategory_msdyn_resourcecategorypricelevel_ResourceCategory](bookableresourcecategory.md#BKMK_msdyn_bookableresourcecategory_msdyn_resourcecategorypricelevel_ResourceCategory) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_resourcecategorypricelevel_transactioncategory"></a> msdyn_msdyn_transactioncategory_msdyn_resourcecategorypricelevel_transactioncategory
+
+See msdyn_transactioncategory Entity [msdyn_msdyn_transactioncategory_msdyn_resourcecategorypricelevel_transactioncategory](msdyn_transactioncategory.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_resourcecategorypricelevel_transactioncategory) One-To-Many relationship.
+
 ### <a name="BKMK_msdyn_pricelevel_msdyn_resourcecategorypricelevel_PriceList"></a> msdyn_pricelevel_msdyn_resourcecategorypricelevel_PriceList
+
+**Added by**: Product Management Solution
 
 See pricelevel Entity [msdyn_pricelevel_msdyn_resourcecategorypricelevel_PriceList](pricelevel.md#BKMK_msdyn_pricelevel_msdyn_resourcecategorypricelevel_PriceList) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_organizationalunit"></a> msdyn_resourcecategorypricelevel_organizationalunit
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_organizationalunit Entity [msdyn_resourcecategorypricelevel_organizationalunit](msdyn_organizationalunit.md#BKMK_msdyn_resourcecategorypricelevel_organizationalunit) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit"></a> msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit
+
+**Added by**: Product Management Solution
 
 See uom Entity [msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit](uom.md#BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_PrimaryUnit) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_Unit"></a> msdyn_uom_msdyn_resourcecategorypricelevel_Unit
 
+**Added by**: Product Management Solution
+
 See uom Entity [msdyn_uom_msdyn_resourcecategorypricelevel_Unit](uom.md#BKMK_msdyn_uom_msdyn_resourcecategorypricelevel_Unit) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule"></a> msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule
+
+**Added by**: Product Management Solution
 
 See uomschedule Entity [msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule](uomschedule.md#BKMK_msdyn_uomschedule_msdyn_resourcecategorypricelevel_UnitSchedule) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_resourcecategorypricelevel?text=msdyn_resourcecategorypricelevel EntityType" />

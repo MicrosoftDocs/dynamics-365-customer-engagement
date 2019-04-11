@@ -29,22 +29,9 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Many of the entities that you work with in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] require you to _go live_ before you can use them in your live marketing initiatives. The go-live process takes a record you are working with on your application server (such as an email message or customer journey), checks it for errors, prepares it for use, and moves the result to one of the external services used by [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] to process data-intensive features like bulk email sending, collecting and analyzing results, or populating dynamic segments. The go-live process is sometimes also referred to as _publishing_.
+Many of the entities that you work with in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] require you to _go live_ with a record before you can it them in your live marketing initiatives. The go-live process takes a record you are working with, checks it for errors, prepares it for use, and marks it as available. In some cases, the go-live process ends by moving the final record to a marketing service, which runs in parallel to your application instance and processes data-intensive features like bulk email sending, collecting and analyzing results, or populating dynamic segments. The go-live process is sometimes also referred to as _publishing_.
 
-Once a record is live, the version you have on your application server (the version you can open and edit in the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] UI), is just a local representation of a live process running on an external service. Some types of entities require the live process to be stopped before you can edit them, while others let you push updates from the app without stopping the live process. In some cases, you won't be able to make certain types of changes (or even any changes at all) once you have gone live with a given record.
-
-The following table lists all entities that have a go-live function and which services they are published to.
-
-| Entity | Live service |
-| --- | --- |
-| Marketing email messages | Marketing services |
-| Customer journeys | Marketing services |
-| Content settings | Marketing services |
-| Lead-scoring models | Customer-insights services |
-| Segments | Customer-insights services |
-| Marketing pages | Marketing services, shared with portals |
-| Marketing forms | Portals |
-| Events, sessions, and tracks | Portals |
+Some types of entities require a live records to be stopped before you can edit it, while others let you push updates from the app without stopping the live process. In some cases, you won't be able to make certain types of changes (or even any changes at all) once you have gone live with a given record.
 
 ## Monitor go-live status with status and status reason
 
@@ -208,7 +195,7 @@ All marketing-form settings are editable when the page has a status reason of Dr
 
 ## Events, session, and tracks go-live operations and status
 
-The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] generates an event website for that event rather than going live with the event record itself. The generated website displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the website, and any changes you make to a published event, and its related published records, will immediately be reflected on the website too.
+When you publish an event, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] makes that event available to the event website. The event website displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the record, and any changes you make to a published event, and its related published records, will immediately be reflected on the website too.
 
 Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event website shows a schedule of sessions that belong to each event. An event can include both published and unpublished sessions, but only published sessions belonging to published events are shown on the website.
 

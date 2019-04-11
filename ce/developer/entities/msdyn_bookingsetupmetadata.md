@@ -1,43 +1,45 @@
 ---
-title: "msdyn_bookingsetupmetadata Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_bookingsetupmetadata Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_bookingsetupmetadata entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_bookingsetupmetadata Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 
-**Added by**: Unified Resource Scheduling Solution<br />
+
+**Added by**: Universal Resource Scheduling Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas(*msdyn_bookingsetupmetadataid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas(*msdyn_bookingsetupmetadataid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas(*msdyn_bookingsetupmetadataid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas(*msdyn_bookingsetupmetadataid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas(*msdyn_bookingsetupmetadataid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas(*msdyn_bookingsetupmetadataid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas(*msdyn_bookingsetupmetadataid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas(*msdyn_bookingsetupmetadataid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas(*msdyn_bookingsetupmetadataid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_bookingsetupmetadatas(*msdyn_bookingsetupmetadataid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -62,6 +64,7 @@ search.app:
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_AvailableDurationMinimumPercentage](#BKMK_msdyn_AvailableDurationMinimumPercentage)
 - [msdyn_BookingRelationshipLogicalName](#BKMK_msdyn_BookingRelationshipLogicalName)
 - [msdyn_bookingsetupmetadataId](#BKMK_msdyn_bookingsetupmetadataId)
 - [msdyn_BookingStatusFieldLogicalName](#BKMK_msdyn_BookingStatusFieldLogicalName)
@@ -76,6 +79,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_DisableRequirementAutoCreation](#BKMK_msdyn_DisableRequirementAutoCreation)
 - [msdyn_EntityLogicalName](#BKMK_msdyn_EntityLogicalName)
 - [msdyn_RequirementRelationshipLogicalName](#BKMK_msdyn_RequirementRelationshipLogicalName)
+- [msdyn_ResourceAvailabilityRetrievalLimit](#BKMK_msdyn_ResourceAvailabilityRetrievalLimit)
 - [msdyn_RetrieveConstraintsQuery](#BKMK_msdyn_RetrieveConstraintsQuery)
 - [msdyn_RetrieveResourcesQuery](#BKMK_msdyn_RetrieveResourcesQuery)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -100,6 +104,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|importsequencenumber|
 |MaxValue|2147483647|
 |MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_AvailableDurationMinimumPercentage"></a> msdyn_AvailableDurationMinimumPercentage
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Available Duration Minimum(%)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_availabledurationminimumpercentage|
+|MaxValue|100|
+|MinValue|0|
 |RequiredLevel|None|
 |Type|Integer|
 
@@ -278,7 +298,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description||
-|DisplayName|Disable Requirement Auto Creation|
+|DisplayName|Disable Requirement Auto Creation for Bookings|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_disablerequirementautocreation|
@@ -328,6 +348,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_msdyn_ResourceAvailabilityRetrievalLimit"></a> msdyn_ResourceAvailabilityRetrievalLimit
+
+|Property|Value|
+|--------|-----|
+|Description|The maximum number of resources to retrieve and show in schedule assistant.|
+|DisplayName|Resource Availability Retrieval Limit|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_resourceavailabilityretrievallimit|
+|MaxValue|1000|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
+
+
 ### <a name="BKMK_msdyn_RetrieveConstraintsQuery"></a> msdyn_RetrieveConstraintsQuery
 
 |Property|Value|
@@ -374,6 +410,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -387,6 +425,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -474,7 +514,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -509,6 +551,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -522,6 +566,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -538,6 +584,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -570,6 +618,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -583,6 +633,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -600,6 +652,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -616,6 +670,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -629,6 +685,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -645,6 +703,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -677,6 +737,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -690,6 +752,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -706,6 +770,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -851,6 +917,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Name of the owner|
@@ -866,6 +934,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -883,6 +953,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -896,6 +968,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -911,6 +985,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -924,6 +1000,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -946,7 +1024,6 @@ Listed by **SchemaName**.
 - [msdyn_bookingsetupmetadata_SyncErrors](#BKMK_msdyn_bookingsetupmetadata_SyncErrors)
 - [msdyn_bookingsetupmetadata_AsyncOperations](#BKMK_msdyn_bookingsetupmetadata_AsyncOperations)
 - [msdyn_bookingsetupmetadata_MailboxTrackingFolders](#BKMK_msdyn_bookingsetupmetadata_MailboxTrackingFolders)
-- [msdyn_bookingsetupmetadata_UserEntityInstanceDatas](#BKMK_msdyn_bookingsetupmetadata_UserEntityInstanceDatas)
 - [msdyn_bookingsetupmetadata_ProcessSession](#BKMK_msdyn_bookingsetupmetadata_ProcessSession)
 - [msdyn_bookingsetupmetadata_BulkDeleteFailures](#BKMK_msdyn_bookingsetupmetadata_BulkDeleteFailures)
 - [msdyn_bookingsetupmetadata_PrincipalObjectAttributeAccesses](#BKMK_msdyn_bookingsetupmetadata_PrincipalObjectAttributeAccesses)
@@ -955,6 +1032,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_bookingsetupmetadata_SyncErrors"></a> msdyn_bookingsetupmetadata_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_bookingsetupmetadata_SyncErrors](syncerror.md#BKMK_msdyn_bookingsetupmetadata_SyncErrors) Many-To-One relationship.
 
@@ -966,10 +1045,12 @@ Same as syncerror entity [msdyn_bookingsetupmetadata_SyncErrors](syncerror.md#BK
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_bookingsetupmetadata_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_bookingsetupmetadata_AsyncOperations"></a> msdyn_bookingsetupmetadata_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_bookingsetupmetadata_AsyncOperations](asyncoperation.md#BKMK_msdyn_bookingsetupmetadata_AsyncOperations) Many-To-One relationship.
 
@@ -986,6 +1067,8 @@ Same as asyncoperation entity [msdyn_bookingsetupmetadata_AsyncOperations](async
 
 ### <a name="BKMK_msdyn_bookingsetupmetadata_MailboxTrackingFolders"></a> msdyn_bookingsetupmetadata_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_bookingsetupmetadata_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_bookingsetupmetadata_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -996,25 +1079,12 @@ Same as mailboxtrackingfolder entity [msdyn_bookingsetupmetadata_MailboxTracking
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_bookingsetupmetadata_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_bookingsetupmetadata_UserEntityInstanceDatas"></a> msdyn_bookingsetupmetadata_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_bookingsetupmetadata_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_bookingsetupmetadata_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_bookingsetupmetadata_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_bookingsetupmetadata_ProcessSession"></a> msdyn_bookingsetupmetadata_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_bookingsetupmetadata_ProcessSession](processsession.md#BKMK_msdyn_bookingsetupmetadata_ProcessSession) Many-To-One relationship.
 
@@ -1031,6 +1101,8 @@ Same as processsession entity [msdyn_bookingsetupmetadata_ProcessSession](proces
 
 ### <a name="BKMK_msdyn_bookingsetupmetadata_BulkDeleteFailures"></a> msdyn_bookingsetupmetadata_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_bookingsetupmetadata_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_bookingsetupmetadata_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -1045,6 +1117,8 @@ Same as bulkdeletefailure entity [msdyn_bookingsetupmetadata_BulkDeleteFailures]
 
 
 ### <a name="BKMK_msdyn_bookingsetupmetadata_PrincipalObjectAttributeAccesses"></a> msdyn_bookingsetupmetadata_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [msdyn_bookingsetupmetadata_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_bookingsetupmetadata_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -1113,37 +1187,55 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_bookingsetupmetadata_createdby"></a> lk_msdyn_bookingsetupmetadata_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_bookingsetupmetadata_createdby](systemuser.md#BKMK_lk_msdyn_bookingsetupmetadata_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_bookingsetupmetadata_createdonbehalfby"></a> lk_msdyn_bookingsetupmetadata_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_bookingsetupmetadata_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_bookingsetupmetadata_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_bookingsetupmetadata_modifiedby"></a> lk_msdyn_bookingsetupmetadata_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_bookingsetupmetadata_modifiedby](systemuser.md#BKMK_lk_msdyn_bookingsetupmetadata_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_bookingsetupmetadata_modifiedonbehalfby"></a> lk_msdyn_bookingsetupmetadata_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_bookingsetupmetadata_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_bookingsetupmetadata_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_bookingsetupmetadata"></a> user_msdyn_bookingsetupmetadata
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_msdyn_bookingsetupmetadata](systemuser.md#BKMK_user_msdyn_bookingsetupmetadata) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_bookingsetupmetadata"></a> team_msdyn_bookingsetupmetadata
+
+**Added by**: System Solution Solution
 
 See team Entity [team_msdyn_bookingsetupmetadata](team.md#BKMK_team_msdyn_bookingsetupmetadata) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_bookingsetupmetadata"></a> business_unit_msdyn_bookingsetupmetadata
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_msdyn_bookingsetupmetadata](businessunit.md#BKMK_business_unit_msdyn_bookingsetupmetadata) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus"></a> msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus
 
+**Added by**: Scheduling Solution
+
 See bookingstatus Entity [msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus](bookingstatus.md#BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCanceledStatus) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus"></a> msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus
+
+**Added by**: Scheduling Solution
 
 See bookingstatus Entity [msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus](bookingstatus.md#BKMK_msdyn_bookingstatus_msdyn_bookingsetupmetadata_DefaultBookingCommittedStatus) One-To-Many relationship.
 
@@ -1174,6 +1266,6 @@ See msdyn_requirementstatus Entity [msdyn_msdyn_requirementstatus_msdyn_bookings
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_bookingsetupmetadata?text=msdyn_bookingsetupmetadata EntityType" />

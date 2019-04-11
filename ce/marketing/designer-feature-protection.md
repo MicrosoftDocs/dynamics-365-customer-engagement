@@ -36,7 +36,8 @@ Designer feature protection lets you control which users have access to which fe
 
 To control access to these designer features:
 
-1. Go to **Settings** > **Designer feature protection**. This opens a list of currently defined protection rules, each of which shows which user or group is being denied access to which features. Each row sets a rule for exactly one user or group.
+1. Go to **Settings** > **Designer feature protection**. This opens a list of currently defined protection rules, each of which shows which user or group is being denied access to which features. Each row sets a rule for exactly one user or group.    
+    ![Navigate to Designer feature protection](media/designer-protection-nav.png "Navigate to Designer feature protection")
 
 1. Do one of the following:
     - To edit an existing rule, select it from the list and then choose **Edit** from the command bar (or double-click on it).

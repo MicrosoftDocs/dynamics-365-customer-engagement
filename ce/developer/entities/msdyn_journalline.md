@@ -1,43 +1,45 @@
 ---
-title: "msdyn_journalline Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_journalline Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_journalline entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_journalline Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Unposted business transaction line details.
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_journallines(*msdyn_journallineid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_journallines<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_journallines(*msdyn_journallineid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_journallines(*msdyn_journallineid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_journallines<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_journallines(*msdyn_journallineid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_journallines(*msdyn_journallineid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_journallines<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_journallines(*msdyn_journallineid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_journallines<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_journallines(*msdyn_journallineid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_journallines(*msdyn_journallineid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_journallines(*msdyn_journallineid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_journallines(*msdyn_journallineid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -95,6 +97,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_ResourceOrganizationalUnitId](#BKMK_msdyn_ResourceOrganizationalUnitId)
 - [msdyn_SalesContract](#BKMK_msdyn_SalesContract)
 - [msdyn_SalesContractLine](#BKMK_msdyn_SalesContractLine)
+- [msdyn_SalesContractLineId](#BKMK_msdyn_SalesContractLineId)
 - [msdyn_StartDateTime](#BKMK_msdyn_StartDateTime)
 - [msdyn_Task](#BKMK_msdyn_Task)
 - [msdyn_TransactionCategory](#BKMK_msdyn_TransactionCategory)
@@ -284,6 +287,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350001|Customer Invoice Created|
 |192350002|Customer Invoice Posted|
 |192350003|Canceled|
+|192350004|Ready to Invoice|
 |690970000|Work order closed - posted|
 
 
@@ -653,8 +657,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the project contract line.|
-|DisplayName|Project Contract Line|
+|Description|(Deprecated) Shows the project contract line.|
+|DisplayName|(Deprecated) Project Contract Line|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -663,6 +667,20 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_SalesContractLineId"></a> msdyn_SalesContractLineId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Project Contract Line associated with Journal Line.|
+|DisplayName|Project Contract Line|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_salescontractlineid|
+|RequiredLevel|None|
+|Targets|salesorderdetail|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_StartDateTime"></a> msdyn_StartDateTime
@@ -827,6 +845,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -840,6 +860,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -913,6 +935,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the currency associated with the entity.|
@@ -941,7 +965,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -979,6 +1005,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [msdyn_ProjectName](#BKMK_msdyn_ProjectName)
 - [msdyn_ResourceCategoryName](#BKMK_msdyn_ResourceCategoryName)
 - [msdyn_ResourceOrganizationalUnitIdName](#BKMK_msdyn_ResourceOrganizationalUnitIdName)
+- [msdyn_SalesContractLineIdName](#BKMK_msdyn_SalesContractLineIdName)
 - [msdyn_SalesContractName](#BKMK_msdyn_SalesContractName)
 - [msdyn_TaskName](#BKMK_msdyn_TaskName)
 - [msdyn_TransactionCategoryName](#BKMK_msdyn_TransactionCategoryName)
@@ -995,6 +1022,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -1008,6 +1037,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1024,6 +1055,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1056,6 +1089,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -1069,6 +1104,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1086,6 +1123,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1101,6 +1140,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1118,6 +1159,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -1131,6 +1174,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1147,6 +1192,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1179,6 +1226,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -1192,6 +1241,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1208,6 +1259,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1547,6 +1600,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_SalesContractLineIdName"></a> msdyn_SalesContractLineIdName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_salescontractlineidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_SalesContractName"></a> msdyn_SalesContractName
 
 |Property|Value|
@@ -1629,6 +1698,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Name of the owner|
@@ -1644,6 +1715,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1661,6 +1734,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -1674,6 +1749,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1689,6 +1766,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -1702,6 +1781,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1718,6 +1799,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1742,7 +1825,6 @@ Listed by **SchemaName**.
 - [msdyn_journalline_DuplicateBaseRecord](#BKMK_msdyn_journalline_DuplicateBaseRecord)
 - [msdyn_journalline_AsyncOperations](#BKMK_msdyn_journalline_AsyncOperations)
 - [msdyn_journalline_MailboxTrackingFolders](#BKMK_msdyn_journalline_MailboxTrackingFolders)
-- [msdyn_journalline_UserEntityInstanceDatas](#BKMK_msdyn_journalline_UserEntityInstanceDatas)
 - [msdyn_journalline_ProcessSession](#BKMK_msdyn_journalline_ProcessSession)
 - [msdyn_journalline_BulkDeleteFailures](#BKMK_msdyn_journalline_BulkDeleteFailures)
 - [msdyn_journalline_PrincipalObjectAttributeAccesses](#BKMK_msdyn_journalline_PrincipalObjectAttributeAccesses)
@@ -1751,6 +1833,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_journalline_SyncErrors"></a> msdyn_journalline_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_journalline_SyncErrors](syncerror.md#BKMK_msdyn_journalline_SyncErrors) Many-To-One relationship.
 
@@ -1762,10 +1846,12 @@ Same as syncerror entity [msdyn_journalline_SyncErrors](syncerror.md#BKMK_msdyn_
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_journalline_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_journalline_DuplicateMatchingRecord"></a> msdyn_journalline_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_journalline_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_journalline_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -1782,6 +1868,8 @@ Same as duplicaterecord entity [msdyn_journalline_DuplicateMatchingRecord](dupli
 
 ### <a name="BKMK_msdyn_journalline_DuplicateBaseRecord"></a> msdyn_journalline_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_journalline_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_journalline_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -1796,6 +1884,8 @@ Same as duplicaterecord entity [msdyn_journalline_DuplicateBaseRecord](duplicate
 
 
 ### <a name="BKMK_msdyn_journalline_AsyncOperations"></a> msdyn_journalline_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_journalline_AsyncOperations](asyncoperation.md#BKMK_msdyn_journalline_AsyncOperations) Many-To-One relationship.
 
@@ -1812,6 +1902,8 @@ Same as asyncoperation entity [msdyn_journalline_AsyncOperations](asyncoperation
 
 ### <a name="BKMK_msdyn_journalline_MailboxTrackingFolders"></a> msdyn_journalline_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_journalline_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_journalline_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -1822,25 +1914,12 @@ Same as mailboxtrackingfolder entity [msdyn_journalline_MailboxTrackingFolders](
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_journalline_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_journalline_UserEntityInstanceDatas"></a> msdyn_journalline_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_journalline_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_journalline_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_journalline_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_journalline_ProcessSession"></a> msdyn_journalline_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_journalline_ProcessSession](processsession.md#BKMK_msdyn_journalline_ProcessSession) Many-To-One relationship.
 
@@ -1857,6 +1936,8 @@ Same as processsession entity [msdyn_journalline_ProcessSession](processsession.
 
 ### <a name="BKMK_msdyn_journalline_BulkDeleteFailures"></a> msdyn_journalline_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_journalline_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_journalline_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -1872,6 +1953,8 @@ Same as bulkdeletefailure entity [msdyn_journalline_BulkDeleteFailures](bulkdele
 
 ### <a name="BKMK_msdyn_journalline_PrincipalObjectAttributeAccesses"></a> msdyn_journalline_PrincipalObjectAttributeAccesses
 
+**Added by**: System Solution Solution
+
 Same as principalobjectattributeaccess entity [msdyn_journalline_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_journalline_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
 |Property|Value|
@@ -1886,6 +1969,8 @@ Same as principalobjectattributeaccess entity [msdyn_journalline_PrincipalObject
 
 
 ### <a name="BKMK_msdyn_journalline_Annotations"></a> msdyn_journalline_Annotations
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [msdyn_journalline_Annotations](annotation.md#BKMK_msdyn_journalline_Annotations) Many-To-One relationship.
 
@@ -1943,63 +2028,92 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [msdyn_pricelevel_msdyn_journalline_PriceList](#BKMK_msdyn_pricelevel_msdyn_journalline_PriceList)
 - [msdyn_product_msdyn_journalline_Product](#BKMK_msdyn_product_msdyn_journalline_Product)
 - [msdyn_salesorder_msdyn_journalline_SalesContract](#BKMK_msdyn_salesorder_msdyn_journalline_SalesContract)
+- [msdyn_salesorderdetail_msdyn_journalline](#BKMK_msdyn_salesorderdetail_msdyn_journalline)
 - [msdyn_uom_msdyn_journalline_Unit](#BKMK_msdyn_uom_msdyn_journalline_Unit)
 - [msdyn_uomschedule_msdyn_journalline_UnitSchedule](#BKMK_msdyn_uomschedule_msdyn_journalline_UnitSchedule)
 
 
 ### <a name="BKMK_lk_msdyn_journalline_createdby"></a> lk_msdyn_journalline_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_journalline_createdby](systemuser.md#BKMK_lk_msdyn_journalline_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_journalline_createdonbehalfby"></a> lk_msdyn_journalline_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_journalline_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_journalline_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_journalline_modifiedby"></a> lk_msdyn_journalline_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_journalline_modifiedby](systemuser.md#BKMK_lk_msdyn_journalline_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_journalline_modifiedonbehalfby"></a> lk_msdyn_journalline_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_journalline_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_journalline_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_journalline"></a> user_msdyn_journalline
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_msdyn_journalline](systemuser.md#BKMK_user_msdyn_journalline) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_journalline"></a> team_msdyn_journalline
+
+**Added by**: System Solution Solution
 
 See team Entity [team_msdyn_journalline](team.md#BKMK_team_msdyn_journalline) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_journalline"></a> business_unit_msdyn_journalline
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_msdyn_journalline](businessunit.md#BKMK_business_unit_msdyn_journalline) One-To-Many relationship.
 
 ### <a name="BKMK_TransactionCurrency_msdyn_journalline"></a> TransactionCurrency_msdyn_journalline
+
+**Added by**: System Solution Solution
 
 See transactioncurrency Entity [TransactionCurrency_msdyn_journalline](transactioncurrency.md#BKMK_TransactionCurrency_msdyn_journalline) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_account_msdyn_journalline_AccountCustomer"></a> msdyn_account_msdyn_journalline_AccountCustomer
 
+**Added by**: System Solution Solution
+
 See account Entity [msdyn_account_msdyn_journalline_AccountCustomer](account.md#BKMK_msdyn_account_msdyn_journalline_AccountCustomer) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_account_msdyn_journalline_AccountVendor"></a> msdyn_account_msdyn_journalline_AccountVendor
+
+**Added by**: System Solution Solution
 
 See account Entity [msdyn_account_msdyn_journalline_AccountVendor](account.md#BKMK_msdyn_account_msdyn_journalline_AccountVendor) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookableresource_msdyn_journalline_bookableresource"></a> msdyn_bookableresource_msdyn_journalline_bookableresource
 
+**Added by**: Scheduling Solution
+
 See bookableresource Entity [msdyn_bookableresource_msdyn_journalline_bookableresource](bookableresource.md#BKMK_msdyn_bookableresource_msdyn_journalline_bookableresource) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_journalline_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_journalline_ResourceCategory
+
+**Added by**: Scheduling Solution
 
 See bookableresourcecategory Entity [msdyn_bookableresourcecategory_msdyn_journalline_ResourceCategory](bookableresourcecategory.md#BKMK_msdyn_bookableresourcecategory_msdyn_journalline_ResourceCategory) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_contact_msdyn_journalline_ContactCustomer"></a> msdyn_contact_msdyn_journalline_ContactCustomer
 
+**Added by**: System Solution Solution
+
 See contact Entity [msdyn_contact_msdyn_journalline_ContactCustomer](contact.md#BKMK_msdyn_contact_msdyn_journalline_ContactCustomer) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_contact_msdyn_journalline_ContactVendor"></a> msdyn_contact_msdyn_journalline_ContactVendor
+
+**Added by**: System Solution Solution
 
 See contact Entity [msdyn_contact_msdyn_journalline_ContactVendor](contact.md#BKMK_msdyn_contact_msdyn_journalline_ContactVendor) One-To-Many relationship.
 
@@ -2008,6 +2122,8 @@ See contact Entity [msdyn_contact_msdyn_journalline_ContactVendor](contact.md#BK
 See msdyn_journal Entity [msdyn_msdyn_journal_msdyn_journalline_Journal](msdyn_journal.md#BKMK_msdyn_msdyn_journal_msdyn_journalline_Journal) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId"></a> msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_organizationalunit Entity [msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId](msdyn_organizationalunit.md#BKMK_msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId) One-To-Many relationship.
 
@@ -2025,31 +2141,49 @@ See msdyn_transactioncategory Entity [msdyn_msdyn_transactioncategory_msdyn_jour
 
 ### <a name="BKMK_msdyn_organizationalunit_journalline"></a> msdyn_organizationalunit_journalline
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_organizationalunit Entity [msdyn_organizationalunit_journalline](msdyn_organizationalunit.md#BKMK_msdyn_organizationalunit_journalline) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_pricelevel_msdyn_journalline_PriceList"></a> msdyn_pricelevel_msdyn_journalline_PriceList
+
+**Added by**: Product Management Solution
 
 See pricelevel Entity [msdyn_pricelevel_msdyn_journalline_PriceList](pricelevel.md#BKMK_msdyn_pricelevel_msdyn_journalline_PriceList) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_product_msdyn_journalline_Product"></a> msdyn_product_msdyn_journalline_Product
 
+**Added by**: Product Management Solution
+
 See product Entity [msdyn_product_msdyn_journalline_Product](product.md#BKMK_msdyn_product_msdyn_journalline_Product) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_salesorder_msdyn_journalline_SalesContract"></a> msdyn_salesorder_msdyn_journalline_SalesContract
 
+**Added by**: Sales Solution
+
 See salesorder Entity [msdyn_salesorder_msdyn_journalline_SalesContract](salesorder.md#BKMK_msdyn_salesorder_msdyn_journalline_SalesContract) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_salesorderdetail_msdyn_journalline"></a> msdyn_salesorderdetail_msdyn_journalline
+
+**Added by**: Sales Solution
+
+See salesorderdetail Entity [msdyn_salesorderdetail_msdyn_journalline](salesorderdetail.md#BKMK_msdyn_salesorderdetail_msdyn_journalline) One-To-Many relationship.
+
 ### <a name="BKMK_msdyn_uom_msdyn_journalline_Unit"></a> msdyn_uom_msdyn_journalline_Unit
+
+**Added by**: Product Management Solution
 
 See uom Entity [msdyn_uom_msdyn_journalline_Unit](uom.md#BKMK_msdyn_uom_msdyn_journalline_Unit) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_uomschedule_msdyn_journalline_UnitSchedule"></a> msdyn_uomschedule_msdyn_journalline_UnitSchedule
+
+**Added by**: Product Management Solution
 
 See uomschedule Entity [msdyn_uomschedule_msdyn_journalline_UnitSchedule](uomschedule.md#BKMK_msdyn_uomschedule_msdyn_journalline_UnitSchedule) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_journalline?text=msdyn_journalline EntityType" />
