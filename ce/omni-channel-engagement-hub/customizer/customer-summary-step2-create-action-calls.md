@@ -93,4 +93,58 @@ This topic demonstrates how to create customer summary hosted control in Unified
     > | General | Action         | Navigate | 
     > | General | Data | url=/main.aspx?navbar=off&cmdbar=false&pagetype=entityrecord&etn=msdyn_ocliveworkitem&formid=5fe86453-73ea-4821-b6dd-ddc06e1755a1&bodyOnly=true <br> Hidenav=true |
 
+    > [!div class="mx-tdBreakAll"]
+    > | Tab | Field      | Value                       |
+    > |------------------|----------------------|---------------------------------|
+    > | General | Name           | Omni-channel Clear Context Entities |
+    > | General | Order | 1 |
+    > | General | Hosted Control | CRM Global Manager |
+    > | General | Action         | ClearEntityList | 
+    > | General | Data | global=True |    
+
+    > [!div class="mx-tdBreakAll"]
+    > | Tab | Field      | Value                       |
+    > |------------------|----------------------|---------------------------------|
+    > | General | Name           | Omni-channel Copy Contact Ids To Context |
+    > | General | Order | 2 |
+    > | General | Hosted Control | CRM Global Manager |
+    > | General | Action         | CopyToContext | 
+    > | General | Data | contactIds = \[\[contact\]+\] |
+
+    > [!div class="mx-tdBreakAll"]
+    > | Tab | Field      | Value                       |
+    > |------------------|----------------------|---------------------------------|
+    > | General | Name           | Omni-channel Fetch Context Contacts |
+    > | General | Order | 3 |
+    > | General | Hosted Control | CRM Global Manager |
+    > | General | Action         | DoSearch | 
+    > | General | Data | ContextContactSearch <br> global=True |
+    | Advanced | Condition | $Expression('\[\[$Context.contactIds\]+\]' == '' ? "false" : "true") |
+
+    > [!div class="mx-tdBreakAll"]
+    > | Tab | Field      | Value                       |
+    > |------------------|----------------------|---------------------------------|
+    > | General | Name           | Omni-channel Save Context Entities on Update |
+    > | General | Order | 4 |
+    > | General | Hosted Control | Communication Panel |
+    > | General | Action         | OmnichannelSaveUpdatedContextEntities | 
+    > | General | Data | LiveWorkItemId=\[\[LiveWorkItemId\]+\] | 
+
+    > [!div class="mx-tdBreakAll"]
+    > | Tab | Field      | Value                       |
+    > |------------------|----------------------|---------------------------------|
+    > | General | Name           | Initialize Omni-channel Context - Window Variable - Customer Summary |
+    > | General | Order | 5 |
+    > | General | Hosted Control | Customer Summary |
+    > | General | Action         | RunScript | 
+    > | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]'); <br> var session = {"LiveWorkItemId" : "\[\[$Context.LiveWorkItemId\]+\]", "OCSessionId" : "\[\[$Context.OCSessionId\]+\]", "LiveWorkStreamId" : "\[\[$Context.LiveWorkStreamId\]+\]", "LiveWorkItemContext" : '\[\[$Context.LiveWorkItemContext\]\]', "SessionInfo": '\[\[$Context.SessionInfo\]+\]'}; <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> } <br> initOCContext(); |
+
+    > [!div class="mx-tdBreakAll"]
+    > | Tab | Field      | Value                       |
+    > |------------------|----------------------|---------------------------------|
+    > | General | Name           | Refresh Customer Summary Controls |
+    > | General | Order | 6 |
+    > | General | Hosted Control | Customer Summary |
+    > | General | Action         | RunScript | 
+    > | General | Data | function refreshControls() { <br> MscrmControls.FormInitiator.FormInitiatorControl.updateLinkedRecords(); <br> } <br> refreshControls(); |
     
