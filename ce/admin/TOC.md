@@ -1,5 +1,5 @@
 # [Administer Dynamics 365 for Customer Engagement](admin-guide.md)
-# [Release history](release-history.md)
+# [What's new](release-history.md)
 # [Getting started with your subscription](getting-started.md)
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
