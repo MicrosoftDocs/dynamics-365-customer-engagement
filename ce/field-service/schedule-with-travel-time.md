@@ -185,13 +185,12 @@ If a field technician begins travel to his or her next work order and sees the t
 
 - By adding a travel charge to the service account of the work order, you can charge the customer of a work order a fee for travel time and distance. See the topic on [adding account related details to work orders](../field-service/work-order-customer-account.md) for more details.
 - A field technicians current location as derived from his or her mobile device running the Field Service Mobile app can be used for travel time and distance calculations with the scheduling assistant. This is called Real Time Mode. See the topic on [enabling and testing location auditing]([../field-service/work-order-customer-account.md](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/geofencing#step-5-test-location-auditing)) for more details.
-- can use other map services for travel time calculations
+- By default Field Service uses the Bing Maps API for travel time and distance calculations but other APIs such as Google Maps can be utilized as well.  
 
 ## Additional notes
 
-- travel time is only driving time, not walking or flying
-- historical travel time is currently not included
-- consider processes to support what happens if travel time is long and technician is running late
+- The out of the box functionality only supports travel time and distance calculations for driving, not walking or flying.
+
 - Travel time updates for manual scheduling
   - what if an onsite requirement is manually scheduled to a location agnostic resource? no travel time is calculated, however if an onsite requirement is scheudled after an onsite requirement travel tim will be added
   - org wide
