@@ -31,6 +31,7 @@
 ## [Postal codes](set-up-postal-codes.md)
 ## [Tax codes](set-up-tax-codes.md)
 ## [Service level agreements](sla-work-orders.md)
+## [Entitlements](work-order-entitlements.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
