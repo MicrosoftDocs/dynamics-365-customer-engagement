@@ -175,17 +175,11 @@ To help dispatchers make smarter scheduling decisions, current traffic patterns 
 > ![Screenshot of ](./media/scheduling-schedule-board-traffic.png)
 
 > [!Note]
-> Travel time calculations do not reflect traffic patterns or historical travel times based on time of day or year.
+> Currently, travel time calculations do not reflect traffic patterns or historical travel times based on time of day or year.
 
-Scheduling based on real time traffic is generally not applicable since most organizations schedule days or weeks in advance and you cannot predict real time traffic ahead of time. In instances of emergencies are you want to use real time location with real time
-  
-to use real time traffic and real time location...
+Scheduling based on real time traffic is generally not applicable since most organizations schedule days or weeks in advance and you cannot predict real time traffic ahead of time. 
 
-to use historical travel times...
-
-  - display traffic on the schedule board
-  - real time traffic is not supported
-  - bing maps api can use historical information
+If a field technician begins travel to his or her next work order and sees the travel time is much longer than estimated by the system, then he or she should indicate this with a custom booking status of "running late" so dispatchers are aware and can plan accordingly. In addition, Bing Maps and other mapping providers can provide real time and historical travel time calculations, and this information can be called via [Microsoft Flow](https://flow.microsoft.com/en-us/galleries/public/templates/71e9c3773102499fafba51edf94ebbd7/get-travel-time-and-distance-in-current-traffic-to-reach-the-destination/) to calculate if the current travel time is greater than the estimated travel time and automatically update the booking status accordingly.
 
 ## Configuration considerations
 
