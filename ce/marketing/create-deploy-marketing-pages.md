@@ -42,7 +42,7 @@ Marketing pages integrate with&mdash;and provide expanded functionality for&mdas
 
 The overall process of creating a new marketing page and making it available on the web goes through the following stages:
 
-1. Go to **Lead Management** &gt; **Marketing Pages**, and select **New** in the command bar to start creating a new page.
+1. Go to **Marketing** > **Internet Marketing** > **Marketing Pages**, and select **New** in the command bar to start creating a new page.
 
 2. Choose a page template, which creates your initial design by establishing the page type, column layout, and sample content.
 
@@ -53,6 +53,8 @@ The overall process of creating a new marketing page and making it available on 
 5. Select **Save** in the command bar. Your page is now verified and saved in your system, but is still not available on the web. Select **Go Live** to publish it by using the portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], where it will be made available at a public URL. You are now ready to start promoting it by including links to it in your marketing email messages, banners, social-media posts, and other marketing initiatives.
 
 The remainder of this topic provides more information about these steps, including how to work with forms and form fields, how to integrate marketing pages into emails and customer journeys, and how to read and interpret results.
+
+<a name="page-types"></a>
 
 ## Types of marketing pages
 
@@ -73,9 +75,22 @@ There are three basic types of marketing pages:
 
 To create a new marketing page, do one of the following:
 
-- Go to **Marketing** &gt; **Lead Management** &gt; **Marketing Pages** to go to the full list of all pages currently available on your instance, and then select **+New** in the command bar. You'll first be asked to choose a template, which establishes the page type and column layout and might also provide sample content. Then you'll be in the content designer, where you can start designing your page.
+- Go to **Marketing** > **Internet Marketing** > **Marketing Pages** to go to the full list of all pages currently available on your instance, and then select **+New** in the command bar. You'll first be asked to choose a template, which establishes the page type and column layout and might also provide sample content. Then you'll be in the content designer, where you can start designing your page.
 
-- While working in a marketing email message or customer journey, add a marketing page tile or design element to your journey or message, and then select **+New** on the **Properties** tab instead of choosing an existing page. A quick-create flyout slides in from the side of the screen, where you must enter values for all required fields and then select **OK**. A new marketing page is created with your selected settings and is applied to your new customer-journey tile. However, you'll still need to finish the page later by choosing a template and customizing it as needed. You can do that now by selecting **Edit** on the **Properties** tab while the page is selected, or you can do it later either from here, or from the full list at **Marketing** &gt; **Lead Management** &gt; **Marketing Pages**.
+- While working in a marketing email message or customer journey, add a marketing page tile or design element to your journey or message, and then select **+New** on the **Properties** tab instead of choosing an existing page. A quick-create flyout slides in from the side of the screen, where you must enter values for all required fields and then select **OK**. A new marketing page is created with your selected settings and is applied to your new customer-journey tile. However, you'll still need to finish the page later by choosing a template and customizing it as needed. You can do that now by selecting **Edit** on the **Properties** tab while the page is selected, or you can do it later either from here, or from the full list at **Marketing** > **Internet Marketing** > **Marketing Pages**.
+
+### Set the required field values
+
+Every time you create a new marketing page, you must fill out the fields provided in the header of the page.  
+![Required fields for a new page](media/page-required-fields.png "Required fields for a new page")
+
+Make the following settings here:
+
+- **Name**: Enter a name for the page that you can easily recognize later. This name is internal-only.
+- **Type**: Choose the [type of page](page-types) you are making. Each type has different requirements and options.
+- **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal server, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
+
+Select **Save** on the command bar after you've finished making these settings.
 
 ### Design your content
 
@@ -122,7 +137,7 @@ You can create customer journeys that include triggers that react to marketing p
 
 To view form submissions and analytics about page usage and performance:
 
-1. Go to **Lead Management** &gt; **Marketing Pages** and use the search, sort, and filtering controls to find the page you want to inspect.
+1. Go to **Marketing** > **Internet Marketing** > **Marketing Pages** and use the search, sort, and filtering controls to find the page you want to inspect.
 
 1. Use the drop-down list above the marketing-page name to switch to the **Insights** entity form.
 
