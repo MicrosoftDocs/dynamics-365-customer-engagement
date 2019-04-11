@@ -61,3 +61,8 @@ This topic demonstrates how to create customer summary hosted control in Unified
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 2: Create customer summary related action Calls](customer-summary-step2-create-action-calls.md)
+
+## See also
+
+- [Step 3: Attach customer summary related action Calls to events](customer-summary-step3-attach-action-calls-events.md)
+- [Step 4: Add the hosted control, action calls, and events to Configurations](customer-summary-step4-attach-action-calls-events.md)

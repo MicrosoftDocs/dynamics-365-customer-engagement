@@ -1,6 +1,6 @@
 ---
-title: "Steps create communication panel related action calls | MicrosoftDocs"
-description: "Learn how to set up the communication panel related action calls for agents using Omni-channel Engagement Hub."
+title: "Steps or procedure to add hosted control, action calls, and events to configurations | MicrosoftDocs"
+description: "Learn how to add hosted control, action calls, and events to configurations for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -8,21 +8,21 @@ applies_to:
 ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 6DA89CD7-F4D1-438C-B55D-A3AB04E2679C
+ms.assetid: CA19D28A-F33D-46B5-B3A9-9243032297F7
 ms.custom: 
 ---
 
-# Step 4:  Add the hosted control, action calls, and events to Configurations
+# Step 4: Add the hosted control, action calls, and events to Configuration
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic demonstrates how to create communication panel related action calls in Unified Service Desk for Dynamics 365 for Customer Engagement instance.
+This topic demonstrates how to add hosted control, action calls, and events to configurations in Unified Service Desk for Dynamics 365 for Customer Engagement instance.
 
-## Prerequisites
+## Prerequisites 
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md), [Step 2:  Create action calls related to communication panel](communication-panel-step2-create-action-calls.md), and [Step 3:  Attach communication panel related action calls to events](communication-panel-step3-attach-action-calls-events.md). The configurations that you completed are required for this topic.
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create customer summary hosted control](customer-summary-step1-create-hosted-control.md), [Step 2: Create customer summary related action Calls](customer-summary-step2-create-action-calls.md), and [Step 3: Attach customer summary related action Calls to events](customer-summary-step3-attach-action-calls-events.md). The configurations that you completed are required for this topic.
 
 - You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-security-roles)
 
@@ -52,13 +52,10 @@ This topic demonstrates how to create communication panel related action calls i
 
 8. Repeat steps 4 through 7 to add the hosted controls and the events by selecting the down arrow next to Configuration, and selecting Hosted Controls and Events, respectively.
 
-9. When you've finished, select **Save**.
-
-> [!div class="nextstepaction"]
-> 
+9. When you've finished, select **Save**.  
 
 ## See also
 
-- [Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md)
-- [Step 2: Create action calls related to communication panel](communication-panel-step2-create-action-calls.md)
-- [Step 3: Attach communication panel related action calls to events](communication-panel-step3-attach-action-calls-events.md)
+- [Step 1: Create customer summary hosted control](customer-summary-step1-create-hosted-control.md)
+- [Step 2: Create customer summary related action calls](customer-summary-step2-create-action-calls.md)
+- [Step 3: Attach customer summary related action Calls to events](customer-summary-step3-attach-action-calls-events.md)

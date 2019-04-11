@@ -507,4 +507,4 @@ This topic demonstrates how to create communication panel related action calls i
 ## See also
 
 - [Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md)
-- [Step 4: Attach communication panel related action calls to events](communication-panel-step4-attach-action-calls-events.md)
+- [Step 4: Attach communication panel related action calls to events](communication-panel-step4-add-hosted-control-action-calls-events-configurations.md)

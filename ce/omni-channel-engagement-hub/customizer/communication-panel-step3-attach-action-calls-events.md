@@ -83,7 +83,7 @@ This topic demonstrates how to attach communication panel related action calls t
     | UpdateSessionCount | <ul> Update Session Count in Dictionary </ul> |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 4: Add the hosted control, action calls, and events to Configurations](communication-panel-step4-attach-action-calls-events.md) 
+> [Next topic: Step 4: Add the hosted control, action calls, and events to Configurations](communication-panel-step4-add-hosted-control-action-calls-events-configurations.md) 
 
 ## See also
 

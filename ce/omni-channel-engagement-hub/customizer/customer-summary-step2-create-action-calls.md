@@ -149,3 +149,11 @@ This topic demonstrates how to create customer summary hosted control in Unified
     | General | Action         | RunScript | 
     | General | Data | function refreshControls() { <br> MscrmControls.FormInitiator.FormInitiatorControl.updateLinkedRecords(); <br> } <br> refreshControls(); |
     
+
+> [!div class="nextstepaction"]
+> [Next topic: Step 3: Attach customer summary related action Calls to events](customer-summary-step3-attach-action-calls-events.md)    
+
+## See also
+
+- [Step 1: Create customer summary hosted control](customer-summary-step1-create-hosted-control.md)
+- [Step 4: Add the hosted control, action calls, and events to Configurations](customer-summary-step4-attach-action-calls-events.md)

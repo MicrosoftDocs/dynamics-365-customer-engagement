@@ -97,11 +97,13 @@
 #### [Step 1: Create communication panel hosted control](customizer/communication-panel-step1-create-hosted-control.md)
 #### [Step 2: Create communication related action calls](customizer/communication-panel-step2-create-action-calls.md)
 #### [Step 3: Attach the Action Calls to Events](customizer/communication-panel-step3-attach-action-calls-events.md)
-#### [Step 4: Add hosted control, action calls, and events to configurations](customizer/communication-panel-step4-attach-action-calls-events.md)
+#### [Step 4: Add hosted control, action calls, and events to configurations](customizer/communication-panel-step4-add-hosted-control-action-calls-events-configurations.md)
 
 ### [Configure customer summary](customizer/configure-customer-summary.md)
 #### [Step 1: Create customer summary hosted control](customizer/customer-summary-step1-create-hosted-control.md)
 #### [Step 2: Create customer summary related action calls](customizer/customer-summary-step2-create-action-calls.md)
+#### [Step 3: Attach customer summary related action Calls to events](customizer/customer-summary-step3-attach-action-calls-events.md)
+#### [Step 4: Add the hosted control, action calls, and events to Configurations](customizer/customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
 
 ### [Configure notifications (screen pops) for agents](customizer/configure-notification-screen-pop-agents.md)
 #### [Configure alert notifications in Unified Service Desk](customizer/configure-alert-notification-unified-service-desk.md)

@@ -45,3 +45,10 @@ The steps for configuring customer summary in Unified Service Desk involves mult
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 1: Create customer summary hosted control](customer-summary-step1-create-hosted-control.md)
+
+
+## See also
+
+- [Step 2: Create customer summary related action calls](customer-summary-step2-create-action-calls.md)
+- [Step 3: Attach customer summary related action Calls to events](customer-summary-step3-attach-action-calls-events.md)
+- [Step 4: Add the hosted control, action calls, and events to Configurations](customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
