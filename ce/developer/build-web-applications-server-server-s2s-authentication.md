@@ -2,8 +2,8 @@
 title: "Build web applications using Server-to-Server (S2S) authentication (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Read how you can use server-to-server (S2S) authentication to securely and seamlessly communicate with Dynamics 365 for Customer Engagement apps through your web applications and services and know about various scenarios where you can use S2S authentication"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 03/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -45,7 +45,6 @@ This feature was introduced in [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm
  Both scenarios have common elements but there are some differences. Since multi-tenant is the most common scenario, the [Use Multi-Tenant Server-to-server authentication](use-multi-tenant-server-server-authentication.md) content will describe how you can use S2S in this scenario and include notes where the options for single-tenant configuration is different. [Use Single-Tenant Server-to-server authentication](use-single-tenant-server-server-authentication.md) will provide an overview of this scenario and refer to the procedures described in the multi-tenant S2S authentication content.  
 
 ### See also  
- [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md)   
  [Use Single-Tenant Server-to-server authentication](use-single-tenant-server-server-authentication.md)   
  [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md)   
  [Connect to Dynamics 365 for Customer Engagement apps](connect-customer-engagement.md)

@@ -1,35 +1,37 @@
 ---
-title: "Territory Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Territory Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Territory entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Territory Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Territory represents sales regions.
 
-**Added by**: Application Common Solution<br />
+**Added by**: Application Common Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/territories<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/territories(*territoryid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/territories(*territoryid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/territories<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/territories(*territoryid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.0/territories<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/territories(*territoryid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/territories(*territoryid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/territories<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/territories(*territoryid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -82,6 +84,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_EntityImage"></a> EntityImage
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -220,7 +224,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -624,7 +630,6 @@ Listed by **SchemaName**.
 - [Territory_SyncErrors](#BKMK_Territory_SyncErrors)
 - [Territory_AsyncOperations](#BKMK_Territory_AsyncOperations)
 - [territory_MailboxTrackingFolders](#BKMK_territory_MailboxTrackingFolders)
-- [userentityinstancedata_territory](#BKMK_userentityinstancedata_territory)
 - [Territory_ProcessSessions](#BKMK_Territory_ProcessSessions)
 - [Territory_BulkDeleteFailures](#BKMK_Territory_BulkDeleteFailures)
 - [territory_principalobjectattributeaccess](#BKMK_territory_principalobjectattributeaccess)
@@ -646,6 +651,8 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_Territory_SyncErrors"></a> Territory_SyncErrors
 
+**Added by**: System Solution Solution
+
 Same as syncerror entity [Territory_SyncErrors](syncerror.md#BKMK_Territory_SyncErrors) Many-To-One relationship.
 
 |Property|Value|
@@ -660,6 +667,8 @@ Same as syncerror entity [Territory_SyncErrors](syncerror.md#BKMK_Territory_Sync
 
 
 ### <a name="BKMK_Territory_AsyncOperations"></a> Territory_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [Territory_AsyncOperations](asyncoperation.md#BKMK_Territory_AsyncOperations) Many-To-One relationship.
 
@@ -676,6 +685,8 @@ Same as asyncoperation entity [Territory_AsyncOperations](asyncoperation.md#BKMK
 
 ### <a name="BKMK_territory_MailboxTrackingFolders"></a> territory_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [territory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_territory_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -689,22 +700,9 @@ Same as mailboxtrackingfolder entity [territory_MailboxTrackingFolders](mailboxt
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_userentityinstancedata_territory"></a> userentityinstancedata_territory
-
-Same as userentityinstancedata entity [userentityinstancedata_territory](userentityinstancedata.md#BKMK_userentityinstancedata_territory) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_territory|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_Territory_ProcessSessions"></a> Territory_ProcessSessions
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [Territory_ProcessSessions](processsession.md#BKMK_Territory_ProcessSessions) Many-To-One relationship.
 
@@ -721,6 +719,8 @@ Same as processsession entity [Territory_ProcessSessions](processsession.md#BKMK
 
 ### <a name="BKMK_Territory_BulkDeleteFailures"></a> Territory_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [Territory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Territory_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -735,6 +735,8 @@ Same as bulkdeletefailure entity [Territory_BulkDeleteFailures](bulkdeletefailur
 
 
 ### <a name="BKMK_territory_principalobjectattributeaccess"></a> territory_principalobjectattributeaccess
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [territory_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_territory_principalobjectattributeaccess) Many-To-One relationship.
 
@@ -751,6 +753,8 @@ Same as principalobjectattributeaccess entity [territory_principalobjectattribut
 
 ### <a name="BKMK_territory_connections1"></a> territory_connections1
 
+**Added by**: System Solution Solution
+
 Same as connection entity [territory_connections1](connection.md#BKMK_territory_connections1) Many-To-One relationship.
 
 |Property|Value|
@@ -765,6 +769,8 @@ Same as connection entity [territory_connections1](connection.md#BKMK_territory_
 
 
 ### <a name="BKMK_territory_connections2"></a> territory_connections2
+
+**Added by**: System Solution Solution
 
 Same as connection entity [territory_connections2](connection.md#BKMK_territory_connections2) Many-To-One relationship.
 
@@ -796,6 +802,8 @@ Same as systemuser entity [territory_system_users](systemuser.md#BKMK_territory_
 
 ### <a name="BKMK_territory_accounts"></a> territory_accounts
 
+**Added by**: Sales Solution
+
 Same as account entity [territory_accounts](account.md#BKMK_territory_accounts) Many-To-One relationship.
 
 |Property|Value|
@@ -810,6 +818,8 @@ Same as account entity [territory_accounts](account.md#BKMK_territory_accounts) 
 
 
 ### <a name="BKMK_Territory_DuplicateBaseRecord"></a> Territory_DuplicateBaseRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [Territory_DuplicateBaseRecord](duplicaterecord.md#BKMK_Territory_DuplicateBaseRecord) Many-To-One relationship.
 
@@ -826,6 +836,8 @@ Same as duplicaterecord entity [Territory_DuplicateBaseRecord](duplicaterecord.m
 
 ### <a name="BKMK_Territory_DuplicateMatchingRecord"></a> Territory_DuplicateMatchingRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [Territory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Territory_DuplicateMatchingRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -840,6 +852,8 @@ Same as duplicaterecord entity [Territory_DuplicateMatchingRecord](duplicatereco
 
 
 ### <a name="BKMK_msdyn_territory_msdyn_resourcerequirement_Territory"></a> msdyn_territory_msdyn_resourcerequirement_Territory
+
+**Added by**: Universal Resource Scheduling Solution
 
 Same as msdyn_resourcerequirement entity [msdyn_territory_msdyn_resourcerequirement_Territory](msdyn_resourcerequirement.md#BKMK_msdyn_territory_msdyn_resourcerequirement_Territory) Many-To-One relationship.
 
@@ -856,6 +870,8 @@ Same as msdyn_resourcerequirement entity [msdyn_territory_msdyn_resourcerequirem
 
 ### <a name="BKMK_msdyn_territory_msdyn_resourceterritory_Territory"></a> msdyn_territory_msdyn_resourceterritory_Territory
 
+**Added by**: Universal Resource Scheduling Solution
+
 Same as msdyn_resourceterritory entity [msdyn_territory_msdyn_resourceterritory_Territory](msdyn_resourceterritory.md#BKMK_msdyn_territory_msdyn_resourceterritory_Territory) Many-To-One relationship.
 
 |Property|Value|
@@ -866,10 +882,12 @@ Same as msdyn_resourceterritory entity [msdyn_territory_msdyn_resourceterritory_
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_territory_msdyn_resourceterritory_Territory|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_territory_account_ServiceTerritory"></a> msdyn_territory_account_ServiceTerritory
+
+**Added by**: Field Service Solution
 
 Same as account entity [msdyn_territory_account_ServiceTerritory](account.md#BKMK_msdyn_territory_account_ServiceTerritory) Many-To-One relationship.
 
@@ -886,6 +904,8 @@ Same as account entity [msdyn_territory_account_ServiceTerritory](account.md#BKM
 
 ### <a name="BKMK_msdyn_territory_msdyn_actual_ServiceTerritory"></a> msdyn_territory_msdyn_actual_ServiceTerritory
 
+**Added by**: Field Service Solution
+
 Same as msdyn_actual entity [msdyn_territory_msdyn_actual_ServiceTerritory](msdyn_actual.md#BKMK_msdyn_territory_msdyn_actual_ServiceTerritory) Many-To-One relationship.
 
 |Property|Value|
@@ -900,6 +920,8 @@ Same as msdyn_actual entity [msdyn_territory_msdyn_actual_ServiceTerritory](msdy
 
 
 ### <a name="BKMK_msdyn_territory_msdyn_agreement_ServiceTerritory"></a> msdyn_territory_msdyn_agreement_ServiceTerritory
+
+**Added by**: Field Service Solution
 
 Same as msdyn_agreement entity [msdyn_territory_msdyn_agreement_ServiceTerritory](msdyn_agreement.md#BKMK_msdyn_territory_msdyn_agreement_ServiceTerritory) Many-To-One relationship.
 
@@ -916,6 +938,8 @@ Same as msdyn_agreement entity [msdyn_territory_msdyn_agreement_ServiceTerritory
 
 ### <a name="BKMK_msdyn_territory_msdyn_postalcode_ServiceTerritory"></a> msdyn_territory_msdyn_postalcode_ServiceTerritory
 
+**Added by**: Field Service Solution
+
 Same as msdyn_postalcode entity [msdyn_territory_msdyn_postalcode_ServiceTerritory](msdyn_postalcode.md#BKMK_msdyn_territory_msdyn_postalcode_ServiceTerritory) Many-To-One relationship.
 
 |Property|Value|
@@ -931,6 +955,8 @@ Same as msdyn_postalcode entity [msdyn_territory_msdyn_postalcode_ServiceTerrito
 
 ### <a name="BKMK_msdyn_territory_msdyn_workorder_ServiceTerritory"></a> msdyn_territory_msdyn_workorder_ServiceTerritory
 
+**Added by**: Field Service Solution
+
 Same as msdyn_workorder entity [msdyn_territory_msdyn_workorder_ServiceTerritory](msdyn_workorder.md#BKMK_msdyn_territory_msdyn_workorder_ServiceTerritory) Many-To-One relationship.
 
 |Property|Value|
@@ -945,6 +971,8 @@ Same as msdyn_workorder entity [msdyn_territory_msdyn_workorder_ServiceTerritory
 
 
 ### <a name="BKMK_msdyn_territory_quotedetail_ServiceTerritory"></a> msdyn_territory_quotedetail_ServiceTerritory
+
+**Added by**: Field Service Solution
 
 Same as quotedetail entity [msdyn_territory_quotedetail_ServiceTerritory](quotedetail.md#BKMK_msdyn_territory_quotedetail_ServiceTerritory) Many-To-One relationship.
 
@@ -975,35 +1003,49 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_territorybase_createdby"></a> lk_territorybase_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_territorybase_createdby](systemuser.md#BKMK_lk_territorybase_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_territory_createdonbehalfby"></a> lk_territory_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_territory_createdonbehalfby](systemuser.md#BKMK_lk_territory_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_territorybase_modifiedby"></a> lk_territorybase_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_territorybase_modifiedby](systemuser.md#BKMK_lk_territorybase_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_territory_modifiedonbehalfby"></a> lk_territory_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_territory_modifiedonbehalfby](systemuser.md#BKMK_lk_territory_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_organization_territories"></a> organization_territories
 
+**Added by**: System Solution Solution
+
 See organization Entity [organization_territories](organization.md#BKMK_organization_territories) One-To-Many relationship.
 
 ### <a name="BKMK_TransactionCurrency_Territory"></a> TransactionCurrency_Territory
 
+**Added by**: System Solution Solution
+
 See transactioncurrency Entity [TransactionCurrency_Territory](transactioncurrency.md#BKMK_TransactionCurrency_Territory) One-To-Many relationship.
 
 ### <a name="BKMK_system_user_territories"></a> system_user_territories
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [system_user_territories](systemuser.md#BKMK_system_user_territories) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.territory?text=territory EntityType" />

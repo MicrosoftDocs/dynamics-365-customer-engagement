@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 03/07/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 7369f1e2-e536-4585-a69a-eee434a87af1
@@ -23,9 +23,9 @@ When you sign in to Omni-channel Engagement Hub through Unified Service Desk, th
 
  - Omni-channel toolbar
 
- - Session tab management toolbar
+ - Session management toolbar
 
- - Application tab management toolbar
+ - Application management toolbar
 
  > [!div class=mx-imgBorder]
  >![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")  
@@ -135,7 +135,4 @@ The application management toolbar lets you see all the related information for 
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
-- [Create a record](create-record.md)
-- [Search and link a record](search-link-record.md)

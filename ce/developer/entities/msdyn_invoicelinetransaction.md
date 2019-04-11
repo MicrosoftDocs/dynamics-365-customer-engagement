@@ -1,43 +1,45 @@
 ---
-title: "msdyn_invoicelinetransaction Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_invoicelinetransaction Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_invoicelinetransaction entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_invoicelinetransaction Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Transactions that are associated to an invoice line.
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions(*msdyn_invoicelinetransactionid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions(*msdyn_invoicelinetransactionid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions(*msdyn_invoicelinetransactionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions(*msdyn_invoicelinetransactionid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions(*msdyn_invoicelinetransactionid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions(*msdyn_invoicelinetransactionid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions(*msdyn_invoicelinetransactionid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions(*msdyn_invoicelinetransactionid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions(*msdyn_invoicelinetransactionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_invoicelinetransactions(*msdyn_invoicelinetransactionid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -84,6 +86,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_externaldescription](#BKMK_msdyn_externaldescription)
 - [msdyn_Invoice](#BKMK_msdyn_Invoice)
 - [msdyn_InvoiceLine](#BKMK_msdyn_InvoiceLine)
+- [msdyn_InvoiceLineId](#BKMK_msdyn_InvoiceLineId)
 - [msdyn_invoicelinetransactionId](#BKMK_msdyn_invoicelinetransactionId)
 - [msdyn_OriginalInvoiceLineDetail](#BKMK_msdyn_OriginalInvoiceLineDetail)
 - [msdyn_Percent](#BKMK_msdyn_Percent)
@@ -97,6 +100,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_ResourceOrganizationalUnitId](#BKMK_msdyn_ResourceOrganizationalUnitId)
 - [msdyn_SalesContract](#BKMK_msdyn_SalesContract)
 - [msdyn_SalesContractLine](#BKMK_msdyn_SalesContractLine)
+- [msdyn_SalesContractLineId](#BKMK_msdyn_SalesContractLineId)
 - [msdyn_StartDateTime](#BKMK_msdyn_StartDateTime)
 - [msdyn_Task](#BKMK_msdyn_Task)
 - [msdyn_TransactionCategory](#BKMK_msdyn_TransactionCategory)
@@ -400,7 +404,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_description|
-|MaxLength|100|
+|MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
 
@@ -461,7 +465,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_externaldescription|
-|MaxLength|100|
+|MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
 
@@ -484,16 +488,30 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the invoice line that this invoice line transaction is associated to.|
-|DisplayName|Invoice Line|
+|Description|(Deprecated) Shows the invoice line that this invoice line transaction is associated to.|
+|DisplayName|(Deprecated) Invoice Line|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_invoiceline|
 |MaxLength|100|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_InvoiceLineId"></a> msdyn_InvoiceLineId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Invoice Line associated with Invoice Line Detail.|
+|DisplayName|Invoice Line|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_invoicelineid|
+|RequiredLevel|None|
+|Targets|invoicedetail|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_invoicelinetransactionId"></a> msdyn_invoicelinetransactionId
@@ -678,8 +696,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the ID of the project contract line for this invoice line|
-|DisplayName|Project Contract Line|
+|Description|(Deprecated) Shows the ID of the project contract line for this invoice line|
+|DisplayName|(Deprecated) Project Contract Line|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -688,6 +706,20 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_SalesContractLineId"></a> msdyn_SalesContractLineId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Order Line associated with Invoice Line Detail.|
+|DisplayName|Project Contract Line|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_salescontractlineid|
+|RequiredLevel|None|
+|Targets|salesorderdetail|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_StartDateTime"></a> msdyn_StartDateTime
@@ -852,6 +884,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -865,6 +899,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -938,6 +974,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the currency associated with the entity.|
@@ -966,7 +1004,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -999,6 +1039,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [msdyn_contractorganizationalunitidName](#BKMK_msdyn_contractorganizationalunitidName)
 - [msdyn_InvoiceAmount](#BKMK_msdyn_InvoiceAmount)
 - [msdyn_invoiceamount_Base](#BKMK_msdyn_invoiceamount_Base)
+- [msdyn_InvoiceLineIdName](#BKMK_msdyn_InvoiceLineIdName)
 - [msdyn_InvoiceName](#BKMK_msdyn_InvoiceName)
 - [msdyn_OriginalInvoiceLineDetailName](#BKMK_msdyn_OriginalInvoiceLineDetailName)
 - [msdyn_previousamount_Base](#BKMK_msdyn_previousamount_Base)
@@ -1008,6 +1049,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [msdyn_ProjectName](#BKMK_msdyn_ProjectName)
 - [msdyn_ResourceCategoryName](#BKMK_msdyn_ResourceCategoryName)
 - [msdyn_ResourceOrganizationalUnitIdName](#BKMK_msdyn_ResourceOrganizationalUnitIdName)
+- [msdyn_SalesContractLineIdName](#BKMK_msdyn_SalesContractLineIdName)
 - [msdyn_SalesContractName](#BKMK_msdyn_SalesContractName)
 - [msdyn_TaskName](#BKMK_msdyn_TaskName)
 - [msdyn_TransactionCategoryName](#BKMK_msdyn_TransactionCategoryName)
@@ -1024,6 +1066,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -1037,6 +1081,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1053,6 +1099,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1085,6 +1133,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -1098,6 +1148,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1115,6 +1167,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1130,6 +1184,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1147,6 +1203,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -1160,6 +1218,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1176,6 +1236,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1208,6 +1270,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -1221,6 +1285,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1237,6 +1303,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1497,6 +1565,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|Money|
 
 
+### <a name="BKMK_msdyn_InvoiceLineIdName"></a> msdyn_InvoiceLineIdName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_invoicelineidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_InvoiceName"></a> msdyn_InvoiceName
 
 |Property|Value|
@@ -1524,7 +1608,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|msdyn_originalinvoicelinedetailname|
-|MaxLength|100|
+|MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
 
@@ -1643,6 +1727,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_SalesContractLineIdName"></a> msdyn_SalesContractLineIdName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_salescontractlineidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_SalesContractName"></a> msdyn_SalesContractName
 
 |Property|Value|
@@ -1725,6 +1825,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Name of the owner|
@@ -1740,6 +1842,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1757,6 +1861,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -1770,6 +1876,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1785,6 +1893,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -1798,6 +1908,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1814,6 +1926,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1838,7 +1952,6 @@ Listed by **SchemaName**.
 - [msdyn_invoicelinetransaction_DuplicateBaseRecord](#BKMK_msdyn_invoicelinetransaction_DuplicateBaseRecord)
 - [msdyn_invoicelinetransaction_AsyncOperations](#BKMK_msdyn_invoicelinetransaction_AsyncOperations)
 - [msdyn_invoicelinetransaction_MailboxTrackingFolders](#BKMK_msdyn_invoicelinetransaction_MailboxTrackingFolders)
-- [msdyn_invoicelinetransaction_UserEntityInstanceDatas](#BKMK_msdyn_invoicelinetransaction_UserEntityInstanceDatas)
 - [msdyn_invoicelinetransaction_ProcessSession](#BKMK_msdyn_invoicelinetransaction_ProcessSession)
 - [msdyn_invoicelinetransaction_BulkDeleteFailures](#BKMK_msdyn_invoicelinetransaction_BulkDeleteFailures)
 - [msdyn_invoicelinetransaction_PrincipalObjectAttributeAccesses](#BKMK_msdyn_invoicelinetransaction_PrincipalObjectAttributeAccesses)
@@ -1847,6 +1960,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_invoicelinetransaction_SyncErrors"></a> msdyn_invoicelinetransaction_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_invoicelinetransaction_SyncErrors](syncerror.md#BKMK_msdyn_invoicelinetransaction_SyncErrors) Many-To-One relationship.
 
@@ -1858,10 +1973,12 @@ Same as syncerror entity [msdyn_invoicelinetransaction_SyncErrors](syncerror.md#
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_invoicelinetransaction_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_invoicelinetransaction_DuplicateMatchingRecord"></a> msdyn_invoicelinetransaction_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_invoicelinetransaction_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_invoicelinetransaction_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -1878,6 +1995,8 @@ Same as duplicaterecord entity [msdyn_invoicelinetransaction_DuplicateMatchingRe
 
 ### <a name="BKMK_msdyn_invoicelinetransaction_DuplicateBaseRecord"></a> msdyn_invoicelinetransaction_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_invoicelinetransaction_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_invoicelinetransaction_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -1892,6 +2011,8 @@ Same as duplicaterecord entity [msdyn_invoicelinetransaction_DuplicateBaseRecord
 
 
 ### <a name="BKMK_msdyn_invoicelinetransaction_AsyncOperations"></a> msdyn_invoicelinetransaction_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_invoicelinetransaction_AsyncOperations](asyncoperation.md#BKMK_msdyn_invoicelinetransaction_AsyncOperations) Many-To-One relationship.
 
@@ -1908,6 +2029,8 @@ Same as asyncoperation entity [msdyn_invoicelinetransaction_AsyncOperations](asy
 
 ### <a name="BKMK_msdyn_invoicelinetransaction_MailboxTrackingFolders"></a> msdyn_invoicelinetransaction_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_invoicelinetransaction_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_invoicelinetransaction_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -1918,25 +2041,12 @@ Same as mailboxtrackingfolder entity [msdyn_invoicelinetransaction_MailboxTracki
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_invoicelinetransaction_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_invoicelinetransaction_UserEntityInstanceDatas"></a> msdyn_invoicelinetransaction_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_invoicelinetransaction_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_invoicelinetransaction_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_invoicelinetransaction_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_invoicelinetransaction_ProcessSession"></a> msdyn_invoicelinetransaction_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_invoicelinetransaction_ProcessSession](processsession.md#BKMK_msdyn_invoicelinetransaction_ProcessSession) Many-To-One relationship.
 
@@ -1953,6 +2063,8 @@ Same as processsession entity [msdyn_invoicelinetransaction_ProcessSession](proc
 
 ### <a name="BKMK_msdyn_invoicelinetransaction_BulkDeleteFailures"></a> msdyn_invoicelinetransaction_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_invoicelinetransaction_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_invoicelinetransaction_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -1968,6 +2080,8 @@ Same as bulkdeletefailure entity [msdyn_invoicelinetransaction_BulkDeleteFailure
 
 ### <a name="BKMK_msdyn_invoicelinetransaction_PrincipalObjectAttributeAccesses"></a> msdyn_invoicelinetransaction_PrincipalObjectAttributeAccesses
 
+**Added by**: System Solution Solution
+
 Same as principalobjectattributeaccess entity [msdyn_invoicelinetransaction_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_invoicelinetransaction_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
 |Property|Value|
@@ -1982,6 +2096,8 @@ Same as principalobjectattributeaccess entity [msdyn_invoicelinetransaction_Prin
 
 
 ### <a name="BKMK_msdyn_invoicelinetransaction_Annotations"></a> msdyn_invoicelinetransaction_Annotations
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [msdyn_invoicelinetransaction_Annotations](annotation.md#BKMK_msdyn_invoicelinetransaction_Annotations) Many-To-One relationship.
 
@@ -2031,6 +2147,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [msdyn_contact_msdyn_invoicelinetransaction_ContactCustomer](#BKMK_msdyn_contact_msdyn_invoicelinetransaction_ContactCustomer)
 - [msdyn_contact_msdyn_invoicelinetransaction_ContactVendor](#BKMK_msdyn_contact_msdyn_invoicelinetransaction_ContactVendor)
 - [msdyn_invoice_msdyn_invoicelinetransaction_Invoice](#BKMK_msdyn_invoice_msdyn_invoicelinetransaction_Invoice)
+- [msdyn_invoicedetail_msdyn_invoicelinetransactio](#BKMK_msdyn_invoicedetail_msdyn_invoicelinetransactio)
 - [msdyn_msdyn_invoicelinetransaction_msdyn_invoicelinetransaction_OriginalInvoiceLineDetail](#BKMK_msdyn_msdyn_invoicelinetransaction_msdyn_invoicelinetransaction_OriginalInvoiceLineDetail)
 - [msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId](#BKMK_msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId)
 - [msdyn_msdyn_project_msdyn_invoicelinetransaction_Project](#BKMK_msdyn_msdyn_project_msdyn_invoicelinetransaction_Project)
@@ -2040,75 +2157,114 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [msdyn_pricelevel_msdyn_invoicelinetransaction_PriceList](#BKMK_msdyn_pricelevel_msdyn_invoicelinetransaction_PriceList)
 - [msdyn_product_msdyn_invoicelinetransaction_Product](#BKMK_msdyn_product_msdyn_invoicelinetransaction_Product)
 - [msdyn_salesorder_msdyn_invoicelinetransaction_SalesContract](#BKMK_msdyn_salesorder_msdyn_invoicelinetransaction_SalesContract)
+- [msdyn_salesorderdetail_msdyn_invoicelinetransac](#BKMK_msdyn_salesorderdetail_msdyn_invoicelinetransac)
 - [msdyn_uom_msdyn_invoicelinetransaction_Unit](#BKMK_msdyn_uom_msdyn_invoicelinetransaction_Unit)
 - [msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule](#BKMK_msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule)
 
 
 ### <a name="BKMK_lk_msdyn_invoicelinetransaction_createdby"></a> lk_msdyn_invoicelinetransaction_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_invoicelinetransaction_createdby](systemuser.md#BKMK_lk_msdyn_invoicelinetransaction_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_invoicelinetransaction_createdonbehalfby"></a> lk_msdyn_invoicelinetransaction_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_invoicelinetransaction_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_invoicelinetransaction_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_invoicelinetransaction_modifiedby"></a> lk_msdyn_invoicelinetransaction_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_invoicelinetransaction_modifiedby](systemuser.md#BKMK_lk_msdyn_invoicelinetransaction_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_invoicelinetransaction_modifiedonbehalfby"></a> lk_msdyn_invoicelinetransaction_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_invoicelinetransaction_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_invoicelinetransaction_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_invoicelinetransaction"></a> user_msdyn_invoicelinetransaction
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_msdyn_invoicelinetransaction](systemuser.md#BKMK_user_msdyn_invoicelinetransaction) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_invoicelinetransaction"></a> team_msdyn_invoicelinetransaction
+
+**Added by**: System Solution Solution
 
 See team Entity [team_msdyn_invoicelinetransaction](team.md#BKMK_team_msdyn_invoicelinetransaction) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_invoicelinetransaction"></a> business_unit_msdyn_invoicelinetransaction
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_msdyn_invoicelinetransaction](businessunit.md#BKMK_business_unit_msdyn_invoicelinetransaction) One-To-Many relationship.
 
 ### <a name="BKMK_TransactionCurrency_msdyn_invoicelinetransaction"></a> TransactionCurrency_msdyn_invoicelinetransaction
+
+**Added by**: System Solution Solution
 
 See transactioncurrency Entity [TransactionCurrency_msdyn_invoicelinetransaction](transactioncurrency.md#BKMK_TransactionCurrency_msdyn_invoicelinetransaction) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountCustomer"></a> msdyn_account_msdyn_invoicelinetransaction_AccountCustomer
 
+**Added by**: System Solution Solution
+
 See account Entity [msdyn_account_msdyn_invoicelinetransaction_AccountCustomer](account.md#BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountCustomer) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountVendor"></a> msdyn_account_msdyn_invoicelinetransaction_AccountVendor
+
+**Added by**: System Solution Solution
 
 See account Entity [msdyn_account_msdyn_invoicelinetransaction_AccountVendor](account.md#BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountVendor) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookableresource_msdyn_invoicelinetransaction_bookableresource"></a> msdyn_bookableresource_msdyn_invoicelinetransaction_bookableresource
 
+**Added by**: Scheduling Solution
+
 See bookableresource Entity [msdyn_bookableresource_msdyn_invoicelinetransaction_bookableresource](bookableresource.md#BKMK_msdyn_bookableresource_msdyn_invoicelinetransaction_bookableresource) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookableresourcecategory_msdyn_invoicelinetransaction_ResourceCategory"></a> msdyn_bookableresourcecategory_msdyn_invoicelinetransaction_ResourceCategory
+
+**Added by**: Scheduling Solution
 
 See bookableresourcecategory Entity [msdyn_bookableresourcecategory_msdyn_invoicelinetransaction_ResourceCategory](bookableresourcecategory.md#BKMK_msdyn_bookableresourcecategory_msdyn_invoicelinetransaction_ResourceCategory) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_contact_msdyn_invoicelinetransaction_ContactCustomer"></a> msdyn_contact_msdyn_invoicelinetransaction_ContactCustomer
 
+**Added by**: System Solution Solution
+
 See contact Entity [msdyn_contact_msdyn_invoicelinetransaction_ContactCustomer](contact.md#BKMK_msdyn_contact_msdyn_invoicelinetransaction_ContactCustomer) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_contact_msdyn_invoicelinetransaction_ContactVendor"></a> msdyn_contact_msdyn_invoicelinetransaction_ContactVendor
+
+**Added by**: System Solution Solution
 
 See contact Entity [msdyn_contact_msdyn_invoicelinetransaction_ContactVendor](contact.md#BKMK_msdyn_contact_msdyn_invoicelinetransaction_ContactVendor) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_invoice_msdyn_invoicelinetransaction_Invoice"></a> msdyn_invoice_msdyn_invoicelinetransaction_Invoice
 
+**Added by**: Sales Solution
+
 See invoice Entity [msdyn_invoice_msdyn_invoicelinetransaction_Invoice](invoice.md#BKMK_msdyn_invoice_msdyn_invoicelinetransaction_Invoice) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_invoicedetail_msdyn_invoicelinetransactio"></a> msdyn_invoicedetail_msdyn_invoicelinetransactio
+
+**Added by**: Sales Solution
+
+See invoicedetail Entity [msdyn_invoicedetail_msdyn_invoicelinetransactio](invoicedetail.md#BKMK_msdyn_invoicedetail_msdyn_invoicelinetransactio) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_invoicelinetransaction_msdyn_invoicelinetransaction_OriginalInvoiceLineDetail"></a> msdyn_msdyn_invoicelinetransaction_msdyn_invoicelinetransaction_OriginalInvoiceLineDetail
 
 See msdyn_invoicelinetransaction Entity [msdyn_msdyn_invoicelinetransaction_msdyn_invoicelinetransaction_OriginalInvoiceLineDetail](msdyn_invoicelinetransaction.md#BKMK_msdyn_msdyn_invoicelinetransaction_msdyn_invoicelinetransaction_OriginalInvoiceLineDetail) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId"></a> msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId
+
+**Added by**: Universal Resource Scheduling Solution
 
 See msdyn_organizationalunit Entity [msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId](msdyn_organizationalunit.md#BKMK_msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId) One-To-Many relationship.
 
@@ -2126,31 +2282,49 @@ See msdyn_transactioncategory Entity [msdyn_msdyn_transactioncategory_msdyn_invo
 
 ### <a name="BKMK_msdyn_organizationalunit_invoicelinetransaction"></a> msdyn_organizationalunit_invoicelinetransaction
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_organizationalunit Entity [msdyn_organizationalunit_invoicelinetransaction](msdyn_organizationalunit.md#BKMK_msdyn_organizationalunit_invoicelinetransaction) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_pricelevel_msdyn_invoicelinetransaction_PriceList"></a> msdyn_pricelevel_msdyn_invoicelinetransaction_PriceList
+
+**Added by**: Product Management Solution
 
 See pricelevel Entity [msdyn_pricelevel_msdyn_invoicelinetransaction_PriceList](pricelevel.md#BKMK_msdyn_pricelevel_msdyn_invoicelinetransaction_PriceList) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_product_msdyn_invoicelinetransaction_Product"></a> msdyn_product_msdyn_invoicelinetransaction_Product
 
+**Added by**: Product Management Solution
+
 See product Entity [msdyn_product_msdyn_invoicelinetransaction_Product](product.md#BKMK_msdyn_product_msdyn_invoicelinetransaction_Product) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_salesorder_msdyn_invoicelinetransaction_SalesContract"></a> msdyn_salesorder_msdyn_invoicelinetransaction_SalesContract
 
+**Added by**: Sales Solution
+
 See salesorder Entity [msdyn_salesorder_msdyn_invoicelinetransaction_SalesContract](salesorder.md#BKMK_msdyn_salesorder_msdyn_invoicelinetransaction_SalesContract) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_salesorderdetail_msdyn_invoicelinetransac"></a> msdyn_salesorderdetail_msdyn_invoicelinetransac
+
+**Added by**: Sales Solution
+
+See salesorderdetail Entity [msdyn_salesorderdetail_msdyn_invoicelinetransac](salesorderdetail.md#BKMK_msdyn_salesorderdetail_msdyn_invoicelinetransac) One-To-Many relationship.
+
 ### <a name="BKMK_msdyn_uom_msdyn_invoicelinetransaction_Unit"></a> msdyn_uom_msdyn_invoicelinetransaction_Unit
+
+**Added by**: Product Management Solution
 
 See uom Entity [msdyn_uom_msdyn_invoicelinetransaction_Unit](uom.md#BKMK_msdyn_uom_msdyn_invoicelinetransaction_Unit) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule"></a> msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule
+
+**Added by**: Product Management Solution
 
 See uomschedule Entity [msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule](uomschedule.md#BKMK_msdyn_uomschedule_msdyn_invoicelinetransaction_UnitSchedule) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_invoicelinetransaction?text=msdyn_invoicelinetransaction EntityType" />

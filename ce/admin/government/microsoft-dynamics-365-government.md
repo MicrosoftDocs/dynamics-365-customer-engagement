@@ -1,8 +1,8 @@
 ---
-title: "Dynamics 365 Government | MicrosoftDocs"
-description: "Microsoft Dynamics 365 Government is available to qualified government entities in the United States."
+title: "Dynamics 365 US Government | MicrosoftDocs"
+description: "Microsoft Dynamics 365 US Government is available to qualified government entities in the United States."
 ms.custom: 
-ms.date: 01/30/2018
+ms.date: 04/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,51 +22,90 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Dynamics 365 Government 
+# Dynamics 365 US Government 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)] (through May, 2019)
 
-In response to the unique and evolving requirements of the United States public sector, Microsoft has created [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)] that is available to qualified government entities in the United States. On October 11, 2016, Microsoft announced the next generation of intelligent business applications in the cloud under the brand [!INCLUDE[pn_ms_dyn_365](../../includes/pn-ms-dyn-365.md)]. To this end, [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)] entails a continuity of the protected environment that was originally branded Microsoft CRM Online Government where the protections afforded to the government community cloud under the new brand are now represented by four discrete functions: Sales, Customer Service, Field Service, and Project Service Automation. This section provides an overview of features that are specific to [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)].  
+In response to the unique and evolving requirements of the United States public sector, Microsoft has created Microsoft Dynamics 365 US Government that is available to qualified government entities in the United States. On October 11, 2016, Microsoft announced the next generation of intelligent business applications in the cloud under the brand Microsoft Dynamics 365. To this end, Microsoft Dynamics 365 US Government entails a continuity of the protected environment that was originally branded Microsoft CRM Online Government where the protections afforded to the government community cloud under the new brand are now represented by four discrete functions: Sales, Customer Service, Field Service, and Project Service Automation. This section provides an overview of features that are specific to Microsoft Dynamics 365 US Government.  It is important to note that the following Microsoft Dynamics Apps do not provide the compliance commitments or acquisition regulations documented in this Service Description:
+
+- Microsoft Dynamics 365 Business Central
+- Microsoft Dynamics 365 for Marketing
+- Microsoft Dynamics 365 for Finance and Operations
+- Microsoft Dynamics 365 for Retail
+- Microsoft Dynamics 365 for Talent
+- Microsoft Dynamics 365 for Customer Insights
+- Microsoft Dynamics 365 AI for Customer Service Insights
+- Microsoft Dynamics 365 AI for Market Insights
+- Microsoft Dynamics 365 AI for Sales
+
+## About Dynamics 365 US Government environments and plans
+
+Dynamics 365 US Government has been Generally Available to customers through deployment into the Government Community Cloud (GCC) since January, 2017.  Among other compliance commitments and reviews as documented in the Microsoft Trust Center, the service has received several agency Authority to Operate (ATOs) since that time.  It was the first Cloud Solution Provider (CSP) to achieve a FedRAMP Joint Application Board Provisional Authority to Operate (JAB P-ATO) through the JAB Accelerated Process.  In March, 2018, the service impact level was granted a FedRAMP JAB High P-ATO.  
+
+Beginning April, 2019, eligible customers may now choose to deploy Dynamics 365 US Government to the “GCC High” environment, which enables single sign-on and seamless integration with Office 365 GCC High deployments.  Microsoft has designed the platform and our operational procedures to meet the requirements aligning with the DISA SRG IL4 compliance framework.  We anticipate our US Department of Defense contractor customer base and other Federal agencies currently leveraging Office 365 GCC High to use the Dynamics 365 US Government GCC High deployment option, which enables and requires the customer to leverage Azure AD Government for customer identities, in contrast to GCC which leverages Public Azure AD.  For our US Department of Defense contractor customer base, Microsoft operates the service in a manner that enables these customers to meet ITAR commitment and DFARS acquisition regulations, as documented and required by their contracts with the US Department of Defense.
+
+Dynamics 365 US Government plans are available to qualified government and private entities, limited to (i) United States (US) federal, state, local, tribal, and territorial government entities; (ii) private entities using Dynamics 365 US Government to provide solutions to a government entity or a qualified member of the cloud community; and (iii) private entities with customer data subject to government regulations for which the use of Dynamics 365 US Government is the appropriate service to meet the regulatory requirements. Access to Dynamics 365 US Government plans is restricted to the offerings described below, each plan is offered as a monthly subscription and can be licensed to an unlimited number of users:
+
+### Dynamics 365 US Government – GCC User Subscription Licenses
+
+- Dynamics 365 Customer Engagement Plan GCC 
+- Dynamics 365 for Field Service GCC
+- Dynamics 365 for Case Management GCC
+- Dynamics 365 for Customer Service GCC
+- Dynamics 365 for Customer Service Professional GCC
+- Dynamics 365 for Sales GCC
+- Dynamics 365 for Sales Professional GCC
+- Dynamics 365 for Project Service GCC
+- Dynamics 365 Team Member GCC
+- Dynamics 365 ProDirect Support GCC
+- Dynamics 365 Enhanced Support GCC
+
+### Dynamics 365 US Government – GCC AddOns
+
+- Additional Portal for Government
+- Additional Portal Page Views for Government
+- Additional Production Instance for Government
+- Additional Non-Production Instance for Government
+- Additional Database Storage for Government
+
+### Dynamics 365 US Government – GCC High User Subscription Licenses
+
+- Dynamics 365 Customer Engagement Plan GCC High
+- Dynamics 365 for Field Service GCC High
+- Dynamics 365 for Case Management GCC High
+- Dynamics 365 for Customer Service GCC High
+- Dynamics 365 for Customer Service Professional GCC High
+- Dynamics 365 for Sales GCC High
+- Dynamics 365 for Sales Professional GCC High
+- Dynamics 365 for Project Service GCC High
+- Dynamics 365 Team Member GCC High
+- Dynamics 365 ProDirect Support GCC High
+- Dynamics 365 Enhanced Support GCC High
+
+### Dynamics 365 US Government – GCC High AddOns
+
+- Additional Portal for Government – GCC High
+- Additional Portal Page Views for Government – GCC High
+- Additional Production Instance for Government – GCC High
+- Additional Non-Production Instance for Government – GCC High
   
-## About [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] plans  
- [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] plans are available to qualified government and private entities, limited to (i) United States (US) federal, state, local, tribal, and territorial government entities; (ii) private entities using [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] to provide solutions to a government entity or a qualified member of the cloud community; and (iii) private entities with customer data subject to government regulations for which the use of [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] is the appropriate service to meet the regulatory requirements. Access to [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] plans is restricted to the offerings described below, each plan is offered as a monthly subscription and can be licensed to an unlimited number of users:  
-  
-- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] Plan 1 for Government  
-  
-- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Sales, for Government  
-  
-- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Customer Service, for Government  
-  
-- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Field Service, for Government  
-  
-- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Project Service Automation, for Government  
-  
-- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Case Management, for Government  
-  
-- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] for Team Members, for Government  
-  
-- Enhance Support for Dynamics 365 for Customer Engagement apps and Plan 1 for Government  
-  
-- Pro Direct Support for Dynamics 365 for Customer Engagement apps and Plan 1 for Government  
-  
-- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] - Additional Portal for Government  
-  
-- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] - Additional Portal Page Views for Government  
-  
-- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] - Additional Production Instance for Government  
-  
-- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] - Additional Non-Production Instance for Government  
-  
-- [!INCLUDE[pn_dyn_365](../../includes/pn-crm-shortest.md)] - Additional Database Storage for Government  
-  
-### What is “customer data” and “customer content?”  
+### Subscription Availability
+
+Eligible customers can purchase the above SKUs through the following purchasing channels:
+
+- GCC:  Volume Licensing (VL) and Cloud Solution Provider (CSP)
+- GCC High:  Volume Licensing (VL)
+
+GCC SKUs currently included in an Enterprise Agreement (EA) can also be obtained through Reservation either through a qualified reseller or through the Volume Licensing Service Center (VLSC). When a reservation is placed, the requested subscription is added to the established customer Tenant that same day, and the customer is billed a prorated amount based on the currently established Enterprise Agreement from the first of the month following activation of the reservation as part of the next anniversary or renewal payment cycle. Reservations are currently not available for GCC High subscriptions. For GCC High, please follow the standard addon ordering process with your reseller.
+
+Orders placed for GCC High must be followed-up with a request to the Microsoft GCC High order processing team using the following online form: https://aka.ms/m365usgovtenantrequest. Please work with your reseller or Microsoft account manager for more information and guidance.   
+
+## What is “customer data” and “customer content?”  
  This section describes [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] commitments that apply to customer content and to customer data.  
   
  Customer data, as defined in the Online Service Terms, means all data, including all text, sound, video, or image files, and software, that are provided to Microsoft by, or on behalf of, Customer through use of the Online Service. Customer content refers to a specific subset of customer data that has been directly created by users, such as content stored in databases through entries in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] entities (e.g. contact information). Content is generally considered confidential information, and in normal service operation, is not sent over the Internet without encryption.  
   
- For more information on the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] protection of customer data, see the [Microsoft Online Services Trust Center](http://go.microsoft.com/fwlink/p/?LinkID=270221).  
-  
- ![Customer data and customer content](../../admin/media/customer-data-content.png "Customer data and customer content")  
+ For more information on the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] protection of customer data, see the [Microsoft Online Services Trust Center](https://www.microsoft.com/trustcenter/cloudservices/dynamics365).  
   
 ## Data segregation for Government Community Cloud  
  When provisioned as part of [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)], the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] service is offered in accordance with the National Institute of Standards and Technology (NIST) Special Publication 800-145.  
@@ -76,30 +115,89 @@ In response to the unique and evolving requirements of the United States public 
  In addition to the logical separation of customer content at the application layer, the [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] service provides your organization with a secondary layer of physical segregation for customer content by using infrastructure that is separate from the infrastructure used for commercial [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] customers. This includes using Azure services in Azure’s Government Cloud. To learn more, see [Azure Government](http://azure.microsoft.com/features/gov/).  
   
 ## Customer content located within the United States  
- [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] services are provided from datacenters physically located in the United States. [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] customer content is stored at rest in datacenters physically located only in the US.  
-  
- If your users are located within the US while using [!INCLUDE[pn_netbreeze_long](../../includes/pn-social-engagement-long.md)] or if you adopt the use of [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../../includes/pn-active-dir-fed-svcs-ad-fs.md)] 2.0 and set up policies to help ensure your users connect to the services through single sign-on, any customer content that is temporarily cached in [!INCLUDE[pn_netbreeze_long](../../includes/pn-social-engagement-long.md)] will be located in the US.  
+Dynamics 365 US Government services are provided from datacenters physically located in the United States. Dynamics 365 for Customer Engagement customer content is stored at rest in datacenters physically located only in the US.
   
 ## Restricted data access by administrators  
- Access to [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] customer content by Microsoft administrators is restricted to personnel who are US citizens. These personnel undergo background investigations in accordance with relevant government standards.  
+Access to Dynamics 365 US Government customer content by Microsoft administrators is restricted to personnel who are US citizens. These personnel undergo background investigations in accordance with relevant government standards.
+
+Dynamics 365 support and service engineering staff do not have standing access to customer content hosted in Dynamics 365 US Government. Any staff who request temporary permission elevation which would grant access to customer content must first have passed the following background checks.
+
+
+|Microsoft personnel screening and background checks<sup>1</sup>  |Description  |
+|---------|---------|
+|U.S. Citizenship     |Verification of U.S. citizenship         |
+|Employment History Check     |Verification of seven (7) year employment history         |
+|Education Verification     |Verification of highest degree attained         |
+|Social Security Number (SSN) Search     |Verification that the provided SSN is valid         |
+|Criminal History Check     |A seven (7) year criminal record check for felony and misdemeanor offenses at the state, county, and local level and at the federal level         |
+|Office of Foreign Assets Control List (OFAC)     |Validation against the Department of Treasury list of groups with whom U.S. persons are not allowed to engage in trade or financial transactions         |
+|Bureau of Industry and Security List (BIS)     |Validation against the Department of Commerce list of individuals and entities barred from engaging in export activities         |
+|Office of Defense Trade Controls Debarred Persons List (DDTC)     |Validation against the Department of State list of individuals and entities barred from engaging in export activities related to the defense industry         |
+|Fingerprinting Check     | Fingerprint background check against FBI databases        |
+|CJIS Background Screening<sup>2</sup>     |State-adjudicated review of federal and state criminal history by state CSA appointed authority within each state that has signed up for the Microsoft CJIS IA program         |
+
+<sup>1</sup>Applies only to personnel with temporary or standing access to customer content hosted in Dynamics 365 US Government (GCC & GCC High).
+
+<sup>2</sup> Applies only to personnel with temporary or standing access to customer content hosted in Dynamics 365 US Government (GCC).
   
 ## Certifications and accreditations  
- [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] is designed to support the Federal Risk and Authorization Management Program (FedRAMP) accreditation at a High Impact level. FedRAMP artifacts are available for review by federal customers who are required to comply with FedRAMP. Federal agencies can review these artifacts in support of their review to grant an Authority to Operate (ATO). It is important to note that, at the present time, the latest brand ([!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)]) may not show in our ATOs; however, this does not entail a degradation of the security protections afforded to the online services environment as there is application service continuity between the previous brand (Microsoft CRM Online Government) and [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)], as described above. As Microsoft moves to refresh FedRAMP artifacts as part of the standard audit cycles, branding references will be updated accordingly.  
+Dynamics 365 US Government is designed to support the Federal Risk and Authorization Management Program (FedRAMP) accreditation at a High Impact level. FedRAMP artifacts are available for review by federal customers who are required to comply with FedRAMP. Federal agencies can review these artifacts in support of their review to grant an Authority to Operate (ATO).  
   
- [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] has features designed to support customer’s CJIS Policy requirements for law enforcement agencies. Please visit the [Dynamics 365 for Customer Engagement apps Trust Center](https://www.microsoft.com/trustcenter/cloudservices/dynamics365) for more detailed information related to certifications and accreditations.  
-  
-## [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] and other Microsoft services  
- [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] includes several features that allow users to address customer calls through [!INCLUDE[pn_skype_for_business](../../includes/pn-skype-for-business.md)], email editing for sales materials and, in general, integration with other Microsoft enterprise service offerings such as [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] for Government. [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] is deployed within Microsoft datacenters in a manner consistent with a multi-tenant, public cloud deployment model; however, client applications including but not limited to the web-user client, [!INCLUDE[pn_moca_short](../../includes/pn-moca-short.md)], [!INCLUDE[pn_Mobile_Express_short](../../includes/pn-mobile-express-short.md)], [!INCLUDE[pn_oc_online_short](../../includes/pn-oc-online-short.md)], [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] and any third-party client application that connects to [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] are not part of [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)]'s accreditation boundary and government customers are responsible for managing them.  
-  
- [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] leverages the [!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)] customer administrator UI for customer administration and billing – [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] maintains the actual resources, information flow, and data management, while relying on [!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)] to provide the visual styles that are presented to the customer administrator through their management console. For purposes of FedRAMP ATO inheritance, [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] leverages the physical data centers managed by Microsoft’s Global Foundation Services (GFS) and [!INCLUDE[pn_Windows_Azure](../../includes/pn-windows-azure.md)] (including [!INCLUDE[pn_Windows_Azure](../../includes/pn-windows-azure.md)] for Government) ATOs for infrastructure and platform services, respectively.  
-  
-## [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] and third-party services  
- [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] provides the ability to integrate third-party applications into the service. These third-party applications and services might involve storing, transmitting, and processing your organization’s customer data on third-party systems that are outside of the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] infrastructure and therefore are not covered by the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] compliance and data protection commitments. We recommend that you review the privacy and compliance statements provided by the third parties when assessing the appropriate use of these services for your organization.  
-  
-## [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] and Azure Services  
- [!INCLUDE[pn_azure_active_directory](../../includes/pn-azure-active-directory.md)] (Azure AD) is not part of the [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] accreditation boundary and government customers are responsible for using AD FS to uniquely identify and authenticate their organizational users. Notwithstanding, it is important to note that Azure AD provides critical functionality to both [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] and [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)], whose dependencies are described in detailed in the [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] SSP (Service Security Plan).  
-  
- When a user of an organization employing [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] attempts to access [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], the user is redirected to a login page hosted on the organization’s [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] server. The user provides his or her credentials to their organization's [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] server, which attempts to authenticate the credentials using the organization’s existing Active Directory infrastructure. If the credentials are authenticated, the organization’s [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] server issues a SAML (Security Assertion Markup Language) ticket containing information about the user’s identity and group membership. The customer [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] server signs this ticket using one half of an asymmetric key pair and it sends the ticket to Azure AD via encrypted TLS. Azure AD validates the signature using the other half of the asymmetric key pair and grants access based on the ticket. The user's identity and group membership information remain in an encrypted fashion in Azure AD; in other words, limited user-identifiable information is stored in Azure AD. Full details of the Azure AD security architecture and control implementation can be found in the [!INCLUDE[pn_Windows_Azure](../../includes/pn-windows-azure.md)] SSP. The Azure AD account management services are hosted on physical servers managed by the Microsoft Global Foundation Services (GFS). Network access to these servers is controlled by GFS-managed network devices using rules set by [!INCLUDE[pn_Windows_Azure](../../includes/pn-windows-azure.md)]. Users do not interact directly with Azure AD.  
+Dynamics 365 US Government has features designed to support customer’s CJIS Policy requirements for law enforcement agencies. Please visit the Dynamics 365 for Customer Engagement apps Trust Center for more detailed information related to certifications and accreditations.
+
+Microsoft has designed the platform and our operational procedures to meet the requirements aligning with the DISA SRG IL4 compliance framework.  We anticipate our US Department of Defense contractor customer base and other Federal agencies currently leveraging Office 365 GCC High to use the Dynamics 365 US Government GCC High deployment option, which enables and requires the customer to leverage Azure AD Government for customer identities, in contrast to GCC which leverages Public Azure AD.  For our US Department of Defense contractor customer base, Microsoft operates the service in a manner that enables these customers to meet ITAR commitment and DFARS acquisition regulations
+
+## Dynamics 365 US Government and other Microsoft services
+
+Dynamics 365 US Government includes several features that allow users to address customer calls through Skype for Business, email editing for sales materials and, in general, integration with other Microsoft enterprise service offerings such as Office 365 for Government. Dynamics 365 US Government is deployed within Microsoft datacenters in a manner consistent with a multi-tenant, public cloud deployment model; however, client applications including but not limited to the web-user client, Dynamics 365 for tablets, Dynamics 365 for phones, Dynamics 365 for Outlook, Unified Service Desk for Dynamics 365 and any third-party client application that connects to Dynamics 365 US Government are not part of Dynamics 365 US Government's accreditation boundary and government customers are responsible for managing them.
+
+Dynamics 365 US Government leverages the Office 365 customer administrator UI for customer administration and billing.  Dynamic 365 US Government maintains the actual resources, information flow, and data management, while relying on Office 365 to provide the visual styles that are presented to the customer administrator through their management console. For purposes of FedRAMP ATO inheritance, Dynamics 365 US Government leverages Azure (including Azure Government) ATOs for infrastructure and platform services, respectively.
+ 
+## Dynamics 365 US Government and third-party services
+Dynamics 365 for Customer Engagement provides the ability to integrate third-party applications into the service. These third-party applications and services might involve storing, transmitting, and processing your organization’s customer data on third-party systems that are outside of the Dynamics 365 for Customer Engagement infrastructure and therefore are not covered by the Dynamics 365 for Customer Engagement compliance and data protection commitments. We recommend that you review the privacy and compliance statements provided by the third parties when assessing the appropriate use of these services for your organization.
+
+## Dynamics 365 US Government and Azure Services
+Azure Active Directory (Azure AD) and Azure Active Directory Government (Azure AD Government) are not part of the Dynamics 365 US Government accreditation boundary. Government customers are responsible for using ADFS to uniquely identify and authenticate their organizational users. Notwithstanding, it is important to note that Azure AD and Azure AD Government provide critical functionality to both Dynamics 365 US Government and ADFS, whose dependencies are described in detailed in the Dynamics 365 US Government SSP (Service Security Plan).
+
+When a user of an organization employing ADFS attempts to access Dynamics 365 for Customer Engagement, the user is redirected to a login page hosted on the organization’s ADFS server. The user provides his or her credentials to their organization's ADFS server, which attempts to authenticate the credentials using the organization’s existing Active Directory infrastructure. If the credentials are authenticated, the organization’s ADFS server issues a SAML (Security Assertion Markup Language) ticket containing information about the user’s identity and group membership. The customer ADFS server signs this ticket using one half of an asymmetric key pair and it sends the ticket to Azure AD via encrypted TLS. Azure AD validates the signature using the other half of the asymmetric key pair and grants access based on the ticket. The user's identity and group membership information remain in an encrypted fashion in Azure AD; in other words, limited user-identifiable information is stored in Azure AD. Full details of the Azure AD security architecture and control implementation can be found in the Azure SSP and Azure Government SSP.  Users do not interact directly with Azure AD.
+
+## Dynamics 365 US Government URLs
+You use a different set of URLs to access Dynamics 365 US Government environments, as documented here:
+
+### Dynamics 365 Instance Administration (“Instance Picker”)
+
+- GCC: https://port.crm9.dynamics.com/G/Instances/InstancePicker.aspx
+- GCC High:  https://port.crm.microsoftdynamics.us/G/Instances/InstancePicker.aspx
+
+### Instances
+
+- GCC: *.crm9.dynamics.com
+- GCC High:  *.crm.microsoftdynamics.us
+
+### Discovery Service
+
+- GCC: https://disco.crm9.dynamics.com/XRMServices/2011/Discovery.svc
+- GCC High: https://disco.crm.microsoftdynamics.us/XRMServices/2011/Discovery.svc
+
+### Discovery WebAPI
+
+- GCC: https://disco.crm9.dynamics.com/api/discovery/v9.1/
+- GCC High: https://disco.crm.microsoftdynamics.us/api/discovery/v9.1/
+
+### Instance WebAPI
+
+- GCC High: https://*.api.crm9.dynamics.com/api/data/v9.1/
+- GCC High: https://*.api.crm.microsoftdynamics.us/api/data/v9.1/
+
+### Organization Service
+
+- GCC: https://*.api.crm9.dynamics.com/XRMServices/2011/Organization.svc
+- GCC High: https://*.api.crm.microsoftdynamics.us/XRMServices/2011/Organization.svc
+
+### Microsoft Dynamics Portals
+
+- GCC: https://*.dynamics365portals.us
+- GCC High: http://*.high.dynamics365portals.us
   
 ### See also  
  [Dynamics 365 for Customer Engagement apps (online) Government - Feature availability](government-feature-availability.md)<br/>

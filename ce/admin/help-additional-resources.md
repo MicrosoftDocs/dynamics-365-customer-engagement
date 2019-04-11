@@ -45,7 +45,7 @@ There are several resources available to you covering planning, operating, and u
 
 ## More self-service help resources  
   
--   View the [Office 365 Service Health Dashboard](https://portal.office.com/ServiceStatus/ServiceStatus.aspx)  
+-   View the [Office 365 Service Health Dashboard](https://admin.microsoft.com/ServiceStatus/ServiceStatus.aspx)  
   
 -   Search the [Support Blog](https://community.dynamics.com/crm/b/dynamicscrmsupportblog/default.aspx) and [Community Forum](https://community.dynamics.com/product/crm/f/117.aspx)  
   

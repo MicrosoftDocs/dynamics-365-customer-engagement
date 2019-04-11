@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) extends Microsoft Dynamics 365 for Sales entities and other entities. It also introduces its own entities in the Common Data Service for Apps data model. This topic describes some of the entities that you will encounter in typical PSA reporting scenarios.
+Microsoft Dynamics 365 for Project Service Automation (PSA) extends Microsoft Dynamics 365 for Sales entities and other entities. It also introduces its own entities in the Common Data Service data model. This topic describes some of the entities that you will encounter in typical PSA reporting scenarios.
 
 ## Reporting on opportunities
 

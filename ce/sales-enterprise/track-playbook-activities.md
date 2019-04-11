@@ -23,7 +23,7 @@ topic-status: Tech Reviewing
 
 # Track playbook activities
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+Applies to Dynamics 365 for Customer Engagement apps version 9.x
 
 When a playbook is launched, its related activities are created and associated with the record the playbook is launched from (also called the calling record). You must complete these activities to ensure every event is dealt with consistently.
 
@@ -59,18 +59,12 @@ To see the activities created by the playbook when the **Track progress** field 
    The Open Activity Associated View lists all the activities for the calling record along with the playbook activities created since the playbook was launched. However, this view doesn't show the total number of activities that have been created in the context of a playbook. 
 
 
-## Preview: View or download documents associated with an activity
-
-[This section is prerelease documentation and is subject to change.]
-
-> [!NOTE]
->   - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)] 
->   - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
+## View or download documents associated with an activity
 
 If a sales manager has added sales brochures or training docs to a playbook activity, as a sales rep you can refer to these docs while you are working on the activity to ensure you can quickly access any details you need.
 
 > [!NOTE]
-> Documents are available only for task and appointment activities associated with a playbook activity. 
+> Documents are available for task, appointment, and phone call activities associated with a playbook activity. 
 
 To view or download a document, in the activity form, select the **Related** tab, and then select **Documents**.
 

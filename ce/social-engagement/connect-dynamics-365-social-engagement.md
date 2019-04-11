@@ -2,7 +2,7 @@
 title: "Connect Social Engagement to Dynamics 365 for Customer Engagement | Microsoft Docs"
 description: "Learn how to set up the connection between Social Engagement and Dynamics 365 for Customer Engagement."
 keywords: connect, connection, integration, dynamice 365
-ms.date: 09/19/2018
+ms.date: 03/15/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,6 @@ applies_to:
 ms.assetid: f8acc707-064a-47e3-9392-85396b9dda2c
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
 topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
@@ -55,8 +54,7 @@ The following prerequisites apply to both [!INCLUDE[pn_dynamics_crm_online](../i
 - Enable OAuth support by following the [post-installation and configuration guidelines](http://go.microsoft.com/fwlink/p/?LinkID=723355).  
   
 - Register your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution so that it can connect to and authenticate with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server, and access the web services. Each solution that you want to connect with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (on-premises) (IFD-enabled) should be registered as a RedirectUri. Use the following command to register with the desktop client:  
-  
-  `Add-AdfsClient -Name MSE -ClientId e8ab36af-d4be-4833-a38b-4d6cf1cfd525 -RedirectUri @("https://listening-prod.dynamics.com/api/connect/version/1.0/solutions/<solution id>/crm/oauthRedirect ", "https://listening-prod.dynamics.com/api/connect/version/1.0/solutions/<solutionid>/crm/oauthRedirect") -Description "OAuth 2.0 client for MSE".`  
+  `Add-AdfsClient -Name MSE -ClientId e8ab36af-d4be-4833-a38b-4d6cf1cfd525 -RedirectUri @("https://app.mi.ai.dynamics.com/api/connect/version/1.0/solutions/<solutionid>/crm/oauthRedirect","https://listening-prod.dynamics.com/api/connect/version/1.0/solutions/<solutionid>/crm/oauthRedirect") -Description "OAuth 2.0 client for MSE"`
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Walkthrough: Register an app with Active Directory](http://go.microsoft.com/fwlink/p/?LinkId=723356)  
 
@@ -92,7 +90,12 @@ To connect the services, both both of them must be part of the same organization
   
 5. Click **Next** ![Next button](media/next-icon.png "Next button").  
   
-6. If the connection was successful, the **Dynamics 365 Instance** pane opens and shows you the details about the connected instance.  
+6. If the connection was successful, the **Dynamics 365 Instance** pane opens and shows you the details about the connected instance.
+   > [!IMPORTANT]
+   > If the the connection to an on-premises instance doesn't succeed and leads to an OAUTH ERROR, verify that the on-premises instance is configured correctly using this curl request:
+   > `curl https://<CRM_URL>:<PORT>/XRMServices/2011/Organization.svc/web?SdkClientVersion=6.1.0.533 -v`
+   > The expected reply is in this form:
+   > `HTTP/1.1 401 Unauthorized WWW-Authenticate: Bearer redirect_uri=<URI>, Params=<string>`
   
 7. You can set the **Set as default** control to ON to have this instance selected by default when creating new links to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts.  
   

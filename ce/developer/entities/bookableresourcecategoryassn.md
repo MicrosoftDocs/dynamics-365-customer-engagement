@@ -1,42 +1,44 @@
 ---
-title: "BookableResourceCategoryAssn Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "BookableResourceCategoryAssn Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the BookableResourceCategoryAssn entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # BookableResourceCategoryAssn Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Association entity to model the categorization of resources.
 
-**Added by**: Scheduling Solution<br />
+**Added by**: Scheduling Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategoryassns(*bookableresourcecategoryassnid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/bookableresourcecategoryassns<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/bookableresourcecategoryassns(*bookableresourcecategoryassnid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategoryassns(*bookableresourcecategoryassnid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/bookableresourcecategoryassns<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/bookableresourcecategoryassns(*bookableresourcecategoryassnid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/bookableresourcecategoryassns(*bookableresourcecategoryassnid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bookableresourcecategoryassns<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/bookableresourcecategoryassns(*bookableresourcecategoryassnid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bookableresourcecategoryassns<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategoryassns(*bookableresourcecategoryassnid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategoryassns(*bookableresourcecategoryassnid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategoryassns(*bookableresourcecategoryassnid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/bookableresourcecategoryassns(*bookableresourcecategoryassnid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -109,6 +111,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_IsDefault"></a> msdyn_IsDefault
 
+**Added by**: Project Service Automation Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the default resource role.|
@@ -177,6 +181,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -306,7 +312,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -712,7 +720,6 @@ Listed by **SchemaName**.
 - [bookableresourcecategoryassn_DuplicateBaseRecord](#BKMK_bookableresourcecategoryassn_DuplicateBaseRecord)
 - [bookableresourcecategoryassn_AsyncOperations](#BKMK_bookableresourcecategoryassn_AsyncOperations)
 - [bookableresourcecategoryassn_MailboxTrackingFolders](#BKMK_bookableresourcecategoryassn_MailboxTrackingFolders)
-- [bookableresourcecategoryassn_UserEntityInstanceDatas](#BKMK_bookableresourcecategoryassn_UserEntityInstanceDatas)
 - [bookableresourcecategoryassn_ProcessSession](#BKMK_bookableresourcecategoryassn_ProcessSession)
 - [bookableresourcecategoryassn_BulkDeleteFailures](#BKMK_bookableresourcecategoryassn_BulkDeleteFailures)
 - [bookableresourcecategoryassn_PrincipalObjectAttributeAccess](#BKMK_bookableresourcecategoryassn_PrincipalObjectAttributeAccess)
@@ -720,6 +727,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_BookableResourceCategoryAssn_SyncErrors"></a> BookableResourceCategoryAssn_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [BookableResourceCategoryAssn_SyncErrors](syncerror.md#BKMK_BookableResourceCategoryAssn_SyncErrors) Many-To-One relationship.
 
@@ -736,6 +745,8 @@ Same as syncerror entity [BookableResourceCategoryAssn_SyncErrors](syncerror.md#
 
 ### <a name="BKMK_bookableresourcecategoryassn_DuplicateMatchingRecord"></a> bookableresourcecategoryassn_DuplicateMatchingRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [bookableresourcecategoryassn_DuplicateMatchingRecord](duplicaterecord.md#BKMK_bookableresourcecategoryassn_DuplicateMatchingRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -750,6 +761,8 @@ Same as duplicaterecord entity [bookableresourcecategoryassn_DuplicateMatchingRe
 
 
 ### <a name="BKMK_bookableresourcecategoryassn_DuplicateBaseRecord"></a> bookableresourcecategoryassn_DuplicateBaseRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [bookableresourcecategoryassn_DuplicateBaseRecord](duplicaterecord.md#BKMK_bookableresourcecategoryassn_DuplicateBaseRecord) Many-To-One relationship.
 
@@ -766,6 +779,8 @@ Same as duplicaterecord entity [bookableresourcecategoryassn_DuplicateBaseRecord
 
 ### <a name="BKMK_bookableresourcecategoryassn_AsyncOperations"></a> bookableresourcecategoryassn_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [bookableresourcecategoryassn_AsyncOperations](asyncoperation.md#BKMK_bookableresourcecategoryassn_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -781,6 +796,8 @@ Same as asyncoperation entity [bookableresourcecategoryassn_AsyncOperations](asy
 
 ### <a name="BKMK_bookableresourcecategoryassn_MailboxTrackingFolders"></a> bookableresourcecategoryassn_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [bookableresourcecategoryassn_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bookableresourcecategoryassn_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -791,25 +808,12 @@ Same as mailboxtrackingfolder entity [bookableresourcecategoryassn_MailboxTracki
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|bookableresourcecategoryassn_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_bookableresourcecategoryassn_UserEntityInstanceDatas"></a> bookableresourcecategoryassn_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [bookableresourcecategoryassn_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_bookableresourcecategoryassn_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|bookableresourcecategoryassn_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_bookableresourcecategoryassn_ProcessSession"></a> bookableresourcecategoryassn_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [bookableresourcecategoryassn_ProcessSession](processsession.md#BKMK_bookableresourcecategoryassn_ProcessSession) Many-To-One relationship.
 
@@ -826,6 +830,8 @@ Same as processsession entity [bookableresourcecategoryassn_ProcessSession](proc
 
 ### <a name="BKMK_bookableresourcecategoryassn_BulkDeleteFailures"></a> bookableresourcecategoryassn_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [bookableresourcecategoryassn_BulkDeleteFailures](bulkdeletefailure.md#BKMK_bookableresourcecategoryassn_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -841,6 +847,8 @@ Same as bulkdeletefailure entity [bookableresourcecategoryassn_BulkDeleteFailure
 
 ### <a name="BKMK_bookableresourcecategoryassn_PrincipalObjectAttributeAccess"></a> bookableresourcecategoryassn_PrincipalObjectAttributeAccess
 
+**Added by**: System Solution Solution
+
 Same as principalobjectattributeaccess entity [bookableresourcecategoryassn_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_bookableresourcecategoryassn_PrincipalObjectAttributeAccess) Many-To-One relationship.
 
 |Property|Value|
@@ -855,6 +863,8 @@ Same as principalobjectattributeaccess entity [bookableresourcecategoryassn_Prin
 
 
 ### <a name="BKMK_bookableresourcecategoryassn_Annotations"></a> bookableresourcecategoryassn_Annotations
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [bookableresourcecategoryassn_Annotations](annotation.md#BKMK_bookableresourcecategoryassn_Annotations) Many-To-One relationship.
 
@@ -888,29 +898,43 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_bookableresourcecategoryassn_createdby"></a> lk_bookableresourcecategoryassn_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_bookableresourcecategoryassn_createdby](systemuser.md#BKMK_lk_bookableresourcecategoryassn_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_bookableresourcecategoryassn_createdonbehalfby"></a> lk_bookableresourcecategoryassn_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_bookableresourcecategoryassn_createdonbehalfby](systemuser.md#BKMK_lk_bookableresourcecategoryassn_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_bookableresourcecategoryassn_modifiedby"></a> lk_bookableresourcecategoryassn_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_bookableresourcecategoryassn_modifiedby](systemuser.md#BKMK_lk_bookableresourcecategoryassn_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_bookableresourcecategoryassn_modifiedonbehalfby"></a> lk_bookableresourcecategoryassn_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_bookableresourcecategoryassn_modifiedonbehalfby](systemuser.md#BKMK_lk_bookableresourcecategoryassn_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_bookableresourcecategoryassn"></a> user_bookableresourcecategoryassn
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_bookableresourcecategoryassn](systemuser.md#BKMK_user_bookableresourcecategoryassn) One-To-Many relationship.
 
 ### <a name="BKMK_team_bookableresourcecategoryassn"></a> team_bookableresourcecategoryassn
 
+**Added by**: System Solution Solution
+
 See team Entity [team_bookableresourcecategoryassn](team.md#BKMK_team_bookableresourcecategoryassn) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_bookableresourcecategoryassn"></a> business_unit_bookableresourcecategoryassn
+
+**Added by**: System Solution Solution
 
 See businessunit Entity [business_unit_bookableresourcecategoryassn](businessunit.md#BKMK_business_unit_bookableresourcecategoryassn) One-To-Many relationship.
 
@@ -924,11 +948,13 @@ See bookableresourcecategory Entity [bookableresourcecategory_bookableresourceca
 
 ### <a name="BKMK_TransactionCurrency_bookableresourcecategoryassn"></a> TransactionCurrency_bookableresourcecategoryassn
 
+**Added by**: System Solution Solution
+
 See transactioncurrency Entity [TransactionCurrency_bookableresourcecategoryassn](transactioncurrency.md#BKMK_TransactionCurrency_bookableresourcecategoryassn) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.bookableresourcecategoryassn?text=bookableresourcecategoryassn EntityType" />

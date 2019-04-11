@@ -1,12 +1,13 @@
 ---
-title: Pricing 
+
+title: Project pricing 
 description: This topic provides information about how pricing works in Dynamics 365 for Project Service Automation (PSA).
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 02/14/2019
+ms.date: 03/11/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -21,7 +22,7 @@ search.app:
   - D365PS
 ---
 
-# Pricing 
+# Project pricing 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -119,7 +120,9 @@ PSA tracks costs for the use of human resource time on projects. It also tracks 
 Like bill rates, cost rates for human resources are also set up using price lists. Here are the main differences in the behavior of the cost price list and sales price list:
 
 - The cost rate of a resource can’t be overridden on a specific project, contract, or quote. However, bill rates can be overridden on a per-deal basis if changes are made that are specific to the nature of the deal. 
-- The followign order is used to resolve a cost price list:
+
+- The following order is used to resolve a cost price list:
+
     1. The cost price list that is attached to the organizational unit.
     2. The cost price list that is attached to the project service parameters. Because cost price lists in many different currencies can be attached to project service parameters, PSA does a currency match between the currency of the contracting organizational unit of the project, contract, or quote, and the currency of the cost price list.
     3. For expenses, the at-cost and markup-over-cost pricing methods don’t apply to cost price lists. Even if these pricing methods are used on cost price list lines to set up transaction category costs, the system ignores them, and no default cost price is entered.

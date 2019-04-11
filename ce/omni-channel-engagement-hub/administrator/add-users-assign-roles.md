@@ -24,7 +24,7 @@ All Dynamics 365 users who are assigned the **Omni-channel administrator**, **Om
 > [!IMPORTANT]
 > To enable users for Omni-channel, your org should have successfully on-boarded to the Omni-channel public preview. Refer [Provision Omni-channel Engagement Hub](omni-channel-provision-license.md) to provision Omni-channel in your Dynamics 365 org.
 
-Use the Office 365 Admin Center to create user accounts for every user who needs access to Omni-channel Engagement Hub. For more information, see  [Create users in Dynamics 365 for Customer Engagement apps and assign security roles](../../admin/create-users-assign-online-security-roles.md).
+Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omni-channel Engagement Hub. For more information, see  [Create users in Dynamics 365 for Customer Engagement apps and assign security roles](../../admin/create-users-assign-online-security-roles.md).
 
 Follow these steps to assign Omni-channel roles to users in the Dynamics 365 web application:
 
@@ -47,6 +47,8 @@ To view and manage omni-channel users, see [Manage users in Omni-channel Engagem
 
 Each role in Omni-channel Engagement Hub can perform a set of actions based on the privileges. 
 
+
+
 |                        Area         |  Operation |  Omni-channel administrator                 |    Omni-channel supervisor                       |    Omni-channel agent                      |
 |---------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------|---------------------------|----------------------------------|
 |    **User Management**           |    View user list|    Yes                    |     Yes  |     Yes |
@@ -68,7 +70,6 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 |            |   Add/edit/delete operating hours |    Yes                    |     No                |      No              |
 |    **Authentication Settings**      |    View/add/edit/delete authentication settings|    Yes   |     No  |     No |
 |||
-
 
 ### See also
 

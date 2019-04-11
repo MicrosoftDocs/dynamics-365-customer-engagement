@@ -37,7 +37,7 @@ The upgrade process involves three steps:
 
 ## Purchase Dynamics 365 for Sales Enterprise Edition subscription
 
-1. Sign in to Office 365 at portal.office.com with the Dynamics 365 for Customer Engagement account that has admin permissions.
+1. Sign in to Office 365 at admin.microsoft.com with the Dynamics 365 for Customer Engagement account that has admin permissions.
 
 2. Select **Billing** > **Subscriptions**.
 
@@ -62,7 +62,7 @@ The upgrade process involves three steps:
 
 After you’ve purchased the licenses, assign the licenses to users. 
 
-1.	On the Office 365 admin center, select **Users** > **Active users**.
+1.	On the Microsoft 365 admin center, select **Users** > **Active users**.
 
 2.	Select multiple users, and then select **Edit product licenses**. 
     
@@ -83,7 +83,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 ## Install Dynamics 365 for Sales Enterprise solution
 
-1.	In the Office 365 admin center, select **Admin Centers** > **Dynamics 365**.
+1.	In the Microsoft 365 admin center, select **Admin Centers** > **Dynamics 365**.
 
     ![Dynamics 365 admin center in Office 365 nav bar](media/select-admin-center.png "Dynamics 365 admin center in Office 365 nav bar")
     

@@ -4,7 +4,7 @@ description: "Service Activity is not directly available in the new scheduling e
 ms.custom: ""
 ms.date: 11/27/2018
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
