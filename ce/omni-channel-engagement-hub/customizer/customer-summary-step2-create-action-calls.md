@@ -46,47 +46,51 @@ This topic demonstrates how to create customer summary hosted control in Unified
 4. Select **Action Calls** and select **+ New**.
 
 5. In the new page, specify the following details.
+    > [!div class="mx-tdBreakAll"]
+    > | Tab     | Field          | Value                           |
+    > |------------------|----------------------|---------------------------------|
+    > | General | Name           | Initialize Omni-channel Context - Window Variable - Customer Summary      |
+    > | General | Order | 5 | 
+    > | General | Hosted Control | Customer Summary |
+    > | General | Action         | RunScript    |
+    > | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]');  <br> var session = {"LiveWorkItemId" : "\[\[$Context.LiveWorkItemId\]+\]", "OCSessionId" : "\[\[$Context.OCSessionId\]+\]", "LiveWorkStreamId" : "\[\[$Context.LiveWorkStreamId\]+\]", "LiveWorkItemContext" : '\[\[$Context.LiveWorkItemContext\]\]', "SessionInfo": '\[\[$Context.SessionInfo\]+\]'};  <br> ocConfig.config.sessionParams = session;  <br> window.ocContext = ocConfig;  <br> }  <br> initOCContext(); |
 
-    | Tab     | Field          | Value                           |
-    |------------------|----------------------|---------------------------------|
-    | General | Name           | Initialize Omni-channel Context - Window Variable - Customer Summary      |
-    | General | Order | 5 | 
-    | General | Hosted Control | Customer Summary |
-    | General | Action         | RunScript    |
-    | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]');  <br> var session = {"LiveWorkItemId" : "\[\[$Context.LiveWorkItemId\]+\]", "OCSessionId" : "\[\[$Context.OCSessionId\]+\]", "LiveWorkStreamId" : "\[\[$Context.LiveWorkStreamId\]+\]", "LiveWorkItemContext" : '\[\[$Context.LiveWorkItemContext\]\]', "SessionInfo": '\[\[$Context.SessionInfo\]+\]'};  <br> ocConfig.config.sessionParams = session;  <br> window.ocContext = ocConfig;  <br> }  <br> initOCContext(); |
+    > [!div class="mx-tdBreakAll"]
+    > | Tab     | Field          | Value                           |
+    > |------------------|----------------------|---------------------------------|
+    > | General | Name           | Update Conversation Context Entities     |
+    > | General | Order | 2 | 
+    > | General | Hosted Control | Communication Panel |
+    > | General | Action         | OmnichannelUpdateContextEntities    |
+    > | General | Data | ChatPayLoad=\[\[PostData\]\] |
 
-    | Tab     | Field          | Value                           |
+    > [!div class="mx-tdBreakAll"]
+    > | Tab | Field      | Value                       |
     |------------------|----------------------|---------------------------------|
-    | General | Name           | Update Conversation Context Entities     |
-    | General | Order | 2 | 
-    | General | Hosted Control | Communication Panel |
-    | General | Action         | OmnichannelUpdateContextEntities    |
-    | General | Data | ChatPayLoad=\[\[PostData\]\] |
-
-    | Tab | Field      | Value                       |
-    |------------------|----------------------|---------------------------------|
-    | General | Name           | Omni-channel Session Accepted   |
-    | General | Order | 15 |
-    | General | Hosted Control | Communication Panel |
-    | General | Action         | OmnichannelSessionAccepted | 
-    | General | Data | ConversationId=\[\[cid\]\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] <br> CanActivateSession=\[\[CanActivateSession\]+\] |
+    > | General | Name           | Omni-channel Session Accepted   |
+    > | General | Order | 15 |
+    > | General | Hosted Control | Communication Panel |
+    > | General | Action         | OmnichannelSessionAccepted | 
+    > | General | Data | ConversationId=\[\[cid\]\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] <br> CanActivateSession=\[\[CanActivateSession\]+\] |
     | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] ||  '\[\[CanActivateSession\]+\]' == 'True' |
 
-    | Tab | Field      | Value                       |
-    |------------------|----------------------|---------------------------------|
-    | General | Name           | Show Dashboards On Data Available   |
-    | General | Order | 21 |
-    | General | Hosted Control | CRM Global Manager |
-    | General | Action         | ExecuteOnDataAvailable | 
-    | General | Data | milliseconds=5000 <br> \[\[$Context.LiveWorkItemId\]\] <br> \[\[$Context.OCSessionId\]\] <br> \[\[$Context.LiveWorkStreamId\]\] |
+    > [!div class="mx-tdBreakAll"]
+    > | Tab | Field      | Value                       |
+    > |------------------|----------------------|---------------------------------|
+    > | General | Name           | Show Dashboards On Data Available   |
+    > | General | Order | 21 |
+    > | General | Hosted Control | CRM Global Manager |
+    > | General | Action         | ExecuteOnDataAvailable | 
+    > | General | Data | milliseconds=5000 <br> \[\[$Context.LiveWorkItemId\]\] <br> \[\[$Context.OCSessionId\]\] <br> \[\[$Context.LiveWorkStreamId\]\] |
     | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
-    | Tab | Field      | Value                       |
-    |------------------|----------------------|---------------------------------|
-    | General | Name           | Load Customer Summary   |
-    | General | Order | 200 |
-    | General | Hosted Control | Customer Summary |
-    | General | Action         | Navigate | 
-    | General | Data | url=/main.aspx?navbar=off&cmdbar=false&pagetype=entityrecord&etn=msdyn_ocliveworkitem&formid=5fe86453-73ea-4821-b6dd-ddc06e1755a1&bodyOnly=true <br> Hidenav=true |
+    > [!div class="mx-tdBreakAll"]
+    > | Tab | Field      | Value                       |
+    > |------------------|----------------------|---------------------------------|
+    > | General | Name           | Load Customer Summary   |
+    > | General | Order | 200 |
+    > | General | Hosted Control | Customer Summary |
+    > | General | Action         | Navigate | 
+    > | General | Data | url=/main.aspx?navbar=off&cmdbar=false&pagetype=entityrecord&etn=msdyn_ocliveworkitem&formid=5fe86453-73ea-4821-b6dd-ddc06e1755a1&bodyOnly=true <br> Hidenav=true |
 
     

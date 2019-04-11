@@ -60,4 +60,4 @@ This topic demonstrates how to create customer summary hosted control in Unified
 6.  Save the hosted control.
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 2: Create customer summary related action Calls](customer-summary-step1-create-action-calls.md)
+> [Next topic: Step 2: Create customer summary related action Calls](customer-summary-step2-create-action-calls.md)
