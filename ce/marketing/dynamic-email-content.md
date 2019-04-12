@@ -117,10 +117,10 @@ Where:
 
 For example:
 
-- `Company Name account (Contact) -> Account`: This relationship is used by the `Contact` entity to display information from the `Account` entity in a contact record's `Company Name` field. In other words, it links to the company (account) that the contact works for.
-- `Managing Partner account (Contact) -> Account`: This relationship is used by the `Contact` entity to display information from the `Account` entity in a contact record's `Managing Partner` field. In other words, it links to the company (account) that is the managing partner for a contact.
-- `Contact -> Primary Contact contact (Account)`: This relationship is used by the `Account` entity to display information from the `Contact` entity in an account record's `Primary Contact` field. In other words, it links to the primary contact associated with the account.
-- `Contact -> Contact contact (Event Registration)`: This relationship is used by the `Event Registration` entity to display information from the `Contact` entity in an event-registration record's `Contact` field. In other words, it links to the contact that registered for an event.
+- **Company Name account (Contact) -> Account**: This relationship is used by the **Contact** entity to display information from the **Account** entity in a contact record's **Company Name** field. In other words, it links to the company (account) that the contact works for.
+- **Managing Partner account (Contact) -> Account**: This relationship is used by the **Contact** entity to display information from the **Account** entity in a contact record's **Managing Partner** field. In other words, it links to the company (account) that is the managing partner for a contact.
+- **Contact -> Primary Contact contact (Account)**: This relationship is used by the **Account** entity to display information from the **Contact** entity in an account record's **Primary Contact** field. In other words, it links to the primary contact associated with the account.
+- **Contact -> Contact contact (Event Registration)**: This relationship is used by the **Event Registration** entity to display information from the **Contact** entity in an event-registration record's **Contact** field. In other words, it links to the contact that registered for an event.
 
 Assist-edit creates an expression that uses a format such as the following:
 - `{{EntityName.FieldName}}`
