@@ -209,27 +209,12 @@ If a field technician begins travel to his or her next work order and sees the t
 
 **Auto Update Booking Travel Field Service v8.6+**
 
-The auto travel time update feature for manual scheduling needs two locations to work. As an example, if a resource has a starting location and the first requirement scheduled to the resource has a location (ie work location = on site), then the travel time will be calculated and visualized. If the resource does not have a starting location (ie resource start location = location agnostic), the first on site requirement scheduled will not have a travel time. However, if an on site requirement is schedule after another on site requirement, then the feature has two known locations and the travel time between the two requirements will be calculated **even if the resource is location agnostic**.
+> The auto travel time update feature for manual scheduling needs two locations to work. As an example, if a resource has a starting location and the first requirement scheduled to the resource has a location (ie work location = on site), then the travel time will be calculated and visualized. If the resource does not have a starting location (ie resource start location = location agnostic), the first on site requirement scheduled will not have a travel time. However, if an on site requirement is schedule after another on site requirement, then the feature has two known locations and the travel time between the two requirements will be calculated **even if the resource is location agnostic**.
 
-Here are a few more notes about the Auto Update Booking Travel feature;
-- The feature is org wide. This means it cannot be enabled or disabled based on specific users, schedule board tabs, or specific scheduleable entities. 
+> Here are a few more notes about the Auto Update Booking Travel feature;
+> - The feature is org wide. This means it cannot be enabled or disabled based on specific users, schedule board tabs, or specific scheduleable entities. 
+> - The feature only applies to the Hours view of the schedule board and travel time and distances will not be updated if the bookable resource booking form is edited manually or via a workflow or if bookings are imported.
+> - The threshold is the beginning of the next days working hours. This means if you have an on site booking, the subsequent on site booking will calculate travel time from the previous booking up until the beginning of the next days working hours, even if there are multiple hours in between the two on site bookings.
+> - The time the requirement is dragged to the schedule board is the time the resource will arrive on site and the travel time is calculated and added **before** that time. This is not configurable. As an example, if I schedule an on site work order requirement at 10:00am by dragging my mouse to the 10:00am time slot, and the feature calculates 20 minutes of travel time, then travel will begin at 9:40am and it is expected the resource will arrive by 10:00am.
 
-- The feature only applies to the Hours view of the schedule board
-- The threshold is the end of the day. This means if you have an on site booking, the following on site booking will calculate travel time from the previous booking up until the end of that day, even if there are multiple hours in between the two on site bookings.
-- The time the requirement is dragged to the schedule board is the time the resource will arrive on site and the travel time is calculated and added before that time. This is not configurable. As an example, if I schedule an on site work order requirement at 10:00am by dragging my mouse to the 10:00am time slot, and the feature calculates 20 minutes of travel time, then travel will begin at 9:40am and it is expected the resource will arrive by 10:00am.
-- will calculate distances...
-
-here the scenarios where travel times will be updated
-
-if estimated arrival time is outside working hours...it may assume youre back at starting lcoation
-substitution?
-rescheduling?
-
-
-scenario - put a booking in the middle of 2, whether manually or with schedule assistant,  2 and 3 will update 
-
-imported work orders, or editing booking, or via workflow
-
-- ETA is decided as first booking
-- will it cascade rest of the bookings, booking before, it wont cascade, and move overlaps but travel time for the ones affected will hcnaged 1 or 2 ahead
 
