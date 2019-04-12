@@ -115,11 +115,11 @@ Use the **Properties** tab to view, enter, and edit the code to be placed by a c
 
 ### Event registration QR code elements
 
-Each time a contact [registers for an event](invite-register-house-event-attendees.md), the system creates a new event-registration record, which identifies the contact, the event, and other details, plus includes a registration ID stored both as a alphanumeric code and as a machine-readable QR code. Read this topic to learn how to send a marketing email containing the registration QR code to each contact that registers for your event.
+Each time a contact [registers for an event](invite-register-house-event-attendees.md), the system creates a new event-registration record, which identifies the contact, the event, and other details. It event-registration record also includes a registration ID stored both as an alphanumeric code and as a machine-readable QR code.
+
+Use QR code elements to place an event-registration QR code in an email message. The code placed in each message provides the registration ID associated with both the recipient of the message and a specific event. Use the **Properties** tab to identify the event for which the QR code applies. No other settings are required.
 
 The QR code is a direct encoding of the registration ID itself. On the day of the event, event workers can quickly and easily scan the code using a QR code scanner or smartphone app. The scanning app could then query the registration database in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to confirm validity and/or to register attendance. Please note, however, that custom development is needed to create the scanning app and implement the integration with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] system.
-
-Use the **Properties** tab to identify the event for which the QR code applies.
 
 <a name="event-elements"></a>
 
