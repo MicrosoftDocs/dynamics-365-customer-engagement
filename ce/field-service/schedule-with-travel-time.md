@@ -46,16 +46,12 @@ In this article, let's explore how travel time and distance is calculated and vi
 
 3. After you have connected your environment to Bing Maps, ensure your resources (field technicians) have defined starting and ending locations. Resources (field technicians) must have geo coded starting/ending locations in order to calculate travel times and distances from their starting location to work orders and all on site requirements generally for their first job of the day. See the topics on [setting up bookable resources](./set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
 
-4. Understand that only requirements where **Work Location = Onsite** and have **latitude and longitude values** are eligible for travel time calculations. A work location of **Location Agnostic** implies the location of the requirement should not be considered and a work location of **Facility** implies the customer will travel to the organization's location and thus the location of the resource (field technician) should not be considered. By default, work order requirements have a work location of onsite, but default work location can be edited for each scheduleable entity in **Resource Scheduling > Settings > Enable Resource Scheduling for Entities >** then double click an **Enabled Entity**.
+4. Understand that only requirements where **Work Location = Onsite** and have **latitude and longitude values** are eligible for travel time calculations. 
 
 In the image below a work order has Work Location set to Onsite and this is passed to the related work order requirement. When that work order requirement is scheduled to a resource, the system will look at the work location field along with the location of the requirement and the resource to calculate travel time.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of work order settings tab showing work location of on site](./media/scheduling-work-order-location-onsite.png)
-
-> [!Note]
->
-
 
 
 ## Visualize travel time on the schedule board
@@ -94,10 +90,10 @@ As an example, a work order requirement that is manually scheduled to a resource
 > [!div class="mx-imgBorder"]
 > ![Screenshot of manually scheduled work order with no travel calculation](./media/scheduling-board-manual.png)
 
-Organizations that operate in small, contained geographic areas, can add a generic 30 minutes to the work order durations either manually or by inflating the incident durations to roughly estimate travel but still utilize manual scheduling.
+**Pro Tip:** Organizations that operate in small, contained geographic areas, can add a generic 30 minutes to the work order durations either manually or by inflating the incident durations to roughly estimate travel but still utilize manual scheduling.
 
 > [!Note]
-> As of Field Service v8.6 travel time and distance calculations can be added to booking that are **manually scheduled**. 
+> As of Field Service v8.6 travel time and distance calculations can be added to bookings that are **manually scheduled**. 
 
 In addition to completing the prerequisites above, you need to go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Auto Update Booking Travel** to **Enabled**.
 
@@ -166,7 +162,7 @@ In the image below the work location is location agnostic and no travel times ar
 
 While using the schedule assistant can help dispatchers make smarter scheduling decisions for individual requirements, resource scheduling optimization (RSO) helps dispatchers make smarter scheduling decisions across many or all requirements at once. In regards to travel, this is the difference between reducing travel times and distances and **minimizing** them. 
 
-When the RSO runs and automatically schedules work orders or other requirements, the travel times are displayed on the schedule board the same as with other booking methods.
+When the RSO runs and automatically schedules work orders or other requirements as seen in the image below, the travel times are displayed on the schedule board the same as with other booking methods.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of optimized schedule board with resource schedule optimization](./media/rso-optimized-schedule-board.png)
@@ -201,7 +197,8 @@ If a field technician begins travel to his or her next work order and sees the t
 
 - By adding a travel charge to the service account of the work order, you can charge the customer a fee for travel time and distance as work orders are completed. See the topic on [adding account related details to work orders](../field-service/work-order-customer-account.md) for more details.
 - A field technician's current location as derived from his or her mobile device running the Field Service Mobile app can be used for travel time and distance calculations with the scheduling assistant. This is called **Real Time Mode**. See the topic on [enabling and testing location auditing]([../field-service/work-order-customer-account.md](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/geofencing#step-5-test-location-auditing)) for more details.
-- By default Field Service uses the Bing Maps API for travel time and distance calculations but other APIs such as Google Maps can be utilized as well.  
+- By default Field Service uses the Bing Maps API for travel time and distance calculations but other APIs such as Google Maps can be utilized as well.
+- By default, work order requirements have a work location of onsite, but default work location can be edited for each scheduleable entity in **Resource Scheduling > Settings > Enable Resource Scheduling for Entities >** then double click an **Enabled Entity**.  
 
 ## Additional notes
 
