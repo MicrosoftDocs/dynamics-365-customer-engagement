@@ -112,9 +112,22 @@ In the image below, an unscheduled work order requirement was dragged from the l
 > ![Screenshot of travel time auto updated](./media/scheduling-manual-travel-update.png)
 
 
-[schedule in between 2 bookings and see update but no cascade because the order is the same]
+Additionally, the auto update booking travel feature will update travel time calculations as updates are made. In the image below is two on site work order requirements schedule back to back on the schedule baord.
 
-For more details see the **Additional notes** section of this article.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of 2 onsite requirements](./media/scheduling-schedule-board-2-onsite-bookings.png)
+
+
+If a third on site requirement is scheduled in between the original two, the travel time calculations are updated accordingly based on the new order. The order of the bookings is decided by the estimated arrival time, not the travel start time.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of scheduling an onsite booking between 2 onsite requirements](./media/scheduling-schedule-board-2-onsite-bookings-add-3rd.png)
+
+> [!Note]
+> When updates such as in the example above take place, the booking start and end times are not cascaded for the rest of the day, only the travel time and distance updates are made. To have the remaining bookings cascade and fit inside working hours based on changes, organizations should consider using resource schedule optimization (rso).
+
+
+For more details on the auto update booking travel feature see the **Additional notes** section of this article.
 
 
 ## Add travel time with schedule assistant
