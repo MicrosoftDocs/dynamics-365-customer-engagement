@@ -47,6 +47,7 @@
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Sharing schedule board tabs](share-schedule-board-tab.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
+## [Schedule with travel time and distance](schedule-with-travel-time.md)
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ## [Resource crew scheduling](resource-crews.md)
