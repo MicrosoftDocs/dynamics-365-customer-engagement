@@ -1,14 +1,14 @@
 ---
 title: "Define a goal metric (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Define how you want to measure your goals by using goal metrics in Dynamics 365 for Sales."
-keywords: goal, metric
-ms.date: 10/09/2018
+keywords: "goal, metric"
+ms.date: 04/12/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 2251e5a0-fb76-48fb-82ec-73fe6263e3bd
 author: shubhadaj
 ms.author: shujoshi
@@ -30,13 +30,17 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
 1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
-2.	Select the **Site map** icon  ![Image alt text](media/site-map-icon.png "Image hover text"), then select ellipsis ![Ellipsis to open more options](media/ellipsis-more-options.png "Ellipsis to open more options"), and then select **Goal Metrics**.
+2.	In the site map, at the bottom, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
 
-![Goal Metrics in the site map](media/site-map-goal-management.png "Goal Metrics in the site map")
+    ![Select the Change area icon and then select App Settings](media/change-area-app-settings.png "Select the Change area icon and then select App Settings")
+
+3. Select **Goal Metrics**.
+
+    ![Goal Metrics in the site map](media/site-map-goal-management.png "Goal Metrics in the site map")
  
-3.	To create a new goal metric, on the command bar, select **New**.
+4.	To create a new goal metric, on the command bar, select **New**.
 
-4.	Under **Step 1: Define the metric**, fill in the information:
+5.	Under **Step 1: Define the metric**, fill in the information:
 
     a.	**Name**. Required. Enter a name between 1 and 100 characters.
     
@@ -57,9 +61,9 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
     ![Goal metric form](media/goal-metric-form.png "Goal metric form")
  
-5.	Select **Save**.
+6.	Select **Save**.
 
-6.	Define the rollup fields for this metric to track the target's actual and in-progress values.
+7.	Define the rollup fields for this metric to track the target's actual and in-progress values.
 
     a.	On the **Rollup Fields** tab, select **Add New Rollup Field**.
 
@@ -67,7 +71,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
       -  **Rollup Field**. Select a rollup field where the metric rollup data will be displayed in the goal. You can display an integer or money, depending on the Metric Type you chose. You can't select a field you already added to the metric.
 
-      ![Rollup fields tab on goal metric form](media/rollup-fields-tab-goal-metric-form.png "Rollup fields tab on goal metric form")
+          ![Rollup fields tab on goal metric form](media/rollup-fields-tab-goal-metric-form.png "Rollup fields tab on goal metric form")
  
     c. Under **Step 2: Specify the details about the source data that rolls up**, fill in the information:
 
@@ -93,9 +97,9 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
  
     e. Select **Save & Close**.
 
-7.	On the **Description** tab, enter a description for the goal metric to enable other users to understand what metrics are being tracked.
+8.	On the **Description** tab, enter a description for the goal metric to enable other users to understand what metrics are being tracked.
 
-8.	Select **Save**.
+9.	Select **Save**.
 
 
 ## Create a goal metric (Sales)

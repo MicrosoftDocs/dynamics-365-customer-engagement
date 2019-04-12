@@ -33,12 +33,13 @@ An opportunity is a lead who is now almost ready to buy&mdash;in other words, a 
 ## Create an opportunity (Sales Hub)
 
 If you're following the sales process from start to finish, you *qualify* a lead to turn it into an *opportunity*. [!include[proc-more-information](../includes/proc-more-information.md)] [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
-1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
+
+1. In the site map, select **Opportunities**.
 
 2. If you've qualified a lead to an opportunity, open the opportunity from the list.
 
-    or
-
+    OR
+    
     To create a new opportunity, on the command bar, select **+ New**.
 
 3. In the opportunity form, make sure that your potential customer's important details are captured. If you've qualified a lead to an opportunity, most of the fields will be automatically populated from the lead record.
@@ -141,7 +142,7 @@ If you want to create an opportunity without first creating a lead, do the follo
 
 For information on how to resolve the common errors that you may get while you close an opportunity, see the [troubleshooting guide](troubleshooting.md).
   
-## Other ways to create opportunities  
+## Ways to create opportunities  
 
 Need a faster way to enter opportunities? Try one of these:  
 
@@ -159,6 +160,7 @@ Need a faster way to enter opportunities? Try one of these:
 
 [Add products to an opportunity](add-products-opportunity.md)  
 [Recalculate an opportunity](recalculate-opportunity.md)  
+[Close an opportunity](close-opportunity-won-lost-sales.md)  
 [Dynamics 365 for Sales troubleshooting guide for sales people](troubleshooting.md)  
 [Dynamics 365 for Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
