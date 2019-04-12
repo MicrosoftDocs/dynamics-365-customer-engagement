@@ -38,5 +38,6 @@ The Web API allows you to do all the same operations as the organization service
 
 Here are a list of documents that will help you familiarize with the Web API and get started with using it.
 
-- [Get started with Web API(C#)](/powerapps/common-data-service/webapi/get-started-dynamics365-web-api-csharp)
-        - [Quick Start: Web API sample(C#)](/powerapps/common-data-service/webapi/quick-start-console-app-csharp)
+- [Get started with Web API(C#)](/powerapps/developer/common-data-service/webapi/get-started-dynamics365-web-api-csharp)<br />
+        - [Quick Start: Web API sample(C#)](/powerapps/developer/common-data-service/webapi/quick-start-console-app-csharp)<br />
+        - [Enhanced quick start(C#)](/powerapps/developer/common-data-service/webapi/enhanced-quick-start)<br />
