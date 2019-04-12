@@ -98,6 +98,7 @@
 ## [Migrate Dynamics 365 for Customer Engagement to Dynamics 365 for Customer Engagement (on-premises)](migrate-online-onpremises.md)
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
+## [Troubleshooting: Use the Solution Health Hub](solution-health-hub.md)
 
 # [Datacenter regions](../admin/datacenter/new-datacenter-regions.md)
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
