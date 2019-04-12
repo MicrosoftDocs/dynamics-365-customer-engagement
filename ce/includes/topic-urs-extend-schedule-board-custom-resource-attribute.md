@@ -198,5 +198,9 @@ Back on the schedule board we've been working on, you'll see that we have define
 
 ## Additional notes
 
-- See the [July 2017 update for Field Service and Project Service Automation blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1) for more general information about schedule board extensibility. 
+- [Document that offers context](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs) and a deep overview of scheduling extensibility.
+- [Sample walkthrough](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extending-urs-step-by-step) to help you learn how to implement extensibility by walking through a sample implementation.
+- [Extensibility language syntax (UFX)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/universal-fetchxml).
+- [Extensibility-specific release notes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes).
+
 
