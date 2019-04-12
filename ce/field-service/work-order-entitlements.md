@@ -2,7 +2,7 @@
 title: "Entitlements for work orders - Dynamics 365 for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/11/2019
+ms.date: 04/12/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
