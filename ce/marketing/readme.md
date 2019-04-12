@@ -50,6 +50,7 @@ This document provides important, late-breaking information about known issues a
 - Insights for journeys, emails, and marketing pages may take up to six hours to display.
 - If you stop a live customer journey, then add contacts to the target segment, and restart the journey, those added contacts might receive emails sent by this journey more than once. <!-- 1196442 -->
 - If you edit a live customer journey to associate a new email message with an existing email tile, the system may continue to send the previously associated email to recipients. To prevent this, either create a new journey or live-edit the existing email record. <!--- 1345959 -->
+- The calendar (date picker) on the scheduler tile's properties on a customer journey might not show the arrows to move the calendar from one month to the next. While these buttons are actually present, the arrows are temporarily not visible. <!--- 1450049 -->
 
 ### Fixed issues
 
@@ -67,6 +68,7 @@ This document provides important, late-breaking information about known issues a
 - When you're adding members to a static segment, you can filter the list of available contacts to find the ones you want to add. Sometimes, after adding some filters and selecting **Apply**, the segment definition may stop showing its members. To fix this, save the segment, go back to the segment list, and then reopen it; you should now see the list of members and can continue working on it. <!-- 1282842 -->
 - Static segments are limited to a maximum of 1600 members.
 - If you create a segment query that includes a lookup field that references an entity of type "systemuser", then your segment won't be created unless the lookup field value is set to the GUID of the related record. For example, if you want to query the owner of a contact record, then the **owner** field is a lookup into the **users** entity (which is of type "systemuser"), so you must set that field to the GUID of the user you want to find with the query. To find the GUID of a user, open the relevant user record and find the value of the "id" parameter in the URL. <!--- 1335786 -->
+
 
 ### Fixed issues
 
