@@ -51,7 +51,7 @@ In this article, let's explore how travel time and distance is calculated and vi
 In the image below a work order has Work Location set to Onsite and this is passed to the related work order requirement. When that work order requirement is scheduled to a resource, the system will look at the work location field along with the location of the requirement and the resource to calculate travel time.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-work-order-location-onsite.png)
+> ![Screenshot of work order settings tab showing work location of on site](./media/scheduling-work-order-location-onsite.png)
 
 > [!Note]
 >
@@ -64,24 +64,24 @@ After a requirement is scheduled to a resource, the booking appears on the sched
 
 In the image below, the travel time to the customer's location is 23 minutes and the estimated duration of the work order is 2 hours giving the booking a total duration of 2 hours and 23 minutes.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-booking-travel-time.png)
+> ![Screenshot of travel time visualization in front of booking](./media/scheduling-booking-travel-time.png)
 
 
 If you do not want travel time displayed differently than the working duration, then you can deselect **Show Travel Duration** in the schedule board configuration and the travel time and working duration will appear as one solid block with the same total time (in this case 2 hours and 23 minutes). 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-board-show-travel-duration.png)
+> ![Screenshot of schedule board setting to show or hide travel duration](./media/scheduling-board-show-travel-duration.png)
 
 As a field technician completes work, he or she may update the booking status as traveling in which case the system will track the time the booking status = traveling and update the **Actual Travel Duration** accordingly, though this will not be displayed on the schedule board.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-board-travel-status.png)
+> ![Screenshot of changing booking status to traveling](./media/scheduling-board-travel-status.png)
 
 Eventually when the field technician arrives on site, he or she will update the booking status to **In progress** indicating work has begun and the system will track the time the booking status = in progress and update the **Total Duration In Progress** booking field. Finally, when the booking is complete (i.e. the booking status = Completed) the booking **End Time** is updated and the booking length is updated visually on the schedule board accordingly.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-board-completed-status.png)
+> ![Screenshot of changing booking status to completed](./media/scheduling-board-completed-status.png)
 
 ## Add travel time with manual scheduling
 
@@ -92,7 +92,7 @@ As an example, a work order requirement that is manually scheduled to a resource
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-board-manual.png)
+> ![Screenshot of manually scheduled work order with no travel calculation](./media/scheduling-board-manual.png)
 
 Organizations that operate in small, contained geographic areas, can add a generic 30 minutes to the work order durations either manually or by inflating the incident durations to roughly estimate travel but still utilize manual scheduling.
 
@@ -102,14 +102,17 @@ Organizations that operate in small, contained geographic areas, can add a gener
 In addition to completing the prerequisites above, you need to go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Auto Update Booking Travel** to **Enabled**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-manual-travel-update-enable.png)
+> ![Screenshot of auto update booking travel](./media/scheduling-manual-travel-update-enable.png)
 
 This will add a travel time to the booking visualization on the schedule board, displayed by a line before the booking, and populate the **Miles Traveled** booking field (though this is not visualized on the schedule board). 
 
 In the image below, an unscheduled work order requirement was dragged from the lower requirement pane to a resource at 10:00am. Similarly to before, this implies the field technician should arrive on site at 10:00am, the only difference is the travel time to get there from a home, office, or previous job location is displayed **before** that time.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-manual-travel-update.png)
+> ![Screenshot of travel time auto updated](./media/scheduling-manual-travel-update.png)
+
+
+[schedule in between 2 bookings and see update but no cascade because the order is the same]
 
 For more details see the **Additional notes** section of this article.
 
@@ -124,10 +127,10 @@ By triggering the scheduling assistant from the schedule board, the schedule ass
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-schedule-assistant-schedule-board.png)
+> ![Screenshot of schedule assistant travel time options](./media/scheduling-schedule-assistant-schedule-board.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-schedule-assistant-schedule-board-booked.png)
+> ![Screenshot of scheduled work order via schedule assistant with travel time](./media/scheduling-schedule-assistant-schedule-board-booked.png)
 
 This is predicated on **1)** the work order requirement has a work location of on site **2)** the work order requirement has a location (latitude and longitude) **3)** the resources displayed have defined locations.
 
@@ -136,7 +139,7 @@ This is true when the schedule assistant is not triggered from the schedule boar
 In the image below travel time and distance calculations appear in the columns.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-schedule-assistant-travel-times.png)
+> ![Screenshot of travel time calculations in grid view of schedule assistant](./media/scheduling-schedule-assistant-travel-times.png)
 
 **Pro Tip:** if the work order requirement has a work location = Location Agnostic or if the schedule assistant work location filter is changed to Location Agnostic, then resources without locations will also be displayed along with resources that do have locations, except the booking will not calculate travel time.
 
@@ -144,7 +147,7 @@ In the image below the work location is location agnostic and no travel times ar
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-schedule-assistant-schedule-board-location-agnostic.png)
+> ![Screenshot of booking a location agnostic requirement with no travel time](./media/scheduling-schedule-assistant-schedule-board-location-agnostic.png)
 
 ## Add travel time with resource scheduling optimization (RSO)
 
@@ -153,18 +156,18 @@ While using the schedule assistant can help dispatchers make smarter scheduling 
 When the RSO runs and automatically schedules work orders or other requirements, the travel times are displayed on the schedule board the same as with other booking methods.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/rso-optimized-schedule-board.png)
+> ![Screenshot of optimized schedule board with resource schedule optimization](./media/rso-optimized-schedule-board.png)
 
 However, to better understand how RSO minimizes overall travel time, each RSO run (called a "request") displays a graph comparing total working minutes scheduled to total travel minutes for those optimized bookings. This can be compared to the same graph for requirements manually scheduled or with the schedule assistant.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/rso-travel-time-graph.png)
+> ![Screenshot of travel time graph](./media/rso-travel-time-graph.png)
 
 > [!Note]
 > If the RSO is set to schedule within working hours, it will calculate time to leave at the end of the day for resources to travel to their ending location, generally a home or office.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/rso-optimized-schedule-board-time-at-end-of-day.png)
+> ![Screenshot of space for travel time home](./media/rso-optimized-schedule-board-time-at-end-of-day.png)
 
 ## Consider traffic when scheduling
 
@@ -172,7 +175,7 @@ To help dispatchers make smarter scheduling decisions, current traffic patterns 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-schedule-board-traffic.png)
+> ![Screenshot of show traffic button on schedule baord map](./media/scheduling-schedule-board-traffic.png)
 
 > [!Note]
 > Currently, travel time calculations do not reflect traffic patterns or historical travel times based on time of day or year.
@@ -197,6 +200,23 @@ The auto travel time update feature for manual scheduling needs two locations to
 
 Here are a few more notes about the Auto Update Booking Travel feature;
 - The feature is org wide. This means it cannot be enabled or disabled based on specific users, schedule board tabs, or specific scheduleable entities. 
+
 - The feature only applies to the Hours view of the schedule board
 - The threshold is the end of the day. This means if you have an on site booking, the following on site booking will calculate travel time from the previous booking up until the end of that day, even if there are multiple hours in between the two on site bookings.
 - The time the requirement is dragged to the schedule board is the time the resource will arrive on site and the travel time is calculated and added before that time. This is not configurable. As an example, if I schedule an on site work order requirement at 10:00am by dragging my mouse to the 10:00am time slot, and the feature calculates 20 minutes of travel time, then travel will begin at 9:40am and it is expected the resource will arrive by 10:00am.
+- will calculate distances...
+
+here the scenarios where travel times will be updated
+
+if estimated arrival time is outside working hours...it may assume youre back at starting lcoation
+substitution?
+rescheduling?
+
+
+scenario - put a booking in the middle of 2, whether manually or with schedule assistant,  2 and 3 will update 
+
+imported work orders, or editing booking, or via workflow
+
+- ETA is decided as first booking
+- will it cascade rest of the bookings, booking before, it wont cascade, and move overlaps but travel time for the ones affected will hcnaged 1 or 2 ahead
+
