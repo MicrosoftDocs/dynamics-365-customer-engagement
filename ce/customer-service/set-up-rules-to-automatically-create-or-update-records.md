@@ -146,7 +146,7 @@ If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance mee
     > [!NOTE]
     >  When you select a property group for a record creation and update rule, you can use the channel property group’s property items in the rule item conditions or while setting properties for the target record. After you activate a rule, you can’t remove or change the selected property group. You can select another property group only after you remove the referenced property items of the previous property group from the rule items. When you try to select a new property group without removing the property references of the previous property group, you’ll see an error.  
 
-To learn more about creating channel property groups and adding properties to them, see [Set up channel properties](../customer-service/set-up-rules-to-automatically-create-or-update-records.md#bkmk_SetUpChannelProperties) later in this topic.  
+To learn more about creating channel property groups and adding properties to them, see [Set up channel properties](#set-up-channel-properties) later in this topic.  
 
 ## Set Email conditions
 If the source type for the rule is set to **Email**, specify the conditions for converting the email to the target record.  
@@ -171,6 +171,9 @@ If the source type for the rule is set to **Email**, specify the conditions for 
 5. **Send automatic email response to customer on record creation**. Select this check box if you want to automatically send email responses to the sender of the email after a target record for the email is created.  
 
 6. **Select email template to respond to customer.**  If you select the **Send automatic email response to customer on record creation** check box, select an email template (global email template or email template of any entity type). If you don’t select a template, an automatic response won’t be sent.  
+
+    > [!NOTE]
+    > When mapping incoming email to a field that does not support HTML, you should remove HTML content from the email, so that the text is compatible with Dynamics and the content can be viewed without HTML tags. You can do this in the following ways. </br> </br> 1. Use a regular expression such as \&lt;[^\&gt;]*\&gt; to filter the HTML tags out of the email before mapping it to the field. Note that taking this approach will permanently remove the tags from the content. </br> 2.  If you want to maintain the HTML from the email, but don’t want it to be displayed, customize the field CSS to use the textContent DOM node to have the browser only display the text from the email in the form. </br> </br> Please note that these customizations are not supported by Microsoft. Try them on your sandbox environment to avoid any loss of production data.
 
 ## Set Social Activity conditions
 If the source type for the rule is set to Social Activity, specify the conditions for converting the social activity to the target record.  
@@ -233,7 +236,7 @@ In the **Specify Record Creation and Update Details** section, select ![Add a re
     > - The property items for each of the supported data types need to have a default value. This requirement is important in scenarios where the configured property line items have a blank incoming web request. In such cases, the property line item will take the default value when referred to in a workflow.  
 
 ## Turn on the rule
-Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] can start creating or updating records for incoming activities based on the defined conditions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate a record creation and update rule](../customer-service/set-up-rules-to-automatically-create-or-update-records.md#bkmk_ActivateRule).  
+Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] can start creating or updating records for incoming activities based on the defined conditions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate or deactivate a rule](#activate-or-deactivate-a-rule).  
 
 > [!TIP]
 >  Developers can also apply rules retroactively to the incoming [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records that might have been skipped while a rule was edited. 

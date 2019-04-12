@@ -2,7 +2,7 @@
 title: "Release history (Unified Service Desk for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "The topic provide release history information for the Unified Service Desk Guide."
 keywords: 
-ms.date: 03/07/2019
+ms.date: 04/10/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 
@@ -34,21 +34,42 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 ::: moniker range="dynamics-usd-4.1"
 
-<a name="Release_4_1"></a> 
+<a name="Release_4_1"></a>
 
-## Release history for public preview of [!INCLUDE [pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)], December 2018
+## Release history for General Availability of [!INCLUDE [pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)], April 2019
 
 The list provides an overview of documentation updates made in [!INCLUDE [pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)].
 
 | Topic | Updates |
 |--------------|----------------|
-| [Single Sign On for Unified Service Desk](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk---preview) | New section about Single Sign On (SSO) for Unified Service Desk. <br><br> New section in [Connect to a Dynamics 365 for Customer Engagement apps instance overview](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md). <br><br> **Note:** This is a preview feature.|
-| [Cache specific configuration for agents ](admin/set-configuration-cache-version.md) | New topic about caching specific configurations for the agents. <br><br> New topic under [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md) <br><br> **Note:** This is a preview feature.|
-| [Navigate on the notifications using keyboard shortcuts](configure-notifications-unified-service-desk.md#navigate-on-the-notifications-using-keyboard-shortcuts) | New UII options for navigating on the stack notifications. <br><br> New section under [Configure notifications in Unified Service Desk](configure-notifications-unified-service-desk.md) |
-| [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md) | New topic about hosting web applications using Chrome Process in Unified Service Desk <br><br> New topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md). <br><br> **Note:** This is a preview feature.  |
-| [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md) | New topic about integrating channel using Channel Integration Framework in Unified Service Desk. <br><br> New topic under [Extend Unified Service Desk](extend-unified-service-desk.md).<br><br> **Note:** This is a preview feature. |
-| [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md) | New topic about creating a Channel Integration Framework type of hosted control.<br><br> New topic under [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md).<br><br> **Note:** This is a preview feature. |
-| [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md) | New topic about the predefined UII actions and events of Channel Integration Framework type of hosted control. <br><br> New topic under [Hosted control types and action/event reference](hosted-control-types-action-event-reference.md) <br><br> **Note:** This is a preview feature. |
+| [Single Sign On for Unified Service Desk](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk) | New section about Single Sign On (SSO) for Unified Service Desk. <br><br> Section in [Connect to a Dynamics 365 for Customer Engagement apps instance overview](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).|
+| [Unified Service Desk Administrator app](admin/unified-service-desk-administrator-app.md) |  The Unified Service Desk Administrator app brings rich experience to administer and manage your Unified Service Desk client application.<br>The Administrator app, which is built based on the Unified Interface framework, has the same configurational capabilities as the Unified Service Desk administrator in Dynamics 365 for Customer Engagement apps Web Client. <br><br> Topic under [Administer and manage Unified Service Desk](admin/administer-manage-unified-service-desk.md). |
+| [Unified Interface Settings](admin/unified-interface-settings.md) | Unified Interface Settings is a new configuration element introduced under Advanced Settings in the Unified Service Desk Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the Unified Service Desk sign-in experience. <br><br> Topic under [Administer and manage Unified Service Desk](admin/administer-manage-unified-service-desk.md).|
+| [Recover a Chrome Process instance](admin/recover-chrome-process-instance.md) | Unified Service Desk can help agents to recover the terminated (crashed) webpages hosted in Chrome Process in Unified Service Desk. <br><br> New topic under [Administer and manage Unified Service Desk](admin/administer-manage-unified-service-desk.md). |
+| [Cache specific configuration for agents ](admin/set-configuration-cache-version.md) | New topic about caching specific configurations for the agents. <br><br> Topic under [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md) |
+| [Pool process instances for Chrome Process](admin/performance-enhancement-crm-entity-page-loads.md#pool-process-instances-for-chrome-process) | New section about pooling of Chrome Process instance. <br><br> New section in [Performance enhancement for loading Customer Engagement app pages](admin/performance-enhancement-crm-entity-page-loads.md) |
+| [Configure notifications in Unified Service Desk](configure-notifications-unified-service-desk.md) | Updated information about configuring stack notification in Unified Service Desk.|
+| [Navigate on the notifications using keyboard shortcuts](configure-notifications-unified-service-desk.md#navigate-on-the-notifications-using-keyboard-shortcuts) | New UII options for navigating on the stack notifications. <br><br> New section in [Configure notifications in Unified Service Desk](configure-notifications-unified-service-desk.md) |
+| [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md) | New topic about hosting web applications using Chrome Process in Unified Service Desk <br><br> Topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md).  |
+| [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md) | New topic about integrating channel using Channel Integration Framework in Unified Service Desk. <br><br> Topic under [Extend Unified Service Desk](extend-unified-service-desk.md). |
+| [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md) | New topic about creating a Channel Integration Framework type of hosted control.<br><br> Topic under [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md). |
+| [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md) | New topic about the predefined UII actions and events of Channel Integration Framework type of hosted control. <br><br> Topic under [Hosted control types and action/event reference](hosted-control-types-action-event-reference.md)  |
+| [Popup Notification (Hosted Control)](popup-notification-hosted-control.md) | Updated information about the **Show** action parameters like **stack** and **stackHeight** used for configuring stack notifications.|
+| [Session Tabs (Hosted Control)](session-tabs-hosted-control.md) | Updated new action, **SwitchSession** action that is used to switch between local sessions  and switch between local and global sessions.|
+
+## Release history for public preview of [!INCLUDE [pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)], March 2019
+
+The list provides an overview of documentation updates made in [!INCLUDE [pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)].
+
+| Topic | Updates |
+|--------------|----------------|
+| [Single Sign On for Unified Service Desk](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk) | New section about Single Sign On (SSO) for Unified Service Desk. <br><br> New section in [Connect to a Dynamics 365 for Customer Engagement apps instance overview](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md). |
+| [Cache specific configuration for agents ](admin/set-configuration-cache-version.md) | New topic about caching specific configurations for the agents. <br><br> New topic under [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)|
+| [Navigate on the notifications using keyboard shortcuts](configure-notifications-unified-service-desk.md#navigate-on-the-notifications-using-keyboard-shortcuts) | New UII options for navigating on the stack notifications. <br><br> New section under [Configure notifications in Unified Service Desk](configure-notifications-unified-service-desk.md)  |
+| [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md) | New topic about hosting web applications using Chrome Process in Unified Service Desk <br><br> New topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md). |
+| [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md) | New topic about integrating channel using Channel Integration Framework in Unified Service Desk. <br><br> New topic under [Extend Unified Service Desk](extend-unified-service-desk.md). |
+| [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md) | New topic about creating a Channel Integration Framework type of hosted control.<br><br> New topic under [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md). |
+| [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md) | New topic about the predefined UII actions and events of Channel Integration Framework type of hosted control. <br><br> New topic under [Hosted control types and action/event reference](hosted-control-types-action-event-reference.md) |
 | [Use Edge process to host web applications in Unified Service Desk](edge-process.md) | New topic about hosting web applications using Edge Process in Unified Service Desk <br><br> New topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md). <br><br> **Note:** This is a preview feature. |
 ::: moniker-end
 
@@ -77,7 +98,7 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 | [Customize themes in Unified Service Desk](customize-themes-in-unified-service-desk.md) | Updated information about the new Unified Blue theme for Unified Interface App in Unified Service Desk. |
 | [Use Dynamics 365 for Customer Engagement apps knowledge for effective customer engagement](use-dynamics-365-knowledge-effective-customer-engagement.md) | Updated information about the [Unified Interface KM Control (Hosted Control)](unified-interface-km-control-hosted-control.md). |
 | [Configure Unified Service Desk to use Dynamics 365 for Customer Engagement apps knowledge](configure-unified-service-desk-use-dynamics-365-knowledge.md) | Updated information about the [Unified Interface KM Control (Hosted Control)](unified-interface-km-control-hosted-control.md). |
-| [Configure notifications in Unified Service Desk](configure-notifications-unified-service-desk.md) | Updated information about configuring stack notification in Unified Service Desk. <br><br> **Note:** This is a preview feature. |
+| [Configure notifications in Unified Service Desk](configure-notifications-unified-service-desk.md) | Updated information about configuring stack notification in Unified Service Desk. <br><br> **Note:** This is a preview feature.|
 | [Unified Service Desk and Unified Interface configuration walkthroughs](unified-service-desk-unified-interface-configuration-walkthroughs.md) | General Availability of the Unified Interface Support in Unified Service Desk. |
 | [Unified Interface KM Control (Hosted Control)](unified-interface-km-control-hosted-control.md) |Use the Unified Interface KM Control type of hosted control to display knowledge base articles in Dynamics 365 for Customer Engagement apps in your agent application.<br><br>New topic under [Hosted control types and action/event reference](hosted-control-types-action-event-reference.md). |
 | [Popup Notification (Hosted Control)](popup-notification-hosted-control.md) | Updated information about the **Show** action parameters like **stack** and **stackHeight** used for configuring stack notifications. <br><br> **Note:** This is a preview feature.|

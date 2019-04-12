@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app
 title: "Start a managed code project in Visual Studio (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic shows you how to create a new project in Visual Studio that’s properly configured to build a console application that uses the Dynamics 365 for Customer Engagement web services (SDK)."
 ms.custom: 

@@ -2,7 +2,7 @@
 title: "Create or edit quick create forms in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to create or edit a quick create form"
 ms.custom: 
-ms.date: 03/11/2019
+ms.date: 04/03/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,8 @@ search.app:
 ---
 # Create or edit quick create forms for a streamlined data entry experience
 
-[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
  With quick create forms, your app can have a streamlined data entry experience with full support for logic defined by form scripts and business rules. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, quick create forms appear when you select the **Create** button in the navigation bar or when you choose **+ New** when creating a new record from a lookup or sub-grid.
   
@@ -104,6 +105,9 @@ Introduced in the 9.1.0.2007 update, the **Allow Quick Create** property can be 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/allow-quick-create.png "Allow Quick Create property on appointment entity")
+
+> [!NOTE]
+> This feature is only available with [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)] apps (online).
 
 ### Unified interface client form display behavior
 The following table indicates what form is displayed by default when the **Allow Quick Create** property is *enabled* in the unified interface client.

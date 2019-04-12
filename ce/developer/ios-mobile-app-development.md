@@ -34,18 +34,6 @@ Microsoft Dynamics 365 for Customer Engagement Mobile SDK library for iOS app de
 <a style="color: #fff;" href="https://github.com/DynamicsCRM/crm-mobilesdk-library-for-android" target="_blank" >View on GitHub</a>
 </div>
 
-<!--[Dynamics 365 for Customer Engagement Mobile SDK library for iOS application development](https://github.com/DynamicsCRM/crm-mobilesdk-library-for-ios)
--->
-<!--[iOS Activity Tracker for Dynamics 365 for Customer Engagement](sample-ios-activity-tracker-web-api)
--->&lt;!--
-Track the interactions with your recent contacts and learn how to use the libraries of the iOS Mobile SDK
--->
-
-<!--
-[Early-bound code generation tool](https://github.com/DynamicsCRM/crm-mobilesdk-tool-svcutil)
--->&lt;!--
-A tool to generate early-bound entity types, for mobile development, from the metadata of a Dynamics 365 for Customer Engagement organization.
--->
 
 ## Activity Tracker App
 

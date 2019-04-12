@@ -1,37 +1,39 @@
 ---
-title: "msdyn_organizationalunit Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_organizationalunit Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_organizationalunit entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_organizationalunit Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Division of the company or organization that has a specific cost price list associated to it.
 
-**Added by**: Unified Resource Scheduling Solution<br />
+**Added by**: Universal Resource Scheduling Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_organizationalunits<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_organizationalunits(*msdyn_organizationalunitid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_organizationalunits<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_organizationalunits(*msdyn_organizationalunitid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_organizationalunits(*msdyn_organizationalunitid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_organizationalunits<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_organizationalunits(*msdyn_organizationalunitid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_organizationalunits(*msdyn_organizationalunitid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_organizationalunits(*msdyn_organizationalunitid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_organizationalunits<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_organizationalunits(*msdyn_organizationalunitid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_organizationalunits(*msdyn_organizationalunitid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -88,7 +90,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_currency"></a> msdyn_currency
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -105,7 +107,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_description"></a> msdyn_description
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -274,7 +276,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -299,6 +303,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -312,6 +318,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -328,6 +336,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -360,6 +370,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -373,6 +385,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -390,6 +404,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -406,6 +422,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -419,6 +437,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -435,6 +455,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -467,6 +489,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -480,6 +504,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -497,6 +523,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -512,6 +540,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_currencyName"></a> msdyn_currencyName
+
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -529,6 +559,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the organization|
@@ -542,6 +574,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -558,6 +592,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -582,7 +618,6 @@ Listed by **SchemaName**.
 - [msdyn_organizationalunit_DuplicateBaseRecord](#BKMK_msdyn_organizationalunit_DuplicateBaseRecord)
 - [msdyn_organizationalunit_AsyncOperations](#BKMK_msdyn_organizationalunit_AsyncOperations)
 - [msdyn_organizationalunit_MailboxTrackingFolders](#BKMK_msdyn_organizationalunit_MailboxTrackingFolders)
-- [msdyn_organizationalunit_UserEntityInstanceDatas](#BKMK_msdyn_organizationalunit_UserEntityInstanceDatas)
 - [msdyn_organizationalunit_ProcessSession](#BKMK_msdyn_organizationalunit_ProcessSession)
 - [msdyn_organizationalunit_BulkDeleteFailures](#BKMK_msdyn_organizationalunit_BulkDeleteFailures)
 - [msdyn_organizationalunit_PrincipalObjectAttributeAccesses](#BKMK_msdyn_organizationalunit_PrincipalObjectAttributeAccesses)
@@ -592,6 +627,8 @@ Listed by **SchemaName**.
 - [msdyn_msdyn_organizationalunit_msdyn_actual_ContractOrganizationalUnitId](#BKMK_msdyn_msdyn_organizationalunit_msdyn_actual_ContractOrganizationalUnitId)
 - [msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId](#BKMK_msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId)
 - [msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId](#BKMK_msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId)
+- [msdyn_msdyn_organizationalunit_msdyn_projectteam_organizationalunit](#BKMK_msdyn_msdyn_organizationalunit_msdyn_projectteam_organizationalunit)
+- [msdyn_msdyn_organizationalunit_msdyn_resourcecategorymarkuppricelevel_organizationalunit](#BKMK_msdyn_msdyn_organizationalunit_msdyn_resourcecategorymarkuppricelevel_organizationalunit)
 - [msdyn_organizationalunit_actual](#BKMK_msdyn_organizationalunit_actual)
 - [msdyn_organizationalunit_estimateline](#BKMK_msdyn_organizationalunit_estimateline)
 - [msdyn_organizationalunit_expense](#BKMK_msdyn_organizationalunit_expense)
@@ -612,6 +649,8 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_organizationalunit_SyncErrors"></a> msdyn_organizationalunit_SyncErrors
 
+**Added by**: System Solution Solution
+
 Same as syncerror entity [msdyn_organizationalunit_SyncErrors](syncerror.md#BKMK_msdyn_organizationalunit_SyncErrors) Many-To-One relationship.
 
 |Property|Value|
@@ -626,6 +665,8 @@ Same as syncerror entity [msdyn_organizationalunit_SyncErrors](syncerror.md#BKMK
 
 
 ### <a name="BKMK_msdyn_organizationalunit_DuplicateMatchingRecord"></a> msdyn_organizationalunit_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_organizationalunit_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_organizationalunit_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -642,6 +683,8 @@ Same as duplicaterecord entity [msdyn_organizationalunit_DuplicateMatchingRecord
 
 ### <a name="BKMK_msdyn_organizationalunit_DuplicateBaseRecord"></a> msdyn_organizationalunit_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_organizationalunit_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_organizationalunit_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -656,6 +699,8 @@ Same as duplicaterecord entity [msdyn_organizationalunit_DuplicateBaseRecord](du
 
 
 ### <a name="BKMK_msdyn_organizationalunit_AsyncOperations"></a> msdyn_organizationalunit_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_organizationalunit_AsyncOperations](asyncoperation.md#BKMK_msdyn_organizationalunit_AsyncOperations) Many-To-One relationship.
 
@@ -672,6 +717,8 @@ Same as asyncoperation entity [msdyn_organizationalunit_AsyncOperations](asyncop
 
 ### <a name="BKMK_msdyn_organizationalunit_MailboxTrackingFolders"></a> msdyn_organizationalunit_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_organizationalunit_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_organizationalunit_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -685,22 +732,9 @@ Same as mailboxtrackingfolder entity [msdyn_organizationalunit_MailboxTrackingFo
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_msdyn_organizationalunit_UserEntityInstanceDatas"></a> msdyn_organizationalunit_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_organizationalunit_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_organizationalunit_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_organizationalunit_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_msdyn_organizationalunit_ProcessSession"></a> msdyn_organizationalunit_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_organizationalunit_ProcessSession](processsession.md#BKMK_msdyn_organizationalunit_ProcessSession) Many-To-One relationship.
 
@@ -717,6 +751,8 @@ Same as processsession entity [msdyn_organizationalunit_ProcessSession](processs
 
 ### <a name="BKMK_msdyn_organizationalunit_BulkDeleteFailures"></a> msdyn_organizationalunit_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_organizationalunit_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_organizationalunit_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -732,6 +768,8 @@ Same as bulkdeletefailure entity [msdyn_organizationalunit_BulkDeleteFailures](b
 
 ### <a name="BKMK_msdyn_organizationalunit_PrincipalObjectAttributeAccesses"></a> msdyn_organizationalunit_PrincipalObjectAttributeAccesses
 
+**Added by**: System Solution Solution
+
 Same as principalobjectattributeaccess entity [msdyn_organizationalunit_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_organizationalunit_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
 |Property|Value|
@@ -746,6 +784,8 @@ Same as principalobjectattributeaccess entity [msdyn_organizationalunit_Principa
 
 
 ### <a name="BKMK_msdyn_organizationalunit_Annotations"></a> msdyn_organizationalunit_Annotations
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [msdyn_organizationalunit_Annotations](annotation.md#BKMK_msdyn_organizationalunit_Annotations) Many-To-One relationship.
 
@@ -792,6 +832,8 @@ Same as msdyn_requirementorganizationunit entity [msdyn_organizationalunit_requi
 
 ### <a name="BKMK_msdyn_msdyn_organizationalunit_msdyn_actual_ContractOrganizationalUnitId"></a> msdyn_msdyn_organizationalunit_msdyn_actual_ContractOrganizationalUnitId
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_actual entity [msdyn_msdyn_organizationalunit_msdyn_actual_ContractOrganizationalUnitId](msdyn_actual.md#BKMK_msdyn_msdyn_organizationalunit_msdyn_actual_ContractOrganizationalUnitId) Many-To-One relationship.
 
 |Property|Value|
@@ -801,11 +843,13 @@ Same as msdyn_actual entity [msdyn_msdyn_organizationalunit_msdyn_actual_Contrac
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_msdyn_organizationalunit_msdyn_actual_ContractOrganizationalUnitId|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Contracting Unit Actuals<br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId"></a> msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_invoicelinetransaction entity [msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId](msdyn_invoicelinetransaction.md#BKMK_msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId) Many-To-One relationship.
 
@@ -816,11 +860,13 @@ Same as msdyn_invoicelinetransaction entity [msdyn_msdyn_organizationalunit_msdy
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Contracting Unit Invoice Line Details<br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId"></a> msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_journalline entity [msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId](msdyn_journalline.md#BKMK_msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId) Many-To-One relationship.
 
@@ -831,11 +877,47 @@ Same as msdyn_journalline entity [msdyn_msdyn_organizationalunit_msdyn_journalli
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Contracting Unit Journal Lines<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_msdyn_organizationalunit_msdyn_projectteam_organizationalunit"></a> msdyn_msdyn_organizationalunit_msdyn_projectteam_organizationalunit
+
+**Added by**: Project Service Automation Solution
+
+Same as msdyn_projectteam entity [msdyn_msdyn_organizationalunit_msdyn_projectteam_organizationalunit](msdyn_projectteam.md#BKMK_msdyn_msdyn_organizationalunit_msdyn_projectteam_organizationalunit) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_projectteam|
+|ReferencingAttribute|msdyn_organizationalunit|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_organizationalunit_msdyn_projectteam_organizationalunit|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_msdyn_organizationalunit_msdyn_resourcecategorymarkuppricelevel_organizationalunit"></a> msdyn_msdyn_organizationalunit_msdyn_resourcecategorymarkuppricelevel_organizationalunit
+
+**Added by**: Project Service Automation Solution
+
+Same as msdyn_resourcecategorymarkuppricelevel entity [msdyn_msdyn_organizationalunit_msdyn_resourcecategorymarkuppricelevel_organizationalunit](msdyn_resourcecategorymarkuppricelevel.md#BKMK_msdyn_msdyn_organizationalunit_msdyn_resourcecategorymarkuppricelevel_organizationalunit) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_resourcecategorymarkuppricelevel|
+|ReferencingAttribute|msdyn_organizationalunit|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_organizationalunit_msdyn_resourcecategorymarkuppricelevel_organizationalunit|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_organizationalunit_actual"></a> msdyn_organizationalunit_actual
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_actual entity [msdyn_organizationalunit_actual](msdyn_actual.md#BKMK_msdyn_organizationalunit_actual) Many-To-One relationship.
 
@@ -846,11 +928,13 @@ Same as msdyn_actual entity [msdyn_organizationalunit_actual](msdyn_actual.md#BK
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_organizationalunit_actual|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Resourcing Unit Actuals<br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_organizationalunit_estimateline"></a> msdyn_organizationalunit_estimateline
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_estimateline entity [msdyn_organizationalunit_estimateline](msdyn_estimateline.md#BKMK_msdyn_organizationalunit_estimateline) Many-To-One relationship.
 
@@ -867,6 +951,8 @@ Same as msdyn_estimateline entity [msdyn_organizationalunit_estimateline](msdyn_
 
 ### <a name="BKMK_msdyn_organizationalunit_expense"></a> msdyn_organizationalunit_expense
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_expense entity [msdyn_organizationalunit_expense](msdyn_expense.md#BKMK_msdyn_organizationalunit_expense) Many-To-One relationship.
 
 |Property|Value|
@@ -882,6 +968,8 @@ Same as msdyn_expense entity [msdyn_organizationalunit_expense](msdyn_expense.md
 
 ### <a name="BKMK_msdyn_organizationalunit_invoicelinetransaction"></a> msdyn_organizationalunit_invoicelinetransaction
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_invoicelinetransaction entity [msdyn_organizationalunit_invoicelinetransaction](msdyn_invoicelinetransaction.md#BKMK_msdyn_organizationalunit_invoicelinetransaction) Many-To-One relationship.
 
 |Property|Value|
@@ -891,11 +979,13 @@ Same as msdyn_invoicelinetransaction entity [msdyn_organizationalunit_invoicelin
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_organizationalunit_invoicelinetransaction|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Resourcing Unit Invoice Line Details<br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_organizationalunit_journalline"></a> msdyn_organizationalunit_journalline
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_journalline entity [msdyn_organizationalunit_journalline](msdyn_journalline.md#BKMK_msdyn_organizationalunit_journalline) Many-To-One relationship.
 
@@ -906,11 +996,13 @@ Same as msdyn_journalline entity [msdyn_organizationalunit_journalline](msdyn_jo
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_organizationalunit_journalline|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Resourcing Unit Journal Lines<br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_organizationalunit_opportunity"></a> msdyn_organizationalunit_opportunity
+
+**Added by**: Project Service Automation Solution
 
 Same as opportunity entity [msdyn_organizationalunit_opportunity](opportunity.md#BKMK_msdyn_organizationalunit_opportunity) Many-To-One relationship.
 
@@ -927,6 +1019,8 @@ Same as opportunity entity [msdyn_organizationalunit_opportunity](opportunity.md
 
 ### <a name="BKMK_msdyn_organizationalunit_opportunitylinedetail"></a> msdyn_organizationalunit_opportunitylinedetail
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_opportunitylinetransaction entity [msdyn_organizationalunit_opportunitylinedetail](msdyn_opportunitylinetransaction.md#BKMK_msdyn_organizationalunit_opportunitylinedetail) Many-To-One relationship.
 
 |Property|Value|
@@ -941,6 +1035,8 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_organizationalunit_opport
 
 
 ### <a name="BKMK_msdyn_organizationalunit_orderlinetransaction"></a> msdyn_organizationalunit_orderlinetransaction
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_orderlinetransaction entity [msdyn_organizationalunit_orderlinetransaction](msdyn_orderlinetransaction.md#BKMK_msdyn_organizationalunit_orderlinetransaction) Many-To-One relationship.
 
@@ -957,6 +1053,8 @@ Same as msdyn_orderlinetransaction entity [msdyn_organizationalunit_orderlinetra
 
 ### <a name="BKMK_msdyn_organizationalunit_project"></a> msdyn_organizationalunit_project
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_project entity [msdyn_organizationalunit_project](msdyn_project.md#BKMK_msdyn_organizationalunit_project) Many-To-One relationship.
 
 |Property|Value|
@@ -971,6 +1069,8 @@ Same as msdyn_project entity [msdyn_organizationalunit_project](msdyn_project.md
 
 
 ### <a name="BKMK_msdyn_organizationalunit_projecttask"></a> msdyn_organizationalunit_projecttask
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_projecttask entity [msdyn_organizationalunit_projecttask](msdyn_projecttask.md#BKMK_msdyn_organizationalunit_projecttask) Many-To-One relationship.
 
@@ -987,6 +1087,8 @@ Same as msdyn_projecttask entity [msdyn_organizationalunit_projecttask](msdyn_pr
 
 ### <a name="BKMK_msdyn_organizationalunit_quote"></a> msdyn_organizationalunit_quote
 
+**Added by**: Project Service Automation Solution
+
 Same as quote entity [msdyn_organizationalunit_quote](quote.md#BKMK_msdyn_organizationalunit_quote) Many-To-One relationship.
 
 |Property|Value|
@@ -1001,6 +1103,8 @@ Same as quote entity [msdyn_organizationalunit_quote](quote.md#BKMK_msdyn_organi
 
 
 ### <a name="BKMK_msdyn_organizationalunit_quotelinetransaction"></a> msdyn_organizationalunit_quotelinetransaction
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_quotelinetransaction entity [msdyn_organizationalunit_quotelinetransaction](msdyn_quotelinetransaction.md#BKMK_msdyn_organizationalunit_quotelinetransaction) Many-To-One relationship.
 
@@ -1017,6 +1121,8 @@ Same as msdyn_quotelinetransaction entity [msdyn_organizationalunit_quotelinetra
 
 ### <a name="BKMK_msdyn_organizationalunit_salesorder"></a> msdyn_organizationalunit_salesorder
 
+**Added by**: Project Service Automation Solution
+
 Same as salesorder entity [msdyn_organizationalunit_salesorder](salesorder.md#BKMK_msdyn_organizationalunit_salesorder) Many-To-One relationship.
 
 |Property|Value|
@@ -1031,6 +1137,8 @@ Same as salesorder entity [msdyn_organizationalunit_salesorder](salesorder.md#BK
 
 
 ### <a name="BKMK_msdyn_organizationalunit_timeentry"></a> msdyn_organizationalunit_timeentry
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_timeentry entity [msdyn_organizationalunit_timeentry](msdyn_timeentry.md#BKMK_msdyn_organizationalunit_timeentry) Many-To-One relationship.
 
@@ -1047,6 +1155,8 @@ Same as msdyn_timeentry entity [msdyn_organizationalunit_timeentry](msdyn_timeen
 
 ### <a name="BKMK_msdyn_projectparameter_defaultorganizationalunit"></a> msdyn_projectparameter_defaultorganizationalunit
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_projectparameter entity [msdyn_projectparameter_defaultorganizationalunit](msdyn_projectparameter.md#BKMK_msdyn_projectparameter_defaultorganizationalunit) Many-To-One relationship.
 
 |Property|Value|
@@ -1061,6 +1171,8 @@ Same as msdyn_projectparameter entity [msdyn_projectparameter_defaultorganizatio
 
 
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_organizationalunit"></a> msdyn_resourcecategorypricelevel_organizationalunit
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_resourcecategorypricelevel entity [msdyn_resourcecategorypricelevel_organizationalunit](msdyn_resourcecategorypricelevel.md#BKMK_msdyn_resourcecategorypricelevel_organizationalunit) Many-To-One relationship.
 
@@ -1090,25 +1202,37 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_organizationalunit_createdby"></a> lk_msdyn_organizationalunit_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_organizationalunit_createdby](systemuser.md#BKMK_lk_msdyn_organizationalunit_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_organizationalunit_createdonbehalfby"></a> lk_msdyn_organizationalunit_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_organizationalunit_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_organizationalunit_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_organizationalunit_modifiedby"></a> lk_msdyn_organizationalunit_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_organizationalunit_modifiedby](systemuser.md#BKMK_lk_msdyn_organizationalunit_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_organizationalunit_modifiedonbehalfby"></a> lk_msdyn_organizationalunit_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_organizationalunit_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_organizationalunit_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_organization_msdyn_organizationalunit"></a> organization_msdyn_organizationalunit
 
+**Added by**: System Solution Solution
+
 See organization Entity [organization_msdyn_organizationalunit](organization.md#BKMK_organization_msdyn_organizationalunit) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_organizationalunit_currency"></a> msdyn_organizationalunit_currency
+
+**Added by**: System Solution Solution
 
 See transactioncurrency Entity [msdyn_organizationalunit_currency](transactioncurrency.md#BKMK_msdyn_organizationalunit_currency) One-To-Many relationship.
 <a name="manytomany"></a>
@@ -1144,6 +1268,6 @@ IntersectEntityName: msdyn_organizationalunit_pricelevel<br />
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_organizationalunit?text=msdyn_organizationalunit EntityType" />

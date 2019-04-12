@@ -1,43 +1,45 @@
 ---
-title: "msdyn_fieldservicesetting Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_fieldservicesetting Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_fieldservicesetting entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_fieldservicesetting Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Settings controlling functionality related to Field Service
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings(*msdyn_fieldservicesettingid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings(*msdyn_fieldservicesettingid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings(*msdyn_fieldservicesettingid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings(*msdyn_fieldservicesettingid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings(*msdyn_fieldservicesettingid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings(*msdyn_fieldservicesettingid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings(*msdyn_fieldservicesettingid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings(*msdyn_fieldservicesettingid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings(*msdyn_fieldservicesettingid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_fieldservicesettings(*msdyn_fieldservicesettingid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -64,6 +66,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_AdvancedSettings](#BKMK_msdyn_AdvancedSettings)
 - [msdyn_AgreementPrefix](#BKMK_msdyn_AgreementPrefix)
+- [msdyn_AgreementRecordGeneration](#BKMK_msdyn_AgreementRecordGeneration)
 - [msdyn_AgreementStartingNumber](#BKMK_msdyn_AgreementStartingNumber)
 - [msdyn_AutoAllocateEstimatedProducts](#BKMK_msdyn_AutoAllocateEstimatedProducts)
 - [msdyn_AutoGenerateWOforAgreementBookings](#BKMK_msdyn_AutoGenerateWOforAgreementBookings)
@@ -90,7 +93,10 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_DefaultScheduledBookingStatus](#BKMK_msdyn_DefaultScheduledBookingStatus)
 - [msdyn_DefaultWarehouse](#BKMK_msdyn_DefaultWarehouse)
 - [msdyn_DefaultWorkOrderCompletedStatus](#BKMK_msdyn_DefaultWorkOrderCompletedStatus)
+- [msdyn_DisableRemoteAssistBookingStatusChanges](#BKMK_msdyn_DisableRemoteAssistBookingStatusChanges)
+- [msdyn_EnableAddressSuggestions](#BKMK_msdyn_EnableAddressSuggestions)
 - [msdyn_EnableLegacyScheduleAssistant](#BKMK_msdyn_EnableLegacyScheduleAssistant)
+- [msdyn_EnableSuggestedDuration](#BKMK_msdyn_EnableSuggestedDuration)
 - [msdyn_EntityNumberLength](#BKMK_msdyn_EntityNumberLength)
 - [msdyn_fieldservicesettingId](#BKMK_msdyn_fieldservicesettingId)
 - [msdyn_GenerateAgreementInvoicesXDaysInAdvance](#BKMK_msdyn_GenerateAgreementInvoicesXDaysInAdvance)
@@ -98,6 +104,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_GenerateBookingDatesXMonthsInAdvance](#BKMK_msdyn_GenerateBookingDatesXMonthsInAdvance)
 - [msdyn_GenerateInvoiceDatesXMonthsInAdvance](#BKMK_msdyn_GenerateInvoiceDatesXMonthsInAdvance)
 - [msdyn_GPSLocationExpiresAfterXMinutes](#BKMK_msdyn_GPSLocationExpiresAfterXMinutes)
+- [msdyn_HistoricalDataFilter](#BKMK_msdyn_HistoricalDataFilter)
 - [msdyn_InventoryAdjustmentPrefix](#BKMK_msdyn_InventoryAdjustmentPrefix)
 - [msdyn_InventoryAdjustmentStartingNumber](#BKMK_msdyn_InventoryAdjustmentStartingNumber)
 - [msdyn_InventoryTransferPrefix](#BKMK_msdyn_InventoryTransferPrefix)
@@ -194,6 +201,21 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_AgreementRecordGeneration"></a> msdyn_AgreementRecordGeneration
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|This field defines the time of day when Work Orders and Invoices are generated by the Agreement Booking Setups and Agreement Invoice Setups where the timing was not defined on the related Agreement.|
+|DisplayName|Agreement Record Generation Timing|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_agreementrecordgeneration|
+|RequiredLevel|Recommended|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_AgreementStartingNumber"></a> msdyn_AgreementStartingNumber
@@ -472,7 +494,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Select whether the system should deactivate the resource booking when the system status is changed to "Canceled."|
-|DisplayName|Deactivate Booking When Canceled|
+|DisplayName|Deactivate Booking When Canceled (Deprecated)|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_deactivatebookingwhencanceled|
@@ -495,7 +517,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Select whether the system should deactivate the resource booking when the system status is changed to "Completed."|
-|DisplayName|Deactivate Booking When Completed|
+|DisplayName|Deactivate Booking When Completed (Deprecated)|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_deactivatebookingwhencompleted|
@@ -518,7 +540,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Select whether the system should deactivate the work order when the system status is changed to "Closed - Canceled."|
-|DisplayName|Deactivate Work Order When Canceled|
+|DisplayName|Deactivate Work Order When Canceled (Deprecated)|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_deactivateworkorderwhencanceled|
@@ -541,7 +563,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Select whether the system should deactivate the work order when the system status is changed to "Closed - Posted."|
-|DisplayName|Deactivate Work Order When Posted|
+|DisplayName|Deactivate Work Order When Posted (Deprecated)|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_deactivateworkorderwhenposted|
@@ -681,12 +703,58 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_msdyn_DisableRemoteAssistBookingStatusChanges"></a> msdyn_DisableRemoteAssistBookingStatusChanges
+
+|Property|Value|
+|--------|-----|
+|Description|Specifies whether users can make booking status changes in the Remote Assist application.|
+|DisplayName|Disable Booking Status Changes on Remote Assist|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_disableremoteassistbookingstatuschanges|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_DisableRemoteAssistBookingStatusChanges Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
+
+
+
+### <a name="BKMK_msdyn_EnableAddressSuggestions"></a> msdyn_EnableAddressSuggestions
+
+|Property|Value|
+|--------|-----|
+|Description|If enabled then address suggestions will be displayed when editing the address on the account, contact, user, or work order form.|
+|DisplayName|Enable Address Suggestions|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enableaddresssuggestions|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_EnableAddressSuggestions Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
+
+
+
 ### <a name="BKMK_msdyn_EnableLegacyScheduleAssistant"></a> msdyn_EnableLegacyScheduleAssistant
 
 |Property|Value|
 |--------|-----|
 |Description||
-|DisplayName|Enable Legacy Schedule Assistant|
+|DisplayName|Enable Legacy Schedule Assistant (Deprecated)|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_enablelegacyscheduleassistant|
@@ -694,6 +762,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Boolean|
 
 #### msdyn_EnableLegacyScheduleAssistant Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_EnableSuggestedDuration"></a> msdyn_EnableSuggestedDuration
+
+|Property|Value|
+|--------|-----|
+|Description|Enable Suggested Duration for Incident Type. System will calculate Suggested Duration daily or on demand based on historical bookings|
+|DisplayName|Enables the suggested duration functionality|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enablesuggestedduration|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_EnableSuggestedDuration Options
 
 |Value|Label|
 |-----|-----|
@@ -812,6 +903,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MinValue|0|
 |RequiredLevel|None|
 |Type|Integer|
+
+
+### <a name="BKMK_msdyn_HistoricalDataFilter"></a> msdyn_HistoricalDataFilter
+
+|Property|Value|
+|--------|-----|
+|Description|Choose the range of date to use for suggested duration calculation|
+|DisplayName|Historical Data Filter|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_historicaldatafilter|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_HistoricalDataFilter Options
+
+|Value|Label|
+|-----|-----|
+|100000000|Last 3 Months|
+|100000001|Last 6 Months|
+|100000002|Last 12 Months|
+|100000003|All|
+
 
 
 ### <a name="BKMK_msdyn_InventoryAdjustmentPrefix"></a> msdyn_InventoryAdjustmentPrefix
@@ -1504,6 +1618,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -1517,6 +1633,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1604,7 +1722,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -1640,6 +1760,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -1653,6 +1775,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1669,6 +1793,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1689,7 +1815,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1700,6 +1826,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1714,6 +1842,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1731,6 +1861,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1747,6 +1879,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -1760,6 +1894,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1776,6 +1912,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1796,7 +1934,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1807,6 +1945,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1821,6 +1961,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1837,6 +1979,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1998,6 +2142,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Name of the owner|
@@ -2013,6 +2159,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -2030,6 +2178,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -2043,6 +2193,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -2058,6 +2210,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -2071,6 +2225,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -2091,12 +2247,11 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 Listed by **SchemaName**.
 
 - [msdyn_fieldservicesetting_ActivityPointers](#BKMK_msdyn_fieldservicesetting_ActivityPointers)
-- [msdyn_fieldservicesetting_msdyn_approvals](#BKMK_msdyn_fieldservicesetting_msdyn_approvals)
 - [msdyn_fieldservicesetting_msdyn_bookingalerts](#BKMK_msdyn_fieldservicesetting_msdyn_bookingalerts)
+- [msdyn_fieldservicesetting_msdyn_approvals](#BKMK_msdyn_fieldservicesetting_msdyn_approvals)
 - [msdyn_fieldservicesetting_SyncErrors](#BKMK_msdyn_fieldservicesetting_SyncErrors)
 - [msdyn_fieldservicesetting_AsyncOperations](#BKMK_msdyn_fieldservicesetting_AsyncOperations)
 - [msdyn_fieldservicesetting_MailboxTrackingFolders](#BKMK_msdyn_fieldservicesetting_MailboxTrackingFolders)
-- [msdyn_fieldservicesetting_UserEntityInstanceDatas](#BKMK_msdyn_fieldservicesetting_UserEntityInstanceDatas)
 - [msdyn_fieldservicesetting_ProcessSession](#BKMK_msdyn_fieldservicesetting_ProcessSession)
 - [msdyn_fieldservicesetting_BulkDeleteFailures](#BKMK_msdyn_fieldservicesetting_BulkDeleteFailures)
 - [msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses](#BKMK_msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses)
@@ -2114,6 +2269,8 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_fieldservicesetting_ActivityPointers"></a> msdyn_fieldservicesetting_ActivityPointers
 
+**Added by**: System Solution Solution
+
 Same as activitypointer entity [msdyn_fieldservicesetting_ActivityPointers](activitypointer.md#BKMK_msdyn_fieldservicesetting_ActivityPointers) Many-To-One relationship.
 
 |Property|Value|
@@ -2127,22 +2284,9 @@ Same as activitypointer entity [msdyn_fieldservicesetting_ActivityPointers](acti
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_msdyn_fieldservicesetting_msdyn_approvals"></a> msdyn_fieldservicesetting_msdyn_approvals
-
-Same as msdyn_approval entity [msdyn_fieldservicesetting_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_fieldservicesetting_msdyn_approvals) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_approval|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_msdyn_approvals|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
 ### <a name="BKMK_msdyn_fieldservicesetting_msdyn_bookingalerts"></a> msdyn_fieldservicesetting_msdyn_bookingalerts
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bookingalert entity [msdyn_fieldservicesetting_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_fieldservicesetting_msdyn_bookingalerts) Many-To-One relationship.
 
@@ -2157,7 +2301,26 @@ Same as msdyn_bookingalert entity [msdyn_fieldservicesetting_msdyn_bookingalerts
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
+### <a name="BKMK_msdyn_fieldservicesetting_msdyn_approvals"></a> msdyn_fieldservicesetting_msdyn_approvals
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_approval entity [msdyn_fieldservicesetting_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_fieldservicesetting_msdyn_approvals) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_approval|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_msdyn_approvals|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+
+
 ### <a name="BKMK_msdyn_fieldservicesetting_SyncErrors"></a> msdyn_fieldservicesetting_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_fieldservicesetting_SyncErrors](syncerror.md#BKMK_msdyn_fieldservicesetting_SyncErrors) Many-To-One relationship.
 
@@ -2169,10 +2332,12 @@ Same as syncerror entity [msdyn_fieldservicesetting_SyncErrors](syncerror.md#BKM
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_AsyncOperations"></a> msdyn_fieldservicesetting_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_fieldservicesetting_AsyncOperations](asyncoperation.md#BKMK_msdyn_fieldservicesetting_AsyncOperations) Many-To-One relationship.
 
@@ -2189,6 +2354,8 @@ Same as asyncoperation entity [msdyn_fieldservicesetting_AsyncOperations](asynco
 
 ### <a name="BKMK_msdyn_fieldservicesetting_MailboxTrackingFolders"></a> msdyn_fieldservicesetting_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_fieldservicesetting_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_fieldservicesetting_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -2199,25 +2366,12 @@ Same as mailboxtrackingfolder entity [msdyn_fieldservicesetting_MailboxTrackingF
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_fieldservicesetting_UserEntityInstanceDatas"></a> msdyn_fieldservicesetting_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_fieldservicesetting_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_fieldservicesetting_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_fieldservicesetting_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_ProcessSession"></a> msdyn_fieldservicesetting_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_fieldservicesetting_ProcessSession](processsession.md#BKMK_msdyn_fieldservicesetting_ProcessSession) Many-To-One relationship.
 
@@ -2234,6 +2388,8 @@ Same as processsession entity [msdyn_fieldservicesetting_ProcessSession](process
 
 ### <a name="BKMK_msdyn_fieldservicesetting_BulkDeleteFailures"></a> msdyn_fieldservicesetting_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_fieldservicesetting_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_fieldservicesetting_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -2248,6 +2404,8 @@ Same as bulkdeletefailure entity [msdyn_fieldservicesetting_BulkDeleteFailures](
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses"></a> msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_fieldservicesetting_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -2264,6 +2422,8 @@ Same as principalobjectattributeaccess entity [msdyn_fieldservicesetting_Princip
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Appointments"></a> msdyn_fieldservicesetting_Appointments
 
+**Added by**: System Solution Solution
+
 Same as appointment entity [msdyn_fieldservicesetting_Appointments](appointment.md#BKMK_msdyn_fieldservicesetting_Appointments) Many-To-One relationship.
 
 |Property|Value|
@@ -2278,6 +2438,8 @@ Same as appointment entity [msdyn_fieldservicesetting_Appointments](appointment.
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Emails"></a> msdyn_fieldservicesetting_Emails
+
+**Added by**: System Solution Solution
 
 Same as email entity [msdyn_fieldservicesetting_Emails](email.md#BKMK_msdyn_fieldservicesetting_Emails) Many-To-One relationship.
 
@@ -2294,6 +2456,8 @@ Same as email entity [msdyn_fieldservicesetting_Emails](email.md#BKMK_msdyn_fiel
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Faxes"></a> msdyn_fieldservicesetting_Faxes
 
+**Added by**: System Solution Solution
+
 Same as fax entity [msdyn_fieldservicesetting_Faxes](fax.md#BKMK_msdyn_fieldservicesetting_Faxes) Many-To-One relationship.
 
 |Property|Value|
@@ -2308,6 +2472,8 @@ Same as fax entity [msdyn_fieldservicesetting_Faxes](fax.md#BKMK_msdyn_fieldserv
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Letters"></a> msdyn_fieldservicesetting_Letters
+
+**Added by**: System Solution Solution
 
 Same as letter entity [msdyn_fieldservicesetting_Letters](letter.md#BKMK_msdyn_fieldservicesetting_Letters) Many-To-One relationship.
 
@@ -2324,6 +2490,8 @@ Same as letter entity [msdyn_fieldservicesetting_Letters](letter.md#BKMK_msdyn_f
 
 ### <a name="BKMK_msdyn_fieldservicesetting_PhoneCalls"></a> msdyn_fieldservicesetting_PhoneCalls
 
+**Added by**: System Solution Solution
+
 Same as phonecall entity [msdyn_fieldservicesetting_PhoneCalls](phonecall.md#BKMK_msdyn_fieldservicesetting_PhoneCalls) Many-To-One relationship.
 
 |Property|Value|
@@ -2338,6 +2506,8 @@ Same as phonecall entity [msdyn_fieldservicesetting_PhoneCalls](phonecall.md#BKM
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Tasks"></a> msdyn_fieldservicesetting_Tasks
+
+**Added by**: System Solution Solution
 
 Same as task entity [msdyn_fieldservicesetting_Tasks](task.md#BKMK_msdyn_fieldservicesetting_Tasks) Many-To-One relationship.
 
@@ -2354,6 +2524,8 @@ Same as task entity [msdyn_fieldservicesetting_Tasks](task.md#BKMK_msdyn_fieldse
 
 ### <a name="BKMK_msdyn_fieldservicesetting_RecurringAppointmentMasters"></a> msdyn_fieldservicesetting_RecurringAppointmentMasters
 
+**Added by**: System Solution Solution
+
 Same as recurringappointmentmaster entity [msdyn_fieldservicesetting_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_fieldservicesetting_RecurringAppointmentMasters) Many-To-One relationship.
 
 |Property|Value|
@@ -2368,6 +2540,8 @@ Same as recurringappointmentmaster entity [msdyn_fieldservicesetting_RecurringAp
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_SocialActivities"></a> msdyn_fieldservicesetting_SocialActivities
+
+**Added by**: System Solution Solution
 
 Same as socialactivity entity [msdyn_fieldservicesetting_SocialActivities](socialactivity.md#BKMK_msdyn_fieldservicesetting_SocialActivities) Many-To-One relationship.
 
@@ -2384,6 +2558,8 @@ Same as socialactivity entity [msdyn_fieldservicesetting_SocialActivities](socia
 
 ### <a name="BKMK_msdyn_fieldservicesetting_Annotations"></a> msdyn_fieldservicesetting_Annotations
 
+**Added by**: System Solution Solution
+
 Same as annotation entity [msdyn_fieldservicesetting_Annotations](annotation.md#BKMK_msdyn_fieldservicesetting_Annotations) Many-To-One relationship.
 
 |Property|Value|
@@ -2398,6 +2574,8 @@ Same as annotation entity [msdyn_fieldservicesetting_Annotations](annotation.md#
 
 
 ### <a name="BKMK_msdyn_fieldservicesetting_ServiceAppointments"></a> msdyn_fieldservicesetting_ServiceAppointments
+
+**Added by**: Service Solution
 
 Same as serviceappointment entity [msdyn_fieldservicesetting_ServiceAppointments](serviceappointment.md#BKMK_msdyn_fieldservicesetting_ServiceAppointments) Many-To-One relationship.
 
@@ -2437,37 +2615,55 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_fieldservicesetting_createdby"></a> lk_msdyn_fieldservicesetting_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_fieldservicesetting_createdby](systemuser.md#BKMK_lk_msdyn_fieldservicesetting_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_fieldservicesetting_createdonbehalfby"></a> lk_msdyn_fieldservicesetting_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_fieldservicesetting_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_fieldservicesetting_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_fieldservicesetting_modifiedby"></a> lk_msdyn_fieldservicesetting_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_fieldservicesetting_modifiedby](systemuser.md#BKMK_lk_msdyn_fieldservicesetting_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_fieldservicesetting_modifiedonbehalfby"></a> lk_msdyn_fieldservicesetting_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_fieldservicesetting_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_fieldservicesetting_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_fieldservicesetting"></a> user_msdyn_fieldservicesetting
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_msdyn_fieldservicesetting](systemuser.md#BKMK_user_msdyn_fieldservicesetting) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_fieldservicesetting"></a> team_msdyn_fieldservicesetting
+
+**Added by**: System Solution Solution
 
 See team Entity [team_msdyn_fieldservicesetting](team.md#BKMK_team_msdyn_fieldservicesetting) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_fieldservicesetting"></a> business_unit_msdyn_fieldservicesetting
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_msdyn_fieldservicesetting](businessunit.md#BKMK_business_unit_msdyn_fieldservicesetting) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultCanceledBookingStatus"></a> msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultCanceledBookingStatus
 
+**Added by**: Scheduling Solution
+
 See bookingstatus Entity [msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultCanceledBookingStatus](bookingstatus.md#BKMK_msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultCanceledBookingStatus) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultScheduledBookingStatus"></a> msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultScheduledBookingStatus
+
+**Added by**: Scheduling Solution
 
 See bookingstatus Entity [msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultScheduledBookingStatus](bookingstatus.md#BKMK_msdyn_bookingstatus_msdyn_fieldservicesetting_DefaultScheduledBookingStatus) One-To-Many relationship.
 
@@ -2497,11 +2693,13 @@ See msdyn_warehouse Entity [msdyn_msdyn_warehouse_msdyn_fieldservicesetting_Defa
 
 ### <a name="BKMK_msdyn_product_msdyn_fieldservicesetting"></a> msdyn_product_msdyn_fieldservicesetting
 
+**Added by**: Product Management Solution
+
 See product Entity [msdyn_product_msdyn_fieldservicesetting](product.md#BKMK_msdyn_product_msdyn_fieldservicesetting) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_fieldservicesetting?text=msdyn_fieldservicesetting EntityType" />

@@ -4,7 +4,7 @@ description: "Quickly onboard and learn about Dynamics 365 for Sales and its use
 keywords: "Get started; understand data; quick create; Sales"
 ms.date: 04/01/2018
 ms.service:
-  - "dynamics-365-sales"
+  - dynamics-365-sales
 ms.custom:
   - "dyn365-sales"
 ms.topic: get-started-article

@@ -30,7 +30,7 @@ search.app:
   
  To learn more about the ways to create an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group, see [Create and navigate a group](http://go.microsoft.com/fwlink/p/?LinkId=716838).  
   
- To learn more about managing groups in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], see [View, create, and delete groups in the Office 365 admin center](http://go.microsoft.com/fwlink/p/?LinkId=716839).  
+ To learn more about managing groups in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], see [View, create, and delete groups in the Microsoft 365 admin center](http://go.microsoft.com/fwlink/p/?LinkId=716839).  
   
  To learn more about groups in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], see [Find help about groups in Office 365](http://go.microsoft.com/fwlink/p/?LinkId=716840).  
   

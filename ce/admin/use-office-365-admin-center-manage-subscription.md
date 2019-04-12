@@ -1,5 +1,5 @@
 ---
-title: "Use the Office 365 admin center to manage your Dynamics 365 for Customer Engagement apps (online) subscription | MicrosoftDocs"
+title: "Use the Microsoft 365 admin center to manage your Dynamics 365 for Customer Engagement apps (online) subscription | MicrosoftDocs"
 ms.custom: 
 ms.date: 06/19/2018
 ms.reviewer: 
@@ -21,13 +21,13 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Use the Office 365 admin center to manage your subscription 
+# Use the Microsoft 365 admin center to manage your subscription 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[The Office 365 admin center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23) is a portal site rich in features for the administrator. [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps takes advantage of the features on this site to simplify and consolidate management of user accounts, billing, licensing, and more.  
+[The Microsoft 365 admin center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23) is a portal site rich in features for the administrator. [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps takes advantage of the features on this site to simplify and consolidate management of user accounts, billing, licensing, and more.  
   
- ![Office 365 admin center](../admin/media/o365-admin-center.png "Office 365 admin center")  
+ ![Microsoft 365 admin center](../admin/media/o365-admin-center.png "Microsoft 365 admin center")  
   
  Review the information in this topic to learn how to do common Customer Engagement apps administrative tasks in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
@@ -46,7 +46,7 @@ search.app:
   
  You access the portal by choosing [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps from the left-side menu in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
- ![Dynamics 365 for Customer Engagement apps option on the Office 365 Admin Center menu](../admin/media/o365-admin-center-crm.png "Dynamics 365 for Customer Engagement apps option on the Office 365 Admin Center menu")  
+ ![Dynamics 365 for Customer Engagement apps option on the Microsoft 365 admin center menu](../admin/media/o365-admin-center-crm.png "Dynamics 365 for Customer Engagement apps option on the Microsoft 365 admin center menu")  
   
  Choose the **Instances** tab to edit, copy, and reset, existing instances, configure new instances, manage preferred solutions, and more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)  
   
@@ -70,7 +70,7 @@ For more information, see [How do I check my online service health?](check-onlin
   
  Click **Health** > **Message center**, and select messages to get more information.  
   
- ![Office 365 Admin Center Message Center](../admin/media/office-365-admin-center-message-center.png "Office 365 Admin Center Message Center")  
+ ![Microsoft 365 admin center Message Center](../admin/media/office-365-admin-center-message-center.png "Microsoft 365 admin center Message Center")  
   
 <a name="BKMK_ServiceRequest"></a>   
 
@@ -86,7 +86,7 @@ More information: [Contact Technical Support](contact-technical-support.md)
   
  You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to add, edit, and delete Customer Engagement apps users and to reset passwords.  
   
- ![Office 365 admin center active users](../admin/media/o365-admin-center-manage-users.png "Office 365 admin center active users")  
+ ![Microsoft 365 admin center active users](../admin/media/o365-admin-center-manage-users.png "Microsoft 365 admin center active users")  
   
 > [!NOTE]
 > Customer Engagement apps uses [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) as its identity provider. You access Customer Engagement apps through an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID that is created and managed in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. For simplicity, we’ll refer to the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID as the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID in this documentation.  
@@ -97,13 +97,13 @@ More information: [Contact Technical Support](contact-technical-support.md)
 ## Manage subscriptions  
  Use the Subscriptions page to adjust licenses, view your bill, add a partner of record, and lots more.  
   
- ![Office 365 admin center subscriptions](../admin/media/o365-admin-center-manage-subscriptions.png "Office 365 admin center subscriptions")  
+ ![Microsoft 365 admin center subscriptions](../admin/media/o365-admin-center-manage-subscriptions.png "Microsoft 365 admin center subscriptions")  
   
 <a name="BKMK_SetPassword"></a>   
 ## Set the password expiration  
  Use the Security & privacy page to set how frequently a user’s password expires and the number of days before a user is notified of an upcoming expiration.  
   
- ![Office 365 admin center manage password expiration](../admin/media/o365-admin-center-password-expiration.png "Office 365 admin center manage password expiration")  
+ ![Microsoft 365 admin center manage password expiration](../admin/media/o365-admin-center-password-expiration.png "Microsoft 365 admin center manage password expiration")  
   
 > [!TIP]
 >  Note the information on this page about users doing their own password reset. To enable your users to be able to reset their passwords themselves, you’ll need to purchase an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] subscription and configure it for password self-service. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Self-service password reset in Azure AD: how to enable, configure, and test self-service password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#enable-users-to-reset-their-azure-ad-passwords)  
@@ -120,14 +120,14 @@ More information: [Contact Technical Support](contact-technical-support.md)
 ## Add your domain  
  Use the Manage domains page to add your domain to your subscription. When you add your own domain, user sign-ins can match your company’s URL. For example, instead of user@contoso.onmicrosoft.com, it could be user@contoso.com. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Verify your domain in Office 365](http://support.office.com/article/Verify-your-domain-in-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)  
   
- ![Office 365 admin center add your domain](../admin/media/o365-admin-center-add0domain.png "Office 365 admin center add your domain")  
+ ![Microsoft 365 admin center add your domain](../admin/media/o365-admin-center-add0domain.png "Microsoft 365 admin center add your domain")  
   
 <a name="BKMK_PurchaseServices"></a>   
 ## Purchase services  
  On the left-side menu of the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Billing** > **Purchase services** to add licenses or purchase new online services.  
   
- ![Office 365 admin center purchase services](../admin/media/o365-admin-center-purchase-services.png "Office 365 admin center purchase services")  
+ ![Microsoft 365 admin center purchase services](../admin/media/o365-admin-center-purchase-services.png "Microsoft 365 admin center purchase services")  
   
 ### See also  
- [About the Office 365 admin center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)  
+ [About the Microsoft 365 admin center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)  
  [Set an individual user's password to never expire](https://support.office.com/article/Set-an-individual-user-s-password-to-never-expire-f493e3af-e1d8-4668-9211-230c245a0466)

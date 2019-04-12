@@ -1,12 +1,12 @@
 ---
-title: "My dashboard view of agent interface in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn about the My dashboard view of agent interface in Omni-channel Engagement Hub"
+title: "My Dashboard view of agent interface in Omni-channel Engagement Hub | MicrosoftDocs"
+description: "Learn about the My Dashboard view of agent interface in Omni-channel Engagement Hub"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 03/07/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 69344371-9846-488B-A9A8-875C35398F92
@@ -46,17 +46,5 @@ In the **Closed work items** stream, the stream refreshes and shows you all the 
 
 ## See also
 
-- [Sign in to Dynamics 365 Customer Service Hub app](csh-sign-dynamics-365-customer-service-hub.md)
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
 - [Know the sitemap navigation](csh-sitemap.md)
-- [Navigate using the navigation bar](csh-navigation-bar.md)
-- [Navigation bar buttons](csh-navigation-bar-buttons.md)
-- [Set user presence](csh-set-user-presence-status.md)
-- [View notifications and screen pops](csh-notifications-screen-pops.md)
-- [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
-- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
-- [Take notes specific to conversation](csh-take-notes.md)
-- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
-- [Create a record](csh-create-record.md)
-- [Search and link record to the conversation](csh-search-link-record.md)

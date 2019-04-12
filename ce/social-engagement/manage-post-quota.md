@@ -49,7 +49,7 @@ To get a quick overview of the post quota for all your search topics, for single
 |      Quota exceeded      |                                              If your solution acquired more posts than your post quota allows.                                              | Take immediate action by adding post quota. Your solution will continue to acquire posts until you either surpass the granted grace period or you reach the additionally granted post quota. |
 |   Acquisition stopped    | When Administrators were informed and the solution exceeded your post quota without any action taken. The solution's acquisition was stopped automatically. |                          Increase the post quota to restart your acquisition immediately, or wait until the first day of the next month to restart the acquisition.                          |
   
- Your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin can upgrade your subscription and purchase additional post quotas for your solution at any time in the [Office 365 admin center](https://portal.office.com/). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462)  
+ Your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin can upgrade your subscription and purchase additional post quotas for your solution at any time in the [Microsoft 365 admin center](https://admin.microsoft.com/). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 for Customer Engagement pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462)  
   
 ## Keep the post quota healthy  
  Keeping the post quota healthy is crucial to make sure data acquisition isn't interrupted and you don't miss any relevant information.  
@@ -58,7 +58,7 @@ To get a quick overview of the post quota for all your search topics, for single
 ### Impact of exceeding limits  
  All [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md)  
   
- If no action is taken, exceeding the post quota will get your solution blocked from data acquisition until the end of the month. No more posts are acquired, even if they match your search topics. You can [purchase additional post quota](https://portal.office.com/) at any time to unblock your solution immediately.  
+ If no action is taken, exceeding the post quota will get your solution blocked from data acquisition until the end of the month. No more posts are acquired, even if they match your search topics. You can [purchase additional post quota](https://admin.microsoft.com/) at any time to unblock your solution immediately.  
 
 > [!IMPORTANT]
 >  Note that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] doesn't gather posts retroactively. Any post that you missed won't appear in your solution if you update your post quota after the acquisition has stopped.  
@@ -93,15 +93,15 @@ Three types of quota add-on subscriptions are available. They are billed on a mo
 
 ### To buy add-on subscriptions for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-An Office 365 admin can buy additional post quota from the Office 365 admin center. You will only see the [!include[](../includes/pn-social-engagement-short.md)] add-on subscriptions if your  plan includes [!include[](../includes/pn-social-engagement-short.md)].
+An Office 365 admin can buy additional post quota from the Microsoft 365 admin center. You will only see the [!include[](../includes/pn-social-engagement-short.md)] add-on subscriptions if your  plan includes [!include[](../includes/pn-social-engagement-short.md)].
 
 For more information, see [Pricing and licensing for Dynamics 365 for Customer Engagement plans](http://go.microsoft.com/fwlink/p/?LinkID=401462).
 
 ![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Find add-on subscriptions")
 
-1. Go to [https://portal.office.com](https://portal.office.com) and sign in as a global administrator or billing administrator.
+1. Go to [https://admin.microsoft.com](https://admin.microsoft.com) and sign in as a global administrator or billing administrator.
 
-2. Select **Admin** to open the Office 365 admin center.
+2. Select **Admin** to open the Microsoft 365 admin center.
 
 3. Go to **Billing**, and then select **Purchase services**.
 

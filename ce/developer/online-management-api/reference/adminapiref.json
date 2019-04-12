@@ -901,7 +901,7 @@
           "OperationStatus"
         ],
         "summary": "Retrieves status of an operation in your Customer Engagement instance.",
-        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.md#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetOperationStatus",
         "consumes": [],
         "produces": [
@@ -937,7 +937,7 @@
           "OperationStatus"
         ],
         "summary": "Retrieves operation status of a Customer Engagement instance.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.md#service-url)",
+	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetOperationStatusByQuery",
         "consumes": [],
         "produces": [
@@ -977,7 +977,7 @@
           "ServiceVersions"
         ],
         "summary": "Retrieves information about all the supported releases for Customer Engagement.",
-        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.md#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetServiceVersions",
         "consumes": [],
         "produces": [
@@ -1004,7 +1004,7 @@
           "Templates"
         ],
         "summary": "Retrieves templates supported for provisioning a Customer Engagement instance.",
-        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api.md#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTemplates",
         "consumes": [],
         "produces": [
