@@ -183,17 +183,20 @@ If a field technician begins travel to his or her next work order and sees the t
 
 ## Configuration considerations
 
-- By adding a travel charge to the service account of the work order, you can charge the customer of a work order a fee for travel time and distance. See the topic on [adding account related details to work orders](../field-service/work-order-customer-account.md) for more details.
-- A field technicians current location as derived from his or her mobile device running the Field Service Mobile app can be used for travel time and distance calculations with the scheduling assistant. This is called Real Time Mode. See the topic on [enabling and testing location auditing]([../field-service/work-order-customer-account.md](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/geofencing#step-5-test-location-auditing)) for more details.
+- By adding a travel charge to the service account of the work order, you can charge the customer a fee for travel time and distance as work orders are completed. See the topic on [adding account related details to work orders](../field-service/work-order-customer-account.md) for more details.
+- A field technician's current location as derived from his or her mobile device running the Field Service Mobile app can be used for travel time and distance calculations with the scheduling assistant. This is called **Real Time Mode**. See the topic on [enabling and testing location auditing]([../field-service/work-order-customer-account.md](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/geofencing#step-5-test-location-auditing)) for more details.
 - By default Field Service uses the Bing Maps API for travel time and distance calculations but other APIs such as Google Maps can be utilized as well.  
 
 ## Additional notes
 
 - The out of the box functionality only supports travel time and distance calculations for driving, not walking or flying.
 
-- Travel time updates for manual scheduling
-  - what if an onsite requirement is manually scheduled to a location agnostic resource? no travel time is calculated, however if an onsite requirement is scheudled after an onsite requirement travel tim will be added
-  - org wide
-  - threshold is next day
-  - hours view only
-  - does not respect Book Based On setting of schedule board
+**Auto Update Booking Travel Field Service v8.6+**
+
+The auto travel time update feature for manual scheduling needs two locations to work. As an example, if a resource has a starting location and the first requirement scheduled to the resource has a location (ie work location = on site), then the travel time will be calculated and visualized. If the resource does not have a starting location (ie resource start location = location agnostic), the first on site requirement scheduled will not have a travel time. However, if an on site requirement is schedule after another on site requirement, then the feature has two known locations and the travel time between the two requirements will be calculated **even if the resource is location agnostic**.
+
+Here are a few more notes about the Auto Update Booking Travel feature;
+- The feature is org wide. This means it cannot be enabled or disabled based on specific users, schedule board tabs, or specific scheduleable entities. 
+- The feature only applies to the Hours view of the schedule board
+- The threshold is the end of the day. This means if you have an on site booking, the following on site booking will calculate travel time from the previous booking up until the end of that day, even if there are multiple hours in between the two on site bookings.
+- The time the requirement is dragged to the schedule board is the time the resource will arrive on site and the travel time is calculated and added before that time. This is not configurable. As an example, if I schedule an on site work order requirement at 10:00am by dragging my mouse to the 10:00am time slot, and the feature calculates 20 minutes of travel time, then travel will begin at 9:40am and it is expected the resource will arrive by 10:00am.
