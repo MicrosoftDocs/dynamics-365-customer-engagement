@@ -26,6 +26,8 @@ search.app:
 
 > [!NOTE]
 > [!INCLUDE[](../includes/cc-cdsnote-2-topic.md)]
+> 
+> The authentication documentation that is applicable to Dynamics 365 for Customer Engagement app (online) users is now available in the PowerApps documentation at: [Authenticate to Common Data Service with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api).
 
 The code you write to manage authentication when using the Web API depends on the type of deployment and where your code is.  
   
