@@ -2,7 +2,7 @@
 title: "Add an instance to your subscription of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 12/05/2018
+ms.date: 04/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -15,7 +15,7 @@ ms.assetid: 7e8b84a7-ae29-4180-94f5-5d89fc43bdbc
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -25,6 +25,9 @@ search.app:
 # Add an instance to your subscription
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!IMPORTANT]
+> We are working to update the process for adding instances (environments) to your subscription. Check back for content updates.
 
 You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics 365 for Customer Engagement apps pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).   
   
@@ -65,10 +68,15 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
     >  Once set, the base currency cannot be changed.  
   
 <a name="BKMK_add_instance"></a>   
+
 ## Add an additional instance  
  The following steps apply to customers who do not purchase using volume licensing. Volume license customers should see: [Microsoft Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx).  
   
+
 ### Step 1: Purchase the additional instance  
+
+> [!IMPORTANT]
+> If you want to provision a new environment for the [Power Platform Admin center](https://admin.powerplatform.microsoft.com), for now, you should skip this step and instead [contact support](get-help-support.md). Then, follow the steps beginning with Step 2.
   
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator. In the navigation pane, click **Billing** > **Purchase Services**.  
   
