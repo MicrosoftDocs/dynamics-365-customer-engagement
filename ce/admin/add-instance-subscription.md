@@ -76,7 +76,7 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
 ### Step 1: Purchase the additional instance  
 
 > [!IMPORTANT]
-> If you want to provision a new environment for the [Power Platform Admin center](https://admin.powerplatform.microsoft.com), for now, you should skip this step and instead [contact support](get-help-support.md). Then, follow the steps beginning with Step 2.
+> If you want to provision a new environment for the [Power Platform Admin center](https://admin.powerplatform.microsoft.com), for now, you should skip this step and instead [contact support](https://docs.microsoft.com/power-platform/admin/get-help-support). Then, follow the steps beginning with Step 2.
   
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator. In the navigation pane, click **Billing** > **Purchase Services**.  
   
