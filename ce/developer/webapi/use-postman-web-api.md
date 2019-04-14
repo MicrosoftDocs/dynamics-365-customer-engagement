@@ -25,6 +25,8 @@ search.app:
 
 > [!NOTE]
 > [!INCLUDE[](../includes/cc-cdsnote-2-section.md)]
+>
+> The documentation that is applicable to Dynamics 365 for Customer Engagement app (online) users is now available in the PowerApps documentation at: [Use Postman with Common Data Service Web API](/powerapps/developer/common-data-service/webapi/use-postman-web-api).
 
 There are a number of third-party tools that allow you to authenticate to [!INCLUDE[](../../includes/pn-dyn-365.md)] for Customer Engagement app instances and to compose and send Web API requests and view responses. Postman is one of the most popular.
 

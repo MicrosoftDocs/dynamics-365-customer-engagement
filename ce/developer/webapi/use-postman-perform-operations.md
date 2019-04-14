@@ -26,6 +26,9 @@ search.app:
 Use Postman to compose and send Web API requests and view responses. This topic describes how to use Postman to create Web API requests that perform create, retrieve, update, and delete (CRUD) operations and use functions and actions.
 
 > [!NOTE]
+> [!INCLUDE[](../includes/cc-cdsnote-2-topic.md)]
+
+> [!IMPORTANT]
 > You need to have an environment that was created by using the steps described in [Set up a Postman environment](setup-postman-environment.md).
 
 The environment created by using the instructions in [Set up a Postman environment](setup-postman-environment.md) creates a `{{webapiurl}}` Postman variable that provides the base URL for requests. Append to this variable to define the URL for your requests.
