@@ -1,5 +1,5 @@
 ---
-title: "Introduction to the agent interface of Omni-channel Engagement Hub in Customer Service Hub app | MicrosoftDocs"
+title: "Introduction to the agent interface of Omni-channel Engagement Hub app | MicrosoftDocs"
 description: "Learn about agent interface of Omni-channel Engagement Hub in Customer Service Hub app"
 keywords: ""
 author: kabala123
@@ -13,33 +13,46 @@ ms.assetid: 891E5572-F1D6-413C-8F2E-299AF3CC34F9
 ms.custom: 
 ---
 
-# Introduction to the agent interface of Omni-channel Engagement Hub in Customer Service Hub app
+# Introduction to the agent interface of Omni-channel Engagement Hub app
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you sign in to Customer Service Hub app, the Omni-channel Engagement Hub interface has the following components:
+## Components in the agent interface
 
-1.  Sitemap
+When you sign in to Omni-channel Engagement Hub app, the agent interface has the following components:
 
-2.  Navigation bar
+1. Session panel
 
-3.  Navigation bar buttons
+2. Communication panel (Collapsed mode)
 
-4.  My Dashboard
+3. App tab
 
-5.  Conversation control (Collapsed mode)
+4. Omni-channel Agent Dashboard
 
- 
+5. Navigation bar buttons
+
+## Session panel
+
+The session panel allows you (agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity. 
+
+By default, the session panel is in expanded mode. The **Home** session is default and shows the **Omni-channel Agent Dashboard**.
+
  > [!div class=mx-imgBorder]
- > ![Agent interface of Omni-channel Engagement Hub in Customer Service Hub app](../../media/csh-agent-interface.png "Agent interface of Omni-channel Engagement Hub in Customer Service Hub app")  
+ > ![Session panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omni-channel Engagement Hub app")
 
+## Communication panel
 
-Conversation control in expanded mode
+Communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, communication panel is in minimized mode. That is, the minimized communication panel appears at the bottom left side. The landing page explains some of the key features of Omni-channel Engagement Hub and communication panel. To learn more, see [View communication panel](csh-conversation-control.md)
 
  > [!div class=mx-imgBorder]
- > ![Conversation control in expanded mode](../../media/csh-agent-interface-expanded-mode.png "Conversation control in expanded mode")
+ > ![Communication panel in the collapsed mode](../../media/oceh/oceh-agent-interface-communication-panel-collapsed.png "Communication panel in the collapsed mode")
+
+To expand the communication panel, select the arrow on the gray bar of the communication panel. Select the same arrow to again minimize the communication panel.
+
+ > [!div class=mx-imgBorder]
+ > ![Communication panel in the expanded mode](../../media/oceh/oceh-agent-interface-communication-panel-expanded.png "Communication panel in the expanded mode")
 
 > [!div class="nextstepaction"]
 > [Next topic: Know the sitemap navigation](csh-sitemap.md)
