@@ -41,7 +41,8 @@ Preview features are features that aren’t complete, but are made available on 
 
  The following table lists the features that are still in preview, as well as  learning resources for each.  
   
-|   |     |----------|----|
+|   |     |
+|----------|----|
 | **Preview feature** | **Learning resource** | 
 | Data Loader for bulk importing   |  [Preview feature: Import bulk data](import-bulk-data-data-loader.md) |
 | Get a quick overview of key Dynamics 365 for Customer Engagement apps (online) performance metrics  |  [Preview feature: View metrics about your instance with Organization Insights dashboard](use-organization-insights-dashboard-view-instance-metrics.md)  |
