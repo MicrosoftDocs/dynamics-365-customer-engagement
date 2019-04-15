@@ -13,7 +13,7 @@ ms.assetid: 327B10EA-A62A-4CCD-BC68-57D26CA076C0
 caps.latest.revision: 25
 author: susikka
 ms.author: susikka
-manager: amyla
+manager: shujoshi
 search.audienceType: 
   - developer
 search.app: 
