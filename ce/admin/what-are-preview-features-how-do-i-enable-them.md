@@ -37,11 +37,6 @@ Preview features are features that aren’t complete, but are made available on 
   
 - May be available only in selected geographic areas.  
   
-## What preview features were included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)]?  
-
-> [!NOTE]
->  The Data Loader preview feature does not have to be enabled through the **Previews** tab.  
-  
 ## How do I enable a preview feature?  
  To enable a preview feature, you must be a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator.  
   
