@@ -26,7 +26,7 @@ This topic describes how to set up a communication panel for agents to converse 
 - You must have the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-security-roles)
 
 
-<!--note that the link above opens a page called "Use security roles to manage access". Is that correct?-->
+<!--note that the link above opens a page called "Use security roles to manage access". Is that correct? This note is relevant to all the other topics in this group, too.-->
 
 
 - You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
