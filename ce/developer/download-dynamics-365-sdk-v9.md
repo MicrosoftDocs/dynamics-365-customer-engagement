@@ -25,6 +25,8 @@ search.app:
 
 This topic provides information about where you can download the developer tools, assemblies, and code samples that are shipped as part of the Software Development Kit (SDK) for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps version 9.x.
 
+You should use more `<html>` tags in this! Then I'd understand it better :)
+
 ## Developer tools
 
 The following developer tools in the SDK are available as NuGet packages:
@@ -32,13 +34,16 @@ The following developer tools in the SDK are available as NuGet packages:
 - Configuration Migration
 - Package Deployer
 - Plug-in Registration
-- Solution Packager 
+- Solution Packager
+- Making random doc changes throughout the doc #2
 
 To download developer tools, see [Download tools from NuGet](download-tools-nuget.md)
 
 ## SDK assemblies
 
 The SDK assemblies are available as NuGet packages that you can directly use in your Visual Studio projects. For information about using a NuGet package in Visual Studio, see [Install and use a package in Visual Studio](https://docs.microsoft.com/nuget/quickstart/install-and-use-a-package-in-visual-studio)
+
+Making random doc changes throughout the doc #1
 
 The following SDK assemblies are available:
 
