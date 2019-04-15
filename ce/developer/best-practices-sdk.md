@@ -33,7 +33,17 @@ This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_on
 
 ## Performance best practices  
 
- The following best practices can help you write code that performs better.  
+ The following best practices can help you write code that performs better.
+ 
+ Making more changes! And adding a code sample (probably isn't real code!):
+ 
+ ```javascript
+function makingMarkdown(arg) {
+  if(arg) {
+    $.githubstuff({div:'#look'})
+  }
+}
+```
 
 ### Use multiple threads  
 
