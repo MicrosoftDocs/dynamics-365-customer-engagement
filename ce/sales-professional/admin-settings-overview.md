@@ -17,7 +17,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Overview of admin settings
+# Overview of admin settings (Sales Professional)
 
 Are you the person responsible for getting your sales team onboard?
 

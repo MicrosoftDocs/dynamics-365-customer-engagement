@@ -14,9 +14,9 @@ helpviewer_keywords:
   - duplicate detection, organization service
 ms.assetid: A69EDF59-3E81-4C6E-A5C9-EF8DCCF6F936
 caps.latest.revision: 25
-author: SushantSikka
+author: susikka
 ms.author: susikka
-manager: amyla
+manager: shujoshi
 search.audienceType: 
   - developer
 search.app: 

@@ -2,7 +2,7 @@
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features for developers and customizers in Unified Service Desk."
 keywords: ""
-ms.date: 12/17/2018
+ms.date: 04/10/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 
@@ -33,13 +33,13 @@ search.app:
 
 ##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)]
 
-### Preview: Use Chrome Process hosting type to host web applications in Unified Service Desk
+### Use Chrome Process hosting type to host web applications in Unified Service Desk
 
 Use Chrome Process to host web applications in Unified Service Desk client application. The Chrome Process is based on **CefSharp**, an open source framework, which uses the chromium core that powers many modern browsers.
 
 The advantages of using the Chrome process hosting method are as follows:
 
-- Chrome Process is available on different Windows OS server versions (Client and Server).
+- Chrome Process is available on different Windows OS versions.
 - Chrome Process is highly reliable.
 - Easy configurations to host the applications in Unified Service Desk.
 - Switch easily from one browser to another for your entire organization.
@@ -47,7 +47,7 @@ The advantages of using the Chrome process hosting method are as follows:
 
 More information: [Use Chrome Process to host web applications in Unified Service Desk](chrome-process.md)
 
-### Preview: Integrate channel using Channel Integration Framework
+### Integrate channel using Channel Integration Framework
 
 Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
 
@@ -57,12 +57,22 @@ The User Interface Integration (UII) framework provides a hosted control - **Cha
 
 More information: [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
 
-### Preview: Use Edge Process hosting type to host web applications in Unified Service Desk
+### Stack notification in Unified Service Desk
 
-Use the Microsoft Edge, the modern, faster, safer and responsive web browser to host applications in Unified Service Desk.
-Select Edge Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.
+You can configure stack notifications in Unified Service Desk to display popup notification messages to your customer service agents that contains general information, customer or process-related information that the agent can act on.
+This facilitates simultaneous toast notifications in a multi-session environment. 
 
-More information: [Use Edge Process to host web applications in Unified Service Desk](edge-process.md)
+Two new parameters are introduced: **stack** and **stackHeight**, for which you can set the values to show the notifications in a stack with a certain height.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stack Notifications](configure-notifications-unified-service-desk.md#stack-notifications) and [Popup Notification Hosted Control](popup-notification-hosted-control.md)
+
+### Switch between local sessions, and between local and global sessions
+
+When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer doesn't count until you switch back to the session. This helps in efficiently measure the agents' productivity.
+
+Using **SwitchSession** action, you can now switch between local sessions. Also, you can switch sessions between local and global by passing the global session ID retrieved from the context using the replacement parameter.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SwitchSession Action](session-tabs-hosted-control.md#switchsession)
 
 ::: moniker-end
 
