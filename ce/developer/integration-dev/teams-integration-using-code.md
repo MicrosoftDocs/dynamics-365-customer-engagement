@@ -28,7 +28,7 @@ Enable Microsoft Teams Integration (preview feature) in Dynamics 365 for Custome
 > [!NOTE]
 > The Microsoft Teams Integration preview feature is currently only available for organizations in the North American region.
 
-When your admin [enables](/dynamics365/customer-engagement/basics/teams-install-app#for-dynamics-365-for-customer-engagement-admins-enable-microsoft-teams-integration-preview-features) the Microsoft Teams integration feature for your instance in system settings, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action.
+When your admin [enables](/dynamics365/customer-engagement/basics/teams-install-app#bkmk_enable) the Microsoft Teams integration feature for your instance in system settings, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action.
 
 ## msdyn_SetTeamsDocumentStatus action parameters
 
