@@ -33,16 +33,16 @@ When you sign in to Omni-channel Engagement Hub app, the agent interface has the
 
 5. Navigation bar buttons
 
-## Session panel
+## 1. Session panel
 
-The vertical panel on the left side is the session panel that allows you (agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
+The vertical panel on the left side is the session panel that allows you (agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity. You can close any session manually by selecting the **X** button next to the session title.
 
 By default, the session panel is in expanded mode and it is collapsible based on your requirement. The **Home** session is default and you can't close the **Home** session. The Home session shows the default **Omni-channel Agent Dashboard**.
 
  > [!div class=mx-imgBorder]
  > ![Session panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omni-channel Engagement Hub app")
 
-## Communication panel
+## 2. Communication panel
 
 Communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, communication panel is in minimized mode. That is, the minimized communication panel appears at the bottom left side. The landing page explains some of the key features of Omni-channel Engagement Hub and communication panel. To learn more, see [View communication panel](csh-conversation-control.md)
 
@@ -54,13 +54,69 @@ To expand the communication panel, select the arrow on the gray bar of the commu
  > [!div class=mx-imgBorder]
  > ![Communication panel in the expanded mode](../../media/oceh/oceh-agent-interface-communication-panel-expanded.png "Communication panel in the expanded mode")
 
-## Application tab
+## 3. Application tab
 
-The horizontal bar below the Dynamics 365 Nav bar is called the application tab. Every customer session has at least one that is not closable and it is called Anchor tab. The Application tab has **+** icon, if you select the icon, the sitemap is available as a context menu. The sitemap shows the out-of-box and custom entities.
+The horizontal bar below the Dynamics 365 Nav bar is called the application tab. Every customer session has at least one that is not closable and it is called Anchor tab. The Application tab has **+** icon, if you select the icon, the sitemap is available as a context menu. The sitemap shows the out-of-box and custom entities. You press **Ctrl** and select any link to open it in the application tab.
 
 > [!div class=mx-imgBorder]
-> ![oceh-agent-interface-sitemap.png](../../media/oceh/oceh-agent-interface-sitemap.png)
+> ![Omni-channel Engagement Hub sitemap appears when you select + icon in the application tab](../../media/oceh/oceh-agent-interface-sitemap.png "Omni-channel Engagement Hub sitemap in the application tab")
 
+The Sitemap displays the following record types:
+
+- **Dashboards**
+
+  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working. There are several dashboards tailored for your role. To see the other dashboards, select the drop-down list next to **My Dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **My Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application. The dashboard displays the following forms:
+
+   - My work items
+   - Open work items
+   - Closed work items
+
+- **Activities**
+
+  Activities help you keep track of all your customer communications in the form of **Conversation** and **Session** record types. Activities are the details of the interactions between the customer and you, such as the history of the conversation, a transcript of the conversation, session details, and more.
+
+- **Accounts**
+
+  Account records are used to store the information that you collect from the customer with whom you interact. That is, you store the details about the companies in the accounts. An account might have more than one contact associated with it.
+
+- **Contacts**
+
+  Contact records help you manage and store information about the customers you work with. Usually, multiple contacts work in the same organization, and as a result, you can associate these contacts with the account (organization).
+
+- **Social Profiles**
+
+  Social profiles are the profiles that contact or account of the customer has on social media. You use the social profiles to interact with the customer on social media and track all the conversations in Common Data Service.
+
+- **Cases**
+
+  Cases (tickets or incidents) are the requests, inquiries, issues, feedbacks, complaints, and so on about the product or service that your customers need assistance to resolve. The cases will be routed to the queues to which you are added as an agent. You link the cases to the conversation and the details appear in the **Customer summary** form.
+
+- **Queues**
+
+  Queues are the route where the cases are assigned to you. Your organization creates queues and agents based on the business requirement. This ensures that you get conversations (work items) from the queues to which you are added as a member (agent). You can view and work on the conversations only to the queues you are assigned as a member (agent).
+
+- **Knowledge articles**
+
+  Knowledge articles are articles about the questions, issues, feedback, resolutions, best practices, and guidelines that are helpful. You can share the articles with the customers and help them to resolve the cases.
+
+## 4. Omni-channel Agent Dashboard
+
+When you sign in to Omni-channel Engagement Hub, as an agent, you see the Omni-channel Agent Dashboard that shows the different work items in streams. The dashboard is present in the application tab of **Home** session and you can't close the dashboard tab.
+
+ > [!div class=mx-imgBorder]
+ > ![Omni-channel Agent Dashboard shows My work items, Open work items, and closed work items](../../media/oceh/oceh-agent-interface-oceh-dashboard.png "Omni-channel Agent Dashboard")
+
+- **My work items**
+
+    In this stream, you see the conversations (work items) that you are actively working on. Select the ellipses and select the **Open** option to open the work item in a session.
+
+- **Open work items**
+
+    In this stream, you see the conversations (work items) in a waiting state from all queues that are available for you to pick. You can see the conversations (work item) for the work streams where you are added as a member. Select the ellipses and select the **Pick** option to assign the work item to yourself. When you select **Pick** the system moves the work item from the **Open work items** stream to the **My work items** stream, and you can see the message **Work item picked successfully. Work item: < subject of work item >**. Your presence status is updated and the capacity is automatically blocked.
+
+- **Closed work items**
+
+    In the **Closed work items** stream, the stream refreshes and shows you all the conversations that you've closed in the past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
 
 > [!div class="nextstepaction"]
