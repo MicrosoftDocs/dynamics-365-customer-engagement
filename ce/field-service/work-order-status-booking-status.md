@@ -51,13 +51,13 @@ Work Order System Statuses, Work Order Substatuses, and Booking Statuses all wor
 - Canceled
 
 
+### Use cases
+
+Lets explore work order and booking statuses with the following scenarios:
 
 
-
-### Scenarios:
-
-1. Estimate Work Order Sub-status
-2. Delayed Booking Status
+1. **Estimate work order**. A field service organization would like to utilize work orders for estimating potential products, services, and prices for their clients and want to mark such work orders with a custom "Estimate" work order substatus.
+2. **Delayed schedules**. Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule due to traffic or longer than expected work by changing the status of their booking to "Delayed"
 3. Follow up Work Order Sub-status
 
 ## Prerequisites
