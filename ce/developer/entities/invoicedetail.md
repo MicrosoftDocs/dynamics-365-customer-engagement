@@ -1204,7 +1204,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Skip Price Calculation|
+|Description|Skip Price Calculation. Used with bulk update and bulk insert operations.|
 |DisplayName|Skip Price Calculation|
 |IsValidForForm|False|
 |IsValidForRead|True|
