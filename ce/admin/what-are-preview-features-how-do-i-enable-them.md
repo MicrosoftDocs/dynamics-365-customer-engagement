@@ -39,27 +39,6 @@ Preview features are features that aren’t complete, but are made available on 
   
 ## What preview features were included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)]?  
 
- The following table lists the features that are still in preview, as well as  learning resources for each.  
-
-<table style="width:100%">
-<tr>
-<th>Preview feature</th>
-<th>Learning resource</th>
-</tr>
-<tr>
-<td width="30%"> Data Loader for bulk importing license terms </td>
-<td width="70%"> <a href="https:docs.microsoft.com/dynamics365/customer-engagement/admin/import-bulk-data-data-loader"> Preview feature: Import bulk data </a></td>
-</tr>
-<tr>
-<td width="30%">Get a quick overview of key Dynamics 365 for Customer Engagement apps (online) performance metrics </td>
-<td width="70%"> <a href="https://review.docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-organization-insights-dashboard-view-instance-metrics">Preview feature: View metrics about your instance with Organization Insights dashboard</a></td>
-</tr>
-<tr>
-<td width="30%"> Track your Dynamics 365 for Customer Engagement apps deals and activities using Cortana</td>
-<td width="70%"> We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 for Customer Engagement apps offerings. This includes natural language integration for customers and partners across multiple channels including Cortana. To that end, we are discontinuing the current Cortana integration preview feature that was made available for Dynamics 365 for Customer Engagement apps and we are focusing on building a new long term intelligent solution experience, which will include Cortana digital assistant integration. </td>
-</tr>
-</table>
-
 > [!NOTE]
 >  The Data Loader preview feature does not have to be enabled through the **Previews** tab.  
   
@@ -68,11 +47,13 @@ Preview features are features that aren’t complete, but are made available on 
   
 1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-2. Choose **System Settings**, and then click the **Previews** tab.  
+2. Select **System Settings**, and then select the **Previews** tab.  
   
 3. Read the [license terms](http://go.microsoft.com/fwlink/p/?LinkId=511446), and if you agree, select the **I’ve read and agree to the license terms** check box.  
   
-4. For each preview feature you want to enable, click **Yes**.  
+4. For each preview feature you want to enable, select **Yes**.  
   
+![System settings preview](media/system-settings-previews75.png "System settings preview")
+
 ## How do I report an issue or provide other feedback?  
  If you’d like to provide feedback, offer suggestions, or report issues for a preview feature, please go to [Microsoft Dynamics Ideas](https://experience.dynamics.com/ideas/). This website provides a collaboration platform for gathering actionable feedback to build and improve products and services.
