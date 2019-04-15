@@ -48,7 +48,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Launch Communication Panel      |
     > | General | Hosted Control | Communication Panel |
     > | General | Action         | default             |
@@ -59,7 +59,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Clear Entity List      |
     > | General | Order | 1 |
     > | General | Hosted Control | CRM Global Manager |
@@ -67,7 +67,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Fetch Live Work Streams      |
     > | General | Order | 2 | 
     > | General | Hosted Control | CRM Global Manager |
@@ -76,7 +76,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Fetch Service End Point     |
     > | General | Order | 2 | 
     > | General | Hosted Control | CRM Global Manager |
@@ -85,7 +85,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Save Configuration Data 
     > | General | Order | 3 |
     > | General | Hosted Control | Communication Panel |
@@ -93,7 +93,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Update Omni-channel Configuration |
     > | General | Hosted Control | CRM Global Manager |
     > | General | Action         | SaveSetting    | 
@@ -101,7 +101,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel AAD Authentication Failed     |
     > | General | Hosted Control | Communication Panel |
     > | General | Action         | OmnichannelAADAuthenticationFailure | 
@@ -109,7 +109,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Activate Session   |
     > | General | Hosted Control | Session Tabs |
     > | General | Action         | SwitchSession | 
@@ -118,7 +118,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Rehydrate Conversation   |
     > | General | Hosted Control | Communication Panel |
     > | General | Action         | OmnichannelSwitchSessionsTabs | 
@@ -127,7 +127,7 @@ This topic demonstrates how to create communication panel related action calls i
     
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Create Customer Session   |
     > | General | Order          | 10  |
     > | General | Hosted Control | CRM Global Manager |
@@ -136,7 +136,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Session Assignment Toast Notification   |
     > | General | Order | 10 |
     > | General | Hosted Control | Omni-channel Toast Notification |
@@ -146,7 +146,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Set IsCaseSession to False   |
     > | General | Order | 11 |
     > | General | Hosted Control | CRM Global Manager |
@@ -156,7 +156,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Session Accepted   |
     > | General | Order | 15 |
     > | General | Hosted Control | Communication Panel |
@@ -166,14 +166,14 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Close Toast Notification  |
     > | General | Hosted Control | Omni-channel Toast Notification |
     > | General | Action         | Close | 
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Expand Right Pane   |
     > | General | Hosted Control | Custom Panel |
     > | General | Action         | SetVisualProperty | 
@@ -181,7 +181,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Create Customer Session   |
     > | General | Order | 10 |
     > | General | Hosted Control | CRM Global Manager |
@@ -190,7 +190,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Session Error Toast Notification   |
     > | General | Order | 10 |
     > | General | Hosted Control | Omni-channel Toast Notification |
@@ -200,7 +200,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Set Entity Session Property in Context   |
     > | General | Order | 11 |
     > | General | Hosted Control | CRM Global Manager |
@@ -210,7 +210,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Collapse Left Panel   |
     > | General | Order | 12 |
     > | General | Hosted Control | Custom Panel |
@@ -220,7 +220,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Load Case session Agent Script  |
     > | General | Order | 20 |
     > | General | Hosted Control | Agent Script |
@@ -230,7 +230,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Load Case session Agent Script   |
     > | General | Order | 20 |
     > | General | Hosted Control | Agent Script |
@@ -240,7 +240,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Load Form for entity |
     > | General | Order | 30 |
     > | General | Hosted Control | Entity Page |
@@ -250,7 +250,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           |  Omni-channel Set Session Tab Id For Entity Session  |
     > | General | Order | 40 |
     > | General | Hosted Control | Communication Panel |
@@ -260,7 +260,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Focus on KB Search  |
     > | General | Hosted Control | CRM Global Manager |
     > | General | Action         | ShowTab | 
@@ -268,7 +268,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Display Message Action  |
     > | General | Hosted Control | CRM Global Manager |
     > | General | Action         | DisplayMessage | 
@@ -276,7 +276,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel End Conversation  |
     > | General | Hosted Control | Communication Panel |
     > | General | Action         | OmnichannelEndConversation | 
@@ -284,7 +284,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Presence Status Update  |
     > | General | Order | 240 |
     > | General | Hosted Control | Communication Panel |
@@ -293,7 +293,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Incoming Session Request  |
     > | General | Order | 17 |    
     > | General | Hosted Control | Communication Panel |
@@ -302,7 +302,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Chat Transfer Request Alert Notification  |
     > | General | Hosted Control | Omni-channel Alert Notification |
     > | General | Action         | Show | 
@@ -311,7 +311,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Consult Request Alert Notification  |
     > | General | Hosted Control | Omni-channel Alert Notification |
     > | General | Action         | Show | 
@@ -320,7 +320,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Simple Chat Request Alert Notification  |
     > | General | Hosted Control | Omni-channel Alert Notification |
     > | General | Action         | Show | 
@@ -329,7 +329,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Simple Chat Request From Supervisor Alert Notification  |
     > | General | Hosted Control | Omni-channel Alert Notification |
     > | General | Action         | Show | 
@@ -338,7 +338,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Load Supervisor Dashboard  |
     > | General | Hosted Control | Supervisor Dashboard |
     > | General | Action         | Navigate | 
@@ -346,7 +346,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Load Agent Home Page  |
     > | General | Order | 1 |
     > | General | Hosted Control | Omni-channel Agent Dashboard |
@@ -355,7 +355,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Communication Panel Loaded  |
     > | General | Order | 17 |
     > | General | Hosted Control | Communication Panel |
@@ -363,7 +363,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Load Supervisor Conversations |
     > | General | Order | 19 |
     > | General | Hosted Control | Supervisor Conversations |
@@ -372,7 +372,7 @@ This topic demonstrates how to create communication panel related action calls i
     
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Copy Contact Ids To Context |
     > | General | Order | 2 |
     > | General | Hosted Control | CRM Global Manager |
@@ -381,7 +381,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Fetch Context Contacts |
     > | General | Order | 3 |
     > | General | Hosted Control | CRM Global Manager |
@@ -391,7 +391,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Save Context Entities |
     > | General | Order | 4 |
     > | General | Hosted Control | Communication Panel |
@@ -400,7 +400,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Clear Context Entities |
     > | General | Order | 1 |
     > | General | Hosted Control | CRM Global Manager |
@@ -409,7 +409,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Copy Contact Ids To Context |
     > | General | Order | 2 |
     > | General | Hosted Control | CRM Global Manager |
@@ -418,7 +418,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Fetch Context Contacts |
     > | General | Order | 3 |
     > | General | Hosted Control | CRM Global Manager |
@@ -428,7 +428,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Save Context Entities on Update |
     > | General | Order | 4 |
     > | General | Hosted Control | Communication Panel |
@@ -437,7 +437,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Initialize Omni-channel Context - Window Variable - Customer Summary |
     > | General | Order | 5 |
     > | General | Hosted Control | Customer Summary |
@@ -446,7 +446,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Refresh Customer Summary Controls |
     > | General | Order | 6 |
     > | General | Hosted Control | Customer Summary |
@@ -455,7 +455,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Notify Communication Panel Error |
     > | General | Hosted Control | Communication Panel |
     > | General | Action         | OmnichannelNotifyConversationControlError | 
@@ -463,7 +463,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Proxy Response |
     > | General | Hosted Control | Communication Panel |
     > | General | Action         | OmnichannelProxyResponse | 
@@ -471,7 +471,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Session Transfer Initiated |
     > | General | Hosted Control | Communication Panel |
     > | General | Action         | OmnichannelSessionTransferInitiated | 
@@ -479,7 +479,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Focus on Omni-channel Agent Dashboard |
     > | General | Order | 2 |
     > | General | Hosted Control | CRM Global Manager |
@@ -488,7 +488,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Update Old Presence Status In Settings |
     > | General | Order | 10 |
     > | General | Hosted Control | CRM Global Manager |
@@ -497,7 +497,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Update Current Presence Status In Settings |
     > | General | Order | 20 |
     > | General | Hosted Control | CRM Global Manager |
@@ -506,7 +506,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Update All Presence Status In Settings |
     > | General | Hosted Control | CRM Global Manager |
     > | General | Action         | SetReplacementParameter | 
@@ -514,7 +514,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Case Entity Notification |
     > | General | Order | 10 |
     > | General | Hosted Control | Omni-channel Toast Notification |
@@ -524,7 +524,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Defaut Entity Notification |
     > | General | Order | 10 |
     > | General | Hosted Control | Omni-channel Toast Notification |
@@ -534,7 +534,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Unread Message Action |
     > | General | Order | 10 |
     > | General | Hosted Control | Communication Panel |
@@ -543,7 +543,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Upadte Presence |
     > | General | Hosted Control | Communication Panel |
     > | General | Action         | OmnichannelUpdatePresence | 
@@ -551,7 +551,7 @@ This topic demonstrates how to create communication panel related action calls i
 
     > [!div class="mx-tdBreakAll"]
     > | Tab | Field | Value |
-    > |---------------------------------|---------------------------------|---------------------------------|
+    > |-------------|---------------------------------|---------------------------------|
     > | General | Name           | Update Session Count In Dictionary |
     > | General | Hosted Control | CRM Global Manager |
     > | General | Action         | SetReplacementParameter | 
