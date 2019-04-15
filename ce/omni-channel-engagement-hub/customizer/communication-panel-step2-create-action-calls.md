@@ -47,7 +47,7 @@ This topic demonstrates how to create communication panel related action calls i
 5. In the new page, specify the following details.
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Launch Communication Panel      |
     > | General | Hosted Control | Communication Panel |
@@ -58,7 +58,7 @@ This topic demonstrates how to create communication panel related action calls i
 7. Repeat steps 3 through 6 to create the following additional action calls.
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Clear Entity List      |
     > | General | Order | 1 |
@@ -66,7 +66,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Action         | ClearEntityList    |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Fetch Live Work Streams      |
     > | General | Order | 2 | 
@@ -75,7 +75,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | name=LiveWorkStreamSearch <br>global=True |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Fetch Service End Point     |
     > | General | Order | 2 | 
@@ -84,7 +84,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | name=ServiceEndPointSearch <br>global=True |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Save Configuration Data 
     > | General | Order | 3 |
@@ -92,7 +92,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Action         | OmnichannelSaveConfigurationData    |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Update Omni-channel Configuration |
     > | General | Hosted Control | CRM Global Manager |
@@ -100,7 +100,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | name=OmniChannelConfig<br>value=\[\[OCConfig\]+\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel AAD Authentication Failed     |
     > | General | Hosted Control | Communication Panel |
@@ -108,7 +108,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | PostData=\[\[PostData\]+\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Activate Session   |
     > | General | Hosted Control | Session Tabs |
@@ -117,7 +117,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | '\[\[CanActivateSession\]+\]' == 'True' |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Rehydrate Conversation   |
     > | General | Hosted Control | Communication Panel |
@@ -126,7 +126,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | '\[\[CanActivateSession\]+\]' == 'True' |
     
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Create Customer Session   |
     > | General | Order          | 10  |
@@ -135,7 +135,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\]  && '\[\[CanActivateSession\]+\]' != 'True' |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Session Assignment Toast Notification   |
     > | General | Order | 10 |
@@ -145,7 +145,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] >= \[\[$Global.maxNumberOfSessions\]+\] && '\[\[CanActivateSession\]+\]' != 'True' |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Set IsCaseSession to False   |
     > | General | Order | 11 |
@@ -155,7 +155,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Session Accepted   |
     > | General | Order | 15 |
@@ -165,14 +165,14 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] ||  '\[\[CanActivateSession\]+\]' == 'True' |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Close Toast Notification  |
     > | General | Hosted Control | Omni-channel Toast Notification |
     > | General | Action         | Close | 
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Expand Right Pane   |
     > | General | Hosted Control | Custom Panel |
@@ -180,7 +180,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | elementName=RightPanelExpander <br> propertyname=IsExpanded <br> value=true |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Create Customer Session   |
     > | General | Order | 10 |
@@ -189,7 +189,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\]  && '\[\[CanActivateSession\]+\]' != 'True' |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Session Error Toast Notification   |
     > | General | Order | 10 |
@@ -199,7 +199,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] >= \[\[$Global.maxNumberOfSessions\]+\] && '\[\[CanActivateSession\]+\]' != 'True' |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Set Entity Session Property in Context   |
     > | General | Order | 11 |
@@ -209,7 +209,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Collapse Left Panel   |
     > | General | Order | 12 |
@@ -219,7 +219,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Load Case session Agent Script  |
     > | General | Order | 20 |
@@ -229,7 +229,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] | 
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Load Case session Agent Script   |
     > | General | Order | 20 |
@@ -239,7 +239,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Load Form for entity |
     > | General | Order | 30 |
@@ -249,7 +249,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           |  Omni-channel Set Session Tab Id For Entity Session  |
     > | General | Order | 40 |
@@ -259,7 +259,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Focus on KB Search  |
     > | General | Hosted Control | CRM Global Manager |
@@ -267,7 +267,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | KB Search |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Display Message Action  |
     > | General | Hosted Control | CRM Global Manager |
@@ -275,7 +275,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | text=An error occurred in the communication panel. Restart Unified Service Desk and try again. (Error Code - \[\[TEXT\]+\]) <br> caption=Error |   
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel End Conversation  |
     > | General | Hosted Control | Communication Panel |
@@ -283,7 +283,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | ChatPayLoad=\[\[PostData\]\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Presence Status Update  |
     > | General | Order | 240 |
@@ -292,7 +292,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] <= \[\[$Global.maxNumberOfSessions\]+\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Incoming Session Request  |
     > | General | Order | 17 |    
@@ -301,7 +301,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | ChatPayLoad=\[\[PostData\]\] |         
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Chat Transfer Request Alert Notification  |
     > | General | Hosted Control | Omni-channel Alert Notification |
@@ -310,7 +310,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[RequestType\]\] == "3" && "\[\[ParticipantInitiatorType\]+\]" != "AutoAssign" |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Consult Request Alert Notification  |
     > | General | Hosted Control | Omni-channel Alert Notification |
@@ -319,7 +319,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[RequestType\]\] == "2" |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Simple Chat Request Alert Notification  |
     > | General | Hosted Control | Omni-channel Alert Notification |
@@ -328,7 +328,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | (\[\[RequestType\]\] == "1" && "\[\[ParticipantInitiatorType\]+\]" != "Supervisor") || (\[\[RequestType\]\] == "3" && "\[\[ParticipantInitiatorType\]+\]" == "AutoAssign") |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Simple Chat Request From Supervisor Alert Notification  |
     > | General | Hosted Control | Omni-channel Alert Notification |
@@ -337,7 +337,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | \[\[RequestType\]\] == "1" && "\[\[ParticipantInitiatorType\]\]" == "Supervisor" |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Load Supervisor Dashboard  |
     > | General | Hosted Control | Supervisor Dashboard |
@@ -345,7 +345,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | url=https://app.powerbi.com/groups/615cd3a0-1220-4a6e-b611-45b88532bfdf/dashboards/1dfe8823-0e81-4f23-a81d-8bb1069ea059?chromeless=1&nosignupcheck=1 |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Load Agent Home Page  |
     > | General | Order | 1 |
@@ -354,7 +354,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | url=/main.aspx?pagetype=dashboard&id=e8fb53c5-2f79-e811-8162-000d3aa3ef73&_canOverride=false <br> HideNavigationBar=True |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Communication Panel Loaded  |
     > | General | Order | 17 |
@@ -362,7 +362,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Action         | OmnichannelConversationControlReady |     
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Load Supervisor Conversations |
     > | General | Order | 19 |
@@ -371,7 +371,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | "url=/main.aspx?pagetype=dashboard&id=7a33c42b-02f9-e811-8161-000d3afe51f1&type=system <br> hideNavigationBar=true" |       
     
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Copy Contact Ids To Context |
     > | General | Order | 2 |
@@ -380,7 +380,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | contactIds = \[\[contact\]+\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Fetch Context Contacts |
     > | General | Order | 3 |
@@ -390,7 +390,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition |  $Expression('\[\[$Context.contactIds\]+\]' == '' ? "false" : "true") |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Save Context Entities |
     > | General | Order | 4 |
@@ -399,7 +399,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | LiveWorkItemId = \[\[LiveWorkItemId\]+\] <br> SessionId = \[\[SessionId\]+\] <br> RequestType = \[\[RequestType\]+\] <br> LiveWorkStreamId = \[\[LiveWorkStreamId\]+\] <br> ChatId=\[\[ChatId\]+\] |    
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Clear Context Entities |
     > | General | Order | 1 |
@@ -408,7 +408,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | global=True |    
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Copy Contact Ids To Context |
     > | General | Order | 2 |
@@ -417,7 +417,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | contactIds = \[\[contact\]+\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Fetch Context Contacts |
     > | General | Order | 3 |
@@ -427,7 +427,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | $Expression('\[\[$Context.contactIds\]+\]' == '' ? "false" : "true") |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Save Context Entities on Update |
     > | General | Order | 4 |
@@ -436,7 +436,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | LiveWorkItemId=\[\[LiveWorkItemId\]+\] | 
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Initialize Omni-channel Context - Window Variable - Customer Summary |
     > | General | Order | 5 |
@@ -445,7 +445,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]'); <br> var session = {"LiveWorkItemId" : "\[\[$Context.LiveWorkItemId\]+\]", "OCSessionId" : "\[\[$Context.OCSessionId\]+\]", "LiveWorkStreamId" : "\[\[$Context.LiveWorkStreamId\]+\]", "LiveWorkItemContext" : '\[\[$Context.LiveWorkItemContext\]\]', "SessionInfo": '\[\[$Context.SessionInfo\]+\]'}; <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> } <br> initOCContext(); |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Refresh Customer Summary Controls |
     > | General | Order | 6 |
@@ -454,7 +454,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | function refreshControls() { <br> MscrmControls.FormInitiator.FormInitiatorControl.updateLinkedRecords(); <br> } <br> refreshControls(); |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Notify Communication Panel Error |
     > | General | Hosted Control | Communication Panel |
@@ -462,7 +462,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | PostData=\[\[PostData\]+\] |  
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Proxy Response |
     > | General | Hosted Control | Communication Panel |
@@ -470,7 +470,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | ChatPayLoad=\[\[PostData\]\] |  
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Session Transfer Initiated |
     > | General | Hosted Control | Communication Panel |
@@ -478,7 +478,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | ChatPayLoad=\[\[PostData\]\] |      
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Focus on Omni-channel Agent Dashboard |
     > | General | Order | 2 |
@@ -487,7 +487,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | Omni-channel Agent Dashboard |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Update Old Presence Status In Settings |
     > | General | Order | 10 |
@@ -496,7 +496,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | appname=$GlobalDictionary <br> param=OCOLDPRESENCESTATE <br> value=\[\[$GlobalDictionary.OCCURRENTPRESENCESTATE\]\] <br> global=true |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Update Current Presence Status In Settings |
     > | General | Order | 20 |
@@ -505,7 +505,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | appname=$GlobalDictionary <br> param=OCCURRENTPRESENCESTATE  <br> value=\[\[CURRENT_PRESENCE_STATE\]+\]  <br> global=true |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Update All Presence Status In Settings |
     > | General | Hosted Control | CRM Global Manager |
@@ -513,7 +513,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | appname=$GlobalDictionary <br> param=OCALLPRESENCESTATE  <br> value=\[\[CURRENT_PRESENCE_STATE\]+\]  <br> global=true |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Case Entity Notification |
     > | General | Order | 10 |
@@ -523,7 +523,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | '\[\[EntityLogicalName\]+\]' == 'incident' |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Show Defaut Entity Notification |
     > | General | Order | 10 |
@@ -533,7 +533,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | Advanced | Condition | '\[\[EntityLogicalName\]+\]' != 'incident' |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Unread Message Action |
     > | General | Order | 10 |
@@ -542,7 +542,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | ChatPayLoad=\[\[PostData\]\] |
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Omni-channel Upadte Presence |
     > | General | Hosted Control | Communication Panel |
@@ -550,7 +550,7 @@ This topic demonstrates how to create communication panel related action calls i
     > | General | Data | ChatPayLoad=\[\[PostData\]+\] |  
 
     > [!div class="mx-tdBreakAll"]
-    > | Tab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Field | Value |
+    > | Tab | Field | Value |
     > |---------------------------------|---------------------------------|---------------------------------|
     > | General | Name           | Update Session Count In Dictionary |
     > | General | Hosted Control | CRM Global Manager |
