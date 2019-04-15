@@ -2,7 +2,7 @@
 title: "Enable or disable Microsoft Teams Integration using code (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Know how to programmatically enable or disable Microsoft Teams Integration for system and custom entities."
 ms.custom: 
-ms.date: 04/09/2019
+ms.date: 04/15/2019
 ms.service: crm-online
 ms.topic: conceptual
 applies_to: 
@@ -28,7 +28,7 @@ Enable Microsoft Teams Integration (preview feature) in Dynamics 365 for Custome
 > [!NOTE]
 > The Microsoft Teams Integration preview feature is currently only available for organizations in the North American region.
 
-When your admin [enables](/dynamics365/customer-engagement/basics/teams-install-app#bkmk_enable) the Microsoft Teams integration feature for your instance in system settings, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action.
+When your admin [enables](/dynamics365/customer-engagement/basics/teams-install-app#bkmk_enable) the Microsoft Teams integration feature for your instance in system settings, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional system entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action.
 
 ## msdyn_SetTeamsDocumentStatus action parameters
 
