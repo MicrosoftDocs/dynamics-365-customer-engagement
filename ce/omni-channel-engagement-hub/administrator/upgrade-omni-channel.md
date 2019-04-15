@@ -15,7 +15,7 @@ ms.custom:
 
 # Upgrade Omni-channel Engagement Hub
 
-Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the March 2019 release of Omni-channel Engagement Hub from **Dynamics 365 Admin Center**.
+Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the April 2019 release of Omni-channel Engagement Hub from **Dynamics 365 Admin Center**.
 
 See [What's new in Omni-channel Engagement Hub](https://go.microsoft.com/fwlink/?linkid=2083527) to know about the new features in the March 2019 release.
 

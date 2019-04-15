@@ -49,6 +49,7 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
       2. **Channel**: Channel is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat. </br> </br> Select a channel from the drop-down list. </br>
             - **Live Chat** </br>
             - **Entity** </br>
+            - **SMS** </br>
 
            > [!IMPORTANT]
            > If you select **Entity**, see the [Set up an entity work stream](#set-up-an-entity-work-stream) section later in this topic to configure an entity work stream.
@@ -95,6 +96,7 @@ To learn more about how to set up channels and associate work streams, see the f
 
 - [Configure a chat channel](set-up-chat-widget.md)
 - [Configure an entity channel](create-entity-channel.md)
+- Configure an SMS channel
 
 ## Set up an entity work stream
 

@@ -99,6 +99,7 @@ To effectively route and distribute work to agents, admins can set up the follow
 - [Understand and create work streams](work-streams-introduction.md)
 - [Configure a chat channel](set-up-chat-widget.md)
 - [Configure an entity channel](create-entity-channel.md)
+- Configure an SMS channel
 - [Work with queues](queues-omni-channel.md)
 - [Set up record identification rule](record-identification-rule.md)
 - [Create and manage routing rules](routing-rules.md)
