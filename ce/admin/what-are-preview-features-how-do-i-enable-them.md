@@ -48,16 +48,16 @@ Preview features are features that aren’t complete, but are made available on 
 <th>Learning resource</th>
 </tr>
 <tr>
-<td>Data Loader for bulk importing license terms </td>
-<td> Preview feature: Import bulk data </td>
+<td width="50%">Data Loader for bulk importing license terms </td>
+<td width="50%"> Preview feature: Import bulk data </td>
 </tr>
 <tr>
-<td>Get a quick overview of key Dynamics 365 for Customer Engagement apps (online) performance metrics </td>
-<td> Preview feature: View metrics about your instance with Organization Insights dashboard</td>
+<td width="50%">Get a quick overview of key Dynamics 365 for Customer Engagement apps (online) performance metrics </td>
+<td width="50%"> Preview feature: View metrics about your instance with Organization Insights dashboard</td>
 </tr>
 <tr>
-<td> Track your Dynamics 365 for Customer Engagement apps deals and activities using Cortana</td>
-<td> We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 for Customer Engagement apps offerings. This includes natural language integration for customers and partners across multiple channels including Cortana. To that end, we are discontinuing the current Cortana integration preview feature that was made available for Dynamics 365 for Customer Engagement apps and we are focusing on building a new long term intelligent solution experience, which will include Cortana digital assistant integration. </td>
+<td width="50%"> Track your Dynamics 365 for Customer Engagement apps deals and activities using Cortana</td>
+<td width="50%"> We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 for Customer Engagement apps offerings. This includes natural language integration for customers and partners across multiple channels including Cortana. To that end, we are discontinuing the current Cortana integration preview feature that was made available for Dynamics 365 for Customer Engagement apps and we are focusing on building a new long term intelligent solution experience, which will include Cortana digital assistant integration. </td>
 </tr>
 </table>
 
