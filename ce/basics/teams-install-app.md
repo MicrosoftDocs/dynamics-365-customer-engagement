@@ -144,6 +144,7 @@ Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 for C
 
 See [Use the personal dashboard](teams-personal-use.md) for information on how you can use **My Dashboard**.
 
+<a id="bkmk_enable"></a>
 ## For Dynamics 365 for Customer Engagement admins: enable Microsoft Teams integration Preview features
 
 Because this is a preview feature, you can control whether to display Teams integration in Dynamics 365 for Customer Engagement apps. For [Teams integration in Customer Engagement apps](teams-collaboration.md#teams-integration-in-dynamics-365-for-customer-engagement-apps), the Customer Engagement apps admin should enable the following setting.
