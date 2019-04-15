@@ -74,5 +74,5 @@ This topic describes how to create a communication panel hosted control in Unifi
 
 
 - [Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md)
-- [Step 3: Attach communication panel related action calls to events](communication-panel-step3-attach-action-calls-events.md)
+- [Step 3: Attach communication panel-related action calls to events](communication-panel-step3-attach-action-calls-events.md)
 - [Step 4: Add hosted control, action calls, and events to configurations](communication-panel-step4-add-hosted-control-action-calls-events-configurations.md)
