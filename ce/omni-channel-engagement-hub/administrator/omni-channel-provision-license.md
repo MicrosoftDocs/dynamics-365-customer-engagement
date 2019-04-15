@@ -122,16 +122,20 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
           > [!div class=mx-imgBorder]
           > ![enable chat](../media/enable-chat.png)
 
+     5. Select the check box to enable the **SMS** channel on your org.
+
+          > [!div class=mx-imgBorder]
+          > ![enable SMS](../media/enable-sms.png)
+
           > [!NOTE]
-          > In this release, **Chat** check box is selected by default as this preview supports the set up of only the **Chat** channel. You cannot un-select the check box.</br> </br> SMS with Omni-channel Engagement Hub is currently in limited private preview. It is available to limited participants by invite only.
+          > You must select at least one channel to proceed with the setup.
    
-          Once the set up is completed successfully, you can see the **Chat** channel enabled on the **Summary** page.
+           Once the set up is completed successfully, you can see the **Chat** and **SMS** channel enabled on the **Summary** page.
 
-           > [!div class=mx-imgBorder]
-           > ![summary of set up](../media/summary-fre.png)
-
+          > [!div class=mx-imgBorder]
+          > ![summary of set up](../media/summary-fre.png)
          
-On successful set up, you can view the org and the enabled channel in the **Manage Instances** view.
+On successful set up, you can view the org and the enabled channels in the **Manage Instances** view.
 
 > [!div class=mx-imgBorder]
 > ![Set up complete](../media/install-complete.png)
