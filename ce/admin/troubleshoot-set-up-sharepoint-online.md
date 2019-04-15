@@ -74,6 +74,10 @@ The most common cause for the Documents associated grid not loading is the corru
 9. Extract the zip file (downloaded file from Step 7).
 10. Browse the folder, locate and open customization.xml.
 11. Search LayoutXml of Document associated grid (search for *Document Associated*).
+    
+    > [!div class="mx-imgBorder"] 
+    > ![](media/sharepoint-document-associated-grid.png "Search for Document Associated")
+
 12. Make the changes as below:
 
     ```  
