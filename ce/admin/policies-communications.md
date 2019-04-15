@@ -213,7 +213,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
  You can also see the status of major service incidents in your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page. To learn how to get to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service health page, see [View the status of your services](https://support.office.com/article/View-the-status-of-your-services-932ad3ad-533c-418a-b938-6e44e8bc33b0).  
   
   
-If the service incident breaches your [Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=196557), you can claim a billing credit according to the conditions of your [Service Agreement](http://go.microsoft.com/fwlink/p/?LinkID=101174). If you need help with this, see [Billing FAQs for Dynamics 365 for Customer Engagement apps (online)](billing-faqs-dynamics-365-online.md).
+If the service incident breaches your [Service Level Agreement](https://aka.ms/csla), you can claim a billing credit according to the conditions of your [Service Agreement](http://go.microsoft.com/fwlink/p/?LinkID=101174). If you need help with this, see [Billing FAQs for Dynamics 365 for Customer Engagement apps (online)](billing-faqs-dynamics-365-online.md).
   
 Major service incident emails can easily be identified by the red banner.
   
