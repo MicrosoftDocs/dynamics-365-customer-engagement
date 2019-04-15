@@ -49,7 +49,7 @@ The **msdyn_SetTeamsDocumentStatus** action expects the following input paramete
 <tr>
 <td><code>LogicalEntityNames</code></td>
 <td>Edm.String</td>
-<td>An array with the list of logical names of all the entities for which you want to enable or disable the Teams Integration.</td>
+<td>An array with the list of logical names of all the entities for which you want to enable or disable the Teams Integration. Required.</td>
 </tr>
 
 </table>
