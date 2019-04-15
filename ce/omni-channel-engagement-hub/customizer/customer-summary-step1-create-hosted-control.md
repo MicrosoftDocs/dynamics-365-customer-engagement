@@ -36,7 +36,7 @@ This topic demonstrates how to create a customer summary hosted control in Unifi
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Select the down arrow next to Dynamics 365.
+2. Select the Down arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
