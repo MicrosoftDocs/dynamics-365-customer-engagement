@@ -57,9 +57,7 @@ topic-status: Drafting
 
 
 </td><td>
-
 <h2>Analyze customer-interaction data</h2>
-
 <li><a href="../sales-enterprise/relationship-assistant.md" data-raw-source="[Use relationship assistant to guide customer communications](../sales-enterprise/relationship-assistant.md)">Use relationship assistant to guide customer communications</a></li>
 <li><a href="../sales-enterprise/email-engagement.md" data-raw-source="[View message interactions with email engagement](../sales-enterprise/email-engagement.md)">View message interactions with email engagement</a></li>
 <li><a href="../sales-enterprise/auto-capture.md" data-raw-source="[Display related emails with auto capture](../sales-enterprise/auto-capture.md)">Display related emails with auto capture</a></li>
@@ -67,46 +65,54 @@ topic-status: Drafting
 
 <tr><td>
 <h2>Microsoft Learn resources</h2>
-
 <li><a href="https://docs.microsoft.com/en-us/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 for Sales](https://docs.microsoft.com/en-us/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 for Sales</a></li>
 
 
 </td><td>
-<h2>AI for Sales</h2>
 
-<li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 AI for Sales</a></li>
+<h2>Troubleshooting</h2>
+<li><a href="troubleshooting-admin.md"> Troubleshooting guide for administrators</a></li>
+<li><a href="troubleshooting.md"> Troubleshooting guide for sales people</a></li>
+<li><a href="faqs-sales.md"> FAQs</a></li>
+
+
 
 </td></tr>
 
 <tr><td>
+
+<h2>In-app marketing</h2>
+<li><a href="create-marketing-list-using-app-marketing-sales.md" data-raw-source="[Create a marketing list](create-marketing-list-using-app-marketing-sales.md)">Create a marketing list</a></li>
+<li><a href="create-quick-campaign-using-app-marketing-sales.md" data-raw-source="[Create a quick campaign](create-quick-campaign-using-app-marketing-sales.md)">Create a quick campaign</a></li>
+<li><a href="add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md" data-raw-source="[Add assets to a campaign](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)">Add assets to a campaign</a></li>
+<li><a href="create-edit-campaign-using-app-marketing-sales.md" data-raw-source="[Create or edit a campaign](create-edit-campaign-using-app-marketing-sales.md)">Create or edit a campaign</a></li>
+<li><a href="add-activity-campaign-using-app-marketing-sales.md" data-raw-source="[Add an activity to a campaign](add-activity-campaign-using-app-marketing-sales.md)">Add an activity to a campaign</a></li>
+<li><a href="track-marketing-campaign-response-using-app-marketing-sales.md" data-raw-source="[Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sales.md)">Track a marketing campaign response</a></li>
+
+
+
+</td> <td>
+
 <h2>Develop</h2>
 <li><a href="../sales-enterprise/extend-relationship-assistant-card.md" data-raw-source="[Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)">Create custom cards in Relationship assistant</a></li>
 <li><a href="../sales-enterprise/sample-extend-relationship-assistant-card-type.md" data-raw-source="[Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)">Sample: Extend Relationship assistant card type (custom card)</a></li>
 <li><a href="../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md" data-raw-source="[Entity reference for manual forecasting](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)">Entity reference for manual forecasting</a></li>
 <li><a href="../sales-enterprise/developer/reference/playbook-entity-reference.md" data-raw-source="[Entity reference for playbooks](../sales-enterprise/developer/reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
 
-</td> <td>
+</td></tr>
+
+<tr><td>
+
 <h2>GDPR</h2>
 <li><a href="../sales-enterprise/dynamics-365-sales-gdpr.md" data-raw-source="[Dynamics 365 for Sales &amp; GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)">Dynamics 365 for Sales &amp; GDPR</a></li>
 
 
-</td></tr>
-
-<tr><td>
-<h2>Troubleshooting</h2>
-<li><a href="troubleshooting-admin.md"> Troubleshooting guide for administrators</a></li>
-<li><a href="troubleshooting.md"> Troubleshooting guide for sales people</a></li>
-
-
-
 </td>
-<td><h2>In-app marketing</h2>
-<li><a href="create-marketing-list-using-app-marketing-sales.md" data-raw-source="[Create a marketing list](create-marketing-list-using-app-marketing-sales.md)">Create a marketing list</a></li>
-<li><a href="create-quick-campaign-using-app-marketing-sales.md" data-raw-source="[Create a quick campaign](create-quick-campaign-using-app-marketing-sales.md)">Create a quick campaign</a></li>
-<li><a href="add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md" data-raw-source="[Add assets to a campaign](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)">Add assets to a campaign</a></li>
-<li><a href="create-edit-campaign-using-app-marketing-sales.md" data-raw-source="[Create or edit a campaign](create-edit-campaign-using-app-marketing-sales.md)">Create or edit a campaign</a></li>
-<li><a href="add-activity-campaign-using-app-marketing-sales.md" data-raw-source="[Add an activity to a campaign](add-activity-campaign-using-app-marketing-sales.md)">Add an activity to a campaign</a></li>
-<li><a href="track-marketing-campaign-response-using-app-marketing-sales.md" data-raw-source="[Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sales.md)">Track a marketing campaign response</a></li></td>
+<td>
+<h2>AI for Sales</h2>
+
+<li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 AI for Sales</a></li>
+</td>
 </tr>
 
 </table>
