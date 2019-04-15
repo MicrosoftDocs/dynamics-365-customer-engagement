@@ -44,7 +44,7 @@ This topic describes how to create a communication panel hosted control in Unifi
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Select the down arrow next to Dynamics 365.
+2. Select the Down arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
@@ -70,7 +70,7 @@ This topic describes how to create a communication panel hosted control in Unifi
 ## See also
 
 
-<!--The first link below is to this topic. Delete?-->
+<!--The first link below is to this topic. Please delete.-->
 
 
 - [Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md)
