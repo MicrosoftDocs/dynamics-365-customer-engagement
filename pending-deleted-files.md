@@ -18,6 +18,13 @@ ce/developer/xrm-tooling/configure-tracing-xrm-tooling.md
 ce/developer/xrm-tooling/sample-quick-start-xrm-tooling-api.md
 ce/developer/xrm-tooling/sample-simplified-connection-quick-start.md
 ce\customer-insights\preview-retire.md
+ce\sales-enterprise\developer-guide.md
+ce\admin\public-preview-microsoft-cognitive-services-integration.md
+ce\admin\public-preview-automatically-suggest-knowledge-articles.md
+ce\admin\enable-document-suggestions.md
+ce\sales-enterprise\recalculateprice-action.md
+ce\guidance\toc.yml
+ce\guidance\index.md
 ce\developer\webapi\get-started-dynamics-365-web-api-csharp.md
 ce\developer\webapi\simple-web-api-quick-start-sample-csharp.md
 ce\developer\webapi\start-web-api-project-visual-studio-csharp.md
