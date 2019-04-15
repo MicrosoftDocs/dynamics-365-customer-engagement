@@ -41,7 +41,14 @@ Work Order System Statuses, Work Order Substatuses, and Booking Statuses all wor
 
 **Work Order Substatuses** are noted on the Work Order entity, relate to and provide more detail to Work Order System Statuses, and are created custom for each organization.
 
-**Booking Statuses** are noted on the Bookable Resource Booking entity, 
+**Booking Statuses** are noted on the Bookable Resource Booking entity, help field technicians track their progress for a specific work order requirement, are visualized on the schedule board with a distinct color and icon, and a few booking statuses are part of the product by default and more custom ones can be added, but out of the box include:
+
+- Scheduled
+- Traveling
+- In Progress
+- On Break
+- Completed
+- Canceled
 
 ### Relationship between Work Order System Status and Booking Status
 
