@@ -11,7 +11,7 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: E197DEB3-7461-48D4-80D4-C0BFC8AC80A1
-author: SushantSikka
+author: susikka
 ms.author: susikka
 manager: sakudes
 search.audienceType: 
