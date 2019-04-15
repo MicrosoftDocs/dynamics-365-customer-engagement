@@ -1,7 +1,8 @@
-# [Dynamics 365 for Sales](help-hub.md)
+# [Dynamics 365 for Sales Help and Training](help-hub.md)
 ## [Overview](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
-## [Administrator & Sales Manager Guide](../sales-enterprise/admin-guide.md)
+## Administrator & Sales Manager Guide
+### [Resources for administrators and sales managers](../sales-enterprise/admin-guide.md)
 ### Sales management
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
@@ -9,7 +10,7 @@
 ### Product management
 #### [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
 #### [Create a product](../sales-enterprise/create-product-sales.md)
-#### [Create a product family](../sales-enterprise/create-product-family.md)  
+#### [Create a product family](../sales-enterprise/create-product-family.md) 
 #### [Create product bundles](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
 #### [Publish a product or bundle](../sales-enterprise/publish-product-bundle-make-available-selling.md)
 #### [Create price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)
@@ -35,10 +36,13 @@
 #### [Manage playbook templates](manage-playbook-templates.md) 
 #### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
 
-### [Dynamics 365 for Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
-### [Upgrade from Dynamics 365 for Sales Professional](upgrade-sales-professional-sales-enterprise.md)
-### [Move from Dynamics 365 for Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
-## [User Guide](../sales-enterprise/user-guide.md)
+### General Data Protection Regulation (GDPR)
+#### [Dynamics 365 for Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
+### Upgrade or downgrade
+#### [Upgrade from Dynamics 365 for Sales Professional](upgrade-sales-professional-sales-enterprise.md)
+#### [Move from Dynamics 365 for Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
+## User Guide
+### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
 ### Lead and opportunity management
 #### [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)
@@ -66,27 +70,20 @@
 #### [Launch a playbook to carry out activities consistently](launch-playbook.md)  
 #### [Mark playbook as completed](mark-playbook-completed.md)  
 #### [Track playbook activities](track-playbook-activities.md)
+### Get started with in-app marketing
+#### [Overview](../sales-enterprise/get-started-app-marketing-sales.md)
+#### [Create a marketing list](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  
+#### [Create a quick campaign](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)
+#### [Add assets to a campaign](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)
+#### [Create or edit a campaign](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)
+#### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
+#### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
+### [Mobile guide for Sales Hub](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 
- 
-## [Embedded intelligence](../sales-enterprise/embedded-intelligence.md)
-### [Administrator guide](../sales-enterprise/configure-enable-embedded-intelligence.md)
-
-### User guide
-#### [Guide customer communications with relationship assistant](../sales-enterprise/relationship-assistant.md)
-#### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
-#### [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
-#### [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
-
-#### [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md)
-##### [Preview: Create insight cards](../sales-enterprise/create-insight-cards-flow.md)
-##### [Preview: Edit insight cards](../sales-enterprise/edit-insight-cards.md)
-##### [Preview: Optimize ranking of insight cards](../sales-enterprise/optimize-ranking-insight-cards.md)
-### [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
-#### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
-
-### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
-
-## [Mobile guide for Sales Hub](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
+## Troubleshooting and FAQs
+### [Troubleshooting guide for sales people](troubleshooting.md)
+### [Troubleshooting guide for administrators](troubleshooting-admin.md)
+### [FAQs](faqs-sales.md)
 
 ## [Developer Guide](../sales-enterprise/developer/developer-guide.md)
 ### Manual forecasting
@@ -106,18 +103,23 @@
 ### Action Reference
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
-## Troubleshooting
-### [Troubleshooting guide for sales people](troubleshooting.md)
-### [Troubleshooting guide for administrators](troubleshooting-admin.md)
+## Embedded intelligence Help
+### [Overview](../sales-enterprise/embedded-intelligence.md)
+### Administrator guide
+#### [Configure embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)
+### User guide
+#### [Guide customer communications with relationship assistant](../sales-enterprise/relationship-assistant.md)
+#### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
+#### [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
+#### [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
 
-## [FAQs](faqs-sales.md)
+#### [Preview: Manage insight cards](../sales-enterprise/manage-custom-cards-flow.md)
+##### [Preview: Create insight cards](../sales-enterprise/create-insight-cards-flow.md)
+##### [Preview: Edit insight cards](../sales-enterprise/edit-insight-cards.md)
+##### [Preview: Optimize ranking of insight cards](../sales-enterprise/optimize-ranking-insight-cards.md)
+### [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
+#### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
 
-## [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)
-### [Create a marketing list](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  
-### [Create a quick campaign](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)
-### [Add assets to a campaign](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)
-### [Create or edit a campaign](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)
-### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
-### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
+### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
 
 # [Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)
