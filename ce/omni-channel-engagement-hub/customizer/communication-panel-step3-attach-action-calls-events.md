@@ -44,7 +44,7 @@ This topic describes how to attach communication panel-related action calls to t
 
 4. Select **Events** and then select the event to which you want to add the action call. Select **DesktopReady**.
 
-5. Select **Add an Existing Action Call**. The **Lookup Records** pane appears.
+5. Select **Add Existing Action Call**. The **Lookup Records** pane appears.
 
     ![Select Add an Existing Action Call from the event page](../media/oc-usd-cp-desktopready-add.png "Add an existing action call") 
 
