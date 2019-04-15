@@ -36,6 +36,25 @@ This document lists the resources that you can use to get started with using the
 - [Perform operations using the Web API](/powerapps/developer/common-data-service/webapi/perform-operations-web-api)<br />
 - [Work with metadata](/powerapps/developer/common-data-service/webapi/use-web-api-metadata)<br />
 
+The Web API can be used with several different programming languages and libraries. The code samples in the Web API documentation provide a template that you can use to understand how to use the Web API and build upon them as per your requirements.
+
+See the following data operations templates that demonstrate how to use the Web API in a number of different ways.
+
+- [Web API data operations samples](/powerapps/developer/common-data-service/webapi/web-api-samples)<br />
+- [Basic operations](/powerapps/developer/common-data-service/webapi/web-api-basic-operations-sample)<br />
+- [Query data](/powerapps/developer/common-data-service/webapi/web-api-query-data-sample)<br />
+- [Conditional Operations](/powerapps/developer/common-data-service/webapi/web-api-conditional-operations-sample)<br />
+- [Functions and Actions](/powerapps/developer/common-data-service/webapi/web-api-functions-actions-sample)<br />
+
+The following table lists the topics that cover language specific implementations.
+
+| C# samples | Client-side JavaScript samples |
+|------|------|
+|[Basic operations](/powerapps/developer/common-data-service/webapi/samples/basic-operations-csharp)|[Basic operations](/powerapps/developer/common-data-service/webapi/samples/basic-operations-client-side-javascript)|
+|[Query data](/powerapps/developer/common-data-service/webapi/samples/query-data-csharp)|[Query data](/powerapps/developer/common-data-service/webapi/samples/query-data-client-side-javascript)|
+|[Conditional operations](/powerapps/developer/common-data-service/webapi/samples/conditional-operations-csharp)|[Conditional operations](/powerapps/developer/common-data-service/webapi/samples/conditional-operations-client-side-javascript)|
+|[Functions and Actions](/powerapps/developer/common-data-service/webapi/samples/functions-actions-csharp)|[Functions and Actions](/powerapps/developer/common-data-service/webapi/samples/functions-actions-client-side-javascript)|
+
 ## See also
 
 [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)
