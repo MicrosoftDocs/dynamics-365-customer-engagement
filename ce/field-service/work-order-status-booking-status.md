@@ -43,8 +43,9 @@ search.app:
 
 - understand that work orders and booking have difference statuses
 - Work Order statuses should never be edited and instead work order sub statuses should be
+
 > [!Note]
->
+> Work Order System Statuses should NEVER be edited because system jobs and plug-ins rely on these statuses. Instead, administrators should create custom Work Order Substatuses that relate to Work Order System Statuses.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
