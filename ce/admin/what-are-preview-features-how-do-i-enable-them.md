@@ -48,16 +48,16 @@ Preview features are features that aren’t complete, but are made available on 
 <th>Learning resource</th>
 </tr>
 <tr>
-<td>Data Loader for bulk importing </td>
-<td> [Preview feature: Import bulk data](import-bulk-data-data-loader.md) </td>
+<td>Data Loader for bulk importing license terms </td>
+<td> Preview feature: Import bulk data </td>
 </tr>
 <tr>
 <td>Get a quick overview of key Dynamics 365 for Customer Engagement apps (online) performance metrics </td>
-<td> [Preview feature: View metrics about your instance with Organization Insights dashboard](use-organization-insights-dashboard-view-instance-metrics.md) </td>
+<td> Preview feature: View metrics about your instance with Organization Insights dashboard</td>
 </tr>
 <tr>
-<td> Track your Dynamics 365 for Customer Engagement apps deals and activities using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] </td>
-<td> We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 for Customer Engagement apps offerings. This includes natural language integration for customers and partners across multiple channels including [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. To that end, we are discontinuing the current [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature that was made available for Dynamics 365 for Customer Engagement apps and we are focusing on building a new long term intelligent solution experience, which will include [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] digital assistant integration. </td>
+<td> Track your Dynamics 365 for Customer Engagement apps deals and activities using Cortana</td>
+<td> We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 for Customer Engagement apps offerings. This includes natural language integration for customers and partners across multiple channels including Cortana. To that end, we are discontinuing the current Cortana integration preview feature that was made available for Dynamics 365 for Customer Engagement apps and we are focusing on building a new long term intelligent solution experience, which will include Cortana digital assistant integration. </td>
 </tr>
 </table>
 
