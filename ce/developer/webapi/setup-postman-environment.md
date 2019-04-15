@@ -46,7 +46,7 @@ Select the connection option that works for your environment:
 
 ## Connect with an online environment
 
-To connect with an online environment, see the information provided here: [Connect with an online environment]().
+To connect with an online environment, see the information provided in this PowerApps Common Data Service topic: [Connect with an online environment]().
 
 <a name="bkmk_connectonpremise"></a>
 

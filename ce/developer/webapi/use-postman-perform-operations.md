@@ -2,7 +2,7 @@
 title: "Use Postman to perform operations with the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to compose and send Web API requests using Postman."
 ms.custom: 
-ms.date: 01/12/2019
+ms.date: 04/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -41,8 +41,9 @@ The environment created by using the instructions in [Set up a Postman environme
 >    |[Connect with an online environment](setup-postman-environment.md#bkmk_connectonline)|[Connect with an on-premises environment](setup-postman-environment.md#bkmk_connectonpremise)|
 
 > [!IMPORTANT]
-> The operations that you can perform using the Web API are same for Online and On-premise deployments. Please check the Common Data Service topic: [Use Postman to perform operations](/powerapps/developer/common-data-service/webapi/use-postman-perform-operations) for complete documentation
+> The operations that you can perform using the Web API are same for Online and On-premise deployments. For complete documentation on how to perform various Web API operations using Postman, see this PowerApps Common Data Service topic: [Use Postman to perform operations](/powerapps/developer/common-data-service/webapi/use-postman-perform-operations) for complete documentation.
 
 ## See also
 
+[Set up a Postman environment](setup-postman-environment.md)<br />
 [Use Postman with the Web API](use-postman-web-api.md)
