@@ -32,16 +32,16 @@ Work Order System Statuses, Work Order Substatuses, and Booking Statuses all wor
 
 **Work Order System Statuses** are noted on the Work Order entity, mark the current point of a work order in its life cycle, are part of the product by default and **should not** be edited, and are:
 
-- Open-Unscheduled
-- Open-Scheduled
-- Open-In Progress
-- Open-Completed
-- Closed-Posted
-- Closed-Canceled
+- Open - Unscheduled
+- Open - Scheduled
+- Open - In Progress
+- Open - Completed
+- Closed - Posted
+- Closed - Canceled
 
 **Work Order Substatuses** are noted on the Work Order entity, relate to and provide more detail to Work Order System Statuses, and are created custom for each organization.
 
-**Booking Statuses** are noted on the Bookable Resource Booking entity, help field technicians track their progress for a specific work order requirement, are visualized on the schedule board with a distinct color and icon, and a few booking statuses are part of the product by default and more custom ones can be added, but out of the box include:
+**Booking Statuses** are noted on the Bookable Resource Booking entity, are updated by field technicians on the Field Service Mobile app to track their progress for a specific work order requirement, are visualized on the schedule board with a distinct color and icon, and a few booking statuses are part of the product by default and more custom ones can be added, but out of the box include:
 
 - Scheduled
 - Traveling
@@ -50,7 +50,7 @@ Work Order System Statuses, Work Order Substatuses, and Booking Statuses all wor
 - Completed
 - Canceled
 
-### Relationship between Work Order System Status and Booking Status
+
 
 
 
@@ -73,8 +73,13 @@ Work Order System Statuses, Work Order Substatuses, and Booking Statuses all wor
 
 ## Estimate Work Order Sub-status
 ## Delayed Booking Status
+
+### Relationship between Work Order System Status and Booking Status
+
 ## Follow up Work Order Sub-status
 
 ## Configuration considerations
 - Booking statuses with RSO
+  - new ones
+  - simulation -RSO
 ## Additional Notes
