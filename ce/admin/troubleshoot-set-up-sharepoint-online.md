@@ -1,7 +1,7 @@
 ---
-title: "Troubleshoot SharePoint Online setup | MicrosoftDocs"
+title: "Troubleshoot SharePoint Online setup (SharePoint Integration with Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/10/2019
+ms.date: 04/16/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,13 +21,13 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Troubleshoot SharePoint Online setup
+# Troubleshoot SharePoint Online setup (SharePoint Integration with Customer Engagement)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../includes/cc_applies_to_update_8_2_0.md)]
 
 If you experience any of following situations, use the steps below to correct.
 
-## Documents button missing - validate and fix 
+## Missing Documents button - validate and fix 
 
 If **Documents** is missing from entities such as account, use the following to restore.
 
@@ -60,79 +60,86 @@ Start by understanding the requirements listed in [Important considerations for 
 
 The most common cause for the Documents associated grid not loading is the corrupted FetchXML and LayoutXML. These sections could be corrupted due to many reasons. The most common of them is through customizing the entity/grid view, adding/removing columns, and other similar customizations.
 
-1. Go to **Settings** > **Customizations** > **Solutions**. 
-2. Create a solution (named SharePointDocumentSolution). For more information, see [Create a solution](../customize/create-solution.md).
-3. Add **SharePoint Document** entity (select all fields , forms, views). 
-4. Select **Save** and **Close**.
-5. Publish all customizations.
-6. Select the created (SharePointDocumentSolution) solution.
-7. Export the solution. (SharePointDocumentSolution.zip will be downloaded) 
-8. Extract the zip file (downloaded file from Step 7).
-9. Browse the folder, locate and open customization.xml.
-10. Search LayoutXml of Document associated grid (search for *Document Associated*).
-11. Make the changes as below:
+1. Make sure you have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement.
+    Check your security role:
+    1. Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
+    2. Don’t have the correct permissions? Contact your system administrator.
+2. Go to **Settings** > **Customizations** > **Solutions**. 
+3. Create a solution (named SharePointDocumentSolution). For more information, see [Create a solution](../customize/create-solution.md).
+4. Add **SharePoint Document** entity (select all fields , forms, views). 
+5. Select **Save** and **Close**.
+6. Publish all customizations.
+7. Select the created (SharePointDocumentSolution) solution.
+8. Export the solution. (SharePointDocumentSolution.zip will be downloaded) 
+9. Extract the zip file (downloaded file from Step 7).
+10. Browse the folder, locate and open customization.xml.
+11. Search LayoutXml of Document associated grid (search for *Document Associated*).
+12. Make the changes as below:
 
+    ```  
+    <layoutxml>
+      <grid name="sharepointdocument" jump="fullname" select="1" icon="0" preview="1">
+        <row name="sharepointdocument" id="sharepointdocumentid">
+          <cell name="fullname" width="300" imageproviderfunctionname="DocumentManagement.FileTypeIcon.loadSharePointFileTypeIcon" imageproviderwebresource="$webresource:SharePoint_main_system_library.js" />
+          <cell name="relativelocation" width="200" />
+          <cell name="modified" width="150" />
+          <cell name="sharepointmodifiedby" width="150" />
+          <cell name="sharepointcreatedon" width="300" />
+          <cell name="title" ishidden="1" />
+          <cell name="readurl" ishidden="1" />
+          <cell name="editurl" ishidden="1" />
+          <cell name="author" ishidden="1" />
+          <cell name="absoluteurl" ishidden="1" />
+          <cell name="filetype" ishidden="1" />
+          <cell name="ischeckedout" ishidden="1" />
+          <cell name="locationid" ishidden="1" />
+          <cell name="iconclassname" ishidden="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    ```  
 
-```  
-<grid name="sharepointdocument" object="9507" jump="fullname" select="1" icon="0" preview="1">
-<row name="sharepointdocument" id="sharepointdocumentid">
-<cell name="fullname" width="300" imageproviderfunctionname="DocumentManagement.FileTypeIcon.loadSharePointFileTypeIcon" imageproviderwebresource="$webresource:SharePoint_main_system_library.js" />
-<cell name="modified" width="150" />
-<cell name="sharepointmodifiedby" width="150" />
-<cell name="servicetype" width="150" />
-<cell name="relativelocation" width="200" />
-<cell name="documentid" ishidden="1" />
-<cell name="title" ishidden="1" />
-<cell name="author" ishidden="1" />
-<cell name="sharepointcreatedon" ishidden="1" />
-<cell name="sharepointdocumentid" ishidden="1" />
-<cell name="filetype" ishidden="1" />
-<cell name="readurl" ishidden="1" />
-<cell name="editurl" ishidden="1" />
-<cell name="ischeckedout" ishidden="1" />
-<cell name="absoluteurl" ishidden="1" />
-<cell name="locationid" ishidden="1" />
-<cell name="iconclassname" ishidden="1" />
-</row>
-</grid>
-```  
+12. Make the changes as below for the FetchXml section:
 
-10. Make the changes as below for the FetchXml section:
+    ```  
+    <fetchxml>
+      <fetch distinct="false" mapping="logical">
+        <entity name="sharepointdocument">
+          <attribute name="documentid" />
+          <attribute name="fullname" />
+          <attribute name="relativelocation" />
+          <attribute name="sharepointcreatedon" />
+          <attribute name="filetype" />
+          <attribute name="modified" />
+          <attribute name="sharepointmodifiedby" />
+          <attribute name="title" />
+          <attribute name="readurl" />
+          <attribute name="editurl" />
+          <attribute name="author" />
+          <attribute name="absoluteurl" />
+          <attribute name="ischeckedout" />
+          <attribute name="locationid" />
+          <attribute name="iconclassname" />
+          <filter type="and">
+            <condition attribute="documentlocationtype" operator="eq" value="1" />
+            <condition attribute="isrecursivefetch" operator="eq" value="0" />
+            <filter type="or">
+              <condition attribute="filetype" operator="eq" value="one" />
+              <condition attribute="filetype" operator="eq" value="onetoc2" />
+            </filter>
+          </filter>
+          <order attribute="sharepointcreatedon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+     ```  
 
-```  
-<fetch distinct="false" mapping="logical">
-  <entity name="sharepointdocument">
-  <attribute name="documentid" />
-  <attribute name="fullname" />
-  <attribute name="relativelocation" />
-  <attribute name="sharepointcreatedon" />
-  <attribute name="ischeckedout" />
-  <attribute name="filetype" />
-  <attribute name="modified" />
-  <attribute name="sharepointmodifiedby" />
-  <attribute name="servicetype" />
-  <attribute name="absoluteurl" />
-  <attribute name="title" />
-  <attribute name="author" />
-  <attribute name="sharepointdocumentid" />
-  <attribute name="readurl" />
-  <attribute name="editurl" />
-  <attribute name="locationid" />
-  <attribute name="iconclassname" />
-  <order attribute="relativelocation" descending="false" />
-  <filter>
-  <condition attribute="isrecursivefetch" operator="eq" value="0" />
-  </filter>
-  </entity>
-  </fetch>
-```  
-
-11. Save the file.
-12. Zip the folder.
-13. Open Dynamics 365 for Customer Engagement.
-14. Navigate to **Settings** > **Solutions**
-15. Import the solution (zipped file in Step 12).
-16. Publish all customizations.
-17. Verify the Document associated grid is displaying in all the required SharePoint documents.
+13. Save the file.
+14. Zip the folder.
+15. Open Dynamics 365 for Customer Engagement.
+16. Navigate to **Settings** > **Solutions**
+17. Import the solution (zipped file in Step 8).
+18. Publish all customizations.
+19. Verify the Document associated grid is displaying in all the required SharePoint documents.
 
 
