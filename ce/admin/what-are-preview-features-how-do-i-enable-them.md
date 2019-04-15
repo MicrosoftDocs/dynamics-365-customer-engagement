@@ -41,19 +41,18 @@ Preview features are features that aren’t complete, but are made available on 
 
  The following table lists the features that are still in preview, as well as  learning resources for each.  
 
-
 <table style="width:100%">
 <tr>
 <th>Preview feature</th>
 <th>Learning resource</th>
 </tr>
 <tr>
-<td width="30%">Data Loader for bulk importing license terms </td>
-<td width="70%"> Preview feature: Import bulk data </td>
+<td width="30%"> Data Loader for bulk importing license terms </td>
+<td width="70%"> <a href="https:docs.microsoft.com/dynamics365/customer-engagement/admin/import-bulk-data-data-loader"> Preview feature: Import bulk data </a></td>
 </tr>
 <tr>
 <td width="30%">Get a quick overview of key Dynamics 365 for Customer Engagement apps (online) performance metrics </td>
-<td width="70%"> Preview feature: View metrics about your instance with Organization Insights dashboard</td>
+<td width="70%"> <a href="https://review.docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-organization-insights-dashboard-view-instance-metrics">Preview feature: View metrics about your instance with Organization Insights dashboard</a></td>
 </tr>
 <tr>
 <td width="30%"> Track your Dynamics 365 for Customer Engagement apps deals and activities using Cortana</td>
@@ -61,21 +60,6 @@ Preview features are features that aren’t complete, but are made available on 
 </tr>
 </table>
 
-
-
-
-
-
-
-
-  
-|   |     |
-|----------|----|
-| **Preview feature** | **Learning resource** | 
-| Data Loader for bulk importing   |  [Preview feature: Import bulk data](import-bulk-data-data-loader.md) |
-| Get a quick overview of key Dynamics 365 for Customer Engagement apps (online) performance metrics  |  [Preview feature: View metrics about your instance with Organization Insights dashboard](use-organization-insights-dashboard-view-instance-metrics.md)  |
-| Track your Dynamics 365 for Customer Engagement apps deals and activities using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] | We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 for Customer Engagement apps offerings. This includes natural language integration for customers and partners across multiple channels including [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. To that end, we are discontinuing the current [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature that was made available for Dynamics 365 for Customer Engagement apps and we are focusing on building a new long term intelligent solution experience, which will include [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] digital assistant integration. |
-  
 > [!NOTE]
 >  The Data Loader preview feature does not have to be enabled through the **Previews** tab.  
   
