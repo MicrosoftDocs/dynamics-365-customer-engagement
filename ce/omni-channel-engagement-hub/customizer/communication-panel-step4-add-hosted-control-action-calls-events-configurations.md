@@ -42,19 +42,19 @@ This topic describes how to create communication panel related action calls in U
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Select the down arrow next to Dynamics 365.
+2. Select the Down arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
 4. Select **Configuration** and then select a configuration from the list.
 
-5. On the navigation bar, select the down arrow next to **Configuration**, and then select **Action Calls**.
+5. On the navigation bar, select the Down arrow next to **Configuration**, and then select **Action Calls**.
 
 6. On the next page, select **Add Existing Action Call**, type the name of the action in the search bar, and then press **Enter** or select the search icon.
 
 7. Add the action calls that are shown in the search results.
 
-8. Repeat steps 4 through 7 to add the hosted controls and the events by selecting the down arrow next to Configuration, and selecting Hosted Controls and Events, respectively.
+8. Repeat steps 4 through 7 to add the hosted controls and the events by selecting the Down arrow next to **Configuration**, and then selecting **Hosted Controls** and **Events**, respectively.
 
 9. When you've finished, select **Save**.
 
