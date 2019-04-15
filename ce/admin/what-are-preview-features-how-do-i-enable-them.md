@@ -1,7 +1,7 @@
 ---
 title: "What are Preview features and how do I enable them for Dynamics 365 for Customer Engagement? | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/01/2018
+ms.date: 04/16/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: c461cdf4-9e91-41c7-b34e-e95f1ff1e945
 caps.latest.revision: 65
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # What are Preview features and how do I enable them? 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Preview features:  
   
@@ -36,18 +36,15 @@ Preview features are features that aren’t complete, but are made available on 
 - Aren’t meant for production use.  
   
 - May be available only in selected geographic areas.  
-
- 
   
 ## What preview features were included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)]?  
+
  The following table lists the features that are still in preview, as well as  learning resources for each.  
   
-
-|                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                         **Preview feature**                                          |                                                                                                                                                                                                                                                                                                            **Learning resource**                                                                                                                                                                                                                                                                                                             |
-|                                    Data Loader for bulk importing                                    |                                                                                                                                                                                                                                                                                     [Preview feature: Import bulk data](import-bulk-data-data-loader.md)                                                                                                                                                                                                                                                                                     |
-|                Get a quick overview of key Dynamics 365 for Customer Engagement apps (online) performance metrics                 |                                                                                                                                                                                                                                            [Preview feature: View metrics about your instance with Organization Insights dashboard](use-organization-insights-dashboard-view-instance-metrics.md)                                                                                                                                                                                                                                            |
+|   |     |----------|----|
+| **Preview feature** | **Learning resource** | 
+| Data Loader for bulk importing   |  [Preview feature: Import bulk data](import-bulk-data-data-loader.md) |
+| Get a quick overview of key Dynamics 365 for Customer Engagement apps (online) performance metrics  |  [Preview feature: View metrics about your instance with Organization Insights dashboard](use-organization-insights-dashboard-view-instance-metrics.md)  |
 | Track your Dynamics 365 for Customer Engagement apps deals and activities using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] | We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 for Customer Engagement apps offerings. This includes natural language integration for customers and partners across multiple channels including [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. To that end, we are discontinuing the current [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature that was made available for Dynamics 365 for Customer Engagement apps and we are focusing on building a new long term intelligent solution experience, which will include [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] digital assistant integration. |
   
 > [!NOTE]
