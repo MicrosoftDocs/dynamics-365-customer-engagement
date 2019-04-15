@@ -29,7 +29,11 @@ search.app:
 # Work Order System Statuses and Booking Statuses
 
 
-Scenarios:
+### Relationship between Work Order System Status and Booking Status
+
+
+
+### Scenarios:
 
 1. Estimate Work Order Sub-status
 2. Delayed Booking Status
@@ -44,6 +48,10 @@ Scenarios:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
+
+## Estimate Work Order Sub-status
+## Delayed Booking Status
+## Follow up Work Order Sub-status
 
 ## Configuration considerations
 ## Additional Notes
