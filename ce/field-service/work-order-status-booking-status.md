@@ -26,8 +26,18 @@ search.app:
   - D365FS
 ---
 
-# Work Order System Statuses and Booking Statuses
+# Work Order and Booking Statuses
 
+Work Order System Statuses, Work Order Substatuses, and Booking Statuses all work together to help stakeholders stay up to date with work orders. Updating one of these statuses can update the others automatically.
+
+Work Order System Statuses detail the life cycle of a work order, are part of the product by default and **should not** be edited, and are:
+
+- Open-Unscheduled
+- Open-Scheduled
+- Open-In Progress
+- Open-Completed
+- Closed-Posted
+- Closed-Canceled
 
 ### Relationship between Work Order System Status and Booking Status
 
@@ -55,4 +65,5 @@ search.app:
 ## Follow up Work Order Sub-status
 
 ## Configuration considerations
+- Booking statuses with RSO
 ## Additional Notes
