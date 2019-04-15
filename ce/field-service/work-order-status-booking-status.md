@@ -30,7 +30,7 @@ search.app:
 
 Work Order System Statuses, Work Order Substatuses, and Booking Statuses all work together to help stakeholders stay up to date with work orders. Updating one of these statuses can update the others automatically.
 
-Work Order System Statuses detail the life cycle of a work order, are part of the product by default and **should not** be edited, and are:
+**Work Order System Statuses** are noted on the Work Order entity, mark the current point of a work order in its life cycle, are part of the product by default and **should not** be edited, and are:
 
 - Open-Unscheduled
 - Open-Scheduled
@@ -38,6 +38,10 @@ Work Order System Statuses detail the life cycle of a work order, are part of th
 - Open-Completed
 - Closed-Posted
 - Closed-Canceled
+
+**Work Order Substatuses** are noted on the Work Order entity, relate to and provide more detail to Work Order System Statuses, and are created custom for each organization.
+
+**Booking Statuses** are noted on the Bookable Resource Booking entity, 
 
 ### Relationship between Work Order System Status and Booking Status
 
