@@ -122,10 +122,8 @@ We released some capabilities of the legacy web client in the Unified Interface 
 
 There are certain capabilities that continue to be unavailable in the Unified Interface and we are working to provide these in future releases:
 
-- Audit Trail
 -	Custom styling of advanced chart properties (excluding colors and basic formatting)
 -	Composite address control
--	Letter, Fax, Recurring Appointments
 -	Global notifications
 -	Admin experiences
 -	Editable grids on phones
@@ -141,15 +139,12 @@ There are certain entities that are currently read-only on Unified Interface. Us
 The following are entities that are currently read-only in Unified Interface:
 
 - Connection Role
-- EmailSignature
 - KnowledgeArticleViews
 - KnowledgeBaseRecord
 - SharePointDocument
 - SharePointSite
 - SLA
 - SLAKPIInstance
-- SystemUser
-- Team
 - Template
 - Contract
 - Contract Lines

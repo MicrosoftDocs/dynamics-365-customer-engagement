@@ -1,36 +1,38 @@
 ---
-title: "InvoiceDetail Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "InvoiceDetail Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the InvoiceDetail entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # InvoiceDetail Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Line item in an invoice containing detailed billing information for a product.
 
-**Added by**: Sales Solution<br />
+**Added by**: Sales Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
 |CalculatePrice|<xref href="Microsoft.Dynamics.CRM.CalculatePrice?text=CalculatePrice Action" />|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/invoicedetails<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/invoicedetails(*invoicedetailid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/invoicedetails(*invoicedetailid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/invoicedetails<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/invoicedetails(*invoicedetailid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.0/invoicedetails<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/invoicedetails(*invoicedetailid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/invoicedetails(*invoicedetailid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/invoicedetails<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/invoicedetails(*invoicedetailid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -45,7 +47,7 @@ Line item in an invoice containing detailed billing information for a product.
 |LogicalName|invoicedetail|
 |OwnershipType|UserOwned|
 |PrimaryIdAttribute|invoicedetailid|
-|PrimaryNameAttribute|productidname|
+|PrimaryNameAttribute|invoicedetailname|
 |SchemaName|InvoiceDetail|
 
 <a name="writable-attributes"></a>
@@ -60,6 +62,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [ExtendedAmount](#BKMK_ExtendedAmount)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [InvoiceDetailId](#BKMK_InvoiceDetailId)
+- [InvoiceDetailName](#BKMK_InvoiceDetailName)
 - [InvoiceId](#BKMK_InvoiceId)
 - [IsCopied](#BKMK_IsCopied)
 - [IsPriceOverridden](#BKMK_IsPriceOverridden)
@@ -85,6 +88,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_WorkOrderServiceId](#BKMK_msdyn_WorkOrderServiceId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [ParentBundleId](#BKMK_ParentBundleId)
+- [ParentBundleIdRef](#BKMK_ParentBundleIdRef)
 - [PricePerUnit](#BKMK_PricePerUnit)
 - [PricingErrorCode](#BKMK_PricingErrorCode)
 - [ProductAssociationId](#BKMK_ProductAssociationId)
@@ -97,6 +101,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [QuantityBackordered](#BKMK_QuantityBackordered)
 - [QuantityCancelled](#BKMK_QuantityCancelled)
 - [QuantityShipped](#BKMK_QuantityShipped)
+- [SalesOrderDetailId](#BKMK_SalesOrderDetailId)
 - [SalesRepId](#BKMK_SalesRepId)
 - [SequenceNumber](#BKMK_SequenceNumber)
 - [ShippingTrackingNumber](#BKMK_ShippingTrackingNumber)
@@ -111,6 +116,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [ShipTo_PostalCode](#BKMK_ShipTo_PostalCode)
 - [ShipTo_StateOrProvince](#BKMK_ShipTo_StateOrProvince)
 - [ShipTo_Telephone](#BKMK_ShipTo_Telephone)
+- [SkipPriceCalculation](#BKMK_SkipPriceCalculation)
 - [Tax](#BKMK_Tax)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
 - [TransactionCurrencyId](#BKMK_TransactionCurrencyId)
@@ -217,6 +223,24 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Uniqueidentifier|
 
 
+### <a name="BKMK_InvoiceDetailName"></a> InvoiceDetailName
+
+**Added by**: Sales Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Invoice Detail Name. Added for 1:n Referential relationship|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|invoicedetailname|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
 ### <a name="BKMK_InvoiceId"></a> InvoiceId
 
 |Property|Value|
@@ -281,7 +305,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether the product exists in the Microsoft Dynamics 365 for Customer Engagement apps product catalog or is a write-in product specific to the parent invoice.|
+|Description|Select whether the product exists in the Microsoft Dynamics 365 product catalog or is a write-in product specific to the parent invoice.|
 |DisplayName|Select Product|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -336,7 +360,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_Agreement"></a> msdyn_Agreement
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -352,7 +376,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_AgreementInvoiceProduct"></a> msdyn_AgreementInvoiceProduct
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -368,7 +392,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_BillingMethod"></a> msdyn_BillingMethod
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -391,7 +415,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_chargeableamount"></a> msdyn_chargeableamount
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -410,7 +434,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_complimentaryamount"></a> msdyn_complimentaryamount
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -429,12 +453,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_ContractLine"></a> msdyn_ContractLine
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the project contract line for this invoice line.|
-|DisplayName|Project Contract Line|
+|Description|(Deprecated) Shows the project contract line for this invoice line.|
+|DisplayName|(Deprecated) Project Contract Line|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -447,7 +471,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_contractlineamount"></a> msdyn_contractlineamount
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -466,7 +490,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_Currency"></a> msdyn_Currency
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -482,7 +506,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_invoicedtilldate"></a> msdyn_invoicedtilldate
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -501,7 +525,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_LineOrder"></a> msdyn_LineOrder
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -519,7 +543,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_LineType"></a> msdyn_LineType
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -542,7 +566,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_nonchargeableamount"></a> msdyn_nonchargeableamount
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -561,7 +585,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_OrderInvoicingProduct"></a> msdyn_OrderInvoicingProduct
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -577,7 +601,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_Project"></a> msdyn_Project
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -593,7 +617,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_WorkOrderId"></a> msdyn_WorkOrderId
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -609,7 +633,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_WorkOrderProductId"></a> msdyn_WorkOrderProductId
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -625,7 +649,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_WorkOrderServiceId"></a> msdyn_WorkOrderServiceId
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -667,6 +691,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|parentbundleid|
 |RequiredLevel|None|
 |Type|Uniqueidentifier|
+
+
+### <a name="BKMK_ParentBundleIdRef"></a> ParentBundleIdRef
+
+**Added by**: Sales Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Choose the parent bundle associated with this product|
+|DisplayName|Parent bundle product|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|parentbundleidref|
+|RequiredLevel|None|
+|Targets|invoicedetail|
+|Type|Lookup|
 
 
 ### <a name="BKMK_PricePerUnit"></a> PricePerUnit
@@ -740,6 +780,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |35|Price Attribute Out Of Range|
 |36|Base Currency Attribute Overflow|
 |37|Base Currency Attribute Underflow|
+|38|Transaction currency is not set for the product price list item|
 
 
 
@@ -797,7 +838,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|IsValidForUpdate|False|
 |LogicalName|productname|
 |MaxLength|500|
 |RequiredLevel|None|
@@ -913,6 +953,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Precision|5|
 |RequiredLevel|None|
 |Type|Decimal|
+
+
+### <a name="BKMK_SalesOrderDetailId"></a> SalesOrderDetailId
+
+**Added by**: Sales Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Order Line associated with Invoice Line.|
+|DisplayName|Order Product Id|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|salesorderdetailid|
+|RequiredLevel|None|
+|Targets|salesorderdetail|
+|Type|Lookup|
 
 
 ### <a name="BKMK_SalesRepId"></a> SalesRepId
@@ -1142,6 +1198,30 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_SkipPriceCalculation"></a> SkipPriceCalculation
+
+**Added by**: Sales Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Skip Price Calculation. Used with bulk update and bulk insert operations.|
+|DisplayName|Skip Price Calculation|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|skippricecalculation|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### SkipPriceCalculation Options
+
+|Value|Label|
+|-----|-----|
+|0|DoPriceCalcAlways|
+|1|SkipPriceCalcOnCreate|
+|2|SkipPriceCalcOnUpdate|
+
+
+
 ### <a name="BKMK_Tax"></a> Tax
 
 |Property|Value|
@@ -1170,7 +1250,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|timezoneruleversionnumber|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
@@ -1215,7 +1295,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|utcconversiontimezonecode|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
@@ -1243,7 +1323,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [BaseAmount_Base](#BKMK_BaseAmount_Base)
@@ -1289,6 +1371,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [OwningUser](#BKMK_OwningUser)
 - [PricePerUnit_Base](#BKMK_PricePerUnit_Base)
 - [ProductIdName](#BKMK_ProductIdName)
+- [SalesOrderDetailIdName](#BKMK_SalesOrderDetailIdName)
 - [SalesRepIdName](#BKMK_SalesRepIdName)
 - [SalesRepIdYomiName](#BKMK_SalesRepIdYomiName)
 - [Tax_Base](#BKMK_Tax_Base)
@@ -1369,7 +1452,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when the record was created.|
 |DisplayName|Created On|
-|Format|DateOnly|
+|Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|createdon|
@@ -1424,6 +1507,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -1509,9 +1594,11 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 #### InvoiceStateCode Options
 
-| Value | Label |
-|-------|-------|
-|       |       |
+|Value|Label|
+|-----|-----|
+
+
+
 
 ### <a name="BKMK_ManualDiscountAmount_Base"></a> ManualDiscountAmount_Base
 
@@ -1583,7 +1670,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when the record was modified.|
 |DisplayName|Modified On|
-|Format|DateOnly|
+|Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|modifiedon|
@@ -1639,6 +1726,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_AgreementInvoiceProductName"></a> msdyn_AgreementInvoiceProductName
 
+**Added by**: Field Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1654,6 +1743,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_AgreementName"></a> msdyn_AgreementName
+
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1671,7 +1762,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_chargeableamount_Base"></a> msdyn_chargeableamount_Base
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -1690,7 +1781,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_complimentaryamount_Base"></a> msdyn_complimentaryamount_Base
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -1709,7 +1800,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_contractlineamount_Base"></a> msdyn_contractlineamount_Base
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -1728,6 +1819,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_CurrencyName"></a> msdyn_CurrencyName
 
+**Added by**: Field Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1744,7 +1837,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_invoicedtilldate_Base"></a> msdyn_invoicedtilldate_Base
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -1763,7 +1856,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_nonchargeableamount_Base"></a> msdyn_nonchargeableamount_Base
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -1782,6 +1875,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_OrderInvoicingProductName"></a> msdyn_OrderInvoicingProductName
 
+**Added by**: Field Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1797,6 +1892,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_ProjectName"></a> msdyn_ProjectName
+
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -1814,6 +1911,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_WorkOrderIdName"></a> msdyn_WorkOrderIdName
 
+**Added by**: Field Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1830,6 +1929,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_WorkOrderProductIdName"></a> msdyn_WorkOrderProductIdName
 
+**Added by**: Field Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1845,6 +1946,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_WorkOrderServiceIdName"></a> msdyn_WorkOrderServiceIdName
+
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1994,6 +2097,24 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_SalesOrderDetailIdName"></a> SalesOrderDetailIdName
+
+**Added by**: Sales Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|salesorderdetailidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_SalesRepIdName"></a> SalesRepIdName
 
 |Property|Value|
@@ -2132,15 +2253,18 @@ Listed by **SchemaName**.
 - [InvoiceDetail_SyncErrors](#BKMK_InvoiceDetail_SyncErrors)
 - [InvoiceDetail_AsyncOperations](#BKMK_InvoiceDetail_AsyncOperations)
 - [invoicedetail_MailboxTrackingFolders](#BKMK_invoicedetail_MailboxTrackingFolders)
-- [userentityinstancedata_invoicedetail](#BKMK_userentityinstancedata_invoicedetail)
 - [InvoiceDetail_ProcessSessions](#BKMK_InvoiceDetail_ProcessSessions)
 - [InvoiceDetail_BulkDeleteFailures](#BKMK_InvoiceDetail_BulkDeleteFailures)
 - [invoicedetail_principalobjectattributeaccess](#BKMK_invoicedetail_principalobjectattributeaccess)
 - [InvoiceDetail_Dynamicpropertyinstance](#BKMK_InvoiceDetail_Dynamicpropertyinstance)
 - [invoicedetail_parent_invoicedetail](#BKMK_invoicedetail_parent_invoicedetail)
+- [invoicedetail_parentref_invoicedetail](#BKMK_invoicedetail_parentref_invoicedetail)
+- [msdyn_invoicedetail_msdyn_invoicelinetransactio](#BKMK_msdyn_invoicedetail_msdyn_invoicelinetransactio)
 
 
 ### <a name="BKMK_InvoiceDetail_SyncErrors"></a> InvoiceDetail_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [InvoiceDetail_SyncErrors](syncerror.md#BKMK_InvoiceDetail_SyncErrors) Many-To-One relationship.
 
@@ -2157,6 +2281,8 @@ Same as syncerror entity [InvoiceDetail_SyncErrors](syncerror.md#BKMK_InvoiceDet
 
 ### <a name="BKMK_InvoiceDetail_AsyncOperations"></a> InvoiceDetail_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [InvoiceDetail_AsyncOperations](asyncoperation.md#BKMK_InvoiceDetail_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -2172,6 +2298,8 @@ Same as asyncoperation entity [InvoiceDetail_AsyncOperations](asyncoperation.md#
 
 ### <a name="BKMK_invoicedetail_MailboxTrackingFolders"></a> invoicedetail_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [invoicedetail_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_invoicedetail_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -2182,25 +2310,12 @@ Same as mailboxtrackingfolder entity [invoicedetail_MailboxTrackingFolders](mail
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|invoicedetail_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_userentityinstancedata_invoicedetail"></a> userentityinstancedata_invoicedetail
-
-Same as userentityinstancedata entity [userentityinstancedata_invoicedetail](userentityinstancedata.md#BKMK_userentityinstancedata_invoicedetail) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_invoicedetail|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_InvoiceDetail_ProcessSessions"></a> InvoiceDetail_ProcessSessions
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [InvoiceDetail_ProcessSessions](processsession.md#BKMK_InvoiceDetail_ProcessSessions) Many-To-One relationship.
 
@@ -2217,6 +2332,8 @@ Same as processsession entity [InvoiceDetail_ProcessSessions](processsession.md#
 
 ### <a name="BKMK_InvoiceDetail_BulkDeleteFailures"></a> InvoiceDetail_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [InvoiceDetail_BulkDeleteFailures](bulkdeletefailure.md#BKMK_InvoiceDetail_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -2231,6 +2348,8 @@ Same as bulkdeletefailure entity [InvoiceDetail_BulkDeleteFailures](bulkdeletefa
 
 
 ### <a name="BKMK_invoicedetail_principalobjectattributeaccess"></a> invoicedetail_principalobjectattributeaccess
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [invoicedetail_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_invoicedetail_principalobjectattributeaccess) Many-To-One relationship.
 
@@ -2274,6 +2393,40 @@ Same as invoicedetail entity [invoicedetail_parent_invoicedetail](invoicedetail.
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
+
+### <a name="BKMK_invoicedetail_parentref_invoicedetail"></a> invoicedetail_parentref_invoicedetail
+
+**Added by**: Sales Patch Solution
+
+Same as invoicedetail entity [invoicedetail_parentref_invoicedetail](invoicedetail.md#BKMK_invoicedetail_parentref_invoicedetail) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|invoicedetail|
+|ReferencingAttribute|parentbundleidref|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|invoicedetail_parentref_invoicedetail|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_invoicedetail_msdyn_invoicelinetransactio"></a> msdyn_invoicedetail_msdyn_invoicelinetransactio
+
+**Added by**: Project Service Automation Solution
+
+Same as msdyn_invoicelinetransaction entity [msdyn_invoicedetail_msdyn_invoicelinetransactio](msdyn_invoicelinetransaction.md#BKMK_msdyn_invoicedetail_msdyn_invoicelinetransactio) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_invoicelinetransaction|
+|ReferencingAttribute|msdyn_invoicelineid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_invoicedetail_msdyn_invoicelinetransactio|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
@@ -2293,6 +2446,8 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [system_user_invoicedetail](#BKMK_system_user_invoicedetail)
 - [unit_of_measurement_invoice_details](#BKMK_unit_of_measurement_invoice_details)
 - [productAssociation_invoice_details](#BKMK_productAssociation_invoice_details)
+- [msdyn_salesorderdetail_invoicedetail](#BKMK_msdyn_salesorderdetail_invoicedetail)
+- [invoicedetail_parentref_invoicedetail](#BKMK_invoicedetail_parentref_invoicedetail)
 - [msdyn_msdyn_project_invoicedetail_Project](#BKMK_msdyn_msdyn_project_invoicedetail_Project)
 - [msdyn_msdyn_agreement_invoicedetail_Agreement](#BKMK_msdyn_msdyn_agreement_invoicedetail_Agreement)
 - [msdyn_msdyn_agreementinvoiceproduct_invoicedetail_AgreementInvoiceProduct](#BKMK_msdyn_msdyn_agreementinvoiceproduct_invoicedetail_AgreementInvoiceProduct)
@@ -2305,29 +2460,43 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_invoicedetailbase_createdby"></a> lk_invoicedetailbase_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_invoicedetailbase_createdby](systemuser.md#BKMK_lk_invoicedetailbase_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_invoicedetail_createdonbehalfby"></a> lk_invoicedetail_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_invoicedetail_createdonbehalfby](systemuser.md#BKMK_lk_invoicedetail_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_invoicedetailbase_modifiedby"></a> lk_invoicedetailbase_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_invoicedetailbase_modifiedby](systemuser.md#BKMK_lk_invoicedetailbase_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_invoicedetail_modifiedonbehalfby"></a> lk_invoicedetail_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_invoicedetail_modifiedonbehalfby](systemuser.md#BKMK_lk_invoicedetail_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_invoicedetail"></a> user_invoicedetail
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [user_invoicedetail](systemuser.md#BKMK_user_invoicedetail) One-To-Many relationship.
 
 ### <a name="BKMK_team_invoicedetail"></a> team_invoicedetail
 
+**Added by**: System Solution Solution
+
 See team Entity [team_invoicedetail](team.md#BKMK_team_invoicedetail) One-To-Many relationship.
 
 ### <a name="BKMK_transactioncurrency_invoicedetail"></a> transactioncurrency_invoicedetail
+
+**Added by**: System Solution Solution
 
 See transactioncurrency Entity [transactioncurrency_invoicedetail](transactioncurrency.md#BKMK_transactioncurrency_invoicedetail) One-To-Many relationship.
 
@@ -2341,55 +2510,87 @@ See invoicedetail Entity [invoicedetail_parent_invoicedetail](invoicedetail.md#B
 
 ### <a name="BKMK_product_invoice_details"></a> product_invoice_details
 
+**Added by**: Product Management Solution
+
 See product Entity [product_invoice_details](product.md#BKMK_product_invoice_details) One-To-Many relationship.
 
 ### <a name="BKMK_system_user_invoicedetail"></a> system_user_invoicedetail
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [system_user_invoicedetail](systemuser.md#BKMK_system_user_invoicedetail) One-To-Many relationship.
 
 ### <a name="BKMK_unit_of_measurement_invoice_details"></a> unit_of_measurement_invoice_details
 
+**Added by**: Product Management Solution
+
 See uom Entity [unit_of_measurement_invoice_details](uom.md#BKMK_unit_of_measurement_invoice_details) One-To-Many relationship.
 
 ### <a name="BKMK_productAssociation_invoice_details"></a> productAssociation_invoice_details
 
+**Added by**: Product Management Solution
+
 See productassociation Entity [productAssociation_invoice_details](productassociation.md#BKMK_productAssociation_invoice_details) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_salesorderdetail_invoicedetail"></a> msdyn_salesorderdetail_invoicedetail
+
+See salesorderdetail Entity [msdyn_salesorderdetail_invoicedetail](salesorderdetail.md#BKMK_msdyn_salesorderdetail_invoicedetail) One-To-Many relationship.
+
+### <a name="BKMK_invoicedetail_parentref_invoicedetail"></a> invoicedetail_parentref_invoicedetail
+
+See invoicedetail Entity [invoicedetail_parentref_invoicedetail](invoicedetail.md#BKMK_invoicedetail_parentref_invoicedetail) One-To-Many relationship.
+
 ### <a name="BKMK_msdyn_msdyn_project_invoicedetail_Project"></a> msdyn_msdyn_project_invoicedetail_Project
+
+**Added by**: Project Service Automation Solution
 
 See msdyn_project Entity [msdyn_msdyn_project_invoicedetail_Project](msdyn_project.md#BKMK_msdyn_msdyn_project_invoicedetail_Project) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_agreement_invoicedetail_Agreement"></a> msdyn_msdyn_agreement_invoicedetail_Agreement
 
+**Added by**: Field Service Solution
+
 See msdyn_agreement Entity [msdyn_msdyn_agreement_invoicedetail_Agreement](msdyn_agreement.md#BKMK_msdyn_msdyn_agreement_invoicedetail_Agreement) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_agreementinvoiceproduct_invoicedetail_AgreementInvoiceProduct"></a> msdyn_msdyn_agreementinvoiceproduct_invoicedetail_AgreementInvoiceProduct
+
+**Added by**: Field Service Solution
 
 See msdyn_agreementinvoiceproduct Entity [msdyn_msdyn_agreementinvoiceproduct_invoicedetail_AgreementInvoiceProduct](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_msdyn_agreementinvoiceproduct_invoicedetail_AgreementInvoiceProduct) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_orderinvoicingproduct_invoicedetail_OrderInvoiceProduct"></a> msdyn_msdyn_orderinvoicingproduct_invoicedetail_OrderInvoiceProduct
 
+**Added by**: Field Service Solution
+
 See msdyn_orderinvoicingproduct Entity [msdyn_msdyn_orderinvoicingproduct_invoicedetail_OrderInvoiceProduct](msdyn_orderinvoicingproduct.md#BKMK_msdyn_msdyn_orderinvoicingproduct_invoicedetail_OrderInvoiceProduct) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_workorder_invoicedetail"></a> msdyn_msdyn_workorder_invoicedetail
+
+**Added by**: Field Service Solution
 
 See msdyn_workorder Entity [msdyn_msdyn_workorder_invoicedetail](msdyn_workorder.md#BKMK_msdyn_msdyn_workorder_invoicedetail) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_workorderproduct_invoicedetail"></a> msdyn_msdyn_workorderproduct_invoicedetail
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderproduct Entity [msdyn_msdyn_workorderproduct_invoicedetail](msdyn_workorderproduct.md#BKMK_msdyn_msdyn_workorderproduct_invoicedetail) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_workorderservice_invoicedetail"></a> msdyn_msdyn_workorderservice_invoicedetail
 
+**Added by**: Field Service Solution
+
 See msdyn_workorderservice Entity [msdyn_msdyn_workorderservice_invoicedetail](msdyn_workorderservice.md#BKMK_msdyn_msdyn_workorderservice_invoicedetail) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_transactioncurrency_invoicedetail_Currency"></a> msdyn_transactioncurrency_invoicedetail_Currency
+
+**Added by**: System Solution Solution
 
 See transactioncurrency Entity [msdyn_transactioncurrency_invoicedetail_Currency](transactioncurrency.md#BKMK_msdyn_transactioncurrency_invoicedetail_Currency) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.invoicedetail?text=invoicedetail EntityType" />

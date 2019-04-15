@@ -29,11 +29,11 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The following tiles are available for constructing a customer journey.
+Read this topic to find out more about how to work with each type of tile available for constructing your customer journeys. For general information about how to create a customer journey and work with its tile, see [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md).
 
 ## Content-type tiles
 
-Content-type tiles represent the various types of content that your customer journey delivers to contacts as they traverse the pipeline. Content-type tiles include email, landing page, event, and survey tiles.
+Content-type tiles represent the various types of content that your customer journey delivers to contacts as they traverse the pipeline. Content-type tiles include email, marketing-page, marketing-form, event, and survey tiles.
 
 ### Email
 
@@ -43,28 +43,48 @@ The email tile sends a marketing email message to each contact that enters it. I
 - **Email**: Identify the marketing email message that the tile will send. Before you can publish your customer journey, all the marketing emails it references must also be finalized and published.
 - **Description**: Add a description or other notes here (optional).
 
-Your marketing email messages might contain special links to other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] features such as marketing pages, event websites, or voice-of-the-customer surveys, and you can set up customer-journey trigger tiles that react to customer interactions regarding each or any of these specifically. But even though you've selected a marketing email message that includes elements such as these, the customer journey won't know about them unless you also add a nested tile for each specific link that you want to trigger on. Add a nested landing-page, event, or survey to an email tile to expose these elements and make them selectable in your trigger-tile configurations. (Triggers can also react to message opens and unspecified link clicks, but you don't need to do anything special to enable this.)
+Your marketing email messages might contain special links to other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] features such as marketing pages, event websites, or voice-of-the-customer surveys, and you can set up customer-journey trigger tiles that react to customer interactions regarding each or any of these specifically. But even though you've selected a marketing email message that includes elements such as these, the customer journey won't know about them unless you also add a nested tile for each specific link that you want to trigger on. Add a nested marketing-page, marketing-form, event, or survey to an email tile to expose these elements and make them selectable in your trigger-tile configurations. (Triggers can also react to message opens and unspecified link clicks, but you don't need to do anything special to enable this.)
 
 You can add nested tiles under an email even if the associated message doesn't yet include the link represented by the nested tile. This lets you plan your customer journey first and then finish your email designs later.
 
-To add a nested tile, expand the email tile if needed by clicking on the expand button in its bottom right corner, then drag a landing-page, event, or survey tile to the next open slot at the bottom of the stack. You must then configure the nested tile to represent the same landing page, event, or survey that the email links to, and which you want to trigger on.
+To add a nested tile, expand the email tile if needed by clicking on the expand button in its bottom right corner, then drag a marketing-page, marketing-form, event, or survey tile to the next open slot at the bottom of the stack. You must then configure the nested tile to represent the same marketing page, marketing form, event, or survey that the email links to, and which you want to trigger on.
 
 ![Add a nested tile](media/cj-add-child-tile.png "Add a nested tile")
 
-See the following sections for more information about working with the landing page, event, and survey tiles.
+See the following sections for more information about working with the marketing-page, marketing-form, event, and survey tiles.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md)
 
-### Landing page
+### Marketing form
 
-A landing page is any marketing page that is the destination of a link embedded in some other type of marketing message, such as an email or social media post. Landing-page tiles can be nested under email tiles, where they represent a landing-page link that is included in the email message's content. The most important reason to add a nested landing page tile is to enable trigger tiles placed later in the pipeline to "know" about the landing page link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the form after clicking it in the email.
+The marketing-from tile represents an embedded or captured form hosted on an external website.  There two ways to use them:
 
-When you nest a landing-page tile under an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same landing page (the system doesn't confirm this or modify the message when you add a nested tile).
+- **Nest under an email tile to enable triggering**: Marketing-from tiles can be nested under email tiles, where they represent a link to an external page that is included in the email message's content. The external page must include the captured or embedded marketing form represented by the tile. The most important reason to add a nested marketing-form tile is to enable trigger tiles placed later in the pipeline to "know" about the external-page link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the form after clicking it in the email.
+- **Place at the start of a journey to create an inbound campaign**: When placed at the start of a journey (in addition to, or instead of a segment tile), all new or existing contacts who submit the form will be sent on that journey. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create an inbound customer journey](create-inbound-customer-journey.md)
 
-Landing-page tiles provide the following settings in the **Properties** pane while selected:
+When you nest a marketing-form tile under an email tile, you must take care to ensure that the marketing email message itself also includes a link to a page that hosts that form (the system doesn't confirm this or modify the message when you add a nested tile).
+
+Marketing-form tiles provide the following settings in the **Properties** pane while selected:
 
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
-- **Marketing Page**: Identify the marketing page represented by the tile. Start typing a page name to select an existing page, or click on **New** to create a new one from here.
+- **Marketing form**: Identify the marketing form represented by the tile. Start typing a page name to select an existing form, or click on **New** to create a new one from here.
+- **Description**: Add a description or other notes here (optional).
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create marketing forms](marketing-forms.md) and [Integrate with landing pages on external websites](embed-forms.md)
+
+### Marketing page
+
+The marketing-page tile represents a native marketing page designed in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and running on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal. There two ways to use them:
+
+- **Nest under an email tile to enable triggering**: Marketing-page tiles can be nested under email tiles, where they represent a marketing-page link that is included in the email message's content. The most important reason to add a nested marketing-page tile is to enable trigger tiles placed later in the pipeline to "know" about the marketing page link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the form after clicking it in the email.
+- **Place at the start of a journey to create an inbound campaign**: When placed at the start of a journey (in addition to, or instead of a segment tile), all new or existing contacts who submit the page will be sent on that journey. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create an inbound customer journey](create-inbound-customer-journey.md)
+
+When you nest a marketing-page tile under an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same marketing page (the system doesn't confirm this or modify the message when you add a nested tile).
+
+Marketing-page tiles provide the following settings in the **Properties** pane while selected:
+
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Marketing page**: Identify the marketing page represented by the tile. Start typing a page name to select an existing page, or click on **New** to create a new one from here.
 - **Description**: Add a description or other notes here (optional).
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and deploy marketing pages](create-deploy-marketing-pages.md)
@@ -116,7 +136,7 @@ Activity tiles provide the following settings in the **Properties** pane while s
 
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Activity Type**: The type of activity (such as appointment, task, or phone call) the tile creates.
-- **Activity Template**: The template to use when creating the activity. The templates defines which type activity it is, who it should be assigned to, and other details. You can choose an existing template or create a new one from here, but you can only assign or create templates that have the same **Activity Type** as the tile. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create activity marketing templates for activity tiles](customer-journeys-create-automated-campaigns.md#create-activity-marketing-templates-for-activity-tiles)
+- **Activity Template**: The template to use when creating the activity. The templates defines which type activity it is, who it should be assigned to, and other details. You can choose an existing template or create a new one from here, but you can only assign or create templates that have the same **Activity Type** as the tile. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create activity marketing templates for activity tiles](activity-templates.md)
 - **Properties**: After you've selected a template, a summary of its settings is shown here.
 - **Create for each**: If your journey is set to target accounts, then use this setting to choose whether to create and assign an activity for every contact that enters the tile, or for the company (account) they work for. If you create for each account, then you'll only create one activity per account, even if several contacts from that account pass through the tile. This setting only appears when the journey **Target** is set to **Account** (on the **General** tab). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
 - **Assigned To:** Choose which user to assign the activity to (contact owner,contact creator, customer journey owner, or, if you are targeting accounts, the account owner).
@@ -205,10 +225,22 @@ Each segment tile always either contains or is nested below another segment tile
 
 ![A segment tile with two nested segments](media/cj-segment-stack.png "A segment tile with two nested segments")
 
-The previous image shows a segment stack built with two nested segments. The population of the resulting target segment, which is what will be processed by the customer journey, depends on the logic established by the container segment tile:
+The segment group tile provides the following settings in the **Properties** tab:
 
-- When the container segment is set to use *union* logic, any contact that is on at least one of the nested segments will be included in the customer journey, but contacts that appear on more than one nested segment will still be processed just once.
-- When the container segment is set to use *intersection* logic, then only contacts that appear on *all* nested segments will be targeted, so customers that appear on just one of the lists will be ignored.
+- **Tile name**: Enter a name that describes the tile.
+- **Segment merge logic**: If the group includes more than one nested segment, then use this setting to establish the logic for combining the members of the nested segments. Choose one of the following:
+  - **Union**: any contact that is on at least one of the nested segments will be included in the customer journey, but contacts that appear on more than one nested segment will still be processed just once.
+  - **intersection**: only contacts that appear on *all* nested segments will be targeted, so customers that appear on just one of the lists will be ignored.
+- **Description**: Enter a short description of how you are using the tile in this journey.
+
+Each nested segment tile provides the following settings:
+
+- **Tile name**: Enter a name that describes the tile.
+- **Containment method**: Choose **Inclusion** to add all members of this segment to the group. Choose **Exclusion** to remove all members of this segment from the group (if present).
+- **Segment source**: Choose **Segment** to add (or remove, depending on the **Containment method**) the members of a *segment* to the group. Choose **Subscription marketing list** to add the members of a subscription list (you can't remove members based on a subscription list).
+- **Segment**: If your **Segment source** is a segment, then use this field to choose the segment record.
+- **Marketing list**: If your **Segment source** is a subscription list, then use this field to choose the list.
+- **Description**: Enter a short description of how you are using the tile in this journey.
 
 ### Record updated
 
@@ -254,7 +286,7 @@ Trigger tiles hold contacts either until some condition is true, or until a defi
 
 A typical use of this is to set up an email tile followed by a trigger tile that holds each contact for 7 days, or until he or she opens the message. As soon as a contact opens the message, the trigger sends that contact down the *true* path, which might include tiles designed for contacts that have shown an interest in your messages. However, if the time limit passes and the contact still has not opened the message, then the trigger will send that contact down the *false* path, which might send the original message again, just to make sure.
 
-A wide range of trigger logic is available, and you can combine several rules into a complex logical expression. Some specialized trigger rules are even possible, such as reactions for specific landing page submissions, survey submissions or event registrations, but for these to work, the relevant survey, landing page, or event must be available to the trigger. So, to trigger on an email message, that message must be part of the current customer journey; and to trigger on a click or submission of a survey delivered by that email, that email tile must also have a nested tile that links to the appropriate survey setup. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email](#email).
+A wide range of trigger logic is available, and you can combine several rules into a complex logical expression. Some specialized trigger rules are even possible, such as reactions for specific marketing page submissions, survey submissions or event registrations, but for these to work, the relevant survey, marketing page, marketing form, or event must be available to the trigger. So, to trigger on an email message, that message must be part of the current customer journey; and to trigger on a click or submission of a survey delivered by that email, that email tile must also have a nested tile that links to the appropriate survey setup. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email](#email).
 
 Trigger tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 

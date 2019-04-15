@@ -42,4 +42,5 @@ Because your database probably includes a large number of contacts, the **Defini
 
 ### See also
 
-[Working with segments](segmentation-lists-subscriptions.md)
+[Working with segments](segmentation-lists-subscriptions.md)  
+[Manage segment memberships from a contact record](manage-segments-from-contacts.md)

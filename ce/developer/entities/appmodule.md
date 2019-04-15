@@ -1,21 +1,22 @@
 ---
-title: "AppModule Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "AppModule Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the AppModule entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # AppModule Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 A role-based, modular business app that provides task-based functionality for a particular area of work.
 
@@ -25,14 +26,14 @@ A role-based, modular business app that provides task-based functionality for a 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
 |AddAppComponents|<xref href="Microsoft.Dynamics.CRM.AddAppComponents?text=AddAppComponents Action" />|<xref:Microsoft.Crm.Sdk.Messages.AddAppComponentsRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/appmodules<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/appmodules(*appmoduleid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.0/appmodules<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/appmodules(*appmoduleid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |RemoveAppComponents|<xref href="Microsoft.Dynamics.CRM.RemoveAppComponents?text=RemoveAppComponents Action" />|<xref:Microsoft.Crm.Sdk.Messages.RemoveAppComponentsRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/appmodules(*appmoduleid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/appmodules(*appmoduleid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveAppComponents|<xref href="Microsoft.Dynamics.CRM.RetrieveAppComponents?text=RetrieveAppComponents Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAppComponentsRequest>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/appmodules<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/appmodules<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrieveUnpublishedMultiple|<xref href="Microsoft.Dynamics.CRM.RetrieveUnpublishedMultiple?text=RetrieveUnpublishedMultiple Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedMultipleRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/appmodules(*appmoduleid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/appmodules(*appmoduleid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |ValidateApp|<xref href="Microsoft.Dynamics.CRM.ValidateApp?text=ValidateApp Function" />|<xref:Microsoft.Crm.Sdk.Messages.ValidateAppRequest>|
 
 ## Entity Properties
@@ -40,8 +41,8 @@ A role-based, modular business app that provides task-based functionality for a 
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|AppModules|
-|DisplayCollectionName|Apps|
-|DisplayName|App|
+|DisplayCollectionName|Model-driven Apps|
+|DisplayName|Model-driven App|
 |EntitySetName|appmodules|
 |IsBPFEntity|False|
 |LogicalCollectionName|appmodules|
@@ -64,12 +65,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [ClientType](#BKMK_ClientType)
 - [ConfigXML](#BKMK_ConfigXML)
 - [Description](#BKMK_Description)
+- [EventHandlers](#BKMK_EventHandlers)
 - [FormFactor](#BKMK_FormFactor)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IntroducedVersion](#BKMK_IntroducedVersion)
 - [IsDefault](#BKMK_IsDefault)
 - [IsFeatured](#BKMK_IsFeatured)
 - [Name](#BKMK_Name)
+- [NavigationType](#BKMK_NavigationType)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [PublishedOn](#BKMK_PublishedOn)
 - [PublisherId](#BKMK_PublisherId)
@@ -96,7 +99,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the App Module used when synchronizing customizations for the Microsoft Dynamics 365 for Customer Engagement client for Outlook|
+|Description|Unique identifier of the App Module used when synchronizing customizations for the Microsoft Dynamics 365 client for Outlook|
 |DisplayName|App Module Unique Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -182,6 +185,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|description|
 |MaxLength|2000|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_EventHandlers"></a> EventHandlers
+
+|Property|Value|
+|--------|-----|
+|Description|App Module Event Handlers|
+|DisplayName|Event Handlers|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|eventhandlers|
+|MaxLength|1073741823|
 |RequiredLevel|None|
 |Type|String|
 
@@ -298,6 +317,27 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_NavigationType"></a> NavigationType
+
+|Property|Value|
+|--------|-----|
+|Description|App navigation type|
+|DisplayName|Navigation type|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|navigationtype|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+
+#### NavigationType Options
+
+|Value|Label|
+|-----|-----|
+|0|Single session|
+|1|Multi session|
+
+
+
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
 |Property|Value|
@@ -401,7 +441,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Uniqueidentifier|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ComponentState](#BKMK_ComponentState)
@@ -882,6 +924,6 @@ IntersectEntityName: appmoduleroles<br />
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.appmodule?text=appmodule EntityType" />

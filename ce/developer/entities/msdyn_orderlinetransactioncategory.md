@@ -1,43 +1,45 @@
 ---
-title: "msdyn_orderlinetransactioncategory Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_orderlinetransactioncategory Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_orderlinetransactioncategory entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_orderlinetransactioncategory Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 List of transaction categories that will be considered as costs when computing the profit of a project contract line.
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories(*msdyn_orderlinetransactioncategoryid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories(*msdyn_orderlinetransactioncategoryid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories(*msdyn_orderlinetransactioncategoryid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories(*msdyn_orderlinetransactioncategoryid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories(*msdyn_orderlinetransactioncategoryid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories(*msdyn_orderlinetransactioncategoryid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories(*msdyn_orderlinetransactioncategoryid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories(*msdyn_orderlinetransactioncategoryid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories(*msdyn_orderlinetransactioncategoryid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_orderlinetransactioncategories(*msdyn_orderlinetransactioncategoryid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -64,6 +66,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_BillingType](#BKMK_msdyn_BillingType)
 - [msdyn_ContractLine](#BKMK_msdyn_ContractLine)
+- [msdyn_ContractLineId](#BKMK_msdyn_ContractLineId)
 - [msdyn_ContractLineTransactionClassification](#BKMK_msdyn_ContractLineTransactionClassification)
 - [msdyn_description](#BKMK_msdyn_description)
 - [msdyn_orderlinetransactioncategoryId](#BKMK_msdyn_orderlinetransactioncategoryId)
@@ -122,16 +125,30 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Project contract line corresponding to this record.|
-|DisplayName|Project Contract Line|
+|Description|(Deprecated) Project contract line corresponding to this record.|
+|DisplayName|(Deprecated) Project Contract Line|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_contractline|
 |MaxLength|100|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_ContractLineId"></a> msdyn_ContractLineId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Project Contract Line associated with Project Contract Line Transaction Category.|
+|DisplayName|Project Contract Line|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_contractlineid|
+|RequiredLevel|None|
+|Targets|salesorderdetail|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_ContractLineTransactionClassification"></a> msdyn_ContractLineTransactionClassification
@@ -186,6 +203,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |DisplayName|Transaction Category|
 |IsValidForForm|True|
 |IsValidForRead|True|
+|IsValidForUpdate|False|
 |LogicalName|msdyn_transactioncategory|
 |RequiredLevel|ApplicationRequired|
 |Targets|msdyn_transactioncategory|
@@ -237,6 +255,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -250,6 +270,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -337,7 +359,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -354,6 +378,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_ContractLineIdName](#BKMK_msdyn_ContractLineIdName)
 - [msdyn_ContractLineTransactionClassificationName](#BKMK_msdyn_ContractLineTransactionClassificationName)
 - [msdyn_TransactionCategoryName](#BKMK_msdyn_TransactionCategoryName)
 - [OwnerIdName](#BKMK_OwnerIdName)
@@ -365,6 +390,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -379,6 +406,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -395,6 +424,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -427,6 +458,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -440,6 +473,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -457,6 +492,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -473,6 +510,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -486,6 +525,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -502,6 +543,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -534,6 +577,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -547,6 +592,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -564,6 +611,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -575,6 +624,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |LogicalName|modifiedonbehalfbyyominame|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_ContractLineIdName"></a> msdyn_ContractLineIdName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_contractlineidname|
+|MaxLength|100|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -612,6 +677,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Name of the owner|
@@ -627,6 +694,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -644,6 +713,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -657,6 +728,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -672,6 +745,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -685,6 +760,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -709,7 +786,6 @@ Listed by **SchemaName**.
 - [msdyn_orderlinetransactioncategory_DuplicateBaseRecord](#BKMK_msdyn_orderlinetransactioncategory_DuplicateBaseRecord)
 - [msdyn_orderlinetransactioncategory_AsyncOperations](#BKMK_msdyn_orderlinetransactioncategory_AsyncOperations)
 - [msdyn_orderlinetransactioncategory_MailboxTrackingFolders](#BKMK_msdyn_orderlinetransactioncategory_MailboxTrackingFolders)
-- [msdyn_orderlinetransactioncategory_UserEntityInstanceDatas](#BKMK_msdyn_orderlinetransactioncategory_UserEntityInstanceDatas)
 - [msdyn_orderlinetransactioncategory_ProcessSession](#BKMK_msdyn_orderlinetransactioncategory_ProcessSession)
 - [msdyn_orderlinetransactioncategory_BulkDeleteFailures](#BKMK_msdyn_orderlinetransactioncategory_BulkDeleteFailures)
 - [msdyn_orderlinetransactioncategory_PrincipalObjectAttributeAccesses](#BKMK_msdyn_orderlinetransactioncategory_PrincipalObjectAttributeAccesses)
@@ -717,6 +793,8 @@ Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_orderlinetransactioncategory_SyncErrors"></a> msdyn_orderlinetransactioncategory_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_orderlinetransactioncategory_SyncErrors](syncerror.md#BKMK_msdyn_orderlinetransactioncategory_SyncErrors) Many-To-One relationship.
 
@@ -728,10 +806,12 @@ Same as syncerror entity [msdyn_orderlinetransactioncategory_SyncErrors](syncerr
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_orderlinetransactioncategory_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_orderlinetransactioncategory_DuplicateMatchingRecord"></a> msdyn_orderlinetransactioncategory_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_orderlinetransactioncategory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_orderlinetransactioncategory_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -748,6 +828,8 @@ Same as duplicaterecord entity [msdyn_orderlinetransactioncategory_DuplicateMatc
 
 ### <a name="BKMK_msdyn_orderlinetransactioncategory_DuplicateBaseRecord"></a> msdyn_orderlinetransactioncategory_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_orderlinetransactioncategory_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_orderlinetransactioncategory_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -762,6 +844,8 @@ Same as duplicaterecord entity [msdyn_orderlinetransactioncategory_DuplicateBase
 
 
 ### <a name="BKMK_msdyn_orderlinetransactioncategory_AsyncOperations"></a> msdyn_orderlinetransactioncategory_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [msdyn_orderlinetransactioncategory_AsyncOperations](asyncoperation.md#BKMK_msdyn_orderlinetransactioncategory_AsyncOperations) Many-To-One relationship.
 
@@ -778,6 +862,8 @@ Same as asyncoperation entity [msdyn_orderlinetransactioncategory_AsyncOperation
 
 ### <a name="BKMK_msdyn_orderlinetransactioncategory_MailboxTrackingFolders"></a> msdyn_orderlinetransactioncategory_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_orderlinetransactioncategory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_orderlinetransactioncategory_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -788,25 +874,12 @@ Same as mailboxtrackingfolder entity [msdyn_orderlinetransactioncategory_Mailbox
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_orderlinetransactioncategory_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_orderlinetransactioncategory_UserEntityInstanceDatas"></a> msdyn_orderlinetransactioncategory_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_orderlinetransactioncategory_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_orderlinetransactioncategory_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_orderlinetransactioncategory_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_orderlinetransactioncategory_ProcessSession"></a> msdyn_orderlinetransactioncategory_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_orderlinetransactioncategory_ProcessSession](processsession.md#BKMK_msdyn_orderlinetransactioncategory_ProcessSession) Many-To-One relationship.
 
@@ -823,6 +896,8 @@ Same as processsession entity [msdyn_orderlinetransactioncategory_ProcessSession
 
 ### <a name="BKMK_msdyn_orderlinetransactioncategory_BulkDeleteFailures"></a> msdyn_orderlinetransactioncategory_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_orderlinetransactioncategory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_orderlinetransactioncategory_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -838,6 +913,8 @@ Same as bulkdeletefailure entity [msdyn_orderlinetransactioncategory_BulkDeleteF
 
 ### <a name="BKMK_msdyn_orderlinetransactioncategory_PrincipalObjectAttributeAccesses"></a> msdyn_orderlinetransactioncategory_PrincipalObjectAttributeAccesses
 
+**Added by**: System Solution Solution
+
 Same as principalobjectattributeaccess entity [msdyn_orderlinetransactioncategory_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_orderlinetransactioncategory_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
 |Property|Value|
@@ -852,6 +929,8 @@ Same as principalobjectattributeaccess entity [msdyn_orderlinetransactioncategor
 
 
 ### <a name="BKMK_msdyn_orderlinetransactioncategory_Annotations"></a> msdyn_orderlinetransactioncategory_Annotations
+
+**Added by**: System Solution Solution
 
 Same as annotation entity [msdyn_orderlinetransactioncategory_Annotations](annotation.md#BKMK_msdyn_orderlinetransactioncategory_Annotations) Many-To-One relationship.
 
@@ -880,33 +959,48 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [business_unit_msdyn_orderlinetransactioncategory](#BKMK_business_unit_msdyn_orderlinetransactioncategory)
 - [msdyn_msdyn_transactioncategory_msdyn_orderlinetransactioncategory_TransactionCategory](#BKMK_msdyn_msdyn_transactioncategory_msdyn_orderlinetransactioncategory_TransactionCategory)
 - [msdyn_orderlinetransactionclassification_msdyn_orderlinetransactioncategory_ContractLineTransaction](#BKMK_msdyn_orderlinetransactionclassification_msdyn_orderlinetransactioncategory_ContractLineTransaction)
+- [msdyn_salesorderdetail_msdyn_orderlinetranscat](#BKMK_msdyn_salesorderdetail_msdyn_orderlinetranscat)
 
 
 ### <a name="BKMK_lk_msdyn_orderlinetransactioncategory_createdby"></a> lk_msdyn_orderlinetransactioncategory_createdby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_orderlinetransactioncategory_createdby](systemuser.md#BKMK_lk_msdyn_orderlinetransactioncategory_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_orderlinetransactioncategory_createdonbehalfby"></a> lk_msdyn_orderlinetransactioncategory_createdonbehalfby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_orderlinetransactioncategory_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_orderlinetransactioncategory_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_orderlinetransactioncategory_modifiedby"></a> lk_msdyn_orderlinetransactioncategory_modifiedby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_orderlinetransactioncategory_modifiedby](systemuser.md#BKMK_lk_msdyn_orderlinetransactioncategory_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_orderlinetransactioncategory_modifiedonbehalfby"></a> lk_msdyn_orderlinetransactioncategory_modifiedonbehalfby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_orderlinetransactioncategory_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_orderlinetransactioncategory_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_orderlinetransactioncategory"></a> user_msdyn_orderlinetransactioncategory
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [user_msdyn_orderlinetransactioncategory](systemuser.md#BKMK_user_msdyn_orderlinetransactioncategory) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_orderlinetransactioncategory"></a> team_msdyn_orderlinetransactioncategory
 
+**Added by**: System Solution Solution
+
 See team Entity [team_msdyn_orderlinetransactioncategory](team.md#BKMK_team_msdyn_orderlinetransactioncategory) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_orderlinetransactioncategory"></a> business_unit_msdyn_orderlinetransactioncategory
+
+**Added by**: System Solution Solution
 
 See businessunit Entity [business_unit_msdyn_orderlinetransactioncategory](businessunit.md#BKMK_business_unit_msdyn_orderlinetransactioncategory) One-To-Many relationship.
 
@@ -918,9 +1012,15 @@ See msdyn_transactioncategory Entity [msdyn_msdyn_transactioncategory_msdyn_orde
 
 See msdyn_orderlinetransactionclassification Entity [msdyn_orderlinetransactionclassification_msdyn_orderlinetransactioncategory_ContractLineTransaction](msdyn_orderlinetransactionclassification.md#BKMK_msdyn_orderlinetransactionclassification_msdyn_orderlinetransactioncategory_ContractLineTransaction) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_salesorderdetail_msdyn_orderlinetranscat"></a> msdyn_salesorderdetail_msdyn_orderlinetranscat
+
+**Added by**: Sales Solution
+
+See salesorderdetail Entity [msdyn_salesorderdetail_msdyn_orderlinetranscat](salesorderdetail.md#BKMK_msdyn_salesorderdetail_msdyn_orderlinetranscat) One-To-Many relationship.
+
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_orderlinetransactioncategory?text=msdyn_orderlinetransactioncategory EntityType" />

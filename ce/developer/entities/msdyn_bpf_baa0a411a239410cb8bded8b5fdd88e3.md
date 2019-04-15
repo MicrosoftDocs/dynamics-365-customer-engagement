@@ -1,37 +1,39 @@
 ---
-title: "msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Base entity for process Agreement Business Process
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s(*businessprocessflowinstanceid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s(*businessprocessflowinstanceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s(*businessprocessflowinstanceid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s(*businessprocessflowinstanceid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s(*businessprocessflowinstanceid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s(*businessprocessflowinstanceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s(*businessprocessflowinstanceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3s(*businessprocessflowinstanceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -74,6 +76,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_ActiveStageId"></a> ActiveStageId
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -224,6 +228,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ProcessId"></a> ProcessId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the workflow associated to the Business Process Flow instance.|
@@ -298,6 +304,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_TraversedPath"></a> TraversedPath
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Comma delimited string of process stage ids that represent visited stages of the Business Process Flow instance.|
@@ -328,7 +336,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ActiveStageIdName](#BKMK_ActiveStageIdName)
@@ -357,6 +367,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ActiveStageIdName"></a> ActiveStageIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -438,6 +450,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -451,6 +465,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -467,6 +483,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -499,6 +517,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -512,6 +532,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -529,6 +551,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -545,6 +569,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -558,6 +584,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -574,6 +602,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -606,6 +636,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -619,6 +651,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -636,6 +670,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -652,6 +688,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the organization|
@@ -665,6 +703,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -682,6 +722,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ProcessIdName"></a> ProcessIdName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -697,6 +739,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -720,13 +764,14 @@ Listed by **SchemaName**.
 - [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncOperations](#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncOperations)
 - [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowLogs](#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowLogs)
 - [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_MailboxTrackingFolders](#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_MailboxTrackingFolders)
-- [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_UserEntityInstanceDatas](#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_UserEntityInstanceDatas)
 - [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_ProcessSession](#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_ProcessSession)
 - [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_BulkDeleteFailures](#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_BulkDeleteFailures)
 - [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_PrincipalObjectAttributeAccesses](#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_PrincipalObjectAttributeAccesses)
 
 
 ### <a name="BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_SyncErrors"></a> msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_SyncErrors](syncerror.md#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_SyncErrors) Many-To-One relationship.
 
@@ -743,6 +788,8 @@ Same as syncerror entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_SyncErrors]
 
 ### <a name="BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncOperations"></a> msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncOperations](asyncoperation.md#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -757,6 +804,8 @@ Same as asyncoperation entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncO
 
 
 ### <a name="BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowLogs"></a> msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowLogs
+
+**Added by**: System Solution Solution
 
 Same as workflowlog entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowLogs](workflowlog.md#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowLogs) Many-To-One relationship.
 
@@ -773,6 +822,8 @@ Same as workflowlog entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowL
 
 ### <a name="BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_MailboxTrackingFolders"></a> msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -786,22 +837,9 @@ Same as mailboxtrackingfolder entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_UserEntityInstanceDatas"></a> msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_ProcessSession"></a> msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_ProcessSession](processsession.md#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_ProcessSession) Many-To-One relationship.
 
@@ -818,6 +856,8 @@ Same as processsession entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_Proces
 
 ### <a name="BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_BulkDeleteFailures"></a> msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -832,6 +872,8 @@ Same as bulkdeletefailure entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_Bul
 
 
 ### <a name="BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_PrincipalObjectAttributeAccesses"></a> msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -865,29 +907,43 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_createdby"></a> lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_createdby](systemuser.md#BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_createdonbehalfby"></a> lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_modifiedby"></a> lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_modifiedby](systemuser.md#BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_modifiedonbehalfby"></a> lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_organization_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3"></a> organization_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3
 
+**Added by**: System Solution Solution
+
 See organization Entity [organization_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3](organization.md#BKMK_organization_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_activestageid"></a> lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_activestageid
 
+**Added by**: System Solution Solution
+
 See processstage Entity [lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_activestageid](processstage.md#BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_activestageid) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_processid"></a> lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_processid
+
+**Added by**: System Solution Solution
 
 See workflow Entity [lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_processid](workflow.md#BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_processid) One-To-Many relationship.
 
@@ -906,6 +962,6 @@ See msdyn_agreementinvoicesetup Entity [bpf_msdyn_agreementinvoicesetup_msdyn_bp
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3?text=msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 EntityType" />
