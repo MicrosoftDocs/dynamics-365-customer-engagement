@@ -13,7 +13,7 @@ ms.assetid: 6977E402-7EF8-4B0B-9837-E8A003422796
 ms.custom: 
 ---
 
-# Sign in to Dynamics 365 Customer Service Hub app
+# Sign in to Omni-channel Engagement Hub
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
