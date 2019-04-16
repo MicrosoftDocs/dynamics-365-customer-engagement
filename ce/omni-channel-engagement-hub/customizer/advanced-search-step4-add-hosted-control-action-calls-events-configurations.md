@@ -53,6 +53,8 @@ This topic describes how to add hosted control, action calls, and events to conf
 8. Repeat steps 4 through 7 to add the hosted controls and the events by selecting the Down arrow next to **Configuration** and then selecting **Hosted Controls** and **Events**, respectively.
 
 9. When you've finished, select **Save**.  
+. 
+## See also
 
 - [Step 1: Create advanced search hosted control](advanced-search-step1-create-hosted-control.md)
 - [Step 2: Create advanced search related action calls](advanced-search-step2-create-action-calls.md)
