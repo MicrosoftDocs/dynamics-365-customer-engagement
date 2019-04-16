@@ -104,7 +104,10 @@
         "marketing/**/*.md": [
           "dynamics-marketing"
         ],
-        "sales/**/*.md": [
+        "sales-enterprise/**/*.md": [
+          "dynamics-sales"
+        ],
+        "sales-professional/**/*.md": [
           "dynamics-sales"
         ]
       },
