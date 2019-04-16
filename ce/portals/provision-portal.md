@@ -4,7 +4,7 @@ description: "Instructions to provision a portal."
 ms.custom: 
   - dyn365-portal
   - dyn365-deflc
-ms.date: 04/05/2019
+ms.date: 04/17/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -65,7 +65,7 @@ To complete provisioning a portal, after you have purchased a new portal license
 6.  In the **Dynamics 365 Instance** drop-down list, select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you want to link the portal to. This requires System Administrator or System Customizer role in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you pick to select it.
 
     > [!NOTE]
-    > You can also select a Dynamics 365 instance that Common Data Service to provision a Common Data Service starter portal. More information: [Common Data Service starter portal](cds-portal.md)
+    > You can also select a Dynamics 365 instance that uses Common Data Service to provision a Common Data Service starter portal. More information: [Common Data Service starter portal](cds-portal.md)
 
 7.  In the **Select Portal Language** drop-down list, select the default language for your portal. The available languages will depend on the languages that are installed in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. 
 
