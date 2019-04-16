@@ -2,8 +2,8 @@
 title: "Download Dynamics 365 for Customer Engagement apps version 9.x Software Development Kit (SDK) | MicrosoftDocs"
 description: "Contains information about the SDK for Microsoft Dynamics 365 for Customer Engagement apps version 9.x Customer Engagement, formerly called Microsoft Dynamics CRM."
 ms.custom: 
-ms.date: 09/25/2018
-ms.reviewer: 
+ms.date: 03/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

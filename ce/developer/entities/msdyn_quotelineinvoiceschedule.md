@@ -1,37 +1,39 @@
 ---
-title: "msdyn_quotelineinvoiceschedule Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_quotelineinvoiceschedule Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_quotelineinvoiceschedule entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # msdyn_quotelineinvoiceschedule Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 List of dates on which invoicing for this customer should be run. This list is used by an invoice creation job.
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_quotelineinvoiceschedules<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_quotelineinvoiceschedules(*msdyn_quotelineinvoicescheduleid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_quotelineinvoiceschedules<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_quotelineinvoiceschedules(*msdyn_quotelineinvoicescheduleid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_quotelineinvoiceschedules(*msdyn_quotelineinvoicescheduleid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_quotelineinvoiceschedules<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_quotelineinvoiceschedules(*msdyn_quotelineinvoicescheduleid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_quotelineinvoiceschedules(*msdyn_quotelineinvoicescheduleid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_quotelineinvoiceschedules(*msdyn_quotelineinvoicescheduleid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_quotelineinvoiceschedules<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_quotelineinvoiceschedules(*msdyn_quotelineinvoicescheduleid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_quotelineinvoiceschedules(*msdyn_quotelineinvoicescheduleid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -59,6 +61,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_InvoiceRunDate](#BKMK_msdyn_InvoiceRunDate)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_QuoteLine](#BKMK_msdyn_QuoteLine)
+- [msdyn_quotelineid](#BKMK_msdyn_quotelineid)
 - [msdyn_quotelineinvoicescheduleId](#BKMK_msdyn_quotelineinvoicescheduleId)
 - [msdyn_QuoteLineScheduleOfValue](#BKMK_msdyn_QuoteLineScheduleOfValue)
 - [msdyn_transactioncutoffdate](#BKMK_msdyn_transactioncutoffdate)
@@ -121,16 +124,30 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Type the reference to the quote line that this invoice schedule is for.|
-|DisplayName|Quote Line|
+|Description|(Deprecated) Type the reference to the quote line that this invoice schedule is for.|
+|DisplayName|(Deprecated) Quote Line|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_quoteline|
 |MaxLength|100|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_quotelineid"></a> msdyn_quotelineid
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Quote Line associated with this invoice schedule.|
+|DisplayName|Quote Line|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_quotelineid|
+|RequiredLevel|None|
+|Targets|quotedetail|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_quotelineinvoicescheduleId"></a> msdyn_quotelineinvoicescheduleId
@@ -267,7 +284,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -284,6 +303,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_quotelineidName](#BKMK_msdyn_quotelineidName)
 - [msdyn_QuoteLineScheduleOfValueName](#BKMK_msdyn_QuoteLineScheduleOfValueName)
 - [OrganizationId](#BKMK_OrganizationId)
 - [OrganizationIdName](#BKMK_OrganizationIdName)
@@ -291,6 +311,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -305,6 +327,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -321,6 +345,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -353,6 +379,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -366,6 +394,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -383,6 +413,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -399,6 +431,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -412,6 +446,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -428,6 +464,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -460,6 +498,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -473,6 +513,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -490,6 +532,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -501,6 +545,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |LogicalName|modifiedonbehalfbyyominame|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_quotelineidName"></a> msdyn_quotelineidName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_quotelineidname|
+|MaxLength|100|
+|RequiredLevel|None|
 |Type|String|
 
 
@@ -522,6 +582,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the organization|
@@ -535,6 +597,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -551,6 +615,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -575,13 +641,14 @@ Listed by **SchemaName**.
 - [msdyn_quotelineinvoiceschedule_DuplicateBaseRecord](#BKMK_msdyn_quotelineinvoiceschedule_DuplicateBaseRecord)
 - [msdyn_quotelineinvoiceschedule_AsyncOperations](#BKMK_msdyn_quotelineinvoiceschedule_AsyncOperations)
 - [msdyn_quotelineinvoiceschedule_MailboxTrackingFolders](#BKMK_msdyn_quotelineinvoiceschedule_MailboxTrackingFolders)
-- [msdyn_quotelineinvoiceschedule_UserEntityInstanceDatas](#BKMK_msdyn_quotelineinvoiceschedule_UserEntityInstanceDatas)
 - [msdyn_quotelineinvoiceschedule_ProcessSession](#BKMK_msdyn_quotelineinvoiceschedule_ProcessSession)
 - [msdyn_quotelineinvoiceschedule_BulkDeleteFailures](#BKMK_msdyn_quotelineinvoiceschedule_BulkDeleteFailures)
 - [msdyn_quotelineinvoiceschedule_PrincipalObjectAttributeAccesses](#BKMK_msdyn_quotelineinvoiceschedule_PrincipalObjectAttributeAccesses)
 
 
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_SyncErrors"></a> msdyn_quotelineinvoiceschedule_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [msdyn_quotelineinvoiceschedule_SyncErrors](syncerror.md#BKMK_msdyn_quotelineinvoiceschedule_SyncErrors) Many-To-One relationship.
 
@@ -598,6 +665,8 @@ Same as syncerror entity [msdyn_quotelineinvoiceschedule_SyncErrors](syncerror.m
 
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_DuplicateMatchingRecord"></a> msdyn_quotelineinvoiceschedule_DuplicateMatchingRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [msdyn_quotelineinvoiceschedule_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_quotelineinvoiceschedule_DuplicateMatchingRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -612,6 +681,8 @@ Same as duplicaterecord entity [msdyn_quotelineinvoiceschedule_DuplicateMatching
 
 
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_DuplicateBaseRecord"></a> msdyn_quotelineinvoiceschedule_DuplicateBaseRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [msdyn_quotelineinvoiceschedule_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_quotelineinvoiceschedule_DuplicateBaseRecord) Many-To-One relationship.
 
@@ -628,6 +699,8 @@ Same as duplicaterecord entity [msdyn_quotelineinvoiceschedule_DuplicateBaseReco
 
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_AsyncOperations"></a> msdyn_quotelineinvoiceschedule_AsyncOperations
 
+**Added by**: System Solution Solution
+
 Same as asyncoperation entity [msdyn_quotelineinvoiceschedule_AsyncOperations](asyncoperation.md#BKMK_msdyn_quotelineinvoiceschedule_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -643,6 +716,8 @@ Same as asyncoperation entity [msdyn_quotelineinvoiceschedule_AsyncOperations](a
 
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_MailboxTrackingFolders"></a> msdyn_quotelineinvoiceschedule_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [msdyn_quotelineinvoiceschedule_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_quotelineinvoiceschedule_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -656,22 +731,9 @@ Same as mailboxtrackingfolder entity [msdyn_quotelineinvoiceschedule_MailboxTrac
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_msdyn_quotelineinvoiceschedule_UserEntityInstanceDatas"></a> msdyn_quotelineinvoiceschedule_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [msdyn_quotelineinvoiceschedule_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_quotelineinvoiceschedule_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_quotelineinvoiceschedule_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_ProcessSession"></a> msdyn_quotelineinvoiceschedule_ProcessSession
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [msdyn_quotelineinvoiceschedule_ProcessSession](processsession.md#BKMK_msdyn_quotelineinvoiceschedule_ProcessSession) Many-To-One relationship.
 
@@ -688,6 +750,8 @@ Same as processsession entity [msdyn_quotelineinvoiceschedule_ProcessSession](pr
 
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_BulkDeleteFailures"></a> msdyn_quotelineinvoiceschedule_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [msdyn_quotelineinvoiceschedule_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_quotelineinvoiceschedule_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -702,6 +766,8 @@ Same as bulkdeletefailure entity [msdyn_quotelineinvoiceschedule_BulkDeleteFailu
 
 
 ### <a name="BKMK_msdyn_quotelineinvoiceschedule_PrincipalObjectAttributeAccesses"></a> msdyn_quotelineinvoiceschedule_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [msdyn_quotelineinvoiceschedule_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_quotelineinvoiceschedule_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -727,25 +793,36 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [lk_msdyn_quotelineinvoiceschedule_modifiedonbehalfby](#BKMK_lk_msdyn_quotelineinvoiceschedule_modifiedonbehalfby)
 - [organization_msdyn_quotelineinvoiceschedule](#BKMK_organization_msdyn_quotelineinvoiceschedule)
 - [msdyn_msdyn_quotelinescheduleofvalue_msdyn_quotelineinvoiceschedule_QuoteLineScheduleOfValue](#BKMK_msdyn_msdyn_quotelinescheduleofvalue_msdyn_quotelineinvoiceschedule_QuoteLineScheduleOfValue)
+- [msdyn_quotedetail_msdyn_quotelineinvoiceschedu](#BKMK_msdyn_quotedetail_msdyn_quotelineinvoiceschedu)
 
 
 ### <a name="BKMK_lk_msdyn_quotelineinvoiceschedule_createdby"></a> lk_msdyn_quotelineinvoiceschedule_createdby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_quotelineinvoiceschedule_createdby](systemuser.md#BKMK_lk_msdyn_quotelineinvoiceschedule_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_quotelineinvoiceschedule_createdonbehalfby"></a> lk_msdyn_quotelineinvoiceschedule_createdonbehalfby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_quotelineinvoiceschedule_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_quotelineinvoiceschedule_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_quotelineinvoiceschedule_modifiedby"></a> lk_msdyn_quotelineinvoiceschedule_modifiedby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_msdyn_quotelineinvoiceschedule_modifiedby](systemuser.md#BKMK_lk_msdyn_quotelineinvoiceschedule_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_quotelineinvoiceschedule_modifiedonbehalfby"></a> lk_msdyn_quotelineinvoiceschedule_modifiedonbehalfby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_msdyn_quotelineinvoiceschedule_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_quotelineinvoiceschedule_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_organization_msdyn_quotelineinvoiceschedule"></a> organization_msdyn_quotelineinvoiceschedule
+
+**Added by**: System Solution Solution
 
 See organization Entity [organization_msdyn_quotelineinvoiceschedule](organization.md#BKMK_organization_msdyn_quotelineinvoiceschedule) One-To-Many relationship.
 
@@ -753,9 +830,15 @@ See organization Entity [organization_msdyn_quotelineinvoiceschedule](organizati
 
 See msdyn_quotelinescheduleofvalue Entity [msdyn_msdyn_quotelinescheduleofvalue_msdyn_quotelineinvoiceschedule_QuoteLineScheduleOfValue](msdyn_quotelinescheduleofvalue.md#BKMK_msdyn_msdyn_quotelinescheduleofvalue_msdyn_quotelineinvoiceschedule_QuoteLineScheduleOfValue) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_quotedetail_msdyn_quotelineinvoiceschedu"></a> msdyn_quotedetail_msdyn_quotelineinvoiceschedu
+
+**Added by**: Sales Solution
+
+See quotedetail Entity [msdyn_quotedetail_msdyn_quotelineinvoiceschedu](quotedetail.md#BKMK_msdyn_quotedetail_msdyn_quotelineinvoiceschedu) One-To-Many relationship.
+
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_quotelineinvoiceschedule?text=msdyn_quotelineinvoiceschedule EntityType" />

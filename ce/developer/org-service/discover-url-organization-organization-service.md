@@ -21,7 +21,7 @@ search.app:
   - D365CE
 ---
 
-# Discover the URL for your organization using the Discovery Service
+# Discover the URL for your organization using the Discovery Service 
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -29,7 +29,7 @@ Use the discovery service to determine the organizations that a user is a member
   
  For [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps installations, server and organization allocation may change as part of datacenter management and load balancing. Therefore, the discovery service provides a way to discover which [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps server is serving your organization at a given time.  
   
- The following table lists the Web service URLs for the worldwide [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md) apps data centers.  
+ The following table lists the Web service URLs for the worldwide Dynamics 365 for Customer Engagement apps data centers.  
 
 [!INCLUDE [regional-discovery-services](../../includes/regional-discovery-services.md)]
   

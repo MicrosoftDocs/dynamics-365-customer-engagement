@@ -49,7 +49,7 @@ If the email to case conversion is not working, follow the below troubleshooting
 
 - **Action**: Go to system jobs and check for any failure message. 
  
-For more information about configuration failure scenarios and resolution for sample configuration failure, see [Configuration failure scenarios and resolutions](#configuration-failure-scenarios-and-resolution).
+For more information about configuration failure scenarios and resolution for sample configuration failure, see [Configuration failure scenarios and resolutions](#configuration-failure-scenarios-and-resolutions).
 
 
 > [!NOTE]
