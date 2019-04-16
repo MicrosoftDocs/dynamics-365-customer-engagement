@@ -43,11 +43,11 @@ This topic describes how to attach the customer summary-related action calls to 
 
 3. Select **Unified Service Desk Administrator**.
 
-4. Select **Events** and then select the event to which you want to add the action call. Select **DesktopReady**.
+4. Select **Events** and then select the event to which you want to add the action call. Select **BrowserWindowReady**.
 
 5. Select **Add an Existing Action Call**. The **Lookup Records** pane appears.
 
-6. In the **Lookup Records** pane, enter the name of the action call you want to add. Enter **Launch Communication Panel** in the search box and select the action from the list, and then select **Add**. The action call is added to the **DesktopReady** event.
+6. In the **Lookup Records** pane, enter the name of the action call you want to add. Enter **Initialize Omni-channel Context - Window Variable - Customer Summary** in the search box and select the action from the list, and then select **Add**. The action call is added to the **BrowserWindowReady** event.
 
 7. Select **Save**.
 
