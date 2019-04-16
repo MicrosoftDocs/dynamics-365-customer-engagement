@@ -1,5 +1,5 @@
 ---
-title: "Preview: Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams| MicrosoftDocs"
+title: "Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams."
 ms.date: 4/16/2019
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-Integrate Dynamics 365 for Customer Engagement apps with Microsoft Teams 
+# Integrate Dynamics 365 for Customer Engagement apps with Microsoft Teams 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
