@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic provides information about where you can download the developer tools, assemblies, and code samples that are shipped as part of the Software Development Kit (SDK) for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps version 9.x.
+This topic provides information about where you can download the developer tools, assemblies, and code samples that are included with the Software Development Kit (SDK) for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps version 9.x.
 
 ## Developer tools
 
@@ -34,11 +34,11 @@ The following developer tools in the SDK are available as NuGet packages:
 - Plug-in Registration
 - Solution Packager 
 
-To download developer tools, see [Download tools from NuGet](download-tools-nuget.md)
+To download developer tools, visit [Download tools from NuGet](download-tools-nuget.md)
 
 ## SDK assemblies
 
-The SDK assemblies are available as NuGet packages that you can directly use in your Visual Studio projects. For information about using a NuGet package in Visual Studio, see [Install and use a package in Visual Studio](https://docs.microsoft.com/nuget/quickstart/install-and-use-a-package-in-visual-studio)
+The SDK assemblies are available as NuGet packages that you can use in your Visual Studio projects. For information about how to use a NuGet package in Visual Studio, see [Install and use a package in Visual Studio](https://docs.microsoft.com/nuget/quickstart/install-and-use-a-package-in-visual-studio)
 
 The following SDK assemblies are available:
 
@@ -56,7 +56,7 @@ The following SDK assemblies are available:
 For the complete list of developer code samples, see [Sample code directory for Dynamics 365 for Customer Engagement apps](sample-code-directory.md)
 
  
-### See also
+### Related content
 
 [Choose your development style for Dynamics 365 for Customer Engagement apps](choose-development-style.md)
   
