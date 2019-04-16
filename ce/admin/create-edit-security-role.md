@@ -116,7 +116,9 @@ You can create new security roles to accommodate changes in your business requir
 6. When you have finished configuring the security role, on the toolbar, click or tap **Save and Close**.  
   
 ## Minimum privileges for common tasks  
- It's helpful to keep in mind the minimum privileges that are needed for some common tasks. We've created a solution you can import that provides a security role with the required minimum privileges.
+ It's helpful to keep in mind the minimum privileges that are needed for some common tasks. This means that a user is required to have a security role with these privileges in order to run applications. 
+ 
+ We've created a solution you can import that provides a security role with the required minimum privileges.
 
 Start by downloading the solution from the Download Center: [Common Data Service minimum privilege security role](http://download.microsoft.com/download/6/5/5/6552A30E-05F4-45F0-AEE3-9BB01E13118A/MinprivilegeSecRole_1_0_0_0.zip).
 
