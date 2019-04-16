@@ -55,7 +55,19 @@ The [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.m
 
 <a name="bkmk_automation"></a>
 
+Finding Nemo | Lion King | Snow White | Cars | Frozen | 
+------------ | --------- | ---------- | ---- | ------ |
+Marlin | Scar | Grumpy| Mater | Olaf | 
+Dory  | Simba | Magic Mirror | Doc Hudson | Anna |
+Bubbles | Zazxu | Dopey | Sally | Elsa |
+
+
+![Resume1](https://github.com/B3bender/GitHub-Test/blob/master/BBBender_Resume_Page1.png "Why You Need Me - Part 1")
+![Resume2](https://github.com/B3bender/GitHub-Test/blob/master/BBBender_Resume_Page2.png "Why You Need Me - Part 2")
+
 ## Automate business processes
+
+
 
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] applications are all about improving efficiency by automating business processes. Understanding the different ways to do this can help you choose the right option for your requirement. The following are options available to you:
 
