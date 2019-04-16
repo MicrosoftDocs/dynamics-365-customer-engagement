@@ -1,7 +1,7 @@
 ---
 title: "Change the Dynamics 365 for Customer Engagement instance, audience, or type of Dynamics 365 for Customer Engagement portals | MicrosoftDocs"
 description: "Learn how to change the Dynamics 365 for Customer Engagement instance, audience, or type of a portal."
-ms.date: 04/05/2019
+ms.date: 04/17/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -35,7 +35,7 @@ After your portal is created and provisioned, you can change the details of your
 4. Select **Update Dynamics 365 Instance**. In the dialog box, use the provided fields to change your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, portal development status, portal language, or your portal administrator. You can also keep the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, but change the portal audience or type of portal.
 
     > [!NOTE]
-    > You can also select a Dynamics 365 instance that Common Data Service to provision a Common Data Service starter portal. More information: [Common Data Service starter portal](cds-portal.md)
+    > You can also select a Dynamics 365 instance that uses Common Data Service to provision a Common Data Service starter portal. More information: [Common Data Service starter portal](cds-portal.md)
 
 5. Select the ![Confirm action](media/confirm-action-icon.png "Confirm action") button to confirm your changes.  
 
