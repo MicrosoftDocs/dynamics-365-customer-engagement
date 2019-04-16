@@ -63,17 +63,13 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
     | General | Order | 1 |
     | General | Hosted Control | Omni-channel Advanced Search |
     | General | Action         | Close             |
-
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
+    | | | |
     | General | Name           | Update Conversation Context Entities    |
     | General | Order | 2 |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelUpdateContextEntities |
     | General | Data | ChatPayLoad=\[\[PostData\]\] |
-
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
+    | | | |
     | General | Name           | Load Agent Session Search Page    |
     | General | Order | 20 |
     | General | Hosted Control | Omni-channel Advanced Search |
