@@ -1,5 +1,5 @@
 ---
-title: "Social Engagement 2018 Update 1.9 Readme"
+title: "Social Engagement Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: readme, known issues, information
 ms.date: 04/16/2019
