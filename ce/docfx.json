@@ -87,7 +87,7 @@
     },
     "fileMetadata": {
       "featureFlags": {
-        "**/*.md": [
+        "ce/**/*.md": [
           "show_learn_banner"
         ]
       },
