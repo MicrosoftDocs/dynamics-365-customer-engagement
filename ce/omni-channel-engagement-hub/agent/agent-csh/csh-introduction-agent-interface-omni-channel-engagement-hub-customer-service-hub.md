@@ -118,6 +118,58 @@ When you sign in to Omni-channel Engagement Hub, as an agent, you see the Omni-c
 
     In the **Closed work items** stream, the stream refreshes and shows you all the conversations that you've closed in the past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
+## 5. Navigation bar buttons
+
+The navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub app contains the following:
+
+![Navigation bar buttons of Omni-channel Engagement Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")
+
+ a. **Search.** Do a simple search for records.
+
+ b. **Task flow.** Create an automated task flow between your apps and services.
+
+ c. **Relationship assistant.**
+
+ d. **Quick create.** Add a new record.
+
+ e. **Advanced find.** Do an advanced search using filters, sorting, and criteria.
+
+ f. **Settings.** Set personal options.
+
+ g. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down to select a status.
+
+ h. **Help.** Get the help documentation.
+
+ i. **User.** See user information.
+
+- **Search**
+
+    The search option lets you search records and open a record in a new active session. You can search for the following records using the search option:
+
+    - Case
+    - Contact
+    - Account
+
+- **Create**
+
+    The quick create option provides the list of related records (entities) that you can create. The following are the record types that you can create: 
+
+    - Activities
+    - Appointment
+    - Email
+    - Phone Call
+    - Task
+    - Account
+    - Case
+    - Contact
+    - Knowledge Article
+
+    Select the expand button next to Activities to create different activities.
+
+    ![Quick create option in Omni-channel Engagement Hub](../../media/csh-quick-create.png) ![Quick create option for activities in Omni-channel Engagement Hub](../../media/csh-quick-create-activities.png)
+
+    When you select any record, the application displays a new quick create form. For example, select the **Account** record from the list. The application displays the **Quick Create: Account** form. Specify the details in the fields and save the form.
+
 
 > [!div class="nextstepaction"]
 > [Next topic: Know the sitemap navigation](csh-sitemap.md)
