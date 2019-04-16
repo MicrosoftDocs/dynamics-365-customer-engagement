@@ -2,7 +2,7 @@
 title: "Troubleshoot Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Teams integration."
-ms.date: 11/29/2018
+ms.date: 4/16/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -25,8 +25,6 @@ search.app:
 # Troubleshoot Teams integration 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The following are error messages with possible resolutions.
 
@@ -59,23 +57,23 @@ Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as
 
 5. Continue through the steps as in [Collaborate with Teams](teams-collaboration.md).
 
-### Error: Sorry, the org you selected is not up-to-date. Please select another org.
+### Error: Sorry, the environment you selected is not up-to-date. Please select another environment.
 
 > [!div class="mx-imgBorder"] 
-> ![Org is not up to date](media/teams-error-org-not-up-to-date.png "Org is not up to date")
+> ![environment is not up to date](media/teams-error-org-not-up-to-date.png "environment is not up to date")
 
 and
 
-### Error: Sorry! Your Dynamics 365 org is not the latest version and is not supported for this feature. Please select a different org or contact your Dynamics 365 admin to do an update.
+### Error: Sorry! Your Dynamics 365 environment is not the latest version and is not supported for this feature. Please select a different environment or contact your Dynamics 365 admin to do an update.
 
 > [!div class="mx-imgBorder"] 
-> ![Org is not up to date](media/teams-error-org-not-latest.png "Org is not up to date")
+> ![environment is not up to date](media/teams-error-org-not-latest.png "environment is not up to date")
 
-The Dynamics 365 for Customer Engagement apps org that you are trying to connect does not support Microsoft Teams integration. You can wait for the org to be updated or pick a different org that has been updated to support Teams integration.
+The Dynamics 365 for Customer Engagement apps environment that you are trying to connect does not support Microsoft Teams integration. You can wait for the environment to be updated or pick a different environment that has been updated to support Teams integration.
 
 ## Error messages in Dynamics 365 for Customer Engagement apps 
 
-### Error: You cannot enable Microsoft Teams integration since the org is integrated with SharePoint on-premises.
+### Error: You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises.
 You are currently configured to use SharePoint on-premises for document management. You need to set up document management in Dynamics 365 for Customer Engagement apps to use SharePoint Online. See [Set up Dynamics 365 for Customer Engagement apps to use SharePoint Online](https://docs.microsoft.com/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 ### Error: You don't have permissions to view files in this location. Contact your Microsoft Teams owner or SharePoint administrator for access.
