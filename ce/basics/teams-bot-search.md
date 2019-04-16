@@ -58,6 +58,8 @@ Enter text like "contoso" in the search field to find related records.
 > [!div class="mx-imgBorder"] 
 > ![Related records returned](media/teams-bot-search-results.png "Related records returned")
 
+
+<!-- Removing for GA since these features will shop sometime after GA
 ## Edit
 Edit and update a record.
 
@@ -77,4 +79,4 @@ Use the bot menu for other actions such as change the environment or app module.
 > ![Open the bot menu](media/teams-bot-menu.png "Open the bot menu")
 
 ### See also  
-[Set up the Dynamics 365 bot](teams-install-app.md#set-up-the-dynamics-365-bot)
+[Set up the Dynamics 365 bot](teams-install-app.md#set-up-the-dynamics-365-bot)  -->
