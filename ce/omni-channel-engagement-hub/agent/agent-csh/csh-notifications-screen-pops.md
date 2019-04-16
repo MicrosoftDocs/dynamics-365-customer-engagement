@@ -19,40 +19,40 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-A notification is a visual alert you see as a dialog box each time you get a call, email, chat, or SMS engagement request from a customer. When you get a notification, you see the details of the customer with whom you are going to interact. In addition, in certain types of notifications, you see an accept and reject button that indicates the action you need to perform to accept or reject an incoming engagement request. When you accept the request, a screen pops up with the contextual information of the customer and case.
+A notification is a visual alert you see as a dialog box each time you get a call, email, chat, or SMS conversation request from a customer. When you get a notification, you see the details of the customer with whom you are going to interact. In addition, in certain types of notifications, you see an accept and reject button that indicates the action you need to perform to accept or reject an incoming conversation request. When you accept the request, a session is started and you can view the contextual information of the customer and case in the customer summary page.
 
 Some of the scenarios for which you can see the screen pop or notifications are:
 
--   Incoming chat
+- Incoming chat
 
--   Incoming email
+- Incoming email
 
--   Case assignment
+- Conversation (work item) assignment
 
--   Case transfer
+- Conversation transfer
 
--   Case escalation
+- Conversation escalation
 
 ## Types of notifications
 
 There are two types of notifications:
 
--   Toast notifications or floating notifications
+- Toast notifications or floating notifications
 
--   Alert notifications
+- Alert notifications
 
 ### Toast notifications or floating notifications
 
-A toast notification or floating notification is a notification message type where you receive information in a screen-pop dialog, which disappears after a stipulated time. If you select the notification, the associated session or application opens.
+A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. If you select the notification, the associated session or application opens.
 
-Toast notifications or floating notifications appear for SMS, email, chat, and voice scenarios. This kind of notification might have buttons that require action from you, depending on your business requirements.
+Toast notifications or floating notifications appear for SMS, email, chat, and voice scenarios. Also, it appears for conversation (work item) assignment, conversation escalation, and conversation transfer scenarios. This kind of notification might have buttons that require action from you, depending on your business requirements.
 
 ### Alert notifications
 
 An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with Customer summary details. You need to take an action within the stipulated time; the screen-pop dialog vanishes when the time is up. If your business requires an auto-accept request for an incoming request based on the routing rules, you will see the notification with no buttons.
 
  > [!div class=mx-imgBorder]
- > ![Alert notification for an incoming request](../../media/csh-alert-notification.png "Alert notification for an incoming request")  
+ > ![Alert notification for an incoming request](../../media/csh-alert-notification.png "Alert notification for an incoming request")
 
 ## Incoming chat notification
 
