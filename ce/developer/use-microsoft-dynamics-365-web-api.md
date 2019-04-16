@@ -27,7 +27,7 @@ search.app:
 > [!NOTE]
 > [!INCLUDE[](includes/cc-cdsnote-1.md)]
 >
-> [!INCLUDE[](../includes/cc-cdsnote-2-section.md)]
+> [!INCLUDE[](includes/cc-cdsnote-2-section.md)]
 >
 > The Web API documentation that is applicable to Dynamics 365 for Customer Engagement app (online) users is now available in the PowerApps documentation at: [Use the Common Data Service Web API](/powerapps/developer/common-data-service/webapi/overview).
 
