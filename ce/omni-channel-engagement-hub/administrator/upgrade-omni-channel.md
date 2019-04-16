@@ -15,34 +15,45 @@ ms.custom:
 
 # Upgrade Omni-channel Engagement Hub
 
-Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the April 2019 release of Omni-channel Engagement Hub from **Dynamics 365 Admin Center**.
+Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the latest release of Omni-channel Engagement Hub from the application management page in **Dynamics 365 Admin Center**.
 
-See [What's new in Omni-channel Engagement Hub](https://go.microsoft.com/fwlink/?linkid=2083527) to know about the new features in the March 2019 release.
-
-To upgrade the Omni-channel app to the latest version, upgrade the following solutions from the **Manage your solutions** section in Admin Center.
-
-- Omni-channel Engagement Hub – Chat Package for Dynamics 365
-- Omni-channel Engagement Hub – Customer Service Hub
+See [What's new in Omni-channel Engagement Hub](https://go.microsoft.com/fwlink/?linkid=2083527) to know about the new features in the latest release.
 
 Follow these steps to upgrade Omni-channel app.
 
-1. Go to [Dynamics 365 Admin Center](https://admin.microsoft.com/adminportal/home#/homepage).
-2. Select the **Instances** tab and navigate to your Dynamics 365 instance. 
-3. In the **Manage your solutions** section, select **Omni-channel Engagement Hub – Chat Package for Dynamics 365** from the list of solutions.
-4. Select **Upgrade** to upgrade the solution.
+1. Log in to [Dynamics 365 Admin Center](https://admin.microsoft.com/adminportal/home#/homepage).
+
+2. Select **Manage Instances** and navigate to your org in the **Manage Omni-channel Instances** page. 
+3. Check for upgrade in your org. 
 
     > [!div class=mx-imgBorder] 
-    > ![Upgrade Omni-channel](../media/upgrade-omnichannel.png)
+    > ![Omni-channel users](../media/upgrade-oc.png)
+
+    The system looks for an upgrade and displays the message **Upgrade is available** when either one or both the solutions have an upgrade pending.
 
     > [!NOTE]
-    > Upgrade may take up to an hour. Please wait for the installation to complete successfully.
+    > This option doesn't appear if there is no upgrade available for the org. 
 
-5. Similarly, select **Omni-channel Engagement Hub – Customer Service Hub** from the list of solutions and select **Upgrade**.
+      - When an upgrade is available </br>
+        Select the **Upgrade** button to upgrade your org to the latest version.
 
-    > [!div class=mx-imgBorder] 
-    > ![Upgrade Omni-channel](../media/upgrade-csh.png)
+        > [!div class=mx-imgBorder] 
+        > ![Omni-channel users](../media/upgrade-available.png)
 
-    Once both the solutions are installed and the upgrade is complete,  you are now ready to use the Omni-channel app.
+        The system begins the upgrade and the message **Upgrade in progress** is displayed.
+         
+        > [!div class=mx-imgBorder] 
+        > ![Omni-channel users](../media/upgrade-progress.png)
+
+      - When the upgrade is completed successfully </br>
+        Your org is upgraded to the latest version and the message **Upgrade is successful** is displayed.
+
+        > [!div class=mx-imgBorder] 
+        > ![Omni-channel users](../media/upgrade-complete.png)
+
+        > [!NOTE]
+        > If the upgrade fails for one or more solutions, the system displays the message **Upgrade error**. Open the instance and select **Upgrade** to retry.
+
 
 ### See also
 

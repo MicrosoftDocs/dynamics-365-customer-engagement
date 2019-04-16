@@ -21,8 +21,9 @@ This topic is a short dictionary of terms used in Omni-channel Engagement Hub.
 ## A
 |Term  |Definition  |
 |---------|---------|
-|Agent    |  Customer service representatives assisting customers with their queries.       |
-|Agent association   |  Agents that are associated with a work stream to receive conversations only from that work stream.  |
+|Agents    |  Customer service representatives assisting customers with their queries.       |
+|Agent association   |  Agents that are associated with a work stream receive conversations only from that work stream.  |
+|Auto-close after inactivity  |  Time after which a conversation is moved from waiting state to closed state due to inactivity.  |
 ## B
 
 
@@ -31,7 +32,9 @@ This topic is a short dictionary of terms used in Omni-channel Engagement Hub.
 |---------|---------|
 |Channels    |  A medium through which a customer can reach out and engage with the agents.       |
 | Capacity    |  Units of capacity that are required to process a conversation.      |
-| Context attributes    |  |
+| Context variables    | Variables used to define routing rules to channelize conversations into different queues. With context variables, the system takes logical decisions and distributes the conversations to the correct omni-channel queue or agent. |
+| Context variables    | Variables used to define routing rules to channelize conversations into different queues. With context variables, the system takes logical decisions and distributes the conversations to the correct omni-channel queue or agent. |
+| Conversation states    | States of a conversation (work item) in Omni-channel Engagement Hub. Types of conversation states are: Open, Active, Waiting, Wrap-up, Closed.   |
 
 ## D
 
@@ -87,7 +90,10 @@ This topic is a short dictionary of terms used in Omni-channel Engagement Hub.
 
 
 ## R
-
+|Term  |Definition  |
+|---------|---------|
+|Routing rules    |  Rules configured for each work stream so that conversations can be distributed to the right queues.    |
+|     |         |
 
 
 ## S
