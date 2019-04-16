@@ -95,8 +95,17 @@
         "ce/**/*.md": [
           "dynamics-customer-engagement"
         ],
+        "ce/customer-service/**/*.md": [
+          "dynamics-customer-service"
+        ],
+        "ce/field-service/**/*.md": [
+          "dynamics-field-service"
+        ],
         "ce/marketing/**/*.md": [
           "dynamics-marketing"
+        ],
+        "ce/sales/**/*.md": [
+          "dynamics-sales"
         ]
       },
       "feedback_product_url":{
