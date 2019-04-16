@@ -1,5 +1,5 @@
 ---
-title: "Steps create communication panel related action calls | MicrosoftDocs"
+title: "Create a communication panel related action calls | MicrosoftDocs"
 description: "Learn how to set up the communication panel related action calls for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
@@ -12,13 +12,13 @@ ms.assetid: F0089899-0939-4D11-AAF7-D7FE1D53D3CA
 ms.custom: 
 ---
 
-# Step 2:  Create action calls related to communication panel
+# Step 2:  Create action calls related to a communication panel
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic demonstrates how to create communication panel related action calls in Unified Service Desk for Dynamics 365 for Customer Engagement instance.
+This topic demonstrates how to create communication panel-related action calls in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites
 
@@ -30,21 +30,22 @@ This topic demonstrates how to create communication panel related action calls i
   
   - [Unified Service Desk Hosted Controls](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk-hosted-controls)  
   
-  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types and action/event reference](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
+  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types, action, and event reference in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
-
+  
+  
 ## Create action calls
 
-1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
+1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Select down arrow next Dynamics 365.
+2. Select the Down arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
 4. Select **Action Calls** and select **+ New**.
 
-5. In the new page, specify the following details.
+5. In the new page, specify the following details:
 
     | Tab | Field | Value |
     |------------------|------------------|------------------|
@@ -501,9 +502,9 @@ This topic demonstrates how to create communication panel related action calls i
     | General | Data | appname=$GlobalDictionary <br> param=CurrentSessionCount <br> value=\[\[CurrentSessionCount\]+\] <br> global=true |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 3: Attach communication panel related action calls to events](communication-panel-step3-attach-action-calls-events.md)
+> [Next topic: Step 3: Attach communication panel-related action calls to events](communication-panel-step3-attach-action-calls-events.md)
 
 ## See also
 
 - [Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md)
-- [Step 4: Attach communication panel related action calls to events](communication-panel-step4-add-hosted-control-action-calls-events-configurations.md)
+- [Step 4: Add hosted control, action calls, and events to configurations](communication-panel-step4-add-hosted-control-action-calls-events-configurations.md)

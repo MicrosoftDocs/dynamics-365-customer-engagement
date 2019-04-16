@@ -1,6 +1,6 @@
 ---
 title: "Steps or procedure to configure communication panel for agents | MicrosoftDocs"
-description: "Learn how to the attach the communication panel related action calls to the out-of-the-box events for agents using Omni-channel Engagement Hub."
+description: "Learn how to the attach the communication panel-related action calls to the out-of-the-box events for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -12,13 +12,13 @@ ms.assetid: 03125D65-65F4-4189-BCD4-B1317B68CE3C
 ms.custom: 
 ---
 
-# Step 3:  Attach communication panel related action calls to events 
+# Step 3:  Attach communication panel-related action calls to events 
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic demonstrates how to attach communication panel related action calls to the out-of-the-box events in Unified Service Desk for Dynamics 365 for Customer Engagement instance.
+This topic describes how to attach communication panel-related action calls to the out-of-the-box events in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites
 
@@ -30,33 +30,33 @@ This topic demonstrates how to attach communication panel related action calls t
   
   - [Unified Service Desk Hosted Controls](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk-hosted-controls)  
   
-  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types and action/event reference](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
+  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types, action, and event reference in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
 ## Attach the action calls to events
 
-1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
+1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Select down arrow next Dynamics 365.
+2. Select the Down arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
-4. Select **Events** and select the event to which you want to add the action call. Select **DesktopReady**.
+4. Select **Events** and then select the event to which you want to add the action call. Select **DesktopReady**.
 
-5. Select **Add an Existing Action Call**. The **Lookup Records** pane appears.
+5. Select **Add Existing Action Call**. The **Lookup Records** pane appears.
 
-    ![Select Add an Existing Action Call option from the event page](../media/oc-usd-cp-desktopready-add.png "Add an existing action call") 
+    ![Select Add an Existing Action Call from the event page](../media/oc-usd-cp-desktopready-add.png "Add an existing action call") 
 
 6. In the **Lookup Records** pane, enter the name of the action call you want to add. Enter **Launch Communication Panel** in the search box and select the action from the list, and then select **Add**. The action call is added to the **DesktopReady** event.
 
-    ![Enter the action call name in the search box, select the action call and select add](../media/oc-usd-cp-desktopready-search-add.png "Search and add the action call")
+    ![Enter the action call name in the search box, select the action call, and select add](../media/oc-usd-cp-desktopready-search-add.png "Search and add the action call")
 
 7. Select **Save**.
 
 8. Repeat steps 4 through 7 to add the following action calls to the corresponding events.
 
-    | Event                              | Action Call                                    |
+    | Event                              | Action call                                    |
     |------------------------------------|------------------------------------------------|
     | OmnichannelFetchConfigurationData | <ul> <li> Omni-channel Clear Entity List </li> <li>Omni-channel Fetch Live Work Streams </li> <li> Omni-channel Fetch Service End Point </li> <li>Omni-channel Save Configuration Data </li> |
     | OmnichannelUpdateConfigurationContext | <ul>Update Omni-channel Configuration</ul> |
@@ -83,7 +83,7 @@ This topic demonstrates how to attach communication panel related action calls t
     | UpdateSessionCount | <ul> Update Session Count in Dictionary </ul> |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 4: Add the hosted control, action calls, and events to Configurations](communication-panel-step4-add-hosted-control-action-calls-events-configurations.md) 
+> [Next topic: Step 4: Add the hosted control, action calls, and events to configurations](communication-panel-step4-add-hosted-control-action-calls-events-configurations.md) 
 
 ## See also
 

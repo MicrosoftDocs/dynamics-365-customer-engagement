@@ -12,17 +12,17 @@ ms.assetid: B498A03B-9CD7-4048-804E-281208711F19
 ms.custom: 
 ---
 
-# Step 2: Create customer summary related action calls
+# Step 2: Create customer summary-related action calls
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic demonstrates how to create customer summary hosted control in Unified Service Desk for Dynamics 365 for Customer Engagement instance.
+This topic describes how to create customer summary hosted controls in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites 
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create customer summary hosted control](customer-summary-step1-create-hosted-control.md). The configurations that you completed are required for this topic.
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) and [Step 1: Create customer summary hosted control](customer-summary-step1-create-hosted-control.md). The configurations that you completed are required for this topic.
 
 - You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-security-roles)
 
@@ -30,22 +30,22 @@ This topic demonstrates how to create customer summary hosted control in Unified
   
   - [Unified Service Desk Hosted Controls](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk-hosted-controls)  
   
-  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types and action/event reference](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
+  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types, action, and event reference in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
 
 ## Create action calls
 
-1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
+1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Select down arrow next Dynamics 365.
+2. Select the Down arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
-4. Select **Action Calls** and select **+ New**.
+4. Select **Action Calls** and then select **+ New**.
 
-5. In the new page, specify the following details.
+5. On the new page, specify the following details.
 
 
     | Tab     | Field          | Value                           |
@@ -151,9 +151,9 @@ This topic demonstrates how to create customer summary hosted control in Unified
     
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 3: Attach customer summary related action Calls to events](customer-summary-step3-attach-action-calls-events.md)    
+> [Next topic: Step 3: Attach customer summary-related action calls to events](customer-summary-step3-attach-action-calls-events.md)    
 
 ## See also
 
 - [Step 1: Create customer summary hosted control](customer-summary-step1-create-hosted-control.md)
-- [Step 4: Add the hosted control, action calls, and events to Configurations](customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
+- [Step 4: Add the hosted control, action calls, and events to configurations](customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
