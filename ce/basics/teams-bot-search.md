@@ -2,11 +2,10 @@
 title: "Use the bot| MicrosoftDocs"
 ms.custom: 
 description: "Use the bot to interact with Dynamics 365 for Customer Engagement apps."
-ms.date: 11/08/2018
+ms.date: 04/16/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
@@ -72,7 +71,7 @@ Create a post in Dynamics 365 for Customer Engagement apps.
 > ![Create a post](media/teams-bot-create-post.png "Create a post")
 
 ## Other
-Use the bot menu for other actions such as change the org or app module.
+Use the bot menu for other actions such as change the environment or app module.
 
 > [!div class="mx-imgBorder"] 
 > ![Open the bot menu](media/teams-bot-menu.png "Open the bot menu")
