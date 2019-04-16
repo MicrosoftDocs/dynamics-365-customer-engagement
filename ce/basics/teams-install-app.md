@@ -35,7 +35,7 @@ search.app:
    > [!div class="mx-imgBorder"]
    > ![Select Store](media/select-store.png "Select Store")
 
-2. Search for **dynamics**, and then select the **Dynamics 365 (Preview)** tile.
+2. Search for **dynamics**, and then select the **Dynamics 365** tile.
 
    > [!div class="mx-imgBorder"]
    > ![Search for and select Dynamics 365](media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
