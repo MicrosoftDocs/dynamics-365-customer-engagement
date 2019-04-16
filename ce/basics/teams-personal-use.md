@@ -42,7 +42,7 @@ Select the **My Dashboard** tab to view your Dynamics 365 for Customer Engagemen
 
 ## Settings tab
 
-If you have more than one environment or Unified Interface app, you can use the **Settings** tab to select a different organization or app to appear as a dashboard.
+If you have more than one environment or Unified Interface app, you can use the **Settings** tab to select a different environment or app to appear as a dashboard.
 
 > [!div class="mx-imgBorder"]
 ![Dashboard settings](media/teams-settings-page.png "Dashboard settings")
