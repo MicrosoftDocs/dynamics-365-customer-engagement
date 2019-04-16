@@ -142,34 +142,36 @@ The Sitemap displays the following record types:
     
    i. **User.** See user information.
 
-   - **Search**
+ ### Search
     
-       The search option lets you search records and open a record in a new active session. You can search for the following records using the search option:
+  The search option lets you search records and open a record in a new active session. You can search for the following records using the search option:
     
-       - Case
-       - Contact
-       - Account
+   - Case
+   - Contact
+   - Account
     
-   - **Create**
+ ### Create
     
-       The quick create option provides the list of related records (entities) that you can create. The following are the record types that you can create: 
+   The quick create option provides the list of related records (entities) that you can create. The following are the record types that you can create: 
     
-       - Activities
-       - Appointment
-       - Email
-       - Phone Call
-       - Task
-       - Account
-       - Case
-       - Contact
-       - Knowledge Article
+   - Activities
+   - Appointment
+   - Email
+   - Phone Call
+   - Task
+   - Account
+   - Case
+   - Contact
+   - Knowledge Article
     
-       Select the expand button next to Activities to create different activities.
+  Select the expand button next to Activities to create different activities.
     
-       ![Quick create option in Omni-channel Engagement Hub](../../media/csh-quick-create.png) ![Quick create option for activities in Omni-channel Engagement Hub](../../media/csh-quick-create-activities.png)
+   ![Quick create option in Omni-channel Engagement Hub](../../media/csh-quick-create.png) ![Quick create option for activities in Omni-channel Engagement Hub](../../media/csh-quick-create-activities.png)
     
-       When you select any record, the application displays a new quick create form. For example, select the **Account** record from the list. The application displays the **Quick Create: Account** form. Specify the details in the fields and save the form.
+   When you select any record, the application displays a new quick create form. For example, select the **Account** record from the list. The application displays the **Quick Create: Account** form. Specify the details in the fields and save the form.
 
+> [!div class="mx-imgBorder"]
+> ![Quick create form account](../../media/oceh/oceh-quick-create-forms-account.png "Quick create form account")
 
 > [!div class="nextstepaction"]
 > [Next topic: Know the sitemap navigation](csh-sitemap.md)
