@@ -90,7 +90,7 @@ Selecting _Record Associated to Current Portal User_ will retrieve the portal us
 |Record Not Found Message|	Message to be displayed when a record is not found.|
 |||
 
-### On success settings
+### On Success Settings
 
 |Name|Description|
 |----|----------|
@@ -107,7 +107,7 @@ Selecting _Record Associated to Current Portal User_ will retrieve the portal us
 |Append Attribute Value to Query String - Attribute Logical Name|Requires On Success set to Redirect. A logical name of an attribute on the target entity to get the value to be appended to the Query String of the redirect URL.|
 |||
 
-### Additional settings
+### Additional Settings
 
 |Name|Description|
 |----|----------|
@@ -128,7 +128,7 @@ Selecting _Record Associated to Current Portal User_ will retrieve the portal us
 |Custom JavaScript|	A custom block of JavaScript that will added to the bottom of the page just before the closing form tag element. The HTML input id of an entity field is set to the logical name of the attribute. This makes selecting a field, setting values, or other client-side manipulation easy with jQuery.<br>`$(document).ready(function() {   $(“#address1_stateorprovince”).val(“Saskatchewan”);});`|
 |||
 
-### Entity reference
+### Entity Reference
 
 The following parameters pertain to setting an entity reference when the form is saved.
 
@@ -155,7 +155,31 @@ This provides a way to associate the current record being created or updated by 
 
 By default an Entity Form will allow for reading or updating of an existing record, or the insertion of a new record.  However, you can easily enable and configure additional actions for records in an Entity Form  as well (Delete, Activate, Deactivate, etc.). It is also possible to override default labels, sizes, and other attributes that will appear if there are actions enabled.
 
-These settings are found in the Configuration section of the entity form. By default, only **Basic Settings** are shown. You can select  **Advanced Settings** to show additional settings.
+These settings are found in the **Additional Settings** section of the entity form. By default, only **Basic Settings** are shown. You can select  **Advanced Settings** to show additional settings.
+
+You can add action buttons for the actions that are applicable for an individual record and will appear for each row in the grid provided the appropriate privilege has been granted by [entity permissions](assign-entity-permissions.md). The following actions are available:
+
+- Delete
+- Workflow
+- Create Related Record
+- Activate
+- Deactivate
+
+Clicking on one of these options displays a configuration area for that action. Furthermore, certain entities have special actions that are available to them on a per-entity basis:
+
+- Calculate Value of Opportunity (opportunity)
+- Cancel Case Action (incident)
+- Close (resolve) Case Action (incident)
+- Convert Quote to Order (quote)
+- Convert Order to Invoice (salesorder)
+- Generate Quote from Opportunity (opportunity)
+- Lose Opportunity Action (opportunity)
+- Win Opportunity Action (opportunity)
+- Reopen Case Action (incident)
+- Set Opportunity on Hold (opportunity)
+
+> [!NOTE]
+> It is recommend to create a workflow instead of adding an **Activate** or a **Deactivate** button for out of the box entities having defined specific **state** and **status code** values that they require for their business processes. For example, Incident ([status options](../developer/entities/incident.md#statuscode-options)), Opportunity([status options](../developer/entities/opportunity.md#statuscode-options)), Entitlements ([status options](developer/entities/entitlement.md#statuscode-options)). 
 
 
 ## Geolocation configuration for entity forms
