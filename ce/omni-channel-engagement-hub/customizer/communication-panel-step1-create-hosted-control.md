@@ -22,11 +22,7 @@ This topic describes how to create a communication panel hosted control in Unifi
 
 ## Prerequisites 
 
-- You must have the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-security-roles)
-
-
-<!--note that the above link opens a page titled "Use security roles to manage access"-->
-
+- You must have the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
 - You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
   
@@ -35,10 +31,6 @@ This topic describes how to create a communication panel hosted control in Unifi
   - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types, action, and event reference in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
-
-
-<!--Because the following is the only step on this page, you don't need to label it as Step 1.-->
-
 
 ## Step 1.  Create hosted control
 
@@ -52,27 +44,22 @@ This topic describes how to create a communication panel hosted control in Unifi
 
 5. On the page for new hosted control, specify the following:
 
-    | Tab     | Field                           | Value                       |
-    |------------------|-------------------------------------|---------------------------------|
-    | General | Name                                | Communication Panel |
-    | General | Unified Service Desk Component Type | USD Hosted Control |
-    | General | Application is Global               | Select the check box  |
-    | General | Display Group              | LeftPanelFill |
-    | General | Application is Dynamics               | yes |
-    | Hosting | Assembly URI               | `USDConfiguration.ChatControl` |
-    | Hosting | Assembly Type             | `USDConfiguration.ChatControl.OmniChannelHost` |
+    | Field                           | Value                       |
+    |-------------------------------------|---------------------------------|
+    | Name                                | Communication Panel |
+    | Unified Service Desk Component Type | USD Hosted Control |
+    | Application is Global               | Select the check box  |
+    | Display Group              | LeftPanelFill |
+    | Application is Dynamic               | yes |
+    | Assembly URI               | `USDConfiguration.ChatControl` |
+    | Assembly Type             | `USDConfiguration.ChatControl.OmniChannelHost` |
 
-6.  Save the hosted control.
+6. Save the hosted control.
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 2:  Create action calls related to communication panel](communication-panel-step2-create-action-calls.md)
 
 ## See also
 
-
-<!--The first link below is to this topic. Please delete.-->
-
-
-- [Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md)
 - [Step 3: Attach communication panel-related action calls to events](communication-panel-step3-attach-action-calls-events.md)
 - [Step 4: Add hosted control, action calls, and events to configurations](communication-panel-step4-add-hosted-control-action-calls-events-configurations.md)

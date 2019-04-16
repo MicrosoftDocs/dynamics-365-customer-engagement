@@ -121,6 +121,12 @@
 ##### [Step 5: Add the action calls to the events](customizer/toastnotification-step5-add-action-calls-events.md)
 ##### [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](customizer/toastnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
+### [Configure advanced search](customizer/configure-advanced-search.md)
+#### [Step 1: Create advanced search hosted control](customizer/advanced-search-step1-create-hosted-control.md)
+#### [Step 2: Create advanced search related action calls](customizer/advanced-search-step2-create-action-calls.md)
+#### [Step 3: Attach advanced search related action call to events](customizer/advanced-search-step3-attach-action-calls-events.md)
+#### [Step 4: Add hosted control, action calls, and events to configurations](customizer/advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
+
 ## [Developer guide](developer/omni-channel-engagement-hub-developer.md)
 ### [How to]()
 #### [Manage custom context](developer/how-to/send-context-starting-chat.md)

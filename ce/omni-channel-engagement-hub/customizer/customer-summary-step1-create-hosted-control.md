@@ -22,7 +22,7 @@ This topic demonstrates how to create a customer summary hosted control in Unifi
 
 ## Prerequisites 
 
-- You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-security-roles)
+- You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
 - You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
   
@@ -44,18 +44,18 @@ This topic demonstrates how to create a customer summary hosted control in Unifi
 
 5. On the page for new hosted control, specify the following.
 
-    | Tab                   | Field                                         | Value                           |
-    |-----------------------|-----------------------------------------------|---------------------------------|
-    | General | Name                                | Customer Summary |
-    | General | Sort Order | 30 |
-    | General | Display Name | \[\[$Resources.SessionOverviewHCDisplayName\]\] |
-    | General | Unified Service Desk Component Type | Unified Interface Page |
-    | General | Hosting Type | Chrome Process |
-    | General | Pre-Fetch | Select the check box |
-    | General | Allow Multiple Page | No |    
-    | General | Display Group              | MainPanel |
-    | General | Adapter              | Use No Adapter |
-    | General | Application is Dynamics               | yes |
+    | Field                                         | Value                           |
+    |-----------------------------------------------|---------------------------------|
+    | Name                                | Customer Summary |
+    | Sort Order | 30 |
+    | Display Name | \[\[$Resources.SessionOverviewHCDisplayName\]\] |
+    | Unified Service Desk Component Type | Unified Interface Page |
+    | Hosting Type | Chrome Process |
+    | Pre-Fetch | Select the check box |
+    | Allow Multiple Page | No |    
+    | Display Group              | MainPanel |
+    | Adapter              | Use No Adapter |
+    | Application is Dynamic               | yes |
 
 6.  Save the hosted control.
 
