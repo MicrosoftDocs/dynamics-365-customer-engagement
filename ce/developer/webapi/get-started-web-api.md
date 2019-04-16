@@ -29,10 +29,9 @@ search.app:
 
 This document lists the resources that you can use to get started with using the Web API. All the operations that you can perform with the Web API are same for Dynamics 365 Online and On-premises users. The resources listed below are now available in PowerApps Common Data Service for Apps documentation.
 
-- [Get started with Web API(C#)](/powerapps/developer/common-data-service/webapi/get-started-dynamics365-web-api-csharp)<br />
+- [Get started with Web API(C#)](/powerapps/developer/common-data-service/webapi/get-started-dynamics-365-web-api-csharp)<br />
 - [Quick Start: Web API sample(C#)](/powerapps/developer/common-data-service/webapi/quick-start-console-app-csharp)<br />
 - [Enhanced quick start(C#)](/powerapps/developer/common-data-service/webapi/enhanced-quick-start)<br />
-- [Start Web API project in Visual Studio](/powerapps//developer/common-data-service/start-web-api-project-visual-studio-csharp)<br />
 - [Authenticate with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api)<br />
 - [Web API Types and operations](/powerapps/developer/common-data-service/webapi/web-api-types-operations)<br />
 - [Perform operations using the Web API](/powerapps/developer/common-data-service/webapi/perform-operations-web-api)<br />
