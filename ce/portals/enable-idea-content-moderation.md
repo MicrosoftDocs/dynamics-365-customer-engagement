@@ -3,7 +3,7 @@ title: "Enable content moderation for ideas on a portal in Dynamics 365 for Cust
 description: "Learn how to enable content moderation for ideas on a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 04/04/2019
+ms.date: 04/17/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

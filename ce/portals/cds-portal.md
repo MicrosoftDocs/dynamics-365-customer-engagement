@@ -3,7 +3,7 @@ title: "Create a Common Data Service starter portal in Dynamics 365 for Customer
 description: "Learn how to create a Common Data Service starter portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 04/05/2019
+ms.date: 04/17/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +22,7 @@ search.app:
   - D365Portals
 ---
 
-# Common Data Service starter portal
+# Common Data Service starter portal (Preview)
 
 > [!IMPORTANT]
 > - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -70,6 +70,9 @@ The following table summarizes the features associated with the Common Data Serv
 | Feedback                               | •             |
 |||
 
+> [!NOTE]
+> The Common Data Service starter portal cannot be used on a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
+
 ## Provision a Common Data Service starter portal
 
 A Common Data Service starter portal is provisioned in the same way as any other portal. The only difference is that you select a Dynamics 365 instance that uses Common Data Service. After selecting the instance, the only portal type you see is **Common Data Service Starter Portal**. This portal type is the same for all portal audiences. For more information on provisioning a portal, see [Provision a portal](provision-portal.md).
@@ -78,6 +81,8 @@ After specifying all the required values, the **Configure your portal** page loo
 
 > [!div class="mx-imgBorder"]
 > ![Configure settings for your Common Data Service starter portal](media/provision-cds-portal.png "Configure settings for your Common Data Service starter portal")
+
+Once the portal is provisioned, a website with the sample pages is available. You can then use them to quickly get started.
 
 ## Change the Dynamics 365 for Customer Engagement instance, audience, or type of portal
 

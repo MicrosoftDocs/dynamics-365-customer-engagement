@@ -3,7 +3,7 @@ title: "Make client-side calls to external APIs and secure them by using OAuth i
 description: "Learn how to make client-side calls to external APIs and secure them by using OAuth implicit grant flow in the Dynamics 365 for Customer Engagement Portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 04/08/2019
+ms.date: 04/17/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -30,7 +30,7 @@ OAuth 2.0 implicit grant flow supports endpoints that a client can call to get a
 
 ## Authorize endpoint details 
 
-When your portal needs to authenticate the user and execute a user flow, it directs the user to the `/authorize` endpoint. In this flow, the user gets an ID token from the endpoint. The URL for authorize endpoint is: `<portal_url>/_services/auth/authorize`. The authorize endpoint supports the following parameters:
+The URL for authorize endpoint is: `<portal_url>/_services/auth/authorize`. The authorize endpoint supports the following parameters:
 
 | Parameter   | Required? | Description                             |
 |---------------|-----------|---------------------------------------|
@@ -40,9 +40,6 @@ When your portal needs to authenticate the user and execute a user flow, it dire
 | nonce   | No        | A string value sent by the client that is included in the resulting ID token as a claim. The client can then verify this value to mitigate token replay attacks. The maximum length is 20 characters.      |
 | response_type         | No        | This parameter supports only `token` as a value. This allows your app to immediately receive an access token from the authorize endpoint, without making a second request to the authorize endpoint.                               |
 |||
-
-
-The authorize endpoint must not be Cross-Origin Resource Sharing (CORS) enabled. This means that any client-side script from another host should not be able to make calls to them. This will help in preventing any cross-domain attacks that can lead to a token being compromised.
 
 ### Successful response
 
@@ -64,7 +61,7 @@ The error in authorize endpoint is returned as a JSON document with the followin
 
 - **Error ID**: Unique identifier of the error.
 - **Error message**: A specific error message that can help you identify the root cause of an authentication error.
-- **Correlation ID**: 
+- **Correlation ID**: A GUID that is used for debugging purposes. If you have enabled diagnostic logging, correlation ID would be present in server error logs.
 - **Timestamp**: Date and time when the error is generated.
 
 The error message is displayed in the default language of the signed-in user. If the user is not signed in, the sign-in page is displayed for the user to sign in. 
@@ -87,7 +84,8 @@ You can also get a token by making a request to the `/token` endpoint. It is dif
 | response_type         | No        | This parameter supports only `token` as a value. This allows your app to immediately receive an access token from the authorize endpoint, without making a second request to the authorize endpoint.                               |
 |||
 
-The token endpoint must not be Cross-Origin Resource Sharing (CORS) enabled. This means that any client-side script from another host should not be able to make calls to them. This will help in preventing any cross-domain attacks that can lead to the token being compromised.
+> [!NOTE]
+> Even though `client_id`, `redirect_uri`, `state`, and `nonce` parameters are optional, it is recommended to use them in order to make sure your integrations are secure.
 
 ### Successful response
 
@@ -99,7 +97,7 @@ The error in a token endpoint is returned as a JSON document with the following 
 
 - **Error ID**: Unique identifier of the error.
 - **Error message**: A specific error message that can help you identify the root cause of an authentication error.
-- **Correlation ID**: 
+- **Correlation ID**: A GUID that is used for debugging purposes. If you have enabled diagnostic logging, correlation ID would be present in server error logs.
 - **Timestamp**: Date and time when the error is generated.
 
 The error message is displayed in the default language of the signed-in user. If the user is not signed in, a sign-in page is displayed for the user to sign in. 
@@ -117,9 +115,13 @@ Just getting an ID token is not sufficient to authenticate the user; you must al
 
 By default, implicit grant flow is enabled. If you want to turn off implicit grant flow, set the value of the **Connector/ImplicitGrantFlowEnabled** site setting to **False**.
 
+If this site setting is not available in your portal, you must [create a new site setting](configure-site-settings.md#manage-portal-site-settings) with the appropriate value.
+
 ## Configure token validity
 
 By default, the token is valid for 15 minutes. If you want to change the validity of token, set the value of the **ImplicitGrantFlow/TokenExpirationTime** site setting to the required value. The value must be specified in seconds. The maximum value can be 1 hour, and the minimum value must be 1 minute. If an incorrect value is specified (for example, alphanumeric characters), the default value of 15 minutes is used. If you specify a value more than the maximum value or less than the minimum value, the maximum and minimum values are used respectively, by default.
+
+For example, to set the token validity to 30 minutes, set the value of the **ImplicitGrantFlow/TokenExpirationTime** site setting to **1800**. To set the token validity to 1 hour, set the value of the **ImplicitGrantFlow/TokenExpirationTime** site setting to **3600**.
 
 ## Register client ID for implicit grant flow
 
