@@ -66,8 +66,8 @@ Lets explore work order and booking statuses with the following scenarios:
 
 ## Prerequisites
 
-- understand that work orders and booking have difference statuses
-- Work Order statuses should never be edited and instead work order sub statuses should be
+- Any version of Field Service
+- You must be logged in as a user with Field Service - Dispatcher, Field Service - Administrator, or System Administrator security roles to edit Work Order Substatuses and Booking Statuses
 
 > [!Note]
 > Work Order System Statuses should NEVER be edited because system jobs and plug-ins rely on these statuses. Instead, administrators should create custom Work Order Substatuses that relate to Work Order System Statuses.
@@ -75,6 +75,9 @@ Lets explore work order and booking statuses with the following scenarios:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+## Work Order life cycle
+
+Field Service ships with standard Work Order System Statuses and 
 ## Estimate Work Order Sub-status
 ## Delayed Booking Status
 
