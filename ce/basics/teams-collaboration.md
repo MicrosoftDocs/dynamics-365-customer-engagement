@@ -2,7 +2,7 @@
 title: "Collaborate with Teams| MicrosoftDocs"
 ms.custom: 
 description: "Collaborate with team members using the Dynamics 365 app for Teams."
-ms.date: 11/06/2018
+ms.date: 4/16/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -49,12 +49,12 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
    > [!div class="mx-imgBorder"] 
    > ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
 
-   In the above page, if you have multiple organizations or app modules, you can change the org and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
+   In the above page, if you have multiple environments or app modules, you can change the environment and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Teams.
  
    > [!div class="mx-imgBorder"] 
    > ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
 
-   You can enable **Remember this preference** to set the org and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
+   You can enable **Remember this preference** to set the environment and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
 
    You can return to these settings any time by selecting the **Settings** tab.
 
