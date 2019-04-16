@@ -76,7 +76,7 @@ Create a post in Dynamics 365 for Customer Engagement apps.
 Use the bot menu for other actions such as change the environment or app module.
 
 > [!div class="mx-imgBorder"] 
-> ![Open the bot menu](media/teams-bot-menu.png "Open the bot menu")
+> ![Open the bot menu](media/teams-bot-menu.png "Open the bot menu")-->
 
 ### See also  
-[Set up the Dynamics 365 bot](teams-install-app.md#set-up-the-dynamics-365-bot)  -->
+[Set up the Dynamics 365 bot](teams-install-app.md#set-up-the-dynamics-365-bot)  
