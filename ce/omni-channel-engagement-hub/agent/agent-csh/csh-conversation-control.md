@@ -19,12 +19,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Communication panel is a conversation control where you interact with the customer. When you sign in to the application, conversation control displays the welcome screen.
+Communication panel is where you, as an agent, interact with your customer. When you sign in to the application,by default, communication panel is in minimized mode. That is, the minimized communication panel appears at the bottom left side. Expanding the communication panel displays the welcome screen with certain key features.
 
  > [!div class=mx-imgBorder] 
  > ![Omni-channel Engagement Hub conversation control landing page](../../media/csh-conversation-control-landing-page.png "Omni-channel Engagement Hub conversation control landing page")  
 
-Using the chat channel, you can send quick replies and search for and share knowledge articles with the customer with whom you are interacting. You can transfer the work item to another agent or queue. Use the consult option if you need help to resolve the work item. Also, you can switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
+For a chat channel, you can send quick replies and search for and share knowledge articles with the customer with whom you are interacting. You can transfer the conversation (work item) to another agent or queue. Use the consult option if you need help to resolve the work item. Also, you can switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
 
 The landing page explains some of the key features of Omni-channel Engagement Hub and communication panel. When you interact with a customer, you can see the following interface in the communication panel.
 
@@ -62,7 +62,9 @@ You can use keyboard shortcuts to send internal and public messages:
 
 ## Customer summary
 
-The Customer summary page displays details about a customer with whom you interact. When you are conversing with more than one customer simultaneously, and when you switch from one chat conversation to another, you need to refresh the Customer summary page to get the details of the customer to whom you switched. Use the Refresh button to refresh the Customer summary page to get relevant details about the customer based on chat conversations with the customer.
+The Customer summary page displays details about a customer with whom you interact. When you are conversing with more than one customer simultaneously, and when you switch from one chat conversation to another, the customer session details are fetched according to the context.
+
+Also, you can manually refresh the Customer summary page to get the details of the customer when switching from one customer session to another. Use the Refresh button to refresh the Customer summary page to get relevant details about the customer based on chat conversations with the customer.
 
  > [!div class=mx-imgBorder]
  > ![Session overview refresh button in the communication panel](../../media/csh-cc-options-refresh-session-overview-customer360.png "Session overview refresh button in the communication panel")

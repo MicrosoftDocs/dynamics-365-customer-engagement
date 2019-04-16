@@ -93,6 +93,9 @@ The conversations that are ended either by you or the customer are classified un
 
 The conversations that are completed by ending, and closing the session are classified under **Closed** state. When you close a conversation, you cannot reactivate or reopen the conversation again.
 
+> [!div class="nextstepaction"]
+> [View communication panel](csh-conversation-control.md)
+
 ## See also
 
 [Understand conversation state lifecycle](../../administrator/conversation-state-lifecycle.md)
