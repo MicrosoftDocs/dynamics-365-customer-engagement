@@ -54,7 +54,7 @@ This topic describes how to create customer summary hosted controls in Unified S
     | General | Order | 5 | 
     | General | Hosted Control | Customer Summary |
     | General | Action         | RunScript    |
-    | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]');  <br> var session = {"LiveWorkItemId" : "\[\[$Context.LiveWorkItemId\]+\]", "OCSessionId" : "\[\[$Context.OCSessionId\]+\]", "LiveWorkStreamId" : "\[\[$Context.LiveWorkStreamId\]+\]", "LiveWorkItemContext" : '\[\[$Context.LiveWorkItemContext\]\]', "SessionInfo": '\[\[$Context.SessionInfo\]+\]'};  <br> ocConfig.config.sessionParams = session;  <br> window.ocContext = ocConfig;  <br> }  <br> initOCContext(); |
+    | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]\+\]'); <br> var session = JSON.parse(JSON.stringify(\[\[$Context.SessionParameters\]\])); <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> } <br> initOCContext(); |
 
 
     | Tab     | Field          | Value                           |
@@ -138,7 +138,7 @@ This topic describes how to create customer summary hosted controls in Unified S
     | General | Order | 5 |
     | General | Hosted Control | Customer Summary |
     | General | Action         | RunScript | 
-    | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]'); <br> var session = {"LiveWorkItemId" : "\[\[$Context.LiveWorkItemId\]+\]", "OCSessionId" : "\[\[$Context.OCSessionId\]+\]", "LiveWorkStreamId" : "\[\[$Context.LiveWorkStreamId\]+\]", "LiveWorkItemContext" : '\[\[$Context.LiveWorkItemContext\]\]', "SessionInfo": '\[\[$Context.SessionInfo\]+\]'}; <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> } <br> initOCContext(); |
+    | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]\+\]'); <br> var session = JSON.parse(JSON.stringify(\[\[$Context.SessionParameters\]\])); <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> } <br> initOCContext(); |
 
 
     | Tab | Field      | Value                       |
