@@ -12,7 +12,7 @@ ms.assetid: F0089899-0939-4D11-AAF7-D7FE1D53D3CA
 ms.custom: 
 ---
 
-# Step 2:  Create action calls related to a Omni-channel Advanced Search
+# Step 2:  Create action calls related to Omni-channel Advanced Search
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

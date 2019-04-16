@@ -58,7 +58,7 @@ This topic describes how to attach communication panel-related action calls to t
 
     | Event                              | Action call                                    |
     |------------------------------------|------------------------------------------------|
-    | OmnichannelFetchConfigurationData | <ul> <li> Omni-channel Clear Entity List </li> <li>Omni-channel Fetch Live Work Streams </li> <li> Omni-channel Fetch Service End Point </li> <li>Omni-channel Save Configuration Data </li> |
+    | OmnichannelFetchConfigurationData | <ul> <li> Omni-channel Clear Entity List </li> <li>Omni-channel Fetch Live Work Streams </li> <li> Omni-channel Fetch Service End Point </li> <li>Omni-channel Save Configuration Data </li> </ul> |
     | OmnichannelUpdateConfigurationContext | <ul>Update Omni-channel Configuration</ul> |
     | AADAuthenticationFailed | <ul>Omni-channel AAD Authentication Failed</ul> |
     | CreateCustomerSession | <ul> <li>Omni-channel Activate Session</li> <li>Omni-channel Rehydrate Conversation</li> <li>Create Customer Session</li> <li>Show Session Assignment Toast Notification</li> <li>Set IsCaseSession to False</li> <li>Omni-channel Session Accepted</li> </ul> |
@@ -88,4 +88,4 @@ This topic describes how to attach communication panel-related action calls to t
 ## See also
 
 - [Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md)
-- [Step 2:  Create action calls related to communication panel](communication-panel-step2-create-action-calls.md)
+- [Step 2: Create action calls related to communication panel](communication-panel-step2-create-action-calls.md)

@@ -1,6 +1,6 @@
 ---
-title: "Steps create communication panel related action calls | MicrosoftDocs"
-description: "Learn how add action calls, events, and hosted control to the configurations."
+title: "Add Omni-channel Agent Dashboard related action calls to events | MicrosoftDocs"
+description: "Learn how to add the Omni-channel Agent Dashboard related action calls to events."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -8,7 +8,7 @@ applies_to:
 ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 6DA89CD7-F4D1-438C-B55D-A3AB04E2679C
+ms.assetid: 2CAA1551-F29F-45EF-93CB-45B309DEFE05
 ms.custom: 
 ---
 
@@ -22,7 +22,7 @@ This topic describes how to add action calls, events, and hosted control to the 
 
 ## Prerequisites
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create communication panel hosted control](agent-dashboard-step1-create-hosted-control.md), [Step 2:  Create action calls related to communication panel](agent-dashboard-step2-create-action-calls.md), and [Step 3:  Attach communication panel-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md). The configurations that you completed are required for this topic.
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create Omni-channel Agent Dashboard hosted control](agent-dashboard-step1-create-hosted-control.md), [Step 2:  Create action calls related to Omni-channel Agent Dashboard](agent-dashboard-step2-create-action-calls.md), and [Step 3:  Attach Omni-channel Agent Dashboard-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md). The configurations that you completed are required for this topic.
 
 - You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
@@ -56,6 +56,6 @@ This topic describes how to add action calls, events, and hosted control to the 
 
 ## See also
 
-- [Step 1: Create communication panel hosted control](agent-dashboard-step1-create-hosted-control.md)
-- [Step 2: Create action calls related to communication panel](agent-dashboard-step2-create-action-calls.md)
-- [Step 3: Attach communication panel-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md)
+- [Step 1: Create Omni-channel Agent Dashboard hosted control](agent-dashboard-step1-create-hosted-control.md)
+- [Step 2: Create action calls related to Omni-channel Agent Dashboard](agent-dashboard-step2-create-action-calls.md)
+- [Step 3: Attach Omni-channel Agent Dashboard-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md)

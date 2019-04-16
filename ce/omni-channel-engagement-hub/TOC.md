@@ -93,6 +93,12 @@
 
 ### [Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
 
+### [Configure Omni-channel Agent Dashboard](customizer/configure-agent-dashboard.md)
+#### [Step 1: Create Omni-channel Agent Dashboard hosted control](customizer/agent-dashboard-step1-create-hosted-control.md)
+#### [Step 2:  Create action calls related to Omni-channel Agent Dashboard](customizer/agent-dashboard-step2-create-action-calls.md)
+#### [Step 3: Attach Omni-channel Agent Dashboard related action Calls to events](customizer/agent-dashboard-step3-attach-action-calls-events.md)
+#### [Step 4: Add the hosted control, action calls, and events to configurations](customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md)
+
 ### [Configure communication panel for agents](customizer/configure-communication-panel.md)
 #### [Step 1: Create communication panel hosted control](customizer/communication-panel-step1-create-hosted-control.md)
 #### [Step 2: Create communication related action calls](customizer/communication-panel-step2-create-action-calls.md)
