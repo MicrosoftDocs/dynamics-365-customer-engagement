@@ -71,15 +71,6 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
-## Understand roles and their privileges 
-
-| Role |View |Add/edit/delete |Add/Remove |
-|---------|---------|---------|---------|
-|**Omni-channel administrator**| - Can view user list </br> - Can view presence list </br> - Can view work stream list/details </br> - Can view queue list/details </br> - Can view quick replies </br> - Can view operating hours </br> - Can view authentication settings | - Can edit roles of a user </br> - Can edit default presence/default capacity/queue assignment of a user </br> - Can add/edit/delete presence </br> - Can  add/edit/delete Work stream </br> - Can add/edit/delete Channel settings </br> - Context settings </br> - Can add/edit/delete Routing rules </br> - Can add/edit/delete Presence associations </br> - Add/edit/delete queue </br> - Add/edit/delete operating hours </br> - Can add/edit/delete authentication settings | - Can add/remove users from presence </br> - Can add/remove agents from Queue |
-|**Omni-channel supervisor** | | | |
-|**Omni-channel agent** | | | |
-----------------------------------------------------------------------------
----------------------------------------------------------------------------
 
 ## Understand roles and their privileges 
 
@@ -87,8 +78,8 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|
 |**Omni-channel administrator** | - Can view user list </br> - Can edit roles of a user </br> - Can edit default presence/default capacity/queue assignment of a user |
 |**Omni-channel supervisor** | |
-----------------------------------------------------------------------------
----------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Understand roles and their privileges 
 ### Omni-channel administrator
@@ -104,6 +95,15 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 ### Omni-channel supervisor 
 ### Omni-channel agent
 
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+## Understand roles and their privileges 
+
+| Role |View |Add/edit/delete |Add/Remove |
+|---------|---------|---------|---------|
+|**Omni-channel administrator**| - Can view user list </br> - Can view presence list </br> - Can view work stream list/details </br> - Can view queue list/details </br> - Can view quick replies </br> - Can view operating hours </br> - Can view authentication settings | - Can edit roles of a user </br> - Can edit default presence/default capacity/queue assignment of a user </br> - Can add/edit/delete presence </br> - Can  add/edit/delete Work stream </br> - Can add/edit/delete Channel settings </br> - Context settings </br> - Can add/edit/delete Routing rules </br> - Can add/edit/delete Presence associations </br> - Add/edit/delete queue </br> - Add/edit/delete operating hours </br> - Can add/edit/delete authentication settings | - Can add/remove users from presence </br> - Can add/remove agents from Queue |
+|**Omni-channel supervisor** | | | |
+|**Omni-channel agent** | | | |
 
 
 ### See also
