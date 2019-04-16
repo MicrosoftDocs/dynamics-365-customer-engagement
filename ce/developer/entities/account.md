@@ -1,18 +1,17 @@
 ---
-title: "Account Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Account Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Account entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Account Entity Reference
@@ -26,22 +25,22 @@ Business that represents a customer or potential customer. The company that is b
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Associate|[Associate and disassociate entities](../webapi/associate-disassociate-entities-using-web-api.md) |<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
-|Create|POST [*org URI*]/api/data/v9.0/accounts<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Disassociate|[Associate and disassociate entities](../webapi/associate-disassociate-entities-using-web-api.md) |<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Associate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api) |<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
+|Create|POST [*org URI*]/api/data/v9.0/accounts<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Disassociate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api) |<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |Merge|<xref href="Microsoft.Dynamics.CRM.Merge?text=Merge Action" />|<xref:Microsoft.Crm.Sdk.Messages.MergeRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/accounts<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/accounts<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
 |Rollup|<xref href="Microsoft.Dynamics.CRM.Rollup?text=Rollup Function" />|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -182,6 +181,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [StateCode](#BKMK_StateCode)
 - [StatusCode](#BKMK_StatusCode)
 - [StockExchange](#BKMK_StockExchange)
+- [TeamsFollowed](#BKMK_TeamsFollowed)
 - [Telephone1](#BKMK_Telephone1)
 - [Telephone2](#BKMK_Telephone2)
 - [Telephone3](#BKMK_Telephone3)
@@ -1164,7 +1164,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_DefaultPriceLevelId"></a> DefaultPriceLevelId
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Product Management Solution
 
 |Property|Value|
 |--------|-----|
@@ -1244,7 +1244,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select whether the account allows direct email sent from Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Select whether the account allows direct email sent from Microsoft Dynamics 365.|
 |DisplayName|Do not allow Emails|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -1616,7 +1616,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_BillingAccount"></a> msdyn_BillingAccount
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1632,7 +1632,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_externalaccountid"></a> msdyn_externalaccountid
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -1650,7 +1650,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_PreferredResource"></a> msdyn_PreferredResource
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1666,7 +1666,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_SalesTaxCode"></a> msdyn_SalesTaxCode
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1682,7 +1682,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_ServiceTerritory"></a> msdyn_ServiceTerritory
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1698,7 +1698,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_TaxExempt"></a> msdyn_TaxExempt
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1723,7 +1723,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_TaxExemptNumber"></a> msdyn_TaxExemptNumber
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1741,7 +1741,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_TravelCharge"></a> msdyn_TravelCharge
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1760,7 +1760,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_TravelChargeType"></a> msdyn_TravelChargeType
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1785,7 +1785,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_WorkOrderInstructions"></a> msdyn_WorkOrderInstructions
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -1835,9 +1835,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OriginatingLeadId"></a> OriginatingLeadId
 
+**Added by**: Lead Management Solution
+
 |Property|Value|
 |--------|-----|
-|Description|Shows the lead that the account was created from if the account was created by converting a lead in Microsoft Dynamics 365 for Customer Engagement apps. This is used to relate the account to data on the originating lead for use in reporting and analytics.|
+|Description|Shows the lead that the account was created from if the account was created by converting a lead in Microsoft Dynamics 365. This is used to relate the account to data on the originating lead for use in reporting and analytics.|
 |DisplayName|Originating Lead|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -2048,6 +2050,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_PreferredEquipmentId"></a> PreferredEquipmentId
 
+**Added by**: Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Choose the account's preferred service facility or equipment to make sure services are scheduled correctly for the customer.|
@@ -2061,6 +2065,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_PreferredServiceId"></a> PreferredServiceId
+
+**Added by**: Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -2235,7 +2241,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Shows the ID of the stage.|
-|DisplayName|Process Stage|
+|DisplayName|(Deprecated) Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -2300,6 +2306,24 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|20|
 |RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_TeamsFollowed"></a> TeamsFollowed
+
+**Added by**: Sales Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Number of users or conversations followed the record|
+|DisplayName|TeamsFollowed|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|teamsfollowed|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_Telephone1"></a> Telephone1
@@ -2372,6 +2396,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_TerritoryId"></a> TerritoryId
 
+**Added by**: Sales Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Choose the sales region or territory for the account to make sure the account is assigned to the correct representative and for use in segmentation and analysis.|
@@ -2435,7 +2461,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|Traversed Path|
+|DisplayName|(Deprecated) Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -2494,7 +2520,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [Address1_Composite](#BKMK_Address1_Composite)
@@ -2807,7 +2835,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -2881,6 +2909,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_DefaultPriceLevelIdName"></a> DefaultPriceLevelIdName
+
+**Added by**: Product Management Solution
 
 |Property|Value|
 |--------|-----|
@@ -3162,7 +3192,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -3220,6 +3250,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_BillingAccountName"></a> msdyn_BillingAccountName
 
+**Added by**: Field Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -3235,6 +3267,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_BillingAccountYomiName"></a> msdyn_BillingAccountYomiName
+
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -3252,6 +3286,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_PreferredResourceName"></a> msdyn_PreferredResourceName
 
+**Added by**: Field Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -3267,6 +3303,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_SalesTaxCodeName"></a> msdyn_SalesTaxCodeName
+
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -3284,6 +3322,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_ServiceTerritoryName"></a> msdyn_ServiceTerritoryName
 
+**Added by**: Field Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -3300,7 +3340,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_travelcharge_Base"></a> msdyn_travelcharge_Base
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -3335,6 +3375,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OpenDeals"></a> OpenDeals
 
+**Added by**: Sales Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Number of open opportunities against an account and its child accounts.|
@@ -3351,6 +3393,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OpenDeals_Date"></a> OpenDeals_Date
 
+**Added by**: Sales Solution
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -3365,6 +3409,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OpenDeals_State"></a> OpenDeals_State
+
+**Added by**: Sales Solution
 
 |Property|Value|
 |--------|-----|
@@ -3381,6 +3427,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OpenRevenue"></a> OpenRevenue
+
+**Added by**: Sales Solution
 
 |Property|Value|
 |--------|-----|
@@ -3399,6 +3447,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OpenRevenue_Base"></a> OpenRevenue_Base
 
+**Added by**: Sales Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Open Revenue in base currency.|
@@ -3416,6 +3466,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OpenRevenue_Date"></a> OpenRevenue_Date
 
+**Added by**: Sales Solution
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -3430,6 +3482,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OpenRevenue_State"></a> OpenRevenue_State
+
+**Added by**: Sales Solution
 
 |Property|Value|
 |--------|-----|
@@ -3447,6 +3501,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OriginatingLeadIdName"></a> OriginatingLeadIdName
 
+**Added by**: Lead Management Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -3462,6 +3518,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_OriginatingLeadIdYomiName"></a> OriginatingLeadIdYomiName
+
+**Added by**: Lead Management Solution
 
 |Property|Value|
 |--------|-----|
@@ -3585,6 +3643,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_PreferredEquipmentIdName"></a> PreferredEquipmentIdName
 
+**Added by**: Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -3600,6 +3660,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_PreferredServiceIdName"></a> PreferredServiceIdName
+
+**Added by**: Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -3744,6 +3806,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_TerritoryIdName"></a> TerritoryIdName
 
+**Added by**: Sales Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -3810,11 +3874,11 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
+- [msdyn_geofence_account](#BKMK_msdyn_geofence_account)
 - [lead_customer_accounts](#BKMK_lead_customer_accounts)
 - [lead_parent_account](#BKMK_lead_parent_account)
 - [account_bookableresource_AccountId](#BKMK_account_bookableresource_AccountId)
 - [account_BulkOperations](#BKMK_account_BulkOperations)
-- [account_CampaignActivities](#BKMK_account_CampaignActivities)
 - [account_CampaignResponses](#BKMK_account_CampaignResponses)
 - [CreatedAccount_BulkOperationLogs2](#BKMK_CreatedAccount_BulkOperationLogs2)
 - [SourceAccount_BulkOperationLogs](#BKMK_SourceAccount_BulkOperationLogs)
@@ -3829,7 +3893,6 @@ Listed by **SchemaName**.
 - [account_OpportunityCloses](#BKMK_account_OpportunityCloses)
 - [account_OrderCloses](#BKMK_account_OrderCloses)
 - [account_QuoteCloses](#BKMK_account_QuoteCloses)
-- [account_customer_opportunity_roles](#BKMK_account_customer_opportunity_roles)
 - [invoice_customer_accounts](#BKMK_invoice_customer_accounts)
 - [opportunity_customer_accounts](#BKMK_opportunity_customer_accounts)
 - [order_customer_accounts](#BKMK_order_customer_accounts)
@@ -3860,6 +3923,7 @@ Listed by **SchemaName**.
 - [msdyn_account_msdyn_agreement_BillingAccount](#BKMK_msdyn_account_msdyn_agreement_BillingAccount)
 - [msdyn_account_msdyn_agreement_ServiceAccount](#BKMK_msdyn_account_msdyn_agreement_ServiceAccount)
 - [msdyn_account_msdyn_customerasset_Account](#BKMK_msdyn_account_msdyn_customerasset_Account)
+- [msdyn_account_msdyn_entitlementapplication_serviceaccount](#BKMK_msdyn_account_msdyn_entitlementapplication_serviceaccount)
 - [msdyn_account_msdyn_payment_Account](#BKMK_msdyn_account_msdyn_payment_Account)
 - [msdyn_account_msdyn_purchaseorder_Vendor](#BKMK_msdyn_account_msdyn_purchaseorder_Vendor)
 - [msdyn_account_msdyn_requirementresourcepreference_Account](#BKMK_msdyn_account_msdyn_requirementresourcepreference_Account)
@@ -3883,8 +3947,6 @@ Listed by **SchemaName**.
 - [account_PostFollows](#BKMK_account_PostFollows)
 - [Account_Tasks](#BKMK_Account_Tasks)
 - [account_connections1](#BKMK_account_connections1)
-- [account_customer_relationship_customer](#BKMK_account_customer_relationship_customer)
-- [userentityinstancedata_account](#BKMK_userentityinstancedata_account)
 - [SocialActivity_PostAuthorAccount_accounts](#BKMK_SocialActivity_PostAuthorAccount_accounts)
 - [Account_DuplicateBaseRecord](#BKMK_Account_DuplicateBaseRecord)
 - [SocialActivity_PostAuthor_accounts](#BKMK_SocialActivity_PostAuthor_accounts)
@@ -3898,10 +3960,8 @@ Listed by **SchemaName**.
 - [Account_Emails](#BKMK_Account_Emails)
 - [account_activity_parties](#BKMK_account_activity_parties)
 - [Account_Phonecalls](#BKMK_Account_Phonecalls)
-- [account_customer_relationship_partner](#BKMK_account_customer_relationship_partner)
 - [Account_SocialActivities](#BKMK_Account_SocialActivities)
 - [Account_DuplicateMatchingRecord](#BKMK_Account_DuplicateMatchingRecord)
-- [Account_SharepointDocument](#BKMK_Account_SharepointDocument)
 - [account_actioncard](#BKMK_account_actioncard)
 - [Account_AsyncOperations](#BKMK_Account_AsyncOperations)
 - [Account_CustomerAddress](#BKMK_Account_CustomerAddress)
@@ -3917,7 +3977,26 @@ Listed by **SchemaName**.
 - [account_connections2](#BKMK_account_connections2)
 
 
+### <a name="BKMK_msdyn_geofence_account"></a> msdyn_geofence_account
+
+**Added by**: Active Solution Solution
+
+Same as msdyn_geofence entity [msdyn_geofence_account](msdyn_geofence.md#BKMK_msdyn_geofence_account) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_geofence|
+|ReferencingAttribute|msdyn_account|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_geofence_account|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
 ### <a name="BKMK_lead_customer_accounts"></a> lead_customer_accounts
+
+**Added by**: Lead Management Solution
 
 Same as lead entity [lead_customer_accounts](lead.md#BKMK_lead_customer_accounts) Many-To-One relationship.
 
@@ -3934,6 +4013,8 @@ Same as lead entity [lead_customer_accounts](lead.md#BKMK_lead_customer_accounts
 
 ### <a name="BKMK_lead_parent_account"></a> lead_parent_account
 
+**Added by**: Lead Management Solution
+
 Same as lead entity [lead_parent_account](lead.md#BKMK_lead_parent_account) Many-To-One relationship.
 
 |Property|Value|
@@ -3943,11 +4024,13 @@ Same as lead entity [lead_parent_account](lead.md#BKMK_lead_parent_account) Many
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|lead_parent_account|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Sales<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_bookableresource_AccountId"></a> account_bookableresource_AccountId
+
+**Added by**: Scheduling Solution
 
 Same as bookableresource entity [account_bookableresource_AccountId](bookableresource.md#BKMK_account_bookableresource_AccountId) Many-To-One relationship.
 
@@ -3964,6 +4047,8 @@ Same as bookableresource entity [account_bookableresource_AccountId](bookableres
 
 ### <a name="BKMK_account_BulkOperations"></a> account_BulkOperations
 
+**Added by**: Marketing Solution
+
 Same as bulkoperation entity [account_BulkOperations](bulkoperation.md#BKMK_account_BulkOperations) Many-To-One relationship.
 
 |Property|Value|
@@ -3977,22 +4062,9 @@ Same as bulkoperation entity [account_BulkOperations](bulkoperation.md#BKMK_acco
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_account_CampaignActivities"></a> account_CampaignActivities
-
-Same as campaignactivity entity [account_CampaignActivities](campaignactivity.md#BKMK_account_CampaignActivities) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|campaignactivity|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|account_CampaignActivities|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
 ### <a name="BKMK_account_CampaignResponses"></a> account_CampaignResponses
+
+**Added by**: Marketing Solution
 
 Same as campaignresponse entity [account_CampaignResponses](campaignresponse.md#BKMK_account_CampaignResponses) Many-To-One relationship.
 
@@ -4009,6 +4081,8 @@ Same as campaignresponse entity [account_CampaignResponses](campaignresponse.md#
 
 ### <a name="BKMK_CreatedAccount_BulkOperationLogs2"></a> CreatedAccount_BulkOperationLogs2
 
+**Added by**: Marketing Solution
+
 Same as bulkoperationlog entity [CreatedAccount_BulkOperationLogs2](bulkoperationlog.md#BKMK_CreatedAccount_BulkOperationLogs2) Many-To-One relationship.
 
 |Property|Value|
@@ -4023,6 +4097,8 @@ Same as bulkoperationlog entity [CreatedAccount_BulkOperationLogs2](bulkoperatio
 
 
 ### <a name="BKMK_SourceAccount_BulkOperationLogs"></a> SourceAccount_BulkOperationLogs
+
+**Added by**: Marketing Solution
 
 Same as bulkoperationlog entity [SourceAccount_BulkOperationLogs](bulkoperationlog.md#BKMK_SourceAccount_BulkOperationLogs) Many-To-One relationship.
 
@@ -4039,6 +4115,8 @@ Same as bulkoperationlog entity [SourceAccount_BulkOperationLogs](bulkoperationl
 
 ### <a name="BKMK_account_IncidentResolutions"></a> account_IncidentResolutions
 
+**Added by**: Service Solution
+
 Same as incidentresolution entity [account_IncidentResolutions](incidentresolution.md#BKMK_account_IncidentResolutions) Many-To-One relationship.
 
 |Property|Value|
@@ -4053,6 +4131,8 @@ Same as incidentresolution entity [account_IncidentResolutions](incidentresoluti
 
 
 ### <a name="BKMK_Account_ServiceAppointments"></a> Account_ServiceAppointments
+
+**Added by**: Service Solution
 
 Same as serviceappointment entity [Account_ServiceAppointments](serviceappointment.md#BKMK_Account_ServiceAppointments) Many-To-One relationship.
 
@@ -4069,6 +4149,8 @@ Same as serviceappointment entity [Account_ServiceAppointments](serviceappointme
 
 ### <a name="BKMK_contractlineitem_customer_accounts"></a> contractlineitem_customer_accounts
 
+**Added by**: Service Solution
+
 Same as contractdetail entity [contractlineitem_customer_accounts](contractdetail.md#BKMK_contractlineitem_customer_accounts) Many-To-One relationship.
 
 |Property|Value|
@@ -4083,6 +4165,8 @@ Same as contractdetail entity [contractlineitem_customer_accounts](contractdetai
 
 
 ### <a name="BKMK_contract_billingcustomer_accounts"></a> contract_billingcustomer_accounts
+
+**Added by**: Service Solution
 
 Same as contract entity [contract_billingcustomer_accounts](contract.md#BKMK_contract_billingcustomer_accounts) Many-To-One relationship.
 
@@ -4099,6 +4183,8 @@ Same as contract entity [contract_billingcustomer_accounts](contract.md#BKMK_con
 
 ### <a name="BKMK_contract_customer_accounts"></a> contract_customer_accounts
 
+**Added by**: Service Solution
+
 Same as contract entity [contract_customer_accounts](contract.md#BKMK_contract_customer_accounts) Many-To-One relationship.
 
 |Property|Value|
@@ -4113,6 +4199,8 @@ Same as contract entity [contract_customer_accounts](contract.md#BKMK_contract_c
 
 
 ### <a name="BKMK_incident_customer_accounts"></a> incident_customer_accounts
+
+**Added by**: Service Solution
 
 Same as incident entity [incident_customer_accounts](incident.md#BKMK_incident_customer_accounts) Many-To-One relationship.
 
@@ -4129,6 +4217,8 @@ Same as incident entity [incident_customer_accounts](incident.md#BKMK_incident_c
 
 ### <a name="BKMK_account_entitlement_Account"></a> account_entitlement_Account
 
+**Added by**: Service Solution
+
 Same as entitlement entity [account_entitlement_Account](entitlement.md#BKMK_account_entitlement_Account) Many-To-One relationship.
 
 |Property|Value|
@@ -4143,6 +4233,8 @@ Same as entitlement entity [account_entitlement_Account](entitlement.md#BKMK_acc
 
 
 ### <a name="BKMK_account_entitlement_Customer"></a> account_entitlement_Customer
+
+**Added by**: Service Solution
 
 Same as entitlement entity [account_entitlement_Customer](entitlement.md#BKMK_account_entitlement_Customer) Many-To-One relationship.
 
@@ -4159,6 +4251,8 @@ Same as entitlement entity [account_entitlement_Customer](entitlement.md#BKMK_ac
 
 ### <a name="BKMK_account_OpportunityCloses"></a> account_OpportunityCloses
 
+**Added by**: Sales Solution
+
 Same as opportunityclose entity [account_OpportunityCloses](opportunityclose.md#BKMK_account_OpportunityCloses) Many-To-One relationship.
 
 |Property|Value|
@@ -4173,6 +4267,8 @@ Same as opportunityclose entity [account_OpportunityCloses](opportunityclose.md#
 
 
 ### <a name="BKMK_account_OrderCloses"></a> account_OrderCloses
+
+**Added by**: Sales Solution
 
 Same as orderclose entity [account_OrderCloses](orderclose.md#BKMK_account_OrderCloses) Many-To-One relationship.
 
@@ -4189,6 +4285,8 @@ Same as orderclose entity [account_OrderCloses](orderclose.md#BKMK_account_Order
 
 ### <a name="BKMK_account_QuoteCloses"></a> account_QuoteCloses
 
+**Added by**: Sales Solution
+
 Same as quoteclose entity [account_QuoteCloses](quoteclose.md#BKMK_account_QuoteCloses) Many-To-One relationship.
 
 |Property|Value|
@@ -4202,22 +4300,9 @@ Same as quoteclose entity [account_QuoteCloses](quoteclose.md#BKMK_account_Quote
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_account_customer_opportunity_roles"></a> account_customer_opportunity_roles
-
-Same as customeropportunityrole entity [account_customer_opportunity_roles](customeropportunityrole.md#BKMK_account_customer_opportunity_roles) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|customeropportunityrole|
-|ReferencingAttribute|customerid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|account_customer_opportunity_roles|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_invoice_customer_accounts"></a> invoice_customer_accounts
+
+**Added by**: Sales Solution
 
 Same as invoice entity [invoice_customer_accounts](invoice.md#BKMK_invoice_customer_accounts) Many-To-One relationship.
 
@@ -4234,6 +4319,8 @@ Same as invoice entity [invoice_customer_accounts](invoice.md#BKMK_invoice_custo
 
 ### <a name="BKMK_opportunity_customer_accounts"></a> opportunity_customer_accounts
 
+**Added by**: Sales Solution
+
 Same as opportunity entity [opportunity_customer_accounts](opportunity.md#BKMK_opportunity_customer_accounts) Many-To-One relationship.
 
 |Property|Value|
@@ -4248,6 +4335,8 @@ Same as opportunity entity [opportunity_customer_accounts](opportunity.md#BKMK_o
 
 
 ### <a name="BKMK_order_customer_accounts"></a> order_customer_accounts
+
+**Added by**: Sales Solution
 
 Same as salesorder entity [order_customer_accounts](salesorder.md#BKMK_order_customer_accounts) Many-To-One relationship.
 
@@ -4264,6 +4353,8 @@ Same as salesorder entity [order_customer_accounts](salesorder.md#BKMK_order_cus
 
 ### <a name="BKMK_quote_customer_accounts"></a> quote_customer_accounts
 
+**Added by**: Sales Solution
+
 Same as quote entity [quote_customer_accounts](quote.md#BKMK_quote_customer_accounts) Many-To-One relationship.
 
 |Property|Value|
@@ -4279,6 +4370,8 @@ Same as quote entity [quote_customer_accounts](quote.md#BKMK_quote_customer_acco
 
 ### <a name="BKMK_opportunity_parent_account"></a> opportunity_parent_account
 
+**Added by**: Sales Solution
+
 Same as opportunity entity [opportunity_parent_account](opportunity.md#BKMK_opportunity_parent_account) Many-To-One relationship.
 
 |Property|Value|
@@ -4288,11 +4381,13 @@ Same as opportunity entity [opportunity_parent_account](opportunity.md#BKMK_oppo
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|opportunity_parent_account|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Sales<br />Label: <br />Order: 1|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_msdyn_bookingalerts"></a> account_msdyn_bookingalerts
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bookingalert entity [account_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_account_msdyn_bookingalerts) Many-To-One relationship.
 
@@ -4309,6 +4404,8 @@ Same as msdyn_bookingalert entity [account_msdyn_bookingalerts](msdyn_bookingale
 
 ### <a name="BKMK_msdyn_account_msdyn_actual_AccountCustomer"></a> msdyn_account_msdyn_actual_AccountCustomer
 
+**Added by**: Universal Resource Scheduling Solution
+
 Same as msdyn_actual entity [msdyn_account_msdyn_actual_AccountCustomer](msdyn_actual.md#BKMK_msdyn_account_msdyn_actual_AccountCustomer) Many-To-One relationship.
 
 |Property|Value|
@@ -4323,6 +4420,8 @@ Same as msdyn_actual entity [msdyn_account_msdyn_actual_AccountCustomer](msdyn_a
 
 
 ### <a name="BKMK_msdyn_account_msdyn_actual_AccountVendor"></a> msdyn_account_msdyn_actual_AccountVendor
+
+**Added by**: Universal Resource Scheduling Solution
 
 Same as msdyn_actual entity [msdyn_account_msdyn_actual_AccountVendor](msdyn_actual.md#BKMK_msdyn_account_msdyn_actual_AccountVendor) Many-To-One relationship.
 
@@ -4339,6 +4438,8 @@ Same as msdyn_actual entity [msdyn_account_msdyn_actual_AccountVendor](msdyn_act
 
 ### <a name="BKMK_account_msdyn_approvals"></a> account_msdyn_approvals
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_approval entity [account_msdyn_approvals](msdyn_approval.md#BKMK_account_msdyn_approvals) Many-To-One relationship.
 
 |Property|Value|
@@ -4353,6 +4454,8 @@ Same as msdyn_approval entity [account_msdyn_approvals](msdyn_approval.md#BKMK_a
 
 
 ### <a name="BKMK_msdyn_account_msdyn_accountpricelist_Account"></a> msdyn_account_msdyn_accountpricelist_Account
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_accountpricelist entity [msdyn_account_msdyn_accountpricelist_Account](msdyn_accountpricelist.md#BKMK_msdyn_account_msdyn_accountpricelist_Account) Many-To-One relationship.
 
@@ -4369,6 +4472,8 @@ Same as msdyn_accountpricelist entity [msdyn_account_msdyn_accountpricelist_Acco
 
 ### <a name="BKMK_msdyn_account_msdyn_estimateline_AccountCustomer"></a> msdyn_account_msdyn_estimateline_AccountCustomer
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_estimateline entity [msdyn_account_msdyn_estimateline_AccountCustomer](msdyn_estimateline.md#BKMK_msdyn_account_msdyn_estimateline_AccountCustomer) Many-To-One relationship.
 
 |Property|Value|
@@ -4383,6 +4488,8 @@ Same as msdyn_estimateline entity [msdyn_account_msdyn_estimateline_AccountCusto
 
 
 ### <a name="BKMK_msdyn_account_msdyn_estimateline_AccountVendor"></a> msdyn_account_msdyn_estimateline_AccountVendor
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_estimateline entity [msdyn_account_msdyn_estimateline_AccountVendor](msdyn_estimateline.md#BKMK_msdyn_account_msdyn_estimateline_AccountVendor) Many-To-One relationship.
 
@@ -4399,6 +4506,8 @@ Same as msdyn_estimateline entity [msdyn_account_msdyn_estimateline_AccountVendo
 
 ### <a name="BKMK_msdyn_account_msdyn_fact_AccountCustomer"></a> msdyn_account_msdyn_fact_AccountCustomer
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_fact entity [msdyn_account_msdyn_fact_AccountCustomer](msdyn_fact.md#BKMK_msdyn_account_msdyn_fact_AccountCustomer) Many-To-One relationship.
 
 |Property|Value|
@@ -4413,6 +4522,8 @@ Same as msdyn_fact entity [msdyn_account_msdyn_fact_AccountCustomer](msdyn_fact.
 
 
 ### <a name="BKMK_msdyn_account_msdyn_fact_AccountVendor"></a> msdyn_account_msdyn_fact_AccountVendor
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_fact entity [msdyn_account_msdyn_fact_AccountVendor](msdyn_fact.md#BKMK_msdyn_account_msdyn_fact_AccountVendor) Many-To-One relationship.
 
@@ -4429,6 +4540,8 @@ Same as msdyn_fact entity [msdyn_account_msdyn_fact_AccountVendor](msdyn_fact.md
 
 ### <a name="BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountCustomer"></a> msdyn_account_msdyn_invoicelinetransaction_AccountCustomer
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_invoicelinetransaction entity [msdyn_account_msdyn_invoicelinetransaction_AccountCustomer](msdyn_invoicelinetransaction.md#BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountCustomer) Many-To-One relationship.
 
 |Property|Value|
@@ -4443,6 +4556,8 @@ Same as msdyn_invoicelinetransaction entity [msdyn_account_msdyn_invoicelinetran
 
 
 ### <a name="BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountVendor"></a> msdyn_account_msdyn_invoicelinetransaction_AccountVendor
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_invoicelinetransaction entity [msdyn_account_msdyn_invoicelinetransaction_AccountVendor](msdyn_invoicelinetransaction.md#BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountVendor) Many-To-One relationship.
 
@@ -4459,6 +4574,8 @@ Same as msdyn_invoicelinetransaction entity [msdyn_account_msdyn_invoicelinetran
 
 ### <a name="BKMK_msdyn_account_msdyn_journalline_AccountCustomer"></a> msdyn_account_msdyn_journalline_AccountCustomer
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_journalline entity [msdyn_account_msdyn_journalline_AccountCustomer](msdyn_journalline.md#BKMK_msdyn_account_msdyn_journalline_AccountCustomer) Many-To-One relationship.
 
 |Property|Value|
@@ -4473,6 +4590,8 @@ Same as msdyn_journalline entity [msdyn_account_msdyn_journalline_AccountCustome
 
 
 ### <a name="BKMK_msdyn_account_msdyn_journalline_AccountVendor"></a> msdyn_account_msdyn_journalline_AccountVendor
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_journalline entity [msdyn_account_msdyn_journalline_AccountVendor](msdyn_journalline.md#BKMK_msdyn_account_msdyn_journalline_AccountVendor) Many-To-One relationship.
 
@@ -4489,6 +4608,8 @@ Same as msdyn_journalline entity [msdyn_account_msdyn_journalline_AccountVendor]
 
 ### <a name="BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer"></a> msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_opportunitylinetransaction entity [msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer](msdyn_opportunitylinetransaction.md#BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer) Many-To-One relationship.
 
 |Property|Value|
@@ -4503,6 +4624,8 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_account_msdyn_opportunity
 
 
 ### <a name="BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountVendor"></a> msdyn_account_msdyn_opportunitylinetransaction_AccountVendor
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_account_msdyn_opportunitylinetransaction_AccountVendor](msdyn_opportunitylinetransaction.md#BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountVendor) Many-To-One relationship.
 
@@ -4519,6 +4642,8 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_account_msdyn_opportunity
 
 ### <a name="BKMK_msdyn_account_msdyn_orderlinetransaction_AccountCustomer"></a> msdyn_account_msdyn_orderlinetransaction_AccountCustomer
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_orderlinetransaction entity [msdyn_account_msdyn_orderlinetransaction_AccountCustomer](msdyn_orderlinetransaction.md#BKMK_msdyn_account_msdyn_orderlinetransaction_AccountCustomer) Many-To-One relationship.
 
 |Property|Value|
@@ -4533,6 +4658,8 @@ Same as msdyn_orderlinetransaction entity [msdyn_account_msdyn_orderlinetransact
 
 
 ### <a name="BKMK_msdyn_account_msdyn_orderlinetransaction_AccountVendor"></a> msdyn_account_msdyn_orderlinetransaction_AccountVendor
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_orderlinetransaction entity [msdyn_account_msdyn_orderlinetransaction_AccountVendor](msdyn_orderlinetransaction.md#BKMK_msdyn_account_msdyn_orderlinetransaction_AccountVendor) Many-To-One relationship.
 
@@ -4549,6 +4676,8 @@ Same as msdyn_orderlinetransaction entity [msdyn_account_msdyn_orderlinetransact
 
 ### <a name="BKMK_msdyn_account_msdyn_project_Customer"></a> msdyn_account_msdyn_project_Customer
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_project entity [msdyn_account_msdyn_project_Customer](msdyn_project.md#BKMK_msdyn_account_msdyn_project_Customer) Many-To-One relationship.
 
 |Property|Value|
@@ -4563,6 +4692,8 @@ Same as msdyn_project entity [msdyn_account_msdyn_project_Customer](msdyn_projec
 
 
 ### <a name="BKMK_msdyn_account_msdyn_quotelinetransaction_AccountCustomer"></a> msdyn_account_msdyn_quotelinetransaction_AccountCustomer
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_quotelinetransaction entity [msdyn_account_msdyn_quotelinetransaction_AccountCustomer](msdyn_quotelinetransaction.md#BKMK_msdyn_account_msdyn_quotelinetransaction_AccountCustomer) Many-To-One relationship.
 
@@ -4579,6 +4710,8 @@ Same as msdyn_quotelinetransaction entity [msdyn_account_msdyn_quotelinetransact
 
 ### <a name="BKMK_msdyn_account_msdyn_quotelinetransaction_AccountVendor"></a> msdyn_account_msdyn_quotelinetransaction_AccountVendor
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_quotelinetransaction entity [msdyn_account_msdyn_quotelinetransaction_AccountVendor](msdyn_quotelinetransaction.md#BKMK_msdyn_account_msdyn_quotelinetransaction_AccountVendor) Many-To-One relationship.
 
 |Property|Value|
@@ -4593,6 +4726,8 @@ Same as msdyn_quotelinetransaction entity [msdyn_account_msdyn_quotelinetransact
 
 
 ### <a name="BKMK_msdyn_account_account_BillingAccount"></a> msdyn_account_account_BillingAccount
+
+**Added by**: Field Service Solution
 
 Same as account entity [msdyn_account_account_BillingAccount](account.md#BKMK_msdyn_account_account_BillingAccount) Many-To-One relationship.
 
@@ -4609,6 +4744,8 @@ Same as account entity [msdyn_account_account_BillingAccount](account.md#BKMK_ms
 
 ### <a name="BKMK_msdyn_account_msdyn_actual_ServiceAccount"></a> msdyn_account_msdyn_actual_ServiceAccount
 
+**Added by**: Field Service Solution
+
 Same as msdyn_actual entity [msdyn_account_msdyn_actual_ServiceAccount](msdyn_actual.md#BKMK_msdyn_account_msdyn_actual_ServiceAccount) Many-To-One relationship.
 
 |Property|Value|
@@ -4623,6 +4760,8 @@ Same as msdyn_actual entity [msdyn_account_msdyn_actual_ServiceAccount](msdyn_ac
 
 
 ### <a name="BKMK_msdyn_account_msdyn_agreement_BillingAccount"></a> msdyn_account_msdyn_agreement_BillingAccount
+
+**Added by**: Field Service Solution
 
 Same as msdyn_agreement entity [msdyn_account_msdyn_agreement_BillingAccount](msdyn_agreement.md#BKMK_msdyn_account_msdyn_agreement_BillingAccount) Many-To-One relationship.
 
@@ -4639,6 +4778,8 @@ Same as msdyn_agreement entity [msdyn_account_msdyn_agreement_BillingAccount](ms
 
 ### <a name="BKMK_msdyn_account_msdyn_agreement_ServiceAccount"></a> msdyn_account_msdyn_agreement_ServiceAccount
 
+**Added by**: Field Service Solution
+
 Same as msdyn_agreement entity [msdyn_account_msdyn_agreement_ServiceAccount](msdyn_agreement.md#BKMK_msdyn_account_msdyn_agreement_ServiceAccount) Many-To-One relationship.
 
 |Property|Value|
@@ -4654,6 +4795,8 @@ Same as msdyn_agreement entity [msdyn_account_msdyn_agreement_ServiceAccount](ms
 
 ### <a name="BKMK_msdyn_account_msdyn_customerasset_Account"></a> msdyn_account_msdyn_customerasset_Account
 
+**Added by**: Field Service Solution
+
 Same as msdyn_customerasset entity [msdyn_account_msdyn_customerasset_Account](msdyn_customerasset.md#BKMK_msdyn_account_msdyn_customerasset_Account) Many-To-One relationship.
 
 |Property|Value|
@@ -4667,7 +4810,26 @@ Same as msdyn_customerasset entity [msdyn_account_msdyn_customerasset_Account](m
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
+### <a name="BKMK_msdyn_account_msdyn_entitlementapplication_serviceaccount"></a> msdyn_account_msdyn_entitlementapplication_serviceaccount
+
+**Added by**: Field Service Solution
+
+Same as msdyn_entitlementapplication entity [msdyn_account_msdyn_entitlementapplication_serviceaccount](msdyn_entitlementapplication.md#BKMK_msdyn_account_msdyn_entitlementapplication_serviceaccount) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_entitlementapplication|
+|ReferencingAttribute|msdyn_serviceaccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_entitlementapplication_serviceaccount|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
 ### <a name="BKMK_msdyn_account_msdyn_payment_Account"></a> msdyn_account_msdyn_payment_Account
+
+**Added by**: Field Service Solution
 
 Same as msdyn_payment entity [msdyn_account_msdyn_payment_Account](msdyn_payment.md#BKMK_msdyn_account_msdyn_payment_Account) Many-To-One relationship.
 
@@ -4684,6 +4846,8 @@ Same as msdyn_payment entity [msdyn_account_msdyn_payment_Account](msdyn_payment
 
 ### <a name="BKMK_msdyn_account_msdyn_purchaseorder_Vendor"></a> msdyn_account_msdyn_purchaseorder_Vendor
 
+**Added by**: Field Service Solution
+
 Same as msdyn_purchaseorder entity [msdyn_account_msdyn_purchaseorder_Vendor](msdyn_purchaseorder.md#BKMK_msdyn_account_msdyn_purchaseorder_Vendor) Many-To-One relationship.
 
 |Property|Value|
@@ -4698,6 +4862,8 @@ Same as msdyn_purchaseorder entity [msdyn_account_msdyn_purchaseorder_Vendor](ms
 
 
 ### <a name="BKMK_msdyn_account_msdyn_requirementresourcepreference_Account"></a> msdyn_account_msdyn_requirementresourcepreference_Account
+
+**Added by**: Field Service Solution
 
 Same as msdyn_requirementresourcepreference entity [msdyn_account_msdyn_requirementresourcepreference_Account](msdyn_requirementresourcepreference.md#BKMK_msdyn_account_msdyn_requirementresourcepreference_Account) Many-To-One relationship.
 
@@ -4714,6 +4880,8 @@ Same as msdyn_requirementresourcepreference entity [msdyn_account_msdyn_requirem
 
 ### <a name="BKMK_msdyn_account_msdyn_rma_BillingAccount"></a> msdyn_account_msdyn_rma_BillingAccount
 
+**Added by**: Field Service Solution
+
 Same as msdyn_rma entity [msdyn_account_msdyn_rma_BillingAccount](msdyn_rma.md#BKMK_msdyn_account_msdyn_rma_BillingAccount) Many-To-One relationship.
 
 |Property|Value|
@@ -4728,6 +4896,8 @@ Same as msdyn_rma entity [msdyn_account_msdyn_rma_BillingAccount](msdyn_rma.md#B
 
 
 ### <a name="BKMK_msdyn_account_msdyn_rma_ServiceAccount"></a> msdyn_account_msdyn_rma_ServiceAccount
+
+**Added by**: Field Service Solution
 
 Same as msdyn_rma entity [msdyn_account_msdyn_rma_ServiceAccount](msdyn_rma.md#BKMK_msdyn_account_msdyn_rma_ServiceAccount) Many-To-One relationship.
 
@@ -4744,6 +4914,8 @@ Same as msdyn_rma entity [msdyn_account_msdyn_rma_ServiceAccount](msdyn_rma.md#B
 
 ### <a name="BKMK_msdyn_account_msdyn_rmaproduct_Changeownership"></a> msdyn_account_msdyn_rmaproduct_Changeownership
 
+**Added by**: Field Service Solution
+
 Same as msdyn_rmaproduct entity [msdyn_account_msdyn_rmaproduct_Changeownership](msdyn_rmaproduct.md#BKMK_msdyn_account_msdyn_rmaproduct_Changeownership) Many-To-One relationship.
 
 |Property|Value|
@@ -4758,6 +4930,8 @@ Same as msdyn_rmaproduct entity [msdyn_account_msdyn_rmaproduct_Changeownership]
 
 
 ### <a name="BKMK_msdyn_account_msdyn_rmaproduct_ReturntoVendor"></a> msdyn_account_msdyn_rmaproduct_ReturntoVendor
+
+**Added by**: Field Service Solution
 
 Same as msdyn_rmaproduct entity [msdyn_account_msdyn_rmaproduct_ReturntoVendor](msdyn_rmaproduct.md#BKMK_msdyn_account_msdyn_rmaproduct_ReturntoVendor) Many-To-One relationship.
 
@@ -4774,6 +4948,8 @@ Same as msdyn_rmaproduct entity [msdyn_account_msdyn_rmaproduct_ReturntoVendor](
 
 ### <a name="BKMK_msdyn_account_msdyn_rtv_Vendor"></a> msdyn_account_msdyn_rtv_Vendor
 
+**Added by**: Field Service Solution
+
 Same as msdyn_rtv entity [msdyn_account_msdyn_rtv_Vendor](msdyn_rtv.md#BKMK_msdyn_account_msdyn_rtv_Vendor) Many-To-One relationship.
 
 |Property|Value|
@@ -4788,6 +4964,8 @@ Same as msdyn_rtv entity [msdyn_account_msdyn_rtv_Vendor](msdyn_rtv.md#BKMK_msdy
 
 
 ### <a name="BKMK_msdyn_account_msdyn_workorder_BillingAccount"></a> msdyn_account_msdyn_workorder_BillingAccount
+
+**Added by**: Field Service Solution
 
 Same as msdyn_workorder entity [msdyn_account_msdyn_workorder_BillingAccount](msdyn_workorder.md#BKMK_msdyn_account_msdyn_workorder_BillingAccount) Many-To-One relationship.
 
@@ -4804,6 +4982,8 @@ Same as msdyn_workorder entity [msdyn_account_msdyn_workorder_BillingAccount](ms
 
 ### <a name="BKMK_msdyn_account_msdyn_workorder_ServiceAccount"></a> msdyn_account_msdyn_workorder_ServiceAccount
 
+**Added by**: Field Service Solution
+
 Same as msdyn_workorder entity [msdyn_account_msdyn_workorder_ServiceAccount](msdyn_workorder.md#BKMK_msdyn_account_msdyn_workorder_ServiceAccount) Many-To-One relationship.
 
 |Property|Value|
@@ -4818,6 +4998,8 @@ Same as msdyn_workorder entity [msdyn_account_msdyn_workorder_ServiceAccount](ms
 
 
 ### <a name="BKMK_msdyn_account_msdyn_workorderresourcerestriction_Account"></a> msdyn_account_msdyn_workorderresourcerestriction_Account
+
+**Added by**: Field Service Solution
 
 Same as msdyn_workorderresourcerestriction entity [msdyn_account_msdyn_workorderresourcerestriction_Account](msdyn_workorderresourcerestriction.md#BKMK_msdyn_account_msdyn_workorderresourcerestriction_Account) Many-To-One relationship.
 
@@ -4834,6 +5016,8 @@ Same as msdyn_workorderresourcerestriction entity [msdyn_account_msdyn_workorder
 
 ### <a name="BKMK_msdyn_account_opportunityproduct_ServiceAccount"></a> msdyn_account_opportunityproduct_ServiceAccount
 
+**Added by**: Field Service Solution
+
 Same as opportunityproduct entity [msdyn_account_opportunityproduct_ServiceAccount](opportunityproduct.md#BKMK_msdyn_account_opportunityproduct_ServiceAccount) Many-To-One relationship.
 
 |Property|Value|
@@ -4848,6 +5032,8 @@ Same as opportunityproduct entity [msdyn_account_opportunityproduct_ServiceAccou
 
 
 ### <a name="BKMK_msdyn_account_product_DefaultVendor"></a> msdyn_account_product_DefaultVendor
+
+**Added by**: Field Service Solution
 
 Same as product entity [msdyn_account_product_DefaultVendor](product.md#BKMK_msdyn_account_product_DefaultVendor) Many-To-One relationship.
 
@@ -4864,6 +5050,8 @@ Same as product entity [msdyn_account_product_DefaultVendor](product.md#BKMK_msd
 
 ### <a name="BKMK_msdyn_account_quote_Account"></a> msdyn_account_quote_Account
 
+**Added by**: Field Service Solution
+
 Same as quote entity [msdyn_account_quote_Account](quote.md#BKMK_msdyn_account_quote_Account) Many-To-One relationship.
 
 |Property|Value|
@@ -4878,6 +5066,8 @@ Same as quote entity [msdyn_account_quote_Account](quote.md#BKMK_msdyn_account_q
 
 
 ### <a name="BKMK_msdyn_account_quotedetail_ServiceAccount"></a> msdyn_account_quotedetail_ServiceAccount
+
+**Added by**: Field Service Solution
 
 Same as quotedetail entity [msdyn_account_quotedetail_ServiceAccount](quotedetail.md#BKMK_msdyn_account_quotedetail_ServiceAccount) Many-To-One relationship.
 
@@ -4894,6 +5084,8 @@ Same as quotedetail entity [msdyn_account_quotedetail_ServiceAccount](quotedetai
 
 ### <a name="BKMK_msdyn_account_salesorder_Account"></a> msdyn_account_salesorder_Account
 
+**Added by**: Field Service Solution
+
 Same as salesorder entity [msdyn_account_salesorder_Account](salesorder.md#BKMK_msdyn_account_salesorder_Account) Many-To-One relationship.
 
 |Property|Value|
@@ -4908,6 +5100,8 @@ Same as salesorder entity [msdyn_account_salesorder_Account](salesorder.md#BKMK_
 
 
 ### <a name="BKMK_msdyn_account_msdyn_iotdevice_Account"></a> msdyn_account_msdyn_iotdevice_Account
+
+**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
 
 Same as msdyn_iotdevice entity [msdyn_account_msdyn_iotdevice_Account](msdyn_iotdevice.md#BKMK_msdyn_account_msdyn_iotdevice_Account) Many-To-One relationship.
 
@@ -5010,36 +5204,6 @@ Same as connection entity [account_connections1](connection.md#BKMK_account_conn
 |ReferencedEntityNavigationPropertyName|account_connections1|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 100|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_account_customer_relationship_customer"></a> account_customer_relationship_customer
-
-Same as customerrelationship entity [account_customer_relationship_customer](customerrelationship.md#BKMK_account_customer_relationship_customer) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|customerrelationship|
-|ReferencingAttribute|customerid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|account_customer_relationship_customer|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 60|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_userentityinstancedata_account"></a> userentityinstancedata_account
-
-Same as userentityinstancedata entity [userentityinstancedata_account](userentityinstancedata.md#BKMK_userentityinstancedata_account) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_account|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_SocialActivity_PostAuthorAccount_accounts"></a> SocialActivity_PostAuthorAccount_accounts
@@ -5237,21 +5401,6 @@ Same as phonecall entity [Account_Phonecalls](phonecall.md#BKMK_Account_Phonecal
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_account_customer_relationship_partner"></a> account_customer_relationship_partner
-
-Same as customerrelationship entity [account_customer_relationship_partner](customerrelationship.md#BKMK_account_customer_relationship_partner) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|customerrelationship|
-|ReferencingAttribute|partnerid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|account_customer_relationship_partner|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_Account_SocialActivities"></a> Account_SocialActivities
 
 Same as socialactivity entity [Account_SocialActivities](socialactivity.md#BKMK_Account_SocialActivities) Many-To-One relationship.
@@ -5280,21 +5429,6 @@ Same as duplicaterecord entity [Account_DuplicateMatchingRecord](duplicaterecord
 |ReferencedEntityNavigationPropertyName|Account_DuplicateMatchingRecord|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_Account_SharepointDocument"></a> Account_SharepointDocument
-
-Same as sharepointdocument entity [Account_SharepointDocument](sharepointdocument.md#BKMK_Account_SharepointDocument) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|sharepointdocument|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|Account_SharepointDocument|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 60|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_actioncard"></a> account_actioncard
@@ -5509,7 +5643,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [account_primary_contact](#BKMK_account_primary_contact)
 - [account_master_account](#BKMK_account_master_account)
 - [system_user_accounts](#BKMK_system_user_accounts)
-- [lk_externalparty_account_createdby](#BKMK_lk_externalparty_account_createdby)
 - [lk_accountbase_modifiedby](#BKMK_lk_accountbase_modifiedby)
 - [account_parent_account](#BKMK_account_parent_account)
 - [business_unit_accounts](#BKMK_business_unit_accounts)
@@ -5519,7 +5652,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [processstage_account](#BKMK_processstage_account)
 - [manualsla_account](#BKMK_manualsla_account)
 - [lk_accountbase_createdby](#BKMK_lk_accountbase_createdby)
-- [lk_externalparty_account_modifiedby](#BKMK_lk_externalparty_account_modifiedby)
 - [sla_account](#BKMK_sla_account)
 - [lk_accountbase_modifiedonbehalfby](#BKMK_lk_accountbase_modifiedonbehalfby)
 - [team_accounts](#BKMK_team_accounts)
@@ -5527,21 +5659,31 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_account_originating_lead"></a> account_originating_lead
 
+**Added by**: Lead Management Solution
+
 See lead Entity [account_originating_lead](lead.md#BKMK_account_originating_lead) One-To-Many relationship.
 
 ### <a name="BKMK_price_level_accounts"></a> price_level_accounts
+
+**Added by**: Product Management Solution
 
 See pricelevel Entity [price_level_accounts](pricelevel.md#BKMK_price_level_accounts) One-To-Many relationship.
 
 ### <a name="BKMK_equipment_accounts"></a> equipment_accounts
 
+**Added by**: Service Solution
+
 See equipment Entity [equipment_accounts](equipment.md#BKMK_equipment_accounts) One-To-Many relationship.
 
 ### <a name="BKMK_service_accounts"></a> service_accounts
 
+**Added by**: Service Solution
+
 See service Entity [service_accounts](service.md#BKMK_service_accounts) One-To-Many relationship.
 
 ### <a name="BKMK_territory_accounts"></a> territory_accounts
+
+**Added by**: Application Common Solution
 
 See territory Entity [territory_accounts](territory.md#BKMK_territory_accounts) One-To-Many relationship.
 
@@ -5551,13 +5693,19 @@ See account Entity [msdyn_account_account_BillingAccount](account.md#BKMK_msdyn_
 
 ### <a name="BKMK_msdyn_bookableresource_account_PreferredResource"></a> msdyn_bookableresource_account_PreferredResource
 
+**Added by**: Scheduling Solution
+
 See bookableresource Entity [msdyn_bookableresource_account_PreferredResource](bookableresource.md#BKMK_msdyn_bookableresource_account_PreferredResource) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_taxcode_account_SalesTaxCode"></a> msdyn_msdyn_taxcode_account_SalesTaxCode
 
+**Added by**: Field Service Solution
+
 See msdyn_taxcode Entity [msdyn_msdyn_taxcode_account_SalesTaxCode](msdyn_taxcode.md#BKMK_msdyn_msdyn_taxcode_account_SalesTaxCode) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_territory_account_ServiceTerritory"></a> msdyn_territory_account_ServiceTerritory
+
+**Added by**: Application Common Solution
 
 See territory Entity [msdyn_territory_account_ServiceTerritory](territory.md#BKMK_msdyn_territory_account_ServiceTerritory) One-To-Many relationship.
 
@@ -5572,10 +5720,6 @@ See account Entity [account_master_account](account.md#BKMK_account_master_accou
 ### <a name="BKMK_system_user_accounts"></a> system_user_accounts
 
 See systemuser Entity [system_user_accounts](systemuser.md#BKMK_system_user_accounts) One-To-Many relationship.
-
-### <a name="BKMK_lk_externalparty_account_createdby"></a> lk_externalparty_account_createdby
-
-See externalparty Entity [lk_externalparty_account_createdby](externalparty.md#BKMK_lk_externalparty_account_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_accountbase_modifiedby"></a> lk_accountbase_modifiedby
 
@@ -5612,10 +5756,6 @@ See sla Entity [manualsla_account](sla.md#BKMK_manualsla_account) One-To-Many re
 ### <a name="BKMK_lk_accountbase_createdby"></a> lk_accountbase_createdby
 
 See systemuser Entity [lk_accountbase_createdby](systemuser.md#BKMK_lk_accountbase_createdby) One-To-Many relationship.
-
-### <a name="BKMK_lk_externalparty_account_modifiedby"></a> lk_externalparty_account_modifiedby
-
-See externalparty Entity [lk_externalparty_account_modifiedby](externalparty.md#BKMK_lk_externalparty_account_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_sla_account"></a> sla_account
 
@@ -5668,6 +5808,6 @@ See list Entity [listaccount_association](list.md#BKMK_listaccount_association) 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.account?text=account EntityType" />

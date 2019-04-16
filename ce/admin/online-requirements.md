@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement apps (online) requirements | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/05/2017
+ms.date: 04/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: cbbd5020-c6fb-449b-ab50-8f75ffd0d27a
 caps.latest.revision: 7
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -47,5 +47,6 @@ search.app:
  [!INCLUDE[cc_Office365PlanRequirement](../includes/cc-office365planrequirement.md)]  
   
 ### See also  
- [Get started administering Microsoft Dynamics 365 for Customer Engagement apps (online)](getting-started.md)   
- [Plan for Microsoft Dynamics 365 for Customer Engagement apps (online) Deployment and Administration](../admin/plan-for-deployment-and-administration.md)   
+ [Get started administering Microsoft Dynamics 365 for Customer Engagement apps (online)](getting-started.md) <br />
+ [Plan for Microsoft Dynamics 365 for Customer Engagement apps (online) Deployment and Administration](../admin/plan-for-deployment-and-administration.md)  <br /> 
+ [Microsoft Dynamics CRM Online IP Address Ranges](https://support.microsoft.com/help/2728473/microsoft-dynamics-crm-online-ip-address-ranges)
