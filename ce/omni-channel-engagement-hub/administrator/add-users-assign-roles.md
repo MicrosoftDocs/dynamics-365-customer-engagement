@@ -97,6 +97,7 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------
+
 ## Understand roles and their privileges 
 
 | Role |View |Add/edit/delete |Add/Remove |
