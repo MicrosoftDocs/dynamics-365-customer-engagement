@@ -3,7 +3,7 @@ title: "Configure site settings for a portal in Dynamics 365 for Customer Engage
 description: "Instructions to add and configure site settings for a portal and global settings for all portals in your organization."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 04/16/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -51,8 +51,6 @@ You can manage the following types of site settings:
 
 |Name|Value|Description|
 |----|-----|-----------|
-|Authentication/Registration/Enabled| | |
-|Authentication/Registration/InvitationCodeDuration| | |
 |Authentication/Registration/RequiresConfirmation|FALSE |A boolean value of true enables email confirmation and disables open registration. Default: False |
 |Authentication/Registration/RequiresInvitation|FALSE |A boolean value of true enables invitation code feature and disables open registration. Default: False |
 |conference-name|Portals Conference|The name of an adx_conference record that represents the conference for a given portal.|
