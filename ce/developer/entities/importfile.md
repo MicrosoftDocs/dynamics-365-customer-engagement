@@ -1,21 +1,22 @@
 ---
-title: "ImportFile Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "ImportFile Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ImportFile entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # ImportFile Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 File name of file used for import.
 
@@ -24,20 +25,20 @@ File name of file used for import.
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/importfiles(*importfileid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/importfiles<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/importfiles(*importfileid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/importfiles(*importfileid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/importfiles<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/importfiles(*importfileid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GetDistinctValuesImportFile|<xref href="Microsoft.Dynamics.CRM.GetDistinctValuesImportFile?text=GetDistinctValuesImportFile Function" />|<xref:Microsoft.Crm.Sdk.Messages.GetDistinctValuesImportFileRequest>|
 |GetHeaderColumnsImportFile|<xref href="Microsoft.Dynamics.CRM.GetHeaderColumnsImportFile?text=GetHeaderColumnsImportFile Function" />|<xref:Microsoft.Crm.Sdk.Messages.GetHeaderColumnsImportFileRequest>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/importfiles(*importfileid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/importfiles<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/importfiles(*importfileid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/importfiles<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrieveParsedDataImportFile|<xref href="Microsoft.Dynamics.CRM.RetrieveParsedDataImportFile?text=RetrieveParsedDataImportFile Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveParsedDataImportFileRequest>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/importfiles(*importfileid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/importfiles(*importfileid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -70,7 +71,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [ImportFileId](#BKMK_ImportFileId)
 - [ImportId](#BKMK_ImportId)
 - [ImportMapId](#BKMK_ImportMapId)
-- [IntroducedVersion](#BKMK_IntroducedVersion)
 - [IsFirstRowHeader](#BKMK_IsFirstRowHeader)
 - [Name](#BKMK_Name)
 - [OwnerId](#BKMK_OwnerId)
@@ -243,7 +243,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Choose a data map to match the import file and its column headers with the record types and fields in Microsoft Dynamics 365 for Customer Engagement apps. If the column headers in the file match the display names of the target fields in Microsoft Dynamics 365 for Customer Engagement apps, we import the data automatically. If not, you can manually define matches during import.|
+|Description|Choose a data map to match the import file and its column headers with the record types and fields in Microsoft Dynamics 365. If the column headers in the file match the display names of the target fields in Microsoft Dynamics 365, we import the data automatically. If not, you can manually define matches during import.|
 |DisplayName|Data Map|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -251,23 +251,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Targets|importmap|
 |Type|Lookup|
-
-
-### <a name="BKMK_IntroducedVersion"></a> IntroducedVersion
-
-|Property|Value|
-|--------|-----|
-|Description|Version in which the component is introduced.|
-|DisplayName|Introduced Version|
-|FormatName|VersionNumber|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|introducedversion|
-|MaxLength|48|
-|RequiredLevel|None|
-|Type|String|
 
 
 ### <a name="BKMK_IsFirstRowHeader"></a> IsFirstRowHeader
@@ -554,7 +537,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Tells whether an automatic system map was applied to the import file, which automatically maps the import data to the target entity in Microsoft Dynamics 365 for Customer Engagement apps.|
+|Description|Tells whether an automatic system map was applied to the import file, which automatically maps the import data to the target entity in Microsoft Dynamics 365.|
 |DisplayName|Use System Map|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -589,12 +572,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [AdditionalHeaderRow](#BKMK_AdditionalHeaderRow)
 - [CompletedOn](#BKMK_CompletedOn)
-- [ComponentState](#BKMK_ComponentState)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
 - [CreatedByYomiName](#BKMK_CreatedByYomiName)
@@ -604,10 +588,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
 - [FailureCount](#BKMK_FailureCount)
 - [HeaderRow](#BKMK_HeaderRow)
-- [ImportFileIdUnique](#BKMK_ImportFileIdUnique)
 - [ImportIdName](#BKMK_ImportIdName)
 - [ImportMapIdName](#BKMK_ImportMapIdName)
-- [IsManaged](#BKMK_IsManaged)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedByName](#BKMK_ModifiedByName)
 - [ModifiedByYomiName](#BKMK_ModifiedByYomiName)
@@ -615,7 +597,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [OverwriteTime](#BKMK_OverwriteTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -628,9 +609,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ProcessingStatus](#BKMK_ProcessingStatus)
 - [ProgressCounter](#BKMK_ProgressCounter)
 - [RecordsOwnerIdName](#BKMK_RecordsOwnerIdName)
-- [SolutionId](#BKMK_SolutionId)
 - [SuccessCount](#BKMK_SuccessCount)
-- [SupportingSolutionId](#BKMK_SupportingSolutionId)
 - [TotalCount](#BKMK_TotalCount)
 
 
@@ -663,29 +642,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |LogicalName|completedon|
 |RequiredLevel|None|
 |Type|DateTime|
-
-
-### <a name="BKMK_ComponentState"></a> ComponentState
-
-|Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Component State|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|componentstate|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
-
-#### ComponentState Options
-
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
-
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
@@ -739,7 +695,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -827,19 +783,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_ImportFileIdUnique"></a> ImportFileIdUnique
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the ImportFile.|
-|DisplayName||
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|importfileidunique|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
 ### <a name="BKMK_ImportIdName"></a> ImportIdName
 
 |Property|Value|
@@ -870,29 +813,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
 |Type|String|
-
-
-### <a name="BKMK_IsManaged"></a> IsManaged
-
-|Property|Value|
-|--------|-----|
-|Description|Information that specifies whether this component is managed.|
-|DisplayName|State|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|ismanaged|
-|RequiredLevel|SystemRequired|
-|Type|Boolean|
-
-#### IsManaged Options
-
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
-
-**DefaultValue**: False
-
 
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
@@ -946,7 +866,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -1000,21 +920,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
-
-
-### <a name="BKMK_OverwriteTime"></a> OverwriteTime
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|For internal use only.|
-|DisplayName|Record Overwrite Time|
-|Format|DateOnly|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|overwritetime|
-|RequiredLevel|SystemRequired|
-|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
@@ -1218,19 +1123,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_SolutionId"></a> SolutionId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the associated solution.|
-|DisplayName|Solution|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|solutionid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
 ### <a name="BKMK_SuccessCount"></a> SuccessCount
 
 |Property|Value|
@@ -1245,19 +1137,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |MinValue|0|
 |RequiredLevel|None|
 |Type|Integer|
-
-
-### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
-
-|Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Solution|
-|IsValidForForm|False|
-|IsValidForRead|False|
-|LogicalName|supportingsolutionid|
-|RequiredLevel|None|
-|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_TotalCount"></a> TotalCount
@@ -1281,25 +1160,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
-- [userentityinstancedata_importfile](#BKMK_userentityinstancedata_importfile)
 - [ImportFile_BulkDeleteFailures](#BKMK_ImportFile_BulkDeleteFailures)
 - [ImportLog_ImportFile](#BKMK_ImportLog_ImportFile)
 - [ImportFile_AsyncOperations](#BKMK_ImportFile_AsyncOperations)
-
-
-### <a name="BKMK_userentityinstancedata_importfile"></a> userentityinstancedata_importfile
-
-Same as userentityinstancedata entity [userentityinstancedata_importfile](userentityinstancedata.md#BKMK_userentityinstancedata_importfile) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_importfile|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_ImportFile_BulkDeleteFailures"></a> ImportFile_BulkDeleteFailures
@@ -1412,6 +1275,6 @@ See businessunit Entity [BusinessUnit_ImportFiles](businessunit.md#BKMK_Business
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.importfile?text=importfile EntityType" />

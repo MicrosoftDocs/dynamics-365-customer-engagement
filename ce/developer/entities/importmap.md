@@ -1,21 +1,22 @@
 ---
-title: "ImportMap Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "ImportMap Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ImportMap entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # ImportMap Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Data map used in import.
 
@@ -24,20 +25,20 @@ Data map used in import.
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/importmaps(*importmapid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/importmaps<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/importmaps(*importmapid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/importmaps(*importmapid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/importmaps<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/importmaps(*importmapid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |ExportMappingsImportMap|<xref href="Microsoft.Dynamics.CRM.ExportMappingsImportMap?text=ExportMappingsImportMap Action" />|<xref:Microsoft.Crm.Sdk.Messages.ExportMappingsImportMapRequest>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |ImportMappingsImportMap|<xref href="Microsoft.Dynamics.CRM.ImportMappingsImportMap?text=ImportMappingsImportMap Action" />|<xref:Microsoft.Crm.Sdk.Messages.ImportMappingsImportMapRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/importmaps(*importmapid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/importmaps<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/importmaps(*importmapid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/importmaps<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/importmaps(*importmapid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/importmaps(*importmapid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/importmaps(*importmapid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/importmaps(*importmapid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -297,7 +298,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Source user value for source Microsoft Dynamics 365 for Customer Engagement apps user link.|
+|Description|Source user value for source Microsoft Dynamics 365 user link.|
 |DisplayName|Source User Value|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -372,7 +373,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Microsoft Dynamics 365 for Customer Engagement apps user.|
+|Description|Microsoft Dynamics 365 user.|
 |DisplayName|Target User Value|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -384,7 +385,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ComponentState](#BKMK_ComponentState)
@@ -490,7 +493,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -656,7 +659,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 for Customer Engagement apps options.|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -831,7 +834,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Select the name of the Microsoft Dynamics 365 for Customer Engagement apps record type that this data map is defined for.|
+|Description|Select the name of the Microsoft Dynamics 365 record type that this data map is defined for.|
 |DisplayName|Record Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -883,6 +886,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |51|System User Manager Map|
 |52|User Search Facet|
 |54|Global Search Configuration|
+|55|FileAttachment|
 |78|Virtual Entity Data Provider|
 |85|Virtual Entity Data Source|
 |92|Team template|
@@ -896,6 +900,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |132|Announcement|
 |135|Activity Party|
 |150|User Settings|
+|300|Canvas App|
+|301|Callback Registration|
+|371|Connector|
 |950|New Process|
 |951|Translation Process|
 |952|Phone To Case Process|
@@ -1064,7 +1071,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |4418|List Value Mapping|
 |4419|Lookup Mapping|
 |4420|Owner Mapping|
-|4421|BookableResourceBooking to Exchange Id Mapping|
+|4421|Bookable Resource Booking to Exchange Id Mapping|
 |4423|Import Log|
 |4424|Bulk Delete Operation|
 |4425|Bulk Delete Failure|
@@ -1146,7 +1153,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |8701|AppModule Metadata Dependency|
 |8702|AppModule Metadata Async Operation|
 |8840|Hierarchy Rule|
-|9006|App|
+|9006|Model-driven App|
 |9007|App Module Component|
 |9009|App Module Roles|
 |9011|App Config Master|
@@ -1180,6 +1187,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |9606|Mailbox|
 |9607|Mailbox Statistics|
 |9608|Mailbox Auto Tracking Folder|
+|9609|Mailbox Tracking Category|
 |9650|Process Configuration|
 |9690|Organization Insights Notification|
 |9699|Organization Insights Metric|
@@ -1187,6 +1195,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |9701|Entitlement Channel|
 |9702|Entitlement Template|
 |9703|Entitlement Template Channel|
+|9704|Entitlement Entity Allocation Type Mapping|
 |9750|SLA|
 |9751|SLA Item|
 |9752|SLA KPI Instance|
@@ -1198,6 +1207,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |9868|Mobile Offline Profile Item Association|
 |9869|Sync Error|
 |9870|Offline Command Definition|
+|9875|Language Provisioning State|
+|9890|SolutionHistoryData|
 |9900|Navigation Setting|
 |9910|MultiEntitySearch|
 |9912|Multi Select Option Value|
@@ -1232,195 +1243,258 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |9983|Action Card Type|
 |9986|Interaction for Email|
 |9987|External Party Item|
+|9996|HolidayWrapper|
 |9997|Email Signature|
 |10000|OData v4 Data Source|
-|10001|Profile Album|
-|10002|Post Configuration|
-|10003|Post Rule Configuration|
-|10004|Wall View|
-|10005|Filter|
-|10006|Actual|
-|10007|Booking Alert|
-|10008|Booking Alert Status|
-|10009|Booking Change|
-|10010|Booking Rule|
-|10011|Booking Setup Metadata|
-|10012|Client Extension|
-|10013|Configuration|
-|10014|Organizational Unit|
-|10015|Priority|
-|10016|Requirement Characteristic|
-|10017|Requirement Organization Unit|
-|10018|Requirement Resource Category|
-|10019|Requirement Resource Preference|
-|10020|Requirement Status|
-|10021|Resource Requirement|
-|10022|Resource Requirement Detail|
-|10023|Resource Territory|
-|10024|Schedule Board Setting|
-|10025|Scheduling Parameter|
-|10026|System User Scheduler Setting|
-|10027|Time Group|
-|10028|Time Group Detail|
-|10029|Transaction Origin|
-|10030|Work template|
-|10031|Account Project Price List|
-|10032|Approval|
-|10033|Batch Job|
-|10034|Project Stages|
-|10035|Invoice Process|
-|10036|Competency Requirement (Deprecated)|
-|10037|Contact Price List|
-|10038|Project Contract Line Invoice Schedule|
-|10039|Project Contract Line Milestone|
-|10040|Actual Data Export (Deprecated)|
-|10041|Delegation|
-|10042|Estimate|
-|10043|Estimate Line|
-|10044|Expense|
-|10045|Expense Category|
-|10046|Expense Receipt|
-|10047|Fact|
-|10048|Field Computation|
-|10049|Find Work Event|
-|10050|Integration Job|
-|10051|Integration Job Detail|
-|10052|Invoice Frequency|
-|10053|Invoice Frequency Detail|
-|10054|Invoice Line Detail|
-|10055|Journal|
-|10056|Journal Line|
-|10057|Result Cache|
-|10058|Opportunity Line Resource Category|
-|10059|Opportunity Line Detail|
-|10060|Opportunity Line Transaction Category|
-|10061|Opportunity Line Transaction Classification|
-|10062|Opportunity Project Price List|
-|10063|Project Contract Line Resource Category|
-|10064|Project Contract Line Detail|
-|10065|Project Contract Line Transaction Category|
-|10066|Project Contract Line Transaction Classification|
-|10067|Project Contract Project Price List|
-|10068|Process Notes|
-|10069|Project|
-|10070|Project Approval|
-|10071|Project Parameter|
-|10072|Project Parameter Price List|
-|10073|Project Price List|
-|10074|Project Task|
-|10075|Project Task Dependency|
-|10076|Project Task Status User|
-|10077|Project Team Member|
-|10078|Project Team Member Sign-Up|
-|10079|Project Transaction Category|
-|10080|Quote Line Analytics Breakdown|
-|10081|Quote Line Invoice Schedule|
-|10082|Quote Line Resource Category|
-|10083|Quote Line Milestone|
-|10084|Quote Line Detail|
-|10085|Quote Line Transaction Category|
-|10086|Quote Line Transaction Classification|
-|10087|Quote Project Price List|
-|10088|Resource Assignment|
-|10089|Resource Assignment Detail|
-|10090|Role Price|
-|10091|Resource Request|
-|10092|Role competency requirement|
-|10093|Role Utilization|
-|10094|Time Entry|
-|10095|Time Off Calendar|
-|10096|Transaction Category|
-|10097|Transaction Category Classification|
-|10098|Transaction Category Hierarchy Element|
-|10099|Transaction Category Price|
-|10100|Transaction Connection|
-|10101|Transaction Type|
-|10102|User Work History|
-|10107|Agreement|
-|10108|Agreement Booking Date|
-|10109|Agreement Booking Incident|
-|10110|Agreement Booking Product|
-|10111|Agreement Booking Service|
-|10112|Agreement Booking Service Task|
-|10113|Agreement Booking Setup|
-|10114|Agreement Invoice Date|
-|10115|Agreement Invoice Product|
-|10116|Agreement Invoice Setup|
-|10117|Agreement Sub-Status|
-|10118|Booking Journal|
-|10119|Booking Timestamp|
-|10120|Purchase Order Business Process|
-|10121|Case to Work Order Business Process|
-|10122|Agreement Business Process|
-|10123|Work Order Business Process|
-|10124|Customer Asset|
-|10125|Field Service Price List Item|
-|10126|Field Service Setting|
-|10127|Field Service System Job|
-|10128|Incident Type|
-|10129|Incident Type Characteristic|
-|10130|Incident Type Product|
-|10131|Incident Type Service|
-|10132|Incident Type Service Task|
-|10133|Inventory Adjustment|
-|10134|Inventory Adjustment Product|
-|10135|Inventory Journal|
-|10136|Inventory Transfer|
-|10137|Order Invoicing Date|
-|10138|Order Invoicing Product|
-|10139|Order Invoicing Setup|
-|10140|Order Invoicing Setup Date|
-|10141|Payment|
-|10142|Payment Detail|
-|10143|Payment Method|
-|10144|Payment Term|
-|10145|Postal Code|
-|10146|Product Inventory|
-|10147|Purchase Order|
-|10148|Purchase Order Bill|
-|10149|Purchase Order Product|
-|10150|Purchase Order Receipt|
-|10151|Purchase Order Receipt Product|
-|10152|Purchase Order Sub Status|
-|10153|Quote Booking Incident|
-|10154|Quote Booking Product|
-|10155|Quote Booking Service|
-|10156|Quote Booking Service Task|
-|10157|Quote Booking Setup|
-|10158|Quote Invoicing Product|
-|10159|Quote Invoicing Setup|
-|10160|Resource Pay Type|
-|10161|RMA|
-|10162|RMA Product|
-|10163|RMA Receipt|
-|10164|RMA Receipt Product|
-|10165|RMA Sub-Status|
-|10166|RTV|
-|10167|RTV Product|
-|10168|RTV Sub-Status|
-|10169|Service Task Type|
-|10170|Ship Via|
-|10171|Tax Code|
-|10172|Tax Code Detail|
-|10173|Time Off Request|
-|10174|Unique Number|
-|10175|Warehouse|
-|10176|Work Order|
-|10177|Work Order Characteristic (Deprecated)|
-|10178|Work Order Details Generation Queue (Deprecated)|
-|10179|Work Order Incident|
-|10180|Work Order Product|
-|10181|Resource Restriction (Deprecated)|
-|10182|Work Order Service|
-|10183|Work Order Service Task|
-|10184|Work Order Sub-Status|
-|10185|Work Order Type|
-|10186|IoT Alert|
-|10187|IoT Device|
-|10188|IoT Device Category|
-|10189|IoT Device Command|
-|10190|IoT Device Registration History|
-|10191|CFS - IoT Alert Process Flow|
+|10001|Solution Component Summary|
+|10002|Solution Component Data Source|
+|10003|Solution History|
+|10004|Solution History Data Source|
+|10005|Component Layer|
+|10006|Component Layer Data Source|
+|10007|Database Version|
+|10008|Upgrade Run|
+|10009|Upgrade Step|
+|10010|Upgrade Version|
+|10011|Playbook Callable Context|
+|10012|Playbook activity|
+|10013|Playbook activity attribute|
+|10014|Playbook category|
+|10015|Playbook|
+|10016|Playbook template|
+|10018|admin_settings_entity|
+|10019|Forecast definition|
+|10020|Forecast|
+|10021|Forecast recurrence|
+|10022|msdyn_relationshipinsightsunifiedconfig|
+|10023|siconfig|
+|10024|UntrackedAppointment|
+|10025|Notes analysis Config|
+|10026|icebreakersconfig|
+|10027|Profile Album|
+|10028|Post Configuration|
+|10029|Post Rule Configuration|
+|10030|Wall View|
+|10031|Filter|
+|10032|Survey email template|
+|10033|Survey question|
+|10034|Survey question response|
+|10035|Survey|
+|10036|Survey invite|
+|10037|Survey response|
+|10038|Unsubscribed recipient|
+|10039|Microsoft Teams Collaboration entity|
+|10040|Actual|
+|10041|Bookable Resource Association|
+|10042|Booking Alert|
+|10043|Booking Alert Status|
+|10044|Booking Change|
+|10045|Booking Rule|
+|10046|Booking Setup Metadata|
+|10047|Business Closure|
+|10048|Client Extension|
+|10049|Configuration|
+|10050|Organizational Unit|
+|10051|Priority|
+|10052|Requirement Characteristic|
+|10053|Requirement Group|
+|10054|Requirement Organization Unit|
+|10055|Requirement Relationship|
+|10056|Requirement Resource Category|
+|10057|Requirement Resource Preference|
+|10058|Requirement Status|
+|10059|Resource Requirement|
+|10060|Resource Requirement Detail|
+|10061|Resource Territory|
+|10062|Schedule Board Setting|
+|10063|Scheduling Parameter|
+|10064|System User Scheduler Setting|
+|10065|Fulfillment Preference|
+|10066|Time Group Detail|
+|10067|Transaction Origin|
+|10068|Work template|
+|10069|Account Project Price List|
+|10070|Project Service Approval|
+|10071|Batch Job|
+|10072|Project Stages|
+|10073|Invoice Process|
+|10074|Competency Requirement (Deprecated)|
+|10075|Contact Price List|
+|10076|Project Contract Line Invoice Schedule|
+|10077|Project Contract Line Milestone|
+|10078|Actual Data Export (Deprecated)|
+|10079|Delegation|
+|10080|Pricing Dimension|
+|10081|Pricing Dimension Field Name|
+|10082|Estimate|
+|10083|Estimate Line|
+|10084|Expense|
+|10085|Expense Category|
+|10086|Expense Receipt|
+|10087|Fact|
+|10088|Field Computation|
+|10089|Find Work Event (Deprecated in v3.0)|
+|10090|Integration Job|
+|10091|Integration Job Detail|
+|10092|Invoice Frequency|
+|10093|Invoice Frequency Detail|
+|10094|Invoice Line Detail|
+|10095|Journal|
+|10096|Journal Line|
+|10097|Result Cache|
+|10098|Opportunity Line Resource Category (Deprecated)|
+|10099|Opportunity Line Detail (Deprecated)|
+|10100|Opportunity Line Transaction Category (Deprecated)|
+|10101|Opportunity Line Transaction Classification (Deprecated)|
+|10102|Opportunity Project Price List|
+|10103|Project Contract Line Resource Category|
+|10104|Project Contract Line Detail|
+|10105|Project Contract Line Transaction Category|
+|10106|Project Contract Line Transaction Classification|
+|10107|Project Contract Project Price List|
+|10108|Process Notes|
+|10109|Project|
+|10110|Project Approval|
+|10111|Project Parameter|
+|10112|Project Parameter Price List|
+|10113|Project Price List|
+|10114|Project Task|
+|10115|Project Task Dependency|
+|10116|Project Task Status User|
+|10117|Project Team Member|
+|10118|Project Team Member Sign-Up (Deprecated in v3.0)|
+|10119|Project Transaction Category (Deprecated)|
+|10120|Quote Line Analytics Breakdown|
+|10121|Quote Line Invoice Schedule|
+|10122|Quote Line Resource Category|
+|10123|Quote Line Milestone|
+|10124|Quote Line Detail|
+|10125|Quote Line Transaction Category|
+|10126|Quote Line Transaction Classification|
+|10127|Quote Project Price List|
+|10128|Resource Assignment|
+|10129|Resource Assignment Detail (Deprecated in v2.0)|
+|10130|Role Price Markup|
+|10131|Role Price|
+|10132|Resource Request|
+|10133|Role competency requirement|
+|10134|Role Utilization|
+|10135|Time Entry|
+|10136|Time Off Calendar|
+|10137|Transaction Category|
+|10138|Transaction Category Classification|
+|10139|Transaction Category Hierarchy Element|
+|10140|Transaction Category Price|
+|10141|Transaction Connection|
+|10142|Transaction Type|
+|10143|User Work History|
+|10148|Three-Dimensional Model|
+|10149|Analysis Component|
+|10150|Analysis Job|
+|10151|Analysis Result|
+|10152|Analysis Result Detail|
+|10153|Solution Health Rule|
+|10154|Solution Health Rule Argument|
+|10155|Solution Health Rule Set|
+|10156|Agreement|
+|10157|Agreement Booking Date|
+|10158|Agreement Booking Incident|
+|10159|Agreement Booking Product|
+|10160|Agreement Booking Service|
+|10161|Agreement Booking Service Task|
+|10162|Agreement Booking Setup|
+|10163|Agreement Invoice Date|
+|10164|Agreement Invoice Product|
+|10165|Agreement Invoice Setup|
+|10166|Agreement Substatus|
+|10167|Booking Journal|
+|10168|Booking Timestamp|
+|10169|Purchase Order Business Process|
+|10170|Case to Work Order Business Process|
+|10171|Agreement Business Process|
+|10172|Work Order Business Process|
+|10173|Customer Asset|
+|10174|Customer Asset Category|
+|10175|Entitlement Application|
+|10176|Field Service Price List Item|
+|10177|Field Service Setting|
+|10178|Field Service SLA Configuration|
+|10179|Field Service System Job|
+|10180|Incident Type|
+|10181|Incident Type Characteristic|
+|10182|Incident Type Product|
+|10183|Incident Type Service|
+|10184|Incident Type Service Task|
+|10185|Incident Types Setup|
+|10186|Incident Type Requirement Group|
+|10187|Inventory Adjustment|
+|10188|Inventory Adjustment Product|
+|10189|Inventory Journal|
+|10190|Inventory Transfer|
+|10191|Order Invoicing Date|
+|10192|Order Invoicing Product|
+|10193|Order Invoicing Setup|
+|10194|Order Invoicing Setup Date|
+|10195|Payment|
+|10196|Payment Detail|
+|10197|Payment Method|
+|10198|Payment Term|
+|10199|Postal Code|
+|10200|Product Inventory|
+|10201|Purchase Order|
+|10202|Purchase Order Bill|
+|10203|Purchase Order Product|
+|10204|Purchase Order Receipt|
+|10205|Purchase Order Receipt Product|
+|10206|Purchase Order SubStatus|
+|10207|Quote Booking Incident|
+|10208|Quote Booking Product|
+|10209|Quote Booking Service|
+|10210|Quote Booking Service Task|
+|10211|Quote Booking Setup|
+|10212|Quote Invoicing Product|
+|10213|Quote Invoicing Setup|
+|10214|Resource Pay Type|
+|10215|RMA|
+|10216|RMA Product|
+|10217|RMA Receipt|
+|10218|RMA Receipt Product|
+|10219|RMA SubStatus|
+|10220|RTV|
+|10221|RTV Product|
+|10222|RTV Substatus|
+|10223|Service Task Type|
+|10224|Ship Via|
+|10225|Tax Code|
+|10226|Tax Code Detail|
+|10227|Time Off Request|
+|10228|Unique Number|
+|10229|Warehouse|
+|10230|Work Order|
+|10231|Work Order Characteristic (Deprecated)|
+|10232|Work Order Details Generation Queue (Deprecated)|
+|10233|Work Order Incident|
+|10234|Work Order Product|
+|10235|Resource Restriction (Deprecated)|
+|10236|Work Order Service|
+|10237|Work Order Service Task|
+|10238|Work Order Substatus|
+|10239|Work Order Type|
+|10241|IoT Alert|
+|10242|IoT Device|
+|10243|IoT Device Category|
+|10244|IoT Device Command|
+|10245|IoT Device Command Definition|
+|10246|IoT Device Data History|
+|10247|IoT Device Property|
+|10248|IoT Device Registration History|
+|10249|IoT Property Definition|
+|10250|IoT Settings|
+|10253|CFS - IoT Alert Process Flow|
+|10254|Entity Configuration|
+|10255|Geofence|
+|10256|Geofence Event|
+|10257|Geofencing Settings|
 
 
 <a name="onetomany"></a>
@@ -1429,7 +1503,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
-- [userentityinstancedata_importmap](#BKMK_userentityinstancedata_importmap)
 - [TransformationMapping_ImportMap](#BKMK_TransformationMapping_ImportMap)
 - [OwnerMapping_ImportMap](#BKMK_OwnerMapping_ImportMap)
 - [ImportMap_AsyncOperations](#BKMK_ImportMap_AsyncOperations)
@@ -1438,21 +1511,6 @@ Listed by **SchemaName**.
 - [ImportEntityMapping_ImportMap](#BKMK_ImportEntityMapping_ImportMap)
 - [ImportMap_SyncErrors](#BKMK_ImportMap_SyncErrors)
 - [ColumnMapping_ImportMap](#BKMK_ColumnMapping_ImportMap)
-
-
-### <a name="BKMK_userentityinstancedata_importmap"></a> userentityinstancedata_importmap
-
-Same as userentityinstancedata entity [userentityinstancedata_importmap](userentityinstancedata.md#BKMK_userentityinstancedata_importmap) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_importmap|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_TransformationMapping_ImportMap"></a> TransformationMapping_ImportMap
@@ -1620,6 +1678,6 @@ See systemuser Entity [lk_importmapbase_modifiedby](systemuser.md#BKMK_lk_import
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.importmap?text=importmap EntityType" />

@@ -26,7 +26,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4'
 ---
 
-# Preview: Use Edge Process to host web applications
+# Public Preview: Use Edge Process to host web applications
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

@@ -71,10 +71,10 @@ The Options tab on the form contains a text area that you can enter custom [!INC
 The list gets its data asynchronously, and when it is complete it will trigger an event `loaded` that your custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] can listen for and do something with items in the grid. The following code is a trivial example:
 ```
 $(document).ready(function (){
-$(.entitylist.entity-grid).on(loaded, function () {
-$(this).children(.view-grid).find(tr).each(function (){
+$(".entitylist.entity-grid").on("loaded", function () {
+$(this).children(".view-grid").find("tr").each(function (){
 // do something with each row
-$(this).css(background-color, yellow);
+$(this).css("background-color", "yellow");
 });
 });
 }); 
@@ -83,8 +83,8 @@ $(this).css(background-color, yellow);
 Find a particular attribute field and get its value to possibly modify the rendering of the value. The following code gets each table cell that contains the value of the `accountnumber` attribute. Replace `accountnumber` with an attribute appropriate for your entity and view.
 ```
 $(document).ready(function (){
-   $(.entitylist.entity-grid).on(loaded, function () {
-      $(this).children(.view-grid).find(td[data-attribute='accountnumber']).each(function (i, e){
+   $(".entitylist.entity-grid").on("loaded", function () {
+      $(this).children(".view-grid").find("td[data-attribute='accountnumber']").each(function (i, e){
          var value = $(this).data(value);
          // now that you have the value you can do something to the value
       });

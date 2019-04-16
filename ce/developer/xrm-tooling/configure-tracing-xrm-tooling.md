@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/configure-tracing-xrm-tooling
 title: "Configure tracing for XRM tooling (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how you can configure tracing for components such as operation calls, warnings, exceptions, and other significant events in XRM Tooling"
 ms.custom: 
