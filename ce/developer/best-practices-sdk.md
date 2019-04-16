@@ -27,7 +27,7 @@ search.app:
 This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps.  
 
 > [!IMPORTANT]
->  Review [Supported extensions for Dynamics 365 for Customer Engagement apps](supported-extensions.md) to learn about supported and unsupported techniques for customization.  
+>  View [Supported extensions for Dynamics 365 for Customer Engagement apps](supported-extensions.md) to learn about supported and unsupported techniques for customization.  
 
 <a name="Performance"></a>   
 
@@ -37,11 +37,11 @@ This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_on
 
 ### Use multiple threads  
 
- Add threading support to your application to break up the work across multiple CPUs. This suggestion assumes that you are running your code on a multiprocessor system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [NET Framework Advanced Development Guide article on Managed Threading](https://msdn.microsoft.com/library/3e8s7xdd.aspx).  
+ Add threading support to your application to break up the work across multiple CPUs. This practice assumes that you are running your code on a multiprocessor system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [NET Framework Advanced Development Guide article on Managed Threading](https://msdn.microsoft.com/library/3e8s7xdd.aspx).  
 
 ### Allow the system to create GUIDs 
 
- Allow the system to automatically assign the **GUID** (Id) for you instead of manually creating it yourself. This suggestion allows 
+ Allow the system to automatically assign the **GUID** (Id) for you instead of creating it yourself. This practice allows 
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to take advantage of sequential GUIDs, which provide better SQL performance. 
 The following sample code shows how to call the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method to obtain a system-assigned `GUID`.  
 
@@ -55,7 +55,7 @@ accountId = serviceProxy.Create(account);
 
 Use the <xref:Microsoft.Xrm.Sdk.Entity> class when your code must work on entities and attributes that aren’t known at the time the code is written. 
 In addition, if your custom code works with thousands of entity records, use of the <xref:Microsoft.Xrm.Sdk.Entity> class results in slightly better 
-performance than the early-bound entity types. However, this flexibility has a disadvantage because you cannot verify entity and attribute names at compile time. If your entities are already 
+performance than the early-bound entity types. However, this flexibility has a disadvantage in that you cannot verify entity and attribute names at compile time. If your entities are already 
 defined at code time and slight performance degradation is acceptable, you should use the early-bound types that you can generate by using the 
 [!INCLUDE[sdk_CodeGenUtility](../includes/sdk-codegenutility.md)] tool. 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Early Bound Entity Classes in Code](org-service/use-early-bound-entity-classes-code.md)  
@@ -68,7 +68,7 @@ defined at code time and slight performance degradation is acceptable, you shoul
 
 Always write a plug-in that takes the least time to perform its intended task. For example, the 
 <xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method is frequently processed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. 
-If you register a plug-in on that message, your plug-in can have a significant performance impact on the system because it executes every time that the `Execute` method is processed, which frequently occurs.  
+If you register a plug-in on that message, your plug-in can have a significant performance impact on the system because it executes every time that the `Execute` method is processed, which occurs frequently.  
 
 If you intend to register your plug-ins for synchronous execution, we recommend that you design them to complete their operation in less than 2 seconds. 
 It’s best to minimize processing time in plug-ins to maintain interactivity of the client applications that are connected to the same organization service that executes the plug-in.  
@@ -169,7 +169,7 @@ OrganizationServiceProxy (orgServiceManagement, authCredentials.SecurityTokenRes
 
 By caching the service management and authenticated credential objects, your application can more efficiently construct the service proxy objects more than one time per application session. 
 If you enable early-bound types on <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> through one of the 
-<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.EnableProxyTypes> methods, you must do the same on all service proxies that are created 
+<xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.EnableProxyTypes> methods, you must do this on all service proxies that are created 
 from the cached <xref:Microsoft.Xrm.Sdk.Client.IServiceManagement`1> object. 
 If your application uses the metadata, we recommend that it caches the metadata that it retrieves and periodically calls the 
 <xref:Microsoft.Xrm.Sdk.Messages.RetrieveTimestampRequest> message to determine whether it must refresh the cache.  
@@ -209,9 +209,9 @@ In addition to adding client-side JavaScript code to a form or adding custom ASP
 custom workflow activity. How do you decide when to use a plug-in and when to use a workflow? The technology that you use depends on the task that you have to perform and who will author the customization.  
 
 For example, you must use a synchronous plug-in real-time workflow if you want to execute custom code immediately before or after the core platform operation executes and before the result of the operation is returned from the platform. You cannot use an asynchronous workflow or asynchronous plug-in in this situation because they are queued to execute after the core operation finishes 
-executing. Therefore, you cannot predict when they will run. If you want to add custom functionality to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, workflows, custom workflow activities, and plug-ins are supported, but custom XAML workflows are not.
+executing. Therefore, you cannot predict when they will run. If you want to add custom functionality to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, workflows, custom workflow activities, and plug-ins are supported, but custom XAML workflows are not supported.
 
-Evaluate these technologies and select the one that best suits your business objectives after you consider the deployment, performance, and maintenance concerns of your plug-in or workflow solution.  
+Evaluate these technologies and select the one that best suits your business objectives after you consider the deployment, performance, and the maintenance concerns of your plug-in or workflow solution.  
 
 The following table summarizes the characteristics of plug-ins and workflows.  
 
