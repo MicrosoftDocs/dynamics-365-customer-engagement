@@ -67,7 +67,7 @@ Lets explore work order and booking statuses with the following scenarios:
 ## Prerequisites
 
 - Any version of Field Service
-- You must be logged in as a user with Field Service - Dispatcher, Field Service - Administrator, or System Administrator security roles to edit Work Order Substatuses and Booking Statuses
+- You must be logged in as a user with **Field Service - Dispatcher**, **Field Service - Administrator**, or **System Administrator** security roles to edit Work Order Substatuses and Booking Statuses
 
 > [!Note]
 > Work Order System Statuses should NEVER be edited because system jobs and plug-ins rely on these statuses. Instead, administrators should create custom Work Order Substatuses that relate to Work Order System Statuses.
@@ -77,7 +77,10 @@ Lets explore work order and booking statuses with the following scenarios:
 
 ## Work Order life cycle
 
-Field Service ships with standard Work Order System Statuses and 
+Field Service ships with Work Order System Statuses and Booking Statuses and the standard statuses should be considered during all field service implementations for a few reasons. First, many processes are triggered based on those statuses that make the field service app more valuable for an organization through data collection or automation. As one example, when the booking status is changed to in progress to indicate the field technician has arrived on site, the booking Actual Travel Duration field is populated accordingly. When the work order system status is changed to Closed-Posted, applicable Work Order Products are converted to Customer Assets to begin building service history.
+
+### Related processes
+
 ## Estimate Work Order Sub-status
 ## Delayed Booking Status
 
