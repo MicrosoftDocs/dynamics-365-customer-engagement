@@ -156,7 +156,7 @@ Instagram authors are currently listed as "Unknown Author" in [!INCLUDE[pn_netbr
 
 ### Creating a stream with % in keywords will fail
 
-When you try to create a stream in Social Center based on a search rule with keywords including the **%** character, its creation will fail. Please avoid creating streams based on keywords rules including the % character.
+When you try to create a stream in Social Center based on a search rule with keywords including the **%** character, its creation will fail. Please avoid creating streams based on keywords rules including the % character. Alternatively, consider removing the % character from the keyword rule before creating the stream.
 
 ### Changing search topic category not reflected in the UI   
 
