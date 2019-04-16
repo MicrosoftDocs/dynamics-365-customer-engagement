@@ -87,24 +87,24 @@
     },
     "fileMetadata": {
       "featureFlags": {
-        "ce/**/*.md": [
+        "**/*.md": [
           "show_learn_banner"
         ]
       },
       "learn_banner_products": {
-        "ce/**/*.md": [
+        "**/*.md": [
           "dynamics-customer-engagement"
         ],
-        "ce/customer-service/**/*.md": [
+        "customer-service/**/*.md": [
           "dynamics-customer-service"
         ],
-        "ce/field-service/**/*.md": [
+        "field-service/**/*.md": [
           "dynamics-field-service"
         ],
-        "ce/marketing/**/*.md": [
+        "marketing/**/*.md": [
           "dynamics-marketing"
         ],
-        "ce/sales/**/*.md": [
+        "sales/**/*.md": [
           "dynamics-sales"
         ]
       },
