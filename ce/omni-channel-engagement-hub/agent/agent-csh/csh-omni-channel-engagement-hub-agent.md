@@ -1,6 +1,6 @@
 ---
 title: "Omni-channel Engagement Hub for agent using Customer Service Hub app | MicrosoftDocs"
-description: "Learn about the Omni-channel Engagement Hub for agent using Customer Service Hub app"
+description: "Learn about the Omni-channel Engagement Hub app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,7 +13,7 @@ ms.assetid: 264E80DF-CC3D-46F7-8739-D21DDB045953
 ms.custom: 
 ---
 
-# Omni-channel Engagement Hub for agent using Customer Service Hub app
+# Omni-channel Engagement Hub app for agent
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -27,10 +27,6 @@ Use the resources in the following sections to learn how to use Omni-channel Eng
 
 - [Sign in to Omni-channel Engagement Hub](csh-sign-dynamics-365-customer-service-hub.md)
 - [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
-- [Know the sitemap navigation](csh-sitemap.md)
-- [Navigate using the navigation bar](csh-navigation-bar.md)
-- [Navigation bar buttons](csh-navigation-bar-buttons.md)
-- [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [View communication panel](csh-conversation-control.md)
 - [Set user presence](csh-set-user-presence-status.md)
 - [View notifications and screen pops](csh-notifications-screen-pops.md)
@@ -45,7 +41,7 @@ Use the resources in the following sections to learn how to use Omni-channel Eng
 
 ## How-tos
 
-- [Conversation control](csh-conversation-control.md)
+- [Communication panel](csh-conversation-control.md)
 - [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](csh-create-record.md)
 - [Search for records](csh-search-record.md)

@@ -36,6 +36,5 @@ To sign in to Omni-channel Engagement Hub, follow the steps:
 
 ## See also
 
-- [Know the sitemap navigation](csh-sitemap.md)
-- [Navigate using the navigation bar](csh-navigation-bar.md)
-- [Navigation bar buttons](csh-navigation-bar-buttons.md)
+- [View communication panel](csh-conversation-control.md)
+- [Set user presence](csh-set-user-presence-status.md)

@@ -174,11 +174,9 @@ The Sitemap displays the following record types:
 > ![Quick create form account](../../media/oceh/oceh-quick-create-forms-account.png "Quick create form account")
 
 > [!div class="nextstepaction"]
-> [Next topic: Know the sitemap navigation](csh-sitemap.md)
+> [Next topic: Understand conversation states](csh-conversation-state.md)
 
 ## See also
 
 - [Sign in to Omni-channel Engagement Hub](csh-sign-dynamics-365-customer-service-hub.md)
-- [Navigation bar buttons](csh-navigation-bar-buttons.md)
-- [View agent dashboard and agent work items](csh-my-dashboard.md)
 - [View communication panel](csh-conversation-control.md)
