@@ -27,7 +27,7 @@ topic-status: Drafting
 A way that might help you increase your sales is to add all products that your customer might need. You can add product bundles or product families to make it easier for you to choose products for upsell and cross-sell. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog, or an ad hoc product that you add as a write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
 
 
-1. In the list of opportunities, open the opportunity to which you want to add products.
+1. From the list of opportunities, open the opportunity to which you want to add products.
 
 2. Go to the **Product Line Items** tab.
 

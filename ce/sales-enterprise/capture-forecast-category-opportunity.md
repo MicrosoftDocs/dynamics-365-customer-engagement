@@ -2,7 +2,7 @@
 title: "Capture forecast category for opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Capture the forecast category in Dynamics 365 for Sales to determine whether an opportunity is a low confidence or high confidence to indicate the chances of it getting converted to a sale."
 keywords: ""
-ms.date: 04/05/2019
+ms.date: 04/12/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -39,7 +39,7 @@ The forecast category is used to determine the different confidence levels of an
 
 1. Make sure you have the Forecast user role or equivalent permissions.
 
-2.	Select the site map icon ![Icon to open site map](media/site-map-new.png "Icon to open site map"), and check the lower left corner in the site map to ensure that you are in the **Sales** area. Then, select **Opportunities**.
+2.	In the site map, select **Opportunities**.
 
 3.	In the list of opportunities, open an opportunity for which you want to capture the forecast category.
 
