@@ -52,7 +52,7 @@ Toast notifications or floating notifications appear for SMS, email, chat, and v
 An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with Customer summary details. You need to take an action within the stipulated time; the screen-pop dialog vanishes when the time is up. If your business requires an auto-accept request for an incoming request based on the routing rules, you will see the notification with no buttons.
 
  > [!div class=mx-imgBorder]
- > ![Alert notification for an incoming request](../../media/csh-alert-notification.png "Alert notification for an incoming request")
+ > ![Alert notification for an incoming request](../../media/oceh/chat-notification-request.png "Alert notification for an incoming request")
 
 ## Incoming chat notification
 
