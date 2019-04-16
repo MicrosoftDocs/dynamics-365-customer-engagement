@@ -94,6 +94,7 @@ For this exercise, you'll set up a template to create task activities, and then 
 ### See also
 
 [Organize your work](organize-daily-work.md)  
+[Create activity marketing templates for activity tiles](activity-templates.md)  
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  

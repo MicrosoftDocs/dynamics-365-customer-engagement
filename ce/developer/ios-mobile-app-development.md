@@ -11,9 +11,9 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: E0FD188C-A992-488C-92B2-E32F6FBDD05F
 caps.latest.revision: 25
-author: SushantSikka
+author: susikka
 ms.author: susikka
-manager: amyla
+manager: shujoshi
 search.audienceType: 
   - developer
 search.app: 

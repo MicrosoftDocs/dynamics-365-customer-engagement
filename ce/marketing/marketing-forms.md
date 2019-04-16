@@ -94,6 +94,8 @@ When you're done designing your form, select **Check for errors** and to make su
 > [!IMPORTANT]
 > Forms are nearly always intended to create or update one or more database records&mdash;especially contact or lead records. However, record creation will fail if any fields required by the database are missing when the form is submitted. When you're designing a form, always be sure to identify all of the fields required by your database, and add a form element with its **Required** check box selected for each of them. That will ensure that contacts who submit the form will get an error message if any required values are missing. If you don't do this, then form submissions may simply be ignored without informing contacts of the problem. Your database could be customized to require fields that you don't expect, so be sure to talk to your system customizer or administrator if you're not sure which fields are required. The **Check for errors** function for forms doesn't identify all of the fields required by your database, especially custom fields, so you can't depend on it to inform you of this issue. Always be sure to test your form to confirm that it creates the types of records you expect it to.
 
+<a name="form-summary"></a>
+
 ## Form summary and configuration
 
 In addition to the basic form design, each marketing-form record also includes a **Summary** tab, where you can set a few options and get more information about the form. The following settings and information are provided:

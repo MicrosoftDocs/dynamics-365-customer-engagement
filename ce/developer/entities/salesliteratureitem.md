@@ -1,35 +1,37 @@
 ---
-title: "SalesLiteratureItem Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "SalesLiteratureItem Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SalesLiteratureItem entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # SalesLiteratureItem Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Item in the sales literature collection.
 
-**Added by**: Sales Solution<br />
+**Added by**: Sales Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/salesliteratureitems<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/salesliteratureitems(*salesliteratureitemid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/salesliteratureitems(*salesliteratureitemid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/salesliteratureitems<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/salesliteratureitems(*salesliteratureitemid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Create|POST [*org URI*]/api/data/v9.0/salesliteratureitems<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/salesliteratureitems(*salesliteratureitemid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/salesliteratureitems(*salesliteratureitemid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/salesliteratureitems<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/salesliteratureitems(*salesliteratureitemid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -58,11 +60,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [AuthorName](#BKMK_AuthorName)
 - [DocumentBody](#BKMK_DocumentBody)
 - [FileName](#BKMK_FileName)
+- [FileSize](#BKMK_FileSize)
 - [FileTypeCode](#BKMK_FileTypeCode)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsCustomerViewable](#BKMK_IsCustomerViewable)
 - [KeyWords](#BKMK_KeyWords)
 - [MimeType](#BKMK_MimeType)
+- [Mode](#BKMK_Mode)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [SalesLiteratureId](#BKMK_SalesLiteratureId)
 - [SalesLiteratureItemId](#BKMK_SalesLiteratureItemId)
@@ -149,6 +153,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|255|
 |RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_FileSize"></a> FileSize
+
+|Property|Value|
+|--------|-----|
+|Description|File size of the document.|
+|DisplayName|File Size (Bytes)|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|filesize|
+|MaxValue|1000000000|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_FileTypeCode"></a> FileTypeCode
@@ -238,6 +258,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|mimetype|
+|MaxLength|256|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_Mode"></a> Mode
+
+|Property|Value|
+|--------|-----|
+|Description|Defines the mode of the sales literature document attachment.|
+|DisplayName|Mode|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|mode|
 |MaxLength|256|
 |RequiredLevel|None|
 |Type|String|
@@ -336,7 +372,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -346,7 +384,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
 - [CreatedOnBehalfByName](#BKMK_CreatedOnBehalfByName)
 - [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
-- [FileSize](#BKMK_FileSize)
+- [FileType](#BKMK_FileType)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedByName](#BKMK_ModifiedByName)
 - [ModifiedByYomiName](#BKMK_ModifiedByYomiName)
@@ -466,18 +504,18 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_FileSize"></a> FileSize
+### <a name="BKMK_FileType"></a> FileType
 
 |Property|Value|
 |--------|-----|
-|Description|File size of the document.|
-|DisplayName|File Size (Bytes)|
+|Description||
+|DisplayName||
 |Format|None|
 |IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|filesize|
-|MaxValue|1000000000|
-|MinValue|0|
+|IsValidForRead|False|
+|LogicalName|filetype|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
 |RequiredLevel|None|
 |Type|Integer|
 
@@ -641,13 +679,14 @@ Listed by **SchemaName**.
 - [salesliteratureitem_SyncErrors](#BKMK_salesliteratureitem_SyncErrors)
 - [SalesLiteratureItem_AsyncOperations](#BKMK_SalesLiteratureItem_AsyncOperations)
 - [salesliteratureitem_MailboxTrackingFolders](#BKMK_salesliteratureitem_MailboxTrackingFolders)
-- [userentityinstancedata_salesliteratureitem](#BKMK_userentityinstancedata_salesliteratureitem)
 - [SalesLiteratureItem_ProcessSessions](#BKMK_SalesLiteratureItem_ProcessSessions)
 - [SalesLiteratureItem_BulkDeleteFailures](#BKMK_SalesLiteratureItem_BulkDeleteFailures)
 - [salesliteratureitem_PrincipalObjectAttributeAccesses](#BKMK_salesliteratureitem_PrincipalObjectAttributeAccesses)
 
 
 ### <a name="BKMK_salesliteratureitem_SyncErrors"></a> salesliteratureitem_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [salesliteratureitem_SyncErrors](syncerror.md#BKMK_salesliteratureitem_SyncErrors) Many-To-One relationship.
 
@@ -659,10 +698,12 @@ Same as syncerror entity [salesliteratureitem_SyncErrors](syncerror.md#BKMK_sale
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|salesliteratureitem_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_SalesLiteratureItem_AsyncOperations"></a> SalesLiteratureItem_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [SalesLiteratureItem_AsyncOperations](asyncoperation.md#BKMK_SalesLiteratureItem_AsyncOperations) Many-To-One relationship.
 
@@ -679,6 +720,8 @@ Same as asyncoperation entity [SalesLiteratureItem_AsyncOperations](asyncoperati
 
 ### <a name="BKMK_salesliteratureitem_MailboxTrackingFolders"></a> salesliteratureitem_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [salesliteratureitem_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_salesliteratureitem_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -689,25 +732,12 @@ Same as mailboxtrackingfolder entity [salesliteratureitem_MailboxTrackingFolders
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|salesliteratureitem_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_userentityinstancedata_salesliteratureitem"></a> userentityinstancedata_salesliteratureitem
-
-Same as userentityinstancedata entity [userentityinstancedata_salesliteratureitem](userentityinstancedata.md#BKMK_userentityinstancedata_salesliteratureitem) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_salesliteratureitem|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_SalesLiteratureItem_ProcessSessions"></a> SalesLiteratureItem_ProcessSessions
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [SalesLiteratureItem_ProcessSessions](processsession.md#BKMK_SalesLiteratureItem_ProcessSessions) Many-To-One relationship.
 
@@ -724,6 +754,8 @@ Same as processsession entity [SalesLiteratureItem_ProcessSessions](processsessi
 
 ### <a name="BKMK_SalesLiteratureItem_BulkDeleteFailures"></a> SalesLiteratureItem_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [SalesLiteratureItem_BulkDeleteFailures](bulkdeletefailure.md#BKMK_SalesLiteratureItem_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -738,6 +770,8 @@ Same as bulkdeletefailure entity [SalesLiteratureItem_BulkDeleteFailures](bulkde
 
 
 ### <a name="BKMK_salesliteratureitem_PrincipalObjectAttributeAccesses"></a> salesliteratureitem_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [salesliteratureitem_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_salesliteratureitem_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -766,17 +800,25 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_salesliteratureitembase_createdby"></a> lk_salesliteratureitembase_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_salesliteratureitembase_createdby](systemuser.md#BKMK_lk_salesliteratureitembase_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_salesliteratureitem_createdonbehalfby"></a> lk_salesliteratureitem_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_salesliteratureitem_createdonbehalfby](systemuser.md#BKMK_lk_salesliteratureitem_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_salesliteratureitembase_modifiedby"></a> lk_salesliteratureitembase_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_salesliteratureitembase_modifiedby](systemuser.md#BKMK_lk_salesliteratureitembase_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_salesliteratureitem_modifiedonbehalfby"></a> lk_salesliteratureitem_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_salesliteratureitem_modifiedonbehalfby](systemuser.md#BKMK_lk_salesliteratureitem_modifiedonbehalfby) One-To-Many relationship.
 
@@ -787,6 +829,6 @@ See salesliterature Entity [sales_literature_items](salesliterature.md#BKMK_sale
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.salesliteratureitem?text=salesliteratureitem EntityType" />
