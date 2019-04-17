@@ -71,7 +71,7 @@ To sign up for TeleSign:
 
 13. Open the work stream you created for SMS.
 
-14.	On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rules can be created based on Case, Account, or Contact entities that are related to conversation.
+14.	On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rule for SMS works on the **Mobile Phone** field of the Contact entity.
 
 ### See also
 
