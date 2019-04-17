@@ -79,6 +79,9 @@ The Omni-channel Engagement Hub - Preview is available in the following regions:
 
 - North America Region (NAM)
 
+> [!NOTE]
+> Since Omni-channel Engagement Hub is in preview in the NAM region, your organization and tenant must be in the NAM region.
+
 ## Provision Omni-channel in Dynamics 365
 
 See [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md) to know how to enable the Omni-channel Engagement Hub app in your Dynamics 365 org.
