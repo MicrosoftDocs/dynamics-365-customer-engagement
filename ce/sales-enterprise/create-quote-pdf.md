@@ -22,7 +22,9 @@ caps.latest.revision: 58
 topic-status: Drafting
 ---
 
-# Create a PDF of a quote
+# Create a quote PDF
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 
 Create a professional looking quote PDF from a standard template that your organization uses.
 

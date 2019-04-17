@@ -23,7 +23,7 @@
 #### [Gain insights with dashboards](gain-insights-dashboards-sales-professional.md)
 #### [Assign records](assign-records-sales-professional.md)
 #### [Use document templates](use-document-templates-sales-professional.md)
-#### [Create quote PDF](create-quote-pdf-sales-professional.md)
+#### [Create a quote PDF](create-quote-pdf-sales-professional.md)
 
 ## [Administrator and Sales Manager guide](admin-guide.md)
 ### [Standard settings](admin-settings-overview.md)

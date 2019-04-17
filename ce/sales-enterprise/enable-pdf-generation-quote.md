@@ -22,6 +22,8 @@ ms.tgt_pltfrm:
 
 # Enable PDF generation from quotes
 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
+
 To allow your users to generate PDFs directly from quote, you must enable PDF generation.
 
 1.	At the bottom of the site map, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")  and select **App Settings**.

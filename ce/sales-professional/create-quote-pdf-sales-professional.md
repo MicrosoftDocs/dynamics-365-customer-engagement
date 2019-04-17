@@ -20,7 +20,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ---
 
-# Create a PDF of a quote
+# Create a quote PDF
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 
