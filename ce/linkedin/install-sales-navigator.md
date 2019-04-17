@@ -34,7 +34,7 @@ You will need to sign your team up for [LinkedIn Sales Navigator Team](https://b
 
 ## Enable the default Sales Navigator controls
 
-The following procedure guides administrators to enable default controls for LinkedIn Sales Navigator content. However, you can still customize other forms and entities to show Sales Navigator controls.
+The following procedure guides administrators to enable default controls for LinkedIn Sales Navigator content. The Sales Navigator controls will appear on Account, Contact, Lead, and Opportunity pages by default. However, you can still customize other forms and entities to show Sales Navigator controls.
 
 1. In Dynamics 365 for Sales, go to **Settings** > **Business Management**.
    ![Clickpath for Business Management settings](media/business-management-settings.png)
