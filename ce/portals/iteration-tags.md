@@ -2,7 +2,7 @@
 title: "Use iteration tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about iteration tags available in portal"
 keywords: "iteration tags; liquid tags"
-ms.date: 12/03/2018
+ms.date: 04/08/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -187,7 +187,7 @@ Loops through a group of strings and outputs them in the order that they were pa
 
 Generates an HTML table. Must be wrapped in an opening &lt;table&gt; and closing &lt;/table&gt; HTML tags.
 
-Within the tablerow tag block, the [*tablerowloop*](#tablerowloop) is available.  
+Within the tablerow tag block, the [tablerowloop](liquid-objects.md#tablerowloop) is available.  
 
 **Code**
 

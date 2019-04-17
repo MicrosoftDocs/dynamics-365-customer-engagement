@@ -2,7 +2,7 @@
 title: "Retrieve and execute predefined queries (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Dynamics 365 for Customer Engagement provides a way for administrators to create system views that are available to all users. Read how you can compose a predefined query and use FetchXML to create a query string to retrieve data"
 ms.custom: 
-ms.date: 06/14/2018
+ms.date: 04/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -45,13 +45,17 @@ Records for both of these types of entities contain the FetchXML definition for 
 GET [Organization URI]/api/data/v9.0/savedqueries?$select=name,savedqueryid&$filter=name eq 'Active Accounts'
 ```
 
-You can then use the `savedqueryid` value and pass it as the value to the savedQuery parameter to the accounts entity set.
+You can then use the `savedqueryid` value and pass it as the value to the `savedQuery` parameter to the accounts entity set.
 
 ```http
 GET [Organization URI]/api/data/v9.0/accounts?savedQuery=00000000-0000-0000-00aa-000010001002
 ```
 
-Use the same approach to get the userqueryid and pass it as the value to the `userQuery` parameter to the entity set that matches the corresponding `returnedtypecode` of the saved query.
+Use the same approach to get the `userqueryid` value and pass it as the value to the `userQuery` parameter to the entity set that matches the corresponding `returnedtypecode` of the user query.
+
+```http
+GET [Organization URI]/api/data/v9.0/userqueries?$select=name,userqueryid&$filter=name eq 'Active Accounts'
+```
 
 ```http
 GET [Organization URI]/api/data/v9.0/accounts?userQuery=121c6fd8-1975-e511-80d4-00155d2a68d1

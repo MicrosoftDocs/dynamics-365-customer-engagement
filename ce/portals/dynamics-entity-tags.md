@@ -2,7 +2,7 @@
 title: "Use Dynamics 365 for Customer Engagement tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about Dynamics 365 for Customer Engagement tags available in portal"
 keywords: "Dynamics 365 for Customer Engagement tags; liquid tags"
-ms.date: 12/03/2018
+ms.date: 26/03/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -68,8 +68,18 @@ Path of the Power BI report or dashboard. If the Power BI report or dashboard is
 
 **authentication_type**
 
-Type of authentication required for the Power BI report or dashboard. Valid values for this parameter are Anonymous or AAD. The default value is Anonymous.
-While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 for Customer Engagement Portal Azure Active Directory authenticated users. 
+Type of authentication required for the Power BI report or dashboard. Valid values for this parameter are:
+
+- **Anonymous**: Allows you to embed publish to web Power BI reports. The default authentication type is Anonymous.
+
+- **AAD**: Allows you to share secure Power BI reports or dashboards to Power BI Azure Active Directory authenticated users.
+
+- **powerbiembedded**: Allows you to share the secure Power BI reports or dashboards to external users who doesn't have Power BI license or Azure Active Directory authentication setup. For information on Power BI Embedded service setup, see [Enable Power BI Embedded service](set-up-power-bi-integration.md#enable-power-bi-embedded-service). 
+
+While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 for Customer Engagement Portal Azure Active Directory or Power BI Embedded services. 
+
+> [!NOTE]
+> The values for the `authentication_type` parameter are case insensitive.
 
 ```
 {% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}

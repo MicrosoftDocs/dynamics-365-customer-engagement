@@ -2,7 +2,7 @@
 title: "Comparison between Microsoft Social Engagement and Dynamics 365 Market Insights | Microsoft Docs"
 description: "Features, enhancements, and benefits of Dynamics 365 Market Insights."
 keywords: "discontinuation, MSE, Market Insights"
-ms.date: 03/04/2019
+ms.date: 04/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -26,7 +26,7 @@ search.app:
 ## Key difference
 
 Customers are indicating that they need a solution that provides social and web insights rather than limited social listening capabilities. To keep up with the evolving advancements of the industry, Dynamics 365 is investing in AI capabilities to combine insights from social media and Bing search. 
-We recommend that Microsoft Social Engagement customers [try the public preview of Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/ai/market-insights/). Dynamics 365 Market Insights is an application that can help businesses gain insights and increase its market by monitoring external information sources, such as social media and trending search terms on the web. Unlike other solutions in the market, this application provides social and web insights, along with AI-powered sentiment and intent analysis features. This helps businesses understand their customers, build their brand, gain competitive advantage, and support their unique needs.
+We recommend that Microsoft Social Engagement customers [try the public preview of Microsoft Dynamics 365 Market Insights](https://dynamics.microsoft.com/en-us/ai/market-insights/). Dynamics 365 Market Insights is an application that can help businesses gain insights and increase its market by monitoring external information sources, such as social media and trending search terms on the web. Unlike other solutions in the market, this application provides social and web insights, along with AI-powered sentiment and intent analysis features. This helps businesses understand their customers, build their brand, gain competitive advantage, and support their unique needs.
 
 ![Market Insights app ecosystem](../media/app-ecosystem-ai4mi.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for Customer Engagement (on-premises) system requirements and required technologies | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/28/2019"
+ms.date: "04/12/2019"
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,17 +21,17 @@ manager: kvivek
 
 This [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] version requires the following software:  
   
--   [!INCLUDE[pn_ms_Windows_Server_long](../includes/pn-ms-windows-server-long.md)]  
+-   [!INCLUDE[pn_ms_Windows_Server_long](../includes/pn-ms-windows-server-long.md)]. More information: [Windows Server operating system](software-requirements-for-microsoft-dynamics-365-server.md#windows-server-operating-system) 
   
--   A [!INCLUDE[pn_ms_Windows_Server_long](../includes/pn-ms-windows-server-long.md)][!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] infrastructure  
+-   A [!INCLUDE[pn_ms_Windows_Server_long](../includes/pn-ms-windows-server-long.md)] [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] infrastructure. More information: [Active Directory modes](software-requirements-for-microsoft-dynamics-365-server.md#active-directory-modes) 
   
--   An [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] website  
+-   An [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] website. More information: [Internet Information Services (IIS)](software-requirements-for-microsoft-dynamics-365-server.md#internet-information-services-iis)
   
--   Claims-based security token service (required for Internet-facing deployments)  
+-   Claims-based security token service (required for Internet-facing deployments). More infomation: [Accessing Microsoft Dynamics 365 for Customer Engagement from the internet - Claims-based authentication and IFD requirements](software-requirements-for-microsoft-dynamics-365-server.md#accessing-microsoft-dynamics-365-for-customer-engagement-from-the-internet---claims-based-authentication-and-ifd-requirements)
   
--   [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)]  
+-   [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)]. More information: [SQL Server editions](software-requirements-for-microsoft-dynamics-365-server.md#sql-server-editions)
   
--   [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)]  
+-   [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)]. More information: [Microsoft Dynamics 365 for Customer Engagement reporting requirements](microsoft-dynamics-365-reporting-requirements.md)
   
 -   [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)] or access to a POP3-compliant email server (required for email tracking)  
   

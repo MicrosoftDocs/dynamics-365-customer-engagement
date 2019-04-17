@@ -28,15 +28,23 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can assign a maximum capacity to each event when needed. When the number of registrations reaches that capacity, the system won't accept any more active registrations, but you can still allow new registrants to add themselves to a waitlist.
+You can assign a maximum capacity to each event or session when needed. When the number of registrations reaches that capacity, the system won't accept any more active registrations, but you can still allow new registrants to add themselves to a waitlist.
 
 Read this topic to learn how to set up a waitlist and how to invite contacts on the list when space becomes available.
 
+> [!IMPORTANT]
+> Event-level and session-level waitlisting is only available for on-site events. Hybrid and webinar events don't support waitlisting.
+
 ## How the waitlist works
 
-The waitlist holds a list of contacts who submitted a registration to the event website after an event was fully booked. The waitlist registers the time and day that each contact registered, so when space becomes available, contacts are either automatically registered or offered an invitation to register in the same order that they joined the waitlist. You can choose whether contacts will be automatically registered when space becomes available for them, or whether they should instead be sent an invitation to register manually.
+The waitlist holds a list of contacts who submitted a registration through the event website after an event or session was fully booked. The waitlist registers the time and day that each contact registered, so when space becomes available, contacts are either automatically registered or offered an invitation to register in the same order that they joined the waitlist. You can choose whether contacts will be automatically registered when space becomes available for them, or whether they should instead be sent an invitation to register manually.
 
-For events already at capacity, visitors to the event website can only join the waitlist, but [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] users from your organization can still add new registrations by opening the [event record](set-up-event.md) and going to the **Registration and attendance** tab. Registrants added to the **Event registration** list here will join the event immediately without getting placed on the waitlist. Users can also add registrants directly to the **Waitlist** from here.
+For events or session already at capacity, visitors to the event website can only join the waitlist, but [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] users from your organization can still add new registrations by opening the [event record](set-up-event.md) and doing one of the following:
+
+- If you are using event-level registration, go to the **Registration and attendance** tab for the event and add new registrations to the **Event registration** list here.
+- If you are using session-level registration, go to the **Agenda** tab and open the relevant session. Then go to the **Registration and attendance** tab for the session and add new registrations to the **Session registration** list here.
+
+Registrants added to the **Event registration** or **Session registration** lists in this way will join the event immediately without getting placed on the waitlist. Users can also add registrants directly to the session or event **Waitlist** from here.
 
 When new space becomes available, the waitlist reacts as follows:
 
@@ -49,7 +57,7 @@ When new space becomes available, the waitlist reacts as follows:
 
 ## Enable a waitlist for an event
 
-To enable or disable the waitlist for any event:
+To enable or disable the waitlist for any event (for both event-level and session-level registration):
 
 1. [Open the Events work area](open-events.md), go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
 
@@ -59,23 +67,25 @@ To enable or disable the waitlist for any event:
 
 1. Make the following settings:
 
-    - **Maximum event capacity**: Enter the maximum number of people who can attend your event. The waitlist will only take effect after this number of contacts have registered.
+    - **Maximum event capacity** (event-level registration only): Enter the maximum number of people who can attend your event. The waitlist will only take effect after this number of contacts have registered. This setting isn't shown if you are using [session-level registration](session-level-registration.md); in this case, set the capacity for each session individually. 
     - **Waitlist this event**: Set to **Yes** to enable the waitlist feature and reveal the **Waitlist** section, which contains the other settings described here.
     - **Number of invitations per slot**: When an extra space becomes available, the system will invite this many contacts from the waitlist, in the same order they joined. Often you will set this to one, but if you are using manual waitlist registration, then you might choose a higher number to increase the chance that at least one contact will follow through with the registration. When a slot opens, the system changes this many waitlist records' **Invited** field from **No** to **Yes**.
     - **Automatically register waitlisted contacts**: Set to **Yes** to automatically register the next contact in line when space becomes available. When this is set to **Yes**, all waitlist records for this event will therefore have their **Automatically register** fields set to **Yes**. When this is set to **No**, then you can choose whether or not to allow contacts to choose this option for themselves while joining the waitlist.
-    - **Contact can choose to be registered automatically**: This option is only shown when  you aren't using automatic registration. Choose **Yes** to provide a check box on the registration form where contacts can choose  to be registered automatically. Choose **No** to use manual registration for all contacts. The **Automatically register** field for each waitlist record will be assigned to match either this option or the choice made by contacts when they join the waitlist. -->
+    - **Contact can choose to be registered automatically**: This option is only shown when  you aren't using automatic registration. Choose **Yes** to provide a check box on the registration form where contacts can choose  to be registered automatically. Choose **No** to use manual registration for all contacts. The **Automatically register** field for each waitlist record will be assigned to match either this option or the choice made by contacts when they join the waitlist.
 
 ## View the waitlist
 
-To see who is currently on the waitlist for any event:
+To see who is currently on the waitlist for any event or session:
 
-1. [Open the Events work area](open-events.md), go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
+1. [Open the Events work area](open-events.md), go to the events list (**Events** > **Event** > **Events**), and then open the event.
 
-1. Open the **Registration and attendance** tab and scroll down to the **Waitlist** section. (Note that the **Waitlist** section is only shown for events where the waitlist is enabled.)  
+1. If you are using [session-level registration](session-level-registration.md), then go the the **Agenda** tab for the event and open the session you want to view.
+
+1. Open the **Registration and attendance** tab for your selected event or session and scroll down to the **Waitlist** section. (Note that the **Waitlist** section is only shown when the waitlist is enabled.)  
 
     ![View the waitlist for an event](media/event-waitlist-view.png "View the waitlist for an event")
 
-    Here you'll find a list of each contact who is waiting to be invited to this event. You can see the following information for each:
+    Here you'll find a list of each contact who is waiting to be invited to this event or session. You can see the following information for each:
 
     - **Contact**: Shows the name of the contact that registered. This is a lookup value taken from the actual contact record. Select the name to open the contact record. Double-click anywhere else on a row to open the waitlist item itself.
     - **Automatically register**: Shows whether this contact chose to be registered automatically when space becomes available.
@@ -85,25 +95,17 @@ To see who is currently on the waitlist for any event:
 
 ## Send notifications or invites for newly available places
 
-When space becomes available for a waitlisted contact, you need to let them know. You can automate this using the standard segmentation and customer journey features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. The way you set up the segment varies slightly depending on whether you are using automatic registration or invite-based manual registration.
+When space becomes available for a waitlisted contact, you need to let them know. You can automate this using the standard segmentation and customer journey features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. The way you set up the segment varies slightly depending on whether you are using automatic registration or invite-based manual registration; and whether you are using session-level or event-level registration.
 
-### Make sure the waitlist entity is being synced
+### Make sure the required entities is being synced
 
-The segmentation engine used by Marketing relies on database information being synced from your main customer database to an external service that is optimized to work with big data, analytics, and segmentation. To maximize the performance of your system, you should only sync those specific entities that you want to use in your segmentation. If you are using waitlists, then you must sync the waitlist entity to enable you to find and communicate with waitlisted contacts.
+The segmentation engine used by Marketing relies on database information being synced from your main customer database to an external service that is optimized to work with big data, analytics, and segmentation. To maximize the performance of your system, you should only sync those specific entities that you want to use in your segmentation. If you are using waitlists, then you must sync the waitlist entity to enable you to find and communicate with waitlisted contacts. If you are using session-level waitlisting, then you should also sync the session entity.
 
-Talk to your system administrator to make sure the waitlisted entity is being synced. If you are the admin, then go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync** and make sure the **Waitlist Item (msevtmgt\_waitlistitem)** entity is marked. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync)
+Talk to your system administrator to make sure the waitlisted entity is being synced. If you are the admin, then go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync** and make sure the **Waitlist Item (msevtmgt\_waitlistitem)** entity is selected; for session-level waitlisting, also select the **Session (msevtmgt\_session)** entity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync)
 
 ### Create a segment that finds waitlisted contacts to invite
 
 To create a segment that finds contacts who _are not_ using automatic registration, but who should now be invited to register, do the following:
-
-1. [Open the Events work area](open-events.md), go to the events list ( **Events** > **Event** > **Events** ), and then open your event.
-
-1. Check the address bar in your browser, which should show a URL such as:  
-
-    `https://<MyOrg>.crm.dynamics.com/main.aspx?appid=c8cba597-4754-e811-a859-000d3a1be1a3&pagetype=entityrecord&etn=msevtmgt_event&id=5acc43d5-356e-e811-a960-000d3a1cae35`  
-
-    Find the part of the URL that starts with `&id=`, which is followed by the ID number of your current record. Copy that number (the value only) and use it in your expression.
 
 1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.
     ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
@@ -123,11 +125,14 @@ To create a segment that finds contacts who _are not_ using automatic registrati
 1. Select **+ And** to add a second clause using an AND operator. Use it to create the logical expression:  
 **Waitlist Item | Invited | is | True**
 
-1. Select **+ And** to add a third clause. Use it to create the logical expression:  
-**Waitlist Item | Event (event) | is | &lt;YourEventID&gt;**
+1. Select **+ And** to add a third clause. Use it to create *one* of the following the logical expressions:
 
-    Where _&lt;YourEventID&gt;_ is the event ID you found at the start of this procedure.
-
+    - For event-level registration:    
+    **Waitlist Item | Event (event) | is / is in | _&lt;YourEventName&gt;_**  
+    Where _&lt;YourEventName&gt;_ is the name of the event.
+    - For session-level registration:    
+    **Waitlist Item | Session (session) | is / is in | _&lt;YourSessionName&gt;_**  
+    Where _&lt;YourSessionName&gt;_ is the name of the session.
 1. Select **+ And** to add a fourth clause. Use it to create the logical expression:  
 **Waitlist item -> Contact (contact) | All&ast;**
 
@@ -145,11 +150,18 @@ To create a segment that finds contacts who _are not_ using automatic registrati
 
 ### Create a segment that finds waitlisted contacts who have been registered automatically
 
-To create a segment that finds contacts who _have already_ been registered automatically, but need to be informed about it, create a segment almost like the one described in the previous section, but this time look for waitlist records where **Automatically register** is **true**. The full set of clauses is:
+To create a segment that finds contacts who _have already_ been registered automatically, but need to be informed about it, create a segment almost like the one described in the previous section, but this time look for waitlist records where **Automatically register** is **true**. The full set of clauses is one of the following:
 
+- For event-level waitlists:  
 **Waitlist Item | Automatically register | is | True**  
 **AND Waitlist Item | Invited | is | True**  
-**Waitlist Item | Event (event) | is | &lt;YourEventID&gt;**  
+**Waitlist Item | Event (event) | is / is in | _&lt;YourEventName&gt;_**  
+**Waitlist item -> Contact (contact) | All&ast;**  
+**Contact | All&ast;**
+- For session-level waitlists:  
+**Waitlist Item | Automatically register | is | True**  
+**AND Waitlist Item | Invited | is | True**  
+**Waitlist Item | Session (session) | is / is in | _&lt;YourSessionName&gt;_**  
 **Waitlist item -> Contact (contact) | All&ast;**  
 **Contact | All&ast;**
 
@@ -161,7 +173,7 @@ To deliver messages to your waitlist members, set up a customer journey that use
 
 Each email message should inform the recipient about what has happened (auto registered, or invited to register), and include an event element to link to the relevant event website. The event link is especially important for invites where auto-register is not enabled, but even auto-registered attendees may still need to purchase a ticket on the event website.
 
-For a journey sending invites to waitlist contacts who aren't auto-registered, consider adding an event tile as a child of the email-message tile so you can add a trigger that reacts to registration and follows up as needed.
+For a journey sending invites to waitlisted contacts who aren't auto-registered, consider adding an event tile as a child of the email-message tile so you can add a trigger that reacts to registration and follows up as needed.
 
 The following example shows a journey that has two parallel paths, one for auto-registered contacts and one for invited (manual-register) contacts. Note that both email messages show a child event tile, and that the invite flow includes a trigger, which is set to react by sending a welcome mail to contacts who register. After a few days, the trigger sends contacts who don't register down the bottom path, where a workflow removes unresponsive contacts from the waitlist so other waiting contacts can be invited (this requires that you create a [custom workflow](../customize/workflow-processes.md) to handle this).
 
@@ -172,4 +184,5 @@ The following example shows a journey that has two parallel paths, one for auto-
 ### See also
 
 [Event planning and management](event-management.md)  
+[Set up session-level registration and waitlisting](session-level-registration.md)  
 [Set up an event](set-up-event.md)
