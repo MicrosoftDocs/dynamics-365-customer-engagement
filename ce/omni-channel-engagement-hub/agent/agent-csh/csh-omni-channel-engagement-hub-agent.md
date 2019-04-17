@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: "Omni-channel Engagement Hub app for agents | MicrosoftDocs"
+=======
+title: "Omni-channel Engagement Hub for agent using Customer Service Hub app | MicrosoftDocs"
+>>>>>>> 1e74a2dcc88f7a6ebb7641a05a3d37bc2ebe39f8
 description: "Learn about the Omni-channel Engagement Hub app"
 keywords: ""
 author: kabala123

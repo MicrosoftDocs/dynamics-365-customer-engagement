@@ -51,10 +51,10 @@ To create a new event based on a template:
 1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Events** to open the events list.
 1. Select **Create from template** on the command bar.
 1. The **Create from template** dialog opens. Use it to find the template you want and then select **OK**.
-1. Your new event is created. Give it a new name, set its start and end dates, and then select **Save** in the bottom-right corner of the window.
+1. Your new event is created. Give it a new name, set its start date, and then select **Save** in the bottom-right corner of the window.
 
-> [!IMPORTANT]
-> If your template includes sessions, then each session will keep the schedule it had when the template was saved. You'll need to adjust the schedule of each individual session to ensure that they all fit into the new event dates and times.
+> [!NOTE]
+> When you create an event based on a template, it will initially show the start date, end date, and session schedule that was saved with the template. You can change the start and end date of the event and all of its sessions all at once simply by changing the event **Start date**; all other dates and times will be adjusted accordingly.
 
 ## View and edit your event templates
 

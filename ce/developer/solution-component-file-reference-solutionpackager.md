@@ -2,8 +2,8 @@
 title: "Solution component file reference (SolutionPackager) (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "This topic describes the folder structure and file naming scheme used by the SolutionPackager tool. The tool is used to decompose (unpack) Dynamics 365 for Customer Engagement solution files into XML files that can be managed by a source code control system."
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 03/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -3,7 +3,7 @@ title: "Use Liquid operators for a portal in Dynamics 365 for Customer Engagemen
 description: "Learn about the available liquid operators in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 26/03/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -34,8 +34,8 @@ Liquid has access to all common logical and comparison operators. These can be u
 | &lt;  | Less than                       |
 | &gt;= | Greater than or equal to        |
 | &lt;= | Less than or equal to           |
-| Or    | Condition A **or** condition B  |
-| And   | Condition A **and** condition B |
+| or    | Condition A **or** condition B  |
+| and   | Condition A **and** condition B |
 
 ## contains
 

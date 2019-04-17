@@ -1,16 +1,16 @@
 ---
 title: "Create or edit a lead (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Use leads to track business prospects that you haven't yet qualified."
-keywords: lead, qualify, sales process, activities
+keywords: "lead, qualify, sales process, activities"
 ms.date: 04/01/2018
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 8c65b7d5-b1bc-4dd7-bf10-c8bdc6334491
 author: shubhadaj
 ms.author: shujoshi
@@ -31,7 +31,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
 <a name="bkmk1"></a>   
 ## Create a lead  (Sales Hub)
   
-1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Leads**. 
+1. In the site map, select **Leads**. 
   
 2. Select **+ New**.
 

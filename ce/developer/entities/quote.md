@@ -1,39 +1,41 @@
 ---
-title: "Quote Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Quote Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Quote entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # Quote Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.
 
-**Added by**: Sales Solution<br />
+**Added by**: Sales Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Associate|[Associate and disassociate entities](../webapi/associate-disassociate-entities-using-web-api.md) |<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Associate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api) |<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
 |CalculatePrice|<xref href="Microsoft.Dynamics.CRM.CalculatePrice?text=CalculatePrice Action" />|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
 |CloseIncident|<xref href="Microsoft.Dynamics.CRM.CloseIncident?text=CloseIncident Action" />|<xref:Microsoft.Crm.Sdk.Messages.CloseIncidentRequest>|
 |CloseQuote|<xref href="Microsoft.Dynamics.CRM.CloseQuote?text=CloseQuote Action" />|<xref:Microsoft.Crm.Sdk.Messages.CloseQuoteRequest>|
 |ConvertQuoteToSalesOrder|<xref href="Microsoft.Dynamics.CRM.ConvertQuoteToSalesOrder?text=ConvertQuoteToSalesOrder Action" />|<xref:Microsoft.Crm.Sdk.Messages.ConvertQuoteToSalesOrderRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/quotes<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Disassociate|[Associate and disassociate entities](../webapi/associate-disassociate-entities-using-web-api.md) |<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
+|Create|POST [*org URI*]/api/data/v9.0/quotes<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Disassociate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api) |<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
 |GenerateQuoteFromOpportunity|<xref href="Microsoft.Dynamics.CRM.GenerateQuoteFromOpportunity?text=GenerateQuoteFromOpportunity Action" />|<xref:Microsoft.Crm.Sdk.Messages.GenerateQuoteFromOpportunityRequest>|
 |GetQuantityDecimal|<xref href="Microsoft.Dynamics.CRM.GetQuantityDecimal?text=GetQuantityDecimal Function" />|<xref:Microsoft.Crm.Sdk.Messages.GetQuantityDecimalRequest>|
 |GetQuoteProductsFromOpportunity|<xref href="Microsoft.Dynamics.CRM.GetQuoteProductsFromOpportunity?text=GetQuoteProductsFromOpportunity Action" />|<xref:Microsoft.Crm.Sdk.Messages.GetQuoteProductsFromOpportunityRequest>|
@@ -43,15 +45,16 @@ Formal offer for products and/or services, proposed at specific prices and relat
 |msdyn_CloseQuoteAsWon|<xref href="Microsoft.Dynamics.CRM.msdyn_CloseQuoteAsWon?text=msdyn_CloseQuoteAsWon Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message. |
 |msdyn_CreateQuoteSpecificPriceList|<xref href="Microsoft.Dynamics.CRM.msdyn_CreateQuoteSpecificPriceList?text=msdyn_CreateQuoteSpecificPriceList Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message. |
 |msdyn_GetProjectsForQuote|<xref href="Microsoft.Dynamics.CRM.msdyn_GetProjectsForQuote?text=msdyn_GetProjectsForQuote Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message. |
-|Retrieve|GET [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/quotes<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|msdyn_UpdateQuoteLineDetailPrices|<xref href="Microsoft.Dynamics.CRM.msdyn_UpdateQuoteLineDetailPrices?text=msdyn_UpdateQuoteLineDetailPrices Action" />|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message. |
+|Retrieve|GET [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/quotes<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |ReviseQuote|<xref href="Microsoft.Dynamics.CRM.ReviseQuote?text=ReviseQuote Action" />|<xref:Microsoft.Crm.Sdk.Messages.ReviseQuoteRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
 |Rollup|<xref href="Microsoft.Dynamics.CRM.Rollup?text=Rollup Function" />|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/quotes(*quoteid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |WinOpportunity|<xref href="Microsoft.Dynamics.CRM.WinOpportunity?text=WinOpportunity Action" />|<xref:Microsoft.Crm.Sdk.Messages.WinOpportunityRequest>|
 |WinQuote|<xref href="Microsoft.Dynamics.CRM.WinQuote?text=WinQuote Action" />|<xref:Microsoft.Crm.Sdk.Messages.WinQuoteRequest>|
 
@@ -347,6 +350,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_CampaignId"></a> CampaignId
 
+**Added by**: Marketing Sales Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the campaign that the order was created from.|
@@ -389,6 +394,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_CustomerIdType"></a> CustomerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -583,7 +590,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_Account"></a> msdyn_Account
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -599,7 +606,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_AccountManagerId"></a> msdyn_AccountManagerId
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -615,7 +622,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_ContractOrganizationalUnitId"></a> msdyn_ContractOrganizationalUnitId
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -631,7 +638,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_EstimatedCost"></a> msdyn_EstimatedCost
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -650,7 +657,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_feasible"></a> msdyn_feasible
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -674,7 +681,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_InvoiceSetupTotals"></a> msdyn_InvoiceSetupTotals
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -693,7 +700,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_OrderType"></a> msdyn_OrderType
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -717,7 +724,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_QuoteLineEndDate"></a> msdyn_QuoteLineEndDate
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -734,7 +741,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_QuoteLineStartDate"></a> msdyn_QuoteLineStartDate
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -810,6 +817,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -913,6 +922,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |35|Price Attribute Out Of Range|
 |36|Base Currency Attribute Overflow|
 |37|Base Currency Attribute Underflow|
+|38|Transaction currency is not set for the product price list item|
 
 
 
@@ -1229,7 +1239,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Contains the id of the stage where the entity is located.|
-|DisplayName|Stage Id|
+|DisplayName|(Deprecated) Stage Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -1298,7 +1308,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|timezoneruleversionnumber|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
@@ -1430,7 +1440,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|
-|DisplayName|Traversed Path|
+|DisplayName|(Deprecated) Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -1452,7 +1462,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|utcconversiontimezonecode|
 |MaxValue|2147483647|
-|MinValue|-2147483648|
+|MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
 
@@ -1480,7 +1490,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [AccountId](#BKMK_AccountId)
@@ -1628,6 +1640,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_CampaignIdName"></a> CampaignIdName
+
+**Added by**: Marketing Sales Solution
 
 |Property|Value|
 |--------|-----|
@@ -1847,6 +1861,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|
@@ -1987,6 +2003,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_AccountManagerIdName"></a> msdyn_AccountManagerIdName
 
+**Added by**: Project Service Automation Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -2002,6 +2020,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_AccountManagerIdYomiName"></a> msdyn_AccountManagerIdYomiName
+
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2019,6 +2039,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_AccountName"></a> msdyn_AccountName
 
+**Added by**: Field Service Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -2034,6 +2056,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_AccountYomiName"></a> msdyn_AccountYomiName
+
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -2051,7 +2075,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_AdjustedGrossMargin"></a> msdyn_AdjustedGrossMargin
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2069,7 +2093,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_Competitive"></a> msdyn_Competitive
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2093,6 +2117,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_ContractOrganizationalUnitIdName"></a> msdyn_ContractOrganizationalUnitIdName
 
+**Added by**: Project Service Automation Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -2109,7 +2135,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_CustomerBudgetRollUp"></a> msdyn_CustomerBudgetRollUp
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2128,7 +2154,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_customerbudgetrollup_Base"></a> msdyn_customerbudgetrollup_Base
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2147,6 +2173,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_CustomerBudgetRollUp_Date"></a> msdyn_CustomerBudgetRollUp_Date
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -2161,6 +2189,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_CustomerBudgetRollUp_State"></a> msdyn_CustomerBudgetRollUp_State
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -2178,7 +2208,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_EstimatedBudget"></a> msdyn_EstimatedBudget
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2202,7 +2232,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_EstimatedCompletionRollUp"></a> msdyn_EstimatedCompletionRollUp
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2219,6 +2249,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_EstimatedCompletionRollUp_Date"></a> msdyn_EstimatedCompletionRollUp_Date
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -2233,6 +2265,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_EstimatedCompletionRollUp_State"></a> msdyn_EstimatedCompletionRollUp_State
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -2250,7 +2284,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_estimatedcost_Base"></a> msdyn_estimatedcost_Base
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -2269,7 +2303,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_EstimatedQuoteMargin"></a> msdyn_EstimatedQuoteMargin
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -2287,7 +2321,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_EstimatedSchedule"></a> msdyn_EstimatedSchedule
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2312,7 +2346,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_GrossMargin"></a> msdyn_GrossMargin
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2330,7 +2364,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_invoicesetuptotals_Base"></a> msdyn_invoicesetuptotals_Base
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -2349,7 +2383,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_Profitability"></a> msdyn_Profitability
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2373,7 +2407,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_TotalAmount"></a> msdyn_TotalAmount
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -2392,7 +2426,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_totalamount_Base"></a> msdyn_totalamount_Base
 
-**Added by**: Field Service Solution<br />
+**Added by**: Field Service Solution
 
 |Property|Value|
 |--------|-----|
@@ -2411,7 +2445,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_TotalChargeableCostRollup"></a> msdyn_TotalChargeableCostRollup
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2430,7 +2464,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_totalchargeablecostrollup_Base"></a> msdyn_totalchargeablecostrollup_Base
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2449,6 +2483,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_TotalChargeableCostRollup_Date"></a> msdyn_TotalChargeableCostRollup_Date
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -2463,6 +2499,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_TotalChargeableCostRollup_State"></a> msdyn_TotalChargeableCostRollup_State
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -2480,7 +2518,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_TotalNonchargeableCostRollup"></a> msdyn_TotalNonchargeableCostRollup
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2499,7 +2537,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_totalnonchargeablecostrollup_Base"></a> msdyn_totalnonchargeablecostrollup_Base
 
-**Added by**: Project Service Automation Solution<br />
+**Added by**: Project Service Automation Solution
 
 |Property|Value|
 |--------|-----|
@@ -2518,6 +2556,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_msdyn_TotalNonchargeableCostRollup_Date"></a> msdyn_TotalNonchargeableCostRollup_Date
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -2532,6 +2572,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_TotalNonchargeableCostRollup_State"></a> msdyn_TotalNonchargeableCostRollup_State
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -2904,10 +2946,8 @@ Listed by **SchemaName**.
 - [Quote_DuplicateMatchingRecord](#BKMK_Quote_DuplicateMatchingRecord)
 - [Quote_DuplicateBaseRecord](#BKMK_Quote_DuplicateBaseRecord)
 - [Quote_SharepointDocumentLocation](#BKMK_Quote_SharepointDocumentLocation)
-- [Quote_SharepointDocument](#BKMK_Quote_SharepointDocument)
 - [Quote_AsyncOperations](#BKMK_Quote_AsyncOperations)
 - [Quote_MailboxTrackingFolder](#BKMK_Quote_MailboxTrackingFolder)
-- [userentityinstancedata_quote](#BKMK_userentityinstancedata_quote)
 - [Quote_ProcessSessions](#BKMK_Quote_ProcessSessions)
 - [Quote_BulkDeleteFailures](#BKMK_Quote_BulkDeleteFailures)
 - [quote_principalobjectattributeaccess](#BKMK_quote_principalobjectattributeaccess)
@@ -2929,6 +2969,7 @@ Listed by **SchemaName**.
 - [quote_orders](#BKMK_quote_orders)
 - [Quote_QuoteClose](#BKMK_Quote_QuoteClose)
 - [slakpiinstance_quote](#BKMK_slakpiinstance_quote)
+- [msdyn_playbookinstance_quote](#BKMK_msdyn_playbookinstance_quote)
 - [quote_msdyn_bookingalerts](#BKMK_quote_msdyn_bookingalerts)
 - [quote_msdyn_approvals](#BKMK_quote_msdyn_approvals)
 - [bpf_quote_OpportunitySalesProcess](#BKMK_bpf_quote_OpportunitySalesProcess)
@@ -2945,6 +2986,8 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_Quote_ActivityPointers"></a> Quote_ActivityPointers
 
+**Added by**: System Solution Solution
+
 Same as activitypointer entity [Quote_ActivityPointers](activitypointer.md#BKMK_Quote_ActivityPointers) Many-To-One relationship.
 
 |Property|Value|
@@ -2959,6 +3002,8 @@ Same as activitypointer entity [Quote_ActivityPointers](activitypointer.md#BKMK_
 
 
 ### <a name="BKMK_Quote_SyncErrors"></a> Quote_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [Quote_SyncErrors](syncerror.md#BKMK_Quote_SyncErrors) Many-To-One relationship.
 
@@ -2975,6 +3020,8 @@ Same as syncerror entity [Quote_SyncErrors](syncerror.md#BKMK_Quote_SyncErrors) 
 
 ### <a name="BKMK_quote_activity_parties"></a> quote_activity_parties
 
+**Added by**: System Solution Solution
+
 Same as activityparty entity [quote_activity_parties](activityparty.md#BKMK_quote_activity_parties) Many-To-One relationship.
 
 |Property|Value|
@@ -2989,6 +3036,8 @@ Same as activityparty entity [quote_activity_parties](activityparty.md#BKMK_quot
 
 
 ### <a name="BKMK_Quote_DuplicateMatchingRecord"></a> Quote_DuplicateMatchingRecord
+
+**Added by**: System Solution Solution
 
 Same as duplicaterecord entity [Quote_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Quote_DuplicateMatchingRecord) Many-To-One relationship.
 
@@ -3005,6 +3054,8 @@ Same as duplicaterecord entity [Quote_DuplicateMatchingRecord](duplicaterecord.m
 
 ### <a name="BKMK_Quote_DuplicateBaseRecord"></a> Quote_DuplicateBaseRecord
 
+**Added by**: System Solution Solution
+
 Same as duplicaterecord entity [Quote_DuplicateBaseRecord](duplicaterecord.md#BKMK_Quote_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
@@ -3020,6 +3071,8 @@ Same as duplicaterecord entity [Quote_DuplicateBaseRecord](duplicaterecord.md#BK
 
 ### <a name="BKMK_Quote_SharepointDocumentLocation"></a> Quote_SharepointDocumentLocation
 
+**Added by**: System Solution Solution
+
 Same as sharepointdocumentlocation entity [Quote_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_Quote_SharepointDocumentLocation) Many-To-One relationship.
 
 |Property|Value|
@@ -3033,22 +3086,9 @@ Same as sharepointdocumentlocation entity [Quote_SharepointDocumentLocation](sha
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_Quote_SharepointDocument"></a> Quote_SharepointDocument
-
-Same as sharepointdocument entity [Quote_SharepointDocument](sharepointdocument.md#BKMK_Quote_SharepointDocument) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|sharepointdocument|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|Quote_SharepointDocument|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_Quote_AsyncOperations"></a> Quote_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [Quote_AsyncOperations](asyncoperation.md#BKMK_Quote_AsyncOperations) Many-To-One relationship.
 
@@ -3065,6 +3105,8 @@ Same as asyncoperation entity [Quote_AsyncOperations](asyncoperation.md#BKMK_Quo
 
 ### <a name="BKMK_Quote_MailboxTrackingFolder"></a> Quote_MailboxTrackingFolder
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [Quote_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Quote_MailboxTrackingFolder) Many-To-One relationship.
 
 |Property|Value|
@@ -3078,22 +3120,9 @@ Same as mailboxtrackingfolder entity [Quote_MailboxTrackingFolder](mailboxtracki
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_userentityinstancedata_quote"></a> userentityinstancedata_quote
-
-Same as userentityinstancedata entity [userentityinstancedata_quote](userentityinstancedata.md#BKMK_userentityinstancedata_quote) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|userentityinstancedata_quote|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_Quote_ProcessSessions"></a> Quote_ProcessSessions
+
+**Added by**: System Solution Solution
 
 Same as processsession entity [Quote_ProcessSessions](processsession.md#BKMK_Quote_ProcessSessions) Many-To-One relationship.
 
@@ -3110,6 +3139,8 @@ Same as processsession entity [Quote_ProcessSessions](processsession.md#BKMK_Quo
 
 ### <a name="BKMK_Quote_BulkDeleteFailures"></a> Quote_BulkDeleteFailures
 
+**Added by**: System Solution Solution
+
 Same as bulkdeletefailure entity [Quote_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Quote_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
@@ -3124,6 +3155,8 @@ Same as bulkdeletefailure entity [Quote_BulkDeleteFailures](bulkdeletefailure.md
 
 
 ### <a name="BKMK_quote_principalobjectattributeaccess"></a> quote_principalobjectattributeaccess
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [quote_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_quote_principalobjectattributeaccess) Many-To-One relationship.
 
@@ -3140,6 +3173,8 @@ Same as principalobjectattributeaccess entity [quote_principalobjectattributeacc
 
 ### <a name="BKMK_Quote_Appointments"></a> Quote_Appointments
 
+**Added by**: System Solution Solution
+
 Same as appointment entity [Quote_Appointments](appointment.md#BKMK_Quote_Appointments) Many-To-One relationship.
 
 |Property|Value|
@@ -3154,6 +3189,8 @@ Same as appointment entity [Quote_Appointments](appointment.md#BKMK_Quote_Appoin
 
 
 ### <a name="BKMK_Quote_Emails"></a> Quote_Emails
+
+**Added by**: System Solution Solution
 
 Same as email entity [Quote_Emails](email.md#BKMK_Quote_Emails) Many-To-One relationship.
 
@@ -3170,6 +3207,8 @@ Same as email entity [Quote_Emails](email.md#BKMK_Quote_Emails) Many-To-One rela
 
 ### <a name="BKMK_Quote_Faxes"></a> Quote_Faxes
 
+**Added by**: System Solution Solution
+
 Same as fax entity [Quote_Faxes](fax.md#BKMK_Quote_Faxes) Many-To-One relationship.
 
 |Property|Value|
@@ -3184,6 +3223,8 @@ Same as fax entity [Quote_Faxes](fax.md#BKMK_Quote_Faxes) Many-To-One relationsh
 
 
 ### <a name="BKMK_Quote_Letters"></a> Quote_Letters
+
+**Added by**: System Solution Solution
 
 Same as letter entity [Quote_Letters](letter.md#BKMK_Quote_Letters) Many-To-One relationship.
 
@@ -3200,6 +3241,8 @@ Same as letter entity [Quote_Letters](letter.md#BKMK_Quote_Letters) Many-To-One 
 
 ### <a name="BKMK_Quote_Phonecalls"></a> Quote_Phonecalls
 
+**Added by**: System Solution Solution
+
 Same as phonecall entity [Quote_Phonecalls](phonecall.md#BKMK_Quote_Phonecalls) Many-To-One relationship.
 
 |Property|Value|
@@ -3214,6 +3257,8 @@ Same as phonecall entity [Quote_Phonecalls](phonecall.md#BKMK_Quote_Phonecalls) 
 
 
 ### <a name="BKMK_Quote_Tasks"></a> Quote_Tasks
+
+**Added by**: System Solution Solution
 
 Same as task entity [Quote_Tasks](task.md#BKMK_Quote_Tasks) Many-To-One relationship.
 
@@ -3230,6 +3275,8 @@ Same as task entity [Quote_Tasks](task.md#BKMK_Quote_Tasks) Many-To-One relation
 
 ### <a name="BKMK_Quote_RecurringAppointmentMasters"></a> Quote_RecurringAppointmentMasters
 
+**Added by**: System Solution Solution
+
 Same as recurringappointmentmaster entity [Quote_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_Quote_RecurringAppointmentMasters) Many-To-One relationship.
 
 |Property|Value|
@@ -3244,6 +3291,8 @@ Same as recurringappointmentmaster entity [Quote_RecurringAppointmentMasters](re
 
 
 ### <a name="BKMK_Quote_SocialActivities"></a> Quote_SocialActivities
+
+**Added by**: System Solution Solution
 
 Same as socialactivity entity [Quote_SocialActivities](socialactivity.md#BKMK_Quote_SocialActivities) Many-To-One relationship.
 
@@ -3260,6 +3309,8 @@ Same as socialactivity entity [Quote_SocialActivities](socialactivity.md#BKMK_Qu
 
 ### <a name="BKMK_quote_connections1"></a> quote_connections1
 
+**Added by**: System Solution Solution
+
 Same as connection entity [quote_connections1](connection.md#BKMK_quote_connections1) Many-To-One relationship.
 
 |Property|Value|
@@ -3274,6 +3325,8 @@ Same as connection entity [quote_connections1](connection.md#BKMK_quote_connecti
 
 
 ### <a name="BKMK_quote_connections2"></a> quote_connections2
+
+**Added by**: System Solution Solution
 
 Same as connection entity [quote_connections2](connection.md#BKMK_quote_connections2) Many-To-One relationship.
 
@@ -3290,6 +3343,8 @@ Same as connection entity [quote_connections2](connection.md#BKMK_quote_connecti
 
 ### <a name="BKMK_Quote_Annotation"></a> Quote_Annotation
 
+**Added by**: System Solution Solution
+
 Same as annotation entity [Quote_Annotation](annotation.md#BKMK_Quote_Annotation) Many-To-One relationship.
 
 |Property|Value|
@@ -3304,6 +3359,8 @@ Same as annotation entity [Quote_Annotation](annotation.md#BKMK_Quote_Annotation
 
 
 ### <a name="BKMK_Quote_ServiceAppointments"></a> Quote_ServiceAppointments
+
+**Added by**: Service Solution
 
 Same as serviceappointment entity [Quote_ServiceAppointments](serviceappointment.md#BKMK_Quote_ServiceAppointments) Many-To-One relationship.
 
@@ -3395,6 +3452,8 @@ Same as quoteclose entity [Quote_QuoteClose](quoteclose.md#BKMK_Quote_QuoteClose
 
 ### <a name="BKMK_slakpiinstance_quote"></a> slakpiinstance_quote
 
+**Added by**: System Solution Solution
+
 Same as slakpiinstance entity [slakpiinstance_quote](slakpiinstance.md#BKMK_slakpiinstance_quote) Many-To-One relationship.
 
 |Property|Value|
@@ -3408,7 +3467,26 @@ Same as slakpiinstance entity [slakpiinstance_quote](slakpiinstance.md#BKMK_slak
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
+### <a name="BKMK_msdyn_playbookinstance_quote"></a> msdyn_playbookinstance_quote
+
+**Added by**: Playbook Solution
+
+Same as msdyn_playbookinstance entity [msdyn_playbookinstance_quote](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_quote) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_playbookinstance|
+|ReferencingAttribute|regarding|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_playbookinstance_quote|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+
+
 ### <a name="BKMK_quote_msdyn_bookingalerts"></a> quote_msdyn_bookingalerts
+
+**Added by**: Active Solution Solution
 
 Same as msdyn_bookingalert entity [quote_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_quote_msdyn_bookingalerts) Many-To-One relationship.
 
@@ -3425,6 +3503,8 @@ Same as msdyn_bookingalert entity [quote_msdyn_bookingalerts](msdyn_bookingalert
 
 ### <a name="BKMK_quote_msdyn_approvals"></a> quote_msdyn_approvals
 
+**Added by**: Active Solution Solution
+
 Same as msdyn_approval entity [quote_msdyn_approvals](msdyn_approval.md#BKMK_quote_msdyn_approvals) Many-To-One relationship.
 
 |Property|Value|
@@ -3439,6 +3519,8 @@ Same as msdyn_approval entity [quote_msdyn_approvals](msdyn_approval.md#BKMK_quo
 
 
 ### <a name="BKMK_bpf_quote_OpportunitySalesProcess"></a> bpf_quote_OpportunitySalesProcess
+
+**Added by**: Project Service Automation Solution
 
 Same as opportunitysalesprocess entity [bpf_quote_OpportunitySalesProcess](opportunitysalesprocess.md#BKMK_bpf_quote_OpportunitySalesProcess) Many-To-One relationship.
 
@@ -3455,6 +3537,8 @@ Same as opportunitysalesprocess entity [bpf_quote_OpportunitySalesProcess](oppor
 
 ### <a name="BKMK_msdyn_quote_msdyn_quotelineanalyticsbreakdown_Quote"></a> msdyn_quote_msdyn_quotelineanalyticsbreakdown_Quote
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_quotelineanalyticsbreakdown entity [msdyn_quote_msdyn_quotelineanalyticsbreakdown_Quote](msdyn_quotelineanalyticsbreakdown.md#BKMK_msdyn_quote_msdyn_quotelineanalyticsbreakdown_Quote) Many-To-One relationship.
 
 |Property|Value|
@@ -3470,6 +3554,8 @@ Same as msdyn_quotelineanalyticsbreakdown entity [msdyn_quote_msdyn_quotelineana
 
 ### <a name="BKMK_msdyn_quote_msdyn_quotelinetransaction"></a> msdyn_quote_msdyn_quotelinetransaction
 
+**Added by**: Project Service Automation Solution
+
 Same as msdyn_quotelinetransaction entity [msdyn_quote_msdyn_quotelinetransaction](msdyn_quotelinetransaction.md#BKMK_msdyn_quote_msdyn_quotelinetransaction) Many-To-One relationship.
 
 |Property|Value|
@@ -3480,10 +3566,12 @@ Same as msdyn_quotelinetransaction entity [msdyn_quote_msdyn_quotelinetransactio
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_quote_msdyn_quotelinetransaction|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_quote_msdyn_quotepricelist_Quote"></a> msdyn_quote_msdyn_quotepricelist_Quote
+
+**Added by**: Project Service Automation Solution
 
 Same as msdyn_quotepricelist entity [msdyn_quote_msdyn_quotepricelist_Quote](msdyn_quotepricelist.md#BKMK_msdyn_quote_msdyn_quotepricelist_Quote) Many-To-One relationship.
 
@@ -3500,6 +3588,8 @@ Same as msdyn_quotepricelist entity [msdyn_quote_msdyn_quotepricelist_Quote](msd
 
 ### <a name="BKMK_msdyn_quote_msdyn_quotebookingincident_Quote"></a> msdyn_quote_msdyn_quotebookingincident_Quote
 
+**Added by**: Field Service Solution
+
 Same as msdyn_quotebookingincident entity [msdyn_quote_msdyn_quotebookingincident_Quote](msdyn_quotebookingincident.md#BKMK_msdyn_quote_msdyn_quotebookingincident_Quote) Many-To-One relationship.
 
 |Property|Value|
@@ -3514,6 +3604,8 @@ Same as msdyn_quotebookingincident entity [msdyn_quote_msdyn_quotebookinginciden
 
 
 ### <a name="BKMK_msdyn_quote_msdyn_quotebookingproduct_Quote"></a> msdyn_quote_msdyn_quotebookingproduct_Quote
+
+**Added by**: Field Service Solution
 
 Same as msdyn_quotebookingproduct entity [msdyn_quote_msdyn_quotebookingproduct_Quote](msdyn_quotebookingproduct.md#BKMK_msdyn_quote_msdyn_quotebookingproduct_Quote) Many-To-One relationship.
 
@@ -3530,6 +3622,8 @@ Same as msdyn_quotebookingproduct entity [msdyn_quote_msdyn_quotebookingproduct_
 
 ### <a name="BKMK_msdyn_quote_msdyn_quotebookingservice_Quote"></a> msdyn_quote_msdyn_quotebookingservice_Quote
 
+**Added by**: Field Service Solution
+
 Same as msdyn_quotebookingservice entity [msdyn_quote_msdyn_quotebookingservice_Quote](msdyn_quotebookingservice.md#BKMK_msdyn_quote_msdyn_quotebookingservice_Quote) Many-To-One relationship.
 
 |Property|Value|
@@ -3544,6 +3638,8 @@ Same as msdyn_quotebookingservice entity [msdyn_quote_msdyn_quotebookingservice_
 
 
 ### <a name="BKMK_msdyn_quote_msdyn_quotebookingservicetask_Quote"></a> msdyn_quote_msdyn_quotebookingservicetask_Quote
+
+**Added by**: Field Service Solution
 
 Same as msdyn_quotebookingservicetask entity [msdyn_quote_msdyn_quotebookingservicetask_Quote](msdyn_quotebookingservicetask.md#BKMK_msdyn_quote_msdyn_quotebookingservicetask_Quote) Many-To-One relationship.
 
@@ -3560,6 +3656,8 @@ Same as msdyn_quotebookingservicetask entity [msdyn_quote_msdyn_quotebookingserv
 
 ### <a name="BKMK_msdyn_quote_msdyn_quotebookingsetup_Quote"></a> msdyn_quote_msdyn_quotebookingsetup_Quote
 
+**Added by**: Field Service Solution
+
 Same as msdyn_quotebookingsetup entity [msdyn_quote_msdyn_quotebookingsetup_Quote](msdyn_quotebookingsetup.md#BKMK_msdyn_quote_msdyn_quotebookingsetup_Quote) Many-To-One relationship.
 
 |Property|Value|
@@ -3574,6 +3672,8 @@ Same as msdyn_quotebookingsetup entity [msdyn_quote_msdyn_quotebookingsetup_Quot
 
 
 ### <a name="BKMK_msdyn_quote_msdyn_quoteinvoicingsetup_Quote"></a> msdyn_quote_msdyn_quoteinvoicingsetup_Quote
+
+**Added by**: Field Service Solution
 
 Same as msdyn_quoteinvoicingsetup entity [msdyn_quote_msdyn_quoteinvoicingsetup_Quote](msdyn_quoteinvoicingsetup.md#BKMK_msdyn_quote_msdyn_quoteinvoicingsetup_Quote) Many-To-One relationship.
 
@@ -3616,45 +3716,67 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_quotebase_createdby"></a> lk_quotebase_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_quotebase_createdby](systemuser.md#BKMK_lk_quotebase_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_quote_createdonbehalfby"></a> lk_quote_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_quote_createdonbehalfby](systemuser.md#BKMK_lk_quote_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_quotebase_modifiedby"></a> lk_quotebase_modifiedby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_quotebase_modifiedby](systemuser.md#BKMK_lk_quotebase_modifiedby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_quote_modifiedonbehalfby"></a> lk_quote_modifiedonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_quote_modifiedonbehalfby](systemuser.md#BKMK_lk_quote_modifiedonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_system_user_quotes"></a> system_user_quotes
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [system_user_quotes](systemuser.md#BKMK_system_user_quotes) One-To-Many relationship.
 
 ### <a name="BKMK_team_quotes"></a> team_quotes
+
+**Added by**: System Solution Solution
 
 See team Entity [team_quotes](team.md#BKMK_team_quotes) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_quotes"></a> business_unit_quotes
 
+**Added by**: System Solution Solution
+
 See businessunit Entity [business_unit_quotes](businessunit.md#BKMK_business_unit_quotes) One-To-Many relationship.
 
 ### <a name="BKMK_processstage_quotes"></a> processstage_quotes
+
+**Added by**: System Solution Solution
 
 See processstage Entity [processstage_quotes](processstage.md#BKMK_processstage_quotes) One-To-Many relationship.
 
 ### <a name="BKMK_transactioncurrency_quote"></a> transactioncurrency_quote
 
+**Added by**: System Solution Solution
+
 See transactioncurrency Entity [transactioncurrency_quote](transactioncurrency.md#BKMK_transactioncurrency_quote) One-To-Many relationship.
 
 ### <a name="BKMK_quote_customer_accounts"></a> quote_customer_accounts
 
+**Added by**: System Solution Solution
+
 See account Entity [quote_customer_accounts](account.md#BKMK_quote_customer_accounts) One-To-Many relationship.
 
 ### <a name="BKMK_quote_customer_contacts"></a> quote_customer_contacts
+
+**Added by**: System Solution Solution
 
 See contact Entity [quote_customer_contacts](contact.md#BKMK_quote_customer_contacts) One-To-Many relationship.
 
@@ -3664,29 +3786,43 @@ See opportunity Entity [opportunity_quotes](opportunity.md#BKMK_opportunity_quot
 
 ### <a name="BKMK_price_level_quotes"></a> price_level_quotes
 
+**Added by**: Product Management Solution
+
 See pricelevel Entity [price_level_quotes](pricelevel.md#BKMK_price_level_quotes) One-To-Many relationship.
 
 ### <a name="BKMK_manualsla_quote"></a> manualsla_quote
+
+**Added by**: System Solution Solution
 
 See sla Entity [manualsla_quote](sla.md#BKMK_manualsla_quote) One-To-Many relationship.
 
 ### <a name="BKMK_sla_quote"></a> sla_quote
 
+**Added by**: System Solution Solution
+
 See sla Entity [sla_quote](sla.md#BKMK_sla_quote) One-To-Many relationship.
 
 ### <a name="BKMK_campaign_quotes"></a> campaign_quotes
+
+**Added by**: Marketing Solution
 
 See campaign Entity [campaign_quotes](campaign.md#BKMK_campaign_quotes) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_accountmanager_quote"></a> msdyn_accountmanager_quote
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [msdyn_accountmanager_quote](systemuser.md#BKMK_msdyn_accountmanager_quote) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_organizationalunit_quote"></a> msdyn_organizationalunit_quote
 
+**Added by**: Universal Resource Scheduling Solution
+
 See msdyn_organizationalunit Entity [msdyn_organizationalunit_quote](msdyn_organizationalunit.md#BKMK_msdyn_organizationalunit_quote) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_account_quote_Account"></a> msdyn_account_quote_Account
+
+**Added by**: System Solution Solution
 
 See account Entity [msdyn_account_quote_Account](account.md#BKMK_msdyn_account_quote_Account) One-To-Many relationship.
 <a name="manytomany"></a>
@@ -3722,6 +3858,6 @@ IntersectEntityName: contactquotes<br />
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.quote?text=quote EntityType" />
