@@ -70,7 +70,6 @@ When you're reviewing your insights, you'll see graphs, timelines, and values fo
 
 ![Insights tool tips](media/insights-tooltip.png "Insights tool tips")
 
-
 For more information about many of the most-used insights and how they are calculated, see the [Insights glossary](insights-glossary.md). Many of the tool tips also reference this glossary.
 
 <a name="contact-insights"></a>
@@ -94,6 +93,7 @@ Contacts provide the following [insights categories](#categories):
     > - Results from anonymous visits and redirect-URL clicks that occurred prior to becoming a known contact are not shown here.
 - **Event interactions**: See a timeline of event interactions, and event registration, check-in and cancellation records for the current contact.
 - **Marketing form interactions**: See which marketing forms the contact has submitted and the content of each submission.
+- **Subscription list interactions**: See which subscription lists the contact joined or left, and when.
 
 ## Lead insights
 
@@ -111,25 +111,21 @@ To view segment insights, go to **Marketing** > **Customers** > **Segments**, se
 
 ## Customer journey insights
 
-To view customer journey insights, go to **Marketing** > **Marketing execution** > **Customer journeys**, select a journey, and then open its **Insights** tab. Insights are only available for customer journeys that are (or have been) live.
+To view customer journey insights, go to **Marketing** > **Marketing execution** > **Customer journeys** and select a journey. Journeys show some insights on the **Designer** tab and others on the **Insights** tab. Insights are only available for customer journeys that are (or have been) live.
 
-Customer journeys provide three [categories of insights](#categories): **Overview**, **Designer** and **Incomplete journeys**.
-
-### Insights Overview
-
-The **Overview** shows basic email results, plus information about how many contacts interacted with the emails and marketing pages used by this journey.
+Customer journeys provide three [categories of insights](#categories): **Designer**, **Insights** > **Overview**  and **Insights** > **Incomplete journeys**.
 
 ### Designer insights
 
-The **Designer** insights view shows your journey pipeline. It looks the same here as when you were designing the journey, but now it presents results and doesn't include a toolbox or editing controls. Above each tile, you can see an overview of how contacts flowed through that tile, as shown in the following illustration. By inspecting these values, you can get a quick overview of how your various contacts flowed through the structure, which path they chose, and which problems they may have had. (Each of these KPIs is also shown in the **Data** panel when a tile is selected.)
+For live journeys, the **Designer** tab is a read-only version of your journey pipeline. It looks the same here as when you were designing the journey, but now it presents results and doesn't include a toolbox or editing controls. Above each tile, you can see an overview of how contacts flowed through that tile, as shown in the following illustration. By inspecting these values, you can get a quick overview of how your various contacts flowed through the structure, which path they chose, and which problems they may have had. (Each of these KPIs is also shown in the **Data** panel when a tile is selected.)
 
 ![Contact flow KPIs in the insights view of the customer journey pipeline](media/insights-tile-kpis.png "Contact flow KPIs in the insights view of the customer journey pipeline")
 
 Legend:
 
-1. **Processed** ![Inflow KPI icon](media/tile-kpi-inflow-icon.png "Inflow KPI icon"): Shows the number of contacts that were processed by this tile and then sent on to the next tile.
+1. **Inflow** ![Inflow KPI icon](media/tile-kpi-inflow-icon.png "Inflow KPI icon"): Shows the number of contacts who entered this tile.
+1. **Processing** ![Failed KPI icon](media/tile-kpi-processing-icon.png "Failed KPI icon"): Shows the number of contacts that are still being processed by this tile. For example, they may be waiting on a trigger tile until the trigger condition (or timeout period) is met.
 1. **Stopped** ![Stopped KPI icon](media/tile-kpi-blocked-icon.png "Stopped KPI icon"): Shows the number of contacts that were stopped from continuing the journey at this tile. There are two main reasons that a contact might get stopped: they got added to the journey's suppression segment, or they lowered their consent level below the minimum threshold set for the journey.
-1. **Failed** ![Failed KPI icon](media/tile-kpi-failed-icon.png "Failed KPI icon"): Shows the number of contacts that failed to be processed by the tile, typically because of an internal error.
 
 For even more information about what happened on a tile, select it from the pipeline and look at the **Data** panel. The information shown here depends on the tile type.
 
@@ -139,8 +135,8 @@ All types of tiles provide a **Volume** section on the **Data** panel with the f
 
 - **Volume** > **Inflow**: Counts how many contacts entered the tile. 
 - **Volume** > **Processing**: Counts how many contacts are still waiting for that tile to finish processing them. For trigger tiles, for example, this value indicates the number of contacts that are waiting for the trigger condition to be met or for the timeout to arrive.
-- **Volume** > **Stopped**: Counts the number of contacts that were stopped from continuing the journey at this tile. There are three main reasons that a contact might get stopped at a tile during a journey: they [unsubscribed](set-up-subscription-center.md#target-subscription-list) from the mailing list targeted by the journey, they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or they lowered their [consent level](gdpr.md#view-and-set-the-consent-level-for-each-contact) below the [minimum threshold](gdpr.md#journey-consent-level) set for the journey. This value is also displayed as the second value shown above the tile in the pipeline. Some tile types provide a floppy-disk button here; select this button to generate a segment that includes all contacts that were stopped at exactly this tile of this journey. You can see a detailed breakdown of which contacts stopped here and why by going to the [Incomplete journeys](#incomplete) view.
-- **Volume** > **Failed**: Counts the number of contacts that failed to be processed by the tile, typically because of an internal error. This value is also displayed as the third value shown above the tile in the pipeline. Some tile types provide a floppy-disk button here; select this button to generate a segment that includes all contacts that failed at exactly this tile of this journey.
+- **Volume** > **Stopped** (only shown when stopped contacts exist): Counts the number of contacts that were stopped from continuing the journey at this tile. There are three main reasons that a contact might get stopped at a tile during a journey: they [unsubscribed](customer-journeys-create-automated-campaigns.md#target-subscription-list) from the mailing list targeted by the journey, they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or they lowered their [consent level](gdpr.md#view-and-set-the-consent-level-for-each-contact) below the [minimum threshold](gdpr.md#journey-consent-level) set for the journey. This value is also displayed as the second value shown above the tile in the pipeline. Some tile types provide a floppy-disk button here; select this button to generate a segment that includes all contacts that were stopped at exactly this tile of this journey. You can see a detailed breakdown of which contacts stopped here and why by going to the [Incomplete journeys](#incomplete) view.
+- **Volume** > **Failed** (only shown when failed contacts exist): Counts the number of contacts that failed to be processed by the tile, typically because of an internal error. This value is also displayed as the third value shown above the tile in the pipeline. Some tile types provide a floppy-disk button here; select this button to generate a segment that includes all contacts that failed at exactly this tile of this journey.
 - **Volume** > **Processed**: Counts the number of contacts that were successfully processed by this tile and passed on to the appropriate next tile. Some tile types provide a floppy-disk button here; select this button to generate a segment that includes all contacts that were successfully processed by exactly this tile of this journey. This value is also displayed as the first value shown above the tile in the pipeline.
 
 In addition to the **Volume** section, some tiles also show additional sections and links in the **Data** panel, depending on the tile type. These can include the following:
@@ -149,17 +145,31 @@ In addition to the **Volume** section, some tiles also show additional sections 
 - **Paths**: Trigger and splitter tiles include this section, which tells you how many contacts went down each available path.
 - **View details**: This link is provided on the **Data** panel for tile types that have even more information available. Select this link to open the associated record, where you can explore its full insights panels. For example, email and event tiles provide this link, which opens the insights panels for the specific message or event associated with the tile.
 
+### Insights > Overview
+
+Open the **Insights** tab and select **Overview** to view basic email results, plus information about how many contacts interacted with the emails and marketing pages used by this journey.
+
 <a name="incomplete"></a>  
 
-### Incomplete journeys
+### Insights > Incomplete journeys
 
 When you're analyzing the results of a customer journey, one of the most important things to find out is whether all your messages were delivered as expected&mdash;and if not, who was affected and what went wrong?
 
-The **Incomplete journeys** view shows you each reason why a contact might fail to complete the journey and lists each contact that falls into each of these categories for the current journey.
+Open the **Insights** tab and select **Incomplete journeys** to view each reason why a contact might fail to complete the journey and lists each contact that falls into each of these categories for the current journey.
 
-#### Blocked messages
+#### Stopped contacts
 
-A *blocked message* is a messages that the system didn't attempt to send even though it was scheduled. Usually, this is related to contact preferences or a technical problem with the message itself, such as missing data or a missing setting. Contacts will continue on the journey even if a message gets blocked, so later messages might still get sent successfully. A message might get blocked for any of the following specific reasons:
+*Stopped contacts* are contacts that got stopped in the middle of a journey. Contacts will stop their journey as soon as any of these situations occur, so no further messages or other journey actions will be applied thereafter to the affected contact(s). A contact can get stopped for any of the following reasons:
+
+- **Contact joined the suppression segment**: The contact joined the suppression segment for the customer journey.
+- **Contact lowered consent below threshold**: These are contacts that lowered their data-protection consent level , and are now below the minimum level of consent for this journey. This is an important part of GDPR compliance. More information: Data protection and the GDPR.
+- **Contact lowered external consent below threshold**: This is the same a Contact content not given but applies when consent is being managed by an external system rather than the internal one provided with Dynamics 365 for Marketing.
+
+Select a reason in the left column of the table to see a list (in the right column) of contacts that were stopped for that reason.
+
+#### Blocked emails
+
+A *blocked email* is a messages that the system didn't attempt to send even though it was scheduled. Usually, this is related to contact preferences or a technical problem with the message itself, such as missing data or a missing setting. Contacts will continue on the journey even if a message gets blocked, so later messages might still get sent successfully. A message might get blocked for any of the following specific reasons:
 
 - **Contact has do-not-email set**: A setting on the [contact record](manage-customer-information.md) indicates that that contact doesn't wish to receive marketing email (or any email) from your organization.
 - **Duplicate recipient address**: The journey already sent the message to this email address. You probably have more than one contact record with the same email address.
@@ -173,16 +183,6 @@ A *blocked message* is a messages that the system didn't attempt to send even th
 - **Insufficient email credits**: Your organization has used up your email credits for the month. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
 
 Select a reason in the left column of the table to see a list (in the right column) of contacts that weren't sent a message for that reason.
-
-#### Stopped contacts
-
-*Stopped contacts* are contacts that got stopped in the middle of a journey. Contacts will stop their journey as soon as any of these situations occur, so no further messages or other journey actions will be applied thereafter to the affected contact(s). A contact can get stopped for any of the following reasons:
-
-- **Contact joined the suppression segment**: The contact joined the suppression segment for the customer journey.
-- **Contact lowered consent below threshold**: These are contacts that lowered their data-protection consent level , and are now below the minimum level of consent for this journey. This is an important part of GDPR compliance. More information: Data protection and the GDPR.
-- **Contact lowered external consent below threshold**: This is the same a Contact content not given but applies when consent is being managed by an external system rather than the internal one provided with Dynamics 365 for Marketing.
-
-Select a reason in the left column of the table to see a list (in the right column) of contacts that were stopped for that reason.
 
 <a name="email-insights"></a>  
 
@@ -217,7 +217,7 @@ Here you can find a complete history of how various contacts have interacted wit
 
 Because you can reuse each marketing page in several different journeys, the [filter](#filter) controls for page insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the page was used. As with most other entities, you can also filter marketing page insights by date range.
 
-Marketing pages provide the following [categories](#categories) on the **Insights** tab: <!-- note: this isn't working right now; verify and update as needed when it's up -->
+Marketing pages provide the following [categories](#categories) on the **Insights** tab:
 
 - **Overview**: Provides a general overview that includes KPIs, responses over time, geographical data, and more.
 - **Submissions**: Provides a table that lists the full content of each submission made through the page. Metadata and several important field values are shown in the table columns for each submission; hover your mouse pointer over a value in the **Form submissions** column to open a tooltip that shows all values included in a given submission.

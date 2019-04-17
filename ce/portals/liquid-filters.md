@@ -3,7 +3,7 @@ title: "Use Liquid filters for a portal in Dynamics 365 for Customer Engagement 
 description: "Learn about the available liquid filters in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -1607,7 +1607,7 @@ Optionally, a precision parameter can be passed, to control the number of decima
 
 ### **has\_role**
 
-Applied to a [*user*](#user), returns true if the user belongs to the given role. Returns false if not.  
+Applied to a [user](liquid-objects.md#user), returns true if the user belongs to the given role. Returns false if not.  
 
 **Code**
 
@@ -1642,4 +1642,4 @@ Renders a string as Liquid code. This code will have access to the current Liqui
 [Liquid types](liquid-types.md)  
 [Liquid Objects](liquid-objects.md)  
 [Liquid Tags](liquid-tags.md)  
-[Liquid Filters](#liquid-filters)  
+[Liquid Filters](liquid-filters.md)  

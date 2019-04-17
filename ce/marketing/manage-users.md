@@ -34,7 +34,7 @@ Create an account for each user that requires access to [!INCLUDE[pn-marketing-b
 
 ## Create a user account and assign licenses
 
-User accounts and licensing in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] work the same way as they do for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps. Use [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] admin center to create a new user and then assign licenses for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and other apps to the user as needed. Once you have done this, you'll see the new user listed on the **Settings** > **Advanced Settings** > **Organization** > **User Management** page.
+User accounts and licensing in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] work the same way as they do for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps. Use the Microsoft 365 admin center to create a new user and then assign licenses for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and other apps to the user as needed. Once you have done this, you'll see the new user listed on the **Settings** > **Advanced Settings** > **Organization** > **User Management** page.
 
  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Purchase and assign Dynamics 365 (online) licenses](../admin/purchase-assign-online-licenses.md).
 
@@ -51,7 +51,13 @@ Administrators can also create teams, apply security roles to those teams, and a
 > [!IMPORTANT]
 > You must assign at least one security role to every user. The app doesn't allow access to any user who does not have at least one security role.
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides a read-only view of users who are licensed to use the system. To apply security roles to users, and to customize each role, you must work in the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app. For details about how to open this app, see [Move between apps](navigation.md#move-between-apps). For more information about managing users and working with security roles in the custom app, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides a read-only view of users who are licensed to use the system. To apply security roles to users, and to customize each role, do the following:
+
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+
+1. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+
+1. Work with the **Users** settings here to assign security roles to users. For details, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
 
 <a name="inspect-roles"></a>
 
@@ -64,9 +70,11 @@ All [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications com
 
 To find out which permissions apply to any existing security role (and/or edit a role):
 
-1. [Open the Dynamics 365 - custom app](navigation.md#move-between-apps).
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
-1. Go to **Settings** > **System** > **Security** to open the **Security** page, and then select the **Security roles** icon.
+1. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+
+1. Select the **Security roles** icon.
 
 1. You now see a list of security roles. Select a role to open the **Security role** window, which shows individual access levels for each available entity. Most entities are named intuitively to map to various features and areas of the app.
 
@@ -75,7 +83,7 @@ To find out which permissions apply to any existing security role (and/or edit a
 Here are a few notes for working with the **Security role** settings:
 
 - Most of the entities added by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] are on the **Custom entities** tab. The other tabs manage features that belong to other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps and basic platform features.
-- There is a tab called **Marketing**, but it doesn't contain entities related to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Its settings apply to the *enterprise marketing* feature included with the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] platform (though [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] does make use of the marketing lists feature that is managed here).
+- There is a tab called **Marketing**, but it doesn't contain entities related to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Its settings apply to the *enterprise marketing* feature included with the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] platform (though [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] does make use of the marketing lists feature that is provided here).
 - Some of the security roles provided with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] include permissions from all available tabs. This is to provide access to relevant platform features required by users marketing roles.
 
 Security roles are a concept shared by all [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps. For more information about how to work with them, see [Manage security, users, and teams](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).

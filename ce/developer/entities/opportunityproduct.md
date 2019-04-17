@@ -782,7 +782,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Skip price calculation|
+|Description|Skip price calculation. Used with bulk update and bulk insert operations.|
 |DisplayName|Skip Price Calculation|
 |IsValidForForm|False|
 |IsValidForRead|True|

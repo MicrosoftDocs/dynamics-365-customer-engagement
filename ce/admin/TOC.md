@@ -1,5 +1,5 @@
 # [Administer Dynamics 365 for Customer Engagement](admin-guide.md)
-# [Release history](release-history.md)
+# [What's new](release-history.md)
 # [Getting started with your subscription](getting-started.md)
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
@@ -98,6 +98,7 @@
 ## [Migrate Dynamics 365 for Customer Engagement to Dynamics 365 for Customer Engagement (on-premises)](migrate-online-onpremises.md)
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
+## [Troubleshooting: Use the Solution Health Hub](solution-health-hub.md)
 
 # [Datacenter regions](../admin/datacenter/new-datacenter-regions.md)
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
@@ -209,6 +210,7 @@
 #### [Server-based SharePoint integration considerations](important-considerations-server-based-sharepoint-integration.md)
 #### [Set up](set-up-sharepoint-integration.md)
 ##### [Set up Dynamics 365 for Customer Engagement to use SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
+<!-- ##### [Troubleshoot SharePoint Online setup](troubleshoot-set-up-sharepoint-online.md) -->
 ##### [Switching from the list component or changing the deployment](switching-list-component-changing-deployment.md)
 ##### [Configure server-based authentication with Dynamics 365 for Customer Engagement and SharePoint Online](configure-server-based-authentication-sharepoint-online.md)
 ##### [Configure server-based authentication with Dynamics 365 for Customer Engagement and SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md)

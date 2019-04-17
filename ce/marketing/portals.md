@@ -1,6 +1,6 @@
 ---
-title: "Create portals and interactive webpages (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "How the Dynamics 365 Portals solution is integrated with Dynamics 365 for Marketing"
+title: "Create portals, interactive webpages, and an events website with or without portals (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "How to create portals, interactive webpages, and an events website with or without portals with Dynamics 365 for Marketing"
 keywords: portal; website; page; marketing page; event website
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -25,34 +25,45 @@ search.app:
   - D365Mktg
 ---
 
-# Engage with customers online with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals
+# Create interactive features with or without portals
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes the full portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] solution, which it uses to enable features like the event website and marketing pages. If those features are all you need, you never actually have to access the portal capabilities because [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates, configures, and manages these portals automatically. However, you can also use the portals solution to create custom portals and websites that include features that interact directly with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides features for creating landing pages, subscription centers, online forms, event websites, and other ways of interacting with your customers online. Each of these features is intended to be used by marketing contacts to view and submit information to and from the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app. There are two ways to provide these interactive features:
+
+- **Run on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal**: With this option, the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app works together with the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution to provide fully automated publishing and hosting of marketing pages and the event website. You can provide all of these features without changing, or even owning, your own website. However, it requires a portals license and the features aren't fully native on your organization's website.
+- **Run on your own website or CMS system**: with this option, you host the interactive marketing features on your own website. This method enables you to integrate the features into your own website structure and to match your site design perfectly. It also lets you provide these features without requiring a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals license. However, it does require you to implement these features manually and to maintain your own website.
+
+You can also run with a mix of both of these techniques or switch between them if needed.
+
+## Use portals to host your interactive marketing features
 
 The portals solution is highly flexible and customizable. You can create portals for a wide variety of purposes (such as self-service, registration, and data management) and audiences (including customers, partners, and employees).
 
+If all you need are the standard marketing page and event website features provided by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], then, you never actually have to access the portal capabilities directly because [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates, configures, and manages these portals automatically. However, you can also use the portals solution to create custom portals and websites that include features that interact directly with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data.
+
 > [!NOTE]
-> The portals solution is included with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and is available as an add-on for many other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications. For complete details about how to work with the portals solution, see [its online help](../portals/administer-manage-portal-dynamics-365.md).
+> If you want to integrate with a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal (optional), then an unconfigured portal app must be available on your tenant when you install [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Depending on the licensing plan you have chosen, your license may include a free portal (provided no other free portals are already in use on your tenant), or you may need to purchase a portal license before you can set up the integration. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Why do I need a portal, and how can I get one?](setup-troubleshooting.md#why-portal)
 
-## Work with the event website
+The portals solution is included with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and is available as an add-on for many other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications. For complete details about how to work with the portals solution, see [its online help](../portals/administer-manage-portal-dynamics-365.md).
 
-A full-featured events portal is provided with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. It is built by using the standard portals features, and its various elements are visible throughout the portals area of the custom app. The many features of the event website are fully functional right out of the box. The information published there comes directly from your event-management data in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], and it provides full support for any number of events.
-
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up the event website](set-up-event-portal.md)
-
-Many organizations will find that the standard event website fulfills all their needs, but if you'd like to customize it, you can do so by using the standard tools and entities of the portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] solution.
-
-## Work with marketing pages
+### Work with marketing pages
 
 Behind the scenes, each marketing page is created as a portal website that is hosted under the portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] solution. However, you won't find them listed anywhere in the portals area of the custom app. Instead you'll set them up by using the **Marketing Pages**, **Marketing Forms**, and **Marketing Form Field** entities in the **Marketing** work area. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and deploy marketing pages](create-deploy-marketing-pages.md).
 
 To view traffic information about each marketing page (such as who visited, where they visited from, and for how long), go to **Marketing** &gt; **Internet Marketing** &gt; **Websites**, and then choose the **Marketing Page Websites** view from the view-selector menu at the top of the page. Here you'll see a separate website listed for each marketing page you have published. Select any of these to view the traffic information. Go back to the **Active Websites** view to see the list of standard websites that you are monitoring by using this feature. These are websites where you have added a tracking script generated by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but which are not hosted as [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Register contacts' engagement with your Internet marketing initiatives](register-engagement.md)
 
-## Customize the event website and create custom portals solutions
+### Work with the event website
 
-To customize the event website, and to set up your own custom portals solutions, you must work with the full portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] solution settings, which are only available in the custom app. To get to the portal settings:
+The event website is a self-contained web application developed using the Angular framework. You can host the event website on your own webserver or on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal. If you installed [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] with portal integration enabled, then the event website was installed there automatically.
+
+For general information about how to work with the event website, including when it's hosted on a portal, see [Set up the event website](set-up-event-portal.md).
+
+For instructions about how to download, customize, and install the event website on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal, see [Dynamics 365 Portal hosted](developer/portal-hosted.md)
+
+### Create custom portals solutions
+
+To set up your own custom portals solutions, you must work with the full portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] solution settings, which are only available in the custom app. To get to the portal settings:
 
 1. Go to the custom app by selecting **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]** from the app-selector menu.  
     ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
@@ -60,9 +71,15 @@ To customize the event website, and to set up your own custom portals solutions,
 2. The custom app provides a horizontal navigator at the top of the page. Use it to open the **Portals** tile and then work with the entries there.  
     ![Navigate to the portals area in the custom app](media/portals-nav.png "Navigate to the portals area in the custom app")
 
-The event website is set up as a website named "Event Portal," and all the various other elements that it uses (templates, pages, files, and more) are shown as being part of that website.
-
 For complete details about how to work with the portals solution, see [its online help](../portals/administer-manage-portal-dynamics-365.md).
+
+## Run your interactive marketing features on an external site (portal-free)
+
+When it was first released, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] could only be installed provided you also had a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal available on your tenant because the portal was required for running key features. But now you can install even without a portal available. Here's how to offer interactive marketing features without running a portal:
+
+- **Marketing pages:** You can either embed forms generated by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] onto an external page, or create your forms using native tools and then capture them for use in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Integrate with landing pages published on an external website](embed-forms.md)
+- **Subscription center:** All marketing email messages must include a link to a subscription center. A subscription center is simply a type of marketing page, but because of the vital function they play for email marketing, a default subscription center is provided with the product. It runs directly on your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance without requiring a portal, but can still be customized and published using the marketing page designer in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You can instead use an external subscription center running as an embedded form on your own website.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Integrate with landing pages published on an external website](embed-forms.md) and [The default subscription center](set-up-subscription-center.md#default-center)
+- **Event website:** The event website is a self-contained web application developed using the Angular framework. For instructions about how to download, customize, and install it on your own website, see [Build and host a custom event portal](developer/event-management-web-application.md). You can also run this same exact project on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal if you prefer.
 
 ### See also
 

@@ -2,7 +2,7 @@
 title: "What's new in Dynamics 365 for Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 for Sales."
 keywords: "what's new, Dynamics 365 for Sales"
-ms.date: 04/08/2019
+ms.date: 04/12/2019
 ms.service:
   - "crm-online"
 ms.topic: article
@@ -32,13 +32,12 @@ Sales managers and sales people can use forecasting to project how much a sales 
     > [!IMPORTANT]
     > This feature is currently in preview. To know more about the feature's availability in your region, see [When will the April 2019 features be enabled for customers who did not opt in to the preview?](/power-platform/admin/preview-april-2019-updates#when-will-the-april-2019-features-be-enabled-for-customers-who-did-not-opt-in-to-the-preview)
 
-- With Dynamics 365 for Sales (build 9.1.0.3806), playbooks can be created for Account and Contact record types in the Sales Hub app (Unified Interface), in addition to the existing record types that are currently supported.
-
-- With Dynamics 365 for Sales (build 9.1.0.3647), sales managers can associate necessary documents with Playbook activities to provide additional contextual information to sales representatives working on a playbook.
-
+- With Dynamics 365 for Sales (build 9.0.1903.4006), playbooks can be created for Account and Contact record types in the Sales Hub app (Unified Interface), in addition to the existing record types that are currently supported. Also, sales managers can associate necessary documents with playbook activities to provide additional contextual information to sales representatives working on a playbook.
 
   > [!IMPORTANT]
   > This feature is being released in a phased manner. To know more about the feature's availability in your region, see [When will the April 2019 features be enabled for customers who did not opt in to the preview?](/power-platform/admin/preview-april-2019-updates#when-will-the-april-2019-features-be-enabled-for-customers-who-did-not-opt-in-to-the-preview)
+
+- Dynamics 365 for Sales (build 9.0.1903.4007) allows users to discover the best of third-party Configure, Price and Quote (CPQ) solution providers from within the Sales application. It makes it easier to leverage partner applications to get an immersive and intuitive product configuration experience. For more information, see the blog: [Leverage partner apps for a seamless configure-price-quote (CPQ) experience](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/04/09/leverage-partner-apps-for-a-seamless-configure-price-quote-cpq-experience/)
 
 
 ## Dynamics 365 for Sales, Dynamics 365 for Customer Engagement apps, version 9.1

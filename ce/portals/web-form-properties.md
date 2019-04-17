@@ -3,7 +3,7 @@ title: "Configure web form properties for a portal in Dynamics 365 for Customer 
 description: "Instructions to configure web form properties for a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,14 +23,14 @@ search.app:
 ---
 # Define web form properties for portals
 
-The Web form contains relationships to webpages and a start step to control the initialization of the form within the portal. The relationship to the webpage allows dynamic retrieval of the form definition for a given page node within the [website](#website-1).  
+The Web form contains relationships to webpages and a start step to control the initialization of the form within the portal. The relationship to the webpage allows dynamic retrieval of the form definition for a given page node within the [website](websites.md).  
 
 The other options on the Web form record itself control top-level preferences for the multiple-step process as a whole, for example whether you'd like to display a progress bar.
 
 To view existing Web forms or to create new Web forms, go to **Portals** > **Web Forms**.
 
 > [!Note]
-> A **Web Form** must be associated with a webpage for a given [website](#website-1) for the form to be viewable within the site.  
+> A **Web Form** must be associated with a webpage for a given [website](websites.md) for the form to be viewable within the site.  
 
 When creating or editing a webpage, a **Web Form** can be specified in the lookup field provided on the Web Page form.
 
