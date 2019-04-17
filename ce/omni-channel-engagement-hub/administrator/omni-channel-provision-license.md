@@ -130,7 +130,7 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
           > [!NOTE]
           > You must select at least one channel to proceed with the setup.
    
-           Once the set up is completed successfully, you can see the **Chat** and **SMS** channel enabled on the **Summary** page.
+           Once the setup is completed successfully, you can see the **Chat** and **SMS** channel enabled on the **Summary** page.
 
           > [!div class=mx-imgBorder]
           > ![summary of set up](../media/summary-fre.png)
