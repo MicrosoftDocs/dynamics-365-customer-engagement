@@ -70,5 +70,5 @@ You can also generate a PDF and directly email it to a customer.
 
 ### See also
 
-[Enable PDF generation from Quotes](enable-pdf-generation-quote.md)  
+[Enable PDF generation from quotes](enable-pdf-generation-quote.md)  
 [Create or edit a quote](create-edit-quote-sales.md)
