@@ -16,6 +16,8 @@
 #### [Deploy Unified Service Desk - Omni-channel Engagement Hub package](administrator/omni-channel-engagement-hub-package.md)
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
 
+### [Work with bots(administrator/configure-bot.md)]
+
 ### Channels
 #### [Configure a chat channel](administrator/set-up-chat-widget.md)
 ##### [Add a chat widget](administrator/add-chat-widget.md)
