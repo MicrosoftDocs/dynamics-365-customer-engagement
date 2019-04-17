@@ -5,6 +5,7 @@
 ### Sales management
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
+#### [Enable PDF generation from quotes](enable-pdf-generation-quote.md)
 
 ### Product management
 #### [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
@@ -57,6 +58,7 @@
 #### [Generate orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Generate invoices](../sales-enterprise/create-edit-invoice-sales.md)
 #### [Add products to quote, order, or invoice](../sales-enterprise/add-product-quote-order-invoice.md)
+#### [Create quote PDF](create-quote-pdf.md)
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
