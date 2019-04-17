@@ -26,6 +26,7 @@
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
 #### [Configure an entity channel](administrator/create-entity-channel.md)
+#### [Configure an SMS channel](administrator/configure-sms-channel.md)
 
 ### Queues & Users
 #### [Work with queues](administrator/queues-omni-channel.md)

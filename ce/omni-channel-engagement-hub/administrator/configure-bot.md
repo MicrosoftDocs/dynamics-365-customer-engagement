@@ -121,13 +121,12 @@ This sample provides exact steps and configuration values to integrate a bot and
 
 ## Privacy notice
 
-You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization’s compliance boundary (even if your organization is in a Government Cloud environment).  For more information on how we process your data, please refer to the Microsoft Privacy Statement.
+You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization’s compliance boundary (even if your organization is in a Government Cloud environment). For more information on how we process your data, please refer to the Microsoft Privacy Statement.
 
+### See also
 
-
-
-
-
-
-
-
+[Understand and create work streams](work-streams-introduction.md)<br>
+[Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md)<br>
+[Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md)<br>
+[Create and manage routing rules](routing-rules.md)<br>
+[Add a chat widget](add-chat-widget.md)
