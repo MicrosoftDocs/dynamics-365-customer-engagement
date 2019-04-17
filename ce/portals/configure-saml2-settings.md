@@ -3,7 +3,7 @@ title: "Configure SAML 2.0 provider settings for a portal in Dynamics 365 for Cu
 description: "Instructions to add and configure SAML 2.0 provider settings for a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -35,7 +35,7 @@ Settings for an identity provider such as [!include[](../includes/pn-active-dir-
 ### Create an AD FS relying party trust
 
 > [!Note]
-> See [Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script.
+> See [Configure AD FS by using PowerShell](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script.
 
 Using the [!include[](../includes/pn-adfs-short.md)] Management tool, go to **Service** > **Claim Descriptions**.
 
@@ -356,7 +356,7 @@ $idpInitiatedUrl = {0}?providerId={1}&target={2} -f $shibbolethPath, $encodedRpi
 Write-Output $idpInitiatedUrl
 ```
 
-## Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]
+## Configure AD FS by using PowerShell
 
 The process of adding a relying party trust in [!include[](../includes/pn-adfs-short.md)] can also be performed by running the following [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script on the [!include[](../includes/pn-adfs-short.md)] server (save contents to a file named Add-AdxPortalRelyingPartyTrustForSaml.ps1). After running the script, continue with configuring the portal site settings.
 
@@ -467,5 +467,3 @@ Add-CrmRelyingPartyTrust $domain
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  
-[Facebook App (Page Tab) authentication for portals](#facebook-app-page-tab-authentication-for-portals)  
-

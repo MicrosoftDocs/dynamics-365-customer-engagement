@@ -3,7 +3,7 @@ title: "Use custom JavaScript for a portal in Dynamics 365 for Customer Engageme
 description: "Instructions to add custom JavaScript to a form in a portal"
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 04/17/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -43,6 +43,9 @@ $(#address1_stateorprovince).val(Saskatchewan);
 
 ## Additional client-side field validation
 Sometimes you might need to customize the validation of fields on the form. The following example demonstrates adding a custom validator. This example forces the user to specify an email only if the other field for preferred method of contact is set to Email.
+
+> [!NOTE]
+> The client-side field validation is not supported in a subgrid.
 
 ```
 if (window.jQuery) 
