@@ -67,6 +67,8 @@ You can also generate a PDF and directly email it to a customer.
 
 3.	Verify and change any details in the email form, and select **Send**.
 
+> [!IMPORTANT]
+> The time taken to generate the PDF document and download or send email is dependent on the size of the file. You'll see optimum performance when the file size is less than 2 MB. Larger files may require considerably more response time.
 
 ### See also
 
