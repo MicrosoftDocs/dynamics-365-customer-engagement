@@ -15,6 +15,10 @@ ms.custom:
 
 # Work with bots
 
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 A bot is a program that initiates a conversation with a customer and collect basic information. This basic information is then provided to a customer service agent to work further on the issue raised by the customer.
 
 You can ease the load on your customer service agents by using bots that can handle basic queries from the customer. This will save some of your agent’s time and they can work on more complex issues. Bots can be configured to escalate the query to a human agent as and when required by the customer.
