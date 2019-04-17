@@ -127,7 +127,7 @@ No, this change applies immediately, upon reloading the page. If it doesn't, cle
 
 This setting is preset to Off for your environment, and you are unaffected by the April 2019 release. It is recommended that you take advantage of the benefits of Unified Interface early by turning Unified Interface Only mode on.
 
-### I want to use Unified Interface for all the apps, but still want *Dynamics 365 – custom* to open in the legacy web client as a fallback option. Is that possible?
+### I want to use Unified Interface for all the apps, but still want *Dynamics 365 – custom* to open in the legacy web client. Is that possible?
 
 You can achieve this by [setting all apps to be Unified Interface apps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/update-apps-to-unified-interface). Note that this won't change the home page experience to Unified Interface. Unified Interface Only mode is a prerequisite to get the [new home page experience](#new-immersive-home-page-experience-on-web).
 
