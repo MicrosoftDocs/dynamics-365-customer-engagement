@@ -1,6 +1,6 @@
 ---
-title: "Create a quote PDF (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Create and share a professional-looking quote PDF with your customers."
+title: "Create a quote PDF document (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Create and share a professional-looking quote PDF document with your customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF"
 ms.date: 04/10/2019
 ms.service:
@@ -22,11 +22,11 @@ caps.latest.revision: 58
 topic-status: Drafting
 ---
 
-# Create a quote PDF
+# Create a quote PDF document
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 
-Create and share a professional-looking quote PDF from a standard template that your organization uses.
+Create and share a professional-looking quote PDF document from a standard template that your organization uses.
 
 
 > [!IMPORTANT]
@@ -38,14 +38,14 @@ Create and share a professional-looking quote PDF from a standard template that 
 
     ![A quote form showing the Create PDF button on the command bar](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
 
-    A PDF using the selected template is downloaded to your computer. You can add this document to a note or send it as an attachment in an email or upload it to SharePoint.
+    A PDF document using the selected template is downloaded to your computer. You can add this document to a note, send it as an attachment in email, or upload it to SharePoint.
 
     > [!TIP]
     > To learn more about using Word templates, see [Use Word templates to create standardized documents](../admin/using-word-templates-dynamics-365.md) 
 
-## Email as PDF
+## Email as a PDF document
 
-You can also generate a PDF and directly email it to a customer.
+You can also generate a PDF document and directly email it to a customer.
 
 1.	Open the quote record.
 
@@ -68,7 +68,7 @@ You can also generate a PDF and directly email it to a customer.
 3.	Verify and change any details in the email form, and select **Send**.
 
 > [!IMPORTANT]
-> The time taken to generate the PDF document and download or send email is dependent on the size of the file. You'll see optimum performance when the file size is less than 2 MB. Larger files may require considerably more response time.
+> The time taken to generate the PDF document and download or send email is dependent on the size of the file. You'll see optimum performance when the file size is less than 2 MB. Larger files can require considerably more response time.
 
 ### See also
 
