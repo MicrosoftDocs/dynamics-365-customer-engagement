@@ -27,7 +27,7 @@ SMS channel is enabled within Omni-channel Engagement Hub by integrating with Te
 
 To sign up for TeleSign:
 
-1.	Sign up for a TeleSign account if you don't have one already.
+1.	Sign up for a [TeleSign account](https://www.telesign.com/) if you don't have one already.
 
 2.	Purchase support phone numbers through your TeleSign account. For preview, only long code type phone numbers belonging to USA are supported.
 
