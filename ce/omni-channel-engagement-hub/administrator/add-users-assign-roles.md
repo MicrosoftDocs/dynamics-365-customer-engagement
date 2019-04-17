@@ -55,8 +55,29 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 |   |     Can add / edit / delete: </br> - Presence  </br> - Presence associations </br> -   Work streams </br> - Channel settings </br> - Context settings  </br> - Routing rules </br> -  Queues </br> - PBI config |
 |   |      Can add / remove: </br> - Users from presence  </br> - Agents from queue |
 |   |     Can view / add / edit / delete:</br> -  Quick replies  </br> - Operating hours </br> -  Delete auth settings  |
-| **Omni-channel supervisor**   |         |
-| **Omni-channel agent**  |         |
+
+OR
+
+
+
+|Role  |Privileges  |
+|---------|---------|
+|**Omni-channel administrator**      |  Can view user list / presence list / work stream list / queues list / PBI config list       |
+|    |    Can edit roles of a user     |
+|    |   Can edit default presence and default capacity of a user      |
+|    |     Can edit queue assignment of a user    |
+|    |    Can add / edit / delete presence     |
+|    |      Can add / remove users from presence   |
+|    |    Can add / edit / delete presence associations     |
+|    |      Can add / edit / delete work streams   |
+|    |   Can add / edit / delete channel settings, context settings, routing rules      |
+|    |     Can add / edit / delete queues    |
+|    |     Can add / remove agents from queue    |
+|    |    Can view / add / edit / delete quick replies     |
+|    |     Can add / edit / delete PBI config    |
+|    |    Can view add / edit / delete operating hours    |
+|    |    Can view add / edit / delete auth settings     |
+
 
 
 
