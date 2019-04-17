@@ -108,9 +108,9 @@
 ### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
-# [Connected Field Service (IoT) add-in]
+# Connected Field Service (IoT) add-in
 ## [Overview](connected-field-service.md)
-## [Connected Field Service for Azure IoT Central]
+## Connected Field Service for Azure IoT Central
 ### [Overview](cfs-iot-overview.md)
 ### [Tutorials - Integration scenarios]
 #### [Prerequisites](cfs-iot-central-setup.md)
@@ -118,7 +118,7 @@
 #### [2 - Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 #### [3 - Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
 #### [4 - Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
-## [Connected Field Service for Azure IoT Hub]
+## Connected Field Service for Azure IoT Hub
 ### [Overview](developer/connected-field-service-developer-guide.md)
 ### [Architecture](developer/connected-field-service-architecture.md)
 ### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
