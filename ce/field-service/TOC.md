@@ -108,18 +108,22 @@
 ### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
-# [Connected Field Service (IoT) add-in](connected-field-service.md)
-## [Connected Field Service for Azure IoT Central](cfs-iot-overview.md)
-### [Tutorials - Integration scenarios](cfs-iot-tutorial-overview.md)
+# [Connected Field Service (IoT) add-in]
+## [Overview](connected-field-service.md)
+## [Connected Field Service for Azure IoT Central]
+### [Overview](cfs-iot-overview.md)
+### [Tutorials - Integration scenarios]
 #### [Prerequisites](cfs-iot-central-setup.md)
 #### [1 - Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
 #### [2 - Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 #### [3 - Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
 #### [4 - Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
-## [Connected Field Service for Azure IoT Hub](developer/connected-field-service-developer-guide.md)
+## [Connected Field Service for Azure IoT Hub]
+### [Overview](developer/connected-field-service-developer-guide.md)
+### [Architecture](developer/connected-field-service-architecture.md)
 ### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
-### [Installation and Setup](installation-setup-iothub.md)
-### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
+### [Installation and setup](installation-setup-iothub.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ## [Security roles for Connected Field Service](cfs-security-roles.md)
+
