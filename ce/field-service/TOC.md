@@ -24,7 +24,7 @@
 
 # Work orders
 ## [Create a new work order](create-work-order.md)
-## [Add a customer, location, and related account details to a work order](work-order-customer-account.md)
+## [Add account details to a work order](work-order-customer-account.md)
 ## [Work order types](create-work-order-types.md)
 ## [Price list](create-price-list.md)
 ## [Create a product or service](create-product-or-service.md)
