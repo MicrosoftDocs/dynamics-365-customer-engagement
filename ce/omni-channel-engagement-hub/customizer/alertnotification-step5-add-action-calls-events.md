@@ -18,17 +18,23 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
+## Attach the action calls to events
 
-2. Go to **Settings** > **Unified Service Desk** > **Events**.
+1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-3. Select an event from the list. See the matrix to add the action call against the events.
+2. Select the Down arrow next to Dynamics 365.
 
-4. On the event page, in the **Active Actions** section, select the plus sign (**+**). In the search box, type the name of the action call, and then select the search icon.
+3. Select **Unified Service Desk Administrator**.
 
-5. Select the action from the list to add the action call to the event.
+4. Select **Events** and then select the event to which you want to add the action call. Select **CreateCustomerSession**.
 
-6. Select **Save**.
+5. Select **Add Existing Action Call**. The **Lookup Records** pane appears.
+
+6. In the **Lookup Records** pane, enter the name of the action call you want to add. Enter **Create Customer Session** in the search box and select the action from the list, and then select **Add**. The action call is added to the **BrowserWindowReady** event.
+
+7. Select **Save**.
+
+8. Repeat steps 4 through 7 to add the following action calls to the corresponding events. 
 
  <table>
     <tr>
