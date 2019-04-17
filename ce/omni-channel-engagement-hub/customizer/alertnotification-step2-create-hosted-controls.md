@@ -1,6 +1,6 @@
 ---
-title: "Create hosted controls | MicrosoftDocs"
-description: "Learn how to create hosted controls that can be used to show notifications in Omni-channel Engagement Hub."
+title: "Create Omni-channel Alert Notification hosted controls | MicrosoftDocs"
+description: "Learn how to create hosted control that can be used to show alert notification in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,30 +12,44 @@ ms.topic: article
 ms.assetid: f957c744-eede-4ada-89b2-2c68f5eb92c0
 ms.custom: 
 ---
-# Step 2: Create hosted controls
+# Step 2: Create Omni-channel Alert Notification hosted control
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-1.  Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
+## Prerequisites 
 
-2.  Go to **Settings** > **Unified Service Desk**.
+- You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
-3.  Select **Hosted Controls** and select **+ New**.
+- You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
+  
+  - [Unified Service Desk Hosted Controls](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk-hosted-controls)  
+  
+  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types, action, and event reference in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
+  
+  - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-4.  On the page for new hosted control, specify the following.
+## Create hosted control
+
+1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
+
+2. Select the Down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Hosted Controls** and then select **+ New**.
+
+5. On the page for new hosted control, specify the following.
 
 | **Field**                           | **Value**                       |
 |-------------------------------------|---------------------------------|
-| Name                                | Omni-channel Popup Notification |
+| Name                                | Omni-channel Alert Notification |
 | Unified Service Desk Component Type | Popup Notification              |
 | Application is Global               | Select the checkbox             |
+| Application is Dynamic              | Yes                             |
 
- > [!div class=mx-imgBorder]
- > ![hosted control for omni-channel popup notification ](../media/oc-usd-crm-popup-notification-hostedcontrol.png "Hosted control for omni-channel popup notification ")  
-
-5.  Save the hosted control.
+5. Save the hosted control.
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 3: Create events](alertnotification-step3-create-the-events.md)

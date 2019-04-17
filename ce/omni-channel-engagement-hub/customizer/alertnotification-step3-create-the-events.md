@@ -43,9 +43,6 @@ Follow these steps to create the events.
  | Name               | CreateCustomerSession           |
  | Hosted Application | Omni-channel Popup Notification |
 
- > [!div class=mx-imgBorder]
- > ![create customer session event](../media/oc-usd-crm-create-customer-session-event.png "Create customer session action call")
-
 5. Save the event.
 
  Repeat the steps from 3 - 5 through create **IncomingRequestRejected**, **TimedOut**, and **Omni-channel Context Fetch** events.
@@ -56,9 +53,6 @@ Follow these steps to create the events.
  |--------------------|----------------------------|
  | Name               | Omni-channel Context Fetch |
  | Hosted Application | OmniChannelHostedControl   |
-
- > [!div class=mx-imgBorder]
- > ![omni-channel context fetch event](../media/oc-usd-crm-context-fetch-event.png "Omni-channel context fetch action call")  
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md)

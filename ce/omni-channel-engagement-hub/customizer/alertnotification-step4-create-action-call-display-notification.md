@@ -12,197 +12,193 @@ ms.topic: article
 ms.assetid: ffd0550b-260d-4f23-bab5-c757a258cac1
 ms.custom: 
 ---
-# Step 4: Create an action call to display the notification
+# Step 4: Create Omni-channel Alert Notification related-action call
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance.
+1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Go to **Settings** > **Unified Service Desk**.
+2. Select the Down arrow next to Dynamics 365.
 
-3. Select **Action Calls** and select **+ New**.
+3. Select **Unified Service Desk Administrator**.
 
-4. In the new page, specify the following details.
+4. Select **Action Calls** and select **+ New**.
 
- | **Field**      | **Value**                       |
- |----------------|---------------------------------|
- | Name           | CloseUSDPopUpNotification       |
- | Hosted Control | Omni-channel Popup Notification |
- | Action         | Close                           |
+5. In the new page, specify the following details.
+
+ | Tab            | Field          | Value                           |
+ |----------------|----------------|---------------------------------|
+ | General        | Name           | Close Omni-channel Alert Notification       |
+ | General        | Hosted Control | Omni-channel Alert Notification |
+ | General        | Action         | Close                           |
 
 5. Save the action call.
 
 6. Repeat steps 1 through 5 to create the following additional action calls.
+ 
 
- <table>
-    <tr>
-        <th>Field</th>
-        <th>Value</th>
-    </tr>
-    <tr>
-        <td>Name</td>
-        <td>ShowSimpleChatRequestScreenPop</td>
-    </tr>
-    <tr>
-        <td>Hosted Control</td>
-        <td>Omni-channel Popup Notification</td>
-    </tr>
-    <tr>
-        <td>Action</td>
-        <td>Show</td>
-    </tr>
-    <tr>
-        <td>Data</td>
-        <td>formname=SimpleChatRequestPopUpForm <br>
-            top=10 <br>
-            left=98 <br>
-            timeout=120 <br>
-            stack=true <br>
-            stackHeight=50 <br>
-            cid=[[ConversationId]+] <br>
-            from=[[From]+] <br>
-            isUniqueContactRecognized=[[IsUniqueContactRecognized]+] <br>
-            jobTitle=[[contact_jobtitle_0]+] <br>
-            email=[[contact_emailaddress1_0]+] <br>
-            state=[[contact_Address1_Stateorprovince_0]+] <br>
-            city=[[contact_Address1_City_0]+] <br>
-            position=absolute <br>
-            isAccept=TRUE <br>
-            isReject=TRUE</td>
-    </tr>
-    <tr>
-        <td>Condition </td>
-        <td>[[RequestType]] == "1"</td>
-    </tr>
+##  Show Simple Chat Request Alert Notification**
 
- </table>
+ | Tab            | Field          | Value                           |
+ |----------------|----------------|---------------------------------|
+ | General        | Name           | Show Simple Chat Request Alert Notification |
+ | General        | Hosted Control | Omni-channel Alert Notification |
+ | General        | Action         | Show               |
+ | General        | Data           | formname=SimpleChatRequestPopUpForm <br>  top=10 <br> left=98 <br> timeout=120 <br> stack=true <br> stackHeight=50 <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> position=absolute <br> isAccept=TRUE <br> isReject=TRUE |
+ | Advanced        | Condition | /[/[RequestType/]/] == "1"< |
 
- | Field          | Value                           |
- |----------------|---------------------------------|
- | Name           | Expand Right Pane               |
- | Hosted Control | Omni-channel Popup Notification |
- | Action         | SetVisualProperty               |
- | Data           | elementName=RightPanelExpander<br>propertyname=IsExpanded<br>value=true |
+## Expand Right Pane**
 
- > [!div class=mx-imgBorder]
- > ![expand right panel action call](../media/oc-usd-crm-expand-right-panel-actioncall.png "Expand right panel action call")  
+ | Tab            | Field          | Value                           |
+ |----------------|----------------|---------------------------------|
+ | General        | Name           | Expand Right Pane               |
+ | General        | Hosted Control | Omni-channel Popup Notification |
+ | General        | Action         | SetVisualProperty               |
+ | General        | Data           | elementName=RightPanelExpander<br>propertyname=IsExpanded<br>value=true |
 
- | Field          | Value                 |
- |----------------|-----------------------|
- | Name           | CreateCustomerSession |
- | Order          | 10                    |
- | Hosted Control | CRM Global Manager    |
- | Action         | CreateSession         |
+## Create Customer Session
 
- > [!div class=mx-imgBorder]
- > ![create customer session action call for crm global manager hosted control](../media/oc-usd-crm-create-customer-session-actioncall-crmglobalmanager.png "Create customer session action call for CRM global manager hosted control")  
+ | Tab            | Field          | Value                 |
+ |----------------|----------------|-----------------------|
+ | General        | Name           | Create Customer Session |
+ | General        | Order          | 10                    |
+ | General        | Hosted Control | CRM Global Manager    |
+ | General        | Action         | CreateSession         |
+ | Advanced       | Condition |  \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\]  && '\[\[CanActivateSession\]+\]' != 'True' |
 
- | Field          | Value                        |
- |----------------|------------------------------|
- | Name           | Omni-channel Presence Status |
- | Hosted Control | OmniChannelHostedControl     |
- | Action         | OCPresenceUpdate             |
+## Omni-channel Activate Session
 
- > [!div class=mx-imgBorder]
- > ![omni-channel presence statuses action call](../media/oc-usd-crm-presence-status-actioncall.png "Omni-channel presence statuses action call")  
+ | Tab            | Field          | Value                 |
+ |----------------|----------------|-----------------------|
+ | General        | Name           | Omni-channel Activate Session |
+ | General        | Hosted Control | Session Tabs    |
+ | General        | Action         | SwitchSession         |
+ | General        | Data |  sessionid=\[\[SessionTabId\]+\] |
+ | Advanced       | Condition |  '\[\[CanActivateSession\]+\]' == 'True' |
 
- | Field          | Value                                       |
- |----------------|---------------------------------------------|
- | Name           | OCSessionAccepted                           |
- | Order          | 15                                          |
- | Hosted Control | OmniChannelHostedControl                    |
- | Action         | OCSessionAccepted                           |
- | Data           | ConversationId=\[\[cid\]\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] |
+## Omni-channel Rehydrate Conversation
 
- > [!div class=mx-imgBorder]
- > ![omni-channel session accepted action call](../media/oc-usd-crm-session-accepted-actioncall.png "Omni-channel session accepted action call")  
+ | Tab            | Field          | Value                 |
+ |----------------|----------------|-----------------------|
+ | General        | Name           | Omni-channel Rehydrate Conversation |
+ | General        | Hosted Control | Communication Panel    |
+ | General        | Action         | OmnichannelSwitchSessionsTabs         |
+ | General        | Data |  SessionTabId=\[\[SessionTabId\]+\] |
+ | Advanced       | Condition |  '\[\[CanActivateSession\]+\]' == 'True' |
 
- | Field          | Value                           |
- |----------------|---------------------------------|
- | Name           | ExecuteKBSearchOnDataAvailable  |
- | Order          | 20                              |
- | Hosted Control | CRM Global Manager              |
- | Action         | ExecuteOnDataAvailable          |
- | Data           | milliseconds=5000 <br> \[\[$Context.PRECHATANSWER3\]\]  |
+## Set IsCaseSession to False
 
- | Field          | Value            |
- |----------------|------------------|
- | Name           | FireSessionTimer |
- | Order          | 20               |
- | Hosted Control | SessionTimer     |
- | Action         | FireEvent        |
+ | Tab            | Field          | Value                 |
+ |----------------|----------------|-----------------------|
+ | General        | Name           | Set IsCaseSession to False |
+ | General        | Data | 10 |
+ | General        | Hosted Control | CRM Global Manager   |
+ | General        | Action         | CopyToContext         |
+ | General        | Data |  IsCaseSession=False |
+ | Advanced       | Condition |  \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
- > [!div class=mx-imgBorder]
- > ![kb article search action call](../media/oc-usd-crm-kb-search-actioncall.png "KB article search action call")  
+## Omni-channel Session Accepted
 
- | Field          | Value                     |
- |----------------|---------------------------|
- | Name           | Load Default Agent Script |
- | Order          | 150                       |
- | Hosted Control | Agent Script HC           |
- | Action         | GotoTask                  |
- | Data           | Welcome Script            |
+ | Tab            | Field          | Value                                       |
+ |----------------|----------------|---------------------------------------------|
+ | General        | Name           | Omni-channel Session Accepted               |
+ | General        | Order          | 15                                          |
+ | General        | Hosted Control | Communication Panel                         |
+ | General        | Action         | OmnichannelSessionAccepted                  |
+ | General        | Data           | ConversationId=\[\[cid\\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] <br> CanActivateSession=\[\[CanActivateSession\]+\] |
+ | Advanced | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] ||  '\[\[CanActivateSession\]+\]' == 'True' |
 
- > [!div class=mx-imgBorder]
- > ![load default agent script action call](../media/oc-usd-crm-default-agent-script-actioncall.png "Load default agent script action call")  
+## Omni-channel Presence status**
 
- | Field        | Value        |
- |---------------|---------------|
- | Name          | Load Agent Session Search Page With Condition |
- | Order         | 20                                           |
- | Hosted Control| AgentSessionSearchPage |
- | Action         | Navigate |
- | Data           | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off |
- | Condition      | '\[\[isUniqueContactRecognized\]\]'=='False' |
+ | Tab            | Field          | Value                        |
+ |----------------|----------------|------------------------------|
+ | General        | Name           | Omni-channel Presence Status |
+ | General        | Hosted Control | OmniChannelHostedControl     |
+ | General        | Action         | OCPresenceUpdate             |
 
- > [!div class=mx-imgBorder]
- > ![load agent session search page action call](../media/oc-usd-crm-agent-session-search-page-actioncall.png "Load agent session search page action call")  
+## ExecuteKBSearchOnDataAvailable**
 
- | Field          | Value                                                                                                                                              |
- |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
- | Name           | Load Agent Session Overview Page  |
- | Order          | 200           |
- | Hosted Control | Session Overview  |
- | Action         | Navigate   |
- | Data           | url=/main.aspx?navbar=off&cmdbar=false&pagetype=entityrecord&etn=msdyn\_ocliveworkitem&formid=5fe86453-73ea-4821-b6dd-ddc06e1755a1&bodyOnly=true\# <br> Hidenav=true |
 
- > [!div class=mx-imgBorder]
- > ![load agent session overview page action call](../media/oc-usd-crm-agent-session-overview-page-actioncall.png "Load agent session overview page action call")  
+ | Tab            | Field          | Value                           |
+ |----------------|----------------|---------------------------------|
+ | General        | Name           | ExecuteKBSearchOnDataAvailable  |
+ | General        | Order          | 20                              |
+ | General        | Hosted Control | CRM Global Manager              |
+ | General        | Action         | ExecuteOnDataAvailable          |
+ | General        | Data           | milliseconds=5000 <br> \[\[$Context.PRECHATANSWER3\]\]  |
 
- | Field          | Value              |
- |----------------|--------------------|
- | Name           | Focus on Overview  |
- | Order          | 220                |
- | Hosted Control | CRM Global Manager |
- | Action         | ShowTab            |
- | Data           | Session Overview   |
+## FireSessionTimer**
 
- > [!div class=mx-imgBorder]
- > ![change focus on the overview page action call](../media/oc-usd-crm-focus-overview-page-actioncall.png "Change focus on the overview page action call")  
+ | Tab            | Field          | Value            |
+ |----------------|----------------|------------------|
+ | General        | Name           | FireSessionTimer |
+ | General        | Order          | 20               |
+ | General        | Hosted Control | SessionTimer     |
+ | General        | Action         | FireEvent        |
 
- | Field          | Value                      |
- |----------------|----------------------------|
- | Name           | OCSessionRejected          |
- | Order          | 16                         |
- | Hosted Control | OmniChannelHostedControl   |
- | Action         | OCSessionRejected          |
- | Data           | ConversationId=\[\[cid\]\] |
+## Load Default Agent Script**
 
- > [!div class=mx-imgBorder]
- > ![omni-channel session rejected action call](../media/oc-usd-crm-session-rejected-actioncall.png "Omni-channel session rejected action call")  
+ | Tab            | Field          | Value                     |
+ |----------------|----------------|---------------------------|
+ | General        | Name           | Load Default Agent Script |
+ | General        | Order          | 150                       |
+ | General        | Hosted Control | Agent Script HC           |
+ | General        | Action         | GotoTask                  |
+ | General        | Data           | Welcome Script            |
 
- | Field          | Value                      |
- |----------------|----------------------------|
- | Name           | OCSessionTimeout           |
- | Order          | 16                         |
- | Hosted Control | OmniChannelHostedControl   |
- | Action         | OCSessionTimeout           |
- | Data           | ConversationId=\[\[cid\]\] |
+## Load Agent Session Search Page With Condition**
 
- > [!div class=mx-imgBorder]
- > ![omni-channel session timeout action call](../media/oc-usd-crm-session-timeout-actioncall.png "Omni-channel session timeout action call")  
+ | Tab           | Field        | Value        |
+ |---------------|---------------|------------------------------------------------------|
+ | General        | Name          | Load Agent Session Search Page With Condition |
+ | General        | Order         | 20                                           |
+ | General        | Hosted Control| AgentSessionSearchPage |
+ | General        | Action         | Navigate |
+ | General        | Data           | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off|
+ | Advanced       | Condition      | '\[\[isUniqueContactRecognized\]\]'=='False' |
+
+## Load Agent Session Overview Page**
+
+ | Tab            | Field          | Value    |
+ |----------------|----------------|---------------------------------------------|
+ | General        | Name           | Load Agent Session Overview Page  |
+ | General        | Order          | 200           |
+ | General        | Hosted Control | Session Overview  |
+ | General        | Action         | Navigate   |
+ | General        | Data           | url=/main.aspx?navbar=off&cmdbar=false&pagetype=entityrecord&etn=msdyn\_ocliveworkitem&formid=5fe86453-73ea-4821-b6dd-ddc06e1755a1&bodyOnly=true\# <br> Hidenav=true |
+
+## Focus on Overview**
+
+ | Tab            | Field          | Value              |
+ |----------------|----------------|--------------------|
+ | General        | Name           | Focus on Overview  |
+ | General        | Order          | 220                |
+ | General        | Hosted Control | CRM Global Manager |
+ | General        | Action         | ShowTab            |
+ | General        | Data           | Session Overview   |
+
+## Omni-channel Session Rejected
+
+ | Tab            | Field          | Value                      |
+ |----------------|----------------|----------------------------|
+ | General        | Name           | Omni-channel Session Rejected          |
+ | General        | Order          | 16                         |
+ | General        | Hosted Control | Communication Panel   |
+ | General        | Action         | OmnichannelSessionRejected          |
+ | General        | Data           | ConversationId=\[\[cid\]\] |
+
+## Omni-channel Session Timeout
+
+ | Tab            | Field          | Value                      |
+ |----------------|----------------|----------------------------|
+ | General        | Name           | Omni-channel Session Timeout           |
+ | General        | Order          | 16                         |
+ | General        | Hosted Control | Communication Panel    |
+ | General        | Action         | OmnichannelSessionTimeout           |
+ | General        | Data           | ConversationId=\[\[cid\]\] |
+
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 5: Add the action calls to the events](alertnotification-step5-add-action-calls-events.md)
