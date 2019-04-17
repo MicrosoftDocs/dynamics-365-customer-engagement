@@ -112,7 +112,7 @@
 ## [Overview](connected-field-service.md)
 ## Connected Field Service for Azure IoT Central
 ### [Overview](cfs-iot-overview.md)
-### [Tutorials - Integration scenarios]
+### Tutorials - Integration scenarios
 #### [Prerequisites](cfs-iot-central-setup.md)
 #### [1 - Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
 #### [2 - Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
