@@ -3,7 +3,7 @@ title: "Configure OAuth2 provider settings for a portal in Dynamics 365 for Cust
 description: "Instructions to add and configure OAuth2 provider settings for a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -147,5 +147,4 @@ Substitute the `[provider]` tag in the site setting name with a specific identit
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)   
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  
-[SAML 2.0 provider settings for portals](configure-saml2-settings.md)  
-[Facebook App (Page Tab) authentication for portals](#facebook-app-page-tab-authentication-for-portals)
+[SAML 2.0 provider settings for portals](configure-saml2-settings.md)
