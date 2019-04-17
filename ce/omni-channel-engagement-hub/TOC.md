@@ -95,7 +95,7 @@
 
 ### [Configure Omni-channel Agent Dashboard](customizer/configure-agent-dashboard.md)
 #### [Step 1: Create Omni-channel Agent Dashboard hosted control](customizer/agent-dashboard-step1-create-hosted-control.md)
-#### [Step 2:  Create action calls related to Omni-channel Agent Dashboard](customizer/agent-dashboard-step2-create-action-calls.md)
+#### [Step 2: Create action calls related to Omni-channel Agent Dashboard](customizer/agent-dashboard-step2-create-action-calls.md)
 #### [Step 3: Attach Omni-channel Agent Dashboard related action Calls to events](customizer/agent-dashboard-step3-attach-action-calls-events.md)
 #### [Step 4: Add the hosted control, action calls, and events to configurations](customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md)
 

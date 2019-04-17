@@ -1,5 +1,5 @@
 ---
-title: "Create an action calls to show the notifications | MicrosoftDocs"
+title: "Create action calls to show the notifications | MicrosoftDocs"
 description: "Learn how to create action calls that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
@@ -12,11 +12,27 @@ ms.topic: article
 ms.assetid: ffd0550b-260d-4f23-bab5-c757a258cac1
 ms.custom: 
 ---
-# Step 4: Create Omni-channel Alert Notification related-action call
+# Step 4: Create Omni-channel Alert Notification related-action calls
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+## Prerequisites 
+
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md) and [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md). The configurations that you completed are required for this topic.
+
+- You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
+
+- You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
+  
+  - [Unified Service Desk Hosted Controls](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk-hosted-controls)  
+  
+  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types, action, and event reference in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
+  
+  - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
+
+## Create action calls
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
@@ -34,12 +50,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General        | Hosted Control | Omni-channel Alert Notification |
  | General        | Action         | Close                           |
 
-5. Save the action call.
+6. Save the action call.
 
-6. Repeat steps 1 through 5 to create the following additional action calls.
- 
+7. Repeat steps 1 through 5 to create the following additional action calls. 
 
-##  Show Simple Chat Request Alert Notification**
+## Show Simple Chat Request Alert Notification**
 
  | Tab            | Field          | Value                           |
  |----------------|----------------|---------------------------------|

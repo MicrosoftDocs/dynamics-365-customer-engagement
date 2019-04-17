@@ -1,5 +1,5 @@
 ---
-title: "Add the action calls to the events | MicrosoftDocs"
+title: "Add the Omni-channel Alert Notification-related action calls to the events | MicrosoftDocs"
 description: "Learn how to add action calls to the events"
 keywords: ""
 author: kabala123
@@ -17,6 +17,20 @@ ms.custom:
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+## Prerequisites 
+
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md), [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md), and [Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md). The configurations that you completed are required for this topic.
+
+- You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
+
+- You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
+  
+  - [Unified Service Desk Hosted Controls](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk-hosted-controls)  
+  
+  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types, action, and event reference in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
+  
+  - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
 ## Attach the action calls to events
 
@@ -36,63 +50,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 8. Repeat steps 4 through 7 to add the following action calls to the corresponding events. 
 
- <table>
-    <tr>
-        <th>Event</th>
-        <th>Action Call</th>
-    </tr>
-    <tr>
-        <td rowspan="11">CreateCustomerSessionEvent</td>
-        <td>CloseUSDPopupNotification</td>
-    </tr>
-    <tr>
-        <td>Expand Right Pane</td>
-    </tr>
-    <tr>
-        <td>Omni-channel Presence Status</td>
-    </tr>
-    <tr>
-        <td>CreateCustomerSession</td>
-    </tr>
-    <tr>
-        <td>OCSessionAccepted</td>
-    </tr>
-    <tr>
-        <td>OCSessionAccepted</td>
-    </tr>
-    <tr>
-        <td>FireSessionTimer</td>
-    </tr>
-    <tr>
-        <td>Load Agent Search Session Page with Condition</td>
-    </tr>
-    <tr>
-        <td>Load Default Agent Script</td>
-    </tr>
-    <tr>
-        <td>Load Agent Session Overview Page</td>
-    </tr>
-    <tr>
-        <td>Focus on Overview</td>
-    </tr>
-    <tr>
-        <td rowspan="2">IncomingRequestRejected</td>
-        <td>CloseUSDPopupNotification</td>
-    </tr>
-    <tr>
-        <td>OCSessionRejected</td>
-    </tr>
-    <tr>
-        <td>TimedOut</td>
-        <td>OCSessionTimeout</td>
-    </tr>
-    <tr>
-        <td>Omni-channel Context Fetch</td>
-        <td>ShowSimpleChatRequestScreenPop</td>
-    </tr>   
- </table>
-
-7. Repeat steps 4 through 6 to add the following other action calls to the event.
+ | Event | Action Call |
+ |------------------------------------------------|--------------------------------------------------------|
+ | CreateCustomerSession | <ul> <li>Close Omni-channel Alert Notification</li> <li>Expand Right Pane</li> <li>Omni-channel Presence Status</li> <li> <li>Create Customer Session</li> <li>Omni-channel Session Accepted</li> <li>Omni-channel Session Rejected</li> <i>Fire Session Timer</li> | <li> Load Agent Search Session Page with Condition </li> <li>Load Default Agent Script</li> <li>Load Agent Session Overview Page</li> <li>Focus on Overview</li>
+ | IncomingRequestRejected | <ul> <li>Close Omni-channel Alert Notification</li> <li>Omni-channel Session Rejected</li> </ul> |
+ | TimedOut | <ul>Omni-channel Session Timeout</ul> |
+ | Omni-channel Context Fetch | <ul>Show Simple Chat Request screenpop</ul> |
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)

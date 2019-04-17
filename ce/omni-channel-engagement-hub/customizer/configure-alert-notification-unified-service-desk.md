@@ -1,6 +1,6 @@
 ---
 title: "Configure alert notifications in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to configure alert notification for agents using Omni-channel Engagement in Unified Service Desk."
+description: "Learn how to configure alert notification for agents using Omni-channel Engagement Hub in Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -18,19 +18,29 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
+## Prerequisites
+
+- You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
+
+- You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
+  
+  - [Unified Service Desk Hosted Controls](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk-hosted-controls)  
+  
+  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types, action, and event reference in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
+  
+  - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
+
 The process of configuring alert notification settings in Unified Service Desk involves multiple steps:
 
 1. Create forms with notifications definition (in Extensible Application Markup Language \[XAML\] format).
 
 2. Create hosted control.
 
-3. Create events.
+3. Create action calls.
 
-4. Create action calls.
+4. Attach the action calls to events.
 
-5. Attach the action calls to events.
-
-6. Add the hosted control, action calls, and events to the agent and supervisor configurations.
+5. Add the hosted control, action calls, and events to the agent and supervisor configurations.
 
 Consider a scenario where you receive an incoming chat conversation request. What is the interaction experience for this incoming chat conversation? You see an alert notification for the incoming conversation request. Therefore, the following events must be created:
 
@@ -46,7 +56,7 @@ You must define an event and attach action calls so that an agent can accept an 
 
 - The notification closes.
 
-- Communication control panel (chat or voice) expands.
+- Communication panel panel (chat or voice) expands.
 
 - Presence status of the agent is updated.
 
