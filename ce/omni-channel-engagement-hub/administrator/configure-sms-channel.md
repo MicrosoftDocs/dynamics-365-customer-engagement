@@ -37,7 +37,7 @@ To sign up for TeleSign:
 
 3.	Get the Customer ID and API key from your TeleSign account. This will need to be provided while setting up SMS channel in Omni-channel Engagement Hub.
 
-4.	You are provided with a callback URL that must be sent to TeleSign at [support@telesign.com](support@telesign.com). This callback URL is specific to your organization. The callback URL is available when adding SMS support for your organization.
+4.	You are provided with a callback URL that must be sent to TeleSign at [support@telesign.com](mailto:support@telesign.com). This callback URL is specific to your organization. The callback URL is available when adding SMS support for your organization.
 
 ## Add SMS support for your organization
 
@@ -55,7 +55,7 @@ To sign up for TeleSign:
     - **Customer ID**: Customer ID generated from the TeleSign account.
     - **API key**: API key generated from the TeleSign account.
 
-7. Copy the value from the **TeleSign inbound URL** field and send it to TeleSign at [support@telesign.com](support@telesign.com).
+7. Copy the value from the **TeleSign inbound URL** field and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com).
 
 8.	Select **Save**.
 
@@ -79,5 +79,5 @@ To sign up for TeleSign:
 
 ### See also
 
-[Understand and create work streams](administrator/work-streams-introduction.md)<br>
-[Create and manage routing rules](administrator/routing-rules.md)
+[Understand and create work streams](work-streams-introduction.md)<br>
+[Create and manage routing rules](routing-rules.md)
