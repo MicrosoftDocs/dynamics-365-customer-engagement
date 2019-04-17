@@ -2,7 +2,7 @@
 title: "Enable LinkedIn Sales Navigator for Dynamics 365 | Microsoft Docs"
 description: "Enable the LinkedIn Sales Navigator for Dynamics 365 capabilities"
 keywords: "installation, setup, sales navigator"
-ms.date: 04/10/2019
+ms.date: 04/17/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -37,7 +37,7 @@ You will need to sign your team up for [LinkedIn Sales Navigator Team](https://b
 > Here are a few things to consider if you don't plan to enable the integration.    
 > 1. Three solutions related to the LinkedIn integration appear in the **All Solutions** view in **Settings** > **Customizations** > **Solutions**. Although these solutions are pre-installed, the functionality and data transfer between the two systems will disabled unless you [enable the Sales Navigator controls](#enable-the-default-sales-navigator-controls). Additionally, **CRM Sync** needs to be explicitly enabled on the LinkedIn Sales Navigator Admin Settings.    
 >    ![List of LinkedIn related solutions](media/solution-list.png)
-> 2. System customizers will see the new LinkedIn controls in Account and Contact form editors. However, their default visibility is turned OFF and end users will not be able to see these controls on the forms unless the feature is enabled by a system administrator. Customizers can remove these controls from the pages as they would remove any control in case they find it too distracting.    
+> 2. System customizers will see the new LinkedIn controls in Account, Contact, Lead, and Opportunity form editors. However, their default visibility is turned OFF and end users will not be able to see these controls on the forms unless the feature is enabled by a system administrator. Customizers can remove these controls from the pages as they would remove any control in case they find it too distracting.    
 >    ![Visibility settings in tab properties](media/visibility-settings.jpg)
 > 3. While using **Advanced Find**, end users see the new entities introduced by these solutions (InMails, Messages, and PointDrive Presentation Viewed) even if the integration is not enabled. This is the intended behavior and users can ignore these entities if they are not actively using the LinkedIn Sales Navigator integration.
 
