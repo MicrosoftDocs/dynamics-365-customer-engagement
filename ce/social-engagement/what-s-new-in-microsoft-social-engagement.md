@@ -34,8 +34,7 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ### Compliance stream for Reddit
 
-When a post or comment on Reddit is removed by the author, it's also removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] databases. 
-If a user decides to delete their Reddit profile, all related comments and threads are deleted in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] too. 
+When a post or comment on Reddit is removed by the author, it's also removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2019 Update 1.2
 
