@@ -27,11 +27,11 @@ In Omni-channel Engagement Hub, you can integrate a bot to start the conversatio
 
 To integrate a bot with Omni-channel Engagement Hub, you must:
 
-1.	Create a bot user
-2.	Create a work stream and context variable
-3.	Create queues
-4.	Creating routing rules
-5.	Create a chat widget
+1.	[Create a bot user](#step-1-create-a-bot-user)
+2.	[Create a work stream and context variable](#step-2-create-a-work-stream-and-context-variable)
+3.	[Create queues](#step-3-create-queues)
+4.	[Creating routing rules](#step-4-creating-routing-rules)
+5.	[Create a chat widget](#step-5-create-a-chat-widget)
 
 ### Step 1: Create a bot user
 
@@ -43,10 +43,15 @@ Creating a bot user is supported in the web-client only. A bot user is created a
 To create a bot user:
 
 1.	Sign in to Dynamics 365 for Customer Engagement app.
+
 2.	Go to **Settings** > **Security**.
+
 3.	Select **Users**.
+
 4.	Change the view to **Application Users**.
+
 5.	Select **New**.
+
 6.	On the **New User** page, enter the following information:
     - **Name**: Name of the bot user.
     - **Application ID**: Application ID of your Dynamics 365 for Customer Engagement app from Azure AD.
@@ -54,13 +59,16 @@ To create a bot user:
     - **Primary Email**: Email of the bot user.
     - **Agent type**: Select Bot.
     - **Bot application ID**: Bot's application ID from Azure AD.
+
 7.	Save the record.
+
 8.	Select **Manage Roles** on the command bar.
+
 9.	In the **Mange User Roles** window, select **Omni-channel agent**, and then select **OK**.
 
 ### Step 2: Create a work stream and context variable
 
-You must create a work stream and the required context variable for the bot handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. You must create a context variable named **BotHandoffTopic**. This context variable will be used in Step 4 when you create routing rules. For information on creating a work stream and context variables, see [Understand and create work streams](work-streams-introduction.md).
+You must create a work stream and the required context variable for the bot handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. You must create a context variable named **BotHandoffTopic**. This context variable will be used in [Step 4](#step-4-creating-routing-rules) when you create routing rules. For information on creating a work stream and context variables, see [Understand and create work streams](work-streams-introduction.md).
 
 > [!NOTE]
 > If you want to use any other context variable, it must be updated in the bot code.
@@ -71,7 +79,7 @@ Queues distribute the incoming customer queries among bots and agents. You must 
 
 ### Step 4: Creating routing rules
 
-Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable (as defined in Step 2).
+Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable (as defined in [Step 2](#step-2-create-a-work-stream-and-context-variable)).
 
 You must set the value of the **BotHandoffTopic** context variable to **Does Not Contain Data** for a bot to engage in a conversation. Set the value of the context variable to any other value as per the requirement to route the conversation to a human agent. You must keep the routing rule that maps to the queue containing a bot user as the first routing rule.
 
@@ -85,23 +93,27 @@ A chat widget lets your customers connect with you in a way that is convenient f
 
 This sample provides exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules will be created. Bot user is added to one queue and agents are added to other two queues. Routing rules are defined in a way that whenever a customer initiates a chat, it will be sent to the bot first and then escalated to a human agent as per the conditions defined in the routing rules .
 
-1.	Follow the instructions in Step 1 to create a bot user.
-2.	Follow the instructions in Step 2 to create a work stream and a context variable named **BotHandoffTopic**. Let's say you created a work stream named **BotWorkStream**.
-3.	Follow the instructions in Step 3 to create three queues as follows:
+1.	Follow the instructions in [Step 1](#step-1-create-a-bot-user) to create a bot user.
+
+2.	Follow the instructions in [Step 2](#step-2-create-a-work-stream-and-context-variable) to create a work stream and a context variable named **BotHandoffTopic**. Let's say you created a work stream named **BotWorkStream**.
+
+3.	Follow the instructions in [Step 3](#step-3-create-queues) to create three queues as follows:
     - **BotQueue**: Add the bot user to this queue.
     - **CreditCardQueue**: Add agents who will handle credit card related queries.
     - **HomeLoanQueue**: Add agents who will handle home loan related queries.
-4.	Follow the instructions in Step 4 to create three routing rules in the **BotWorkStream** work stream in the following order:
-    - **BotRule**: Specify the work stream and queue as BotWorkStream and BotQueue respectively. Add the condition as follows:
+
+4.	Follow the instructions in [Step 4](#step-4-creating-routing-rules) to create three routing rules in the **BotWorkStream** work stream in the following order:
+    - **BotRule**: Specify the work stream and queue as **BotWorkStream** and **BotQueue** respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query to bot](../media/bot-rule.png "Create a rule to send customer query to bot")
-    - **CreditCardRule**: Specify the work stream and queue as BotWorkStream and CreditCardQueue respectively. Add the condition as follows:
+    - **CreditCardRule**: Specify the work stream and queue as **BotWorkStream** and **CreditCardQueue** respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent](../media/credit-card-rule.png "Create a rule to send customer query from bot to an agent")
-    - **HomeLoanRule**: Specify the work stream and queue as BotWorkStream and HomeLoanQueue respectively. Add the condition as follows:
+    - **HomeLoanRule**: Specify the work stream and queue as **BotWorkStream** and **HomeLoanQueue** respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent](../media/home-loan-rule.png "Create a rule to send customer query from bot to an agent")
-5.	Follow the instructions in Step 5 to create a chat widget and specify the work stream as **BotWorkStream**.
+
+5.	Follow the instructions in [Step 5](#step-5-create-a-chat-widget) to create a chat widget and specify the work stream as **BotWorkStream**.
 
 ## Privacy notice
 
