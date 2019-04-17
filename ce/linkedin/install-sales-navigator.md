@@ -33,7 +33,8 @@ You will need to sign your team up for [LinkedIn Sales Navigator Team](https://b
 - You will need to disable your pop-up blocker for the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] domain.
 
 > [!NOTE]
-> In April 2019, we introduced changes to how the Sales Navigator controls are enabled.   
+> In April 2019, we introduced changes to how the Sales Navigator controls are enabled. The out-of-the-box experience provides all features of V1 and V2 LinkedIn Sales Navigator integrations except the profile photo sync feature that comes as part of V2 when CRM Sync is enabled.   
+>    
 > Here are a few things to consider if you don't plan to enable the integration.    
 > 1. Three solutions related to the LinkedIn integration appear in the **All Solutions** view in **Settings** > **Customizations** > **Solutions**. Although these solutions are pre-installed, the functionality and data transfer between the two systems will disabled unless you [enable the Sales Navigator controls](#enable-the-default-sales-navigator-controls). Additionally, **CRM Sync** needs to be explicitly enabled on the LinkedIn Sales Navigator Admin Settings.    
 >    ![List of LinkedIn related solutions](media/solution-list.png)
