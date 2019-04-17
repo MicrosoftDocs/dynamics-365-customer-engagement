@@ -24,11 +24,11 @@ ms.tgt_pltfrm:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 
-Create a professional looking quote PDF from a standard template that your organization uses.
-
+Create and share a professional-looking quote PDF from a standard template that your organization uses.
 
 > [!IMPORTANT]
-> The option to create a PDF and email a quote as a PDF document is only if the administrators have enabled the feature for your organization. If you do not see this option, please talk to your system administrator.
+> The **Create PDF** and **Email as PDF** options are available only if your system administrator has enabled the PDF generation capability for your organization. If you do not see these options, please talk to your system administrator.
+
 
 1.	Open a quote record.
 
