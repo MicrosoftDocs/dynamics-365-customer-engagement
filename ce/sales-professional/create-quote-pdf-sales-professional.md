@@ -2,7 +2,7 @@
 title: "Create a quote PDF (Dynamics 365 for Sales Professional) | MicrosoftDocs"
 description: "Create and share a professional-looking quote PDF with your customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF"
-ms.date: 04/10/2019
+ms.date: 04/17/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -20,7 +20,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ---
 
-# Create a quote PDF
+# Generate a PDF document from a quote record
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 
