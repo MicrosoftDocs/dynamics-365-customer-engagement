@@ -112,7 +112,7 @@
 #### [Step 3: Attach customer summary related action Calls to events](customizer/customer-summary-step3-attach-action-calls-events.md)
 #### [Step 4: Add the hosted control, action calls, and events to Configurations](customizer/customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
 
-### [Configure notifications (screen pops) for agents](customizer/configure-notification-screen-pop-agents.md)
+### [Configure notifications for agents](customizer/configure-notification-screen-pop-agents.md)
 #### [Configure alert notifications in Unified Service Desk](customizer/configure-alert-notification-unified-service-desk.md)
 ##### [Step 1: Create forms to define the layout and behavior of the notification](customizer/alertnotification-step1-create-forms-define-layout-behavior-notification.md)
 ##### [Step 2: Create hosted control](customizer/alertnotification-step2-create-hosted-controls.md)
@@ -131,6 +131,8 @@
 #### [Step 2: Create advanced search related action calls](customizer/advanced-search-step2-create-action-calls.md)
 #### [Step 3: Attach advanced search related action call to events](customizer/advanced-search-step3-attach-action-calls-events.md)
 #### [Step 4: Add hosted control, action calls, and events to configurations](customizer/advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
+
+### [Configure session name information](customizer/configure-sesion-name-information.md)
 
 ## [Developer guide](developer/omni-channel-engagement-hub-developer.md)
 ### [How to]()
