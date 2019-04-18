@@ -28,8 +28,6 @@ Although, the frontend definition is hosted on Dynamics 365 Portal, you can stil
 
 ## Additional project setup
 
-1. To avoid **CORS** errors you need to add your origin in Portals. To do so, go to **Dynamics 365 > Portals > Site Settings** and add a new setting.
-   Insert `HTTP/Access-Control-Allow-Origin` in the name field and the origins that should be allowed in the value field.
 2. You need to bypass the **anti-CSRF** token for local development. To do that, you need to go to **Dynamics 365 > Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`.
 3. Restart the Dynamics 365 Portal website to see the changes.
 
@@ -81,3 +79,18 @@ To manually replace the files in Dynamics 365, follow the steps below:
 > [!div class="nextstepaction"]
 > [Custom Event Portal Localization](event-portal-localization.md)<br /><br />
 > [Build and Host Custom Event Portal](event-management-web-application.md)
+
+### CORS
+If you want to serve the custom event website from a **custom domain** you need to configure CORS to allow that custom domain.
+
+1. Go to **Dynamics 365 > Portals > Site Settings** and add a **new setting**.
+1. Insert `HTTP/Access-Control-Allow-Origin` in the name field.
+1. Select your website (if you did not change the value it is named `Event Portal`)
+1. Add the custom origin that should be allowed. E.g.: If the custom event website is hosted at the custom domain `https://contoso.com/` than the value field must be set to `https://contoso.com/`.
+1. Click on save.
+1. Restart Portals to make sure that the settings are applied.
+
+![A new site setting to allow 'https://contoso.com/' as custom domain.](media/cors-settings-portals.png "A new site setting to allow 'https://contoso.com/' as custom domain.")
+
+> [!NOTE]
+> More information about CORS can be found here: [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) [Access-Control-Allow-Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)
