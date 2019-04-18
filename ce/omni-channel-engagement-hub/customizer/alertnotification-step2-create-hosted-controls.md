@@ -54,13 +54,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 5. Save the hosted control.
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 3: Create events](alertnotification-step3-create-the-events.md)
+> [Next topic: Step 3: Create an action call to display the notification](alertnotification-step3-create-action-call-display-notification.md)
 
 ## See also
 
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
 - [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
-- [Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md)
-- [Step 5: Add the action calls to the events](alertnotification-step5-add-action-calls-events.md)
-- [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+- [Step 4: Add the action calls to the events](alertnotification-step4-add-action-calls-events.md)
+- [Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

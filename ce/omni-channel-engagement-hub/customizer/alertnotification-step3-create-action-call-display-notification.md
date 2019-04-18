@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: ffd0550b-260d-4f23-bab5-c757a258cac1
 ms.custom: 
 ---
-# Step 4: Create Omni-channel Alert Notification related-action calls
+# Step 3: Create Omni-channel Alert Notification related-action calls
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -246,13 +246,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 5: Add the action calls to the events](alertnotification-step5-add-action-calls-events.md)
+> [Next topic: Step 4: Add the action calls to the events](alertnotification-step4-add-action-calls-events.md)
 
 ## See also
 
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
 - [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
 - [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
-- [Step 3: Create events](alertnotification-step3-create-the-events.md)
-- [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+- [Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

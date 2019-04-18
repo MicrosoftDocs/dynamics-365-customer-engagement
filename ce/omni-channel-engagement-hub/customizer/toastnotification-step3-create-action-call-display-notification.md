@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 72569407-76f3-4d44-b598-68c75c4ba64f
 ms.custom: 
 ---
-# Step 4: Create an action call to display the notification 
+# Step 3: Create an action call to display the notification 
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -157,13 +157,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 5: Add the action calls to the events](toastnotification-step5-add-action-calls-events.md)
+> [Next topic: Step 4: Add the action calls to the events](toastnotification-step4-add-action-calls-events.md)
 
 ## See also
 
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
 - [Step 1: Create forms to define layout and behavior of the notification](toastnotification-step1-create-forms-define-layout-behavior-notification.md)
 - [Step 2: Create hosted controls](toastnotification-step2-create-hosted-controls.md)
-- [Step 3: Create events](toastnotification-step3-create-the-events.md)
-- [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](toastnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+- [Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)

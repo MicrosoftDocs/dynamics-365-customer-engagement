@@ -111,3 +111,4 @@ This topic describes how to create a communication panel hosted control in Unifi
 - [Step 3:  Create action calls related to communication panel](communication-panel-step3-create-action-calls.md)
 - [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md)
 - [Step 5: Add hosted control, action calls, and events to configurations](communication-panel-step5-add-hosted-control-action-calls-events-configurations.md)
+4. Select **Entity Searches** and select **+ New**.

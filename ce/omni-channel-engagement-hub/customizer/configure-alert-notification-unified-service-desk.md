@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: db796d02-2286-407d-a8c2-60dec859cee0
@@ -97,7 +97,6 @@ You must define an event and an action call when an agent does not act in a stip
 
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
 - [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
-- [Step 3: Create events](alertnotification-step3-create-the-events.md)
 - [Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md)
 - [Step 5: Add the action calls to the events](alertnotification-step5-add-action-calls-events.md)
 - [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
