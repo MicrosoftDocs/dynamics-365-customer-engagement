@@ -54,6 +54,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
 - [Step 1: Create forms to define layout and behavior of the notification](toastnotification-step1-create-forms-define-layout-behavior-notification.md)
 - [Step 2: Create hosted controls](toastnotification-step2-create-hosted-controls.md)
-- [Step 3: Create an action call to display the notification](toastnotification-step4-create-action-call-display-notification.md)
+- [Step 3: Create an action call to display the notification](toastnotification-step3-create-action-call-display-notification.md)
 - [Step 4: Add the action calls to the events](toastnotification-step4-add-action-calls-events.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
