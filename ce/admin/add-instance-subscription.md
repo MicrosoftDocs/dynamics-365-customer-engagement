@@ -2,7 +2,7 @@
 title: "Add an instance to your subscription of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 04/15/2019
+ms.date: 04/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -25,9 +25,6 @@ search.app:
 # Add an instance to your subscription
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-> [!IMPORTANT]
-> We are working to update the process for adding instances (environments) to your subscription. Check back for content updates.
 
 You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps subscription. Each new instance creates a separate organization that can be used by different departments, locations, or for non-production purposes such as development. For more information on the instance types available to you, see [Microsoft Dynamics 365 for Customer Engagement apps pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=615167).   
   
@@ -74,9 +71,6 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
   
 
 ### Step 1: Purchase the additional instance  
-
-> [!IMPORTANT]
-> If you want to provision a new environment for the [Power Platform Admin center](https://admin.powerplatform.microsoft.com), for now, you should skip this step and instead [contact support](https://docs.microsoft.com/power-platform/admin/get-help-support). Then, follow the steps beginning with Step 2.
   
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator. In the navigation pane, click **Billing** > **Purchase Services**.  
   
