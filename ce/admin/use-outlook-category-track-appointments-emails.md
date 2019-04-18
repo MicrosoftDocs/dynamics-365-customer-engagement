@@ -34,7 +34,7 @@ You can also select multiple items and assign the **Tracked to Dynamics 365** Ou
 As of Dynamics 365 for Customer Engagement version 9.1.0.4039 or higher, category tracking is on by default.
 
 > [!TIP]
-> To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right side of the screen, click the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
+> To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right side of the screen, select the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
 
 ## Use category to track Outlook items
 Once the **Tracked to Dynamics 365** category is available in Outlook, you can use it to track the following Outlook items.
@@ -109,7 +109,7 @@ By default, failed auto tracked emails will be retried in a new synchronization 
 - Promotion of emails fail because of timeouts from either Customer Engagement or Microsoft Exchange
 - An email is rejected with InvalidSender or because of some unknown decisions
 
-After 5 retries, if the failure to promote the email was due to a plugin error, try fixing the plugin. Then, assign the “Track to Dynamics 365” category to manually track the undelivered emails to get them tracked in Customer Engagement. 
+After 5 retries, if the failure to promote the email was due to a plugin error, try fixing the plugin. Then, assign the **Track to Dynamics 365** category to manually track the undelivered emails to get them tracked in Customer Engagement. 
 
 **How do I remove category-based tracking through OrgDBOrgSetting?** <br/>
 To disable the special **Tracked to Dynamics 365** Outlook category, you need to enable the OrgDBOrgSetting in your Dynamics 365 for Customer Engagement apps organization. Dynamics 365 for Customer Engagement apps provides the OrgDBOrgSettings tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
