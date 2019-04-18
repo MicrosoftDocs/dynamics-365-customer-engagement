@@ -268,34 +268,10 @@ This topic demonstrates how to create communication panel-related action calls i
     | Tab | Field | Value |
     |------------------|------------------|------------------|
     | General | Name           | Omni-channel Incoming Session Request  |
-    | General | Order | 17 |    
+    | General | Order | 17 |
     | General | Hosted Control | Communication Panel |
-    | General | Action         | OmnichannelIncomingSessionRequest | 
-    | General | Data | ChatPayLoad=\[\[PostData\]\] |         
-
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Show Chat Transfer Request Alert Notification  |
-    | General | Hosted Control | Omni-channel Alert Notification |
-    | General | Action         | Show | 
-    | General | Data | formname=ChatTransferRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> cid=\[\[ConversationId\]+\] <br> showWarning=\[\[showWarning\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> CanActivateSession=\[\[CanActivateSession\]+\] <br> SessionTabId=\[\[SessionTabId\]+\] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
-    | Advanced | Condition | \[\[RequestType\]\] == "3" && "\[\[ParticipantInitiatorType\]+\]" != "AutoAssign" |
-
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Show Consult Request Alert Notification  |
-    | General | Hosted Control | Omni-channel Alert Notification |
-    | General | Action         | Show | 
-    | General | Data | formname=ConsultRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> showWarning=\[\[showWarning\]+\] <br> stackHeight=100 <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> CanActivateSession=\[\[CanActivateSession\]+\] <br> SessionTabId=\[\[SessionTabId\]+\] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
-    | Advanced | Condition | \[\[RequestType\]\] == "2" |
-
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Show Simple Chat Request Alert Notification  |
-    | General | Hosted Control | Omni-channel Alert Notification |
-    | General | Action         | Show | 
-    | General | Data | formname=SimpleChatRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> showWarning=\[\[showWarning\]+\] <br> channelIcon=\[\[channelIcon\]+\] <br> channelName=\[\[channelName\]+\] <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> CanActivateSession=\[\[CanActivateSession\]+\] <br> SessionTabId=\[\[SessionTabId\]+\] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
-    | Advanced | Condition | (\[\[RequestType\]\] == "1" && "\[\[ParticipantInitiatorType\]+\]" != "Supervisor") || (\[\[RequestType\]\] == "3" && "\[\[ParticipantInitiatorType\]+\]" == "AutoAssign") |
+    | General | Action         | OmnichannelIncomingSessionRequest |
+    | General | Data | ChatPayLoad=\[\[PostData\]\] |
 
     | Tab | Field | Value |
     |------------------|------------------|------------------|
@@ -309,7 +285,7 @@ This topic demonstrates how to create communication panel-related action calls i
     |------------------|------------------|------------------|
     | General | Name           | Load Supervisor Dashboard  |
     | General | Hosted Control | Supervisor Dashboard |
-    | General | Action         | Navigate | 
+    | General | Action         | Navigate |
     | General | Data | url=https://app.powerbi.com/groups/615cd3a0-1220-4a6e-b611-45b88532bfdf/dashboards/1dfe8823-0e81-4f23-a81d-8bb1069ea059?chromeless=1&nosignupcheck=1 |
 
     | Tab | Field | Value |

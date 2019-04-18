@@ -54,7 +54,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 7. Repeat steps 1 through 5 to create the following additional action calls. 
 
-## Show Simple Chat Request Alert Notification**
+## Show Simple Chat Request Alert Notification
 
  | Tab            | Field          | Value                           |
  |----------------|----------------|---------------------------------|
@@ -63,6 +63,26 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General        | Action         | Show               |
  | General        | Data           | formname=SimpleChatRequestPopUpForm <br>  top=10 <br> left=98 <br> timeout=120 <br> stack=true <br> stackHeight=50 <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> position=absolute <br> isAccept=TRUE <br> isReject=TRUE |
  | Advanced        | Condition | /[/[RequestType/]/] == "1"< |
+
+## Show Chat Transfer Request Alert Notification
+
+ | Tab | Field | Value |
+ |------------------|------------------|------------------|
+ | General | Name           | Show Chat Transfer Request Alert Notification  |
+ | General | Hosted Control | Omni-channel Alert Notification |
+ | General | Action         | Show | 
+ | General | Data | formname=ChatTransferRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> cid=\[\[ConversationId\]+\] <br> showWarning=\[\[showWarning\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> CanActivateSession=\[\[CanActivateSession\]+\] <br> SessionTabId=\[\[SessionTabId\]+\] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
+  | Advanced | Condition | \[\[RequestType\]\] == "3" && "\[\[ParticipantInitiatorType\]+\]" != "AutoAssign" |
+
+## Show Consult Request Alert Notification
+
+  | Tab | Field | Value |
+  |------------------|------------------|------------------|
+  | General | Name           | Show Consult Request Alert Notification  |
+  | General | Hosted Control | Omni-channel Alert Notification |
+  | General | Action         | Show | 
+  | General | Data | formname=ConsultRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> showWarning=\[\[showWarning\]+\] <br> stackHeight=100 <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> CanActivateSession=\[\[CanActivateSession\]+\] <br> SessionTabId=\[\[SessionTabId\]+\] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
+  | Advanced | Condition | \[\[RequestType\]\] == "2" |
 
 ## Expand Right Pane**
 
