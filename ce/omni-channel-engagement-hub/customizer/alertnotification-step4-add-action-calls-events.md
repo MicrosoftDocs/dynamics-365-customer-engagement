@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 90690d1d-906e-48a0-b6c8-1ba8d491f2b0
 ms.custom: 
 ---
-# Step 5: Add the action calls to the events
+# Step 4: Add the action calls to the events
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -58,13 +58,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | OmnichannelContextFetch | <ul> <li>Show Chat Transfer Request Alert Notification </li> <li>Show Consult Request Alert Notification</li> <li>Show Simple Chat Request Alert Notification</li> <li>Show Simple Chat Request From Supervisor Alert Notification</li>  |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+> [Next topic: Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
 ## See also
 
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
 - [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
 - [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
-- [Step 3: Create events](alertnotification-step3-create-the-events.md)
 - [Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

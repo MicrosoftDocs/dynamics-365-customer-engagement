@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 8255005a-2089-4795-a95d-d50d9fd19523
 ms.custom: 
 ---
-# Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations
+# Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -42,6 +42,5 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
 - [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
 - [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
-- [Step 3: Create events](alertnotification-step3-create-the-events.md)
-- [Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md)
-- [Step 5: Add the action calls to the events](alertnotification-step5-add-action-calls-events.md)
+- [Step 3: Create an action call to display the notification](alertnotification-step3-create-action-call-display-notification.md)
+- [Step 4: Add the action calls to the events](alertnotification-step4-add-action-calls-events.md)

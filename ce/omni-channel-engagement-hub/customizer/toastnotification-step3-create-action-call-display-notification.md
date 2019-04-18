@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 72569407-76f3-4d44-b598-68c75c4ba64f
 ms.custom: 
 ---
-# Step 4: Create an action call to display the notification 
+# Step 3: Create an action call to display the notification 
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

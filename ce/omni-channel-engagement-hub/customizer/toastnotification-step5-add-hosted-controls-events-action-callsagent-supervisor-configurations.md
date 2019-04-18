@@ -13,7 +13,7 @@ ms.assetid: 39fa4483-8b31-4a42-99b3-1f46b62767d8
 ms.custom: 
 ---
 
-# Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations 
+# Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations 
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

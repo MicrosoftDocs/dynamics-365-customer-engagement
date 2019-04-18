@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 68d5f710-90f4-4dcc-abd3-a7c0bf6389c3
 ms.custom: 
 ---
-# Step 5: Add the action calls to the events 
+# Step 4: Add the action calls to the events 
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
