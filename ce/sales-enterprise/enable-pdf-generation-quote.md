@@ -37,4 +37,4 @@ To allow your users to generate PDFs directly from a quote, you must enable PDF 
 
 ### See also
 
-[Create a quote PDF](create-quote-pdf.md)
+[Generate a PDF document from a quote record](create-quote-pdf.md)
