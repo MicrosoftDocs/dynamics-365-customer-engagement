@@ -22,9 +22,10 @@ This topic describes how to attach Omni-channel Agent Dashboard-related action c
 
 ## Prerequisites
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create Omni-channel Agent Dashboard hosted control](agent -dashboard-step1-create-hosted-control.md), and [Step 2:  Create action calls related to Omni-channel Agent Dashboard](agent -dashboard-step2-create-action-calls.md). The configurations that you completed are required for this topic.
 
 - You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
+
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create Omni-channel Agent Dashboard hosted control](agent -dashboard-step1-create-hosted-control.md), and [Step 2:  Create action calls related to Omni-channel Agent Dashboard](agent -dashboard-step2-create-action-calls.md). The configurations that you completed are required for this topic.
 
 - You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
   
