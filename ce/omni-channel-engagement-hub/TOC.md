@@ -100,11 +100,11 @@
 #### [Step 4: Add the hosted control, action calls, and events to configurations](customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md)
 
 ### [Configure communication panel for agents](customizer/configure-communication-panel.md)
-### [Step 1: Create entity searches](customizer/communication-panel-step1-create-entity-searches.md)
-#### [Step 1: Create communication panel hosted control](customizer/communication-panel-step1-create-hosted-control.md)
-#### [Step 2: Create communication related action calls](customizer/communication-panel-step2-create-action-calls.md)
-#### [Step 3: Attach the Action Calls to Events](customizer/communication-panel-step3-attach-action-calls-events.md)
-#### [Step 4: Add hosted control, action calls, and events to configurations](customizer/communication-panel-step4-add-hosted-control-action-calls-events-configurations.md)
+#### [Step 1: Create entity searches](customizer/communication-panel-step1-create-entity-searches.md)
+#### [Step 2: Create communication panel hosted control](customizer/communication-panel-step2-create-hosted-control.md)
+#### [Step 3: Create communication related action calls](customizer/communication-panel-step3-create-action-calls.md)
+#### [Step 4: Attach the Action Calls to Events](customizer/communication-panel-step4-attach-action-calls-events.md)
+#### [Step 5: Add hosted control, action calls, and events to configurations](customizer/communication-panel-step5-add-hosted-control-action-calls-events-configurations.md)
 
 ### [Configure customer summary](customizer/configure-customer-summary.md)
 #### [Step 1: Create customer summary hosted control](customizer/customer-summary-step1-create-hosted-control.md)

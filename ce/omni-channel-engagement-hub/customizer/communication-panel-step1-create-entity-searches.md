@@ -41,3 +41,73 @@ This topic describes how to create a communication panel hosted control in Unifi
 3. Select **Unified Service Desk Administrator**.
 
 4. Select **Entity Searches** and select **+ New**.
+
+5. On the page for new entity searches, specify the following:
+
+     | Field   | Value  |
+     |---------|--------|
+     | Name    | LiveWorkStreamSearch |
+     | Entity   | incident |
+     | Markup  | Copy and paste the XML content as shown below  |
+
+```XML
+<fetch mapping="logical" output-format="xml-platform" version="1.0" distinct="false">
+ <entity name="msdyn_liveworkstream">
+ <attribute name="msdyn_capacityrequired" />
+ <attribute name="msdyn_fallbacklanguage" />
+ <attribute name="msdyn_liveworkstreamid" />
+ <attribute name="msdyn_name" />
+ <attribute name="msdyn_streamsource" />
+ <attribute name="msdyn_workdistributionmode" />
+ </entity>
+</fetch>
+```
+
+6. Save the hosted control.
+
+
+## ServiceEndPointSearch
+
+1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
+
+2. Select the Down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Entity Searches** and select **+ New**.
+
+5. On the page for new entity searches, specify the following:
+
+     | Field   | Value  |
+     |---------|--------|
+     | Name    | ServiceEndPointSearch |
+     | Entity   | incident |
+     | Markup  | Copy and paste the XML content as shown below  |
+
+```XML
+<fetch mapping="logical" output-format="xml-platform" version="1.0" distinct="false">
+ <entity name="serviceendpoint">
+ <attribute name="path" />
+ <attribute name="description" />
+ <attribute name="solutionnamespace" />
+ <filter type="or">
+ <condition attribute="serviceendpointid" operator="eq" value="8af92c33-e748-4b5a-b772-46cba89bb7ac">
+ </condition>
+<condition attribute="serviceendpointid" operator="eq" value="38bd8b51-de34-4c45-bf43-5a913aeec49f">
+ </condition>
+ </filter>
+ </entity>
+</fetch>
+```
+
+6. Save the hosted control. 
+
+
+> [!div class="nextstepaction"]
+> [Next topic: Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md)
+
+## See also
+
+- [Step 3:  Create action calls related to communication panel](communication-panel-step3-create-action-calls.md)
+- [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md)
+- [Step 5: Add hosted control, action calls, and events to configurations](communication-panel-step5-add-hosted-control-action-calls-events-configurations.md)
