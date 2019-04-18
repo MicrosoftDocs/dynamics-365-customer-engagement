@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how to create a Omni-channel Agent Dashboard hosted control in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
+This topic describes how to create an Omni-channel Agent Dashboard hosted control in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites 
 
@@ -66,4 +66,4 @@ This topic describes how to create a Omni-channel Agent Dashboard hosted control
 ## See also
 
 - [Step 3: Attach Omni-channel Agent Dashboard-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md)
-- [Step 4: Add hosted control, action calls, and events to configurations](agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md)
+- [Step 4: Add hosted controls, action calls, and events to configurations](agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md)
