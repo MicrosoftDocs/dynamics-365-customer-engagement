@@ -1,18 +1,19 @@
 ---
-title: "Create hosted control | MicrosoftDocs"
-description: "Learn how to create toast notification hosted controls for agents using Omni-channel Engagement Hub in Unified Service Desk."
+title: "Add the hosted controls, events, and action calls to the agent and supervisor configurations | MicrosoftDocs"
+description: "Learn how to add the hosted controls, events, action calls to the agent and supervisor configurations in Omni-channel Engagement Hub - Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 65f042a2-c96d-4548-89c9-b54f849de788
+ms.assetid: 39fa4483-8b31-4a42-99b3-1f46b62767d8
 ms.custom: 
 ---
-# Step 2: Create hosted control
+
+# Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations 
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -22,8 +23,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 - You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
-
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) and [Step 1: Create forms to define notification layout](toastnotification-step1-create-forms-define-layout-behavior-notification.md). The configurations that you completed are required for this topic.
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create forms to define notification layout](toastnotification-step1-create-forms-define-layout-behavior-notification.md) [Step 2: Create hosted controls](toastnotification-step2-create-hosted-controls.md), [Step 3: Create an action call to display the notification](toastnotification-step3-create-action-call-display-notification.md), and [Step 4: Add the action calls to the events](toastnotification-step4-add-action-calls-events.md). The configurations that you completed are required for this topic.
 
 - You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
   
@@ -33,36 +33,27 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-## Create hosted control
+1.  Sign in to Microsoft Dynamics 365 for Customer Engagement instance. 
 
-1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
+2.  Go to **Settings** > **Unified Service Desk** > **Configuration**. 
 
-2. Select the Down arrow next to Dynamics 365.
+3.  Select the configuration from the list. 
 
-3. Select **Unified Service Desk Administrator**.
+4.  On the nav bar, select the down arrow next to Configuration, and select **Action Calls**. 
 
-4. Select **Hosted Controls** and select **+ New**.
+5.  On the next page, select **Add Existing Action Call**, type the name of the action in the search bar, and then press ENTER or select the search icon.
 
-5. On the page for the new hosted control, specify the following. 
+6.  Add the Action calls that are displayed in the search results. 
 
-    | Field                                | Value                            |
-    |--------------------------------------|----------------------------------|
-    | Name                                 | Omni-channel Toast Notification  |
-    | Unified Service Desk Component Type  | Popup Notification               |
-    | Application is Global                | Select the checkbox              |
+7.  Similarly, add the hosted controls and the events by selecting the down arrow next to Configuration, and selecting Hosted Controls and Events, respectively. 
 
- > [!div class=mx-imgBorder] 
- > ![Omni-channel toast notification hosted control](../media/oc-usd-toastnotification-hostedcontrol.png "Omni-channel toast notification hosted control")
-
-5. Save the form.
-
-> [!div class="nextstepaction"]
-> [Next topic: Step 3: Create an action call to display the notification](toastnotification-step3-create-action-call-display-notification.md)
+8.  Select **Save**.
 
 ## See also
 
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
 - [Step 1: Create forms to define layout and behavior of the notification](toastnotification-step1-create-forms-define-layout-behavior-notification.md)
+- [Step 2: Create hosted controls](toastnotification-step2-create-hosted-controls.md)
+- [Step 3: Create an action call to display the notification](toastnotification-step3-create-action-call-display-notification.md)
 - [Step 4: Add the action calls to the events](toastnotification-step4-add-action-calls-events.md)
-- [Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
