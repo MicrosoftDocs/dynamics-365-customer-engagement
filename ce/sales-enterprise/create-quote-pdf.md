@@ -59,11 +59,11 @@ You can also generate a PDF document and directly email it to a customer.
 
     |Field             |	Populated with                                 |
     |------------------|-------------------------------------------------|  
-    |To                |	Potential customer of the quote                |
-    |From	             |  Current user                                   |
-    |Attachments       |	The generated PDF, added as attachment         |
-    |Regarding	       |  Quote record from which the email was triggered| 
-    |Subject	         |  Quote title                                    |
+    |**To**                |	Potential customer of the quote                |
+    |**From**	             |  Current user                                   |
+    |**Attachments**       |	The generated PDF, added as attachment         |
+    |**Regarding**	       |  Quote record from which the email was triggered| 
+    |**Subject**	         |  Quote title                                    |
 
 3.	Verify and change any details in the email form, and select **Send**.
 
