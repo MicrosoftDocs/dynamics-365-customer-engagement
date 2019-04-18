@@ -62,9 +62,9 @@ If your customer has accepted your proposal, congratulations! However, whether y
 
 For information on how to resolve the common errors that you may see while you close an opportunity, see the [troubleshooting guide](troubleshooting.md).
 
-## Reopen a close opportunity
+## Reopen a closed opportunity
 
-If you've closen an opportunity as lost, but would like to start discussions about a potential sales, you may want to reopen a closed opportunity.
+If you've closed an opportunity as lost, but would like to start discussions about a potential sales, you may want to reopen a closed opportunity.
 
 1. If you're using the Sales Hub app, in the site map, select **Opportunities**. 
    
