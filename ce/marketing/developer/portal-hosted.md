@@ -27,13 +27,6 @@ Although, the frontend definition is hosted on Dynamics 365 Portal, you can stil
 ![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
 
 ## Additional project setup
-
-2. You need to bypass the **anti-CSRF** token for local development. To do that, you need to go to **Dynamics 365 > Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`.
-3. Restart the Dynamics 365 Portal website to see the changes.
-
-> [!NOTE]
-> The **PortalAPI** web template is added by default when you install the Event Management data.
-
 ### Environment configuration for portal hosted
 
 1. Duplicate the `environment.d365.ts` configuration file (located in `\src\environments`) and name it `environment.ts`.
@@ -46,7 +39,13 @@ Although, the frontend definition is hosted on Dynamics 365 Portal, you can stil
 1. Make sure that the `useRestStack` variable is set to false.
 
 ### Local Development
+#### Bypass CSRF
+You need to bypass the **anti-CSRF** token for local development. To do that, you need to go to **Dynamics 365 > Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`. Restart Portals to make sure that the settings are applied.
 
+> [!NOTE]
+> The **PortalAPI** web template is added by default when you install the Event Management data.
+
+#### Serving page locally
 In order to serve the application locally you need to follow the steps below:
 
 1.	Run `npm install` to make sure all the dependencies are installed and are up-to-date.
