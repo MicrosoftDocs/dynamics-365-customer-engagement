@@ -32,8 +32,8 @@ search.app:
 The Organization Insights dashboard is now deprecated. To view metrics, go to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) and select **Analytics**.
   
 ### See also  
-[Common Data Service analytics](https://docs.microsoft.com/power-platform/admin/analytics-common-data-service)
-[Admin Analytics for PowerApps](https://docs.microsoft.com/power-platform/admin/analytics-powerapps)
-[Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)  
+[Common Data Service analytics](https://docs.microsoft.com/power-platform/admin/analytics-common-data-service) <br />
+[Admin Analytics for PowerApps](https://docs.microsoft.com/power-platform/admin/analytics-powerapps) <br />
+[Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md) <br />
 [Developer Guide for Dynamics 365 for Customer Engagement](../developer/developer-guide.md)
 

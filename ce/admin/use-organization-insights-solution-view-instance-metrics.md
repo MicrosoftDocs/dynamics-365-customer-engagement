@@ -26,5 +26,5 @@ search.app:
 The Organization Insights solution is now deprecated. To view metrics, go to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) and select **Analytics**.
 
 ### See also  
-[Common Data Service analytics](https://docs.microsoft.com/power-platform/admin/analytics-common-data-service)
+[Common Data Service analytics](https://docs.microsoft.com/power-platform/admin/analytics-common-data-service) <br />
 [Admin Analytics for PowerApps](https://docs.microsoft.com/power-platform/admin/analytics-powerapps)
