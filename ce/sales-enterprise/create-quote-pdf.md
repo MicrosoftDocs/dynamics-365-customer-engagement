@@ -22,11 +22,11 @@ caps.latest.revision: 58
 topic-status: Drafting
 ---
 
-# Create a quote PDF document
+# Generate a PDF document from a quote record
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 
-Create and share a professional-looking quote PDF document from a standard template that your organization uses.
+Create and share a professional-looking quote by generating a PDF document from a quote record using a standard template from your organization.
 
 
 > [!IMPORTANT]
@@ -41,7 +41,7 @@ Create and share a professional-looking quote PDF document from a standard templ
     A PDF document using the selected template is downloaded to your computer. You can add this document to a note, send it as an attachment in email, or upload it to SharePoint.
 
     > [!TIP]
-    > To learn more about using Word templates, see [Use Word templates to create standardized documents](../admin/using-word-templates-dynamics-365.md) 
+    > To learn more about using Word templates, see [Use Word templates to create standardized documents](../admin/using-word-templates-dynamics-365.md). 
 
 ## Email as a PDF document
 
@@ -55,7 +55,7 @@ You can also generate a PDF document and directly email it to a customer.
 
     An email form opens. 
     
-    The following information is automatically populated:
+    The following information is automatically populated.
 
     |Field             |	Populated with                                 |
     |------------------|-------------------------------------------------|  
