@@ -76,7 +76,7 @@ For an incoming engagement request, the system links an existing case to engagem
 This section displays recent cases that relate to the customer.
 
 > [!div class='mx-imgBorder']
-> ![Recent cases section in the customer summary form](../../media/customer-summary-recent-cases.PNG "Recent cases section in the customer summary form")
+> ![Recent cases section in the customer summary form](../../media/customer-summary-recent-cases.png "Recent cases section in the customer summary form")
 
 ### Recent activities
 
