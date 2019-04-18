@@ -35,4 +35,55 @@ The topic describes how to configure scripts using scriplets to define case and 
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-## Create scriptlets
+## Configure scriptlets
+
+1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
+
+2. Select the Down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Scriptlets** and then select **+ New**.
+
+5. In the new page, specify the following for **ResoleCaseTitle**.
+
+    | Tab           | Field             | Value              |
+    |---------------|-------------------|--------------------|
+    | General | Name | ResolveCaseTitle |
+    | General | Script Text | function ResolveCaseNameTitle() { <br>  if ("\[\[incident.title\]+\]" != "") { <br>    return "\[\[incident.title\]+\]"; <br>  } <br>  else <br>    return "\[\[$Resources.ResolveCaseTitleScriptletDefaultText\]\]"; <br>  } <br> ResolveCaseNameTitle(); |
+
+6. Specify the following for **ResolveChannelTitle**. 
+
+    | Tab           | Field             | Value              |
+    |---------------|-------------------|--------------------|
+    | General | Name | ResolveChannelTitle |
+    | General | Script Text | function GetChannelIdRequestMessage() {  <br> var channelName = "\[\[channelName\]+\]"; <br> var resString = "\[\[$Resources.ChatRequestTitle\]\]";  <br> if(channelName == "SMS") { <br> resString = "\[\[$Resources.SMSRequestTitle\]\]"; <br> } <br> return resString;  <br>  }  <br> GetChannelIdRequestMessage(); |
+   
+7. Save the session name information.
+
+## Add the session name information to configuration
+
+1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
+
+2. Select the Down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**
+
+4. Select **Configuration** and then select a configuration from the list.
+
+5. Select the **Session Lines, Agent Scripts, and Scriplets** tab.
+
+6. In the **Scriptlets** section, select the more commands (...), select **Add Existing Session Scriptlets**, type the name of the **Scriptlets** in the search box, and then press **Enter** or select the search icon.
+
+7. Select the scriptlet from the search results and select **Add**.
+
+8. When you've finished, select **Save**.
+
+## See also
+
+- [Configure Omni-channel Agent Dashboard](configure-agent-dashboard.md)
+- [Configure notifications for agents](configure-notification-screen-pop-agents.md)
+- [Configure customer summary](configure-customer-summary.md)
+- [Configure communication panel for agents](configure-communication-panel.md)
+- [Configure advanced search](configure-advanced-search.md)
+- [Configure session name information using session lines](configure-sesion-name-information.md)
