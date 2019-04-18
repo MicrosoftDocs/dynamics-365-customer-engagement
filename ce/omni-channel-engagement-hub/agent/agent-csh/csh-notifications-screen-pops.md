@@ -1,12 +1,12 @@
 ---
-title: "Notification ans screen pop for agents working in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn about the notifications and its types. Agents will see the nofications and screen pop in Omni-channel Engagement Hub."
+title: "Notification and screen pop for agents working in Omni-channel Engagement Hub | MicrosoftDocs"
+description: "Learn about notifications and their types. Agents will see nofications and screen pops in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 4/18/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6043F127-BF47-4F97-8D1E-319B1D578D8A
@@ -45,7 +45,7 @@ There are two types of notifications:
 
 A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. If you select the notification, the associated session or application opens.
 
-Toast notifications or floating notifications appear for SMS, email, chat, and voice scenarios. Also, it appears for conversation (work item) assignment, conversation escalation, and conversation transfer scenarios. This kind of notification might have buttons that require action from you, depending on your business requirements.
+Toast notifications or floating notifications appear for SMS, email, chat, and voice scenarios. Also, they appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios. This kind of notification might have buttons that require action from you, depending on your business requirements.
 
 ### Alert notifications
 
