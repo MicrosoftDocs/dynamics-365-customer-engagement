@@ -134,6 +134,7 @@ Use a keyboard shortcut to see the list of agents and/or the supervisor who is a
 
 Use a keyboard shortcut to see the list of queues to transfer the conversation request. Press the forward slash (/) key and the letters T and Q (**/TQ**).
 
+
 ![Transfer agent list](../../media/csh-cc-transfer-agent-list.png "transfer agent list") ![Transfer queue list](../../media/csh-cc-transfer-queue-list.png "Transfer queue list")
 
 **/T** (forward slash, letter T) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/T** shortcut keeps the focus on the Agent tab whereas the **/TQ** shortcut keeps the focus on the Queue tab.
