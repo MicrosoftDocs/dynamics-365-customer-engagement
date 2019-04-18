@@ -112,7 +112,7 @@ If you categorize a conversation thread as **Tracked to Dynamics 365**, all the 
 **Can I assign Tracked to Dynamics 365 category to recurring appointments?**<br />
 If you categorize a recurring appointment as **Tracked to Dynamics 365**, all the individual instances of the appointment are assigned the category and will be tracked.
 
-**What happens when a Track of email fails?**
+**What happens when a Track of email fails?**<br/>
 By default, failed auto tracked emails will be retried in a new synchronization cycle – approximately every 15 minutes. Retries will be done up to 5 times. If the retries fail after 5 attempts, the email will be assigned the category “Tracked to Dynamics 365 (Undeliverable)” and no further retries will occur. Auto tracked emails which fail with the following errors will be retried:
 
 - Promotion of emails fail due to a plugin configured in the customer environment
@@ -121,7 +121,7 @@ By default, failed auto tracked emails will be retried in a new synchronization 
 
 After 5 retries, if the failure to promote the email was due to a plugin error, try fixing the plugin. Then, assign the “Track to Dynamics 365” category to manually track the undelivered emails to get them tracked in Customer Engagement. 
 
-**How do I remove category-based tracking through OrgDBOrgSetting?** 
+**How do I remove category-based tracking through OrgDBOrgSetting?** <br/>
 To disable the special **Tracked to Dynamics 365** Outlook category, you need to enable the OrgDBOrgSetting in your Dynamics 365 for Customer Engagement apps organization. Dynamics 365 for Customer Engagement apps provides the OrgDBOrgSettings tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
 
 1. Follow the instructions [in this article](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool.
