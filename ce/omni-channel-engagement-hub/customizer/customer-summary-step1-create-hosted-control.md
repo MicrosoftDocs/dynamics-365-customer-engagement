@@ -1,6 +1,6 @@
 ---
 title: "Steps or procedure to configure customer summary page for agents | MicrosoftDocs"
-description: "Learn how to set up the customer summary hosted control for agents using Omni-channel Engagement Hub."
+description: "Learn how to create the customer summary hosted control for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi

@@ -175,15 +175,6 @@ This topic demonstrates how to create communication panel-related action calls i
 
     | Tab | Field | Value |
     |------------------|------------------|------------------|
-    | General | Name           | Show Session Error Toast Notification   |
-    | General | Order | 10 |
-    | General | Hosted Control | Omni-channel Toast Notification |
-    | General | Action         | Show | 
-    | General | Data | formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> stack=true <br> stackHeight=56 <br> placementmode=absolute <br> ToastNotificationText=\[\[$Resources.SessionErrorToastNotificationText\]+\] <br> NotificationIcon=new_omni_toast_error_icon |
-    | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] >= \[\[$Global.maxNumberOfSessions\]+\] && '\[\[CanActivateSession\]+\]' != 'True' |
-
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
     | General | Name           | Set Entity Session Property in Context   |
     | General | Order | 11 |
     | General | Hosted Control | CRM Global Manager |
