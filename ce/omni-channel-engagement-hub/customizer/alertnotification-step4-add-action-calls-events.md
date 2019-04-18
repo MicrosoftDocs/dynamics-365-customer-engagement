@@ -20,7 +20,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 ## Prerequisites 
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md), [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md), and [Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md). The configurations that you completed are required for this topic.
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md), [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md), and [Step 3: Create an action call to display the notification](alertnotification-step3-create-action-call-display-notification.md). The configurations that you completed are required for this topic.
 
 - You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
@@ -65,5 +65,5 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
 - [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
 - [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
-- [Step 4: Create an action call to display the notification](alertnotification-step4-create-action-call-display-notification.md)
+- [Step 3: Create an action call to display the notification](alertnotification-step3-create-action-call-display-notification.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
