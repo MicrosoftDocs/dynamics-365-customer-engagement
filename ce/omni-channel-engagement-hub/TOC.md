@@ -100,6 +100,7 @@
 #### [Step 4: Add the hosted control, action calls, and events to configurations](customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md)
 
 ### [Configure communication panel for agents](customizer/configure-communication-panel.md)
+### [Step 1: Create entity searches](customizer/communication-panel-step1-create-entity-searches.md)
 #### [Step 1: Create communication panel hosted control](customizer/communication-panel-step1-create-hosted-control.md)
 #### [Step 2: Create communication related action calls](customizer/communication-panel-step2-create-action-calls.md)
 #### [Step 3: Attach the Action Calls to Events](customizer/communication-panel-step3-attach-action-calls-events.md)

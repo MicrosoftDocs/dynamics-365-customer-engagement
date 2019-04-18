@@ -54,11 +54,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 7. Repeat steps 4 through 6 to create the following additional action calls.
  
-
+## Show Entity Notification
 
  | Tab             | Field           | Value                                        |
  |-----------------|-----------------|----------------------------------------------|
- | General | Name            | ShowCaseEntityNotification                   |
+ | General | Name            | Show Entity Notification                   |
  | General | Order           | 10                                           |
  | General | Hosted Control  | Omni-channel Toast Notification              |
  | General | Action          | Show                                         |
