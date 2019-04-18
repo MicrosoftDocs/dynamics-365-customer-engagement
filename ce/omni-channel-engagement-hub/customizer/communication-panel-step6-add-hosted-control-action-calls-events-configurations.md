@@ -12,7 +12,7 @@ ms.assetid: 6DA89CD7-F4D1-438C-B55D-A3AB04E2679C
 ms.custom: 
 ---
 
-# Step 5:  Add the hosted control, action calls, and events to configurations
+# Step 6:  Add the hosted control, action calls, and events to configurations
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -22,7 +22,7 @@ This topic describes how to add action calls, events, and hosted control to the 
 
 ## Prerequisites
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md), [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md), [Step 3: Create action calls related to a communication panel](communication-panel-step3-create-action-calls.md), and [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md). The configurations that you completed are required for this topic.
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md), [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md), [Step 3: Create action calls related to a communication panel](communication-panel-step3-create-action-calls.md),  [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md), and [Step 5: Configure window navigation rule for communication panel](communication-panel-step5-configure-window-navigation-rule.md). The configurations that you completed are required for this topic.
 
 - You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
@@ -60,3 +60,4 @@ This topic describes how to add action calls, events, and hosted control to the 
 - [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md)
 - [Step 3: Create action calls related to a communication panel](communication-panel-step3-create-action-calls.md)
 - [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md)
+- [Step 5: Configure window navigation rule for communication panel](communication-panel-step5-configure-window-navigation-rule.md)

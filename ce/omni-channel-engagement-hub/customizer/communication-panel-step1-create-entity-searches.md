@@ -8,7 +8,7 @@ applies_to:
 ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 4396B2D0-20DE-4B88-A87C-DC197F14F6CF
+ms.assetid: 5ad92775-6091-4385-a661-22f6b4ab0cf3
 ms.custom: 
 ---
 
@@ -108,6 +108,7 @@ This topic describes how to create a communication panel hosted control in Unifi
 
 ## See also
 
-- [Step 3:  Create action calls related to communication panel](communication-panel-step3-create-action-calls.md)
+- [Step 3: Create action calls related to communication panel](communication-panel-step3-create-action-calls.md)
 - [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md)
-- [Step 5: Add hosted control, action calls, and events to configurations](communication-panel-step5-add-hosted-control-action-calls-events-configurations.md)
+- [Step 5: Configure window navigation rule for communication panel](communication-panel-step5-configure-window-navigation-rule.md) 
+- [Step 6: Add the hosted control, action calls, and events to configurations](communication-panel-step6-add-hosted-control-action-calls-events-configurations.md) 
