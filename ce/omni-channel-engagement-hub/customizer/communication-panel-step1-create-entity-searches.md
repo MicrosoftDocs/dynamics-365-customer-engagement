@@ -33,3 +33,11 @@ This topic describes how to create a communication panel hosted control in Unifi
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
  
 ## Create entity search forms
+
+1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
+
+2. Select the Down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Entity Searches** and select **+ New**.
