@@ -22,7 +22,7 @@ This topic demonstrates how to create communication panel-related action calls i
 
 ## Prerequisites
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) and [Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md). The configurations that you completed are required for this topic.
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) and [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md). The configurations that you completed are required for this topic.
 
 - You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
@@ -461,10 +461,10 @@ This topic demonstrates how to create communication panel-related action calls i
     | General | Data | appname=$GlobalDictionary <br> param=CurrentSessionCount <br> value=\[\[CurrentSessionCount\]+\] <br> global=true |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 4:  Attach communication panel-related action calls to events ](communication-panel-step4-create-action-calls.md)
+> [Next topic: Step 4: Attach communication panel-related action calls to events ](communication-panel-step4-attach-action-calls-events.md)
 
 ## See also
 
 - [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md)
 - [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md)
-- [Step 5:  Add the hosted control, action calls, and events to configurations](communication-panel-step5-add-hosted-control-action-calls-events-configurations.md)
+- [Step 5: Add the hosted control, action calls, and events to configurations](communication-panel-step5-add-hosted-control-action-calls-events-configurations.md)
