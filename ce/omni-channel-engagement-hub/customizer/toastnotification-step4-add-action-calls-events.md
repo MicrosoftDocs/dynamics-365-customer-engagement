@@ -20,9 +20,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 ## Prerequisites
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create forms to define notification layout](toastnotification-step1-create-forms-define-layout-behavior-notification.md) [Step 2: Create hosted controls](toastnotification-step2-create-hosted-controls.md), and [Step 3: Create an action call to display the notification](toastnotification-step3-create-action-call-display-notification.md). The configurations that you completed are required for this topic.
-
 - You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
+
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create forms to define notification layout](toastnotification-step1-create-forms-define-layout-behavior-notification.md) [Step 2: Create hosted controls](toastnotification-step2-create-hosted-controls.md), and [Step 3: Create an action call to display the notification](toastnotification-step3-create-action-call-display-notification.md). The configurations that you completed are required for this topic.
 
 - You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
   
@@ -32,17 +32,17 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-1.  Sign in to Microsoft Dynamics 365 for Customer Engagement instance. 
+1. Sign in to Microsoft Dynamics 365 for Customer Engagement instance. 
 
-2.  Go to **Settings** > **Unified Service Desk** > **Events**. 
+2. Go to **Settings** > **Unified Service Desk** > **Events**. 
 
-3.  Select an event from the list. See the matrix to add the action call against the events. 
+3. Select an event from the list. See the matrix to add the action call against the events. 
 
-4.  On the event page, in the **Active Actions** section, select  plus sign (**+** icon). In the search box, type the name of the action call, and select the search icon. 
+4. On the event page, in the **Active Actions** section, select  plus sign (**+** icon). In the search box, type the name of the action call, and select the search icon. 
 
-5.  Select the action in the search list to add the action call to the event. 
+5. Select the action in the search list to add the action call to the event. 
 
-6.  Select **Save**. 
+6. Select **Save**. 
 
 | **Event**                    | **Action Call**                        |
 |------------------------------|----------------------------------------|
