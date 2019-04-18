@@ -31,3 +31,11 @@ In this tutorial, we demonstrate how you can search and open records in Dynamics
 
 ## Add buttons to the *Hello World!* widget
 
+1. Open the basic widget you created using the steps mentioned in [Getting started with building a simple communication widget](getting-started-communication-widget.md) in Visual Studio 2017.
+2. Open the `Index.cshtml` file and replace the code in the file with the code given below.
+
+```html
+
+```
+3. Run the application in a web browser.
+4. Publish the application.
