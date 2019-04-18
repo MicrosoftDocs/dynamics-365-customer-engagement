@@ -31,20 +31,10 @@ You can also select multiple items and assign the **Tracked to Dynamics 365** Ou
 
 ## Configure category-based tracking through an OrgDBOrgSetting
 
-As of Dynamics 365 for Customer Engagement version [need text], category tracking is on by default.
-<!-- 
-To enable the special **Tracked to Dynamics 365** Outlook category, you need to enable the OrgDBOrgSetting in your Dynamics 365 for Customer Engagement apps organization. Dynamics 365 for Customer Engagement apps provides the OrgDBOrgSettings tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
+As of Dynamics 365 for Customer Engagement version 9.1.0.4039 or higher, category tracking is on by default.
 
-1. Follow the instructions [in this article](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool.
-2. After extracting the tool, enable the OrgDBOrgSetting **TrackCategorizedItems**.
-3. Enabling the OrgDBOrgSetting will create the category **Tracked to Dynamics 365** on all Exchange mailboxes of the Dynamics 365 for Customer Engagement apps organization which have server-side synchronization enabled in about 15 minutes.
-
-You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit the OrgDBOrgSetting **TrackCategorizedItems**.
-
-> [!NOTE]
-> Once the category **Tracked to Dynamics 365** is created, it can be renamed without losing the associated tracking capability. If you delete the category, server-side synchronization will attempt to recreate the category in about 15 minutes.
-
--->
+> [!TIP]
+> To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right side of the screen, click the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
 
 ## Use category to track Outlook items
 Once the **Tracked to Dynamics 365** category is available in Outlook, you can use it to track the following Outlook items.
