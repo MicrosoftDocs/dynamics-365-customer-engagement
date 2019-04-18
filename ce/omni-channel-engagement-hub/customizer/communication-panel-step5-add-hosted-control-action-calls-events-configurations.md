@@ -12,7 +12,7 @@ ms.assetid: 6DA89CD7-F4D1-438C-B55D-A3AB04E2679C
 ms.custom: 
 ---
 
-# Step 4:  Add the hosted control, action calls, and events to configurations
+# Step 5:  Add the hosted control, action calls, and events to configurations
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -59,3 +59,4 @@ This topic describes how to add action calls, events, and hosted control to the 
 - [Step 1: Create communication panel hosted control](agent-dashboard-step1-create-hosted-control.md)
 - [Step 2: Create action calls related to communication panel](agent-dashboard-step2-create-action-calls.md)
 - [Step 3: Attach communication panel-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md)
+- [Step 4: Attach communication panel-related action calls to events ](communication-panel-step4-create-action-calls.md)

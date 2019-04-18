@@ -12,7 +12,7 @@ ms.assetid: F0089899-0939-4D11-AAF7-D7FE1D53D3CA
 ms.custom: 
 ---
 
-# Step 2:  Create action calls related to a communication panel
+# Step 3:  Create action calls related to a communication panel
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -461,9 +461,10 @@ This topic demonstrates how to create communication panel-related action calls i
     | General | Data | appname=$GlobalDictionary <br> param=CurrentSessionCount <br> value=\[\[CurrentSessionCount\]+\] <br> global=true |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 3: Attach communication panel-related action calls to events](communication-panel-step3-attach-action-calls-events.md)
+> [Next topic: Step 4:  Attach communication panel-related action calls to events ](communication-panel-step4-create-action-calls.md)
 
 ## See also
 
-- [Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md)
-- [Step 4: Add hosted control, action calls, and events to configurations](communication-panel-step4-add-hosted-control-action-calls-events-configurations.md)
+- [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md)
+- [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md)
+- [Step 5:  Add the hosted control, action calls, and events to configurations](communication-panel-step5-add-hosted-control-action-calls-events-configurations.md)

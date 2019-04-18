@@ -12,7 +12,7 @@ ms.assetid: 4396B2D0-20DE-4B88-A87C-DC197F14F6CF
 ms.custom: 
 ---
 
-# Step 1: Create communication panel hosted control
+# Step 2: Create communication panel hosted control
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -57,9 +57,10 @@ This topic describes how to create a communication panel hosted control in Unifi
 6. Save the hosted control.
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 2:  Create action calls related to communication panel](communication-panel-step2-create-action-calls.md)
+> [Next topic: Step 3:  Create action calls related to communication panel](communication-panel-step3-create-action-calls.md)
 
 ## See also
 
-- [Step 3: Attach communication panel-related action calls to events](communication-panel-step3-attach-action-calls-events.md)
-- [Step 4: Add hosted control, action calls, and events to configurations](communication-panel-step4-add-hosted-control-action-calls-events-configurations.md)
+- [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md)
+- [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md)
+- [Step 5:  Add the hosted control, action calls, and events to configurations](communication-panel-step5-add-hosted-control-action-calls-events-configurations.md)

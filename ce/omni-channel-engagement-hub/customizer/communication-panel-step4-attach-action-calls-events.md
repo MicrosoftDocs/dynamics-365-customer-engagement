@@ -12,7 +12,7 @@ ms.assetid: 03125D65-65F4-4189-BCD4-B1317B68CE3C
 ms.custom: 
 ---
 
-# Step 3:  Attach communication panel-related action calls to events 
+# Step 4:  Attach communication panel-related action calls to events 
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -82,9 +82,10 @@ This topic describes how to attach communication panel-related action calls to t
     | UpdateSessionCount | <ul> Update Session Count in Dictionary </ul> |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 4: Add the hosted control, action calls, and events to configurations](communication-panel-step4-add-hosted-control-action-calls-events-configurations.md) 
+> [Next topic: Step 5:  Add the hosted control, action calls, and events to configurations](communication-panel-step5-add-hosted-control-action-calls-events-configurations.md) 
 
 ## See also
 
 - [Step 1: Create communication panel hosted control](communication-panel-step1-create-hosted-control.md)
 - [Step 2: Create action calls related to communication panel](communication-panel-step2-create-action-calls.md)
+- [Step 3: Attach communication panel-related action calls to events](communication-panel-step3-create-action-calls.md)
