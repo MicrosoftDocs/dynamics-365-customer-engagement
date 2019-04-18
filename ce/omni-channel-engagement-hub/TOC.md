@@ -135,6 +135,8 @@
 
 ### [Configure session name information](customizer/configure-sesion-name-information.md)
 
+### [Configure scriplets to define case and channel titles](customizer/configure-scriplets-define-case-channel-titles.md)
+
 ## [Developer guide](developer/omni-channel-engagement-hub-developer.md)
 ### [How to]()
 #### [Manage custom context](developer/how-to/send-context-starting-chat.md)
