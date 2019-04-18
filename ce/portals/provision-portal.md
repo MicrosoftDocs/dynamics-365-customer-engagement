@@ -31,9 +31,11 @@ Portals are websites that you can customize to provide a more personalized exper
 -   Internal employees can create and see best practices.
 
 > [!NOTE]
-> To provision a portal, you must be assigned either System Administrator or System Customizer role of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal.
+> - To provision a portal, you must be assigned either System Administrator or System Customizer role of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal.
 
-> In Azure AD, you'll also need the [required permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions) to create an application registration. The Global Administrator has the permission or they can assign the role to the user who will provision the portal.
+> - To create and register an application in Azure AD, you must have the [required permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions). 
+
+> The Global Administrator has the required permissions to provision a portal. They can also assign the role to other users to provision the portal.
 
 To complete provisioning a portal, after you have purchased a new portal license, return to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
 
