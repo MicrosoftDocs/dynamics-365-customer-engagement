@@ -1,5 +1,5 @@
 ---
-title: "Create a Omni-channel Advanced Search-related action calls | MicrosoftDocs"
+title: "Create Omni-channel Advanced Search-related action calls | MicrosoftDocs"
 description: "Learn how to set up the communication panel related action calls for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
@@ -11,6 +11,10 @@ ms.topic: article
 ms.assetid: F0089899-0939-4D11-AAF7-D7FE1D53D3CA
 ms.custom: 
 ---
+
+
+<!--The description in the metadata doesn't look correct for this topic.-->
+
 
 # Step 2:  Create action calls related to Omni-channel Advanced Search
 
@@ -38,7 +42,7 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Select the Down arrow next to Dynamics 365.
+2. Select the **Down** arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
@@ -79,9 +83,9 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
     | General | Data | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off <br> HideNavigationBar=true |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 3: Attach Omni-channel Advanced Search related action Calls to events](advanced-search-step3-attach-action-calls-events.md)
+> [Next topic: Step 3: Attach Omni-channel Advanced Search-related action calls to events](advanced-search-step3-attach-action-calls-events.md)
 
 ## See also
 
 - [Step 1: Create advanced search hosted control](advanced-search-step1-create-hosted-control.md)
-- [Step 4: Add hosted control, action calls, and events to configurations](advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
+- [Step 4: Add hosted controls, action calls, and events to configurations](advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
