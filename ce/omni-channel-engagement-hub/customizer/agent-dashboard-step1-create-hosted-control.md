@@ -32,6 +32,12 @@ This topic describes how to create an Omni-channel Agent Dashboard hosted contro
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
+
+
+
+<!--You don't need to label this as step 1 because it's the only procedure in this topic.-->
+
+
 ## Step 1. Create hosted control
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
