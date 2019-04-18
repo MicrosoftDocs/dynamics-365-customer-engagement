@@ -163,7 +163,7 @@ You need to create mobile offline profiles for users to configure filters that d
   
    - **Other data filter**. Make only the specified records for this entity available offline.  
   
-    If you select **Other records**, you can choose from the following:  
+   If you select **Other records**, you can choose from the following:  
   
    - **Download my records**. Make only your records available offline.  
   
