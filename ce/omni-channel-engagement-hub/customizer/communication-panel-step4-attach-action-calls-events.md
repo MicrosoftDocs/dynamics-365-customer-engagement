@@ -82,10 +82,11 @@ This topic describes how to attach communication panel-related action calls to t
     | UpdateSessionCount | <ul> Update Session Count in Dictionary </ul> |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 5: Add the hosted control, action calls, and events to configurations](communication-panel-step5-add-hosted-control-action-calls-events-configurations.md) 
+> [Next topic: Step 5: Configure window navigation rule for communication panel](communication-panel-step5-configure-window-navigation-rule.md) 
 
 ## See also
 
 - [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md)
 - [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md)
 - [Step 3: Attach communication panel-related action calls to events](communication-panel-step3-create-action-calls.md)
+- [Step 6: Add the hosted control, action calls, and events to configurations](communication-panel-step6-add-hosted-control-action-calls-events-configurations.md)

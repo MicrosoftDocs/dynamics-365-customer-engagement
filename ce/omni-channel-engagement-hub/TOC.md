@@ -104,7 +104,8 @@
 #### [Step 2: Create communication panel hosted control](customizer/communication-panel-step2-create-hosted-control.md)
 #### [Step 3: Create communication related action calls](customizer/communication-panel-step3-create-action-calls.md)
 #### [Step 4: Attach the Action Calls to Events](customizer/communication-panel-step4-attach-action-calls-events.md)
-#### [Step 5: Add hosted control, action calls, and events to configurations](customizer/communication-panel-step5-add-hosted-control-action-calls-events-configurations.md)
+#### [Step 5: Configure window navigation rule for communication panel](communication-panel-step5-configure-window-navigation-rule.md)
+#### [Step 6: Add hosted control, action calls, and events to configurations](customizer/communication-panel-step6-add-hosted-control-action-calls-events-configurations.md)
 
 ### [Configure customer summary](customizer/configure-customer-summary.md)
 #### [Step 1: Create customer summary hosted control](customizer/customer-summary-step1-create-hosted-control.md)
