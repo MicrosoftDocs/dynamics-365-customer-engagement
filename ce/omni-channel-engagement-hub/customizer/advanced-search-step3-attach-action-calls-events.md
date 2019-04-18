@@ -1,6 +1,6 @@
 ---
-title: "Attach Omni-channel Advanced Search related action calls to events | MicrosoftDocs"
-description: "Learn how to attach the Omni-channel Advanced Search related action calls to events for agents using Omni-channel Engagement Hub."
+title: "Attach Omni-channel Advanced Search-related action calls to events | MicrosoftDocs"
+description: "Learn how to attach the Omni-channel Advanced Search-related action calls to events for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -38,7 +38,7 @@ This topic describes how to attach the Omni-channel Advanced Search-related acti
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Select the Down arrow next to Dynamics 365.
+2. Select the **Down** arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
@@ -52,14 +52,14 @@ This topic describes how to attach the Omni-channel Advanced Search-related acti
 
 8. Repeat steps 4 through 7 to add the following action calls to the corresponding events.
 
-    | Event                              | Action Call                                    |
+    | Event                              | Action call                                    |
     |------------------------------------|------------------------------------------------|
     | BrowserWindowReady | <ul> Initialize Omni-channel Context - Agent Session Search Page </ul> |
     | OmnichannelSessionSearchAndLink | <ul> <li>Close Omni-channel Advanced Search</li> <li>Update Conversation Context Entities</li> </ul> |
     | Refresh | <ul> Initialize Omni-channel Context - Agent Session Search Page </ul> |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 4: Add the hosted control, action calls, and events to Configurations](advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
+> [Next topic: Step 4: Add the hosted controls, action calls, and events to configurations](advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
 
 ## See also
 
