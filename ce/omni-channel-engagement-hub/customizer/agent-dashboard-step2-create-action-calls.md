@@ -1,6 +1,6 @@
 ---
-title: "Create a Omni-channel Agent Dashboard-related action calls | MicrosoftDocs"
-description: "Learn how to set up the Omni-channel Agent Dashboard related action calls for agents using Omni-channel Engagement Hub."
+title: "Create Omni-channel Agent Dashboard-related action calls | MicrosoftDocs"
+description: "Learn how to set up the Omni-channel Agent Dashboard-related action calls for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -39,7 +39,7 @@ This topic demonstrates how to create Omni-channel Agent Dashboard-related actio
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Select the Down arrow next to Dynamics 365.
+2. Select the **Down** arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
@@ -91,9 +91,9 @@ This topic demonstrates how to create Omni-channel Agent Dashboard-related actio
     | General | Data | url=/main.aspx?pagetype=dashboard&id=e8fb53c5-2f79-e811-8162-000d3aa3ef73&_canOverride=false <br> HideNavigationBar=True |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 3: Attach Omni-channel Agent Dashboard related action Calls to events](agent-dashboard-step3-attach-action-calls-events.md)
+> [Next topic: Step 3: Attach Omni-channel Agent Dashboard-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md)
 
 ## See also
 
 - [Step 1: Create Omni-channel Agent Dashboard hosted control](agent-dashboard-step1-create-hosted-control.md)
-- [Step 4: Add hosted control, action calls, and events to configurations](agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md)
+- [Step 4: Add hosted controls, action calls, and events to configurations](agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md)
