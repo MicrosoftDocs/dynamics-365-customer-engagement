@@ -67,7 +67,6 @@ This topic describes how to attach communication panel-related action calls to t
     | DisplayMessage | <ul>Display Message Action</ul> |
     | EndConversation | <ul> <li>Omni-channel End Conversation</li> <li>Omni-channel Presence Status Update</li> </ul> |
     | IncomingChatRequest | <ul>Omni-channel Incoming Session Request</ul> |
-    | OmnichannelContextFetch | <ul> <li>Show Chat Transfer Request Alert Notification </li> <li>Show Consult Request Alert Notification</li> <li>Show Simple Chat Request Alert Notification</li> <li>Show Simple Chat Request From Supervisor Alert Notification</li>  |
     | Omni-channel Conversation Control Ready | <ul> <li>Load Supervisor Dashboard</li> <li>Load Agent Home Page</li> <li>Omni-channel Communication Panel Loaded</li> <li>Load Supervisor Conversations</li> </ul> |
     | OmnichannelFetchContextEntities | <ul> <li>Omni-channel Clear Context Entities</li> <li>Omni-channel Copy Contact Ids To Context</li> <li>Omni-channel Fetch Context Contacts</li> <li>Omni-channel Save Context Entities</li></ul> |
     | OmnichannelFetchContextEntitiesOnUpdate | <ul> <li>Omni-channel Clear Context Entities</li> <li>Omni-channel Copy Contact Ids To Context</li> <li>Omni-channel Fetch Context Contacts</li> <li>Omni-channel Save Context Entities on Update</li> <li>Initialize Omni-channel Context - Window Variable - Customer Summary</li> <li>Refresh Customer Summary Controls</li> </ul> |
