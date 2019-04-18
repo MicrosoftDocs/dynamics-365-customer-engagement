@@ -2,7 +2,7 @@
 title: "Integrate LinkedIn Sales Navigator solutions for Dynamics 365 for Customer Engagement | Microsoft Docs"
 description: "Learn how to integrate the Sales Navigator solutions with Dynamics 365 for Customer Engagement."
 keywords: integration, sales navigator, linkedin, versions
-ms.date: 07/12/2018
+ms.date: 03/08/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: e9258994-b84a-cefb-4d97-762f4bc3ca5a
 author: m-hartmann
 ms.author: mhart
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
@@ -27,7 +26,7 @@ Digital transformation is real. Across every industry vertical, companies are re
 
 ## Unified Interface apps: Sales Navigator Controls for Dynamics 365 for Customer Engagement Unified Interface 
 
-Two flavors of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls are [available through AppSource](install-sales-navigator.md) and [can be placed on any desktop Unified Interface application form](add-sales-navigator-controls-forms.md). You can configure your forms to show more than one control at the same time.  
+Two flavors of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls are available and [can be placed on any desktop Unified Interface application form](add-sales-navigator-controls-forms.md). You can configure your forms to show more than one control at the same time.  
 
 The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. This control has the following sections, which you can choose to show or hide: 
 
@@ -60,15 +59,16 @@ The control binds to a field that is used to match the record with [!INCLUDE[pn-
 
 ## Dynamics CRM 2016 and Dynamics 365 for Customer Engagement apps: [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator for Microsoft Dynamics
 
-Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widgets are available to display on forms in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Please refer to the links below for more information and detailed steps for installing and setting up the solution. 
+Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widgets are available to display on forms in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Please refer to the link below for more information and detailed steps for installing and setting up the solution. 
 
-[Get the solution from AppSource](https://appsource.microsoft.com/product/dynamics-365/linkedin.0cb76fe0-d453-4edb-a68c-65fb9119493a?src=Retail&tab=Overview)
+> [!NOTE]
+>Before April 2019, there were two separate solutions on AppSource. Now there is a single solution included out of box, however there is still some required setup to configure LinkedIn's CRM sync.
 
 [Set up the LinkedIn Sales Navigator for Microsoft Dynamics integration](https://www.linkedin.com/help/sales-navigator/answer/82207)
 
 
 ### See also
 
-[Install and configure LinkedIn Sales Navigator Controls](install-sales-navigator.md)     
+[Enable default LinkedIn Sales Navigator controls](install-sales-navigator.md)     
 [Customize forms to show Sales Navigator controls](add-sales-navigator-controls-forms.md)    
 [Work with Sales Navigator controls on forms](view-sales-navigator-forms.md)

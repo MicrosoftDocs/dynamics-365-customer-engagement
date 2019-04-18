@@ -3,7 +3,7 @@ title: "Render the entity list associated with the current page in a portal in D
 description: "Sample code to render the entity list associated with the current page in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,7 +23,7 @@ search.app:
 ---
 # Render the entity list associated with the current page
 
-Render the Entity List associated with the current page as a paginated sortable table. Uses entitylist, entityview ([[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags](#dynamics-365-entity-tags)), [page](#page), and [request](#request) parameters, and includes search and multiple view selection.  
+Render the Entity List associated with the current page as a paginated sortable table. Uses [entitylist](liquid-objects.md#entitylist), [entityview](liquid-objects.md#entityview), [Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md), [page](liquid-objects.md#page), and [request](liquid-objects.md#request) parameters, and includes search and multiple view selection.  
 
 ```xml
 {% entitylist id:page.adx_entitylist.id %}

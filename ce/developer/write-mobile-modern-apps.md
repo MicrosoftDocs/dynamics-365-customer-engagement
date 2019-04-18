@@ -11,9 +11,9 @@ applies_to:
 helpviewer_keywords: 
   - mobile, modern,app
 ms.assetid: 16d118f7-b8fa-4a23-8e56-6148669d3bc0
-author: SushantSikka
+author: susikka
 ms.author: susikka
-manager: sakudes
+manager: shujoshi
 search.audienceType: 
   - developer
 search.app: 

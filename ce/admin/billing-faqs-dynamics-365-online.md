@@ -2,7 +2,7 @@
 title: "Billing FAQs for Dynamics 365 for Customer Engagement apps (online) Customer Engagement | MicrosoftDocs"
 description: "We’ve put together this list of the most frequently asked billing and subscription management questions for Dynamics 365 for Customer Engagement apps (online) Customer Engagement"
 ms.custom: 
-ms.date: 08/18/2018
+ms.date: 04/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -104,7 +104,7 @@ In addition, you can now do a self-serve cancellation of your subscription from 
 ## How do I apply for a credit due to a Dynamics 365 for Customer Engagement apps (online) service outage?  
  The instructions in this section are common for subscriptions made through [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps as well as through [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
   
- You may be eligible for a billing credit if your online service level falls below 99.9% availability. For complete details, including a critical list of exclusions, see the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps [Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=272903).  
+ You may be eligible for a billing credit if your online service level falls below 99.9% availability. For complete details, including a critical list of exclusions, see the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps [Service Level Agreement](https://aka.ms/csla).  
   
  Submit a claim by contacting Billing support. To contact billing support, please refer to the [Contact information for billing support](../admin/contact-information-microsoft-dynamics-365-online-billing-support.md) page.  
   
