@@ -24,7 +24,7 @@ This topic describes how to create a communication panel hosted control in Unifi
 
 - You must have the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) and [Step 1: Create communication panel hosted control](agent-dashboard-step1-create-hosted-control.md). The configurations that you completed are required for this topic.
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) and [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md). The configurations that you completed are required for this topic.
 
 - You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
   
@@ -65,4 +65,4 @@ This topic describes how to create a communication panel hosted control in Unifi
 
 - [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md)
 - [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md)
-- [Step 5:  Add the hosted control, action calls, and events to configurations](communication-panel-step5-add-hosted-control-action-calls-events-configurations.md)
+- [Step 5: Add the hosted control, action calls, and events to configurations](communication-panel-step5-add-hosted-control-action-calls-events-configurations.md)
