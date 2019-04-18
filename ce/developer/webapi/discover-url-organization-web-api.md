@@ -24,14 +24,18 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-> [!NOTE]
-> Global Discovery Service is currently in L2 and is expected to be moved to L4 in April 2019. The process to provide Global Discovery Service support to all regions in currently underway and is expected to be completed by October 2019.
-
 The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API enables your applications to determine at run-time the organizations, also known as *instances*, that the logged-on user belongs to.  You can retrieve detailed information about those instances like the instance service URL, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] release version, the instance ID and more. You can use standard `$filter` and `$select` parameters to a Web API service request to customize the  returned list of instance data. The Discovery service is supported by all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment types: Online, on-premises, and IFD.  
   
 Clients applications may need access to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where the instance URL may change over time.  For example, when a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance is moved from one [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps datacenter to another. The Discovery service allows clients instance to persist the instance ID or instance unique name and then use the Discovery service to look-up the current instance access URL.  
   
-In addition to datacenter specific Discovery services, that are available on the 2011 (SOAP) endpoint and through the Web API, there is also a Web API only global Discovery service that spans all operational datacenters. For more information about the Discovery service on the 2011 endpoint see [Discover the URL for your organization using the Organization Service](../org-service/discover-url-organization-organization-service.md).  
+## Global discovery service
+
+In addition to datacenter specific (regional) discovery services that are available on the 2011 (SOAP) endpoint and through the Web API, there is also a Web API only *global* discovery service that spans all operational datacenters. For information about the regional discovery services on the 2011 endpoint, see  [Discover the URL for your organization using the Discovery Service](../org-service/discover-url-organization-organization-service.md)
+
+> [!NOTE]
+> It is recommended that users switch from the legacy regional discovery service (`https://disco.crm.dynamics.com`) to global discovery service (`https://globaldisco.crm.dynamics.com`).
+>
+> For Dynamics 365 US Government users, the global discovery service is available only for the **GCC** users and the URL is `https://globaldisco.crm9.dynamics.com`. More information: [Dynamics 365 Government URLs](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government#dynamics-365-us-government-urls). 
   
 ## Information provided by the Discovery service
 
