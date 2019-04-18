@@ -1,7 +1,7 @@
 ---
 title: "Use the Organization Insights solution to view metrics about your Dynamics 365 for Customer Engagement apps (online) instance | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/11/2018
+ms.date: 04/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,15 +22,9 @@ search.app:
   - Powerplatform
 ---
 # Use the Organization Insights solution to view metrics about your instance 
-<!-- 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] provides important adoption and use metrics for your [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] organization, and tools to help you stay ahead of performance and support issues.  
--->
+The Organization Insights solution is now deprecated. To view metrics, go to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) and select **Analytics**.
 
-> [!IMPORTANT]
-> We've improved how you view metrics for your organization. You no longer need to install or update a solution. Instead, you can view Common Data Service analytics right from the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to quickly view adoption ad user metrics for your organization.
->
-> For more information, see [Common Data Service analytics](https://docs.microsoft.com/power-platform/admin/analytics-common-data-service)
-
-![Common Data Service analytics](media/organization-insights-home-section-cds.png "Common Data Service analytics")
+### See also  
+[Common Data Service analytics](https://docs.microsoft.com/power-platform/admin/analytics-common-data-service)
+[Admin Analytics for PowerApps](https://docs.microsoft.com/power-platform/admin/analytics-powerapps)
