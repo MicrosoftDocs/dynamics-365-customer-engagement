@@ -2,7 +2,7 @@
 title: "Create a quote PDF document (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Create and share a professional-looking quote PDF document with your customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF"
-ms.date: 04/10/2019
+ms.date: 04/17/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -30,7 +30,7 @@ Create and share a professional-looking quote by generating a PDF document from 
 
 
 > [!IMPORTANT]
-> The **Create PDF** and **Email as PDF** options are available only if your system administrator has enabled the PDF generation capability for your organization. If you do not see these options, please talk to your system administrator.
+> The **Create PDF** and **Email as PDF** options are available only if your system administrator has enabled the PDF-generation capability for your organization. If you do not see these options, please talk to your system administrator.
 
 1.	Open a quote record.
 
@@ -61,7 +61,7 @@ You can also generate a PDF document and directly email it to a customer.
     |------------------|-------------------------------------------------|  
     |**To**                |	Potential customer of the quote                |
     |**From**	             |  Current user                                   |
-    |**Attachments**       |	The generated PDF, added as attachment         |
+    |**Attachments**       |	The generated PDF, added as an attachment         |
     |**Regarding**	       |  Quote record from which the email was triggered| 
     |**Subject**	         |  Quote title                                    |
 
