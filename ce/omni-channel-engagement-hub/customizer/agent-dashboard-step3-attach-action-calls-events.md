@@ -61,9 +61,13 @@ This topic describes how to attach Omni-channel Agent Dashboard-related action c
     | DesktopReady | <ul>Load Agent Home Page</ul>|
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 4: Add the hosted controls, action calls, and events to configurations](agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md) 
+> [Next topic: Step 4: Add the hosted control, action calls, and events to configurations](agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md) 
 
 ## See also
+
+
+<!--Should the following titles be "Step 1: Create Omni-channel Agent Dashboard hosted control" and "Step 2: Create action calls related to Omni-channel Agent Dashboard"?-->
+
 
 - [Step 1: Create communication panel hosted control](agent-dashboard-step1-create-hosted-control.md)
 - [Step 2: Create action calls related to communication panel](agent-dashboard-step2-create-action-calls.md)
