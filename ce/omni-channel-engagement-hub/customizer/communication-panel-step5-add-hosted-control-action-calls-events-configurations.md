@@ -59,4 +59,4 @@ This topic describes how to add action calls, events, and hosted control to the 
 - [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md)
 - [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md)
 - [Step 3: Create action calls related to a communication panel](communication-panel-step3-create-action-calls.md)
-- [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-create-action-calls.md)
+- [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md)
