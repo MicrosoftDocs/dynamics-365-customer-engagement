@@ -123,10 +123,9 @@
 #### [Configure toast notifications in Unified Service Desk](customizer/configure-toast-notification-unified-service-desk.md)
 ##### [Step 1: Create forms to define layout and behavior of the notification](customizer/toastnotification-step1-create-forms-define-layout-behavior-notification.md)
 ##### [Step 2: Create hosted controls](customizer/toastnotification-step2-create-hosted-controls.md)
-##### [Step 3: Create events](customizer/toastnotification-step3-create-the-events.md)
-##### [Step 4: Create an action calls to display the notification](customizer/toastnotification-step4-create-action-call-display-notification.md)
-##### [Step 5: Add the action calls to the events](customizer/toastnotification-step5-add-action-calls-events.md)
-##### [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](customizer/toastnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+##### [Step 3: Create an action calls to display the notification](customizer/toastnotification-step3-create-action-call-display-notification.md)
+##### [Step 4: Add the action calls to the events](customizer/toastnotification-step4-add-action-calls-events.md)
+##### [Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
 ### [Configure advanced search](customizer/configure-advanced-search.md)
 #### [Step 1: Create advanced search hosted control](customizer/advanced-search-step1-create-hosted-control.md)
