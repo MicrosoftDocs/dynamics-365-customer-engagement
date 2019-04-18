@@ -1,8 +1,8 @@
 ---
-title: "Enable generation of PDF from quotes (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Enable your users to create and share a professional-looking quote PDF with the customers."
+title: "Enable generation of PDF documents from quotes (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Enable your users to create and share a professional-looking quote PDF document with customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF, enable"
-ms.date: 04/10/2019
+ms.date: 04/17/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -24,16 +24,18 @@ ms.tgt_pltfrm:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 
-To allow your users to generate PDFs directly from quote, you must enable PDF generation.
+To allow your users to generate PDF documents directly from a quote, you must enable PDF generation.
+
+<!--note from editor: In step below, change "setup" to "**Setup**"?   -->
 
 1.	In the site map, under setup, select **Sales settings**.
 
 2.	Under **Advanced settings**, select **PDF generation**.
 
-3.	In the **Generate PDF file** page, under **Select whether PDF files can be created, saved, and emailed based on Dynamics 365 for Sales entity records** set the **Quote** toggle button to **Yes**.
+3.	On the **Generate PDF file** page, under **Select whether PDF files can be created, saved, and emailed based on Dynamics 365 for Sales entity records**, set the **Quote** toggle to **Yes**.
 
     ![PDF generation settings page to enable PDF generation](media/enable-pdf-generation.png "PDF generation settings page to enable PDF generation")
 
 ### See also
 
-[Create a quote PDF](create-quote-pdf-sales-professional.md)
+[Generate a PDF document from a quote record](create-quote-pdf-sales-professional.md)
