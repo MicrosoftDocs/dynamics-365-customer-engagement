@@ -67,7 +67,7 @@ The topic describes how to dynamically display the session tab name, you'll conf
 
 5. Select the **Session Lines, Agent Scripts, and Scriplets** tab.
 
-6. In the Session Lines section, select the more commands (...), select **Add Existing Session Information**, type the name of the **Session Lines** in the search box, and then press **Enter** or select the search icon.
+6. In the **Session Lines** section, select the more commands (...), select **Add Existing Session Information**, type the name of the **Session Lines** in the search box, and then press **Enter** or select the search icon.
 
 7. Select the session lines from the search results and select **Add**.
 

@@ -382,7 +382,7 @@ xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:loca
 ## See also
 
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
-- [Step 3: Create an action call to display the notification](toastnotification-step4-create-action-call-display-notification.md)
-- [Step 4: Add the action calls to the events](toastnotification-step5-add-action-calls-events.md)
-- [Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](toastnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+- [Step 3: Create an action call to display the notification](toastnotification-step3-create-action-call-display-notification.md)
+- [Step 4: Add the action calls to the events](toastnotification-step4-add-action-calls-events.md)
+- [Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
