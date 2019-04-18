@@ -76,9 +76,6 @@ You must define an event and attach action calls so that an agent can accept an 
 
 - Focus on the Customer summary page.
 
- > [!div class=mx-imgBorder]
- > ![Alert View notifications and screen pops experience](../media/alert-notification-screenpop.png "Alert notificatiosn and screen pops experience")  
-
 ### Create an event and action when agent selects Reject 
 
 You must define an event and attach action calls so that an agent can reject an incoming request. When the agent selects the **Reject** button, he or she will experience the following actions:
