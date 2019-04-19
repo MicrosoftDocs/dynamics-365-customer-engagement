@@ -45,21 +45,21 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
 
 3. Select **Entity Selection** or **View Selection**.
 
-    3.1 **Entity Selection**: Search for an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+    3.1 **Entity Selection**: Search for an entity to connect. You can pick a recently viewed record or use search to find records. You     can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
 
-   In the above page, if you have multiple environments or app modules, you can change the environment and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Teams.
+   In the above page, if you have multiple environments or app modules, you can change the environment and app module by selecting      **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Teams.
  
    > [!div class="mx-imgBorder"] 
-   > ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
+   > ![Specify org and app](media/teams-change-org-app1.png "Specify org and app")
 
    You can enable **Remember this preference** to set the environment and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
 
    You can return to these settings any time by selecting the **Settings** tab.
 
-Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 for Customer Engagement apps record appears in the menu bar. You can interact with the record as if you were using the Dynamics 365 for Customer Engagement apps. Those with Write permissions can edit the record. Changes will be synchronized with the Dynamics 365 for Customer Engagement apps.
+  Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 for Customer Engagement  apps record appears in the menu bar. You can interact with the record as if you were using the Dynamics 365 for Customer Engagement apps. Those with Write permissions can edit the record. Changes will be synchronized with the Dynamics 365 for Customer Engagement apps.
 
 > [!div class="mx-imgBorder"] 
 > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
@@ -78,7 +78,7 @@ Once you complete the above steps, you'll see a notification of a successful con
    > [!div class="mx-imgBorder"] 
    > ![Select from My View](media/teams-select-view3.png "Select from My View")
    
-Once you complete the above steps, you'll see the the record view in Teams.
+  Once you complete the above steps, you'll see the the record view in Teams.
 
       > [!div class="mx-imgBorder"] 
    > ![My View in Teams](media/teams-select-view4.png "My View in Teams")
