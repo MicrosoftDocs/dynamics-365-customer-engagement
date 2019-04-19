@@ -2,7 +2,7 @@
 title: "Troubleshoot Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Teams integration."
-ms.date: 4/16/2019
+ms.date: 4/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
