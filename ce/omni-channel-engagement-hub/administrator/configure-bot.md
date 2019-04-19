@@ -41,7 +41,7 @@ To integrate a bot with Omni-channel Engagement Hub, you must:
 
 Creating a bot user is supported in the Web Client only. A bot user is created as an application user and assigned with the Omni-channel agent role. To create a bot user, you must have the following information available:
 
-- Application ID of your Dynamics 365 for Customer Engagement app that is registered in Azure Active Directory.
+- Application ID of your Dynamics 365 for Customer Engagement app that is registered in Azure Active Directory (Azure AD).
 - Bot application ID of your bot.
 
 To create a bot user:
@@ -56,19 +56,23 @@ To create a bot user:
 
 5.	Select **New**.
 
+
+<!--In "Agent type" below, are there several choices and the user selects Bot? If so, I put Bot in bold.--> 
+
+
 6.	On the **New User** page, enter the following information:
     - **Name**: Name of the bot user.
     - **Application ID**: Application ID of your Dynamics 365 for Customer Engagement app from Azure AD.
     - **Full Name**: Full name of the bot user.
     - **Primary Email**: Email of the bot user.
-    - **Agent type**: Select Bot.
+    - **Agent type**: Select **Bot**.
     - **Bot application ID**: Bot's application ID from Azure AD.
 
 7.	Save the record.
 
 8.	Select **Manage Roles** on the command bar.
 
-9.	In the **Mange User Roles** window, select **Omni-channel agent**, and then select **OK**.
+9.	In the **Manage User Roles** window, select **Omni-channel agent**, and then select **OK**.
 
 ### Step 2: Create a work stream and context variable
 
@@ -79,7 +83,7 @@ You must create a work stream and the required context variable for the bot hand
 
 ### Step 3: Create queues
 
-Queues distribute the incoming customer queries among bots and agents. You must add a bot user as the first user in the queue and then followed by the agents. You can also create multiple queues for bot users and agents. For information on creating a queue, see [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md).
+Queues distribute the incoming customer queries among bots and agents. You must add a bot user as the first user in the queue, followed by the agents. You can also create multiple queues for bot users and agents. For information on creating a queue, see [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md).
 
 ### Step 4: Creating routing rules
 
@@ -95,7 +99,7 @@ A chat widget lets your customers connect with you in a way that is convenient f
 
 ## Sample configuration to integrate a bot
 
-This sample provides exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules will be created. Bot user is added to one queue and agents are added to other two queues. Routing rules are defined in a way that whenever a customer initiates a chat, it will be sent to the bot first and then escalated to a human agent as per the conditions defined in the routing rules .
+This sample provides exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules will be created. A bot user is added to one queue and agents are added to two other queues. Routing rules are defined in a way that whenever a customer initiates a chat, it will be sent to the bot first and then escalated to a human agent as per the conditions defined in the routing rules.
 
 1.	Follow the instructions in [Step 1](#step-1-create-a-bot-user) to create a bot user.
 
@@ -121,12 +125,15 @@ This sample provides exact steps and configuration values to integrate a bot and
 
 ## Privacy notice
 
+
+<!--Should the following note include a link to the Microsoft Privacy Statement?-->
+
+
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization’s compliance boundary (even if your organization is in a Government Cloud environment). For more information on how we process your data, please refer to the Microsoft Privacy Statement.
 
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)<br>
-[Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md)<br>
 [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Add a chat widget](add-chat-widget.md)
