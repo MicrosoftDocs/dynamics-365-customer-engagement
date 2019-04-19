@@ -78,6 +78,10 @@ Once you complete the above steps, you'll see a notification of a successful con
    > [!div class="mx-imgBorder"] 
    > ![Select from My View](media/teams-select-view3.png "Select from My View")
    
+Once you complete the above steps, you'll see the the record view in Teams.
+
+      > [!div class="mx-imgBorder"] 
+   > ![My View in Teams](media/teams-select-view4.png "My View in Teams")
 
 The following section provides information about connections between Dynamics 365 for Customer Engagement apps and Microsoft Teams.
 
