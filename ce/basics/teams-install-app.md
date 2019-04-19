@@ -69,12 +69,12 @@ search.app:
 
 7. Select **Entity Selection** or **View Selection**.
 
-  7.1 **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can     use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+    7.1 **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can     use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select an entity](media/teams-add-channel-pin-record2.png "Select an entity")
 
-  7.2 **View Selection**: Select an entity to see the list of available views. When you select a view, it will be pinned as a tab.
+    7.2 **View Selection**: Select an entity to see the list of available views. When you select a view, it will be pinned as a tab.
   
    > [!NOTE]
    > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
