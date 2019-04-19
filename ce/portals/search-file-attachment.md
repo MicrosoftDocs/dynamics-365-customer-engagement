@@ -2,7 +2,7 @@
 title: "Search within file attachment content in Dynamics 365 for Customer Engagement portals  | MicrosoftDocs"
 description: "Learn how to configure your portal to search within file attachment content in Microsoft Dynamics 365 for Customer Engagement portals."
 keywords: "search within attachment,search in file attachment"
-ms.date: 12/03/2018
+ms.date: 04/17/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -38,6 +38,9 @@ To index the attachments, you must create the following site settings and set th
 |Search/IndexNotesAttachments|Indicates whether the content of notes attachments in  knowledge base articles and web files should be indexed. By default, it is set to **False**.|
 |KnowledgeManagement/DisplayNotes|Indicates whether to index attachments of knowledge base articles. By default, it is set to **False**.|
 |||
+
+> [!NOTE]
+> Only the files that are attached to knowledge articles can be searched. The files that are attached to web files are not searchable.
 
 When you search for a term, the search results also include attachments. If the search term matches a notes attachment, the link to the corresponding knowledge base article is also provided. To see downloadable attachments, select **Downloads** under **Record Type** in the left pane. To modify the **Downloads** label, edit the Search/Facet/Downloads content snippet. By default, the value is set to **Downloads**.
 
