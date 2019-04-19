@@ -72,8 +72,7 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
       > [!div class="mx-imgBorder"] 
    > ![Select a view](media/teams-select-view2.png "Select an view")
    
-      > [!NOTE]
-   > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
+  If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in   Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
    
    > [!div class="mx-imgBorder"] 
    > ![Select from My View](media/teams-select-view3.png "Select from My View")
