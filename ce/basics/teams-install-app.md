@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
 ms.custom: 
 description: "Install and set up the Dynamics 365 app for Teams."
-ms.date: 4/16/2019
+ms.date: 4/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -56,17 +56,8 @@ search.app:
    > [!div class="mx-imgBorder"] 
    > ![Pick a channel and select Set up](media/teams-install-app-step2.png "Pick a channel and select Set up")
 
-6. Select **Review permissions**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Review permissions](media/teams-review-premissions75.png "Review permissions")
-
-7. Read through the permissions and select **Accept**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Accept permissions](media/teams-permissions-requested.png "Accept permissions")
-
-8. Select a version 9.x environment and a Unified Interface app to connect, and then choose **Save**.
+6. Select a version 9.x environment and a Unified Interface app to connect, and then choose **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select environment and app module](media/teams-fre-org-app.png "Select environment and app module")
@@ -76,7 +67,7 @@ search.app:
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected environment are listed. 
 
-9. Select an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+7. Select an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select an entity](media/teams-add-channel-pin-record2.png "Select an entity")
@@ -90,8 +81,6 @@ For troubleshooting, see [Troubleshoot Teams integration](teams-troubleshoot.md)
 
 ## Set up the Dynamics 365 bot
 
-> [!NOTE]
-> The Dynamics 365 bot for Teams is currently only available for environments in the North American region.
 
 Set up the bot feature to interact with Dynamics 365 for Customer Engagement apps.
 
