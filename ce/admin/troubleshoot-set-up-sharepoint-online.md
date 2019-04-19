@@ -1,15 +1,15 @@
 ---
-title: "Troubleshoot SharePoint Online setup (SharePoint Integration with Customer Engagement) | MicrosoftDocs"
+title: "Troubleshoot SharePoint Online integration with Customer Engagement | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/16/2019
+ms.date: 04/19/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 28ba29c2-a661-4d6e-b72a-47c69a94de98
 caps.latest.revision: 7
 author: jimholtz
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Troubleshoot SharePoint Online setup (SharePoint Integration with Customer Engagement)
+# Troubleshoot SharePoint Online integration
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -78,7 +78,7 @@ The most common cause for the Documents associated grid not loading is the corru
     > [!div class="mx-imgBorder"] 
     > ![](media/sharepoint-document-associated-grid.png "Search for Document Associated")
 
-12. Make the changes as below:
+12. Make the changes as below for the LayoutXML section:
 
     ```  
     <layoutxml>
