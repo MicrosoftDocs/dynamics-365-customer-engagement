@@ -1,6 +1,6 @@
 ---
 title: "Configure an SMS channel | MicrosoftDocs"
-description: "Instructions to configure an SMS channel in Omni-channel Engagement Hub."
+description: "Instructions for configuring an SMS channel in Omni-channel Engagement Hub."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -19,7 +19,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-An SMS channel allows your organization to connect to customers by using text messages. When you configure an SMS channel, your customers can send text messages and connect with an appropriate customer service agent. This provides your customers the flexibility to connect with their mobile devices even if there is no internet connection for connecting to chat channel.
+An SMS channel allows your organization to connect to customers by using text messages. When you configure an SMS channel, your customers can send text messages and connect with an appropriate customer service agent. This provides your customers the flexibility to connect with their mobile devices even if there is no internet connection for connecting to a chat channel.
 
 Agents can view the incoming SMS requests in their dashboard and respond accordingly.
 
@@ -27,15 +27,19 @@ To add SMS support for your organization, you must first register with TeleSign 
 
 ## Sign up for TeleSign account
 
-SMS channel is enabled within Omni-channel Engagement Hub by integrating with TeleSign. This integration uses public APIs of TeleSign for sending and receiving text messages. You must sign up for a TeleSign account to enable SMS channel in your organization.
+An SMS channel is enabled within Omni-channel Engagement Hub by integrating with TeleSign. This integration uses public APIs of TeleSign for sending and receiving text messages. You must sign up for a TeleSign account to enable an SMS channel in your organization.
 
 To sign up for TeleSign:
 
-1.	Sign up for a [TeleSign account](https://www.telesign.com/) if you don't have one already.
+1.	Go to [TeleSign](https://www.telesign.com/) to sign up for an account if you don't have one already.
 
-2.	Purchase support phone numbers through your TeleSign account. For preview, only long code type phone numbers belonging to USA are supported.
 
-3.	Get the Customer ID and API key from your TeleSign account. This will need to be provided while setting up SMS channel in Omni-channel Engagement Hub.
+<!--Not sure what "long code type" phone numbers are. Will the readers know? Maybe show an example.-->
+
+
+2.	Purchase support phone numbers through your TeleSign account. For preview, only long code type US phone numbers are supported.
+
+3.	Get the customer ID and API key from your TeleSign account. You will need to provide these while setting up the SMS channel in Omni-channel Engagement Hub.
 
 4.	You are provided with a callback URL that must be sent to TeleSign at [support@telesign.com](mailto:support@telesign.com). This callback URL is specific to your organization. The callback URL is available when adding SMS support for your organization.
 
