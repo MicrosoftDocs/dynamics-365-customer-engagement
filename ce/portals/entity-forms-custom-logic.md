@@ -41,6 +41,7 @@ When creating a new entity form, the first step is to decide the **Entity** and 
 > - Duplicate fields, multi-select option set, custom controls, and business rules are not supported in entity forms.
 > - If you create an entity form in the Insert mode, you can't change a button's alignment or place an action button above the entity form.
 > - If you render a lookup control as a dropdown list on the form, the related records filter does not work.
+> - Business rules and Client API can enable locked fields on a read-only form.
 
 The webpages associated with the entity form can be viewed by selecting the **Web Pages** link listed in the **Related** navigation links in the leftmost menu.
 
