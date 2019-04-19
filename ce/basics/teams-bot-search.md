@@ -2,7 +2,7 @@
 title: "Use the bot| MicrosoftDocs"
 ms.custom: 
 description: "Use the bot to interact with Dynamics 365 for Customer Engagement apps."
-ms.date: 04/16/2019
+ms.date: 04/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,10 +26,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
-> [!NOTE]
-> The Dynamics 365 bot for Teams is currently only available for organizations in the North American region.
-
-The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 365 for Customer Engagement apps to find, display, and update the records within Microsoft Teams conversations.
+The Dynamics 365 app for Teams bot feature allows you search Dynamics 365 for Customer Engagement apps records within Microsoft Teams conversations.
 
 Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365**.
 
@@ -46,7 +43,6 @@ You'll see some preloaded options. For example, select **Opportunities** to have
 > [!div class="mx-imgBorder"] 
 > ![List of open opportunities](media/teams-bot-list-opportunities.png "List of open opportunities")
 
-Here are more things you can do with the bot feature.
 
 ## Search
 Enter text like "contoso" in the search field to find related records.
