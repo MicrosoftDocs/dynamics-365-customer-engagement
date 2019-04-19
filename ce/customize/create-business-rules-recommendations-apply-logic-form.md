@@ -149,6 +149,10 @@ A business rule may not execute because the field referenced in the business rul
      > [!div class="mx-imgBorder"] 
      > ![](media/account-name-on-form.png "Account name field on form")
 
+### FAQ?
+Can business rules unlock fields on a read-only form?
+> - Yes you can unlock fields and edit actions on a read only form.
+
 ### See also  
  [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)   
  [Create a business process flow](../customize/create-business-process-flow.md)   
