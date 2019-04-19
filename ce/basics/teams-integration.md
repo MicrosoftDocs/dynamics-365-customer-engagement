@@ -2,7 +2,7 @@
 title: "Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams."
-ms.date: 4/16/2019
+ms.date: 4/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,16 +27,18 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
-If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]. With the Dynamics 365 for Teams integration, you add the Dynamics 365 for Customer Engagement apps features you rely on to the Teams app you collaborate with.
+If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]. 
 
-Check out the following video to get a quick overview of how Dynamics 365 for Customer Engagement apps and Teams can work together to make easy collaboration possible: [Dynamics 365 for Customer Engagement app for Microsoft Teams Demo Video](https://go.microsoft.com/fwlink/p/?linkid=2038623).
+With the Dynamics 365 for Teams integration, add the Dynamics 365 for Customer Engagement apps features you rely on to the Teams app you collaborate with. This lets you easily work with Dynamics 365 customer information and share files directly from Microsoft Teams.
+
+Check out the following video to get a quick overview of how Dynamics 365 for Customer Engagement apps and Teams can work together to make easy collaboration possible: [Overview video of Dynamics 365 for Customer Engagement app for Microsoft Teams](https://go.microsoft.com/fwlink/p/?linkid=2038623).
 <!-- Cindy will provide new video when it's published. -->
 
-The Dynamics 365 for Teams provides the following: 
+The Dynamics 365 app for Teams provides the following: 
 
-- **Collaboration hub**: Access records together with the Office applications you need to close deals.
+- **Collaboration hub**: Access records in your Dynamics 365 Customer Engagement app by adding a tab for Dynamics 365 in the Teams channel. Use the Dynamics 365 view to work on multiple records.
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 for Customer Engagement apps user.
-- **File integration**: Co-author documents using Office 365 and automatically sync to Dynamics 365 for Customer Engagement apps.
+- **File integration**: Seamlessly collaborate on documents between Dynamics 365 and Microsoft Teams.
 - **Teams mobile app**: Search from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
 
 > [!div class="mx-imgBorder"] 
@@ -44,7 +46,9 @@ The Dynamics 365 for Teams provides the following:
 
 The Dynamics 365 app for Teams, when installed into a Teams channel, provides a fully functional page in which you can edit information and navigate to related records—all this without leaving Teams.
 
-<!--from editor: I read but made no changes to the following section, assuming it was provided by legal. If that's not the case, I'd edit it a little. Also, are you sure it's called Azure bot framework? The link takes me to Azure Bot Service, and there's mention on that page of Microsoft Bot Framework. -->
+## Feedback
+
+ If you have additonal feedback or questions regarding this feature, contact [D365forTeams@microsoft.com](D365forTeams@microsoft.com).
 
 ## Privacy notice
 
@@ -55,6 +59,7 @@ By installing and allowing access to use of the bot, you agree to allow the LUIS
 The content of user’s queries and messages is retained in LUIS system for a maximum of 30 days, encrypted at rest and is not used for training or service improvement. Read more about Cognitive Services [here](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
 To manage admin settings for apps in Teams, go to the Microsoft 365 admin center and open **Settings** > **Services & add-ins**, then choose Microsoft Teams. If you're signed in as an Office 365 admin, you can access these controls [here](https://admin.microsoft.com/adminportal/home#/Settings/ServicesAndAddIns), including the ability to uninstall.
+
 
 ### See also
  [Download and install Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)<br/>
