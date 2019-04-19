@@ -61,26 +61,26 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
 
     Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 for Customer Engagement   apps record appears in the menu bar. You can interact with the record as if you were using the Dynamics 365 for Customer Engagement     apps. Those with Write permissions can edit the record. Changes will be synchronized with the Dynamics 365 for Customer Engagement  apps.
 
-> [!div class="mx-imgBorder"] 
-> ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
+    > [!div class="mx-imgBorder"] 
+    > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
 
    3.2 **View Selection**: Select an entity to see the list of available views. When you select a view, it will be pinned as a tab.
   
-   > [!div class="mx-imgBorder"] 
-   > ![Select a view](media/teams-select-view.png "Select an view")
+    > [!div class="mx-imgBorder"] 
+    > ![Select a view](media/teams-select-view.png "Select an view")
    
-      > [!div class="mx-imgBorder"] 
-   > ![Select a view](media/teams-select-view2.png "Select an view")
+     > [!div class="mx-imgBorder"] 
+     > ![Select a view](media/teams-select-view2.png "Select an view")
    
-  If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in   Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
+    If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users     in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
    
-   > [!div class="mx-imgBorder"] 
-   > ![Select from My View](media/teams-select-view3.png "Select from My View")
+    > [!div class="mx-imgBorder"] 
+    > ![Select from My View](media/teams-select-view3.png "Select from My View")
    
-  Once you complete the above steps, you'll see the the record view in Teams.
+    Once you complete the above steps, you'll see the the record view in Teams.
 
-      > [!div class="mx-imgBorder"] 
-   > ![My View in Teams](media/teams-select-view4.png "My View in Teams")
+     > [!div class="mx-imgBorder"] 
+     > ![My View in Teams](media/teams-select-view4.png "My View in Teams")
 
 The following section provides information about connections between Dynamics 365 for Customer Engagement apps and Microsoft Teams.
 
