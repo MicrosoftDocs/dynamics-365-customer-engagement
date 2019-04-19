@@ -198,8 +198,10 @@ Back on the schedule board we've been working on, you'll see that we have define
 
 ## Additional notes
 
-- [Document that offers context](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs) and a deep overview of scheduling extensibility.
-- [Sample walkthrough](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extending-urs-step-by-step) to help you learn how to implement extensibility by walking through a sample implementation.
+For further context, visit our [topic that provides a deep overview of scheduling extensibility](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs).
+
+### See also
+- A [sample walkthrough](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extending-urs-step-by-step) to help you learn how to implement extensibility.
 - [Extensibility language syntax (UFX)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/universal-fetchxml).
 - [Extensibility-specific release notes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes).
 
