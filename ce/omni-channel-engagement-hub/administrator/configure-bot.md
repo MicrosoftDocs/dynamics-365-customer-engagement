@@ -31,6 +31,10 @@ In Omni-channel Engagement Hub, you can integrate a bot to start the conversatio
 
 To integrate a bot with Omni-channel Engagement Hub, you must:
 
+
+<!--Number 4 should change from "Creating" to "Create" to be consistent with the other steps. But you need to do it here, in the heading, and in all of the bookmarks.-->
+
+
 1.	[Create a bot user](#step-1-create-a-bot-user)
 2.	[Create a work stream and context variable](#step-2-create-a-work-stream-and-context-variable)
 3.	[Create queues](#step-3-create-queues)
