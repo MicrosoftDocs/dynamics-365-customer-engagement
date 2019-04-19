@@ -53,7 +53,7 @@ To run a rule, administrators follow these steps:
 1.  Open the **Solution Health Hub** app.
 2.  Select **Analysis Jobs** and create a new analysis job.
 3.  When the dialog box opens, select the **Rule Set** you want to run.
-4.  Select **Ok**.
+4.  Select **OK**.
 
 Within the analysis job record that is created, **Status** indicates whether
 or not the job has completed.
