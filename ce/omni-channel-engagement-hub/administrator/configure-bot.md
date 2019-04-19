@@ -72,7 +72,7 @@ To create a bot user:
 
 ### Step 2: Create a work stream and context variable
 
-You must create a work stream and the required context variable for the bot handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. You must create a context variable named **BotHandoffTopic**. This context variable will be used in [Step 4](#step-4-creating-routing-rules) when you create routing rules. For information on creating a work stream and context variables, see [Understand and create work streams](work-streams-introduction.md).
+You must create a work stream and the required context variable for the bot handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. You must create a context variable named **BotHandoffTopic**. This context variable will be used in [Step 4](#step-4-create-routing-rules) when you create routing rules. For information on creating a work stream and context variables, see [Understand and create work streams](work-streams-introduction.md).
 
 > [!NOTE]
 > If you want to use any other context variable, it must be updated in the bot code.
