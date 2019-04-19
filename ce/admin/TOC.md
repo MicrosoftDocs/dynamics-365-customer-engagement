@@ -210,7 +210,7 @@
 #### [Server-based SharePoint integration considerations](important-considerations-server-based-sharepoint-integration.md)
 #### [Set up](set-up-sharepoint-integration.md)
 ##### [Set up Dynamics 365 for Customer Engagement to use SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
-##### [Troubleshoot SharePoint Online setup](troubleshoot-set-up-sharepoint-online.md)
+##### [Troubleshoot SharePoint Online integration](troubleshoot-set-up-sharepoint-online.md)
 ##### [Switching from the list component or changing the deployment](switching-list-component-changing-deployment.md)
 ##### [Configure server-based authentication with Dynamics 365 for Customer Engagement and SharePoint Online](configure-server-based-authentication-sharepoint-online.md)
 ##### [Configure server-based authentication with Dynamics 365 for Customer Engagement and SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md)
