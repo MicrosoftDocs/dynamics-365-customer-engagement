@@ -45,7 +45,7 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 
 - **Device Simulator**: Administrators can simulate devices and telemetry for testing and development purposes before the hardware is set up. This lets them see how simulated alerts flow to Dynamics 365 for Field Service and create work orders.
 
-- **IoTHub**: The gateway to the cloud, capable of ingesting data on a large scale. IoTHub is a collection of applications and processes tailored to connected device scenarios that are also customizable. Deploying IoTHub wil deploy a resource group with this collection of applications and processes.
+- **IoTHub**: The gateway to the cloud, capable of ingesting data on a large scale. IoTHub is a collection of applications and processes tailored to connected device scenarios that are also customizable. Deploying IoTHub will deploy a resource group with this collection of applications and processes.
 
 - **Azure Stream Analytics**: Queries device data as it enters IoTHub. Data only passes through and is not stored.
 
