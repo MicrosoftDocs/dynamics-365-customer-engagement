@@ -43,7 +43,9 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
    > [!div class="mx-imgBorder"]
    > ![Add Dynamics 365 for Customer Engagement appsTeam channel](media/teams-add-channel.png "Add Dynamics 365 for Customer Engagement appsTeam channel")
 
-3. Search for an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+3. Select **Entity Selection** or **View Selection**.
+
+    3.1 **Entity Selection**: Search for an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
@@ -61,6 +63,21 @@ Once you complete the above steps, you'll see a notification of a successful con
 
 > [!div class="mx-imgBorder"] 
 > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
+
+  3.2 **View Selection**: Select an entity to see the list of available views. When you select a view, it will be pinned as a tab.
+  
+   > [!div class="mx-imgBorder"] 
+   > ![Select a view](media/teams-select-view.png "Select an view")
+   
+      > [!div class="mx-imgBorder"] 
+   > ![Select a view](media/teams-select-view2.png "Select an view")
+   
+      > [!NOTE]
+   > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
+   
+   > [!div class="mx-imgBorder"] 
+   > ![Select from My View](media/teams-select-view3.png "Select from My View")
+   
 
 The following section provides information about connections between Dynamics 365 for Customer Engagement apps and Microsoft Teams.
 
