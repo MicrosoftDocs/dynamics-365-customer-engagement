@@ -21,6 +21,10 @@ search.app:
   - D365CE
   - Powerplatform
 ---
+
+
+<!--note from editor:  PowerApps checker link below didn't work for me.  -->
+
 # Use the Solution Health Hub to maintain healthy operation of your environment
 The Solution Health Hub extends the [PowerApps checker](/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued
 healthy operation of an environment. Where the PowerApps checker reviews code
