@@ -143,21 +143,18 @@ Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 for C
 
 See [Use the personal dashboard](teams-personal-use.md) for information on how you can use **My Dashboard**.
 
-## For Dynamics 365 for Customer Engagement admins: enable Microsoft Teams integration Preview features
+## For Dynamics 365 for Customer Engagement admins: enable Microsoft Teams integration feature 
 
-Because this is a preview feature, you can control whether to display Teams integration in Dynamics 365 for Customer Engagement apps. For [Teams integration in Customer Engagement apps](teams-collaboration.md#teams-integration-in-dynamics-365-for-customer-engagement-apps), the Customer Engagement apps admin should enable the following setting.
-
-> [!NOTE]
-> This setting is currently only available for environments in the North American region. 
+By default, Microsoft Teams integration is disabled. To turn this feature on, follow the steps below. 
 
 1. Sign in as a System administrator to Dynamics 365 for Customer Engagement apps.
-2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
+2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
 3. Enable **Microsoft Teams Integration Preview**.
 
    > [!div class="mx-imgBorder"] 
    > ![Enable preview settings](media/teams-system-settings.png "Enable preview settings")
 
-When Microsoft Teams Integration Preview is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.   
+When Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.   
 
 If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the related Microsoft Teams channel and document do not appear in Dynamics 365 for Customer Engagement apps.  
 
