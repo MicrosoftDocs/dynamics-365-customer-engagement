@@ -19,15 +19,15 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-A bot is a program that initiates a conversation with a customer and collect basic information. This basic information is then provided to a customer service agent to work further on the issue raised by the customer.
+A bot is a program that initiates a conversation with a customer and collects basic information. This basic information is then provided to a customer service agent to work further on the issue raised by the customer.
 
-You can ease the load on your customer service agents by using bots that can handle basic queries from the customer. This will save some of your agent’s time and they can work on more complex issues. Bots can be configured to escalate the query to a human agent as and when required by the customer.
+You can ease the load on your customer service agents by using bots that can handle basic queries from the customer. This will save your agents time and they can work on more complex issues. Bots can be configured to escalate the query to a human agent when required by the customer.
 
-In Omni-channel Engagement Hub, you can integrate a bot to start the conversation to a customer and then shift the conversation to a human agent as required. Let’s now see how to integrate a bot with Omni-channel Engagement Hub.
+In Omni-channel Engagement Hub, you can integrate a bot to start the conversation with a customer and then shift the conversation to a human agent as required. Let’s see how to integrate a bot with Omni-channel Engagement Hub.
 
 ## Integrate a bot with Omni-channel Engagement Hub
 
-**Prerequisites**: You must ensure that you have a bot that is built by using Microsoft Bot Framework. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0).
+**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0).
 
 To integrate a bot with Omni-channel Engagement Hub, you must:
 
@@ -39,14 +39,14 @@ To integrate a bot with Omni-channel Engagement Hub, you must:
 
 ### Step 1: Create a bot user
 
-Creating a bot user is supported in the web-client only. A bot user is created as an application user and assigned with the Omni-channel agent role. To create a bot user, you must have the following information available:
+Creating a bot user is supported in the Web Client only. A bot user is created as an application user and assigned with the Omni-channel agent role. To create a bot user, you must have the following information available:
 
-- Application ID of your Dynamics 365 for Customer Engagement app that is registered in Azure Active Directory
-- Bot application ID of your bot
+- Application ID of your Dynamics 365 for Customer Engagement app that is registered in Azure Active Directory.
+- Bot application ID of your bot.
 
 To create a bot user:
 
-1.	Sign in to Dynamics 365 for Customer Engagement app.
+1.	Sign in to the Dynamics 365 for Customer Engagement app.
 
 2.	Go to **Settings** > **Security**.
 
