@@ -2,7 +2,7 @@
 title: "Collaborate with Teams| MicrosoftDocs"
 ms.custom: 
 description: "Collaborate with team members using the Dynamics 365 app for Teams."
-ms.date: 4/16/2019
+ms.date: 4/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
