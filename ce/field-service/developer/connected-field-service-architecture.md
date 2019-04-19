@@ -36,7 +36,7 @@ To understand what's covered in this topic, you need to know that Connected Fiel
 
 For this topic, the words **data** and **telemetry** refer to information sent from an IoT device to the cloud. The words **devices** and **sensors** refer to internet-connected things like thermometers, gyroscopes, magnetometers, pressure readers, and more that take specific measurements. An **asset** is a piece of equipment that can have one or more sensors connected to it.  
 
-## Architecture, demystified
+## Architecture
 
 > [!div class="mx-imgBorder"]
 > ![Diagram illustrating the connections between Connected Field Service with IoTHub architecture, and how each elements relate to each other](../media/cfs-iothub-architecture.png)
@@ -70,7 +70,7 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 - **Logic App Dynamics to Azure**: The reverse of the previously explained Logic App, this adds detail to data and actions that need to be sent to IoTHub from Dynamics. IoTHub will then send the data or action to the connected device.
 
 
-## Component Data Flow Diagram  
+## Component data flow diagram  
  A data flow between the Azure IoT Hub and Connected Field Services components is detailed in this [downloadable diagram](http://download.microsoft.com/download/3/A/7/3A744B76-3E04-49F5-A30B-938400CEB73E/AzureIoTCfsDataFlowDiagram.jpg). It details each information flow, its flow direction and relative order for a standard installation of [!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)].  
 
 ### See also
