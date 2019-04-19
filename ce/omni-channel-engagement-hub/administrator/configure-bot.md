@@ -31,14 +31,10 @@ In Omni-channel Engagement Hub, you can integrate a bot to start the conversatio
 
 To integrate a bot with Omni-channel Engagement Hub, you must:
 
-
-<!--Number 4 should change from "Creating" to "Create" to be consistent with the other steps. But you need to do it here, in the heading, and in all of the bookmarks.-->
-
-
 1.	[Create a bot user](#step-1-create-a-bot-user)
 2.	[Create a work stream and context variable](#step-2-create-a-work-stream-and-context-variable)
 3.	[Create queues](#step-3-create-queues)
-4.	[Creating routing rules](#step-4-creating-routing-rules)
+4.	[Create routing rules](#step-4-create-routing-rules)
 5.	[Create a chat widget](#step-5-create-a-chat-widget)
 
 ### Step 1: Create a bot user
@@ -59,10 +55,6 @@ To create a bot user:
 4.	Change the view to **Application Users**.
 
 5.	Select **New**.
-
-
-<!--In "Agent type" below, are there several choices and the user selects Bot? If so, I put Bot in bold.--> 
-
 
 6.	On the **New User** page, enter the following information:
     - **Name**: Name of the bot user.
@@ -89,7 +81,7 @@ You must create a work stream and the required context variable for the bot hand
 
 Queues distribute the incoming customer queries among bots and agents. You must add a bot user as the first user in the queue, followed by the agents. You can also create multiple queues for bot users and agents. For information on creating a queue, see [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md).
 
-### Step 4: Creating routing rules
+### Step 4: Create routing rules
 
 Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable (as defined in [Step 2](#step-2-create-a-work-stream-and-context-variable)).
 
@@ -114,7 +106,7 @@ This sample provides exact steps and configuration values to integrate a bot and
     - **CreditCardQueue**: Add agents who will handle credit card related queries.
     - **HomeLoanQueue**: Add agents who will handle home loan related queries.
 
-4.	Follow the instructions in [Step 4](#step-4-creating-routing-rules) to create three routing rules in the **BotWorkStream** work stream in the following order:
+4.	Follow the instructions in [Step 4](#step-4-create-routing-rules) to create three routing rules in the **BotWorkStream** work stream in the following order:
     - **BotRule**: Specify the work stream and queue as **BotWorkStream** and **BotQueue** respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query to bot](../media/bot-rule.png "Create a rule to send customer query to bot")
@@ -129,11 +121,7 @@ This sample provides exact steps and configuration values to integrate a bot and
 
 ## Privacy notice
 
-
-<!--Should the following note include a link to the Microsoft Privacy Statement?-->
-
-
-You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization’s compliance boundary (even if your organization is in a Government Cloud environment). For more information on how we process your data, please refer to the Microsoft Privacy Statement.
+You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization’s compliance boundary (even if your organization is in a Government Cloud environment). For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
 
 ### See also
 
