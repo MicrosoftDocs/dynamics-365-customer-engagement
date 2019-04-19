@@ -58,7 +58,7 @@ To run a rule, administrators follow these steps:
 Within the analysis job record that is created, **Status** indicates whether
 or not the job has completed.
 
-Once complete, the rules within the set show up in the **Analysis Results** grid.
+Once the job has completed, the rules within the set show up in the **Analysis Results** grid.
 
  > [!div class="mx-imgBorder"] 
  > ![](media/solution-health-hub-3.png  "Analysis results")
