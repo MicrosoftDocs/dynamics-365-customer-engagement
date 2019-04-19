@@ -33,10 +33,6 @@ To sign up for TeleSign:
 
 1.	Go to [TeleSign](https://www.telesign.com/) to sign up for an account if you don't have one already.
 
-
-<!--Not sure what "long code type" phone numbers are. Will the readers know? Maybe show an example.-->
-
-
 2.	Purchase support phone numbers through your TeleSign account. For preview, only long code type US phone numbers are supported.
 
 3.	Get the customer ID and API key from your TeleSign account. You will need to provide these while setting up the SMS channel in Omni-channel Engagement Hub.
