@@ -84,7 +84,7 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
 
 The following section provides information about connections between Dynamics 365 for Customer Engagement apps and Microsoft Teams.
 
-### Two connection states
+### Two connection states (only applies to step 3.1 **Entity Selection**)
 
 There are two connection states possible when connecting Dynamics 365 for Customer Engagement apps and Microsoft Teams: successful and failed. 
 
@@ -92,33 +92,27 @@ The successful connection state indicates that the connection was successfully s
 
 A failed connection means the connection was not successfully saved. When seeing this message, you should remove and connect the record again. See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
 
-### View and associate files 
+### View and associate files (only applies to step 3.1 **Entity Selection**)
 
-> [!NOTE]
-> This feature is currently only available for organizations in the North American region.
-
-Select the  **Files** tab in the connected Teams channel to associate files with a Dynamics 365 for Customer Engagement apps record. Files added here will appear in Dynamics 365 for Customer Engagement apps under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 for Customer Engagement apps, that document will appear in Teams under the **Files** tab.
+Select the **Files** tab in the connected Teams channel to associate files with a Dynamics 365 for Customer Engagement apps record. Files added here will appear in Dynamics 365 for Customer Engagement apps under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 for Customer Engagement apps, that document will appear in Teams under the **Files** tab.
 
 > [!div class="mx-imgBorder"] 
 > ![Files tab in Teams app](media/teams-files-tab.png "Files tab in Teams app")
 
-### Open a record in Dynamics 365 for Customer Engagement apps
+## Open a record in Dynamics 365 for Customer Engagement apps
 
 It's easy to use Teams to open a record in Dynamics 365 for Customer Engagement apps. From a record pinned in a Teams channel, select the **Go to website** button to open the record in Dynamics 365 for Customer Engagement apps.
 
 > [!div class="mx-imgBorder"] 
 > ![Open a record in Dynamics 365 for Customer Engagement apps](media/teams-open-record-d365.png "Open a record in Dynamics 365 for Customer Engagement apps")
 
-### Have a conversation
+## Have a conversation
 You can chat with your team members side-by-side with the Dynamics 365 record page. From a record pinned in a Teams channel, select the **Show tab converation** button to open the conversation tab.
 
 > [!div class="mx-imgBorder"] 
 > ![Start a conversation](media/teams-start-conversation.png "Start a conversation")
 
 ## Teams integration in Dynamics 365 for Customer Engagement apps
-
-> [!NOTE]
-> This feature is currently only available for organizations in the North American region.
 
 In Dynamics 365 for Customer Engagement apps, you can see the connected Microsoft Teams channel and files from the Microsoft Teams channel.
 
@@ -132,7 +126,7 @@ In addition, document management actions in Dynamics 365 for Customer Engagement
 > [!div class="mx-imgBorder"] 
 > ![Dynamics 365 for Customer Engagement apps document management in Teams](media/teams-documents-d365.png "Dynamics 365 for Customer Engagement apps document management in Teams")
 
-### If you see this message: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
+## If you see this message: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
 
 > [!div class="mx-imgBorder"] 
 > ![Shared files in multiple locations](media/teams-error-multiple-locations.png "Shared files in multiple locations")
@@ -142,10 +136,10 @@ When there is more than one Microsoft Teams channel connected to a Dynamics 365 
 > [!div class="mx-imgBorder"] 
 > ![Change document location](media/teams-change-document-location.png "Change document location")
 
-### Record types supporting Collaborate    
+## Record types supporting Collaborate    
 
-Currently, the following record types support using **Collaborate**. The **Collaborate** button will only appear for record types listed below.
-
+Currently, the following record types only support Microsoft Teams collaborate capabilities in Dynamisc 365 Customer Engagement app. The **Collaborate** button and file share option will only work with the record types listed below in Dynamisc 365 Customer Engagement app.
+ 
 - account
 - annotation
 - appointment
