@@ -46,11 +46,11 @@ In our example, follow these steps to go to the **Lead to Opportunity Sales Proc
 1. Set the filter to **All**.
 1. Search for, and then select the **Lead to Opportunity Sales Process** entity.
 
-   ![lead to opportunity sales process entity](media/attributes-best-practices\lead-opportunity-process.png)
+   ![lead to opportunity sales process entity](media/attributes-best-practices/lead-opportunity-process.png)
 
 Here, you can define views and charts just as you do on any other entity.
 
-![translation process entity details](media/attributes-best-practices\lead-to-opportunity-sales-process-details.png)
+![translation process entity details](media/attributes-best-practices/lead-to-opportunity-sales-process-details.png)
 
 An advantage of this approach is that you can use a single view or chart to report on business process flows that span multiple entities.
 
@@ -106,4 +106,4 @@ To build a classic Common Data Service workflow that creates activities for inte
 1. Define a condition to check if the **Active Stage** field equals **Propose**. 
 1. Create an appointment and phone call record for the internal review of the solution and the customer call to review the solution respectively.
 
-   ![close stage followup](media/attributes-best-practices\close-stage-followup.png)
+   ![close stage followup](media/attributes-best-practices/close-stage-followup.png)
