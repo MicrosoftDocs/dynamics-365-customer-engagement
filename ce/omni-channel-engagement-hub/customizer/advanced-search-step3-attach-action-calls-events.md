@@ -38,7 +38,7 @@ This topic describes how to attach the Omni-channel Advanced Search-related acti
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Select the **Down** arrow next to Dynamics 365.
+2. Select the Down arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
@@ -59,7 +59,7 @@ This topic describes how to attach the Omni-channel Advanced Search-related acti
     | Refresh | <ul> Initialize Omni-channel Context - Agent Session Search Page </ul> |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 4: Add the hosted controls, action calls, and events to configurations](advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
+> [Next topic: Step 4: Add the hosted control, action calls, and events to configurations](advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
 
 ## See also
 
