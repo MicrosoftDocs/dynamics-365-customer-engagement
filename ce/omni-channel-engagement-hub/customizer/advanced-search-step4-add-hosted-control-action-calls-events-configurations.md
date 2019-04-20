@@ -12,7 +12,7 @@ ms.assetid: 17C3F1A7-C755-464B-A7AC-3A4667A09000
 ms.custom: 
 ---
 
-# Step 4: Add the hosted controls, action calls, and events to configurations
+# Step 4: Add the hosted control, action calls, and events to configurations
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -44,7 +44,7 @@ This topic describes how to add hosted control, action calls, and events to conf
 
 4. Select **Configuration** and then select a configuration from the list.
 
-5. On the navigation bar, select the **Down** arrow next to **Configuration** and then select **Action Calls**.
+5. On the navigation bar, select the Down arrow next to **Configuration** and then select **Action Calls**.
 
 6. On the next page, select **Add Existing Action Call**, type the name of the action in the search bar, and then press **Enter** or select the search icon.
 
