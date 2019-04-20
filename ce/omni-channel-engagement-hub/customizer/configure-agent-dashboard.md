@@ -19,7 +19,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how to set up a Omni-channel Agent Dashboard for agents view the conversation (work items). When agents accept an incoming conversation notification request, they use the Omni-channel Agent Dashboard to engage with the customer.
+This topic describes how to set up an Omni-channel Agent Dashboard for agents to view the conversation (work items). When agents accept an incoming conversation notification request, they use the Omni-channel Agent Dashboard to engage with the customer.
 
 ## Prerequisites 
 
@@ -33,7 +33,7 @@ This topic describes how to set up a Omni-channel Agent Dashboard for agents vie
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-The steps for configuring a Omni-channel Agent Dashboard in Unified Service Desk are as follows:
+The steps for configuring an Omni-channel Agent Dashboard in Unified Service Desk are as follows:
 
 1. Create hosted control.
 

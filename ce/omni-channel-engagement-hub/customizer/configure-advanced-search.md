@@ -36,7 +36,7 @@ This topic describes how to configure Omni-channel Advanced Search for agents to
 
 The steps for configuring Omni-channel Advanced Search in Unified Service Desk are as follows:
 
-1. Create a Omni-channel Advanced Search hosted control.
+1. Create an Omni-channel Advanced Search hosted control.
 
 2. Create Omni-channel Advanced Search-related action calls.
 
@@ -49,7 +49,7 @@ The steps for configuring Omni-channel Advanced Search in Unified Service Desk a
 
 ## See also
 
-- [Step 2: Create customer summary related action calls](customer-summary-step2-create-action-calls.md)
-- [Step 3: Attach customer summary related action Calls to events](customer-summary-step3-attach-action-calls-events.md)
-- [Step 4: Add the hosted control, action calls, and events to Configurations](customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
+- [Step 2: Create Omni-channel Advanced Search related action calls](advanced-search-step2-create-action-calls.md)
+- [Step 3: Attach Omni-channel Advanced Search related action Calls to events](advanced-search-step3-attach-action-calls-events.md)
+- [Step 4: Add hosted control, action calls, and events to configurations](advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
 

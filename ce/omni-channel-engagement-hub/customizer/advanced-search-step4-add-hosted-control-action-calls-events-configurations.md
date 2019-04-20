@@ -34,13 +34,13 @@ This topic describes how to add hosted control, action calls, and events to conf
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-## Add the hosted control, action calls, and events to agent and supervisor configurations
+## Add the hosted controls, action calls, and events to agent and supervisor configurations
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
 2. Select the Down arrow next to Dynamics 365.
 
-3. Select **Unified Service Desk Administrator**
+3. Select **Unified Service Desk Administrator**.
 
 4. Select **Configuration** and then select a configuration from the list.
 
@@ -50,12 +50,12 @@ This topic describes how to add hosted control, action calls, and events to conf
 
 7. Add the action calls that are shown in the search results.
 
-8. Repeat steps 4 through 7 to add the hosted controls and the events by selecting the Down arrow next to **Configuration** and then selecting **Hosted Controls** and **Events**, respectively.
+8. Repeat steps 4 through 7 to add the hosted controls and the events by selecting the **Down** arrow next to **Configuration** and then selecting **Hosted Controls** and **Events**, respectively.
 
 9. When you've finished, select **Save**.  
 
 ## See also
 
 - [Step 1: Create advanced search hosted control](advanced-search-step1-create-hosted-control.md)
-- [Step 2: Create advanced search related action calls](advanced-search-step2-create-action-calls.md)
-- [Step 3: Attach advanced search related action call to events](advanced-search-step3-attach-action-calls-events.md)
+- [Step 2: Create advanced search-related action calls](advanced-search-step2-create-action-calls.md)
+- [Step 3: Attach advanced search-related action call to events](advanced-search-step3-attach-action-calls-events.md)

@@ -1,6 +1,6 @@
 ---
 title: "Attach action calls to the events | MicrosoftDocs"
-description: "Learn how to attach Omni-channel Agent Dashboard-related action calls to the out-of-the-box events for agents using Omni-channel Engagement Hub."
+description: "Learn how to attach the Omni-channel Agent Dashboard-related action calls to the out-of-the-box events for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -65,9 +65,5 @@ This topic describes how to attach Omni-channel Agent Dashboard-related action c
 
 ## See also
 
-
-<!--Should the following titles be "Step 1: Create Omni-channel Agent Dashboard hosted control" and "Step 2: Create action calls related to Omni-channel Agent Dashboard"?-->
-
-
-- [Step 1: Create communication panel hosted control](agent-dashboard-step1-create-hosted-control.md)
-- [Step 2: Create action calls related to communication panel](agent-dashboard-step2-create-action-calls.md)
+- [Step 1: Create Omni-channel Agent Dashboard hosted control](agent-dashboard-step1-create-hosted-control.md)
+- [Step 2: Create action calls related to Omni-channel Agent Dashboard](agent-dashboard-step2-create-action-calls.md)
