@@ -65,10 +65,7 @@ The sitemap displays the following record types:
 
 - **Dashboards**
 
-  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working on. Several dashboards are tailored for your role. To see the other dashboards, select the drop-down list next to **My Dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **My Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application. The dashboard displays the following forms:
-
-
-<!--from editor: In the paragraph above, the second to last sentence is incomplete. Should it be "As an agent, when you sign in to the application, the dashboard displays the following forms:" ?-->
+  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working on. Several dashboards are tailored for your role. To see the other dashboards, select the drop-down list next to **My Dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **My Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application, the dashboard displays the following streams:
 
 
     - My work items
@@ -89,11 +86,7 @@ The sitemap displays the following record types:
 
 - **Social Profiles**
 
-
-<!--from editor: The first sentence below need reworking. "...profiles that contact or account of the customer" doesn't make sense.-->
-
-
-  Social profiles are the profiles that contact or account of the customer has on social media. You use the social profiles to interact with the customer on social media and track all the conversations in Common Data Service.
+  Social profiles are the profiles of the customer on social media. You use the social profiles to interact with the customer on social media and track all the conversations in Common Data Service.
 
 - **Cases**
 
