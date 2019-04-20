@@ -1,6 +1,6 @@
 ---
-title: "Add Omni-channel Agent Dashboard related action calls to events | MicrosoftDocs"
-description: "Learn how to add the Omni-channel Agent Dashboard related action calls to events."
+title: "Add hosted control, action calls, and events to the configurations | MicrosoftDocs"
+description: "Learn how to add hosted control, action calls, and events to the configurations."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how to add action calls, events, and hosted control to the configurations in Unified Service Desk for Dynamics 365 for Customer Engagement instance.
+This topic describes how to add action calls, events, and hosted control to the configurations in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites
 

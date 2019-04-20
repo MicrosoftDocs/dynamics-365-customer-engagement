@@ -1,6 +1,6 @@
 ---
-title: "Create a Omni-channel Advanced Search-related action calls | MicrosoftDocs"
-description: "Learn how to set up the communication panel related action calls for agents using Omni-channel Engagement Hub."
+title: "Create Omni-channel Advanced Search-related action calls | MicrosoftDocs"
+description: "Learn how to create Advanced Search-related action calls for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -63,15 +63,17 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
     | General | Order | 1 |
     | General | Hosted Control | Omni-channel Advanced Search |
     | General | Action         | Close             |
-    | | | |
-    | | | |
+   
+    | Tab | Field | Value |
+    |------------------|------------------|------------------|
     | General | Name           | Update Conversation Context Entities    |
     | General | Order | 2 |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelUpdateContextEntities |
     | General | Data | ChatPayLoad=\[\[PostData\]\] |
-    | | | |
-    | | | |
+    
+    | Tab | Field | Value |
+    |------------------|------------------|------------------|
     | General | Name           | Load Agent Session Search Page    |
     | General | Order | 20 |
     | General | Hosted Control | Omni-channel Advanced Search |
@@ -79,7 +81,7 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
     | General | Data | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off <br> HideNavigationBar=true |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 3: Attach Omni-channel Advanced Search related action Calls to events](advanced-search-step3-attach-action-calls-events.md)
+> [Next topic: Step 3: Attach Omni-channel Advanced Search-related action calls to events](advanced-search-step3-attach-action-calls-events.md)
 
 ## See also
 

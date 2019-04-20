@@ -1,6 +1,6 @@
 ---
-title: "Create a Omni-channel Agent Dashboard-related action calls | MicrosoftDocs"
-description: "Learn how to set up the Omni-channel Agent Dashboard related action calls for agents using Omni-channel Engagement Hub."
+title: "Create Omni-channel Agent Dashboard-related action calls | MicrosoftDocs"
+description: "Learn how to set up the Omni-channel Agent Dashboard-related action calls for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -91,7 +91,7 @@ This topic demonstrates how to create Omni-channel Agent Dashboard-related actio
     | General | Data | url=/main.aspx?pagetype=dashboard&id=e8fb53c5-2f79-e811-8162-000d3aa3ef73&_canOverride=false <br> HideNavigationBar=True |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 3: Attach Omni-channel Agent Dashboard related action Calls to events](agent-dashboard-step3-attach-action-calls-events.md)
+> [Next topic: Step 3: Attach Omni-channel Agent Dashboard-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md)
 
 ## See also
 
