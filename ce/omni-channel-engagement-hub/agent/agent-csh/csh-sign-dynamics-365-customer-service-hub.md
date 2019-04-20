@@ -1,12 +1,12 @@
 ---
-title: "Sign in to Omni-channel Engagement Hub through Customer Service Hub app. | MicrosoftDocs"
-description: "Learn how to sign in to Omni-channel Engagement Hub through Customer Service Hub app."
+title: "Sign in to Omni-channel Engagement Hub through Customer Service Hub app | MicrosoftDocs"
+description: "Learn how to sign in to Omni-channel Engagement Hub through the Customer Service Hub app."
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 4/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6977E402-7EF8-4B0B-9837-E8A003422796
@@ -23,7 +23,7 @@ The Omni-channel Engagement Hub provides a unified experience for your agents in
 
 ## Sign in to Omni-channel Engagement Hub
 
-To sign in to Omni-channel Engagement Hub, follow the steps:
+To sign in to Omni-channel Engagement Hub, do the following:
 
 1. Go to `https://<orgURL>.dynamics.com/apps`.
 

@@ -1,12 +1,12 @@
 ---
 title: "Introduction to the agent interface of Omni-channel Engagement Hub app | MicrosoftDocs"
-description: "Learn about agent interface of Omni-channel Engagement Hub in Customer Service Hub app"
+description: "Learn about agent interface of Omni-channel Engagement Hub in the Customer Service Hub app"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 03/07/2019
+ms.date: 04/17/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 891E5572-F1D6-413C-8F2E-299AF3CC34F9
@@ -21,7 +21,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 ## Components in the agent interface
 
-When you sign in to Omni-channel Engagement Hub app, the agent interface has the following components:
+When you sign in to the Omni-channel Engagement Hub app, the agent interface has the following components:
 
 1. Session panel
 
@@ -35,16 +35,16 @@ When you sign in to Omni-channel Engagement Hub app, the agent interface has the
 
 ## 1. Session panel
 
-The vertical panel on the left side is the session panel that allows you (agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity. You can close any session manually by selecting the **X** button next to the session title.
+The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity. You can close any session manually by selecting the **X** button next to the session title.
 
-By default, the session panel is in expanded mode and it is collapsible based on your requirement. The **Home** session is default and you can't close the **Home** session. The Home session shows the default **Omni-channel Agent Dashboard**.
+By default, the session panel is in expanded mode and it is collapsible based on your requirement. The **Home** session is default and you can't close it. The Home session shows the default **Omni-channel Agent Dashboard**.
 
  > [!div class=mx-imgBorder]
  > ![Session panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omni-channel Engagement Hub app")
 
 ## 2. Communication panel
 
-Communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, communication panel is in minimized mode. That is, the minimized communication panel appears at the bottom left side. The landing page explains some of the key features of Omni-channel Engagement Hub and communication panel. To learn more, see [View communication panel](csh-conversation-control.md)
+The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in minimized mode. That is, the minimized communication panel appears at the bottom left side. The landing page explains some of the key features of Omni-channel Engagement Hub and the communication panel. To learn more, see [View communication panel](csh-conversation-control.md).
 
  > [!div class=mx-imgBorder]
  > ![Communication panel in the collapsed mode](../../media/oceh/oceh-agent-interface-communication-panel-collapsed.png "Communication panel in the collapsed mode")
@@ -56,16 +56,17 @@ To expand the communication panel, select the arrow on the gray bar of the commu
 
 ## 3. Application tab
 
-The horizontal bar below the Dynamics 365 Nav bar is called the application tab. Every customer session has at least one that is not closable and it is called Anchor tab. The Application tab has **+** icon, if you select the icon, the sitemap is available as a context menu. The sitemap shows the out-of-box and custom entities. You press **Ctrl** and select any link to open it in the application tab.
+The horizontal bar below the Dynamics 365 navigation bar is called the application tab. Every customer session has at least one that is not closable; it is called the Anchor tab. The Application tab has a **+** icon. If you select the icon, the sitemap is available as a context menu. The sitemap shows the out-of-box and custom entities. You press **Ctrl** and select any link to open it in the application tab.
 
 > [!div class=mx-imgBorder]
 > ![Omni-channel Engagement Hub sitemap appears when you select + icon in the application tab](../../media/oceh/oceh-agent-interface-sitemap.png "Omni-channel Engagement Hub sitemap in the application tab")
 
-The Sitemap displays the following record types:
+The sitemap displays the following record types:
 
 - **Dashboards**
 
-  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working. There are several dashboards tailored for your role. To see the other dashboards, select the drop-down list next to **My Dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **My Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application. The dashboard displays the following forms:
+  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working on. Several dashboards are tailored for your role. To see the other dashboards, select the drop-down list next to **My Dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **My Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application, the dashboard displays the following streams:
+
 
     - My work items
     - Open work items
@@ -85,11 +86,11 @@ The Sitemap displays the following record types:
 
 - **Social Profiles**
 
-  Social profiles are the profiles that contact or account of the customer has on social media. You use the social profiles to interact with the customer on social media and track all the conversations in Common Data Service.
+  Social profiles are the profiles of the customer on social media. You use the social profiles to interact with the customer on social media and track all the conversations in Common Data Service.
 
 - **Cases**
 
-  Cases (tickets or incidents) are the requests, inquiries, issues, feedbacks, complaints, and so on about the product or service that your customers need assistance to resolve. The cases will be routed to the queues to which you are added as an agent. You link the cases to the conversation and the details appear in the **Customer summary** form.
+  Cases (tickets or incidents) are the requests, inquiries, issues, feedback, complaints, and so on about the product or service that your customers need assistance with to resolve. The cases will be routed to the queues to which you are added as an agent. You link the cases to the conversation and the details appear in the **Customer summary** form.
 
 - **Queues**
 
@@ -101,7 +102,7 @@ The Sitemap displays the following record types:
 
 ## 4. Omni-channel Agent Dashboard
 
-   When you sign in to Omni-channel Engagement Hub, as an agent, you see the Omni-channel Agent Dashboard that shows the different work items in streams. The dashboard is present in the application tab of **Home** session and you can't close the dashboard tab.
+   When you sign in to Omni-channel Engagement Hub, as an agent, you see the Omni-channel Agent Dashboard that shows the different work items in streams. The dashboard is present in the application tab of the **Home** session and you can't close the dashboard tab.
 
    > [!div class=mx-imgBorder]
    > ![Omni-channel Agent Dashboard shows My work items, Open work items, and closed work items](../../media/oceh/oceh-agent-interface-oceh-dashboard.png "Omni-channel Agent Dashboard")
@@ -112,7 +113,7 @@ The Sitemap displays the following record types:
 
  - **Open work items**
 
-   In this stream, you see the conversations (work items) in a waiting state from all queues that are available for you to pick. You can see the conversations (work item) for the work streams where you are added as a member. Select the ellipses and select the **Pick** option to assign the work item to yourself. When you select **Pick** the system moves the work item from the **Open work items** stream to the **My work items** stream, and you can see the message **Work item picked successfully. Work item: < subject of work item >**. Your presence status is updated and the capacity is automatically blocked.
+   In this stream, you see the conversations (work items) in a waiting state from all queues that are available for you to pick. You can see the conversations (work item) for the work streams where you are added as a member. Select the ellipses and select the **Pick** option to assign the work item to yourself. When you select **Pick**, the system moves the work item from the **Open work items** stream to the **My work items** stream, and you can see the message **Work item picked successfully. Work item: < subject of work item >**. Your presence status is updated and the capacity is automatically blocked.
 
  - **Closed work items**
 
@@ -120,7 +121,7 @@ The Sitemap displays the following record types:
 
 ## 5. Navigation bar buttons
 
-   The navigation bar buttons of Omni-channel Engagement Hub in Customer Service Hub app contains the following:
+   The navigation bar buttons of Omni-channel Engagement Hub in the Customer Service Hub app contains the following:
 
    ![Navigation bar buttons of Omni-channel Engagement Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")
 
@@ -136,7 +137,7 @@ The Sitemap displays the following record types:
     
    f. **Settings.** Set personal options.
     
-   g. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down to select a status.
+   g. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down list to select a status.
     
    h. **Help.** Get the help documentation.
     
@@ -152,7 +153,7 @@ The Sitemap displays the following record types:
     
  ### Create
     
-   The quick create option provides the list of related records (entities) that you can create. The following are the record types that you can create: 
+   The quick-create option provides the list of related records (entities) that you can create. The following are the record types that you can create: 
     
    - Activities
    - Appointment
@@ -166,12 +167,12 @@ The Sitemap displays the following record types:
     
   Select the expand button next to Activities to create different activities.
     
-   ![Quick create option in Omni-channel Engagement Hub](../../media/csh-quick-create.png) ![Quick create option for activities in Omni-channel Engagement Hub](../../media/csh-quick-create-activities.png)
+   ![Quick-create option in Omni-channel Engagement Hub](../../media/csh-quick-create.png) ![Quick-create option for activities in Omni-channel Engagement Hub](../../media/csh-quick-create-activities.png)
     
    When you select any record, the application displays a new quick create form. For example, select the **Account** record from the list. The application displays the **Quick Create: Account** form. Specify the details in the fields and save the form.
 
 > [!div class="mx-imgBorder"]
-> ![Quick create form account](../../media/oceh/oceh-quick-create-forms-account.png "Quick create form account")
+> ![Quick create account form](../../media/oceh/oceh-quick-create-forms-account.png "Quick create account form")
 
 > [!div class="nextstepaction"]
 > [Next topic: Understand conversation states](csh-conversation-state.md)
