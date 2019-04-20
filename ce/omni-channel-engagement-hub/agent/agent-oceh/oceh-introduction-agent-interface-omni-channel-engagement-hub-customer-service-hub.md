@@ -1,6 +1,6 @@
 ---
 title: "Introduction to the agent interface of Omni-channel Engagement Hub app | MicrosoftDocs"
-description: "Learn about agent interface of Omni-channel Engagement Hub in the Customer Service Hub app"
+description: "Learn about agent interface of Omni-channel Engagement Hub in the Omni-channel Engagement Hub app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -44,7 +44,7 @@ By default, the session panel is in expanded mode and it is collapsible based on
 
 ## 2. Communication panel
 
-The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in minimized mode. That is, the minimized communication panel appears at the bottom left side. The landing page explains some of the key features of Omni-channel Engagement Hub and the communication panel. To learn more, see [View communication panel](csh-conversation-control.md).
+The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in minimized mode. That is, the minimized communication panel appears at the bottom left side. The landing page explains some of the key features of Omni-channel Engagement Hub and the communication panel. To learn more, see [View communication panel](oceh-conversation-control.md).
 
  > [!div class=mx-imgBorder]
  > ![Communication panel in the collapsed mode](../../media/oceh/oceh-agent-interface-communication-panel-collapsed.png "Communication panel in the collapsed mode")
@@ -121,9 +121,9 @@ The sitemap displays the following record types:
 
 ## 5. Navigation bar buttons
 
-   The navigation bar buttons of Omni-channel Engagement Hub in the Customer Service Hub app contains the following:
+   The navigation bar buttons of Omni-channel Engagement Hub in the Omni-channel Engagement Hub app contains the following:
 
-   ![Navigation bar buttons of Omni-channel Engagement Hub](../../media/csh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")
+   ![Navigation bar buttons of Omni-channel Engagement Hub](../../media/oceh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")
 
    a. **Search.** Do a simple search for records.
     
@@ -167,7 +167,7 @@ The sitemap displays the following record types:
     
   Select the expand button next to Activities to create different activities.
     
-   ![Quick-create option in Omni-channel Engagement Hub](../../media/csh-quick-create.png) ![Quick-create option for activities in Omni-channel Engagement Hub](../../media/csh-quick-create-activities.png)
+   ![Quick-create option in Omni-channel Engagement Hub](../../media/oceh-quick-create.png) ![Quick-create option for activities in Omni-channel Engagement Hub](../../media/oceh-quick-create-activities.png)
     
    When you select any record, the application displays a new quick create form. For example, select the **Account** record from the list. The application displays the **Quick Create: Account** form. Specify the details in the fields and save the form.
 
@@ -175,9 +175,9 @@ The sitemap displays the following record types:
 > ![Quick create account form](../../media/oceh/oceh-quick-create-forms-account.png "Quick create account form")
 
 > [!div class="nextstepaction"]
-> [Next topic: Understand conversation states](csh-conversation-state.md)
+> [Next topic: Understand conversation states](oceh-conversation-state.md)
 
 ## See also
 
-- [Sign in to Omni-channel Engagement Hub](csh-sign-dynamics-365-customer-service-hub.md)
-- [View communication panel](csh-conversation-control.md)
+- [Sign in to Omni-channel Engagement Hub](oceh-sign-dynamics-365-customer-service-hub.md)
+- [View communication panel](oceh-conversation-control.md)

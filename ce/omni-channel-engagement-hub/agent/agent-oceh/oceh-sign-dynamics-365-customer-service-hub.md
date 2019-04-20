@@ -1,6 +1,6 @@
 ---
-title: "Sign in to Omni-channel Engagement Hub through Customer Service Hub app | MicrosoftDocs"
-description: "Learn how to sign in to Omni-channel Engagement Hub through the Customer Service Hub app."
+title: "Sign in to Omni-channel Engagement Hub through Omni-channel Engagement Hub app | MicrosoftDocs"
+description: "Learn how to sign in to Omni-channel Engagement Hub through the Omni-channel Engagement Hub app."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -32,9 +32,9 @@ To sign in to Omni-channel Engagement Hub, do the following:
     ![Sign in to Omni-channel Engagement Hub](../../media/oceh-sign-in.png "Sign in to Omni-channel Engagement Hub")
 
 > [!div class="nextstepaction"]
-> [Next topic: Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md) 
+> [Next topic: Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md) 
 
 ## See also
 
-- [View communication panel](csh-conversation-control.md)
-- [Set user presence](csh-set-user-presence-status.md)
+- [View communication panel](oceh-conversation-control.md)
+- [Set user presence](oceh-set-user-presence-status.md)

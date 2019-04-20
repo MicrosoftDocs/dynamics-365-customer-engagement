@@ -25,19 +25,19 @@ Knowledge management plays an important part in the customer service process, an
 
 Omni-channel Engagement Hub enables you to use the rich knowledge base (KB) in Dynamics 365 so that you can quickly search for relevant information while working on a case and provide accurate answers to customers without having to switch applications.
 
-![Search Knowledge articles](../../media/csh-oc-knowledge-articles-search.png "Search Knowledge articles")   
+![Search Knowledge articles](../../media/oceh-oc-knowledge-articles-search.png "Search Knowledge articles")   
 
 You can search for a KB article using the **KB Search** tab, and then view the article and use the **Send Link** option to share the link with the customer.
 
-![Search knowledge articles using the option from conversation control](../../media/csh-oc-search-knowledge-articles-cc.png "Search knowledge articles using the option from conversation control")
+![Search knowledge articles using the option from conversation control](../../media/oceh-oc-search-knowledge-articles-cc.png "Search knowledge articles using the option from conversation control")
 
 When you interact with a customer in the conversation control, you can use the **Knowledge articles** option to launch the **KB Search** tab. Then you can search and share the KB articles.
 
 > [!div class="nextstepaction"]
-> [Next topic: Take notes specific to conversation](csh-take-notes.md)
+> [Next topic: Take notes specific to conversation](oceh-take-notes.md)
 
 ## See also
 
-- [View communication panel](csh-conversation-control.md)
-- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
+- [View communication panel](oceh-conversation-control.md)
+- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
+- [View customer summary](oceh-customer-360-overview-of-the-existing-challenges.md)

@@ -31,7 +31,7 @@ You can find the following activity types in Dynamics 365 for Customer Engagemen
 
 The Conversation Form displays information about an engagement request.
 
-![Omni-channel conversation form](../../media/csh-oc-conversation-form.png "Omni-channel conversation form")  
+![Omni-channel conversation form](../../media/oceh-oc-conversation-form.png "Omni-channel conversation form")  
 
 | **Tab** | **Section**     | **Fields**        |
 |---------|-----------------|-------------------|
@@ -44,7 +44,7 @@ The Conversation Form displays information about an engagement request.
 
 The session form displays information about a conversation request.
 
-![Omni-channel session form](../../media/csh-oc-session-form.png "Omni-channel session form")  
+![Omni-channel session form](../../media/oceh-oc-session-form.png "Omni-channel session form")  
 
 | **Tab** | **Section**          | **Field**          |
 |---------|----------------------|--------------------|
@@ -55,11 +55,11 @@ The session form displays information about a conversation request.
 The Session Participants section lets you add a participant related to the session or add a session participant that already exists for the record you are working with.
 
 > [!div class="nextstepaction"]
-> [Next topic: View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+> [Next topic: View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
 
 ## See also
 
-- [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
-- [Create a record](csh-create-record.md)
-- [Search for records](csh-search-record.md)
-- [Link and unlink a record](csh-link-unlink-record.md)
+- [View customer summary](oceh-customer-360-overview-of-the-existing-challenges.md)
+- [Create a record](oceh-create-record.md)
+- [Search for records](oceh-search-record.md)
+- [Link and unlink a record](oceh-link-unlink-record.md)

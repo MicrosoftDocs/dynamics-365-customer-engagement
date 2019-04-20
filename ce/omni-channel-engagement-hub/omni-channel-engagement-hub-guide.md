@@ -47,13 +47,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <h2> I'm an agent </h2>
 
 <li><a href="agent/omni-channel-engagement-hub-agent-introduction.md" data-raw-source="[Omni-channel agent](agent/omni-channel-engagement-hub-agent-introduction.md)">Omni-channel agent</a></li>
-<li><a href="agent/agent-csh/csh-omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
-](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)">Use on Customer Service Hub</a></li>
+<li><a href="agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
+](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)">Use on Customer Service Hub</a></li>
 <li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
 ](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Use on Unified Service Desk</a></li>
-<li><a href="agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Customer Service Hub)](agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Customer Service Hub)</a> </li>
+<li><a href="agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Customer Service Hub)](agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Customer Service Hub)</a> </li>
 <li><a href="agent/agent-usd/customer360-overview-existing-challenges.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer360-overview-existing-challenges.md)">View customer summary (Unified Service Desk)</a></li>
-<li><a href="agent/agent-csh/csh-conversation-control.md" data-raw-source="[View communication panel (Customer Service Hub)](agent/agent-csh/csh-conversation-control.md)">View communication panel (Customer Service Hub)</a></li>
+<li><a href="agent/agent-oceh/oceh-conversation-control.md" data-raw-source="[View communication panel (Customer Service Hub)](agent/agent-oceh/oceh-conversation-control.md)">View communication panel (Customer Service Hub)</a></li>
 <li><a href="agent/agent-usd/left-control-panel.md" data-raw-source="[View communication panel (Unified Service Desk)](agent/agent-usd/left-control-panel.md)">View communication panel (Unified Service Desk)</a></li>
 </td>
 <td>

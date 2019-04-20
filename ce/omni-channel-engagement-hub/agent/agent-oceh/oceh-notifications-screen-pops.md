@@ -74,12 +74,12 @@ The details you’ll see for a chat channel are:
  - Recent activities
 
 > [!div class="nextstepaction"]
-> [Next topic: View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
+> [Next topic: View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
 
 ## See also
 
-- [View communication panel](csh-conversation-control.md)
-- [Set user presence](csh-set-user-presence-status.md)
-- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
-- [Take notes specific to conversation](csh-take-notes.md)
-- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+- [View communication panel](oceh-conversation-control.md)
+- [Set user presence](oceh-set-user-presence-status.md)
+- [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
+- [Take notes specific to conversation](oceh-take-notes.md)
+- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)

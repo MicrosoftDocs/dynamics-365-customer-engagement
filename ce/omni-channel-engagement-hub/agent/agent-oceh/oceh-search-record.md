@@ -91,15 +91,15 @@ For the **Issue snapshot**, you can search for Case (Incident) entity. By defaul
 
 Only active views are displayed for the search results. Also, you can customize the **Quick Find View** and **Lookup View** to change the searchable fields as per your business requirements. More information [Understand views](/dynamics365/customer-engagement/customize/create-edit-views) and [Unified Interface Lookup view leverages Quick Find View](https://blogs.msdn.microsoft.com/crm/2018/11/02/unified-interface-lookup-now-leverages-quick-find-view/)
 
-To learn on how to link a record, see [Link a record to the conversation](csh-link-unlink-record.md)
+To learn on how to link a record, see [Link a record to the conversation](oceh-link-unlink-record.md)
 
 ## Search for records using the search option
 
 Search the Omni-channel records using the search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select **Search**. You will see the details in the form of a list.
 
-![Search for records using the Omni-channel search](../../media/csh-oc-search-record.png "Search for records using the Omni-channel search")  
+![Search for records using the Omni-channel search](../../media/oceh-oc-search-record.png "Search for records using the Omni-channel search")  
 
-1.  Select the search icon ![Omni-channel search icon](../../media/csh-oc-search-icon.png "Omni-channel search icon"). The application launches the Omni-channel search tab.  
+1.  Select the search icon ![Omni-channel search icon](../../media/oceh-oc-search-icon.png "Omni-channel search icon"). The application launches the Omni-channel search tab.  
 
 2. Specify any of the following values based on your search requirements.
 
@@ -118,14 +118,14 @@ Search the Omni-channel records using the search option. When you select the Sea
 
 3. Select **Search**. The search results appear.
 
- ![Search account record using Omni-channel search](../../media/csh-oc-search-record-account.png "Search account record using Omni-channel search")
+ ![Search account record using Omni-channel search](../../media/oceh-oc-search-record-account.png "Search account record using Omni-channel search")
 
  > [!div class="nextstepaction"]
- > [Next topic: Link and unlink a record](csh-link-unlink-record.md)
+ > [Next topic: Link and unlink a record](oceh-link-unlink-record.md)
 
 ## See also
 
-- [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
-- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
-- [Create a record](csh-create-record.md)
+- [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
+- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
+- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
+- [Create a record](oceh-create-record.md)

@@ -1,6 +1,6 @@
 ---
 title: "Create a record in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn how to create a record when using Omni-channel Engagement Hub in Customer Service Hub app."
+description: "Learn how to create a record when using Omni-channel Engagement Hub in Omni-channel Engagement Hub app."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -29,23 +29,23 @@ When no records are linked to the conversation in the Omni-channel Engagement Hu
  - Account
 
  > [!div class=mx-imgBorder]
- > ![Quick create record](../../media/oc-csh-create-quick-create.png "Quick create record")
+ > ![Quick create record](../../media/oc-oceh-create-quick-create.png "Quick create record")
 
 3. In the left pane, you can see a new record page. Specify the details in the form.
 
 4. Select **Save and Close** to save the changes and close the form.
 
  > [!div class=mx-imgBorder]
- > ![Quick create contact](../../media/oc-csh-quick-create-contact.png "Quick create contact")
+ > ![Quick create contact](../../media/oc-oceh-quick-create-contact.png "Quick create contact")
 
 After you save the changes, the record is linked to the conversation. You can see the linked conversation in the Customer summary page.
 
 > [!div class="nextstepaction"]
-> [Next topic: Search for records](csh-search-record.md)
+> [Next topic: Search for records](oceh-search-record.md)
 
 ## See also
 
-- [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
-- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
-- [Link and unlink a record](csh-link-unlink-record.md)
+- [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
+- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
+- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
+- [Link and unlink a record](oceh-link-unlink-record.md)

@@ -29,9 +29,9 @@ Omni-channel Engagement Hub is a solution on the following:
 
 - Unified Service Desk
 
-- Customer Service Hub app
+- Omni-channel Engagement Hub app
 
 ## See also
 
 - [Agents using Unified Service Desk](agent-usd/omni-channel-engagement-hub-agent.md)
-- [Agents using Customer Service Hub app](agent-csh/csh-omni-channel-engagement-hub-agent.md)
+- [Agents using Omni-channel Engagement Hub app](/oceh-omni-channel-engagement-hub-agent.md)

@@ -25,23 +25,23 @@ The Omni-channel Engagement Hub application on a web browser provides a unified 
 
 Use the resources in the following sections to learn how to use Omni-channel Engagement Hub.
 
-- [Sign in to Omni-channel Engagement Hub](csh-sign-dynamics-365-customer-service-hub.md)
-- [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
-- [View communication panel](csh-conversation-control.md)
-- [Set user presence](csh-set-user-presence-status.md)
-- [View notifications and screen pops](csh-notifications-screen-pops.md)
-- [View customer summary](csh-customer-360-overview-of-the-existing-challenges.md)
-- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
-- [Take notes specific to conversation](csh-take-notes.md)
-- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
-- [Create a record](csh-create-record.md)
-- [Search for records](csh-search-record.md)
+- [Sign in to Omni-channel Engagement Hub](oceh-sign-dynamics-365-customer-service-hub.md)
+- [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
+- [View communication panel](oceh-conversation-control.md)
+- [Set user presence](oceh-set-user-presence-status.md)
+- [View notifications and screen pops](oceh-notifications-screen-pops.md)
+- [View customer summary](oceh-customer-360-overview-of-the-existing-challenges.md)
+- [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
+- [Take notes specific to conversation](oceh-take-notes.md)
+- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
+- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
+- [Create a record](oceh-create-record.md)
+- [Search for records](oceh-search-record.md)
 
 
 ## How-tos
 
-- [Communication panel](csh-conversation-control.md)
-- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
-- [Create a record](csh-create-record.md)
-- [Search for records](csh-search-record.md)
+- [Communication panel](oceh-conversation-control.md)
+- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
+- [Create a record](oceh-create-record.md)
+- [Search for records](oceh-search-record.md)

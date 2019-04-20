@@ -40,13 +40,13 @@ During inline search, the search results are displayed and you can select a reco
 Based on the search results, you can choose to link a record from the list. You can link only one record to a conversation.
 
 > [!div class=mx-imgBorder]
-> ![Select the record to link](../../media/csh-oc-search-link-account-record.png "Select the record to link")  
+> ![Select the record to link](../../media/oceh-oc-search-link-account-record.png "Select the record to link")  
 
-1.  Select the ![Record selection icon](../../media/csh-oc-search-record-selection-icon.png "Record selection icon") icon to view the selection list. <br>![Select icon to open selection of records to link](../../media/csh-oc-select-icon-link.png "Select icon to open selection of records to link")
+1.  Select the ![Record selection icon](../../media/oceh-oc-search-record-selection-icon.png "Record selection icon") icon to view the selection list. <br>![Select icon to open selection of records to link](../../media/oceh-oc-select-icon-link.png "Select icon to open selection of records to link")
 
-2.  Select the check box next to the record you want to link.<br> ![Record selection check box](../../media/csh-oc-record-selection-checkbox.png "Record selection check box")  
+2.  Select the check box next to the record you want to link.<br> ![Record selection check box](../../media/oceh-oc-record-selection-checkbox.png "Record selection check box")  
 
-3.  Select the link button at the top.<br> ![Select record to link](../../media/csh-oc-select-record-link.png "Select record to link")
+3.  Select the link button at the top.<br> ![Select record to link](../../media/oceh-oc-select-record-link.png "Select record to link")
 
 After you link the record to the conversation, the Customer summary page refreshes and reflects the details. Similarly, you can link other record types.
 
@@ -58,21 +58,21 @@ After you link the record to the conversation, the Customer summary page refresh
 You can unlink a record only when you are interacting with a customer using the communication panel. That is, after you accept an incoming conversation request and view the **Customer summary** page, you can unlink the record from the conversation. 
 
 > [!div class=mx-imgBorder]
-> ![Select the X button next to the textbox to unlink](../../media/csh-oc-unlink-customer.PNG "Unlink a record")
+> ![Select the X button next to the textbox to unlink](../../media/oceh-oc-unlink-customer.PNG "Unlink a record")
 
 To unlink a record, select the **X** button next to the customer name in the **Customer profile** form. After the record is removed, the **Customer profile** form is blank. 
 
 > [!div class=mx-imgBorder]
-> ![Blank customer profile form after unlinking the record](../../media/csh-oc-unlinked-form.PNG "Blank customer profile form after unlinking the record")
+> ![Blank customer profile form after unlinking the record](../../media/oceh-oc-unlinked-form.PNG "Blank customer profile form after unlinking the record")
 
 > [!Note]
 > You can link and unlink only one contact or account in the **Customer profile** section and one case in the **Issue snapshot** section.
 
 ## See also
 
-- [View customer summary and know everything about customers](csh-customer-360-overview-of-the-existing-challenges.md)
-- [Search for and share knowledge articles](csh-search-knowledge-articles.md)
-- [Take notes specific to conversation](csh-take-notes.md)
-- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](csh-view-conversations-sessions-dynamics-365-apps.md)
-- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
-- [Create a record](csh-create-record.md)
+- [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
+- [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
+- [Take notes specific to conversation](oceh-take-notes.md)
+- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
+- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
+- [Create a record](oceh-create-record.md)

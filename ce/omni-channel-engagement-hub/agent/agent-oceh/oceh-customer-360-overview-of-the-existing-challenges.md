@@ -82,9 +82,9 @@ This section displays case- and customer-related activities in the form of a tim
 > ![Recent activities section in the customer summary form](../../media/customer-summary-recent-activities.PNG "Recent activities section in the customer summary form")
 
 > [!div class="nextstepaction"]
-> [Next topic: Search for and share knowledge articles](csh-search-knowledge-articles.md)
+> [Next topic: Search for and share knowledge articles](oceh-search-knowledge-articles.md)
 
 ## See also
 
-- [View communication panel](csh-conversation-control.md)
-- [View customer summary for an incoming conversation request](csh-view-customer-360-incoming-conversation-request.md)
+- [View communication panel](oceh-conversation-control.md)
+- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
