@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how to add action calls, events, and hosted controls to the configurations in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
+This topic describes how to add action calls, events, and hosted control to the configurations in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites
 
