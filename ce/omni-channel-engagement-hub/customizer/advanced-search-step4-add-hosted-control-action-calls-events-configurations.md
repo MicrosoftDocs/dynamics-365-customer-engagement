@@ -1,6 +1,6 @@
 ---
-title: "Add hosted controls, action calls, and events to configurations | MicrosoftDocs"
-description: "Learn how to add hosted controls, action calls, and events to configurations for agents using Omni-channel Engagement Hub."
+title: "Add hosted control, action calls, and events to configurations | MicrosoftDocs"
+description: "Learn how to add hosted control, action calls, and events to configurations for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how to add hosted controls, action calls, and events to configurations in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
+This topic describes how to add hosted control, action calls, and events to configurations in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites 
 
@@ -38,7 +38,7 @@ This topic describes how to add hosted controls, action calls, and events to con
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Select the **Down** arrow next to Dynamics 365.
+2. Select the Down arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
