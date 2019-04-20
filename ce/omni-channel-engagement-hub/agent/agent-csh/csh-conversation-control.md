@@ -56,10 +56,6 @@ When you want to send messages only to the internal participants like other agen
 
 You can use keyboard shortcuts to send internal and public messages:
 
-
-<!--Do the letters I and P need to be uppercase?-->
-
-
 - **/I** – Press the forward slash (/) key and the letter I to send an internal message to other agents and/or a supervisor.
 
 - **/P** – Press the forward slash (/) key and the letter P to send a public message to all the participants in the interaction.
