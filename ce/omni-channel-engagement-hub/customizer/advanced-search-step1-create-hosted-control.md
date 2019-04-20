@@ -22,7 +22,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <!--Should the following sentence say "... create an Advanced Search hosted control..." ?-->
 
 
-This topic describes how to create an advanced hosted control in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
+This topic describes how to create an Advanced Search hosted control in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites 
 
