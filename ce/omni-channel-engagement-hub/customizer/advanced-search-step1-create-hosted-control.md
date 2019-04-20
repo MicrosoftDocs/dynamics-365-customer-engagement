@@ -18,10 +18,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-
-<!--Should the following sentence say "... create an Advanced Search hosted control..." ?-->
-
-
 This topic describes how to create an Advanced Search hosted control in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites 
@@ -40,7 +36,7 @@ This topic describes how to create an Advanced Search hosted control in Unified 
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-2. Select the **Down** arrow next to Dynamics 365.
+2. Select the Down arrow next to Dynamics 365.
 
 3. Select **Unified Service Desk Administrator**.
 
@@ -69,4 +65,4 @@ This topic describes how to create an Advanced Search hosted control in Unified 
 ## See also
 
 - [Step 3: Attach advanced search-related action call to events](advanced-search-step3-attach-action-calls-events.md)
-- [Step 4: Add hosted controls, action calls, and events to configurations](advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
+- [Step 4: Add hosted control, action calls, and events to configurations](advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
