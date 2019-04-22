@@ -26,9 +26,9 @@ search.app:
   - D365FS
 ---
 
-# Work Order and Booking Statuses
+# Work Order life cycle and statuses
 
-Work Order System Statuses, Work Order Substatuses, and Booking Statuses all work together to help stakeholders stay up to date with work orders. Updating one of these statuses can update the others automatically.
+Work Order System Statuses, Work Order Substatuses, and Booking Statuses all work together to help stakeholders stay up to date with work orders during the life cycle from creation to close. Updating one of these statuses can update the others automatically.
 
 **Work Order System Statuses** are noted on the Work Order entity, mark the current point of a work order in its life cycle, are part of the product by default and **should not** be edited, and are:
 
@@ -79,25 +79,15 @@ Lets explore work order and booking statuses with the following scenarios:
 
 Field Service ships with standard Work Order System Statuses and Booking Statuses that should be considered during all field service implementations because many processes are triggered based on those statuses that make the field service app more valuable for an organization by **(1)** automatically calculating and populating data and **(2)** automating the next step in the work order process. As one example, when the **booking status** is changed to **in progress** to indicate the field technician has arrived on site, the Actual Arrival Time field is populated accordingly on the bookable resource booking. As another example, when the **work order system status** is changed to **Open-Completed**, applicable Work Order Products are converted to Customer Assets to begin building service history.
 
-### Related processes
+Let's walk through the standard work order and booking statuses at each stage of the work order life cycle.
 
-When the Work Order System Statuses becomes:
+When a work order is created, it has a status of **Open-Unscheduled** by default.
 
-- Open - Unscheduled
-- Open - Scheduled
-- Open - In Progress
-- Open - Completed
-- Closed - Posted
-- Closed - Canceled
+Once the work order is scheduled, i.e. a booking is created for it, the work order system status becomes **Open-Scheduled**.
 
-When the Bookable Resource Booking, Booking Statuses becomes: 
+The Booking that is created when the work order is scheduled has a booking status of Scheduled by default.
 
-- Scheduled
-- Traveling
-- In Progress
-- On Break
-- Completed
-- Canceled
+After the work order is scheduled to a field technician resource, it is viewable on the Field Service Mobile app and the next step is for the field technician to note that he or she is traveling to the work order location by changing the booking status to **Traveling**. 
 
 ## Estimate Work Order Sub-status
 ## Delayed Booking Status
@@ -110,4 +100,23 @@ When the Bookable Resource Booking, Booking Statuses becomes:
 - Booking statuses with RSO
   - new ones
   - simulation -RSO
+
 ## Additional Notes
+> ### Related processes
+> When the Work Order System Statuses becomes:
+
+  > - Open - Unscheduled
+  > - Open - Scheduled
+  > - Open - In Progress
+  > - Open - Completed
+  > - Closed - Posted
+  > - Closed - Canceled
+
+  > When the Bookable Resource Booking, Booking Statuses becomes: 
+
+  > - Scheduled
+  > - Traveling
+  > - In Progress
+  > - On Break
+  > - Completed
+  > - Canceled
