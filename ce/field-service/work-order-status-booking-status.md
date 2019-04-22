@@ -89,6 +89,11 @@ The Booking that is created when the work order is scheduled has a booking statu
 
 After the work order is scheduled to a field technician resource, it is viewable on the Field Service Mobile app and the next step is for the field technician to note that he or she is traveling to the work order location by changing the booking status to **Traveling**. 
 
+Because each booking status has a color, this change is displayed on the schedule board.
+
+Changing the booking status to Traveling automatically changes the work order system status to **Open - In Progress**.
+
+When the field technician arrives on site and is ready to begin the work order, he or she changes the booking status to **In Progress**.
 ## Estimate Work Order Sub-status
 ## Delayed Booking Status
 
