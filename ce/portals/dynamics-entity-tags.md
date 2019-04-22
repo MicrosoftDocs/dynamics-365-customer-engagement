@@ -136,12 +136,11 @@ If you have assigned a role to a Power BI report and don't specify the **roles**
 > [!TIP]
 > If you want to use the web roles defined in your portal as the Power BI roles, you can define a variable and assign them to it. You can then use the variable in the Liquid tag.
 >
-> Let's say you have defined web roles as Region_East and Region_West in your portal. You can join them by using the following code:
-> `{% assign webroles = user.roles | join: ", " %}`
+> Let's say you have defined web roles as Region_East and Region_West in your portal. You can join them by using the code: `{% assign webroles = user.roles | join: ", " %}`
 >
-> In the above code snippet, webroles is a variable and the Region_East and Region_West web roles will be stored in it.
+> In the above code snippet, `webroles` is a variable and the Region_East and Region_West web roles will be stored in it.
 >
-> Use the variable as follows in the Liquid tag:
+> Use the `webroles` variable as follows in the Liquid tag:
 >
 > `{% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000000/ReportSection2" roles:webroles%}`
 
