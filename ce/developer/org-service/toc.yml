@@ -8,75 +8,16 @@
   - name: Use the Organization Service to read and write data or metadata
     href: use-organization-service-read-write-data-metadata.md
     items:
-    - name: Organization service methods
-      href: organization-service-methods.md
-    - name: Use messages (request and response classes) with the Execute method
-      href: use-messages-request-response-classes-execute-method.md
     - name: Use ExecuteMultiple to improve performance for bulk data load
       href: use-executemultiple-improve-performance-bulk-data-load.md
-    - name: xRM messages in the Organization service
-      href: xrm-messages-organization-service.md
-    - name: Organization service messages
-      href: organization-service-messages.md
-    - name: Perform specialized operations using Update
-      href: perform-specialized-operations-using-update.md
-    - name: Organization service entities
-      href: organization-service-entities.md
-    - name: 'Sample: Execute multiple requests'
-      href: sample-execute-multiple-requests.md
-    - name: 'Sample: Execute multiple requests in transaction'
-      href: sample-execute-multiple-requests-transaction.md
     - name: Metadata operations
       items:
-      - name: Create a custom entity
-        href: create-custom-entity.md
-      - name: Retrieve, update, and delete entities
-        href: retrieve-update-delete-entities.md
-      - name: Create and update an entity to send email activities to records
-        href: create-update-entity-emailed.md
-      - name: Create a custom activity entity
-        href: create-custom-activity-entity.md
-      - name: Entity Metadata samples
-        items:
-        - name: 'Sample: Create and update entity metadata'
-          href: sample-create-update-entity-metadata.md
-        - name: 'Sample: Create a custom activity entity'
-          href: sample-create-custom-activity-entity.md
-        - name: 'Sample: Create and update an emailable entity'
-          href: sample-create-update-emailable-entity.md
-        - name: 'Sample: Dump entity metadata to a file'
-          href: sample-dump-entity-metadata-file.md
-        - name: 'Sample: Dump entity privilege information to a file'
-          href: sample-dump-entity-privilege-information-file.md
-      - name: 'Work with attribute metadata'
-        href: work-attribute-metadata.md
-        items:
-        - name: 'Sample: Dump attribute metadata to a file'
-          href: sample-dump-attribute-metadata-file.md
-        - name: 'Sample: Dump attribute picklist metadata to a file'
-          href: sample-dump-attribute-picklist-metadata-file.md
-        - name: 'Sample: Convert date and time behavior'
-          href: sample-convert-date-time-behavior.md
-      - name: Create and retrieve entity relationships
-        href: create-retrieve-entity-relationships.md
-        items:
-        - name: 'Sample: Create and retrieve entity relationships'
-          href: sample-create-retrieve-entity-relationships.md
-        - name: 'Sample: Dump entity relationship information to a file'
-          href: sample-dump-entity-relationship-information-file.md
-      - name: Customize global option sets
-        href: customize-global-option-sets.md
-        items:
-        - name: Insert, update, delete, and order global option set options
-          href: insert-update-delete-order-global-option-set-options.md
-        - name: 'Sample: Create a global option set'
-          href: sample-create-global-option-set.md
-        - name: 'Sample: Work with global option sets'
-          href: sample-work-global-option-sets.md
-        - name: 'Sample: Dump global option set information to a file'
-          href: sample-dump-global-option-set-information-file.md
-        - name: 'Sample: Query metadata and detect changes'
-          href: sample-query-metadata-detect-changes.md
+      - name: 'Sample: Dump attribute metadata to a file'
+        href: sample-dump-attribute-metadata-file.md
+      - name: 'Sample: Dump attribute picklist metadata to a file'
+        href: sample-dump-attribute-picklist-metadata-file.md
+      - name: 'Sample: Convert date and time behavior'
+        href: sample-convert-date-time-behavior.md
   - name: Use the early bound entity classes in code
     href: use-early-bound-entity-classes-code.md
     items:
