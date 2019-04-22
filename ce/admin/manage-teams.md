@@ -31,7 +31,7 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps 
   
 - An *owner* team owns records and has security roles assigned to the team. The team’s privileges are defined by these security roles. In addition to privileges provided by the team, team members have the privileges defined by their individual security roles and team member’s privilege inheritance roles (see [Security roles and privileges](security-roles-privileges.md)), and by the roles from other teams in which they are members. A team has full access rights on the records that the team owns. Team members are added manually to the owner team. 
 
-- An Azure Active Directory (AAD) *group* team. Similar to owner team, an AAD group team can own records and can have security roles assigned to the team. There are two *group* team types and they correspond directly to the AAD group types – Security and Office. Team members are dynamically derived (added and removed) when they access the instance based on their AAD group membership.  
+- An Azure Active Directory (Azure AD) *group* team. Similar to owner team, an AAD group team can own records and can have security roles assigned to the team. There are two *group* team types and they correspond directly to the AAD group types – Security and Office. Team members are dynamically derived (added and removed) when they access the instance based on their AAD group membership.  
   
 -   An *access* team doesn’t own records and doesn’t have security roles assigned to the team. The team members have privileges defined by their individual security roles and by roles from the teams in which they are members. The records are shared with an access team and the team is granted access rights on the records, such as Read, Write, or Append.  
   
@@ -129,7 +129,7 @@ When group team members log into the instance, they are dynamically added/remove
    - Don’t have the correct permissions? Contact your system administrator.
 
    Pre-requisites:
-   1.	An Azure Active Directory (AAD) Group is required for each group Team.
+   1.	An Azure Active Directory (Azure AD) Group is required for each group Team.
    2.	Obtain the AAD Group’s ObjectID from your https://portal.azure.com site.
    3.	Create a custom security role that contains privileges as per your team’s collaboration requirement.  Please see Security role member’s inherited privileges if you need to extend the team members’ privileges directly to user.
 
