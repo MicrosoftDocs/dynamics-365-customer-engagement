@@ -2,7 +2,7 @@
 title: "Use Dynamics 365 for Customer Engagement tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about Dynamics 365 for Customer Engagement tags available in portal"
 keywords: "Dynamics 365 for Customer Engagement tags; liquid tags"
-ms.date: 26/03/2019
+ms.date: 04/22/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -120,6 +120,26 @@ Displays the specified tile of the dashboard. You must provide the ID of the til
 ```
 {% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/dashboards/00000000-0000-0000-0000-000000000001" tileid:"00000000-0000-0000-0000-000000000002" %}
 ```
+
+**roles**
+
+Roles assigned to the Power BI report. This parameter works only when the **authentication_type** parameter is set to **powerbiembedded**.
+
+If you have defined roles in Power BI and assigned them to reports, you must specify the appropriate roles in the **powerbi** Liquid tag. Roles allow you to filter the data to be displayed in a report. You can specify multiple roles separated by a comma. For more information on defining roles in Power BI, see [Row-level security (RLS) with Power BI](https://docs.microsoft.com/en-us/power-bi/service-admin-rls).
+
+```
+{% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000000/ReportSection2" roles:"Region_East" %}
+```
+
+If you have assigned a role to a Power BI report and don't specify the **roles** parameter in the Liquid tag or don't specify a role in the parameter, an error is displayed.
+
+> [!TIP]
+> If you want to use the web roles defined in your portal as the Power BI roles, you can define a variable and assign them to it. You can then use the variable in the Liquid tag.
+> Let's say you have defined web roles as Region_East and Region_West in your portal. You can join them by using the following code:
+> `{% assign webroles = user.roles | join: ", " %}`
+> In the above code snippet, webroles is a variable and the Region_East and Region_West web roles will be stored in it.
+> Use the variable as follows in the Liquid tag:
+> {% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000000/ReportSection2" roles:webroles%}
 
 ## editable
 

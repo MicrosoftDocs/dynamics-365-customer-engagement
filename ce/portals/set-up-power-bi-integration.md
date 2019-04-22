@@ -1,7 +1,7 @@
 ---
 title: "Set up Power BI integration with Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
 description: "Learn how to set up Power BI integration with your portal."
-ms.date: 04/17/2019
+ms.date: 04/22/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -28,7 +28,7 @@ Power BI is one of the best tools to deliver insights with simple and interactiv
 
 > [!NOTE]
 > - You must have an appropriate Power BI license.
-> - To use Power BI Embedded service, you must have an appropriate Power BI Embedded license. For more information, see [Licensing](For licensing: https://docs.microsoft.com/en-us/power-bi/developer/embedded-faq#licensing).
+> - To use Power BI Embedded service, you must have an appropriate Power BI Embedded license. For more information, see [Licensing](https://docs.microsoft.com/en-us/power-bi/developer/embedded-faq#licensing).
 
 ## Enable Power BI visualization
 
