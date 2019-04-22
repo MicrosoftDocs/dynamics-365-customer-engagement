@@ -88,7 +88,7 @@ search.app:
 > [!IMPORTANT]
 > Document template downloaded from one instance can only be used within that instance. Instance to instance migration for Word or Excel templates isn't currently supported.
 >
-> During the creation of an Excel template, a maximum of 50 records are exported in then template file.
+> During the creation of an Excel template, a maximum of 50 records are exported in the template file.
   
 <a name="BKMK_CreateCustomize"></a>   
 ### Step 2: Customize the data in Excel  
