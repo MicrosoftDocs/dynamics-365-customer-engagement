@@ -2,7 +2,7 @@
 title: "Discover the URL for your organization using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how you can use the Web API to discover at runtime the organizations, or instances that the logged-on user belongs to"
 ms.custom: 
-ms.date: 04/14/2019
+ms.date: 04/22/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -85,7 +85,7 @@ On-premise or IFD instances of the Discovery Web API adopt the authentication mo
 Versioning of the Discovery service for a datacenter or on-premises/IFD is supported and is consistent with version numbering as used by the Organization service. For example:  
   
 ```http  
-GET https://dev.crm.external.contoso.com/api/discovery/v9.1/Instances(UniqueName='myorg')  
+GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')  
 ```  
 
 ### CORS support
