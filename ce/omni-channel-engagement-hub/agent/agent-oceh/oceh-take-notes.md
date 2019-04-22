@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 8855B684-17AF-49B0-8891-F83118B26770
@@ -25,6 +25,9 @@ The communication panel allows you to capture information specific to the conver
 
 > [!div class=mx-imgBorder]
 > ![Launch notes panel for taking notes](../../media/oceh-cc-option-notes.png "Launch notes panel for taking notes")  
+
+> [!div class=mx-imgBorder]
+> ![Launch notes panel for taking notes](../../media/oceh-cc-notes-view.png "Launch notes panel for taking notes")  
 
 You can capture notes only when you link a contact to the conversation.
 
