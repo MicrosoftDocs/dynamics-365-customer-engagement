@@ -1,29 +1,10 @@
 - name: Use the Dynamics 365 Organization service
   href: ../use-microsoft-dynamics-365-organization-service.md
   items:
-  - name: Getting started with managed code application development
+  - name: Getting started with on-premise managed code application development
     href: get-started-managed-code-application-development.md
-    items:
-    - name: Start a managed code project in Visual Studio
-      href: start-managed-code-project-visual-studio.md
-  - name: Use Dynamics 365 services in code
-    href: use-services-in-code.md
-    items:
-    - name: Assemblies included in Dynamics 365 Customer Engagement SDK
-      href: assemblies-included-sdk.md
-    - name: Entity and attribute naming conventions
-      href: entity-attribute-naming-conventions.md
   - name: Discover the URL for your organization
     href: discover-url-organization-organization-service.md
-    items:
-    - name: Discovery Service methods
-      href: discovery-service-methods.md
-    - name: Discovery service messages (request and response classes)
-      href: discovery-service-messages-request-response-classes.md
-    - name: Messages in the discovery service
-      href: messages-discovery-service.md
-    - name: 'Sample: Access the Discovery service'
-      href: sample-access-discovery-service.md
   - name: Use the Organization Service to read and write data or metadata
     href: use-organization-service-read-write-data-metadata.md
     items:

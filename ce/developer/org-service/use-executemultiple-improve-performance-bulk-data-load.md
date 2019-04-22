@@ -93,6 +93,5 @@ Fortunately, there is another method that you can use. When the number of reques
  <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*>   
  <xref:Microsoft.Xrm.Sdk.OrganizationRequest>   
  <xref:Microsoft.Xrm.Sdk.OrganizationResponse>   
- [Microsoft.Xrm.Sdk.Discovery Messages](messages-discovery-service.md)   
  [Microsoft.Crm.Sdk Messages](organization-service-messages.md)   
  [Import data](../import-data.md)

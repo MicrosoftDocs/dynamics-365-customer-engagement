@@ -202,7 +202,7 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 
 ## Discovery web service
 
-[Sample: Accessing the Discovery Service](org-service/sample-access-discovery-service.md)<br />
+[Sample: Accessing the Discovery Service](/powerapps/developer/common-data-service/org-service/discovery-service#example)<br />
   
 <a name="BKMK_Duplicate"></a>   
 ## Duplicate detection  

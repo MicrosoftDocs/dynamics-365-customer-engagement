@@ -94,7 +94,6 @@ You can also execute multiple messages at a time using the <xref:Microsoft.Xrm.S
  <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*>   
  <xref:Microsoft.Xrm.Sdk.OrganizationRequest>   
  <xref:Microsoft.Xrm.Sdk.OrganizationResponse>   
- [Microsoft.Xrm.Sdk.Discovery Messages](messages-discovery-service.md)   
  [Microsoft.Xrm.Sdk Messages](xrm-messages-organization-service.md)   
  [Microsoft.Crm.Sdk Messages](organization-service-messages.md)   
  <xref:Microsoft.Xrm.Sdk.Deployment.ThrottleSettings.ExecuteAsyncMaxConnectionsPerServer>   
