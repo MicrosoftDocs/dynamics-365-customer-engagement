@@ -3,7 +3,7 @@ title: "Add dynamic content and create custom templates for a portal in Dynamics
 description: "Learn how to use Liquid, an open-source template language, into your portals."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -30,7 +30,7 @@ Liquid is an open-source template language integrated into portals. It can be us
 
 - [Render a website header and primary navigation bar](render-site-header-primary-navigation.md), entirely through configuration within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].  
 
-In all of these scenarios, you'll have dynamic access to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal features, such as [entitylist](#entitylist), [content snippets](#customize-content-by-using-content-snippets), [site settings for portals](configure-site-settings.md), and [web links](#manage-web-links-in-dynamics-365-or-on-portals).  
+In all of these scenarios, you'll have dynamic access to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal features, such as [entitylist](add-webpage-render-list-records.md), [content snippets](customize-content-snippets.md), [site settings for portals](configure-site-settings.md), and [web links](manage-web-links.md).  
 
 ### See also
 
