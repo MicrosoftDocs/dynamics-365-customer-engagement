@@ -260,7 +260,6 @@
 
 ### [formContext.ui.tabs](reference/formcontext-ui-tabs.md)
 #### [addtabStateChange](reference/formcontext-ui-tabs/addtabStateChange.md)
-#### [addtabStateChange](reference/formcontext-ui-tabs/addtabStateChange.md)
 #### [getDisplayState](reference/formcontext-ui-tabs/getDisplayState.md)
 #### [getLabel](reference/formcontext-ui-tabs/getLabel.md)
 #### [getName](reference/formcontext-ui-tabs/getName.md)
