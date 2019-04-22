@@ -23,9 +23,9 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The Web API can be used with several different programming languages and libraries. The code samples in the Web API documentation provide a template that you can use to understand how to use the Web API and build upon them as per your requirements.
+The Web API can be used with several different programming languages and libraries. The code samples provide a template that you can use to understand how to use the Web API and build upon them as per your requirements.
 
-See the following data operations templates that demonstrate how to use the Web API in a number of different ways.
+The Web API samples listed below are now available in the PowerApps documentation under the Common Data Service section.
 
 - [Web API data operations samples](/powerapps/developer/common-data-service/webapi/web-api-samples)<br />
 - [Basic operations](/powerapps/developer/common-data-service/webapi/web-api-basic-operations-sample)<br />
@@ -41,3 +41,9 @@ The following table lists the topics that cover language specific implementation
 |[Query data](/powerapps/developer/common-data-service/webapi/samples/query-data-csharp)|[Query data](/powerapps/developer/common-data-service/webapi/samples/query-data-client-side-javascript)|
 |[Conditional operations](/powerapps/developer/common-data-service/webapi/samples/conditional-operations-csharp)|[Conditional operations](/powerapps/developer/common-data-service/webapi/samples/conditional-operations-client-side-javascript)|
 |[Functions and Actions](/powerapps/developer/common-data-service/webapi/samples/functions-actions-csharp)|[Functions and Actions](/powerapps/developer/common-data-service/webapi/samples/functions-actions-client-side-javascript)|   
+
+### See also
+
+[What is PowerApps?](/powerapps/powerapps-overview)
+[What is Common Data Service?](/powerapps/maker/common-data-service/data-platform-intro)
+[Common Data Service Developer Guide](/powerapps/developer/common-data-service/overview)
