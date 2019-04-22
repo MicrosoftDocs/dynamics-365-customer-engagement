@@ -1,7 +1,7 @@
 ---
 title: "Analyze your data with Excel templates for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/07/2019
+ms.date: 04/22/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -13,7 +13,7 @@ applies_to:
 ms.assetid: 82563697-955b-44a6-9467-5cbbdb790b92
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -87,6 +87,8 @@ search.app:
 
 > [!IMPORTANT]
 > Document template downloaded from one instance can only be used within that instance. Instance to instance migration for Word or Excel templates isn't currently supported.
+>
+> During the creation of an Excel template, a maximum of 50 records are exported in template file.
   
 <a name="BKMK_CreateCustomize"></a>   
 ### Step 2: Customize the data in Excel  
