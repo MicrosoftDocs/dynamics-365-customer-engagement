@@ -10,14 +10,6 @@
     items:
     - name: Use ExecuteMultiple to improve performance for bulk data load
       href: use-executemultiple-improve-performance-bulk-data-load.md
-    - name: Metadata operations
-      items:
-      - name: 'Sample: Dump attribute metadata to a file'
-        href: sample-dump-attribute-metadata-file.md
-      - name: 'Sample: Dump attribute picklist metadata to a file'
-        href: sample-dump-attribute-picklist-metadata-file.md
-      - name: 'Sample: Convert date and time behavior'
-        href: sample-convert-date-time-behavior.md
   - name: Use the early bound entity classes in code
     href: use-early-bound-entity-classes-code.md
     items:
