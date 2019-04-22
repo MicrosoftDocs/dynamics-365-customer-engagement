@@ -94,7 +94,7 @@ Because each booking status has a color, this change is displayed on the schedul
 Changing the booking status to Traveling automatically changes the work order system status to **Open - In Progress**.
 
 > [!Note]
-> If there are multiple bookings for a single work order...
+> If there are multiple bookings for a single work order, if at least one booking is traveling or in progress, the related work order will have a status of Open - In Progress.
 
 When the field technician arrives on site and is ready to begin the work order, he or she changes the booking status to **In Progress**.
 
@@ -103,7 +103,7 @@ During work, the field technician may want to record times he or she is on break
 When the work is complete, the field technician will change the booking status to **Completed** and this will change the related Work Order System Status to **Open-Completed**.
 
 > [!Note]
-> If there are multiple bookings for a single work order...
+> If there are multiple bookings for a single work order, once all related booking have statuses of Completed including fi a portion are Canceled, the related work order will have a status of **Open - Completed**. 
 
 ## Estimate Work Order Sub-status
 ## Delayed Booking Status
