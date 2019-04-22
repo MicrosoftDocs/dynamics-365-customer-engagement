@@ -10,6 +10,8 @@
     href: web-api-versions.md
   - name: Discover the URL for your organization using the Web API
     href: discover-url-organization-web-api.md
+  - name: Use the Web API with metadata
+    href: use-web-api-metadata.md
   - name: Use Postman with Web API
     items:
     - name: Get started with Postman
