@@ -47,22 +47,9 @@ To view and manage omni-channel users, see [Manage users in Omni-channel Engagem
 
 Each role in Omni-channel Engagement Hub can perform a set of actions based on the privileges. 
 
-
 |Role  |Privileges  |
 |---------|---------|
-|**Omni-channel administrator**    |   Can view: </br> - User list </br> - Presence list  </br> - Work stream list  </br> - Queues list </br> - PBI config list      |
-|   |    Can edit: </br> - Roles of a user    </br> - Default presence and default capacity of a user </br> - Queue assignment of a user  |
-|   |     Can add / edit / delete: </br> - Presence  </br> - Presence associations </br> -   Work streams </br> - Channel settings </br> - Context settings  </br> - Routing rules </br> -  Queues </br> - PBI config |
-|   |      Can add / remove: </br> - Users from presence  </br> - Agents from queue |
-|   |     Can view / add / edit / delete:</br> -  Quick replies  </br> - Operating hours </br> -  Delete auth settings  |
-
-OR
-
-
-
-|Role  |Privileges  |
-|---------|---------|
-|**Omni-channel administrator**      |  Can view user list / presence list / work stream list / queues list / PBI config list       |
+|**Omni-channel administrator**      |  Can view user list / presence list / work stream list / queue list / PBI config list       |
 |    |    Can edit roles of a user     |
 |    |   Can edit default presence and default capacity of a user      |
 |    |     Can edit queue assignment of a user    |
@@ -77,9 +64,16 @@ OR
 |    |     Can add / edit / delete PBI config    |
 |    |    Can view add / edit / delete operating hours    |
 |    |    Can view add / edit / delete auth settings     |
-
-
-
+|**Omni-channel supervisor**     |  Can view user list / presence list / work stream list / queue list / PBI config list       |
+||Can edit default presence and default capacity of a user|
+||Can edit queue assignment of a user|
+|| Can add / remove users from presence |
+||Can add / remove agents from queue| 
+|| Can view / add / edit / delete quick replies|
+||Can view operating hours |
+|**Omni-channel agent**  |Can view user list / presence list / work stream list / queue list|
+||Can view quick replies|
+|||
 
 
 
