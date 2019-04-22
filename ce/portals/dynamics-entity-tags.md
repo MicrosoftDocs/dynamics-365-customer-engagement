@@ -134,9 +134,9 @@ If you have defined roles in Power BI and assigned them to reports, you must spe
 If you have assigned a role to a Power BI report and don't specify the **roles** parameter in the Liquid tag or don't specify a role in the parameter, an error is displayed.
 
 > [!TIP]
-> If you want to use the web roles defined in your portal as the Power BI roles, you can define a variable and assign them to it. You can then use the variable in the Liquid tag.
+> If you want to use the web roles defined in your portal as the Power BI roles, you can define a variable and assign web roles to it. You can then use the defined variable in the Liquid tag.
 >
-> Let's say you have defined web roles as Region_East and Region_West in your portal. You can join them by using the code: `{% assign webroles = user.roles | join: ", " %}`
+> Let's say you have defined two web roles as Region_East and Region_West in your portal. You can join them by using the code: `{% assign webroles = user.roles | join: ", " %}`
 >
 > In the above code snippet, `webroles` is a variable and the Region_East and Region_West web roles will be stored in it.
 >
