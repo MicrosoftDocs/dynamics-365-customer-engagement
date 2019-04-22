@@ -77,9 +77,27 @@ Lets explore work order and booking statuses with the following scenarios:
 
 ## Work Order life cycle
 
-Field Service ships with Work Order System Statuses and Booking Statuses and the standard statuses should be considered during all field service implementations for a few reasons. First, many processes are triggered based on those statuses that make the field service app more valuable for an organization through data collection or automation. As one example, when the booking status is changed to in progress to indicate the field technician has arrived on site, the booking Actual Travel Duration field is populated accordingly. When the work order system status is changed to Closed-Posted, applicable Work Order Products are converted to Customer Assets to begin building service history.
+Field Service ships with standard Work Order System Statuses and Booking Statuses that should be considered during all field service implementations because many processes are triggered based on those statuses that make the field service app more valuable for an organization by **(1)** automatically calculating and populating data and **(2)** automating the next step in the work order process. As one example, when the **booking status** is changed to **in progress** to indicate the field technician has arrived on site, the Actual Arrival Time field is populated accordingly on the bookable resource booking. As another example, when the **work order system status** is changed to **Open-Completed**, applicable Work Order Products are converted to Customer Assets to begin building service history.
 
 ### Related processes
+
+When the Work Order System Statuses becomes:
+
+- Open - Unscheduled
+- Open - Scheduled
+- Open - In Progress
+- Open - Completed
+- Closed - Posted
+- Closed - Canceled
+
+When the Bookable Resource Booking, Booking Statuses becomes: 
+
+- Scheduled
+- Traveling
+- In Progress
+- On Break
+- Completed
+- Canceled
 
 ## Estimate Work Order Sub-status
 ## Delayed Booking Status
