@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Web API Samples
+# Web API samples
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
