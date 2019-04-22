@@ -31,7 +31,7 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps 
   
 - An *owner* team owns records and has security roles assigned to the team. The team’s privileges are defined by these security roles. In addition to privileges provided by the team, team members have the privileges defined by their individual security roles and team member’s privilege inheritance roles (see [Security roles and privileges](security-roles-privileges.md)), and by the roles from other teams in which they are members. A team has full access rights on the records that the team owns. Team members are added manually to the owner team. 
 
-- An Azure Active Directory (Azure AD) *group* team. Similar to owner team, an AAD group team can own records and can have security roles assigned to the team. There are two *group* team types and they correspond directly to the AAD group types – Security and Office. Team members are dynamically derived (added and removed) when they access the instance based on their AAD group membership.  
+- An Azure Active Directory (Azure AD) *group* team. Similar to owner team, an Azure AD group team can own records and can have security roles assigned to the team. There are two *group* team types and they correspond directly to the Azure AD group types – Security and Office. Team members are dynamically derived (added and removed) when they access the instance based on their Azure AD group membership.  
   
 -   An *access* team doesn’t own records and doesn’t have security roles assigned to the team. The team members have privileges defined by their individual security roles and by roles from the teams in which they are members. The records are shared with an access team and the team is granted access rights on the records, such as Read, Write, or Append.  
   
@@ -118,7 +118,7 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 ### Group Team members are automatically added/removed when the user team member accesses the application
 
-When group team members log into the instance, they are dynamically added/removed from the AAD Group team based on their membership in the AAD Group.  Team members of the AAD Group automatically inherit the privileges of the AAD Group’s security role when performing transactions.
+When group team members log into the instance, they are dynamically added/removed from the Azure AD Group team based on their membership in the Azure AD Group.  Team members of the Azure AD Group automatically inherit the privileges of the Azure AD Group’s security role when performing transactions.
 
 ## Create a group team
 
@@ -130,7 +130,7 @@ When group team members log into the instance, they are dynamically added/remove
 
    Pre-requisites:
    1.	An Azure Active Directory (Azure AD) Group is required for each group Team.
-   2.	Obtain the AAD Group’s ObjectID from your https://portal.azure.com site.
+   2.	Obtain the Azure AD Group’s ObjectID from your https://portal.azure.com site.
    3.	Create a custom security role that contains privileges as per your team’s collaboration requirement.  Please see Security role member’s inherited privileges if you need to extend the team members’ privileges directly to user.
 
 2. Go to **Settings** > **Security**. In Microsoft Dynamics 365 for Outlook, go to **Settings** > **System** > **Security**.
@@ -147,9 +147,9 @@ When group team members log into the instance, they are dynamically added/remove
 
 8. Select the Team Type (a drop-down list will be displayed).
 
-9. Select **AAD Security** or **Office group** (this must match to the AAD Group type).
+9. Select **AAD Security** or **Office group** (this must match to the Azure AD Group type).
 
-10.	Enter the respective Azure AD ObjectID of the AAD Security or Office group.
+10.	Enter the respective Azure AD ObjectID of the Azure AD Security or Office group.
 
 11. Select **Save**. 
     
@@ -174,7 +174,7 @@ When group team members log into the instance, they are dynamically added/remove
 6. On the Actions toolbar, select **Edit**, change the desired fields, and then select **Save**.
 
 > [!NOTE]
-> The list of Team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the AAD group. The team member’s privileges are derived dynamically at run-time when the team member accesses the application. The security role of the team is not assigned directly to the team member.
+> The list of Team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the Azure AD group. The team member’s privileges are derived dynamically at run-time when the team member accesses the application. The security role of the team is not assigned directly to the team member.
 
 ## About access teams and team templates
 
