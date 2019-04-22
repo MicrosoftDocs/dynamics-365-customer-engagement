@@ -4,7 +4,7 @@ title: "Simple Web API quick-start sample (C#) (Developer Guide for Dynamics 365
 description: "This sample demonstrates how to authenticate with a Dynamics 365 for Customer Engagement Server and then call a basic Web API operation, theWhoAmI Function"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

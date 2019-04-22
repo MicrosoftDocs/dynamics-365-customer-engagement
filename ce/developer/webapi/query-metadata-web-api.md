@@ -4,7 +4,7 @@ title: "Query metadata using the Web API (Developer Guide for Dynamics 365 for C
 description: "The capability to query system metadata is available using the Web API as well as using the organization service by using RetrieveMetadataChangesRequest"
 ms.custom: 
 ms.date: 11/04/2018
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -4,7 +4,7 @@ title: "Get started with Dynamics 365 for Customer Engagement Web API (C#) (Deve
 description: "Learn how to access the Dynamics 365 for Customer Engagement Web API using the Microsoft Visual C# programming language"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

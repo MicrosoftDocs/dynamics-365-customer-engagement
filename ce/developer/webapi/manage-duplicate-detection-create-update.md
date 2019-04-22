@@ -4,7 +4,7 @@ title: "Manage duplicate detection for create and update operations using the We
 description: "Read how to detect duplicates using MSCRM.SuppressDuplicateDetection header and Dynamics 365 for Customer Engagement Web API"
 ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

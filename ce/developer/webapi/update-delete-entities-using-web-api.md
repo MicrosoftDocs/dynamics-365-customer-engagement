@@ -4,7 +4,7 @@ title: "Update and delete entities using the Web API (Developer Guide for Dynami
 description: "Read how to perform update and delete operations on entities using the Web API"
 ms.custom: 
 ms.date: 05/09/2018
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

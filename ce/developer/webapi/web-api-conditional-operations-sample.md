@@ -4,7 +4,7 @@ title: "Web API Conditional Operations Sample (Developer Guide for Dynamics 365 
 description: "This group of samples demonstrate how to perform operations that are conditionally based upon the version of the entity record contained on the Dynamics 365 for Customer Engagement server and/or currently maintained by the client"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

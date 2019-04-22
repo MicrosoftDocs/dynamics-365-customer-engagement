@@ -4,7 +4,7 @@ title: "Perform conditional operations using the Web API (Dynamics 365 for Custo
 description: "Read how to create conditions that decide whether and how to perform certain operations using the Web API"
 ms.custom: 
 ms.date: 02/26/2018
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

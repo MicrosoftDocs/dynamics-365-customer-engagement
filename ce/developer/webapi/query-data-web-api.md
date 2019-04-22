@@ -4,7 +4,7 @@ title: "Query Data using the Web API (Developer Guide for Dynamics 365 for Custo
 description: "Read about the various ways to query Dynamics 365 for Customer Engagement data using the Dynamics 365 for Customer Engagement Web API and various system query options that can be applied in these queries"
 ms.custom: 
 ms.date: 02/06/2019
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

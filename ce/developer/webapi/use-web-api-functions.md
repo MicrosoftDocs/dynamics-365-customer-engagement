@@ -4,7 +4,7 @@ title: "Use Web API functions (Developer Guide for Dynamics 365 for Customer Eng
 description: "Functions are reusable operations that are used with a GET request to retrieve data from Dynamics 365 for Customer Engagement"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

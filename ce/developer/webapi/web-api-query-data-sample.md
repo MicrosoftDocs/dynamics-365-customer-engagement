@@ -4,7 +4,7 @@ title: "Web API Query Data Sample (Developer Guide for Dynamics 365 for Customer
 description: "This group of samples shows how to query data using the Web API. These are implemented using Client-side JavaScript and C#"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

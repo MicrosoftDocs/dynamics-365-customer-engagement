@@ -4,7 +4,7 @@ title: "Web API Samples (Client-side JavaScript) (Developer Guide for Dynamics 3
 description: "This topic provides a description of various Web API samples that are implemented using Client-side JavaScript"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

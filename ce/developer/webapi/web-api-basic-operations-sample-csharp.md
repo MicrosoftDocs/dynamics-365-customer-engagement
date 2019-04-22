@@ -4,7 +4,7 @@ title: "Web API Basic Operations Sample (C#) (Developer Guide for Dynamics 365 f
 description: "This sample demonstrates how to perform basic CRUD (Create, Retrieve, Update, and Delete) and association and dissociation operations on Dynamics 365 for Customer Engagement entity instances, using the Dynamics 365 for Customer Engagement Web API"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

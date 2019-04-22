@@ -4,7 +4,7 @@ title: "Web API Conditional Operations Sample (C#) (Developer Guide for Dynamics
 description: "This sample demonstrates how to perform conditional operations using Dynamics 365 for Customer Engagement Web API and C#"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -4,7 +4,7 @@ title: "Start a Dynamics 365 for Customer Engagement Web API project in Visual S
 description: "Create a new project in Visual Studio to build a console application that uses Dynamics 365 for Customer Engagement Web API"
 ms.custom: 
 ms.date: 01/25/2019
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -4,7 +4,7 @@ title: "Execute batch operations using the Web API (Developer Guide for Dynamics
 description: "Batch operation lets you group multiple operations in a single HTTP request. Read how to execute batch operations using the Web API"
 ms.custom: 
 ms.date: 05/23/2018
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -4,7 +4,7 @@ title: "Retrieve and execute predefined queries (Developer Guide for Dynamics 36
 description: "Dynamics 365 for Customer Engagement provides a way for administrators to create system views that are available to all users. Read how you can compose a predefined query and use FetchXML to create a query string to retrieve data"
 ms.custom: 
 ms.date: 04/11/2019
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

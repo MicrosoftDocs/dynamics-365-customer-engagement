@@ -3,7 +3,7 @@ title: "Use Postman with Dynamics 365 for Customer Engagement Web API (Developer
 description: "Learn how to use Postman to work with Dynamics 365 for Customer Engagement Web API"
 ms.custom: 
 ms.date: 01/12/2019
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

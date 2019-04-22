@@ -4,7 +4,7 @@ title: "Retrieve related entities with a query (Developer Guide for Dynamics 365
 description: "Read how you can retrieve related entities by expanding the navigation properties."
 ms.custom: 
 ms.date: 02/05/2019
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
