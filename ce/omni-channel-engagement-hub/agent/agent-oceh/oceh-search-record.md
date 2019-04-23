@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 03/07/2019
+ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 3F919FE4-BFCA-42E1-A2B0-169AEDDF445E
@@ -31,94 +31,40 @@ The inline search is based on the Lookup View and Quick Find View. You can searc
 
 For **Customer profile**, you can search for Contact or Account entity. By default, you can search using the following fields.
 
-<table>
-    <tr>
-        <th>Entity</th>
-        <th>Fields</th>
-    </tr>
-    <tr>
-        <td rowspan="4">Account</td>
-        <td>Account Name</td>
-    </tr>
-    <tr>
-        <td>Account Number</td>
-    </tr>
-    <tr>
-        <td>Email</td>
-    </tr>
-    <tr>
-        <td>Main Phone</td>
-    </tr>
-    <tr>
-        <td rowspan="7">Contact</td>
-        <td>Company Name</td>
-    </tr>
-    <tr>
-        <td>Email</td>
-    </tr>
-    <tr>
-        <td>First Name</td>
-    </tr>
-    <tr>
-        <td>Last Name</td>
-    </tr>
-    <tr>
-        <td>Middle Name</td>
-    </tr>
-    <tr>
-        <td>Full Name</td>
-    </tr>
-    <tr>
-        <td>Mobile Phone</td>
-    </tr>  
- </table>
+|Entity|Fields|
+|----------|----------|
+|Account| <ul> <li>Account Name</li> <li>Account Number</li> <li>Email</li> <li>Main Phone</li> </ul>  |
+|Contact| <ul> <li>Company Name </li> <li>Email</li> <li>First Name</li> <li>Last Name</li> <li>Middle Name</li> <li>Full Name</li> <li>Mobile Phone</li> </ul>|
+
 
 For the **Issue snapshot**, you can search for Case (Incident) entity. By default, you can search using the following fields.
 
-<table>
-<tr>
-        <th>Entity</th>
-        <th>Fields</th>
-    </tr>
-    <tr>
-        <td rowspan="2">Case</td>
-        <td>Case Number</td>
-    </tr>
-    <tr>
-        <td>Case Title</td>
-    </tr> 
- </table>
+|Entity|Fields|
+|--- |--- |
+|Case| <ul> <li>Case Number</li> <li>Case Title</li> </ul>|
 
 Only active views are displayed for the search results. Also, you can customize the **Quick Find View** and **Lookup View** to change the searchable fields as per your business requirements. More information [Understand views](/dynamics365/customer-engagement/customize/create-edit-views) and [Unified Interface Lookup view leverages Quick Find View](https://blogs.msdn.microsoft.com/crm/2018/11/02/unified-interface-lookup-now-leverages-quick-find-view/)
 
 To learn on how to link a record, see [Link a record to the conversation](oceh-link-unlink-record.md)
 
-## Search for records using the search option
+## Search for records using advanced search
 
-Search the Omni-channel records using the search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select **Search**. You will see the details in the form of a list.
+Search the records using the advanced search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select the search icon. You will see the details in the form of a list.
 
-![Search for records using the Omni-channel search](../../media/oceh-oc-search-record.png "Search for records using the Omni-channel search")  
+You can search for the case, account, contact and its associated fields as enabled by your administrator.
 
-1.  Select the search icon ![Omni-channel search icon](../../media/oceh-oc-search-icon.png "Omni-channel search icon"). The application launches the Omni-channel search tab.  
+> [!NOTE]
+> Advanced Search is also known called as Categorized Search.
 
-2. Specify any of the following values based on your search requirements.
+![Search for records using the advanced search](../../media/oceh-oc-search-record.png "Search for records using the advanced search")  
 
- - Account Name
- - Address 1: State/Province
- - Main Phone
- - Email
- - Address 1: ZIP/Postal Code
- - First Name
- - Last Name
- - Address 1: State/Province
- - Business Phone
- - Email
- - Address 1: ZIP/Post Code
- - Case Number
+1. Select the search icon ![Advanced Search icon](../../media/oceh-oc-search-icon.png "Advanced Search icon"). The application launches the **Advanced Search** tab in the application tab.  
+
+2. In the search box, specify the entity or attribute based on your search requirements and select the search icon.
 
 3. Select **Search**. The search results appear.
 
- ![Search account record using Omni-channel search](../../media/oceh-oc-search-record-account.png "Search account record using Omni-channel search")
+ ![Search case record using advanced search](../../media/oceh-oc-search-record-case.png "Search case record using advanced search")
 
  > [!div class="nextstepaction"]
  > [Next topic: Link and unlink a record](oceh-link-unlink-record.md)
