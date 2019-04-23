@@ -44,7 +44,6 @@ The Dynamics 365 app for Teams provides the following:
 > [!div class="mx-imgBorder"] 
 > ![Features of Teams app](media/teams-intro.png "Features of Teams app")
 
-The Dynamics 365 app for Teams, when installed into a Teams channel, provides a fully functional page in which you can edit information and navigate to related records—all this without leaving Teams.
 
 ## Feedback
 
