@@ -18,6 +18,8 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
+The topic describes how to define the layout and behavior of the alert notification.
+
 ## Prerequisites 
 
 - You must have the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
@@ -2391,8 +2393,8 @@ xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:loca
 
 ## See also
 
-- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
-- [Step 3: Create an action call to display the notification](alertnotification-step3-create-action-call-display-notification.md)
-- [Step 4: Add the action calls to the events](alertnotification-step4-add-action-calls-events.md)
-- [Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+- [Configure notification for agents](configure-notification-screen-pop-agents.md)
+- [Step 3: Create Omni-channel Alert Notification-related action call](alertnotification-step3-create-action-call-display-notification.md)
+- [Step 4: Attach Omni-channel Alert Notification-related to the events](alertnotification-step4-add-action-calls-events.md)
+- [Step 5: Add the hosted control, events, and action calls to the agent and supervisor configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

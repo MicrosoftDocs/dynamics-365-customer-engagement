@@ -1,6 +1,6 @@
 ---
-title: "Create alert notification related action calls | MicrosoftDocs"
-description: "Learn how to create action calls that can be used to show notifications in Omni-channel Engagement Hub."
+title: "Create Omni-channel Alert Notification-related action calls | MicrosoftDocs"
+description: "Learn how to create Omni-channel Alert Notification-related action calls that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -17,6 +17,8 @@ ms.custom:
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+This topic describes how to create Omni-channel Alert Notification-related actions calls.
 
 ## Prerequisites 
 
@@ -246,12 +248,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 4: Add the action calls to the events](alertnotification-step4-add-action-calls-events.md)
+> [Next topic: Step 4: Attach the Omni-channel Alert Notification-related action calls to the events](alertnotification-step4-add-action-calls-events.md)
 
 ## See also
 
-- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+- [Configure notification for agents](configure-notification-screen-pop-agents.md)
 - [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
-- [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
-- [Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+- [Step 2: Create Omni-channel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md)
+- [Step 5: Add the hosted control, events, and action calls to configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
