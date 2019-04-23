@@ -72,7 +72,7 @@ Track your forecasts to project what a sales person, team, or organization will 
 
     -	**Best case**. For the specific period and owner, this column shows the aggregated or rolled-up value of estimated revenue of all open opportunities that have the forecast category set to **Best case**. This value can be edited inline.
 
-    -	**Pipeline**. For the specific period and owner, this column shows the aggregated or rollup value of estimated revenue of all open opportunities that have the forecast category set to Committed or Best case. This value can be edited inline.
+    -	**Pipeline**. For the specific period and owner, this column shows the aggregated or rollup value of estimated revenue of all open opportunities that have the forecast category set to **Pipeline**. This value can be edited inline.
 
     -	**% Achieved**. Shows the percentage of quota achieved based on closed revenue versus quota/goals.
 
