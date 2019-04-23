@@ -129,11 +129,11 @@
 
 ### [Configure advanced search](customizer/configure-advanced-search.md)
 #### [Step 1: Create advanced search hosted control](customizer/advanced-search-step1-create-hosted-control.md)
-#### [Step 2: Create advanced search related action calls](customizer/advanced-search-step2-create-action-calls.md)
-#### [Step 3: Attach advanced search related action call to events](customizer/advanced-search-step3-attach-action-calls-events.md)
+#### [Step 2: Create advanced search-related action calls](customizer/advanced-search-step2-create-action-calls.md)
+#### [Step 3: Attach advanced search-related action call to events](customizer/advanced-search-step3-attach-action-calls-events.md)
 #### [Step 4: Add hosted control, action calls, and events to configurations](customizer/advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
 
-### [Configure session name information](customizer/configure-sesion-name-information.md)
+### [Configure session name information](customizer/configure-session-name-information.md)
 
 ### [Configure scriplets to define case and channel titles](customizer/configure-scriplets-define-case-channel-titles.md)
 

@@ -86,4 +86,4 @@ The topic describes how to configure scripts using scriplets to define case and 
 - [Configure customer summary](configure-customer-summary.md)
 - [Configure communication panel for agents](configure-communication-panel.md)
 - [Configure advanced search](configure-advanced-search.md)
-- [Configure session name information using session lines](configure-sesion-name-information.md)
+- [Configure session name information using session lines](configure-session-name-information.md)
