@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 03/07/2019
+ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 48AB4878-B062-4126-93F8-26FF8A726121
@@ -37,18 +37,22 @@ During inline search, the search results are displayed and you can select a reco
 
 ## Link a record to the conversation
 
-Based on the search results, you can choose to link a record from the list. You can link only one record to a conversation.
+After you search a record using Advanced Search, you can link the record to the conversation from the communication panel. To link a record to the conversation when using Advanced Search, select the record from the list, the record opens in the Application tab. Now, go to the communication panel and select the more options (**...**) and select Link to conversation.
+
+> [!Note]
+> You can link only one record to a conversation.
 
 > [!div class=mx-imgBorder]
 > ![Select the record to link](../../media/oceh-oc-search-link-account-record.png "Select the record to link")  
 
-1.  Select the ![Record selection icon](../../media/oceh-oc-search-record-selection-icon.png "Record selection icon") icon to view the selection list. <br>![Select icon to open selection of records to link](../../media/oceh-oc-select-icon-link.png "Select icon to open selection of records to link")
+1. Select the record to open it using the Application tab.
 
-2.  Select the check box next to the record you want to link.<br> ![Record selection check box](../../media/oceh-oc-record-selection-checkbox.png "Record selection check box")  
+2. Select the more options (**...**) in the communication panel, and select **Link to conversation**. The record is linked to the conversation.
 
-3.  Select the link button at the top.<br> ![Select record to link](../../media/oceh-oc-select-record-link.png "Select record to link")
+> [!div class=mx-imgBorder]
+> ![Select record to link](../../media/oceh-oc-select-record-link.png "Select record to link")
 
-After you link the record to the conversation, the Customer summary page refreshes and reflects the details. Similarly, you can link other record types.
+Now, the Customer summary page refreshes and reflects the details. Similarly, you can link other record types.
 
 > [!Note]
 > You can link only one contact or account in the **Customer profile** section and one case in the **Issue snapshot** section.
