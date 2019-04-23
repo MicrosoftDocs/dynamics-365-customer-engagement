@@ -61,5 +61,6 @@ ce\developer\webapi\web-api-query-data-sample-csharp.md
 ce\developer\webapi\web-api-conditional-operations-sample-csharp.md
 ce\developer\webapi\web-api-functions-actions-sample-csharp.md
 ce\developer\webapi\web-api-samples-client-side-javascript.md
+ce/mobile-app/configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md
 
 These files have been deleted, but the list hasn't been communicated to loc yet.
