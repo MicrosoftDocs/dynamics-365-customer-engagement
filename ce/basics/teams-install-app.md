@@ -148,7 +148,7 @@ By default, Microsoft Teams integration is disabled. To turn this feature on, fo
 
 1. Sign in as a System administrator to Dynamics 365 for Customer Engagement apps.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
-3. Enable **Microsoft Teams Integration Preview**.
+3. Enable **Microsoft Teams Integration**.
 
    > [!div class="mx-imgBorder"] 
    > ![Enable preview settings](media/teams-system-settings.png "Enable preview settings")
