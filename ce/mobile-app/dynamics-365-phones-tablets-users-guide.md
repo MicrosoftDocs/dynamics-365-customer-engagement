@@ -407,7 +407,7 @@ In the [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] app, ta
 When you’re finished with your call, the app prompts you to enter details about
 the call.
 
-<!--
+<!-- old work offline content - added a new seperate for work offline.
 ## Work offline 
 Seamless work offline with mobile offline synchronization. You can work with mobile app in offline mode when the device is disconnected from the internet. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
 
