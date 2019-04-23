@@ -61,5 +61,34 @@ ce\developer\webapi\web-api-query-data-sample-csharp.md
 ce\developer\webapi\web-api-conditional-operations-sample-csharp.md
 ce\developer\webapi\web-api-functions-actions-sample-csharp.md
 ce\developer\webapi\web-api-samples-client-side-javascript.md
+ce/developer/org-service/organization-service-methods.md
+ce/developer/org-service/use-messages-request-response-classes-execute-method.md
+ce/developer/org-service/xrm-messages-organization-service.md
+ce/developer/org-service/organization-service-messages.md
+ce/developer/org-service/organization-service-entities.md
+ce/developer/org-service/sample-execute-multiple-requests.md
+ce/developer/org-service/sample-execute-multiple-requests-transaction.md
+ce/developer/org-service/create-custom-entity.md
+ce/developer/org-service/retrieve-update-delete-entities.md
+ce/developer/org-service/create-update-entity-emailed.md
+ce/developer/org-service/create-custom-activity-entity.md
+ce/developer/org-service/sample-create-update-entity-metadata.md
+ce/developer/org-service/sample-create-custom-activity-entity.md
+ce/developer/org-service/sample-create-update-emailable-entity.md
+ce/developer/org-service/sample-dump-entity-metadata-file.md
+ce/developer/org-service/sample-dump-entity-privilege-information-file.md
+ce/developer/org-service/work-attribute-metadata.md
+ce/developer/org-service/sample-dump-attribute-metadata-file.md
+ce/developer/org-service/sample-dump-attribute-picklist-metadata-file.md
+ce/developer/org-service/sample-convert-date-time-behavior.md
+ce/developer/org-service/create-retrieve-entity-relationships.md
+ce/developer/org-service/sample-create-retrieve-entity-relationships.md
+ce/developer/org-service/sample-dump-entity-relationship-information-file.md
+ce/developer/org-service/customize-global-option-sets.md
+ce/developer/org-service/insert-update-delete-order-global-option-set-options.md
+ce/developer/org-service/sample-create-global-option-set.md
+ce/developer/org-service/sample-work-global-option-sets.md
+ce/developer/org-service/sample-dump-global-option-set-information-file.md
+ce/developer/org-service/sample-query-metadata-detect-changes.md
 
 These files have been deleted, but the list hasn't been communicated to loc yet.
