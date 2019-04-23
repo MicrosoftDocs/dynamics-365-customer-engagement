@@ -108,6 +108,11 @@ When the work is complete, the field technician will change the booking status t
 | Work Order System Status | Booking Status |
 | --- | --- |
 | Open-Unscheduled | Not applicable as booking does not exist yet |
+| Open-Scheduled | Scheduled |
+| Open-In Progress | Scheduled |
+| Open-Completed | Scheduled |
+| Closed-Posted | Scheduled |
+| Closed-Canceled | Scheduled |
 
 ## Estimate Work Order Sub-status
 ## Delayed Booking Status
