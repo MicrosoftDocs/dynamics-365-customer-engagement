@@ -1,6 +1,7 @@
 
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
+# [Getting started with Field Service](user-guide.md)
 
 # Installation
 ## [Field Service installation (web + mobile)](install-field-service.md)
@@ -42,22 +43,29 @@
 ## [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Scheduling
+
 ## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)
 ## [Types of scheduling](scheduling-capabilities.md)
 ## [Scheduling personas](scheduling-roles-personas.md)
 ## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
-## [Configure the schedule board](configure-schedule-board.md)
-## [Sharing schedule board tabs](share-schedule-board-tab.md)
-## [Geocoding for travel time](turn-on-auto-geocoding.md)
-## [Booking statuses](set-up-booking-statuses.md)
-## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
-## [Resource crew scheduling](resource-crews.md)
-## [Resource pools](resource-pools.md)
-## [Facility scheduling](facility-scheduling.md)
-## [Fulfillment preferences](set-up-time-groups.md)
-## [Booking rules](set-up-booking-rules.md)
-## [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
-## [Schedule board tab settings](schedule-board-tab-settings.md)
+
+## Administration and configuration
+### [Geocoding for travel time](turn-on-auto-geocoding.md)
+### [Fulfillment preferences](set-up-time-groups.md)
+### [Booking rules](set-up-booking-rules.md)
+
+## Scheduling
+### [Booking statuses](set-up-booking-statuses.md)
+### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
+### [Resource crew scheduling](resource-crews.md)
+### [Resource pools](resource-pools.md)
+### [Facility scheduling](facility-scheduling.md)
+
+## Schedule board 
+### [Configure the schedule board](configure-schedule-board.md)
+### [Sharing schedule board tabs](share-schedule-board-tab.md)
+### [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
+### [Schedule board tab settings](schedule-board-tab-settings.md)
 
 # Field Service Mobile
 ## [Setup](field-service-mobile-app-user-guide.md)
