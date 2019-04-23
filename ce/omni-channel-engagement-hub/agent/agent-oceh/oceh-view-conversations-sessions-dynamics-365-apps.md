@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: BAC4B607-59A4-4FD2-B121-9799081D5EB1
@@ -21,11 +21,19 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 Your organization might have a classification where certain agents work in the contact center, which uses Omni-channel Engagement Hub on the web and certain agents work in another contact center, which uses Dynamics 365 for Customer Engagement apps. In this case, if you are an agent who works on Dynamics 365 for Customer Engagement apps and you need to analyze the conversation request from Omni-channel Engagement Hub on the web, you can find the information through **Activities** in Dynamics 365 for Customer Engagement apps.
 
-You can find the following activity types in Dynamics 365 for Customer Engagement apps:
+Select the plus icon in the application tab to view the sitemap and select **Activities**.
 
--   Conversation Form
+> [!div class=mx-imgBorder]
+> ![Select activities in the sitemap to view the list of forms](../../media/oceh-oc-activities.png "Select activities in the sitemap") 
 
--   Session Form
+You can find the following form types in Dynamics 365 for Customer Engagement apps:
+
+- Conversation form
+
+- Session form
+
+> [!div class=mx-imgBorder]
+> ![Select activities in the sitemap to view the list of forms](../../media/oceh-oc-activities-list.png "Select activities in the sitemap")
 
 ### Conversation Form
 
