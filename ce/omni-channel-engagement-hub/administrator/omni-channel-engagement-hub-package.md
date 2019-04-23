@@ -23,7 +23,7 @@ Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your co
 
 - PackageDeployer.exe
 
-- OmnichannelNewEnvironmentPackage
+- OmnichannelAddOnPackage
 
 - OmnichannelDemoPackage
 
@@ -41,7 +41,7 @@ Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your co
 
 2. In the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the Customer Engagement instance where you want to deploy the package.
 
-3. The next screen displays information about the packages. Select the **Unified Service Desk - Omni-channel Engagement Hub - Preview - New Environment** or **Unified Service Desk - Omni-channel Engagement Hub - Preview - Demo** to install on your Customer Engagement instance. Review the information, and choose **Next**.
+3. The next screen displays information about the packages. Select the **Unified Service Desk - Omni-channel Engagement Hub - Preview - Add-On** or **Unified Service Desk - Omni-channel Engagement Hub - Preview - Demo** to install on your Customer Engagement instance. Review the information, and choose **Next**.
 
 4. The **Ready to Install** screen displays the package name for deployment and name of the Customer Engagement organization. Review the information, and choose **Next**.
 

@@ -1,6 +1,6 @@
 ---
-title: "Steps create communication panel related action calls | MicrosoftDocs"
-description: "Learn how add action calls, events, and hosted control to the configurations."
+title: "Create window navigation rule for communication panel | MicrosoftDocs"
+description: "Learn how to create window navigation rule for communication panel."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -18,11 +18,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The topic describes how to dynamically display the session tab name, you'll configure a session lines rules using the replacement parameters.
+The topic describes how to create window navigation rule for communication panel.
 
 ## Prerequisites
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md), [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md), [Step 3: Create action calls related to a communication panel](communication-panel-step3-create-action-calls.md), and [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md). The configurations that you completed are required for this topic.
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md), [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md), [Step 3: Create communication panel-related action calls](communication-panel-step3-create-action-calls.md), and [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md). The configurations that you completed are required for this topic.
 
 - You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
@@ -34,7 +34,7 @@ The topic describes how to dynamically display the session tab name, you'll conf
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-## Configure session name
+## Configure window navigation rule
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
@@ -80,11 +80,11 @@ The topic describes how to dynamically display the session tab name, you'll conf
 8. When you've finished, select **Save**.
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 6: Add the hosted control, action calls, and events to configurations](communication-panel-step6-add-hosted-control-action-calls-events-configurations.md) 
+> [Next topic: Step 6: Add the hosted control, action calls, window navigation rule, and events to configurations](communication-panel-step6-add-hosted-control-action-calls-events-configurations.md) 
 
 ## See also
 
 - [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md)
 - [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md)
-- [Step 3: Create action calls related to a communication panel](communication-panel-step3-create-action-calls.md)
+- [Step 3: Create communication panel-related action calls](communication-panel-step3-create-action-calls.md)
 - [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md)

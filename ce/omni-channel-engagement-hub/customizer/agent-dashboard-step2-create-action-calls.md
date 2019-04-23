@@ -1,6 +1,6 @@
 ---
 title: "Create Omni-channel Agent Dashboard-related action calls | MicrosoftDocs"
-description: "Learn how to set up the Omni-channel Agent Dashboard-related action calls for agents using Omni-channel Engagement Hub."
+description: "Learn how to create the Omni-channel Agent Dashboard-related action calls for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.assetid: C4D4CD30-059F-4BA5-A80A-DE06E1B10A72
 ms.custom: 
 ---
 
-# Step 2: Create action calls related to Omni-channel Agent Dashboard
+# Step 2: Create Omni-channel Agent Dashboard-related action calls
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -57,6 +57,8 @@ This topic demonstrates how to create Omni-channel Agent Dashboard-related actio
 6. Save the action call.
 
 7. Repeat steps 3 through 6 to create the following additional action calls.
+ 
+## Omni-channel Check Existing Session For Conversation
 
     | Tab | Field | Value |
     |------------------|------------------|------------------|
@@ -65,6 +67,8 @@ This topic demonstrates how to create Omni-channel Agent Dashboard-related actio
     | General | Action         | OmnichannelCheckExistingSessionForConversation | 
     | General | Data | ConversationId=\[\[OcConversationId\]+\] <br> OcSessionId=\[\[OcSessionId\]+\] <br> LiveWorkStreamId=\[\[LiveWorkStreamId\]+\]|
     | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
+
+## Show My Work Items Error Toast Notification
 
     | Tab | Field | Value |
     |------------------|------------------|------------------|
@@ -75,12 +79,16 @@ This topic demonstrates how to create Omni-channel Agent Dashboard-related actio
     | General | Data | formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> tack=true <br> stackHeight=56 <br> placementmode=absolute  <br> ToastNotificationText=\[\[$Resources.MyItemsErrorToastNotificationText\]+\] <br> NotificationIcon=new_omni_toast_error_icon|
     | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] >= \[\[$Global.maxNumberOfSessions\]+\] |
 
+## Initialize Omni-channel Context - Agent Home Page
+
     | Tab | Field | Value |
     |------------------|------------------|------------------|
     | General | Name           | Initialize Omni-channel Context - Agent Home Page    |
     | General | Hosted Control | Omni-channel Agent Dashboard |
     | General | Action         | RunScript | 
     | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('[[$Settings.OmniChannelConfig]+]'); <br> window.ocContext = ocConfig; <br> } <br> initOCContext();|
+
+## Initialize Omni-channel Context - Agent Home Page
 
     | Tab | Field | Value |
     |------------------|------------------|------------------|

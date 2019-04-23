@@ -1,5 +1,5 @@
 ---
-title: "Create action calls to show the notifications | MicrosoftDocs"
+title: "Create alert notification related action calls | MicrosoftDocs"
 description: "Learn how to create action calls that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
