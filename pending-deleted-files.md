@@ -90,5 +90,6 @@ ce/developer/org-service/sample-create-global-option-set.md
 ce/developer/org-service/sample-work-global-option-sets.md
 ce/developer/org-service/sample-dump-global-option-set-information-file.md
 ce/developer/org-service/sample-query-metadata-detect-changes.md
+ce\developer\org-service\perform-specialized-operations-using-update.md
 
 These files have been deleted, but the list hasn't been communicated to loc yet.
