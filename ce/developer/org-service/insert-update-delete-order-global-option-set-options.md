@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/metadata-option-sets
 title: "Insert, update, delete, and order global option set options (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017

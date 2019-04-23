@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/use-executetransaction
 title: "Sample: Execute multiple requests in transaction (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to execute multiple organization message requests in a single database transaction by using a single web service method call, passing ExecuteTransactionRequest as a parameter"
 keywords: 

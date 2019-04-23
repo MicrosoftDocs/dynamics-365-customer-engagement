@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/en-us/dotnet/api/microsoft.xrm.sdk.messages
 title: "xRM messages in the Organization service (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the data messages available in the xRM namespace"
 ms.custom: 

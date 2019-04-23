@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/samples/dump-entity-metadata-file
 title: "Sample: Dump attribute metadata to a file (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to write out all the attribute metadata to an XML file. It uses the RetrieveAllEntitiesRequest message."
 keywords: 

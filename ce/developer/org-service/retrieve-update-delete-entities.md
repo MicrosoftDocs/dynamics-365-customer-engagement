@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/metadata-retrieve-update-delete-entities
 title: "Retrieve, update, and delete entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn how to retrieve, update, and delete an entity by using the custom entity."
 ms.custom: 

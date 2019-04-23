@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/create-update-entity-emailed
 title: "Create and update an entity to send email activities to records | MicrosoftDocs"
 description: "Learn about creating an entity that contains an email address you can use to send email activities to records for that entity."
 ms.custom: 

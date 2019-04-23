@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/samples/dump-entity-metadata-file
 title: "Sample: Dump entity privilege information to a file (Dynamics 365 for Customer Engagement apps SDK) | MicrosoftDocs"
 description: "This sample shows how to extract entity privilege information into a file using the organization service."
 keywords: 
