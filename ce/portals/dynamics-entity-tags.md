@@ -2,7 +2,7 @@
 title: "Use Dynamics 365 for Customer Engagement tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about Dynamics 365 for Customer Engagement tags available in portal"
 keywords: "Dynamics 365 for Customer Engagement tags; liquid tags"
-ms.date: 04/22/2019
+ms.date: 04/23/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -128,7 +128,7 @@ Roles assigned to the Power BI report. This parameter works only when the **auth
 If you have defined roles in Power BI and assigned them to reports, you must specify the appropriate roles in the **powerbi** Liquid tag. Roles allow you to filter the data to be displayed in a report. You can specify multiple roles separated by a comma. For more information on defining roles in Power BI, see [Row-level security (RLS) with Power BI](https://docs.microsoft.com/en-us/power-bi/service-admin-rls).
 
 ```
-{% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000000/ReportSection2" roles:"Region_East" %}
+{% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000000/ReportSection2" roles:"Region_East,Region_West" %}
 ```
 
 If you have assigned a role to a Power BI report and don't specify the **roles** parameter in the Liquid tag or don't specify a role in the parameter, an error is displayed.
